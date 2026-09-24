@@ -1266,20 +1266,6 @@ let events2025 = [
         ]
     },
     {
-        id: 'SPB_20250614_1',
-        date: '2025-06-14',
-        endDate: '2025-06-19',
-        place: 'Пруды',
-        name: 'Камни Карельского Перешейка',
-        o_site: '250616-19_KKP',
-        reg: 'http://sportident.online/entry/?id=6379',
-        photo: 'https://vk.ru/album-227779225_309822985',
-        video: 'https://www.youtube.com/watch?v=VLJFZh0gfLI',
-        start: 'KKP',
-        map: 'kkp_prudy_2023_06_19',
-        me: 'М50'
-    },
-    {
         id: 'SPB_20250614_2',
         date: '2025-06-14',
         place: 'Пруды',
@@ -1308,7 +1294,22 @@ let events2025 = [
         video: 'https://vkvideo.ru/video-93257360_456239276'
     },
     {
+        id: 'SPB_20250614_1',
+        date: '2025-06-16',
+        endDate: '2025-06-19',
+        place: 'Пруды',
+        name: 'Камни Карельского Перешейка',
+        o_site: '250616-19_KKP',
+        reg: 'http://sportident.online/entry/?id=6379',
+        photo: 'https://vk.ru/album-227779225_309822985',
+        video: 'https://www.youtube.com/watch?v=VLJFZh0gfLI',
+        start: 'KKP',
+        map: 'kkp_prudy_2023_06_19',
+        me: 'М50'
+    },
+    {
         id: 'SPB_20250616_1',
+        parent: 'SPB_20250614_1',
         date: '2025-06-16',
         place: 'Пруды',
         name: 'ККП #1',
@@ -1330,6 +1331,7 @@ let events2025 = [
     },
     {
         id: 'SPB_20250617_1',
+        parent: 'SPB_20250614_1',
         date: '2025-06-17',
         place: 'Пруды',
         name: 'ККП #2',
@@ -1351,6 +1353,7 @@ let events2025 = [
     },
     {
         id: 'SPB_20250618_1',
+        parent: 'SPB_20250614_1',
         date: '2025-06-18',
         place: 'Пруды',
         name: 'ККП #3',
@@ -1369,6 +1372,7 @@ let events2025 = [
     },
     {
         id: 'SPB_20250619_1',
+        parent: 'SPB_20250614_1',
         date: '2025-06-19',
         place: 'Пруды',
         name: 'ККП #4',

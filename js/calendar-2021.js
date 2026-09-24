@@ -1077,25 +1077,6 @@ let events2021 = [
         map: 'losevo_velo_2021'
     },
     {
-        id: 'SPB_20210612_2',
-        date: '2021-06-12',
-        endDate: '2021-06-18',
-        place: 'Каменногорск',
-        name: 'Кубок Карельского Перешейка',
-        reg: 'https://sportident.online/entry/?id=4855',
-        res: 'https://o-site.spb.ru/_races/210612-18_KKP/210613-24_vseros.rar',
-        info: 'В рамках соревнований "Кубок Карельского Перешейка - 2021" состоятся: 12 июня - Трейл «Скалы бесконечности». 12 июня - Ночная эстафета по ориентированию «Пирамида». Заявка. 13 июня - Детская эстафета по ориентированию «Каменюкола». Заявка.',
-        video: [
-            'https://www.youtube.com/watch?v=91gHZ73pbJ4',
-            'https://www.youtube.com/watch?v=OLftfHGY-Xw',
-            'https://www.youtube.com/watch?v=QBYO0G-YnJ0',
-            'https://www.youtube.com/watch?v=vnw0VrvQi1k'
-        ],
-        start: 'KKP',
-        o_site: '210612-18_KKP',
-        strava: [5458197904,5462673247,5485783437,5489340513]
-    },
-    {
         id: 'SPB_20210612_3',
         date: '2021-06-12',
         place: 'Каменногорск',
@@ -1138,7 +1119,27 @@ let events2021 = [
         start: 'ROGAINE_110'
     },
     {
+        id: 'SPB_20210612_2',
+        date: '2021-06-14',
+        endDate: '2021-06-17',
+        place: 'Каменногорск',
+        name: 'Кубок Карельского Перешейка',
+        reg: 'https://sportident.online/entry/?id=4855',
+        res: 'https://o-site.spb.ru/_races/210612-18_KKP/210613-24_vseros.rar',
+        info: 'В рамках соревнований "Кубок Карельского Перешейка - 2021" состоятся: 12 июня - Трейл «Скалы бесконечности». 12 июня - Ночная эстафета по ориентированию «Пирамида». Заявка. 13 июня - Детская эстафета по ориентированию «Каменюкола». Заявка.',
+        video: [
+            'https://www.youtube.com/watch?v=91gHZ73pbJ4',
+            'https://www.youtube.com/watch?v=OLftfHGY-Xw',
+            'https://www.youtube.com/watch?v=QBYO0G-YnJ0',
+            'https://www.youtube.com/watch?v=vnw0VrvQi1k'
+        ],
+        start: 'KKP',
+        o_site: '210612-18_KKP',
+        strava: [5458197904,5462673247,5485783437,5489340513]
+    },
+    {
         id: 'SPB_20210614_1',
+        parent: 'SPB_20210612_2',
         date: '2021-06-14',
         place: 'Каменногорск',
         name: 'ККП #1',
@@ -1161,6 +1162,7 @@ let events2021 = [
     },
     {
         id: 'SPB_20210615_1',
+        parent: 'SPB_20210612_2',
         date: '2021-06-15',
         place: 'Каменногорск',
         name: 'ККП #2',
@@ -1176,6 +1178,7 @@ let events2021 = [
     },
     {
         id: 'SPB_20210616_1',
+        parent: 'SPB_20210612_2',
         date: '2021-06-16',
         place: 'Каменногорск',
         name: 'ККП #3',
@@ -1191,6 +1194,7 @@ let events2021 = [
     },
     {
         id: 'SPB_20210617_1',
+        parent: 'SPB_20210612_2',
         date: '2021-06-17',
         place: 'Каменногорск',
         name: 'ККП #4',

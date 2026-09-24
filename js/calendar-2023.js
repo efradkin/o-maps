@@ -1004,23 +1004,6 @@ let events2023 = [
         }
     },
     {
-        id: 'SPB_20230617_1',
-        date: '2023-06-17',
-        endDate: '2023-06-22',
-        place: 'Пруды',
-        name: 'Камни Карельского Перешейка 2023',
-        start: 'KKP',
-        o_site: '230617-22_KKP',
-        video: [
-            'https://vksport.vkvideo.ru/video-93257360_456239221',
-            'https://www.youtube.com/watch?v=DYPQbahZwtc',
-            'https://www.youtube.com/watch?v=b8r-CSOze84',
-            'https://www.youtube.com/watch?v=HV-j7omktaE',
-            'https://www.youtube.com/watch?v=y7GxLpH4J98',
-        ],
-        map: 'kkp_prudy_2023_06_17'
-    },
-    {
         id: 'SPB_20230617_2',
         date: '2023-06-17',
         place: 'Пруды',
@@ -1073,7 +1056,25 @@ let events2023 = [
         strava: 9638656656
     },
     {
+        id: 'SPB_20230617_1',
+        date: '2023-06-19',
+        endDate: '2023-06-22',
+        place: 'Пруды',
+        name: 'Камни Карельского Перешейка 2023',
+        start: 'KKP',
+        o_site: '230617-22_KKP',
+        video: [
+            'https://vksport.vkvideo.ru/video-93257360_456239221',
+            'https://www.youtube.com/watch?v=DYPQbahZwtc',
+            'https://www.youtube.com/watch?v=b8r-CSOze84',
+            'https://www.youtube.com/watch?v=HV-j7omktaE',
+            'https://www.youtube.com/watch?v=y7GxLpH4J98',
+        ],
+        map: 'kkp_prudy_2023_06_17'
+    },
+    {
         id: 'SPB_20230619_1',
+        parent: 'SPB_20230617_1',
         date: '2023-06-19',
         place: 'Пруды',
         name: 'ККП 2023 #1',
@@ -1107,6 +1108,7 @@ let events2023 = [
     },
     {
         id: 'SPB_20230620_1',
+        parent: 'SPB_20230617_1',
         date: '2023-06-20',
         place: 'Пруды',
         name: 'ККП 2023 #2',
@@ -1138,6 +1140,7 @@ let events2023 = [
     },
     {
         id: 'SPB_20230621_1',
+        parent: 'SPB_20230617_1',
         date: '2023-06-21',
         place: 'Пруды',
         name: 'ККП 2023 #3',
@@ -1156,6 +1159,7 @@ let events2023 = [
     },
     {
         id: 'SPB_20230622_1',
+        parent: 'SPB_20230617_1',
         date: '2023-06-22',
         place: 'Пруды',
         name: 'ККП 2023 #4',

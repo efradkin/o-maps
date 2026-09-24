@@ -953,29 +953,6 @@ let events2022 = [
         start: 'RUSSIA_CHAMP'
     },
     {
-        id: 'SPB_20220611_2',
-        date: '2022-06-11',
-        endDate: '2022-06-16',
-        place: 'Выборг',
-        name: 'Камни Карельского Перешейка 2022',
-        reg: 'http://sportident.online/entry/?id=5132',
-        res: 'http://o-site.spb.ru/_races/220613-16_KKP/220611_Piramida_result.htm',
-        split: [
-            'splits/2022/SPB_20220611_2_1_split.htm',
-            'splits/2022/SPB_20220611_2_2_split.htm',
-            'splits/2022/SPB_20220611_2_3_split.htm',
-            'splits/2022/SPB_20220611_2_4_split.htm',
-            'splits/2022/SPB_20220611_2_5_split.htm',
-            'splits/2022/SPB_20220611_2_6_split.htm'
-        ],
-        info: 'В рамках соревнований "Камни Карельского Перешейка 2022" также состоятся: 11 июня - Трейл «Царь скалы» Сайт трейла 11 июня - Ночная эстафета по ориентированию «Пирамида» Заявка Результаты Сплиты Видеотрансляция ВК 12 июня - Детская эстафета по ориентированию «Каменюкола» Заявка Результаты Сплиты Видеотрансляция ВК',
-        video: [
-            'https://www.youtube.com/watch?v=jtpjjOZBJpY',
-        ],
-        start: 'KKP',
-        o_site: '220613-16_KKP'
-    },
-    {
         id: 'SPB_20220611_4',
         date: '2022-06-11',
         place: 'Выборг',
@@ -1058,7 +1035,31 @@ let events2022 = [
         o_site: '220618_trailo'
     },
     {
+        id: 'SPB_20220611_2',
+        date: '2022-06-13',
+        endDate: '2022-06-16',
+        place: 'Выборг',
+        name: 'Камни Карельского Перешейка 2022',
+        reg: 'http://sportident.online/entry/?id=5132',
+        res: 'http://o-site.spb.ru/_races/220613-16_KKP/220611_Piramida_result.htm',
+        split: [
+            'splits/2022/SPB_20220611_2_1_split.htm',
+            'splits/2022/SPB_20220611_2_2_split.htm',
+            'splits/2022/SPB_20220611_2_3_split.htm',
+            'splits/2022/SPB_20220611_2_4_split.htm',
+            'splits/2022/SPB_20220611_2_5_split.htm',
+            'splits/2022/SPB_20220611_2_6_split.htm'
+        ],
+        info: 'В рамках соревнований "Камни Карельского Перешейка 2022" также состоятся: 11 июня - Трейл «Царь скалы» Сайт трейла 11 июня - Ночная эстафета по ориентированию «Пирамида» Заявка Результаты Сплиты Видеотрансляция ВК 12 июня - Детская эстафета по ориентированию «Каменюкола» Заявка Результаты Сплиты Видеотрансляция ВК',
+        video: [
+            'https://www.youtube.com/watch?v=jtpjjOZBJpY',
+        ],
+        start: 'KKP',
+        o_site: '220613-16_KKP'
+    },
+    {
         id: 'SPB_20220613_2',
+        parent: 'SPB_20220611_2',
         date: '2022-06-13',
         place: 'Выборг',
         name: 'ККП #1',
@@ -1085,6 +1086,7 @@ let events2022 = [
     },
     {
         id: 'SPB_20220614_1',
+        parent: 'SPB_20220611_2',
         date: '2022-06-14',
         place: 'Выборг',
         name: 'ККП #2',
@@ -1119,6 +1121,7 @@ let events2022 = [
     },
     {
         id: 'SPB_20220615_1',
+        parent: 'SPB_20220611_2',
         date: '2022-06-15',
         place: 'Выборг',
         name: 'ККП #3',
@@ -1144,6 +1147,7 @@ let events2022 = [
     },
     {
         id: 'SPB_20220616_1',
+        parent: 'SPB_20220611_2',
         date: '2022-06-16',
         place: 'Выборг',
         name: 'ККП #4',

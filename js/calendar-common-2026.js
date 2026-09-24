@@ -230,6 +230,7 @@ let commonEvents2026 = [
     },
     {
         id: 'SPB_20260616_2',
+        parent: 'SPB_20260616_1',
         date: '2026-06-16',
         name: 'ККП #1',
         place: 'Пруды',
@@ -256,6 +257,7 @@ let commonEvents2026 = [
     },
     {
         id: 'SPB_20260617_1',
+        parent: 'SPB_20260616_1',
         date: '2026-06-17',
         name: 'ККП #2',
         place: 'Пруды',
@@ -282,6 +284,7 @@ let commonEvents2026 = [
     },
     {
         id: 'SPB_20260618_1',
+        parent: 'SPB_20260616_1',
         date: '2026-06-18',
         name: 'ККП #3',
         place: 'Пруды',
@@ -308,6 +311,7 @@ let commonEvents2026 = [
     },
     {
         id: 'SPB_20260619_1',
+        parent: 'SPB_20260616_1',
         date: '2026-06-19',
         name: 'ККП #4',
         place: 'Пруды',
@@ -332,6 +336,7 @@ let commonEvents2026 = [
     },
     {
         id: 'SPB_20260620_1',
+        parent: 'SPB_20260616_1',
         date: '2026-06-20',
         name: 'ККП #5',
         place: 'Пруды',

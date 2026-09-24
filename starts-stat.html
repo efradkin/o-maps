@@ -597,6 +597,9 @@
 
             for (const e of events) {
                 if (!e || !e.start || !e.date) continue;
+                /* Запись с parent — часть другой записи календаря; её дни
+                   учтены у родителя, второй раз считать не надо. */
+                if (e.parent !== undefined) continue;
                 if (e.id) {
                     if (seenIds.has(e.id)) continue;   // один и тот же старт в двух календарях
                     seenIds.add(e.id);

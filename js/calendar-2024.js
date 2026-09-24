@@ -1022,23 +1022,6 @@ let events2024 = [
         map: 'pitkaranta_rfar_2024'
     },
     {
-        id: 'SPB_20240615_1',
-        date: '2024-06-15',
-        endDate: '2024-06-21',
-        place: 'Каменногорск',
-        name: 'Камни Карельского Перешейка',
-        reg: 'http://sportident.online/entry/?id=5930',
-        video: [
-            'http://northernwind.spb.ru/videosplit/2024/KKP/d1',
-            'http://northernwind.spb.ru/videosplit/2024/KKP/d2',
-            'http://northernwind.spb.ru/videosplit/2024/KKP/d4',
-            'https://www.youtube.com/watch?v=av3s0YPh2eg'
-        ],
-        start: 'KKP',
-        o_site: '240615-20_KKP',
-        strava: [11675022463,11681133944,11688407003,11696132252]
-    },
-    {
         id: 'SPB_20240615_2',
         date: '2024-06-15',
         place: 'Каменногорск',
@@ -1079,7 +1062,25 @@ let events2024 = [
         o_site: '240616'
     },
     {
+        id: 'SPB_20240615_1',
+        date: '2024-06-17',
+        endDate: '2024-06-21',
+        place: 'Каменногорск',
+        name: 'Камни Карельского Перешейка',
+        reg: 'http://sportident.online/entry/?id=5930',
+        video: [
+            'http://northernwind.spb.ru/videosplit/2024/KKP/d1',
+            'http://northernwind.spb.ru/videosplit/2024/KKP/d2',
+            'http://northernwind.spb.ru/videosplit/2024/KKP/d4',
+            'https://www.youtube.com/watch?v=av3s0YPh2eg'
+        ],
+        start: 'KKP',
+        o_site: '240615-20_KKP',
+        strava: [11675022463,11681133944,11688407003,11696132252]
+    },
+    {
         id: 'SPB_20240617_1',
+        parent: 'SPB_20240615_1',
         date: '2024-06-17',
         place: 'Каменногорск',
         name: 'ККП 2024 #1',
@@ -1106,6 +1107,7 @@ let events2024 = [
     },
     {
         id: 'SPB_20240618_1',
+        parent: 'SPB_20240615_1',
         date: '2024-06-18',
         place: 'Каменногорск',
         name: 'ККП 2024 #2',
@@ -1131,6 +1133,7 @@ let events2024 = [
     },
     {
         id: 'SPB_20240619_1',
+        parent: 'SPB_20240615_1',
         date: '2024-06-19',
         place: 'Каменногорск',
         name: 'ККП 2024 #3',
@@ -1150,6 +1153,7 @@ let events2024 = [
     },
     {
         id: 'SPB_20240620_1',
+        parent: 'SPB_20240615_1',
         date: '2024-06-20',
         place: 'Каменногорск',
         name: 'ККП 2024 #4',
