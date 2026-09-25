@@ -995,6 +995,15 @@ let events2016 = [
         map: 'zaporozhskoe_2016'
     },
     {
+        id: 'SPB_20160703_1',
+        date: '2016-07-03',
+        place: 'Мельничный ручей',
+        name: 'Яркий Кубок 2016, 4-й этап',
+        res: 'http://www.o-site.spb.ru/_races/2016YC/160703_split.htm',
+        o_site: '2016YC',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20160708_1',
         date: '2016-07-08',
         place: 'Ржевский л/п',
@@ -1150,22 +1159,6 @@ let events2016 = [
         name: 'Ржевская тропа здоровья, 4-й этап',
         place: 'СК Арена',
         res: 'https://o-site.spb.ru/_races/160628/160824_res.pdf',
-        o_site: '160628'
-    },
-    {
-        id: 'SPB_20160703_1',
-        date: '2016-07-03',
-        place: 'Мельничный ручей',
-        name: 'Яркий Кубок 2016, 4-й этап',
-        res: 'http://www.o-site.spb.ru/_races/2016YC/160703_split.htm',
-        o_site: '2016YC',
-        start: 'YM_CUP'
-    },
-    {
-        id: 'SPB_20160708_1',
-        date: '2016-07-08',
-        name: 'Ржевская тропа здоровья, 2-й этап',
-        res: 'http://www.o-site.spb.ru/_races/160628/160708_res.htm',
         o_site: '160628'
     },
     {

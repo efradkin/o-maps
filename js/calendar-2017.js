@@ -269,17 +269,6 @@ let events2017 = [
         o_site: '170308'
     },
     {
-        id: 'SPB_20170312_1',
-        date: '2017-03-12',
-        place: 'Нижний (Отдельный) парк, Пушкин',
-        name: 'Весёлый Ветер',
-        reg: 'http://o-reg.spb.ru/entry-list?id=706',
-        res: 'https://o-site.spb.ru/_races/170312/170312_res.htm',
-        photo: 'http://vk.com/album-9087078_242268462',
-        o_site: '170312',
-        map: 'pushkin_nizhny_2019'
-    },
-    {
         id: 'SPB_20170312_2',
         date: '2017-03-11',
         endDate: '2017-03-12',
@@ -293,6 +282,17 @@ let events2017 = [
         ],
         start: 'VSEV_VESTI',
         o_site: '17031112'
+    },
+    {
+        id: 'SPB_20170312_1',
+        date: '2017-03-12',
+        place: 'Пушкин, Нижний (Отдельный) парк',
+        name: 'Весёлый Ветер',
+        reg: 'http://o-reg.spb.ru/entry-list?id=706',
+        res: 'https://o-site.spb.ru/_races/170312/170312_res.htm',
+        photo: 'http://vk.com/album-9087078_242268462',
+        o_site: '170312',
+        map: 'pushkin_nizhny_2019'
     },
     {
         id: 'SPB_20170312_3',
@@ -337,16 +337,6 @@ let events2017 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/170319_split.htm',
         o_site: '2017WN'
-    },
-    {
-        id: 'SPB_20170401_2',
-        date: '2017-04-01',
-        // endDate: '2017-10-31',
-        name: 'Кузьмоловские старты',
-        start: 'KUZMOLOVSKY_STARTS',
-        res: 'https://o-site.spb.ru/_races/2017_KS/171005_res.htm',
-        info: 'Серия тренировочных стартов в окрестностях поселка Кузьмоловский',
-        o_site: '2017_KS'
     },
     {
         id: 'SPB_20170408_1',
@@ -447,6 +437,15 @@ let events2017 = [
         res: 'https://reg.o-time.ru/race/17081'
     },
     {
+        id: 'SPB_20170413_1',
+        date: '2017-04-13',
+        place: 'Карабсельки',
+        name: 'Кузьмоловские старты, 1 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/2017_KS/170413_res.htm',
+        o_site: '2017_KS'
+    },
+    {
         id: 'SPB_20170414_1',
         date: '2017-04-14',
         endDate: '2017-04-15',
@@ -496,6 +495,15 @@ let events2017 = [
         res: 'https://reg.o-time.ru/race/17082'
     },
     {
+        id: 'SPB_20170420_1',
+        date: '2017-04-20',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 2 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/2017_KS/170420_res.htm',
+        o_site: '2017_KS'
+    },
+    {
         id: 'SPB_20170422_1',
         date: '2017-04-22',
         name: 'TrailAdventure',
@@ -540,6 +548,15 @@ let events2017 = [
         start: 'SPRINT_TOUR',
         map: 'serebrjany_prud_2018',
         res: 'https://reg.o-time.ru/race/17083'
+    },
+    {
+        id: 'SPB_20170427_1',
+        date: '2017-04-27',
+        place: 'оз Вероярви',
+        name: 'Кузьмоловские старты, 3 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/2017_KS/170427_res.htm',
+        o_site: '2017_KS'
     },
     {
         id: 'SPB_20170429_1',
@@ -732,6 +749,15 @@ let events2017 = [
         res: 'https://reg.o-time.ru/race/17084'
     },
     {
+        id: 'SPB_20170511_1',
+        date: '2017-05-11',
+        place: 'Осельки',
+        name: 'Кузьмоловские старты, 4 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/2017_KS/170511_res.htm',
+        o_site: '2017_KS'
+    },
+    {
         id: 'SPB_20170513_1',
         date: '2017-05-13',
         endDate: '2017-05-14',
@@ -784,6 +810,15 @@ let events2017 = [
         start: 'SPRINT_TOUR',
         map: 'berezovy_sad_2016',
         res: 'https://reg.o-time.ru/race/17085'
+    },
+    {
+        id: 'SPB_20170518_1',
+        date: '2017-05-18',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 5 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/2017_KS/170518_res.htm',
+        o_site: '2017_KS'
     },
     {
         id: 'SPB_20170519_1',
@@ -880,6 +915,15 @@ let events2017 = [
         res: 'https://reg.o-time.ru/race/17086'
     },
     {
+        id: 'SPB_20170525_1',
+        date: '2017-05-25',
+        place: 'Охта-парк',
+        name: 'Кузьмоловские старты, 6 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/2017_KS/170525_res.htm',
+        o_site: '2017_KS'
+    },
+    {
         id: 'SPB_20170527_1',
         date: '2017-05-27',
         place: 'Выборг',
@@ -957,6 +1001,15 @@ let events2017 = [
         start: 'SPRINT_TOUR',
         map: 'bumazhnaya_2015',
         res: 'https://reg.o-time.ru/race/17087'
+    },
+    {
+        id: 'SPB_20170601_1',
+        date: '2017-06-01',
+        place: 'Медный',
+        name: 'Кузьмоловские старты, 7 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/2017_KS/170601_res.htm',
+        o_site: '2017_KS'
     },
     {
         id: 'SPB_20170602_1',
@@ -1390,6 +1443,15 @@ let events2017 = [
         res: 'https://reg.o-time.ru/race/17088'
     },
     {
+        id: 'SPB_20170907_1',
+        date: '2017-09-07',
+        place: 'Юкки',
+        name: 'Кузьмоловские старты, 8 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/2017_KS/170907_res.htm',
+        o_site: '2017_KS'
+    },
+    {
         id: 'SPB_20170909_1',
         date: '2017-09-09',
         endDate: '2017-09-10',
@@ -1449,6 +1511,15 @@ let events2017 = [
         res: 'https://reg.o-time.ru/race/17089'
     },
     {
+        id: 'SPB_20170914_1',
+        date: '2017-09-14',
+        place: 'Кавголово',
+        name: 'Кузьмоловские старты, 9 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/2017_KS/170914_res.htm',
+        o_site: '2017_KS'
+    },
+    {
         id: 'SPB_20170916_1',
         date: '2017-09-16',
         name: 'Вело-О на Велопитере',
@@ -1489,6 +1560,15 @@ let events2017 = [
         map: 'big_okhta_2017',
         o_site: '170412_ST',
         res: 'https://reg.o-time.ru/race/17090'
+    },
+    {
+        id: 'SPB_20170921_1',
+        date: '2017-09-21',
+        place: 'Ново-Токсово',
+        name: 'Кузьмоловские старты, 10 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/2017_KS/170921_res.htm',
+        o_site: '2017_KS'
     },
     {
         id: 'SPB_20170922_1',
@@ -1564,6 +1644,15 @@ let events2017 = [
         place: 'сад Юннатов',
         reg: 'http://o-reg.spb.ru/entry-list?id=795',
         o_site: '170927'
+    },
+    {
+        id: 'SPB_20170928_1',
+        date: '2017-09-28',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 11 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/2017_KS/170928_res.htm',
+        o_site: '2017_KS'
     },
     {
         id: 'SPB_20170929_1',
@@ -1667,6 +1756,15 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/171004_PPKI/171004_PPKI_rez.htm',
         split: 'splits/2017/SPB_20171004_2_split.htm',
         o_site: '171004_PPKI'
+    },
+    {
+        id: 'SPB_20171005_1',
+        date: '2017-10-05',
+        place: 'Токсово, Зубровник',
+        name: 'Кузьмоловские старты, 12 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/2017_KS/171005_res.htm',
+        o_site: '2017_KS'
     },
     {
         id: 'SPB_20171007_1',
