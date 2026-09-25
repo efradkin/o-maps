@@ -1346,13 +1346,6 @@ let events2016 = [
         o_site: '161001v'
     },
     {
-        id: 'SPB_20161001_3',
-        date: '2016-10-01',
-        name: 'Серия тренировочных стартов',
-        o_site: '161105',
-        map: 'toksovo_malinovaya_gora_2013'
-    },
-    {
         id: 'SPB_20161001_4',
         date: '2016-10-01',
         place: 'Ягодное',
@@ -1584,7 +1577,9 @@ let events2016 = [
         place: 'Малиновая гора',
         name: 'Цикл стартов МаТрёшка, 1 этап',
         start: 'MATRESHKA',
-        o_site: '161105'
+        res: 'https://o-site.spb.ru/_races/161105/161030_rez_mat.htm',
+        o_site: '161105',
+        map: 'toksovo_malinovaya_gora_2013'
     },
     {
         id: 'SPB_20161104_1',
@@ -1605,6 +1600,7 @@ let events2016 = [
         place: 'Охта-парк',
         name: 'Цикл стартов МаТрёшка, 2 этап',
         start: 'MATRESHKA',
+        res: 'https://o-site.spb.ru/_races/161105/161105matr_rez.htm',
         o_site: '161105'
     },
     {

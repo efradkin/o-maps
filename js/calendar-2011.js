@@ -196,16 +196,6 @@ let events2011 = [
         o_site: '110327_Or'
     },
     {
-        id: 'SPB_20110401_1',
-        date: '2011-04-01',
-        name: 'Весенний Кубок команды 110%',
-        res: 'https://o-site.spb.ru/_races/110602/110602_res.pdf',
-        info: 'Открытые тренировки по ориентированию 1 этап 2 этап 3 этап 4 этап 5 этап 6 этап',
-        start: 'ROGAINE_110',
-        o_site: '110602',
-        // endDate: '2011-06-30'
-    },
-    {
         id: 'SPB_20110401_2',
         date: '2011-04-01',
         name: 'Летний Кубок СПб и ЛО',
@@ -242,6 +232,15 @@ let events2011 = [
         o_site: '110410_tropa'
     },
     {
+        id: 'SPB_20110414_1',
+        date: '2011-04-14',
+        place: 'Энколово',
+        name: 'Весенний Кубок команды 110%, 1 этап',
+        res: 'https://o-site.spb.ru/_races/110602/110414_split.htm',
+        start: 'ROGAINE_110',
+        o_site: '110602'
+    },
+    {
         id: 'SPB_20110417_1',
         date: '2011-04-17',
         name: 'Спринт в Кузьмолово',
@@ -258,6 +257,15 @@ let events2011 = [
         o_site: '110327_Or'
     },
     {
+        id: 'SPB_20110421_1',
+        date: '2011-04-21',
+        place: 'Токсово',
+        name: 'Весенний Кубок команды 110%, 2 этап',
+        res: 'https://o-site.spb.ru/_races/110602/110421_split.htm',
+        start: 'ROGAINE_110',
+        o_site: '110602'
+    },
+    {
         id: 'SPB_20110424_1',
         date: '2011-04-24',
         place: 'Энколово',
@@ -265,6 +273,15 @@ let events2011 = [
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110424_split.htm',
         o_site: '2011CupYM',
         start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20110426_1',
+        date: '2011-04-26',
+        place: 'Карабсельки',
+        name: 'Весенний Кубок команды 110%, 3 этап',
+        res: 'https://o-site.spb.ru/_races/110602/110426_split.htm',
+        start: 'ROGAINE_110',
+        o_site: '110602'
     },
     {
         id: 'SPB_20110430_1',
@@ -320,6 +337,15 @@ let events2011 = [
         owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '110327_Or'
+    },
+    {
+        id: 'SPB_20110512_1',
+        date: '2011-05-12',
+        place: 'Юкки',
+        name: 'Весенний Кубок команды 110%, 4 этап',
+        res: 'https://o-site.spb.ru/_races/110602/110512_split.htm',
+        start: 'ROGAINE_110',
+        o_site: '110602'
     },
     {
         id: 'SPB_20110514_1',
@@ -382,6 +408,15 @@ let events2011 = [
         map: 'sosnovka_2011'
     },
     {
+        id: 'SPB_20110519_1',
+        date: '2011-05-19',
+        place: 'Кавголово',
+        name: 'Весенний Кубок команды 110%, 5 этап',
+        res: 'https://o-site.spb.ru/_races/110602/110519_split.htm',
+        start: 'ROGAINE_110',
+        o_site: '110602'
+    },
+    {
         id: 'SPB_20110520_1',
         date: '2011-05-20',
         endDate: '2011-05-22',
@@ -438,6 +473,15 @@ let events2011 = [
         map: 'toksovo_malinovaya_gora_1997'
     },
     {
+        id: 'SPB_20110526_1',
+        date: '2011-05-26',
+        place: 'Кузьмолово',
+        name: 'Весенний Кубок команды 110%, 6 этап',
+        res: 'https://o-site.spb.ru/_races/110602/110526_res.pdf',
+        start: 'ROGAINE_110',
+        o_site: '110602'
+    },
+    {
         id: 'SPB_20110528_1',
         date: '2011-05-28',
         place: 'Кузьмолово (карьер)',
@@ -478,6 +522,15 @@ let events2011 = [
         info: 'Тренировка по подготовке к Jukola 2011',
         start: 'ROGAINE_110',
         o_site: '110601'
+    },
+    {
+        id: 'SPB_20110602_1',
+        date: '2011-06-02',
+        place: 'Токсово',
+        name: 'Весенний Кубок команды 110%, 7 этап',
+        res: 'https://o-site.spb.ru/_races/110602/110602_split.htm',
+        start: 'ROGAINE_110',
+        o_site: '110602'
     },
     {
         id: 'SPB_20110603_1',

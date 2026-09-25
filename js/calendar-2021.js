@@ -538,19 +538,6 @@ let events2021 = [
         map: 'enkolovo_2021'
     },
     {
-        id: 'SPB_20210501_2',
-        date: '2021-05-01',
-        name: 'Открытые тренировки МТБО',
-        place: 'Парголово, Осиновая Роща, Шуваловский парк, Сестрорецк',
-        type: 'VELO',
-        reg: 'http://www.o-reg.spb.ru/entry-list?id=1263',
-        res: 'https://o-site.spb.ru/_races/210527_mtbo/210527_rez.htm',
-        info: '27 мая 2021 г. СПб, Парголово, Осиновая Роща 2 июня 2021 г. СПб, Парголово, Шуваловский парк 25 июня 2021 г. СПб, Сестрорецк, Детские Дюны Заявка на 2 этап: http://www.o-reg.spb.ru/entry-list?id=1263 Заявка на 3 этап: http://www.o-reg.spb.ru/entry-list?id=1264 Заявка на 4 этап: http://www.o-reg.spb.ru/entry-list?id=1265',
-        o_site: '210527_mtbo',
-        // endDate: '2021-06-30',
-        map: ['osinovaja_roscha_velo_2020','sestroretskie_detskie_djuny_2020']
-    },
-    {
         id: 'SPB_20210501_3',
         date: '2021-05-01',
         name: 'Кубок федераций СПб и ЛО',
@@ -813,6 +800,17 @@ let events2021 = [
         photo: 'https://vk.ru/album-92124592_279543597'
     },
     {
+        id: 'SPB_20210527_1',
+        date: '2021-05-27',
+        place: 'Осиновая Роща',
+        name: 'Открытая тренировка МТБО',
+        type: 'VELO',
+        reg: 'http://www.o-reg.spb.ru/entry-list?id=1263',
+        res: 'https://o-site.spb.ru/_races/210527_mtbo/210527_rez.htm',
+        o_site: '210527_mtbo',
+        map: 'osinovaja_roscha_velo_2020'
+    },
+    {
         id: 'SPB_20210529_1',
         date: '2021-05-29',
         endDate: '2021-05-30',
@@ -906,6 +904,16 @@ let events2021 = [
         res: 'http://o-site.spb.ru/_races/210601/PROTOKOLY.pdf',
         info: 'Дистанция спринт (TempO), 5 станций по 5 задач.',
         o_site: '210601'
+    },
+    {
+        id: 'SPB_20210602_1',
+        date: '2021-06-02',
+        place: 'Шуваловский парк',
+        name: 'Открытая тренировка МТБО',
+        type: 'VELO',
+        reg: 'http://www.o-reg.spb.ru/entry-list?id=1264',
+        res: 'https://o-site.spb.ru/_races/210527_mtbo/20210602split.htm',
+        o_site: '210527_mtbo'
     },
     {
         id: 'SPB_20210603_1',
@@ -1169,6 +1177,17 @@ let events2021 = [
         start: 'WN',
         o_site: '210627',
         map: 'wn_2021_06_25'
+    },
+    {
+        id: 'SPB_20210625_2',
+        date: '2021-06-25',
+        place: 'Детские Дюны',
+        name: 'Открытая тренировка МТБО',
+        type: 'VELO',
+        reg: 'http://www.o-reg.spb.ru/entry-list?id=1265',
+        res: 'https://o-site.spb.ru/_races/210527_mtbo/210625_res.pdf',
+        o_site: '210527_mtbo',
+        map: 'sestroretskie_detskie_djuny_2020'
     },
     {
         id: 'SPB_20210626_2',

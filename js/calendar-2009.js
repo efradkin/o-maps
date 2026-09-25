@@ -828,6 +828,7 @@ let events2009 = [
     {
         id: 'SPB_20090917_1',
         date: '2009-09-17',
+        place: 'Токсово',
         name: 'Осенний Кубок 110%, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/091126/090917_res.htm',
         o_site: '091126',
@@ -864,6 +865,7 @@ let events2009 = [
     {
         id: 'SPB_20090924_1',
         date: '2009-09-24',
+        place: 'Токсово',
         name: 'Осенний Кубок 110%, 2 этап',
         res: 'http://www.o-site.spb.ru/_races/091126/090924_res.htm',
         o_site: '091126',
@@ -907,6 +909,7 @@ let events2009 = [
     {
         id: 'SPB_20091001_1',
         date: '2009-10-01',
+        place: 'Осиновая роща',
         name: 'Осенний Кубок 110%, 3 этап',
         res: 'http://www.o-site.spb.ru/_races/091126/091001_res.htm',
         o_site: '091126',
@@ -944,6 +947,7 @@ let events2009 = [
     {
         id: 'SPB_20091008_1',
         date: '2009-10-08',
+        place: 'Кавголово',
         name: 'Осенний Кубок 110%, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/091126/091008_res.htm',
         o_site: '091126',
@@ -961,6 +965,7 @@ let events2009 = [
     {
         id: 'SPB_20091015_1',
         date: '2009-10-15',
+        place: 'Токсово',
         name: 'Осенний Кубок 110%, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/091126/091015_res.htm',
         o_site: '091126',
@@ -998,6 +1003,15 @@ let events2009 = [
         o_site: '091018_az',
         map: 'lembolovo_2002',
         owner: 'AZIMUT'
+    },
+    {
+        id: 'SPB_20091022_1',
+        date: '2009-10-22',
+        place: 'Токсово',
+        name: 'Осенний Кубок 110%, 6 этап',
+        res: 'http://www.o-site.spb.ru/_races/091126/091022_res.htm',
+        o_site: '091126',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20091024_1',
@@ -1103,6 +1117,15 @@ let events2009 = [
         o_site: '091112_FSO'
     },
     {
+        id: 'SPB_20091112_2',
+        date: '2009-11-12',
+        place: 'Кузьмолово',
+        name: 'Осенний Кубок 110%, 7 этап',
+        res: 'http://www.o-site.spb.ru/_races/091126/091112_res.htm',
+        o_site: '091126',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20091122_1',
         date: '2009-11-22',
         name: 'Маркир-110',
@@ -1114,7 +1137,7 @@ let events2009 = [
     {
         id: 'SPB_20091126_1',
         date: '2009-11-26',
-        name: 'Осенний Кубок 110%',
+        name: 'Осенний Кубок 110%, 8 этап',
         place: 'Кузьмоловский',
         res: 'https://o-site.spb.ru/_races/091126/091126_res.htm',
         start: 'ROGAINE_110',

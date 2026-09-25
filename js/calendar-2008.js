@@ -158,6 +158,15 @@ let events2008 = [
         map: 'udelny_2004'
     },
     {
+        id: 'SPB_20080410_1',
+        date: '2008-04-10',
+        place: 'Кузьмолово',
+        name: 'Весенний Кубок 110%, 1 этап',
+        res: 'https://o-site.spb.ru/_races/0804_cup110/080410_res.htm',
+        start: 'ROGAINE_110',
+        o_site: '0804_cup110'
+    },
+    {
         id: 'SPB_20080412_1',
         date: '2008-04-12',
         endDate: '2008-04-13',
@@ -180,6 +189,15 @@ let events2008 = [
         o_site: '08041213_U'
     },
     {
+        id: 'SPB_20080417_1',
+        date: '2008-04-17',
+        place: 'Токсово',
+        name: 'Весенний Кубок 110%, 2 этап',
+        res: 'https://o-site.spb.ru/_races/0804_cup110/080417_res.htm',
+        start: 'ROGAINE_110',
+        o_site: '0804_cup110'
+    },
+    {
         id: 'SPB_20080419_1',
         date: '2008-04-19',
         place: 'Солнечное, Дюны',
@@ -199,6 +217,15 @@ let events2008 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/080420/080420mtb_res.htm',
         o_site: '080420'
+    },
+    {
+        id: 'SPB_20080422_1',
+        date: '2008-04-22',
+        place: 'Токсово',
+        name: 'Весенний Кубок 110%, 3 этап',
+        res: 'https://o-site.spb.ru/_races/0804_cup110/080422_res.htm',
+        start: 'ROGAINE_110',
+        o_site: '0804_cup110'
     },
     {
         id: 'SPB_20080426_1',
@@ -244,17 +271,6 @@ let events2008 = [
         o_site: '08050103'
     },
     {
-        id: 'SPB_20080507_1',
-        date: '2008-05-07',
-        name: 'Весенний Кубок 110%',
-        place: 'Токсово',
-        res: 'https://o-site.spb.ru/_races/0804_cup110/080522_res.txt',
-        info: 'Серия открытых тренировок по ориентированию, проводимых командой клуба 110%',
-        start: 'ROGAINE_110',
-        o_site: '0804_cup110',
-        // endDate: '2008-05-29'
-    },
-    {
         id: 'SPB_20080509_1',
         date: '2008-05-09',
         place: 'Зеленогорск',
@@ -292,6 +308,15 @@ let events2008 = [
         o_site: '080511'
     },
     {
+        id: 'SPB_20080515_1',
+        date: '2008-05-15',
+        place: 'Кузьмолово',
+        name: 'Весенний Кубок 110%, 4 этап',
+        res: 'https://o-site.spb.ru/_races/0804_cup110/080515_res.htm',
+        start: 'ROGAINE_110',
+        o_site: '0804_cup110'
+    },
+    {
         id: 'SPB_20080517_1',
         date: '2008-05-17',
         place: 'Лемболово, оз Белое',
@@ -310,6 +335,15 @@ let events2008 = [
         type: 'VELO',
         info: 'Чемпионат Санкт-Петербурга по велоориентированию. Индивидуальная программа, заданное направление, классическая дистанция в два круга. Группы МЖ16, МЖ21, МЖ-Новички.',
         o_site: '080517_mtbo'
+    },
+    {
+        id: 'SPB_20080517_3',
+        date: '2008-05-17',
+        place: 'Пески',
+        name: 'Весенний Кубок 110%, 5 этап',
+        res: 'https://o-site.spb.ru/_races/0804_cup110/080517_res.txt',
+        start: 'ROGAINE_110',
+        o_site: '0804_cup110'
     },
     {
         id: 'SPB_20080518_1',
@@ -339,6 +373,15 @@ let events2008 = [
         fmt: 'Выбор на 45 мин. (тренировка «Российского Азимута»).',
         o_site: '080514',
         map: 'piskarevsky_1996'
+    },
+    {
+        id: 'SPB_20080522_1',
+        date: '2008-05-22',
+        place: 'Осельки',
+        name: 'Весенний Кубок 110%, 6 этап',
+        res: 'https://o-site.spb.ru/_races/0804_cup110/080522_res.txt',
+        start: 'ROGAINE_110',
+        o_site: '0804_cup110'
     },
     {
         id: 'SPB_20080524_1',
@@ -372,6 +415,15 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/080525/080525_res.htm',
         info: 'Юбилейный, 50-й Чемпионат Санкт-Петербурга!!!',
         o_site: '080525'
+    },
+    {
+        id: 'SPB_20080529_1',
+        date: '2008-05-29',
+        place: 'Токсово',
+        name: 'Весенний Кубок 110%, 7 этап',
+        res: 'https://o-site.spb.ru/_races/0804_cup110/080529_res.htm',
+        start: 'ROGAINE_110',
+        o_site: '0804_cup110'
     },
     {
         id: 'SPB_20080531_1',
