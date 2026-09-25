@@ -283,17 +283,6 @@ let events2015 = [
         // endDate: '2015-10-31'
     },
     {
-        id: 'SPB_20150401_3',
-        date: '2015-04-01',
-        place: 'Санкт-Петербург',
-        name: 'Sprint Tour SPb 2015: 15 этап',
-        reg: 'http://o-time.ru/',
-        info: 'Серия тренировочных стартов в дисциплине "спринт"',
-        start: 'ST',
-        o_site: '150408',
-        // endDate: '2015-11-30'
-    },
-    {
         id: 'SPB_20150404_1',
         date: '2015-04-04',
         place: 'Невский лесопарк',
@@ -313,6 +302,14 @@ let events2015 = [
         info: 'Соревнования по спортивному ориентированию в закрытых помещениях',
         o_site: '150405_LR',
         map: 'fml_239_2015'
+    },
+    {
+        id: 'SPB_20150408_1',
+        date: '2015-04-08',
+        place: 'Кронштадт',
+        name: 'Sprint Tour SPb 2015: 1 этап',
+        start: 'ST',
+        o_site: '150408'
     },
     {
         id: 'SPB_20150411_1',
@@ -335,6 +332,14 @@ let events2015 = [
             'https://www.youtube.com/watch?v=CSHpx7fqh1U',
             'https://www.youtube.com/watch?v=Jrp3qedNQcA'
         ]
+    },
+    {
+        id: 'SPB_20150415_1',
+        date: '2015-04-15',
+        place: 'Выборгский р-н, ВИФК',
+        name: 'Sprint Tour SPb 2015: 2 этап',
+        start: 'ST',
+        o_site: '150408'
     },
     {
         id: 'SPB_20150419_1',
@@ -371,9 +376,11 @@ let events2015 = [
     {
         id: 'SPB_20150422_2',
         date: '2015-04-22',
+        place: 'шк №175',
         name: 'Sprint Tour SPb 2015: 3 этап',
         photo: 'https://vk.ru/album-92124592_214480868',
-        start: 'ST'
+        start: 'ST',
+        o_site: '150408'
     },
     {
         id: 'SPB_20150426_1',
@@ -481,9 +488,11 @@ let events2015 = [
     {
         id: 'SPB_20150506_1',
         date: '2015-05-06',
+        place: 'Сосновка',
         name: 'Sprint Tour SPb 2015: 4 этап',
         photo: 'https://vk.ru/album-92124592_215056782',
-        start: 'ST'
+        start: 'ST',
+        o_site: '150408'
     },
     {
         id: 'SPB_20150509_1',
@@ -543,7 +552,8 @@ let events2015 = [
         name: 'Sprint Tour SPb 2015: 5 этап',
         start: 'ST',
         photo: 'https://vk.ru/album-92124592_215387133',
-        map: 'manezh_alekseeva_2015'
+        map: 'manezh_alekseeva_2015',
+        o_site: '150408'
     },
     {
         id: 'SPB_20150514_1',
@@ -643,10 +653,12 @@ let events2015 = [
     },
     {
         id: 'SPB_20150521_1',
-        date: '2015-05-21',
+        date: '2015-05-20',
+        place: 'парк ак.Сахарова',
         name: 'Sprint Tour SPb 2015: 6 этап',
         start: 'ST',
-        photo: 'https://vk.ru/album-92124592_215741529'
+        photo: 'https://vk.ru/album-92124592_215741529',
+        o_site: '150408'
     },
     {
         id: 'SPB_20150523_1',
@@ -690,9 +702,11 @@ let events2015 = [
     {
         id: 'SPB_20150527_1',
         date: '2015-05-27',
+        place: 'шк №2',
         name: 'Sprint Tour SPb 2015: 7 этап',
         start: 'ST',
-        photo: 'https://vk.ru/album-92124592_216010954'
+        photo: 'https://vk.ru/album-92124592_216010954',
+        o_site: '150408'
     },
     {
         id: 'SPB_20150530_1',
@@ -753,6 +767,14 @@ let events2015 = [
         split: 'splits/2015/SPB_20150531_1_split.htm',
         o_site: '150531_Az',
         owner: 'AZIMUT'
+    },
+    {
+        id: 'SPB_20150603_1',
+        date: '2015-06-03',
+        place: 'Новоорловский л/п',
+        name: 'Sprint Tour SPb 2015: 8 этап',
+        start: 'ST',
+        o_site: '150408'
     },
     {
         id: 'SPB_20150606_1',
@@ -1092,6 +1114,14 @@ let events2015 = [
         start: 'YM_CUP'
     },
     {
+        id: 'SPB_20150902_1',
+        date: '2015-09-02',
+        place: 'Ломоносовская',
+        name: 'Sprint Tour SPb 2015: 9 этап',
+        start: 'ST',
+        o_site: '150408'
+    },
+    {
         id: 'SPB_20150905_1',
         date: '2015-09-05',
         place: 'Псковская обл., Печорский р-н',
@@ -1138,6 +1168,14 @@ let events2015 = [
         o_site: '150909'
     },
     {
+        id: 'SPB_20150909_2',
+        date: '2015-09-09',
+        place: 'Удельный парк',
+        name: 'Sprint Tour SPb 2015: 10 этап',
+        start: 'ST',
+        o_site: '150408'
+    },
+    {
         id: 'SPB_20150912_1',
         date: '2015-09-12',
         place: 'Молодежное',
@@ -1176,9 +1214,11 @@ let events2015 = [
     {
         id: 'SPB_20150916_1',
         date: '2015-09-16',
+        place: 'шк №158',
         name: 'Sprint Tour SPb 2015: 11 этап',
         start: 'ST',
-        photo: 'https://vk.ru/album-92124592_220682762'
+        photo: 'https://vk.ru/album-92124592_220682762',
+        o_site: '150408'
     },
     {
         id: 'SPB_20150919_1',
@@ -1253,11 +1293,13 @@ let events2015 = [
         o_site: '150908'
     },
     {
-        id: 'SPB_20150922_2',
-        date: '2015-09-22',
+        id: 'SPB_20150923_1',
+        date: '2015-09-23',
+        place: 'Выборгский р-н',
         name: 'Sprint Tour SPb 2015: 12 этап',
         start: 'ST',
-        photo: 'https://vk.ru/album-92124592_220935768'
+        photo: 'https://vk.ru/album-92124592_220935768',
+        o_site: '150408'
     },
     {
         id: 'SPB_20150925_1',
@@ -1384,6 +1426,14 @@ let events2015 = [
         o_site: '15101011'
     },
     {
+        id: 'SPB_20151010_2',
+        date: '2015-10-10',
+        place: 'Покровский о-в',
+        name: 'Sprint Tour SPb 2015: 13 этап',
+        start: 'ST',
+        o_site: '150408'
+    },
+    {
         id: 'SPB_20151014_1',
         date: '2015-10-14',
         name: 'Старт памяти одноклубника Коли Иванова',
@@ -1427,6 +1477,14 @@ let events2015 = [
         type: 'ROGAINE',
         fmt: '6/8 часов бегом и вело',
         link: 'http://www.multsport.ru/'
+    },
+    {
+        id: 'SPB_20151017_4',
+        date: '2015-10-17',
+        place: 'Петроградский р-н',
+        name: 'Sprint Tour SPb 2015: 14 этап',
+        start: 'ST',
+        o_site: '150408'
     },
     {
         id: 'SPB_20151018_1',
@@ -1582,6 +1640,14 @@ let events2015 = [
         name: ' П-во Колпинского р-на по ориентированию в закрытых помещениях',
         type: 'INDOOR',
         video: 'https://www.youtube.com/watch?v=-bbjjfDE_t0'
+    },
+    {
+        id: 'SPB_20151118_2',
+        date: '2015-11-18',
+        place: 'Калининский р-н',
+        name: 'Sprint Tour SPb 2015: 15 этап',
+        start: 'ST',
+        o_site: '150408'
     },
     {
         id: 'SPB_20151121_1',
