@@ -373,11 +373,6 @@ let commonEvents2026 = [
         name: 'Мемориал Михаила Святкина XXXII',
         place: 'Пески',
         o_site: 'mms2026',
-        split: [
-            'splits/2026/SPB_20260626_1_1_split.html',
-            'splits/2026/SPB_20260626_1_2_split.html',
-            'splits/2026/SPB_20260626_1_3_split.html'
-        ],
         reg: 'https://orgeo.ru/event/51560',
         link: 'https://sfr-system.ru/mms/',
         info: 'Новые карты.',
@@ -396,11 +391,6 @@ let commonEvents2026 = [
         name: 'ММС #1',
         place: 'Пески, оз Ночное',
         o_site: 'mms2026',
-        split: [
-            'splits/2026/SPB_20260626_2_1_split.html',
-            'splits/2026/SPB_20260626_2_2_split.html',
-            'splits/2026/SPB_20260626_2_3_split.html'
-        ],
         link: 'https://sfr-system.ru/mms/',
         o_gps: {
             'ЖЭ,18,35,40/М45,50':25514,
@@ -422,11 +412,6 @@ let commonEvents2026 = [
         name: 'ММС #2, пролог',
         place: 'Пески, оз Забытое',
         o_site: 'mms2026',
-        split: [
-            'splits/2026/SPB_20260627_3_1_split.html',
-            'splits/2026/SPB_20260627_3_2_split.html',
-            'splits/2026/SPB_20260627_3_3_split.html'
-        ],
         link: 'https://sfr-system.ru/mms/',
         o_gps: {
             'ЖЭ':25518,
@@ -455,11 +440,6 @@ let commonEvents2026 = [
         name: 'ММС #3, финал',
         place: 'Пески, оз Пулконлампи',
         o_site: 'mms2026',
-        split: [
-            'splits/2026/SPB_20260628_2_1_split.html',
-            'splits/2026/SPB_20260628_2_2_split.html',
-            'splits/2026/SPB_20260628_2_3_split.html'
-        ],
         link: 'https://sfr-system.ru/mms/',
         o_gps: {
             'МЭ':25520,
@@ -505,11 +485,6 @@ let commonEvents2026 = [
         name: 'Белые ночи, Чемпионат СЗФО',
         place: 'Сосново, оз Уловное',
         o_site: '260702_bn',
-        split: [
-            'splits/2026/SPB_20260704_1_1_split.html',
-            'splits/2026/SPB_20260704_1_2_split.html',
-            'splits/2026/SPB_20260704_1_3_split.html'
-        ],
         reg: 'https://orgeo.ru/event/53317',
         reskeep: [902,903,904],
         photo: 'https://vk.ru/album-196511971_311408236',
@@ -680,11 +655,6 @@ let commonEvents2026 = [
         place: 'Сестрорецк, Зеленогорск',
         name: 'НЕВСКИЙ СПРИНТ',
         o_site: '260913_NS',
-        split: [
-            'splits/2026/SPB_20260911_1_1_split.htm',
-            'splits/2026/SPB_20260911_1_2_split.htm',
-            'splits/2026/SPB_20260911_1_3_split.htm'
-        ],
         o_gps: {
             '12-М14':25938,
             '12-Фит':25973,

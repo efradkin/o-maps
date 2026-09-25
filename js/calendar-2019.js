@@ -18,10 +18,6 @@ let events2019 = [
         name: 'Рождественские старты-2019',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/180107-08_RS/190107_res_rs.htm',
-        split: [
-            'splits/2019/SPB_20190108_1_1_split.htm',
-            'splits/2019/SPB_20190108_1_2_split.htm'
-        ],
         owner: 'NW',
         o_site: '180107-08_RS',
         map: 'lembolovo_winter_2019'
@@ -33,7 +29,6 @@ let events2019 = [
         name: 'Чемпионат и Первенство ЛО',
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/190113lo/130119_split.html',
-        split: 'splits/2019/SPB_20190113_1_split.html',
         o_site: '190113lo'
     },
     {
@@ -56,7 +51,6 @@ let events2019 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_markir/',
-        split: 'splits/2019/SPB_20190119_1_split.htm',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_markir/',
         o_site: '190119',
         reskeep: 104
@@ -77,7 +71,6 @@ let events2019 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_middle/',
-        split: 'splits/2019/SPB_20190120_2_split.htm',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_middle/',
         o_site: '190120',
         reskeep: 103
@@ -100,7 +93,6 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/winter-rogaine-19/registration.html',
         res: 'https://o-site.spb.ru/_races/190126r/190126_res.htm',
-        split: 'splits/2019/SPB_20190126_1_split.htm',
         video: 'https://www.youtube.com/watch?v=x6ZLxdS5nEY',
         fmt: 'Рогейн 4 часа. Лыжи, бег или велосипед.',
         owner: 'MULTSPORT',
@@ -114,11 +106,6 @@ let events2019 = [
         name: 'Всероссийские соревнования в Цвелодубово',
         type: 'VELO',
         res: 'http://www.northernwind.spb.ru/videosplit/',
-        split: [
-            'splits/2019/SPB_20190130_1_1_split.htm',
-            'splits/2019/SPB_20190130_1_2_split.htm',
-            'splits/2019/SPB_20190130_1_3_split.htm'
-        ],
         photo: 'http://photosport.online/index.html',
         info: 'Всероссийские соревнования по спортивному ориентированию (лыжные дисциплины) Всероссийские соревнования среди спортсменов среднего, старшего и пожилого возраста по спортивному ориентированию «Чемпионат Ветеранов» Всероссийские соревнования среди студентов',
         video: 'http://www.northernwind.spb.ru/videosplit/',
@@ -133,7 +120,6 @@ let events2019 = [
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=987',
         res: 'https://o-site.spb.ru/_races/190210/190210_rez.htm',
-        split: 'splits/2019/SPB_20190210_1_split.htm',
         o_site: '190210',
         reskeep: 107
     },
@@ -145,7 +131,6 @@ let events2019 = [
         type: 'SKI',
         fmt: 'маркир-Д',
         res: 'https://o-site.spb.ru/_races/190217/190217_rez.htm',
-        split: 'splits/2019/SPB_20190217_1_split.htm',
         o_site: '190217',
         map: 'volkov_2019_02_17',
         start: 'VOLKOV_A'
@@ -158,10 +143,6 @@ let events2019 = [
         name: 'Всеволожские вести',
         reg: 'http://orgeo.ru/event/8532',
         res: 'https://o-site.spb.ru/_races/vvesti2019/190223_rez.htm',
-        split: [
-            'splits/2019/SPB_20190223_1_1_split.htm',
-            'splits/2019/SPB_20190223_1_2_split.htm'
-        ],
         start: 'VSEV_VESTI',
         o_site: 'vvesti2019',
         reskeep: [105, 106]
@@ -173,7 +154,6 @@ let events2019 = [
         name: 'Весёлый ветер',
         reg: 'http://orgeo.ru/event/registration/vv',
         res: 'https://o-site.spb.ru/_races/190224/190224_res.pdf',
-        split: 'splits/2019/SPB_20190224_1_split.htm',
         o_site: '190224',
         map: 'pavlovsk_2012'
     },
@@ -206,7 +186,6 @@ let events2019 = [
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=989',
         res: 'https://o-site.spb.ru/_races/190303ch/190303_res.htm',
-        split: 'splits/2019/SPB_20190303_1_split.htm',
         o_site: '190303ch',
         reskeep: 159
     },
@@ -218,7 +197,6 @@ let events2019 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'http://northernwind.spb.ru/videosplit/2019/chspbw_3relay/',
-        split: 'splits/2019/SPB_20190308_1_split.htm',
         video: 'http://northernwind.spb.ru/videosplit/2019/chspbw_3relay/',
         o_site: '190308_est',
         reskeep: 160
@@ -239,7 +217,6 @@ let events2019 = [
         name: 'Кузьмоловский',
         reg: 'http://orgeo.ru/event/8939',
         res: 'https://o-site.spb.ru/_races/190310kuz/190310_results_kuzm.htm',
-        split: 'splits/2019/SPB_20190310_1_split.htm',
         owner: 'SFSO_LO',
         o_site: '190310kuz'
     },
@@ -251,7 +228,6 @@ let events2019 = [
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=992',
         res: 'https://o-site.spb.ru/_races/190310/190310_off_team_rez.pdf',
-        split: 'splits/2019/SPB_20190310_2_split.htm',
         video: 'https://www.youtube.com/watch?v=bRNKanoYHxM',
         info: 'Чемпионат Санкт-Петербурга среди студентов образовательных организаций высшего образования по спортивному ориентированию (лыжные дисциплины).',
         o_site: '190310'
@@ -282,7 +258,6 @@ let events2019 = [
         name: 'Тренировка FoxTeam',
         reg: 'http://o-reg.spb.ru/entry-list?id=996',
         res: 'http://o-site.spb.ru/_races/190317/190317_res.htm',
-        split: 'splits/2019/SPB_20190317_1_split.htm',
         o_site: '190317',
         map: 'sosnovka_2014'
     },
@@ -293,7 +268,6 @@ let events2019 = [
         name: 'Лабиринты разума',
         reg: 'http://o-reg.spb.ru/entry-list?id=999',
         res: 'https://o-site.spb.ru/_races/190407_LR/190407_rezults.pdf',
-        split: 'splits/2019/SPB_20190407_1_split.htm',
         info: '"Лабиринты разума" в формате квест-игры в закрытых помещениях.',
         o_site: '190407_LR'
     },
@@ -304,7 +278,6 @@ let events2019 = [
         name: 'Всеволожская тропа 2019, 1 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'https://o-site.spb.ru/_races/190407/190407_split.html',
-        split: 'splits/2019/SPB_20190407_2_split.html',
         o_site: '190407',
         map: 'romanovka_2013',
         reskeep: 111
@@ -337,7 +310,6 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://o-reg.spb.ru/entry-list?id=998',
         res: 'https://o-site.spb.ru/_races/190413/190413_res_1.htm',
-        split: 'splits/2019/SPB_20190413_1_split.htm',
         o_site: '190413'
     },
     {
@@ -358,7 +330,6 @@ let events2019 = [
         start: 'WEEKLY_ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1004',
         res: 'http://o-site.spb.ru/_races/190414/140419_res.htm',
-        split: 'splits/2019/SPB_20190414_1_split.htm',
         o_site: '190414'
     },
     {
@@ -377,10 +348,6 @@ let events2019 = [
         name: 'Сосновоборские Дюны',
         start: 'SOSNOVOBORSKY_DUNY',
         res: 'https://o-site.spb.ru/_races/19042021/190420_RES.htm',
-        split: [
-            'splits/2019/SPB_20190420_1_1_split.htm',
-            'splits/2019/SPB_20190420_1_2_split.htm'
-        ],
         info: 'Соревнования проводятся 20-21 апреля 2019 года в г. Сосновый Бор.',
         o_site: '19042021',
         reskeep: [113, 114]
@@ -442,7 +409,6 @@ let events2019 = [
         place: 'Баболовский парк',
         reg: 'http://o-reg.spb.ru/entry-list?id=1009',
         res: 'http://orgeo.ru/live/#/9491',
-        split: 'splits/2019/SPB_20190427_1_split.htm',
         info: 'Организаторы: СПБ ГБУ ЦФКСЗ "Царское Село".',
         o_site: '190427',
         map: 'pushkin_babolovsky_2019'
@@ -456,11 +422,6 @@ let events2019 = [
         start: 'VYBORGSKY_TROIKA',
         reg: 'http://sportident.ru/entry/event_info.php?id=4208',
         res: 'https://o-site.spb.ru/_races/190427_V3/190427_V3_sp_rez.htm',
-        split: [
-            'splits/2019/SPB_20190427_2_1_split.htm',
-            'splits/2019/SPB_20190427_2_2_split.htm',
-            'splits/2019/SPB_20190427_2_3_split.htm'
-        ],
         info: 'В связи с неблагоприятной снежной обстановкой, ночной старт перенесен в район Батарейной горы',
         video: [
             'https://www.youtube.com/watch?v=rnk_WpK7qKs',
@@ -490,11 +451,6 @@ let events2019 = [
         start: 'LO_CHAMP',
         reg: 'http://orgeo.ru/event/9425',
         res: 'https://o-site.spb.ru/_races/190502lo/190501_split.html',
-        split: [
-            'splits/2019/SPB_20190501_1_1_split.html',
-            'splits/2019/SPB_20190501_1_2_split.html',
-            'splits/2019/SPB_20190501_1_3_split.html'
-        ],
         o_site: '190502lo',
         reskeep: [118, 119, 120]
     },
@@ -533,11 +489,6 @@ let events2019 = [
         name: 'Первенство России',
         place: 'Великий Новгород',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/PR_Novgorod/day3/',
-        split: [
-            'splits/2019/SPB_20190504_1_1_split.htm',
-            'splits/2019/SPB_20190504_1_2_split.htm',
-            'splits/2019/SPB_20190504_1_3_split.htm'
-        ],
         video: 'http://www.northernwind.spb.ru/videosplit/2019/PR_Novgorod/day3/',
         o_site: '190504PR',
         reskeep: [149, 150, 151]
@@ -577,7 +528,6 @@ let events2019 = [
         name: 'Соревнования, посвященные Дню Победы',
         reg: 'http://o-reg.spb.ru/entry-list?id=1025',
         res: 'https://o-site.spb.ru/_races/190509/RES_090519.htm',
-        split: 'splits/2019/SPB_20190509_1_split.htm',
         info: 'Соревнования, посвященные Дню Победы, пройдут 9 мая в районе Черных озер недалеко от г. Зеленогорска.',
         o_site: '190509',
         reskeep: 132,
@@ -591,7 +541,6 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://clubrevolution.ru/product/klo-2019-3-etap/',
         res: 'https://o-site.spb.ru/_races/190510/190510_res.htm',
-        split: 'splits/2019/SPB_20190510_1_split.htm',
         video: 'https://www.youtube.com/watch?v=D_vVA-cHH2s',
         fmt: '- 4 часа бегом, 3 часа на велосипеде',
         o_site: '190510'
@@ -603,11 +552,6 @@ let events2019 = [
         place: 'Луга',
         name: 'Первенство России и Майская многодневка',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
-        split: [
-            'splits/2019/SPB_20190510_2_1_split.htm',
-            'splits/2019/SPB_20190510_2_2_split.htm',
-            'splits/2019/SPB_20190510_2_3_split.htm'
-        ],
         video: [
             'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
             'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day2/',
@@ -626,7 +570,6 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1023',
         res: 'http://o-site.spb.ru/_races/190512_kkr/190512_res.htm',
-        split: 'splits/2019/SPB_20190512_1_split.htm',
         video: 'https://www.youtube.com/watch?v=iat7u1pUls8',
         o_site: '190512_kkr'
     },
@@ -637,10 +580,6 @@ let events2019 = [
         name: 'Соревнования Памяти друзей',
         reg: 'http://o-reg.spb.ru/entry-list?id=1026',
         res: 'https://o-site.spb.ru/_races/190512/AdultResult2.htm',
-        split: [
-            'splits/2019/SPB_20190512_2_1_split.htm',
-            'splits/2019/SPB_20190512_2_2_split.htm'
-        ],
         o_site: '190512',
         map: 'orekhovo_rakitinskoe_2004',
         owner: 'AZIMUT'
@@ -688,7 +627,6 @@ let events2019 = [
         place: 'Юкки, Выборг',
         reg: 'http://o-reg.spb.ru/entry-list?id=1038',
         res: 'https://o-site.spb.ru/_races/190518_RA_LO/190518_ralo_rez.htm',
-        split: 'splits/2019/SPB_20190518_1_split.htm',
         video: 'https://www.youtube.com/watch?v=-f7I9gZsv1E',
         owner: 'SFSO_LO',
         o_site: '190518_RA_LO',
@@ -702,7 +640,6 @@ let events2019 = [
         name: 'Российский Азимут СПб',
         reg: 'http://o-reg.spb.ru/entry-list?id=1031',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/ra_spb/',
-        split: 'splits/2019/SPB_20190518_2_split.htm',
         photo: 'http://vk.com/album-154221178_263197698',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/ra_spb/',
         owner: 'SFSO_SPB',
@@ -743,7 +680,6 @@ let events2019 = [
         name: 'ЧиП СПб, спринт',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/190519/res.htm',
-        split: 'splits/2019/SPB_20190519_1_split.htm',
         photo: 'http://vk.com/album-154221178_263179709',
         video: 'http://northernwind.spb.ru/videosplit/2019/chspbs_sprint',
         info: 'Организаторы: Комитет по физической культуре и спорту Санкт-Петербурга Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга»',
@@ -757,11 +693,6 @@ let events2019 = [
         place: 'Кузнечное',
         name: 'Чемпионат России',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chr/day1/',
-        split: [
-            'splits/2019/SPB_20190524_1_1_split.htm',
-            'splits/2019/SPB_20190524_1_2_split.htm',
-            'splits/2019/SPB_20190524_1_3_split.htm'
-        ],
         o_gps: {
             '24-М': 5759,
             '24-Ж': 5760,
@@ -821,7 +752,6 @@ let events2019 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1040',
         res: 'https://o-site.spb.ru/_races/190526/190526_sprint_results.htm',
-        split: 'splits/2019/SPB_20190526_1_split.htm',
         o_site: '190526',
         reskeep: 141
     },
@@ -834,7 +764,6 @@ let events2019 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1042',
         res: 'https://o-site.spb.ru/_races/190526_relay/190526_rezults.htm',
-        split: 'splits/2019/SPB_20190526_2_split.htm',
         o_site: '190526_relay',
         reskeep: 142
     },
@@ -863,7 +792,6 @@ let events2019 = [
         name: 'ЧиП СПб, лонг',
         start: 'SPB_CHAMP',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chspbs_long/',
-        split: 'splits/2019/SPB_20190602_1_split.htm',
         photo: 'http://vk.com/spb_orient?z=album-154221178_263545564',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/chspbs_long/',
         o_site: '190602',
@@ -877,11 +805,6 @@ let events2019 = [
         name: 'Невский Азимут 2019',
         reg: 'http://www.o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/190607/RES_070619.htm',
-        split: [
-            'splits/2019/SPB_20190607_1_1_split.htm',
-            'splits/2019/SPB_20190607_1_2_split.htm',
-            'splits/2019/SPB_20190607_1_3_split.htm'
-        ],
         video: 'https://www.youtube.com/watch?v=3Klk0xkxGeM',
         info: 'XXIX МНОГОДНЕВНЫЕ СОРЕВНОВАНИЯ ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ «НЕВСКИЙ АЗИМУТ»',
         start: 'NA',
@@ -897,11 +820,6 @@ let events2019 = [
         place: 'Выборг',
         reg: 'http://o-reg.spb.ru/entry-list?id=1022',
         res: 'https://o-site.spb.ru/_races/190408-09/20190608_day_rez.htm',
-        split: [
-            'splits/2019/SPB_20190608_1_1_split.htm',
-            'splits/2019/SPB_20190608_1_2_split.htm',
-            'splits/2019/SPB_20190608_1_3_split.htm'
-        ],
         o_site: '190408-09',
         reskeep: [153, 154, 155]
     },
@@ -913,11 +831,6 @@ let events2019 = [
         place: 'Каменогорск',
         start: 'KKP',
         o_site: '190616-21_KKP',
-        split: [
-            'splits/2019/SPB_20190610_1_1_split.htm',
-            'splits/2019/SPB_20190610_1_2_split.htm',
-            'splits/2019/SPB_20190610_1_3_split.htm'
-        ],
         map: ['kkp_prudy_2019_06_15','kkp_prudy_2019_06_16']
     },
     {
@@ -937,7 +850,6 @@ let events2019 = [
         name: 'BondCup MTBO',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/190611v/190611V_split.htm',
-        split: 'splits/2019/SPB_20190611_1_split.htm',
         info: 'Классическая дистанция в заданном направлении',
         o_site: '190611v'
     },
@@ -948,13 +860,6 @@ let events2019 = [
         place: 'Луга',
         name: 'Спортивный фестиваль «Яркий Мир» (11-16 июня (основная программа 13-16 июня))',
         res: 'https://o-site.spb.ru/_races/19061116/19061315L_res.zip',
-        split: [
-            'splits/2019/SPB_20190611_2_1_split.htm',
-            'splits/2019/SPB_20190611_2_2_split.htm',
-            'splits/2019/SPB_20190611_2_3_split.htm',
-            'splits/2019/SPB_20190611_2_4_split.htm',
-            'splits/2019/SPB_20190611_2_5_split.htm'
-        ],
         start: 'YM',
         o_site: '19061116',
         map: ['ym_2019_luga_final', 'ym_2019_luga_prolog', 'ym_2019_luga_sprint', 'ym_2019_06_15', 'ym_2019_06_16'],
@@ -976,11 +881,6 @@ let events2019 = [
         name: 'Кубок Карельского Перешейка',
         place: 'Каменогорск',
         res: 'https://o-site.spb.ru/_races/190616-21_KKP/20190617_kkp_1_rez.htm',
-        split: [
-            'splits/2019/SPB_20190617_1_1_split.htm',
-            'splits/2019/SPB_20190617_1_2_split.htm',
-            'splits/2019/SPB_20190617_1_3_split.htm'
-        ],
         video: 'https://www.youtube.com/watch?v=xHGuA_XHXLc',
         start: 'KKP',
         o_site: '190616-21_KKP'
@@ -993,11 +893,6 @@ let events2019 = [
         place: 'Каменогорск',
         start: 'KKP',
         o_site: '190616-21_KKP',
-        split: [
-            'splits/2019/SPB_20190617_2_1_split.htm',
-            'splits/2019/SPB_20190617_2_2_split.htm',
-            'splits/2019/SPB_20190617_2_3_split.htm'
-        ],
         reskeep: 167,
         video: 'http://northernwind.spb.ru/videosplit/2019/kkp/day1'
     },
@@ -1009,11 +904,6 @@ let events2019 = [
         place: 'Каменогорск',
         start: 'KKP',
         o_site: '190616-21_KKP',
-        split: [
-            'splits/2019/SPB_20190618_1_1_split.htm',
-            'splits/2019/SPB_20190618_1_2_split.htm',
-            'splits/2019/SPB_20190618_1_3_split.htm'
-        ],
         map: 'kkp_prudy_2019_06_18',
         o_gps: {
             'М': 5957,
@@ -1034,11 +924,6 @@ let events2019 = [
         place: 'Каменогорск',
         start: 'KKP',
         o_site: '190616-21_KKP',
-        split: [
-            'splits/2019/SPB_20190619_1_1_split.htm',
-            'splits/2019/SPB_20190619_1_2_split.htm',
-            'splits/2019/SPB_20190619_1_3_split.htm'
-        ],
         map: 'kkp_prudy_2019_06_19',
         o_gps: {
             'М': 5964,
@@ -1057,11 +942,6 @@ let events2019 = [
         place: 'Каменогорск',
         start: 'KKP',
         o_site: '190616-21_KKP',
-        split: [
-            'splits/2019/SPB_20190620_1_1_split.htm',
-            'splits/2019/SPB_20190620_1_2_split.htm',
-            'splits/2019/SPB_20190620_1_3_split.htm'
-        ],
         map: 'kkp_prudy_2019_06_20',
         o_gps: {
             'М': 5967,
@@ -1078,11 +958,6 @@ let events2019 = [
         name: 'Первенство ВУЗов МО РФ',
         place: 'Юкки',
         res: 'https://o-site.spb.ru/_races/190618-20VO/19061819_res_summ.pdf',
-        split: [
-            'splits/2019/SPB_20190620_1_1_split.htm',
-            'splits/2019/SPB_20190620_1_2_split.htm',
-            'splits/2019/SPB_20190620_1_3_split.htm'
-        ],
         o_site: '190618-20VO'
     },
     {
@@ -1093,11 +968,6 @@ let events2019 = [
         name: 'XXVII Мемориал М.Святкина',
         reg: 'http://orgeo.ru/event/9132',
         res: 'https://o-site.spb.ru/_races/190623MMS/res1.htm',
-        split: [
-            'splits/2019/SPB_20190621_1_1_split.htm',
-            'splits/2019/SPB_20190621_1_2_split.htm',
-            'splits/2019/SPB_20190621_1_3_split.htm'
-        ],
         video: 'https://www.youtube.com/watch?v=0Hr9Tw0Cv5M',
         start: 'MMS',
         o_site: '190623MMS',
@@ -1114,7 +984,6 @@ let events2019 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1047',
         res: 'http://o-site.spb.ru/_races/190622/190622_results.htm',
-        split: 'splits/2019/SPB_20190622_1_split.htm',
         o_site: '190622'
     },
     {
@@ -1136,11 +1005,6 @@ let events2019 = [
         name: 'Неделя ориентирования «Белые Ночи»',
         reg: 'http://o-reg.spb.ru/entry-list?id=1027',
         res: 'https://o-site.spb.ru/_races/190628/res1.htm',
-        split: [
-            'splits/2019/SPB_20190628_1_1_split.htm',
-            'splits/2019/SPB_20190628_1_2_split.htm',
-            'splits/2019/SPB_20190628_1_3_split.htm'
-        ],
         video: 'https://www.youtube.com/watch?v=0Hr9Tw0Cv5M',
         info: 'Организаторы: Клуб спортивного ориентирования «Белые Ночи». При поддержке «Региональной спортивной федерации спортивного ориентирования Ленинградской области».',
         map: ['sosnovo_ulovnoe_oz_2023','wn_2019_06_28'],
@@ -1158,10 +1022,6 @@ let events2019 = [
         type: 'VELO',
         reg: 'https://o-site.spb.ru/_races/19062830_velo/https://orgeo.ru/event/9654',
         res: 'https://o-site.spb.ru/_races/19062830_velo/19062830_ofres.zip',
-        split: [
-            'splits/2019/SPB_20190628_2_1_split.htm',
-            'splits/2019/SPB_20190628_2_2_split.htm'
-        ],
         owner: 'SFSO_LO',
         o_site: '19062830_velo'
     },
@@ -1213,7 +1073,6 @@ let events2019 = [
         start: 'PERSPEKTIVA',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1053',
         res: 'http://o-site.spb.ru/_races/190714/190714_res.htm',
-        split: 'splits/2019/SPB_20190714_1_split.htm',
         o_site: '190714'
     },
     {
@@ -1254,7 +1113,6 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1052',
         res: 'http://o-site.spb.ru/_races/190728/190728_res.htm',
-        split: 'splits/2019/SPB_20190728_1_split.htm',
         o_site: '190728'
     },
     {
@@ -1274,11 +1132,6 @@ let events2019 = [
         place: 'Поляны, ДОЛ Университетский, ДОЛ Волна',
         name: 'Фестиваль 60-летия спортивного ориентирования в России',
         res: 'http://o-site.spb.ru/_races/19080105/res1.htm',
-        split: [
-            'splits/2019/SPB_20190801_1_1_split.htm',
-            'splits/2019/SPB_20190801_1_2_split.htm',
-            'splits/2019/SPB_20190801_1_3_split.htm'
-        ],
         photo: 'http://vk.com/album-154221178_264969152',
         video: [
             'https://www.youtube.com/watch?v=yPT8N3zEwxs',
@@ -1307,7 +1160,6 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://x-race.info/calendar/137992/request/',
         res: 'https://o-site.spb.ru/_races/190810/190810_res.pdf',
-        split: 'splits/2019/SPB_20190810_1_split.pdf',
         video: ['https://www.youtube.com/watch?v=ClYGatKlFqM','https://www.youtube.com/watch?v=6KBvHQtw7YY'],
         info: 'Чемпионат Северо-Западного федерального округа 2019 года по рогейну бегом, 4 этап Кубка Ленинградской области 2019 года по рогейну «На Лужских берегах»',
         fmt: '6 часов, бег и вело',
@@ -1365,7 +1217,6 @@ let events2019 = [
         place: 'Лемболово',
         name: 'Зелёный Змей',
         res: 'https://o-site.spb.ru/_races/190824/190824_split.htm',
-        split: 'splits/2019/SPB_20190824_1_split.htm',
         start: 'GS',
         o_site: '190824',
         map: 'gs_2019_08_24',
@@ -1390,7 +1241,6 @@ let events2019 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1060',
         res: 'http://o-site.spb.ru/_races/190825/20190825_res.htm',
-        split: 'splits/2019/SPB_20190825_2_split.htm',
         o_site: '190825',
         map: 'pukhtolova_gora_velo_2025'
     },
@@ -1403,7 +1253,6 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1063',
         res: 'http://o-site.spb.ru/_races/190831/190831_res.htm',
-        split: 'splits/2019/SPB_20190831_1_split.htm',
         o_site: '190831'
     },
     {
@@ -1422,7 +1271,6 @@ let events2019 = [
         place: 'Всеволожск, Румболовский парк',
         name: 'Чемпионат и Первенство Всеволожского района',
         res: 'https://o-site.spb.ru/_races/190901/190901_split.htm',
-        split: 'splits/2019/SPB_20190901_2_split.htm',
         owner: 'SFSO_LO',
         o_site: '190901',
         reskeep: 190,
@@ -1454,11 +1302,6 @@ let events2019 = [
         name: 'Чемпионат России',
         place: 'Архангельск',
         res: 'https://o-site.spb.ru/_races/190905arkh/res1.htm',
-        split: [
-            'splits/2019/SPB_20190904_1_1_split.htm',
-            'splits/2019/SPB_20190904_1_2_split.htm',
-            'splits/2019/SPB_20190904_1_3_split.htm'
-        ],
         o_site: '190905arkh',
         reskeep: [209, 210, 211, 212],
         start: 'RUSSIA_CHAMP'
@@ -1489,7 +1332,6 @@ let events2019 = [
         place: 'Симагино',
         name: 'Классика Белых Ночей',
         res: 'https://o-site.spb.ru/_races/190908/190908_res_absolut.pdf',
-        split: 'splits/2019/SPB_20190908_1_split.htm',
         info: '10-е традиционные соревнования на призы компании "Триколор", проводимые клубом "Белые Ночи"",',
         owner: 'WN',
         o_site: '190908',
@@ -1521,10 +1363,6 @@ let events2019 = [
         start: 'LO_CHAMP',
         place: 'Ягодное',
         res: 'https://o-site.spb.ru/_races/19091415/19091415_official.zip',
-        split: [
-            'splits/2019/SPB_20190914_1_1_split.htm',
-            'splits/2019/SPB_20190914_1_2_split.htm'
-        ],
         o_site: '19091415',
         reskeep: [206, 207]
     },
@@ -1537,7 +1375,6 @@ let events2019 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1076',
         res: 'https://o-site.spb.ru/_races/190915/190915_rezMTBO.htm',
-        split: 'splits/2019/SPB_20190915_1_split.htm',
         o_site: '190915'
     },
     {
@@ -1580,10 +1417,6 @@ let events2019 = [
         start: 'SPB_CHAMP',
         place: 'Пухтолова гора',
         res: 'http://o-site.spb.ru/_races/190928_21/190921_res.htm',
-        split: [
-            'splits/2019/SPB_20190921_2_1_split.htm',
-            'splits/2019/SPB_20190921_2_2_split.htm'
-        ],
         info: '21.09 (суббота): соревнования в Муринском парке (место старта рядом с «Родео драйв»). Дистанция «кросс-спринт»; Начало соревнований в 10.30! 28.09 (суббота): соревнования в районе Пухтоловой горы. Дистанция «кросс-классика»; Начало соревнований в 10.30!',
         o_site: '190928_21',
         endDate: '2019-09-28',
@@ -1606,7 +1439,6 @@ let events2019 = [
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=1071',
         res: 'https://o-site.spb.ru/_races/190922/res.htm',
-        split: 'splits/2019/SPB_20190922_1_split.htm',
         o_site: '190922',
         reskeep: 208
     },
@@ -1637,11 +1469,6 @@ let events2019 = [
         place: 'Зеркальный',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1085',
         res: ['https://o-site.spb.ru/_races/190926-30/190927_SPLIT.htm','https://o-site.spb.ru/_races/190927-30/190927_SPLIT.htm','https://o-site.spb.ru/_races/190926-30/190929_SPLIT.htm'],
-        split: [
-            'splits/2019/SPB_20190929_1_1_split.htm',
-            'splits/2019/SPB_20190929_1_2_split.htm',
-            'splits/2019/SPB_20190929_1_3_split.htm'
-        ],
         o_site: '190926-30',
         map: 'zerkalny_2002'
     },
@@ -1652,7 +1479,6 @@ let events2019 = [
         name: 'Золотые кольца (Свадебные)',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1083',
         res: 'https://o-site.spb.ru/_races/190928_ZK/Kom_280919.pdf',
-        split: 'splits/2019/SPB_20190928_1_split.htm',
         info: 'В субботу 28 сентября 2019 года западнее ж.д. ст.Лемболово. Старт – в 12.00',
         start: 'WEDDING',
         o_site: '190928_ZK',
@@ -1706,7 +1532,6 @@ let events2019 = [
         start: 'SPB_CHAMP',
         place: 'Силанде',
         res: 'http://northernwind.spb.ru/videosplit/2019/chspbs_relay/',
-        split: 'splits/2019/SPB_20190929_3_split.htm',
         video: 'http://northernwind.spb.ru/videosplit/2019/chspbs_relay/',
         o_site: '190929',
         reskeep: [270, 221]
@@ -1801,7 +1626,6 @@ let events2019 = [
         name: 'Старт памяти одноклубника Коли Иванова',
         reg: 'http://o-reg.spb.ru/entry-list?id=1099',
         res: 'https://o-site.spb.ru/_races/191011_PPK/191011_PPK_rez.htm',
-        split: 'splits/2019/SPB_20191011_1_split.htm',
         o_site: '191011_PPK'
     },
     {
@@ -1810,7 +1634,6 @@ let events2019 = [
         place: 'Яппиля, оз Комонь',
         name: '48-е ночные соревнования по ориентированию памяти А.Окинчица',
         res: 'http://touristclub.ru/wp-content/uploads/2019/10/results_okin_2019-ispr.htm',
-        split: 'splits/2019/SPB_20191012_1_split.htm',
         info: 'Сайт соревнований: http://touristclub.ru/okinchits/',
         start: 'OKINCHITSA',
         o_site: '191012_Okinchitsa'
@@ -1821,7 +1644,6 @@ let events2019 = [
         name: 'Петербургская осень',
         place: 'Болотная станция',
         res: 'https://o-site.spb.ru/_races/191012_/Res_PetOs.htm',
-        split: 'splits/2019/SPB_20191012_2_split.htm',
         info: 'Соревнования проводятся после окончания Чемпионата СПб среди ВУЗов в том же районе.',
         logo: 'azimut.gif',
         o_site: '191012_',
@@ -1835,7 +1657,6 @@ let events2019 = [
         place: 'Мичуринское-Борисово',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/191012/191013_res.htm',
-        split: 'splits/2019/SPB_20191012_3_split.htm',
         o_site: '191012'
     },
     {
@@ -1865,7 +1686,6 @@ let events2019 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга - эстафета - 2 человека',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/191013/res.htm',
-        split: 'splits/2019/SPB_20191013_1_split.htm',
         info: 'Организаторы: Комитет по физической культуре и спорту Санкт-Петербурга. СПб ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» РФСОО «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Санаторий "Дюны"',
         o_site: '191013',
         reskeep: 273
@@ -1908,7 +1728,6 @@ let events2019 = [
         place: 'Сестрорецкие Дюны',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1102',
         res: 'https://o-site.spb.ru/_races/191020/191020_SPLIT.htm',
-        split: 'splits/2019/SPB_20191020_1_split.htm',
         o_site: '191020'
     },
     {
@@ -1998,7 +1817,6 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1103',
         res: 'https://o-site.spb.ru/_races/191103/191103_res.htm',
-        split: 'splits/2019/SPB_20191103_1_split.htm',
         o_site: '191103'
     },
     {
@@ -2017,7 +1835,6 @@ let events2019 = [
         place: 'Цвелодубово',
         name: 'Осенний марафон',
         res: 'https://o-site.spb.ru/_races/191004_OM/RES_OM_1.htm',
-        split: 'splits/2019/SPB_20191104_1_split.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         logo: 'azimut.gif',
         o_site: '191004_OM',
@@ -2041,7 +1858,6 @@ let events2019 = [
         place: 'Бернгардовка',
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-sportivnomu-orientirovaniyu/pamyati-7-noyabrya-2019',
         res: 'https://o-site.spb.ru/_races/191109/191109_res.htm',
-        split: 'splits/2019/SPB_20191109_2_split.htm',
         o_site: '191109',
         reskeep: 287
     },
@@ -2072,7 +1888,6 @@ let events2019 = [
         name: 'По Саблинским тропам Козьмы',
         reg: 'http://o-reg.spb.ru/entry-list?id=1109',
         res: 'http://orgeo.ru/live/#/11152',
-        split: 'splits/2019/SPB_20191110_2_split.htm',
         o_site: '191110',
         reskeep: 289
     },
@@ -2095,10 +1910,6 @@ let events2019 = [
         name: '50-лет спортивному ориентированию ЛО',
         reg: 'http://orgeo.ru/event/10901',
         res: 'https://o-site.spb.ru/_races/191116/191116_rez.htm',
-        split: [
-            'splits/2019/SPB_20191116_2_1_split.htm',
-            'splits/2019/SPB_20191116_2_2_split.htm'
-        ],
         video: 'https://www.youtube.com/watch?v=Xzxcv20BEWo',
         o_site: '191116'
     },
@@ -2125,7 +1936,6 @@ let events2019 = [
         date: '2019-11-24',
         name: 'Спортивный праздник посвященный Дню матери',
         res: 'https://o-site.spb.ru/_races/192410/191124_rez.htm',
-        split: 'splits/2019/SPB_20191124_2_split.htm',
         photo: 'http://cloud.mail.ru/public/Ktox/1mEiLiJFQ',
         o_site: '192410'
     },
@@ -2137,7 +1947,6 @@ let events2019 = [
         start: 'MATRESHKA',
         reg: 'http://o-reg.spb.ru/entry-list?id=1111',
         res: 'https://o-site.spb.ru/_races/191124_MaTreshka/191124_MT_rez.htm',
-        split: 'splits/2019/SPB_20191124_3_split.htm',
         o_site: '191124_MaTreshka',
         reskeep: 203,
         strava: 2888276292,
@@ -2164,7 +1973,6 @@ let events2019 = [
         place: '69км',
         reg: 'http://o-reg.spb.ru/entry-list?id=1115',
         res: 'https://o-site.spb.ru/_races/191201tr/191201_res.htm',
-        split: 'splits/2019/SPB_20191201_1_split.htm',
         o_site: '191201tr'
     },
     {
@@ -2174,7 +1982,6 @@ let events2019 = [
         place: 'Шлиссельбург',
         reg: 'http://sport-orient.ru/products/uncategorized/gorodskoj-sprint-shlisselburg',
         res: 'https://o-site.spb.ru/_races/191201gs/191201_res.htm',
-        split: 'splits/2019/SPB_20191201_2_split.htm',
         owner: 'SFSO_LO',
         o_site: '191201gs'
     },
@@ -2196,7 +2003,6 @@ let events2019 = [
         place: 'Токсово',
         reg: 'http://orgeo.ru/event/11317',
         res: 'https://o-site.spb.ru/_races/191208/191208_res.html',
-        split: 'splits/2019/SPB_20191208_1_split.html',
         o_site: '191208',
         reskeep: 292
     },
@@ -2238,7 +2044,6 @@ let events2019 = [
         name: 'Приз Деда Мороза',
         reg: 'http://o-reg.spb.ru/entry-list?id=1121',
         res: 'https://o-site.spb.ru/_races/191222_bn/191222_res1.htm',
-        split: 'splits/2019/SPB_20191222_1_split.htm',
         o_site: '191222_bn',
         reskeep: 293,
         strava: 2949194183,
@@ -2251,7 +2056,6 @@ let events2019 = [
         place: 'Сосново',
         reg: 'http://o-reg.spb.ru/entry-list?id=1122',
         res: 'http://markir.spb.ru/results/191229_res.htm',
-        split: 'splits/2019/SPB_20191229_1_split.htm',
         photo: 'http://yadi.sk/d/Q3dbnDR_BbgL_A',
         o_site: '191229',
         reskeep: 295
@@ -2275,7 +2079,6 @@ let events2019 = [
         name: 'Тренировка FoxTeam',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1123',
         res: 'http://o-site.spb.ru/_races/191231/191231_res.htm',
-        split: 'splits/2019/SPB_20191231_1_split.htm',
         o_site: '191231',
         map: 'sosnovka_2014'
     }

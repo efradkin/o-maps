@@ -7,11 +7,6 @@ let events2008 = [
         start: 'LO_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080109/080106_res.htm',
-        split: [
-            'splits/2008/SPB_20080105_1_1_split.htm',
-            'splits/2008/SPB_20080105_1_2_split.htm',
-            'splits/2008/SPB_20080105_1_3_split.htm'
-        ],
         info: '5 января 2008г Лыжная гонка – маркированная трасса, 40 мин. 6 января 2008г Лыжная гонка – средняя, 35 мин. 7 января 2008г Лыжная гонка – классика, 50 мин. 9 января 2007г Лыжная гонка – спринт, 15 мин.',
         o_site: '080109',
         endDate: '2008-01-09'
@@ -41,7 +36,6 @@ let events2008 = [
         name: 'Всеволожские Вести',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080120_VV/080120_res.htm',
-        split: 'splits/2008/SPB_20080120_1_split.htm',
         fmt: 'средняя дистанция в заданном направлении',
         start: 'VSEV_VESTI',
         o_site: '080120_VV'
@@ -76,7 +70,6 @@ let events2008 = [
         name: 'Снежная Тропа, 4 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/080210/080210_result.htm',
-        split: 'splits/2008/SPB_20080210_1_split.htm',
         o_site: '080210'
     },
     {
@@ -99,7 +92,6 @@ let events2008 = [
         start: ['SPB_CHAMP','LO_CHAMP'],
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080217/080217_res.htm',
-        split: 'splits/2008/SPB_20080217_1_split.htm',
         o_site: '080217'
     },
     {
@@ -110,7 +102,6 @@ let events2008 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080223/080223_res.htm',
-        split: 'splits/2008/SPB_20080223_1_split.htm',
         o_site: '080223'
     },
     {
@@ -121,7 +112,6 @@ let events2008 = [
         start: ['SPB_CHAMP','LO_CHAMP'],
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080225_spr/080225_res.htm',
-        split: 'splits/2008/SPB_20080225_1_split.htm',
         info: '49-ый открытый Чемпионат и Первенство Санкт-Петербурга по спортивному ориентированию на лыжах.',
         o_site: '080225_spr'
     },
@@ -132,7 +122,6 @@ let events2008 = [
         name: 'Пер-во ВУЗов и пер-во КО',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080225_spr/080225_res.htm',
-        split: 'splits/2008/SPB_20080225_2_split.htm',
         o_site: '080225'
     },
     {
@@ -143,7 +132,6 @@ let events2008 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080302/080302_res.htm',
-        split: 'splits/2008/SPB_20080302_1_split.htm',
         info: '49-ый открытый Чемпионат и Первенство Санкт-Петербурга по спортивному ориентированию на лыжах.',
         o_site: '080302'
     },
@@ -154,7 +142,6 @@ let events2008 = [
         name: 'Две пятерочки',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/08030910/080309_res.htm',
-        split: 'splits/2008/SPB_20080309_1_split.htm',
         info: '9 марта – маркированная трасса с электронным начислением штрафа. Начало в 15.00. 10 марта – масс-старт – заданное направление на лыжах. Начало в 12.00.',
         o_site: '08030910',
         endDate: '2008-03-10'
@@ -166,7 +153,6 @@ let events2008 = [
         name: 'Снежная Тропа, 5 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/080316/080316_res.html',
-        split: 'splits/2008/SPB_20080316_1_split.html',
         info: '5 этап (финал) самых популярных и массовых соревнований по ориентированию в зимний период.',
         o_site: '080316',
         map: 'udelny_2004'
@@ -179,10 +165,6 @@ let events2008 = [
         name: 'Сосновоборские Дюны',
         start: 'SOSNOVOBORSKY_DUNY',
         res: 'https://o-site.spb.ru/_races/04081213/080412_res.htm',
-        split: [
-            'splits/2008/SPB_20080412_1_1_split.htm',
-            'splits/2008/SPB_20080412_1_2_split.htm'
-        ],
         info: 'Традиционные соревнования, открывающие летний сезон',
         o_site: '04081213'
     },
@@ -204,10 +186,6 @@ let events2008 = [
         name: 'Первенство СПб среди обучающихся',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/08041920/KNO_res.zip',
-        split: [
-            'splits/2008/SPB_20080419_1_1_split.htm',
-            'splits/2008/SPB_20080419_1_2_split.htm'
-        ],
         info: 'Летнее первенство Санкт-Петербурга по спортивному ориентированию бегом среди обучающихся',
         fmt: '19 апреля - ЗН (спринт)',
         o_site: '08041920',
@@ -220,7 +198,6 @@ let events2008 = [
         name: 'Вело-О, открытие сезона',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/080420/080420mtb_res.htm',
-        split: 'splits/2008/SPB_20080420_1_split.htm',
         o_site: '080420'
     },
     {
@@ -263,11 +240,6 @@ let events2008 = [
         name: 'Чемпионат и пер-во ЛО',
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/08050103/080501_luga_res.htm',
-        split: [
-            'splits/2008/SPB_20080501_2_1_split.htm',
-            'splits/2008/SPB_20080501_2_2_split.htm',
-            'splits/2008/SPB_20080501_2_3_split.htm'
-        ],
         info: 'ЧЕМПИОНАТ И ПЕРВЕНСТВО ЛЕНИНГРАДСКОЙ ОБЛАСТИ, ОТКРЫТЫЙ КУБОК СЗФО',
         o_site: '08050103'
     },
@@ -288,7 +260,6 @@ let events2008 = [
         place: 'Зеленогорск',
         name: 'День Победы, 1 этап Кубка СПб',
         res: 'https://o-site.spb.ru/_races/080509/080509_res.zip',
-        split: 'splits/2008/SPB_20080509_1_split.htm',
         info: 'Соревнования по ориентированию, посвящённые Дню Победы',
         o_site: '080509',
         owner: 'AZIMUT'
@@ -300,7 +271,6 @@ let events2008 = [
         name: 'Кубок СПб по Вело-О',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/080510_mtbo/080510_rez.htm',
-        split: 'splits/2008/SPB_20080510_1_split.htm',
         info: 'Кубок СПб по велоориентированию. Классическая дистанция в заданном направлении.',
         o_site: '080510_mtbo'
     },
@@ -310,7 +280,6 @@ let events2008 = [
         place: 'Кузьмолово',
         name: 'Памяти Василия Курочкина',
         res: 'https://o-site.spb.ru/_races/080510/080510_res.htm',
-        split: 'splits/2008/SPB_20080510_2_split.htm',
         o_site: '080510'
     },
     {
@@ -319,7 +288,6 @@ let events2008 = [
         place: 'Токсово',
         name: 'Кубок Яркого Мира, 3 этап',
         res: 'https://o-site.spb.ru/_races/080511/080511_res.zip',
-        split: 'splits/2008/SPB_20080511_1_split.zip',
         start: 'YM_CUP',
         o_site: '080511'
     },
@@ -379,7 +347,6 @@ let events2008 = [
         name: 'Чемпионат Санкт-Петербурга, спринт',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/080524/080524_res.htm',
-        split: 'splits/2008/SPB_20080524_1_split.zip',
         info: 'Юбилейный, 50-й Чемпионат Санкт-Петербурга!!!',
         o_site: '080524',
         reskeep: 264
@@ -403,7 +370,6 @@ let events2008 = [
         name: 'Чемпионат Санкт-Петербурга, классика (кросс 70/90)',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/080525/080525_res.htm',
-        split: 'splits/2008/SPB_20080525_1_split.zip',
         info: 'Юбилейный, 50-й Чемпионат Санкт-Петербурга!!!',
         o_site: '080525'
     },
@@ -413,7 +379,6 @@ let events2008 = [
         place: 'Токсово, Малиновая гора',
         name: 'креОстарт-2',
         res: 'https://o-site.spb.ru/_races/080419/080531_res.htm',
-        split: 'splits/2008/SPB_20080531_1_split.zip',
         info: 'Открытая техническая тренировка с электронной отметкой На тренировке будет предложена программа О-Mix. В одном старте будет содержаться несколько видов ориентирования, технических задач и иных вариантов нагрузки, типичной для спортивного ориентирования.',
         o_site: '080419',
         map: 'toksovo_malinovaya_gora_1997'
@@ -437,7 +402,6 @@ let events2008 = [
         name: 'Чемпионат Санкт-Петербурга, средняя дистанция',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/080601/080601_res.htm',
-        split: 'splits/2008/SPB_20080601_1_split.htm',
         info: 'Юбилейный, 50-й Чемпионат Санкт-Петербурга!!!',
         o_site: '080601'
     },
@@ -448,7 +412,6 @@ let events2008 = [
         name: 'Чемпионат Санкт-Петербурга, эстафета',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/080608/080608_res.htm',
-        split: 'splits/2008/SPB_20080608_1_split.htm',
         info: 'Юбилейный, 50-й Чемпионат Санкт-Петербурга!!!',
         o_site: '080608'
     },
@@ -480,7 +443,6 @@ let events2008 = [
         place: 'Каменогорск',
         name: 'Spb2Open',
         res: 'https://o-site.spb.ru/_races/08061516/08061516_1_res.htm',
-        split: 'splits/2008/SPB_20080615_1_split.htm',
         o_site: '08061516',
         endDate: '2008-06-16'
     },
@@ -491,7 +453,6 @@ let events2008 = [
         place: 'Ягодное',
         name: 'Фестиваль Ориентирования Яркий Мир - Белые Ночи',
         res: 'https://o-site.spb.ru/_races/08061722/festival_res.zip',
-        split: 'splits/2008/SPB_20080617_1_split.zip',
         info: 'ПЕТЕРБУРГСКИЙ ФЕСТИВАЛЬ СПОРТИВНОГО ОРИЕНТИРОВАНИЯ «ЯРКИЙ МИР - БЕЛЫЕ НОЧИ»',
         owner: 'WN',
         start: ['WN','YM'],
@@ -544,7 +505,6 @@ let events2008 = [
         place: 'Голубая Дача',
         name: 'Памяти Бориса Панкратьева',
         res: 'https://o-site.spb.ru/_races/080720/080720_mtbo_rez.htm',
-        split: 'splits/2008/SPB_20080720_1_split.htm',
         photo: 'http://photofile.ru/users/jb7/3595092/',
         o_site: '080720'
     },
@@ -556,7 +516,6 @@ let events2008 = [
         place: 'оз Зеркальное',
         type: 'MULTI',
         res: 'https://o-site.spb.ru/_races/tri-o-tlon-2008/tot2008_res.htm',
-        split: 'splits/2008/SPB_20080726_1_split.htm',
         photo: 'http://www.yarkiymir.ru/main/company/news/view/218/',
         publish: 'https://o-site.spb.ru/race.php?id=tri-o-tlon-2008',
         info: 'Старейшая мультиспортивная гонка в России, в 2008-м году состоится уже 7-й Три-О-Тлон, который начал свою историю с 2002-го года. Классическая гонка по набору дисциплин: треккинг, велосипед, байдарка, верёвочные этапы. Основная направленность гонки - навигация. Три дистанции - длинная, средняя и для начинающих. Участвуют команды из 2-х человек любого пола. Информационная поддержка: O-site x-race.msk.ru adventureraces.ru carabin.ru',
@@ -601,10 +560,6 @@ let events2008 = [
         name: 'Чемпионат MTBO SPb Club',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/08081617/rez16.htm',
-        split: [
-            'splits/2008/SPB_20080816_1_1_split.htm',
-            'splits/2008/SPB_20080816_1_2_split.htm'
-        ],
         o_site: '08081617'
     },
     {
@@ -616,7 +571,6 @@ let events2008 = [
         start: 'SPB_CHAMP',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/08082224/080824_res.htm',
-        split: 'splits/2008/SPB_20080822_1_split.htm',
         o_site: '08082224'
     },
     {
@@ -641,7 +595,6 @@ let events2008 = [
         place: 'Токсово',
         name: 'Кубок Яркого Мира, 7 этап',
         res: 'https://o-site.spb.ru/_races/080906/et7-8_res.zip',
-        split: 'splits/2008/SPB_20080906_1_split.zip',
         start: 'YM_CUP',
         o_site: '080906'
     },
@@ -651,7 +604,6 @@ let events2008 = [
         place: 'Кузьмоловский',
         name: 'Кубок Яркого Мира, 8 этап',
         res: 'http://www.o-site.spb.ru/_races/080906/et7-8_res.zip',
-        split: 'splits/2008/SPB_20080907_1_split.zip',
         start: 'YM_CUP',
         o_site: '080907'
     },
@@ -670,7 +622,6 @@ let events2008 = [
         place: 'Зеленогорск-Комарово',
         name: 'Открытое первенство КСО «Азимут»',
         res: 'https://o-site.spb.ru/_races/080913/080913_res.rtf',
-        split: 'splits/2008/SPB_20080913_2_split.rtf',
         logo: 'azimut.gif',
         o_site: '080913'
     },
@@ -681,7 +632,6 @@ let events2008 = [
         name: 'Чемпионат Санкт-Петербурга, марафон',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/080914/080914_res.htm',
-        split: 'splits/2008/SPB_20080914_1_split.htm',
         o_site: '080914'
     },
     {
@@ -728,7 +678,6 @@ let events2008 = [
         place: 'Яппиля-Зеркальный',
         name: 'Надежды Европы',
         res: 'https://o-site.spb.ru/_races/08092729/080928_res.htm',
-        split: 'splits/2008/SPB_20080927_2_split.htm',
         photo: 'http://o-site.spb.ru/gallery.php?id=gallery71',
         start: 'EUROPEAN_HOPE',
         o_site: '08092729'
@@ -774,10 +723,6 @@ let events2008 = [
         place: 'Кавголово',
         name: 'Первенство ВУЗов',
         res: 'https://o-site.spb.ru/_races/081004/081004_VUZ.htm',
-        split: [
-            'splits/2008/SPB_20081004_2_1_split.htm',
-            'splits/2008/SPB_20081004_2_2_split.htm'
-        ],
         o_site: '081004'
     },
     {
@@ -786,7 +731,6 @@ let events2008 = [
         place: 'Кузьмоловский (Сярьги-Энколово)',
         name: 'Кубок Яркого Мира, Финал',
         res: 'https://o-site.spb.ru/_races/081005/final_res.zip',
-        split: 'splits/2008/SPB_20081005_1_split.zip',
         start: 'YM_CUP',
         o_site: '081005'
     },
@@ -804,7 +748,6 @@ let events2008 = [
         place: 'Ягодное',
         name: 'XXXVII Соревнования по ночному ориентированию памяти А. Окинчица',
         res: 'https://o-site.spb.ru/_races/08101112/08101112_res.htm',
-        split: 'splits/2008/SPB_20081011_1_split.zip',
         start: 'OKINCHITSA',
         o_site: '08101112'
     },
@@ -814,7 +757,6 @@ let events2008 = [
         endDate: '2008-10-19',
         name: 'Золотая Осень',
         res: 'https://o-site.spb.ru/_races/08101819/081018_res.htm',
-        split: 'splits/2008/SPB_20081018_1_split.zip',
         owner: 'VYBORG',
         o_site: '08101819',
         map: 'monrepo_2007'
@@ -825,7 +767,6 @@ let events2008 = [
         place: 'Чёрные озёра - Ленинское',
         name: 'Петербургская осень',
         res: 'https://o-site.spb.ru/_races/081019/081019_res.htm',
-        split: 'splits/2008/SPB_20081019_1_split.zip',
         logo: 'azimut.gif',
         o_site: '081019',
         owner: 'AZIMUT'
@@ -854,10 +795,6 @@ let events2008 = [
         name: 'Пер-во ЛО среди обучающихся Финал Кубка ФСО (26.10)',
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/08102526/081026_res.pdf',
-        split: [
-            'splits/2008/SPB_20081025_2_1_split.zip',
-            'splits/2008/SPB_20081025_2_2_split.zip'
-        ],
         o_site: '08102526'
     },
     {
@@ -908,7 +845,6 @@ let events2008 = [
         place: 'Орехово',
         name: 'Кубок Ладоги, 1 этап',
         res: 'https://o-site.spb.ru/_races/081104/081104_res.htm',
-        split: 'splits/2008/SPB_20081104_1_split.zip',
         o_site: '081104'
     },
     {
@@ -951,7 +887,6 @@ let events2008 = [
         name: 'Снежная Тропа, 1 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/081123/081123_res.htm',
-        split: 'splits/2008/SPB_20081123_1_split.htm',
         o_site: '081123',
         map: 'piskarevsky_1996'
     },
@@ -964,10 +899,6 @@ let events2008 = [
         publish: 'https://o-site.spb.ru/race.php?id=081129',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/081129/081129_res.htm',
-        split: [
-            'splits/2008/SPB_20081129_1_1_split.htm',
-            'splits/2008/SPB_20081129_1_2_split.zip'
-        ],
         photo: 'http://foto.mail.ru/list/har1nka/1',
         start: 'GORNY_CROSS',
         o_site: '081129'
@@ -1006,7 +937,6 @@ let events2008 = [
         name: 'Снежная Тропа, 2 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/081207/081207_res.pdf',
-        split: 'splits/2008/SPB_20081207_1_split.zip',
         o_site: '081207'
     },
     {
@@ -1024,7 +954,6 @@ let events2008 = [
         place: 'Воейково',
         name: 'Лесной Азимут',
         res: 'https://o-site.spb.ru/_races/081214_2/081214_split.htm',
-        split: 'splits/2008/SPB_20081214_2_split.htm',
         o_site: '081214_2'
     },
     {
@@ -1034,7 +963,6 @@ let events2008 = [
         name: 'Маркир На Щучьем',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080421/081221_split.htm',
-        split: 'splits/2008/SPB_20081221_1_split.htm',
         o_site: '080421'
     },
     {

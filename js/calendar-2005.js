@@ -462,7 +462,6 @@ let events2005 = [
         place: 'Цвелодубово',
         name: 'Три-О-Тлон 2005',
         res: 'https://o-site.spb.ru/_races/tri-o-tlon-2005/TOT2005_res.htm',
-        split: 'splits/2005/SPB_20050730_1_split.htm',
         publish: 'https://o-site.spb.ru/race.php?id=tri-o-tlon-2005',
         photo: 'http://o-site.spb.ru/photos.php?page=2',
         logo: 'triotlon.gif',

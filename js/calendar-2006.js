@@ -142,7 +142,6 @@ let events2006 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/060311/060311_split.zip',
-        split: 'splits/2006/SPB_20060311_1_split.zip',
         o_site: '060311'
     },
     {
@@ -200,7 +199,6 @@ let events2006 = [
         place: 'Дюны',
         name: 'Кубок Яркого Мира, 1 этап',
         res: 'https://o-site.spb.ru/_races/060423_ym/060423_res.zip',
-        split: 'splits/2006/SPB_20060423_1_split.htm',
         info: '1 этап популярных соревнований. Возрастные группы:МЖ 10 12 14 16 18 21а 21б 40 50 60 М45 М55, гр.7-8 лет без зачета в Кубок',
         start: 'YM_CUP',
         o_site: '060423_ym'
@@ -254,7 +252,6 @@ let events2006 = [
         place: 'Лемболово',
         name: 'Кубок СПб, классика',
         res: 'https://o-site.spb.ru/_races/060509/060509_split.htm',
-        split: 'splits/2006/SPB_20060509_1_split.htm',
         info: 'Кубок Санкт-Петербурга, посвященный Дню Победы. Соревнования являются 1-м этапом 2-го многоэтапного Кубка ФСО СПб и 2-м этапом Кубка Невский Азимут-2006.',
         fmt: 'эстафета одного участника',
         o_site: '060509',

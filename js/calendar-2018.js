@@ -16,10 +16,6 @@ let events2018 = [
         name: 'Рождественские старты 2018',
         reg: 'http://sportident.ru/entry/event_info.php?id=3625',
         res: 'https://o-site.spb.ru/_races/18010708/180107_res.htm',
-        split: [
-            'splits/2018/SPB_20180107_1_1_split.htm',
-            'splits/2018/SPB_20180107_1_2_split.htm'
-        ],
         owner: 'NW',
         o_site: '18010708'
     },
@@ -30,7 +26,6 @@ let events2018 = [
         place: 'Орехово',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/180113R/180113R_res.pdf',
-        split: 'splits/2018/SPB_20180113_1_split.htm',
         fmt: 'рогейн 3 и 6 часов',
         o_site: '180113R',
         start: 'GORNY_CROSS'
@@ -42,7 +37,6 @@ let events2018 = [
         name: 'Northern Winter - рогейн',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/180114/180114_res.htm',
-        split: 'splits/2018/SPB_20180114_1_split.htm',
         o_site: '180114'
     },
     {
@@ -52,7 +46,6 @@ let events2018 = [
         place: 'Кузьмоловский',
         reg: 'http://o-reg.spb.ru/entry-list?id=829',
         res: 'https://o-site.spb.ru/_races/180114_VV/180114_split.html',
-        split: 'splits/2018/SPB_20180114_2_split.html',
         start: 'VSEV_VESTI',
         o_site: '180114_VV'
     },
@@ -65,7 +58,6 @@ let events2018 = [
         type: 'SKI',
         fmt: 'маркир',
         res: 'https://o-site.spb.ru/_races/180120/20180120_res.htm',
-        split: 'splits/2018/SPB_20180120_1_split.htm',
         o_site: '180120'
     },
     {
@@ -76,7 +68,6 @@ let events2018 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/180121/20180121_res.htm',
-        split: 'splits/2018/SPB_20180121_1_split.htm',
         o_site: '180121'
     },
     {
@@ -89,11 +80,6 @@ let events2018 = [
         type: 'SKI',
         reg: 'http://orgeo.ru/event/registration/5769',
         res: 'https://o-site.spb.ru/_races/18012628/180126_res.pdf',
-        split: [
-            'splits/2018/SPB_20180126_1_1_split.pdf',
-            'splits/2018/SPB_20180126_1_2_split.pdf',
-            'splits/2018/SPB_20180126_1_3_split.pdf'
-        ],
         o_site: '18012628'
     },
     {
@@ -104,7 +90,6 @@ let events2018 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/winter-rogaine-18/registration.html',
         res: 'http://www.multsport.ru/images/rog1cup18/rezult.htm',
-        split: 'splits/2018/SPB_20180127_1_split.htm',
         video: 'https://www.youtube.com/watch?v=IugRLdORzek',
         fmt: '4 часа, лыжи, бег',
         owner: 'MULTSPORT',
@@ -116,7 +101,6 @@ let events2018 = [
         place: 'Павловский парк',
         name: 'Соревнования ко Дню снятия Блокады',
         res: 'https://o-site.spb.ru/_races/180128/180128_split.htm',
-        split: 'splits/2018/SPB_20180128_1_split.htm',
         video: 'https://www.youtube.com/watch?v=vPXrpVjzDlQ',
         info: 'Проходят при поддержке ОАО "Фацер"',
         o_site: '180128',
@@ -131,7 +115,6 @@ let events2018 = [
         fmt: 'выбор',
         reg: 'http://o-reg.spb.ru/entry-list?id=836',
         res: 'https://o-site.spb.ru/_races/180204_BN/180204_res.htm',
-        split: 'splits/2018/SPB_20180204_1_split.htm',
         o_site: '180204_BN'
     },
     {
@@ -143,10 +126,6 @@ let events2018 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=834',
         res: ['https://o-site.spb.ru/_races/180204/180204_res.htm','https://o-site.spb.ru/_races/180204/180211_split.htm'],
-        split: [
-            'splits/2018/SPB_20180211_1_1_split.htm',
-            'splits/2018/SPB_20180211_1_2_split.htm'
-        ],
         info: 'Соревнования состоятся в районе ЗЦ Зеркальный 04 февраля - Лыжная гонка-спринт 11 февраля - Лыжная гонка-маркированная трасса (с проколами в карте) На соревнования заявки принимаются только от коллективов Санкт-Петербурга.',
         owner: 'SFSO_SPB',
         o_site: '180204'
@@ -160,10 +139,6 @@ let events2018 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=838',
         res: 'https://o-site.spb.ru/_races/18021011_matreshka/180210M_res.htm',
-        split: [
-            'splits/2018/SPB_20180210_1_1_split.htm',
-            'splits/2018/SPB_20180210_1_2_split.htm'
-        ],
         o_site: '18021011_matreshka'
     },
     {
@@ -174,10 +149,6 @@ let events2018 = [
         name: 'Всероссийская зимняя Универсиада, 1 этап',
         reg: 'http://o-reg.spb.ru/entry-list?id=837',
         res: 'https://o-site.spb.ru/_races/18021011/180210_rez.htm',
-        split: [
-            'splits/2018/SPB_20180210_2_1_split.htm',
-            'splits/2018/SPB_20180210_2_2_split.htm'
-        ],
         info: 'Спортсмены, не представившие все необходимые документы в мандатную комиссию, не будут включены в стартовые протоколы и допущены к соревнованиям!',
         o_site: '18021011'
     },
@@ -189,7 +160,6 @@ let events2018 = [
         name: 'Первенство России, Цвелодубово',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/180212/4komandnye.rar',
-        split: 'splits/2018/SPB_20180212_1_split.htm',
         video: 'http://northernwind.spb.ru/videosplit/2018/PervenstvoRussia',
         owner: 'FSOR',
         o_site: '180212'
@@ -213,7 +183,6 @@ let events2018 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=841',
         res: 'https://o-site.spb.ru/_races/180223/180223_res.htm',
-        split: 'splits/2018/SPB_20180223_1_split.htm',
         o_site: '180223'
     },
     {
@@ -234,7 +203,6 @@ let events2018 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=843',
         res: 'https://o-site.spb.ru/_races/180224/180224_res.htm',
-        split: 'splits/2018/SPB_20180224_1_split.htm',
         o_site: '180224'
     },
     {
@@ -265,7 +233,6 @@ let events2018 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=842',
         res: 'https://o-site.spb.ru/_races/180225/180225_res.htm',
-        split: 'splits/2018/SPB_20180225_2_split.htm',
         o_site: '180225'
     },
     {
@@ -289,7 +256,6 @@ let events2018 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/180304/180204_res.htm',
-        split: 'splits/2018/SPB_20180304_1_split.htm',
         o_site: '180304'
     },
     {
@@ -319,12 +285,6 @@ let events2018 = [
         place: 'СПб',
         reg: 'http://sportident.ru/entry/event_info.php?id=3724',
         res: ['https://o-site.spb.ru/_races/180309-11/180309_SC_split.htm','https://o-site.spb.ru/_races/180309-11/180310_SCutro_split.htm','https://o-site.spb.ru/_races/180309-11/180310_SCden_split.htm','https://o-site.spb.ru/_races/180309-11/180311_SC_split.htm','https://o-site.spb.ru/_races/180309-11/180309_11_SC_sum.htm'],
-        split: [
-            'splits/2018/SPB_20180309_1_1_split.htm',
-            'splits/2018/SPB_20180309_1_2_split.htm',
-            'splits/2018/SPB_20180309_1_3_split.htm',
-            'splits/2018/SPB_20180309_1_4_split.htm'
-        ],
         o_site: '180309-11'
     },
     {
@@ -343,7 +303,6 @@ let events2018 = [
         name: 'П-во Выборгского р-на',
         reg: 'http://o-reg.spb.ru/entry-list?id=850',
         res: 'https://o-site.spb.ru/_races/180311/180311_res.htm',
-        split: 'splits/2018/SPB_20180311_1_split.htm',
         info: 'Соревнования являются официальным первенством Выборгского р-на СПб, в детских, юниорских и основных группах возможно выполнение массовых разрядов.',
         owner: 'VYBORG',
         o_site: '180311'
@@ -354,11 +313,6 @@ let events2018 = [
         name: 'Кубок России',
         place: 'Сочи',
         res: 'https://o-site.spb.ru/_races/180316Sochi/res1.htm',
-        split: [
-            'splits/2018/SPB_20180316_1_1_split.htm',
-            'splits/2018/SPB_20180316_1_2_split.htm',
-            'splits/2018/SPB_20180316_1_3_split.htm'
-        ],
         o_site: '180316Sochi'
     },
     {
@@ -377,12 +331,6 @@ let events2018 = [
         name: 'Черное море - 2018',
         place: 'Новороссийск',
         res: 'https://o-site.spb.ru/_races/180323Gel/summa4.htm',
-        split: [
-            'splits/2018/SPB_20180321_1_1_split.htm',
-            'splits/2018/SPB_20180321_1_2_split.htm',
-            'splits/2018/SPB_20180321_1_3_split.htm',
-            'splits/2018/SPB_20180321_1_4_split.htm'
-        ],
         o_site: '180323Gel'
     },
     {
@@ -392,7 +340,6 @@ let events2018 = [
         name: 'Ориентир-1',
         reg: 'http://o-reg.spb.ru/entry-list?id=863',
         res: 'https://o-site.spb.ru/_races/180331/180331_res.htm',
-        split: 'splits/2018/SPB_20180331_1_split.htm',
         info: 'Традиционная серия тренировочных стартов, проводимых КСО "Азимут"',
         o_site: '180331'
     },
@@ -423,7 +370,6 @@ let events2018 = [
         start: 'VSEVOLOZHSK_WAY',
         reg: 'http://o-reg.spb.ru/entry-list?id=865',
         res: 'https://o-site.spb.ru/_races/180408/180804_res.htm',
-        split: 'splits/2018/SPB_20180408_1_split.htm',
         o_site: '180408'
     },
     {
@@ -433,7 +379,6 @@ let events2018 = [
         name: 'Кубок Всеволожского района',
         reg: 'http://o-reg.spb.ru/entry-list?id=869',
         res: 'https://o-site.spb.ru/_races/180414/180414_res.htm',
-        split: 'splits/2018/SPB_20180414_1_split.htm',
         o_site: '180414'
     },
     {
@@ -442,7 +387,6 @@ let events2018 = [
         name: 'Тренировка',
         place: 'Пухтолова гора',
         res: 'https://o-site.spb.ru/_races/180415_tr/180415_res.htm',
-        split: 'splits/2018/SPB_20180415_1_split.htm',
         o_site: '180415_tr',
         map: 'pukhtolova_gora_2025'
     },
@@ -453,7 +397,6 @@ let events2018 = [
         place: 'Полюстровский парк',
         reg: 'https://o-site.spb.ru/_races/180418_K/180418_zayavka.xls',
         res: 'https://o-site.spb.ru/_races/180418_K/180418_RES_K.htm',
-        split: 'splits/2018/SPB_20180418_1_split.htm',
         o_site: '180418_K',
         map: 'polyustrovsky_2022'
     },
@@ -463,7 +406,6 @@ let events2018 = [
         place: 'ГБОУ школа №552, Пушкин, ул Хазова, 7А',
         name: 'Спортивное ориентирование - в школу, Пушкинский р-н',
         res: 'https://o-site.spb.ru/_races/180418/180418_res_lab.pdf',
-        split: 'splits/2018/SPB_20180418_2_split.htm',
         photo: 'http://vk.com/album-51571395_253168487',
         video: 'https://www.youtube.com/watch?v=2f03F-oMZ38',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
@@ -481,10 +423,6 @@ let events2018 = [
         place: 'Сосновый Бор',
         reg: 'http://o-reg.spb.ru/entry-list?id=859',
         res: 'https://o-site.spb.ru/_races/180421-22_/180421_res.htm',
-        split: [
-            'splits/2018/SPB_20180421_1_1_split.htm',
-            'splits/2018/SPB_20180421_1_2_split.htm'
-        ],
         video: ['https://www.youtube.com/watch?v=9B7c5O_CGBY','https://www.youtube.com/watch?v=oi8F_92svGk'],
         o_site: '180421-22_'
     },
@@ -495,7 +433,6 @@ let events2018 = [
         name: 'Открытая тренировка МТБО',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/180422/180422_result.htm',
-        split: 'splits/2018/SPB_20180422_1_split.htm',
         o_site: '180422'
     },
     {
@@ -504,7 +441,6 @@ let events2018 = [
         place: 'школа №467, Колпино, бул Трудящихся, 9',
         name: 'Спортивное ориентирование в школу, Колпинский р-н',
         res: 'https://o-site.spb.ru/_races/180425/180425_res_lab.htm',
-        split: 'splits/2018/SPB_20180425_1_split.htm',
         photo: 'http://vk.com/album-51571395_253323178',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
         o_site: '180425',
@@ -537,13 +473,6 @@ let events2018 = [
         place: 'Токсово',
         name: 'ЧиП СЗФО, Майская многодневка',
         res: 'https://o-site.spb.ru/_races/180429/180429_resNW.htm',
-        split: [
-            'splits/2018/SPB_20180429_1_1_split.htm',
-            'splits/2018/SPB_20180429_1_2_split.htm',
-            'splits/2018/SPB_20180429_1_3_split.htm',
-            'splits/2018/SPB_20180429_1_4_split.htm',
-            'splits/2018/SPB_20180429_1_5_split.htm'
-        ],
         o_site: '180429'
     },
     {
@@ -554,7 +483,6 @@ let events2018 = [
         map: 'luga_omchino_gk_2023',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/180501R/180501R_res.pdf',
-        split: 'splits/2018/SPB_20180501_1_split.htm',
         video: 'https://www.youtube.com/watch?v=rEV23hEStHc',
         fmt: 'рогейн: БЕГОМ 5 и 2 часа, ВЕЛО - 4 часа',
         start: 'GORNY_CROSS',
@@ -567,10 +495,6 @@ let events2018 = [
         place: 'Поляны',
         reg: 'http://o-reg.spb.ru/entry-list?id=880',
         res: 'https://o-site.spb.ru/_races/180415_SD2/180430_RES.htm',
-        split: [
-            'splits/2018/SPB_20180501_2_1_split.htm',
-            'splits/2018/SPB_20180501_2_2_split.htm'
-        ],
         owner: 'ANCHKV',
         o_site: '180415_SD2'
     },
@@ -626,7 +550,6 @@ let events2018 = [
         name: 'Соревнования, посвящённые Дню Победы',
         reg: 'http://new.o-reg.spb.ru/?filter[day_id]=882',
         res: 'https://o-site.spb.ru/_races/180509/180509_res.htm',
-        split: 'splits/2018/SPB_20180509_1_split.htm',
         info: 'ВНИМАНИЕ! При заявке на этот старт тестируется новая версия сайта o-reg.spb.ru "Старые" логин и пароль на новом сайте работают! Если возникают проблемы с заявкой - пишите на электронную почту гл. секретаря или звоните ему (см. информацию о старте).',
         o_site: '180509',
         map: 'lembolovo_2024',
@@ -658,10 +581,6 @@ let events2018 = [
         name: 'Памяти друзей',
         reg: 'http://new.o-reg.spb.ru/?filter[day_id]=883',
         res: 'https://o-site.spb.ru/_races/180513/180513_res.htm',
-        split: [
-            'splits/2018/SPB_20180513_1_1_split.htm',
-            'splits/2018/SPB_20180513_1_2_split.htm'
-        ],
         info: 'ВНИМАНИЕ! При заявке на этот старт продолжает тестироваться новая версия сайта o-reg.spb.ru "Старые" логин и пароль на новом сайте работают! Если возникают проблемы с заявкой - пишите на электронную почту гл. секретаря или звоните ему (см. информацию о старте).',
         o_site: '180513',
         map: 'pukhtolova_gora_2025',
@@ -673,7 +592,6 @@ let events2018 = [
         place: 'Гимназия №642 «Земля и Вселенная», Морская наб, 15-2',
         name: 'Спортивное ориентирование в школу, Василеостровский район',
         res: 'https://o-site.spb.ru/_races/180516/180516_res_lab.htm',
-        split: 'splits/2018/SPB_20180516_1_split.htm',
         photo: 'http://vk.com/fazer_russia?z=album-51571395_253824443',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
         o_site: '180516',
@@ -697,7 +615,6 @@ let events2018 = [
         place: 'Сосновка',
         reg: 'http://o-reg.spb.ru/entry-list?id=884',
         res: 'https://o-site.spb.ru/_races/180519_RA_SPb/180519_RES.htm',
-        split: 'splits/2018/SPB_20180519_2_split.htm',
         owner: 'SFSO_SPB',
         o_site: '180519_RA_SPb',
         map: 'sosnovka_2014'
@@ -711,7 +628,6 @@ let events2018 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2018/registration.html',
         res: 'http://www.multsport.ru/images/rogCanoe18/rezult.htm',
-        split: 'splits/2018/SPB_20180519_3_split.htm',
         video: 'https://www.youtube.com/watch?v=upUBuxtv_gI',
         fmt: 'Рогейн 8ч и 16ч (на байдарках)',
         owner: 'MULTSPORT',
@@ -735,7 +651,6 @@ let events2018 = [
         start: 'SPB_CHAMP',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=887',
         res: 'https://o-site.spb.ru/_races/180520/180520_rez_sprint.htm',
-        split: 'splits/2018/SPB_20180520_1_split.htm',
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» КСО Норд-Вест Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга»',
         o_site: '180520'
     },
@@ -755,10 +670,6 @@ let events2018 = [
         name: 'Спартакиада ВС РФ среди сборных команд ВУЗов',
         place: 'Сертолово, Вартемяги',
         res: 'https://o-site.spb.ru/_races/180524-26/1805_it.pdf',
-        split: [
-            'splits/2018/SPB_20180525_1_1_split.htm',
-            'splits/2018/SPB_20180525_1_2_split.htm'
-        ],
         o_site: '180524-26'
     },
     {
@@ -769,11 +680,6 @@ let events2018 = [
         name: 'Выборгская тройка',
         start: 'VYBORGSKY_TROIKA',
         res: 'https://o-site.spb.ru/_races/18052627/180526-27_summ.htm',
-        split: [
-            'splits/2018/SPB_20180526_1_1_split.htm',
-            'splits/2018/SPB_20180526_1_2_split.htm',
-            'splits/2018/SPB_20180526_1_3_split.htm'
-        ],
         video: [
             'https://www.youtube.com/watch?v=iewVI7ESxTY',
             'https://www.youtube.com/watch?v=g4qiWghYddA',
@@ -827,7 +733,6 @@ let events2018 = [
         start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/180702/20180602_sprint_res.htm',
-        split: 'splits/2018/SPB_20180602_2_split.htm',
         o_site: '180702',
         reskeep: 21
     },
@@ -848,7 +753,6 @@ let events2018 = [
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=898',
         res: 'https://o-site.spb.ru/_races/180603/180603_res.htm',
-        split: 'splits/2018/SPB_20180603_1_split.htm',
         photo: ['https://vk.com/album-154221178_254263417','https://vk.com/album610978_254267483'],
         video: [
             'https://youtu.be/iDRiiKAvL7g',
@@ -871,11 +775,6 @@ let events2018 = [
         name: 'Невский Азимут',
         reg: 'http://o-reg.spb.ru/entry-list?id=881',
         res: 'https://o-site.spb.ru/_races/18060911/180609_res_.htm',
-        split: [
-            'splits/2018/SPB_20180609_1_1_split.htm',
-            'splits/2018/SPB_20180609_1_2_split.htm',
-            'splits/2018/SPB_20180609_1_3_split.htm'
-        ],
         start: 'NA',
         o_site: '18060911',
         map: ['na_2018_06_09', 'na_2018_lembolovo', 'na_2018_06_11']
@@ -888,7 +787,6 @@ let events2018 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=900',
         res: 'https://o-site.spb.ru/_races/180610V/180610V_split.htm',
-        split: 'splits/2018/SPB_20180610_1_split.htm',
         o_site: '180610V'
     },
     {
@@ -908,7 +806,6 @@ let events2018 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=893',
         res: 'https://o-site.spb.ru/_races/180611/20180611_res.htm',
-        split: 'splits/2018/SPB_20180611_1_split.htm',
         o_site: '180611'
     },
     {
@@ -919,7 +816,6 @@ let events2018 = [
         start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/180612/20180612_res2.htm',
-        split: 'splits/2018/SPB_20180612_1_split.htm',
         o_site: '180612',
         reskeep: 19
     },
@@ -930,13 +826,6 @@ let events2018 = [
         name: 'Спортивный Фестиваль «Яркий Мир»',
         place: 'Орехово',
         res: 'https://o-site.spb.ru/_races/18061216/180613_lab_res.htm',
-        split: [
-            'splits/2018/SPB_20180612_2_1_split.htm',
-            'splits/2018/SPB_20180612_2_2_split.htm',
-            'splits/2018/SPB_20180612_2_3_split.htm',
-            'splits/2018/SPB_20180612_2_4_split.htm',
-            'splits/2018/SPB_20180612_2_5_split.htm'
-        ],
         photo: 'http://vk.com/photo-128591100_456242365',
         video: 'https://www.youtube.com/watch?v=AduqKHuaVeM',
         start: 'YM',
@@ -1064,11 +953,6 @@ let events2018 = [
         place: 'Раздолье',
         reg: 'http://orgeo.ru/event/6775',
         res: 'https://o-site.spb.ru/_races/180622mms/1rez.htm',
-        split: [
-            'splits/2018/SPB_20180622_1_1_split.htm',
-            'splits/2018/SPB_20180622_1_2_split.htm',
-            'splits/2018/SPB_20180622_1_3_split.htm'
-        ],
         video: 'https://www.youtube.com/watch?v=DmBYqYQ_XwQ',
         start: 'MMS',
         o_site: '180622mms',
@@ -1093,11 +977,6 @@ let events2018 = [
         name: 'Неделя ориентирования «Белые Ночи»',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/180701/180629_res.htm',
-        split: [
-            'splits/2018/SPB_20180625_2_1_split.htm',
-            'splits/2018/SPB_20180625_2_2_split.htm',
-            'splits/2018/SPB_20180625_2_3_split.htm'
-        ],
         video: 'https://www.youtube.com/watch?v=bcpXFSBki-E',
         info: 'Организаторы: Клуб спортивного ориентирования «Белые Ночи». При поддержке «Региональной спортивной федерации спортивного ориентирования Ленинградской области».',
         owner: 'WN',
@@ -1114,10 +993,6 @@ let events2018 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=908',
         res: 'https://o-site.spb.ru/_races/180630v/180630v_rez1.htm',
-        split: [
-            'splits/2018/SPB_20180630_1_1_split.htm',
-            'splits/2018/SPB_20180630_1_2_split.htm'
-        ],
         info: 'Вечерние вело-старты на многодневке Белые Ночи',
         map: ['petjajarvy_2024','wn_2018_06_30'],
         owner: 'WN',
@@ -1143,10 +1018,6 @@ let events2018 = [
         name: 'Летнее Первенство Белых Ночей',
         reg: 'http://o-reg.spb.ru/entry-list?id=910',
         res: 'https://o-site.spb.ru/_races/18070708/180707_res.htm',
-        split: [
-            'splits/2018/SPB_20180707_1_1_split.htm',
-            'splits/2018/SPB_20180707_1_2_split.htm'
-        ],
         map: 'tikhoe_2024',
         owner: 'WN',
         o_site: '18070708'
@@ -1187,7 +1058,6 @@ let events2018 = [
         name: 'Тренировка FoxTeam',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=913',
         res: 'https://o-site.spb.ru/_races/180715_Fox/180715_res.htm',
-        split: 'splits/2018/SPB_20180715_2_split.htm',
         o_site: '180715_Fox'
     },
     {
@@ -1200,7 +1070,6 @@ let events2018 = [
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
         res: 'https://o-site.spb.ru/_races/180715R/180715R_res.pdf',
-        split: 'splits/2018/SPB_20180715_1_split.htm',
         o_site: '180715R',
         start: 'GORNY_CROSS'
     },
@@ -1307,7 +1176,6 @@ let events2018 = [
         name: 'Ладожский ориентир',
         reg: 'http://o-reg.spb.ru/entry-list?id=922',
         res: 'https://o-site.spb.ru/_races/180812_/180812_res.htm',
-        split: 'splits/2018/SPB_20180812_1_split.htm',
         o_site: '180812_',
         map: 'lembolovo_2024'
     },
@@ -1334,7 +1202,6 @@ let events2018 = [
         date: '2018-08-25',
         name: 'History Race',
         res: 'https://o-site.spb.ru/_races/180825/HistoryRace2018_rez.pdf',
-        split: 'splits/2018/SPB_20180825_1_split.htm',
         o_site: '180825'
     },
     {
@@ -1344,7 +1211,6 @@ let events2018 = [
         name: 'Соревнования Памяти Димы Фатидинова',
         reg: 'http://o-reg.spb.ru/entry-list?id=920',
         res: 'https://o-site.spb.ru/_races/180826_/180826_res.htm',
-        split: 'splits/2018/SPB_20180826_1_split.htm',
         o_site: '180826_'
     },
     {
@@ -1356,7 +1222,6 @@ let events2018 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=891',
         res: 'https://o-site.spb.ru/_races/180901/180901_res.htm',
-        split: 'splits/2018/SPB_20180901_1_split.htm',
         o_site: '180901'
     },
     {
@@ -1428,7 +1293,6 @@ let events2018 = [
         name: 'Классика Белых Ночей',
         reg: 'http://o-reg.spb.ru/entry-list?id=927',
         res: 'https://o-site.spb.ru/_races/180909_/180909_res_.htm',
-        split: 'splits/2018/SPB_20180909_1_split.htm',
         info: '9-е традиционные соревнования на призы компании "Триколор", проводимые клубом "Белые Ночи"',
         map: 'stekljanny_2021',
         owner: 'WN',
@@ -1462,7 +1326,6 @@ let events2018 = [
         planner: 'Мичуринское',
         reg: 'http://o-reg.spb.ru/entry-list?id=930',
         res: 'https://o-site.spb.ru/_races/180915_LO/180915_res_.htm',
-        split: 'splits/2018/SPB_20180915_1_split.htm',
         o_site: '180915_LO'
     },
     {
@@ -1487,7 +1350,6 @@ let events2018 = [
         start: 'LO_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=931',
         res: 'https://o-site.spb.ru/_races/180916_LO/180916_res.htm',
-        split: 'splits/2018/SPB_20180916_1_split.htm',
         o_site: '180916_LO',
         reskeep: 41
     },
@@ -1519,11 +1381,6 @@ let events2018 = [
         name: 'Старты в Зеркальном',
         place: 'Зеркальный',
         res: ['https://o-site.spb.ru/_races/180921-24/180921_split.htm','https://o-site.spb.ru/_races/180921-24/180922_split.htm','https://o-site.spb.ru/_races/180921-24/180924_split.htm'],
-        split: [
-            'splits/2018/SPB_20180924_1_1_split.htm',
-            'splits/2018/SPB_20180924_1_2_split.htm',
-            'splits/2018/SPB_20180924_1_3_split.htm'
-        ],
         o_site: '180921-24',
         map: 'zerkalny_2002'
     },
@@ -1535,7 +1392,6 @@ let events2018 = [
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=935',
         res: 'https://o-site.spb.ru/_races/180922_deaf/180922_rez_deaf.htm',
-        split: 'splits/2018/SPB_20180922_1_split.htm',
         o_site: '180922_deaf',
         map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
@@ -1557,7 +1413,6 @@ let events2018 = [
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=934',
         res: 'https://o-site.spb.ru/_races/180923/180923res.htm',
-        split: 'splits/2018/SPB_20180923_1_split.htm',
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» РФСОО КСО «Гольфстрим»',
         video: 'http://www.northernwind.spb.ru/videosplit/2018/chspb_marathon/',
         owner: 'GOLFSTREAM',
@@ -1570,7 +1425,6 @@ let events2018 = [
         place: 'ГБОУ лицей №101, ГБОУ шк №468',
         name: 'Спортивное ориентирование в школу, Выборгский р-н',
         res: 'https://o-site.spb.ru/_races/180926/180926_res_lab.htm',
-        split: 'splits/2018/SPB_20180926_1_split.htm',
         photo: 'http://vk.com/fazer_russia?w=wall-51571395_6078',
         info: 'состоится 17 октября (среда), адрес: актовый зал ДДЮТ (ул. Сантьяго-де-Куба д.4 корп.2), начало в 18-00. Сменная обувь обязательна! Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
         owner: 'VYBORG',
@@ -1593,7 +1447,6 @@ let events2018 = [
         name: 'Золотые кольца (Свадебные)',
         reg: 'http://o-reg.spb.ru/entry-list?id=942',
         res: 'https://o-site.spb.ru/_races/180929_/180929_res.pdf',
-        split: 'splits/2018/SPB_20180929_2_split.htm',
         info: '44-е традиционные соревнования супружеских пар. Допускаются пары по интересам.',
         start: 'WEDDING',
         o_site: '180929_'
@@ -1624,7 +1477,6 @@ let events2018 = [
         start: 'SPB_CHAMP',
         place: 'Пухтолова гора',
         res: 'https://o-site.spb.ru/_races/180929_deaf/180929_rez_deaf.htm',
-        split: 'splits/2018/SPB_20180929_5_split.htm',
         o_site: '180929_deaf',
         map: 'pukhtolova_gora_2025'
     },
@@ -1662,7 +1514,6 @@ let events2018 = [
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
         res: 'https://o-site.spb.ru/_races/180929R/180929R_res.pdf',
-        split: 'splits/2018/SPB_20180929_1_split.htm',
         o_site: '180929R',
         start: 'GORNY_CROSS'
     },
@@ -1683,7 +1534,6 @@ let events2018 = [
         name: 'Чемпионат и первенство СПб - эстафета - 3 чел',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/180930/180930res.htm',
-        split: 'splits/2018/SPB_20180930_2_split.htm',
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» КСО «Веста»',
         o_site: '180930',
         video: 'http://northernwind.spb.ru/videosplit/2018/chspb_relay3',
@@ -1763,7 +1613,6 @@ let events2018 = [
         name: 'Чемпионат и первенство СПб - классика',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/181007/181007_res3.htm',
-        split: 'splits/2018/SPB_20181007_1_split.htm',
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга»',
         o_site: '181007',
         video: 'http://northernwind.spb.ru/videosplit/2018/chspb_middle',
@@ -1775,7 +1624,6 @@ let events2018 = [
         name: 'Спортивное ориентирование в школу, Калининский р-н',
         place: 'ГБОУ СОШ №175, пр Просвещения, 106-2',
         res: 'https://o-site.spb.ru/_races/181010/181010_res_lab.htm',
-        split: 'splits/2018/SPB_20181010_1_split.htm',
         photo: 'http://vk.com/album-51571395_257119311',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
         o_site: '181010',
@@ -1789,7 +1637,6 @@ let events2018 = [
         name: 'Старт памяти одноклубника Коли Иванова',
         place: 'Кузьмолово',
         res: 'https://o-site.spb.ru/_races/181010_PK/181010_PPK_rez.htm',
-        split: 'splits/2018/SPB_20181010_2_split.htm',
         o_site: '181010_PK',
         reskeep: 63
     },
@@ -1809,7 +1656,6 @@ let events2018 = [
         place: 'Орехово',
         name: 'Мемориал Анатолия Окинчица',
         res: 'https://o-site.spb.ru/_races/18101314/Results2018.htm',
-        split: 'splits/2018/SPB_20181013_1_split.htm',
         info: '47-е ночные соревнования по спортивному ориентированию, проводимые Санкт-Петербургским туристским клубом',
         start: 'OKINCHITSA',
         o_site: '18101314',
@@ -1824,7 +1670,6 @@ let events2018 = [
         name: 'Тренировка от FoxTeam',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=947',
         res: 'https://o-site.spb.ru/_races/181013_Fox/181013_res.htm',
-        split: 'splits/2018/SPB_20181013_2_split.htm',
         o_site: '181013_Fox',
         reskeep: 62,
         map: 'lembolovo_2024'
@@ -1868,10 +1713,6 @@ let events2018 = [
         name: 'Золотая осень',
         reg: 'http://o-reg.spb.ru/entry-list?id=951',
         res: 'https://o-site.spb.ru/_races/181020/res1.htm',
-        split: [
-            'splits/2018/SPB_20181020_1_1_split.htm',
-            'splits/2018/SPB_20181020_1_2_split.htm'
-        ],
         video: ['https://www.youtube.com/watch?v=Exf5pftDSBk','https://www.youtube.com/watch?v=tvYLbNkshfc'],
         owner: 'VYBORG',
         o_site: '181020',
@@ -1893,7 +1734,6 @@ let events2018 = [
         place: 'Колпино, парк Чухонка',
         name: 'Открытое Первенство МО г.Колпино',
         res: 'https://o-site.spb.ru/_races/181021k/181021_res.htm',
-        split: 'splits/2018/SPB_20181021_1_split.htm',
         o_site: '181021k'
     },
     {
@@ -1903,7 +1743,6 @@ let events2018 = [
         name: 'Памяти Зои Викторовны Пятаковой',
         reg: 'http://o-reg.spb.ru/entry-list?id=955',
         res: 'https://o-site.spb.ru/_races/181021_/181021_res_PZV.htm',
-        split: 'splits/2018/SPB_20181021_2_split.htm',
         o_site: '181021_'
     },
     {
@@ -1921,7 +1760,6 @@ let events2018 = [
         place: 'шк №212, ул Ярослава Гашека, 9-2',
         name: 'Спортивное ориентирование в школу, Фрунзенский район',
         res: 'https://o-site.spb.ru/_races/181024/181024_res_lab.htm',
-        split: 'splits/2018/SPB_20181024_1_split.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
         o_site: '181024',
         map: 'school_212_2018',
@@ -1935,7 +1773,6 @@ let events2018 = [
         type: 'ROGAINE',
         reg: 'http://sport-orient.ru/products/uncategorized/klo-final',
         res: 'https://o-site.spb.ru/_races/181027r/181027r_res.pdf',
-        split: 'splits/2018/SPB_20181027_1_split.pdf',
         o_site: '181027r'
     },
     {
@@ -1946,7 +1783,6 @@ let events2018 = [
         start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'http://www.northernwind.spb.ru/videosplit/2018/pervenstvostudetov_zolotayaosen/',
-        split: 'splits/2018/SPB_20181027_2_split.htm',
         photo: 'http://vk.com/spb_orient?z=album-154221178_257632174',
         video: 'http://www.northernwind.spb.ru/videosplit/2018/pervenstvostudetov_zolotayaosen/',
         o_site: '181027',
@@ -1958,7 +1794,6 @@ let events2018 = [
         place: 'Васкелово',
         name: 'Петербургская осень',
         res: 'http://www.northernwind.spb.ru/videosplit/2018/pervenstvostudetov_zolotayaosen/',
-        split: 'splits/2018/SPB_20181027_3_split.htm',
         photo: 'http://vk.com/spb_orient?z=album-154221178_257632174',
         video: 'http://www.northernwind.spb.ru/videosplit/2018/pervenstvostudetov_zolotayaosen/',
         owner: 'AZIMUT',
@@ -1998,7 +1833,6 @@ let events2018 = [
         name: 'Тренировка FoxTeam',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=961',
         res: 'https://o-site.spb.ru/_races/181103/181103_res.htm',
-        split: 'splits/2018/SPB_20181103_1_split.htm',
         o_site: '181103',
         reskeep: 81,
         map: 'orekhovo_rakitinskoe_2004'
@@ -2037,12 +1871,6 @@ let events2018 = [
         endDate: '2018-11-11',
         name: 'Чемпионат России в Геленджике',
         res: 'https://o-site.spb.ru/_races/181110Gel/res1.htm',
-        split: [
-            'splits/2018/SPB_20181107_1_1_split.htm',
-            'splits/2018/SPB_20181107_1_2_split.htm',
-            'splits/2018/SPB_20181107_1_3_split.htm',
-            'splits/2018/SPB_20181107_1_4_split.htm'
-        ],
         o_site: '181110Gel',
         reskeep: [87, 89, 90, 88],
         start: 'RUSSIA_CHAMP'
@@ -2054,7 +1882,6 @@ let events2018 = [
         name: 'Маркир-110',
         reg: 'http://o-reg.spb.ru/entry-list?id=953',
         res: 'https://o-site.spb.ru/_races/181111_mt/181111_split.htm',
-        split: 'splits/2018/SPB_20181111_1_split.htm',
         start: 'ROGAINE_110',
         o_site: '181111_mt',
         map: 'lembolovo_2024'
@@ -2079,7 +1906,6 @@ let events2018 = [
         link: 'https://vk.com/gornycross',
         start: 'GORNY_CROSS',
         res: 'https://o-site.spb.ru/_races/181117R/181117R_res.pdf',
-        split: 'splits/2018/SPB_20181117_1_split.htm',
         o_site: '181117R'
     },
     {
@@ -2091,7 +1917,6 @@ let events2018 = [
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=962',
         res: 'https://o-site.spb.ru/_races/181118_rog/181118_res.htm',
-        split: 'splits/2018/SPB_20181118_1_split.htm',
         o_site: '181118_rog',
         reskeep: 92
     },
@@ -2101,7 +1926,6 @@ let events2018 = [
         place: 'ФМЛ №239, ул Кирочная, 8',
         name: 'Соревнования по спортивному ориентированию в закрытых помещениях «Лабиринты разума»',
         res: 'http://o-site.spb.ru/_races/181118_LR/181118_rez2.htm',
-        split: 'splits/2018/SPB_20181118_2_split.htm',
         photo: 'http://vk.com/album-154221178_258244225',
         info: 'Соревнования по спортивному ориентированию в закрытых помещениях',
         o_site: '181118_LR'
@@ -2148,7 +1972,6 @@ let events2018 = [
         name: 'Снежная Тропа, 1 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/181125/res1.htm',
-        split: 'splits/2018/SPB_20181125_1_split.htm',
         o_site: '181125',
         reskeep: 94
     },
@@ -2167,7 +1990,6 @@ let events2018 = [
         name: 'Ориентир НатАлка',
         reg: 'http://o-reg.spb.ru/entry-list?id=969',
         res: 'http://o-site.spb.ru/_races/181201_NatAlka/NatAlka_ispr_res.htm',
-        split: 'splits/2018/SPB_20181201_2_split.htm',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут". В 2018 году старт проводится в память об организаторе тренировки Яшуковой Натальи Викторовны.',
         logo: 'azimut.gif',
         o_site: '181201_NatAlka',
@@ -2232,7 +2054,6 @@ let events2018 = [
         name: 'Приз Деда Мороза',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=977',
         res: 'https://o-site.spb.ru/_races/181215_bn/181215_res.htm',
-        split: 'splits/2018/SPB_20181215_1_split.htm',
         o_site: '181215_bn',
         owner: 'WN',
         map: 'kavgolovo_2017'
@@ -2245,7 +2066,6 @@ let events2018 = [
         start: 'SNOW_WAY',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=976',
         res: 'https://o-site.spb.ru/_races/181216/https://orgeo.ru/live/#/8228',
-        split: 'splits/2018/SPB_20181216_1_split.htm',
         o_site: '181216',
         reskeep: 101,
         map: 'sosnovka_2014'
@@ -2275,7 +2095,6 @@ let events2018 = [
         place: 'Румболовский парк',
         reg: 'http://o-reg.spb.ru/entry-list?id=978',
         res: 'https://o-site.spb.ru/_races/181223_NO/181223_res.htm',
-        split: 'splits/2018/SPB_20181223_2_split.htm',
         info: '23 декабря 2018г., воскресенье – г. Всеволожск. Соревнования проводятся в Румболовском парке у Церкви Спаса Нерукотворного образа Старт: с 12:00',
         o_site: '181223_NO',
         reskeep: 102,
@@ -2298,7 +2117,6 @@ let events2018 = [
         name: 'Тренировка FoxTeam',
         place: 'парк Лесотехнической Академии',
         res: 'https://o-site.spb.ru/_races/181231/181231_split.htm',
-        split: 'splits/2018/SPB_20181231_1_split.htm',
         o_site: '181231',
         map: 'lesotekchnicheskaya_2025'
     }

@@ -143,7 +143,6 @@ let events2007 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/070224/070224_res.htm',
-        split: 'splits/2007/SPB_20070224_1_split.htm',
         info: 'Зимний чемпионат Санкт-Петербурга',
         o_site: '070224'
     },
@@ -155,7 +154,6 @@ let events2007 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/070225/070225_res.htm',
-        split: 'splits/2007/SPB_20070225_1_split.htm',
         info: 'Зимний чемпионат Санкт-Петербурга',
         o_site: '070225'
     },
@@ -185,7 +183,6 @@ let events2007 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/070308/070308_res.htm',
-        split: 'splits/2007/SPB_20070308_1_split.htm',
         o_site: '070308'
     },
     {
@@ -283,7 +280,6 @@ let events2007 = [
         name: 'Открытие вело-О',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/070421v/070421v_R.htm',
-        split: 'splits/2007/SPB_20070421_3_split.htm',
         photo: 'http://photofile.ru/users/gns/2622143/',
         info: 'Открытие сезона 2007 года по вело ориентированию. Старт в 11:00. Группы М, Ж и МЖ-14. Укороченная дистанция средней сложности в заданном направлении.',
         o_site: '070421v'
@@ -304,7 +300,6 @@ let events2007 = [
         name: 'MTBO SPb Cup #1',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/070422v/070422v_R.htm',
-        split: 'splits/2007/SPB_20070422_2_split.htm',
         info: 'Кубок по вело-О MTBO SPb Cup, 1 этап. Старт в 10:30. Группы М, Ж и МЖ-14. Укороченная дистанция простой сложности в заданном направлении.',
         o_site: '070422v'
     },
@@ -337,7 +332,6 @@ let events2007 = [
         name: 'MTBO SPb Cup #2',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/070429v/070429v_r.htm',
-        split: 'splits/2007/SPB_20070429_3_split.htm',
         info: 'Кубок по вело-О MTBO SPb Cup, 2 этап. Старт в 11:00. Группы М, Ж и МЖ-14. Укороченная дистанция средней сложности в заданном направлении.',
         o_site: '070429v'
     },
@@ -433,7 +427,6 @@ let events2007 = [
         place: 'Пискаревский парк',
         name: 'Российский Азимут',
         res: 'https://o-site.spb.ru/_races/070520/070520_results.zip',
-        split: 'splits/2007/SPB_20070520_1_split.zip',
         info: 'Всероссийские массовые соревнования по спортивному ориентированию',
         owner: 'SFSO_SPB',
         o_site: '070520',
@@ -489,7 +482,6 @@ let events2007 = [
         start: 'SPB_CHAMP',
         place: 'Белоостров',
         res: 'https://o-site.spb.ru/_races/070602/070602_results.htm',
-        split: 'splits/2007/SPB_20070602_1_split.htm',
         info: '49-й Чемпионат и Первенство СПб, эстафета',
         o_site: '070602'
     },
@@ -500,10 +492,6 @@ let events2007 = [
         start: 'SPB_CHAMP',
         place: 'Белоостров',
         res: 'https://o-site.spb.ru/_races/070603/070603_osv.osv',
-        split: [
-            'splits/2007/SPB_20070603_1_1_split.html',
-            'splits/2007/SPB_20070603_1_2_split.htm'
-        ],
         info: '49-й Чемпионат и Первенство СПб, кросс',
         o_site: '070603'
     },
@@ -527,7 +515,6 @@ let events2007 = [
         place: 'Петяярви',
         name: 'SPb-2-Open',
         res: 'https://o-site.spb.ru/_races/070610_Spb2/spb2summ.htm',
-        split: 'splits/2007/SPB_20070610_2_split.htm',
         info: 'Самая молодая из Питерских многодневок. Программа: 10 июня - Вечерний Тренировочный полигон. 11 июня - Две спринтерские дистанции (з.н. и выбор). 11 июня - Вечером суперспринтерские OFFroad эстафеты и дискотека. 12 июня - Классическая дистанция и Награждение. Специальные дистанции для детей от 3 до 7 лет. Каждый может выиграть ДжекПот - денежный приз за абсолютное первенство в своей возрастной группе!',
         o_site: '070610_Spb2'
     },
@@ -550,7 +537,6 @@ let events2007 = [
         place: 'Ягодное',
         name: 'Яркий Мир 2007',
         res: 'https://o-site.spb.ru/_races/070618_YM/YM2007_res.zip',
-        split: 'splits/2007/SPB_20070618_1_split.zip',
         info: 'Традиционная многодневка на призы сети фотомагазинов Яркий Мир',
         start: 'YM',
         o_site: '070618_YM'
@@ -561,10 +547,6 @@ let events2007 = [
         place: 'Ягодное',
         name: 'Мемориал Михаила Святкина',
         res: 'https://o-site.spb.ru/_races/070622/070622_res.zip',
-        split: [
-            'splits/2007/SPB_20070622_1_1_split.zip',
-            'splits/2007/SPB_20070622_1_2_split.zip'
-        ],
         info: 'XV Мемориал Михаила Святкина. Ожидается участие более двух с половиной тысяч спортсменов из различных регионов России, а также Белоруссии, Украины, Финляндии и Швеции.',
         start: 'MMS',
         o_site: '070622',
@@ -590,7 +572,6 @@ let events2007 = [
         place: 'Лосево',
         name: 'Карельские Скалы',
         res: 'https://o-site.spb.ru/_races/070626_KS/KS_res.zip',
-        split: 'splits/2007/SPB_20070626_1_split.zip',
         info: 'Одна из самых интересных и качественных многодневок в России.',
         start: 'KS',
         o_site: '070626_KS',
@@ -628,7 +609,6 @@ let events2007 = [
         start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/070721v/070721v_rez.html',
-        split: 'splits/2007/SPB_20070721_1_split.html',
         info: 'Ориенирование на велосипеде. Старт в 11:30. Группы МЖЭ, МЖН и МЖ-14. Дистанция средней сложности в заданном направлении, средняя. Приглашаем всех в увлекательное путешествие.',
         o_site: '070721v'
     },
@@ -640,7 +620,6 @@ let events2007 = [
         start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/070722v/070722v_rez.html',
-        split: 'splits/2007/SPB_20070722_1_split.html',
         info: 'Ориенирование на велосипеде. Старт в 11:30. Группы МЖЭ, МЖН и МЖ-14. Дистанция средней сложности в заданном направлении, спринт. Приглашаем всех в увлекательное путешествие.',
         o_site: '070722v'
     },
@@ -652,7 +631,6 @@ let events2007 = [
         name: 'Три-О-Тлон',
         publish: 'https://o-site.spb.ru/race.php?id=tri-o-tlon-2007',
         res: 'https://o-site.spb.ru/_races/tri-o-tlon-2007/TOT2007_res.htm',
-        split: 'splits/2007/SPB_20070728_1_split.zip',
         photo: 'http://o-site.spb.ru/gallery.php?id=gallery_TOT2007',
         info: 'Старейшая мультиспортивная гонка в России, в 2007-м году состоится уже 6-й Три-О-Тлон, который начал свою историю с 2002-го года. Победитель в номинации Самая качественная гонка 2005-го года согласно опросу, проведённому среди мультиспортсменов сайтом adventureraces.ru Согласно тому же опросу, двукратный победитель в номинации Лучший новый вид в мультиспорте (в 2004-м - болотинг, в 2005-м - пампасинг). Классическая гонка по набору дисциплин: треккинг, велосипед, байдарка, верёвочные этапы. Основная направленность гонки - навигация. Три дистанции - длинная, средняя и для начинающих. Участвуют команды из 2-х человек любого пола.',
         logo: 'triotlon.gif',
@@ -683,7 +661,6 @@ let events2007 = [
         name: 'Чемпионат СЗФО по вело-О, Middle',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/070818v/070818r.htm',
-        split: 'splits/2007/SPB_20070818_1_split.htm',
         info: 'Ориенирование на велосипеде. Старт в 11:00. Группы МЖЭ, МЖН и МЖ-14. Дистанция в заданном направлении, средняя. Приглашаем всех.',
         owner: 'SFSO_LO',
         o_site: '070818v'
@@ -695,7 +672,6 @@ let events2007 = [
         name: 'Чемпионат СЗФО по вело-О, Sprint',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/070819v/070819r.htm',
-        split: 'splits/2007/SPB_20070819_1_split.htm',
         photo: 'http://photofile.ru/users/jb7/2998717/',
         info: 'Ориенирование на велосипеде. Старт в 11:00. Группы МЖЭ, МЖН и МЖ-14. Дистанция в заданном направлении, спринт. Приглашаем всех.',
         owner: 'SFSO_LO',
@@ -728,7 +704,6 @@ let events2007 = [
         place: 'Молния, Токсово',
         name: 'Кубок Яркого Мира, 7 этап',
         res: 'https://o-site.spb.ru/_races/070902/070902_res.zip',
-        split: 'splits/2007/SPB_20070902_1_split.zip',
         start: 'YM_CUP',
         o_site: '070902'
     },
@@ -747,7 +722,6 @@ let events2007 = [
         name: 'Чемпионат MTBO SPb Club по вело-О, Long',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/070909v/070909r.htm',
-        split: 'splits/2007/SPB_20070909_1_split.htm',
         info: 'Ориенирование на велосипеде. Старт в 12:00. Группы МЖЭ, МЖН и МЖ-14. Дистанция в заданном направлении, длинная. Приглашаем всех.',
         owner: 'SFSO_LO',
         o_site: '070909v',
@@ -768,7 +742,6 @@ let events2007 = [
         place: 'Солнечное',
         name: 'Кубок Аничкова Дворца',
         res: 'https://o-site.spb.ru/_races/070916palcup/070916palcup_res.htm',
-        split: 'splits/2007/SPB_20070916_1_split.htm',
         o_site: '070916palcup'
     },
     {
@@ -778,7 +751,6 @@ let events2007 = [
         name: 'Чемпионат СПб, марафон',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/070916/070916_res.htm',
-        split: 'splits/2007/SPB_20070916_2_split.htm',
         fmt: 'эстафета одного участника',
         o_site: '070916',
         map: 'solnechnoe-djuny_2007'
@@ -801,7 +773,6 @@ let events2007 = [
         name: 'Пер-во ЛО среди обучающихся',
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/07092223/070922_res.htm',
-        split: 'splits/2007/SPB_20070922_2_split.htm',
         info: 'Первенство Ленинградской области среди обучающихся по спортивному ориентированию бегом',
         o_site: '07092223'
     },
@@ -830,7 +801,6 @@ let events2007 = [
         place: 'Павловск',
         name: 'Шестиэтапные Эстафеты',
         res: 'https://o-site.spb.ru/_races/070923/070923_res.htm',
-        split: 'splits/2007/SPB_20070923_1_split.zip',
         info: 'ШЕСТИЭТАПНЫЕ ЭСТАФЕТЫ НА ПРИЗЫ КЛУБА «СЕВЕРНЫЙ ВЕТЕР»',
         o_site: '070923',
         map: 'pavlovsk_2012'
@@ -852,7 +822,6 @@ let events2007 = [
         place: 'Орехово',
         name: 'Открытое первенство клуба «Миля Спорт»',
         res: 'https://o-site.spb.ru/_races/070929/070929_res.htm',
-        split: 'splits/2007/SPB_20070929_1_split.zip',
         o_site: '070929',
         map: 'orekhovo_rakitinskoe_2004'
     },
@@ -870,7 +839,6 @@ let events2007 = [
         place: 'Орехово',
         name: 'Кубок ОК Гольфстрим',
         res: 'https://o-site.spb.ru/_races/070930/070930_res.htm',
-        split: 'splits/2007/SPB_20070930_1_split.txt',
         owner: 'GOLFSTREAM',
         o_site: '070930',
         map: 'orekhovo_rakitinskoe_2004'
@@ -893,7 +861,6 @@ let events2007 = [
         place: 'Токсово',
         name: 'Первенство ВУЗов',
         res: 'https://o-site.spb.ru/_races/071006_VUZ/071006_vuzi_res.htm',
-        split: 'splits/2007/SPB_20071006_1_split.zip',
         info: 'Чемпионат Санкт-Петербурга по спортивному ориентированию бегом среди ВУЗов',
         o_site: '071006_VUZ'
     },
@@ -903,7 +870,6 @@ let events2007 = [
         place: 'Сосново',
         name: 'XXXVI Соревнования по ночному ориентированию памяти А. Окинчица',
         res: 'https://o-site.spb.ru/_races/071013/071013_res.htm',
-        split: 'splits/2007/SPB_20071013_1_split.zip',
         info: 'XXXVI ночные соревнования по спортивному ориентированию памяти Анатолия Окинчица Про обязательное страхование: При отсутствии страхового полиса его можно оформить при подаче заявки (страховое покрытие 30000 руб, страховой взнос 14 руб с человека).',
         start: 'OKINCHITSA',
         o_site: '071013'
@@ -924,7 +890,6 @@ let events2007 = [
         place: 'Токсово, Малиновая гора',
         name: 'Кубок ОК Гольфстрим, 3 этап',
         res: 'https://o-site.spb.ru/_races/071021_golfcup/071021_splits.zip',
-        split: 'splits/2007/SPB_20071021_2_split.zip',
         owner: 'GOLFSTREAM',
         o_site: '071021_golfcup',
         map: 'toksovo_malinovaya_gora_1997'
@@ -935,7 +900,6 @@ let events2007 = [
         place: 'Песочная',
         name: 'Ночные эстафеты',
         res: 'https://o-site.spb.ru/_races/071027/071027_res.htm',
-        split: 'splits/2007/SPB_20071027_1_split.htm',
         o_site: '071027',
         map: 'pesochnaya_2005'
     },
@@ -957,7 +921,6 @@ let events2007 = [
         place: '43-км Выборгского ш',
         name: 'Финал Кубка ФСО',
         res: 'https://o-site.spb.ru/_races/071028/071028_res.htm',
-        split: 'splits/2007/SPB_20071028_1_split.htm',
         o_site: '071028'
     },
     {
@@ -996,7 +959,6 @@ let events2007 = [
         name: 'Снежная Тропа, 1 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/071118/071118_res.htm',
-        split: 'splits/2007/SPB_20071118_1_split.htm',
         info: '1 этап самых популярных и массовых соревнований по ориентированию в зимний период. Cоревнования 2008 года будут проведены в пять этапов: 1 этап 18 ноября 2007 г. Шуваловский парк 2 этап 02 декабря 2007 г. Пискаревский парк 3 этап 16 декабря 2007 г. Парк "Александрино" 4 этап 10 февраля 2008 г. по назначению 5 этап 16 марта 2008 г. Павловcкий парк',
         o_site: '071118'
     },
@@ -1006,7 +968,6 @@ let events2007 = [
         place: 'Всеволожск, оз Длинное',
         name: 'Чемпионат и Пер-во Всеволожского р-на',
         res: 'https://o-site.spb.ru/_races/071125/071125_res.htm',
-        split: 'splits/2007/SPB_20071125_1_split.zip',
         info: 'Соревнования проводятся по группам: МЖ10 (1997 г.р. и младше), МЖ-12 (1996-1995 г.р.), МЖ-14 (1994-1993г.р.), МЖ-16 (1992-1991г.р.), МЖ-21 (1990г.р. и старше), М,Ж-40 (1967-1953 г.р.), МЖ-55 (1952 г.р. и старше)',
         owner: 'SFSO_LO',
         o_site: '071125'
@@ -1018,7 +979,6 @@ let events2007 = [
         name: 'Снежная Тропа, 2 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/071202/071202_res_itog.htm',
-        split: 'splits/2007/SPB_20071202_1_split.htm',
         info: '2 этап самых популярных и массовых соревнований по ориентированию в зимний период. Cоревнования 2008 года будут проведены в пять этапов: 1 этап 18 ноября 2007 г. Шуваловский парк 2 этап 02 декабря 2007 г. Пискаревский парк 3 этап 16 декабря 2007 г. Парк "Александрино" 4 этап 10 февраля 2008 г. по назначению 5 этап 16 марта 2008 г. Павловcкий парк',
         o_site: '071202',
         map: 'piskarevsky_1996'
@@ -1032,7 +992,6 @@ let events2007 = [
         name: 'Горный Кросс -8',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/071208_gk/071209_res.htm',
-        split: 'splits/2007/SPB_20071208_1_split.zip',
         info: 'Рогейн в форматах 6 часов и 3 часа',
         start: 'GORNY_CROSS',
         o_site: '071208_gk'

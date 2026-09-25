@@ -6,10 +6,6 @@ let events2022 = [
         name: 'Рождественские старты',
         reg: 'http://sportident.online/entry/?id=5161',
         res: 'https://o-site.spb.ru/_races/090122_RS/20220108_RS_result.htm',
-        split: [
-            'splits/2022/SPB_20220108_1_1_split.htm',
-            'splits/2022/SPB_20220108_1_2_split.htm'
-        ],
         info: 'Рождественские старты (Мичуринское)',
         owner: 'NW',
         o_site: '090122_RS',
@@ -34,7 +30,6 @@ let events2022 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/winter-rogaine-22/regulations.html',
         res: 'https://o-site.spb.ru/_races/220116/220116_res.pdf',
-        split: 'splits/2022/SPB_20220116_1_split.pdf',
         fmt: 'рогейн 4 часа. Лыжи, бег, велосипед в одном зачете',
         video: 'https://www.youtube.com/watch?v=dCLQ2XCAjYk',
         strava: 6532650244,
@@ -59,10 +54,6 @@ let events2022 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/220122/220122_res.htm',
-        split: [
-            'splits/2022/SPB_20220122_1_1_split.htm',
-            'splits/2022/SPB_20220122_1_2_split.htm'
-        ],
         o_site: '220122',
         reskeep: [507, 508],
         map: 'toksovo_vifk_winter_2023'
@@ -76,10 +67,6 @@ let events2022 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=1337',
         res: 'https://o-site.spb.ru/_races/210206/results_kom.pdf',
-        split: [
-            'splits/2022/SPB_20220205_1_1_split.htm',
-            'splits/2022/SPB_20220205_1_2_split.htm'
-        ],
         o_site: '210206',
         map: 'lembolovo_winter_2019'
     },
@@ -90,10 +77,6 @@ let events2022 = [
         place: 'Лемболово',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/220206/res1.htm',
-        split: [
-            'splits/2022/SPB_20220205_2_1_split.htm',
-            'splits/2022/SPB_20220205_2_2_split.htm'
-        ],
         video: 'https://www.youtube.com/watch?v=WK_TXhObUSw',
         o_site: '220206',
         endDate: '2022-02-06',
@@ -119,7 +102,6 @@ let events2022 = [
         place: 'Шапки',
         reg: 'http://orgeo.ru/event/20143',
         res: 'https://o-site.spb.ru/_races/220213/220213_split.htm',
-        split: 'splits/2022/SPB_20220213_2_split.htm',
         o_site: '220213'
     },
     {
@@ -130,7 +112,6 @@ let events2022 = [
         reg: 'http://o-reg.spb.ru/',
         strava: 6705021289,
         res: 'https://o-site.spb.ru/_races/220219/220219_rez.htm',
-        split: 'splits/2022/SPB_20220219_1_split.htm',
         o_site: '220219',
         map: 'pushkin_nizhny_2019'
     },
@@ -150,7 +131,6 @@ let events2022 = [
         name: 'Праздничный маркир',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/220223/220223_res.htm',
-        split: 'splits/2022/SPB_20220223_1_split.htm',
         info: 'Официальный старт СФСО СПб с присвоением разрядов',
         o_site: '220223',
         map: 'orekhovo_nyrkovo_winter_2012'
@@ -193,10 +173,6 @@ let events2022 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/220307/220306_res.htm',
-        split: [
-            'splits/2022/SPB_20220306_1_1_split.htm',
-            'splits/2022/SPB_20220306_1_2_split.htm'
-        ],
         o_site: '220307',
         map: 'orekhovo_nyrkovo_winter_2012'
     },
@@ -261,7 +237,6 @@ let events2022 = [
         name: 'Весенние старты',
         strava: 6959261318,
         res: 'https://o-site.spb.ru/_races/220410s/220410_split.htm',
-        split: 'splits/2022/SPB_20220410_1_split.htm',
         o_site: '220410s',
         map: 'polyustrovsky_2022'
     },
@@ -273,10 +248,6 @@ let events2022 = [
         place: 'Выборг',
         reg: 'http://orgeo.ru/event/21308',
         res: 'https://o-site.spb.ru/_races/220410/220410_ress.htm',
-        split: [
-            'splits/2022/SPB_20220410_2_1_split.htm',
-            'splits/2022/SPB_20220410_2_2_split.htm'
-        ],
         o_site: '220410'
     },
     {
@@ -305,7 +276,6 @@ let events2022 = [
         name: 'Открытие сезона',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1409',
         res: 'https://o-site.spb.ru/_races/220417/220417_results.htm',
-        split: 'splits/2022/SPB_20220417_1_split.htm',
         info: 'Региональные соревнования по спортивному ориентированию в кроссовых дисциплинах «Открытие сезона» (с выполнением массовых разрядов). Организатор: РФСОО «Спортивная Федерация спортивного ориентирования Санкт-Петербурга»',
         o_site: '220417',
         map: 'sestroretskie_detskie_djuny_2020'
@@ -338,10 +308,6 @@ let events2022 = [
         start: 'SOSNOVOBORSKY_DUNY',
         video: 'https://www.youtube.com/watch?v=DThWAJtzzYA',
         res: 'https://o-site.spb.ru/_races/220424/220423_res.htm',
-        split: [
-            'splits/2022/SPB_20220423_1_1_split.htm',
-            'splits/2022/SPB_20220423_1_2_split.htm'
-        ],
         o_site: '220424',
         strava: [7028043340,7032642029],
         reskeep: [513, 514]
@@ -373,7 +339,6 @@ let events2022 = [
         place: 'Пушкин, Баболовский парк',
         name: 'Царскосельский азимут',
         res: 'https://o-site.spb.ru/_races/220424_/220424_res_tsa.htm',
-        split: 'splits/2022/SPB_20220424_1_split.htm',
         o_site: '220424_',
         map: 'pushkin_babolovsky_2019',
         owner: 'EGRV_EGR'
@@ -433,11 +398,6 @@ let events2022 = [
         place: 'Кузьмолово, Энколово, Охта-парк',
         reg: 'http://orgeo.ru/event/info/21216',
         res: 'http://sportident.online/ol/?id=704',
-        split: [
-            'splits/2022/SPB_20220501_1_1_split.htm',
-            'splits/2022/SPB_20220501_1_2_split.htm',
-            'splits/2022/SPB_20220501_1_3_split.htm'
-        ],
         o_site: '220403',
         map: 'enkolovo_2021'
     },
@@ -470,8 +430,7 @@ let events2022 = [
         name: 'White Nights Sprint #1 (Дом-утюг спринт)',
         start: 'WHITE_NIGHTS',
         strava: 7098024858,
-        reskeep: 522,
-        split: 'splits/2022/SPB_20220506_1_split.htm'
+        reskeep: 522
     },
     {
         id: 'SPB_20220507_1',
@@ -509,7 +468,6 @@ let events2022 = [
         name: 'Соревнования, посвященные Дню Победы',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1417',
         res: 'https://o-site.spb.ru/_races/220509/Res_090522.htm',
-        split: 'splits/2022/SPB_20220509_1_split.htm',
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга, с выполнением массовых разрядов',
         strava: 7112699577,
         o_site: '220509',
@@ -524,7 +482,6 @@ let events2022 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1429',
         res: 'https://o-site.spb.ru/_races/220510_mtbo/2022_05_10_splits.htm',
-        split: 'splits/2022/SPB_20220510_1_split.htm',
         o_site: '220510_mtbo',
         map: 'tarkhovka_velo_2023'
     },
@@ -556,7 +513,6 @@ let events2022 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1424',
         res: 'https://o-site.spb.ru/_races/220511_MTBO/220511_res.htm',
-        split: 'splits/2022/SPB_20220511_1_split.htm',
         o_site: '220511_MTBO',
         map: 'osinovaja_roscha_velo_2020'
     },
@@ -567,7 +523,6 @@ let events2022 = [
         place: 'Орехово',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1433',
         res: 'https://o-site.spb.ru/_races/220514/0.htm',
-        split: 'splits/2022/SPB_20220514_1_split.htm',
         info: 'Тренировка проводится 14 мая 2022 г, в районе базы отдыха ЛАО к востоку от ж/д ст. Орехово.',
         o_site: '220514',
         map: 'orekhovo_2024'
@@ -578,10 +533,6 @@ let events2022 = [
         place: 'Орехово',
         name: 'VIII Всероссийская летняя Универсиада',
         res: 'https://o-site.spb.ru/_races/20220514/Res_kom_of.pdf',
-        split: [
-            'splits/2022/SPB_20220514_2_1_split.htm',
-            'splits/2022/SPB_20220514_2_2_split.htm'
-        ],
         o_site: '20220514',
         endDate: '2022-05-15',
         map: 'orekhovo_2024'
@@ -619,7 +570,6 @@ let events2022 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1428',
         res: 'https://o-site.spb.ru/_races/220515_MTBO/220515_rez.htm',
-        split: 'splits/2022/SPB_20220515_1_split.htm',
         o_site: '220515_MTBO'
     },
     {
@@ -629,7 +579,6 @@ let events2022 = [
         place: 'Мариенталь',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1414',
         res: 'https://o-site.spb.ru/_races/220515/220515_rezpred.htm',
-        split: 'splits/2022/SPB_20220515_2_split.htm',
         photo: 'http://vk.com/album-9087078_284089250',
         map: 'pavlovsk_mariental_2022',
         strava: 7146817590,
@@ -643,7 +592,6 @@ let events2022 = [
         name: 'Соревнования Памяти друзей',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1434',
         res: 'https://o-site.spb.ru/_races/220515_AZ/220515_res_PD.htm',
-        split: 'splits/2022/SPB_20220515_3_split.htm',
         o_site: '220515_AZ',
         map: 'orekhovo_2024',
         owner: 'AZIMUT'
@@ -693,7 +641,6 @@ let events2022 = [
         place: 'Парк 300-летия СПб',
         name: 'Российский Азимут',
         res: 'https://o-site.spb.ru/_races/220521/220521-split.htm',
-        split: 'splits/2022/SPB_20220521_1_split.htm',
         photo: 'http://disk.yandex.ru/d/Pys4whutiheb3Q',
         video: ['https://www.youtube.com/watch?v=zV3TMlsA58M','https://www.youtube.com/watch?v=Jer5kWlZxLg'],
         strava: 7178027439,
@@ -708,7 +655,6 @@ let events2022 = [
         place: 'Всеволожск, Румболовский парк',
         name: 'Российский Азимут - Лен. область',
         res: 'https://o-site.spb.ru/_races/220521LO/220521LO_split.htm',
-        split: 'splits/2022/SPB_20220521_2_split.htm',
         owner: 'SFSO_LO',
         o_site: '220521LO',
         reskeep: 543,
@@ -731,7 +677,6 @@ let events2022 = [
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1431',
         res: 'https://o-site.spb.ru/_races/220522_sprint/220522_res.htm',
-        split: 'splits/2022/SPB_20220522_1_split.htm',
         strava: 7183713519,
         o_site: '220522_sprint',
         reskeep: 532,
@@ -764,7 +709,6 @@ let events2022 = [
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1443',
         res: 'http://orgeo.ru/live/#/22427/2>',
-        split: 'splits/2022/SPB_20220528_1_split.htm',
         info: 'Уважаемые участники, по техническим причинам заявка на Чемпионат и Первенство Санкт-Петербурга в дисциплине кросс-эстафета–3 человека будет открыта во вторник (24 мая)',
         o_site: '220528_relay',
         reskeep: 544,
@@ -826,10 +770,6 @@ let events2022 = [
         start: 'LO_CHAMP',
         place: 'Зеркальный',
         res: 'https://o-site.spb.ru/_races/220529_lo/220529_RES_SPRINT.htm',
-        split: [
-            'splits/2022/SPB_20220529_1_1_split.htm',
-            'splits/2022/SPB_20220529_1_2_split.htm'
-        ],
         o_site: '220529_lo'
     },
     {
@@ -841,7 +781,6 @@ let events2022 = [
         fmt: 'лонг',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1432',
         res: 'https://o-site.spb.ru/_races/220529_long/220529_results.htm',
-        split: 'splits/2022/SPB_20220529_2_split.htm',
         strava: 7220886070,
         o_site: '220529_long',
         reskeep: 533,
@@ -866,10 +805,6 @@ let events2022 = [
         map: 'kuznechnoe_2009',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/2022GK/220604R_res.pdf',
-        split: [
-            'splits/2022/SPB_20220604_1_1_split.htm',
-            'splits/2022/SPB_20220604_1_2_split.htm'
-        ],
         video: 'https://www.youtube.com/watch?v=SmX3TFrHv08',
         fmt: '24/8/3 часа - бег, 8 часов - вело',
         start: 'GORNY_CROSS',
@@ -901,18 +836,6 @@ let events2022 = [
         place: 'Выборг',
         name: 'УТС ККП 2022',
         res: 'http://o-site.spb.ru/_races/220606-12/220606_uts_result.htm',
-        split: [
-            'splits/2022/SPB_20220606_1_1_split.htm',
-            'splits/2022/SPB_20220606_1_2_split.htm',
-            'splits/2022/SPB_20220606_1_3_split.htm',
-            'splits/2022/SPB_20220606_1_4_split.htm',
-            'splits/2022/SPB_20220606_1_5_split.htm',
-            'splits/2022/SPB_20220606_1_6_split.htm',
-            'splits/2022/SPB_20220606_1_7_split.htm',
-            'splits/2022/SPB_20220606_1_8_split.htm',
-            'splits/2022/SPB_20220606_1_9_split.htm',
-            'splits/2022/SPB_20220606_1_10_split.htm'
-        ],
         info: 'Учебно-тренирововчный сбор ККП 2022 Пн 06.06 Результаты Сплиты Вт 07.06 Результаты Сплиты Ср 08.06 Результаты Сплиты Чт 09.06 Результаты Сплиты Пт 10.06 Результаты A, B, C, D, Кор A, Кор B Сплиты A, B, C, D, Кор A, Кор B Результаты Зеленый Змей, Нитка Сплиты Зеленый Змей, Нитка Сб 11.06 Результаты A, B, C, D, Кор A, Кор B Сплиты A, B, C, D, Кор A, Кор B Результаты Зеленый Змей, Нитка Сплиты Зеленый Змей, Нитка Вс 12.06 Результаты A, B, C, D, Кор A, Кор B Сплиты A, B, C, D, Кор A, Кор B Результаты Зеленый Змей, Нитка Сплиты Зеленый Змей, Нитка',
         video: [
             'https://www.youtube.com/watch?v=8QNlmlvIm_M',
@@ -945,14 +868,6 @@ let events2022 = [
         place: 'Луга',
         reg: 'http://orgeo.ru/event/21496',
         res: 'http://sportident.online/ol/?id=774&g=5',
-        split: [
-            'splits/2022/SPB_20220611_1_1_split.htm',
-            'splits/2022/SPB_20220611_1_2_split.htm',
-            'splits/2022/SPB_20220611_1_3_split.htm',
-            'splits/2022/SPB_20220611_1_4_split.htm',
-            'splits/2022/SPB_20220611_1_5_split.htm',
-            'splits/2022/SPB_20220611_1_6_split.htm'
-        ],
         o_site: '22060911',
         reskeep: 535,
         start: 'RUSSIA_CHAMP'
@@ -965,14 +880,6 @@ let events2022 = [
         fmt: 'ночная эстафета',
         start: 'KKP',
         o_site: '220613-16_KKP',
-        split: [
-            'splits/2022/SPB_20220611_4_1_split.htm',
-            'splits/2022/SPB_20220611_4_2_split.htm',
-            'splits/2022/SPB_20220611_4_3_split.htm',
-            'splits/2022/SPB_20220611_4_4_split.htm',
-            'splits/2022/SPB_20220611_4_5_split.htm',
-            'splits/2022/SPB_20220611_4_6_split.htm'
-        ],
         map: 'kkp_paltsevo_2022_06_11_piramida',
         o_gps: {
             'М': 13330,
@@ -1016,14 +923,6 @@ let events2022 = [
         fmt: 'детская эстафета',
         start: 'KKP',
         o_site: '220613-16_KKP',
-        split: [
-            'splits/2022/SPB_20220612_2_1_split.htm',
-            'splits/2022/SPB_20220612_2_2_split.htm',
-            'splits/2022/SPB_20220612_2_3_split.htm',
-            'splits/2022/SPB_20220612_2_4_split.htm',
-            'splits/2022/SPB_20220612_2_5_split.htm',
-            'splits/2022/SPB_20220612_2_6_split.htm'
-        ],
         map: ['kkp_paltsevo_2022_06_11_piramida','kkp_paltsevo_2022_06_12'],
         video: 'https://www.youtube.com/watch?v=TeqilOEgG74'
     },
@@ -1047,14 +946,6 @@ let events2022 = [
         name: 'Камни Карельского Перешейка 2022',
         reg: 'http://sportident.online/entry/?id=5132',
         res: 'http://o-site.spb.ru/_races/220613-16_KKP/220611_Piramida_result.htm',
-        split: [
-            'splits/2022/SPB_20220611_2_1_split.htm',
-            'splits/2022/SPB_20220611_2_2_split.htm',
-            'splits/2022/SPB_20220611_2_3_split.htm',
-            'splits/2022/SPB_20220611_2_4_split.htm',
-            'splits/2022/SPB_20220611_2_5_split.htm',
-            'splits/2022/SPB_20220611_2_6_split.htm'
-        ],
         info: 'В рамках соревнований "Камни Карельского Перешейка 2022" также состоятся: 11 июня - Трейл «Царь скалы» Сайт трейла 11 июня - Ночная эстафета по ориентированию «Пирамида» Заявка Результаты Сплиты Видеотрансляция ВК 12 июня - Детская эстафета по ориентированию «Каменюкола» Заявка Результаты Сплиты Видеотрансляция ВК',
         video: [
             'https://www.youtube.com/watch?v=jtpjjOZBJpY',
@@ -1071,14 +962,6 @@ let events2022 = [
         fmt: 'классика',
         start: 'KKP',
         o_site: '220613-16_KKP',
-        split: [
-            'splits/2022/SPB_20220613_2_1_split.htm',
-            'splits/2022/SPB_20220613_2_2_split.htm',
-            'splits/2022/SPB_20220613_2_3_split.htm',
-            'splits/2022/SPB_20220613_2_4_split.htm',
-            'splits/2022/SPB_20220613_2_5_split.htm',
-            'splits/2022/SPB_20220613_2_6_split.htm'
-        ],
         video: [
             'http://vk.com/video-93257360_456239179',
             'https://vkvideo.ru/video-93257360_456239172',
@@ -1098,14 +981,6 @@ let events2022 = [
         fmt: 'лонг',
         start: 'KKP',
         o_site: '220613-16_KKP',
-        split: [
-            'splits/2022/SPB_20220614_1_1_split.htm',
-            'splits/2022/SPB_20220614_1_2_split.htm',
-            'splits/2022/SPB_20220614_1_3_split.htm',
-            'splits/2022/SPB_20220614_1_4_split.htm',
-            'splits/2022/SPB_20220614_1_5_split.htm',
-            'splits/2022/SPB_20220614_1_6_split.htm'
-        ],
         map: 'kkp_paltsevo_2022_06_14',
         o_gps: {
             'М': 13335,
@@ -1133,14 +1008,6 @@ let events2022 = [
         fmt: 'лонг-масстарт',
         start: 'KKP',
         o_site: '220613-16_KKP',
-        split: [
-            'splits/2022/SPB_20220615_1_1_split.htm',
-            'splits/2022/SPB_20220615_1_2_split.htm',
-            'splits/2022/SPB_20220615_1_3_split.htm',
-            'splits/2022/SPB_20220615_1_4_split.htm',
-            'splits/2022/SPB_20220615_1_5_split.htm',
-            'splits/2022/SPB_20220615_1_6_split.htm'
-        ],
         reskeep: 548,
         strava: 7312045246,
         video: [
@@ -1159,14 +1026,6 @@ let events2022 = [
         fmt: 'спринт',
         start: 'KKP',
         o_site: '220613-16_KKP',
-        split: [
-            'splits/2022/SPB_20220616_1_1_split.htm',
-            'splits/2022/SPB_20220616_1_2_split.htm',
-            'splits/2022/SPB_20220616_1_3_split.htm',
-            'splits/2022/SPB_20220616_1_4_split.htm',
-            'splits/2022/SPB_20220616_1_5_split.htm',
-            'splits/2022/SPB_20220616_1_6_split.htm'
-        ],
         map: 'kkp_paltsevo_2022_06_16',
         o_gps: {
             'М': 13340,
@@ -1191,11 +1050,6 @@ let events2022 = [
         place: 'Сосново, Снегирёвка',
         reg: 'http://orgeo.ru/event/21591',
         res: 'http://orgeo.ru/live/#/21592',
-        split: [
-            'splits/2022/SPB_20220617_1_1_split.htm',
-            'splits/2022/SPB_20220617_1_2_split.htm',
-            'splits/2022/SPB_20220617_1_3_split.htm'
-        ],
         start: 'MMS',
         o_site: '22061820',
         strava: [7328784020,7333156174],
@@ -1210,16 +1064,6 @@ let events2022 = [
         place: 'Ягодное',
         name: 'Спортивный Фестиваль «Яркий Мир»',
         res: 'https://o-site.spb.ru/_races/22062023/220620_split.htm',
-        split: [
-            'splits/2022/SPB_20220620_1_1_split.htm',
-            'splits/2022/SPB_20220620_1_2_split.htm',
-            'splits/2022/SPB_20220620_1_3_split.htm',
-            'splits/2022/SPB_20220620_1_4_split.htm',
-            'splits/2022/SPB_20220620_1_5_split.htm',
-            'splits/2022/SPB_20220620_1_6_split.htm',
-            'splits/2022/SPB_20220620_1_7_split.htm',
-            'splits/2022/SPB_20220620_1_8_split.htm'
-        ],
         start: 'YM',
         o_site: '22062023',
         map: ['ym_2022_06_20', 'ym_2022_yagodnoe_prolog2', 'ym_2022_yagodnoe_sprint_final', 'ym_2022_yagodnoe_klassika', 'ym_2022_yagodnoe_vybor']
@@ -1231,16 +1075,6 @@ let events2022 = [
         place: 'Петяярви',
         name: 'Неделя ориентирования «Белые Ночи»',
         res: 'https://o-site.spb.ru/_races/220624/split1.htm',
-        split: [
-            'splits/2022/SPB_20220624_1_1_split.htm',
-            'splits/2022/SPB_20220624_1_2_split.htm',
-            'splits/2022/SPB_20220624_1_3_split.htm',
-            'splits/2022/SPB_20220624_1_4_split.htm',
-            'splits/2022/SPB_20220624_1_5_split.htm',
-            'splits/2022/SPB_20220624_1_6_split.htm',
-            'splits/2022/SPB_20220624_1_7_split.htm',
-            'splits/2022/SPB_20220624_1_8_split.htm'
-        ],
         info: '51-е Многодневные соревнования по спортивному ориентированию.',
         video: [
             'https://www.youtube.com/watch?v=8mHajIP-jZE',
@@ -1286,7 +1120,6 @@ let events2022 = [
         start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/220626_mtbo/220626_rez.htm',
-        split: 'splits/2022/SPB_20220626_1_split.htm',
         info: 'Проезд к месту парковки СТРОГО по ул.Заречной!',
         video: 'https://www.youtube.com/watch?v=KCsbmMaJDPE',
         o_site: '220626_mtbo'
@@ -1299,7 +1132,6 @@ let events2022 = [
         place: 'Себеж',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/2022_GK_89/220702R_res.pdf',
-        split: 'splits/2022/SPB_20220701_1_split.htm',
         info: 'Рогейн "Слет семи городов" (ГК89, этап кубка "Горный кросс-2022") состоится 1-3 июля 2022 г. в замечательном г. Себеже Псковской области, краю заповедного леса и системы озер "из варяг в греки".',
         fmt: 'рогейн 24/8/3 часа бег, 8 часов - вело, 24/12/6 часов - байдарка',
         start: 'GORNY_CROSS',
@@ -1388,10 +1220,6 @@ let events2022 = [
         place: 'Кузнечное, оз Суури',
         reg: 'http://orgeo.ru/event/23025',
         res: 'https://o-site.spb.ru/_races/22073031/220730_split.htm',
-        split: [
-            'splits/2022/SPB_20220730_1_1_split.htm',
-            'splits/2022/SPB_20220730_1_2_split.htm'
-        ],
         o_site: '22073031',
         map: 'kuznechnoe_suuri_2019'
     },
@@ -1443,7 +1271,6 @@ let events2022 = [
         place: 'Пухтолова гора',
         name: 'Зеленый Змей',
         res: 'https://o-site.spb.ru/_races/220820ZZ/220820_split_predv.htm',
-        split: 'splits/2022/SPB_20220820_1_split.htm',
         info: 'Традиционные соревнования в заданном направлении с большим количеством КП',
         start: 'GS',
         o_site: '220820ZZ',
@@ -1482,7 +1309,6 @@ let events2022 = [
         start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/210822_MTBO/220821_rez.htm',
-        split: 'splits/2022/SPB_20220821_1_split.htm',
         o_site: '210822_MTBO',
         map: 'voejkovo_velo'
     },
@@ -1524,7 +1350,6 @@ let events2022 = [
         name: 'Мемориал Владимира Алексеева',
         reg: 'http://orgeo.ru/event/info/23013',
         res: 'https://o-site.spb.ru/_races/220904/220904_res.htm',
-        split: 'splits/2022/SPB_20220904_1_split.htm',
         video: 'https://www.youtube.com/watch?v=VOmzXQ9S3Uc',
         strava: 7752862977,
         map: 'pervomayskoe_2021',
@@ -1551,11 +1376,6 @@ let events2022 = [
         place: 'Кировск, Мурманская обл',
         name: 'Чемпионат России, Мурманская область',
         res: 'https://o-site.spb.ru/_races/220912/team3.pdf',
-        split: [
-            'splits/2022/SPB_20220908_1_1_split.htm',
-            'splits/2022/SPB_20220908_1_2_split.htm',
-            'splits/2022/SPB_20220908_1_3_split.htm'
-        ],
         o_site: '220912',
         start: 'RUSSIA_CHAMP',
         map: 'kirovsk_aikuayvenchor_2022_09_10'
@@ -1569,8 +1389,7 @@ let events2022 = [
         strava: 7784420974,
         res: 'http://o-site.spb.ru/_races/2023_bn/220910_split.htm',
         map: 'bolotnaya_station_2019',
-        reskeep: 542,
-        split: 'splits/2022/SPB_20220910_1_split.htm'
+        reskeep: 542
     },
     {
         id: 'SPB_20220911_1',
@@ -1590,7 +1409,6 @@ let events2022 = [
         name: 'Тренировка «Техника и Тактика»',
         place: 'Мельничный ручей, 2-е Ждановское оз',
         res: 'https://o-site.spb.ru/_races/220911TT/220911TT_split.htm',
-        split: 'splits/2022/SPB_20220911_2_split.htm',
         info: 'Тренировочное мероприятие от бригады Яркого Мира.',
         o_site: '220911TT',
         owner: 'YM',
@@ -1625,7 +1443,6 @@ let events2022 = [
         place: 'Гарболово',
         name: 'Приз газеты «Всеволожские вести»',
         res: 'https://o-site.spb.ru/_races/220917/220917_split.htm',
-        split: 'splits/2022/SPB_20220917_2_split.htm',
         start: 'VSEV_VESTI',
         o_site: '220917'
     },
@@ -1644,7 +1461,6 @@ let events2022 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-лонг-общий старт',
         start: 'SPB_CHAMP',
         res: 'http://orgeo.ru/live/#/24205',
-        split: 'splits/2022/SPB_20220918_1_split.htm',
         strava: 7828461049,
         o_site: '220918',
         map: 'bylinnoe_2023',
@@ -1680,7 +1496,6 @@ let events2022 = [
         map: 'molodezhnoe_gk_2024',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/220924GK/220924R_res.pdf',
-        split: 'splits/2022/SPB_20220924_1_split.htm',
         fmt: 'бег - 5/2 ч., вело - 4 ч.',
         start: 'GORNY_CROSS',
         o_site: '220924GK'
@@ -1691,7 +1506,6 @@ let events2022 = [
         place: 'Гарболово',
         name: 'Золотые кольца',
         res: 'https://o-site.spb.ru/_races/220924/220924S_res_predv.pdf',
-        split: 'splits/2022/SPB_20220924_2_split.htm',
         info: 'Соревнования супружеских пар',
         start: 'WEDDING',
         o_site: '220924',
@@ -1704,7 +1518,6 @@ let events2022 = [
         place: 'Колпино',
         reg: 'http://orgeo.ru/event/info/16449',
         res: 'http://orgeo.ru/live/#/24330',
-        split: 'splits/2022/SPB_20220924_3_split.htm',
         strava: 7859011178,
         info: 'Физкультурно-спортивное мероприятие «Соревнования по спортивному ориентированию на открытый кубок внутригородского муниципального образования Санкт-Петербурга город Колпино»',
         o_site: '220924_kolpino',
@@ -1716,10 +1529,6 @@ let events2022 = [
         place: 'Зеркальный',
         name: 'Старты в Зеркальном',
         res: 'http://orgeo.ru/live/#/24321/1',
-        split: [
-            'splits/2022/SPB_20220924_4_1_split.htm',
-            'splits/2022/SPB_20220924_4_2_split.htm'
-        ],
         o_site: '220924_Z',
         map: 'zerkalny_2002'
     },
@@ -1749,7 +1558,6 @@ let events2022 = [
         place: 'Яппиля',
         name: 'Марафон на холмах Яппиля',
         res: 'https://o-site.spb.ru/_races/220925/220925-res.pdf',
-        split: 'splits/2022/SPB_20220925_1_split.htm',
         photo: 'http://disk.yandex.ru/d/p_S-LrobJUwbDw',
         video: [
             'https://www.youtube.com/watch?v=9exCYNfbY4M',
@@ -1774,7 +1582,6 @@ let events2022 = [
         name: 'Петербургская осень',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1466',
         res: 'http://orgeo.ru/live/#/24448',
-        split: 'splits/2022/SPB_20221001_1_split.htm',
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга, с выполнением массовых разрядов',
         logo: 'azimut.gif',
         o_site: '221001',
@@ -1788,7 +1595,6 @@ let events2022 = [
         start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'http://sportident.online/ol/?id=906',
-        split: 'splits/2022/SPB_20221001_2_split.htm',
         o_site: '221001_MTBO'
     },
     {
@@ -1831,7 +1637,6 @@ let events2022 = [
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1459',
         res: 'http://orgeo.ru/live/#/24205',
-        split: 'splits/2022/SPB_20221002_1_split.htm',
         info: 'Карта подготовлена в 2022 году в рамках проекта «Школа молодого картографа», реализуемого СФСО Санкт-Петербурга с использованием гранта Президента РФ на развитие гражданского общества, предоставленного Фондом президентских грантов. При подготовке карты использовались материалы лазерного сканирования, выполненные компанией ООО «Аэрострим». Картографические работы профинансированы фондом Андрея Фершалова.',
         strava: 7898462924,
         o_site: '221002',
@@ -1856,11 +1661,6 @@ let events2022 = [
         place: 'Пушкин, Сестрорецкие Дюны, Ласковый пляж',
         name: 'Всероссийские соревнования, Фестиваль «Невский спринт»',
         res: 'https://o-site.spb.ru/_races/221010_vseros/221008_res_sum.htm',
-        split: [
-            'splits/2022/SPB_20221006_1_1_split.htm',
-            'splits/2022/SPB_20221006_1_2_split.htm',
-            'splits/2022/SPB_20221006_1_3_split.htm'
-        ],
         photo: [
             'http://vk.com/album-154221178_287261227',
             'http://vk.com/album-154221178_287261185',
@@ -1923,7 +1723,6 @@ let events2022 = [
         place: 'Кавголово',
         reg: 'http://orgeo.ru/event/24650',
         res: 'https://o-site.spb.ru/_races/220505/221013_split.htm',
-        split: 'splits/2022/SPB_20221013_1_split.htm',
         o_site: '220505'
     },
     {
@@ -1933,7 +1732,6 @@ let events2022 = [
         name: 'Золотая осень',
         place: 'Выборг',
         res: 'http://orgeo.ru/live/#/24205',
-        split: 'splits/2022/SPB_20221015_1_split.htm',
         strava: 7966287997,
         owner: 'VYBORG',
         o_site: '221015',
@@ -1957,7 +1755,6 @@ let events2022 = [
         name: 'Первенство ГБУ СШОР им.В.Коренькова «Памяти З.В.Пятаковой»',
         reg: 'http://orgeo.ru/event/24599',
         res: 'https://o-site.spb.ru/_races/221016_PZVP/221016_PZVP_rez.pdf',
-        split: 'splits/2022/SPB_20221016_1_split.htm',
         strava: 7971237568,
         o_site: '221016_PZVP',
         map: 'sestroretsk_tamozhennaya_doroga_2012'
@@ -1970,7 +1767,6 @@ let events2022 = [
         place: 'Выборг',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1470',
         res: 'http://orgeo.ru/live/#/24205',
-        split: 'splits/2022/SPB_20221016_2_split.htm',
         o_site: '221016'
     },
     {
@@ -1993,10 +1789,6 @@ let events2022 = [
         name: '50 ВЁРСТ',
         fmt: 'ночная эстафета',
         res: 'http://sportident.online/ol/?id=942',
-        split: [
-            'splits/2022/SPB_20221022_2_1_split.htm',
-            'splits/2022/SPB_20221022_2_2_split.htm'
-        ],
         video: 'https://vkvideo.ru/video-93257360_456239204',
         info: 'III клубная ночная эстафета 50 ВЁРСТ',
         o_site: '221022_50Verst',
@@ -2032,7 +1824,6 @@ let events2022 = [
         start: 'LO_CHAMP',
         fmt: 'кросс-классика',
         res: 'http://sportident.online/ol/?id=946',
-        split: 'splits/2022/SPB_20221023_1_split.htm',
         info: 'Чемпионат и Первенство Ленинградской области Соревнования на призы клуба Норд Вест',
         video: 'https://www.youtube.com/watch?v=RG9FN0K312E',
         strava: 8006125990,
@@ -2096,7 +1887,6 @@ let events2022 = [
         name: 'Чемпионат и Первенство МО Сертолово «Осенняя тропа 2022»',
         reg: 'http://orgeo.ru/event/24814',
         res: 'https://o-site.spb.ru/_races/221030/221030_res.htm',
-        split: 'splits/2022/SPB_20221030_1_split.htm',
         owner: 'SFSO_LO',
         o_site: '221030'
     },
@@ -2118,13 +1908,6 @@ let events2022 = [
         place: 'Токсово',
         reg: 'http://orgeo.ru/event/info/24828',
         res: 'https://o-site.spb.ru/_races/221103/221031_split.htm',
-        split: [
-            'splits/2022/SPB_20221103_1_1_split.htm',
-            'splits/2022/SPB_20221103_1_2_split.htm',
-            'splits/2022/SPB_20221103_1_3_split.htm',
-            'splits/2022/SPB_20221103_1_4_split.htm',
-            'splits/2022/SPB_20221103_1_5_split.htm'
-        ],
         info: 'Серия тренировочных стартов на осенних каникулах, с 31 октября по 3 ноября В программе: 31.10.2022 (Пн) 11:00 - Выбор. Место проведения: Токсово ВИФК 01.11.2022 (Вт) 11:00 - Маркир+классика с 15 часов. Место проведения: Токсово, СКА 02.11.2022 (Ср) 11:00 - Выбор - Орлиная гора. Место проведения: Орлиная Гора 03.11.2022 (Чт) 15:00 - Спринт. Место проведения: Токсово (гостиница Кавголово)',
         o_site: '221103'
     },
@@ -2134,7 +1917,6 @@ let events2022 = [
         place: 'Семиозерье',
         name: 'Осенний марафон',
         res: 'https://o-site.spb.ru/_races/221104_OM/Res1_221104.htm',
-        split: 'splits/2022/SPB_20221104_1_split.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         strava: 8066428678,
         logo: 'azimut.gif',
@@ -2149,7 +1931,6 @@ let events2022 = [
         name: 'Первенство клуба Forest Team',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1479',
         res: 'http://orgeo.ru/live/#/25029',
-        split: 'splits/2022/SPB_20221104_2_split.htm',
         info: 'В пятницу, 04 ноября, приглашаем в Пушкин на клубный некоммерческий неофициальный старт. Район 1-ого дня "Невского спринта". Спринт-общий старт. Для детей - тёплая раздевалка. Старт по группам с 16 часов, с 17-ти награждение. SFR. Заявки - до вечера среды. На месте заявки не будет.',
         o_site: '221104'
     },
@@ -2161,7 +1942,6 @@ let events2022 = [
         place: 'Токсово, Малиновая гора',
         reg: 'http://orgeo.ru/event/24925',
         res: 'https://o-site.spb.ru/_races/221105_p/221105_split.htm',
-        split: 'splits/2022/SPB_20221105_1_split.htm',
         o_site: '221105_p',
         map: 'toksovo_malinovaya_gora_2018'
     },
@@ -2182,7 +1962,6 @@ let events2022 = [
         place: 'Токсово, Малиновая гора',
         reg: 'http://orgeo.ru/event/24918#',
         res: 'https://o-site.spb.ru/_races/221106_100kp/221106_100_split.htm',
-        split: 'splits/2022/SPB_20221106_1_split.htm',
         strava: 8076084474,
         o_site: '221106_100kp',
         map: 'toksovo_malinovaya_gora_2018'
@@ -2204,7 +1983,6 @@ let events2022 = [
         name: 'Горный Кросс - 91',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/221112R/221112R_res.pdf',
-        split: 'splits/2022/SPB_20221112_1_split.htm',
         fmt: '6 и 2 часа - бег, 5 часов - вело',
         strava: 8105669651,
         start: 'GORNY_CROSS',
@@ -2236,7 +2014,6 @@ let events2022 = [
         name: 'Маркир 110%',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1474',
         res: 'https://o-site.spb.ru/_races/221113/https://orgeo.ru/live/#/25152/1',
-        split: 'splits/2022/SPB_20221113_1_split.htm',
         fmt: 'Личные соревнования на маркированной трассе «Вариант Д», бегом.',
         strava: 8112409206,
         start: 'ROGAINE_110',
@@ -2262,7 +2039,6 @@ let events2022 = [
         start: 'VSEVOLOZHSK_WAY',
         reg: 'http://orgeo.ru/event/25146',
         res: 'https://o-site.spb.ru/_races/221122/221120_res.htm',
-        split: 'splits/2022/SPB_20221120_1_split.htm',
         strava: 8143177853,
         o_site: '221122',
         map: 'luppolovo_2022',
@@ -2275,7 +2051,6 @@ let events2022 = [
         name: 'День Матери',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1484',
         res: 'https://o-site.spb.ru/_races/221126/221126_off.pdf',
-        split: 'splits/2022/SPB_20221126_1_split.htm',
         strava: 8170213687,
         o_site: '221126',
         map: 'poljustrovo_2023'
@@ -2287,7 +2062,6 @@ let events2022 = [
         name: 'Ориентир НатАлка',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1483',
         res: 'https://o-site.spb.ru/_races/2022_Orientir/Res_221126.htm',
-        split: 'splits/2022/SPB_20221126_2_split.htm',
         photo: 'http://photos.app.goo.gl/1PwQzd72cB7LXKCb6',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         strava: 8169719874,
@@ -2304,7 +2078,6 @@ let events2022 = [
         start: 'SNOW_WAY',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1481',
         res: 'http://orgeo.ru/live/#/24205/1',
-        split: 'splits/2022/SPB_20221127_1_split.htm',
         info: 'Городские соревнования по спортивному ориентированию «Снежная тропа» и физкультурное мероприятие «Многоэтапные городские соревнования по спортивному ориентированию «Снежная тропа».',
         o_site: '221127',
         strava: 8174691972,
@@ -2350,7 +2123,6 @@ let events2022 = [
         place: 'Сосновка',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1485',
         res: 'http://orgeo.ru/live/#/24205',
-        split: 'splits/2022/SPB_20221211_1_split.htm',
         info: 'Городские соревнования по спортивному ориентированию «Снежная тропа» и физкультурное мероприятие «Многоэтапные городские соревнования по спортивному ориентированию «Снежная тропа».',
         o_site: '221211',
         strava: 8235260865,
@@ -2375,7 +2147,6 @@ let events2022 = [
         place: 'Кузьмолово',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1488',
         res: 'https://o-site.spb.ru/_races/221225_os/221225_ResultList.htm',
-        split: 'splits/2022/SPB_20221225_1_split.htm',
         o_site: '221225_os'
     },
     {
