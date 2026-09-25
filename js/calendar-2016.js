@@ -271,16 +271,6 @@ let events2016 = [
         o_site: '160326'
     },
     {
-        id: 'SPB_20160401_2',
-        date: '2016-04-01',
-        name: 'Кузьмоловские старты',
-        start: 'KUZMOLOVSKY_STARTS',
-        res: 'https://o-site.spb.ru/_races/160414_KS/161006_res.htm',
-        info: 'Серия тренировочных стартов в районе пос. Кузьмоловский',
-        o_site: '160414_KS',
-        // endDate: '2016-10-31'
-    },
-    {
         id: 'SPB_20160401_3',
         date: '2016-04-01',
         name: 'Летний Кубок СПб и ЛО',
@@ -298,6 +288,13 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160402_Streko/160402_res.htm',
         split: 'splits/2016/SPB_20160402_1_split.htm',
         o_site: '160402_Streko'
+    },
+    {
+        id: 'SPB_20160403_1',
+        date: '2016-04-03',
+        name: 'Весенние капели',
+        res: 'https://o-site.spb.ru/_races/160326/160403_res.htm',
+        o_site: '160326'
     },
     {
         id: 'SPB_20160409_1',
@@ -319,13 +316,6 @@ let events2016 = [
         o_site: '160409',
         photo: 'https://vk.ru/album-92124592_230362297',
         res: 'https://reg.o-time.ru/race/16067'
-    },
-    {
-        id: 'SPB_20160403_1',
-        date: '2016-04-03',
-        name: 'Весенние капели',
-        res: 'https://o-site.spb.ru/_races/160326/160403_res.htm',
-        o_site: '160326'
     },
     {
         id: 'SPB_20160410_1',
@@ -354,6 +344,15 @@ let events2016 = [
         photo: 'https://vk.ru/album-92124592_230604141',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16068'
+    },
+    {
+        id: 'SPB_20160414_1',
+        date: '2016-04-14',
+        place: 'Карабсельки',
+        name: 'Кузьмоловские старты, 1 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/160414_KS/160414_res.htm',
+        o_site: '160414_KS'
     },
     {
         id: 'SPB_20160416_1',
@@ -429,6 +428,14 @@ let events2016 = [
         start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16069'
+    },
+    {
+        id: 'SPB_20160421_1',
+        date: '2016-04-21',
+        place: 'Куялово',
+        name: 'Кузьмоловские старты, 2 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        o_site: '160414_KS'
     },
     {
         id: 'SPB_20160424_1',
@@ -580,6 +587,15 @@ let events2016 = [
         o_site: '160411'
     },
     {
+        id: 'SPB_20160512_1',
+        date: '2016-05-12',
+        place: 'Осельки',
+        name: 'Кузьмоловские старты, 3 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/160414_KS/160512_split.htm',
+        o_site: '160414_KS'
+    },
+    {
         id: 'SPB_20160514_1',
         date: '2016-05-14',
         place: 'Всеволожск',
@@ -654,6 +670,15 @@ let events2016 = [
         start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16072'
+    },
+    {
+        id: 'SPB_20160519_1',
+        date: '2016-05-19',
+        place: 'Токсово, Охта-парк',
+        name: 'Кузьмоловские старты, 4 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/160414_KS/160519_split.htm',
+        o_site: '160414_KS'
     },
     {
         id: 'SPB_20160521_1',
@@ -733,6 +758,15 @@ let events2016 = [
         res: 'https://reg.o-time.ru/race/16073'
     },
     {
+        id: 'SPB_20160526_1',
+        date: '2016-05-26',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 5 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/160414_KS/160526_split.htm',
+        o_site: '160414_KS'
+    },
+    {
         id: 'SPB_20160528_1',
         date: '2016-05-28',
         name: 'Горный Кросс - 52',
@@ -797,6 +831,15 @@ let events2016 = [
         start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16074'
+    },
+    {
+        id: 'SPB_20160602_1',
+        date: '2016-06-02',
+        place: 'Медное оз',
+        name: 'Кузьмоловские старты, 6 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/160414_KS/160602_res.htm',
+        o_site: '160414_KS'
     },
     {
         id: 'SPB_20160604_1',
@@ -931,6 +974,14 @@ let events2016 = [
         map: ['mms_2016_korobitsyno','mms_2016_06_24', 'mms_2016_06_25','mms_2016_06_26']
     },
     {
+        id: 'SPB_20160628_1',
+        date: '2016-06-28',
+        place: 'Ржевский л/п',
+        name: 'Ржевская тропа здоровья, 1-й этап',
+        res: 'http://www.o-site.spb.ru/_races/160628/160628_res.htm',
+        o_site: '160628'
+    },
+    {
         id: 'SPB_20160702_1',
         date: '2016-07-02',
         endDate: '2016-07-03',
@@ -942,6 +993,14 @@ let events2016 = [
         start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '16070203',
         map: 'zaporozhskoe_2016'
+    },
+    {
+        id: 'SPB_20160708_1',
+        date: '2016-07-08',
+        place: 'Ржевский л/п',
+        name: 'Ржевская тропа здоровья, 2-й этап',
+        res: 'https://www.o-site.spb.ru/_races/160628/160708_res.htm',
+        o_site: '160628'
     },
     {
         id: 'SPB_20160709_1',
@@ -1087,17 +1146,10 @@ let events2016 = [
     },
     {
         id: 'SPB_20160824_1',
-        date: '2016-06-28',
+        date: '2016-08-24',
         name: 'Ржевская тропа здоровья, 4-й этап',
         place: 'СК Арена',
-        res: 'http://www.o-site.spb.ru/_races/160628/160628_res.htm',
-        o_site: '160628'
-    },
-    {
-        id: 'SPB_20160628_1',
-        date: '2016-06-28',
-        name: 'Ржевская тропа здоровья, 1-й этап',
-        res: 'http://www.o-site.spb.ru/_races/160628/160628_res.htm',
+        res: 'https://o-site.spb.ru/_races/160628/160824_res.pdf',
         o_site: '160628'
     },
     {
@@ -1174,6 +1226,15 @@ let events2016 = [
         res: 'https://reg.o-time.ru/race/16076'
     },
     {
+        id: 'SPB_20160901_1',
+        date: '2016-09-01',
+        place: 'Кузьмолово',
+        name: 'Кузьмоловские старты, 7 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/160414_KS/160901_res.htm',
+        o_site: '160414_KS'
+    },
+    {
         id: 'SPB_20160903_1',
         date: '2016-09-03',
         place: 'оз Хепоярви',
@@ -1202,6 +1263,15 @@ let events2016 = [
         res: 'https://reg.o-time.ru/race/16077'
     },
     {
+        id: 'SPB_20160908_1',
+        date: '2016-09-08',
+        place: 'Токсово, Малиновая гора',
+        name: 'Кузьмоловские старты, 8 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/160414_KS/160908_split.htm',
+        o_site: '160414_KS'
+    },
+    {
         id: 'SPB_20160911_1',
         date: '2016-09-11',
         place: 'Журавки, Симагино',
@@ -1221,6 +1291,15 @@ let events2016 = [
         start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16078'
+    },
+    {
+        id: 'SPB_20160915_1',
+        date: '2016-09-15',
+        place: 'Вартемяги',
+        name: 'Кузьмоловские старты, 9 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/160414_KS/160915_split.htm',
+        o_site: '160414_KS'
     },
     {
         id: 'SPB_20160917_1',
@@ -1265,6 +1344,14 @@ let events2016 = [
         start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16079'
+    },
+    {
+        id: 'SPB_20160922_1',
+        date: '2016-09-22',
+        place: 'Вартемяги (юг)',
+        name: 'Кузьмоловские старты, 10 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        o_site: '160414_KS'
     },
     {
         id: 'SPB_20160924_1',
@@ -1356,6 +1443,15 @@ let events2016 = [
         res: 'https://reg.o-time.ru/race/16071'
     },
     {
+        id: 'SPB_20160929_1',
+        date: '2016-09-29',
+        place: 'Кавголово',
+        name: 'Кузьмоловские старты, 11 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/160414_KS/160929_res.htm',
+        o_site: '160414_KS'
+    },
+    {
         id: 'SPB_20161001_1',
         date: '2016-10-01',
         place: 'Цвелодубово',
@@ -1402,6 +1498,15 @@ let events2016 = [
         split: 'splits/2016/SPB_20161002_1_split.htm',
         o_site: '161002',
         reskeep: 223
+    },
+    {
+        id: 'SPB_20161006_1',
+        date: '2016-10-06',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 12 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/160414_KS/161006_res.htm',
+        o_site: '160414_KS'
     },
     {
         id: 'SPB_20161008_1',
