@@ -1186,7 +1186,7 @@ let cityMaps = [
         name: 'Школа №515',
         year: 2023,
         url: './maps/city/school_515_2023.webp',
-        link: './original_maps/city/school_515_2023_omaps.webp',
+        link: './original_maps/schools/school_515_2023_omaps.webp',
         bounds: [[59.9479726, 30.4142976], [59.9469087, 30.4229021], [59.942739, 30.4115081]],
         author: ['RDNV_B','RDNV_I'],
         type: ['CITY']
@@ -1650,7 +1650,7 @@ let cityMaps = [
         name: 'Народная ул, шк №627',
         year: 2020,
         url: './maps/city/school_627_2020.webp',
-        link: ['./original_maps/city/school_627_2020_omaps.gif','./original_maps/city/school_627_2020_omaps.ocd'],
+        link: ['./original_maps/schools/school_627_2020_omaps.gif','./original_maps/schools/school_627_2020_omaps.ocd'],
         bounds: [[59.8858472, 30.4528248], [59.8843077, 30.4704309], [59.8792956, 30.4507113]],
         author: 'DRBSHV',
         type: ['CITY']
@@ -2350,7 +2350,7 @@ let cityMaps = [
         name: 'Школа №491',
         year: 2026,
         url: './maps/city/school_491_2026.webp',
-        link: ['./original_maps/city/school_491_2026_1_omaps.gif','./original_maps/city/school_491_2026_2_omaps.gif','./original_maps/city/school_491_2026_3_omaps.gif','./original_maps/city/school_491_2026_4_omaps.gif','./original_maps/city/school_491_2026_5_omaps.gif','./original_maps/city/school_491_2026_6_omaps.gif'],
+        link: ['./original_maps/schools/school_491_2026_1_omaps.gif','./original_maps/schools/school_491_2026_2_omaps.gif','./original_maps/schools/school_491_2026_3_omaps.gif','./original_maps/schools/school_491_2026_4_omaps.gif','./original_maps/schools/school_491_2026_5_omaps.gif','./original_maps/schools/school_491_2026_6_omaps.gif'],
         bounds: [[59.9382302, 30.43715], [59.938214, 30.4393172], [59.9374885, 30.4371929]],
         type: ['INDOOR'],
         owner: 'RDNV_I'
