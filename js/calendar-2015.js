@@ -263,17 +263,6 @@ let events2015 = [
         link: 'http://www.ivk.fi/rogaining/'
     },
     {
-        id: 'SPB_20150401_1',
-        date: '2015-04-01',
-        name: 'Кузьмоловские старты - 15 этап',
-        start: 'KUZMOLOVSKY_STARTS',
-        res: 'https://o-site.spb.ru/_races/150409/151022_res.htm',
-        split: 'splits/2015/SPB_20150401_1_split.htm',
-        info: 'Серия тренировочных стартов команды "Кузьмолово"',
-        o_site: '150409',
-        // endDate: '2015-10-31'
-    },
-    {
         id: 'SPB_20150401_2',
         date: '2015-04-01',
         name: 'Летний Кубок СПб и ЛО',
@@ -313,6 +302,14 @@ let events2015 = [
         res: 'https://reg.o-time.ru/race/15023'
     },
     {
+        id: 'SPB_20150409_1',
+        date: '2015-04-09',
+        place: 'Карабсельки (север)',
+        name: 'Кузьмоловские старты, 1 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        o_site: '150409'
+    },
+    {
         id: 'SPB_20150411_1',
         date: '2015-04-11',
         place: '103-я высота',
@@ -342,6 +339,15 @@ let events2015 = [
         start: 'SPRINT_TOUR',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15024'
+    },
+    {
+        id: 'SPB_20150416_1',
+        date: '2015-04-16',
+        place: 'Медное озеро',
+        name: 'Кузьмоловские старты, 2 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/150416_res.htm',
+        o_site: '150409'
     },
     {
         id: 'SPB_20150419_1',
@@ -384,6 +390,15 @@ let events2015 = [
         start: 'SPRINT_TOUR',
         res: 'https://reg.o-time.ru/race/15025',
         o_site: '150408'
+    },
+    {
+        id: 'SPB_20150423_1',
+        date: '2015-04-23',
+        place: 'Кузьмолово',
+        name: 'Кузьмоловские старты, 3 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/150423_res.htm',
+        o_site: '150409'
     },
     {
         id: 'SPB_20150426_1',
@@ -575,6 +590,15 @@ let events2015 = [
         start: 'SCHOOL'
     },
     {
+        id: 'SPB_20150514_2',
+        date: '2015-05-14',
+        place: 'Кузьмолово, полигон (зона Z)',
+        name: 'Кузьмоловские старты, 4 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/150514_res.htm',
+        o_site: '150409'
+    },
+    {
         id: 'SPB_20150515_1',
         date: '2015-05-15',
         name: 'Открытые соревнования школьников Выборгского р-на СПб',
@@ -667,6 +691,15 @@ let events2015 = [
         o_site: '150408'
     },
     {
+        id: 'SPB_20150521_2',
+        date: '2015-05-21',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 5 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/150521_res.htm',
+        o_site: '150409'
+    },
+    {
         id: 'SPB_20150523_1',
         date: '2015-05-23',
         endDate: '2015-05-24',
@@ -714,6 +747,15 @@ let events2015 = [
         photo: 'https://vk.ru/album-92124592_216010954',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15029'
+    },
+    {
+        id: 'SPB_20150528_1',
+        date: '2015-05-28',
+        place: 'Вартемяги',
+        name: 'Кузьмоловские старты, 6 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/150528_res.htm',
+        o_site: '150409'
     },
     {
         id: 'SPB_20150530_1',
@@ -783,6 +825,15 @@ let events2015 = [
         start: 'SPRINT_TOUR',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15030'
+    },
+    {
+        id: 'SPB_20150604_1',
+        date: '2015-06-04',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 7 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/150604_res.htm',
+        o_site: '150409'
     },
     {
         id: 'SPB_20150606_1',
@@ -1131,6 +1182,15 @@ let events2015 = [
         res: 'https://reg.o-time.ru/race/15031'
     },
     {
+        id: 'SPB_20150903_1',
+        date: '2015-09-03',
+        place: 'Кавголово',
+        name: 'Кузьмоловские старты, 8 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/150903_res.htm',
+        o_site: '150409'
+    },
+    {
         id: 'SPB_20150905_1',
         date: '2015-09-05',
         place: 'Псковская обл., Печорский р-н',
@@ -1186,6 +1246,15 @@ let events2015 = [
         res: 'https://reg.o-time.ru/race/15032'
     },
     {
+        id: 'SPB_20150910_1',
+        date: '2015-09-10',
+        place: 'Токсово, оз Хепоярви',
+        name: 'Кузьмоловские старты, 9 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/150910_split.htm',
+        o_site: '150409'
+    },
+    {
         id: 'SPB_20150912_1',
         date: '2015-09-12',
         place: 'Молодежное',
@@ -1230,6 +1299,15 @@ let events2015 = [
         photo: 'https://vk.ru/album-92124592_220682762',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15033'
+    },
+    {
+        id: 'SPB_20150917_1',
+        date: '2015-09-17',
+        place: 'Токсово, Каменная дорога',
+        name: 'Кузьмоловские старты, 10 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/150917_split.htm',
+        o_site: '150409'
     },
     {
         id: 'SPB_20150919_1',
@@ -1314,6 +1392,15 @@ let events2015 = [
         res: 'https://reg.o-time.ru/race/15034'
     },
     {
+        id: 'SPB_20150924_1',
+        date: '2015-09-24',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 11 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/150924_res.htm',
+        o_site: '150409'
+    },
+    {
         id: 'SPB_20150925_1',
         date: '2015-09-25',
         endDate: '2015-09-28',
@@ -1387,6 +1474,15 @@ let events2015 = [
         start: 'SCHOOL'
     },
     {
+        id: 'SPB_20151001_1',
+        date: '2015-10-01',
+        place: 'Юкки',
+        name: 'Кузьмоловские старты, 12 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/151001_res.htm',
+        o_site: '150409'
+    },
+    {
         id: 'SPB_20151003_1',
         date: '2015-10-03',
         place: 'Стеклянный (Васкелово)',
@@ -1427,6 +1523,15 @@ let events2015 = [
         start: 'SCHOOL'
     },
     {
+        id: 'SPB_20151008_1',
+        date: '2015-10-08',
+        place: 'Кавголово',
+        name: 'Кузьмоловские старты, 13 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/151008_split.htm',
+        o_site: '150409'
+    },
+    {
         id: 'SPB_20151010_1',
         date: '2015-10-10',
         place: 'Яппиля',
@@ -1454,6 +1559,15 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/151014_PPKI/151014_rezPPK.htm',
         split: 'splits/2015/SPB_20151014_1_split.htm',
         o_site: '151014_PPKI'
+    },
+    {
+        id: 'SPB_20151015_1',
+        date: '2015-10-15',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 14 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/151015_split.htm',
+        o_site: '150409'
     },
     {
         id: 'SPB_20151017_1',
@@ -1540,6 +1654,16 @@ let events2015 = [
         o_site: '151021',
         map: 'school_141_2015',
         start: 'SCHOOL'
+    },
+    {
+        id: 'SPB_20151022_1',
+        date: '2015-10-22',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 15 этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/150409/151022_split.htm',
+        split: 'splits/2015/SPB_20150401_1_split.htm',
+        o_site: '150409'
     },
     {
         id: 'SPB_20151024_1',
