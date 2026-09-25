@@ -991,7 +991,7 @@ let events2012 = [
         place: 'ул Сикейроса',
         name: 'Sprint Tour Spb',
         res: 'http://o-site.spb.ru/_races/121013/120919_split.htm',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'school_101_2011'
     },
     {
@@ -1044,7 +1044,7 @@ let events2012 = [
         name: 'Sprint Tour SPb, 2-й этап',
         res: 'http://o-site.spb.ru/_races/121013/120926_split.htm',
         o_site: '121013',
-        start: 'ST'
+        start: 'SPRINT_TOUR'
     },
     {
         id: 'SPB_20120927_1',
@@ -1124,7 +1124,7 @@ let events2012 = [
         name: 'Sprint Tour SPb, 3-й этап',
         res: 'http://o-site.spb.ru/_races/121013/121003_split.htm',
         o_site: '121013',
-        start: 'ST'
+        start: 'SPRINT_TOUR'
     },
     {
         id: 'SPB_20121004_1',
@@ -1201,7 +1201,7 @@ let events2012 = [
         place: 'Литейный пр',
         res: 'http://o-site.spb.ru/_races/121013/121013_split.xls',
         split: 'splits/2012/SPB_20121013_1_4_split.xls',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '121013'
     },
     {

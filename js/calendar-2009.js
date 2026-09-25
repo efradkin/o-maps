@@ -285,7 +285,7 @@ let events2009 = [
         place: 'Сосновка',
         name: 'Sprint Tour SPb, 1 этап',
         res: 'https://o-site.spb.ru/_races/090519/090421_res.htm',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '090519'
     },
     {
@@ -391,7 +391,7 @@ let events2009 = [
         place: 'Сосновка',
         name: 'Sprint Tour SPb, 2 этап',
         res: 'https://o-site.spb.ru/_races/090519/090512_res.htm',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '090519'
     },
     {
@@ -448,7 +448,7 @@ let events2009 = [
         place: 'Невский л/п',
         name: 'Sprint Tour SPb, 3 этап',
         res: 'https://o-site.spb.ru/_races/090519/090519_res.htm',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '090519'
     },
     {

@@ -372,7 +372,7 @@ let events2021 = [
         date: '2021-04-07',
         place: 'Среднеохтинский пр',
         name: 'Noname Sprint Tour SPb - 2021. 1 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 429,
         map: 'big_okhta_2017',
         photo: 'https://vk.ru/album-92124592_278796742'
@@ -401,7 +401,7 @@ let events2021 = [
         date: '2021-04-14',
         place: 'Удельная, Поклонная гора',
         name: 'Noname Sprint Tour SPb - 2021. 2 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 430,
         map: 'berezovy_sad_2016',
         strava: 5126889730
@@ -549,7 +549,7 @@ let events2021 = [
         date: '2021-04-28',
         place: 'пр Пархоменко',
         name: 'Noname Sprint Tour SPb - 2021. 3 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'parkhomenko_2018',
         reskeep: 431,
         photo: 'https://vk.ru/album-92124592_279125704'
@@ -714,7 +714,7 @@ let events2021 = [
         date: '2021-05-12',
         place: 'Парк академика Сахарова',
         name: 'Noname Sprint Tour SPb - 2021. 4 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 432,
         strava: 5285445291,
         map: 'sakharova_2015',
@@ -861,7 +861,7 @@ let events2021 = [
         date: '2021-05-26',
         place: 'м Ладожская, ручей Оккервиль',
         name: 'Runlab-Sprint (Спринт Тур СПб 2021 - 5 этап)',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 433,
         strava: 5362352069,
         map: 'okkervil_2024',
@@ -1496,7 +1496,7 @@ let events2021 = [
         place: 'Академическая',
         map: 'school_71_2021',
         name: 'Noname Sprint Tour SPb - 2021. 6 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 485,
         photo: 'https://vk.ru/album-92124592_280782453'
     },
@@ -1592,7 +1592,7 @@ let events2021 = [
         place: 'пр Солидарности',
         map: 'school_332_2021',
         name: 'Noname Sprint Tour SPb - 2021. 7 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 486,
         video: 'https://www.youtube.com/watch?v=HZ4Npy4VtT8',
         strava: 5964941746,
@@ -1725,7 +1725,7 @@ let events2021 = [
         place: 'м Озерки',
         map: 'esenina_2021',
         name: 'Noname Sprint Tour SPb - 2021. 8 этап (MASS-SPRINT)',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 487,
         video: 'https://www.youtube.com/watch?v=geYSM5DsKGg',
         strava: [6038430926,6038435320],
@@ -1806,7 +1806,7 @@ let events2021 = [
         place: 'ул Матроса Железняка',
         map: 'matrosa_zheleznjaka_2021',
         name: 'Noname Sprint Tour SPb - 2021. 9 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 488,
         strava: 6085105291,
         photo: 'https://vk.ru/album-92124592_281271230'
@@ -1963,7 +1963,7 @@ let events2021 = [
             'https://www.youtube.com/watch?v=Dt6N_G1KZuk',
             'https://rutube.ru/video/409376f72a7df555a6972b578524e3b1/'
         ],
-        start: 'ST'
+        start: 'SPRINT_TOUR'
     },
     {
         id: 'SPB_20211030_3',

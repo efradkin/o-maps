@@ -313,7 +313,7 @@ let events2013 = [
         date: '2013-04-01',
         name: 'Sprint Tour SPb 2013 - 15 этап',
         res: 'https://o-site.spb.ru/_races/130904/131120_split.htm',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '130904'
     },
     {
@@ -354,7 +354,7 @@ let events2013 = [
         id: 'SPB_20130410_1',
         date: '2013-04-10',
         name: 'Sprint Tour SPb 2013, 1-й этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         res: 'http://www.o-site.spb.ru/_races/130904/130410_split.htm',
         o_site: '130904'
     },
@@ -370,7 +370,7 @@ let events2013 = [
         id: 'SPB_20130417_1',
         date: '2013-04-17',
         name: 'Sprint Tour SPb 2013, 2-й этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         res: 'http://www.o-site.spb.ru/_races/130904/130417_split.htm',
         o_site: '130904'
     },
@@ -425,7 +425,7 @@ let events2013 = [
         id: 'SPB_20130424_2',
         date: '2013-04-24',
         name: 'Sprint Tour SPb 2013, 3-й этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         res: 'http://www.o-site.spb.ru/_races/130904/130424_split.htm',
         o_site: '130904'
     },
@@ -529,7 +529,7 @@ let events2013 = [
         id: 'SPB_20130508_1',
         date: '2013-05-08',
         name: 'Sprint Tour SPb 2013, 4-й этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         res: 'http://www.o-site.spb.ru/_races/130904/130508_split.htm',
         o_site: '130904'
     },
@@ -602,7 +602,7 @@ let events2013 = [
         id: 'SPB_20130515_1',
         date: '2013-05-15',
         name: 'Sprint Tour SPb 2013, 5-й этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         res: 'http://www.o-site.spb.ru/_races/130904/130515_split.htm',
         o_site: '130904'
     },
@@ -704,7 +704,7 @@ let events2013 = [
         date: '2013-05-22',
         name: 'Sprint Tour SPb 2013, 6-й этап',
         res: 'http://www.o-site.spb.ru/_races/130904/130522_split.htm',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '130904'
     },
     {
@@ -768,7 +768,7 @@ let events2013 = [
         date: '2013-05-29',
         name: 'Sprint Tour SPb 2013, 7-й этап',
         res: 'http://www.o-site.spb.ru/_races/130904/130529_split.htm',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '130904'
     },
     {
@@ -825,7 +825,7 @@ let events2013 = [
         date: '2013-06-05',
         name: 'Sprint Tour SPb 2013, 8-й этап',
         res: 'http://www.o-site.spb.ru/_races/130904/130605_split.htm',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '130904'
     },
     {
@@ -1142,7 +1142,7 @@ let events2013 = [
         date: '2013-09-04',
         name: 'Sprint Tour SPb 2013, 9-й этап',
         res: 'http://www.o-site.spb.ru/_races/130904/130904_split.htm',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '130904'
     },
     {
@@ -1198,7 +1198,7 @@ let events2013 = [
         place: 'шк 536',
         name: 'Sprint Tour SPb 2013 - 10 этап',
         res: 'http://www.o-site.spb.ru/_races/130904/130911_split.htm',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'kosmonavtov_2013'
     },
     {
@@ -1436,7 +1436,7 @@ let events2013 = [
         date: '2013-10-12',
         place: 'Кавалергардская ул',
         name: 'Sprint Tour SPb 2013 - 14 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'kavalergardskaya_2012'
     },
     {

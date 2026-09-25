@@ -323,7 +323,7 @@ let events2019 = [
         date: '2019-04-10',
         place: 'Среднеохтинский пр',
         name: 'Sprint Tour 2019. 1 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 110,
         map: 'big_okhta_2017',
         photo: 'https://vk.ru/album-92124592_262136984'
@@ -366,7 +366,7 @@ let events2019 = [
         date: '2019-04-17',
         place: 'Муринский парк',
         name: 'Sprint Tour 2019. 2 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 112,
         photo: 'https://vk.ru/album-92124592_262317391'
     },
@@ -678,7 +678,7 @@ let events2019 = [
         id: 'SPB_20190515_3',
         date: '2019-05-15',
         name: 'Sprint Tour SPb',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         photo: 'https://vk.ru/album-92124592_263053650'
     },
     {
@@ -843,7 +843,7 @@ let events2019 = [
         date: '2019-05-29',
         place: 'Гражданский пр',
         name: 'Sprint Tour 2019. 4 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 143,
         photo: 'https://vk.ru/album-92124592_263417096'
     },
@@ -1319,7 +1319,7 @@ let events2019 = [
         place: 'Петроградка',
         name: 'Sprint Camp 2019. 1 день. Утро',
         reskeep: [185, 186],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'petrogradskaya_2016'
     },
     {
@@ -1328,7 +1328,7 @@ let events2019 = [
         place: 'Петроградка',
         name: 'Sprint Camp 2019. 2 день',
         reskeep: 187,
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'petrogradskaya_2016'
     },
     {
@@ -1500,7 +1500,7 @@ let events2019 = [
         date: '2019-09-11',
         place: 'Учительская ул',
         name: 'Sprint Tour SPb - осень 2019. 1 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 195,
         photo: 'https://vk.ru/album-92124592_266374624'
     },
@@ -1615,7 +1615,7 @@ let events2019 = [
         date: '2019-09-25',
         place: 'ул Карпинского',
         name: 'Sprint Tour SPb - осень 2019. 2 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 196,
         map: 'karpinskogo_2019'
     },
@@ -1790,7 +1790,7 @@ let events2019 = [
         date: '2019-10-09',
         place: 'Озерки',
         name: 'Sprint Tour SPb - осень 2019. 3 этап. MassSprint',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 197,
         photo: 'https://vk.ru/album-92124592_267344035'
     },
@@ -1936,7 +1936,7 @@ let events2019 = [
         date: '2019-10-23',
         place: 'м Лесная',
         name: 'Sprint Tour SPb - осень 2019. 4 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 198
     },
     {
@@ -1975,7 +1975,7 @@ let events2019 = [
         date: '2019-11-02',
         place: 'ул Рубинштейна',
         name: 'Sprint Tour SPb - осень 2019. 5 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 199,
         map: '5_uglov_2015'
     },

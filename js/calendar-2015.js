@@ -308,7 +308,7 @@ let events2015 = [
         date: '2015-04-08',
         place: 'Кронштадт',
         name: 'Sprint Tour SPb 2015: 1 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15023'
     },
@@ -339,7 +339,7 @@ let events2015 = [
         date: '2015-04-15',
         place: 'Выборгский р-н, ВИФК',
         name: 'Sprint Tour SPb 2015: 2 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15024'
     },
@@ -381,7 +381,7 @@ let events2015 = [
         place: 'шк №175',
         name: 'Sprint Tour SPb 2015: 3 этап',
         photo: 'https://vk.ru/album-92124592_214480868',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         res: 'https://reg.o-time.ru/race/15025',
         o_site: '150408'
     },
@@ -494,7 +494,7 @@ let events2015 = [
         place: 'Сосновка',
         name: 'Sprint Tour SPb 2015: 4 этап',
         photo: 'https://vk.ru/album-92124592_215056782',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         res: 'https://reg.o-time.ru/race/15026',
         o_site: '150408'
     },
@@ -554,7 +554,7 @@ let events2015 = [
         date: '2015-05-13',
         place: 'Манеж Алексеева',
         name: 'Sprint Tour SPb 2015: 5 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         photo: 'https://vk.ru/album-92124592_215387133',
         map: 'manezh_alekseeva_2015',
         o_site: '150408',
@@ -661,7 +661,7 @@ let events2015 = [
         date: '2015-05-20',
         place: 'парк ак.Сахарова',
         name: 'Sprint Tour SPb 2015: 6 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         photo: 'https://vk.ru/album-92124592_215741529',
         res: 'https://reg.o-time.ru/race/15028',
         o_site: '150408'
@@ -710,7 +710,7 @@ let events2015 = [
         date: '2015-05-27',
         place: 'шк №2',
         name: 'Sprint Tour SPb 2015: 7 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         photo: 'https://vk.ru/album-92124592_216010954',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15029'
@@ -780,7 +780,7 @@ let events2015 = [
         date: '2015-06-03',
         place: 'Новоорловский л/п',
         name: 'Sprint Tour SPb 2015: 8 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15030'
     },
@@ -1126,7 +1126,7 @@ let events2015 = [
         date: '2015-09-02',
         place: 'Ломоносовская',
         name: 'Sprint Tour SPb 2015: 9 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15031'
     },
@@ -1181,7 +1181,7 @@ let events2015 = [
         date: '2015-09-09',
         place: 'Удельный парк',
         name: 'Sprint Tour SPb 2015: 10 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15032'
     },
@@ -1226,7 +1226,7 @@ let events2015 = [
         date: '2015-09-16',
         place: 'шк №158',
         name: 'Sprint Tour SPb 2015: 11 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         photo: 'https://vk.ru/album-92124592_220682762',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15033'
@@ -1308,7 +1308,7 @@ let events2015 = [
         date: '2015-09-23',
         place: 'Выборгский р-н',
         name: 'Sprint Tour SPb 2015: 12 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         photo: 'https://vk.ru/album-92124592_220935768',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15034'
@@ -1442,7 +1442,7 @@ let events2015 = [
         date: '2015-10-10',
         place: 'Покровский о-в',
         name: 'Sprint Tour SPb 2015: 13 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15035'
     },
@@ -1496,7 +1496,7 @@ let events2015 = [
         date: '2015-10-17',
         place: 'Петроградский р-н',
         name: 'Sprint Tour SPb 2015: 14 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15036'
     },
@@ -1660,7 +1660,7 @@ let events2015 = [
         date: '2015-11-18',
         place: 'Калининский р-н',
         name: 'Sprint Tour SPb 2015: 15 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '150408',
         res: 'https://reg.o-time.ru/race/15037'
     },

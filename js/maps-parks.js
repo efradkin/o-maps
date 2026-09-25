@@ -435,7 +435,7 @@ let parkMaps = [
         url: './maps/parks/sakharova_2015.webp',
         link: ['./original_maps/parks/sakharova_2015_omaps.jpg','./original_maps/parks/sakharova_2021_st_omaps.gif'],
         bounds: [[59.9859369, 30.4056072], [59.9842195, 30.4245543], [59.9762003, 30.4020882]],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         author: 'DBRTSV_V',
         owner: 'SHEIN',
         type: ['PARK']
@@ -850,7 +850,7 @@ let parkMaps = [
         link: ['./original_maps/parks/politekh_2022_omaps.jpg','./original_maps/parks/politekh_2016_omaps.jpg','./original_maps/parks/politekh_st_2017_09_13_omaps.webp','./books/shirinyan_photo_orient_2026_omaps.pdf'],
         bounds: [[60.0096492, 30.3682709], [60.0094561, 30.3853941], [60.0023549, 30.3679705]],
         type: ['PARK','FOTO'],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         author: 'ZCHNV',
         owner: 'SFSO_SPB'
     },
@@ -960,7 +960,7 @@ let parkMaps = [
         link: './original_maps/parks/murinsky_center_2014_omaps.gif',
         bounds: [[60.0312223, 30.3902435], [60.0301718, 30.4105854], [60.0241257, 30.3891706]],
         author: ['SHRNN','FRSHLVA'],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['PARK']
     },
 /*
@@ -1000,7 +1000,7 @@ let parkMaps = [
         type: ['PARK'],
         author: ['SHRNN','CHGRVSKY_M'],
         owner: ['SHRNN','CHGRVSKY_M'],
-        start: 'ST'
+        start: 'SPRINT_TOUR'
     },
     {
         name: 'Муринский парк',
@@ -1498,7 +1498,7 @@ let parkMaps = [
         link: './original_maps/parks/esenina_2014_omaps.gif',
         bounds: [[59.9149668, 30.4791641], [59.9145688, 30.49088], [59.9072644, 30.4787135]],
         author: 'DRBSHV',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['PARK']
     },
     {

@@ -451,7 +451,7 @@ let events2024 = [
         date: '2024-04-23',
         place: 'руч Оккервиль',
         name: 'Noname Спринт Тур 2024. 1 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         strava: 11247373096,
         reskeep: 643,
         map: 'okkervil_2024',
@@ -572,7 +572,7 @@ let events2024 = [
         date: '2024-05-04',
         place: 'м.Чкаловская',
         name: 'Noname Sprint Tour 2024. 2 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 644
     },
     {
@@ -949,7 +949,7 @@ let events2024 = [
         map: 'sampo_2024',
         name: 'Спринт-Тур #3',
         reskeep: 645,
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         photo: 'https://vk.ru/album-92124592_303006024'
     },
     {
@@ -1619,7 +1619,7 @@ let events2024 = [
         name: 'Спринт Тур, 4 этап',
         place: 'пр Просвещения',
         map: 'school_518_2024',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 666,
         strava: 12384865213,
         video: 'https://vkvideo.ru/video-92124592_456239031',
@@ -1741,7 +1741,7 @@ let events2024 = [
         name: 'Спринт-Тур, 5 этап',
         reskeep: 668,
         strava: 12501717192,
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'alleya_polikarpova_2024'
     },
     {
@@ -1896,7 +1896,7 @@ let events2024 = [
         place: 'Озерки',
         name: 'Спринт-Тур, 6 этап',
         reskeep: 669,
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         photo: 'https://vk.ru/album-92124592_304480789'
     },
     {

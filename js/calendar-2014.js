@@ -283,7 +283,7 @@ let events2014 = [
         date: '2014-04-09',
         place: 'гимназия №92',
         name: 'Sprint Tour SPb 2014: 1 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         res: 'http://o-site.spb.ru/_races/140409/140409_res.htm',
         o_site: '140409'
     },
@@ -344,7 +344,7 @@ let events2014 = [
         date: '2014-04-16',
         place: 'лицей №176',
         name: 'Sprint Tour SPb 2014: 2 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         res: [
             'http://o-site.spb.ru/_races/140409/160414_split.htm',
             'https://reg.o-time.ru/race/140416'
@@ -435,7 +435,7 @@ let events2014 = [
         date: '2014-05-07',
         place: 'Кронштадт',
         name: 'Sprint Tour SPb 2014: 3 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         res: [
             'http://o-site.spb.ru/_races/140409/140507_split.htm',
             'https://reg.o-time.ru/race/140507'
@@ -492,7 +492,7 @@ let events2014 = [
             'http://o-site.spb.ru/_races/140409/140514_split.htm',
             'https://reg.o-time.ru/race/140514'
         ],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'politekhnicheskaya_2015',
         o_site: '140409'
     },
@@ -583,7 +583,7 @@ let events2014 = [
             'https://reg.o-time.ru/race/140521'
         ],
         o_site: '140409',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'murinsky_center_2014'
     },
     {
@@ -655,7 +655,7 @@ let events2014 = [
         date: '2014-05-28',
         place: 'парк Есенина',
         name: 'Sprint Tour SPb 2014: 6 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/140528'
     },
@@ -708,7 +708,7 @@ let events2014 = [
         date: '2014-06-04',
         place: 'Озерки',
         name: 'Sprint Tour SPb 2014: 7 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/140604'
     },
@@ -1136,7 +1136,7 @@ let events2014 = [
         date: '2014-09-10',
         place: 'шк №2',
         name: 'Sprint Tour SPb 2014: 8 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/140910'
     },
@@ -1175,7 +1175,7 @@ let events2014 = [
         date: '2014-09-17',
         place: 'Ломоносовская',
         name: 'Sprint Tour SPb 2014: 9 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/140917'
     },
@@ -1236,7 +1236,7 @@ let events2014 = [
         date: '2014-09-24',
         place: 'Выборгский р-н',
         name: 'Sprint Tour SPb 2014: 10 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/140924'
     },
@@ -1339,7 +1339,7 @@ let events2014 = [
         date: '2014-10-04',
         place: 'Коломна',
         name: 'Sprint Tour SPb 2014: 11 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/140927'
     },
@@ -1405,7 +1405,7 @@ let events2014 = [
         date: '2014-10-11',
         place: 'шк №575',
         name: 'Sprint Tour SPb 2014: 12 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/141011'
     },

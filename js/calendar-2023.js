@@ -445,7 +445,7 @@ let events2023 = [
         place: 'Смоленка (Приморская)',
         map: 'smolenka_2014',
         name: 'Noname Sprint Tour SPb 2023 - 1 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 570,
         map: 'smolenka_2014',
         photo: 'https://vk.ru/album-92124592_292418326'
@@ -529,7 +529,7 @@ let events2023 = [
         date: '2023-04-26',
         place: 'Муринский парк (лыжная трасса)',
         name: 'Noname Sprint Tour SPb 2023 - 2 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 573,
         map: 'murinsky_east_2023',
         photo: 'https://vk.ru/album-92124592_292708441'
@@ -691,7 +691,7 @@ let events2023 = [
         map: 'sad_zhoresa_alferova_2023',
         name: 'Noname Sprint Tour SPb 2023 - 3 этап',
         video: 'https://www.youtube.com/watch?v=m_Uec_whsi4',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 586,
         photo: 'https://vk.ru/album-92124592_292986474'
     },
@@ -769,7 +769,7 @@ let events2023 = [
         place: 'пр Металлистов',
         map: 'school_532_2023',
         name: 'RUNLAB-спринт (Noname Sprint Tour SPb 2023 - 4 этап)',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 587,
         photo: 'https://vk.ru/album-92124592_293157307'
     },
@@ -1466,7 +1466,7 @@ let events2023 = [
         map: 'karpinskogo_2019',
         o_gps: 17006,
         name: 'Noname Sprint Tour 2023 - 5 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         strava: 9660997231,
         reskeep: 603
     },
@@ -1877,7 +1877,7 @@ let events2023 = [
         date: '2023-10-04',
         place: 'ул Жака Дюкло',
         name: 'Noname Sprint Tour 2023. 6 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 619,
         o_gps: {
             'М':17480,
@@ -2099,7 +2099,7 @@ let events2023 = [
         map: 'sestroretskaya_2023',
         o_gps: 17674,
         name: 'Noname Sprint Tour 2023. 7 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 621,
         photo: 'https://vk.ru/album-92124592_298623345'
     },

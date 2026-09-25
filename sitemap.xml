@@ -372,7 +372,7 @@
     <loc>https://o-maps.spb.ru/start.html?start=SPB_CHAMP</loc>
   </url>
   <url>
-    <loc>https://o-maps.spb.ru/start.html?start=ST</loc>
+    <loc>https://o-maps.spb.ru/start.html?start=SPRINT_TOUR</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/start.html?start=TA</loc>
@@ -453,7 +453,7 @@
     <loc>https://o-maps.spb.ru/start-details.html?start=SPB_CHAMP</loc>
   </url>
   <url>
-    <loc>https://o-maps.spb.ru/start-details.html?start=ST</loc>
+    <loc>https://o-maps.spb.ru/start-details.html?start=SPRINT_TOUR</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/start-details.html?start=TA</loc>

@@ -586,7 +586,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/51230',
         planner: 'LHMNV',
         fmt: 'смешанный',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         info: 'Сад КП.',
         reskeep: 845,
         split: 'splits/2026/SPB_20260328_2_split.html',
@@ -869,7 +869,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/51902',
         o_gps: 24739,
         fmt: 'спринт',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         info: 'Новая карта. <a href="https://m.vk.com/@sprinttourspb-noname-sprint-tur-2026-15042026-2-etap">Разбор дистанций</a>.',
         photo: 'https://vk.ru/album-92124592_310621060',
         planner: 'SRBRNTSKY',
@@ -1377,7 +1377,7 @@ let events2026 = [
         name: 'Спринт Тур',
         fmt: 'спринт',
         cancelled: true,
-        start: 'ST'
+        start: 'SPRINT_TOUR'
     },
     {
         id: 'SPB_20260523_1',
@@ -1521,7 +1521,7 @@ let events2026 = [
         video: ['https://www.youtube.com/watch?v=ib0wDfvzexc','https://vkvideo.ru/video-238805001_456239023'],
         planner: 'RYKV_A',
         fmt: 'спринт',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'zhaka_djuklo_2023'
     },
     {
@@ -2506,7 +2506,7 @@ let events2026 = [
         place: 'ул Софьи Ковалевской',
         reg: 'https://orgeo.ru/event/55557',
         fmt: 'спринт',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 929,
         info: '<a href="https://vk.ru/@sprinttourspb-1-etap-sprint-tour-spb-osen-2026-24092026-analiz-distancii">Разбор дистанций</a>.',
         photo: 'https://vk.ru/album-92124592_311862732',
@@ -2628,7 +2628,7 @@ let events2026 = [
         name: 'Спринт Тур',
         place: 'Комендантский пр',
         fmt: 'спринт',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         info: 'Новая карта.'
     },
     {
@@ -2749,7 +2749,7 @@ let events2026 = [
         name: 'Спринт Тур',
         place: 'центр города',
         fmt: 'спринт',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         info: 'Памяти Ю.М.Артемьева.'
     },
     {
@@ -2808,7 +2808,7 @@ let events2026 = [
         name: 'Спринт Тур',
         place: 'Озерки',
         fmt: 'спринт',
-        start: 'ST'
+        start: 'SPRINT_TOUR'
     },
     {
         id: 'SPB_20261030_1',

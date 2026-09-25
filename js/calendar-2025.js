@@ -644,7 +644,7 @@ let events2025 = [
         reskeep: 693,
         photo: 'https://vk.com/album-92124592_307010019',
         map: 'akademicheskaya_2023',
-        start: 'ST'
+        start: 'SPRINT_TOUR'
     },
     {
         id: 'SPB_20250501_1',
@@ -950,7 +950,7 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/43938',
         res: 'https://t.me/KuzmolovoDragons/26',
         reskeep: 688,
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         planner: 'GRLNV',
         map: 'drezdenskaya_2023'
     },
@@ -1040,7 +1040,7 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/info/44070',
         reskeep: 703,
         photo: 'https://vk.com/album-92124592_307311265',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         planner: 'RYKV_A',
         map: 'alleya_polikarpova_2024'
     },
@@ -1659,7 +1659,7 @@ let events2025 = [
         photo: 'https://vk.com/album-92124592_308044841',
         map: 'dibunovskaya_2022',
         planner: 'MSLVSKY',
-        start: 'ST'
+        start: 'SPRINT_TOUR'
     },
     {
         id: 'SPB_20250809_1',
@@ -1906,7 +1906,7 @@ let events2025 = [
         reskeep: 792,
         photo: 'https://vk.com/album-92124592_308407207',
         info: 'Новая карта.',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'narvskaya_2025',
         planner: 'CHGRVSKY_M',
         strava: 15765403877,
@@ -2205,7 +2205,7 @@ let events2025 = [
         map: 'pionerskaya_2025_st',
         planner: 'RYKV_A',
         photo: ['https://vk.com/album-92124592_308559130', 'https://disk.yandex.ru/d/AZzu-M9KzcRvyg'],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         info: 'Новая карта. <a href="https://vk.com/@-92124592-noname-sprint-tur-2025-24092025?subtype=primary">Разбор дистанций</a>'
     },
     {

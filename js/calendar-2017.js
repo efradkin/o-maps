@@ -442,7 +442,7 @@ let events2017 = [
         date: '2017-04-12',
         place: 'Приморская',
         name: 'Sprint Tour SPb 2017: 1 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '170412_ST',
         res: 'https://reg.o-time.ru/race/17081'
     },
@@ -492,7 +492,7 @@ let events2017 = [
         place: 'Политехническая',
         name: 'Sprint Tour SPb 2017: 2 этап',
         map: 'politekhnicheskaya_2015',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         res: 'https://reg.o-time.ru/race/17082'
     },
     {
@@ -537,7 +537,7 @@ let events2017 = [
         date: '2017-04-26',
         place: 'Серебряный пруд',
         name: 'Sprint Tour SPb 2017: 3 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'serebrjany_prud_2018',
         res: 'https://reg.o-time.ru/race/17083'
     },
@@ -727,7 +727,7 @@ let events2017 = [
         date: '2017-05-10',
         place: 'ДДЮТ Выборгского р-на',
         name: 'Sprint Tour SPb 2017: 4 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '170412_ST',
         res: 'https://reg.o-time.ru/race/17084'
     },
@@ -781,7 +781,7 @@ let events2017 = [
         date: '2017-05-17',
         place: 'Удельная, Поклонная гора',
         name: 'Sprint Tour SPb 2017: 5 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'berezovy_sad_2016',
         res: 'https://reg.o-time.ru/race/17085'
     },
@@ -875,7 +875,7 @@ let events2017 = [
         date: '2017-05-24',
         place: 'Приморский р-н, ЦПКиО',
         name: 'Sprint Tour SPb 2017: 6 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '170412_ST',
         res: 'https://reg.o-time.ru/race/17086'
     },
@@ -954,7 +954,7 @@ let events2017 = [
         date: '2017-05-31',
         place: 'Бумажная ул',
         name: 'Sprint Tour SPb 2017: 7 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'bumazhnaya_2015',
         res: 'https://reg.o-time.ru/race/17087'
     },
@@ -1385,7 +1385,7 @@ let events2017 = [
         date: '2017-09-06',
         place: 'шк №156',
         name: 'Sprint Tour SPb 2017: 8 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '170412_ST',
         res: 'https://reg.o-time.ru/race/17088'
     },
@@ -1444,7 +1444,7 @@ let events2017 = [
         date: '2017-09-13',
         place: 'парк Политеха',
         name: 'Sprint Tour SPb 2017: 9 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '170412_ST',
         res: 'https://reg.o-time.ru/race/17089'
     },
@@ -1485,7 +1485,7 @@ let events2017 = [
         date: '2017-09-20',
         place: 'Среднеохтинский пр',
         name: 'Sprint Tour SPb 2017: 10 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'big_okhta_2017',
         o_site: '170412_ST',
         res: 'https://reg.o-time.ru/race/17090'
@@ -1622,7 +1622,7 @@ let events2017 = [
         date: '2017-09-30',
         place: 'Приморская',
         name: 'Sprint Tour SPb 2017: 11 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '170412_ST',
         res: 'https://reg.o-time.ru/race/17091'
     },
@@ -1754,7 +1754,7 @@ let events2017 = [
         date: '2017-10-14',
         place: 'Советская ул',
         name: 'Sprint Tour SPb 2017: 12 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '170412_ST',
         res: 'https://reg.o-time.ru/race/17092'
     },

@@ -958,7 +958,7 @@ let runTracks = [
         date: '2022-05-21',
         link: 'https://backyardultra.ru/',
         results: 'https://clck.ru/gMLZA',
-        info: 'ST.PETERSBURG BACKYARD ULTRA – официальная гонка мировой экосистемы BYU.',
+        info: 'SPRINT_TOUR.PETERSBURG BACKYARD ULTRA – официальная гонка мировой экосистемы BYU.',
         gpx: 'tracks/run/snegirevka_byut_2022_omaps.gpx',
         start: 'DIKIYE',
         type: ['RUN']
@@ -968,7 +968,7 @@ let runTracks = [
         date: '2025-05-25',
         link: 'https://backyardultra.ru/',
         results: 'https://reg.o-time.ru/race/25285',
-        info: 'ST.PETERSBURG BACKYARD ULTRA – официальная гонка мировой экосистемы BYU.',
+        info: 'SPRINT_TOUR.PETERSBURG BACKYARD ULTRA – официальная гонка мировой экосистемы BYU.',
         gpx: 'tracks/run/bornitsky_byut_2025_omaps.gpx',
         start: 'DIKIYE',
         type: ['RUN']

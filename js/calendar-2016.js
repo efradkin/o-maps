@@ -314,7 +314,7 @@ let events2016 = [
         date: '2016-04-09',
         place: 'ул Рубинштейна',
         name: 'Sprint Tour SPb 2016: 1 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: '5_uglov_2015',
         o_site: '160409',
         photo: 'https://vk.ru/album-92124592_230362297',
@@ -350,7 +350,7 @@ let events2016 = [
         date: '2016-04-13',
         place: 'Кронштадт',
         name: 'Sprint Tour SPb 2016: 2 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         photo: 'https://vk.ru/album-92124592_230604141',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16068'
@@ -426,7 +426,7 @@ let events2016 = [
         date: '2016-04-20',
         place: 'гимназия №92',
         name: 'Sprint Tour SPb 2016: 3 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16069'
     },
@@ -493,7 +493,7 @@ let events2016 = [
         date: '2016-04-27',
         place: 'Московский р-н',
         name: 'Sprint Tour SPb 2016: 4 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16070'
     },
@@ -651,7 +651,7 @@ let events2016 = [
         date: '2016-05-18',
         place: 'ул Замшина',
         name: 'Sprint Tour SPb 2016: 6 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16072'
     },
@@ -728,7 +728,7 @@ let events2016 = [
         date: '2016-05-25',
         name: 'Sprint Tour SPb 2016: 7 этап',
         place: 'Нарвская',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'narvskaya_2016',
         res: 'https://reg.o-time.ru/race/16073'
     },
@@ -794,7 +794,7 @@ let events2016 = [
         date: '2016-06-01',
         place: 'Пискаревский парк',
         name: 'Sprint Tour SPb 2016: 8 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16074'
     },
@@ -820,7 +820,7 @@ let events2016 = [
         date: '2016-06-08',
         name: 'Sprint Tour SPb 2016: 9 этап',
         place: 'Оккервиль',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         map: 'school_332_2013',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16075'
@@ -1169,7 +1169,7 @@ let events2016 = [
         date: '2016-08-31',
         place: 'Серебряный пруд',
         name: 'Sprint Tour SPb 2016: 10 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16076'
     },
@@ -1197,7 +1197,7 @@ let events2016 = [
         date: '2016-09-07',
         place: 'Удельная',
         name: 'Sprint Tour SPb 2016: 11 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16077'
     },
@@ -1218,7 +1218,7 @@ let events2016 = [
         date: '2016-09-14',
         place: 'Муринский ручей',
         name: 'Sprint Tour SPb 2016: 12 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16078'
     },
@@ -1262,7 +1262,7 @@ let events2016 = [
         date: '2016-09-21',
         place: 'Выборгский ДДЮТ',
         name: 'Sprint Tour SPb 2016: 13 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16079'
     },
@@ -1314,7 +1314,7 @@ let events2016 = [
         date: '2016-09-24',
         place: 'Коломна',
         name: 'Sprint Tour SPb 2016: 14 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16080'
     },
@@ -1351,7 +1351,7 @@ let events2016 = [
         date: '2016-09-28',
         place: 'Нарвская',
         name: 'Sprint Tour SPb 2016: 5 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         o_site: '160409',
         res: 'https://reg.o-time.ru/race/16071'
     },
@@ -1430,7 +1430,7 @@ let events2016 = [
         date: '2016-10-08',
         place: 'Чкаловская',
         name: 'Sprint Tour SPb 2016: 15 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         res: [
             'https://o-site.spb.ru/_races/160409/161008_res.htm',
             'https://reg.o-time.ru/race/16081'

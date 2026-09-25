@@ -321,7 +321,7 @@ let events2020 = [
         date: '2020-03-11',
         place: 'Полюстровский проспект',
         name: 'Sprint Tour SPb - 2020. 1 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 322,
         photo: 'https://vk.ru/album-92124592_270983639'
     },
@@ -1022,7 +1022,7 @@ let events2020 = [
         date: '2020-09-09',
         place: 'м Новочеркасская',
         name: 'Sprint Tour SPb - 2020. 2 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 363,
         map: 'novocherkasskaya_2020',
         photo: 'https://vk.ru/album-92124592_274798090'
@@ -1195,7 +1195,7 @@ let events2020 = [
         date: '2020-09-23',
         place: 'ул Бутлерова',
         name: 'Sprint Tour SPb - 2020. 3 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 327,
         photo: 'https://vk.ru/album-92124592_275019777'
     },
@@ -1405,7 +1405,7 @@ let events2020 = [
         date: '2020-10-17',
         place: 'Удельная, ул Нежинская',
         name: 'Sprint Tour SPb - 2020. 4 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 387,
         photo: 'https://vk.ru/album-92124592_275383837'
     },
@@ -1501,7 +1501,7 @@ let events2020 = [
         place: 'м Академическая',
         map: 'school_470_2020',
         name: 'Sprint Tour SPb - 2020. 5 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 388,
         strava: 4265390438,
         photo: 'https://vk.ru/album-92124592_275618757'

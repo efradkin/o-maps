@@ -890,7 +890,7 @@ let forestMaps = [
     {
         name: 'Парголовская лыжная трасса',
         year: 2021,
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         url: './maps/forest/pargolovo_2021.webp',
         link: './original_maps/forest/pargolovo_2021_omaps.gif',
         bounds: [[60.080117, 30.2763891], [60.0785222, 30.2932334], [60.0738231, 30.2736425]],

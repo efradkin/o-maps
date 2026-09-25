@@ -29,7 +29,7 @@ let cityMaps = [
         reskeep: 586,
         bounds: [[60.0063026, 30.4215074], [60.0049403, 30.441699], [59.9994046, 30.4197478]],
         author: 'DBRTSV_V',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'NW',
         type: ['CITY','PARK']
     },
@@ -50,7 +50,7 @@ let cityMaps = [
         reskeep: 388,
         bounds: [[60.0108075, 30.3893852], [60.0095205, 30.4036331], [60.0007027, 30.3853941]],
         author: 'CHGRVSKY_M',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -62,7 +62,7 @@ let cityMaps = [
         reskeep: 485,
         bounds: [[60.0209629, 30.3874111], [60.0192151, 30.4040837], [60.0140464, 30.3849006]],
         author: 'CHGRVSKY_Y',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -74,7 +74,7 @@ let cityMaps = [
         reskeep: 519,
         bounds: [[60.0261412, 30.3871536], [60.0238899, 30.4074311], [60.0189149, 30.3848577]],
         author: 'CHGRVSKY_Y',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -86,7 +86,7 @@ let cityMaps = [
         reskeep: 564,
         bounds: [[60.0084264, 30.398891], [60.007386, 30.4097378], [60.0004613, 30.3964663]],
         author: 'DBRTSV_V',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['SPRINT','CITY']
     },
@@ -137,7 +137,7 @@ let cityMaps = [
         bounds: [[59.9774779, 30.3892994], [59.9777892, 30.4021096], [59.9710356, 30.3900933]],
         author: 'SHRNN',
         owner: ['SHRNN','SHEIN'],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
     {
@@ -148,7 +148,7 @@ let cityMaps = [
         bounds: [[60.0355738, 30.3288317], [60.0355738, 30.3440881], [60.0305791, 30.32866]],
         author: 'SHRNN',
         owner: 'SHEIN',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
     {
@@ -160,7 +160,7 @@ let cityMaps = [
         bounds: [[60.0479392, 30.4031825], [60.0469857, 30.4180527], [60.0424536, 30.4022598]],
         author: 'SHRNN',
         owner: 'SHEIN',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
     {
@@ -176,7 +176,7 @@ let cityMaps = [
     {
         name: 'Дрезденская ул',
         year: 2023,
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         url: './maps/city/drezdenskaya_2023.webp',
         link: ['./original_maps/city/drezdenskaya_2023_omaps.jpg','./original_maps/city/gdanskaya_2025.jpg'],
         bounds: [[60.0226355, 30.3214931], [60.0204804, 30.3426933], [60.0134995, 30.3178453]],
@@ -192,7 +192,7 @@ let cityMaps = [
         bounds: [[59.9249365, 30.4807734], [59.9236246, 30.4973602], [59.9155047, 30.4773188]],
         author: 'MNKV',
         owner: 'SHEIN',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
     {
@@ -201,7 +201,7 @@ let cityMaps = [
         url: './maps/city/school_332_2021.webp',
         link: ['./original_maps/city/solidarnosty_2021_st_omaps.gif','./original_maps/city/solidarnosty_2013_omaps.ocd'],
         bounds: [[59.9248935, 30.4814601], [59.9236031, 30.4957938], [59.9160209, 30.4785419]],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         author: ['MNKV','MSLVA'],
         owner: 'SHEIN',
         type: ['CITY']
@@ -264,7 +264,7 @@ let cityMaps = [
         bounds: [[59.909061, 30.2617979], [59.9090395, 30.2760458], [59.9010882, 30.2624416]],
         author: 'RYLOV_V',
         owner: 'SHEIN',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
     {
@@ -276,7 +276,7 @@ let cityMaps = [
         bounds: [[59.9744394, 30.3392601], [59.9740421, 30.3512549], [59.9704664, 30.3387022]],
         author: 'SHRNN',
         owner: ['SHRNN','SHEIN'],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
     {
@@ -285,7 +285,7 @@ let cityMaps = [
         url: './maps/city/udelnaya_2015.webp',
         link: './original_maps/city/udelnaya_2020_st_omaps.gif',
         bounds: [[60.0180356, 30.3146696], [60.0163199, 30.3321362], [60.003771, 30.3103781]],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         author: 'DBRTSV_V',
         owner: 'SHEIN',
         type: ['CITY']
@@ -297,7 +297,7 @@ let cityMaps = [
         link: './original_maps/city/lomonosovskaya_2015_omaps.jpg',
         bounds: [[59.8806254, 30.4345751], [59.8794625, 30.4520416], [59.8704162, 30.4301977]],
         author: 'MNKV',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -309,7 +309,7 @@ let cityMaps = [
         bounds: [[60.0256266, 30.3672838], [60.0253479, 30.384922], [60.0101426, 30.3678846]],
         author: 'SHRNN',
         owner: ['SHRNN','SHEIN'],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
     {
@@ -318,7 +318,7 @@ let cityMaps = [
         url: './maps/city/narvskaya_2016.webp',
         link: ['./original_maps/city/narvskaya_2016_omaps.jpg','./original_maps/city/narvskaya_clean_omaps.jpg'],
         bounds: [[59.8989252, 30.2590942], [59.8988821, 30.2757025], [59.8934793, 30.2590084]],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY'],
         author: 'ZSLNKN'
@@ -329,7 +329,7 @@ let cityMaps = [
         url: './maps/city/narvskaya_2025.webp',
         link: './original_maps/city/narvskaya_2025_omaps.gif',
         bounds: [[59.9003995, 30.2609396], [59.898753, 30.2771831], [59.89377, 30.2579784]],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZM_CHGRVSKY',
         type: ['CITY'],
         author: 'ZCHNV'
@@ -342,7 +342,7 @@ let cityMaps = [
         reskeep: 516,
         bounds: [[59.9293128, 30.4014874], [59.9276892, 30.4213786], [59.9222589, 30.3989768]],
         author: 'DBRTSV_V',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -353,7 +353,7 @@ let cityMaps = [
         link: ['./original_maps/city/okkervil_2021_st_omaps.gif','./original_maps/city/okkervil_2024_st_omaps.gif'],
         bounds: [[59.9320221, 30.4175377], [59.9319146, 30.4342961], [59.9253021, 30.4173017]],
         author: 'RDNV_B',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -384,7 +384,7 @@ let cityMaps = [
         url: './maps/city/ozerki_2013.webp',
         link: './original_maps/city/ozerki_2019_st_omaps.gif',
         bounds: [[60.0451965, 30.3157425], [60.0443072, 30.3291106], [60.0348664, 30.3118801]],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         author: 'MNKV',
         owner: 'SHEIN',
         type: ['CITY']
@@ -407,7 +407,7 @@ let cityMaps = [
         bounds: [[59.9499067, 30.2156639], [59.9484024, 30.2331734], [59.9402993, 30.212059]],
         author: 'MNKV',
         owner: 'SHEIN',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
     {
@@ -438,7 +438,7 @@ let cityMaps = [
         bounds: [[59.9566969, 30.2966022], [59.9567936, 30.3077173], [59.9508093, 30.2965379]],
         author: 'RDNV_B',
         owner: 'RDNV_B',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
 /*
@@ -477,7 +477,7 @@ let cityMaps = [
         url: './maps/city/ljubashinsky_sad_2016.webp',
         link: './original_maps/city/ljubashinsky_sad_2020_st_omaps.gif',
         bounds: [[59.9717336, 30.3953719], [59.9702624, 30.4114652], [59.9647209, 30.3926468]],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         author: 'DBRTSV_V',
         owner: 'SHEIN',
         type: ['CITY']
@@ -550,7 +550,7 @@ let cityMaps = [
         link: ['./original_maps/city/serebrjany_prud_st_2017_04_26_omaps.webp','./original_maps/city/serebrjany_prud_2018_st_omaps.gif'],
         bounds: [[60.0089413, 30.3300333], [60.007268, 30.3507185], [60.0019043, 30.3283596]],
         author: 'MNKV',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'SHEIN',
         type: ['CITY']
     },
@@ -560,7 +560,7 @@ let cityMaps = [
         url: './maps/city/vyborgsky_ddjut_2017.webp',
         link: './original_maps/city/santjago_de_kuba_2022_st_omaps.gif',
         bounds: [[60.0397318, 30.343616], [60.0398604, 30.3566837], [60.0309865, 30.3432083]],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         author: 'SRBRNTSKY',
         owner: 'SHEIN',
         type: ['CITY']
@@ -591,7 +591,7 @@ let cityMaps = [
         link: './original_maps/city/kosmonavtov_2013_omaps.jpg',
         bounds: [[59.8653859, 30.3483582], [59.8658598, 30.359087], [59.8559155, 30.349946]],
         author: ['FDRV_L','SHEIN'],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -601,7 +601,7 @@ let cityMaps = [
         url: './maps/city/5_uglov_2015.webp',
         link: ['./original_maps/city/5_uglov_st_2016_04_09_omaps.webp','./original_maps/city/5_uglov_2019_st_omaps.gif'],
         bounds: [[59.9334842, 30.3379512], [59.9327102, 30.3489161], [59.926743, 30.3356767]],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY'],
         author: 'YGNV',
         owner: 'SHEIN'
@@ -636,7 +636,7 @@ let cityMaps = [
         bounds: [[59.946898, 30.3375649], [59.946855, 30.3490233], [59.9420082, 30.3375006]],
         author: 'RYLOV_V',
         owner: 'SHEIN',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
     {
@@ -647,7 +647,7 @@ let cityMaps = [
         bounds: [[59.9488752, 30.3775406], [59.9488859, 30.3914666], [59.9422231, 30.3775406]],
         author: 'RYLOV_V',
         owner: 'SHEIN',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
     {
@@ -698,7 +698,7 @@ let cityMaps = [
         bounds: [[59.9694033, 30.2945852], [59.967771, 30.3128672], [59.9585124, 30.2905941]],
         author: 'DBRTSV_V',
         owner: 'SHEIN',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
     {
@@ -707,7 +707,7 @@ let cityMaps = [
         url: './maps/city/berezovy_sad_2016.webp',
         link: ['./original_maps/city/poklonnaya_gora_st_2017_05_17_omaps.webp','./original_maps/city/poklonnaya_gora_2021_st_omaps.gif'],
         bounds: [[60.0304291, 30.3123093], [60.0292821, 30.3253555], [60.0183788, 30.308125]],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'SHEIN',
         type: ['CITY'],
         author: 'DBRTSV_V'
@@ -720,7 +720,7 @@ let cityMaps = [
         bounds: [[59.9596511, 30.4112506], [59.9583728, 30.42449], [59.9441469, 30.4057145]],
         author: 'DBRTSV_V',
         owner: 'SHEIN',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
 /*
@@ -909,7 +909,7 @@ let cityMaps = [
     {
         name: 'Универсам САМПО',
         year: 2024,
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         url: './maps/city/sampo_2024.webp',
         link: './original_maps/city/sampo_2024_st_omaps.gif',
         bounds: [[60.0300432, 30.3643227], [60.028521, 30.3840637], [60.0230322, 30.3623056]],
@@ -924,7 +924,7 @@ let cityMaps = [
         link: './original_maps/city/litsey_179_2019_st_omaps.gif',
         bounds: [[60.0464393, 30.4130316], [60.0455608, 30.4273653], [60.0363454, 30.4096842]],
         author: ['MSPN','SMV'],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
     {
@@ -934,7 +934,7 @@ let cityMaps = [
         link: ['./original_maps/city/dibunovskaya_2022_st_omaps.gif','./original_maps/city/dibunovskaya_st_2025_08_05_omaps.webp'],
         bounds: [[59.989307, 30.2712607], [59.9879279, 30.2863884], [59.9840155, 30.2693725]],
         author: 'DBRTSV_V',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -945,7 +945,7 @@ let cityMaps = [
         link: ['./original_maps/city/zhaka_djuklo_2023_st_omaps.gif','./original_maps/city/zhaka_djuklo_2026_05_27_st_omaps.gif'],
         bounds: [[60.0145826, 30.3459549], [60.0122983, 30.3657818], [60.0074503, 30.3432298]],
         author: 'CHGRVSKY_Y',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -957,7 +957,7 @@ let cityMaps = [
         reskeep: 603,
         bounds: [[60.0167381, 30.4165292], [60.0166416, 30.4305625], [60.0068282, 30.4165077]],
         author: 'SRBRNTSKY',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -969,7 +969,7 @@ let cityMaps = [
         reskeep: 540,
         bounds: [[60.0119337, 30.4038692], [60.0097886, 30.4243183], [60.0047686, 30.4009724]],
         author: 'SRBRNTSKY',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -981,7 +981,7 @@ let cityMaps = [
         bounds: [[60.019762, 30.3561687], [60.0193653, 30.3695583], [60.0098315, 30.3545809]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         type: ['CITY']
     },
     {
@@ -1002,14 +1002,14 @@ let cityMaps = [
         reskeep: 488,
         bounds: [[60.000456, 30.3084683], [59.9977952, 30.3193259], [59.9923441, 30.3010011]],
         author: 'CHGRVSKY_M',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
         name: 'Гимназия №74',
         year: 2018,
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         url: './maps/city/gimnazia_74_2018.webp',
         link: ['./original_maps/city/muzhestva_2018_st.pdf','./original_maps/city/gimnazia_74_2018_omaps.ocd'],
         calendar: 'SPB_20180905_1',
@@ -1036,7 +1036,7 @@ let cityMaps = [
         reskeep: 487,
         bounds: [[60.0447037, 30.3236389], [60.0436429, 30.3373075], [60.0346521, 30.3201199]],
         author: ['SRBRNTSKY','RDNV_B'],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -1048,7 +1048,7 @@ let cityMaps = [
         reskeep: 555,
         bounds: [[60.0023656, 30.3141332], [59.9994475, 30.3266215], [59.9932777, 30.305593]],
         author: 'CHGRVSKY_M',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -1058,7 +1058,7 @@ let cityMaps = [
         url: './maps/city/egorovoy_2026.webp',
         link: ['./original_maps/city/egorovoy_2026_omaps.gif','./original_maps/city/egorovoy_2026_04_15_st_omaps.webp'],
         bounds: [[60.0651831, 30.3049278], [60.0636465, 30.3194654], [60.0584205, 30.3020096]],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         author: 'SVCHK',
         owner: 'SVCHK',
         type: ['CITY','SPRINT']
@@ -1071,7 +1071,7 @@ let cityMaps = [
         reskeep: 666,
         bounds: [[60.0534668, 30.3286171], [60.0520422, 30.3421354], [60.0435572, 30.3243685]],
         author: 'SVCHK',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'RKVA_S',
         type: ['CITY']
     },
@@ -1083,7 +1083,7 @@ let cityMaps = [
         reskeep: 587,
         bounds: [[59.9609186, 30.420928], [59.9589206, 30.4398108], [59.9543334, 30.4180098]],
         author: 'RDNV_B',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: ['RDNV_B','RDNV_I'],
         type: ['CITY']
     },
@@ -1094,14 +1094,14 @@ let cityMaps = [
         link: './original_maps/schools/school_535_2019_st_omaps.gif',
         bounds: [[60.0189149, 30.4127097], [60.0186468, 30.4334164], [60.0117728, 30.4127312]],
         author: 'SRBRNTSKY',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
         name: 'Учительская ул',
         year: 2019,
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         url: './maps/city/uchitelskaya_2019.webp',
         link: './original_maps/city/uchitelskaya_2019_st_omaps.gif',
         bounds: [[60.0348236, 30.3926897], [60.0329372, 30.4078603], [60.0280279, 30.3892136]],
@@ -1117,7 +1117,7 @@ let cityMaps = [
         reskeep: 489,
         bounds: [[59.9696288, 30.288105], [59.9686946, 30.2986407], [59.9620035, 30.2854228]],
         author: 'SRBRNTSKY',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -1129,7 +1129,7 @@ let cityMaps = [
         reskeep: 621,
         bounds: [[59.9895807, 30.2845645], [59.9884699, 30.2969563], [59.9843698, 30.282644]],
         author: 'DBRTSV_V',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -1140,7 +1140,7 @@ let cityMaps = [
         link: ['./original_maps/city/polikarpova_2024_st_omaps.gif','./original_maps/city/polikarpova_2025_st_omaps.jpg'],
         bounds: [[60.0109684, 30.2836847], [60.0092416, 30.3005719], [60.004715, 30.2813029]],
         author: 'CHGRVSKY_Y',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZMOLOVO',
         type: ['CITY']
     },
@@ -1151,7 +1151,7 @@ let cityMaps = [
         link: './original_maps/city/pionerskaya_2025_st_omaps.gif',
         bounds: [[60.0051763, 30.2812171], [60.0034277, 30.2984262], [59.999544, 30.2787924]],
         author: 'CHGRVSKY_Y',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'KUZM_CHGRVSKY',
         type: ['CITY']
     },
@@ -1305,7 +1305,7 @@ let cityMaps = [
         url: './maps/city/parkhomenko_2018.webp',
         link: ['./original_maps/city/parkhomenko_omaps.jpg','./original_maps/city/parkhomenko_2018_omaps.ocd','./original_maps/city/parkhomenko_2021_st_omaps.gif'],
         bounds: [[60.0032775, 30.3274369], [60.0032131, 30.3404617], [59.9997801, 30.327394]],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         author: 'SHRNN',
         owner: 'SHRNN',
         type: ['CITY']
@@ -1403,7 +1403,7 @@ let cityMaps = [
         link: './original_maps/city/vo_18l_2018_st_omaps.gif',
         bounds: [[59.9406432, 30.2619481], [59.9395254, 30.274179], [59.9345807, 30.2596951]],
         author: ['MNKV','SRBRNTSKY'],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         owner: 'SHEIN',
         type: ['CITY']
     },
@@ -1445,7 +1445,7 @@ let cityMaps = [
         url: './maps/city/lesnaya_kantemirovskaya_2024.webp',
         link: './original_maps/city/lesnaya_kantemirovskaya_2019_st_omaps.gif',
         bounds: [[59.9866882, 30.3429079], [59.9856685, 30.3559756], [59.9780898, 30.3400111]],
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         author: 'GRBTNKV',
         owner: 'WN',
         type: ['CITY']

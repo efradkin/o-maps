@@ -190,7 +190,7 @@ let starts = {
         page: 'starts',
         planner: 'GBNV_V'
     },
-    ST: {
+    SPRINT_TOUR: {
         short: 'Спринт-Тур',
         name: '<a href="https://vk.com/sprinttourspb">Спринт-Тур</a>',
         link: 'https://vk.com/sprinttourspb',

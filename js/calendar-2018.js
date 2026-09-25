@@ -1392,7 +1392,7 @@ let events2018 = [
         date: '2018-09-05',
         place: 'Среднеохтинский пр',
         name: 'Sprint Tour SPb 2018. 1 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 24,
         map: 'big_okhta_2017',
         photo: 'https://vk.ru/album-92124592_256239367'
@@ -1449,7 +1449,7 @@ let events2018 = [
         date: '2018-09-12',
         place: 'Выборгский р-н',
         name: 'Sprint Tour SPb 2018. 2 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 31,
         photo: 'https://vk.ru/album-92124592_256413075'
     },
@@ -1505,7 +1505,7 @@ let events2018 = [
         date: '2018-09-19',
         place: 'Серебряный пруд',
         name: 'Sprint Tour SPb 2018. 3 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 40,
         map: 'serebrjany_prud_2018',
         photo: 'https://vk.ru/album-92124592_256560277'
@@ -1743,7 +1743,7 @@ let events2018 = [
         date: '2018-10-06',
         place: 'Васильевский о-в',
         name: 'Sprint Tour SPb 2018. 4 этап',
-        start: 'ST',
+        start: 'SPRINT_TOUR',
         reskeep: 58,
         photo: 'https://vk.ru/album-92124592_256957030'
     },
