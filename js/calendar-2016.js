@@ -271,17 +271,6 @@ let events2016 = [
         o_site: '160326'
     },
     {
-        id: 'SPB_20160401_1',
-        date: '2016-04-01',
-        name: 'Sprint Tour SPb 2016: 15 этап',
-        reg: 'http://o-time.ru',
-        res: 'https://o-site.spb.ru/_races/160409/161008_res.htm',
-        info: 'Серия тренировочных стартов в дисциплине "спринт"',
-        start: 'ST',
-        o_site: '160409',
-        // endDate: '2016-10-31'
-    },
-    {
         id: 'SPB_20160401_2',
         date: '2016-04-01',
         name: 'Кузьмоловские старты',
@@ -324,7 +313,7 @@ let events2016 = [
         id: 'SPB_20160409_2',
         date: '2016-04-09',
         place: 'ул Рубинштейна',
-        name: 'Sprint Tour SPb',
+        name: 'Sprint Tour SPb 2016: 1 этап',
         start: 'ST',
         map: '5_uglov_2015',
         photo: 'https://vk.ru/album-92124592_230362297'
@@ -353,6 +342,15 @@ let events2016 = [
         start: 'WEEKLY_ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2016/04/weekly-orient-7-%D1%8D%D1%82%D0%B0%D0%BF-%D1%81%D0%BF%D0%BB%D0%B8%D1%82%D1%8B.htm',
         o_site: '150908'
+    },
+    {
+        id: 'SPB_20160417_1',
+        date: '2016-04-13',
+        place: 'Кронштадт',
+        name: 'Sprint Tour SPb 2016: 2 этап',
+        start: 'ST',
+        photo: 'https://vk.ru/album-92124592_230604141',
+        o_site: '160409'
     },
     {
         id: 'SPB_20160416_1',
@@ -395,13 +393,6 @@ let events2016 = [
         start: 'YM_CUP'
     },
     {
-        id: 'SPB_20160417_1',
-        date: '2016-04-17',
-        name: 'Sprint Tour SPb 2016: 2 этап',
-        start: 'ST',
-        photo: 'https://vk.ru/album-92124592_230604141'
-    },
-    {
         id: 'SPB_20160419_1',
         date: '2016-04-19',
         place: 'Осиновая Роща',
@@ -426,6 +417,14 @@ let events2016 = [
         o_site: '160420',
         map: 'pushkin_school_645',
         start: 'SCHOOL'
+    },
+    {
+        id: 'SPB_20160420_2',
+        date: '2016-04-20',
+        place: 'гимназия №92',
+        name: 'Sprint Tour SPb 2016: 3 этап',
+        start: 'ST',
+        o_site: '160409'
     },
     {
         id: 'SPB_20160424_1',
@@ -484,6 +483,14 @@ let events2016 = [
         o_site: '160427',
         map: 'school_559_2016',
         start: 'SCHOOL'
+    },
+    {
+        id: 'SPB_20160427_2',
+        date: '2016-04-27',
+        place: 'Московский р-н',
+        name: 'Sprint Tour SPb 2016: 4 этап',
+        start: 'ST',
+        o_site: '160409'
     },
     {
         id: 'SPB_20160429_1',
@@ -568,6 +575,14 @@ let events2016 = [
         o_site: '160411'
     },
     {
+        id: 'SPB_20160511_2',
+        date: '2016-05-11',
+        place: 'Нарвская',
+        name: 'Sprint Tour SPb 2016: 5 этап',
+        start: 'ST',
+        o_site: '160409'
+    },
+    {
         id: 'SPB_20160514_1',
         date: '2016-05-14',
         place: 'Всеволожск',
@@ -633,6 +648,14 @@ let events2016 = [
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
         owner: 'SFSO_SPB',
         o_site: '160518'
+    },
+    {
+        id: 'SPB_20160518_2',
+        date: '2016-05-18',
+        place: 'ул Замшина',
+        name: 'Sprint Tour SPb 2016: 6 этап',
+        start: 'ST',
+        o_site: '160409'
     },
     {
         id: 'SPB_20160521_1',
@@ -705,7 +728,7 @@ let events2016 = [
     {
         id: 'SPB_20160525_1',
         date: '2016-05-25',
-        name: 'Sprint Tour SPb 2016',
+        name: 'Sprint Tour SPb 2016: 7 этап',
         place: 'Нарвская',
         start: 'ST',
         map: 'narvskaya_2016'
@@ -766,6 +789,14 @@ let events2016 = [
         name: 'Слингорогейн',
         type: 'ROGAINE',
         video: 'https://www.youtube.com/watch?v=s1qIQFxYzyQ'
+    },
+    {
+        id: 'SPB_20160601_1',
+        date: '2016-06-01',
+        place: 'Пискаревский парк',
+        name: 'Sprint Tour SPb 2016: 8 этап',
+        start: 'ST',
+        o_site: '160409'
     },
     {
         id: 'SPB_20160604_1',
@@ -1132,6 +1163,14 @@ let events2016 = [
         o_site: '160828_'
     },
     {
+        id: 'SPB_20160831_1',
+        date: '2016-08-31',
+        place: 'Серебряный пруд',
+        name: 'Sprint Tour SPb 2016: 10 этап',
+        start: 'ST',
+        o_site: '160409'
+    },
+    {
         id: 'SPB_20160903_1',
         date: '2016-09-03',
         place: 'оз Хепоярви',
@@ -1151,6 +1190,14 @@ let events2016 = [
         o_site: '160904_tren'
     },
     {
+        id: 'SPB_20160907_1',
+        date: '2016-09-07',
+        place: 'Удельная',
+        name: 'Sprint Tour SPb 2016: 11 этап',
+        start: 'ST',
+        o_site: '160409'
+    },
+    {
         id: 'SPB_20160911_1',
         date: '2016-09-11',
         place: 'Журавки, Симагино',
@@ -1161,6 +1208,14 @@ let events2016 = [
         info: '7-е традиционные соревнования "Классика Белых Ночей" на призы компании "Триколор"',
         owner: 'WN',
         o_site: '160911_T'
+    },
+    {
+        id: 'SPB_20160914_1',
+        date: '2016-09-14',
+        place: 'Муринский ручей',
+        name: 'Sprint Tour SPb 2016: 12 этап',
+        start: 'ST',
+        o_site: '160409'
     },
     {
         id: 'SPB_20160917_1',
@@ -1196,6 +1251,14 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160918/160918_res_.htm',
         split: 'splits/2016/SPB_20160918_1_split.htm',
         o_site: '160918'
+    },
+    {
+        id: 'SPB_20160921_1',
+        date: '2016-09-21',
+        place: 'Выборгский ДДЮТ',
+        name: 'Sprint Tour SPb 2016: 13 этап',
+        start: 'ST',
+        o_site: '160409'
     },
     {
         id: 'SPB_20160924_1',
@@ -1239,6 +1302,14 @@ let events2016 = [
         type: 'TOURISM',
         start: 'MB',
         map: 'borovinka_2012'
+    },
+    {
+        id: 'SPB_20160924_4',
+        date: '2016-09-24',
+        place: 'Коломна',
+        name: 'Sprint Tour SPb 2016: 14 этап',
+        start: 'ST',
+        o_site: '160409'
     },
     {
         id: 'SPB_20160925_1',
@@ -1337,6 +1408,15 @@ let events2016 = [
         fmt: '6 и 3 час., бег и вело',
         link: 'http://gornycross.narod.ru',
         start: 'GORNY_CROSS'
+    },
+    {
+        id: 'SPB_20161008_3',
+        date: '2016-10-08',
+        place: 'Чкаловская',
+        name: 'Sprint Tour SPb 2016: 15 этап',
+        start: 'ST',
+        res: 'https://o-site.spb.ru/_races/160409/161008_res.htm',
+        o_site: '160409'
     },
     {
         id: 'SPB_20161009_1',

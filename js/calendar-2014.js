@@ -253,14 +253,6 @@ let events2014 = [
         o_site: '140323_OR'
     },
     {
-        id: 'SPB_20140401_1',
-        date: '2014-04-01',
-        name: 'Sprint Tour SPb 2014',
-        res: 'http://o-site.spb.ru/_races/140409/140409_res.htm',
-        start: 'ST',
-        o_site: '140409'
-    },
-    {
         id: 'SPB_20140401_2',
         date: '2014-04-01',
         name: 'Кузьмоловские старты - 15 этап',
@@ -289,7 +281,8 @@ let events2014 = [
     {
         id: 'SPB_20140409_1',
         date: '2014-04-09',
-        name: 'Sprint Tour SPb 2014, 1-й этап',
+        place: 'гимназия №92',
+        name: 'Sprint Tour SPb 2014: 1 этап',
         start: 'ST',
         res: 'http://o-site.spb.ru/_races/140409/140409_res.htm',
         o_site: '140409'
@@ -349,7 +342,8 @@ let events2014 = [
     {
         id: 'SPB_20140416_2',
         date: '2014-04-16',
-        name: 'Sprint Tour SPb 2014, 2-й этап',
+        place: 'лицей №176',
+        name: 'Sprint Tour SPb 2014: 2 этап',
         start: 'ST',
         res: 'http://o-site.spb.ru/_races/140409/160414_split.htm',
         o_site: '140409'
@@ -436,7 +430,8 @@ let events2014 = [
     {
         id: 'SPB_20140507_1',
         date: '2014-05-07',
-        name: 'Sprint Tour SPb 2014, 3-й этап',
+        place: 'Кронштадт',
+        name: 'Sprint Tour SPb 2014: 3 этап',
         start: 'ST',
         res: 'http://o-site.spb.ru/_races/140409/140507_split.htm',
         o_site: '140409'
@@ -486,10 +481,11 @@ let events2014 = [
         id: 'SPB_20140514_2',
         date: '2014-05-14',
         place: 'Политехническая',
-        name: 'Sprint Tour SPb 2014, 4 этап',
+        name: 'Sprint Tour SPb 2014: 4 этап',
         res: 'http://o-site.spb.ru/_races/140409/140514_split.htm',
         start: 'ST',
-        map: 'politekhnicheskaya_2015'
+        map: 'politekhnicheskaya_2015',
+        o_site: '140409'
     },
     {
         id: 'SPB_20140515_1',
@@ -571,7 +567,8 @@ let events2014 = [
     {
         id: 'SPB_20140521_2',
         date: '2014-05-21',
-        name: 'Sprint Tour SPb 2014, 5-й этап',
+        place: 'шк №145',
+        name: 'Sprint Tour SPb 2014: 5 этап',
         res: 'http://o-site.spb.ru/_races/140409/140521_split.htm',
         o_site: '140409',
         start: 'ST',
@@ -642,6 +639,14 @@ let events2014 = [
         o_site: '140323_OR'
     },
     {
+        id: 'SPB_20140528_1',
+        date: '2014-05-28',
+        place: 'парк Есенина',
+        name: 'Sprint Tour SPb 2014: 6 этап',
+        start: 'ST',
+        o_site: '140409'
+    },
+    {
         id: 'SPB_20140529_1',
         date: '2014-05-29',
         place: 'Куялово',
@@ -684,6 +689,14 @@ let events2014 = [
         split: 'splits/2014/SPB_20140601_1_split.htm',
         start: 'ROGAINE_110',
         o_site: '140601'
+    },
+    {
+        id: 'SPB_20140604_1',
+        date: '2014-06-04',
+        place: 'Озерки',
+        name: 'Sprint Tour SPb 2014: 7 этап',
+        start: 'ST',
+        o_site: '140409'
     },
     {
         id: 'SPB_20140605_1',
@@ -1105,6 +1118,14 @@ let events2014 = [
         o_site: '140323_OR'
     },
     {
+        id: 'SPB_20140910_1',
+        date: '2014-09-10',
+        place: 'школа №2',
+        name: 'Sprint Tour SPb 2014: 8 этап',
+        start: 'ST',
+        o_site: '140409'
+    },
+    {
         id: 'SPB_20140911_1',
         date: '2014-09-11',
         place: 'Токсово',
@@ -1133,6 +1154,14 @@ let events2014 = [
         owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '140323_OR'
+    },
+    {
+        id: 'SPB_20140917_1',
+        date: '2014-09-17',
+        place: 'Ломоносовская',
+        name: 'Sprint Tour SPb 2014: 9 этап',
+        start: 'ST',
+        o_site: '140409'
     },
     {
         id: 'SPB_20140918_1',
@@ -1187,6 +1216,14 @@ let events2014 = [
         o_site: '140323_OR'
     },
     {
+        id: 'SPB_20140924_1',
+        date: '2014-09-24',
+        place: 'Выборгский р-н',
+        name: 'Sprint Tour SPb 2014: 10 этап',
+        start: 'ST',
+        o_site: '140409'
+    },
+    {
         id: 'SPB_20140925_1',
         date: '2014-09-25',
         place: 'Кузьмолово',
@@ -1223,6 +1260,14 @@ let events2014 = [
         map: 'kanneljarvy_ba_2014',
         start: 'BA',
         owner: 'BKTV'
+    },
+    {
+        id: 'SPB_20140927_3',
+        date: '2014-09-27',
+        place: 'Коломна',
+        name: 'Sprint Tour SPb 2014: 11 этап',
+        start: 'ST',
+        o_site: '140409'
     },
     {
         id: 'SPB_20140929_1',
@@ -1336,6 +1381,14 @@ let events2014 = [
         ],
         start: 'OKINCHITSA',
         o_site: '14101112'
+    },
+    {
+        id: 'SPB_20141011_2',
+        date: '2014-10-11',
+        place: 'школа №575',
+        name: 'Sprint Tour SPb 2014: 12 этап',
+        start: 'ST',
+        o_site: '140409'
     },
     {
         id: 'SPB_20141012_1',
