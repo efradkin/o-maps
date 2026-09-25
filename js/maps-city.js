@@ -953,7 +953,7 @@ let cityMaps = [
         name: 'ул Карпинского',
         year: 2023,
         url: './maps/city/karpinskogo_2019.webp',
-        link: ['./original_maps/city/karpinskogo_2019_st_omaps.gif','./original_maps/city/karpinskogo_2023_st_omaps.gif'],
+        link: ['./original_maps/city/karpinskogo_2019_st_omaps.gif','./original_maps/city/karpinskogo_2023_st_omaps.gif','./original_maps/city/karpinskogo_2026_st_omaps.gif'],
         reskeep: 603,
         bounds: [[60.0167381, 30.4165292], [60.0166416, 30.4305625], [60.0068282, 30.4165077]],
         author: 'SRBRNTSKY',

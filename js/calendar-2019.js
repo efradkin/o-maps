@@ -1605,7 +1605,8 @@ let events2019 = [
         place: 'ул Карпинского',
         name: 'Sprint Tour SPb - осень 2019. 2 этап',
         start: 'ST',
-        reskeep: 196
+        reskeep: 196,
+        map: 'karpinskogo_2019'
     },
     {
         id: 'SPB_20190926_1',

@@ -369,6 +369,13 @@ let events2015 = [
         start: 'SCHOOL'
     },
     {
+        id: 'SPB_20150422_2',
+        date: '2015-04-22',
+        name: 'Sprint Tour SPb 2015: 3 этап',
+        photo: 'https://vk.ru/album-92124592_214480868',
+        start: 'ST'
+    },
+    {
         id: 'SPB_20150426_1',
         date: '2015-04-26',
         place: 'Сосновый бор',
@@ -472,6 +479,13 @@ let events2015 = [
         o_site: '150504'
     },
     {
+        id: 'SPB_20150506_1',
+        date: '2015-05-06',
+        name: 'Sprint Tour SPb 2015: 4 этап',
+        photo: 'https://vk.ru/album-92124592_215056782',
+        start: 'ST'
+    },
+    {
         id: 'SPB_20150509_1',
         date: '2015-05-09',
         place: 'Лемболово',
@@ -528,6 +542,7 @@ let events2015 = [
         place: 'Манеж Алексеева',
         name: 'Sprint Tour SPb 2015: 5 этап',
         start: 'ST',
+        photo: 'https://vk.ru/album-92124592_215387133',
         map: 'manezh_alekseeva_2015'
     },
     {
@@ -625,6 +640,13 @@ let events2015 = [
         o_site: '150520',
         map: 'school_98_2015',
         start: 'SCHOOL'
+    },
+    {
+        id: 'SPB_20150521_1',
+        date: '2015-05-21',
+        name: 'Sprint Tour SPb 2015: 6 этап',
+        start: 'ST',
+        photo: 'https://vk.ru/album-92124592_215741529'
     },
     {
         id: 'SPB_20150523_1',

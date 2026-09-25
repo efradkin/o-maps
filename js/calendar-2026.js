@@ -871,6 +871,7 @@ let events2026 = [
         fmt: 'спринт',
         start: 'ST',
         info: 'Новая карта. <a href="https://m.vk.com/@sprinttourspb-noname-sprint-tur-2026-15042026-2-etap">Разбор дистанций</a>.',
+        photo: 'https://vk.ru/album-92124592_310621060',
         planner: 'SRBRNTSKY',
         reskeep: 880,
         map: 'egorovoy_2026',
@@ -2506,7 +2507,10 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/55557',
         fmt: 'спринт',
         start: 'ST',
-        map: 'school_535_2019'
+        reskeep: 929,
+        info: '<a href="https://vk.ru/@sprinttourspb-1-etap-sprint-tour-spb-osen-2026-24092026-analiz-distancii">Разбор дистанций</a>.',
+        photo: 'https://vk.ru/album-92124592_311862732',
+        map: 'karpinskogo_2019'
     },
     {
         id: 'SPB_20260924_3',
