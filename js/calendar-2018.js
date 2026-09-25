@@ -135,6 +135,23 @@ let events2018 = [
         o_site: '180204_BN'
     },
     {
+        id: 'SPB_20180211_1',
+        date: '2018-02-04',
+        endDate: '2018-02-11',
+        place: 'Зеркальный',
+        name: 'Первенство СДЮСШ ОР №2 СПБ ГДТЮ',
+        type: 'SKI',
+        reg: 'http://o-reg.spb.ru/entry-list?id=834',
+        res: ['https://o-site.spb.ru/_races/180204/180204_res.htm','https://o-site.spb.ru/_races/180204/180211_split.htm'],
+        split: [
+            'splits/2018/SPB_20180211_1_1_split.htm',
+            'splits/2018/SPB_20180211_1_2_split.htm'
+        ],
+        info: 'Соревнования состоятся в районе ЗЦ Зеркальный 04 февраля - Лыжная гонка-спринт 11 февраля - Лыжная гонка-маркированная трасса (с проколами в карте) На соревнования заявки принимаются только от коллективов Санкт-Петербурга.',
+        owner: 'SFSO_SPB',
+        o_site: '180204'
+    },
+    {
         id: 'SPB_20180210_1',
         date: '2018-02-10',
         endDate: '2018-02-11',
@@ -163,23 +180,6 @@ let events2018 = [
         ],
         info: 'Спортсмены, не представившие все необходимые документы в мандатную комиссию, не будут включены в стартовые протоколы и допущены к соревнованиям!',
         o_site: '18021011'
-    },
-    {
-        id: 'SPB_20180211_1',
-        date: '2018-02-04',
-        endDate: '2018-02-11',
-        place: 'Зеркальный',
-        name: 'Первенство СДЮСШ ОР №2 СПБ ГДТЮ',
-        type: 'SKI',
-        reg: 'http://o-reg.spb.ru/entry-list?id=834',
-        res: ['https://o-site.spb.ru/_races/180204/180204_res.htm','https://o-site.spb.ru/_races/180204/180211_split.htm'],
-        split: [
-            'splits/2018/SPB_20180211_1_1_split.htm',
-            'splits/2018/SPB_20180211_1_2_split.htm'
-        ],
-        info: 'Соревнования состоятся в районе ЗЦ Зеркальный 04 февраля - Лыжная гонка-спринт 11 февраля - Лыжная гонка-маркированная трасса (с проколами в карте) На соревнования заявки принимаются только от коллективов Санкт-Петербурга.',
-        owner: 'SFSO_SPB',
-        o_site: '180204'
     },
     {
         id: 'SPB_20180212_1',
@@ -1360,15 +1360,6 @@ let events2018 = [
         o_site: '180901'
     },
     {
-        id: 'SPB_20180901_2',
-        date: '2018-09-01',
-        name: 'Кузьмоловские старты по четвергам',
-        start: 'KUZMOLOVSKY_STARTS',
-        res: 'http://o-site.spb.ru/_races/KS_2018/ResultList13092018.htm',
-        o_site: '2018_KS',
-        map: 'toksovo_malinovaya_gora_2018'
-    },
-    {
         id: 'SPB_20180902_1',
         date: '2018-09-02',
         place: 'Гарболово',
@@ -1457,9 +1448,9 @@ let events2018 = [
         id: 'SPB_20180913_1',
         date: '2018-09-13',
         place: 'Токсово, Изумрудное озеро',
-        name: 'Кузьмоловские старты, 1-й этап',
+        name: 'Кузьмоловские старты, 1 этап',
         start: 'KUZMOLOVSKY_STARTS',
-        res: 'http://o-site.spb.ru/_races/KS_2018/ResultList13092018.htm',
+        res: 'http://o-site.spb.ru/_races/2018_KS/ResultList13092018.htm',
         o_site: '2018_KS'
     },
     {
@@ -1516,8 +1507,9 @@ let events2018 = [
         place: 'Токсово, Малиновая гора',
         name: 'Кузьмоловские старты, 2 этап',
         start: 'KUZMOLOVSKY_STARTS',
-        res: 'http://o-site.spb.ru/_races/KS_2018/ResultList20092018.htm',
+        res: 'http://o-site.spb.ru/_races/2018_KS/ResultList20092018.htm',
         reskeep: 51,
+        o_site: '2018_KS',
         map: 'toksovo_malinovaya_gora_2018'
     },
     {
@@ -1589,8 +1581,9 @@ let events2018 = [
         place: 'Осиновая роща',
         name: 'Кузьмоловские старты, 3 этап',
         start: 'KUZMOLOVSKY_STARTS',
-        res: 'http://o-site.spb.ru/_races/KS_2018/ResultList27092018.html',
-        reskeep: 52
+        res: 'http://o-site.spb.ru/_races/2018_KS/ResultList27092018.html',
+        reskeep: 52,
+        o_site: '2018_KS'
     },
     {
         id: 'SPB_20180929_2',
@@ -1728,8 +1721,9 @@ let events2018 = [
         place: 'Кузьмолово',
         name: 'Кузьмоловские старты, 4 этап',
         start: 'KUZMOLOVSKY_STARTS',
-        res: 'http://o-site.spb.ru/_races/KS_2018/results04102018.htm',
-        reskeep: 71
+        res: 'http://o-site.spb.ru/_races/2018_KS/results04102018.htm',
+        reskeep: 71,
+        o_site: '2018_KS'
     },
     {
         id: 'SPB_20181006_1',
@@ -1800,11 +1794,12 @@ let events2018 = [
     {
         id: 'SPB_20181011_1',
         date: '2018-10-11',
-        place: 'Токсово',
+        place: 'Токсово, СКА',
         name: 'Кузьмоловские старты, 5 этап',
         start: 'KUZMOLOVSKY_STARTS',
-        res: 'http://o-site.spb.ru/_races/KS_2018/ResultList11102018.htm',
-        reskeep: 72
+        res: 'http://o-site.spb.ru/_races/2018_KS/ResultList11102018.htm',
+        reskeep: 72,
+        o_site: '2018_KS'
     },
     {
         id: 'SPB_20181013_1',
@@ -1859,8 +1854,9 @@ let events2018 = [
         place: 'Токсово',
         name: 'Кузьмоловские старты, 6 этап',
         start: 'KUZMOLOVSKY_STARTS',
-        res: 'http://o-site.spb.ru/_races/KS_2018/ResultList18102018.htm',
-        reskeep: 64
+        res: 'http://o-site.spb.ru/_races/2018_KS/ResultList18102018.htm',
+        reskeep: 64,
+        o_site: '2018_KS'
     },
     {
         id: 'SPB_20181020_1',
