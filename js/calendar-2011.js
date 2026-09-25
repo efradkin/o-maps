@@ -1022,7 +1022,7 @@ let events2011 = [
         place: 'Токсово',
         name: 'Осенний Кубок команды 110%, 3-й этап',
         start: 'ROGAINE_110',
-        res: 'http://o-site.spb.ru/_races/111117/111006_res.htm',
+        res: 'http://o-site.spb.ru/_races/111117/111006_split.htm',
         o_site: '111117'
     },
     {
@@ -1051,7 +1051,7 @@ let events2011 = [
         place: 'Кузьмолово',
         name: 'Осенний Кубок команды 110%, 4-й этап',
         start: 'ROGAINE_110',
-        res: 'http://o-site.spb.ru/_races/111117/111011_res.htm',
+        res: 'http://o-site.spb.ru/_races/111117/111011_split.htm',
         o_site: '111117'
     },
     {
@@ -1102,7 +1102,7 @@ let events2011 = [
         date: '2011-10-20',
         place: 'Куялово',
         name: 'Осенний Кубок команды 110%, 5-й этап',
-        res: 'http://o-site.spb.ru/_races/111117/111020_res.htm',
+        res: 'http://o-site.spb.ru/_races/111117/111020_split.htm',
         start: 'ROGAINE_110',
         o_site: '111117'
     },
@@ -1201,7 +1201,7 @@ let events2011 = [
         date: '2011-11-10',
         place: 'Кузьмолово',
         name: 'Осенний Кубок команды 110%, 6-й этап',
-        res: 'http://o-site.spb.ru/_races/111117/111110_res.htm',
+        res: 'http://o-site.spb.ru/_races/111117/111110_split.htm',
         start: 'ROGAINE_110',
         o_site: '111117'
     },
@@ -1217,8 +1217,9 @@ let events2011 = [
     {
         id: 'SPB_20111117_1',
         date: '2011-11-17',
-        name: 'Осенний Кубок команды 110%',
-        res: 'http://o-site.spb.ru/_races/111117/110915_res.htm',
+        place: 'Кузьмолово',
+        name: 'Осенний Кубок команды 110%, 7-й этап',
+        res: 'http://o-site.spb.ru/_races/111117/111117_split.htm',
         split: 'splits/2011/SPB_20111117_1_split.htm',
         start: 'ROGAINE_110',
         o_site: '111117'
