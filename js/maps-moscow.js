@@ -3111,7 +3111,7 @@ let moscowMaps = [
         url: './maps/moscow/sz/voskresensk_rogaine_cup_2026.webp',
         link: './original_maps/moscow/sz/voskresensk_rogaine_cup_2026_omaps.webp',
         bounds: [[55.4056293, 38.7858582], [55.3822312, 38.9700508], [55.2703146, 38.7350464]],
-        info: 'Кубок России по рогейну, 1-й этап (<a href="https://forestadventure.ru/2026/rrcup/">пути участников</a>).',
+        info: 'Кубок России по рогейну, 1 этап (<a href="https://forestadventure.ru/2026/rrcup/">пути участников</a>).',
         author: ['JAKMV_S','MNKV'],
         planner: 'KLNN_O',
         owner: 'RRF',

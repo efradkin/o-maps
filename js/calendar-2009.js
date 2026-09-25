@@ -40,7 +40,7 @@ let events2009 = [
         id: 'SPB_20090125_1',
         date: '2009-01-25',
         place: 'Александрино',
-        name: 'Снежная Тропа, 3-й этап',
+        name: 'Снежная Тропа, 3 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/090125/090125_res.pdf',
         split: 'splits/2009/SPB_20090125_1_split.htm',
@@ -128,11 +128,11 @@ let events2009 = [
         id: 'SPB_20090221_1',
         date: '2009-02-21',
         endDate: '2009-02-22',
-        name: '100 за 24, 1-й этап Кубка СПб по рогейну',
+        name: '100 за 24, 1 этап Кубка СПб по рогейну',
         place: 'Вещево',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/090221/09022122_res24.htm',
-        info: '«100 км за 24 часа» - 1-й этап кубка Санкт-Петербурга по рогейну',
+        info: '«100 км за 24 часа» - 1 этап кубка Санкт-Петербурга по рогейну',
         start: '100x24',
         o_site: '090221',
         map: 'veschevo_2009'
@@ -157,7 +157,7 @@ let events2009 = [
         id: 'SPB_20090223_1',
         date: '2009-02-23',
         place: 'Рахья',
-        name: 'Всеволожская тропа, 3-й этап',
+        name: 'Всеволожская тропа, 3 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'https://o-site.spb.ru/_races/081223/090223_res.htm',
         o_site: '081223',
@@ -212,7 +212,7 @@ let events2009 = [
         id: 'SPB_20090314_1',
         date: '2009-03-14',
         place: 'Токсово',
-        name: '2-й этап Кубка СПб по рогейну',
+        name: '2 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/090314/090314_res3.htm',
         fmt: '3 и 8 часов',
@@ -241,7 +241,7 @@ let events2009 = [
     {
         id: 'SPB_20090409_1',
         date: '2009-04-09',
-        name: 'Весенний Кубок 110%, 1-й этап',
+        name: 'Весенний Кубок 110%, 1 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/0906cup110/090409_res.htm',
         o_site: '0906cup110'
@@ -264,7 +264,7 @@ let events2009 = [
     {
         id: 'SPB_20090416_1',
         date: '2009-04-16',
-        name: 'Весенний Кубок 110%, 2-й этап',
+        name: 'Весенний Кубок 110%, 2 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/0906cup110/090416_res.htm',
         o_site: '0906cup110'
@@ -291,7 +291,7 @@ let events2009 = [
     {
         id: 'SPB_20090423_1',
         date: '2009-04-23',
-        name: 'Весенний Кубок 110%, 3-й этап',
+        name: 'Весенний Кубок 110%, 3 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/0906cup110/090423_res.htm',
         o_site: '0906cup110'
@@ -300,7 +300,7 @@ let events2009 = [
         id: 'SPB_20090425_1',
         date: '2009-04-25',
         place: 'Воейково',
-        name: 'Кубок Яркого Мира 2009, 1-й этап',
+        name: 'Кубок Яркого Мира 2009, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090425_split.htm',
         o_site: '09cupYM',
         start: 'YM_CUP'
@@ -309,7 +309,7 @@ let events2009 = [
         id: 'SPB_20090426_1',
         date: '2009-04-26',
         place: 'Воейково',
-        name: 'Кубок Яркого Мира 2009, 2-й этап',
+        name: 'Кубок Яркого Мира 2009, 2 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090426_split.htm',
         o_site: '09cupYM',
         start: 'YM_CUP'
@@ -339,7 +339,7 @@ let events2009 = [
         id: 'SPB_20090509_1',
         date: '2009-05-09',
         place: 'Юкки',
-        name: 'День Победы, 1-й этап Кубка СПб',
+        name: 'День Победы, 1 этап Кубка СПб',
         res: 'https://o-site.spb.ru/_races/090509/090509_res.htm',
         split: 'splits/2009/SPB_20090509_1_split.htm',
         o_site: '090509',
@@ -359,7 +359,7 @@ let events2009 = [
         id: 'SPB_20090510_1',
         date: '2009-05-10',
         place: 'Токсово',
-        name: 'Кубок Яркого Мира 2009, 3-й этап',
+        name: 'Кубок Яркого Мира 2009, 3 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090510_split.htm',
         o_site: '09cupYM',
         start: 'YM_CUP'
@@ -397,7 +397,7 @@ let events2009 = [
     {
         id: 'SPB_20090514_1',
         date: '2009-05-14',
-        name: 'Весенний Кубок 110%, 4-й этап',
+        name: 'Весенний Кубок 110%, 4 этап',
         start: 'ROGAINE_110',
         res: 'https://o-site.spb.ru/_races/0906cup110/090514_res.htm',
         o_site: '0906cup110'
@@ -406,7 +406,7 @@ let events2009 = [
         id: 'SPB_20090516_1',
         date: '2009-05-16',
         place: 'Зеленогорск',
-        name: '3-й этап Кубка СПб по рогейну',
+        name: '3 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
         res: 'http://rogaining.spb.ru/index.php?option=com_wrapper&Itemid=159',
         o_site: '090516_rog'
@@ -454,7 +454,7 @@ let events2009 = [
     {
         id: 'SPB_20090521_1',
         date: '2009-05-21',
-        name: 'Весенний Кубок 110%, 5-й этап',
+        name: 'Весенний Кубок 110%, 5 этап',
         start: 'ROGAINE_110',
         o_site: '0906cup110'
     },
@@ -487,7 +487,7 @@ let events2009 = [
     {
         id: 'SPB_20090528_1',
         date: '2009-05-28',
-        name: 'Весенний Кубок 110%, 6-й этап',
+        name: 'Весенний Кубок 110%, 6 этап',
         start: 'ROGAINE_110',
         res: 'https://o-site.spb.ru/_races/0906cup110/090528_res.htm',
         o_site: '0906cup110'
@@ -518,7 +518,7 @@ let events2009 = [
         id: 'SPB_20090530_3',
         date: '2009-05-30',
         place: 'Петяярви',
-        name: 'Кубок Яркого Мира 2009, 4-й этап',
+        name: 'Кубок Яркого Мира 2009, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090530_split.htm',
         o_site: '09cupYM',
         start: 'YM_CUP'
@@ -527,7 +527,7 @@ let events2009 = [
         id: 'SPB_20090531_1',
         date: '2009-05-31',
         place: 'Петяярви',
-        name: 'Кубок Яркого Мира 2009, 5-й этап',
+        name: 'Кубок Яркого Мира 2009, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090531_split.htm',
         o_site: '09cupYM',
         start: 'YM_CUP'
@@ -558,7 +558,7 @@ let events2009 = [
         id: 'SPB_20090606_1',
         date: '2009-06-06',
         place: 'Токсово',
-        name: '4-й этап Кубка СПб по рогейну',
+        name: '4 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/090606_r/090606_res.htm',
         o_site: '090606_r'
@@ -609,7 +609,7 @@ let events2009 = [
         id: 'SPB_20090612_1',
         date: '2009-06-12',
         place: 'Ягодное',
-        name: 'Кубок центра Ладога, 4-й этап',
+        name: 'Кубок центра Ладога, 4 этап',
         o_site: '090612'
     },
     {
@@ -695,7 +695,7 @@ let events2009 = [
         id: 'SPB_20090705_1',
         date: '2009-07-05',
         place: 'пл.69км',
-        name: 'Кубок Яркого Мира 2009, 6-й этап',
+        name: 'Кубок Яркого Мира 2009, 6 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090705_split.htm',
         o_site: '09cupYM',
         start: 'YM_CUP'
@@ -704,7 +704,7 @@ let events2009 = [
         id: 'SPB_20090712_1',
         date: '2009-07-12',
         place: 'Будогощь',
-        name: '5-й этап Кубка СПб по рогейну',
+        name: '5 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
         o_site: '090712'
     },
@@ -735,7 +735,7 @@ let events2009 = [
         date: '2009-07-25',
         endDate: '2009-07-26',
         place: 'Орехово',
-        name: '6-й этап Кубка СПб по рогейну',
+        name: '6 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
         o_site: '090725'
     },
@@ -823,7 +823,7 @@ let events2009 = [
         id: 'SPB_20090905_1',
         date: '2009-09-05',
         place: 'Ягодное',
-        name: 'Кубок Яркого Мира 2009, 7-й этап',
+        name: 'Кубок Яркого Мира 2009, 7 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090905_split.htm',
         o_site: '09cupYM',
         start: 'YM_CUP'
@@ -832,7 +832,7 @@ let events2009 = [
         id: 'SPB_20090906_1',
         date: '2009-09-06',
         place: 'Ягодное',
-        name: 'Кубок Яркого Мира 2009, 8-й этап',
+        name: 'Кубок Яркого Мира 2009, 8 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090906_split.htm',
         o_site: '09cupYM',
         start: 'YM_CUP'
@@ -870,7 +870,7 @@ let events2009 = [
     {
         id: 'SPB_20090917_1',
         date: '2009-09-17',
-        name: 'Осенний Кубок 110%, 1-й этап',
+        name: 'Осенний Кубок 110%, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/091126/090917_res.htm',
         o_site: '091126',
         start: 'ROGAINE_110'
@@ -879,7 +879,7 @@ let events2009 = [
         id: 'SPB_20090919_1',
         date: '2009-09-19',
         place: 'Кавголово',
-        name: '8-й этап Кубка СПб по рогейну',
+        name: '8 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/090919_rog/090919_res3.htm',
         info: 'Соревнования проводятся в формате 8 и 3 часа бегом и 3-вело.',
@@ -911,7 +911,7 @@ let events2009 = [
     {
         id: 'SPB_20090924_1',
         date: '2009-09-24',
-        name: 'Осенний Кубок 110%, 2-й этап',
+        name: 'Осенний Кубок 110%, 2 этап',
         res: 'http://www.o-site.spb.ru/_races/091126/090924_res.htm',
         o_site: '091126',
         start: 'ROGAINE_110'
@@ -955,7 +955,7 @@ let events2009 = [
     {
         id: 'SPB_20091001_1',
         date: '2009-10-01',
-        name: 'Осенний Кубок 110%, 3-й этап',
+        name: 'Осенний Кубок 110%, 3 этап',
         res: 'http://www.o-site.spb.ru/_races/091126/091001_res.htm',
         o_site: '091126',
         start: 'ROGAINE_110'
@@ -995,7 +995,7 @@ let events2009 = [
     {
         id: 'SPB_20091008_1',
         date: '2009-10-08',
-        name: 'Осенний Кубок 110%, 4-й этап',
+        name: 'Осенний Кубок 110%, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/091126/091008_res.htm',
         o_site: '091126',
         start: 'ROGAINE_110'
@@ -1016,7 +1016,7 @@ let events2009 = [
     {
         id: 'SPB_20091015_1',
         date: '2009-10-15',
-        name: 'Осенний Кубок 110%, 5-й этап',
+        name: 'Осенний Кубок 110%, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/091126/091015_res.htm',
         o_site: '091126',
         start: 'ROGAINE_110'
@@ -1025,7 +1025,7 @@ let events2009 = [
         id: 'SPB_20091017_1',
         date: '2009-10-17',
         place: 'Пасторское и Медное оз',
-        name: '9-й этап Кубка СПб по рогейну',
+        name: '9 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
         fmt: '3 часа бегом и 3 часа ВЕЛО',
         o_site: '091017'
@@ -1222,7 +1222,7 @@ let events2009 = [
     {
         id: 'SPB_20091129_2',
         date: '2009-11-29',
-        name: 'Всеволожская тропа, 1-й этап',
+        name: 'Всеволожская тропа, 1 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/091129_res1.htm',
         o_site: '100411_tropa'
@@ -1231,7 +1231,7 @@ let events2009 = [
         id: 'SPB_20091206_1',
         date: '2009-12-06',
         place: 'Пискарёвский парк',
-        name: 'Снежная Тропа, 1-й этап',
+        name: 'Снежная Тропа, 1 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/091122/091206_split.htm',
         split: 'splits/2009/SPB_20091206_1_split.htm',
@@ -1242,7 +1242,7 @@ let events2009 = [
         id: 'SPB_20091213_1',
         date: '2009-12-13',
         place: 'Ушково',
-        name: 'Три Кубка, 1-й этап',
+        name: 'Три Кубка, 1 этап',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/091213/091213_res.htm',
         split: 'splits/2009/SPB_20091213_1_split.htm',
@@ -1251,7 +1251,7 @@ let events2009 = [
     {
         id: 'SPB_20091213_2',
         date: '2009-12-13',
-        name: 'Всеволожская тропа, 2-й этап',
+        name: 'Всеволожская тропа, 2 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/091213_res.htm',
         o_site: '100411_tropa'

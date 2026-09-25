@@ -47,7 +47,7 @@ let events2012 = [
         id: 'SPB_20120122_1',
         date: '2012-01-22',
         place: 'Павловский парк',
-        name: 'Снежная Тропа, 3-й этап',
+        name: 'Снежная Тропа, 3 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/120122/120122_res.htm',
         split: 'splits/2012/SPB_20120122_1_split.htm',
@@ -242,7 +242,7 @@ let events2012 = [
         id: 'SPB_20120401_1',
         date: '2012-04-01',
         place: 'Сертолово',
-        name: '1-й этап Кубка СПб по рогейну',
+        name: '1 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
         o_site: '120401'
     },
@@ -286,7 +286,7 @@ let events2012 = [
     {
         id: 'SPB_20120419_1',
         date: '2012-04-19',
-        name: 'Кубок команды 110%, 1-й этап',
+        name: 'Кубок команды 110%, 1 этап',
         res: 'http://o-site.spb.ru/_races/121025/120419_res.htm',
         o_site: '121025',
         start: 'ROGAINE_110'
@@ -301,7 +301,7 @@ let events2012 = [
     {
         id: 'SPB_20120421_1',
         date: '2012-04-21',
-        name: 'Открытое пер-во Калининского р-на, 1-й этап. Городской спринт',
+        name: 'Открытое пер-во Калининского р-на, 1 этап. Городской спринт',
         place: 'шк №175',
         fmt: 'Городской спринт в заданном направлении',
         o_site: '120421'
@@ -340,7 +340,7 @@ let events2012 = [
     {
         id: 'SPB_20120426_2',
         date: '2012-04-26',
-        name: 'Кубок команды 110%, 2-й этап',
+        name: 'Кубок команды 110%, 2 этап',
         res: 'http://o-site.spb.ru/_races/12101825/120426_res.htm',
         o_site: '121025',
         start: 'ROGAINE_110'
@@ -366,7 +366,7 @@ let events2012 = [
         id: 'SPB_20120506_1',
         date: '2012-05-06',
         place: 'Суоранда',
-        name: 'Кубок Яркого Мира 2012, 1-й этап',
+        name: 'Кубок Яркого Мира 2012, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2012CupYM/120506_split.htm',
         o_site: '2012CupYM',
         start: 'YM_CUP'
@@ -375,7 +375,7 @@ let events2012 = [
         id: 'SPB_20120507_1',
         date: '2012-05-07',
         place: 'Дюны-Солнечное',
-        name: 'Кубок Яркого Мира 2012, 2-й этап',
+        name: 'Кубок Яркого Мира 2012, 2 этап',
         res: 'http://www.o-site.spb.ru/_races/2012CupYM/120507_split.htm',
         o_site: '2012CupYM',
         start: 'YM_CUP'
@@ -384,7 +384,7 @@ let events2012 = [
         id: 'SPB_20120508_1',
         date: '2012-05-08',
         place: 'Токсово',
-        name: '2-й этап Кубка СПб по рогейну',
+        name: '2 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
         o_site: '120508_r'
     },
@@ -448,7 +448,7 @@ let events2012 = [
     {
         id: 'SPB_20120517_2',
         date: '2012-05-17',
-        name: 'Кубок команды 110%, 3-й этап',
+        name: 'Кубок команды 110%, 3 этап',
         res: 'http://o-site.spb.ru/_races/121025/120517_res.htm',
         o_site: '121025',
         start: 'ROGAINE_110'
@@ -532,7 +532,7 @@ let events2012 = [
     {
         id: 'SPB_20120524_1',
         date: '2012-05-24',
-        name: 'Кубок команды 110%, 4-й этап',
+        name: 'Кубок команды 110%, 4 этап',
         res: 'http://o-site.spb.ru/_races/121025/120524_res.htm',
         o_site: '121025',
         start: 'ROGAINE_110'
@@ -581,7 +581,7 @@ let events2012 = [
     {
         id: 'SPB_20120531_1',
         date: '2012-05-31',
-        name: 'Кубок команды 110%, 5-й этап',
+        name: 'Кубок команды 110%, 5 этап',
         res: 'http://o-site.spb.ru/_races/121025/120531_res.htm',
         o_site: '121025',
         start: 'ROGAINE_110'
@@ -614,7 +614,7 @@ let events2012 = [
     {
         id: 'SPB_20120607_1',
         date: '2012-06-07',
-        name: 'Кубок команды 110%, 6-й этап',
+        name: 'Кубок команды 110%, 6 этап',
         res: 'http://o-site.spb.ru/_races/121025/120607_res.htm',
         o_site: '121025',
         start: 'ROGAINE_110'
@@ -736,7 +736,7 @@ let events2012 = [
         id: 'SPB_20120708_1',
         date: '2012-07-08',
         place: 'пл.78 км Приозерского направления',
-        name: '3-й этап Кубка СПб по рогейну',
+        name: '3 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
         fmt: '3 часа бегом',
         o_site: '120708'
@@ -763,7 +763,7 @@ let events2012 = [
         id: 'SPB_20120715_1',
         date: '2012-07-15',
         place: 'Воейково',
-        name: 'Кубок Яркого Мира 2012, 3-й этап',
+        name: 'Кубок Яркого Мира 2012, 3 этап',
         res: 'http://www.o-site.spb.ru/_races/2012CupYM/120715_split.htm',
         o_site: '2012CupYM',
         start: 'YM_CUP'
@@ -813,7 +813,7 @@ let events2012 = [
         id: 'SPB_20120811_1',
         date: '2012-08-11',
         place: 'Ягодное',
-        name: 'Кубок Яркого Мира 2012, 4-й этап',
+        name: 'Кубок Яркого Мира 2012, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/2012CupYM/120811_split.htm',
         o_site: '2012CupYM',
         start: 'YM_CUP'
@@ -822,7 +822,7 @@ let events2012 = [
         id: 'SPB_20120812_1',
         date: '2012-08-12',
         place: 'Ягодное',
-        name: 'Кубок Яркого Мира 2012, 5-й этап',
+        name: 'Кубок Яркого Мира 2012, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/2012CupYM/120812_split.htm',
         o_site: '2012CupYM',
         start: 'YM_CUP'
@@ -870,7 +870,7 @@ let events2012 = [
         id: 'SPB_20120901_1',
         date: '2012-09-01',
         place: 'оз Пасторское',
-        name: 'Кубок Яркого Мира 2012, 6-й этап',
+        name: 'Кубок Яркого Мира 2012, 6 этап',
         res: 'http://www.o-site.spb.ru/_races/2012CupYM/120901_split.htm',
         o_site: '2012CupYM',
         start: 'YM_CUP'
@@ -879,7 +879,7 @@ let events2012 = [
         id: 'SPB_20120902_1',
         date: '2012-09-02',
         place: 'оз Пасторское',
-        name: 'Кубок Яркого Мира 2012, 7-й этап',
+        name: 'Кубок Яркого Мира 2012, 7 этап',
         res: 'http://www.o-site.spb.ru/_races/2012CupYM/120902_split.htm',
         o_site: '2012CupYM',
         start: 'YM_CUP'
@@ -924,7 +924,7 @@ let events2012 = [
     {
         id: 'SPB_20120913_1',
         date: '2012-09-13',
-        name: 'Кубок команды 110%, 7-й этап',
+        name: 'Кубок команды 110%, 7 этап',
         res: 'http://o-site.spb.ru/_races/121025/120913_res.htm',
         o_site: '121025',
         start: 'ROGAINE_110'
@@ -997,7 +997,7 @@ let events2012 = [
     {
         id: 'SPB_20120920_1',
         date: '2012-09-20',
-        name: 'Кубок команды 110%, 8-й этап',
+        name: 'Кубок команды 110%, 8 этап',
         res: 'http://o-site.spb.ru/_races/121025/120920_res.htm',
         o_site: '121025',
         start: 'ROGAINE_110'
@@ -1041,7 +1041,7 @@ let events2012 = [
     {
         id: 'SPB_20120926_1',
         date: '2012-09-26',
-        name: 'Sprint Tour SPb, 2-й этап',
+        name: 'Sprint Tour SPb, 2 этап',
         res: 'http://o-site.spb.ru/_races/121013/120926_split.htm',
         o_site: '121013',
         start: 'SPRINT_TOUR'
@@ -1057,7 +1057,7 @@ let events2012 = [
     {
         id: 'SPB_20120927_2',
         date: '2012-09-27',
-        name: 'Кубок команды 110%, 9-й этап',
+        name: 'Кубок команды 110%, 9 этап',
         res: 'http://o-site.spb.ru/_races/121025/120927_res.htm',
         o_site: '121025',
         start: 'ROGAINE_110'
@@ -1121,7 +1121,7 @@ let events2012 = [
     {
         id: 'SPB_20121003_1',
         date: '2012-10-03',
-        name: 'Sprint Tour SPb, 3-й этап',
+        name: 'Sprint Tour SPb, 3 этап',
         res: 'http://o-site.spb.ru/_races/121013/121003_split.htm',
         o_site: '121013',
         start: 'SPRINT_TOUR'
@@ -1129,7 +1129,7 @@ let events2012 = [
     {
         id: 'SPB_20121004_1',
         date: '2012-10-04',
-        name: 'Кубок команды 110%, 10-й этап',
+        name: 'Кубок команды 110%, 10 этап',
         res: 'http://o-site.spb.ru/_races/121025/121004_res.htm',
         o_site: '121025',
         start: 'ROGAINE_110'
@@ -1180,7 +1180,7 @@ let events2012 = [
     {
         id: 'SPB_20121011_2',
         date: '2012-10-11',
-        name: 'Кубок команды 110%, 11-й этап',
+        name: 'Кубок команды 110%, 11 этап',
         res: 'http://o-site.spb.ru/_races/121025/121011_res.htm',
         o_site: '121025',
         start: 'ROGAINE_110'
@@ -1230,7 +1230,7 @@ let events2012 = [
     {
         id: 'SPB_20121018_1',
         date: '2012-10-18',
-        name: 'Кубок команды 110%, 12-й этап',
+        name: 'Кубок команды 110%, 12 этап',
         res: 'http://o-site.spb.ru/_races/121025/121018_res.htm',
         o_site: '121025',
         start: 'ROGAINE_110'
@@ -1253,7 +1253,7 @@ let events2012 = [
     {
         id: 'SPB_20121025_1',
         date: '2012-10-25',
-        name: 'Кубок команды 110%, 13-й этап',
+        name: 'Кубок команды 110%, 13 этап',
         place: 'Кавголово',
         res: 'http://o-site.spb.ru/_races/121025/120419_res.htm',
         split: 'splits/2012/SPB_20121025_1_split.htm',
@@ -1391,7 +1391,7 @@ let events2012 = [
         id: 'SPB_20121118_1',
         date: '2012-11-18',
         place: 'Пискаревский парк',
-        name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 1-й этап',
+        name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 1 этап',
         start: 'SNOW_WAY',
         res: 'http://o-site.spb.ru/_races/121118_tropa/121118_SPLIT.htm',
         o_site: '121118_tropa'
@@ -1423,7 +1423,7 @@ let events2012 = [
         id: 'SPB_20121125_2',
         date: '2012-11-25',
         place: 'Токсово',
-        name: 'Всеволожская тропа, 1-й этап',
+        name: 'Всеволожская тропа, 1 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/130407/121125_res1.pdf',
         o_site: '130407'
@@ -1440,7 +1440,7 @@ let events2012 = [
         id: 'SPB_20121209_1',
         date: '2012-12-09',
         place: 'Парк Муринский',
-        name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 2-й этап',
+        name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 2 этап',
         start: 'SNOW_WAY',
         res: 'http://o-site.spb.ru/_races/121118_tropa/121209_split.htm',
         o_site: '121118_tropa'
@@ -1468,7 +1468,7 @@ let events2012 = [
         id: 'SPB_20121216_2',
         date: '2012-12-16',
         place: 'Невская Дубровка',
-        name: 'Всеволожская тропа, 2-й этап',
+        name: 'Всеволожская тропа, 2 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/130407/121216_split.htm',
         o_site: '130407'

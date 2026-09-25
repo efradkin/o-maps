@@ -73,7 +73,7 @@ let events2008 = [
         id: 'SPB_20080210_1',
         date: '2008-02-10',
         place: 'Петродворец',
-        name: 'Снежная Тропа, 4-й этап',
+        name: 'Снежная Тропа, 4 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/080210/080210_result.htm',
         split: 'splits/2008/SPB_20080210_1_split.htm',
@@ -163,11 +163,11 @@ let events2008 = [
         id: 'SPB_20080316_1',
         date: '2008-03-16',
         place: 'Удельный парк',
-        name: 'Снежная Тропа, 5-й этап',
+        name: 'Снежная Тропа, 5 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/080316/080316_res.html',
         split: 'splits/2008/SPB_20080316_1_split.html',
-        info: '5-й этап (финал) самых популярных и массовых соревнований по ориентированию в зимний период.',
+        info: '5 этап (финал) самых популярных и массовых соревнований по ориентированию в зимний период.',
         o_site: '080316',
         map: 'udelny_2004'
     },
@@ -286,7 +286,7 @@ let events2008 = [
         id: 'SPB_20080509_1',
         date: '2008-05-09',
         place: 'Зеленогорск',
-        name: 'День Победы, 1-й этап Кубка СПб',
+        name: 'День Победы, 1 этап Кубка СПб',
         res: 'https://o-site.spb.ru/_races/080509/080509_res.zip',
         split: 'splits/2008/SPB_20080509_1_split.htm',
         info: 'Соревнования по ориентированию, посвящённые Дню Победы',
@@ -317,7 +317,7 @@ let events2008 = [
         id: 'SPB_20080511_1',
         date: '2008-05-11',
         place: 'Токсово',
-        name: 'Кубок Яркого Мира, 3-й этап',
+        name: 'Кубок Яркого Мира, 3 этап',
         res: 'https://o-site.spb.ru/_races/080511/080511_res.zip',
         split: 'splits/2008/SPB_20080511_1_split.zip',
         start: 'YM_CUP',
@@ -533,7 +533,7 @@ let events2008 = [
         id: 'SPB_20080706_1',
         date: '2008-07-06',
         place: 'Медное озеро',
-        name: 'Кубок Яркого Мира, 4-й этап',
+        name: 'Кубок Яркого Мира, 4 этап',
         res: 'https://o-site.spb.ru/_races/080706/080706_res.zip',
         start: 'YM_CUP',
         o_site: '080706'
@@ -755,7 +755,7 @@ let events2008 = [
     {
         id: 'SPB_20081002_1',
         date: '2008-10-02',
-        name: 'Ночной Кубок 110%, 1-й этап',
+        name: 'Ночной Кубок 110%, 1 этап',
         place: 'Кавголово',
         start: 'ROGAINE_110',
         res: 'http://o-site.spb.ru/_races/081120/ncup110_08_1_res.htm',
@@ -793,7 +793,7 @@ let events2008 = [
     {
         id: 'SPB_20081009_1',
         date: '2008-10-09',
-        name: 'Ночной Кубок 110%, 2-й этап',
+        name: 'Ночной Кубок 110%, 2 этап',
         start: 'ROGAINE_110',
         res: 'http://o-site.spb.ru/_races/081120/ncup110_08_2_res.htm',
         o_site: '081120'
@@ -833,7 +833,7 @@ let events2008 = [
     {
         id: 'SPB_20081023_1',
         date: '2008-10-23',
-        name: 'Ночной Кубок 110%, 3-й этап',
+        name: 'Ночной Кубок 110%, 3 этап',
         start: 'ROGAINE_110',
         res: 'http://o-site.spb.ru/_races/081120/ncup110_08_3_res.htm',
         o_site: '081120'
@@ -914,7 +914,7 @@ let events2008 = [
     {
         id: 'SPB_20081113_1',
         date: '2008-11-13',
-        name: 'Ночной Кубок 110%, 4-й этап',
+        name: 'Ночной Кубок 110%, 4 этап',
         start: 'ROGAINE_110',
         res: 'http://o-site.spb.ru/_races/081120/ncup110_08_4_res.htm',
         o_site: '081120'
@@ -939,7 +939,7 @@ let events2008 = [
     {
         id: 'SPB_20081120_1',
         date: '2008-11-20',
-        name: 'Ночной Кубок 110%, 5-й этап',
+        name: 'Ночной Кубок 110%, 5 этап',
         start: 'ROGAINE_110',
         res: 'http://o-site.spb.ru/_races/081120/ncup110_08_5_res.htm',
         o_site: '081120'
@@ -994,7 +994,7 @@ let events2008 = [
         id: 'SPB_20081130_3',
         date: '2008-11-30',
         place: 'Проба',
-        name: 'Всеволожская тропа 2009, 1-й этап',
+        name: 'Всеволожская тропа 2009, 1 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'https://www.o-site.spb.ru/_races/090419_VT/081130_res.htm',
         o_site: '081223'
@@ -1003,7 +1003,7 @@ let events2008 = [
         id: 'SPB_20081207_1',
         date: '2008-12-07',
         place: 'Петродворец',
-        name: 'Снежная Тропа, 2-й этап',
+        name: 'Снежная Тропа, 2 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/081207/081207_res.pdf',
         split: 'splits/2008/SPB_20081207_1_split.zip',
@@ -1041,7 +1041,7 @@ let events2008 = [
         id: 'SPB_20081221_2',
         date: '2008-12-21',
         place: 'им Морозова',
-        name: 'Всеволожская тропа 2009, 2-й этап',
+        name: 'Всеволожская тропа 2009, 2 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'https://o-site.spb.ru/_races/081223/081221_res.htm',
         o_site: '081223'

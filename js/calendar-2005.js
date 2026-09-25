@@ -23,7 +23,7 @@ let events2005 = [
         id: 'SPB_20050123_1',
         date: '2005-01-23',
         place: 'Шуваловский парк',
-        name: 'Снежная Тропа, 3-й этап',
+        name: 'Снежная Тропа, 3 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/050123/tropa_3et_res.zip',
         o_site: '050123'
@@ -63,7 +63,7 @@ let events2005 = [
         id: 'SPB_20050206_1',
         date: '2005-02-06',
         place: 'парк Зверинец, Гатчина',
-        name: 'Снежная Тропа, 4-й этап',
+        name: 'Снежная Тропа, 4 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/050206_tr/tropa_4et_res.htm',
         o_site: '050206_tr'
@@ -101,7 +101,7 @@ let events2005 = [
         id: 'SPB_20050307_1',
         date: '2005-03-07',
         place: 'Всеволожск, Румболовский парк',
-        name: 'Кубок Яркого Мира, 1-й этап',
+        name: 'Кубок Яркого Мира, 1 этап',
         res: 'https://o-site.spb.ru/_races/050307/1e-predv.htm',
         fmt: 'выбор с раздельного старта',
         start: 'YM_CUP',
@@ -194,7 +194,7 @@ let events2005 = [
         id: 'SPB_20050424_1',
         date: '2005-04-24',
         place: 'Кузьмолово',
-        name: 'Кубок Яркого Мира, 2-й этап',
+        name: 'Кубок Яркого Мира, 2 этап',
         res: 'https://o-site.spb.ru/_races/050424/YM_et2res.zip',
         start: 'YM_CUP',
         o_site: '050424'
@@ -203,7 +203,7 @@ let events2005 = [
         id: 'SPB_20050430_1',
         date: '2005-04-30',
         place: 'Полежаевский парк',
-        name: 'МТБ-О Парк Тур, 1-й этап',
+        name: 'МТБ-О Парк Тур, 1 этап',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/050430_MTB/FINISHvelo30_04_05.htm',
         o_site: '050430_MTB'
@@ -240,7 +240,7 @@ let events2005 = [
         id: 'SPB_20050509_1',
         date: '2005-05-09',
         place: 'Шуваловский парк',
-        name: 'МТБ-О Парк Тур, 2-й этап',
+        name: 'МТБ-О Парк Тур, 2 этап',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/050509/pt2.htm',
         o_site: '050509'
@@ -410,7 +410,7 @@ let events2005 = [
         id: 'SPB_20050703_1',
         date: '2005-07-03',
         place: 'Медное оз',
-        name: 'Кубок Яркого Мира, 6-й этап',
+        name: 'Кубок Яркого Мира, 6 этап',
         res: 'https://o-site.spb.ru/_races/050703_ym/ym_et6_res.zip',
         start: 'YM_CUP',
         o_site: '050703_ym'
@@ -492,7 +492,7 @@ let events2005 = [
         id: 'SPB_20050904_1',
         date: '2005-09-04',
         place: '69км',
-        name: 'Кубок Яркого Мира, 9-й этап',
+        name: 'Кубок Яркого Мира, 9 этап',
         res: 'https://o-site.spb.ru/_races/050904_ym/ym_et9_res.zip',
         start: 'YM_CUP',
         o_site: '050904_ym'
@@ -726,7 +726,7 @@ let events2005 = [
         id: 'SPB_20051105_1',
         date: '2005-11-05',
         place: 'Черные оз, Зеленогорск',
-        name: '1-й этап Кубка центра Ладога',
+        name: '1 этап Кубка центра Ладога',
         res: 'https://o-site.spb.ru/_races/051105/051105_res.zip',
         o_site: '051105'
     },
@@ -734,7 +734,7 @@ let events2005 = [
         id: 'SPB_20051113_1',
         date: '2005-11-13',
         place: 'Удельный парк',
-        name: 'Снежная тропа, 1-й этап',
+        name: 'Снежная тропа, 1 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/051113/051113_res.zip',
         o_site: '051113',
@@ -744,7 +744,7 @@ let events2005 = [
         id: 'SPB_20051127_1',
         date: '2005-11-27',
         place: 'Петродворец',
-        name: 'Снежная Тропа, 2-й этап',
+        name: 'Снежная Тропа, 2 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/051127/051127_res.zip',
         o_site: '051127'
@@ -764,7 +764,7 @@ let events2005 = [
         id: 'SPB_20051211_1',
         date: '2005-12-11',
         place: 'Бернгардовка',
-        name: 'Снежная Тропа, 3-й этап',
+        name: 'Снежная Тропа, 3 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/051211/051211_res.zip',
         o_site: '051211'

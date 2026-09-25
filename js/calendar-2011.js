@@ -143,7 +143,7 @@ let events2011 = [
     {
         id: 'SPB_20110223_2',
         date: '2011-02-23',
-        name: 'Всеволожская тропа, 2-й этап',
+        name: 'Всеволожская тропа, 2 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/110410_tropa/110223_res1.htm',
         o_site: '110410_tropa'
@@ -183,7 +183,7 @@ let events2011 = [
     {
         id: 'SPB_20110308_1',
         date: '2011-03-08',
-        name: 'Всеволожская тропа, 3-й этап',
+        name: 'Всеволожская тропа, 3 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/110410_tropa/110308_res.htm',
         o_site: '110410_tropa'
@@ -191,7 +191,7 @@ let events2011 = [
     {
         id: 'SPB_20110312_1',
         date: '2011-03-12',
-        name: 'Чемпионат и Первенство СПб, маркир и удл. дист. Кубок ОК Гольфстрим, 3-й этап',
+        name: 'Чемпионат и Первенство СПб, маркир и удл. дист. Кубок ОК Гольфстрим, 3 этап',
         start: 'SPB_CHAMP',
         place: 'Комарово, оз Щучье',
         publish: 'https://o-site.spb.ru/race.php?id=11031213',
@@ -254,7 +254,7 @@ let events2011 = [
         id: 'SPB_20110402_1',
         date: '2011-04-02',
         place: 'Лемболово',
-        name: 'Кубок СПб по рогейну, 1-й этап',
+        name: 'Кубок СПб по рогейну, 1 этап',
         type: 'ROGAINE',
         o_site: '110402'
     },
@@ -298,7 +298,7 @@ let events2011 = [
         id: 'SPB_20110424_1',
         date: '2011-04-24',
         place: 'Энколово',
-        name: 'Кубок Яркого Мира 2011, 1-й этап',
+        name: 'Кубок Яркого Мира 2011, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110424_split.htm',
         o_site: '2011CupYM',
         start: 'YM_CUP'
@@ -346,7 +346,7 @@ let events2011 = [
         name: 'Соревнования, посвящённые Дню Победы',
         res: 'https://o-site.spb.ru/_races/110509_/110509_res.zip',
         split: 'splits/2011/SPB_20110509_1_split.htm',
-        info: 'Соревнования, посвящённые Дню Победы:открытое п-во Всеволожского р-на, 2-й этап Кубка Яркого Мира.',
+        info: 'Соревнования, посвящённые Дню Победы:открытое п-во Всеволожского р-на, 2 этап Кубка Яркого Мира.',
         o_site: '110509_',
         owner: 'AZIMUT'
     },
@@ -354,7 +354,7 @@ let events2011 = [
         id: 'SPB_20110509_2',
         date: '2011-05-09',
         place: 'Охта-Парк',
-        name: 'Кубок Яркого Мира 2011, 2-й этап',
+        name: 'Кубок Яркого Мира 2011, 2 этап',
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110509_split.htm',
         o_site: '2011CupYM',
         start: 'YM_CUP'
@@ -423,7 +423,7 @@ let events2011 = [
     {
         id: 'SPB_20110518_1',
         date: '2011-05-18',
-        name: 'Летний кубок ОК Гольфстрим, 1-й этап',
+        name: 'Летний кубок ОК Гольфстрим, 1 этап',
         place: 'Сосновка',
         res: 'http://o-site.spb.ru/_races/110518_GS/110518_res.html',
         split: 'splits/2011/SPB_20110518_1_split.html',
@@ -697,7 +697,7 @@ let events2011 = [
         id: 'SPB_20110716_1',
         date: '2011-07-16',
         place: 'Цвелодубово',
-        name: 'Кубок Яркого Мира 2011, 3-й этап',
+        name: 'Кубок Яркого Мира 2011, 3 этап',
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110716_split.htm',
         o_site: '2011CupYM',
         start: 'YM_CUP'
@@ -762,7 +762,7 @@ let events2011 = [
         id: 'SPB_20110813_1',
         date: '2011-08-13',
         place: 'Ягодное',
-        name: 'Кубок Яркого Мира 2011, 4-й этап',
+        name: 'Кубок Яркого Мира 2011, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110813_split.htm',
         o_site: '2011CupYM',
         start: 'YM_CUP'
@@ -780,7 +780,7 @@ let events2011 = [
         id: 'SPB_20110814_2',
         date: '2011-08-14',
         place: 'Ягодное',
-        name: 'Кубок Яркого Мира 2011, 5-й этап',
+        name: 'Кубок Яркого Мира 2011, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110814_split.htm',
         o_site: '2011CupYM',
         start: 'YM_CUP'
@@ -816,7 +816,7 @@ let events2011 = [
         id: 'SPB_20110903_1',
         date: '2011-09-03',
         place: 'Токсово',
-        name: 'Кубок Яркого Мира 2011, 6-й этап',
+        name: 'Кубок Яркого Мира 2011, 6 этап',
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110903_split.htm',
         o_site: '2011CupYM',
         start: 'YM_CUP'
@@ -825,7 +825,7 @@ let events2011 = [
         id: 'SPB_20110904_1',
         date: '2011-09-04',
         place: 'Токсово',
-        name: 'Кубок Яркого Мира 2011, 7-й этап',
+        name: 'Кубок Яркого Мира 2011, 7 этап',
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110904_split.htm',
         o_site: '2011CupYM',
         start: 'YM_CUP'
@@ -867,7 +867,7 @@ let events2011 = [
         id: 'SPB_20110915_1',
         date: '2011-09-15',
         place: 'Юкки',
-        name: 'Осенний Кубок команды 110%, 1-й этап',
+        name: 'Осенний Кубок команды 110%, 1 этап',
         start: 'ROGAINE_110',
         res: 'http://o-site.spb.ru/_races/111117/110915_res.htm',
         o_site: '111117'
@@ -924,7 +924,7 @@ let events2011 = [
         id: 'SPB_20110922_1',
         date: '2011-09-22',
         place: 'Токсово',
-        name: 'Осенний Кубок команды 110%, 2-й этап',
+        name: 'Осенний Кубок команды 110%, 2 этап',
         start: 'ROGAINE_110',
         res: 'http://o-site.spb.ru/_races/111117/110922_res.htm',
         o_site: '111117'
@@ -1020,7 +1020,7 @@ let events2011 = [
         id: 'SPB_20111006_1',
         date: '2011-10-06',
         place: 'Токсово',
-        name: 'Осенний Кубок команды 110%, 3-й этап',
+        name: 'Осенний Кубок команды 110%, 3 этап',
         start: 'ROGAINE_110',
         res: 'http://o-site.spb.ru/_races/111117/111006_split.htm',
         o_site: '111117'
@@ -1049,7 +1049,7 @@ let events2011 = [
         id: 'SPB_20111011_1',
         date: '2011-10-11',
         place: 'Кузьмолово',
-        name: 'Осенний Кубок команды 110%, 4-й этап',
+        name: 'Осенний Кубок команды 110%, 4 этап',
         start: 'ROGAINE_110',
         res: 'http://o-site.spb.ru/_races/111117/111011_split.htm',
         o_site: '111117'
@@ -1101,7 +1101,7 @@ let events2011 = [
         id: 'SPB_20111020_1',
         date: '2011-10-20',
         place: 'Куялово',
-        name: 'Осенний Кубок команды 110%, 5-й этап',
+        name: 'Осенний Кубок команды 110%, 5 этап',
         res: 'http://o-site.spb.ru/_races/111117/111020_split.htm',
         start: 'ROGAINE_110',
         o_site: '111117'
@@ -1172,7 +1172,7 @@ let events2011 = [
         id: 'SPB_20111104_2',
         date: '2011-11-04',
         endDate: '2011-11-05',
-        name: 'Кубок СПб по рогейну, 5-й этап',
+        name: 'Кубок СПб по рогейну, 5 этап',
         type: 'ROGAINE',
         o_site: '11110405'
     },
@@ -1200,7 +1200,7 @@ let events2011 = [
         id: 'SPB_20111110_1',
         date: '2011-11-10',
         place: 'Кузьмолово',
-        name: 'Осенний Кубок команды 110%, 6-й этап',
+        name: 'Осенний Кубок команды 110%, 6 этап',
         res: 'http://o-site.spb.ru/_races/111117/111110_split.htm',
         start: 'ROGAINE_110',
         o_site: '111117'
@@ -1218,7 +1218,7 @@ let events2011 = [
         id: 'SPB_20111117_1',
         date: '2011-11-17',
         place: 'Кузьмолово',
-        name: 'Осенний Кубок команды 110%, 7-й этап',
+        name: 'Осенний Кубок команды 110%, 7 этап',
         res: 'http://o-site.spb.ru/_races/111117/111117_split.htm',
         split: 'splits/2011/SPB_20111117_1_split.htm',
         start: 'ROGAINE_110',
@@ -1260,7 +1260,7 @@ let events2011 = [
         id: 'SPB_20111127_1',
         date: '2011-11-27',
         place: 'Пискарёвский парк',
-        name: 'Снежная Тропа, 1-й этап',
+        name: 'Снежная Тропа, 1 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/111127/111127_RES1.htm',
         split: 'splits/2011/SPB_20111127_1_split.htm',
@@ -1287,7 +1287,7 @@ let events2011 = [
         id: 'SPB_20111211_1',
         date: '2011-12-11',
         place: 'Парк Зверинец, Петродворец',
-        name: 'Снежная Тропа, 2-й этап',
+        name: 'Снежная Тропа, 2 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/111211/111211_res.htm',
         split: 'splits/2011/SPB_20111211_1_split.htm',

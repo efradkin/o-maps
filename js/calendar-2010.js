@@ -190,7 +190,7 @@ let events2010 = [
     {
         id: 'SPB_20100228_2',
         date: '2010-02-28',
-        name: 'Всеволожская тропа, 3-й этап',
+        name: 'Всеволожская тропа, 3 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/100228_res.htm',
         o_site: '100411_tropa'
@@ -236,7 +236,7 @@ let events2010 = [
     {
         id: 'SPB_20100308_2',
         date: '2010-03-08',
-        name: 'Всеволожская тропа, 4-й этап',
+        name: 'Всеволожская тропа, 4 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/100308_res.htm',
         o_site: '100411_tropa'
@@ -254,7 +254,7 @@ let events2010 = [
         id: 'SPB_20100314_1',
         date: '2010-03-14',
         place: 'Павловский парк',
-        name: 'Снежная Тропа, 2-й этап',
+        name: 'Снежная Тропа, 2 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/100315/100314_res.pdf',
         split: 'splits/2010/SPB_20100314_1_split.htm',
@@ -279,7 +279,7 @@ let events2010 = [
         publish: 'https://o-site.spb.ru/race.php?id=100321',
         res: 'https://o-site.spb.ru/_races/100321/100321_res.htm',
         split: 'splits/2010/SPB_20100321_1_split.htm',
-        info: 'Программа зимней части Кубка ОК Гольфстрим: 1-й этап: 13 марта - спринт 2-й этап: 14 марта - удлинённая дистанция 3-й этап: 21 марта - маркир, классика',
+        info: 'Программа зимней части Кубка ОК Гольфстрим: 1 этап: 13 марта - спринт 2 этап: 14 марта - удлинённая дистанция 3 этап: 21 марта - маркир, классика',
         owner: 'GOLFSTREAM',
         o_site: '100321'
     },
@@ -365,7 +365,7 @@ let events2010 = [
         id: 'SPB_20100424_1',
         date: '2010-04-24',
         place: 'детские Дюны',
-        name: 'Кубок Яркого Мира 2010, 1-й этап',
+        name: 'Кубок Яркого Мира 2010, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100424_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -374,7 +374,7 @@ let events2010 = [
         id: 'SPB_20100425_1',
         date: '2010-04-25',
         place: 'Дюны',
-        name: 'Кубок Яркого Мира 2010, 2-й этап',
+        name: 'Кубок Яркого Мира 2010, 2 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100425_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -416,7 +416,7 @@ let events2010 = [
         id: 'SPB_20100510_1',
         date: '2010-05-10',
         place: 'оз.Банное',
-        name: 'Кубок Яркого Мира 2010, 3-й этап',
+        name: 'Кубок Яркого Мира 2010, 3 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100510_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -462,7 +462,7 @@ let events2010 = [
         id: 'SPB_20100516_2',
         date: '2010-05-16',
         place: 'Комарово',
-        name: 'Спринт Кубок по Рогейну, 2-й этап',
+        name: 'Спринт Кубок по Рогейну, 2 этап',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/100403/100516_res.htm',
         split: 'splits/2010/SPB_20100516_2_split.htm',
@@ -577,7 +577,7 @@ let events2010 = [
         id: 'SPB_20100605_1',
         date: '2010-06-05',
         place: 'Токсово',
-        name: 'Velodrive O-cup, 3-й этап',
+        name: 'Velodrive O-cup, 3 этап',
         type: 'VELO',
         res: 'http://o-time.ru/content/view/479/28/',
         split: 'splits/2010/SPB_20100605_1_split.htm',
@@ -663,7 +663,7 @@ let events2010 = [
     {
         id: 'SPB_20100619_1',
         date: '2010-06-19',
-        name: '2-й этап вело-Кубка по рогейну',
+        name: '2 этап вело-Кубка по рогейну',
         place: 'Токсово',
         type: 'ROGAINE',
         res: 'http://www.100x24.ru/2010/results/20100619_prelim.htm',
@@ -714,7 +714,7 @@ let events2010 = [
         id: 'SPB_20100704_1',
         date: '2010-07-04',
         place: 'оз.Медное',
-        name: 'Кубок Яркого Мира 2010, 4-й этап',
+        name: 'Кубок Яркого Мира 2010, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100704_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -795,7 +795,7 @@ let events2010 = [
         id: 'SPB_20100821_2',
         date: '2010-08-21',
         place: 'Мичуринское',
-        name: 'Кубок Яркого Мира 2010, 5-й этап',
+        name: 'Кубок Яркого Мира 2010, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100821_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -804,7 +804,7 @@ let events2010 = [
         id: 'SPB_20100822_1',
         date: '2010-08-22',
         place: 'Мичуринское',
-        name: 'Кубок Яркого Мира 2010, 6-й этап',
+        name: 'Кубок Яркого Мира 2010, 6 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100822_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -835,7 +835,7 @@ let events2010 = [
         id: 'SPB_20100904_2',
         date: '2010-09-04',
         place: 'оз.Пасторское',
-        name: 'Кубок Яркого Мира 2010, 7-й этап',
+        name: 'Кубок Яркого Мира 2010, 7 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100904_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -844,7 +844,7 @@ let events2010 = [
         id: 'SPB_20100905_1',
         date: '2010-09-05',
         place: 'оз.Пасторское',
-        name: 'Кубок Яркого Мира 2010, 8-й этап',
+        name: 'Кубок Яркого Мира 2010, 8 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100905_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -901,7 +901,7 @@ let events2010 = [
         id: 'SPB_20100916_1',
         date: '2010-09-16',
         place: 'Кавголово',
-        name: 'Осенний Кубок команды 110%, 1-й этап',
+        name: 'Осенний Кубок команды 110%, 1 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/101118/100916_res.htm',
         o_site: '101118'
@@ -932,7 +932,7 @@ let events2010 = [
         id: 'SPB_20100919_2',
         date: '2010-09-19',
         place: 'Мичуринское',
-        name: 'Кубок Яркого Мира 2010, 9-й этап',
+        name: 'Кубок Яркого Мира 2010, 9 этап',
         o_site: '2010CupYM',
         start: 'YM_CUP'
     },
@@ -992,7 +992,7 @@ let events2010 = [
         id: 'SPB_20100930_1',
         date: '2010-09-30',
         place: 'Токсово',
-        name: 'Осенний Кубок команды 110%, 2-й этап',
+        name: 'Осенний Кубок команды 110%, 2 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/101118/100930_res.htm',
         o_site: '101118'
@@ -1067,7 +1067,7 @@ let events2010 = [
         id: 'SPB_20101014_1',
         date: '2010-10-14',
         place: 'Юкки',
-        name: 'Осенний Кубок команды 110%, 3-й этап',
+        name: 'Осенний Кубок команды 110%, 3 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/101118/101014_res.htm',
         o_site: '101118'
@@ -1114,7 +1114,7 @@ let events2010 = [
         id: 'SPB_20101021_1',
         date: '2010-10-21',
         place: 'Кузьмолово',
-        name: 'Осенний Кубок команды 110%, 4-й этап',
+        name: 'Осенний Кубок команды 110%, 4 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/101118/101021_res.htm',
         o_site: '101118'
@@ -1204,7 +1204,7 @@ let events2010 = [
         id: 'SPB_20101111_1',
         date: '2010-11-11',
         place: 'Кавголово',
-        name: 'Осенний Кубок команды 110%, 5-й этап',
+        name: 'Осенний Кубок команды 110%, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/101118/101111_res.htm',
         start: 'ROGAINE_110',
         o_site: '101118'
@@ -1222,11 +1222,11 @@ let events2010 = [
         id: 'SPB_20101121_1',
         date: '2010-11-21',
         place: 'Пискарёвский парк',
-        name: 'Снежная Тропа, 1-й этап',
+        name: 'Снежная Тропа, 1 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/101121/101121_res1.htm',
         split: 'splits/2010/SPB_20101121_1_split.htm',
-        info: '21 ноября 2010 г. - 1-й этап 12 декабря 2010 г. - 2-й этап',
+        info: '21 ноября 2010 г. - 1 этап 12 декабря 2010 г. - 2 этап',
         fmt: 'ориентирование по выбору',
         o_site: '101121',
         map: 'piskarevsky_1996'
@@ -1240,7 +1240,7 @@ let events2010 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/101127_gk/101127_res.xls',
         split: 'splits/2010/SPB_20101127_1_split.htm',
-        info: 'Рогейн. 6-й этап Кубка Горный кросс-2010',
+        info: 'Рогейн. 6 этап Кубка Горный кросс-2010',
         start: 'GORNY_CROSS',
         o_site: '101127_gk'
     },
@@ -1250,7 +1250,7 @@ let events2010 = [
         place: 'Зеленогорск',
         name: 'Кубок ОК Гольфстрим, 1 этап',
         res: 'http://gs-oc.ru/phocadownload/competitions/gs-cup-2011/101128_results.htm',
-        info: '1-й этап: 28 ноября – Маркированная трасса бегом 35-60 минут. Заявка производится на сайте http://o-reg.spb.ru/',
+        info: '1 этап: 28 ноября – Маркированная трасса бегом 35-60 минут. Заявка производится на сайте http://o-reg.spb.ru/',
         owner: 'GOLFSTREAM',
         o_site: '101128'
     },
@@ -1279,17 +1279,17 @@ let events2010 = [
         id: 'SPB_20101212_1',
         date: '2010-12-12',
         place: 'Парк Зверинец, Петродворец',
-        name: 'Снежная Тропа, 2-й этап',
+        name: 'Снежная Тропа, 2 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/101212/101212_res.htm',
         split: 'splits/2010/SPB_20101212_1_split.htm',
-        info: '21 ноября 2010 г. - 1-й этап 12 декабря 2010 г. - 2-й этап',
+        info: '21 ноября 2010 г. - 1 этап 12 декабря 2010 г. - 2 этап',
         o_site: '101212'
     },
     {
         id: 'SPB_20101219_1',
         date: '2010-12-19',
-        name: 'Всеволожская тропа, 1-й этап',
+        name: 'Всеволожская тропа, 1 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/110410_tropa/101219_res.htm',
         o_site: '110410_tropa'

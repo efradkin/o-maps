@@ -297,7 +297,7 @@ let events2023 = [
     {
         id: 'SPB_20230311_1',
         date: '2023-03-11',
-        name: 'Ice Trail Рогейн, 2-й этап Кубка ЛО по рогейну',
+        name: 'Ice Trail Рогейн, 2 этап Кубка ЛО по рогейну',
         place: 'Кротово, оз Вуокса',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/ice-trail-2023/registration.html',
@@ -519,7 +519,7 @@ let events2023 = [
         id: 'SPB_20230422_3',
         date: '2023-04-22',
         place: 'Голубая Дача',
-        name: 'Кубок Белых Ночей 2022/23, 10-й этап',
+        name: 'Кубок Белых Ночей 2022/23, 10 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230422_split.htm',
         o_site: 'cbn_2023'
@@ -575,7 +575,7 @@ let events2023 = [
         id: 'SPB_20230430_2',
         date: '2023-04-30',
         place: 'Сосново',
-        name: 'Кубок Белых Ночей 2022/23, 12-й этап',
+        name: 'Кубок Белых Ночей 2022/23, 12 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230430_split.htm',
         o_site: 'cbn_2023'
@@ -606,7 +606,7 @@ let events2023 = [
         id: 'SPB_20230501_3',
         date: '2023-05-01',
         place: 'Первомайское',
-        name: 'Кубок Белых Ночей 2022/23, 13-й этап',
+        name: 'Кубок Белых Ночей 2022/23, 13 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230501_split.htm',
         o_site: 'cbn_2023'
@@ -626,7 +626,7 @@ let events2023 = [
         id: 'SPB_20230506_2',
         date: '2023-05-06',
         place: 'Былинное озеро',
-        name: 'Кубок Белых Ночей 2022/23, 14-й этап',
+        name: 'Кубок Белых Ночей 2022/23, 14 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230506_split.htm',
         o_site: 'cbn_2023'
@@ -643,7 +643,7 @@ let events2023 = [
         id: 'SPB_20230507_2',
         date: '2023-05-07',
         place: 'Садоводство топограф',
-        name: 'Кубок Белых Ночей 2022/23, 15-й этап',
+        name: 'Кубок Белых Ночей 2022/23, 15 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230507_split.htm',
         o_site: 'cbn_2023'
@@ -663,7 +663,7 @@ let events2023 = [
         id: 'SPB_20230508_2',
         date: '2023-05-08',
         place: 'Мичуринское(склон)',
-        name: 'Кубок Белых Ночей 2022/23, 16-й этап',
+        name: 'Кубок Белых Ночей 2022/23, 16 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230508_split.htm',
         o_site: 'cbn_2023'
@@ -758,7 +758,7 @@ let events2023 = [
         id: 'SPB_20230514_2',
         date: '2023-05-14',
         place: 'Симагино',
-        name: 'Кубок Белых Ночей 2022/23, 18-й этап',
+        name: 'Кубок Белых Ночей 2022/23, 18 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230514_split.htm',
         o_site: 'cbn_2023'
@@ -1275,7 +1275,7 @@ let events2023 = [
         id: 'SPB_20230701_1',
         date: '2023-07-01',
         place: 'Колтуши',
-        name: 'Кубок ЛО по рогейну, 3-й этап',
+        name: 'Кубок ЛО по рогейну, 3 этап',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/klo-kolt-23/registration.html',
         fmt: '4 часа бегом; 4 часа на велосипеде.',
@@ -1370,7 +1370,7 @@ let events2023 = [
         id: 'SPB_20230722_3',
         date: '2023-07-22',
         place: 'Воробьево озеро',
-        name: 'Кубок Белых Ночей 2022/23, 19-й этап',
+        name: 'Кубок Белых Ночей 2022/23, 19 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230722_res.htm',
         o_site: 'cbn_2023'
@@ -1379,7 +1379,7 @@ let events2023 = [
         id: 'SPB_20230723_1',
         date: '2023-07-23',
         place: 'Воробьево озеро',
-        name: 'Кубок Белых Ночей 2022/23, 20-й этап',
+        name: 'Кубок Белых Ночей 2022/23, 20 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230723_res.htm',
         o_site: 'cbn_2023'
@@ -2254,7 +2254,7 @@ let events2023 = [
         id: 'SPB_20231118_1',
         date: '2023-11-18',
         place: 'Озерки',
-        name: 'Кубок Белых Ночей 2023/24, 3-й этап',
+        name: 'Кубок Белых Ночей 2023/24, 3 этап',
         start: 'KBN',
         o_site: 'kbn_2024'
     },
@@ -2300,7 +2300,7 @@ let events2023 = [
         id: 'SPB_20231125_3',
         date: '2023-11-25',
         place: 'Болотная станция',
-        name: 'Кубок Белых Ночей 2023/24, 4-й этап',
+        name: 'Кубок Белых Ночей 2023/24, 4 этап',
         start: 'KBN',
         res: 'https://o-site.spb.ru/_races/kbn_2024/231125_res.htm',
         o_site: 'kbn_2024'
