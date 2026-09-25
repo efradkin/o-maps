@@ -193,7 +193,7 @@ let events2009 = [
         id: 'SPB_20090308_1',
         date: '2009-03-08',
         place: 'Теплобетонная',
-        name: 'Всеволожская тропа - 4 этап',
+        name: 'Всеволожская тропа, 4 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'https://o-site.spb.ru/_races/090308/090308_res.zip',
         o_site: '090308'

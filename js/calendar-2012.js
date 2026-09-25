@@ -267,7 +267,7 @@ let events2012 = [
     {
         id: 'SPB_20120408_1',
         date: '2012-04-08',
-        name: 'Всеволожская тропа 2012 5 этап',
+        name: 'Всеволожская тропа 2012, 5 этап',
         start: 'VSEVOLOZHSK_WAY',
         place: 'Кузьмоловский',
         res: 'https://o-site.spb.ru/_races/120408_tropa/120408_res.htm',
@@ -771,7 +771,7 @@ let events2012 = [
     {
         id: 'SPB_20120721_1',
         date: '2012-07-21',
-        name: 'Чемпионат России по рогейну, Горный кросс (3 этап)',
+        name: 'Чемпионат России по рогейну, Горный кросс, 3 этап',
         place: 'Первомайский',
         type: 'ROGAINE',
         start: ['RUSSIA_ROGAINE_CHAMP','GORNY_CROSS'],
@@ -896,7 +896,7 @@ let events2012 = [
     {
         id: 'SPB_20120908_1',
         date: '2012-09-08',
-        name: 'Горный кросс (4 этап)',
+        name: 'Горный кросс, 4 этап',
         link: 'gornycross.narod.ru',
         type: 'ROGAINE',
         start: 'GORNY_CROSS'
@@ -1253,7 +1253,7 @@ let events2012 = [
     {
         id: 'SPB_20121025_1',
         date: '2012-10-25',
-        name: 'Кубок команды 110% 13-й этап',
+        name: 'Кубок команды 110%, 13-й этап',
         place: 'Кавголово',
         res: 'http://o-site.spb.ru/_races/121025/120419_res.htm',
         split: 'splits/2012/SPB_20121025_1_split.htm',

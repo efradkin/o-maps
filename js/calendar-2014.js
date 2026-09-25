@@ -199,7 +199,7 @@ let events2014 = [
     {
         id: 'SPB_20140310_1',
         date: '2014-03-10',
-        name: 'Всеволожская тропа 2014 - 2 этап',
+        name: 'Всеволожская тропа 2014, 2 этап',
         start: 'VSEVOLOZHSK_WAY',
         place: 'Кузьмоловский',
         reg: 'http://o-reg.spb.ru/',
@@ -253,14 +253,6 @@ let events2014 = [
         o_site: '140323_OR'
     },
     {
-        id: 'SPB_20140401_2',
-        date: '2014-04-01',
-        name: 'Кузьмоловские старты - 15 этап',
-        start: 'KUZMOLOVSKY_STARTS',
-        res: 'https://o-site.spb.ru/_races/140410/141023_res.htm',
-        o_site: '140410'
-    },
-    {
         id: 'SPB_20140401_3',
         date: '2014-04-01',
         name: 'Летний Кубок СПб и ЛО',
@@ -282,7 +274,7 @@ let events2014 = [
         id: 'SPB_20140409_1',
         date: '2014-04-09',
         place: 'гимназия №92',
-        name: 'Sprint Tour SPb 2014: 1 этап',
+        name: 'Sprint Tour SPb 2014, 1 этап',
         start: 'SPRINT_TOUR',
         res: 'http://o-site.spb.ru/_races/140409/140409_res.htm',
         o_site: '140409'
@@ -343,7 +335,7 @@ let events2014 = [
         id: 'SPB_20140416_2',
         date: '2014-04-16',
         place: 'лицей №176',
-        name: 'Sprint Tour SPb 2014: 2 этап',
+        name: 'Sprint Tour SPb 2014, 2 этап',
         start: 'SPRINT_TOUR',
         res: [
             'http://o-site.spb.ru/_races/140409/160414_split.htm',
@@ -434,7 +426,7 @@ let events2014 = [
         id: 'SPB_20140507_1',
         date: '2014-05-07',
         place: 'Кронштадт',
-        name: 'Sprint Tour SPb 2014: 3 этап',
+        name: 'Sprint Tour SPb 2014, 3 этап',
         start: 'SPRINT_TOUR',
         res: [
             'http://o-site.spb.ru/_races/140409/140507_split.htm',
@@ -487,7 +479,7 @@ let events2014 = [
         id: 'SPB_20140514_2',
         date: '2014-05-14',
         place: 'Политехническая',
-        name: 'Sprint Tour SPb 2014: 4 этап',
+        name: 'Sprint Tour SPb 2014, 4 этап',
         res: [
             'http://o-site.spb.ru/_races/140409/140514_split.htm',
             'https://reg.o-time.ru/race/140514'
@@ -577,7 +569,7 @@ let events2014 = [
         id: 'SPB_20140521_2',
         date: '2014-05-21',
         place: 'шк №145',
-        name: 'Sprint Tour SPb 2014: 5 этап',
+        name: 'Sprint Tour SPb 2014, 5 этап',
         res: [
             'http://o-site.spb.ru/_races/140409/140521_split.htm',
             'https://reg.o-time.ru/race/140521'
@@ -589,7 +581,7 @@ let events2014 = [
     {
         id: 'SPB_20140522_1',
         date: '2014-05-22',
-        place: 'Охта-парк',
+        place: 'Токсово, Охта-парк',
         name: 'Кузьмоловские старты, 5-й этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://o-site.spb.ru/_races/140410/140522_split.htm',
@@ -654,7 +646,7 @@ let events2014 = [
         id: 'SPB_20140528_1',
         date: '2014-05-28',
         place: 'парк Есенина',
-        name: 'Sprint Tour SPb 2014: 6 этап',
+        name: 'Sprint Tour SPb 2014, 6 этап',
         start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/140528'
@@ -665,7 +657,6 @@ let events2014 = [
         place: 'Куялово',
         name: 'Кузьмоловские старты, 6-й этап',
         start: 'KUZMOLOVSKY_STARTS',
-        res: 'http://o-site.spb.ru/_races/140410/140529_split.htm',
         o_site: '140410'
     },
     {
@@ -707,7 +698,7 @@ let events2014 = [
         id: 'SPB_20140604_1',
         date: '2014-06-04',
         place: 'Озерки',
-        name: 'Sprint Tour SPb 2014: 7 этап',
+        name: 'Sprint Tour SPb 2014, 7 этап',
         start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/140604'
@@ -1081,7 +1072,7 @@ let events2014 = [
     {
         id: 'SPB_20140904_1',
         date: '2014-09-04',
-        place: 'Токсово',
+        place: 'Юкки',
         name: 'Кузьмоловские старты, 8-й этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://o-site.spb.ru/_races/140410/140904_res.htm',
@@ -1135,7 +1126,7 @@ let events2014 = [
         id: 'SPB_20140910_1',
         date: '2014-09-10',
         place: 'шк №2',
-        name: 'Sprint Tour SPb 2014: 8 этап',
+        name: 'Sprint Tour SPb 2014, 8 этап',
         start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/140910'
@@ -1143,7 +1134,7 @@ let events2014 = [
     {
         id: 'SPB_20140911_1',
         date: '2014-09-11',
-        place: 'Токсово',
+        place: 'Медное озеро',
         name: 'Кузьмоловские старты, 9-й этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://o-site.spb.ru/_races/140410/140911_res.htm',
@@ -1174,7 +1165,7 @@ let events2014 = [
         id: 'SPB_20140917_1',
         date: '2014-09-17',
         place: 'Ломоносовская',
-        name: 'Sprint Tour SPb 2014: 9 этап',
+        name: 'Sprint Tour SPb 2014, 9 этап',
         start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/140917'
@@ -1235,7 +1226,7 @@ let events2014 = [
         id: 'SPB_20140924_1',
         date: '2014-09-24',
         place: 'Выборгский р-н',
-        name: 'Sprint Tour SPb 2014: 10 этап',
+        name: 'Sprint Tour SPb 2014, 10 этап',
         start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/140924'
@@ -1243,7 +1234,7 @@ let events2014 = [
     {
         id: 'SPB_20140925_1',
         date: '2014-09-25',
-        place: 'Кузьмолово',
+        place: 'Охта-Парк',
         name: 'Кузьмоловские старты, 11-й этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://o-site.spb.ru/_races/140410/140925_res.htm',
@@ -1338,7 +1329,7 @@ let events2014 = [
         id: 'SPB_20140927_3',
         date: '2014-10-04',
         place: 'Коломна',
-        name: 'Sprint Tour SPb 2014: 11 этап',
+        name: 'Sprint Tour SPb 2014, 11 этап',
         start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/140927'
@@ -1404,7 +1395,7 @@ let events2014 = [
         id: 'SPB_20141011_2',
         date: '2014-10-11',
         place: 'шк №575',
-        name: 'Sprint Tour SPb 2014: 12 этап',
+        name: 'Sprint Tour SPb 2014, 12 этап',
         start: 'SPRINT_TOUR',
         o_site: '140409',
         res: 'https://reg.o-time.ru/race/141011'
@@ -1413,9 +1404,9 @@ let events2014 = [
         id: 'SPB_20141012_1',
         date: '2014-10-12',
         name: 'Открытый старт на маркированной трассе',
-        place: 'Токсово, Зубровник',
+        place: 'Лемболово',
         reg: 'http://o-reg.spb.ru/',
-        res: 'https://o-site.spb.ru/_races/141012/141012_res_2.html',
+        res: 'https://o-site.spb.ru/_races/140410/141016_res.htm',
         o_site: '141012'
     },
     {
@@ -1439,7 +1430,6 @@ let events2014 = [
         place: 'Токсово',
         name: 'Кузьмоловские старты, 14-й этап',
         start: 'KUZMOLOVSKY_STARTS',
-        res: 'http://o-site.spb.ru/_races/140410/141016_res.htm',
         o_site: '140410'
     },
     {
@@ -1463,6 +1453,15 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/141019/141025_res.pdf',
         split: 'splits/2014/SPB_20141019_1_split.htm',
         o_site: '141019'
+    },
+    {
+        id: 'SPB_20141023_1',
+        date: '2014-10-23',
+        place: 'Кузьмолово',
+        name: 'Кузьмоловские старты, 15-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
+        res: 'https://o-site.spb.ru/_races/140410/141023_split.htm',
+        o_site: '140410'
     },
     {
         id: 'SPB_20141025_1',
@@ -1658,7 +1657,7 @@ let events2014 = [
     {
         id: 'SPB_20141214_1',
         date: '2014-12-14',
-        name: 'Всеволожская тропа 2014 - 5 этап',
+        name: 'Всеволожская тропа 2014, 5 этап',
         start: 'VSEVOLOZHSK_WAY',
         place: 'Кузьмоловский',
         reg: 'http://o-reg.spb.ru/',

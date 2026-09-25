@@ -272,7 +272,7 @@ let events2011 = [
     {
         id: 'SPB_20110410_1',
         date: '2011-04-10',
-        name: 'Всеволожская тропа 4 этап',
+        name: 'Всеволожская тропа, 4 этап',
         start: 'VSEVOLOZHSK_WAY',
         place: 'Токсово',
         res: 'https://o-site.spb.ru/_races/110410_tropa/110410_split.htm',
@@ -474,7 +474,7 @@ let events2011 = [
         id: 'SPB_20110522_1',
         date: '2011-05-22',
         place: 'Васкелово (пост ГАИ)',
-        name: 'Кубок Центра Ладога 3 этап',
+        name: 'Кубок Центра Ладога, 3 этап',
         res: 'http://o-time.ru/content/blogcategory/20/56/',
         o_site: '110522_lo'
     },
@@ -1298,7 +1298,7 @@ let events2011 = [
         id: 'SPB_20111218_1',
         date: '2011-12-18',
         place: 'Бугры',
-        name: 'Всеволожская тропа 2012 2 этап',
+        name: 'Всеволожская тропа 2012, 2 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'https://o-site.spb.ru/_races/111218/111218_res2.PDF',
         split: 'splits/2011/SPB_20111218_1_split.htm',

@@ -424,7 +424,7 @@ let events2024 = [
         id: 'SPB_20240420_1',
         date: '2024-04-20',
         place: 'Петяярви',
-        name: 'Кубок Белых ночей 6 этап',
+        name: 'Кубок Белых ночей, 6 этап',
         start: 'KBN',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1607',
         map: 'petjajarvy_2024',
@@ -450,7 +450,7 @@ let events2024 = [
         id: 'SPB_20240423_1',
         date: '2024-04-23',
         place: 'руч Оккервиль',
-        name: 'Noname Спринт Тур 2024. 1 этап',
+        name: 'Noname Спринт Тур 2024, 1 этап',
         start: 'SPRINT_TOUR',
         strava: 11247373096,
         reskeep: 643,
@@ -571,7 +571,7 @@ let events2024 = [
         id: 'SPB_20240504_2',
         date: '2024-05-04',
         place: 'м.Чкаловская',
-        name: 'Noname Sprint Tour 2024. 2 этап',
+        name: 'Noname Sprint Tour 2024, 2 этап',
         start: 'SPRINT_TOUR',
         reskeep: 644
     },
@@ -593,7 +593,7 @@ let events2024 = [
     {
         id: 'SPB_20240505_1',
         date: '2024-05-05',
-        name: 'Кубок белых ночей - 9 этап',
+        name: 'Кубок белых ночей, 9 этап',
         start: 'KBN',
         place: 'Стеклянный',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1614',
@@ -657,7 +657,7 @@ let events2024 = [
     {
         id: 'SPB_20240510_1',
         date: '2024-05-10',
-        name: 'Всеволожский ориентир, Кубок Белых ночей 10 этап',
+        name: 'Всеволожский ориентир, Кубок Белых ночей, 10 этап',
         start: 'KBN',
         place: 'Орово',
         reg: 'http://orgeo.ru/event/info/35406',
@@ -670,7 +670,7 @@ let events2024 = [
     {
         id: 'SPB_20240511_1',
         date: '2024-05-11',
-        name: 'Кубок Белых ночей - 11 этап',
+        name: 'Кубок Белых ночей, 11 этап',
         start: 'KBN',
         place: 'Каллелово',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1617',
@@ -770,7 +770,7 @@ let events2024 = [
     {
         id: 'SPB_20240518_1',
         date: '2024-05-18',
-        name: 'Кубок Белых Ночей 12 этап',
+        name: 'Кубок Белых Ночей, 12 этап',
         start: 'KBN',
         place: 'Болотная станция',
         reg: 'http://orgeo.ru/event/35710',
@@ -794,7 +794,7 @@ let events2024 = [
     {
         id: 'SPB_20240519_1',
         date: '2024-05-19',
-        name: 'Кубок Белых Ночей 13 этап',
+        name: 'Кубок Белых Ночей, 13 этап',
         start: 'KBN',
         place: 'Симагино',
         reg: 'http://orgeo.ru/event/35711',

@@ -169,7 +169,7 @@ let events2010 = [
         id: 'SPB_20100223_1',
         date: '2010-02-23',
         place: 'Орехово',
-        name: 'Невская карусель - 3 этап',
+        name: 'Невская карусель, 3 этап',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/100223_LO/100223_res.htm',
         split: 'splits/2010/SPB_20100223_1_split.htm',
@@ -273,7 +273,7 @@ let events2010 = [
     {
         id: 'SPB_20100321_1',
         date: '2010-03-21',
-        name: 'Кубок ОК Гольфстрим, этап 3',
+        name: 'Кубок ОК Гольфстрим, 3 этап',
         place: 'Комарово, оз. Щучье',
         type: 'SKI',
         publish: 'https://o-site.spb.ru/race.php?id=100321',
