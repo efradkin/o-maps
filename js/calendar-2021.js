@@ -374,7 +374,8 @@ let events2021 = [
         name: 'Noname Sprint Tour SPb - 2021. 1 этап',
         start: 'ST',
         reskeep: 429,
-        map: 'big_okhta_2017'
+        map: 'big_okhta_2017',
+        photo: 'https://vk.ru/album-92124592_278796742'
     },
     {
         id: 'SPB_20210410_1',
@@ -550,7 +551,8 @@ let events2021 = [
         name: 'Noname Sprint Tour SPb - 2021. 3 этап',
         start: 'ST',
         map: 'parkhomenko_2018',
-        reskeep: 431
+        reskeep: 431,
+        photo: 'https://vk.ru/album-92124592_279125704'
     },
     {
         id: 'SPB_20210501_1',
@@ -715,7 +717,8 @@ let events2021 = [
         start: 'ST',
         reskeep: 432,
         strava: 5285445291,
-        map: 'sakharova_2015'
+        map: 'sakharova_2015',
+        photo: 'https://vk.ru/album-92124592_279332137'
     },
     {
         id: 'SPB_20210513_1',
@@ -861,7 +864,8 @@ let events2021 = [
         start: 'ST',
         reskeep: 433,
         strava: 5362352069,
-        map: 'okkervil_2024'
+        map: 'okkervil_2024',
+        photo: 'https://vk.ru/album-92124592_279543597'
     },
     {
         id: 'SPB_20210529_1',
@@ -1493,7 +1497,8 @@ let events2021 = [
         map: 'school_71_2021',
         name: 'Noname Sprint Tour SPb - 2021. 6 этап',
         start: 'ST',
-        reskeep: 485
+        reskeep: 485,
+        photo: 'https://vk.ru/album-92124592_280782453'
     },
     {
         id: 'SPB_20210904_1',
@@ -1590,7 +1595,8 @@ let events2021 = [
         start: 'ST',
         reskeep: 486,
         video: 'https://www.youtube.com/watch?v=HZ4Npy4VtT8',
-        strava: 5964941746
+        strava: 5964941746,
+        photo: 'https://vk.ru/album-92124592_280942284'
     },
     {
         id: 'SPB_20210918_1',
@@ -1722,7 +1728,8 @@ let events2021 = [
         start: 'ST',
         reskeep: 487,
         video: 'https://www.youtube.com/watch?v=geYSM5DsKGg',
-        strava: [6038430926,6038435320]
+        strava: [6038430926,6038435320],
+        photo: 'https://vk.ru/album-92124592_281129924'
     },
     {
         id: 'SPB_20211002_1',
@@ -1801,7 +1808,8 @@ let events2021 = [
         name: 'Noname Sprint Tour SPb - 2021. 9 этап',
         start: 'ST',
         reskeep: 488,
-        strava: 6085105291
+        strava: 6085105291,
+        photo: 'https://vk.ru/album-92124592_281271230'
     },
     {
         id: 'SPB_20211009_5',

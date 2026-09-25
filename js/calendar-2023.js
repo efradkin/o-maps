@@ -447,7 +447,8 @@ let events2023 = [
         name: 'Noname Sprint Tour SPb 2023 - 1 этап',
         start: 'ST',
         reskeep: 570,
-        map: 'smolenka_2014'
+        map: 'smolenka_2014',
+        photo: 'https://vk.ru/album-92124592_292418326'
     },
     {
         id: 'SPB_20230415_1',
@@ -530,7 +531,8 @@ let events2023 = [
         name: 'Noname Sprint Tour SPb 2023 - 2 этап',
         start: 'ST',
         reskeep: 573,
-        map: 'murinsky_east_2023'
+        map: 'murinsky_east_2023',
+        photo: 'https://vk.ru/album-92124592_292708441'
     },
     {
         id: 'SPB_20230429_1',
@@ -690,7 +692,8 @@ let events2023 = [
         name: 'Noname Sprint Tour SPb 2023 - 3 этап',
         video: 'https://www.youtube.com/watch?v=m_Uec_whsi4',
         start: 'ST',
-        reskeep: 586
+        reskeep: 586,
+        photo: 'https://vk.ru/album-92124592_292986474'
     },
     {
         id: 'SPB_20230511_1',
@@ -767,7 +770,8 @@ let events2023 = [
         map: 'school_532_2023',
         name: 'RUNLAB-спринт (Noname Sprint Tour SPb 2023 - 4 этап)',
         start: 'ST',
-        reskeep: 587
+        reskeep: 587,
+        photo: 'https://vk.ru/album-92124592_293157307'
     },
     {
         id: 'SPB_20230517_2',
@@ -1879,7 +1883,8 @@ let events2023 = [
             'М':17480,
             'Ж':17482
         },
-        map: 'zhaka_djuklo_2023'
+        map: 'zhaka_djuklo_2023',
+        photo: 'https://vk.ru/album-92124592_297414910'
     },
     {
         id: 'SPB_20231005_1',
@@ -2095,7 +2100,8 @@ let events2023 = [
         o_gps: 17674,
         name: 'Noname Sprint Tour 2023. 7 этап',
         start: 'ST',
-        reskeep: 621
+        reskeep: 621,
+        photo: 'https://vk.ru/album-92124592_298623345'
     },
     {
         id: 'SPB_20231028_4',

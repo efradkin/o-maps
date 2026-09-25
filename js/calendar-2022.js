@@ -229,7 +229,8 @@ let events2022 = [
         strava: 6940867365,
         start: 'ST',
         reskeep: 515,
-        map: 'sestroretskaya_2023'
+        map: 'sestroretskaya_2023',
+        photo: 'https://vk.ru/album-92124592_283576651'
     },
     {
         id: 'SPB_20220409_1',
@@ -325,7 +326,8 @@ let events2022 = [
         strava: 7013752140,
         start: 'ST',
         reskeep: 516,
-        map: 'novocherkasskaya_2020'
+        map: 'novocherkasskaya_2020',
+        photo: 'https://vk.ru/album-92124592_283787633'
     },
     {
         id: 'SPB_20220423_1',
@@ -391,7 +393,8 @@ let events2022 = [
         name: 'Noname Sprint Tour SPb 2022 - 3 этап (MASS-SPRINT)',
         start: 'ST',
         reskeep: 517,
-        map: 'pargolovo_2021'
+        map: 'pargolovo_2021',
+        photo: 'https://vk.ru/album-92124592_283881261'
     },
     {
         id: 'SPB_20220430_1',
@@ -673,7 +676,8 @@ let events2022 = [
         name: 'Noname Sprint Tour SPb 2022 - 4 этап',
         start: 'ST',
         strava: 7164374564,
-        reskeep: 518
+        reskeep: 518,
+        photo: 'https://vk.ru/album-92124592_284193747'
     },
     {
         id: 'SPB_20220520_1',
@@ -850,7 +854,8 @@ let events2022 = [
         map: 'school_98_2022',
         name: 'Noname Sprint Tour SPb 2022 - 5 этап',
         start: 'ST',
-        reskeep: 519
+        reskeep: 519,
+        photo: 'https://vk.ru/album-92124592_284354256'
     },
     {
         id: 'SPB_20220604_1',
@@ -1536,7 +1541,8 @@ let events2022 = [
         o_gps: 14009,
         name: 'Noname Sprint Tour SPb - 2023. 6 этап',
         start: 'ST',
-        reskeep: 555
+        reskeep: 555,
+        photo: 'https://vk.ru/album-92124592_286471507'
     },
     {
         id: 'SPB_20220908_1',
@@ -1663,7 +1669,8 @@ let events2022 = [
         place: 'ул Фаворского',
         name: 'Noname Sprint Tour SPb - 2022. 7 этап',
         start: 'ST',
-        reskeep: 557
+        reskeep: 557,
+        photo: 'https://vk.ru/album-92124592_286829863'
     },
     {
         id: 'SPB_20220924_1',
@@ -2014,7 +2021,8 @@ let events2022 = [
         start: 'ST',
         reskeep: 571,
         o_gps: 14471,
-        map: 'dibunovskaya_2022'
+        map: 'dibunovskaya_2022',
+        photo: 'https://vk.ru/album-92124592_287589995'
     },
     {
         id: 'SPB_20221023_1',
@@ -2209,7 +2217,8 @@ let events2022 = [
         map: 'akadem_park_2022',
         name: 'Noname Sprint Tour - 2022. 10 этап',
         start: 'ST',
-        reskeep: 564
+        reskeep: 564,
+        photo: 'https://vk.ru/album-92124592_287990405'
     },
     {
         id: 'SPB_20221112_3',

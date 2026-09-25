@@ -325,7 +325,8 @@ let events2019 = [
         name: 'Sprint Tour 2019. 1 этап',
         start: 'ST',
         reskeep: 110,
-        map: 'big_okhta_2017'
+        map: 'big_okhta_2017',
+        photo: 'https://vk.ru/album-92124592_262136984'
     },
     {
         id: 'SPB_20190413_1',
@@ -366,7 +367,8 @@ let events2019 = [
         place: 'Муринский парк',
         name: 'Sprint Tour 2019. 2 этап',
         start: 'ST',
-        reskeep: 112
+        reskeep: 112,
+        photo: 'https://vk.ru/album-92124592_262317391'
     },
     {
         id: 'SPB_20190420_1',
@@ -673,6 +675,13 @@ let events2019 = [
         reskeep: 133
     },
     {
+        id: 'SPB_20190515_3',
+        date: '2019-05-15',
+        name: 'Sprint Tour SPb',
+        start: 'ST',
+        photo: 'https://vk.ru/album-92124592_263053650'
+    },
+    {
         id: 'SPB_20190518_1',
         date: '2019-05-18',
         name: 'Российский Азимут ЛО',
@@ -835,7 +844,8 @@ let events2019 = [
         place: 'Гражданский пр',
         name: 'Sprint Tour 2019. 4 этап',
         start: 'ST',
-        reskeep: 143
+        reskeep: 143,
+        photo: 'https://vk.ru/album-92124592_263417096'
     },
     {
         id: 'SPB_20190601_1',
@@ -1491,7 +1501,8 @@ let events2019 = [
         place: 'Учительская ул',
         name: 'Sprint Tour SPb - осень 2019. 1 этап',
         start: 'ST',
-        reskeep: 195
+        reskeep: 195,
+        photo: 'https://vk.ru/album-92124592_266374624'
     },
     {
         id: 'SPB_20190912_1',
@@ -1780,7 +1791,8 @@ let events2019 = [
         place: 'Озерки',
         name: 'Sprint Tour SPb - осень 2019. 3 этап. MassSprint',
         start: 'ST',
-        reskeep: 197
+        reskeep: 197,
+        photo: 'https://vk.ru/album-92124592_267344035'
     },
     {
         id: 'SPB_20191011_1',

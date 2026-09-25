@@ -326,7 +326,8 @@ let events2016 = [
         place: 'ул Рубинштейна',
         name: 'Sprint Tour SPb',
         start: 'ST',
-        map: '5_uglov_2015'
+        map: '5_uglov_2015',
+        photo: 'https://vk.ru/album-92124592_230362297'
     },
     {
         id: 'SPB_20160403_1',
@@ -392,6 +393,13 @@ let events2016 = [
         res: 'http://www.o-site.spb.ru/_races/2016YC/160416_split.htm',
         o_site: '2016YC',
         start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20160417_1',
+        date: '2016-04-17',
+        name: 'Sprint Tour SPb 2016: 2 этап',
+        start: 'ST',
+        photo: 'https://vk.ru/album-92124592_230604141'
     },
     {
         id: 'SPB_20160419_1',

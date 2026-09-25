@@ -688,6 +688,13 @@ let events2015 = [
         video: ['https://www.youtube.com/watch?v=X6Uqse_T99M','https://www.youtube.com/watch?v=utaVbBDK6bk']
     },
     {
+        id: 'SPB_20150527_1',
+        date: '2015-05-27',
+        name: 'Sprint Tour SPb 2015: 7 этап',
+        start: 'ST',
+        photo: 'https://vk.ru/album-92124592_216010954'
+    },
+    {
         id: 'SPB_20150530_1',
         date: '2015-05-30',
         place: 'Облучье',
@@ -1167,6 +1174,13 @@ let events2015 = [
         o_site: '150908'
     },
     {
+        id: 'SPB_20150916_1',
+        date: '2015-09-16',
+        name: 'Sprint Tour SPb 2015: 11 этап',
+        start: 'ST',
+        photo: 'https://vk.ru/album-92124592_220682762'
+    },
+    {
         id: 'SPB_20150919_1',
         date: '2015-09-19',
         place: 'Краснофллотск, форт Красная Горка',
@@ -1237,6 +1251,13 @@ let events2015 = [
         start: 'WEEKLY_ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2015/08/Weekly-Orient-3-%D1%8D%D1%82%D0%B0%D0%BF-%D1%81.htm',
         o_site: '150908'
+    },
+    {
+        id: 'SPB_20150922_2',
+        date: '2015-09-22',
+        name: 'Sprint Tour SPb 2015: 12 этап',
+        start: 'ST',
+        photo: 'https://vk.ru/album-92124592_220935768'
     },
     {
         id: 'SPB_20150925_1',

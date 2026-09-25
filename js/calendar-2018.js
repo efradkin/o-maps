@@ -1394,7 +1394,8 @@ let events2018 = [
         name: 'Sprint Tour SPb 2018. 1 этап',
         start: 'ST',
         reskeep: 24,
-        map: 'big_okhta_2017'
+        map: 'big_okhta_2017',
+        photo: 'https://vk.ru/album-92124592_256239367'
     },
     {
         id: 'SPB_20180908_1',
@@ -1449,7 +1450,8 @@ let events2018 = [
         place: 'Выборгский р-н',
         name: 'Sprint Tour SPb 2018. 2 этап',
         start: 'ST',
-        reskeep: 31
+        reskeep: 31,
+        photo: 'https://vk.ru/album-92124592_256413075'
     },
     {
         id: 'SPB_20180913_1',
@@ -1505,7 +1507,8 @@ let events2018 = [
         name: 'Sprint Tour SPb 2018. 3 этап',
         start: 'ST',
         reskeep: 40,
-        map: 'serebrjany_prud_2018'
+        map: 'serebrjany_prud_2018',
+        photo: 'https://vk.ru/album-92124592_256560277'
     },
     {
         id: 'SPB_20180920_1',
@@ -1741,7 +1744,8 @@ let events2018 = [
         place: 'Васильевский о-в',
         name: 'Sprint Tour SPb 2018. 4 этап',
         start: 'ST',
-        reskeep: 58
+        reskeep: 58,
+        photo: 'https://vk.ru/album-92124592_256957030'
     },
     {
         id: 'SPB_20181006_3',

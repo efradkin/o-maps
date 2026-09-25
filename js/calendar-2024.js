@@ -454,7 +454,8 @@ let events2024 = [
         start: 'ST',
         strava: 11247373096,
         reskeep: 643,
-        map: 'okkervil_2024'
+        map: 'okkervil_2024',
+        photo: 'https://vk.ru/album-92124592_302471696'
     },
     {
         id: 'SPB_20240427_1',
@@ -948,7 +949,8 @@ let events2024 = [
         map: 'sampo_2024',
         name: 'Спринт-Тур #3',
         reskeep: 645,
-        start: 'ST'
+        start: 'ST',
+        photo: 'https://vk.ru/album-92124592_303006024'
     },
     {
         id: 'SPB_20240608_1',
@@ -1620,7 +1622,8 @@ let events2024 = [
         start: 'ST',
         reskeep: 666,
         strava: 12384865213,
-        video: 'https://vkvideo.ru/video-92124592_456239031'
+        video: 'https://vkvideo.ru/video-92124592_456239031',
+        photo: 'https://vk.ru/album-92124592_304150070'
     },
     {
         id: 'SPB_20240914_1',
@@ -1893,7 +1896,8 @@ let events2024 = [
         place: 'Озерки',
         name: 'Спринт-Тур, 6 этап',
         reskeep: 669,
-        start: 'ST'
+        start: 'ST',
+        photo: 'https://vk.ru/album-92124592_304480789'
     },
     {
         id: 'SPB_20241011_1',
