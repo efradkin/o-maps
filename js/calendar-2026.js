@@ -2515,7 +2515,8 @@ let events2026 = [
         name: 'Спортивное ориентирование - в школу, №61',
         o_site: '260924',
         owner: 'SFSO_SPB',
-        start: 'SCHOOL'
+        start: 'SCHOOL',
+        map: 'school_364_2026'
     },
     {
         id: 'SPB_20260926_1',

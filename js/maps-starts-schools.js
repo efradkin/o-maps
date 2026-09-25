@@ -236,6 +236,16 @@ let schoolMaps = [
         type: ['SPRINT','CITY']
     },
     {
+        name: 'Школа №364',
+        year: 2026,
+        start: 'SCHOOL',
+        url: './maps/city/school_364_2026.webp',
+        link: ['./original_maps/schools/school_364_2026_omaps.gif','./original_maps/schools/school_364_2026_omaps.ocd','./original_maps/schools/school_364_2026_cources_omaps.ocd'],
+        bounds: [[59.8462377, 30.3836560], [59.8458820, 30.3873789], [59.8440927, 30.3827012]],
+        author: 'ZCHNV',
+        type: ['SPRINT','CITY']
+    },
+    {
         name: 'Школа №312',
         year: 2019,
         start: 'SCHOOL',
