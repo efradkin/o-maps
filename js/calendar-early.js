@@ -2364,8 +2364,19 @@ let eventsEarly = [
     {
         id: 'SPB_19920125_1',
         date: '1992-01-25',
-        // endDate: '1992-02-02',
-        place: 'Лемболово, Васкелово',
+        endDate: '1992-01-26',
+        place: 'Лемболово',
+        name: 'Зимний чемпионат СПб',
+        start: 'SPB_CHAMP',
+        me: 'H21',
+        planner: ['NKFRV_A','TKHNV_V','VLKV_A'],
+        res: './docs/1992/1992_01_25_spb_omaps.pdf'
+    },
+    {
+        id: 'SPB_19920125_1',
+        date: '1992-02-01',
+        endDate: '1992-02-02',
+        place: 'Васкелово',
         name: 'Зимний чемпионат СПб',
         start: 'SPB_CHAMP',
         me: 'H21',

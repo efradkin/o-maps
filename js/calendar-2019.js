@@ -386,7 +386,7 @@ let events2019 = [
     {
         id: 'SPB_20190426_1',
         date: '2019-04-26',
-        // endDate: '2019-05-05',
+        endDate: '2019-05-05',
         place: 'Санкт-Петербург',
         name: 'Чемпионат России по Трейл-О',
         res: 'https://o-site.spb.ru/_races/190502/190501_rez_relay_v2.pdf',
