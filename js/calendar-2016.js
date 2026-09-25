@@ -316,7 +316,9 @@ let events2016 = [
         name: 'Sprint Tour SPb 2016: 1 этап',
         start: 'ST',
         map: '5_uglov_2015',
-        photo: 'https://vk.ru/album-92124592_230362297'
+        o_site: '160409',
+        photo: 'https://vk.ru/album-92124592_230362297',
+        res: 'https://reg.o-time.ru/race/16067'
     },
     {
         id: 'SPB_20160403_1',
@@ -350,7 +352,8 @@ let events2016 = [
         name: 'Sprint Tour SPb 2016: 2 этап',
         start: 'ST',
         photo: 'https://vk.ru/album-92124592_230604141',
-        o_site: '160409'
+        o_site: '160409',
+        res: 'https://reg.o-time.ru/race/16068'
     },
     {
         id: 'SPB_20160416_1',
@@ -424,7 +427,8 @@ let events2016 = [
         place: 'гимназия №92',
         name: 'Sprint Tour SPb 2016: 3 этап',
         start: 'ST',
-        o_site: '160409'
+        o_site: '160409',
+        res: 'https://reg.o-time.ru/race/16069'
     },
     {
         id: 'SPB_20160424_1',
@@ -490,7 +494,8 @@ let events2016 = [
         place: 'Московский р-н',
         name: 'Sprint Tour SPb 2016: 4 этап',
         start: 'ST',
-        o_site: '160409'
+        o_site: '160409',
+        res: 'https://reg.o-time.ru/race/16070'
     },
     {
         id: 'SPB_20160429_1',
@@ -575,14 +580,6 @@ let events2016 = [
         o_site: '160411'
     },
     {
-        id: 'SPB_20160511_2',
-        date: '2016-05-11',
-        place: 'Нарвская',
-        name: 'Sprint Tour SPb 2016: 5 этап',
-        start: 'ST',
-        o_site: '160409'
-    },
-    {
         id: 'SPB_20160514_1',
         date: '2016-05-14',
         place: 'Всеволожск',
@@ -655,7 +652,8 @@ let events2016 = [
         place: 'ул Замшина',
         name: 'Sprint Tour SPb 2016: 6 этап',
         start: 'ST',
-        o_site: '160409'
+        o_site: '160409',
+        res: 'https://reg.o-time.ru/race/16072'
     },
     {
         id: 'SPB_20160521_1',
@@ -731,7 +729,8 @@ let events2016 = [
         name: 'Sprint Tour SPb 2016: 7 этап',
         place: 'Нарвская',
         start: 'ST',
-        map: 'narvskaya_2016'
+        map: 'narvskaya_2016',
+        res: 'https://reg.o-time.ru/race/16073'
     },
     {
         id: 'SPB_20160528_1',
@@ -796,7 +795,8 @@ let events2016 = [
         place: 'Пискаревский парк',
         name: 'Sprint Tour SPb 2016: 8 этап',
         start: 'ST',
-        o_site: '160409'
+        o_site: '160409',
+        res: 'https://reg.o-time.ru/race/16074'
     },
     {
         id: 'SPB_20160604_1',
@@ -821,7 +821,9 @@ let events2016 = [
         name: 'Sprint Tour SPb 2016: 9 этап',
         place: 'Оккервиль',
         start: 'ST',
-        map: 'school_332_2013'
+        map: 'school_332_2013',
+        o_site: '160409',
+        res: 'https://reg.o-time.ru/race/16075'
     },
     {
         id: 'SPB_20160610_1',
@@ -1168,7 +1170,8 @@ let events2016 = [
         place: 'Серебряный пруд',
         name: 'Sprint Tour SPb 2016: 10 этап',
         start: 'ST',
-        o_site: '160409'
+        o_site: '160409',
+        res: 'https://reg.o-time.ru/race/16076'
     },
     {
         id: 'SPB_20160903_1',
@@ -1195,7 +1198,8 @@ let events2016 = [
         place: 'Удельная',
         name: 'Sprint Tour SPb 2016: 11 этап',
         start: 'ST',
-        o_site: '160409'
+        o_site: '160409',
+        res: 'https://reg.o-time.ru/race/16077'
     },
     {
         id: 'SPB_20160911_1',
@@ -1215,7 +1219,8 @@ let events2016 = [
         place: 'Муринский ручей',
         name: 'Sprint Tour SPb 2016: 12 этап',
         start: 'ST',
-        o_site: '160409'
+        o_site: '160409',
+        res: 'https://reg.o-time.ru/race/16078'
     },
     {
         id: 'SPB_20160917_1',
@@ -1258,7 +1263,8 @@ let events2016 = [
         place: 'Выборгский ДДЮТ',
         name: 'Sprint Tour SPb 2016: 13 этап',
         start: 'ST',
-        o_site: '160409'
+        o_site: '160409',
+        res: 'https://reg.o-time.ru/race/16079'
     },
     {
         id: 'SPB_20160924_1',
@@ -1309,7 +1315,8 @@ let events2016 = [
         place: 'Коломна',
         name: 'Sprint Tour SPb 2016: 14 этап',
         start: 'ST',
-        o_site: '160409'
+        o_site: '160409',
+        res: 'https://reg.o-time.ru/race/16080'
     },
     {
         id: 'SPB_20160925_1',
@@ -1338,6 +1345,15 @@ let events2016 = [
         o_site: '160928',
         map: 'school_303_2016',
         start: 'SCHOOL'
+    },
+    {
+        id: 'SPB_20160511_2',
+        date: '2016-09-28',
+        place: 'Нарвская',
+        name: 'Sprint Tour SPb 2016: 5 этап',
+        start: 'ST',
+        o_site: '160409',
+        res: 'https://reg.o-time.ru/race/16071'
     },
     {
         id: 'SPB_20161001_1',
@@ -1415,7 +1431,10 @@ let events2016 = [
         place: 'Чкаловская',
         name: 'Sprint Tour SPb 2016: 15 этап',
         start: 'ST',
-        res: 'https://o-site.spb.ru/_races/160409/161008_res.htm',
+        res: [
+            'https://o-site.spb.ru/_races/160409/161008_res.htm',
+            'https://reg.o-time.ru/race/16081'
+        ],
         o_site: '160409'
     },
     {
