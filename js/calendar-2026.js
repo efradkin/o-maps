@@ -287,7 +287,8 @@ let events2026 = [
         type: 'SKI',
         fmt: 'лично-командные',
         map: 'orekhovo_nyrkovo_winter_2012',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        o_gps: 24199
     },
     {
         id: 'SPB_20260208_2',
@@ -455,7 +456,8 @@ let events2026 = [
         photo: 'https://vk.ru/album-196511971_310324706',
         map: 'sestroretsk_tamozhennaya_doroga_2021',
         strava: 17634619444,
-        me: 'МА'
+        me: 'МА',
+        o_gps: 24362
     },
     {
         id: 'SPB_20260308_1',
@@ -741,7 +743,11 @@ let events2026 = [
         fmt: 'спринт',
         map: 'romanovka_2013',
         owner: 'DLITELNY',
-        reskeep: 864
+        reskeep: 864,
+        o_gps: {
+            'МЭ': 24660,
+            'М21К/М16/М50': 24643
+        }
     },
     {
         id: 'SPB_20260407_1',
@@ -1264,7 +1270,8 @@ let events2026 = [
         link: 'https://vk.com/wall-21809767_52830',
         map: 'polyustrovsky_2022',
         strava: 18540692740,
-        me: 'М50'
+        me: 'М50',
+        o_gps: 25117
     },
     {
         id: 'SPB_20260517_4',
@@ -1395,7 +1402,8 @@ let events2026 = [
         o_site: '260524_VUZ',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1743',
         map: 'orekhovo_figurnoe_2025',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        o_gps: 25150
     },
     {
         id: 'SPB_20260523_4',
@@ -1941,7 +1949,8 @@ let events2026 = [
         map: 'internatsionalistov_2021',
         strava: 19435169467,
         me: '51+',
-        owner: 'FRUNZ_SPORT'
+        owner: 'FRUNZ_SPORT',
+        o_gps: 25660
     },
     {
         id: 'SPB_20260725_2',
@@ -2290,7 +2299,11 @@ let events2026 = [
         name: 'Физкультурное мероприятие',
         place: 'Ржевский л/п',
         reg: 'https://orgeo.ru/event/54769',
-        map: 'rzhevsky_2024'
+        map: 'rzhevsky_2024',
+        o_gps: {
+            '1': 25913,
+            '2': 25917
+        }
     },
     {
         id: 'SPB_20260906_1',
@@ -2420,6 +2433,8 @@ let events2026 = [
         link: 'https://vk.com/wall-128591100_3316',
         reg: 'https://orgeo.ru/event/55165',
         o_site: '260926S',
+        photo: 'https://vk.ru/album-128591100_311992046',
+        video: 'https://vk.ru/video-128591100_456239103',
         fmt: 'семейно-командные по выбору',
         owner: 'WEDDING',
         map: 'lembolovo_2024'
@@ -2457,8 +2472,12 @@ let events2026 = [
         name: 'Золотая осень',
         reg: 'https://orgeo.ru/event/54639',
         o_site: '260926_zo',
+        o_gps: 26037,
+        me: 'OPEN',
+        strava: 20339428992,
         fmt: 'спринт',
         map: 'zanevsky_2026',
+        photo: 'https://disk.yandex.ru/d/46qlXKAhYkPYAw',
         info: 'Перенос даты! Старт бесплатный. Детские группы + OPEN. Награждение 17.10.',
         owner: 'FENIX'
     },
@@ -2481,6 +2500,8 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1752',
         fmt: 'лонг',
         o_site: '260927',
+        o_gps: 26048,
+        photo: 'https://vk.ru/album-154221178_312075307',
         map: 'yappilya_2024'
     },
     {
@@ -2645,9 +2666,11 @@ let events2026 = [
     {
         id: 'SPB_20261017_3',
         date: '2026-10-17',
-        name: 'Легенды осени',
+        name: 'Легенда осени',
         place: 'Ильинский сад',
+        reg: 'http://orgeo.ru/event/info/legosen26',
         owner: 'FENIX',
+        o_site: '261017',
         map: 'ilinsky_garden_2026'
     },
     {
