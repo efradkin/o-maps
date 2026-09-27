@@ -2435,6 +2435,7 @@ let events2026 = [
         o_site: '260926S',
         photo: 'https://vk.ru/album-128591100_311992046',
         video: 'https://vk.ru/video-128591100_456239103',
+        publish: 'https://vk.ru/wall-128591100_3329',
         fmt: 'семейно-командные по выбору',
         owner: 'WEDDING',
         map: 'lembolovo_2024'
@@ -2502,6 +2503,7 @@ let events2026 = [
         o_site: '260927',
         o_gps: 26048,
         photo: 'https://vk.ru/album-154221178_312075307',
+        publish: 'https://vk.ru/album-230167293_314568006',
         map: 'yappilya_2024'
     },
     {
