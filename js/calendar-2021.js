@@ -7,6 +7,7 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/14801',
         res: 'https://o-site.spb.ru/_races/210103_kur/210103_res.htm',
         o_site: '210103_kur',
+        bulletin: 'https://o-site.spb.ru/_races/210103_kur/210103_info.pdf',
         reskeep: 413,
         strava: 4560359774,
         map: 'orovo_2019'
@@ -19,7 +20,8 @@ let events2021 = [
         name: 'УТС, Мичуринское',
         reg: 'http://sportident.online/entry/?id=4682',
         info: 'Программа тренировочных полигонов: 05.01 маркированная трасса на лыжах (вариант Г) 06.01 выбор бегом 07.01 заданное направление бегом',
-        o_site: '200103-09_sbor'
+        o_site: '200103-09_sbor',
+        bulletin: 'https://o-site.spb.ru/_races/200103-09_sbor/210103-09_sbor_info1.pdf'
     },
     {
         id: 'SPB_20210108_1',
@@ -29,7 +31,8 @@ let events2021 = [
         place: 'Мичуринское, база Мечта',
         res: 'https://o-site.spb.ru/_races/210108-09_rs/210108_rez.htm',
         owner: 'NW',
-        o_site: '210108-09_rs'
+        o_site: '210108-09_rs',
+        bulletin: 'https://o-site.spb.ru/_races/210108-09_rs/210108-09_info1.pdf'
     },
     {
         id: 'SPB_20210109_1',
@@ -52,6 +55,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/2021_WO/210116_res.htm',
         info: 'Серия индивидуальных тренировок по спортивному ориентированию.',
         o_site: '2021_WO',
+        bulletin: 'https://o-site.spb.ru/_races/2021_WO/210116_info.pdf',
         reskeep: 418,
         strava: 4628186806
     },
@@ -75,7 +79,8 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/14844',
         res: 'http://sportident.online/ol/?id=182',
         video: 'https://www.youtube.com/watch?v=Sd70H8IfrmU',
-        o_site: '210117_LO'
+        o_site: '210117_LO',
+        bulletin: 'https://o-site.spb.ru/_races/210117_LO/210117_Info.pdf'
     },
     {
         id: 'SPB_20210123_1',
@@ -86,6 +91,7 @@ let events2021 = [
         res: 'http://orgeo.ru/live/#/15120',
         info: 'Внимание! Билеты в Парк действуют 1 день. По купленному билету можно входить неограниченное кол-во раз за день. Стоимость входа 100 р., пенсионеры 50 р., дети (до 16 лет) – бесплатно. С собой иметь документы на льготу! МАШИНА ОРГАНИЗАТОРОВ: Синий микроавтобус Fiat Ducato Гос. номер: Е853ХЕ 178 RUS',
         o_site: '210114',
+        bulletin: 'https://o-site.spb.ru/_races/210114/210123_info3.pdf',
         reskeep: 419,
         strava: 4666404884,
         map: 'pavlovsk_2012'
@@ -98,7 +104,8 @@ let events2021 = [
         place: 'Кириши',
         reg: 'http://orgeo.ru/event/14977',
         video: 'https://www.youtube.com/watch?v=CCeQJZ980pQ',
-        o_site: '21012324'
+        o_site: '21012324',
+        bulletin: 'https://o-site.spb.ru/_races/21012324/21012324_info.pdf'
     },
     {
         id: 'SPB_20210126_1',
@@ -108,7 +115,8 @@ let events2021 = [
         reg: 'http://forms.gle/CM1GnyiCiLJRmfYQA',
         photo: 'http://drive.google.com/drive/folders/1tXxzW3dKMnLB-ml3mOgyfcuPbirnAgAI?usp=sharing',
         info: '1 этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций. В программе: виртуальная О-дистанция по исторической части Выборга! 22 января в 16:00 (МСК) на платформе ZOOM состоится Всероссийский обучающий семинар "Трейл-ориентирование - спорт равных возможностей", на котором представители оргкомитета расскажут о специфике прохождения дистанции 1 этапа Игр в онлайн-формате.',
-        o_site: '270120'
+        o_site: '270120',
+        bulletin: 'https://o-site.spb.ru/_races/270120/Informatsionny_byul2-2.pdf'
     },
     {
         id: 'SPB_20210131_1',
@@ -149,6 +157,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/21020607VV/210206_res.htm',
         start: 'VSEV_VESTI',
         o_site: '21020607VV',
+        bulletin: 'https://o-site.spb.ru/_races/21020607VV/21020607_info1.pdf',
         strava: 4743584991
     },
     {
@@ -160,6 +169,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210207_vs/210207_rez4.htm',
         info: 'Официальный старт "Веселый ветер" Место старта Баболовский парк.',
         o_site: '210207_vs',
+        bulletin: 'https://o-site.spb.ru/_races/210207_vs/210207_info5.pdf',
         reskeep: 420,
         strava: 4748550735,
         map: 'pushkin_babolovsky_2019'
@@ -186,6 +196,7 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/15440',
         res: 'https://o-site.spb.ru/_races/210214/210214_res.html',
         o_site: '210214',
+        bulletin: 'https://o-site.spb.ru/_races/210214/210214_info.pdf',
         reskeep: 414,
         strava: 4784783686
     },
@@ -225,6 +236,7 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1219',
         res: 'https://o-site.spb.ru/_races/210221/res1.htm',
         o_site: '210221',
+        bulletin: 'https://o-site.spb.ru/_races/210221/2021_02_21-22_info.pdf',
         reskeep: [421, 422]
     },
     {
@@ -233,7 +245,8 @@ let events2021 = [
         name: 'Всероссийские игры по ориентированию ТОЧНЫЙ АЗИМУТ среди обучающихся образовательных организаций',
         reg: 'http://forms.gle/SkGXeRE7ZWmej4US9',
         info: '2 этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций. В программе: виртуальная О-дистанция по курортному парку г.Кисловодск. 19 февраля в 16:00 (МСК) на платформе ZOOM состоится Всероссийский обучающий семинар "Трейл-ориентирование - ресурс дополнительного образования", на котором представители оргкомитета расскажут о специфике прохождения дистанции 2 этапа Игр в онлайн-формате.',
-        o_site: '210225_azimut'
+        o_site: '210225_azimut',
+        bulletin: 'https://o-site.spb.ru/_races/210225_azimut/Informatsionny_byul_1_po_etapu_2.pdf'
     },
     {
         id: 'SPB_20210228_1',
@@ -256,6 +269,7 @@ let events2021 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/210227/210227_res.htm',
         o_site: '210227',
+        bulletin: 'https://o-site.spb.ru/_races/210227/2021_02_27-28_info1-2.pdf',
         reskeep: 423,
         strava: 4858008623,
         map: 'orekhovo_nyrkovo_winter_2012'
@@ -280,6 +294,7 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1230',
         res: 'https://o-site.spb.ru/_races/21030607_zs/210306_res_z.htm',
         o_site: '21030607_zs',
+        bulletin: 'https://o-site.spb.ru/_races/21030607_zs/21030607_info2_zs1.pdf',
         map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
@@ -291,6 +306,7 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1229',
         res: 'https://o-site.spb.ru/_races/210307_vuzy/21030607_results_vuz_teams.pdf',
         o_site: '210307_vuzy',
+        bulletin: 'https://o-site.spb.ru/_races/210307_vuzy/21030607_info2_vuzy.pdf',
         map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
@@ -312,6 +328,7 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1228',
         res: 'https://o-site.spb.ru/_races/210308/res.htm',
         o_site: '210308',
+        bulletin: 'https://o-site.spb.ru/_races/210308/210308_info2_1.pdf',
         reskeep: 427,
         strava: 4911544041,
         map: 'sosnovka_2014'
@@ -329,7 +346,8 @@ let events2021 = [
         date: '2021-03-16',
         name: 'Всероссийские игры по ориентированию ТОЧНЫЙ АЗИМУТ среди обучающихся образовательных организаций, 3 этап',
         info: '3 этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций. В программе: виртуальная О-дистанция по Елагину острову (СПб). 15 марта в 12:00 (МСК) на платформе ZOOM состоится Всероссийский обучающий семинар "Трейл-ориентирование - ресурс дополнительного образования", на котором представители оргкомитета расскажут о специфике прохождения дистанции 3 этапа Игр в онлайн-формате.',
-        o_site: '210316_azimut'
+        o_site: '210316_azimut',
+        bulletin: 'https://o-site.spb.ru/_races/210316_azimut/Inf_bul.pdf'
     },
     {
         id: 'SPB_20210321_1',
@@ -426,7 +444,8 @@ let events2021 = [
         place: 'Солнечное',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/210418/splits_2021_04_18_mtbo.htm',
-        o_site: '210418'
+        o_site: '210418',
+        bulletin: 'https://o-site.spb.ru/_races/210418/210418_info.pdf'
     },
     {
         id: 'SPB_20210418_2',
@@ -472,6 +491,7 @@ let events2021 = [
         res: 'http://orgeo.ru/live/#/16639',
         video: 'https://www.youtube.com/watch?v=b6cYYfMjdEg',
         o_site: '210424-25',
+        bulletin: 'https://o-site.spb.ru/_races/210424-25/info3.pdf',
         reskeep: [448, 449],
         strava: [5184271179,5189322903]
     },
@@ -492,7 +512,8 @@ let events2021 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1244',
         res: 'https://o-site.spb.ru/_races/210425_MTBO/210425_rez.htm',
-        o_site: '210425_MTBO'
+        o_site: '210425_MTBO',
+        bulletin: 'https://o-site.spb.ru/_races/210425_MTBO/210425_info2.pdf'
     },
     {
         id: 'SPB_20210428_1',
@@ -533,6 +554,7 @@ let events2021 = [
             'https://rutube.ru/video/dcdf891fa2710a525a0b9e470134738f/'
         ],
         o_site: '21050103',
+        bulletin: 'https://o-site.spb.ru/_races/21050103/21050103_info2.pdf',
         reskeep: [450, 446, 451],
         strava: [5228980372,5234839055],
         map: 'enkolovo_2021'
@@ -633,6 +655,7 @@ let events2021 = [
         info: 'Внимание! Изменена система отметки',
         owner: ['VYBORG','NW'],
         o_site: '210509-10_V3',
+        bulletin: 'https://o-site.spb.ru/_races/210509-10_V3/100521_bulVTR2021.pdf',
         reskeep: [456, 457, 458],
         strava: [5266488472,5270566831,5272603253]
     },
@@ -678,6 +701,7 @@ let events2021 = [
         place: 'Новознаменка',
         res: 'http://orgeo.ru/live/#/17012/1',
         o_site: '210515lo',
+        bulletin: 'https://o-site.spb.ru/_races/210515lo/INFO-2-LO.pdf',
         map: 'litania_2021'
     },
     {
@@ -688,6 +712,7 @@ let events2021 = [
         start: 'SPB_CHAMP',
         res: 'http://orgeo.ru/live/#/17012/1',
         o_site: '210515',
+        bulletin: 'https://o-site.spb.ru/_races/210515/INFO-2-SPB.pdf',
         reskeep: 447,
         strava: 5300086795,
         map: 'litania_2021'
@@ -746,6 +771,7 @@ let events2021 = [
         type: 'VELO',
         res: 'http://sportident.online/ol/?id=347',
         o_site: '210522',
+        bulletin: 'https://o-site.spb.ru/_races/210522/210522_info2.pdf',
         map: 'pukhtolova_gora_velo_2025'
     },
     {
@@ -774,7 +800,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210523LO/210523LO_split.htm',
         photo: 'http://vk.com/club128591100?w=wall-128591100_1635%2Fall',
         owner: 'SFSO_LO',
-        o_site: '210523LO'
+        o_site: '210523LO',
+        bulletin: 'https://o-site.spb.ru/_races/210523LO/210523LO_info2.pdf'
     },
     {
         id: 'SPB_20210523_2',
@@ -785,6 +812,7 @@ let events2021 = [
         photo: 'http://vk.com/album-154221178_279461137',
         owner: 'SFSO_SPB',
         o_site: '210523',
+        bulletin: 'https://o-site.spb.ru/_races/210523/210523_RA_INFO2.pdf',
         reskeep: 465,
         map: 'udelny_2022'
     },
@@ -808,6 +836,7 @@ let events2021 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1263',
         res: 'https://o-site.spb.ru/_races/210527_mtbo/210527_rez.htm',
         o_site: '210527_mtbo',
+        bulletin: 'https://o-site.spb.ru/_races/210527_mtbo/2021_05_27_MTBO.pdf',
         map: 'osinovaja_roscha_velo_2020'
     },
     {
@@ -820,6 +849,7 @@ let events2021 = [
         res: 'http://sportident.online/ol/?id=352',
         info: '29 и 30 мая в Сосновом Бору (Ленинградская область) пройдут областные соревнования «Спринт» (кросс-спринт).',
         o_site: '210530',
+        bulletin: 'http://o-site.spb.ru/_races/210531/Bulletin3.pdf',
         reskeep: [467, 471]
     },
     {
@@ -890,6 +920,7 @@ let events2021 = [
         name: 'Кубок Белых Ночей #19',
         start: 'KBN',
         o_site: '2021BN',
+        bulletin: 'https://o-site.spb.ru/_races/2021BN/210905_info.pdf',
         res: 'http://o-site.spb.ru/_races/2021BN/210530_split.htm',
         map: 'pervomayskoe_2021',
         reskeep: 472,
@@ -903,7 +934,8 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/info/17200',
         res: 'http://o-site.spb.ru/_races/210601/PROTOKOLY.pdf',
         info: 'Дистанция спринт (TempO), 5 станций по 5 задач.',
-        o_site: '210601'
+        o_site: '210601',
+        bulletin: 'https://o-site.spb.ru/_races/210601/01_iyunya_IB.pdf'
     },
     {
         id: 'SPB_20210602_1',
@@ -913,7 +945,8 @@ let events2021 = [
         type: 'VELO',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1264',
         res: 'https://o-site.spb.ru/_races/210527_mtbo/20210602split.htm',
-        o_site: '210527_mtbo'
+        o_site: '210527_mtbo',
+        bulletin: 'https://o-site.spb.ru/_races/210527_mtbo/2021_05_27_MTBO.pdf'
     },
     {
         id: 'SPB_20210603_1',
@@ -988,6 +1021,7 @@ let events2021 = [
         video: 'https://www.youtube.com/watch?v=ji4-8PNRtok',
         start: 'YM',
         o_site: '21061014',
+        bulletin: 'https://o-site.spb.ru/_races/21061014/21061014_info.pdf',
         map: ['ym_2021_losevo_prolog1', 'ym_2021_losevo_prolog2', 'ym_2021_losevo_sprint', 'ym_2021_losevo_klassika', 'ym_2021_losevo_vybor']
     },
     {
@@ -1000,6 +1034,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210612v/210612V_rez.htm',
         info: 'Вечерний старт на классической дистанции по вело-ориентированию',
         o_site: '210612v',
+        bulletin: 'https://o-site.spb.ru/_races/210612v/210612v_info.html',
         map: 'losevo_velo_2021'
     },
     {
@@ -1010,6 +1045,7 @@ let events2021 = [
         fmt: 'ночная эстафета',
         start: 'KKP',
         o_site: '210612-18_KKP',
+        bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
         strava: 5460852214
     },
     {
@@ -1061,6 +1097,7 @@ let events2021 = [
         ],
         start: 'KKP',
         o_site: '210612-18_KKP',
+        bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
         strava: [5458197904,5462673247,5485783437,5489340513]
     },
     {
@@ -1072,6 +1109,7 @@ let events2021 = [
         fmt: 'классика',
         start: 'KKP',
         o_site: '210612-18_KKP',
+        bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
         reskeep: 474,
         strava: 5469051700,
         video: [
@@ -1095,6 +1133,7 @@ let events2021 = [
         fmt: 'лонг',
         start: 'KKP',
         o_site: '210612-18_KKP',
+        bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
         reskeep: 477,
         strava: 5473397540,
         video: [
@@ -1111,6 +1150,7 @@ let events2021 = [
         fmt: 'лонг-масстарт',
         start: 'KKP',
         o_site: '210612-18_KKP',
+        bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
         reskeep: 478,
         strava: 5479172883,
         video: [
@@ -1127,6 +1167,7 @@ let events2021 = [
         fmt: 'спринт',
         start: 'KKP',
         o_site: '210612-18_KKP',
+        bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
         reskeep: 479,
         strava: 5484649702,
         video: [
@@ -1143,6 +1184,7 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1277',
         res: 'https://o-site.spb.ru/_races/210619_mtbo/210619_res.htm',
         o_site: '210619_mtbo',
+        bulletin: 'https://o-site.spb.ru/_races/210619_mtbo/TrenirovkaMTBO.pdf',
         map: 'sosnovo_ulovnoe_velo_2021'
     },
     {
@@ -1176,6 +1218,7 @@ let events2021 = [
         owner: 'WN',
         start: 'WN',
         o_site: '210627',
+        bulletin: 'https://o-site.spb.ru/_races/210627/210625_info.pdf',
         map: 'wn_2021_06_25'
     },
     {
@@ -1187,6 +1230,7 @@ let events2021 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1265',
         res: 'https://o-site.spb.ru/_races/210527_mtbo/210625_res.pdf',
         o_site: '210527_mtbo',
+        bulletin: 'https://o-site.spb.ru/_races/210527_mtbo/2021_05_27_MTBO.pdf',
         map: 'sestroretskie_detskie_djuny_2020'
     },
     {
@@ -1206,7 +1250,8 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1282',
         res: 'https://o-site.spb.ru/_races/210701_open/01072021F.htm',
         info: 'Индивидуальные тренировки по ориентированию (бегом) 1 июля: Охта-парк',
-        o_site: '210701_open'
+        o_site: '210701_open',
+        bulletin: 'https://o-site.spb.ru/_races/210701_open/210701_inf2.pdf'
     },
     {
         id: 'SPB_20210703_1',
@@ -1244,7 +1289,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/2021BN_0710/210710_res.htm',
         info: 'Тренировочный старт, организованный клубом Белые Ночи.',
         owner: 'WN',
-        o_site: '2021BN_0710'
+        o_site: '2021BN_0710',
+        bulletin: 'https://o-site.spb.ru/_races/2021BN_0710/210710_info.pdf'
     },
     {
         id: 'SPB_20210717_1',
@@ -1325,6 +1371,7 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/17707',
         res: 'https://o-site.spb.ru/_races/210815/210815_res.htm',
         o_site: '210815',
+        bulletin: 'https://o-site.spb.ru/_races/210815/210815_info.pdf',
         reskeep: 482,
         strava: [5796117417,5796461444,5796464578]
     },
@@ -1337,6 +1384,7 @@ let events2021 = [
         info: 'Средняя дистанция с большим количеством КП',
         start: 'GS',
         o_site: '210821ZZ',
+        bulletin: 'https://o-site.spb.ru/_races/210821ZZ/210821_info.pdf',
         o_gps: 10764,
         reskeep: 475,
         strava: 5828500904,
@@ -1353,6 +1401,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210821_bn/210821_res.htm',
         info: 'Тренировочный старт, организованный клубом Белые Ночи.',
         o_site: '210821_bn',
+        bulletin: 'https://o-site.spb.ru/_races/210821_bn/210821_info.pdf',
         reskeep: [483, 484],
         map: 'smoljanoe_2015'
     },
@@ -1374,7 +1423,8 @@ let events2021 = [
         place: 'Окуловка',
         reg: 'http://orgeo.ru/event/17616',
         res: 'http://orgeo.ru/live/#/17616',
-        o_site: '20210827_okulovka'
+        o_site: '20210827_okulovka',
+        bulletin: 'https://o-site.spb.ru/_races/20210827_okulovka/b4.pdf'
     },
     {
         id: 'SPB_20210828_1',
@@ -1404,6 +1454,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/2021YC/210829_split.htm',
         start: 'YM_CUP',
         o_site: '2021YC',
+        bulletin: 'https://o-site.spb.ru/_races/2021YC/210829_info.pdf',
         map: 'orekhovo_2024'
     },
     {
@@ -1425,7 +1476,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/280821_50Verst/50_Verst_2021_result.pdf',
         info: '2ая ночная эстафета от клуба Nord West',
         video: 'https://www.youtube.com/watch?v=nOUZ0_ku74g',
-        o_site: '280821_50Verst'
+        o_site: '280821_50Verst',
+        bulletin: 'https://o-site.spb.ru/_races/280821_50Verst/50_vyorst_2021_new.pdf'
     },
     {
         id: 'SPB_20210904_2',
@@ -1465,6 +1517,7 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1294',
         res: 'https://o-site.spb.ru/_races/2021BN/210905_split.htm',
         o_site: '2021BN',
+        bulletin: 'https://o-site.spb.ru/_races/2021BN/210905_info.pdf',
         reskeep: 476,
         strava: [5909211506,5909484049],
         map: 'pervomayskoe_2021'
@@ -1477,7 +1530,8 @@ let events2021 = [
         place: 'Мичуринское, Журавлёвское оз',
         reg: 'http://sportident.online/entry/?id=5007',
         res: 'https://o-site.spb.ru/_races/05092021MaTreshra/20210905_matr_result.htm',
-        o_site: '05092021MaTreshra'
+        o_site: '05092021MaTreshra',
+        bulletin: 'https://o-site.spb.ru/_races/05092021MaTreshra/20210905_matr_info_new.pdf'
     },
     {
         id: 'SPB_20210911_1',
@@ -1520,7 +1574,8 @@ let events2021 = [
         type: 'VELO',
         res: 'http://sportident.online/ol/?id=454',
         info: 'Проезд к месту парковки СТРОГО по ул.Заречной!',
-        o_site: '210918_mtbo'
+        o_site: '210918_mtbo',
+        bulletin: 'https://o-site.spb.ru/_races/210918_mtbo/210918_info1.pdf'
     },
     {
         id: 'SPB_20210918_2',
@@ -1540,7 +1595,8 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1300',
         res: 'https://o-site.spb.ru/_races/210919_deaf/210919_deaf_rez.pdf',
         info: 'Соревнования проводятся в соответствии с Положением о чемпионате и первенстве Санкт-Петербурга по спортивному ориентированию – спорт глухих 2021 года.',
-        o_site: '210919_deaf'
+        o_site: '210919_deaf',
+        bulletin: 'https://o-site.spb.ru/_races/210919_deaf/210919_deaf2.pdf'
     },
     {
         id: 'SPB_20210919_2',
@@ -1552,6 +1608,7 @@ let events2021 = [
         photo: 'http://disk.yandex.ru/d/uzUA__97XPmC8A',
         video: 'http://www.northernwind.spb.ru/videosplit/2021/chspbs_middle/',
         o_site: '210919',
+        bulletin: 'https://o-site.spb.ru/_races/210919/210919_info3Y.pdf',
         o_gps: {
             'М45':11009,
             'ALL':10963
@@ -1569,6 +1626,7 @@ let events2021 = [
         fmt: 'командные соревнования по выбору',
         start: 'WEDDING',
         o_site: '210925',
+        bulletin: 'https://o-site.spb.ru/_races/210925/210925_info2.pdf',
         map: 'lehtusi_valkijarvi_2016'
     },
     {
@@ -1614,6 +1672,7 @@ let events2021 = [
             'https://rutube.ru/video/7a72bea569687b79d3d107a33cbc7394/'
         ],
         o_site: '210926',
+        bulletin: 'https://o-site.spb.ru/_races/210926/nfo3.pdf',
         reskeep: 492,
         strava: 6021509523
     },
@@ -1627,6 +1686,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210926_deaf/210926_results.htm',
         info: 'Соревнования проводятся в соответствии с Положением о чемпионате и первенстве Санкт-Петербурга по спортивному ориентированию – спорт глухих 2021 года.',
         o_site: '210926_deaf',
+        bulletin: 'https://o-site.spb.ru/_races/210926_deaf/210926_deaf.pdf',
         map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
     {
@@ -1649,6 +1709,7 @@ let events2021 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/211002/res.htm',
         o_site: '211002',
+        bulletin: 'https://o-site.spb.ru/_races/211002/211002_info2.pdf',
         reskeep: 493,
         strava: [6051938295,6051944260]
     },
@@ -1659,6 +1720,7 @@ let events2021 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, классика',
         start: 'SPB_CHAMP',
         o_site: '211003',
+        bulletin: 'https://o-site.spb.ru/_races/211003/211003_info.pdf',
         reskeep: 494
     },
     {
@@ -1669,7 +1731,8 @@ let events2021 = [
         place: 'Токсово, СКА',
         reg: 'http://orgeo.ru/event/18749',
         res: 'https://o-site.spb.ru/_races/210909_KS/211007_res.htm',
-        o_site: '210909_KS'
+        o_site: '210909_KS',
+        bulletin: 'https://o-site.spb.ru/_races/210909_KS/211007_info.pdf'
     },
     {
         id: 'SPB_20211009_1',
@@ -1692,6 +1755,7 @@ let events2021 = [
         info: 'Соревнования проводятся после окончания Чемпионата СПб среди ВУЗов в том же районе.',
         logo: 'azimut.gif',
         o_site: '211009_',
+        bulletin: 'https://o-site.spb.ru/_races/211009_/Info_PetOs_211009.pdf',
         map: 'pukhtolova_gora_2025',
         owner: 'AZIMUT'
     },
@@ -1735,6 +1799,7 @@ let events2021 = [
         start: 'SPB_CHAMP',
         fmt: 'лонг-масстарт',
         o_site: '211010_long',
+        bulletin: 'https://o-site.spb.ru/_races/211010_long/211010_info2_3.pdf',
         reskeep: 496,
         strava: 6091647873,
         o_gps: {
@@ -1777,6 +1842,7 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/18642',
         start: 'ROGAINE_110',
         o_site: '210613_r110',
+        bulletin: 'https://o-site.spb.ru/_races/210613_r110/211017_r110.pdf',
         strava: 6126215569
     },
     {
@@ -1788,6 +1854,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/211017_CZ/211017_res.htm',
         info: '17 октября 2021 г. СДЮСШОР № 2 СПБ ГДТЮ в районе пос. Ушково – Пухтолова гора проводит однодневные юношеские соревнования «Старты в Зеркальном». Подход от ст. Ушково. Дисциплина «кросс-классика». Группы от 10 до 20 лет плюс ДТР, Фитнес удл., Фитнес кор. Просим прощение за задержку информации. Идёт согласование с исполнительными органами власти.',
         o_site: '211017_CZ',
+        bulletin: 'https://o-site.spb.ru/_races/211017_CZ/211017_info_2.pdf',
         map: 'pukhtolova_gora_2025'
     },
     {
@@ -1797,7 +1864,8 @@ let events2021 = [
         reg: 'http://forms.gle/EB9Pp2gBRs5wFUL48',
         res: 'https://o-site.spb.ru/_races/211018_az/20211019_rez.pdf',
         info: '4 этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций',
-        o_site: '211018_az'
+        o_site: '211018_az',
+        bulletin: 'https://o-site.spb.ru/_races/211018_az/20211019_Tochn_az.pdf'
     },
     {
         id: 'SPB_20211022_1',
@@ -1823,7 +1891,8 @@ let events2021 = [
         start: 'PERSPEKTIVA',
         reg: 'http://o-reg.spb.ru/entry-list?id=1316',
         res: 'https://o-site.spb.ru/_races/211023P/211023_res.htm',
-        o_site: '211023P'
+        o_site: '211023P',
+        bulletin: 'https://o-site.spb.ru/_races/211023P/211023_info_p1.pdf'
     },
     {
         id: 'SPB_20211024_1',
@@ -1835,6 +1904,7 @@ let events2021 = [
         info: 'Соревнования памяти выдающегося ориентировщика СССР и России, Владимира Павловича Алексеева',
         owner: 'WN',
         o_site: '211024',
+        bulletin: 'https://o-site.spb.ru/_races/211024/211024_info.pdf',
         map: 'bylinnoe_2023',
         reskeep: 499,
         strava: 6159702422
@@ -1911,7 +1981,8 @@ let events2021 = [
         start: 'PERSPEKTIVA',
         reg: 'http://o-reg.spb.ru/entry-list?id=1319',
         res: 'https://o-site.spb.ru/_races/211031P/211031_res.htm',
-        o_site: '211031P'
+        o_site: '211031P',
+        bulletin: 'https://o-site.spb.ru/_races/211031P/211031%20info2_p2.pdf'
     },
     {
         id: 'SPB_20211031_2',
@@ -1942,6 +2013,7 @@ let events2021 = [
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         logo: 'azimut.gif',
         o_site: '211104_OM',
+        bulletin: 'https://o-site.spb.ru/_races/211104_OM/Info_OsM1_211104.pdf',
         reskeep: 501,
         strava: 6210792077,
         owner: 'AZIMUT'
@@ -1974,6 +2046,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/2021TT/211113_split.htm',
         info: 'Серия тренировочных стартов от бригады Яркого Кубка',
         o_site: '2021TT',
+        bulletin: 'https://o-site.spb.ru/_races/2021TT/211113TT_info.pdf',
         map: 'vsevolozhsk_rumbolovo_2014'
     },
     {
@@ -1987,6 +2060,7 @@ let events2021 = [
         fmt: '6/2 часов бег, 5 часа вело',
         start: 'GORNY_CROSS',
         o_site: '2021GK',
+        bulletin: 'https://o-site.spb.ru/_races/2021GK/211113R_info.pdf',
         strava: 6250999443
     },
     {
@@ -1998,6 +2072,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/211014_markir110/211114_rez.htm',
         start: 'ROGAINE_110',
         o_site: '211014_markir110',
+        bulletin: 'https://o-site.spb.ru/_races/211014_markir110/info_bull.PDF',
         strava: 6255821909,
         map: 'toksovo_malinovaya_gora_2018'
     },
@@ -2030,7 +2105,8 @@ let events2021 = [
         reg: 'http://docs.google.com/forms/d/e/1FAIpQLSfjPRNulcRE4wHYnaxvyJBi_WZh16IlfbCOfJXF9ksScSF-TA/closedform',
         res: 'http://drive.google.com/drive/folders/1qarCC_fULRflQJwSsMb2mnZpK9hUSV6N',
         info: '5 этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций',
-        o_site: '211123_az'
+        o_site: '211123_az',
+        bulletin: 'https://o-site.spb.ru/_races/211123_az/20211123_inf.pdf'
     },
     {
         id: 'SPB_20211127_1',
@@ -2050,6 +2126,7 @@ let events2021 = [
         start: 'SNOW_WAY',
         res: 'http://orgeo.ru/live/#/19335',
         o_site: '211128_ST',
+        bulletin: 'https://o-site.spb.ru/_races/211128_ST/211128_info3.pdf',
         reskeep: 505,
         strava: 6316864782
     },
@@ -2074,6 +2151,7 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/18932',
         res: 'https://o-site.spb.ru/_races/210308_VT/211205_res.pdf',
         o_site: '210308_VT',
+        bulletin: 'https://o-site.spb.ru/_races/210308_VT/211205_info2.pdf',
         map: 'enkolovo_2021'
     },
     {
@@ -2084,6 +2162,7 @@ let events2021 = [
         start: 'SNOW_WAY',
         res: 'http://orgeo.ru/live/#/19335',
         o_site: '211212_ST',
+        bulletin: 'https://o-site.spb.ru/_races/211212_ST/211212_info2.pdf',
         reskeep: 55,
         strava: 6374557829,
         map: 'internatsionalistov_2021'
@@ -2096,7 +2175,8 @@ let events2021 = [
         reg: 'http://forms.gle/xfG6eRwm99YiWQx79',
         res: 'http://drive.google.com/drive/folders/1aiK_DzdtR3fkV0E_d9mvqMIvqseVcQej',
         info: '6 этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций',
-        o_site: '211215_az'
+        o_site: '211215_az',
+        bulletin: 'https://o-site.spb.ru/_races/211215_az/InfBul.pdf'
     },
     {
         id: 'SPB_20211218_1',
@@ -2115,6 +2195,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/211219_bn/211219_res.htm',
         video: 'https://www.youtube.com/watch?v=-Cpzt5nNNhE',
         o_site: '211219_bn',
+        bulletin: 'https://o-site.spb.ru/_races/211219_bn/211219_pdm.pdf',
         reskeep: 506,
         strava: 6402242041,
         map: 'kavgolovo_2017'
@@ -2137,6 +2218,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/211226B/211226_res.htm',
         info: 'ВНИМАНИЕ! В СВЯЗИ С ТЯЖЕЛОЙ СНЕЖНОЙ ОБСТАНОВКОЙ, ВМЕСТО ЗАЯВЛЕННЫХ В БЮЛЛЕТЕНЕ ДИСТАНЦИЙ A, B, C БУДУТ ПРЕДЛОЖЕНЫ 2 ДИСТАНЦИИ: ДЛИННАЯ (4.4км 10КП) И КОРОТКАЯ (2.1км 5КП). ВСЕ ЗАЯВЛЕННЫЕ УЧАСТНИКИ СМОГУТ ВЫБРАТЬ ДИСТАНЦИЮ НА РЕГИСТРАЦИИ. СНЕЖНЫЙ ПОКРОВ СОСТАВЛЯЕТ ~50см, ВЫБИРАЙТЕ ОБУВЬ ПО ПОГОДЕ!',
         o_site: '211226B',
+        bulletin: 'https://o-site.spb.ru/_races/211226B/211226B_info4.pdf',
         strava: 6428571215
     },
     {
@@ -2147,6 +2229,7 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1329',
         res: 'https://o-site.spb.ru/_races/211226l/211226_res.htm',
         o_site: '211226l',
+        bulletin: 'https://o-site.spb.ru/_races/211226l/211226l_info3.pdf',
         strava: 6428561506
     },
     {
@@ -2156,6 +2239,7 @@ let events2021 = [
         place: 'Румболовский парк, Всеволожск',
         reg: 'http://orgeo.ru/event/19615',
         o_site: '211226I',
+        bulletin: 'https://o-site.spb.ru/_races/211226I/211226I_info.pdf',
         map: 'vsevolozhsk_rumbolovo_2014'
     }
 ];

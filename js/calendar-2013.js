@@ -15,7 +15,8 @@ let events2013 = [
         place: 'Цвелодубово',
         name: 'Зимний УТС в Цвелодубово',
         type: 'SKI',
-        o_site: '13010309'
+        o_site: '13010309',
+        bulletin: 'https://o-site.spb.ru/_races/13010309/13010309_info1_UTS.htm'
     },
     {
         id: 'SPB_20130107_1',
@@ -26,7 +27,8 @@ let events2013 = [
         type: 'SKI',
         res: 'http://moscompass.ru/news/2013/20130107-rez-Cvel.htm',
         owner: 'NW',
-        o_site: '13010708'
+        o_site: '13010708',
+        bulletin: 'https://o-site.spb.ru/_races/13010708/13010708_info1.pdf'
     },
     {
         id: 'SPB_20130112_1',
@@ -37,7 +39,8 @@ let events2013 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/130112_GK/130112_res.zip',
         start: 'GORNY_CROSS',
-        o_site: '130112_GK'
+        o_site: '130112_GK',
+        bulletin: 'https://o-site.spb.ru/_races/130112_GK/130112_info.pdf'
     },
     {
         id: 'SPB_20130112_2',
@@ -47,7 +50,8 @@ let events2013 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/130112_Sh/130112_res.xls',
         info: 'Приглашаю всех любителей ориентирования на Мини-рогейн «Юбилейный-60». В связи с тем, что многие из тех, кого я хотел бы видеть у себя в гостях 5 января, отсутствовали по уважительным причинам, мне пришлось передвинуть это событие на неделю вперед. Александр Ширинян',
-        o_site: '130112_Sh'
+        o_site: '130112_Sh',
+        bulletin: 'https://o-site.spb.ru/_races/130112_Sh/130112_info.htm'
     },
     {
         id: 'SPB_20130113_1',
@@ -70,7 +74,8 @@ let events2013 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/13011720/130119_res.htm',
         info: 'КУБОК РОССИИ СРЕДИ ВЕТЕРАНОВ ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ НА ЛЫЖАХ Чемпионат и первенство Ленинградской области Зимняя спартакиада учащихся Ленинградской области Кубок профкома ООО «ПО Киришинефтеоргсинтез»',
-        o_site: '13011720'
+        o_site: '13011720',
+        bulletin: 'https://o-site.spb.ru/_races/13011720/13011721_info1.pdf'
     },
     {
         id: 'SPB_20130120_1',
@@ -80,7 +85,8 @@ let events2013 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130120/130120_res.htm',
         info: 'Соревнования проводятся 20 января 2013 года в окрестностях пос.Рощино (Райвола). Центр соревнований расположен в Детском оздоровительном лагере «Северная зорька». Размещение участников в отапливаемом помещении',
-        o_site: '130120'
+        o_site: '130120',
+        bulletin: 'https://o-site.spb.ru/_races/130120/2013_01_20%20info1.htm'
     },
     {
         id: 'SPB_20130127_1',
@@ -89,7 +95,8 @@ let events2013 = [
         name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 3 этап',
         start: 'SNOW_WAY',
         res: 'http://o-site.spb.ru/_races/121118_tropa/130127_split.htm',
-        o_site: '121118_tropa'
+        o_site: '121118_tropa',
+        bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html'
     },
     {
         id: 'SPB_20130203_1',
@@ -99,7 +106,8 @@ let events2013 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/130203_Un/130203_res.htm',
-        o_site: '130203_Un'
+        o_site: '130203_Un',
+        bulletin: 'https://o-site.spb.ru/_races/130203_Un/130203_info1.pdf'
     },
     {
         id: 'SPB_20130203_2',
@@ -108,7 +116,8 @@ let events2013 = [
         name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 4 этап',
         start: 'SNOW_WAY',
         res: 'http://o-site.spb.ru/_races/121118_tropa/130203_split.htm',
-        o_site: '121118_tropa'
+        o_site: '121118_tropa',
+        bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html'
     },
     {
         id: 'SPB_20130212_1',
@@ -126,7 +135,8 @@ let events2013 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/130214/130214_res.htm',
-        o_site: '130214'
+        o_site: '130214',
+        bulletin: 'https://o-site.spb.ru/_races/130214/130214_info.pdf'
     },
     {
         id: 'SPB_20130216_1',
@@ -157,7 +167,8 @@ let events2013 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130223Ch/130223_split.htm',
-        o_site: '130223Ch'
+        o_site: '130223Ch',
+        bulletin: 'https://o-site.spb.ru/_races/130223Ch/130223_info3.htm'
     },
     {
         id: 'SPB_20130223_2',
@@ -179,6 +190,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130224/130224_res.htm',
         start: 'VOLKOV_A',
         o_site: '130224',
+        bulletin: 'https://o-site.spb.ru/_races/130224/20130224_info3.htm',
         map: 'volkov_2013_02_23'
     },
     {
@@ -211,7 +223,8 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/130308_ch/130308_split.htm',
         info: 'Эстафета проводится по группам: Мдо13- 2 этапа, Ждо13- 2 этапа Мдо15- 3 этапа, Ждо15- 3 этапа, Мдо18- 3 этапа, Ждо18- 3 этапа, МЭ- 3 этапа, ЖЭ- 3 этапа, М90 (сумма возрастов ≥90 лет, мин. возраст 35 лет)- 2 этапа, Ж90 (сумма возрастов ≥90 лет, мин. возраст 35 лет)- 2 этапа, М110 (сумма возрастов ≥110 лет, мин. возраст 45 лет)- 2 этапа, Ж110 (сумма возрастов ≥110 лет, мин. возраст 45 лет)- 2 этапа',
-        o_site: '130308_ch'
+        o_site: '130308_ch',
+        bulletin: 'https://o-site.spb.ru/_races/130308_ch/13030809_info3.htm'
     },
     {
         id: 'SPB_20130308_2',
@@ -241,7 +254,8 @@ let events2013 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130310/130310_RES.pdf',
         info: 'Мандатная комиссия будет проходить 6 марта в СДЮСШОР №2 по адресу Невский пр.39, ком. 59 с 17 до 19 часов. Электронная заявка на o-reg.spb.ru. Состав команды - 10 человек независимо от пола, зачет по 8 лучшим. Справки по участию и заявке +7921 9182378 (Ирина Ломова).',
-        o_site: '130310'
+        o_site: '130310',
+        bulletin: 'https://o-site.spb.ru/_races/130310/130310_info1.htm'
     },
     {
         id: 'SPB_20130313_1',
@@ -272,6 +286,7 @@ let events2013 = [
         res: 'http://o-site.spb.ru/_races/121118_tropa/130317_split.htm',
         video: ['https://www.youtube.com/watch?v=02GejJervm8','https://www.youtube.com/watch?v=TjW57SIUO3o'],
         o_site: '121118_tropa',
+        bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html',
         map: 'osinovaja_roscha_2013'
     },
     {
@@ -297,7 +312,8 @@ let events2013 = [
         name: 'Тренировка от Стрекозаек',
         start: 'STREKOZAIKI',
         res: 'https://o-site.spb.ru/_races/130406_Str/130406_res.htm',
-        o_site: '130406_Str'
+        o_site: '130406_Str',
+        bulletin: 'https://o-site.spb.ru/_races/130406_Str/130406_info.htm'
     },
     {
         id: 'SPB_20130407_1',
@@ -355,7 +371,8 @@ let events2013 = [
         name: 'Весенний Кубок 110%, 1 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/130606/130418_res.htm',
-        o_site: '130606'
+        o_site: '130606',
+        bulletin: 'https://o-site.spb.ru/_races/130606/130606_info.pdf'
     },
     {
         id: 'SPB_20130419_1',
@@ -376,6 +393,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130421_Pushkin/130420-21_res.xls',
         info: 'Соревнования будут проводиться 20 и 21 апреля в Баболовском парке г. Пушкина',
         o_site: '130421_Pushkin',
+        bulletin: 'https://o-site.spb.ru/_races/130421_Pushkin/130421_info2.htm',
         map: 'pushkin_babolovsky_2019'
     },
     {
@@ -410,7 +428,8 @@ let events2013 = [
         name: 'Весенний Кубок 110%, 2 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/130606/130425_res.htm',
-        o_site: '130606'
+        o_site: '130606',
+        bulletin: 'https://o-site.spb.ru/_races/130606/130606_info.pdf'
     },
     {
         id: 'SPB_20130427_1',
@@ -419,7 +438,8 @@ let events2013 = [
         name: 'Открытое Первенство Калининского района Санкт-Петербурга по спортивному ориентированию',
         reg: 'http://o-reg.spb.ru/',
         owner: 'SFSO_SPB',
-        o_site: '130427_pkr'
+        o_site: '130427_pkr',
+        bulletin: 'https://o-site.spb.ru/_races/130427_pkr/130427_b2.htm'
     },
     {
         id: 'SPB_20130427_2',
@@ -438,6 +458,7 @@ let events2013 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/130428_Ch/130428_split_.htm',
         o_site: '130428_Ch',
+        bulletin: 'https://o-site.spb.ru/_races/130428_Ch/130428_info3.htm',
         reskeep: 259
     },
     {
@@ -447,7 +468,8 @@ let events2013 = [
         name: 'УТС в Зеркальном',
         place: 'Зеркальный',
         res: 'https://o-site.spb.ru/_races/130428-0504/130502_split.htm',
-        o_site: '130428-0504'
+        o_site: '130428-0504',
+        bulletin: 'https://o-site.spb.ru/_races/130428-0504/130428_Plan%20(pril%204).doc'
     },
     {
         id: 'SPB_20130501_1',
@@ -458,7 +480,8 @@ let events2013 = [
         start: 'LO_CHAMP',
         reg: 'http://sportident.ru/entry/event_info.php?id=635',
         info: 'Открытый Чемпионат и Первенство Ленинградской области по спортивному ориентированию бегом',
-        o_site: '13050103'
+        o_site: '13050103',
+        bulletin: 'https://o-site.spb.ru/_races/13050103/13050103_info.pdf'
     },
     {
         id: 'SPB_20130501_2',
@@ -482,7 +505,8 @@ let events2013 = [
         info: 'I Чемпионат Северо-Запада России по рогейну «Лужский рубеж» и «Горный кросс-35».',
         fmt: '6 часов бегом',
         start: 'GORNY_CROSS',
-        o_site: '130501'
+        o_site: '130501',
+        bulletin: 'https://o-site.spb.ru/_races/130501/GK130502_info.pdf'
     },
     {
         id: 'SPB_20130504_2',
@@ -493,7 +517,8 @@ let events2013 = [
         start: 'SOSNOVOBORSKY_DUNY',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/13042021/130504_res.htm',
-        o_site: '13042021'
+        o_site: '13042021',
+        bulletin: 'https://o-site.spb.ru/_races/13042021/130505_info3(2).htm'
     },
     {
         id: 'SPB_20130508_1',
@@ -513,6 +538,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130509_Az/130509_res.htm',
         info: 'Соревнования проводятся непосредственно после чемпионата СПб среди студентов ВУЗов. Начало старта через 3 часа после старта студентов.',
         o_site: '130509_Az',
+        bulletin: 'https://o-site.spb.ru/_races/130509_Az/130509_info.htm',
         owner: 'AZIMUT'
     },
     {
@@ -524,7 +550,8 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/130509_vyz/130509_res.xls',
         info: 'Мандатная комиссия проводится 29 апреля в СДЮСШ ОР №2, пом.59 по адресу: Невский пр., 39, с 17 до 18 часов.',
-        o_site: '130509_vyz'
+        o_site: '130509_vyz',
+        bulletin: 'https://o-site.spb.ru/_races/130509_vyz/130509_info_st.htm'
     },
     {
         id: 'SPB_20130510_1',
@@ -581,7 +608,8 @@ let events2013 = [
         name: 'Весенний Кубок 110%, 3 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/130606/130516_res.htm',
-        o_site: '130606'
+        o_site: '130606',
+        bulletin: 'https://o-site.spb.ru/_races/130606/130606_info.pdf'
     },
     {
         id: 'SPB_20130517_1',
@@ -590,7 +618,8 @@ let events2013 = [
         name: 'Чемпионат Прибалтики',
         place: 'Ruusmäe, Estonia',
         res: 'http://www.orienteerumine.ee/boc2013/alam_failid/day_1.htm',
-        o_site: '13051719'
+        o_site: '13051719',
+        bulletin: 'https://o-site.spb.ru/_races/13051719/ChampPrib_info2013.pdf'
     },
     {
         id: 'SPB_20130518_1',
@@ -601,6 +630,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130518_Az/130518_RES.htm',
         info: 'Традиционный старт, провводимый КСО Азимут в память о тех, кого уже нет с нами...',
         o_site: '130518_Az',
+        bulletin: 'https://o-site.spb.ru/_races/130518_Az/130518_info.htm',
         map: 'lembolovo_2002',
         owner: 'AZIMUT'
     },
@@ -613,7 +643,8 @@ let events2013 = [
         place: 'Всеволожск, Колтуши',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/13051819/130518_rez.htm',
-        o_site: '13051819'
+        o_site: '13051819',
+        bulletin: 'https://o-site.spb.ru/_races/13051819/13051819_info.htm'
     },
     {
         id: 'SPB_20130518_3',
@@ -637,6 +668,7 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/130519/130519_res.htm',
         o_site: '130519',
+        bulletin: 'https://o-site.spb.ru/_races/130519/130519_info_3.htm',
         map: 'pukhtolova_gora_2009'
     },
     {
@@ -673,7 +705,8 @@ let events2013 = [
         name: 'Весенний Кубок 110%, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/130606/130523_res.htm',
         start: 'ROGAINE_110',
-        o_site: '130606'
+        o_site: '130606',
+        bulletin: 'https://o-site.spb.ru/_races/130606/130606_info.pdf'
     },
     {
         id: 'SPB_20130525_1',
@@ -682,7 +715,8 @@ let events2013 = [
         place: 'Токсово-Кавголово',
         name: 'Кубок России по МТБО',
         reg: 'http://sportident.ru/entry/event_info.php?id=638',
-        o_site: '13052528'
+        o_site: '13052528',
+        bulletin: 'http://o-time.ru/mtbo/mtbo_rus.pdf'
     },
     {
         id: 'SPB_20130525_2',
@@ -701,6 +735,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130526_LO/130526_lo_res.pdf',
         owner: 'SFSO_LO',
         o_site: '130526_LO',
+        bulletin: 'https://o-site.spb.ru/_races/130526_LO/130526_LO_info.pdf',
         map: 'vsevolozhsk_rumbolovo_2014'
     },
     {
@@ -711,6 +746,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130526_SPb/130526_split.htm',
         owner: 'SFSO_SPB',
         o_site: '130526_SPb',
+        bulletin: 'https://o-site.spb.ru/_races/130526_SPb/130526_info_1%20(RA).htm',
         map: 'udelny_2009'
     },
     {
@@ -736,7 +772,8 @@ let events2013 = [
         name: 'Весенний Кубок 110%, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/130606/130530_res.htm',
         start: 'ROGAINE_110',
-        o_site: '130606'
+        o_site: '130606',
+        bulletin: 'https://o-site.spb.ru/_races/130606/130606_info.pdf'
     },
     {
         id: 'SPB_20130601_1',
@@ -746,7 +783,8 @@ let events2013 = [
         place: 'Кузьмолово',
         reg: 'http://o-reg.spb.ru/',
         res: 'http://o-time.ru/images/all/w13/footo010613spbr.htm',
-        o_site: '130601'
+        o_site: '130601',
+        bulletin: 'https://o-site.spb.ru/_races/130601/130601_info.pdf'
     },
     {
         id: 'SPB_20130601_2',
@@ -765,7 +803,8 @@ let events2013 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/130602/130602_res.zip',
         start: 'RUSSIA_ROGAINE_CHAMP',
-        o_site: '130602'
+        o_site: '130602',
+        bulletin: 'https://o-site.spb.ru/_races/130602/GK130601_info.pdf'
     },
     {
         id: 'SPB_20130602_2',
@@ -775,6 +814,7 @@ let events2013 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/130602Ch/130602_RES.htm',
         o_site: '130602Ch',
+        bulletin: 'https://o-site.spb.ru/_races/130602Ch/130602_info3.pdf',
         reskeep: 247
     },
     {
@@ -792,7 +832,8 @@ let events2013 = [
         name: 'Весенний Кубок 110%, 6 этап',
         res: 'http://www.o-site.spb.ru/_races/130606/130418_res.htm',
         start: 'ROGAINE_110',
-        o_site: '130606'
+        o_site: '130606',
+        bulletin: 'https://o-site.spb.ru/_races/130606/130606_info.pdf'
     },
     {
         id: 'SPB_20130608_1',
@@ -837,6 +878,7 @@ let events2013 = [
         info: 'В 2013 году одновременно с многодневкой Невский Азимут по группам МЖ 35-85 будет проводиться Кубок России среди ветеранов.',
         start: 'NA',
         o_site: '13061416_NA',
+        bulletin: 'https://o-site.spb.ru/_races/13061416_NA/13061416_info2.htm',
         map: ['na_2013_06_14', 'na_2013_razdelnoe', 'na_2013_06_16']
     },
     {
@@ -847,6 +889,7 @@ let events2013 = [
         name: 'Фестиваль БелыеНочи-2013',
         res: 'https://o-site.spb.ru/_races/13061823/130618_split.htm',
         o_site: '13061823',
+        bulletin: 'https://o-site.spb.ru/_races/13061823/13061823_info.pdf',
         map: ['ym_2013_06_18', 'ym_2013_06_19', 'ym_2013_borisovo_long'],
         start: ['WN','YM']
     },
@@ -861,6 +904,7 @@ let events2013 = [
         video: 'https://www.youtube.com/watch?v=-1F_4uM-C3U',
         start: 'KKP',
         o_site: '13062427',
+        bulletin: 'http://kkp.spb.ru/info.php',
         map: ['kkp_2013_06_24','kkp_2013_06_27']
     },
     {
@@ -873,6 +917,7 @@ let events2013 = [
         info: 'Соревнования проводятся 28-30 июня 2013 года в Выборгском районе Ленинградской области (г.Выборг).',
         start: 'MMS',
         o_site: '13062830_MS',
+        bulletin: 'https://o-site.spb.ru/_races/13062830_MS/130628-30_info.htm',
         endDate: '2013-06-30',
         map: ['vyborg_saymenskie_dachi_2013','mms_2013_06_28','mms_2013_06_29','mms_2013_06_30']
     },
@@ -934,7 +979,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130720/130720_res.pdf',
         fmt: '3 часа бегом',
         start: 'ROGAINE_110',
-        o_site: '130720'
+        o_site: '130720',
+        bulletin: 'https://o-site.spb.ru/_races/130720/130620_info.pdf'
     },
     {
         id: 'SPB_20130720_2',
@@ -948,7 +994,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130720_GK/130720_res_.xls',
         fmt: '6 и 3 час. бегом; 6 час. вело',
         start: 'GORNY_CROSS',
-        o_site: '130720_GK'
+        o_site: '130720_GK',
+        bulletin: 'https://o-site.spb.ru/_races/130720_GK/130720_info.doc'
     },
     {
         id: 'SPB_20130721_1',
@@ -961,7 +1008,8 @@ let events2013 = [
         fmt: '3 часа бегом',
         owner: 'WN',
         start: 'WN',
-        o_site: '130721'
+        o_site: '130721',
+        bulletin: 'https://o-site.spb.ru/_races/130721/130721_info.pdf'
     },
     {
         id: 'SPB_20130726_1',
@@ -1035,6 +1083,7 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/13082425/13082425_res.htm',
         o_site: '13082425',
+        bulletin: 'https://o-site.spb.ru/_races/13082425/13082425_info2.pdf',
         map: 'psk_2013_08_24'
     },
     {
@@ -1046,6 +1095,7 @@ let events2013 = [
         info: 'Традиционные соревнования по специальным правилам, проводимые клубом Азимут',
         start: 'GS',
         o_site: '130825_ZZ',
+        bulletin: 'https://o-site.spb.ru/_races/130825_ZZ/130825_info2.htm',
         map: 'gs_2013_08_25'
     },
     {
@@ -1082,7 +1132,8 @@ let events2013 = [
         start: 'KUZMOLOVSKY_STARTS',
         place: 'Токсово',
         res: 'http://www.o-site.spb.ru/_races/130905/130905_res.htm',
-        o_site: '130905'
+        o_site: '130905',
+        bulletin: 'https://o-site.spb.ru/_races/130905/131017_info.pdf'
     },
     {
         id: 'SPB_20130905_2',
@@ -1111,6 +1162,7 @@ let events2013 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/130908/130908_res.htm',
         o_site: '130908',
+        bulletin: 'https://o-site.spb.ru/_races/130908/130908_info2_.pdf',
         reskeep: 254
     },
     {
@@ -1137,7 +1189,8 @@ let events2013 = [
         name: 'Кузьмоловские старты, 2 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://www.o-site.spb.ru/_races/130905/130912_res.htm',
-        o_site: '130905'
+        o_site: '130905',
+        bulletin: 'https://o-site.spb.ru/_races/130905/131017_info.pdf'
     },
     {
         id: 'SPB_20130914_1',
@@ -1149,7 +1202,8 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/13091415_LO/130914_res.pdf',
         info: 'Старт 15 сентября входит в зачёт Кубка СПб и ЛО 2013 года.',
-        o_site: '13091415_LO'
+        o_site: '13091415_LO',
+        bulletin: 'https://o-site.spb.ru/_races/13091415_LO/13091415_info3.htm'
     },
     {
         id: 'SPB_20130914_2',
@@ -1184,7 +1238,8 @@ let events2013 = [
         name: 'Кузьмоловские старты, 3 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://www.o-site.spb.ru/_races/130905/130919_res.htm',
-        o_site: '130905'
+        o_site: '130905',
+        bulletin: 'https://o-site.spb.ru/_races/130905/131017_info.pdf'
     },
     {
         id: 'SPB_20130921_1',
@@ -1203,7 +1258,8 @@ let events2013 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/130921/130921_mtbo_res.pdf',
         fmt: 'Велокросс-классика (40-70мин) - код дисциплины 0830241811Я',
-        o_site: '130921'
+        o_site: '130921',
+        bulletin: 'https://o-site.spb.ru/_races/130921/130921_info2.htm'
     },
     {
         id: 'SPB_20130921_3',
@@ -1255,7 +1311,8 @@ let events2013 = [
         name: 'Кузьмоловские старты, 4 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://www.o-site.spb.ru/_races/130905/130926_res.htm',
-        o_site: '130905'
+        o_site: '130905',
+        bulletin: 'https://o-site.spb.ru/_races/130905/131017_info.pdf'
     },
     {
         id: 'SPB_20130927_1',
@@ -1266,7 +1323,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130927/130927_res.htm',
         fmt: 'Двухэтапная эстафета в заданном направлении',
         start: 'ROGAINE_110',
-        o_site: '130927'
+        o_site: '130927',
+        bulletin: 'https://o-site.spb.ru/_races/130927/130927_info.pdf'
     },
     {
         id: 'SPB_20130927_2',
@@ -1276,6 +1334,7 @@ let events2013 = [
         place: 'Зеркальный',
         res: 'https://o-site.spb.ru/_races/130927-30/130928_res.htm',
         o_site: '130927-30',
+        bulletin: 'https://o-site.spb.ru/_races/130927-30/13092730_info_3.html',
         map: 'zerkalny_2002'
     },
     {
@@ -1308,7 +1367,8 @@ let events2013 = [
         place: 'Яппиля',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/130929/130929_res.htm',
-        o_site: '130929'
+        o_site: '130929',
+        bulletin: 'http://gs-oc.ru/phocadownload/competitions/mhy2013/130929_info.pdf'
     },
     {
         id: 'SPB_20131003_1',
@@ -1316,7 +1376,8 @@ let events2013 = [
         name: 'Кузьмоловские старты, 5 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://www.o-site.spb.ru/_races/130905/131003_res.htm',
-        o_site: '130905'
+        o_site: '130905',
+        bulletin: 'https://o-site.spb.ru/_races/130905/131017_info.pdf'
     },
     {
         id: 'SPB_20131005_1',
@@ -1327,6 +1388,7 @@ let events2013 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/131005/131005_mtbo_res.pdf',
         o_site: '131005',
+        bulletin: 'https://o-site.spb.ru/_races/131005/131005_info2.pdf',
         map: 'osinovaja_roscha_velo_2020'
     },
     {
@@ -1338,7 +1400,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/131006/131006_res.htm',
         info: '4-е по счёту традиционные соревнования, проводимые клубом "Белые Ночи" при спонсорской поддержке генерального партнёра trikolor.tv',
         owner: 'WN',
-        o_site: '131006'
+        o_site: '131006',
+        bulletin: 'https://o-site.spb.ru/_races/131006/131006_info2.htm'
     },
     {
         id: 'SPB_20131010_1',
@@ -1346,7 +1409,8 @@ let events2013 = [
         name: 'Кузьмоловские старты, 6 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://www.o-site.spb.ru/_races/130905/131010_res.htm',
-        o_site: '130905'
+        o_site: '130905',
+        bulletin: 'https://o-site.spb.ru/_races/130905/131017_info.pdf'
     },
     {
         id: 'SPB_20131011_1',
@@ -1354,7 +1418,8 @@ let events2013 = [
         place: 'Токсово, оз Светлое',
         name: 'Старт памяти одноклубника Коли Иванова',
         res: 'https://o-site.spb.ru/_races/131011_k/20131011_split.htm',
-        o_site: '131011_k'
+        o_site: '131011_k',
+        bulletin: 'https://o-site.spb.ru/_races/131011_k/131011_info.zip'
     },
     {
         id: 'SPB_20131012_1',
@@ -1381,7 +1446,8 @@ let events2013 = [
         place: 'Выборгское ш, 5',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/131016/20131016-rez.htm',
-        o_site: '131016'
+        o_site: '131016',
+        bulletin: 'https://o-site.spb.ru/_races/131016/131016_info2.pdf'
     },
     {
         id: 'SPB_20131019_1',
@@ -1393,7 +1459,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/131019/131019gk_res.zip',
         fmt: '3 и 6 часов бегом и вело',
         start: 'GORNY_CROSS',
-        o_site: '131019'
+        o_site: '131019',
+        bulletin: 'https://o-site.spb.ru/_races/131019/131019_info3a.doc'
     },
     {
         id: 'SPB_20131019_2',
@@ -1404,7 +1471,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/131019_ZO/131019_res.htm',
         fmt: 'спринт - раздельный старт',
         owner: 'VYBORG',
-        o_site: '131019_ZO'
+        o_site: '131019_ZO',
+        bulletin: 'https://o-site.spb.ru/_races/131019_ZO/131019_info3.pdf'
     },
     {
         id: 'SPB_20131020_1',
@@ -1450,7 +1518,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/131026_Az/131026_res.htm',
         owner: 'AZIMUT',
         logo: 'azimut.gif',
-        o_site: '131026_Az'
+        o_site: '131026_Az',
+        bulletin: 'https://o-site.spb.ru/_races/131026_Az/131026_info_.htm'
     },
     {
         id: 'SPB_20131027_1',
@@ -1470,6 +1539,7 @@ let events2013 = [
         info: 'Традиционные праздничные осенние соревнования на удлинённой дистанции, проводимые КСО Азимут',
         logo: 'azimut.gif',
         o_site: '131104_Az',
+        bulletin: 'https://o-site.spb.ru/_races/131104_Az/131104_info.htm',
         map: 'lembolovo_2002',
         owner: 'AZIMUT'
     },
@@ -1492,7 +1562,8 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/131117/131117_res.htm',
         start: 'ROGAINE_110',
-        o_site: '131117'
+        o_site: '131117',
+        bulletin: 'https://o-site.spb.ru/_races/131117/131117_info2.pdf'
     },
     {
         id: 'SPB_20131120_1',
@@ -1517,7 +1588,8 @@ let events2013 = [
         name: 'Всеволожская тропа',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://o-site.spb.ru/_races/131208_tr/131124_split.htm',
-        o_site: '131208_tr'
+        o_site: '131208_tr',
+        bulletin: 'https://o-site.spb.ru/_races/131208_tr/131208_info.pdf'
     },
     {
         id: 'SPB_20131124_2',
@@ -1537,7 +1609,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/131130_GK/131130_res-1.zip',
         info: 'Классический рогейн 8 и 3 часа - бег и вело (по погоде)',
         start: 'GORNY_CROSS',
-        o_site: '131130_GK'
+        o_site: '131130_GK',
+        bulletin: 'https://o-site.spb.ru/_races/131130_GK/131130_GK_info2.pdf'
     },
     {
         id: 'SPB_20131201_1',
@@ -1547,7 +1620,8 @@ let events2013 = [
         place: 'Александрино',
         res: 'https://o-site.spb.ru/_races/131201/131201_res1.pdf',
         info: 'Соревнования проводятся 01 декабря 2013 года на территории парка «Александрино» и примыкающего жилого квартала Кировского района Санкт-Петербурга.',
-        o_site: '131201'
+        o_site: '131201',
+        bulletin: 'https://o-site.spb.ru/_races/131201/131201_info_2.htm'
     },
     {
         id: 'SPB_20131208_1',
@@ -1557,7 +1631,8 @@ let events2013 = [
         start: 'VSEVOLOZHSK_WAY',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/131208_tr/131208_split.htm',
-        o_site: '131208_tr'
+        o_site: '131208_tr',
+        bulletin: 'https://o-site.spb.ru/_races/131208_tr/131208_info.pdf'
     },
     {
         id: 'SPB_20131208_2',

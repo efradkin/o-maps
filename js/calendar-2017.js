@@ -8,6 +8,7 @@ let events2017 = [
         info: 'В связи с отсутствием достаточного снежного покрова соревнования в 2017 году проводятся БЕГОМ.',
         owner: 'NW',
         o_site: '170107_08',
+        bulletin: 'https://o-site.spb.ru/_races/170107_08/17010708_info3.pdf',
         map: 'tsvelodubovo_winter_2003'
     },
     {
@@ -18,7 +19,8 @@ let events2017 = [
         type: 'VELO',
         reg: 'http://sportident.ru/entry/event_info.php?id=1898',
         info: 'Зимний сбор в Цвелодубово-2017',
-        o_site: '170103_sbor'
+        o_site: '170103_sbor',
+        bulletin: 'https://o-site.spb.ru/_races/170103_sbor/170103-10_info_sbor.pdf'
     },
     {
         id: 'SPB_20170114_1',
@@ -38,7 +40,8 @@ let events2017 = [
         place: 'Вартемяги',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/170114_tren/170114_res.htm',
-        o_site: '170114_tren'
+        o_site: '170114_tren',
+        bulletin: 'https://o-site.spb.ru/_races/170114_tren/170114_info.pdf'
     },
     {
         id: 'SPB_20170115_1',
@@ -48,7 +51,8 @@ let events2017 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170115/170115_res.pdf',
         info: '15 января база "ПАН" Спринт',
-        o_site: '170115'
+        o_site: '170115',
+        bulletin: 'https://o-site.spb.ru/_races/170115/170115_inf3.doc'
     },
     {
         id: 'SPB_20170121_1',
@@ -58,7 +62,8 @@ let events2017 = [
         name: 'Спартакиада учащихся России - Санкт-Петербург',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170121-22_SP/170121_res.htm',
-        o_site: '170121-22_SP'
+        o_site: '170121-22_SP',
+        bulletin: 'https://o-site.spb.ru/_races/170121-22_SP/170121-22_info2.pdf'
     },
     {
         id: 'SPB_20170127_1',
@@ -69,7 +74,8 @@ let events2017 = [
         start: 'LO_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/17012729/170127_rez.htm',
-        o_site: '17012729'
+        o_site: '17012729',
+        bulletin: 'https://o-site.spb.ru/_races/17012729/17012729_info2.pdf'
     },
     {
         id: 'SPB_20170128_1',
@@ -80,6 +86,7 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=681',
         res: 'https://o-site.spb.ru/_races/170128_Sh/170128_res.htm',
         o_site: '170128_Sh',
+        bulletin: 'https://o-site.spb.ru/_races/170128_Sh/170128_info.htm',
         map: 'toksovo_vifk_winter_2023'
     },
     {
@@ -101,6 +108,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170211/170211_res.htm',
         info: '11.02.2017 в ЗЦ "Зеркальный" на полигоне за магазином и железной дорогой будут проведены соревнования "Мемориал А.Волкова" в дисциплине "лыжная гонка-маркированная трасса" по группам М10, Ж10, М12, Ж12, М14, Ж14, М17, Ж17, М21, Ж21, М40, Ж40, М50, Ж50, М60, Ж60, М70, Ж70, М80, Ж80',
         o_site: '170211',
+        bulletin: 'https://o-site.spb.ru/_races/170211/170211_info3.pdf',
         map: 'volkov_2017_02_11',
         start: 'VOLKOV_A'
     },
@@ -130,7 +138,8 @@ let events2017 = [
         place: 'Орехово, б/о ПАН',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170218/170218_res.htm',
-        o_site: '170218'
+        o_site: '170218',
+        bulletin: 'https://o-site.spb.ru/_races/170218/170218-19_info3.pdf'
     },
     {
         id: 'SPB_20170219_1',
@@ -140,7 +149,8 @@ let events2017 = [
         place: 'Орехово, б/о ПАН',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170219/170219_res.htm',
-        o_site: '170219'
+        o_site: '170219',
+        bulletin: 'https://o-site.spb.ru/_races/170219/170219_info3b.pdf'
     },
     {
         id: 'SPB_20170219_2',
@@ -188,7 +198,8 @@ let events2017 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=696',
         res: 'https://o-site.spb.ru/_races/170225_VUZ/170225_res.htm',
-        o_site: '170225_VUZ'
+        o_site: '170225_VUZ',
+        bulletin: 'https://o-site.spb.ru/_races/170225_VUZ/17022_%20info3.pdf'
     },
     {
         id: 'SPB_20170226_1',
@@ -219,7 +230,8 @@ let events2017 = [
         place: 'Орехово, б/о ПАН',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170305/170305_res.htm',
-        o_site: '170305'
+        o_site: '170305',
+        bulletin: 'https://o-site.spb.ru/_races/170305/170305_info3.pdf'
     },
     {
         id: 'SPB_20170305_2',
@@ -239,7 +251,8 @@ let events2017 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170308/170308_res.htm',
         info: '– Чемпионат Санкт-Петербурга: лыжная гонка – эстафета-3 чел. Допускается формирование команд из представителей различных спортивных коллективов или личников. - Первенство Санкт-Петербурга среди юношей, юниоров МЖ 12, МЖ14, МЖ17, МЖ20: лыжная гонка – эстафета-3 чел. Допускается формирование команд из представителей различных спортивных коллективов. Данные команды выступают внезачета. - Первенство Санкт-Петербурга среди ветеранов, группы МЖ35, МЖ45, МЖ55, МЖ65: лыжная гонка – эстафета -2 чел. После окончания регистрации спортсмены не прошедшие мандатную комиссию и заявившиеся в эстафетные команды будут удалены из заявки.',
-        o_site: '170308'
+        o_site: '170308',
+        bulletin: 'https://o-site.spb.ru/_races/170308/170308_info3.pdf'
     },
     {
         id: 'SPB_20170312_2',
@@ -250,7 +263,8 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/17031112/17031112_sum.htm',
         start: 'VSEV_VESTI',
-        o_site: '17031112'
+        o_site: '17031112',
+        bulletin: 'https://o-site.spb.ru/_races/17031112/17031112_info.pdf'
     },
     {
         id: 'SPB_20170312_1',
@@ -261,6 +275,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170312/170312_res.htm',
         photo: 'http://vk.com/album-9087078_242268462',
         o_site: '170312',
+        bulletin: 'https://o-site.spb.ru/_races/170312/170312_info2-3_.pdf',
         map: 'pushkin_nizhny_2019'
     },
     {
@@ -280,7 +295,8 @@ let events2017 = [
         place: 'СПб',
         reg: 'http://sportident.ru/entry/event_info.php?id=2026',
         res: 'https://o-site.spb.ru/_races/17031719/170318-19_summ.htm',
-        o_site: '17031719'
+        o_site: '17031719',
+        bulletin: 'https://o-site.spb.ru/_races/17031719/17031719_info.pdf'
     },
     {
         id: 'SPB_20170319_2',
@@ -289,7 +305,8 @@ let events2017 = [
         name: 'Весенняя тропа от FoxTeam',
         reg: 'http://o-reg.spb.ru/entry-list?id=710',
         res: 'https://o-site.spb.ru/_races/170319_FoxTeam/170319_rezFT.htm',
-        o_site: '170319_FoxTeam'
+        o_site: '170319_FoxTeam',
+        bulletin: 'https://o-site.spb.ru/_races/170319_FoxTeam/170319_ft_info2.pdf'
     },
     {
         id: 'SPB_20170319_3',
@@ -360,6 +377,7 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/170223_VT/170409_rez.htm',
         o_site: '170223_VT',
+        bulletin: 'https://o-site.spb.ru/_races/170223_VT/170409_info.pdf',
         map: 'sosnovka_2014'
     },
     {
@@ -391,6 +409,7 @@ let events2017 = [
         name: 'Sprint Tour SPb 2017, 1 этап',
         start: 'SPRINT_TOUR',
         o_site: '170412_ST',
+        bulletin: 'https://o-site.spb.ru/_races/170412_ST/171014_info.pdf',
         res: 'https://reg.o-time.ru/race/17081'
     },
     {
@@ -400,7 +419,8 @@ let events2017 = [
         name: 'Кузьмоловские старты, 1 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/170413_res.htm',
-        o_site: '2017_KS'
+        o_site: '2017_KS',
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
     },
     {
         id: 'SPB_20170414_1',
@@ -411,7 +431,8 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=733',
         res: 'https://o-site.spb.ru/_races/170314-15/170415_sum.htm',
         info: 'Спринты от команды FoxTeam',
-        o_site: '170314-15'
+        o_site: '170314-15',
+        bulletin: 'https://o-site.spb.ru/_races/170314-15/170414-info.pdf'
     },
     {
         id: 'SPB_20170416_1',
@@ -452,7 +473,8 @@ let events2017 = [
         name: 'Кузьмоловские старты, 2 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/170420_res.htm',
-        o_site: '2017_KS'
+        o_site: '2017_KS',
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
     },
     {
         id: 'SPB_20170422_1',
@@ -474,7 +496,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170423/170422_res.htm',
         info: '22 апреля - Спринт с 15.00 23 апреля - Классика с 12.00',
         publish: 'https://o-site.spb.ru/race.php?id=170423',
-        o_site: '170423'
+        o_site: '170423',
+        bulletin: 'https://o-site.spb.ru/_races/170423/170422-23_info3.pdf'
     },
     {
         id: 'SPB_20170426_1',
@@ -503,7 +526,8 @@ let events2017 = [
         name: 'Кузьмоловские старты, 3 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/170427_res.htm',
-        o_site: '2017_KS'
+        o_site: '2017_KS',
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
     },
     {
         id: 'SPB_20170429_1',
@@ -513,7 +537,8 @@ let events2017 = [
         start: 'WEEKLY_ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=743',
         res: 'https://o-site.spb.ru/_races/170429_WOr/170429_res.htm',
-        o_site: '170429_WOr'
+        o_site: '170429_WOr',
+        bulletin: 'https://o-site.spb.ru/_races/170429_WOr/170429_info.pdf'
     },
     {
         id: 'SPB_20170429_2',
@@ -525,7 +550,8 @@ let events2017 = [
         reg: 'http://x-race.info/calendar/92112/request/',
         res: 'https://o-site.spb.ru/_races/170429/170429GK_res.pdf',
         start: 'GORNY_CROSS',
-        o_site: '170429'
+        o_site: '170429',
+        bulletin: 'http://x-race.info/calendar/92112/gornyy-kross-55-'
     },
     {
         id: 'SPB_20170430_1',
@@ -535,6 +561,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170430-0501_gdtu/170430_res.htm',
         info: '30 апреля - кросс классика, 01 мая - кросс спринт.',
         o_site: '170430-0501_gdtu',
+        bulletin: 'https://o-site.spb.ru/_races/170430-0501_gdtu/170430_info1-3_polyany_3.pdf',
         owner: 'ANCHKV'
     },
     {
@@ -545,6 +572,7 @@ let events2017 = [
         reg: 'http://orgeo.ru/event/4112',
         info: '3-и традиционные Соревнования памяти Юрия Александровича Березюка. Кубок города Кириши по спортивному ориентированию. Кубок Профкома ООО «ПО Киришинефтеоргсинтез»',
         o_site: '170514',
+        bulletin: 'https://o-site.spb.ru/_races/170514/170514_info.pdf',
         owner: 'EGRV_SRG'
     },
     {
@@ -572,6 +600,7 @@ let events2017 = [
         place: 'Поляны',
         info: 'Специализированная детско-юношеская спортивная школа олимпийского резерва № 2 Санкт-Петербургского городского Дворца творчества юных организовывают тренировочное мероприятие по подготовке к первенствам Санкт-Петербурга и России по спортивному ориентированию бегом с 28 апреля по 01 мая 2017 года на базе оздоровительного комплекса «Университетский» Ленинградской области, Выборгского района, Полянской волости.',
         o_site: '170428-0501',
+        bulletin: 'https://o-site.spb.ru/_races/170428-0501/170428_info2.pdf',
         owner: 'ANCHKV'
     },
     {
@@ -611,7 +640,8 @@ let events2017 = [
         type: 'ROGAINE',
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-rogeynu/kvr-2017-vtoroy-etap',
         res: 'https://o-site.spb.ru/_races/170506/170506_res.htm',
-        o_site: '170506'
+        o_site: '170506',
+        bulletin: 'https://o-site.spb.ru/_races/170506/170506_info.pdf'
     },
     {
         id: 'SPB_20170506_2',
@@ -629,7 +659,8 @@ let events2017 = [
         place: 'Петроградка',
         reg: 'http://o-reg.spb.ru/entry-list?id=746',
         res: 'https://o-site.spb.ru/_races/170506FT/170506_res_sum.htm',
-        o_site: '170506FT'
+        o_site: '170506FT',
+        bulletin: 'https://o-site.spb.ru/_races/170506FT/170506_info_FT.pdf'
     },
     {
         id: 'SPB_20170507_1',
@@ -638,7 +669,8 @@ let events2017 = [
         place: 'Цвелодубово',
         reg: 'http://o-reg.spb.ru/entry-list?id=747',
         res: 'https://o-site.spb.ru/_races/170507FT/170507_res.htm',
-        o_site: '170507FT'
+        o_site: '170507FT',
+        bulletin: 'https://o-site.spb.ru/_races/170507FT/170507_info.pdf'
     },
     {
         id: 'SPB_20170508_1',
@@ -657,6 +689,7 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=749',
         res: 'https://o-site.spb.ru/_races/170509/170509_res.htm',
         o_site: '170509',
+        bulletin: 'https://o-site.spb.ru/_races/170509/170509_info.htm',
         map: 'orekhovo_rakitinskoe_2004',
         owner: 'AZIMUT'
     },
@@ -669,6 +702,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170426_CA/170510_res.htm',
         video: 'https://www.youtube.com/watch?v=92OJ2UKCfsw',
         o_site: '170426_CA',
+        bulletin: 'https://o-site.spb.ru/_races/170426_CA/170426_info.htm',
         map: 'pushkin_babolovsky_2019'
     },
     {
@@ -678,6 +712,7 @@ let events2017 = [
         name: 'Sprint Tour SPb 2017, 4 этап',
         start: 'SPRINT_TOUR',
         o_site: '170412_ST',
+        bulletin: 'https://o-site.spb.ru/_races/170412_ST/171014_info.pdf',
         res: 'https://reg.o-time.ru/race/17084'
     },
     {
@@ -687,7 +722,8 @@ let events2017 = [
         name: 'Кузьмоловские старты, 4 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/170511_res.htm',
-        o_site: '2017_KS'
+        o_site: '2017_KS',
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
     },
     {
         id: 'SPB_20170513_1',
@@ -745,7 +781,8 @@ let events2017 = [
         name: 'Кузьмоловские старты, 5 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/170518_res.htm',
-        o_site: '2017_KS'
+        o_site: '2017_KS',
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
     },
     {
         id: 'SPB_20170519_1',
@@ -765,6 +802,7 @@ let events2017 = [
         photo: 'https://o-site.spb.ru/_races/170520_SPb/ https://cloud.mail.ru/public/K4Gk/7yX9j7YRY',
         owner: 'SFSO_SPB',
         o_site: '170520_SPb',
+        bulletin: 'https://o-site.spb.ru/_races/170520_SPb/170508_info1.pdf',
         map: '300_let_spb_2022'
     },
     {
@@ -796,6 +834,7 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=754',
         res: 'https://o-site.spb.ru/_races/170520_Az/170521_res.htm',
         o_site: '170520_Az',
+        bulletin: 'https://o-site.spb.ru/_races/170520_Az/170521_info3.htm',
         owner: 'AZIMUT'
     },
     {
@@ -816,7 +855,8 @@ let events2017 = [
         start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/170521_velo/170521_rez.htm',
-        o_site: '170521_velo'
+        o_site: '170521_velo',
+        bulletin: 'https://o-site.spb.ru/_races/170521_velo/170521_info1.htm'
     },
     {
         id: 'SPB_20170524_1',
@@ -825,6 +865,7 @@ let events2017 = [
         name: 'Всемирный День Ориентирования',
         res: 'https://o-site.spb.ru/_races/170524/170524_res.htm',
         o_site: '170524',
+        bulletin: 'https://o-site.spb.ru/_races/170524/170524_info2.pdf',
         map: 'politekh_2022'
     },
     {
@@ -834,6 +875,7 @@ let events2017 = [
         name: 'Sprint Tour SPb 2017, 6 этап',
         start: 'SPRINT_TOUR',
         o_site: '170412_ST',
+        bulletin: 'https://o-site.spb.ru/_races/170412_ST/171014_info.pdf',
         res: 'https://reg.o-time.ru/race/17086'
     },
     {
@@ -843,7 +885,8 @@ let events2017 = [
         name: 'Кузьмоловские старты, 6 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/170525_res.htm',
-        o_site: '2017_KS'
+        o_site: '2017_KS',
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
     },
     {
         id: 'SPB_20170527_1',
@@ -854,6 +897,7 @@ let events2017 = [
         reg: 'http://sportident.ru/entry/event_info.php?id=2029',
         res: 'http://www.o-site.spb.ru/_races/170427-28_VT/170527_split_VT.htm',
         o_site: '170527',
+        bulletin: 'https://o-site.spb.ru/_races/170527/17052728_info.pdf',
         reskeep: 255
     },
     {
@@ -871,7 +915,8 @@ let events2017 = [
             'https://www.youtube.com/watch?v=uGA71YpOaG4'
         ],
         owner: ['VYBORG','NW'],
-        o_site: '170427-28_VT'
+        o_site: '170427-28_VT',
+        bulletin: 'https://o-site.spb.ru/_races/170427-28_VT/170527-28_info_VT.pdf'
     },
     {
         id: 'SPB_20170527_3',
@@ -881,7 +926,8 @@ let events2017 = [
         name: 'ГорныйКросс-56',
         res: 'https://o-site.spb.ru/_races/170527R/170527R_res.pdf',
         fmt: 'рогейн БЕГ - 24 и 6ч, ВЕЛО - 5ч, кросс-трейл - 38 и 17км',
-        o_site: '170527R'
+        o_site: '170527R',
+        bulletin: 'https://o-site.spb.ru/_races/170527R/170527R_info.pdf'
     },
     {
         id: 'SPB_20170527_4',
@@ -905,6 +951,7 @@ let events2017 = [
         reg: 'http://sportident.ru/entry/event_info.php?id=2029',
         res: 'http://www.o-site.spb.ru/_races/170427-28_VT/170528_split_day.htm',
         o_site: '170528',
+        bulletin: 'http://o-site.spb.ru/_races/170527/17052728_info.pdf',
         reskeep: 253
     },
     {
@@ -923,7 +970,8 @@ let events2017 = [
         name: 'Кузьмоловские старты, 7 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/170601_res.htm',
-        o_site: '2017_KS'
+        o_site: '2017_KS',
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
     },
     {
         id: 'SPB_20170602_1',
@@ -937,6 +985,7 @@ let events2017 = [
         owner: 'WN',
         start: 'WN',
         o_site: '17060204',
+        bulletin: 'https://o-site.spb.ru/_races/17060204/WN_3d_info.pdf',
         map: ['wn_2017_06_03', 'wn_2017_06_04']
     },
     {
@@ -944,7 +993,8 @@ let events2017 = [
         date: '2017-06-05',
         place: 'Сосново',
         name: 'Ночная тренировка от FoxTeam',
-        o_site: '170605_NFT'
+        o_site: '170605_NFT',
+        bulletin: 'https://o-site.spb.ru/_races/170605_NFT/170605_info.pdf'
     },
     {
         id: 'SPB_20170608_1',
@@ -953,7 +1003,8 @@ let events2017 = [
         place: 'Приозерск',
         reg: 'http://o-reg.spb.ru/entry-list?id=762',
         res: 'https://o-site.spb.ru/_races/170608/170602_split_1.htm',
-        o_site: '170608'
+        o_site: '170608',
+        bulletin: 'http://www.o-site.spb.ru/_races/17060204/WN_sprint.pdf'
     },
     {
         id: 'SPB_20170609_1',
@@ -966,6 +1017,7 @@ let events2017 = [
         video: 'https://www.youtube.com/watch?v=J9Ubz-neCK8',
         start: 'NA',
         o_site: '17060911',
+        bulletin: 'https://o-site.spb.ru/_races/17060911/17060911_info.pdf',
         map: ['na_2017_06_09', 'na_2017_zhuravlevo', 'na_2017_06_11']
     },
     {
@@ -1009,6 +1061,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/17061218/170612R_res.pdf',
         start: 'YM',
         o_site: '17061218',
+        bulletin: 'https://o-site.spb.ru/_races/17061218/17061218_info.pdf',
         map: ['ym_2017_michurinskoe_city_sprint', 'ym_2017_06_13', 'ym_2017_yagodnoe_vybor', 'ym_2017_yagodnoe_sprint_final', 'ym_2017_yagodnoe_sprint_prolog', 'ym_2017_06_16', 'ym_sprint_2017_06_16']
     },
     {
@@ -1028,6 +1081,7 @@ let events2017 = [
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/?id=766',
         o_site: '170617_rog',
+        bulletin: 'http://100x24.ru/',
         start: '100x24'
     },
     {
@@ -1053,6 +1107,7 @@ let events2017 = [
         ],
         start: 'KKP',
         o_site: '20170518_23KKP',
+        bulletin: 'http://o-nw.com/file/infoKKP_1.pdf',
         map: 'kkp_prudy_2017_06_19'
     },
     {
@@ -1075,7 +1130,8 @@ let events2017 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=764',
         res: 'https://o-site.spb.ru/_races/170701/170701_res.htm',
-        o_site: '170701'
+        o_site: '170701',
+        bulletin: 'https://o-site.spb.ru/_races/170701/170701_sprint_info2.pdf'
     },
     {
         id: 'SPB_20170701_2',
@@ -1096,6 +1152,7 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=765',
         res: 'https://o-site.spb.ru/_races/170702/170702_res.htm',
         o_site: '170702',
+        bulletin: 'https://o-site.spb.ru/_races/170702/20170701_long_info2.pdf',
         map: 'voejkovo_velo'
     },
     {
@@ -1115,7 +1172,8 @@ let events2017 = [
         type: 'ROGAINE',
         reg: 'http://o-reg.spb.ru/entry-list?id=771',
         res: 'https://o-site.spb.ru/_races/170708/results.htm',
-        o_site: '170708'
+        o_site: '170708',
+        bulletin: 'https://o-site.spb.ru/_races/170708/170708_info.pdf'
     },
     {
         id: 'SPB_20170708_3',
@@ -1135,7 +1193,8 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=773',
         res: 'https://o-site.spb.ru/_races/2017_Per/170709_res.htm',
         info: 'Серия из четырёх личных стартов',
-        o_site: '2017_Per'
+        o_site: '2017_Per',
+        bulletin: 'https://o-site.spb.ru/_races/2017_Per/170709_info.pdf'
     },
     {
         id: 'SPB_20170715_1',
@@ -1146,7 +1205,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170715R/170715R_res.pdf',
         video: 'https://www.youtube.com/watch?v=YoR_-JyNeZ8',
         fmt: '6 и 3 часа - бег, 5 часов - вело',
-        o_site: '170715R'
+        o_site: '170715R',
+        bulletin: 'https://o-site.spb.ru/_races/170715R/170715_info.pdf'
     },
     {
         id: 'SPB_20170722_1',
@@ -1168,7 +1228,8 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=775',
         res: 'https://o-site.spb.ru/_races/170723/170723_res.htm',
         info: 'Серия из четырёх личных стартов',
-        o_site: '170723'
+        o_site: '170723',
+        bulletin: 'https://o-site.spb.ru/_races/170723/170723_info.pdf'
     },
     {
         id: 'SPB_20170730_1',
@@ -1178,7 +1239,8 @@ let events2017 = [
         place: 'Ягодное',
         reg: 'http://sportident.ru/entry/event_info.php?id=3389',
         res: 'https://o-site.spb.ru/_races/17072930/170729_split.htm',
-        o_site: '17072930'
+        o_site: '17072930',
+        bulletin: 'https://o-site.spb.ru/_races/17072930/17072930_info.pdf'
     },
     {
         id: 'SPB_20170806_1',
@@ -1190,7 +1252,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170806_Per/170806_res.htm',
         video: 'https://www.youtube.com/watch?v=3TJU7WWugjI',
         info: 'Серия из четырёх личных стартов',
-        o_site: '170806_Per'
+        o_site: '170806_Per',
+        bulletin: 'https://o-site.spb.ru/_races/170806_Per/170806_info.pdf'
     },
     {
         id: 'SPB_20170812_1',
@@ -1249,7 +1312,8 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=782',
         res: 'https://o-site.spb.ru/_races/170826_Per/170826_res.htm',
         info: 'Серия из четырёх личных стартов',
-        o_site: '170826_Per'
+        o_site: '170826_Per',
+        bulletin: 'https://o-site.spb.ru/_races/170826_Per/170826_info.pdf'
     },
     {
         id: 'SPB_20170827_1',
@@ -1259,6 +1323,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170827/170827_PDF_rez.htm',
         info: 'Ежегодные соревнования Памяти Димы Фатидинова',
         o_site: '170827',
+        bulletin: 'https://o-site.spb.ru/_races/170827/170827_info1.PDF',
         map: 'lembolovo_2024'
     },
     {
@@ -1278,7 +1343,8 @@ let events2017 = [
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=783',
         res: 'https://o-site.spb.ru/_races/170903/170903_res_V.htm',
-        o_site: '170903'
+        o_site: '170903',
+        bulletin: 'https://o-site.spb.ru/_races/170903/170903_info3.htm'
     },
     {
         id: 'SPB_20170903_2',
@@ -1297,6 +1363,7 @@ let events2017 = [
         name: 'Sprint Tour SPb 2017, 8 этап',
         start: 'SPRINT_TOUR',
         o_site: '170412_ST',
+        bulletin: 'https://o-site.spb.ru/_races/170412_ST/171014_info.pdf',
         res: 'https://reg.o-time.ru/race/17088'
     },
     {
@@ -1306,7 +1373,8 @@ let events2017 = [
         name: 'Кузьмоловские старты, 8 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/170907_res.htm',
-        o_site: '2017_KS'
+        o_site: '2017_KS',
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
     },
     {
         id: 'SPB_20170909_1',
@@ -1346,7 +1414,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170910_BN/170910_res.pdf',
         info: '8-е традиционные соревнования на призы компании Триколор ТВ',
         owner: 'WN',
-        o_site: '170910_BN'
+        o_site: '170910_BN',
+        bulletin: 'https://o-site.spb.ru/_races/170910_BN/170910_info.pdf'
     },
     {
         id: 'SPB_20170910_2',
@@ -1364,6 +1433,7 @@ let events2017 = [
         name: 'Sprint Tour SPb 2017, 9 этап',
         start: 'SPRINT_TOUR',
         o_site: '170412_ST',
+        bulletin: 'https://o-site.spb.ru/_races/170412_ST/171014_info.pdf',
         res: 'https://reg.o-time.ru/race/17089'
     },
     {
@@ -1373,7 +1443,8 @@ let events2017 = [
         name: 'Кузьмоловские старты, 9 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/170914_res.htm',
-        o_site: '2017_KS'
+        o_site: '2017_KS',
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
     },
     {
         id: 'SPB_20170916_1',
@@ -1392,7 +1463,8 @@ let events2017 = [
         start: 'LO_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=789',
         res: 'https://o-site.spb.ru/_races/170916_LO/170916_res_.htm',
-        o_site: '170916_LO'
+        o_site: '170916_LO',
+        bulletin: 'https://o-site.spb.ru/_races/170916_LO/17091617_info2_.pdf'
     },
     {
         id: 'SPB_20170917_1',
@@ -1402,7 +1474,8 @@ let events2017 = [
         start: 'LO_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=790',
         res: 'https://o-site.spb.ru/_races/170917_LO/170917_res.htm',
-        o_site: '170917_LO'
+        o_site: '170917_LO',
+        bulletin: 'https://o-site.spb.ru/_races/170917_LO/17091617_info2_.pdf'
     },
     {
         id: 'SPB_20170920_1',
@@ -1412,6 +1485,7 @@ let events2017 = [
         start: 'SPRINT_TOUR',
         map: 'big_okhta_2017',
         o_site: '170412_ST',
+        bulletin: 'https://o-site.spb.ru/_races/170412_ST/171014_info.pdf',
         res: 'https://reg.o-time.ru/race/17090'
     },
     {
@@ -1421,7 +1495,8 @@ let events2017 = [
         name: 'Кузьмоловские старты, 10 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/170921_res.htm',
-        o_site: '2017_KS'
+        o_site: '2017_KS',
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
     },
     {
         id: 'SPB_20170922_1',
@@ -1451,7 +1526,8 @@ let events2017 = [
         start: 'LO_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/170923_velo/170923_res_velo.html',
-        o_site: '170923_velo'
+        o_site: '170923_velo',
+        bulletin: 'https://o-site.spb.ru/_races/170923_velo/170923_info_velo.pdf'
     },
     {
         id: 'SPB_20170924_1',
@@ -1462,6 +1538,7 @@ let events2017 = [
         res: 'http://orgeo.ru/live/#/5260',
         video: 'http://northernwind.spb.ru/videosplit/2018/chspb_marathon',
         o_site: '170924',
+        bulletin: 'https://o-site.spb.ru/_races/170924/170924_info3.pdf',
         reskeep: 236
     },
     {
@@ -1480,7 +1557,8 @@ let events2017 = [
         name: 'Weekly Orient, 1 этап',
         start: 'WEEKLY_ORIENT',
         res: 'http://o-site.spb.ru/_races/2017_W_Or/170926_split.htm',
-        o_site: '2017_W_Or'
+        o_site: '2017_W_Or',
+        bulletin: 'https://o-site.spb.ru/_races/2017_W_Or/171223_info.pdf'
     },
     {
         id: 'SPB_20170927_1',
@@ -1497,7 +1575,8 @@ let events2017 = [
         name: 'Кузьмоловские старты, 11 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/170928_res.htm',
-        o_site: '2017_KS'
+        o_site: '2017_KS',
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
     },
     {
         id: 'SPB_20170929_1',
@@ -1505,7 +1584,8 @@ let events2017 = [
         place: 'Осиновая роща',
         name: 'Вечерняя тренировка от FoxTeam',
         res: 'https://o-site.spb.ru/_races/170929/170929_split.htm',
-        o_site: '170929'
+        o_site: '170929',
+        bulletin: 'https://o-site.spb.ru/_races/170929/170929_info.pdf'
     },
     {
         id: 'SPB_20170930_1',
@@ -1516,7 +1596,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170930R/170930R_res.pdf',
         video: ['https://www.youtube.com/watch?v=lqzh1Dt053Q','https://www.youtube.com/watch?v=IKtfaaqNDSg'],
         fmt: 'рогейн: бегом 5 и 2 часа, вело - 4 часа',
-        o_site: '170930R'
+        o_site: '170930R',
+        bulletin: 'https://o-site.spb.ru/_races/170930R/170930R_info.pdf'
     },
     {
         id: 'SPB_20170930_2',
@@ -1526,7 +1607,8 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=798',
         info: '43-е традиционные соревнования супружеских пар. Допускаются пары по интересам.',
         start: 'WEDDING',
-        o_site: '170930_ZK'
+        o_site: '170930_ZK',
+        bulletin: 'https://o-site.spb.ru/_races/170930_ZK/170930_info.htm'
     },
     {
         id: 'SPB_20170930_3',
@@ -1556,6 +1638,7 @@ let events2017 = [
         name: 'Sprint Tour SPb 2017, 11 этап',
         start: 'SPRINT_TOUR',
         o_site: '170412_ST',
+        bulletin: 'https://o-site.spb.ru/_races/170412_ST/171014_info.pdf',
         res: 'https://reg.o-time.ru/race/17091'
     },
     {
@@ -1574,7 +1657,8 @@ let events2017 = [
         name: 'Weekly Orient, 2 этап',
         start: 'WEEKLY_ORIENT',
         res: 'http://o-site.spb.ru/_races/2017_W_Or/171003_split.htm',
-        o_site: '2017_W_Or'
+        o_site: '2017_W_Or',
+        bulletin: 'https://o-site.spb.ru/_races/2017_W_Or/171223_info.pdf'
     },
     {
         id: 'SPB_20171004_1',
@@ -1595,7 +1679,8 @@ let events2017 = [
         place: 'Токсово',
         name: 'Старт памяти одноклубника Коли Иванова',
         res: 'https://o-site.spb.ru/_races/171004_PPKI/171004_PPKI_rez.htm',
-        o_site: '171004_PPKI'
+        o_site: '171004_PPKI',
+        bulletin: 'https://o-site.spb.ru/_races/171004_PPKI/171007_info.pdf'
     },
     {
         id: 'SPB_20171005_1',
@@ -1604,7 +1689,8 @@ let events2017 = [
         name: 'Кузьмоловские старты, 12 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/171005_res.htm',
-        o_site: '2017_KS'
+        o_site: '2017_KS',
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
     },
     {
         id: 'SPB_20171007_1',
@@ -1623,7 +1709,8 @@ let events2017 = [
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=800',
         res: 'https://o-site.spb.ru/_races/171007_V/171007_res_VUZ.htm',
-        o_site: '171007_V'
+        o_site: '171007_V',
+        bulletin: 'https://o-site.spb.ru/_races/171007_V/171007_info3_VUZ.pdf'
     },
     {
         id: 'SPB_20171007_3',
@@ -1633,7 +1720,8 @@ let events2017 = [
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=801',
         res: 'https://o-site.spb.ru/_races/171007_D/171007_res_gl.htm',
-        o_site: '171007_D'
+        o_site: '171007_D',
+        bulletin: 'https://o-site.spb.ru/_races/171007_D/171007_info3_Gl.pdf'
     },
     {
         id: 'SPB_20171007_4',
@@ -1663,6 +1751,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/171008/171008_res_.htm',
         video: 'https://www.youtube.com/watch?v=O-5O-CrlOXw',
         o_site: '171008',
+        bulletin: 'https://o-site.spb.ru/_races/171008/171008_info2.pdf',
         reskeep: 243
     },
     {
@@ -1690,6 +1779,7 @@ let events2017 = [
         name: 'Sprint Tour SPb 2017, 12 этап',
         start: 'SPRINT_TOUR',
         o_site: '170412_ST',
+        bulletin: 'https://o-site.spb.ru/_races/170412_ST/171014_info.pdf',
         res: 'https://reg.o-time.ru/race/17092'
     },
     {
@@ -1702,6 +1792,7 @@ let events2017 = [
         info: 'Традиционные осенние соревнования КСО "Азимут"',
         logo: 'azimut.gif',
         o_site: '171014_Az',
+        bulletin: 'https://o-site.spb.ru/_races/171014_Az/171015_info3.htm',
         owner: 'AZIMUT'
     },
     {
@@ -1733,7 +1824,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/17102122/171021_res.htm',
         video: 'https://www.youtube.com/watch?v=kqE3hRdAvww',
         owner: 'VYBORG',
-        o_site: '17102122'
+        o_site: '17102122',
+        bulletin: 'https://o-site.spb.ru/_races/17102122/17102122_info.pdf'
     },
     {
         id: 'SPB_20171028_1',
@@ -1770,7 +1862,8 @@ let events2017 = [
         name: 'ТМ в ОК УНИВЕРСИТЕТСКИЙ',
         place: 'Поляны',
         res: 'https://o-site.spb.ru/_races/171103/171103_res.htm',
-        o_site: '171103'
+        o_site: '171103',
+        bulletin: 'https://o-site.spb.ru/_races/171103/171103_info1.pdf'
     },
     {
         id: 'SPB_20171102_1',
@@ -1790,6 +1883,7 @@ let events2017 = [
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         logo: 'azimut.gif',
         o_site: '171004_OM',
+        bulletin: 'https://o-site.spb.ru/_races/171004_OM/171104_info.pdf',
         owner: 'AZIMUT'
     },
     {
@@ -1801,7 +1895,8 @@ let events2017 = [
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-rogeynu/kvr-2017-vtoroy-etap',
         res: 'https://o-site.spb.ru/_races/171105/171105_res.htm',
         video: 'https://www.youtube.com/watch?v=5S494VBMeFc',
-        o_site: '171105'
+        o_site: '171105',
+        bulletin: 'https://o-site.spb.ru/_races/171105/171105_info.pdf'
     },
     {
         id: 'SPB_20171105_2',
@@ -1810,7 +1905,8 @@ let events2017 = [
         name: 'Старт памяти 7 ноября',
         reg: 'http://sport-orient.ru/products/uncategorized/7-noyabrya-2017',
         res: 'https://o-site.spb.ru/_races/171107/171105_res2.htm',
-        o_site: '171107'
+        o_site: '171107',
+        bulletin: 'https://o-site.spb.ru/_races/171107/171105_info.pdf'
     },
     {
         id: 'SPB_20171106_1',
@@ -1838,6 +1934,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/171112_markir/171112_res1.html',
         start: 'ROGAINE_110',
         o_site: '171112_markir',
+        bulletin: 'https://o-site.spb.ru/_races/171112_markir/171112_info.pdf',
         map: 'lembolovo_2024'
     },
     {
@@ -1849,6 +1946,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/171112/171112_res.htm',
         info: 'ПЕРВЕНСТВО СДЮСШОР КУРОРТНОГО Р-НА САНКТ-ПЕТЕРБУРГА ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ ПАМЯТИ ЗОИ ВИКТОРОВНЫ ПЯТАКОВОЙ',
         o_site: '171112',
+        bulletin: 'https://o-site.spb.ru/_races/171112/171112_info3.htm',
         map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
     {
@@ -1859,7 +1957,8 @@ let events2017 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/171118R/171118R_res.pdf',
         fmt: '7 и 3 часа - бег, 6 часов - вело',
-        o_site: '171118R'
+        o_site: '171118R',
+        bulletin: 'https://o-site.spb.ru/_races/171118R/171118R_info.pdf'
     },
     {
         id: 'SPB_20171118_2',
@@ -1880,6 +1979,7 @@ let events2017 = [
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         logo: 'azimut.gif',
         o_site: '2017_Orientir',
+        bulletin: 'https://o-site.spb.ru/_races/2017_Orientir/171125_info2.htm',
         map: 'sosnovka_2014',
         owner: 'AZIMUT'
     },
@@ -1891,7 +1991,8 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=818',
         res: 'https://o-site.spb.ru/_races/171126/171126_res.htm',
         photo: 'https://o-site.spb.ru/_races/171126/171126_photos.rar',
-        o_site: '171126'
+        o_site: '171126',
+        bulletin: 'https://o-site.spb.ru/_races/171126/171126_info1-3.pdf'
     },
     {
         id: 'SPB_20171202_1',
@@ -1900,7 +2001,8 @@ let events2017 = [
         place: 'Санкт-Петербург',
         name: 'Семинар подготовки судей 2 и 3 категорий',
         info: 'Региональный семинар по подготовке и аттестации судей 2 и 3-й категорий по спортивному ориентированию для представителей Санкт-Петербурга и Ленинградской области. Программой мероприятия запланировано выступление лекторов из ФСОР. Проводится совместно со Всероссийским семинаром по подготовке спортивных судей Всероссийской и 1-й категории Внимание: прохождение семинара не дает автоматически категорию спортивного судьи. Желающим после прохождения семинара получить судейскую категорию или повысить имеющуюся, нужно заполнить представление и карточку учета судейской деятельности. В приложении квалификационные требования к спортивным судьям и НОВЫЕ представление и карточка учета. Консультацию можно получить у Васильевой Ирины, mk@spbof.ru',
-        o_site: '17120203'
+        o_site: '17120203',
+        bulletin: 'http://spbof.ru/ru/docs/viewdownload/65-seminar-podgotovki-sudej-2-i-3-kategorij/1539-informatsionnyj-byulleten'
     },
     {
         id: 'SPB_20171202_2',
@@ -1938,6 +2040,7 @@ let events2017 = [
         place: 'Сосновка',
         res: 'https://o-site.spb.ru/_races/171119_VT/171210_rez.htm',
         o_site: '171119_VT',
+        bulletin: 'https://o-site.spb.ru/_races/171119_VT/171210_info.pdf',
         map: 'sosnovka_2014'
     },
     {
@@ -1966,6 +2069,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/171217/171217_res.htm',
         info: 'размещаются в средней общеобразовательной школе № 473 Калининского района по адресу: ул. Верности, д. 28, корп.',
         o_site: '171217',
+        bulletin: 'https://o-site.spb.ru/_races/171217/171217_info1-3.pdf',
         map: 'piskarevsky_2012'
     },
     {
@@ -1977,6 +2081,7 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=799',
         res: 'https://o-site.spb.ru/_races/2017_W_Or/171223_split.htm',
         o_site: '2017_W_Or',
+        bulletin: 'https://o-site.spb.ru/_races/2017_W_Or/171223_info.pdf',
         map: 'voejkovo_2022'
     },
     {
@@ -1995,6 +2100,7 @@ let events2017 = [
         name: 'Тренировка FoxTeam',
         reg: 'http://o-reg.spb.ru/entry-list?id=828',
         res: 'https://o-site.spb.ru/_races/171231_/171231_res.htm',
-        o_site: '171231_'
+        o_site: '171231_',
+        bulletin: 'https://o-site.spb.ru/_races/171231_/171231_info.pdf'
     }
 ];

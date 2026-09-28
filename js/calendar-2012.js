@@ -8,7 +8,8 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/12010309/120107_res.html',
         video: 'https://www.youtube.com/watch?v=GS7svQdT-DE',
         info: 'Сбор в Мичуринском 03-09.01.2012 г. Кубок Ленинградской области по спортивному ориентированию на лыжах. Кубок «Центра «Ладога»',
-        o_site: '12010309'
+        o_site: '12010309',
+        bulletin: 'https://o-site.spb.ru/_races/12010309/2012010708_info.html'
     },
     {
         id: 'SPB_20120115_1',
@@ -39,7 +40,8 @@ let events2012 = [
         place: 'Кузьмоловский',
         res: 'https://o-site.spb.ru/_races/12012122/120122_res.htm',
         owner: 'SFSO_LO',
-        o_site: '12012122'
+        o_site: '12012122',
+        bulletin: 'https://o-site.spb.ru/_races/12012122/12012122_info.pdf'
     },
     {
         id: 'SPB_20120122_1',
@@ -49,6 +51,7 @@ let events2012 = [
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/120122/120122_res.htm',
         o_site: '120122',
+        bulletin: 'https://o-site.spb.ru/_races/120122/120122_info3.htm',
         map: 'pavlovsk_2012'
     },
     {
@@ -59,7 +62,8 @@ let events2012 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/120129/120129_split.htm',
-        o_site: '120129'
+        o_site: '120129',
+        bulletin: 'https://o-site.spb.ru/_races/120129/120129_info3.htm'
     },
     {
         id: 'SPB_20120201_1',
@@ -77,7 +81,8 @@ let events2012 = [
         place: 'Будогощь',
         res: 'https://o-site.spb.ru/_races/12020912/12020812vet_res.zip',
         info: 'Всероссийские соревнования среди ветеранов по спортивному ориентированию на лыжах',
-        o_site: '12020912'
+        o_site: '12020912',
+        bulletin: 'http://www.o-site.spb.ru/_races/12020812/12020812_info3.htm'
     },
     {
         id: 'SPB_20120208_2',
@@ -86,7 +91,8 @@ let events2012 = [
         name: 'Чемпионат и П-во СЗФО',
         place: 'Будогощь',
         res: 'https://o-site.spb.ru/_races/12020812/12020812_res.zip',
-        o_site: '12020812'
+        o_site: '12020812',
+        bulletin: 'https://o-site.spb.ru/_races/12020812/12020812_info3.htm'
     },
     {
         id: 'SPB_20120209_1',
@@ -98,6 +104,7 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/12020910/120209_res.pdf',
         info: 'Вторая зимняя Универсиада Санкт-Петербурга по спортивному ориентированию на лыжах. Допускаются только команды ВУЗов (полные и неполные). Максимальные составы 5 М + 5 Ж.',
         o_site: '12020910',
+        bulletin: 'https://o-site.spb.ru/_races/12020910/12020910_info3.htm',
         map: 'toksovo_vifk_winter_2023'
     },
     {
@@ -108,7 +115,8 @@ let events2012 = [
         publish: 'https://o-site.spb.ru/race.php?id=120211',
         res: 'https://o-site.spb.ru/_races/120211/120211_res.htm',
         info: 'ОТКРЫТОЕ ПЕРВЕНСТВО НЕВСКОГО РАЙОНА САНКТ-ПЕТЕРБУРГА СРЕДИ ОБУЧАЮЩИХСЯ по СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ В УСЛОВИЯХ ЗАКРЫТОГО ПОМЕЩЕНИЯ',
-        o_site: '120211'
+        o_site: '120211',
+        bulletin: 'https://o-site.spb.ru/_races/120211/120211_info.htm'
     },
     {
         id: 'SPB_20120212_1',
@@ -118,6 +126,7 @@ let events2012 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/120212/120212_res.htm',
         o_site: '120212',
+        bulletin: 'https://o-site.spb.ru/_races/120212/20120212_info.htm',
         map: 'toksovo_vifk_winter_2023'
     },
     {
@@ -128,7 +137,8 @@ let events2012 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/120219/120219_res.htm',
-        o_site: '120219'
+        o_site: '120219',
+        bulletin: 'https://o-site.spb.ru/_races/120219/120219_info2.htm'
     },
     {
         id: 'SPB_20120222_1',
@@ -139,7 +149,8 @@ let events2012 = [
         type: 'SKI',
         info: 'УТС в ЗЦ «Зеркальный» УТС ОТМЕНЁН.',
         cancelled: true,
-        o_site: '120222'
+        o_site: '120222',
+        bulletin: 'https://o-site.spb.ru/_races/120222/120222_info1.htm'
     },
     {
         id: 'SPB_20120226_1',
@@ -149,7 +160,8 @@ let events2012 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/120226_1/120226_RES.htm',
-        o_site: '120226_1'
+        o_site: '120226_1',
+        bulletin: 'https://o-site.spb.ru/_races/120226_1/120226_info3.htm'
     },
     {
         id: 'SPB_20120308_1',
@@ -159,7 +171,8 @@ let events2012 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/120308/120308_res.htm',
-        o_site: '120308'
+        o_site: '120308',
+        bulletin: 'https://o-site.spb.ru/_races/120308/120308_info3_1.htm'
     },
     {
         id: 'SPB_20120309_1',
@@ -172,6 +185,7 @@ let events2012 = [
         fmt: '24 и 6 часов',
         start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '12030910',
+        bulletin: 'http://100x24.ru/2012/docs/20120309_bull_add1.htm',
         map: 'lembolovo_michurinskoe_rrc_2012'
     },
     {
@@ -182,7 +196,8 @@ let events2012 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/120310/120310_RES.htm',
-        o_site: '120310'
+        o_site: '120310',
+        bulletin: 'https://o-site.spb.ru/_races/120310/120310_info3.htm'
     },
     {
         id: 'SPB_20120314_1',
@@ -191,6 +206,7 @@ let events2012 = [
         name: 'Царскосельский Азимут',
         res: 'https://o-site.spb.ru/_races/120314/120314_res.htm',
         o_site: '120314',
+        bulletin: 'https://o-site.spb.ru/_races/120314/120314_info.htm',
         map: 'pushkin_nizhny_2019'
     },
     {
@@ -199,7 +215,8 @@ let events2012 = [
         place: 'ПКиО Колпино, Чухонка',
         name: 'Весенняя Капель',
         res: 'https://o-site.spb.ru/_races/120317/120317_res.htm',
-        o_site: '120317'
+        o_site: '120317',
+        bulletin: 'https://o-site.spb.ru/_races/120317/120317_info.htm'
     },
     {
         id: 'SPB_20120318_1',
@@ -211,6 +228,7 @@ let events2012 = [
         photo: 'https://www.markir.spb.ru/photos/2012/2012.htm',
         video: 'https://www.youtube.com/watch?v=nYf_-WZoB1U',
         o_site: '120318',
+        bulletin: 'https://o-site.spb.ru/_races/120318/120318_info.htm',
         map: 'toksovo_malinovaya_gora_1997'
     },
     {
@@ -220,6 +238,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/120325_Or/120325_split_.htm',
         owner: 'AZIMUT',
         o_site: '120325_Or',
+        bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm',
         start: 'ORIENTIR'
     },
     {
@@ -228,7 +247,8 @@ let events2012 = [
         place: 'Сертолово',
         name: '1 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
-        o_site: '120401'
+        o_site: '120401',
+        bulletin: 'http://rogaining.spb.ru/index.php?option=com_content&view=article&id=232&Itemid=354'
     },
     {
         id: 'SPB_20120401_2',
@@ -246,7 +266,8 @@ let events2012 = [
         start: 'STREKOZAIKI',
         res: 'http://nat-crusta.livejournal.com/112321.html',
         photo: 'http://fotki.yandex.ru/users/skandysnail/album/129089/',
-        o_site: '120407_Str'
+        o_site: '120407_Str',
+        bulletin: 'https://o-site.spb.ru/_races/120407_Str/120407_info.htm'
     },
     {
         id: 'SPB_20120408_1',
@@ -256,7 +277,8 @@ let events2012 = [
         place: 'Кузьмоловский',
         res: 'https://o-site.spb.ru/_races/120408_tropa/120408_res.htm',
         info: 'ПОДРОБНАЯ ИНФОРМАЦИЯ О ВРЕМЕНИ И МЕСТЕ ПРОВЕДЕНИЯ ПОЯВИТСЯ В ЧЕТВЕРГ. ЗАЯВКИ БУДУТ ПРИНИМАТЬСЯ ДО 24:00 ПЯТНИЦЫ 06 АПРЕЛЯ.',
-        o_site: '120408_tropa'
+        o_site: '120408_tropa',
+        bulletin: 'https://o-site.spb.ru/_races/120408_tropa/120408_info.pdf'
     },
     {
         id: 'SPB_20120412_1',
@@ -264,7 +286,8 @@ let events2012 = [
         name: 'Апрельское Ориентшоу',
         place: 'ГБОУ ДОД ДТДиМ Колпино',
         res: 'https://o-site.spb.ru/_races/120412/120412_res.pdf',
-        o_site: '120412'
+        o_site: '120412',
+        bulletin: 'https://o-site.spb.ru/_races/120412/120412_info.pdf'
     },
     {
         id: 'SPB_20120419_1',
@@ -272,6 +295,7 @@ let events2012 = [
         name: 'Кубок команды 110%, 1 этап',
         res: 'http://o-site.spb.ru/_races/121025/120419_res.htm',
         o_site: '121025',
+        bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
         start: 'ROGAINE_110'
     },
     {
@@ -279,7 +303,8 @@ let events2012 = [
         date: '2012-04-20',
         name: 'Открытое п-во 495 шк. Моск.р-на по ориентированию в закрытых помещениях',
         place: 'шк №495',
-        o_site: '120420_zp'
+        o_site: '120420_zp',
+        bulletin: 'http://o-site.spb.ru/misc/120420_info.htm'
     },
     {
         id: 'SPB_20120421_1',
@@ -287,7 +312,8 @@ let events2012 = [
         name: 'Открытое пер-во Калининского р-на, 1 этап. Городской спринт',
         place: 'шк №175',
         fmt: 'Городской спринт в заданном направлении',
-        o_site: '120421'
+        o_site: '120421',
+        bulletin: 'https://o-site.spb.ru/_races/120421/120421_info2.htm'
     },
     {
         id: 'SPB_20120421_2',
@@ -297,7 +323,8 @@ let events2012 = [
         name: 'Сосновоборские Дюны',
         start: 'SOSNOVOBORSKY_DUNY',
         res: 'https://o-site.spb.ru/_races/12042122/120421_res.htm',
-        o_site: '12042122'
+        o_site: '12042122',
+        bulletin: 'https://o-site.spb.ru/_races/12042122/12042122_info2.htm'
     },
     {
         id: 'SPB_20120425_1',
@@ -306,6 +333,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/120325_Or/120425_res.htm',
         owner: 'AZIMUT',
         o_site: '120325_Or',
+        bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm',
         start: 'ORIENTIR'
     },
     {
@@ -314,7 +342,8 @@ let events2012 = [
         place: 'Колпино, парк Детский пляж',
         name: 'Командная Эстафета, Колпино',
         res: 'https://o-site.spb.ru/_races/120426/120426_res.pdf',
-        o_site: '120426'
+        o_site: '120426',
+        bulletin: 'https://o-site.spb.ru/_races/120426/120426_info.htm'
     },
     {
         id: 'SPB_20120426_2',
@@ -322,6 +351,7 @@ let events2012 = [
         name: 'Кубок команды 110%, 2 этап',
         res: 'http://o-site.spb.ru/_races/12101825/120426_res.htm',
         o_site: '121025',
+        bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
         start: 'ROGAINE_110'
     },
     {
@@ -334,7 +364,8 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/12042901/12042901_res.zip',
         video: 'https://www.youtube.com/watch?v=OCvA6n1Spoc',
         info: 'КАРТЫ ДЛЯ СОРЕВНОВАНИЙ ПОДГОТОВЛЕНЫ В 2011 г. Членам многодетных семей и малообеспеченным гражданам при предъявлении соответствующих документов предоставляется скидка на стартовый взнос в размере 50%.',
-        o_site: '12042901'
+        o_site: '12042901',
+        bulletin: 'https://o-site.spb.ru/_races/12042901/12042901_info.pdf'
     },
     {
         id: 'SPB_20120506_1',
@@ -368,7 +399,8 @@ let events2012 = [
         place: 'Колпино, парк Чухонка',
         name: 'Открытая тренировка в Колпино',
         res: 'https://o-site.spb.ru/_races/120508/120508_res.pdf',
-        o_site: '120508'
+        o_site: '120508',
+        bulletin: 'https://o-site.spb.ru/_races/120508/120508_info.pdf'
     },
     {
         id: 'SPB_20120509_1',
@@ -377,6 +409,7 @@ let events2012 = [
         name: 'Соревнования, посвящённые Дню Победы',
         res: 'https://o-site.spb.ru/_races/120509_Az/120509_res_.htm',
         o_site: '120509_Az',
+        bulletin: 'https://o-site.spb.ru/_races/120509_Az/120509_info.htm',
         owner: 'AZIMUT'
     },
     {
@@ -395,6 +428,7 @@ let events2012 = [
         name: 'Памяти друзей',
         res: 'https://o-site.spb.ru/_races/120513_Az/120513_res.htm',
         o_site: '120513_Az',
+        bulletin: 'https://o-site.spb.ru/_races/120513_Az/120513_info.htm',
         map: 'lembolovo_2002',
         owner: 'AZIMUT'
     },
@@ -405,6 +439,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/120325_Or/120516_split.htm',
         owner: 'AZIMUT',
         o_site: '120325_Or',
+        bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm',
         start: 'ORIENTIR'
     },
     {
@@ -415,7 +450,8 @@ let events2012 = [
         name: 'Чемпионат и Первенство СПб среди инвалидов по слуху',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/12051718/120517_res.htm',
-        o_site: '12051718'
+        o_site: '12051718',
+        bulletin: 'https://o-site.spb.ru/_races/12051718/12051718_info2.htm'
     },
     {
         id: 'SPB_20120517_2',
@@ -423,6 +459,7 @@ let events2012 = [
         name: 'Кубок команды 110%, 3 этап',
         res: 'http://o-site.spb.ru/_races/121025/120517_res.htm',
         o_site: '121025',
+        bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
         start: 'ROGAINE_110'
     },
     {
@@ -486,6 +523,7 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/120520/120520_fam.htm',
         owner: 'SFSO_SPB',
         o_site: '120520',
+        bulletin: 'https://o-site.spb.ru/_races/120520/120520_info1.htm',
         map: 'udelny_2009'
     },
     {
@@ -495,6 +533,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/120325_Or/120523_split.htm',
         owner: 'AZIMUT',
         o_site: '120325_Or',
+        bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm',
         start: 'ORIENTIR'
     },
     {
@@ -503,6 +542,7 @@ let events2012 = [
         name: 'Кубок команды 110%, 4 этап',
         res: 'http://o-site.spb.ru/_races/121025/120524_res.htm',
         o_site: '121025',
+        bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
         start: 'ROGAINE_110'
     },
     {
@@ -523,7 +563,8 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/12052627/12052627_res.pdf',
         info: 'Чемпионат Санкт-Петербурга по рогейну/Горный Кросс - 30',
         start: 'GORNY_CROSS',
-        o_site: '12052627'
+        o_site: '12052627',
+        bulletin: 'https://o-site.spb.ru/_races/12052627/12052627_info.pdf'
     },
     {
         id: 'SPB_20120527_1',
@@ -533,6 +574,7 @@ let events2012 = [
         place: 'Пухтола гора',
         res: 'https://o-site.spb.ru/_races/120527/120527_res.htm',
         o_site: '120527',
+        bulletin: 'https://o-site.spb.ru/_races/120527/120527_info3.htm',
         map: 'pukhtolova_gora_2009'
     },
     {
@@ -542,6 +584,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/120325_Or/120530_split.htm',
         owner: 'AZIMUT',
         o_site: '120325_Or',
+        bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm',
         start: 'ORIENTIR'
     },
     {
@@ -550,6 +593,7 @@ let events2012 = [
         name: 'Кубок команды 110%, 5 этап',
         res: 'http://o-site.spb.ru/_races/121025/120531_res.htm',
         o_site: '121025',
+        bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
         start: 'ROGAINE_110'
     },
     {
@@ -560,6 +604,7 @@ let events2012 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/120602/120602_res1.htm',
         o_site: '120602',
+        bulletin: 'https://o-site.spb.ru/_races/120602/120602_info3.htm',
         reskeep: 260
     },
     {
@@ -570,6 +615,7 @@ let events2012 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/120603/120603_res.htm',
         o_site: '120603',
+        bulletin: 'https://o-site.spb.ru/_races/120603/120603_info2.pdf',
         reskeep: 234
     },
     {
@@ -578,6 +624,7 @@ let events2012 = [
         name: 'Кубок команды 110%, 6 этап',
         res: 'http://o-site.spb.ru/_races/121025/120607_res.htm',
         o_site: '121025',
+        bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
         start: 'ROGAINE_110'
     },
     {
@@ -588,6 +635,7 @@ let events2012 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/120610/120610_res.htm',
         o_site: '120610',
+        bulletin: 'https://o-site.spb.ru/_races/120610/120610_info3.pdf',
         reskeep: 248,
         map: 'lembolovo_2002'
     },
@@ -601,6 +649,7 @@ let events2012 = [
         info: 'XXII многодневные соревнования «Невский Азимут»',
         start: 'NA',
         o_site: '12061517_NA',
+        bulletin: 'https://o-site.spb.ru/_races/12061517_NA/12061517_info.htm',
         map: ['na_2012_06_15_pervomayskoe', 'na_2012_pervomayskoe']
     },
     {
@@ -613,6 +662,7 @@ let events2012 = [
         owner: 'WN',
         start: ['WN','YM'],
         o_site: '12061924',
+        bulletin: 'https://o-site.spb.ru/_races/12061924/12061924_info.pdf',
         map: ['ym_2012_06_19', 'ym_2012_pervomayskoe_long', 'ym_2012_06_21']
     },
     {
@@ -637,6 +687,7 @@ let events2012 = [
         info: 'Ленинградская область, Лемболово, 26 июня – 1 июля 2012 г.',
         start: 'MMS',
         o_site: '120626',
+        bulletin: 'http://www.svjatkin.spb.ru/',
         map: ['mms_2012_06_26', 'mms_2012_06_27', 'mms_2012_06_28', 'mms_2012_06_29', 'mms_2012_06_30', 'mms_2012_07_01']
     },
     {
@@ -658,6 +709,7 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/12070306/KKP2012_res.zip',
         start: 'KKP',
         o_site: '12070306',
+        bulletin: 'https://o-site.spb.ru/_races/12070306/12070306_info2.pdf',
         planner: 'TLNV_A',
         map: ['kkp_2012_07_02','kkp_2012_07_04']
     },
@@ -714,6 +766,7 @@ let events2012 = [
         type: 'ROGAINE',
         start: ['RUSSIA_ROGAINE_CHAMP','GORNY_CROSS'],
         o_site: '12072122',
+        bulletin: 'https://o-site.spb.ru/_races/12072122/12072122_info3.htm',
         map: 'pervomajskoe_rrc_2012'
     },
     {
@@ -744,7 +797,8 @@ let events2012 = [
         start: 'ORIENTIR',
         res: 'http://o-site.spb.ru/_races/120325_Or/120805_split.htm',
         owner: 'AZIMUT',
-        o_site: '120325_Or'
+        o_site: '120325_Or',
+        bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm'
     },
     {
         id: 'SPB_20120811_1',
@@ -771,7 +825,8 @@ let events2012 = [
         start: 'ORIENTIR',
         res: 'http://o-site.spb.ru/_races/120325_Or/120819_split.htm',
         owner: 'AZIMUT',
-        o_site: '120325_Or'
+        o_site: '120325_Or',
+        bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm'
     },
     {
         id: 'SPB_20120825_1',
@@ -781,7 +836,8 @@ let events2012 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/120825/120825_res.pdf',
         start: 'ROGAINE_110',
-        o_site: '120825'
+        o_site: '120825',
+        bulletin: 'https://o-site.spb.ru/_races/120825/120825_info2.pdf'
     },
     {
         id: 'SPB_20120825_2',
@@ -800,7 +856,8 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/120826_zz/120826_res.htm',
         info: 'XXVI традиционный старт КСО Азимут по специальным правилам',
         start: 'GS',
-        o_site: '120826_zz'
+        o_site: '120826_zz',
+        bulletin: 'https://o-site.spb.ru/_races/120826_zz/120826_info.htm'
     },
     {
         id: 'SPB_20120901_1',
@@ -827,7 +884,8 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/120325_Or/120905_split.htm',
         owner: 'AZIMUT',
         start: 'ORIENTIR',
-        o_site: '120325_Or'
+        o_site: '120325_Or',
+        bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm'
     },
     {
         id: 'SPB_20120908_1',
@@ -845,6 +903,7 @@ let events2012 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/120909/120909_res_all.htm',
         o_site: '120909',
+        bulletin: 'https://o-site.spb.ru/_races/120909/120909_info4.htm',
         map: 'orekhovo_rakitinskoe_2004'
     },
     {
@@ -854,7 +913,8 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/120325_Or/120912_split.htm',
         owner: 'AZIMUT',
         start: 'ORIENTIR',
-        o_site: '120325_Or'
+        o_site: '120325_Or',
+        bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm'
     },
     {
         id: 'SPB_20120913_1',
@@ -862,6 +922,7 @@ let events2012 = [
         name: 'Кубок команды 110%, 7 этап',
         res: 'http://o-site.spb.ru/_races/121025/120913_res.htm',
         o_site: '121025',
+        bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
         start: 'ROGAINE_110'
     },
     {
@@ -873,6 +934,7 @@ let events2012 = [
         info: 'Золотые кольца (Свадебные). Традиционные командные соревнования семейных пар и пар по интересам.',
         start: 'WEDDING',
         o_site: '120915_ZK',
+        bulletin: 'https://o-site.spb.ru/_races/120915_ZK/120915_info.htm',
         map: 'lembolovo_2002'
     },
     {
@@ -883,7 +945,8 @@ let events2012 = [
         start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/120915/120915_res_midl.pdf',
-        o_site: '120915'
+        o_site: '120915',
+        bulletin: 'https://o-site.spb.ru/_races/120915/120915_info2.pdf'
     },
     {
         id: 'SPB_20120915_3',
@@ -903,6 +966,7 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/120916_Az/120916_res.htm',
         logo: 'azimut.gif',
         o_site: '120916_Az',
+        bulletin: 'https://o-site.spb.ru/_races/120916_Az/120916_info2.htm',
         map: 'lembolovo_2002'
     },
     {
@@ -929,6 +993,7 @@ let events2012 = [
         name: 'Кубок команды 110%, 8 этап',
         res: 'http://o-site.spb.ru/_races/121025/120920_res.htm',
         o_site: '121025',
+        bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
         start: 'ROGAINE_110'
     },
     {
@@ -939,7 +1004,8 @@ let events2012 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/120922_Cr/120922_res.xls',
         info: 'Традиционные соревнования по ориентированию в заданном направлении по спец. правилам (дистанция в виде суммы ннескольких коротких петель).',
-        o_site: '120922_Cr'
+        o_site: '120922_Cr',
+        bulletin: 'https://o-site.spb.ru/_races/120922_Cr/120922_info.htm'
     },
     {
         id: 'SPB_20120922_2',
@@ -948,6 +1014,7 @@ let events2012 = [
         place: 'шк №156',
         res: 'https://o-site.spb.ru/_races/120922/120922_res.htm',
         o_site: '120922',
+        bulletin: 'https://o-site.spb.ru/_races/120922/120922_info2.htm',
         map: 'school_156_2013'
     },
     {
@@ -957,7 +1024,8 @@ let events2012 = [
         name: 'Классика Белых Ночей',
         res: 'https://o-site.spb.ru/_races/120923/120923_res.htm',
         owner: 'WN',
-        o_site: '120923'
+        o_site: '120923',
+        bulletin: 'https://o-site.spb.ru/_races/120923/120923_info2.htm'
     },
     {
         id: 'SPB_20120926_1',
@@ -981,6 +1049,7 @@ let events2012 = [
         name: 'Кубок команды 110%, 9 этап',
         res: 'http://o-site.spb.ru/_races/121025/120927_res.htm',
         o_site: '121025',
+        bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
         start: 'ROGAINE_110'
     },
     {
@@ -991,6 +1060,7 @@ let events2012 = [
         name: 'Старты в Зеркальном',
         res: 'https://o-site.spb.ru/_races/120928/120928-1001_res.zip',
         o_site: '120928',
+        bulletin: 'https://o-site.spb.ru/_races/120928/120928_info1-2.htm',
         map: 'zerkalny_2002'
     },
     {
@@ -1002,6 +1072,7 @@ let events2012 = [
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/12092829/120929_res.pdf',
         o_site: '12092829',
+        bulletin: 'https://o-site.spb.ru/_races/12092829/12092930_info.pdf',
         map: 'orekhovo_rakitinskoe_2004'
     },
     {
@@ -1032,7 +1103,8 @@ let events2012 = [
         name: 'Чемпионат СПб - марафон, Марафон На Холмах Яппиля',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/120930/120930_res.htm',
-        o_site: '120930'
+        o_site: '120930',
+        bulletin: 'https://o-site.spb.ru/_races/120930/120930_info3.pdf'
     },
     {
         id: 'SPB_20121003_1',
@@ -1048,6 +1120,7 @@ let events2012 = [
         name: 'Кубок команды 110%, 10 этап',
         res: 'http://o-site.spb.ru/_races/121025/121004_res.htm',
         o_site: '121025',
+        bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
         start: 'ROGAINE_110'
     },
     {
@@ -1070,7 +1143,8 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/121006GK/121006GK_res.zip',
         fmt: '3ч и 6ч бегом и на велосипедах',
         start: 'GORNY_CROSS',
-        o_site: '121006GK'
+        o_site: '121006GK',
+        bulletin: 'https://o-site.spb.ru/_races/121006GK/GK121006_info.pdf'
     },
     {
         id: 'SPB_20121007_1',
@@ -1089,7 +1163,8 @@ let events2012 = [
         place: 'ГОУ СОШ #339, ул Дыбенко, 12-2',
         name: 'Кубок школьного двора',
         res: 'https://o-site.spb.ru/_races/121011/121011_res.htm',
-        o_site: '121011'
+        o_site: '121011',
+        bulletin: 'https://o-site.spb.ru/_races/121011/121011_info.htm'
     },
     {
         id: 'SPB_20121011_2',
@@ -1097,6 +1172,7 @@ let events2012 = [
         name: 'Кубок команды 110%, 11 этап',
         res: 'http://o-site.spb.ru/_races/121025/121011_res.htm',
         o_site: '121025',
+        bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
         start: 'ROGAINE_110'
     },
     {
@@ -1105,7 +1181,8 @@ let events2012 = [
         name: 'Памяти Николая Иванова',
         place: 'Токсово',
         res: 'https://o-site.spb.ru/_races/121012/121012_res.htm',
-        o_site: '121012'
+        o_site: '121012',
+        bulletin: 'https://o-site.spb.ru/_races/121012/121012_info.pdf'
     },
     {
         id: 'SPB_20121013_1',
@@ -1143,6 +1220,7 @@ let events2012 = [
         name: 'Кубок команды 110%, 12 этап',
         res: 'http://o-site.spb.ru/_races/121025/121018_res.htm',
         o_site: '121025',
+        bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
         start: 'ROGAINE_110'
     },
     {
@@ -1163,7 +1241,8 @@ let events2012 = [
         place: 'Кавголово',
         res: 'http://o-site.spb.ru/_races/121025/120419_res.htm',
         start: 'ROGAINE_110',
-        o_site: '121025'
+        o_site: '121025',
+        bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf'
     },
     {
         id: 'SPB_20121027_1',
@@ -1174,6 +1253,7 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/121027_Az/121027_res.htm',
         logo: 'azimut.gif',
         o_site: '121027_Az',
+        bulletin: 'https://o-site.spb.ru/_races/121027_Az/121027_info2.htm',
         owner: 'AZIMUT'
     },
     {
@@ -1184,6 +1264,7 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/121027/121027_res.htm',
         info: 'Цели и задачи: поднятие креативности у судей и участников, создание положительного настроя на восстановительный период после тяжёлого летнего сезона, борьба с тёмными силами, суевериями и мракобесиями, за спортивный образ жизни в ночных условиях.',
         o_site: '121027',
+        bulletin: 'https://o-site.spb.ru/_races/121027/121027_info2.htm',
         map: 'osinovaja_roscha_2018'
     },
     {
@@ -1240,6 +1321,7 @@ let events2012 = [
         info: 'Традиционный осенний старт КСО "Азимут" на удлинённой дистанции',
         logo: 'azimut.gif',
         o_site: '121103_Az',
+        bulletin: 'https://o-site.spb.ru/_races/121103_Az/121103_info2.htm',
         owner: 'AZIMUT'
     },
     {
@@ -1250,7 +1332,8 @@ let events2012 = [
         name: 'Чемпионат и Первенство ЛО',
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/12110405/121104_split.htm',
-        o_site: '12110405'
+        o_site: '12110405',
+        bulletin: 'https://o-site.spb.ru/_races/12110405/12110405_info.htm'
     },
     {
         id: 'SPB_20121104_2',
@@ -1259,7 +1342,8 @@ let events2012 = [
         place: 'Мичуринское',
         name: 'УТС в Мечте',
         res: 'https://o-site.spb.ru/_races/12110411/URS_res.zip',
-        o_site: '12110411'
+        o_site: '12110411',
+        bulletin: 'https://o-site.spb.ru/_races/12110411/12110411_info.htm'
     },
     {
         id: 'SPB_20121110_1',
@@ -1287,7 +1371,8 @@ let events2012 = [
         name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 1 этап',
         start: 'SNOW_WAY',
         res: 'http://o-site.spb.ru/_races/121118_tropa/121118_SPLIT.htm',
-        o_site: '121118_tropa'
+        o_site: '121118_tropa',
+        bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html'
     },
     {
         id: 'SPB_20121124_1',
@@ -1298,7 +1383,8 @@ let events2012 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/121124/121124_res.zip',
         start: 'GORNY_CROSS',
-        o_site: '121124'
+        o_site: '121124',
+        bulletin: 'https://o-site.spb.ru/_races/121124/121124_info3.pdf'
     },
     {
         id: 'SPB_20121125_1',
@@ -1307,6 +1393,7 @@ let events2012 = [
         name: 'Ориентир НатАлка',
         res: 'https://o-site.spb.ru/_races/120325_Or/121125_split_.htm',
         o_site: '120325_Or',
+        bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm',
         map: 'sosnovka_2011',
         start: 'ORIENTIR',
         owner: 'AZIMUT'
@@ -1335,7 +1422,8 @@ let events2012 = [
         name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 2 этап',
         start: 'SNOW_WAY',
         res: 'http://o-site.spb.ru/_races/121118_tropa/121209_split.htm',
-        o_site: '121118_tropa'
+        o_site: '121118_tropa',
+        bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html'
     },
     {
         id: 'SPB_20121215_1',
@@ -1344,7 +1432,8 @@ let events2012 = [
         name: 'Юкковский Лабиринт',
         res: 'https://o-site.spb.ru/_races/121215/121215_res.htm',
         info: 'Соревнования по ориентированию в закрытом помещении. Группы: 8,10,12,14, OPEN',
-        o_site: '121215'
+        o_site: '121215',
+        bulletin: 'https://o-site.spb.ru/_races/121215/121215_info.htm'
     },
     {
         id: 'SPB_20121216_1',
@@ -1353,7 +1442,8 @@ let events2012 = [
         place: 'Рощино',
         publish: 'https://o-site.spb.ru/race.php?id=121216_2',
         res: 'https://o-site.spb.ru/_races/121216_2/121216_res.htm',
-        o_site: '121216_2'
+        o_site: '121216_2',
+        bulletin: 'https://o-site.spb.ru/_races/121216_2/20121216%20info_2.htm'
     },
     {
         id: 'SPB_20121216_2',
@@ -1387,6 +1477,7 @@ let events2012 = [
         name: 'Приз Деда Мороза',
         res: 'https://o-site.spb.ru/_races/121223_DMP/121223dmp_split.htm',
         o_site: '121223_DMP',
+        bulletin: 'https://o-site.spb.ru/_races/121223_DMP/121223_info.pdf',
         map: 'vsevolozhsk_rumbolovo_2014'
     }
 ];

@@ -6,7 +6,8 @@ let events2010 = [
         place: 'Рощино',
         name: 'Две Пятёрочки',
         res: 'https://o-site.spb.ru/_races/10010809/10010809_res.htm',
-        o_site: '10010809'
+        o_site: '10010809',
+        bulletin: 'https://o-site.spb.ru/_races/10010809/10010809_info2.htm'
     },
     {
         id: 'SPB_20100117_1',
@@ -26,7 +27,8 @@ let events2010 = [
         place: 'Александрино',
         res: 'https://o-site.spb.ru/_races/100117/100117_res.zip',
         info: 'Ориентирование бегом на заснеженном грунте',
-        o_site: '100117'
+        o_site: '100117',
+        bulletin: 'https://o-site.spb.ru/_races/100117/100117_info2.htm'
     },
     {
         id: 'SPB_20100122_1',
@@ -38,7 +40,8 @@ let events2010 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/10012224/100122_res.htm',
         info: 'Чемпионат и Первенство Ленинградской области по спортивному ориентированию на лыжах',
-        o_site: '10012224'
+        o_site: '10012224',
+        bulletin: 'https://o-site.spb.ru/_races/10012224/10012224_info.htm'
     },
     {
         id: 'SPB_20100123_1',
@@ -50,7 +53,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100123/100123_res.htm',
         photo: 'http://fotki.yandex.ru/users/gornycross/album/88570',
         start: 'GORNY_CROSS',
-        o_site: '100123'
+        o_site: '100123',
+        bulletin: 'https://o-site.spb.ru/_races/100123/100123_info.htm'
     },
     {
         id: 'SPB_20100130_1',
@@ -59,7 +63,8 @@ let events2010 = [
         place: 'Цвелодубово',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/100130/100130_res.htm',
-        o_site: '100130'
+        o_site: '100130',
+        bulletin: 'https://o-site.spb.ru/_races/100130/100130_info2.htm'
     },
     {
         id: 'SPB_20100131_1',
@@ -68,7 +73,8 @@ let events2010 = [
         name: 'Кубок Марафонов, Кубок центра Ладога',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/100131/100131_res.htm',
-        o_site: '100131'
+        o_site: '100131',
+        bulletin: 'https://o-site.spb.ru/_races/100131/100131_info2.htm'
     },
     {
         id: 'SPB_20100206_1',
@@ -80,6 +86,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100206/100206_res_it.pdf',
         start: 'VOLKOV_A',
         o_site: '100206',
+        bulletin: 'https://o-site.spb.ru/_races/100206/100206_info2.htm',
         map: 'volkov_2010_02_06'
     },
     {
@@ -99,7 +106,8 @@ let events2010 = [
         name: 'Чемпионат и Первенство СПб, маркир',
         start: 'SPB_CHAMP',
         type: 'SKI',
-        o_site: '100207'
+        o_site: '100207',
+        bulletin: 'https://o-site.spb.ru/_races/100207/100207%20_info2.htm'
     },
     {
         id: 'SPB_20100209_1',
@@ -110,7 +118,8 @@ let events2010 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/10020809/100209_split.htm',
         owner: 'SFSO_SPB',
-        o_site: '10020809'
+        o_site: '10020809',
+        bulletin: 'https://o-site.spb.ru/_races/10020809/10020809_info.pdf'
     },
     {
         id: 'SPB_20100213_1',
@@ -121,7 +130,8 @@ let events2010 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/10021314/100213_res_it.pdf',
         info: '13 февраля. Эстафета на маркированной трассе. 14 февраля. Спринт, заданное направление',
-        o_site: '10021314'
+        o_site: '10021314',
+        bulletin: 'https://o-site.spb.ru/_races/10021314/10021314_info2.htm'
     },
     {
         id: 'SPB_20100221_1',
@@ -133,7 +143,8 @@ let events2010 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/10022122_LO/100221_res.htm',
         info: '21 февраля - маркир; 22 февраля - заданное напр.',
-        o_site: '10022122_LO'
+        o_site: '10022122_LO',
+        bulletin: 'https://o-site.spb.ru/_races/10022122_LO/10022122_info.html'
     },
     {
         id: 'SPB_20100222_1',
@@ -152,7 +163,8 @@ let events2010 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/100223_LO/100223_res.htm',
         info: 'Эстафета, заданное направление.',
-        o_site: '100223_LO'
+        o_site: '100223_LO',
+        bulletin: 'https://o-site.spb.ru/_races/100223_LO/10023_info.html'
     },
     {
         id: 'SPB_20100228_1',
@@ -162,7 +174,8 @@ let events2010 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/100228/100228_rez.htm',
         info: 'Лыжная гонка 45 мин.',
-        o_site: '100228'
+        o_site: '100228',
+        bulletin: 'https://o-site.spb.ru/_races/100228/100228_info2.htm'
     },
     {
         id: 'SPB_20100228_2',
@@ -170,7 +183,8 @@ let events2010 = [
         name: 'Всеволожская тропа, 3 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/100228_res.htm',
-        o_site: '100411_tropa'
+        o_site: '100411_tropa',
+        bulletin: 'https://o-site.spb.ru/_races/100411_tropa/100411_info.htm'
     },
     {
         id: 'SPB_20100306_1',
@@ -182,6 +196,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/10030607/10030607_res6.htm',
         start: '100x24',
         o_site: '10030607',
+        bulletin: 'https://o-site.spb.ru/_races/10030607/10030607_info.htm',
         map: 'gavrilovo_2010_rogaine'
     },
     {
@@ -193,7 +208,8 @@ let events2010 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/100307/100306_res.pdf',
         info: '06 марта. лыжная гонка 60 (классика). 07 марта. Эстафета, заданное направление.',
-        o_site: '100307'
+        o_site: '100307',
+        bulletin: 'https://o-site.spb.ru/_races/100307/10030607_info2.htm'
     },
     {
         id: 'SPB_20100308_1',
@@ -203,7 +219,8 @@ let events2010 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/100308_Y/100308_res.htm',
         info: 'Спринт в заданном направлении, входит в "Кубок ЗН"',
-        o_site: '100308_Y'
+        o_site: '100308_Y',
+        bulletin: 'https://o-site.spb.ru/_races/100308_Y/100308_info.htm'
     },
     {
         id: 'SPB_20100308_2',
@@ -211,7 +228,8 @@ let events2010 = [
         name: 'Всеволожская тропа, 4 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/100308_res.htm',
-        o_site: '100411_tropa'
+        o_site: '100411_tropa',
+        bulletin: 'https://o-site.spb.ru/_races/100411_tropa/100411_info.htm'
     },
     {
         id: 'SPB_20100313_1',
@@ -220,7 +238,8 @@ let events2010 = [
         type: 'SKI',
         res: 'http://o-site.spb.ru/_races/100314/100313_res.htm',
         owner: 'GOLFSTREAM',
-        o_site: '100314'
+        o_site: '100314',
+        bulletin: 'https://o-site.spb.ru/_races/100314/10101617_info.pdf'
     },
     {
         id: 'SPB_20100314_1',
@@ -230,6 +249,7 @@ let events2010 = [
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/100315/100314_res.pdf',
         o_site: '100315',
+        bulletin: 'https://o-site.spb.ru/_races/100315/100314_%20info3.htm',
         map: 'pavlovsk_2012'
     },
     {
@@ -239,7 +259,8 @@ let events2010 = [
         type: 'SKI',
         res: 'http://o-site.spb.ru/_races/100314/100314_res.pdf',
         owner: 'GOLFSTREAM',
-        o_site: '100314'
+        o_site: '100314',
+        bulletin: 'https://o-site.spb.ru/_races/100314/10101617_info.pdf'
     },
     {
         id: 'SPB_20100321_1',
@@ -285,7 +306,8 @@ let events2010 = [
         name: 'Горный Кросс-19',
         type: 'ROGAINE',
         start: 'GORNY_CROSS',
-        o_site: '100410'
+        o_site: '100410',
+        bulletin: 'https://o-site.spb.ru/_races/100410/100410_info.htm'
     },
     {
         id: 'SPB_20100410_2',
@@ -305,7 +327,8 @@ let events2010 = [
         start: 'VSEVOLOZHSK_WAY',
         place: 'Кузьмолово',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/091129_res1.htm',
-        o_site: '100411_tropa'
+        o_site: '100411_tropa',
+        bulletin: 'https://o-site.spb.ru/_races/100411_tropa/100411_info.htm'
     },
     {
         id: 'SPB_20100417_1',
@@ -316,7 +339,8 @@ let events2010 = [
         start: 'SOSNOVOBORSKY_DUNY',
         res: 'https://o-site.spb.ru/_races/100417_sb/100417_res.htm',
         info: 'Традиционные соревнования, открывающие летний О-сезон в Санкт-Петербурге и Ленинградской области. 2-й день соревнований идёт в зачёт многоэтапного лично-командного Кубка Санкт-Петербурга и Ленинградской области 2010.',
-        o_site: '100417_sb'
+        o_site: '100417_sb',
+        bulletin: 'https://o-site.spb.ru/_races/100417_sb/10041718_info2.htm'
     },
     {
         id: 'SPB_20100422_1',
@@ -351,7 +375,8 @@ let events2010 = [
         name: 'Чемпионат и пер-во ЛО',
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/10050103/100501_res.htm',
-        o_site: '10050103'
+        o_site: '10050103',
+        bulletin: 'https://o-site.spb.ru/_races/10050103/10050103_info1.html'
     },
     {
         id: 'SPB_20100508_1',
@@ -464,7 +489,8 @@ let events2010 = [
         name: 'Первенство Санкт-Петербурга среди обучающихся',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/100523/100523_res.htm',
-        o_site: '100523'
+        o_site: '100523',
+        bulletin: 'https://o-site.spb.ru/_races/100523/100523_info3.htm'
     },
     {
         id: 'SPB_20100529_1',
@@ -482,6 +508,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100529_1/100529_res.htm',
         info: '52-й ЛЕТНИЙ ЧЕМПИОНАТ и ПЕРВЕНСТВО САНКТ-ПЕТЕРБУРГА по СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ БЕГОМ, классическая дистанция.',
         o_site: '100529_1',
+        bulletin: 'https://o-site.spb.ru/_races/100529_1/100529_info1.htm',
         map: 'sosnovo_kalanchevka_2010',
         reskeep: 250
     },
@@ -504,7 +531,8 @@ let events2010 = [
         name: 'Первенство Команды 110%',
         res: 'https://o-site.spb.ru/_races/100530/100530_res.htm',
         start: 'ROGAINE_110',
-        o_site: '100530'
+        o_site: '100530',
+        bulletin: 'https://o-site.spb.ru/_races/100530/100530_info.htm'
     },
     {
         id: 'SPB_20100530_2',
@@ -514,6 +542,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/10RA_SPb/100530_res.htm',
         owner: 'SFSO_SPB',
         o_site: '10RA_SPb',
+        bulletin: 'https://o-site.spb.ru/_races/10RA_SPb/100530_bulletin.pdf',
         map: 'sosnovka_2004'
     },
     {
@@ -522,7 +551,8 @@ let events2010 = [
         name: 'Весенний Кубок команды 110%',
         place: 'Токсово, Матокса',
         start: 'ROGAINE_110',
-        o_site: '100604'
+        o_site: '100604',
+        bulletin: 'https://o-site.spb.ru/_races/100604/100604_info.htm'
     },
     {
         id: 'SPB_20100605_1',
@@ -542,6 +572,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100605_SPb/100605_res_.htm',
         info: '52-й летний чемпионат и первенство Санкт-Петербурга по спортивному ориентированию',
         o_site: '100605_SPb',
+        bulletin: 'https://o-site.spb.ru/_races/100605_SPb/100605_info.htm',
         reskeep: 262
     },
     {
@@ -552,7 +583,8 @@ let events2010 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/100606/100606_res.htm',
         video: ['https://www.youtube.com/watch?v=j_KTc8cVk-o','https://www.youtube.com/watch?v=jFCgJDqyx9s'],
-        o_site: '100606'
+        o_site: '100606',
+        bulletin: 'https://o-site.spb.ru/_races/100606/100606_info.htm'
     },
     {
         id: 'SPB_20100609_1',
@@ -560,7 +592,8 @@ let events2010 = [
         endDate: '2010-06-19',
         place: 'Петяярви',
         name: 'УТС ЛО',
-        o_site: '10060919'
+        o_site: '10060919',
+        bulletin: 'https://o-site.spb.ru/_races/10060919/10060919_info.htm'
     },
     {
         id: 'SPB_20100612_1',
@@ -568,7 +601,8 @@ let events2010 = [
         place: 'Петяярви',
         name: 'Кубок Центра Ладога, финал',
         res: 'https://o-site.spb.ru/_races/100612/100612_res.html',
-        o_site: '100612'
+        o_site: '100612',
+        bulletin: 'https://o-site.spb.ru/_races/100612/100612_info.htm'
     },
     {
         id: 'SPB_20100612_2',
@@ -580,6 +614,7 @@ let events2010 = [
         info: 'ХХ традиционные многодневные соревнования Невский Азимут Открытое первенство СДЮСШОР Курортного р-на им. В.А.Коренькова Командный кубок СДЮСШОР Курортного р-на им. В.А.Коренькова',
         start: 'NA',
         o_site: '10061214_na',
+        bulletin: 'https://o-site.spb.ru/_races/10061214_na/10061214_info.htm',
         map: ['na_2010_06_12', 'na_2010_06_13', 'na_2010_06_14']
     },
     {
@@ -592,6 +627,7 @@ let events2010 = [
         owner: 'WN',
         start: ['WN','YM'],
         o_site: '10061520',
+        bulletin: 'https://o-site.spb.ru/_races/10061520/10061520-info.pdf',
         map: ['ym_2010_michurinskoe_sprint', 'ym_2010_michurinskoe_long', 'ym_2010_michurinskoe_klassika']
     },
     {
@@ -636,7 +672,8 @@ let events2010 = [
         name: 'Кубок России по ориентированию бегом, Приозерск',
         res: 'https://o-site.spb.ru/_races/10070305/100703_res.pdf',
         info: '3 июля - Спринт (Приозерск) 4 июля - Классика (Кузнечное) 5 июля - Кросс (Кузнечное)',
-        o_site: '10070305'
+        o_site: '10070305',
+        bulletin: 'http://o-sport.ru/temp/2010/20100610_100702_Bulletin.pdf'
     },
     {
         id: 'SPB_20100704_1',
@@ -656,7 +693,8 @@ let events2010 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/100710/100710_res.htm',
         fmt: '3 часа',
-        o_site: '100710'
+        o_site: '100710',
+        bulletin: 'https://o-site.spb.ru/_races/100710/100710_info.htm'
     },
     {
         id: 'SPB_20100711_1',
@@ -666,6 +704,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100711_Az/100711_res.htm',
         info: 'Традиционный старт КСО Азимут и ориентировщиков-судостроителей',
         o_site: '100711_Az',
+        bulletin: 'https://o-site.spb.ru/_races/100711_Az/100711_info.htm',
         map: 'orekhovo_rakitinskoe_2004'
     },
     {
@@ -678,6 +717,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/10071718/100717_res.xls',
         start: 'GORNY_CROSS',
         o_site: '10071718',
+        bulletin: 'https://o-site.spb.ru/_races/10071718/10071718_info.htm',
         map: 'lembolovo_orekhovo_peski_gk_2026'
     },
     {
@@ -742,6 +782,7 @@ let events2010 = [
         info: 'Традиционный августовский старт КСО Азимут',
         start: 'GS',
         o_site: '100829_Az',
+        bulletin: 'https://o-site.spb.ru/_races/100829_Az/100829_info.doc',
         map: 'orekhovo-lembolovo_2000'
     },
     {
@@ -752,7 +793,8 @@ let events2010 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/100718/100904_res.htm',
         info: 'V этап Велодрайв-О-Cup',
-        o_site: '100718'
+        o_site: '100718',
+        bulletin: 'https://o-site.spb.ru/_races/100718/100904_info.htm'
     },
     {
         id: 'SPB_20100904_2',
@@ -781,7 +823,8 @@ let events2010 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/10091015/100910_res.htm',
         info: 'КУБОК РОССИИ по спортивному ориентированию на велосипедах ПЕРВЕНСТВО РОССИИ по спортивному ориентированию на велосипедах (юноши, девушки до 18 лет) RUSSIAN MBO CUP RUSSIAN YOUTH MBO CHAMPIONCHIP PRE EUROPEAN MBO CHAMPIONSHIP-2011 OPEN EVENTS Leningrad Region, Orekhovo, 10-15. 09. 2010',
-        o_site: '10091015'
+        o_site: '10091015',
+        bulletin: 'https://o-site.spb.ru/_races/10091015/100910_info1.pdf'
     },
     {
         id: 'SPB_20100911_1',
@@ -793,7 +836,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100911/100911_res.xls',
         fmt: '3 и 6 часов',
         start: 'GORNY_CROSS',
-        o_site: '100911'
+        o_site: '100911',
+        bulletin: 'https://o-site.spb.ru/_races/100911/100911_info.htm'
     },
     {
         id: 'SPB_20100912_1',
@@ -820,7 +864,8 @@ let events2010 = [
         name: 'Осенний Кубок команды 110%, 1 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/101118/100916_res.htm',
-        o_site: '101118'
+        o_site: '101118',
+        bulletin: 'https://o-site.spb.ru/_races/101118/101118_info.htm'
     },
     {
         id: 'SPB_20100918_1',
@@ -830,6 +875,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100918_Az/100918_res.htm',
         logo: 'azimut.gif',
         o_site: '100918_Az',
+        bulletin: 'https://o-site.spb.ru/_races/100918_Az/100918_info.htm',
         map: 'pukhtolova_gora_2009'
     },
     {
@@ -840,6 +886,7 @@ let events2010 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/100919/100919_split-1.htm',
         o_site: '100919',
+        bulletin: 'https://o-site.spb.ru/_races/100919/100919_info1.htm',
         reskeep: 241
     },
     {
@@ -857,6 +904,7 @@ let events2010 = [
         name: 'Парковый спринт - этап Кубка СПб и ЛО',
         res: 'http://o-time.ru/images/all/s10/footo220910.htm',
         o_site: '100922',
+        bulletin: 'https://o-site.spb.ru/_races/100922/100922_info.htm',
         map: 'piskarevsky_1996'
     },
     {
@@ -867,7 +915,8 @@ let events2010 = [
         name: 'Юношеская многодневка в Зеркальном, Марафон На Холмах Яппиля',
         res: 'https://o-site.spb.ru/_races/10092427/10092427_res.zip',
         info: 'традиционная юношеская осенняя многодневка в рамках смены Загородного Центра «Зеркальный»',
-        o_site: '10092427'
+        o_site: '10092427',
+        bulletin: 'http://www.o-site.spb.ru/_races/100314/100926_info2.htm'
     },
     {
         id: 'SPB_20100925_1',
@@ -885,7 +934,8 @@ let events2010 = [
         name: 'Кубок ОК Гольфстрим, 1-й беговой этап — марафон',
         res: 'http://o-site.spb.ru/_races/10092427/100926_res.pdf',
         owner: 'GOLFSTREAM',
-        o_site: '100314'
+        o_site: '100314',
+        bulletin: 'https://o-site.spb.ru/_races/100314/10101617_info.pdf'
     },
     {
         id: 'SPB_20100929_1',
@@ -894,7 +944,8 @@ let events2010 = [
         name: 'Кубок ОК Гольфстрим, 2-й беговой этап — спринт',
         res: 'http://o-site.spb.ru/_races/100929/100929_res.htm',
         owner: 'GOLFSTREAM',
-        o_site: '100314'
+        o_site: '100314',
+        bulletin: 'https://o-site.spb.ru/_races/100314/10101617_info.pdf'
     },
     {
         id: 'SPB_20100930_1',
@@ -903,7 +954,8 @@ let events2010 = [
         name: 'Осенний Кубок команды 110%, 2 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/101118/100930_res.htm',
-        o_site: '101118'
+        o_site: '101118',
+        bulletin: 'https://o-site.spb.ru/_races/101118/101118_info.htm'
     },
     {
         id: 'SPB_20101002_1',
@@ -912,7 +964,8 @@ let events2010 = [
         name: 'Золотые Кольца',
         res: 'https://o-site.spb.ru/_races/101002/101002_res.xls',
         start: 'WEDDING',
-        o_site: '101002'
+        o_site: '101002',
+        bulletin: 'https://o-site.spb.ru/_races/101002/101002_info2.htm'
     },
     {
         id: 'SPB_20101003_1',
@@ -930,7 +983,8 @@ let events2010 = [
         place: 'Кузьмолово',
         name: 'Старт памяти Коли Иванова',
         res: 'https://o-site.spb.ru/_races/101007/101007_res.htm',
-        o_site: '101007'
+        o_site: '101007',
+        bulletin: 'https://o-site.spb.ru/_races/101007/101007_info.htm'
     },
     {
         id: 'SPB_20101009_1',
@@ -970,7 +1024,8 @@ let events2010 = [
         name: 'Осенний Кубок команды 110%, 3 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/101118/101014_res.htm',
-        o_site: '101118'
+        o_site: '101118',
+        bulletin: 'https://o-site.spb.ru/_races/101118/101118_info.htm'
     },
     {
         id: 'SPB_20101016_1',
@@ -998,7 +1053,8 @@ let events2010 = [
         name: 'Кубок ОК Гольфстрим, финальные этапы',
         res: 'http://gs-oc.ru/phocadownload/competitions/gs-cup/101016,17.zip',
         owner: 'GOLFSTREAM',
-        o_site: '100314'
+        o_site: '100314',
+        bulletin: 'https://o-site.spb.ru/_races/100314/10101617_info.pdf'
     },
     {
         id: 'SPB_20101017_1',
@@ -1016,7 +1072,8 @@ let events2010 = [
         name: 'Осенний Кубок команды 110%, 4 этап',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/101118/101021_res.htm',
-        o_site: '101118'
+        o_site: '101118',
+        bulletin: 'https://o-site.spb.ru/_races/101118/101118_info.htm'
     },
     {
         id: 'SPB_20101023_1',
@@ -1026,7 +1083,8 @@ let events2010 = [
         place: 'Таммисуо',
         res: 'http://orientirclub.ucoz.ru/index/rezultaty_1_go_dnja/0-5',
         owner: 'VYBORG',
-        o_site: '10102324'
+        o_site: '10102324',
+        bulletin: 'http://orientirclub.ucoz.ru/index/0-2'
     },
     {
         id: 'SPB_20101030_1',
@@ -1045,7 +1103,8 @@ let events2010 = [
         info: 'Закрытие сезона КСО Азимут и СДЮСШОР Курортного р-на. Первенство СПб среди студентов ВУЗов',
         owner: 'SFSO_SPB',
         logo: 'azimut.gif',
-        o_site: '101031_Az'
+        o_site: '101031_Az',
+        bulletin: 'https://o-site.spb.ru/_races/101031_Az/101031_info.htm'
     },
     {
         id: 'SPB_20101101_1',
@@ -1054,7 +1113,8 @@ let events2010 = [
         place: 'лагерь Мечта, Мичуринское',
         name: 'УТС в «Мечте»',
         res: 'https://o-site.spb.ru/_races/10110107/101106_res.zip',
-        o_site: '10110107'
+        o_site: '10110107',
+        bulletin: 'https://o-site.spb.ru/_races/10110107/101106_info.htm'
     },
     {
         id: 'SPB_20101101_2',
@@ -1075,6 +1135,7 @@ let events2010 = [
         info: 'Традиционные праздничные ноябрьские соревнования на удлинённой дистанции, проводимы клубом Азимут',
         logo: 'azimut.gif',
         o_site: '101104_Az',
+        bulletin: 'https://o-site.spb.ru/_races/101104_Az/101104_info2.htm',
         map: 'lembolovo_2002',
         owner: 'AZIMUT'
     },
@@ -1098,7 +1159,8 @@ let events2010 = [
         name: 'Осенний Кубок команды 110%, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/101118/101111_res.htm',
         start: 'ROGAINE_110',
-        o_site: '101118'
+        o_site: '101118',
+        bulletin: 'https://o-site.spb.ru/_races/101118/101118_info.htm'
     },
     {
         id: 'SPB_20101118_1',
@@ -1107,7 +1169,8 @@ let events2010 = [
         place: 'Кузьмолово',
         res: 'http://www.o-site.spb.ru/_races/101118/100916_res.htm',
         start: 'ROGAINE_110',
-        o_site: '101118'
+        o_site: '101118',
+        bulletin: 'https://o-site.spb.ru/_races/101118/101118_info.htm'
     },
     {
         id: 'SPB_20101121_1',
@@ -1119,6 +1182,7 @@ let events2010 = [
         info: '21 ноября 2010 г. - 1 этап 12 декабря 2010 г. - 2 этап',
         fmt: 'ориентирование по выбору',
         o_site: '101121',
+        bulletin: 'https://o-site.spb.ru/_races/101121/101121_info3.htm',
         map: 'piskarevsky_1996'
     },
     {
@@ -1131,7 +1195,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/101127_gk/101127_res.xls',
         info: 'Рогейн. 6 этап Кубка Горный кросс-2010',
         start: 'GORNY_CROSS',
-        o_site: '101127_gk'
+        o_site: '101127_gk',
+        bulletin: 'https://o-site.spb.ru/_races/101127_gk/101127_info3.htm'
     },
     {
         id: 'SPB_20101128_1',
@@ -1141,7 +1206,8 @@ let events2010 = [
         res: 'http://gs-oc.ru/phocadownload/competitions/gs-cup-2011/101128_results.htm',
         info: '1 этап: 28 ноября – Маркированная трасса бегом 35-60 минут. Заявка производится на сайте http://o-reg.spb.ru/',
         owner: 'GOLFSTREAM',
-        o_site: '101128'
+        o_site: '101128',
+        bulletin: 'http://gs-oc.ru/phocadownload/competitions/gs-cup-2011/101128_info3.pdf'
     },
     {
         id: 'SPB_20101205_1',
@@ -1160,6 +1226,7 @@ let events2010 = [
         info: 'Традиционный старт КСО Азимут',
         logo: 'azimut.gif',
         o_site: '101205_Az',
+        bulletin: 'https://o-site.spb.ru/_races/101205_Az/101205_info3.htm',
         map: 'pesochnaya_2005',
         owner: 'AZIMUT'
     },
@@ -1171,7 +1238,8 @@ let events2010 = [
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/101212/101212_res.htm',
         info: '21 ноября 2010 г. - 1 этап 12 декабря 2010 г. - 2 этап',
-        o_site: '101212'
+        o_site: '101212',
+        bulletin: 'https://o-site.spb.ru/_races/101212/101212_info2.htm'
     },
     {
         id: 'SPB_20101219_1',
@@ -1179,7 +1247,8 @@ let events2010 = [
         name: 'Всеволожская тропа, 1 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/110410_tropa/101219_res.htm',
-        o_site: '110410_tropa'
+        o_site: '110410_tropa',
+        bulletin: 'https://o-site.spb.ru/_races/110410_tropa/110410_info.htm'
     },
     {
         id: 'SPB_20101225_1',

@@ -9,6 +9,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200107-08/200107_res.htm',
         owner: 'NW',
         o_site: '200107-08',
+        bulletin: 'https://o-site.spb.ru/_races/200107-08/200107-08_info1.pdf',
         reskeep: [297, 298]
     },
     {
@@ -41,7 +42,8 @@ let events2020 = [
         place: 'Шапки',
         reg: 'http://orgeo.ru/event/11640',
         res: 'https://o-site.spb.ru/_races/200112_lo/200112_res.htm',
-        o_site: '200112_lo'
+        o_site: '200112_lo',
+        bulletin: 'https://o-site.spb.ru/_races/200112_lo/200112_Info1.pdf'
     },
     {
         id: 'SPB_20200118_1',
@@ -75,6 +77,7 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1124',
         res: 'https://o-site.spb.ru/_races/200119_MT/200119_rez.htm',
         o_site: '200119_MT',
+        bulletin: 'https://o-site.spb.ru/_races/200119_MT/200119_MT_info.pdf',
         reskeep: 204,
         strava: 3024830806,
         map: 'toksovo_malinovaya_gora_2018'
@@ -86,7 +89,8 @@ let events2020 = [
         start: 'LO_CHAMP',
         place: 'Будогощь',
         reg: 'http://orgeo.ru/event/11719',
-        o_site: '200119_lo'
+        o_site: '200119_lo',
+        bulletin: 'https://o-site.spb.ru/_races/200119_lo/20011719_info1.pdf'
     },
     {
         id: 'SPB_20200125_1',
@@ -106,6 +110,7 @@ let events2020 = [
         res: 'http://orgeo.ru/live/#/11853',
         video: 'https://www.youtube.com/watch?v=T8iwv22Ew-I',
         o_site: '200126',
+        bulletin: 'https://o-site.spb.ru/_races/200126/200126_IB2.pdf',
         reskeep: 301,
         strava: 3045063542,
         map: 'pavlovsk_2012'
@@ -119,6 +124,7 @@ let events2020 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1128',
         res: 'https://o-site.spb.ru/_races/200126_t/200126_res.htm',
         o_site: '200126_t',
+        bulletin: 'https://o-site.spb.ru/_races/200126_t/200126_info_2_1.pdf',
         reskeep: 300,
         map: 'orekhovo_nyrkovo_winter_2012'
     },
@@ -141,6 +147,7 @@ let events2020 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1133',
         res: 'https://o-site.spb.ru/_races/200202/200202_rez.htm',
         o_site: '200202',
+        bulletin: 'https://o-site.spb.ru/_races/200202/200202_info2.pdf',
         reskeep: 305,
         map: 'orekhovo_nyrkovo_winter_2012'
     },
@@ -161,6 +168,7 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/200209/200208_res.htm',
         o_site: '200209',
+        bulletin: 'https://o-site.spb.ru/_races/200209/20020809_info_1.pdf',
         reskeep: [313, 314],
         strava: 3082595136,
         map: 'orekhovo_nyrkovo_winter_2012'
@@ -174,6 +182,7 @@ let events2020 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/20020809/200208_res.pdf',
         o_site: '20020809',
+        bulletin: 'https://o-site.spb.ru/_races/20020809/20020809_info_1_VUZ.pdf',
         map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
@@ -199,7 +208,8 @@ let events2020 = [
         id: 'SPB_20200214_1',
         date: '2020-02-14',
         name: 'Охта-Лабиринт',
-        o_site: '200214'
+        o_site: '200214',
+        bulletin: 'https://o-site.spb.ru/_races/200214/140220_info.pdf'
     },
     {
         id: 'SPB_20200216_1',
@@ -208,6 +218,7 @@ let events2020 = [
         name: 'Открытая тренировка NordWest',
         reg: 'http://o-reg.spb.ru/entry-list?id=1140',
         o_site: '200216_NW',
+        bulletin: 'https://o-site.spb.ru/_races/200216_NW/200216_infoNW.pdf',
         map: 'lembolovo_2024'
     },
     {
@@ -229,6 +240,7 @@ let events2020 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1141',
         res: 'https://o-site.spb.ru/_races/200223/200223_res.htm',
         o_site: '200223',
+        bulletin: 'https://o-site.spb.ru/_races/200223/200223_info1.pdf',
         reskeep: 317,
         strava: 3125516594
     },
@@ -264,6 +276,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200301/200301_res.htm',
         photo: 'http://vk.com/album-154221178_270678590',
         o_site: '200301',
+        bulletin: 'https://o-site.spb.ru/_races/200301/200301_info2.pdf',
         reskeep: 318,
         strava: 3144811128,
         map: 'orekhovo_2024'
@@ -279,6 +292,7 @@ let events2020 = [
         photo: 'http://vk.com/spb_orient?z=album-154221178_270815414',
         video: ['http://vk.com/video-36099352_456240633','https://www.youtube.com/watch?v=pErIMf90VNE'],
         o_site: '200307',
+        bulletin: 'https://o-site.spb.ru/_races/200307/200307_info2.pdf',
         reskeep: 323,
         strava: 3161969050,
         map: 'sestroretsk_dubki_2020'
@@ -292,6 +306,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/20030809/200308_res.html',
         start: 'VSEV_VESTI',
         o_site: '20030809',
+        bulletin: 'https://o-site.spb.ru/_races/20030809/20030809_info.pdf',
         reskeep: [324, 325],
         strava: 3168300659
     },
@@ -309,7 +324,8 @@ let events2020 = [
         date: '2020-03-13',
         place: 'ГБОУ Балтийский Берег',
         name: 'Судейский семинар',
-        o_site: '200313sem'
+        o_site: '200313sem',
+        bulletin: 'https://o-site.spb.ru/_races/200313sem/200313_info.pdf'
     },
     {
         id: 'SPB_20200314_1',
@@ -385,7 +401,8 @@ let events2020 = [
         name: 'Онлайн-старт по трейл-ориентированию',
         res: 'https://o-site.spb.ru/_races/200411/rezultaty.pdf',
         info: '11 апреля в 20.01 пройдёт тренировочный онлайн-старт по трейл-ориентированию. Пожалуйста отнеситесь с пониманием. Заполните форму только один раз. И будьте внимательны при вводе уникального стартового номера.',
-        o_site: '200411'
+        o_site: '200411',
+        bulletin: 'https://o-site.spb.ru/_races/200411/200411_inf_.pdf'
     },
     {
         id: 'SPB_20200418_1',
@@ -394,7 +411,8 @@ let events2020 = [
         name: 'Онлайн-старт по трейл-ориентированию, 2 этап',
         res: 'http://o-site.spb.ru/_races/200418/200418_rez.pdf',
         info: '18 апреля в 20.01 пройдёт второй этап тренировочного онлайн-старта по трейл-ориентированию. Местность в заданиях - «Комаровский берег».',
-        o_site: '200418'
+        o_site: '200418',
+        bulletin: 'http://o-site.spb.ru/_races/200418/200418_inf.pdf'
     },
     {
         id: 'SPB_20200425_2',
@@ -412,7 +430,8 @@ let events2020 = [
         reg: 'http://orgeo.ru/event/12605',
         res: 'http://o-site.spb.ru/_races/200426/200426_rezultaty.pdf',
         info: '26 апреля (воскресенье!) состоится третий этап онлайн-старта по трейл-ориентированию (дисциплина "точное ориентирование"/PreO).',
-        o_site: '200426'
+        o_site: '200426',
+        bulletin: 'https://o-site.spb.ru/_races/200426/26_aprelya_Byulleten-2.pdf'
     },
     {
         id: 'SPB_20200505_1',
@@ -442,7 +461,8 @@ let events2020 = [
         reg: 'http://orgeo.ru/event/info/12629',
         res: 'http://o-site.spb.ru/_races/200510/200510_rez_-_kopia5.pdf',
         info: '10 мая (воскресенье) состоится четвёртый этап онлайн-старта по трейл-ориентированию (дисциплина "точное ориентирование"/PreO).',
-        o_site: '200510'
+        o_site: '200510',
+        bulletin: 'https://o-site.spb.ru/_races/200510/10_maya_Info_byulleten.pdf'
     },
     {
         id: 'SPB_20200515_1',
@@ -467,6 +487,7 @@ let events2020 = [
         photo: 'http://o-site.spb.ru/_races/200517/CORRECT_ANSWER_O-PHOTO_compressed.pdf',
         info: 'Всемирный день ориентирования в Санкт-Петербурге ONLINE. (Онлайн-тренировка по Кронштадту 17.05.2020) 10:00-19:00 – доступна к прохождению дистанция «Фотоориентирование» 19:01-19:16 – доступна к прохождению дистанция «Спринт» (TempO) 22:00 – публикация результатов',
         o_site: '200517',
+        bulletin: 'https://o-site.spb.ru/_races/200517/WOD_170520.pdf',
         map: 'kronshtadt_2019'
     },
     {
@@ -512,7 +533,8 @@ let events2020 = [
         reg: 'http://orgeo.ru/event/info/12689',
         res: 'https://o-site.spb.ru/_races/200601/200601_SCHOOL_REZ.pdf',
         info: '1 июня (понедельник) состоится онлайн-старт по трейл-О, приуроченный ко Дню защиты детей. Дистанция: TempO (Спринт)',
-        o_site: '200601'
+        o_site: '200601',
+        bulletin: 'https://o-site.spb.ru/_races/200601/01_iyunya_IB.pdf'
     },
     {
         id: 'SPB_20200606_1',
@@ -530,7 +552,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200612/200612_rez.pdf',
         photo: 'http://drive.google.com/drive/folders/1tvax9cc_9z9YWb7g6JodrwYHVvEevSKY?sa=D&ust=1592159831324000&usg=AFQjCNFL_1lRoEJzvMO-1rvfobSnGayRhg',
         info: 'Онлайн-тренировка, посвящённая Дню России, проводится с целью пропаганды здорового образа жизни среди населения, популяризации спортивного ориентирования (знакомство со спортом, изучение условных знаков и знаков легенд) и привлечения граждан к занятиям физической культуры и спортом. Мероприятие проводится в рамках проекта «На соревнования – всей семьей: игровое пространство для детей участников спортивных мероприятий». Проект реализуется с использованием гранта Президента Российской Федерации на развитие гражданского общества, предоставленного Фондом президентских грантов.',
-        o_site: '200612'
+        o_site: '200612',
+        bulletin: 'https://o-site.spb.ru/_races/200612/Byulleten_Onlayn-Orientirovanie_1.pdf'
     },
     {
         id: 'SPB_20200612_2',
@@ -768,7 +791,8 @@ let events2020 = [
         name: 'Онлайн-гонка O-Race',
         res: 'https://o-site.spb.ru/_races/200729/200729-30_rez.pdf',
         info: 'После нажатия кнопки «Старт» вы увидите фрагмент карты с первым этапом (С-1). Вам предлагаются три варианта – Красный, Синий и Зеленый. Выберите наиболее быстрый на Ваш взгляд, зафиксируйте решение и переходите к следующему этапу. Тест заканчивается на последнем КП (этап 16-17). Время бега с последнего КП на финиш фиксировано, оно будет добавлено к Вашему результату автоматически.',
-        o_site: '200729'
+        o_site: '200729',
+        bulletin: 'https://o-site.spb.ru/_races/200729/Route_Choice_Contest.pdf'
     },
     {
         id: 'SPB_20200801_1',
@@ -824,6 +848,7 @@ let events2020 = [
         info: 'МТБО в Орехово, тренировочный старт',
         video: 'https://www.youtube.com/watch?v=Vsw_QoPFZGE',
         o_site: '200815',
+        bulletin: 'https://o-site.spb.ru/_races/200815/tren_tehinfo_2020_08_1516.pdf',
         endDate: '2020-08-16',
         map: 'orekhovo_figurnoe_velo_2020'
     },
@@ -863,7 +888,8 @@ let events2020 = [
         place: 'Вартемяги',
         reg: 'http://orgeo.ru/event/13253',
         res: 'https://o-site.spb.ru/_races/200823/200823_res.html',
-        o_site: '200823'
+        o_site: '200823',
+        bulletin: 'https://o-site.spb.ru/_races/200823/200823_info.pdf'
     },
     {
         id: 'SPB_20200823_2',
@@ -883,6 +909,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200827/200827_admiralteyskiy.pdf',
         info: 'Мероприятие организуется с целью совершенствования системы патриотического воспитания, обеспечивающей формирование у молодых граждан Российской Федерации прочных основ патриотического сознания, здорового образа жизни, а также содействие становлению активной гражданской позиции. Мероприятие проводится в рамках проекта «Молодежный патриотический спортивный фестиваль «Ориентир на победу!».',
         o_site: '200827',
+        bulletin: 'https://o-site.spb.ru/_races/200827/O_photo_inf.pdf',
         map: 'aleksandrovsky_sad_2020'
     },
     {
@@ -903,6 +930,7 @@ let events2020 = [
         info: 'Дистанция средней длины с большим количеством пунктов.',
         start: 'GS',
         o_site: '200829ZZ',
+        bulletin: 'https://o-site.spb.ru/_races/200829ZZ/200829ZZ_info.pdf',
         map: 'gs_2020_08_29',
         planner: 'PRVSKY'
     },
@@ -944,7 +972,8 @@ let events2020 = [
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/200903_KS/200903_res.htm',
         reskeep: 359,
-        o_site: '200903_KS'
+        o_site: '200903_KS',
+        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf'
     },
     {
         id: 'SPB_20200905_1',
@@ -970,6 +999,7 @@ let events2020 = [
         map: 'zelenogorsk_chernye_2023',
         owner: 'WN',
         o_site: '200906',
+        bulletin: 'https://o-site.spb.ru/_races/200906/200906_info.pdf',
         reskeep: 362
     },
     {
@@ -999,7 +1029,8 @@ let events2020 = [
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/200903_KS/200910_res.htm',
         reskeep: 366,
-        o_site: '200903_KS'
+        o_site: '200903_KS',
+        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf'
     },
     {
         id: 'SPB_20200912_1',
@@ -1010,6 +1041,7 @@ let events2020 = [
         reg: 'http://sportident.online/entry/?id=4543',
         res: 'https://o-site.spb.ru/_races/200912/200912_rez.htm',
         o_site: '200912',
+        bulletin: 'https://o-site.spb.ru/_races/200912/200912_info.pdf',
         map: 'tsvelodubovo_2020'
     },
     {
@@ -1034,6 +1066,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/20091213/200912_split.htm',
         info: 'Чемпионат и Первенство ЛО, массовые соревнования ЛО, дисциплины: 12.09 - кросс-спринт 13.09 - кросс-лонг',
         o_site: '20091213',
+        bulletin: 'https://o-site.spb.ru/_races/20091213/20091213_info3-1.pdf',
         reskeep: [365, 364]
     },
     {
@@ -1057,6 +1090,7 @@ let events2020 = [
         reg: 'http://sportident.online/entry/?id=4544',
         res: 'https://o-site.spb.ru/_races/200913/200913_ResultList.htm',
         o_site: '200913',
+        bulletin: 'https://o-site.spb.ru/_races/200913/200913_info.pdf',
         reskeep: 367,
         map: 'tsvelodubovo_2020'
     },
@@ -1079,7 +1113,8 @@ let events2020 = [
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/200903_KS/200917_res.htm',
         reskeep: 373,
-        o_site: '200903_KS'
+        o_site: '200903_KS',
+        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf'
     },
     {
         id: 'SPB_20200918_1',
@@ -1134,7 +1169,8 @@ let events2020 = [
         name: 'Кубок Белых Ночей 2020/21, 1 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2021BN/200920_split.htm',
-        o_site: '2021BN'
+        o_site: '2021BN',
+        bulletin: 'https://o-site.spb.ru/_races/2021BN/210905_info.pdf'
     },
     {
         id: 'SPB_20200921_1',
@@ -1173,7 +1209,8 @@ let events2020 = [
         name: 'Кузьмоловские старты, 4 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/200903_KS/200924_res.htm',
-        o_site: '200903_KS'
+        o_site: '200903_KS',
+        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf'
     },
     {
         id: 'SPB_20200926_2',
@@ -1205,6 +1242,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200927_svad/Kom_260920.pdf',
         start: 'WEDDING',
         o_site: '200927_svad',
+        bulletin: 'https://o-site.spb.ru/_races/200927_svad/200927_info1.pdf',
         map: 'lembolovo_2024'
     },
     {
@@ -1273,7 +1311,8 @@ let events2020 = [
         place: 'Токсово, Малиновая гора',
         name: 'Кузьмоловские старты, 5 этап',
         start: 'KUZMOLOVSKY_STARTS',
-        o_site: '200903_KS'
+        o_site: '200903_KS',
+        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf'
     },
     {
         id: 'SPB_20201003_1',
@@ -1324,7 +1363,8 @@ let events2020 = [
         start: 'KUZMOLOVSKY_STARTS',
         reg: 'http://orgeo.ru/event/13945',
         res: 'https://o-site.spb.ru/_races/200903_KS/201008_res.htm',
-        o_site: '200903_KS'
+        o_site: '200903_KS',
+        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf'
     },
     {
         id: 'SPB_20201010_1',
@@ -1367,6 +1407,7 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1182',
         res: 'https://o-site.spb.ru/_races/201011/20201011_res.htm',
         o_site: '201011',
+        bulletin: 'https://o-site.spb.ru/_races/201011/20201011_sprint_info2.pdf',
         map: 'osinovaja_roscha_velo_2020'
     },
     {
@@ -1389,7 +1430,8 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1185',
         res: 'https://o-site.spb.ru/_races/2020_WO/201017_res.htm',
         info: 'Индивидуальная тренировка по спортивному ориентированию.',
-        o_site: '2020_WO'
+        o_site: '2020_WO',
+        bulletin: 'https://o-site.spb.ru/_races/2020_WO/201017_info.pdf'
     },
     {
         id: 'SPB_20201017_2',
@@ -1408,7 +1450,8 @@ let events2020 = [
         reg: 'http://forms.yandex.ru/u/5f80ba716c7ed687f35fd49b/',
         res: 'https://o-site.spb.ru/_races/201018_vyb/201018_rez.htm',
         owner: 'VYBORG',
-        o_site: '201018_vyb'
+        o_site: '201018_vyb',
+        bulletin: 'https://o-site.spb.ru/_races/201018_vyb/201018_ZO_info.pdf'
     },
     {
         id: 'SPB_20201018_2',
@@ -1453,6 +1496,7 @@ let events2020 = [
         photo: 'http://vk.com/spb_orient?z=album-154221178_275435432',
         info: 'Организаторы: Комитет по физической культуре и спорту Санкт-Петербурга. СПб ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» РФСОО «Спортивная Федерация спортивного ориентирования Санкт-Петербурга»',
         o_site: '201024_relay',
+        bulletin: 'https://o-site.spb.ru/_races/201024_relay/20102425_info1.pdf',
         reskeep: 390,
         strava: 4236692958,
         map: 'sestroretsk_tamozhennaya_doroga_2012'
@@ -1469,6 +1513,7 @@ let events2020 = [
             'https://rutube.ru/video/1f5933100cc56ae8255dd9594f27ddc9/'
         ],
         o_site: '201025LO',
+        bulletin: 'https://o-site.spb.ru/_races/201025LO/201025_info2.pdf',
         strava: 4242108810
     },
     {
@@ -1481,6 +1526,7 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1191',
         res: 'http://sportident.online/ol/?id=127',
         o_site: '201031_MTBO',
+        bulletin: 'https://o-site.spb.ru/_races/201031_MTBO/201031_MTBO_info2.pdf',
         map: 'pukhtolova_gora_velo_2025'
     },
     {
@@ -1512,6 +1558,7 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1193',
         res: 'https://o-site.spb.ru/_races/201101_perspectiva/201101_res.htm',
         o_site: '201101_perspectiva',
+        bulletin: 'https://o-site.spb.ru/_races/201101_perspectiva/201101_info_1.pdf',
         reskeep: 392,
         strava: 4270412163,
         map: 'lembolovo_2024'
@@ -1558,6 +1605,7 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1197',
         res: 'http://o-site.spb.ru/_races/201108_perspectiva_2/201108_split2.htm',
         o_site: '201108_veloperspectiva',
+        bulletin: 'https://o-site.spb.ru/_races/201108_veloperspectiva/201108_velo_info2.pdf',
         map: 'orekhovo_figurnoe_velo_2020'
     },
     {
@@ -1569,6 +1617,7 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1197',
         res: 'https://o-site.spb.ru/_races/201108_perspectiva_2/201108_relay.htm',
         o_site: '201108_perspectiva_2',
+        bulletin: 'https://o-site.spb.ru/_races/201108_perspectiva_2/201108_info2.pdf',
         reskeep: [394,395],
         strava: 4308179205,
         map: 'orekhovo_2024'
@@ -1620,6 +1669,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201115_110/201115_res.htm',
         start: 'ROGAINE_110',
         o_site: '201115_110',
+        bulletin: 'https://o-site.spb.ru/_races/201115_110/201115_info2.pdf',
         strava: 4343003862
     },
     {
@@ -1653,6 +1703,7 @@ let events2020 = [
         info: '22 ноября в Орехово состоится тренировка КСО "Гольфстрим". В программе "Лонг. Общий старт." Начало стартов с 11.30. Бюллетень будет опубликован до 11 ноября.',
         owner: 'GOLFSTREAM',
         o_site: '201122_gulfstream_long',
+        bulletin: 'https://o-site.spb.ru/_races/201122_gulfstream_long/info2.1.pdf',
         reskeep: 402,
         strava: 4374011250,
         me: 'MB',
@@ -1697,6 +1748,7 @@ let events2020 = [
         reg: 'http://orgeo.ru/event/info/14372',
         res: 'https://o-site.spb.ru/_races/201129/201129_split1.htm',
         o_site: '201129',
+        bulletin: 'https://o-site.spb.ru/_races/201129/201129_info.pdf',
         reskeep: 404,
         strava: 4406137257
     },
@@ -1720,7 +1772,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201203_trailo/Predv_prot_Sport_dlya_vsekh_TreylO.pdf',
         info: 'Открытое Первенство среди обучающихся школьных спортивных клубов ОУ СПб «Спорт для всех» по видам спорта» среди обучающихся с ОВЗ. Все желающие, не относящиеся к школьникам, могут участвовать в группе «Оpen».',
         owner: 'SFSO_LO',
-        o_site: '201203_trailo'
+        o_site: '201203_trailo',
+        bulletin: 'https://o-site.spb.ru/_races/201203_trailo/Info.pdf'
     },
     {
         id: 'SPB_20201206_1',
@@ -1730,6 +1783,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/2020TT/201206_split3.htm',
         info: 'Тренировочный старт от Яркого Мира',
         o_site: '2020TT',
+        bulletin: 'https://o-site.spb.ru/_races/2020TT/201206TT_info2.pdf',
         reskeep: 403,
         strava: 4437026952
     },
@@ -1742,6 +1796,7 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1207',
         res: 'https://o-site.spb.ru/_races/2020WN/201212_res.htm',
         o_site: '2020WN',
+        bulletin: 'https://o-site.spb.ru/_races/2020WN/201212_info.pdf',
         reskeep: 409
     },
     {
@@ -1752,6 +1807,7 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1209',
         res: 'https://o-site.spb.ru/_races/201212/201212_rez.htm',
         o_site: '201212',
+        bulletin: 'https://o-site.spb.ru/_races/201212/201212_info2.pdf',
         reskeep: 408,
         strava: 4462507622,
         map: 'pushkin_babolovsky_2019'
@@ -1764,7 +1820,8 @@ let events2020 = [
         type: 'ROGAINE',
         reg: 'http://o-reg.spb.ru/entry-list?id=1206',
         res: 'https://o-site.spb.ru/_races/201213/201213_res.htm',
-        o_site: '201213'
+        o_site: '201213',
+        bulletin: 'https://o-site.spb.ru/_races/201213/201213_info2.pdf'
     },
     {
         id: 'SPB_20201213_2',
@@ -1775,6 +1832,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201213_1/201213_res.htm',
         info: 'Индивидуальная тренировка от клуба Аврора',
         o_site: '201213_1',
+        bulletin: 'https://o-site.spb.ru/_races/201213_1/201213_info1.pdf',
         reskeep: 411,
         strava: 4465890784,
         map: 'rzhevsky_2024'
@@ -1817,6 +1875,7 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1213',
         res: 'https://o-site.spb.ru/_races/201220_bn/201220_res.htm',
         o_site: '201220_bn',
+        bulletin: 'https://o-site.spb.ru/_races/201220_bn/201220_info.pdf',
         reskeep: 412,
         strava: 4494278879,
         map: 'toksovo_okhta_park_2008'
@@ -1829,6 +1888,7 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1214',
         res: 'https://o-site.spb.ru/_races/201226/201226_RES.htm',
         o_site: '201226',
+        bulletin: 'https://o-site.spb.ru/_races/201226/201226_info2.pdf',
         reskeep: 415,
         strava: 4519141764,
         map: 'pushkin_nizhny_2019'
@@ -1841,6 +1901,7 @@ let events2020 = [
         reg: 'http://orgeo.ru/event/14552',
         res: 'https://o-site.spb.ru/_races/201227i/201227_res.htm',
         o_site: '201227i',
+        bulletin: 'https://o-site.spb.ru/_races/201227i/201227_info.pdf',
         reskeep: 416
     },
     {
@@ -1851,6 +1912,7 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1208',
         res: 'https://o-site.spb.ru/_races/201227/201227_res_1.htm',
         o_site: '201227',
+        bulletin: 'https://o-site.spb.ru/_races/201227/201227_info2.pdf',
         strava: 4524905096
     },
     {

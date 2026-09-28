@@ -7,6 +7,7 @@ let samaraEvents2026 = [
         name: 'Многодневка ЛУКА — 2025',
         link: 'https://o-63.ru/data/2025/mnogodnevka-luka-2025/',
         reg: 'https://orgeo.ru/event/info/luka_samara2025',
+        bulletin: 'https://orgeo.ru/files/event/file/45100_3fff59afc1.pdf',
         map: ['grushina_2001', 'pribrezhny_2010'],
         owner: [
             'FSO_SAMARA',
@@ -58,6 +59,7 @@ let samaraEvents2026 = [
         link: 'https://o-63.ru/data/2026/snezhnye-parki-3-etap/',
         res: 'https://t.me/TrainingoClub',
         reg: 'https://orgeo.ru/event/50764',
+        bulletin: 'https://orgeo.ru/files/event/file/50764_d1fbc94428.pdf',
         map: 'park_gagarina',
         owner: 'TRAINING_O_CLUB'
     },
@@ -79,6 +81,7 @@ let samaraEvents2026 = [
         name: 'тренирровочный старт',
         link: 'https://o-63.ru/data/2026/21067/',
         reg: 'https://orgeo.ru/event/50764',
+        bulletin: 'https://orgeo.ru/files/event/file/50764_d1fbc94428.pdf',
         res: 'https://t.me/TrainingoClub',
         map: 'mehzavod_2025',
         owner: 'TRAINING_O_CLUB'
@@ -91,6 +94,7 @@ let samaraEvents2026 = [
         name: 'ЛУКА 2026',
         link: 'https://o-63.ru/data/2026/luka-2026/',
         reg: 'https://orgeo.ru/event/info/50315',
+        bulletin: 'https://orgeo.ru/files/event/file/50315_01019be070.pdf',
         owner: [
             'FSO_SAMARA',
             'SAKSOR',

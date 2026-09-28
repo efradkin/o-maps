@@ -9,6 +9,7 @@ let events2019 = [
         reg: 'http://sportident.ru/entry/event_info.php?id=4066',
         res: 'https://o-site.spb.ru/_races/190103-11/190103_res_uts.htm',
         o_site: '190103-11',
+        bulletin: 'https://o-site.spb.ru/_races/190103-11/190103-11_info_sbor.pdf',
         map: 'lembolovo_winter_2019'
     },
     {
@@ -20,6 +21,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/180107-08_RS/190107_res_rs.htm',
         owner: 'NW',
         o_site: '180107-08_RS',
+        bulletin: 'https://o-site.spb.ru/_races/180107-08_RS/180107-08_RS_info1.pdf',
         map: 'lembolovo_winter_2019'
     },
     {
@@ -29,7 +31,8 @@ let events2019 = [
         name: 'Чемпионат и Первенство ЛО',
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/190113lo/130119_split.html',
-        o_site: '190113lo'
+        o_site: '190113lo',
+        bulletin: 'https://o-site.spb.ru/_races/190113lo/190113_Info.pdf'
     },
     {
         id: 'SPB_20190113_2',
@@ -53,6 +56,7 @@ let events2019 = [
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_markir/',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_markir/',
         o_site: '190119',
+        bulletin: 'https://o-site.spb.ru/_races/190119/19011920_info_3.pdf',
         reskeep: 104
     },
     {
@@ -61,7 +65,8 @@ let events2019 = [
         name: 'Чемпионат и Первенство ЛО на лыжах',
         start: 'LO_CHAMP',
         place: 'Будогощь',
-        o_site: '190117-20LO'
+        o_site: '190117-20LO',
+        bulletin: 'https://o-site.spb.ru/_races/190117-20LO/190118-20_info1-2LO.pdf'
     },
     {
         id: 'SPB_20190120_2',
@@ -73,6 +78,7 @@ let events2019 = [
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_middle/',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_middle/',
         o_site: '190120',
+        bulletin: 'https://o-site.spb.ru/_races/190120/19011920_info_3.pdf',
         reskeep: 103
     },
     {
@@ -83,7 +89,8 @@ let events2019 = [
         name: 'Чемп. и п-во СЗФО и ЦФО',
         reg: 'http://orgeo.ru/event/8332',
         photo: 'http://vk.com/vkusnypirozhochek?z=album-176158928_260195803',
-        o_site: '190124'
+        o_site: '190124',
+        bulletin: 'https://o-site.spb.ru/_races/190124/byull_1-2_SZFO-TsFO.pdf'
     },
     {
         id: 'SPB_20190126_1',
@@ -121,6 +128,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=987',
         res: 'https://o-site.spb.ru/_races/190210/190210_rez.htm',
         o_site: '190210',
+        bulletin: 'https://o-site.spb.ru/_races/190210/190210_info_2.pdf',
         reskeep: 107
     },
     {
@@ -132,6 +140,7 @@ let events2019 = [
         fmt: 'маркир-Д',
         res: 'https://o-site.spb.ru/_races/190217/190217_rez.htm',
         o_site: '190217',
+        bulletin: 'https://o-site.spb.ru/_races/190217/190217_info2.pdf',
         map: 'volkov_2019_02_17',
         start: 'VOLKOV_A'
     },
@@ -145,6 +154,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/vvesti2019/190223_rez.htm',
         start: 'VSEV_VESTI',
         o_site: 'vvesti2019',
+        bulletin: 'https://o-site.spb.ru/_races/vvesti2019/19022324_info.pdf',
         reskeep: [105, 106]
     },
     {
@@ -155,6 +165,7 @@ let events2019 = [
         reg: 'http://orgeo.ru/event/registration/vv',
         res: 'https://o-site.spb.ru/_races/190224/190224_res.pdf',
         o_site: '190224',
+        bulletin: 'https://o-site.spb.ru/_races/190224/190224_info2.pdf',
         map: 'pavlovsk_2012'
     },
     {
@@ -187,6 +198,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=989',
         res: 'https://o-site.spb.ru/_races/190303ch/190303_res.htm',
         o_site: '190303ch',
+        bulletin: 'https://o-site.spb.ru/_races/190303ch/190303_info.pdf',
         reskeep: 159
     },
     {
@@ -209,7 +221,8 @@ let events2019 = [
         place: 'Кузьмолово',
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=993',
-        o_site: '190309_os'
+        o_site: '190309_os',
+        bulletin: 'https://o-site.spb.ru/_races/190309_os/190309_info.pdf'
     },
     {
         id: 'SPB_20190310_1',
@@ -218,7 +231,8 @@ let events2019 = [
         reg: 'http://orgeo.ru/event/8939',
         res: 'https://o-site.spb.ru/_races/190310kuz/190310_results_kuzm.htm',
         owner: 'SFSO_LO',
-        o_site: '190310kuz'
+        o_site: '190310kuz',
+        bulletin: 'https://o-site.spb.ru/_races/190310kuz/190310_info.pdf'
     },
     {
         id: 'SPB_20190310_2',
@@ -259,6 +273,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=996',
         res: 'http://o-site.spb.ru/_races/190317/190317_res.htm',
         o_site: '190317',
+        bulletin: 'https://o-site.spb.ru/_races/190317/190317_info%20(1).pdf',
         map: 'sosnovka_2014'
     },
     {
@@ -269,7 +284,8 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=999',
         res: 'https://o-site.spb.ru/_races/190407_LR/190407_rezults.pdf',
         info: '"Лабиринты разума" в формате квест-игры в закрытых помещениях.',
-        o_site: '190407_LR'
+        o_site: '190407_LR',
+        bulletin: 'https://o-site.spb.ru/_races/190407_LR/190407.pdf'
     },
     {
         id: 'SPB_20190407_2',
@@ -279,6 +295,7 @@ let events2019 = [
         start: 'VSEVOLOZHSK_WAY',
         res: 'https://o-site.spb.ru/_races/190407/190407_split.html',
         o_site: '190407',
+        bulletin: 'https://o-site.spb.ru/_races/190407/190407_info.pdf',
         map: 'romanovka_2013',
         reskeep: 111
     },
@@ -310,7 +327,8 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://o-reg.spb.ru/entry-list?id=998',
         res: 'https://o-site.spb.ru/_races/190413/190413_res_1.htm',
-        o_site: '190413'
+        o_site: '190413',
+        bulletin: 'https://o-site.spb.ru/_races/190413/190413_info.pdf'
     },
     {
         id: 'SPB_20190413_2',
@@ -330,7 +348,8 @@ let events2019 = [
         start: 'WEEKLY_ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1004',
         res: 'http://o-site.spb.ru/_races/190414/140419_res.htm',
-        o_site: '190414'
+        o_site: '190414',
+        bulletin: 'https://o-site.spb.ru/_races/190414/vikli_voeykovo.pdf'
     },
     {
         id: 'SPB_20190417_1',
@@ -361,7 +380,8 @@ let events2019 = [
         res: 'http://o-site.spb.ru/_races/190421/Rezultaty_Kolpino_2019.pdf',
         photo: 'http://vk.com/album-87193871_262759324',
         info: 'Открытое Первенство внутригородского муниципального образования Санкт-Петербурга город Колпино по спортивному ориентированию. Дисциплина – "Кросс-Выбор" с заданным первым КП. А также будет представлена дополнительная программа "Точное ориентирование".',
-        o_site: '190421'
+        o_site: '190421',
+        bulletin: 'https://o-site.spb.ru/_races/190421/IB2_2019.pdf'
     },
     {
         id: 'SPB_20190421_2',
@@ -392,7 +412,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190502/190501_rez_relay_v2.pdf',
         photo: 'http://vk.com/abcdefz_spb?z=album-179258987_261602241',
         info: 'С 26 апреля по 5 мая в Санкт-Петербурге состоится Чемпионат России по спорту лиц с поражениями ОДА в дисциплине спортивное ориентирование. Группы Para: МЖО1-О3; МЖО4-О6. А для открытых групп МЖ (2001 и старше) и МЖ до 18 (2002-2009) будет проведён Фестиваль трейл-ориентирования «ТрейлО Питер» и Открытый Кубок Федерации спортивного ориентирования Санкт-Петербурга по трейл-ориентированию.',
-        o_site: '190502'
+        o_site: '190502',
+        bulletin: 'https://o-site.spb.ru/_races/190502/190426_treilo__inf3.pdf'
     },
     {
         id: 'SPB_20190426_2',
@@ -411,6 +432,7 @@ let events2019 = [
         res: 'http://orgeo.ru/live/#/9491',
         info: 'Организаторы: СПБ ГБУ ЦФКСЗ "Царское Село".',
         o_site: '190427',
+        bulletin: 'https://o-site.spb.ru/_races/190427/190427_IB33.pdf',
         map: 'pushkin_babolovsky_2019'
     },
     {
@@ -430,6 +452,7 @@ let events2019 = [
         ],
         owner: ['VYBORG','NW'],
         o_site: '190427_V3',
+        bulletin: 'https://o-site.spb.ru/_races/190427_V3/190427-28_info1.pdf',
         reskeep: [116, 117, 115]
     },
     {
@@ -452,6 +475,7 @@ let events2019 = [
         reg: 'http://orgeo.ru/event/9425',
         res: 'https://o-site.spb.ru/_races/190502lo/190501_split.html',
         o_site: '190502lo',
+        bulletin: 'https://o-site.spb.ru/_races/190502lo/19050103_info.pdf',
         reskeep: [118, 119, 120]
     },
     {
@@ -530,6 +554,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190509/RES_090519.htm',
         info: 'Соревнования, посвященные Дню Победы, пройдут 9 мая в районе Черных озер недалеко от г. Зеленогорска.',
         o_site: '190509',
+        bulletin: 'https://o-site.spb.ru/_races/190509/190509.pdf',
         reskeep: 132,
         owner: 'AZIMUT'
     },
@@ -543,7 +568,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190510/190510_res.htm',
         video: 'https://www.youtube.com/watch?v=D_vVA-cHH2s',
         fmt: '- 4 часа бегом, 3 часа на велосипеде',
-        o_site: '190510'
+        o_site: '190510',
+        bulletin: 'https://o-site.spb.ru/_races/190510/190510_info.pdf'
     },
     {
         id: 'SPB_20190510_2',
@@ -559,6 +585,7 @@ let events2019 = [
             'https://www.youtube.com/watch?v=YHZxotwF5bo'
         ],
         o_site: '190510Luga',
+        bulletin: 'https://o-site.spb.ru/_races/190510Luga/18021217_info3.pdf',
         reskeep: [129, 130, 131]
     },
     {
@@ -571,7 +598,8 @@ let events2019 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1023',
         res: 'http://o-site.spb.ru/_races/190512_kkr/190512_res.htm',
         video: 'https://www.youtube.com/watch?v=iat7u1pUls8',
-        o_site: '190512_kkr'
+        o_site: '190512_kkr',
+        bulletin: 'https://o-site.spb.ru/_races/190512_kkr/190512_info.pdf'
     },
     {
         id: 'SPB_20190512_2',
@@ -581,6 +609,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1026',
         res: 'https://o-site.spb.ru/_races/190512/AdultResult2.htm',
         o_site: '190512',
+        bulletin: 'https://o-site.spb.ru/_races/190512/Info_12.pdf',
         map: 'orekhovo_rakitinskoe_2004',
         owner: 'AZIMUT'
     },
@@ -592,6 +621,7 @@ let events2019 = [
         reg: 'http://orgeo.ru/event/8700',
         info: '5-е традиционные соревнования памяти Ю.А. Березюка Кубок города Кириши по спортивному ориентированию Кубок Профкома ООО «ПО Киришинефтеоргсинтез»',
         o_site: '190512b',
+        bulletin: 'https://o-site.spb.ru/_races/190512b/190512_info.pdf',
         owner: 'EGRV_SRG'
     },
     {
@@ -644,6 +674,7 @@ let events2019 = [
         video: 'http://www.northernwind.spb.ru/videosplit/2019/ra_spb/',
         owner: 'SFSO_SPB',
         o_site: '100518RA',
+        bulletin: 'https://o-site.spb.ru/_races/100518RA/190518_info.pdf',
         reskeep: 136
     },
     {
@@ -684,6 +715,7 @@ let events2019 = [
         video: 'http://northernwind.spb.ru/videosplit/2019/chspbs_sprint',
         info: 'Организаторы: Комитет по физической культуре и спорту Санкт-Петербурга Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга»',
         o_site: '190519',
+        bulletin: 'https://o-site.spb.ru/_races/190519/190519_info1_v3.pdf',
         reskeep: 135
     },
     {
@@ -753,6 +785,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1040',
         res: 'https://o-site.spb.ru/_races/190526/190526_sprint_results.htm',
         o_site: '190526',
+        bulletin: 'https://o-site.spb.ru/_races/190526/20190526_sprint_info1.pdf',
         reskeep: 141
     },
     {
@@ -765,6 +798,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1042',
         res: 'https://o-site.spb.ru/_races/190526_relay/190526_rezults.htm',
         o_site: '190526_relay',
+        bulletin: 'https://o-site.spb.ru/_races/190526_relay/20190526_relay_info1.pdf',
         reskeep: 142
     },
     {
@@ -809,6 +843,7 @@ let events2019 = [
         info: 'XXIX МНОГОДНЕВНЫЕ СОРЕВНОВАНИЯ ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ «НЕВСКИЙ АЗИМУТ»',
         start: 'NA',
         o_site: '190607',
+        bulletin: 'https://o-site.spb.ru/_races/190607/NevAzimut2019-1.pdf',
         map: ['na_2019_06_07', 'na_2019_luga', 'na_2019_06_09'],
         reskeep: [156, 157, 158]
     },
@@ -821,6 +856,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1022',
         res: 'https://o-site.spb.ru/_races/190408-09/20190608_day_rez.htm',
         o_site: '190408-09',
+        bulletin: 'https://o-site.spb.ru/_races/190408-09/08090619_info.pdf',
         reskeep: [153, 154, 155]
     },
     {
@@ -831,6 +867,7 @@ let events2019 = [
         place: 'Каменогорск',
         start: 'KKP',
         o_site: '190616-21_KKP',
+        bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf',
         map: ['kkp_prudy_2019_06_15','kkp_prudy_2019_06_16']
     },
     {
@@ -851,7 +888,8 @@ let events2019 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/190611v/190611V_split.htm',
         info: 'Классическая дистанция в заданном направлении',
-        o_site: '190611v'
+        o_site: '190611v',
+        bulletin: 'https://o-site.spb.ru/_races/190611v/190611v_info.html'
     },
     {
         id: 'SPB_20190611_2',
@@ -862,6 +900,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/19061116/19061315L_res.zip',
         start: 'YM',
         o_site: '19061116',
+        bulletin: 'https://o-site.spb.ru/_races/19061116/19061116_info.pdf',
         map: ['ym_2019_luga_final', 'ym_2019_luga_prolog', 'ym_2019_luga_sprint', 'ym_2019_06_15', 'ym_2019_06_16'],
         reskeep: [164, 165, 161, 162, 163]
     },
@@ -883,7 +922,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190616-21_KKP/20190617_kkp_1_rez.htm',
         video: 'https://www.youtube.com/watch?v=xHGuA_XHXLc',
         start: 'KKP',
-        o_site: '190616-21_KKP'
+        o_site: '190616-21_KKP',
+        bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf'
     },
     {
         id: 'SPB_20190617_2',
@@ -893,6 +933,7 @@ let events2019 = [
         place: 'Каменогорск',
         start: 'KKP',
         o_site: '190616-21_KKP',
+        bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf',
         reskeep: 167,
         video: 'http://northernwind.spb.ru/videosplit/2019/kkp/day1'
     },
@@ -904,6 +945,7 @@ let events2019 = [
         place: 'Каменогорск',
         start: 'KKP',
         o_site: '190616-21_KKP',
+        bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf',
         map: 'kkp_prudy_2019_06_18',
         o_gps: {
             'М': 5957,
@@ -924,6 +966,7 @@ let events2019 = [
         place: 'Каменогорск',
         start: 'KKP',
         o_site: '190616-21_KKP',
+        bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf',
         map: 'kkp_prudy_2019_06_19',
         o_gps: {
             'М': 5964,
@@ -942,6 +985,7 @@ let events2019 = [
         place: 'Каменогорск',
         start: 'KKP',
         o_site: '190616-21_KKP',
+        bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf',
         map: 'kkp_prudy_2019_06_20',
         o_gps: {
             'М': 5967,
@@ -971,6 +1015,7 @@ let events2019 = [
         video: 'https://www.youtube.com/watch?v=0Hr9Tw0Cv5M',
         start: 'MMS',
         o_site: '190623MMS',
+        bulletin: 'https://o-site.spb.ru/_races/190623MMS/19062123_info.pdf',
         reskeep: [171, 172, 173],
         map: ['mms_2019_06_21','mms_2019_06_22','mms_2019_06_23'],
         planner: 'SRBRNTSKY'
@@ -984,7 +1029,8 @@ let events2019 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1047',
         res: 'http://o-site.spb.ru/_races/190622/190622_results.htm',
-        o_site: '190622'
+        o_site: '190622',
+        bulletin: 'https://o-site.spb.ru/_races/190622/20190622_class_info1.pdf'
     },
     {
         id: 'SPB_20190624_1',
@@ -995,7 +1041,8 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1010',
         res: 'http://orgeo.ru/live/#/10004/2',
         photo: 'http://vk.com/album-9087078_264070934',
-        o_site: '190624-26'
+        o_site: '190624-26',
+        bulletin: 'https://o-site.spb.ru/_races/190624-26/190624_IB_1.pdf'
     },
     {
         id: 'SPB_20190628_1',
@@ -1011,6 +1058,7 @@ let events2019 = [
         owner: 'WN',
         start: 'WN',
         o_site: '190628',
+        bulletin: 'https://o-site.spb.ru/_races/190628/190628_info.pdf',
         reskeep: [174, 175, 176]
     },
     {
@@ -1023,7 +1071,8 @@ let events2019 = [
         reg: 'https://o-site.spb.ru/_races/19062830_velo/https://orgeo.ru/event/9654',
         res: 'https://o-site.spb.ru/_races/19062830_velo/19062830_ofres.zip',
         owner: 'SFSO_LO',
-        o_site: '19062830_velo'
+        o_site: '19062830_velo',
+        bulletin: 'https://o-site.spb.ru/_races/19062830_velo/19062830_info2.pdf'
     },
     {
         id: 'SPB_20190629_1',
@@ -1073,7 +1122,8 @@ let events2019 = [
         start: 'PERSPEKTIVA',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1053',
         res: 'http://o-site.spb.ru/_races/190714/190714_res.htm',
-        o_site: '190714'
+        o_site: '190714',
+        bulletin: 'https://o-site.spb.ru/_races/190714/190714_info.pdf'
     },
     {
         id: 'SPB_20190720_1',
@@ -1113,7 +1163,8 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1052',
         res: 'http://o-site.spb.ru/_races/190728/190728_res.htm',
-        o_site: '190728'
+        o_site: '190728',
+        bulletin: 'https://o-site.spb.ru/_races/190728/190728_info2.pdf'
     },
     {
         id: 'SPB_20190728_2',
@@ -1219,6 +1270,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190824/190824_split.htm',
         start: 'GS',
         o_site: '190824',
+        bulletin: 'https://o-site.spb.ru/_races/190824/190824_info2.pdf',
         map: 'gs_2019_08_24',
         planner: 'PRVSKY'
     },
@@ -1230,6 +1282,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1065',
         res: 'https://o-site.spb.ru/_races/190825_PPDF/190825_PPD_rez.htm',
         o_site: '190825_PPDF',
+        bulletin: 'https://o-site.spb.ru/_races/190825_PPDF/190825_inf_bull.PDF',
         map: 'toksovo_malinovaya_gora_2018'
     },
     {
@@ -1242,6 +1295,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1060',
         res: 'http://o-site.spb.ru/_races/190825/20190825_res.htm',
         o_site: '190825',
+        bulletin: 'https://o-site.spb.ru/_races/190825/190825_mass_start_info1.pdf',
         map: 'pukhtolova_gora_velo_2025'
     },
     {
@@ -1253,7 +1307,8 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1063',
         res: 'http://o-site.spb.ru/_races/190831/190831_res.htm',
-        o_site: '190831'
+        o_site: '190831',
+        bulletin: 'https://o-site.spb.ru/_races/190831/190831_info.pdf'
     },
     {
         id: 'SPB_20190901_1',
@@ -1273,6 +1328,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190901/190901_split.htm',
         owner: 'SFSO_LO',
         o_site: '190901',
+        bulletin: 'https://o-site.spb.ru/_races/190901/190901_info.pdf',
         reskeep: 190,
         map: 'vsevolozhsk_rumbolovo_2014'
     },
@@ -1314,6 +1370,7 @@ let events2019 = [
         place: 'Кузьмолово',
         res: 'http://o-site.spb.ru/_races/190905/190905_split.html',
         o_site: '190905',
+        bulletin: 'https://o-site.spb.ru/_races/190905/191010_info.pdf',
         reskeep: 193
     },
     {
@@ -1335,6 +1392,7 @@ let events2019 = [
         info: '10-е традиционные соревнования на призы компании "Триколор", проводимые клубом "Белые Ночи"",',
         owner: 'WN',
         o_site: '190908',
+        bulletin: 'https://o-site.spb.ru/_races/190908/190908_info2.pdf',
         reskeep: 194
     },
     {
@@ -1353,6 +1411,7 @@ let events2019 = [
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://o-site.spb.ru/_races/190905/190912_split.htm',
         o_site: '190905',
+        bulletin: 'https://o-site.spb.ru/_races/190905/191010_info.pdf',
         reskeep: 213
     },
     {
@@ -1364,6 +1423,7 @@ let events2019 = [
         place: 'Ягодное',
         res: 'https://o-site.spb.ru/_races/19091415/19091415_official.zip',
         o_site: '19091415',
+        bulletin: 'https://o-site.spb.ru/_races/19091415/19091415_info3.pdf',
         reskeep: [206, 207]
     },
     {
@@ -1375,7 +1435,8 @@ let events2019 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1076',
         res: 'https://o-site.spb.ru/_races/190915/190915_rezMTBO.htm',
-        o_site: '190915'
+        o_site: '190915',
+        bulletin: 'https://o-site.spb.ru/_races/190915/20190915_long_info2.pdf'
     },
     {
         id: 'SPB_20190918_1',
@@ -1396,6 +1457,7 @@ let events2019 = [
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://o-site.spb.ru/_races/190905/190919_res.html',
         o_site: '190905',
+        bulletin: 'https://o-site.spb.ru/_races/190905/191010_info.pdf',
         reskeep: 217
     },
     {
@@ -1419,6 +1481,7 @@ let events2019 = [
         res: 'http://o-site.spb.ru/_races/190928_21/190921_res.htm',
         info: '21.09 (суббота): соревнования в Муринском парке (место старта рядом с «Родео драйв»). Дистанция «кросс-спринт»; Начало соревнований в 10.30! 28.09 (суббота): соревнования в районе Пухтоловой горы. Дистанция «кросс-классика»; Начало соревнований в 10.30!',
         o_site: '190928_21',
+        bulletin: 'https://o-site.spb.ru/_races/190928_21/20190928_chip_spb_deaf2.pdf',
         endDate: '2019-09-28',
         map: 'pukhtolova_gora_2025'
     },
@@ -1440,6 +1503,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1071',
         res: 'https://o-site.spb.ru/_races/190922/res.htm',
         o_site: '190922',
+        bulletin: 'https://o-site.spb.ru/_races/190922/190922_info2.2.pdf',
         reskeep: 208
     },
     {
@@ -1459,6 +1523,7 @@ let events2019 = [
         place: 'Осельки',
         res: 'http://o-site.spb.ru/_races/190905/190926_res.html',
         o_site: '190905',
+        bulletin: 'https://o-site.spb.ru/_races/190905/191010_info.pdf',
         reskeep: 218
     },
     {
@@ -1470,6 +1535,7 @@ let events2019 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1085',
         res: ['https://o-site.spb.ru/_races/190926-30/190927_SPLIT.htm','https://o-site.spb.ru/_races/190927-30/190927_SPLIT.htm','https://o-site.spb.ru/_races/190926-30/190929_SPLIT.htm'],
         o_site: '190926-30',
+        bulletin: 'https://o-site.spb.ru/_races/190926-30/19092730_info1.pdf',
         map: 'zerkalny_2002'
     },
     {
@@ -1482,6 +1548,7 @@ let events2019 = [
         info: 'В субботу 28 сентября 2019 года западнее ж.д. ст.Лемболово. Старт – в 12.00',
         start: 'WEDDING',
         o_site: '190928_ZK',
+        bulletin: 'https://o-site.spb.ru/_races/190928_ZK/190928_info3.pdf',
         map: 'lembolovo_2024'
     },
     {
@@ -1493,6 +1560,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1089',
         res: 'https://o-site.spb.ru/_races/1909-12/190928_MT_split.htm',
         o_site: '1909-12',
+        bulletin: 'https://o-site.spb.ru/_races/1909-12/190928_MT_PUKHTOLA_GORA.pdf',
         reskeep: 202,
         map: 'pukhtolova_gora_2025'
     },
@@ -1523,7 +1591,8 @@ let events2019 = [
         start: 'LO_CHAMP',
         place: 'Будогощь',
         type: 'VELO',
-        o_site: '19092829_velo'
+        o_site: '19092829_velo',
+        bulletin: 'https://o-site.spb.ru/_races/19092829_velo/19092829velo.pdf'
     },
     {
         id: 'SPB_20190929_3',
@@ -1534,6 +1603,7 @@ let events2019 = [
         res: 'http://northernwind.spb.ru/videosplit/2019/chspbs_relay/',
         video: 'http://northernwind.spb.ru/videosplit/2019/chspbs_relay/',
         o_site: '190929',
+        bulletin: 'https://o-site.spb.ru/_races/190929/190929_info2.pdf',
         reskeep: [270, 221]
     },
     {
@@ -1544,6 +1614,7 @@ let events2019 = [
         place: 'Кавголово',
         res: 'http://o-site.spb.ru/_races/190905/191003_res.htm',
         o_site: '190905',
+        bulletin: 'https://o-site.spb.ru/_races/190905/191010_info.pdf',
         reskeep: 219
     },
     {
@@ -1553,6 +1624,7 @@ let events2019 = [
         name: 'Открытое первенство по трейл-ориентированию',
         info: 'Открытое Первенство среди обучающихся школьных спортивных клубов образовательных учреждений Санкт-Петербурга.',
         o_site: '191004',
+        bulletin: 'https://o-site.spb.ru/_races/191004/191004_inf.pdf',
         map: 'kurakina_dacha_2017'
     },
     {
@@ -1626,7 +1698,8 @@ let events2019 = [
         name: 'Старт памяти одноклубника Коли Иванова',
         reg: 'http://o-reg.spb.ru/entry-list?id=1099',
         res: 'https://o-site.spb.ru/_races/191011_PPK/191011_PPK_rez.htm',
-        o_site: '191011_PPK'
+        o_site: '191011_PPK',
+        bulletin: 'https://o-site.spb.ru/_races/191011_PPK/191011_start_Koli_Ivanova.pdf'
     },
     {
         id: 'SPB_20191012_1',
@@ -1647,6 +1720,7 @@ let events2019 = [
         info: 'Соревнования проводятся после окончания Чемпионата СПб среди ВУЗов в том же районе.',
         logo: 'azimut.gif',
         o_site: '191012_',
+        bulletin: 'https://o-site.spb.ru/_races/191012_/Info_PetOs.pdf',
         owner: 'AZIMUT'
     },
     {
@@ -1657,7 +1731,8 @@ let events2019 = [
         place: 'Мичуринское-Борисово',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/191012/191013_res.htm',
-        o_site: '191012'
+        o_site: '191012',
+        bulletin: 'https://o-site.spb.ru/_races/191012/191012_info.pdf'
     },
     {
         id: 'SPB_20191012_4',
@@ -1688,6 +1763,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191013/res.htm',
         info: 'Организаторы: Комитет по физической культуре и спорту Санкт-Петербурга. СПб ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» РФСОО «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Санаторий "Дюны"',
         o_site: '191013',
+        bulletin: 'https://o-site.spb.ru/_races/191013/191013_info2.pdf',
         reskeep: 273
     },
     {
@@ -1709,6 +1785,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191019-20/res1.htm',
         owner: 'VYBORG',
         o_site: '191019-20',
+        bulletin: 'https://o-site.spb.ru/_races/191019-20/Zol_Osen_2019.pdf',
         reskeep: [279, 280]
     },
     {
@@ -1728,14 +1805,16 @@ let events2019 = [
         place: 'Сестрорецкие Дюны',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1102',
         res: 'https://o-site.spb.ru/_races/191020/191020_SPLIT.htm',
-        o_site: '191020'
+        o_site: '191020',
+        bulletin: 'https://o-site.spb.ru/_races/191020/191020_info3.pdf'
     },
     {
         id: 'SPB_20191020_2',
         date: '2019-10-20',
         name: 'Спартакиада СПб среди кадетов',
         place: 'Сестрорецкие Дюны',
-        o_site: '191020_VO'
+        o_site: '191020_VO',
+        bulletin: 'https://o-site.spb.ru/_races/191020_VO/191020_info3_vo.pdf'
     },
     {
         id: 'SPB_20191023_1',
@@ -1817,7 +1896,8 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1103',
         res: 'https://o-site.spb.ru/_races/191103/191103_res.htm',
-        o_site: '191103'
+        o_site: '191103',
+        bulletin: 'https://o-site.spb.ru/_races/191103/191103_info.pdf'
     },
     {
         id: 'SPB_20191103_2',
@@ -1838,6 +1918,7 @@ let events2019 = [
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         logo: 'azimut.gif',
         o_site: '191004_OM',
+        bulletin: 'https://o-site.spb.ru/_races/191004_OM/Info_OsMarafon1.pdf',
         reskeep: 286,
         owner: 'AZIMUT'
     },
@@ -1849,6 +1930,7 @@ let events2019 = [
         res: 'http://o-site.spb.ru/_races/191109tr/protokol_191109.pdf',
         info: 'Мероприятие проводится с целью развития трейл-ориентирования и подготовки спортсменов к международным и всероссийским соревнованиям. Организаторы: комиссия по трейл-ориентированию Федерации спортивного ориентирования Санкт-Петербурга, туристско-спортивный клуб «31 КП», клуб «Азимут».',
         o_site: '191109tr',
+        bulletin: 'https://o-site.spb.ru/_races/191109tr/191109_info.pdf',
         map: 'sosnovka_2014'
     },
     {
@@ -1859,6 +1941,7 @@ let events2019 = [
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-sportivnomu-orientirovaniyu/pamyati-7-noyabrya-2019',
         res: 'https://o-site.spb.ru/_races/191109/191109_res.htm',
         o_site: '191109',
+        bulletin: 'http://sport-orient.ru/wp-content/uploads/2019/11/7-noyabrya-2019-byulleten-%E2%84%961-.pdf',
         reskeep: 287
     },
     {
@@ -1879,6 +1962,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191110_markir/191110_110_rez.htm',
         start: 'ROGAINE_110',
         o_site: '191110_markir',
+        bulletin: 'https://o-site.spb.ru/_races/191110_markir/191110_m110_info.PDF',
         reskeep: 288
     },
     {
@@ -1889,6 +1973,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1109',
         res: 'http://orgeo.ru/live/#/11152',
         o_site: '191110',
+        bulletin: 'https://o-site.spb.ru/_races/191110/191110_info2.pdf',
         reskeep: 289
     },
     {
@@ -1911,7 +1996,8 @@ let events2019 = [
         reg: 'http://orgeo.ru/event/10901',
         res: 'https://o-site.spb.ru/_races/191116/191116_rez.htm',
         video: 'https://www.youtube.com/watch?v=Xzxcv20BEWo',
-        o_site: '191116'
+        o_site: '191116',
+        bulletin: 'https://o-site.spb.ru/_races/191116/19111617_info.pdf'
     },
     {
         id: 'SPB_20191123_1',
@@ -1937,7 +2023,8 @@ let events2019 = [
         name: 'Спортивный праздник посвященный Дню матери',
         res: 'https://o-site.spb.ru/_races/192410/191124_rez.htm',
         photo: 'http://cloud.mail.ru/public/Ktox/1mEiLiJFQ',
-        o_site: '192410'
+        o_site: '192410',
+        bulletin: 'https://o-site.spb.ru/_races/192410/191124_info3.pdf'
     },
     {
         id: 'SPB_20191124_3',
@@ -1948,6 +2035,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1111',
         res: 'https://o-site.spb.ru/_races/191124_MaTreshka/191124_MT_rez.htm',
         o_site: '191124_MaTreshka',
+        bulletin: 'https://o-site.spb.ru/_races/191124_MaTreshka/20191124_MT_Lembolovo.pdf',
         reskeep: 203,
         strava: 2888276292,
         map: 'lembolovo_2024'
@@ -1973,7 +2061,8 @@ let events2019 = [
         place: '69км',
         reg: 'http://o-reg.spb.ru/entry-list?id=1115',
         res: 'https://o-site.spb.ru/_races/191201tr/191201_res.htm',
-        o_site: '191201tr'
+        o_site: '191201tr',
+        bulletin: 'https://o-site.spb.ru/_races/191201tr/191201_info_2_2.htm'
     },
     {
         id: 'SPB_20191201_2',
@@ -1983,7 +2072,8 @@ let events2019 = [
         reg: 'http://sport-orient.ru/products/uncategorized/gorodskoj-sprint-shlisselburg',
         res: 'https://o-site.spb.ru/_races/191201gs/191201_res.htm',
         owner: 'SFSO_LO',
-        o_site: '191201gs'
+        o_site: '191201gs',
+        bulletin: 'http://sport-orient.ru/wp-content/uploads/2019/11/informaczionnyj-byulleten-22shlisselburg22.pdf'
     },
     {
         id: 'SPB_20191207_1',
@@ -2004,6 +2094,7 @@ let events2019 = [
         reg: 'http://orgeo.ru/event/11317',
         res: 'https://o-site.spb.ru/_races/191208/191208_res.html',
         o_site: '191208',
+        bulletin: 'https://o-site.spb.ru/_races/191208/191208_info.pdf',
         reskeep: 292
     },
     {
@@ -2033,6 +2124,7 @@ let events2019 = [
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/191215/res1.htm',
         o_site: '191215',
+        bulletin: 'https://o-site.spb.ru/_races/191215/191215_info2.pdf',
         reskeep: 290,
         strava: 2934300689,
         map: 'pushkin_nizhny_2019'
@@ -2045,6 +2137,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1121',
         res: 'https://o-site.spb.ru/_races/191222_bn/191222_res1.htm',
         o_site: '191222_bn',
+        bulletin: 'https://o-site.spb.ru/_races/191222_bn/191222_info.pdf',
         reskeep: 293,
         strava: 2949194183,
         map: 'kavgolovo_2017'
@@ -2058,6 +2151,7 @@ let events2019 = [
         res: 'http://markir.spb.ru/results/191229_res.htm',
         photo: 'http://yadi.sk/d/Q3dbnDR_BbgL_A',
         o_site: '191229',
+        bulletin: 'https://o-site.spb.ru/_races/191229/191229_info_1.1.pdf',
         reskeep: 295
     },
     {
@@ -2069,6 +2163,7 @@ let events2019 = [
         res: 'http://reg.o-time.ru/result/19236.htm',
         photo: 'http://vk.com/im?peers=6458237_1999448&sel=45910846&z=album-134105684_267848134',
         o_site: '191229_o',
+        bulletin: 'https://o-site.spb.ru/_races/191229_o/191229_inf.pdf',
         reskeep: 294,
         strava: 2965096359
     },
@@ -2080,6 +2175,7 @@ let events2019 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1123',
         res: 'http://o-site.spb.ru/_races/191231/191231_res.htm',
         o_site: '191231',
+        bulletin: 'https://o-site.spb.ru/_races/191231/191231_info.pdf',
         map: 'sosnovka_2014'
     }
 ];

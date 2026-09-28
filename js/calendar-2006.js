@@ -201,7 +201,8 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/060423_ym/060423_res.zip',
         info: '1 этап популярных соревнований. Возрастные группы:МЖ 10 12 14 16 18 21а 21б 40 50 60 М45 М55, гр.7-8 лет без зачета в Кубок',
         start: 'YM_CUP',
-        o_site: '060423_ym'
+        o_site: '060423_ym',
+        bulletin: 'https://o-site.spb.ru/_races/060423_ym/060423_bul.htm'
     },
     {
         id: 'SPB_20060429_1',
@@ -337,7 +338,8 @@ let events2006 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/060527/060527_res.htm',
         info: '48 летний Чемпионат и Первенство г. Санкт-Петербурга по спортивному ориентированию.',
-        o_site: '060527'
+        o_site: '060527',
+        bulletin: 'https://o-site.spb.ru/_races/060527/SPb_Champ_2006.htm'
     },
     {
         id: 'SPB_20060528_1',
@@ -793,7 +795,8 @@ let events2006 = [
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/061203/061203_res.zip',
         info: 'Многоэтапные соревнования по парковому ориентированию бегом на заснеженном грунте.',
-        o_site: '061203'
+        o_site: '061203',
+        bulletin: 'https://o-site.spb.ru/_races/061203/bullet2.htm'
     },
     {
         id: 'SPB_20061210_1',
@@ -811,7 +814,8 @@ let events2006 = [
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/061217/it_17_12_06.zip',
         info: 'Многоэтапные соревнования по парковому ориентированию бегом на заснеженном грунте.',
-        o_site: '061217'
+        o_site: '061217',
+        bulletin: 'https://o-site.spb.ru/_races/061217/061217_info.htm'
     },
     {
         id: 'SPB_20061224_1',
@@ -820,6 +824,7 @@ let events2006 = [
         name: 'Эстафета уходящего года',
         res: 'https://o-site.spb.ru/_races/061224foot/pr_24_12_06.zip',
         info: 'Эстафета на маркированной трассе бегом',
-        o_site: '061224foot'
+        o_site: '061224foot',
+        bulletin: 'https://o-site.spb.ru/_races/061224foot/inf_24_12_06.htm'
     },
 ];

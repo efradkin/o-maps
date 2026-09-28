@@ -89,6 +89,7 @@ let commonEvents2026 = [
         place: 'Псков',
         link: 'https://vk.com/skorus',
         reg: 'https://orgeo.ru/event/49482',
+        bulletin: 'https://orgeo.ru/files/event/file/49482_c634f77072.pdf',
         video: 'https://vkvideo.ru/video-230838055_456239042',
         fmt: 'спринт, лонг, классика',
         owner: 'PSKOV_RUS',
@@ -178,6 +179,7 @@ let commonEvents2026 = [
         place: 'Санкт-Петербург',
         link: 'https://vk.com/abcdefz_spb',
         reg: 'https://orgeo.ru/event/52570',
+        bulletin: 'https://orgeo.ru/files/event/file/52570_da1125dac0.pdf',
         type: 'SPECIAL',
         fmt: 'трейл-о',
         owner: 'SFSO_SPB'
@@ -509,6 +511,7 @@ let commonEvents2026 = [
         name: 'Белые ночи, Чемпионат СЗФО',
         place: 'Сосново, оз Уловное',
         o_site: '260702_bn',
+        bulletin: 'https://o-site.spb.ru/_races/260702_bn/260702_info.pdf',
         reg: 'https://orgeo.ru/event/53317',
         reskeep: [902,903,904],
         photo: 'https://vk.ru/album-196511971_311408236',
@@ -564,6 +567,7 @@ let commonEvents2026 = [
         name: 'АЛОЛЬ-2026 (Русь, Рельеф, Иван Купала)',
         place: 'Себежский р-он, Лешане',
         reg: ['https://orgeo.ru/event/51242','https://orgeo.ru/event/51243','https://orgeo.ru/event/51245'],
+        bulletin: 'https://orgeo.ru/files/event/file/51243_79f09ad442.pdf',
         link: 'https://vk.com/skorus',
         photo: 'https://vk.ru/album-233782424_309938687',
         owner: 'PSKOV_RUS',
@@ -684,6 +688,7 @@ let commonEvents2026 = [
         place: 'Сестрорецк, Зеленогорск',
         name: 'НЕВСКИЙ СПРИНТ',
         o_site: '260913_NS',
+        bulletin: 'https://o-site.spb.ru/_races/260913_NS/260910_info3_v3.pdf',
         o_gps: {
             '12-М14':25938,
             '12-Фит':25973,
@@ -728,6 +733,7 @@ let commonEvents2026 = [
         start: 'LO_CHAMP',
         place: 'Мичуринское',
         o_site: '260920',
+        bulletin: 'https://o-site.spb.ru/_races/260920/260920_info.pdf',
         reg: 'https://orgeo.ru/event/54773',
         photo: [
             'https://vk.ru/album-196511971_311919189',
