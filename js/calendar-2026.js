@@ -2479,6 +2479,7 @@ let events2026 = [
         fmt: 'спринт',
         map: 'zanevsky_2026',
         photo: 'https://disk.yandex.ru/d/46qlXKAhYkPYAw',
+        publish: 'https://t.me/c/3634322394/3/180',
         info: 'Перенос даты! Старт бесплатный. Детские группы + OPEN. Награждение 17.10.',
         owner: 'FENIX'
     },
@@ -2501,7 +2502,10 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1752',
         fmt: 'лонг',
         o_site: '260927',
-        o_gps: 26048,
+        o_gps: {
+            'М35':26058,
+            'ALL':26048
+        },
         photo: 'https://vk.ru/album-154221178_312075307',
         publish: 'https://vk.ru/album-230167293_314568006',
         map: 'yappilya_2024'
@@ -2533,6 +2537,7 @@ let events2026 = [
         link: 'https://vk.ru/wall-201330282_2593',
         reg: 'Juventa-uvr@sbor.net',
         map: 'sosnovij_bor_2021',
+        o_gps: 26042,
         owner: 'YUVENTA'
     },
     {
@@ -2540,6 +2545,7 @@ let events2026 = [
         date: '2026-09-30',
         name: 'Спринт Тур',
         place: 'Комендантский пр',
+        reg: 'https://orgeo.ru/event/55723',
         fmt: 'спринт',
         start: 'SPRINT_TOUR',
         info: 'Новая карта.'
@@ -2567,6 +2573,7 @@ let events2026 = [
         id: 'SPB_20260918_1',
         date: '2026-10-03',
         name: 'Велоизоляция',
+        place: 'Мичуринское',
         type: ['ROGAINE', 'VELO'],
         link: 'https://www.multsport.ru/starts/veloizol26/',
         reg: 'https://www.multsport.ru/starts/veloizol26/registration.html',
@@ -2597,10 +2604,11 @@ let events2026 = [
         id: 'SPB_20261010_1',
         date: '2026-10-10',
         name: 'Горный кросс',
+        place: 'Кавголово',
         info: 'Тренировка по рогейну и ориентированию.',
         reg: 'https://orgeo.ru/event/50690',
         type: 'ROGAINE',
-        fmt: '2(1)',
+        fmt: '1',
         start: 'GORNY_CROSS'
     },
     {
