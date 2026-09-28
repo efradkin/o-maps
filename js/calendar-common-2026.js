@@ -35,7 +35,17 @@ let commonEvents2026 = [
         type: 'SKI',
         fmt: 'маркир, эстафета 3х, комбинация, лонг',
         owner: 'FSOR',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP',
+        o_gps: {
+            '20-М': 24262,
+            '20-Ж': 24270,
+            '21-М': 24263,
+            '21-Ж': 24271,
+            '22-М': 24264,
+            '22-Ж': 24272,
+            '23-М': 24265,
+            '23-Ж': 24273
+        }
     },
     {
         id: 'MAJOR_20260301_1',
@@ -59,7 +69,17 @@ let commonEvents2026 = [
         fmt: 'классика, эстафета 3х, спринт, марафон',
         res: 'https://orgeo.ru/live/#/chr2026sykt',
         owner: 'FSOR',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP',
+        o_gps: {
+            '16-М': 24406,
+            '16-Ж': 24407,
+            '17-М': 24422,
+            '17-Ж': 24423,
+            '18-М': 24431,
+            '18-Ж': 24432,
+            '20-М': 24442,
+            '20-Ж': 24443
+        }
     },
     {
         id: 'SPB_20260417_1',
@@ -124,7 +144,11 @@ let commonEvents2026 = [
         fmt: 'спринт, спринт-масстарт, эстафета 2х, эстафета 4х',
         res: 'http://orgeo.ru/live/#/51213/14',
         owner: 'FSOR',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP',
+        o_gps: {
+            '13': 25093,
+            '14': 25097
+        }
     },
     {
         id: 'MAJOR_20260522_1',
@@ -542,7 +566,12 @@ let commonEvents2026 = [
         reg: ['https://orgeo.ru/event/51242','https://orgeo.ru/event/51243','https://orgeo.ru/event/51245'],
         link: 'https://vk.com/skorus',
         photo: 'https://vk.ru/album-233782424_309938687',
-        owner: 'PSKOV_RUS'
+        owner: 'PSKOV_RUS',
+        o_gps: {
+            '10': 25620,
+            '11': 25618,
+            '12': 25621,
+        }
     },
     {
         id: 'SPB_20260720_1',
@@ -716,8 +745,8 @@ let commonEvents2026 = [
     {
         id: 'MAJOR_20260922_1',
         date: '2026-09-22',
-        endDate: '2026-09-28',
-        place: 'Удмуртия, Якшур-Бодья',
+        endDate: '2026-09-27',
+        place: 'Ижевск',
         name: 'Чемпионат России, лично-командные',
         fmt: 'классика, лонг, многодневный, эстафета 3х',
         owner: 'FSOR',
@@ -725,7 +754,11 @@ let commonEvents2026 = [
             '23-М': 26027,
             '23-Ж': 26028,
             '24-М': 26024,
-            '24-Ж': 26025
+            '24-Ж': 26025,
+            '26-М': 26032,
+            '26-Ж': 26033,
+            '27-М': 26035,
+            '27-Ж': 26036
         },
         start: 'RUSSIA_CHAMP'
     },
