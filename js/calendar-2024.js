@@ -39,6 +39,7 @@ let events2024 = [
         type: 'SKI',
         reg: 'http://orgeo.ru/event/kirovsk_ski_o_2024',
         o_site: '240107',
+        bulletin: 'http://orgeo.ru/files/event/file/32160_9ccd8d7e56.pdf',
         strava: 10517183623,
         map: 'kirovsk_winter_2024',
         o_gps: 18135
@@ -2400,6 +2401,7 @@ let events2024 = [
         start: 'LO_CHAMP',
         reg: 'http://orgeo.ru/event/kirovsk_ski_o_mass',
         o_site: '241222',
+        bulletin: 'http://orgeo.ru/files/event/file/39458_1eb481cbb3.pdf',
         map: 'kirovsk_winter_2024'
     },
     {

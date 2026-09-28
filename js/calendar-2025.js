@@ -51,6 +51,7 @@ let events2025 = [
         start: 'LO_CHAMP',
         type: 'SKI',
         o_site: '25011719',
+        bulletin: 'http://orgeo.ru/files/event/file/39326_7a075be776.pdf',
         reg: 'http://orgeo.ru/event/lo_budogosh_2025',
         coord: [
             59.278465,

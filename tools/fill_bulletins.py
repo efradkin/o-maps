@@ -5,7 +5,10 @@ fill_bulletins.py — заполняет поле `bulletin` в записях c
 
 Источник ссылки:
   * есть `o_site`  -> страница https://o-site.spb.ru/race.php?id=<o_site>;
-  * нет `o_site`, но `reg` (строка или массив) содержит orgeo.ru -> страницы orgeo.
+  * нет `o_site` или на странице о-сайта бюллетеня нет, а `reg` (строка или
+    массив) содержит ссылки на orgeo.ru -> страницы orgeo.
+Если страница о-сайта не загрузилась, orgeo не проверяется (запись попадает
+в «Ошибки загрузки» и обработается при следующем запуске).
 
 На странице берутся ссылки с текстом «Информационный бюллетень …». Если их
 несколько, выбирается бюллетень с наибольшим номером («№3», «- 3», «3» …);
@@ -482,37 +485,55 @@ def distribute(group, cands):
 
 
 def find_bulletin(task, fetcher):
-    """task: dict(kind='o_site'|'orgeo', key|urls). -> dict с результатом."""
+    """task: dict(kind='o_site'|'orgeo', key, urls). -> dict с результатом.
+    Для o_site: если на о-сайте бюллетеня нет, а в reg есть orgeo — ищем там."""
     if task['kind'] == 'o_site':
-        url = O_SITE_PREFIX + urllib.parse.quote(task['key'], safe='')
-        try:
-            page, final = fetcher.get(url, 'cp1251')
-        except Exception as ex:
-            return dict(status='error', detail='%s: %s' % (url, ex))
-        cands = bulletin_candidates(page, final)
-        if not cands:
-            ndocs = len(re.findall(r'race-desc-link', page))
-            return dict(status='none', detail='%s (ссылок-документов: %d)'
-                        % (url, ndocs))
-        group = task['group']
-        if len(group) > 1 and len(cands) > 1:
-            mapping, why = distribute(group, cands)
-            if mapping is None:
-                return dict(status='ambiguous', page=url,
-                            detail='серия из %d записей: %s | %s' % (
-                                len(group), why, ' | '.join(
-                                    '«%s» %s' % (c[1], c[2]) for c in cands)))
-            if task['id'] not in mapping:
-                return dict(status='none', detail='%s (серия: для этой записи '
-                            'бюллетеня нет)' % url)
-            c, how = mapping[task['id']]
-            return dict(status='ok', url=c[2], title=c[1], page=url, others=0,
-                        note='серия, ' + how)
-        return choose(cands, url)
+        r = find_osite(task, fetcher)
+        if r['status'] == 'none' and task['urls']:
+            r2 = find_orgeo(task['urls'], fetcher)
+            if r2['status'] == 'none':
+                r['detail'] += '; orgeo: ' + r2['detail']
+                return r
+            if r2['status'] == 'ok':
+                r2['note'] = 'orgeo, на о-сайте нет'
+            return r2
+        return r
+    return find_orgeo(task['urls'], fetcher)
 
-    # orgeo: все ссылки orgeo из reg, по порядку
+
+def find_osite(task, fetcher):
+    """Страница о-сайта (с учётом серий)."""
+    url = O_SITE_PREFIX + urllib.parse.quote(task['key'], safe='')
+    try:
+        page, final = fetcher.get(url, 'cp1251')
+    except Exception as ex:
+        return dict(status='error', detail='%s: %s' % (url, ex))
+    cands = bulletin_candidates(page, final)
+    if not cands:
+        ndocs = len(re.findall(r'race-desc-link', page))
+        return dict(status='none', detail='%s (ссылок-документов: %d)'
+                    % (url, ndocs))
+    group = task['group']
+    if len(group) > 1 and len(cands) > 1:
+        mapping, why = distribute(group, cands)
+        if mapping is None:
+            return dict(status='ambiguous', page=url,
+                        detail='серия из %d записей: %s | %s' % (
+                            len(group), why, ' | '.join(
+                                '«%s» %s' % (c[1], c[2]) for c in cands)))
+        if task['id'] not in mapping:
+            return dict(status='none', detail='%s (серия: для этой записи '
+                        'бюллетеня нет)' % url)
+        c, how = mapping[task['id']]
+        return dict(status='ok', url=c[2], title=c[1], page=url, others=0,
+                    note='серия, ' + how)
+    return choose(cands, url)
+
+
+def find_orgeo(urls, fetcher):
+    """Все ссылки orgeo из reg, по порядку."""
     cands, errors = [], []
-    for u in task['urls']:
+    for u in urls:
         try:
             page, final = fetcher.get(u, 'utf-8')
         except Exception as ex:
@@ -524,8 +545,8 @@ def find_bulletin(task, fetcher):
     if not cands:
         if errors:
             return dict(status='error', detail='; '.join(errors))
-        return dict(status='none', detail=', '.join(task['urls']))
-    r = choose(cands, ', '.join(task['urls']))
+        return dict(status='none', detail=', '.join(urls))
+    r = choose(cands, ', '.join(urls))
     r['warn'] = '; '.join(errors) if errors else None
     return r
 
@@ -738,19 +759,19 @@ def main():
                 continue
             if 'bulletin' in by:
                 continue
+            orgeo_urls = [u for u in string_literals(raw('reg'))
+                          if 'orgeo.ru' in u.lower()] if 'reg' in by else []
             if 'o_site' in by:
                 if not key:
                     problems.append((fn, rid, 'o_site не является строкой: %s'
                                      % raw('o_site')))
                     continue
                 tasks.append(dict(file=fn, id=rid, kind='o_site', key=key,
-                                  anchor=by['o_site'], group=groups[key]))
-            elif 'reg' in by:
-                urls = [u for u in string_literals(raw('reg'))
-                        if 'orgeo.ru' in u.lower()]
-                if urls:
-                    tasks.append(dict(file=fn, id=rid, kind='orgeo', urls=urls,
-                                      anchor=by['reg']))
+                                  urls=orgeo_urls, anchor=by['o_site'],
+                                  group=groups[key]))
+            elif orgeo_urls:
+                tasks.append(dict(file=fn, id=rid, kind='orgeo',
+                                  urls=orgeo_urls, anchor=by['reg']))
 
     if args.remove:
         edits = {}

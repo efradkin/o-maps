@@ -1431,7 +1431,8 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/29317',
         start: 'ROGAINE_110',
         strava: 9685482559,
-        o_site: '230508_110'
+        o_site: '230508_110',
+        bulletin: 'http://orgeo.ru/files/event/file/29317_72b86eab92.docx'
     },
     {
         id: 'SPB_20230826_1',
@@ -1833,7 +1834,8 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/info/30567',
         res: 'http://touristclub.ru/wp-content/uploads/2023/10/res_okin_23.htm',
         start: 'OKINCHITSA',
-        o_site: '231007_okinchica'
+        o_site: '231007_okinchica',
+        bulletin: 'http://touristclub.ru/okinchits/polozhenie/'
     },
     {
         id: 'SPB_20231012_1',
