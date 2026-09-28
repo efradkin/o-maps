@@ -252,6 +252,10 @@ function getLocalMenuItemTitleFromRightButton(link) {
         link.textContent ||
         'Открыть';
 
+    // Значок пункта можно задать у кнопки явно: data-menu-icon="🗓️" (нужно,
+    // когда у кнопки не картинка, а встроенный SVG, как на event.html).
+    if (link.dataset.menuIcon) return `${link.dataset.menuIcon} ${title}`;
+
     const imgSrc = (link.querySelector('img') && link.querySelector('img').getAttribute('src')) || '';
     if (imgSrc.includes('map_24')) return `🗺️ ${title}`;
     if (imgSrc.includes('search_24')) return `🔍 ${title}`;
@@ -308,12 +312,17 @@ function addLocalRightButtonsToGlobalMenuOnMobile() {
         return;
     }
 
-    let insertBefore = rootMenu.firstElementChild ? rootMenu.firstElementChild.nextSibling : null;
+    // Пункты этой страницы - в самое начало меню, перед «Регионами»,
+    // и отделены от общих пунктов чертой.
+    const insertBefore = rootMenu.firstChild;
     localLinks.forEach(link => {
         const menuItem = cloneRightButtonAsMenuItem(link);
         rootMenu.insertBefore(menuItem, insertBefore);
         rootMenu.insertBefore(document.createTextNode('\n'), insertBefore);
     });
+    const divider = document.createElement('hr');
+    divider.className = 'dropdown-divider';
+    rootMenu.insertBefore(divider, insertBefore);
 
     const menuButtonWrapper = rootMenu.closest('.dropdown-button-right');
     if (menuButtonWrapper) {
