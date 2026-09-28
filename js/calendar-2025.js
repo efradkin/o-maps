@@ -65,7 +65,11 @@ let events2025 = [
         type: 'SKI',
         fmt: 'ЛГ-классика, ЛГ-масстарт',
         o_site: '250119_chemp',
-        map: 'orekhovo_nyrkovo_winter_2012'
+        map: 'orekhovo_nyrkovo_winter_2012',
+        o_gps: {
+            '18': 21426,
+            '19': 21431
+        }
     },
     {
         id: 'SPB_20250201_1',
@@ -112,7 +116,13 @@ let events2025 = [
         name: 'Зимние старты',
         type: 'SKI',
         o_site: '250216',
-        map: 'zerkalny_tarasovskoe_winter_2023'
+        map: 'zerkalny_tarasovskoe_winter_2023',
+        o_gps: {
+            '11': 21645,
+            '13': 21648,
+            '14': 21651,
+            '16': 21667
+        }
     },
     {
         id: 'SPB_20250215_1',
@@ -805,7 +815,8 @@ let events2025 = [
         start: 'KBN',
         o_site: '250511_bn',
         reg: 'http://orgeo.ru/event/info/43589',
-        map: 'michurinskoe_2022'
+        map: 'michurinskoe_2022',
+        o_gps: 22568
     },
     {
         id: 'SPB_20250511_3',
@@ -974,7 +985,12 @@ let events2025 = [
         reg: 'http://sportident.online/entry/?inf&id=6573',
         reskeep: [700, 701, 702],
         map: 'kkp_paltsevo_2022_06_14',
-        owner: 'NW'
+        owner: 'NW',
+        o_gps: {
+            '24-М14': 22716,
+            '25-Ж21/М35': 22692,
+            '25-М14': 22720
+        }
     },
     {
         id: 'SPB_20250528_1',
@@ -1214,7 +1230,11 @@ let events2025 = [
         o_site: '250616-19_KKP',
         start: 'KKP',
         map: 'kkp_prudy_2023_06_19',
-        video: 'https://vkvideo.ru/video-93257360_456239276'
+        video: 'https://vkvideo.ru/video-93257360_456239276',
+        o_gps: {
+            '1,4': 22851,
+            '5': 22852
+        }
     },
     {
         id: 'SPB_20250614_1',
@@ -1337,7 +1357,8 @@ let events2025 = [
             'https://www.youtube.com/watch?v=od8Wr9N-yLE'
         ],
         map: ['mms_2025_06_20','mms_2025_06_21','mms_2025_06_22'],
-        planner: ['ILVS','NKTN_I']
+        planner: ['ILVS','NKTN_I'],
+        o_gps: 22906
     },
     {
         id: 'SPB_20250623_1',
@@ -1712,7 +1733,8 @@ let events2025 = [
         o_site: '250830_AT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1693',
         reskeep: 785,
-        map: 'pukhtolova_gora_2025'
+        map: 'pukhtolova_gora_2025',
+        o_gps: 23431
     },
     {
         id: 'SPB_20250830_3',
@@ -2107,7 +2129,11 @@ let events2025 = [
         name: 'Старты в Зеркальном',
         o_site: '250927_Zerk',
         photo: 'https://vk.com/album-230167293_311263696',
-        map: 'zerkalny_2002'
+        map: 'zerkalny_2002',
+        o_gps: {
+            '26-Выбор': 23479,
+            '27-Классика': 23481
+        }
     },
     {
         id: 'SPB_20250927_1',
@@ -2165,7 +2191,14 @@ let events2025 = [
         ],
         map: 'yappilya_tarasovskoe_2024',
         strava: 15963718771,
-        me: 'М50'
+        me: 'М50',
+        o_gps: {
+            'М21': 23505,
+            'М18/50/55,Ж20/21К/35': 23504,
+            'Фит': 23521,
+            'ДТР': 23522,
+            'ALL': 23494
+        }
     },
     {
         id: 'SPB_20250930_1',
@@ -2869,7 +2902,8 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/dlitelnyy26112025',
         reskeep: 823,
         owner: 'DLITELNY',
-        map: 'murinsky_east_2023'
+        map: 'murinsky_east_2023',
+        o_gps: 23930
     },
     {
         id: 'SPB_20251129_1',
@@ -3026,7 +3060,8 @@ let events2025 = [
         o_site: '251207_bn',
         reg: 'http://orgeo.ru/event/info/kavgolovo_middle_2025',
         map: 'kavgolovo_old_ski_track_2023',
-        owner: 'WN'
+        owner: 'WN',
+        o_gps: 23943
     },
     {
         id: 'SPB_20251211_1',

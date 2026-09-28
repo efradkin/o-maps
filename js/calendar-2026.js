@@ -2480,6 +2480,7 @@ let events2026 = [
         map: 'zanevsky_2026',
         photo: 'https://disk.yandex.ru/d/46qlXKAhYkPYAw',
         publish: 'https://t.me/c/3634322394/3/180',
+        planner: 'RDNV_I',
         info: 'Перенос даты! Старт бесплатный. Детские группы + OPEN. Награждение 17.10.',
         owner: 'FENIX'
     },
@@ -2508,6 +2509,7 @@ let events2026 = [
         },
         photo: 'https://vk.ru/album-154221178_312075307',
         publish: 'https://vk.ru/album-230167293_314568006',
+        planner: 'SMNV_M',
         map: 'yappilya_2024'
     },
     {
