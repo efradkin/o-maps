@@ -582,6 +582,10 @@
 
     function buildDetailsSection(evt) {
         let html = evt.info ? `<p>${evt.info}</p>` : '';
+        if (evt.bulletin) {
+            html += row('Информационный бюллетень', asList(evt.bulletin).map(b =>
+                chip({ href: b, label: describeLink(b).label, img: 'images/info.png' })).join(', '));
+        }
         if (evt.reg) html += row('Регистрация', chips(evt.reg, 'reg'));
         html += row('Организаторы', buildOwnersHtml(evt));
         html += row('Планирование дистанций', buildPlanners(evt, null, true));

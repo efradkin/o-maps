@@ -1939,7 +1939,7 @@ function buildEventStart(evt, withoutLogo, justTitle, withEventPage) {
     if (withEventPage && evt.id) {
         result += buildLink(eventPageUrl(evt), name, 'Страница события');
         if (siteLink) {
-            result += ' ' + buildLink(siteLink, '<img src="./images/o-site.gif" alt="Сайт" class="sheet-icon" />', 'Страница сайта события');
+            result += ' ' + buildLink(siteLink, '<img src="./images/o-site.gif" alt="Сайт" title="Страница сайта события" class="sheet-icon" />', 'Страница сайта события');
         }
     } else if (siteLink) {
         result += buildLink(siteLink, name);
@@ -1952,6 +1952,10 @@ function buildEventStart(evt, withoutLogo, justTitle, withEventPage) {
         }
         if (evt.reg) {
             result += ' <span title="Регистрация">' + buildEventReg(evt) + '</span>';
+        }
+        // информационный бюллетень - иконкой после регистрации (только в календаре)
+        if (withEventPage && evt.bulletin) {
+            result += ' ' + buildEventBulletin(evt);
         }
     }
     if (HAS_ME_PARAM) {
@@ -1971,6 +1975,14 @@ function buildEventStart(evt, withoutLogo, justTitle, withEventPage) {
         }
     }
     return result;
+}
+
+// Информационный бюллетень события (поле bulletin: ссылка или массив ссылок) -
+// иконками images/info.png. Используется в календаре.
+function buildEventBulletin(evt) {
+    return [].concat(evt.bulletin ?? []).map(b =>
+        buildLink(b, '<img src="./images/info.png" alt="Бюллетень" title="Информационный бюллетень" class="sheet-icon" />', 'Информационный бюллетень')
+    ).join(' ');
 }
 
 function buildEventReg(evt) {
