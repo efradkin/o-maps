@@ -258,7 +258,10 @@ function buildStartEventSection(evt, level, idx, children, idOf) {
 
     let html = maps.figures + logo;
     const eventYear = startYear(evt) ?? new Date(evt.date).getFullYear();
-    html += `<h3>🗓️ ${buildEventDate(evt)} ${eventYear} &nbsp;${buildEventStart(evt, true, true)}</h3>`;
+    const eventDate = evt.id
+        ? `<a href="${eventPageUrl(evt)}" class="event-page-link" title="Страница события">${buildEventDate(evt)} ${eventYear}</a>`
+        : `${buildEventDate(evt)} ${eventYear}`;
+    html += `<h3>🗓️ ${eventDate} &nbsp;${buildEventStart(evt, true, true)}</h3>`;
 
     html += startDetailsLine('Место', buildEventPlace(evt));
     const eventType = buildEventType(evt, false);

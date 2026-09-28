@@ -7,6 +7,7 @@ let owners = {
         logo: 'sdjushor2.jpg'
     },
     AZIMUT: {
+        title: 'КСО "Азимут"',
         name: '© Азимут',
         logo: 'azimut_retro.gif'
     },
@@ -14,6 +15,7 @@ let owners = {
         name: '© Бибич Андрей - <a href="https://vk.com/id7840054">ВК</a> или <a href="https://t.me/andy_atta">Telegram</a>.'
     },
     BKTV: {
+        title: '<a href="https://t.me/beketov">Константин Бекетова</a>',
         name: 'Все карты <a href="https://t.me/beketov">Константина Бекетова</a> можно свободно использовать в некоммерческих целях.',
         rogaine: true
     },
@@ -36,6 +38,7 @@ let owners = {
         name: 'По вопросам использования карты обращаться к Юрию Чегаровскому (+79219348300).'
     },
     DLITELNY: {
+        title: '<a href="https://t.me/dlitelnyy">Длительный</a>',
         name: '@ Клуб <a href="https://t.me/dlitelnyy">Длительный</a>',
         logo: 'dlitelny.gif'
     },
@@ -63,6 +66,7 @@ let owners = {
         name: 'По вопросам использования карты - Владимир Елизаров, orunner1@gmail.com'
     },
     GORNY_CROSS: {
+        title: '<a href="https://vk.ru/gornycross">Горный Кросс</a>',
         name: '© Горный Кросс, Александр Шумский',
         rogaine: true
     },
@@ -70,6 +74,7 @@ let owners = {
         name: '© Золотой Маршрут - <a href="https://mosplay.ru/">сайт</a> и <a href="https://vk.com/rogaining">ВК</a>'
     },
     GOLFSTREAM: {
+        title: 'КСО "Гольфстрим"',
         name: '© КСО "Гольфстрим"',
         logo: 'golfstream.webp'
     },
@@ -117,10 +122,12 @@ let owners = {
         logo: 'kp31.gif'
     },
     VYBORG: {
+        title: '<a href="https://vk.ru/club39074786">Федерация спортивного ориентирования г.Выборга</a>',
         name: 'Карта является собственностью ФСО г.Выборг. По вопросам использования карты - +79052770528 (Антон Косоруков).',
         logo: 'o-vyborg.gif'
     },
     SFSO_VYBORG: {
+        title: '<a href="https://vk.ru/club39074786">Федерация спортивного ориентирования г.Выборга</a>',
         name: 'Карта является собственностью ФСО г.Выборг. По вопросам использования карты - +79531574455 (Владимир Геннадьевич Михайлов).',
         logo: 'o-vyborg.gif'
     },
@@ -128,6 +135,7 @@ let owners = {
         name: 'Карта из архива Валерия Николаевича Кислова. Он вёл секцию радиоспорта (КВ-УКВ + охота на лис) в течение многих десятилетий в 48-й школе-интернате в Зеленогорске.'
     },
     KUZMOLOVO: {
+        title: 'Кузьмолово',
         name: 'Карта является собственностью клуба КУЗЬМОЛОВО. По вопросам использования карты - +79213300490 (Михаил Чегаровский), +79219728624 (Александр Шеин).',
         logo: 'kjp.gif'
     },
@@ -145,6 +153,7 @@ let owners = {
         name: '© Кропачёв В.Н. (т/б "Лена-Ладога").'
     },
     LM: {
+        title: '<a href="https://vk.ru/club91656163">Лужский Меридиан</a>',
         name: '© Орлов Александр, "Лужский Меридиан".',
         logo: 'lm.jpg',
         rogaine: true
@@ -167,6 +176,7 @@ let owners = {
         logo: 'kirovsk_everest.jpg'
     },
     MULTSPORT: {
+        title: '<a href="https://www.multsport.ru/">Мультиспорт</a>',
         name: '© <a href="https://www.multsport.ru/">Мультиспорт</a>',
         logo: 'multsport.webp',
         rogaine: true
@@ -175,6 +185,7 @@ let owners = {
         name: 'Карты Ивана Мостепанова можно свободно использовать для тренировок. По всем вопросам пишите в <a href="https://t.me/platforma88km">Telegram</a>.'
     },
     NW: {
+        title: 'Nord-West',
         name: '© Клуб "Nord-West"',
         logo: 'nordwest.webp'
     },
@@ -199,6 +210,7 @@ let owners = {
         name: '© Родионов Богдан'
     },
     FENIX: {
+        title: '<a href="https://sportkrgv.ru/branches/sportivnoe-orientirovanie.html">Клуб Феникс</a>',
         name: '© Клуб Феникс',
         logo: 'feniks.webp'
     },
@@ -210,6 +222,7 @@ let owners = {
         }
     },
     RFAR: {
+        title: '<a href="https://adventure-race.redfox.ru/">Red Fox Adventure Race</a>',
         name: 'Права на использования карты принадлежат компании Red Fox и оргкомитету соревнований <a href="https://adventure-race.redfox.ru/">Red Fox Adventure Race</a>.',
         logo: 'redfox.jpg',
         rogaine: true
@@ -221,10 +234,12 @@ let owners = {
         name: 'По вопросам использования карты обращайтесь к <a href="https://vk.com/id287387360">Рылову Виктору</a>.'
     },
     SFSO_LO: {
+        title: '<a href="https://vk.ru/lo.orienteering">Региональная спортивная федерация спортивного ориентирования Ленинградской области</a>',
         name: '© Региональная спортивная федерация спортивного ориентирования Ленинградской области',
         logo: 'len_obl.gif'
     },
     SFSO_SPB: {
+        title: '<a href="https://spbof.ru/ru/">Федерация спортивного ориентирования СПб</a>',
         name: 'Карта принадлежит СФСО СПб. По вопросам использования карты - info@spbof.ru.',
         logo: 'sfso.gif',
         order: {
@@ -232,10 +247,12 @@ let owners = {
         }
     },
     FSOR: {
+        title: '<a href="https://rufso.ru/">Федерация спортивного ориентирования России</a>',
         name: '@ ФСОР',
         logo: 'fsor.webp'
     },
     IOF: {
+        title: '<a href="https://orienteering.sport/">International Orienteering Federation (IOF)</a>',
         name: '@ International Orienteering Federation (IOF)',
         logo: 'iof.gif'
     },
@@ -258,6 +275,7 @@ let owners = {
         }
     },
     SHBN: {
+        title: 'Юрий Шубин',
         name: '© Юрий Шубин',
         logo: 'luzhsky.gif',
         rogaine: true
@@ -311,14 +329,17 @@ let owners = {
         name: 'По вопросам использования карты обращаться к Александру Михайловичу Василевскому (<a href="v_aleksandr_mihajlovih@mail.ru">v_aleksandr_mihajlovih@mail.ru</a>).'
     },
     VESTA_PRIOZERSK: {
+        title: '<a href="https://vk.com/vesta_priozersk">Веста-Приозерск</a>',
         name: 'По вопросам использования карты - клуб <a href="https://vk.com/vesta_priozersk">Веста-Приозерск</a> (И.Скворцова ira-vesta@yandex.ru).',
         logo: 'vesta_przrsk.gif'
     },
     WN: {
+        title: '<a href="https://vk.ru/white_nights_club_spb">Белые Ночи</a>',
         name: 'Права на любое использование карты принадлежат клубу <b>"Белые Ночи"</b>. По вопросам приобретения и использования карт-материала обращаться к Анне Горбатенковой (89219241742, Телеграмм, WhatsApp).',
         logo: 'wn.gif'
     },
     YUVENTA: {
+        title: '<a href="https://vk.com/id2507454">Ювента</a>',
         name: 'По вопросам использования карты обращаться в ДДТиЭ "Ювента". <br /><cite>Когда организуете тренировки по сосновоборским картам, хоть сколько-то массовые, сообщайте об этом пожалуйста <a href="https://vk.com/id2507454">Елене Ушаковой</a>. И дело даже не только в картах, которые принадлежат Ювенте, сколько в вероятности конфликта с местными мероприятиями, которых очень не хотелось бы.</cite>',
         logo: 'yuventa.gif'
     },
@@ -360,6 +381,7 @@ let owners = {
         name: '© Правообладатель - Пахнин Игорь (+79804244527, <a href = "https://t.me/igorpakhnin" >Telegram</a>)'
     },
     CLEVER_MSK: {
+        title: 'Event-Агентство CLEVER',
         name: '© Массовые старты по ориентированию и рогейну в Москве, Event-Агентство CLEVER',
         logo: 'clever_msk.gif'
     },
@@ -368,6 +390,7 @@ let owners = {
         logo: 'kt.gif'
     },
     FSO_MSK: {
+        title: '<a href="https://mosorient.ru/">Федерация спортивного ориентирования Москвы</a>',
         name: '© ФСО Москвы, 8 (962) 947 17-88',
         logo: 'fso_msk.jpg'
     },
@@ -433,6 +456,7 @@ let owners = {
         name: '© Лазарев Константин, +7(929)992-38-55'
     },
     MLKHT: {
+        name: 'КСО Малахит',
         name: '© КСО Малахит',
         logo: 'malakhit.jpg'
     },
@@ -471,6 +495,7 @@ let owners = {
         name: '© Стулов Сергей'
     },
     SYTV_N: {
+        title: 'Московский Меридиан',
         name: '© Сытов Николай, 89164980105',
         logo: 'mm.webp'
     },

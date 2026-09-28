@@ -3,15 +3,16 @@ let mskEvents2026 = [
         id: 'MSK_20260102_1',
         date: "2026-01-02",
         name: "Новогодняя Ночь 2026",
-        place: "Кучинский л/п",
+        place: "Кучинский л/п", // Салтыковка ?
         type: "ORIENT",
         fmt: "кросс-комбинация",
         coord: [
             55.772515,
             37.936149
         ],
-        link: "https://orienteering.moscow/",
+        link: "https://moscompass.ru/news/more.php?id=6182",
         reg: "https://orgeo.ru/event/organizer/24222",
+        photo: "https://vk.com/albums-78257998",
         owner: "CLEVER_MSK"
     },
     {

@@ -1898,7 +1898,9 @@ function buildOSiteInfo(events) {
     return result;
 }
 
-function buildEventStart(evt, withoutLogo, justTitle) {
+// withEventPage (календарь): название ведёт на страницу события (event.html),
+// а ссылка на сайт события переезжает на иконку o-site.gif сразу за названием.
+function buildEventStart(evt, withoutLogo, justTitle, withEventPage) {
     let result = '';
 
     if (!withoutLogo && evt.russialoppet) {
@@ -1915,20 +1917,34 @@ function buildEventStart(evt, withoutLogo, justTitle) {
     if (evt.cancelled) {
         name += ' (ОТМЕНА!)'
     }
-    if (evt.link) {
-        result += buildLink(evt.link, name);
+    // сайт события: своя ссылка, страница на O-Site или сайт старта.
+    // Для иконки o-site.gif в календаре (withEventPage) первой идёт страница
+    // на O-Site, в остальных местах - своя ссылка события.
+    let siteLink = null;
+    if (withEventPage && evt.o_site) {
+        siteLink = O_SITE_ADDRESS_PREFIX + evt.o_site;
+    } else if (evt.link) {
+        siteLink = evt.link;
     } else if (evt.o_site) {
-        result += buildLink(O_SITE_ADDRESS_PREFIX + evt.o_site, name);
+        siteLink = O_SITE_ADDRESS_PREFIX + evt.o_site;
     } else {
         let st = evt.start;
         if (st && Array.isArray(st)) {
             st = st[0];
         }
         if (st && starts[st]?.link) {
-            result += buildLink(starts[st].link, name);
-        } else {
-            result += name;
+            siteLink = starts[st].link;
         }
+    }
+    if (withEventPage && evt.id) {
+        result += buildLink(eventPageUrl(evt), name, 'Страница события');
+        if (siteLink) {
+            result += ' ' + buildLink(siteLink, '<img src="./images/o-site.gif" alt="Сайт" class="sheet-icon" />', 'Страница сайта события');
+        }
+    } else if (siteLink) {
+        result += buildLink(siteLink, name);
+    } else {
+        result += name;
     }
     if (!justTitle) {
         if (evt.price === -1) {
@@ -2138,6 +2154,11 @@ function buildEventReports(evt, withGPS) {
 function buildEventInfo(evt) {
     const evtPlanners = buildPlanners(evt, null, true);
     return (evt.info ?? '') + (evtPlanners ? ' Планирование дистанции: ' + evtPlanners : '') + buildPublish(evt);
+}
+
+// Адрес страницы одного события календаря (event.html). evt - событие или его id.
+function eventPageUrl(evt) {
+    return 'event.html?id=' + encodeURIComponent(evt?.id ?? evt);
 }
 
 function buildMapInfo(url) {

@@ -2,21 +2,22 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Карта на O-Maps</title>
-    <meta name="description" content="Карта на O-Maps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Событие календаря — O-Maps</title>
+    <meta name="description" content="O-Maps. Событие календаря соревнований: дата, место, регистрация, результаты, карты.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css?v=22"/>
     <link rel="stylesheet" href="css/theme.css?v=19"/>
     <script src="js/theme-toggle.js?v=26"></script>
 
-    <meta property="og:title" content="Карта на O-Maps">
+    <meta property="og:title" content="Событие календаря — O-Maps">
     <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
-    <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="Карта на O-Maps.">
+    <meta property="og:url" content="https://o-maps.spb.ru/event.html">
+    <meta property="og:description" content="O-Maps. Событие календаря соревнований: дата, место, регистрация, результаты, карты.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
 
     <!-- Yandex.Metrika counter -->
@@ -35,19 +36,45 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+
+    <style>
+        /* event.html. Остальное оформление - штатное (main.css, theme.css, Bootstrap). */
+        /* Название события бывает длинным: в шапке сайта h1 не переносится
+           (main.css), и на телефоне страница раздувалась вширь. */
+        body.event-body header.page-header h1 {
+            flex: 1 1 auto;
+            min-width: 0;
+            white-space: normal;
+            overflow-wrap: anywhere;
+            font-size: clamp(18px, 4.6vw, 30px);
+        }
+        /* мини-карта места: Leaflet нужна заданная высота */
+        #event_map {
+            height: 380px;
+            margin-bottom: 12px;
+            border: 1px solid var(--o-border);
+            border-radius: var(--o-r-sm);
+            z-index: 0;
+        }
+        @media screen and (max-width: 600px) {
+            #event_map { height: 280px; }
+        }
+    </style>
 </head>
-<body class="index-body stat-body">
+<body class="index-body help-body stat-body event-body">
     <script src="js/utils-common.js?v=26"></script>
     <script src="js/utils.js?v=32"></script>
+    <script>
+        const REGION_KEY = 'event'; // событие может быть из любого календаря
+    </script>
+
     <header class="page-header">
-        <h1 class="text-center">
-            <a id="map_title" target="_blank"><span id="map_name"></span></a>
-            <span id="types_list"></span>
-        </h1>
+        <h1 class="text-center" id="event_title">Событие календаря</h1>
 
         <nav class="page-header-actions" aria-label="Навигация по странице">
             <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
-            <a href="#" target="_self" class="stat-map-link stat-map-link-right" id="map_map_link" title="На карте"><img src="images/map_24.png" alt="На карте" /></a>
+            <a href="calendar.html" target="_self" class="stat-map-link stat-map-link-right" id="event_calendar_link" title="В календаре"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: var(--o-text)"><rect x="3" y="4.5" width="18" height="16.5" rx="2"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/><path d="M7 13.5h2M11 13.5h2M15 13.5h2M7 17h2M11 17h2"/></svg></a>
+            <a href="spb.html" target="_self" class="stat-map-link stat-map-link-right" id="event_map_link" title="На карте"><img src="images/map_24.png" alt="На карте" /></a>
 
             <script src="js/global-menu.js?v=27"></script>
             <script>
@@ -56,57 +83,16 @@
         </nav>
     </header>
 
-    <div class="container">
-
-        <ul class="nav nav-tabs" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="true">Информация</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="preview-tab" data-bs-toggle="tab" data-bs-target="#preview" type="button" role="tab" aria-controls="preview" aria-selected="false">Карта</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="docs-tab" data-bs-toggle="tab" data-bs-target="#docs" type="button" role="tab" aria-controls="docs" aria-selected="false">Документы</button>
-            </li>
-        </ul>
-        <div class="tab-content">
-            <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab">
-                <div id="map_logo" class="row">
-                    <div class="col-md-3">
-                        <br />
-                        <img alt="Логотип" style="max-width: 250px" src="./maps/trnsprnt.png"/>
-                    </div>
-                    <div class="col-md-9">
-                        <br />
-                        <p><strong><span id="map_start"></span></strong> <span id="map_info"></span></p>
-                        <p><span id="map_gps" class="value_place"><img src="./images/o-gps.gif"/> GPS-трансляция: <span/></span></p>
-                        <p><span id="map_author" class="value_place">Авторы карты: <span/></span></p>
-                        <p><span id="map_owner" class="value_place">Владельцы карты: <span/></span></p>
-                        <p><span id="map_starts" class="value_place"><b>Соревнования, проводившиеся по карте:</b><br /> <span/></span></p>
-                        <p><span id="map_hidden" class="value_place">Просмотр карты не разрешён правообладателем или не уместен.<span/></span></p>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="preview" role="tabpanel" aria-labelledby="preview-tab">
-                <p>
-                    <p id="download_links"></p>
-                    <p id="preview_maps"></p>
-                </p>
-            </div>
-            <div class="tab-pane fade" id="docs" role="tabpanel" aria-labelledby="docs-tab">
-                <p>
-                    <p id="docs_images"></p>
-                </p>
-            </div>
-        </div>
-
-        <hr />
-        <span class="my-copyright">© <a href="https://o-maps.spb.ru" target="_blank">O-Maps</a></span>
+    <div class="container" id="event_page">
+        <section id="event_hero" class="clearfix">
+            <p>Загрузка…</p>
+        </section>
+        <div id="event_sections"></div>
     </div>
 
     <noscript>
         <div id="noscript_content">
-            <h1>O-Maps. Информация о карте</h1>
+            <h1>O-Maps. Событие календаря</h1>
             <p>
                 Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
             </p>
@@ -117,6 +103,7 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js?v=1"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
+    <!-- все календари сайта: событие может оказаться в любом из них -->
     <script src="js/calendar-early.js?v=26"></script>
     <script src="js/calendar-2004.js?v=26"></script>
     <script src="js/calendar-2005.js?v=26"></script>
@@ -143,6 +130,11 @@
     <script src="js/calendar-2026.js?v=26"></script>
     <script src="js/calendar-common-2026.js?v=26"></script>
     <script src="js/calendar-other-2026.js?v=26"></script>
+    <script src="js/calendar-msk-2025.js?v=26"></script>
+    <script src="js/calendar-msk-2026.js?v=26"></script>
+    <script src="js/calendar-msk-other.js?v=26"></script>
+    <script src="js/calendar-samara-2026.js?v=26"></script>
+    <script src="js/calendar-ski-2026.js?v=26"></script>
 
     <script src="js/maps-starts-volkov.js?v=26"></script>
     <script src="js/maps-starts-orientir.js?v=26"></script>
@@ -178,6 +170,7 @@
     <script src="js/maps-rogaine-kkm.js?v=26"></script>
     <script src="js/maps-rogaine-rfar.js?v=26"></script>
     <script src="js/maps-moscow.js?v=26"></script>
+    <script src="js/maps-pskov.js?v=26"></script>
     <script src="js/maps-ryazan.js?v=26"></script>
     <script src="js/maps-other.js?v=26"></script>
     <script src="js/maps-nn.js?v=26"></script>
@@ -191,7 +184,7 @@
     <script src="js/authors.js?v=26"></script>
     <script src="js/owners.js?v=26"></script>
     <script src="js/planners.js?v=26"></script>
-
+    <script src="js/history-docs.js?v=26"></script>
 
     <script>
         let loadImagesRequired = false;
@@ -217,6 +210,7 @@
             ...samaraMaps,
             ...ryazanMaps,
             ...moscowMaps,
+            ...pskovMaps,
             ...rfarStartsMaps,
             ...rogaineRfarMaps,
             ...rogaineBeketovMaps,
@@ -239,20 +233,29 @@
             ...schoolMaps,
         ];
 
-        const oEvents = loadAllCalendars();
+        // Массивы событий по именам: event.js по ним определяет, в каком
+        // календаре живёт событие (см. EVENT_CALENDARS там же).
+        // Новый файл календаря надо подключить выше и добавить сюда.
+        const eventSources = {
+            events2026, events2025, events2024, events2023, events2022, events2021,
+            events2020, events2019, events2018, events2017, events2016, events2015,
+            events2014, events2013, events2012, events2011, events2010, events2009,
+            events2008, events2007, events2006, events2005, events2004, eventsEarly,
+            commonEvents2026, otherEvents2026,
+            mskEvents2026, mskEvents2025, mskEventsOther,
+            samaraEvents2026,
+            skiEvents2026,
+        };
+
+        const oEvents = Object.values(eventSources).flat();
     </script>
 
     <script src="js/map-build.js?v=26"></script>
     <script src="js/main.js?v=35"></script>
+    <script src="js/event.js?v=13"></script>
     <script>
-        let mn = getMapForName(MAP_NAME_PARAM);
-        if ('KKM' === mn.start || (mn.url && mn.url.includes('KKM'))) {
-            location.href = './map-info-kkm.html' + location.search;
-        }
-        document.getElementById("map_map_link").href = mapLink(mn.url, mn);
         writeWelcomeButton();
     </script>
-    <script src="js/map-info.js?v=26"></script>
 
     <script src="js/ext/bootstrap.min.js"></script>
     <script src="js/ext/bootstrap5-dropdown-ml-hack.js"></script>

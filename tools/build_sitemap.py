@@ -45,6 +45,7 @@ EXCLUDE = {
     "map-info-kkm.html",
     "start.html",
     "start-details.html",
+    "event.html",
 }
 
 # Страницы старта: для каждого кода публикуются обе.

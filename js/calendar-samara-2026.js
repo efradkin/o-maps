@@ -91,7 +91,6 @@ let samaraEvents2026 = [
         name: 'ЛУКА 2026',
         link: 'https://o-63.ru/data/2026/luka-2026/',
         reg: 'https://orgeo.ru/event/info/50315',
-        map: 'Прибрежное запад 2022_06',
         owner: [
             'FSO_SAMARA',
             'SAKSOR',

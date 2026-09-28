@@ -2373,7 +2373,7 @@ let eventsEarly = [
         res: './docs/1992/1992_01_25_spb_omaps.pdf'
     },
     {
-        id: 'SPB_19920125_1',
+        id: 'SPB_19920125_2',
         date: '1992-02-01',
         endDate: '1992-02-02',
         place: 'Васкелово',

@@ -10,7 +10,9 @@
  *   map-info.html?map=X и map-info-kkm.html?map=X — страница одной карты;
  *   start.html?start=X и start-details.html?start=X — страница многодневки
  *     или серии стартов (starts.js), компактная и подробная;
- *   sheet-all.html?author=X — сводная таблица карт одного автора.
+ *   sheet-all.html?author=X — сводная таблица карт одного автора;
+ *   event.html?id=X — страница одного события календаря (title и
+ *     description ставит сам js/event.js).
  * Всё остальное (фильтрация, центрирование общей карты, режимы показа) —
  * варианты одной и той же страницы.
  *
@@ -36,7 +38,8 @@
         'map-info-kkm.html': ['map'],
         'start.html': ['start'],
         'start-details.html': ['start'],
-        'sheet-all.html': ['author']
+        'sheet-all.html': ['author'],
+        'event.html': ['id']
     };
 
     // Страница автора: канонической считается сводная таблица по всем

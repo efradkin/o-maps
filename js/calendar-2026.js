@@ -2423,6 +2423,7 @@ let events2026 = [
         o_site: '260924',
         owner: 'SFSO_SPB',
         start: 'SCHOOL',
+        photo: 'https://vk.ru/album-230167293_314545646',
         map: 'school_364_2026'
     },
     {
@@ -2437,7 +2438,7 @@ let events2026 = [
         video: 'https://vk.ru/video-128591100_456239103',
         publish: 'https://vk.ru/wall-128591100_3329',
         fmt: 'семейно-командные по выбору',
-        owner: 'WEDDING',
+        start: 'WEDDING',
         map: 'lembolovo_2024'
     },
 /*

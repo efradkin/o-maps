@@ -1657,21 +1657,4 @@ let mskEvents2025 = [
         owner: "CLEVER_MSK",
         photo: "https://vk.com/albums-78257998"
     },
-    {
-        id: 'MSK_20260102_1',
-        date: "2026-01-02",
-        name: "Новогодняя ночь 2026",
-        place: "Салтыковка",
-        type: "ORIENT",
-        fmt: "кросс-классика",
-        coord: [
-            55.769528,
-            37.93502
-        ],
-        link: "https://moscompass.ru/news/more.php?id=6182",
-        reg: "https://orgeo.ru/event/organizer/24222",
-        res: "http://o-mephi.net/cup/prot/novnoch2026_.htm",
-        owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
-    }
 ]

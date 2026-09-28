@@ -236,7 +236,8 @@ function renderMapsTable() {
             }
             td(evt, row, buildNumber(evt, idx++));
             td(evt, row, buildEventDate(evt, true));
-            td(evt, row, buildEventStart(evt, false));
+            // название ведёт на страницу события (event.html), сайт события - иконка за ним
+            td(evt, row, buildEventStart(evt, false, false, true));
             td(evt, row, buildEventPlace(evt));
             td(evt, row, buildEventType(evt, true));
             if (!onlyOneSport) {
