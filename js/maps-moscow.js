@@ -5938,6 +5938,17 @@ let moscowMaps = [
         owner: 'NLTV_D'
     },
     {
+        name: 'Кинопарк Москино',
+        year: 2026,
+        url: './maps/moscow/lr/moskino_2026.webp',
+        link: './original_maps/moscow/lr/moskino_2026_omaps.gif',
+        publish: 'https://t.me/openband_orient/2978',
+        logo: 'moskino.webp',
+        bounds: [[55.4243012, 37.2427082], [55.4244838, 37.2577715], [55.4167872, 37.2430086]],
+        author: 'MSTPNV',
+        owner: 'OPEN_BAND'
+    },
+    {
         name: 'Красная пойма',
         year: 2020,
         logo: 'lukhovitsy.gif',

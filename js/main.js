@@ -1749,7 +1749,11 @@ function buildMapPopup(m) {
     //info += buildOSiteInfo(events);
 
     // ссылки на публикацию карт
-    info += buildPublish(m);
+    let publish = buildPublish(m);
+    if (publish) {
+        publish += '.<br />';
+    }
+    info += publish;
     if (info) {
         result += info;
     }
