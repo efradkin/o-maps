@@ -740,6 +740,7 @@ let events2014 = [
         type: 'ROGAINE',
         reg: 'http://100x24.ru/reg.htm',
         res: 'http://www.100x24.spb.ru/2014/results/100x24_20140608_results.htm',
+        bulletin: 'http://100x24.ru/2014/docs/20140608_bull.htm',
         o_site: '140608',
         start: '100x24',
         map: 'koltushi_2014'

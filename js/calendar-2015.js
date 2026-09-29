@@ -1077,6 +1077,7 @@ let events2015 = [
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/',
         res: 'http://100x24.ru/2015/results/20150816_res.htm',
+        bulletin: 'http://100x24.ru/2015/docs/20150816_bull.htm',
         o_site: '150816_velo',
         start: '100x24'
     },

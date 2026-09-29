@@ -1014,6 +1014,7 @@ let events2016 = [
         place: 'Орехово',
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=615',
+        bulletin: 'http://100x24.ru/2016/docs/20160709_bull.htm',
         o_site: '160709',
         start: '100x24'
     },

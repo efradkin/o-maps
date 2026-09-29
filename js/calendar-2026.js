@@ -2792,6 +2792,7 @@ let events2026 = [
         place: 'Рощино',
         start: 'SPB_CHAMP',
         o_site: '261011_velo',
+        reg: 'https://www.o-reg.spb.ru/?filter[day_id]=1760',
         bulletin: 'https://o-site.spb.ru/_races/261011_velo/261011_info.pdf',
         type: 'VELO',
         fmt: 'эстафета 2х',

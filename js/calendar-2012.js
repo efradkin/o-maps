@@ -672,6 +672,7 @@ let events2012 = [
         type: 'ROGAINE',
         reg: 'http://100x24.ru/reg.htm',
         res: 'http://100x24.ru/results.htm',
+        bulletin: 'http://100x24.ru/2012/docs/20120624_bull.htm',
         fmt: '3 часа вело',
         o_site: '120624',
         start: '100x24',

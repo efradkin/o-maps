@@ -274,6 +274,7 @@ let events2013 = [
         type: 'ROGAINE',
         reg: 'http://100x24.ru/reg.htm',
         res: 'http://100x24.ru/results.htm',
+        bulletin: 'http://100x24.ru/2013/docs/20130316_bull.htm',
         o_site: '130317',
         start: '100x24'
     },
@@ -937,6 +938,7 @@ let events2013 = [
         type: 'ROGAINE',
         reg: 'http://100x24.ru/reg.htm',
         res: 'http://www.100x24.ru/results.htm',
+        bulletin: 'http://100x24.ru/2013/docs/20130706_bull.htm',
         o_site: '130706',
         start: '100x24',
         map: 'zelik_2013_100x24_velo'

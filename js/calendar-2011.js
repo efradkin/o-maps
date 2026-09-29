@@ -692,6 +692,7 @@ let events2011 = [
         name: 'Велорогейн от 100х24',
         type: 'ROGAINE',
         res: 'http://www.100x24.ru/results.htm',
+        bulletin: 'http://www.100x24.ru/2011/docs/20110703_bull.htm',
         o_site: '110703',
         start: '100x24',
         map: 'toksovo_2011_velo'

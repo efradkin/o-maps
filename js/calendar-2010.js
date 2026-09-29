@@ -637,6 +637,7 @@ let events2010 = [
         place: 'Токсово',
         type: 'ROGAINE',
         res: 'http://www.100x24.ru/2010/results/20100619_prelim.htm',
+        bulletin: 'http://www.100x24.ru/2010/docs/bull_20100619.htm',
         o_site: '100619',
         start: '100x24',
         map: 'gavrilovo_2010_velo'
