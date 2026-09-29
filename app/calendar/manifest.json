@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-09-29T21:19:34+00:00",
+  "generated": "2026-09-29T22:37:19+00:00",
   "events": 4008,
-  "size": 4479283,
-  "sha256": "618e19c0d3651723c5a8ee44ed85f9e95cb71f6f4607b57f07587d5249d4d6b8",
+  "size": 4394683,
+  "sha256": "2e42037cfa98a819dac490af0f62370f51a4bfbf6a844944f9e8bcca3b54bd9f",
   "url": "spb.json",
   "datasets": [
     {
@@ -11,14 +11,14 @@
       "title": "Санкт-Петербург",
       "url": "spb.json",
       "events": 4008,
-      "size": 4479283,
-      "sha256": "618e19c0d3651723c5a8ee44ed85f9e95cb71f6f4607b57f07587d5249d4d6b8"
+      "size": 4394683,
+      "sha256": "2e42037cfa98a819dac490af0f62370f51a4bfbf6a844944f9e8bcca3b54bd9f"
     }
   ],
   "app": {
-    "versionCode": 5,
-    "versionName": "0.7.3",
-    "url": "https://o-maps.spb.ru/app/calendar/o-maps-calendar-0.7.3.apk",
-    "notes": "Три улучшения от Claude"
+    "versionCode": 6,
+    "versionName": "0.7.6",
+    "url": "https://o-maps.spb.ru/app/calendar/o-maps-calendar-0.7.6.apk",
+    "notes": "Ссылка на страницу события, бюллетени, окончание приёма заявок"
   }
 }
