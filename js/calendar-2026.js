@@ -2743,11 +2743,13 @@ let events2026 = [
         name: 'Горный кросс',
         place: 'Кавголово',
         info: 'Тренировка по рогейну и ориентированию.',
+        o_site: '261010R',
         reg: 'https://orgeo.ru/event/50690',
         bulletin: 'https://orgeo.ru/files/event/file/50690_d8f015b153.pdf',
         type: 'ROGAINE',
         fmt: '1',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'kavgolovo_2017'
     },
     {
         id: 'SPB_20261010_2',
@@ -2762,9 +2764,13 @@ let events2026 = [
         date: '2026-10-10',
         endDate: '2026-10-11',
         name: 'Золотая осень, ЧиП ЛО',
+        o_site: 'vyb_zo',
+        reg: 'http://orgeo.ru/event/55777',
+        bulletin: 'https://o-site.spb.ru/_races/vyb_zo/info1.pdf',
         start: 'LO_CHAMP',
         place: 'Выборг',
-        owner: 'VYBORG'
+        owner: 'VYBORG',
+        map: ['vyborg_annenskie_2017','kkp_goritsa_2016_06_18']
     },
     {
         id: 'SPB_20261010_4',
