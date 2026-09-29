@@ -70,6 +70,7 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство г.о. Самара',
         link: 'https://o-63.ru/data/2026/chempionat-i-pervenstvo-g-o-samara-10/',
         reg: 'https://orgeo.ru/event/50117',
+        endReg: '2026-02-20 23:55',
         res: 'https://o-63.ru/wp-content/uploads/РЕЗУЛЬТАТЫ-23_02_26.html?sportorg=1',
         map: 'pribrezhny',
         owner: 'SAKSOR'
@@ -81,6 +82,7 @@ let samaraEvents2026 = [
         name: 'тренирровочный старт',
         link: 'https://o-63.ru/data/2026/21067/',
         reg: 'https://orgeo.ru/event/50764',
+        endReg: '2026-03-06 23:00',
         bulletin: 'https://orgeo.ru/files/event/file/50764_d1fbc94428.pdf',
         res: 'https://t.me/TrainingoClub',
         map: 'mehzavod_2025',
@@ -94,6 +96,7 @@ let samaraEvents2026 = [
         name: 'ЛУКА 2026',
         link: 'https://o-63.ru/data/2026/luka-2026/',
         reg: 'https://orgeo.ru/event/info/50315',
+        endReg: '2026-05-24 23:00',
         bulletin: 'https://orgeo.ru/files/event/file/50315_01019be070.pdf',
         owner: [
             'FSO_SAMARA',

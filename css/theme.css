@@ -2312,3 +2312,21 @@ a.leaflet-control-slider-toggle {
     font-size: 12px;
     color: #7a8a99;
 }
+
+/* Окончание приёма заявок (поле endReg): бейдж Bootstrap после ссылок
+   регистрации в календаре и в шапке event.html. Цвет задают классы
+   Bootstrap (bg-light / bg-warning / bg-danger / bg-secondary), здесь -
+   только выравнивание и пульсация «срочного» (меньше суток) бейджа. */
+.end-reg {
+    vertical-align: .1em;
+    white-space: nowrap;
+}
+.end-reg-urgent {
+    animation: end-reg-pulse 1.6s ease-in-out infinite;
+}
+@keyframes end-reg-pulse {
+    50% { box-shadow: 0 0 0 4px rgba(220, 53, 69, .3); }
+}
+@media (prefers-reduced-motion: reduce) {
+    .end-reg-urgent { animation: none; }
+}

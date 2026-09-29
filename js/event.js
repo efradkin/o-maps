@@ -12,7 +12,8 @@
  *
  * Показывается то же, что в карточке календаря, но крупно и с подписями:
  *   шапка — логотип (как на map-info), дата, место, вид и формат, серия, статус
- *           (через N дней / идёт / состоялось / отменено), кнопки действий
+ *           (через N дней / идёт / состоялось / отменено), срок приёма
+ *           заявок (endReg) с бейджем «осталось …», кнопки действий
  *           (регистрация, сайт, в свой календарь .ics, «мой старт», поделиться);
  *   «Результаты и материалы», «Подробности», «Программа» (многодневка: поле
  *   parent), «Карты» (превью), «Место» (мини-карта с картами события и
@@ -445,6 +446,19 @@
         return fullDateText(evt) + ', ' + week;
     }
 
+    // «до 2 октября 2026, 12:00 (МСК)» + бейдж: сколько осталось / закрыт.
+    function endRegHtml(st) {
+        const date = st.day + ' ' + MONTHS_GEN[st.month] + ' ' + st.year;
+        const when = st.time ? date + ', ' + st.time + ' (МСК)' : date + ' включительно';
+        if (st.level === 'closed') {
+            return 'закончился ' + when + badge('Заявка закрыта', 'bg-secondary');
+        }
+        const cls = st.level === 'urgent' ? 'bg-danger end-reg-urgent'
+            : st.level === 'soon' ? 'bg-warning text-dark' : 'bg-light text-dark border';
+        const icon = st.level === 'urgent' ? '🔥 ' : st.level === 'soon' ? '⏳ ' : '';
+        return 'до ' + when + badge(icon + endRegLeftText(st.left), cls + ' end-reg');
+    }
+
     // Шапка - как на map-info: логотип слева (col-md-3), сведения справа.
     function buildHero(evt, ctx) {
         const logos = logoList(evt);
@@ -473,15 +487,22 @@
             html += row('Часть события', `<a href="${eventPageUrl(ctx.parent)}" target="_self">${ctx.parent.name}</a>`);
         }
 
-        // Действия - кнопки Bootstrap. Регистрация - главная, пока событие не прошло.
+        // Окончание приёма заявок (поле endReg): срок и бейдж «осталось …»,
+        // цвет бейджа - как в календаре (buildEventEndReg в utils.js).
+        const endReg = evt.reg && !ctx.status.past ? endRegState(evt) : null;
+        if (endReg) html += row('Приём заявок', endRegHtml(endReg));
+
+        // Действия - кнопки Bootstrap. Регистрация - главная, пока событие не
+        // прошло и приём заявок не закончился.
         const actions = [];
         const btn = (d, cls) => chip(d, 'btn btn-sm ' + cls + ' me-2 mb-2');
         if (evt.reg && !ctx.status.past && !evt.cancelled) {
+            const regCls = endReg?.level === 'closed' ? 'btn-outline-secondary' : 'btn-success';
             asList(evt.reg).forEach(r => {
                 const d = describeLink(r, 'reg');
                 d.title = d.label;
                 d.label = asList(evt.reg).length > 1 ? 'Регистрация: ' + d.label : 'Регистрация';
-                actions.push(btn(d, 'btn-success'));
+                actions.push(btn(d, regCls));
             });
         }
         const site = asList(evt.link);

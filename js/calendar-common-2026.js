@@ -89,6 +89,7 @@ let commonEvents2026 = [
         place: 'Псков',
         link: 'https://vk.com/skorus',
         reg: 'https://orgeo.ru/event/49482',
+        endReg: '2026-04-09 23:00',
         bulletin: 'https://orgeo.ru/files/event/file/49482_c634f77072.pdf',
         video: 'https://vkvideo.ru/video-230838055_456239042',
         fmt: 'спринт, лонг, классика',
@@ -179,6 +180,7 @@ let commonEvents2026 = [
         place: 'Санкт-Петербург',
         link: 'https://vk.com/abcdefz_spb',
         reg: 'https://orgeo.ru/event/52570',
+        endReg: '2026-05-20',
         bulletin: 'https://orgeo.ru/files/event/file/52570_da1125dac0.pdf',
         type: 'SPECIAL',
         fmt: 'трейл-о',
@@ -402,6 +404,7 @@ let commonEvents2026 = [
         o_site: 'mms2026',
         bulletin: 'https://sfr-system.ru/mms/files/info2.pdf',
         reg: 'https://orgeo.ru/event/51560',
+        endReg: '2026-06-22 23:55',
         link: 'https://sfr-system.ru/mms/',
         info: 'Новые карты.',
         fmt: 'классика, многодневный (лонг)',
@@ -515,6 +518,7 @@ let commonEvents2026 = [
         o_site: '260702_bn',
         bulletin: 'https://o-site.spb.ru/_races/260702_bn/260702_info.pdf',
         reg: 'https://orgeo.ru/event/53317',
+        endReg: '2026-06-28 23:55',
         reskeep: [902,903,904],
         photo: 'https://vk.ru/album-196511971_311408236',
         video: [
@@ -697,6 +701,7 @@ let commonEvents2026 = [
             '13-М45':25965
         },
         reg: 'http://orgeo.ru/event/info/53700',
+        endReg: '2026-09-08 11:30',
         reskeep: [921,922,923],
         fmt: 'спринт, многодневный, эстафета',
         owner: 'SFSO_SPB',
@@ -737,6 +742,7 @@ let commonEvents2026 = [
         o_site: '260920',
         bulletin: 'https://o-site.spb.ru/_races/260920/260920_info.pdf',
         reg: 'https://orgeo.ru/event/54773',
+        endReg: '2026-09-16 23:55',
         photo: [
             'https://vk.ru/album-196511971_311919189',
             'https://vk.ru/album-196511971_311926376',

@@ -1952,6 +1952,10 @@ function buildEventStart(evt, withoutLogo, justTitle, withEventPage) {
         }
         if (evt.reg) {
             result += ' <span title="Регистрация">' + buildEventReg(evt) + '</span>';
+            // окончание приёма заявок - бейджем после регистрации (только в календаре)
+            if (withEventPage) {
+                result += buildEventEndReg(evt);
+            }
         }
         // информационный бюллетень - иконкой после регистрации (только в календаре)
         if (withEventPage && evt.bulletin) {
@@ -2024,6 +2028,95 @@ function buildOneEventReg(reg) {
         return buildLink(reg, 'Telegram');
     }
     return buildLink(reg, '<img src="./images/url-file.png" alt="Рега" />');
+}
+
+// --- Окончание приёма заявок (поле endReg) ---------------------------------
+// endReg: 'YYYY-MM-DD HH:mm' или 'YYYY-MM-DD' (= до конца этого дня).
+// Время московское - как на orgeo / o-reg / sportident / o-time; момент
+// окончания считается по МСК, в каком бы поясе ни был посетитель.
+// Заполняется скриптом tools/fill_end_reg.py.
+const END_REG_SOON_DAYS = 3;      // «скоро»: до окончания меньше N суток
+const END_REG_URGENT_HOURS = 24;  // «срочно»: до окончания меньше N часов
+const END_REG_RE = /^(\d{4})-(\d{2})-(\d{2})(?: (\d{2}):(\d{2}))?$/;
+
+// Разбор endReg: { deadline: Date, day, month (0-11), year, time: 'HH:mm' | null } или null.
+function parseEndReg(endReg) {
+    const m = END_REG_RE.exec(endReg ?? '');
+    if (!m) {
+        if (endReg) console.warn('endReg не в формате YYYY-MM-DD[ HH:mm]: ' + endReg);
+        return null;
+    }
+    const [y, mo, d] = [+m[1], +m[2], +m[3]];
+    const deadline = m[4] === undefined
+        ? new Date(Date.UTC(y, mo - 1, d + 1, -3))        // до конца дня = 00:00 МСК следующего
+        : new Date(Date.UTC(y, mo - 1, d, +m[4] - 3, +m[5]));
+    return { deadline: deadline, day: d, month: mo - 1, year: y, time: m[4] === undefined ? null : m[4] + ':' + m[5] };
+}
+
+// Состояние приёма заявок события: null, если endReg нет, событие отменено
+// или уже прошло (как disabled-строки календаря); иначе
+// { ...parseEndReg, left: мс до окончания, level: 'open' | 'soon' | 'urgent' | 'closed' }.
+function endRegState(evt) {
+    if (!evt.endReg || evt.cancelled) return null;
+    if (isOutdated(new Date(evt.endDate ?? evt.date))) return null;
+    const r = parseEndReg(evt.endReg);
+    if (!r) return null;
+    const left = r.deadline - new Date();
+    r.left = left;
+    r.level = left <= 0 ? 'closed'
+        : left < END_REG_URGENT_HOURS * 3600000 ? 'urgent'
+        : left < END_REG_SOON_DAYS * DAY_TIME_RANGE ? 'soon' : 'open';
+    return r;
+}
+
+// «осталось 5 ч», «остался 31 ч», «осталось 3 дня».
+function endRegLeftText(left) {
+    const plural = (n, one, few, many) => {
+        const n10 = n % 10, n100 = n % 100;
+        if (n10 === 1 && n100 !== 11) return one;
+        if (n10 >= 2 && n10 <= 4 && (n100 < 12 || n100 > 14)) return few;
+        return many;
+    };
+    const minutes = Math.max(1, Math.floor(left / 60000));
+    if (minutes < 60) return `осталось ${minutes} мин`;
+    const hours = Math.floor(minutes / 60);
+    if (hours < 48) return `${plural(hours, 'остался', 'осталось', 'осталось')} ${hours} ч`;
+    const days = Math.floor(hours / 24);
+    return `${plural(days, 'остался', 'осталось', 'осталось')} ${days} ${plural(days, 'день', 'дня', 'дней')}`;
+}
+
+// Бейдж окончания приёма заявок для календаря (после ссылок регистрации).
+// Внешний вид - бейджи Bootstrap + .end-reg в css/theme.css.
+function buildEventEndReg(evt) {
+    const st = endRegState(evt);
+    if (!st) return '';
+    // Приём заявок заканчивается сегодня (по МСК) - только время, без даты.
+    const todayMsk = new Date(Date.now() + 3 * 3600000).toISOString().substring(0, 10);
+    const isToday = evt.endReg.substring(0, 10) === todayMsk;
+    const when = isToday
+        ? (st.time ? st.time : 'конца дня')
+        : `${st.day} ${MONTHS_SHORT[st.month].toLowerCase()}` + (st.time ? ' ' + st.time : '');
+    const full = `${String(st.day).padStart(2, '0')}.${String(st.month + 1).padStart(2, '0')}.${st.year}` +
+        (st.time ? ' ' + st.time + ' МСК' : ' включительно');
+    let cls, text, title;
+    if (st.level === 'closed') {
+        cls = 'bg-secondary';
+        text = 'заявка закрыта';
+        title = 'Приём заявок закончился ' + full;
+    } else {
+        title = 'Приём заявок до ' + full + ' (' + endRegLeftText(st.left) + ')';
+        if (st.level === 'urgent') {
+            cls = 'bg-danger end-reg-urgent';
+            text = `🔥 до ${when} · ${endRegLeftText(st.left).replace(/^\S+ /, '')}`;
+        } else if (st.level === 'soon') {
+            cls = 'bg-warning text-dark';
+            text = `⏳ до ${when}`;
+        } else {
+            cls = 'bg-light text-dark border';
+            text = `до ${when}`;
+        }
+    }
+    return ` <span class="badge end-reg ${cls}" title="${title}">${text}</span>`;
 }
 
 function buildCouches(evt) {

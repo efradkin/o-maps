@@ -178,6 +178,7 @@ let mskEvents2026 = [
         ],
         link: "https://vk.link/okuncevo",
         reg: "https://orgeo.ru/event/winter26",
+        endReg: '2026-02-05 23:55',
         bulletin: 'https://docs.google.com/document/d/1ReqFJA8otxejMYvulrm0R8c9HzVSKDu5dHiiIXsJrAY/edit?tab=t.0',
         owner: "O_KUNTSEVO"
     },
