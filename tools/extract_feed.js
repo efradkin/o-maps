@@ -294,12 +294,30 @@ function absolute(url) {
  * Адрес, на который ведёт название старта — как buildEventStart() на сайте:
  * сначала собственный сайт старта, затем O-Site, затем сайт серии.
  */
+/**
+ * Адрес, на который ведёт название старта.
+ *
+ * С сентября 2026 на сайте это страница события event.html?id=..., а не сайт
+ * старта — см. buildEventStart(evt, …, withEventPage) в js/utils.js. Сайт
+ * старта переехал оттуда на отдельный значок, см. siteUrl().
+ */
 function nameUrl(evt) {
-    const own = asArray(evt.link)[0];
-    if (own) return absolute(own);
+    if (!evt.id) return null;
+    return SITE + 'event.html?id=' + encodeURIComponent(evt.id);
+}
 
+/**
+ * Сайт события для значка рядом с названием.
+ *
+ * Порядок тот же, что в buildEventStart при withEventPage: сначала страница
+ * на O-Site, затем своя ссылка события, затем сайт серии стартов.
+ */
+function siteUrl(evt) {
     const site = asArray(evt.o_site)[0];
     if (site) return O_SITE_PREFIX + site;
+
+    const own = asArray(evt.link)[0];
+    if (own) return absolute(own);
 
     const start = asArray(evt.start)[0];
     if (start && starts[start] && starts[start].link) return absolute(starts[start].link);
@@ -318,9 +336,26 @@ function buildLinks(evt) {
         links.push(link);
     };
 
-    // Регистрация встаёт сразу за названием — как в строке календаря на сайте.
+    // Порядок значков у названия повторяет строку календаря на сайте:
+    // сайт события, регистрация, информационный бюллетень.
+    const site = siteUrl(evt);
+    if (site) {
+        add({
+            kind: 'site', label: 'Страница сайта события', url: site,
+            icon: 'o-site.gif', slot: 'title',
+        });
+    }
+
     for (const r of asArray(evt.reg)) {
         add({ kind: 'reg', label: regLabel(r), url: r, icon: regIcon(r), slot: 'title' });
+    }
+
+    // Информационный бюллетень — поле bulletin, ссылка или массив ссылок.
+    for (const b of asArray(evt.bulletin)) {
+        add({
+            kind: 'bulletin', label: 'Информационный бюллетень', url: b,
+            icon: 'info.png', slot: 'title',
+        });
     }
 
     // Карта и точка — сразу за местом, теми же эмодзи, что и на сайте
@@ -353,6 +388,8 @@ function buildLinks(evt) {
             label: linkList.length > 1 ? regLabel(String(l)) : 'Сайт старта',
         });
     }
+    // Первая страница на O-Site уже стоит значком у названия, add() отсеет
+    // её по совпадению адреса; остальные остаются в общем ряду.
     for (const o of asArray(evt.o_site)) {
         add({ kind: 'site', label: 'O-Site', url: O_SITE_PREFIX + o, icon: 'o-site.gif' });
     }
@@ -464,9 +501,11 @@ for (const key of Object.keys(buckets)) {
             planner: plannersText(evt),
             infoHtml: info,
             nameUrl: nameUrl(evt),
-            // Ссылку, ушедшую на название, из ряда кнопок убираем: иначе
-            // одно и то же открывалось бы из двух мест подряд.
-            links: buildLinks(evt).filter(l => l.url !== nameUrl(evt)),
+            // Окончание приёма заявок кладётся сырой строкой: подпись вроде
+            // «осталось 5 ч» устаревает ежеминутно, её считает приложение
+            // при отрисовке. Время московское, как на orgeo и o-reg.
+            endReg: evt.endReg || null,
+            links: buildLinks(evt),
             // Строка для поиска — заранее в нижнем регистре, чтобы приложение
             // не занималось этим на каждом нажатии клавиши.
             search: [evt.name, evt.place, fmt, stripHtml(info), ownerText(evt), plannersText(evt)]

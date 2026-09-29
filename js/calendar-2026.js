@@ -2732,6 +2732,8 @@ let events2026 = [
         photo: 'https://vk.ru/album-154221178_312075307',
         publish: 'https://vk.ru/album-230167293_314568006',
         planner: 'SMNV_M',
+        strava: 20350299128,
+        me: 'М50',
         map: 'yappilya_2024'
     },
     {
