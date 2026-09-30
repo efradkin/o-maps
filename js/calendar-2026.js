@@ -2676,10 +2676,11 @@ let events2026 = [
         link: 'https://vk.ru/wall-166397868_5535',
         reg: 'https://orgeo.ru/event/48939',
         endReg: '2026-09-23 23:55',
+        o_gps: 26072,
         info: '<a href="https://vk.ru/wall-166397868_5419">Перенос</a> с 25 июля. "Трое из Простоквашино". <a href="https://o-route.ru/events/lpr-2026">Пути участников</a>.',
         publish: 'https://t.me/rogainomania/1853',
         photo: 'https://vk.ru/album-166397868_312076551',
-        video: 'https://t.me/c/2776154706/4512',
+        video: ['https://www.youtube.com/shorts/cLQGhLPXXQI','https://t.me/c/2776154706/4512'],
         type: 'ROGAINE',
         fmt: '10, 6, 3',
         owner: 'SHBN',
@@ -2729,7 +2730,7 @@ let events2026 = [
             'М35':26058,
             'ALL':26048
         },
-        photo: 'https://vk.ru/album-154221178_312075307',
+        photo: ['https://vk.ru/album-154221178_312075307','https://disk.yandex.ru/d/NF7UK0l0QlHaAw'],
         publish: 'https://vk.ru/album-230167293_314568006',
         planner: 'SMNV_M',
         strava: 20350299128,
@@ -2775,7 +2776,8 @@ let events2026 = [
         place: 'Комендантский пр',
         reg: 'https://orgeo.ru/event/55723',
         endReg: '2026-09-29 23:55',
-        bulletin: 'https://orgeo.ru/files/event/file/55723_6332c54e1a.pdf',
+        bulletin: 'https://orgeo.ru/files/event/file/55723_5cbb7b58b5.pdf',
+        planner: ['NSCHRT','CHGRVSKY_M'],
         fmt: 'спринт',
         start: 'SPRINT_TOUR',
         info: 'Новая карта.'
@@ -2843,7 +2845,8 @@ let events2026 = [
         endReg: '2026-10-02 20:00',
         bulletin: 'https://orgeo.ru/files/event/file/55808_20e64185c4.pdf',
         place: 'Кавголово, старый лыжедром',
-        map: 'kavgolovo_old_ski_track_2023'
+        map: 'kavgolovo_old_ski_track_2023',
+        coord: [60.187875,30.549333]
     },
     {
         id: 'SPB_20261004_1',

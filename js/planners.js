@@ -76,6 +76,7 @@ let planners = {
     NKFRV_A: { name: 'Никифоров Андрей' },
     NKLVCH: { name: 'Николаевич А' },
     NKTN_I: { name: 'Никитин Иван' },
+    NSCHRT: { name: 'Нещерет Наталья' },
     NVGRDTSV: { name: 'Новгородцев Д' },
     OSMCHN: { name: 'Осмехин А' },
     OSPV_A: { name: 'Осипов Александр' },
