@@ -2835,6 +2835,17 @@ let events2026 = [
         owner: 'MULTSPORT'
     },
     {
+        id: 'SPB_20261003_3',
+        date: '2026-10-03',
+        name: 'Кубок Белых ночей №1',
+        start: 'KBN',
+        reg: 'https://orgeo.ru/event/55808',
+        endReg: '2026-10-02 20:00',
+        bulletin: 'https://orgeo.ru/files/event/file/55808_20e64185c4.pdf',
+        place: 'Кавголово, старый лыжедром',
+        map: 'kavgolovo_old_ski_track_2023'
+    },
+    {
         id: 'SPB_20261004_1',
         date: '2026-10-04',
         name: 'Феникс Middle-Cup',
