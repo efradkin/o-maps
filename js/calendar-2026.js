@@ -2797,6 +2797,7 @@ let events2026 = [
         o_site: '260930',
         owner: 'SFSO_SPB',
         start: 'SCHOOL',
+        map: 'school_457_2026',
         video: 'https://vk.ru/video-230167293_456239039'
     },
     {

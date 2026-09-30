@@ -91,6 +91,16 @@ let schoolMaps = [
         type: ['CITY']
     },
     {
+        name: 'Школа №457',
+        year: 2026,
+        start: 'SCHOOL',
+        url: './maps/city/school_457_2026.webp',
+        link: ['./original_maps/schools/school_457_2026_omaps.gif','./original_maps/schools/school_457_2026_omaps.ocd','./original_maps/schools/school_457_courses_2026_09_30_omaps.ocd','./original_maps/schools/school_457_photo_2026_09_30_omaps.ocd'],
+        bounds: [[60.0514851, 30.3231776], [60.0508156, 30.3301191], [60.0490266, 30.3221905]],
+        author: 'ZCHNV',
+        type: ['CITY']
+    },
+    {
         name: 'Школа №494',
         year: 2007,
         url: './maps/city/school_494_2007.webp',
