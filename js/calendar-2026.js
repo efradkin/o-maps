@@ -906,7 +906,7 @@ let events2026 = [
         o_gps: 24739,
         fmt: 'спринт',
         start: 'SPRINT_TOUR',
-        info: 'Новая карта. <a href="https://m.vk.com/@sprinttourspb-noname-sprint-tur-2026-15042026-2-etap">Разбор дистанций</a>.',
+        info: 'Новая карта. <a href="https://vk.ru/@sprinttourspb-noname-sprint-tur-2026-15042026-2-etap">Разбор дистанций</a>.',
         photo: 'https://vk.ru/album-92124592_310621060',
         planner: 'SRBRNTSKY',
         reskeep: 880,
@@ -2777,10 +2777,14 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/55723',
         endReg: '2026-09-29 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/55723_5cbb7b58b5.pdf',
+        o_gps: 26083,
         planner: ['NSCHRT','CHGRVSKY_M'],
         fmt: 'спринт',
         start: 'SPRINT_TOUR',
-        info: 'Новая карта.'
+        info: 'Новая карта. <a href="https://vk.ru/@-92124592-2-etap-sprint-tour-spb-osen-2026-30092026-analiz-distancii">Разбор дистанций</a>.',
+        map: 'komendantsky_metro_2026',
+        strava: 20394236904,
+        me: 'М'
     },
     {
         id: 'SPB_20260930_2',
