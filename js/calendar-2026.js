@@ -2647,6 +2647,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/55165',
         endReg: '2026-09-25 16:00',
         o_site: '260926S',
+        reskeep: 922,
         bulletin: 'https://o-site.spb.ru/_races/260926S/260926S_info.pdf',
         photo: 'https://vk.ru/album-128591100_311992046',
         video: 'https://vk.ru/video-128591100_456239103',
@@ -2725,6 +2726,7 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1752',
         fmt: 'лонг',
         o_site: '260927',
+        reskeep: 929,
         bulletin: 'https://o-site.spb.ru/_races/260927/260627_info3.pdf',
         o_gps: {
             'М35':26058,
@@ -2778,6 +2780,7 @@ let events2026 = [
         endReg: '2026-09-29 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/55723_5cbb7b58b5.pdf',
         o_gps: 26083,
+        reskeep: 932,
         planner: ['NSCHRT','CHGRVSKY_M'],
         fmt: 'спринт',
         start: 'SPRINT_TOUR',
@@ -2793,7 +2796,8 @@ let events2026 = [
         name: 'Спортивное ориентирование - в школу, №62',
         o_site: '260930',
         owner: 'SFSO_SPB',
-        start: 'SCHOOL'
+        start: 'SCHOOL',
+        video: 'https://vk.ru/video-230167293_456239039'
     },
     {
         id: 'SPB_20261001_1',
@@ -2863,6 +2867,14 @@ let events2026 = [
         owner: 'FENIX'
     },
     {
+        id: 'SPB_20261007_1',
+        date: '2026-10-07',
+        name: 'NW Sprint #4',
+        place: 'Туристская ул',
+        fmt: 'спринт',
+        owner: 'NW',
+    },
+    {
         id: 'SPB_20261010_1',
         date: '2026-10-10',
         name: 'Горный кросс',
@@ -2928,6 +2940,15 @@ let events2026 = [
         map: 'roschino_velo_2025'
     },
     {
+        id: 'SPB_20261014_1',
+        date: '2026-10-14',
+        name: 'NW Sprint #5',
+        place: 'пл Мужества',
+        fmt: 'спринт',
+        owner: 'NW',
+        info: 'Новая карта.'
+    },
+    {
         id: 'SPB_20261017_1',
         date: '2026-10-17',
         name: 'Новгородский исторический рогейн',
@@ -2978,6 +2999,15 @@ let events2026 = [
         date: '2026-10-18',
         name: 'Памяти Зои Пятаковой',
         fmt: 'спринт'
+    },
+    {
+        id: 'SPB_20261021_1',
+        date: '2026-10-21',
+        name: 'NW Sprint #6',
+        place: 'Приморская',
+        fmt: 'спринт',
+        owner: 'NW',
+        info: 'Новая карта.'
     },
     {
         id: 'SPB_20261024_1',
