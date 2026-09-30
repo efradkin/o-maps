@@ -103,7 +103,7 @@ if (mapElement) {
             case '100x24': activeLayers.push(sto24Group); break;
             case '2x2': activeLayers.push(twotwoGroup); break;
             case 'SPRINT_TOUR': activeLayers.push(stGroup); break;
-            case 'VO_FOTO': activeLayers.push(kkmGroup); break;
+            case 'FOTO_ROGAINE': activeLayers.push(kkmGroup); break;
             case 'KKM': activeLayers.push(kkmGroup); break;
             case 'MB': activeLayers.push(mbGroup); break;
             case 'TA':
@@ -197,7 +197,7 @@ function pushStartGroupToMap(start, m) {
         case '100x24': pushGroupToMap(m, sto24Group); break;
         case '2x2': pushGroupToMap(m, twotwoGroup); break;
         case 'SPRINT_TOUR': pushGroupToMap(m, stGroup); break;
-        case 'VO_FOTO': pushGroupToMap(m, kkmGroup); break;
+        case 'FOTO_ROGAINE': pushGroupToMap(m, kkmGroup); break;
         case 'KKM': pushGroupToMap(m, kkmGroup); break;
         case 'MB': pushGroupToMap(m, mbGroup); break;
         case 'TA':

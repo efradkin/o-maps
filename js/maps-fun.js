@@ -69,7 +69,7 @@ let funMaps = [
         date: '2024-11',
         month: 11,
         about: 'https://vk.com/wall-227807023_65',
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         info: 'Фото-рогейн',
         url: './maps/fun/peterhof_foto_2024_03.webp',
         link: 'https://sun9-85.userapi.com/s/v1/ig2/kJUvKjQVvv-ZQIhDOmqTwIHPXU-1BwkWB3GP4m5DXhzuN5Y9oVQvLdzf2LD6rL7y9dIpBcajgkwMQG2E7aVB8R0Q.jpg?quality=95&as=32x24,48x35,72x53,108x80,160x118,240x177,360x266,480x355,540x399,640x473,720x532,1080x798,1280x945,1440x1064,2560x1891&from=bu&cs=2560x0',
@@ -82,7 +82,7 @@ let funMaps = [
     {
         name: 'Арктический и антарктический НИИ',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/beringa_quest_2024.webp',
         link: ['./original_maps/fun/beringa_quest_2024_omaps.jpg','./original_maps/fun/beringa_quest_2024_pictures.jpg'],
         bounds: [[59.9471881, 30.2305984], [59.9471559, 30.2380443], [59.9427605, 30.230341]],
@@ -92,7 +92,7 @@ let funMaps = [
     {
         name: 'Ново-Смоленская наб',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/novo_smolenskaya_quest_2024.webp',
         link: ['./original_maps/fun/novo_smolenskaya_quest_2024_omaps.jpg','./original_maps/fun/novo_smolenskaya_quest_2024_pictures.jpg'],
         bounds: [[59.9484776, 30.2154922], [59.9482842, 30.2310276], [59.944437, 30.2153206]],
@@ -102,7 +102,7 @@ let funMaps = [
     {
         name: 'Андреевский бульвар',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/andreevsky_blvr_quest_2024.webp',
         link: ['./original_maps/fun/andreevsky_blvr_quest_2024_omaps.jpg','./original_maps/fun/andreevsky_blvr_quest_2024_pictures.jpg'],
         bounds: [[59.9423521, 30.2763033], [59.9437815, 30.2811742], [59.9385902, 30.2806807]],
@@ -112,7 +112,7 @@ let funMaps = [
     {
         name: 'Сестрорецкое болото',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/sestroretsky_swamp_2024.webp',
         link: ['./original_maps/fun/sestroretsky_swamp_2024_omaps.jpg','./original_maps/fun/sestroretsky_swamp_2024_pictures.jpg'],
         bounds: [[60.1315681, 29.975853], [60.1315681, 30.0200987], [60.1165186, 29.9759388]],
@@ -152,7 +152,7 @@ let funMaps = [
     {
         name: 'Сад Василеостровец',
         year: 2025,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/vasileostrovets_foto_2025_04.webp',
         link: ['./original_maps/fun/vasileostrovets_foto_2025_04_1_omaps.jpg','./original_maps/fun/vasileostrovets_foto_2025_04_2_omaps.jpg','./original_maps/fun/vasileostrovets_foto_2025_05_omaps.jpg'],
         bounds: [[59.9358492, 30.2540731], [59.9363974, 30.2558756], [59.9320329, 30.2584076]],
@@ -162,7 +162,7 @@ let funMaps = [
     {
         name: 'Сестрорецк, Ласковый пляж',
         year: 2025,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/laskovy_2022.webp',
         link: ['./original_maps/fun/laskovy_2022_omaps.jpg','./original_maps/fun/laskovy_2022_pictures.jpg'],
         bounds: [[60.1477964, 29.9270153], [60.1464185, 29.940877], [60.1390155, 29.923389]],
@@ -183,7 +183,7 @@ let funMaps = [
     {
         name: 'ул Карташихина',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/kartashikhina_quest_2025.webp',
         link: './original_maps/fun/kartashikhina_quest_2025_omaps.jpg',
         bounds: [[59.9378056, 30.2374864], [59.9383, 30.2424002], [59.9336024, 30.2393532]],
@@ -193,7 +193,7 @@ let funMaps = [
     {
         name: 'ул Опочинина',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/opochinina_quest_2024_09.webp',
         link: './original_maps/fun/opochinina_quest_2024_omaps.jpg',
         bounds: [[59.9373971, 30.2343321], [59.9377303, 30.2375507], [59.9335809, 30.2359414]],
@@ -203,7 +203,7 @@ let funMaps = [
     {
         name: 'ул Опочинина',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/opochinina_quest_2024_10.webp',
         link: './original_maps/fun/opochinina_quest_2024_10_omaps.jpg',
         bounds: [[59.9312158, 30.2368212], [59.9316996, 30.2402329], [59.9296676, 30.237658]],
@@ -213,7 +213,7 @@ let funMaps = [
     {
         name: 'Психдиспансер №1, Канареечная ул',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/kanareechnaya_quest_2024.webp',
         link: './original_maps/fun/kanareechnaya_quest_2024_omaps.jpg',
         bounds: [[59.9333767, 30.2445674], [59.9338282, 30.2476788], [59.9307427, 30.2459407]],
@@ -223,7 +223,7 @@ let funMaps = [
     {
         name: 'Горный ун-т',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/gorny_quest_2024.webp',
         link: './original_maps/fun/gorny_quest_2024_omaps.jpg',
         bounds: [[59.9330327, 30.2632999], [59.9338605, 30.2658963], [59.9286354, 30.2683425]],
@@ -233,7 +233,7 @@ let funMaps = [
     {
         name: '19-я линия ВО',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/19_line_vo_quest_2024.webp',
         link: './original_maps/fun/19_line_vo_quest_2024_omaps.jpg',
         bounds: [[59.9338067, 30.2656817], [59.9345915, 30.2683425], [59.9300546, 30.2700162]],
@@ -243,7 +243,7 @@ let funMaps = [
     {
         name: '17-я линия ВО',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/17_line_vo_quest_2024.webp',
         link: './original_maps/fun/17_line_vo_quest_2024_omaps.jpg',
         bounds: [[59.934527, 30.2682567], [59.9352902, 30.2709174], [59.9313555, 30.2719045]],
@@ -253,7 +253,7 @@ let funMaps = [
     {
         name: '21-я линия ВО',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/21_line_vo_quest_2024.webp',
         link: './original_maps/fun/21_line_vo_quest_2024_omaps.jpg',
         bounds: [[59.9372036, 30.2585149], [59.9379346, 30.2609611], [59.9333767, 30.2630424]],
@@ -263,7 +263,7 @@ let funMaps = [
     {
         name: '23-я линия ВО',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/23_line_vo_quest_2024.webp',
         link: './original_maps/fun/23_line_vo_quest_2024_omaps.jpg',
         bounds: [[59.9364834, 30.2559185], [59.9371391, 30.2583218], [59.9326242, 30.2604675]],
@@ -273,7 +273,7 @@ let funMaps = [
     {
         name: '12-я линия ВО',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/12_line_vo_quest_2024.webp',
         link: './original_maps/fun/12_line_vo_quest_2024_omaps.jpg',
         bounds: [[59.9407937, 30.271132], [59.9415783, 30.2736425], [59.9373111, 30.2752519]],
@@ -283,7 +283,7 @@ let funMaps = [
     {
         name: '15-я линия ВО',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/15_line_vo_quest_2024.webp',
         link: './original_maps/fun/15_line_vo_quest_2024_omaps.jpg',
         bounds: [[59.9394394, 30.266068], [59.9402025, 30.2686429], [59.9358277, 30.2702308]],
@@ -293,7 +293,7 @@ let funMaps = [
     {
         name: '18-я линия ВО',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/18_line_vo_quest_2024.webp',
         link: './original_maps/fun/18_line_vo_quest_2024_omaps.jpg',
         bounds: [[59.9386332, 30.2633858], [59.9393749, 30.2659607], [59.9350645, 30.2676129]],
@@ -303,7 +303,7 @@ let funMaps = [
     {
         name: '19-я линия ВО, школа №17',
         year: 2024,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/school_17_quest_2024.webp',
         link: './original_maps/fun/school_17_quest_2024_omaps.jpg',
         bounds: [[59.9379346, 30.2609611], [59.9386762, 30.263536], [59.9343442, 30.2650809]],
@@ -323,7 +323,7 @@ let funMaps = [
     {
         name: 'Выборг, старый город',
         year: 2025,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/vyborg_quest_2025.webp',
         link: ['./original_maps/fun/vyborg_quest_2025_omaps.jpg','./original_maps/fun/vyborg_quest_2025_pictures.jpg'],
         bounds: [[60.7153161, 28.7277246], [60.7152742, 28.7392259], [60.7113484, 28.7277889]],
@@ -333,7 +333,7 @@ let funMaps = [
     {
         name: 'ЦФКСиЗ Василеостровский',
         year: 2025,
-        start: 'VO_FOTO',
+        start: 'FOTO_ROGAINE',
         url: './maps/fun/vasileostrovsky_quest_2025.webp',
         link: ['./original_maps/fun/vasileostrovsky_quest_2025_omaps.jpg','./original_maps/fun/vasileostrovsky_quest_2025_pictures.jpg'],
         bounds: [[59.9391277, 30.2469707], [59.9399016, 30.2497387], [59.9365049, 30.2499962]],

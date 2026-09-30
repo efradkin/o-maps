@@ -681,7 +681,7 @@ let otherStartsMaps = [
         name: 'Ново-Кавголовский л/п',
         date: '2024-10',
         about: 'https://vk.com/wall-227807023_35',
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         info: 'Фото-рогейн',
         url: './maps/fun/okhta_park_foto_2024_02.webp',
         link: 'https://sun9-8.userapi.com/s/v1/ig2/DcUx3WdltWd2XvvMbzfbgjbENhSrUKeD8u2zjpIdJueWX7_jvDk-dhduD-5lhcXFVgvumfSJsYqCIqagtKY1Emtz.jpg?quality=95&as=32x23,48x34,72x51,108x76,160x113,240x169,360x254,480x338,540x381,640x451,720x508,1080x761,1280x902,1440x1015,2560x1805&from=bu&cs=2560x0',
@@ -731,7 +731,7 @@ let otherStartsMaps = [
         bounds: [[59.9575456, 30.2271652], [59.9575886, 30.3066444], [59.9185915, 30.2267361]],
         o_gps: 23476,
         page: 'starts',
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
@@ -745,7 +745,7 @@ let otherStartsMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/krestovsky_KKM_2026_06_1_omaps.jpg','./external/original_maps/rogaine/kkm/krestovsky_KKM_2026_06_2_omaps.jpg'],
         bounds: [[59.982867, 30.2097416], [59.9827596, 30.3060865], [59.9649572, 30.2099562]],
         o_gps: 24877,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         page: 'starts',
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
@@ -760,7 +760,7 @@ let otherStartsMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/sennaya_KKM_2026_06_1_omaps.jpg','./external/original_maps/rogaine/kkm/sennaya_KKM_2026_06_2_omaps.jpg'],
         bounds: [[59.9495092, 30.2656174], [59.9492083, 30.3477573], [59.9086953, 30.2645016]],
         o_gps: 25194,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         page: 'starts',
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
@@ -775,7 +775,7 @@ let otherStartsMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/gorkovskaya_KKM_2026_07_1_omaps.jpg','./external/original_maps/rogaine/kkm/gorkovskaya_KKM_2026_07_2_omaps.jpg'],
         bounds: [[59.9790668, 30.2347183], [59.9790239, 30.3379726], [59.9472311, 30.2350616]],
         o_gps: 25523,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
@@ -789,7 +789,7 @@ let otherStartsMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/vasiljevsky_KKM_2026_08_1_omaps.jpg','./external/original_maps/rogaine/kkm/vasiljevsky_KKM_2026_08_2_omaps.jpg'],
         bounds: [[59.9575456, 30.2271652], [59.9575886, 30.3066444], [59.9185915, 30.2267361]],
         o_gps: 25616,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
@@ -803,7 +803,7 @@ let otherStartsMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/vosstania_KKM_2026_09_1_omaps.jpg','./external/original_maps/rogaine/kkm/vosstania_KKM_2026_09_2_omaps.jpg'],
         bounds: [[59.956278, 30.3369856], [59.9563854, 30.4000282], [59.9128478, 30.3371143]],
         o_gps: 25616,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },

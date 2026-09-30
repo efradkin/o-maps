@@ -323,7 +323,7 @@ let rogaineKkmMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/siversky_KKM_2025_06_1_omaps.jpg','./external/original_maps/rogaine/kkm/siversky_KKM_2025_06_2_omaps.jpg'],
         bounds: [[59.3704892, 30.0605249], [59.3705111, 30.1363993], [59.3434099, 30.0600529]],
         o_gps: 22627,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
@@ -337,7 +337,7 @@ let rogaineKkmMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/toksovo_KKM_2025_07_1_omaps.jpg','./external/original_maps/rogaine/kkm/toksovo_KKM_2025_07_2_omaps.jpg'],
         bounds: [[60.1644436, 30.3862095], [60.1580377, 30.4813099], [60.1314613, 30.3781414]],
         o_gps: 23000,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
@@ -351,7 +351,7 @@ let rogaineKkmMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/kavgolovo_KKM_2025_08_1_omaps.jpg','./external/original_maps/rogaine/kkm/kavgolovo_KKM_2025_08_2_omaps.jpg'],
         bounds: [[60.1952599, 30.4600239], [60.1946199, 30.5507469], [60.1566496, 30.4598093]],
         o_gps: 23197,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
@@ -365,7 +365,7 @@ let rogaineKkmMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/zelenogorsk_KKM_2025_09_1_omaps.jpg','./external/original_maps/rogaine/kkm/zelenogorsk_KKM_2025_09_2_omaps.jpg'],
         bounds: [[60.2383626, 29.7286606], [60.2306927, 29.8393822], [60.1945346, 29.715271]],
         o_gps: 23335,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
@@ -379,7 +379,7 @@ let rogaineKkmMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/kirovsky_KKM_2025_11_1_omaps.jpg','./external/original_maps/rogaine/kkm/kirovsky_KKM_2025_11_2_omaps.jpg'],
         bounds: [[59.9091041, 30.2454472], [59.909018, 30.2962589], [59.869533, 30.2454042]],
         o_gps: 23785,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
@@ -393,7 +393,7 @@ let rogaineKkmMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/vosstania_KKM_2025_12_1_omaps.jpg','./external/original_maps/rogaine/kkm/vosstania_KKM_2025_12_2_omaps.jpg'],
         bounds: [[59.956278, 30.3369856], [59.9563854, 30.4000282], [59.9128478, 30.3371143]],
         o_gps: 23910,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
@@ -407,7 +407,21 @@ let rogaineKkmMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/chkalovskaya_KKM_2026_01_1_omaps.jpg','./external/original_maps/rogaine/kkm/chkalovskaya_KKM_2026_01_2_omaps.jpg'],
         bounds: [[59.9790668, 30.2347183], [59.9790239, 30.3379726], [59.9472311, 30.2350616]],
         o_gps: 23987,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
+        owner: 'RYZHOV',
+        type: ['FOTO','ROGAINE']
+    },
+    {
+        name: 'Чёрная речка',
+        date: '2026-10',
+        about: 'https://vk.ru/wall-227807023_549',
+        info: 'Октябрь, фото-рогейн.',
+        url: './maps/rogaine/kkm/black_river_KKM_2026_10.webp',
+        link: ['https://psv4.userapi.com/s/v1/d2/o7bd90cgAauWczY5UHe6KJIo50U-30GGmCjWN_036rV3-nirQy03KsCik6eKYP2SKitNtjBAJKq2kSaASoe3pJ9IeHXx1nYkwDbbm3nTAC5ZwrlyHJU2KSm1qjvEnA1zU0EFjLsBNXEt/KKM_1_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/WHHv7hHYTtD5YocUYQPuxnjSTMwowzrqujoE9qti5NJ6M2ofS48EdwknqVCc-2cKW4RmsW0V_D0JOgvva_9OZ_VevGEKEdBh1qK2iV0Hj8hbU5RdlbzH0rJ_ZoIBPvyvI-JQAgZECseq/SETKA_1_2026.jpg?dl=1'],
+        local_link: ['./external/original_maps/rogaine/kkm/black_river_KKM_2026_10_1_omaps.jpg','./external/original_maps/rogaine/kkm/black_river_KKM_2026_10_2_omaps.jpg'],
+        bounds: [[59.9905305, 30.2716684], [59.9904661, 30.3573275], [59.9605319, 30.2721405]],
+        o_gps: 26071,
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
@@ -421,7 +435,7 @@ let rogaineKkmMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/south_west_KKM_2026_02_1_omaps.jpg','./external/original_maps/rogaine/kkm/south_west_KKM_2026_02_2_omaps.jpg'],
         bounds: [[59.8717087, 30.1352835], [59.8719241, 30.2304268], [59.841775, 30.1352406]],
         o_gps: 24168,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
@@ -435,7 +449,7 @@ let rogaineKkmMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/udelnaya_KKM_2026_03_1_omaps.jpg','./external/original_maps/rogaine/kkm/udelnaya_KKM_2026_03_2_omaps.jpg'],
         bounds: [[60.0322298, 30.2948427], [60.032337, 30.3760815], [60.00081, 30.2948427]],
         o_gps: 24311,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
@@ -449,7 +463,7 @@ let rogaineKkmMaps = [
         local_link: ['./external/original_maps/rogaine/kkm/begovaya_KKM_2026_04_1_omaps.jpg','./external/original_maps/rogaine/kkm/begovaya_KKM_2026_04_2_omaps.jpg'],
         bounds: [[60.0083406, 30.1694012], [60.0082548, 30.228281], [59.9678569, 30.168972]],
         o_gps: 24509,
-        start: ['VO_FOTO','KKM'],
+        start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
