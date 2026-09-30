@@ -36,6 +36,13 @@
     --o-bar-orient:  #4f9a63;
     --o-bar-rogaine: #d09a3c;
     --o-bar-water:   #4b8ec4;
+    /* подсветка текущих стартов (tr.current) — чуть насыщеннее тона типа */
+    --o-cur-orient:  #e3f3e6;
+    --o-cur-rogaine: #fcf2da;
+    --o-cur-water:   #e7f1fb;
+    /* наведение на строку календаря — полупрозрачный слой поверх фона строки:
+       тон типа сохраняется, строка только темнеет */
+    --o-row-hover-tint: rgba(40, 60, 30, .07);
 
     /* геометрия и тени */
     --o-r:      12px;
@@ -500,11 +507,22 @@ body.calendar-body .o-main-table tr.disabled > td:first-child { border-left-colo
 body.calendar-body .o-main-table .disabled { color: var(--o-text-faint); }
 body.calendar-body .o-main-table .disabled a { color: var(--o-text-faint); }
 
-/* текущие старты — лёгкая подсветка вместо одного лишь bold */
-body.calendar-body .o-main-table tr.current > td { background-color: #eef6ef; }
+/* текущие старты — лёгкая подсветка в тоне своего типа (раньше был один
+   зелёный на всех: рогейны теряли жёлтый фон, бег и прочие «без типа»
+   становились зелёными). У строк без класса типа подсветки нет — они белые,
+   текущесть видна по жирному начертанию. :where() держит специфичность
+   на прежнем уровне (0,3,3), как у исходного правила tr.current > td. */
+body.calendar-body .o-main-table tr.current:where(.orient)  > td { background-color: var(--o-cur-orient); }
+body.calendar-body .o-main-table tr.current:where(.rogaine) > td { background-color: var(--o-cur-rogaine); }
+body.calendar-body .o-main-table tr.current:where(.water)   > td { background-color: var(--o-cur-water); }
 
-/* hover должен перебивать подсветку .current, поэтому специфичность выше */
-body.calendar-body .o-main-table tbody tr:hover > td { background-color: var(--o-accent-soft); }
+/* hover — не отдельный цвет, а затемнение собственного фона строки
+   (тип от <tr> или подсветка .current на <td>): рогейн остаётся жёлтым,
+   ориентирование зелёным, строки без типа получают нейтральный серый.
+   background-color не трогаем, слой рисуем через background-image. */
+body.calendar-body .o-main-table tbody tr:hover > td {
+    background-image: linear-gradient(var(--o-row-hover-tint), var(--o-row-hover-tint));
+}
 
 /* ссылки в таблице не должны быть подчёркнуты постоянно */
 body.calendar-body .o-main-table a { text-decoration: none; }
@@ -821,6 +839,10 @@ footer hr {
     --o-row-orient:  #1b241d;
     --o-row-rogaine: #241f16;
     --o-row-water:   #16202a;
+    --o-cur-orient:  #233226;
+    --o-cur-rogaine: #2c2518;
+    --o-cur-water:   #1a2733;
+    --o-row-hover-tint: rgba(255, 255, 255, .06);
     --o-sh-1:        0 1px 2px rgba(0,0,0,.4);
     --o-sh-2:        0 6px 20px rgba(0,0,0,.5);
     --o-sh-pop:      0 12px 34px rgba(0,0,0,.6);
@@ -905,8 +927,6 @@ footer hr {
     .o-theme-toggle { transition: none; }
     .o-theme-toggle:hover { transform: none; }
 }
-
-:root.o-dark body.calendar-body .o-main-table tr.current > td { background-color: #202b23; }
 
 /* ------------------------------------------------------------------ [17]
    ГЛОБАЛЬНОЕ МЕНЮ НА УЗКИХ ЭКРАНАХ
