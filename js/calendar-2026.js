@@ -2782,6 +2782,7 @@ let events2026 = [
         o_gps: 26083,
         reskeep: 932,
         planner: ['NSCHRT','CHGRVSKY_M'],
+        photo: 'https://vk.ru/album-92124592_311909521',
         fmt: 'спринт',
         start: 'SPRINT_TOUR',
         info: 'Новая карта. <a href="https://vk.ru/@-92124592-2-etap-sprint-tour-spb-osen-2026-30092026-analiz-distancii">Разбор дистанций</a>.',
