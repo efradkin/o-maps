@@ -110,7 +110,8 @@ let events2017 = [
         o_site: '170211',
         bulletin: 'https://o-site.spb.ru/_races/170211/170211_info3.pdf',
         map: 'volkov_2017_02_11',
-        start: 'VOLKOV_A'
+        start: 'VOLKOV_A',
+        o_gps: 1786
     },
     {
         id: 'SPB_20170212_1',
@@ -139,6 +140,10 @@ let events2017 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170218/170218_res.htm',
         o_site: '170218',
+        o_gps: {
+            'М': 1798,
+            'ALL': 1799
+        },
         bulletin: 'https://o-site.spb.ru/_races/170218/170218-19_info3.pdf'
     },
     {
@@ -159,7 +164,8 @@ let events2017 = [
         name: 'Кубок Белых Ночей 2016/17, 6 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/170219_split.htm',
-        o_site: '2017WN'
+        o_site: '2017WN',
+        o_gps: 1804
     },
     {
         id: 'SPB_20170223_1',
@@ -187,7 +193,8 @@ let events2017 = [
         name: 'Кубок Белых Ночей 2016/17, 7 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/170224_split.htm',
-        o_site: '2017WN'
+        o_site: '2017WN',
+        o_gps: 1819
     },
     {
         id: 'SPB_20170225_1',
@@ -240,7 +247,8 @@ let events2017 = [
         name: 'Кубок Белых Ночей 2016/17, 8 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/170305_split.htm',
-        o_site: '2017WN'
+        o_site: '2017WN',
+        o_gps: 1854
     },
     {
         id: 'SPB_20170308_1',
@@ -275,8 +283,9 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170312/170312_res.htm',
         photo: 'http://vk.com/album-9087078_242268462',
         o_site: '170312',
+        map: 'pushkin_nizhny_2019',
         bulletin: 'https://o-site.spb.ru/_races/170312/170312_info2-3_.pdf',
-        map: 'pushkin_nizhny_2019'
+        o_gps: 1895
     },
     {
         id: 'SPB_20170312_3',
@@ -441,7 +450,8 @@ let events2017 = [
         name: 'Цикл стартов МаТрёшка, 1 этап',
         start: 'MATRESHKA',
         res: 'http://o-site.spb.ru/_races/170416/170416_split_MT.htm',
-        o_site: '170416'
+        o_site: '170416',
+        o_gps: 2064
     },
     {
         id: 'SPB_20170419_1',
@@ -679,7 +689,8 @@ let events2017 = [
         name: 'Яркий Кубок 2017, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2017YC/170508_split.htm',
         o_site: '2017YC',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        o_gps: 2230
     },
     {
         id: 'SPB_20170509_1',
@@ -732,7 +743,14 @@ let events2017 = [
         name: 'Чемпионат и Первенство ЛО',
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/17042901/17051314_res_official.zip',
-        o_site: '17042901'
+        o_site: '17042901',
+        o_gps: {
+            '13-М21А/20': 2243,
+            '13-Ж21А/20': 2246,
+            '14-М10': 2259,
+            '14-Ж10': 2260,
+            '14-ALL': 2261
+        }
     },
     {
         id: 'SPB_20170513_2',
@@ -845,7 +863,13 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=753',
         res: 'https://o-site.spb.ru/_races/170521/170521_rez_RA.htm',
         owner: 'SFSO_LO',
-        o_site: '170521'
+        o_site: '170521',
+        o_gps: {
+            'М14': 2310,
+            'Ж14': 2309,
+            'Ж16': 2312,
+            'ALL': 2311
+        }
     },
     {
         id: 'SPB_20170521_3',
@@ -916,6 +940,17 @@ let events2017 = [
         ],
         owner: ['VYBORG','NW'],
         o_site: '170427-28_VT',
+        o_gps: {
+            '4-М': 2333,
+            '4-Ж': 2334,
+            '4-ВСЕ': 2335,
+            '4н-М': 2340,
+            '4н-Ж': 2341,
+            '4н-ВСЕ': 2342,
+            '5-М': 2343,
+            '5-Ж': 2344,
+            '5-ВСЕ': 2346
+        },
         bulletin: 'https://o-site.spb.ru/_races/170427-28_VT/170527-28_info_VT.pdf'
     },
     {
@@ -1017,8 +1052,9 @@ let events2017 = [
         video: 'https://www.youtube.com/watch?v=J9Ubz-neCK8',
         start: 'NA',
         o_site: '17060911',
+        map: ['na_2017_06_09', 'na_2017_zhuravlevo', 'na_2017_06_11'],
         bulletin: 'https://o-site.spb.ru/_races/17060911/17060911_info.pdf',
-        map: ['na_2017_06_09', 'na_2017_zhuravlevo', 'na_2017_06_11']
+        o_gps: 2417
     },
     {
         id: 'SPB_20170610_1',
@@ -1301,7 +1337,8 @@ let events2017 = [
         type: 'ROGAINE',
         reg: 'http://www.x-race.info/calendar/103070/request/',
         res: 'https://o-site.spb.ru/_races/170826/170826_res.pdf',
-        o_site: '170826'
+        o_site: '170826',
+        o_gps: 2725
     },
     {
         id: 'SPB_20170826_2',
@@ -1344,6 +1381,7 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=783',
         res: 'https://o-site.spb.ru/_races/170903/170903_res_V.htm',
         o_site: '170903',
+        o_gps: 2767,
         bulletin: 'https://o-site.spb.ru/_races/170903/170903_info3.htm'
     },
     {
@@ -1415,6 +1453,7 @@ let events2017 = [
         info: '8-е традиционные соревнования на призы компании Триколор ТВ',
         owner: 'WN',
         o_site: '170910_BN',
+        o_gps: 2797,
         bulletin: 'https://o-site.spb.ru/_races/170910_BN/170910_info.pdf'
     },
     {
@@ -1475,7 +1514,8 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=790',
         res: 'https://o-site.spb.ru/_races/170917_LO/170917_res.htm',
         o_site: '170917_LO',
-        bulletin: 'https://o-site.spb.ru/_races/170917_LO/17091617_info2_.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/170917_LO/17091617_info2_.pdf',
+        o_gps: 2838
     },
     {
         id: 'SPB_20170920_1',
@@ -1507,7 +1547,12 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170922-25/170923_res.htm',
         info: '22-25 сентября в ЗЦ «Зеркальный» пройдет традиционная осенняя смена юных ориентировщиков города. В программе тренировки на местности и участие в соревнованиях «СТАРТЫ в ЗЕРКАЛЬНОМ» и Первенстве Санкт-Петербурга. Подробности в информационных материалах. Организаторы просят руководителей групп подтвердить количество путевок по тел. 89213182044',
         o_site: '170922-25',
-        map: 'zerkalny_2002'
+        map: 'zerkalny_2002',
+        o_gps: {
+            '22': 2862,
+            '23-утро': 2869,
+            '23-вечер': 2871
+        }
     },
     {
         id: 'SPB_20170923_1',
@@ -1538,8 +1583,13 @@ let events2017 = [
         res: 'http://orgeo.ru/live/#/5260',
         video: 'http://northernwind.spb.ru/videosplit/2018/chspb_marathon',
         o_site: '170924',
+        reskeep: 236,
         bulletin: 'https://o-site.spb.ru/_races/170924/170924_info3.pdf',
-        reskeep: 236
+        o_gps: {
+            'М': 2854,
+            'Ж': 2860,
+            'ALL': 2861
+        }
     },
     {
         id: 'SPB_20170926_1',
@@ -1629,7 +1679,11 @@ let events2017 = [
         name: 'Цикл стартов МаТрёшка, 5 этап',
         start: 'MATRESHKA',
         res: 'http://o-site.spb.ru/_races/170416/170930_mt_split.htm',
-        o_site: '170416'
+        o_site: '170416',
+        o_gps: {
+            'A-pro': 2887,
+            'B-pro': 2891
+        }
     },
     {
         id: 'SPB_20170923_3',
@@ -1649,7 +1703,11 @@ let events2017 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/171001/171001_res.htm',
         o_site: '171001',
-        reskeep: 232
+        reskeep: 232,
+        o_gps: {
+            'М': 2899,
+            'Ж': 2900
+        }
     },
     {
         id: 'SPB_20171003_1',
@@ -1751,8 +1809,12 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/171008/171008_res_.htm',
         video: 'https://www.youtube.com/watch?v=O-5O-CrlOXw',
         o_site: '171008',
+        reskeep: 243,
         bulletin: 'https://o-site.spb.ru/_races/171008/171008_info2.pdf',
-        reskeep: 243
+        o_gps: {
+            'М12': 2948,
+            'ALL': 2935
+        }
     },
     {
         id: 'SPB_20171014_1',
@@ -1822,10 +1884,11 @@ let events2017 = [
         name: 'Золотая осень',
         place: 'им Калинина',
         res: 'https://o-site.spb.ru/_races/17102122/171021_res.htm',
+        bulletin: 'https://o-site.spb.ru/_races/17102122/17102122_info.pdf',
         video: 'https://www.youtube.com/watch?v=kqE3hRdAvww',
         owner: 'VYBORG',
         o_site: '17102122',
-        bulletin: 'https://o-site.spb.ru/_races/17102122/17102122_info.pdf'
+        o_gps: 3020
     },
     {
         id: 'SPB_20171028_1',
@@ -1853,7 +1916,11 @@ let events2017 = [
         name: 'Цикл стартов МаТрёшка, 6 этап',
         start: 'MATRESHKA',
         res: 'http://o-site.spb.ru/_races/170416/171029_MT_split.htm',
-        o_site: '170416'
+        o_site: '170416',
+        o_gps: {
+            'A-pro': 3037,
+            'B-pro': 3040
+        }
     },
     {
         id: 'SPB_20171030_1',
@@ -1871,7 +1938,13 @@ let events2017 = [
         name: 'Sochi-2017',
         place: 'Сочи',
         res: 'http://orgeo.ru/live/#/5494',
-        o_site: '171103Sochi'
+        o_site: '171103Sochi',
+        o_gps: {
+            'М': 3055,
+            'Ж': 3056,
+            'М20': 3057,
+            'Ж20': 3058
+        }
     },
     {
         id: 'SPB_20171104_1',
@@ -1991,8 +2064,9 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=818',
         res: 'https://o-site.spb.ru/_races/171126/171126_res.htm',
         photo: 'https://o-site.spb.ru/_races/171126/171126_photos.rar',
+        bulletin: 'https://o-site.spb.ru/_races/171126/171126_info1-3.pdf',
         o_site: '171126',
-        bulletin: 'https://o-site.spb.ru/_races/171126/171126_info1-3.pdf'
+        o_gps: 3141
     },
     {
         id: 'SPB_20171202_1',
@@ -2039,9 +2113,10 @@ let events2017 = [
         start: 'VSEVOLOZHSK_WAY',
         place: 'Сосновка',
         res: 'https://o-site.spb.ru/_races/171119_VT/171210_rez.htm',
-        o_site: '171119_VT',
         bulletin: 'https://o-site.spb.ru/_races/171119_VT/171210_info.pdf',
-        map: 'sosnovka_2014'
+        o_site: '171119_VT',
+        map: 'sosnovka_2014',
+        o_gps: 3171
     },
     {
         id: 'SPB_20171216_1',
@@ -2068,9 +2143,10 @@ let events2017 = [
         place: 'Пискаревский парк',
         res: 'https://o-site.spb.ru/_races/171217/171217_res.htm',
         info: 'размещаются в средней общеобразовательной школе № 473 Калининского района по адресу: ул. Верности, д. 28, корп.',
-        o_site: '171217',
         bulletin: 'https://o-site.spb.ru/_races/171217/171217_info1-3.pdf',
-        map: 'piskarevsky_2012'
+        o_site: '171217',
+        map: 'piskarevsky_2012',
+        o_gps: 3175
     },
     {
         id: 'SPB_20171223_1',

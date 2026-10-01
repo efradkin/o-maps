@@ -6,8 +6,12 @@ let events2018 = [
         name: 'УТС в Мичуринском',
         reg: 'http://sportident.ru/entry/event_info.php?id=3551',
         info: 'Адрес офиса ДОЛ «Мечта»: пр. Энгельса, дом 71 Лит "А", офис или 115, или Цоколь. Тел. 89215768216 - Елена',
+        bulletin: 'https://o-site.spb.ru/_races/180103/180103-09_info.pdf',
         o_site: '180103',
-        bulletin: 'https://o-site.spb.ru/_races/180103/180103-09_info.pdf'
+        o_gps: {
+            '03': 3213,
+            '04': 3215
+        }
     },
     {
         id: 'SPB_20180107_1',
@@ -349,7 +353,14 @@ let events2018 = [
         name: 'Черное море - 2018',
         place: 'Новороссийск',
         res: 'https://o-site.spb.ru/_races/180323Gel/summa4.htm',
-        o_site: '180323Gel'
+        o_site: '180323Gel',
+        o_gps: {
+            'М': 3475,
+            'Ж': 3476,
+            'М18/20': 3477,
+            'Ж18/20': 3478,
+            'М16': 3479
+        }
     },
     {
         id: 'SPB_20180331_1',
@@ -725,7 +736,18 @@ let events2018 = [
         owner: ['VYBORG','NW'],
         o_site: '18052627',
         bulletin: 'https://o-site.spb.ru/_races/18052627/18052627_info.pdf',
-        reskeep: [23, 22]
+        reskeep: [23, 22],
+        o_gps: {
+            '26-М': 3864,
+            '26-Ж': 3865,
+            '26-ВСЕ': 3884,
+            '26н-М': 3866,
+            '26н-Ж': 3867,
+            '26н-ВСЕ': 3885,
+            '27-М': 3868,
+            '27-Ж': 3869,
+            '27-ВСЕ': 3886
+        }
     },
     {
         id: 'SPB_20180526_2',
@@ -815,10 +837,11 @@ let events2018 = [
         name: 'Невский Азимут',
         reg: 'http://o-reg.spb.ru/entry-list?id=881',
         res: 'https://o-site.spb.ru/_races/18060911/180609_res_.htm',
+        bulletin: 'https://o-site.spb.ru/_races/18060911/18060911_info1_.pdf',
         start: 'NA',
         o_site: '18060911',
-        bulletin: 'https://o-site.spb.ru/_races/18060911/18060911_info1_.pdf',
-        map: ['na_2018_06_09', 'na_2018_lembolovo', 'na_2018_06_11']
+        map: ['na_2018_06_09', 'na_2018_lembolovo', 'na_2018_06_11'],
+        o_gps: 3985
     },
     {
         id: 'SPB_20180610_1',
@@ -930,7 +953,12 @@ let events2018 = [
         start: 'KKP',
         o_site: '180617-18',
         video: 'http://northernwind.spb.ru/videosplit/2018//kkp/day1',
-        reskeep: 13
+        reskeep: 13,
+        o_gps: {
+            'М': 4015,
+            'Ж': 4023,
+            'ALL': 4024
+        }
     },
     {
         id: 'SPB_20180619_1',
@@ -1003,7 +1031,15 @@ let events2018 = [
         o_site: '180622mms',
         planner: ['SRBRNTSKY','TLNV_A'],
         reskeep: [9, 8, 7],
-        map: ['mms_2018_06_22','mms_2018_06_23','mms_2018_06_24']
+        map: ['mms_2018_06_22','mms_2018_06_23','mms_2018_06_24'],
+        o_gps: {
+            '23-М': 4044,
+            '23-Ж': 4045,
+            '23-ALL': 4046,
+            '24-М': 4047,
+            '24-Ж': 4048,
+            '24-ALL': 4049
+        }
     },
     {
         id: 'SPB_20180625_1',
@@ -1030,7 +1066,8 @@ let events2018 = [
         o_site: '180701',
         bulletin: 'https://o-site.spb.ru/_races/180701/180629_info.pdf',
         map: ['wn_2018_06_30', 'wn_2018_07_01'],
-        reskeep: [6, 4, 2]
+        reskeep: [6, 4, 2],
+        o_gps: 4085
     },
     {
         id: 'SPB_20180630_1',
@@ -1056,7 +1093,8 @@ let events2018 = [
         name: 'Рогейн "Пальмира Севера"',
         type: 'ROGAINE',
         fmt: '6, 3',
-        link: 'http://rogaining.msk.ru/'
+        link: 'http://rogaining.msk.ru/',
+        o_gps: 4078
     },
     {
         id: 'SPB_20180707_1',
@@ -1256,7 +1294,8 @@ let events2018 = [
         date: '2018-08-25',
         name: 'History Race',
         res: 'https://o-site.spb.ru/_races/180825/HistoryRace2018_rez.pdf',
-        o_site: '180825'
+        o_site: '180825',
+        o_gps: 4241
     },
     {
         id: 'SPB_20180826_1',
@@ -1443,7 +1482,8 @@ let events2018 = [
         place: 'Зеркальный',
         res: ['https://o-site.spb.ru/_races/180921-24/180921_split.htm','https://o-site.spb.ru/_races/180921-24/180922_split.htm','https://o-site.spb.ru/_races/180921-24/180924_split.htm'],
         o_site: '180921-24',
-        map: 'zerkalny_2002'
+        map: 'zerkalny_2002',
+        o_gps: 4375
     },
     {
         id: 'SPB_20180922_1',
@@ -1479,7 +1519,13 @@ let events2018 = [
         video: 'http://www.northernwind.spb.ru/videosplit/2018/chspb_marathon/',
         owner: 'GOLFSTREAM',
         o_site: '180923',
-        reskeep: 47
+        reskeep: 47,
+        o_gps: {
+            'М': 4365,
+            'Ж': 4371,
+            'М20': 4388,
+            'ALL': 4372
+        }
     },
     {
         id: 'SPB_20180926_1',
@@ -1606,7 +1652,11 @@ let events2018 = [
         bulletin: 'https://o-site.spb.ru/_races/180930/180930_info3_v3.pdf',
         video: 'http://northernwind.spb.ru/videosplit/2018/chspb_relay3',
         reskeep: 231,
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        o_gps: {
+            'М': 4421,
+            'Ж': 4422
+        }
     },
     {
         id: 'SPB_20180930_3',
@@ -1685,7 +1735,8 @@ let events2018 = [
         o_site: '181007',
         bulletin: 'https://o-site.spb.ru/_races/181007/181007_info2_v3.pdf',
         video: 'http://northernwind.spb.ru/videosplit/2018/chspb_middle',
-        reskeep: 57
+        reskeep: 57,
+        o_gps: 4495
     },
     {
         id: 'SPB_20181010_1',
@@ -1790,7 +1841,11 @@ let events2018 = [
         o_site: '181020',
         bulletin: 'http://o-site.spb.ru/_races/181021/18102021_info.pdf',
         reskeep: [65, 66],
-        map: 'paltsevo_2015'
+        map: 'paltsevo_2015',
+        o_gps: {
+            'М10': 4575,
+            'Фитнес': 4577
+        }
     },
     {
         id: 'SPB_20181020_2',
@@ -1933,8 +1988,9 @@ let events2018 = [
         place: 'парк города Тосно',
         name: 'Соревнования Памяти 7 ноября',
         reg: 'http://sport-orient.ru/?post_type=product&p=2389&preview=true',
+        bulletin: 'http://sport-orient.ru/wp-content/uploads/2018/10/Informatsionnyiy-Byulleten-Pamyati-7-noyabrya.pdf',
         o_site: '181105',
-        bulletin: 'http://sport-orient.ru/wp-content/uploads/2018/10/Informatsionnyiy-Byulleten-Pamyati-7-noyabrya.pdf'
+        o_gps: 4657
     },
     {
         id: 'SPB_20181105_2',
@@ -1963,10 +2019,11 @@ let events2018 = [
         name: 'Маркир-110',
         reg: 'http://o-reg.spb.ru/entry-list?id=953',
         res: 'https://o-site.spb.ru/_races/181111_mt/181111_split.htm',
+        bulletin: 'https://o-site.spb.ru/_races/181111_mt/181111_markir110_info1.PDF',
         start: 'ROGAINE_110',
         o_site: '181111_mt',
-        bulletin: 'https://o-site.spb.ru/_races/181111_mt/181111_markir110_info1.PDF',
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        o_gps: 4700
     },
     {
         id: 'SPB_20181111_2',
@@ -2057,9 +2114,10 @@ let events2018 = [
         name: 'Снежная Тропа, 1 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/181125/res1.htm',
-        o_site: '181125',
         bulletin: 'https://o-site.spb.ru/_races/181125/ib3.pdf',
-        reskeep: 94
+        o_site: '181125',
+        reskeep: 94,
+        o_gps: 4745
     },
     {
         id: 'SPB_20181201_1',
@@ -2159,7 +2217,8 @@ let events2018 = [
         o_site: '181216',
         bulletin: 'https://o-site.spb.ru/_races/181216/181216_info2.pdf',
         reskeep: 101,
-        map: 'sosnovka_2014'
+        map: 'sosnovka_2014',
+        o_gps: 4798
     },
     {
         id: 'SPB_20181222_1',

@@ -23,7 +23,13 @@ let events2023 = [
         type: 'SKI',
         res: 'http://o-site.spb.ru/_races/230108_UTS/230102_result.htm',
         info: 'Пн 02.01 Результаты Вт 03.01 Лыжи Лагерь Ср 04.01 Лыжи Лагерь Чт 05.01 Лыжи Лагерь Пт 06.01 Лыжи Лагерь',
-        o_site: '230108_UTS'
+        o_site: '230108_UTS',
+        o_gps: {
+            '03': 14785,
+            '04': 14792,
+            '05': 14798,
+            '06': 14803
+        }
     },
     {
         id: 'SPB_20230107_1',
@@ -36,6 +42,10 @@ let events2023 = [
         info: 'Традиционные Рождественские старты от клуба Норд Вест',
         owner: 'NW',
         o_site: '230108_RS',
+        o_gps: {
+            '07': 14805,
+            '08': 14809
+        },
         bulletin: 'https://o-site.spb.ru/_races/230108_RS/230107-08_rozhd_start_info1-2.pdf'
     },
     {
@@ -49,7 +59,8 @@ let events2023 = [
         fmt: 'рогейн 5 и 2 часов лыжи/бегом, 5ч. вело',
         start: 'GORNY_CROSS',
         o_site: '230108R',
-        bulletin: 'https://o-site.spb.ru/_races/230108R/230108R_info2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/230108R/230108R_info2.pdf',
+        o_gps: 14815
     },
     {
         id: 'SPB_20230115_1',
@@ -62,7 +73,8 @@ let events2023 = [
         fmt: 'рогейн 4 часа. Передвижение на лыжах и бегом',
         video: 'https://www.youtube.com/watch?v=h8kIu7V-He8',
         owner: 'MULTSPORT',
-        o_site: '230115r'
+        o_site: '230115r',
+        o_gps: 14843
     },
     {
         id: 'SPB_20230115_2',
@@ -98,7 +110,11 @@ let events2023 = [
         res: 'http://sportident.online/ol/?id=1029',
         info: 'Чемпионат и Первенство Санкт-Петербурга. Межмуниципальные соревнования. Первенство СФСО Санкт-Петербурга. Программа: 21 января (суббота) — «Лыжная гонка‐спринт»; 22 января (воскресенье) — «Лыжная гонка‐классика».',
         o_site: '230122',
-        map: 'silande_winter_2024'
+        map: 'silande_winter_2024',
+        o_gps: {
+            '21': 14863,
+            '22': 14872
+        }
     },
     {
         id: 'SPB_20230128_1',
@@ -124,7 +140,8 @@ let events2023 = [
         info: 'Региональные соревнования "Посвященные 79-й годовщине полного снятия блокады Ленинграда" Программа: 29 января (воскресенье) - лыжная гонка-маркированная трасса.',
         o_site: '230129',
         bulletin: 'https://o-site.spb.ru/_races/230129/230129_info2_2.pdf',
-        map: 'silande_winter_2024'
+        map: 'silande_winter_2024',
+        o_gps: 14929
     },
     {
         id: 'SPB_20230204_1',
@@ -156,7 +173,8 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/230205/230205_res.htm',
         strava: 8508408303,
         o_site: '230205',
-        bulletin: 'https://o-site.spb.ru/_races/230205/230205_INFO.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/230205/230205_INFO.pdf',
+        o_gps: 14971
     },
     {
         id: 'SPB_20230209_1',
@@ -170,7 +188,8 @@ let events2023 = [
         video: 'https://www.youtube.com/watch?v=46IuiG56HUc',
         o_site: '230213',
         bulletin: 'https://o-site.spb.ru/_races/230213/23020913_info.pdf',
-        map: 'toksovo_vifk_winter_2023'
+        map: 'toksovo_vifk_winter_2023',
+        o_gps: 15061
     },
     {
         id: 'SPB_20230219_1',
@@ -182,8 +201,13 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/26782/1',
         video: 'https://www.youtube.com/watch?v=cO2KgOjGuS4',
         o_site: '230219',
+        map: 'zerkalny_2002',
+        o_gps: {
+            '18': 15065,
+            '19-Классика': 15067,
+            '19': 15072
+        },
         bulletin: 'https://o-site.spb.ru/_races/230219/230212-19_info1.pdf',
-        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20230223_1',
@@ -231,7 +255,12 @@ let events2023 = [
         strava: [8618271672,8624967044],
         o_site: '23022526',
         bulletin: 'https://o-site.spb.ru/_races/23022526/230225_info1_.pdf',
-        map: 'lembolovo_winter_2019'
+        map: 'lembolovo_winter_2019',
+        o_gps: {
+            '25': 15124,
+            '25-Спринт': 15127,
+            '26-Гандикап': 15137
+        }
     },
     {
         id: 'SPB_20230226_1',
@@ -257,7 +286,12 @@ let events2023 = [
         strava: 8657127604,
         o_site: '23030405',
         endDate: '2023-03-05',
-        map: 'toksovo_vifk_winter_2023'
+        map: 'toksovo_vifk_winter_2023',
+        o_gps: {
+            '04': 15168,
+            '04-Лонг': 15172,
+            '05-Эстафета': 15174
+        }
     },
     {
         id: 'SPB_20230305_1',
@@ -281,7 +315,12 @@ let events2023 = [
         video: 'https://www.youtube.com/watch?v=roLL6mhHFrQ',
         strava: 8679956622,
         reskeep: 582,
-        map: 'udelny_2022'
+        map: 'udelny_2022',
+        o_gps: {
+            'ALL': 15198,
+            'М45/Ж35': 15200,
+            'М20': 15201
+        }
     },
     {
         id: 'SPB_20230311_1',
@@ -294,7 +333,8 @@ let events2023 = [
         video: ['https://www.youtube.com/watch?v=mt81oMGUZqU','https://www.youtube.com/watch?v=ZJQpTh3C26U'],
         owner: 'MULTSPORT',
         o_site: '230311',
-        map: 'vuoksa_rogaine_2019'
+        map: 'vuoksa_rogaine_2019',
+        o_gps: 15220
     },
     {
         id: 'SPB_20230311_2',
@@ -367,7 +407,8 @@ let events2023 = [
         place: 'пл Восстания',
         strava: 8811602107,
         owner: 'WN',
-        reskeep: 569
+        reskeep: 569,
+        o_gps: 15426
     },
     {
         id: 'SPB_20230402_1',
@@ -381,7 +422,8 @@ let events2023 = [
         strava: 8818009842,
         o_site: '230402',
         bulletin: 'https://o-site.spb.ru/_races/230402/230402_info1.pdf',
-        map: 'gatchina_prioratsky_2021'
+        map: 'gatchina_prioratsky_2021',
+        o_gps: 15449
     },
     {
         id: 'SPB_20230408_1',
@@ -414,7 +456,13 @@ let events2023 = [
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/230409/230409_res.htm',
         video: 'https://www.youtube.com/watch?v=tsqtULJyGoc',
-        o_site: '230409'
+        o_site: '230409',
+        o_gps: {
+            'ALL': 15521,
+            'М14': 15541,
+            'Спринт М18/М50/ЖЭ': 15535,
+            'Эстафета МЖ18': 15537
+        }
     },
     {
         id: 'SPB_20230412_1',
@@ -487,7 +535,12 @@ let events2023 = [
             'https://www.youtube.com/watch?v=k8N9mMxJeJE'
         ],
         strava: 8942247123,
-        o_site: '230423'
+        o_site: '230423',
+        o_gps: {
+            '22': 15753,
+            '23': 15762,
+            '23-М18': 15767
+        }
     },
     {
         id: 'SPB_20230422_3',
@@ -519,7 +572,8 @@ let events2023 = [
         fmt: '4/2 часа бег, 4 часа вело',
         start: 'GORNY_CROSS',
         o_site: '230429R',
-        bulletin: 'https://o-site.spb.ru/_races/230429R/230429R_info1.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/230429R/230429R_info1.pdf',
+        o_gps: 15856
     },
     {
         id: 'SPB_20230429_2',
@@ -530,7 +584,8 @@ let events2023 = [
         strava: 8977074012,
         res: 'http://o-site.spb.ru/_races/2023_bn/230429_split.htm',
         reskeep: 574,
-        map: 'kavgolovo_old_ski_track_2023'
+        map: 'kavgolovo_old_ski_track_2023',
+        o_gps: 15848
     },
     {
         id: 'SPB_20230430_1',
@@ -543,7 +598,8 @@ let events2023 = [
         bulletin: 'https://o-site.spb.ru/_races/230430_kur/300423_info2.pdf',
         strava: 8982825410,
         reskeep: 575,
-        map: 'sestroretsk_tamozhennaya_doroga_2012'
+        map: 'sestroretsk_tamozhennaya_doroga_2012',
+        o_gps: 15858
     },
     {
         id: 'SPB_20230430_2',
@@ -564,7 +620,8 @@ let events2023 = [
         o_site: '230501',
         bulletin: 'https://o-site.spb.ru/_races/230501/230501_info2.pdf',
         map: 'enkolovo_2021',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        o_gps: 15908
     },
     {
         id: 'SPB_20230501_2',
@@ -611,7 +668,8 @@ let events2023 = [
         place: 'Лемболово',
         name: '100 КП',
         strava: 9026040472,
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        o_gps: 16001
     },
     {
         id: 'SPB_20230507_2',
@@ -691,7 +749,8 @@ let events2023 = [
         start: 'LM',
         o_site: '230513r',
         bulletin: 'https://o-site.spb.ru/_races/230513r/230513_info.pdf',
-        map: 'gorodok_lm_2023'
+        map: 'gorodok_lm_2023',
+        o_gps: 16100
     },
     {
         id: 'SPB_20230513_2',
@@ -701,7 +760,8 @@ let events2023 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230513_split.htm',
         strava: 9062244567,
-        map: 'pukhtolova_gora_2023'
+        map: 'pukhtolova_gora_2023',
+        o_gps: 16097
     },
     {
         id: 'SPB_20230513_3',
@@ -723,7 +783,8 @@ let events2023 = [
         strava: 9068508402,
         o_site: '230513',
         bulletin: 'https://o-site.spb.ru/_races/230513/230514_IB.pdf',
-        map: 'pushkin_babolovsky_2019'
+        map: 'pushkin_babolovsky_2019',
+        o_gps: 16113
     },
     {
         id: 'SPB_20230514_2',
@@ -766,7 +827,8 @@ let events2023 = [
         info: 'Всероссийские соревнования по рогейну на байдарках. Весенний водный рогейн 2023.',
         owner: 'MULTSPORT',
         o_site: '230520r',
-        map: 'vuoksa_rogaine_2019'
+        map: 'vuoksa_rogaine_2019',
+        o_gps: 16170
     },
     {
         id: 'SPB_20230520_2',
@@ -792,7 +854,8 @@ let events2023 = [
         bulletin: 'https://o-site.spb.ru/_races/230520/sprint200523_info3final.pdf',
         strava: 9105042997,
         reskeep: 577,
-        map: 'akademicheskaya_2023'
+        map: 'akademicheskaya_2023',
+        o_gps: 16165
     },
     {
         id: 'SPB_20230521_1',
@@ -806,7 +869,8 @@ let events2023 = [
         bulletin: 'https://o-site.spb.ru/_races/230521_RA/230521-info.pdf',
         strava: 9112152704,
         reskeep: 579,
-        map: 'kurakina_dacha_2023'
+        map: 'kurakina_dacha_2023',
+        o_gps: 16179
     },
     {
         id: 'SPB_20230526_1',
@@ -828,7 +892,8 @@ let events2023 = [
         fmt: 'бег - 24/8/3 часа, вело - 8 часов',
         start: 'GORNY_CROSS',
         o_site: '23052728R',
-        bulletin: 'https://o-site.spb.ru/_races/23052728R/230527R_info1.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/23052728R/230527R_info1.pdf',
+        o_gps: 16283
     },
     {
         id: 'SPB_20230527_2',
@@ -840,7 +905,14 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/29049/1',
         o_site: '230528',
         strava: [9149254568,9154988624],
-        reskeep: 595
+        reskeep: 595,
+        o_gps: {
+            '27': 16247,
+            '27-Классика': 16241,
+            '27-М18': 16249,
+            '28-Эстафета': 16255,
+            '28-Эстафета М90': 16262
+        }
     },
     {
         id: 'SPB_20230601_1',
@@ -870,7 +942,14 @@ let events2023 = [
         owner: ['VYBORG','NW'],
         o_site: '230603-04_VTR',
         strava: [9193509746,9197336971,9201368608],
-        reskeep: [594, 592, 593]
+        reskeep: [594, 592, 593],
+        o_gps: {
+            '03': 16377,
+            '03-M40/45': 16366,
+            '03-МЭ': 16372,
+            '04-M40/45': 16362,
+            '04-МЭ': 16371
+        }
     },
     {
         id: 'SPB_20230604_1',
@@ -894,7 +973,12 @@ let events2023 = [
         info: 'Многодневные соревнования по спортивному ориентированию «НЕВСКИЙ АЗИМУТ»',
         start: 'NA',
         o_site: '230612',
-        map: ['na_2023_06_10', 'na_2023_koloskovo', 'na_2023_06_12']
+        map: ['na_2023_06_10', 'na_2023_koloskovo', 'na_2023_06_12'],
+        o_gps: {
+            '10': 16458,
+            '11': 16454,
+            '12': 16485
+        }
     },
     {
         id: 'SPB_20230610_2',
@@ -1003,7 +1087,8 @@ let events2023 = [
             'https://www.youtube.com/watch?v=ovKzw06a5DY',
             'https://www.youtube.com/watch?v=DROakVa3320'
         ],
-        map: ['kkp_prudy_2023_06_17','kkp_prudy_2023_06_18']
+        map: ['kkp_prudy_2023_06_17','kkp_prudy_2023_06_18'],
+        o_gps: 16487
     },
     {
         id: 'SPB_20230618_2',
@@ -1014,7 +1099,8 @@ let events2023 = [
         info: 'Тренировочный старт по спортивному ориентированию бегом',
         o_site: 'ch_m_2023',
         bulletin: 'https://o-site.spb.ru/_races/ch_m_2023/230618_info.pdf',
-        strava: 9638656656
+        strava: 9638656656,
+        o_gps: 16507
     },
     {
         id: 'SPB_20230617_1',
@@ -1116,7 +1202,15 @@ let events2023 = [
             'https://www.youtube.com/watch?v=lOyollFirFI',
             'https://www.youtube.com/watch?v=pc6vf-fWUzw',
             'https://vkvideo.ru/video-93257360_456239222'
-        ]
+        ],
+        o_gps: {
+            'М': 16499,
+            'Ж': 16520,
+            'М18': 16521,
+            'М45/21А': 16600,
+            'M21A/Open-B': 16558,
+            'М21АК': 16547
+        }
     },
     {
         id: 'SPB_20230622_1',
@@ -1137,7 +1231,16 @@ let events2023 = [
             'https://www.youtube.com/watch?v=4RBVnvbGbjc',
             'https://www.youtube.com/watch?v=7kKVndzkFQM',
             'https://vkvideo.ru/video-93257360_456239223'
-        ]
+        ],
+        o_gps: {
+            'М': 16500,
+            'Ж': 16522,
+            'М18': 16523,
+            'М45/21А': 16601,
+            'М21А/Open-B': 16562,
+            'М21АК': 16548,
+            'М70': 16544
+        }
     },
     {
         id: 'SPB_20230623_2',
@@ -1164,7 +1267,14 @@ let events2023 = [
         bulletin: 'https://o-site.spb.ru/_races/mms2023/Info2.pdf',
         reskeep: [598, 596, 597],
         map: ['mms_2023_06_23','mms_2023_06_24','mms_2023_06_25'],
-        planner: 'TSVTKV_D'
+        planner: 'TSVTKV_D',
+        o_gps: {
+            '23': 16535,
+            '24': 16538,
+            '24-М18': 16542,
+            '24-Раззява': 16569,
+            '25': 16553
+        }
     },
     {
         id: 'SPB_20230624_1',
@@ -1247,7 +1357,11 @@ let events2023 = [
         map: 'bylinny_2023',
         owner: 'WN',
         o_site: 'br_2023',
-        bulletin: 'https://o-site.spb.ru/_races/br_2023/230709_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/br_2023/230709_info.pdf',
+        o_gps: {
+            'Средняя': 16752,
+            'Рогейн': 16755
+        }
     },
     {
         id: 'SPB_20230709_2',
@@ -1285,7 +1399,8 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/23072223/230822_SPLIT.html',
         o_site: '23072223',
         bulletin: 'https://o-site.spb.ru/_races/23072223/23072223_info1.pdf',
-        reskeep: [611, 612]
+        reskeep: [611, 612],
+        o_gps: 16871
     },
     {
         id: 'SPB_20230729_1',
@@ -1432,7 +1547,8 @@ let events2023 = [
         start: 'ROGAINE_110',
         strava: 9685482559,
         o_site: '230508_110',
-        bulletin: 'http://orgeo.ru/files/event/file/29317_72b86eab92.docx'
+        bulletin: 'http://orgeo.ru/files/event/file/29317_72b86eab92.docx',
+        o_gps: 17035
     },
     {
         id: 'SPB_20230826_1',
@@ -1469,7 +1585,8 @@ let events2023 = [
         info: 'Тренировочный старт по спортивному ориентированию бегом',
         o_site: '230827_bn',
         bulletin: 'https://o-site.spb.ru/_races/230827_bn/230827_info.pdf',
-        map: 'pervomayskoe_2021'
+        map: 'pervomayskoe_2021',
+        o_gps: 17088
     },
     {
         id: 'SPB_20230827_2',
@@ -1481,7 +1598,8 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/230827_infop/230827_split_p.htm',
         o_site: '230827_infop',
         bulletin: 'https://o-site.spb.ru/_races/230827_infop/230827_info.pdf',
-        map: 'rzhevsky_2024'
+        map: 'rzhevsky_2024',
+        o_gps: 17078
     },
     {
         id: 'SPB_20230827_3',
@@ -1494,7 +1612,8 @@ let events2023 = [
         o_site: '230827_R',
         bulletin: 'https://o-site.spb.ru/_races/230827_R/230827_R.pdf',
         strava: 9730244634,
-        map: 'rzhevsky_2024'
+        map: 'rzhevsky_2024',
+        o_gps: 17077
     },
     {
         id: 'SPB_20230903_1',
@@ -1515,7 +1634,8 @@ let events2023 = [
         name: 'Кубок Белых Ночей #1',
         start: 'KBN',
         strava: 9774518451,
-        reskeep: 591
+        reskeep: 591,
+        o_gps: 17114
     },
     {
         id: 'SPB_20230909_1',
@@ -1561,7 +1681,13 @@ let events2023 = [
         bulletin: 'https://o-site.spb.ru/_races/230910/230910_info2_.pdf',
         strava: 9821070571,
         reskeep: 618,
-        map: 'kanneljarvi_2023'
+        map: 'kanneljarvi_2023',
+        o_gps: {
+            'М': 17157,
+            'Ж': 17156,
+            'М45/40/18/Ж20': 17187,
+            'ALL': 17155
+        }
     },
     {
         id: 'SPB_20230910_2',
@@ -1598,6 +1724,16 @@ let events2023 = [
         photo: 'http://vk.com/album-220245153_299049860',
         info: 'Новая клубная эстафета «Змей Горыныч» Организаторы эстафеты: клуб "Кузьмолово" и АНО "ОПОРА СО СПб и ЛО "Импульс"". Мероприятие проходит при поддержке Движения Первых и СФСО Санкт-Петербурга.',
         o_site: '230916_zg_relay',
+        o_gps: {
+            'МЭ 1-3': 17225,
+            'МЭ 4': 17227,
+            'ЖЭ 1-2': 17226,
+            'ЖЭ 3': 17228,
+            'М14/18': 17234,
+            'Ж14/18': 17236,
+            'М40': 17235,
+            'Ж40': 17237
+        },
         bulletin: 'https://o-site.spb.ru/_races/230916_zg_relay/230916_info3.pdf'
     },
     {
@@ -1623,7 +1759,8 @@ let events2023 = [
         reg: 'http://www.multsport.ru/starts/veloizol23/registration.html',
         fmt: 'рогейн 4 и 8 часов. Велосипедный и беговой формат',
         owner: 'MULTSPORT',
-        o_site: '230917v'
+        o_site: '230917v',
+        o_gps: 17288
     },
     {
         id: 'SPB_20230916_4',
@@ -1644,7 +1781,8 @@ let events2023 = [
         place: 'СПб',
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/info/29606',
-        o_site: '230917r'
+        o_site: '230917r',
+        o_gps: 17294
     },
     {
         id: 'SPB_20230917_2',
@@ -1657,7 +1795,13 @@ let events2023 = [
         o_site: '230917',
         strava: 9867187438,
         map: 'bylinnoe_2023',
-        reskeep: 613
+        reskeep: 613,
+        o_gps: {
+            'М': 17230,
+            'Ж': 17229,
+            'М40/18': 17281,
+            'ALL': 17257
+        }
     },
     {
         id: 'SPB_20230922_1',
@@ -1680,6 +1824,12 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/230925/230922_res.htm',
         info: '25 сентября - спринт. Старт в 10.30',
         o_site: '230925',
+        o_gps: {
+            '23-Кросс': 17319,
+            '23-вечер': 17326,
+            '24-Эстафета': 17343,
+            '25-Спринт': 17360
+        },
         bulletin: 'https://o-site.spb.ru/_races/230925/230925_info.pdf',
         map: 'zerkalny_2002'
     },
@@ -1835,6 +1985,10 @@ let events2023 = [
         res: 'http://touristclub.ru/wp-content/uploads/2023/10/res_okin_23.htm',
         start: 'OKINCHITSA',
         o_site: '231007_okinchica',
+        o_gps: {
+            'М21': 17513,
+            '4МА': 17534
+        },
         bulletin: 'http://touristclub.ru/okinchits/polozhenie/'
     },
     {
@@ -1867,7 +2021,8 @@ let events2023 = [
         strava: 10035784170,
         o_site: '231014_PZVP',
         bulletin: 'https://o-site.spb.ru/_races/231014_PZVP/231014_info2_PZVP.pdf',
-        map: 'sestroretskie_detskie_djuny_2020'
+        map: 'sestroretskie_detskie_djuny_2020',
+        o_gps: 17563
     },
     {
         id: 'SPB_20231014_3',
@@ -1891,6 +2046,10 @@ let events2023 = [
         start: 'GORNY_CROSS',
         strava: 10042669382,
         o_site: '231015R',
+        o_gps: {
+            '1': 17574,
+            '2': 17582
+        },
         bulletin: 'https://o-site.spb.ru/_races/231015R/231015R_info2.pdf'
     },
     {
@@ -1926,6 +2085,13 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/info/31280',
         res: 'https://o-site.spb.ru/_races/231020/231020Results - SportOrg.pdf',
         o_site: '231020',
+        o_gps: {
+            'A': 17615,
+            'B': 17616,
+            'C': 17617,
+            'D': 17618,
+            'Ночной спринт': 17621
+        },
         bulletin: 'https://o-site.spb.ru/_races/231020/231020%20_info1.pdf'
     },
     {
@@ -1936,7 +2102,8 @@ let events2023 = [
         type: 'ROGAINE',
         strava: 10072753747,
         map: 'internatsionalistov_2021',
-        owner: 'FRUNZ_SPORT'
+        owner: 'FRUNZ_SPORT',
+        o_gps: 17620
     },
     {
         id: 'SPB_20231021_1',
@@ -1950,6 +2117,12 @@ let events2023 = [
         video: 'https://www.youtube.com/watch?v=4AEOH9mFkNU',
         info: 'IV клубная ночная эстафета 50 ВЁРСТ',
         o_site: '211023_50Verst',
+        o_gps: {
+            'М1': 17622,
+            'М2': 17623,
+            'Ж1': 17624,
+            'Ж2': 17625
+        },
         bulletin: 'http://o-nw.ru/50verst_bulletin',
         map: 'kanneljarvi_2023'
     },
@@ -1966,7 +2139,8 @@ let events2023 = [
         bulletin: 'https://o-site.spb.ru/_races/231022_perv_NW/231022_info2_perv_NW.pdf',
         strava: 10083310628,
         reskeep: 624,
-        map: 'kanneljarvi_2023'
+        map: 'kanneljarvi_2023',
+        o_gps: 17635
     },
     {
         id: 'SPB_20231022_2',
@@ -2008,7 +2182,8 @@ let events2023 = [
         owner: 'SFSO_LO',
         o_site: '231028_sert',
         bulletin: 'https://o-site.spb.ru/_races/231028_sert/231028_sert_info.pdf',
-        map: 'new_sertolovo_2022'
+        map: 'new_sertolovo_2022',
+        o_gps: 17666
     },
     {
         id: 'SPB_20231028_3',
@@ -2057,7 +2232,11 @@ let events2023 = [
         bulletin: 'https://o-site.spb.ru/_races/231029/Info_PetOs1_231029.pdf',
         reskeep: 617,
         map: 'serovo_2024',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        o_gps: {
+            'М40/45/Фсл': 17683,
+            'ALL': 17685
+        }
     },
     {
         id: 'SPB_20231101_1',
@@ -2069,7 +2248,8 @@ let events2023 = [
         info: 'Серия тренировочных стартов на осенних каникулах, 1, 2 и 3 ноября В программе: 01.11.2023 (Ср) 11:00 - Выбор и заданное направление(на выбор). Место проведения: Токсово ВИФК 02.11.2022 (Чт) 11:00 - Заданное направление. Место проведения: Токсово, СКА 03.11.2022 (Пт) 11:00 - Заданное направление - Орлиная гора. Место проведения: Орлиная Гора',
         o_site: '231103_P',
         bulletin: 'https://o-site.spb.ru/_races/231103_P/UTS.pdf',
-        endDate: '2023-11-03'
+        endDate: '2023-11-03',
+        o_gps: 17712
     },
     {
         id: 'SPB_20231104_1',
@@ -2086,7 +2266,8 @@ let events2023 = [
         bulletin: 'https://o-site.spb.ru/_races/231104_OM/Info_OM_231104.pdf',
         reskeep: 626,
         map: 'snegirevka_2021',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        o_gps: 17742
     },
     {
         id: 'SPB_20231105_1',
@@ -2097,6 +2278,10 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/31217',
         res: 'https://o-site.spb.ru/_races/231105_P/231105_split1.htm',
         o_site: '231105_P',
+        o_gps: {
+            'ALL': 17744,
+            'А': 17747
+        },
         bulletin: 'https://o-site.spb.ru/_races/231105_P/231105_info.pdf',
         map: 'toksovo_malinovaya_gora_2018'
     },
@@ -2108,7 +2293,8 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/info/30933',
         res: 'https://o-site.spb.ru/_races/231107_bn/231106_split.htm',
         o_site: '231107_bn',
-        bulletin: 'https://o-site.spb.ru/_races/231107_bn/231106_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/231107_bn/231106_info.pdf',
+        o_gps: 17756
     },
     {
         id: 'SPB_20231106_2',
@@ -2148,7 +2334,8 @@ let events2023 = [
         fmt: 'рогейн 6/2 ч. бег, 5 ч. вело',
         start: 'GORNY_CROSS',
         o_site: '231112R',
-        bulletin: 'https://o-site.spb.ru/_races/231112R/231112R_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/231112R/231112R_info.pdf',
+        o_gps: 17781
     },
     {
         id: 'SPB_20231112_2',
@@ -2162,7 +2349,8 @@ let events2023 = [
         bulletin: 'https://o-site.spb.ru/_races/231112_LO/231112_info-2.pdf',
         strava: 10204714151,
         reskeep: 627,
-        map: 'petjajarvy_2024'
+        map: 'petjajarvy_2024',
+        o_gps: 17780
     },
     {
         id: 'SPB_20231118_1',
@@ -2171,7 +2359,8 @@ let events2023 = [
         name: 'Кубок Белых Ночей 2023/24, 3 этап',
         start: 'KBN',
         o_site: 'kbn_2024',
-        bulletin: 'https://o-site.spb.ru/_races/kbn_2024/231203_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/kbn_2024/231203_info.pdf',
+        o_gps: 17820
     },
     {
         id: 'SPB_20231119_1',
@@ -2182,6 +2371,10 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/231119/231119_res.htm',
         strava: 10244406309,
         o_site: '231119',
+        o_gps: {
+            'Ж21/М18/40': 17812,
+            'М21': 17818
+        },
         bulletin: 'https://o-site.spb.ru/_races/231119/231119_info.pdf',
         reskeep: 628
     },
@@ -2198,7 +2391,11 @@ let events2023 = [
         o_site: '2023_Orientir',
         bulletin: 'https://o-site.spb.ru/_races/2023_Orientir/Info_231125.pdf',
         map: 'piskarevsky_2024',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        o_gps: {
+            'А': 17865,
+            'ALL': 17864
+        }
     },
     {
         id: 'SPB_20231125_2',
@@ -2208,6 +2405,10 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/denmateri23',
         res: 'https://o-site.spb.ru/_races/231125/231125_rez.htm',
         o_site: '231125',
+        o_gps: {
+            'М': 17844,
+            'Ж': 17845
+        },
         bulletin: 'https://o-site.spb.ru/_races/231125/221126_Info2_DM.pdf',
         map: 'poljustrovo_2023'
     },
@@ -2235,7 +2436,8 @@ let events2023 = [
         o_site: '231126_st',
         bulletin: 'https://o-site.spb.ru/_races/231126_st/231126_info2_new.pdf',
         reskeep: 633,
-        map: 'sosnovka_2014'
+        map: 'sosnovka_2014',
+        o_gps: 17881
     },
     {
         id: 'SPB_20231128_1',
@@ -2316,7 +2518,11 @@ let events2023 = [
         o_site: '231217',
         bulletin: 'https://o-site.spb.ru/_races/231217/231217_info2.pdf',
         reskeep: 634,
-        map: 'sestroretsk_pljazh_laskovy_2023'
+        map: 'sestroretsk_pljazh_laskovy_2023',
+        o_gps: {
+            'ALL': 17945,
+            'М18/Ж20/21': 17975
+        }
     },
     {
         id: 'SPB_20231224_1',
@@ -2326,7 +2532,8 @@ let events2023 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1574',
         res: 'http://orgeo.ru/event/32439',
         o_site: '231224_OS',
-        bulletin: 'https://o-site.spb.ru/_races/231224_OS/231224_info2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/231224_OS/231224_info2.pdf',
+        o_gps: 17963
     },
     {
         id: 'SPB_20231224_2',

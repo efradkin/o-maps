@@ -10,7 +10,8 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/210103_kur/210103_info.pdf',
         reskeep: 413,
         strava: 4560359774,
-        map: 'orovo_2019'
+        map: 'orovo_2019',
+        o_gps: 8739
     },
     {
         id: 'SPB_20210103_2',
@@ -20,8 +21,14 @@ let events2021 = [
         name: 'УТС, Мичуринское',
         reg: 'http://sportident.online/entry/?id=4682',
         info: 'Программа тренировочных полигонов: 05.01 маркированная трасса на лыжах (вариант Г) 06.01 выбор бегом 07.01 заданное направление бегом',
+        bulletin: 'https://o-site.spb.ru/_races/200103-09_sbor/210103-09_sbor_info1.pdf',
         o_site: '200103-09_sbor',
-        bulletin: 'https://o-site.spb.ru/_races/200103-09_sbor/210103-09_sbor_info1.pdf'
+        o_gps: {
+            '03': 8740,
+            '04': 8747,
+            '06': 8763,
+            '07': 8778
+        }
     },
     {
         id: 'SPB_20210108_1',
@@ -30,9 +37,13 @@ let events2021 = [
         name: 'Рождественские старты-2021',
         place: 'Мичуринское, база Мечта',
         res: 'https://o-site.spb.ru/_races/210108-09_rs/210108_rez.htm',
+        bulletin: 'https://o-site.spb.ru/_races/210108-09_rs/210108-09_info1.pdf',
         owner: 'NW',
         o_site: '210108-09_rs',
-        bulletin: 'https://o-site.spb.ru/_races/210108-09_rs/210108-09_info1.pdf'
+        o_gps: {
+            '08': 8781,
+            '09': 8815
+        }
     },
     {
         id: 'SPB_20210109_1',
@@ -43,7 +54,8 @@ let events2021 = [
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
         start: 'GORNY_CROSS',
-        map: 'lembolovo_orekhovo_peski_gk_2026'
+        map: 'lembolovo_orekhovo_peski_gk_2026',
+        o_gps: 8750
     },
     {
         id: 'SPB_20210116_1',
@@ -57,7 +69,8 @@ let events2021 = [
         o_site: '2021_WO',
         bulletin: 'https://o-site.spb.ru/_races/2021_WO/210116_info.pdf',
         reskeep: 418,
-        strava: 4628186806
+        strava: 4628186806,
+        o_gps: 8858
     },
     {
         id: 'SPB_20210117_1',
@@ -68,7 +81,8 @@ let events2021 = [
         reg: 'http://www.multsport.ru/starts/winter-rogaine-21/registration.html',
         fmt: '4 часа лыжи или бег',
         owner: 'MULTSPORT',
-        o_site: '210117'
+        o_site: '210117',
+        o_gps: 8859
     },
     {
         id: 'SPB_20210117_2',
@@ -79,8 +93,12 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/14844',
         res: 'http://sportident.online/ol/?id=182',
         video: 'https://www.youtube.com/watch?v=Sd70H8IfrmU',
+        bulletin: 'https://o-site.spb.ru/_races/210117_LO/210117_Info.pdf',
         o_site: '210117_LO',
-        bulletin: 'https://o-site.spb.ru/_races/210117_LO/210117_Info.pdf'
+        o_gps: {
+            'П-во': 8870,
+            'М40/Ж21': 8877
+        }
     },
     {
         id: 'SPB_20210123_1',
@@ -94,7 +112,8 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/210114/210123_info3.pdf',
         reskeep: 419,
         strava: 4666404884,
-        map: 'pavlovsk_2012'
+        map: 'pavlovsk_2012',
+        o_gps: 8889
     },
     {
         id: 'SPB_20210124_1',
@@ -125,7 +144,15 @@ let events2021 = [
         name: 'Чемпионат и Первенство СЗФО и ЦФО',
         place: 'Петровское',
         res: 'https://o-site.spb.ru/_races/21012830/210129_rez.htm',
-        o_site: '21012830'
+        o_site: '21012830',
+        o_gps: {
+            '30-М': 8922,
+            '30-Ж': 8926,
+            '31-М1': 8927,
+            '31-М3': 8928,
+            '31-Ж1': 8930,
+            '31-Ж3': 8929
+        }
     },
     {
         id: 'SPB_20210205_1',
@@ -158,7 +185,8 @@ let events2021 = [
         start: 'VSEV_VESTI',
         o_site: '21020607VV',
         bulletin: 'https://o-site.spb.ru/_races/21020607VV/21020607_info1.pdf',
-        strava: 4743584991
+        strava: 4743584991,
+        o_gps: 8996
     },
     {
         id: 'SPB_20210207_2',
@@ -172,7 +200,8 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/210207_vs/210207_info5.pdf',
         reskeep: 420,
         strava: 4748550735,
-        map: 'pushkin_babolovsky_2019'
+        map: 'pushkin_babolovsky_2019',
+        o_gps: 8969
     },
     {
         id: 'SPB_20210210_1',
@@ -198,7 +227,8 @@ let events2021 = [
         o_site: '210214',
         bulletin: 'https://o-site.spb.ru/_races/210214/210214_info.pdf',
         reskeep: 414,
-        strava: 4784783686
+        strava: 4784783686,
+        o_gps: 9019
     },
     {
         id: 'SPB_20210217_1',
@@ -223,7 +253,8 @@ let events2021 = [
         info: 'Рогейн в форматах: 3 и 5 часов, бег или лыжи на выбор. Команда организаторов #hardadventure; электронная отметка SFR; камера хранения; теплые раздевалки; железная медаль (за доп.плату); профессиональные фотографии.',
         video: 'https://www.youtube.com/watch?v=SN59U-DJNTs',
         start: 'HARD',
-        o_site: '210221_hard'
+        o_site: '210221_hard',
+        o_gps: 9052
     },
     {
         id: 'SPB_20210220_1',
@@ -237,7 +268,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210221/res1.htm',
         o_site: '210221',
         bulletin: 'https://o-site.spb.ru/_races/210221/2021_02_21-22_info.pdf',
-        reskeep: [421, 422]
+        reskeep: [421, 422],
+        o_gps: 9040
     },
     {
         id: 'SPB_20210225_1',
@@ -258,7 +290,8 @@ let events2021 = [
         fmt: 'Рогейн 3 и 6 часов, лыжи/бег/вело',
         owner: 'MULTSPORT',
         o_site: '210228r',
-        map: 'vuoksa_rogaine_2019'
+        map: 'vuoksa_rogaine_2019',
+        o_gps: 9061
     },
     {
         id: 'SPB_20210227_1',
@@ -272,7 +305,8 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/210227/2021_02_27-28_info1-2.pdf',
         reskeep: 423,
         strava: 4858008623,
-        map: 'orekhovo_nyrkovo_winter_2012'
+        map: 'orekhovo_nyrkovo_winter_2012',
+        o_gps: 9058
     },
     {
         id: 'SPB_20210306_1',
@@ -283,7 +317,8 @@ let events2021 = [
         fmt: '6',
         link: 'https://vk.com/event166397868',
         video: ['https://www.youtube.com/watch?v=PPhP6GO3Pqs','https://www.youtube.com/watch?v=LG1pnTlwcdo'],
-        map: 'omchino_luzhsky_2022'
+        map: 'omchino_luzhsky_2022',
+        o_gps: 9060
     },
     {
         id: 'SPB_20210307_1',
@@ -310,16 +345,6 @@ let events2021 = [
         map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
-        id: 'SPB_20210307_3',
-        date: '2021-03-07',
-        place: 'Орехово',
-        name: 'Санкт-Петербургские студенческие соревнования по спортивному ориентированию',
-        type: 'SKI',
-        info: 'Санкт-Петербургские студенческие соревнования по спортивному ориентированию (лыжные дисциплины).',
-        o_site: '210307',
-        map: 'orekhovo_nyrkovo_winter_2012'
-    },
-    {
         id: 'SPB_20210308_1',
         date: '2021-03-08',
         place: 'Сосновка',
@@ -331,7 +356,8 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/210308/210308_info2_1.pdf',
         reskeep: 427,
         strava: 4911544041,
-        map: 'sosnovka_2014'
+        map: 'sosnovka_2014',
+        o_gps: 9078
     },
     {
         id: 'SPB_20210308_2',
@@ -356,7 +382,8 @@ let events2021 = [
         name: 'Тренировка от Авроры',
         reskeep: 424,
         strava: [5023572768,5024474207],
-        map: 'rzhevsky_2024'
+        map: 'rzhevsky_2024',
+        o_gps: 9206
     },
     {
         id: 'SPB_20210407_1',
@@ -366,7 +393,11 @@ let events2021 = [
         start: 'SPRINT_TOUR',
         reskeep: 429,
         map: 'big_okhta_2017',
-        photo: 'https://vk.ru/album-92124592_278796742'
+        photo: 'https://vk.ru/album-92124592_278796742',
+        o_gps: {
+            'М': 9335,
+            'Ж': 9340
+        }
     },
     {
         id: 'SPB_20210410_1',
@@ -376,7 +407,8 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '4, 2',
         link: 'https://vk.com/club91656163',
-        strava: 5103019749
+        strava: 5103019749,
+        o_gps: 9356
     },
     {
         id: 'SPB_20210411_2',
@@ -385,7 +417,8 @@ let events2021 = [
         name: 'Кубок Белых Ночей, 11 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2021BN/210411_split.htm',
-        reskeep: 437
+        reskeep: 437,
+        o_gps: 9358
     },
     {
         id: 'SPB_20210414_1',
@@ -395,7 +428,11 @@ let events2021 = [
         start: 'SPRINT_TOUR',
         reskeep: 430,
         map: 'berezovy_sad_2016',
-        strava: 5126889730
+        strava: 5126889730,
+        o_gps: {
+            'М': 9388,
+            'Ж': 9389
+        }
     },
     {
         id: 'SPB_20210417_1',
@@ -493,7 +530,21 @@ let events2021 = [
         o_site: '210424-25',
         bulletin: 'https://o-site.spb.ru/_races/210424-25/info3.pdf',
         reskeep: [448, 449],
-        strava: [5184271179,5189322903]
+        strava: [5184271179,5189322903],
+        o_gps: {
+            '24-М12': 9490,
+            '24-Ж12': 9502,
+            '24-М14': 9503,
+            '24-Ж14': 9504,
+            '24-М21': 9567,
+            '24-М45': 9583,
+            '25-М12': 9506,
+            '25-Ж12': 9505,
+            '25-М14': 9508,
+            '25-Ж14': 9507,
+            '25-М45,Ж20/21': 9627,
+            '25-М16/50,Ж18/35': 9621
+        }
     },
     {
         id: 'SPB_20210424_2',
@@ -502,7 +553,8 @@ let events2021 = [
         name: 'На оредежских берегах',
         type: 'ROGAINE',
         fmt: '6',
-        link: 'https://vk.com/event166397868'
+        link: 'https://vk.com/event166397868',
+        o_gps: 9585
     },
     {
         id: 'SPB_20210425_1',
@@ -557,7 +609,14 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/21050103/21050103_info2.pdf',
         reskeep: [450, 446, 451],
         strava: [5228980372,5234839055],
-        map: 'enkolovo_2021'
+        map: 'enkolovo_2021',
+        o_gps: {
+            '01': 9675,
+            '02': 9718,
+            '02-М45/Ж21': 9736,
+            '03-ALL': 9745,
+            '03-М45/Ж21': 9763
+        }
     },
     {
         id: 'SPB_20210501_3',
@@ -577,7 +636,8 @@ let events2021 = [
         fmt: '4',
         link: 'https://vk.com/gornycross',
         start: 'GORNY_CROSS',
-        map: 'luga_omchino_gk_2023'
+        map: 'luga_omchino_gk_2023',
+        o_gps: 9885
     },
     {
         id: 'SPB_20210502_1',
@@ -587,7 +647,12 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/14638',
         info: 'Рогейн в форматах: 3 и 6 часов бег, 4 часа вело.',
         start: 'HARD',
-        o_site: '210502_rogaine'
+        o_site: '210502_rogaine',
+        o_gps: {
+            'Rogaine': 9734,
+            'Trail': 9737,
+            'Каникросс': 9738
+        }
     },
     {
         id: 'SPB_20210504_1',
@@ -618,7 +683,8 @@ let events2021 = [
         res: 'http://o-site.spb.ru/_races/2021BN/210507_split.htm',
         reskeep: 454,
         map: 'petjajarvy_2024',
-        strava: [5255567316,5255994172]
+        strava: [5255567316,5255994172],
+        o_gps: 9815
     },
     {
         id: 'SPB_20210507_1',
@@ -657,7 +723,12 @@ let events2021 = [
         o_site: '210509-10_V3',
         bulletin: 'https://o-site.spb.ru/_races/210509-10_V3/100521_bulVTR2021.pdf',
         reskeep: [456, 457, 458],
-        strava: [5266488472,5270566831,5272603253]
+        strava: [5266488472,5270566831,5272603253],
+        o_gps: {
+            '09-Open-A': 9859,
+            '09-Ночное': 9865,
+            '10-Классика': 9878
+        }
     },
     {
         id: 'SPB_20210509_3',
@@ -679,7 +750,11 @@ let events2021 = [
         reskeep: 432,
         strava: 5285445291,
         map: 'sakharova_2015',
-        photo: 'https://vk.ru/album-92124592_279332137'
+        photo: 'https://vk.ru/album-92124592_279332137',
+        o_gps: {
+            'М': 9891,
+            'Ж': 9892
+        }
     },
     {
         id: 'SPB_20210513_1',
@@ -715,7 +790,8 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/210515/INFO-2-SPB.pdf',
         reskeep: 447,
         strava: 5300086795,
-        map: 'litania_2021'
+        map: 'litania_2021',
+        o_gps: 9910
     },
     {
         id: 'SPB_20210515_3',
@@ -728,7 +804,8 @@ let events2021 = [
         fmt: '8 и 16 часов на байдарках, каяках или SUP',
         owner: 'MULTSPORT',
         o_site: '210515r',
-        map: 'vuoksa_rogaine_2019'
+        map: 'vuoksa_rogaine_2019',
+        o_gps: 9902
     },
     {
         id: 'SPB_20210515_4',
@@ -737,7 +814,8 @@ let events2021 = [
         name: 'Новгородский Меридиан',
         type: 'ROGAINE',
         fmt: '4, 2',
-        link: 'https://vk.com/club91656163'
+        link: 'https://vk.com/club91656163',
+        o_gps: 9923
     },
     {
         id: 'SPB_20210516_1',
@@ -748,7 +826,8 @@ let events2021 = [
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга. С выполнением массовых разрядов для всех участников, независимо от района проживания',
         o_site: '210516za',
         strava: 5305377662,
-        map: 'pushkin_babolovsky_2019'
+        map: 'pushkin_babolovsky_2019',
+        o_gps: 9921
     },
     {
         id: 'SPB_20210519_1',
@@ -814,7 +893,11 @@ let events2021 = [
         o_site: '210523',
         bulletin: 'https://o-site.spb.ru/_races/210523/210523_RA_INFO2.pdf',
         reskeep: 465,
-        map: 'udelny_2022'
+        map: 'udelny_2022',
+        o_gps: {
+            '1': 9975,
+            '2': 9982
+        }
     },
     {
         id: 'SPB_20210526_1',
@@ -825,7 +908,11 @@ let events2021 = [
         reskeep: 433,
         strava: 5362352069,
         map: 'okkervil_2024',
-        photo: 'https://vk.ru/album-92124592_279543597'
+        photo: 'https://vk.ru/album-92124592_279543597',
+        o_gps: {
+            'М': 10004,
+            'Ж': 10005
+        }
     },
     {
         id: 'SPB_20210527_1',
@@ -924,7 +1011,8 @@ let events2021 = [
         res: 'http://o-site.spb.ru/_races/2021BN/210530_split.htm',
         map: 'pervomayskoe_2021',
         reskeep: 472,
-        strava: [5382362471,5382809371]
+        strava: [5382362471,5382809371],
+        o_gps: 10038
     },
     {
         id: 'SPB_20210601_1',
@@ -969,7 +1057,6 @@ let events2021 = [
         type: 'VELO',
         res: 'http://sportident.online/ol/?id=360',
         o_site: '210605_MTBO_klass',
-        o_gps: 13866,
         map: 'sverdlovets_velo_2021'
     },
     {
@@ -989,7 +1076,8 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/14643',
         fmt: 'Рогейн в форматах: бег 4 и 8 часов',
         start: 'HARD',
-        o_site: '210606_rogaine'
+        o_site: '210606_rogaine',
+        o_gps: 10124
     },
     {
         id: 'SPB_20210606_2',
@@ -1045,8 +1133,14 @@ let events2021 = [
         fmt: 'ночная эстафета',
         start: 'KKP',
         o_site: '210612-18_KKP',
+        strava: 5460852214,
         bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
-        strava: 5460852214
+        o_gps: {
+            'М1-3': 10175,
+            'М4': 10177,
+            'Ж1-2': 10178,
+            'Ж3': 10179
+        }
     },
     {
         id: 'SPB_20210612_4',
@@ -1078,7 +1172,8 @@ let events2021 = [
         fmt: '4',
         link: 'https://vk.com/rogaine110',
         video: 'https://www.youtube.com/watch?v=aXCgUAfIX1Q',
-        start: 'ROGAINE_110'
+        start: 'ROGAINE_110',
+        o_gps: 10204
     },
     {
         id: 'SPB_20210612_2',
@@ -1115,7 +1210,12 @@ let events2021 = [
         video: [
             'https://www.youtube.com/watch?v=xa-xlJAm9rY',
             'https://rutube.ru/video/0e7079b094a626fbe51935aa7cf880ce/'
-        ]
+        ],
+        o_gps: {
+            'М': 10199,
+            'Ж': 10200,
+            'М21А/45': 10251
+        }
     },
     {
         id: 'SPB_20210614_2',
@@ -1139,7 +1239,12 @@ let events2021 = [
         video: [
             'https://www.youtube.com/watch?v=4PS1TbAmvVw',
             'https://www.youtube.com/watch?v=GiBMhw5FW5M'
-        ]
+        ],
+        o_gps: {
+            'М': 10202,
+            'Ж': 10208,
+            'М21А/45': 10247
+        }
     },
     {
         id: 'SPB_20210616_1',
@@ -1156,7 +1261,12 @@ let events2021 = [
         video: [
             'https://www.youtube.com/watch?v=3EzV2Y0fy8g',
             'https://www.youtube.com/watch?v=JQ_BQAA4Mho'
-        ]
+        ],
+        o_gps: {
+            'М': 10210,
+            'Ж': 10211,
+            'ALL': 10212
+        }
     },
     {
         id: 'SPB_20210617_1',
@@ -1173,7 +1283,13 @@ let events2021 = [
         video: [
             'https://www.youtube.com/watch?v=IhcGk_yX2Jc',
             'https://www.youtube.com/watch?v=2aQF0F5Y52w'
-        ]
+        ],
+        o_gps: {
+            'М': 10220,
+            'Ж': 10227,
+            'М21А/45': 10248,
+            'ALL': 10228
+        }
     },
     {
         id: 'SPB_20210619_1',
@@ -1240,7 +1356,8 @@ let events2021 = [
         name: 'HARD-Rogaine | Ladoga',
         type: 'ROGAINE',
         fmt: '16, 10, 6',
-        link: 'https://vk.com/hardrogaine'
+        link: 'https://vk.com/hardrogaine',
+        o_gps: 10287
     },
     {
         id: 'SPB_20210701_1',
@@ -1260,7 +1377,11 @@ let events2021 = [
         name: 'Новгородский Меридиан (ночной)',
         type: 'ROGAINE',
         fmt: '4, 2',
-        link: 'https://vk.com/club91656163'
+        link: 'https://vk.com/club91656163',
+        o_gps: {
+            'Пролог': 10401,
+            'Финал': 10402
+        }
     },
     {
         id: 'SPB_20210703_2',
@@ -1300,7 +1421,8 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '8, 4',
         video: 'https://www.youtube.com/watch?v=bRKr1-x0yus',
-        link: 'https://vk.com/event166397868'
+        link: 'https://vk.com/event166397868',
+        o_gps: 10549
     },
     {
         id: 'SPB_20210731_1',
@@ -1324,7 +1446,8 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '3',
         link: 'https://vk.com/rogaine110',
-        start: 'ROGAINE_110'
+        start: 'ROGAINE_110',
+        o_gps: 10631
     },
     {
         id: 'SPB_20210807_1',
@@ -1343,7 +1466,8 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/event166397868',
-        video: 'https://www.youtube.com/watch?v=QUJC6DIzRsw'
+        video: 'https://www.youtube.com/watch?v=QUJC6DIzRsw',
+        o_gps: 10662
     },
     {
         id: 'SPB_20210808_1',
@@ -1361,7 +1485,8 @@ let events2021 = [
         name: 'HARD-Adventure Race',
         type: 'ROGAINE',
         fmt: '4',
-        link: 'https://vk.com/hardrogaine'
+        link: 'https://vk.com/hardrogaine',
+        o_gps: 10715
     },
     {
         id: 'SPB_20210815_1',
@@ -1373,7 +1498,8 @@ let events2021 = [
         o_site: '210815',
         bulletin: 'https://o-site.spb.ru/_races/210815/210815_info.pdf',
         reskeep: 482,
-        strava: [5796117417,5796461444,5796464578]
+        strava: [5796117417,5796461444,5796464578],
+        o_gps: 10691
     },
     {
         id: 'SPB_20210821_1',
@@ -1413,7 +1539,8 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '4',
         link: 'https://vk.com/rogaine110',
-        start: 'ROGAINE_110'
+        start: 'ROGAINE_110',
+        o_gps: 10772
     },
     {
         id: 'SPB_20210827_1',
@@ -1444,7 +1571,8 @@ let events2021 = [
         reg: 'http://www.multsport.ru/starts/veloizol21/registration.html',
         fmt: '4 и 8 часов. Велосипедный и беговой зачеты',
         owner: 'MULTSPORT',
-        o_site: '210829'
+        o_site: '210829',
+        o_gps: 10818
     },
     {
         id: 'SPB_20210829_1',
@@ -1476,8 +1604,17 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/280821_50Verst/50_Verst_2021_result.pdf',
         info: '2ая ночная эстафета от клуба Nord West',
         video: 'https://www.youtube.com/watch?v=nOUZ0_ku74g',
+        bulletin: 'https://o-site.spb.ru/_races/280821_50Verst/50_vyorst_2021_new.pdf',
         o_site: '280821_50Verst',
-        bulletin: 'https://o-site.spb.ru/_races/280821_50Verst/50_vyorst_2021_new.pdf'
+        o_gps: {
+            'М1': 10868,
+            'М3': 10870,
+            'М4': 10871,
+            'М5': 10872,
+            'Ж1': 10873,
+            'Ж2': 10874,
+            'Ж3': 10875
+        }
     },
     {
         id: 'SPB_20210904_2',
@@ -1487,7 +1624,8 @@ let events2021 = [
         place: 'Литейный проспект',
         reskeep: 462,
         me: 'М',
-        strava: 5902153209
+        strava: 5902153209,
+        o_gps: 10877
     },
     {
         id: 'SPB_20210904_4',
@@ -1496,7 +1634,8 @@ let events2021 = [
         name: 'Псковский городской рогейн',
         type: 'ROGAINE',
         fmt: '4, 2',
-        link: 'https://opskov.ru/pgr2021/'
+        link: 'https://opskov.ru/pgr2021/',
+        o_gps: 10859
     },
     {
         id: 'SPB_20210905_1',
@@ -1520,7 +1659,8 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/2021BN/210905_info.pdf',
         reskeep: 476,
         strava: [5909211506,5909484049],
-        map: 'pervomayskoe_2021'
+        map: 'pervomayskoe_2021',
+        o_gps: 10900
     },
     {
         id: 'SPB_20210905_3',
@@ -1541,7 +1681,8 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/registration/historyrace2021',
         res: 'https://o-site.spb.ru/_races/210911/210911_res.htm',
         fmt: '8 часов вело',
-        o_site: '210911'
+        o_site: '210911',
+        o_gps: 10931
     },
     {
         id: 'SPB_20210912_1',
@@ -1551,7 +1692,8 @@ let events2021 = [
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/210911_lo/perv_kom.pdf',
         o_site: '210911_lo',
-        reskeep: 490
+        reskeep: 490,
+        o_gps: 10941
     },
     {
         id: 'SPB_20210915_1',
@@ -1563,7 +1705,11 @@ let events2021 = [
         reskeep: 486,
         video: 'https://www.youtube.com/watch?v=HZ4Npy4VtT8',
         strava: 5964941746,
-        photo: 'https://vk.ru/album-92124592_280942284'
+        photo: 'https://vk.ru/album-92124592_280942284',
+        o_gps: {
+            'М': 10950,
+            'Ж': 10954
+        }
     },
     {
         id: 'SPB_20210918_1',
@@ -1584,7 +1730,8 @@ let events2021 = [
         name: 'Дуатлон-рогейн',
         type: 'ROGAINE',
         fmt: '6',
-        link: 'https://vk.com/event166397868'
+        link: 'https://vk.com/event166397868',
+        o_gps: 11002
     },
     {
         id: 'SPB_20210919_1',
@@ -1647,7 +1794,8 @@ let events2021 = [
         name: 'White Nights Sprint #6 (ЦОЙ-спринт)',
         start: 'WHITE_NIGHTS',
         reskeep: 369,
-        strava: 6014843441
+        strava: 6014843441,
+        o_gps: 11071
     },
     {
         id: 'SPB_20210925_5',
@@ -1674,7 +1822,13 @@ let events2021 = [
         o_site: '210926',
         bulletin: 'https://o-site.spb.ru/_races/210926/nfo3.pdf',
         reskeep: 492,
-        strava: 6021509523
+        strava: 6021509523,
+        o_gps: {
+            'М': 11060,
+            'Ж': 11061,
+            'М18/21К/40/45/Ж20': 11088,
+            'Ф-Сл': 11103
+        }
     },
     {
         id: 'SPB_20210926_2',
@@ -1699,7 +1853,11 @@ let events2021 = [
         reskeep: 487,
         video: 'https://www.youtube.com/watch?v=geYSM5DsKGg',
         strava: [6038430926,6038435320],
-        photo: 'https://vk.ru/album-92124592_281129924'
+        photo: 'https://vk.ru/album-92124592_281129924',
+        o_gps: {
+            'М': 11140,
+            'Ж': 11141
+        }
     },
     {
         id: 'SPB_20211002_1',
@@ -1711,7 +1869,12 @@ let events2021 = [
         o_site: '211002',
         bulletin: 'https://o-site.spb.ru/_races/211002/211002_info2.pdf',
         reskeep: 493,
-        strava: [6051938295,6051944260]
+        strava: [6051938295,6051944260],
+        o_gps: {
+            'Эстафета М90': 11168,
+            'Фитнес-лонг': 11177,
+            'ALL': 11165
+        }
     },
     {
         id: 'SPB_20211003_1',
@@ -1720,8 +1883,16 @@ let events2021 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, классика',
         start: 'SPB_CHAMP',
         o_site: '211003',
+        reskeep: 494,
         bulletin: 'https://o-site.spb.ru/_races/211003/211003_info.pdf',
-        reskeep: 494
+        o_gps: {
+            'М21': 11164,
+            'Ж21': 11173,
+            'М12': 11175,
+            'Ж12': 11176,
+            'М10/Ж10': 11174,
+            'ALL': 11172
+        }
     },
     {
         id: 'SPB_20211007_1',
@@ -1780,7 +1951,8 @@ let events2021 = [
         start: 'SPRINT_TOUR',
         reskeep: 488,
         strava: 6085105291,
-        photo: 'https://vk.ru/album-92124592_281271230'
+        photo: 'https://vk.ru/album-92124592_281271230',
+        o_gps: 11229
     },
     {
         id: 'SPB_20211009_5',
@@ -1819,7 +1991,11 @@ let events2021 = [
         res: 'http://orgeo.ru/live/#/18928',
         owner: 'VYBORG',
         o_site: '21101617',
-        reskeep: [497, 498]
+        reskeep: [497, 498],
+        o_gps: {
+            '16': 11305,
+            '17': 11315
+        }
     },
     {
         id: 'SPB_20211016_2',
@@ -1843,7 +2019,8 @@ let events2021 = [
         start: 'ROGAINE_110',
         o_site: '210613_r110',
         bulletin: 'https://o-site.spb.ru/_races/210613_r110/211017_r110.pdf',
-        strava: 6126215569
+        strava: 6126215569,
+        o_gps: 11333
     },
     {
         id: 'SPB_20211017_2',
@@ -1881,7 +2058,8 @@ let events2021 = [
         name: 'Кубок ЛО по рогейну, финал',
         type: 'ROGAINE',
         reg: 'http://sport-orient.ru/products/rogejn/final-klo-2021',
-        o_site: '211023'
+        o_site: '211023',
+        o_gps: 11375
     },
     {
         id: 'SPB_20211023_2',
@@ -1907,7 +2085,13 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/211024/211024_info.pdf',
         map: 'bylinnoe_2023',
         reskeep: 499,
-        strava: 6159702422
+        strava: 6159702422,
+        o_gps: {
+            'М': 11354,
+            'Ж': 11364,
+            'М21А': 11377,
+            'ALL': 11378
+        }
     },
     {
         id: 'SPB_20211030_1',
@@ -1943,7 +2127,8 @@ let events2021 = [
             'https://rutube.ru/video/993111f4f4d11d1e3e2cad57d1a224f0/'
         ],
         map: 'garbolovo_sirkkajarvi',
-        strava: 6186875863
+        strava: 6186875863,
+        o_gps: 11431
     },
     {
         id: 'SPB_20211030_4',
@@ -1971,7 +2156,8 @@ let events2021 = [
         name: 'Кубок России по рогейну',
         type: 'ROGAINE',
         fmt: '24, 6',
-        link: 'http://novoros-rogaining.ru/'
+        link: 'http://novoros-rogaining.ru/',
+        o_gps: 11444
     },
     {
         id: 'SPB_20211031_1',
@@ -1981,8 +2167,9 @@ let events2021 = [
         start: 'PERSPEKTIVA',
         reg: 'http://o-reg.spb.ru/entry-list?id=1319',
         res: 'https://o-site.spb.ru/_races/211031P/211031_res.htm',
+        bulletin: 'https://o-site.spb.ru/_races/211031P/211031%20info2_p2.pdf',
         o_site: '211031P',
-        bulletin: 'https://o-site.spb.ru/_races/211031P/211031%20info2_p2.pdf'
+        o_gps: 11435
     },
     {
         id: 'SPB_20211031_2',
@@ -1993,7 +2180,8 @@ let events2021 = [
         res: 'http://o-site.spb.ru/_races/2022BN/211031_split.htm',
         map: 'bolotnaya_station_2019',
         reskeep: 500,
-        strava: 6191799353
+        strava: 6191799353,
+        o_gps: 11436
     },
     {
         id: 'SPB_20211031_3',
@@ -2016,7 +2204,8 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/211104_OM/Info_OsM1_211104.pdf',
         reskeep: 501,
         strava: 6210792077,
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        o_gps: 11461
     },
     {
         id: 'SPB_20211104_2',
@@ -2036,7 +2225,8 @@ let events2021 = [
         res: 'http://o-site.spb.ru/_races/2022BN/211107_split.htm',
         map: 'petjajarvy_2024',
         reskeep: 502,
-        strava: 6223922266
+        strava: 6223922266,
+        o_gps: 11492
     },
     {
         id: 'SPB_20211113_1',
@@ -2057,11 +2247,12 @@ let events2021 = [
         map: 'lembolovo_orekhovo_peski_gk_2026',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/2021GK/211113R_res.pdf',
+        bulletin: 'https://o-site.spb.ru/_races/2021GK/211113R_info.pdf',
         fmt: '6/2 часов бег, 5 часа вело',
         start: 'GORNY_CROSS',
         o_site: '2021GK',
-        bulletin: 'https://o-site.spb.ru/_races/2021GK/211113R_info.pdf',
-        strava: 6250999443
+        strava: 6250999443,
+        o_gps: 11521
     },
     {
         id: 'SPB_20211114_1',
@@ -2095,7 +2286,8 @@ let events2021 = [
         map: 'pervomayskoe_2021',
         reskeep: 503,
         strava: 6287291224,
-        map: 'pervomayskoe_2021'
+        map: 'pervomayskoe_2021',
+        o_gps: 11564
     },
     {
         id: 'SPB_20211123_1',
@@ -2116,7 +2308,8 @@ let events2021 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2022BN/211127_split.htm',
         reskeep: 504,
-        strava: 6312416014
+        strava: 6312416014,
+        o_gps: 11615
     },
     {
         id: 'SPB_20211128_1',
@@ -2128,7 +2321,8 @@ let events2021 = [
         o_site: '211128_ST',
         bulletin: 'https://o-site.spb.ru/_races/211128_ST/211128_info3.pdf',
         reskeep: 505,
-        strava: 6316864782
+        strava: 6316864782,
+        o_gps: 11603
     },
     {
         id: 'SPB_20211204_1',
@@ -2165,7 +2359,11 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/211212_ST/211212_info2.pdf',
         reskeep: 55,
         strava: 6374557829,
-        map: 'internatsionalistov_2021'
+        map: 'internatsionalistov_2021',
+        o_gps: {
+            'ALL': 11700,
+            'М': 11719
+        }
     },
     {
         id: 'SPB_20211214_1',
@@ -2217,9 +2415,10 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1328',
         res: 'https://o-site.spb.ru/_races/211226B/211226_res.htm',
         info: 'ВНИМАНИЕ! В СВЯЗИ С ТЯЖЕЛОЙ СНЕЖНОЙ ОБСТАНОВКОЙ, ВМЕСТО ЗАЯВЛЕННЫХ В БЮЛЛЕТЕНЕ ДИСТАНЦИЙ A, B, C БУДУТ ПРЕДЛОЖЕНЫ 2 ДИСТАНЦИИ: ДЛИННАЯ (4.4км 10КП) И КОРОТКАЯ (2.1км 5КП). ВСЕ ЗАЯВЛЕННЫЕ УЧАСТНИКИ СМОГУТ ВЫБРАТЬ ДИСТАНЦИЮ НА РЕГИСТРАЦИИ. СНЕЖНЫЙ ПОКРОВ СОСТАВЛЯЕТ ~50см, ВЫБИРАЙТЕ ОБУВЬ ПО ПОГОДЕ!',
-        o_site: '211226B',
         bulletin: 'https://o-site.spb.ru/_races/211226B/211226B_info4.pdf',
-        strava: 6428571215
+        o_site: '211226B',
+        strava: 6428571215,
+        o_gps: 11754
     },
     {
         id: 'SPB_20211226_2',

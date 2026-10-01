@@ -147,7 +147,8 @@ let events2013 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130216/130216_SPLIT.htm',
         o_site: '130216',
-        map: 'toksovo_shkolnoe_winter_2013'
+        map: 'toksovo_shkolnoe_winter_2013',
+        o_gps: 35
     },
     {
         id: 'SPB_20130217_1',
@@ -168,6 +169,7 @@ let events2013 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130223Ch/130223_split.htm',
         o_site: '130223Ch',
+        o_gps: 36,
         bulletin: 'https://o-site.spb.ru/_races/130223Ch/130223_info3.htm'
     },
     {
@@ -224,6 +226,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130308_ch/130308_split.htm',
         info: 'Эстафета проводится по группам: Мдо13- 2 этапа, Ждо13- 2 этапа Мдо15- 3 этапа, Ждо15- 3 этапа, Мдо18- 3 этапа, Ждо18- 3 этапа, МЭ- 3 этапа, ЖЭ- 3 этапа, М90 (сумма возрастов ≥90 лет, мин. возраст 35 лет)- 2 этапа, Ж90 (сумма возрастов ≥90 лет, мин. возраст 35 лет)- 2 этапа, М110 (сумма возрастов ≥110 лет, мин. возраст 45 лет)- 2 этапа, Ж110 (сумма возрастов ≥110 лет, мин. возраст 45 лет)- 2 этапа',
         o_site: '130308_ch',
+        o_gps: 39,
         bulletin: 'https://o-site.spb.ru/_races/130308_ch/13030809_info3.htm'
     },
     {
@@ -244,7 +247,8 @@ let events2013 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130309/130309_split.htm',
         info: 'Место проведения: п.Ильичево, Болотная станция',
-        o_site: '130309'
+        o_site: '130309',
+        o_gps: 40
     },
     {
         id: 'SPB_20130310_1',
@@ -920,7 +924,11 @@ let events2013 = [
         o_site: '13062830_MS',
         bulletin: 'https://o-site.spb.ru/_races/13062830_MS/130628-30_info.htm',
         endDate: '2013-06-30',
-        map: ['vyborg_saymenskie_dachi_2013','mms_2013_06_28','mms_2013_06_29','mms_2013_06_30']
+        map: ['vyborg_saymenskie_dachi_2013','mms_2013_06_28','mms_2013_06_29','mms_2013_06_30'],
+        o_gps: {
+            'М': 56,
+            'Ж': 55
+        }
     },
     {
         id: 'SPB_20130706_1',
@@ -1085,8 +1093,14 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/13082425/13082425_res.htm',
         o_site: '13082425',
+        map: 'psk_2013_08_24',
         bulletin: 'https://o-site.spb.ru/_races/13082425/13082425_info2.pdf',
-        map: 'psk_2013_08_24'
+        o_gps: {
+            '24-М21': 74,
+            '24-М45': 75,
+            '25-М21': 76,
+            '25-М45': 77
+        }
     },
     {
         id: 'SPB_20130825_1',
@@ -1289,7 +1303,11 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130922/130922_split.htm',
         video: 'https://www.youtube.com/watch?v=59GaGUqEw1c',
         o_site: '130922',
-        reskeep: 226
+        reskeep: 226,
+        o_gps: {
+            'М': 83,
+            'Ж': 84
+        }
     },
     {
         id: 'SPB_20130924_1',
@@ -1370,6 +1388,10 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/130929/130929_res.htm',
         o_site: '130929',
+        o_gps: {
+            'М': 92,
+            'Ж': 93
+        },
         bulletin: 'http://gs-oc.ru/phocadownload/competitions/mhy2013/130929_info.pdf'
     },
     {
@@ -1449,6 +1471,10 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/131016/20131016-rez.htm',
         o_site: '131016',
+        o_gps: {
+            'М': 116,
+            'Ж': 117
+        },
         bulletin: 'https://o-site.spb.ru/_races/131016/131016_info2.pdf'
     },
     {
@@ -1530,7 +1556,11 @@ let events2013 = [
         place: 'Первомайское',
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/131027_split.htm',
         start: 'YM_CUP',
-        o_site: '2013CupYM'
+        o_site: '2013CupYM',
+        o_gps: {
+            'М': 122,
+            'Ж': 123
+        }
     },
     {
         id: 'SPB_20131104_1',

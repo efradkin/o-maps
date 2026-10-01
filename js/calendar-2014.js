@@ -719,8 +719,8 @@ let events2014 = [
         bulletin: 'https://o-site.spb.ru/_races/14060708/14060708_info2.pdf',
         map: ['psk_2014_06_07', 'psk_2014_06_08'],
         o_gps: {
-            '07':199,
-            '08':200
+            '07':200,
+            '08':199
         },
         start: ['KZNTSVA','SPB_CHAMP'],
         reskeep: 246
@@ -778,7 +778,11 @@ let events2014 = [
         name: 'Кубок Карельского перешейка',
         res: 'https://o-site.spb.ru/_races/14062326_KKP/140623_res.htm',
         start: 'KKP',
-        o_site: '14062326_KKP'
+        o_site: '14062326_KKP',
+        o_gps: {
+            '24-М': 215,
+            '24-Ж': 216
+        }
     },
     {
         id: 'SPB_20140623_2',
@@ -1271,7 +1275,11 @@ let events2014 = [
         photo: 'http://fotki.yandex.ru/users/wavygirl/album/453782',
         video: 'https://www.youtube.com/watch?v=mxzdkz77ZB4',
         o_site: '141005',
-        reskeep: 225
+        reskeep: 225,
+        o_gps: {
+            'М': 294,
+            'Ж': 295
+        }
     },
     {
         id: 'SPB_20141007_1',
@@ -1314,7 +1322,8 @@ let events2014 = [
             'https://www.youtube.com/watch?v=rfK9Sc0xxiU'
         ],
         start: 'OKINCHITSA',
-        o_site: '14101112'
+        o_site: '14101112',
+        o_gps: 304
     },
     {
         id: 'SPB_20141011_2',

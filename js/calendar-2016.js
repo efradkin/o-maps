@@ -121,8 +121,9 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160221_st/160221_res.htm',
         photo: 'http://vk.com/fotografiruy_vse?z=photo-42649628_403107330%2Falbum-42649628_228558137%2Frev',
         o_site: '160221_st',
+        map: 'sosnovka_2014',
         bulletin: 'https://o-site.spb.ru/_races/160221_st/160221_info3.pdf',
-        map: 'sosnovka_2014'
+        o_gps: 900
     },
     {
         id: 'SPB_20160222_1',
@@ -202,6 +203,11 @@ let events2016 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/160308/160308_res.htm',
         o_site: '160308',
+        o_gps: {
+            'М': 923,
+            'Ж': 924,
+            'М15': 925
+        },
         bulletin: 'https://o-site.spb.ru/_races/160308/160308_info_3.pdf'
     },
     {
@@ -233,8 +239,9 @@ let events2016 = [
         res: 'http://orgeo.ru/online/2327?s=5',
         info: 'Соревнования проводятся 13 марта 2016 года в Отдельном (Нижнем) парке г.Пушкина. Старт и финиш находятся в восточной части парка вблизи прохода под железной дорогой из пос. Тярлево в парк.',
         o_site: '160313_ST',
+        map: 'pushkin_nizhny_2019',
         bulletin: 'https://o-site.spb.ru/_races/160313_ST/160313_info3.pdf',
-        map: 'pushkin_nizhny_2019'
+        o_gps: 932
     },
     {
         id: 'SPB_20160319_1',
@@ -684,7 +691,11 @@ let events2016 = [
         o_site: '160521',
         bulletin: 'https://o-site.spb.ru/_races/160521/160521_info2-3.htm',
         reskeep: 256,
-        map: 'politekh_2022'
+        map: 'politekh_2022',
+        o_gps: {
+            'М': 1127,
+            'Ж': 1128
+        }
     },
     {
         id: 'SPB_20160521_2',
@@ -729,7 +740,13 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160522_LO/160522_res1.htm',
         video: 'https://www.youtube.com/watch?v=fh3Gmjc_HS0',
         owner: 'SFSO_LO',
-        o_site: '160522_LO'
+        o_site: '160522_LO',
+        o_gps: {
+            'М': 1125,
+            'Ж': 1126,
+            'М16': 1141,
+            'Ж16': 1140
+        }
     },
     {
         id: 'SPB_20160522_2',
@@ -807,8 +824,12 @@ let events2016 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/160529/160529_res_perv.pdf',
         o_site: '160529',
+        reskeep: 244,
         bulletin: 'https://o-site.spb.ru/_races/160529/160529_info2.pdf',
-        reskeep: 244
+        o_gps: {
+            'М': 1150,
+            'Ж': 1151
+        }
     },
     {
         id: 'SPB_20160529_2',
@@ -848,7 +869,14 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/16060405VT/160605_res.pdf',
         video: 'https://www.youtube.com/watch?v=Xe47MvA0hBc',
         owner: ['VYBORG','NW'],
-        o_site: '16060405VT'
+        o_site: '16060405VT',
+        o_gps: {
+            '4-М': 1178,
+            '4-Ж': 1179,
+            '5-М': 1180,
+            '5-Ж': 1181,
+            '4-М16': 1185
+        }
     },
     {
         id: 'SPB_20160608_1',
@@ -1152,7 +1180,8 @@ let events2016 = [
         type: 'ROGAINE',
         reg: 'http://x-race.info/calendar/67459/request/',
         res: 'https://o-site.spb.ru/_races/160827/HR2016_res.pdf',
-        o_site: '160827'
+        o_site: '160827',
+        o_gps: 1354
     },
     {
         id: 'SPB_20160827_2',
@@ -1346,7 +1375,11 @@ let events2016 = [
         place: 'Зеркальный',
         res: ['https://o-site.spb.ru/_races/160924-26/160924_split.htm','https://o-site.spb.ru/_races/160924-26/160926_split.htm'],
         o_site: '160924-26',
-        map: 'zerkalny_2002'
+        map: 'zerkalny_2002',
+        o_gps: {
+            '24': 1404,
+            '26': 1414
+        }
     },
     {
         id: 'SPB_20160924_3',
@@ -1375,8 +1408,13 @@ let events2016 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/160925/160925_res.htm',
         o_site: '160925',
+        reskeep: 237,
         bulletin: 'https://o-site.spb.ru/_races/160925/160925_info3.pdf',
-        reskeep: 237
+        o_gps: {
+            'М': 1395,
+            'Ж': 1396,
+            'ALL': 1397
+        }
     },
     {
         id: 'SPB_20160928_1',
@@ -1632,7 +1670,12 @@ let events2016 = [
         place: 'Мичуринское',
         res: 'https://o-site.spb.ru/_races/2016YC/161023_res.pdf',
         o_site: '2016YC',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        o_gps: {
+            'М': 1475,
+            'Ж': 1476,
+            'ALL': 1474
+        }
     },
     {
         id: 'SPB_20161029_1',
@@ -1789,6 +1832,7 @@ let events2016 = [
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/161127_tropa/161127_res.htm',
         o_site: '161127_tropa',
+        o_gps: 1584,
         bulletin: 'https://o-site.spb.ru/_races/161127_tropa/161127_info3.pdf'
     },
     {
@@ -1888,8 +1932,9 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/161218_ST/161218_res.htm',
         info: '18 декабря 2016 г. состоится финальный этап Кубка Санкт-Петербурга "СНЕЖНАЯ ТРОПА - 2016". Соревнования пройдут в южной части парка "Сосновка". Размещение участников в школе № 534 (Светлановский пр., 31). В программе спринтерская дистанция в заданном направлении.',
         o_site: '161218_ST',
+        map: 'sosnovka_2014',
         bulletin: 'https://o-site.spb.ru/_races/161218_ST/161218_info3.pdf',
-        map: 'sosnovka_2014'
+        o_gps: 1623
     },
     {
         id: 'SPB_20161225_1',

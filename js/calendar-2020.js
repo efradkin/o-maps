@@ -10,7 +10,11 @@ let events2020 = [
         owner: 'NW',
         o_site: '200107-08',
         bulletin: 'https://o-site.spb.ru/_races/200107-08/200107-08_info1.pdf',
-        reskeep: [297, 298]
+        reskeep: [297, 298],
+        o_gps: {
+            '07': 6943,
+            '08': 6947
+        }
     },
     {
         id: 'SPB_20200108_1',
@@ -20,7 +24,8 @@ let events2020 = [
         type: 'SKI',
         reg: 'http://sportident.ru/entry/event_info.php?id=4430',
         info: 'Стоимость за наличный расчет 1500 руб чел/день, по сертификату 700 руб чел/день + 250 руб чел/день за техническое обеспечение. Орг. взнос за Рождественские старты отдельно. Участникам будет доступно проживание в 2-4-6 местных номерах, пятиразовое питание, все кружки лагеря, спортивные тренировки. Для групп из 15 человек, 1 сопровождающий бесплатно. Заявки на участие принимаются до 20 ноября. Количество мест ограничено. Заявки принимаются по электронной почте cupladoga@mail.ru или по телефону +79062577200 Дополнительная информация появится в ближайшее время.',
-        o_site: '200102-08'
+        o_site: '200102-08',
+        o_gps: 6962
     },
     {
         id: 'SPB_20200111_1',
@@ -80,7 +85,8 @@ let events2020 = [
         bulletin: 'https://o-site.spb.ru/_races/200119_MT/200119_MT_info.pdf',
         reskeep: 204,
         strava: 3024830806,
-        map: 'toksovo_malinovaya_gora_2018'
+        map: 'toksovo_malinovaya_gora_2018',
+        o_gps: 7020
     },
     {
         id: 'SPB_20200119_3',
@@ -89,8 +95,14 @@ let events2020 = [
         start: 'LO_CHAMP',
         place: 'Будогощь',
         reg: 'http://orgeo.ru/event/11719',
+        bulletin: 'https://o-site.spb.ru/_races/200119_lo/20011719_info1.pdf',
         o_site: '200119_lo',
-        bulletin: 'https://o-site.spb.ru/_races/200119_lo/20011719_info1.pdf'
+        o_gps: {
+            '18-М16': 7006,
+            '18-Ж16': 7012,
+            '19-М16': 7018,
+            '19-Ж16': 7019
+        }
     },
     {
         id: 'SPB_20200125_1',
@@ -113,7 +125,8 @@ let events2020 = [
         bulletin: 'https://o-site.spb.ru/_races/200126/200126_IB2.pdf',
         reskeep: 301,
         strava: 3045063542,
-        map: 'pavlovsk_2012'
+        map: 'pavlovsk_2012',
+        o_gps: 7049
     },
     {
         id: 'SPB_20200126_2',
@@ -193,7 +206,8 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/zhenst_rogaine',
-        video: ['https://www.youtube.com/watch?v=JgJ8gM4eBpU','https://www.youtube.com/watch?v=jau_A6i4hkA']
+        video: ['https://www.youtube.com/watch?v=JgJ8gM4eBpU','https://www.youtube.com/watch?v=jau_A6i4hkA'],
+        o_gps: 7098
     },
     {
         id: 'SPB_20200223_1',
@@ -202,7 +216,16 @@ let events2020 = [
         name: 'Зимняя смена в ЗЦ Зеркальный',
         place: 'Зеркальный',
         res: ['https://o-site.spb.ru/_races/200213-23/200215_split.htm','https://o-site.spb.ru/_races/200213-23/200216_split.htm','https://o-site.spb.ru/_races/200213-23/200220_split.htm','https://o-site.spb.ru/_races/200213-23/200222_split.htm'],
-        o_site: '200213-23'
+        o_site: '200213-23',
+        o_gps: {
+            '14': 7120,
+            '15': 7124,
+            '16': 7132,
+            '17': 7144,
+            '18': 7148,
+            '19': 7152,
+            '21': 7157
+        }
     },
     {
         id: 'SPB_20200214_1',
@@ -295,7 +318,8 @@ let events2020 = [
         bulletin: 'https://o-site.spb.ru/_races/200307/200307_info2.pdf',
         reskeep: 323,
         strava: 3161969050,
-        map: 'sestroretsk_dubki_2020'
+        map: 'sestroretsk_dubki_2020',
+        o_gps: 7218
     },
     {
         id: 'SPB_20200308_1',
@@ -356,7 +380,8 @@ let events2020 = [
         start: 'KBN',
         reskeep: 332,
         strava: 3203763422,
-        map: 'kavgolovo_old_ski_track_2023'
+        map: 'kavgolovo_old_ski_track_2023',
+        o_gps: 7289
     },
     {
         id: 'SPB_20200321_2',
@@ -377,7 +402,8 @@ let events2020 = [
         o_site: '2020BN',
         reskeep: 333,
         strava: 3207395628,
-        map: 'pervomayskoe_2021'
+        map: 'pervomayskoe_2021',
+        o_gps: 7298
     },
     {
         id: 'SPB_20200324_1',
@@ -476,7 +502,8 @@ let events2020 = [
         fmt: 'Рогейн 8ч и 16ч (на байдарках)',
         owner: 'MULTSPORT',
         o_site: '200516',
-        map: 'vuoksa_rogaine_2019'
+        map: 'vuoksa_rogaine_2019',
+        o_gps: 7520
     },
     {
         id: 'SPB_20200517_1',
@@ -620,7 +647,8 @@ let events2020 = [
         name: 'Петербургский водный рогейн',
         type: 'ROGAINE',
         fmt: '10, 6',
-        link: 'https://vk.com/adventureraces'
+        link: 'https://vk.com/adventureraces',
+        o_gps: 7781
     },
     {
         id: 'SPB_20200628_1',
@@ -850,7 +878,11 @@ let events2020 = [
         o_site: '200815',
         bulletin: 'https://o-site.spb.ru/_races/200815/tren_tehinfo_2020_08_1516.pdf',
         endDate: '2020-08-16',
-        map: 'orekhovo_figurnoe_velo_2020'
+        map: 'orekhovo_figurnoe_velo_2020',
+        o_gps: {
+            '15': 7988,
+            '16': 7997
+        }
     },
     {
         id: 'SPB_20200815_2',
@@ -986,7 +1018,8 @@ let events2020 = [
         info: 'Чемпионат и Первенство Ленинградской области по спортивному ориентированию «СОСНОВОБОРСКИЕ ДЮНЫ - 2020» Открытое первенство города Сосновый Бор по спортивному ориентированию.',
         o_site: '200905-06',
         reskeep: [360, 361],
-        strava: [4015648137,4020971362]
+        strava: [4015648137,4020971362],
+        o_gps: 8106
     },
     {
         id: 'SPB_20200906_1',
@@ -1040,9 +1073,16 @@ let events2020 = [
         fmt: 'ночная эстафета',
         reg: 'http://sportident.online/entry/?id=4543',
         res: 'https://o-site.spb.ru/_races/200912/200912_rez.htm',
-        o_site: '200912',
         bulletin: 'https://o-site.spb.ru/_races/200912/200912_info.pdf',
-        map: 'tsvelodubovo_2020'
+        o_site: '200912',
+        map: 'tsvelodubovo_2020',
+        o_gps: {
+            '1': 8134,
+            '2': 8135,
+            '3': 8137,
+            '4': 8136,
+            '5': 8138
+        }
     },
     {
         id: 'SPB_20200912_2',
@@ -1067,7 +1107,13 @@ let events2020 = [
         info: 'Чемпионат и Первенство ЛО, массовые соревнования ЛО, дисциплины: 12.09 - кросс-спринт 13.09 - кросс-лонг',
         o_site: '20091213',
         bulletin: 'https://o-site.spb.ru/_races/20091213/20091213_info3-1.pdf',
-        reskeep: [365, 364]
+        reskeep: [365, 364],
+        o_gps: {
+            'Ж16/45/21К/М60': 8143,
+            'Ж18/35/М16/21К/55': 8144,
+            'Ж20/21/М18/35/40': 8145,
+            'М20/21': 8146
+        }
     },
     {
         id: 'SPB_20200912_4',
@@ -1153,7 +1199,8 @@ let events2020 = [
         name: 'Псковский горолской рогейн',
         type: 'ROGAINE',
         fmt: '4, 2',
-        link: 'https://vk.com/rogainpskov'
+        link: 'https://vk.com/rogainpskov',
+        o_gps: 8169
     },
     {
         id: 'SPB_20200920_1',
@@ -1303,7 +1350,8 @@ let events2020 = [
         res: 'http://o-site.spb.ru/_races/2021BN/200927_split.htm',
         reskeep: 381,
         map: 'zaporozhskoe_2020',
-        strava: 4119219789
+        strava: 4119219789,
+        o_gps: 8246
     },
     {
         id: 'SPB_20201001_1',
@@ -1353,7 +1401,8 @@ let events2020 = [
         o_site: '201004',
         reskeep: 383,
         strava: 4149550319,
-        map: 'pukhtolova_gora_2009'
+        map: 'pukhtolova_gora_2009',
+        o_gps: 8263
     },
     {
         id: 'SPB_20201008_1',
@@ -1372,7 +1421,8 @@ let events2020 = [
         place: 'Яппиля',
         name: 'Антиковидная эстафета',
         reskeep: [384, 385],
-        strava: 4176309175
+        strava: 4176309175,
+        o_gps: 8322
     },
     {
         id: 'SPB_20201010_2',
@@ -1408,7 +1458,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201011/20201011_res.htm',
         o_site: '201011',
         bulletin: 'https://o-site.spb.ru/_races/201011/20201011_sprint_info2.pdf',
-        map: 'osinovaja_roscha_velo_2020'
+        map: 'osinovaja_roscha_velo_2020',
+        o_gps: 8327
     },
     {
         id: 'SPB_20201011_2',
@@ -1419,7 +1470,8 @@ let events2020 = [
         res: 'http://o-site.spb.ru/_races/2021BN/201011_split.htm',
         reskeep: 386,
         map: 'pervomayskoe_2021',
-        strava: 4181510517
+        strava: 4181510517,
+        o_gps: 8344
     },
     {
         id: 'SPB_20201017_1',
@@ -1473,7 +1525,8 @@ let events2020 = [
         res: 'http://o-site.spb.ru/_races/2021BN/201018_split.htm',
         reskeep: 389,
         map: 'petjajarvy_2024',
-        strava: 4212065523
+        strava: 4212065523,
+        o_gps: 8399
     },
     {
         id: 'SPB_20201024_1',
@@ -1514,7 +1567,8 @@ let events2020 = [
         ],
         o_site: '201025LO',
         bulletin: 'https://o-site.spb.ru/_races/201025LO/201025_info2.pdf',
-        strava: 4242108810
+        strava: 4242108810,
+        o_gps: 8450
     },
     {
         id: 'SPB_20201031_1',
@@ -1561,7 +1615,8 @@ let events2020 = [
         bulletin: 'https://o-site.spb.ru/_races/201101_perspectiva/201101_info_1.pdf',
         reskeep: 392,
         strava: 4270412163,
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        o_gps: 8473
     },
     {
         id: 'SPB_20201107_1',
@@ -1572,7 +1627,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200711/201107_rez3.htm',
         o_site: '200711',
         reskeep: 393,
-        strava: 4300602827
+        strava: 4300602827,
+        o_gps: 8502
     },
     {
         id: 'SPB_20201107_2',
@@ -1650,7 +1706,8 @@ let events2020 = [
         fmt: 'Рогейн; 7 и 3 часа БЕГ; 6 часа ВЕЛО; трейл',
         start: 'GORNY_CROSS',
         o_site: '2020GK',
-        strava: 4335235686
+        strava: 4335235686,
+        o_gps: 8525
     },
     {
         id: 'SPB_20201114_2',
@@ -1670,7 +1727,8 @@ let events2020 = [
         start: 'ROGAINE_110',
         o_site: '201115_110',
         bulletin: 'https://o-site.spb.ru/_races/201115_110/201115_info2.pdf',
-        strava: 4343003862
+        strava: 4343003862,
+        o_gps: 8531
     },
     {
         id: 'SPB_20201115_2',
@@ -1707,7 +1765,8 @@ let events2020 = [
         reskeep: 402,
         strava: 4374011250,
         me: 'MB',
-        map: 'orekhovo_2024'
+        map: 'orekhovo_2024',
+        o_gps: 8562
     },
     {
         id: 'SPB_20201122_2',
@@ -1737,7 +1796,8 @@ let events2020 = [
         res: 'http://o-site.spb.ru/_races/2020WN/201128_split.htm',
         reskeep: 405,
         strava: 4401434704,
-        map: 'kavgolovo_old_ski_track_2023'
+        map: 'kavgolovo_old_ski_track_2023',
+        o_gps: 8579
     },
     {
         id: 'SPB_20201129_1',
@@ -1750,7 +1810,11 @@ let events2020 = [
         o_site: '201129',
         bulletin: 'https://o-site.spb.ru/_races/201129/201129_info.pdf',
         reskeep: 404,
-        strava: 4406137257
+        strava: 4406137257,
+        o_gps: {
+            'А': 8583,
+            'B': 8582
+        }
     },
     {
         id: 'SPB_20201129_2',
@@ -1785,7 +1849,8 @@ let events2020 = [
         o_site: '2020TT',
         bulletin: 'https://o-site.spb.ru/_races/2020TT/201206TT_info2.pdf',
         reskeep: 403,
-        strava: 4437026952
+        strava: 4437026952,
+        o_gps: 8614
     },
     {
         id: 'SPB_20201212_1',
@@ -1810,7 +1875,8 @@ let events2020 = [
         bulletin: 'https://o-site.spb.ru/_races/201212/201212_info2.pdf',
         reskeep: 408,
         strava: 4462507622,
-        map: 'pushkin_babolovsky_2019'
+        map: 'pushkin_babolovsky_2019',
+        o_gps: 8646
     },
     {
         id: 'SPB_20201213_1',
@@ -1835,7 +1901,8 @@ let events2020 = [
         bulletin: 'https://o-site.spb.ru/_races/201213_1/201213_info1.pdf',
         reskeep: 411,
         strava: 4465890784,
-        map: 'rzhevsky_2024'
+        map: 'rzhevsky_2024',
+        o_gps: 8660
     },
     {
         id: 'SPB_20201213_3',
@@ -1865,7 +1932,8 @@ let events2020 = [
         info: 'Предновогодняя индивидуальная тренировка "В поисках Деда Мороза".',
         o_site: '201220',
         reskeep: 407,
-        map: 'orekhovo_nyrkovo_winter_2012'
+        map: 'orekhovo_nyrkovo_winter_2012',
+        o_gps: 8690
     },
     {
         id: 'SPB_20201220_1',
@@ -1878,7 +1946,8 @@ let events2020 = [
         bulletin: 'https://o-site.spb.ru/_races/201220_bn/201220_info.pdf',
         reskeep: 412,
         strava: 4494278879,
-        map: 'toksovo_okhta_park_2008'
+        map: 'toksovo_okhta_park_2008',
+        o_gps: 8697
     },
     {
         id: 'SPB_20201226_1',
@@ -1891,7 +1960,8 @@ let events2020 = [
         bulletin: 'https://o-site.spb.ru/_races/201226/201226_info2.pdf',
         reskeep: 415,
         strava: 4519141764,
-        map: 'pushkin_nizhny_2019'
+        map: 'pushkin_nizhny_2019',
+        o_gps: 8721
     },
     {
         id: 'SPB_20201227_1',
@@ -1913,7 +1983,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201227/201227_res_1.htm',
         o_site: '201227',
         bulletin: 'https://o-site.spb.ru/_races/201227/201227_info2.pdf',
-        strava: 4524905096
+        strava: 4524905096,
+        o_gps: 8720
     },
     {
         id: 'SPB_20201231_1',

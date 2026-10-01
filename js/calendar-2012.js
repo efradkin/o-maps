@@ -1105,6 +1105,10 @@ let events2012 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/120930/120930_res.htm',
         o_site: '120930',
+        o_gps: {
+            'М': 9,
+            'Ж': 10
+        },
         bulletin: 'https://o-site.spb.ru/_races/120930/120930_info3.pdf'
     },
     {
@@ -1424,6 +1428,7 @@ let events2012 = [
         start: 'SNOW_WAY',
         res: 'http://o-site.spb.ru/_races/121118_tropa/121209_split.htm',
         o_site: '121118_tropa',
+        o_gps: 15,
         bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html'
     },
     {

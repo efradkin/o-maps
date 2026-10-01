@@ -157,6 +157,10 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/150223/150223-2_res.pdf',
         o_site: '150223',
+        o_gps: {
+            'М': 409,
+            'Ж': 410
+        },
         bulletin: 'https://o-site.spb.ru/_races/150223/150223_info3.htm'
     },
     {
@@ -619,8 +623,13 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150516/150516_split.htm',
         video: 'https://www.youtube.com/watch?v=_d2QYPpX-W0',
         o_site: '150516',
+        reskeep: 257,
         bulletin: 'https://o-site.spb.ru/_races/150516/150516_info4.html',
-        reskeep: 257
+        o_gps: {
+            'М': 512,
+            'Ж': 514,
+            'ALL': 513
+        }
     },
     {
         id: 'SPB_20150516_3',
@@ -844,6 +853,10 @@ let events2015 = [
         date: '2015-06-06',
         place: 'Мичуринское',
         name: 'Памяти Сергея Кузнецова',
+        o_gps: {
+            'М':531,
+            'Ж':532
+        },
         res: 'https://o-site.spb.ru/_races/150606/150606_res_correct.htm',
         o_site: '150606',
         bulletin: 'https://o-site.spb.ru/_races/150606/150606_info3.pdf'
@@ -855,9 +868,12 @@ let events2015 = [
         name: 'Чемпионат и Первенство СПб, лонг',
         res: 'https://o-site.spb.ru/_races/150607/150607_offical_res.pdf',
         o_site: '150607',
+        o_gps: {
+            'М':533,
+            'Ж':534
+        },
         bulletin: 'https://o-site.spb.ru/_races/150607/150607_info3.pdf',
         map: 'psk_2015_06_07',
-        o_gps: 531,
         start: ['KZNTSVA','SPB_CHAMP'],
         reskeep: 245
     },
@@ -882,7 +898,8 @@ let events2015 = [
         start: 'NA',
         o_site: '15061215_NA',
         bulletin: 'https://o-site.spb.ru/_races/15061215_NA/15061214_info1_.htm',
-        map: ['na_2015_06_12', 'na_2015_dolgoe', 'na_2015_06_14']
+        map: ['na_2015_06_12', 'na_2015_dolgoe', 'na_2015_06_14'],
+        o_gps: 544
     },
     {
         id: 'SPB_20150616_1',
@@ -948,7 +965,8 @@ let events2015 = [
         place: 'Лемболово',
         name: 'Trail-8',
         info: 'Трейловый забег',
-        o_site: '150704'
+        o_site: '150704',
+        o_gps: 568
     },
     {
         id: 'SPB_20150704_2',
@@ -1414,6 +1432,10 @@ let events2015 = [
         name: 'Марафон на холмах Яппиля',
         res: 'https://o-site.spb.ru/_races/150927/150927_res.htm',
         o_site: '150927',
+        o_gps: {
+            'М': 703,
+            'Ж': 704
+        },
         bulletin: 'https://o-site.spb.ru/_races/150927/150927_info2.pdf'
     },
     {
@@ -1774,8 +1796,9 @@ let events2015 = [
         name: 'Кубок Санкт-Петербурга «СНЕЖНАЯ ТРОПА 2015/2016», 1 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/151122_ST/151122_res.htm',
+        bulletin: 'https://o-site.spb.ru/_races/151122_ST/151122_info4.htm',
         o_site: '151122_ST',
-        bulletin: 'https://o-site.spb.ru/_races/151122_ST/151122_info4.htm'
+        o_gps: 780
     },
     {
         id: 'SPB_20151128_1',
@@ -1816,7 +1839,8 @@ let events2015 = [
         o_site: '151205',
         bulletin: 'https://o-site.spb.ru/_races/151205/151205_info.htm',
         map: 'sosnovka_2014',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        o_gps: 803
     },
     {
         id: 'SPB_20151206_1',
@@ -1826,9 +1850,10 @@ let events2015 = [
         start: 'SNOW_WAY',
         reg: 'http://o-reg.spb.ru/entry-list?id=546',
         res: 'https://o-site.spb.ru/_races/151206_ST/151206_res.htm',
+        bulletin: 'https://o-site.spb.ru/_races/151206_ST/151206_info3.pdf',
         video: ['http://www.northernwind.spb.ru/online/video/','https://www.youtube.com/watch?v=bdkxYzB_1qI','https://www.youtube.com/watch?v=jA06apPgSf8'],
         o_site: '151206_ST',
-        bulletin: 'https://o-site.spb.ru/_races/151206_ST/151206_info3.pdf'
+        o_gps: 797
     },
     {
         id: 'SPB_20151212_1',
@@ -1857,9 +1882,10 @@ let events2015 = [
         start: 'VSEVOLOZHSK_WAY',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/150223_VT/151213_res.htm',
+        bulletin: 'https://o-site.spb.ru/_races/150223_VT/151213_info.pdf',
         info: '5 этап многоэтапных соревнований Всеволожского района по спортивному ориентированию',
         o_site: '150223_VT',
-        bulletin: 'https://o-site.spb.ru/_races/150223_VT/151213_info.pdf'
+        o_gps: 811
     },
     {
         id: 'SPB_20151213_2',
@@ -1887,12 +1913,13 @@ let events2015 = [
         place: 'Пискаревский парк',
         name: 'Кубок СПб, Снежная Тропа 2015/2016, 3 этап, Финал 2015 года',
         start: 'SNOW_WAY',
-        res: 'https://o-site.spb.ru/_races/151220_ST/href= http://orgeo.ru/online/2327?s=3',
+        res: 'http://orgeo.ru/online/2327?s=3',
+        bulletin: 'https://o-site.spb.ru/_races/151220_ST/151220_info_3.pdf',
         info: 'Вид программы: Ориентирование по выбору с обязательным первым КП.',
         video: 'http://www.northernwind.spb.ru/online/video/',
         o_site: '151220_ST',
-        bulletin: 'https://o-site.spb.ru/_races/151220_ST/151220_info_3.pdf',
-        map: 'piskarevsky_2012'
+        map: 'piskarevsky_2012',
+        o_gps: 815
     },
     {
         id: 'SPB_20151220_2',
