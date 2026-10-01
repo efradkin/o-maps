@@ -2881,8 +2881,9 @@ let events2026 = [
     {
         id: 'SPB_20261007_1',
         date: '2026-10-07',
-        name: 'NW Sprint #4',
+        name: 'NW Sprint, осень #1',
         place: 'Туристская ул',
+        o_site: '261007_NWSprint_1',
         fmt: 'спринт',
         owner: 'NW',
     },
@@ -2954,7 +2955,7 @@ let events2026 = [
     {
         id: 'SPB_20261014_1',
         date: '2026-10-14',
-        name: 'NW Sprint #5',
+        name: 'NW Sprint, осень #2',
         place: 'пл Мужества',
         fmt: 'спринт',
         owner: 'NW',
@@ -3016,7 +3017,7 @@ let events2026 = [
     {
         id: 'SPB_20261021_1',
         date: '2026-10-21',
-        name: 'NW Sprint #6',
+        name: 'NW Sprint, осень #3',
         place: 'Приморская',
         fmt: 'спринт',
         owner: 'NW',
