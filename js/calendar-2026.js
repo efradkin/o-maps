@@ -2869,6 +2869,16 @@ let events2026 = [
         owner: 'FENIX'
     },
     {
+        id: 'SPB_20261004_2',
+        date: '2026-10-04',
+        name: 'Тренировочный старт',
+        place: 'Токсовские карьеры',
+        reg: 'https://orgeo.ru/event/55829',
+        endReg: '2026-10-03 14:00',
+        bulletin: 'https://orgeo.ru/files/event/file/55829_1e33273095.pdf',
+        owner: 'KUZMOLOVO'
+    },
+    {
         id: 'SPB_20261007_1',
         date: '2026-10-07',
         name: 'NW Sprint #4',
