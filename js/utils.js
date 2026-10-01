@@ -257,6 +257,7 @@ const LOGO_CAROUSEL_TEMPLATE = `
     `;
 
 const ACTUAL_EVENTS_CALENDAR_PARAM_VALUE = 'actual';
+const GPS_EVENTS_CALENDAR_PARAM_VALUE = 'gps';
 const FUTURE_EVENTS_CALENDAR_PARAM_VALUE = 'future';
 const MEDIA_EVENTS_CALENDAR_PARAM_VALUE = 'media';
 const ORIENT_EVENTS_CALENDAR_PARAM_VALUE = 'ORIENT';
@@ -1742,6 +1743,11 @@ function validateEvent(evt) {
                 break;
             case ROGAINE_EVENTS_CALENDAR_PARAM_VALUE:
                 if (!isEventLikeRogaine(evt)) {
+                    return false;
+                }
+                break;
+            case GPS_EVENTS_CALENDAR_PARAM_VALUE:
+                if (!evt.gps && !evt.o_gps) {
                     return false;
                 }
                 break;
