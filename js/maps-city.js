@@ -859,6 +859,14 @@ let cityMaps = [
         owner: 'TMKN'
     },
     {
+        name: 'Школа №354, сквер Грязнова',
+        year: 2026,
+        url: './maps/city/school_354_2026.webp',
+        link: './original_maps/schools/school_354_2026_omaps.webp',
+        bounds: [[59.8145441, 30.2899504], [59.8145549, 30.2982545], [59.8097858, 30.2898860]],
+        type: ['SPRINT','CITY']
+    },
+    {
         name: 'Школа №339',
         year: 2008,
         url: './maps/city/school_339_2008.webp',
