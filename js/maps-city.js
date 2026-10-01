@@ -1185,8 +1185,8 @@ let cityMaps = [
         name: 'Комендантский-Ильюшина',
         year: 2026,
         url: './maps/city/komendantsky_metro_2026.webp',
-        link: './original_maps/city/komendantsky_metro_st_2026_omaps.gif',
-        bounds: [[60.0157623, 30.2425933], [60.0139070, 30.2616262], [60.0088662, 30.2395892]],
+        link: ['./original_maps/city/komendantsky_metro_st_2026_omaps.gif','./original_maps/city/komendantsky_metro_st_m_2026_omaps.gif','./original_maps/city/komendantsky_metro_st_w_2026_omaps.gif'],
+        bounds: [[60.0171992, 30.2433228], [60.0153655, 30.2622056], [60.0090700, 30.2397180]],
         author: 'CHGRVSKY_Y',
         owner: 'KUZM_CHGRVSKY',
         type: ['CITY','SPRINT']
