@@ -1785,7 +1785,7 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/220924_MTBO/220924_MTBO_rez.htm',
         o_site: '220924_MTBO',
         bulletin: 'https://o-site.spb.ru/_races/220924_MTBO/220924_info1.pdf',
-        maps: 'krasna_gorka_velo_2022'
+        map: 'krasna_gorka_velo_2022'
     },
     {
         id: 'SPB_20220924_6',

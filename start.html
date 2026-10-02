@@ -244,7 +244,31 @@
         }
 
         let container = document.querySelector('.start-maps-wrapper');
-        oMaps.forEach(m => {
+        // Плитки по дате, новые первыми: карты O-Maps и внешние файлы карт событий старта (поле maps).
+        const startTiles = [
+            ...oMaps.map(m => ({date: dateForCompare(m), map: m})),
+            ...getStartExternalMaps(START_NAME_PARAM, typeof oEvents !== 'undefined' ? oEvents : [])
+                .map(x => ({date: dateForCompare(x.evt), ...x}))
+        ].sort((a, b) => b.date - a.date);
+        startTiles.forEach(t => {
+            if (!t.map) {
+                // внешний файл: изображение - превью, PDF и прочее - значок; ссылка прямо на файл
+                const title = `${strt.short}: ${new Date(t.evt.date).getFullYear()} - ${t.evt.name}`.replaceAll('"', '&quot;');
+                const img = isImageUrl(t.url) ? t.url : (/\.pdf$/i.test(t.url) ? './images/pdf-file.png' : './images/url-file.png');
+                const elTile = document.createElement("div");
+                elTile.classList.add("row");
+                elTile.innerHTML = `
+                    <div class="start-map-box align-items-center d-flex justify-content-center">
+                        <div>
+                            <a href="${t.url}" target="_blank"><img src="${img}" title="${title}" loading="lazy"${isImageUrl(t.url) ? '' : ' class="start-map-file-icon"'} /></a>
+                            <div class="start-map-box-description">${title}</div>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(elTile);
+                return;
+            }
+            const m = t.map;
             const events = findEventsForMap(m, true, START_NAME_PARAM);
 /*
             let row = `

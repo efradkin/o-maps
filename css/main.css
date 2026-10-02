@@ -761,6 +761,14 @@ button.nav-link {
     max-width: 194px;
     max-height: 194px;
 }
+/* значок файла (PDF и т.п.) вместо превью внешней карты: картинка 16x16,
+   увеличиваем кратно и без размытия */
+.start-map-box img.start-map-file-icon {
+    width: 96px;
+    height: 96px;
+    margin: 40px 0;
+    image-rendering: pixelated;
+}
 
 /* --- Траурное --- */
 .mourning .help-figure {

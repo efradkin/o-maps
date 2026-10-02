@@ -439,7 +439,8 @@ input[type="checkbox"]:focus-visible, input[type="radio"]:focus-visible {
 }
 .o-main-table tr { background-color: var(--o-surface); }
 .o-main-table tr:nth-child(odd) { background-color: #fbfcfa; }
-.o-main-table tbody tr:hover > td { background-color: var(--o-accent-soft); }
+/* строка-заголовок месяца (td.month-row) при наведении не подсвечивается */
+.o-main-table tbody tr:hover > td:not(.month-row) { background-color: var(--o-accent-soft); }
 .o-main-table td, .o-main-table th { border-bottom: 1px solid var(--o-border-soft); }
 
 .o-main-table thead th,
@@ -520,7 +521,7 @@ body.calendar-body .o-main-table tr.current:where(.water)   > td { background-co
    (тип от <tr> или подсветка .current на <td>): рогейн остаётся жёлтым,
    ориентирование зелёным, строки без типа получают нейтральный серый.
    background-color не трогаем, слой рисуем через background-image. */
-body.calendar-body .o-main-table tbody tr:hover > td {
+body.calendar-body .o-main-table tbody tr:hover > td:not(.month-row) {
     background-image: linear-gradient(var(--o-row-hover-tint), var(--o-row-hover-tint));
 }
 

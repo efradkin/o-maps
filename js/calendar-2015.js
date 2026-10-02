@@ -1304,7 +1304,7 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150919_velo/20150919_res.htm',
         o_site: '150919_velo',
         bulletin: 'https://o-site.spb.ru/_races/150919_velo/150919_info-2.pdf',
-        maps: 'krasna_gorka_velo_2022'
+        map: 'krasna_gorka_velo_2022'
     },
     {
         id: 'SPB_20150919_2',

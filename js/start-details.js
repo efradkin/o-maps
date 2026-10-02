@@ -43,6 +43,12 @@ const startDetailsMaps = startDetailsKnown
 startDetailsMaps.sort((a, b) => dateForCompare(b) - dateForCompare(a));
 const startDetailsMapNames = new Set(startDetailsMaps.map(m => getMapName(m)));
 
+// Внешние файлы карт событий старта (поле maps): [{url, evt, id}], id - секция на вкладке «Карты».
+const startDetailsExtMaps = startDetailsKnown
+    ? getStartExternalMaps(START_DETAILS_CODE, typeof oEvents !== 'undefined' ? oEvents : [])
+        .map((x, i) => ({...x, id: 'extmap_' + i}))
+    : [];
+
 // Документы старта из history-docs.js, от новых к старым.
 const startDetailsDocs = (typeof historyDocs !== 'undefined' ? historyDocs : [])
     .filter(d => checkStartMap(START_DETAILS_CODE, d));
@@ -236,6 +242,16 @@ function buildEventMapsInfo(evt) {
             }
         }
     }
+    // внешние файлы карт (поле maps) - ссылки на их секции на вкладке «Карты»
+    for (const x of startDetailsExtMaps.filter(x => x.evt === evt)) {
+        if (links) {
+            links += ', ';
+        }
+        links += `<a href="#${x.id}">${externalMapFileName(x.url)}</a>`;
+        if (isImageUrl(x.url)) {
+            previews.push({href: '#' + x.id, m: {url: x.url, name: externalMapFileName(x.url)}});
+        }
+    }
     const img = (p, cls) => `<a href="${p.href}"><img src="${p.m.url}" loading="lazy" class="${cls}" title="${p.m.name ?? ''}" alt="${p.m.name ?? 'Карта'}" /></a>`;
     let figures = '', strip = '';
     if (previews.length === 1) {
@@ -387,11 +403,43 @@ function buildStartMapSection(m) {
     return `<section id="${mapSectionId(name)}" class="clearfix start-map">${html}</section>`;
 }
 
+// Имя файла внешней карты для подписи.
+function externalMapFileName(url) {
+    const name = String(url).split(/[?#]/)[0].split('/').pop();
+    try {
+        return decodeURIComponent(name);
+    } catch (e) {
+        return name;
+    }
+}
+
+// Секция внешнего файла карты (поле maps события): превью, ссылка на файл и событие.
+function buildStartExtMapSection(x) {
+    const fileName = externalMapFileName(x.url);
+    let html = '';
+    if (isImageUrl(x.url)) {
+        html += `<a href="${x.url}" target="_blank" title="Полноразмер"><img src="${x.url}" loading="lazy" class="help-figure help-figure-right start-map-figure" alt="Карта" /></a>`;
+    }
+    html += `<h3>🗺️ <a href="${x.url}" target="_blank">${x.evt.name}: ${fileName}</a></h3>`;
+    let eventLine = buildEventDescription(x.evt, true);
+    if (x.evt.id) {
+        eventLine += ` <a href="#${x.evt.id}" title="Событие на этой странице">↑</a>`;
+    }
+    html += `<p><b>Соревнование:</b></p><ol><li>${eventLine}</li></ol>`;
+    return `<section id="${x.id}" class="clearfix start-map">${html}</section>`;
+}
+
 function renderStartMaps() {
-    let html = buildYearsNav(startDetailsMaps.map(m =>
-        ({year: startMapYear(m, findEventsForMap(m, true)), id: mapSectionId(getMapName(m))})));
-    for (const m of startDetailsMaps) {
-        html += buildStartMapSection(m);
+    // карты O-Maps и внешние файлы карт - одним списком по дате, новые первыми
+    const items = [
+        ...startDetailsMaps.map(m => ({date: dateForCompare(m), map: m})),
+        ...startDetailsExtMaps.map(x => ({date: dateForCompare(x.evt), ext: x}))
+    ].sort((a, b) => b.date - a.date);
+    let html = buildYearsNav(items.map(it => it.map
+        ? {year: startMapYear(it.map, findEventsForMap(it.map, true)), id: mapSectionId(getMapName(it.map))}
+        : {year: new Date(it.ext.evt.date).getFullYear(), id: it.ext.id}));
+    for (const it of items) {
+        html += it.map ? buildStartMapSection(it.map) : buildStartExtMapSection(it.ext);
     }
     document.getElementById('start_maps').innerHTML = html;
 }
@@ -544,7 +592,7 @@ writeBackToStartButton({smooth: true});
 
 // --- сборка ---
 
-if (startDetailsMaps.length > 0) {
+if (startDetailsMaps.length > 0 || startDetailsExtMaps.length > 0) {
     renderStartMaps();
 } else {
     document.getElementById('maps-tab-item').style.display = 'none';

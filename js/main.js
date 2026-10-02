@@ -1878,7 +1878,7 @@ function buildEventDescription(e, withPlanner) {
         link = O_SITE_ADDRESS_PREFIX + e.o_site;
     }
     if (link) {
-        info += buildOneLink(link, e.name);
+        info += buildLink(link, e.name); // link бывает массивом - ссылка на первый сайт
     } else {
         info += e.name;
     }
@@ -1896,6 +1896,7 @@ function buildEventDescription(e, withPlanner) {
     info += ' ' + buildEventResults(e);
     info += ' ' + buildGpsLinks(e, 'o-gps.gif', null, true);
     info += ' ' + buildPublish(e, '🗺️');
+    info += buildEventExternalMaps(e); // внешние файлы карт (поле maps)
 
     // начдист
     if (withPlanner && typeof planners !== 'undefined') {

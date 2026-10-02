@@ -3457,9 +3457,8 @@ let iofEvents = [
         endDate: '2021-07-09',
         place: 'Doksy, Czech Republic (Докси, Чехия)',
         name: 'Чемпионат мира (WOC)',
+        // сайт не работает: woc2021.cz
         link: [
-            'https://woc2021.cz/wp-content/uploads/2021/07/Middle-Final-Men.pdf',
-            'https://woc2021.cz/wp-content/uploads/2021/07/Sprint-Final-Men.pdf',
             'https://en.wikipedia.org/wiki/2021_World_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_2021'
         ],
@@ -3496,6 +3495,8 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=301154',
             // 'https://omaps.worldofo.com/?id=301168',
             // 'https://omaps.worldofo.com/?id=301169',
+            'https://woc2021.cz/wp-content/uploads/2021/07/Sprint-Final-Men.pdf',
+            'https://woc2021.cz/wp-content/uploads/2021/07/Sprint-Final-Women.pdf'
         ],
         photo: [
             'https://photos.google.com/share/AF1QipMD6bzZb_e6YKoeNCXcR7Ssy7FvDSOscjuK876ikjpCXNlDfMW5ZcQiF1TCs3L2eg?key=blljeVVHbnlSWG1NNHh0dnVqZGo2cnRESkFhenpB',
@@ -3524,6 +3525,7 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=301233',
             // 'https://omaps.worldofo.com/?id=301234',
             // 'https://omaps.worldofo.com/?id=301235',
+            'https://woc2021.cz/wp-content/uploads/2021/06/WEB_Sprint-Relay.pdf'
         ],
         photo: 'https://photos.app.goo.gl/Az8fknv53CvZSmRZ9',
         coord: [50.564722, 14.655556],
@@ -3551,6 +3553,8 @@ let iofEvents = [
             // 'https://news.worldofo.com/2021/07/06/woc-2021-middle-maps-results-and-splits-analysis/',
             // 'https://omaps.worldofo.com/?id=301352',
             // 'https://omaps.worldofo.com/?id=301353',
+            'https://woc2021.cz/wp-content/uploads/2021/07/Middle-Final-Men.pdf',
+            'https://woc2021.cz/wp-content/uploads/2021/07/Middle-Final-Women.pdf'
         ],
         photo: [
             'https://photos.app.goo.gl/KyuitLxRv8ZfRHR38',
@@ -4529,8 +4533,7 @@ let iofEvents = [
         start: 'EOC'
     },
     {
-        // заменяет MAJOR_20260301_1 из calendar-common-2026.js
-        id: 'IOF_20260301_1',
+        id: 'MAJOR_20260301_1',
         date: '2026-03-01', // в en.wikipedia: 2–6 марта
         endDate: '2026-03-06',
         place: 'Rusutsu, Hokkaido, Japan (Русуцу, Хоккайдо, Япония)',
@@ -4546,8 +4549,7 @@ let iofEvents = [
         start: 'SKI_WOC'
     },
     {
-        // заменяет MAJOR_20260706_1 из calendar-common-2026.js
-        id: 'IOF_20260706_1',
+        id: 'MAJOR_20260706_1',
         date: '2026-07-06',
         endDate: '2026-07-11',
         place: 'Genova, Italy (Генуя, Италия)',
@@ -4561,7 +4563,7 @@ let iofEvents = [
     },
     {
         id: 'IOF_20260707_1',
-        parent: 'IOF_20260706_1',
+        parent: 'MAJOR_20260706_1',
         date: '2026-07-07',
         name: 'WOC #1, спринт (квалификация и финал)',
         place: 'Genova, Italy (Генуя, Италия)',
@@ -4589,7 +4591,7 @@ let iofEvents = [
     },
     {
         id: 'IOF_20260709_1',
-        parent: 'IOF_20260706_1',
+        parent: 'MAJOR_20260706_1',
         date: '2026-07-09',
         name: 'WOC #2, нокаут-спринт (квалификация)',
         place: 'Genova, Italy (Генуя, Италия)',
@@ -4608,7 +4610,7 @@ let iofEvents = [
     },
     {
         id: 'IOF_20260710_1',
-        parent: 'IOF_20260706_1',
+        parent: 'MAJOR_20260706_1',
         date: '2026-07-10',
         name: 'WOC #3, нокаут-спринт (финалы)',
         place: 'Genova, Italy (Генуя, Италия)',
@@ -4640,7 +4642,7 @@ let iofEvents = [
     },
     {
         id: 'IOF_20260711_1',
-        parent: 'IOF_20260706_1',
+        parent: 'MAJOR_20260706_1',
         date: '2026-07-11',
         name: 'WOC #4, спринт-эстафета',
         place: 'Genova, Italy (Генуя, Италия)',

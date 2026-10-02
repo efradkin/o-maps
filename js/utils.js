@@ -2183,7 +2183,45 @@ function buildEventResults(evt) {
     return res;
 }
 
+// Внешние файлы карт события - значения поля maps с адресом http/https (изображения
+// или PDF в интернете). Прочие значения maps - идентификаторы карт O-Maps, здесь не участвуют.
+function getEventExternalMaps(evt) {
+    return [].concat(evt?.maps ?? []).filter(isExternalUrl);
+}
+
+function isExternalUrl(value) {
+    return /^https?:\/\//.test(String(value));
+}
+
+// Файл - изображение, которое можно показать превью (а не PDF и т.п.).
+function isImageUrl(url) {
+    return /\.(gif|jpe?g|png|webp|svg)$/i.test(String(url).split(/[?#]/)[0]);
+}
+
+// Значки 🗺️ на внешние файлы карт события - в календаре после места.
+function buildEventExternalMaps(evt) {
+    return getEventExternalMaps(evt).map(url => buildLink(url, ' 🗺️', 'Карта (файл)')).join('');
+}
+
+// Внешние файлы карт событий старта: [{url, evt}].
+function getStartExternalMaps(start, events) {
+    const result = [];
+    for (const evt of events) {
+        if (checkStartMap(start, evt)) {
+            for (const url of getEventExternalMaps(evt)) {
+                result.push({url, evt});
+            }
+        }
+    }
+    return result;
+}
+
+// Место события: ссылки на O-Maps (поля map, coord, track) и внешние файлы карт (поле maps).
 function buildEventPlace(event, suffix) {
+    return buildEventPlaceOMaps(event, suffix) + buildEventExternalMaps(event);
+}
+
+function buildEventPlaceOMaps(event, suffix) {
     let mapPage ='spb.html';
     if (REGION_KEY == 'msk') {
         mapPage = 'moscow.html';
