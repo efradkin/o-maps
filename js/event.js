@@ -43,7 +43,7 @@
                 'events2020', 'events2019', 'events2018', 'events2017', 'events2016', 'events2015',
                 'events2014', 'events2013', 'events2012', 'events2011', 'events2010', 'events2009',
                 'events2008', 'events2007', 'events2006', 'events2005', 'events2004', 'eventsEarly',
-                'otherEvents2026', 'commonEvents2026']
+                'otherEvents2026', 'commonEvents2026', 'iofEvents']
         },
         {
             title: 'Календарь Москвы', page: 'calendar-msk.html', mapPage: 'moscow.html',
@@ -59,7 +59,7 @@
         },
     ];
     // Общие (международные и всероссийские) старты - на общую карту.
-    const SOURCE_MAP_PAGE = { commonEvents2026: 'all.html' };
+    const SOURCE_MAP_PAGE = { commonEvents2026: 'all.html', iofEvents: 'all.html' };
 
     const NOT_SERIES = ['OTHER', 'REPORT'];
     const MONTHS_GEN = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня',
@@ -283,7 +283,9 @@
     function calendarLink(calendar, source, evt) {
         let href = calendar.page;
         if (calendar.years) {
-            const y = source === 'eventsEarly' ? 'EARLY' : String(parseDay(evt.date).getFullYear());
+            const year = parseDay(evt.date).getFullYear();
+            // До 2004 года (eventsEarly и ранние чемпионаты IOF) — страница «Ранние».
+            const y = source === 'eventsEarly' || year < 2004 ? 'EARLY' : String(year);
             href += '?startYear=' + y;
         }
         return href;

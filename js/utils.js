@@ -343,6 +343,7 @@ const isMobile = regex.test(navigator.userAgent) ||
 function loadAllCalendars() {
     return [
         ...commonEvents2026,
+        ...iofEvents,
         ...events2026,
         ...events2025,
         ...events2024,

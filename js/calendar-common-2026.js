@@ -48,18 +48,6 @@ let commonEvents2026 = [
         }
     },
     {
-        id: 'MAJOR_20260301_1',
-        date: '2026-03-01',
-        endDate: '2026-03-06',
-        place: 'Rusutsu, Hokkaido, JAPAN',
-        name: 'Чемпионат Мира (SKI-WOC)',
-        link: 'https://wsoc2026.jp/comp.html',
-        major: true,
-        type: 'SKI',
-        fmt: 'sprint, pursuit, middle, sprint relay',
-        owner: 'IOF'
-    },
-    {
         id: 'MAJOR_20260315_1',
         date: '2026-03-15',
         endDate: '2026-03-21',
@@ -546,25 +534,6 @@ let commonEvents2026 = [
         fmt: 'байдарка, SUP',
         logo: 'great_river.gif',
         map: 'delta_velikaya_river'
-    },
-    {
-        id: 'MAJOR_20260706_1',
-        date: '2026-07-06',
-        endDate: '2026-07-11',
-        place: 'Италия',
-        name: 'Чемпионат мира (WOC)',
-        link: 'https://woc2026.com/',
-        res: 'https://app.liveresults.it/woc2026',
-        gps: 'https://www.tulospalvelu.fi/gps/',
-        video: [
-            'https://youtu.be/6X40Hv7DG8o',
-            'https://youtu.be/CvaCKaOLMOU',
-            'https://youtu.be/NsjOxRdbeZ0',
-            'https://youtu.be/rC-N8eGiXpY'
-        ],
-        major: true,
-        fmt: 'sprint, knock-out, sprint relay',
-        owner: 'IOF'
     },
     {
         id: 'SPB_20260709_1',

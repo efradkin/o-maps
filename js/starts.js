@@ -604,6 +604,34 @@ let starts = {
         logo: 'jwsoc_2003.jpg',
         region: 'SPB'
     },
+    WOC: {
+        major: true,
+        short: 'WOC',
+        name: 'Чемпионат мира по спортивному ориентированию (WOC)',
+        logo: 'iof.gif',
+        owner: 'IOF'
+    },
+    SKI_WOC: {
+        major: true,
+        short: 'SKI-WOC',
+        name: 'Чемпионат мира по спортивному ориентированию на лыжах (SKI-WOC)',
+        logo: 'iof.gif',
+        owner: 'IOF'
+    },
+    EOC: {
+        major: true,
+        short: 'EOC',
+        name: 'Чемпионат Европы по спортивному ориентированию (EOC)',
+        logo: 'iof.gif',
+        owner: 'IOF'
+    },
+    SKI_EOC: {
+        major: true,
+        short: 'SKI-EOC',
+        name: 'Чемпионат Европы по спортивному ориентированию на лыжах (SKI-EOC)',
+        logo: 'iof.gif',
+        owner: 'IOF'
+    },
     RUSSIA_CHAMP: {
         major: true,
         short: 'Чемпионат России',

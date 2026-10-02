@@ -67,11 +67,11 @@ function extractWelcome() {
 
 const DATA_FILES = ['starts.js', 'owners.js', 'planners.js', 'calendar-early.js'];
 for (let y = 2004; y <= 2026; y++) DATA_FILES.push(`calendar-${y}.js`);
-DATA_FILES.push('calendar-common-2026.js', 'calendar-other-2026.js');
+DATA_FILES.push('calendar-common-2026.js', 'calendar-other-2026.js', 'calendar-iof.js');
 
 const YEAR_VARS = ['eventsEarly'];
 for (let y = 2004; y <= 2026; y++) YEAR_VARS.push(`events${y}`);
-YEAR_VARS.push('commonEvents2026', 'otherEvents2026');
+YEAR_VARS.push('commonEvents2026', 'otherEvents2026', 'iofEvents');
 
 let source = extractLiteral(read('utils.js'), 'const regions = {') + ';\n';
 source += extractLiteral(read('global-menu.js'), 'const GLOBAL_MENU_ITEMS = [', '[', ']') + ';\n';
@@ -89,6 +89,18 @@ const { regions, starts, owners, planners, menu, buckets } = loaded;
 // ------------------------------------------------------------ вспомогалки --
 
 const asArray = v => (v == null ? [] : Array.isArray(v) ? v : [v]);
+const isUrl = v => /^https?:\/\//.test(String(v));
+
+/**
+ * gps и o_gps — строка/число или объект вида { 'группа': значение }.
+ * Возвращает пары [группа | null, адрес].
+ */
+function gpsEntries(value, prefix) {
+    if (value && typeof value === 'object' && !Array.isArray(value)) {
+        return Object.entries(value).map(([group, v]) => [group, prefix + v]);
+    }
+    return asArray(value).map(v => [null, prefix + v]);
+}
 const typesOf = evt => asArray(evt.type).length ? asArray(evt.type) : ['ORIENT'];
 const has = (evt, t) => typesOf(evt).includes(t);
 
@@ -252,6 +264,14 @@ function regLabel(url) {
     return 'Регистрация';
 }
 
+/** Подпись ссылки из evt.link, когда их несколько: сайт, а не регистрация. */
+function linkLabel(url) {
+    const wiki = url.match(/\/\/(\w+)\.wikipedia\.org/);
+    if (wiki) return 'Википедия (' + wiki[1] + ')';
+    const label = regLabel(url);
+    return label === 'Регистрация' ? 'Сайт старта' : label;
+}
+
 /** Подпись кнопки результатов — повторяет buildEventResults(). */
 function resLabel(url) {
     const table = [
@@ -362,7 +382,9 @@ function buildLinks(evt) {
     // Карта и точка — сразу за местом, теми же эмодзи, что и на сайте
     // (buildEventPlace): 🗺️ карта, 🌐 координаты, 🚸 трек.
     const mapPage = 'spb.html';
-    for (const m of asArray(evt.map).concat(asArray(evt.maps))) {
+    // maps: адреса (http/https) — внешние страницы с картами старта, в выгрузку
+    // пока не идут (поле на будущее); остальные значения — идентификаторы карт O-Maps, как map.
+    for (const m of asArray(evt.map).concat(asArray(evt.maps).filter(v => !isUrl(v)))) {
         add({
             kind: 'map', label: 'Карта на O-Maps', glyph: '🗺️', slot: 'place',
             url: `${SITE}${mapPage}?calendar&map=${m}`,
@@ -386,7 +408,7 @@ function buildLinks(evt) {
     for (const l of linkList) {
         add({
             kind: 'link', url: l, icon: 'external-link.png',
-            label: linkList.length > 1 ? regLabel(String(l)) : 'Сайт старта',
+            label: linkList.length > 1 ? linkLabel(String(l)) : 'Сайт старта',
         });
     }
     // Первая страница на O-Site уже стоит значком у названия, add() отсеет
@@ -405,8 +427,11 @@ function buildLinks(evt) {
     for (const r of asArray(evt.reskeep)) {
         add({ kind: 'reskeep', label: 'Reskeep', url: RESKEEP_PREFIX + r, icon: 'r-k.gif' });
     }
-    for (const g of asArray(evt.o_gps)) {
-        add({ kind: 'gps', label: 'O-GPS', url: O_GPS_PREFIX + g, icon: 'o-gps.gif' });
+    for (const [group, url] of gpsEntries(evt.o_gps, O_GPS_PREFIX)) {
+        add({ kind: 'gps', label: group ? 'O-GPS ' + group : 'O-GPS', url, icon: 'o-gps.gif' });
+    }
+    for (const [group, url] of gpsEntries(evt.gps, '')) {
+        add({ kind: 'gps', label: group ? 'GPS ' + group : 'GPS', url, icon: 'o-gps.gif' });
     }
     for (const ph of asArray(evt.photo)) {
         add({
