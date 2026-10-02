@@ -14,6 +14,7 @@
 //   (страница чемпионата, сводные протоколы, общие альбомы, плейлисты). Дни гонок — по программам cs/en.wikipedia и датам
 //   трансляций (из двух дат GPSSeuranta — та, что внутри дат чемпионата). owner, major и logo заданы в js/starts.js.
 // В maps активны только файлы карт (изображения, PDF); ссылки на страницы (посты, omaps, реестры) закомментированы.
+//   Файлы карт с news.worldofo.com отобраны вручную по обзорным листам: только полные карты, без фрагментов перегонов.
 // Требуют проверки:
 //   2010-08-07 Спринт W: в списке GPSSeuranta дата 2010-08-07, в коде трансляции 20100808 — https://www.tulospalvelu.fi/gps/20100808_sprint_w/
 //   2010-08-11 Лонг W: в списке GPSSeuranta дата 2010-08-11, в коде трансляции 20100812 — https://www.tulospalvelu.fi/gps/20100812_long_f_w/
@@ -874,6 +875,8 @@ let iofEvents = [
             // 'https://news.worldofo.com/2009/08/23/woc-2009-long-map-and-results/',
             // 'https://news.worldofo.com/2009/08/22/woc-2009-relay-map-and-results/',
             // 'http://omaps.worldofo.com/index.php?s=&st=&id=&cid=683&c=',
+            'https://news.worldofo.com/wp-content/uploads/2009/08/mapwomensmall.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2009/08/mapwomen1_s.jpg'
         ],
         coord: [48.104167, 20.791667],
         fmt: 'sprint, middle, long, relay',
@@ -1545,6 +1548,10 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/2012_World_Orienteering_Championships'
         ],
         res: 'https://web.archive.org/web/20160812223959/http://orienteering.org/events/?event_id=54',
+        maps: [
+            'https://news.worldofo.com/wp-content/uploads/2012/07/mapsprint.png',
+            'https://news.worldofo.com/wp-content/uploads/2012/07/mapmenq.png'
+        ],
         coord: [46.52, 6.633333],
         fmt: 'sprint, middle, long, relay',
         start: 'WOC'
@@ -1923,6 +1930,7 @@ let iofEvents = [
         date: '2014-04-11',
         name: 'EOC #2, лонг (квалификация)',
         place: 'Palmela, Portugal (Палмела, Португалия)',
+        maps: 'https://news.worldofo.com/wp-content/uploads/2014/04/maplongq.png',
         coord: [38.566667, -8.9],
         fmt: 'long',
         start: 'EOC'
@@ -1933,6 +1941,7 @@ let iofEvents = [
         date: '2014-04-12',
         name: 'EOC #3, спринт (квалификация)',
         place: 'Palmela, Portugal (Палмела, Португалия)',
+        maps: 'https://news.worldofo.com/wp-content/uploads/2014/04/mensprintmap.jpg',
         coord: [38.566667, -8.9],
         fmt: 'sprint',
         start: 'EOC'
@@ -2011,6 +2020,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/2014_World_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_2014'
         ],
+        maps: 'https://news.worldofo.com/wp-content/uploads/2014/07/mapm.jpg',
         coord: [46.445556, 11.173056], // координаты региона, не населённого пункта — уточнить
         fmt: 'sprint, middle, long, relay, sprint relay',
         start: 'WOC'
@@ -2446,6 +2456,7 @@ let iofEvents = [
             'W-QB': 'https://www.tulospalvelu.fi/gps/20160523WQB/',
             'W-QC': 'https://www.tulospalvelu.fi/gps/20160523WQC/'
         },
+        maps: 'https://news.worldofo.com/wp-content/uploads/2016/05/map_2600.jpg',
         coord: [50.229722, 17.204722],
         fmt: 'long',
         start: 'EOC'
@@ -2465,6 +2476,7 @@ let iofEvents = [
             // 'https://news.worldofo.com/2016/05/24/eoc-2016-long-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=175820',
             // 'https://omaps.worldofo.com/?id=175821',
+            'https://news.worldofo.com/wp-content/uploads/2016/05/map_2000.jpg'
         ],
         coord: [50.229722, 17.204722],
         fmt: 'long',
@@ -2751,6 +2763,7 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=211667',
             // 'https://omaps.worldofo.com/?id=211683',
             // 'https://omaps.worldofo.com/index.php?id=211683',
+            'https://news.worldofo.com/wp-content/uploads/2017/07/mapsprint.png'
         ],
         video: [
             'https://www.youtube.com/watch?v=Tifkj-Glfcg',
@@ -2779,6 +2792,7 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=211746',
             // 'https://omaps.worldofo.com/?id=211747',
             // 'https://omaps.worldofo.com/index.php?id=211747',
+            'https://news.worldofo.com/wp-content/uploads/2017/07/map.png'
         ],
         video: 'https://www.youtube.com/watch?v=TJxFyFtZpEM',
         coord: [58.38, 26.7225],
@@ -2800,6 +2814,7 @@ let iofEvents = [
             // 'https://news.worldofo.com/2017/07/04/woc-long-2017-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=211922',
             // 'https://omaps.worldofo.com/?id=211923',
+            'https://news.worldofo.com/wp-content/uploads/2017/07/mapmen_30001.jpg_1606901_21.jpg'
         ],
         video: [
             'https://www.youtube.com/watch?v=CU17EAMR-50',
@@ -2913,6 +2928,8 @@ let iofEvents = [
         },
         maps: [
             // 'https://news.worldofo.com/2018/05/06/eoc-2018-sprint-maps-and-results/',
+            'https://news.worldofo.com/wp-content/uploads/2018/05/mapm.png',
+            'https://news.worldofo.com/wp-content/uploads/2018/05/map.png'
         ],
         video: 'https://www.youtube.com/watch?v=cjBs70n8S-M',
         coord: [46.033333, 8.933333],
@@ -2973,6 +2990,8 @@ let iofEvents = [
         },
         maps: [
             // 'https://news.worldofo.com/2018/05/10/eoc-2018-sprint-relay-maps-and-results/',
+            'https://news.worldofo.com/wp-content/uploads/2018/05/map-women.png',
+            'https://news.worldofo.com/wp-content/uploads/2018/05/map-men.png'
         ],
         video: 'https://www.youtube.com/watch?v=LalVMH67jQY',
         coord: [46.033333, 8.933333],
@@ -3020,6 +3039,8 @@ let iofEvents = [
             // 'https://news.worldofo.com/2018/05/14/eoc-2018-long-quick-gps-analysis-maps-results/',
             // 'https://omaps.worldofo.com/?id=231807',
             // 'https://omaps.worldofo.com/?id=231808',
+            'https://news.worldofo.com/wp-content/uploads/2018/05/map-Long_Men.png',
+            'https://news.worldofo.com/wp-content/uploads/2018/05/map-Long_Women.png'
         ],
         video: 'https://www.youtube.com/watch?v=wEXRkZt5EUU',
         coord: [46.033333, 8.933333],
@@ -3062,6 +3083,8 @@ let iofEvents = [
             // 'https://news.worldofo.com/2018/08/04/woc-2018-sprint-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=237369',
             // 'https://omaps.worldofo.com/?id=237370',
+            'https://news.worldofo.com/wp-content/uploads/2018/08/mapw.png',
+            'https://news.worldofo.com/wp-content/uploads/2018/08/mapm.png'
         ],
         photo: 'https://photos.google.com/share/AF1QipNN0Ll0MPv0kFABT8Q4HcmtuPHgDlPAt93pChk-AXia2K8J6uZNe8kcAHKWfBo40Q?key=ZEpRZGlGa2FNajJSQ3dLYUxSR0kxRnA4WG80UXpB',
         coord: [56.948889, 24.106389],
@@ -3086,6 +3109,7 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=237442',
             // 'https://omaps.worldofo.com/?id=237443',
             // 'https://omaps.worldofo.com/?id=237444',
+            'https://news.worldofo.com/wp-content/uploads/2018/08/mapsr.png'
         ],
         photo: 'https://photos.google.com/share/AF1QipPOWeCdvVNN3J3fe0IG9Y7AI6EaUy5_yTQvb8PVTRQ_tYX52Cjv-ZB2srxbtoLLRQ?key=cW14cXlyd0JBMFBMZ1ctQUJ1bnZWT2FlOS1EZzN3',
         video: 'https://www.youtube.com/watch?v=knwfWX10AkM',
@@ -3107,6 +3131,8 @@ let iofEvents = [
             // 'https://news.worldofo.com/2018/08/07/woc-2018-middle-maps-results-analysis/',
             // 'https://omaps.worldofo.com/?id=237552',
             // 'https://omaps.worldofo.com/?id=237575',
+            'https://news.worldofo.com/wp-content/uploads/2018/08/mapwomenwoc2018middle.png',
+            'https://news.worldofo.com/wp-content/uploads/2018/08/mapmenwoc2018middle.png'
         ],
         photo: 'https://photos.google.com/share/AF1QipPW-JF0TBuTpKy0F7zZhMI8VUKCpgViBaIFmGWRgj5xLByPcWqQCkC8q_T8N-dwCQ?key=RHdwbUZ5Qzlpd2dEMmtKOGQzd24xV213bHpJNDh3',
         video: 'https://www.youtube.com/watch?v=p4gGIPayCGU',
@@ -3136,6 +3162,7 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=237662',
             // 'https://omaps.worldofo.com/?id=237664',
             // 'https://omaps.worldofo.com/?id=237666',
+            'https://news.worldofo.com/wp-content/uploads/2018/08/maprel.png'
         ],
         photo: 'https://photos.google.com/share/AF1QipMqImdaOse-akkeWP258izSREdyn0gJtSQtBocZ8oSQ8gUtitcI29lns-HLwqiLFQ?key=aTZiME9WMU53R2N4N0dmQnNIWDhzb1J6SkZpUmdR',
         video: 'https://www.youtube.com/watch?v=ZSH6WQtwTzU',
@@ -3405,6 +3432,8 @@ let iofEvents = [
         },
         maps: [
             // 'https://news.worldofo.com/2021/05/13/eoc-2021-sprint-relay-maps-and-results/',
+            'https://news.worldofo.com/wp-content/uploads/2021/05/map_original_gabelungen-sprintrelay-neuchatel-men-with-forking-names.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2021/05/map_original_gabelungen-sprintrelay-neuchatel-women-with-forking-names.jpg'
         ],
         video: 'https://www.youtube.com/watch?v=vrBRvPEcjZA',
         coord: [47.0, 6.933333],
@@ -3496,7 +3525,8 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=301168',
             // 'https://omaps.worldofo.com/?id=301169',
             'https://woc2021.cz/wp-content/uploads/2021/07/Sprint-Final-Men.pdf',
-            'https://woc2021.cz/wp-content/uploads/2021/07/Sprint-Final-Women.pdf'
+            'https://woc2021.cz/wp-content/uploads/2021/07/Sprint-Final-Women.pdf',
+            'https://news.worldofo.com/wp-content/uploads/2021/07/map_sprint_men.jpg'
         ],
         photo: [
             'https://photos.google.com/share/AF1QipMD6bzZb_e6YKoeNCXcR7Ssy7FvDSOscjuK876ikjpCXNlDfMW5ZcQiF1TCs3L2eg?key=blljeVVHbnlSWG1NNHh0dnVqZGo2cnRESkFhenpB',
@@ -3525,7 +3555,8 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=301233',
             // 'https://omaps.worldofo.com/?id=301234',
             // 'https://omaps.worldofo.com/?id=301235',
-            'https://woc2021.cz/wp-content/uploads/2021/06/WEB_Sprint-Relay.pdf'
+            'https://woc2021.cz/wp-content/uploads/2021/06/WEB_Sprint-Relay.pdf',
+            'https://news.worldofo.com/wp-content/uploads/2021/07/map_men.jpg'
         ],
         photo: 'https://photos.app.goo.gl/Az8fknv53CvZSmRZ9',
         coord: [50.564722, 14.655556],
@@ -3554,7 +3585,8 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=301352',
             // 'https://omaps.worldofo.com/?id=301353',
             'https://woc2021.cz/wp-content/uploads/2021/07/Middle-Final-Men.pdf',
-            'https://woc2021.cz/wp-content/uploads/2021/07/Middle-Final-Women.pdf'
+            'https://woc2021.cz/wp-content/uploads/2021/07/Middle-Final-Women.pdf',
+            'https://news.worldofo.com/wp-content/uploads/2021/07/men_map.jpg'
         ],
         photo: [
             'https://photos.app.goo.gl/KyuitLxRv8ZfRHR38',
@@ -3587,6 +3619,7 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=301421',
             // 'https://omaps.worldofo.com/?id=301422',
             // 'https://omaps.worldofo.com/?id=301423',
+            'https://news.worldofo.com/wp-content/uploads/2021/07/map_relay.jpg'
         ],
         photo: 'https://photos.app.goo.gl/aZjZog34FkzBFCiC6',
         coord: [50.564722, 14.655556],
@@ -3608,6 +3641,7 @@ let iofEvents = [
             // 'https://news.worldofo.com/2021/07/09/woc-2021-long-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=301488',
             // 'https://omaps.worldofo.com/?id=301489',
+            'https://news.worldofo.com/wp-content/uploads/2021/07/map_men2.jpg'
         ],
         photo: 'https://photos.app.goo.gl/At6zUM4KE2Ewa8oDA',
         coord: [50.564722, 14.655556],
@@ -3666,30 +3700,78 @@ let iofEvents = [
         name: 'Чемпионат мира (WOC)',
         // сайт не работает: woc2022.dk
         link: 'https://en.wikipedia.org/wiki/2022_World_Orienteering_Championships',
-        res: [
-            'https://eventor.orienteering.org/Events/Show/6864',
-            'https://eventor.orienteering.org/Events/ResultList?eventId=7448',
-            'https://eventor.orienteering.org/Events/ResultList?eventId=7449',
-            'https://eventor.orienteering.org/Events/ResultList?eventId=7450'
+        res: 'https://eventor.orienteering.org/Events/Show/6864',
+        photo: 'https://photos.app.goo.gl/CKN9fxocBgrS3onc9',
+        video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJdrWqAeeID6mbgFaRZc2I-J',
+        coord: [55.491667, 9.5],
+        fmt: 'sprint, knock-out, sprint relay',
+        start: 'WOC'
+    },
+    {
+        id: 'IOF_20220626_2',
+        parent: 'IOF_20220626_1',
+        date: '2022-06-26',
+        name: 'WOC #1, спринт-эстафета',
+        place: 'Kolding, Fredericia, Vejle, Denmark (Кольдинг, Фредерисия, Вайле, Дания)',
+        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7448',
+        maps: [
+            // 'https://news.worldofo.com/2022/06/27/woc-2022-sprint-relay-maps-results-and-analysis/',
+            'https://news.worldofo.com/wp-content/uploads/2022/06/map_original_women-full.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2022/06/map_original_men-full.jpg'
         ],
+        photo: 'https://photos.google.com/share/AF1QipOsBChMAsaLvZ7LVl5AJnLQ_9H6vRKW0iha4jzCb2cSTjRbMw2ZD4mrkMOUqp2Vqw?key=TU5vN24wdWpiMHp1ZTVSckMyZGJYbHBGVlYwaU9R',
+        video: 'https://www.youtube.com/watch?v=2VZZA8WkAmQ',
+        coord: [55.491667, 9.5],
+        fmt: 'sprint relay',
+        start: 'WOC'
+    },
+    {
+        id: 'IOF_20220628_1',
+        parent: 'IOF_20220626_1',
+        date: '2022-06-28',
+        name: 'WOC #2, нокаут-спринт (квалификация и финалы)',
+        place: 'Kolding, Fredericia, Vejle, Denmark (Кольдинг, Фредерисия, Вайле, Дания)',
+        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7449',
+        maps: [
+            // 'https://news.worldofo.com/2022/06/29/woc-2022-knock-out-sprint-maps-results-and-analysis/',
+            'https://news.worldofo.com/wp-content/uploads/2022/06/map-men-q-A_3000.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2022/06/map-women-q-A_3000.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2022/06/map_men_final.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2022/06/women_final_map.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2022/06/map_men_sf.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2022/06/map_women_sf.jpg'
+        ],
+        photo: [
+            'https://photos.app.goo.gl/LoDy1itTNSBMQEhB7',
+            'https://photos.app.goo.gl/MNNyjNP1n7RiGB1R9'
+        ],
+        video: [
+            'https://www.youtube.com/watch?v=j3MxXDjS5ro',
+            'https://www.youtube.com/watch?v=kEGa_kW3oE4'
+        ],
+        coord: [55.491667, 9.5],
+        fmt: 'knock-out',
+        start: 'WOC'
+    },
+    {
+        id: 'IOF_20220630_1',
+        parent: 'IOF_20220626_1',
+        date: '2022-06-30',
+        name: 'WOC #3, спринт',
+        place: 'Kolding, Fredericia, Vejle, Denmark (Кольдинг, Фредерисия, Вайле, Дания)',
+        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7450',
         gps: {
             'all': 'https://tractrac.com/event-page/event_20220626_WorldOrien/2381'
         },
         maps: [
             // 'https://news.worldofo.com/2022/07/01/woc-2022-individual-sprint-maps-results-and-analysis/',
-            // 'https://news.worldofo.com/2022/06/29/woc-2022-knock-out-sprint-maps-results-and-analysis/',
-            // 'https://news.worldofo.com/2022/06/27/woc-2022-sprint-relay-maps-results-and-analysis/',
+            'https://news.worldofo.com/wp-content/uploads/2022/07/map_sprint_men_2022.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2022/07/map_sprint_women_2022.jpg'
         ],
-        photo: [
-            'https://photos.google.com/share/AF1QipOsBChMAsaLvZ7LVl5AJnLQ_9H6vRKW0iha4jzCb2cSTjRbMw2ZD4mrkMOUqp2Vqw?key=TU5vN24wdWpiMHp1ZTVSckMyZGJYbHBGVlYwaU9R',
-            'https://photos.app.goo.gl/LoDy1itTNSBMQEhB7',
-            'https://photos.app.goo.gl/MNNyjNP1n7RiGB1R9',
-            'https://photos.app.goo.gl/CKN9fxocBgrS3onc9',
-            'https://photos.app.goo.gl/4BjqPqVY9DFSVFJV6'
-        ],
-        video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJdrWqAeeID6mbgFaRZc2I-J',
+        photo: 'https://photos.app.goo.gl/4BjqPqVY9DFSVFJV6',
+        video: 'https://www.youtube.com/watch?v=C8cegvBxfwY',
         coord: [55.491667, 9.5],
-        fmt: 'sprint, knock-out, sprint relay',
+        fmt: 'sprint',
         start: 'WOC'
     },
     {
@@ -3745,6 +3827,7 @@ let iofEvents = [
             // 'https://news.worldofo.com/2022/08/05/eoc-2022-long-maps-results-analysis/',
             // 'https://omaps.worldofo.com/?id=323184',
             // 'https://omaps.worldofo.com/?id=323185',
+            'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_long_men.png'
         ],
         photo: 'https://photos.app.goo.gl/s1Q6H4jLAHMkMmMJA',
         video: 'https://www.youtube.com/watch?v=tYyePGNt6nc',
@@ -3769,6 +3852,7 @@ let iofEvents = [
             // 'https://news.worldofo.com/2022/08/07/eoc-2022-middle-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=323289',
             // 'https://omaps.worldofo.com/?id=323290',
+            'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_middle_men.png'
         ],
         photo: 'https://photos.app.goo.gl/FFTyNCnoCzCncADh9',
         video: 'https://www.youtube.com/watch?v=boW9lJmoUCg',
@@ -3799,6 +3883,7 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=323341',
             // 'https://omaps.worldofo.com/?id=323342',
             // 'https://omaps.worldofo.com/?id=323343',
+            'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_relay_men_leg1.png'
         ],
         photo: 'https://photos.app.goo.gl/tTbSx5WyGG3ry6A3A',
         video: 'https://www.youtube.com/watch?v=fJjwDKypz7g',
@@ -3897,6 +3982,8 @@ let iofEvents = [
         },
         maps: [
             // 'https://news.worldofo.com/2023/07/15/woc-middle-2023-maps-and-results/',
+            'https://news.worldofo.com/wp-content/uploads/2023/07/map-71.png',
+            'https://news.worldofo.com/wp-content/uploads/2023/07/map-61.png'
         ],
         video: 'https://www.youtube.com/watch?v=2WWcJQsqFPM',
         coord: [46.833333, 9.283333],
@@ -3920,6 +4007,7 @@ let iofEvents = [
         },
         maps: [
             // 'https://news.worldofo.com/2023/07/16/woc-2023-relay-maps-and-results/',
+            'https://news.worldofo.com/wp-content/uploads/2023/07/map-9.png'
         ],
         video: 'https://www.youtube.com/watch?v=OxABg9sC58I',
         coord: [46.833333, 9.283333],
@@ -3958,6 +4046,7 @@ let iofEvents = [
             // 'https://news.worldofo.com/2023/10/05/eoc-sprint-2023-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=345355',
             // 'https://omaps.worldofo.com/?id=345376',
+            'https://news.worldofo.com/wp-content/uploads/2023/10/map_sprint_eoc_verona_men.png'
         ],
         photo: [
             'https://photos.app.goo.gl/kfJSbB3tQyGXFBjLA',
@@ -3986,6 +4075,7 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=345458',
             // 'https://omaps.worldofo.com/?id=345459',
             // 'https://omaps.worldofo.com/?id=345460',
+            'https://news.worldofo.com/wp-content/uploads/2023/10/map_sprintrelayeoc2023.png'
         ],
         photo: 'https://photos.app.goo.gl/wvGd6c8oz1nH9iK96',
         coord: [45.438611, 10.992778],
@@ -4015,6 +4105,7 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=345515',
             // 'https://omaps.worldofo.com/?id=345529',
             // 'https://omaps.worldofo.com/?id=345530',
+            'https://news.worldofo.com/wp-content/uploads/2023/10/map_eoc_2023_KO-sprint-final-men1.png'
         ],
         photo: 'https://photos.app.goo.gl/Fktxg1X7UN3G516k9',
         coord: [45.438611, 10.992778],
@@ -4128,6 +4219,8 @@ let iofEvents = [
         },
         maps: [
             // 'https://news.worldofo.com/2024/07/15/woc-2024-sprint-relay-maps-and-results/',
+            'https://news.worldofo.com/wp-content/uploads/2024/07/map_sprintrelay_mens.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2024/07/map_sprintrelay_womens.jpg'
         ],
         photo: 'https://photos.app.goo.gl/K7ToGU8ikxyc5E4h9',
         video: [
@@ -4236,6 +4329,8 @@ let iofEvents = [
             // 'https://news.worldofo.com/2024/08/18/eoc-2024-middle-analysis-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=358143',
             // 'https://omaps.worldofo.com/?id=358145',
+            'https://news.worldofo.com/wp-content/uploads/2024/08/map_men_EOC_MiddleFinal_3000.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2024/08/map_women_EOCMiddleFinal_3000.jpg'
         ],
         photo: 'https://photos.app.goo.gl/C46RznaTCEgh55ibA',
         coord: [47.371667, 18.208611],
@@ -4257,6 +4352,7 @@ let iofEvents = [
             // 'https://news.worldofo.com/2024/08/19/eoc-2024-long-analysis-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=358196',
             // 'https://omaps.worldofo.com/?id=358224',
+            'https://news.worldofo.com/wp-content/uploads/2024/08/map_men_long_EOC_4000.jpg'
         ],
         photo: 'https://photos.app.goo.gl/o8YoUix2o4c7Lmgs8',
         coord: [47.371667, 18.208611],
@@ -4280,6 +4376,8 @@ let iofEvents = [
         },
         maps: [
             // 'https://news.worldofo.com/2024/08/21/eoc-2024-relay-analysis-maps-and-results/',
+            'https://news.worldofo.com/wp-content/uploads/2024/08/map_eoc_relay2024.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2024/08/map_eoc_relay20242.jpg'
         ],
         photo: 'https://photos.google.com/share/AF1QipM22u80kGZBJ60OcQZYIcegO2rokJvl71hbIMFQRr_8OJgF9IQeoUZN7mXJo-CZIw?key=NC11SXh1X3FqMkZpNVFhcmQwTkg0RlRNS205cV9R',
         coord: [47.371667, 18.208611],
@@ -4344,6 +4442,14 @@ let iofEvents = [
             'W-Q2': 'https://www.tulospalvelu.fi/gps/2025wocmqW2/',
             'W-Q3': 'https://www.tulospalvelu.fi/gps/2025wocmqW3/'
         },
+        maps: [
+            'https://news.worldofo.com/wp-content/uploads/2025/07/mapmenq1.png',
+            'https://news.worldofo.com/wp-content/uploads/2025/07/mapmenq2.png',
+            'https://news.worldofo.com/wp-content/uploads/2025/07/mapmenq3.png',
+            'https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq1.png',
+            'https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq2.png',
+            'https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq3.png'
+        ],
         photo: 'https://www.woc2025.fi/media/',
         video: 'https://www.youtube.com/watch?v=0WAC4TENxxE',
         coord: [62.8925, 27.678333],
@@ -4368,6 +4474,8 @@ let iofEvents = [
             // 'https://news.worldofo.com/2025/07/10/woc-2025-middle-maps-results-and-analysis/',
             // 'https://omaps.worldofo.com/?id=371717',
             // 'https://omaps.worldofo.com/?id=371718',
+            'https://news.worldofo.com/wp-content/uploads/2025/07/mapwoc2025middlemen.png',
+            'https://news.worldofo.com/wp-content/uploads/2025/07/mapwoc2025middlewomen.png'
         ],
         photo: 'https://photos.app.goo.gl/7QJJjG65UJMFBtvh6',
         video: 'https://www.youtube.com/watch?v=gy3COdirG3I',
@@ -4579,6 +4687,8 @@ let iofEvents = [
         },
         maps: [
             // 'https://news.worldofo.com/2026/07/08/woc-2026-individual-sprint-maps-results-analysis/',
+            'https://news.worldofo.com/wp-content/uploads/2026/07/map_woc2026_sprint_w_1600.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2026/07/map_woc2026_sprint_m_1600.jpg'
         ],
         photo: [
             'https://photos.app.goo.gl/tyFjRg5SrTjfvBmm6',
@@ -4630,6 +4740,9 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/index.php?id=393201',
             // 'https://omaps.worldofo.com/index.php?id=393202',
             // 'https://omaps.worldofo.com/index.php?id=393203',
+            'https://news.worldofo.com/wp-content/uploads/2026/07/map_final.png',
+            'https://news.worldofo.com/wp-content/uploads/2026/07/map_semifinal.png',
+            'https://news.worldofo.com/wp-content/uploads/2026/07/map_quarterfinal.png'
         ],
         photo: 'https://photos.app.goo.gl/6kvnBaBXtaCoQbLv6',
         video: [
@@ -4701,6 +4814,14 @@ let iofEvents = [
             'W-Q2': 'https://www.tulospalvelu.fi/gps/2026eocQualW2/',
             'W-Q3': 'https://www.tulospalvelu.fi/gps/2026eocQualW3/'
         },
+        maps: [
+            'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26q_map_women_heat1_s.jpg',
+            'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26q_map_women_heat2_s.jpg',
+            'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26q_map_women_heat3_s.jpg',
+            'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26q_map_men_heat1_s.jpg',
+            'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26q_map_men_heat2_s.jpg',
+            'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26q_map_men_heat3_s.jpg'
+        ],
         coord: [54.016667, 23.966667],
         fmt: 'qualification',
         start: 'EOC'
@@ -4722,6 +4843,8 @@ let iofEvents = [
             // 'https://news.worldofo.com/2026/09/25/eoc-2026-long-maps-results-and-analysis/',
             // 'https://omaps.worldofo.com/?id=395897',
             // 'https://omaps.worldofo.com/?id=395899',
+            'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26l_map_men_s.jpg',
+            'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26l_map_women_s.jpg'
         ],
         coord: [54.016667, 23.966667],
         fmt: 'long',
