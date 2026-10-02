@@ -2884,8 +2884,12 @@ let events2026 = [
         name: 'NW Sprint, осень #1',
         place: 'Туристская ул',
         o_site: '261007_NWSprint_1',
+        reg: 'https://orgeo.ru/event/info/55837',
+        bulletin: 'https://o-site.spb.ru/_races/261007_NWSprint_1/261007_NWsprint_info.pdf',
+        endReg: '2026-10-06 22:00',
         fmt: 'спринт',
-        owner: 'NW',
+        map: 'bogatyrsky_2025',
+        owner: 'NW'
     },
     {
         id: 'SPB_20261010_1',
