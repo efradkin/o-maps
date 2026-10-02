@@ -2809,7 +2809,7 @@ let events2026 = [
         o_site: '261001',
         owner: 'SFSO_SPB',
         start: 'SCHOOL',
-        map: 'school_150_2016'
+        map: 'school_158_2021'
     },
     {
         id: 'SPB_20261003_1',

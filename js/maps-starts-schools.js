@@ -309,10 +309,10 @@ let schoolMaps = [
     },
     {
         name: 'Школы №150, 158',
-        year: 2021,
+        year: 2026,
         start: 'SCHOOL',
         url: './maps/city/school_158_2021.webp',
-        link: ['./original_maps/schools/school_150_2019_omaps.gif','./original_maps/schools/school_150_2019_omaps.ocd','./original_maps/schools/school_158_2021_omaps.gif','./original_maps/schools/school_158_2021_omaps.ocd'],
+        link: ['./original_maps/schools/school_150_2019_omaps.gif','./original_maps/schools/school_150_2019_omaps.ocd','./original_maps/schools/school_158_2021_omaps.gif','./original_maps/schools/school_158_2021_omaps.ocd','./original_maps/schools/school_158_2026_omaps.gif','./original_maps/schools/school_158_2026_omaps.ocd','./original_maps/schools/school_158_2026_course_omaps.gif','./original_maps/schools/school_158_2026_course_omaps.ocd'],
         bounds: [[60.0269238, 30.3726697], [60.0264092, 30.3778195], [60.0234932, 30.3714252]],
         author: 'TKMKVA_P',
         type: ['SPRINT','CITY']
