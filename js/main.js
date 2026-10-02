@@ -1775,7 +1775,7 @@ function buildMapPopup(m) {
     }
 
     // владелец
-    const owner = getOwner(m);
+    const owner = getOwners(m);
     if (owner) {
         if (Array.isArray(owner)) {
             result += 'Владельцы:';
@@ -2081,7 +2081,7 @@ function buildEditors(m, withIcon) {
 
 function buildOwners(m, withIcon) {
     let result = '';
-    let owner = getOwner(m);
+    let owner = getOwners(m);
     if (!owner && m.start && starts[m.start]) { // TODO добавить обработку массивов
         owner = starts[m.start].owner;
     }

@@ -61,7 +61,7 @@
             <li class="nav-item" role="presentation" id="calendar-tab-item">
                 <button class="nav-link active" id="calendar-tab" data-bs-toggle="tab" data-bs-target="#calendar" type="button" role="tab" aria-controls="calendar" aria-selected="true">Календарь</button>
             </li>
-            <li class="nav-item" role="presentation">
+            <li class="nav-item" role="presentation" id="maps-tab-item">
                 <button class="nav-link" id="maps-tab" data-bs-toggle="tab" data-bs-target="#maps" type="button" role="tab" aria-controls="maps" aria-selected="false">Карты</button>
             </li>
             <li class="nav-item" role="presentation" id="start-view-switch-item">
@@ -254,7 +254,7 @@
             if (!t.map) {
                 // внешний файл: изображение - превью, PDF и прочее - значок; ссылка прямо на файл
                 const title = `${strt.short}: ${new Date(t.evt.date).getFullYear()} - ${t.evt.name}`.replaceAll('"', '&quot;');
-                const img = isImageUrl(t.url) ? t.url : (/\.pdf$/i.test(t.url) ? './images/pdf-file.png' : './images/url-file.png');
+                const img = isImageUrl(t.url) ? t.url : externalMapIcon(t.url);
                 const elTile = document.createElement("div");
                 elTile.classList.add("row");
                 elTile.innerHTML = `
@@ -307,14 +307,19 @@
         for (const e of startEvents) {
             eventsHtml += buildEventDescription(e, true) + '<br />';
         }
+        // Карт нет (ни O-Maps, ни внешних файлов) - вкладку "Карты" прячем.
+        const hasMapTiles = startTiles.length > 0;
+        if (!hasMapTiles) {
+            document.getElementById('maps-tab-item').style.display = 'none';
+        }
         if (eventsHtml) {
             document.getElementById('start_events').innerHTML = eventsHtml;
-        } else {
+        } else if (hasMapTiles) {
             // Событий календаря для старта нет - прячем вкладку и открываем "Карты".
             document.getElementById('calendar-tab-item').style.display = 'none';
             activateMapsTab();
         }
-        if (eventsHtml && urlParams.get('tab') === 'maps') {
+        if (eventsHtml && hasMapTiles && urlParams.get('tab') === 'maps') {
             activateMapsTab(); // ?tab=maps - сразу на карты (tab=calendar - и так по умолчанию)
         }
         updateStartViewSwitch();

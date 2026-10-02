@@ -632,6 +632,20 @@ let starts = {
         logo: 'iof.gif',
         owner: 'IOF'
     },
+    WMTBOC: {
+        major: true,
+        short: 'WMTBOC',
+        name: 'Чемпионат мира по спортивному ориентированию на велосипедах (WMTBOC)',
+        logo: 'iof.gif',
+        owner: 'IOF'
+    },
+    EMTBOC: {
+        major: true,
+        short: 'EMTBOC',
+        name: 'Чемпионат Европы по спортивному ориентированию на велосипедах (EMTBOC)',
+        logo: 'iof.gif',
+        owner: 'IOF'
+    },
     RUSSIA_CHAMP: {
         major: true,
         short: 'Чемпионат России',

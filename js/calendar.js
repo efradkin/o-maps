@@ -70,7 +70,7 @@ if (HAS_ONLY_ME_PARAM) {
     oEvents = oEvents.filter(event => event.me !== undefined || event.strava !== undefined);
 }
 if (OWNER_PARAM) {
-    oEvents = oEvents.filter(event => event.owner && event.owner === OWNER_PARAM);
+    oEvents = oEvents.filter(event => hasOwner(event, OWNER_PARAM));
 }
 if (CALENDAR_PARAM && ('ALL' !== CALENDAR_PARAM)) {
     oEvents = filterEvents(oEvents, allMajors);

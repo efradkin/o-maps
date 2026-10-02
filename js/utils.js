@@ -1499,12 +1499,23 @@ function getMapStarts(m) {
     return start;
 }
 
-function getOwner(m) {
-    let owner = m.owner;
-    if (!owner && m.start && starts[m.start]) { // TODO добавить обработку массивов
-        owner = starts[m.start].owner;
+function hasOwner(m, owner) {
+    return getOwners(m).includes(owner);
+}
+
+function getOwners(m) {
+    const owners = [];
+    if (m.owner) {
+        pushItems(owners, m.owner);
     }
-    return owner;
+    if (m.start) {
+        const strts = [];
+        pushItems(strts, m.start);
+        for (const s of strts) {
+            pushItems(owners, starts[s].owner);
+        }
+    }
+    return owners;
 }
 
 function getOrderArea(m) {
@@ -2193,9 +2204,25 @@ function isExternalUrl(value) {
     return /^https?:\/\//.test(String(value));
 }
 
-// Файл - изображение, которое можно показать превью (а не PDF и т.п.).
+// Хосты, отдающие картинки только после капчи (Cloudflare): встроить превью с них нельзя,
+// посетитель увидит битое изображение. Такие файлы показываем значком, ссылка - прямо на файл.
+const NO_PREVIEW_MAP_HOSTS = ['omaps.worldofo.com'];
+
+function isNoPreviewHost(url) {
+    const m = String(url).match(/^https?:\/\/([^/?#]+)/i);
+    return !!m && NO_PREVIEW_MAP_HOSTS.includes(m[1].toLowerCase());
+}
+
+// Файл - изображение, которое можно показать превью (а не PDF и не файл с хоста за капчей).
 function isImageUrl(url) {
-    return /\.(gif|jpe?g|png|webp|svg)$/i.test(String(url).split(/[?#]/)[0]);
+    return /\.(gif|jpe?g|png|webp|svg)$/i.test(String(url).split(/[?#]/)[0]) && !isNoPreviewHost(url);
+}
+
+// Значок типа файла внешней карты - вместо превью (PDF, изображения с хостов за капчей и т.п.).
+function externalMapIcon(url) {
+    const ext = (String(url).split(/[?#]/)[0].match(/\.(\w+)$/) || [])[1]?.toLowerCase();
+    const icons = {pdf: 'pdf-file.png', jpg: 'jpg-file.png', jpeg: 'jpg-file.png', png: 'png-file.png', gif: 'gif-file.png'};
+    return './images/' + (icons[ext] ?? 'url-file.png');
 }
 
 // Значки 🗺️ на внешние файлы карт события - в календаре после места.

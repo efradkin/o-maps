@@ -587,7 +587,7 @@
     // Организаторы: у владельца выводится title, а если его нет - name.
     // Владелец - поле owner события, иначе владелец его старта (getOwner).
     function buildOwnersHtml(evt) {
-        const codes = asList(getOwner(evt));
+        const codes = asList(getOwners(evt));
         const known = codes.filter(code => owners[code]);
         const unknown = codes.filter(code => !owners[code]);
         if (unknown.length) {
