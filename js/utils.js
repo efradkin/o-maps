@@ -642,10 +642,11 @@ function filterMapsForCharts() {
 }
 
 function downloadIconExt(url) {
-    const ext = extractFileExt(url);
+    const ext = extractFileExt(url).toLowerCase();
     switch (ext) {
         case 'jpeg': return 'jpg';
         case 'omap': return 'ocd';
+        case 'asp':
         case 'html':
         case 'htm':
         case 'php':
