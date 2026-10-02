@@ -5,6 +5,36 @@ const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
 
 const O_SITE_ADDRESS_PREFIX = 'https://o-site.spb.ru/race.php?id=';
 
+// Сервисы ссылок: подпись и иконка по адресу. Порядок важен: первое совпадение.
+// img - иконка сервиса; imgOnlyFor - иконка только в этом контексте (video/photo/reg/res);
+// siteImg - иконка для ссылки на обычную страницу сервиса (сайт события в календаре), если она
+// отличается от img (у O-Site иконка с «R» - только для результатов).
+// Используется в event.js (подписанные ссылки) и в календаре (иконки сайта события).
+const SERVICES = [
+    // Википедия - первой: в адресах статей встречаются названия других сервисов.
+    { re: /wikipedia\.org/i, label: 'Википедия', img: 'images/wikipedia.png' },
+    { re: /orgeo/i, label: 'Orgeo', img: 'images/orgeo.webp' },
+    { re: /o-reg/i, label: 'O-Reg', img: 'images/oreg.webp' },
+    { re: /o-time/i, label: 'O-Time', img: 'images/otime.webp' },
+    { re: /multsport/i, label: 'Multsport', img: 'images/multsport.webp' },
+    { re: /sportident/i, label: 'Sportident', img: 'images/si.webp' },
+    { re: /reskeep/i, label: 'Reskeep', img: 'images/r-k.gif' },
+    { re: /o-site\.spb\.ru/i, label: 'O-Site', img: 'images/o-site-r.gif', siteImg: 'images/o-site.gif' },
+    { re: /vkvideo|vk\.(com|ru)\/(video|clip)/i, label: 'VK Видео', img: 'images/vkvideo.gif' },
+    { re: /vk\.(com|ru)/i, label: 'ВКонтакте', img: 'images/vk.webp' },
+    { re: /t\.me\//i, label: 'Telegram', img: 'images/telegram.webp' },
+    { re: /youtu/i, label: 'YouTube', img: 'images/youtube.webp' },
+    { re: /rutube/i, label: 'Rutube', img: 'images/rutube.webp' },
+    { re: /disk\.yandex|yadi\.sk/i, label: 'Яндекс Диск' },
+    { re: /yandex|dzen/i, label: 'Яндекс', img: 'images/ya_video.webp', imgOnlyFor: 'video' },
+    { re: /cloud\.mail\.ru/i, label: 'Облако Mail' },
+    { re: /sport-images\.ru/i, label: 'Sport-images', img: 'images/sportimages.webp' },
+    { re: /russiarunning/i, label: 'RussiaRunning' },
+    { re: /russialoppet/i, label: 'Russialoppet', img: 'logo/russialoppet.gif' },
+    { re: /gosuslugi/i, label: 'Госуслуги' },
+    { re: /strava/i, label: 'Strava', img: 'images/strava_32.gif' },
+];
+
 const OLIVE_IMAGE_URL = './maps/olive.png';
 const EMPTY_IMAGE_URL = './maps/empty.png';
 
@@ -1937,29 +1967,17 @@ function buildEventStart(evt, withoutLogo, justTitle, withEventPage) {
         name += ' (ОТМЕНА!)'
     }
     // сайт события: своя ссылка, страница на O-Site или сайт старта.
-    // Для иконки o-site.gif в календаре (withEventPage) первой идёт страница
-    // на O-Site, в остальных местах - своя ссылка события.
     let siteLink = null;
-    if (withEventPage && evt.o_site) {
-        siteLink = O_SITE_ADDRESS_PREFIX + evt.o_site;
-    } else if (evt.link) {
+    if (evt.link) {
         siteLink = evt.link;
     } else if (evt.o_site) {
         siteLink = O_SITE_ADDRESS_PREFIX + evt.o_site;
     } else {
-        let st = evt.start;
-        if (st && Array.isArray(st)) {
-            st = st[0];
-        }
-        if (st && starts[st]?.link) {
-            siteLink = starts[st].link;
-        }
+        siteLink = eventStartLink(evt);
     }
     if (withEventPage && evt.id) {
         result += buildLink(eventPageUrl(evt), name, 'Страница события');
-        if (siteLink) {
-            result += ' ' + buildLink(siteLink, '<img src="./images/o-site.gif" alt="Сайт" title="Страница сайта события" class="sheet-icon" />', 'Страница сайта события');
-        }
+        result += buildEventSiteIcons(evt);
     } else if (siteLink) {
         result += buildLink(siteLink, name);
     } else {
@@ -1998,6 +2016,47 @@ function buildEventStart(evt, withoutLogo, justTitle, withEventPage) {
         }
     }
     return result;
+}
+
+// Сайт старта, к которому относится событие (первый из start), или null.
+function eventStartLink(evt) {
+    let st = evt.start;
+    if (st && Array.isArray(st)) {
+        st = st[0];
+    }
+    return (st && starts[st]?.link) ? starts[st].link : null;
+}
+
+// Сервис ссылки из SERVICES (первое совпадение по адресу) или undefined.
+function findLinkService(url) {
+    const u = String(url ?? '');
+    return SERVICES.find(s => s.re.test(u));
+}
+
+// Иконки на все ссылки события (календарь): сначала страница на O-Site
+// (o_site), затем ссылки из link (строка или массив). Если нет ни того,
+// ни другого - ссылка на сайт старта. Ссылка известного сервиса (SERVICES)
+// получает его иконку и подпись, остальные - o-site.gif.
+function buildEventSiteIcons(evt) {
+    const urls = [];
+    if (evt.o_site) {
+        urls.push(O_SITE_ADDRESS_PREFIX + evt.o_site);
+    }
+    for (const l of [].concat(evt.link ?? [])) {
+        if (l) urls.push(l);
+    }
+    let defaultTitle = 'Страница сайта события';
+    if (urls.length === 0) {
+        const startLink = eventStartLink(evt);
+        if (startLink) urls.push(startLink);
+        defaultTitle = 'Сайт старта';
+    }
+    return urls.map(url => {
+        const service = findLinkService(url);
+        const img = service?.siteImg ?? ((service?.img && !service.imgOnlyFor) ? service.img : 'images/o-site.gif');
+        const title = service ? service.label : defaultTitle;
+        return ' ' + buildLink(url, `<img src="./${img}" alt="${title}" title="${title}" class="sheet-icon" />`, title);
+    }).join('');
 }
 
 // Информационный бюллетень события (поле bulletin: ссылка или массив ссылок) -

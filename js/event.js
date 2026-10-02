@@ -67,29 +67,6 @@
     const WEEK_DAYS = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
     const DAY_MS = 24 * 60 * 60 * 1000;
 
-    // Сервисы для подписанных ссылок. Порядок важен: первое совпадение.
-    const SERVICES = [
-        { re: /orgeo/i, label: 'Orgeo', img: 'images/orgeo.webp' },
-        { re: /o-reg/i, label: 'O-Reg', img: 'images/oreg.webp' },
-        { re: /o-time/i, label: 'O-Time', img: 'images/otime.webp' },
-        { re: /multsport/i, label: 'Multsport', img: 'images/multsport.webp' },
-        { re: /sportident/i, label: 'Sportident', img: 'images/si.webp' },
-        { re: /reskeep/i, label: 'Reskeep', img: 'images/r-k.gif' },
-        { re: /o-site\.spb\.ru/i, label: 'O-Site', img: 'images/o-site-r.gif' },
-        { re: /vkvideo|vk\.(com|ru)\/(video|clip)/i, label: 'VK Видео', img: 'images/vkvideo.gif' },
-        { re: /vk\.(com|ru)/i, label: 'ВКонтакте', img: 'images/vk.webp' },
-        { re: /t\.me\//i, label: 'Telegram', img: 'images/telegram.webp' },
-        { re: /youtu/i, label: 'YouTube', img: 'images/youtube.webp' },
-        { re: /rutube/i, label: 'Rutube', img: 'images/rutube.webp' },
-        { re: /disk\.yandex|yadi\.sk/i, label: 'Яндекс Диск' },
-        { re: /yandex|dzen/i, label: 'Яндекс', img: 'images/ya_video.webp', imgOnlyFor: 'video' },
-        { re: /cloud\.mail\.ru/i, label: 'Облако Mail' },
-        { re: /sport-images\.ru/i, label: 'Sport-images', img: 'images/sportimages.webp' },
-        { re: /russiarunning/i, label: 'RussiaRunning' },
-        { re: /russialoppet/i, label: 'Russialoppet', img: 'logo/russialoppet.gif' },
-        { re: /gosuslugi/i, label: 'Госуслуги' },
-        { re: /strava/i, label: 'Strava', img: 'images/strava_32.gif' },
-    ];
     const FILE_EXTS = ['pdf', 'zip', 'rar', 'xls', 'xlsx', 'doc', 'docx', 'jpg', 'jpeg', 'png', 'gif', 'webp', 'ocd'];
 
     // --- мелочи ---------------------------------------------------------------
@@ -174,7 +151,7 @@
             const mail = u.replace(/^mailto:/, '');
             return { href: 'mailto:' + mail, label: mail, emoji: '✉️' };
         }
-        const service = SERVICES.find(s => s.re.test(u));
+        const service = findLinkService(u);
         const ext = (u.split('?')[0].match(/\.([a-z0-9]+)$/i) || [])[1]?.toLowerCase();
         const fileExt = FILE_EXTS.includes(ext) ? ext : null;
         if (service) {
