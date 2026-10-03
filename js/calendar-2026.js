@@ -2608,6 +2608,7 @@ let events2026 = [
         fmt: 'выбор, классика, спринт',
         o_site: '260926',
         bulletin: 'https://o-site.spb.ru/_races/260926/260926_info_1.pdf',
+        photo: 'https://vk.ru/album-230167293_314610935',
         reg: ['http://www.o-reg.spb.ru/?filter[day_id]=1756','http://www.o-reg.spb.ru/?filter[day_id]=1757','http://www.o-reg.spb.ru/?filter[day_id]=1758'],
         owner: 'SFSO_SPB',
         map: 'zerkalny_2002'
@@ -2799,6 +2800,7 @@ let events2026 = [
         owner: 'SFSO_SPB',
         start: 'SCHOOL',
         map: 'school_457_2026',
+        photo: 'https://vk.ru/album-230167293_314592955',
         video: 'https://vk.ru/video-230167293_456239039'
     },
     {
@@ -2809,6 +2811,7 @@ let events2026 = [
         o_site: '261001',
         owner: 'SFSO_SPB',
         start: 'SCHOOL',
+        photo: 'https://vk.ru/album-230167293_314592958',
         map: 'school_158_2021'
     },
     {

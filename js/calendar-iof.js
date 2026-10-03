@@ -1519,7 +1519,7 @@ let iofEvents = [
         },
         maps: [
             // 'https://omaps.worldofo.com/index.php?id=34500',
-            'https://omaps.worldofo.com/images/c2ecce792f774f0b3ca783eefcd163a3_l.jpg'
+            'https://www.tulospalvelu.fi/gps/20110322sprintM/map'
         ],
         coord: [62.5444, 12.3333],
         type: 'SKI',
@@ -1935,7 +1935,7 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2012/07/17/woc-middle-surprise-surprise/',
             // 'https://omaps.worldofo.com/index.php?id=65082',
-            'https://omaps.worldofo.com/images/c3fb7e4518aee4b4749e14fbcd18f6d5_l.jpg'
+            'https://www.tulospalvelu.fi/gps/20120717WOCMidM-Web/map'
         ],
         coord: [46.52, 6.633333],
         fmt: 'middle',
@@ -1954,7 +1954,7 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2012/07/19/woc-2012-long-maps-webroutes/',
             // 'https://omaps.worldofo.com/index.php?id=65177',
-            'https://omaps.worldofo.com/images/703eb344a0e4b56c4c9e47d9a5d94813_l.jpg'
+            'https://www.tulospalvelu.fi/gps/20120719WOCLongW-Web/map'
             // 'https://omaps.worldofo.com/index.php?id=65178',
         ],
         coord: [46.52, 6.633333],
@@ -2816,9 +2816,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2015/08/03/woc-sprint-2015-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=149143',
-            'https://omaps.worldofo.com/images/64cc0cdfe0afb8e9aabe9877d8290b90_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2015wocSprintM/map',
             // 'https://omaps.worldofo.com/?id=149144',
-            'https://omaps.worldofo.com/images/7e6de7d237d343268bd7021be27c5be6_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2015wocSprintW/map',
             'https://web.archive.org/web/20160207025511id_/http://www.woc2015.org/images/Sprint_Final_Map_Men.png',
             'https://web.archive.org/web/20160207025410id_/http://www.woc2015.org/images/Sprint_Final_Map_Women.png'
         ],
@@ -2843,9 +2843,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2015/08/05/woc-middle-2015-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=149277',
-            'https://omaps.worldofo.com/images/0ca08e0b0736fafbbd964afa6a85929d_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2015wocMiddleM/map',
             // 'https://omaps.worldofo.com/?id=149278',
-            'https://omaps.worldofo.com/images/636b024f6d4e6c3369eee9dee202d747_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2015wocMiddleW/map',
             'https://web.archive.org/web/20160120012247id_/http://www.woc2015.org/images/Women_Middle_map.png'
         ],
         coord: [57.4778, -4.2247],
@@ -3054,9 +3054,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2016/05/22/eoc-sprint-2016-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=175572',
-            'https://omaps.worldofo.com/images/902d2c9573b7ca2c970a409a842869fa_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20160522MFA/map',
             // 'https://omaps.worldofo.com/?id=175584',
-            'https://omaps.worldofo.com/images/3aad7ccff8303bb2e8b81d3eec924fc6_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20160522WFA/map',
             'https://mapy.ceskyorientak.cz/data/jpg/8466X.jpg'
         ],
         coord: [50.229722, 17.204722],
@@ -3099,9 +3099,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2016/05/24/eoc-2016-long-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=175820',
-            'https://omaps.worldofo.com/images/3729e0255da332df53d0b6c55f388193_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20160524MFA/map',
             // 'https://omaps.worldofo.com/?id=175821',
-            'https://omaps.worldofo.com/images/57041f2a28672278f0410f9e25a42c82_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20160524WFA/map',
             'https://news.worldofo.com/wp-content/uploads/2016/05/map_2000.jpg',
             'https://mapy.ceskyorientak.cz/data/jpg/8471X.jpg'
         ],
@@ -3142,9 +3142,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2016/05/28/eoc-middle-2016-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=176081',
-            'https://omaps.worldofo.com/images/37a1b9464738fd984dfd83c406c95074_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20160527MFA/map',
             // 'https://omaps.worldofo.com/?id=176110',
-            'https://omaps.worldofo.com/images/c2e298cf9662cff5f9d9163ec56fcd20_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20160527WFA/map',
             'https://mapy.ceskyorientak.cz/data/jpg/8476X.jpg'
         ],
         coord: [50.229722, 17.204722],
@@ -3169,11 +3169,11 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2016/05/29/eoc-2016-relay-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=176135',
-            'https://omaps.worldofo.com/images/49ff6bf91dc6584f37e14b7ff2e4e71b_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20160528M_3/map',
             // 'https://omaps.worldofo.com/?id=176136',
             // 'https://omaps.worldofo.com/?id=176137',
             // 'https://omaps.worldofo.com/?id=176138',
-            'https://omaps.worldofo.com/images/0d854869b4edd6159044c33288b1b21a_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20160528W_3/map',
             // 'https://omaps.worldofo.com/?id=176139',
             // 'https://omaps.worldofo.com/?id=176140',
             'https://mapy.ceskyorientak.cz/data/jpg/8477X.jpg'
@@ -3250,9 +3250,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2016/08/20/woc-2016-sprint-maps-results/',
             // 'https://omaps.worldofo.com/?id=184459',
-            'https://omaps.worldofo.com/images/290eae96ea2a8542b8eae52c2b7c62fb_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20160820WOCSprintM/map',
             // 'https://omaps.worldofo.com/?id=184460',
-            'https://omaps.worldofo.com/images/7d45075ae203c5e0450f0eb19eb37b61_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20160820WOCSprintW/map',
             'https://web.archive.org/web/20161023053319id_/http://live.woc2016.se/wp-content/uploads/2016/08/Sprint_ind_final_Men_2.gif'
         ],
         coord: [58.933333, 11.183333],
@@ -3275,9 +3275,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2016/08/21/woc-sprint-relay-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=184540',
-            'https://omaps.worldofo.com/images/3ef596d1cab08052700055ea4a01fad8_l.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2016/08/Sprint_relay_part_1.gif',
             // 'https://omaps.worldofo.com/?id=184541',
-            'https://omaps.worldofo.com/images/1b489f97ca972baf53b74beb495f69d1_l.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2016/08/Sprint_relay_part_2.gif',
             'https://web.archive.org/web/20161120011430id_/http://live.woc2016.se/wp-content/uploads/2016/08/Sprint_relay_part_1.gif'
         ],
         coord: [58.933333, 11.183333],
@@ -3298,9 +3298,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2016/08/23/woc-2016-middle-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=184752',
-            'https://omaps.worldofo.com/images/5de3aa503efb902e16e95f06e25e43d8_l.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2016/08/map.png',
             // 'https://omaps.worldofo.com/?id=184753',
-            'https://omaps.worldofo.com/images/24f1809329d20cef198d46e894650eb8_l.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2016/08/mapmiddlew.png',
             'http://news.worldofo.com/wp-content/uploads/2016/08/mapmiddlew.png'
         ],
         coord: [58.933333, 11.183333],
@@ -3321,9 +3321,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2016/08/25/woc-2016-long-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=184935',
-            'https://omaps.worldofo.com/images/1d1774dd730fef1c61a8972a1238f804_l.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2016/08/map1.png',
             // 'https://omaps.worldofo.com/?id=184947',
-            'https://omaps.worldofo.com/images/db0fe832a4274a0340604a00d3f4bf8c_l.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2016/08/map2.png',
             'https://web.archive.org/web/20161121043411id_/http://live.woc2016.se/wp-content/uploads/2016/08/L%C3%A5ngdistansbanor-20160803.Woman_.gif',
             'https://web.archive.org/web/20161121044917id_/http://live.woc2016.se/wp-content/uploads/2016/08/Long_Distance_Men.gif'
         ],
@@ -3349,9 +3349,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2016/08/27/woc-relay-2016-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=185058',
-            'https://omaps.worldofo.com/images/8623a8948d505f1a0a5ab15355658d13_l.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2016/08/mapm1.png',
             // 'https://omaps.worldofo.com/?id=185059',
-            'https://omaps.worldofo.com/images/f2c9a85976b86b7b9491e213b5bb8deb_l.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2016/08/mapw3.png',
             'https://web.archive.org/web/20161127024935id_/http://live.woc2016.se/wp-content/uploads/2016/08/Relay_gafflingar_Men.gif',
             'https://web.archive.org/web/20161127022656id_/http://live.woc2016.se/wp-content/uploads/2016/08/Relay_gafflingar_Women.gif'
         ],
@@ -3453,9 +3453,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2017/07/01/woc-2017-sprint-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=211667',
-            'https://omaps.worldofo.com/images/69a563b42cb7e3ea6589ebbb8fdf86ae_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2017wocSprintW/map',
             // 'https://omaps.worldofo.com/?id=211683',
-            'https://omaps.worldofo.com/images/2ee9e84f4bd29fe3a164e3084707618b_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2017wocSprintM/map',
             // 'https://omaps.worldofo.com/index.php?id=211683',
             'https://news.worldofo.com/wp-content/uploads/2017/07/mapsprint.png'
         ],
@@ -3484,9 +3484,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2017/07/02/woc-2017-sprint-relay-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=211746',
-            'https://omaps.worldofo.com/images/1461be2721133765c60731df7a7bc6d4_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2017wocSRelay2/map',
             // 'https://omaps.worldofo.com/?id=211747',
-            'https://omaps.worldofo.com/images/738091c8891e930b8e58138de88be9a1_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2017wocSRelay1/map',
             // 'https://omaps.worldofo.com/index.php?id=211747',
             'https://news.worldofo.com/wp-content/uploads/2017/07/map.png'
         ],
@@ -3509,9 +3509,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2017/07/04/woc-long-2017-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=211922',
-            'https://omaps.worldofo.com/images/eea0d592b314c0da3d26d7f7267ae35c_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2017wocLongM/map',
             // 'https://omaps.worldofo.com/?id=211923',
-            'https://omaps.worldofo.com/images/41fd4208f21c9f19cce3be6926c386f2_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2017wocLongW/map',
             'https://news.worldofo.com/wp-content/uploads/2017/07/mapmen_30001.jpg_1606901_21.jpg'
         ],
         video: [
@@ -3536,9 +3536,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2017/07/06/woc-2017-middle-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=212032',
-            'https://omaps.worldofo.com/images/15e6ea38015b1bb397318c7730455dc5_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2017wocMiddleM/map',
             // 'https://omaps.worldofo.com/?id=212034',
-            'https://omaps.worldofo.com/images/f7902cee7a911fd7e19da7ae4313b270_l.jpg'
+            'https://www.tulospalvelu.fi/gps/2017wocMiddleW/map'
         ],
         video: [
             'https://www.youtube.com/watch?v=IZeKsIjGDho',
@@ -3566,14 +3566,14 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2017/07/07/woc-2017-relay-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=212117',
-            'https://omaps.worldofo.com/images/57383256c4904c8fdb385b1d8dae3aea_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2017wocRelayW3/map',
             // 'https://omaps.worldofo.com/?id=212118',
-            'https://omaps.worldofo.com/images/fcff0bf5db160b50c5b7e8a682027502_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2017wocRelayW2/map',
             // 'https://omaps.worldofo.com/?id=212119',
             // 'https://omaps.worldofo.com/?id=212120',
-            'https://omaps.worldofo.com/images/caee3229909552e85282966275285eed_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2017wocRelayM3/map',
             // 'https://omaps.worldofo.com/?id=212121',
-            'https://omaps.worldofo.com/images/55f07570f5ca56d928700ddaa2fe247a_l.jpg'
+            'https://www.tulospalvelu.fi/gps/2017wocRelayM2/map'
             // 'https://omaps.worldofo.com/?id=212122',
         ],
         video: [
@@ -3722,9 +3722,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2018/05/09/eoc-2018-middle-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=231500',
-            'https://omaps.worldofo.com/images/efbeee8439218d523d5c5fc4f50935e6_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20180509_MF_M/map',
             // 'https://omaps.worldofo.com/?id=231501',
-            'https://omaps.worldofo.com/images/95eca1fdbb4ae2ba96a87f361953ba00_l.jpg'
+            'https://www.tulospalvelu.fi/gps/20180509_MF_W/map'
         ],
         video: 'https://www.youtube.com/watch?v=T6QcPAAWKKU',
         coord: [46.033333, 8.933333],
@@ -3770,12 +3770,12 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2018/05/13/eoc-2018-relay-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=231736',
-            'https://omaps.worldofo.com/images/eb1fef7e9b247a5ab12b3d7c506b18fd_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20180512_R_M2/map',
             // 'https://omaps.worldofo.com/?id=231737',
             // 'https://omaps.worldofo.com/?id=231738',
-            'https://omaps.worldofo.com/images/9ed266bb8080322b4403897c48664149_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20180512_R_W3/map',
             // 'https://omaps.worldofo.com/?id=231739',
-            'https://omaps.worldofo.com/images/777df56daaf1d02324d7f5c9f6962818_l.jpg'
+            'https://www.tulospalvelu.fi/gps/20180512_R_W2/map'
             // 'https://omaps.worldofo.com/?id=231740',
         ],
         video: 'https://www.youtube.com/watch?v=RWdG82IXjZY',
@@ -3796,9 +3796,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2018/05/14/eoc-2018-long-quick-gps-analysis-maps-results/',
             // 'https://omaps.worldofo.com/?id=231807',
-            'https://omaps.worldofo.com/images/aef536833ab539db96f33ddc27ab84a3_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20180513_L_M/map',
             // 'https://omaps.worldofo.com/?id=231808',
-            'https://omaps.worldofo.com/images/7d5476c6a301a24ae17d734fb392a587_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20180513_L_W/map',
             'https://news.worldofo.com/wp-content/uploads/2018/05/map-Long_Men.png',
             'https://news.worldofo.com/wp-content/uploads/2018/05/map-Long_Women.png'
         ],
@@ -3877,9 +3877,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2018/08/04/woc-2018-sprint-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=237369',
-            'https://omaps.worldofo.com/images/19082f3f4cede66836d26675f1d7793f_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2018wocSprintM/map',
             // 'https://omaps.worldofo.com/?id=237370',
-            'https://omaps.worldofo.com/images/c87fa21703ad7d0c15cc49fdd1548351_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2018wocSprintW/map',
             'https://news.worldofo.com/wp-content/uploads/2018/08/mapw.png',
             'https://news.worldofo.com/wp-content/uploads/2018/08/mapm.png'
         ],
@@ -3903,9 +3903,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2018/08/05/woc-2018-sprint-relay-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=237441',
-            'https://omaps.worldofo.com/images/d9172a7689b5b28edfe9944466824b76_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2018wocSprintR2/map',
             // 'https://omaps.worldofo.com/?id=237442',
-            'https://omaps.worldofo.com/images/1efb426258730266f2eddb39bc2c92ea_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2018wocSprintR1/map',
             // 'https://omaps.worldofo.com/?id=237443',
             // 'https://omaps.worldofo.com/?id=237444',
             'https://news.worldofo.com/wp-content/uploads/2018/08/mapsr.png'
@@ -3944,9 +3944,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2018/08/07/woc-2018-middle-maps-results-analysis/',
             // 'https://omaps.worldofo.com/?id=237552',
-            'https://omaps.worldofo.com/images/9a7f8dffb09a1246d8abfee1ee2c9502_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2018wocMiddleW/map',
             // 'https://omaps.worldofo.com/?id=237575',
-            'https://omaps.worldofo.com/images/a672706f7731838aa048267c290d8253_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2018wocMiddleM/map',
             'https://news.worldofo.com/wp-content/uploads/2018/08/mapwomenwoc2018middle.png',
             'https://news.worldofo.com/wp-content/uploads/2018/08/mapmenwoc2018middle.png'
         ],
@@ -3973,14 +3973,14 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2018/08/09/woc-2018-relay-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=237657',
-            'https://omaps.worldofo.com/images/ecbbd37372fc795f2fa3d93ce3c1a806_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2018wocRelayM3/map',
             // 'https://omaps.worldofo.com/?id=237658',
-            'https://omaps.worldofo.com/images/f611bb69e7d6a17738a8632b39aeb3ce_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2018wocRelayM2/map',
             // 'https://omaps.worldofo.com/?id=237660',
             // 'https://omaps.worldofo.com/?id=237662',
-            'https://omaps.worldofo.com/images/2ea9392605dff83fc0a08b8a044f9234_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2018wocRelayW3/map',
             // 'https://omaps.worldofo.com/?id=237664',
-            'https://omaps.worldofo.com/images/e97dd8f2e66c3f93ba1e0028cda6b7ea_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2018wocRelayW2/map',
             // 'https://omaps.worldofo.com/?id=237666',
             'https://news.worldofo.com/wp-content/uploads/2018/08/maprel.png'
         ],
@@ -4003,9 +4003,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2018/08/11/woc-2018-long-maps-results-analysis/',
             // 'https://omaps.worldofo.com/?id=237732',
-            'https://omaps.worldofo.com/images/212c60095befbf079dace4c893f744c8_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2018wocLongW/map',
             // 'https://omaps.worldofo.com/?id=237745',
-            'https://omaps.worldofo.com/images/5e879dc0502ef53a16789ae5ed2bfe8d_l.jpg'
+            'https://www.tulospalvelu.fi/gps/2018wocLongM/map'
         ],
         photo: 'https://photos.google.com/share/AF1QipOCPQdg-xS-dhUVyv0TKR2bbyE7HKxlN_7MupBSZU_yeJIe9yfEzpUHhyPUQPoHwA?key=c3hRbVMtbzN4YmM2N2EwS3lkUDVBSWRFY1VOWGhn',
         video: 'https://www.youtube.com/watch?v=En2zzzH-1nI',
@@ -4143,14 +4143,14 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2019/08/16/woc-middle-2019-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=258747',
-            'https://omaps.worldofo.com/images/6023f227cb4a70e055cebf5ecedd96a7_l.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Middle_Final_Men.png',
             // 'https://omaps.worldofo.com/?id=258748',
-            'https://omaps.worldofo.com/images/9c4ffa1a12605ac3ff671ea20f7deca3_l.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Middle_Final_Women.png',
             // 'https://news.worldofo.com/2019/08/14/woc-long-2019-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=258681',
-            'https://omaps.worldofo.com/images/176b7f09fc2f8d0658cb0aa2c2f5dd56_l.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Long_Men.png',
             // 'https://omaps.worldofo.com/?id=258682',
-            'https://omaps.worldofo.com/images/1871d1584a641cb2e073b5df75453920_l.jpg'
+            'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Long_Women.png'
             // 'https://news.worldofo.com/2019/08/17/woc-relay-2019-map-and-results/',
         ],
         photo: [
@@ -4494,21 +4494,21 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2021/07/03/woc-sprint-2021-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=301149',
-            'https://omaps.worldofo.com/images/2415916df35f4e9d91d03e6f5c8f9ab6_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210703WC/map',
             // 'https://omaps.worldofo.com/?id=301150',
-            'https://omaps.worldofo.com/images/60dcf9affce4defe40c92ad13f70a909_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210703WB/map',
             // 'https://omaps.worldofo.com/?id=301151',
-            'https://omaps.worldofo.com/images/e2735febf816d9acce6c20f46a34a3e3_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210703WA/map',
             // 'https://omaps.worldofo.com/?id=301152',
-            'https://omaps.worldofo.com/images/31208b503ca511a389a74dc6019b903d_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210703MC/map',
             // 'https://omaps.worldofo.com/?id=301153',
-            'https://omaps.worldofo.com/images/b46528b29fa35b5a9727e8fdf42e565f_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210703MB/map',
             // 'https://omaps.worldofo.com/?id=301154',
-            'https://omaps.worldofo.com/images/373c82fc73d11ca00a6952dfbeca5d25_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210703MA/map',
             // 'https://omaps.worldofo.com/?id=301168',
-            'https://omaps.worldofo.com/images/ccdfeb7650c824f342b07fdd7a86503b_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210703W/map',
             // 'https://omaps.worldofo.com/?id=301169',
-            'https://omaps.worldofo.com/images/16f6f326e7e6423da35f618b4fe845fe_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210703M/map',
             'https://woc2021.cz/wp-content/uploads/2021/07/Sprint-Final-Men.pdf',
             'https://woc2021.cz/wp-content/uploads/2021/07/Sprint-Final-Women.pdf',
             'https://news.worldofo.com/wp-content/uploads/2021/07/map_sprint_men.jpg',
@@ -4539,9 +4539,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2021/07/04/woc-2021-sprint-relay-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=301232',
-            'https://omaps.worldofo.com/images/f0594d10f7025bcc8ee8fc3bc1120c11_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210704SR4/map',
             // 'https://omaps.worldofo.com/?id=301233',
-            'https://omaps.worldofo.com/images/a66db09dd5b3c04d4b5ef0124087e2df_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210704SR3/map',
             // 'https://omaps.worldofo.com/?id=301234',
             // 'https://omaps.worldofo.com/?id=301235',
             'https://woc2021.cz/wp-content/uploads/2021/06/WEB_Sprint-Relay.pdf',
@@ -4573,9 +4573,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2021/07/06/woc-2021-middle-maps-results-and-splits-analysis/',
             // 'https://omaps.worldofo.com/?id=301352',
-            'https://omaps.worldofo.com/images/7ed65956deab7f45c3f44a37c5e71589_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210706W/map',
             // 'https://omaps.worldofo.com/?id=301353',
-            'https://omaps.worldofo.com/images/ef6bf8225133f106d8739acdb238796e_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210706M/map',
             'https://woc2021.cz/wp-content/uploads/2021/07/Middle-Final-Men.pdf',
             'https://woc2021.cz/wp-content/uploads/2021/07/Middle-Final-Women.pdf',
             'https://news.worldofo.com/wp-content/uploads/2021/07/men_map.jpg',
@@ -4608,14 +4608,14 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2021/07/08/woc-relay-maps-and-results-2/',
             // 'https://omaps.worldofo.com/?id=301418',
-            'https://omaps.worldofo.com/images/ef735cffe447c63574bf55373864e878_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210708W1/map',
             // 'https://omaps.worldofo.com/?id=301419',
-            'https://omaps.worldofo.com/images/ea31975dbea3a4858d1f98a0c943820c_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210708W3/map',
             // 'https://omaps.worldofo.com/?id=301420',
             // 'https://omaps.worldofo.com/?id=301421',
-            'https://omaps.worldofo.com/images/2ada7e8ba3a1936a4fc05d222c37327c_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210708M3/map',
             // 'https://omaps.worldofo.com/?id=301422',
-            'https://omaps.worldofo.com/images/f68e8aae92edcfd4d9c2aa831b86e835_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210708M2/map',
             // 'https://omaps.worldofo.com/?id=301423',
             'https://news.worldofo.com/wp-content/uploads/2021/07/map_relay.jpg',
             'https://mapy.ceskyorientak.cz/data/jpg/11622X.jpg'
@@ -4639,9 +4639,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2021/07/09/woc-2021-long-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=301488',
-            'https://omaps.worldofo.com/images/7f11d5d811d39ab22637fbc372d53bc4_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210709W/map',
             // 'https://omaps.worldofo.com/?id=301489',
-            'https://omaps.worldofo.com/images/35ec080c3bb60f4cf0f457809d7ce43b_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20210709M/map',
             'https://news.worldofo.com/wp-content/uploads/2021/07/map_men2.jpg',
             'https://mapy.ceskyorientak.cz/data/jpg/11623X.jpg'
         ],
@@ -5020,9 +5020,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2022/08/05/eoc-2022-long-maps-results-analysis/',
             // 'https://omaps.worldofo.com/?id=323184',
-            'https://omaps.worldofo.com/images/3613128ef947625000cf79aeda685bca_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2022eocLw/map',
             // 'https://omaps.worldofo.com/?id=323185',
-            'https://omaps.worldofo.com/images/b19c377cbbc933a53959d0595a804dc8_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2022eocLm/map',
             'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_long_men.png'
         ],
         photo: 'https://photos.app.goo.gl/s1Q6H4jLAHMkMmMJA',
@@ -5047,9 +5047,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2022/08/07/eoc-2022-middle-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=323289',
-            'https://omaps.worldofo.com/images/17de0b78b1feab25979ab7b30f163c2c_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2022eocMFwa/map',
             // 'https://omaps.worldofo.com/?id=323290',
-            'https://omaps.worldofo.com/images/d132abb2e286a8a170d7bdf979d33f08_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2022eocMFma/map',
             'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_middle_men.png'
         ],
         photo: 'https://photos.app.goo.gl/FFTyNCnoCzCncADh9',
@@ -5076,14 +5076,14 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2022/08/08/eoc-2022-relay-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=323301',
-            'https://omaps.worldofo.com/images/0f346fde5628e9cb1165dd883334707c_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2022eocRw1/map',
             // 'https://omaps.worldofo.com/?id=323339',
-            'https://omaps.worldofo.com/images/1a3ac7303dcea8374a378d5cccc4df09_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2022eocRm3/map',
             // 'https://omaps.worldofo.com/?id=323340',
-            'https://omaps.worldofo.com/images/66569fce9c8828967c4dfea7862fc367_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2022eocRm2/map',
             // 'https://omaps.worldofo.com/?id=323341',
             // 'https://omaps.worldofo.com/?id=323342',
-            'https://omaps.worldofo.com/images/b53537f6c90245d9e67ca94d59bcb60d_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2022eocRw3/map',
             // 'https://omaps.worldofo.com/?id=323343',
             'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_relay_men_leg1.png'
         ],
@@ -5206,9 +5206,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2023/07/13/woc-2023-long-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=340747',
-            'https://omaps.worldofo.com/images/f1164c90b48249558f5bd425ed1e1e9f_l.jpg',
+            'https://www.tulospalvelu.fi/gps/20230713_WOC23_LW/map',
             // 'https://omaps.worldofo.com/?id=340748',
-            'https://omaps.worldofo.com/images/c1791065fde2da117428c3d28edf22e3_l.jpg'
+            'https://www.tulospalvelu.fi/gps/20230713_WOC23_LM/map'
         ],
         video: 'https://www.youtube.com/watch?v=ISX2Gs1eB3A',
         coord: [46.833333, 9.283333],
@@ -5395,7 +5395,7 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=345355',
             'https://omaps.worldofo.com/images/047cb10dfe2f1e0a73c860ad4cc8464f_l.jpg',
             // 'https://omaps.worldofo.com/?id=345376',
-            'https://omaps.worldofo.com/images/5a7fc11c20808862b2467ab29d266744_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2023eocSprintW/map',
             'https://news.worldofo.com/wp-content/uploads/2023/10/map_sprint_eoc_verona_men.png'
         ],
         photo: [
@@ -5422,9 +5422,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2023/10/07/eoc-sprint-relay-2023-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=345457',
-            'https://omaps.worldofo.com/images/2ee4966f31fe3646d4ea1f5674e1bdbc_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2023eocSR4/map',
             // 'https://omaps.worldofo.com/?id=345458',
-            'https://omaps.worldofo.com/images/45f6fadd12c4b3fd2cbe82e458888c9b_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2023eocSR3/map',
             // 'https://omaps.worldofo.com/?id=345459',
             // 'https://omaps.worldofo.com/?id=345460',
             'https://news.worldofo.com/wp-content/uploads/2023/10/map_sprintrelayeoc2023.png'
@@ -5452,13 +5452,13 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2023/10/09/eoc-2023-ko-sprint-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=345512',
-            'https://omaps.worldofo.com/images/70b59dd776e56dfe125cac2f161378d9_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2023eocKOsfM/map',
             // 'https://omaps.worldofo.com/?id=345513',
             // 'https://omaps.worldofo.com/?id=345514',
-            'https://omaps.worldofo.com/images/d1ccca7cca62a04b6252a637fe5d4c17_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2023eocKOqfW/map',
             // 'https://omaps.worldofo.com/?id=345515',
             // 'https://omaps.worldofo.com/?id=345529',
-            'https://omaps.worldofo.com/images/6d1cd66de1d6aa05e63a9ffdfc2bd09d_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2023eocKOfW/map',
             // 'https://omaps.worldofo.com/?id=345530',
             'https://news.worldofo.com/wp-content/uploads/2023/10/map_eoc_2023_KO-sprint-final-men1.png'
         ],
@@ -5561,19 +5561,19 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2024/07/13/woc-2024-sprint-analysis-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=356936',
-            'https://omaps.worldofo.com/images/73bcfd09970f7af3e031ca826684443e_l.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/8a36dc99404bcbeb29d76846/optimized_Sprint_Qualification_Men-1.gif',
             // 'https://omaps.worldofo.com/?id=356937',
-            'https://omaps.worldofo.com/images/200219958bdae384b18f83d2a65d9d69_l.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/9f0346fb3aec00fe737cfb88/optimized_Sprint_Qualification_Men-3Gif.gif',
             // 'https://omaps.worldofo.com/?id=356938',
-            'https://omaps.worldofo.com/images/5d401b0d0c8f244d4624fe23eade0f03_l.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/cfeda9f5478c7d2d18524803/optimized_Sprint_Qualification_Women-2.gif',
             // 'https://omaps.worldofo.com/?id=356939',
-            'https://omaps.worldofo.com/images/5c58e6b9f1f62064d2521de9e510b126_l.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/c896169b26808e53c676c73c/optimized_Sprint_Qualification_Women-1.gif',
             // 'https://omaps.worldofo.com/?id=356940',
-            'https://omaps.worldofo.com/images/d2f704cab46df3cb48424d4e1cc1af01_l.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/776b3ff69e0567a091880d82/optimized_Sprint_Qualification_Men-2.gif',
             // 'https://omaps.worldofo.com/?id=356945',
-            'https://omaps.worldofo.com/images/06bd8ab9022f6464deb4a82af8738e87_l.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/959f346c2f767cb615ab53db/optimized_tile_0_0.jpg',
             // 'https://omaps.worldofo.com/?id=356946',
-            'https://omaps.worldofo.com/images/04cac289a652b5341a167fa5b24ab6c2_l.jpg'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/43173e41d2ba48f7f1044deb/optimized_tile_0_0.jpg'
         ],
         photo: [
             'https://photos.app.goo.gl/5wBiQfGQCqRZ1AtM8',
@@ -5717,9 +5717,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2024/08/18/eoc-2024-middle-analysis-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=358143',
-            'https://omaps.worldofo.com/images/8c10a09308ac6416efd14a71aaece7cd_l.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/d4406d936d6916bf384a74d1/optimized_tile_0_0.jpg',
             // 'https://omaps.worldofo.com/?id=358145',
-            'https://omaps.worldofo.com/images/4fc63ce699af0b22bc604a9a011cc766_l.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/12163a1d25c5d8fb14f3c591/optimized_tile_0_0.jpg',
             'https://news.worldofo.com/wp-content/uploads/2024/08/map_men_EOC_MiddleFinal_3000.jpg',
             'https://news.worldofo.com/wp-content/uploads/2024/08/map_women_EOCMiddleFinal_3000.jpg'
         ],
@@ -5742,9 +5742,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2024/08/19/eoc-2024-long-analysis-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=358196',
-            'https://omaps.worldofo.com/images/8f8821032b1461379ec7c39363feca0c_l.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/0e4272f26ba3956f37e95560/optimized_Women300.gif',
             // 'https://omaps.worldofo.com/?id=358224',
-            'https://omaps.worldofo.com/images/bd8e619c6ea032323b430e7a1fb7b582_l.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/b970646113aa5ce92b8af4f0/optimized_EOC2024_LongF_Men_all_spectators.gif',
             'https://news.worldofo.com/wp-content/uploads/2024/08/map_men_long_EOC_4000.jpg'
         ],
         photo: 'https://photos.app.goo.gl/o8YoUix2o4c7Lmgs8',
@@ -5943,9 +5943,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2025/07/10/woc-2025-middle-maps-results-and-analysis/',
             // 'https://omaps.worldofo.com/?id=371717',
-            'https://omaps.worldofo.com/images/94ba33a3d62e9557f6ca3d58133dd006_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2025wocmfW/map',
             // 'https://omaps.worldofo.com/?id=371718',
-            'https://omaps.worldofo.com/images/5f5468157a5338db57f7b33397b0324f_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2025wocmfM/map',
             'https://news.worldofo.com/wp-content/uploads/2025/07/mapwoc2025middlemen.png',
             'https://news.worldofo.com/wp-content/uploads/2025/07/mapwoc2025middlewomen.png'
         ],
@@ -5968,9 +5968,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2025/07/11/woc-2025-long-maps-results-and-analysis/',
             // 'https://omaps.worldofo.com/?id=371749',
-            'https://omaps.worldofo.com/images/8b302d962f2f65feffd42e9711ff5db8_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2025wocldW/map',
             // 'https://omaps.worldofo.com/?id=371750',
-            'https://omaps.worldofo.com/images/e965d73909b0ce3d4c193d8ff340af5e_l.jpg'
+            'https://www.tulospalvelu.fi/gps/2025wocldM/map'
         ],
         photo: 'https://photos.app.goo.gl/Prxe7RnX3QHUib1z6',
         video: 'https://www.youtube.com/watch?v=DmwOcTK9SNg',
@@ -5999,15 +5999,15 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2025/07/13/woc-2025-relay-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=371817',
-            'https://omaps.worldofo.com/images/f6761240dd963202969805c2884a9dd4_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2025wocrelayM2/map',
             // 'https://omaps.worldofo.com/?id=371818',
             // 'https://omaps.worldofo.com/?id=371819',
-            'https://omaps.worldofo.com/images/0a7d70cbb6f6d6bf15ea3a461abe7768_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2025wocrelayW3/map',
             // 'https://omaps.worldofo.com/?id=371820',
-            'https://omaps.worldofo.com/images/5cacc7e0fadb865ff4c920d75941251b_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2025wocrelayW2/map',
             // 'https://omaps.worldofo.com/?id=371821',
             // 'https://omaps.worldofo.com/?id=371846',
-            'https://omaps.worldofo.com/images/d6f0e911c8fc821b4328c2aa0ce436be_l.jpg'
+            'https://www.tulospalvelu.fi/gps/2025wocrelayM3/map'
         ],
         photo: 'https://photos.app.goo.gl/KeBAGts7LvmVUQEq7',
         video: 'https://www.youtube.com/watch?v=kqk92O5okrw',
@@ -6137,9 +6137,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2025/09/01/eoc-2025-sprint-maps-results-and-analysis/',
             // 'https://omaps.worldofo.com/?id=374753',
-            'https://omaps.worldofo.com/images/a83a00b7fe7bb9304a3fe59b578d0c85_l.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/afa4426f8dcb62bc4e227534/optimized_tile_0_0.gif',
             // 'https://omaps.worldofo.com/?id=374754',
-            'https://omaps.worldofo.com/images/6cc13a7f2bae42e66aeea508b553209f_l.jpg'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2af8e0f034fdb807c97600c0/optimized_tile_0_0.gif'
             // 'https://omaps.worldofo.com/index.php?id=374753',
         ],
         coord: [50.93, 5.3375],
@@ -6290,9 +6290,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2026/07/12/woc-2026-sprint-relay-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=393243',
-            'https://omaps.worldofo.com/images/48b86f1472b4c3d66676cdfdc2b477f9_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2026wocSR4/map',
             // 'https://omaps.worldofo.com/?id=393244',
-            'https://omaps.worldofo.com/images/093c06e7fc553a2524ead3896e8eb63e_l.jpg'
+            'https://www.tulospalvelu.fi/gps/2026wocSR3/map'
             // 'https://omaps.worldofo.com/?id=393245',
             // 'https://omaps.worldofo.com/?id=393246',
         ],
@@ -6395,9 +6395,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2026/09/25/eoc-2026-long-maps-results-and-analysis/',
             // 'https://omaps.worldofo.com/?id=395897',
-            'https://omaps.worldofo.com/images/b892d46daf2f5740800c7cf72748f473_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2026eocLongW/map',
             // 'https://omaps.worldofo.com/?id=395899',
-            'https://omaps.worldofo.com/images/bb022dc9213ac7508269c424417bf074_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2026eocLongM/map',
             'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26l_map_men_s.jpg',
             'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26l_map_women_s.jpg'
         ],
@@ -6421,9 +6421,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2026/09/27/eoc-2026-middle-maps-results-and-analysis/',
             // 'https://omaps.worldofo.com/?id=395921',
-            'https://omaps.worldofo.com/images/7647789a8284ae7e59be7f4a0e17523a_l.jpg',
+            'https://www.tulospalvelu.fi/gps/2026eocMiddleMen/map',
             // 'https://omaps.worldofo.com/?id=395922',
-            'https://omaps.worldofo.com/images/e10056398118cfca16cbd61da2d99086_l.jpg'
+            'https://www.tulospalvelu.fi/gps/2026eocMiddleWomen/map'
         ],
         coord: [54.016667, 23.966667],
         fmt: 'middle',

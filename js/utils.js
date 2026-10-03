@@ -2273,9 +2273,15 @@ function isNoPreviewHost(url) {
     return !!m && NO_PREVIEW_MAP_HOSTS.includes(m[1].toLowerCase());
 }
 
+// Изображения без расширения в адресе: карта трансляции GPSSeuranta (…tulospalvelu.fi/gps/<трансляция>/map,
+// JPEG или PNG - сервер не указывает тип).
+const EXTENSIONLESS_IMAGE_URLS = [/^https?:\/\/(www\.)?tulospalvelu\.fi\/gps\/[^/]+\/map$/i];
+
 // Файл - изображение, которое можно показать превью (а не PDF и не файл с хоста за капчей).
 function isImageUrl(url) {
-    return /\.(gif|jpe?g|png|webp|svg)$/i.test(String(url).split(/[?#]/)[0]) && !isNoPreviewHost(url);
+    const path = String(url).split(/[?#]/)[0];
+    return (/\.(gif|jpe?g|png|webp|svg)$/i.test(path) || EXTENSIONLESS_IMAGE_URLS.some(re => re.test(path)))
+        && !isNoPreviewHost(url);
 }
 
 // Значок типа файла внешней карты - вместо превью (PDF, изображения с хостов за капчей и т.п.).
