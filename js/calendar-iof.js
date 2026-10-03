@@ -1316,7 +1316,10 @@ let iofEvents = [
             // 'https://news.worldofo.com/2010/08/08/woc-sprint-maps-and-results/',
             // 'https://omaps.worldofo.com/index.php?id=26800',
             // 'https://omaps.worldofo.com/index.php?id=26801',
-            'https://web.archive.org/web/20140829052946id_/http://woc2010.com/images/stories/woc/maps/sprint-final/woc2010sprintfinalmen.jpg'
+            'https://web.archive.org/web/20140829052946id_/http://woc2010.com/images/stories/woc/maps/sprint-final/woc2010sprintfinalmen.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20100808_sprint_w/map',
+            'https://www.tulospalvelu.fi/gps/20100808_sprint_m/map'
         ],
         coord: [63.429722, 10.393333],
         fmt: 'sprint',
@@ -1333,6 +1336,12 @@ let iofEvents = [
             'W-QB': 'https://www.tulospalvelu.fi/gps/20100809_mid_q_w2/',
             'W-QC': 'https://www.tulospalvelu.fi/gps/20100809_mid_q_w3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20100809_mid_q_w1/map',
+            'https://www.tulospalvelu.fi/gps/20100809_mid_q_w2/map',
+            'https://www.tulospalvelu.fi/gps/20100809_mid_q_w3/map'
+        ],
         coord: [63.429722, 10.393333],
         fmt: 'middle',
         start: 'WOC'
@@ -1348,6 +1357,12 @@ let iofEvents = [
             'M-QB': 'https://www.tulospalvelu.fi/gps/20100810_long_q_m2/',
             'M-QC': 'https://www.tulospalvelu.fi/gps/20100810_long_q_m3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20100810_long_q_m1/map',
+            'https://www.tulospalvelu.fi/gps/20100810_long_q_m2/map',
+            'https://www.tulospalvelu.fi/gps/20100810_long_q_m3/map'
+        ],
         coord: [63.429722, 10.393333],
         fmt: 'long',
         start: 'WOC'
@@ -1365,7 +1380,10 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2010/08/12/woc-long-men-map-and-route-choices/',
             // 'https://omaps.worldofo.com/index.php?id=26942',
-            'https://web.archive.org/web/20140829062416id_/http://woc2010.com/images/stories/woc/maps/long-final/woc2010longfinalwomen.jpg'
+            'https://web.archive.org/web/20140829062416id_/http://woc2010.com/images/stories/woc/maps/long-final/woc2010longfinalwomen.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20100812_long_f_m/map',
+            'https://www.tulospalvelu.fi/gps/20100812_long_f_w/map'
         ],
         coord: [63.429722, 10.393333],
         fmt: 'long',
@@ -1386,7 +1404,10 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/index.php?id=26981',
             // 'https://omaps.worldofo.com/index.php?id=26988',
             'https://web.archive.org/web/20140829060930id_/http://woc2010.com/images/stories/woc/maps/middle-final/woc2010middlefinalmen.jpg',
-            'https://web.archive.org/web/20170314121232id_/http://woc2010.com/images/stories/woc/maps/middle-final/woc2010middlefinalwomen.jpg'
+            'https://web.archive.org/web/20170314121232id_/http://woc2010.com/images/stories/woc/maps/middle-final/woc2010middlefinalwomen.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20100814_middle_f_m/map',
+            'https://www.tulospalvelu.fi/gps/20100814_middle_f_w/map'
         ],
         coord: [63.429722, 10.393333],
         fmt: 'middle',
@@ -1410,6 +1431,13 @@ let iofEvents = [
             // 'https://news.worldofo.com/2010/08/15/woc-relay-maps-and-results/',
             // 'https://omaps.worldofo.com/index.php?id=27013',
             // 'https://omaps.worldofo.com/index.php?id=27014',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20100815_relay_m1/map',
+            'https://www.tulospalvelu.fi/gps/20100815_relay_m2/map',
+            // 'https://www.tulospalvelu.fi/gps/20100815_relay_m3/map', // duplicate of https://www.tulospalvelu.fi/gps/20100815_relay_m2/map
+            'https://www.tulospalvelu.fi/gps/20100815_relay_w1/map',
+            'https://www.tulospalvelu.fi/gps/20100815_relay_w2/map',
+            'https://www.tulospalvelu.fi/gps/20100815_relay_w3/map'
         ],
         coord: [63.429722, 10.393333],
         fmt: 'relay',
@@ -1441,6 +1469,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20110202EOCM/',
             'W': 'https://www.tulospalvelu.fi/gps/20110202EOCW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20110202EOCM/map',
+            'https://www.tulospalvelu.fi/gps/20110202EOCW/map'
+        ],
         coord: [61.116667, 10.466667],
         type: 'SKI',
         fmt: 'long',
@@ -1456,6 +1489,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20110204EOCM/',
             'W': 'https://www.tulospalvelu.fi/gps/20110204EOCW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20110204EOCM/map',
+            'https://www.tulospalvelu.fi/gps/20110204EOCW/map'
+        ],
         coord: [61.116667, 10.466667],
         type: 'SKI',
         fmt: 'sprint',
@@ -1472,6 +1510,12 @@ let iofEvents = [
             'M-2': 'https://www.tulospalvelu.fi/gps/20110205EOCM2/',
             'W': 'https://www.tulospalvelu.fi/gps/20110205EOCW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20110205EOCM1/map',
+            'https://www.tulospalvelu.fi/gps/20110205EOCM2/map',
+            'https://www.tulospalvelu.fi/gps/20110205EOCW/map'
+        ],
         coord: [61.116667, 10.466667],
         type: 'SKI',
         fmt: 'middle',
@@ -1487,6 +1531,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20110206EOCM/',
             'W': 'https://www.tulospalvelu.fi/gps/20110206EOCW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20110206EOCM/map',
+            'https://www.tulospalvelu.fi/gps/20110206EOCW/map'
+        ],
         coord: [61.116667, 10.466667],
         type: 'SKI',
         fmt: 'relay',
@@ -1519,7 +1568,9 @@ let iofEvents = [
         },
         maps: [
             // 'https://omaps.worldofo.com/index.php?id=34500',
-            'https://www.tulospalvelu.fi/gps/20110322sprintM/map'
+            'https://www.tulospalvelu.fi/gps/20110322sprintM/map',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20110322sprintW/map'
         ],
         coord: [62.5444, 12.3333],
         type: 'SKI',
@@ -1541,6 +1592,11 @@ let iofEvents = [
         maps: [
             // 'https://omaps.worldofo.com/index.php?id=34540',
             // 'https://omaps.worldofo.com/index.php?id=34537',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20110323middleM1/map',
+            'https://www.tulospalvelu.fi/gps/20110323m2/map',
+            'https://www.tulospalvelu.fi/gps/20110323middleW1/map',
+            'https://www.tulospalvelu.fi/gps/20110323w2/map'
         ],
         coord: [62.5444, 12.3333],
         type: 'SKI',
@@ -1556,6 +1612,10 @@ let iofEvents = [
         gps: {
             'all': 'https://www.tulospalvelu.fi/gps/20110324sprintrelay/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20110324sprintrelay/map'
+        ],
         coord: [62.5444, 12.3333],
         type: 'SKI',
         fmt: 'sprint relay',
@@ -1573,6 +1633,13 @@ let iofEvents = [
             'W': 'https://www.tulospalvelu.fi/gps/20110326longW/',
             'W-2': 'https://www.tulospalvelu.fi/gps/20110326longW2/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20110326longM/map',
+            'https://www.tulospalvelu.fi/gps/20110326longM2/map',
+            'https://www.tulospalvelu.fi/gps/20110326longW/map',
+            'https://www.tulospalvelu.fi/gps/20110326longW2/map'
+        ],
         coord: [62.5444, 12.3333],
         type: 'SKI',
         fmt: 'long',
@@ -1588,6 +1655,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20110327relayM/',
             'W': 'https://www.tulospalvelu.fi/gps/20110327relayW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20110327relayM/map',
+            'https://www.tulospalvelu.fi/gps/20110327relayW/map'
+        ],
         coord: [62.5444, 12.3333],
         type: 'SKI',
         fmt: 'relay',
@@ -1628,6 +1700,9 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/index.php?id=44926',
             // 'https://omaps.worldofo.com/index.php?id=44927',
             // 'https://omaps.worldofo.com/index.php?id=44928',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20110816wocsprintM/map',
+            'https://www.tulospalvelu.fi/gps/20110816wocsprintW/map'
         ],
         coord: [45.583333, 6.333333],
         fmt: 'sprint',
@@ -1649,6 +1724,9 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/index.php?id=44955',
             // 'https://omaps.worldofo.com/index.php?id=44978',
             // 'https://omaps.worldofo.com/index.php?id=44979',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20110817woclongM/map',
+            'https://www.tulospalvelu.fi/gps/20110817woclongW/map'
         ],
         coord: [45.583333, 6.333333],
         fmt: 'long',
@@ -1668,6 +1746,9 @@ let iofEvents = [
             // 'https://news.worldofo.com/2011/08/19/woc-middle-maps-and-results/',
             // 'https://omaps.worldofo.com/index.php?id=45055',
             // 'https://omaps.worldofo.com/index.php?id=45064',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20110819wocmiddleM/map',
+            'https://www.tulospalvelu.fi/gps/20110819wocmiddleW/map'
         ],
         coord: [45.583333, 6.333333],
         fmt: 'middle',
@@ -1685,6 +1766,13 @@ let iofEvents = [
             'W-1+2': 'https://www.tulospalvelu.fi/gps/20110821wocrelayW12/',
             'W-3': 'https://www.tulospalvelu.fi/gps/20110821wocrelayW3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20110821wocrelayM12/map',
+            'https://www.tulospalvelu.fi/gps/20110821wocrelayM3/map',
+            'https://www.tulospalvelu.fi/gps/20110821wocrelayW12/map',
+            'https://www.tulospalvelu.fi/gps/20110821wocrelayW3/map'
+        ],
         coord: [45.583333, 6.333333],
         fmt: 'relay',
         start: 'WOC'
@@ -1768,6 +1856,12 @@ let iofEvents = [
             'W-QA': 'https://www.tulospalvelu.fi/gps/20120514EOCMidWQ-A/',
             'W-QC': 'https://www.tulospalvelu.fi/gps/20120514EOCMidWQ-C/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120514EOCMidWQ-B/map',
+            'https://www.tulospalvelu.fi/gps/20120514EOCMidWQ-A/map',
+            'https://www.tulospalvelu.fi/gps/20120514EOCMidWQ-C/map'
+        ],
         coord: [60.607222, 15.631111],
         fmt: 'middle',
         start: 'EOC'
@@ -1783,6 +1877,12 @@ let iofEvents = [
             'M-QB': 'https://www.tulospalvelu.fi/gps/20120515EOCLongMQ-B/',
             'M-QC': 'https://www.tulospalvelu.fi/gps/20120515EOCLongMQ-C/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120515EOCLongMQ-A/map',
+            'https://www.tulospalvelu.fi/gps/20120515EOCLongMQ-B/map',
+            'https://www.tulospalvelu.fi/gps/20120515EOCLongMQ-C/map'
+        ],
         coord: [60.607222, 15.631111],
         fmt: 'long',
         start: 'EOC'
@@ -1813,7 +1913,10 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/index.php?id=61113',
             // 'https://omaps.worldofo.com/index.php?id=61114',
             'https://web.archive.org/web/20121004183820id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_MIDDLE_M_low-quality2.jpg',
-            'https://web.archive.org/web/20121107160813id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_MIDDLE_W_low-quality1.jpg'
+            'https://web.archive.org/web/20121107160813id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_MIDDLE_W_low-quality1.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120517EOCMidMF/map',
+            'https://www.tulospalvelu.fi/gps/20120517EOCMidWF/map'
         ],
         coord: [60.607222, 15.631111],
         fmt: 'middle',
@@ -1835,7 +1938,10 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/index.php?id=61158',
             // 'https://omaps.worldofo.com/index.php?id=61159',
             'https://web.archive.org/web/20121004155153id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_LONG_M_low-quality.jpg',
-            'https://web.archive.org/web/20121004155240id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_LONG_W_low-quality.jpg'
+            'https://web.archive.org/web/20121004155240id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_LONG_W_low-quality.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120518EOCLongMF/map',
+            'https://www.tulospalvelu.fi/gps/20120518EOCLongWF/map'
         ],
         coord: [60.607222, 15.631111],
         fmt: 'long',
@@ -1854,7 +1960,10 @@ let iofEvents = [
         },
         maps: [
             'https://web.archive.org/web/20121107134804id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Falun_SPRINT_M_low-quality.jpg',
-            'https://web.archive.org/web/20121107134631id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Falun_SPRINT_W_low-quality.jpg'
+            'https://web.archive.org/web/20121107134631id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Falun_SPRINT_W_low-quality.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120519EOCSprintMF/map',
+            'https://www.tulospalvelu.fi/gps/20120519EOCSprintWF/map'
         ],
         coord: [60.607222, 15.631111],
         fmt: 'sprint',
@@ -1874,6 +1983,15 @@ let iofEvents = [
             'W-1': 'https://www.tulospalvelu.fi/gps/20120520EOCRelW1/',
             'W-2': 'https://www.tulospalvelu.fi/gps/20120520EOCRelW2/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120520EOCRelM1/map',
+            'https://www.tulospalvelu.fi/gps/20120520EOCRelM2/map',
+            'https://www.tulospalvelu.fi/gps/20120520EOCRelM3/map',
+            'https://www.tulospalvelu.fi/gps/20120520EOCRelW3/map',
+            'https://www.tulospalvelu.fi/gps/20120520EOCRelW1/map',
+            'https://www.tulospalvelu.fi/gps/20120520EOCRelW2/map'
+        ],
         coord: [60.607222, 15.631111],
         fmt: 'relay',
         start: 'EOC'
@@ -1917,6 +2035,9 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/index.php?id=64913',
             // 'https://omaps.worldofo.com/index.php?id=64921',
             // 'https://omaps.worldofo.com/index.php?id=64922',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120714WOCSprM-Web/map',
+            'https://www.tulospalvelu.fi/gps/20120714WOCSprW-Web/map'
         ],
         coord: [46.52, 6.633333],
         fmt: 'sprint',
@@ -1935,7 +2056,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2012/07/17/woc-middle-surprise-surprise/',
             // 'https://omaps.worldofo.com/index.php?id=65082',
-            'https://www.tulospalvelu.fi/gps/20120717WOCMidM-Web/map'
+            'https://www.tulospalvelu.fi/gps/20120717WOCMidM-Web/map',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120717WOCMidW-Web/map'
         ],
         coord: [46.52, 6.633333],
         fmt: 'middle',
@@ -1954,8 +2077,10 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2012/07/19/woc-2012-long-maps-webroutes/',
             // 'https://omaps.worldofo.com/index.php?id=65177',
-            'https://www.tulospalvelu.fi/gps/20120719WOCLongW-Web/map'
+            'https://www.tulospalvelu.fi/gps/20120719WOCLongW-Web/map',
             // 'https://omaps.worldofo.com/index.php?id=65178',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120719WOCLongM-Web/map'
         ],
         coord: [46.52, 6.633333],
         fmt: 'long',
@@ -1975,6 +2100,15 @@ let iofEvents = [
             'W-2': 'https://www.tulospalvelu.fi/gps/20120721WOCRelW2-Web/',
             'W-3': 'https://www.tulospalvelu.fi/gps/20120721WOCRelW3-Web/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120721WOCRelM1-Web/map',
+            'https://www.tulospalvelu.fi/gps/20120721WOCRelM2-Web/map',
+            'https://www.tulospalvelu.fi/gps/20120721WOCRelM3-Web/map',
+            'https://www.tulospalvelu.fi/gps/20120721WOCRelW1-Web/map',
+            'https://www.tulospalvelu.fi/gps/20120721WOCRelW2-Web/map',
+            'https://www.tulospalvelu.fi/gps/20120721WOCRelW3-Web/map'
+        ],
         coord: [46.52, 6.633333],
         fmt: 'relay',
         start: 'WOC'
@@ -2008,6 +2142,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20120821mtbsprintM/',
             'W': 'https://www.tulospalvelu.fi/gps/20120821mtbsprintW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120821mtbsprintM/map',
+            'https://www.tulospalvelu.fi/gps/20120821mtbsprintW/map'
+        ],
         coord: [47.09296, 17.91377],
         type: 'VELO',
         fmt: 'sprint',
@@ -2023,6 +2162,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20120822mtbmiddleM/',
             'W': 'https://www.tulospalvelu.fi/gps/20120822mtbmiddleW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120822mtbmiddleM/map',
+            'https://www.tulospalvelu.fi/gps/20120822mtbmiddleW/map'
+        ],
         coord: [47.09296, 17.91377],
         type: 'VELO',
         fmt: 'middle',
@@ -2040,6 +2184,13 @@ let iofEvents = [
             'W-1+2': 'https://www.tulospalvelu.fi/gps/20120824mtbrelayW12/',
             'W-3': 'https://www.tulospalvelu.fi/gps/20120824mtbrelayW3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120824mtbrelayM12/map',
+            'https://www.tulospalvelu.fi/gps/20120824mtbrelayM3/map',
+            'https://www.tulospalvelu.fi/gps/20120824mtbrelayW12/map',
+            'https://www.tulospalvelu.fi/gps/20120824mtbrelayW3/map'
+        ],
         coord: [47.09296, 17.91377],
         type: 'VELO',
         fmt: 'relay',
@@ -2055,6 +2206,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20120825mtblongM/',
             'W': 'https://www.tulospalvelu.fi/gps/20120825mtblongW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20120825mtblongM/map',
+            'https://www.tulospalvelu.fi/gps/20120825mtblongW/map'
+        ],
         coord: [47.09296, 17.91377],
         type: 'VELO',
         fmt: 'long',
@@ -2136,6 +2292,13 @@ let iofEvents = [
             'M-Q2': 'https://www.tulospalvelu.fi/gps/2013wocLongQ2/',
             'M-Q3': 'https://www.tulospalvelu.fi/gps/2013wocLongQ3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2013wocLongQall/map',
+            'https://www.tulospalvelu.fi/gps/2013wocLongQ1/map',
+            'https://www.tulospalvelu.fi/gps/2013wocLongQ2/map',
+            'https://www.tulospalvelu.fi/gps/2013wocLongQ3/map'
+        ],
         coord: [64.1458, 28.2717],
         fmt: 'long',
         start: 'WOC'
@@ -2159,7 +2322,16 @@ let iofEvents = [
         },
         maps: [
             'https://www.woc2013.fi/wp-content/uploads/2014/08/Sprint-F-Men.gif',
-            'https://www.woc2013.fi/wp-content/uploads/2014/08/Sprint-F-Women.gif'
+            'https://www.woc2013.fi/wp-content/uploads/2014/08/Sprint-F-Women.gif',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2013WOCsprintQM1/map',
+            'https://www.tulospalvelu.fi/gps/2013WOCsprintQM2/map',
+            'https://www.tulospalvelu.fi/gps/2013WOCsprintQM3/map',
+            'https://www.tulospalvelu.fi/gps/2013WOCsprintQW1/map',
+            'https://www.tulospalvelu.fi/gps/2013WOCsprintQW2/map',
+            'https://www.tulospalvelu.fi/gps/2013WOCsprintQW3/map',
+            'https://www.tulospalvelu.fi/gps/2013wocSprintMen/map',
+            'https://www.tulospalvelu.fi/gps/2013wocSprintWomen/map'
         ],
         coord: [64.1458, 28.2717],
         fmt: 'sprint',
@@ -2178,7 +2350,10 @@ let iofEvents = [
         },
         maps: [
             'https://www.woc2013.fi/wp-content/uploads/2014/08/Long-F-MEN-1.gif',
-            'https://www.woc2013.fi/wp-content/uploads/2014/08/Long-F-WOMEN-1.gif'
+            'https://www.woc2013.fi/wp-content/uploads/2014/08/Long-F-WOMEN-1.gif',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2013WOCLongM/map',
+            'https://www.tulospalvelu.fi/gps/2013WOCLongW/map'
         ],
         coord: [64.1458, 28.2717],
         fmt: 'long',
@@ -2198,6 +2373,15 @@ let iofEvents = [
             'W-Q2': 'https://www.tulospalvelu.fi/gps/2013mqW2/',
             'W-Q3': 'https://www.tulospalvelu.fi/gps/2013mqW3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2013mqM1/map',
+            'https://www.tulospalvelu.fi/gps/2013mqM2/map',
+            'https://www.tulospalvelu.fi/gps/2013mqM3/map',
+            'https://www.tulospalvelu.fi/gps/2013mqW1/map',
+            'https://www.tulospalvelu.fi/gps/2013mqW2/map',
+            'https://www.tulospalvelu.fi/gps/2013mqW3/map'
+        ],
         coord: [64.1458, 28.2717],
         fmt: 'middle',
         start: 'WOC'
@@ -2215,7 +2399,10 @@ let iofEvents = [
         },
         maps: [
             'https://www.woc2013.fi/wp-content/uploads/2014/08/Middle-F-MEN-1.gif',
-            'https://www.woc2013.fi/wp-content/uploads/2014/08/Middle-F-WOMEN-1.gif'
+            'https://www.woc2013.fi/wp-content/uploads/2014/08/Middle-F-WOMEN-1.gif',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2013wocMidM/map',
+            'https://www.tulospalvelu.fi/gps/2013wocMidW/map'
         ],
         coord: [64.1458, 28.2717],
         fmt: 'middle',
@@ -2240,7 +2427,16 @@ let iofEvents = [
         },
         maps: [
             'https://www.woc2013.fi/wp-content/uploads/2014/08/Relay-MEN.gif',
-            'https://www.woc2013.fi/wp-content/uploads/2014/08/Relay-WOMEN.gif'
+            'https://www.woc2013.fi/wp-content/uploads/2014/08/Relay-WOMEN.gif',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2013wocRM1/map',
+            // 'https://www.tulospalvelu.fi/gps/2013wocRM2/map', // duplicate of https://www.tulospalvelu.fi/gps/2013wocRM1/map
+            'https://www.tulospalvelu.fi/gps/2013wocRM3/map',
+            'https://www.tulospalvelu.fi/gps/2013wocRM123/map',
+            'https://www.tulospalvelu.fi/gps/2013wocRW1/map',
+            // 'https://www.tulospalvelu.fi/gps/2013wocRW2/map', // duplicate of https://www.tulospalvelu.fi/gps/2013wocRW1/map
+            'https://www.tulospalvelu.fi/gps/2013wocRW3/map',
+            'https://www.tulospalvelu.fi/gps/2013wocRW123/map'
         ],
         coord: [64.1458, 28.2717],
         fmt: 'relay',
@@ -2293,6 +2489,11 @@ let iofEvents = [
             'M-135': 'https://www.tulospalvelu.fi/gps/20140307esocM/',
             'W-246': 'https://www.tulospalvelu.fi/gps/20140307esocW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20140307esocM/map',
+            'https://www.tulospalvelu.fi/gps/20140307esocW/map'
+        ],
         coord: [57.15, 65.533333],
         type: 'SKI',
         fmt: 'sprint relay',
@@ -2308,6 +2509,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20140308esocM/',
             'W': 'https://www.tulospalvelu.fi/gps/20140308esocW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20140308esocM/map',
+            'https://www.tulospalvelu.fi/gps/20140308esocW/map'
+        ],
         coord: [57.15, 65.533333],
         type: 'SKI',
         fmt: 'sprint',
@@ -2323,6 +2529,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20140309esocM/',
             'W': 'https://www.tulospalvelu.fi/gps/20140309esocW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20140309esocM/map',
+            'https://www.tulospalvelu.fi/gps/20140309esocW/map'
+        ],
         coord: [57.15, 65.533333],
         type: 'SKI',
         fmt: 'long',
@@ -2338,6 +2549,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20140311esocM/',
             'W': 'https://www.tulospalvelu.fi/gps/20140311esocW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20140311esocM/map',
+            'https://www.tulospalvelu.fi/gps/20140311esocW/map'
+        ],
         coord: [57.15, 65.533333],
         type: 'SKI',
         fmt: 'middle',
@@ -2357,6 +2573,15 @@ let iofEvents = [
             'W-2': 'https://www.tulospalvelu.fi/gps/20140312esocW2/',
             'W-3': 'https://www.tulospalvelu.fi/gps/20140312esocW3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20140312esocM1/map',
+            // 'https://www.tulospalvelu.fi/gps/20140312esocM2/map', // duplicate of https://www.tulospalvelu.fi/gps/20140312esocM1/map
+            // 'https://www.tulospalvelu.fi/gps/20140312esocM3/map', // duplicate of https://www.tulospalvelu.fi/gps/20140312esocM1/map
+            'https://www.tulospalvelu.fi/gps/20140312esocW1/map'
+            // 'https://www.tulospalvelu.fi/gps/20140312esocW2/map', // duplicate of https://www.tulospalvelu.fi/gps/20140312esocW1/map
+            // 'https://www.tulospalvelu.fi/gps/20140312esocW3/map', // duplicate of https://www.tulospalvelu.fi/gps/20140312esocW1/map
+        ],
         coord: [57.15, 65.533333],
         type: 'SKI',
         fmt: 'relay',
@@ -2509,6 +2734,9 @@ let iofEvents = [
             // 'https://news.worldofo.com/2014/07/05/woc-2014-sprint-maps-and-results/',
             // 'https://omaps.worldofo.com/index.php?id=116639',
             // 'https://omaps.worldofo.com/index.php?id=116640',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2014wocsprintM/map',
+            'https://www.tulospalvelu.fi/gps/2014wocsprintW/map'
         ],
         coord: [46.445556, 11.173056],
         fmt: 'sprint',
@@ -2527,6 +2755,13 @@ let iofEvents = [
             '3': 'https://www.tulospalvelu.fi/gps/2014wocsrelay3/',
             '4': 'https://www.tulospalvelu.fi/gps/2014wocsrelay4/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2014wocsrelay1/map',
+            'https://www.tulospalvelu.fi/gps/2014wocsrelay2/map'
+            // 'https://www.tulospalvelu.fi/gps/2014wocsrelay3/map', // duplicate of https://www.tulospalvelu.fi/gps/2014wocsrelay2/map
+            // 'https://www.tulospalvelu.fi/gps/2014wocsrelay4/map', // duplicate of https://www.tulospalvelu.fi/gps/2014wocsrelay1/map
+        ],
         coord: [46.445556, 11.173056],
         fmt: 'sprint relay',
         start: 'WOC'
@@ -2544,6 +2779,9 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2014/07/09/woc-long-2014-maps-and-results/',
             // 'https://omaps.worldofo.com/index.php?id=116973',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2014woclongM/map',
+            'https://www.tulospalvelu.fi/gps/2014woclongW/map'
         ],
         coord: [46.445556, 11.173056],
         fmt: 'long',
@@ -2563,6 +2801,9 @@ let iofEvents = [
             // 'https://news.worldofo.com/2014/07/11/woc-2014-middle-maps-and-results/',
             // 'https://omaps.worldofo.com/index.php?id=117068',
             // 'https://omaps.worldofo.com/index.php?id=117069',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2014wocmiddleM/map',
+            'https://www.tulospalvelu.fi/gps/2014wocmiddleW/map'
         ],
         coord: [46.445556, 11.173056],
         fmt: 'middle',
@@ -2582,6 +2823,15 @@ let iofEvents = [
             'W-2': 'https://www.tulospalvelu.fi/gps/2014wocrelayW2/',
             'W-3': 'https://www.tulospalvelu.fi/gps/2014wocrelayW3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2014wocrelayM1/map',
+            // 'https://www.tulospalvelu.fi/gps/2014wocrelayM2/map', // duplicate of https://www.tulospalvelu.fi/gps/2014wocrelayM1/map
+            'https://www.tulospalvelu.fi/gps/2014wocrelayM3/map',
+            'https://www.tulospalvelu.fi/gps/2014wocrelayW1/map',
+            // 'https://www.tulospalvelu.fi/gps/2014wocrelayW2/map', // duplicate of https://www.tulospalvelu.fi/gps/2014wocrelayW1/map
+            'https://www.tulospalvelu.fi/gps/2014wocrelayW3/map'
+        ],
         coord: [46.445556, 11.173056],
         fmt: 'relay',
         start: 'WOC'
@@ -2630,6 +2880,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20150120_esoc_sd_m/',
             'W': 'https://www.tulospalvelu.fi/gps/20150120_esoc_sd_w/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150120_esoc_sd_m/map',
+            'https://www.tulospalvelu.fi/gps/20150120_esoc_sd_w/map'
+        ],
         coord: [46.75, 9.55],
         type: 'SKI',
         fmt: 'sprint',
@@ -2645,6 +2900,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20150121_esoc_ld_m/',
             'W': 'https://www.tulospalvelu.fi/gps/20150121_esoc_ld_w/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150121_esoc_ld_m/map',
+            'https://www.tulospalvelu.fi/gps/20150121_esoc_ld_w/map'
+        ],
         coord: [46.75, 9.55],
         type: 'SKI',
         fmt: 'long',
@@ -2660,6 +2920,11 @@ let iofEvents = [
             'M-246': 'https://www.tulospalvelu.fi/gps/20150122_esoc_srel_2/',
             'W-135': 'https://www.tulospalvelu.fi/gps/20150122_esoc_srel_1/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150122_esoc_srel_2/map',
+            'https://www.tulospalvelu.fi/gps/20150122_esoc_srel_1/map'
+        ],
         coord: [46.75, 9.55],
         type: 'SKI',
         fmt: 'sprint relay',
@@ -2675,6 +2940,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20150124_esoc_md_m/',
             'W': 'https://www.tulospalvelu.fi/gps/20150124_esoc_md_w/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150124_esoc_md_m/map',
+            'https://www.tulospalvelu.fi/gps/20150124_esoc_md_w/map'
+        ],
         coord: [46.75, 9.55],
         type: 'SKI',
         fmt: 'middle',
@@ -2694,6 +2964,15 @@ let iofEvents = [
             'W-2': 'https://www.tulospalvelu.fi/gps/20150125_esoc_rel_w2/',
             'W-3': 'https://www.tulospalvelu.fi/gps/20150125_esoc_rel_w3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150125_esoc_rel_m1/map',
+            // 'https://www.tulospalvelu.fi/gps/20150125_esoc_rel_m2/map', // duplicate of https://www.tulospalvelu.fi/gps/20150125_esoc_rel_m1/map
+            'https://www.tulospalvelu.fi/gps/20150125_esoc_rel_m3/map',
+            'https://www.tulospalvelu.fi/gps/20150125_esoc_rel_w1/map',
+            // 'https://www.tulospalvelu.fi/gps/20150125_esoc_rel_w2/map', // duplicate of https://www.tulospalvelu.fi/gps/20150125_esoc_rel_w1/map
+            'https://www.tulospalvelu.fi/gps/20150125_esoc_rel_w3/map'
+        ],
         coord: [46.75, 9.55],
         type: 'SKI',
         fmt: 'relay',
@@ -2781,6 +3060,15 @@ let iofEvents = [
             'W-Q2': 'https://www.tulospalvelu.fi/gps/2015wocSprintQW2/',
             'W-Q3': 'https://www.tulospalvelu.fi/gps/2015wocSprintQW3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2015wocSprintQM1/map',
+            'https://www.tulospalvelu.fi/gps/2015wocSprintQM2/map',
+            'https://www.tulospalvelu.fi/gps/2015wocSprintQM3/map',
+            'https://www.tulospalvelu.fi/gps/2015wocSprintQW1/map',
+            'https://www.tulospalvelu.fi/gps/2015wocSprintQW2/map',
+            'https://www.tulospalvelu.fi/gps/2015wocSprintQW3/map'
+        ],
         coord: [57.4778, -4.2247],
         fmt: 'sprint',
         start: 'WOC'
@@ -2797,7 +3085,14 @@ let iofEvents = [
             '3': 'https://www.tulospalvelu.fi/gps/2015wocSRelay3/',
             '4': 'https://www.tulospalvelu.fi/gps/2015wocSRelay4/'
         },
-        maps: 'https://web.archive.org/web/20160120003713id_/http://www.woc2015.org/images/Sprint_Relay_All_Courses_map.jpg',
+        maps: [
+            'https://web.archive.org/web/20160120003713id_/http://www.woc2015.org/images/Sprint_Relay_All_Courses_map.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2015wocSRelay1/map',
+            'https://www.tulospalvelu.fi/gps/2015wocSRelay2/map',
+            // 'https://www.tulospalvelu.fi/gps/2015wocSRelay3/map', // duplicate of https://www.tulospalvelu.fi/gps/2015wocSRelay2/map
+            'https://www.tulospalvelu.fi/gps/2015wocSRelay4/map'
+        ],
         coord: [57.4778, -4.2247],
         fmt: 'sprint relay',
         start: 'WOC'
@@ -2866,7 +3161,16 @@ let iofEvents = [
             'W-2': 'https://www.tulospalvelu.fi/gps/2015wocRelayW2/',
             'W-3': 'https://www.tulospalvelu.fi/gps/2015wocRelayW3/'
         },
-        maps: 'https://web.archive.org/web/20160119190443id_/http://www.woc2015.org/images/Relay_All_Courses_map.png',
+        maps: [
+            'https://web.archive.org/web/20160119190443id_/http://www.woc2015.org/images/Relay_All_Courses_map.png',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2015wocRelayM1/map',
+            // 'https://www.tulospalvelu.fi/gps/2015wocRelayM2/map', // duplicate of https://www.tulospalvelu.fi/gps/2015wocRelayM1/map
+            'https://www.tulospalvelu.fi/gps/2015wocRelayM3/map',
+            'https://www.tulospalvelu.fi/gps/2015wocRelayW1/map',
+            // 'https://www.tulospalvelu.fi/gps/2015wocRelayW2/map', // duplicate of https://www.tulospalvelu.fi/gps/2015wocRelayW1/map
+            'https://www.tulospalvelu.fi/gps/2015wocRelayW3/map'
+        ],
         coord: [57.4778, -4.2247],
         fmt: 'relay',
         start: 'WOC'
@@ -2887,7 +3191,10 @@ let iofEvents = [
         },
         maps: [
             'https://web.archive.org/web/20160111155254id_/http://www.woc2015.org/images/Long_Men_map.png',
-            'https://web.archive.org/web/20160207053912id_/http://www.woc2015.org/images/Long_Women_map.png'
+            'https://web.archive.org/web/20160207053912id_/http://www.woc2015.org/images/Long_Women_map.png',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2015wocLongM/map',
+            'https://www.tulospalvelu.fi/gps/2015wocLongW/map'
         ],
         coord: [57.4778, -4.2247],
         fmt: 'long',
@@ -2929,6 +3236,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20150818h/',
             'W': 'https://www.tulospalvelu.fi/gps/20150818d/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150818h/map',
+            'https://www.tulospalvelu.fi/gps/20150818d/map'
+        ],
         coord: [50.766667, 15.066667],
         type: 'VELO',
         fmt: 'middle',
@@ -2944,6 +3256,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20150819h/',
             'W': 'https://www.tulospalvelu.fi/gps/20150819d/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150819h/map',
+            'https://www.tulospalvelu.fi/gps/20150819d/map'
+        ],
         coord: [50.766667, 15.066667],
         type: 'VELO',
         fmt: 'sprint',
@@ -2959,6 +3276,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20150821h/',
             'W': 'https://www.tulospalvelu.fi/gps/20150821d/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150821h/map',
+            'https://www.tulospalvelu.fi/gps/20150821d/map'
+        ],
         coord: [50.766667, 15.066667],
         type: 'VELO',
         fmt: 'long',
@@ -2978,6 +3300,15 @@ let iofEvents = [
             'W-2': 'https://www.tulospalvelu.fi/gps/20150822d2/',
             'W-3': 'https://www.tulospalvelu.fi/gps/20150822d3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150822h1/map',
+            // 'https://www.tulospalvelu.fi/gps/20150822h2/map', // duplicate of https://www.tulospalvelu.fi/gps/20150822h1/map
+            // 'https://www.tulospalvelu.fi/gps/20150822h3/map', // duplicate of https://www.tulospalvelu.fi/gps/20150822h1/map
+            'https://www.tulospalvelu.fi/gps/20150822d1/map'
+            // 'https://www.tulospalvelu.fi/gps/20150822d2/map', // duplicate of https://www.tulospalvelu.fi/gps/20150822d1/map
+            // 'https://www.tulospalvelu.fi/gps/20150822d3/map', // duplicate of https://www.tulospalvelu.fi/gps/20150822d1/map
+        ],
         coord: [50.766667, 15.066667],
         type: 'VELO',
         fmt: 'relay',
@@ -3035,7 +3366,14 @@ let iofEvents = [
             '3': 'https://www.tulospalvelu.fi/gps/20160521_3/',
             '4': 'https://www.tulospalvelu.fi/gps/20160521_4/'
         },
-        maps: 'https://mapy.ceskyorientak.cz/data/jpg/8462X.jpg',
+        maps: [
+            'https://mapy.ceskyorientak.cz/data/jpg/8462X.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20160521_1/map',
+            'https://www.tulospalvelu.fi/gps/20160521_2/map'
+            // 'https://www.tulospalvelu.fi/gps/20160521_3/map', // duplicate of https://www.tulospalvelu.fi/gps/20160521_2/map
+            // 'https://www.tulospalvelu.fi/gps/20160521_4/map', // duplicate of https://www.tulospalvelu.fi/gps/20160521_1/map
+        ],
         coord: [50.229722, 17.204722],
         fmt: 'sprint relay',
         start: 'EOC'
@@ -3079,7 +3417,14 @@ let iofEvents = [
         },
         maps: [
             'https://news.worldofo.com/wp-content/uploads/2016/05/map_2600.jpg',
-            'https://mapy.ceskyorientak.cz/data/jpg/8469X.jpg'
+            'https://mapy.ceskyorientak.cz/data/jpg/8469X.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20160523MQA/map',
+            'https://www.tulospalvelu.fi/gps/20160523MQB/map',
+            'https://www.tulospalvelu.fi/gps/20160523MQC/map',
+            'https://www.tulospalvelu.fi/gps/20160523WQA/map',
+            'https://www.tulospalvelu.fi/gps/20160523WQB/map',
+            'https://www.tulospalvelu.fi/gps/20160523WQC/map'
         ],
         coord: [50.229722, 17.204722],
         fmt: 'long',
@@ -3123,6 +3468,15 @@ let iofEvents = [
             'W-QB': 'https://www.tulospalvelu.fi/gps/20160526WQB/',
             'W-QC': 'https://www.tulospalvelu.fi/gps/20160526WQC/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20160526MQA/map',
+            'https://www.tulospalvelu.fi/gps/20160526MQB/map',
+            'https://www.tulospalvelu.fi/gps/20160526MQC/map',
+            'https://www.tulospalvelu.fi/gps/20160526WQA/map',
+            'https://www.tulospalvelu.fi/gps/20160526WQB/map',
+            'https://www.tulospalvelu.fi/gps/20160526WQC/map'
+        ],
         coord: [50.229722, 17.204722],
         fmt: 'middle',
         start: 'EOC'
@@ -3145,7 +3499,9 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20160527MFA/map',
             // 'https://omaps.worldofo.com/?id=176110',
             'https://www.tulospalvelu.fi/gps/20160527WFA/map',
-            'https://mapy.ceskyorientak.cz/data/jpg/8476X.jpg'
+            'https://mapy.ceskyorientak.cz/data/jpg/8476X.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20160527WFB/map'
         ],
         coord: [50.229722, 17.204722],
         fmt: 'middle',
@@ -3177,6 +3533,11 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=176139',
             // 'https://omaps.worldofo.com/?id=176140',
             'https://mapy.ceskyorientak.cz/data/jpg/8477X.jpg'
+            // GPSSeuranta
+            // 'https://www.tulospalvelu.fi/gps/20160528M_1/map', // duplicate of https://www.tulospalvelu.fi/gps/20160528M_3/map
+            // 'https://www.tulospalvelu.fi/gps/20160528M_2/map', // duplicate of https://www.tulospalvelu.fi/gps/20160528M_3/map
+            // 'https://www.tulospalvelu.fi/gps/20160528W_1/map', // duplicate of https://www.tulospalvelu.fi/gps/20160528W_3/map
+            // 'https://www.tulospalvelu.fi/gps/20160528W_2/map', // duplicate of https://www.tulospalvelu.fi/gps/20160528W_3/map
         ],
         coord: [50.229722, 17.204722],
         fmt: 'relay',
@@ -3278,7 +3639,12 @@ let iofEvents = [
             'https://news.worldofo.com/wp-content/uploads/2016/08/Sprint_relay_part_1.gif',
             // 'https://omaps.worldofo.com/?id=184541',
             'https://news.worldofo.com/wp-content/uploads/2016/08/Sprint_relay_part_2.gif',
-            'https://web.archive.org/web/20161120011430id_/http://live.woc2016.se/wp-content/uploads/2016/08/Sprint_relay_part_1.gif'
+            'https://web.archive.org/web/20161120011430id_/http://live.woc2016.se/wp-content/uploads/2016/08/Sprint_relay_part_1.gif',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20160821WOCSrelay1/map',
+            'https://www.tulospalvelu.fi/gps/20160821WOCSrelay2/map'
+            // 'https://www.tulospalvelu.fi/gps/20160821WOCSrelay3/map', // duplicate of https://www.tulospalvelu.fi/gps/20160821WOCSrelay2/map
+            // 'https://www.tulospalvelu.fi/gps/20160821WOCSrelay4/map', // duplicate of https://www.tulospalvelu.fi/gps/20160821WOCSrelay1/map
         ],
         coord: [58.933333, 11.183333],
         fmt: 'sprint relay',
@@ -3301,7 +3667,10 @@ let iofEvents = [
             'https://news.worldofo.com/wp-content/uploads/2016/08/map.png',
             // 'https://omaps.worldofo.com/?id=184753',
             'https://news.worldofo.com/wp-content/uploads/2016/08/mapmiddlew.png',
-            'http://news.worldofo.com/wp-content/uploads/2016/08/mapmiddlew.png'
+            'http://news.worldofo.com/wp-content/uploads/2016/08/mapmiddlew.png', // duplicate of https://news.worldofo.com/wp-content/uploads/2016/08/mapmiddlew.png
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20160823WOCMiddleM/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2016/08/map.png
+            'https://www.tulospalvelu.fi/gps/20160823WOCMiddleW/map' // duplicate of https://news.worldofo.com/wp-content/uploads/2016/08/mapmiddlew.png
         ],
         coord: [58.933333, 11.183333],
         fmt: 'middle',
@@ -3325,7 +3694,10 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=184947',
             'https://news.worldofo.com/wp-content/uploads/2016/08/map2.png',
             'https://web.archive.org/web/20161121043411id_/http://live.woc2016.se/wp-content/uploads/2016/08/L%C3%A5ngdistansbanor-20160803.Woman_.gif',
-            'https://web.archive.org/web/20161121044917id_/http://live.woc2016.se/wp-content/uploads/2016/08/Long_Distance_Men.gif'
+            'https://web.archive.org/web/20161121044917id_/http://live.woc2016.se/wp-content/uploads/2016/08/Long_Distance_Men.gif',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20160825WOCLongM/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2016/08/map2.png
+            'https://www.tulospalvelu.fi/gps/20160825WOCLongW/map' // duplicate of https://news.worldofo.com/wp-content/uploads/2016/08/map1.png
         ],
         coord: [58.933333, 11.183333],
         fmt: 'long',
@@ -3353,7 +3725,14 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=185059',
             'https://news.worldofo.com/wp-content/uploads/2016/08/mapw3.png',
             'https://web.archive.org/web/20161127024935id_/http://live.woc2016.se/wp-content/uploads/2016/08/Relay_gafflingar_Men.gif',
-            'https://web.archive.org/web/20161127022656id_/http://live.woc2016.se/wp-content/uploads/2016/08/Relay_gafflingar_Women.gif'
+            'https://web.archive.org/web/20161127022656id_/http://live.woc2016.se/wp-content/uploads/2016/08/Relay_gafflingar_Women.gif',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20160827WOCRelayM1/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2016/08/mapm1.png
+            // 'https://www.tulospalvelu.fi/gps/20160827WOCRelayM2/map', // duplicate of https://www.tulospalvelu.fi/gps/20160827WOCRelayM1/map
+            'https://www.tulospalvelu.fi/gps/20160827WOCRelayM3/map',
+            'https://www.tulospalvelu.fi/gps/20160827WOCRelayW1/map',
+            // 'https://www.tulospalvelu.fi/gps/20160827WOCRelayW2/map', // duplicate of https://www.tulospalvelu.fi/gps/20160827WOCRelayW1/map
+            'https://www.tulospalvelu.fi/gps/20160827WOCRelayW3/map' // duplicate of https://news.worldofo.com/wp-content/uploads/2016/08/mapw3.png
         ],
         coord: [58.933333, 11.183333],
         fmt: 'relay',
@@ -3457,7 +3836,7 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=211683',
             'https://www.tulospalvelu.fi/gps/2017wocSprintM/map',
             // 'https://omaps.worldofo.com/index.php?id=211683',
-            'https://news.worldofo.com/wp-content/uploads/2017/07/mapsprint.png'
+            'https://news.worldofo.com/wp-content/uploads/2017/07/mapsprint.png' // duplicate of https://www.tulospalvelu.fi/gps/2017wocSprintM/map
         ],
         video: [
             'https://www.youtube.com/watch?v=Tifkj-Glfcg',
@@ -3488,7 +3867,10 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=211747',
             'https://www.tulospalvelu.fi/gps/2017wocSRelay1/map',
             // 'https://omaps.worldofo.com/index.php?id=211747',
-            'https://news.worldofo.com/wp-content/uploads/2017/07/map.png'
+            'https://news.worldofo.com/wp-content/uploads/2017/07/map.png' // duplicate of https://www.tulospalvelu.fi/gps/2017wocSRelay1/map
+            // GPSSeuranta
+            // 'https://www.tulospalvelu.fi/gps/2017wocSRelay3/map', // duplicate of https://www.tulospalvelu.fi/gps/2017wocSRelay2/map
+            // 'https://www.tulospalvelu.fi/gps/2017wocSRelay4/map', // duplicate of https://www.tulospalvelu.fi/gps/2017wocSRelay1/map
         ],
         video: 'https://www.youtube.com/watch?v=TJxFyFtZpEM',
         coord: [58.38, 26.7225],
@@ -3575,6 +3957,9 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=212121',
             'https://www.tulospalvelu.fi/gps/2017wocRelayM2/map'
             // 'https://omaps.worldofo.com/?id=212122',
+            // GPSSeuranta
+            // 'https://www.tulospalvelu.fi/gps/2017wocRelayM1/map', // duplicate of https://www.tulospalvelu.fi/gps/2017wocRelayM2/map
+            // 'https://www.tulospalvelu.fi/gps/2017wocRelayW1/map', // duplicate of https://www.tulospalvelu.fi/gps/2017wocRelayW2/map
         ],
         video: [
             'https://www.youtube.com/watch?v=yKQ6eCXYRZA',
@@ -3682,7 +4067,10 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2018/05/06/eoc-2018-sprint-maps-and-results/',
             'https://news.worldofo.com/wp-content/uploads/2018/05/mapm.png',
-            'https://news.worldofo.com/wp-content/uploads/2018/05/map.png'
+            'https://news.worldofo.com/wp-content/uploads/2018/05/map.png',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20180506_SF_M/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2018/05/mapm.png
+            'https://www.tulospalvelu.fi/gps/20180506_SF_W/map' // duplicate of https://news.worldofo.com/wp-content/uploads/2018/05/map.png
         ],
         video: 'https://www.youtube.com/watch?v=cjBs70n8S-M',
         coord: [46.033333, 8.933333],
@@ -3703,6 +4091,15 @@ let iofEvents = [
             'W-QB': 'https://www.tulospalvelu.fi/gps/20180508_MQ_WB/',
             'W-QC': 'https://www.tulospalvelu.fi/gps/20180508_MQ_WC/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20180508_MQ_MA/map',
+            'https://www.tulospalvelu.fi/gps/20180508_MQ_MB/map',
+            'https://www.tulospalvelu.fi/gps/20180508_MQ_MC/map',
+            'https://www.tulospalvelu.fi/gps/20180508_MQ_WA/map',
+            'https://www.tulospalvelu.fi/gps/20180508_MQ_WB/map',
+            'https://www.tulospalvelu.fi/gps/20180508_MQ_WC/map'
+        ],
         video: 'https://www.youtube.com/watch?v=aE6lt0Q4YMU',
         coord: [46.033333, 8.933333],
         fmt: 'middle',
@@ -3746,7 +4143,12 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2018/05/10/eoc-2018-sprint-relay-maps-and-results/',
             'https://news.worldofo.com/wp-content/uploads/2018/05/map-women.png',
-            'https://news.worldofo.com/wp-content/uploads/2018/05/map-men.png'
+            'https://news.worldofo.com/wp-content/uploads/2018/05/map-men.png',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20180510_SR_1/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2018/05/map-women.png
+            'https://www.tulospalvelu.fi/gps/20180510_SR_2/map' // duplicate of https://news.worldofo.com/wp-content/uploads/2018/05/map-men.png
+            // 'https://www.tulospalvelu.fi/gps/20180510_SR_3/map', // duplicate of https://www.tulospalvelu.fi/gps/20180510_SR_2/map
+            // 'https://www.tulospalvelu.fi/gps/20180510_SR_4/map', // duplicate of https://www.tulospalvelu.fi/gps/20180510_SR_1/map
         ],
         video: 'https://www.youtube.com/watch?v=LalVMH67jQY',
         coord: [46.033333, 8.933333],
@@ -3775,8 +4177,12 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=231738',
             'https://www.tulospalvelu.fi/gps/20180512_R_W3/map',
             // 'https://omaps.worldofo.com/?id=231739',
-            'https://www.tulospalvelu.fi/gps/20180512_R_W2/map'
+            'https://www.tulospalvelu.fi/gps/20180512_R_W2/map',
             // 'https://omaps.worldofo.com/?id=231740',
+            // GPSSeuranta
+            // 'https://www.tulospalvelu.fi/gps/20180512_R_M1/map', // duplicate of https://www.tulospalvelu.fi/gps/20180512_R_M2/map
+            'https://www.tulospalvelu.fi/gps/20180512_R_M3/map'
+            // 'https://www.tulospalvelu.fi/gps/20180512_R_W1/map', // duplicate of https://www.tulospalvelu.fi/gps/20180512_R_W2/map
         ],
         video: 'https://www.youtube.com/watch?v=RWdG82IXjZY',
         coord: [46.033333, 8.933333],
@@ -3880,8 +4286,8 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2018wocSprintM/map',
             // 'https://omaps.worldofo.com/?id=237370',
             'https://www.tulospalvelu.fi/gps/2018wocSprintW/map',
-            'https://news.worldofo.com/wp-content/uploads/2018/08/mapw.png',
-            'https://news.worldofo.com/wp-content/uploads/2018/08/mapm.png'
+            'https://news.worldofo.com/wp-content/uploads/2018/08/mapw.png', // duplicate of https://www.tulospalvelu.fi/gps/2018wocSprintW/map
+            'https://news.worldofo.com/wp-content/uploads/2018/08/mapm.png' // duplicate of https://www.tulospalvelu.fi/gps/2018wocSprintM/map
         ],
         photo: 'https://photos.google.com/share/AF1QipNN0Ll0MPv0kFABT8Q4HcmtuPHgDlPAt93pChk-AXia2K8J6uZNe8kcAHKWfBo40Q?key=ZEpRZGlGa2FNajJSQ3dLYUxSR0kxRnA4WG80UXpB',
         coord: [56.948889, 24.106389],
@@ -3908,7 +4314,10 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2018wocSprintR1/map',
             // 'https://omaps.worldofo.com/?id=237443',
             // 'https://omaps.worldofo.com/?id=237444',
-            'https://news.worldofo.com/wp-content/uploads/2018/08/mapsr.png'
+            'https://news.worldofo.com/wp-content/uploads/2018/08/mapsr.png' // duplicate of https://www.tulospalvelu.fi/gps/2018wocSprintR1/map
+            // GPSSeuranta
+            // 'https://www.tulospalvelu.fi/gps/2018wocSprintR3/map', // duplicate of https://www.tulospalvelu.fi/gps/2018wocSprintR2/map
+            // 'https://www.tulospalvelu.fi/gps/2018wocSprintR4/map', // duplicate of https://www.tulospalvelu.fi/gps/2018wocSprintR1/map
         ],
         photo: 'https://photos.google.com/share/AF1QipPOWeCdvVNN3J3fe0IG9Y7AI6EaUy5_yTQvb8PVTRQ_tYX52Cjv-ZB2srxbtoLLRQ?key=cW14cXlyd0JBMFBMZ1ctQUJ1bnZWT2FlOS1EZzN3',
         video: 'https://www.youtube.com/watch?v=knwfWX10AkM',
@@ -3947,8 +4356,8 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2018wocMiddleW/map',
             // 'https://omaps.worldofo.com/?id=237575',
             'https://www.tulospalvelu.fi/gps/2018wocMiddleM/map',
-            'https://news.worldofo.com/wp-content/uploads/2018/08/mapwomenwoc2018middle.png',
-            'https://news.worldofo.com/wp-content/uploads/2018/08/mapmenwoc2018middle.png'
+            'https://news.worldofo.com/wp-content/uploads/2018/08/mapwomenwoc2018middle.png', // duplicate of https://www.tulospalvelu.fi/gps/2018wocMiddleW/map
+            'https://news.worldofo.com/wp-content/uploads/2018/08/mapmenwoc2018middle.png' // duplicate of https://www.tulospalvelu.fi/gps/2018wocMiddleM/map
         ],
         photo: 'https://photos.google.com/share/AF1QipPW-JF0TBuTpKy0F7zZhMI8VUKCpgViBaIFmGWRgj5xLByPcWqQCkC8q_T8N-dwCQ?key=RHdwbUZ5Qzlpd2dEMmtKOGQzd24xV213bHpJNDh3',
         video: 'https://www.youtube.com/watch?v=p4gGIPayCGU',
@@ -3982,7 +4391,10 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=237664',
             'https://www.tulospalvelu.fi/gps/2018wocRelayW2/map',
             // 'https://omaps.worldofo.com/?id=237666',
-            'https://news.worldofo.com/wp-content/uploads/2018/08/maprel.png'
+            'https://news.worldofo.com/wp-content/uploads/2018/08/maprel.png' // duplicate of https://www.tulospalvelu.fi/gps/2018wocRelayM3/map
+            // GPSSeuranta
+            // 'https://www.tulospalvelu.fi/gps/2018wocRelayM1/map', // duplicate of https://www.tulospalvelu.fi/gps/2018wocRelayM2/map
+            // 'https://www.tulospalvelu.fi/gps/2018wocRelayW1/map', // duplicate of https://www.tulospalvelu.fi/gps/2018wocRelayW2/map
         ],
         photo: 'https://photos.google.com/share/AF1QipMqImdaOse-akkeWP258izSREdyn0gJtSQtBocZ8oSQ8gUtitcI29lns-HLwqiLFQ?key=aTZiME9WMU53R2N4N0dmQnNIWDhzb1J6SkZpUmdR',
         video: 'https://www.youtube.com/watch?v=ZSH6WQtwTzU',
@@ -4201,6 +4613,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/2020esocSprintM/',
             'W': 'https://www.tulospalvelu.fi/gps/2020esocSprintW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2020esocSprintM/map',
+            'https://www.tulospalvelu.fi/gps/2020esocSprintW/map'
+        ],
         coord: [61.0, 69.0],
         type: 'SKI',
         fmt: 'sprint',
@@ -4216,6 +4633,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/2020esocMiddleM/',
             'W': 'https://www.tulospalvelu.fi/gps/2020esocMiddleW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2020esocMiddleM/map',
+            'https://www.tulospalvelu.fi/gps/2020esocMiddleW/map'
+        ],
         coord: [61.0, 69.0],
         type: 'SKI',
         fmt: 'middle',
@@ -4231,6 +4653,11 @@ let iofEvents = [
             '135': 'https://www.tulospalvelu.fi/gps/2020esocSRelay135/',
             '246': 'https://www.tulospalvelu.fi/gps/2020esocSRelay246/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2020esocSRelay135/map',
+            'https://www.tulospalvelu.fi/gps/2020esocSRelay246/map'
+        ],
         coord: [61.0, 69.0],
         type: 'SKI',
         fmt: 'sprint relay',
@@ -4246,6 +4673,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/2020esocLongM/',
             'W': 'https://www.tulospalvelu.fi/gps/2020esocLongW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2020esocLongM/map',
+            'https://www.tulospalvelu.fi/gps/2020esocLongW/map'
+        ],
         coord: [61.0, 69.0],
         type: 'SKI',
         fmt: 'long',
@@ -4263,6 +4695,13 @@ let iofEvents = [
             'W-12': 'https://www.tulospalvelu.fi/gps/2020esocRelayW12/',
             'W-3': 'https://www.tulospalvelu.fi/gps/2020esocRelayW3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2020esocRelayM12/map',
+            'https://www.tulospalvelu.fi/gps/2020esocRelayM3/map',
+            'https://www.tulospalvelu.fi/gps/2020esocRelayW12/map',
+            'https://www.tulospalvelu.fi/gps/2020esocRelayW3/map'
+        ],
         coord: [61.0, 69.0],
         type: 'SKI',
         fmt: 'relay',
@@ -4511,7 +4950,7 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20210703M/map',
             'https://woc2021.cz/wp-content/uploads/2021/07/Sprint-Final-Men.pdf',
             'https://woc2021.cz/wp-content/uploads/2021/07/Sprint-Final-Women.pdf',
-            'https://news.worldofo.com/wp-content/uploads/2021/07/map_sprint_men.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2021/07/map_sprint_men.jpg', // duplicate of https://www.tulospalvelu.fi/gps/20210703M/map
             'https://mapy.ceskyorientak.cz/data/jpg/11615X.jpg',
             'https://mapy.ceskyorientak.cz/data/jpg/11616X.jpg'
         ],
@@ -4545,8 +4984,11 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=301234',
             // 'https://omaps.worldofo.com/?id=301235',
             'https://woc2021.cz/wp-content/uploads/2021/06/WEB_Sprint-Relay.pdf',
-            'https://news.worldofo.com/wp-content/uploads/2021/07/map_men.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2021/07/map_men.jpg', // duplicate of https://www.tulospalvelu.fi/gps/20210704SR3/map
             'https://mapy.ceskyorientak.cz/data/jpg/11617X.jpg'
+            // GPSSeuranta
+            // 'https://www.tulospalvelu.fi/gps/20210704SR1/map', // duplicate of https://www.tulospalvelu.fi/gps/20210704SR4/map
+            // 'https://www.tulospalvelu.fi/gps/20210704SR2/map', // duplicate of https://www.tulospalvelu.fi/gps/20210704SR3/map
         ],
         photo: 'https://photos.app.goo.gl/Az8fknv53CvZSmRZ9',
         coord: [50.564722, 14.655556],
@@ -4578,9 +5020,16 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20210706M/map',
             'https://woc2021.cz/wp-content/uploads/2021/07/Middle-Final-Men.pdf',
             'https://woc2021.cz/wp-content/uploads/2021/07/Middle-Final-Women.pdf',
-            'https://news.worldofo.com/wp-content/uploads/2021/07/men_map.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2021/07/men_map.jpg', // duplicate of https://www.tulospalvelu.fi/gps/20210706M/map
             'https://mapy.ceskyorientak.cz/data/jpg/11619X.jpg',
-            'https://mapy.ceskyorientak.cz/data/jpg/11620X.jpg'
+            'https://mapy.ceskyorientak.cz/data/jpg/11620X.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20210706MA/map',
+            'https://www.tulospalvelu.fi/gps/20210706MB/map',
+            'https://www.tulospalvelu.fi/gps/20210706MC/map',
+            'https://www.tulospalvelu.fi/gps/20210706WA/map',
+            'https://www.tulospalvelu.fi/gps/20210706WB/map',
+            'https://www.tulospalvelu.fi/gps/20210706WC/map'
         ],
         photo: [
             'https://photos.app.goo.gl/KyuitLxRv8ZfRHR38',
@@ -4619,6 +5068,9 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=301423',
             'https://news.worldofo.com/wp-content/uploads/2021/07/map_relay.jpg',
             'https://mapy.ceskyorientak.cz/data/jpg/11622X.jpg'
+            // GPSSeuranta
+            // 'https://www.tulospalvelu.fi/gps/20210708M1/map', // duplicate of https://www.tulospalvelu.fi/gps/20210708M2/map
+            // 'https://www.tulospalvelu.fi/gps/20210708W2/map', // duplicate of https://www.tulospalvelu.fi/gps/20210708W1/map
         ],
         photo: 'https://photos.app.goo.gl/aZjZog34FkzBFCiC6',
         coord: [50.564722, 14.655556],
@@ -4642,7 +5094,7 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20210709W/map',
             // 'https://omaps.worldofo.com/?id=301489',
             'https://www.tulospalvelu.fi/gps/20210709M/map',
-            'https://news.worldofo.com/wp-content/uploads/2021/07/map_men2.jpg',
+            'https://news.worldofo.com/wp-content/uploads/2021/07/map_men2.jpg', // duplicate of https://www.tulospalvelu.fi/gps/20210709M/map
             'https://mapy.ceskyorientak.cz/data/jpg/11623X.jpg'
         ],
         photo: 'https://photos.app.goo.gl/At6zUM4KE2Ewa8oDA',
@@ -4882,6 +5334,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20220715MiddleM/',
             'W': 'https://www.tulospalvelu.fi/gps/20220715MiddleW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20220715MiddleM/map',
+            'https://www.tulospalvelu.fi/gps/20220715MiddleW/map'
+        ],
         video: 'https://www.youtube.com/watch?v=hTkpsW35-eo',
         coord: [60.607222, 15.631111],
         type: 'VELO',
@@ -4902,6 +5359,15 @@ let iofEvents = [
             'W-2': 'https://www.tulospalvelu.fi/gps/20220716relayW2/',
             'W-3': 'https://www.tulospalvelu.fi/gps/20220716relayW3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20220716relayM1/map',
+            // 'https://www.tulospalvelu.fi/gps/20220716relayM2/map', // duplicate of https://www.tulospalvelu.fi/gps/20220716relayM1/map
+            // 'https://www.tulospalvelu.fi/gps/20220716relayM3/map', // duplicate of https://www.tulospalvelu.fi/gps/20220716relayM1/map
+            'https://www.tulospalvelu.fi/gps/20220716relayW1/map'
+            // 'https://www.tulospalvelu.fi/gps/20220716relayW2/map', // duplicate of https://www.tulospalvelu.fi/gps/20220716relayW1/map
+            // 'https://www.tulospalvelu.fi/gps/20220716relayW3/map', // duplicate of https://www.tulospalvelu.fi/gps/20220716relayW1/map
+        ],
         video: 'https://www.youtube.com/watch?v=6EGsxJc4uYg',
         coord: [60.607222, 15.631111],
         type: 'VELO',
@@ -4919,6 +5385,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20220717lomgM/',
             'W': 'https://www.tulospalvelu.fi/gps/20220717lomgW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20220717lomgM/map',
+            'https://www.tulospalvelu.fi/gps/20220717lomgW/map'
+        ],
         video: 'https://www.youtube.com/watch?v=Mk6dU3GjeuU',
         coord: [60.607222, 15.631111],
         type: 'VELO',
@@ -4936,6 +5407,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20220719sprintM/',
             'W': 'https://www.tulospalvelu.fi/gps/20220719sprintW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20220719sprintM/map',
+            'https://www.tulospalvelu.fi/gps/20220719sprintW/map'
+        ],
         video: 'https://www.youtube.com/watch?v=eZC3XdF_LlU',
         coord: [60.607222, 15.631111],
         type: 'VELO',
@@ -4953,6 +5429,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20220720massM/',
             'W': 'https://www.tulospalvelu.fi/gps/20220720massW/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20220720massM/map',
+            'https://www.tulospalvelu.fi/gps/20220720massW/map'
+        ],
         video: 'https://www.youtube.com/watch?v=wNHUT-TTmhI',
         coord: [60.607222, 15.631111],
         type: 'VELO',
@@ -5001,6 +5482,17 @@ let iofEvents = [
             'W-QB': 'https://www.tulospalvelu.fi/gps/2022eocMQwb/',
             'W-QC': 'https://www.tulospalvelu.fi/gps/2022eocMQwc/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2022eocMQmen/map',
+            'https://www.tulospalvelu.fi/gps/2022eocMQma/map',
+            'https://www.tulospalvelu.fi/gps/2022eocMQmb/map',
+            'https://www.tulospalvelu.fi/gps/2022eocMQmc/map',
+            'https://www.tulospalvelu.fi/gps/2022eocMQwomen/map',
+            'https://www.tulospalvelu.fi/gps/2022eocMQwa/map',
+            'https://www.tulospalvelu.fi/gps/2022eocMQwb/map',
+            'https://www.tulospalvelu.fi/gps/2022eocMQwc/map'
+        ],
         photo: 'https://photos.app.goo.gl/tXqxfcQa68q3abKQ8',
         coord: [59.35, 26.35],
         fmt: 'middle',
@@ -5023,7 +5515,7 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2022eocLw/map',
             // 'https://omaps.worldofo.com/?id=323185',
             'https://www.tulospalvelu.fi/gps/2022eocLm/map',
-            'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_long_men.png'
+            'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_long_men.png' // duplicate of https://www.tulospalvelu.fi/gps/2022eocLm/map
         ],
         photo: 'https://photos.app.goo.gl/s1Q6H4jLAHMkMmMJA',
         video: 'https://www.youtube.com/watch?v=tYyePGNt6nc',
@@ -5050,7 +5542,10 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2022eocMFwa/map',
             // 'https://omaps.worldofo.com/?id=323290',
             'https://www.tulospalvelu.fi/gps/2022eocMFma/map',
-            'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_middle_men.png'
+            'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_middle_men.png', // duplicate of https://www.tulospalvelu.fi/gps/2022eocMFma/map
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2022eocMFmb/map',
+            'https://www.tulospalvelu.fi/gps/2022eocMFwb/map'
         ],
         photo: 'https://photos.app.goo.gl/FFTyNCnoCzCncADh9',
         video: 'https://www.youtube.com/watch?v=boW9lJmoUCg',
@@ -5085,7 +5580,10 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=323342',
             'https://www.tulospalvelu.fi/gps/2022eocRw3/map',
             // 'https://omaps.worldofo.com/?id=323343',
-            'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_relay_men_leg1.png'
+            'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_relay_men_leg1.png' // duplicate of https://www.tulospalvelu.fi/gps/2022eocRm2/map
+            // GPSSeuranta
+            // 'https://www.tulospalvelu.fi/gps/2022eocRm1/map', // duplicate of https://www.tulospalvelu.fi/gps/2022eocRm2/map
+            // 'https://www.tulospalvelu.fi/gps/2022eocRw2/map', // duplicate of https://www.tulospalvelu.fi/gps/2022eocRw1/map
         ],
         photo: 'https://photos.app.goo.gl/tTbSx5WyGG3ry6A3A',
         video: 'https://www.youtube.com/watch?v=fJjwDKypz7g',
@@ -5185,6 +5683,15 @@ let iofEvents = [
             'W-QB': 'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQW_B/',
             'W-QC': 'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQW_C/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQM_A/map',
+            'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQM_B/map',
+            'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQM_C/map',
+            'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQW_A/map',
+            'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQW_B/map',
+            'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQW_C/map'
+        ],
         coord: [46.833333, 9.283333],
         fmt: 'middle',
         start: 'WOC'
@@ -5229,7 +5736,10 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2023/07/15/woc-middle-2023-maps-and-results/',
             'https://news.worldofo.com/wp-content/uploads/2023/07/map-71.png',
-            'https://news.worldofo.com/wp-content/uploads/2023/07/map-61.png'
+            'https://news.worldofo.com/wp-content/uploads/2023/07/map-61.png',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20230715_WOC23_MM/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2023/07/map-71.png
+            'https://www.tulospalvelu.fi/gps/20230715_WOC23_MW/map' // duplicate of https://news.worldofo.com/wp-content/uploads/2023/07/map-61.png
         ],
         video: 'https://www.youtube.com/watch?v=2WWcJQsqFPM',
         coord: [46.833333, 9.283333],
@@ -5253,7 +5763,14 @@ let iofEvents = [
         },
         maps: [
             // 'https://news.worldofo.com/2023/07/16/woc-2023-relay-maps-and-results/',
-            'https://news.worldofo.com/wp-content/uploads/2023/07/map-9.png'
+            'https://news.worldofo.com/wp-content/uploads/2023/07/map-9.png',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20230716_WOC23_RM1/map',
+            // 'https://www.tulospalvelu.fi/gps/20230716_WOC23_RM2/map', // duplicate of https://www.tulospalvelu.fi/gps/20230716_WOC23_RM1/map
+            'https://www.tulospalvelu.fi/gps/20230716_WOC23_RM3/map',
+            'https://www.tulospalvelu.fi/gps/20230716_WOC23_RW1/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2023/07/map-9.png
+            // 'https://www.tulospalvelu.fi/gps/20230716_WOC23_RW2/map', // duplicate of https://www.tulospalvelu.fi/gps/20230716_WOC23_RW1/map
+            'https://www.tulospalvelu.fi/gps/20230716_WOC23_RW3/map'
         ],
         video: 'https://www.youtube.com/watch?v=OxABg9sC58I',
         coord: [46.833333, 9.283333],
@@ -5285,6 +5802,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20230820M/',
             'W': 'https://www.tulospalvelu.fi/gps/20230820W/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20230820M/map',
+            'https://www.tulospalvelu.fi/gps/20230820W/map'
+        ],
         coord: [50.436667, 15.351667],
         type: 'VELO',
         fmt: 'sprint',
@@ -5300,6 +5822,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20230822M/',
             'W': 'https://www.tulospalvelu.fi/gps/20230822W/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20230822M/map',
+            'https://www.tulospalvelu.fi/gps/20230822W/map'
+        ],
         coord: [50.436667, 15.351667],
         type: 'VELO',
         fmt: 'long',
@@ -5315,6 +5842,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20230823M/',
             'W': 'https://www.tulospalvelu.fi/gps/20230823W/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20230823M/map',
+            'https://www.tulospalvelu.fi/gps/20230823W/map'
+        ],
         coord: [50.436667, 15.351667],
         type: 'VELO',
         fmt: 'middle',
@@ -5330,6 +5862,11 @@ let iofEvents = [
             'M': 'https://www.tulospalvelu.fi/gps/20230825M/',
             'W': 'https://www.tulospalvelu.fi/gps/20230825W/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20230825M/map',
+            'https://www.tulospalvelu.fi/gps/20230825W/map'
+        ],
         coord: [50.436667, 15.351667],
         type: 'VELO',
         fmt: 'mass start',
@@ -5347,6 +5884,13 @@ let iofEvents = [
             'W-2': 'https://www.tulospalvelu.fi/gps/20230826W2/',
             'W-3': 'https://www.tulospalvelu.fi/gps/20230826W3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20230826M2/map',
+            'https://www.tulospalvelu.fi/gps/20230826M3/map',
+            'https://www.tulospalvelu.fi/gps/20230826W2/map',
+            'https://www.tulospalvelu.fi/gps/20230826W3/map'
+        ],
         coord: [50.436667, 15.351667],
         type: 'VELO',
         fmt: 'relay',
@@ -5396,7 +5940,9 @@ let iofEvents = [
             'https://omaps.worldofo.com/images/047cb10dfe2f1e0a73c860ad4cc8464f_l.jpg',
             // 'https://omaps.worldofo.com/?id=345376',
             'https://www.tulospalvelu.fi/gps/2023eocSprintW/map',
-            'https://news.worldofo.com/wp-content/uploads/2023/10/map_sprint_eoc_verona_men.png'
+            'https://news.worldofo.com/wp-content/uploads/2023/10/map_sprint_eoc_verona_men.png',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2023eocSprintMtv/map' // duplicate of https://news.worldofo.com/wp-content/uploads/2023/10/map_sprint_eoc_verona_men.png
         ],
         photo: [
             'https://photos.app.goo.gl/kfJSbB3tQyGXFBjLA',
@@ -5427,7 +5973,10 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2023eocSR3/map',
             // 'https://omaps.worldofo.com/?id=345459',
             // 'https://omaps.worldofo.com/?id=345460',
-            'https://news.worldofo.com/wp-content/uploads/2023/10/map_sprintrelayeoc2023.png'
+            'https://news.worldofo.com/wp-content/uploads/2023/10/map_sprintrelayeoc2023.png' // duplicate of https://www.tulospalvelu.fi/gps/2023eocSR3/map
+            // GPSSeuranta
+            // 'https://www.tulospalvelu.fi/gps/2023eocSR1/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocSR4/map
+            // 'https://www.tulospalvelu.fi/gps/2023eocSR2/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocSR3/map
         ],
         photo: 'https://photos.app.goo.gl/wvGd6c8oz1nH9iK96',
         coord: [45.438611, 10.992778],
@@ -5460,7 +6009,11 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=345529',
             'https://www.tulospalvelu.fi/gps/2023eocKOfW/map',
             // 'https://omaps.worldofo.com/?id=345530',
-            'https://news.worldofo.com/wp-content/uploads/2023/10/map_eoc_2023_KO-sprint-final-men1.png'
+            'https://news.worldofo.com/wp-content/uploads/2023/10/map_eoc_2023_KO-sprint-final-men1.png' // duplicate of https://www.tulospalvelu.fi/gps/2023eocKOfW/map
+            // GPSSeuranta
+            // 'https://www.tulospalvelu.fi/gps/2023eocKOqfM/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocKOqfW/map
+            // 'https://www.tulospalvelu.fi/gps/2023eocKOsfW/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocKOsfM/map
+            // 'https://www.tulospalvelu.fi/gps/2023eocKOfM/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocKOfW/map
         ],
         photo: 'https://photos.app.goo.gl/Fktxg1X7UN3G516k9',
         coord: [45.438611, 10.992778],
@@ -5918,7 +6471,16 @@ let iofEvents = [
             'https://news.worldofo.com/wp-content/uploads/2025/07/mapmenq3.png',
             'https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq1.png',
             'https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq2.png',
-            'https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq3.png'
+            'https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq3.png',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2025wocmqM/map',
+            'https://www.tulospalvelu.fi/gps/2025wocmqM1/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2025/07/mapmenq1.png
+            'https://www.tulospalvelu.fi/gps/2025wocmqM2/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2025/07/mapmenq2.png
+            'https://www.tulospalvelu.fi/gps/2025wocmqM3/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2025/07/mapmenq3.png
+            'https://www.tulospalvelu.fi/gps/2025wocmqW/map',
+            'https://www.tulospalvelu.fi/gps/2025wocmqW1/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq1.png
+            'https://www.tulospalvelu.fi/gps/2025wocmqW2/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq2.png
+            'https://www.tulospalvelu.fi/gps/2025wocmqW3/map' // duplicate of https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq3.png
         ],
         photo: 'https://www.woc2025.fi/media/',
         video: 'https://www.youtube.com/watch?v=0WAC4TENxxE',
@@ -5946,8 +6508,8 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2025wocmfW/map',
             // 'https://omaps.worldofo.com/?id=371718',
             'https://www.tulospalvelu.fi/gps/2025wocmfM/map',
-            'https://news.worldofo.com/wp-content/uploads/2025/07/mapwoc2025middlemen.png',
-            'https://news.worldofo.com/wp-content/uploads/2025/07/mapwoc2025middlewomen.png'
+            'https://news.worldofo.com/wp-content/uploads/2025/07/mapwoc2025middlemen.png', // duplicate of https://www.tulospalvelu.fi/gps/2025wocmfM/map
+            'https://news.worldofo.com/wp-content/uploads/2025/07/mapwoc2025middlewomen.png' // duplicate of https://www.tulospalvelu.fi/gps/2025wocmfW/map
         ],
         photo: 'https://photos.app.goo.gl/7QJJjG65UJMFBtvh6',
         video: 'https://www.youtube.com/watch?v=gy3COdirG3I',
@@ -6008,6 +6570,9 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=371821',
             // 'https://omaps.worldofo.com/?id=371846',
             'https://www.tulospalvelu.fi/gps/2025wocrelayM3/map'
+            // GPSSeuranta
+            // 'https://www.tulospalvelu.fi/gps/2025wocrelayM1/map', // duplicate of https://www.tulospalvelu.fi/gps/2025wocrelayM2/map
+            // 'https://www.tulospalvelu.fi/gps/2025wocrelayW1/map', // duplicate of https://www.tulospalvelu.fi/gps/2025wocrelayW2/map
         ],
         photo: 'https://photos.app.goo.gl/KeBAGts7LvmVUQEq7',
         video: 'https://www.youtube.com/watch?v=kqk92O5okrw',
@@ -6210,7 +6775,16 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2026/07/08/woc-2026-individual-sprint-maps-results-analysis/',
             'https://news.worldofo.com/wp-content/uploads/2026/07/map_woc2026_sprint_w_1600.jpg',
-            'https://news.worldofo.com/wp-content/uploads/2026/07/map_woc2026_sprint_m_1600.jpg'
+            'https://news.worldofo.com/wp-content/uploads/2026/07/map_woc2026_sprint_m_1600.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2026wocSprintQM1/map',
+            'https://www.tulospalvelu.fi/gps/2026wocSprintQM2/map',
+            'https://www.tulospalvelu.fi/gps/2026wocSprintQM3/map',
+            'https://www.tulospalvelu.fi/gps/2026wocSprintQW1/map',
+            'https://www.tulospalvelu.fi/gps/2026wocSprintQW2/map',
+            'https://www.tulospalvelu.fi/gps/2026wocSprintQW3/map',
+            'https://www.tulospalvelu.fi/gps/2026wocSprintFM/map',
+            'https://www.tulospalvelu.fi/gps/2026wocSprintFW/map'
         ],
         photo: [
             'https://photos.app.goo.gl/tyFjRg5SrTjfvBmm6',
@@ -6235,6 +6809,15 @@ let iofEvents = [
             'W-Q2': 'https://www.tulospalvelu.fi/gps/2026wocKOqualW2/',
             'W-Q3': 'https://www.tulospalvelu.fi/gps/2026wocKOqualW3/'
         },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2026wocKOqualM1/map',
+            'https://www.tulospalvelu.fi/gps/2026wocKOqualM2/map',
+            'https://www.tulospalvelu.fi/gps/2026wocKOqualM3/map',
+            'https://www.tulospalvelu.fi/gps/2026wocKOqualW1/map',
+            'https://www.tulospalvelu.fi/gps/2026wocKOqualW2/map',
+            'https://www.tulospalvelu.fi/gps/2026wocKOqualW3/map'
+        ],
         photo: 'https://photos.app.goo.gl/CSgY1Fi3WRVvQU1Z9',
         coord: [44.407222, 8.933889],
         fmt: 'knock-out',
@@ -6264,7 +6847,14 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/index.php?id=393203',
             'https://news.worldofo.com/wp-content/uploads/2026/07/map_final.png',
             'https://news.worldofo.com/wp-content/uploads/2026/07/map_semifinal.png',
-            'https://news.worldofo.com/wp-content/uploads/2026/07/map_quarterfinal.png'
+            'https://news.worldofo.com/wp-content/uploads/2026/07/map_quarterfinal.png',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2026wocKOquarterM/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2026/07/map_quarterfinal.png
+            // 'https://www.tulospalvelu.fi/gps/2026wocKOquarterW/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocKOquarterM/map
+            'https://www.tulospalvelu.fi/gps/2026wocKOsemiM/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2026/07/map_semifinal.png
+            // 'https://www.tulospalvelu.fi/gps/2026wocKOsemiW/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocKOsemiM/map
+            'https://www.tulospalvelu.fi/gps/2026wocKOfinalM/map' // duplicate of https://news.worldofo.com/wp-content/uploads/2026/07/map_final.png
+            // 'https://www.tulospalvelu.fi/gps/2026wocKOfinalW/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocKOfinalM/map
         ],
         photo: 'https://photos.app.goo.gl/6kvnBaBXtaCoQbLv6',
         video: [
@@ -6295,6 +6885,9 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2026wocSR3/map'
             // 'https://omaps.worldofo.com/?id=393245',
             // 'https://omaps.worldofo.com/?id=393246',
+            // GPSSeuranta
+            // 'https://www.tulospalvelu.fi/gps/2026wocSR1/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocSR4/map
+            // 'https://www.tulospalvelu.fi/gps/2026wocSR2/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocSR3/map
         ],
         photo: 'https://photos.app.goo.gl/F69HNeB2SKVf3eRp8',
         video: 'https://youtu.be/CvaCKaOLMOU',
@@ -6373,7 +6966,16 @@ let iofEvents = [
             'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26q_map_women_heat3_s.jpg',
             'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26q_map_men_heat1_s.jpg',
             'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26q_map_men_heat2_s.jpg',
-            'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26q_map_men_heat3_s.jpg'
+            'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26q_map_men_heat3_s.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2026eocQualMall/map',
+            'https://www.tulospalvelu.fi/gps/2026eocQualM1/map',
+            'https://www.tulospalvelu.fi/gps/2026eocQualM2/map',
+            'https://www.tulospalvelu.fi/gps/2026eocQualM3/map',
+            'https://www.tulospalvelu.fi/gps/2026eocQualWall/map',
+            'https://www.tulospalvelu.fi/gps/2026eocQualW1/map',
+            'https://www.tulospalvelu.fi/gps/2026eocQualW2/map',
+            'https://www.tulospalvelu.fi/gps/2026eocQualW3/map'
         ],
         coord: [54.016667, 23.966667],
         fmt: 'qualification',
@@ -6399,7 +7001,11 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=395899',
             'https://www.tulospalvelu.fi/gps/2026eocLongM/map',
             'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26l_map_men_s.jpg',
-            'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26l_map_women_s.jpg'
+            'https://news.worldofo.com/wp-content/uploads/eoc26/eoc26l_map_women_s.jpg',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2026eocLongMB/map',
+            'https://www.tulospalvelu.fi/gps/2026eocLongWB/map',
+            'https://www.tulospalvelu.fi/gps/2026eocLongMC/map'
         ],
         coord: [54.016667, 23.966667],
         fmt: 'long',
@@ -6423,7 +7029,11 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=395921',
             'https://www.tulospalvelu.fi/gps/2026eocMiddleMen/map',
             // 'https://omaps.worldofo.com/?id=395922',
-            'https://www.tulospalvelu.fi/gps/2026eocMiddleWomen/map'
+            'https://www.tulospalvelu.fi/gps/2026eocMiddleWomen/map',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2026eocMiddleMenB/map',
+            'https://www.tulospalvelu.fi/gps/2026eocMiddleWomenB/map',
+            'https://www.tulospalvelu.fi/gps/2026eocMiddlemenc/map'
         ],
         coord: [54.016667, 23.966667],
         fmt: 'middle',
@@ -6445,6 +7055,13 @@ let iofEvents = [
         },
         maps: [
             // 'https://news.worldofo.com/2026/09/28/eoc-2026-relay-maps-results-and-analysis/',
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2026eocRelayM1/map',
+            // 'https://www.tulospalvelu.fi/gps/2026eocRelayM2/map', // duplicate of https://www.tulospalvelu.fi/gps/2026eocRelayM1/map
+            'https://www.tulospalvelu.fi/gps/2026eocRelayM3/map',
+            'https://www.tulospalvelu.fi/gps/2026eocRelayW1/map',
+            // 'https://www.tulospalvelu.fi/gps/2026eocRelayW2/map', // duplicate of https://www.tulospalvelu.fi/gps/2026eocRelayW1/map
+            'https://www.tulospalvelu.fi/gps/2026eocRelayW3/map'
         ],
         coord: [54.016667, 23.966667],
         fmt: 'relay',
