@@ -79,6 +79,9 @@ let iofEvents = [
         res: 'https://web.archive.org/web/20200706033745/https://old.orienteering.org/events/?event_id=6',
         maps: [
             // 'https://omaps.worldofo.com/?cid=293',
+            // фрагмент карты 600×400 (других карт нет), найден через omaps.worldofo.com (Suggested maps):
+            // 'https://omaps.worldofo.com/index.php?id=48395',
+            'https://omaps.worldofo.com/upload/woc1966.jpg'
         ],
         coord: [60.129722, 23.542222],
         fmt: 'long, relay',
@@ -102,6 +105,9 @@ let iofEvents = [
         },
         maps: [
             // 'https://omaps.worldofo.com/?cid=294',
+            // найдены через omaps.worldofo.com (Suggested maps):
+            // 'https://omaps.worldofo.com/index.php?id=48884', // эстафета, женщины
+            'https://omaps.worldofo.com/upload/VM_68_STAF_D.jpg'
         ],
         coord: [58.415833, 15.625278],
         fmt: 'long, relay',
@@ -115,6 +121,11 @@ let iofEvents = [
         name: 'Чемпионат мира (WOC)',
         link: 'https://en.wikipedia.org/wiki/1970_World_Orienteering_Championships',
         res: 'https://web.archive.org/web/20200706034037/https://old.orienteering.org/events/?event_id=8',
+        maps: [
+            // фрагмент карты 600×400 (других карт нет), найден через omaps.worldofo.com (Suggested maps):
+            // 'https://omaps.worldofo.com/index.php?id=48393',
+            'https://omaps.worldofo.com/upload/woc1970.jpg'
+        ],
         coord: [50.976111, 10.320556],
         fmt: 'long, relay',
         start: 'WOC'
@@ -144,6 +155,15 @@ let iofEvents = [
         name: 'Чемпионат мира (WOC)',
         link: 'https://en.wikipedia.org/wiki/1974_World_Orienteering_Championships',
         res: 'https://web.archive.org/web/20210123210903/https://old.orienteering.sport/events/?event_id=20',
+        maps: [
+            // найдены через omaps.worldofo.com (Suggested maps):
+            // 'https://omaps.worldofo.com/index.php?id=48883', // классика, мужчины
+            'https://omaps.worldofo.com/upload/VM_74_H.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=48871', // классика, женщины
+            'https://omaps.worldofo.com/upload/WOC1974_classic_women.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=48870', // эстафета, женщины, этапы 1–2
+            'https://omaps.worldofo.com/upload/WOC1974_relay_women_leg1_2.jpg'
+        ],
         coord: [56.433333, 9.4],
         fmt: 'long, relay',
         start: 'WOC'
@@ -171,6 +191,17 @@ let iofEvents = [
         name: 'Чемпионат мира (WOC)',
         link: 'https://en.wikipedia.org/wiki/1976_World_Orienteering_Championships',
         res: 'https://web.archive.org/web/20200706034336/https://old.orienteering.org/events/?event_id=21',
+        maps: [
+            // найдены через omaps.worldofo.com (Suggested maps):
+            // 'https://omaps.worldofo.com/index.php?id=48881', // классика, мужчины
+            'https://omaps.worldofo.com/upload/VM_76_H.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=48882', // классика, женщины
+            'https://omaps.worldofo.com/upload/VM_76_D.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=48879', // эстафета, мужчины
+            'https://omaps.worldofo.com/upload/VM_76_staf_H.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=48880', // эстафета, женщины
+            'https://omaps.worldofo.com/upload/VM_76_staf_D.jpg'
+        ],
         coord: [57.194, -3.823],
         fmt: 'long, relay',
         start: 'WOC'
@@ -210,6 +241,11 @@ let iofEvents = [
         name: 'Чемпионат мира (WOC)',
         link: 'https://en.wikipedia.org/wiki/1979_World_Orienteering_Championships',
         res: 'https://web.archive.org/web/20210123204424/https://old.orienteering.sport/events/?event_id=23',
+        maps: [
+            // фрагмент карты 600×400 (других карт нет), найден через omaps.worldofo.com (Suggested maps):
+            // 'https://omaps.worldofo.com/index.php?id=48389',
+            'https://omaps.worldofo.com/upload/woc1979.jpg'
+        ],
         coord: [61.498056, 23.76],
         fmt: 'long, relay',
         start: 'WOC'
@@ -237,6 +273,13 @@ let iofEvents = [
         name: 'Чемпионат мира (WOC)',
         link: 'https://en.wikipedia.org/wiki/1981_World_Orienteering_Championships',
         res: 'https://web.archive.org/web/20200706034434/https://old.orienteering.org/events/?event_id=24',
+        maps: [
+            // найдены через omaps.worldofo.com (Suggested maps):
+            // 'https://omaps.worldofo.com/index.php?id=48872', // классика, женщины
+            'https://omaps.worldofo.com/upload/WOC1981_classic-women.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=48873', // эстафета, женщины, этапы 1–2
+            'https://omaps.worldofo.com/upload/WOC1981_relay_women_leg1_2.jpg'
+        ],
         coord: [46.766667, 7.633333],
         fmt: 'long, relay',
         start: 'WOC'
@@ -264,6 +307,13 @@ let iofEvents = [
         name: 'Чемпионат мира (WOC)',
         link: 'https://en.wikipedia.org/wiki/1983_World_Orienteering_Championships',
         res: 'https://archive.today/20070617171330/http://orienteering.org/i3/index.php?/iof2006/results/foot_orienteering/world_orienteering_championships/woc_1983_hun',
+        maps: [
+            // найдены через omaps.worldofo.com (Suggested maps):
+            // 'https://omaps.worldofo.com/index.php?id=48874', // классика, мужчины, часть 1
+            'https://omaps.worldofo.com/upload/WM83%20Teil1.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=48875', // классика, мужчины, часть 2
+            'https://omaps.worldofo.com/upload/WM83%20Teil2.jpg'
+        ],
         coord: [46.839167, 16.851111],
         fmt: 'long, relay',
         start: 'WOC'
@@ -446,6 +496,15 @@ let iofEvents = [
             'https://web.archive.org/web/20200706034850/https://old.orienteering.org/events/?event_id=30',
             'http://lazarus.elte.hu/tajfutas/history/1995.htm'
         ],
+        maps: [
+            // найдены через omaps.worldofo.com (Suggested maps):
+            // 'https://omaps.worldofo.com/index.php?id=48876', // короткая дистанция, мужчины
+            'https://omaps.worldofo.com/upload/VM95_kort_H.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=48877', // короткая дистанция, женщины
+            'https://omaps.worldofo.com/upload/VM95_kort_D.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=48878', // эстафета
+            'https://omaps.worldofo.com/upload/VM_95_staf.jpg'
+        ],
         coord: [51.937778, 8.883333],
         fmt: 'middle, long, relay',
         start: 'WOC'
@@ -475,6 +534,11 @@ let iofEvents = [
         res: [
             'https://web.archive.org/web/20200706035145/https://old.orienteering.org/events/?event_id=31',
             'http://lazarus.elte.hu/tajfutas/history/1997.htm'
+        ],
+        maps: [
+            // фрагмент карты 600×400 (других карт нет), найден через omaps.worldofo.com (Suggested maps):
+            // 'https://omaps.worldofo.com/index.php?id=48387',
+            'https://omaps.worldofo.com/upload/woc1997.jpg'
         ],
         coord: [58.3405, 8.5934],
         fmt: 'middle, long, relay',
@@ -691,6 +755,13 @@ let iofEvents = [
         res: [
             'https://web.archive.org/web/20211025103454/https://old.orienteering.sport/events/?event_id=35',
             'http://lazarus.elte.hu/tajfutas/history/2004.htm'
+        ],
+        maps: [
+            // найдены через omaps.worldofo.com (Suggested maps):
+            // 'https://omaps.worldofo.com/index.php?id=15931', // лонг (фото карты, Panoramio)
+            'https://web.archive.org/web/20161013213201id_/http://static.panoramio.com/photos/original/21415012.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=9749', // эстафета (карта Тьерри Жоржиу)
+            'https://web.archive.org/web/20061104110919id_/http://tero1.free.fr/cartes/woc/woc2004-relais.jpg'
         ],
         coord: [59.616111, 16.552778],
         fmt: 'sprint, middle, long, relay',
@@ -1312,6 +1383,11 @@ let iofEvents = [
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
         res: 'https://old.orienteering.sport/events/48/world-mtb-orienteering-championships-2010/',
+        maps: [
+            // найдены через omaps.worldofo.com (Suggested maps):
+            // 'https://omaps.worldofo.com/index.php?id=30829', // спринт, M21
+            'https://web.archive.org/web/20140822051644id_/http://mtbwoc2010.fpo.pt/images/stories/maps/SprintFinal/WOCMen.png'
+        ],
         coord: [41.823056, -7.791667],
         type: 'VELO',
         fmt: 'sprint, middle, long, relay',
