@@ -5566,9 +5566,88 @@ let iofEvents = [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
         ],
+        maps: [
+            // старые карты районов (сайт организаторов):
+            'https://mtbo2021.fpo.pt/files/Abrantes.jpg',
+            'https://mtbo2021.fpo.pt/files/Alcaravela.jpg',
+            'https://mtbo2021.fpo.pt/files/SantaMargarida.jpg',
+            'https://mtbo2021.fpo.pt/files/VilaNovaDaBarquinha.jpg'
+        ],
         coord: [39.463333, -8.1975],
         type: 'VELO',
         fmt: 'middle, long, mixed relay',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20211008_2',
+        parent: 'IOF_20211008_1',
+        date: '2021-10-08',
+        name: 'EMTBOC #1, миддл',
+        place: 'Abrantes, Portugal (Абрантеш, Португалия)',
+        gps: {
+            'M': 'https://events.loggator.com/ouwVSw',
+            'W': 'https://events.loggator.com/FDi7MA'
+        },
+        maps: [
+            // официальные карты организаторов (mtbo2021.fpo.pt/files/maps):
+            'https://mtbo2021.fpo.pt/files/maps/Day2-Middle/M21.png',
+            'https://mtbo2021.fpo.pt/files/maps/Day2-Middle/W21.png',
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/c50005a7f82b842ef7801334/optimized_MapM21.png',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/4cc259e8e66a92d1ce7e8e67/optimized_MapW21.png'
+        ],
+        coord: [39.463333, -8.1975],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20211009_1',
+        parent: 'IOF_20211008_1',
+        date: '2021-10-09',
+        name: 'EMTBOC #2, лонг',
+        place: 'Abrantes, Portugal (Абрантеш, Португалия)',
+        gps: {
+            'M': 'https://events.loggator.com/lp-9PQ',
+            'W': 'https://events.loggator.com/BYC8hw'
+        },
+        maps: [
+            // официальные карты организаторов (mtbo2021.fpo.pt/files/maps):
+            'https://mtbo2021.fpo.pt/files/maps/Day3-Long/M21%20(A).png',
+            'https://mtbo2021.fpo.pt/files/maps/Day3-Long/M21%20(B).png',
+            'https://mtbo2021.fpo.pt/files/maps/Day3-Long/W21%20(A).png',
+            'https://mtbo2021.fpo.pt/files/maps/Day3-Long/W21%20(B).png',
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/00760e3fc855154669812533/optimized_Canvas_1_M21__A_.png', // duplicate of https://mtbo2021.fpo.pt/files/maps/Day3-Long/M21%20(A).png
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2a1418c89d79c19548816219/optimized_PontosW21.jpg'
+        ],
+        coord: [39.463333, -8.1975],
+        type: 'VELO',
+        fmt: 'long',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20211010_1',
+        parent: 'IOF_20211008_1',
+        date: '2021-10-10',
+        name: 'EMTBOC #3, смешанная эстафета',
+        place: 'Abrantes, Portugal (Абрантеш, Португалия)',
+        gps: {
+            '1': 'https://events.loggator.com/gsKu2g',
+            '2': 'https://events.loggator.com/BiXXVQ',
+            '3': 'https://events.loggator.com/64bRvQ'
+        },
+        maps: [
+            // официальные карты организаторов (mtbo2021.fpo.pt/files/maps):
+            'https://mtbo2021.fpo.pt/files/maps/Day4-Relay/MIXED%20AAA%20(0).png',
+            'https://mtbo2021.fpo.pt/files/maps/Day4-Relay/MIXED%20BBB%20(13).png',
+            'https://mtbo2021.fpo.pt/files/maps/Day4-Relay/MIXED%20CCC%20(26).png',
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/6d17a4e87b3f88d7a7a07ea7/optimized_MapRelay.jpg'
+        ],
+        coord: [39.463333, -8.1975],
+        type: 'VELO',
+        fmt: 'mixed relay',
         start: 'EMTBOC'
     },
     {
@@ -7456,6 +7535,88 @@ let iofEvents = [
         coord: [40.716667, -6.9],
         type: 'VELO',
         fmt: 'sprint, middle, mass start, mixed relay',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20260525_2',
+        parent: 'IOF_20260525_1',
+        date: '2026-05-25',
+        name: 'EMTBOC #1, спринт',
+        place: 'Almeida, Portugal (Алмейда, Португалия)',
+        gps: {
+            'M': 'https://events.loggator.com/2026EMTBOC_Sprint_ME',
+            'W': 'https://events.loggator.com/2026EMTBOC_Sprint_WE',
+            'Livelox': 'https://www.livelox.com/Events/Show/190834/SPRINT-MTBO-EOC26-ALMEIDA-PORTUGAL'
+        },
+        maps: [
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/76345f35ad8d02c30ca8f3ec/optimized_tile_0_0.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/3786c8b7e8ae831e336ac158/optimized_tile_0_0.jpg'
+        ],
+        coord: [40.716667, -6.9],
+        type: 'VELO',
+        fmt: 'sprint',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20260526_1',
+        parent: 'IOF_20260525_1',
+        date: '2026-05-26',
+        name: 'EMTBOC #2, миддл',
+        place: 'Almeida, Portugal (Алмейда, Португалия)',
+        gps: {
+            'M': 'https://events.loggator.com/2026EMTBOC_Middle_ME',
+            'W': 'https://events.loggator.com/2026EMTBOC_Middle_WE',
+            'Livelox': 'https://www.livelox.com/Events/Show/191001/MTBO26-Middle'
+        },
+        maps: [
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/17ea947cbf0d0589fae6392f/optimized_tile_0_0.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/ac6e267c69e5620cb5f2be60/optimized_tile_0_0.jpg'
+        ],
+        coord: [40.716667, -6.9],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20260527_1',
+        parent: 'IOF_20260525_1',
+        date: '2026-05-27',
+        name: 'EMTBOC #3, масс-старт',
+        place: 'Almeida, Portugal (Алмейда, Португалия)',
+        gps: {
+            'M': 'https://events.loggator.com/2026EMTBOC_MassStart_ME',
+            'W': 'https://events.loggator.com/2026EMTBOC_MassStart_WE',
+            'Livelox': 'https://www.livelox.com/Events/Show/191263/MTBO26-Mass-Start-Long-Distance'
+        },
+        maps: [
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/7ab580acee84b190c27d61f7/optimized_tile_0_0.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/774d2c2d7eb8ab1802dfdcb8/optimized_tile_0_0.jpg'
+        ],
+        coord: [40.716667, -6.9],
+        type: 'VELO',
+        fmt: 'mass start',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20260528_1',
+        parent: 'IOF_20260525_1',
+        date: '2026-05-28',
+        name: 'EMTBOC #4, смешанная эстафета',
+        place: 'Almeida, Portugal (Алмейда, Португалия)',
+        gps: {
+            'W': 'https://events.loggator.com/2026EMTBOC_Relay_WE',
+            'Livelox': 'https://www.livelox.com/Events/Show/191339/Relay-MTBO-26-Almeida'
+        },
+        maps: [
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/7d0137e2d1e362ffad362114/optimized_tile_0_0.jpg'
+        ],
+        coord: [40.716667, -6.9],
+        type: 'VELO',
+        fmt: 'mixed relay',
         start: 'EMTBOC'
     },
     {
