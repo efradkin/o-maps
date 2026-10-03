@@ -2988,20 +2988,107 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
-        gps: {
-            '10': 'https://www.tulospalvelu.fi/gps/20150210MIX/',
-            '11-M': 'https://www.tulospalvelu.fi/gps/20150211M21/',
-            '11-W': 'https://www.tulospalvelu.fi/gps/20150211W21/',
-            '12-M': 'https://www.tulospalvelu.fi/gps/20150212M21/',
-            '12-W': 'https://www.tulospalvelu.fi/gps/20150212W21/',
-            '14-M': 'https://www.tulospalvelu.fi/gps/20150214M21/',
-            '14-W': 'https://www.tulospalvelu.fi/gps/20150214W21/',
-            '15-M-3': 'https://www.tulospalvelu.fi/gps/20150215M21/',
-            '15-W-3': 'https://www.tulospalvelu.fi/gps/20150215W21/'
-        },
         coord: [60.79451, 11.06795],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay, sprint relay',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20150210_1',
+        parent: 'IOF_20150207_1',
+        date: '2015-02-10',
+        name: 'SKI-WOC #1, спринт-эстафета',
+        place: 'Hamar, Løten, Norway (Хамар, Лётен, Норвегия)',
+        gps: {
+            'MIX': 'https://www.tulospalvelu.fi/gps/20150210MIX/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150210MIX/map'
+        ],
+        coord: [60.79451, 11.06795],
+        type: 'SKI',
+        fmt: 'sprint relay',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20150211_1',
+        parent: 'IOF_20150207_1',
+        date: '2015-02-11',
+        name: 'SKI-WOC #2, спринт',
+        place: 'Hamar, Løten, Norway (Хамар, Лётен, Норвегия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/20150211M21/',
+            'W': 'https://www.tulospalvelu.fi/gps/20150211W21/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150211M21/map',
+            'https://www.tulospalvelu.fi/gps/20150211W21/map'
+        ],
+        coord: [60.79451, 11.06795],
+        type: 'SKI',
+        fmt: 'sprint',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20150212_1',
+        parent: 'IOF_20150207_1',
+        date: '2015-02-12',
+        name: 'SKI-WOC #3, лонг',
+        place: 'Hamar, Løten, Norway (Хамар, Лётен, Норвегия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/20150212M21/',
+            'W': 'https://www.tulospalvelu.fi/gps/20150212W21/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150212M21/map',
+            'https://www.tulospalvelu.fi/gps/20150212W21/map'
+        ],
+        coord: [60.79451, 11.06795],
+        type: 'SKI',
+        fmt: 'long',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20150214_1',
+        parent: 'IOF_20150207_1',
+        date: '2015-02-14',
+        name: 'SKI-WOC #4, миддл',
+        place: 'Hamar, Løten, Norway (Хамар, Лётен, Норвегия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/20150214M21/',
+            'W': 'https://www.tulospalvelu.fi/gps/20150214W21/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150214M21/map',
+            'https://www.tulospalvelu.fi/gps/20150214W21/map'
+        ],
+        coord: [60.79451, 11.06795],
+        type: 'SKI',
+        fmt: 'middle',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20150215_1',
+        parent: 'IOF_20150207_1',
+        date: '2015-02-15',
+        name: 'SKI-WOC #5, эстафета',
+        place: 'Hamar, Løten, Norway (Хамар, Лётен, Норвегия)',
+        gps: {
+            'M-3': 'https://www.tulospalvelu.fi/gps/20150215M21/',
+            'W-3': 'https://www.tulospalvelu.fi/gps/20150215W21/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/20150215M21/map',
+            'https://www.tulospalvelu.fi/gps/20150215W21/map'
+        ],
+        coord: [60.79451, 11.06795],
+        type: 'SKI',
+        fmt: 'relay',
         start: 'SKI_WOC'
     },
     {
@@ -3754,21 +3841,109 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/5415/c875d5f2-8f0b-4f4d-ae7d-b55069fa650e/Bulletin-4.pdf'
         ],
         res: 'https://eventor.orienteering.sport/Events/Show/5415',
-        gps: {
-            '7-M': 'https://www.tulospalvelu.fi/gps/2017esocMsprint/',
-            '7-W': 'https://www.tulospalvelu.fi/gps/2017esocWsprint/',
-            '8-1': 'https://www.tulospalvelu.fi/gps/2017esocWsrelay/',
-            '8-2': 'https://www.tulospalvelu.fi/gps/2017esocMsrelay/',
-            '9-M': 'https://www.tulospalvelu.fi/gps/2017esocMlong/',
-            '9-W': 'https://www.tulospalvelu.fi/gps/2017esocWlong/',
-            '11-M': 'https://www.tulospalvelu.fi/gps/2017esocMmiddle/',
-            '11-W': 'https://www.tulospalvelu.fi/gps/2017esocWmiddle/',
-            '12-M': 'https://www.tulospalvelu.fi/gps/2017esocMrelay/',
-            '12-W': 'https://www.tulospalvelu.fi/gps/2017esocWrelay/'
-        },
         coord: [61.183333, 28.766667],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay, sprint relay',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20170207_2',
+        parent: 'IOF_20170207_1',
+        date: '2017-02-07',
+        name: 'SKI-EOC #1, спринт',
+        place: 'Imatra, Finland (Иматра, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2017esocMsprint/',
+            'W': 'https://www.tulospalvelu.fi/gps/2017esocWsprint/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2017esocMsprint/map',
+            'https://www.tulospalvelu.fi/gps/2017esocWsprint/map'
+        ],
+        coord: [61.183333, 28.766667],
+        type: 'SKI',
+        fmt: 'sprint',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20170208_1',
+        parent: 'IOF_20170207_1',
+        date: '2017-02-08',
+        name: 'SKI-EOC #2, спринт-эстафета',
+        place: 'Imatra, Finland (Иматра, Финляндия)',
+        gps: {
+            '135': 'https://www.tulospalvelu.fi/gps/2017esocWsrelay/',
+            '246': 'https://www.tulospalvelu.fi/gps/2017esocMsrelay/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2017esocWsrelay/map',
+            'https://www.tulospalvelu.fi/gps/2017esocMsrelay/map'
+        ],
+        coord: [61.183333, 28.766667],
+        type: 'SKI',
+        fmt: 'sprint relay',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20170209_1',
+        parent: 'IOF_20170207_1',
+        date: '2017-02-09',
+        name: 'SKI-EOC #3, лонг',
+        place: 'Imatra, Finland (Иматра, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2017esocMlong/',
+            'W': 'https://www.tulospalvelu.fi/gps/2017esocWlong/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2017esocMlong/map',
+            'https://www.tulospalvelu.fi/gps/2017esocWlong/map'
+        ],
+        coord: [61.183333, 28.766667],
+        type: 'SKI',
+        fmt: 'long',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20170211_1',
+        parent: 'IOF_20170207_1',
+        date: '2017-02-11',
+        name: 'SKI-EOC #4, миддл',
+        place: 'Imatra, Finland (Иматра, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2017esocMmiddle/',
+            'W': 'https://www.tulospalvelu.fi/gps/2017esocWmiddle/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2017esocMmiddle/map',
+            'https://www.tulospalvelu.fi/gps/2017esocWmiddle/map'
+        ],
+        coord: [61.183333, 28.766667],
+        type: 'SKI',
+        fmt: 'middle',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20170212_1',
+        parent: 'IOF_20170207_1',
+        date: '2017-02-12',
+        name: 'SKI-EOC #5, эстафета',
+        place: 'Imatra, Finland (Иматра, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2017esocMrelay/',
+            'W': 'https://www.tulospalvelu.fi/gps/2017esocWrelay/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2017esocMrelay/map',
+            'https://www.tulospalvelu.fi/gps/2017esocWrelay/map'
+        ],
+        coord: [61.183333, 28.766667],
+        type: 'SKI',
+        fmt: 'relay',
         start: 'SKI_EOC'
     },
     {
@@ -4459,20 +4634,90 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
-        gps: {
-            '20-M': 'https://www.tulospalvelu.fi/gps/2019wsoclongM/',
-            '20-W': 'https://www.tulospalvelu.fi/gps/2019wsoclongW/',
-            '21-M': 'https://www.tulospalvelu.fi/gps/2019wsocsprintM/',
-            '21-W': 'https://www.tulospalvelu.fi/gps/2019wsocsprintW/',
-            '23-M': 'https://www.tulospalvelu.fi/gps/2019wsocmiddleM/',
-            '23-W': 'https://www.tulospalvelu.fi/gps/2019wsocmiddleW/',
-            '24-M': 'https://www.tulospalvelu.fi/gps/2019wsocrelayM/',
-            '24-W': 'https://www.tulospalvelu.fi/gps/2019wsocrelayW/'
-        },
         video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJcsnEVLqJCsgZ1tgpD_x4nn',
         coord: [65.316667, 21.483333],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20190320_1',
+        parent: 'IOF_20190319_1',
+        date: '2019-03-20',
+        name: 'SKI-WOC #1, лонг',
+        place: 'Piteå, Sweden (Питео, Швеция)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2019wsoclongM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2019wsoclongW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2019wsoclongM/map',
+            'https://www.tulospalvelu.fi/gps/2019wsoclongW/map'
+        ],
+        coord: [65.316667, 21.483333],
+        type: 'SKI',
+        fmt: 'long',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20190321_1',
+        parent: 'IOF_20190319_1',
+        date: '2019-03-21',
+        name: 'SKI-WOC #2, спринт',
+        place: 'Piteå, Sweden (Питео, Швеция)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2019wsocsprintM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2019wsocsprintW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2019wsocsprintM/map',
+            'https://www.tulospalvelu.fi/gps/2019wsocsprintW/map'
+        ],
+        coord: [65.316667, 21.483333],
+        type: 'SKI',
+        fmt: 'sprint',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20190323_1',
+        parent: 'IOF_20190319_1',
+        date: '2019-03-23',
+        name: 'SKI-WOC #3, миддл',
+        place: 'Piteå, Sweden (Питео, Швеция)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2019wsocmiddleM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2019wsocmiddleW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2019wsocmiddleM/map',
+            'https://www.tulospalvelu.fi/gps/2019wsocmiddleW/map'
+        ],
+        coord: [65.316667, 21.483333],
+        type: 'SKI',
+        fmt: 'middle',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20190324_1',
+        parent: 'IOF_20190319_1',
+        date: '2019-03-24',
+        name: 'SKI-WOC #4, эстафета',
+        place: 'Piteå, Sweden (Питео, Швеция)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2019wsocrelayM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2019wsocrelayW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2019wsocrelayM/map',
+            'https://www.tulospalvelu.fi/gps/2019wsocrelayW/map'
+        ],
+        coord: [65.316667, 21.483333],
+        type: 'SKI',
+        fmt: 'relay',
         start: 'SKI_WOC'
     },
     {
@@ -4873,21 +5118,109 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/6113/8785dd21-8f9d-4b2b-bdca-4b137fd2778f/Bulletin-4.pdf'
         ],
         res: 'https://eventor.orienteering.org/Events/Show/6113',
-        gps: {
-            '12-M': 'https://www.tulospalvelu.fi/gps/2021wmtbocmassM/',
-            '12-W': 'https://www.tulospalvelu.fi/gps/2021wmtbocmassW/',
-            '13-M': 'https://www.tulospalvelu.fi/gps/2021wmtbocsprintM/',
-            '13-W': 'https://www.tulospalvelu.fi/gps/2021wmtbocsprintw/',
-            '14-M': 'https://www.tulospalvelu.fi/gps/2021wmtbocMiddleM/',
-            '14-W': 'https://www.tulospalvelu.fi/gps/2021wmtbocMiddleW/',
-            '16-M': 'https://www.tulospalvelu.fi/gps/2021wmtbocLongM/',
-            '16-W': 'https://www.tulospalvelu.fi/gps/2021wmtbocLongW/',
-            '17-M': 'https://www.tulospalvelu.fi/gps/2021wmtbocRelayM/',
-            '17-W': 'https://www.tulospalvelu.fi/gps/2021wmtbocRelayW/'
-        },
         coord: [62.808333, 23.508333],
         type: 'VELO',
         fmt: 'sprint, middle, long, mass start, relay',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20210612_1',
+        parent: 'IOF_20210610_1',
+        date: '2021-06-12',
+        name: 'WMTBOC #1, масс-старт',
+        place: 'Kuortane, Finland (Куортане, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2021wmtbocmassM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2021wmtbocmassW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2021wmtbocmassM/map',
+            'https://www.tulospalvelu.fi/gps/2021wmtbocmassW/map'
+        ],
+        coord: [62.808333, 23.508333],
+        type: 'VELO',
+        fmt: 'mass start',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20210613_1',
+        parent: 'IOF_20210610_1',
+        date: '2021-06-13',
+        name: 'WMTBOC #2, спринт',
+        place: 'Kuortane, Finland (Куортане, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2021wmtbocsprintM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2021wmtbocsprintw/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2021wmtbocsprintM/map',
+            'https://www.tulospalvelu.fi/gps/2021wmtbocsprintw/map'
+        ],
+        coord: [62.808333, 23.508333],
+        type: 'VELO',
+        fmt: 'sprint',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20210614_1',
+        parent: 'IOF_20210610_1',
+        date: '2021-06-14',
+        name: 'WMTBOC #3, миддл',
+        place: 'Kuortane, Finland (Куортане, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2021wmtbocMiddleM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2021wmtbocMiddleW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2021wmtbocMiddleM/map',
+            'https://www.tulospalvelu.fi/gps/2021wmtbocMiddleW/map'
+        ],
+        coord: [62.808333, 23.508333],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20210616_1',
+        parent: 'IOF_20210610_1',
+        date: '2021-06-16',
+        name: 'WMTBOC #4, лонг',
+        place: 'Kuortane, Finland (Куортане, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2021wmtbocLongM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2021wmtbocLongW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2021wmtbocLongM/map',
+            'https://www.tulospalvelu.fi/gps/2021wmtbocLongW/map'
+        ],
+        coord: [62.808333, 23.508333],
+        type: 'VELO',
+        fmt: 'long',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20210617_1',
+        parent: 'IOF_20210610_1',
+        date: '2021-06-17',
+        name: 'WMTBOC #5, эстафета',
+        place: 'Kuortane, Finland (Куортане, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2021wmtbocRelayM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2021wmtbocRelayW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2021wmtbocRelayM/map',
+            'https://www.tulospalvelu.fi/gps/2021wmtbocRelayW/map'
+        ],
+        coord: [62.808333, 23.508333],
+        type: 'VELO',
+        fmt: 'relay',
         start: 'WMTBOC'
     },
     {
@@ -5158,16 +5491,6 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/6499/93d9823e-03a7-44a8-b237-c00051c089fb/Bulletin-4.pdf'
         ],
         res: 'https://eventor.orienteering.org/Events/Show/6499',
-        gps: {
-            '15-M': 'https://www.tulospalvelu.fi/gps/2022wsocSprintM/',
-            '15-W': 'https://www.tulospalvelu.fi/gps/2022wsocSprintW/',
-            '16-M': 'https://www.tulospalvelu.fi/gps/2022wsocPursuitM/',
-            '16-W': 'https://www.tulospalvelu.fi/gps/2022wsocPursuitW/',
-            '18-M': 'https://www.tulospalvelu.fi/gps/2022wsocMiddleM/',
-            '18-W': 'https://www.tulospalvelu.fi/gps/2022wsocMiddleW/',
-            '19-M-246': 'https://www.tulospalvelu.fi/gps/2022wsocRelayM/',
-            '19-W-135': 'https://www.tulospalvelu.fi/gps/2022wsocRelayW/'
-        },
         maps: [
             // старые карты района (IOF Eventor)
             'https://eventor-iof-storage.orientering.se/eventdocuments/6499/cd885ccd-2bde-4a4c-a19b-2ed2bc3709cc/Kallinkangas-ski-o-map.pdf',
@@ -5178,6 +5501,86 @@ let iofEvents = [
         coord: [65.736111, 24.563611],
         type: 'SKI',
         fmt: 'sprint, middle, pursuit, sprint relay',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20220315_2',
+        parent: 'IOF_20220315_1',
+        date: '2022-03-15',
+        name: 'SKI-WOC #1, спринт',
+        place: 'Kemi, Keminmaa, Finland (Кеми, Кеминмаа, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2022wsocSprintM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2022wsocSprintW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2022wsocSprintM/map',
+            'https://www.tulospalvelu.fi/gps/2022wsocSprintW/map'
+        ],
+        coord: [65.736111, 24.563611],
+        type: 'SKI',
+        fmt: 'sprint',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20220316_1',
+        parent: 'IOF_20220315_1',
+        date: '2022-03-16',
+        name: 'SKI-WOC #2, гонка преследования',
+        place: 'Kemi, Keminmaa, Finland (Кеми, Кеминмаа, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2022wsocPursuitM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2022wsocPursuitW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2022wsocPursuitM/map',
+            'https://www.tulospalvelu.fi/gps/2022wsocPursuitW/map'
+        ],
+        coord: [65.736111, 24.563611],
+        type: 'SKI',
+        fmt: 'pursuit',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20220318_1',
+        parent: 'IOF_20220315_1',
+        date: '2022-03-18',
+        name: 'SKI-WOC #3, миддл',
+        place: 'Kemi, Keminmaa, Finland (Кеми, Кеминмаа, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2022wsocMiddleM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2022wsocMiddleW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2022wsocMiddleM/map',
+            'https://www.tulospalvelu.fi/gps/2022wsocMiddleW/map'
+        ],
+        coord: [65.736111, 24.563611],
+        type: 'SKI',
+        fmt: 'middle',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20220319_1',
+        parent: 'IOF_20220315_1',
+        date: '2022-03-19',
+        name: 'SKI-WOC #4, спринт-эстафета',
+        place: 'Kemi, Keminmaa, Finland (Кеми, Кеминмаа, Финляндия)',
+        gps: {
+            'M-246': 'https://www.tulospalvelu.fi/gps/2022wsocRelayM/',
+            'W-135': 'https://www.tulospalvelu.fi/gps/2022wsocRelayW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2022wsocRelayM/map',
+            'https://www.tulospalvelu.fi/gps/2022wsocRelayW/map'
+        ],
+        coord: [65.736111, 24.563611],
+        type: 'SKI',
+        fmt: 'sprint relay',
         start: 'SKI_WOC'
     },
     {
@@ -6030,16 +6433,6 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
-        gps: {
-            '23-M': 'https://www.tulospalvelu.fi/gps/2023wsocSprintM/',
-            '23-W': 'https://www.tulospalvelu.fi/gps/2023wsocSprintW/',
-            '24-M': 'https://www.tulospalvelu.fi/gps/2024wsocPursuitM/',
-            '24-W': 'https://www.tulospalvelu.fi/gps/2024wsocPursuitW/',
-            '26-M': 'https://www.tulospalvelu.fi/gps/2024wsocMiddleM/',
-            '26-W': 'https://www.tulospalvelu.fi/gps/2024wsocMiddleW/',
-            '27-135': 'https://www.tulospalvelu.fi/gps/2024wsocSR135/',
-            '27-246': 'https://www.tulospalvelu.fi/gps/2024wsocSR246/'
-        },
         photo: [
             'https://photos.app.goo.gl/z4ox2AEuHyGbLaEs6',
             'https://photos.app.goo.gl/hgAngPJnAJ8aCyqu5',
@@ -6051,6 +6444,86 @@ let iofEvents = [
         coord: [47.416667, 13.65],
         type: 'SKI',
         fmt: 'sprint, pursuit, middle, sprint relay', // по трансляциям GPSSeuranta
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20240123_2',
+        parent: 'IOF_20240123_1',
+        date: '2024-01-23',
+        name: 'SKI-WOC #1, спринт',
+        place: 'Ramsau am Dachstein, Austria (Рамзау-ам-Дахштайн, Австрия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2023wsocSprintM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2023wsocSprintW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2023wsocSprintM/map',
+            'https://www.tulospalvelu.fi/gps/2023wsocSprintW/map'
+        ],
+        coord: [47.416667, 13.65],
+        type: 'SKI',
+        fmt: 'sprint',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20240124_1',
+        parent: 'IOF_20240123_1',
+        date: '2024-01-24',
+        name: 'SKI-WOC #2, гонка преследования',
+        place: 'Ramsau am Dachstein, Austria (Рамзау-ам-Дахштайн, Австрия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2024wsocPursuitM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2024wsocPursuitW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2024wsocPursuitM/map',
+            'https://www.tulospalvelu.fi/gps/2024wsocPursuitW/map'
+        ],
+        coord: [47.416667, 13.65],
+        type: 'SKI',
+        fmt: 'pursuit',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20240126_1',
+        parent: 'IOF_20240123_1',
+        date: '2024-01-26',
+        name: 'SKI-WOC #3, миддл',
+        place: 'Ramsau am Dachstein, Austria (Рамзау-ам-Дахштайн, Австрия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2024wsocMiddleM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2024wsocMiddleW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2024wsocMiddleM/map',
+            'https://www.tulospalvelu.fi/gps/2024wsocMiddleW/map'
+        ],
+        coord: [47.416667, 13.65],
+        type: 'SKI',
+        fmt: 'middle',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20240127_1',
+        parent: 'IOF_20240123_1',
+        date: '2024-01-27',
+        name: 'SKI-WOC #4, спринт-эстафета',
+        place: 'Ramsau am Dachstein, Austria (Рамзау-ам-Дахштайн, Австрия)',
+        gps: {
+            '135': 'https://www.tulospalvelu.fi/gps/2024wsocSR135/',
+            '246': 'https://www.tulospalvelu.fi/gps/2024wsocSR246/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2024wsocSR135/map',
+            'https://www.tulospalvelu.fi/gps/2024wsocSR246/map'
+        ],
+        coord: [47.416667, 13.65],
+        type: 'SKI',
+        fmt: 'sprint relay',
         start: 'SKI_WOC'
     },
     {
@@ -6361,16 +6834,6 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/8420/7d6b2b77-379a-447d-b701-e0b8a6490ff6/Bulletin-4.pdf'
         ],
         res: 'https://eventor.orienteering.sport/Events/Show/8420',
-        gps: {
-            '20-135': 'https://www.tulospalvelu.fi/gps/2025esocS135/',
-            '20-246': 'https://www.tulospalvelu.fi/gps/2025esocS246/',
-            '21-M': 'https://www.tulospalvelu.fi/gps/2025esocSprintM/',
-            '21-W': 'https://www.tulospalvelu.fi/gps/2025esocSprintW/',
-            '22-M': 'https://www.tulospalvelu.fi/gps/2025esocMiddleM/',
-            '22-W': 'https://www.tulospalvelu.fi/gps/2025esocMiddleW/',
-            '23-M': 'https://www.tulospalvelu.fi/gps/2025esocLongM/',
-            '23-W': 'https://www.tulospalvelu.fi/gps/2025esocLongW/'
-        },
         maps: [
             // старые карты района (IOF Eventor)
             'https://eventor-iof-storage.orientering.se/eventdocuments/8420/d76a6532-5dcc-4922-aa9f-c8fa297c3a0c/Old-map_Kotivaara.pdf',
@@ -6379,6 +6842,86 @@ let iofEvents = [
         coord: [66.108333, 28.166667],
         type: 'SKI',
         fmt: 'sprint relay, sprint, middle, long', // по GPS-трансляциям
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20250320_1',
+        parent: 'IOF_20250319_1',
+        date: '2025-03-20',
+        name: 'SKI-EOC #1, спринт-эстафета',
+        place: 'Posio, Finland (Посио, Финляндия)',
+        gps: {
+            '135': 'https://www.tulospalvelu.fi/gps/2025esocS135/',
+            '246': 'https://www.tulospalvelu.fi/gps/2025esocS246/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2025esocS135/map',
+            'https://www.tulospalvelu.fi/gps/2025esocS246/map'
+        ],
+        coord: [66.108333, 28.166667],
+        type: 'SKI',
+        fmt: 'sprint relay',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20250321_1',
+        parent: 'IOF_20250319_1',
+        date: '2025-03-21',
+        name: 'SKI-EOC #2, спринт',
+        place: 'Posio, Finland (Посио, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2025esocSprintM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2025esocSprintW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2025esocSprintM/map',
+            'https://www.tulospalvelu.fi/gps/2025esocSprintW/map'
+        ],
+        coord: [66.108333, 28.166667],
+        type: 'SKI',
+        fmt: 'sprint',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20250322_1',
+        parent: 'IOF_20250319_1',
+        date: '2025-03-22',
+        name: 'SKI-EOC #3, миддл',
+        place: 'Posio, Finland (Посио, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2025esocMiddleM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2025esocMiddleW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2025esocMiddleM/map',
+            'https://www.tulospalvelu.fi/gps/2025esocMiddleW/map'
+        ],
+        coord: [66.108333, 28.166667],
+        type: 'SKI',
+        fmt: 'middle',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20250323_1',
+        parent: 'IOF_20250319_1',
+        date: '2025-03-23',
+        name: 'SKI-EOC #4, лонг',
+        place: 'Posio, Finland (Посио, Финляндия)',
+        gps: {
+            'M': 'https://www.tulospalvelu.fi/gps/2025esocLongM/',
+            'W': 'https://www.tulospalvelu.fi/gps/2025esocLongW/'
+        },
+        maps: [
+            // GPSSeuranta
+            'https://www.tulospalvelu.fi/gps/2025esocLongM/map',
+            'https://www.tulospalvelu.fi/gps/2025esocLongW/map'
+        ],
+        coord: [66.108333, 28.166667],
+        type: 'SKI',
+        fmt: 'long',
         start: 'SKI_EOC'
     },
     {
