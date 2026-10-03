@@ -6599,7 +6599,9 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=356945',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/959f346c2f767cb615ab53db/optimized_tile_0_0.jpg',
             // 'https://omaps.worldofo.com/?id=356946',
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/43173e41d2ba48f7f1044deb/optimized_tile_0_0.jpg'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/43173e41d2ba48f7f1044deb/optimized_tile_0_0.jpg',
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/0bf45aab2ebae22e5e0a2d73/optimized_Sprint_Qualification_Women-3.gif'
         ],
         photo: [
             'https://photos.app.goo.gl/5wBiQfGQCqRZ1AtM8',
@@ -6630,7 +6632,10 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2024/07/15/woc-2024-sprint-relay-maps-and-results/',
             'https://news.worldofo.com/wp-content/uploads/2024/07/map_sprintrelay_mens.jpg',
-            'https://news.worldofo.com/wp-content/uploads/2024/07/map_sprintrelay_womens.jpg'
+            'https://news.worldofo.com/wp-content/uploads/2024/07/map_sprintrelay_womens.jpg',
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2180b67eb04807e58c84f275/optimized_tile_0_0.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/3dd9f134e3d698a1fa42e3f3/optimized_tile_0_0.jpg'
         ],
         photo: 'https://photos.app.goo.gl/K7ToGU8ikxyc5E4h9',
         video: [
@@ -6674,6 +6679,16 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/index.php?id=357060',
             // 'https://omaps.worldofo.com/index.php?id=357061',
             // 'https://omaps.worldofo.com/index.php?id=357062',
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/ca2d1429d730fa2d9d7b977c/optimized_Knock-out_Sprint_Qualification_Men-1.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/5723f765a72723af1ac91273/optimized_Knock-out_Sprint_Qualification_Men-2.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/1b4958ec1c5337dd86d74f90/optimized_Knock-out_Sprint_Qualification_Men-3.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/0128e6b2f63c4104fbf2313d/optimized_Knock-out_Sprint_Qualification_Women-1.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/47c29ef3a80a3c87c1383f5f/optimized_Knock-out_Sprint_Qualification_Women-2.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/067e3c4d764ae42f8def32dc/optimized_Knock-out_Sprint_Qualification_Women-3.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/d33b6ddaebee2bebb31bde4d/optimized_tile_0_0.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/8dbd31995203673a963d9d16/optimized_Knock-out_Sprint_Semi-final-Gif.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/a5fc8546ea9f5c46204da65e/optimized_tile_0_0.jpg'
         ],
         photo: [
             'https://photos.app.goo.gl/2R84FyeMGwzi6GTp8',
@@ -6724,6 +6739,15 @@ let iofEvents = [
             'W-Q2': 'https://events.loggator.com/EOC2024MQW2',
             'W-Q3': 'https://events.loggator.com/EOC2024MQW3'
         },
+        maps: [
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/6819b947a73d798c37152f4b/optimized_tile_0_0.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2587f13fb80e6dda18818b62/optimized_tile_0_0.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/013cce1e4643fafee6382e00/optimized_tile_0_0.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/9a14209e5c1b7bce49018bb2/optimized_tile_0_0.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/c3e7b79ea0a09986519ed531/optimized_tile_0_0.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/b482b600cafc8a60103178ab/optimized_tile_0_0.jpg'
+        ],
         photo: 'https://photos.app.goo.gl/myzWWku15exPXTsC7',
         coord: [47.371667, 18.208611],
         fmt: 'middle',
@@ -6796,7 +6820,12 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2024/08/21/eoc-2024-relay-analysis-maps-and-results/',
             'https://news.worldofo.com/wp-content/uploads/2024/08/map_eoc_relay2024.jpg',
-            'https://news.worldofo.com/wp-content/uploads/2024/08/map_eoc_relay20242.jpg'
+            'https://news.worldofo.com/wp-content/uploads/2024/08/map_eoc_relay20242.jpg',
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/7d4309b2c0160870da7f9587/optimized_tile_0_0.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2c10373ab48636c7d266a894/optimized_tile_0_0.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/89a0a82c489176645445717f/optimized_tile_0_0.jpg',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/ac06e26d6302d1558b6c569a/optimized_tile_0_0.jpg'
         ],
         photo: 'https://photos.google.com/share/AF1QipM22u80kGZBJ60OcQZYIcegO2rokJvl71hbIMFQRr_8OJgF9IQeoUZN7mXJo-CZIw?key=NC11SXh1X3FqMkZpNVFhcmQwTkg0RlRNS205cV9R',
         coord: [47.371667, 18.208611],
@@ -7180,6 +7209,9 @@ let iofEvents = [
         },
         maps: [
             // 'https://news.worldofo.com/2025/08/28/eoc-2025-sprint-relay-maps-results-and-analysis/',
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2b696757532bb0e1963b7e13/optimized_tile_0_0.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/4079329a8848548c36bc34ac/optimized_tile_0_0.gif'
         ],
         coord: [50.93, 5.3375],
         fmt: 'sprint relay',
@@ -7199,6 +7231,15 @@ let iofEvents = [
             'W-Q2': 'https://events.loggator.com/EOC2025KOQW2',
             'W-Q3': 'https://events.loggator.com/EOC2025KOQW3'
         },
+        maps: [
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/24c73a0041bbdc3c24a0080b/optimized_tile_0_0.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2b0ee949cfd0b3769eee4a73/optimized_tile_0_0.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2badf6f96c86d3d119c42658/optimized_tile_0_0.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/8fc1b863550f667d0fc02174/optimized_tile_0_0.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/ec880244741c608fede24a49/optimized_tile_0_0.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/8a5cda4885cc571a3e99b0a0/optimized_tile_0_0.gif'
+        ],
         coord: [50.93, 5.3375],
         fmt: 'knock-out',
         start: 'EOC'
@@ -7220,6 +7261,10 @@ let iofEvents = [
         },
         maps: [
             // 'https://news.worldofo.com/2025/08/30/eoc-2025-knock-out-sprint-maps-results-and-analysis/',
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/8052958cb38458882af80b23/optimized_tile_0_0.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/7e8044c4bc591d7310fade90/optimized_tile_0_0.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/0fcba755d1fb246dcbe4a95e/optimized_tile_0_0.gif'
         ],
         coord: [50.93, 5.3375],
         fmt: 'knock-out',
@@ -7247,8 +7292,15 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=374753',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/afa4426f8dcb62bc4e227534/optimized_tile_0_0.gif',
             // 'https://omaps.worldofo.com/?id=374754',
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2af8e0f034fdb807c97600c0/optimized_tile_0_0.gif'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2af8e0f034fdb807c97600c0/optimized_tile_0_0.gif',
             // 'https://omaps.worldofo.com/index.php?id=374753',
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/8a89d00c085253383e2872eb/optimized_tile_0_0.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/de4168a0fe9623e724ace00f/optimized_tile_0_0.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/decb3d1d1d9970e112227155/optimized_tile_0_0.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2621f25bedb0e918749b1e0a/optimized_tile_0_0.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/55bdfcc2038b0ded27c61b30/optimized_tile_0_0.gif',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/53f66557d0463d4c2a72320c/optimized_tile_0_0.gif'
         ],
         coord: [50.93, 5.3375],
         fmt: 'sprint',
