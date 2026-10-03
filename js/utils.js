@@ -2284,6 +2284,21 @@ function isImageUrl(url) {
         && !isNoPreviewHost(url);
 }
 
+// Имя внешнего файла карты для подписи: последняя часть адреса; если в ней нет расширения
+// (карта GPSSeuranta …/<трансляция>/map), то вместе с предыдущей частью - «2013WOCLongM/map».
+function externalMapFileName(url) {
+    const parts = String(url).split(/[?#]/)[0].split('/').filter(Boolean);
+    let name = parts.pop() ?? '';
+    if (!name.includes('.') && parts.length > 1) {
+        name = parts.pop() + '/' + name;
+    }
+    try {
+        return decodeURIComponent(name);
+    } catch (e) {
+        return name;
+    }
+}
+
 // Значок типа файла внешней карты - вместо превью (PDF, изображения с хостов за капчей и т.п.).
 function externalMapIcon(url) {
     const ext = (String(url).split(/[?#]/)[0].match(/\.(\w+)$/) || [])[1]?.toLowerCase();

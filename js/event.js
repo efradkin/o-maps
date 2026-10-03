@@ -612,10 +612,13 @@
 
     // Карты: одна карта - превью слева, сведения справа (сетка Bootstrap; на
     // телефоне превью над текстом во всю ширину); несколько карт - превью в
-    // ряд под списком.
+    // ряд под списком. Сначала карты O-Maps (поле map), затем внешние файлы
+    // карт (поле maps) - как на странице старта: ссылка прямо на файл,
+    // изображение - превью, PDF, OCAD и файлы с хостов за капчей - значок.
     function buildMapsSection(evt, ctx) {
         const names = asList(evt.map);
-        if (names.length === 0) return '';
+        const extMaps = getEventExternalMaps(evt);
+        if (names.length === 0 && extMaps.length === 0) return '';
         const previews = [];
         const lines = names.map(name => {
             const m = getMapForName(name);
@@ -634,7 +637,12 @@
             if (isMapHidden(m)) html += row('', 'Просмотр карты не разрешён правообладателем.');
             return html;
         });
-        const img = (p, cls, extra) => `<a href="${p.href}" target="_self"><img src="${esc(p.m.url)}" loading="lazy" class="${cls}" alt="${esc(p.m.name ?? 'Карта')}"${extra ?? ''}></a>`;
+        for (const url of extMaps) {
+            const name = externalMapFileName(url);
+            lines.push(row('', chip({ href: url, label: name, img: externalMapIcon(url), title: 'Карта (файл)' })));
+            if (isImageUrl(url)) previews.push({ href: url, m: { url: url, name: name }, external: true });
+        }
+        const img = (p, cls, extra) => `<a href="${esc(p.href)}" ${p.external ? 'target="_blank" rel="noopener"' : 'target="_self"'}><img src="${esc(p.m.url)}" loading="lazy" class="${cls}" alt="${esc(p.m.name ?? 'Карта')}"${extra ?? ''}></a>`;
         let html;
         if (previews.length === 1) {
             html = `<div class="row"><div class="col-sm-5 col-lg-3 mb-3">${img(previews[0], 'help-figure mw-100')}</div>` +
@@ -644,7 +652,7 @@
                 ? '<div class="d-flex flex-wrap gap-3 clearfix">' + previews.map(p => img(p, 'help-figure', ' height="160"')).join('') + '</div>'
                 : '');
         }
-        return section('ev_maps', names.length > 1 ? 'Карты' : 'Карта', html);
+        return section('ev_maps', names.length + extMaps.length > 1 ? 'Карты' : 'Карта', html);
     }
 
     // Место: мини-карта с картами события (повёрнутые подложки, как на

@@ -404,15 +404,6 @@ function buildStartMapSection(m) {
 }
 
 // Имя файла внешней карты для подписи.
-function externalMapFileName(url) {
-    const name = String(url).split(/[?#]/)[0].split('/').pop();
-    try {
-        return decodeURIComponent(name);
-    } catch (e) {
-        return name;
-    }
-}
-
 // Секция внешнего файла карты (поле maps события): превью, ссылка на файл и событие.
 function buildStartExtMapSection(x) {
     const fileName = externalMapFileName(x.url);
