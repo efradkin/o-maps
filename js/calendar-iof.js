@@ -1915,8 +1915,8 @@ let iofEvents = [
             'https://web.archive.org/web/20121004183820id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_MIDDLE_M_low-quality2.jpg',
             'https://web.archive.org/web/20121107160813id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_MIDDLE_W_low-quality1.jpg',
             // GPSSeuranta
-            'https://www.tulospalvelu.fi/gps/20120517EOCMidMF/map',
-            'https://www.tulospalvelu.fi/gps/20120517EOCMidWF/map'
+            'https://www.tulospalvelu.fi/gps/20120517EOCMidMF/map', // duplicate of https://web.archive.org/web/20121004183820id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_MIDDLE_M_low-quality2.jpg
+            'https://www.tulospalvelu.fi/gps/20120517EOCMidWF/map' // duplicate of https://web.archive.org/web/20121107160813id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_MIDDLE_W_low-quality1.jpg
         ],
         coord: [60.607222, 15.631111],
         fmt: 'middle',
@@ -1940,7 +1940,7 @@ let iofEvents = [
             'https://web.archive.org/web/20121004155153id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_LONG_M_low-quality.jpg',
             'https://web.archive.org/web/20121004155240id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_LONG_W_low-quality.jpg',
             // GPSSeuranta
-            'https://www.tulospalvelu.fi/gps/20120518EOCLongMF/map',
+            'https://www.tulospalvelu.fi/gps/20120518EOCLongMF/map', // duplicate of https://web.archive.org/web/20121004155153id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_LONG_M_low-quality.jpg
             'https://www.tulospalvelu.fi/gps/20120518EOCLongWF/map'
         ],
         coord: [60.607222, 15.631111],
@@ -1962,8 +1962,8 @@ let iofEvents = [
             'https://web.archive.org/web/20121107134804id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Falun_SPRINT_M_low-quality.jpg',
             'https://web.archive.org/web/20121107134631id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Falun_SPRINT_W_low-quality.jpg',
             // GPSSeuranta
-            'https://www.tulospalvelu.fi/gps/20120519EOCSprintMF/map',
-            'https://www.tulospalvelu.fi/gps/20120519EOCSprintWF/map'
+            'https://www.tulospalvelu.fi/gps/20120519EOCSprintMF/map', // duplicate of https://web.archive.org/web/20121107134804id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Falun_SPRINT_M_low-quality.jpg
+            'https://www.tulospalvelu.fi/gps/20120519EOCSprintWF/map' // duplicate of https://web.archive.org/web/20121107134631id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Falun_SPRINT_W_low-quality.jpg
         ],
         coord: [60.607222, 15.631111],
         fmt: 'sprint',
