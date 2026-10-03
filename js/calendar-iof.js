@@ -1208,6 +1208,19 @@ let iofEvents = [
         maps: [
             // 'https://omaps.worldofo.com/index.php?id=24515',
             // 'https://omaps.worldofo.com/index.php?id=24541',
+            // официальные карты организаторов из Wayback Machine (найдены через omaps.worldofo.com):
+            // 'https://omaps.worldofo.com/index.php?id=24551',
+            'https://web.archive.org/web/20160322143759id_/http://eoc2010.bgorienteering.com/maps/long_q_men_a.png',
+            // 'https://omaps.worldofo.com/index.php?id=24552',
+            'https://web.archive.org/web/20160322135627id_/http://eoc2010.bgorienteering.com/maps/long_q_men_b.png',
+            // 'https://omaps.worldofo.com/index.php?id=24553',
+            'https://web.archive.org/web/20160322141237id_/http://eoc2010.bgorienteering.com/maps/long_q_men_c.png',
+            // 'https://omaps.worldofo.com/index.php?id=24548',
+            'https://web.archive.org/web/20160322140138id_/http://eoc2010.bgorienteering.com/maps/long_q_women_a.png',
+            // 'https://omaps.worldofo.com/index.php?id=24549',
+            'https://web.archive.org/web/20160322143139id_/http://eoc2010.bgorienteering.com/maps/long_q_women_b.png',
+            // 'https://omaps.worldofo.com/index.php?id=24550',
+            'https://web.archive.org/web/20160322142431id_/http://eoc2010.bgorienteering.com/maps/long_q_women_c.png'
         ],
         coord: [42.266667, 27.766667],
         fmt: 'long',
@@ -1219,6 +1232,21 @@ let iofEvents = [
         date: '2010-06-01',
         name: 'EOC #3, миддл (квалификация)',
         place: 'Primorsko, Bulgaria (Приморско, Болгария)',
+        maps: [
+            // официальные карты организаторов из Wayback Machine (найдены через omaps.worldofo.com):
+            // 'https://omaps.worldofo.com/index.php?id=24582',
+            'https://web.archive.org/web/20140903183656id_/http://www.eoc2010.bgorienteering.com/maps/middle_q_men_a.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=24583',
+            'https://web.archive.org/web/20140903185007id_/http://www.eoc2010.bgorienteering.com/maps/middle_q_men_b.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=24584',
+            'https://web.archive.org/web/20160320132657id_/http://eoc2010.bgorienteering.com/maps/middle_q_men_c.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=24579',
+            'https://web.archive.org/web/20140903173011id_/http://www.eoc2010.bgorienteering.com/maps/middle_q_women_a.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=24580',
+            'https://web.archive.org/web/20140903234517id_/http://www.eoc2010.bgorienteering.com/maps/middle_q_women_b.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=24581',
+            'https://web.archive.org/web/20140903123341id_/http://www.eoc2010.bgorienteering.com/maps/middle_q_women_c.jpg'
+        ],
         coord: [42.266667, 27.766667],
         fmt: 'middle',
         start: 'EOC'
@@ -2608,6 +2636,21 @@ let iofEvents = [
         date: '2014-04-10',
         name: 'EOC #1, миддл (квалификация)',
         place: 'Palmela, Portugal (Палмела, Португалия)',
+        maps: [
+            // официальные карты организаторов из Wayback Machine (найдены через omaps.worldofo.com):
+            // 'https://omaps.worldofo.com/index.php?id=108354',
+            'https://web.archive.org/web/20140925233614id_/http://eoc2014.fpo.pt/files/maps/middle-distance/qualifying/Men1.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=108353',
+            'https://web.archive.org/web/20140925232904id_/http://eoc2014.fpo.pt/files/maps/middle-distance/qualifying/Men2.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=108352',
+            'https://web.archive.org/web/20140925233050id_/http://eoc2014.fpo.pt/files/maps/middle-distance/qualifying/Men3.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=108351',
+            'https://web.archive.org/web/20140925232841id_/http://eoc2014.fpo.pt/files/maps/middle-distance/qualifying/Women1.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=108350',
+            'https://web.archive.org/web/20140925233351id_/http://eoc2014.fpo.pt/files/maps/middle-distance/qualifying/Women2.jpg',
+            // 'https://omaps.worldofo.com/index.php?id=108349',
+            'https://web.archive.org/web/20140925233131id_/http://eoc2014.fpo.pt/files/maps/middle-distance/qualifying/Women3.jpg'
+        ],
         coord: [38.566667, -8.9],
         fmt: 'middle',
         start: 'EOC'
@@ -2661,6 +2704,7 @@ let iofEvents = [
             // 'https://news.worldofo.com/2014/04/14/eoc-middle-maps-and-results-3/',
             // 'https://omaps.worldofo.com/index.php?id=108711',
             // 'https://omaps.worldofo.com/index.php?id=108712',
+            'https://web.archive.org/web/20141021131854id_/http://traclive.dk/events/event_20140409_Eocetoc/automaps_new/81657700-a401-0131-fa3b-10bf48d758ce/original_middlewomenfinala.png'
         ],
         coord: [38.566667, -8.9],
         fmt: 'middle',
