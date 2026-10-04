@@ -632,6 +632,10 @@ let iofEvents = [
             'https://web.archive.org/web/20200706035302/https://old.orienteering.org/events/?event_id=33',
             'http://lazarus.elte.hu/tajfutas/history/2001.htm'
         ],
+        maps: [
+            // карты с сайта организаторов (Wayback Machine, woc2001.fi):
+            'https://web.archive.org/web/20010622133854id_/http://www.woc2001.fi:80/a_news/kartta01.gif'
+        ],
         coord: [61.498056, 23.76],
         fmt: 'sprint, middle, long, relay',
         start: 'WOC'
@@ -741,6 +745,22 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/European_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию'
         ],
+        maps: [
+            // официальные карты организаторов (Wayback Machine, eoc2004.dk):
+            'https://web.archive.org/web/20060623101522id_/http://eoc2004.dk:80/images/eoc_final_sprint_mens_course.jpg', // финал спринта, мужчины
+            'https://web.archive.org/web/20060623101650id_/http://eoc2004.dk:80/images/eoc_final_sprint_womens_course.jpg', // финал спринта, женщины
+            'https://web.archive.org/web/20060623101510id_/http://eoc2004.dk:80/images/eoc_final_middle_mens_course.jpg', // финал миддла, мужчины
+            'https://web.archive.org/web/20060623101614id_/http://eoc2004.dk:80/images/eoc_final_middle_womens_course.jpg', // финал миддла, женщины
+            'https://web.archive.org/web/20060623101410id_/http://eoc2004.dk:80/images/eoc_final_long_mens_course.jpg', // финал лонга, мужчины
+            'https://web.archive.org/web/20060623101458id_/http://eoc2004.dk:80/images/eoc_final_long_womens_course.jpg', // финал лонга, женщины
+            // официальные карты организаторов (Wayback Machine, eoc2004.dk):
+            'https://web.archive.org/web/20041021030414id_/http://eoc2004.dk:80/images/relay_course_men1.GIF', // эстафета, мужчины, этап 1
+            'https://web.archive.org/web/20040815005401id_/http://www.eoc2004.dk:80/images/relay_course_men2.GIF', // эстафета, мужчины, этап 2
+            'https://web.archive.org/web/20040814182621id_/http://www.eoc2004.dk:80/images/relay_course_men3.GIF', // эстафета, мужчины, этап 3
+            'https://web.archive.org/web/20040814183720id_/http://www.eoc2004.dk:80/images/relay_course_women1.GIF', // эстафета, женщины, этап 1
+            'https://web.archive.org/web/20040814184534id_/http://www.eoc2004.dk:80/images/relay_course_women2.GIF', // эстафета, женщины, этап 2
+            'https://web.archive.org/web/20040814185701id_/http://www.eoc2004.dk:80/images/relay_course_women3.GIF' // эстафета, женщины, этап 3
+        ],
         coord: [55.65, 12.083333],
         fmt: 'sprint, middle, long, relay',
         start: 'EOC'
@@ -780,6 +800,18 @@ let iofEvents = [
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
         res: 'https://old.orienteering.sport/events/61/world-mtb-orienteering-championships-2004/',
+        maps: [
+            // карты с сайта организаторов (Wayback Machine, 2004worldmtbo.org):
+            'https://web.archive.org/web/20051023103523id_/http://www.2004worldmtbo.org:80/images/map_balt_camp.jpg',
+            'https://web.archive.org/web/20060214103000id_/http://www.2004worldmtbo.org:80/images/map_canadian_north.jpg',
+            'https://web.archive.org/web/20060214102835id_/http://www.2004worldmtbo.org:80/images/map_canadian_south.jpg',
+            'https://web.archive.org/web/20060214102953id_/http://www.2004worldmtbo.org:80/images/map_creswick_east.jpg',
+            'https://web.archive.org/web/20051023103102id_/http://www.2004worldmtbo.org:80/images/map_creswick_west.jpg',
+            'https://web.archive.org/web/20051023102943id_/http://www.2004worldmtbo.org:80/images/map_lal_lal.jpg',
+            'https://web.archive.org/web/20051023102240id_/http://www.2004worldmtbo.org:80/images/map_nerrina.jpg',
+            'https://web.archive.org/web/20041220152140id_/http://www.2004worldmtbo.org:80/MFBMMenBase.pdf',
+            'https://web.archive.org/web/20041220221244id_/http://www.2004worldmtbo.org:80/MFBMWomensBase.pdf'
+        ],
         coord: [-37.560833, 143.8475],
         type: 'VELO',
         fmt: 'middle, long, relay',
@@ -830,6 +862,10 @@ let iofEvents = [
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
         res: 'https://old.orienteering.sport/events/60/world-mtb-orienteering-championships-2005/',
+        maps: [
+            // карты с сайта организаторов (Wayback Machine, orienteering.sk/mtbo2005):
+            'https://web.archive.org/web/20060113171517id_/http://www.orienteering.sk:80/mtbo2005/maps/relay/donovaly.jpg' // эстафета
+        ],
         coord: [48.735278, 19.145278],
         type: 'VELO',
         fmt: 'middle, long, relay',
@@ -865,6 +901,43 @@ let iofEvents = [
         ],
         maps: [
             // 'https://news.worldofo.com/2006/05/08/mats-troeng-jonn-are-myhren-eoc-maps/',
+            // карты с сайта организаторов (Wayback Machine, eoc2006.ee):
+            'https://web.archive.org/web/20070419113745id_/http://www.eoc2006.ee:80/results/sprintf/men.gif', // финал спринта, мужчины
+            'https://web.archive.org/web/20070419201754id_/http://www.eoc2006.ee:80/results/sprintf/women.gif', // финал спринта, женщины
+            'https://web.archive.org/web/20070419201811id_/http://www.eoc2006.ee:80/results/sprintf/andrey.gif', // финал спринта, Andrey
+            'https://web.archive.org/web/20070419113533id_/http://www.eoc2006.ee:80/results/sprintf/emil.gif', // финал спринта, Emil
+            'https://web.archive.org/web/20070419031601id_/http://www.eoc2006.ee:80/results/sprintf/jamie.gif', // финал спринта, Jamie
+            'https://web.archive.org/web/20070419030447id_/http://www.eoc2006.ee:80/results/sprintf/marianne.gif', // финал спринта, Marianne
+            'https://web.archive.org/web/20070419025034id_/http://www.eoc2006.ee:80/results/sprintf/simone.gif', // финал спринта, Simone
+            'https://web.archive.org/web/20070808172242id_/http://www.eoc2006.ee/results/sprintf/anu.gif', // финал спринта, Anu
+            'https://web.archive.org/web/20070808172330id_/http://www.eoc2006.ee/results/sprintf/minna.gif', // финал спринта, Minna
+            'https://web.archive.org/web/20060510121830id_/http://www.eoc2006.ee:80/results/sprintf/toome.jpg', // финал спринта, toome
+            'https://web.archive.org/web/20070808171019id_/http://www.eoc2006.ee/results/middlef/mfm.gif', // финал миддла, mfm
+            'https://web.archive.org/web/20070419031657id_/http://www.eoc2006.ee:80/results/middlef/mfm1.gif', // финал миддла, mfm1
+            'https://web.archive.org/web/20070419045556id_/http://www.eoc2006.ee:80/results/middlef/mfm2.gif', // финал миддла, mfm2
+            'https://web.archive.org/web/20061020111036id_/http://www.eoc2006.ee:80/results/middlef/mfm3.gif', // финал миддла, mfm3
+            'https://web.archive.org/web/20070419040945id_/http://www.eoc2006.ee:80/results/middlef/mfm13.gif', // финал миддла, mfm13
+            'https://web.archive.org/web/20070419112839id_/http://www.eoc2006.ee:80/results/middlef/mfw.gif', // финал миддла, mfw
+            'https://web.archive.org/web/20070419200915id_/http://www.eoc2006.ee:80/results/middlef/mfw1.gif', // финал миддла, mfw1
+            'https://web.archive.org/web/20061019153904id_/http://www.eoc2006.ee:80/results/middlef/mfw2.gif', // финал миддла, mfw2
+            'https://web.archive.org/web/20070808170700id_/http://www.eoc2006.ee/results/middlef/mfw3.gif', // финал миддла, mfw3
+            'https://web.archive.org/web/20070419110657id_/http://www.eoc2006.ee:80/results/middlef/mfw5.gif', // финал миддла, mfw5
+            'https://web.archive.org/web/20070419113446id_/http://www.eoc2006.ee:80/results/middlef/mfw13.gif', // финал миддла, mfw13
+            'https://web.archive.org/web/20070419031640id_/http://www.eoc2006.ee:80/results/longf/longMen.gif', // финал лонга, longMen
+            'https://web.archive.org/web/20070419022212id_/http://www.eoc2006.ee:80/results/longf/longWomen.gif', // финал лонга, longWomen
+            'https://web.archive.org/web/20070419035426id_/http://www.eoc2006.ee:80/results/longf/LFM1.gif', // финал лонга, LFM1
+            'https://web.archive.org/web/20070419111619id_/http://www.eoc2006.ee:80/results/longf/LFM2.gif', // финал лонга, LFM2
+            'https://web.archive.org/web/20070419111538id_/http://www.eoc2006.ee:80/results/longf/LFM3.gif', // финал лонга, LFM3
+            'https://web.archive.org/web/20070808172705id_/http://www.eoc2006.ee/results/longf/LWF1.gif', // финал лонга, LWF1
+            'https://web.archive.org/web/20070808172627id_/http://www.eoc2006.ee/results/longf/LWF2.gif', // финал лонга, LWF2
+            'https://web.archive.org/web/20070419023827id_/http://www.eoc2006.ee:80/results/longf/LWF3.gif', // финал лонга, LWF3
+            'https://web.archive.org/web/20060911053947id_/http://www.eoc2006.ee:80/results/relay/relay.jpg', // эстафета
+            'https://web.archive.org/web/20060901210626id_/http://www.eoc2006.ee:80/results/relay/relay_m_1_1.gif', // эстафета, мужчины, 1
+            'https://web.archive.org/web/20060902022715id_/http://www.eoc2006.ee:80/results/relay/relay_m_1_2.gif', // эстафета, мужчины, 2
+            'https://web.archive.org/web/20060905001210id_/http://www.eoc2006.ee:80/results/relay/relay_m_1_3.gif', // эстафета, мужчины, 3
+            'https://web.archive.org/web/20060908040052id_/http://www.eoc2006.ee:80/results/relay/relay_w_1_1.gif', // эстафета, женщины, 1
+            'https://web.archive.org/web/20060901210639id_/http://www.eoc2006.ee:80/results/relay/relay_w_1_2.gif', // эстафета, женщины, 2
+            'https://web.archive.org/web/20060902022729id_/http://www.eoc2006.ee:80/results/relay/relay_w_1_3.gif' // эстафета, женщины, 3
         ],
         coord: [58.059444, 26.495833],
         fmt: 'sprint, middle, long, relay',
@@ -898,6 +971,18 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/2006_World_Orienteering_Championships'
         ],
         res: 'https://web.archive.org/web/20200706035725/https://old.orienteering.org/events/?event_id=37',
+        maps: [
+            // карты с сайта организаторов (Wayback Machine, woc2006.dk):
+            'https://web.archive.org/web/20071221065158id_/http://www.woc2006.dk/dk/img/lang_kval1.jpg', // квалификация лонга, 1
+            'https://web.archive.org/web/20071221065231id_/http://www.woc2006.dk/dk/img/lang_kval2.jpg', // квалификация лонга, 2
+            'https://web.archive.org/web/20071221065321id_/http://www.woc2006.dk/dk/img/lang_finale1.jpg', // финал лонга, 1
+            'https://web.archive.org/web/20071221065346id_/http://www.woc2006.dk/dk/img/lang_finale2.jpg', // финал лонга, 2
+            'https://web.archive.org/web/20061129144537id_/http://www.woc2006.dk:80/dk/img/mellem_kval1.jpg', // квалификация миддла, 1
+            'https://web.archive.org/web/20061129144820id_/http://www.woc2006.dk:80/dk/img/mellem_kval2.jpg', // квалификация миддла, 2
+            'https://web.archive.org/web/20071219130241id_/http://www.woc2006.dk/dk/img/mellem_finale2.jpg', // финал миддла, 2
+            'https://web.archive.org/web/20071219130329id_/http://www.woc2006.dk/dk/img/stafet1.jpg', // эстафета, 1
+            'https://web.archive.org/web/20071219130345id_/http://www.woc2006.dk/dk/img/stafet2.jpg' // эстафета, 2
+        ],
         coord: [56.1572, 10.2107],
         fmt: 'sprint, middle, long, relay',
         start: 'WOC'
@@ -913,6 +998,11 @@ let iofEvents = [
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
         ],
         res: 'https://old.orienteering.sport/events/100/european-mtb-orienteering-championships-2006/',
+        maps: [
+            // официальные карты организаторов (Wayback Machine, mtbo.pl/eumtboc):
+            'https://web.archive.org/web/20070823012409id_/http://www.mtbo.pl/eumtboc/maps/EOC%20Sprint%20M21.jpg', // спринт, M21
+            'https://web.archive.org/web/20070823012343id_/http://www.mtbo.pl/eumtboc/maps/EOC%20Sprint%20W21.jpg' // спринт, W21
+        ],
         coord: [52.23, 21.011111],
         type: 'VELO',
         fmt: 'sprint, middle, long, relay',
@@ -995,6 +1085,17 @@ let iofEvents = [
             'http://woc2007.org.ua/files/relay-f-res-m.htm',
             'http://woc2007.org.ua/files/relay-f-res-w.htm'
         ],
+        maps: [
+            // старые карты районов (Wayback Machine, woc2007.org.ua):
+            'https://web.archive.org/web/20071211175225id_/http://www.woc2007.org.ua/oldmapswoc2007/golosievo.gif',
+            'https://web.archive.org/web/20071211175025id_/http://www.woc2007.org.ua/oldmapswoc2007/golosievo_park.gif',
+            'https://web.archive.org/web/20071211175320id_/http://www.woc2007.org.ua/oldmapswoc2007/kozin_nord.gif',
+            'https://web.archive.org/web/20071211174955id_/http://www.woc2007.org.ua/oldmapswoc2007/kozyn_south.gif',
+            'https://web.archive.org/web/20071211175153id_/http://www.woc2007.org.ua/oldmapswoc2007/lesnichestvo.gif',
+            'https://web.archive.org/web/20071211175257id_/http://www.woc2007.org.ua/oldmapswoc2007/museum_wow.gif',
+            'https://web.archive.org/web/20071211175127id_/http://www.woc2007.org.ua/oldmapswoc2007/salut.gif',
+            'https://web.archive.org/web/20071211175100id_/http://www.woc2007.org.ua/oldmapswoc2007/stugna.gif'
+        ],
         coord: [50.45, 30.523333],
         fmt: 'sprint, middle, long, relay',
         start: 'WOC'
@@ -1050,6 +1151,13 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2008/05/26/eoc-sprint-final-maps-statements-and-results/',
             // 'https://news.worldofo.com/2008/05/29/map-eoc-long-final/',
+            // карты с сайта организаторов (Wayback Machine, eoc2008.lof.lv):
+            'https://web.archive.org/web/20160422070006id_/http://eoc2008.lof.lv/bildes/kartes/609_staldzene.jpg',
+            'https://web.archive.org/web/20160422063512id_/http://eoc2008.lof.lv/bildes/kartes/685_Vcentr.jpg',
+            'https://web.archive.org/web/20160422034407id_/http://eoc2008.lof.lv/bildes/kartes/686_Jaunupe.jpg',
+            'https://web.archive.org/web/20160422080520id_/http://eoc2008.lof.lv/bildes/kartes/687_Kempings.jpg',
+            'https://web.archive.org/web/20160422063524id_/http://eoc2008.lof.lv/bildes/kartes/709_piejurasPark.jpg',
+            'https://web.archive.org/web/20160422063626id_/http://eoc2008.lof.lv/bildes/treninu_karte.jpg' // тренировочная карта
         ],
         coord: [57.390556, 21.573333],
         fmt: 'sprint, middle, long, relay',
@@ -1181,6 +1289,10 @@ let iofEvents = [
             // 'https://old.orienteering.sport/wp-content/uploads/2011/01/bulletin2.pdf',
             'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-39.pdf'
         ],
+        maps: [
+            // старая карта района (Wayback Machine, orienteering.or.jp/swoc2009):
+            'https://web.archive.org/web/20140602075315id_/http://www.orienteering.or.jp/swoc2009/archives/oldmap_rusutsu.jpg'
+        ],
         coord: [42.733333, 140.883333],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay',
@@ -1225,6 +1337,14 @@ let iofEvents = [
             'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-32.pdf'
         ],
         res: 'https://old.orienteering.sport/events/49/world-mtb-orienteering-championships-2009/',
+        maps: [
+            // карты с сайта организаторов (Wayback Machine, nivut.org.il/mtbo):
+            'https://web.archive.org/web/20120226142051id_/http://www.nivut.org.il/mtbo/Maps/Eshtaol.jpg',
+            'https://web.archive.org/web/20120226142110id_/http://www.nivut.org.il/mtbo/Maps/Haruvit.jpg',
+            'https://web.archive.org/web/20120226142032id_/http://www.nivut.org.il/mtbo/Maps/beshemen.jpg',
+            'https://web.archive.org/web/20120226142010id_/http://www.nivut.org.il/mtbo/Maps/neotk.jpg',
+            'https://web.archive.org/web/20111008113120id_/http://www.nivut.org.il/mtbo/Images/events%20map%20ocad.jpg'
+        ],
         coord: [31.953889, 34.925],
         type: 'VELO',
         fmt: 'sprint, middle, long, relay',
@@ -1312,7 +1432,16 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/index.php?id=24512',
             // 'https://omaps.worldofo.com/index.php?id=24514',
             'https://web.archive.org/web/20121101194256id_/http://www.eoc2010.bgorienteering.com/maps/sprint_f_men_a.png',
-            'https://web.archive.org/web/20140911070633id_/http://www.eoc2010.bgorienteering.com/maps/sprint_f_women_a.png'
+            'https://web.archive.org/web/20140911070633id_/http://www.eoc2010.bgorienteering.com/maps/sprint_f_women_a.png',
+            // официальные карты организаторов (Wayback Machine, eoc2010.bgorienteering.com):
+            'https://web.archive.org/web/20160316003539id_/http://eoc2010.bgorienteering.com/maps/sprint_q_men_a.png', // квалификация, мужчины, забег A
+            'https://web.archive.org/web/20160315235649id_/http://eoc2010.bgorienteering.com/maps/sprint_q_men_b.png', // квалификация, мужчины, забег B
+            'https://web.archive.org/web/20160316000652id_/http://eoc2010.bgorienteering.com/maps/sprint_q_men_c.png', // квалификация, мужчины, забег C
+            'https://web.archive.org/web/20160315235445id_/http://eoc2010.bgorienteering.com/maps/sprint_q_women_a.png', // квалификация, женщины, забег A
+            'https://web.archive.org/web/20160316003336id_/http://eoc2010.bgorienteering.com/maps/sprint_q_women_b.png', // квалификация, женщины, забег B
+            'https://web.archive.org/web/20160316001715id_/http://eoc2010.bgorienteering.com/maps/sprint_q_women_c.png', // квалификация, женщины, забег C
+            'https://web.archive.org/web/20160321101554id_/http://eoc2010.bgorienteering.com/maps/sprint_f_men_b.png', // финал, мужчины, вариант B
+            'https://web.archive.org/web/20160321084851id_/http://eoc2010.bgorienteering.com/maps/sprint_f_women_b.png' // финал, женщины, вариант B
         ],
         coord: [42.266667, 27.766667],
         fmt: 'sprint',
@@ -1397,7 +1526,10 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/index.php?id=24726',
             // 'https://omaps.worldofo.com/index.php?id=24727',
             'https://web.archive.org/web/20121101194212id_/http://www.eoc2010.bgorienteering.com/maps/middle_f_men_a.jpg',
-            'https://web.archive.org/web/20140807051515id_/http://www.eoc2010.bgorienteering.com/maps/middle_f_women_a.jpg'
+            'https://web.archive.org/web/20140807051515id_/http://www.eoc2010.bgorienteering.com/maps/middle_f_women_a.jpg',
+            // официальные карты организаторов (Wayback Machine, eoc2010.bgorienteering.com):
+            'https://web.archive.org/web/20160314174915id_/http://eoc2010.bgorienteering.com/maps/middle_f_men_b.jpg', // мужчины, вариант B
+            'https://web.archive.org/web/20160315012505id_/http://eoc2010.bgorienteering.com/maps/middle_f_women_b.jpg' // женщины, вариант B
         ],
         coord: [42.266667, 27.766667],
         fmt: 'middle',
@@ -1413,6 +1545,9 @@ let iofEvents = [
             // 'https://news.worldofo.com/2010/06/05/eoc-long-gold-for-niggli-and-hubmann/',
             // 'https://omaps.worldofo.com/index.php?id=24742',
             // 'https://omaps.worldofo.com/index.php?id=24743',
+            // официальные карты организаторов (Wayback Machine, eoc2010.bgorienteering.com):
+            'https://web.archive.org/web/20160404225817id_/http://eoc2010.bgorienteering.com/maps/long_f_men_A.jpg', // мужчины
+            'https://web.archive.org/web/20160404234457id_/http://eoc2010.bgorienteering.com/maps/long_f_women_A.jpg' // женщины
         ],
         coord: [42.266667, 27.766667],
         fmt: 'long',
@@ -1977,6 +2112,13 @@ let iofEvents = [
             'https://old.orienteering.sport/wp-content/uploads/2011/08/Bulletin-42.pdf'
         ],
         res: 'https://old.orienteering.sport/events/14/world-mtb-orienteering-championships-2011/',
+        maps: [
+            // карты с сайта организаторов (Wayback Machine, mtbo2011.org):
+            'https://web.archive.org/web/20120518234106id_/http://www.mtbo2011.org/public/mappe/m240811_174805.jpg',
+            'https://web.archive.org/web/20120518233814id_/http://www.mtbo2011.org/public/mappe/m240811_175010.jpg',
+            'https://web.archive.org/web/20120518234021id_/http://www.mtbo2011.org/public/mappe/m240811_175459.jpg',
+            'https://web.archive.org/web/20120518234327id_/http://www.mtbo2011.org/public/mappe/m240811_180133.jpg'
+        ],
         coord: [45.55, 11.55],
         type: 'VELO',
         fmt: 'sprint, middle, long, relay',
@@ -2061,7 +2203,14 @@ let iofEvents = [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/20120514EOCMidWQ-B/map',
             'https://www.tulospalvelu.fi/gps/20120514EOCMidWQ-A/map',
-            'https://www.tulospalvelu.fi/gps/20120514EOCMidWQ-C/map'
+            'https://www.tulospalvelu.fi/gps/20120514EOCMidWQ-C/map',
+            // официальные карты организаторов (Wayback Machine, eoc2012.se):
+            'https://web.archive.org/web/20121107171523id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_MIDDLEQUAL_Men-A_200dpi.gif', // мужчины, забег A
+            'https://web.archive.org/web/20121107164239id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_MIDDLEQUAL_Men-B_200dpi.gif', // мужчины, забег B
+            'https://web.archive.org/web/20121107164118id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_MIDDLEQUAL_Men-C_200dpi.gif', // мужчины, забег C
+            'https://web.archive.org/web/20121107171341id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_MIDDLEQUAL_Women-A_200dpi.gif', // женщины, забег A
+            'https://web.archive.org/web/20121107164156id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_MIDDLEQUAL_Women-B_200dpi.gif', // женщины, забег B
+            'https://web.archive.org/web/20121107164218id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_MIDDLEQUAL_Women-C_200dpi.gif' // женщины, забег C
         ],
         coord: [60.607222, 15.631111],
         fmt: 'middle',
@@ -2082,7 +2231,14 @@ let iofEvents = [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/20120515EOCLongMQ-A/map',
             'https://www.tulospalvelu.fi/gps/20120515EOCLongMQ-B/map',
-            'https://www.tulospalvelu.fi/gps/20120515EOCLongMQ-C/map'
+            'https://www.tulospalvelu.fi/gps/20120515EOCLongMQ-C/map',
+            // официальные карты организаторов (Wayback Machine, eoc2012.se):
+            'https://web.archive.org/web/20121004183924id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_LONGQUAL_Men-A_200dpi.gif', // мужчины, забег A
+            'https://web.archive.org/web/20121107185706id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_LONGQUAL_Men-B_200dpi.gif', // мужчины, забег B
+            'https://web.archive.org/web/20121107180913id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_LONGQUAL_Men-C_200dpi.gif', // мужчины, забег C
+            'https://web.archive.org/web/20121107180651id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_LONGQUAL_Women-A_200dpi.gif', // женщины, забег A
+            'https://web.archive.org/web/20121107180111id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_LONGQUAL_Women-B_200dpi.gif', // женщины, забег B
+            'https://web.archive.org/web/20121107180558id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_LONGQUAL_Women-C_200dpi.gif' // женщины, забег C
         ],
         coord: [60.607222, 15.631111],
         fmt: 'long',
@@ -2094,6 +2250,15 @@ let iofEvents = [
         date: '2012-05-16',
         name: 'EOC #3, спринт (квалификация)',
         place: 'Falun, Mora, Sweden (Фалун, Мура, Швеция)',
+        maps: [
+            // официальные карты организаторов (Wayback Machine, eoc2012.se):
+            'https://web.archive.org/web/20121107173406id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_SPRINTQUAL_Men-A_200dpi.gif', // мужчины, забег A
+            'https://web.archive.org/web/20121107173724id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_SPRINTQUAL_Men-B_200dpi.gif', // мужчины, забег B
+            'https://web.archive.org/web/20121107173909id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_SPRINTQUAL_Men-C_200dpi.gif', // мужчины, забег C
+            'https://web.archive.org/web/20121107173803id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_SPRINTQUAL_Women-A_200dpi.gif', // женщины, забег A
+            'https://web.archive.org/web/20121107173449id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_SPRINTQUAL_Women-B_200dpi.gif', // женщины, забег B
+            'https://web.archive.org/web/20121107173631id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_SPRINTQUAL_Women-C_200dpi.gif' // женщины, забег C
+        ],
         coord: [60.607222, 15.631111],
         fmt: 'sprint',
         start: 'EOC'
@@ -2117,7 +2282,10 @@ let iofEvents = [
             'https://web.archive.org/web/20121107160813id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_MIDDLE_W_low-quality1.jpg',
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/20120517EOCMidMF/map', // duplicate of https://web.archive.org/web/20121004183820id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_MIDDLE_M_low-quality2.jpg
-            'https://www.tulospalvelu.fi/gps/20120517EOCMidWF/map' // duplicate of https://web.archive.org/web/20121107160813id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_MIDDLE_W_low-quality1.jpg
+            'https://www.tulospalvelu.fi/gps/20120517EOCMidWF/map', // duplicate of https://web.archive.org/web/20121107160813id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_MIDDLE_W_low-quality1.jpg
+            // официальные карты организаторов (Wayback Machine, eoc2012.se):
+            'https://web.archive.org/web/20130811212423id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_MIDDLEFINAL_B_final_Men_200dpi.gif', // финал B, мужчины
+            'https://web.archive.org/web/20121107160645id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_MIDDLEFINAL_B_final_Women_200dpi.gif' // финал B, женщины
         ],
         coord: [60.607222, 15.631111],
         fmt: 'middle',
@@ -2142,7 +2310,10 @@ let iofEvents = [
             'https://web.archive.org/web/20121004155240id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_LONG_W_low-quality.jpg',
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/20120518EOCLongMF/map', // duplicate of https://web.archive.org/web/20121004155153id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Skattungbyn_LONG_M_low-quality.jpg
-            'https://www.tulospalvelu.fi/gps/20120518EOCLongWF/map'
+            'https://www.tulospalvelu.fi/gps/20120518EOCLongWF/map',
+            // официальные карты организаторов (Wayback Machine, eoc2012.se):
+            'https://web.archive.org/web/20121107173228id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_LONGFINAL_B_final_Men_200dpi.gif', // финал B, мужчины
+            'https://web.archive.org/web/20121107171614id_/http://www.eoc2012.se/wp-content/uploads/2012/05/EOC_LONGFINAL_B_final_Women_200dpi.gif' // финал B, женщины
         ],
         coord: [60.607222, 15.631111],
         fmt: 'long',
@@ -2191,7 +2362,12 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20120520EOCRelM3/map',
             'https://www.tulospalvelu.fi/gps/20120520EOCRelW3/map',
             'https://www.tulospalvelu.fi/gps/20120520EOCRelW1/map',
-            'https://www.tulospalvelu.fi/gps/20120520EOCRelW2/map'
+            'https://www.tulospalvelu.fi/gps/20120520EOCRelW2/map',
+            // официальные карты организаторов (Wayback Machine, eoc2012.se):
+            'https://web.archive.org/web/20121004181727id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Falun_RELAY_M_leg1.jpg', // мужчины, этап 1
+            'https://web.archive.org/web/20121004171245id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Falun_RELAY_M_leg2.jpg', // мужчины, этап 2
+            'https://web.archive.org/web/20121004183616id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Falun_RELAY_W_leg1.jpg', // женщины, этап 1
+            'https://web.archive.org/web/20121004171131id_/http://www.eoc2012.se/wp-content/uploads/2012/05/Hillshaded-Falun_RELAY_W_leg2.jpg' // женщины, этап 2
         ],
         coord: [60.607222, 15.631111],
         fmt: 'relay',
@@ -2489,6 +2665,14 @@ let iofEvents = [
             'https://old.orienteering.sport/wp-content/uploads/2013/06/Bulletin-4.pdf'
         ],
         res: 'https://old.orienteering.sport/events/332/european-mtb-orienteering-championships-2013/',
+        maps: [
+            // карты с сайта организаторов (Wayback Machine, emtboc2013.pl):
+            'https://web.archive.org/web/20130601065120id_/http://www.emtboc2013.pl/adamowfull.jpg',
+            'https://web.archive.org/web/20130601061927id_/http://www.emtboc2013.pl/bialkafull.jpg',
+            'https://web.archive.org/web/20130601063525id_/http://www.emtboc2013.pl/bondyrzfull.jpg',
+            'https://web.archive.org/web/20130601063711id_/http://www.emtboc2013.pl/krasnobrodfull.jpg',
+            'https://web.archive.org/web/20130601061938id_/http://www.emtboc2013.pl/panskafull.jpg'
+        ],
         coord: [50.716667, 23.252778],
         type: 'VELO',
         fmt: 'sprint, middle, long, relay, sprint relay',
@@ -2699,6 +2883,15 @@ let iofEvents = [
             'https://old.orienteering.sport/wp-content/uploads/2013/08/Bulletin-41.pdf'
         ],
         res: 'https://old.orienteering.sport/events/47/world-mtb-orienteering-championships-2013/',
+        maps: [
+            // официальные карты организаторов (Wayback Machine, orienteerumine.ee/mtbo2013):
+            'https://web.archive.org/web/20140821005004id_/http://www.orienteerumine.ee/mtbo2013/sprint/M21.gif', // спринт, M21
+            'https://web.archive.org/web/20140820121922id_/http://www.orienteerumine.ee/mtbo2013/sprint/W21.gif', // спринт, W21
+            'https://web.archive.org/web/20140821055629id_/http://www.orienteerumine.ee/mtbo2013/middle/M21.gif', // миддл, M21
+            'https://web.archive.org/web/20140822000013id_/http://www.orienteerumine.ee/mtbo2013/middle/W21.gif', // миддл, W21
+            'https://web.archive.org/web/20140820053053id_/http://www.orienteerumine.ee/mtbo2013/long/M21.gif', // лонг, M21
+            'https://web.archive.org/web/20140820034303id_/http://www.orienteerumine.ee/mtbo2013/long/w21.gif' // лонг, W21
+        ],
         coord: [59.35, 26.35],
         type: 'VELO',
         fmt: 'sprint, middle, long, relay',
@@ -2886,7 +3079,16 @@ let iofEvents = [
         date: '2014-04-11',
         name: 'EOC #2, лонг (квалификация)',
         place: 'Palmela, Portugal (Палмела, Португалия)',
-        maps: 'https://news.worldofo.com/wp-content/uploads/2014/04/maplongq.png',
+        maps: [
+            'https://news.worldofo.com/wp-content/uploads/2014/04/maplongq.png',
+            // официальные карты организаторов (Wayback Machine, eoc2014.fpo.pt):
+            'https://web.archive.org/web/20140816142938id_/http://eoc2014.fpo.pt/files/maps/long-distance/qualifying/1-Men1.jpg', // мужчины, забег 1
+            'https://web.archive.org/web/20140816145543id_/http://eoc2014.fpo.pt/files/maps/long-distance/qualifying/1-Men2.jpg', // мужчины, забег 2
+            'https://web.archive.org/web/20140816160144id_/http://eoc2014.fpo.pt/files/maps/long-distance/qualifying/1-Men3.jpg', // мужчины, забег 3
+            'https://web.archive.org/web/20140816131904id_/http://eoc2014.fpo.pt/files/maps/long-distance/qualifying/1-Women1.jpg', // женщины, забег 1
+            'https://web.archive.org/web/20140816161932id_/http://eoc2014.fpo.pt/files/maps/long-distance/qualifying/1-Women2.jpg', // женщины, забег 2
+            'https://web.archive.org/web/20140816153051id_/http://eoc2014.fpo.pt/files/maps/long-distance/qualifying/1-Women3.jpg' // женщины, забег 3
+        ],
         coord: [38.566667, -8.9],
         fmt: 'long',
         start: 'EOC'
@@ -2897,7 +3099,16 @@ let iofEvents = [
         date: '2014-04-12',
         name: 'EOC #3, спринт (квалификация)',
         place: 'Palmela, Portugal (Палмела, Португалия)',
-        maps: 'https://news.worldofo.com/wp-content/uploads/2014/04/mensprintmap.jpg',
+        maps: [
+            'https://news.worldofo.com/wp-content/uploads/2014/04/mensprintmap.jpg',
+            // официальные карты организаторов (Wayback Machine, eoc2014.fpo.pt):
+            'https://web.archive.org/web/20140816142307id_/http://eoc2014.fpo.pt/files/maps/sprint/qualifying/Men_1.jpg', // мужчины, забег 1
+            'https://web.archive.org/web/20140816153406id_/http://eoc2014.fpo.pt/files/maps/sprint/qualifying/Men_2.jpg', // мужчины, забег 2
+            'https://web.archive.org/web/20140816153428id_/http://eoc2014.fpo.pt/files/maps/sprint/qualifying/Men-3.jpg', // мужчины, забег 3
+            'https://web.archive.org/web/20140816150719id_/http://eoc2014.fpo.pt/files/maps/sprint/qualifying/Women-1.jpg', // женщины, забег 1
+            'https://web.archive.org/web/20140816144405id_/http://eoc2014.fpo.pt/files/maps/sprint/qualifying/Women-2.jpg', // женщины, забег 2
+            'https://web.archive.org/web/20140816134447id_/http://eoc2014.fpo.pt/files/maps/sprint/qualifying/Women-3.jpg' // женщины, забег 3
+        ],
         coord: [38.566667, -8.9],
         fmt: 'sprint',
         start: 'EOC'
@@ -2912,7 +3123,12 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2014/04/13/eoc-sprint-2014-maps-and-results/',
             // 'https://omaps.worldofo.com/index.php?id=108548',
-            'https://omaps.worldofo.com/images/a59833096368f1ea611940cfb6910b7d_l.jpg'
+            'https://omaps.worldofo.com/images/a59833096368f1ea611940cfb6910b7d_l.jpg',
+            // официальные карты организаторов (Wayback Machine, eoc2014.fpo.pt):
+            'https://web.archive.org/web/20140926003459id_/http://eoc2014.fpo.pt/files/maps/sprint/final/Men%20-%20Final%20A.jpg', // мужчины, финал A
+            'https://web.archive.org/web/20140926003422id_/http://eoc2014.fpo.pt/files/maps/sprint/final/Men%20-%20Final%20B.jpg', // мужчины, финал B
+            'https://web.archive.org/web/20140926003435id_/http://eoc2014.fpo.pt/files/maps/sprint/final/Women%20-%20Final%20A.jpg', // женщины, финал A
+            'https://web.archive.org/web/20140926003446id_/http://eoc2014.fpo.pt/files/maps/sprint/final/Women%20-%20Final%20B.jpg' // женщины, финал B
         ],
         coord: [38.566667, -8.9],
         fmt: 'sprint',
@@ -2929,7 +3145,10 @@ let iofEvents = [
             // 'https://news.worldofo.com/2014/04/14/eoc-middle-maps-and-results-3/',
             // 'https://omaps.worldofo.com/index.php?id=108711',
             // 'https://omaps.worldofo.com/index.php?id=108712',
-            'https://web.archive.org/web/20141021131854id_/http://traclive.dk/events/event_20140409_Eocetoc/automaps_new/81657700-a401-0131-fa3b-10bf48d758ce/original_middlewomenfinala.png'
+            'https://web.archive.org/web/20141021131854id_/http://traclive.dk/events/event_20140409_Eocetoc/automaps_new/81657700-a401-0131-fa3b-10bf48d758ce/original_middlewomenfinala.png',
+            // официальные карты организаторов (Wayback Machine, eoc2014.fpo.pt):
+            'https://web.archive.org/web/20140816152307id_/http://eoc2014.fpo.pt/files/maps/middle-final/middlemenfinala.png', // мужчины, финал A
+            'https://web.archive.org/web/20140816141558id_/http://eoc2014.fpo.pt/files/maps/middle-final/middlewomenfinala.png' // женщины, финал A
         ],
         coord: [38.566667, -8.9],
         fmt: 'middle',
@@ -2963,6 +3182,9 @@ let iofEvents = [
             // 'https://news.worldofo.com/2014/04/16/eoc-relay-maps-and-results-2/',
             // 'https://omaps.worldofo.com/index.php?id=108911',
             // 'https://omaps.worldofo.com/index.php?id=108912',
+            // официальные карты организаторов (Wayback Machine, eoc2014.fpo.pt):
+            'https://web.archive.org/web/20140816140642id_/http://eoc2014.fpo.pt/files/maps/relay/RelayMenAllvariations.jpg', // мужчины, все рассеивания
+            'https://web.archive.org/web/20140816151034id_/http://eoc2014.fpo.pt/files/maps/relay/RelayWomenAllvariations.jpg' // женщины, все рассеивания
         ],
         coord: [38.566667, -8.9],
         fmt: 'relay',
@@ -3940,6 +4162,29 @@ let iofEvents = [
             'https://old.orienteering.sport/events/409/world-mtb-orienteering-championships-2016/',
             'https://eventor.orienteering.sport/Events/Show/4861'
         ],
+        maps: [
+            // официальные карты организаторов (Wayback Machine, mtbo16.fpo.pt):
+            'https://web.archive.org/web/20161103234146id_/http://mtbo16.fpo.pt/mtbo/files/mapas/sprint/ME.png', // спринт, ME
+            'https://web.archive.org/web/20161103234158id_/http://mtbo16.fpo.pt/mtbo/files/mapas/sprint/WE.png', // спринт, WE
+            'https://web.archive.org/web/20161103231628id_/http://mtbo16.fpo.pt/mtbo/files/mapas/middle/ME.png', // миддл, ME
+            'https://web.archive.org/web/20161103231641id_/http://mtbo16.fpo.pt/mtbo/files/mapas/middle/WE.png', // миддл, WE
+            // старые карты районов и образцы дистанций (Wayback Machine, mtbo16.fpo.pt):
+            'https://web.archive.org/web/20161103225629id_/http://mtbo16.fpo.pt/mtbo/files/imagens/oldmaps/Cantanhede(SE).jpg',
+            'https://web.archive.org/web/20161103225651id_/http://mtbo16.fpo.pt/mtbo/files/imagens/oldmaps/Luso.png',
+            'https://web.archive.org/web/20161103225709id_/http://mtbo16.fpo.pt/mtbo/files/imagens/oldmaps/Elite%20Course%20Sample%201.jpeg', // образец дистанции
+            'https://web.archive.org/web/20161103225719id_/http://mtbo16.fpo.pt/mtbo/files/imagens/oldmaps/Elite%20Course%20Sample%202.jpeg', // образец дистанции
+            'https://web.archive.org/web/20161103225730id_/http://mtbo16.fpo.pt/mtbo/files/imagens/oldmaps/Elite%20Course%20Sample%203.png', // образец дистанции
+            'https://web.archive.org/web/20161103225741id_/http://mtbo16.fpo.pt/mtbo/files/imagens/oldmaps/Elite%20Course%20Sample%204.png', // образец дистанции
+            // официальные карты организаторов (Wayback Machine, mtbo16.fpo.pt):
+            'https://web.archive.org/web/20161103234459id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(A)_01.png', // лонг, ME, вариант A, часть 1
+            'https://web.archive.org/web/20161103234511id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(A)_02.png', // лонг, ME, вариант A, часть 2
+            'https://web.archive.org/web/20161103234546id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(B)_01.png', // лонг, ME, вариант B, часть 1
+            'https://web.archive.org/web/20161103234557id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(B)_02.png', // лонг, ME, вариант B, часть 2
+            'https://web.archive.org/web/20161103234523id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/WE_01.png', // лонг, WE, часть 1
+            'https://web.archive.org/web/20161103234534id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/WE_02.png', // лонг, WE, часть 2
+            'https://web.archive.org/web/20161103234259id_/http://mtbo16.fpo.pt/mtbo/files/mapas/mass_start/ME%20(A).png', // масс-старт, ME
+            'https://web.archive.org/web/20161103234312id_/http://mtbo16.fpo.pt/mtbo/files/mapas/mass_start/WE%20(A).png' // масс-старт, WE
+        ],
         coord: [40.633333, -8.65],
         type: 'VELO',
         fmt: 'sprint, middle, long, relay',
@@ -4908,6 +5153,11 @@ let iofEvents = [
         res: [
             'https://eventor.orienteering.sport/Events/Show/5830',
             'https://eventor.orienteering.org/Events/ResultList?eventId=6258'
+        ],
+        maps: [
+            // старые карты районов (Wayback Machine, esoc2019.net):
+            'https://web.archive.org/web/20190304035846id_/http://esoc2019.net:80/uploads/maps/oldmap1.pdf',
+            'https://web.archive.org/web/20190304040309id_/http://esoc2019.net:80/uploads/maps/oldmap2.pdf'
         ],
         coord: [40.338056, 42.573056],
         type: 'SKI',
