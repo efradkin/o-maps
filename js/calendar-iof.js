@@ -8600,6 +8600,9 @@ let iofEvents = [
         date: '2026-05-25',
         name: 'EMTBOC #1, спринт',
         place: 'Almeida, Portugal (Алмейда, Португалия)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8931&championshipId=151&championshipRaceSubTypeId=2&groupBy=EventClass' // чемпионат Европы
+        ],
         gps: {
             'M': 'https://events.loggator.com/2026EMTBOC_Sprint_ME',
             'W': 'https://events.loggator.com/2026EMTBOC_Sprint_WE',
@@ -8621,6 +8624,9 @@ let iofEvents = [
         date: '2026-05-26',
         name: 'EMTBOC #2, миддл',
         place: 'Almeida, Portugal (Алмейда, Португалия)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8932&championshipId=151&championshipRaceSubTypeId=2&groupBy=EventClass' // чемпионат Европы
+        ],
         gps: {
             'M': 'https://events.loggator.com/2026EMTBOC_Middle_ME',
             'W': 'https://events.loggator.com/2026EMTBOC_Middle_WE',
@@ -8684,7 +8690,10 @@ let iofEvents = [
         name: 'Чемпионат мира (WOC)',
         link: 'https://woc2026.com/',
         res: 'https://app.liveresults.it/woc2026',
-        video: 'https://www.youtube.com/playlist?list=PLemA_lslotHE',
+        video: [
+            'https://www.youtube.com/playlist?list=PLemA_lslotHE',
+            'https://tv.orienteering.sport/woc-2026-all-races' // IOF TV, все гонки
+        ],
         coord: [44.407222, 8.933889],
         fmt: 'sprint, knock-out, sprint relay',
         start: 'WOC'
@@ -8695,6 +8704,10 @@ let iofEvents = [
         date: '2026-07-07',
         name: 'WOC #1, спринт (квалификация и финал)',
         place: 'Genova, Italy (Генуя, Италия)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8980&championshipId=157&eventClassId=18310', // мужчины
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8980&championshipId=157&eventClassId=18311' // женщины
+        ],
         gps: {
             'M-Q1': 'https://www.tulospalvelu.fi/gps/2026wocSprintQM1/',
             'M-Q2': 'https://www.tulospalvelu.fi/gps/2026wocSprintQM2/',
@@ -8717,13 +8730,27 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2026wocSprintQW2/map',
             'https://www.tulospalvelu.fi/gps/2026wocSprintQW3/map',
             'https://www.tulospalvelu.fi/gps/2026wocSprintFM/map',
-            'https://www.tulospalvelu.fi/gps/2026wocSprintFW/map'
+            'https://www.tulospalvelu.fi/gps/2026wocSprintFW/map',
+            // официальные карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2026/07/sprint-q-men-1.pdf', // квалификация, мужчины, забег 1
+            'https://orienteering.sport/wp-content/uploads/2026/07/sprint-q-men-2.pdf', // квалификация, мужчины, забег 2
+            'https://orienteering.sport/wp-content/uploads/2026/07/sprint-q-men-3.pdf', // квалификация, мужчины, забег 3
+            'https://orienteering.sport/wp-content/uploads/2026/07/sprint-q-women-1.pdf', // квалификация, женщины, забег 1
+            'https://orienteering.sport/wp-content/uploads/2026/07/sprint-q-women-2.pdf', // квалификация, женщины, забег 2
+            'https://orienteering.sport/wp-content/uploads/2026/07/sprint-q-women-3.pdf', // квалификация, женщины, забег 3
+            'https://orienteering.sport/wp-content/uploads/2026/07/sprint-f-men.pdf', // финал, мужчины
+            'https://orienteering.sport/wp-content/uploads/2026/07/sprint-f-women.pdf' // финал, женщины
         ],
         photo: [
             'https://photos.app.goo.gl/tyFjRg5SrTjfvBmm6',
-            'https://photos.app.goo.gl/HD6Wkwj5zcadULkdA'
+            'https://photos.app.goo.gl/HD6Wkwj5zcadULkdA',
+            'https://photos.app.goo.gl/VmrVpZjV5BeRdoEdA', // организаторы, квалификация
+            'https://photos.app.goo.gl/kLFp6KQzJJggdK6i8' // организаторы, финал
         ],
-        video: 'https://youtu.be/rC-N8eGiXpY',
+        video: [
+            'https://youtu.be/rC-N8eGiXpY',
+            'https://www.svtplay.se/video/KVk47L7/orientering-vm/sprint-mixad' // SVT Play
+        ],
         coord: [44.407222, 8.933889],
         fmt: 'sprint',
         start: 'WOC'
@@ -8734,6 +8761,9 @@ let iofEvents = [
         date: '2026-07-09',
         name: 'WOC #2, нокаут-спринт (квалификация)',
         place: 'Genova, Italy (Генуя, Италия)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8989&championshipId=157&groupBy=EventClass' // забеги 1–3
+        ],
         gps: {
             'M-Q1': 'https://www.tulospalvelu.fi/gps/2026wocKOqualM1/',
             'M-Q2': 'https://www.tulospalvelu.fi/gps/2026wocKOqualM2/',
@@ -8751,7 +8781,10 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2026wocKOqualW2/map',
             'https://www.tulospalvelu.fi/gps/2026wocKOqualW3/map'
         ],
-        photo: 'https://photos.app.goo.gl/CSgY1Fi3WRVvQU1Z9',
+        photo: [
+            'https://photos.app.goo.gl/CSgY1Fi3WRVvQU1Z9',
+            'https://photos.app.goo.gl/HnW2UfDoEag5kSbAA' // организаторы
+        ],
         coord: [44.407222, 8.933889],
         fmt: 'knock-out',
         start: 'WOC'
@@ -8762,6 +8795,10 @@ let iofEvents = [
         date: '2026-07-10',
         name: 'WOC #3, нокаут-спринт (финалы)',
         place: 'Genova, Italy (Генуя, Италия)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8990&championshipId=157&eventClassId=18764', // мужчины
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8990&championshipId=157&eventClassId=18763' // женщины
+        ],
         gps: {
             'M-QF': 'https://www.tulospalvelu.fi/gps/2026wocKOquarterM/',
             'W-QF': 'https://www.tulospalvelu.fi/gps/2026wocKOquarterW/',
@@ -8786,13 +8823,21 @@ let iofEvents = [
             // 'https://www.tulospalvelu.fi/gps/2026wocKOquarterW/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocKOquarterM/map
             'https://www.tulospalvelu.fi/gps/2026wocKOsemiM/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2026/07/map_semifinal.png
             // 'https://www.tulospalvelu.fi/gps/2026wocKOsemiW/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocKOsemiM/map
-            'https://www.tulospalvelu.fi/gps/2026wocKOfinalM/map' // duplicate of https://news.worldofo.com/wp-content/uploads/2026/07/map_final.png
+            'https://www.tulospalvelu.fi/gps/2026wocKOfinalM/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2026/07/map_final.png
             // 'https://www.tulospalvelu.fi/gps/2026wocKOfinalW/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocKOfinalM/map
+            // официальные карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2026/07/genova-sf-.pdf', // мужчины, полуфиналы
+            'https://orienteering.sport/wp-content/uploads/2026/07/ko-final-1.pdf', // мужчины, финал, часть 1
+            'https://orienteering.sport/wp-content/uploads/2026/07/ko-final-2.pdf' // мужчины, финал, часть 2
         ],
-        photo: 'https://photos.app.goo.gl/6kvnBaBXtaCoQbLv6',
+        photo: [
+            'https://photos.app.goo.gl/6kvnBaBXtaCoQbLv6',
+            'https://photos.google.com/share/AF1QipPapDHBgddgVNe5hXYX_wy7eEM1aRzv6Nq7Sg8lkIMmZ3DyXJNRv--bG3mG7VH61w?key=S0FSUUdGQzJTbWpiREJzUXRRb0wzMFZtbEcxT1B3' // организаторы
+        ],
         video: [
             'https://youtu.be/6X40Hv7DG8o',
-            'https://youtu.be/NsjOxRdbeZ0'
+            'https://youtu.be/NsjOxRdbeZ0',
+            'https://www.svtplay.se/video/eZxgmRp/orientering-vm/knockout-sprint-mixad' // SVT Play
         ],
         coord: [44.407222, 8.933889],
         fmt: 'knock-out',
@@ -8804,6 +8849,9 @@ let iofEvents = [
         date: '2026-07-11',
         name: 'WOC #4, спринт-эстафета',
         place: 'Genova, Italy (Генуя, Италия)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8991&championshipId=157&eventClassId=18346'
+        ],
         gps: {
             '1': 'https://www.tulospalvelu.fi/gps/2026wocSR1/',
             '2': 'https://www.tulospalvelu.fi/gps/2026wocSR2/',
@@ -8815,15 +8863,23 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=393243',
             'https://www.tulospalvelu.fi/gps/2026wocSR4/map',
             // 'https://omaps.worldofo.com/?id=393244',
-            'https://www.tulospalvelu.fi/gps/2026wocSR3/map'
+            'https://www.tulospalvelu.fi/gps/2026wocSR3/map',
             // 'https://omaps.worldofo.com/?id=393245',
             // 'https://omaps.worldofo.com/?id=393246',
             // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/2026wocSR1/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocSR4/map
             // 'https://www.tulospalvelu.fi/gps/2026wocSR2/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocSR3/map
+            // официальная карта (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2026/07/sprint-relay-tot.pdf' // все этапы
         ],
-        photo: 'https://photos.app.goo.gl/F69HNeB2SKVf3eRp8',
-        video: 'https://youtu.be/CvaCKaOLMOU',
+        photo: [
+            'https://photos.app.goo.gl/F69HNeB2SKVf3eRp8',
+            'https://photos.app.goo.gl/1deVtX3hXb2S7ACe9' // организаторы
+        ],
+        video: [
+            'https://youtu.be/CvaCKaOLMOU',
+            'https://www.svtplay.se/video/8qPkWwB/orientering-vm/sprintstafett-mixad' // SVT Play
+        ],
         coord: [44.407222, 8.933889],
         fmt: 'sprint relay',
         start: 'WOC'
@@ -8837,6 +8893,24 @@ let iofEvents = [
         link: [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8775&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass', // миддл
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8776&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass', // лонг
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8777&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass', // спринт
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8778&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass' // эстафета
+        ],
+        gps: {
+            'Middle': 'https://www.livelox.com/Events/Show/199289/World-MTB-Orienteering-Championships-middle',
+            'Long': 'https://www.livelox.com/Events/Show/199293/World-MTB-Orienteering-Championships-long',
+            'Sprint': 'https://www.livelox.com/Events/Show/199430/World-MTB-Orienteering-Championships-sprint',
+            'Relay': 'https://www.livelox.com/Events/Show/199442/World-MTB-Orienteering-Championships-relay'
+        },
+        photo: [
+            'https://mediebank.tt.se/p/svenskorientering/album/120920', // миддл
+            'https://mediebank.tt.se/p/svenskorientering/album/120921', // лонг
+            'https://mediebank.tt.se/p/svenskorientering/album/120922', // спринт
+            'https://mediebank.tt.se/p/svenskorientering/album/120923' // эстафета
         ],
         coord: [61.016667, 14.533333],
         type: 'VELO',
@@ -8873,6 +8947,12 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/8247/cd7aca69-35a8-4dde-8c9b-8082d0cc6db2/Previous-map_5.gif',
             'https://eventor-iof-storage.orientering.se/eventdocuments/8247/fadd2c71-6c18-4028-b718-989f2570cfe6/Previous-map_6.gif'
         ],
+        photo: [
+            'https://photo.orienteering.lt/' // галерея организаторов
+        ],
+        video: [
+            'https://tv.orienteering.sport/eoc-owc-4-all-races' // IOF TV, все гонки
+        ],
         coord: [54.016667, 23.966667],
         fmt: 'middle, long, relay', // по GPS-трансляциям
         start: 'EOC'
@@ -8883,6 +8963,14 @@ let iofEvents = [
         date: '2026-09-23',
         name: 'EOC #1, квалификация',
         place: 'Druskininkai, Lithuania (Друскининкай, Литва)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8771&championshipId=170&eventClassId=19111', // мужчины, забег 1
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8771&championshipId=170&eventClassId=19112', // мужчины, забег 2
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8771&championshipId=170&eventClassId=19113', // мужчины, забег 3
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8771&championshipId=170&eventClassId=19114', // женщины, забег 1
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8771&championshipId=170&eventClassId=19115', // женщины, забег 2
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8771&championshipId=170&eventClassId=19116' // женщины, забег 3
+        ],
         gps: {
             'M-Q': 'https://www.tulospalvelu.fi/gps/2026eocQualMall/',
             'M-Q1': 'https://www.tulospalvelu.fi/gps/2026eocQualM1/',
@@ -8908,7 +8996,14 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2026eocQualWall/map',
             'https://www.tulospalvelu.fi/gps/2026eocQualW1/map',
             'https://www.tulospalvelu.fi/gps/2026eocQualW2/map',
-            'https://www.tulospalvelu.fi/gps/2026eocQualW3/map'
+            'https://www.tulospalvelu.fi/gps/2026eocQualW3/map',
+            // официальные карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_q-m1_map-scaled.png', // мужчины, забег 1
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_q-m2_map-scaled.png', // мужчины, забег 2
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_q-m3_map-scaled.png', // мужчины, забег 3
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_q-w1_map-scaled.png', // женщины, забег 1
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_q-w2_map-scaled.png', // женщины, забег 2
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_q-w3_map-scaled.png' // женщины, забег 3
         ],
         coord: [54.016667, 23.966667],
         fmt: 'qualification',
@@ -8920,6 +9015,13 @@ let iofEvents = [
         date: '2026-09-24',
         name: 'EOC #2, лонг',
         place: 'Druskininkai, Lithuania (Друскининкай, Литва)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8772&championshipId=170&eventClassId=19119', // мужчины
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8772&championshipId=172&eventClassId=19120', // мужчины, финал B
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8772&championshipId=173&eventClassId=19121', // мужчины, финал C
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8772&championshipId=170&eventClassId=19122', // женщины
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8772&championshipId=172&eventClassId=19123' // женщины, финал B
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2026eocLongM/',
             'W': 'https://www.tulospalvelu.fi/gps/2026eocLongW/',
@@ -8938,7 +9040,13 @@ let iofEvents = [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/2026eocLongMB/map',
             'https://www.tulospalvelu.fi/gps/2026eocLongWB/map',
-            'https://www.tulospalvelu.fi/gps/2026eocLongMC/map'
+            'https://www.tulospalvelu.fi/gps/2026eocLongMC/map',
+            // официальные карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_long-m_map-scaled.png', // мужчины
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_long-mb_map-scaled.png', // мужчины, финал B
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_long-mc_map-scaled.png', // мужчины, финал C
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_long-w_map-scaled.png', // женщины
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_long-wb_map-scaled.png' // женщины, финал B
         ],
         coord: [54.016667, 23.966667],
         fmt: 'long',
@@ -8950,6 +9058,13 @@ let iofEvents = [
         date: '2026-09-26',
         name: 'EOC #3, миддл',
         place: 'Druskininkai, Lithuania (Друскининкай, Литва)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8773&championshipId=170&eventClassId=19134', // мужчины
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8773&championshipId=172&eventClassId=19135', // мужчины, финал B
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8773&championshipId=173&eventClassId=19136', // мужчины, финал C
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8773&championshipId=170&eventClassId=19137', // женщины
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8773&championshipId=172&eventClassId=19138' // женщины, финал B
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2026eocMiddleMen/',
             'W': 'https://www.tulospalvelu.fi/gps/2026eocMiddleWomen/',
@@ -8966,7 +9081,13 @@ let iofEvents = [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/2026eocMiddleMenB/map',
             'https://www.tulospalvelu.fi/gps/2026eocMiddleWomenB/map',
-            'https://www.tulospalvelu.fi/gps/2026eocMiddlemenc/map'
+            'https://www.tulospalvelu.fi/gps/2026eocMiddlemenc/map',
+            // официальные карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_middle-m_map-scaled.png', // мужчины
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_middle-mb_map-scaled.png', // мужчины, финал B
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_middle-mc_map-scaled.png', // мужчины, финал C
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_middle-w_map-scaled.png', // женщины
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_middle-wb_map-scaled.png' // женщины, финал B
         ],
         coord: [54.016667, 23.966667],
         fmt: 'middle',
@@ -8978,6 +9099,10 @@ let iofEvents = [
         date: '2026-09-27',
         name: 'EOC #4, эстафета',
         place: 'Druskininkai, Lithuania (Друскининкай, Литва)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8774&championshipId=170&eventClassId=17545', // мужчины
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8774&championshipId=170&eventClassId=17546' // женщины
+        ],
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/2026eocRelayM1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/2026eocRelayM2/',
@@ -8994,7 +9119,9 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2026eocRelayM3/map',
             'https://www.tulospalvelu.fi/gps/2026eocRelayW1/map',
             // 'https://www.tulospalvelu.fi/gps/2026eocRelayW2/map', // duplicate of https://www.tulospalvelu.fi/gps/2026eocRelayW1/map
-            'https://www.tulospalvelu.fi/gps/2026eocRelayW3/map'
+            'https://www.tulospalvelu.fi/gps/2026eocRelayW3/map',
+            // официальная карта (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_relay_men_map-scaled.png' // мужчины
         ],
         coord: [54.016667, 23.966667],
         fmt: 'relay',
