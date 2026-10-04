@@ -1588,7 +1588,8 @@ let iofEvents = [
             'http://eoc2008.lof.lv/results/relay/WOMEN.HTM'
         ],
         video: [
-            'https://www.youtube.com/watch?v=_9Sx_lH3x9I' // EOC2008 Relay (eoc2008)
+            'https://www.youtube.com/watch?v=_9Sx_lH3x9I', // EOC2008 Relay (eoc2008)
+            'https://vimeo.com/1156887' // EOC 2008 Relay Men (Bjoern Tiemann)
         ],
         coord: [57.390556, 21.573333],
         fmt: 'relay',
@@ -1612,7 +1613,8 @@ let iofEvents = [
             'https://commons.wikimedia.org/wiki/Category:World_Orienteering_Championships_2008' // Wikimedia Commons
         ],
         video: [
-            'https://www.youtube.com/watch?v=3L6_oAOHLds' // WOC 2008 Sprint Headcam video (jankoc)
+            'https://www.youtube.com/watch?v=3L6_oAOHLds', // WOC 2008 Sprint Headcam video (jankoc)
+            'https://vimeo.com/3165048' // WOC 2008 - The best WOC ever (Slawomir Cygler)
         ],
         coord: [49.593889, 17.250833],
         fmt: 'sprint, middle, long, relay',
@@ -1831,7 +1833,10 @@ let iofEvents = [
         video: [
             'https://www.youtube.com/watch?v=5EK8NyI1Juk', // WOC 2009 Relay - 5th control men (jankoc)
             'https://www.youtube.com/watch?v=kan9cgL-Jqs', // WOC 2009 Relay - 5th control women (jankoc)
-            'https://www.youtube.com/watch?v=prjF7TV1tw4' // WOC 2009 Relay: 12th control men (jankoc)
+            'https://www.youtube.com/watch?v=prjF7TV1tw4', // WOC 2009 Relay: 12th control men (jankoc)
+            'https://vimeo.com/6019087', // WOC 2009 - zapowiedź Mistrzostw Świata Seniorów w Biegu na Orientację 2009 (PZOS.tv)
+            'https://vimeo.com/6521178', // WOC 2009 Przeżyjmy to jeszcze raz - bieg na orientację, orienteering (PZOS.tv)
+            'https://vimeo.com/11294173' // World Orienteering Championship 2009 (Dogfish Studio)
         ],
         coord: [48.104167, 20.791667],
         fmt: 'sprint, middle, long, relay',
@@ -2100,6 +2105,9 @@ let iofEvents = [
         res: 'https://web.archive.org/web/20200706040226/https://old.orienteering.org/events/?event_id=4',
         photo: [
             'https://commons.wikimedia.org/wiki/Category:World_Orienteering_Championships_2010' // Wikimedia Commons
+        ],
+        video: [
+            'https://vimeo.com/14184900' // Podsumowanie WOC 2010 (PZOS.tv)
         ],
         coord: [63.429722, 10.393333],
         fmt: 'sprint, middle, long, relay',
@@ -2380,7 +2388,9 @@ let iofEvents = [
         video: [
             'https://vimeo.com/21287163', // Ski WOC 2011: Teaser (SkiOTour Club)
             'https://vimeo.com/21349952', // Ski WOC 2011: Sprint winners (SkiOTour Club)
-            'https://vimeo.com/21401874' // Ski WOC 2011: Middle winners (SkiOTour Club)
+            'https://vimeo.com/21401874', // Ski WOC 2011: Middle winners (SkiOTour Club)
+            'https://vimeo.com/21753155', // SKI WOC 2011: Teaser with Herman Håll (Carl Magnusson)
+            'https://vimeo.com/21311806' // SkiWOC 2011 - Model (Cristina Luis)
         ],
         coord: [62.5444, 12.3333],
         type: 'SKI',
@@ -2429,6 +2439,9 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20110323middleW1/map',
             'https://www.tulospalvelu.fi/gps/20110323w2/map'
         ],
+        video: [
+            'https://vimeo.com/21402725' // SkiWOC 2011 Middle Distance Recap (Cristina Luis)
+        ],
         coord: [62.5444, 12.3333],
         type: 'SKI',
         fmt: 'middle',
@@ -2471,6 +2484,9 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20110326longW/map',
             'https://www.tulospalvelu.fi/gps/20110326longW2/map'
         ],
+        video: [
+            'https://vimeo.com/21545692' // SKI WOC 2011: Long Masstart (SkiOTour Club)
+        ],
         coord: [62.5444, 12.3333],
         type: 'SKI',
         fmt: 'long',
@@ -2490,6 +2506,10 @@ let iofEvents = [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/20110327relayM/map',
             'https://www.tulospalvelu.fi/gps/20110327relayW/map'
+        ],
+        video: [
+            'https://vimeo.com/21501599', // SKI WOC 2011: Mixed Relay Winners (SkiOTour Club)
+            'https://vimeo.com/21604844' // SKI WOC 2011: Relays (SkiOTour Club)
         ],
         coord: [62.5444, 12.3333],
         type: 'SKI',
@@ -2517,6 +2537,14 @@ let iofEvents = [
         maps: 'https://web.archive.org/web/20140602110930id_/http://live.woc2011.fr/data/uploads/maps/19082011/FinaleMD.Women.gif',
         photo: [
             'https://commons.wikimedia.org/wiki/Category:World_Orienteering_Championships_2011' // Wikimedia Commons
+        ],
+        video: [
+            'https://vimeo.com/28310637', // Terrenos do WOC França 2011 (Leonel Vieito)
+            'https://www.youtube.com/watch?v=EBbxsBHRQ-A', // WOC 2011 Sprint Qualification: HeadCam+Map (jankoc)
+            'https://www.youtube.com/watch?v=6LQJsOz3x6k', // WOC 2011 Long Qual - HeadCam video (jankoc)
+            'https://vimeo.com/27689650', // Qualifikation Langdistanz WOC 2011 (O-Sport in Bildern)
+            'https://www.youtube.com/watch?v=fqmcEpWRqrs', // HeadCam through WOC 2011 Middle Qual (jankoc)
+            'https://vimeo.com/27729014' // Qualifikation Mitteldistanz WOC 2011 (O-Sport in Bildern)
         ],
         coord: [45.583333, 6.333333], // координаты региона, не населённого пункта — уточнить
         fmt: 'sprint, middle, long, relay',
@@ -2547,7 +2575,9 @@ let iofEvents = [
         video: [
             'https://www.youtube.com/watch?v=Vygyuilr7AI', // HeadCam through WOC Sprint Final 2011 (jankoc)
             'https://www.youtube.com/watch?v=mF7MCAtIxpk', // [Stabilized] HeadCam through WOC Sprint Final 2011 (jankoc)
-            'https://www.youtube.com/watch?v=EBbxsBHRQ-A' // WOC 2011 Sprint Qualification: HeadCam+Map (jankoc)
+            'https://vimeo.com/27806225', // Sprintfinale bei der WOC 2011 in Frankreich (O-Sport in Bildern)
+            'https://vimeo.com/27785147', // Ali at the start WOC 2011 Sprint Final (Cristina Luis)
+            'https://vimeo.com/27789380' // WOC 2011 08 16 Sprint final Samantha in the finish chute (Barb Bryant)
         ],
         coord: [45.583333, 6.333333],
         fmt: 'sprint',
@@ -2574,11 +2604,10 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20110817woclongW/map'
         ],
         video: [
-            'https://www.youtube.com/watch?v=6LQJsOz3x6k', // WOC 2011 Long Qual - HeadCam video (jankoc)
             'https://www.youtube.com/watch?v=J4xNmdT9vtk', // HeadCam through WOC 2011 Long - Part 1 (jankoc)
             'https://www.youtube.com/watch?v=KtuQ1S0ZgVg', // WOC 2011 Long 3D Course Preview 1 (jankoc)
             'https://www.youtube.com/watch?v=bGQduQGydfs', // WOC 2011 Long 3D Course Preview 2 (jankoc)
-            'https://www.youtube.com/watch?v=QwcU1NO3Eaw' // WOC 2011 Long 3D Leg Preview (jankoc)
+            'https://www.youtube.com/watch?v=QwcU1NO3Eaw', // WOC 2011 Long 3D Leg Preview (jankoc)
         ],
         coord: [45.583333, 6.333333],
         fmt: 'long',
@@ -2603,9 +2632,9 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20110819wocmiddleW/map'
         ],
         video: [
-            'https://www.youtube.com/watch?v=fqmcEpWRqrs', // HeadCam through WOC 2011 Middle Qual (jankoc)
             'https://www.youtube.com/watch?v=txGWR52CmwQ', // HeadCam through WOC 2011 Middle Final (jankoc)
-            'https://www.youtube.com/watch?v=MEqwupTo_1c' // WOC 2011 Middle Final: HeadCam+Map (jankoc)
+            'https://www.youtube.com/watch?v=MEqwupTo_1c', // WOC 2011 Middle Final: HeadCam+Map (jankoc)
+            'https://vimeo.com/27936344' // Finale Mitteldistanz bei der WOC 2011 (O-Sport in Bildern)
         ],
         coord: [45.583333, 6.333333],
         fmt: 'middle',
@@ -2631,7 +2660,10 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20110821wocrelayW3/map'
         ],
         video: [
-            'https://www.youtube.com/watch?v=7BcuJrU056M' // WOC 2011 Relay HeadCam Preproduced material - not used (jankoc)
+            'https://www.youtube.com/watch?v=7BcuJrU056M', // WOC 2011 Relay HeadCam Preproduced material - not used (jankoc)
+            'https://vimeo.com/27955337', // Women's Relay Start WOC 2011 (Cristina Luis)
+            'https://vimeo.com/27955148', // France wins relay, WOC 2011 (Cristina Luis)
+            'https://vimeo.com/29446365' // Staffelfinale bei der WOC 2011 in Frankreich (O-Sport in Bildern)
         ],
         coord: [45.583333, 6.333333],
         fmt: 'relay',
@@ -2965,7 +2997,8 @@ let iofEvents = [
             'https://commons.wikimedia.org/wiki/Category:World_Orienteering_Championships_2012' // Wikimedia Commons
         ],
         video: [
-            'https://www.youtube.com/watch?v=8HKjv1TN0fk' // WOC Middle Qual Model Event (jankoc)
+            'https://www.youtube.com/watch?v=8HKjv1TN0fk', // WOC Middle Qual Model Event (jankoc)
+            'https://www.youtube.com/watch?v=1OADxr7tKio' // WOC Middle Qual 2012: HeadCam video sample leg (jankoc)
         ],
         coord: [46.52, 6.633333],
         fmt: 'sprint, middle, long, relay',
@@ -3014,7 +3047,6 @@ let iofEvents = [
         ],
         video: [
             'https://www.youtube.com/watch?v=ztpZjdulA28', // Headcam through WOC Middle 2012 - with map (jankoc)
-            'https://www.youtube.com/watch?v=1OADxr7tKio', // WOC Middle Qual 2012: HeadCam video sample leg (jankoc)
             'https://www.youtube.com/watch?v=CsPGdqV1ewk' // With HeadCam through WOC 2012 Middle FInal (jankoc)
         ],
         coord: [46.52, 6.633333],
@@ -3951,7 +3983,8 @@ let iofEvents = [
         ],
         video: [
             'https://www.youtube.com/watch?v=5rbbnphvZYo', // WOC 2014 Long distance (Orienteering Tube)
-            'https://www.youtube.com/watch?v=U4VEkxzYi0o' // WOC 2014 - LONG FINAL Highlights (WOC and WTOC 2014)
+            'https://www.youtube.com/watch?v=U4VEkxzYi0o', // WOC 2014 - LONG FINAL Highlights (WOC and WTOC 2014)
+            'https://vimeo.com/101150264' // Orr DSQ WOC Long 2014 (Abraham Zapruder)
         ],
         coord: [46.445556, 11.173056],
         fmt: 'long',
@@ -4341,6 +4374,10 @@ let iofEvents = [
         photo: [
             'https://commons.wikimedia.org/wiki/Category:World_Orienteering_Championships_2015' // Wikimedia Commons
         ],
+        video: [
+            'https://vimeo.com/147088126', // World Orienteering Championships 2015 (LA Media)
+            'https://vimeo.com/33396015' // World Orienteering Championships 2015 Bid (2020 Productions Europe Ltd)
+        ],
         coord: [57.4778, -4.2247],
         fmt: 'sprint, middle, long, relay, sprint relay',
         start: 'WOC'
@@ -4539,7 +4576,9 @@ let iofEvents = [
             'https://eventor.orienteering.sport/Events/Show/4858'
         ],
         video: [
-            'https://www.youtube.com/watch?v=0av__RpILz4' // WMTBOC  2015 Teaser (Kateřina Horáčková)
+            'https://www.youtube.com/watch?v=0av__RpILz4', // WMTBOC  2015 Teaser (Kateřina Horáčková)
+            'https://vimeo.com/329985458', // WMTBOC 2015 | TEASER (Smoove Media)
+            'https://vimeo.com/135124134' // WMTBOC 2015 Liberec Teaser (Slavia Liberec orienteering)
         ],
         coord: [50.766667, 15.066667],
         type: 'VELO',
@@ -4682,7 +4721,10 @@ let iofEvents = [
         ],
         res: 'https://eventor.orienteering.org/Events/Show/4852',
         video: [
-            'https://www.youtube.com/watch?v=42goui_y9Ng' // Orienteering Tube
+            'https://www.youtube.com/watch?v=42goui_y9Ng', // Orienteering Tube
+            'https://vimeo.com/222852857', // EOC 2016 teaser (huefinder)
+            'https://vimeo.com/329903166', // EOC 2016 | CLOSING CEREMONY (Smoove Media)
+            'https://vimeo.com/329902469' // EOC 2016 | TEASER (Smoove Media)
         ],
         coord: [50.229722, 17.204722],
         fmt: 'sprint, middle, long, relay, sprint relay',
@@ -6183,7 +6225,8 @@ let iofEvents = [
         photo: 'https://photos.google.com/share/AF1QipPOWeCdvVNN3J3fe0IG9Y7AI6EaUy5_yTQvb8PVTRQ_tYX52Cjv-ZB2srxbtoLLRQ?key=cW14cXlyd0JBMFBMZ1ctQUJ1bnZWT2FlOS1EZzN3',
         video: [
             'https://www.youtube.com/watch?v=knwfWX10AkM',
-            'https://www.youtube.com/watch?v=HXmtF4K3pDc' // WOC 2018 Sprint Relay (Orienteering Tube)
+            'https://www.youtube.com/watch?v=HXmtF4K3pDc', // WOC 2018 Sprint Relay (Orienteering Tube)
+            'https://vimeo.com/284527667' // Sprintstaffel WOC 2018 (O-Sport in Bildern)
         ],
         coord: [56.948889, 24.106389],
         fmt: 'sprint relay',
@@ -9854,12 +9897,6 @@ let iofEvents = [
         video: [
             'https://www.youtube.com/playlist?list=PLJxCa_0RthJdrdm281fBPCAK0O0EVO6wc',
             'https://tv.orienteering.sport/woc-2024-all-races', // 15:30-18:00
-            'https://tv.nrk.no/serie/orientering/2023/MSPO31250423/avspiller', // 16:30-19:00
-            'https://tv.nrk.no/serie/orientering/2023/MSPO31250523/avspiller', // 13:30-15:00
-            'https://tv.nrk.no/serie/orientering/2023/MSPO31250623/avspiller', // 17:30-19:10
-            'https://arenan.yle.fi/1-66253761', // 17:30-20:30
-            'https://arenan.yle.fi/1-66253769', // 14:30-16:00
-            'https://arenan.yle.fi/1-66253785', // 18:00-20:00
             'https://tv.orf.at/program/orfs/liveorient122.html', // 16:55-18:55
             'https://eurovisionsport.com/explore/competition?id=Generic-Schedule-Landing-Page&cId=20240712IOFEdinburgh' // 15:30-18:00
         ],
@@ -11506,9 +11543,6 @@ let iofEvents = [
             'https://www.youtube.com/playlist?list=PLemA_lslotHE',
             'https://tv.orienteering.sport/woc-2026-all-races', // IOF TV, все гонки
             'https://tv.orienteering.sport/woc-2026-single-races', // IOF TV Tickets IOF TV all races ticket IOF TV single race ti
-            'https://www.svtplay.se/video/KVk47L7/orientering-vm/sprint-mixad', // 14:10-17:00
-            'https://www.svtplay.se/video/eZxgmRp/orientering-vm/knockout-sprint-mixad', // 14:50-17:00
-            'https://www.svtplay.se/video/8qPkWwB/orientering-vm/sprintstafett-mixad' // 15:30-17:00
         ],
         coord: [44.407222, 8.933889],
         fmt: 'sprint, knock-out, sprint relay',
