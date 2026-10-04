@@ -408,6 +408,7 @@ let iofEvents = [
         date: '1989-08-17',
         endDate: '1989-08-20',
         place: 'Skövde, Sweden (Шёвде, Швеция)',
+        info: 'Лонг — Ж: Алида Абола - 3.',
         name: 'Чемпионат мира (WOC)',
         link: 'https://en.wikipedia.org/wiki/1989_World_Orienteering_Championships',
         res: 'https://web.archive.org/web/20200706034737/https://old.orienteering.org/events/?event_id=7',
@@ -436,6 +437,7 @@ let iofEvents = [
         date: '1991-08-21',
         endDate: '1991-08-25',
         place: 'Mariánské Lázně, Czechoslovakia (Марианске-Лазне, Чехословакия)',
+        info: 'Лонг — М: Сикстен Сильд - 3.',
         name: 'Чемпионат мира (WOC)',
         link: 'https://en.wikipedia.org/wiki/1991_World_Orienteering_Championships',
         res: 'https://web.archive.org/web/20200706034809/https://old.orienteering.org/events/?event_id=28',
@@ -458,6 +460,7 @@ let iofEvents = [
         date: '1992-01-28',
         endDate: '1992-02-02',
         place: 'Pontarlier, France (Понтарлье, Франция)',
+        info: 'Миддл — М: Иван Кузьмин - 3. Лонг — М: Иван Кузьмин - 3. Эстафета — М: Виктор Корчагин, Николай Бондарь, Владислав Кормщиков, Иван Кузьмин - 2.',
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
@@ -490,6 +493,7 @@ let iofEvents = [
         date: '1994-02-01',
         endDate: '1994-02-05',
         place: 'Val di Non, Italy (Валь-ди-Нон, Италия)',
+        info: 'Миддл — М: Иван Кузьмин - 1. Лонг — М: Владислав Кормщиков - 3. Эстафета — М: Виктор Корчагин, Николай Бондарь, Иван Кузьмин, Владислав Кормщиков - 3.',
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
@@ -530,6 +534,7 @@ let iofEvents = [
         date: '1996-02-19',
         endDate: '1996-02-24',
         place: 'Lillehammer, Norway (Лиллехаммер, Норвегия)',
+        info: 'Миддл — Ж: Светлана Хаустова - 3. Эстафета — Ж: Екатерина Петрова, Наталья Фрей, Светлана Хаустова - 2.',
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
@@ -566,6 +571,7 @@ let iofEvents = [
         date: '1998-01-19',
         endDate: '1998-01-25',
         place: 'Windischgarsten, Austria (Виндишгарстен, Австрия)',
+        info: 'Лонг — М: Виктор Корчагин - 1. Эстафета — М: Николай Бондарь, Эдуард Хренников, Виктор Корчагин, Владислав Кормщиков - 1.',
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
@@ -598,6 +604,7 @@ let iofEvents = [
         date: '2000-02-28',
         endDate: '2000-03-05',
         place: 'Krasnoyarsk, Russia (Красноярск, Россия)',
+        info: 'Миддл — Ж: Татьяна Власова - 1; М: Эдуард Хренников - 2, Андрей Груздев - 3. Лонг — М: Владислав Кормщиков - 1, Андрей Груздев - 3. Эстафета — Ж: Ирина Онищенко, Татьяна Власова, Светлана Хаустова - 3; М: Андрей Груздев, Виктор Корчагин, Владислав Кормщиков, Эдуард Хренников - 1.',
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
@@ -614,6 +621,7 @@ let iofEvents = [
         date: '2000-06-30',
         endDate: '2000-07-04',
         place: 'Truskavets, Ukraine (Трускавец, Украина)',
+        info: 'Миддл — М: Валентин Новиков - 1. Лонг — М: Валентин Новиков - 1.',
         name: 'Чемпионат Европы (EOC)',
         link: [
             'https://en.wikipedia.org/wiki/European_Orienteering_Championships',
@@ -629,6 +637,7 @@ let iofEvents = [
         date: '2001-03-12',
         endDate: '2001-03-18', // cs.wikipedia: 12–17 марта
         place: 'Vologda, Russia (Вологда, Россия)',
+        info: 'Спринт — Ж: Татьяна Власова - 2; М: Виктор Корчагин - 1. Лонг — Ж: Татьяна Власова - 1, Ирина Онищенко - 3. Эстафета — Ж: Ирина Онищенко, Наталья Томилова, Татьяна Власова - 1.',
         name: 'Чемпионат Европы (SKI-EOC)',
         link: [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften',
@@ -667,6 +676,7 @@ let iofEvents = [
         date: '2002-02-23',
         endDate: '2002-03-02',
         place: 'Borovets, Bulgaria (Боровец, Болгария)',
+        info: 'Спринт — Ж: Татьяна Власова - 3; М: Андрей Груздев - 1, Виктор Корчагин - 2. Миддл — М: Эдуард Хренников - 1, Андрей Груздев - 2. Лонг — М: Эдуард Хренников - 2. Эстафета — Ж: Ирина Онищенко, Наталья Томилова, Татьяна Власова - 1; М: Андрей Груздев, Руслан Грицан, Виктор Корчагин, Эдуард Хренников - 1.',
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
@@ -700,6 +710,7 @@ let iofEvents = [
         date: '2002-09-25',
         endDate: '2002-09-30',
         place: 'Sümeg, Hungary (Шюмег, Венгрия)',
+        info: 'Миддл — М: Михаил Мамлеев - 1.',
         name: 'Чемпионат Европы (EOC)',
         link: [
             'https://en.wikipedia.org/wiki/European_Orienteering_Championships',
@@ -718,6 +729,7 @@ let iofEvents = [
         date: '2003-01-11',
         endDate: '2003-01-19', // cs.wikipedia: 12–18 января
         place: 'Kastelruth, Seiser Alm, Italy (Кастельрут, Зайзер-Альм, Италия)',
+        info: 'Спринт — Ж: Наталья Томилова - 2, Татьяна Власова - 3; М: Эдуард Хренников - 1. Миддл — Ж: Татьяна Власова - 1; М: Эдуард Хренников - 2. Лонг — Ж: Татьяна Власова - 2, Наталья Томилова - 3; М: Эдуард Хренников - 2. Эстафета — Ж: Ирина Онищенко, Наталья Томилова, Татьяна Власова - 1; М: Николай Бондарь, Василий Глухарёв, Эдуард Хренников - 2, Сергей Осипов, Руслан Грицан, Егор Сорокин - 3.',
         name: 'Чемпионат Европы (SKI-EOC)',
         link: [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften',
@@ -755,6 +767,7 @@ let iofEvents = [
         date: '2004-02-11',
         endDate: '2004-02-15',
         place: 'Åsarna, Östersund, Sweden (Осарна, Эстерсунд, Швеция)',
+        info: 'Спринт — Ж: Татьяна Власова - 1; М: Эдуард Хренников - 1. Лонг — Ж: Наталья Томилова - 3; М: Эдуард Хренников - 1. Эстафета — Ж: Ирина Онищенко, Татьяна Власова, Наталья Томилова - 2; М: Василий Глухарёв, Андрей Груздев, Руслан Грицан, Эдуард Хренников - 1.',
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
@@ -813,6 +826,7 @@ let iofEvents = [
         date: '2004-07-13',
         name: 'EOC #3, миддл',
         place: 'Roskilde, Denmark (Роскилле, Дания)',
+        info: 'Ж: Татьяна Рябкина - 3.',
         maps: [
             'https://web.archive.org/web/20060623101510id_/http://eoc2004.dk:80/images/eoc_final_middle_mens_course.jpg', // финал миддла, мужчины
             'https://web.archive.org/web/20060623101614id_/http://eoc2004.dk:80/images/eoc_final_middle_womens_course.jpg' // финал миддла, женщины
@@ -827,6 +841,7 @@ let iofEvents = [
         date: '2004-07-14',
         name: 'EOC #4, спринт (квалификация и финал)',
         place: 'Roskilde, Denmark (Роскилле, Дания)',
+        info: 'М: Андрей Храмов - 2.',
         maps: [
             'https://web.archive.org/web/20060623101522id_/http://eoc2004.dk:80/images/eoc_final_sprint_mens_course.jpg', // финал спринта, мужчины
             'https://web.archive.org/web/20060623101650id_/http://eoc2004.dk:80/images/eoc_final_sprint_womens_course.jpg' // финал спринта, женщины
@@ -841,6 +856,7 @@ let iofEvents = [
         date: '2004-07-16',
         name: 'EOC #5, лонг',
         place: 'Roskilde, Denmark (Роскилле, Дания)',
+        info: 'Ж: Татьяна Рябкина - 3.',
         maps: [
             'https://web.archive.org/web/20060623101410id_/http://eoc2004.dk:80/images/eoc_final_long_mens_course.jpg', // финал лонга, мужчины
             'https://web.archive.org/web/20060623101458id_/http://eoc2004.dk:80/images/eoc_final_long_womens_course.jpg' // финал лонга, женщины
@@ -855,6 +871,7 @@ let iofEvents = [
         date: '2004-07-17',
         name: 'EOC #6, эстафета',
         place: 'Roskilde, Denmark (Роскилле, Дания)',
+        info: 'Ж: Наталья Коржова, Ольга Белозёрова, Татьяна Рябкина - 3.',
         maps: [
             'https://web.archive.org/web/20041021030414id_/http://eoc2004.dk:80/images/relay_course_men1.GIF', // эстафета, мужчины, этап 1
             'https://web.archive.org/web/20040815005401id_/http://www.eoc2004.dk:80/images/relay_course_men2.GIF', // эстафета, мужчины, этап 2
@@ -872,6 +889,7 @@ let iofEvents = [
         date: '2004-09-11',
         endDate: '2004-09-19',
         place: 'Västerås, Sweden (Вестерос, Швеция)',
+        info: 'Миддл — Ж: Татьяна Рябкина - 2; М: Валентин Новиков - 2. Эстафета — М: Михаил Мамлеев, Андрей Храмов, Валентин Новиков - 2.',
         name: 'Чемпионат мира (WOC)',
         link: 'https://en.wikipedia.org/wiki/2004_World_Orienteering_Championships',
         res: [
@@ -899,6 +917,7 @@ let iofEvents = [
         date: '2004-10-18',
         endDate: '2004-10-23', // по IOF; en.wikipedia: 19–23 октября
         place: 'Ballarat, Australia (Балларат, Австралия)',
+        info: 'Миддл — М: Виктор Корчагин - 3.',
         name: 'Чемпионат мира (WMTBOC)',
         // сайт не работает: 2004worldmtbo.org
         link: [
@@ -934,6 +953,7 @@ let iofEvents = [
         date: '2005-03-05',
         endDate: '2005-03-12',
         place: 'Levi, Kittilä, Finland (Леви, Киттиля, Финляндия)',
+        info: 'Миддл — Ж: Татьяна Власова - 1; М: Руслан Грицан - 1, Андрей Груздев - 1, Эдуард Хренников - 3. Лонг — Ж: Татьяна Власова - 1, Наталья Томилова - 2, Ольга Шевченко - 3; М: Эдуард Хренников - 1, Андрей Груздев - 2. Эстафета — М: Андрей Груздев, Руслан Грицан, Эдуард Хренников - 1.',
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
@@ -950,6 +970,7 @@ let iofEvents = [
         date: '2005-08-09',
         endDate: '2005-08-15',
         place: 'Aichi, Japan (Аити, Япония)',
+        info: 'Лонг — М: Андрей Храмов - 1.',
         name: 'Чемпионат мира (WOC)',
         link: [
             'https://www.woc2005.jp/',
@@ -975,6 +996,7 @@ let iofEvents = [
         date: '2005-09-05',
         endDate: '2005-09-11',
         place: 'Banská Bystrica, Slovakia (Банска-Бистрица, Словакия)',
+        info: 'Миддл — М: Руслан Грицан - 1. Лонг — М: Руслан Грицан - 1, Виктор Корчагин - 2.',
         name: 'Чемпионат мира (WMTBOC)',
         link: [
             'https://sv.wikipedia.org/wiki/Världsmästerskapen_i_mountainbikeorientering_2005',
@@ -1001,6 +1023,7 @@ let iofEvents = [
         date: '2006-02-20',
         endDate: '2006-02-27',
         place: 'Ivanovo, Russia (Иваново, Россия)',
+        info: 'Спринт — Ж: Татьяна Власова - 1, Ольга Шевченко - 3, Наталья Томилова - 3; М: Сергей Осипов - 3. Миддл — Ж: Татьяна Власова - 1, Наталья Томилова - 3; М: Эдуард Хренников - 2. Лонг — Ж: Татьяна Власова - 2. Эстафета — Ж: Ольга Шевченко, Наталья Томилова, Татьяна Власова - 1; М: Кирилл Веселов, Вадим Толстопятов, Андрей Груздев - 3.',
         name: 'Чемпионат Европы (SKI-EOC)',
         link: [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften',
@@ -1041,6 +1064,7 @@ let iofEvents = [
         date: '2006-05-07',
         name: 'EOC #1, спринт (квалификация и финал)',
         place: 'Otepää, Estonia (Отепя, Эстония)',
+        info: 'М: Андрей Храмов - 3.',
         res: [
             'https://web.archive.org/web/20060524114803id_/http://www.eoc2006.ee:80/results/sprintq/men.pdf', // квалификация спринта, мужчины
             'https://web.archive.org/web/20060524114854id_/http://www.eoc2006.ee:80/results/sprintq/women.pdf', // квалификация спринта, женщины
@@ -1082,6 +1106,7 @@ let iofEvents = [
         date: '2006-05-09',
         name: 'EOC #3, миддл',
         place: 'Otepää, Estonia (Отепя, Эстония)',
+        info: 'М: Валентин Новиков - 3.',
         maps: [
             'https://web.archive.org/web/20070808171019id_/http://www.eoc2006.ee/results/middlef/mfm.gif', // финал миддла, mfm
             'https://web.archive.org/web/20070419031657id_/http://www.eoc2006.ee:80/results/middlef/mfm1.gif', // финал миддла, mfm1
@@ -1157,6 +1182,7 @@ let iofEvents = [
         date: '2006-07-09',
         endDate: '2006-07-14', // по IOF; en.wikipedia: 9–13 июля
         place: 'Joensuu, Finland (Йоэнсуу, Финляндия)',
+        info: 'Миддл — М: Руслан Грицан - 3. Лонг — Ж: Ксения Черных - 2; М: Руслан Грицан - 2. Эстафета — Ж: Надия Микрюкова, Анна Устинова, Ксения Черных - 1; М: Виктор Корчагин, Максим Журкин, Руслан Грицан - 2.',
         name: 'Чемпионат мира (WMTBOC)',
         link: [
             'https://sv.wikipedia.org/wiki/Världsmästerskapen_i_mountainbikeorientering_2006',
@@ -1242,6 +1268,7 @@ let iofEvents = [
         date: '2006-08-02',
         name: 'WOC #4, лонг',
         place: 'Aarhus, Denmark (Орхус, Дания)',
+        info: 'М: Андрей Храмов - 3.',
         maps: [
             'https://web.archive.org/web/20071221065321id_/http://www.woc2006.dk/dk/img/lang_finale1.jpg', // финал лонга, 1
             'https://web.archive.org/web/20071221065346id_/http://www.woc2006.dk/dk/img/lang_finale2.jpg' // финал лонга, 2
@@ -1259,6 +1286,7 @@ let iofEvents = [
         date: '2006-08-04',
         name: 'WOC #5, миддл',
         place: 'Aarhus, Denmark (Орхус, Дания)',
+        info: 'Ж: Татьяна Рябкина - 3.',
         maps: [
             'https://web.archive.org/web/20071219130241id_/http://www.woc2006.dk/dk/img/mellem_finale2.jpg' // финал миддла, 2
         ],
@@ -1275,6 +1303,7 @@ let iofEvents = [
         date: '2006-08-05',
         name: 'WOC #6, эстафета',
         place: 'Aarhus, Denmark (Орхус, Дания)',
+        info: 'М: Роман Ефимов, Андрей Храмов, Валентин Новиков - 1.',
         maps: [
             'https://web.archive.org/web/20071219130329id_/http://www.woc2006.dk/dk/img/stafet1.jpg', // эстафета, 1
             'https://web.archive.org/web/20071219130345id_/http://www.woc2006.dk/dk/img/stafet2.jpg' // эстафета, 2
@@ -1288,6 +1317,7 @@ let iofEvents = [
         date: '2006-08-30',
         endDate: '2006-09-03',
         place: 'Warszawa, Poland (Варшава, Польша)',
+        info: 'Спринт — Ж: Надия Микрюкова - 3; М: Антон Фолифоров - 2. Миддл — Ж: Анна Устинова - 2, Ксения Черных - 3. Эстафета — Ж: Надия Микрюкова, Анна Устинова, Ксения Черных - 2.',
         name: 'Чемпионат Европы (EMTBOC)',
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
@@ -1313,6 +1343,7 @@ let iofEvents = [
         date: '2007-02-23',
         endDate: '2007-03-03',
         place: 'Moscow Oblast, Russia (Московская область, Россия)',
+        info: 'Спринт — Ж: Татьяна Власова - 1, Ольга Новикова - 2, Татьяна Козлова - 3; М: Эдуард Хренников - 1, Вадим Толстопятов - 2. Миддл — Ж: Татьяна Власова - 1, Наталья Томилова - 3; М: Эдуард Хренников - 1, Кирилл Веселов - 3. Лонг — Ж: Татьяна Власова - 1; М: Эдуард Хренников - 1, Кирилл Веселов - 2, Андрей Груздев - 3. Эстафета — Ж: Ольга Шевченко, Наталья Томилова, Татьяна Власова - 1; М: Андрей Груздев, Кирилл Веселов, Эдуард Хренников - 1.',
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
@@ -1333,6 +1364,7 @@ let iofEvents = [
         date: '2007-04-04',
         endDate: '2007-04-10', // по IOF и sv.wikipedia; fi.wikipedia: 4–10 июня
         place: 'Castelfiorentino, Tuscany, Italy (Кастельфьорентино, Тоскана, Италия)',
+        info: 'Спринт — Ж: Ксения Черных - 1, Анна Устинова - 2. Миддл — Ж: Ксения Черных - 3. Лонг — Ж: Ксения Черных - 2.',
         name: 'Чемпионат Европы (EMTBOC)',
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
@@ -1349,6 +1381,7 @@ let iofEvents = [
         date: '2007-08-05',
         endDate: '2007-08-12',
         place: 'Nové Město na Moravě, Czech Republic (Нове-Место-на-Мораве, Чехия)',
+        info: 'Спринт — Ж: Ксения Черных - 1; М: Антон Фолифоров - 3. Миддл — Ж: Ксения Черных - 1. Лонг — Ж: Ксения Черных - 2; М: Руслан Грицан - 1. Эстафета — Ж: Анна Устинова, Надия Микрюкова, Ксения Черных - 2.',
         name: 'Чемпионат мира (WMTBOC)',
         link: [
             'http://www.mtbo.cz/woc2007',
@@ -1381,6 +1414,7 @@ let iofEvents = [
         date: '2007-08-18',
         endDate: '2007-08-26',
         place: 'Kyiv, Ukraine (Киев, Украина)',
+        info: 'Миддл — М: Валентин Новиков - 3. Лонг — М: Андрей Храмов - 2. Эстафета — М: Роман Ефимов, Андрей Храмов, Валентин Новиков - 1.',
         name: 'Чемпионат мира (WOC)',
         link: [
             'https://www.woc2007.org.ua/',
@@ -1429,6 +1463,7 @@ let iofEvents = [
         date: '2008-01-14',
         endDate: '2008-01-20', // ru.wikipedia: 14–20 февраля; cs: 15–19 января
         place: 'S-chanf, Switzerland (Шчанф, Швейцария)',
+        info: 'Спринт — Ж: Татьяна Власова - 1, Татьяна Козлова - 2. Миддл — Ж: Татьяна Власова - 1, Ольга Шевченко - 2, Наталья Томилова - 3; М: Андрей Груздев - 1. Лонг — Ж: Татьяна Власова - 1. Эстафета — Ж: Ольга Шевченко, Наталья Томилова, Татьяна Власова - 2.',
         name: 'Чемпионат Европы (SKI-EOC)',
         link: [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften',
@@ -1492,6 +1527,7 @@ let iofEvents = [
         date: '2008-05-26',
         name: 'EOC #1, спринт (квалификация и финал)',
         place: 'Ventspils, Latvia (Вентспилс, Латвия)',
+        info: 'М: Андрей Храмов - 3.',
         res: [
             'http://eoc2008.lof.lv/results/sprint_final/MA.HTM',
             'http://eoc2008.lof.lv/results/sprint_final/WA.HTM'
@@ -1531,6 +1567,7 @@ let iofEvents = [
         date: '2008-05-28',
         name: 'EOC #3, лонг',
         place: 'Ventspils, Latvia (Вентспилс, Латвия)',
+        info: 'Ж: Татьяна Рябкина - 2. М: Дмитрий Цветков - 1.',
         res: [
             'http://eoc2008.lof.lv/results/longf/MA.HTM',
             'http://eoc2008.lof.lv/results/longf/WA.HTM'
@@ -1583,6 +1620,7 @@ let iofEvents = [
         date: '2008-06-01',
         name: 'EOC #6, эстафета',
         place: 'Ventspils, Latvia (Вентспилс, Латвия)',
+        info: 'Ж: Наталья Коржова, Юлия Новикова, Татьяна Рябкина - 2. М: Дмитрий Цветков, Андрей Храмов, Валентин Новиков - 1.',
         res: [
             'http://eoc2008.lof.lv/results/relay/MEN.HTM',
             'http://eoc2008.lof.lv/results/relay/WOMEN.HTM'
@@ -1600,6 +1638,7 @@ let iofEvents = [
         date: '2008-07-10',
         endDate: '2008-07-20',
         place: 'Olomouc, Czech Republic (Оломоуц, Чехия)',
+        info: 'Спринт — М: Андрей Храмов - 1.',
         name: 'Чемпионат мира (WOC)',
         // сайт не работает: woc2008.cz, woc2008.orientacnisporty.cz
         link: 'https://en.wikipedia.org/wiki/2008_World_Orienteering_Championships',
@@ -1637,6 +1676,7 @@ let iofEvents = [
         date: '2008-07-17',
         name: 'WOC #2, миддл (квалификация и финал)',
         place: 'Olomouc, Czech Republic (Оломоуц, Чехия)',
+        info: 'М: Валентин Новиков - 3.',
         maps: [
             // 'https://mapy.ceskyorientak.cz/mapa/mazance-2008',
             'https://mapy.ceskyorientak.cz/data/jpg/5048a.jpg',
@@ -1666,6 +1706,7 @@ let iofEvents = [
         date: '2008-07-20',
         name: 'WOC #4, эстафета',
         place: 'Olomouc, Czech Republic (Оломоуц, Чехия)',
+        info: 'Ж: Галина Виноградова, Юлия Новикова, Татьяна Рябкина - 2. М: Дмитрий Цветков, Андрей Храмов, Валентин Новиков - 2.',
         maps: [
             // 'https://mapy.ceskyorientak.cz/mapa/olsana-2008',
             'https://mapy.ceskyorientak.cz/data/jpg/5056a.jpg'
@@ -1679,6 +1720,7 @@ let iofEvents = [
         date: '2008-08-24',
         endDate: '2008-08-31',
         place: 'Ostróda, Poland (Оструда, Польша)',
+        info: 'Миддл — Ж: Ксения Черных - 1. Лонг — М: Руслан Грицан - 1. Эстафета — Ж: Анна Воробьёва, Надия Микрюкова, Ксения Черных - 2; М: Руслан Грицан, Максим Журкин, Антон Фолифоров - 2.',
         name: 'Чемпионат мира (WMTBOC)',
         link: [
             'https://sv.wikipedia.org/wiki/Världsmästerskapen_i_mountainbikeorientering_2008',
@@ -1702,6 +1744,7 @@ let iofEvents = [
         date: '2008-09-22',
         endDate: '2008-09-27',
         place: 'Nida, Lithuania (Нида, Литва)',
+        info: 'Спринт — М: Руслан Грицан - 3. Миддл — М: Виктор Корчагин - 3. Лонг — М: Антон Фолифоров - 2, Руслан Грицан - 3.',
         name: 'Чемпионат Европы (EMTBOC)',
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
@@ -1718,6 +1761,7 @@ let iofEvents = [
         date: '2009-03-03',
         endDate: '2009-03-08',
         place: 'Rusutsu, Japan (Русуцу, Япония)',
+        info: 'Спринт — Ж: Татьяна Власова - 3; М: Андрей Ламов - 1. Миддл — Ж: Татьяна Власова - 1. Лонг — Ж: Анастасия Кравченко - 1; М: Андрей Ламов - 1, Эдуард Хренников - 2. Эстафета — Ж: Анастасия Кравченко, Полина Мальчикова, Татьяна Власова - 2; М: Владимир Барчуков, Андрей Григорьев, Андрей Ламов - 2.',
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
@@ -1747,6 +1791,7 @@ let iofEvents = [
         date: '2009-06-22',
         endDate: '2009-06-28',
         place: 'Hillerød, North Zealand, Denmark (Хиллерёд, Северная Зеландия, Дания)',
+        info: 'Спринт — М: Руслан Грицан - 1. Лонг — Ж: Надия Микрюкова - 1. Эстафета — М: Виктор Корчагин, Руслан Грицан, Антон Фолифоров - 3.',
         name: 'Чемпионат Европы (EMTBOC)',
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
@@ -1767,6 +1812,7 @@ let iofEvents = [
         date: '2009-08-09',
         endDate: '2009-08-16',
         place: 'Ben Shemen, Israel (Бен-Шемен, Израиль)',
+        info: 'Спринт — М: Руслан Грицан - 3. Лонг — М: Руслан Грицан - 2. Эстафета — Ж: Надия Микрюкова, Татьяна Репина, Ксения Черных - 3; М: Максим Журкин, Руслан Грицан, Антон Фолифоров - 1.',
         name: 'Чемпионат мира (WMTBOC)',
         link: [
             'https://www.nivut.org.il/mtbo/default.aspx',
@@ -1814,6 +1860,7 @@ let iofEvents = [
         date: '2009-08-16',
         endDate: '2009-08-23',
         place: 'Miskolc, Hungary (Мишкольц, Венгрия)',
+        info: 'Спринт — М: Андрей Храмов - 1. Эстафета — М: Дмитрий Цветков, Валентин Новиков, Андрей Храмов - 2.',
         name: 'Чемпионат мира (WOC)',
         // сайт не работает: live.woc2009.hu
         link: 'https://en.wikipedia.org/wiki/2009_World_Orienteering_Championships',
@@ -1847,6 +1894,7 @@ let iofEvents = [
         date: '2010-02-08',
         endDate: '2010-02-15',
         place: 'Miercurea Ciuc, Romania (Меркуря-Чук, Румыния)',
+        info: 'Спринт — Ж: Татьяна Власова - 1; М: Эдуард Хренников - 1, Андрей Ламов - 2, Андрей Григорьев - 3. Миддл — Ж: Татьяна Власова - 1; М: Эдуард Хренников - 1, Андрей Григорьев - 3. Лонг — Ж: Татьяна Власова - 3; М: Эдуард Хренников - 2. Эстафета — Ж: Анастасия Кравченко, Татьяна Власова, Наталья Томилова - 2.',
         name: 'Чемпионат Европы (SKI-EOC)',
         // сайт не работает: skio.ro
         link: [
@@ -2020,6 +2068,7 @@ let iofEvents = [
         date: '2010-06-04',
         name: 'EOC #5, миддл',
         place: 'Primorsko, Bulgaria (Приморско, Болгария)',
+        info: 'М: Валентин Новиков - 1.',
         res: [
             'http://eoc2010.orienteering.bg/files/results_middle_f_men.pdf', // мужчины
             'http://eoc2010.orienteering.bg/files/results_middle_f_women.pdf' // женщины
@@ -2065,6 +2114,7 @@ let iofEvents = [
         date: '2010-07-11',
         endDate: '2010-07-17',
         place: 'Montalegre, Portugal (Монталегре, Португалия)',
+        info: 'Спринт — М: Антон Фолифоров - 3. Лонг — Ж: Ксения Черных - 2; М: Антон Фолифоров - 1. Эстафета — М: Руслан Грицан, Валерий Глухов, Антон Фолифоров - 1.',
         name: 'Чемпионат мира (WMTBOC)',
         // сайт не работает: mtbwoc2010.fpo.pt
         link: [
@@ -2241,6 +2291,7 @@ let iofEvents = [
         date: '2010-08-15',
         name: 'WOC #6, эстафета',
         place: 'Trondheim, Norway (Тронхейм, Норвегия)',
+        info: 'М: Андрей Храмов, Дмитрий Цветков, Валентин Новиков - 1.',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20100815_relay_m1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/20100815_relay_m2/',
@@ -2292,6 +2343,7 @@ let iofEvents = [
         date: '2011-02-02',
         name: 'SKI-EOC #1, лонг',
         place: 'Lillehammer, Norway (Лиллехаммер, Норвегия)',
+        info: 'Ж: Татьяна Власова - 2, Татьяна Козлова - 3. М: Андрей Груздев - 3.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20110202EOCM/',
             'W': 'https://www.tulospalvelu.fi/gps/20110202EOCW/'
@@ -2312,6 +2364,7 @@ let iofEvents = [
         date: '2011-02-04',
         name: 'SKI-EOC #2, спринт',
         place: 'Lillehammer, Norway (Лиллехаммер, Норвегия)',
+        info: 'Ж: Татьяна Власова - 1, Полина Мальчикова - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20110204EOCM/',
             'W': 'https://www.tulospalvelu.fi/gps/20110204EOCW/'
@@ -2332,6 +2385,7 @@ let iofEvents = [
         date: '2011-02-05',
         name: 'SKI-EOC #3, миддл',
         place: 'Lillehammer, Norway (Лиллехаммер, Норвегия)',
+        info: 'Ж: Полина Мальчикова - 2, Татьяна Козлова - 2. М: Владимир Барчуков - 3.',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20110205EOCM1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/20110205EOCM2/',
@@ -2354,6 +2408,7 @@ let iofEvents = [
         date: '2011-02-06',
         name: 'SKI-EOC #4, эстафета',
         place: 'Lillehammer, Norway (Лиллехаммер, Норвегия)',
+        info: 'Ж: Анастасия Кравченко, Мария Кечкина, Алёна Трапезникова - 1. М: Владимир Барчуков, Кирилл Веселов, Эдуард Хренников - 1.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20110206EOCM/',
             'W': 'https://www.tulospalvelu.fi/gps/20110206EOCW/'
@@ -2424,6 +2479,7 @@ let iofEvents = [
         date: '2011-03-23',
         name: 'SKI-WOC #2, миддл',
         place: 'Tänndalen, Sweden (Тэнндален, Швеция)',
+        info: 'Ж: Полина Мальчикова - 1, Алёна Трапезникова - 2. М: Андрей Ламов - 2.',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20110323middleM1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/20110323m2/',
@@ -2453,6 +2509,7 @@ let iofEvents = [
         date: '2011-03-24',
         name: 'SKI-WOC #3, спринт-эстафета',
         place: 'Tänndalen, Sweden (Тэнндален, Швеция)',
+        info: 'Андрей Григорьев, Полина Мальчикова - 1.',
         gps: {
             'all': 'https://www.tulospalvelu.fi/gps/20110324sprintrelay/'
         },
@@ -2471,6 +2528,7 @@ let iofEvents = [
         date: '2011-03-26',
         name: 'SKI-WOC #4, лонг',
         place: 'Tänndalen, Sweden (Тэнндален, Швеция)',
+        info: 'Ж: Татьяна Козлова - 2. М: Андрей Григорьев - 1, Владимир Барчуков - 3.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20110326longM/',
             'M-2': 'https://www.tulospalvelu.fi/gps/20110326longM2/',
@@ -2498,6 +2556,7 @@ let iofEvents = [
         date: '2011-03-27',
         name: 'SKI-WOC #5, эстафета',
         place: 'Tänndalen, Sweden (Тэнндален, Швеция)',
+        info: 'Ж: Алёна Трапезникова, Татьяна Козлова, Полина Мальчикова - 1.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20110327relayM/',
             'W': 'https://www.tulospalvelu.fi/gps/20110327relayW/'
@@ -2674,6 +2733,7 @@ let iofEvents = [
         date: '2011-08-20',
         endDate: '2011-08-28',
         place: 'Vicenza, Italy (Виченца, Италия)',
+        info: 'Спринт — М: Антон Фолифоров - 1. Миддл — М: Руслан Грицан - 2. Лонг — М: Руслан Грицан - 3.',
         name: 'Чемпионат мира (WMTBOC)',
         link: [
             'http://www.mtbo2011.org/',
@@ -2706,6 +2766,7 @@ let iofEvents = [
         date: '2011-09-17',
         endDate: '2011-09-25',
         place: 'Leningrad Oblast, Russia (Ленинградская область, Россия)',
+        info: 'Эстафета — Ж: Светлана Поверина, Ольга Виноградова, Ксения Черных - 2; М: Валерий Глухов, Руслан Грицан, Антон Фолифоров - 2.',
         name: 'Чемпионат Европы (EMTBOC)',
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
@@ -2727,6 +2788,7 @@ let iofEvents = [
         date: '2012-02-20',
         endDate: '2012-02-26', // cs.wikipedia: 21–26 февраля
         place: 'Sumy, Ukraine (Сумы, Украина)',
+        info: 'Спринт — Ж: Полина Мальчикова - 2; М: Эдуард Хренников - 3. Миддл — М: Эдуард Хренников - 1. Лонг — Ж: Полина Мальчикова - 1, Анастасия Кравченко - 2, Татьяна Козлова - 3; М: Андрей Ламов - 2. Спринт-эстафета — Андрей Григорьев, Полина Мальчикова - 1. Эстафета — Ж: Татьяна Козлова, Наталья Томилова, Полина Мальчикова - 1.',
         name: 'Чемпионат Европы (SKI-EOC)',
         // сайт не работает: skio2012.sumy.org
         link: [
@@ -2851,6 +2913,7 @@ let iofEvents = [
         date: '2012-05-17',
         name: 'EOC #4, миддл',
         place: 'Falun, Mora, Sweden (Фалун, Мура, Швеция)',
+        info: 'Ж: Татьяна Рябкина - 3. М: Валентин Новиков - 2.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=4222',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20120517EOCMidMF/',
@@ -2882,6 +2945,7 @@ let iofEvents = [
         date: '2012-05-18',
         name: 'EOC #5, лонг',
         place: 'Falun, Mora, Sweden (Фалун, Мура, Швеция)',
+        info: 'Ж: Татьяна Рябкина - 2. М: Валентин Новиков - 3.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=4225',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20120518EOCLongMF/',
@@ -2939,6 +3003,7 @@ let iofEvents = [
         date: '2012-05-20',
         name: 'EOC #7, эстафета',
         place: 'Falun, Mora, Sweden (Фалун, Мура, Швеция)',
+        info: 'Ж: Наталья Ефимова, Светлана Миронова, Татьяна Рябкина - 1.',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20120520EOCRelM1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/20120520EOCRelM2/',
@@ -3034,6 +3099,7 @@ let iofEvents = [
         date: '2012-07-17',
         name: 'WOC #2, миддл',
         place: 'Lausanne, Switzerland (Лозанна, Швейцария)',
+        info: 'Ж: Татьяна Рябкина - 3. М: Валентин Новиков - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20120717WOCMidM-Web/',
             'W': 'https://www.tulospalvelu.fi/gps/20120717WOCMidW-Web/'
@@ -3132,6 +3198,7 @@ let iofEvents = [
         date: '2012-08-21',
         name: 'WMTBOC #1, спринт',
         place: 'Veszprém, Hungary (Веспрем, Венгрия)',
+        info: 'М: Руслан Грицан - 3.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20120821mtbsprintM/',
             'W': 'https://www.tulospalvelu.fi/gps/20120821mtbsprintW/'
@@ -3152,6 +3219,7 @@ let iofEvents = [
         date: '2012-08-22',
         name: 'WMTBOC #2, миддл',
         place: 'Veszprém, Hungary (Веспрем, Венгрия)',
+        info: 'М: Антон Фолифоров - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20120822mtbmiddleM/',
             'W': 'https://www.tulospalvelu.fi/gps/20120822mtbmiddleW/'
@@ -3172,6 +3240,7 @@ let iofEvents = [
         date: '2012-08-24',
         name: 'WMTBOC #3, эстафета',
         place: 'Veszprém, Hungary (Веспрем, Венгрия)',
+        info: 'М: Валерий Глухов, Руслан Грицан, Антон Фолифоров - 2.',
         gps: {
             'M-1+2': 'https://www.tulospalvelu.fi/gps/20120824mtbrelayM12/',
             'M-3': 'https://www.tulospalvelu.fi/gps/20120824mtbrelayM3/',
@@ -3196,6 +3265,7 @@ let iofEvents = [
         date: '2012-08-25',
         name: 'WMTBOC #4, лонг',
         place: 'Veszprém, Hungary (Веспрем, Венгрия)',
+        info: 'Ж: Ксения Черных - 2. М: Руслан Грицан - 1.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20120825mtblongM/',
             'W': 'https://www.tulospalvelu.fi/gps/20120825mtblongW/'
@@ -3215,6 +3285,7 @@ let iofEvents = [
         date: '2013-02-11',
         endDate: '2013-02-17', // de/sv: 11–17 февраля; ru/fi: 11–18; cs: 13–16 марта
         place: 'Madona, Latvia (Мадона, Латвия)',
+        info: 'Спринт — Ж: Татьяна Козлова - 1. Миддл — Ж: Юлия Тарасенко - 1, Анастасия Кравченко - 2; М: Андрей Ламов - 3. Лонг — Ж: Татьяна Козлова - 1. Спринт-эстафета — Анастасия Кравченко, Кирилл Веселов - 1. Эстафета — Ж: Анастасия Кравченко, Полина Мальчикова, Татьяна Козлова - 1; М: Владимир Барчуков, Кирилл Веселов, Андрей Ламов - 2.',
         name: 'Чемпионат Европы (SKI-EOC)',
         // esoc2013.lv теперь занят посторонним сайтом — ссылка не включена
         link: [
@@ -3241,6 +3312,7 @@ let iofEvents = [
         date: '2013-03-03',
         endDate: '2013-03-08',
         place: 'Ridder, Kazakhstan (Риддер, Казахстан)',
+        info: 'Спринт — Ж: Татьяна Козлова - 3; М: Андрей Ламов - 2, Кирилл Веселов - 3. Миддл — Ж: Анастасия Кравченко - 1, Татьяна Козлова - 2; М: Андрей Ламов - 2, Кирилл Веселов - 3. Лонг — Ж: Татьяна Козлова - 2. Эстафета — Ж: Анастасия Кравченко, Юлия Тарасенко, Татьяна Козлова - 1; М: Андрей Григорьев, Кирилл Веселов, Андрей Ламов - 1.',
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
@@ -3263,6 +3335,7 @@ let iofEvents = [
         date: '2013-06-15',
         endDate: '2013-06-23',
         place: 'Zamość, Poland (Замосць, Польша)',
+        info: 'Спринт — М: Руслан Грицан - 2. Миддл — М: Валерий Глухов - 1. Лонг — М: Валерий Глухов - 2. Спринт-эстафета — Светлана Поверина, Руслан Грицан - 2. Эстафета — Ж: Светлана Поверина, Ольга Виноградова, Ксения Черных - 2; М: Валерий Глухов, Руслан Грицан, Антон Фолифоров - 2.',
         name: 'Чемпионат Европы (EMTBOC)',
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
@@ -3346,6 +3419,8 @@ let iofEvents = [
         date: '2013-07-08',
         name: 'WOC #2, спринт (квалификация и финал)',
         place: 'Vuokatti, Finland (Вуокатти, Финляндия)',
+        info: 'Галина Виноградова - 6.',
+        link: 'https://swann74.livejournal.com/65730.html',
         res: 'http://www.woc2013.fi/wp-content/uploads/2014/08/Sprint-final-results.pdf',
         gps: {
             'M-Q1': 'https://www.tulospalvelu.fi/gps/2013WOCsprintQM1/',
@@ -3383,6 +3458,8 @@ let iofEvents = [
         date: '2013-07-09',
         name: 'WOC #3, лонг',
         place: 'Vuokatti, Finland (Вуокатти, Финляндия)',
+        info: 'Татьяна Рябкина - 5, Анастасия Тихонова, Наталья Ефимова, Дмитрий Цветков - 4, Валентин Новиков - 9, Леонид Новиков.',
+        link: 'https://swann74.livejournal.com/65835.html',
         res: 'http://www.woc2013.fi/wp-content/uploads/2014/08/ResultsLong.pdf',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2013WOCLongM/',
@@ -3432,6 +3509,8 @@ let iofEvents = [
         date: '2013-07-12',
         name: 'WOC #5, миддл',
         place: 'Vuokatti, Finland (Вуокатти, Финляндия)',
+        info: 'Леонид Новиков - 1, Ирина Нюберг - 5, Татьяна Рябкина - 7.',
+        link: 'https://swann74.livejournal.com/66049.html',
         res: 'http://www.woc2013.fi/wp-content/uploads/2014/08/ResultsFinalmiddledistance.pdf',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2013wocMidM/',
@@ -3454,6 +3533,8 @@ let iofEvents = [
         date: '2013-07-13',
         name: 'WOC #6, эстафета',
         place: 'Vuokatti, Finland (Вуокатти, Финляндия)',
+        info: 'Ж: Галина Виноградова - 7, Ирина Нюберг - 7, Татьяна Рябкина - 6. М: Леонид Новиков - 4, Валентин Новиков - 3, Дмитрий Цветков - 1.',
+        link: 'https://swann74.livejournal.com/66493.html',
         res: 'http://www.woc2013.fi/wp-content/uploads/2014/08/RelayResults.pdf',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/2013wocRM1/',
@@ -3477,6 +3558,9 @@ let iofEvents = [
             // 'https://www.tulospalvelu.fi/gps/2013wocRW2/map', // duplicate of https://www.tulospalvelu.fi/gps/2013wocRW1/map
             'https://www.tulospalvelu.fi/gps/2013wocRW3/map',
             'https://www.tulospalvelu.fi/gps/2013wocRW123/map'
+        ],
+        video: [
+            'https://www.youtube.com/watch?v=TRJ9FBmtHb0' // на латышском, Martins Sirmais
         ],
         coord: [64.1458, 28.2717],
         fmt: 'relay',
@@ -3517,6 +3601,7 @@ let iofEvents = [
         date: '2013-08-27',
         name: 'WMTBOC #1, спринт',
         place: 'Rakvere, Estonia (Раквере, Эстония)',
+        info: 'Ж: Татьяна Репина - 3.',
         maps: [
             'https://web.archive.org/web/20140821005004id_/http://www.orienteerumine.ee/mtbo2013/sprint/M21.gif', // спринт, M21
             'https://web.archive.org/web/20140820121922id_/http://www.orienteerumine.ee/mtbo2013/sprint/W21.gif' // спринт, W21
@@ -3532,6 +3617,7 @@ let iofEvents = [
         date: '2013-08-28',
         name: 'WMTBOC #2, миддл',
         place: 'Rakvere, Estonia (Раквере, Эстония)',
+        info: 'М: Антон Фолифоров - 2.',
         maps: [
             'https://web.archive.org/web/20140821055629id_/http://www.orienteerumine.ee/mtbo2013/middle/M21.gif', // миддл, M21
             'https://web.archive.org/web/20140822000013id_/http://www.orienteerumine.ee/mtbo2013/middle/W21.gif' // миддл, W21
@@ -3558,6 +3644,7 @@ let iofEvents = [
         date: '2013-08-31',
         name: 'WMTBOC #4, лонг',
         place: 'Rakvere, Estonia (Раквере, Эстония)',
+        info: 'М: Антон Фолифоров - 3.',
         maps: [
             'https://web.archive.org/web/20140820053053id_/http://www.orienteerumine.ee/mtbo2013/long/M21.gif', // лонг, M21
             'https://web.archive.org/web/20140820034303id_/http://www.orienteerumine.ee/mtbo2013/long/w21.gif' // лонг, W21
@@ -3601,6 +3688,7 @@ let iofEvents = [
         date: '2014-03-07',
         name: 'SKI-EOC #1, спринт-эстафета',
         place: 'Tyumen, Russia (Тюмень, Россия)',
+        info: 'Владимир Барчуков, Юлия Тарасенко - 1.',
         gps: {
             'M-135': 'https://www.tulospalvelu.fi/gps/20140307esocM/',
             'W-246': 'https://www.tulospalvelu.fi/gps/20140307esocW/'
@@ -3621,6 +3709,7 @@ let iofEvents = [
         date: '2014-03-08',
         name: 'SKI-EOC #2, спринт',
         place: 'Tyumen, Russia (Тюмень, Россия)',
+        info: 'М: Андрей Ламов - 1.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20140308esocM/',
             'W': 'https://www.tulospalvelu.fi/gps/20140308esocW/'
@@ -3641,6 +3730,7 @@ let iofEvents = [
         date: '2014-03-09',
         name: 'SKI-EOC #3, лонг',
         place: 'Tyumen, Russia (Тюмень, Россия)',
+        info: 'Ж: Татьяна Рвачёва - 2, Анастасия Кравченко - 3. М: Андрей Ламов - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20140309esocM/',
             'W': 'https://www.tulospalvelu.fi/gps/20140309esocW/'
@@ -3661,6 +3751,7 @@ let iofEvents = [
         date: '2014-03-11',
         name: 'SKI-EOC #4, миддл',
         place: 'Tyumen, Russia (Тюмень, Россия)',
+        info: 'М: Владимир Барчуков - 1, Андрей Ламов - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20140311esocM/',
             'W': 'https://www.tulospalvelu.fi/gps/20140311esocW/'
@@ -3681,6 +3772,7 @@ let iofEvents = [
         date: '2014-03-12',
         name: 'SKI-EOC #5, эстафета',
         place: 'Tyumen, Russia (Тюмень, Россия)',
+        info: 'Ж: Анастасия Кравченко, Юлия Тарасенко, Татьяна Рвачёва - 2. М: Владимир Барчуков, Эдуард Хренников, Андрей Ламов - 2.',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20140312esocM1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/20140312esocM2/',
@@ -3847,6 +3939,7 @@ let iofEvents = [
         date: '2014-04-15',
         name: 'EOC #6, лонг',
         place: 'Palmela, Portugal (Палмела, Португалия)',
+        info: 'Ж: Светлана Миронова - 2.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=4602',
         maps: [
             // 'https://news.worldofo.com/2014/04/16/eoc-long-maps-and-results/',
@@ -3865,6 +3958,7 @@ let iofEvents = [
         date: '2014-04-16',
         name: 'EOC #7, эстафета',
         place: 'Palmela, Portugal (Палмела, Португалия)',
+        info: 'Ж: Юлия Новикова, Ирина Нюберг, Наталья Виноградова - 3.',
         maps: [
             // 'https://news.worldofo.com/2014/04/16/eoc-relay-maps-and-results-2/',
             // 'https://omaps.worldofo.com/index.php?id=108911',
@@ -3912,6 +4006,8 @@ let iofEvents = [
         date: '2014-07-05',
         name: 'WOC #1, спринт',
         place: 'Trentino, Veneto, Italy (Трентино, Венето, Италия)',
+        info: 'Галина Виноградова - 7, Глеб Тихонов - 23.',
+        link: 'https://swann74.livejournal.com/83288.html',
         res: [
             'http://woc2014.fisoveneto.it/LIVE/results/sprintf/Resuls-IND-SF-MEN.pdf',
             'http://woc2014.fisoveneto.it/LIVE/results/sprintf/Resuls-IND-SF-WOMEN.pdf'
@@ -3930,7 +4026,8 @@ let iofEvents = [
         ],
         video: [
             'https://www.youtube.com/watch?v=0dn1_Swso-k', // WOC 2014 Sprint (Orienteering Tube)
-            'https://www.youtube.com/watch?v=oDJ7g7ezVKI' // WOC 2014 - Sprint Final Highlights (WOC and WTOC 2014)
+            'https://www.youtube.com/watch?v=oDJ7g7ezVKI', // WOC 2014 - Sprint Final Highlights (WOC and WTOC 2014)
+            'https://www.youtube.com/watch?v=qVgVeQjLpNI' // на шведском, Martins Sirmais
         ],
         coord: [46.445556, 11.173056],
         fmt: 'sprint',
@@ -3942,6 +4039,8 @@ let iofEvents = [
         date: '2014-07-07',
         name: 'WOC #2, спринт-эстафета',
         place: 'Trentino, Veneto, Italy (Трентино, Венето, Италия)',
+        info: 'Анастасия Тихонова - 2, Глеб Тихонов - 3, Андрей Храмов - 2, Галина Виноградова - 3.',
+        link: 'https://swann74.livejournal.com/83562.html',
         res: 'http://woc2014.fisoveneto.it/LIVE/results/sprintrelay/Resuls-Sprint-RELAY.pdf',
         gps: {
             '1': 'https://www.tulospalvelu.fi/gps/2014wocsrelay1/',
@@ -3970,6 +4069,8 @@ let iofEvents = [
         date: '2014-07-09',
         name: 'WOC #3, лонг',
         place: 'Trentino, Veneto, Italy (Трентино, Венето, Италия)',
+        info: 'Светлана Миронова - 1, Анастасия Трубкина - 24, Анастасия Тихонова - 31, Дмитрий Цветков - 15, Валентин Новиков - 24, Андрей Козырев - 48.',
+        link: 'https://swann74.livejournal.com/83908.html',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2014woclongM/',
             'W': 'https://www.tulospalvelu.fi/gps/2014woclongW/'
@@ -3996,6 +4097,8 @@ let iofEvents = [
         date: '2014-07-11',
         name: 'WOC #4, миддл',
         place: 'Trentino, Veneto, Italy (Трентино, Венето, Италия)',
+        info: 'Ирина Нюберг - 20, Юлия Новикова - 23, Нина Темякова - 52, Леонид Новиков - 8, Дмитрий Цветков - 17, Валентин Новиков - 30.',
+        link: 'https://swann74.livejournal.com/84455.html',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2014wocmiddleM/',
             'W': 'https://www.tulospalvelu.fi/gps/2014wocmiddleW/'
@@ -4022,6 +4125,8 @@ let iofEvents = [
         date: '2014-07-12',
         name: 'WOC #5, эстафета',
         place: 'Trentino, Veneto, Italy (Трентино, Венето, Италия)',
+        info: 'Ж: Юлия Новикова - 16, Ирина Нюберг - 19, Светлана Миронова - 11. М: Леонид Новиков - 23, Андрей Храмов - 16, Дмитрий Цветков - 13.',
+        link: 'https://swann74.livejournal.com/84677.html',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/2014wocrelayM1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/2014wocrelayM2/',
@@ -4052,6 +4157,7 @@ let iofEvents = [
         date: '2014-08-24',
         endDate: '2014-08-31',
         place: 'Białystok, Poland (Белосток, Польша)',
+        info: 'Спринт — Ж: Татьяна Репина - 2; М: Антон Фолифоров - 1, Григорий Медведев - 3. Миддл — М: Руслан Грицан - 1, Антон Фолифоров - 3. Лонг — Ж: Ольга Виноградова - 1, Светлана Поверина - 2; М: Антон Фолифоров - 1. Эстафета — Ж: Татьяна Репина, Ольга Виноградова, Светлана Поверина - 1.',
         name: 'Чемпионат мира (WMTBOC)',
         // wmtboc2014.pl теперь занят посторонним сайтом — ссылка не включена
         link: [
@@ -4095,6 +4201,7 @@ let iofEvents = [
         date: '2015-01-20',
         name: 'SKI-EOC #1, спринт',
         place: 'Lenzerheide, Switzerland (Ленцерхайде, Швейцария)',
+        info: 'Ж: Юлия Тарасенко - 1. М: Андрей Ламов - 3.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20150120_esoc_sd_m/',
             'W': 'https://www.tulospalvelu.fi/gps/20150120_esoc_sd_w/'
@@ -4115,6 +4222,7 @@ let iofEvents = [
         date: '2015-01-21',
         name: 'SKI-EOC #2, лонг',
         place: 'Lenzerheide, Switzerland (Ленцерхайде, Швейцария)',
+        info: 'Ж: Татьяна Оборина - 1. М: Андрей Ламов - 3.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20150121_esoc_ld_m/',
             'W': 'https://www.tulospalvelu.fi/gps/20150121_esoc_ld_w/'
@@ -4155,6 +4263,7 @@ let iofEvents = [
         date: '2015-01-24',
         name: 'SKI-EOC #4, миддл',
         place: 'Lenzerheide, Switzerland (Ленцерхайде, Швейцария)',
+        info: 'М: Андрей Ламов - 1.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20150124_esoc_md_m/',
             'W': 'https://www.tulospalvelu.fi/gps/20150124_esoc_md_w/'
@@ -4175,6 +4284,7 @@ let iofEvents = [
         date: '2015-01-25',
         name: 'SKI-EOC #5, эстафета',
         place: 'Lenzerheide, Switzerland (Ленцерхайде, Швейцария)',
+        info: 'Ж: Татьяна Козлова, Мария Кечкина, Полина Фролова - 3. М: Владимир Барчуков, Эдуард Хренников, Андрей Ламов - 2.',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20150125_esoc_rel_m1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/20150125_esoc_rel_m2/',
@@ -4224,6 +4334,7 @@ let iofEvents = [
         date: '2015-02-10',
         name: 'SKI-WOC #1, спринт-эстафета',
         place: 'Hamar, Løten, Norway (Хамар, Лётен, Норвегия)',
+        info: 'Андрей Ламов, Юлия Тарасенко - 1.',
         gps: {
             'MIX': 'https://www.tulospalvelu.fi/gps/20150210MIX/'
         },
@@ -4242,6 +4353,7 @@ let iofEvents = [
         date: '2015-02-11',
         name: 'SKI-WOC #2, спринт',
         place: 'Hamar, Løten, Norway (Хамар, Лётен, Норвегия)',
+        info: 'М: Андрей Ламов - 1.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20150211M21/',
             'W': 'https://www.tulospalvelu.fi/gps/20150211W21/'
@@ -4262,6 +4374,7 @@ let iofEvents = [
         date: '2015-02-12',
         name: 'SKI-WOC #3, лонг',
         place: 'Hamar, Løten, Norway (Хамар, Лётен, Норвегия)',
+        info: 'Ж: Ксения Третьякова - 3. М: Андрей Ламов - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20150212M21/',
             'W': 'https://www.tulospalvelu.fi/gps/20150212W21/'
@@ -4308,6 +4421,7 @@ let iofEvents = [
         date: '2015-02-15',
         name: 'SKI-WOC #5, эстафета',
         place: 'Hamar, Løten, Norway (Хамар, Лётен, Норвегия)',
+        info: 'Ж: Юлия Тарасенко, Ксения Третьякова, Татьяна Оборина - 3. М: Кирилл Веселов, Эдуард Хренников, Андрей Ламов - 1.',
         gps: {
             'M-3': 'https://www.tulospalvelu.fi/gps/20150215M21/',
             'W-3': 'https://www.tulospalvelu.fi/gps/20150215W21/'
@@ -4331,6 +4445,7 @@ let iofEvents = [
         date: '2015-06-08',
         endDate: '2015-06-14',
         place: 'Idanha-a-Nova, Portugal (Иданья-а-Нова, Португалия)',
+        info: 'Спринт — М: Валерий Глухов - 2, Руслан Грицан - 3. Миддл — М: Антон Фолифоров - 1, Валерий Глухов - 3. Лонг — М: Антон Фолифоров - 1. Эстафета — М: Руслан Грицан, Антон Фолифоров, Валерий Глухов - 3.',
         name: 'Чемпионат Европы (EMTBOC)',
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
@@ -4415,6 +4530,8 @@ let iofEvents = [
         date: '2015-08-01',
         name: 'WOC #2, спринт-эстафета',
         place: 'Inverness, Nairn, Scotland, UK (Инвернесс, Нэрн, Шотландия, Великобритания)',
+        info: 'Татьяна Рябкина, Глеб Тихонов - 8, Андрей Храмов - 10, Галина Виноградова - 3.',
+        link: 'https://swann74.livejournal.com/96022.html',
         gps: {
             '1': 'https://www.tulospalvelu.fi/gps/2015wocSRelay1/',
             '2': 'https://www.tulospalvelu.fi/gps/2015wocSRelay2/',
@@ -4442,6 +4559,8 @@ let iofEvents = [
         date: '2015-08-02',
         name: 'WOC #3, спринт',
         place: 'Inverness, Nairn, Scotland, UK (Инвернесс, Нэрн, Шотландия, Великобритания)',
+        info: 'Галина Виноградова - 3, Светлана Миронова - 13, Анастасия Рудная - 21, Глеб Тихонов - 32, Андрей Храмов - снят.',
+        link: 'https://swann74.livejournal.com/96344.html',
         res: 'http://obasen.orientering.se/winsplits/online/en/default.asp?page=table&databaseId=37711&categoryId=0',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2015wocSprintM/',
@@ -4469,6 +4588,8 @@ let iofEvents = [
         date: '2015-08-04',
         name: 'WOC #4, миддл',
         place: 'Inverness, Nairn, Scotland, UK (Инвернесс, Нэрн, Шотландия, Великобритания)',
+        info: 'Наталья Виноградова - 14, Татьяна Рябкина - 15, Анастасия Рудная - 25, Валентин Новиков - 22, Леонид Новиков - 33, Дмитрий Наконечный - 50.',
+        link: 'https://swann74.livejournal.com/96606.html',
         res: [
             'http://obasen.orientering.se/winsplits/online/en/default.asp?page=table&databaseId=37719&categoryId=0',
             'http://obasen.orientering.se/winsplits/online/en/default.asp?page=table&databaseId=37719&categoryId=1'
@@ -4501,6 +4622,8 @@ let iofEvents = [
         date: '2015-08-05',
         name: 'WOC #5, эстафета',
         place: 'Inverness, Nairn, Scotland, UK (Инвернесс, Нэрн, Шотландия, Великобритания)',
+        info: 'Ж: Наталья Виноградова - 2, Светлана Миронова - 2, Татьяна Рябкина - 5. М: Андрей Козырев - 26, Валентин Новиков - 20, Дмитрий Цветков - 17.',
+        link: 'https://swann74.livejournal.com/96986.html',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/2015wocRelayM1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/2015wocRelayM2/',
@@ -4532,6 +4655,8 @@ let iofEvents = [
         date: '2015-08-07',
         name: 'WOC #6, лонг',
         place: 'Inverness, Nairn, Scotland, UK (Инвернесс, Нэрн, Шотландия, Великобритания)',
+        info: 'Светлана Миронова - 3, Наталья Виноградова - 5, Татьяна Рябкина - 12, Наталья Ефимова - 17, Дмитрий Поляков - 42, Андрей Козырев - 43, Дмитрий Цветков - сошёл.',
+        link: 'https://swann74.livejournal.com/97275.html',
         res: [
             'http://obasen.orientering.se/winsplits/online/en/default.asp?page=table&databaseId=37757&categoryId=0',
             'http://obasen.orientering.se/winsplits/online/en/default.asp?page=table&databaseId=37757&categoryId=1'
@@ -4591,6 +4716,7 @@ let iofEvents = [
         date: '2015-08-18',
         name: 'WMTBOC #1, миддл',
         place: 'Liberec, Czech Republic (Либерец, Чехия)',
+        info: 'М: Антон Фолифоров - 1.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20150818h/',
             'W': 'https://www.tulospalvelu.fi/gps/20150818d/'
@@ -4611,6 +4737,7 @@ let iofEvents = [
         date: '2015-08-19',
         name: 'WMTBOC #2, спринт',
         place: 'Liberec, Czech Republic (Либерец, Чехия)',
+        info: 'Ж: Светлана Поверина - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20150819h/',
             'W': 'https://www.tulospalvelu.fi/gps/20150819d/'
@@ -4634,6 +4761,7 @@ let iofEvents = [
         date: '2015-08-21',
         name: 'WMTBOC #3, лонг',
         place: 'Liberec, Czech Republic (Либерец, Чехия)',
+        info: 'Ж: Светлана Поверина - 2. М: Антон Фолифоров - 1.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20150821h/',
             'W': 'https://www.tulospalvelu.fi/gps/20150821d/'
@@ -4654,6 +4782,7 @@ let iofEvents = [
         date: '2015-08-22',
         name: 'WMTBOC #4, эстафета',
         place: 'Liberec, Czech Republic (Либерец, Чехия)',
+        info: 'Ж: Татьяна Репина, Анастасия Большова, Светлана Поверина - 2. М: Руслан Грицан, Валерий Глухов, Антон Фолифоров - 2.',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20150822h1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/20150822h2/',
@@ -4681,6 +4810,7 @@ let iofEvents = [
         date: '2016-02-29',
         endDate: '2016-03-05', // ru.wikipedia ошибочно: 19–25 января, Хохфильцен
         place: 'Obertilliach, Austria (Обертиллиах, Австрия)',
+        info: 'Спринт — Ж: Алёна Трапезникова - 2, Мария Кечкина - 3; М: Андрей Ламов - 2. Миддл — Ж: Мария Кечкина - 1, Татьяна Оборина - 3; М: Андрей Ламов - 2. Лонг — Ж: Мария Кечкина - 1, Алёна Трапезникова - 2; М: Эдуард Хренников - 2. Спринт-эстафета — Алёна Трапезникова, Андрей Ламов - 1, Мария Кечкина, Эдуард Хренников - 2. Эстафета — Ж: Ксения Третьякова, Полина Фролова, Юлия Тарасенко - 2; М: Андрей Григорьев, Эдуард Хренников, Андрей Ламов - 2.',
         name: 'Чемпионат Европы (SKI-EOC)',
         link: [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften',
@@ -4736,6 +4866,7 @@ let iofEvents = [
         date: '2016-05-21',
         name: 'EOC #1, спринт-эстафета',
         place: 'Jeseník, Czech Republic (Есеник, Чехия)',
+        info: 'Наталья Гемперле, Глеб Тихонов, Андрей Храмов, Галина Виноградова - 1.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5352',
         gps: {
             '1': 'https://www.tulospalvelu.fi/gps/20160521_1/',
@@ -4764,6 +4895,7 @@ let iofEvents = [
         date: '2016-05-22',
         name: 'EOC #2, спринт (квалификация и финал)',
         place: 'Jeseník, Czech Republic (Есеник, Чехия)',
+        info: 'Ж: Галина Виноградова - 3.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5094',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20160522MFA/',
@@ -4823,6 +4955,7 @@ let iofEvents = [
         date: '2016-05-24',
         name: 'EOC #4, лонг',
         place: 'Jeseník, Czech Republic (Есеник, Чехия)',
+        info: 'Ж: Светлана Миронова - 3.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5096',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20160524MFA/',
@@ -4900,6 +5033,7 @@ let iofEvents = [
         date: '2016-05-28',
         name: 'EOC #7, эстафета',
         place: 'Jeseník, Czech Republic (Есеник, Чехия)',
+        info: 'Ж: Анастасия Рудная, Наталья Гемперле, Светлана Миронова - 3.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5099',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20160528M_1/',
@@ -4978,6 +5112,7 @@ let iofEvents = [
         date: '2016-07-25',
         name: 'WMTBOC #1, спринт',
         place: 'Aveiro, Coimbra, Portugal (Авейру, Коимбра, Португалия)',
+        info: 'М: Антон Фолифоров - 1.',
         maps: [
             'https://web.archive.org/web/20161103234146id_/http://mtbo16.fpo.pt/mtbo/files/mapas/sprint/ME.png', // спринт, ME
             'https://web.archive.org/web/20161103234158id_/http://mtbo16.fpo.pt/mtbo/files/mapas/sprint/WE.png' // спринт, WE
@@ -4993,6 +5128,7 @@ let iofEvents = [
         date: '2016-07-27',
         name: 'WMTBOC #2, миддл',
         place: 'Aveiro, Coimbra, Portugal (Авейру, Коимбра, Португалия)',
+        info: 'Ж: Ольга Шипилова-Виноградова - 1. М: Антон Фолифоров - 1, Руслан Грицан - 3.',
         maps: [
             'https://web.archive.org/web/20161103231628id_/http://mtbo16.fpo.pt/mtbo/files/mapas/middle/ME.png', // миддл, ME
             'https://web.archive.org/web/20161103231641id_/http://mtbo16.fpo.pt/mtbo/files/mapas/middle/WE.png' // миддл, WE
@@ -5008,6 +5144,7 @@ let iofEvents = [
         date: '2016-07-29',
         name: 'WMTBOC #3, лонг',
         place: 'Aveiro, Coimbra, Portugal (Авейру, Коимбра, Португалия)',
+        info: 'М: Антон Фолифоров - 1.',
         maps: [
             'https://web.archive.org/web/20161103234459id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(A)_01.png', // лонг, ME, вариант A, часть 1
             'https://web.archive.org/web/20161103234511id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(A)_02.png', // лонг, ME, вариант A, часть 2
@@ -5027,6 +5164,7 @@ let iofEvents = [
         date: '2016-07-30',
         name: 'WMTBOC #4, эстафета',
         place: 'Aveiro, Coimbra, Portugal (Авейру, Коимбра, Португалия)',
+        info: 'Ж: Екатерина Коломина, Ольга Шипилова-Виноградова, Светлана Поверина - 2. М: Валерий Глухов, Руслан Грицан, Антон Фолифоров - 2.',
         coord: [40.633333, -8.65],
         type: 'VELO',
         fmt: 'relay',
@@ -5071,6 +5209,8 @@ let iofEvents = [
         date: '2016-08-20',
         name: 'WOC #1, спринт',
         place: 'Strömstad, Tanum, Sweden (Стрёмстад, Танум, Швеция)',
+        info: 'Наталья Гемперле (Виноградова) - 4, Анна Дворянская - 27, Анастасия Рудная - снята, Андрей Храмов - 19, Игорь Попов - снят, Дмитрий Поляков - не вышел в финал.',
+        link: 'https://swann74.livejournal.com/107963.html',
         res: [
             'https://eventor.orienteering.org/Documents/Event/935/1/Official-results-MEN',
             'https://eventor.orienteering.org/Documents/Event/936/1/Official-results-WOMEN'
@@ -5100,6 +5240,8 @@ let iofEvents = [
         date: '2016-08-21',
         name: 'WOC #2, спринт-эстафета',
         place: 'Strömstad, Tanum, Sweden (Стрёмстад, Танум, Швеция)',
+        info: 'Наталья Гемперле (Виноградова) - 2, Игорь Попов, Андрей Храмов - 7, Галина Виноградова - 5.',
+        link: 'https://swann74.livejournal.com/108216.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5357',
         gps: {
             '1': 'https://www.tulospalvelu.fi/gps/20160821WOCSrelay1/',
@@ -5138,6 +5280,8 @@ let iofEvents = [
         date: '2016-08-23',
         name: 'WOC #3, миддл',
         place: 'Strömstad, Tanum, Sweden (Стрёмстад, Танум, Швеция)',
+        info: 'Наталья Гемперле (Виноградова) - 3, Дмитрий Цветков - 13, Валентин Новиков - 23.',
+        link: 'https://swann74.livejournal.com/108521.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5355',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20160823WOCMiddleM/',
@@ -5167,6 +5311,8 @@ let iofEvents = [
         date: '2016-08-25',
         name: 'WOC #4, лонг',
         place: 'Strömstad, Tanum, Sweden (Стрёмстад, Танум, Швеция)',
+        info: 'Наталья Гемперле - 2, Анастасия Рудная - 13, Светлана Миронова - 20, Валентин Новиков - 22, Дмитрий Цветков - 25.',
+        link: 'https://swann74.livejournal.com/108764.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5356',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20160825WOCLongM/',
@@ -5197,6 +5343,8 @@ let iofEvents = [
         date: '2016-08-27',
         name: 'WOC #5, эстафета',
         place: 'Strömstad, Tanum, Sweden (Стрёмстад, Танум, Швеция)',
+        info: 'Ж: Анастасия Рудная - 4, Светлана Миронова - 2, Наталья Гемперле - 1. М: Андрей Храмов - 24, Валентин Новиков, Дмитрий Цветков - 15.',
+        link: 'https://swann74.livejournal.com/109027.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5358',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20160827WOCRelayM1/',
@@ -5262,6 +5410,7 @@ let iofEvents = [
         date: '2017-02-07',
         name: 'SKI-EOC #1, спринт',
         place: 'Imatra, Finland (Иматра, Финляндия)',
+        info: 'М: Андрей Ламов - 1, Сергей Горланов - 3.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2017esocMsprint/',
             'W': 'https://www.tulospalvelu.fi/gps/2017esocWsprint/'
@@ -5282,6 +5431,7 @@ let iofEvents = [
         date: '2017-02-08',
         name: 'SKI-EOC #2, спринт-эстафета',
         place: 'Imatra, Finland (Иматра, Финляндия)',
+        info: 'Полина Фролова, Андрей Ламов - 1, Мария Кечкина, Сергей Горланов - 3.',
         gps: {
             '135': 'https://www.tulospalvelu.fi/gps/2017esocWsrelay/',
             '246': 'https://www.tulospalvelu.fi/gps/2017esocMsrelay/'
@@ -5302,6 +5452,7 @@ let iofEvents = [
         date: '2017-02-09',
         name: 'SKI-EOC #3, лонг',
         place: 'Imatra, Finland (Иматра, Финляндия)',
+        info: 'Ж: Алёна Трапезникова - 1, Мария Кечкина - 3. М: Андрей Ламов - 1, Кирилл Веселов - 3.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2017esocMlong/',
             'W': 'https://www.tulospalvelu.fi/gps/2017esocWlong/'
@@ -5322,6 +5473,7 @@ let iofEvents = [
         date: '2017-02-11',
         name: 'SKI-EOC #4, миддл',
         place: 'Imatra, Finland (Иматра, Финляндия)',
+        info: 'Ж: Мария Кечкина - 2, Алёна Трапезникова - 3. М: Кирилл Веселов - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2017esocMmiddle/',
             'W': 'https://www.tulospalvelu.fi/gps/2017esocWmiddle/'
@@ -5342,6 +5494,7 @@ let iofEvents = [
         date: '2017-02-12',
         name: 'SKI-EOC #5, эстафета',
         place: 'Imatra, Finland (Иматра, Финляндия)',
+        info: 'Ж: Алёна Трапезникова, Полина Фролова, Мария Кечкина - 1. М: Владимир Барчуков, Эдуард Хренников, Сергей Горланов - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2017esocMrelay/',
             'W': 'https://www.tulospalvelu.fi/gps/2017esocWrelay/'
@@ -5361,6 +5514,7 @@ let iofEvents = [
         date: '2017-03-06',
         endDate: '2017-03-12',
         place: 'Krasnoyarsk, Russia (Красноярск, Россия)',
+        info: 'Спринт — Ж: Полина Фролова - 2; М: Андрей Ламов - 2, Сергей Горланов - 3. Миддл — Ж: Полина Фролова - 2. Лонг — Ж: Мария Кечкина - 1, Алёна Трапезникова - 2, Полина Фролова - 3; М: Кирилл Веселов - 2. Спринт-эстафета — Полина Фролова, Андрей Ламов - 2. Эстафета — Ж: Алёна Трапезникова, Полина Фролова, Мария Кечкина - 1; М: Андрей Григорьев, Кирилл Веселов, Андрей Ламов - 1.',
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
@@ -5425,6 +5579,8 @@ let iofEvents = [
         date: '2017-07-01',
         name: 'WOC #1, спринт',
         place: 'Tartu, Estonia (Тарту, Эстония)',
+        info: 'Наталья Гемперле - 2, Галина Виноградова - 3, Анастасия Рудная - 14, Игорь Попов - 23, Дмитрий Наконечный - 31.',
+        link: 'https://swann74.livejournal.com/114416.html',
         res: [
             'https://eventor.orienteering.org/Documents/Event/1507/1/Official-Results-Women',
             'https://eventor.orienteering.org/Documents/Event/1508/1/Official-Results-Men'
@@ -5460,6 +5616,8 @@ let iofEvents = [
         date: '2017-07-02',
         name: 'WOC #2, спринт-эстафета',
         place: 'Tartu, Estonia (Тарту, Эстония)',
+        info: 'Светлана Миронова - 9, Дмитрий Цветков - 8, Андрей Храмов - 3, Галина Виноградова - 5.',
+        link: 'https://swann74.livejournal.com/114602.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5739',
         gps: {
             '1': 'https://www.tulospalvelu.fi/gps/2017wocSRelay1/',
@@ -5492,6 +5650,8 @@ let iofEvents = [
         date: '2017-07-04',
         name: 'WOC #3, лонг',
         place: 'Tartu, Estonia (Тарту, Эстония)',
+        info: 'Наталья Гемперле - 3, Анастасия Рудная - 11, Наталья Ефимова - 21, Леонид Новиков - 2, Дмитрий Цветков - снят.',
+        link: 'https://swann74.livejournal.com/114761.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5740',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2017wocLongM/',
@@ -5520,6 +5680,8 @@ let iofEvents = [
         date: '2017-07-06',
         name: 'WOC #4, миддл',
         place: 'Tartu, Estonia (Тарту, Эстония)',
+        info: 'Светлана Миронова - 4, Наталья Гемперле - 7, Наталья Ефимова - 20, Дмитрий Цветков - 15, Валентин Новиков - 19. Последний чемпионат Тьерри Жоржу.',
+        link: 'https://swann74.livejournal.com/115094.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5741',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2017wocMiddleM/',
@@ -5548,6 +5710,8 @@ let iofEvents = [
         date: '2017-07-07',
         name: 'WOC #5, эстафета',
         place: 'Tartu, Estonia (Тарту, Эстония)',
+        info: 'Ж: Анастасия Рудная - 4, Светлана Миронова - 3, Наталья Гемперле - 2. М: Дмитрий Цветков - 13, Валентин Новиков - 9, Леонид Новиков - 6.',
+        link: 'https://swann74.livejournal.com/115219.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5742',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/2017wocRelayM1/',
@@ -5641,6 +5805,7 @@ let iofEvents = [
         date: '2017-08-03',
         name: 'EMTBOC #3, лонг',
         place: 'Orléans, France (Орлеан, Франция)',
+        info: 'Ж: Ольга Шипилова-Виноградова - 1. М: Руслан Грицан - 2.',
         res: [
             'https://web.archive.org/web/20200306084622id_/http://mtbo17.fr/images/documents/results_EMTBOC_WMMTBOC_day4_long_split.pdf' // лонг
         ],
@@ -5670,6 +5835,7 @@ let iofEvents = [
         date: '2017-08-05',
         name: 'EMTBOC #5, эстафета',
         place: 'Orléans, France (Орлеан, Франция)',
+        info: 'М: Антон Фолифоров, Валерий Глухов, Руслан Грицан - 2.',
         res: [
             'https://eventor-iof-storage.orientering.se/eventdocuments/5484/9cd304c4-f93e-4a5b-861c-b2b0aae69ae4/Relay_Results.pdf', // эстафета
             'https://web.archive.org/web/20200306084731id_/http://mtbo17.fr/images/documents/results_EMTBOC_WMMTBOC_day6_relay.pdf' // эстафета
@@ -5716,6 +5882,7 @@ let iofEvents = [
         date: '2017-08-21',
         name: 'WMTBOC #1, миддл',
         place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        info: 'Ж: Ольга Шипилова-Виноградова - 1. М: Антон Фолифоров - 2, Валерий Глухов - 3.',
         res: [
             'https://web.archive.org/web/20170828174034id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/Results_Middle.pdf', // миддл
             'https://web.archive.org/web/20170828211857id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/Results_Middle2.pdf' // миддл (2-я версия)
@@ -5735,6 +5902,7 @@ let iofEvents = [
         date: '2017-08-22',
         name: 'WMTBOC #2, масс-старт',
         place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        info: 'Ж: Ольга Шипилова-Виноградова - 2. М: Руслан Грицан - 2.',
         res: [
             'https://web.archive.org/web/20170828173701id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/Results_Mass.pdf' // масс-старт
         ],
@@ -5753,6 +5921,7 @@ let iofEvents = [
         date: '2017-08-23',
         name: 'WMTBOC #3, эстафета',
         place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        info: 'Ж: Анастасия Свирь, Светлана Поверина, Ольга Шипилова-Виноградова - 3. М: Григорий Медведев, Антон Фолифоров, Руслан Грицан - 3.',
         res: [
             'https://web.archive.org/web/20170828180030id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/Results_relay.pdf', // эстафета
             'https://web.archive.org/web/20170918080342id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/Results_relay2.pdf' // эстафета (2-я версия)
@@ -5774,6 +5943,7 @@ let iofEvents = [
         date: '2017-08-25',
         name: 'WMTBOC #4, лонг',
         place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        info: 'Ж: Ольга Шипилова-Виноградова - 3. М: Антон Фолифоров - 3.',
         res: [
             'https://web.archive.org/web/20170918043807id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/ResultsLong.pdf' // лонг
         ],
@@ -5792,6 +5962,7 @@ let iofEvents = [
         date: '2017-08-26',
         name: 'WMTBOC #5, спринт',
         place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        info: 'Ж: Ольга Шипилова-Виноградова - 3. М: Григорий Медведев - 1.',
         res: [
             'https://web.archive.org/web/20170918080320id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/ResultsSprint.pdf' // спринт
         ],
@@ -5836,6 +6007,7 @@ let iofEvents = [
         date: '2018-02-03',
         name: 'SKI-EOC #1, спринт',
         place: 'Velingrad, Bulgaria (Велинград, Болгария)',
+        info: 'М: Эдуард Хренников - 1.',
         res: [
             'https://web.archive.org/web/20180218214032id_/http://esoc2018.bg:80/wp-content/uploads/2018/02/results_ESOC_Sprint.pdf' // спринт
         ],
@@ -5850,6 +6022,7 @@ let iofEvents = [
         date: '2018-02-04',
         name: 'SKI-EOC #2, спринт-эстафета',
         place: 'Velingrad, Bulgaria (Велинград, Болгария)',
+        info: 'Анастасия Кравченко, Сергей Горланов - 3.',
         res: [
             'https://web.archive.org/web/20180219000204id_/http://esoc2018.bg:80/wp-content/uploads/2018/02/resultsESOC_Sprint_Relay.pdf' // спринт-эстафета
         ],
@@ -5864,6 +6037,7 @@ let iofEvents = [
         date: '2018-02-05',
         name: 'SKI-EOC #3, миддл',
         place: 'Velingrad, Bulgaria (Велинград, Болгария)',
+        info: 'Ж: Мария Кечкина - 2. М: Андрей Ламов - 1, Эдуард Хренников - 2.',
         res: [
             'https://web.archive.org/web/20180218214105id_/http://esoc2018.bg:80/wp-content/uploads/2018/02/results_ESOCJWSOCEYSOC_Middle.pdf' // миддл
         ],
@@ -5878,6 +6052,7 @@ let iofEvents = [
         date: '2018-02-07',
         name: 'SKI-EOC #4, лонг',
         place: 'Velingrad, Bulgaria (Велинград, Болгария)',
+        info: 'Ж: Мария Кечкина - 1, Анастасия Кравченко - 3.',
         res: [
             'https://web.archive.org/web/20180218214223id_/http://esoc2018.bg:80/wp-content/uploads/2018/02/results_ESOCJWSOCEYSOC_Long.pdf' // лонг
         ],
@@ -5892,6 +6067,7 @@ let iofEvents = [
         date: '2018-02-08',
         name: 'SKI-EOC #5, эстафета',
         place: 'Velingrad, Bulgaria (Велинград, Болгария)',
+        info: 'М: Владислав Киселёв, Эдуард Хренников, Андрей Ламов - 2.',
         res: [
             'https://web.archive.org/web/20180218214908id_/http://esoc2018.bg:80/wp-content/uploads/2018/02/Results_ESOCJWSOCEYSOC_relay.pdf' // эстафета
         ],
@@ -5929,6 +6105,7 @@ let iofEvents = [
         date: '2018-05-06',
         name: 'EOC #1, спринт (квалификация и финал)',
         place: 'Cadempino, Ticino, Switzerland (Кадемпино, Тичино, Швейцария)',
+        info: 'Ж: Наталья Гемперле - 3.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5400',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20180506_SF_M/',
@@ -6077,6 +6254,7 @@ let iofEvents = [
         date: '2018-05-13',
         name: 'EOC #6, лонг',
         place: 'Cadempino, Ticino, Switzerland (Кадемпино, Тичино, Швейцария)',
+        info: 'Ж: Наталья Гемперле - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20180513_L_M/',
             'W': 'https://www.tulospalvelu.fi/gps/20180513_L_W/'
@@ -6103,6 +6281,7 @@ let iofEvents = [
         date: '2018-06-27',
         endDate: '2018-07-01', // гонки 28 июня – 1 июля (27-го - масс-старт ветеранов)
         place: 'Budapest, Hungary (Будапешт, Венгрия)',
+        info: 'Миддл — Ж: Ольга Шипилова-Виноградова - 1, Светлана Поверина - 3; М: Руслан Грицан - 2. Лонг — Ж: Ольга Шипилова-Виноградова - 2; М: Руслан Грицан - 3. Смешанная эстафета — Ольга Шипилова-Виноградова, Валерий Глухов, Антон Фолифоров - 2.',
         name: 'Чемпионат Европы (EMTBOC)',
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
@@ -6177,6 +6356,8 @@ let iofEvents = [
         date: '2018-08-04',
         name: 'WOC #1, спринт',
         place: 'Riga, Sigulda, Latvia (Рига, Сигулда, Латвия)',
+        info: 'Галина Виноградова - 10, Наталья Гемперле - 9, Анастасия Рудная - 14, Игорь Попов - 9, Дмитрий Наконечный - 19.',
+        link: 'https://swann74.livejournal.com/123348.html',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2018wocSprintM/',
             'W': 'https://www.tulospalvelu.fi/gps/2018wocSprintW/'
@@ -6204,6 +6385,8 @@ let iofEvents = [
         date: '2018-08-05',
         name: 'WOC #2, спринт-эстафета',
         place: 'Riga, Sigulda, Latvia (Рига, Сигулда, Латвия)',
+        info: 'Анастасия Рудная - 4, Андрей Храмов - 7, Игорь Попов - 5, Галина Виноградова - 6.',
+        link: 'https://swann74.livejournal.com/123600.html',
         gps: {
             '1': 'https://www.tulospalvelu.fi/gps/2018wocSprintR1/',
             '2': 'https://www.tulospalvelu.fi/gps/2018wocSprintR2/',
@@ -6284,6 +6467,7 @@ let iofEvents = [
         date: '2018-08-08',
         name: 'WMTBOC #2, миддл',
         place: 'Zwettl, Austria (Цветль, Австрия)',
+        info: 'Ж: Ольга Шипилова-Виноградова - 1. М: Григорий Медведев - 3.',
         res: [
             'https://web.archive.org/web/20180826201821id_/http://www.wmtboc2018.at:80/files/middle_result.pdf' // миддл
         ],
@@ -6301,6 +6485,7 @@ let iofEvents = [
         date: '2018-08-09',
         name: 'WMTBOC #3, эстафета',
         place: 'Zwettl, Austria (Цветль, Австрия)',
+        info: 'Ж: Анастасия Свирь, Ольга Шипилова-Виноградова, Светлана Поверина - 2. М: Антон Фолифоров, Руслан Грицан, Григорий Медведев - 1.',
         coord: [48.603333, 15.168889],
         type: 'VELO',
         fmt: 'relay',
@@ -6312,6 +6497,7 @@ let iofEvents = [
         date: '2018-08-11',
         name: 'WMTBOC #4, лонг',
         place: 'Zwettl, Austria (Цветль, Австрия)',
+        info: 'Ж: Светлана Поверина - 3. М: Антон Фолифоров - 3.',
         res: [
             'https://web.archive.org/web/20180826201816id_/http://www.wmtboc2018.at:80/files/long_result.pdf' // лонг
         ],
@@ -6329,6 +6515,7 @@ let iofEvents = [
         date: '2018-08-12',
         name: 'WMTBOC #5, спринт',
         place: 'Zwettl, Austria (Цветль, Австрия)',
+        info: 'М: Антон Фолифоров - 1, Григорий Медведев - 2.',
         maps: [
             'https://web.archive.org/web/20181123132715id_/http://www.wmtboc2018.at:80/wmtboc2018/wp-content/uploads/Sprint-W21.pdf' // спринт, W21
         ],
@@ -6343,6 +6530,8 @@ let iofEvents = [
         date: '2018-08-07',
         name: 'WOC #3, миддл',
         place: 'Riga, Sigulda, Latvia (Рига, Сигулда, Латвия)',
+        info: 'Наталья Гемперле - 1, Татьяна Рябкина - 11, Анастасия Рудная - 14, Леонид Новиков - 9, Дмитрий Наконечный - 28.',
+        link: 'https://swann74.livejournal.com/123695.html',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2018wocMiddleM/',
             'W': 'https://www.tulospalvelu.fi/gps/2018wocMiddleW/'
@@ -6357,7 +6546,11 @@ let iofEvents = [
             'https://news.worldofo.com/wp-content/uploads/2018/08/mapmenwoc2018middle.png' // duplicate of https://www.tulospalvelu.fi/gps/2018wocMiddleM/map
         ],
         photo: 'https://photos.google.com/share/AF1QipPW-JF0TBuTpKy0F7zZhMI8VUKCpgViBaIFmGWRgj5xLByPcWqQCkC8q_T8N-dwCQ?key=RHdwbUZ5Qzlpd2dEMmtKOGQzd24xV213bHpJNDh3',
-        video: 'https://www.youtube.com/watch?v=p4gGIPayCGU',
+        video: [
+            'https://www.youtube.com/watch?v=p4gGIPayCGU',
+            'https://www.youtube.com/watch?v=_1PVuu5xGss', // мужчины, трансляция на русском, Another Way team
+            'https://www.youtube.com/watch?v=FaqRjOnZcdo' // женщины, трансляция на русском, Another Way team
+        ],
         coord: [56.948889, 24.106389],
         fmt: 'middle',
         start: 'WOC'
@@ -6368,6 +6561,8 @@ let iofEvents = [
         date: '2018-08-09',
         name: 'WOC #4, эстафета',
         place: 'Riga, Sigulda, Latvia (Рига, Сигулда, Латвия)',
+        info: 'Ж: Анастасия Рудная - 4, Татьяна Рябкина - 3, Наталья Гемперле - 3. М: Дмитрий Наконечный - 6, Юрий Тамбасов - 11, Леонид Новиков - 10.',
+        link: 'https://swann74.livejournal.com/123977.html',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/2018wocRelayM1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/2018wocRelayM2/',
@@ -6407,6 +6602,8 @@ let iofEvents = [
         date: '2018-08-11',
         name: 'WOC #5, лонг',
         place: 'Riga, Sigulda, Latvia (Рига, Сигулда, Латвия)',
+        info: 'Наталья Гемперле - 4, Татьяна Рябкина - 9, Светлана Миронова - 10, Леонид Новиков - 9, Юрий Тамбасов - 27.',
+        link: 'https://swann74.livejournal.com/124368.html',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2018wocLongM/',
             'W': 'https://www.tulospalvelu.fi/gps/2018wocLongW/'
@@ -6419,7 +6616,11 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2018wocLongM/map'
         ],
         photo: 'https://photos.google.com/share/AF1QipOCPQdg-xS-dhUVyv0TKR2bbyE7HKxlN_7MupBSZU_yeJIe9yfEzpUHhyPUQPoHwA?key=c3hRbVMtbzN4YmM2N2EwS3lkUDVBSWRFY1VOWGhn',
-        video: 'https://www.youtube.com/watch?v=En2zzzH-1nI',
+        video: [
+            'https://www.youtube.com/watch?v=En2zzzH-1nI',
+            // видео закрыто: https://www.youtube.com/watch?v=QVcykH_0AAY
+            'https://www.youtube.com/watch?v=DKd9sGBbuS0' // трансляция на русском, Another Way team
+        ],
         coord: [56.948889, 24.106389],
         fmt: 'long',
         start: 'WOC'
@@ -6429,6 +6630,7 @@ let iofEvents = [
         date: '2019-02-06',
         endDate: '2019-02-11', // de: 3–11 февраля; fi: 5–11
         place: 'Sarıkamış, Turkey (Сарыкамыш, Турция)',
+        info: 'Спринт — Ж: Алёна Трапезникова - 1. Миддл — Ж: Мария Кечкина - 3; М: Сергей Горланов - 3. Лонг — Ж: Мария Кечкина - 2; М: Андрей Ламов - 1. Спринт-эстафета — Алёна Трапезникова, Сергей Горланов - 1. Эстафета — Ж: Алёна Трапезникова, Татьяна Оборина, Мария Кечкина - 1; М: Владислав Киселёв, Эдуард Хренников, Сергей Горланов - 2.',
         name: 'Чемпионат Европы (SKI-EOC)',
         link: [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften',
@@ -6484,6 +6686,7 @@ let iofEvents = [
         date: '2019-03-20',
         name: 'SKI-WOC #1, лонг',
         place: 'Piteå, Sweden (Питео, Швеция)',
+        info: 'Ж: Алёна Трапезникова - 2, Мария Кечкина - 3. М: Андрей Ламов - 1.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2019wsoclongM/',
             'W': 'https://www.tulospalvelu.fi/gps/2019wsoclongW/'
@@ -6504,6 +6707,7 @@ let iofEvents = [
         date: '2019-03-21',
         name: 'SKI-WOC #2, спринт',
         place: 'Piteå, Sweden (Питео, Швеция)',
+        info: 'Ж: Мария Кечкина - 3. М: Сергей Горланов - 1, Эдуард Хренников - 3.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2019wsocsprintM/',
             'W': 'https://www.tulospalvelu.fi/gps/2019wsocsprintW/'
@@ -6524,6 +6728,7 @@ let iofEvents = [
         date: '2019-03-23',
         name: 'SKI-WOC #3, миддл',
         place: 'Piteå, Sweden (Питео, Швеция)',
+        info: 'Ж: Мария Кечкина - 1, Алёна Трапезникова - 3.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2019wsocmiddleM/',
             'W': 'https://www.tulospalvelu.fi/gps/2019wsocmiddleW/'
@@ -6544,6 +6749,7 @@ let iofEvents = [
         date: '2019-03-24',
         name: 'SKI-WOC #4, эстафета',
         place: 'Piteå, Sweden (Питео, Швеция)',
+        info: 'Ж: Алёна Трапезникова, Татьяна Оборина, Мария Кечкина - 1. М: Владислав Киселёв, Сергей Горланов, Андрей Ламов - 1.',
         res: [
             'https://eventor-iof-storage.orientering.se/eventdocuments/6263/8d102990-788c-4310-a849-607b088524ed/Resultat-Relay-Men.pdf', // мужчины
             'https://eventor-iof-storage.orientering.se/eventdocuments/6263/5dfed0bd-8c17-4d54-806a-2753edb582e3/Resultat-Relay-Women.pdf' // женщины
@@ -6593,6 +6799,7 @@ let iofEvents = [
         date: '2019-06-08',
         name: 'EMTBOC #1, смешанная эстафета',
         place: 'Wrocław, Strzelin, Poland (Вроцлав, Стшелин, Польша)',
+        info: 'Анастасия Свирь, Валерий Глухов, Антон Фолифоров - 2.',
         res: [
             'https://web.archive.org/web/20190713093246id_/http://emtboc2019.pl:80/wp-content/uploads/2019/06/EMTBOC19_relay_results.pdf' // эстафета
         ],
@@ -6607,6 +6814,7 @@ let iofEvents = [
         date: '2019-06-09',
         name: 'EMTBOC #2, спринт',
         place: 'Wrocław, Strzelin, Poland (Вроцлав, Стшелин, Польша)',
+        info: 'М: Валерий Глухов - 3.',
         res: [
             'https://web.archive.org/web/20190711090208id_/http://emtboc2019.pl:80/wp-content/uploads/2019/06/EMTBOC19_Results-sprint.pdf' // спринт
         ],
@@ -6621,6 +6829,7 @@ let iofEvents = [
         date: '2019-06-10',
         name: 'EMTBOC #3, масс-старт',
         place: 'Wrocław, Strzelin, Poland (Вроцлав, Стшелин, Польша)',
+        info: 'М: Антон Фолифоров - 1.',
         res: [
             'https://web.archive.org/web/20190713074829id_/http://emtboc2019.pl:80/wp-content/uploads/2019/06/EMTBOC19_Results_mass.pdf' // масс-старт
         ],
@@ -6666,6 +6875,7 @@ let iofEvents = [
         date: '2019-07-28',
         name: 'WMTBOC #1, спринт',
         place: 'Viborg, Denmark (Виборг, Дания)',
+        info: 'М: Григорий Медведев - 1, Антон Фолифоров - 2.',
         res: [
             'https://eventor-iof-storage.orientering.se/eventdocuments/5690/e87a172e-3932-498a-9a8e-7bbcca34a729/WMTBOC-Sprint-results-Men.pdf', // спринт, мужчины
             'https://eventor-iof-storage.orientering.se/eventdocuments/5690/693cc5bd-ecd2-4f22-8729-929171d70171/WMTBOC-Sprint-results-Women.pdf' // спринт, женщины
@@ -6681,6 +6891,7 @@ let iofEvents = [
         date: '2019-07-30',
         name: 'WMTBOC #2, миддл',
         place: 'Viborg, Denmark (Виборг, Дания)',
+        info: 'М: Антон Фолифоров - 2, Григорий Медведев - 3.',
         res: [
             'http://wmtboc2019.dk/wp-content/uploads/2019/07/WMTBOC-Middle-result-M21.pdf',
             'http://wmtboc2019.dk/wp-content/uploads/2019/07/WMTBOC-Middle-result-W21.pdf',
@@ -6698,6 +6909,7 @@ let iofEvents = [
         date: '2019-07-31',
         name: 'WMTBOC #3, лонг',
         place: 'Viborg, Denmark (Виборг, Дания)',
+        info: 'М: Руслан Грицан - 1, Антон Фолифоров - 3.',
         res: [
             'http://wmtboc2019.dk/wp-content/uploads/2019/07/WMTBOC-Long-result-M21.pdf',
             'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-Long-result-W21.pdf',
@@ -6715,6 +6927,7 @@ let iofEvents = [
         date: '2019-08-02',
         name: 'WMTBOC #4, масс-старт',
         place: 'Viborg, Denmark (Виборг, Дания)',
+        info: 'Ж: Анастасия Свирь - 3.',
         res: [
             'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-JWMTBOC-Mass-start-results.pdf',
             'https://eventor-iof-storage.orientering.se/eventdocuments/5690/a33a1772-5659-4d8b-9ed9-1663dc553249/WMTBOC-Mass-start-results-Men.pdf', // масс-старт, мужчины
@@ -6731,6 +6944,7 @@ let iofEvents = [
         date: '2019-08-03',
         name: 'WMTBOC #5, эстафета',
         place: 'Viborg, Denmark (Виборг, Дания)',
+        info: 'Ж: Анастасия Большова, Ольга Шипилова-Виноградова, Анастасия Свирь - 1. М: Антон Фолифоров, Валерий Глухов, Григорий Медведев - 1.',
         res: [
             'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-Relay-official-results-Men.pdf',
             'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-Relay-official-results-Women.pdf',
@@ -6799,6 +7013,9 @@ let iofEvents = [
         res: [
             'https://eventor.orienteering.org/Documents/Event/3174/1/Official-Results-Middle-Qualification'
         ],
+        video: [
+            'https://www.youtube.com/watch?v=qpDmoRBQxiQ' // бэкстейдж на русском, Aleksei Alekseyonok
+        ],
         coord: [59.333333, 11.333333], // координаты региона, не населённого пункта — уточнить
         fmt: 'middle',
         start: 'WOC'
@@ -6809,12 +7026,16 @@ let iofEvents = [
         date: '2019-08-14',
         name: 'WOC #2, лонг',
         place: 'Østfold, Norway (Эстфолл, Норвегия)',
+        info: 'Анастасия Рудная - 9, Наталья Гемперле - 11, Светлана Миронова - 14, Константин Серебряницкий - 28, Дмитрий Цветков - 35, Леонид Новиков - 36.',
+        link: 'https://swann74.livejournal.com/135140.html',
         maps: [
             'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Long_Men.png',
             'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Long_Women.png'
         ],
         video: [
-            'https://www.youtube.com/watch?v=5VTgQXfGFTI' // WOC 2019 - Long (Orienteering Tube)
+            'https://www.youtube.com/watch?v=5VTgQXfGFTI', // WOC 2019 - Long (Orienteering Tube)
+            // видео недоступно: https://www.youtube.com/watch?v=1rY2vpUoDJ0
+            'https://www.youtube.com/watch?v=vy_8EeRUAn8' // бэкстейдж на русском, Aleksei Alekseyonok
         ],
         coord: [59.333333, 11.333333], // координаты региона, не населённого пункта — уточнить
         fmt: 'long',
@@ -6826,6 +7047,8 @@ let iofEvents = [
         date: '2019-08-16',
         name: 'WOC #3, миддл',
         place: 'Østfold, Norway (Эстфолл, Норвегия)',
+        info: 'Наталья Гемперле - 3, Анастасия Рудная - 13, Светлана Миронова и Татьяна Рябкина - 18, Константин Серебряницкий - 21, Леонид Новиков - 28, Дмитрий Цветков - 29.',
+        link: 'https://swann74.livejournal.com/135222.html',
         res: [
             'https://eventor.orienteering.org/Documents/Event/3194/1/Official-Results-Men-Middle-Final'
         ],
@@ -6834,7 +7057,11 @@ let iofEvents = [
             'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Middle_Final_Women.png'
         ],
         video: [
-            'https://www.youtube.com/watch?v=8MlLgUU4S4Q' // WOC 2019 - Middle (Orienteering Tube)
+            'https://www.youtube.com/watch?v=8MlLgUU4S4Q', // WOC 2019 - Middle (Orienteering Tube)
+            // видео недоступно: https://www.youtube.com/watch?v=fFEcnn_418g
+            'https://www.youtube.com/watch?v=L_mE_n_Ld9U', // бэкстейдж на русском, Aleksei Alekseyonok
+            'https://www.youtube.com/watch?v=KiKF1N2RTJg', // middle test, бэкстейдж на русском, Aleksei Alekseyonok
+            'https://www.youtube.com/watch?v=GwcJ-GeXu5M' // Lundanes, GudonuS
         ],
         coord: [59.333333, 11.333333], // координаты региона, не населённого пункта — уточнить
         fmt: 'middle',
@@ -6846,8 +7073,11 @@ let iofEvents = [
         date: '2019-08-17',
         name: 'WOC #4, эстафета',
         place: 'Østfold, Norway (Эстфолл, Норвегия)',
+        info: 'Ж: Анастасия Рудная - 3, Татьяна Рябкина - 3, Наталья Гемперле - 3. М: Леонид Новиков - 8, Валентин Новиков - 8, Константин Серебряницкий - 12.',
+        link: 'https://swann74.livejournal.com/135575.html',
         video: [
             'https://www.youtube.com/watch?v=sieUsaz9xW0' // WOC 2019 Relay (Orienteering Tube)
+            // видео недоступно: https://www.youtube.com/watch?v=3qtSlABzIUs
         ],
         coord: [59.333333, 11.333333], // координаты региона, не населённого пункта — уточнить
         fmt: 'relay',
@@ -6885,6 +7115,7 @@ let iofEvents = [
         date: '2020-03-10',
         name: 'SKI-EOC #1, спринт',
         place: 'Khanty-Mansiysk, Russia (Ханты-Мансийск, Россия)',
+        info: 'Ж: Алёна Трапезникова - 1, Татьяна Оборина - 2, Марина Вяткина - 3. М: Сергей Горланов - 1, Владислав Киселёв - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2020esocSprintM/',
             'W': 'https://www.tulospalvelu.fi/gps/2020esocSprintW/'
@@ -6905,6 +7136,7 @@ let iofEvents = [
         date: '2020-03-11',
         name: 'SKI-EOC #2, миддл',
         place: 'Khanty-Mansiysk, Russia (Ханты-Мансийск, Россия)',
+        info: 'Ж: Татьяна Оборина - 1, Марина Вяткина - 2. М: Сергей Горланов - 1, Владислав Киселёв - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2020esocMiddleM/',
             'W': 'https://www.tulospalvelu.fi/gps/2020esocMiddleW/'
@@ -6925,6 +7157,7 @@ let iofEvents = [
         date: '2020-03-12',
         name: 'SKI-EOC #3, спринт-эстафета',
         place: 'Khanty-Mansiysk, Russia (Ханты-Мансийск, Россия)',
+        info: 'Алёна Трапезникова, Сергей Горланов - 1.',
         gps: {
             '135': 'https://www.tulospalvelu.fi/gps/2020esocSRelay135/',
             '246': 'https://www.tulospalvelu.fi/gps/2020esocSRelay246/'
@@ -6945,6 +7178,7 @@ let iofEvents = [
         date: '2020-03-14',
         name: 'SKI-EOC #4, лонг',
         place: 'Khanty-Mansiysk, Russia (Ханты-Мансийск, Россия)',
+        info: 'Ж: Марина Вяткина - 1, Татьяна Оборина - 3. М: Андрей Ламов - 1, Сергей Горланов - 2, Владислав Киселёв - 3.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2020esocLongM/',
             'W': 'https://www.tulospalvelu.fi/gps/2020esocLongW/'
@@ -6965,6 +7199,7 @@ let iofEvents = [
         date: '2020-03-15',
         name: 'SKI-EOC #5, эстафета',
         place: 'Khanty-Mansiysk, Russia (Ханты-Мансийск, Россия)',
+        info: 'Ж: Екатерина Степанова, Олеся Рязанова, Марина Вяткина - 2, Татьяна Оборина, Ксения Терехова, Алёна Трапезникова - 3. М: Владислав Киселёв, Сергей Горланов, Андрей Ламов - 1, Александр Павленко, Эдуард Хренников, Степан Малиновский - 2.',
         gps: {
             'M-12': 'https://www.tulospalvelu.fi/gps/2020esocRelayM12/',
             'M-3': 'https://www.tulospalvelu.fi/gps/2020esocRelayM3/',
@@ -7026,6 +7261,7 @@ let iofEvents = [
         date: '2021-02-24',
         name: 'SKI-WOC #1, спринт',
         place: 'Kääriku, Estonia (Кяэрику, Эстония)',
+        info: 'М: Владислав Киселёв - 1.',
         res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=6847&eventClassId=10495%20target=', // Women
             'https://eventor.orienteering.org/Events/ResultList?eventId=6847&eventClassId=10494' // Men
@@ -7051,6 +7287,7 @@ let iofEvents = [
         date: '2021-02-25',
         name: 'SKI-WOC #2, гонка преследования',
         place: 'Kääriku, Estonia (Кяэрику, Эстония)',
+        info: 'М: Андрей Ламов - 2, Владислав Киселёв - 3.',
         res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=6848&eventClassId=10496&eventRaceId=6921&overallResults=False', // Men
             'https://eventor.orienteering.org/Events/ResultList?eventId=6848&eventClassId=10497&eventRaceId=6921&overallResults=False' // Women
@@ -7078,6 +7315,7 @@ let iofEvents = [
         date: '2021-02-27',
         name: 'SKI-WOC #3, миддл',
         place: 'Kääriku, Estonia (Кяэрику, Эстония)',
+        info: 'Ж: Алёна Трапезникова - 3.',
         res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=6854&eventClassId=10503&eventRaceId=6927&overallResults=False', // Men
             'https://eventor.orienteering.org/Events/ResultList?eventId=6854&eventClassId=10504&eventRaceId=6927&overallResults=False' // Women
@@ -7104,6 +7342,7 @@ let iofEvents = [
         date: '2021-02-28',
         name: 'SKI-WOC #4, спринт-эстафета',
         place: 'Kääriku, Estonia (Кяэрику, Эстония)',
+        info: 'Алёна Трапезникова, Андрей Ламов - 1.',
         res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7177&groupBy=EventClass' // Relay
         ],
@@ -7287,6 +7526,7 @@ let iofEvents = [
         date: '2021-06-12',
         name: 'WMTBOC #1, масс-старт',
         place: 'Kuortane, Finland (Куортане, Финляндия)',
+        info: 'Ж: Светлана Фолифорова - 1. М: Антон Фолифоров - 3.',
         res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=6936&eventClassId=10684&eventRaceId=7014&overallResults=False', // results W21
             'https://eventor.orienteering.org/Events/ResultList?eventId=6936&eventClassId=10683&eventRaceId=7014&overallResults=False' // results M21
@@ -7314,6 +7554,7 @@ let iofEvents = [
         date: '2021-06-13',
         name: 'WMTBOC #2, спринт',
         place: 'Kuortane, Finland (Куортане, Финляндия)',
+        info: 'Ж: Светлана Фолифорова - 2. М: Валерий Глухов - 3.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2021wmtbocsprintM/',
             'W': 'https://www.tulospalvelu.fi/gps/2021wmtbocsprintw/'
@@ -7337,6 +7578,7 @@ let iofEvents = [
         date: '2021-06-14',
         name: 'WMTBOC #3, миддл',
         place: 'Kuortane, Finland (Куортане, Финляндия)',
+        info: 'Ж: Светлана Фолифорова - 1.',
         res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=6966&eventClassId=10698&eventRaceId=7044&overallResults=False', // W21
             'https://eventor.orienteering.org/Events/ResultList?eventId=6966&eventClassId=10697&eventRaceId=7044&overallResults=False' // M21
@@ -7391,6 +7633,7 @@ let iofEvents = [
         date: '2021-06-17',
         name: 'WMTBOC #5, эстафета',
         place: 'Kuortane, Finland (Куортане, Финляндия)',
+        info: 'М: Антон Фолифоров, Валерий Глухов, Григорий Медведев - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2021wmtbocRelayM/',
             'W': 'https://www.tulospalvelu.fi/gps/2021wmtbocRelayW/'
@@ -7468,6 +7711,7 @@ let iofEvents = [
         date: '2021-07-03',
         name: 'WOC #1, спринт (квалификация и финал)',
         place: 'Doksy, Czech Republic (Докси, Чехия)',
+        info: 'Ж: Наталья Гемперле - 2, Татьяна Рябкина - 21, Галина Виноградова - 23. М: Игорь Попов - 27, Дмитрий Наконечный - 40.',
         res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7059',
             'https://eventor.orienteering.org/Events/ResultList?eventId=7058&eventClassId=10832&eventRaceId=7136&overallResults=False', // Heat A
@@ -7543,7 +7787,8 @@ let iofEvents = [
             'https://www.youtube.com/watch?v=RlkfCa6skMU', // WOC 2021 - Terrain Preview Sprint (Český orienťák)
             'https://www.youtube.com/watch?v=xuLd5drwohk', // WOC 2021 - Course Preview Sprint Men Final (Český orienťák)
             'https://www.youtube.com/watch?v=XeS2T7H4JqY', // WOC 2021 - Course Preview Sprint Women Final (Český orienťák)
-            'https://www.youtube.com/watch?v=BpCaAEazoD4' // WOC 2021 - Sprint Aftermovie (Český orienťák)
+            'https://www.youtube.com/watch?v=BpCaAEazoD4', // WOC 2021 - Sprint Aftermovie (Český orienťák)
+            'https://www.youtube.com/watch?v=F1Oy-QcDFBQ' // трансляция на русском, O-SPORT.1
         ],
         coord: [50.564722, 14.655556],
         fmt: 'sprint',
@@ -7555,6 +7800,7 @@ let iofEvents = [
         date: '2021-07-04',
         name: 'WOC #2, спринт-эстафета',
         place: 'Doksy, Czech Republic (Докси, Чехия)',
+        info: 'Светлана Миронова - 10, Дмитрий Наконечный - 19, Игорь Попов - 11, Галина Виноградова - 13.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7060',
         gps: {
             '1': 'https://www.tulospalvelu.fi/gps/20210704SR1/',
@@ -7581,7 +7827,8 @@ let iofEvents = [
             'https://www.youtube.com/watch?v=We4CVX9YyEo', // WOC 2021 Sprint Relay (Orienteering Tube)
             'https://www.youtube.com/watch?v=vA2AxyMkpQA', // WOC 2021 - Terrain Preview Sprint Relay (Český orienťák)
             'https://www.youtube.com/watch?v=hslG1IhRcD8', // WOC 2021 - Course Preview Sprint Relay (Český orienťák)
-            'https://www.youtube.com/watch?v=Rro-ok2kXAg' // WOC 2021 - Sprint Relay Aftermovie (Český orienťák)
+            'https://www.youtube.com/watch?v=Rro-ok2kXAg', // WOC 2021 - Sprint Relay Aftermovie (Český orienťák)
+            'https://www.youtube.com/watch?v=BvURCfXH0m4' // трансляция на русском, O-SPORT.1
         ],
         coord: [50.564722, 14.655556],
         fmt: 'sprint relay',
@@ -7593,6 +7840,7 @@ let iofEvents = [
         date: '2021-07-06',
         name: 'WOC #3, миддл (квалификация и финал)',
         place: 'Doksy, Czech Republic (Докси, Чехия)',
+        info: 'Ж: Наталья Гемперле - 10, Татьяна Рябкина - 21, Анастасия Рудная - 36. М: Леонид Новиков - 15, Константин Серебряницкий - 17.',
         res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7062',
             'https://eventor.orienteering.org/Events/ResultList?eventId=7061&eventClassId=10837&eventRaceId=7139&overallResults=False', // Heat A
@@ -7662,7 +7910,8 @@ let iofEvents = [
             'https://www.youtube.com/watch?v=_n5LfFTSRWk', // WOC 2021 - Terrain Preview Middle (Český orienťák)
             'https://www.youtube.com/watch?v=GXi4QFNQEVs', // WOC 2021 - Course Preview Middle Men Final (Český orienťák)
             'https://www.youtube.com/watch?v=PBRmceBT2Vo', // WOC 2021 - Course Preview Middle Women Final (Český orienťák)
-            'https://www.youtube.com/watch?v=0ZxiWc1P-Wk' // WOC 2021 - Middle Aftermovie (Český orienťák)
+            'https://www.youtube.com/watch?v=0ZxiWc1P-Wk', // WOC 2021 - Middle Aftermovie (Český orienťák)
+            'https://www.youtube.com/watch?v=ahiTKhOhUZU' // трансляция на русском, O-SPORT.1
         ],
         coord: [50.564722, 14.655556],
         fmt: 'middle',
@@ -7674,6 +7923,7 @@ let iofEvents = [
         date: '2021-07-08',
         name: 'WOC #4, эстафета',
         place: 'Doksy, Czech Republic (Докси, Чехия)',
+        info: 'Ж: Анастасия Рудная - 3, Татьяна Рябкина - 6, Светлана Миронова - 4. М: Михаил Кулешов - 23, Константин Серебряницкий - 15, Леонид Новиков - 16.',
         res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7063',
             'https://eventor.orienteering.org/Events/ResultList?eventId=7063&eventClassId=10839', // Women
@@ -7717,7 +7967,8 @@ let iofEvents = [
             'https://www.youtube.com/watch?v=qTu8IaYCcdI', // WOC 2021 - Terrain Preview Long and Relay (Český orienťák)
             'https://www.youtube.com/watch?v=iY21Lp8mE3E', // WOC 2021 - Course Preview Relay Men (Český orienťák)
             'https://www.youtube.com/watch?v=l2ffzRZo4JU', // WOC 2021 - Course Preview Relay Women (Český orienťák)
-            'https://www.youtube.com/watch?v=pymrb8HABmQ' // WOC 2021 - Relay Aftermovie (Český orienťák)
+            'https://www.youtube.com/watch?v=pymrb8HABmQ', // WOC 2021 - Relay Aftermovie (Český orienťák)
+            'https://www.youtube.com/watch?v=Bcp3WeWHJic' // трансляция на русском, O-SPORT.1
         ],
         coord: [50.564722, 14.655556],
         fmt: 'relay',
@@ -7729,6 +7980,7 @@ let iofEvents = [
         date: '2021-07-09',
         name: 'WOC #5, лонг',
         place: 'Doksy, Czech Republic (Докси, Чехия)',
+        info: 'Ж: Наталья Гемперле - 2, Светлана Миронова - 14, Вероника Калинина - 32. М: Константин Серебряницкий - 23, Леонид Новиков - 30.',
         res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7064',
             'https://eventor.orienteering.org/Events/ResultList?eventId=7064&eventClassId=10841&eventRaceId=7142&overallResults=False', // Women
@@ -7755,7 +8007,8 @@ let iofEvents = [
             'https://www.youtube.com/watch?v=6Y2YpQxeQFk', // WOC 2021 Long (Orienteering Tube)
             'https://www.youtube.com/watch?v=O18ZSsebYas', // WOC 2021 - Course Preview Long Men (Český orienťák)
             'https://www.youtube.com/watch?v=2B7tQ_hd9yM', // WOC 2021 - Course Preview Long Women (Český orienťák)
-            'https://www.youtube.com/watch?v=9OMy8rVtkAU' // WOC 2021 - Long Aftermovie (Český orienťák)
+            'https://www.youtube.com/watch?v=9OMy8rVtkAU', // WOC 2021 - Long Aftermovie (Český orienťák)
+            'https://www.youtube.com/watch?v=VltN8I8PriQ' // трансляция на русском, O-SPORT.1
         ],
         coord: [50.564722, 14.655556],
         fmt: 'long',
@@ -7801,6 +8054,7 @@ let iofEvents = [
         date: '2021-10-08',
         name: 'EMTBOC #1, миддл',
         place: 'Abrantes, Portugal (Абрантеш, Португалия)',
+        info: 'М: Григорий Медведев - 2.',
         gps: {
             'M': 'https://events.loggator.com/ouwVSw',
             'W': 'https://events.loggator.com/FDi7MA'
@@ -7824,6 +8078,7 @@ let iofEvents = [
         date: '2021-10-09',
         name: 'EMTBOC #2, лонг',
         place: 'Abrantes, Portugal (Абрантеш, Португалия)',
+        info: 'М: Антон Фолифоров - 2.',
         gps: {
             'M': 'https://events.loggator.com/lp-9PQ',
             'W': 'https://events.loggator.com/BYC8hw'
@@ -7897,6 +8152,7 @@ let iofEvents = [
         date: '2022-01-22',
         name: 'SKI-EOC #1, спринт',
         place: 'Chepelare, Bulgaria (Чепеларе, Болгария)',
+        info: 'Ж: Марина Вяткина - 1, Татьяна Оборина - 3. М: Владислав Киселёв - 1, Эдуард Хренников - 2, Сергей Горланов - 3.',
         res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7339&eventRaceId=7430&overallResults=False', // All
             'https://eventor.orienteering.org/Events/ResultList?eventId=7339&eventClassId=12266&eventRaceId=7430&overallResults=False', // ESOC Women
@@ -7921,6 +8177,7 @@ let iofEvents = [
         date: '2022-01-24',
         name: 'SKI-EOC #2, миддл',
         place: 'Chepelare, Bulgaria (Чепеларе, Болгария)',
+        info: 'Ж: Мария Кечкина - 1, Татьяна Оборина - 3. М: Владислав Киселёв - 1, Андрей Ламов - 2.',
         res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7341&eventRaceId=7432&overallResults=False', // All
             'https://eventor.orienteering.org/Events/ResultList?eventId=7341&eventClassId=12276', // ESOC Women
@@ -7945,6 +8202,7 @@ let iofEvents = [
         date: '2022-01-25',
         name: 'SKI-EOC #3, спринт-эстафета',
         place: 'Chepelare, Bulgaria (Чепеларе, Болгария)',
+        info: 'Марина Вяткина, Владислав Киселёв - 1.',
         res: [
             'https://eventor.orienteering.org/Documents/Event/4962/1/Official-results---Sprint-relay' // Mixed
         ],
@@ -7968,6 +8226,7 @@ let iofEvents = [
         date: '2022-01-26',
         name: 'SKI-EOC #4, лонг',
         place: 'Chepelare, Bulgaria (Чепеларе, Болгария)',
+        info: 'Ж: Мария Кечкина - 1, Алёна Трапезникова - 3. М: Андрей Ламов - 3.',
         res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7342&groupBy=EventClass', // All
             'https://eventor.orienteering.org/Events/ResultList?eventId=7342&eventClassId=12287&eventRaceId=7433&overallResults=False', // ESOC Women
@@ -7994,6 +8253,7 @@ let iofEvents = [
         date: '2022-01-27',
         name: 'SKI-EOC #5, эстафета',
         place: 'Chepelare, Bulgaria (Чепеларе, Болгария)',
+        info: 'М: Владислав Киселёв, Сергей Горланов, Андрей Ламов - 1.',
         gps: {
             'Leg-1': 'https://gps.tracksport.eu/map/esoc-2022-realy-men',
             'Leg-2': 'https://gps.tracksport.eu/map/esoc-2022-realy-men-leg2',
