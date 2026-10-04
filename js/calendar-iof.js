@@ -5649,14 +5649,53 @@ let iofEvents = [
             // 'https://eventor-iof-storage.orientering.se/eventdocuments/6482/4152d7a3-b230-4ed4-9252-756648e0a8bb/Bulletin-3.pdf',
             'https://eventor-iof-storage.orientering.se/eventdocuments/6482/6c8d6d37-46a4-4124-8f1a-f918db8557cc/Bulletin-4.pdf'
         ],
-        res: 'https://eventor.orienteering.org/Events/Show/6482',
+        res: [
+            'https://eventor.orienteering.org/Events/Show/6482',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6847&eventClassId=10495%20target=', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6847&eventClassId=10494', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6848&eventClassId=10496&eventRaceId=6921&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6848&eventClassId=10497&eventRaceId=6921&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6854&eventClassId=10503&eventRaceId=6927&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6854&eventClassId=10504&eventRaceId=6927&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7177&groupBy=EventClass' // Relay
+        ],
         maps: [
             // старые карты района (IOF Eventor)
             'https://eventor-iof-storage.orientering.se/eventdocuments/6482/d3af3e1c-ae3e-41ac-803d-9ffd393cb030/Old-maps-1-ski-o-.gif',
             'https://eventor-iof-storage.orientering.se/eventdocuments/6482/3a618469-5f14-4c76-ab72-855ce7d07f90/Old-maps-2-Tartu-Kevad-.jpg',
-            'https://eventor-iof-storage.orientering.se/eventdocuments/6482/a682430d-6ccb-4832-9a27-1bce1965cf46/Old-maps-3-.jpg'
+            'https://eventor-iof-storage.orientering.se/eventdocuments/6482/a682430d-6ccb-4832-9a27-1bce1965cf46/Old-maps-3-.jpg',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-sprint-women.png', // Women
+            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-sprint-men.png', // Men
+            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-pursuit-men.png', // Men
+            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-pursuit-women.png', // Women
+            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-middle-women.png', // Women
+            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-middle-men.png', // Men
+            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-sprintrelay-women.png', // Women
+            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-sprintrelay-men.png' // Men
         ],
-        video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJdiECUrMbJ5mCkbZ6GMj0IQ',
+        photo: [
+            'http://wsoc2021.peko.ee/sprint/', // Photos
+            'mailto:live@orienteering.sport', // live@orienteering.sport
+            'http://wsoc2021.peko.ee/pursuit-pictures/', // Race
+            'http://wsoc2021.peko.ee/prize-giving-ceremony-pictures/', // Prize giving
+            'http://wsoc2021.peko.ee/middle-pictures/', // Race
+            'http://wsoc2021.peko.ee/sprint-relay-pictures-2/' // Race
+        ],
+        video: [
+            'https://www.youtube.com/playlist?list=PLJxCa_0RthJdiECUrMbJ5mCkbZ6GMj0IQ',
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCSPRINT&l=en', // Live results All classes
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCLONG&l=en&c=MEN', // Live results Men
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCLONG&l=en&c=WOMEN', // Live results Women
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCMIDDLE&l=en&c=MEN', // Live results Men
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCMIDDLE&l=en&c=WOMEN', // Live results Women
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCRELAY&l=en&c=SR@1', // Live results Leg 1
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCRELAY&l=en&c=SR@2', // Live results Leg 2
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCRELAY&l=en&c=SR@3', // Live results Leg 3
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCRELAY&l=en&c=SR@4', // Live results Leg 4
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCRELAY&l=en&c=SR@5', // Live results Leg 5
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCRELAY&l=en&c=SR@6' // Live results Leg 6
+        ],
         coord: [58.006944, 26.395],
         type: 'SKI',
         fmt: 'sprint, middle, pursuit, sprint relay',
@@ -5810,6 +5849,10 @@ let iofEvents = [
         date: '2021-06-12',
         name: 'WMTBOC #1, масс-старт',
         place: 'Kuortane, Finland (Куортане, Финляндия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6936&eventClassId=10684&eventRaceId=7014&overallResults=False', // results W21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6936&eventClassId=10683&eventRaceId=7014&overallResults=False' // results M21
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2021wmtbocmassM/',
             'W': 'https://www.tulospalvelu.fi/gps/2021wmtbocmassW/'
@@ -5850,6 +5893,10 @@ let iofEvents = [
         date: '2021-06-14',
         name: 'WMTBOC #3, миддл',
         place: 'Kuortane, Finland (Куортане, Финляндия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6966&eventClassId=10698&eventRaceId=7044&overallResults=False', // W21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6966&eventClassId=10697&eventRaceId=7044&overallResults=False' // M21
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2021wmtbocMiddleM/',
             'W': 'https://www.tulospalvelu.fi/gps/2021wmtbocMiddleW/'
@@ -5870,6 +5917,10 @@ let iofEvents = [
         date: '2021-06-16',
         name: 'WMTBOC #4, лонг',
         place: 'Kuortane, Finland (Куортане, Финляндия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6967&eventClassId=10700&eventRaceId=7045&overallResults=False', // W21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6967&eventClassId=10699&eventRaceId=7045&overallResults=False' // M21
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2021wmtbocLongM/',
             'W': 'https://www.tulospalvelu.fi/gps/2021wmtbocLongW/'
@@ -5877,7 +5928,7 @@ let iofEvents = [
         maps: [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/2021wmtbocLongM/map',
-            'https://www.tulospalvelu.fi/gps/2021wmtbocLongW/map'
+            'https://www.tulospalvelu.fi/gps/2021wmtbocLongW/map',
         ],
         coord: [62.808333, 23.508333],
         type: 'VELO',
@@ -5922,7 +5973,34 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/5814/093f5407-4bae-4597-9947-02d533df0964/Bulletin-4.pdf'
         ],
         res: 'https://eventor.orienteering.org/Events/Show/5814',
-        video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJcProRnV7rbXnDjr8zuke4N',
+        video: [
+            'https://www.youtube.com/playlist?list=PLJxCa_0RthJcProRnV7rbXnDjr8zuke4N',
+            'https://www.youtube.com/watch?v=GXiA30vRt8Y', // Český rozhlas Sport - pozvánka na Czech O Tour 2022 Jizerky
+            'https://www.youtube.com/watch?v=NDWdjShBsqc', // Czech Orienteering Tour 2022 - teaser
+            'https://www.youtube.com/watch?v=j8EGq8NNCas', // Radiožurnál Sport - Czech Orienteering Tour 2022
+            'https://www.youtube.com/watch?v=CmiAX9Q9ICE', // Velké závody v Česku 2021- Sport roku 2021 - Česká televize
+            'https://www.youtube.com/watch?v=omaZOD476w4', // Czech Turism - partner MS v orientačním běhu 2021
+            'https://www.youtube.com/watch?v=2wxTtDHLfiI', // →→ WOC2021 ←←
+            'https://www.youtube.com/watch?v=6zY_6sMhqC0', // Heřmánky LONG | WOC Aftermovie
+            'https://www.youtube.com/watch?v=wktJdsXJdJQ', // Heřmánky RELAY | WOC Aftermovie
+            'https://www.youtube.com/watch?v=SkR4AV2iXbU', // Smržovka MIDDLE | WOC Aftermovie
+            'https://www.youtube.com/watch?v=9swlZFtUhC8', // Middle | WOC Minutes
+            'https://www.youtube.com/watch?v=aMObfHnt8a0', // Doksy SPRINT RELAY | WOC Aftermovie
+            'https://www.youtube.com/watch?v=v5RSWgr7Vb8', // Sprint relay | WOC Minutes
+            'https://www.youtube.com/watch?v=kaaHv1yDetA', // Terezín SPRINT | WOC After Movie
+            'https://www.youtube.com/watch?v=uM9lU2F9R0U', // Sprint | WOC Minutes
+            'https://www.youtube.com/watch?v=3qYZOHPywFk', // Konrad brewery | WOC Insight
+            'https://www.youtube.com/watch?v=pckiU053cl8', // Teaser WOC2021
+            'https://www.youtube.com/watch?v=hVlQ_aDw-Ww', // Event center Doksy | WOC Insight
+            'https://www.youtube.com/watch?v=7jYGfnzEoFA', // WOC Training Camps | WOC Insight
+            'https://www.youtube.com/watch?v=Nm0b0vxLG3U', // Do not enter embargoed areas! | WOC Insight
+            'https://www.youtube.com/watch?v=vUZOXKWR3uE', // Beauties of Czech sandstones! | WOC Insight
+            'https://www.youtube.com/watch?v=lgjLjXCrEoM', // Start training for WOC 2021! | WOC Insight
+            'https://www.youtube.com/watch?v=0wdYepxPjaA&list=PLRTNOodILN0eBpudzBOKAoAiVnKlXtdPj', // Warm up with Pre-WOC Interviews with Athletes!
+            'https://www.srf.ch/play/tv/-/video/orientierungslauf-wm-in-doksy-sprint-frauenmaenner?urn=urn:swisstxt:video:srf:1714630',
+            'https://tv.nrk.no/serie/orientering/2021',
+            'https://tv.orf.at/suche104~_category-Laufsport_-0bbd399b9070e687426b3a10360fc20191fd1cf9.html?categories=Laufsport'
+        ],
         coord: [50.564722, 14.655556],
         fmt: 'sprint, middle, long, relay, sprint relay',
         start: 'WOC'
@@ -5933,7 +6011,18 @@ let iofEvents = [
         date: '2021-07-03',
         name: 'WOC #1, спринт (квалификация и финал)',
         place: 'Doksy, Czech Republic (Докси, Чехия)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7059',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7059',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7058&eventClassId=10832&eventRaceId=7136&overallResults=False', // Heat A
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7058&eventClassId=11675&eventRaceId=7136&overallResults=False', // Heat B
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7058&eventClassId=11677&eventRaceId=7136&overallResults=False', // Heat C
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7058&eventClassId=10831&eventRaceId=7136&overallResults=False', // Heat A
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7058&eventClassId=11674&eventRaceId=7136&overallResults=False', // Heat B
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7058&eventClassId=11676&eventRaceId=7136&overallResults=False', // Heat C
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7058&eventRaceId=7136&overallResults=False', // All
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7059&eventClassId=10834&eventRaceId=7137&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7059&eventClassId=10833&eventRaceId=7137&overallResults=False' // Men
+        ],
         gps: {
             'M-QA': 'https://www.tulospalvelu.fi/gps/20210703MA/',
             'M-QB': 'https://www.tulospalvelu.fi/gps/20210703MB/',
@@ -5966,11 +6055,31 @@ let iofEvents = [
             'https://woc2021.cz/wp-content/uploads/2021/07/Sprint-Final-Women.pdf',
             'https://news.worldofo.com/wp-content/uploads/2021/07/map_sprint_men.jpg', // duplicate of https://www.tulospalvelu.fi/gps/20210703M/map
             'https://mapy.ceskyorientak.cz/data/jpg/11615X.jpg',
-            'https://mapy.ceskyorientak.cz/data/jpg/11616X.jpg'
+            'https://mapy.ceskyorientak.cz/data/jpg/11616X.jpg',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-sprint-qual-women-a.pdf', // Heat A
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-sprint-qual-women-b.pdf', // Heat B
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-sprint-qual-women-c.pdf', // Heat C
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-sprint-qual-men-a.pdf', // Heat A
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-sprint-qual-men-b.pdf', // Heat B
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-sprint-qual-men-c.pdf', // Heat C
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-sprint-final-women.pdf', // Women
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-sprint-final-men.pdf' // Men
         ],
         photo: [
             'https://photos.google.com/share/AF1QipMD6bzZb_e6YKoeNCXcR7Ssy7FvDSOscjuK876ikjpCXNlDfMW5ZcQiF1TCs3L2eg?key=blljeVVHbnlSWG1NNHh0dnVqZGo2cnRESkFhenpB',
-            'https://photos.app.goo.gl/k7cLmu5ZuDiPw1tt6'
+            'https://photos.app.goo.gl/k7cLmu5ZuDiPw1tt6',
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FQualification%2FStart%20%28by%20Petr%20Kade%C5%99%C3%A1vek%29', // Start
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E_cnRpbWU9SElTbUpRVV8yVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FQualification%2FFortress%20-%20Ji%C5%99%C3%AD%20%C4%8Cech', // Fortress
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E_cnRpbWU9SElTbUpRVV8yVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FQualification%2FTom%C3%A1%C5%A1%20Bubela%20-%20FB%20bubos%20-%20IG%20bubos12', // Wall
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E_cnRpbWU9SElTbUpRVV8yVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FQualification%2FLast%20controls%20and%20finish', // Last control & finish
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FStart%20and%20Finish%20by%20Tom%C3%A1%C5%A1%20Bubela%20%2D%20FB%20bubos%20%2D%20IG%20bubos12', // Start & Finish
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FFortress%20by%20Lukas%20Budinsky', // Fortress
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FFortress%20%28by%20Ji%C5%99%C3%AD%20%C4%8Cech%29', // Fortress
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FFortress%20tunnel%20and%20prizegiving%20%28by%20Petr%20Kade%C5%99%C3%A1vek%29', // Tunnels & prizegiving
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FStart%2Efinish%20arena%20and%20fortress%20by%20Petr%20H%C3%A1p', // Arena & fortress
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FFlower%20ceremony%20and%20press%20conference%20by%20Ji%C5%99%C3%AD%20%C4%8Cech', // Flower ceremony & press conference
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FMedal%20ceremony%20%28by%20Petr%20Kade%C5%99%C3%A1vek%29' // Medal ceremony
         ],
         coord: [50.564722, 14.655556],
         fmt: 'sprint',
@@ -6015,7 +6124,17 @@ let iofEvents = [
         date: '2021-07-06',
         name: 'WOC #3, миддл (квалификация и финал)',
         place: 'Doksy, Czech Republic (Докси, Чехия)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7062',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7062',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7061&eventClassId=10837&eventRaceId=7139&overallResults=False', // Heat A
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7061&eventClassId=11687&eventRaceId=7139&overallResults=False', // Heat B
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7061&eventClassId=11689&eventRaceId=7139&overallResults=False', // Heat C
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7061&eventClassId=10836&eventRaceId=7139&overallResults=False', // Heat A
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7061&eventClassId=11686&eventRaceId=7139&overallResults=False', // Heat B
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7061&eventClassId=11688&eventRaceId=7139&overallResults=False', // Heat C
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7062&eventClassId=10906&eventRaceId=7140&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7062&eventClassId=10905&eventRaceId=7140&overallResults=False' // Men
+        ],
         gps: {
             'M-QA': 'https://www.tulospalvelu.fi/gps/20210706MA/',
             'M-QB': 'https://www.tulospalvelu.fi/gps/20210706MB/',
@@ -6043,11 +6162,31 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20210706MC/map',
             'https://www.tulospalvelu.fi/gps/20210706WA/map',
             'https://www.tulospalvelu.fi/gps/20210706WB/map',
-            'https://www.tulospalvelu.fi/gps/20210706WC/map'
+            'https://www.tulospalvelu.fi/gps/20210706WC/map',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-middle-qual-women-a.pdf', // Heat A
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-middle-qual-women-b.pdf', // Heat B
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-middle-qual-women-c.pdf', // Heat C
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-middle-qual-men-a.pdf', // Heat A
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-middle-qual-men-b.pdf', // Heat B
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-middle-qual-men-c.pdf', // Heat C
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-middle-final-women.pdf', // Women
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-middle-final-men.pdf' // Men
         ],
         photo: [
             'https://photos.app.goo.gl/KyuitLxRv8ZfRHR38',
-            'https://photos.app.goo.gl/en3fQJwSKJBp99gd9'
+            'https://photos.app.goo.gl/en3fQJwSKJBp99gd9',
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FQualification%2FForest%20by%20Tom%C3%A1%C5%A1%20Bubela%20-%20FB%20bubos%20-%20IG%20bubos12', // Forest (1)
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FQualification%2FForest%20by%20Luk%C3%A1%C5%A1%20Bud%C3%ADnsk%C3%BD', // Forest (2)
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FQualification%2FForest%20by%20Petr%20H%C3%A1p', // Forest (3)
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FQualification%2FMeadow%20-%20men%20by%20Ji%C5%99%C3%AD%20%C4%8Cech', // Meadow (1)
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FQualification%2FMeadow%20-%20women%20by%20Ji%C5%99%C3%AD%20%C4%8Cech', // Meadow (2)
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FFinal%2FForest%20by%20Tom%C3%A1%C5%A1%20Bubela%20-%20FB%20bubos%20-%20IG%20bubos12', // Forest (1)
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FFinal%2FForest%20by%20Petr%20H%C3%A1p', // Forest (2)
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FFinal%2FForest%20by%20Luk%C3%A1%C5%A1%20Bud%C3%ADnsk%C3%BD', // Forest (3)
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FFinal%2FMeadow%20and%20finish%20-%20women%20by%20Ji%C5%99%C3%AD%20%C4%8Cech', // Meadow & finish, women
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FFinal%2FMeadow%20and%20finish%20-%20men%20by%20Ji%C5%99%C3%AD%20%C4%8Cech', // Meadow & finish, men
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FFinal%2FCeremonies%20by%20Ji%C5%99%C3%AD%20%C4%8Cech' // Ceremonies
         ],
         coord: [50.564722, 14.655556],
         fmt: 'middle',
@@ -6059,7 +6198,11 @@ let iofEvents = [
         date: '2021-07-08',
         name: 'WOC #4, эстафета',
         place: 'Doksy, Czech Republic (Докси, Чехия)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7063',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7063',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7063&eventClassId=10839', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7063&eventClassId=10838' // Men
+        ],
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20210708M1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/20210708M2/',
@@ -6081,12 +6224,19 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20210708M2/map',
             // 'https://omaps.worldofo.com/?id=301423',
             'https://news.worldofo.com/wp-content/uploads/2021/07/map_relay.jpg',
-            'https://mapy.ceskyorientak.cz/data/jpg/11622X.jpg'
+            'https://mapy.ceskyorientak.cz/data/jpg/11622X.jpg',
             // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/20210708M1/map', // duplicate of https://www.tulospalvelu.fi/gps/20210708M2/map
             // 'https://www.tulospalvelu.fi/gps/20210708W2/map', // duplicate of https://www.tulospalvelu.fi/gps/20210708W1/map
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-relay-women.pdf', // Women
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-relay-men.pdf' // Men
         ],
-        photo: 'https://photos.app.goo.gl/aZjZog34FkzBFCiC6',
+        photo: [
+            'https://photos.app.goo.gl/aZjZog34FkzBFCiC6',
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0V0STNBOEhka0M1T2tOTzc1bUhBaHZvQkxEUUVYV1ByNFlDR2VmNFI0R1lKTEE_cnRpbWU9S3B1aXdxVkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Relays%2FForest%20-%20Women%20by%20Luk%C3%A1%C5%A1%20Bud%C3%ADnsk%C3%BD', // Forest (1)
+            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0V0STNBOEhka0M1T2tOTzc1bUhBaHZvQkxEUUVYV1ByNFlDR2VmNFI0R1lKTEE_cnRpbWU9S3B1aXdxVkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Relays%2FForest%20by%20Tom%C3%A1%C5%A1%20Bubela%20-%20FB%20bubos%20-%20IG%20bubos12' // Forest (2)
+        ],
         coord: [50.564722, 14.655556],
         fmt: 'relay',
         start: 'WOC'
@@ -6097,7 +6247,11 @@ let iofEvents = [
         date: '2021-07-09',
         name: 'WOC #5, лонг',
         place: 'Doksy, Czech Republic (Докси, Чехия)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7064',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7064',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7064&eventClassId=10841&eventRaceId=7142&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7064&eventClassId=10840&eventRaceId=7142&overallResults=False' // Men
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20210709M/',
             'W': 'https://www.tulospalvelu.fi/gps/20210709W/'
@@ -6109,7 +6263,10 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=301489',
             'https://www.tulospalvelu.fi/gps/20210709M/map',
             'https://news.worldofo.com/wp-content/uploads/2021/07/map_men2.jpg', // duplicate of https://www.tulospalvelu.fi/gps/20210709M/map
-            'https://mapy.ceskyorientak.cz/data/jpg/11623X.jpg'
+            'https://mapy.ceskyorientak.cz/data/jpg/11623X.jpg',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-long-women.pdf', // Women
+            'https://orienteering.sport/wp-content/uploads/2021/07/woc-2021-map-long-men.pdf' // Men
         ],
         photo: 'https://photos.app.goo.gl/At6zUM4KE2Ewa8oDA',
         coord: [50.564722, 14.655556],
@@ -6235,7 +6392,44 @@ let iofEvents = [
             // 'https://eventor-iof-storage.orientering.se/eventdocuments/6981/f27ec23e-71ae-47ff-bff9-c78ceee9e5f9/Bulletin-3.pdf',
             'https://eventor-iof-storage.orientering.se/eventdocuments/6981/a3da1f3b-550c-4aeb-bcfe-2066f73c1492/Bulletin-4.pdf'
         ],
-        res: 'https://eventor.orienteering.sport/Events/Show/6981',
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/6981',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7339&eventRaceId=7430&overallResults=False', // All
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7339&eventClassId=12266&eventRaceId=7430&overallResults=False', // ESOC Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7339&eventClassId=12265&eventRaceId=7430&overallResults=False', // ESOC Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7339&eventClassId=12013&eventRaceId=7430&overallResults=False', // World Cup Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7339&eventClassId=12012&eventRaceId=7430&overallResults=False', // World Cup Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7341&eventRaceId=7432&overallResults=False', // All
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7341&eventClassId=12276', // ESOC Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7341&eventClassId=12275', // ESOC Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7341&eventClassId=12016', // World Cup Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7341&eventClassId=12015', // World Cup Men
+            'https://eventor.orienteering.org/Documents/Event/4962/1/Official-results---Sprint-relay', // Mixed
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7342&groupBy=EventClass', // All
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7342&eventClassId=12287&eventRaceId=7433&overallResults=False', // ESOC Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7342&eventClassId=12018&eventRaceId=7433&overallResults=False', // World Cup Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7342&eventClassId=12017&eventRaceId=7433&overallResults=False' // World Cup Men
+        ],
+        gps: {
+            'Men-re-live-published': 'https://gps.tracksport.eu/map/esoc-2022-sprint-men',
+            'Start-times-are-delayed-1-hour-due-to-lot-of-snow-in-the-are': 'https://gps.tracksport.eu/map/esoc-2022-middle-men',
+            'All-legs': 'https://gps.tracksport.eu/map/esoc-2022-sprint-relay',
+            'Men': 'https://gps.tracksport.eu/map/esoc-2022-long-men',
+            'Leg-1': 'https://gps.tracksport.eu/map/esoc-2022-realy-men',
+            'Leg-2': 'https://gps.tracksport.eu/map/esoc-2022-realy-men-leg2',
+            'Leg-3': 'https://gps.tracksport.eu/map/esoc-2022-realy-men-leg3'
+        },
+        maps: [
+            // TrackSport
+            'https://gps.tracksport.eu/storage/events/esoc-2022-sprint-men/layers/kmz/368059889c53b1a980719ff07ded2c09/files/tile_0_0.jpg',
+            'https://gps.tracksport.eu/storage/events/esoc-2022-middle-men/layers/kmz/4aec876e3b70569614cbbe29079fc542/files/tile_0_0.jpg',
+            'https://gps.tracksport.eu/storage/events/esoc-2022-sprint-relay/layers/kmz/ac8719c1f7121ecf0274ea93c208b3f3/files/tile_0_0.jpg',
+            'https://gps.tracksport.eu/storage/events/esoc-2022-long-men/layers/kmz/68fc60404fa3be45311305ce21c0d34c/files/tile_0_0.jpg'
+        ],
+        video: [
+            'https://www.youtube.com/watch?v=F4nwIuzSxJc', // Link to youtube
+            'https://www.youtube.com/watch?v=adLFW0TIsLc' // Link to youtube
+        ],
         coord: [41.725833, 24.684444],
         type: 'SKI',
         fmt: 'sprint, middle, long',
@@ -6265,6 +6459,9 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/6499/acc734d7-b9d8-4f57-85ef-98c6080c2d04/Kallinkangas-map.pdf',
             'https://eventor-iof-storage.orientering.se/eventdocuments/6499/2bc81a4e-55ae-473f-b758-c4099f36947c/Kallinkangas-Kallinh-nt--map.pdf'
         ],
+        photo: [
+            'https://wsoc2022.com/photos/' // Official webpage
+        ],
         video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJeH_izGbbC_0VgM4qi3N0WM',
         coord: [65.736111, 24.563611],
         type: 'SKI',
@@ -6277,6 +6474,11 @@ let iofEvents = [
         date: '2022-03-15',
         name: 'SKI-WOC #1, спринт',
         place: 'Kemi, Keminmaa, Finland (Кеми, Кеминмаа, Финляндия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7404&eventRaceId=7497&overallResults=False', // All
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7404&eventClassId=12162&eventRaceId=7497&overallResults=False', // WSOC Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7404&eventClassId=12161&eventRaceId=7497&overallResults=False' // WSOC Men
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2022wsocSprintM/',
             'W': 'https://www.tulospalvelu.fi/gps/2022wsocSprintW/'
@@ -6297,6 +6499,11 @@ let iofEvents = [
         date: '2022-03-16',
         name: 'SKI-WOC #2, гонка преследования',
         place: 'Kemi, Keminmaa, Finland (Кеми, Кеминмаа, Финляндия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7405&groupBy=EventClass', // All
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7405&eventClassId=12164&eventRaceId=7498&overallResults=False', // WSOC Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7405&eventClassId=12163&eventRaceId=7498&overallResults=False' // WSOC Men
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2022wsocPursuitM/',
             'W': 'https://www.tulospalvelu.fi/gps/2022wsocPursuitW/'
@@ -6317,6 +6524,11 @@ let iofEvents = [
         date: '2022-03-18',
         name: 'SKI-WOC #3, миддл',
         place: 'Kemi, Keminmaa, Finland (Кеми, Кеминмаа, Финляндия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7406&eventRaceId=7499&overallResults=False', // All
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7406&eventClassId=12166&eventRaceId=7499&overallResults=False', // WSOC Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7406&eventClassId=12165&eventRaceId=7499&overallResults=False' // WSOC Men
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2022wsocMiddleM/',
             'W': 'https://www.tulospalvelu.fi/gps/2022wsocMiddleW/'
@@ -6337,6 +6549,9 @@ let iofEvents = [
         date: '2022-03-19',
         name: 'SKI-WOC #4, спринт-эстафета',
         place: 'Kemi, Keminmaa, Finland (Кеми, Кеминмаа, Финляндия)',
+        res: [
+            'https://eventor.orienteering.org/Documents/Event/5122/2/Resluts-WSOC-and-World-Cup' // WSOC
+        ],
         gps: {
             'M-246': 'https://www.tulospalvelu.fi/gps/2022wsocRelayM/',
             'W-135': 'https://www.tulospalvelu.fi/gps/2022wsocRelayW/'
@@ -6369,7 +6584,14 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/6738/7b30d798-9cce-403d-8451-2f438f69d3c4/Bulletin-4.pdf'
         ],
         res: [
-            'https://eventor.orienteering.sport/Events/Show/6738' // IOF Eventor
+            'https://eventor.orienteering.sport/Events/Show/6738', // IOF Eventor
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7462&eventClassId=12334&eventRaceId=7555&overallResults=False', // Women 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7462&eventClassId=12333&eventRaceId=7555&overallResults=False', // Men 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7462&eventClassId=12336&eventRaceId=7555&overallResults=False', // Women 17
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7462&eventClassId=12335&eventRaceId=7555&overallResults=False' // Men 17
+        ],
+        photo: [
+            'https://www.facebook.com/pg/EMTBOC/photos/?tab=album&album_id=1785680628430329' // Official facebook
         ],
         video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJejin65EHVBItRn6BoE1Sa2',
         coord: [55.35, 26.166667],
@@ -6383,6 +6605,10 @@ let iofEvents = [
         date: '2022-05-20',
         name: 'EMTBOC #1, спринт',
         place: 'Ignalina, Lithuania (Игналина, Литва)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7438&eventClassId=12226&eventRaceId=7531&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7438&eventClassId=12225&eventRaceId=7531&overallResults=False' // Men
+        ],
         gps: {
             'M': 'https://sportrec.eu/gps/emtboc-sprint-men',
             'W': 'https://sportrec.eu/gps/emtboc-sprint-women'
@@ -6403,6 +6629,10 @@ let iofEvents = [
         date: '2022-05-21',
         name: 'EMTBOC #2, лонг',
         place: 'Ignalina, Lithuania (Игналина, Литва)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7439&eventClassId=12228&eventRaceId=7532&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7439&eventClassId=12227&eventRaceId=7532&overallResults=False' // Men
+        ],
         gps: {
             'M': 'https://sportrec.eu/gps/emtboc-long-men',
             'W': 'https://sportrec.eu/gps/emtboc-long-women'
@@ -6449,7 +6679,21 @@ let iofEvents = [
         ],
         res: 'https://eventor.orienteering.org/Events/Show/6864',
         photo: 'https://photos.app.goo.gl/CKN9fxocBgrS3onc9',
-        video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJdrWqAeeID6mbgFaRZc2I-J',
+        video: [
+            'https://www.youtube.com/playlist?list=PLJxCa_0RthJdrWqAeeID6mbgFaRZc2I-J',
+            'https://tv.nrk.no/serie/orientering/2022/MSPO31250522', // 17:20-18:45
+            'https://tv.nrk.no/serie/orientering/2022/MSPO31250622', // 17:45-19:40
+            'https://tv.nrk.no/serie/orientering/2022/MSPO31250822', // 17:50-20:00
+            'https://arenan.yle.fi/1-62877105', // 18:15
+            'https://arenan.yle.fi/1-62075371', // 18:25-20:40
+            'https://arenan.yle.fi/1-62075373', // 18:35-21:00
+            'https://www.ceskatelevize.cz/porady/15081356708-ms-v-orientacnim-behu-2022-dansko/322297371280001/', // 17:15-18:45
+            'https://www.ceskatelevize.cz/porady/15081356708-ms-v-orientacnim-behu-2022-dansko/322297371280002/', // 17:30-19:40
+            'https://www.ceskatelevize.cz/porady/15081356708-ms-v-orientacnim-behu-2022-dansko/222471291280001/', // 19:25-20:00
+            'https://tv.orf.at/program/orfs/liveorient106.html', // 18:00-18:50
+            'https://tv.orf.at/program/orfs/liveorient108.html', // 17:30-19:45
+            'https://tv.orf.at/program/orfs/liveorient110.html' // 17:40-20:00
+        ],
         coord: [55.491667, 9.5],
         fmt: 'sprint, knock-out, sprint relay',
         start: 'WOC'
@@ -6460,16 +6704,31 @@ let iofEvents = [
         date: '2022-06-26',
         name: 'WOC #1, спринт-эстафета',
         place: 'Kolding, Fredericia, Vejle, Denmark (Кольдинг, Фредерисия, Вайле, Дания)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7448',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7448',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7448&groupBy=EventClass' // Mixed class
+        ],
+        gps: {
+            'Leg-1': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/813c9cf0-d44f-013a-b936-021250fcae8c.json',
+            'Leg-2': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/a6e0fe30-d44f-013a-b938-021250fcae8c.json',
+            'Leg-3': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/a6e39a50-d44f-013a-b93a-021250fcae8c.json',
+            'Leg-4': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/a6e5ff70-d44f-013a-b93c-021250fcae8c.json'
+        },
         maps: [
             // 'https://news.worldofo.com/2022/06/27/woc-2022-sprint-relay-maps-results-and-analysis/',
             'https://news.worldofo.com/wp-content/uploads/2022/06/map_original_women-full.jpg',
             'https://news.worldofo.com/wp-content/uploads/2022/06/map_original_men-full.jpg',
             // IOF Eventor
             'https://eventor-iof-storage.orientering.se/eventdocuments/7448/75787d74-d38d-40d0-9173-c13653ecefe1/Map_Kolding_Men.pdf',
-            'https://eventor-iof-storage.orientering.se/eventdocuments/7448/1c9badcf-bf06-419e-891c-3901880abb57/Map_Kolding_Women.pdf'
+            'https://eventor-iof-storage.orientering.se/eventdocuments/7448/1c9badcf-bf06-419e-891c-3901880abb57/Map_Kolding_Women.pdf',
+            // карты (IOF LIVE)
+            'https://eventor.orienteering.org/Documents/Event/5412/1/Map_Kolding_Women', // Women
+            'https://eventor.orienteering.org/Documents/Event/5411/1/Map_Kolding_Men' // Men
         ],
-        photo: 'https://photos.google.com/share/AF1QipOsBChMAsaLvZ7LVl5AJnLQ_9H6vRKW0iha4jzCb2cSTjRbMw2ZD4mrkMOUqp2Vqw?key=TU5vN24wdWpiMHp1ZTVSckMyZGJYbHBGVlYwaU9R',
+        photo: [
+            'https://photos.google.com/share/AF1QipOsBChMAsaLvZ7LVl5AJnLQ_9H6vRKW0iha4jzCb2cSTjRbMw2ZD4mrkMOUqp2Vqw?key=TU5vN24wdWpiMHp1ZTVSckMyZGJYbHBGVlYwaU9R',
+            'https://photos.app.goo.gl/8wWZNin4GwzP6xqKA' // IOF Official
+        ],
         video: 'https://www.youtube.com/watch?v=2VZZA8WkAmQ',
         coord: [55.491667, 9.5],
         fmt: 'sprint relay',
@@ -6481,7 +6740,39 @@ let iofEvents = [
         date: '2022-06-28',
         name: 'WOC #2, нокаут-спринт (квалификация и финалы)',
         place: 'Kolding, Fredericia, Vejle, Denmark (Кольдинг, Фредерисия, Вайле, Дания)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7449',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7449',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7449&eventRaceId=7542&overallResults=False', // All races
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7449&eventClassId=12972&eventRaceId=7542&overallResults=False', // Women A
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7449&eventClassId=12973&eventRaceId=7542&overallResults=False', // Women B
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7449&eventClassId=12974&eventRaceId=7542&overallResults=False', // Women C
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7449&eventClassId=12949&eventRaceId=7542&overallResults=False', // Men A
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7449&eventClassId=12950&eventRaceId=7542&overallResults=False', // Men B
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7449&eventClassId=12951&eventRaceId=7542&overallResults=False' // Men C
+        ],
+        gps: {
+            'Qualification-Men-A': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/14b89490-d42b-013a-b2dd-021250fcae8c.json',
+            'Qualification-Men-B': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/39029f30-d42b-013a-b315-021250fcae8c.json',
+            'Qualification-Men-C': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/65bd9830-d42b-013a-b350-021250fcae8c.json',
+            'Quarter-finals-Women-1': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/242cb400-d42d-013a-b444-021250fcae8c.json',
+            'Quarter-finals-Women-2': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/46593110-d877-013a-5ecf-021250fcae8c.json',
+            'Quarter-finals-Women-3': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/4661c6a0-d877-013a-5edb-021250fcae8c.json',
+            'Quarter-finals-Women-4': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/4669d6b0-d877-013a-5ee7-021250fcae8c.json',
+            'Quarter-finals-Women-5': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/4671ec80-d877-013a-5ef3-021250fcae8c.json',
+            'Quarter-finals-Men-1': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/0a3bae00-d42d-013a-b421-021250fcae8c.json',
+            'Quarter-finals-Men-2': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/196c7d60-d877-013a-5e93-021250fcae8c.json',
+            'Quarter-finals-Men-3': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/1974a5b0-d877-013a-5e9f-021250fcae8c.json',
+            'Quarter-finals-Men-4': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/197c9eb0-d877-013a-5eab-021250fcae8c.json',
+            'Quarter-finals-Men-5': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/19844ee0-d877-013a-5eb7-021250fcae8c.json',
+            'Quarter-finals-Men-6': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/198c1410-d877-013a-5ec3-021250fcae8c.json',
+            'Semi-Finals-Women-2': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/c28f8250-d876-013a-5e59-021250fcae8c.json',
+            'Semi-Finals-Women-3': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/c2988bc0-d876-013a-5e67-021250fcae8c.json',
+            'Semi-Finals-Men-1': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/bafb49c0-d42d-013a-b467-021250fcae8c.json',
+            'Semi-Finals-Men-2': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/d93c5d80-d876-013a-5e75-021250fcae8c.json',
+            'Semi-Finals-Men-3': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/d945edd0-d876-013a-5e84-021250fcae8c.json',
+            'Finals-Women': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/76cc00a0-d42e-013a-b4eb-021250fcae8c.json',
+            'Finals-Men': 'https://live.tractrac.com/viewer/index.html?target=https://live.tractrac.com/events/event_20220626_WorldOrien/races/64db8880-d42e-013a-b4bc-021250fcae8c.json'
+        },
         maps: [
             // 'https://news.worldofo.com/2022/06/29/woc-2022-knock-out-sprint-maps-results-and-analysis/',
             'https://news.worldofo.com/wp-content/uploads/2022/06/map-men-q-A_3000.jpg',
@@ -6496,11 +6787,19 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/7449/757aa089-89b5-496b-812f-5ce47abca22d/Map_Fredericia_Quarter_Finals.pdf',
             'https://eventor-iof-storage.orientering.se/eventdocuments/7449/fe1c5365-f52e-4deb-b57d-c0e7bed370dd/Map_Fredericia_SemiFinals_Men.pdf',
             'https://eventor-iof-storage.orientering.se/eventdocuments/7449/c874a7f2-fc8d-401e-b986-414ba9e9743f/Map_Fredericia_SemiFinals_Women.pdf',
-            'https://eventor-iof-storage.orientering.se/eventdocuments/7449/dfdbb125-9f5b-41c8-afb8-6ff682f2681c/Map_Fredericia_Finals.pdf'
+            'https://eventor-iof-storage.orientering.se/eventdocuments/7449/dfdbb125-9f5b-41c8-afb8-6ff682f2681c/Map_Fredericia_Finals.pdf',
+            // карты (IOF LIVE)
+            'https://eventor.orienteering.org/Documents/Event/5416/1/Map_Fredericia_Qual_Part1of2', // Qualification map with all controls
+            'https://eventor.orienteering.org/Documents/Event/5417/1/Mao_Fredericia_Qual_Part_2of2', // Control descriptions for the classes
+            'https://eventor.orienteering.org/Documents/Event/5427/1/Map_Fredericia_Quarter_Finals', // Quarter final
+            'https://eventor.orienteering.org/Documents/Event/5432/1/Map_Fredericia_SemiFinals_Women', // Women
+            'https://eventor.orienteering.org/Documents/Event/5431/1/Map_Fredericia_SemiFinals_Men', // Men
+            'https://eventor.orienteering.org/Documents/Event/5435/1/Map_Fredericia_Finals' // Final
         ],
         photo: [
             'https://photos.app.goo.gl/LoDy1itTNSBMQEhB7',
-            'https://photos.app.goo.gl/MNNyjNP1n7RiGB1R9'
+            'https://photos.app.goo.gl/MNNyjNP1n7RiGB1R9',
+            'https://photos.google.com/share/AF1QipP0t2jKKV6bue9Bl_gtw3qQpzl8ueN2yDbVo-8ho2Z9Y_Dxn7OPuy9-1dfeEhoF1A?key=RHp0ci15ZVh2VnFDQzRHM0hZLWJjZ05waHY3TXN3' // Final
         ],
         video: [
             'https://www.youtube.com/watch?v=j3MxXDjS5ro',
@@ -6516,7 +6815,17 @@ let iofEvents = [
         date: '2022-06-30',
         name: 'WOC #3, спринт',
         place: 'Kolding, Fredericia, Vejle, Denmark (Кольдинг, Фредерисия, Вайле, Дания)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7450',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7450',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7450&eventClassId=12986&eventRaceId=7543&overallResults=False', // Heat A
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7450&eventClassId=12987&eventRaceId=7543&overallResults=False', // Heat B
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7450&eventClassId=12988&eventRaceId=7543&overallResults=False', // Heat C
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7450&eventClassId=12983&eventRaceId=7543&overallResults=False', // Heat A
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7450&eventClassId=12984&eventRaceId=7543&overallResults=False', // Heat B
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7450&eventClassId=12985&eventRaceId=7543&overallResults=False', // Heat C
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7450&eventClassId=12982&eventRaceId=7543&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7450&eventClassId=12981&eventRaceId=7543&overallResults=False' // Men
+        ],
         gps: {
             'all': 'https://tractrac.com/event-page/event_20220626_WorldOrien/2381'
         },
@@ -6528,9 +6837,17 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/7450/38fa1720-2010-427b-a4dc-1f7ec19d9230/Map_Vejle_Qualification_Part_1of2.pdf',
             'https://eventor-iof-storage.orientering.se/eventdocuments/7450/783478d3-adf7-41d5-ac8d-faaeda6a8d36/Map_Vejle_Qualification_Part_2of2.PDF',
             'https://eventor-iof-storage.orientering.se/eventdocuments/7450/96d70d0f-3141-4c40-a3fa-bd456d4907d0/Map_Vejle_Final_Men.pdf',
-            'https://eventor-iof-storage.orientering.se/eventdocuments/7450/b72acb4e-9efc-4d01-955b-4c77e5830426/Map_Vejle_Final_Women.pdf'
+            'https://eventor-iof-storage.orientering.se/eventdocuments/7450/b72acb4e-9efc-4d01-955b-4c77e5830426/Map_Vejle_Final_Women.pdf',
+            // карты (IOF LIVE)
+            'https://eventor.orienteering.org/Documents/Event/5442/1/Map_Vejle_Qualification_Part_1of2', // Qualification map with all controls
+            'https://eventor.orienteering.org/Documents/Event/5443/1/Map_Vejle_Qualification_Part_2of2', // Control descriptions for the classes
+            'https://eventor.orienteering.org/Documents/Event/5453/1/Map_Vejle_Final_Women', // Women
+            'https://eventor.orienteering.org/Documents/Event/5452/1/Map_Vejle_Final_Men' // Men
         ],
-        photo: 'https://photos.app.goo.gl/4BjqPqVY9DFSVFJV6',
+        photo: [
+            'https://photos.app.goo.gl/4BjqPqVY9DFSVFJV6',
+            'https://photos.app.goo.gl/CKN9fxocBgrS3onc9' // Qualifications
+        ],
         video: 'https://www.youtube.com/watch?v=C8cegvBxfwY',
         coord: [55.491667, 9.5],
         fmt: 'sprint',
@@ -6565,7 +6882,13 @@ let iofEvents = [
         date: '2022-07-15',
         name: 'WMTBOC #1, миддл',
         place: 'Falun, Säter, Sweden (Фалун, Сетер, Швеция)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7457',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7457',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7457&eventClassId=12322', // Women 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7457&eventClassId=12321', // Men 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7479&eventClassId=12426', // Women 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7479&eventClassId=12425' // Men 20
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20220715MiddleM/',
             'W': 'https://www.tulospalvelu.fi/gps/20220715MiddleW/'
@@ -6573,7 +6896,19 @@ let iofEvents = [
         maps: [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/20220715MiddleM/map',
-            'https://www.tulospalvelu.fi/gps/20220715MiddleW/map'
+            'https://www.tulospalvelu.fi/gps/20220715MiddleW/map',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2022/07/wmtboc_2022_map_middle_w21_1.pdf', // Part 1
+            'https://orienteering.sport/wp-content/uploads/2022/07/wmtboc_2022_map_middle_w21_2.pdf', // Part 2
+            'https://orienteering.sport/wp-content/uploads/2022/07/wmtboc_2022_map_middle_m21_1.pdf', // Part 1
+            'https://orienteering.sport/wp-content/uploads/2022/07/wmtboc_2022_map_middle_m21_2.pdf', // Part 2
+            'https://orienteering.sport/wp-content/uploads/2022/07/wmtboc_2022_map_middle_w20_1.pdf', // Part 1
+            'https://orienteering.sport/wp-content/uploads/2022/07/wmtboc_2022_map_middle_w20_2.pdf', // Part 2
+            'https://orienteering.sport/wp-content/uploads/2022/07/wmtboc_2022_map_middle_m20_1.pdf', // Part 1
+            'https://orienteering.sport/wp-content/uploads/2022/07/wmtboc_2022_map_middle_m20_2.pdf' // Part 2
+        ],
+        photo: [
+            'https://photos.google.com/share/AF1QipNewXQSu25ttvxXdcpF7w7JMbO4ZPUaVln6EbVLyC20_R7GByyVU2rUBwEQCDa4DQ?key=ZkxocWp0elM0ZFhrenRLTzdYSkh1OUJIZTZEbFh3' // Official photos
         ],
         video: 'https://www.youtube.com/watch?v=hTkpsW35-eo',
         coord: [60.607222, 15.631111],
@@ -6600,9 +6935,14 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20220716relayM1/map',
             // 'https://www.tulospalvelu.fi/gps/20220716relayM2/map', // duplicate of https://www.tulospalvelu.fi/gps/20220716relayM1/map
             // 'https://www.tulospalvelu.fi/gps/20220716relayM3/map', // duplicate of https://www.tulospalvelu.fi/gps/20220716relayM1/map
-            'https://www.tulospalvelu.fi/gps/20220716relayW1/map'
+            'https://www.tulospalvelu.fi/gps/20220716relayW1/map',
             // 'https://www.tulospalvelu.fi/gps/20220716relayW2/map', // duplicate of https://www.tulospalvelu.fi/gps/20220716relayW1/map
             // 'https://www.tulospalvelu.fi/gps/20220716relayW3/map', // duplicate of https://www.tulospalvelu.fi/gps/20220716relayW1/map
+            // карты (IOF LIVE)
+            'https://drive.google.com/drive/folders/1JXfUjwpbmz5lFufKk4nyBe91vpLb5pnR' // All classes
+        ],
+        photo: [
+            'https://photos.app.goo.gl/Boqbg3P6YwG9X7FTA' // Official
         ],
         video: 'https://www.youtube.com/watch?v=6EGsxJc4uYg',
         coord: [60.607222, 15.631111],
@@ -6616,7 +6956,13 @@ let iofEvents = [
         date: '2022-07-17',
         name: 'WMTBOC #3, лонг',
         place: 'Falun, Säter, Sweden (Фалун, Сетер, Швеция)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7459',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7459',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7459&eventClassId=12324', // Women 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7459&eventClassId=12323', // Men 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7481&eventClassId=12430', // Women 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7481&eventClassId=12429' // Men 20
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20220717lomgM/',
             'W': 'https://www.tulospalvelu.fi/gps/20220717lomgW/'
@@ -6624,7 +6970,13 @@ let iofEvents = [
         maps: [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/20220717lomgM/map',
-            'https://www.tulospalvelu.fi/gps/20220717lomgW/map'
+            'https://www.tulospalvelu.fi/gps/20220717lomgW/map',
+            // карты (IOF LIVE)
+            'https://drive.google.com/drive/folders/19LygNAx9O5N9jVL0jwizKr1uOqUJciC3?usp=sharing' // All
+        ],
+        photo: [
+            'https://photos.app.goo.gl/kEuiVcLtT5KrurdU8', // Official album 1
+            'https://photos.app.goo.gl/eCZawcDWAr8BGPmz9' // Official album 2
         ],
         video: 'https://www.youtube.com/watch?v=Mk6dU3GjeuU',
         coord: [60.607222, 15.631111],
@@ -6638,7 +6990,13 @@ let iofEvents = [
         date: '2022-07-19',
         name: 'WMTBOC #4, спринт',
         place: 'Falun, Säter, Sweden (Фалун, Сетер, Швеция)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7460',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7460',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7460&eventClassId=12326', // Women 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7460&eventClassId=12325', // Men 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7482&eventClassId=12432', // Women 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7482&eventClassId=12431' // Men 20
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20220719sprintM/',
             'W': 'https://www.tulospalvelu.fi/gps/20220719sprintW/'
@@ -6646,7 +7004,12 @@ let iofEvents = [
         maps: [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/20220719sprintM/map',
-            'https://www.tulospalvelu.fi/gps/20220719sprintW/map'
+            'https://www.tulospalvelu.fi/gps/20220719sprintW/map',
+            // карты (IOF LIVE)
+            'https://drive.google.com/drive/folders/1mS_A2XA0DSo36pXD9RYwH_WtULLu4x3Y?usp=sharing' // All
+        ],
+        photo: [
+            'https://photos.google.com/share/AF1QipNyZN8Ke9dirrpJxHkPATZv-wjypK39J2t63kB2P5qXY4frEYPa-o5KU_0FVuTtNQ?key=eFZ4RnYzMDNBZHh1ZThxZlhnUnJrTkdEb3loeGln' // Official album
         ],
         video: 'https://www.youtube.com/watch?v=eZC3XdF_LlU',
         coord: [60.607222, 15.631111],
@@ -6660,7 +7023,13 @@ let iofEvents = [
         date: '2022-07-20',
         name: 'WMTBOC #5, масс-старт',
         place: 'Falun, Säter, Sweden (Фалун, Сетер, Швеция)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7461',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7461',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7461&eventClassId=12328', // Women 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7461&eventClassId=12327', // Men 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7483&eventClassId=12436', // Women 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7483&eventClassId=12435' // Men 20
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20220720massM/',
             'W': 'https://www.tulospalvelu.fi/gps/20220720massW/'
@@ -6668,7 +7037,12 @@ let iofEvents = [
         maps: [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/20220720massM/map',
-            'https://www.tulospalvelu.fi/gps/20220720massW/map'
+            'https://www.tulospalvelu.fi/gps/20220720massW/map',
+            // карты (IOF LIVE)
+            'https://drive.google.com/drive/folders/1xfmH8izfY2OzjU1To8EP8LHvVsa9zw4R?sort=14&direction=d' // All
+        ],
+        photo: [
+            'https://photos.app.goo.gl/eDEVx11npW2MqVP96' // Official album
         ],
         video: 'https://www.youtube.com/watch?v=wNHUT-TTmhI',
         coord: [60.607222, 15.631111],
@@ -6708,6 +7082,14 @@ let iofEvents = [
         date: '2022-08-03',
         name: 'EOC #1, миддл (квалификация)',
         place: 'Rakvere, Estonia (Раквере, Эстония)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7515&eventClassId=13077', // Heat A
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7515&eventClassId=13078', // Heat B
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7515&eventClassId=13079', // Heat C
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7515&eventClassId=13080', // Heat A
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7515&eventClassId=13081', // Heat B
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7515&eventClassId=13082' // Heat C
+        ],
         gps: {
             'M-Q': 'https://www.tulospalvelu.fi/gps/2022eocMQmen/',
             'M-QA': 'https://www.tulospalvelu.fi/gps/2022eocMQma/',
@@ -6740,7 +7122,11 @@ let iofEvents = [
         date: '2022-08-04',
         name: 'EOC #2, лонг',
         place: 'Rakvere, Estonia (Раквере, Эстония)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7516',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7516',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7516&eventClassId=12777', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7516&eventClassId=12778' // Women
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2022eocLm/',
             'W': 'https://www.tulospalvelu.fi/gps/2022eocLw/'
@@ -6751,9 +7137,12 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2022eocLw/map',
             // 'https://omaps.worldofo.com/?id=323185',
             'https://www.tulospalvelu.fi/gps/2022eocLm/map',
-            'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_long_men.png' // duplicate of https://www.tulospalvelu.fi/gps/2022eocLm/map
+            'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_long_men.png', // duplicate of https://www.tulospalvelu.fi/gps/2022eocLm/map
         ],
-        photo: 'https://photos.app.goo.gl/s1Q6H4jLAHMkMmMJA',
+        photo: [
+            'https://photos.app.goo.gl/s1Q6H4jLAHMkMmMJA',
+            'https://www.facebook.com/media/set/?vanity=IOForienteering&set=a.5607152165981800' // Facebook album
+        ],
         video: 'https://www.youtube.com/watch?v=tYyePGNt6nc',
         coord: [59.35, 26.35],
         fmt: 'long',
@@ -6765,7 +7154,13 @@ let iofEvents = [
         date: '2022-08-06',
         name: 'EOC #3, миддл',
         place: 'Rakvere, Estonia (Раквере, Эстония)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7517',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7517',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7517&eventClassId=13086', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7517&eventClassId=13087', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7517&eventClassId=13088', // B-Final men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7517&eventClassId=13089' // B-Final women
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2022eocMFma/',
             'W': 'https://www.tulospalvelu.fi/gps/2022eocMFwa/',
@@ -6781,9 +7176,12 @@ let iofEvents = [
             'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_middle_men.png', // duplicate of https://www.tulospalvelu.fi/gps/2022eocMFma/map
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/2022eocMFmb/map',
-            'https://www.tulospalvelu.fi/gps/2022eocMFwb/map'
+            'https://www.tulospalvelu.fi/gps/2022eocMFwb/map',
         ],
-        photo: 'https://photos.app.goo.gl/FFTyNCnoCzCncADh9',
+        photo: [
+            'https://photos.app.goo.gl/FFTyNCnoCzCncADh9',
+            'https://www.facebook.com/media/set?vanity=IOForienteering&set=a.5607118875985129' // Facebook album
+        ],
         video: 'https://www.youtube.com/watch?v=boW9lJmoUCg',
         coord: [59.35, 26.35],
         fmt: 'middle',
@@ -6795,7 +7193,11 @@ let iofEvents = [
         date: '2022-08-07',
         name: 'EOC #4, эстафета',
         place: 'Rakvere, Estonia (Раквере, Эстония)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7518',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7518',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7518&eventClassId=12781', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7518&eventClassId=12782' // Women
+        ],
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/2022eocRm1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/2022eocRm2/',
@@ -6816,10 +7218,12 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=323342',
             'https://www.tulospalvelu.fi/gps/2022eocRw3/map',
             // 'https://omaps.worldofo.com/?id=323343',
-            'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_relay_men_leg1.png' // duplicate of https://www.tulospalvelu.fi/gps/2022eocRm2/map
+            'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_relay_men_leg1.png', // duplicate of https://www.tulospalvelu.fi/gps/2022eocRm2/map
             // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/2022eocRm1/map', // duplicate of https://www.tulospalvelu.fi/gps/2022eocRm2/map
             // 'https://www.tulospalvelu.fi/gps/2022eocRw2/map', // duplicate of https://www.tulospalvelu.fi/gps/2022eocRw1/map
+            // карты (IOF LIVE)
+            'https://gps.tulospalvelu.fi/gps/2022eocRm1/map', // Men
         ],
         photo: 'https://photos.app.goo.gl/tTbSx5WyGG3ry6A3A',
         video: 'https://www.youtube.com/watch?v=fJjwDKypz7g',
@@ -6842,7 +7246,65 @@ let iofEvents = [
             // 'https://eventor-iof-storage.orientering.se/eventdocuments/7215/6a428fd9-ccc0-41cb-bba1-d2cfeaf08520/Bulletin-3.pdf',
             'https://eventor-iof-storage.orientering.se/eventdocuments/7215/0f702d30-ff08-4674-bdbe-716eeefb4651/Bulletin-4.pdf'
         ],
-        res: 'https://eventor.orienteering.sport/Events/Show/7215',
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/7215',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7634&eventClassId=13288&eventRaceId=7745&overallResults=False', // Women 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7634&eventClassId=13287&eventRaceId=7745&overallResults=False', // Men 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7644&eventClassId=13269&eventRaceId=7755&overallResults=False', // Women 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7644&eventClassId=13268&eventRaceId=7755&overallResults=False', // Men 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7640&eventClassId=13263&eventRaceId=7751&overallResults=False', // Women 17
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7640&eventClassId=13262&eventRaceId=7751&overallResults=False', // Men 17
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7635&eventClassId=13290&eventRaceId=7746&overallResults=False', // Women 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7635&eventClassId=13289&eventRaceId=7746&overallResults=False', // Men 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7645&eventClassId=13286&eventRaceId=7756&overallResults=False', // Women 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7645&eventClassId=13285&eventRaceId=7756&overallResults=False', // Men 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7641&eventClassId=13265&eventRaceId=7752&overallResults=False', // Women 17
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7641&eventClassId=13264&eventRaceId=7752&overallResults=False', // Men 17
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7636&eventClassId=13292&eventRaceId=7747&overallResults=False', // Women 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7636&eventClassId=13291&eventRaceId=7747&overallResults=False', // Men 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7646&eventClassId=13271&eventRaceId=7757&overallResults=False', // Women 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7646&eventClassId=13270&eventRaceId=7757&overallResults=False', // Men 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7642&eventClassId=13280&eventRaceId=7753&overallResults=False', // Women 17
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7642&eventClassId=13279&eventRaceId=7753&overallResults=False', // Men 17
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7637&eventClassId=13294', // Women 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7637&eventClassId=13293', // Men 21
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7647&eventClassId=13273', // Women 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7647&eventClassId=13272', // Men 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7648&eventClassId=13284', // Women 17
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7648&eventClassId=13283', // Men 17
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7638&groupBy=EventClass' // Mixed
+        ],
+        gps: {
+            'Cource-information-Women-21': 'https://sportrec.eu/gps/esoc-sprint-w',
+            'Cource-information-Men-21': 'https://sportrec.eu/gps/esoc-sprint-m',
+            'Course-information-Women-21': 'https://sportrec.eu/gps/esoc-middle-w',
+            'Course-information-Men-21': 'https://sportrec.eu/gps/esoc-middle-m',
+            'Cource-information-Women-21-2': 'https://sportrec.eu/gps/esoc-long-w',
+            'Cource-information-Men-21-2': 'https://sportrec.eu/gps/esoc-long-m',
+            'Cource-information-Women-21-3': 'https://sportrec.eu/gps/esoc-relay-w',
+            'Cource-information-Men-21-3': 'https://sportrec.eu/gps/esoc-relay-m',
+            'Cource-information-All-legs': 'https://sportrec.eu/gps/esoc-sprint-relay'
+        },
+        maps: [
+            // Sportrec
+            'https://sportrec.eu/gps/map/1htce4v/4624_dK0130221921zFEPHd.png',
+            'https://sportrec.eu/gps/map/1htcbrn/4623_k70130220807Bos17N.png',
+            'https://sportrec.eu/gps/map/1htcf6p/4634_750131202433bKTY8c.png',
+            'https://sportrec.eu/gps/map/1htcf1d/4633_Jf0131202044fVqnkU.png',
+            'https://sportrec.eu/gps/map/1htcfv8/4636_JY02022248066vHCy1.png',
+            'https://sportrec.eu/gps/map/1htcf96/4635_pF0202223557yHfdMc.png',
+            'https://sportrec.eu/gps/map/1htcge6/4645_4e0203204748MD1WP7.png',
+            'https://sportrec.eu/gps/map/1htcgg2/4646_wY02032042343IUXlB.png',
+            'https://sportrec.eu/gps/map/1htknah/4652_CW0204231814rT0OoR.png'
+        ],
+        photo: [
+            'https://failiem.lv/u/sctsz69u5', // Album 1
+            'https://flickr.com/photos/140305775@N02/sets/72177720305674189', // Album 2
+            'https://www.facebook.com/smeceressils/posts/pfbid0379LNjsy6fza6dN2TygwzhL2MuKnCdeUcKFUdrYup9vrdd6YTricABEtBTf5KYm5Ql', // Album 3
+            'https://www.flickr.com/photos/140305775@N02/albums/72177720305707507', // Gallery 1
+            'https://www.flickr.com/photos/140305775@N02/albums/72177720305701445', // Gallery 2
+            'https://www.flickr.com/photos/140305775@N02/albums/72177720305703999' // Gallery 3
+        ],
         video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJfk3KZQHunKT70maz3bEAKO',
         coord: [56.8542, 26.2206],
         type: 'SKI',
@@ -6879,6 +7341,10 @@ let iofEvents = [
         date: '2023-04-26',
         name: 'EMTBOC #1, миддл',
         place: 'Loulé, Portugal (Лоле, Португалия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7799&eventClassId=13622&eventRaceId=7913&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7799&eventClassId=13623&eventRaceId=7913&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://events.loggator.com/xTGWWg',
             'W': 'https://events.loggator.com/WH5xug',
@@ -6888,7 +7354,13 @@ let iofEvents = [
             // 'https://photos.app.goo.gl/3DnDQefHss4Taf7J6', // карты организаторов (альбом Google Photos)
             // Loggator
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/16e9b54c6b99c3214b8ebac2/optimized_M21.png',
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/69a27548ca1cd5c53292dcfb/optimized_W21.png'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/69a27548ca1cd5c53292dcfb/optimized_W21.png',
+            // карты (IOF LIVE)
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/16e9b54c6b99c3214b8ebac2/M21.png', // Men
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/69a27548ca1cd5c53292dcfb/W21.png' // Women
+        ],
+        photo: [
+            'https://photos.google.com/share/AF1QipMcAZHX8N6iitfoPFY5JA5v9q9fH71pPykc_eV14uWm5OqzLkxh_HaAP39LlSY-cg?key=ZGNZdFZXNXN6NFNjQWZxZ0dxdHZEZHUzUE8zZ0V3' // Official
         ],
         coord: [37.15, -8.0],
         type: 'VELO',
@@ -6901,6 +7373,10 @@ let iofEvents = [
         date: '2023-04-27',
         name: 'EMTBOC #2, масс-старт',
         place: 'Loulé, Portugal (Лоле, Португалия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7800&eventClassId=13624', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7800&eventClassId=13625' // Women
+        ],
         gps: {
             'M': 'https://events.loggator.com/DqHp8Q',
             'W': 'https://events.loggator.com/h9Pp5g',
@@ -6910,7 +7386,13 @@ let iofEvents = [
             // 'https://photos.app.goo.gl/rExy7oinhZMzWrUS9', // карты организаторов (альбом Google Photos)
             // Loggator
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/cdb9c92682a7d56241a6dfe4/optimized_M21.JPG',
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/735d11c58e7e7e2af306638f/optimized_W21.JPG'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/735d11c58e7e7e2af306638f/optimized_W21.JPG',
+            // карты (IOF LIVE)
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/cdb9c92682a7d56241a6dfe4/M21.JPG', // Men
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/735d11c58e7e7e2af306638f/W21.JPG' // Women
+        ],
+        photo: [
+            'https://photos.google.com/share/AF1QipP6ulIpJfQJDlTxOcX_ITtA8XAVR1LdynGxIy4sVjQXWvrljJsxkNqrPCmzGcDnAA?key=ZWlGSENCUXlUaWVMUzE2dVc5NTBYa2psNkFPVVRn' // Official
         ],
         coord: [37.15, -8.0],
         type: 'VELO',
@@ -6923,6 +7405,10 @@ let iofEvents = [
         date: '2023-04-28',
         name: 'EMTBOC #3, спринт',
         place: 'Loulé, Portugal (Лоле, Португалия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ChampionshipResultlist?eventId=7802&championshipId=12&eventClassId=13627', // Men
+            'https://eventor.orienteering.org/Events/ChampionshipResultlist?eventId=7802&championshipId=12&eventClassId=13628' // Women
+        ],
         gps: {
             'M': 'https://events.loggator.com/1YhOAA',
             'W': 'https://events.loggator.com/VRtOfg',
@@ -6932,7 +7418,13 @@ let iofEvents = [
             // 'https://photos.app.goo.gl/MmuZzzANEtdrM5Pe9', // карты организаторов (альбом Google Photos)
             // Loggator
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/dc83c147602cdc33e46003b5/optimized_Mtbo_sprint_23_Canvas_1_M21.JPG',
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/af829d455a26aa72cdd4626d/optimized_Mtbo_sprint_23_Canvas_1_W21.JPG'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/af829d455a26aa72cdd4626d/optimized_Mtbo_sprint_23_Canvas_1_W21.JPG',
+            // карты (IOF LIVE)
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/dc83c147602cdc33e46003b5/Mtbo_sprint_23_Canvas_1_M21.JPG', // Men
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/af829d455a26aa72cdd4626d/Mtbo_sprint_23_Canvas_1_W21.JPG' // Women
+        ],
+        photo: [
+            'https://photos.google.com/share/AF1QipOs78o9Pc-1s3U1ArD0utIRp9der8Me72JE2zsWACbC8-VvG-ShUCzP_BVEz9KurQ?key=ci1NSjVtcHl3LXdTakhnckJxcEVXd3hENFFuV2ZB' // Official
         ],
         coord: [37.15, -8.0],
         type: 'VELO',
@@ -6945,6 +7437,9 @@ let iofEvents = [
         date: '2023-04-29',
         name: 'EMTBOC #4, смешанная эстафета',
         place: 'Loulé, Portugal (Лоле, Португалия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7801&groupBy=EventClass' // Mixed
+        ],
         gps: {
             '1': 'https://events.loggator.com/EhP4GQ',
             '2': 'https://events.loggator.com/jwBo2Q',
@@ -6953,7 +7448,9 @@ let iofEvents = [
         maps: [
             // 'https://photos.app.goo.gl/bCqM3ruHpnruMFbA7', // карты организаторов (альбом Google Photos)
             // Loggator
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/003eee6560e3002a3e8b08bb/optimized_Mixed_and_relay_2023_Canvas_1_Mixed_relay_All_variations.JPG'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/003eee6560e3002a3e8b08bb/optimized_Mixed_and_relay_2023_Canvas_1_Mixed_relay_All_variations.JPG',
+            // карты (IOF LIVE)
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/003eee6560e3002a3e8b08bb/Mixed_and_relay_2023_Canvas_1_Mixed_relay_All_variations.JPG' // All legs
         ],
         coord: [37.15, -8.0],
         type: 'VELO',
@@ -6997,7 +7494,31 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/6496/584db770-0f93-48b0-a539-8fd13f478379/OCAD-File-Foppa-Uaul-Runcs-2017.ocd',
             'https://eventor-iof-storage.orientering.se/eventdocuments/6496/cdc255dc-4068-4746-b73e-5c12ebfed95b/OCAD-File-Laax-Murschetg-2018.ocd'
         ],
-        video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJdc3IKYS-1sbl81u19zyfgF',
+        photo: [
+            'https://woc2023.app/images' // WOC 2023 photos
+        ],
+        video: [
+            'https://www.youtube.com/playlist?list=PLJxCa_0RthJdc3IKYS-1sbl81u19zyfgF',
+            'https://tv.orienteering.sport/world-orienteering-championships', // 12:00-16:30
+            'https://tv.nrk.no/serie/orientering/2023/MSPO31250423/avspiller', // 12:00-16:30
+            'https://tv.nrk.no/serie/orientering/2023/MSPO31250523/avspiller', // 11:35-15:00
+            'https://tv.nrk.no/serie/orientering/2023/MSPO31250623/avspiller', // 12:10-16:30
+            'https://arenan.yle.fi/1-65988948', // 13:00-17:35
+            'https://arenan.yle.fi/1-66253761', // 13:00-17:35
+            'https://arenan.yle.fi/1-65988945', // 13:55-16:00
+            'https://arenan.yle.fi/1-66253769', // 13:55-16:00
+            'https://arenan.yle.fi/1-65988947', // 13:55-17:30
+            'https://arenan.yle.fi/1-66253785', // 13:55-17:30
+            'https://www.srf.ch/play/tv/-/video/orientierungslauf-wm-in-flims-laax-langdistanz-frauen--maenner?urn=urn:swisstxt:video:srf:1774527', // 12:00-16:30
+            'https://www.srf.ch/play/tv/-/video/orientierungslauf-wm-in-flims-laax-mitteldistanz-frauen--maenner?urn=urn:swisstxt:video:srf:1774528', // 11:35-15:00
+            'https://www.srf.ch/play/tv/-/video/orientierungslauf-wm-in-flims-laax-staffel-frauen--maenner?urn=urn:swisstxt:video:srf:1774530', // 12:10-16:30
+            'https://tv.orf.at/program/orfs/liveorient114.html', // 12:00-14:00
+            'https://tv.orf.at/program/orfs/liveorient112.html', // 14:00-16:30
+            'https://tv.orf.at/program/orfs/orientieru670.html', // 20:15-21:30
+            'https://tv.orf.at/program/orfs/orientieru672.html', // 21:30-23:00
+            'https://tv.orf.at/program/orfs/orientieru674.html', // 20:15-21:45
+            'https://tv.orf.at/program/orfs/orientieru676.html' // 21:45-23:00
+        ],
         coord: [46.833333, 9.283333],
         fmt: 'middle, long, relay',
         start: 'WOC'
@@ -7008,6 +7529,14 @@ let iofEvents = [
         date: '2023-07-12',
         name: 'WOC #1, миддл (квалификация)',
         place: 'Flims, Laax, Switzerland (Флимс, Лакс, Швейцария)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7579&eventClassId=14148&eventRaceId=7688&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7579&eventClassId=14149&eventRaceId=7688&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7579&eventClassId=14150&eventRaceId=7688&overallResults=False', // Heat 3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7579&eventClassId=13106&eventRaceId=7688&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7579&eventClassId=13107&eventRaceId=7688&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7579&eventClassId=14147&eventRaceId=7688&overallResults=False' // Heat 3
+        ],
         gps: {
             'M-QA': 'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQM_A/',
             'M-QB': 'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQM_B/',
@@ -7023,7 +7552,10 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQM_C/map',
             'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQW_A/map',
             'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQW_B/map',
-            'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQW_C/map'
+            'https://www.tulospalvelu.fi/gps/20230712_WOC23_MQW_C/map',
+            // карты (IOF LIVE)
+            'https://archive.o-worldcup.ch/wp-content/uploads/2023/woc2023/map_woc2023_middle_qual_women.pdf', // Women
+            'https://archive.o-worldcup.ch/wp-content/uploads/2023/woc2023/map_woc2023_middle_qual_men.pdf' // Men
         ],
         coord: [46.833333, 9.283333],
         fmt: 'middle',
@@ -7037,7 +7569,9 @@ let iofEvents = [
         place: 'Flims, Laax, Switzerland (Флимс, Лакс, Швейцария)',
         res: [
             'https://archive.o-worldcup.ch/wp-content/uploads/2023/woc2023/rl_woc2023_long_women.pdf',
-            'https://eventor.orienteering.org/Events/ResultList?eventId=7580'
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7580',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7580&eventClassId=13109&eventRaceId=7689&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ChampionshipResultlist?eventId=7580&championshipId=20&eventClassId=13108' // Men
         ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20230713_WOC23_LM/',
@@ -7048,7 +7582,10 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=340747',
             'https://www.tulospalvelu.fi/gps/20230713_WOC23_LW/map',
             // 'https://omaps.worldofo.com/?id=340748',
-            'https://www.tulospalvelu.fi/gps/20230713_WOC23_LM/map'
+            'https://www.tulospalvelu.fi/gps/20230713_WOC23_LM/map',
+            // карты (IOF LIVE)
+            'https://archive.o-worldcup.ch/wp-content/uploads/2023/woc2023/map_woc2023_long_women.pdf', // Women
+            'https://archive.o-worldcup.ch/wp-content/uploads/2023/woc2023/map_woc2023_long_men.pdf' // Men
         ],
         video: 'https://www.youtube.com/watch?v=ISX2Gs1eB3A',
         coord: [46.833333, 9.283333],
@@ -7061,7 +7598,11 @@ let iofEvents = [
         date: '2023-07-15',
         name: 'WOC #3, миддл',
         place: 'Flims, Laax, Switzerland (Флимс, Лакс, Швейцария)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7581',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7581',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7581&eventClassId=13111&eventRaceId=7690&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7581&eventClassId=13110&eventRaceId=7690&overallResults=False' // Men
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20230715_WOC23_MM/',
             'W': 'https://www.tulospalvelu.fi/gps/20230715_WOC23_MW/'
@@ -7072,7 +7613,7 @@ let iofEvents = [
             'https://news.worldofo.com/wp-content/uploads/2023/07/map-61.png',
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/20230715_WOC23_MM/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2023/07/map-71.png
-            'https://www.tulospalvelu.fi/gps/20230715_WOC23_MW/map' // duplicate of https://news.worldofo.com/wp-content/uploads/2023/07/map-61.png
+            'https://www.tulospalvelu.fi/gps/20230715_WOC23_MW/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2023/07/map-61.png
         ],
         video: 'https://www.youtube.com/watch?v=2WWcJQsqFPM',
         coord: [46.833333, 9.283333],
@@ -7085,7 +7626,11 @@ let iofEvents = [
         date: '2023-07-16',
         name: 'WOC #4, эстафета',
         place: 'Flims, Laax, Switzerland (Флимс, Лакс, Швейцария)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7582',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7582',
+            'https://eventor.orienteering.org/Events/ChampionshipResultlist?eventId=7582&championshipId=20&eventClassId=13113', // Women
+            'https://eventor.orienteering.org/Events/ChampionshipResultlist?eventId=7582&championshipId=20&eventClassId=13112' // Men
+        ],
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20230716_WOC23_RM1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/20230716_WOC23_RM2/',
@@ -7103,7 +7648,7 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20230716_WOC23_RM3/map',
             'https://www.tulospalvelu.fi/gps/20230716_WOC23_RW1/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2023/07/map-9.png
             // 'https://www.tulospalvelu.fi/gps/20230716_WOC23_RW2/map', // duplicate of https://www.tulospalvelu.fi/gps/20230716_WOC23_RW1/map
-            'https://www.tulospalvelu.fi/gps/20230716_WOC23_RW3/map'
+            'https://www.tulospalvelu.fi/gps/20230716_WOC23_RW3/map',
         ],
         video: 'https://www.youtube.com/watch?v=OxABg9sC58I',
         coord: [46.833333, 9.283333],
@@ -7129,6 +7674,10 @@ let iofEvents = [
         res: [
             'https://eventor.orienteering.sport/Events/Show/6872' // IOF Eventor
         ],
+        photo: [
+            'https://wmtboc2023.piwigo.com/index?/category/4-22_08_2023_long', // WMTBOC Albums
+            'https://wmtboc2023.piwigo.com/' // WMTBOC Album
+        ],
         coord: [50.436667, 15.351667],
         type: 'VELO',
         fmt: 'sprint, long, middle, mass start, relay',
@@ -7140,6 +7689,10 @@ let iofEvents = [
         date: '2023-08-20',
         name: 'WMTBOC #1, спринт',
         place: 'Jičín, Czech Republic (Йичин, Чехия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7855&eventClassId=13943&eventRaceId=7969&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7855&eventClassId=13944&eventRaceId=7969&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20230820M/',
             'W': 'https://www.tulospalvelu.fi/gps/20230820W/'
@@ -7148,6 +7701,9 @@ let iofEvents = [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/20230820M/map',
             'https://www.tulospalvelu.fi/gps/20230820W/map'
+        ],
+        photo: [
+            'https://wmtboc2023.piwigo.com/index?/category/3-20_08_2023_sprint' // WMTBOC Albums
         ],
         coord: [50.436667, 15.351667],
         type: 'VELO',
@@ -7160,6 +7716,10 @@ let iofEvents = [
         date: '2023-08-22',
         name: 'WMTBOC #2, лонг',
         place: 'Jičín, Czech Republic (Йичин, Чехия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7856&eventClassId=13937&eventRaceId=7970&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7856&eventClassId=13938&eventRaceId=7970&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20230822M/',
             'W': 'https://www.tulospalvelu.fi/gps/20230822W/'
@@ -7180,6 +7740,10 @@ let iofEvents = [
         date: '2023-08-23',
         name: 'WMTBOC #3, миддл',
         place: 'Jičín, Czech Republic (Йичин, Чехия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7857&eventClassId=13939&eventRaceId=7971&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7857&eventClassId=13940&eventRaceId=7971&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20230823M/',
             'W': 'https://www.tulospalvelu.fi/gps/20230823W/'
@@ -7200,6 +7764,10 @@ let iofEvents = [
         date: '2023-08-25',
         name: 'WMTBOC #4, масс-старт',
         place: 'Jičín, Czech Republic (Йичин, Чехия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7858&eventClassId=13941', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7858&eventClassId=13942&eventRaceId=7972&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20230825M/',
             'W': 'https://www.tulospalvelu.fi/gps/20230825W/'
@@ -7220,6 +7788,10 @@ let iofEvents = [
         date: '2023-08-26',
         name: 'WMTBOC #5, эстафета',
         place: 'Jičín, Czech Republic (Йичин, Чехия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7859&eventClassId=13945', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7859&eventClassId=13946' // Women
+        ],
         gps: {
             'M-2': 'https://www.tulospalvelu.fi/gps/20230826M2/',
             'M-3': 'https://www.tulospalvelu.fi/gps/20230826M3/',
@@ -7261,6 +7833,9 @@ let iofEvents = [
             'https://www.eoc2023.it/wp-content/uploads/2023/08/Existing-maps.pdf'
         ],
         photo: 'https://photos.app.goo.gl/uY9zpqSsWkYNQkT5A',
+        video: [
+            'https://tv.orienteering.sport/eoc-2023'
+        ],
         coord: [45.438611, 10.992778],
         fmt: 'sprint, knock-out, sprint relay',
         start: 'EOC'
@@ -7271,7 +7846,17 @@ let iofEvents = [
         date: '2023-10-04',
         name: 'EOC #1, спринт (квалификация и финал)',
         place: 'Verona, Peschiera del Garda, Italy (Верона, Пескьера-дель-Гарда, Италия)',
-        res: 'https://app.liveresults.it/event/eoc2023/sf/M/start-list',
+        res: [
+            'https://app.liveresults.it/event/eoc2023/sf/M/start-list',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7836&eventClassId=14598&eventRaceId=7950&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7836&eventClassId=14599&eventRaceId=7950&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7836&eventClassId=14600&eventRaceId=7950&overallResults=False', // Heat 3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7836&eventClassId=14601&eventRaceId=7950&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7836&eventClassId=14602&eventRaceId=7950&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7836&eventClassId=14603&eventRaceId=7950&overallResults=False', // Heat 3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7837&eventClassId=13849&eventRaceId=7951&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7837&eventClassId=13850&eventRaceId=7951&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2023eocSprintMtv/',
             'W': 'https://www.tulospalvelu.fi/gps/2023eocSprintW/'
@@ -7284,7 +7869,15 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2023eocSprintW/map',
             'https://news.worldofo.com/wp-content/uploads/2023/10/map_sprint_eoc_verona_men.png',
             // GPSSeuranta
-            'https://www.tulospalvelu.fi/gps/2023eocSprintMtv/map' // duplicate of https://news.worldofo.com/wp-content/uploads/2023/10/map_sprint_eoc_verona_men.png
+            'https://www.tulospalvelu.fi/gps/2023eocSprintMtv/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2023/10/map_sprint_eoc_verona_men.png
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2023/10/esoc_2023_sprint_quali_w1.pdf', // Heat 1
+            'https://orienteering.sport/wp-content/uploads/2023/10/esoc_2023_sprint_quali_w2.pdf', // Heat 2
+            'https://orienteering.sport/wp-content/uploads/2023/10/esoc_2023_sprint_quali_w3.pdf', // Heat 3
+            'https://orienteering.sport/wp-content/uploads/2023/10/esoc_2023_sprint_quali_m1.pdf', // Heat 1
+            'https://orienteering.sport/wp-content/uploads/2023/10/esoc_2023_sprint_quali_m2.pdf', // Heat 2
+            'https://orienteering.sport/wp-content/uploads/2023/10/esoc_2023_sprint_quali_m3.pdf', // Heat 3
+            'https://gps.tulospalvelu.fi/gps/2023eocSprintM/map', // Men
         ],
         photo: [
             'https://photos.app.goo.gl/kfJSbB3tQyGXFBjLA',
@@ -7318,10 +7911,13 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2023eocSR3/map',
             // 'https://omaps.worldofo.com/?id=345459',
             // 'https://omaps.worldofo.com/?id=345460',
-            'https://news.worldofo.com/wp-content/uploads/2023/10/map_sprintrelayeoc2023.png' // duplicate of https://www.tulospalvelu.fi/gps/2023eocSR3/map
+            'https://news.worldofo.com/wp-content/uploads/2023/10/map_sprintrelayeoc2023.png', // duplicate of https://www.tulospalvelu.fi/gps/2023eocSR3/map
             // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/2023eocSR1/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocSR4/map
             // 'https://www.tulospalvelu.fi/gps/2023eocSR2/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocSR3/map
+            // карты (IOF LIVE)
+            'https://gps.tulospalvelu.fi/gps/2023eocSR1/map', // Leg 1 & 4
+            'https://gps.tulospalvelu.fi/gps/2023eocSR2/map' // Leg 2 & 3
         ],
         photo: 'https://photos.app.goo.gl/wvGd6c8oz1nH9iK96',
         video: [
@@ -7337,7 +7933,35 @@ let iofEvents = [
         date: '2023-10-08',
         name: 'EOC #3, нокаут-спринт (финалы)',
         place: 'Verona, Peschiera del Garda, Italy (Верона, Пескьера-дель-Гарда, Италия)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7839',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14604&eventRaceId=7953&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14605&eventRaceId=7953&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14606&eventRaceId=7953&overallResults=False', // Heat 3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14607&eventRaceId=7953&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14608&eventRaceId=7953&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14609&eventRaceId=7953&overallResults=False', // Heat 3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14610&eventRaceId=7953', // QF-1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14611&eventRaceId=7953', // QF-2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14612&eventRaceId=7953', // QF-3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14613&eventRaceId=7953', // QF-4
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14614&eventRaceId=7953', // QF-5
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14615&eventRaceId=7953', // QF-6
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14616&eventRaceId=7953', // QF-1 |
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14617&eventRaceId=7953', // QF-2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14618&eventRaceId=7953', // QF-3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14619&eventRaceId=7953', // QF-4
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14620&eventRaceId=7953', // QF-5
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14621&eventRaceId=7953', // QF-6
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14622&eventRaceId=7953', // SF-1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14623&eventRaceId=7953', // SF-2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14624&eventRaceId=7953', // SF-3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14625&eventRaceId=7953', // SF-1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14626&eventRaceId=7953', // SF-2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14627&eventRaceId=7953', // SF-3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14628&eventRaceId=7953', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7839&eventClassId=14629&eventRaceId=7953' // Women
+        ],
         gps: {
             'M-QF': 'https://www.tulospalvelu.fi/gps/2023eocKOqfM/',
             'W-QF': 'https://www.tulospalvelu.fi/gps/2023eocKOqfW/',
@@ -7363,7 +7987,10 @@ let iofEvents = [
             // 'https://www.tulospalvelu.fi/gps/2023eocKOsfW/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocKOsfM/map
             // 'https://www.tulospalvelu.fi/gps/2023eocKOfM/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocKOfW/map
         ],
-        photo: 'https://photos.app.goo.gl/Fktxg1X7UN3G516k9',
+        photo: [
+            'https://photos.app.goo.gl/Fktxg1X7UN3G516k9',
+            'https://photos.app.goo.gl/uY9zpqSsWkYNQkT5A' // Qualification IOF Album
+        ],
         video: [
             'https://www.youtube.com/watch?v=D2dUvvKTVk4' // Knock Out Sprint, Vicenza
         ],
@@ -7402,7 +8029,17 @@ let iofEvents = [
             'https://photos.app.goo.gl/8N6t2E2txtXreVnx9',
             'https://photos.google.com/share/AF1QipMnCOT_ai2S7UmYZuWekLbePiMZQrSLGqKEVGPSzRoNmU7GaLkeg4CXlYQbvYwpcw?key=WmxBa3RDQnI2VXRBNlVtNEs5R3gwMl9NSUk1bF9n'
         ],
-        video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJf6q-yNSAoQHyAF7P7xh8nd',
+        video: [
+            'https://www.youtube.com/playlist?list=PLJxCa_0RthJf6q-yNSAoQHyAF7P7xh8nd',
+            'https://tv.orienteering.sport/world-ski-o-championships-all-races', // Scoring 11:30-14:10
+            'https://www.svtplay.se/video/jmLgkA6/skidorientering-vm/sprint', // Scoring 11:30-14:10
+            'https://tv.orf.at/program/orfs/liveski-or100.html', // Scoring 11:35-14:10
+            'https://tv.orf.at/program/orfs/liveski-or102.html', // Scoring 11:50-14:20
+            'https://scplay.skiclassics.com/videos/world-ski-orienteering-championships-2024-sprint', // Scoring 11:30-14:10
+            'https://scplay.skiclassics.com/world-ski-orienteering-championships-2024/videos/world-ski-orienteering-championships-2024-pursuit', // Scoring 11:50-14:20
+            'https://scplay.skiclassics.com/world-ski-orienteering-championships-2024/videos/world-ski-orienteering-championships-2024-middle', // Scoring 11:35-14:45
+            'https://scplay.skiclassics.com/world-ski-orienteering-championships-2024/videos/world-ski-orienteering-championships-2024-sprint-relay' // Scoring 12:50-14:10
+        ],
         coord: [47.416667, 13.65],
         type: 'SKI',
         fmt: 'sprint, pursuit, middle, sprint relay', // по трансляциям GPSSeuranta
@@ -7414,6 +8051,10 @@ let iofEvents = [
         date: '2024-01-23',
         name: 'SKI-WOC #1, спринт',
         place: 'Ramsau am Dachstein, Austria (Рамзау-ам-Дахштайн, Австрия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8098&eventClassId=14782', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8098&eventClassId=14783&eventRaceId=8217&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2023wsocSprintM/',
             'W': 'https://www.tulospalvelu.fi/gps/2023wsocSprintW/'
@@ -7422,6 +8063,9 @@ let iofEvents = [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/2023wsocSprintM/map',
             'https://www.tulospalvelu.fi/gps/2023wsocSprintW/map'
+        ],
+        photo: [
+            'https://photos.google.com/share/AF1QipMJbHbjCaGY2gu1jk6Lp6l3alBIEp1dnBgVqWHx6WsiANM2bPrQjRsDIL7eWCdKvw?key=Y3JEb1ZKeWtrLUZQQjd0d1ZyUk11ajlJWV9mWTR3' // Official album
         ],
         coord: [47.416667, 13.65],
         type: 'SKI',
@@ -7434,6 +8078,10 @@ let iofEvents = [
         date: '2024-01-24',
         name: 'SKI-WOC #2, гонка преследования',
         place: 'Ramsau am Dachstein, Austria (Рамзау-ам-Дахштайн, Австрия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8099&eventClassId=14784&eventRaceId=8218&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8099&eventClassId=14785&eventRaceId=8218&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2024wsocPursuitM/',
             'W': 'https://www.tulospalvelu.fi/gps/2024wsocPursuitW/'
@@ -7442,6 +8090,9 @@ let iofEvents = [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/2024wsocPursuitM/map',
             'https://www.tulospalvelu.fi/gps/2024wsocPursuitW/map'
+        ],
+        photo: [
+            'https://photos.google.com/share/AF1QipPTF3GRFTf3LEDrpEPFQkelxodxxBG6qsd-i8QSgRUtxWx7D3z_3zKHbbZ_TLa9Fg?key=UHhIVjRNY0FfYjEzRl81Y2RQa1c5NGRndXFUN0N3' // Official album
         ],
         coord: [47.416667, 13.65],
         type: 'SKI',
@@ -7454,6 +8105,10 @@ let iofEvents = [
         date: '2024-01-26',
         name: 'SKI-WOC #3, миддл',
         place: 'Ramsau am Dachstein, Austria (Рамзау-ам-Дахштайн, Австрия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8100&eventClassId=14786&eventRaceId=8219&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8100&eventClassId=14787&eventRaceId=8219&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2024wsocMiddleM/',
             'W': 'https://www.tulospalvelu.fi/gps/2024wsocMiddleW/'
@@ -7462,6 +8117,9 @@ let iofEvents = [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/2024wsocMiddleM/map',
             'https://www.tulospalvelu.fi/gps/2024wsocMiddleW/map'
+        ],
+        photo: [
+            'https://photos.app.goo.gl/scDujgFSuqEkVmgaA' // Albums
         ],
         coord: [47.416667, 13.65],
         type: 'SKI',
@@ -7474,6 +8132,9 @@ let iofEvents = [
         date: '2024-01-27',
         name: 'SKI-WOC #4, спринт-эстафета',
         place: 'Ramsau am Dachstein, Austria (Рамзау-ам-Дахштайн, Австрия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8101&groupBy=EventClass' // Mixed
+        ],
         gps: {
             '135': 'https://www.tulospalvelu.fi/gps/2024wsocSR135/',
             '246': 'https://www.tulospalvelu.fi/gps/2024wsocSR246/'
@@ -7482,6 +8143,9 @@ let iofEvents = [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/2024wsocSR135/map',
             'https://www.tulospalvelu.fi/gps/2024wsocSR246/map'
+        ],
+        photo: [
+            'https://photos.google.com/share/AF1QipPtOpBl_9Kpdk7AK4ioAyNr5o2ynWmZIz6-PirUWGYko5gOqNpDbrIK5FwtaPSlqw?key=Z29VT3FxNHJWT3RSRHk0dUJ3WVJqUG5qX3BiT1B3' // Albums
         ],
         coord: [47.416667, 13.65],
         type: 'SKI',
@@ -7532,7 +8196,18 @@ let iofEvents = [
             'https://eventor.orienteering.org/Events/Show/6106',
             'https://results.woc2024.org/woc/#Day3'
         ],
-        video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJdrdm281fBPCAK0O0EVO6wc',
+        video: [
+            'https://www.youtube.com/playlist?list=PLJxCa_0RthJdrdm281fBPCAK0O0EVO6wc',
+            'https://tv.orienteering.sport/woc-2024-all-races', // 15:30-18:00
+            'https://tv.nrk.no/serie/orientering/2023/MSPO31250423/avspiller', // 16:30-19:00
+            'https://tv.nrk.no/serie/orientering/2023/MSPO31250523/avspiller', // 13:30-15:00
+            'https://tv.nrk.no/serie/orientering/2023/MSPO31250623/avspiller', // 17:30-19:10
+            'https://arenan.yle.fi/1-66253761', // 17:30-20:30
+            'https://arenan.yle.fi/1-66253769', // 14:30-16:00
+            'https://arenan.yle.fi/1-66253785', // 18:00-20:00
+            'https://tv.orf.at/program/orfs/liveorient122.html', // 16:55-18:55
+            'https://eurovisionsport.com/explore/competition?id=Generic-Schedule-Landing-Page&cId=20240712IOFEdinburgh' // 15:30-18:00
+        ],
         coord: [55.953333, -3.189167],
         fmt: 'sprint, knock-out, sprint relay',
         start: 'WOC'
@@ -7543,7 +8218,17 @@ let iofEvents = [
         date: '2024-07-12',
         name: 'WOC #1, спринт (квалификация и финал)',
         place: 'Edinburgh, Scotland, UK (Эдинбург, Шотландия, Великобритания)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=6710',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6710',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6710&eventClassId=15712&eventRaceId=6779&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6710&eventClassId=15713&eventRaceId=6779&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6710&eventClassId=15714&eventRaceId=6779&overallResults=False', // Heat 3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6710&eventClassId=15709&eventRaceId=6779&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6710&eventClassId=15710&eventRaceId=6779&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6710&eventClassId=15711&eventRaceId=6779&overallResults=False', // Heat 3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6710&eventClassId=9892&eventRaceId=6779&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6710&eventClassId=9891&eventRaceId=6779&overallResults=False' // Men
+        ],
         gps: {
             'M-Q1': 'https://events.loggator.com/WOC2024SQM1',
             'M-Q2': 'https://events.loggator.com/WOC2024SQM2',
@@ -7571,11 +8256,22 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=356946',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/43173e41d2ba48f7f1044deb/optimized_tile_0_0.jpg',
             // Loggator
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/0bf45aab2ebae22e5e0a2d73/optimized_Sprint_Qualification_Women-3.gif'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/0bf45aab2ebae22e5e0a2d73/optimized_Sprint_Qualification_Women-3.gif',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc2024_sprint_qualification_women-1.gif', // Heat 1
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc2024_sprint_qualification_women-2.gif', // Heat 2
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc2024_sprint_qualification_women-3.gif', // Heat 3
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc2024_sprint_qualification_men-1.gif', // Heat 1
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc2024_sprint_qualification_men-2.gif', // Heat 2
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc2024_sprint_qualification_men-3.gif', // Heat 3
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc2024_sprint_women.jpg', // Women
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc2024_sprint_men.jpg' // Men
         ],
         photo: [
             'https://photos.app.goo.gl/5wBiQfGQCqRZ1AtM8',
-            'https://photos.app.goo.gl/C22dYDSaGDbu6jQ77'
+            'https://photos.app.goo.gl/C22dYDSaGDbu6jQ77',
+            'https://www.flickr.com/photos/148096286@N05/albums/72177720318651969/', // Robert Lines Sprint Q album
+            'https://www.flickr.com/photos/148096286@N05/albums/72177720318735551/' // Robert Lines Sprint Final album
         ],
         video: [
             'https://www.youtube.com/watch?v=hMSYe-0vy4o',
@@ -7592,7 +8288,10 @@ let iofEvents = [
         date: '2024-07-14',
         name: 'WOC #2, спринт-эстафета',
         place: 'Edinburgh, Scotland, UK (Эдинбург, Шотландия, Великобритания)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=6711',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6711',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6711&groupBy=EventClass' // Mixed
+        ],
         gps: {
             'W-1': 'https://events.loggator.com/WOC2024SR1',
             'M-2': 'https://events.loggator.com/WOC2024SR2',
@@ -7605,9 +8304,15 @@ let iofEvents = [
             'https://news.worldofo.com/wp-content/uploads/2024/07/map_sprintrelay_womens.jpg',
             // Loggator
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2180b67eb04807e58c84f275/optimized_tile_0_0.jpg',
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/3dd9f134e3d698a1fa42e3f3/optimized_tile_0_0.jpg'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/3dd9f134e3d698a1fa42e3f3/optimized_tile_0_0.jpg',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc2024_sprint_relay_1_4.jpg', // Leg 1 & 4
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc2024_sprint_relay_2_3.jpg' // Leg 2 & 3
         ],
-        photo: 'https://photos.app.goo.gl/K7ToGU8ikxyc5E4h9',
+        photo: [
+            'https://photos.app.goo.gl/K7ToGU8ikxyc5E4h9',
+            'https://www.flickr.com/photos/148096286@N05/albums/72177720318785334/' // Robert Lines Sprint Relay album
+        ],
         video: [
             'https://www.youtube.com/watch?v=rM_SJPeR6l0',
             'https://www.youtube.com/watch?v=zXHKJvgNloE',
@@ -7623,7 +8328,10 @@ let iofEvents = [
         date: '2024-07-16',
         name: 'WOC #3, нокаут-спринт (квалификация и финалы)',
         place: 'Edinburgh, Scotland, UK (Эдинбург, Шотландия, Великобритания)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=6712',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6712',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6712&groupBy=EventClass' // All races
+        ],
         gps: {
             'M-Q1': 'https://events.loggator.com/WOC2024KOQM1',
             'M-Q2': 'https://events.loggator.com/WOC2024KOQM2',
@@ -7658,11 +8366,23 @@ let iofEvents = [
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/067e3c4d764ae42f8def32dc/optimized_Knock-out_Sprint_Qualification_Women-3.gif',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/d33b6ddaebee2bebb31bde4d/optimized_tile_0_0.jpg',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/8dbd31995203673a963d9d16/optimized_Knock-out_Sprint_Semi-final-Gif.gif',
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/a5fc8546ea9f5c46204da65e/optimized_tile_0_0.jpg'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/a5fc8546ea9f5c46204da65e/optimized_tile_0_0.jpg',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc_2024_ko_sprint_qualification_women-1.gif', // Heat 1
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc_2024_ko_sprint_qualification_women-2.gif', // Heat 2
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc_2024_ko_sprint_qualification_women-3.gif', // Heat 3
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc_2024_ko_sprint_qualification_men-1.gif', // Heat 1
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc_2024_ko_sprint_qualification_men-2.gif', // Heat 2
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc_2024_ko_sprint_qualification_men-3.gif', // Heat 3
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc_2024_ko_sprint_qf.jpg', // Quarter finals
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc_2024_ko_sprint_sf.gif', // Semi finals
+            'https://orienteering.sport/wp-content/uploads/2024/07/woc_2024_ko_sprint_f.jpg' // Finals
         ],
         photo: [
             'https://photos.app.goo.gl/2R84FyeMGwzi6GTp8',
-            'https://photos.app.goo.gl/PzMKqEyMn4BmtHZZ6'
+            'https://photos.app.goo.gl/PzMKqEyMn4BmtHZZ6',
+            'https://www.flickr.com/photos/148096286@N05/albums/72177720318847194/', // Robert Lines Qualification Album
+            'https://www.flickr.com/photos/148096286@N05/albums/72177720318839305/' // Robert Lines Finals Album
         ],
         video: [
             'https://www.youtube.com/watch?v=BUkJoxaTq90',
@@ -7701,6 +8421,14 @@ let iofEvents = [
         date: '2024-08-16',
         name: 'EOC #1, миддл (квалификация)',
         place: 'Mór, Hungary (Мор, Венгрия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8136&eventClassId=16044&eventRaceId=8259&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8136&eventClassId=16045&eventRaceId=8259&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8136&eventClassId=16046&eventRaceId=8259&overallResults=False', // Heat 3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8136&eventClassId=16047&eventRaceId=8259&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8136&eventClassId=16048&eventRaceId=8259&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8136&eventClassId=16049&eventRaceId=8259&overallResults=False' // Heat 3
+        ],
         gps: {
             'M-Q1': 'https://events.loggator.com/EOC2024MQM1',
             'M-Q2': 'https://events.loggator.com/EOC2024MQM2',
@@ -7729,7 +8457,11 @@ let iofEvents = [
         date: '2024-08-17',
         name: 'EOC #2, миддл',
         place: 'Mór, Hungary (Мор, Венгрия)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7772',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7772',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7772&eventClassId=13475&eventRaceId=7886&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7772&eventClassId=13476&eventRaceId=7886&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://events.loggator.com/EOC2024MFM',
             'W': 'https://events.loggator.com/EOC2024MFW'
@@ -7758,7 +8490,11 @@ let iofEvents = [
         date: '2024-08-18',
         name: 'EOC #3, лонг',
         place: 'Mór, Hungary (Мор, Венгрия)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7773',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7773',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7773&eventClassId=13477&eventRaceId=7887&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7773&eventClassId=13478&eventRaceId=7887&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://events.loggator.com/EOC2024LFM',
             'W': 'https://events.loggator.com/EOC2024LFW'
@@ -7786,7 +8522,11 @@ let iofEvents = [
         date: '2024-08-20',
         name: 'EOC #4, эстафета',
         place: 'Mór, Hungary (Мор, Венгрия)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=7774',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7774',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7774&eventClassId=13479', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7774&eventClassId=13480' // Women
+        ],
         gps: {
             'M-1': 'https://events.loggator.com/EOC2024RM1',
             'M-2': 'https://events.loggator.com/EOC2024RM2',
@@ -7803,7 +8543,12 @@ let iofEvents = [
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/7d4309b2c0160870da7f9587/optimized_tile_0_0.jpg',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2c10373ab48636c7d266a894/optimized_tile_0_0.jpg',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/89a0a82c489176645445717f/optimized_tile_0_0.jpg',
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/ac06e26d6302d1558b6c569a/optimized_tile_0_0.jpg'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/ac06e26d6302d1558b6c569a/optimized_tile_0_0.jpg',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2024/08/eoc_2024_relay_men_map.jpg', // Leg 1 & 2
+            'https://orienteering.sport/wp-content/uploads/2024/08/eoc_2024_relay_men_map_3.jpg', // Leg 3
+            'https://orienteering.sport/wp-content/uploads/2024/08/eoc_2024_relay_women_map.jpg', // Leg 1 & 2
+            'https://orienteering.sport/wp-content/uploads/2024/08/eoc_2024_relay_women_map_3.jpg' // Leg 3
         ],
         photo: 'https://photos.google.com/share/AF1QipM22u80kGZBJ60OcQZYIcegO2rokJvl71hbIMFQRr_8OJgF9IQeoUZN7mXJo-CZIw?key=NC11SXh1X3FqMkZpNVFhcmQwTkg0RlRNS205cV9R',
         video: [
@@ -7844,6 +8589,10 @@ let iofEvents = [
         date: '2024-09-10',
         name: 'WMTBOC #1, спринт',
         place: 'Shumen, Bulgaria (Шумен, Болгария)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8068&eventClassId=14681&eventRaceId=8187&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8068&eventClassId=14682&eventRaceId=8187&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-sprint-men',
             'W': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-sprint-women'
@@ -7864,6 +8613,10 @@ let iofEvents = [
         date: '2024-09-11',
         name: 'WMTBOC #2, масс-старт',
         place: 'Shumen, Bulgaria (Шумен, Болгария)',
+        res: [
+            'https://eventor.orienteering.org/Events/ChampionshipResultlist?eventId=8069&championshipId=72&eventClassId=14683', // Men
+            'https://eventor.orienteering.org/Events/ChampionshipResultlist?eventId=8069&championshipId=72&eventClassId=14684' // Women
+        ],
         gps: {
             'M': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-mass-start-men',
             'W': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-mass-start-women'
@@ -7884,6 +8637,10 @@ let iofEvents = [
         date: '2024-09-12',
         name: 'WMTBOC #3, миддл',
         place: 'Shumen, Bulgaria (Шумен, Болгария)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8070&eventClassId=14685&eventRaceId=8189&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8070&eventClassId=14686&eventRaceId=8189&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-middle-men',
             'W': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-middle-women'
@@ -7904,6 +8661,10 @@ let iofEvents = [
         date: '2024-09-14',
         name: 'WMTBOC #4, лонг',
         place: 'Shumen, Bulgaria (Шумен, Болгария)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8071&eventClassId=14687&eventRaceId=8190&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8071&eventClassId=14688&eventRaceId=8190&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-long-men',
             'W': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-long-women'
@@ -7924,6 +8685,10 @@ let iofEvents = [
         date: '2024-09-15',
         name: 'WMTBOC #5, эстафета',
         place: 'Shumen, Bulgaria (Шумен, Болгария)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8072&eventClassId=14689', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8072&eventClassId=14690' // Women
+        ],
         gps: {
             'M-3': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-relay-men-leg-3',
             'W-3': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-relay-women-leg-3'
@@ -7958,6 +8723,12 @@ let iofEvents = [
             // старые карты района (IOF Eventor)
             'https://eventor-iof-storage.orientering.se/eventdocuments/8420/d76a6532-5dcc-4922-aa9f-c8fa297c3a0c/Old-map_Kotivaara.pdf',
             'https://eventor-iof-storage.orientering.se/eventdocuments/8420/92aebde9-4bdd-4a8a-a55a-f2cd6a34bad3/Old-map_Ahola-Kirint-vaara-Kuoppavaara.png'
+        ],
+        video: [
+            'https://www.youtube.com/live/7D6HSsdlZ6o', // Live streaming
+            'https://www.youtube.com/live/cG2SMT_B7I8', // Live streaming
+            'https://www.youtube.com/live/luBeEu6MW34', // Live streaming
+            'https://www.youtube.com/live/TZwgHmjRsFc' // Live streaming
         ],
         coord: [66.108333, 28.166667],
         type: 'SKI',
@@ -8077,6 +8848,10 @@ let iofEvents = [
         date: '2025-05-15',
         name: 'EMTBOC #1, масс-старт',
         place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8204&eventClassId=15294&eventRaceId=8333&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8204&eventClassId=15293&eventRaceId=8333&overallResults=False' // Men
+        ],
         gps: {
             'M': 'https://sportrec.eu/gps/emtboc-2025-mass-m',
             'W': 'https://sportrec.eu/gps/emtboc-2025-mass-w'
@@ -8097,6 +8872,10 @@ let iofEvents = [
         date: '2025-05-16',
         name: 'EMTBOC #2, миддл',
         place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8205&eventClassId=15291&eventRaceId=8334&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8205&eventClassId=15290&eventRaceId=8334&overallResults=False' // Men
+        ],
         gps: {
             'M': 'https://sportrec.eu/gps/emtboc-2025-middle-m',
             'W': 'https://sportrec.eu/gps/emtboc-2025-middle-w'
@@ -8117,6 +8896,10 @@ let iofEvents = [
         date: '2025-05-17',
         name: 'EMTBOC #3, спринт',
         place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8206&eventClassId=15289&eventRaceId=8335&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8206&eventClassId=15288&eventRaceId=8335&overallResults=False' // Men
+        ],
         gps: {
             'M': 'https://sportrec.eu/gps/emtboc-2025-sprint-m',
             'W': 'https://sportrec.eu/gps/emtboc-2025-sprint-w'
@@ -8137,6 +8920,9 @@ let iofEvents = [
         date: '2025-05-18',
         name: 'EMTBOC #4, смешанная эстафета',
         place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8207&groupBy=EventClass' // Mixed
+        ],
         gps: 'https://sportrec.eu/gps/emtboc-2025-mixed-relay',
         maps: [
             // Sportrec
@@ -8183,7 +8969,27 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/6497/3cb87e68-3714-45ea-b841-e45788d93cdb/Puijo-ocad.ocd',
             'https://eventor-iof-storage.orientering.se/eventdocuments/6497/8ab73ee8-3ec6-4a67-82de-76d8edbff619/Tahkom-ki-ocad.ocd'
         ],
-        video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJeMFCpZO9yktNA37p78AgJn',
+        photo: [
+            'https://woc2025.kuvat.fi/i/vu3RHqKP2Xwbp9yTzJWcjteAEN6xDs7r/kuvat/WOC2025/Medal+ceremonies+11.7/' // Medal ceremony 11.7
+        ],
+        video: [
+            'https://www.youtube.com/playlist?list=PLJxCa_0RthJeMFCpZO9yktNA37p78AgJn',
+            'https://www.svtplay.se/video/KrJXbBJ/orientering-vm/medeldistans', // 13:30-17:20
+            'https://www.svtplay.se/video/KXvMP26/orientering-vm/langdistans', // 13:10-17:20
+            'https://www.svtplay.se/video/KrQdW7v/orientering-vm/stafett', // 12:20-16:30
+            'https://tv.nrk.no/serie/orientering/sesong/2025/episode/ISPO10203125', // 13:20-17:20
+            'https://tv.nrk.no/serie/orientering/sesong/2025/episode/ISPO10203225', // 13:00-17:20
+            'https://tv.nrk.no/serie/orientering/sesong/2025/episode/ISPO10203425', // 12:20-16:30
+            'https://arenan.yle.fi/1-74476323', // 14:15-18:20
+            'https://arenan.yle.fi/1-74476324', // 13:55-18:30
+            'https://arenan.yle.fi/1-74476325', // 13:10-17:40
+            'https://www.srf.ch/play/tv/-/video/orientierungslauf-wm-in-kuopio-mitteldistanz-frauen--maenner', // 13:30-17:30
+            'https://www.srf.ch/play/tv/-/video/orientierungslauf-wm-in-kuopio-langdistanz-frauen--maenner', // 13:15-17:15
+            'https://www.srf.ch/play/tv/live/srf-zwei', // 12:20-16:30
+            'https://tv.orf.at/program/orfs/liveorient130.html', // 15:20-17:25
+            'https://tv.orf.at/program/orfs/liveorient132.html', // 16:00-17:25
+            'https://tv.orf.at/program/orfs/liveorient134.html' // 14:45-16:30
+        ],
         coord: [62.8925, 27.678333],
         fmt: 'middle, long, relay',
         start: 'WOC'
@@ -8194,6 +9000,14 @@ let iofEvents = [
         date: '2025-07-08',
         name: 'WOC #1, миддл (квалификация)',
         place: 'Kuopio, Finland (Куопио, Финляндия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8460&eventClassId=17103&eventRaceId=8598&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8460&eventClassId=17104&eventRaceId=8598&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8460&eventClassId=17105&eventRaceId=8598&overallResults=False', // Heat 3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8460&eventClassId=17106&eventRaceId=8598&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8460&eventClassId=17107&eventRaceId=8598&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8460&eventClassId=17108&eventRaceId=8598&overallResults=False' // Heat 3
+        ],
         gps: {
             'M-Q': 'https://www.tulospalvelu.fi/gps/2025wocmqM/',
             'M-Q1': 'https://www.tulospalvelu.fi/gps/2025wocmqM1/',
@@ -8219,9 +9033,20 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2025wocmqW/map',
             'https://www.tulospalvelu.fi/gps/2025wocmqW1/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq1.png
             'https://www.tulospalvelu.fi/gps/2025wocmqW2/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq2.png
-            'https://www.tulospalvelu.fi/gps/2025wocmqW3/map' // duplicate of https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq3.png
+            'https://www.tulospalvelu.fi/gps/2025wocmqW3/map', // duplicate of https://news.worldofo.com/wp-content/uploads/2025/07/mapwomenq3.png
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_q_m1.png', // Heat 1
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_q_m2.png', // Heat 2
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_q_m3.png', // Heat 3
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_q_w1.png', // Heat 1
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_q_w2.png', // Heat 2
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_q_w3.png' // Heat 3
         ],
-        photo: 'https://www.woc2025.fi/media/',
+        photo: [
+            'https://www.woc2025.fi/media/',
+            'https://photos.app.goo.gl/27deRttDTh1DGnfH7', // IOF Album
+            'https://woc2025.kuvat.fi/i/VbQrRaDjxKef3Yz9T5gdcCJWHvE6sMUu/kuvat/WOC2025/Middle+distance+qualification,+8.7.2025/' // WOC 2025 Album
+        ],
         video: 'https://www.youtube.com/watch?v=0WAC4TENxxE',
         coord: [62.8925, 27.678333],
         fmt: 'middle',
@@ -8235,7 +9060,9 @@ let iofEvents = [
         place: 'Kuopio, Finland (Куопио, Финляндия)',
         res: [
             'https://online-live.tulospalvelu.fi/tulokset-new/en/2025_wocmiddle/men/smart/1/',
-            'https://online-live.tulospalvelu.fi/tulokset-new/en/2025_wocmiddle/women/smart/1/'
+            'https://online-live.tulospalvelu.fi/tulokset-new/en/2025_wocmiddle/women/smart/1/',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8461&eventClassId=16336&eventRaceId=8599&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8461&eventClassId=16337&eventRaceId=8599&overallResults=False' // Women
         ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2025wocmfM/',
@@ -8248,9 +9075,16 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=371718',
             'https://www.tulospalvelu.fi/gps/2025wocmfM/map',
             'https://news.worldofo.com/wp-content/uploads/2025/07/mapwoc2025middlemen.png', // duplicate of https://www.tulospalvelu.fi/gps/2025wocmfM/map
-            'https://news.worldofo.com/wp-content/uploads/2025/07/mapwoc2025middlewomen.png' // duplicate of https://www.tulospalvelu.fi/gps/2025wocmfW/map
+            'https://news.worldofo.com/wp-content/uploads/2025/07/mapwoc2025middlewomen.png', // duplicate of https://www.tulospalvelu.fi/gps/2025wocmfW/map
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_middle_men.png', // Men
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_middle_women.png' // Women
         ],
-        photo: 'https://photos.app.goo.gl/7QJJjG65UJMFBtvh6',
+        photo: [
+            'https://photos.app.goo.gl/7QJJjG65UJMFBtvh6',
+            'https://woc2025.kuvat.fi/i/rNDKRVmBWxjgbnapfvzCE7huGqMStywP', // WOC 2025 album
+            'https://kuva.sslmedia.info/Suunnistus2025/MM-kilpailut-2025/MM-keskimatka' // Finnish Orienteering Federation’s album
+        ],
         video: 'https://www.youtube.com/watch?v=gy3COdirG3I',
         coord: [62.8925, 27.678333],
         fmt: 'middle',
@@ -8262,6 +9096,10 @@ let iofEvents = [
         date: '2025-07-10',
         name: 'WOC #3, лонг',
         place: 'Kuopio, Finland (Куопио, Финляндия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8462&eventClassId=16338&eventRaceId=8600&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8462&eventClassId=16339&eventRaceId=8600&overallResults=False' // Women
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2025wocldM/',
             'W': 'https://www.tulospalvelu.fi/gps/2025wocldW/'
@@ -8271,9 +9109,16 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=371749',
             'https://www.tulospalvelu.fi/gps/2025wocldW/map',
             // 'https://omaps.worldofo.com/?id=371750',
-            'https://www.tulospalvelu.fi/gps/2025wocldM/map'
+            'https://www.tulospalvelu.fi/gps/2025wocldM/map',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_long_men.png', // Men
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_long_women.png' // Women
         ],
-        photo: 'https://photos.app.goo.gl/Prxe7RnX3QHUib1z6',
+        photo: [
+            'https://photos.app.goo.gl/Prxe7RnX3QHUib1z6',
+            'https://woc2025.kuvat.fi/i/bsfY5mTqkc4pjtuExBa8gFHMUDXWrAwz/kuvat/WOC2025/Long+distance+final,+10.7.2025/', // WOC 2025 Album
+            'https://kuva.sslmedia.info/Suunnistus2025/MM-kilpailut-2025/MM-pitk%C3%A4-matka' // Finnish Orienteering Federation
+        ],
         video: 'https://www.youtube.com/watch?v=DmwOcTK9SNg',
         coord: [62.8925, 27.678333],
         fmt: 'long',
@@ -8287,7 +9132,9 @@ let iofEvents = [
         place: 'Kuopio, Finland (Куопио, Финляндия)',
         res: [
             'https://online.tulospalvelu.fi/tulokset-new/en/2025_wocrelay/men/results/',
-            'https://online.tulospalvelu.fi/tulokset-new/en/2025_wocrelay/women/results/'
+            'https://online.tulospalvelu.fi/tulokset-new/en/2025_wocrelay/women/results/',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8463&eventClassId=16340', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8463&eventClassId=16341' // Women
         ],
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/2025wocrelayM1/',
@@ -8308,12 +9155,21 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2025wocrelayW2/map',
             // 'https://omaps.worldofo.com/?id=371821',
             // 'https://omaps.worldofo.com/?id=371846',
-            'https://www.tulospalvelu.fi/gps/2025wocrelayM3/map'
+            'https://www.tulospalvelu.fi/gps/2025wocrelayM3/map',
             // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/2025wocrelayM1/map', // duplicate of https://www.tulospalvelu.fi/gps/2025wocrelayM2/map
             // 'https://www.tulospalvelu.fi/gps/2025wocrelayW1/map', // duplicate of https://www.tulospalvelu.fi/gps/2025wocrelayW2/map
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_relay_men.png', // Leg 1 & 2
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_relay_men3.png', // Leg 3
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_relay_women.png', // Leg 1 & 2
+            'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_relay_women3.png' // Leg 3
         ],
-        photo: 'https://photos.app.goo.gl/KeBAGts7LvmVUQEq7',
+        photo: [
+            'https://photos.app.goo.gl/KeBAGts7LvmVUQEq7',
+            'https://woc2025.kuvat.fi/i/KH6wJmgR2AEaZkUBVrv4XubT8WnFdf5e', // WOC 2025 Album
+            'https://kuva.sslmedia.info/Suunnistus2025/MM-kilpailut-2025/MM-viesti' // Finnish Orienteering Federation
+        ],
         video: 'https://www.youtube.com/watch?v=kqk92O5okrw',
         coord: [62.8925, 27.678333],
         fmt: 'relay',
@@ -8338,7 +9194,10 @@ let iofEvents = [
         res: [
             'https://eventor.orienteering.sport/Events/Show/7490' // IOF Eventor
         ],
-        video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJcr3gt-CUp0Ez3KzcNGen_L',
+        video: [
+            'https://www.youtube.com/playlist?list=PLJxCa_0RthJcr3gt-CUp0Ez3KzcNGen_L',
+            'https://tv.orienteering.sport/2025-world-mtbo-championships' // IOF Web-TV IOF Web-TV
+        ],
         coord: [52.23, 21.011111],
         type: 'VELO',
         fmt: 'sprint, middle, mass start, long, relay',
@@ -8350,6 +9209,12 @@ let iofEvents = [
         date: '2025-08-12',
         name: 'WMTBOC #1, спринт',
         place: 'Warszawa, Poland (Варшава, Польша)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8446&eventClassId=16299&eventRaceId=8584&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8446&eventClassId=16300&eventRaceId=8584&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8503&eventClassId=16406&eventRaceId=8641&overallResults=False', // Men 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8503&eventClassId=16407&eventRaceId=8641&overallResults=False' // Women 20
+        ],
         gps: {
             'M': 'https://event.trackcourse.com/view/wmtboc-2025-sprint-men/en',
             'W': 'https://event.trackcourse.com/view/wmtboc-2025-sprint-women/en'
@@ -8370,6 +9235,12 @@ let iofEvents = [
         date: '2025-08-13',
         name: 'WMTBOC #2, миддл',
         place: 'Warszawa, Poland (Варшава, Польша)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8447&eventClassId=16301&eventRaceId=8585&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8447&eventClassId=16302&eventRaceId=8585&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8504&eventClassId=16408&eventRaceId=8642&overallResults=False', // Men 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8504&eventClassId=16409&eventRaceId=8642&overallResults=False' // Women 20
+        ],
         gps: {
             'M': 'https://event.trackcourse.com/view/wmtboc-2025-middle-men/en',
             'W': 'https://event.trackcourse.com/view/wmtboc-2025-middle-women/en'
@@ -8390,6 +9261,12 @@ let iofEvents = [
         date: '2025-08-14',
         name: 'WMTBOC #3, масс-старт',
         place: 'Warszawa, Poland (Варшава, Польша)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8448&eventClassId=16303&eventRaceId=8586&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8448&eventClassId=16304&eventRaceId=8586&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8505&eventClassId=16410&eventRaceId=8643&overallResults=False', // Men 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8505&eventClassId=16411&eventRaceId=8643&overallResults=False' // Women 20
+        ],
         gps: {
             'M': 'https://event.trackcourse.com/view/wmtboc-2025-mass-start-men/en',
             'W': 'https://event.trackcourse.com/view/wmtboc-2025-mass-start-women/en'
@@ -8410,6 +9287,12 @@ let iofEvents = [
         date: '2025-08-16',
         name: 'WMTBOC #4, лонг',
         place: 'Warszawa, Poland (Варшава, Польша)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8449&eventClassId=16305&eventRaceId=8587&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8449&eventClassId=16306&eventRaceId=8587&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8506&eventClassId=16414&eventRaceId=8644&overallResults=False', // Men 20
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8506&eventClassId=16415&eventRaceId=8644&overallResults=False' // Women 20
+        ],
         gps: {
             'M': 'https://event.trackcourse.com/view/wmtboc-2025-long-men/en',
             'W': 'https://event.trackcourse.com/view/wmtboc-2025-long-women/en'
@@ -8473,6 +9356,22 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/7552/e91b0362-d784-4f75-b15f-fe5807d5a49b/Model-Event-map.pdf'
         ],
         photo: 'https://eoc2025.be/photos/',
+        video: [
+            'https://tv.orienteering.sport/eoc-2025', // 18:50
+            'https://www.svtplay.se/video/jqWgpAn/orientering-em/sprintstafett', // 18:50
+            'https://www.svtplay.se/video/KLJWk2n/orientering-em/knockout-sprint', // 15:30
+            'https://www.svtplay.se/video/86dyM42/orientering-em/sprint', // 15:30
+            'https://tv.nrk.no/serie/orientering/sesong/2025/episode/ISPO10204125', // 18:50
+            'https://tv.nrk.no/serie/orientering/sesong/2025/episode/ISPO10204225', // 15:30
+            'https://tv.nrk.no/serie/orientering/sesong/2025/episode/ISPO10204325', // 15:30
+            'https://scplay.skiclassics.com/events/european-orienteering-championships-2025-sprint-relay-hasselt-belgium', // 18:50
+            'https://scplay.skiclassics.com/events/european-orienteering-championships-2025-ko-sprint-hasselt-belgium', // 15:30
+            'https://scplay.skiclassics.com/events/european-orienteering-championships-2025-sprint-hasselt-belgium', // 15:30
+            'https://arenan.yle.fi/1-74532215', // 19:50
+            'https://arenan.yle.fi/1-75614822', // 16:25
+            'https://arenan.yle.fi/1-75614827', // 16:25
+            'https://eurovisionsport.com/en/explore/sports/orienteering' // 18:50
+        ],
         coord: [50.93, 5.3375],
         fmt: 'sprint, knock-out, sprint relay',
         start: 'EOC'
@@ -8483,7 +9382,10 @@ let iofEvents = [
         date: '2025-08-27',
         name: 'EOC #1, спринт-эстафета',
         place: 'Hasselt, Belgium (Хасселт, Бельгия)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=8520',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8520',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8520&groupBy=EventClass' // Mixed
+        ],
         gps: {
             '1': 'https://events.loggator.com/EOC2025SR1',
             '2': 'https://events.loggator.com/EOC2025SR2',
@@ -8494,7 +9396,9 @@ let iofEvents = [
             // 'https://news.worldofo.com/2025/08/28/eoc-2025-sprint-relay-maps-results-and-analysis/',
             // Loggator
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2b696757532bb0e1963b7e13/optimized_tile_0_0.gif',
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/4079329a8848548c36bc34ac/optimized_tile_0_0.gif'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/4079329a8848548c36bc34ac/optimized_tile_0_0.gif',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_sprint_relay.pdf' // All legs
         ],
         video: [
             'https://www.youtube.com/watch?v=4iudVhZm1R4', // ENG
@@ -8510,6 +9414,14 @@ let iofEvents = [
         date: '2025-08-28',
         name: 'EOC #2, нокаут-спринт (квалификация)',
         place: 'Hasselt, Belgium (Хасселт, Бельгия)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8521&eventClassId=17391&eventRaceId=8659&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8521&eventClassId=17392&eventRaceId=8659&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8521&eventClassId=17393&eventRaceId=8659&overallResults=False', // Heat 3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8521&eventClassId=17394&eventRaceId=8659&overallResults=False', // Heat 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8521&eventClassId=17395&eventRaceId=8659&overallResults=False', // Heat 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8521&eventClassId=17396&eventRaceId=8659&overallResults=False' // Heat 3
+        ],
         gps: {
             'M-Q1': 'https://events.loggator.com/EOC2025KOQM1',
             'M-Q2': 'https://events.loggator.com/EOC2025KOQM2',
@@ -8525,7 +9437,14 @@ let iofEvents = [
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2badf6f96c86d3d119c42658/optimized_tile_0_0.gif',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/8fc1b863550f667d0fc02174/optimized_tile_0_0.gif',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/ec880244741c608fede24a49/optimized_tile_0_0.gif',
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/8a5cda4885cc571a3e99b0a0/optimized_tile_0_0.gif'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/8a5cda4885cc571a3e99b0a0/optimized_tile_0_0.gif',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_ko_q_m1-scaled.gif', // Heat 1
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_ko_q_m2-scaled.gif', // Heat 2
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_ko_q_m3-scaled.gif', // Heat 3
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_ko_q_w1-scaled.gif', // Heat 1
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_ko_q_w2-scaled.gif', // Heat 2
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_ko_q_w3-scaled.gif' // Heat 3
         ],
         video: [
             'https://www.youtube.com/watch?v=KZ2fnWAq6W8' // Knockout Qualification
@@ -8540,7 +9459,20 @@ let iofEvents = [
         date: '2025-08-29',
         name: 'EOC #3, нокаут-спринт (финалы)',
         place: 'Hasselt, Belgium (Хасселт, Бельгия)',
-        res: 'https://eventor.orienteering.org/Events/ResultList?eventId=8522',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8522',
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8522&groupBy=EventClass', // Quarter finals
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8522&eventClassId=17409&eventRaceId=8660&overallResults=False', // Men 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8522&eventClassId=17410&eventRaceId=8660&overallResults=False', // Men 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8522&eventClassId=17411&eventRaceId=8660&overallResults=False', // Men 3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8522&eventClassId=17412&eventRaceId=8660&overallResults=False', // Women 1
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8522&eventClassId=17413&eventRaceId=8660&overallResults=False', // Women 2
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8522&eventClassId=17414&eventRaceId=8660&overallResults=False', // Women 3
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8522&eventClassId=17415&eventRaceId=8660&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8522&eventClassId=17416&eventRaceId=8660&overallResults=False', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8522&eventClassId=17417&eventRaceId=8660&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=8522&eventClassId=17418&eventRaceId=8660&overallResults=False' // Women
+        ],
         gps: {
             'M-QF': 'https://events.loggator.com/EOC2025KOQFM',
             'W-QF': 'https://events.loggator.com/EOC2025KOQFW',
@@ -8554,7 +9486,11 @@ let iofEvents = [
             // Loggator
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/8052958cb38458882af80b23/optimized_tile_0_0.gif',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/7e8044c4bc591d7310fade90/optimized_tile_0_0.gif',
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/0fcba755d1fb246dcbe4a95e/optimized_tile_0_0.gif'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/0fcba755d1fb246dcbe4a95e/optimized_tile_0_0.gif',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_ko_qf.pdf', // Quarter final
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_ko_sf.pdf', // Semi final
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_ko_f.pdf' // Final
         ],
         video: [
             'https://www.youtube.com/watch?v=12mXg_5Uv-Q', // ENG
@@ -8596,7 +9532,16 @@ let iofEvents = [
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/decb3d1d1d9970e112227155/optimized_tile_0_0.gif',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2621f25bedb0e918749b1e0a/optimized_tile_0_0.gif',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/55bdfcc2038b0ded27c61b30/optimized_tile_0_0.gif',
-            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/53f66557d0463d4c2a72320c/optimized_tile_0_0.gif'
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/53f66557d0463d4c2a72320c/optimized_tile_0_0.gif',
+            // карты (IOF LIVE)
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_sprint_q_m1-scaled.gif', // Heat 1
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_sprint_q_m2-scaled.gif', // Heat 2
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_sprint_q_m3-scaled.gif', // Heat 3
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_sprint_q_w1-scaled.gif', // Heat 1
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_sprint_q_w2-scaled.gif', // Heat 2
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_sprint_q_w3-scaled.gif', // Heat 3
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_sprint_f_men-scaled.gif', // Men
+            'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_sprint_f_women-scaled.gif' // Women
         ],
         video: [
             'https://www.youtube.com/watch?v=DsrhXa8poog', // Sprint Qualification
@@ -8636,6 +9581,24 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/8173/2d20b5a1-8116-40d8-a4f1-bc3683cd8544/old_map5.pdf',
             'https://eventor-iof-storage.orientering.se/eventdocuments/8173/c4207e3e-35e6-43c9-8003-cd3c8a02faae/old_map6.pdf',
             'https://eventor-iof-storage.orientering.se/eventdocuments/8173/d3632c17-7da2-433f-accf-350db6a9bae9/old_map7.pdf'
+        ],
+        photo: [
+            'https://wsoc2026.jp/new/photos.html', // WSOC 2026 Albums
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=169', // Bulgaria
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=192', // Chinese Taipei
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=177', // Czechia
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=181', // Estonia
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=182', // Finland
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=222', // Germany
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=231', // Italy
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=233', // Japan
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=234', // Kazakhstan
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=238', // Latvia
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=199', // Lithuania
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=208', // Norway
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=190', // Sweden
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=188', // Switzerland
+            'https://eventor.orienteering.sport/Events/DetailedGroupEntryOverview/8173?organisationId=196' // United States
         ],
         coord: [42.733333, 140.883333],
         type: 'SKI',
@@ -8848,7 +9811,11 @@ let iofEvents = [
         ],
         video: [
             'https://www.youtube.com/playlist?list=PLemA_lslotHE',
-            'https://tv.orienteering.sport/woc-2026-all-races' // IOF TV, все гонки
+            'https://tv.orienteering.sport/woc-2026-all-races', // IOF TV, все гонки
+            'https://tv.orienteering.sport/woc-2026-single-races', // IOF TV Tickets IOF TV all races ticket IOF TV single race ti
+            'https://www.svtplay.se/video/KVk47L7/orientering-vm/sprint-mixad', // 14:10-17:00
+            'https://www.svtplay.se/video/eZxgmRp/orientering-vm/knockout-sprint-mixad', // 14:50-17:00
+            'https://www.svtplay.se/video/8qPkWwB/orientering-vm/sprintstafett-mixad' // 15:30-17:00
         ],
         coord: [44.407222, 8.933889],
         fmt: 'sprint, knock-out, sprint relay',
@@ -8862,7 +9829,8 @@ let iofEvents = [
         place: 'Genova, Italy (Генуя, Италия)',
         res: [
             'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8980&championshipId=157&eventClassId=18310', // мужчины
-            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8980&championshipId=157&eventClassId=18311' // женщины
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8980&championshipId=157&eventClassId=18311', // женщины
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8980&championshipId=157&groupBy=EventClass' // Men and Women
         ],
         gps: {
             'M-Q1': 'https://www.tulospalvelu.fi/gps/2026wocSprintQM1/',
@@ -8975,7 +9943,8 @@ let iofEvents = [
         place: 'Genova, Italy (Генуя, Италия)',
         res: [
             'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8990&championshipId=157&eventClassId=18764', // мужчины
-            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8990&championshipId=157&eventClassId=18763' // женщины
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8990&championshipId=157&eventClassId=18763', // женщины
+            'https://eventor.orienteering.sport/Events/Show/8990' // All races
         ],
         gps: {
             'M-QF': 'https://www.tulospalvelu.fi/gps/2026wocKOquarterM/',
