@@ -961,6 +961,10 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-24.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-45.pdf'
+        ],
         res: 'https://old.orienteering.sport/events/57/world-mtb-orienteering-championships-2007/',
         maps: [
             'https://mapy.ceskyorientak.cz/data/jpg/5032a.jpg',
@@ -985,6 +989,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/2007_World_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_2007'
         ],
+        bulletin: 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-42.pdf',
         res: [
             'https://web.archive.org/web/20200706035812/https://old.orienteering.org/events/?event_id=38',
             'http://woc2007.org.ua/files/relay-f-res-m.htm',
@@ -1004,6 +1009,12 @@ let iofEvents = [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-111.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-215.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-314.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/01/bulletin-4.pdf'
+        ],
         res: 'https://web.archive.org/web/20140315011538/http://old.orientering.no/resultater/emskiores.asp', // сводная таблица призёров ESOC (Норвежская федерация, архив)
         coord: [46.616667, 9.983333],
         type: 'SKI',
@@ -1020,6 +1031,11 @@ let iofEvents = [
             'http://eoc2008.lof.lv/',
             'https://en.wikipedia.org/wiki/European_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию'
+        ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin1-EOC2008.pdf',
+            // 'http://eoc2008.lof.lv/index.php?id=/bulletins/eoc_bulletin_2.php',
+            'https://old.orienteering.sport/wp-content/uploads/2011/01/EOC2008_Bulletin-3.pdf'
         ],
         res: [
             'http://eoc2008.lof.lv/results/longf/MA.HTM',
@@ -1122,6 +1138,12 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/bulletin-nr1.doc',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-23.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-33.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-44.pdf'
+        ],
         res: 'https://old.orienteering.sport/events/50/world-mtb-orienteering-championships-2008/',
         coord: [53.7, 19.966667],
         type: 'VELO',
@@ -1154,6 +1176,11 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/bulletin1.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/bulletin2.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-39.pdf'
+        ],
         coord: [42.733333, 140.883333],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay',
@@ -1168,6 +1195,10 @@ let iofEvents = [
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-25.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-34.pdf'
         ],
         res: 'https://old.orienteering.sport/events/96/european-mtb-orienteering-championships-2009/',
         coord: [55.933333, 12.316667],
@@ -1186,6 +1217,12 @@ let iofEvents = [
             'https://sv.wikipedia.org/wiki/Världsmästerskapen_i_mountainbikeorientering_2009',
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-13.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-2_more-information.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-22.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-32.pdf'
         ],
         res: 'https://old.orienteering.sport/events/49/world-mtb-orienteering-championships-2009/',
         coord: [31.953889, 34.925],
@@ -1227,6 +1264,11 @@ let iofEvents = [
             'https://fi.wikipedia.org/wiki/Hiihtosuunnistuksen_Euroopan-mestaruuskilpailut_2010',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-19.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-213.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-312.pdf'
+        ],
         res: 'https://web.archive.org/web/20140315011538/http://old.orientering.no/resultater/emskiores.asp', // сводная таблица призёров ESOC (Норвежская федерация, архив)
         coord: [46.359444, 25.801667],
         type: 'SKI',
@@ -1243,6 +1285,12 @@ let iofEvents = [
         link: [
             'https://en.wikipedia.org/wiki/European_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию'
+        ],
+        bulletin: [
+            // 'http://eoc2010.orienteering.bg/images/util/EOC_2010.pdf',
+            // 'http://eoc2010.orienteering.bg/images/util/bulletin2.pdf',
+            // 'http://eoc2010.orienteering.bg/images/util/bulletin3.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-4_EOC2010.pdf'
         ],
         maps: [
             // 'https://news.worldofo.com/2010/05/31/eoc-maps-from-all-races-webroute/',
@@ -1382,6 +1430,11 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-12.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-21.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-31.pdf'
+        ],
         res: 'https://old.orienteering.sport/events/48/world-mtb-orienteering-championships-2010/',
         maps: [
             // найдены через omaps.worldofo.com (Suggested maps):
@@ -1401,6 +1454,12 @@ let iofEvents = [
         name: 'Чемпионат мира (WOC)',
         // сайт не работает: woc2010.com
         link: 'https://en.wikipedia.org/wiki/2010_World_Orienteering_Championships',
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/02/Bulletin-1-WOC-2010.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/02/Bulletin-2-WOC-2010.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/02/Bulletin-3-WOC-2010.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/02/Bulletin-4-WOC-20101.pdf'
+        ],
         res: 'https://web.archive.org/web/20200706040226/https://old.orienteering.org/events/?event_id=4',
         coord: [63.429722, 10.393333],
         fmt: 'sprint, middle, long, relay',
@@ -1557,6 +1616,11 @@ let iofEvents = [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften_2011',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-110.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-214.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-313.pdf'
+        ],
         res: 'https://web.archive.org/web/20140315011538/http://old.orientering.no/resultater/emskiores.asp', // сводная таблица призёров ESOC (Норвежская федерация, архив)
         coord: [61.116667, 10.466667],
         type: 'SKI',
@@ -1654,6 +1718,12 @@ let iofEvents = [
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
+        ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-17.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-211.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/02/Bulletin-3.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/03/Bulletin-4.pdf'
         ],
         coord: [62.5444, 12.3333],
         type: 'SKI',
@@ -1780,6 +1850,12 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/2011_World_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_2011'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/02/Bulletin-1-WOC-2011.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/02/Bulletin-2-WOC-2011.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/06/Bulletin-3.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/08/Bulletin-41.pdf'
+        ],
         res: 'https://web.archive.org/web/20200706040305/https://old.orienteering.org/events/?event_id=53',
         maps: 'https://web.archive.org/web/20140602110930id_/http://live.woc2011.fr/data/uploads/maps/19082011/FinaleMD.Women.gif',
         coord: [45.583333, 6.333333], // координаты региона, не населённого пункта — уточнить
@@ -1894,6 +1970,12 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-11.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-2.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/08/Bulletin-31.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/08/Bulletin-42.pdf'
+        ],
         res: 'https://old.orienteering.sport/events/14/world-mtb-orienteering-championships-2011/',
         coord: [45.55, 11.55],
         type: 'VELO',
@@ -1909,6 +1991,11 @@ let iofEvents = [
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/07/Bulletin-1-2.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/09/Bulletin-3.11.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2011/09/Bulletin-42.pdf'
         ],
         res: 'https://old.orienteering.sport/events/95/european-mtb-orienteering-championships-2011/',
         coord: [60.05, 31.75], // координаты региона, не населённого пункта — уточнить
@@ -1928,6 +2015,11 @@ let iofEvents = [
             'https://fi.wikipedia.org/wiki/Hiihtosuunnistuksen_Euroopan-mestaruuskilpailut_2012',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/11/Bulletin-2.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2012/02/Bulletin-3.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2012/02/Bulletin-4.pdf'
+        ],
         res: 'https://web.archive.org/web/20140315011538/http://old.orientering.no/resultater/emskiores.asp', // сводная таблица призёров ESOC (Норвежская федерация, архив)
         coord: [50.911944, 34.802778],
         type: 'SKI',
@@ -1944,6 +2036,11 @@ let iofEvents = [
             'http://www.eoc2012.se/',
             'https://en.wikipedia.org/wiki/European_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию'
+        ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-1-EOC2012.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/06/Bulletin-2.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2012/06/Bulletin-41.pdf'
         ],
         coord: [60.607222, 15.631111],
         fmt: 'sprint, middle, long, relay',
@@ -2111,6 +2208,12 @@ let iofEvents = [
             'http://runners.worldofo.com/woc2012.html',
             'https://en.wikipedia.org/wiki/2012_World_Orienteering_Championships'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/02/Bulletin-1-WOC-2012.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/10/Bulletin-2.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2012/05/Bulletin-32.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2012/07/Bulletin-41.pdf'
+        ],
         res: 'https://web.archive.org/web/20160812223959/http://orienteering.org/events/?event_id=54',
         maps: [
             'https://news.worldofo.com/wp-content/uploads/2012/07/mapsprint.png',
@@ -2230,6 +2333,11 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/02/Bulletin-1.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2012/01/Bulletin-23.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2012/06/Bulletin-31.pdf'
+        ],
         res: 'https://old.orienteering.sport/events/46/world-mtb-orienteering-championships-2012/',
         coord: [47.09296, 17.91377],
         type: 'VELO',
@@ -2331,6 +2439,12 @@ let iofEvents = [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften_2013',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2012/02/Bulletin-11.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2012/07/Bulletin-2-ESOC1.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2012/12/Bulletin-3-ESOC.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2013/02/Bulletin-4-_ESOC.pdf'
+        ],
         res: 'https://web.archive.org/web/20140315011538/http://old.orientering.no/resultater/emskiores.asp', // сводная таблица призёров ESOC (Норвежская федерация, архив)
         coord: [56.8542, 26.2206],
         type: 'SKI',
@@ -2347,6 +2461,12 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2012/12/Bulletin-1.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2012/12/Bulletin-2.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2013/02/Bulletin-3.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2013/03/Bulletin-4.pdf'
+        ],
         coord: [50.35, 83.516667],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay, sprint relay',
@@ -2361,6 +2481,12 @@ let iofEvents = [
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2012/10/Bulletin-14.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2013/05/Bulletin-2.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2013/05/EMTBOC-2013-Bulletin-3.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2013/06/Bulletin-4.pdf'
         ],
         res: 'https://old.orienteering.sport/events/332/european-mtb-orienteering-championships-2013/',
         coord: [50.716667, 23.252778],
@@ -2378,6 +2504,13 @@ let iofEvents = [
         link: [
             'https://en.wikipedia.org/wiki/2013_World_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_2013'
+        ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2011/09/Bulletin-12.pdf',
+            // 'http://julkaisut.sslmedia.info/woc2013/bulletin2/',
+            // 'https://old.orienteering.sport/wp-content/uploads/2012/10/Bulletin-21.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2013/11/Bulletin-3.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2013/07/Bulletin-4.pdf'
         ],
         res: 'https://web.archive.org/web/20161009212708/http://orienteering.org/events/?event_id=55',
         coord: [64.1458, 28.2717],
@@ -2559,6 +2692,12 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2012/12/Bulletin-12.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2013/01/Bulletin-22.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2013/07/Bulletin-3.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2013/08/Bulletin-41.pdf'
+        ],
         res: 'https://old.orienteering.sport/events/47/world-mtb-orienteering-championships-2013/',
         coord: [59.35, 26.35],
         type: 'VELO',
@@ -2576,6 +2715,11 @@ let iofEvents = [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften_2014',
             'https://fi.wikipedia.org/wiki/Hiihtosuunnistuksen_Euroopan-mestaruuskilpailut_2014',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах'
+        ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2013/08/Bulletin-11.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2013/11/Bulletin-2.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2014/02/Bulletin-3.pdf'
         ],
         res: 'https://web.archive.org/web/20140201185233/http://orienteering.org/events/?event_id=380',
         coord: [57.15, 65.533333],
@@ -2701,6 +2845,11 @@ let iofEvents = [
         link: [
             'https://en.wikipedia.org/wiki/European_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию'
+        ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2013/04/Bulletin-1.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2013/09/Bulletin-21.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2014/03/Bulletin-3.pdf'
         ],
         coord: [38.566667, -8.9],
         fmt: 'sprint, middle, long, relay',
@@ -2830,6 +2979,12 @@ let iofEvents = [
             'http://woc2014.fisoveneto.it/woc.php',
             'https://en.wikipedia.org/wiki/2014_World_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_2014'
+        ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2012/12/Bulletin-11.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2013/09/Bulletin-23.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2014/05/Bulletin-3_updated.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2014/07/bulletin_4_WOC.pdf'
         ],
         maps: 'https://news.worldofo.com/wp-content/uploads/2014/07/mapm.jpg',
         coord: [46.445556, 11.173056], // координаты региона, не населённого пункта — уточнить
@@ -2968,6 +3123,11 @@ let iofEvents = [
             'https://de.wikipedia.org/wiki/Mountainbike-Orienteering-Weltmeisterschaften_2014',
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2013/02/Bulletin-1.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2014/04/Bulletin-2-updated.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2014/08/Bulletin-3_WMTBOC-2014.pdf'
         ],
         res: 'https://old.orienteering.sport/events/354/world-mtb-orienteering-championships-2014/',
         coord: [53.135278, 23.145556],
@@ -3108,6 +3268,12 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2013/08/Bulletin-13.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2014/08/Bulletin-2_WSOC-2015-NOR.pdf',
+            // 'https://old.orienteering.sport/wp-content/uploads/2014/10/Bulletin-2.1_WSOC-2015-NOR.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2014/12/Bulletin-3_WSOC-JWSOC-2015-NOR.pdf'
+        ],
         coord: [60.79451, 11.06795],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay, sprint relay',
@@ -3220,6 +3386,10 @@ let iofEvents = [
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        bulletin: [
+            // 'https://old.orienteering.sport/wp-content/uploads/2014/03/Bulletin-1-22.pdf',
+            'https://old.orienteering.sport/wp-content/uploads/2015/06/Bulletin-4-Final.pdf'
         ],
         res: 'https://old.orienteering.sport/events/401/european-mtb-orienteering-championships-2015/',
         coord: [39.916667, -7.233333],
@@ -5800,6 +5970,62 @@ let iofEvents = [
         start: 'EMTBOC'
     },
     {
+        id: 'IOF_20220520_1',
+        parent: 'IOF_20220518_1',
+        date: '2022-05-20',
+        name: 'EMTBOC #1, спринт',
+        place: 'Ignalina, Lithuania (Игналина, Литва)',
+        gps: {
+            'M': 'https://sportrec.eu/gps/emtboc-sprint-men',
+            'W': 'https://sportrec.eu/gps/emtboc-sprint-women'
+        },
+        maps: [
+            // Sportrec
+            'https://sportrec.eu/gps/map/1h845ri/4092_220519202224.png',
+            'https://sportrec.eu/gps/map/1h845s9/4093_220519202924.png'
+        ],
+        coord: [55.35, 26.166667],
+        type: 'VELO',
+        fmt: 'sprint',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20220521_1',
+        parent: 'IOF_20220518_1',
+        date: '2022-05-21',
+        name: 'EMTBOC #2, лонг',
+        place: 'Ignalina, Lithuania (Игналина, Литва)',
+        gps: {
+            'M': 'https://sportrec.eu/gps/emtboc-long-men',
+            'W': 'https://sportrec.eu/gps/emtboc-long-women'
+        },
+        maps: [
+            // Sportrec
+            'https://sportrec.eu/gps/map/1h8462q/4094_Bz052107210852Lui4.png',
+            'https://sportrec.eu/gps/map/1h8463u/4095_rC05210735287iodLM.png'
+        ],
+        coord: [55.35, 26.166667],
+        type: 'VELO',
+        fmt: 'long',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20220522_1',
+        parent: 'IOF_20220518_1',
+        date: '2022-05-22',
+        name: 'EMTBOC #3, смешанная эстафета',
+        place: 'Ignalina, Lithuania (Игналина, Литва)',
+        gps: 'https://sportrec.eu/gps/emtboc-mixed-relay',
+        maps: [
+            // Sportrec
+            'https://sportrec.eu/gps/map/1h846ba/4100_Zi0521172918PV7JCd.png'
+        ],
+        coord: [55.35, 26.166667],
+        type: 'VELO',
+        fmt: 'mixed relay',
+        start: 'EMTBOC'
+    },
+    {
         id: 'IOF_20220626_1',
         date: '2022-06-26',
         endDate: '2022-06-30',
@@ -6227,6 +6453,93 @@ let iofEvents = [
         coord: [37.15, -8.0],
         type: 'VELO',
         fmt: 'middle, mass start, mixed relay, sprint',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20230426_1',
+        parent: 'IOF_20230425_1',
+        date: '2023-04-26',
+        name: 'EMTBOC #1, миддл',
+        place: 'Loulé, Portugal (Лоле, Португалия)',
+        gps: {
+            'M': 'https://events.loggator.com/xTGWWg',
+            'W': 'https://events.loggator.com/WH5xug',
+            'Livelox': 'https://www.livelox.com/Events/Show/94616/European-MTBO-Championship-Middle-Distance'
+        },
+        maps: [
+            // 'https://photos.app.goo.gl/3DnDQefHss4Taf7J6', // карты организаторов (альбом Google Photos)
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/16e9b54c6b99c3214b8ebac2/optimized_M21.png',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/69a27548ca1cd5c53292dcfb/optimized_W21.png'
+        ],
+        coord: [37.15, -8.0],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20230427_1',
+        parent: 'IOF_20230425_1',
+        date: '2023-04-27',
+        name: 'EMTBOC #2, масс-старт',
+        place: 'Loulé, Portugal (Лоле, Португалия)',
+        gps: {
+            'M': 'https://events.loggator.com/DqHp8Q',
+            'W': 'https://events.loggator.com/h9Pp5g',
+            'Livelox': 'https://www.livelox.com/Events/Show/94618/European-MTBO-Championship-Mass-Start-and-Long-Distance'
+        },
+        maps: [
+            // 'https://photos.app.goo.gl/rExy7oinhZMzWrUS9', // карты организаторов (альбом Google Photos)
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/cdb9c92682a7d56241a6dfe4/optimized_M21.JPG',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/735d11c58e7e7e2af306638f/optimized_W21.JPG'
+        ],
+        coord: [37.15, -8.0],
+        type: 'VELO',
+        fmt: 'mass start',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20230428_1',
+        parent: 'IOF_20230425_1',
+        date: '2023-04-28',
+        name: 'EMTBOC #3, спринт',
+        place: 'Loulé, Portugal (Лоле, Португалия)',
+        gps: {
+            'M': 'https://events.loggator.com/1YhOAA',
+            'W': 'https://events.loggator.com/VRtOfg',
+            'Livelox': 'https://www.livelox.com/Events/Show/94694/European-MTBO-Championship-Sprint'
+        },
+        maps: [
+            // 'https://photos.app.goo.gl/MmuZzzANEtdrM5Pe9', // карты организаторов (альбом Google Photos)
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/dc83c147602cdc33e46003b5/optimized_Mtbo_sprint_23_Canvas_1_M21.JPG',
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/af829d455a26aa72cdd4626d/optimized_Mtbo_sprint_23_Canvas_1_W21.JPG'
+        ],
+        coord: [37.15, -8.0],
+        type: 'VELO',
+        fmt: 'sprint',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20230429_1',
+        parent: 'IOF_20230425_1',
+        date: '2023-04-29',
+        name: 'EMTBOC #4, смешанная эстафета',
+        place: 'Loulé, Portugal (Лоле, Португалия)',
+        gps: {
+            '1': 'https://events.loggator.com/EhP4GQ',
+            '2': 'https://events.loggator.com/jwBo2Q',
+            '3': 'https://events.loggator.com/4VSZag'
+        },
+        maps: [
+            // 'https://photos.app.goo.gl/bCqM3ruHpnruMFbA7', // карты организаторов (альбом Google Photos)
+            // Loggator
+            'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/003eee6560e3002a3e8b08bb/optimized_Mixed_and_relay_2023_Canvas_1_Mixed_relay_All_variations.JPG'
+        ],
+        coord: [37.15, -8.0],
+        type: 'VELO',
+        fmt: 'mixed relay',
         start: 'EMTBOC'
     },
     {
@@ -7047,6 +7360,106 @@ let iofEvents = [
         start: 'WMTBOC'
     },
     {
+        id: 'IOF_20240910_2',
+        parent: 'IOF_20240910_1',
+        date: '2024-09-10',
+        name: 'WMTBOC #1, спринт',
+        place: 'Shumen, Bulgaria (Шумен, Болгария)',
+        gps: {
+            'M': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-sprint-men',
+            'W': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-sprint-women'
+        },
+        maps: [
+            // TrackSport
+            'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-sprint-men/layers/kmz/6349cdd53a0501184dcd74c41b3b3af8/files/tile_0_0.jpg',
+            'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-sprint-women/layers/kmz/e0feaec79529b2b062df0e76d1f08ec6/files/tile_0_0.jpg'
+        ],
+        coord: [43.283333, 26.933333],
+        type: 'VELO',
+        fmt: 'sprint',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20240911_1',
+        parent: 'IOF_20240910_1',
+        date: '2024-09-11',
+        name: 'WMTBOC #2, масс-старт',
+        place: 'Shumen, Bulgaria (Шумен, Болгария)',
+        gps: {
+            'M': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-mass-start-men',
+            'W': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-mass-start-women'
+        },
+        maps: [
+            // TrackSport
+            'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-mass-start-men/layers/kmz/763f00f14338a0f76148a998f1ebf388/files/tile_0_0.jpg',
+            'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-mass-start-women/layers/kmz/8dfecefab2af89c89e12567b4f84c6a1/files/tile_0_0.jpg'
+        ],
+        coord: [43.283333, 26.933333],
+        type: 'VELO',
+        fmt: 'mass start',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20240912_1',
+        parent: 'IOF_20240910_1',
+        date: '2024-09-12',
+        name: 'WMTBOC #3, миддл',
+        place: 'Shumen, Bulgaria (Шумен, Болгария)',
+        gps: {
+            'M': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-middle-men',
+            'W': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-middle-women'
+        },
+        maps: [
+            // TrackSport
+            'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-middle-men/layers/kmz/047357ef5afbaaadba9d45213b711dd8/files/tile_0_0.jpg',
+            'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-middle-women/layers/kmz/30f87ab63a17c2ced87a5a1d84dae657/files/tile_0_0.jpg'
+        ],
+        coord: [43.283333, 26.933333],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20240914_1',
+        parent: 'IOF_20240910_1',
+        date: '2024-09-14',
+        name: 'WMTBOC #4, лонг',
+        place: 'Shumen, Bulgaria (Шумен, Болгария)',
+        gps: {
+            'M': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-long-men',
+            'W': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-long-women'
+        },
+        maps: [
+            // TrackSport
+            'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-long-men/layers/kmz/0a4e27116f728dbceccf928aeb88b4a5/files/tile_0_0.jpg',
+            'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-long-women/layers/kmz/d46ce2f95ad191884249fe85f3943f9e/files/tile_0_0.jpg'
+        ],
+        coord: [43.283333, 26.933333],
+        type: 'VELO',
+        fmt: 'long',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20240915_1',
+        parent: 'IOF_20240910_1',
+        date: '2024-09-15',
+        name: 'WMTBOC #5, эстафета',
+        place: 'Shumen, Bulgaria (Шумен, Болгария)',
+        gps: {
+            'M-3': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-relay-men-leg-3',
+            'W-3': 'https://gps.tracksport.eu/map/world-mtb-orienteering-championships-relay-women-leg-3'
+        },
+        maps: [
+            // TrackSport
+            'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-relay-men-leg-3/layers/kmz/8822d8f68973838ee44e0c514bc05071/files/tile_0_0.jpg',
+            'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-relay-women-leg-3/layers/kmz/3458349aef74462870e16c5ba42e9f0b/files/tile_0_0.jpg'
+        ],
+        coord: [43.283333, 26.933333],
+        type: 'VELO',
+        fmt: 'relay',
+        start: 'WMTBOC'
+    },
+    {
         id: 'IOF_20250319_1',
         date: '2025-03-19',
         endDate: '2025-03-23', // только sv.wikipedia; гонки по GPS 20–23 марта
@@ -7177,6 +7590,82 @@ let iofEvents = [
         coord: [54.687222, 25.28],
         type: 'VELO',
         fmt: 'mass start, middle, sprint, mixed relay',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20250515_2',
+        parent: 'IOF_20250515_1',
+        date: '2025-05-15',
+        name: 'EMTBOC #1, масс-старт',
+        place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        gps: {
+            'M': 'https://sportrec.eu/gps/emtboc-2025-mass-m',
+            'W': 'https://sportrec.eu/gps/emtboc-2025-mass-w'
+        },
+        maps: [
+            // Sportrec
+            'https://sportrec.eu/gps/map/1k1mb6s/7450_Hu0515082545oiFULs.png',
+            'https://sportrec.eu/gps/map/1k1oqnm/7456_0a0515084520FS513a.png'
+        ],
+        coord: [54.687222, 25.28],
+        type: 'VELO',
+        fmt: 'mass start',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20250516_1',
+        parent: 'IOF_20250515_1',
+        date: '2025-05-16',
+        name: 'EMTBOC #2, миддл',
+        place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        gps: {
+            'M': 'https://sportrec.eu/gps/emtboc-2025-middle-m',
+            'W': 'https://sportrec.eu/gps/emtboc-2025-middle-w'
+        },
+        maps: [
+            // Sportrec
+            'https://sportrec.eu/gps/map/1k1or7u/7457_0U0515220736N4lpLi.png',
+            'https://sportrec.eu/gps/map/1k1ora8/7458_bg0515222054hBr1oK.png'
+        ],
+        coord: [54.687222, 25.28],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20250517_1',
+        parent: 'IOF_20250515_1',
+        date: '2025-05-17',
+        name: 'EMTBOC #3, спринт',
+        place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        gps: {
+            'M': 'https://sportrec.eu/gps/emtboc-2025-sprint-m',
+            'W': 'https://sportrec.eu/gps/emtboc-2025-sprint-w'
+        },
+        maps: [
+            // Sportrec
+            'https://sportrec.eu/gps/map/1k1orcf/7459_Ms0516161408J1y9ul.png',
+            'https://sportrec.eu/gps/map/1k1orei/7460_9R0516160710YuDOVH.png'
+        ],
+        coord: [54.687222, 25.28],
+        type: 'VELO',
+        fmt: 'sprint',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20250518_1',
+        parent: 'IOF_20250515_1',
+        date: '2025-05-18',
+        name: 'EMTBOC #4, смешанная эстафета',
+        place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        gps: 'https://sportrec.eu/gps/emtboc-2025-mixed-relay',
+        maps: [
+            // Sportrec
+            'https://sportrec.eu/gps/map/1k1orm2/7461_lH0517073300lAWF5Y.png'
+        ],
+        coord: [54.687222, 25.28],
+        type: 'VELO',
+        fmt: 'mixed relay',
         start: 'EMTBOC'
     },
     {
@@ -7368,6 +7857,110 @@ let iofEvents = [
         start: 'WMTBOC'
     },
     {
+        id: 'IOF_20250812_2',
+        parent: 'IOF_20250812_1',
+        date: '2025-08-12',
+        name: 'WMTBOC #1, спринт',
+        place: 'Warszawa, Poland (Варшава, Польша)',
+        gps: {
+            'M': 'https://event.trackcourse.com/view/wmtboc-2025-sprint-men/en',
+            'W': 'https://event.trackcourse.com/view/wmtboc-2025-sprint-women/en'
+        },
+        maps: [
+            // TrackCourse
+            'https://event.trackcourse.com/contests_maps/20250812/03abc35c8384ebbb8d7d0de00ceb003d9f6c2cfe/kml_image_Sprint-M21.jpg',
+            'https://event.trackcourse.com/contests_maps/20250812/a14b242527a615ba30661bc6c5522359f7411258/kml_image_Sprint-K21.jpg'
+        ],
+        coord: [52.23, 21.011111],
+        type: 'VELO',
+        fmt: 'sprint',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20250813_1',
+        parent: 'IOF_20250812_1',
+        date: '2025-08-13',
+        name: 'WMTBOC #2, миддл',
+        place: 'Warszawa, Poland (Варшава, Польша)',
+        gps: {
+            'M': 'https://event.trackcourse.com/view/wmtboc-2025-middle-men/en',
+            'W': 'https://event.trackcourse.com/view/wmtboc-2025-middle-women/en'
+        },
+        maps: [
+            // TrackCourse
+            'https://event.trackcourse.com/contests_maps/20250813/07b74ee701fd2361d570b5e8e43632a526fd1d6b/kml_image_Middle-M21.jpg',
+            'https://event.trackcourse.com/contests_maps/20250813/f2e7879ae6caa6a9b43290f3cb7aef9169d87031/kml_image_Middle-K21.jpg'
+        ],
+        coord: [52.23, 21.011111],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20250814_1',
+        parent: 'IOF_20250812_1',
+        date: '2025-08-14',
+        name: 'WMTBOC #3, масс-старт',
+        place: 'Warszawa, Poland (Варшава, Польша)',
+        gps: {
+            'M': 'https://event.trackcourse.com/view/wmtboc-2025-mass-start-men/en',
+            'W': 'https://event.trackcourse.com/view/wmtboc-2025-mass-start-women/en'
+        },
+        maps: [
+            // TrackCourse
+            'https://event.trackcourse.com/contests_maps/20250814/f9f7c4e77027ed548a21c22dec972bed5648fa36/kml_image_Mass-M21.jpg',
+            'https://event.trackcourse.com/contests_maps/20250814/5bda667732350e47133f39a9262fb26bd85eea49/kml_image_Mass-W21.jpg'
+        ],
+        coord: [52.23, 21.011111],
+        type: 'VELO',
+        fmt: 'mass start',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20250816_1',
+        parent: 'IOF_20250812_1',
+        date: '2025-08-16',
+        name: 'WMTBOC #4, лонг',
+        place: 'Warszawa, Poland (Варшава, Польша)',
+        gps: {
+            'M': 'https://event.trackcourse.com/view/wmtboc-2025-long-men/en',
+            'W': 'https://event.trackcourse.com/view/wmtboc-2025-long-women/en'
+        },
+        maps: [
+            // TrackCourse
+            'https://event.trackcourse.com/contests_maps/20250816/5db85df510e1017002197d4a9dd16363f4bd0a21/kml_image_Long-M21.jpg',
+            'https://event.trackcourse.com/contests_maps/20250816/7940c8019b48d2a5f7ac798f2e4bd1c5a509774a/kml_image_Long-W21.jpg'
+        ],
+        coord: [52.23, 21.011111],
+        type: 'VELO',
+        fmt: 'long',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20250817_1',
+        parent: 'IOF_20250812_1',
+        date: '2025-08-17',
+        name: 'WMTBOC #5, эстафета',
+        place: 'Warszawa, Poland (Варшава, Польша)',
+        gps: {
+            'M-1': 'https://event.trackcourse.com/view/wmtboc-2025-relay-men-leg-1/en',
+            'M-2': 'https://event.trackcourse.com/view/wmtboc-2025-relay-men-leg-2/en',
+            'M-3': 'https://event.trackcourse.com/view/wmtboc-2025-relay-men-leg-3/en',
+            'W-1': 'https://event.trackcourse.com/view/wmtboc-2025-relay-women-leg-1/en',
+            'W-2': 'https://event.trackcourse.com/view/wmtboc-2025-relay-women-leg-2/en',
+            'W-3': 'https://event.trackcourse.com/view/wmtboc-2025-relay-women-leg-3/en'
+        },
+        maps: [
+            // TrackCourse
+            'https://event.trackcourse.com/contests_maps/20250817/96f0a78489972fcd70aafacf19718ca2bd483936/kml_image_Relay-M21.jpg',
+            'https://event.trackcourse.com/contests_maps/20250817/da1f9b772b119e617f630e96fe57775d9ee8f291/kml_image_Relay-W21.jpg'
+        ],
+        coord: [52.23, 21.011111],
+        type: 'VELO',
+        fmt: 'relay',
+        start: 'WMTBOC'
+    },
+    {
         id: 'IOF_20250827_1',
         date: '2025-08-27',
         endDate: '2025-08-31', // по cs.wikipedia и Loggator; en: 20–24 августа — неверно
@@ -7519,6 +8112,73 @@ let iofEvents = [
         coord: [42.733333, 140.883333],
         type: 'SKI',
         fmt: 'sprint, pursuit, middle, sprint relay',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20260302_1',
+        parent: 'MAJOR_20260301_1',
+        date: '2026-03-02',
+        name: 'SKI-WOC #1, спринт',
+        place: 'Rusutsu, Hokkaido, Japan (Русуцу, Хоккайдо, Япония)',
+        gps: 'https://app.o-gps-tracker.com/event/wsoc2026/20260302_sprint/index.html',
+        maps: [
+            // O-GPS Tracker
+            'https://app.o-gps-tracker.com/event/wsoc2026/20260302_sprint/src/map/wsoc2026_sprint_w_rstnonsnhmjdiiyn.png',
+            'https://app.o-gps-tracker.com/event/wsoc2026/20260302_sprint/src/map/wsoc2026_sprint_m_rsthiitkrdn.png'
+        ],
+        coord: [42.733333, 140.883333],
+        type: 'SKI',
+        fmt: 'sprint',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20260303_1',
+        parent: 'MAJOR_20260301_1',
+        date: '2026-03-03',
+        name: 'SKI-WOC #2, гонка преследования',
+        place: 'Rusutsu, Hokkaido, Japan (Русуцу, Хоккайдо, Япония)',
+        gps: 'https://app.o-gps-tracker.com/event/wsoc2026/20260303_pursuit/index.html',
+        maps: [
+            // O-GPS Tracker
+            'https://app.o-gps-tracker.com/event/wsoc2026/20260303_pursuit/src/map/wsoc2026_pursuit_m_rstnsunhttmkmr.png',
+            'https://app.o-gps-tracker.com/event/wsoc2026/20260303_pursuit/src/map/wsoc2026_pursuit_w_gtnkizngnbrz.png'
+        ],
+        coord: [42.733333, 140.883333],
+        type: 'SKI',
+        fmt: 'pursuit',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20260305_1',
+        parent: 'MAJOR_20260301_1',
+        date: '2026-03-05',
+        name: 'SKI-WOC #3, миддл',
+        place: 'Rusutsu, Hokkaido, Japan (Русуцу, Хоккайдо, Япония)',
+        gps: 'https://app.o-gps-tracker.com/event/wsoc2026/20260305_middle/index.html',
+        maps: [
+            // O-GPS Tracker
+            'https://app.o-gps-tracker.com/event/wsoc2026/20260305_middle/src/map/wsoc2026_middle_m_bggnknrni2.png',
+            'https://app.o-gps-tracker.com/event/wsoc2026/20260305_middle/src/map/wsoc2026_middle_w_sgtmowrni2.png'
+        ],
+        coord: [42.733333, 140.883333],
+        type: 'SKI',
+        fmt: 'middle',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20260306_1',
+        parent: 'MAJOR_20260301_1',
+        date: '2026-03-06',
+        name: 'SKI-WOC #4, спринт-эстафета',
+        place: 'Rusutsu, Hokkaido, Japan (Русуцу, Хоккайдо, Япония)',
+        gps: 'https://app.o-gps-tracker.com/event/wsoc2026/20260306_sprint_relay/index.html',
+        maps: [
+            // O-GPS Tracker
+            'https://app.o-gps-tracker.com/event/wsoc2026/20260306_sprint_relay/src/map/wsoc2026_sprint-relay_sunttnimsn.png'
+        ],
+        coord: [42.733333, 140.883333],
+        type: 'SKI',
+        fmt: 'sprint relay',
         start: 'SKI_WOC'
     },
     {
