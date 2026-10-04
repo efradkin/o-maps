@@ -773,15 +773,79 @@ let iofEvents = [
             'https://web.archive.org/web/20041108194314id_/http://eoc2004.dk:80/en/eoc2004_bulletin_4.pdf'
         ],
         res: 'https://web.archive.org/web/20040719232157id_/http://www.eoc2004.dk:80/eoc_results/eoc2004_results_middle_distance.pdf', // миддл (Wayback Machine)
+        coord: [55.65, 12.083333],
+        fmt: 'sprint, middle, long, relay',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20040710_2',
+        parent: 'IOF_20040710_1',
+        date: '2004-07-10',
+        name: 'EOC #1, лонг (квалификация)',
+        place: 'Roskilde, Denmark (Роскилле, Дания)',
+        coord: [55.65, 12.083333],
+        fmt: 'long',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20040711_1',
+        parent: 'IOF_20040710_1',
+        date: '2004-07-11',
+        name: 'EOC #2, миддл (квалификация)',
+        place: 'Roskilde, Denmark (Роскилле, Дания)',
+        coord: [55.65, 12.083333],
+        fmt: 'middle',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20040713_1',
+        parent: 'IOF_20040710_1',
+        date: '2004-07-13',
+        name: 'EOC #3, миддл',
+        place: 'Roskilde, Denmark (Роскилле, Дания)',
         maps: [
-            // официальные карты организаторов (Wayback Machine, eoc2004.dk):
-            'https://web.archive.org/web/20060623101522id_/http://eoc2004.dk:80/images/eoc_final_sprint_mens_course.jpg', // финал спринта, мужчины
-            'https://web.archive.org/web/20060623101650id_/http://eoc2004.dk:80/images/eoc_final_sprint_womens_course.jpg', // финал спринта, женщины
             'https://web.archive.org/web/20060623101510id_/http://eoc2004.dk:80/images/eoc_final_middle_mens_course.jpg', // финал миддла, мужчины
-            'https://web.archive.org/web/20060623101614id_/http://eoc2004.dk:80/images/eoc_final_middle_womens_course.jpg', // финал миддла, женщины
+            'https://web.archive.org/web/20060623101614id_/http://eoc2004.dk:80/images/eoc_final_middle_womens_course.jpg' // финал миддла, женщины
+        ],
+        coord: [55.65, 12.083333],
+        fmt: 'middle',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20040714_1',
+        parent: 'IOF_20040710_1',
+        date: '2004-07-14',
+        name: 'EOC #4, спринт (квалификация и финал)',
+        place: 'Roskilde, Denmark (Роскилле, Дания)',
+        maps: [
+            'https://web.archive.org/web/20060623101522id_/http://eoc2004.dk:80/images/eoc_final_sprint_mens_course.jpg', // финал спринта, мужчины
+            'https://web.archive.org/web/20060623101650id_/http://eoc2004.dk:80/images/eoc_final_sprint_womens_course.jpg' // финал спринта, женщины
+        ],
+        coord: [55.65, 12.083333],
+        fmt: 'sprint',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20040716_1',
+        parent: 'IOF_20040710_1',
+        date: '2004-07-16',
+        name: 'EOC #5, лонг',
+        place: 'Roskilde, Denmark (Роскилле, Дания)',
+        maps: [
             'https://web.archive.org/web/20060623101410id_/http://eoc2004.dk:80/images/eoc_final_long_mens_course.jpg', // финал лонга, мужчины
-            'https://web.archive.org/web/20060623101458id_/http://eoc2004.dk:80/images/eoc_final_long_womens_course.jpg', // финал лонга, женщины
-            // официальные карты организаторов (Wayback Machine, eoc2004.dk):
+            'https://web.archive.org/web/20060623101458id_/http://eoc2004.dk:80/images/eoc_final_long_womens_course.jpg' // финал лонга, женщины
+        ],
+        coord: [55.65, 12.083333],
+        fmt: 'long',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20040717_1',
+        parent: 'IOF_20040710_1',
+        date: '2004-07-17',
+        name: 'EOC #6, эстафета',
+        place: 'Roskilde, Denmark (Роскилле, Дания)',
+        maps: [
             'https://web.archive.org/web/20041021030414id_/http://eoc2004.dk:80/images/relay_course_men1.GIF', // эстафета, мужчины, этап 1
             'https://web.archive.org/web/20040815005401id_/http://www.eoc2004.dk:80/images/relay_course_men2.GIF', // эстафета, мужчины, этап 2
             'https://web.archive.org/web/20040814182621id_/http://www.eoc2004.dk:80/images/relay_course_men3.GIF', // эстафета, мужчины, этап 3
@@ -790,7 +854,7 @@ let iofEvents = [
             'https://web.archive.org/web/20040814185701id_/http://www.eoc2004.dk:80/images/relay_course_women3.GIF' // эстафета, женщины, этап 3
         ],
         coord: [55.65, 12.083333],
-        fmt: 'sprint, middle, long, relay',
+        fmt: 'relay',
         start: 'EOC'
     },
     {
@@ -945,17 +1009,26 @@ let iofEvents = [
         bulletin: 'https://web.archive.org/web/20070628234004id_/http://www.eoc2006.ee/docs/bulletin4.pdf',
         res: [
             'https://old.orienteering.sport/events/247/', // результаты на старом сайте IOF
-            'https://web.archive.org/web/20060524114803id_/http://www.eoc2006.ee:80/results/sprintq/men.pdf', // квалификация спринта, мужчины
-            'https://web.archive.org/web/20060524114854id_/http://www.eoc2006.ee:80/results/sprintq/women.pdf', // квалификация спринта, женщины
-            'https://web.archive.org/web/20060524115009id_/http://www.eoc2006.ee:80/results/sprintf/results.pdf', // финал спринта
-            'https://web.archive.org/web/20060524114752id_/http://www.eoc2006.ee:80/results/middleq/men.pdf', // квалификация миддла, мужчины
-            'https://web.archive.org/web/20060524114830id_/http://www.eoc2006.ee:80/results/middleq/women.pdf', // квалификация миддла, женщины
-            'https://web.archive.org/web/20060524114727id_/http://www.eoc2006.ee:80/results/longq/men.pdf', // квалификация лонга, мужчины
-            'https://web.archive.org/web/20060524114739id_/http://www.eoc2006.ee:80/results/longq/women.pdf' // квалификация лонга, женщины
         ],
         maps: [
             // 'https://news.worldofo.com/2006/05/08/mats-troeng-jonn-are-myhren-eoc-maps/',
-            // карты с сайта организаторов (Wayback Machine, eoc2006.ee):
+        ],
+        coord: [58.059444, 26.495833],
+        fmt: 'sprint, middle, long, relay',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20060507_1',
+        parent: 'IOF_20060505_1',
+        date: '2006-05-07',
+        name: 'EOC #1, спринт (квалификация и финал)',
+        place: 'Otepää, Estonia (Отепя, Эстония)',
+        res: [
+            'https://web.archive.org/web/20060524114803id_/http://www.eoc2006.ee:80/results/sprintq/men.pdf', // квалификация спринта, мужчины
+            'https://web.archive.org/web/20060524114854id_/http://www.eoc2006.ee:80/results/sprintq/women.pdf', // квалификация спринта, женщины
+            'https://web.archive.org/web/20060524115009id_/http://www.eoc2006.ee:80/results/sprintf/results.pdf' // финал спринта
+        ],
+        maps: [
             'https://web.archive.org/web/20070419113745id_/http://www.eoc2006.ee:80/results/sprintf/men.gif', // финал спринта, мужчины
             'https://web.archive.org/web/20070419201754id_/http://www.eoc2006.ee:80/results/sprintf/women.gif', // финал спринта, женщины
             'https://web.archive.org/web/20070419201811id_/http://www.eoc2006.ee:80/results/sprintf/andrey.gif', // финал спринта, Andrey
@@ -965,7 +1038,33 @@ let iofEvents = [
             'https://web.archive.org/web/20070419025034id_/http://www.eoc2006.ee:80/results/sprintf/simone.gif', // финал спринта, Simone
             'https://web.archive.org/web/20070808172242id_/http://www.eoc2006.ee/results/sprintf/anu.gif', // финал спринта, Anu
             'https://web.archive.org/web/20070808172330id_/http://www.eoc2006.ee/results/sprintf/minna.gif', // финал спринта, Minna
-            'https://web.archive.org/web/20060510121830id_/http://www.eoc2006.ee:80/results/sprintf/toome.jpg', // финал спринта, toome
+            'https://web.archive.org/web/20060510121830id_/http://www.eoc2006.ee:80/results/sprintf/toome.jpg' // финал спринта, toome
+        ],
+        coord: [58.059444, 26.495833],
+        fmt: 'sprint',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20060508_1',
+        parent: 'IOF_20060505_1',
+        date: '2006-05-08',
+        name: 'EOC #2, миддл (квалификация)',
+        place: 'Otepää, Estonia (Отепя, Эстония)',
+        res: [
+            'https://web.archive.org/web/20060524114752id_/http://www.eoc2006.ee:80/results/middleq/men.pdf', // квалификация миддла, мужчины
+            'https://web.archive.org/web/20060524114830id_/http://www.eoc2006.ee:80/results/middleq/women.pdf' // квалификация миддла, женщины
+        ],
+        coord: [58.059444, 26.495833],
+        fmt: 'middle',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20060509_1',
+        parent: 'IOF_20060505_1',
+        date: '2006-05-09',
+        name: 'EOC #3, миддл',
+        place: 'Otepää, Estonia (Отепя, Эстония)',
+        maps: [
             'https://web.archive.org/web/20070808171019id_/http://www.eoc2006.ee/results/middlef/mfm.gif', // финал миддла, mfm
             'https://web.archive.org/web/20070419031657id_/http://www.eoc2006.ee:80/results/middlef/mfm1.gif', // финал миддла, mfm1
             'https://web.archive.org/web/20070419045556id_/http://www.eoc2006.ee:80/results/middlef/mfm2.gif', // финал миддла, mfm2
@@ -976,7 +1075,33 @@ let iofEvents = [
             'https://web.archive.org/web/20061019153904id_/http://www.eoc2006.ee:80/results/middlef/mfw2.gif', // финал миддла, mfw2
             'https://web.archive.org/web/20070808170700id_/http://www.eoc2006.ee/results/middlef/mfw3.gif', // финал миддла, mfw3
             'https://web.archive.org/web/20070419110657id_/http://www.eoc2006.ee:80/results/middlef/mfw5.gif', // финал миддла, mfw5
-            'https://web.archive.org/web/20070419113446id_/http://www.eoc2006.ee:80/results/middlef/mfw13.gif', // финал миддла, mfw13
+            'https://web.archive.org/web/20070419113446id_/http://www.eoc2006.ee:80/results/middlef/mfw13.gif' // финал миддла, mfw13
+        ],
+        coord: [58.059444, 26.495833],
+        fmt: 'middle',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20060511_1',
+        parent: 'IOF_20060505_1',
+        date: '2006-05-11',
+        name: 'EOC #4, лонг (квалификация)',
+        place: 'Otepää, Estonia (Отепя, Эстония)',
+        res: [
+            'https://web.archive.org/web/20060524114727id_/http://www.eoc2006.ee:80/results/longq/men.pdf', // квалификация лонга, мужчины
+            'https://web.archive.org/web/20060524114739id_/http://www.eoc2006.ee:80/results/longq/women.pdf' // квалификация лонга, женщины
+        ],
+        coord: [58.059444, 26.495833],
+        fmt: 'long',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20060512_1',
+        parent: 'IOF_20060505_1',
+        date: '2006-05-12',
+        name: 'EOC #5, лонг',
+        place: 'Otepää, Estonia (Отепя, Эстония)',
+        maps: [
             'https://web.archive.org/web/20070419031640id_/http://www.eoc2006.ee:80/results/longf/longMen.gif', // финал лонга, longMen
             'https://web.archive.org/web/20070419022212id_/http://www.eoc2006.ee:80/results/longf/longWomen.gif', // финал лонга, longWomen
             'https://web.archive.org/web/20070419035426id_/http://www.eoc2006.ee:80/results/longf/LFM1.gif', // финал лонга, LFM1
@@ -984,7 +1109,19 @@ let iofEvents = [
             'https://web.archive.org/web/20070419111538id_/http://www.eoc2006.ee:80/results/longf/LFM3.gif', // финал лонга, LFM3
             'https://web.archive.org/web/20070808172705id_/http://www.eoc2006.ee/results/longf/LWF1.gif', // финал лонга, LWF1
             'https://web.archive.org/web/20070808172627id_/http://www.eoc2006.ee/results/longf/LWF2.gif', // финал лонга, LWF2
-            'https://web.archive.org/web/20070419023827id_/http://www.eoc2006.ee:80/results/longf/LWF3.gif', // финал лонга, LWF3
+            'https://web.archive.org/web/20070419023827id_/http://www.eoc2006.ee:80/results/longf/LWF3.gif' // финал лонга, LWF3
+        ],
+        coord: [58.059444, 26.495833],
+        fmt: 'long',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20060513_1',
+        parent: 'IOF_20060505_1',
+        date: '2006-05-13',
+        name: 'EOC #6, эстафета',
+        place: 'Otepää, Estonia (Отепя, Эстония)',
+        maps: [
             'https://web.archive.org/web/20060911053947id_/http://www.eoc2006.ee:80/results/relay/relay.jpg', // эстафета
             'https://web.archive.org/web/20060901210626id_/http://www.eoc2006.ee:80/results/relay/relay_m_1_1.gif', // эстафета, мужчины, 1
             'https://web.archive.org/web/20060902022715id_/http://www.eoc2006.ee:80/results/relay/relay_m_1_2.gif', // эстафета, мужчины, 2
@@ -994,7 +1131,7 @@ let iofEvents = [
             'https://web.archive.org/web/20060902022729id_/http://www.eoc2006.ee:80/results/relay/relay_w_1_3.gif' // эстафета, женщины, 3
         ],
         coord: [58.059444, 26.495833],
-        fmt: 'sprint, middle, long, relay',
+        fmt: 'relay',
         start: 'EOC'
     },
     {
@@ -1016,7 +1153,7 @@ let iofEvents = [
     },
     {
         id: 'IOF_20060801_1',
-        date: '2006-08-01',
+        date: '2006-07-29', // квалификации миддла и лонга 29–30 июля, открытие 1 августа (бюллетень 4)
         endDate: '2006-08-05',
         place: 'Aarhus, Denmark (Орхус, Дания)',
         name: 'Чемпионат мира (WOC)',
@@ -1030,23 +1167,90 @@ let iofEvents = [
             'https://web.archive.org/web/20070103212042id_/http://www.woc2006.dk:80/Bulletin4.pdf'
         ],
         res: 'https://web.archive.org/web/20200706035725/https://old.orienteering.org/events/?event_id=37',
-        maps: [
-            // карты с сайта организаторов (Wayback Machine, woc2006.dk):
-            'https://web.archive.org/web/20071221065158id_/http://www.woc2006.dk/dk/img/lang_kval1.jpg', // квалификация лонга, 1
-            'https://web.archive.org/web/20071221065231id_/http://www.woc2006.dk/dk/img/lang_kval2.jpg', // квалификация лонга, 2
-            'https://web.archive.org/web/20071221065321id_/http://www.woc2006.dk/dk/img/lang_finale1.jpg', // финал лонга, 1
-            'https://web.archive.org/web/20071221065346id_/http://www.woc2006.dk/dk/img/lang_finale2.jpg', // финал лонга, 2
-            'https://web.archive.org/web/20061129144537id_/http://www.woc2006.dk:80/dk/img/mellem_kval1.jpg', // квалификация миддла, 1
-            'https://web.archive.org/web/20061129144820id_/http://www.woc2006.dk:80/dk/img/mellem_kval2.jpg', // квалификация миддла, 2
-            'https://web.archive.org/web/20071219130241id_/http://www.woc2006.dk/dk/img/mellem_finale2.jpg', // финал миддла, 2
-            'https://web.archive.org/web/20071219130329id_/http://www.woc2006.dk/dk/img/stafet1.jpg', // эстафета, 1
-            'https://web.archive.org/web/20071219130345id_/http://www.woc2006.dk/dk/img/stafet2.jpg' // эстафета, 2
-        ],
         photo: [
             'https://commons.wikimedia.org/wiki/Category:World_Orienteering_Championships_2006' // Wikimedia Commons
         ],
         coord: [56.1572, 10.2107],
         fmt: 'sprint, middle, long, relay',
+        start: 'WOC'
+    },
+    {
+        id: 'IOF_20060729_1',
+        parent: 'IOF_20060801_1',
+        date: '2006-07-29',
+        name: 'WOC #1, миддл (квалификация)',
+        place: 'Aarhus, Denmark (Орхус, Дания)',
+        maps: [
+            'https://web.archive.org/web/20061129144537id_/http://www.woc2006.dk:80/dk/img/mellem_kval1.jpg', // квалификация миддла, 1
+            'https://web.archive.org/web/20061129144820id_/http://www.woc2006.dk:80/dk/img/mellem_kval2.jpg' // квалификация миддла, 2
+        ],
+        coord: [56.1572, 10.2107],
+        fmt: 'middle',
+        start: 'WOC'
+    },
+    {
+        id: 'IOF_20060730_1',
+        parent: 'IOF_20060801_1',
+        date: '2006-07-30',
+        name: 'WOC #2, лонг (квалификация)',
+        place: 'Aarhus, Denmark (Орхус, Дания)',
+        maps: [
+            'https://web.archive.org/web/20071221065158id_/http://www.woc2006.dk/dk/img/lang_kval1.jpg', // квалификация лонга, 1
+            'https://web.archive.org/web/20071221065231id_/http://www.woc2006.dk/dk/img/lang_kval2.jpg' // квалификация лонга, 2
+        ],
+        coord: [56.1572, 10.2107],
+        fmt: 'long',
+        start: 'WOC'
+    },
+    {
+        id: 'IOF_20060801_2',
+        parent: 'IOF_20060801_1',
+        date: '2006-08-01',
+        name: 'WOC #3, спринт (квалификация и финал)',
+        place: 'Aarhus, Denmark (Орхус, Дания)',
+        coord: [56.1572, 10.2107],
+        fmt: 'sprint',
+        start: 'WOC'
+    },
+    {
+        id: 'IOF_20060802_1',
+        parent: 'IOF_20060801_1',
+        date: '2006-08-02',
+        name: 'WOC #4, лонг',
+        place: 'Aarhus, Denmark (Орхус, Дания)',
+        maps: [
+            'https://web.archive.org/web/20071221065321id_/http://www.woc2006.dk/dk/img/lang_finale1.jpg', // финал лонга, 1
+            'https://web.archive.org/web/20071221065346id_/http://www.woc2006.dk/dk/img/lang_finale2.jpg' // финал лонга, 2
+        ],
+        coord: [56.1572, 10.2107],
+        fmt: 'long',
+        start: 'WOC'
+    },
+    {
+        id: 'IOF_20060804_1',
+        parent: 'IOF_20060801_1',
+        date: '2006-08-04',
+        name: 'WOC #5, миддл',
+        place: 'Aarhus, Denmark (Орхус, Дания)',
+        maps: [
+            'https://web.archive.org/web/20071219130241id_/http://www.woc2006.dk/dk/img/mellem_finale2.jpg' // финал миддла, 2
+        ],
+        coord: [56.1572, 10.2107],
+        fmt: 'middle',
+        start: 'WOC'
+    },
+    {
+        id: 'IOF_20060805_1',
+        parent: 'IOF_20060801_1',
+        date: '2006-08-05',
+        name: 'WOC #6, эстафета',
+        place: 'Aarhus, Denmark (Орхус, Дания)',
+        maps: [
+            'https://web.archive.org/web/20071219130329id_/http://www.woc2006.dk/dk/img/stafet1.jpg', // эстафета, 1
+            'https://web.archive.org/web/20071219130345id_/http://www.woc2006.dk/dk/img/stafet2.jpg' // эстафета, 2
+        ],
+        coord: [56.1572, 10.2107],
+        fmt: 'relay',
         start: 'WOC'
     },
     {
@@ -4426,7 +4630,6 @@ let iofEvents = [
             'https://eventor.orienteering.sport/Events/Show/4861'
         ],
         maps: [
-            // официальные карты организаторов (Wayback Machine, mtbo16.fpo.pt):
             // старые карты районов и образцы дистанций (Wayback Machine, mtbo16.fpo.pt):
             'https://web.archive.org/web/20161103225629id_/http://mtbo16.fpo.pt/mtbo/files/imagens/oldmaps/Cantanhede(SE).jpg',
             'https://web.archive.org/web/20161103225651id_/http://mtbo16.fpo.pt/mtbo/files/imagens/oldmaps/Luso.png',
