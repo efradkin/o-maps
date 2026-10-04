@@ -2823,6 +2823,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/54791',
         endReg: '2026-09-30 23:55',
         bulletin: 'http://touristclub.ru/okinchits/polozhenie/',
+        res: 'http://touristclub.ru/wp-content/uploads/2026/10/Okin2026_split.html',
         fmt: 'ночное',
         start: 'OKINCHITSA'
     },
@@ -2868,6 +2869,7 @@ let events2026 = [
         place: 'Линдуловская роща',
         reg: 'https://orgeo.ru/event/55780',
         endReg: '2026-10-02 12:00',
+        reskeep: 933,
         bulletin: 'https://orgeo.ru/files/event/file/55780_0838dec9c9.pdf',
         owner: 'FENIX'
     },

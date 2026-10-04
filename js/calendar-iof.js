@@ -4280,7 +4280,6 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=176139',
             // 'https://omaps.worldofo.com/?id=176140',
             'https://mapy.ceskyorientak.cz/data/jpg/8477X.jpg'
-            // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/20160528M_1/map', // duplicate of https://www.tulospalvelu.fi/gps/20160528M_3/map
             // 'https://www.tulospalvelu.fi/gps/20160528M_2/map', // duplicate of https://www.tulospalvelu.fi/gps/20160528M_3/map
             // 'https://www.tulospalvelu.fi/gps/20160528W_1/map', // duplicate of https://www.tulospalvelu.fi/gps/20160528W_3/map
@@ -4315,10 +4314,6 @@ let iofEvents = [
         ],
         maps: [
             // официальные карты организаторов (Wayback Machine, mtbo16.fpo.pt):
-            'https://web.archive.org/web/20161103234146id_/http://mtbo16.fpo.pt/mtbo/files/mapas/sprint/ME.png', // спринт, ME
-            'https://web.archive.org/web/20161103234158id_/http://mtbo16.fpo.pt/mtbo/files/mapas/sprint/WE.png', // спринт, WE
-            'https://web.archive.org/web/20161103231628id_/http://mtbo16.fpo.pt/mtbo/files/mapas/middle/ME.png', // миддл, ME
-            'https://web.archive.org/web/20161103231641id_/http://mtbo16.fpo.pt/mtbo/files/mapas/middle/WE.png', // миддл, WE
             // старые карты районов и образцы дистанций (Wayback Machine, mtbo16.fpo.pt):
             'https://web.archive.org/web/20161103225629id_/http://mtbo16.fpo.pt/mtbo/files/imagens/oldmaps/Cantanhede(SE).jpg',
             'https://web.archive.org/web/20161103225651id_/http://mtbo16.fpo.pt/mtbo/files/imagens/oldmaps/Luso.png',
@@ -4327,12 +4322,6 @@ let iofEvents = [
             'https://web.archive.org/web/20161103225730id_/http://mtbo16.fpo.pt/mtbo/files/imagens/oldmaps/Elite%20Course%20Sample%203.png', // образец дистанции
             'https://web.archive.org/web/20161103225741id_/http://mtbo16.fpo.pt/mtbo/files/imagens/oldmaps/Elite%20Course%20Sample%204.png', // образец дистанции
             // официальные карты организаторов (Wayback Machine, mtbo16.fpo.pt):
-            'https://web.archive.org/web/20161103234459id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(A)_01.png', // лонг, ME, вариант A, часть 1
-            'https://web.archive.org/web/20161103234511id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(A)_02.png', // лонг, ME, вариант A, часть 2
-            'https://web.archive.org/web/20161103234546id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(B)_01.png', // лонг, ME, вариант B, часть 1
-            'https://web.archive.org/web/20161103234557id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(B)_02.png', // лонг, ME, вариант B, часть 2
-            'https://web.archive.org/web/20161103234523id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/WE_01.png', // лонг, WE, часть 1
-            'https://web.archive.org/web/20161103234534id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/WE_02.png', // лонг, WE, часть 2
             'https://web.archive.org/web/20161103234259id_/http://mtbo16.fpo.pt/mtbo/files/mapas/mass_start/ME%20(A).png', // масс-старт, ME
             'https://web.archive.org/web/20161103234312id_/http://mtbo16.fpo.pt/mtbo/files/mapas/mass_start/WE%20(A).png' // масс-старт, WE
         ],
@@ -4342,6 +4331,66 @@ let iofEvents = [
         coord: [40.633333, -8.65],
         type: 'VELO',
         fmt: 'sprint, middle, long, relay',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20160725_1',
+        parent: 'IOF_20160724_1',
+        date: '2016-07-25',
+        name: 'WMTBOC #1, спринт',
+        place: 'Aveiro, Coimbra, Portugal (Авейру, Коимбра, Португалия)',
+        maps: [
+            'https://web.archive.org/web/20161103234146id_/http://mtbo16.fpo.pt/mtbo/files/mapas/sprint/ME.png', // спринт, ME
+            'https://web.archive.org/web/20161103234158id_/http://mtbo16.fpo.pt/mtbo/files/mapas/sprint/WE.png' // спринт, WE
+        ],
+        coord: [40.633333, -8.65],
+        type: 'VELO',
+        fmt: 'sprint',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20160727_1',
+        parent: 'IOF_20160724_1',
+        date: '2016-07-27',
+        name: 'WMTBOC #2, миддл',
+        place: 'Aveiro, Coimbra, Portugal (Авейру, Коимбра, Португалия)',
+        maps: [
+            'https://web.archive.org/web/20161103231628id_/http://mtbo16.fpo.pt/mtbo/files/mapas/middle/ME.png', // миддл, ME
+            'https://web.archive.org/web/20161103231641id_/http://mtbo16.fpo.pt/mtbo/files/mapas/middle/WE.png' // миддл, WE
+        ],
+        coord: [40.633333, -8.65],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20160729_1',
+        parent: 'IOF_20160724_1',
+        date: '2016-07-29',
+        name: 'WMTBOC #3, лонг',
+        place: 'Aveiro, Coimbra, Portugal (Авейру, Коимбра, Португалия)',
+        maps: [
+            'https://web.archive.org/web/20161103234459id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(A)_01.png', // лонг, ME, вариант A, часть 1
+            'https://web.archive.org/web/20161103234511id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(A)_02.png', // лонг, ME, вариант A, часть 2
+            'https://web.archive.org/web/20161103234546id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(B)_01.png', // лонг, ME, вариант B, часть 1
+            'https://web.archive.org/web/20161103234557id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/ME%20(B)_02.png', // лонг, ME, вариант B, часть 2
+            'https://web.archive.org/web/20161103234523id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/WE_01.png', // лонг, WE, часть 1
+            'https://web.archive.org/web/20161103234534id_/http://mtbo16.fpo.pt/mtbo/files/mapas/long/WE_02.png' // лонг, WE, часть 2
+        ],
+        coord: [40.633333, -8.65],
+        type: 'VELO',
+        fmt: 'long',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20160730_1',
+        parent: 'IOF_20160724_1',
+        date: '2016-07-30',
+        name: 'WMTBOC #4, эстафета',
+        place: 'Aveiro, Coimbra, Portugal (Авейру, Коимбра, Португалия)',
+        coord: [40.633333, -8.65],
+        type: 'VELO',
+        fmt: 'relay',
         start: 'WMTBOC'
     },
     {
@@ -4777,7 +4826,6 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2017wocSRelay1/map',
             // 'https://omaps.worldofo.com/index.php?id=211747',
             'https://news.worldofo.com/wp-content/uploads/2017/07/map.png' // duplicate of https://www.tulospalvelu.fi/gps/2017wocSRelay1/map
-            // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/2017wocSRelay3/map', // duplicate of https://www.tulospalvelu.fi/gps/2017wocSRelay2/map
             // 'https://www.tulospalvelu.fi/gps/2017wocSRelay4/map', // duplicate of https://www.tulospalvelu.fi/gps/2017wocSRelay1/map
         ],
@@ -4866,7 +4914,6 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=212121',
             'https://www.tulospalvelu.fi/gps/2017wocRelayM2/map'
             // 'https://omaps.worldofo.com/?id=212122',
-            // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/2017wocRelayM1/map', // duplicate of https://www.tulospalvelu.fi/gps/2017wocRelayM2/map
             // 'https://www.tulospalvelu.fi/gps/2017wocRelayW1/map', // duplicate of https://www.tulospalvelu.fi/gps/2017wocRelayW2/map
         ],
@@ -4896,14 +4943,84 @@ let iofEvents = [
         ],
         res: [
             'https://eventor.orienteering.sport/Events/Show/5189', // IOF Eventor
-            'https://eventor-iof-storage.orientering.se/eventdocuments/5481/5f8a411a-b2de-4970-b060-f362e62120ad/Sprint-Relay-Results.pdf', // спринт-эстафета
-            'https://eventor-iof-storage.orientering.se/eventdocuments/5484/9cd304c4-f93e-4a5b-861c-b2b0aae69ae4/Relay_Results.pdf' // эстафета
         ],
         video: [
             'https://www.youtube.com/watch?v=DlovhtZMSes' // Lucie Rkz
         ],
         coord: [47.9025, 1.909],
         type: 'VELO',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20170730_1',
+        parent: 'IOF_20170729_1',
+        date: '2017-07-30',
+        name: 'EMTBOC #1, спринт',
+        place: 'Orléans, France (Орлеан, Франция)',
+        res: [
+            'https://web.archive.org/web/20170807200956id_/http://www.mtbo17.fr:80/images/documents/results_EMTBOC_WMMTBOC_day1_sprint_split.pdf' // спринт
+        ],
+        coord: [47.9025, 1.909],
+        type: 'VELO',
+        fmt: 'sprint',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20170801_1',
+        parent: 'IOF_20170729_1',
+        date: '2017-08-01',
+        name: 'EMTBOC #2, миддл',
+        place: 'Orléans, France (Орлеан, Франция)',
+        res: [
+            'https://web.archive.org/web/20170807201808id_/http://www.mtbo17.fr:80/images/documents/results_EMTBOC_WMMTBOC_day3_middle_split.pdf' // миддл
+        ],
+        coord: [47.9025, 1.909],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20170803_1',
+        parent: 'IOF_20170729_1',
+        date: '2017-08-03',
+        name: 'EMTBOC #3, лонг',
+        place: 'Orléans, France (Орлеан, Франция)',
+        res: [
+            'https://web.archive.org/web/20200306084622id_/http://mtbo17.fr/images/documents/results_EMTBOC_WMMTBOC_day4_long_split.pdf' // лонг
+        ],
+        coord: [47.9025, 1.909],
+        type: 'VELO',
+        fmt: 'long',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20170804_1',
+        parent: 'IOF_20170729_1',
+        date: '2017-08-04',
+        name: 'EMTBOC #4, спринт-эстафета',
+        place: 'Orléans, France (Орлеан, Франция)',
+        res: [
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5481/5f8a411a-b2de-4970-b060-f362e62120ad/Sprint-Relay-Results.pdf', // спринт-эстафета
+            'https://web.archive.org/web/20200306085146id_/http://mtbo17.fr/images/documents/results_EMTBOC_WMMTBOC_day5_sprintrelay.pdf' // спринт-эстафета
+        ],
+        coord: [47.9025, 1.909],
+        type: 'VELO',
+        fmt: 'sprint relay',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20170805_1',
+        parent: 'IOF_20170729_1',
+        date: '2017-08-05',
+        name: 'EMTBOC #5, эстафета',
+        place: 'Orléans, France (Орлеан, Франция)',
+        res: [
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5484/9cd304c4-f93e-4a5b-861c-b2b0aae69ae4/Relay_Results.pdf', // эстафета
+            'https://web.archive.org/web/20200306084731id_/http://mtbo17.fr/images/documents/results_EMTBOC_WMMTBOC_day6_relay.pdf' // эстафета
+        ],
+        coord: [47.9025, 1.909],
+        type: 'VELO',
+        fmt: 'relay',
         start: 'EMTBOC'
     },
     {
@@ -4923,14 +5040,112 @@ let iofEvents = [
             // 'https://eventor-iof-storage.orientering.se/eventdocuments/5118/9c8a914c-544e-421b-81a5-74d69f54f040/Bulletin-3.pdf',
             'https://eventor-iof-storage.orientering.se/eventdocuments/5118/5c33c0ba-6909-4b03-ac42-c7e9bf32e301/Bulletin-4.pdf'
         ],
-        res: 'https://eventor.orienteering.org/Events/Show/5118',
+        res: [
+            'https://eventor.orienteering.org/Events/Show/5118',
+        ],
+        maps: [
+            // карты организаторов (Wayback Machine, mtbo.lt)
+        ],
         video: [
             'https://www.youtube.com/watch?v=t4vbiYoGgRA', // открытие чемпионата
-            'https://www.youtube.com/watch?v=Y03s-oTPcmI' // эстафета, Tomas Kuzminskis
         ],
         coord: [54.687222, 25.28],
         type: 'VELO',
         fmt: 'sprint, middle, long, mass start, relay',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20170821_1',
+        parent: 'IOF_20170819_1',
+        date: '2017-08-21',
+        name: 'WMTBOC #1, миддл',
+        place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        res: [
+            'https://web.archive.org/web/20170828174034id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/Results_Middle.pdf', // миддл
+            'https://web.archive.org/web/20170828211857id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/Results_Middle2.pdf' // миддл (2-я версия)
+        ],
+        maps: [
+            'https://web.archive.org/web/20190528034630id_/http://www.mtbo.lt/wp-content/uploads/2017/09/ME_middle.pdf', // миддл, мужчины
+            'https://web.archive.org/web/20190528040014id_/http://www.mtbo.lt/wp-content/uploads/2017/09/WE_middle.pdf' // миддл, женщины
+        ],
+        coord: [54.687222, 25.28],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20170822_1',
+        parent: 'IOF_20170819_1',
+        date: '2017-08-22',
+        name: 'WMTBOC #2, масс-старт',
+        place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        res: [
+            'https://web.archive.org/web/20170828173701id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/Results_Mass.pdf' // масс-старт
+        ],
+        maps: [
+            'https://web.archive.org/web/20190528043621id_/http://www.mtbo.lt/wp-content/uploads/2017/10/Mass_Men.pdf', // масс-старт, мужчины
+            'https://web.archive.org/web/20190528040027id_/http://www.mtbo.lt/wp-content/uploads/2017/10/Mass_Women.pdf' // масс-старт, женщины
+        ],
+        coord: [54.687222, 25.28],
+        type: 'VELO',
+        fmt: 'mass start',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20170823_1',
+        parent: 'IOF_20170819_1',
+        date: '2017-08-23',
+        name: 'WMTBOC #3, эстафета',
+        place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        res: [
+            'https://web.archive.org/web/20170828180030id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/Results_relay.pdf', // эстафета
+            'https://web.archive.org/web/20170918080342id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/Results_relay2.pdf' // эстафета (2-я версия)
+        ],
+        maps: [
+            'https://web.archive.org/web/20190528031958id_/http://www.mtbo.lt/wp-content/uploads/2017/09/Relay_Men.pdf' // эстафета, мужчины
+        ],
+        video: [
+            'https://www.youtube.com/watch?v=Y03s-oTPcmI' // эстафета, Tomas Kuzminskis
+        ],
+        coord: [54.687222, 25.28],
+        type: 'VELO',
+        fmt: 'relay',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20170825_1',
+        parent: 'IOF_20170819_1',
+        date: '2017-08-25',
+        name: 'WMTBOC #4, лонг',
+        place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        res: [
+            'https://web.archive.org/web/20170918043807id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/ResultsLong.pdf' // лонг
+        ],
+        maps: [
+            'https://web.archive.org/web/20170918043805id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/Long_Men.pdf', // лонг, мужчины
+            'https://web.archive.org/web/20190528043210id_/http://www.mtbo.lt/wp-content/uploads/2017/08/Long_Women.pdf' // лонг, женщины
+        ],
+        coord: [54.687222, 25.28],
+        type: 'VELO',
+        fmt: 'long',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20170826_1',
+        parent: 'IOF_20170819_1',
+        date: '2017-08-26',
+        name: 'WMTBOC #5, спринт',
+        place: 'Vilnius, Lithuania (Вильнюс, Литва)',
+        res: [
+            'https://web.archive.org/web/20170918080320id_/http://www.mtbo.lt:80/wp-content/uploads/2017/08/ResultsSprint.pdf' // спринт
+        ],
+        maps: [
+            'https://web.archive.org/web/20190528032100id_/http://www.mtbo.lt/wp-content/uploads/2017/09/Sprint_Men.pdf', // спринт, мужчины
+            'https://web.archive.org/web/20190528042222id_/http://www.mtbo.lt/wp-content/uploads/2017/09/Sprint_Women.pdf' // спринт, женщины
+        ],
+        coord: [54.687222, 25.28],
+        type: 'VELO',
+        fmt: 'sprint',
         start: 'WMTBOC'
     },
     {
@@ -4950,11 +5165,83 @@ let iofEvents = [
             // 'https://eventor-iof-storage.orientering.se/eventdocuments/5472/9a25606e-e188-4843-b4d4-bcdbeaf1dbb7/Bulletin-3.pdf',
             'https://eventor-iof-storage.orientering.se/eventdocuments/5472/809e56cc-8967-40b2-adab-592ebd67cac0/Bulletin-4.pdf'
         ],
-        res: 'https://eventor.orienteering.sport/Events/Show/5472',
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/5472',
+        ],
         video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJeQBH3O4OUMysSJa8ClcLHQ',
         coord: [42.016667, 24.0],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay, sprint relay',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20180203_2',
+        parent: 'IOF_20180203_1',
+        date: '2018-02-03',
+        name: 'SKI-EOC #1, спринт',
+        place: 'Velingrad, Bulgaria (Велинград, Болгария)',
+        res: [
+            'https://web.archive.org/web/20180218214032id_/http://esoc2018.bg:80/wp-content/uploads/2018/02/results_ESOC_Sprint.pdf' // спринт
+        ],
+        coord: [42.016667, 24.0],
+        type: 'SKI',
+        fmt: 'sprint',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20180204_1',
+        parent: 'IOF_20180203_1',
+        date: '2018-02-04',
+        name: 'SKI-EOC #2, спринт-эстафета',
+        place: 'Velingrad, Bulgaria (Велинград, Болгария)',
+        res: [
+            'https://web.archive.org/web/20180219000204id_/http://esoc2018.bg:80/wp-content/uploads/2018/02/resultsESOC_Sprint_Relay.pdf' // спринт-эстафета
+        ],
+        coord: [42.016667, 24.0],
+        type: 'SKI',
+        fmt: 'sprint relay',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20180205_1',
+        parent: 'IOF_20180203_1',
+        date: '2018-02-05',
+        name: 'SKI-EOC #3, миддл',
+        place: 'Velingrad, Bulgaria (Велинград, Болгария)',
+        res: [
+            'https://web.archive.org/web/20180218214105id_/http://esoc2018.bg:80/wp-content/uploads/2018/02/results_ESOCJWSOCEYSOC_Middle.pdf' // миддл
+        ],
+        coord: [42.016667, 24.0],
+        type: 'SKI',
+        fmt: 'middle',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20180207_1',
+        parent: 'IOF_20180203_1',
+        date: '2018-02-07',
+        name: 'SKI-EOC #4, лонг',
+        place: 'Velingrad, Bulgaria (Велинград, Болгария)',
+        res: [
+            'https://web.archive.org/web/20180218214223id_/http://esoc2018.bg:80/wp-content/uploads/2018/02/results_ESOCJWSOCEYSOC_Long.pdf' // лонг
+        ],
+        coord: [42.016667, 24.0],
+        type: 'SKI',
+        fmt: 'long',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20180208_1',
+        parent: 'IOF_20180203_1',
+        date: '2018-02-08',
+        name: 'SKI-EOC #5, эстафета',
+        place: 'Velingrad, Bulgaria (Велинград, Болгария)',
+        res: [
+            'https://web.archive.org/web/20180218214908id_/http://esoc2018.bg:80/wp-content/uploads/2018/02/Results_ESOCJWSOCEYSOC_relay.pdf' // эстафета
+        ],
+        coord: [42.016667, 24.0],
+        type: 'SKI',
+        fmt: 'relay',
         start: 'SKI_EOC'
     },
     {
@@ -5106,7 +5393,6 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=231739',
             'https://www.tulospalvelu.fi/gps/20180512_R_W2/map',
             // 'https://omaps.worldofo.com/?id=231740',
-            // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/20180512_R_M1/map', // duplicate of https://www.tulospalvelu.fi/gps/20180512_R_M2/map
             'https://www.tulospalvelu.fi/gps/20180512_R_M3/map'
             // 'https://www.tulospalvelu.fi/gps/20180512_R_W1/map', // duplicate of https://www.tulospalvelu.fi/gps/20180512_R_W2/map
@@ -5153,7 +5439,7 @@ let iofEvents = [
         bulletin: [
             // 'http://www.mtbo.hu/emtboc2018/docs/emtboc2018-b1.pdf',
             // 'http://www.mtbo.hu/emtboc2018/docs/emtboc2018-b2.pdf',
-            'http://www.mtbo.hu/emtboc2018/docs/emtboc2018-b3.pdf'
+            // 'http://www.mtbo.hu/emtboc2018/docs/emtboc2018-b3.pdf' // не открывается, копии в Wayback Machine нет
         ],
         res: [
             'https://eventor.orienteering.sport/Events/Show/5528', // IOF Eventor
@@ -5258,7 +5544,6 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=237443',
             // 'https://omaps.worldofo.com/?id=237444',
             'https://news.worldofo.com/wp-content/uploads/2018/08/mapsr.png' // duplicate of https://www.tulospalvelu.fi/gps/2018wocSprintR1/map
-            // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/2018wocSprintR3/map', // duplicate of https://www.tulospalvelu.fi/gps/2018wocSprintR2/map
             // 'https://www.tulospalvelu.fi/gps/2018wocSprintR4/map', // duplicate of https://www.tulospalvelu.fi/gps/2018wocSprintR1/map
         ],
@@ -5285,7 +5570,10 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/5192/cfdde671-6d9d-4808-8ff1-a2ab6f8578e5/Bulletin-4.pdf'
         ],
         res: [
-            'https://eventor.orienteering.sport/Events/Show/5192' // IOF Eventor
+            'https://eventor.orienteering.sport/Events/Show/5192', // IOF Eventor
+        ],
+        maps: [
+            // карты организаторов (Wayback Machine, wmtboc2018.at)
         ],
         video: [
             'https://www.youtube.com/watch?v=ZShj7v8EDXQ', // официальный фильм, EVENDIA
@@ -5295,6 +5583,79 @@ let iofEvents = [
         coord: [48.603333, 15.168889],
         type: 'VELO',
         fmt: 'sprint, middle, long, mass start, relay',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20180807_2',
+        parent: 'IOF_20180805_2',
+        date: '2018-08-07',
+        name: 'WMTBOC #1, масс-старт',
+        place: 'Zwettl, Austria (Цветль, Австрия)',
+        res: [
+            'https://web.archive.org/web/20180826201846id_/http://www.wmtboc2018.at:80/files/massstart_result.pdf' // масс-старт
+        ],
+        coord: [48.603333, 15.168889],
+        type: 'VELO',
+        fmt: 'mass start',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20180808_1',
+        parent: 'IOF_20180805_2',
+        date: '2018-08-08',
+        name: 'WMTBOC #2, миддл',
+        place: 'Zwettl, Austria (Цветль, Австрия)',
+        res: [
+            'https://web.archive.org/web/20180826201821id_/http://www.wmtboc2018.at:80/files/middle_result.pdf' // миддл
+        ],
+        maps: [
+            'https://web.archive.org/web/20181123133036id_/http://www.wmtboc2018.at:80/wmtboc2018/wp-content/uploads/Middle-M21.pdf' // миддл, M21
+        ],
+        coord: [48.603333, 15.168889],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20180809_2',
+        parent: 'IOF_20180805_2',
+        date: '2018-08-09',
+        name: 'WMTBOC #3, эстафета',
+        place: 'Zwettl, Austria (Цветль, Австрия)',
+        coord: [48.603333, 15.168889],
+        type: 'VELO',
+        fmt: 'relay',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20180811_2',
+        parent: 'IOF_20180805_2',
+        date: '2018-08-11',
+        name: 'WMTBOC #4, лонг',
+        place: 'Zwettl, Austria (Цветль, Австрия)',
+        res: [
+            'https://web.archive.org/web/20180826201816id_/http://www.wmtboc2018.at:80/files/long_result.pdf' // лонг
+        ],
+        maps: [
+            'https://web.archive.org/web/20181123133009id_/http://www.wmtboc2018.at:80/wmtboc2018/wp-content/uploads/Lang-M21.pdf' // лонг, M21
+        ],
+        coord: [48.603333, 15.168889],
+        type: 'VELO',
+        fmt: 'long',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20180812_1',
+        parent: 'IOF_20180805_2',
+        date: '2018-08-12',
+        name: 'WMTBOC #5, спринт',
+        place: 'Zwettl, Austria (Цветль, Австрия)',
+        maps: [
+            'https://web.archive.org/web/20181123132715id_/http://www.wmtboc2018.at:80/wmtboc2018/wp-content/uploads/Sprint-W21.pdf' // спринт, W21
+        ],
+        coord: [48.603333, 15.168889],
+        type: 'VELO',
+        fmt: 'sprint',
         start: 'WMTBOC'
     },
     {
@@ -5349,7 +5710,6 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2018wocRelayW2/map',
             // 'https://omaps.worldofo.com/?id=237666',
             'https://news.worldofo.com/wp-content/uploads/2018/08/maprel.png' // duplicate of https://www.tulospalvelu.fi/gps/2018wocRelayM3/map
-            // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/2018wocRelayM1/map', // duplicate of https://www.tulospalvelu.fi/gps/2018wocRelayM2/map
             // 'https://www.tulospalvelu.fi/gps/2018wocRelayW1/map', // duplicate of https://www.tulospalvelu.fi/gps/2018wocRelayW2/map
         ],
@@ -5534,14 +5894,57 @@ let iofEvents = [
         bulletin: [
             // 'https://eventor-iof-storage.orientering.se/eventdocuments/5832/972d4b61-b290-465d-95b2-3ed8f22e29da/Bulletin-1.pdf',
             // 'https://eventor-iof-storage.orientering.se/eventdocuments/5832/af85f352-7d45-4d4c-be00-65a7e61e8ec1/Bulletin-2.pdf',
-            'https://eventor-iof-storage.orientering.se/eventdocuments/5832/fc5e2592-879e-4b7d-b159-52aa827bb83e/Bulletin-3.pdf'
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5832/fc5e2592-879e-4b7d-b159-52aa827bb83e/Bulletin-3.pdf',
+            'https://web.archive.org/web/20190713110054id_/http://emtboc2019.pl:80/wp-content/uploads/2019/06/biuletyn4_EMTBO2019_web4442.pdf' // бюллетень 4 (Wayback Machine)
         ],
         res: [
-            'https://eventor.orienteering.sport/Events/Show/5832' // IOF Eventor
+            'https://eventor.orienteering.sport/Events/Show/5832', // IOF Eventor
         ],
         coord: [51.11, 17.0325],
         type: 'VELO',
         fmt: 'mixed relay, sprint, mass start',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20190608_2',
+        parent: 'IOF_20190608_1',
+        date: '2019-06-08',
+        name: 'EMTBOC #1, смешанная эстафета',
+        place: 'Wrocław, Strzelin, Poland (Вроцлав, Стшелин, Польша)',
+        res: [
+            'https://web.archive.org/web/20190713093246id_/http://emtboc2019.pl:80/wp-content/uploads/2019/06/EMTBOC19_relay_results.pdf' // эстафета
+        ],
+        coord: [51.11, 17.0325],
+        type: 'VELO',
+        fmt: 'mixed relay',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20190609_1',
+        parent: 'IOF_20190608_1',
+        date: '2019-06-09',
+        name: 'EMTBOC #2, спринт',
+        place: 'Wrocław, Strzelin, Poland (Вроцлав, Стшелин, Польша)',
+        res: [
+            'https://web.archive.org/web/20190711090208id_/http://emtboc2019.pl:80/wp-content/uploads/2019/06/EMTBOC19_Results-sprint.pdf' // спринт
+        ],
+        coord: [51.11, 17.0325],
+        type: 'VELO',
+        fmt: 'sprint',
+        start: 'EMTBOC'
+    },
+    {
+        id: 'IOF_20190610_1',
+        parent: 'IOF_20190608_1',
+        date: '2019-06-10',
+        name: 'EMTBOC #3, масс-старт',
+        place: 'Wrocław, Strzelin, Poland (Вроцлав, Стшелин, Польша)',
+        res: [
+            'https://web.archive.org/web/20190713074829id_/http://emtboc2019.pl:80/wp-content/uploads/2019/06/EMTBOC19_Results_mass.pdf' // масс-старт
+        ],
+        coord: [51.11, 17.0325],
+        type: 'VELO',
+        fmt: 'mass start',
         start: 'EMTBOC'
     },
     {
@@ -5564,23 +5967,6 @@ let iofEvents = [
         res: [
             'http://wmtboc2019.dk/wp-content/uploads/2019/07/Men-results.pdf',
             'http://wmtboc2019.dk/wp-content/uploads/2019/07/W21-results.pdf',
-            'http://wmtboc2019.dk/wp-content/uploads/2019/07/WMTBOC-Middle-result-M21.pdf',
-            'http://wmtboc2019.dk/wp-content/uploads/2019/07/WMTBOC-Middle-result-W21.pdf',
-            'http://wmtboc2019.dk/wp-content/uploads/2019/07/WMTBOC-Long-result-M21.pdf',
-            'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-Long-result-W21.pdf',
-            'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-Relay-official-results-Men.pdf',
-            'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-Relay-official-results-Women.pdf',
-            'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-JWMTBOC-Mass-start-results.pdf',
-            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/e87a172e-3932-498a-9a8e-7bbcca34a729/WMTBOC-Sprint-results-Men.pdf', // спринт, мужчины
-            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/693cc5bd-ecd2-4f22-8729-929171d70171/WMTBOC-Sprint-results-Women.pdf', // спринт, женщины
-            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/9e03519b-7c48-4658-acbd-c4bc26a763e6/WMTBOC-Middle-results-Men.pdf', // миддл, мужчины
-            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/b9454725-00b3-45b7-b560-0f6ccee9295d/WMTBOC-Middle-results-Women.pdf', // миддл, женщины
-            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/6b0f28a6-b0a0-4daf-a5e3-1e944d22cdd1/WMTBOC-Long-results-Men.pdf', // лонг, мужчины
-            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/d7193afa-7b3b-44d0-8198-99a2a2cc8707/WMTBOC-Long-results-Women.pdf', // лонг, женщины
-            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/a33a1772-5659-4d8b-9ed9-1663dc553249/WMTBOC-Mass-start-results-Men.pdf', // масс-старт, мужчины
-            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/ffa65830-c96e-441c-86d5-bd1475895469/WMTBOC-Mass-start-results-Women.pdf', // масс-старт, женщины
-            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/04405bc6-7098-412a-ba54-03186a895772/WMTBOC-Relay-official-results-Men.pdf', // эстафета, мужчины
-            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/ff479849-4001-4193-83ff-418747a95f32/WMTBOC-Relay-official-results-Women.pdf' // эстафета, женщины
         ],
         maps: [
             'http://wmtboc2019.dk/wp-content/uploads/2019/07/Map-Men.pdf',
@@ -5590,6 +5976,88 @@ let iofEvents = [
         coord: [56.433333, 9.4],
         type: 'VELO',
         fmt: 'sprint, middle, long, mass start, relay',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20190728_2',
+        parent: 'IOF_20190728_1',
+        date: '2019-07-28',
+        name: 'WMTBOC #1, спринт',
+        place: 'Viborg, Denmark (Виборг, Дания)',
+        res: [
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/e87a172e-3932-498a-9a8e-7bbcca34a729/WMTBOC-Sprint-results-Men.pdf', // спринт, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/693cc5bd-ecd2-4f22-8729-929171d70171/WMTBOC-Sprint-results-Women.pdf' // спринт, женщины
+        ],
+        coord: [56.433333, 9.4],
+        type: 'VELO',
+        fmt: 'sprint',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20190730_1',
+        parent: 'IOF_20190728_1',
+        date: '2019-07-30',
+        name: 'WMTBOC #2, миддл',
+        place: 'Viborg, Denmark (Виборг, Дания)',
+        res: [
+            'http://wmtboc2019.dk/wp-content/uploads/2019/07/WMTBOC-Middle-result-M21.pdf',
+            'http://wmtboc2019.dk/wp-content/uploads/2019/07/WMTBOC-Middle-result-W21.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/9e03519b-7c48-4658-acbd-c4bc26a763e6/WMTBOC-Middle-results-Men.pdf', // миддл, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/b9454725-00b3-45b7-b560-0f6ccee9295d/WMTBOC-Middle-results-Women.pdf' // миддл, женщины
+        ],
+        coord: [56.433333, 9.4],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20190731_1',
+        parent: 'IOF_20190728_1',
+        date: '2019-07-31',
+        name: 'WMTBOC #3, лонг',
+        place: 'Viborg, Denmark (Виборг, Дания)',
+        res: [
+            'http://wmtboc2019.dk/wp-content/uploads/2019/07/WMTBOC-Long-result-M21.pdf',
+            'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-Long-result-W21.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/6b0f28a6-b0a0-4daf-a5e3-1e944d22cdd1/WMTBOC-Long-results-Men.pdf', // лонг, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/d7193afa-7b3b-44d0-8198-99a2a2cc8707/WMTBOC-Long-results-Women.pdf' // лонг, женщины
+        ],
+        coord: [56.433333, 9.4],
+        type: 'VELO',
+        fmt: 'long',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20190802_1',
+        parent: 'IOF_20190728_1',
+        date: '2019-08-02',
+        name: 'WMTBOC #4, масс-старт',
+        place: 'Viborg, Denmark (Виборг, Дания)',
+        res: [
+            'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-JWMTBOC-Mass-start-results.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/a33a1772-5659-4d8b-9ed9-1663dc553249/WMTBOC-Mass-start-results-Men.pdf', // масс-старт, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/ffa65830-c96e-441c-86d5-bd1475895469/WMTBOC-Mass-start-results-Women.pdf' // масс-старт, женщины
+        ],
+        coord: [56.433333, 9.4],
+        type: 'VELO',
+        fmt: 'mass start',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20190803_1',
+        parent: 'IOF_20190728_1',
+        date: '2019-08-03',
+        name: 'WMTBOC #5, эстафета',
+        place: 'Viborg, Denmark (Виборг, Дания)',
+        res: [
+            'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-Relay-official-results-Men.pdf',
+            'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-Relay-official-results-Women.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/04405bc6-7098-412a-ba54-03186a895772/WMTBOC-Relay-official-results-Men.pdf', // эстафета, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/ff479849-4001-4193-83ff-418747a95f32/WMTBOC-Relay-official-results-Women.pdf' // эстафета, женщины
+        ],
+        coord: [56.433333, 9.4],
+        type: 'VELO',
+        fmt: 'relay',
         start: 'WMTBOC'
     },
     {
@@ -5614,9 +6082,7 @@ let iofEvents = [
             'https://eventor.orienteering.org/Documents/Event/3180/1/Official-Results-Men',
             'https://eventor.orienteering.org/Documents/Event/3183/1/Official-Results-Women',
             'https://eventor.orienteering.org/Documents/Event/3192/1/Official-Results-Women',
-            'https://eventor.orienteering.org/Documents/Event/3194/1/Official-Results-Men-Middle-Final',
             'https://eventor.orienteering.org/Events/ResultList?eventId=6316',
-            'https://eventor.orienteering.org/Documents/Event/3174/1/Official-Results-Middle-Qualification'
         ],
         gps: {
             'all': 'https://www.tractrac.com/event-page/event_20190811_WOC/1639/'
@@ -5624,14 +6090,10 @@ let iofEvents = [
         maps: [
             // 'https://news.worldofo.com/2019/08/16/woc-middle-2019-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=258747',
-            'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Middle_Final_Men.png',
             // 'https://omaps.worldofo.com/?id=258748',
-            'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Middle_Final_Women.png',
             // 'https://news.worldofo.com/2019/08/14/woc-long-2019-maps-and-results/',
             // 'https://omaps.worldofo.com/?id=258681',
-            'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Long_Men.png',
             // 'https://omaps.worldofo.com/?id=258682',
-            'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Long_Women.png'
             // 'https://news.worldofo.com/2019/08/17/woc-relay-2019-map-and-results/',
         ],
         photo: [
@@ -5644,6 +6106,60 @@ let iofEvents = [
         video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJcdxRnZUiHgm9B6KrlNYRoQ',
         coord: [59.333333, 11.333333], // координаты региона, не населённого пункта — уточнить
         fmt: 'middle, long, relay',
+        start: 'WOC'
+    },
+    {
+        id: 'IOF_20190813_2',
+        parent: 'IOF_20190813_1',
+        date: '2019-08-13',
+        name: 'WOC #1, миддл (квалификация)',
+        place: 'Østfold, Norway (Эстфолл, Норвегия)',
+        res: [
+            'https://eventor.orienteering.org/Documents/Event/3174/1/Official-Results-Middle-Qualification'
+        ],
+        coord: [59.333333, 11.333333], // координаты региона, не населённого пункта — уточнить
+        fmt: 'middle',
+        start: 'WOC'
+    },
+    {
+        id: 'IOF_20190814_1',
+        parent: 'IOF_20190813_1',
+        date: '2019-08-14',
+        name: 'WOC #2, лонг',
+        place: 'Østfold, Norway (Эстфолл, Норвегия)',
+        maps: [
+            'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Long_Men.png',
+            'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Long_Women.png'
+        ],
+        coord: [59.333333, 11.333333], // координаты региона, не населённого пункта — уточнить
+        fmt: 'long',
+        start: 'WOC'
+    },
+    {
+        id: 'IOF_20190816_1',
+        parent: 'IOF_20190813_1',
+        date: '2019-08-16',
+        name: 'WOC #3, миддл',
+        place: 'Østfold, Norway (Эстфолл, Норвегия)',
+        res: [
+            'https://eventor.orienteering.org/Documents/Event/3194/1/Official-Results-Men-Middle-Final'
+        ],
+        maps: [
+            'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Middle_Final_Men.png',
+            'https://news.worldofo.com/wp-content/uploads/2019/08/WOC2019_Middle_Final_Women.png'
+        ],
+        coord: [59.333333, 11.333333], // координаты региона, не населённого пункта — уточнить
+        fmt: 'middle',
+        start: 'WOC'
+    },
+    {
+        id: 'IOF_20190817_1',
+        parent: 'IOF_20190813_1',
+        date: '2019-08-17',
+        name: 'WOC #4, эстафета',
+        place: 'Østfold, Norway (Эстфолл, Норвегия)',
+        coord: [59.333333, 11.333333], // координаты региона, не населённого пункта — уточнить
+        fmt: 'relay',
         start: 'WOC'
     },
     {
@@ -5795,44 +6311,119 @@ let iofEvents = [
         ],
         res: [
             'https://eventor.orienteering.org/Events/Show/6482',
-            'https://eventor.orienteering.org/Events/ResultList?eventId=6847&eventClassId=10495%20target=', // Women
-            'https://eventor.orienteering.org/Events/ResultList?eventId=6847&eventClassId=10494', // Men
-            'https://eventor.orienteering.org/Events/ResultList?eventId=6848&eventClassId=10496&eventRaceId=6921&overallResults=False', // Men
-            'https://eventor.orienteering.org/Events/ResultList?eventId=6848&eventClassId=10497&eventRaceId=6921&overallResults=False', // Women
-            'https://eventor.orienteering.org/Events/ResultList?eventId=6854&eventClassId=10503&eventRaceId=6927&overallResults=False', // Men
-            'https://eventor.orienteering.org/Events/ResultList?eventId=6854&eventClassId=10504&eventRaceId=6927&overallResults=False', // Women
-            'https://eventor.orienteering.org/Events/ResultList?eventId=7177&groupBy=EventClass' // Relay
         ],
         maps: [
             // старые карты района (IOF Eventor)
             'https://eventor-iof-storage.orientering.se/eventdocuments/6482/d3af3e1c-ae3e-41ac-803d-9ffd393cb030/Old-maps-1-ski-o-.gif',
             'https://eventor-iof-storage.orientering.se/eventdocuments/6482/3a618469-5f14-4c76-ab72-855ce7d07f90/Old-maps-2-Tartu-Kevad-.jpg',
             'https://eventor-iof-storage.orientering.se/eventdocuments/6482/a682430d-6ccb-4832-9a27-1bce1965cf46/Old-maps-3-.jpg',
-            // карты (IOF LIVE)
+        ],
+        photo: [
+            'mailto:live@orienteering.sport', // live@orienteering.sport
+        ],
+        video: [
+            'https://www.youtube.com/playlist?list=PLJxCa_0RthJdiECUrMbJ5mCkbZ6GMj0IQ',
+        ],
+        coord: [58.006944, 26.395],
+        type: 'SKI',
+        fmt: 'sprint, middle, pursuit, sprint relay',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20210224_2',
+        parent: 'IOF_20210224_1',
+        date: '2021-02-24',
+        name: 'SKI-WOC #1, спринт',
+        place: 'Kääriku, Estonia (Кяэрику, Эстония)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6847&eventClassId=10495%20target=', // Women
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6847&eventClassId=10494' // Men
+        ],
+        maps: [
             'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-sprint-women.png', // Women
-            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-sprint-men.png', // Men
+            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-sprint-men.png' // Men
+        ],
+        photo: [
+            'http://wsoc2021.peko.ee/sprint/' // Photos
+        ],
+        video: [
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCSPRINT&l=en' // Live results All classes
+        ],
+        coord: [58.006944, 26.395],
+        type: 'SKI',
+        fmt: 'sprint',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20210225_1',
+        parent: 'IOF_20210224_1',
+        date: '2021-02-25',
+        name: 'SKI-WOC #2, гонка преследования',
+        place: 'Kääriku, Estonia (Кяэрику, Эстония)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6848&eventClassId=10496&eventRaceId=6921&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6848&eventClassId=10497&eventRaceId=6921&overallResults=False' // Women
+        ],
+        maps: [
             'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-pursuit-men.png', // Men
-            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-pursuit-women.png', // Women
+            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-pursuit-women.png' // Women
+        ],
+        photo: [
+            'http://wsoc2021.peko.ee/pursuit-pictures/', // Race
+            'http://wsoc2021.peko.ee/prize-giving-ceremony-pictures/' // Prize giving
+        ],
+        video: [
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCLONG&l=en&c=MEN', // Live results Men
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCLONG&l=en&c=WOMEN' // Live results Women
+        ],
+        coord: [58.006944, 26.395],
+        type: 'SKI',
+        fmt: 'pursuit',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20210227_1',
+        parent: 'IOF_20210224_1',
+        date: '2021-02-27',
+        name: 'SKI-WOC #3, миддл',
+        place: 'Kääriku, Estonia (Кяэрику, Эстония)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6854&eventClassId=10503&eventRaceId=6927&overallResults=False', // Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=6854&eventClassId=10504&eventRaceId=6927&overallResults=False' // Women
+        ],
+        maps: [
             'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-middle-women.png', // Women
-            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-middle-men.png', // Men
+            'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-middle-men.png' // Men
+        ],
+        photo: [
+            'http://wsoc2021.peko.ee/middle-pictures/' // Race
+        ],
+        video: [
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCMIDDLE&l=en&c=MEN', // Live results Men
+            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCMIDDLE&l=en&c=WOMEN' // Live results Women
+        ],
+        coord: [58.006944, 26.395],
+        type: 'SKI',
+        fmt: 'middle',
+        start: 'SKI_WOC'
+    },
+    {
+        id: 'IOF_20210228_1',
+        parent: 'IOF_20210224_1',
+        date: '2021-02-28',
+        name: 'SKI-WOC #4, спринт-эстафета',
+        place: 'Kääriku, Estonia (Кяэрику, Эстония)',
+        res: [
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7177&groupBy=EventClass' // Relay
+        ],
+        maps: [
             'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-sprintrelay-women.png', // Women
             'https://orienteering.sport/wp-content/uploads/2021/02/wsoc-2021-map-sprintrelay-men.png' // Men
         ],
         photo: [
-            'http://wsoc2021.peko.ee/sprint/', // Photos
-            'mailto:live@orienteering.sport', // live@orienteering.sport
-            'http://wsoc2021.peko.ee/pursuit-pictures/', // Race
-            'http://wsoc2021.peko.ee/prize-giving-ceremony-pictures/', // Prize giving
-            'http://wsoc2021.peko.ee/middle-pictures/', // Race
             'http://wsoc2021.peko.ee/sprint-relay-pictures-2/' // Race
         ],
         video: [
-            'https://www.youtube.com/playlist?list=PLJxCa_0RthJdiECUrMbJ5mCkbZ6GMj0IQ',
-            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCSPRINT&l=en', // Live results All classes
-            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCLONG&l=en&c=MEN', // Live results Men
-            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCLONG&l=en&c=WOMEN', // Live results Women
-            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCMIDDLE&l=en&c=MEN', // Live results Men
-            'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCMIDDLE&l=en&c=WOMEN', // Live results Women
             'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCRELAY&l=en&c=SR@1', // Live results Leg 1
             'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCRELAY&l=en&c=SR@2', // Live results Leg 2
             'http://otse.osport.ee/failid/otse/index.htm?srv=ospc&e=WSOCRELAY&l=en&c=SR@3', // Live results Leg 3
@@ -5842,7 +6433,7 @@ let iofEvents = [
         ],
         coord: [58.006944, 26.395],
         type: 'SKI',
-        fmt: 'sprint, middle, pursuit, sprint relay',
+        fmt: 'sprint relay',
         start: 'SKI_WOC'
     },
     {
@@ -6256,7 +6847,6 @@ let iofEvents = [
             'https://woc2021.cz/wp-content/uploads/2021/06/WEB_Sprint-Relay.pdf',
             'https://news.worldofo.com/wp-content/uploads/2021/07/map_men.jpg', // duplicate of https://www.tulospalvelu.fi/gps/20210704SR3/map
             'https://mapy.ceskyorientak.cz/data/jpg/11617X.jpg'
-            // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/20210704SR1/map', // duplicate of https://www.tulospalvelu.fi/gps/20210704SR4/map
             // 'https://www.tulospalvelu.fi/gps/20210704SR2/map', // duplicate of https://www.tulospalvelu.fi/gps/20210704SR3/map
         ],
@@ -6372,7 +6962,6 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=301423',
             'https://news.worldofo.com/wp-content/uploads/2021/07/map_relay.jpg',
             'https://mapy.ceskyorientak.cz/data/jpg/11622X.jpg',
-            // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/20210708M1/map', // duplicate of https://www.tulospalvelu.fi/gps/20210708M2/map
             // 'https://www.tulospalvelu.fi/gps/20210708W2/map', // duplicate of https://www.tulospalvelu.fi/gps/20210708W1/map
             // карты (IOF LIVE)
@@ -6544,45 +7133,123 @@ let iofEvents = [
         ],
         res: [
             'https://eventor.orienteering.sport/Events/Show/6981',
+        ],
+        coord: [41.725833, 24.684444],
+        type: 'SKI',
+        fmt: 'sprint, middle, long',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20220122_2',
+        parent: 'IOF_20220122_1',
+        date: '2022-01-22',
+        name: 'SKI-EOC #1, спринт',
+        place: 'Chepelare, Bulgaria (Чепеларе, Болгария)',
+        res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7339&eventRaceId=7430&overallResults=False', // All
             'https://eventor.orienteering.org/Events/ResultList?eventId=7339&eventClassId=12266&eventRaceId=7430&overallResults=False', // ESOC Women
             'https://eventor.orienteering.org/Events/ResultList?eventId=7339&eventClassId=12265&eventRaceId=7430&overallResults=False', // ESOC Men
             'https://eventor.orienteering.org/Events/ResultList?eventId=7339&eventClassId=12013&eventRaceId=7430&overallResults=False', // World Cup Women
-            'https://eventor.orienteering.org/Events/ResultList?eventId=7339&eventClassId=12012&eventRaceId=7430&overallResults=False', // World Cup Men
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7339&eventClassId=12012&eventRaceId=7430&overallResults=False' // World Cup Men
+        ],
+        gps: {
+            'Men-re-live-published': 'https://gps.tracksport.eu/map/esoc-2022-sprint-men'
+        },
+        maps: [
+            'https://gps.tracksport.eu/storage/events/esoc-2022-sprint-men/layers/kmz/368059889c53b1a980719ff07ded2c09/files/tile_0_0.jpg'
+        ],
+        coord: [41.725833, 24.684444],
+        type: 'SKI',
+        fmt: 'sprint',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20220124_1',
+        parent: 'IOF_20220122_1',
+        date: '2022-01-24',
+        name: 'SKI-EOC #2, миддл',
+        place: 'Chepelare, Bulgaria (Чепеларе, Болгария)',
+        res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7341&eventRaceId=7432&overallResults=False', // All
             'https://eventor.orienteering.org/Events/ResultList?eventId=7341&eventClassId=12276', // ESOC Women
             'https://eventor.orienteering.org/Events/ResultList?eventId=7341&eventClassId=12275', // ESOC Men
             'https://eventor.orienteering.org/Events/ResultList?eventId=7341&eventClassId=12016', // World Cup Women
-            'https://eventor.orienteering.org/Events/ResultList?eventId=7341&eventClassId=12015', // World Cup Men
-            'https://eventor.orienteering.org/Documents/Event/4962/1/Official-results---Sprint-relay', // Mixed
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7341&eventClassId=12015' // World Cup Men
+        ],
+        gps: {
+            'Start-times-are-delayed-1-hour-due-to-lot-of-snow-in-the-are': 'https://gps.tracksport.eu/map/esoc-2022-middle-men'
+        },
+        maps: [
+            'https://gps.tracksport.eu/storage/events/esoc-2022-middle-men/layers/kmz/4aec876e3b70569614cbbe29079fc542/files/tile_0_0.jpg'
+        ],
+        coord: [41.725833, 24.684444],
+        type: 'SKI',
+        fmt: 'middle',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20220125_1',
+        parent: 'IOF_20220122_1',
+        date: '2022-01-25',
+        name: 'SKI-EOC #3, спринт-эстафета',
+        place: 'Chepelare, Bulgaria (Чепеларе, Болгария)',
+        res: [
+            'https://eventor.orienteering.org/Documents/Event/4962/1/Official-results---Sprint-relay' // Mixed
+        ],
+        gps: {
+            'All-legs': 'https://gps.tracksport.eu/map/esoc-2022-sprint-relay'
+        },
+        maps: [
+            'https://gps.tracksport.eu/storage/events/esoc-2022-sprint-relay/layers/kmz/ac8719c1f7121ecf0274ea93c208b3f3/files/tile_0_0.jpg'
+        ],
+        video: [
+            'https://www.youtube.com/watch?v=F4nwIuzSxJc' // Link to youtube
+        ],
+        coord: [41.725833, 24.684444],
+        type: 'SKI',
+        fmt: 'sprint relay',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20220126_1',
+        parent: 'IOF_20220122_1',
+        date: '2022-01-26',
+        name: 'SKI-EOC #4, лонг',
+        place: 'Chepelare, Bulgaria (Чепеларе, Болгария)',
+        res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7342&groupBy=EventClass', // All
             'https://eventor.orienteering.org/Events/ResultList?eventId=7342&eventClassId=12287&eventRaceId=7433&overallResults=False', // ESOC Women
             'https://eventor.orienteering.org/Events/ResultList?eventId=7342&eventClassId=12018&eventRaceId=7433&overallResults=False', // World Cup Women
             'https://eventor.orienteering.org/Events/ResultList?eventId=7342&eventClassId=12017&eventRaceId=7433&overallResults=False' // World Cup Men
         ],
         gps: {
-            'Men-re-live-published': 'https://gps.tracksport.eu/map/esoc-2022-sprint-men',
-            'Start-times-are-delayed-1-hour-due-to-lot-of-snow-in-the-are': 'https://gps.tracksport.eu/map/esoc-2022-middle-men',
-            'All-legs': 'https://gps.tracksport.eu/map/esoc-2022-sprint-relay',
-            'Men': 'https://gps.tracksport.eu/map/esoc-2022-long-men',
-            'Leg-1': 'https://gps.tracksport.eu/map/esoc-2022-realy-men',
-            'Leg-2': 'https://gps.tracksport.eu/map/esoc-2022-realy-men-leg2',
-            'Leg-3': 'https://gps.tracksport.eu/map/esoc-2022-realy-men-leg3'
+            'Men': 'https://gps.tracksport.eu/map/esoc-2022-long-men'
         },
         maps: [
-            // TrackSport
-            'https://gps.tracksport.eu/storage/events/esoc-2022-sprint-men/layers/kmz/368059889c53b1a980719ff07ded2c09/files/tile_0_0.jpg',
-            'https://gps.tracksport.eu/storage/events/esoc-2022-middle-men/layers/kmz/4aec876e3b70569614cbbe29079fc542/files/tile_0_0.jpg',
-            'https://gps.tracksport.eu/storage/events/esoc-2022-sprint-relay/layers/kmz/ac8719c1f7121ecf0274ea93c208b3f3/files/tile_0_0.jpg',
             'https://gps.tracksport.eu/storage/events/esoc-2022-long-men/layers/kmz/68fc60404fa3be45311305ce21c0d34c/files/tile_0_0.jpg'
         ],
         video: [
-            'https://www.youtube.com/watch?v=F4nwIuzSxJc', // Link to youtube
             'https://www.youtube.com/watch?v=adLFW0TIsLc' // Link to youtube
         ],
         coord: [41.725833, 24.684444],
         type: 'SKI',
-        fmt: 'sprint, middle, long',
+        fmt: 'long',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20220127_1',
+        parent: 'IOF_20220122_1',
+        date: '2022-01-27',
+        name: 'SKI-EOC #5, эстафета',
+        place: 'Chepelare, Bulgaria (Чепеларе, Болгария)',
+        gps: {
+            'Leg-1': 'https://gps.tracksport.eu/map/esoc-2022-realy-men',
+            'Leg-2': 'https://gps.tracksport.eu/map/esoc-2022-realy-men-leg2',
+            'Leg-3': 'https://gps.tracksport.eu/map/esoc-2022-realy-men-leg3'
+        },
+        coord: [41.725833, 24.684444],
+        type: 'SKI',
+        fmt: 'relay',
         start: 'SKI_EOC'
     },
     {
@@ -7369,7 +8036,6 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2022eocRw3/map',
             // 'https://omaps.worldofo.com/?id=323343',
             'https://news.worldofo.com/wp-content/uploads/2022/08/map_eoc2022_relay_men_leg1.png', // duplicate of https://www.tulospalvelu.fi/gps/2022eocRm2/map
-            // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/2022eocRm1/map', // duplicate of https://www.tulospalvelu.fi/gps/2022eocRm2/map
             // 'https://www.tulospalvelu.fi/gps/2022eocRw2/map', // duplicate of https://www.tulospalvelu.fi/gps/2022eocRw1/map
             // карты (IOF LIVE)
@@ -7398,66 +8064,153 @@ let iofEvents = [
         ],
         res: [
             'https://eventor.orienteering.sport/Events/Show/7215',
+        ],
+        video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJfk3KZQHunKT70maz3bEAKO',
+        coord: [56.8542, 26.2206],
+        type: 'SKI',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20230131_1',
+        parent: 'IOF_20230130_1',
+        date: '2023-01-31',
+        name: 'SKI-EOC #1, спринт',
+        place: 'Madona, Latvia (Мадона, Латвия)',
+        res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7634&eventClassId=13288&eventRaceId=7745&overallResults=False', // Women 21
             'https://eventor.orienteering.org/Events/ResultList?eventId=7634&eventClassId=13287&eventRaceId=7745&overallResults=False', // Men 21
             'https://eventor.orienteering.org/Events/ResultList?eventId=7644&eventClassId=13269&eventRaceId=7755&overallResults=False', // Women 20
             'https://eventor.orienteering.org/Events/ResultList?eventId=7644&eventClassId=13268&eventRaceId=7755&overallResults=False', // Men 20
             'https://eventor.orienteering.org/Events/ResultList?eventId=7640&eventClassId=13263&eventRaceId=7751&overallResults=False', // Women 17
-            'https://eventor.orienteering.org/Events/ResultList?eventId=7640&eventClassId=13262&eventRaceId=7751&overallResults=False', // Men 17
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7640&eventClassId=13262&eventRaceId=7751&overallResults=False' // Men 17
+        ],
+        gps: {
+            'Cource-information-Women-21': 'https://sportrec.eu/gps/esoc-sprint-w',
+            'Cource-information-Men-21': 'https://sportrec.eu/gps/esoc-sprint-m'
+        },
+        maps: [
+            // Sportrec
+            'https://sportrec.eu/gps/map/1htce4v/4624_dK0130221921zFEPHd.png',
+            'https://sportrec.eu/gps/map/1htcbrn/4623_k70130220807Bos17N.png'
+        ],
+        photo: [
+            'https://failiem.lv/u/sctsz69u5', // Album 1
+            'https://flickr.com/photos/140305775@N02/sets/72177720305674189', // Album 2
+            'https://www.facebook.com/smeceressils/posts/pfbid0379LNjsy6fza6dN2TygwzhL2MuKnCdeUcKFUdrYup9vrdd6YTricABEtBTf5KYm5Ql' // Album 3
+        ],
+        coord: [56.8542, 26.2206],
+        type: 'SKI',
+        fmt: 'sprint',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20230201_1',
+        parent: 'IOF_20230130_1',
+        date: '2023-02-01',
+        name: 'SKI-EOC #2, миддл',
+        place: 'Madona, Latvia (Мадона, Латвия)',
+        res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7635&eventClassId=13290&eventRaceId=7746&overallResults=False', // Women 21
             'https://eventor.orienteering.org/Events/ResultList?eventId=7635&eventClassId=13289&eventRaceId=7746&overallResults=False', // Men 21
             'https://eventor.orienteering.org/Events/ResultList?eventId=7645&eventClassId=13286&eventRaceId=7756&overallResults=False', // Women 20
             'https://eventor.orienteering.org/Events/ResultList?eventId=7645&eventClassId=13285&eventRaceId=7756&overallResults=False', // Men 20
             'https://eventor.orienteering.org/Events/ResultList?eventId=7641&eventClassId=13265&eventRaceId=7752&overallResults=False', // Women 17
-            'https://eventor.orienteering.org/Events/ResultList?eventId=7641&eventClassId=13264&eventRaceId=7752&overallResults=False', // Men 17
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7641&eventClassId=13264&eventRaceId=7752&overallResults=False' // Men 17
+        ],
+        gps: {
+            'Course-information-Women-21': 'https://sportrec.eu/gps/esoc-middle-w',
+            'Course-information-Men-21': 'https://sportrec.eu/gps/esoc-middle-m'
+        },
+        maps: [
+            // Sportrec
+            'https://sportrec.eu/gps/map/1htcf6p/4634_750131202433bKTY8c.png',
+            'https://sportrec.eu/gps/map/1htcf1d/4633_Jf0131202044fVqnkU.png'
+        ],
+        photo: [
+            'https://www.flickr.com/photos/140305775@N02/albums/72177720305707507', // Gallery 1
+            'https://www.flickr.com/photos/140305775@N02/albums/72177720305701445', // Gallery 2
+            'https://www.flickr.com/photos/140305775@N02/albums/72177720305703999' // Gallery 3
+        ],
+        coord: [56.8542, 26.2206],
+        type: 'SKI',
+        fmt: 'middle',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20230203_1',
+        parent: 'IOF_20230130_1',
+        date: '2023-02-03',
+        name: 'SKI-EOC #3, масс-старт',
+        place: 'Madona, Latvia (Мадона, Латвия)',
+        res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7636&eventClassId=13292&eventRaceId=7747&overallResults=False', // Women 21
             'https://eventor.orienteering.org/Events/ResultList?eventId=7636&eventClassId=13291&eventRaceId=7747&overallResults=False', // Men 21
             'https://eventor.orienteering.org/Events/ResultList?eventId=7646&eventClassId=13271&eventRaceId=7757&overallResults=False', // Women 20
             'https://eventor.orienteering.org/Events/ResultList?eventId=7646&eventClassId=13270&eventRaceId=7757&overallResults=False', // Men 20
             'https://eventor.orienteering.org/Events/ResultList?eventId=7642&eventClassId=13280&eventRaceId=7753&overallResults=False', // Women 17
-            'https://eventor.orienteering.org/Events/ResultList?eventId=7642&eventClassId=13279&eventRaceId=7753&overallResults=False', // Men 17
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7642&eventClassId=13279&eventRaceId=7753&overallResults=False' // Men 17
+        ],
+        gps: {
+            'Cource-information-Women-21-2': 'https://sportrec.eu/gps/esoc-long-w',
+            'Cource-information-Men-21-2': 'https://sportrec.eu/gps/esoc-long-m'
+        },
+        maps: [
+            // Sportrec
+            'https://sportrec.eu/gps/map/1htcfv8/4636_JY02022248066vHCy1.png',
+            'https://sportrec.eu/gps/map/1htcf96/4635_pF0202223557yHfdMc.png'
+        ],
+        coord: [56.8542, 26.2206],
+        type: 'SKI',
+        fmt: 'mass start',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20230204_1',
+        parent: 'IOF_20230130_1',
+        date: '2023-02-04',
+        name: 'SKI-EOC #4, эстафета',
+        place: 'Madona, Latvia (Мадона, Латвия)',
+        res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7637&eventClassId=13294', // Women 21
             'https://eventor.orienteering.org/Events/ResultList?eventId=7637&eventClassId=13293', // Men 21
             'https://eventor.orienteering.org/Events/ResultList?eventId=7647&eventClassId=13273', // Women 20
             'https://eventor.orienteering.org/Events/ResultList?eventId=7647&eventClassId=13272', // Men 20
             'https://eventor.orienteering.org/Events/ResultList?eventId=7648&eventClassId=13284', // Women 17
-            'https://eventor.orienteering.org/Events/ResultList?eventId=7648&eventClassId=13283', // Men 17
+            'https://eventor.orienteering.org/Events/ResultList?eventId=7648&eventClassId=13283' // Men 17
+        ],
+        gps: {
+            'Cource-information-Women-21-3': 'https://sportrec.eu/gps/esoc-relay-w',
+            'Cource-information-Men-21-3': 'https://sportrec.eu/gps/esoc-relay-m'
+        },
+        maps: [
+            // Sportrec
+            'https://sportrec.eu/gps/map/1htcge6/4645_4e0203204748MD1WP7.png',
+            'https://sportrec.eu/gps/map/1htcgg2/4646_wY02032042343IUXlB.png'
+        ],
+        coord: [56.8542, 26.2206],
+        type: 'SKI',
+        fmt: 'relay',
+        start: 'SKI_EOC'
+    },
+    {
+        id: 'IOF_20230205_1',
+        parent: 'IOF_20230130_1',
+        date: '2023-02-05',
+        name: 'SKI-EOC #5, спринт-эстафета',
+        place: 'Madona, Latvia (Мадона, Латвия)',
+        res: [
             'https://eventor.orienteering.org/Events/ResultList?eventId=7638&groupBy=EventClass' // Mixed
         ],
         gps: {
-            'Cource-information-Women-21': 'https://sportrec.eu/gps/esoc-sprint-w',
-            'Cource-information-Men-21': 'https://sportrec.eu/gps/esoc-sprint-m',
-            'Course-information-Women-21': 'https://sportrec.eu/gps/esoc-middle-w',
-            'Course-information-Men-21': 'https://sportrec.eu/gps/esoc-middle-m',
-            'Cource-information-Women-21-2': 'https://sportrec.eu/gps/esoc-long-w',
-            'Cource-information-Men-21-2': 'https://sportrec.eu/gps/esoc-long-m',
-            'Cource-information-Women-21-3': 'https://sportrec.eu/gps/esoc-relay-w',
-            'Cource-information-Men-21-3': 'https://sportrec.eu/gps/esoc-relay-m',
             'Cource-information-All-legs': 'https://sportrec.eu/gps/esoc-sprint-relay'
         },
         maps: [
             // Sportrec
-            'https://sportrec.eu/gps/map/1htce4v/4624_dK0130221921zFEPHd.png',
-            'https://sportrec.eu/gps/map/1htcbrn/4623_k70130220807Bos17N.png',
-            'https://sportrec.eu/gps/map/1htcf6p/4634_750131202433bKTY8c.png',
-            'https://sportrec.eu/gps/map/1htcf1d/4633_Jf0131202044fVqnkU.png',
-            'https://sportrec.eu/gps/map/1htcfv8/4636_JY02022248066vHCy1.png',
-            'https://sportrec.eu/gps/map/1htcf96/4635_pF0202223557yHfdMc.png',
-            'https://sportrec.eu/gps/map/1htcge6/4645_4e0203204748MD1WP7.png',
-            'https://sportrec.eu/gps/map/1htcgg2/4646_wY02032042343IUXlB.png',
             'https://sportrec.eu/gps/map/1htknah/4652_CW0204231814rT0OoR.png'
         ],
-        photo: [
-            'https://failiem.lv/u/sctsz69u5', // Album 1
-            'https://flickr.com/photos/140305775@N02/sets/72177720305674189', // Album 2
-            'https://www.facebook.com/smeceressils/posts/pfbid0379LNjsy6fza6dN2TygwzhL2MuKnCdeUcKFUdrYup9vrdd6YTricABEtBTf5KYm5Ql', // Album 3
-            'https://www.flickr.com/photos/140305775@N02/albums/72177720305707507', // Gallery 1
-            'https://www.flickr.com/photos/140305775@N02/albums/72177720305701445', // Gallery 2
-            'https://www.flickr.com/photos/140305775@N02/albums/72177720305703999' // Gallery 3
-        ],
-        video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJfk3KZQHunKT70maz3bEAKO',
         coord: [56.8542, 26.2206],
         type: 'SKI',
+        fmt: 'sprint relay',
         start: 'SKI_EOC'
     },
     {
@@ -8088,7 +8841,6 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=345459',
             // 'https://omaps.worldofo.com/?id=345460',
             'https://news.worldofo.com/wp-content/uploads/2023/10/map_sprintrelayeoc2023.png', // duplicate of https://www.tulospalvelu.fi/gps/2023eocSR3/map
-            // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/2023eocSR1/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocSR4/map
             // 'https://www.tulospalvelu.fi/gps/2023eocSR2/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocSR3/map
             // карты (IOF LIVE)
@@ -8158,7 +8910,6 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2023eocKOfW/map',
             // 'https://omaps.worldofo.com/?id=345530',
             'https://news.worldofo.com/wp-content/uploads/2023/10/map_eoc_2023_KO-sprint-final-men1.png' // duplicate of https://www.tulospalvelu.fi/gps/2023eocKOfW/map
-            // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/2023eocKOqfM/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocKOqfW/map
             // 'https://www.tulospalvelu.fi/gps/2023eocKOsfW/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocKOsfM/map
             // 'https://www.tulospalvelu.fi/gps/2023eocKOfM/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocKOfW/map
@@ -9355,7 +10106,6 @@ let iofEvents = [
             // 'https://omaps.worldofo.com/?id=371821',
             // 'https://omaps.worldofo.com/?id=371846',
             'https://www.tulospalvelu.fi/gps/2025wocrelayM3/map',
-            // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/2025wocrelayM1/map', // duplicate of https://www.tulospalvelu.fi/gps/2025wocrelayM2/map
             // 'https://www.tulospalvelu.fi/gps/2025wocrelayW1/map', // duplicate of https://www.tulospalvelu.fi/gps/2025wocrelayW2/map
             // карты (IOF LIVE)
@@ -10240,7 +10990,6 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2026wocSR3/map',
             // 'https://omaps.worldofo.com/?id=393245',
             // 'https://omaps.worldofo.com/?id=393246',
-            // GPSSeuranta
             // 'https://www.tulospalvelu.fi/gps/2026wocSR1/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocSR4/map
             // 'https://www.tulospalvelu.fi/gps/2026wocSR2/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocSR3/map
             // официальная карта (IOF LIVE)
@@ -10278,37 +11027,107 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/8277/8ebb120e-9ebf-4999-85aa-8c643da20356/Bulletin%204.Pdf'
         ],
         res: [
-            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8775&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass', // миддл
-            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8776&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass', // лонг
-            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8777&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass', // спринт
-            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8778&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass', // эстафета
             'https://eventor.orienteering.sport/Events/Show/8277' // IOF Eventor
         ],
+        coord: [61.016667, 14.533333],
+        type: 'VELO',
+        fmt: 'middle, long, sprint, relay',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20260826_2',
+        parent: 'IOF_20260826_1',
+        date: '2026-08-26',
+        name: 'WMTBOC #1, миддл',
+        place: 'Mora, Sweden (Мура, Швеция)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8775&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass' // миддл
+        ],
         gps: {
-            'Middle': 'https://www.livelox.com/Events/Show/199289/World-MTB-Orienteering-Championships-middle',
-            'Long': 'https://www.livelox.com/Events/Show/199293/World-MTB-Orienteering-Championships-long',
-            'Sprint': 'https://www.livelox.com/Events/Show/199430/World-MTB-Orienteering-Championships-sprint',
-            'Relay': 'https://www.livelox.com/Events/Show/199442/World-MTB-Orienteering-Championships-relay'
+            'Middle': 'https://www.livelox.com/Events/Show/199289/World-MTB-Orienteering-Championships-middle'
         },
         photo: [
-            'https://mediebank.tt.se/p/svenskorientering/album/120920', // миддл
-            'https://mediebank.tt.se/p/svenskorientering/album/120921', // лонг
-            'https://mediebank.tt.se/p/svenskorientering/album/120922', // спринт
-            'https://mediebank.tt.se/p/svenskorientering/album/120923' // эстафета
+            'https://mediebank.tt.se/p/svenskorientering/album/120920' // миддл
+        ],
+        video: [
+            'https://www.youtube.com/watch?v=hLmKGi40TYQ' // миддл, финишная камера
+        ],
+        coord: [61.016667, 14.533333],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20260827_1',
+        parent: 'IOF_20260826_1',
+        date: '2026-08-27',
+        name: 'WMTBOC #2, лонг',
+        place: 'Mora, Sweden (Мура, Швеция)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8776&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass' // лонг
+        ],
+        gps: {
+            'Long': 'https://www.livelox.com/Events/Show/199293/World-MTB-Orienteering-Championships-long'
+        },
+        photo: [
+            'https://mediebank.tt.se/p/svenskorientering/album/120921' // лонг
+        ],
+        video: [
+            'https://www.youtube.com/watch?v=lD4F8ftBwkY' // лонг, финишная камера
+        ],
+        coord: [61.016667, 14.533333],
+        type: 'VELO',
+        fmt: 'long',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20260829_1',
+        parent: 'IOF_20260826_1',
+        date: '2026-08-29',
+        name: 'WMTBOC #3, спринт',
+        place: 'Mora, Sweden (Мура, Швеция)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8777&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass' // спринт
+        ],
+        gps: {
+            'Sprint': 'https://www.livelox.com/Events/Show/199430/World-MTB-Orienteering-Championships-sprint'
+        },
+        photo: [
+            'https://mediebank.tt.se/p/svenskorientering/album/120922' // спринт
         ],
         video: [
             'https://www.youtube.com/watch?v=J7RPbirqRPM', // спринт, трансляция
             'https://www.youtube.com/watch?v=qsL7Fpep26A', // спринт, трансляция
             'https://www.youtube.com/watch?v=KPZVllnnCEE', // спринт, трансляция
-            'https://www.youtube.com/watch?v=JeXOnLE__K4', // спринт, трансляция
-            'https://www.youtube.com/watch?v=cwoSgNEQY0E', // эстафета, трансляция
-            'https://www.youtube.com/watch?v=4UV4X8YlcD4', // эстафета, трансляция
-            'https://www.youtube.com/watch?v=hLmKGi40TYQ', // миддл, финишная камера
-            'https://www.youtube.com/watch?v=lD4F8ftBwkY' // лонг, финишная камера
+            'https://www.youtube.com/watch?v=JeXOnLE__K4' // спринт, трансляция
         ],
         coord: [61.016667, 14.533333],
         type: 'VELO',
-        fmt: 'middle, long, sprint, relay',
+        fmt: 'sprint',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20260830_1',
+        parent: 'IOF_20260826_1',
+        date: '2026-08-30',
+        name: 'WMTBOC #4, эстафета',
+        place: 'Mora, Sweden (Мура, Швеция)',
+        res: [
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8778&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass' // эстафета
+        ],
+        gps: {
+            'Relay': 'https://www.livelox.com/Events/Show/199442/World-MTB-Orienteering-Championships-relay'
+        },
+        photo: [
+            'https://mediebank.tt.se/p/svenskorientering/album/120923' // эстафета
+        ],
+        video: [
+            'https://www.youtube.com/watch?v=cwoSgNEQY0E', // эстафета, трансляция
+            'https://www.youtube.com/watch?v=4UV4X8YlcD4' // эстафета, трансляция
+        ],
+        coord: [61.016667, 14.533333],
+        type: 'VELO',
+        fmt: 'relay',
         start: 'WMTBOC'
     },
     {
