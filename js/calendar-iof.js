@@ -4796,6 +4796,9 @@ let iofEvents = [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
         ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/5189' // IOF Eventor
+        ],
         coord: [47.9025, 1.909],
         type: 'VELO',
         start: 'EMTBOC'
@@ -5040,6 +5043,17 @@ let iofEvents = [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'http://www.mtbo.hu/emtboc2018/docs/emtboc2018-b1.pdf',
+            // 'http://www.mtbo.hu/emtboc2018/docs/emtboc2018-b2.pdf',
+            'http://www.mtbo.hu/emtboc2018/docs/emtboc2018-b3.pdf'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/5528', // IOF Eventor
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5941/9243d6b0-9e61-4046-bc63-550d1eba3951/Results.pdf', // результаты гонки (Eventor 5941)
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5942/dda01d81-cf8e-42d8-9aa9-6df052aaacde/Results.pdf', // результаты гонки (Eventor 5942)
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5943/7bf12789-55bb-49c3-86f1-b962ac886dd6/Results.pdf' // результаты гонки (Eventor 5943)
+        ],
         coord: [47.4925, 19.051389],
         type: 'VELO',
         fmt: 'sprint, long, middle, relay',
@@ -5151,6 +5165,9 @@ let iofEvents = [
         link: [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/5192' // IOF Eventor
         ],
         coord: [48.603333, 15.168889],
         type: 'VELO',
@@ -5281,6 +5298,15 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5829/7d97fda4-fbc2-4f0a-a6c1-0cb6d5f273b3/Bulletin-1.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5829/384e6fff-762b-45ae-9947-ae91fcd645c2/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5829/ab13362c-c57e-4c14-acc2-c865dd9148b7/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5829/658fcf54-ba01-4e5e-bac4-ebfc6ddcaa32/Bulletin-4.pdf'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/5829' // IOF Eventor
+        ],
         video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJcsnEVLqJCsgZ1tgpD_x4nn',
         coord: [65.316667, 21.483333],
         type: 'SKI',
@@ -5353,6 +5379,10 @@ let iofEvents = [
         date: '2019-03-24',
         name: 'SKI-WOC #4, эстафета',
         place: 'Piteå, Sweden (Питео, Швеция)',
+        res: [
+            'https://eventor-iof-storage.orientering.se/eventdocuments/6263/8d102990-788c-4310-a849-607b088524ed/Resultat-Relay-Men.pdf', // мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/6263/5dfed0bd-8c17-4d54-806a-2753edb582e3/Resultat-Relay-Women.pdf' // женщины
+        ],
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/2019wsocrelayM/',
             'W': 'https://www.tulospalvelu.fi/gps/2019wsocrelayW/'
@@ -5377,6 +5407,9 @@ let iofEvents = [
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/5832' // IOF Eventor
         ],
         coord: [51.11, 17.0325],
         type: 'VELO',
@@ -6094,6 +6127,14 @@ let iofEvents = [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/7019/b57ef36a-28b5-4184-9603-39e413830a64/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/7019/c62864f7-4dfb-4661-ad15-033a323929f9/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/7019/0af9518a-5fbe-4b52-bd31-1ba8ed50e6d3/Bulletin-4.pdf'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/7019' // IOF Eventor
+        ],
         maps: [
             // старые карты районов (сайт организаторов):
             'https://mtbo2021.fpo.pt/files/Abrantes.jpg',
@@ -6320,6 +6361,15 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/2022_European_MTB_Orienteering_Championships',
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/6738/4e31585b-fbde-4949-9b80-3b3ba24c4978/Bulletin-1.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/6738/f697bae5-1b53-4355-b990-a018a1b78233/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/6738/85bb9e8d-e299-42e2-8539-25c21480f994/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/6738/7b30d798-9cce-403d-8451-2f438f69d3c4/Bulletin-4.pdf'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/6738' // IOF Eventor
         ],
         video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJejin65EHVBItRn6BoE1Sa2',
         coord: [55.35, 26.166667],
@@ -6808,6 +6858,16 @@ let iofEvents = [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/6980/a4a52168-1888-42a1-9aa2-c8a74b5a7071/Bulletin-1---2_-Update-22-12-2022.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/6980/000dcdc8-ae12-4849-b269-a7671bf8d8e2/Bulletin-3.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/6980/b0e4a44c-34ff-41c7-ab24-994dcaedb3f3/Bulletin-3-_-Updated-28-03-2023.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/6980/010233f1-a93e-401d-b124-c57aa42d9684/Bulletin-4.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/6980/b6810a84-fbd7-47c8-ae04-c8e05fb4540c/Bulletin-4----Updated-25.04.2023.pdf'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/6980' // IOF Eventor
+        ],
         coord: [37.15, -8.0],
         type: 'VELO',
         fmt: 'middle, mass start, mixed relay, sprint',
@@ -7059,6 +7119,15 @@ let iofEvents = [
         link: [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/6872/e286ec7f-fcff-49c8-9e53-491f1b9a2f8a/Bulletin-1.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/6872/e122ae1c-deec-441f-ad7d-5332aaf93e6c/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/6872/746e38ed-8034-40da-a7ac-a409135c90eb/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/6872/1fb301d0-22fb-4588-bd35-f9688badba7c/Bulletin-4.pdf'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/6872' // IOF Eventor
         ],
         coord: [50.436667, 15.351667],
         type: 'VELO',
@@ -7312,6 +7381,20 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/7218/c6925d8c-b276-431f-bd1e-2df07741ed4f/Bulletin-1.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/7218/d957c405-9a74-48fc-86a3-69cb6b3c8d72/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/7218/6723f3f7-c4ee-49d0-8b09-86bbe7f008b6/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/7218/ffb9cd69-4b6e-4095-8006-24124c1563d4/Bulletin-4.pdf'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/7218' // IOF Eventor
+        ],
+        maps: [
+            // старые карты районов (IOF Eventor)
+            'https://eventor-iof-storage.orientering.se/eventdocuments/7218/b5df2944-abc3-4290-84cf-b8170546931e/Ski-O-Map-Ramsau-2020.jpg',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/7218/dd4aa4d2-261a-41f3-857a-eef458cab6b8/Ski-O-Map-Tauplitzalm-2023-%28Reserve-Area%29.jpg' // резервный район
+        ],
         photo: [
             'https://photos.app.goo.gl/z4ox2AEuHyGbLaEs6',
             'https://photos.app.goo.gl/hgAngPJnAJ8aCyqu5',
@@ -7414,6 +7497,14 @@ let iofEvents = [
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/7489/c290ba58-b35a-42df-b4d4-a6e4e2a5203a/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/7489/fb4df051-4d84-4378-9962-c6128ad29674/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/7489/fafe3d2a-8728-48f8-bfa1-f82fc21ae44a/Bulletin-4.pdf'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/7489' // IOF Eventor
         ],
         video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJeZR9PkVJmUPtls3_MZkkRW',
         coord: [53.7, 19.966667],
@@ -7732,6 +7823,15 @@ let iofEvents = [
         link: [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/6983/e7326369-74f7-43e4-8959-f08de1b22461/Bulletin-1.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/6983/0be36c89-7589-4fd1-9f19-7f5a4bb682d2/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/6983/31750a53-d8d4-4c83-8e54-9607e2177a40/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/6983/99bfa130-4369-4a3d-a2af-9d50052ac098/Bulletin-4.pdf'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/6983' // IOF Eventor
         ],
         coord: [43.283333, 26.933333],
         type: 'VELO',
@@ -8229,6 +8329,15 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/7490/030def7f-fa1a-4184-8855-879302ed9ec7/Bulletin-1.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/7490/527a1ff9-36e6-4b64-915a-bf177b0de65c/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/7490/f79c767b-8fdb-4970-8ef6-9d1d2e760c0b/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/7490/6742e7b5-22b7-428c-8757-276246f7e28f/Bulletin-4.pdf'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/7490' // IOF Eventor
+        ],
         video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJcr3gt-CUp0Ez3KzcNGen_L',
         coord: [52.23, 21.011111],
         type: 'VELO',
@@ -8321,6 +8430,9 @@ let iofEvents = [
         date: '2025-08-17',
         name: 'WMTBOC #5, эстафета',
         place: 'Warszawa, Poland (Варшава, Польша)',
+        res: [
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8451/078d58bc-835d-4570-910c-a6aad1a59775/Relay-Results.pdf'
+        ],
         gps: {
             'M-1': 'https://event.trackcourse.com/view/wmtboc-2025-relay-men-leg-1/en',
             'M-2': 'https://event.trackcourse.com/view/wmtboc-2025-relay-men-leg-2/en',
@@ -8506,6 +8618,25 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/8173/840574dc-0849-463f-a202-18d3c204cbfb/Bulletin-1.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/8173/585ed5b3-7903-44fa-9c78-43bbd1d2c13a/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/8173/738c91cb-6ecb-478a-9abc-2ab559834f2b/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8173/6f27f606-af8f-4474-9c75-544277b8c199/Bulletin-4.pdf'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/8173' // IOF Eventor
+        ],
+        maps: [
+            // старые карты районов (IOF Eventor)
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8173/f567eccf-7e42-4d2b-98d9-2c108a4a0b7e/old_map1.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8173/8e15de1e-84c4-41be-b78a-904c8159a299/old_map2.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8173/6c1ec3f7-e0f9-47d3-9529-269d1574a7d9/old_map3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8173/4135aed4-d10a-4a31-860a-a99417d4d4fa/old_map4.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8173/2d20b5a1-8116-40d8-a4f1-bc3683cd8544/old_map5.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8173/c4207e3e-35e6-43c9-8003-cd3c8a02faae/old_map6.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8173/d3632c17-7da2-433f-accf-350db6a9bae9/old_map7.pdf'
+        ],
         coord: [42.733333, 140.883333],
         type: 'SKI',
         fmt: 'sprint, pursuit, middle, sprint relay',
@@ -8568,6 +8699,9 @@ let iofEvents = [
         date: '2026-03-06',
         name: 'SKI-WOC #4, спринт-эстафета',
         place: 'Rusutsu, Hokkaido, Japan (Русуцу, Хоккайдо, Япония)',
+        res: [
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8173/ac4e57aa-aa92-4a76-84a3-f6e159923851/WSOC2026_RelayResultList.pdf'
+        ],
         gps: 'https://app.o-gps-tracker.com/event/wsoc2026/20260306_sprint_relay/index.html',
         maps: [
             // O-GPS Tracker
@@ -8588,6 +8722,14 @@ let iofEvents = [
             'https://emtboc2026.fpo.pt/',
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/8557/3beca67d-1650-43fc-b0fe-892ef0f2d046/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/8557/92e98cbb-256b-4ac0-8d41-ca1f5dc5bbf2/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8557/277649c1-9189-4dfd-8304-8dcc0e283661/Bulletin-4.pdf'
+        ],
+        res: [
+            'https://eventor.orienteering.sport/Events/Show/8557' // IOF Eventor
         ],
         coord: [40.716667, -6.9],
         type: 'VELO',
@@ -8669,6 +8811,9 @@ let iofEvents = [
         date: '2026-05-28',
         name: 'EMTBOC #4, смешанная эстафета',
         place: 'Almeida, Portugal (Алмейда, Португалия)',
+        res: [
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8934/e84b40ea-ecea-4467-ae8f-ba01d6fd7f30/Results-Mixed-Relay.html'
+        ],
         gps: {
             'W': 'https://events.loggator.com/2026EMTBOC_Relay_WE',
             'Livelox': 'https://www.livelox.com/Events/Show/191339/Relay-MTBO-26-Almeida'
@@ -8689,7 +8834,18 @@ let iofEvents = [
         place: 'Genova, Italy (Генуя, Италия)',
         name: 'Чемпионат мира (WOC)',
         link: 'https://woc2026.com/',
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/7383/47dd2524-3979-4361-8a0e-724958188ae4/Bulletin-1.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/7383/01979461-ed2f-4118-9c24-f6e8026ecd42/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/7383/28268b67-67e7-44ce-990e-cbd6156353c0/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/7383/40dc8004-e343-45ed-b606-602d0974d55a/Bulletin-4.pdf'
+        ],
         res: 'https://app.liveresults.it/woc2026',
+        maps: [
+            // карты модельных соревнований (IOF Eventor)
+            'https://eventor-iof-storage.orientering.se/eventdocuments/7383/71a33d03-385b-4d24-974f-3adbc8372a27/Sestri-Ponente-model-event-map-%28JPG%29.jpg', // Сестри-Поненте
+            'https://eventor-iof-storage.orientering.se/eventdocuments/7383/c0f1901b-e4c3-42d7-86a0-169fba3bbf6a/Genova-model-event-map-%28JPG%29.jpg' // Генуя
+        ],
         video: [
             'https://www.youtube.com/playlist?list=PLemA_lslotHE',
             'https://tv.orienteering.sport/woc-2026-all-races' // IOF TV, все гонки
@@ -8739,7 +8895,20 @@ let iofEvents = [
             'https://orienteering.sport/wp-content/uploads/2026/07/sprint-q-women-2.pdf', // квалификация, женщины, забег 2
             'https://orienteering.sport/wp-content/uploads/2026/07/sprint-q-women-3.pdf', // квалификация, женщины, забег 3
             'https://orienteering.sport/wp-content/uploads/2026/07/sprint-f-men.pdf', // финал, мужчины
-            'https://orienteering.sport/wp-content/uploads/2026/07/sprint-f-women.pdf' // финал, женщины
+            'https://orienteering.sport/wp-content/uploads/2026/07/sprint-f-women.pdf', // финал, женщины
+            // карты организаторов (IOF Eventor)
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8980/78a61ea9-eb1a-41ca-b033-cc89aed46b6d/SQ-map-Men-1.jpg', // квалификация, мужчины, забег 1
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8980/9691338a-77ce-4dcb-bcbb-d933a1aa74b4/SQ-map-Men-2.jpg', // квалификация, мужчины, забег 2
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8980/0fd6b3ae-e206-4071-bca2-62a133cf40a9/SQ-map-Men-3.jpg', // квалификация, мужчины, забег 3
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8980/d7a42f20-d7e3-45e7-896b-a20031831772/SQ-map-Women-1.jpg', // квалификация, женщины, забег 1
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8980/1a6b2c1e-fb24-424a-bb59-bc879d3fe80d/SQ-map-Women-2.jpg', // квалификация, женщины, забег 2
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8980/541bcb8c-a637-485f-8a34-df9e47c97550/SQ-map-Women-3.jpg', // квалификация, женщины, забег 3
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8980/c90d5be7-f013-400d-8f3e-a9735d6323a2/SF-map-MEN.jpg', // финал, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8980/1341cb88-6f86-4139-a544-119f62bfec7b/SF-map-WOMEN.jpg', // финал, женщины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8980/e0eaeae8-9eb5-4016-b307-7295e14c3e58/SQ-routechoices-MEN.pdf', // квалификация, варианты пути, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8980/3cfa81f6-bb2b-4b15-8c0a-0699f71920bc/SQ-routechoices-WOMEN.pdf', // квалификация, варианты пути, женщины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8980/eadbc02b-c24c-4286-a6b0-172ae53aba18/SF-routechoices-MEN.pdf', // финал, варианты пути, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8980/e9a49177-58a5-4b7c-9305-f538d0f518ca/SF-routechoices-WOMEN.pdf' // финал, варианты пути, женщины
         ],
         photo: [
             'https://photos.app.goo.gl/tyFjRg5SrTjfvBmm6',
@@ -8779,7 +8948,16 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2026wocKOqualM3/map',
             'https://www.tulospalvelu.fi/gps/2026wocKOqualW1/map',
             'https://www.tulospalvelu.fi/gps/2026wocKOqualW2/map',
-            'https://www.tulospalvelu.fi/gps/2026wocKOqualW3/map'
+            'https://www.tulospalvelu.fi/gps/2026wocKOqualW3/map',
+            // карты организаторов (IOF Eventor)
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8989/d6acb339-7174-451a-b5c7-59a3d31806f9/KOQ-map-Men-1.jpg', // мужчины, забег 1
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8989/8ae0c4d0-9723-4680-a4d9-c696da076868/KOQ-map-Men-2.jpg', // мужчины, забег 2
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8989/8736eaf0-3046-493a-8a4e-64a0b8ccbf39/KOQ-map-Men-3.jpg', // мужчины, забег 3
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8989/ac23aef8-7c42-4115-87ba-b438bcdeffac/KOQ-map-Women-1.jpg', // женщины, забег 1
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8989/312e12a1-5e70-4486-880d-7a3fecafd3f3/KOQ-map-Women-2.jpg', // женщины, забег 2
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8989/cb4db74e-71fb-4537-903a-16fdf32f2910/KOQ-map-Women-3.jpg', // женщины, забег 3
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8989/b7143953-3990-4fe8-aa0a-66fb0278476a/KOQ-routechoices-MEN.pdf', // варианты пути, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8989/0b2eb9b7-cb30-4c2f-b0ce-9a1dac6347f9/KOQ-routechoices-WOMEN.pdf' // варианты пути, женщины
         ],
         photo: [
             'https://photos.app.goo.gl/CSgY1Fi3WRVvQU1Z9',
@@ -8828,7 +9006,16 @@ let iofEvents = [
             // официальные карты (IOF LIVE)
             'https://orienteering.sport/wp-content/uploads/2026/07/genova-sf-.pdf', // мужчины, полуфиналы
             'https://orienteering.sport/wp-content/uploads/2026/07/ko-final-1.pdf', // мужчины, финал, часть 1
-            'https://orienteering.sport/wp-content/uploads/2026/07/ko-final-2.pdf' // мужчины, финал, часть 2
+            'https://orienteering.sport/wp-content/uploads/2026/07/ko-final-2.pdf', // мужчины, финал, часть 2
+            // карты организаторов (IOF Eventor)
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8990/75135884-68cc-4a55-8a6f-92b5d78425d8/KOF-map-QF-ABC.jpg', // четвертьфиналы
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8990/b08ec1f8-8f2d-4dc8-ba78-0e926e54e07d/KOF-map-SF-1.jpg', // полуфиналы, часть 1
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8990/5fb9de06-45d6-4b1f-9d1e-8f1b296de615/KOF-map-SF-2.jpg', // полуфиналы, часть 2
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8990/f6228321-cca9-4db1-9c7e-a525af9fd9e5/KOF-map-Final-1.jpg', // финал, часть 1
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8990/de6df9f4-d042-4257-8446-f043a75092ea/KOF-map-Final-2.jpg', // финал, часть 2
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8990/276e59ee-c373-4bef-ae6b-4a474c291e50/KOF-routechoices-QF.pdf', // четвертьфиналы, варианты пути
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8990/fe5f7756-ddeb-4bbb-8d79-a0ee5e6417f2/KOF-routechoices-SF.pdf', // полуфиналы, варианты пути
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8990/651c2ea0-3078-43af-bb66-fc9aa541d08c/KOF-routechoices-Final.pdf' // финал, варианты пути
         ],
         photo: [
             'https://photos.app.goo.gl/6kvnBaBXtaCoQbLv6',
@@ -8870,7 +9057,10 @@ let iofEvents = [
             // 'https://www.tulospalvelu.fi/gps/2026wocSR1/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocSR4/map
             // 'https://www.tulospalvelu.fi/gps/2026wocSR2/map', // duplicate of https://www.tulospalvelu.fi/gps/2026wocSR3/map
             // официальная карта (IOF LIVE)
-            'https://orienteering.sport/wp-content/uploads/2026/07/sprint-relay-tot.pdf' // все этапы
+            'https://orienteering.sport/wp-content/uploads/2026/07/sprint-relay-tot.pdf', // все этапы
+            // карты организаторов (IOF Eventor)
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8991/16f53a1c-d22e-4541-b7bb-7617bcfc532d/SR-map-total.pdf', // все этапы
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8991/acf0a0d9-9163-47e4-9a73-551a791ff2c9/SR-routechoices.pdf' // варианты пути
         ],
         photo: [
             'https://photos.app.goo.gl/F69HNeB2SKVf3eRp8',
@@ -8894,11 +9084,18 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/8277/bbcaa0e7-f01b-4cc3-a5f9-74e5dbb8ba89/Bulletin-1.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/8277/f425d10b-c7d5-413f-8d36-68c8ad60966d/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/8277/1804ce0c-765f-4ae2-90e1-5809cecf3834/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/8277/8ebb120e-9ebf-4999-85aa-8c643da20356/Bulletin%204.Pdf'
+        ],
         res: [
             'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8775&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass', // миддл
             'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8776&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass', // лонг
             'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8777&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass', // спринт
-            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8778&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass' // эстафета
+            'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8778&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass', // эстафета
+            'https://eventor.orienteering.sport/Events/Show/8277' // IOF Eventor
         ],
         gps: {
             'Middle': 'https://www.livelox.com/Events/Show/199289/World-MTB-Orienteering-Championships-middle',
