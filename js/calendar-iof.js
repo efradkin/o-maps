@@ -4796,8 +4796,16 @@ let iofEvents = [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5189/e5d54b5b-a6e2-406d-aa14-92dd992668c3/Bulletin-1.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5189/84d72d97-7b13-40d6-8e93-aa4699fb6688/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5189/7985c471-dfe3-4259-a012-14caa0872143/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5189/01db0184-5796-439e-8c96-8b5c83e27293/Bulletin-4.pdf'
+        ],
         res: [
-            'https://eventor.orienteering.sport/Events/Show/5189' // IOF Eventor
+            'https://eventor.orienteering.sport/Events/Show/5189', // IOF Eventor
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5481/5f8a411a-b2de-4970-b060-f362e62120ad/Sprint-Relay-Results.pdf', // спринт-эстафета
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5484/9cd304c4-f93e-4a5b-861c-b2b0aae69ae4/Relay_Results.pdf' // эстафета
         ],
         coord: [47.9025, 1.909],
         type: 'VELO',
@@ -5166,6 +5174,12 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5192/40f9116d-1224-4939-8a5e-ce916c36479a/Bulletin-1.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5192/97e419c2-3cfa-44c3-9986-b1e2dee50b66/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5192/46de0226-99bd-4c56-b2e5-1f7bac8872cb/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5192/cfdde671-6d9d-4808-8ff1-a2ab6f8578e5/Bulletin-4.pdf'
+        ],
         res: [
             'https://eventor.orienteering.sport/Events/Show/5192' // IOF Eventor
         ],
@@ -5408,6 +5422,11 @@ let iofEvents = [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5832/972d4b61-b290-465d-95b2-3ed8f22e29da/Bulletin-1.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5832/af85f352-7d45-4d4c-be00-65a7e61e8ec1/Bulletin-2.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5832/fc5e2592-879e-4b7d-b159-52aa827bb83e/Bulletin-3.pdf'
+        ],
         res: [
             'https://eventor.orienteering.sport/Events/Show/5832' // IOF Eventor
         ],
@@ -5427,6 +5446,12 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5690/2c18a79e-53e0-4061-b0e5-3eb5fdc7a3ee/Bulletin-1.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5690/b180b838-886a-4d35-8e54-395cd76c2903/Bulletin-2.pdf',
+            // 'https://eventor-iof-storage.orientering.se/eventdocuments/5690/9302232f-8757-4d88-b409-59b48051e001/Bulletin-3.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/f7dca4fa-fbd3-4c98-9856-6943d322314f/Bulletin-4.pdf'
+        ],
         res: [
             'http://wmtboc2019.dk/wp-content/uploads/2019/07/Men-results.pdf',
             'http://wmtboc2019.dk/wp-content/uploads/2019/07/W21-results.pdf',
@@ -5436,7 +5461,17 @@ let iofEvents = [
             'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-Long-result-W21.pdf',
             'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-Relay-official-results-Men.pdf',
             'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-Relay-official-results-Women.pdf',
-            'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-JWMTBOC-Mass-start-results.pdf'
+            'http://wmtboc2019.dk/wp-content/uploads/2019/08/WMTBOC-JWMTBOC-Mass-start-results.pdf',
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/e87a172e-3932-498a-9a8e-7bbcca34a729/WMTBOC-Sprint-results-Men.pdf', // спринт, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/693cc5bd-ecd2-4f22-8729-929171d70171/WMTBOC-Sprint-results-Women.pdf', // спринт, женщины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/9e03519b-7c48-4658-acbd-c4bc26a763e6/WMTBOC-Middle-results-Men.pdf', // миддл, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/b9454725-00b3-45b7-b560-0f6ccee9295d/WMTBOC-Middle-results-Women.pdf', // миддл, женщины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/6b0f28a6-b0a0-4daf-a5e3-1e944d22cdd1/WMTBOC-Long-results-Men.pdf', // лонг, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/d7193afa-7b3b-44d0-8198-99a2a2cc8707/WMTBOC-Long-results-Women.pdf', // лонг, женщины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/a33a1772-5659-4d8b-9ed9-1663dc553249/WMTBOC-Mass-start-results-Men.pdf', // масс-старт, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/ffa65830-c96e-441c-86d5-bd1475895469/WMTBOC-Mass-start-results-Women.pdf', // масс-старт, женщины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/04405bc6-7098-412a-ba54-03186a895772/WMTBOC-Relay-official-results-Men.pdf', // эстафета, мужчины
+            'https://eventor-iof-storage.orientering.se/eventdocuments/5690/ff479849-4001-4193-83ff-418747a95f32/WMTBOC-Relay-official-results-Women.pdf' // эстафета, женщины
         ],
         maps: [
             'http://wmtboc2019.dk/wp-content/uploads/2019/07/Map-Men.pdf',
