@@ -178,6 +178,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/114/', // результаты на старом сайте IOF
         coord: [60.633333, 24.85],
         type: 'SKI',
         fmt: 'long, relay',
@@ -216,6 +217,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/115/', // результаты на старом сайте IOF
         coord: [42.016667, 24.0],
         type: 'SKI',
         fmt: 'long, relay',
@@ -260,6 +262,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/116/', // результаты на старом сайте IOF
         coord: [60.138889, 16.183611],
         type: 'SKI',
         fmt: 'long, relay',
@@ -294,6 +297,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/117/', // результаты на старом сайте IOF
         coord: [47.516667, 14.133333],
         type: 'SKI',
         fmt: 'long, relay',
@@ -328,6 +332,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/118/', // результаты на старом сайте IOF
         coord: [45.933333, 11.266667],
         type: 'SKI',
         fmt: 'long, relay',
@@ -358,6 +363,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/119/', // результаты на старом сайте IOF
         coord: [41.95, 24.216667],
         type: 'SKI',
         fmt: 'long, relay',
@@ -385,6 +391,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/120/', // результаты на старом сайте IOF
         coord: [62.8925, 27.678333],
         type: 'SKI',
         fmt: 'middle, long, relay',
@@ -412,6 +419,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/121/', // результаты на старом сайте IOF
         coord: [64.75, 20.95],
         type: 'SKI',
         fmt: 'middle, long, relay',
@@ -449,6 +457,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/122/', // результаты на старом сайте IOF
         coord: [46.9067, 6.3556],
         type: 'SKI',
         fmt: 'middle, long, relay',
@@ -480,6 +489,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/123/', // результаты на старом сайте IOF
         coord: [46.366667, 11.033333], // координаты региона, не населённого пункта — уточнить
         type: 'SKI',
         fmt: 'middle, long, relay',
@@ -519,6 +529,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/124/', // результаты на старом сайте IOF
         coord: [61.116667, 10.466667],
         type: 'SKI',
         fmt: 'middle, long, relay',
@@ -554,6 +565,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/125/', // результаты на старом сайте IOF
         coord: [47.721111, 14.330833],
         type: 'SKI',
         fmt: 'middle, long, relay',
@@ -585,6 +597,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/126/', // результаты на старом сайте IOF
         coord: [56.008889, 92.871944],
         type: 'SKI',
         fmt: 'middle, long, relay',
@@ -650,6 +663,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/127/', // результаты на старом сайте IOF
         coord: [42.264444, 23.606944],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay',
@@ -730,6 +744,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/128/', // результаты на старом сайте IOF
         coord: [62.65, 14.35],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay',
@@ -745,6 +760,13 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/European_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию'
         ],
+        bulletin: [
+            // 'https://web.archive.org/web/20030318201150id_/http://eoc2004.dk:80/en/eoc2004_bulletin_1.pdf',
+            // 'https://web.archive.org/web/20031212142507id_/http://www.eoc2004.dk:80/en/eoc2004_bulletin_2.pdf',
+            // 'https://web.archive.org/web/20041015054557id_/http://www.eoc2004.dk:80/en/eoc2004_bulletin_3.pdf',
+            'https://web.archive.org/web/20041108194314id_/http://eoc2004.dk:80/en/eoc2004_bulletin_4.pdf'
+        ],
+        res: 'https://web.archive.org/web/20040719232157id_/http://www.eoc2004.dk:80/eoc_results/eoc2004_results_middle_distance.pdf', // миддл (Wayback Machine)
         maps: [
             // официальные карты организаторов (Wayback Machine, eoc2004.dk):
             'https://web.archive.org/web/20060623101522id_/http://eoc2004.dk:80/images/eoc_final_sprint_mens_course.jpg', // финал спринта, мужчины
@@ -799,6 +821,11 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://web.archive.org/web/20040609022811id_/http://www.2004worldmtbo.org:80/woc_bulletin2_05042004.pdf',
+            // 'https://web.archive.org/web/20041107135559id_/http://www.2004worldmtbo.org:80/woc_bulletin_3.pdf',
+            'https://web.archive.org/web/20041207133620id_/http://www.2004worldmtbo.org:80/Bulletin_4.pdf'
+        ],
         res: 'https://old.orienteering.sport/events/61/world-mtb-orienteering-championships-2004/',
         maps: [
             // карты с сайта организаторов (Wayback Machine, 2004worldmtbo.org):
@@ -827,6 +854,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/129/', // результаты на старом сайте IOF
         coord: [67.805, 24.802],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay',
@@ -841,6 +869,10 @@ let iofEvents = [
         link: [
             'https://www.woc2005.jp/',
             'https://en.wikipedia.org/wiki/2005_World_Orienteering_Championships'
+        ],
+        bulletin: [
+            // 'https://web.archive.org/web/20040805022423id_/http://www.woc2005.jp:80/Bulletin1.pdf',
+            'https://web.archive.org/web/20041013170652id_/http://www.woc2005.jp:80/Bulletin2.pdf'
         ],
         res: [
             'https://web.archive.org/web/20200706035619/https://old.orienteering.org/events/?event_id=36',
@@ -860,6 +892,11 @@ let iofEvents = [
             'https://sv.wikipedia.org/wiki/Världsmästerskapen_i_mountainbikeorientering_2005',
             'https://en.wikipedia.org/wiki/World_Mountain_Bike_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_велосипедах'
+        ],
+        bulletin: [
+            // 'https://web.archive.org/web/20050408023911id_/http://www.orienteering.sk:80/mtbo2005/bulletins/bulletin1_web.pdf',
+            // 'https://web.archive.org/web/20050406073749id_/http://www.orienteering.sk:80/mtbo2005/bulletins/bulletin2_web.pdf',
+            'https://web.archive.org/web/20051028205253id_/http://www.orienteering.sk:80/mtbo2005/bulletins/bulletin3_web.pdf'
         ],
         res: 'https://old.orienteering.sport/events/60/world-mtb-orienteering-championships-2005/',
         maps: [
@@ -898,6 +935,17 @@ let iofEvents = [
         link: [
             'https://en.wikipedia.org/wiki/European_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию'
+        ],
+        bulletin: 'https://web.archive.org/web/20070628234004id_/http://www.eoc2006.ee/docs/bulletin4.pdf',
+        res: [
+            'https://old.orienteering.sport/events/247/', // результаты на старом сайте IOF
+            'https://web.archive.org/web/20060524114803id_/http://www.eoc2006.ee:80/results/sprintq/men.pdf', // квалификация спринта, мужчины
+            'https://web.archive.org/web/20060524114854id_/http://www.eoc2006.ee:80/results/sprintq/women.pdf', // квалификация спринта, женщины
+            'https://web.archive.org/web/20060524115009id_/http://www.eoc2006.ee:80/results/sprintf/results.pdf', // финал спринта
+            'https://web.archive.org/web/20060524114752id_/http://www.eoc2006.ee:80/results/middleq/men.pdf', // квалификация миддла, мужчины
+            'https://web.archive.org/web/20060524114830id_/http://www.eoc2006.ee:80/results/middleq/women.pdf', // квалификация миддла, женщины
+            'https://web.archive.org/web/20060524114727id_/http://www.eoc2006.ee:80/results/longq/men.pdf', // квалификация лонга, мужчины
+            'https://web.archive.org/web/20060524114739id_/http://www.eoc2006.ee:80/results/longq/women.pdf' // квалификация лонга, женщины
         ],
         maps: [
             // 'https://news.worldofo.com/2006/05/08/mats-troeng-jonn-are-myhren-eoc-maps/',
@@ -970,6 +1018,11 @@ let iofEvents = [
             'http://www.woc2006.dk/',
             'https://en.wikipedia.org/wiki/2006_World_Orienteering_Championships'
         ],
+        bulletin: [
+            // 'https://web.archive.org/web/20041108193703id_/http://www.woc2006.dk:80/Bulletin_1_july04_scr.pdf',
+            // 'https://web.archive.org/web/20051109002353id_/http://www.woc2006.dk:80/BulletinWOC2006nr2.pdf',
+            'https://web.archive.org/web/20070103212042id_/http://www.woc2006.dk:80/Bulletin4.pdf'
+        ],
         res: 'https://web.archive.org/web/20200706035725/https://old.orienteering.org/events/?event_id=37',
         maps: [
             // карты с сайта организаторов (Wayback Machine, woc2006.dk):
@@ -997,6 +1050,10 @@ let iofEvents = [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
         ],
+        bulletin: [
+            // 'https://web.archive.org/web/20060517005656id_/http://www.mtbo.pl:80/eumtboc/files/bulletins1-2.pdf',
+            'https://web.archive.org/web/20061211022229id_/http://www.mtbo.pl:80/eumtboc/files/bulletin4.pdf'
+        ],
         res: 'https://old.orienteering.sport/events/100/european-mtb-orienteering-championships-2006/',
         maps: [
             // официальные карты организаторов (Wayback Machine, mtbo.pl/eumtboc):
@@ -1018,6 +1075,7 @@ let iofEvents = [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
         ],
+        res: 'https://old.orienteering.sport/events/130/', // результаты на старом сайте IOF
         coord: [55.7, 36.966667], // координаты региона, не населённого пункта — уточнить
         type: 'SKI',
         fmt: 'sprint, middle, long, relay',
@@ -1289,6 +1347,7 @@ let iofEvents = [
             // 'https://old.orienteering.sport/wp-content/uploads/2011/01/bulletin2.pdf',
             'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-39.pdf'
         ],
+        res: 'https://old.orienteering.sport/events/131/', // результаты на старом сайте IOF
         maps: [
             // старая карта района (Wayback Machine, orienteering.or.jp/swoc2009):
             'https://web.archive.org/web/20140602075315id_/http://www.orienteering.or.jp/swoc2009/archives/oldmap_rusutsu.jpg'
@@ -1412,6 +1471,7 @@ let iofEvents = [
             // 'http://eoc2010.orienteering.bg/images/util/bulletin3.pdf',
             'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-4_EOC2010.pdf'
         ],
+        res: 'https://old.orienteering.sport/events/262/', // результаты на старом сайте IOF
         maps: [
             // 'https://news.worldofo.com/2010/05/31/eoc-maps-from-all-races-webroute/',
             // 'http://omaps.worldofo.com/?cid=917',
@@ -1426,6 +1486,12 @@ let iofEvents = [
         date: '2010-05-30',
         name: 'EOC #1, спринт (квалификация и финал)',
         place: 'Primorsko, Bulgaria (Приморско, Болгария)',
+        res: [
+            'http://eoc2010.orienteering.bg/files/results_sprint_q_men.pdf', // квалификация, мужчины
+            'http://eoc2010.orienteering.bg/files/results_sprint_q_women.pdf', // квалификация, женщины
+            'http://eoc2010.orienteering.bg/files/results_sprint_f_men.pdf', // финал, мужчины
+            'http://eoc2010.orienteering.bg/files/results_sprint_f_women.pdf' // финал, женщины
+        ],
         maps: [
             // 'https://omaps.worldofo.com/index.php?id=24447',
             // 'https://omaps.worldofo.com/index.php?id=24511',
@@ -1453,6 +1519,10 @@ let iofEvents = [
         date: '2010-05-31',
         name: 'EOC #2, лонг (квалификация)',
         place: 'Primorsko, Bulgaria (Приморско, Болгария)',
+        res: [
+            'http://eoc2010.orienteering.bg/files/results_long_q_men.pdf', // мужчины
+            'http://eoc2010.orienteering.bg/files/results_long_q_women.pdf' // женщины
+        ],
         maps: [
             // 'https://omaps.worldofo.com/index.php?id=24515',
             // 'https://omaps.worldofo.com/index.php?id=24541',
@@ -1480,6 +1550,10 @@ let iofEvents = [
         date: '2010-06-01',
         name: 'EOC #3, миддл (квалификация)',
         place: 'Primorsko, Bulgaria (Приморско, Болгария)',
+        res: [
+            'http://eoc2010.orienteering.bg/files/results_middle_q_men.pdf', // мужчины
+            'http://eoc2010.orienteering.bg/files/results_middle_q_women.pdf' // женщины
+        ],
         maps: [
             // официальные карты организаторов из Wayback Machine (найдены через omaps.worldofo.com):
             // 'https://omaps.worldofo.com/index.php?id=24582',
@@ -1505,6 +1579,10 @@ let iofEvents = [
         date: '2010-06-02',
         name: 'EOC #4, эстафета',
         place: 'Primorsko, Bulgaria (Приморско, Болгария)',
+        res: [
+            'http://eoc2010.orienteering.bg/files/results_relay_men.pdf', // мужчины
+            'http://eoc2010.orienteering.bg/files/results_relay_women.pdf' // женщины
+        ],
         maps: [
             // 'https://news.worldofo.com/2010/06/02/eoc-relay-maps-and-results/',
             // 'https://omaps.worldofo.com/index.php?id=24639',
@@ -1521,6 +1599,10 @@ let iofEvents = [
         date: '2010-06-04',
         name: 'EOC #5, миддл',
         place: 'Primorsko, Bulgaria (Приморско, Болгария)',
+        res: [
+            'http://eoc2010.orienteering.bg/files/results_middle_f_men.pdf', // мужчины
+            'http://eoc2010.orienteering.bg/files/results_middle_f_women.pdf' // женщины
+        ],
         maps: [
             // 'https://news.worldofo.com/2010/06/04/eoc-middle-maps-and-results/',
             // 'https://omaps.worldofo.com/index.php?id=24726',
@@ -1541,6 +1623,10 @@ let iofEvents = [
         date: '2010-06-05',
         name: 'EOC #6, лонг',
         place: 'Primorsko, Bulgaria (Приморско, Болгария)',
+        res: [
+            'http://eoc2010.orienteering.bg/files/results_long_f_men.pdf', // мужчины
+            'http://eoc2010.orienteering.bg/files/results_long_f_women.pdf' // женщины
+        ],
         maps: [
             // 'https://news.worldofo.com/2010/06/05/eoc-long-gold-for-niggli-and-hubmann/',
             // 'https://omaps.worldofo.com/index.php?id=24742',
@@ -1860,6 +1946,7 @@ let iofEvents = [
             // 'https://old.orienteering.sport/wp-content/uploads/2011/02/Bulletin-3.pdf',
             'https://old.orienteering.sport/wp-content/uploads/2011/03/Bulletin-4.pdf'
         ],
+        res: 'https://old.orienteering.sport/events/132/', // результаты на старом сайте IOF
         coord: [62.5444, 12.3333],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay, sprint relay',
@@ -2643,6 +2730,7 @@ let iofEvents = [
             // 'https://old.orienteering.sport/wp-content/uploads/2013/02/Bulletin-3.pdf',
             'https://old.orienteering.sport/wp-content/uploads/2013/03/Bulletin-4.pdf'
         ],
+        res: 'https://old.orienteering.sport/events/327/', // результаты на старом сайте IOF
         coord: [50.35, 83.516667],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay, sprint relay',
@@ -3925,6 +4013,15 @@ let iofEvents = [
         ],
         bulletin: 'https://eventor-iof-storage.orientering.se/eventdocuments/5085/c22e9a27-642d-46e9-921b-fe245d82dd71/Bulletin-4.pdf',
         res: 'https://eventor.orienteering.sport/Events/Show/5085',
+        video: [
+            'https://www.youtube.com/watch?v=vNbqHrpR9W0', // Sprint
+            'https://www.youtube.com/watch?v=MZCtUxWl8wc', // Middle distance
+            'https://www.youtube.com/watch?v=vhC2dv-firU', // Long distance Men
+            'https://www.youtube.com/watch?v=lMm6-FZSg1Y', // Long distance Women
+            'https://www.youtube.com/watch?v=TtL8Yu3dWh8', // Sprint relay summary
+            'https://www.youtube.com/watch?v=U4o4Tiv9VCg', // Relay Men
+            'https://www.youtube.com/watch?v=ZqB1JCnlRxU' // Relay Women
+        ],
         coord: [46.708611, 12.616111],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay, sprint relay',
@@ -4490,6 +4587,16 @@ let iofEvents = [
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
             'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
+        ],
+        bulletin: 'https://web.archive.org/web/20161019181805id_/http://www.wsoc2017.ru:80/UserFiles/documents_for_downloads/bulletin_2_%201.06.16.pdf',
+        res: [
+            'https://web.archive.org/web/20170309070350id_/http://www.wsoc2017.ru/UserFiles/protocols/wsoc_sprint20170308.pdf', // спринт
+            'https://web.archive.org/web/20170312080451id_/http://www.wsoc2017.ru/UserFiles/09032017middle.pdf', // миддл
+            'https://web.archive.org/web/20170312081419id_/http://www.wsoc2017.ru/UserFiles/20170310_men_middle.pdf', // миддл, мужчины
+            'https://web.archive.org/web/20170312202230id_/http://www.wsoc2017.ru/UserFiles/protocols/wsoc_long.pdf', // лонг
+            'https://web.archive.org/web/20170312083438id_/http://www.wsoc2017.ru/UserFiles/20170311_long.pdf', // лонг
+            'https://web.archive.org/web/20170308051114id_/http://www.wsoc2017.ru/UserFiles/protocols/wsoc_sprint_relay.pdf', // спринт-эстафета
+            'https://web.archive.org/web/20170313045630id_/http://www.wsoc2017.ru/UserFiles/protocols/20170312_relay.pdf' // эстафета
         ],
         video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJe4MsWzZTnjCy0wCTgcVxA3',
         coord: [56.008889, 92.871944],
@@ -5658,6 +5765,7 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/6113/8785dd21-8f9d-4b2b-bdca-4b137fd2778f/Bulletin-4.pdf'
         ],
         res: 'https://eventor.orienteering.org/Events/Show/6113',
+        video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJeMYX9M7emDYCENBmDJlslc',
         coord: [62.808333, 23.508333],
         type: 'VELO',
         fmt: 'sprint, middle, long, mass start, relay',
@@ -7113,6 +7221,9 @@ let iofEvents = [
             'https://photos.app.goo.gl/kfJSbB3tQyGXFBjLA',
             'https://photos.app.goo.gl/28ZR1CU2vdveZBgZ8'
         ],
+        video: [
+            'https://www.youtube.com/watch?v=yYj4H_OswVg' // Sprint, Verona
+        ],
         coord: [45.438611, 10.992778],
         fmt: 'sprint',
         start: 'EOC'
@@ -7144,6 +7255,9 @@ let iofEvents = [
             // 'https://www.tulospalvelu.fi/gps/2023eocSR2/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocSR3/map
         ],
         photo: 'https://photos.app.goo.gl/wvGd6c8oz1nH9iK96',
+        video: [
+            'https://www.youtube.com/watch?v=8Af_tBQAyeI' // Sprint Relay, Soave
+        ],
         coord: [45.438611, 10.992778],
         fmt: 'sprint relay',
         start: 'EOC'
@@ -7181,6 +7295,9 @@ let iofEvents = [
             // 'https://www.tulospalvelu.fi/gps/2023eocKOfM/map', // duplicate of https://www.tulospalvelu.fi/gps/2023eocKOfW/map
         ],
         photo: 'https://photos.app.goo.gl/Fktxg1X7UN3G516k9',
+        video: [
+            'https://www.youtube.com/watch?v=D2dUvvKTVk4' // Knock Out Sprint, Vicenza
+        ],
         coord: [45.438611, 10.992778],
         fmt: 'knock-out',
         start: 'EOC'
@@ -7536,6 +7653,10 @@ let iofEvents = [
             'https://news.worldofo.com/wp-content/uploads/2024/08/map_women_EOCMiddleFinal_3000.jpg'
         ],
         photo: 'https://photos.app.goo.gl/C46RznaTCEgh55ibA',
+        video: [
+            'https://www.youtube.com/watch?v=PGfiYLWU0sQ', // ENG
+            'https://www.youtube.com/watch?v=Xdt46tlM-PI' // GER
+        ],
         coord: [47.371667, 18.208611],
         fmt: 'middle',
         start: 'EOC'
@@ -7560,6 +7681,10 @@ let iofEvents = [
             'https://news.worldofo.com/wp-content/uploads/2024/08/map_men_long_EOC_4000.jpg'
         ],
         photo: 'https://photos.app.goo.gl/o8YoUix2o4c7Lmgs8',
+        video: [
+            'https://www.youtube.com/watch?v=ADEXxE7WLHI', // ENG
+            'https://www.youtube.com/watch?v=VhxCTWsvxsg' // GER
+        ],
         coord: [47.371667, 18.208611],
         fmt: 'long',
         start: 'EOC'
@@ -7590,6 +7715,10 @@ let iofEvents = [
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/ac06e26d6302d1558b6c569a/optimized_tile_0_0.jpg'
         ],
         photo: 'https://photos.google.com/share/AF1QipM22u80kGZBJ60OcQZYIcegO2rokJvl71hbIMFQRr_8OJgF9IQeoUZN7mXJo-CZIw?key=NC11SXh1X3FqMkZpNVFhcmQwTkg0RlRNS205cV9R',
+        video: [
+            'https://www.youtube.com/watch?v=84Q2n5Olqtg', // ENG
+            'https://www.youtube.com/watch?v=sZv4i694XIE' // GER
+        ],
         coord: [47.371667, 18.208611],
         fmt: 'relay',
         start: 'EOC'
@@ -8255,6 +8384,10 @@ let iofEvents = [
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2b696757532bb0e1963b7e13/optimized_tile_0_0.gif',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/4079329a8848548c36bc34ac/optimized_tile_0_0.gif'
         ],
+        video: [
+            'https://www.youtube.com/watch?v=4iudVhZm1R4', // ENG
+            'https://www.youtube.com/watch?v=W7es9GBVatQ' // GER
+        ],
         coord: [50.93, 5.3375],
         fmt: 'sprint relay',
         start: 'EOC'
@@ -8282,6 +8415,9 @@ let iofEvents = [
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/ec880244741c608fede24a49/optimized_tile_0_0.gif',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/8a5cda4885cc571a3e99b0a0/optimized_tile_0_0.gif'
         ],
+        video: [
+            'https://www.youtube.com/watch?v=KZ2fnWAq6W8' // Knockout Qualification
+        ],
         coord: [50.93, 5.3375],
         fmt: 'knock-out',
         start: 'EOC'
@@ -8307,6 +8443,12 @@ let iofEvents = [
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/8052958cb38458882af80b23/optimized_tile_0_0.gif',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/7e8044c4bc591d7310fade90/optimized_tile_0_0.gif',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/0fcba755d1fb246dcbe4a95e/optimized_tile_0_0.gif'
+        ],
+        video: [
+            'https://www.youtube.com/watch?v=12mXg_5Uv-Q', // ENG
+            'https://www.youtube.com/watch?v=ZDTGg83Vv5I', // ENG
+            'https://www.youtube.com/watch?v=0BEDh2Ol_I0', // GER
+            'https://www.youtube.com/watch?v=JZpWoRoAUY0' // GER
         ],
         coord: [50.93, 5.3375],
         fmt: 'knock-out',
@@ -8343,6 +8485,11 @@ let iofEvents = [
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/2621f25bedb0e918749b1e0a/optimized_tile_0_0.gif',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/55bdfcc2038b0ded27c61b30/optimized_tile_0_0.gif',
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/53f66557d0463d4c2a72320c/optimized_tile_0_0.gif'
+        ],
+        video: [
+            'https://www.youtube.com/watch?v=DsrhXa8poog', // Sprint Qualification
+            'https://www.youtube.com/watch?v=zmiMt0OMcbA', // ENG
+            'https://www.youtube.com/watch?v=7OHDPN1yFH0' // GER
         ],
         coord: [50.93, 5.3375],
         fmt: 'sprint',
