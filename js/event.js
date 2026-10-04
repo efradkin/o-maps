@@ -484,11 +484,28 @@
                 actions.push(btn(d, regCls));
             });
         }
-        const site = asList(evt.link);
-        site.forEach((l, i) => actions.push(btn({ href: l, label: site.length > 1 ? 'Сайт ' + (i + 1) : 'Сайт соревнования', img: 'images/external-link.png' }, 'btn-outline-secondary')));
+        // Сайты: сначала ссылки родительского события (parent), затем ссылки
+        // самого события, без повторов. Иконка - по сервису ссылки (SERVICES в utils.js).
+        const site = [];
+        const addSite = (href, owner) => {
+            if (href && !site.some(s => s.href === href)) site.push({ href, owner });
+        };
+        if (ctx.parent) asList(ctx.parent.link).forEach(l => addSite(l, ctx.parent));
+        asList(evt.link).forEach(l => addSite(l, null));
+        site.forEach((s, i) => {
+            const service = findLinkService(s.href);
+            const title = [service?.label, s.owner ? 'сайт события «' + stripTags(s.owner.name) + '»' : null]
+                .filter(Boolean).join(' — ');
+            actions.push(btn({
+                href: s.href,
+                label: site.length > 1 ? 'Сайт ' + (i + 1) : 'Сайт соревнования',
+                img: linkSiteImg(s.href, 'images/external-link.png'),
+                title: title || undefined
+            }, 'btn-outline-secondary'));
+        });
         const seriesSite = seriesCodes(evt).map(code => starts[code].link).filter(Boolean)[0];
         if (!site.length && seriesSite) {
-            actions.push(btn({ href: seriesSite, label: 'Сайт серии', img: 'images/external-link.png' }, 'btn-outline-secondary'));
+            actions.push(btn({ href: seriesSite, label: 'Сайт серии', img: linkSiteImg(seriesSite, 'images/external-link.png') }, 'btn-outline-secondary'));
         } else if (!site.length && evt.o_site) {
             actions.push(btn({ href: O_SITE_ADDRESS_PREFIX + evt.o_site, label: 'Страница на O-Site', img: 'images/o-site.gif' }, 'btn-outline-secondary'));
         }

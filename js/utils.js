@@ -33,6 +33,7 @@ const SERVICES = [
     { re: /russialoppet/i, label: 'Russialoppet', img: 'logo/russialoppet.gif' },
     { re: /gosuslugi/i, label: 'Госуслуги' },
     { re: /strava/i, label: 'Strava', img: 'images/strava_32.gif' },
+    { re: /livejournal/i, label: 'ЖЖ', img: 'images/lj.webp' },
 ];
 
 const OLIVE_IMAGE_URL = './maps/olive.png';
@@ -2033,6 +2034,14 @@ function findLinkService(url) {
     return SERVICES.find(s => s.re.test(u));
 }
 
+// Иконка для ссылки на обычную страницу сервиса (сайт события, кнопки «Сайт»
+// на event.html): siteImg сервиса, иначе его img (если она не только для
+// особого контекста, imgOnlyFor), иначе fallback.
+function linkSiteImg(url, fallback) {
+    const service = findLinkService(url);
+    return service?.siteImg ?? ((service?.img && !service.imgOnlyFor) ? service.img : fallback);
+}
+
 // Иконки на все ссылки события (календарь): сначала страница на O-Site
 // (o_site), затем ссылки из link (строка или массив). Если нет ни того,
 // ни другого - ссылка на сайт старта. Ссылка известного сервиса (SERVICES)
@@ -2053,7 +2062,7 @@ function buildEventSiteIcons(evt) {
     }
     return urls.map(url => {
         const service = findLinkService(url);
-        const img = service?.siteImg ?? ((service?.img && !service.imgOnlyFor) ? service.img : 'images/o-site.gif');
+        const img = linkSiteImg(url, 'images/o-site.gif');
         const title = service ? service.label : defaultTitle;
         return ' ' + buildLink(url, `<img src="./${img}" alt="${title}" title="${title}" class="sheet-icon" />`, title);
     }).join('');
