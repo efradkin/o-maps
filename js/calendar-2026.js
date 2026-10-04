@@ -3021,6 +3021,9 @@ let events2026 = [
         date: '2026-10-17',
         name: 'Памяти Зои Пятаковой',
         place: 'Пухтолова гора',
+        o_site: '261017_PZVP',
+        reg: 'http://orgeo.ru/event/info/55914',
+        bulletin: 'https://o-site.spb.ru/_races/261017_PZVP/261017_PZVP_info.pdf',
         fmt: 'спринт'
     },
     {

@@ -1208,16 +1208,6 @@ let iofEvents = [
             // 'http://eoc2008.lof.lv/index.php?id=/bulletins/eoc_bulletin_2.php',
             'https://old.orienteering.sport/wp-content/uploads/2011/01/EOC2008_Bulletin-3.pdf'
         ],
-        res: [
-            'http://eoc2008.lof.lv/results/longf/MA.HTM',
-            'http://eoc2008.lof.lv/results/longf/WA.HTM',
-            'http://eoc2008.lof.lv/results/middlef/MA.HTM',
-            'http://eoc2008.lof.lv/results/middlef/WA.HTM',
-            'http://eoc2008.lof.lv/results/relay/MEN.HTM',
-            'http://eoc2008.lof.lv/results/relay/WOMEN.HTM',
-            'http://eoc2008.lof.lv/results/sprint_final/MA.HTM',
-            'http://eoc2008.lof.lv/results/sprint_final/WA.HTM'
-        ],
         maps: [
             // 'https://news.worldofo.com/2008/05/26/eoc-sprint-final-maps-statements-and-results/',
             // 'https://news.worldofo.com/2008/05/29/map-eoc-long-final/',
@@ -1231,6 +1221,82 @@ let iofEvents = [
         ],
         coord: [57.390556, 21.573333],
         fmt: 'sprint, middle, long, relay',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20080526_1',
+        parent: 'IOF_20080525_1',
+        date: '2008-05-26',
+        name: 'EOC #1, спринт (квалификация и финал)',
+        place: 'Ventspils, Latvia (Вентспилс, Латвия)',
+        res: [
+            'http://eoc2008.lof.lv/results/sprint_final/MA.HTM',
+            'http://eoc2008.lof.lv/results/sprint_final/WA.HTM'
+        ],
+        coord: [57.390556, 21.573333],
+        fmt: 'sprint',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20080527_1',
+        parent: 'IOF_20080525_1',
+        date: '2008-05-27',
+        name: 'EOC #2, лонг (квалификация)',
+        place: 'Ventspils, Latvia (Вентспилс, Латвия)',
+        coord: [57.390556, 21.573333],
+        fmt: 'long',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20080528_1',
+        parent: 'IOF_20080525_1',
+        date: '2008-05-28',
+        name: 'EOC #3, лонг',
+        place: 'Ventspils, Latvia (Вентспилс, Латвия)',
+        res: [
+            'http://eoc2008.lof.lv/results/longf/MA.HTM',
+            'http://eoc2008.lof.lv/results/longf/WA.HTM'
+        ],
+        coord: [57.390556, 21.573333],
+        fmt: 'long',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20080530_1',
+        parent: 'IOF_20080525_1',
+        date: '2008-05-30',
+        name: 'EOC #4, миддл (квалификация)',
+        place: 'Ventspils, Latvia (Вентспилс, Латвия)',
+        coord: [57.390556, 21.573333],
+        fmt: 'middle',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20080531_1',
+        parent: 'IOF_20080525_1',
+        date: '2008-05-31',
+        name: 'EOC #5, миддл',
+        place: 'Ventspils, Latvia (Вентспилс, Латвия)',
+        res: [
+            'http://eoc2008.lof.lv/results/middlef/MA.HTM',
+            'http://eoc2008.lof.lv/results/middlef/WA.HTM'
+        ],
+        coord: [57.390556, 21.573333],
+        fmt: 'middle',
+        start: 'EOC'
+    },
+    {
+        id: 'IOF_20080601_1',
+        parent: 'IOF_20080525_1',
+        date: '2008-06-01',
+        name: 'EOC #6, эстафета',
+        place: 'Ventspils, Latvia (Вентспилс, Латвия)',
+        res: [
+            'http://eoc2008.lof.lv/results/relay/MEN.HTM',
+            'http://eoc2008.lof.lv/results/relay/WOMEN.HTM'
+        ],
+        coord: [57.390556, 21.573333],
+        fmt: 'relay',
         start: 'EOC'
     },
     {
@@ -3007,18 +3073,65 @@ let iofEvents = [
             'https://old.orienteering.sport/wp-content/uploads/2013/08/Bulletin-41.pdf'
         ],
         res: 'https://old.orienteering.sport/events/47/world-mtb-orienteering-championships-2013/',
+        coord: [59.35, 26.35],
+        type: 'VELO',
+        fmt: 'sprint, middle, long, relay',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20130827_1',
+        parent: 'IOF_20130826_1',
+        date: '2013-08-27',
+        name: 'WMTBOC #1, спринт',
+        place: 'Rakvere, Estonia (Раквере, Эстония)',
         maps: [
-            // официальные карты организаторов (Wayback Machine, orienteerumine.ee/mtbo2013):
             'https://web.archive.org/web/20140821005004id_/http://www.orienteerumine.ee/mtbo2013/sprint/M21.gif', // спринт, M21
-            'https://web.archive.org/web/20140820121922id_/http://www.orienteerumine.ee/mtbo2013/sprint/W21.gif', // спринт, W21
+            'https://web.archive.org/web/20140820121922id_/http://www.orienteerumine.ee/mtbo2013/sprint/W21.gif' // спринт, W21
+        ],
+        coord: [59.35, 26.35],
+        type: 'VELO',
+        fmt: 'sprint',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20130828_1',
+        parent: 'IOF_20130826_1',
+        date: '2013-08-28',
+        name: 'WMTBOC #2, миддл',
+        place: 'Rakvere, Estonia (Раквере, Эстония)',
+        maps: [
             'https://web.archive.org/web/20140821055629id_/http://www.orienteerumine.ee/mtbo2013/middle/M21.gif', // миддл, M21
-            'https://web.archive.org/web/20140822000013id_/http://www.orienteerumine.ee/mtbo2013/middle/W21.gif', // миддл, W21
+            'https://web.archive.org/web/20140822000013id_/http://www.orienteerumine.ee/mtbo2013/middle/W21.gif' // миддл, W21
+        ],
+        coord: [59.35, 26.35],
+        type: 'VELO',
+        fmt: 'middle',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20130830_1',
+        parent: 'IOF_20130826_1',
+        date: '2013-08-30',
+        name: 'WMTBOC #3, эстафета',
+        place: 'Rakvere, Estonia (Раквере, Эстония)',
+        coord: [59.35, 26.35],
+        type: 'VELO',
+        fmt: 'relay',
+        start: 'WMTBOC'
+    },
+    {
+        id: 'IOF_20130831_1',
+        parent: 'IOF_20130826_1',
+        date: '2013-08-31',
+        name: 'WMTBOC #4, лонг',
+        place: 'Rakvere, Estonia (Раквере, Эстония)',
+        maps: [
             'https://web.archive.org/web/20140820053053id_/http://www.orienteerumine.ee/mtbo2013/long/M21.gif', // лонг, M21
             'https://web.archive.org/web/20140820034303id_/http://www.orienteerumine.ee/mtbo2013/long/w21.gif' // лонг, W21
         ],
         coord: [59.35, 26.35],
         type: 'VELO',
-        fmt: 'sprint, middle, long, relay',
+        fmt: 'long',
         start: 'WMTBOC'
     },
     {
