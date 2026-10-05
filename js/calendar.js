@@ -64,7 +64,7 @@ function myEditDone() {
 // Фильтрация массива. Оставляем только эвенты, соответствующие критерию запроса (есди он задан).
 const allMajors = onlyMajor || START_NAME_PARAM === 'major';
 if (allMajors) {
-    oEvents = oEvents.filter(event => event.major);
+    oEvents = oEvents.filter(event => isMajor(event));
 }
 if (HAS_ONLY_ME_PARAM) {
     oEvents = oEvents.filter(event => event.me !== undefined || event.strava !== undefined);

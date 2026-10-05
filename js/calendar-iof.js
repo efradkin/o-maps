@@ -1354,7 +1354,7 @@ let iofEvents = [
             'https://www.youtube.com/watch?v=bWW-gadR_0Q', // Middle distance on WSOC 2007 in Moscow. (orienteeringtv)
             'https://www.youtube.com/watch?v=ac17BPisFjU' // World Ski-O Championship 2007, Long Distance (orienteeringtv)
         ],
-        coord: [55.7, 36.966667], // координаты региона, не населённого пункта — уточнить
+        coord: [55.9164017, 37.3511124],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay',
         start: 'SKI_WOC'
