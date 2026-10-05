@@ -2681,7 +2681,7 @@ let events2026 = [
         o_gps: 26072,
         info: '<a href="https://vk.ru/wall-166397868_5419">Перенос</a> с 25 июля. "Трое из Простоквашино". <a href="https://o-route.ru/events/lpr-2026">Пути участников</a>.',
         publish: 'https://t.me/rogainomania/1853',
-        photo: 'https://vk.ru/album-166397868_312076551',
+        photo: ['https://vk.ru/album-166397868_312076551','https://dadafoto.wfolio.pro/disk/26-09-2026-luzhskiy_rogeyn-2026-pf0sd6'],
         video: ['https://www.youtube.com/shorts/cLQGhLPXXQI','https://t.me/c/2776154706/4512'],
         type: 'ROGAINE',
         fmt: '10, 6, 3',
@@ -2916,14 +2916,6 @@ let events2026 = [
         map: 'kavgolovo_2017'
     },
     {
-        id: 'SPB_20261010_2',
-        date: '2026-10-10',
-        name: 'ЧиП СПб',
-        start: 'SPB_CHAMP',
-        type: 'VELO',
-        fmt: 'эстафета 2х'
-    },
-    {
         id: 'SPB_20261010_3',
         date: '2026-10-10',
         endDate: '2026-10-11',
@@ -2959,7 +2951,7 @@ let events2026 = [
         start: 'SPB_CHAMP',
         o_site: '261011_velo',
         reg: 'https://www.o-reg.spb.ru/?filter[day_id]=1760',
-        endReg: '2026-10-08',
+        endReg: '2026-10-08 23:59',
         bulletin: 'https://o-site.spb.ru/_races/261011_velo/261011_info.pdf',
         type: 'VELO',
         fmt: 'эстафета 2х',
@@ -3055,6 +3047,9 @@ let events2026 = [
         id: 'SPB_20261024_2',
         date: '2026-10-24',
         name: 'Финал КЛО',
+        place: 'Стеклянный',
+        link: 'https://www.multsport.ru/starts/klo-final-26/',
+        reg: 'https://www.multsport.ru/starts/klo-final-26/registration.html',
         type: 'ROGAINE',
         fmt: '4'
     },
