@@ -89,6 +89,18 @@ const GLOBAL_MENU_ITEMS = [
             { title: '🗓️ Москва', page: 'calendar-msk' },
             { title: '🗓️ Самара', page: 'calendar-samara' },
             { title: '🗓️ Главные старты', page: 'calendar.html?start=major' },
+            {
+                title: '🌍 Чемпионаты IOF',
+                menuItems: [
+                    { title: '🗓️ Все чемпионаты IOF', page: 'calendar.html?owner=IOF&startYear=ALL' },
+                    { title: '🏃 Мира (WOC)', page: 'calendar.html?startYear=ALL&start=WOC' },
+                    { title: '🏃 Европы (EOC)', page: 'calendar.html?startYear=ALL&start=EOC' },
+                    { title: '⛷️ Мира на лыжах (SKI-WOC)', page: 'calendar.html?startYear=ALL&start=SKI_WOC' },
+                    { title: '⛷️ Европы на лыжах (SKI-EOC)', page: 'calendar.html?startYear=ALL&start=SKI_EOC' },
+                    { title: '🚵 Мира на велосипедах (WMTBOC)', page: 'calendar.html?startYear=ALL&start=WMTBOC' },
+                    { title: '🚵 Европы на велосипедах (EMTBOC)', page: 'calendar.html?startYear=ALL&start=EMTBOC' },
+                ]
+            },
             { title: '⛷️ Лыжные гонки', page: 'calendar-ski' },
             { title: '📲️ Android-приложение', page: 'help/calendar_app' },
         ]
@@ -130,6 +142,18 @@ const GLOBAL_MENU_ITEMS = [
             { title: '💼 Руководства и правила', page: 'rules' },
             { title: '📖 Книги и статьи', page: 'books' },
             { title: '❓ Неопределённые карты', page: 'unknown' },
+        ]
+    },
+    {
+        title: 'История',
+        menuItems: [
+            { title: '📖 Чемпионаты мира и Европы', page: 'history/iof' },
+            { title: '🏃 Чемпионаты мира (WOC)', page: 'history/woc' },
+            { title: '🏃 Чемпионаты Европы (EOC)', page: 'history/eoc' },
+            { title: '⛷️ Чемпионаты мира на лыжах (SKI-WOC)', page: 'history/ski-woc' },
+            { title: '⛷️ Чемпионаты Европы на лыжах (SKI-EOC)', page: 'history/ski-eoc' },
+            { title: '🚵 Чемпионаты мира на велосипедах (WMTBOC)', page: 'history/wmtboc' },
+            { title: '🚵 Чемпионаты Европы на велосипедах (EMTBOC)', page: 'history/emtboc' },
         ]
     },
     {
