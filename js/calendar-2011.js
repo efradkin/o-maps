@@ -921,18 +921,6 @@ let events2011 = [
         map: 'lembolovo_2002'
     },
     {
-        id: 'SPB_20110919_1',
-        date: '2011-09-19',
-        endDate: '2011-09-23',
-        place: 'Рощино',
-        name: 'Чемпионат Европы по велоориентированию, Финал Кубка Мира',
-        video: ['https://www.youtube.com/watch?v=qV-JuhesCGs','https://www.youtube.com/watch?v=vou3UOWhHIc'],
-        type: 'VELO',
-        info: 'V ЧЕМПИОНАТ ЕВРОПЫ ФИНАЛ КУБКА МИРА 2011 V КУБОК ЕВРОПЫ СРЕДИ ЮНИОРОВ VI КУБОК ЕВРОПЫ СРЕДИ ЮНОШЕЙ И ДЕВУШЕК ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ НА ВЕЛОСИПЕДАХ',
-        owner: 'SFSO_LO',
-        o_site: '11091923'
-    },
-    {
         id: 'SPB_20110922_1',
         date: '2011-09-22',
         place: 'Токсово',

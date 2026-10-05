@@ -2763,25 +2763,28 @@ let iofEvents = [
     },
     {
         id: 'IOF_20110917_1',
-        date: '2011-09-17',
-        endDate: '2011-09-25',
-        place: 'Leningrad Oblast, Russia (Ленинградская область, Россия)',
+        date: '2011-09-19',
+        endDate: '2011-09-23',
+        place: 'Roschino, Leningrad Oblast, Russia (Рощино, Ленинградская область, Россия)',
         info: 'Эстафета — Ж: Светлана Поверина, Ольга Виноградова, Ксения Черных - 2; М: Валерий Глухов, Руслан Грицан, Антон Фолифоров - 2.',
-        name: 'Чемпионат Европы (EMTBOC)',
+        name: 'V Чемпионат Европы (EMTBOC), Финал кубка Мира, Кубок Европы',
         link: [
             'https://sv.wikipedia.org/wiki/Europamästerskapen_i_mountainbikeorientering',
             'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_велосипедах'
         ],
+        o_site: '11091923',
         bulletin: [
             // 'https://old.orienteering.sport/wp-content/uploads/2011/07/Bulletin-1-2.pdf',
             // 'https://old.orienteering.sport/wp-content/uploads/2011/09/Bulletin-3.11.pdf',
             'https://old.orienteering.sport/wp-content/uploads/2011/09/Bulletin-42.pdf'
         ],
         res: 'https://old.orienteering.sport/events/95/european-mtb-orienteering-championships-2011/',
+        video: ['https://www.youtube.com/watch?v=qV-JuhesCGs','https://www.youtube.com/watch?v=vou3UOWhHIc'],
         coord: [60.05, 31.75], // координаты региона, не населённого пункта — уточнить
         type: 'VELO',
         fmt: 'sprint, middle, long, relay',
-        start: 'EMTBOC'
+        start: 'EMTBOC',
+        owner: ['IOF','SFSO_LO']
     },
     {
         id: 'IOF_20120220_1',

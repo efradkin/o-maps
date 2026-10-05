@@ -2824,6 +2824,8 @@ let events2026 = [
         endReg: '2026-09-30 23:55',
         bulletin: 'http://touristclub.ru/okinchits/polozhenie/',
         res: 'http://touristclub.ru/wp-content/uploads/2026/10/Okin2026_split.html',
+        publish: 'https://vk.ru/album-21755_312151949',
+        photo: 'https://vk.ru/album-21755_312151949',
         fmt: 'ночное',
         start: 'OKINCHITSA'
     },
@@ -2832,7 +2834,7 @@ let events2026 = [
         date: '2026-10-03',
         name: 'Кубок Колпино',
         place: 'Колпинский ПКиО',
-        link: 'https://vk.com/orienteeringkolpino',
+        link: 'https://vk.ru/wall-171862432_235',
         reg: 'https://orgeo.ru/event/55190',
         endReg: '2026-10-01 00:00',
         o_site: '261003_kolpino'
@@ -2871,7 +2873,9 @@ let events2026 = [
         endReg: '2026-10-02 12:00',
         reskeep: 933,
         bulletin: 'https://orgeo.ru/files/event/file/55780_0838dec9c9.pdf',
-        owner: 'FENIX'
+        publish: 'https://disk.yandex.ru/d/Dybf7s7KHRjqkQ',
+        owner: 'FENIX',
+        map: 'lindulovskaya_roscha_2015'
     },
     {
         id: 'SPB_20261004_2',
