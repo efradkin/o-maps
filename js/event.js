@@ -919,6 +919,37 @@
 
     // --- SEO: заголовок, описание, структурированные данные -------------------------------
 
+    // Организаторы для schema.org: только владельцы с title (name у владельцев -
+    // подпись-копирайт карты, часто с контактами). url - первая http-ссылка в title.
+    function ldOrganizers(evt) {
+        return asList(getOwners(evt)).filter(code => owners[code]?.title).map(code => {
+            const div = document.createElement('div');
+            div.innerHTML = owners[code].title;
+            const org = { '@type': 'Organization', name: div.textContent.replace(/\s+/g, ' ').trim() };
+            const a = div.querySelector('a[href^="http"]');
+            if (a) org.url = a.href;
+            return org;
+        });
+    }
+
+    // Предложения (регистрация) для schema.org - как кнопки «Регистрация» в шапке:
+    // только пока событие не прошло и не отменено; только http(s)-ссылки из reg.
+    // Цена - лишь когда известно, что участие бесплатное (price: 0).
+    function ldOffers(evt, ctx) {
+        if (!evt.reg || ctx.status.past || evt.cancelled) return [];
+        const endReg = endRegState(evt);
+        return asList(evt.reg).filter(r => /^https?:\/\//i.test(r)).map(r => {
+            const offer = { '@type': 'Offer', url: r };
+            if (evt.price === 0) {
+                offer.price = 0;
+                offer.priceCurrency = 'RUB';
+            }
+            if (endReg) offer.validThrough = endReg.deadline.toISOString();
+            if (endReg?.level !== 'closed') offer.availability = 'https://schema.org/InStock';
+            return offer;
+        });
+    }
+
     function applyMeta(evt, ctx) {
         const name = stripTags(evt.name);
         const title = name + ', ' + fullDateText(evt) + ' — O-Maps';
@@ -927,8 +958,9 @@
         if (evt.place) parts.push(stripTags(evt.place));
         const type = buildEventType(evt, false);
         if (type) parts.push(type + (evt.fmt ? ' (' + stripTags(String(evt.fmt).split(/<br\s*\/?>/i)[0]) + ')' : ''));
-        let description = name + '. ' + parts.join('. ') + '.';
-        if (evt.info) description += ' ' + stripTags(evt.info);
+        let fullDescription = name + '. ' + parts.join('. ') + '.';
+        if (evt.info) fullDescription += ' ' + stripTags(evt.info);
+        let description = fullDescription;
         if (description.length > 160) description = description.substring(0, 157).replace(/\s+\S*$/, '') + '…';
         const set = (sel, value) => document.head.querySelector(sel)?.setAttribute('content', value);
         set('meta[name="description"]', description);
@@ -944,15 +976,29 @@
             startDate: evt.date,
             endDate: evt.endDate ?? evt.date,
             eventStatus: evt.cancelled ? 'https://schema.org/EventCancelled' : 'https://schema.org/EventScheduled',
+            eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
             url: absUrl(eventPageUrl(evt)),
+            description: fullDescription,
         };
         if (evt.place || ctx.point) {
             ld.location = { '@type': 'Place', name: stripTags(evt.place ?? name) };
-            if (evt.coord) ld.location.geo = { '@type': 'GeoCoordinates', latitude: evt.coord[0], longitude: evt.coord[1] };
+            if (evt.place) ld.location.address = stripTags(evt.place);
+            const p = evt.coord ?? ctx.point;
+            if (p) ld.location.geo = { '@type': 'GeoCoordinates', latitude: p[0], longitude: p[1] };
         }
         if (type) ld.sport = type;
         if (logos.length) ld.image = absUrl('logo/' + logos[0]);
-        if (evt.info) ld.description = stripTags(evt.info);
+        const organizers = ldOrganizers(evt);
+        if (organizers.length) ld.organizer = organizers.length === 1 ? organizers[0] : organizers;
+        const offers = ldOffers(evt, ctx);
+        if (offers.length) ld.offers = offers.length === 1 ? offers[0] : offers;
+        // Без места Google считает разметку мероприятия недопустимой (location -
+        // обязательное поле), поэтому для событий без place, coord и карты с
+        // границами JSON-LD не выводится вовсе.
+        if (!ld.location) {
+            console.warn('event.html: у события ' + evt.id + ' нет места (place / coord / map) - структурированные данные не выводятся');
+            return;
+        }
         const script = document.createElement('script');
         script.type = 'application/ld+json';
         script.textContent = JSON.stringify(ld);
