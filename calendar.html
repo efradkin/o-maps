@@ -239,8 +239,8 @@
         const REGION_KEY = 'spb';
 
         let oMaps = [
-            ...pskovMaps,
-            ...otherMaps,
+            ...assignPage(pskovMaps, 'pskov'),
+            ...assignPage(otherMaps, 'all'),
             ...otherStartsMaps,
             ...twotwoStartsMaps,
             ...orientirStartsMaps,

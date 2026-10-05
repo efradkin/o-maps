@@ -689,6 +689,18 @@ function downloadIconExt(url) {
     return ext;
 }
 
+// Проставляет поле page всем картам массива, у которых оно ещё не задано.
+// Изменяет сами записи и возвращает тот же массив — для использования при сборке oMaps:
+//     ...assignPage(otherMaps, 'all'),
+function assignPage(maps, page) {
+    for (const m of maps) {
+        if (!m.page) {
+            m.page = page;
+        }
+    }
+    return maps;
+}
+
 function mapLink(url, m) { // m - for region
     let region;
     if (m) {
