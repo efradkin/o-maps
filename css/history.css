@@ -1,0 +1,213 @@
+/* =========================================================================
+   O-Maps · history.css — статьи об истории чемпионатов IOF (history/*.html)
+   Подключается после main.css и theme.css. Использует токены --o-* из theme.css,
+   поэтому светлая и тёмная темы работают без отдельных правил для цвета.
+   ========================================================================= */
+
+body.history-body .container { max-width: 1040px; }
+
+/* Заголовки секций */
+body.history-body .hist-section h2 {
+    font-size: 1.45rem;
+    margin: 0 0 .75rem;
+    text-align: left;
+}
+body.history-body .hist-section p { max-width: 72ch; }
+body.history-body .hist-section p:last-child { margin-bottom: 0; }
+
+/* ---- навигация между статьями ---------------------------------------- */
+.hist-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 14px;
+    margin: 18px 0 0;
+    font-size: .95rem;
+}
+.hist-nav > a { font-weight: 500; }
+.hist-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.hist-nav li a,
+.hist-nav li span {
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-xs);
+    background: var(--o-surface);
+    text-decoration: none;
+    font-variant-numeric: tabular-nums;
+}
+.hist-nav li span[aria-current] {
+    background: var(--o-accent);
+    border-color: var(--o-accent);
+    color: #fff;
+}
+
+/* ---- паспорт чемпионата ------------------------------------------------ */
+.hist-facts {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 6px 18px;
+    margin: 18px 0 0;
+    padding: 14px 0 0;
+    border-top: 1px solid var(--o-border-soft);
+}
+.hist-facts dt { font-weight: 500; color: var(--o-text-muted); }
+.hist-facts dd { margin: 0; }
+
+/* ---- лента чемпионатов: годы с флажками КП ----------------------------
+   Флажок — квадрат, разделённый по диагонали на белую и оранжевую части,
+   как призма контрольного пункта. Отменённые чемпионаты — серым. */
+.hist-timeline {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(86px, 1fr));
+    gap: 6px;
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+}
+.hist-timeline li > a,
+.hist-timeline li > span {
+    display: grid;
+    grid-template-columns: 14px 1fr;
+    column-gap: 6px;
+    align-items: center;
+    height: 100%;
+    padding: 5px 7px;
+    border: 1px solid var(--o-border-soft);
+    border-radius: var(--o-r-xs);
+    background: var(--o-surface);
+    color: var(--o-text);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    text-decoration: none;
+    line-height: 1.25;
+}
+.hist-timeline small {
+    grid-column: 2;
+    font-weight: 400;
+    font-size: .74rem;
+    color: var(--o-text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.hist-timeline li > a:hover {
+    border-color: var(--o-accent);
+    background: var(--o-accent-soft);
+}
+.hist-flag {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #c86400;
+    background: linear-gradient(135deg, #fff 0 50%, #f07d00 50% 100%);
+}
+.hist-cancelled > span { opacity: .6; text-decoration: line-through; }
+.hist-cancelled small { text-decoration: none; white-space: normal; }
+.hist-cancelled .hist-flag { filter: grayscale(1); }
+.hist-gap { grid-column: span 2; }
+.hist-gap > span {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    border-style: dashed !important;
+    background: transparent !important;
+    color: var(--o-text-muted) !important;
+    font-weight: 400 !important;
+    font-size: .8rem;
+}
+
+/* ---- иллюстрации ------------------------------------------------------- */
+.hist-fig { margin: 4px 0 14px; width: 44%; max-width: 440px; }
+.hist-fig-right { float: right; margin-left: 22px; }
+.hist-fig-left  { float: left;  margin-right: 22px; }
+.hist-fig-none  { float: none; width: auto; max-width: none; margin: 0; }
+body.history-body .hist-fig .help-figure {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    max-height: none;
+    height: auto;
+    border-width: 1px;
+}
+.hist-fig figcaption {
+    margin-top: 6px;
+    font-size: .84rem;
+    line-height: 1.4;
+    color: var(--o-text-muted);
+}
+.hist-credit { display: block; margin-top: 2px; font-size: .76rem; color: var(--o-text-faint); }
+body.history-body section .hist-credit a { font-weight: 400; color: inherit; }
+
+.hist-heroes {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px 22px;
+    margin-bottom: 16px;
+}
+/* в сетке героев все фото одного формата; кадр по умолчанию смещён к лицу */
+body.history-body .hist-heroes .help-figure {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: 50% 25%;
+}
+
+/* ---- видео и ссылки -------------------------------------------------- */
+.hist-videos { margin: 0; padding-left: 0; list-style: none; }
+.hist-videos li { margin: 4px 0; }
+a.hist-video::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: 6px;
+    border-left: 8px solid currentColor;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    vertical-align: 1px;
+}
+.hist-more { margin: 4px 4px 24px; color: var(--o-text-muted); }
+
+/* ---- оглавление history/index.html ------------------------------------ */
+.hist-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 18px;
+}
+.hist-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-sm);
+    overflow: hidden;
+    background: var(--o-surface);
+}
+.hist-card img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.hist-card div { padding: 12px 14px 14px; }
+.hist-card h3 { font-size: 1.1rem; margin: 0 0 4px; }
+.hist-card p { margin: 0; font-size: .92rem; color: var(--o-text-muted); }
+.hist-card:hover { border-color: var(--o-accent); }
+
+/* ---- узкие экраны ------------------------------------------------------ */
+@media screen and (max-width: 700px) {
+    .hist-fig,
+    .hist-fig-right,
+    .hist-fig-left { float: none; width: 100%; max-width: none; margin: 4px 0 14px; }
+    .hist-facts { grid-template-columns: 1fr; gap: 0; }
+    .hist-heroes { grid-template-columns: 1fr; }
+    .hist-facts dd { margin-bottom: 8px; }
+    .hist-timeline { grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); }
+}
+
+:root.o-dark .hist-flag { border-color: #e07b20; }
+
+/* вертикальные фото — уже, чтобы не вытягивать секцию */
+.hist-fig-narrow { width: 30%; max-width: 300px; }
+.hist-cancelled small { white-space: nowrap; }
+.hist-timeline li > a, .hist-timeline li > span { align-content: center; }
