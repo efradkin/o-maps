@@ -966,8 +966,14 @@
         set('meta[name="description"]', description);
         set('meta[property="og:title"]', title);
         set('meta[property="og:description"]', description);
+        // Картинка: логотип события, иначе первая карта события с файлом,
+        // иначе общая превью-картинка сайта (она же og:image в event.html).
         const logos = logoList(evt);
-        if (logos.length) set('meta[property="og:image"]', absUrl('logo/' + logos[0]));
+        const firstMapUrl = asList(evt.map).map(n => getMapForName(n)?.url).find(Boolean);
+        const image = logos.length ? absUrl('logo/' + logos[0])
+            : firstMapUrl ? absUrl(firstMapUrl)
+            : document.head.querySelector('meta[property="og:image"]')?.getAttribute('content');
+        if (image) set('meta[property="og:image"]', image);
 
         const ld = {
             '@context': 'https://schema.org',
@@ -987,7 +993,7 @@
             if (p) ld.location.geo = { '@type': 'GeoCoordinates', latitude: p[0], longitude: p[1] };
         }
         if (type) ld.sport = type;
-        if (logos.length) ld.image = absUrl('logo/' + logos[0]);
+        if (image) ld.image = image;
         const organizers = ldOrganizers(evt);
         if (organizers.length) ld.organizer = organizers.length === 1 ? organizers[0] : organizers;
         const offers = ldOffers(evt, ctx);
