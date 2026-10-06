@@ -39,7 +39,7 @@ let owners = {
     },
     DLITELNY: {
         title: '<a href="https://t.me/dlitelnyy">Длительный</a>',
-        name: '@ Клуб <a href="https://t.me/dlitelnyy">Длительный</a>',
+        name: 'Клуб <a href="https://t.me/dlitelnyy">Длительный</a>',
         logo: 'dlitelny.gif'
     },
     DRIBAS: {
@@ -248,20 +248,20 @@ let owners = {
     },
     FSOR: {
         title: '<a href="https://rufso.ru/">Федерация спортивного ориентирования России</a>',
-        name: '@ ФСОР',
+        name: 'ФСОР',
         logo: 'fsor.webp'
     },
     IOF: {
         title: '<a href="https://orienteering.sport/">International Orienteering Federation (IOF)</a>',
-        name: '@ International Orienteering Federation (IOF)',
+        name: 'International Orienteering Federation (IOF)',
         logo: 'iof.gif'
     },
     IRF: {
-        name: '@ International Rogaine Federation (IRF)',
+        name: 'International Rogaine Federation (IRF)',
         logo: 'irf.gif'
     },
     RRF: {
-        name: '@ Федерация рогейна России',
+        name: 'Федерация рогейна России',
         logo: 'rrf_new.webp'
     },
     SHLKHN_AN: {
@@ -695,51 +695,51 @@ let owners = {
         logo: 'minsport.gif'
     },
     GARBOLOVO: {
-        name: '@ НАША ТРАССА в <a href="https://vk.com/sport_v_garbolovo">Гарболово</a>',
+        name: 'НАША ТРАССА в <a href="https://vk.com/sport_v_garbolovo">Гарболово</a>',
         logo: 'garbolovo_ski.webp'
     },
     HERO_LEAGUE: {
-        name: '@ <a href="https://heroleague.ru/">Лига героев</a>',
+        name: '<a href="https://heroleague.ru/">Лига героев</a>',
         logo: 'heroleague.webp'
     },
     KLLG: {
-        name: '@ <a href="https://kllg.ru/">Клуб Любителей Лыжных Гонок</a>',
+        name: '<a href="https://kllg.ru/">Клуб Любителей Лыжных Гонок</a>',
         logo: 'kllg.webp'
     },
     PUSHKIN: {
-        name: '@ <a href="https://cfkcs.ru/">ЦФКСЗ "Царское Село"</a>',
+        name: '<a href="https://cfkcs.ru/">ЦФКСЗ "Царское Село"</a>',
         logo: 'tsarskoe_selo.gif'
     },
     GATCHINA: {
-        name: '@ <a href="https://gatchinasport.ru/">Гатчина</a>',
+        name: '<a href="https://gatchinasport.ru/">Гатчина</a>',
         logo: 'gatchina.gif'
     },
     ALP_SPB: {
-        name: '@ <a href="https://www.fasl.ru/">Федерация альпинизма СПб</a>',
+        name: '<a href="https://www.fasl.ru/">Федерация альпинизма СПб</a>',
         logo: 'alp_spb.webp'
     },
     KARELIA_SKI: {
-        name: '@ <a href="https://flgrk.orgs.biz/">Лыжные гонки Республики Карелия</a>',
+        name: '<a href="https://flgrk.orgs.biz/">Лыжные гонки Республики Карелия</a>',
         logo: 'karelia_ski.webp'
     },
     LUGA_RUN_SKI: {
-        name: '@ <a href="https://vk.com/luga_ski_run">LUGA RUN SKI TEAM</a>',
+        name: '<a href="https://vk.com/luga_ski_run">LUGA RUN SKI TEAM</a>',
         logo: 'luga_run_ski.webp'
     },
     DEMINO_SKI: {
-        name: '@ <a href="https://deminom.ru/">Деминские марафоны</a>',
+        name: '<a href="https://deminom.ru/">Деминские марафоны</a>',
         logo: 'demino.gif'
     },
     MASS_SPORT: {
-        name: '@ <a href="https://mass-sport.ru/">Масс-спорт</a>',
+        name: '<a href="https://mass-sport.ru/">Масс-спорт</a>',
         logo: 'mass-sport.webp'
     },
     FRUNZ_SPORT: {
-        name: '@ <a href="http://fizkult-frunz.ru/">ЦФКСиЗ Фрунзенского р-она</a>',
+        name: '<a href="http://fizkult-frunz.ru/">ЦФКСиЗ Фрунзенского р-она</a>',
         logo: 'fizkultfrunz.webp'
     },
     SUBBOTNIK: {
-        name: '@ <a href="https://vk.ru/subbotnikipetergof">ッ Александрийские Субботники</a>',
+        name: '<a href="https://vk.ru/subbotnikipetergof">ッ Александрийские Субботники</a>',
         logo: 'subbotnikipetergof.webp'
     },
 
