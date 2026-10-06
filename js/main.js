@@ -1118,7 +1118,7 @@ function createEventMarker(evt, evtMap) {
     if (evt.coord) {
         mapCoords = evt.coord;
     } else {
-        if (!m) {
+        if (!m || m.bounds.length < 2) {
             return;
         }
         const x = (m.bounds[0][0] + m.bounds[2][0])/2;

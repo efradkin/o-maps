@@ -137,6 +137,17 @@ let iofEvents = [
         start: 'WOC'
     },
     {
+        id: 'IOF_19720304_1',
+        date: '1972-03-04',
+        place: 'Велинград, Bulgaria (Велинград, Болгария)',
+        name: 'Кубок IOF, IOF Ski-O Trophy',
+        info: 'Первые в истории международные соревнования по спортивному ориентированию на лыжах под эгидой Международной федерации ориентирования (<a href="./docs/1972/1972_03_04_bulgaria_iof_cup_omaps.docx">отчёт</a>).',
+        res: ['./docs/1972/1972_03_04_bulgaria_iof_cup_m_omaps.pdf','./docs/1972/1972_03_04_bulgaria_iof_cup_w_omaps.pdf'],
+        map: 'velingrad_1972_03_04',
+        type: 'SKI',
+        owner: 'IOF'
+    },
+    {
         id: 'IOF_19720914_1',
         date: '1972-09-14',
         endDate: '1972-09-16',

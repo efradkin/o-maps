@@ -1521,6 +1521,18 @@ let otherMaps = [
         region: 'CZECH'
     },
 
+    // --- Болгария ---
+
+    {
+        name: 'Велинград',
+        year: 1972,
+        url: './maps/other/velingrad_1972_03_04.webp',
+        link: './original_maps/other/velingrad_1972_03_04_omaps.webp',
+        bounds: [[42.1217501, 23.7605095], [42.1205086, 23.8564682], [42.0630898, 23.7572908]],
+        region: 'BULGARIA',
+        owner: 'IOF'
+    },
+
     // --- Китай ---
 
     {

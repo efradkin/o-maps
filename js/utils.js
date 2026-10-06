@@ -55,6 +55,9 @@ const regions = {
     BELARUS: {
         name: 'Беларусь',
     },
+    BULGARIA: {
+        name: 'Болгария',
+    },
     VLADIMIR: {
         name: 'Владимирская обл',
     },

@@ -185,6 +185,17 @@ let historyDocs = [
         link: './docs/1971/1971_09_19_leningrad_marathon_omaps.pdf'
     },
     {
+        name: 'IOF Ski-O Trophy (Болгария)',
+        date: '1972-03-04',
+        link: ['./docs/1972/1972_03_04_bulgaria_iof_cup_m_omaps.pdf','./docs/1972/1972_03_04_bulgaria_iof_cup_w_omaps.pdf']
+    },
+    {
+        name: 'IOF Ski-O Trophy (Болгария)',
+        date: '1972-03-04',
+        info: 'Отчёт о поездке советской делегации в Болгарию.',
+        link: './docs/1972/1972_03_04_bulgaria_iof_cup_omaps.docx',
+    },
+    {
         name: 'Календарь соревнований на лето Центрального клуба туристов г.Ленинграда',
         year: 1973,
         link: './docs/1973/1973_calendar_summer_omaps.pdf'
