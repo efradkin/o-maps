@@ -1339,7 +1339,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1bRF7dK6UMVZ_rN92Y5GnFdlJ5fNB-Hj7aHdHDqTo_5o/edit?usp=sharing",
         reg: "https://buyrun.ru/event/134",
         res: "https://orgeo.ru/files/event/file/53633_3c46efb227.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: 'yunost_2026'
     },
     {
         id: 'MSK_20260623_1',
@@ -1386,7 +1387,7 @@ let mskEvents2026 = [
         reg: "https://buyrun.ru/event/135",
         res: "https://orgeo.ru/files/event/file/53737_6ecbb72e32.xlsx",
         owner: "MLKHT",
-        map: "zhivopisnaja_2008"
+        map: "rogova_2026"
     },
     {
         id: 'MSK_20260628_1',
@@ -1456,7 +1457,7 @@ let mskEvents2026 = [
         id: 'MSK_20260706_1',
         date: "2026-07-06",
         name: "Открытая тренировка",
-        place: "Набережная Новикова- Прибоя",
+        place: "Набережная Новикова-Прибоя",
         type: "ORIENT",
         fmt: "городской спринт",
         coord: [
@@ -1467,7 +1468,7 @@ let mskEvents2026 = [
         reg: "https://buyrun.ru/event/139",
         res: "https://orgeo.ru/files/event/file/53881_37b8d778a5.xlsx",
         owner: "MLKHT",
-        map: "zhivopisnaja_2008"
+        map: "novikova_priboya_2026"
     },
     {
         id: 'MSK_20260707_1',
@@ -1578,7 +1579,7 @@ let mskEvents2026 = [
         reg: "https://buyrun.ru/event/144",
         res: "https://orgeo.ru/files/event/file/54075_e148f60037.xlsx",
         owner: "MLKHT",
-        map: "mikhalkovo_2015"
+        map: "mikhalkovo_2026"
     },
     {
         id: 'MSK_20260719_1',
@@ -1595,7 +1596,7 @@ let mskEvents2026 = [
         reg: "https://buyrun.ru/event/145",
         res: "https://orgeo.ru/files/event/file/54074_3b8068d5f9.xlsx",
         owner: "MLKHT",
-        map: "mikhalkovo_2015"
+        map: "mikhalkovo_2026"
     },
     {
         id: 'MSK_20260721_1',
@@ -1843,7 +1844,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1sZwkpDfBo0OjyZmG8Gv_kObY17mhT3I9CQsA90ynPAA/edit?usp=sharing",
         reg: "https://buyrun.ru/event/150",
         res: "https://orgeo.ru/files/event/file/54609_64d3b59374.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: 'trubetskih_2026'
     },
     {
         id: 'MSK_20260823_1',

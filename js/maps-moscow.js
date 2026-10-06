@@ -1476,7 +1476,17 @@ let moscowMaps = [
         info: 'Известен также как "Сквер по Олонецкому проезду".',
         bounds: [[55.8845186, 37.6560044], [55.8828577, 37.6714325], [55.871278, 37.651391]],
         author: 'MNKV',
+        type: ['PARK'],
         owner: 'FSO_MSK'
+    },
+    {
+        name: 'Бабушкинский парк',
+        year: 2026,
+        url: './maps/moscow/ak/babushkinsky_2026.webp',
+        bounds: [[55.8846750, 37.6551247], [55.8832428, 37.6715398], [55.8715067, 37.6516914]],
+        author: ['MNKV','SKLV_V'],
+        type: ['PARK'],
+        owner: 'MLKHT'
     },
     {
         name: 'Медведково',
@@ -2980,6 +2990,16 @@ let moscowMaps = [
         owner: 'MLKHT',
         type: ['PARK']
     },
+    {
+        name: 'Усадьба Трубецких',
+        year: 2026,
+        url: './maps/moscow/sz/trubetskih_2026.webp',
+        bounds: [[55.7313451, 37.5739825], [55.7308679, 37.5822759], [55.7259984, 37.5731027]],
+        author: 'SKLV_V',
+        owner: 'MLKHT',
+        type: ['PARK'],
+        zindex: 2
+    },
 /*
     {
         name: 'ЦПКиО им. Горького (зима, каток)',
@@ -3015,6 +3035,24 @@ let moscowMaps = [
         author: 'MNKV',
         owner: 'FSO_MSK',
         type: ['CITY']
+    },
+    {
+        name: 'Сквер Юность',
+        year: 2026,
+        url: './maps/moscow/sz/yunost_2026.webp',
+        bounds: [[55.8100058, 37.4593663], [55.8078474, 37.4780667], [55.8024629, 37.4563301]],
+        author: 'SKLV_V',
+        owner: 'MLKHT',
+        type: ['PARK','CITY']
+    },
+    {
+        name: 'Сквер генерала Жадова',
+        year: 2026,
+        url: './maps/moscow/sz/zhadova_2026.webp',
+        bounds: [[55.8038016, 37.4622631], [55.8026679, 37.4718761], [55.7960825, 37.4593449]],
+        author: 'SKLV_V',
+        owner: 'MLKHT',
+        type: ['PARK','CITY']
     },
     {
         name: 'Щукинский Треугольник',
@@ -3427,6 +3465,15 @@ let moscowMaps = [
         bounds: [[55.7294059, 37.8056931], [55.7284634, 37.8154564], [55.72537, 37.8040838]],
         author: 'ZUEV_A',
         type: ['CITY']
+    },
+    {
+        name: 'Михалково',
+        year: 2026,
+        url: './maps/moscow/lr/mikhalkovo_2026.webp',
+        bounds: [[55.8538297, 37.5035048], [55.8529143, 37.5240827], [55.8375665, 37.5008440]],
+        author: ['SRBRKV_S','SKLV_V'],
+        owner: 'MLKHT',
+        type: ['PARK']
     },
     {
         name: 'Михалково, Головинские пруды',
@@ -4137,6 +4184,24 @@ let moscowMaps = [
         bounds: [[55.8052487, 37.4481225], [55.8034759, 37.4682713], [55.7815931, 37.4420714]],
         author: 'KSTLV_E',
         owner: 'ISKTL',
+        type: ['CITY']
+    },
+    {
+        name: 'ул Рогова',
+        year: 2026,
+        url: './maps/moscow/sz/rogova_2026.webp',
+        bounds: [[55.8014860, 37.4542809], [55.7999784, 37.4674344], [55.7910160, 37.4504614]],
+        author: 'SKLV_V',
+        owner: 'MLKHT',
+        type: ['CITY']
+    },
+    {
+        name: 'наб Новикова-Прибоя',
+        year: 2026,
+        url: './maps/moscow/lr/novikova_priboya_2026.webp',
+        bounds: [[55.7898941, 37.4463415], [55.7887359, 37.4583149], [55.7800485, 37.4432087]],
+        author: 'SKLV_V',
+        owner: 'MLKHT',
         type: ['CITY']
     },
     {

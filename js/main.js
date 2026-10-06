@@ -1775,9 +1775,9 @@ function buildMapPopup(m) {
     }
 
     // владелец
-    const owners = getOwners(m);
-    if (owners.length > 0) {
-        result += owners.length > 1 ? 'Владельцы:' : 'Владелец: ';
+    const owner = getOwners(m);
+    if (owner.length > 0) {
+        result += owner.length > 1 ? 'Владельцы:' : 'Владелец: ';
         result += buildOwners(m);
     } else {
         result += 'Владелец карты не указан.<br />';

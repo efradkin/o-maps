@@ -160,12 +160,14 @@ function safe(s) {
 }
 
 function pushItems(array, items) {
-    if (Array.isArray(items)) {
-        for (const i of items) {
-            pushOneItem(array, i);
+    if (items) {
+        if (Array.isArray(items)) {
+            for (const i of items) {
+                pushOneItem(array, i);
+            }
+        } else {
+            pushOneItem(array, items);
         }
-    } else {
-        pushOneItem(array, items);
     }
 }
 
