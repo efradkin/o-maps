@@ -1819,11 +1819,9 @@ function buildMapPopup(m) {
             }
         }
     }
-    if (!isMapHidden(m)) {
-        let mapLinkUrl = mapLink(url);
-        let onclick = 'onclick="copyToClipboard(\'' + mapLinkUrl + '\'); return false;"';
-        result += '<br />Поделиться <a href="' + mapLinkUrl + '">ссылкой</a> на карту: <a href="#" ' + onclick + '><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
-    }
+    const mapLinkUrl = mapLink(url);
+    const onclick1 = 'onclick="copyToClipboard(\'' + mapLinkUrl + '\'); return false;"';
+    result += '<br />Поделиться <a href="' + mapLinkUrl + '">ссылкой</a> на карту: <a href="#" ' + onclick1 + '><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
 
     // Есть в наличии
     if (m.qtty) {
@@ -1831,8 +1829,8 @@ function buildMapPopup(m) {
     }
 
     // скрыть карту
-    let onclick = 'onclick="hideMap(map, \'' + url + '\', ' + isMapHidden(m) + ', \'' + m.name + '\', ' + year(m) + '); return false;"';
-    result += '<br /><div class="hide-map-link"><a href="#" ' + onclick + '>Скрыть эту карту</a></div>';
+    const onclick2 = 'onclick="hideMap(map, \'' + url + '\', ' + isMapHidden(m) + ', \'' + m.name + '\', ' + year(m) + '); return false;"';
+    result += '<br /><div class="hide-map-link"><a href="#" ' + onclick2 + '>Скрыть эту карту</a></div>';
 
     if (logo) {
         result += '</div>';
