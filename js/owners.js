@@ -1,18 +1,18 @@
 let owners = {
     ALKSV_E: {
-        name: '© Егор Алексеев, <a href="mailto:egor022110@yandex.ru">egor022110@yandex.ru</a>'
+        name: 'Егор Алексеев, <a href="mailto:egor022110@yandex.ru">egor022110@yandex.ru</a>'
     },
     ANCHKV: {
-        name: '© СШОР №2 ГБНОУ "СПб ГДТЮ"',
+        name: 'СШОР №2 ГБНОУ "СПб ГДТЮ"',
         logo: 'sdjushor2.jpg'
     },
     AZIMUT: {
         title: 'КСО "Азимут"',
-        name: '© Азимут',
+        name: 'Азимут',
         logo: 'azimut_retro.gif'
     },
     BBCH_A: {
-        name: '© Бибич Андрей - <a href="https://vk.com/id7840054">ВК</a> или <a href="https://t.me/andy_atta">Telegram</a>.'
+        name: 'Бибич Андрей - <a href="https://vk.com/id7840054">ВК</a> или <a href="https://t.me/andy_atta">Telegram</a>.'
     },
     BKTV: {
         title: '<a href="https://t.me/beketov">Константин Бекетова</a>',
@@ -20,13 +20,13 @@ let owners = {
         rogaine: true
     },
     BLZRV_V: {
-        name: '© Белозеров Владимир Николаевич',
+        name: 'Белозеров Владимир Николаевич',
     },
     BEVZA: {
-        name: '© Татьяна Бевза [<a href="mailto:Tanya-9-8@ya.ru">Tanya-9-8@ya.ru</a>]'
+        name: 'Татьяна Бевза [<a href="mailto:Tanya-9-8@ya.ru">Tanya-9-8@ya.ru</a>]'
     },
     BLNA: {
-        name: '© Балина Нина Александровна'
+        name: 'Балина Нина Александровна'
     },
     CHGRVSKY_M: {
         name: 'По вопросам использования карты обращаться к Михаилу Чегаровскому (+79213300490).'
@@ -43,58 +43,58 @@ let owners = {
         logo: 'dlitelny.gif'
     },
     DRIBAS: {
-        name: '© Сергей Дрибас'
+        name: 'Сергей Дрибас'
     },
     EFRMV: {
         name: 'По вопросам использования карты - 8-999-086-10-82 (<b>Ефремов Михаил</b>).'
     },
     EGRV_SRG: {
-        name: '© Егоров С.И., kinef-o@mail.ru',
+        name: 'Егоров С.И., kinef-o@mail.ru',
         logo: 'kinef.gif'
     },
     EGRV_EGR: {
-        name: '© Егоров Е.А.',
+        name: 'Егоров Е.А.',
         logo: 'forest_pushkin.webp',
         order: {
             name: 'Пушкинский ДДЮТ, Андрей Егоров'
         }
     },
     ELTSV: {
-        name: '© Ельцов Денис'
+        name: 'Ельцов Денис'
     },
     ELZRV: {
         name: 'По вопросам использования карты - Владимир Елизаров, orunner1@gmail.com'
     },
     GORNY_CROSS: {
         title: '<a href="https://vk.ru/gornycross">Горный Кросс</a>',
-        name: '© Горный Кросс, Александр Шумский',
+        name: 'Горный Кросс, Александр Шумский',
         rogaine: true
     },
     GOLDMRSHRT: {
-        name: '© Золотой Маршрут - <a href="https://mosplay.ru/">сайт</a> и <a href="https://vk.com/rogaining">ВК</a>'
+        name: 'Золотой Маршрут - <a href="https://mosplay.ru/">сайт</a> и <a href="https://vk.com/rogaining">ВК</a>'
     },
     GOLFSTREAM: {
         title: 'КСО "Гольфстрим"',
-        name: '© КСО "Гольфстрим"',
+        name: 'КСО "Гольфстрим"',
         logo: 'golfstream.webp'
     },
     GLTV_YU: {
-        name: '© ГБНОУ "СПб ГДТЮ", Юрий Гультяев - +79213017985, gultiaev@list.ru'
+        name: 'ГБНОУ "СПб ГДТЮ", Юрий Гультяев - +79213017985, gultiaev@list.ru'
     },
     GUSEV_I: {
-        name: '© Гусев Илья, gusev@ym.spb.ru'
+        name: 'Гусев Илья, gusev@ym.spb.ru'
     },
     HARD: {
-        name: '© <a href="https://hardadventure.ru/">Hard Adventure</a>',
+        name: '<a href="https://hardadventure.ru/">Hard Adventure</a>',
         logo: 'hard_bear.webp',
         rogaine: true
     },
     INGRIA: {
-        name: '© <a href="https://vk.com/ingriaorient">КСО "Ингрия"</a>, Кирьянов Юрий - 89117954827',
+        name: '<a href="https://vk.com/ingriaorient">КСО "Ингрия"</a>, Кирьянов Юрий - 89117954827',
         logo: 'ingria.gif'
     },
     IMPULS: {
-        name: '© АНО ОПОРА СО СПб и ЛО "Импульс". Контакт для связи: info@impulsnko.ru.',
+        name: 'АНО ОПОРА СО СПб и ЛО "Импульс". Контакт для связи: info@impulsnko.ru.',
         logo: 'impuls.gif'
     },
     FLTV: {
@@ -103,19 +103,19 @@ let owners = {
         logo: 'impuls.gif'
     },
     ILVS: {
-        name: '© Константин Ильвес - <a href="https://vk.com/sport_for_oll">ВК</a>.'
+        name: 'Константин Ильвес - <a href="https://vk.com/sport_for_oll">ВК</a>.'
     },
     RYZHOV: {
-        name: '© <a href="https://vk.com/id18529372">Сергей Рыжов</a>.',
+        name: '<a href="https://vk.com/id18529372">Сергей Рыжов</a>.',
         logo: 'kkm.gif',
         rogaine: true
     },
     KARTA: {
-        name: '© Клуб "Карта" Санкт-Петербургского дворца творчества юных',
+        name: 'Клуб "Карта" Санкт-Петербургского дворца творчества юных',
         logo: 'anichkov.gif'
     },
     KURDUMOV: {
-        name: '© Александр Курдюмов'
+        name: 'Александр Курдюмов'
     },
     KP31: {
         name: 'Контакты правообладателя (КП31): controlpoint31@gmail.com.',
@@ -144,25 +144,25 @@ let owners = {
         logo: 'kjp.gif'
     },
     KUZNTSV_A: {
-        name: '© Кузнецов Александр, sanek-orel@yandex.ru'
+        name: 'Кузнецов Александр, sanek-orel@yandex.ru'
     },
     KUZNTSV_R: {
-        name: '© Кузнецов Роман (mapfox@mail.ru).'
+        name: 'Кузнецов Роман (mapfox@mail.ru).'
     },
     LENA: {
-        name: '© Кропачёв В.Н. (т/б "Лена-Ладога").'
+        name: 'Кропачёв В.Н. (т/б "Лена-Ладога").'
     },
     LM: {
         title: '<a href="https://vk.ru/club91656163">Лужский Меридиан</a>',
-        name: '© Орлов Александр, "Лужский Меридиан".',
+        name: 'Орлов Александр, "Лужский Меридиан".',
         logo: 'lm.jpg',
         rogaine: true
     },
     LMVA: {
-        name: '© Ирина Александровна Ломова'
+        name: 'Ирина Александровна Ломова'
     },
     MLV_AL: {
-        name: '© Малов Алексей, leshamalov@yandex.ru',
+        name: 'Малов Алексей, leshamalov@yandex.ru',
         logo: 'oriki.gif'
     },
     MSKV: {
@@ -172,12 +172,12 @@ let owners = {
         name: 'По вопросам использования карты - Матреничев Вячеслав (iambam@ya.ru).'
     },
     NKLSK: {
-        name: '© Артём Никольский, "Эверест", г.Кировск',
+        name: 'Артём Никольский, "Эверест", г.Кировск',
         logo: 'kirovsk_everest.jpg'
     },
     MULTSPORT: {
         title: '<a href="https://www.multsport.ru/">Мультиспорт</a>',
-        name: '© <a href="https://www.multsport.ru/">Мультиспорт</a>',
+        name: '<a href="https://www.multsport.ru/">Мультиспорт</a>',
         logo: 'multsport.webp',
         rogaine: true
     },
@@ -186,32 +186,32 @@ let owners = {
     },
     NW: {
         title: 'Nord-West',
-        name: '© Клуб "Nord-West"',
+        name: 'Клуб "Nord-West"',
         logo: 'nordwest.webp'
     },
     OPEN_BAND: {
-        name: '© OpenBand, Прозоров Андрей - <a href="https://orientband.ru">сайт</a> и <a href="https://vk.com/openband_ru">ВК</a>',
+        name: 'OpenBand, Прозоров Андрей - <a href="https://orientband.ru">сайт</a> и <a href="https://vk.com/openband_ru">ВК</a>',
         logo: 'openband.gif',
         rogaine: true
     },
     PRZRV: {
-        name: '© Прозоров Андрей, +7 926 111 6410'
+        name: 'Прозоров Андрей, +7 926 111 6410'
     },
     PARADA: {
-        name: '© Екатерина Новикова (PARADA) - <a href="https://parda.ru/about">сайт</a> и <a href="https://vk.com/parada_ekaterina">ВК</a>'
+        name: 'Екатерина Новикова (PARADA) - <a href="https://parda.ru/about">сайт</a> и <a href="https://vk.com/parada_ekaterina">ВК</a>'
     },
     PNKV_DNL: {
-        name: '© Пьянков Даниил'
+        name: 'Пьянков Даниил'
     },
     PPLVSKY: {
-        name: '© Андрей Поплавский (ОК "Экран")'
+        name: 'Андрей Поплавский (ОК "Экран")'
     },
     RDNV_B: {
-        name: '© Родионов Богдан'
+        name: 'Родионов Богдан'
     },
     FENIX: {
         title: '<a href="https://sportkrgv.ru/branches/sportivnoe-orientirovanie.html">Клуб Феникс</a>',
-        name: '© Клуб Феникс',
+        name: 'Клуб Феникс',
         logo: 'feniks.webp'
     },
     RDNV_I: {
@@ -228,14 +228,14 @@ let owners = {
         rogaine: true
     },
     RKVA_S: {
-        name: '© Светлана Райкова'
+        name: 'Светлана Райкова'
     },
     RYLOV_V: {
         name: 'По вопросам использования карты обращайтесь к <a href="https://vk.com/id287387360">Рылову Виктору</a>.'
     },
     SFSO_LO: {
         title: '<a href="https://vk.ru/lo.orienteering">Региональная спортивная федерация спортивного ориентирования Ленинградской области</a>',
-        name: '© Региональная спортивная федерация спортивного ориентирования Ленинградской области',
+        name: 'Региональная спортивная федерация спортивного ориентирования Ленинградской области',
         logo: 'len_obl.gif'
     },
     SFSO_SPB: {
@@ -265,7 +265,7 @@ let owners = {
         logo: 'rrf_new.webp'
     },
     SHLKHN_AN: {
-        name: '© Шелёхин Анатолий, <a href="markir.spb.ru">markir.spb.ru</a>.'
+        name: 'Шелёхин Анатолий, <a href="markir.spb.ru">markir.spb.ru</a>.'
     },
     SHEIN: {
         name: 'По вопросам использования карты - 8-921-972-86-24 (Александр Шеин).',
@@ -276,12 +276,12 @@ let owners = {
     },
     SHBN: {
         title: 'Юрий Шубин',
-        name: '© Юрий Шубин',
+        name: 'Юрий Шубин',
         logo: 'luzhsky.gif',
         rogaine: true
     },
     SHKLV: {
-        name: '© Шкилев В.В. - 8 (921)7473259'
+        name: 'Шкилев В.В. - 8 (921)7473259'
     },
     SHRNN: {
         name: 'По вопросам использования карты - Александр Альбертович Ширинян, <a href="mailto:skishar@mail.ru">skishar@mail.ru</a>.',
@@ -290,13 +290,13 @@ let owners = {
         }
     },
     SHRPVA: {
-        name: '© Шарапова Лидия'
+        name: 'Шарапова Лидия'
     },
     SLDNKV: {
         name: 'По вопросам использования карты обращайтесь к Фёдору Солодейникову (+79215555512, <a href="mailto:arbo.les@mail.ru">arbo.les@mail.ru</a>).'
     },
     STREKOZAIKI: {
-        name: '© Стрекозайки, 8-911-7546601',
+        name: 'Стрекозайки, 8-911-7546601',
         logo: 'strekozaiki.webp',
         rogaine: true
     },
@@ -305,25 +305,22 @@ let owners = {
         logo: 'sertolovo.webp'
     },
     TMKN: {
-        name: '© Темкин Вениамин Яковлевич, temkinv60@mail.ru.'
+        name: 'Темкин Вениамин Яковлевич, temkinv60@mail.ru.'
     },
     TKMKVA_P: {
-        name: '© Токмакова Полина'
+        name: 'Токмакова Полина'
     },
     TOKM: {
         name: 'Карта предоставлена сайту Константином Токмаковым' // tokma@bk.ru
     },
     TRFMV_A: {
-        name: '© Трофимов Александр'
+        name: 'Трофимов Александр'
     },
     TZV_Y: {
-        name: '© Тизяев Ю.В. По вопросам использования карты обращайтесь к Даниилу Пьянкову (<a href="dan-p@yandex.ru">dan-p@yandex.ru</a>).'
+        name: 'Тизяев Ю.В. По вопросам использования карты обращайтесь к Даниилу Пьянкову (<a href="dan-p@yandex.ru">dan-p@yandex.ru</a>).'
     },
     VOLKOV_AM: {
-        name: '© Волков А.М.',
-        order: {
-            name: 'Алексей Волков',
-        }
+        name: 'Волков А.М.',
     },
     VSLVSKY: {
         name: 'По вопросам использования карты обращаться к Александру Михайловичу Василевскому (<a href="v_aleksandr_mihajlovih@mail.ru">v_aleksandr_mihajlovih@mail.ru</a>).'
@@ -344,7 +341,7 @@ let owners = {
         logo: 'yuventa.gif'
     },
     ZCHNV: {
-        name: '© Зачиняев В.А.'
+        name: 'Зачиняев В.А.'
     },
     ZBKVA: {
         name: 'По вопросам использования карты - zubkova.fta@gmail.com'
@@ -357,241 +354,235 @@ let owners = {
         logo: 'makson.gif'
     },
     ALFRV: {
-        name: '© Алферьев Александр, 89851135004'
+        name: 'Алферьев Александр, 89851135004'
     },
     ALNKV_A: {
-        name: '© <a href="https://t.me/platforma88km">Алейников Алексей</a>',
+        name: '<a href="https://t.me/platforma88km">Алейников Алексей</a>',
         logo: 'kt.gif'
     },
     BKLV_F: {
-        name: '© Бакулов Фёдор'
+        name: 'Бакулов Фёдор'
     },
     DBNA: {
-        name: '© <a href="https://odmitrov2007.narod.ru/index_map_Dubna.htm">Спортивное ориентирование в Дмитрове и в Дубне</a>',
+        name: '<a href="https://odmitrov2007.narod.ru/index_map_Dubna.htm">Спортивное ориентирование в Дмитрове и в Дубне</a>',
         logo: 'dubna.jpg'
     },
     DYTS_ALXNDRV: {
         name: 'ДЮЦ г.Александрова Владимирской обл.'
     },
     ERMCHNKV_A: {
-        name: '© Ермаченков Алексей, 89164951315',
+        name: 'Ермаченков Алексей, 89164951315',
         logo: 'mifi.jpg'
     },
     PHNN_I: {
-        name: '© Правообладатель - Пахнин Игорь (+79804244527, <a href = "https://t.me/igorpakhnin" >Telegram</a>)'
+        name: 'Правообладатель - Пахнин Игорь (+79804244527, <a href = "https://t.me/igorpakhnin" >Telegram</a>)'
     },
     CLEVER_MSK: {
         title: 'Event-Агентство CLEVER',
-        name: '© Массовые старты по ориентированию и рогейну в Москве, Event-Агентство CLEVER',
+        name: 'Массовые старты по ориентированию и рогейну в Москве, Event-Агентство CLEVER',
         logo: 'clever_msk.gif'
     },
     KT_MSK: {
-        name: '© КТ',
+        name: 'КТ',
         logo: 'kt.gif'
     },
     FSO_MSK: {
         title: '<a href="https://mosorient.ru/">Федерация спортивного ориентирования Москвы</a>',
-        name: '© ФСО Москвы, 8 (962) 947 17-88',
+        name: 'ФСО Москвы, 8 (962) 947 17-88',
         logo: 'fso_msk.jpg'
     },
     FRZNO: {
-        name: '© <a href="https://vk.com/club151229251">КСО Фрязино</a>, +79057778820',
+        name: '<a href="https://vk.com/club151229251">КСО Фрязино</a>, +79057778820',
         logo: 'friazino.jpg'
     },
     FSHN_A: {
-        name: '© Фишин Александр (<a href="https://vk.ru/fishin_one">ВК</a>)'
+        name: 'Фишин Александр (<a href="https://vk.ru/fishin_one">ВК</a>)'
     },
     O_FRZNO: {
-        name: '© <a href="https://www.o-fryazino.ru/">О-Фрязино</a>, 8-926-1514712',
+        name: '<a href="https://www.o-fryazino.ru/">О-Фрязино</a>, 8-926-1514712',
         logo: 'o-friazino.jpg'
     },
     GRCHV_D: {
-        name: '© Дмитрий Грачев'
+        name: 'Дмитрий Грачев'
     },
     INCR: {
         logo: 'inacor.jpg',
-        name: '© Инакор — интернет активное ориентирование.'
+        name: 'Инакор — интернет активное ориентирование.'
     },
     IVNV_AL: {
-        name: '© Иванов Алексей' // Денисович
+        name: 'Иванов Алексей' // Денисович
     },
     ISKTL: {
-        name: '© КСО ИСКАТЕЛЬ'
+        name: 'КСО ИСКАТЕЛЬ'
     },
     JAKMV_S: {
-        name: '© Якимов Семён, <a href="mailto:semyon@forestadventure.ru">semyon@forestadventure.ru</a>'
+        name: 'Якимов Семён, <a href="mailto:semyon@forestadventure.ru">semyon@forestadventure.ru</a>'
     },
     KHMCHKNA: {
-        name: '© Химочкина Т.Н.'
+        name: 'Химочкина Т.Н.'
     },
     KHMRZV: { name: 'Хамурзов Владимир, <a href="mailto:vhamurzov@mail.ru">vhamurzov@mail.ru</a>' },
     KLNN_O: {
-        name: '© Калинин Олег, +7 916 683 1372'
+        name: 'Калинин Олег, +7 916 683 1372'
     },
     KRLV_N: {
-        name: '© Крылов Николай',
+        name: 'Крылов Николай',
         logo: 'o-ramenskoe.webp'
     },
     KRMBV_A: {
-        name: '© Каримбаев Артур',
-        order: {
-            name: 'Артур Каримбаев (+79161111451)'
-        }
+        name: 'Каримбаев Артур (+79161111451)',
     },
     KSTKN_SITE: {
         name: 'Карта доступна в формате OCAD на <a href="http://www.kasatik.ru/sport.aspx?stori=11">сайте Николая Касаткина</a>.'
     },
     KSTLV_E: {
-        name: '© Костылев Егор'
+        name: 'Костылев Егор'
     },
     KMPT: {
-        name: '© Компот групп',
+        name: 'Компот групп',
         logo: 'kmpt.jpg',
         rogaine: true
     },
     LTVO: {
-        name: '© ОАНО "Школа "ЛЕТОВО"'
+        name: 'ОАНО "Школа "ЛЕТОВО"'
     },
     LZRV: {
-        name: '© Лазарев Константин, +7(929)992-38-55'
+        name: 'Лазарев Константин, +7(929)992-38-55'
     },
     MLKHT: {
         name: 'КСО Малахит',
-        name: '© КСО Малахит',
+        name: 'КСО Малахит',
         logo: 'malakhit.jpg'
     },
     NLTV_D: {
-        name: '© По вопросам использования карты обращайтесь к Дмитрию Налётову - +79166509491 (WhatsApp. Telegram), dmitry@sportident.ru.'
+        name: 'По вопросам использования карты обращайтесь к Дмитрию Налётову - +79166509491 (WhatsApp. Telegram), dmitry@sportident.ru.'
     },
     OKHTNKV: {
-        name: '© Охотников С.В.'
+        name: 'Охотников С.В.'
     },
     O_KUNTSEVO: {
-        name: '© КСО о-Кунцево',
+        name: 'КСО о-Кунцево',
         logo: 'o-kuntsevo.webp'
     },
     ORNTA_SKRM: {
-        name: '© КСО Ориента-Скрум'
+        name: 'КСО Ориента-Скрум'
     },
     ORNTA_VSNA: {
-        name: '© КСО Ориента-Весна'
+        name: 'КСО Ориента-Весна'
     },
     SDV_G: {
-        name: '© <a href="https://t.me/Sed_ov">Седов Георгий</a> (sge444@ya.ru, +79689451088)'
+        name: '<a href="https://t.me/Sed_ov">Седов Георгий</a> (sge444@ya.ru, +79689451088)'
     },
     SKBLV: {
-        name: '© Скобелев Алексей Алексеевич, +79030063030'
+        name: 'Скобелев Алексей Алексеевич, +79030063030'
     },
     SKHRV_P: {
-        name: '© Сухарев Пётр, 89258822600'
+        name: 'Сухарев Пётр, 89258822600'
     },
     SKLV_V: {
-        name: '© Соколов Вячеслав'
+        name: 'Соколов Вячеслав'
     },
     SRPNSKY: {
-        name: '© Серпинский Станислав, 89160426587'
+        name: 'Серпинский Станислав, 89160426587'
     },
     STLV_S: {
-        name: '© Стулов Сергей'
+        name: 'Стулов Сергей'
     },
     SYTV_N: {
         title: 'Московский Меридиан',
-        name: '© Сытов Николай, 89164980105',
+        name: 'Сытов Николай, 89164980105',
         logo: 'mm.webp'
     },
     TSLSCHVA: {
-        name: '© Целищева Валентина (<a href="https://vk.com/valyat2">ВК</a>)', // Переляева
-        order: {
-            name: 'Валентина Целищева (<a href="https://vk.com/valyat2">ВК</a>)'
-        }
+        name: 'Целищева Валентина (<a href="https://vk.com/valyat2">ВК</a>)', // Переляева
     },
     TTV_A: {
-        name: '© Титов Алексей, +7 915 476 2397'
+        name: 'Титов Алексей, +7 915 476 2397'
     },
     YZAO: {
-        name: '© КСО ЮЗАО-Теам'
+        name: 'КСО ЮЗАО-Теам'
     },
 
     /* --- СЕРБИЯ --- */
 
     KSTNK: {
-        name: '© СК АОК Кошутњак',
+        name: 'СК АОК Кошутњак',
         logo: 'kosutnjak.jpg'
     },
     MGCMP: {
-        name: '© SK "Magic Map"'
+        name: 'SK "Magic Map"'
     },
     OSB: {
-        name: '© Ориjентиринг Савез Београда'
+        name: 'Ориjентиринг Савез Београда'
     },
     OSS: {
-        name: '© Оријентиринг савез Србије',
+        name: 'Оријентиринг савез Србије',
         logo: 'srb.jpg'
     },
     RTN: {
-        name: '© ОК Ртањ'
+        name: 'ОК Ртањ'
     },
     AVALA: {
-        name: '© Планинарско друштво „Авала“',
+        name: 'Планинарско друштво „Авала“',
         logo: 'avala.jpg'
     },
 
     /* --- Рязань --- */
 
     ANDREYKN: {
-        name: '© Андрейкин Алексей',
+        name: 'Андрейкин Алексей',
         logo: 'ryazan_orient.webp'
     },
     VEKOVIS: {
-        name: '© Вековищев Валерий'
+        name: 'Вековищев Валерий'
     },
     GUSEV_B: {
-        name: '© Гусев Борис'
+        name: 'Гусев Борис'
     },
     ZOTOV: {
-        name: '© Зотов Николай'
+        name: 'Зотов Николай'
     },
     KORNEEV: {
-        name: '© Корнеев Валерий'
+        name: 'Корнеев Валерий'
     },
     KUZNTSV_RZN: {
-        name: '© Кузнецов'
+        name: 'Кузнецов'
     },
     SOKOLOV: {
-        name: '© Соколов Владимир'
+        name: 'Соколов Владимир'
     },
     TARASOV: {
-        name: '© Тарасов А.'
+        name: 'Тарасов А.'
     },
     FSO_RYAZAN: {
-        name: '© ФСО Рязанская обл',
+        name: 'ФСО Рязанская обл',
         logo: 'fso_ryazan.webp'
     },
     TSDYUTK: {
-        name: '© ЦДЮТК'
+        name: 'ЦДЮТК'
     },
     SHIBANOV_A: {
-        name: '© Шибанов Александр'
+        name: 'Шибанов Александр'
     },
     SHIBANOV_V: {
-        name: '© Шибанов Владимир'
+        name: 'Шибанов Владимир'
     },
     VEKOVISCH: {
-        name: '© Вековищев Валерий'
+        name: 'Вековищев Валерий'
     },
 
     /* --- Самара --- */
 
     FSO_SAMARA: {
-        name: '© <a href="https://o-63.ru/">ФСО Самарской области</a>',
+        name: '<a href="https://o-63.ru/">ФСО Самарской области</a>',
         logo: 'samara.webp'
     },
     SAKSOR: {
-        name: '© <a href="https://vk.com/saksorsamara">МБУ ДО СШ «Саксор» г.о. Самара</a>',
+        name: '<a href="https://vk.com/saksorsamara">МБУ ДО СШ «Саксор» г.о. Самара</a>',
         logo: 'samara_saksor.gif'
     },
     TRAINING_O_CLUB: {
-        name: '© <a href="https://t.me/TrainingoClub">Training oClub</a>',
+        name: '<a href="https://t.me/TrainingoClub">Training oClub</a>',
         logo: 'samara_trainingoclub.gif'
     },
     ZNVJV_A: {
@@ -609,11 +600,11 @@ let owners = {
     /* --- Псков --- */
 
     PSKOV_RUS: {
-        name: '© <a href="https://vk.com/skorus">СКО "Русь"</a>',
+        name: '<a href="https://vk.com/skorus">СКО "Русь"</a>',
         logo: 'pskov_rus.webp'
     },
     O_PSKOV: {
-        name: '© <a href="https://vk.com/skopskov">О-ПСКОВ</a>, по вопросам использования карты обращайтесь к <a href="https://t.me/NikolaiNikolaevichPskov">Иванову Николаю</a>.',
+        name: '<a href="https://vk.com/skopskov">О-ПСКОВ</a>, по вопросам использования карты обращайтесь к <a href="https://t.me/NikolaiNikolaevichPskov">Иванову Николаю</a>.',
         logo: 'o-pskov.gif'
     },
     GLTV_D: {
@@ -621,38 +612,38 @@ let owners = {
         logo: 'glotov.gif'
     },
     KUZMIN_PSKOV: {
-        name: '© Кузьмин Сергей',
+        name: 'Кузьмин Сергей',
     },
 
     /* --- Прочее --- */
 
     DRN_E: {
-        name: '© Дронь Елисей (8-918-363-26-89)'
+        name: 'Дронь Елисей (8-918-363-26-89)'
     },
     FSO_KARELIA: {
-        name: '© <a href="http://fso.karelia.ru/">ФСО Республики Карелия</a>',
+        name: '<a href="http://fso.karelia.ru/">ФСО Республики Карелия</a>',
         logo: 'fso_karelia.png'
     },
     FSO_NN: {
-        name: '© <a href="https://fsono.ru/">ФСО Нижегородской области</a>',
+        name: '<a href="https://fsono.ru/">ФСО Нижегородской области</a>',
         logo: 'nn_orient.gif'
     },
     NN_RORAINE: {
-        name: '© <a href="https://nn-rogaine.ru/">Нижегородский рогейн</a>',
+        name: '<a href="https://nn-rogaine.ru/">Нижегородский рогейн</a>',
         logo: 'nn_rogaine.gif'
     },
     NBLSNV: {
-        name: '© Небольсинов Алексей (+79534611661)',
+        name: 'Небольсинов Алексей (+79534611661)',
         logo: 'maloyaroslavets.gif'
     },
     NR_D: {
-        name: '© <a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>',
+        name: '<a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>',
     },
     GRN_V: {
-        name: '© Горин Владимир'
+        name: 'Горин Владимир'
     },
     KRSHNV: {
-        name: '© Коршунов Евгений Владимирович (+7-911-456-88-41, korshunov_e.v@mail.ru)' // , https://korshunyata.ru/
+        name: 'Коршунов Евгений Владимирович (+7-911-456-88-41, korshunov_e.v@mail.ru)' // , https://korshunyata.ru/
     },
     SMRNV_K: {
         name: 'По вопросам использования карты - Кирилл Смирнов (920 9243226, <a href = "https://t.me/zzz_kir" >Telegram</a>).',
@@ -663,7 +654,7 @@ let owners = {
         logo: 'kabarda.gif'
     },
     VACHSKY: {
-        name: '© <a href="https://vazimut52.ru/">КСО "Вачский Азимут"</a> (<a href="https://vk.com/v_azimut">ВК</a>).',
+        name: '<a href="https://vazimut52.ru/">КСО "Вачский Азимут"</a> (<a href="https://vk.com/v_azimut">ВК</a>).',
         logo: 'vachsky.webp'
     },
     ZHRDV_T: {
@@ -671,7 +662,7 @@ let owners = {
         logo: 'karachay-cherkessia.gif'
     },
     ZAMOTA: {
-        name: '© Из свободного <a href = "https://yadi.sk/d/WdQu64to3ZvmXJ">архива</a> карт Михаила Михайловича Замоты.',
+        name: 'Из свободного <a href = "https://yadi.sk/d/WdQu64to3ZvmXJ">архива</a> карт Михаила Михайловича Замоты.',
         about: 'https://rufso.ru/м-м-замоте-70-лет/'
     },
 
@@ -696,11 +687,11 @@ let owners = {
         info: 'Всероссийский информационный портал школьного познавательного туризма «1000 маршрутов».'
     },
     RUNC: {
-        name: '© <a href="https://runc.run/">Беговое сообщество</a>',
+        name: '<a href="https://runc.run/">Беговое сообщество</a>',
         logo: 'runc.gif'
     },
     MINSPORT: {
-        name: '© Минспорт России',
+        name: 'Минспорт России',
         logo: 'minsport.gif'
     },
     GARBOLOVO: {

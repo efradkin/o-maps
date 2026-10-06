@@ -1777,7 +1777,7 @@ function buildMapPopup(m) {
     // владелец
     const owner = getOwners(m);
     if (owner.length > 0) {
-        result += owner.length > 1 ? 'Владельцы:' : 'Владелец: ';
+        result += owner.length > 1 ? 'Владельцы:' : '<b>@</b> ';
         result += buildOwners(m);
     } else {
         result += 'Владелец карты не указан.<br />';

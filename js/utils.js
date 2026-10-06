@@ -2612,7 +2612,7 @@ function buildPlanners(m, calendar, inline) {
 function buildOrderCustomer(m) {
     let customer = '';
     if (m.order && m.order.owner) {
-        customer = owners[m.order.owner]?.order?.name ?? '';
+        customer = owners[m.order.owner]?.order?.name ?? owners[m.order.owner]?.name ?? '';
     }
     return customer;
 }
