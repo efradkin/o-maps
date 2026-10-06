@@ -2194,6 +2194,7 @@ let mskEvents2026 = [
         ],
         link: "https://docs.google.com/document/d/1IP48LPI_TArSETd_KRuwzhDELkKYb7dUUahT7NtcxSQ/edit?usp=sharing",
         reg: "https://buyrun.ru/event/152",
+        res: "https://orgeo.ru/files/event/file/55235_e673ae6763.pdf",
         owner: "MLKHT",
         map: "fili_2026"
     },
@@ -2275,6 +2276,7 @@ let mskEvents2026 = [
         ],
         link: "https://docs.google.com/document/d/1vXEvIZ7cvLzEHkgECojcS_OxuXzoMXz2QhvS_8cTPKU/edit?usp=sharing",
         reg: "https://buyrun.ru/event/153",
+        res: "https://orgeo.ru/files/event/file/55441_1a239cbcf2.pdf",
         owner: "MLKHT",
         map: "birch_grove_2026"
     },
