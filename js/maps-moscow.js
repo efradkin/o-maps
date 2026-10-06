@@ -2962,6 +2962,24 @@ let moscowMaps = [
         owner: 'IVNV_AL',
         type: ['PARK']
     },
+    {
+        name: 'Филёвский парк',
+        year: 2026,
+        url: './maps/moscow/ak/fili_2026.webp',
+        bounds: [[55.7547113, 37.4723268], [55.7527672, 37.4960589], [55.7418372, 37.4695158]],
+        author: 'SKLV_V',
+        owner: 'MLKHT',
+        type: ['PARK']
+    },
+    {
+        name: 'Берёзовая роща',
+        year: 2026,
+        url: './maps/moscow/ak/birch_grove_2026.webp',
+        bounds: [[55.7929824, 37.5105000], [55.7914745, 37.5237393], [55.7824860, 37.5068307]],
+        author: 'SKLV_V',
+        owner: 'MLKHT',
+        type: ['PARK']
+    },
 /*
     {
         name: 'ЦПКиО им. Горького (зима, каток)',

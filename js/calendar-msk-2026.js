@@ -1265,7 +1265,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1fwMDQz-iDC938Nw8IYWIpGoZM41EZUrgmvSo4nPv8OY/edit?usp=sharing",
         reg: "https://buyrun.ru/event/133",
         res: "https://orgeo.ru/files/event/file/53530_41fd45a297.xls",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "vsehsvjatskaya_roscha_2025"
     },
     {
         id: 'MSK_20260616_1',
@@ -1321,7 +1322,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1TyQAsATd6S9Idqo_nqwJFl7wMalM6HnB19IdJg0RtHA/edit?usp=sharing",
         reg: "https://buyrun.ru/event/132",
         res: "https://orgeo.ru/files/event/file/53529_cc119d4d42.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "20200919_688"
     },
     {
         id: 'MSK_20260621_1',
@@ -1383,7 +1385,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1hL33gH9ac8hRpkf3dKGuTc-_7BskLMlWW57kcx9YFLs/edit?tab=t.0",
         reg: "https://buyrun.ru/event/135",
         res: "https://orgeo.ru/files/event/file/53737_6ecbb72e32.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "zhivopisnaja_2008"
     },
     {
         id: 'MSK_20260628_1',
@@ -1399,7 +1402,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1MFvSQf49wPltYZY6JDIrwjrZr4Nntm2v4hIYXP3v03M/edit?usp=sharing",
         reg: "https://buyrun.ru/event/136",
         res: "https://orgeo.ru/files/event/file/53738_6ecbb72e32.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "20210531_610"
     },
     {
         id: 'MSK_20260630_1',
@@ -1445,7 +1449,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1zlaWM_m1naIsxxYRL2SaCN2dDMYtmXoeMF3UmM1VnzQ/edit?usp=sharing",
         reg: "https://buyrun.ru/event/138",
         res: "https://orgeo.ru/files/event/file/53880_3773e2f36a.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "20200919_536"
     },
     {
         id: 'MSK_20260706_1',
@@ -1461,7 +1466,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1-81u57Qh1-_iwZbnEU4ppwHkEBbvVWBDBqmZWp3EiqU/edit?usp=sharing",
         reg: "https://buyrun.ru/event/139",
         res: "https://orgeo.ru/files/event/file/53881_37b8d778a5.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "zhivopisnaja_2008"
     },
     {
         id: 'MSK_20260707_1',
@@ -1507,7 +1513,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/17HFFtaHYmDdoVw6WYe1LOB7SeNM9qT5w4iMdXK_ZJGQ/edit?usp=sharing",
         reg: "https://buyrun.ru/event/141",
         res: "https://orgeo.ru/files/event/file/53970_b8d55d2265.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "lysaya_gora_2025"
     },
     {
         id: 'MSK_20260712_1',
@@ -1523,7 +1530,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1GHIu7NujSWUQ4MBNHkLqs8wfahQRGCQAgBebzx00RI0/edit?usp=sharing",
         reg: "https://buyrun.ru/event/142",
         res: "https://orgeo.ru/files/event/file/53971_d56b6ba998.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "20210606_570"
     },
     {
         id: 'MSK_20260714_1',
@@ -1569,7 +1577,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1pp4qrn7J_CO98KbO4Nnd_UJWS1TYw0Xj4XNsnR94QuE/edit?usp=sharing",
         reg: "https://buyrun.ru/event/144",
         res: "https://orgeo.ru/files/event/file/54075_e148f60037.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "mikhalkovo_2015"
     },
     {
         id: 'MSK_20260719_1',
@@ -1585,7 +1594,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1bCG9WFrAky-Pj3eFeMuTSeajI94zfAC4vac9KEuGSOk/edit?usp=sharing",
         reg: "https://buyrun.ru/event/145",
         res: "https://orgeo.ru/files/event/file/54074_3b8068d5f9.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "mikhalkovo_2015"
     },
     {
         id: 'MSK_20260721_1',
@@ -1631,7 +1641,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1n48RcIsfIjyqbGCeBCN7tJ7tPwugQQDKAhqWpG5qmwo/edit?usp=sharing",
         reg: "https://buyrun.ru/event/143",
         res: "https://orgeo.ru/files/event/file/54109_4b8674bc63.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "20210104_9"
     },
     {
         id: 'MSK_20260726_1',
@@ -1701,7 +1712,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1LqJHYfyuoD79UEhZQDfkBL4W5LrFWUBJiYrqYXSmK28/edit?usp=sharing",
         reg: "https://buyrun.ru/event/143",
         res: "https://orgeo.ru/files/event/file/53995_35a8e81e5c.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "schukino_rogaine_2026"
     },
     {
         id: 'MSK_20260804_1',
@@ -1847,7 +1859,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1E-tdch9LBZ0oFOJT5YqDDrgjpjzG4otBrAv9H2Bzi4s/edit?usp=sharing",
         reg: "https://buyrun.ru/event/151",
         res: "https://orgeo.ru/files/event/file/54611_217a9c5ecf.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "20210104_9"
     },
     {
         id: 'MSK_20260825_1',
@@ -2181,7 +2194,8 @@ let mskEvents2026 = [
         ],
         link: "https://docs.google.com/document/d/1IP48LPI_TArSETd_KRuwzhDELkKYb7dUUahT7NtcxSQ/edit?usp=sharing",
         reg: "https://buyrun.ru/event/152",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "fili_2026"
     },
     {
         id: 'MSK_20260927_1',
@@ -2261,7 +2275,8 @@ let mskEvents2026 = [
         ],
         link: "https://docs.google.com/document/d/1vXEvIZ7cvLzEHkgECojcS_OxuXzoMXz2QhvS_8cTPKU/edit?usp=sharing",
         reg: "https://buyrun.ru/event/153",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: "birch_grove_2026"
     },
     {
         id: 'MSK_20261004_1',

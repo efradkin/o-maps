@@ -1775,11 +1775,9 @@ function buildMapPopup(m) {
     }
 
     // владелец
-    const owner = getOwners(m);
-    if (owner) {
-        if (Array.isArray(owner)) {
-            result += 'Владельцы:';
-        }
+    const owners = getOwners(m);
+    if (owners.length > 0) {
+        result += owners.length > 1 ? 'Владельцы:' : 'Владелец: ';
         result += buildOwners(m);
     } else {
         result += 'Владелец карты не указан.<br />';
@@ -2085,20 +2083,22 @@ function buildOwners(m, withIcon) {
     if (!owner && m.start && starts[m.start]) { // TODO добавить обработку массивов
         owner = starts[m.start].owner;
     }
-    if (Array.isArray(owner)) {
-        result += '<ol>'
-        for (const o of owner) {
-            if (owners[o]) {
-                result += '<li>' + owners[o].name + '</li>';
+    if (owner.length > 0) {
+        if (owner.length > 1) {
+            result += '<ol>'
+            for (const o of owner) {
+                if (owners[o]) {
+                    result += '<li>' + owners[o].name + '</li>';
+                }
             }
-        }
-        result += '</ol>'
-    } else {
-        if (owners[owner]) {
-            if (withIcon && owners[owner].logo) {
-                result += '<img src="./logo/' + owners[owner].logo + '" alt="Лого" class="sheet-icon" /> ';
+            result += '</ol>'
+        } else {
+            if (owners[owner[0]]) {
+                if (withIcon && owners[owner].logo) {
+                    result += '<img src="./logo/' + owners[owner].logo + '" alt="Лого" class="sheet-icon" /> ';
+                }
+                result += owners[owner].name + '<br />';
             }
-            result += owners[owner].name + '<br />';
         }
     }
     return result;
