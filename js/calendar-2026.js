@@ -3118,6 +3118,17 @@ let events2026 = [
         owner: 'DLITELNY'
     },
     {
+        id: 'SPB_20261104_1',
+        date: '2026-11-04',
+        name: 'Осенний марафон',
+        place: 'Цвелодубово',
+        o_site: '261104_OM',
+        bulletin: 'https://o-site.spb.ru/_races/261104_OM/Info_OM_041126.pdf',
+        fmt: 'лонг',
+        owner: 'AZIMUT',
+        map: 'tsvelodubovo_2020'
+    },
+    {
         id: 'SPB_20261107_1',
         date: '2026-11-07',
         place: 'Орехово',

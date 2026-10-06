@@ -248,6 +248,20 @@ let nnMaps = [
         region: 'N_NOVGOROD'
     },
     {
+        name: 'Ватомский',
+        date: '2026-10-03',
+        url: './maps/nn/vatomsky_rogaine_2026.webp',
+        link: './original_maps/nn/vatomsky_rogaine_2026_omaps.webp',
+        o_gps: 26082,
+        info: 'Осень Поволжья.',
+        about: 'https://nn-rogaine.ru/op',
+        bounds: [[56.4422368, 44.3539524], [56.4168451, 44.5475006], [56.2887270, 44.2886353]],
+        type: ['ROGAINE'],
+        owner: 'NN_RORAINE',
+        region: 'N_NOVGOROD'
+    },
+/*
+    {
         name: 'Комарово',
         date: '2024-04-28',
         url: './maps/nn/nn_komarovo_rogaine_2024.webp',
@@ -259,6 +273,7 @@ let nnMaps = [
         owner: 'NN_RORAINE',
         region: 'N_NOVGOROD'
     },
+*/
     {
         name: 'Большое Пикино',
         date: '2024-05-25',
