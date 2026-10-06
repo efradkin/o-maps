@@ -678,6 +678,7 @@ function filterMapsForCharts() {
 function downloadIconExt(url) {
     const ext = extractFileExt(url).toLowerCase();
     switch (ext) {
+        case 'docx': return 'doc';
         case 'jpeg': return 'jpg';
         case 'omap': return 'ocd';
         case 'asp':
