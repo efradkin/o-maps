@@ -12,7 +12,6 @@ body.history-body .hist-section h2 {
     margin: 0 0 .75rem;
     text-align: left;
 }
-body.history-body .hist-section p { max-width: 72ch; }
 body.history-body .hist-section p:last-child { margin-bottom: 0; }
 
 /* ---- навигация между статьями ---------------------------------------- */
