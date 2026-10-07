@@ -4130,7 +4130,7 @@ let moscowMaps = [
         name: 'Малиновка',
         year: 1998,
         url: './maps/moscow/malinovka_1998.webp',
-        link: './original_maps/moscow/malinovka_1998_omaps.jpg',
+        link: './original_maps/moscow/lr/malinovka_1998_omaps.jpg',
         bounds: [[55.8842177, 37.1434879], [55.8823643, 37.1719837], [55.8623802, 37.1397114]],
         logo: 'mgsyt.jpg'
     },
@@ -6009,7 +6009,7 @@ let moscowMaps = [
         name: 'Малино',
         year: 2000,
         url: './maps/moscow/malino_2000.webp',
-        link: './original_maps/moscow/malino_2000_omaps.jpg',
+        link: './original_maps/moscow/lr/malino_2000_omaps.jpg',
         bounds: [[55.9698116, 37.205801], [55.967602, 37.2411203], [55.9504493, 37.2003078]],
         owner: 'NLTV_D'
     },
