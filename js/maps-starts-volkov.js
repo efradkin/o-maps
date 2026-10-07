@@ -54,6 +54,7 @@ let volkovStartsMaps = [
         name: 'Зеркальный',
         start: 'VOLKOV_A',
         year: 2013,
+        date: '2013-02-23',
         url: './maps/starts/volkov/volkov_2013_02_23.webp',
         link: './original_maps/starts/volkov/volkov_2013_02_23_omaps.gif',
         author: ['VRBY','MLNKV_L'],
