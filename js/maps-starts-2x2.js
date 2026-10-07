@@ -24,6 +24,7 @@ let twotwoStartsMaps = [
         name: 'Сертолово',
         start: '2x2',
         year: 2006,
+        date: '2006-04-29',
         url: './maps/starts/2x2/2x2_2006_04_29.webp',
         link: './original_maps/starts/2x2/2006_04_29_sertolovo_2x2_omaps.jpg',
         bounds: [[60.1556032, 30.2063727], [60.1538839, 30.2230668], [60.1474225, 30.2027893]],
@@ -33,6 +34,7 @@ let twotwoStartsMaps = [
         name: 'Сертолово, юг',
         start: '2x2',
         year: 2006,
+        date: '2006-04-30',
         url: './maps/starts/2x2/2x2_2006_04_30.webp',
         link: './original_maps/starts/2x2/2006_04_30_sertolovo_2x2_omaps.jpg',
         bounds: [[60.1455213, 30.2269721], [60.1443676, 30.245533], [60.1377335, 30.2251911]],
@@ -42,6 +44,7 @@ let twotwoStartsMaps = [
         name: 'Юкки, север',
         start: '2x2',
         year: 2006,
+        date: '2006-05-01',
         url: './maps/starts/2x2/2x2_2006_05_01.webp',
         link: './original_maps/starts/2x2/2006_05_01_sertolovo_2x2_omaps.jpg',
         bounds: [[60.1221202, 30.3013444], [60.1211154, 30.3221583], [60.1130438, 30.2991986]]
@@ -50,6 +53,7 @@ let twotwoStartsMaps = [
         name: 'Солнечное, пляж Ласковый',
         start: '2x2',
         year: 2007,
+        date: '2007-04-29',
         url: './maps/starts/2x2/2x2_2007_04_29.webp',
         link: './original_maps/starts/2x2/2007_04_29_solnechny_2x2_omaps.jpg',
         bounds: [[60.1476789, 29.9318004], [60.146504, 29.948194], [60.1360667, 29.9286246]]
@@ -58,6 +62,7 @@ let twotwoStartsMaps = [
         name: 'Солнечное, пляж Ласковый',
         start: '2x2',
         year: 2007,
+        date: '2007-04-30',
         url: './maps/starts/2x2/2x2_2007_04_30.webp',
         link: './original_maps/starts/2x2/2007_04_30_solnechny_2x2_omaps.jpg',
         bounds: [[60.1373061, 29.9326587], [60.136056, 29.9514556], [60.1281698, 29.9298048]]
@@ -66,6 +71,7 @@ let twotwoStartsMaps = [
         name: 'Сестрорецк, Таможенная дорога',
         start: '2x2',
         year: 2007,
+        date: '2007-05-01',
         url: './maps/starts/2x2/2x2_2007_05_01.webp',
         link: './original_maps/starts/2x2/2007_05_01_tamozhennaya_2x2_omaps.jpg',
         bounds: [[60.1363659, 29.9491918], [60.1349982, 29.9679995], [60.1276354, 29.9463272]]
@@ -74,6 +80,7 @@ let twotwoStartsMaps = [
         name: 'Парголово',
         start: '2x2',
         year: 2008,
+        date: '2008-05-01',
         url: './maps/starts/2x2/2x2_2008_05_01.webp',
         link: './original_maps/starts/2x2/2008_05_01_pargolovo_2x2_omaps.jpg',
         bounds: [[60.0793463, 30.2783203], [60.0793999, 30.2898431], [60.0732236, 30.2788568]]
@@ -82,6 +89,7 @@ let twotwoStartsMaps = [
         name: 'Шуваловский парк',
         start: '2x2',
         year: 2008,
+        date: '2008-05-02',
         url: './maps/starts/2x2/2x2_2008_05_02.webp',
         link: './original_maps/starts/2x2/2008_05_02_shuvalovsky_2x2_omaps.jpg',
         bounds: [[60.0838199, 30.3070092], [60.0828568, 30.320785], [60.07484, 30.3037691]]
@@ -90,6 +98,7 @@ let twotwoStartsMaps = [
         name: 'Кавголово',
         start: '2x2',
         year: 2008,
+        date: '2008-05-03',
         url: './maps/starts/2x2/2x2_2008_05_03.webp',
         link: './original_maps/starts/2x2/2008_05_03_kavgolovo_2x2_omaps.jpg',
         bounds: [[60.1725773, 30.5217576], [60.1717768, 30.5383015], [60.1624045, 30.5191612]],
@@ -99,6 +108,7 @@ let twotwoStartsMaps = [
         name: 'Сестрорецк, Детские Дюны',
         start: '2x2',
         year: 2009,
+        date: '2009-05-02',
         url: './maps/starts/2x2/2x2_2009_05_02.webp',
         link: './original_maps/starts/2x2/2009_05_02_detskie_djuny_2x2_omaps.jpg',
         bounds: [[60.1225264, 29.9571848], [60.1222485, 29.9711108], [60.1167645, 29.9563265]],
@@ -108,6 +118,7 @@ let twotwoStartsMaps = [
         name: 'Кавголово',
         start: '2x2',
         year: 2009,
+        date: '2009-05-03',
         url: './maps/starts/2x2/2x2_2009_05_03.webp',
         link: './original_maps/starts/2x2/2009_05_03_kavgolovo_2x2_omaps.jpg',
         bounds: [[60.1911214, 30.5395031], [60.18918, 30.5580211], [60.184454, 30.5377007]]
@@ -116,6 +127,7 @@ let twotwoStartsMaps = [
         name: 'Юкки, юг',
         start: '2x2',
         year: 2010,
+        date: '2010-05-09',
         url: './maps/starts/2x2/2x2_2010_05_09.webp',
         link: './original_maps/starts/2x2/2010_05_09_yukki_2x2_omaps.jpg',
         bounds: [[60.1107129, 30.3030181], [60.1090875, 30.3267074], [60.1032591, 30.3010225]]
