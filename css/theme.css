@@ -67,11 +67,21 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5,
+#noscript_content .h1 {
     letter-spacing: -0.015em;   /* крупный текст всегда должен быть плотнее */
     font-weight: 600;
 }
-body.index-body h1 { font-weight: 650; }
+body.index-body h1,
+body.index-body #noscript_content .h1 { font-weight: 650; }
+/* Заголовок в <noscript> оформлен как <p class="h1">, чтобы не быть вторым h1
+   страницы. На integration/* Bootstrap не подключён - вид h1 задаётся здесь. */
+body.integration-body #noscript_content .h1 {
+    font-size: 2em;
+    line-height: 1.2;
+    margin: 0 0 .5rem;
+    text-align: center;
+}
 
 /* Цифры одинаковой ширины — даты, счётчики, номера строк перестают «прыгать» */
 .o-main-table, #counter, .cal-year, .my-race,
