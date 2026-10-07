@@ -162,6 +162,24 @@
         setMeta('meta[property="og:description"]', 'content', description);
     }
 
+    // getMapForName() ищет карту по вхождению имени в url, поэтому
+    // map-info.html?map=kuznechnoe показывает карту kuznechnoe_city и т.п.
+    // Canonical ведёт на адрес с полным именем найденной карты, а для карт
+    // KKM на map-info.html - на map-info-kkm.html, куда страница сама
+    // переходит (условие то же, что в map-info.html).
+    function applyMapCanonical(name, map) {
+        if (!map.url || typeof extractFileName !== 'function') return;
+        var real = extractFileName(map.url);
+        if (!real) return;
+        var page = pageName();
+        if (page === 'map-info.html' && ('KKM' === map.start || map.url.indexOf('KKM') !== -1)) {
+            page = 'map-info-kkm.html';
+        }
+        if (real !== name || page !== pageName()) {
+            setCanonical(window.location.origin + '/' + page + '?map=' + encodeURIComponent(real));
+        }
+    }
+
     function applyMapMeta() {
         if (MAP_INFO_PAGES.indexOf(pageName()) === -1) return;
 
@@ -174,7 +192,9 @@
         } catch (e) {
             return;
         }
-        if (!map || !map.name) return;
+        if (!map) return;
+        applyMapCanonical(name, map);
+        if (!map.name) return;
 
         var title = 'Карта ' + map.name + (map.year ? ', ' + map.year : '') + SUFFIX;
         document.title = title;

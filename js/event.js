@@ -952,7 +952,11 @@
 
     function applyMeta(evt, ctx) {
         const name = stripTags(evt.name);
-        const title = name + ', ' + fullDateText(evt) + ' — O-Maps';
+        // Место в title: у одноимённых событий (например, «Лыжня России» в
+        // двух десятках мест в один день) иначе одинаковые заголовки, и Google
+        // склеивает такие страницы как копии.
+        const title = name + ', ' + fullDateText(evt)
+            + (evt.place ? ', ' + stripTags(evt.place) : '') + ' — O-Maps';
         document.title = title;
         const parts = [fullDateText(evt)];
         if (evt.place) parts.push(stripTags(evt.place));

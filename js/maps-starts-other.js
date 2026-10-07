@@ -432,6 +432,7 @@ let otherStartsMaps = [
     {
         name: 'Первомайское',
         year: 2023,
+        date: '2023-09-13',
         page: 'starts',
         url: './maps/rogaine/beketov/pervomayskoe_ba_2023.webp',
         link: ['./original_maps/rogaine/beketov/pervomayskoe_ba_2023_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2023-2/bal_23.jpg'],
@@ -444,6 +445,7 @@ let otherStartsMaps = [
     {
         name: 'Каннельярви',
         year: 2024,
+        date: '2024-05-25',
         start: 'BA',
         page: 'starts',
         hidden: true,

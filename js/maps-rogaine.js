@@ -261,6 +261,7 @@ let rogaineMaps = [
     {
         name: 'Первомайское',
         year: 2023,
+        date: '2023-11-06',
         url: './maps/rogaine/pervomajskoe_rogaine_2023.webp',
         link: './original_maps/rogaine/pervomajskoe_2023_omaps.jpg',
         bounds: [[60.4404968, 29.6665192], [60.4342718, 29.7616196], [60.3866347, 29.6528721]],

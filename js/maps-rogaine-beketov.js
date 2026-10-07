@@ -94,6 +94,7 @@ let rogaineBeketovMaps = [
     {
         name: 'Орехово',
         year: 2024,
+        date: '2024-10-12',
         url: './maps/rogaine/beketov/orekhovo_mb_2024.webp',
         link: ['./original_maps/rogaine/beketov/Orehovo_new.webp','./original_maps/rogaine/beketov/orekhovo_omb_2024_omaps.webp'],
         info: '<a href="https://www.multsport.ru/starts/omb24/">Инфо.</a>',

@@ -276,7 +276,7 @@ let ryazanMaps = [
         type: ['CITY','SPRINT']
     },
     {
-        name: 'Школа №71',
+        name: 'Рязань, школа №71',
         year: 2021,
         correct: 2025,
         url: './maps/ryazan/dp_shk71_2021.webp',
