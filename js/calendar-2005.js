@@ -182,12 +182,10 @@ let events2005 = [
         id: 'SPB_20050423_2',
         date: '2005-04-23',
         place: 'Кузьмолово',
-        name: 'Эстафеты 2х2',
+        name: 'Эстафеты 2х2, 1 этап',
         res: 'https://o-site.spb.ru/_races/050507/2x2_res.zip',
-        info: '23 апреля, 30 апреля, 7 мая, 14 мая. <a href="./docs/2x2/2005_kuzmolovo_2x2_itogi_omaps.pdf">Итоги и результаты</a>, <a href="./docs/2x2/2005_kuzmolovo_2x2_photos_omaps.pdf">буклет</a>.',
-        fmt: 'Эстафеты',
+        fmt: 'эстафеты',
         o_site: '050507',
-        map: ['2x2_2005_05_07', '2x2_2005_05_10'],
         start: '2x2'
     },
     {
@@ -218,6 +216,16 @@ let events2005 = [
         o_site: '050430'
     },
     {
+        id: 'SPB_20050430_3',
+        date: '2005-04-30',
+        place: 'Кузьмолово',
+        name: 'Эстафеты 2х2, 2 этап',
+        res: 'https://o-site.spb.ru/_races/050507/2x2_res.zip',
+        fmt: 'эстафеты',
+        o_site: '050507',
+        start: '2x2'
+    },
+    {
         id: 'SPB_20050501_1',
         date: '2005-05-01',
         endDate: '2005-05-02',
@@ -226,6 +234,17 @@ let events2005 = [
         res: 'https://o-site.spb.ru/_races/050501/34YMres.zip',
         start: 'YM_CUP',
         o_site: '050501'
+    },
+    {
+        id: 'SPB_20050507_1',
+        date: '2005-05-07',
+        place: 'Кузьмолово',
+        name: 'Эстафеты 2х2, 3 этап',
+        res: 'https://o-site.spb.ru/_races/050507/2x2_res.zip',
+        fmt: 'эстафеты',
+        o_site: '050507',
+        map: '2x2_2005_05_07',
+        start: '2x2'
     },
     {
         id: 'SPB_20050508_1',
@@ -244,6 +263,18 @@ let events2005 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/050509/pt2.htm',
         o_site: '050509'
+    },
+    {
+        id: 'SPB_20050510_1',
+        date: '2005-05-10',
+        place: 'Кузьмолово',
+        name: 'Эстафеты 2х2, финал',
+        res: 'https://o-site.spb.ru/_races/050507/2x2_res.zip',
+        info: '<a href="./docs/2x2/2005_kuzmolovo_2x2_itogi_omaps.pdf">Итоги и результаты</a> всего цикла, <a href="./docs/2x2/2005_kuzmolovo_2x2_photos_omaps.pdf">буклет</a>.',
+        fmt: 'эстафеты',
+        o_site: '050507',
+        map: '2x2_2005_05_10',
+        start: '2x2'
     },
     {
         id: 'SPB_20050515_1',
