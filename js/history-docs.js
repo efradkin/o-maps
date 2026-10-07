@@ -2657,6 +2657,21 @@ let historyDocs = [
         start: 'GS'
     },
     {
+        name: 'Чемпионат мира, SKI-WOC (Москва, Планерная)',
+        date: '2007-02-23',
+        info: 'Информационный бюллетень.',
+        link: './docs/2007/2007_02_23_ski_woc_bulletin_omaps.pdf',
+        start: 'SKI_WOC',
+        map: ['planernaya_2007_02_27','planernaya_2007_03_02']
+    },
+    {
+        name: 'Чемпионат мира, SKI-WOC (Москва, Планерная)',
+        date: '2007-02-26',
+        link: ['./docs/2007/2007_02_26_ski_woc_omaps.pdf','./docs/2007/2007_02_27_ski_woc_omaps.pdf','./docs/2007/2007_03_01_ski_woc_omaps.pdf','./docs/2007/2007_03_02_ski_woc_omaps.pdf'],
+        start: 'SKI_WOC',
+        map: ['planernaya_2007_02_27','planernaya_2007_03_02']
+    },
+    {
         name: 'Сводная карта всех дней (Лемболово)',
         start: 'MMS',
         year: 2010,

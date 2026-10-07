@@ -4530,6 +4530,24 @@ let moscowMaps = [
         owner: 'NLTV_D'
     },
     {
+        name: 'Планерная',
+        date: '2007-02-27',
+        url: './maps/moscow/lr/planernaya_2007_02_27.webp',
+        link: ['./original_maps/moscow/2007_02_27_ski_woc_long_h_omaps.gif','./original_maps/moscow/2007_02_27_ski_woc_long_d_omaps.gif','./original_maps/moscow/2007_02_26_ski_woc_spint_h_omaps.gif','./original_maps/moscow/2007_02_26_ski_woc_spint_d_omaps.gif'],
+        bounds: [[55.9296108, 37.3223162], [55.9239366, 37.3648453], [55.9140047, 37.3156214]],
+        start: 'SKI_WOC',
+        type: ['WINTER']
+    },
+    {
+        name: 'Планерная',
+        date: '2007-03-02',
+        url: './maps/moscow/lr/planernaya_2007_03_02.webp',
+        link: ['./original_maps/moscow/2007_03_02_ski_woc_relay_h_omaps.gif','./original_maps/moscow/2007_03_02_ski_woc_relay_d_omaps.gif','./original_maps/moscow/2007_03_01_ski_woc_middle_d1_omaps.gif','./original_maps/moscow/2007_03_01_ski_woc_middle_d2_omaps.gif','./original_maps/moscow/2007_03_01_ski_woc_middle_h1_omaps.gif','./original_maps/moscow/2007_03_01_ski_woc_middle_h2_omaps.gif'],
+        bounds: [[55.9251388, 37.3377228], [55.9215560, 37.3647594], [55.9047438, 37.3296118]],
+        start: 'SKI_WOC',
+        type: ['WINTER']
+    },
+    {
         name: 'Львовская',
         year: 1984,
         url: './maps/moscow/lvovskaya_1984.webp',

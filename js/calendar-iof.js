@@ -1354,13 +1354,19 @@ let iofEvents = [
         date: '2007-02-23',
         endDate: '2007-03-03',
         place: 'Moscow Oblast, Russia (Московская область, Россия)',
-        info: 'Спринт — Ж: Татьяна Власова - 1, Ольга Новикова - 2, Татьяна Козлова - 3; М: Эдуард Хренников - 1, Вадим Толстопятов - 2. Миддл — Ж: Татьяна Власова - 1, Наталья Томилова - 3; М: Эдуард Хренников - 1, Кирилл Веселов - 3. Лонг — Ж: Татьяна Власова - 1; М: Эдуард Хренников - 1, Кирилл Веселов - 2, Андрей Груздев - 3. Эстафета — Ж: Ольга Шевченко, Наталья Томилова, Татьяна Власова - 1; М: Андрей Груздев, Кирилл Веселов, Эдуард Хренников - 1.',
+        info: 'Спринт — Ж: Татьяна Власова - 1, Ольга Новикова - 2, Татьяна Козлова - 3; М: Эдуард Хренников - 1, Вадим Толстопятов - 2. ' +
+            'Миддл — Ж: Татьяна Власова - 1, Наталья Томилова - 3; М: Эдуард Хренников - 1, Кирилл Веселов - 3. ' +
+            'Лонг — Ж: Татьяна Власова - 1; М: Эдуард Хренников - 1, Кирилл Веселов - 2, Андрей Груздев - 3. ' +
+            'Эстафета — Ж: Ольга Шевченко, Наталья Томилова, Татьяна Власова - 1; М: Андрей Груздев, Кирилл Веселов, Эдуард Хренников - 1. ' +
+            'WOC вестник: [<a href="http://moscompass.ru/news/2007/WOC_1_Maket.pdf">1</a>], [<a href="http://moscompass.ru/news/2007/WOC_2_Maket.pdf">2</a>], [<a href="http://moscompass.ru/news/2007/WOC_4_Maket.pdf">3</a>].',
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
-            'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
+            'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах',
+            'https://web.archive.org/web/20111016101645/http://moscompass.ru/wsoc2007/',
+            'https://rufso.ru/wp-content/uploads/2018/08/2007№2-SkiWOC2007.pdf'
         ],
-        res: 'https://old.orienteering.sport/events/130/', // результаты на старом сайте IOF
+        res: ['./docs/2007/2007_02_26_ski_woc_omaps.pdf','./docs/2007/2007_02_27_ski_woc_omaps.pdf','./docs/2007/2007_03_01_ski_woc_omaps.pdf','./docs/2007/2007_03_02_ski_woc_omaps.pdf','https://old.orienteering.sport/events/130/'], // результаты на старом сайте IOF
         video: [
             'https://www.youtube.com/watch?v=bWW-gadR_0Q', // Middle distance on WSOC 2007 in Moscow. (orienteeringtv)
             'https://www.youtube.com/watch?v=ac17BPisFjU' // World Ski-O Championship 2007, Long Distance (orienteeringtv)
@@ -1368,7 +1374,8 @@ let iofEvents = [
         coord: [55.9164017, 37.3511124],
         type: 'SKI',
         fmt: 'sprint, middle, long, relay',
-        start: 'SKI_WOC'
+        start: 'SKI_WOC',
+        map: ['planernaya_2007_02_27','planernaya_2007_03_02']
     },
     {
         id: 'IOF_20070404_1',
