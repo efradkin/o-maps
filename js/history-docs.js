@@ -193,7 +193,7 @@ let historyDocs = [
         name: 'IOF Ski-O Trophy (Болгария)',
         date: '1972-03-04',
         info: 'Отчёт о поездке советской делегации в Болгарию.',
-        link: './docs/1972/1972_03_04_bulgaria_iof_cup_omaps.docx',
+        link: './docs/1972/1972_03_04_bulgaria_iof_cup_omaps.pdf',
     },
     {
         name: 'Календарь соревнований на лето Центрального клуба туристов г.Ленинграда',
@@ -2717,7 +2717,7 @@ let historyDocs = [
         start: '2x2',
         year: 2005,
         map: ['2x2_2005_05_10','2x2_2005_05_07'],
-        link: './docs/2x2/2005_kuzmolovo_2x2_photos_omaps.doc',
+        link: './docs/2x2/2005_kuzmolovo_2x2_photos_omaps.pdf',
         planner: 'SHRNN'
     },
     {
