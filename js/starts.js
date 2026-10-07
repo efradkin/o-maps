@@ -93,7 +93,8 @@ let starts = {
             'и по-настоящему ценные призы дополняют фирменный стиль «Мемориала Михаила Святкина» (главный судья – Александр Курдюмов). В течение многих лет не раз менялись картографы и служба дистанции.' +
             '<p> © <a href="https://rufso.ru/wp-content/uploads/2018/08/2013№4-Питерские-многодневки.pdf">Питерские многодневки</a>',
         planner: 'TLNV_A',
-        page: 'starts'
+        page: 'starts',
+        owner: 'SFSO_LO'
     },
     YM: {
         short: 'Яркий Мир',
@@ -123,6 +124,7 @@ let starts = {
     VYBORGSKY_TROIKA: {
         short: 'Выборгская тройка',
         name: 'Выборгская тройка',
+        owner: 'NW'
     },
     SOSNOVOBORSKY_DUNY: {
         short: 'Сосновоборские дюны',
@@ -163,6 +165,7 @@ let starts = {
     PERSPEKTIVA: {
         short: 'Перспектива',
         name: 'Перспектива',
+        owner: 'FENIX'
     },
     KKR: {
         short: 'ККР',
@@ -188,14 +191,16 @@ let starts = {
         info: 'Дистанция средней длины с большим количеством пунктов.',
         foto: ['gs_champions.jpg'],
         page: 'starts',
-        planner: 'GBNV_V'
+        planner: 'GBNV_V',
+        owner: 'AZIMUT'
     },
     SPRINT_TOUR: {
         short: 'Спринт-Тур',
         name: '<a href="https://vk.com/sprinttourspb">Спринт-Тур</a>',
         link: 'https://vk.com/sprinttourspb',
         owner: 'KUZMOLOVO',
-        logo: 'st.jpg'
+        logo: 'st.jpg',
+        owner: 'KUZMOLOVO'
     },
     SCHOOL: {
         short: 'В школу',
@@ -214,7 +219,8 @@ let starts = {
         retro: true,
         name: '<a href="https://o-site.spb.ru/history/History/azimuth.html">Ориентир</a>',
         logo: 'azimut_retro.gif',
-        info: 'Серия тренировочных стартов от спорт.общества "Спартак" (в дальнейшем - КСО "Азимут").'
+        info: 'Серия тренировочных стартов от спорт.общества "Спартак" (в дальнейшем - КСО "Азимут").',
+        owner: 'AZIMUT'
     },
     KZNTSVA: {
         short: 'Памяти Кузнецова',
@@ -427,7 +433,8 @@ let starts = {
         info: 'Ленинград, 13-15.09.1971. Главный судья А.И.Муравьев, главный секретарь Н.А.Григоренко. Заместитель главного судьи по дистанциям А.Д.Котов',
         major: true,
         retro: true,
-        region: 'LNGRD'
+        region: 'LNGRD',
+        owner: 'FSOR'
     },
     USSR_FRANCE_ARMY_1975: {
         short: 'СССР-Франция\'1975',
@@ -456,7 +463,8 @@ let starts = {
         logo: 'ussr_1975.jpg',
         major: true,
         retro: true,
-        region: 'LNGRD'
+        region: 'LNGRD',
+        owner: 'FSOR'
     },
     VWC_1995: {
         major: true,
@@ -469,7 +477,8 @@ let starts = {
     USSR_CHAMP: {
         major: true,
         retro: true,
-        short: 'Чемпионат СССР'
+        short: 'Чемпионат СССР',
+        owner: 'FSOR'
     },
     USSR_1989_WINTER: {
         major: true,
@@ -477,7 +486,8 @@ let starts = {
         short: 'I Зимний Чемпионат СССР',
         name: '<a href="https://rufso.ru/wp-content/uploads/2019/10/О20первом20Чемпионате20СССР1.pdf">I Зимний Чемпионат СССР</a>',
         logo: 'ussr_retro.webp',
-        region: 'PERM'
+        region: 'PERM',
+        owner: 'FSOR'
     },
     USSR_1990_WINTER: {
         major: true,
@@ -485,7 +495,8 @@ let starts = {
         short: 'II Зимний Чемпионат СССР',
         name: 'II Зимний Чемпионат СССР',
         logo: 'ussr_retro.webp',
-        region: 'EKB'
+        region: 'EKB',
+        owner: 'FSOR'
     },
     USSR_1991_WINTER: {
         major: true,
@@ -493,7 +504,8 @@ let starts = {
         short: 'III Зимний Чемпионат СССР',
         name: '<a href="https://rufso.ru/wp-content/uploads/2023/12/1991-Зима-СССР.pdf">III Зимний Чемпионат СССР</a>',
         logo: 'ussr_retro.webp',
-        region: 'EKB'
+        region: 'EKB',
+        owner: 'FSOR'
     },
     USSR_1981: {
         major: true,
@@ -502,7 +514,8 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html">I чемпионат СССР</a> (' +
             '<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf">как это было</a>, <a href="./documents.html?start=USSR_1981">документы</a>)',
         logo: 'ussr_1981.webp',
-        region: 'LNGRD'
+        region: 'LNGRD',
+        owner: 'FSOR'
     },
     USSR_1982: {
         major: true,
@@ -510,21 +523,24 @@ let starts = {
         short: 'II Чемпионат СССР',
         name: '<a href="https://o-site.spb.ru/history/History/luki-82.html">II чемпионат СССР</a> (<a href="./documents.html?start=USSR_1982">документы</a>)',
         logo: 'ussr_1982.webp',
-        region: 'LNGRD'
+        region: 'LNGRD',
+        owner: 'FSOR'
     },
     USSR_1983: {
         major: true,
         retro: true,
         short: 'III Чемпионат СССР',
         name: 'III чемпионат СССР (<a href="./documents.html?start=USSR_1983">документы</a>)',
-        region: 'LATVIA'
+        region: 'LATVIA',
+        owner: 'FSOR'
     },
     USSR_1984: {
         major: true,
         retro: true,
         short: 'IV Чемпионат СССР',
         name: 'IV чемпионат СССР (<a href="./documents.html?start=USSR_1984">документы</a>)',
-        region: 'ESTONIA'
+        region: 'ESTONIA',
+        owner: 'FSOR'
     },
     USSR_1985: {
         major: true,
@@ -532,7 +548,8 @@ let starts = {
         short: 'V Чемпионат СССР',
         name: 'V чемпионат СССР (<a href="./documents.html?start=USSR_1985">документы</a>)',
         region: 'UKRAINE',
-        logo: 'ussr_1985.webp'
+        logo: 'ussr_1985.webp',
+        owner: 'FSOR'
     },
     USSR_1986: {
         major: true,
@@ -540,7 +557,8 @@ let starts = {
         short: 'VI Чемпионат СССР',
         name: 'VI чемпионат СССР (<a href="./documents.html?start=USSR_1986">документы</a>)',
         region: 'KAZAKHSTAN',
-        logo: 'ussr_1986.webp'
+        logo: 'ussr_1986.webp',
+        owner: 'FSOR'
     },
     USSR_1987: {
         major: true,
@@ -548,7 +566,8 @@ let starts = {
         short: 'VII Чемпионат СССР',
         name: 'VII чемпионат СССР (<a href="./documents.html?start=USSR_1987">документы</a>)',
         region: 'EKB',
-        logo: 'ussr_retro.webp'
+        logo: 'ussr_retro.webp',
+        owner: 'FSOR'
     },
     USSR_1988: {
         major: true,
@@ -556,7 +575,8 @@ let starts = {
         short: 'VIII Чемпионат СССР',
         name: '<a href="https://orient.by/orienteering/history/belarus/1984-1993/1988/">VIII чемпионат СССР</a>',
         region: 'BELARUS',
-        logo: 'ussr_1988.webp'
+        logo: 'ussr_1988.webp',
+        owner: 'FSOR'
     },
     USSR_1989: {
         major: true,
@@ -564,7 +584,8 @@ let starts = {
         short: 'IX Чемпионат СССР',
         name: 'IX чемпионат СССР (<a href="./documents.html?start=USSR_1989">документы</a>)',
         region: 'LIETUVA',
-        logo: 'ussr_1989.webp'
+        logo: 'ussr_1989.webp',
+        owner: 'FSOR'
     },
     USSR_1990: {
         major: true,
@@ -572,7 +593,8 @@ let starts = {
         short: 'X Чемпионат СССР',
         name: 'X чемпионат СССР',
         region: 'LATVIA',
-        logo: 'plavinas.webp'
+        logo: 'plavinas.webp',
+        owner: 'FSOR'
     },
     USSR_1991: {
         major: true,
@@ -580,14 +602,16 @@ let starts = {
         short: 'XI Чемпионат СССР',
         name: 'XI чемпионат СССР',
         region: 'N_NOVGOROD',
-        logo: 'ussr_1991.webp'
+        logo: 'ussr_1991.webp',
+        owner: 'FSOR'
     },
     WCO_1992: {
         major: true,
         retro: true,
         short: 'Кубок мира',
         name: '<a href="https://o-site.spb.ru/history/Knots/wc-92.html">Кубок мира</a>',
-        logo: 'owc_1992.jpg'
+        logo: 'owc_1992.jpg',
+        owner: 'IOF'
     },
     LENINGRAD_30: {
         major: true,
@@ -602,7 +626,8 @@ let starts = {
         short: 'JWSOC 2003',
         name: '<a href="https://spbof.ru/ru/2-uncategorised/582-istoriya-orientirovaniya-1992g-po-nastoyashchee-vremya">Чемпионат мира  по ориентированию  на лыжах среди  юниоров 2003</a> (<a href="https://docs.cntd.ru/document/3641816">распоряжение</a>)',
         logo: 'jwsoc_2003.jpg',
-        region: 'SPB'
+        region: 'SPB',
+        owner: 'IOF'
     },
     WOC: {
         major: true,
@@ -649,61 +674,70 @@ let starts = {
     RUSSIA_CHAMP: {
         major: true,
         short: 'Чемпионат России',
-        name: 'Чемпионат России'
+        name: 'Чемпионат России',
+        owner: 'FSOR'
     },
     RUSSIA_CUP: {
         major: true,
         logo: 'fsor.webp',
         short: 'Кубок России',
-        name: 'Кубок России'
+        name: 'Кубок России',
+        owner: 'FSOR'
     },
     RUSSIA_ROGAINE_CHAMP: {
         major: true,
         rogaine: true,
         short: 'Чемпионат России по рогейну',
-        logo: 'rrf_new.webp'
+        logo: 'rrf_new.webp',
+        owner: 'RRF'
     },
     RUSSIA_2019: {
         major: true,
         short: 'ЧР 2019',
         name: '<a href="https://o-site.spb.ru/race.php?id=190524chRF">Чемпионат России 2019</a>',
         logo: 'fsor.webp',
-        region: 'SPB'
+        region: 'SPB',
+        owner: 'FSOR'
     },
     RUSSIA_2020: {
         major: true,
         short: 'ЧР (спринт) 2020',
         name: '<a href="https://o-site.spb.ru/race.php?id=20092428">Чемпионат России 2020 (спринт)</a>',
         logo: 'fsor.webp',
-        region: 'SPB'
+        region: 'SPB',
+        owner: 'FSOR'
     },
     RUSSIA_2021: {
         major: true,
         short: 'ЧР (спринт) 2021',
         name: '<a href="https://o-site.spb.ru/race.php?id=210531">Чемпионат России 2021 (спринт)</a>',
         logo: 'russia_2021.jpg',
-        region: 'SPB'
+        region: 'SPB',
+        owner: 'FSOR'
     },
     RUSSIA_2022: {
         major: true,
         short: 'ЧР 2022',
         name: '<a href="https://o-site.spb.ru/race.php?id=22060911">Чемпионат России 2022</a>',
         logo: 'fsor.webp',
-        region: 'SPB'
+        region: 'SPB',
+        owner: 'FSOR'
     },
     RUSSIA_2024: {
         major: true,
         short: 'ЧР (спринт) 2024',
         name: '<a href="https://o-site.spb.ru/race.php?id=240519_russia">Чемпионат России (спринт)</a>',
         logo: 'russia_2024.jpg',
-        region: 'SPB'
+        region: 'SPB',
+        owner: 'FSOR'
     },
     RUSSIA_CUP_2024: {
         major: true,
         short: 'КР (спринт) 2024',
         name: '<a href="https://сшгорелова.рф/кубок-россии-г-химки/">Кубок России 2024 (спринт)</a>',
         logo: 'fso_msk.jpg',
-        region: 'MSK'
+        region: 'MSK',
+        owner: 'FSOR'
     },
     OKINCHITSA: {
         short: 'Окинчица',
@@ -737,7 +771,8 @@ let starts = {
         name: 'Аэророгейн',
         logo: 'aero.jpg',
         info: 'Традиционная московская серия стартов по рогейну от команды Open Band, которая проходит в Новой Москве (район Внуково / Филимонковское).',
-        rogaine: true
+        rogaine: true,
+        owner: 'OPEN_BAND'
     },
     BNO: {
         short: 'БНО',
@@ -760,13 +795,15 @@ let starts = {
         name: '<a href="https://www.x-lite.run/">Компот-рогейн</a>',
         logo: 'kmpt-rogaine.jpg',
         info: 'Московский ежегодный кубок стартов по рогейну - бегом, на велосипеде и на лыжах.',
-        rogaine: true
+        rogaine: true,
+        owner: 'KMPT'
     },
     MSK_LIGHT: {
         short: 'Московский лайт',
         name: '<a href="https://vk.com/moscow__lite">Московский лайт</a>',
         logo: 'msk_light.jpg',
-        rogaine: true
+        rogaine: true,
+        owner: 'KMPT'
     },
     MSK_COMPASS: {
         short: 'Московский компас',
@@ -776,7 +813,8 @@ let starts = {
     OBSW: {
         short: 'OBSW',
         name: '<a href="https://orientband.ru/obsw">Open Band Sprint Weekend</a>',
-        logo: 'obsw.png'
+        logo: 'obsw.png',
+        owner: 'OPEN_BAND'
     },
     TROPA_THRSDAY: {
         short: 'Тропаревские четверги',
@@ -794,6 +832,7 @@ let starts = {
         short: 'РА (Псков)',
         name: 'Российский азимут',
         logo: 'ra_pskov.webp',
+        owner: 'PSKOV_RUS'
     },
     /* --- РЯЗАНЬ --- */
     NPW: {
@@ -808,6 +847,7 @@ let starts = {
         short: 'ККК',
         name: '<a href="https://vk.com/club197340171">Клубный Кубок Карелии (ККК)</a>',
         logo: 'kkk.gif',
+        owner: 'FSO_KARELIA'
     },
     MLTRY_FRCS: {
         short: 'ВС',
