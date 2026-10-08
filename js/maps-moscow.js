@@ -2719,7 +2719,18 @@ let moscowMaps = [
         link: './original_maps/moscow/sz/strogino_2008_omaps.gif',
         bounds: [[55.8052849, 37.4105072], [55.8039583, 37.4278879], [55.7931995, 37.4072886]],
         owner: 'NLTV_D',
-        type: ['PARK']
+        type: ['PARK'],
+        zindex: 2
+    },
+    {
+        name: 'стд Янтарь',
+        year: 2026,
+        url: './maps/moscow/sz/yantar_stdm_2026.webp',
+        bounds: [[55.8057793, 37.4085760], [55.8041513, 37.4266648], [55.7983743, 37.4059153]],
+        author: 'SKLV_V',
+        owner: 'MLKHT',
+        type: ['PARK','CITY'],
+        zindex: 3
     },
     {
         name: 'Строгинский и Щукинский полуостровы, Стадион Янтарь',
@@ -3044,6 +3055,15 @@ let moscowMaps = [
         author: 'SKLV_V',
         owner: 'MLKHT',
         type: ['PARK','CITY']
+    },
+    {
+        name: 'Щукино, Авиационная ул',
+        year: 2026,
+        url: './maps/moscow/ak/aviatsionnaya_2026.webp',
+        bounds: [[55.8140028, 37.4487019], [55.8124113, 37.4617481], [55.8056828, 37.4454403]],
+        author: 'SKLV_V',
+        owner: 'MLKHT',
+        type: ['CITY']
     },
     {
         name: 'Сквер генерала Жадова',
@@ -4169,10 +4189,10 @@ let moscowMaps = [
     },
     {
         name: 'Лысая гора',
-        year: 2025,
-        url: './maps/moscow/lysaya_gora_2025.webp',
-        bounds: [[55.8055743, 37.4477577], [55.8043442, 37.4584866], [55.7899424, 37.443552]],
-        author: ['SKLV_V','KSTLV_E'],
+        year: 2026,
+        url: './maps/moscow/lr/lysaya_gora_2026.webp',
+        bounds: [[55.8064365, 37.4483585], [55.8050799, 37.4596345], [55.7958955, 37.4445605]],
+        author: 'SKLV_V',
         owner: 'MLKHT',
         type: ['CITY']
     },

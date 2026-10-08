@@ -1515,7 +1515,7 @@ let mskEvents2026 = [
         reg: "https://buyrun.ru/event/141",
         res: "https://orgeo.ru/files/event/file/53970_b8d55d2265.xlsx",
         owner: "MLKHT",
-        map: "lysaya_gora_2025"
+        map: "lysaya_gora_2026"
     },
     {
         id: 'MSK_20260712_1',
@@ -1532,7 +1532,7 @@ let mskEvents2026 = [
         reg: "https://buyrun.ru/event/142",
         res: "https://orgeo.ru/files/event/file/53971_d56b6ba998.xlsx",
         owner: "MLKHT",
-        map: "20210606_570"
+        map: "yantar_stdm_2026"
     },
     {
         id: 'MSK_20260714_1',
@@ -1667,7 +1667,8 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/1ZvqcT8qqgxIj5CAI7TQLjyCiXiYHZIheNG0IRMfzaqU/edit?usp=sharing",
         reg: "https://buyrun.ru/event/143",
         res: "https://orgeo.ru/files/event/file/54173_842379b3cb.xlsx",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: 'aviatsionnaya_2026'
     },
     {
         id: 'MSK_20260728_1',
