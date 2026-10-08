@@ -623,19 +623,6 @@ let events2007 = [
         planner: 'SHEIN'
     },
     {
-        id: 'SPB_20070624_1',
-        date: '2007-06-24',
-        endDate: '2007-06-29',
-        place: 'Васкелово, б/о Динамо',
-        name: 'Чемпионат России по спортивному ориентированию на велосипедах',
-        type: 'VELO',
-        owner: 'SFSO_LO',
-        o_site: '070624',
-        bulletin: 'https://o-site.spb.ru/_races/070624/070624_info1.htm',
-        start: 'RUSSIA_CHAMP',
-        map: 'lembolovo_russia_2007'
-    },
-    {
         id: 'SPB_20070626_1',
         date: '2007-06-26',
         place: 'Лосево',

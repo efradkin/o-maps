@@ -792,39 +792,6 @@ let events2024 = [
         strava: 11418443568
     },
     {
-        id: 'SPB_20240516_1',
-        date: '2024-05-16',
-        endDate: '2024-05-20',
-        place: 'Санкт-Петербург',
-        name: 'Чемпионат России',
-        reg: 'http://orgeo.ru/event/info/33466',
-        res: 'https://o-site.spb.ru/_races/240519_russia/240518_results_.pdf',
-        photo: 'http://disk.yandex.ru/d/gauoPfUSaHxVlQ',
-        info: '16-20 мая 2024 года в Санкт-Петербурге пройдёт Чемпионат России по спортивному ориентированию (спринтерские дисциплины). Проводящая организация: Федерация спортивного ориентирования Санкт-Петербурга. Программа: 16.05 (четверг) — день приезда. Работа комиссии по допуску участников с 13:00 до 17:00. Совещание представителей команд в 18:00. («Галерея 2/17» , 2-я линия Васильевского острова, д.17). 17.05 (пятница) — кросс-эстафета-4 человека (0830081811Я) 18.05 (суббота) — кросс-спринт (0830011811Я) 19.05 (воскресенье) — кросс-спринт-общий старт (0830091811Я) 20.05 (понедельник) — день отъезда',
-        video: [
-            'http://northernwind.spb.ru/videosplit/2024/chRus_Sprint/d3',
-            'http://northernwind.spb.ru/videosplit/2024/chRus_Sprint/d2',
-            'http://northernwind.spb.ru/videosplit/2024/chRus_Sprint/d1',
-            'https://www.youtube.com/watch?v=9xNBjmMxAwc',
-            'https://www.youtube.com/watch?v=D_C04H0cFDo',
-            'https://www.youtube.com/watch?v=C5EGz640vRQ',
-            'https://www.youtube.com/watch?v=0PaPIBVTNBk',
-            'https://www.youtube.com/watch?v=FZ-jCvf9Gq8',
-            'https://www.youtube.com/watch?v=uN4eMQvTnKk'
-        ],
-        o_gps: {
-            '17': 19452,
-            '19-М': 19474,
-            '19-Ж': 19473
-        },
-        owner: 'SFSO_SPB',
-        o_site: '240519_russia',
-        bulletin: 'https://o-site.spb.ru/_races/240519_russia/Infbul3_final_.pdf',
-        reskeep: 654,
-        start: ['RUSSIA_CHAMP','RUSSIA_2024'],
-        map: ['petropavlovka_2024','vasileostrovskaya_2024','serebrjany_prud_2024']
-    },
-    {
         id: 'SPB_20240518_1',
         date: '2024-05-18',
         name: 'Кубок Белых Ночей, 12 этап',

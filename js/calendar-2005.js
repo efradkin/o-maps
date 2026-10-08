@@ -48,18 +48,6 @@ let events2005 = [
         o_site: '050206_WE'
     },
     {
-        id: 'SPB_20050205_2',
-        date: '2005-02-05',
-        endDate: '2005-02-06',
-        place: 'Гатчина',
-        name: 'Чемпионат России по ориентированию бегом на заснеженном грунте',
-        res: 'https://o-site.spb.ru/_races/050205/Gat4ina.zip',
-        o_site: '050205',
-        map: 'gatchina_zverinets_2005',
-        major: true,
-        start: 'RUSSIA_CHAMP'
-    },
-    {
         id: 'SPB_20050206_1',
         date: '2005-02-06',
         place: 'парк Зверинец, Гатчина',

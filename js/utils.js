@@ -378,6 +378,7 @@ function loadAllCalendars() {
     return [
         ...commonEvents2026,
         ...iofEvents,
+        ...fsorEvents,
         ...events2026,
         ...events2025,
         ...events2024,

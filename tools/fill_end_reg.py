@@ -77,7 +77,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 USER_AGENT = 'Mozilla/5.0 (o-maps.spb.ru fill_end_reg)'
-FILE_RE = re.compile(r'^calendar-(?:early|(?:[a-z]+-)?\d{4})\.js$')
+FILE_RE = re.compile(r'^calendar-(?:early|fsor|(?:[a-z]+-)?\d{4})\.js$')
 FIELD = 'endReg'
 
 

@@ -67,11 +67,11 @@ function extractWelcome() {
 
 const DATA_FILES = ['starts.js', 'owners.js', 'planners.js', 'calendar-early.js'];
 for (let y = 2004; y <= 2026; y++) DATA_FILES.push(`calendar-${y}.js`);
-DATA_FILES.push('calendar-common-2026.js', 'calendar-other-2026.js', 'calendar-iof.js');
+DATA_FILES.push('calendar-common-2026.js', 'calendar-other-2026.js', 'calendar-iof.js', 'calendar-fsor.js');
 
 const YEAR_VARS = ['eventsEarly'];
 for (let y = 2004; y <= 2026; y++) YEAR_VARS.push(`events${y}`);
-YEAR_VARS.push('commonEvents2026', 'otherEvents2026', 'iofEvents');
+YEAR_VARS.push('commonEvents2026', 'otherEvents2026', 'iofEvents', 'fsorEvents');
 
 let source = extractLiteral(read('utils.js'), 'const regions = {') + ';\n';
 source += extractLiteral(read('global-menu.js'), 'const GLOBAL_MENU_ITEMS = [', '[', ']') + ';\n';

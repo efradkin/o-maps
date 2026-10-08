@@ -1,75 +1,5 @@
 let commonEvents2026 = [
     {
-        id: 'MAJOR_20260103_1',
-        date: '2026-01-03',
-        endDate: '2026-01-11',
-        place: 'Пермский край, Горнозаводск',
-        name: 'Кубок России, маркир',
-        res: 'https://o-perm.ru/admin/wp-content/uploads/2026/01/Rezultaty-Klassika-obshhij-start-10-yanvarya-kopiya.html',
-        link: 'http://vs.o-perm.tilda.ws/',
-        major: true,
-        type: 'SKI',
-        fmt: 'маркир, эстафета, комбинация, лонг, классика',
-        owner: 'FSOR'
-    },
-    {
-        id: 'MAJOR_20260115_1',
-        date: '2026-01-15',
-        endDate: '2026-01-20',
-        place: 'Пермь',
-        name: 'Кубок России',
-        link: 'http://cr.o-perm.tilda.ws/',
-        major: true,
-        type: 'SKI',
-        fmt: 'спринт, многодневная, лонг',
-        owner: 'FSOR'
-    },
-    {
-        id: 'MAJOR_20260219_1',
-        date: '2026-02-19',
-        endDate: '2026-02-24',
-        place: 'Красноярский край, Подгорный',
-        name: 'Чемпионат России',
-        link: 'https://kfso.ru/novosti/25-god/chempionat-rossii-19-24.02.2026-(p.podgornyij,-krasnoyarskij-kraj)',
-        video: ['https://vkvideo.ru/video-229568771_456239048','https://t.me/lamporient/9170'],
-        type: 'SKI',
-        fmt: 'маркир, эстафета 3х, комбинация, лонг',
-        owner: 'FSOR',
-        start: 'RUSSIA_CHAMP',
-        o_gps: {
-            '20-М': 24262,
-            '20-Ж': 24270,
-            '21-М': 24263,
-            '21-Ж': 24271,
-            '22-М': 24264,
-            '22-Ж': 24272,
-            '23-М': 24265,
-            '23-Ж': 24273
-        }
-    },
-    {
-        id: 'MAJOR_20260315_1',
-        date: '2026-03-15',
-        endDate: '2026-03-21',
-        place: 'Коми, Сыктывкар',
-        name: 'Чемпионат России, лично-командные',
-        type: 'SKI',
-        fmt: 'классика, эстафета 3х, спринт, марафон',
-        res: 'https://orgeo.ru/live/#/chr2026sykt',
-        owner: 'FSOR',
-        start: 'RUSSIA_CHAMP',
-        o_gps: {
-            '16-М': 24406,
-            '16-Ж': 24407,
-            '17-М': 24422,
-            '17-Ж': 24423,
-            '18-М': 24431,
-            '18-Ж': 24432,
-            '20-М': 24442,
-            '20-Ж': 24443
-        }
-    },
-    {
         id: 'SPB_20260417_1',
         date: '2026-04-17',
         endDate: '2026-04-19',
@@ -84,17 +14,6 @@ let commonEvents2026 = [
         owner: 'PSKOV_RUS',
         reskeep: [871,872,873],
         coord: [57.818556, 28.294611]
-    },
-    {
-        id: 'MAJOR_20260423_1',
-        date: '2026-04-23',
-        endDate: '2026-04-27',
-        place: 'Ставропольский край, Железноводск',
-        name: 'Кубок России',
-        major: true,
-        type: 'VELO',
-        fmt: 'многодневные, эстафета 2х',
-        owner: 'FSOR'
     },
     {
         id: 'MAJOR_20260424_1',
@@ -124,21 +43,6 @@ let commonEvents2026 = [
         place: 'Псков',
         link: 'https://vk.com/skorus',
         owner: 'PSKOV_RUS'
-    },
-    {
-        id: 'MAJOR_20260512_1',
-        date: '2026-05-12',
-        endDate: '2026-05-18',
-        place: 'Иркутск',
-        name: 'Чемпионат России',
-        fmt: 'спринт, спринт-масстарт, эстафета 2х, эстафета 4х',
-        res: 'http://orgeo.ru/live/#/51213/14',
-        owner: 'FSOR',
-        start: 'RUSSIA_CHAMP',
-        o_gps: {
-            '13': 25093,
-            '14': 25097
-        }
     },
     {
         id: 'MAJOR_20260522_1',
@@ -191,27 +95,6 @@ let commonEvents2026 = [
         ],
         res: 'https://r.emit.live/followfull.php?comp=36831&lang=en',
         owner: 'IOF'
-    },
-    {
-        id: 'MAJOR_20260528_2',
-        date: '2026-05-28',
-        endDate: '2026-06-01',
-        place: 'Челябинск',
-        name: 'Кубок России, лично-командные',
-        major: true,
-        fmt: 'эстафета 2х, эстафета 3х, эстафета 4х',
-        res: 'https://orgeo.ru/live/#/51003',
-        owner: 'FSOR'
-    },
-    {
-        id: 'MAJOR_20260604_1',
-        date: '2026-06-04',
-        endDate: '2026-06-08',
-        place: 'Нижегородская обл, Вача',
-        name: 'Кубок России',
-        major: true,
-        fmt: 'классика, лонг, многодневный',
-        owner: 'FSOR'
     },
     {
         id: 'SPB_20260613_1',
@@ -371,17 +254,6 @@ let commonEvents2026 = [
         start: 'KKP',
         strava: 18995310275,
         me: 'М50'
-    },
-    {
-        id: 'MAJOR_20260625_1',
-        date: '2026-06-25',
-        endDate: '2026-06-29',
-        place: 'Нижний Новгород',
-        name: 'Чемпионат России',
-        type: 'VELO',
-        fmt: 'многодневные, эстафета 2х',
-        owner: 'FSOR',
-        start: 'RUSSIA_CHAMP'
     },
     {
         id: 'SPB_20260626_1',
@@ -626,27 +498,6 @@ let commonEvents2026 = [
         owner: 'IOF'
     },
     {
-        id: 'MAJOR_20260902_1',
-        date: '2026-09-02',
-        endDate: '2026-09-07',
-        place: 'Московская обл, Химки',
-        name: 'Чемпионат России, лично-командные',
-        type: 'VELO',
-        fmt: 'спринт, лонг, эстафета 3х, масстарт',
-        owner: 'FSOR',
-        start: 'RUSSIA_CHAMP'
-    },
-    {
-        id: 'MAJOR_20260909_1',
-        date: '2026-09-09',
-        endDate: '2026-09-14',
-        place: 'Тверская обл, Вышний Волочек',
-        name: 'Кубок России',
-        major: true,
-        fmt: 'масстарт, лонг-масстарт, марафон',
-        owner: 'FSOR'
-    },
-    {
         id: 'MAJOR_20260909_2',
         date: '2026-09-09',
         endDate: '2026-09-13',
@@ -691,17 +542,6 @@ let commonEvents2026 = [
         map: ['sestroretsk_dubkovskoe_2026','zelenogorsk_chernye_2023','zelenogorsk_schuchye_2026']
     },
     {
-        id: 'MAJOR_20260916_1',
-        date: '2026-09-16',
-        endDate: '2026-09-21',
-        place: 'Новосибирск',
-        name: 'Кубок России',
-        major: true,
-        type: 'VELO',
-        fmt: 'спринт, лонг, эстафета 3х, масстарт',
-        owner: 'FSOR'
-    },
-    {
         id: 'SPB_20260919_1',
         date: '2026-09-19',
         endDate: '2026-09-20',
@@ -726,26 +566,6 @@ let commonEvents2026 = [
         owner: 'WN'
     },
     {
-        id: 'MAJOR_20260922_1',
-        date: '2026-09-22',
-        endDate: '2026-09-27',
-        place: 'Ижевск',
-        name: 'Чемпионат России, лично-командные',
-        fmt: 'классика, лонг, многодневный, эстафета 3х',
-        owner: 'FSOR',
-        o_gps: {
-            '23-М': 26027,
-            '23-Ж': 26028,
-            '24-М': 26024,
-            '24-Ж': 26025,
-            '26-М': 26032,
-            '26-Ж': 26033,
-            '27-М': 26035,
-            '27-Ж': 26036
-        },
-        start: 'RUSSIA_CHAMP'
-    },
-    {
         id: 'MAJOR_20260924_1',
         date: '2026-09-24',
         endDate: '2026-09-27',
@@ -754,47 +574,5 @@ let commonEvents2026 = [
         major: true,
         fmt: 'long, middle, relay',
         owner: 'IOF'
-    },
-    {
-        id: 'MAJOR_20261015_1',
-        date: '2026-10-15',
-        endDate: '2026-10-19',
-        place: 'Калининград',
-        name: 'Кубок России, спринт',
-        major: true,
-        fmt: 'выбор, спринт, спринт-масстарт',
-        owner: 'FSOR'
-    },
-    {
-        id: 'MAJOR_20261101_1',
-        date: '2026-11-01',
-        endDate: '2026-11-07',
-        place: 'Ставрополь',
-        name: 'Чемпионат России',
-        fmt: 'выбор, лонг, масстарт, марафон',
-        owner: 'FSOR',
-        start: 'RUSSIA_CHAMP'
-    },
-    {
-        id: 'MAJOR_20261210_1',
-        date: '2026-12-10',
-        endDate: '2026-12-15',
-        place: 'Алтай, Семинский перевал',
-        name: 'Кубок России',
-        major: true,
-        type: 'SKI',
-        fmt: 'эстафета 2х, классика, марафон',
-        owner: 'FSOR'
-    },
-    {
-        id: 'MAJOR_20261217_1',
-        date: '2026-12-17',
-        endDate: '2026-12-23',
-        place: 'Алтай, Семинский перевал',
-        name: 'Чемпионат России',
-        type: 'SKI',
-        fmt: 'масстарт, многодневная, эстафета 2х, классика, лонг-масстарт',
-        owner: 'FSOR',
-        start: 'RUSSIA_CHAMP'
     },
 ];

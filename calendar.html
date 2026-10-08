@@ -190,6 +190,7 @@
     <script src="js/calendar-2026.js?v=38"></script>
     <script src="js/calendar-common-2026.js?v=35"></script>
     <script src="js/calendar-iof.js?v=7"></script>
+    <script src="js/calendar-fsor.js?v=1"></script>
     <script src="js/calendar-other-2026.js?v=35"></script>
 
     <script src="js/maps-starts-schools.js?v=35"></script>
@@ -334,6 +335,8 @@
         // Чемпионаты мира IOF (js/calendar-iof.js) — по году даты начала; до 2004 года — в «Ранних».
         const iofYear = /^\d{4}$/.test(y) && y >= '2004' && y <= '2026' ? y : '2026';
         oEvents.push(...iofEvents.filter(e => y === 'ALL' || (y === 'EARLY' ? e.date < '2004' : e.date.startsWith(iofYear))));
+        // Старты ФСОР (js/calendar-fsor.js) — так же: по году даты начала; до 2004 года — в «Ранних».
+        oEvents.push(...fsorEvents.filter(e => y === 'ALL' || (y === 'EARLY' ? e.date < '2004' : e.date.startsWith(iofYear))));
 
         document.getElementById('year_selector').value = y;
 

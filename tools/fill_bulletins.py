@@ -75,7 +75,7 @@ from html.parser import HTMLParser
 
 O_SITE_PREFIX = 'https://o-site.spb.ru/race.php?id='
 USER_AGENT = 'Mozilla/5.0 (o-maps.spb.ru fill_bulletins)'
-FILE_RE = re.compile(r'^calendar-(?:early|(?:[a-z]+-)?\d{4})\.js$')
+FILE_RE = re.compile(r'^calendar-(?:early|fsor|(?:[a-z]+-)?\d{4})\.js$')
 
 # «Информационный бюллетень», «Инф. бюллетень», «Бюллетень» (+ опечатка «бюлетень»)
 BULLETIN_RE = re.compile(
