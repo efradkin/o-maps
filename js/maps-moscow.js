@@ -2723,7 +2723,7 @@ let moscowMaps = [
         zindex: 2
     },
     {
-        name: 'стд Янтарь',
+        name: 'Строгино, стд Янтарь',
         year: 2026,
         url: './maps/moscow/sz/yantar_stdm_2026.webp',
         bounds: [[55.8057793, 37.4085760], [55.8041513, 37.4266648], [55.7983743, 37.4059153]],
@@ -4194,7 +4194,7 @@ let moscowMaps = [
         bounds: [[55.8064365, 37.4483585], [55.8050799, 37.4596345], [55.7958955, 37.4445605]],
         author: 'SKLV_V',
         owner: 'MLKHT',
-        type: ['CITY']
+        type: ['CITY','PARK']
     },
     {
         name: 'Живописная ул',
