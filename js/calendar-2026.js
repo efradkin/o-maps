@@ -2716,6 +2716,7 @@ let events2026 = [
         fmt: 'ночное',
         link: 'https://spb-orient.ru/lemb2026',
         reg: 'https://reg.spb-orient.ru/',
+        bulletin: 'https://spb-orient.ru/lemb/2026/lemb-2026-polojenie.pdf',
         map: 'lembolovo_2024'
     },
     {
@@ -2836,6 +2837,7 @@ let events2026 = [
         place: 'Колпинский ПКиО',
         link: 'https://vk.ru/wall-171862432_235',
         reg: 'https://orgeo.ru/event/55190',
+        bulletin: 'https://orgeo.ru/files/event/file/55190_641ed466e4.pdf',
         endReg: '2026-10-01 00:00',
         o_site: '261003_kolpino'
     },
@@ -2972,6 +2974,7 @@ let events2026 = [
         name: 'П-во Кировского р-на',
         place: 'сад 9 Января',
         reg: 'https://orgeo.ru/event/55827',
+        bulletin: 'https://orgeo.ru/files/event/file/55827_8f70de77d6.pdf',
         fmt: 'спринт',
         owner: 'NVGTR',
         map: 'sad_9_janvarya_2018'
