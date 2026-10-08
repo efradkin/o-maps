@@ -189,6 +189,11 @@ let owners = {
         name: 'Клуб "Nord-West"',
         logo: 'nordwest.webp'
     },
+    NVGTR: {
+        title: 'Навигатор',
+        name: 'КСО Навигатор',
+        logo: 'navigator.webp'
+    },
     OPEN_BAND: {
         name: 'OpenBand, Прозоров Андрей - <a href="https://orientband.ru">сайт</a> и <a href="https://vk.com/openband_ru">ВК</a>',
         logo: 'openband.gif',
