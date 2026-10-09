@@ -2897,6 +2897,7 @@ let events2026 = [
         o_site: '261007_NWSprint_1',
         reg: 'https://orgeo.ru/event/info/55837',
         bulletin: 'https://o-site.spb.ru/_races/261007_NWSprint_1/261007_NWsprint_info.pdf',
+        info: '<a href="https://o-site.spb.ru/_races/261007_NWSprint_1/261007_NWSprint_razbor.pdf">Разбор дистанций</a>.',
         endReg: '2026-10-06 22:00',
         fmt: 'спринт',
         map: 'bogatyrsky_2025',
@@ -2975,6 +2976,7 @@ let events2026 = [
         place: 'сад 9 Января',
         reg: 'https://orgeo.ru/event/55827',
         bulletin: 'https://orgeo.ru/files/event/file/55827_8f70de77d6.pdf',
+        endReg: '2026-10-12 23:00',
         fmt: 'спринт',
         owner: 'NVGTR',
         map: 'sad_9_janvarya_2018'

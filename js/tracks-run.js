@@ -283,6 +283,14 @@ let runTracks = [
         type: ['RUN']
     },
     {
+        name: 'Цвелодубово Биотропика ультра-трейл',
+        date: '2026-10-17',
+        link: 'https://biotropikaultra.ru/biotropika-park-2/',
+        info: 'Дистанция ультра-трейлов в формате BUT от Биотропика в кедровом лесу.',
+        gpx: 'tracks/run/tsvelodubovo_biotropika_2026_omaps.gpx',
+        type: ['RUN']
+    },
+    {
         name: 'Hero League Trail',
         date: '2022-07-02',
         link: 'https://heroleague.ru/trail',
