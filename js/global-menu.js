@@ -101,6 +101,16 @@ const GLOBAL_MENU_ITEMS = [
                     { title: '🚵 Европы на велосипедах (EMTBOC)', page: 'calendar.html?startYear=ALL&start=EMTBOC' },
                 ]
             },
+            {
+                title: '🏆 Чемпионаты СССР и России',
+                menuItems: [
+                    { title: '🏃 СССР', page: 'calendar.html?startYear=ALL&start=USSR_CHAMP' },
+                    { title: '⛷️ СССР на лыжах', page: 'calendar.html?startYear=ALL&start=USSR_CHAMP_WINTER' },
+                    { title: '🏃 России', page: 'calendar.html?startYear=ALL&start=RUSSIA_CHAMP' },
+                    { title: '⛷️ России на лыжах', page: 'calendar.html?startYear=ALL&start=RUSSIA_CHAMP_SKI' },
+                    { title: '🚵 России на велосипедах', page: 'calendar.html?startYear=ALL&start=RUSSIA_CHAMP_MTBO' },
+                ]
+            },
             { title: '⛷️ Лыжные гонки', page: 'calendar-ski' },
             { title: '📲️ Android-приложение', page: 'help/calendar_app' },
         ]

@@ -476,7 +476,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2025/07/Чемпионат-СССР-09-12-1989-1.pdf'
         ],
         coord: [58.38333, 58.31667],
-        start: ['USSR_1989_WINTER','USSR_CHAMP'],
+        start: ['USSR_1989_WINTER','USSR_CHAMP_WINTER'],
         planner: ['MTN_Y','SVIR_A'],
         map: 'lubenets_winter_1989'
     },
@@ -491,7 +491,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'заданное направление, спринт, эстафета',
         coord: [56.83333, 60.58333],
-        start: ['USSR_1990_WINTER','USSR_CHAMP'],
+        start: ['USSR_1990_WINTER','USSR_CHAMP_WINTER'],
         map: ['nizhneisetsky_ussr_winter_champ_1990_03_11','nizhneisetsky_ussr_winter_champ_1990_03_13','nizhneisetsky_ussr_winter_champ_1990_03_14']
     },
     {
@@ -521,7 +521,7 @@ let fsorEvents = [
             './docs/1991/1991_02_24_shamanikha_ussr_winter_champ_omaps.pdf',
             'https://rufso.ru/wp-content/uploads/2023/12/1991-Зима-СССР.pdf'
         ],
-        start: ['USSR_1991_WINTER','USSR_CHAMP'],
+        start: ['USSR_1991_WINTER','USSR_CHAMP_WINTER'],
         planner: 'KNTSVCH',
         map: ['shamanikha_ussr_winter_champ_1991','murzinka_ussr_winter_champ_1991','verkh_neyvinsky_ussr_winter_champ_1991']
     },
@@ -584,7 +584,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'короткая, классика, эстафета',
         coord: [53.94917, 32.85694],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_19920808_1',
@@ -606,7 +606,7 @@ let fsorEvents = [
         link: 'https://o-site.spb.ru/history/History/lso.html',
         type: 'SKI',
         fmt: 'удлинённая',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_19930825_1',
@@ -647,7 +647,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, классика, эстафета',
         coord: [53.18333, 50.11667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_19950215_1',
@@ -663,7 +663,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, классика, эстафета',
         coord: [54.69722, 37.27222],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_19950906_1',
@@ -689,7 +689,7 @@ let fsorEvents = [
         info: 'Главный судья — А.М.Бровин, главный секретарь — Л.А.Зиненко.',
         type: 'SKI',
         fmt: 'спринт, классика',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'SPB_19960125_2',
@@ -701,7 +701,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт',
         res: 'https://o-site.spb.ru/history/Knots/rus96s.html',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'SPB_19960126_2',
@@ -713,7 +713,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика',
         res: 'https://o-site.spb.ru/history/Knots/rus96c.html',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_19960905_1',
@@ -761,7 +761,7 @@ let fsorEvents = [
         fmt: 'велокросс, спринт, классика',
         res: 'https://o-site.spb.ru/history/Knots/velo-96.html',
         coord: [60.41667, 30.33333],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_19970916_1',
@@ -787,7 +787,7 @@ let fsorEvents = [
         info: 'Финал Чемпионата России по лыжному ориентированию. Главный судья соревнований А.М.Бровин, главный секретарь Е.А.Винер.',
         type: 'SKI',
         fmt: 'классика, спринт, эстафета 3х',
-        start: 'RUSSIA_CHAMP',
+        start: 'RUSSIA_CHAMP_SKI',
         planner: 'BRDN_V',
         res: './docs/1998/1998_02_18_russia_omaps.pdf',
         coord: [60.46507, 30.26405]
@@ -802,7 +802,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика',
         res: 'https://o-site.spb.ru/history/Knots/rus98c.html',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'SPB_19980220_1',
@@ -814,7 +814,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт',
         res: 'https://o-site.spb.ru/history/Knots/rus98s.html',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'SPB_19980221_1',
@@ -826,7 +826,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3х',
         res: 'https://o-site.spb.ru/history/Knots/rus98r.html',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_19980417_1',
@@ -874,7 +874,7 @@ let fsorEvents = [
         fmt: 'маркированная трасса, классика, спринт, эстафета 3х',
         res: 'https://o-site.spb.ru/history/Win-2000/kyshtym.html',
         coord: [55.7, 60.55],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20000520_1',
@@ -898,7 +898,7 @@ let fsorEvents = [
         link: 'https://o-site.spb.ru/history/Sum-2000/index.html',
         type: 'VELO',
         fmt: 'спринт, классика',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20000908_1',
@@ -935,7 +935,7 @@ let fsorEvents = [
         fmt: 'маркированная трасса, классика, спринт, эстафета 3х',
         res: 'https://o-site.spb.ru/history/Win-2001/kyshtym.html',
         coord: [55.7, 60.55],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'SPB_20010529_1',
@@ -990,7 +990,7 @@ let fsorEvents = [
         link: 'https://o-site.spb.ru/history/Win-2002/index.html',
         type: 'SKI',
         coord: [56.48861, 84.95222],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20020904_1',
@@ -1013,7 +1013,7 @@ let fsorEvents = [
         link: 'https://o-site.spb.ru/history/Win-2003/index.html',
         type: 'SKI',
         coord: [54.46667, 53.46667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20030524_1',
@@ -1069,7 +1069,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика, удлинённая, эстафета',
         coord: [58.01389, 56.24889],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20040730_1',
@@ -1121,7 +1121,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         coord: [60.46507, 30.26405],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20040922_1',
@@ -1324,7 +1324,7 @@ let fsorEvents = [
         fmt: 'спринт, средняя, длинная, маркированная трасса',
         res: 'https://moscompass.ru/news/2006/alexin.zip',
         coord: [54.5, 37.06667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20060208_1',
@@ -1335,7 +1335,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт',
         res: 'https://moscompass.ru/news/2006/20060209.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20060210_1',
@@ -1346,7 +1346,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'средняя',
         res: 'https://moscompass.ru/news/2006/20060210.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20060211_1',
@@ -1357,7 +1357,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'длинная',
         res: 'https://moscompass.ru/news/2006/20060211.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20060212_1',
@@ -1368,7 +1368,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://moscompass.ru/news/2006/20060212.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20060308_1',
@@ -1383,7 +1383,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел., марафон, комбинация, эстафета 3 чел.',
         coord: [54.73333, 55.96667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20060308_2',
@@ -1394,7 +1394,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://moscompass.ru/news/2006/20060308.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20060309_1',
@@ -1405,7 +1405,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'марафон',
         res: 'https://moscompass.ru/news/2006/20060309.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20060311_1',
@@ -1416,7 +1416,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://moscompass.ru/news/2006/20060311.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20060312_1',
@@ -1427,7 +1427,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://moscompass.ru/news/2006/20060312.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20060407_1',
@@ -1497,7 +1497,7 @@ let fsorEvents = [
         ],
         type: 'VELO',
         fmt: 'спринт, длинная, эстафета 3 чел., классика',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20060801_2',
@@ -1508,7 +1508,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://o-site.spb.ru/history/Sum-2006/nn-mtbo.html',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20060802_1',
@@ -1519,7 +1519,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'длинная',
         res: 'https://o-site.spb.ru/history/Sum-2006/nn-mtbo.html',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20060804_1',
@@ -1530,7 +1530,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://o-site.spb.ru/history/Sum-2006/nn-mtbo.html',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20060805_1',
@@ -1541,7 +1541,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://o-site.spb.ru/history/Sum-2006/nn-mtbo.html',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20060910_1',
@@ -1618,7 +1618,7 @@ let fsorEvents = [
         fmt: 'маркированная трасса, эстафета, маркированная трасса, эстафета, короткая, классика',
         bulletin: 'http://www.orienteering.ural.ru/b1.htm',
         coord: [55.7, 60.55],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'SPB_20070624_1',
@@ -1631,7 +1631,7 @@ let fsorEvents = [
         o_site: '070624',
         bulletin: 'https://o-site.spb.ru/_races/070624/070624_info1.htm',
         fmt: 'спринт, лонг, эстафета 3 чел., классика',
-        start: 'RUSSIA_CHAMP',
+        start: 'RUSSIA_CHAMP_MTBO',
         map: 'lembolovo_russia_2007'
     },
     {
@@ -1667,7 +1667,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'общий старт, спринт, лонг',
         coord: [58.38333, 58.31667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20080125_1',
@@ -1678,7 +1678,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'общий старт',
         res: 'https://moscompass.ru/news/2008/20080125.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20080126_1',
@@ -1689,7 +1689,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт',
         res: 'https://moscompass.ru/news/2008/20080126.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20080127_1',
@@ -1700,7 +1700,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг',
         res: 'https://moscompass.ru/news/2008/20080127.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20080221_1',
@@ -1712,7 +1712,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., марафон, эстафета 3 чел., классика',
         bulletin: 'https://moscompass.ru/news/2008/polozh-tumen.doc',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20080505_1',
@@ -1778,7 +1778,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика, эстафета 3 чел., лонг',
         coord: [55.7, 60.55],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20090128_1',
@@ -1794,7 +1794,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт, классика, общий старт, эстафета 3 чел., эстафета, маркированная трасса 3 чел.',
         coord: [53.34861, 83.77639],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20090213_1',
@@ -1806,7 +1806,7 @@ let fsorEvents = [
         fmt: 'комбинация, лонг, многодневная',
         bulletin: 'https://moscompass.ru/news/2009/bulleten_Rossij_14_17_02_09.pdf',
         coord: [48.48333, 135.06667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20090716_1',
@@ -1818,7 +1818,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт, классика, лонг',
         coord: [54.2, 37.61667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20090930_1',
@@ -1880,7 +1880,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, лонг, эстафета, маркированная трасса 3 чел., эстафета 3 чел.',
         bulletin: 'https://moscompass.ru/news/2010/2010ber_roscha.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20100227_2',
@@ -1891,7 +1891,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://moscompass.ru/news/2010/20100227.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20100228_1',
@@ -1902,7 +1902,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг',
         res: 'https://moscompass.ru/news/2010/20100228.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20100302_1',
@@ -1913,7 +1913,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://moscompass.ru/news/2010/20100302.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20100303_1',
@@ -1924,7 +1924,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://moscompass.ru/news/2010/20100303.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20100414_1',
@@ -2039,7 +2039,7 @@ let fsorEvents = [
         fmt: 'лонг',
         res: 'https://moscompass.ru/news/2010/20101219.htm',
         coord: [57.15, 65.53333],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20110224_1',
@@ -2058,7 +2058,7 @@ let fsorEvents = [
             'http://www.orienteering.ural.ru/anews/2011/110228.htm'
         ],
         coord: [57.25, 60.08333],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20110402_1',
@@ -2071,7 +2071,7 @@ let fsorEvents = [
         fmt: 'маркированная трасса, классика, марафон',
         bulletin: 'http://www.kfso.ru/docs/polozheniya/2011/marafon2011lesosibirsk.doc',
         coord: [58.23333, 92.48333],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20110403_1',
@@ -2082,7 +2082,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'http://www.kfso.ru/docs/protokoli/rus/030411.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20110518_1',
@@ -2104,7 +2104,7 @@ let fsorEvents = [
         fmt: 'классика, эстафета 3 чел., лонг, спринт',
         bulletin: 'http://www.orienteering.nn.ru/rez/2011/20110524_bul_nnov_chemp_velo_web.pdf',
         coord: [56.32694, 44.0075],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20110525_1',
@@ -2115,7 +2115,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://moscompass.ru/news/2011/20110525CHR.doc',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20110526_1',
@@ -2126,7 +2126,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://moscompass.ru/news/2011/20110526CHR.doc',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20110528_1',
@@ -2137,7 +2137,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://moscompass.ru/news/2011/20110528CHR.doc',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20110529_1',
@@ -2148,7 +2148,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://moscompass.ru/news/2011/20110529CHR.doc',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'SPB_20110612_1',
@@ -2222,7 +2222,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'общий старт, спринт, классика',
         coord: [55.16667, 59.66667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20111213_2',
@@ -2232,7 +2232,7 @@ let fsorEvents = [
         info: 'М: Андрей Ламов - 1, Эдуард Хренников - 2, Кирилл Веселов - 3; Ж: Анастасия Кравченко - 1, Татьяна Козлова - 2, Юлия Тарасенко - 3.',
         type: 'SKI',
         fmt: 'общий старт',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20111214_1',
@@ -2242,7 +2242,7 @@ let fsorEvents = [
         info: 'М: Кирилл Веселов - 1, Андрей Ламов - 2, Андрей Григорьев - 3; Ж: Полина Мальчикова - 1, Анастасия Кравченко - 2, Татьяна Козлова - 3.',
         type: 'SKI',
         fmt: 'спринт',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20111215_1',
@@ -2252,7 +2252,7 @@ let fsorEvents = [
         info: 'М: Андрей Ламов - 1, Андрей Григорьев - 2, Кирилл Веселов - 3; Ж: Полина Мальчикова - 1, Наталья Томилова - 2, Татьяна Козлова - 3.',
         type: 'SKI',
         fmt: 'классика',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20120213_1',
@@ -2265,7 +2265,7 @@ let fsorEvents = [
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация, лонг',
         res: 'https://moscompass.ru/news/2012/20120214-17chr.zip',
         coord: [56.32694, 44.0075],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20120214_1',
@@ -2276,7 +2276,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://moscompass.ru/news/2012/20120214-17chr.zip',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20120215_1',
@@ -2287,7 +2287,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://moscompass.ru/news/2012/20120214-17chr.zip',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20120216_1',
@@ -2298,7 +2298,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://moscompass.ru/news/2012/20120214-17chr.zip',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20120217_1',
@@ -2309,7 +2309,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг',
         res: 'https://moscompass.ru/news/2012/20120214-17chr.zip',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20120313_1',
@@ -2325,7 +2325,7 @@ let fsorEvents = [
         fmt: 'спринт, классика, эстафета 3 чел., марафон',
         bulletin: 'https://moscompass.ru/news/2012/tomsk1.pdf',
         coord: [56.48861, 84.95222],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20120522_1',
@@ -2337,7 +2337,7 @@ let fsorEvents = [
         fmt: 'спринт, классика, лонг, эстафета 3 чел.',
         bulletin: 'http://www.rufso.ru/files/2012_Kovrov_velo_1-2.doc',
         coord: [56.36056, 41.31972],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20120523_1',
@@ -2348,7 +2348,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://moscompass.ru/news/2012/20120523f.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20120523_2',
@@ -2372,7 +2372,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://moscompass.ru/news/2012/20120524f.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20120525_1',
@@ -2383,7 +2383,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://moscompass.ru/news/2012/20120525f.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20120526_1',
@@ -2394,7 +2394,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://moscompass.ru/news/2012/20120526f.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20120527_1',
@@ -2534,7 +2534,7 @@ let fsorEvents = [
             'https://moscompass.ru/news/2012/20121212_komi_res.htm'
         ],
         coord: [61.66667, 50.81667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20121210_1',
@@ -2545,7 +2545,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'общий старт',
         res: 'https://moscompass.ru/news/2012/20121210_komi_res.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20130201_1',
@@ -2560,7 +2560,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, классика, общий старт',
         coord: [52.58333, 41.5],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20130313_1',
@@ -2572,7 +2572,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел., спринт, комбинация, лонг, эстафета 3 чел., марафон',
         coord: [56.48861, 84.95222],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20130626_1',
@@ -2585,7 +2585,7 @@ let fsorEvents = [
         fmt: 'спринт, классика, эстафета 3 чел., лонг',
         res: 'https://moscompass.ru/news/2013/20130630_kom.xlsx',
         coord: [54.46667, 53.46667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20130627_1',
@@ -2596,7 +2596,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://moscompass.ru/news/2013/20130627_res.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20130628_1',
@@ -2607,7 +2607,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://moscompass.ru/news/2013/20130628_res.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20130629_1',
@@ -2618,7 +2618,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://moscompass.ru/news/2013/20130629_res.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20130630_1',
@@ -2629,7 +2629,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://moscompass.ru/news/2013/20130630_res.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20131012_1',
@@ -2670,7 +2670,7 @@ let fsorEvents = [
             'http://www.orientural.ru/doc/140228.htm'
         ],
         coord: [55.66864, 60.36021],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20140513_1',
@@ -2727,7 +2727,7 @@ let fsorEvents = [
             'https://moscompass.ru/news/2014/20140704velo_.htm'
         ],
         coord: [53.2, 45],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20140702_2',
@@ -2738,7 +2738,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://moscompass.ru/news/2014/20140702velo.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20140703_1',
@@ -2749,7 +2749,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://moscompass.ru/news/2014/20140703velo.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20140705_1',
@@ -2760,7 +2760,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://moscompass.ru/news/2014/20140705velo.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20141104_1',
@@ -2851,7 +2851,7 @@ let fsorEvents = [
         fmt: 'многодневная, лонг',
         res: 'https://drive.google.com/file/d/0BwGzL7u1ioxjTnc5Zkk0Ymlqdnc/view?usp=sharing',
         coord: [58.01389, 56.24889],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20150201_1',
@@ -2868,7 +2868,7 @@ let fsorEvents = [
         bulletin: 'https://web.archive.org/web/20150811200132/http://www.fso-tambov.ru/images/Document/2015/20150201_infbul3.doc',
         res: 'https://rufso.orgeo.ru/event/results/1649',
         coord: [52.58333, 41.5],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20150202_1',
@@ -2879,7 +2879,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://rufso.orgeo.ru/result/view/1649/s/1',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20150203_1',
@@ -2890,7 +2890,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://web.archive.org/web/20150811160351/http://www.fso-tambov.ru/images/Document/2015/20150203_chemp.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20150204_1',
@@ -2901,7 +2901,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://rufso.orgeo.ru/result/view/1649/s/3',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20150302_1',
@@ -2918,7 +2918,7 @@ let fsorEvents = [
         bulletin: 'https://www.dropbox.com/s/uwb4k3e9ozcpp8f/Бюллетень%20№2%20%20ЧР%202015%20-Изумруд.doc?dl=0',
         res: 'https://legenda35.ru/media/archives/Протоколы.rar',
         coord: [59.21667, 39.9],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20150303_1',
@@ -2929,7 +2929,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'общий старт',
         res: 'https://moscompass.ru/news/2015/20150303f.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20150304_1',
@@ -2940,7 +2940,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика',
         res: 'https://moscompass.ru/news/2015/20150304f.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20150305_1',
@@ -2951,7 +2951,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://moscompass.ru/news/2015/20150305f.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20150307_1',
@@ -2962,7 +2962,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'марафон',
         res: 'https://moscompass.ru/news/2015/20150307f.htm',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20150522_1',
@@ -3056,7 +3056,7 @@ let fsorEvents = [
             'http://school-12.ru/files/2015/20150711_Res.htm'
         ],
         coord: [57.14417, 43.1625],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20150909_1',
@@ -3188,7 +3188,7 @@ let fsorEvents = [
         bulletin: 'https://web.archive.org/web/20160207090839/http://fsorb.ru/prezidium/sportivno-tehnicheskaya-kommisiya/pr-kr-chr-vs-2015-oktyabrskii/byulleten-no1-2',
         res: 'https://web.archive.org/web/20160207095745/http://fsorb.ru/prezidium/sportivno-tehnicheskaya-kommisiya/pr-kr-chr-vs-2015-oktyabrskii/komplekt-protokolov-chr-i-vs-15-17-12.15',
         coord: [54.46667, 53.46667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20151215_1',
@@ -3199,7 +3199,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт',
         res: 'https://rufso.orgeo.ru/result/view/2467/s/1',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20151216_1',
@@ -3210,7 +3210,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг',
         res: 'https://rufso.orgeo.ru/result/view/2467/s/2',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20151217_1',
@@ -3221,7 +3221,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'многодневная',
         res: 'https://web.archive.org/web/20160207095745/http://fsorb.ru/prezidium/sportivno-tehnicheskaya-kommisiya/pr-kr-chr-vs-2015-oktyabrskii/komplekt-protokolov-chr-i-vs-15-17-12.15',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20160221_1',
@@ -3232,7 +3232,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация',
         coord: [56.36056, 41.31972],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20160221_2',
@@ -3247,7 +3247,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/lg-mt-zh.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/lg-mt-m.pdf'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20160222_1',
@@ -3262,7 +3262,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/lg-estafeta-mt-zh.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/lg-estafeta-mt-m.pdf'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20160224_1',
@@ -3277,7 +3277,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/lg-kombinaciya-zh.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/lg-kombinaciya-m.pdf'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20160318_1',
@@ -3288,7 +3288,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'общий старт, классика, эстафета 3 чел., марафон',
         coord: [56.48861, 84.95222],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20160318_2',
@@ -3303,7 +3303,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/lg-os-zh.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/lg-os-m.pdf'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20160319_1',
@@ -3318,7 +3318,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/lg-klassika-zh.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/lg-klassika-m.pdf'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20160320_1',
@@ -3330,7 +3330,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2017/09/lg-estafeta-3-zh.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20160322_1',
@@ -3345,7 +3345,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/lg-marafon-zh.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/lg-marafon-m.pdf'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20160507_1',
@@ -3356,7 +3356,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт, классика',
         coord: [55.75056, 37.6175],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20160507_2',
@@ -3371,7 +3371,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/velo-zh-sprint.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/velo-m-sprint.pdf'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20160508_1',
@@ -3386,7 +3386,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/velo-klassika.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/velo-m-klassika.pdf'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20160611_1',
@@ -3524,7 +3524,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел., лонг',
         coord: [55.01667, 82.91667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20160917_2',
@@ -3539,7 +3539,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/velo-zh-estafeta.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/velo-m-estafeta.pdf'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20160918_1',
@@ -3554,7 +3554,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/velo-zh-long.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/velo-m-long.pdf'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20161110_1',
@@ -3631,7 +3631,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт, лонг, многодневная',
         coord: [55.16667, 59.66667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20161212_2',
@@ -3646,7 +3646,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/lg-sprint-zh.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/lg-sprint-m.pdf'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20161213_1',
@@ -3661,7 +3661,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/lg-long-zh.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/lg-long-m.pdf'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20161215_1',
@@ -3676,7 +3676,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/lg-mnogodnevnaya-zh.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/lg-mnogodnevnaya-m.pdf'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20170202_1',
@@ -3687,7 +3687,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., классика, общий старт, комбинация',
         coord: [56.23333, 43.45],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20170202_2',
@@ -3699,7 +3699,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Лыжная-гонка-МТ.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20170203_1',
@@ -3711,7 +3711,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Лыжная-гонка-МТ-эстафета.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20170204_1',
@@ -3723,7 +3723,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Лыжная-гонка-классика-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20170205_1',
@@ -3735,7 +3735,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Лыжная-гонка-комбинация.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20170316_1',
@@ -3746,7 +3746,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг, общий старт, классика, эстафета 3 чел., марафон',
         coord: [53.26944, 89.56478],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20170316_2',
@@ -3758,7 +3758,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Лыжная-гонка-лонг-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20170317_1',
@@ -3770,7 +3770,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Лыжная-гонка-классика.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20170318_1',
@@ -3782,7 +3782,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Лыжная-гонка-эстафета-3-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20170319_1',
@@ -3794,7 +3794,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'марафон',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Лыжная-гонка-марафон.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20170514_1',
@@ -3851,7 +3851,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел., спринт, лонг',
         coord: [56.36056, 41.31972],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20170622_2',
@@ -3863,7 +3863,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Велокросс-эстафета-2-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20170623_1',
@@ -3875,7 +3875,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Велокросс-спринт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20170624_1',
@@ -3887,7 +3887,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Велокросс-лонг.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20170911_1',
@@ -3898,7 +3898,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел., общий старт, классика',
         coord: [55.75056, 37.6175],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20170911_2',
@@ -3910,7 +3910,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Велокросс-эстафета-3-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20170912_1',
@@ -3922,7 +3922,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Велокросс-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20170913_1',
@@ -3934,7 +3934,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Велокросс-классика.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20170914_1',
@@ -4054,7 +4054,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 2 чел., спринт, лонг',
         coord: [58.01389, 56.24889],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20171211_2',
@@ -4066,7 +4066,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Лыжная-гонка-эстафета-2-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20171212_1',
@@ -4078,7 +4078,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Лыжная-гонка-спринт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20171213_1',
@@ -4090,7 +4090,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Лыжная-гонка-лонг.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'SPB_20180212_1',
@@ -4112,7 +4112,7 @@ let fsorEvents = [
         name: 'Чемпионат России',
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация, лонг, общий старт',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20180306_2',
@@ -4124,7 +4124,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://rufso.ru/wp-content/uploads/2018/03/ЧР-Лыжная-гонка-МТ.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20180307_1',
@@ -4136,7 +4136,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2018/03/ЧР-Лыжная-гонка-эстафета-МТ.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20180308_1',
@@ -4148,7 +4148,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://rufso.ru/wp-content/uploads/2018/03/ЧР-Лыжная-гонка-комбинация.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20180309_1',
@@ -4160,7 +4160,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2018/03/ЧР-Лыжная-гонка-лонг-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20180316_1',
@@ -4171,7 +4171,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика, общий старт, классика, эстафета 3 чел., марафон',
         coord: [58.38333, 58.31667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20180316_2',
@@ -4183,7 +4183,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2018/03/ЧР-Лыжная-гонка-классика-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20180317_1',
@@ -4195,7 +4195,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2018/03/ЧР-Лыжная-гонка-классика.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20180318_1',
@@ -4207,7 +4207,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2018/03/ЧР-Лыжная-гонка-эстафета-3-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20180319_1',
@@ -4219,7 +4219,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'марафон',
         res: 'https://rufso.ru/wp-content/uploads/2018/03/ЧР-Лыжная-гонка-марафон.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20180606_1',
@@ -4283,7 +4283,7 @@ let fsorEvents = [
         name: 'Чемпионат России',
         type: 'VELO',
         fmt: 'эстафета 2 чел., спринт, лонг',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20180706_2',
@@ -4295,7 +4295,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2018/07/ЧР-Велокросс-эстафета-2-человека-1.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20180707_1',
@@ -4307,7 +4307,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2018/07/ЧР-Велокросс-спринт-1.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20180708_1',
@@ -4319,7 +4319,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2018/07/ЧР-Велокросс-лонг-1.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20180922_1',
@@ -4439,7 +4439,7 @@ let fsorEvents = [
         name: 'Чемпионат России',
         type: 'SKI',
         fmt: 'спринт, лонг, многодневная, эстафета 2 чел.',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20181218_2',
@@ -4451,7 +4451,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2018/12/ЧР-Лыжная-гонка-спринт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20181219_1',
@@ -4463,7 +4463,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2018/12/ЧР-Лыжная-гонка-лонг.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20181221_1',
@@ -4475,7 +4475,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'многодневная',
         res: 'https://rufso.ru/wp-content/uploads/2018/12/ЧР-Лыжная-гонка-многодневная.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20181222_1',
@@ -4487,7 +4487,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2018/12/ЧР-Лыжная-гонка-эстафета-2-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20190221_1',
@@ -4498,7 +4498,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация, лонг, общий старт',
         coord: [58.01389, 56.24889],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20190221_2',
@@ -4510,7 +4510,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://rufso.ru/wp-content/uploads/2019/03/ЧР-ЛГ-МТ.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20190222_1',
@@ -4522,7 +4522,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2019/03/ЧР-ЛГ-эстафета-МТ-3-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20190223_1',
@@ -4534,7 +4534,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://rufso.ru/wp-content/uploads/2019/03/ЧР-ЛГ-комбинация.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20190224_1',
@@ -4546,7 +4546,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2019/03/ЧР-ЛГ-лонг-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20190329_1',
@@ -4556,7 +4556,7 @@ let fsorEvents = [
         name: 'Чемпионат России',
         type: 'SKI',
         fmt: 'классика, общий старт, классика, эстафета 3 чел., марафон',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20190329_2',
@@ -4568,7 +4568,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2019/04/ЧР-ЛГ-классика-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20190330_1',
@@ -4580,7 +4580,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2019/04/ЧР-ЛГ-классика.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20190331_1',
@@ -4592,7 +4592,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2019/04/ЧР-ЛГ-эстафета-3-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20190401_1',
@@ -4604,7 +4604,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'марафон',
         res: 'https://rufso.ru/wp-content/uploads/2019/04/ЧР-ЛГ-марафон.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'SPB_20190524_1',
@@ -4643,7 +4643,7 @@ let fsorEvents = [
         info: 'М: Леонид Новиков (Белгородская обл.) - 1, Валентин Новиков (Новгородская обл.) - 2, Юрий Тамбасов (Воронежская обл.) - 3; Ж: Светлана Миронова (Нижегородская обл.) - 1, Анастасия Рудная (Новгородская обл.) - 2, Татьяна Рябкина (Новгородская обл.) - 3.',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2019/06/ЧР-классика.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: ['RUSSIA_CHAMP','RUSSIA_2019']
     },
     {
         id: 'SPB_20190526_3',
@@ -4653,14 +4653,14 @@ let fsorEvents = [
         info: 'М: Валентин Новиков (Новгородская обл.) - 1, Дмитрий Цветков (Ленинградская обл.) - 2, Дмитрий Наконечный (Калининградская обл.) - 3; Ж: Анастасия Рудная (Новгородская обл.) - 1, Татьяна Рябкина (Новгородская обл.) - 2, Светлана Миронова (Нижегородская обл.) - 3.',
         fmt: 'многодневный',
         res: 'https://rufso.ru/wp-content/uploads/2019/06/ЧР-многодневный.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: ['RUSSIA_CHAMP','RUSSIA_2019']
     },
     {
         id: 'SPB_20190628_2',
         date: '2019-06-28',
         endDate: '2019-06-30',
         name: 'Чемпионат и Первенство России',
-        start: 'RUSSIA_CHAMP',
+        start: 'RUSSIA_CHAMP_MTBO',
         place: 'Кавголово',
         type: 'VELO',
         reg: 'https://o-site.spb.ru/_races/19062830_velo/https://orgeo.ru/event/9654',
@@ -4678,7 +4678,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2019/07/ЧР-Велокросс-спринт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'SPB_20190629_2',
@@ -4689,7 +4689,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2019/07/ЧР-Велокросс-лонг.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'SPB_20190630_1',
@@ -4700,7 +4700,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2019/07/ЧР-Велокросс-эстафета-2-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20190720_1',
@@ -4754,7 +4754,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт, эстафета 3 чел., классика',
         coord: [56.36056, 41.31972],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20190830_2',
@@ -4766,7 +4766,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2019/09/1-ВК-Общий-старт-_-Чемпионат.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20190831_1',
@@ -4778,7 +4778,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2019/09/2-ВК-Эстафета-3-чел-_-Чемпионат.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20190901_1',
@@ -4790,7 +4790,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2019/09/3-ВК-Классика-_-Чемпионат.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'SPB_20190904_1',
@@ -4900,7 +4900,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт, классика, общий старт, эстафета 3 чел., лонг',
         coord: [55.68139, 37.89389],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20200214_2',
@@ -4912,7 +4912,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2020/04/ЧР-ЛГ-спринт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20200215_1',
@@ -4924,7 +4924,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2020/04/ЧР-ЛГ-классика-ос.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20200216_1',
@@ -4936,7 +4936,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2020/04/ЧР-ЛГ-эстафета-3-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20200217_1',
@@ -4948,7 +4948,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2020/04/ЧР-ЛГ-лонг.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20200318_1',
@@ -4959,7 +4959,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация, марафон',
         coord: [55.66864, 60.36021],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20200318_2',
@@ -4971,7 +4971,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://rufso.ru/wp-content/uploads/2020/04/ЧР-ЛГ-МТ.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20200319_1',
@@ -4983,7 +4983,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2020/04/ЧР-ЛГ-эстафета-маркир.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20200320_1',
@@ -4995,7 +4995,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://rufso.ru/wp-content/uploads/2020/04/ЧР-ЛГ-комбинация.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20200321_1',
@@ -5007,7 +5007,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'марафон',
         res: 'https://rufso.ru/wp-content/uploads/2020/04/ЧР-ЛГ-марафон.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20200918_1',
@@ -5018,7 +5018,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт, эстафета 3 чел., классика',
         coord: [55.65, 37.95],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20200918_2',
@@ -5030,7 +5030,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2020/09/Общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20200919_1',
@@ -5042,7 +5042,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2020/09/Эстафета.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20200920_1',
@@ -5054,7 +5054,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2020/09/Классика.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'SPB_20200926_2',
@@ -5086,7 +5086,7 @@ let fsorEvents = [
         info: 'МЖ: Санкт-Петербург (Дмитрий Поляков, Артём Попов, Олеся Рязанова, Татьяна Бевза) - 1, Новгородская область (Иван Никитин, Андрей Храмов, Юлия Новикова, Екатерина Никитина) - 2, Московская область (Владислав Малышев, Иван Кучменко, Нина Темякова, Анастасия Пашуто) - 3.',
         fmt: 'эстафета 4 чел. (2М+2Ж)',
         res: 'https://rufso.ru/wp-content/uploads/2020/10/1-день.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: ['RUSSIA_2020','RUSSIA_CHAMP']
     },
     {
         id: 'SPB_20200926_7',
@@ -5096,7 +5096,7 @@ let fsorEvents = [
         info: 'М: Артём Попов (Санкт-Петербург) - 1, Дмитрий Наконечный (Калининградская обл.) - 2, Игорь Попов (Ленинградская обл.) - 3; Ж: Галина Виноградова (Алтайский край) - 1, Светлана Миронова (Нижегородская обл.) - 2, Юлия Новикова (Новгородская обл.) - 3.',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2020/10/2-день.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: ['RUSSIA_2020','RUSSIA_CHAMP']
     },
     {
         id: 'SPB_20200927_3',
@@ -5106,7 +5106,7 @@ let fsorEvents = [
         info: 'М: Евгений Годлевский (Санкт-Петербург) - 1, Константин Серебряницкий (Ленинградская обл.) - 2, Артём Попов (Санкт-Петербург) - 3; Ж: Юлия Новикова (Новгородская обл.) - 1, Александра Войтова (Воронежская обл.) - 2, Олеся Рязанова (Санкт-Петербург) - 3.',
         fmt: 'спринт, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2020/10/3-день.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: ['RUSSIA_2020','RUSSIA_CHAMP']
     },
     {
         id: 'MAJOR_20201017_1',
@@ -5171,7 +5171,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт, эстафета 2 чел., лонг',
         coord: [44.66722, 34.39778],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20201120_2',
@@ -5183,7 +5183,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2020/12/велокросс-спринт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20201121_1',
@@ -5195,7 +5195,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2020/12/велокросс-эстафета-2-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20201122_1',
@@ -5207,7 +5207,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2020/12/Велокросс-лонг-ЧР.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20201217_1',
@@ -5218,7 +5218,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг, общий старт, классика, многодневная, эстафета 2 чел.',
         coord: [58.38333, 58.31667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20201217_2',
@@ -5230,7 +5230,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2020/12/Протокол-ЧР-ЛГ-лонг-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20201218_1',
@@ -5242,7 +5242,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2020/12/Протокол-ЧР-ЛГ-классика.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20201220_1',
@@ -5254,7 +5254,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'многодневная',
         res: 'https://rufso.ru/wp-content/uploads/2020/12/Протокол-ЧР-ЛГ-многодневная.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20201221_1',
@@ -5266,7 +5266,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2020/12/Протокол-ЧР-ЛГ-эстафета-2-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20210211_1',
@@ -5279,7 +5279,7 @@ let fsorEvents = [
         fmt: 'маркированная трасса, комбинация, классика, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2021/03/ЧР-ЛГ-эстафета-МТ.pdf',
         coord: [55.18333, 44.15],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20210211_2',
@@ -5291,7 +5291,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://rufso.ru/wp-content/uploads/2021/03/ЧР-ЛГ-МТ.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20210213_1',
@@ -5303,7 +5303,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://rufso.ru/wp-content/uploads/2021/03/ЧР-ЛГ-комбинация.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20210214_1',
@@ -5315,7 +5315,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2021/03/ЧР-ЛГ-классика-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20210324_1',
@@ -5325,7 +5325,7 @@ let fsorEvents = [
         name: 'Чемпионат России',
         type: 'SKI',
         fmt: 'лонг, общий старт, классика, эстафета 3 чел., марафон',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20210324_2',
@@ -5337,7 +5337,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2021/03/ЧР-ЛГ-лонг-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20210325_1',
@@ -5349,7 +5349,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2021/03/ЧР-ЛГ-классика.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20210326_1',
@@ -5361,7 +5361,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2021/03/ЧР-ЛГ-эстафета.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20210327_1',
@@ -5373,7 +5373,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'марафон',
         res: 'https://rufso.ru/wp-content/uploads/2021/03/ЧР-ЛГ-марафон.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20210523_1',
@@ -5428,7 +5428,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт, эстафета 2 чел., лонг',
         coord: [51.67167, 39.21056],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20210702_2',
@@ -5440,7 +5440,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2021/08/ЧР-велокросс-спринт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20210703_1',
@@ -5452,7 +5452,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2021/08/ЧР-велокросс-эст-2-чел.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20210704_1',
@@ -5464,7 +5464,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2021/08/ЧР-велокросс-лонг.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20210716_1',
@@ -5518,7 +5518,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт, эстафета 3 чел., классика',
         coord: [55.75056, 37.6175],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20210827_2',
@@ -5530,7 +5530,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2021/09/ЧР-Вело-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20210828_1',
@@ -5542,7 +5542,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2021/09/ЧР-вело-эст-3-чел.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20210829_1',
@@ -5554,7 +5554,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2021/09/ЧР-вело-классика.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20210910_1',
@@ -5641,7 +5641,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация',
         coord: [52.28333, 104.3],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20220211_2',
@@ -5653,7 +5653,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://rufso.ru/wp-content/uploads/2022/05/ЧР-ЛГ-МТ.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20220212_1',
@@ -5665,7 +5665,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2022/05/ЧР-ЛГ-эст-3-чел-МТ.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20220213_1',
@@ -5677,7 +5677,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://rufso.ru/wp-content/uploads/2022/05/ЧР-ЛГ-комбинация.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20220323_1',
@@ -5688,7 +5688,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт, классика, общий старт, эстафета 3 чел., марафон',
         coord: [55.01667, 82.91667],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20220323_2',
@@ -5700,7 +5700,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2022/05/ЧР-ЛГ-спринт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20220324_1',
@@ -5712,7 +5712,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2022/05/ЧР-ЛГ-классика-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20220325_1',
@@ -5724,7 +5724,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2022/05/ЧР-ЛГ-эст-3-чел.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20220327_1',
@@ -5736,7 +5736,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'марафон',
         res: 'https://rufso.ru/wp-content/uploads/2022/05/ЧР-ЛГ-марафон.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20220427_1',
@@ -5758,7 +5758,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел., лонг, спринт',
         coord: [56.36056, 41.31972],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20220603_2',
@@ -5770,7 +5770,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2022/06/ЧР-Велокросс-эстафета-2-чел.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20220604_1',
@@ -5782,7 +5782,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2022/06/ЧР-велокросс-лонг.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20220605_1',
@@ -5794,7 +5794,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2022/06/ЧР-Велокросс-спринт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'SPB_20220611_1',
@@ -5849,7 +5849,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт, эстафета 3 чел., классика',
         coord: [56.32694, 44.0075],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'SPB_20220909_1',
@@ -5871,7 +5871,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2022/09/ЧР-Велокросс-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'SPB_20220910_2',
@@ -5893,7 +5893,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2022/09/ЧР-Велокросс-эстафета-3-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'SPB_20220911_3',
@@ -5915,7 +5915,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2022/09/ЧР-Велокросс-классика.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20220923_1',
@@ -6023,7 +6023,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг, общий старт, эстафета 3 чел., классика',
         coord: [56.01208, 92.8713],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20230302_2',
@@ -6035,7 +6035,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2023/03/ЧР-ЛГ-лонг-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20230303_1',
@@ -6047,7 +6047,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2023/03/ЧР-ЛГ-эстафета-3-чел.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20230304_1',
@@ -6059,7 +6059,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2023/03/ЧР-ЛГ-классика.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20230307_1',
@@ -6070,7 +6070,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация',
         coord: [56.48861, 84.95222],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20230307_2',
@@ -6082,7 +6082,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://rufso.ru/wp-content/uploads/2023/03/ЧР-ЛГ-МТ.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20230308_1',
@@ -6094,7 +6094,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2023/03/ЧР-ЛГ-эстафета-маркир.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20230309_1',
@@ -6106,7 +6106,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://rufso.ru/wp-content/uploads/2023/03/ЧР-ЛГ-комбинация.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'SPB_20230314_1',
@@ -6117,7 +6117,7 @@ let fsorEvents = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/230314/230318_res_of_VS.pdf',
         o_site: '230314',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'SPB_20230315_1',
@@ -6128,7 +6128,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2023/03/ЧР-ЛГ-классика-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'SPB_20230317_1',
@@ -6139,7 +6139,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'марафон',
         res: 'https://rufso.ru/wp-content/uploads/2023/03/ЧР-ЛГ-марафон.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20230519_1',
@@ -6193,7 +6193,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт, эстафета 2 чел.',
         coord: [55.88917, 37.445],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20230624_2',
@@ -6205,7 +6205,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2023/11/ЧР-Велокросс-спринт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20230625_1',
@@ -6217,7 +6217,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2023/11/ЧР-Велокросс-эстафета-2-человека.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20230822_1',
@@ -6271,7 +6271,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт, лонг, эстафета 3 чел., классика',
         coord: [56.85783, 35.92193],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20230907_2',
@@ -6283,7 +6283,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2023/11/ЧР-Велокросс-общий-старт.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20230908_1',
@@ -6295,7 +6295,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2023/11/ЧР-Велокросс-лонг.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20230909_1',
@@ -6307,7 +6307,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2023/11/ЧР-Велокросс-эст-3-чел.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20230910_1',
@@ -6319,7 +6319,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2023/11/ЧР-Велокросс-классика.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20230922_1',
@@ -6423,7 +6423,7 @@ let fsorEvents = [
         bulletin: 'https://orgeo.ru/files/event/file/30683_65d74ecb5a.pdf',
         res: 'https://rufso.orgeo.ru/files/event/file/30683_6fbb9d50cc.zip',
         coord: [55.7, 60.55],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20240116_1',
@@ -6434,7 +6434,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://rufso.orgeo.ru/result/view/30683/s/8',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20240117_1',
@@ -6445,7 +6445,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://rufso.orgeo.ru/files/event/file/30683_6fbb9d50cc.zip',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20240118_1',
@@ -6456,7 +6456,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://rufso.orgeo.ru/files/event/file/30683_6fbb9d50cc.zip',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20240305_1',
@@ -6472,7 +6472,7 @@ let fsorEvents = [
         fmt: 'классика, лонг, эстафета 2 чел., эстафета 3 чел.',
         res: 'https://orientdv.ru/wp-content/uploads/2024/03/ОФИЦИАЛЬНЫЕ-ПРОТОКОЛЫ.zip',
         coord: [52.28333, 104.3],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20240306_1',
@@ -6483,7 +6483,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика',
         res: 'https://rufso.orgeo.ru/result/view/31850/s/1',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20240307_1',
@@ -6494,7 +6494,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг',
         res: 'https://rufso.orgeo.ru/result/view/31850/s/2',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20240309_1',
@@ -6505,7 +6505,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 2 чел.',
         res: 'https://orgeo.ru/live/#/31850/3',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20240310_1',
@@ -6516,7 +6516,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://orientdv.ru/wp-content/uploads/2024/03/ОФИЦИАЛЬНЫЕ-ПРОТОКОЛЫ.zip',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20240314_1',
@@ -6533,7 +6533,7 @@ let fsorEvents = [
         bulletin: 'https://disk.yandex.ru/i/zdcpsaIR4Rp_7Q',
         res: 'https://disk.yandex.ru/i/iPs8yXzjxQrIsg',
         coord: [51.0453, 85.6042],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20240315_1',
@@ -6544,7 +6544,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика, общий старт',
         res: 'https://rufso.orgeo.ru/result/view/33606/s/2',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20240317_1',
@@ -6555,7 +6555,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'марафон',
         res: 'https://rufso.orgeo.ru/result/view/33606/s/6',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'SPB_20240516_1',
@@ -6600,7 +6600,7 @@ let fsorEvents = [
         info: 'МЖ: Санкт-Петербург (Николай Кудрявцев, Владислав Логинов, Юлия Усова, Ольга Шмайлова) - 1, Владимирская обл. (Марк Тутынин, Михаил Горин, Вероника Калинина, Анастасия Рудная) - 2, Ленинградская обл. (Михаил Максименко, Игорь Попов, Диана Кургузкина, Екатерина Савкина) - 3.',
         fmt: 'эстафета 4 чел. (2М+2Ж)',
         res: 'https://o-site.spb.ru/_races/240519_russia/Official_results_Russia_SPb.zip',
-        start: 'RUSSIA_CHAMP'
+        start: ['RUSSIA_CHAMP','RUSSIA_2024']
     },
     {
         id: 'SPB_20240518_3',
@@ -6610,7 +6610,7 @@ let fsorEvents = [
         info: 'М: Павел Егоров (Нижегородская обл.) - 1, Дмитрий Поляков (Санкт-Петербург) - 2, Андрей Шубин (Смоленская обл.) - 3, Илья Малыгин (Воронежская обл.) - 3; Ж: Вероника Калинина (Владимирская обл.) - 1, Анастасия Григорьева (Белгородская обл.) - 2, Анастасия Рудная (Владимирская обл.) - 3.',
         fmt: 'спринт',
         res: 'https://rufso.orgeo.ru/result/view/33466/s/2',
-        start: 'RUSSIA_CHAMP'
+        start: ['RUSSIA_CHAMP','RUSSIA_2024']
     },
     {
         id: 'SPB_20240519_3',
@@ -6620,7 +6620,7 @@ let fsorEvents = [
         info: 'М: Павел Егоров (Нижегородская обл.) - 1, Андрей Шубин (Смоленская обл.) - 2, Дмитрий Наконечный (Калининградская обл.) - 3; Ж: Екатерина Савкина (Ленинградская обл.) - 1, Ольга Шмайлова (Санкт-Петербург) - 2, Галина Виноградова (Алтайский край) - 3.',
         fmt: 'спринт, общий старт',
         res: 'https://rufso.orgeo.ru/result/view/33466/s/4',
-        start: 'RUSSIA_CHAMP'
+        start: ['RUSSIA_CHAMP','RUSSIA_2024']
     },
     {
         id: 'MAJOR_20240627_1',
@@ -6637,7 +6637,7 @@ let fsorEvents = [
         bulletin: 'https://mosorient.ru/wp-content/uploads/2024/06/mtbo_msk2024_bul3.pdf',
         res: 'https://rufso.orgeo.ru/event/results/36580',
         coord: [55.75056, 37.6175],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20240628_1',
@@ -6648,7 +6648,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://web.archive.org/web/20240807182157/https://skiorient.ru/doc/2024/chemp_velo/ЧР_велокросс_27-30.06.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20240630_1',
@@ -6659,7 +6659,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт',
         res: 'https://rufso.orgeo.ru/result/view/36580/s/3',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20240903_1',
@@ -6675,7 +6675,7 @@ let fsorEvents = [
         fmt: 'спринт, классика, эстафета 3 чел., лонг',
         res: 'https://rufso.orgeo.ru/event/results/36999',
         coord: [56.32694, 44.0075],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20240904_1',
@@ -6686,7 +6686,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://rufso.orgeo.ru/result/view/36999/s/2',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20240905_1',
@@ -6697,7 +6697,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://rufso.orgeo.ru/result/view/36999/s/3',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20240907_1',
@@ -6708,7 +6708,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://orgeo.ru/live/#/36999/4',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20240908_1',
@@ -6719,7 +6719,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://rufso.orgeo.ru/result/view/36999/s/5',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20240917_1',
@@ -6881,7 +6881,7 @@ let fsorEvents = [
         bulletin: 'https://orgeo.ru/files/event/file/38693_65172fbb3c.pdf',
         res: 'http://orient.tomsk.ru/data/2024chr_official.zip',
         coord: [56.48861, 84.95222],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20241213_1',
@@ -6892,7 +6892,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт',
         res: 'https://rufso.orgeo.ru/result/view/38693/s/2',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20241214_1',
@@ -6903,7 +6903,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'многодневная',
         res: 'http://orient.tomsk.ru/data/20241214_res.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20241215_1',
@@ -6914,7 +6914,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.orgeo.ru/result/view/38693/s/4',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20250218_1',
@@ -6928,7 +6928,7 @@ let fsorEvents = [
         bulletin: 'https://orgeo.ru/files/event/file/39231_945c2c67f5.pdf',
         res: 'https://rufso.orgeo.ru/event/results/39231',
         coord: [54.18333, 45.18333],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20250219_1',
@@ -6939,7 +6939,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://rufso.orgeo.ru/result/view/39231/s/2',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20250220_1',
@@ -6950,7 +6950,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://orgeo.ru/live/#/39231/3',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20250221_1',
@@ -6961,7 +6961,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://orgeo.ru/live/#/39231/5',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20250223_1',
@@ -6972,7 +6972,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 2 чел.',
         res: 'https://orgeo.ru/live/#/39231/7',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20250224_1',
@@ -6983,7 +6983,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика, общий старт',
         res: 'https://rufso.orgeo.ru/result/view/39231/s/8',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20250308_1',
@@ -6997,7 +6997,7 @@ let fsorEvents = [
         bulletin: 'https://orgeo.ru/files/event/file/39250_3839d2d834.pdf',
         res: 'https://rufso.orgeo.ru/event/results/39250',
         coord: [50.55, 137],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20250309_1',
@@ -7008,7 +7008,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.orgeo.ru/result/view/39250/s/2',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20250310_1',
@@ -7019,7 +7019,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика',
         res: 'https://rufso.orgeo.ru/result/view/39250/s/4',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20250311_1',
@@ -7030,7 +7030,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://orgeo.ru/live/#/39250/5',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20250313_1',
@@ -7041,7 +7041,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт',
         res: 'https://rufso.orgeo.ru/result/view/39250/s/8',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20250314_1',
@@ -7052,7 +7052,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'марафон',
         res: 'https://rufso.orgeo.ru/result/view/39250/s/9',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20250626_1',
@@ -7069,7 +7069,7 @@ let fsorEvents = [
         bulletin: 'https://yarfso.ru/wp-content/uploads/2025/06/Вело_Информационный_бюллетень_№3.pdf',
         res: 'https://yarfso.ru/wp-content/uploads/2025/07/Офф.-протоколы-вело-ЧР-26-30.06.2025.zip',
         coord: [57.61667, 39.85],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20250627_1',
@@ -7080,7 +7080,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт',
         res: 'https://yarfso.ru/wp-content/uploads/2025/07/Офф.-протоколы-вело-ЧР-26-30.06.2025.zip',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20250629_1',
@@ -7091,7 +7091,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://yarfso.ru/wp-content/uploads/2025/07/Офф.-протоколы-вело-ЧР-26-30.06.2025.zip',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20250808_1',
@@ -7160,7 +7160,7 @@ let fsorEvents = [
         bulletin: 'https://o-perm.ru/admin/wp-content/uploads/2025/08/Byulleten-3-CHR-Velo.pdf',
         res: 'https://o-perm.ru/admin/wp-content/uploads/2025/08/Ofitsialnye-protokoly-rezultatov-CHR-i-VS-Velo-Perm-2025.zip',
         coord: [58.01389, 56.24889],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20250820_1',
@@ -7171,7 +7171,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://o-perm.ru/admin/wp-content/uploads/2025/08/Ofitsialnye-protokoly-rezultatov-CHR-i-VS-Velo-Perm-2025.zip',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20250821_1',
@@ -7182,7 +7182,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://o-perm.ru/admin/wp-content/uploads/2025/08/Ofitsialnye-protokoly-rezultatov-CHR-i-VS-Velo-Perm-2025.zip',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20250823_1',
@@ -7193,7 +7193,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://o-perm.ru/admin/wp-content/uploads/2025/08/Ofitsialnye-protokoly-rezultatov-CHR-i-VS-Velo-Perm-2025.zip',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20250824_1',
@@ -7204,7 +7204,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://o-perm.ru/admin/wp-content/uploads/2025/08/Ofitsialnye-protokoly-rezultatov-CHR-i-VS-Velo-Perm-2025.zip',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20250911_1',
@@ -7322,7 +7322,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'многодневная',
         res: 'https://orgeo.ru/files/event/file/47194_f2fddb01eb.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20251217_1',
@@ -7333,7 +7333,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'многодневная',
         res: 'https://orgeo.ru/files/event/file/47194_f2fddb01eb.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20260103_1',
@@ -7346,7 +7346,8 @@ let fsorEvents = [
         major: true,
         type: 'SKI',
         fmt: 'маркир, эстафета, комбинация, лонг, классика',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20260115_1',
@@ -7358,7 +7359,8 @@ let fsorEvents = [
         major: true,
         type: 'SKI',
         fmt: 'спринт, многодневная, лонг',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20260219_1',
@@ -7376,7 +7378,7 @@ let fsorEvents = [
         fmt: 'маркир, эстафета 3х, комбинация, лонг',
         res: 'https://kfso.ru/novosti/25-god/chempionat-rossii-19-24.02.2026-(p.podgornyij,-krasnoyarskij-kraj)',
         owner: 'FSOR',
-        start: 'RUSSIA_CHAMP',
+        start: 'RUSSIA_CHAMP_SKI',
         o_gps: {
             '20-М': 24262,
             '20-Ж': 24270,
@@ -7397,7 +7399,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://kfso.ru/docs/25/CR%202026%20Podgornyi/oficzialnyie-protokolyi-rezultatov-(2).pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20260221_1',
@@ -7408,7 +7410,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://kfso.ru/docs/25/CR%202026%20Podgornyi/oficzialnyie-protokolyi-rezultatov-(2).pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20260222_1',
@@ -7419,7 +7421,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://kfso.ru/docs/25/CR%202026%20Podgornyi/oficzialnyie-protokolyi-rezultatov-(2).pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20260223_1',
@@ -7430,7 +7432,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг',
         res: 'https://kfso.ru/docs/25/CR%202026%20Podgornyi/oficzialnyie-protokolyi-rezultatov-(2).pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20260315_1',
@@ -7447,7 +7449,7 @@ let fsorEvents = [
             'https://orgeo.ru/event/chr2026sykt'
         ],
         owner: 'FSOR',
-        start: 'RUSSIA_CHAMP',
+        start: 'RUSSIA_CHAMP_SKI',
         o_gps: {
             '16-М': 24406,
             '16-Ж': 24407,
@@ -7468,7 +7470,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика',
         res: 'https://orgeo.ru/files/event/file/49143_5cd830b65b.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20260317_1',
@@ -7479,7 +7481,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://orgeo.ru/files/event/file/49143_5cd830b65b.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20260318_1',
@@ -7490,7 +7492,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт',
         res: 'https://orgeo.ru/files/event/file/49143_5cd830b65b.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20260320_1',
@@ -7501,7 +7503,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'марафон',
         res: 'https://orgeo.ru/files/event/file/49143_5cd830b65b.pdf',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     },
     {
         id: 'MAJOR_20260423_1',
@@ -7512,7 +7514,8 @@ let fsorEvents = [
         major: true,
         type: 'VELO',
         fmt: 'многодневные, эстафета 2х',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20260512_1',
@@ -7583,7 +7586,8 @@ let fsorEvents = [
         major: true,
         fmt: 'эстафета 2х, эстафета 3х, эстафета 4х',
         res: 'https://orgeo.ru/live/#/51003',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20260604_1',
@@ -7593,7 +7597,8 @@ let fsorEvents = [
         name: 'Кубок России',
         major: true,
         fmt: 'классика, лонг, многодневный',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20260625_1',
@@ -7606,7 +7611,7 @@ let fsorEvents = [
         fmt: 'многодневные, эстафета 2х',
         link: 'https://orgeo.ru/event/51805',
         owner: 'FSOR',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20260627_2',
@@ -7617,7 +7622,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://orgeo.ru/live/#/51805/2',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20260628_1',
@@ -7628,7 +7633,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://orgeo.ru/live/#/51805/3',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20260902_1',
@@ -7643,7 +7648,7 @@ let fsorEvents = [
             'https://orgeo.ru/event/53679'
         ],
         owner: 'FSOR',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20260903_1',
@@ -7654,7 +7659,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://orgeo.ru/live/#/53679/2',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20260904_1',
@@ -7665,7 +7670,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт',
         res: 'https://orgeo.ru/live/#/53679/3',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20260905_1',
@@ -7676,7 +7681,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://orgeo.ru/live/#/53679/4',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20260906_1',
@@ -7687,7 +7692,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://orgeo.ru/live/#/53679/5',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_MTBO'
     },
     {
         id: 'MAJOR_20260909_1',
@@ -7697,7 +7702,8 @@ let fsorEvents = [
         name: 'Кубок России',
         major: true,
         fmt: 'масстарт, лонг-масстарт, марафон',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20260916_1',
@@ -7708,7 +7714,8 @@ let fsorEvents = [
         major: true,
         type: 'VELO',
         fmt: 'спринт, лонг, эстафета 3х, масстарт',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20260922_1',
@@ -7779,7 +7786,8 @@ let fsorEvents = [
         name: 'Кубок России, спринт',
         major: true,
         fmt: 'выбор, спринт, спринт-масстарт',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20261101_1',
@@ -7800,7 +7808,8 @@ let fsorEvents = [
         major: true,
         type: 'SKI',
         fmt: 'эстафета 2х, классика, марафон',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20261217_1',
@@ -7811,6 +7820,6 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'масстарт, многодневная, эстафета 2х, классика, лонг-масстарт',
         owner: 'FSOR',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP_SKI'
     }
 ];
