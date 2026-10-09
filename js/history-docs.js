@@ -2792,6 +2792,38 @@ let historyDocs = [
         planner: 'SHRNN'
     },
     {
+        name: 'Чемпионат России (Котовск)',
+        date: '2015-02-01',
+        info: 'Информационный бюллетень №3.',
+        link: './docs/2015/2015_02_01_kotovsk_russia_champ_bulletin3_omaps.doc',
+        start: 'RUSSIA_CHAMP_SKI'
+    },
+    {
+        name: 'Чемпионат России (Котовск), маркированная трасса',
+        date: '2015-02-02',
+        link: './docs/2015/2015_02_02_kotovsk_russia_champ_omaps.pdf',
+        start: 'RUSSIA_CHAMP_SKI'
+    },
+    {
+        name: 'Чемпионат России (Котовск), эстафета, маркированная трасса 3 чел.',
+        date: '2015-02-03',
+        link: './docs/2015/2015_02_03_kotovsk_russia_champ_relay_omaps.pdf',
+        start: 'RUSSIA_CHAMP_SKI'
+    },
+    {
+        name: 'Чемпионат России (Котовск), комбинация',
+        date: '2015-02-04',
+        link: './docs/2015/2015_02_04_kotovsk_russia_champ_omaps.pdf',
+        start: 'RUSSIA_CHAMP_SKI'
+    },
+    {
+        name: 'Чемпионат России (Котовск)',
+        date: '2015-02-01',
+        info: 'Протокол командных результатов.',
+        link: './docs/2015/2015_02_01_kotovsk_russia_champ_team_omaps.pdf',
+        start: 'RUSSIA_CHAMP_SKI'
+    },
+    {
         name: 'Буклет-календарь от клуба KUZMOLOVO.',
         owner: 'KUZMOLOVO',
         year: 2020,

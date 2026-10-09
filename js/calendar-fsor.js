@@ -3444,8 +3444,11 @@ let fsorEvents = [
         ],
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация',
-        bulletin: 'https://web.archive.org/web/20150811200132/http://www.fso-tambov.ru/images/Document/2015/20150201_infbul3.doc',
-        res: 'https://rufso.orgeo.ru/event/results/1649',
+        bulletin: './docs/2015/2015_02_01_kotovsk_russia_champ_bulletin3_omaps.doc',
+        res: [
+            'https://rufso.orgeo.ru/event/results/1649',
+            './docs/2015/2015_02_01_kotovsk_russia_champ_team_omaps.pdf'
+        ],
         coord: [52.58333, 41.5],
         start: 'RUSSIA_CHAMP_SKI'
     },
@@ -3457,7 +3460,10 @@ let fsorEvents = [
         info: 'М: Вадим Толстопятов (Тамбовская обл.) - 1, Андрей Григорьев (Красноярский край) - 2, Кирилл Веселов (Красноярский край) - 3; Ж: Татьяна Мендель (Московская обл.) - 1, Наталья Наумова (Хабаровский край) - 2, Анастасия Неверова (Пермский край) - 3.',
         type: 'SKI',
         fmt: 'маркированная трасса',
-        res: 'https://rufso.orgeo.ru/result/view/1649/s/1',
+        res: [
+            './docs/2015/2015_02_02_kotovsk_russia_champ_omaps.pdf',
+            'https://rufso.orgeo.ru/result/view/1649/s/1'
+        ],
         start: 'RUSSIA_CHAMP_SKI'
     },
     {
@@ -3468,7 +3474,9 @@ let fsorEvents = [
         info: 'М: Красноярский край (Владимир Барчуков, Андрей Григорьев, Кирилл Веселов) - 1, Пермский край (Дмитрий Шалахин, Илья Лебедев, Владимир Игнатов) - 2, Москва (Андрей Шведов, Валерий Глухов, Андрей Груздев) - 3; Ж: Красноярский край (Полина Фролова, Анна Худик, Юлия Тарасенко) - 1, Хабаровский край (Вероника Кортылева, Анна Выборнова, Наталья Наумова) - 2, Московская обл. (Анастасия Свирь, Мария Фесенко, Татьяна Мендель) - 3.',
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
-        res: 'https://web.archive.org/web/20150811160351/http://www.fso-tambov.ru/images/Document/2015/20150203_chemp.pdf',
+        res: [
+            './docs/2015/2015_02_03_kotovsk_russia_champ_relay_omaps.pdf', // 'https://web.archive.org/web/20150811160351/http://www.fso-tambov.ru/images/Document/2015/20150203_chemp.pdf'
+        ],
         start: 'RUSSIA_CHAMP_SKI'
     },
     {
@@ -3479,7 +3487,10 @@ let fsorEvents = [
         info: 'М: Кирилл Веселов (Красноярский край) - 1, Владимир Барчуков (Красноярский край) - 2, Андрей Груздев (Москва) - 3; Ж: Татьяна Власова (Тюменская обл.) - 1, Юлия Тарасенко (Красноярский край) - 2, Наталья Наумова (Хабаровский край) - 3.',
         type: 'SKI',
         fmt: 'комбинация',
-        res: 'https://rufso.orgeo.ru/result/view/1649/s/3',
+        res: [
+            './docs/2015/2015_02_04_kotovsk_russia_champ_omaps.pdf',
+            'https://rufso.orgeo.ru/result/view/1649/s/3'
+        ],
         start: 'RUSSIA_CHAMP_SKI'
     },
     {
