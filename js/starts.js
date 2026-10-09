@@ -478,6 +478,14 @@ let starts = {
         major: true,
         retro: true,
         short: 'Чемпионат СССР',
+        name: 'Чемпионат СССР',
+        owner: 'FSOR'
+    },
+    USSR_CHAMP_WINTER: {
+        major: true,
+        retro: true,
+        short: 'Зимний ЧСССР',
+        name: 'Зимний Чемпионат СССР',
         owner: 'FSOR'
     },
     USSR_1989_WINTER: {
@@ -673,8 +681,20 @@ let starts = {
     },
     RUSSIA_CHAMP: {
         major: true,
-        short: 'Чемпионат России',
+        short: 'ЧР',
         name: 'Чемпионат России',
+        owner: 'FSOR'
+    },
+    RUSSIA_CHAMP_MTBO: {
+        major: true,
+        short: 'ЧР Вело',
+        name: 'Чемпионат России по ориентированию на велосипедах',
+        owner: 'FSOR'
+    },
+    RUSSIA_CHAMP_SKI: {
+        major: true,
+        short: 'ЧР Лыжи',
+        name: 'Чемпионат России по ориентированию на лыжах',
         owner: 'FSOR'
     },
     RUSSIA_CUP: {
