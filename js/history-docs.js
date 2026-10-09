@@ -2792,6 +2792,25 @@ let historyDocs = [
         planner: 'SHRNN'
     },
     {
+        name: 'Чемпионат России по велоориентированию (Тула)',
+        date: '2009-07-02',
+        info: 'Положение.',
+        link: './docs/2009/2009_07_02_tula_russia_champ_polozhenie_omaps.pdf',
+        start: 'RUSSIA_CHAMP_MTBO'
+    },
+    {
+        name: 'Чемпионат России по велоориентированию (Тула), классика',
+        date: '2009-07-04',
+        link: './docs/2009/2009_07_04_tula_russia_champ_omaps.doc',
+        start: 'RUSSIA_CHAMP_MTBO'
+    },
+    {
+        name: 'Чемпионат России по велоориентированию (Тула), лонг',
+        date: '2009-07-05',
+        link: './docs/2009/2009_07_05_tula_russia_champ_omaps.doc',
+        start: 'RUSSIA_CHAMP_MTBO'
+    },
+    {
         name: 'Чемпионат России (Котовск)',
         date: '2015-02-01',
         info: 'Информационный бюллетень №3.',
