@@ -3663,10 +3663,23 @@ let fsorEvents = [
         bulletin: 'https://web.archive.org/web/20240808074904/http://school-12.ru/files/2015/20140707_bul_nnov_chemp_velo.pdf',
         res: [
             'https://web.archive.org/web/20150815125700/http://school-12.ru/rezultaty-sorevnovanij-velo-2015',
-            'http://school-12.ru/files/2015/20150708_Res.htm',
-            'http://school-12.ru/files/2015/20150709_Res.htm',
-            'http://school-12.ru/files/2015/20150710_Res.htm',
-            'http://school-12.ru/files/2015/20150711_Res.htm'
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/files/2015/20150708_Spl.htm',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/files/2015/20150709_Spl.htm',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/files/2015/20150710_Spl.htm',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/files/2015/20150711_Spl.htm'
+        ],
+        maps: [
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150708_M21-17-1.jpg',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150708_M21-17-2.jpg',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150708_W21-17.jpg',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150709_M21-17.jpg',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150709_W21-17.jpg',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150710_M-21.jpg',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150710_W-21.jpg',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150711_M-21-1.jpg',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150711_M-21-2.jpg',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150711_W-21-1.jpg',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150711_W-21-2.jpg'
         ],
         coord: [57.14417, 43.1625],
         start: 'RUSSIA_CHAMP_MTBO'
