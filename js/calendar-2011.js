@@ -647,6 +647,7 @@ let events2011 = [
         date: '2011-06-18',
         endDate: '2011-06-19',
         name: 'Jukola',
+        link: 'https://swann74.livejournal.com/15503.html',
         res: 'https://o-site.spb.ru/_races/110619/Jukola2011_res.htm',
         o_site: '110619'
     },

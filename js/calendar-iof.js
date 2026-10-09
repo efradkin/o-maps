@@ -2449,7 +2449,8 @@ let iofEvents = [
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
-            'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
+            'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах',
+            'https://swann74.livejournal.com/11616.html'
         ],
         bulletin: [
             // 'https://old.orienteering.sport/wp-content/uploads/2011/01/Bulletin-17.pdf',
@@ -2666,6 +2667,7 @@ let iofEvents = [
         date: '2011-08-17',
         name: 'WOC #2, лонг',
         place: 'Savoie, France (Савойя, Франция)',
+        link: 'https://swann74.livejournal.com/20007.html',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20110817woclongM/',
             'W': 'https://www.tulospalvelu.fi/gps/20110817woclongW/'
@@ -2696,6 +2698,7 @@ let iofEvents = [
         date: '2011-08-19',
         name: 'WOC #3, миддл',
         place: 'Savoie, France (Савойя, Франция)',
+        link: 'https://swann74.livejournal.com/20247.html',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20110819wocmiddleM/',
             'W': 'https://www.tulospalvelu.fi/gps/20110819wocmiddleW/'
@@ -2815,7 +2818,11 @@ let iofEvents = [
         link: [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften_2012',
             'https://fi.wikipedia.org/wiki/Hiihtosuunnistuksen_Euroopan-mestaruuskilpailut_2012',
-            'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах'
+            'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах',
+            'https://swann74.livejournal.com/33891.html',
+            'https://swann74.livejournal.com/34257.html',
+            'https://swann74.livejournal.com/34379.html',
+            'https://swann74.livejournal.com/34597.html'
         ],
         bulletin: [
             // 'https://old.orienteering.sport/wp-content/uploads/2011/11/Bulletin-2.pdf',
@@ -2934,6 +2941,10 @@ let iofEvents = [
         date: '2012-05-17',
         name: 'EOC #4, миддл',
         place: 'Falun, Mora, Sweden (Фалун, Мура, Швеция)',
+        link: [
+            'https://swann74.livejournal.com/39604.html',
+            'https://swann74.livejournal.com/39899.html'
+        ],
         info: 'Ж: Татьяна Рябкина - 3. М: Валентин Новиков - 2.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=4222',
         gps: {
@@ -2966,6 +2977,7 @@ let iofEvents = [
         date: '2012-05-18',
         name: 'EOC #5, лонг',
         place: 'Falun, Mora, Sweden (Фалун, Мура, Швеция)',
+        link: 'https://swann74.livejournal.com/40110.html',
         info: 'Ж: Татьяна Рябкина - 2. М: Валентин Новиков - 3.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=4225',
         gps: {
@@ -3024,6 +3036,7 @@ let iofEvents = [
         date: '2012-05-20',
         name: 'EOC #7, эстафета',
         place: 'Falun, Mora, Sweden (Фалун, Мура, Швеция)',
+        link: 'https://swann74.livejournal.com/40381.html',
         info: 'Ж: Наталья Ефимова, Светлана Миронова, Татьяна Рябкина - 1.',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20120520EOCRelM1/',
@@ -3096,6 +3109,7 @@ let iofEvents = [
         date: '2012-07-14',
         name: 'WOC #1, спринт',
         place: 'Lausanne, Switzerland (Лозанна, Швейцария)',
+        link: 'https://swann74.livejournal.com/43918.html',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20120714WOCSprM-Web/',
             'W': 'https://www.tulospalvelu.fi/gps/20120714WOCSprW-Web/'
@@ -3120,6 +3134,10 @@ let iofEvents = [
         date: '2012-07-17',
         name: 'WOC #2, миддл',
         place: 'Lausanne, Switzerland (Лозанна, Швейцария)',
+        link: [
+            'https://swann74.livejournal.com/44312.html',
+            'https://swann74.livejournal.com/44627.html'
+        ],
         info: 'Ж: Татьяна Рябкина - 3. М: Валентин Новиков - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20120717WOCMidM-Web/',
@@ -3146,6 +3164,7 @@ let iofEvents = [
         date: '2012-07-19',
         name: 'WOC #3, лонг',
         place: 'Lausanne, Switzerland (Лозанна, Швейцария)',
+        link: 'https://swann74.livejournal.com/44808.html',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20120719WOCLongM-Web/',
             'W': 'https://www.tulospalvelu.fi/gps/20120719WOCLongW-Web/'
@@ -3168,6 +3187,10 @@ let iofEvents = [
         date: '2012-07-21',
         name: 'WOC #4, эстафета',
         place: 'Lausanne, Switzerland (Лозанна, Швейцария)',
+        link: [
+            'https://swann74.livejournal.com/45077.html',
+            'https://swann74.livejournal.com/45496.html'
+        ],
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20120721WOCRelM1-Web/',
             'M-2': 'https://www.tulospalvelu.fi/gps/20120721WOCRelM2-Web/',
@@ -3311,7 +3334,8 @@ let iofEvents = [
         // esoc2013.lv теперь занят посторонним сайтом — ссылка не включена
         link: [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften_2013',
-            'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах'
+            'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах',
+            'https://swann74.livejournal.com/57965.html'
         ],
         bulletin: [
             // 'https://old.orienteering.sport/wp-content/uploads/2012/02/Bulletin-11.pdf',
@@ -3337,7 +3361,8 @@ let iofEvents = [
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
-            'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
+            'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах',
+            'https://swann74.livejournal.com/60180.html'
         ],
         bulletin: [
             // 'https://old.orienteering.sport/wp-content/uploads/2012/12/Bulletin-1.pdf',
@@ -3913,6 +3938,7 @@ let iofEvents = [
         date: '2014-04-13',
         name: 'EOC #4, спринт',
         place: 'Palmela, Portugal (Палмела, Португалия)',
+        link: 'https://swann74.livejournal.com/77603.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=4600',
         maps: [
             // 'https://news.worldofo.com/2014/04/13/eoc-sprint-2014-maps-and-results/',
@@ -3937,6 +3963,7 @@ let iofEvents = [
         date: '2014-04-14',
         name: 'EOC #5, миддл',
         place: 'Palmela, Portugal (Палмела, Португалия)',
+        link: 'https://swann74.livejournal.com/77929.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=4601',
         maps: [
             // 'https://news.worldofo.com/2014/04/14/eoc-middle-maps-and-results-3/',
@@ -3960,6 +3987,7 @@ let iofEvents = [
         date: '2014-04-15',
         name: 'EOC #6, лонг',
         place: 'Palmela, Portugal (Палмела, Португалия)',
+        link: 'https://swann74.livejournal.com/78333.html',
         info: 'Ж: Светлана Миронова - 2.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=4602',
         maps: [
@@ -3979,6 +4007,7 @@ let iofEvents = [
         date: '2014-04-16',
         name: 'EOC #7, эстафета',
         place: 'Palmela, Portugal (Палмела, Португалия)',
+        link: 'https://swann74.livejournal.com/78546.html',
         info: 'Ж: Юлия Новикова, Ирина Нюберг, Наталья Виноградова - 3.',
         maps: [
             // 'https://news.worldofo.com/2014/04/16/eoc-relay-maps-and-results-2/',
@@ -4209,7 +4238,8 @@ let iofEvents = [
         name: 'Чемпионат Европы (SKI-EOC)',
         link: [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften',
-            'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах'
+            'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах',
+            'https://swann74.livejournal.com/91378.html'
         ],
         coord: [46.75, 9.55],
         type: 'SKI',
@@ -4336,7 +4366,8 @@ let iofEvents = [
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
-            'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
+            'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах',
+            'https://swann74.livejournal.com/91929.html'
         ],
         bulletin: [
             // 'https://old.orienteering.sport/wp-content/uploads/2013/08/Bulletin-13.pdf',
@@ -4835,7 +4866,8 @@ let iofEvents = [
         name: 'Чемпионат Европы (SKI-EOC)',
         link: [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften',
-            'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах'
+            'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах',
+            'https://swann74.livejournal.com/102373.html'
         ],
         bulletin: 'https://eventor-iof-storage.orientering.se/eventdocuments/5085/c22e9a27-642d-46e9-921b-fe245d82dd71/Bulletin-4.pdf',
         res: 'https://eventor.orienteering.sport/Events/Show/5085',
@@ -4887,6 +4919,7 @@ let iofEvents = [
         date: '2016-05-21',
         name: 'EOC #1, спринт-эстафета',
         place: 'Jeseník, Czech Republic (Есеник, Чехия)',
+        link: 'https://swann74.livejournal.com/104419.html',
         info: 'Наталья Гемперле, Глеб Тихонов, Андрей Храмов, Галина Виноградова - 1.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5352',
         gps: {
@@ -4916,6 +4949,7 @@ let iofEvents = [
         date: '2016-05-22',
         name: 'EOC #2, спринт (квалификация и финал)',
         place: 'Jeseník, Czech Republic (Есеник, Чехия)',
+        link: 'https://swann74.livejournal.com/104604.html',
         info: 'Ж: Галина Виноградова - 3.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5094',
         gps: {
@@ -4976,6 +5010,7 @@ let iofEvents = [
         date: '2016-05-24',
         name: 'EOC #4, лонг',
         place: 'Jeseník, Czech Republic (Есеник, Чехия)',
+        link: 'https://swann74.livejournal.com/105095.html',
         info: 'Ж: Светлана Миронова - 3.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5096',
         gps: {
@@ -5028,6 +5063,7 @@ let iofEvents = [
         date: '2016-05-27',
         name: 'EOC #6, миддл',
         place: 'Jeseník, Czech Republic (Есеник, Чехия)',
+        link: 'https://swann74.livejournal.com/105217.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5098',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20160527MFA/',
@@ -5054,6 +5090,7 @@ let iofEvents = [
         date: '2016-05-28',
         name: 'EOC #7, эстафета',
         place: 'Jeseník, Czech Republic (Есеник, Чехия)',
+        link: 'https://swann74.livejournal.com/105484.html',
         info: 'Ж: Анастасия Рудная, Наталья Гемперле, Светлана Миронова - 3.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5099',
         gps: {
@@ -5409,7 +5446,8 @@ let iofEvents = [
         name: 'Чемпионат Европы (SKI-EOC)',
         link: [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften',
-            'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах'
+            'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах',
+            'https://swann74.livejournal.com/112157.html'
         ],
         bulletin: [
             // 'https://eventor-iof-storage.orientering.se/eventdocuments/5415/b6efad15-92c2-4d42-b1f4-801293ed483a/Bulletin-1.pdf',
@@ -6005,7 +6043,8 @@ let iofEvents = [
         link: [
             'https://de.wikipedia.org/wiki/Ski-Orientierungslauf-Europameisterschaften',
             'https://fi.wikipedia.org/wiki/Hiihtosuunnistuksen_Euroopan-mestaruuskilpailut_2018',
-            'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах'
+            'https://ru.wikipedia.org/wiki/Чемпионат_Европы_по_спортивному_ориентированию_на_лыжах',
+            'https://swann74.livejournal.com/118745.html'
         ],
         bulletin: [
             // 'https://eventor-iof-storage.orientering.se/eventdocuments/5472/310903da-35d8-4819-9fd5-19e6eddec03e/Bulletin-1.pdf',
@@ -6126,6 +6165,7 @@ let iofEvents = [
         date: '2018-05-06',
         name: 'EOC #1, спринт (квалификация и финал)',
         place: 'Cadempino, Ticino, Switzerland (Кадемпино, Тичино, Швейцария)',
+        link: 'https://swann74.livejournal.com/120388.html',
         info: 'Ж: Наталья Гемперле - 3.',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5400',
         gps: {
@@ -6182,6 +6222,7 @@ let iofEvents = [
         date: '2018-05-09',
         name: 'EOC #3, миддл',
         place: 'Cadempino, Ticino, Switzerland (Кадемпино, Тичино, Швейцария)',
+        link: 'https://swann74.livejournal.com/120685.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=5402',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20180509_MF_M/',
@@ -6208,6 +6249,7 @@ let iofEvents = [
         date: '2018-05-10',
         name: 'EOC #4, спринт-эстафета',
         place: 'Cadempino, Ticino, Switzerland (Кадемпино, Тичино, Швейцария)',
+        link: 'https://swann74.livejournal.com/120996.html',
         gps: {
             '1': 'https://www.tulospalvelu.fi/gps/20180510_SR_1/',
             '2': 'https://www.tulospalvelu.fi/gps/20180510_SR_2/',
@@ -6239,6 +6281,7 @@ let iofEvents = [
         date: '2018-05-12',
         name: 'EOC #5, эстафета',
         place: 'Cadempino, Ticino, Switzerland (Кадемпино, Тичино, Швейцария)',
+        link: 'https://swann74.livejournal.com/121250.html',
         gps: {
             'M-1': 'https://www.tulospalvelu.fi/gps/20180512_R_M1/',
             'M-2': 'https://www.tulospalvelu.fi/gps/20180512_R_M2/',
@@ -6275,6 +6318,7 @@ let iofEvents = [
         date: '2018-05-13',
         name: 'EOC #6, лонг',
         place: 'Cadempino, Ticino, Switzerland (Кадемпино, Тичино, Швейцария)',
+        link: 'https://swann74.livejournal.com/121569.html',
         info: 'Ж: Наталья Гемперле - 2.',
         gps: {
             'M': 'https://www.tulospalvelu.fi/gps/20180513_L_M/',
@@ -6684,7 +6728,8 @@ let iofEvents = [
         name: 'Чемпионат мира (SKI-WOC)',
         link: [
             'https://en.wikipedia.org/wiki/World_Ski_Orienteering_Championships',
-            'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах'
+            'https://ru.wikipedia.org/wiki/Чемпионат_мира_по_спортивному_ориентированию_на_лыжах',
+            'https://swann74.livejournal.com/130173.html'
         ],
         bulletin: [
             // 'https://eventor-iof-storage.orientering.se/eventdocuments/5829/7d97fda4-fbc2-4f0a-a6c1-0cb6d5f273b3/Bulletin-1.pdf',
@@ -7424,6 +7469,7 @@ let iofEvents = [
         date: '2021-05-13',
         name: 'EOC #1, спринт-эстафета',
         place: 'Neuchâtel, Switzerland (Невшатель, Швейцария)',
+        link: 'https://swann74.livejournal.com/146632.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=6750',
         gps: {
             '1': 'https://3drerun.worldofo.com/2d/?server=em.club.tractrac.com&eventid=6ab2de10-54c3-0139-b02a-60a44ce903c3&liveid=ee6acc70-9241-0139-281a-60a44ce903c3',
@@ -7472,6 +7518,7 @@ let iofEvents = [
         date: '2021-05-15',
         name: 'EOC #3, нокаут-спринт (финалы)',
         place: 'Neuchâtel, Switzerland (Невшатель, Швейцария)',
+        link: 'https://swann74.livejournal.com/146774.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=6749',
         maps: [
             // 'https://news.worldofo.com/2021/05/15/eoc-2021-knock-out-sprint-maps-and-results/',
@@ -7498,6 +7545,7 @@ let iofEvents = [
         date: '2021-05-16',
         name: 'EOC #4, спринт',
         place: 'Neuchâtel, Switzerland (Невшатель, Швейцария)',
+        link: 'https://swann74.livejournal.com/146971.html',
         res: 'https://eventor.orienteering.org/Events/ResultList?eventId=6748',
         maps: [
             // 'https://news.worldofo.com/2021/05/16/eoc-2021-individual-sprint-maps-and-results/',

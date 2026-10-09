@@ -2051,7 +2051,10 @@ let fsorEvents = [
         endDate: '2008-10-12',
         place: 'Кыштым, Челябинская обл',
         name: 'Чемпионат России',
-        link: 'http://www.orienteering.ural.ru/',
+        link: [
+            'http://www.orienteering.ural.ru/',
+            'https://anjellka.livejournal.com/39804.html'
+        ],
         type: 'VELO',
         fmt: 'классика, эстафета 3 чел., лонг',
         res: [
@@ -2597,7 +2600,13 @@ let fsorEvents = [
         endDate: '2011-06-13',
         place: 'Выборг',
         name: 'Чемпионат России',
-        link: 'http://www.o-sport.ru/index.php?newsid=1423',
+        link: [
+            'http://www.o-sport.ru/index.php?newsid=1423',
+            'https://yoga-bambini.livejournal.com/72479.html',
+            'https://yoga-bambini.livejournal.com/72934.html',
+            'https://yoga-bambini.livejournal.com/73057.html',
+            'https://kuzmolovo110.livejournal.com/4511.html'
+        ],
         fmt: 'спринт, спринт, общий старт',
         res: [
             'http://o-sport.ru/temp/2011/20110613_110612final.pdf',
@@ -3084,7 +3093,10 @@ let fsorEvents = [
         endDate: '2013-07-01',
         place: 'Октябрьский, Башкортостан',
         name: 'Чемпионат России',
-        link: 'https://orgeo.ru/event/531',
+        link: [
+            'https://orgeo.ru/event/531',
+            'https://vel0rem0nt.livejournal.com/3593.html'
+        ],
         type: 'VELO',
         fmt: 'спринт, классика, эстафета 3 чел., лонг',
         res: 'https://moscompass.ru/news/2013/20130630_kom.xlsx',
@@ -3300,6 +3312,7 @@ let fsorEvents = [
         endDate: '2014-07-05',
         place: 'Пенза',
         name: 'Чемпионат России',
+        link: 'https://asis-spb.livejournal.com/17939.html',
         type: 'VELO',
         fmt: 'спринт, классика, эстафета 3 чел., лонг',
         res: [
@@ -3463,7 +3476,8 @@ let fsorEvents = [
         name: 'Чемпионат России',
         link: [
             'https://vrnfso.ru/index.php/home/12-sorevnovaniya-2015/105-chempionat-i-pervenstvo-rossii-po-lyzhnomu-orientirovaniyu-g-kotovsk',
-            'https://orgeo.ru/event/1649'
+            'https://orgeo.ru/event/1649',
+            'https://leaorient.livejournal.com/1159.html'
         ],
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация',
@@ -3524,7 +3538,8 @@ let fsorEvents = [
         name: 'Чемпионат России',
         link: [
             'http://www.legenda35.ru/',
-            'https://orgeo.ru/event/1322'
+            'https://orgeo.ru/event/1322',
+            'https://leaorient.livejournal.com/1484.html'
         ],
         type: 'SKI',
         fmt: 'общий старт, классика, эстафета 3 чел., марафон',
@@ -3646,6 +3661,7 @@ let fsorEvents = [
         parent: 'MAJOR_20150526_1',
         date: '2015-05-28',
         name: 'Чемпионат России, лонг',
+        link: 'https://news.worldofo.com/2015/12/10/route-to-christmas-day-10-2015',
         info: 'М: Дмитрий Цветков (Санкт-Петербург) - 1, Леонид Новиков (Белгородская обл.) - 2, Валентин Новиков (Новгородская обл.) - 3; Ж: Татьяна Рябкина (Новгородская обл.) - 1, Наталья Ефимова (Московская обл.) - 2, Наталья Виноградова (Владимирская обл.) - 3.',
         fmt: 'лонг',
         res: 'https://rufso.orgeo.ru/result/view/2031/s/2',
@@ -3657,31 +3673,76 @@ let fsorEvents = [
         endDate: '2015-07-12',
         place: 'Сокольский р-н, Нижегородская обл',
         name: 'Чемпионат России',
-        link: 'https://web.archive.org/web/20150815081739/http://school-12.ru/velo2015',
+        link: [
+            'https://web.archive.org/web/20150815081739/http://school-12.ru/velo2015',
+            'https://twentysix.ru/blog/121521.html',
+            'https://leaorient.livejournal.com/1642.html',
+            'https://asis-spb.livejournal.com/20871.html'
+        ],
         type: 'VELO',
         fmt: 'спринт, классика, эстафета 3 чел., лонг',
         bulletin: 'https://web.archive.org/web/20240808074904/http://school-12.ru/files/2015/20140707_bul_nnov_chemp_velo.pdf',
-        res: [
-            'https://web.archive.org/web/20150815125700/http://school-12.ru/rezultaty-sorevnovanij-velo-2015',
-            'https://web.archive.org/web/20150815125700/http://school-12.ru/files/2015/20150708_Spl.htm',
-            'https://web.archive.org/web/20150815125700/http://school-12.ru/files/2015/20150709_Spl.htm',
-            'https://web.archive.org/web/20150815125700/http://school-12.ru/files/2015/20150710_Spl.htm',
-            'https://web.archive.org/web/20150815125700/http://school-12.ru/files/2015/20150711_Spl.htm'
-        ],
+        res: 'https://web.archive.org/web/20150815125700/http://school-12.ru/rezultaty-sorevnovanij-velo-2015',
+        coord: [57.14417, 43.1625],
+        start: 'RUSSIA_CHAMP_MTBO'
+    },
+    {
+        id: 'MAJOR_20150708_1',
+        parent: 'MAJOR_20150707_1',
+        date: '2015-07-08',
+        name: 'Чемпионат России, спринт',
+        type: 'VELO',
+        fmt: 'спринт',
+        // res: 'https://web.archive.org/web/20150815125700/http://school-12.ru/files/2015/20150708_Spl.htm',
         maps: [
             'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150708_M21-17-1.jpg',
             'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150708_M21-17-2.jpg',
-            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150708_W21-17.jpg',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150708_W21-17.jpg'
+        ],
+        start: 'RUSSIA_CHAMP_MTBO'
+    },
+    {
+        id: 'MAJOR_20150709_1',
+        parent: 'MAJOR_20150707_1',
+        date: '2015-07-09',
+        name: 'Чемпионат России, классика',
+        type: 'VELO',
+        fmt: 'классика',
+        // res: 'https://web.archive.org/web/20150815125700/http://school-12.ru/files/2015/20150709_Spl.htm',
+        maps: [
             'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150709_M21-17.jpg',
-            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150709_W21-17.jpg',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150709_W21-17.jpg'
+        ],
+        start: 'RUSSIA_CHAMP_MTBO'
+    },
+    {
+        id: 'MAJOR_20150710_1',
+        parent: 'MAJOR_20150707_1',
+        date: '2015-07-10',
+        name: 'Чемпионат России, эстафета 3 чел.',
+        type: 'VELO',
+        fmt: 'эстафета 3 чел.',
+        // res: 'https://web.archive.org/web/20150815125700/http://school-12.ru/files/2015/20150710_Spl.htm',
+        maps: [
             'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150710_M-21.jpg',
-            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150710_W-21.jpg',
+            'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150710_W-21.jpg'
+        ],
+        start: 'RUSSIA_CHAMP_MTBO'
+    },
+    {
+        id: 'MAJOR_20150711_1',
+        parent: 'MAJOR_20150707_1',
+        date: '2015-07-11',
+        name: 'Чемпионат России, лонг',
+        type: 'VELO',
+        fmt: 'лонг',
+        // res: 'https://web.archive.org/web/20150815125700/http://school-12.ru/files/2015/20150711_Spl.htm',
+        maps: [
             'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150711_M-21-1.jpg',
             'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150711_M-21-2.jpg',
             'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150711_W-21-1.jpg',
             'https://web.archive.org/web/20150815125700/http://school-12.ru/images/school-12/2015/20150711_W-21-2.jpg'
         ],
-        coord: [57.14417, 43.1625],
         start: 'RUSSIA_CHAMP_MTBO'
     },
     {
@@ -3807,7 +3868,8 @@ let fsorEvents = [
         link: [
             'https://web.archive.org/web/20160529130226/http://fsorb.ru/prezidium/sportivno-tehnicheskaya-kommisiya/pr-kr-chr-vs-2015-oktyabrskii',
             'https://orgeo.ru/event/2273',
-            'https://orgeo.ru/event/2467'
+            'https://orgeo.ru/event/2467',
+            'https://leaorient.livejournal.com/1916.html'
         ],
         type: 'SKI',
         fmt: 'спринт, лонг, многодневная',
@@ -3855,6 +3917,7 @@ let fsorEvents = [
         endDate: '2016-02-24',
         place: 'Ковров, Владимирская обл',
         name: 'Чемпионат России',
+        link: 'https://leaorient.livejournal.com/2063.html',
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация',
         coord: [56.36056, 41.31972],
@@ -3979,6 +4042,7 @@ let fsorEvents = [
         endDate: '2016-05-08',
         place: 'Москва',
         name: 'Чемпионат России',
+        link: 'https://asis-spb.livejournal.com/23088.html',
         type: 'VELO',
         fmt: 'спринт, классика',
         coord: [55.75056, 37.6175],
@@ -4254,6 +4318,7 @@ let fsorEvents = [
         endDate: '2016-12-15',
         place: 'Златоуст, Челябинская обл',
         name: 'Чемпионат России',
+        link: 'https://leaorient.livejournal.com/2448.html',
         type: 'SKI',
         fmt: 'спринт, лонг, многодневная',
         coord: [55.16667, 59.66667],
@@ -4310,6 +4375,7 @@ let fsorEvents = [
         endDate: '2017-02-05',
         place: 'Дзержинск, Нижегородская обл',
         name: 'Чемпионат России',
+        link: 'https://leaorient.livejournal.com/2675.html',
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., классика, общий старт, комбинация',
         coord: [56.23333, 43.45],
@@ -4474,6 +4540,10 @@ let fsorEvents = [
         endDate: '2017-06-24',
         place: 'Ковров, Владимирская обл',
         name: 'Чемпионат России',
+        link: [
+            'https://twentysix.ru/blog/129608.html',
+            'https://leaorient.livejournal.com/3460.html'
+        ],
         type: 'VELO',
         fmt: 'эстафета 2 чел., спринт, лонг',
         coord: [56.36056, 41.31972],
@@ -4521,6 +4591,7 @@ let fsorEvents = [
         endDate: '2017-09-13',
         place: 'Москва',
         name: 'Чемпионат России',
+        link: 'https://leaorient.livejournal.com/3644.html',
         type: 'VELO',
         fmt: 'эстафета 3 чел., общий старт, классика',
         coord: [55.75056, 37.6175],
@@ -4736,6 +4807,7 @@ let fsorEvents = [
         endDate: '2018-03-09',
         place: 'ЦЛС Дёмино, Ярославская обл',
         name: 'Чемпионат России',
+        link: 'https://leaorient.livejournal.com/4807.html',
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация, лонг, общий старт',
         start: 'RUSSIA_CHAMP_SKI'
@@ -4907,6 +4979,7 @@ let fsorEvents = [
         endDate: '2018-07-08',
         place: 'ЦЛС Дёмино, Ярославская обл',
         name: 'Чемпионат России',
+        link: 'https://leaorient.livejournal.com/5330.html',
         type: 'VELO',
         fmt: 'эстафета 2 чел., спринт, лонг',
         start: 'RUSSIA_CHAMP_MTBO'
@@ -4941,6 +5014,7 @@ let fsorEvents = [
         date: '2018-07-08',
         place: 'ЦЛС Дёмино, Ярославская обл',
         name: 'Чемпионат России, лонг',
+        link: 'https://leaorient.livejournal.com/5409.html',
         info: 'М: Руслан Грицан (Москва) - 1, Антон Фолифоров (Владимирская обл.) - 2, Валерий Глухов (Московская обл.) - 3; Ж: Анастасия Свирь (Московская обл.) - 1, Светлана Поверина (Москва) - 2, Ольга Михайлова (Москва) - 3.',
         type: 'VELO',
         fmt: 'лонг',
@@ -5121,6 +5195,7 @@ let fsorEvents = [
         endDate: '2019-02-24',
         place: 'Пермь',
         name: 'Чемпионат России',
+        link: 'https://leaorient.livejournal.com/5840.html',
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация, лонг, общий старт',
         coord: [58.01389, 56.24889],
@@ -5377,6 +5452,7 @@ let fsorEvents = [
         endDate: '2019-09-01',
         place: 'Ковров, Владимирская обл',
         name: 'Чемпионат России',
+        link: 'https://leaorient.livejournal.com/6349.html',
         type: 'VELO',
         fmt: 'общий старт, эстафета 3 чел., классика',
         coord: [56.36056, 41.31972],
@@ -5641,6 +5717,10 @@ let fsorEvents = [
         endDate: '2020-09-20',
         place: 'Томилинский лесопарк, Московская обл',
         name: 'Чемпионат России',
+        link: [
+            'https://leaorient.livejournal.com/8125.html',
+            'https://leaorient.livejournal.com/8299.html'
+        ],
         type: 'VELO',
         fmt: 'общий старт, эстафета 3 чел., классика',
         coord: [55.65, 37.95],
@@ -5794,6 +5874,7 @@ let fsorEvents = [
         endDate: '2020-11-22',
         place: 'Алушта, Крым',
         name: 'Чемпионат России',
+        link: 'https://leaorient.livejournal.com/8505.html',
         type: 'VELO',
         fmt: 'спринт, эстафета 2 чел., лонг',
         coord: [44.66722, 34.39778],
@@ -5829,6 +5910,7 @@ let fsorEvents = [
         date: '2020-11-22',
         place: 'Алушта, Крым',
         name: 'Чемпионат России, лонг',
+        link: 'https://leaorient.livejournal.com/8818.html',
         info: 'М: Григорий Медведев (Москва) - 1, Антон Фолифоров (Владимирская обл) - 2, Валерий Глухов (Московская обл) - 3; Ж: Светлана Фолифорова (Владимирская обл) - 1, Анастасия Большова (Московская обл) - 2, Дарья Севбо (Москва) - 3.',
         type: 'VELO',
         fmt: 'лонг',
@@ -6051,6 +6133,7 @@ let fsorEvents = [
         endDate: '2021-07-04',
         place: 'Воронеж',
         name: 'Чемпионат России',
+        link: 'https://leaorient.livejournal.com/9341.html',
         type: 'VELO',
         fmt: 'спринт, эстафета 2 чел., лонг',
         coord: [51.67167, 39.21056],
@@ -6086,6 +6169,7 @@ let fsorEvents = [
         date: '2021-07-04',
         place: 'Воронеж',
         name: 'Чемпионат России, лонг',
+        link: 'https://leaorient.livejournal.com/9509.html',
         info: 'М: Григорий Медведев (Москва) - 1, Руслан Грицан (Москва) - 2, Дмитрий Кузьмин (Москва) - 3; Ж: Светлана Фолифорова (Владимирская обл.) - 1, Анастасия Свирь (Московская обл.) - 2, Ольга Шипилова-Виноградова (Владимирская обл.) - 3.',
         type: 'VELO',
         fmt: 'лонг',
@@ -6381,6 +6465,7 @@ let fsorEvents = [
         endDate: '2022-06-05',
         place: 'Ковров, Владимирская обл',
         name: 'Чемпионат России',
+        link: 'https://leaorient.livejournal.com/9739.html',
         type: 'VELO',
         fmt: 'эстафета 2 чел., лонг, спринт',
         coord: [56.36056, 41.31972],
@@ -6817,6 +6902,7 @@ let fsorEvents = [
         endDate: '2023-06-25',
         place: 'Химки, Московская обл',
         name: 'Чемпионат России',
+        link: 'https://leaorient.livejournal.com/10290.html',
         type: 'VELO',
         fmt: 'спринт, эстафета 2 чел.',
         coord: [55.88917, 37.445],

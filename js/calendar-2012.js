@@ -1194,6 +1194,7 @@ let events2012 = [
         date: '2012-10-13',
         name: 'Sprint Tour Spb',
         place: 'Литейный пр',
+        link: 'https://swann74.livejournal.com/49881.html',
         res: 'http://o-site.spb.ru/_races/121013/121013_split.xls',
         start: 'SPRINT_TOUR',
         o_site: '121013'
@@ -1234,6 +1235,7 @@ let events2012 = [
         endDate: '2012-10-21',
         place: 'Выборг',
         name: 'Золотая Осень',
+        link: 'https://swann74.livejournal.com/50643.html',
         res: 'https://o-site.spb.ru/_races/12102021/121020_res.htm',
         video: 'https://www.youtube.com/watch?v=ONRgfh2ptn0',
         owner: 'VYBORG',

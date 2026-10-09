@@ -808,6 +808,7 @@ let events2017 = [
         endDate: '2017-05-21',
         place: 'Игналина, Литва',
         name: 'Чемпионат Прибалтики',
+        link: 'https://swann74.livejournal.com/116327.html',
         o_site: '17051921'
     },
     {
