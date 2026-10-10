@@ -2928,7 +2928,10 @@ let events2026 = [
         endReg: '2026-10-07 23:55',
         bulletin: 'https://o-site.spb.ru/_races/vyb_zo/info1.pdf',
         start: 'LO_CHAMP',
-        place: 'Выборг',
+        o_gps: 26112,
+        strava: 20527472955,
+        me: 'М50',
+        place: 'Выборг, Анненские укрепления',
         owner: 'VYBORG',
         map: ['vyborg_annenskie_2017','kkp_goritsa_2016_06_18']
     },
@@ -2965,6 +2968,10 @@ let events2026 = [
         date: '2026-10-14',
         name: 'NW Sprint, осень #2',
         place: 'пл Мужества',
+        o_site: '261014_NWSprint_2',
+        reg: 'http://orgeo.ru/event/info/56046',
+        bulletin: 'https://o-site.spb.ru/_races/261014_NWSprint_2/261014_NWsprint_info.pdf',
+        coord: [59.998039, 30.372709],
         fmt: 'спринт',
         owner: 'NW',
         info: 'Новая карта.'
@@ -3022,6 +3029,7 @@ let events2026 = [
         start: 'LO_CHAMP',
         place: 'Сосновый бор',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1761',
+        link: 'https://vk.ru/wall-201330282_2651',
         endReg: '2026-10-14 20:00',
         fmt: 'выбор',
         o_site: '261018_LO',
@@ -3067,6 +3075,16 @@ let events2026 = [
         reg: 'https://www.multsport.ru/starts/klo-final-26/registration.html',
         type: 'ROGAINE',
         fmt: '4'
+    },
+    {
+        id: 'SPB_20261024_3',
+        date: '2026-10-24',
+        name: 'Вечерний рогейн',
+        place: 'Сосновый бор, Приморский парк',
+        link: 'https://vk.ru/wall-201330282_2651',
+        reg: 'juventa-uvr@sbor.net',
+        type: 'ROGAINE',
+        fmt: '1.5'
     },
     {
         id: 'SPB_20261025_1',
