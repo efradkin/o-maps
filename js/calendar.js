@@ -162,23 +162,22 @@ function renderMapsTable() {
         if (validateEvent(evt)) {
             totalEvents++;
             currentDate = new Date(evt.date);
-            let month = currentDate.getMonth();
+            const month = currentDate.getMonth();
             const y = currentDate.getFullYear();
-            if (currentSort === 'date' && (month !== currentMonth || y !== currentYear) &&
-                'EARLY' !== START_YEAR_PARAM) {
+            if (currentSort === 'date' && (month !== currentMonth || y !== currentYear)) {
                 if (monthTD) {
                     buildMonth();
                 }
-                currentMonth = month;
-                currentYear = y;
                 const monthRow = document.createElement('tr');
                 monthTD = document.createElement('td');
                 monthTD.setAttribute('colspan', 8);
                 monthTD.classList.add('month-row');
                 monthRow.appendChild(monthTD);
-                if (!onlyMy) {
+                if (!onlyMy && ('EARLY' !== START_YEAR_PARAM || (currentYear !== y))) {
                     tbody.appendChild(monthRow);
                 }
+                currentMonth = month;
+                currentYear = y;
             }
 
             const row = document.createElement('tr');
