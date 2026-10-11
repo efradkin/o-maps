@@ -2350,6 +2350,17 @@ function getStartExternalMaps(start, events) {
     return result;
 }
 
+function getEventPlace(event) {
+    let place = event.place;
+    if (!place && event.parent) {
+        const parent = findEvent(event.parent);
+        if (parent.place) {
+            place = parent.place;
+        }
+    }
+    return place;
+}
+
 // Место события: ссылки на O-Maps (поля map, coord, track) и внешние файлы карт (поле maps).
 function buildEventPlace(event, suffix) {
     return buildEventPlaceOMaps(event, suffix) + buildEventExternalMaps(event);
@@ -2362,6 +2373,7 @@ function buildEventPlaceOMaps(event, suffix) {
     } else if (REGION_KEY == 'tracks') {
         mapPage = 'tracks.html';
     }
+    let place = getEventPlace(event);
     if (event.map) {
         let maps = Array.isArray(event.map) ? [...event.map] : [event.map];
         let result = '';
@@ -2371,7 +2383,7 @@ function buildEventPlaceOMaps(event, suffix) {
                 mapPage = (mp.page ?? (mp.start && starts[mp.start] && starts[mp.start].page)) + '.html';
             }
             if (i === 0) {
-                result = buildLink(`${mapPage}?calendar&map=${m}`, event.place + ' 🗺️', 'Карта на O-Maps');
+                result = buildLink(`${mapPage}?calendar&map=${m}`, place + ' 🗺️', 'Карта на O-Maps');
             } else {
                 result += buildLink(`${mapPage}?calendar&map=${m}`, ' 🗺️', 'Карта на O-Maps');
             }
@@ -2381,11 +2393,11 @@ function buildEventPlaceOMaps(event, suffix) {
         }
         return result;
     } else if (event.coord) {
-        return buildLink(`${mapPage}?x=${event.coord[0]}&y=${event.coord[1]}&calendar${suffix ? '&'+suffix : ''}`, event.place + ' 🌐', 'Место на O-Maps');
+        return buildLink(`${mapPage}?x=${event.coord[0]}&y=${event.coord[1]}&calendar${suffix ? '&'+suffix : ''}`, place + ' 🌐', 'Место на O-Maps');
     }  else if (event.track) {
-        return buildLink(`tracks.html?track=${event.track}&calendar`,event.place + ' 🚸', 'Трек на O-Maps');
+        return buildLink(`tracks.html?track=${event.track}&calendar`,place + ' 🚸', 'Трек на O-Maps');
     } else {
-        return event.place ?? '';
+        return place ?? '';
     }
 }
 

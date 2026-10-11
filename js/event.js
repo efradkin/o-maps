@@ -368,7 +368,8 @@
             'DTEND;VALUE=DATE:' + icsDate(end),
             'SUMMARY:' + icsText(stripTags(evt.name)),
         ];
-        if (evt.place) lines.push('LOCATION:' + icsText(stripTags(evt.place)));
+        const place = getEventPlace(evt);
+        if (place) lines.push('LOCATION:' + icsText(stripTags(place)));
         if (evt.coord) lines.push('GEO:' + evt.coord[0] + ';' + evt.coord[1]);
         lines.push('URL:' + pageUrl, 'DESCRIPTION:' + icsText(description));
         if (evt.cancelled) lines.push('STATUS:CANCELLED');
@@ -449,8 +450,9 @@
         if (evt.russialoppet) head += badge('Russialoppet', 'bg-light text-dark border');
         let html = `<h3>${head}</h3>`;
 
-        if (evt.place || evt.map || evt.coord || evt.track) {
-            html += row('Место', (evt.place ? esc(evt.place) : 'не указано') + ' ' + buildPlaceLinks(evt, ctx.calendar, ctx.mapPage));
+        const place = getEventPlace(evt);
+        if (place || evt.map || evt.coord || evt.track) {
+            html += row('Место', (place ? esc(place) : 'не указано') + ' ' + buildPlaceLinks(evt, ctx.calendar, ctx.mapPage));
         }
         let sport = buildEventType(evt, false);
         // многострочный формат (лыжи: по строке на дистанцию) - здесь первая
@@ -784,9 +786,10 @@
         const kindIcon = { water: '_water', rogaine: '_rogaine', ski: '_ski' }[ctx.kind] ??
             (getEventType(evt).includes('VELO') ? '_velo' : '');
         icon += kindIcon + '.png';
+        const place = getEventPlace(evt);
         L.marker(ctx.point, {
             icon: L.icon({ iconUrl: icon, iconSize: [34, 48], iconAnchor: [17, 48] }),
-            title: stripTags(evt.place ?? evt.name),
+            title: stripTags(place ?? evt.name),
             keyboard: false
         }).addTo(lmap);
 
@@ -891,9 +894,11 @@
             .sort(compareEvents);
         if (!list.length) return '';
         const shown = list.slice(0, SAME_DAYS_LIMIT);
-        let items = shown.map(e =>
-            `<li>${shortDate(e, false)} — ${eventLogoIcon(e)}<a href="${eventPageUrl(e)}" target="_self">${e.name}</a>` +
-            (e.place ? ` (${esc(e.place)})` : '') + '</li>').join('');
+        let items = shown.map(e => {
+            const place = getEventPlace(e)
+            return `<li>${shortDate(e, false)} — ${eventLogoIcon(e)}<a href="${eventPageUrl(e)}" target="_self">${e.name}</a>` +
+                (place ? ` (${esc(place)})` : '') + '</li>';
+        }).join('');
         if (list.length > shown.length) {
             items += `<li>и ещё ${list.length - shown.length} — <a href="${ctx.calendarHref}">в календаре</a></li>`;
         }
@@ -955,11 +960,12 @@
         // Место в title: у одноимённых событий (например, «Лыжня России» в
         // двух десятках мест в один день) иначе одинаковые заголовки, и Google
         // склеивает такие страницы как копии.
+        const place = getEventPlace(evt);
         const title = name + ', ' + fullDateText(evt)
-            + (evt.place ? ', ' + stripTags(evt.place) : '') + ' — O-Maps';
+            + (place ? ', ' + stripTags(place) : '') + ' — O-Maps';
         document.title = title;
         const parts = [fullDateText(evt)];
-        if (evt.place) parts.push(stripTags(evt.place));
+        if (place) parts.push(stripTags(place));
         const type = buildEventType(evt, false);
         if (type) parts.push(type + (evt.fmt ? ' (' + stripTags(String(evt.fmt).split(/<br\s*\/?>/i)[0]) + ')' : ''));
         let fullDescription = name + '. ' + parts.join('. ') + '.';
@@ -990,9 +996,9 @@
             url: absUrl(eventPageUrl(evt)),
             description: fullDescription,
         };
-        if (evt.place || ctx.point) {
-            ld.location = { '@type': 'Place', name: stripTags(evt.place ?? name) };
-            if (evt.place) ld.location.address = stripTags(evt.place);
+        if (place || ctx.point) {
+            ld.location = { '@type': 'Place', name: stripTags(place ?? name) };
+            if (place) ld.location.address = stripTags(place);
             const p = evt.coord ?? ctx.point;
             if (p) ld.location.geo = { '@type': 'GeoCoordinates', latitude: p[0], longitude: p[1] };
         }
