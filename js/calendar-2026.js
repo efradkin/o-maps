@@ -2983,6 +2983,7 @@ let events2026 = [
         place: 'пл Мужества',
         o_site: '261014_NWSprint_2',
         reg: 'http://orgeo.ru/event/info/56046',
+        endReg: '2026-10-13 21:00',
         bulletin: 'https://o-site.spb.ru/_races/261014_NWSprint_2/261014_NWsprint_info.pdf',
         coord: [59.998039, 30.372709],
         fmt: 'спринт',
