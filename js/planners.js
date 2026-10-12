@@ -126,6 +126,7 @@ let planners = {
     TRSV_D: { name: 'Тарасов Д' },
     VLKV_A: { name: 'Волков Андрей' },
     VSLVSKY: { name: 'Василевский Александр' },
+    VSLV_S: { name: 'Васильев Сергей' },
     YGNV: { name: 'Яганов Алексей' },
     ZCHNV: { name: 'Зачиняев Виктор' },
     ZKHRV_VCH: { name: 'Захаров Вячеслав' },

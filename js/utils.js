@@ -682,6 +682,7 @@ function downloadIconExt(url) {
         case 'docx': return 'doc';
         case 'jpeg': return 'jpg';
         case 'omap': return 'ocd';
+        case 'zip':
         case 'asp':
         case 'html':
         case 'htm':
@@ -2283,7 +2284,7 @@ function buildEventResults(evt) {
 // Внешние файлы карт события - значения поля maps с адресом http/https (изображения
 // или PDF в интернете). Прочие значения maps - идентификаторы карт O-Maps, здесь не участвуют.
 function getEventExternalMaps(evt) {
-    return [].concat(evt?.maps ?? []).filter(isExternalUrl);
+    return [].concat(evt?.maps ?? []); // .filter(isExternalUrl)
 }
 
 function isExternalUrl(value) {

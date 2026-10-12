@@ -2863,6 +2863,7 @@ let events2026 = [
         endReg: '2026-10-02 20:00',
         bulletin: 'https://orgeo.ru/files/event/file/55808_20e64185c4.pdf',
         place: 'Кавголово, старый лыжедром',
+        reskeep: 936,
         map: 'kavgolovo_old_ski_track_2023',
         coord: [60.187875,30.549333]
     },
@@ -2899,6 +2900,7 @@ let events2026 = [
         bulletin: 'https://o-site.spb.ru/_races/261007_NWSprint_1/261007_NWsprint_info.pdf',
         info: '<a href="https://o-site.spb.ru/_races/261007_NWSprint_1/261007_NWSprint_razbor.pdf">Разбор дистанций</a>.',
         endReg: '2026-10-06 22:00',
+        reskeep: 937,
         fmt: 'спринт',
         map: 'bogatyrsky_2025',
         owner: 'NW'
@@ -2931,7 +2933,8 @@ let events2026 = [
         o_gps: 26112,
         strava: 20527472955,
         me: 'М50',
-        place: 'Выборг, Анненские укрепления',
+        place: 'Выборг, Анненские укрепления, оз Горица',
+        reskeep: [938,939],
         owner: 'VYBORG',
         map: ['vyborg_annenskie_2017','kkp_goritsa_2016_06_18']
     },
@@ -2962,6 +2965,7 @@ let events2026 = [
         bulletin: 'https://o-site.spb.ru/_races/261011_velo/261011_info.pdf',
         publish: 'https://vk.ru/album-230167293_314685615',
         photo: 'https://vk.ru/album-230167293_314685615',
+        planner: 'VSLV_S',
         type: 'VELO',
         fmt: 'эстафета 2х',
         map: 'roschino_velo_2025'

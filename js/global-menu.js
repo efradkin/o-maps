@@ -157,13 +157,29 @@ const GLOBAL_MENU_ITEMS = [
     {
         title: 'История',
         menuItems: [
-            { title: '📖 Чемпионаты мира и Европы', page: 'history/iof' },
-            { title: '🏃 Чемпионаты мира (WOC)', page: 'history/woc' },
-            { title: '🏃 Чемпионаты Европы (EOC)', page: 'history/eoc' },
-            { title: '⛷️ Чемпионаты мира на лыжах (SKI-WOC)', page: 'history/ski-woc' },
-            { title: '⛷️ Чемпионаты Европы на лыжах (SKI-EOC)', page: 'history/ski-eoc' },
-            { title: '🚵 Чемпионаты мира на велосипедах (WMTBOC)', page: 'history/wmtboc' },
-            { title: '🚵 Чемпионаты Европы на велосипедах (EMTBOC)', page: 'history/emtboc' },
+            {
+                title: '🏆 Чемпионаты мира и Европы',
+                menuItems: [
+                    { title: '📖 Оглавление', page: 'history/iof' },
+                    { title: '🏃 Чемпионаты мира (WOC)', page: 'history/woc' },
+                    { title: '🏃 Чемпионаты Европы (EOC)', page: 'history/eoc' },
+                    { title: '⛷️ Чемпионаты мира на лыжах (SKI-WOC)', page: 'history/ski-woc' },
+                    { title: '⛷️ Чемпионаты Европы на лыжах (SKI-EOC)', page: 'history/ski-eoc' },
+                    { title: '🚵 Чемпионаты мира на велосипедах (WMTBOC)', page: 'history/wmtboc' },
+                    { title: '🚵 Чемпионаты Европы на велосипедах (EMTBOC)', page: 'history/emtboc' },
+                ]
+            },
+            {
+                title: '🏆 Чемпионаты СССР и России',
+                menuItems: [
+                    { title: '📖 Оглавление', page: 'history/domestic' },
+                    { title: '🏃 Чемпионат СССР', page: 'history/ussr-foot' },
+                    { title: '⛷️ Чемпионат СССР на лыжах', page: 'history/ussr-ski' },
+                    { title: '🏃 Чемпионат России', page: 'history/russia-foot' },
+                    { title: '⛷️ Чемпионат России на лыжах', page: 'history/russia-ski' },
+                    { title: '🚵 Чемпионат России на велосипедах', page: 'history/russia-mtbo' },
+                ]
+            },
         ]
     },
     {

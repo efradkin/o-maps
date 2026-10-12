@@ -21,7 +21,7 @@ let fsorEvents = [
         id: 'SPB_19810804_2',
         date: '1981-08-04',
         endDate: '1981-08-06',
-        place: 'Зеленогорск',
+        place: 'Карельский перешеек',
         name: 'I Чемпионат СССР',
         info: 'Главный судья — Иван Лисов (Москва). Около 150 спортсменов из сборных союзных республик, Москвы и Ленинграда. Первым чемпионом СССР стал Борис Прокофьев (РСФСР-2, Ярославль), первыми чемпионками в эстафете — ленинградки.',
         link: [
@@ -63,11 +63,7 @@ let fsorEvents = [
         info: '<a href="./docs/1981/1981_ussr_champ_relay_schema_omaps.jpg">Эстафета</a>. М: Эстонская ССР (Арво Кивикас, Николай Ярвеоя, Йоханнес Таса) - 1, РСФСР-2 (Мизгулин, Александр Глушко, Борис Прокофьев) - 2, Москва (С. Лавренюк, Виктор Сотников, Сергей Симакин) - 3; Ж: Ленинград (Светлана Березина, Ирина Иванова, Надежда Левичева) - 1, Латвийская ССР (Дайна Звирбуле, Сармите Габране, Ирина Намовир) - 2, Литовская ССР (Дануте Вилькялене, Виргиния Икамайте, Гедре Бандзайтите) - 3.',
         fmt: 'эстафета 3х',
         start: ['USSR_1981','USSR_CHAMP'],
-        gps: {
-            'М1':'./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M1_omaps.jpg',
-            'М3':'./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M3_omaps.jpg',
-            'Ж3':'./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_W3_omaps.jpg',
-        },
+        maps: ['./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M1_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M3_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_W3_omaps.jpg'],
         map: 'sosnovo_ulovnoe_oz_1981'
     },
     {
@@ -1024,6 +1020,18 @@ let fsorEvents = [
             'https://www.sport-express.net/others/news/20092/'
         ],
         coord: [53.34861, 83.77639],
+        start: 'RUSSIA_CHAMP'
+    },
+    {
+        id: 'MAJOR_20011004_1',
+        date: '2001-10-04',
+        endDate: '2001-10-05',
+        place: 'Нижний Новгород, Нижегородский кремль',
+        name: 'Чемпионат России в суперспринте и на удлинённых дистанциях',
+        link: 'https://rufso.ru/wp-content/uploads/2018/02/Ориентирование-в-регионах.pdf',
+        info: 'Впервые на чемпионате России применялась электронная отметка на КП; оборудование предоставили ориентировщики Вологды.',
+        fmt: 'суперспринт, удлинённая',
+        coord: [56.3287, 44.0020],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -10415,7 +10423,7 @@ let fsorEvents = [
         link: [
             'https://orgeo.ru/event/51024',
             'https://informpskov.ru/news/519173.html',
-            'https://ms.r52.ru/2026/09/30/%d1%87%d0%b5%d0%bc%d0%bf%d0%b8%d0%be%d0%bd%d0%b0%d1%82-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8-%d0%bf%d0%be-%d1%81%d0%bf%d0%be%d1%80%d1%82%d0%b8%d0%b2%d0%bd%d0%be%d0%bc%d1%83-%d0%be%d1%80%d0%b8%d0%b5-18/',
+            'https://ms.r52.ru/2026/09/30/чемпионат-россии-по-спортивному-орие-18/',
             'https://t.me/kuleshow1/368',
             'https://t.me/kustolaz/286',
             'https://t.me/kustolaz/289'

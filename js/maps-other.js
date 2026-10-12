@@ -811,7 +811,7 @@ let otherMaps = [
     },
     {
         name: 'Верх-Нейвинский',
-        date: '1991-01-27',
+        date: '1991-02-27',
         url: './maps/other/verkh_neyvinsky_ussr_winter_champ_1991.webp',
         link: ['./original_maps/other/verkh_neyvinsky_ussr_winter_champ_1991_m21_omaps.webp','./original_maps/other/verkh_neyvinsky_ussr_winter_champ_1991_w21_omaps.webp'],
         bounds: [[57.3041806, 60.1385164], [57.2993584, 60.2015162], [57.266305, 60.1277876]],
@@ -820,7 +820,7 @@ let otherMaps = [
     },
     {
         name: 'Новоуральск, Мурзинка',
-        date: '1991-01-26',
+        date: '1991-02-26',
         url: './maps/other/murzinka_ussr_winter_champ_1991.webp',
         link: './original_maps/other/murzinka_ussr_winter_champ_1991_omaps.webp',
         bounds: [[57.2194226, 60.1049995], [57.2161695, 60.1352978], [57.1879485, 60.0934124]],
@@ -829,7 +829,7 @@ let otherMaps = [
     },
     {
         name: 'Шаманиха',
-        date: '1991-01-24',
+        date: '1991-02-24',
         url: './maps/other/shamanikha_ussr_winter_champ_1991.webp',
         link: './original_maps/other/shamanikha_ussr_winter_champ_1991_omaps.webp',
         bounds: [[57.137427, 60.1115227], [57.1327693, 60.17272], [57.0948572, 60.0991631]],
