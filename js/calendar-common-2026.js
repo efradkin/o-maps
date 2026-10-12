@@ -387,7 +387,8 @@ let commonEvents2026 = [
             'https://www.youtube.com/watch?v=asRAAvnbOho',
             'https://www.youtube.com/watch?v=vqiQXmXmEwU',
             'https://www.youtube.com/watch?v=Doz392I9WOM',
-            'https://vkvideo.ru/video-238805001_456239035'
+            'https://vkvideo.ru/video-238805001_456239035',
+            'https://www.youtube.com/watch?v=EtkkgBEl-fM'
         ],
         fmt: 'спринт, лонг, классика',
         start: 'WN',

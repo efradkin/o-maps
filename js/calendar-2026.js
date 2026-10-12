@@ -2944,6 +2944,7 @@ let events2026 = [
         fmt: '6',
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/53879',
+        video: 'https://vk.com/video20703959_456239616',
         endReg: '2026-10-07 22:00',
         info: '+ беговой TrailAdventure.',
         start: ['BA','TA'],
@@ -2962,6 +2963,18 @@ let events2026 = [
         type: 'VELO',
         fmt: 'эстафета 2х',
         map: 'roschino_velo_2025'
+    },
+    {
+        id: 'SPB_20261013_1',
+        date: '2026-10-13',
+        name: 'Ночная тренировка',
+        place: 'Шуваловский парк',
+        o_site: '261013_night-o',
+        reg: 'http://orgeo.ru/event/56106',
+        endReg: '2026-10-13 00:00',
+        bulletin: 'https://o-site.spb.ru/_races/261013_night-o/261013_info.pdf',
+        owner: 'NW',
+        map: 'shuvalovsky_rogaine_2024'
     },
     {
         id: 'SPB_20261014_1',
@@ -2995,7 +3008,7 @@ let events2026 = [
         place: 'Новгород',
         link: 'https://vk.com/wall-91656163_2736',
         reg: 'https://orgeo.ru/event/54011',
-        endReg: '2026-10-10 23:00',
+        endReg: '2026-10-13 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/54011_556bccbada.docx',
         type: 'ROGAINE',
         fmt: '4, 2.5',
