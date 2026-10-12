@@ -2626,7 +2626,7 @@ let events2025 = [
             'https://disk.yandex.ru/d/S-rlnWSUiro4og',
             'https://disk.yandex.ru/d/I4lZbxUefrsWZQ'
         ],
-        video: 'https://youtu.be/qpjohddGcKU',
+        video: ['https://youtu.be/qpjohddGcKU','https://t.me/gradadventure/36'],
         map: ['red_valley_2025', 'yappilya_mb_2025'],
         start: 'MB'
     },

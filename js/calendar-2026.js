@@ -3047,6 +3047,29 @@ let events2026 = [
         fmt: 'спринт'
     },
     {
+        id: 'SPB_20261017_4',
+        date: '2026-10-17',
+        name: 'Осенний Марш-бросок',
+        place: 'Ларионово, оз Снетковское',
+        o_site: '261017_PZVP',
+        reg: 'https://orgeo.ru/event/53888',
+        endReg: '2026-10-15 22:00',
+        bulletin: 'https://orgeo.ru/files/event/file/53888_a99fedfe25.docx',
+        coord: [61.014852, 30.228219],
+        type: 'TOURISM',
+        start: 'MB'
+    },
+    {
+        id: 'SPB_20261017_5',
+        date: '2026-10-17',
+        name: 'Нева-трейл',
+        place: 'Невский л/п',
+        reg: 'https://orgeo.ru/event/55879',
+        endReg: '2026-10-14 20:00',
+        bulletin: 'https://orgeo.ru/files/event/file/55879_def5dacb35.pdf',
+        map: 'nevsky_2024'
+    },
+    {
         id: 'SPB_20261018_1',
         date: '2026-10-18',
         name: 'ЧиП ЛО',
