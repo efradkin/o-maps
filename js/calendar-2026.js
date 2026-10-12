@@ -2960,6 +2960,8 @@ let events2026 = [
         reg: 'https://www.o-reg.spb.ru/?filter[day_id]=1760',
         endReg: '2026-10-08 23:59',
         bulletin: 'https://o-site.spb.ru/_races/261011_velo/261011_info.pdf',
+        publish: 'https://vk.ru/album-230167293_314685615',
+        photo: 'https://vk.ru/album-230167293_314685615',
         type: 'VELO',
         fmt: 'эстафета 2х',
         map: 'roschino_velo_2025'
