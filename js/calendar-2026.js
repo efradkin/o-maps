@@ -3069,7 +3069,7 @@ let events2026 = [
         endReg: '2026-10-16 12:00',
         o_site: '261018',
         bulletin: 'https://o-site.spb.ru/_races/261018/261018_info.pdf',
-        map: 'silande_2025'
+        map: 'steklyanny_2026'
     },
     {
         id: 'SPB_20261021_1',
