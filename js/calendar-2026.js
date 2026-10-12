@@ -3037,6 +3037,16 @@ let events2026 = [
         map: 'ilinsky_garden_2026'
     },
     {
+        id: 'SPB_20261018_2',
+        date: '2026-10-17',
+        name: 'Памяти Зои Пятаковой',
+        place: 'Пухтолова гора',
+        o_site: '261017_PZVP',
+        reg: 'http://orgeo.ru/event/info/55914',
+        bulletin: 'https://o-site.spb.ru/_races/261017_PZVP/261017_PZVP_info.pdf',
+        fmt: 'спринт'
+    },
+    {
         id: 'SPB_20261018_1',
         date: '2026-10-18',
         name: 'ЧиП ЛО',
@@ -3050,14 +3060,16 @@ let events2026 = [
         bulletin: 'https://o-site.spb.ru/_races/261018_LO/261018_info.pdf'
     },
     {
-        id: 'SPB_20261018_2',
-        date: '2026-10-17',
-        name: 'Памяти Зои Пятаковой',
-        place: 'Пухтолова гора',
-        o_site: '261017_PZVP',
-        reg: 'http://orgeo.ru/event/info/55914',
-        bulletin: 'https://o-site.spb.ru/_races/261017_PZVP/261017_PZVP_info.pdf',
-        fmt: 'спринт'
+        id: 'SPB_20261018_3',
+        date: '2026-10-18',
+        name: 'Феникс Middle-Cup',
+        owner: 'FENIX',
+        place: 'Стеклянный, Силанде',
+        reg: 'https://orgeo.ru/event/56109',
+        endReg: '2026-10-16 12:00',
+        o_site: '261018',
+        bulletin: 'https://o-site.spb.ru/_races/261018/261018_info.pdf',
+        map: 'silande_2025'
     },
     {
         id: 'SPB_20261021_1',
