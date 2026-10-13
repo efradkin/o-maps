@@ -1,12 +1,22 @@
 #!/usr/bin/env python3
 """Заполняет поле o_gps в записях calendar-*.js по карте соответствий (ogps_matches.json).
 
-Правка на месте (in-place) в каталоге --src. Предпросмотр: -n/--dry-run.
+Правка на месте (in-place) в каталоге --src (по умолчанию js). Предпросмотр: -n/--dry-run.
 Идемпотентно: записи, у которых o_gps уже есть, не трогаются; файлы без изменений не перезаписываются.
 Кодировка (UTF-8/cp1251) и переводы строк (CRLF/LF) сохраняются пофайлово.
 
-  python fill_ogps.py --src js --map ogps_matches.json -n
-  python fill_ogps.py --src js --map ogps_matches.json [--zip ogps.zip]
+Ключи:
+  --map FILE     JSON-карта соответствий {id записи: значение o_gps} (обязательный).
+                 Значение — число или объект {ключ: значение}; вставляется как есть.
+  --src DIR      каталог с файлами calendar-*.js (по умолчанию js).
+  -n, --dry-run  только показать, что будет добавлено, файлы не менять.
+  --zip FILE     упаковать изменённые файлы в архив (внутри — каталог js/);
+                 при --dry-run и при отсутствии изменений архив не создаётся.
+  -h, --help     справка.
+
+Примеры:
+  python fill_ogps.py --map ogps_matches.json -n
+  python fill_ogps.py --map ogps_matches.json [--src js] [--zip ogps.zip]
 """
 import argparse, json, os, re, sys, zipfile
 
@@ -93,7 +103,7 @@ def process(path, mapping, done):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--src', required=True)
+    ap.add_argument('--src', default='js', help='каталог с calendar-*.js (по умолчанию js)')
     ap.add_argument('--map', required=True)
     ap.add_argument('-n', '--dry-run', action='store_true')
     ap.add_argument('--zip')
