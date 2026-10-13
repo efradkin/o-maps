@@ -270,7 +270,9 @@ function buildStartEventSection(evt, level, idx, children, idOf) {
     let logo = '';
     if (evt.logo) {
         const logos = Array.isArray(evt.logo) ? evt.logo : [evt.logo];
-        logo = `<img src="./logo/${logos[0]}" loading="lazy" class="help-figure help-figure-left start-event-logo" alt="Лого" />`;
+        logo = logos.length > 1
+            ? buildLogoCarousel(logos.map(l => 'logo/' + l), 'event-logo-carousel-' + id, 'd-block', 'help-figure help-figure-left start-event-logo')
+            : `<img src="./logo/${logos[0]}" loading="lazy" class="help-figure help-figure-left start-event-logo" alt="Лого" />`;
     }
 
     let html = maps.figures + logo;

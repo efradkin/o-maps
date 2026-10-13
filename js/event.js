@@ -521,8 +521,11 @@
         html += `<div class="mt-3">${actions.join('')}</div>`;
 
         const hero = document.getElementById('event_hero');
+        const logoHtml = logos.length > 1
+            ? buildLogoCarousel(logos.map(l => 'logo/' + esc(l)), 'page-logo-carousel', 'd-block mw-100', 'd-inline-block')
+            : `<img src="./logo/${esc(logos[0])}" alt="Логотип" class="mw-100">`;
         hero.innerHTML = logos.length > 0
-            ? `<div class="row"><div class="col-md-3 mb-3"><img src="./logo/${esc(logos[0])}" alt="Логотип" class="mw-100"></div><div class="col-md-9">${html}</div></div>`
+            ? `<div class="row"><div class="col-md-3 mb-3">${logoHtml}</div><div class="col-md-9">${html}</div></div>`
             : html;
     }
 

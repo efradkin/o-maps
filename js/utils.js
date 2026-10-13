@@ -268,28 +268,42 @@ const BACKGROUND_YANDEX = 'yandex';
 const BACKGROUND_SATELLITE = 'satellite';
 const OOPT_TOP_PANE = 'ooptTopPane';
 
-const LOGO_CAROUSEL_TEMPLATE = `
-        <div id="logo-carousel" class="carousel carousel-dark slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="./image_1" class="d-block popup-logo" alt="Лого">
+// Карусель со всеми логотипами (пути относительно корня сайта, напр. 'logo/x.gif').
+// id - уникальный на странице; imgClass - классы картинок;
+// wrapperClass / wrapperStyle - доп. классы и стиль блока карусели.
+function buildLogoCarousel(logos, id, imgClass, wrapperClass = '', wrapperStyle = '') {
+    const items = logos.map((logo, idx) => `
+                <div class="carousel-item${idx === 0 ? ' active' : ''}" data-bs-interval="${idx === 0 ? 10000 : 2000}">
+                    <img src="./${logo}" class="${imgClass}" alt="Лого">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./image_2" class="d-block popup-logo" alt="Лого">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
+                </div>`).join('');
+    const cls = 'carousel carousel-dark slide logo-carousel' + (wrapperClass ? ' ' + wrapperClass : '');
+    const style = wrapperStyle ? ` style="${wrapperStyle}"` : '';
+    return `
+        <div id="${id}" class="${cls}"${style}>
+            <div class="carousel-inner">${items}
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#logo-carousel" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#${id}" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#logo-carousel" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#${id}" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </button>
         </div>
     `;
+}
+
+// Логотип во всплывающем окне: одна картинка или карусель со всеми логотипами
+function buildPopupLogo(logos, withCarousel = true) {
+    if (!logos.length) {
+        return '';
+    }
+    if (logos.length === 1 || !withCarousel) {
+        return '<img src="./' + logos[0] + '" alt="Лого" class="popup-logo" />';
+    }
+    return buildLogoCarousel(logos, 'logo-carousel', 'd-block popup-logo');
+}
 
 const ACTUAL_EVENTS_CALENDAR_PARAM_VALUE = 'actual';
 const GPS_EVENTS_CALENDAR_PARAM_VALUE = 'gps';

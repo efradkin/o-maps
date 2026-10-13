@@ -81,7 +81,10 @@ for (const e of events) {
 }
 putValue('#map_starts', mapStarts);
 let logo = logoList(m, events);
-if (!isEmpty(logo)) {
+if (logo.length > 1) {
+    const img = document.querySelector('#map_logo img');
+    img.outerHTML = buildLogoCarousel(logo.map(l => 'logo/' + l), 'page-logo-carousel', 'd-block mw-100', 'd-inline-block', img.getAttribute('style') ?? '');
+} else if (!isEmpty(logo)) {
     document.querySelector('#map_logo img').src = './logo/' + logo[0];
 } else if (m.photo) {
     document.querySelector('#map_logo img').src = m.photo;

@@ -367,6 +367,77 @@ body.sub-index-body {
     width: 150px;
     position: fixed;
 }
+/* в карусели всплывающего окна фиксирован сам блок, картинки - в потоке,
+   чтобы карусель получила высоту логотипа и стрелки встали у его нижнего края */
+#logo-carousel .popup-logo {
+    position: static;
+}
+/* Карусель логотипов: все слайды в одной ячейке сетки, неактивные лишь невидимы,
+   поэтому размер карусели - по самому большому логотипу и не меняется при листании */
+.logo-carousel .carousel-inner {
+    display: grid;
+}
+.logo-carousel .carousel-item {
+    display: block;
+    grid-area: 1 / 1;
+    float: none;
+    margin-right: 0;
+    visibility: hidden;
+}
+.logo-carousel .carousel-item.active,
+.logo-carousel .carousel-item-next,
+.logo-carousel .carousel-item-prev {
+    visibility: visible;
+}
+/* неактивные слайды остаются в раскладке, поэтому стартовый сдвиг за край
+   ставится без анимации, а анимируется только сам переход */
+.logo-carousel .carousel-item {
+    transition: none;
+}
+.logo-carousel .carousel-item-next.carousel-item-start,
+.logo-carousel .carousel-item-prev.carousel-item-end,
+.logo-carousel .carousel-item.active.carousel-item-start,
+.logo-carousel .carousel-item.active.carousel-item-end {
+    transition: transform .6s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+    .logo-carousel .carousel-item-next.carousel-item-start,
+    .logo-carousel .carousel-item-prev.carousel-item-end,
+    .logo-carousel .carousel-item.active.carousel-item-start,
+    .logo-carousel .carousel-item.active.carousel-item-end {
+        transition: none;
+    }
+}
+/* Стрелки карусели логотипов: белый кружок с тенью в нижних углах логотипа -
+   виден на любом логотипе и почти не закрывает его */
+.logo-carousel .carousel-control-prev,
+.logo-carousel .carousel-control-next {
+    top: auto;
+    bottom: 4px;
+    width: 28px;
+    height: 28px;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .45);
+    opacity: .85;
+}
+.logo-carousel .carousel-control-prev {
+    left: 4px;
+}
+.logo-carousel .carousel-control-next {
+    right: 4px;
+}
+.logo-carousel .carousel-control-prev:hover,
+.logo-carousel .carousel-control-next:hover,
+.logo-carousel .carousel-control-prev:focus,
+.logo-carousel .carousel-control-next:focus {
+    opacity: 1;
+}
+.logo-carousel .carousel-control-prev-icon,
+.logo-carousel .carousel-control-next-icon {
+    width: 14px;
+    height: 14px;
+}
 .popup-text {
     margin-left: 170px;
     min-height: 160px;
