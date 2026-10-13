@@ -1069,6 +1069,17 @@ let otherMaps = [
         type: ['PARK']
     },
     {
+        name: 'Черноморский, сквер Победы',
+        year: 2026,
+        url: './maps/south/chernomorsky_skver_pobedy_2026.webp',
+        link: './original_maps/south/chernomorsky_skver_pobedy_2026_omaps.gif',
+        bounds: [[44.8545226, 38.4926498], [44.8544694, 38.4937549], [44.8525451, 38.4926498]],
+        author: 'KZKV_K',
+        owner: 'KZKV_K',
+        region: 'KRASNODAR',
+        type: ['PARK']
+    },
+    {
         name: 'Горячий ключ',
         year: 2013,
         url: './maps/south/hot_key_2013.webp',

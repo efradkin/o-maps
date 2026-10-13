@@ -650,6 +650,9 @@ let owners = {
     KRSHNV: {
         name: 'Коршунов Евгений Владимирович (+7-911-456-88-41, korshunov_e.v@mail.ru)' // , https://korshunyata.ru/
     },
+    KZKV_K: {
+        name: 'Казаков Кирилл (+79770098596, <a href = "https://t.me/Kinovpntop" >Telegram</a>)'
+    },
     SMRNV_K: {
         name: 'По вопросам использования карты - Кирилл Смирнов (920 9243226, <a href = "https://t.me/zzz_kir" >Telegram</a>).',
         logo: 'vladimir_obl.gif'

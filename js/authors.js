@@ -943,6 +943,7 @@ let authors = {
     KUZNTSV_S_DV: { name: 'Кузнецов Сергей' },
     KUZNTSV_V_DV: { name: 'Кузнецов В.' },
     KUZNTSV_VK: { name: 'Кузнецов Виктор' },
+    KZKV_K: { name: 'Казаков Кирилл' },
     LBMV_E: { name: 'Любимов Е.' },
     LBNVSKY_A: { name: 'Лабановский А.' },
     LGNV_E: { name: 'Логинов Евгений' },
