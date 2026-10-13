@@ -2341,8 +2341,12 @@ function externalMapIcon(url) {
 // Ссылкам - rel="noreferrer" (noReferrerRel), картинкам - referrerpolicy="no-referrer".
 const NO_REFERRER_URL = /^https?:\/\/([a-z0-9-]+\.)*o-stuff\.net(\/|$)/i;
 
+// Временный запрет Referer для o-stuff.net: false - Referer передаётся как обычно
+// (и у ссылок, и у превью карт O-Stuff).
+const NO_REFERRER_ENABLED = true;
+
 function isNoReferrerUrl(url) {
-    return NO_REFERRER_URL.test(String(url ?? ''));
+    return NO_REFERRER_ENABLED && NO_REFERRER_URL.test(String(url ?? ''));
 }
 
 // Атрибут rel="noreferrer" для ссылки на такой адрес, иначе пусто.
@@ -2411,7 +2415,7 @@ function getEventExternalMapItems(evt) {
 // при ошибке (oStuffThumbError) и запасная картинка fallback с классом fallbackClass.
 function externalMapPreviewAttrs(item, fallback, fallbackClass) {
     if (item.ostuff === undefined) return '';
-    return ` data-ostuff="${item.ostuff}" referrerpolicy="no-referrer" onerror="oStuffThumbError(this)"` +
+    return ` data-ostuff="${item.ostuff}"${isNoReferrerUrl(item.preview) ? ' referrerpolicy="no-referrer"' : ''} onerror="oStuffThumbError(this)"` +
         (fallback ? ` data-fallback="${fallback}"` : '') +
         (fallbackClass ? ` data-fallback-class="${fallbackClass}"` : '');
 }
