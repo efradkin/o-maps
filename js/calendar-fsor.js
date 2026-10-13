@@ -5170,7 +5170,13 @@ let fsorEvents = [
             'https://www.youtube.com/watch?v=l1Ducgmg964'
         ],
         owner: 'FSOR',
-        o_site: '180212'
+        o_site: '180212',
+        o_gps: {
+            '16-М20': 3379,
+            '16-Ж20': 3380,
+            '16-М17': 3381,
+            '16-Ж17': 3382
+        }
     },
     {
         id: 'MAJOR_20180306_1',
@@ -5626,7 +5632,13 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация, лонг, общий старт',
         coord: [58.01389, 56.24889],
-        start: 'RUSSIA_CHAMP_SKI'
+        start: 'RUSSIA_CHAMP_SKI',
+        o_gps: {
+            '21': 5048,
+            '22': 5049,
+            '23': 5050,
+            '24': 5051
+        }
     },
     {
         id: 'MAJOR_20190221_2',
@@ -7060,7 +7072,12 @@ let fsorEvents = [
             'https://www.youtube.com/watch?v=AtOXfD7nl_I',
             'https://www.youtube.com/watch?v=eQzd4jQgf8w'
         ],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP',
+        o_gps: {
+            '05': 11455,
+            '06': 11456,
+            '07': 11457
+        }
     },
     {
         id: 'SPB_20211106_1',

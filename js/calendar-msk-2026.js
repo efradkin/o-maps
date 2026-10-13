@@ -761,7 +761,8 @@ let mskEvents2026 = [
         ],
         link: "https://sportident.ru/mk/",
         reg: "https://sportident.online/?en&d=2026&c=6&land=643&reg=50",
-        start: "MSK_COMPASS"
+        start: "MSK_COMPASS",
+        o_gps: 24818
     },
     {
         id: 'MSK_20260426_1',
@@ -776,7 +777,11 @@ let mskEvents2026 = [
         ],
         link: "https://sportident.ru/mk/",
         reg: "https://sportident.online/?en&d=2026&c=6&land=643&reg=50",
-        start: "MSK_COMPASS"
+        start: "MSK_COMPASS",
+        o_gps: {
+            'ALL': 24819,
+            'М35/40': 24879
+        }
     },
     {
         id: 'MSK_20260428_1',
@@ -1053,7 +1058,8 @@ let mskEvents2026 = [
         fmt: "кросс-спринт",
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        o_gps: 25171
     },
     {
         id: 'MSK_20260523_1',
@@ -1064,7 +1070,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        o_gps: 25172
     },
     {
         id: 'MSK_20260524_1',
@@ -1249,7 +1256,8 @@ let mskEvents2026 = [
         ],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        o_gps: 25322
     },
     {
         id: 'MSK_20260613_1',
@@ -1709,7 +1717,8 @@ let mskEvents2026 = [
         reg: "https://buyrun.ru/event/143",
         res: "https://orgeo.ru/files/event/file/53995_35a8e81e5c.xlsx",
         owner: "MLKHT",
-        map: "schukino_rogaine_2026"
+        map: "schukino_rogaine_2026",
+        o_gps: 25700
     },
     {
         id: 'MSK_20260804_1',

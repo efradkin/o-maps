@@ -65,7 +65,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_1_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        o_gps: 21424
     },
     {
         id: 'MSK_20250123_1',
@@ -99,7 +100,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_2_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        o_gps: 21487
     },
     {
         id: 'MSK_20250131_1',
@@ -150,7 +152,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_3_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        o_gps: 21564
     },
     {
         id: 'MSK_20250208_1',
@@ -201,7 +204,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_4_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        o_gps: 21601
     },
     {
         id: 'MSK_20250209_2',
@@ -218,7 +222,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_5_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        o_gps: 21611
     },
     {
         id: 'MSK_20250215_1',
@@ -252,7 +257,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_6_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        o_gps: 21656
     },
     {
         id: 'MSK_20250216_1',
@@ -269,7 +275,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_7_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        o_gps: 21660
     },
     {
         id: 'MSK_20250222_1',
@@ -286,7 +293,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_8_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        o_gps: 21688
     },
     {
         id: 'MSK_20250301_1',
@@ -554,7 +562,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_11_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        o_gps: 22519
     },
     {
         id: 'MSK_20250509_1',
@@ -673,7 +682,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/bigizmailovo_2025_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        o_gps: 22846
     },
     {
         id: 'MSK_20250617_1',
@@ -809,7 +819,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_10_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        o_gps: 23021
     },
     {
         id: 'MSK_20250708_1',
@@ -1217,7 +1228,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_12_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        o_gps: 23535
     },
     {
         id: 'MSK_20250928_2',
@@ -1434,7 +1446,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosNanorogaine_2025_4_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        o_gps: 23820
     },
     {
         id: 'MSK_20251108_1',

@@ -13,7 +13,12 @@ let samaraEvents2026 = [
         owner: [
             'FSO_SAMARA',
             'SAKSOR'
-        ]
+        ],
+        o_gps: {
+            '22-Ж16': 23288,
+            '23-Ж16': 23289,
+            '24-Ж16': 23290
+        }
     },
     {
         id: 'SMR_20251005_1',
@@ -50,7 +55,11 @@ let samaraEvents2026 = [
         link: 'https://o-63.ru/data/2026/snezhnye-parki-2-etap/',
         res: 'https://t.me/TrainingoClub',
         map: 'school_48_2025',
-        owner: 'TRAINING_O_CLUB'
+        owner: 'TRAINING_O_CLUB',
+        o_gps: {
+            'Короткая': 24240,
+            'Длинная': 24241
+        }
     },
     {
         id: 'SMR_20260222_1',
@@ -87,7 +96,11 @@ let samaraEvents2026 = [
         bulletin: 'https://orgeo.ru/files/event/file/50764_d1fbc94428.pdf',
         res: 'https://t.me/TrainingoClub',
         map: 'mehzavod_2025',
-        owner: 'TRAINING_O_CLUB'
+        owner: 'TRAINING_O_CLUB',
+        o_gps: {
+            'Короткая': 24372,
+            'Длинная': 24373
+        }
     },
     {
         id: 'SMR_20260529_1',

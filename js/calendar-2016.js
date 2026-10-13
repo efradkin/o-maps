@@ -1489,7 +1489,8 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/161002/161002_res.htm',
         o_site: '161002',
         bulletin: 'https://o-site.spb.ru/_races/161002/161002_info2.pdf',
-        reskeep: 223
+        reskeep: 223,
+        o_gps: 1426
     },
     {
         id: 'SPB_20161006_1',
