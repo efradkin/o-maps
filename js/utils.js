@@ -2343,7 +2343,7 @@ const NO_REFERRER_URL = /^https?:\/\/([a-z0-9-]+\.)*o-stuff\.net(\/|$)/i;
 
 // Временный запрет Referer для o-stuff.net: false - Referer передаётся как обычно
 // (и у ссылок, и у превью карт O-Stuff).
-const NO_REFERRER_ENABLED = true;
+const NO_REFERRER_ENABLED = false;
 
 function isNoReferrerUrl(url) {
     return NO_REFERRER_ENABLED && NO_REFERRER_URL.test(String(url ?? ''));
