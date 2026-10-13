@@ -44,6 +44,8 @@
         /* лента превью карт многодневного события */
         .start-event-maps { display: flex; flex-wrap: wrap; gap: 12px; clear: both; margin-top: 12px; }
         body.help-body section .start-event-maps img { height: 160px; width: auto; max-width: 100%; }
+        /* превью карты O-Stuff - полоса 400x100: в натуральную высоту, без растяжения */
+        body.help-body section .start-event-maps img[data-ostuff] { height: 100px; }
         /* превью карты в секции вкладки «Карты» */
         body.help-body section .start-map-figure { max-width: 35%; max-height: 420px; }
         /* строки «Подпись: значение» - плотнее обычных абзацев */

@@ -633,10 +633,13 @@
     // телефоне превью над текстом во всю ширину); несколько карт - превью в
     // ряд под списком. Сначала карты O-Maps (поле map), затем внешние файлы
     // карт (поле maps) - как на странице старта: ссылка прямо на файл,
-    // изображение - превью, PDF, OCAD и файлы с хостов за капчей - значок.
+    // изображение - превью, PDF, OCAD и файлы с хостов за капчей - значок;
+    // затем карты O-Stuff (поле o_stuff) - ссылка на страницу карты, превью - её
+    // маленькая картинка - полоса 400x100, в ряду она в натуральную высоту 100
+    // (не загрузилась - превью скрыто, ссылка остаётся).
     function buildMapsSection(evt, ctx) {
         const names = asList(evt.map);
-        const extMaps = getEventExternalMaps(evt);
+        const extMaps = getEventExternalMapItems(evt);
         if (names.length === 0 && extMaps.length === 0) return '';
         const previews = [];
         const lines = names.map(name => {
@@ -656,19 +659,18 @@
             if (isMapHidden(m)) html += row('', 'Просмотр карты не разрешён правообладателем.');
             return html;
         });
-        for (const url of extMaps) {
-            const name = externalMapFileName(url);
-            lines.push(row('', chip({ href: url, label: name, img: externalMapIcon(url), title: 'Карта (файл)' })));
-            if (isImageUrl(url)) previews.push({ href: url, m: { url: url, name: name }, external: true });
+        for (const x of extMaps) {
+            lines.push(row('', chip({ href: x.url, label: x.label, img: x.icon, title: x.title })));
+            if (x.preview) previews.push({ href: x.url, m: { url: x.preview, name: x.label }, external: true, attrs: externalMapPreviewAttrs(x), strip: x.ostuff !== undefined });
         }
-        const img = (p, cls, extra) => `<a href="${esc(p.href)}" ${p.external ? 'target="_blank" rel="noopener"' : 'target="_self"'}><img src="${esc(p.m.url)}" loading="lazy" class="${cls}" alt="${esc(p.m.name ?? 'Карта')}"${extra ?? ''}></a>`;
+        const img = (p, cls, extra) => `<a href="${esc(p.href)}" ${p.external ? 'target="_blank" rel="noopener"' : 'target="_self"'}><img src="${esc(p.m.url)}" loading="lazy" class="${cls}" alt="${esc(p.m.name ?? 'Карта')}"${extra ?? ''}${p.attrs ?? ''}></a>`;
         let html;
         if (previews.length === 1) {
             html = `<div class="row"><div class="col-sm-5 col-lg-3 mb-3">${img(previews[0], 'help-figure mw-100')}</div>` +
                 `<div class="col-sm-7 col-lg-9">${lines.join('')}</div></div>`;
         } else {
             html = lines.join('') + (previews.length
-                ? '<div class="d-flex flex-wrap gap-3 clearfix">' + previews.map(p => img(p, 'help-figure', ' height="160"')).join('') + '</div>'
+                ? '<div class="d-flex flex-wrap gap-3 clearfix">' + previews.map(p => img(p, 'help-figure', p.strip ? ' height="100"' : ' height="160"')).join('') + '</div>'
                 : '');
         }
         return section('ev_maps', names.length + extMaps.length > 1 ? 'Карты' : 'Карта', html);

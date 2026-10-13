@@ -245,7 +245,7 @@
         }
 
         let container = document.querySelector('.start-maps-wrapper');
-        // Плитки по дате, новые первыми: карты O-Maps и внешние файлы карт событий старта (поле maps).
+        // Плитки по дате, новые первыми: карты O-Maps и внешние карты событий старта (поля maps и o_stuff).
         const startTiles = [
             ...oMaps.map(m => ({date: dateForCompare(m), map: m})),
             ...getStartExternalMaps(START_NAME_PARAM, typeof oEvents !== 'undefined' ? oEvents : [])
@@ -253,15 +253,17 @@
         ].sort((a, b) => b.date - a.date);
         startTiles.forEach(t => {
             if (!t.map) {
-                // внешний файл: изображение - превью, PDF и прочее - значок; ссылка прямо на файл
+                // внешняя карта: изображение - превью, PDF и прочее - значок; ссылка прямо на файл,
+                // у карты O-Stuff - на её страницу (превью не загрузилось - значок O-Stuff)
                 const title = `${strt.short}: ${new Date(t.evt.date).getFullYear()} - ${t.evt.name}`.replaceAll('"', '&quot;');
-                const img = isImageUrl(t.url) ? t.url : externalMapIcon(t.url);
+                const img = t.preview ?? t.icon;
+                const attrs = externalMapPreviewAttrs(t, t.icon, 'start-map-file-icon');
                 const elTile = document.createElement("div");
                 elTile.classList.add("row");
                 elTile.innerHTML = `
                     <div class="start-map-box align-items-center d-flex justify-content-center">
                         <div>
-                            <a href="${t.url}" target="_blank"><img src="${img}" title="${title}" loading="lazy"${isImageUrl(t.url) ? '' : ' class="start-map-file-icon"'} /></a>
+                            <a href="${t.url}" target="_blank"><img src="${img}" title="${title}" loading="lazy"${t.preview ? '' : ' class="start-map-file-icon"'}${attrs} /></a>
                             <div class="start-map-box-description">${title}</div>
                         </div>
                     </div>

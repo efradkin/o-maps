@@ -43,7 +43,8 @@ const startDetailsMaps = startDetailsKnown
 startDetailsMaps.sort((a, b) => dateForCompare(b) - dateForCompare(a));
 const startDetailsMapNames = new Set(startDetailsMaps.map(m => getMapName(m)));
 
-// Внешние файлы карт событий старта (поле maps): [{url, evt, id}], id - секция на вкладке «Карты».
+// Внешние карты событий старта (поля maps и o_stuff): [{...getEventExternalMapItems(), evt, id}],
+// id - секция на вкладке «Карты».
 const startDetailsExtMaps = startDetailsKnown
     ? getStartExternalMaps(START_DETAILS_CODE, typeof oEvents !== 'undefined' ? oEvents : [])
         .map((x, i) => ({...x, id: 'extmap_' + i}))
@@ -242,17 +243,17 @@ function buildEventMapsInfo(evt) {
             }
         }
     }
-    // внешние файлы карт (поле maps) - ссылки на их секции на вкладке «Карты»
+    // внешние карты (поля maps и o_stuff) - ссылки на их секции на вкладке «Карты»
     for (const x of startDetailsExtMaps.filter(x => x.evt === evt)) {
         if (links) {
             links += ', ';
         }
-        links += `<a href="#${x.id}">${externalMapFileName(x.url)}</a>`;
-        if (isImageUrl(x.url)) {
-            previews.push({href: '#' + x.id, m: {url: x.url, name: externalMapFileName(x.url)}});
+        links += `<a href="#${x.id}">${x.label}</a>`;
+        if (x.preview) {
+            previews.push({href: '#' + x.id, m: {url: x.preview, name: x.label}, attrs: externalMapPreviewAttrs(x)});
         }
     }
-    const img = (p, cls) => `<a href="${p.href}"><img src="${p.m.url}" loading="lazy" class="${cls}" title="${p.m.name ?? ''}" alt="${p.m.name ?? 'Карта'}" /></a>`;
+    const img = (p, cls) => `<a href="${p.href}"><img src="${p.m.url}" loading="lazy" class="${cls}" title="${p.m.name ?? ''}" alt="${p.m.name ?? 'Карта'}"${p.attrs ?? ''} /></a>`;
     let figures = '', strip = '';
     if (previews.length === 1) {
         figures = img(previews[0], 'help-figure help-figure-right news-figure');
@@ -403,15 +404,16 @@ function buildStartMapSection(m) {
     return `<section id="${mapSectionId(name)}" class="clearfix start-map">${html}</section>`;
 }
 
-// Имя файла внешней карты для подписи.
-// Секция внешнего файла карты (поле maps события): превью, ссылка на файл и событие.
+// Секция внешней карты события (файл из поля maps или карта O-Stuff из o_stuff):
+// превью, ссылка на файл (у O-Stuff - на страницу карты) и событие.
 function buildStartExtMapSection(x) {
-    const fileName = externalMapFileName(x.url);
     let html = '';
-    if (isImageUrl(x.url)) {
-        html += `<a href="${x.url}" target="_blank" title="Полноразмер"><img src="${x.url}" loading="lazy" class="help-figure help-figure-right start-map-figure" alt="Карта" /></a>`;
+    if (x.preview) {
+        const title = x.ostuff === undefined ? 'Полноразмер' : x.title;
+        html += `<a href="${x.url}" target="_blank" title="${title}"><img src="${x.preview}" loading="lazy" class="help-figure help-figure-right start-map-figure" alt="Карта"${externalMapPreviewAttrs(x)} /></a>`;
     }
-    html += `<h3>🗺️ <a href="${x.url}" target="_blank">${x.evt.name}: ${fileName}</a></h3>`;
+    const mark = x.ostuff === undefined ? '🗺️' : `<img src="${O_STUFF_ICON}" alt="O-Stuff" class="sheet-icon" />`;
+    html += `<h3>${mark} <a href="${x.url}" target="_blank">${x.evt.name}: ${x.label}</a></h3>`;
     let eventLine = buildEventDescription(x.evt, true);
     if (x.evt.id) {
         eventLine += ` <a href="#${x.evt.id}" title="Событие на этой странице">↑</a>`;

@@ -33,6 +33,7 @@ const SERVICES = [
     { re: /russialoppet/i, label: 'Russialoppet', img: 'logo/russialoppet.gif' },
     { re: /gosuslugi/i, label: 'Госуслуги' },
     { re: /strava/i, label: 'Strava', img: 'images/strava_32.gif' },
+    { re: /o-stuff\.net/i, label: 'O-Stuff', img: 'images/o-stuff.webp' },
     { re: /livejournal/i, label: 'ЖЖ', img: 'images/lj.webp' },
 ];
 
@@ -2333,18 +2334,87 @@ function externalMapIcon(url) {
     return './images/' + (icons[ext] ?? 'url-file.png');
 }
 
-// Значки 🗺️ на внешние файлы карт события - в календаре после места.
-function buildEventExternalMaps(evt) {
-    return getEventExternalMaps(evt).map(url => buildLink(url, ' 🗺️', 'Карта (файл)')).join('');
+// Карты архива maps.o-stuff.net - поле o_stuff события: номер карты или массив номеров.
+// Ссылка ведёт на страницу карты на O-Stuff, превью - маленькая картинка N.thumbnail.<ext>.
+const O_STUFF_MAP_PAGE = 'https://maps.o-stuff.net/ru/show_map.php?map=';
+const O_STUFF_MAP_IMAGES = 'https://maps.o-stuff.net/map_images/';
+const O_STUFF_ICON = './images/o-stuff.webp';
+// Расширение превью у O-Stuff повторяет расширение файла карты (обычно jpg, бывают jpeg и png),
+// а в номере карты его нет - при ошибке загрузки пробуем следующее по списку.
+const O_STUFF_THUMB_EXTS = ['jpg', 'jpeg', 'png'];
+
+function getEventOStuffMaps(evt) {
+    return [].concat(evt?.o_stuff ?? []);
 }
 
-// Внешние файлы карт событий старта: [{url, evt}].
+function oStuffMapUrl(n) {
+    return O_STUFF_MAP_PAGE + n;
+}
+
+function oStuffThumbUrl(n, ext) {
+    return O_STUFF_MAP_IMAGES + n + '.thumbnail.' + (ext ?? O_STUFF_THUMB_EXTS[0]);
+}
+
+// onerror превью карты O-Stuff: следующее расширение; когда перебраны все - запасная
+// картинка из data-fallback (с классом data-fallback-class), а без неё превью прячется
+// вместе со ссылкой (ссылка на карту есть рядом в списке).
+function oStuffThumbError(img) {
+    const next = O_STUFF_THUMB_EXTS.indexOf(img.dataset.ext ?? O_STUFF_THUMB_EXTS[0]) + 1;
+    if (next > 0 && next < O_STUFF_THUMB_EXTS.length) {
+        img.dataset.ext = O_STUFF_THUMB_EXTS[next];
+        img.src = oStuffThumbUrl(img.dataset.ostuff, img.dataset.ext);
+        return;
+    }
+    img.onerror = null;
+    if (img.dataset.fallback) {
+        img.src = img.dataset.fallback;
+        if (img.dataset.fallbackClass) img.classList.add(img.dataset.fallbackClass);
+        return;
+    }
+    (img.closest('a') ?? img).style.display = 'none';
+}
+
+// Внешние карты события для показа: файлы из поля maps, затем карты O-Stuff из o_stuff.
+// {url - адрес ссылки, label - подпись, title - подсказка, icon - значок вместо превью,
+//  preview - адрес превью или null, ostuff - номер карты O-Stuff (только у карт O-Stuff)}.
+function getEventExternalMapItems(evt) {
+    return [
+        ...getEventExternalMaps(evt).map(url => ({
+            url: url, label: externalMapFileName(url), title: 'Карта (файл)',
+            icon: externalMapIcon(url), preview: isImageUrl(url) ? url : null
+        })),
+        ...getEventOStuffMaps(evt).map(n => ({
+            url: oStuffMapUrl(n), label: 'O-Stuff, карта ' + n, title: 'Карта на O-Stuff',
+            icon: O_STUFF_ICON, preview: oStuffThumbUrl(n), ostuff: n
+        }))
+    ];
+}
+
+// Дополнительные атрибуты <img> превью внешней карты: у карт O-Stuff - перебор расширений
+// при ошибке (oStuffThumbError) и запасная картинка fallback с классом fallbackClass.
+function externalMapPreviewAttrs(item, fallback, fallbackClass) {
+    if (item.ostuff === undefined) return '';
+    return ` data-ostuff="${item.ostuff}" onerror="oStuffThumbError(this)"` +
+        (fallback ? ` data-fallback="${fallback}"` : '') +
+        (fallbackClass ? ` data-fallback-class="${fallbackClass}"` : '');
+}
+
+// Значки на внешние карты события - в календаре после места:
+// 🗺️ на файлы карт (поле maps), значок O-Stuff на карты O-Stuff (поле o_stuff).
+function buildEventExternalMaps(evt) {
+    return getEventExternalMapItems(evt).map(x => x.ostuff === undefined
+        ? buildLink(x.url, ' 🗺️', x.title)
+        : ' ' + buildLink(x.url, `<img src="${O_STUFF_ICON}" alt="O-Stuff" title="${x.label}" class="sheet-icon" />`, x.title)
+    ).join('');
+}
+
+// Внешние карты событий старта (файлы из maps и карты O-Stuff): [{...getEventExternalMapItems(), evt}].
 function getStartExternalMaps(start, events) {
     const result = [];
     for (const evt of events) {
         if (checkStartMap(start, evt)) {
-            for (const url of getEventExternalMaps(evt)) {
-                result.push({url, evt});
+            for (const item of getEventExternalMapItems(evt)) {
+                result.push({...item, evt});
             }
         }
     }
@@ -2362,7 +2432,7 @@ function getEventPlace(event) {
     return place;
 }
 
-// Место события: ссылки на O-Maps (поля map, coord, track) и внешние файлы карт (поле maps).
+// Место события: ссылки на O-Maps (поля map, coord, track) и внешние карты (поля maps и o_stuff).
 function buildEventPlace(event, suffix) {
     return buildEventPlaceOMaps(event, suffix) + buildEventExternalMaps(event);
 }

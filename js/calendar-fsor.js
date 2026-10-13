@@ -1256,9 +1256,7 @@ let fsorEvents = [
         info: 'М: Дмитрий Сычев (Нижегородская обл.) - 1, Евгений Гаврилов (Москва) - 2, Валентин Новиков (Белгородская обл.) - 3; Ж: Ольга Шибанова (Рязанская обл.) - 1, Екатерина Чижикова (Москва) - 2, Юлия Новикова (Белгородская обл.) - 3.',
         fmt: 'средняя',
         res: 'https://o-site.spb.ru/history/Sum-2004/nn.html',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6261.blank.jpg'
-        ],
+        o_stuff: 6261,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -1272,12 +1270,7 @@ let fsorEvents = [
             'https://o-site.spb.ru/history/Sum-2004/nn.html',
             'https://moscompass.ru/news/2004/20040923.htm'
         ],
-        maps: [
-            'https://maps.o-stuff.net/map_images/6266.blank.jpg',
-            'https://maps.o-stuff.net/map_images/6267.blank.jpg',
-            'https://maps.o-stuff.net/map_images/6268.blank.jpg',
-            'https://maps.o-stuff.net/map_images/6269.blank.jpg'
-        ],
+        o_stuff: [6266, 6267, 6268, 6269],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -1288,9 +1281,7 @@ let fsorEvents = [
         info: 'М: Москва (Александр Минаков, Евгений Гаврилов, Алексей Бортник) - 1, Белгородская обл. (Роман Ряполов, Роман Ефимов, Валентин Новиков) - 2, Респ. Карелия (Денис Глазунов, Алексей Павилайнен, Денис Гришман) - 3; Ж: Хабаровский край (Ирина Потапова, Наталья Наумова, Елена Воронина) - 1, Белгородская обл. (Наталья Коржова, Евгения Острикова, Юлия Новикова) - 2, Санкт-Петербург (Наталья Кузнецова, Александра Войтенко, Екатерина Кононова) - 3.',
         fmt: 'эстафета 3 чел.',
         res: 'https://o-site.spb.ru/history/Sum-2004/nn.html',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6265.blank.jpg'
-        ],
+        o_stuff: 6265,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -1304,10 +1295,7 @@ let fsorEvents = [
             'https://o-site.spb.ru/history/Sum-2004/nn.html',
             'https://moscompass.ru/news/2004/20040926.htm'
         ],
-        maps: [
-            'https://maps.o-stuff.net/map_images/6336.blank.jpg',
-            'https://maps.o-stuff.net/map_images/6337.blank.jpg'
-        ],
+        o_stuff: [6336, 6337],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -1711,10 +1699,7 @@ let fsorEvents = [
         info: 'М: Андрей Храмов (Краснодарский край) - 1, Александр Щербаков (Воронежская обл.) - 2, Роман Ефимов (Москва) - 3; Ж: Татьяна Рябкина (Москва) - 1, Ольга Белозерова (Саратовская обл.) - 2, Юлия Новикова (Белгородская обл.) - 3.',
         fmt: 'спринт',
         res: 'https://moscompass.ru/news/2006/20060910.htm',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6174.blank.jpg',
-            'https://maps.o-stuff.net/map_images/6175.blank.jpg'
-        ],
+        o_stuff: [6174, 6175],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -1725,10 +1710,7 @@ let fsorEvents = [
         info: 'М: Алексей Бортник (Москва) - 1, Андрей Храмов (Краснодарский край) - 2, Валентин Новиков (Белгородская обл.) - 3; Ж: Татьяна Рябкина (Москва) - 1, Ольга Белозерова (Саратовская обл.) - 2, Наталья Коржова (Белгородская обл.) - 3.',
         fmt: 'классика',
         res: 'https://moscompass.ru/news/2006/20060911.htm',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6176.blank.jpg',
-            'https://maps.o-stuff.net/map_images/6177.blank.jpg'
-        ],
+        o_stuff: [6176, 6177],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -1739,11 +1721,7 @@ let fsorEvents = [
         info: 'М: Сергей Детков (Санкт-Петербург) - 1, Дмитрий Цветков (Ленинградская обл.) - 2, Роман Ефимов (Москва) - 3; Ж: Татьяна Рябкина (Москва) - 1, Юлия Новикова (Белгородская обл.) - 2, Галина Виноградова (Алтайский край) - 3.',
         fmt: 'общий старт',
         res: 'https://moscompass.ru/news/2006/20060913.htm',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6178.blank.jpg',
-            'https://maps.o-stuff.net/map_images/6179.blank.jpg',
-            'https://maps.o-stuff.net/map_images/6180.blank.jpg'
-        ],
+        o_stuff: [6178, 6179, 6180],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -1754,9 +1732,7 @@ let fsorEvents = [
         info: 'М: Белгородская обл. (Роман Ряполов, Роман Ефимов, Валентин Новиков) - 1, Воронежская обл. (Максим Сычев, Александр Харченко, Александр Щербаков) - 2, Ленинградская обл. (Сергей Горохов, Дмитрий Цветков, Юрий Кирьянов) - 3; Ж: Москва (Ирина Петрова, Анастасия Трубкина, Татьяна Рябкина) - 1, Белгородская обл. (Евгения Острикова, Наталья Коржова, Юлия Новикова) - 2, Нижегородская обл. (Наталья Захарова, Анна Сыса, Светлана Миронова) - 3.',
         fmt: 'эстафета 3 чел.',
         res: 'https://moscompass.ru/news/2006/20060914.htm',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6134.blank.jpg'
-        ],
+        o_stuff: 6134,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -2905,9 +2881,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://moscompass.ru/news/2012/20120214-17chr.zip',
-        maps: [
-            'https://maps.o-stuff.net/map_images/10.blank.jpg'
-        ],
+        o_stuff: 10,
         start: 'RUSSIA_CHAMP_SKI'
     },
     {
@@ -2941,10 +2915,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг',
         res: 'https://moscompass.ru/news/2012/20120214-17chr.zip',
-        maps: [
-            'https://maps.o-stuff.net/map_images/16.blank.jpg',
-            'https://maps.o-stuff.net/map_images/17.blank.jpg'
-        ],
+        o_stuff: [16, 17],
         start: 'RUSSIA_CHAMP_SKI'
     },
     {
@@ -3048,11 +3019,7 @@ let fsorEvents = [
             'https://moscompass.ru/news/2012/20120529f.htm'
         ],
         coord: [55.98333, 43.26667],
-        maps: [
-            'https://maps.o-stuff.net/map_images/56.blank.jpg',
-            'https://maps.o-stuff.net/map_images/55.blank.jpg',
-            'https://maps.o-stuff.net/map_images/755.jpg'
-        ],
+        o_stuff: [56, 55, 755],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -3063,10 +3030,7 @@ let fsorEvents = [
         info: 'М: Леонид Новиков (Белгородская обл.) - 1, Роман Ряполов (Белгородская обл.) - 2, Дмитрий Наконечный (Калининградская обл.) - 3; Ж: Светлана Миронова (Нижегородская обл.) - 1, Наталья Виноградова (Москва) - 2, Анастасия Трубкина (Москва) - 3.',
         fmt: 'многодневный',
         res: 'https://moscompass.ru/news/2012/20120530f.htm',
-        maps: [
-            'https://maps.o-stuff.net/map_images/53.blank.jpg',
-            'https://maps.o-stuff.net/map_images/54.blank.jpg'
-        ],
+        o_stuff: [53, 54],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -3258,9 +3222,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, классика, общий старт',
         coord: [52.58333, 41.5],
-        maps: [
-            'https://maps.o-stuff.net/map_images/99.blank.jpg'
-        ],
+        o_stuff: 99,
         video: 'https://www.youtube.com/watch?v=79hvj0BsQc8',
         start: 'RUSSIA_CHAMP_SKI'
     },
@@ -3399,12 +3361,7 @@ let fsorEvents = [
         ],
         fmt: 'классика, лонг, эстафета 3 чел., марафон',
         coord: [56.4275, 29.15944],
-        maps: [
-            'https://maps.o-stuff.net/map_images/311.jpg',
-            'https://maps.o-stuff.net/map_images/312.jpg',
-            'https://maps.o-stuff.net/map_images/313.jpg',
-            'https://maps.o-stuff.net/map_images/315.jpg'
-        ],
+        o_stuff: [311, 312, 313, 315],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -3417,10 +3374,7 @@ let fsorEvents = [
         bulletin: 'http://tvoy-sport.ru/userfiles/sdoronin/2013101213bul3.pdf',
         res: 'https://moscompass.ru/news/2013/20131012cr.htm',
         coord: [55.75056, 37.6175],
-        maps: [
-            'https://maps.o-stuff.net/map_images/324.jpg',
-            'https://maps.o-stuff.net/map_images/334.blank.jpg'
-        ],
+        o_stuff: [324, 334],
         start: 'RUSSIA_CHAMP',
         map: 'butovsky_2013',
         o_gps: {
@@ -3436,10 +3390,7 @@ let fsorEvents = [
         info: 'М: Андрей Козырев (Нижегородская обл.) - 1, Эдуард Хренников (Хабаровский край) - 2, Андрей Шувалов (Тверская обл.) - 3; Ж: Наталья Виноградова (Москва) - 1, Анастасия Потапенко (Приморский край) - 2, Алия Ситдикова (Новгородская обл.) - 3.',
         fmt: 'классика, общий старт',
         res: 'https://moscompass.ru/news/2013/20131013cr.htm',
-        maps: [
-            'https://maps.o-stuff.net/map_images/335.blank.jpg',
-            'https://maps.o-stuff.net/map_images/336.blank.jpg'
-        ],
+        o_stuff: [335, 336],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -3506,9 +3457,7 @@ let fsorEvents = [
         fmt: 'спринт, спринт, общий старт',
         bulletin: 'http://www.vlacem.ru/Arhiv/bulut_2_2014.pdf',
         coord: [56.13333, 40.41667],
-        maps: [
-            'https://maps.o-stuff.net/map_images/617.jpg'
-        ],
+        o_stuff: 617,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -3519,9 +3468,7 @@ let fsorEvents = [
         info: 'М: Андрей Храмов (Новгородская обл.) - 1, Андрей Козырев (Нижегородская обл.) - 2, Сергей Детков (Новгородская обл.) - 3; Ж: Галина Виноградова (Алтайский край) - 1, Наталья Виноградова (Владимирская обл.) - 2, Светлана Миронова (Нижегородская обл.) - 3.',
         fmt: 'спринт',
         res: 'https://moscompass.ru/news/2014/20140514res2.htm',
-        maps: [
-            'https://maps.o-stuff.net/map_images/601.jpg'
-        ],
+        o_stuff: 601,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -3532,12 +3479,7 @@ let fsorEvents = [
         info: 'М: Андрей Храмов (Новгородская обл.) - 1, Алексей Сидоров (Респ. Татарстан) - 2, Сергей Детков (Новгородская обл.) - 3; Ж: Галина Виноградова (Алтайский край) - 1, Светлана Миронова (Нижегородская обл.) - 2, Наталья Виноградова (Владимирская обл.) - 3.',
         fmt: 'спринт, общий старт',
         res: 'https://moscompass.ru/news/2014/20140515res2.htm',
-        maps: [
-            'https://maps.o-stuff.net/map_images/602.jpg',
-            'https://maps.o-stuff.net/map_images/603.jpg',
-            'https://maps.o-stuff.net/map_images/604.jpg',
-            'https://maps.o-stuff.net/map_images/618.jpg'
-        ],
+        o_stuff: [602, 603, 604, 618],
         video: 'https://www.youtube.com/watch?v=hxE2m92QM6E',
         start: 'RUSSIA_CHAMP'
     },
@@ -3562,10 +3504,7 @@ let fsorEvents = [
         info: 'М: Александр Харченко (Воронежская обл.) - 1, Денис Гришман (Респ. Карелия) - 2, Александр Щербаков (Воронежская обл.) - 3; Ж: Анастасия Тихонова (Новгородская обл.) - 1, Юлия Новикова (Новгородская обл.) - 2, Анастасия Неверова (Пермский край) - 3.',
         fmt: 'классика, общий старт',
         res: 'http://o-saratov.narod.ru/rossiya_2014/26_05_m.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/628.jpg',
-            'https://maps.o-stuff.net/map_images/629.jpg'
-        ],
+        o_stuff: [628, 629],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -3576,9 +3515,7 @@ let fsorEvents = [
         info: 'М: Дмитрий Цветков (Санкт-Петербург) - 1, Денис Гришман (Респ. Карелия) - 2, Алексей Сидоров (Респ. Татарстан) - 3; Ж: Юлия Новикова (Новгородская обл.) - 1, Ирина Нюберг (Москва) - 2, Анастасия Неверова (Пермский край) - 3.',
         fmt: 'классика',
         res: 'http://o-saratov.narod.ru/rossiya_2014/27_05_m.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/630.jpg'
-        ],
+        o_stuff: 630,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -3589,9 +3526,7 @@ let fsorEvents = [
         info: 'М: Дмитрий Цветков (Санкт-Петербург) - 1, Андрей Козырев (Нижегородская обл.) - 2, Роман Ефимов (Московская обл.) - 3; Ж: Анастасия Тихонова (Новгородская обл.) - 1, Ирина Нюберг (Москва) - 2, Наталья Ефимова (Московская обл.) - 3.',
         fmt: 'лонг',
         res: 'http://o-saratov.narod.ru/rossiya_2014/28_05_mg.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/631.jpg'
-        ],
+        o_stuff: 631,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -3602,9 +3537,7 @@ let fsorEvents = [
         info: 'М: Максим Давыдов (Самарская обл.) - 1, Александр Харченко (Воронежская обл.) - 2, Андрей Козырев (Нижегородская обл.) - 3; Ж: Анастасия Тихонова (Новгородская обл.) - 1, Юлия Новикова (Новгородская обл.) - 2, Анастасия Неверова (Пермский край) - 3.',
         fmt: 'многодневный',
         res: 'http://o-saratov.narod.ru/rossiya_2014/29_05_mg.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/632.jpg'
-        ],
+        o_stuff: 632,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -3884,11 +3817,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'общий старт',
         res: 'https://moscompass.ru/news/2015/20150303f.htm',
-        maps: [
-            'https://maps.o-stuff.net/map_images/774.blank.jpg',
-            'https://maps.o-stuff.net/map_images/775.blank.jpg',
-            'https://maps.o-stuff.net/map_images/776.blank.jpg'
-        ],
+        o_stuff: [774, 775, 776],
         start: 'RUSSIA_CHAMP_SKI'
     },
     {
@@ -3900,9 +3829,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'классика',
         res: 'https://moscompass.ru/news/2015/20150304f.htm',
-        maps: [
-            'https://maps.o-stuff.net/map_images/773.blank.jpg'
-        ],
+        o_stuff: 773,
         start: 'RUSSIA_CHAMP_SKI'
     },
     {
@@ -3954,9 +3881,7 @@ let fsorEvents = [
         info: 'М: Андрей Храмов (Новгородская обл.) - 1, Артём Попов (Санкт-Петербург) - 2, Роман Ефимов (Московская обл.) - 3, Дмитрий Наконечный (Калининградская обл.) - 3; Ж: Галина Виноградова (Алтайский край) - 1, Татьяна Рябкина (Новгородская обл.) - 1, Наталья Виноградова (Владимирская обл.) - 3.',
         fmt: 'спринт',
         res: 'https://rufso.orgeo.ru/result/view/2030/s/1',
-        maps: [
-            'https://maps.o-stuff.net/map_images/849.jpg'
-        ],
+        o_stuff: 849,
         video: 'https://www.youtube.com/watch?v=9FzSo0s_Wpc',
         start: 'RUSSIA_CHAMP'
     },
@@ -3968,9 +3893,7 @@ let fsorEvents = [
         info: 'М: Андрей Храмов (Новгородская обл.) - 1, Артём Попов (Санкт-Петербург) - 2, Алексей Сидоров (Респ. Татарстан) - 3; Ж: Наталья Виноградова (Владимирская обл.) - 1, Татьяна Рябкина (Новгородская обл.) - 2, Галина Виноградова (Алтайский край) - 3.',
         fmt: 'спринт, общий старт',
         res: 'https://rufso.orgeo.ru/result/view/2030/s/2',
-        maps: [
-            'https://maps.o-stuff.net/map_images/850.jpg'
-        ],
+        o_stuff: 850,
         video: [
             'https://www.youtube.com/watch?v=F73_L1kciuo',
             'https://www.youtube.com/watch?v=XH7NiyEIg24'
@@ -4004,10 +3927,7 @@ let fsorEvents = [
         info: 'М: Леонид Новиков (Белгородская обл.) - 1, Дмитрий Цветков (Санкт-Петербург) - 2, Дмитрий Наконечный (Калининградская обл.) - 3; Ж: Наталья Виноградова (Владимирская обл.) - 1, Наталья Ефимова (Московская обл.) - 2, Татьяна Рябкина (Новгородская обл.) - 3.',
         fmt: 'классика, общий старт',
         res: 'https://rufso.orgeo.ru/result/view/2031/s/1',
-        maps: [
-            'https://maps.o-stuff.net/map_images/863.jpg',
-            'https://maps.o-stuff.net/map_images/864.jpg'
-        ],
+        o_stuff: [863, 864],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -4019,9 +3939,7 @@ let fsorEvents = [
         info: 'М: Дмитрий Цветков (Санкт-Петербург) - 1, Леонид Новиков (Белгородская обл.) - 2, Валентин Новиков (Новгородская обл.) - 3; Ж: Татьяна Рябкина (Новгородская обл.) - 1, Наталья Ефимова (Московская обл.) - 2, Наталья Виноградова (Владимирская обл.) - 3.',
         fmt: 'лонг',
         res: 'https://rufso.orgeo.ru/result/view/2031/s/2',
-        maps: [
-            'https://maps.o-stuff.net/map_images/862.jpg'
-        ],
+        o_stuff: 862,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -4139,9 +4057,7 @@ let fsorEvents = [
         info: 'М: Андрей Козырев (Нижегородская обл.) - 1, Сергей Детков (Новгородская обл.) - 2, Денис Гришман (Респ. Карелия) - 3; Ж: Мария Кечкина (Пермский край) - 1, Анастасия Трубкина (Москва) - 2, Ирина Нюберг (Москва) - 3.',
         fmt: 'выбор',
         res: 'https://rufso.orgeo.ru/result/view/2106/s/1',
-        maps: [
-            'https://maps.o-stuff.net/map_images/1052.blank.jpg'
-        ],
+        o_stuff: 1052,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -4163,14 +4079,7 @@ let fsorEvents = [
         info: 'М: Сергей Детков (Новгородская обл.) - 1, Сергей Добрынин (Челябинская обл.) - 2, Павел Шестаков (Нижегородская обл.) - 3; Ж: Анастасия Трубкина (Москва) - 1, Нина Темякова (Московская обл.) - 2, Ирина Нюберг (Москва) - 3.',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.orgeo.ru/result/view/2106/s/2',
-        maps: [
-            'https://maps.o-stuff.net/map_images/1064.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1065.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1066.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1074.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1075.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1076.blank.jpg'
-        ],
+        o_stuff: [1064, 1065, 1066, 1074, 1075, 1076],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -4181,12 +4090,7 @@ let fsorEvents = [
         info: 'М: Глеб Тихонов (Москва) - 1, Сергей Добрынин (Челябинская обл.) - 2, Максим Давыдов (Самарская обл.) - 3; Ж: Мария Кечкина (Пермский край) - 1, Надежда Орлова (Тульская обл.) - 2, Анастасия Трубкина (Москва) - 3.',
         fmt: 'многодневный',
         res: 'https://rufso.orgeo.ru/result/view/2106/s/3',
-        maps: [
-            'https://maps.o-stuff.net/map_images/1061.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1062.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1067.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1068.blank.jpg'
-        ],
+        o_stuff: [1061, 1062, 1067, 1068],
         photo: 'https://disk.yandex.com/a/7wtuleaN3VQzpu',
         video: [
             'https://www.youtube.com/watch?v=RBVrxpLgxCs',
@@ -4543,9 +4447,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/mnogodnevnyj_kross-zh.pdf',
             'https://rufso.ru/wp-content/uploads/2017/09/mnogodnevnyj_kross-m.pdf'
         ],
-        maps: [
-            'https://maps.o-stuff.net/map_images/1444.blank.jpg'
-        ],
+        o_stuff: 1444,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -4958,14 +4860,7 @@ let fsorEvents = [
         fmt: 'многодневный',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Кросс-многодневный.pdf',
         coord: [57.70938, 27.86051],
-        maps: [
-            'https://maps.o-stuff.net/map_images/1856.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1867.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1857.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1866.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1858.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1865.blank.jpg'
-        ],
+        o_stuff: [1856, 1867, 1857, 1866, 1858, 1865],
         start: 'RUSSIA_CHAMP',
         map: 'kotia_gora_2017_05_19',
         o_gps: {
@@ -5002,10 +4897,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Велокросс-эстафета-2-человека.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/1960.blank.jpg',
-            'https://maps.o-stuff.net/map_images/1959.blank.jpg'
-        ],
+        o_stuff: [1960, 1959],
         start: 'RUSSIA_CHAMP_MTBO'
     },
     {
@@ -5018,9 +4910,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Велокросс-спринт.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/1963.blank.jpg'
-        ],
+        o_stuff: 1963,
         start: 'RUSSIA_CHAMP_MTBO'
     },
     {
@@ -5033,9 +4923,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Велокросс-лонг.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/1970.blank.jpg'
-        ],
+        o_stuff: 1970,
         start: 'RUSSIA_CHAMP_MTBO'
     },
     {
@@ -5123,10 +5011,7 @@ let fsorEvents = [
         info: 'М: Валентин Новиков (Новгородская обл.) - 1, Андрей Храмов (Новгородская обл.) - 2, Юрий Тамбасов (Воронежская обл.) - 3; Ж: Ксения Третьякова (Пермский край) - 1, Анастасия Боровкова (Краснодарский край) - 2, Анастасия Неверова (Пермский край) - 3.',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Кросс-классика.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/2134.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2142.blank.jpg'
-        ],
+        o_stuff: [2134, 2142],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -5138,10 +5023,7 @@ let fsorEvents = [
         info: 'М: Сергей Детков (Новгородская обл.) - 1, Алексей Асмолов (Респ. Крым) - 2, Сергей Добрынин (Челябинская обл.) - 3; Ж: Анна Дворянская (Самарская обл.) - 1, Наталья Ефимова (Московская обл.) - 2, Анна Королькова (Воронежская обл.) - 3.',
         fmt: 'выбор',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Кросс-выбор.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/2135.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2144.blank.jpg'
-        ],
+        o_stuff: [2135, 2144],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -5153,10 +5035,7 @@ let fsorEvents = [
         info: 'М: Новгородская обл. (Сергей Детков, Валентин Новиков, Андрей Храмов) - 1, Воронежская обл. (Иван Потылицын, Александр Харченко, Юрий Тамбасов) - 2, Челябинская обл. (Антон Сорокин, Никита Гуревич, Сергей Добрынин) - 3; Ж: Московская обл. (Дарья Коренева, Алия Ситдикова, Наталья Ефимова) - 1, Санкт-Петербург (Татьяна Лахманова, Наталья Кондрашова, Татьяна Бевза) - 2, Красноярский край (Дарья Лыскина, Анна Лябзина, Наталья Иванова) - 3.',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Кросс-эстафета-3-человека.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/2140.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2143.blank.jpg'
-        ],
+        o_stuff: [2140, 2143],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -5168,9 +5047,7 @@ let fsorEvents = [
         info: 'М: Валентин Новиков (Новгородская обл.) - 1, Сергей Добрынин (Челябинская обл.) - 2, Владимир Медянцев (Приморский край) - 3; Ж: Анна Дворянская (Самарская обл.) - 1, Анастасия Боровкова (Краснодарский край) - 2, Алия Ситдикова (Московская обл.) - 3.',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Кросс-лонг-общий-старт.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/2141.blank.jpg'
-        ],
+        o_stuff: 2141,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -5426,21 +5303,7 @@ let fsorEvents = [
         fmt: 'многодневный',
         res: 'https://rufso.ru/wp-content/uploads/2018/07/ЧР-Кросс-многодневный.pdf',
         coord: [55.98333, 43.26667],
-        maps: [
-            'https://maps.o-stuff.net/map_images/2465.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2466.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2467.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2470.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2462.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2463.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2468.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2471.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2513.jpg',
-            'https://maps.o-stuff.net/map_images/2464.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2469.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2472.blank.jpg',
-            'https://maps.o-stuff.net/map_images/2514.jpg'
-        ],
+        o_stuff: [2465, 2466, 2467, 2470, 2462, 2463, 2468, 2471, 2513, 2464, 2469, 2472, 2514],
         photo: [
             'https://vk.com/album-365697_253737469',
             'https://vk.com/album-365697_253620445'
@@ -5586,9 +5449,7 @@ let fsorEvents = [
         info: 'М: Денис Гришман (Респ. Карелия) - 1, Роман Ефимов (Московская обл.) - 2, Сергей Горланов (Хабаровский край) - 3; Ж: Наталья Ефимова (Московская обл.) - 1, Вероника Калинина (Москва) - 2, Алена Трапезникова (Хабаровский край) - 3.',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2018/10/ЧР-Кросс-классика.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/2736.blank.jpg'
-        ],
+        o_stuff: 2736,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -5600,9 +5461,7 @@ let fsorEvents = [
         info: 'М: Константин Серебряницкий (Ленинградская обл.) - 1, Дмитрий Патрин (Красноярский край) - 2, Валентин Козявин (Приморский край) - 3; Ж: Наталья Ефимова (Московская обл.) - 1, Вероника Калинина (Москва) - 2, Анастасия Сергеева (Забайкальский край) - 3.',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2018/10/ЧР-Кросс-лонг.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/2737.blank.jpg'
-        ],
+        o_stuff: 2737,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -5902,10 +5761,7 @@ let fsorEvents = [
         place: 'Кузнечное',
         name: 'Чемпионат России',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chr/day1/',
-        maps: [
-            'https://maps.o-stuff.net/map_images/2962.png',
-            'https://maps.o-stuff.net/map_images/2959.blank.jpg'
-        ],
+        o_stuff: [2962, 2959],
         o_gps: {
             '24-М': 5759,
             '24-Ж': 5760,
@@ -5941,10 +5797,7 @@ let fsorEvents = [
         info: 'М: Леонид Новиков (Белгородская обл.) - 1, Валентин Новиков (Новгородская обл.) - 2, Юрий Тамбасов (Воронежская обл.) - 3; Ж: Светлана Миронова (Нижегородская обл.) - 1, Анастасия Рудная (Новгородская обл.) - 2, Татьяна Рябкина (Новгородская обл.) - 3.',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2019/06/ЧР-классика.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/2954.jpeg',
-            'https://maps.o-stuff.net/map_images/2960.blank.jpg'
-        ],
+        o_stuff: [2954, 2960],
         start: ['RUSSIA_CHAMP','RUSSIA_2019']
     },
     {
@@ -5955,10 +5808,7 @@ let fsorEvents = [
         info: 'М: Валентин Новиков (Новгородская обл.) - 1, Дмитрий Цветков (Ленинградская обл.) - 2, Дмитрий Наконечный (Калининградская обл.) - 3; Ж: Анастасия Рудная (Новгородская обл.) - 1, Татьяна Рябкина (Новгородская обл.) - 2, Светлана Миронова (Нижегородская обл.) - 3.',
         fmt: 'многодневный',
         res: 'https://rufso.ru/wp-content/uploads/2019/06/ЧР-многодневный.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/2963.jpeg',
-            'https://maps.o-stuff.net/map_images/2958.blank.jpg'
-        ],
+        o_stuff: [2963, 2958],
         start: ['RUSSIA_CHAMP','RUSSIA_2019']
     },
     {
@@ -6091,9 +5941,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2019/09/1-ВК-Общий-старт-_-Чемпионат.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/3131.blank.jpg'
-        ],
+        o_stuff: 3131,
         start: 'RUSSIA_CHAMP_MTBO'
     },
     {
@@ -6106,9 +5954,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2019/09/2-ВК-Эстафета-3-чел-_-Чемпионат.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/3132.blank.jpg'
-        ],
+        o_stuff: 3132,
         start: 'RUSSIA_CHAMP_MTBO'
     },
     {
@@ -6121,9 +5967,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2019/09/3-ВК-Классика-_-Чемпионат.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/3133.blank.jpg'
-        ],
+        o_stuff: 3133,
         start: 'RUSSIA_CHAMP_MTBO'
     },
     {
@@ -6160,10 +6004,7 @@ let fsorEvents = [
         info: 'М: Евгений Годлевский (Санкт-Петербург) - 1, Андрей Храмов (Новгородская обл.) - 2, Константин Серебряницкий (Ленинградская обл.) - 3; Ж: Светлана Миронова (Нижегородская обл.) - 1, Юлия Новикова (Новгородская обл.) - 2, Надежда Орлова (Тульская обл.) - 3.',
         fmt: 'классика, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2019/09/190906_res.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/3142.blank.jpg',
-            'https://maps.o-stuff.net/map_images/3143.blank.jpg'
-        ],
+        o_stuff: [3142, 3143],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -6175,9 +6016,7 @@ let fsorEvents = [
         info: 'М: Новгородская обл. (Сергей Детков, Валентин Новиков, Андрей Храмов) - 1, Белгородская обл. (Дмитрий Масловский, Иван Кучменко, Михаил Кулешов) - 2, Ленинградская обл. (Алексей Яганов, Игорь Попов, Константин Серебряницкий) - 3; Ж: Новгородская обл. (Екатерина Никитина, Татьяна Рябкина, Юлия Новикова) - 1, Московская обл. (Мария Новикова, Людмила Сапроненкова, Наталья Ефимова) - 2, Санкт-Петербург (Наталья Кондрашова, Ольга Елизарова, Татьяна Бевза) - 3.',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2019/09/190907_res.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/3141.blank.jpg'
-        ],
+        o_stuff: 3141,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -6189,10 +6028,7 @@ let fsorEvents = [
         info: 'М: Константин Серебряницкий (Ленинградская обл.) - 1, Михаил Кулешов (Белгородская обл.) - 2, Юрий Тамбасов (Воронежская обл.) - 3; Ж: Юлия Новикова (Новгородская обл.) - 1, Ирина Лазарева (Воронежская обл.) - 2, Анна Дворянская (Самарская обл.) - 3.',
         fmt: 'марафон',
         res: 'https://rufso.ru/wp-content/uploads/2019/09/ЧР-Кросс-марафон.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/3139.blank.jpg',
-            'https://maps.o-stuff.net/map_images/3140.blank.jpg'
-        ],
+        o_stuff: [3139, 3140],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -6616,10 +6452,7 @@ let fsorEvents = [
         info: 'М: Андрей Ухванов (Нижегородская обл) - 1, Михаил Кулешов (Воронежская обл.) - 2, Валентин Новиков (Новгородская обл.) - 3; Ж: Татьяна Рябкина (Новгородская обл.) - 1, Юлия Новикова (Новгородская обл.) - 2, Ирина Лазарева (Воронежская обл.) - 3.',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2020/10/20201017.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/3690.blank.jpg',
-            'https://maps.o-stuff.net/map_images/3691.blank.jpg'
-        ],
+        o_stuff: [3690, 3691],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -6631,10 +6464,7 @@ let fsorEvents = [
         info: 'М: Дмитрий Патрин (Респ. Бурятия) - 1, Андрей Козырев (Нижегородская обл) - 2, Михаил Кулешов (Воронежская обл.) - 3; Ж: Юлия Новикова (Новгородская обл.) - 1, Наталья Ефимова (Московская обл.) - 2, Татьяна Рябкина (Новгородская обл.) - 3.',
         fmt: 'классика, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2020/10/20201018.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/3692.blank.jpg',
-            'https://maps.o-stuff.net/map_images/3693.blank.jpg'
-        ],
+        o_stuff: [3692, 3693],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -6657,11 +6487,7 @@ let fsorEvents = [
         info: 'М: Михаил Кулешов (Воронежская обл.) - 1, Леонид Новиков (Белгородская обл.) - 2, Иван Кучменко (Московская обл.) - 3; Ж: Наталья Ефимова (Московская обл.) - 1, Анастасия Сергеева (Забайкальский край) - 2, Вероника Калинина (Москва) - 3.',
         fmt: 'марафон',
         res: 'https://rufso.ru/wp-content/uploads/2020/10/20201020.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/3701.blank.jpg',
-            'https://maps.o-stuff.net/map_images/3702.blank.jpg',
-            'https://maps.o-stuff.net/map_images/3703.blank.jpg'
-        ],
+        o_stuff: [3701, 3702, 3703],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -6932,14 +6758,7 @@ let fsorEvents = [
         fmt: 'многодневный',
         res: 'https://rufso.ru/wp-content/uploads/2021/08/ЧР-кросс-многодневный.pdf',
         coord: [58.38333, 33.3],
-        maps: [
-            'https://maps.o-stuff.net/map_images/4317.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4320.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4318.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4321.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4322.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4330.blank.jpg'
-        ],
+        o_stuff: [4317, 4320, 4318, 4321, 4322, 4330],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -7081,9 +6900,7 @@ let fsorEvents = [
         info: 'М: Владислав Малышев (Московская обл.) - 1, Андрей Ухванов (Нижегородская обл.) - 2, Денис Гришман (Респ. Карелия) - 3; Ж: Галина Виноградова (Алтайский край) - 1, Ксения Пензина (Нижегородская обл.) - 2, Анна Дворянская (Самарская обл.) - 3.',
         fmt: 'выбор',
         res: 'https://rufso.ru/wp-content/uploads/2021/08/ЧР-кросс-выбор.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/4452.blank.jpg'
-        ],
+        o_stuff: 4452,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -7095,11 +6912,7 @@ let fsorEvents = [
         info: 'М: Дмитрий Патрин (Респ. Бурятия) - 1, Андрей Козырев (Нижегородская обл.) - 2, Андрей Ухванов (Нижегородская обл.) - 3; Ж: Ирина Лазарева (Воронежская обл.) - 1, Анна Дворянская (Самарская обл.) - 2, Елена Гетт (Респ. Хакасия) - 3.',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2021/08/ЧР-кросс-лонг-общий-старт.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/4453.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4454.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4455.blank.jpg'
-        ],
+        o_stuff: [4453, 4454, 4455],
         video: 'https://www.youtube.com/watch?v=MG0gng5FljI',
         start: 'RUSSIA_CHAMP'
     },
@@ -7112,11 +6925,7 @@ let fsorEvents = [
         info: 'М: Московская обл. (Иван Кучменко, Владислав Малышев) - 1, Челябинская обл. (Даниил Сорокин, Сергей Добрынин) - 2, Нижегородская обл. (Андрей Ухванов, Андрей Козырев) - 3; Ж: Алтайский край (Анастасия Погуляева, Галина Виноградова) - 1, Московская обл. (Дарья Грачева, Наталья Ефимова) - 2, Тульская обл. (Анна Сафронова, Надежда Орлова) - 3.',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2021/08/ЧР-кросс-эстафета-2-чел.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/4458.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4459.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4460.blank.jpg'
-        ],
+        o_stuff: [4458, 4459, 4460],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -7206,9 +7015,7 @@ let fsorEvents = [
         info: 'М: Валентин Новиков (Новгородская обл.) - 1, Сергей Добрынин (Челябинская обл.) - 2, Алексей Асмолов (Респ. Крым) - 3; Ж: Татьяна Рябкина (Новгородская обл.) - 1, Александра Войтова (Воронежская обл.) - 2, Ольга Елизарова (Санкт-Петербург) - 3.',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2021/09/Кросс-лонг-1.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/4509.jpg'
-        ],
+        o_stuff: 4509,
         photo: 'https://vk.com/album-181722204_279392192',
         video: 'https://www.youtube.com/watch?v=B-uHC7daFDg',
         start: 'RUSSIA_CHAMP'
@@ -7264,9 +7071,7 @@ let fsorEvents = [
         info: 'М: Константин Серебряницкий (Ленинградская обл.) - 1, Андрей Храмов (Новгородская обл.) - 2, Александр Харченко (Воронежская обл.) - 3; Ж: Татьяна Рябкина (Новгородская обл.) - 1, Анастасия Рудная (Новгородская обл.) - 2, Анастасия Ботова (Ленинградская обл.) - 3.',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2022/05/ЧР_кросс-классика.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/4585.blank.jpg'
-        ],
+        o_stuff: 4585,
         video: 'https://www.youtube.com/watch?v=cg758sK25MY',
         start: 'RUSSIA_CHAMP'
     },
@@ -7279,10 +7084,7 @@ let fsorEvents = [
         info: 'М: Константин Серебряницкий (Ленинградская обл.) - 1, Иван Кучменко (Московская обл.) - 2, Валентин Козявин (Приморский край) - 3, Андрей Козырев (Нижегородская обл.) - 3; Ж: Анастасия Ботова (Ленинградская обл.) - 1, Анастасия Рудная (Новгородская обл.) - 2, Ирина Лазарева (Воронежская обл.) - 3.',
         fmt: 'марафон',
         res: 'https://rufso.ru/wp-content/uploads/2022/05/ЧР_кросс-марафон.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/4588.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4589.blank.jpg'
-        ],
+        o_stuff: [4588, 4589],
         video: 'https://www.youtube.com/watch?v=hEvvjHfpmBY',
         start: 'RUSSIA_CHAMP'
     },
@@ -7596,13 +7398,7 @@ let fsorEvents = [
         o_site: '22060911',
         bulletin: 'https://o-site.spb.ru/_races/22060911/22060811_info1.pdf',
         reskeep: 535,
-        maps: [
-            'https://maps.o-stuff.net/map_images/4962.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4979.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4963.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4988.blank.jpg',
-            'https://maps.o-stuff.net/map_images/4980.blank.jpg'
-        ],
+        o_stuff: [4962, 4979, 4963, 4988, 4980],
         start: 'RUSSIA_CHAMP',
         map: ['luga_omchino_2022_06_09','luga_omchino_2022_06_10','luga_omchino_2022_06_11'],
         o_gps: {
@@ -7667,10 +7463,7 @@ let fsorEvents = [
         info: 'М: Евгений Годлевский (Санкт-Петербург) - 1, Павел Иванов (Ленинградская обл.) - 2, Дмитрий Наконечный (Калининградская обл.) - 3; Ж: Вероника Калинина (Владимирская обл.) - 1, Татьяна Рябкина (Новгородская обл.) - 2, Ольга Елизарова (Санкт-Петербург) - 3.',
         fmt: 'классика, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2022/09/ЧР-Кросс-классика-общий-старт.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/5219.blank.jpg',
-            'https://maps.o-stuff.net/map_images/5286.blank.jpg'
-        ],
+        o_stuff: [5219, 5286],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -7694,10 +7487,7 @@ let fsorEvents = [
         info: 'М: Валентин Новиков (Новгородская обл.) - 1, Алексей Асмолов (Респ. Крым) - 2, Андрей Ухванов (Нижегородская обл.) - 3; Ж: Анастасия Рудная (Новгородская обл.) - 1, Татьяна Рябкина (Новгородская обл.) - 2, Юлия Новикова (Новгородская обл.) - 3.',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2022/09/ЧР-Кросс-лонг.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/5220.blank.jpg',
-            'https://maps.o-stuff.net/map_images/5287.blank.jpg'
-        ],
+        o_stuff: [5220, 5287],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -7817,9 +7607,7 @@ let fsorEvents = [
         info: 'М: Валентин Новиков (Новгородская обл.) - 1, Андрей Храмов (Новгородская обл.) - 2, Михаил Кулешов (Воронежская обл.) - 3; Ж: Татьяна Рябкина (Новгородская обл.) - 1, Юлия Новикова (Новгородская обл.) - 2, Наталья Ефимова (Московская обл.) - 3.',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2022/11/ЧР-Кросс-классика.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/5327.blank.jpg'
-        ],
+        o_stuff: 5327,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -8028,10 +7816,7 @@ let fsorEvents = [
         info: 'М: Валентин Новиков (Новгородская обл.) - 1, Павел Иванов (Ленинградская обл.) - 2, Илья Малыгин (Воронежская обл.) - 3; Ж: Вероника Калинина (Владимирская обл.) - 1, Анастасия Рудная (Владимирская обл.) - 2, Юлия Новикова (Новгородская обл.) - 3.',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2023/05/ЧР-Кросс-классика.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/5638.blank.jpg',
-            'https://maps.o-stuff.net/map_images/5654.blank.jpg'
-        ],
+        o_stuff: [5638, 5654],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -8044,10 +7829,7 @@ let fsorEvents = [
         info: 'М: Андрей Ухванов (Нижегородская обл.) - 1, Илья Малыгин (Воронежская обл.) - 2, Михаил Кулешов (Воронежская обл.) - 3; Ж: Татьяна Рябкина (Новгородская обл.) - 1, Вероника Калинина (Владимирская обл.) - 2, Анастасия Рудная (Владимирская обл.) - 3.',
         fmt: 'многодневный',
         res: 'https://rufso.ru/wp-content/uploads/2023/05/ЧР-Кросс-многодневный.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/5649.blank.jpg',
-            'https://maps.o-stuff.net/map_images/5656.blank.jpg'
-        ],
+        o_stuff: [5649, 5656],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -8060,10 +7842,7 @@ let fsorEvents = [
         info: 'М: Леонид Новиков (Белгородская обл.) - 1, Павел Иванов (Ленинградская обл.) - 2, Михаил Кулешов (Воронежская обл.) - 3; Ж: Анастасия Рудная (Владимирская обл.) - 1, Юлия Новикова (Новгородская обл.) - 2, Вероника Калинина (Владимирская обл.) - 3.',
         fmt: 'марафон',
         res: 'https://rufso.ru/wp-content/uploads/2023/05/ЧР-Кросс-марафон.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/5648.blank.jpg',
-            'https://maps.o-stuff.net/map_images/5657.blank.jpg'
-        ],
+        o_stuff: [5648, 5657],
         photo: 'https://vk.com/album-181722204_291691134',
         start: 'RUSSIA_CHAMP'
     },
@@ -8131,9 +7910,7 @@ let fsorEvents = [
         ],
         fmt: 'спринт, общий старт, эстафета 4 чел. (2М+2Ж), спринт',
         coord: [56.32694, 44.0075],
-        maps: [
-            'https://maps.o-stuff.net/map_images/5942.blank.jpg'
-        ],
+        o_stuff: 5942,
         photo: [
             'https://vk.com/album-365697_294651399',
             'https://vk.com/album-365697_294726586',
@@ -8295,11 +8072,7 @@ let fsorEvents = [
         info: 'М: Марк Тутынин (Смоленская обл.) - 1, Евгений Годлевский (Санкт-Петербург) - 2, Павел Егоров (Нижегородская обл.) - 3; Ж: Вероника Калинина (Владимирская обл.) - 1, Анастасия Рудная (Владимирская обл.) - 2, Юлия Новикова (Новгородская обл.) - 3.',
         fmt: 'классика, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2023/11/ЧР-Кросс-классика-ос.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6000.blank.jpg',
-            'https://maps.o-stuff.net/map_images/6026.blank.jpg',
-            'https://maps.o-stuff.net/map_images/6067.jpg'
-        ],
+        o_stuff: [6000, 6026, 6067],
         video: 'https://vkvideo.ru/video-76662145_456239247',
         start: 'RUSSIA_CHAMP'
     },
@@ -8312,11 +8085,7 @@ let fsorEvents = [
         info: 'М: Валентин Новиков (Новгородская обл.) - 1, Дмитрий Наконечный (Калининградская обл.) - 2, Марк Тутынин (Смоленская обл.) - 3; Ж: Анастасия Рудная (Владимирская обл.) - 1, Вероника Калинина (Владимирская обл.) - 1, Светлана Миронова (Нижегородская обл.) - 3.',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2023/11/ЧР-Кросс-лонг.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6001.blank.jpg',
-            'https://maps.o-stuff.net/map_images/6027.blank.jpg',
-            'https://maps.o-stuff.net/map_images/6068.jpg'
-        ],
+        o_stuff: [6001, 6027, 6068],
         start: 'RUSSIA_CHAMP',
         map: 'murmansk_2023_09_23'
     },
@@ -8329,10 +8098,7 @@ let fsorEvents = [
         info: 'М: Ленинградская обл. (Даниил Данчишен, Дмитрий Цветков, Павел Иванов) - 1, Новгородская обл. (Кирилл Каппаров, Андрей Храмов, Валентин Новиков) - 2, Нижегородская обл. (Павел Егоров, Никита Курносов, Андрей Ухванов) - 3; Ж: Владимирская обл. (Олеся Гладилкина, Анастасия Рудная, Вероника Калинина) - 1, Новгородская обл. (Татьяна Рябкина, Юлия Новикова, Екатерина Никитина) - 2, Нижегородская обл. (Ксения Пензина, Ксения Бесхмельнова, Светлана Миронова) - 3.',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2023/11/ЧР-Кросс-эст-3-чел.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6048.blank.jpg',
-            'https://maps.o-stuff.net/map_images/6069.jpg'
-        ],
+        o_stuff: [6048, 6069],
         video: 'https://t.me/lamporient/2625',
         start: 'RUSSIA_CHAMP'
     },
@@ -8359,9 +8125,7 @@ let fsorEvents = [
         info: 'М: Валентин Козявин (Приморский край) - 1, Андрей Ухванов (Нижегородская обл.) - 2, Дмитрий Наконечный (Калининградская обл.) - 3, Илья Малыгин (Воронежская обл.) - 3; Ж: Юлия Новикова (Новгородская обл.) - 1, Анастасия Рудная (Владимирская обл.) - 2, Наталья Ефимова (Московская обл.) - 3.',
         fmt: 'выбор',
         res: 'https://rufso.ru/wp-content/uploads/2023/11/ЧР-Кросс-выбор.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6049.blank.jpg'
-        ],
+        o_stuff: 6049,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -8384,9 +8148,7 @@ let fsorEvents = [
         info: 'М: Дмитрий Наконечный (Калининградская обл.) - 1, Валентин Козявин (Приморский край) - 2, Михаил Кулешов (Воронежская обл.) - 3; Ж: Анастасия Рудная (Владимирская обл.) - 1, Вероника Калинина (Владимирская обл.) - 2, Алена Трапезникова (Хабаровский край) - 3.',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2023/11/ЧР-Кросс-лонг-ос.pdf',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6055.blank.jpg'
-        ],
+        o_stuff: 6055,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -8766,9 +8528,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт',
         res: 'https://rufso.orgeo.ru/result/view/36580/s/3',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6767.blank.jpg'
-        ],
+        o_stuff: 6767,
         photo: 'https://vk.com/album-169497358_303340979',
         video: [
             'https://t.me/lamporient/4619',
@@ -8814,9 +8574,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://rufso.orgeo.ru/result/view/36999/s/2',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6931.blank.jpg'
-        ],
+        o_stuff: 6931,
         photo: [
             'https://vk.com/album-365697_302929617',
             'https://vk.com/album-365697_302917873',
@@ -8833,9 +8591,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://rufso.orgeo.ru/result/view/36999/s/3',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6933.blank.jpg'
-        ],
+        o_stuff: 6933,
         photo: [
             'https://vk.com/album-365697_303025070',
             'https://vk.com/album-365697_302980429',
@@ -8853,9 +8609,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://orgeo.ru/live/#/36999/4',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6942.blank.jpg'
-        ],
+        o_stuff: 6942,
         photo: [
             'https://vk.com/album-365697_303047987',
             'https://vk.com/album-365697_302976790',
@@ -8922,10 +8676,7 @@ let fsorEvents = [
         info: 'М: Михаил Кулешов (Воронежская обл.) - 1, Сергей Рыжиков (Севастополь) - 2, Алексей Асмолов (Респ. Крым) - 3; Ж: Анастасия Рудная (Владимирская обл.) - 1, Ольга Шмайлова (Санкт-Петербург) - 2, Юлия Новикова (Новгородская обл.) - 3.',
         fmt: 'классика',
         res: 'https://rufso.orgeo.ru/result/view/36257/s/2',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6973.blank.jpeg',
-            'https://maps.o-stuff.net/map_images/7009.blank.jpg'
-        ],
+        o_stuff: [6973, 7009],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -8940,10 +8691,7 @@ let fsorEvents = [
         info: 'М: Андрей Козырев (Нижегородская обл.) - 1, Михаил Кулешов (Воронежская обл.) - 2, Марк Тутынин (Владимирская обл.) - 3; Ж: Вероника Калинина (Владимирская обл.) - 1, Анастасия Рудная (Владимирская обл.) - 2, Ольга Шмайлова (Санкт-Петербург) - 3.',
         fmt: 'лонг',
         res: 'https://rufso.orgeo.ru/result/view/36257/s/3',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6974.blank.jpeg',
-            'https://maps.o-stuff.net/map_images/7010.blank.jpg'
-        ],
+        o_stuff: [6974, 7010],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -8954,9 +8702,7 @@ let fsorEvents = [
         info: 'М: Саратовская обл. (Даниил Кашин, Даниил Фомин) - 1, Нижегородская обл. (Никита Курносов, Андрей Козырев) - 2, Воронежская обл. (Илья Малыгин, Михаил Кулешов) - 3; Ж: Владимирская обл. (Анастасия Рудная, Вероника Калинина) - 1, Санкт-Петербург (Ольга Шмайлова, Ольга Годлевская) - 2, Новгородская обл. (Екатерина Никитина, Татьяна Рябкина) - 3.',
         fmt: 'эстафета 2 чел.',
         res: 'https://o-chel.ru/upload/information_system_16/2/2/5/item_2253/information_items_property_130323.html',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6975.blank.jpeg'
-        ],
+        o_stuff: 6975,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -8967,10 +8713,7 @@ let fsorEvents = [
         info: 'М: Саратовская обл. (Максим Семенов, Даниил Кашин, Даниил Фомин) - 1, Воронежская обл. (Кирилл Пономарев, Илья Малыгин, Михаил Кулешов) - 2, Санкт-Петербург (Александр Гуменников, Николай Кудрявцев, Евгений Годлевский) - 3; Ж: Владимирская обл. (Олеся Гладилкина, Анастасия Рудная, Вероника Калинина) - 1, Санкт-Петербург (Анастасия Тонковская, Ольга Годлевская, Ольга Шмайлова) - 2, Москва (Ксения Евсикова, Марина Трубкина, Диана Репенко) - 3.',
         fmt: 'эстафета 3 чел.',
         res: 'https://orgeo.ru/live/#/36257/6',
-        maps: [
-            'https://maps.o-stuff.net/map_images/6985.blank.jpeg',
-            'https://maps.o-stuff.net/map_images/7011.blank.jpg'
-        ],
+        o_stuff: [6985, 7011],
         photo: 'https://vk.com/album-365697_303161191',
         start: 'RUSSIA_CHAMP'
     },
@@ -9031,9 +8774,7 @@ let fsorEvents = [
         info: 'М: Марк Тутынин (Владимирская обл.) - 1, Михаил Кулешов (Воронежская обл.) - 2, Андрей Козырев (Нижегородская обл.) - 3; Ж: Мария Кустова (Воронежская обл.) - 1, Ксения Бесхмельнова (Нижегородская обл.) - 2, Анастасия Рудная (Владимирская обл.) - 3.',
         fmt: 'выбор',
         res: 'https://rufso.orgeo.ru/result/view/37240/s/2',
-        maps: [
-            'https://maps.o-stuff.net/map_images/7053.blank.jpeg'
-        ],
+        o_stuff: 7053,
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -9045,10 +8786,7 @@ let fsorEvents = [
         info: 'М: Михаил Кулешов (Воронежская обл.) - 1, Марк Тутынин (Владимирская обл.) - 2, Алексей Асмолов (Респ. Крым) - 3; Ж: Анастасия Рудная (Владимирская обл.) - 1, Ольга Годлевская (Санкт-Петербург) - 2, Татьяна Рябкина (Новгородская обл.) - 3.',
         fmt: 'марафон',
         res: 'https://rufso.orgeo.ru/result/view/37240/s/4',
-        maps: [
-            'https://maps.o-stuff.net/map_images/7054.blank.jpeg',
-            'https://maps.o-stuff.net/map_images/7055.blank.jpeg'
-        ],
+        o_stuff: [7054, 7055],
         start: 'RUSSIA_CHAMP'
     },
     {
@@ -9468,10 +9206,7 @@ let fsorEvents = [
             'https://vk.ru/s/v1/doc/m2_Qpgw-6IWjeBNy3-j7TkIHFwp1WNNbl3rcuWXzwasbkq2Ta2s',
             'https://rufso.orgeo.ru/result/view/43813/s/2'
         ],
-        maps: [
-            'https://maps.o-stuff.net/map_images/7466.blank.jpg',
-            'https://maps.o-stuff.net/map_images/7467.blank.jpg'
-        ],
+        o_stuff: [7466, 7467],
         photo: [
             'https://vk.com/album-84294630_308132317',
             'https://vk.com/album-84294630_308132390'
@@ -9490,12 +9225,7 @@ let fsorEvents = [
         info: 'М: Павел Егоров (Нижегородская обл.) - 1, Даниил Кашин (Саратовская обл.) - 2, Илья Малыгин (Воронежская обл.) - 3; Ж: Вероника Калинина (Владимирская обл.) - 1, Мария Кустова (Воронежская обл.) - 2, Анастасия Григорьева (Белгородская обл.) - 3.',
         fmt: 'спринт, общий старт',
         res: 'https://rufso.orgeo.ru/result/view/43813/s/3',
-        maps: [
-            'https://maps.o-stuff.net/map_images/7469.blank.jpg',
-            'https://maps.o-stuff.net/map_images/7470.blank.jpg',
-            'https://maps.o-stuff.net/map_images/7479.blank.JPG',
-            'https://maps.o-stuff.net/map_images/7480.blank.JPG'
-        ],
+        o_stuff: [7469, 7470, 7479, 7480],
         photo: 'https://vk.com/album-84294630_308139476',
         video: [
             'https://t.me/lamporient/7524',
@@ -9516,12 +9246,7 @@ let fsorEvents = [
             'https://vk.ru/s/v1/doc/m2_Qpgw-6IWjeBNy3-j7TkIHFwp1WNNbl3rcuWXzwasbkq2Ta2s',
             'https://orgeo.ru/live/#/russia_orienteering_championship_2025_kazan/4'
         ],
-        maps: [
-            'https://maps.o-stuff.net/map_images/7471.blank.jpg',
-            'https://maps.o-stuff.net/map_images/7481.blank.JPG',
-            'https://maps.o-stuff.net/map_images/7482.blank.JPG',
-            'https://maps.o-stuff.net/map_images/7483.blank.JPG'
-        ],
+        o_stuff: [7471, 7481, 7482, 7483],
         photo: [
             'https://vk.com/album-84294630_308160780',
             'https://www.sport-images.ru/events/chempionat-rossii-po-sportivnomy-orientirovaniu-kazan-12-avgysta-2025/'
@@ -9543,10 +9268,7 @@ let fsorEvents = [
             'https://vk.ru/s/v1/doc/m2_Qpgw-6IWjeBNy3-j7TkIHFwp1WNNbl3rcuWXzwasbkq2Ta2s',
             'https://orgeo.ru/live/#/russia_orienteering_championship_2025_kazan/6'
         ],
-        maps: [
-            'https://maps.o-stuff.net/map_images/7473.blank.jpg',
-            'https://maps.o-stuff.net/map_images/7484.blank.JPG'
-        ],
+        o_stuff: [7473, 7484],
         photo: [
             'https://vk.com/album-84294630_308175178',
             'https://www.sport-images.ru/events/chempionat-rossii-po-sportivnomy-orientirovaniu-kazan-13-avgysta-2025/'
@@ -9587,9 +9309,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://o-perm.ru/admin/wp-content/uploads/2025/08/Ofitsialnye-protokoly-rezultatov-CHR-i-VS-Velo-Perm-2025.zip',
-        maps: [
-            'https://maps.o-stuff.net/map_images/7488.blank.jpg'
-        ],
+        o_stuff: 7488,
         photo: 'https://vk.com/album-169497358_308340871',
         start: 'RUSSIA_CHAMP_MTBO'
     },
@@ -9679,9 +9399,7 @@ let fsorEvents = [
         info: 'М: Марк Тутынин (Владимирская обл.) - 1, Леонид Новиков (Белгородская обл.) - 2, Валентин Новиков (Новгородская обл.) - 3; Ж: Мария Холомянская (Иркутская обл.) - 1, Анастасия Рудная (Владимирская обл.) - 2, Наталья Ефимова (Московская обл.) - 3.',
         fmt: 'классика',
         res: 'https://rufso.orgeo.ru/result/view/43632/s/4',
-        maps: [
-            'https://maps.o-stuff.net/map_images/7562.blank.jpg'
-        ],
+        o_stuff: 7562,
         video: [
             'https://t.me/lamporient/7818',
             'https://t.me/lamporient/7823'
@@ -9696,10 +9414,7 @@ let fsorEvents = [
         info: 'М: Илья Малыгин (Воронежская обл.) - 1, Дмитрий Патрин (Респ. Бурятия) - 2, Дмитрий Наконечный (Калининградская обл.) - 3; Ж: Анастасия Рудная (Владимирская обл.) - 1, Юлия Новикова (Новгородская обл.) - 2, Мария Кустова (Воронежская обл.) - 3.',
         fmt: 'лонг',
         res: 'https://orgeo.ru/live/#/43632/5',
-        maps: [
-            'https://maps.o-stuff.net/map_images/7563.blank.jpg',
-            'https://maps.o-stuff.net/map_images/7564.blank.jpg'
-        ],
+        o_stuff: [7563, 7564],
         video: [
             'https://t.me/lamporient/7831',
             'https://t.me/lamporient/7836'
@@ -9715,9 +9430,7 @@ let fsorEvents = [
         info: 'М: Ленинградская обл. (Дмитрий Цветков, Игорь Попов, Михаил Максименко) - 1, Воронежская обл. (Алексей Яншин, Михаил Кулешов, Илья Малыгин) - 2, Владимирская обл. (Михаил Горин, Павел Брызгалов, Марк Тутынин) - 3; Ж: Владимирская обл. (Олеся Гладилкина, Анастасия Рудная, Вероника Калинина) - 1, Воронежская обл. (Александра Войтова, Ирина Ремезова, Мария Кустова) - 2, Новгородская обл. (Екатерина Никитина, Юлия Новикова, Татьяна Рябкина) - 3.',
         fmt: 'эстафета 3 чел.',
         res: 'https://orgeo.ru/live/#/43632/6',
-        maps: [
-            'https://maps.o-stuff.net/map_images/7565.blank.jpg'
-        ],
+        o_stuff: 7565,
         video: 'https://t.me/lamporient/7853',
         start: 'RUSSIA_CHAMP'
     },
@@ -9733,9 +9446,7 @@ let fsorEvents = [
         info: 'М: Марк Тутынин (Владимирская обл.) - 1, Валентин Козявин (Приморский край) - 2, Дмитрий Патрин (Респ. Бурятия) - 3; Ж: Руслана Рыжикова (Севастополь) - 1, Анастасия Тонковская (Санкт-Петербург) - 2, Наталья Ефимова (Московская обл.) - 3.',
         fmt: 'многодневный',
         res: 'https://rufso.orgeo.ru/result/view/43632/s/7',
-        maps: [
-            'https://maps.o-stuff.net/map_images/7566.blank.jpg'
-        ],
+        o_stuff: 7566,
         photo: 'https://vk.com/album-9752432_308450718',
         video: 'https://t.me/lamporient/7860',
         start: 'RUSSIA_CHAMP'
