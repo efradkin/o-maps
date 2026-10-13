@@ -2291,14 +2291,20 @@ let events2026 = [
         id: 'SPB_20260815_1',
         date: '2026-08-15',
         endDate: '2026-08-16',
-        name: 'Аристомед O-Weekend (Кубок D2RUN, 3 этап)',
+        name: 'O-Weekend (Кубок D2RUN, 3 этап)',
         reg: 'https://orgeo.ru/event/54233',
         endReg: '2026-08-14 15:00',
         o_site: '260815-16_Aristomed_o-weekend',
         bulletin: 'https://o-site.spb.ru/_races/260815-16_Aristomed_o-weekend/260815-16_Aristomed_o-vikend_byulleten_1.pdf',
         place: 'Сосновый бор',
         fmt: 'классика, ночной спринт, классика',
-        video: ['https://vk.com/video-147403700_456239308','https://youtu.be/cRg7Lolr10U','https://www.instagram.com/reels/DcQ44gqoTzq/'],
+        video: [
+            'https://vk.com/video-147403700_456239308',
+            'https://youtube.com/watch?v=cRg7Lolr10U',
+            'https://www.instagram.com/reels/DcQ44gqoTzq/',
+            'https://www.youtube.com/watch?v=B7Y0XPQHmVk',
+            'https://www.youtube.com/watch?v=AbCe_hAiiUs'
+        ],
         owner: 'DLITELNY',
         map: 'sosnovij_bor_2021',
         reskeep: [909,910]
@@ -2735,6 +2741,7 @@ let events2026 = [
             'ALL':26048
         },
         photo: ['https://vk.ru/album-154221178_312075307','https://disk.yandex.ru/d/NF7UK0l0QlHaAw'],
+        video: 'https://www.youtube.com/watch?v=-JUeFXOu-Qw',
         publish: 'https://vk.ru/album-230167293_314568006',
         planner: 'SMNV_M',
         strava: 20350299128,
@@ -2827,6 +2834,7 @@ let events2026 = [
         res: 'http://touristclub.ru/wp-content/uploads/2026/10/Okin2026_split.html',
         publish: 'https://vk.ru/album-21755_312151949',
         photo: 'https://vk.ru/album-21755_312151949',
+        video: ['https://vkvideo.ru/video-238805001_456239043','https://www.youtube.com/watch?v=xVLvut6QSxA'],
         fmt: 'ночное',
         start: 'OKINCHITSA'
     },
@@ -2934,6 +2942,7 @@ let events2026 = [
         strava: 20527472955,
         me: 'М50',
         place: 'Выборг, Анненские укрепления, оз Горица',
+        video: ['https://youtu.be/xlM_hHw8tvM','https://vkvideo.ru/video-238805001_456239044'],
         reskeep: [938,939],
         owner: 'VYBORG',
         map: ['vyborg_annenskie_2017','kkp_goritsa_2016_06_18']

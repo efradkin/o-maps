@@ -560,6 +560,7 @@ let commonEvents2026 = [
             'https://vk.ru/album-196511971_311936370',
             'https://blinova-photo.ru/disk/gran-pri-vl-alekseeva'
         ],
+        video: 'https://www.youtube.com/watch?v=zPZUjFdraOI',
         o_gps: 26000,
         reskeep: [926,928],
         publish: 'https://vk.ru/wall-196511971_1676',
