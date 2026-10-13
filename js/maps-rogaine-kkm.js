@@ -140,7 +140,8 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/siversky_2021.webp',
         link: './original_maps/rogaine/kkm/siversky_2021_omaps.jpg',
         bounds: [[59.3476329, 29.9403191], [59.3471078, 30.0603104], [59.2942928, 29.9404907]],
-        owner: ['SHBN','KKM'],
+        owner: ['SHBN','RYZHOV'],
+        start: 'KKM',
         type: ['ROGAINE']
     },
     {

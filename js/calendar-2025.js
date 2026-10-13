@@ -38,6 +38,7 @@ let events2025 = [
         type: 'SKI',
         fmt: 'ЛГ-спринт',
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_sprint',
+        endReg: '2025-01-10 12:00',
         bulletin: 'https://orgeo.ru/files/event/file/39459_c3ccadda4a.pdf',
         o_gps: 21399,
         map: 'kirovsk_winter_2024'
@@ -53,6 +54,7 @@ let events2025 = [
         o_site: '25011719',
         bulletin: 'http://orgeo.ru/files/event/file/39326_7a075be776.pdf',
         reg: 'http://orgeo.ru/event/lo_budogosh_2025',
+        endReg: '2025-01-15 13:00',
         coord: [
             59.278465,
             32.380748
@@ -158,6 +160,7 @@ let events2025 = [
         ],
         link: 'https://vk.com/event166397868',
         reg: 'https://orgeo.ru/event/info/40338',
+        endReg: '2025-02-12 23:55',
         res: 'https://vk.com/wall-166397868_4743',
         o_gps: 21680,
         map: 'omchino_luzhsky_2022',
@@ -170,6 +173,7 @@ let events2025 = [
         name: 'Февральский спринт',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/41193',
+        endReg: '2025-02-14 18:00',
         map: 'sverdlova_2024'
     },
     {
@@ -180,6 +184,7 @@ let events2025 = [
         start: 'CONTROLNY_START',
         fmt: 'One-man-relay',
         reg: 'https://orgeo.ru/event/41339',
+        endReg: '2025-02-21 21:30',
         bulletin: 'https://orgeo.ru/files/event/file/41339_ca2b74457e.pdf',
         reskeep: 682,
         map: 'sosnovka_2014',
@@ -195,6 +200,7 @@ let events2025 = [
         type: 'ROGAINE',
         link: 'https://vk.com/club31941981 ',
         reg: 'https://orgeo.ru/event/39842',
+        endReg: '2025-02-21 19:00',
         res: 'https://o-site.spb.ru/_races/250222R/250222R_res.pdf',
         o_gps: 21691,
         map: 'lembolovo_orekhovo_peski_gk_2026'
@@ -208,6 +214,7 @@ let events2025 = [
         fmt: 'ЛГ-классика-масстарт',
         type: 'SKI',
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_os',
+        endReg: '2025-02-21 09:30',
         bulletin: 'https://orgeo.ru/files/event/file/41145_e68b3bc0f6.pdf',
         o_gps: 21695,
         map: 'kirovsk_winter_2024'
@@ -237,6 +244,7 @@ let events2025 = [
         fmt: 'спринт',
         type: 'SKI',
         reg: 'https://orgeo.ru/event/41594',
+        endReg: '2025-02-26 20:00',
         map: 'sestroretsk_skver_pogranichnikov_2020'
     },
     {
@@ -315,6 +323,7 @@ let events2025 = [
         o_site: '250315_ks',
         bulletin: 'https://o-site.spb.ru/_races/250315_ks/250315_info2.pdf',
         reg: 'http://orgeo.ru/event/41998',
+        endReg: '2025-03-14 18:00',
         map: 'toksovo_kombyt_2017',
         strava: 13887628148,
         me: 'A'
@@ -327,6 +336,7 @@ let events2025 = [
         o_site: '250316',
         bulletin: 'https://o-site.spb.ru/_races/250316/250316_info.pdf',
         reg: 'http://orgeo.ru/event/42059',
+        endReg: '2025-03-15 21:00',
         o_gps: 21855,
         reskeep: 684,
         owner: 'WN',
@@ -343,6 +353,7 @@ let events2025 = [
         o_site: '250323_p',
         bulletin: 'https://o-site.spb.ru/_races/250323_p/250323_info.pdf',
         reg: 'http://orgeo.ru/event/42009',
+        endReg: '2025-03-21 23:55',
         o_gps: 21930,
         reskeep: 685,
         map: 'toksovo_oz_svetloe_2017',
@@ -357,6 +368,7 @@ let events2025 = [
         o_site: '250329_kav',
         bulletin: 'https://o-site.spb.ru/_races/250329_kav/250329_info.pdf',
         reg: 'http://orgeo.ru/event/42296',
+        endReg: '2025-03-28 20:00',
         o_gps: 22019,
         owner: 'WN',
         map: 'kavgolovo_old_ski_track_2023',
@@ -371,6 +383,7 @@ let events2025 = [
         o_site: '250330_Dlit_1',
         bulletin: 'https://o-site.spb.ru/_races/250330_Dlit_1/250330_Dlit_info_2.pdf',
         reg: 'http://orgeo.ru/event/42267',
+        endReg: '2025-03-29 15:00',
         o_gps: 22038,
         reskeep: 673,
         owner: 'DLITELNY',
@@ -386,6 +399,7 @@ let events2025 = [
         name: 'URBAN SPRINT',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/info/42325',
+        endReg: '2025-04-04 07:00',
         bulletin: 'https://orgeo.ru/files/event/file/42325_7cef72ecb9.pdf',
         map: 'vasiljevsky_wn_2024',
         owner: 'WN'
@@ -396,6 +410,7 @@ let events2025 = [
         place: 'Белоостров, Удачное',
         name: 'Длительная серия №2',
         reg: 'https://orgeo.ru/event/42556',
+        endReg: '2025-04-04 15:00',
         bulletin: 'https://orgeo.ru/files/event/file/42556_67bdbe13f1.pdf',
         o_gps: 22081,
         owner: 'DLITELNY',
@@ -410,6 +425,7 @@ let events2025 = [
         name: 'Кубок Белых Ночей №8',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/42402',
+        endReg: '2025-04-04 23:00',
         bulletin: 'https://orgeo.ru/files/event/file/42402_751879a230.pdf',
         o_gps: 22105,
         reskeep: 674,
@@ -437,6 +453,7 @@ let events2025 = [
         o_site: '250412_ohat',
         bulletin: 'https://o-site.spb.ru/_races/250412_ohat/250412_info.pdf',
         reg: 'http://orgeo.ru/event/ohta_middle',
+        endReg: '2025-04-11 20:00',
         o_gps: 22150,
         owner: 'WN',
         map: 'toksovo_okhta_park_2008',
@@ -452,6 +469,7 @@ let events2025 = [
         o_site: '250412',
         bulletin: 'https://o-site.spb.ru/_races/250412/250412_info2.pdf',
         reg: 'http://orgeo.ru/event/krosprint',
+        endReg: '2025-04-09 23:55',
         o_gps: {
             'М20/21': 22143,
             'Все КП': 22142
@@ -466,6 +484,7 @@ let events2025 = [
         o_site: '250413_Dlit_3',
         bulletin: 'https://o-site.spb.ru/_races/250413_Dlit_3/250413_Dlit3_inf1.pdf',
         reg: 'http://orgeo.ru/event/42713',
+        endReg: '2025-04-12 15:00',
         o_gps: 22170,
         owner: 'DLITELNY',
         map: 'lembolovo_2024',
@@ -480,6 +499,7 @@ let events2025 = [
         o_site: '250417_Dlit_4',
         bulletin: 'https://o-site.spb.ru/_races/250417_Dlit_4/250417_Dlit4_inf1.pdf',
         reg: 'http://orgeo.ru/event/43056',
+        endReg: '2025-04-16 23:55',
         o_gps: 22224,
         owner: 'DLITELNY',
         map: 'osinovaja_roscha_2018'
@@ -493,6 +513,7 @@ let events2025 = [
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/41453',
+        endReg: '2025-04-17 19:00',
         bulletin: 'https://orgeo.ru/files/event/file/41453_0f3e084021.docx',
         res: 'https://vk.com/wall-91656163_2545',
         o_gps: 22283,
@@ -514,6 +535,7 @@ let events2025 = [
         place: 'Невский лесопарк, Усадьба Богословка',
         name: '30 меридиан',
         reg: 'https://orgeo.ru/event/42035',
+        endReg: '2025-04-16 20:00',
         bulletin: 'https://orgeo.ru/files/event/file/42035_510af7debc.pdf',
         map: 'nevsky_2024'
     },
@@ -523,6 +545,7 @@ let events2025 = [
         place: 'Боровая ул',
         name: 'Urban sprint Звенигородская',
         reg: 'https://orgeo.ru/event/info/43078',
+        endReg: '2025-04-18 12:50',
         bulletin: 'https://orgeo.ru/files/event/file/43078_faa6a3394b.pdf',
         photo: 'https://vk.com/album-196511971_307063618',
         video: 'https://www.youtube.com/watch?v=C-89lnZDmKg',
@@ -575,6 +598,7 @@ let events2025 = [
         o_site: '250426',
         bulletin: 'https://o-site.spb.ru/_races/250426/250426_info.pdf',
         reg: 'http://orgeo.ru/event/42889',
+        endReg: '2025-04-24 21:00',
         map: 'kudrovo_evropy_2024'
     },
     {
@@ -584,6 +608,7 @@ let events2025 = [
         name: 'Кубок Белых Ночей №9',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/43281',
+        endReg: '2025-04-25 19:00',
         bulletin: 'https://orgeo.ru/files/event/file/43281_0a588173ea.pdf',
         o_gps: 22373,
         photo: 'https://vk.com/album-196511971_307146284',
@@ -612,6 +637,7 @@ let events2025 = [
         name: 'Кубок Белых Ночей №10',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/info/43282',
+        endReg: '2025-04-26 18:00',
         bulletin: 'https://orgeo.ru/files/event/file/43282_0daa03b18a.pdf',
         photo: 'https://vk.com/album-196511971_307146519',
         map: 'petjajarvy_kentavr_2014',
@@ -625,6 +651,7 @@ let events2025 = [
         name: 'Кубок ТК Ассоль',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/sprint_27042025',
+        endReg: '2025-04-25 19:00',
         map: 'kirishi_assol_2024',
         owner: 'MLV_AL'
     },
@@ -650,6 +677,7 @@ let events2025 = [
         fmt: 'спринт',
         link: 'https://vk.com/wall-92124592_2082',
         reg: 'https://orgeo.ru/event/43363',
+        endReg: '2025-04-28 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/43363_271de0c605.pdf',
         reskeep: 693,
         photo: 'https://vk.com/album-92124592_307010019',
@@ -680,6 +708,7 @@ let events2025 = [
         fmt: '2, 4',
         type: 'ROGAINE',
         reg: 'https://orgeo.ru/event/39844',
+        endReg: '2025-05-01 19:00',
         bulletin: 'https://orgeo.ru/files/event/file/39844_f1282ff0a7.pdf',
         res: 'https://o-site.spb.ru/_races/250502R/250502R_res.pdf',
         o_gps: 22439,
@@ -709,6 +738,7 @@ let events2025 = [
         place: 'Орово, Суоранда',
         name: 'Всеволожский ориентир и Весеннее Первенство Белых ночей',
         reg: 'https://orgeo.ru/event/42696',
+        endReg: '2025-05-01 21:00',
         bulletin: 'https://orgeo.ru/files/event/file/42696_e6dd8e6b80.pdf',
         o_gps: 22445,
         photo: 'https://vk.com/album-196511971_307214315',
@@ -724,6 +754,7 @@ let events2025 = [
         place: 'Ягодное, оз Берестовое',
         name: 'DМай',
         reg: 'https://orgeo.ru/event/43400',
+        endReg: '2025-05-01 23:55',
         map: 'michurinskoe_2022',
         owner: 'DLITELNY'
     },
@@ -736,6 +767,7 @@ let events2025 = [
         o_site: '250504_100kp',
         bulletin: 'https://o-site.spb.ru/_races/250504_100kp/250504_100kp2.pdf',
         reg: 'http://orgeo.ru/event/info/42928',
+        endReg: '2025-05-02 23:55',
         o_gps: 22452,
         map: 'toksovo_malinovaya_gora_2018'
     },
@@ -746,6 +778,7 @@ let events2025 = [
         name: 'Кубок Белых Ночей №11',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/43467',
+        endReg: '2025-05-03 12:00',
         bulletin: 'https://orgeo.ru/files/event/file/43467_7c18b6cedd.pdf',
         map: 'vorontsovskoe_simagino_2021'
     },
@@ -758,6 +791,7 @@ let events2025 = [
         o_site: '250508_bn',
         bulletin: 'https://o-site.spb.ru/_races/250508_bn/250508_info.pdf',
         reg: 'http://orgeo.ru/event/43588',
+        endReg: '2025-05-07 12:00',
         o_gps: 22572,
         map: 'stekljanny_2021'
     },
@@ -767,6 +801,7 @@ let events2025 = [
         place: 'Киришский р-он, Красная горка',
         name: 'ЧиП Киришского р-на',
         reg: 'https://orgeo.ru/event/klassika_08052025',
+        endReg: '2025-05-07 14:50',
         map: 'red_hill_2023',
         owner: 'MLV_AL'
     },
@@ -779,6 +814,7 @@ let events2025 = [
         o_site: '250508_D2RUN_1',
         bulletin: 'https://o-site.spb.ru/_races/250508_D2RUN_1/250508_Kubok_D2Run_inf2.pdf',
         reg: 'http://orgeo.ru/event/43544',
+        endReg: '2025-05-07 14:00',
         map: 'petyajarvi_west_2019',
         owner: 'DLITELNY'
     },
@@ -804,6 +840,7 @@ let events2025 = [
         o_site: '250510_zg',
         bulletin: 'https://o-site.spb.ru/_races/250510_zg/250510_info2_.pdf',
         reg: 'http://orgeo.ru/event/info/42668',
+        endReg: '2025-05-07',
         o_gps: 22515,
         reskeep: 698,
         video: [
@@ -862,6 +899,7 @@ let events2025 = [
         o_site: '250511_bn',
         bulletin: 'https://o-site.spb.ru/_races/250511_bn/250511_info.pdf',
         reg: 'http://orgeo.ru/event/info/43589',
+        endReg: '2025-05-10 12:00',
         map: 'michurinskoe_2022',
         o_gps: 22568
     },
@@ -873,6 +911,7 @@ let events2025 = [
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/info/43129',
+        endReg: '2025-05-08 19:00',
         bulletin: 'https://orgeo.ru/files/event/file/43129_0ad7222965.docx',
         res: 'https://vk.com/wall-91656163_2573',
         o_gps: 22558,
@@ -889,6 +928,7 @@ let events2025 = [
         o_site: '25_KS',
         bulletin: 'https://o-site.spb.ru/_races/25_KS/250605_info.pdf',
         reg: 'https://orgeo.ru/event/43174',
+        endReg: '2025-05-15 11:00',
         o_gps: 22595,
         photo: 'https://vk.com/album-128591100_306187926',
         map: 'yukki_north_2020'
@@ -961,6 +1001,7 @@ let events2025 = [
         name: 'СПРИНТ ТУР №2',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/43938',
+        endReg: '2025-05-21 09:00',
         bulletin: 'https://orgeo.ru/files/event/file/43938_0a331346b5.pdf',
         res: 'https://t.me/KuzmolovoDragons/26',
         reskeep: 688,
@@ -1017,6 +1058,7 @@ let events2025 = [
             'https://vk.com/mbrosok'
         ],
         reg: 'https://orgeo.ru/event/40845',
+        endReg: '2025-05-23 22:00',
         res: 'https://kandid.ru/vmb25r.htm',
         o_gps: 22700,
         planner: 'BKTV',
@@ -1054,6 +1096,7 @@ let events2025 = [
         name: 'СПРИНТ ТУР №3',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/info/44070',
+        endReg: '2025-05-28 09:00',
         bulletin: 'https://orgeo.ru/files/event/file/44070_c37c5da998.pdf',
         reskeep: 703,
         photo: 'https://vk.com/album-92124592_307311265',
@@ -1113,6 +1156,7 @@ let events2025 = [
         fmt: '3 / 8 / 24',
         type: 'ROGAINE',
         reg: 'https://orgeo.ru/event/39845',
+        endReg: '2025-05-30 16:00',
         bulletin: 'https://orgeo.ru/files/event/file/39845_907b6f150a.pdf',
         res: 'https://o-site.spb.ru/_races/250531R/250531R_res.pdf',
         o_gps: 22757,
@@ -1143,6 +1187,7 @@ let events2025 = [
         name: 'Кубок Белых Ночей №14',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/44184',
+        endReg: '2025-05-30 20:00',
         bulletin: 'https://orgeo.ru/files/event/file/44184_1f3d2af4e4.pdf',
         map: 'topograph_2017'
     },
@@ -1155,6 +1200,7 @@ let events2025 = [
         o_site: '250601_D2RUN_2',
         bulletin: 'https://o-site.spb.ru/_races/250601_D2RUN_2/250601_Kubok_D2Run_2_inf2.pdf',
         reg: 'http://orgeo.ru/event/43859',
+        endReg: '2025-05-29 23:55',
         map: 'orekhovo_borkovo_2024',
         owner: 'DLITELNY'
     },
@@ -1165,6 +1211,7 @@ let events2025 = [
         name: 'Кубок Белых Ночей №15',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/44185',
+        endReg: '2025-05-31 20:00',
         bulletin: 'https://orgeo.ru/files/event/file/44185_3b03286625.pdf',
         map: 'ilychevo-simagino_2015'
     },
@@ -1177,6 +1224,7 @@ let events2025 = [
         o_site: '25_KS',
         bulletin: 'https://o-site.spb.ru/_races/25_KS/250605_info.pdf',
         reg: 'http://orgeo.ru/event/43177',
+        endReg: '2025-06-05 11:00',
         o_gps: 22827,
         map: 'kavgolovo_2017'
     },
@@ -1211,6 +1259,7 @@ let events2025 = [
         fmt: '3',
         type: 'ROGAINE',
         reg: 'https://orgeo.ru/event/44176',
+        endReg: '2025-06-06 21:00',
         res: 'https://vk.com/rogaine110?w=wall-197270357_1119',
         o_gps: 22822,
         map: 'sosnovo_ulovnoe_oz_2023',
@@ -1413,6 +1462,7 @@ let events2025 = [
         o_site: 'mms2025',
         bulletin: 'https://o-site.spb.ru/_races/mms2025/info3.pdf',
         reg: 'http://orgeo.ru/event/43134',
+        endReg: '2025-06-17 08:00',
         reskeep: [708, 709],
         start: 'MMS',
         video: [
@@ -1453,6 +1503,7 @@ let events2025 = [
         o_site: '2025_bn',
         bulletin: 'https://o-site.spb.ru/_races/2025_bn/250629_info-2.pdf',
         reg: 'http://orgeo.ru/event/info/44257',
+        endReg: '2025-06-24 09:55',
         o_gps: {
             'Спринт': 22977,
             'Лонг': 22979,
@@ -1493,6 +1544,7 @@ let events2025 = [
         fmt: '3, 6',
         type: 'ROGAINE',
         reg: 'https://orgeo.ru/event/39846',
+        endReg: '2025-07-04 19:00',
         bulletin: 'https://orgeo.ru/files/event/file/39846_7a3a8de3fa.pdf',
         res: 'https://o-site.spb.ru/_races/250705R/250705R_res.pdf',
         photo: 'https://vk.com/album-31941981_307754452',
@@ -1510,6 +1562,7 @@ let events2025 = [
         o_site: '250705_bn',
         bulletin: 'https://o-site.spb.ru/_races/250705_bn/250706_info.pdf',
         reg: 'https://orgeo.ru/event/info/michura_rog_2025',
+        endReg: '2025-07-05 23:00',
         res: ['https://o-site.spb.ru/_races/250705_bn/250705_res.htm','https://o-site.spb.ru/_races/250705_bn/250706_res.htm'],
         o_gps: 23067,
         map: 'michurinskoe_2022',
@@ -1533,6 +1586,7 @@ let events2025 = [
         o_site: '250712_bn',
         bulletin: 'https://o-site.spb.ru/_races/250712_bn/250712_info.pdf',
         reg: 'http://orgeo.ru/event/44811',
+        endReg: '2025-07-11 20:00',
         reskeep: [
             739,
             740
@@ -1548,6 +1602,7 @@ let events2025 = [
         o_site: '250712_Dlit_5',
         bulletin: 'https://o-site.spb.ru/_races/250712_Dlit_5/250712_Dlit5_inf1.pdf',
         reg: 'http://orgeo.ru/event/44871',
+        endReg: '2025-07-11 22:00',
         owner: 'DLITELNY',
         map: 'toksovo_ska_2014'
     },
@@ -1559,6 +1614,7 @@ let events2025 = [
         o_site: '250713_Dlit_6',
         bulletin: 'https://o-site.spb.ru/_races/250713_Dlit_6/250713_Dlit6_inf1.pdf',
         reg: 'http://orgeo.ru/event/44872',
+        endReg: '2025-07-12 22:00',
         o_gps: 23094,
         reskeep: 741,
         owner: 'DLITELNY',
@@ -1574,6 +1630,7 @@ let events2025 = [
         fmt: '3',
         type: 'ROGAINE',
         reg: 'https://orgeo.ru/event/44984',
+        endReg: '2025-07-18 21:00',
         res: 'https://vk.com/wall-197270357_1137',
         o_gps: 23127,
         map: 'yukki_2025',
@@ -1588,6 +1645,7 @@ let events2025 = [
         o_site: '250720_p',
         bulletin: 'https://o-site.spb.ru/_races/250720_p/250720_info1.pdf',
         reg: 'http://orgeo.ru/event/45019',
+        endReg: '2025-07-18 23:55',
         o_gps: 23126,
         info: 'Новая карта.',
         map: 'silande_2025',
@@ -1618,6 +1676,7 @@ let events2025 = [
         type: 'ROGAINE',
         link: 'https://vk.com/event166397868',
         reg: 'https://orgeo.ru/event/info/40554',
+        endReg: '2025-07-22 23:55',
         res: 'https://vk.com/wall-166397868_4941',
         o_gps: 23164,
         video: 'https://www.youtube.com/watch?v=_A6pHop6c6Y',
@@ -1634,6 +1693,7 @@ let events2025 = [
         o_site: '250802_bn',
         bulletin: 'https://o-site.spb.ru/_races/250802_bn/250802_info.pdf',
         reg: 'http://orgeo.ru/event/45276',
+        endReg: '2025-08-01 20:00',
         o_gps: 23174,
         reskeep: 714,
         map: 'baryshevo_2015'
@@ -1647,6 +1707,7 @@ let events2025 = [
         o_site: '250802_bn',
         bulletin: 'https://o-site.spb.ru/_races/250802_bn/250803_info.pdf',
         reg: 'http://orgeo.ru/event/info/45265',
+        endReg: '2025-08-02 00:00',
         o_gps: 23177,
         reskeep: 715,
         map: 'smoljanoe_2015',
@@ -1660,6 +1721,7 @@ let events2025 = [
         name: 'СПРИНТ ТУР №4',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/45316',
+        endReg: '2025-08-04 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/45316_dfdef76516.pdf',
         reskeep: 713,
         photo: 'https://vk.com/album-92124592_308044841',
@@ -1680,6 +1742,7 @@ let events2025 = [
             'https://t.me/lugarogein'
         ],
         reg: 'https://orgeo.ru/event/40548',
+        endReg: '2025-08-07 23:55',
         res: 'https://t.me/lugarogein/133',
         o_gps: 23201,
         map: 'shalovo_luzhsky_2023'
@@ -1693,6 +1756,7 @@ let events2025 = [
         o_site: '250809_history',
         bulletin: 'https://o-site.spb.ru/_races/250809_history/250809_info2_history.pdf',
         reg: 'https://orgeo.ru/event/info/44975',
+        endReg: '2025-08-06 23:55',
         o_gps: 23203,
         map: 'lembolovo_2024'
     },
@@ -1750,6 +1814,7 @@ let events2025 = [
         name: 'Кубок Белых Ночей №18',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/info/45477',
+        endReg: '2025-08-16 15:00',
         bulletin: 'https://orgeo.ru/files/event/file/45477_cb7c9a9c60.pdf',
         res: 'https://t.me/whitenightesspb/557',
         o_gps: 23260,
@@ -1767,6 +1832,7 @@ let events2025 = [
             'http://orgeo.ru/event/45172',
             'http://orgeo.ru/event/info/45167'
         ],
+        endReg: '2025-08-21 14:00',
         video: [
             'https://www.youtube.com/watch?v=c1z6ygtj6tQ',
             'https://www.youtube.com/watch?v=7R8INV1bLhQ'
@@ -1830,6 +1896,7 @@ let events2025 = [
         o_site: '250830_bn',
         bulletin: 'https://o-site.spb.ru/_races/250830_bn/250830_info.pdf',
         reg: 'http://orgeo.ru/event/vaskelovo_middle',
+        endReg: '2025-08-29 20:00',
         reskeep: 786,
         owner: 'WN',
         map: 'stekljanny_2021'
@@ -1874,6 +1941,7 @@ let events2025 = [
         o_site: '250906_bn',
         bulletin: 'https://o-site.spb.ru/_races/250906_bn/250906_info.pdf',
         reg: 'https://orgeo.ru/event/info/45955',
+        endReg: '2025-09-05 20:00',
         o_gps: 23350,
         reskeep: 789,
         map: 'sosnovo_ulovnoe_oz_2023',
@@ -1889,6 +1957,7 @@ let events2025 = [
         fmt: 'спринт, масстарт',
         o_site: 'lo_kirovsk_2025',
         reg: 'http://orgeo.ru/event/sprint_kirovsk_070925',
+        endReg: '2025-09-04',
         photo: [
             'https://vk.com/album-201330282_308352430',
             'https://disk.yandex.ru/d/IY8hUtWo4dbUEQ'
@@ -1902,6 +1971,7 @@ let events2025 = [
         name: 'СПРИНТ ТУР',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/46049',
+        endReg: '2025-09-09 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/46049_436e34f369.pdf',
         o_gps: 23375,
         reskeep: 792,
@@ -1965,6 +2035,7 @@ let events2025 = [
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/info/45324',
+        endReg: '2025-09-10 23:00',
         bulletin: 'https://orgeo.ru/files/event/file/45324_97b33b8a0c.docx',
         res: 'https://vk.com/wall-91656163_2616',
         o_gps: 23387,
@@ -1981,6 +2052,7 @@ let events2025 = [
         o_site: '250914_kolp',
         bulletin: 'https://o-site.spb.ru/_races/250914_kolp/250914_info.pdf',
         reg: 'https://orgeo.ru/event/45523',
+        endReg: '2025-09-11 15:30',
         map: 'kolpino_chuhonka_2020'
     },
     {
@@ -2028,6 +2100,7 @@ let events2025 = [
         start: 'CONTROLNY_START',
         o_site: '25_KS_a',
         reg: 'https://orgeo.ru/event/46308',
+        endReg: '2025-09-18 12:00',
         map: 'toksovo_oz_svetloe_2017'
     },
     {
@@ -2038,6 +2111,7 @@ let events2025 = [
         fmt: 'спринт',
         o_site: '250919_zo',
         reg: 'https://orgeo.ru/event/45724',
+        endReg: '2025-09-16 23:00',
         o_gps: 23439,
         map: 'polyustrovsky_2022'
     },
@@ -2049,6 +2123,7 @@ let events2025 = [
         fmt: '2, 5',
         type: 'ROGAINE',
         reg: 'https://orgeo.ru/event/39879',
+        endReg: '2025-09-19 19:00',
         bulletin: 'https://orgeo.ru/files/event/file/39879_4a12f4a56b.pdf',
         res: 'https://vk.com/wall-31941981_4738',
         photo: 'https://vk.com/album-31941981_308581632',
@@ -2078,6 +2153,7 @@ let events2025 = [
         o_site: '250920',
         bulletin: 'https://o-site.spb.ru/_races/250920/250920_info1.pdf',
         reg: 'https://orgeo.ru/event/info/46223',
+        endReg: '2025-09-18 23:55',
         photo: 'https://vk.com/album-128591100_308572316',
         video: 'https://vk.com/wall-128591100_3181',
         map: 'vsevolozhsk_zhdanovskie_oz_2014',
@@ -2110,6 +2186,7 @@ let events2025 = [
         o_site: '250921',
         bulletin: 'https://o-site.spb.ru/_races/250921/250921_info2.pdf',
         reg: 'https://orgeo.ru/event/alekseeva2025',
+        endReg: '2025-09-17 19:00',
         o_gps: {
             'МЭ': 23442,
             'ЖЭ': 23438,
@@ -2172,6 +2249,7 @@ let events2025 = [
         name: 'Школа Безопасности',
         type: 'FUN',
         reg: 'https://orgeo.ru/event/46328',
+        endReg: '2025-09-22 19:00',
         map: 'sestroretsk_skver_pogranichnikov_2020'
     },
     {
@@ -2193,6 +2271,7 @@ let events2025 = [
         fmt: 'спринт',
         link: 'https://vk.com/wall-92124592_2160',
         reg: 'https://orgeo.ru/event/46442',
+        endReg: '2025-09-23 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/46442_58a6177a34.pdf',
         reskeep: 799,
         map: 'pionerskaya_2025_st',
@@ -2208,6 +2287,7 @@ let events2025 = [
         name: 'Физкультурное мероприятие по спортивному ориентированию',
         fmt: 'выбор',
         reg: 'https://orgeo.ru/event/46431',
+        endReg: '2025-09-25',
         bulletin: 'https://orgeo.ru/files/event/file/46431_ec9f0d26a0.pdf',
         res: 'https://vk.com/wall-21809767_48344',
         map: 'rzhevsky_2024'
@@ -2244,6 +2324,7 @@ let events2025 = [
         bulletin: 'https://o-site.spb.ru/_races/250927/250925_Info1.pdf',
         o_gps: 23487,
         reg: 'https://orgeo.ru/event/45984',
+        endReg: '2025-09-25 23:55',
         map: 'yukki_north_2020'
     },
     {
@@ -2268,6 +2349,7 @@ let events2025 = [
             'https://t.me/lugarogein'
         ],
         reg: 'https://orgeo.ru/event/40549',
+        endReg: '2025-09-25 23:55',
         o_gps: 23509,
         res: 'https://vk.com/wall-166397868_5042',
         map: 'toloni_2025'
@@ -2318,6 +2400,7 @@ let events2025 = [
         start: 'CONTROLNY_START',
         o_site: '25_KS_a',
         reg: 'http://orgeo.ru/event/46828',
+        endReg: '2025-10-02 12:00',
         map: 'sertolovo_2016'
     },
     {
@@ -2328,6 +2411,7 @@ let events2025 = [
         fmt: 'ночное',
         link: 'https://touristclub.ru/okinchits/',
         reg: 'https://orgeo.ru/event/45800',
+        endReg: '2025-10-01 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/45800_b604682c0d.pdf',
         res: 'https://vk.ru/wall-21755_1416',
         o_gps: {
@@ -2358,6 +2442,7 @@ let events2025 = [
         o_site: '251007_NS',
         bulletin: 'https://o-site.spb.ru/_races/251007_NS/NS2025_info3.pdf',
         reg: 'https://orgeo.ru/event/info/45533',
+        endReg: '2025-10-03 14:00',
         reskeep: [801, 802],
         o_gps: {
             '4-М': 23568,
@@ -2410,6 +2495,7 @@ let events2025 = [
         place: 'Сосновка',
         name: 'Dлительная серия осень, 1 этап',
         reg: 'https://orgeo.ru/event/46877',
+        endReg: '2025-10-07 22:00',
         bulletin: 'https://orgeo.ru/files/event/file/46877_7359fbe50c.pdf',
         res: 'https://t.me/dlitelnyy/327',
         o_gps: 23620,
@@ -2424,6 +2510,7 @@ let events2025 = [
         start: 'CONTROLNY_START',
         o_site: '25_KS_a',
         reg: 'https://orgeo.ru/event/46972',
+        endReg: '2025-10-09 12:00',
         map: 'shuvalovsky_rogaine_2024'
     },
     {
@@ -2434,6 +2521,7 @@ let events2025 = [
         o_site: '251011',
         bulletin: 'https://o-site.spb.ru/_races/251011/251011_info.pdf',
         reg: 'https://orgeo.ru/event/info/legendaoseni25',
+        endReg: '2025-10-09 00:00',
         map: 'polyustrovsky_2022'
     },
     {
@@ -2444,6 +2532,7 @@ let events2025 = [
         type: 'FUN',
         link: 'https://vk.com/wall-114454934_869',
         reg: 'https://orgeo.ru/event/finalfoto25',
+        endReg: '2025-10-11 00:00',
         photo: 'https://vk.com/album-26721608_308922347',
         map: 'gimnazia_74_2024',
         start: 'VYBORGSKY_DISTRICT'
@@ -2500,6 +2589,7 @@ let events2025 = [
         name: 'Нева-трейл, ЧиП Всеволожского р-на',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/46023',
+        endReg: '2025-10-05 23:55',
         map: 'nevsky_2024'
     },
     {
@@ -2512,6 +2602,7 @@ let events2025 = [
         o_site: '251011R',
         bulletin: 'https://o-site.spb.ru/_races/251011R/251011R_info2.pdf',
         reg: 'https://orgeo.ru/event/39880',
+        endReg: '2025-10-10 19:00',
         map: 'kavgolovo_2017',
         start: 'GORNY_CROSS'
     },
@@ -2540,6 +2631,7 @@ let events2025 = [
         o_site: '251011',
         bulletin: 'https://o-site.spb.ru/_races/251011/251011_info.pdf',
         reg: 'http://orgeo.ru/event/info/legendaoseni25',
+        endReg: '2025-10-09 00:00',
         map: 'polyustrovsky_2022'
     },
     {
@@ -2551,6 +2643,7 @@ let events2025 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://www.bikeadventure.ru/',
         reg: 'https://orgeo.ru/event/44940',
+        endReg: '2025-10-08 23:55',
         res: 'https://www.bikeadventure.ru/results/',
         o_gps: 23660,
         photo: [
@@ -2567,6 +2660,7 @@ let events2025 = [
         place: 'Всеволожск, Румболовский парк',
         name: 'Памяти Дмитрия Лисового',
         reg: 'https://orgeo.ru/event/46988',
+        endReg: '2025-10-10 18:00',
         map: 'vsevolozhsk_rumbolovo_2014'
     },
     {
@@ -2608,6 +2702,7 @@ let events2025 = [
         place: 'Кудрово',
         name: 'Кубок Кудрово',
         reg: 'https://orgeo.ru/event/46695',
+        endReg: '2025-10-16 14:00',
         map: 'kudrovo_evropy_2024'
     },
     {
@@ -2621,6 +2716,7 @@ let events2025 = [
             'https://vk.com/mbrosok'
         ],
         reg: 'https://orgeo.ru/event/44894',
+        endReg: '2025-10-16 23:55',
         o_gps: 23725,
         photo: [
             'https://disk.yandex.ru/d/S-rlnWSUiro4og',
@@ -2638,6 +2734,7 @@ let events2025 = [
         o_site: '251019_PZVP',
         bulletin: 'https://o-site.spb.ru/_races/251019_PZVP/251019_info2.pdf',
         reg: 'http://orgeo.ru/event/info/46779',
+        endReg: '2025-10-16 23:55',
         reskeep: 808,
         o_gps: 23712,
         photo: 'https://vk.com/album-91047483_311486654',
@@ -2651,6 +2748,7 @@ let events2025 = [
         place: 'Пионерский парк',
         name: 'Тренировка в ДР Ирины Степановой',
         reg: 'https://orgeo.ru/event/ivs25',
+        endReg: '2025-10-19 13:00',
         map: 'sakharova_2015'
     },
     {
@@ -2660,6 +2758,7 @@ let events2025 = [
         name: 'Кубок ООО Кинеф',
         fmt: 'ночное',
         reg: 'https://orgeo.ru/event/night_o_2025',
+        endReg: '2025-10-20 23:55',
         map: 'kirishi_assol_2024',
         owner: 'MLV_AL'
     },
@@ -2670,6 +2769,7 @@ let events2025 = [
         name: 'Длительная серия, осень №2',
         link: 'https://t.me/dlitelnyy/340',
         reg: 'https://orgeo.ru/event/47226',
+        endReg: '2025-10-21 20:00',
         o_gps: 23736,
         owner: 'DLITELNY',
         strava: 16223114585,
@@ -2709,6 +2809,7 @@ let events2025 = [
         o_site: '251025_D2RUN_final',
         bulletin: 'https://o-site.spb.ru/_races/251025_D2RUN_final/251025_Kubok_D2Run_4_info1.pdf',
         reg: 'http://orgeo.ru/event/47228',
+        endReg: '2025-10-23 23:55',
         res: 'https://t.me/dlitelnyy/355',
         video: [
             'https://rutube.ru/video/216997ead3de6a02137df69df57f27b6/',
@@ -2737,6 +2838,7 @@ let events2025 = [
         place: 'Новое Сертолово',
         name: 'ЧиП Сертолово',
         reg: 'https://orgeo.ru/event/47035',
+        endReg: '2025-10-23 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/47035_8b1d73ad7f.pdf',
         map: 'new_sertolovo_2022'
     },
@@ -2820,6 +2922,7 @@ let events2025 = [
         o_site: '251103_bn',
         bulletin: 'https://o-site.spb.ru/_races/251103_bn/251103_info.pdf',
         reg: 'https://orgeo.ru/event/info/47191',
+        endReg: '2025-11-02 22:00',
         o_gps: 23804,
         map: 'topograph_2017',
         reskeep: 815
@@ -2848,6 +2951,7 @@ let events2025 = [
         name: 'XI Традиционные соревнования памяти Ю.А. Березюка',
         link: 'https://vk.ru/wall-116730504_215',
         reg: 'https://orgeo.ru/event/berezuk_2025',
+        endReg: '2025-11-02 20:00',
         bulletin: 'https://orgeo.ru/files/event/file/46529_5272234dd8.pdf',
         photo: [
             'https://vk.com/album-116730504_307486556',
@@ -2866,6 +2970,7 @@ let events2025 = [
         o_site: '251108R',
         bulletin: 'https://o-site.spb.ru/_races/251108R/251108R_info2.pdf',
         reg: 'http://orgeo.ru/event/39881',
+        endReg: '2025-11-07 19:00',
         o_gps: 23833,
         photo: 'https://vk.com/album-31941981_309120792',
         map: 'lembolovo_orekhovo_peski_gk_2026',
@@ -2880,6 +2985,7 @@ let events2025 = [
         o_site: '251109',
         bulletin: 'https://o-site.spb.ru/_races/251109/251109_info1.pdf',
         reg: 'http://orgeo.ru/event/47234',
+        endReg: '2025-11-06 23:55',
         o_gps: 23839,
         start: 'ROGAINE_110',
         map: 'lembolovo_2024',
@@ -2895,6 +3001,7 @@ let events2025 = [
         o_site: '251115_bn',
         bulletin: 'https://o-site.spb.ru/_races/251115_bn/251115_info.pdf',
         reg: 'https://orgeo.ru/event/47770',
+        endReg: '2025-11-14 20:00',
         res: 'https://t.me/whitenightesspb/726',
         o_gps: 23870,
         reskeep: 817,
@@ -2908,6 +3015,7 @@ let events2025 = [
         o_site: '251115_Dlit_9',
         bulletin: 'https://o-site.spb.ru/_races/251115_Dlit_9/251115_Dlit9_inf1.pdf',
         reg: 'https://orgeo.ru/event/info/47735',
+        endReg: '2025-11-14 22:00',
         res: 'https://t.me/dlitelnyy/370',
         o_gps: 23867,
         reskeep: 818,
@@ -2928,6 +3036,7 @@ let events2025 = [
             'https://t.me/lugarogein'
         ],
         reg: 'https://orgeo.ru/event/47229',
+        endReg: '2025-11-13 22:00',
         res: 'https://t.me/lugarogein/229',
         photo: [
             'https://vk.com/album-166397868_309294009',
@@ -2954,6 +3063,7 @@ let events2025 = [
         o_site: '251116_feniks',
         bulletin: 'https://o-site.spb.ru/_races/251116_feniks/251116_info.pdf',
         reg: 'https://orgeo.ru/event/info/47763',
+        endReg: '2025-11-15 13:00',
         o_gps: 23863,
         info: 'Новая карта.',
         map: 'lovetskoe_2025',
@@ -2979,6 +3089,7 @@ let events2025 = [
         start: 'KBN',
         link: 'https://t.me/whitenightesspb/728',
         reg: 'https://orgeo.ru/event/info/47911',
+        endReg: '2025-11-21 21:00',
         bulletin: 'https://orgeo.ru/files/event/file/47911_d54e3d0339.pdf',
         o_gps: 23882,
         reskeep: 821,
@@ -3028,6 +3139,7 @@ let events2025 = [
         o_site: '251126_Dlit_10',
         bulletin: 'https://o-site.spb.ru/_races/251126_Dlit_10/251126_Dlit10_info1.pdf',
         reg: 'https://orgeo.ru/event/dlitelnyy26112025',
+        endReg: '2025-11-25 20:00',
         reskeep: 823,
         owner: 'DLITELNY',
         map: 'murinsky_east_2023',
@@ -3041,6 +3153,7 @@ let events2025 = [
         o_site: '251129',
         bulletin: 'https://o-site.spb.ru/_races/251129/251129_iB.pdf',
         reg: 'http://orgeo.ru/event/dm25',
+        endReg: '2025-11-26 00:00',
         o_gps: {
             'Все КП': 23921,
             'МЭ,18,20': 23920,
@@ -3057,6 +3170,7 @@ let events2025 = [
         o_site: '251129_bn',
         bulletin: 'https://o-site.spb.ru/_races/251129_bn/251129_info.pdf',
         reg: 'http://orgeo.ru/event/info/malina',
+        endReg: '2025-11-28 20:00',
         o_gps: 23918,
         reskeep: 824,
         map: 'toksovo_malinovaya_gora_2018',
@@ -3095,6 +3209,7 @@ let events2025 = [
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/44912',
+        endReg: '2025-11-28 23:00',
         bulletin: 'https://orgeo.ru/files/event/file/44912_d583a57be9.docx',
         res: 'https://vk.com/wall-91656163_2657',
         o_gps: 23931,
@@ -3115,6 +3230,7 @@ let events2025 = [
         name: 'Кубок Белых Ночей №4',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/47732',
+        endReg: '2025-11-29 16:00',
         bulletin: 'https://orgeo.ru/files/event/file/47732_e61e6f2074.pdf',
         res: 'https://t.me/whitenightesspb/759',
         o_gps: 23927,
@@ -3143,6 +3259,7 @@ let events2025 = [
         o_site: '251206_Dlit_11',
         bulletin: 'https://o-site.spb.ru/_races/251206_Dlit_11/251206_Dlit11_info1.pdf',
         reg: 'https://orgeo.ru/event/info/48224',
+        endReg: '2025-12-05 21:00',
         res: 'https://t.me/dlitelnyy/404',
         map: 'shuvalovsky_rogaine_2024',
         owner: 'DLITELNY',
@@ -3155,6 +3272,7 @@ let events2025 = [
         name: 'Кубок Белых Ночей №5',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/48172',
+        endReg: '2025-12-05 17:00',
         bulletin: 'https://orgeo.ru/files/event/file/48172_11d2382739.pdf',
         res: 'https://t.me/whitenightesspb/776',
         reskeep: 826,
@@ -3182,6 +3300,7 @@ let events2025 = [
         name: 'Кубок Кудрово №2',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/47288',
+        endReg: '2025-12-05 23:00',
         o_gps: 23947,
         map: 'kudrovo_vena_2025',
         strava: 16675638894,
@@ -3195,6 +3314,7 @@ let events2025 = [
         o_site: '251207_bn',
         bulletin: 'https://o-site.spb.ru/_races/251207_bn/251207_info.pdf',
         reg: 'http://orgeo.ru/event/info/kavgolovo_middle_2025',
+        endReg: '2025-12-06 20:00',
         map: 'kavgolovo_old_ski_track_2023',
         owner: 'WN',
         o_gps: 23943
@@ -3207,6 +3327,7 @@ let events2025 = [
         o_site: '251211_Dlit_12',
         bulletin: 'https://o-site.spb.ru/_races/251211_Dlit_12/251211_Dlit12_info1.pdf',
         reg: 'http://orgeo.ru/event/48415',
+        endReg: '2025-12-11 12:00',
         map: 'sosnovka_2024',
         owner: 'DLITELNY',
         reskeep: 830
@@ -3220,6 +3341,7 @@ let events2025 = [
         o_site: '251213_bn',
         bulletin: 'https://o-site.spb.ru/_races/251213_bn/251213_info.pdf',
         reg: 'http://orgeo.ru/event/info/mistolovo',
+        endReg: '2025-12-12 20:00',
         o_gps: 23960,
         map: 'mistolovo_2021',
         owner: 'WN',
@@ -3235,6 +3357,7 @@ let events2025 = [
         o_site: '251213_Dlit_13',
         bulletin: 'https://o-site.spb.ru/_races/251213_Dlit_13/251213_Dlit13_info1.pdf',
         reg: 'http://orgeo.ru/event/48473',
+        endReg: '2025-12-12 22:00',
         res: 'https://t.me/dlitelnyy/411',
         map: 'osinovaja_roscha_2018',
         owner: 'DLITELNY',
@@ -3247,6 +3370,7 @@ let events2025 = [
         name: 'Соревнования по подземному ориентированию',
         fmt: 'спелео, комбинация',
         reg: 'https://orgeo.ru/event/48286',
+        endReg: '2025-12-11 22:55',
         photo: 'https://vk.ru/album-222424338_309589045',
         map: 'sablino_zhemchug_cave'
     },
@@ -3290,6 +3414,7 @@ let events2025 = [
         o_site: '251220_Dlit_14',
         bulletin: 'https://o-site.spb.ru/_races/251220_Dlit_14/251220_Dlit14_info1.pdf',
         reg: 'http://orgeo.ru/event/48581',
+        endReg: '2025-12-19 22:00',
         res: 'https://t.me/dlitelnyy/414',
         map: 'lembolovo_2024',
         owner: 'DLITELNY',
@@ -3343,6 +3468,7 @@ let events2025 = [
         o_site: '251227_Dlit_15',
         bulletin: 'https://o-site.spb.ru/_races/251227_Dlit_15/251227_Dlit15_info1.pdf',
         reg: 'http://orgeo.ru/event/48742',
+        endReg: '2025-12-26 20:00',
         reskeep: 835,
         o_gps: 23988,
         map: 'zelenogorsk_schuchye_2005',
@@ -3360,6 +3486,7 @@ let events2025 = [
         o_site: '251228_markir',
         bulletin: 'https://o-site.spb.ru/_races/251228_markir/28122025_markir_info2.pdf',
         reg: 'http://orgeo.ru/event/48645',
+        endReg: '2025-12-26 11:00',
         photo: 'https://vk.ru/album-220245153_312176887',
         map: 'toksovo_vifk_2020',
         owner: 'KUZMOLOVO',

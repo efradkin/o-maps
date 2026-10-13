@@ -7,6 +7,7 @@ let samaraEvents2026 = [
         name: 'Многодневка ЛУКА — 2025',
         link: 'https://o-63.ru/data/2025/mnogodnevka-luka-2025/',
         reg: 'https://orgeo.ru/event/info/luka_samara2025',
+        endReg: '2025-08-20 09:00',
         bulletin: 'https://orgeo.ru/files/event/file/45100_3fff59afc1.pdf',
         map: ['grushina_2001', 'pribrezhny_2010'],
         owner: [

@@ -3018,6 +3018,19 @@ let events2026 = [
         map: 'sad_9_janvarya_2018'
     },
     {
+        id: 'SPB_20261017_2',
+        date: '2026-10-17',
+        name: 'Спринт Тур',
+        place: 'Василеостровская',
+        fmt: 'спринт',
+        reg: 'https://orgeo.ru/event/56142',
+        endReg: '2026-10-16 16:00',
+        bulletin: 'https://orgeo.ru/files/event/file/56142_1e50add573.pdf',
+        start: 'SPRINT_TOUR',
+        info: 'Памяти Ю.М.Артемьева.',
+        map: 'vasileostrovskaya_2024'
+    },
+    {
         id: 'SPB_20261017_1',
         date: '2026-10-17',
         name: 'Новгородский исторический рогейн',
@@ -3030,15 +3043,6 @@ let events2026 = [
         fmt: '4, 2.5',
         start: 'LM',
         map: 'novgorod_rogaine_2024_09_08'
-    },
-    {
-        id: 'SPB_20261017_2',
-        date: '2026-10-17',
-        name: 'Спринт Тур',
-        place: 'центр города',
-        fmt: 'спринт',
-        start: 'SPRINT_TOUR',
-        info: 'Памяти Ю.М.Артемьева.'
     },
     {
         id: 'SPB_20261017_3',
@@ -3058,6 +3062,7 @@ let events2026 = [
         place: 'Пухтолова гора',
         o_site: '261017_PZVP',
         reg: 'http://orgeo.ru/event/info/55914',
+        endReg: '2026-10-14 23:55',
         bulletin: 'https://o-site.spb.ru/_races/261017_PZVP/261017_PZVP_info.pdf',
         fmt: 'спринт'
     },
@@ -3206,6 +3211,7 @@ let events2026 = [
         endReg: '2026-10-28',
         map: 'lembolovo_hard_rogaine_2023',
         start: 'HARD',
+        cancelled: true
     },
     {
         id: 'SPB_20261101_1',
@@ -3232,8 +3238,10 @@ let events2026 = [
         map: 'lembolovo_orekhovo_peski_gk_2026',
         name: 'Горный кросс-117',
         reg: 'https://orgeo.ru/event/50689',
+        bulletin: 'https://orgeo.ru/files/event/file/50689_bf21073455.pdf',
+        endReg: '2026-11-06 19:00',
         type: 'ROGAINE',
-        fmt: '6(5), 3',
+        fmt: '6(5), 2',
         start: 'GORNY_CROSS'
     },
     {

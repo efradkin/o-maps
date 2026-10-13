@@ -561,6 +561,7 @@ let events2018 = [
         place: 'Будогощь',
         name: '4-е соревнования Памяти Ю.А.Березюка',
         reg: 'http://orgeo.ru/event/info/5866',
+        endReg: '2018-04-28 23:55',
         o_site: '180506_B',
         bulletin: 'https://o-site.spb.ru/_races/180506_B/180506_info2.pdf',
         owner: 'EGRV_SRG'
@@ -1013,6 +1014,7 @@ let events2018 = [
         name: 'Мемориал Михаила Святкина',
         place: 'Раздолье',
         reg: 'http://orgeo.ru/event/6775',
+        endReg: '2018-06-12 23:55',
         res: 'https://o-site.spb.ru/_races/180622mms/1rez.htm',
         video: 'https://www.youtube.com/watch?v=DmBYqYQ_XwQ',
         start: 'MMS',
@@ -1556,6 +1558,7 @@ let events2018 = [
         start: 'LO_CHAMP',
         type: 'VELO',
         reg: 'http://orgeo.ru/event/7454',
+        endReg: '2018-09-28 20:00',
         o_site: '180929_velo',
         bulletin: 'https://o-site.spb.ru/_races/180929_velo/18092930_info_velo.pdf'
     },
@@ -1625,6 +1628,7 @@ let events2018 = [
         start: 'LO_CHAMP',
         type: 'VELO',
         reg: 'http://orgeo.ru/event/7454',
+        endReg: '2018-09-28 20:00',
         o_site: '180930_velo',
         bulletin: 'http://o-site.spb.ru/_races/180929_velo/18092930_info_velo.pdf'
     },
