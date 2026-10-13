@@ -1635,11 +1635,8 @@ let mskEvents2026 = [
         place: "Тимирязевский парк (север)",
         type: "ORIENT",
         fmt: "Лонг",
-        coord: [
-            55.825578,
-            37.531646
-        ],
-        link: "https://docs.google.com/document/d/1n48RcIsfIjyqbGCeBCN7tJ7tPwugQQDKAhqWpG5qmwo/edit?usp=sharing",
+        coord: [55.825578, 37.531646],
+        bulletin: "https://docs.google.com/document/d/1n48RcIsfIjyqbGCeBCN7tJ7tPwugQQDKAhqWpG5qmwo/edit?usp=sharing",
         reg: "https://buyrun.ru/event/143",
         res: "https://orgeo.ru/files/event/file/54109_4b8674bc63.xlsx",
         owner: "MLKHT",
@@ -1660,10 +1657,7 @@ let mskEvents2026 = [
         place: "Авиационная улица",
         type: "ORIENT",
         fmt: "городской спринт",
-        coord: [
-            55.810622,
-            37.458825
-        ],
+        coord: [55.810622, 37.458825],
         link: "https://docs.google.com/document/d/1ZvqcT8qqgxIj5CAI7TQLjyCiXiYHZIheNG0IRMfzaqU/edit?usp=sharing",
         reg: "https://buyrun.ru/event/143",
         res: "https://orgeo.ru/files/event/file/54173_842379b3cb.xlsx",
@@ -1859,7 +1853,7 @@ let mskEvents2026 = [
             55.807892,
             37.550774
         ],
-        link: "https://docs.google.com/document/d/1E-tdch9LBZ0oFOJT5YqDDrgjpjzG4otBrAv9H2Bzi4s/edit?usp=sharing",
+        bulletin: "https://docs.google.com/document/d/1E-tdch9LBZ0oFOJT5YqDDrgjpjzG4otBrAv9H2Bzi4s/edit?usp=sharing",
         reg: "https://buyrun.ru/event/151",
         res: "https://orgeo.ru/files/event/file/54611_217a9c5ecf.xlsx",
         owner: "MLKHT",

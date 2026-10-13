@@ -667,6 +667,16 @@ let moscowMaps = [
         type: ['PARK']
     },
     {
+        name: 'Нескучный Сад',
+        year: 2026,
+        url: './maps/moscow/lr/neskuchny_2026.webp',
+        link: './original_maps/moscow/lr/neskuchny_2026_omaps.webp',
+        bounds: [[55.7229289, 37.5754952], [55.7207174, 37.5987554], [55.7089201, 37.5703025]],
+        author: ['TTYNN_V','KLZHNY','MNKV'],
+        owner: 'ERMCHNKV_A',
+        type: ['PARK']
+    },
+    {
         name: 'Воронцовский Парк',
         year: 2025,
         url: './maps/moscow/o-mephi/20230130_474.webp',
@@ -871,6 +881,17 @@ let moscowMaps = [
         owner: 'ALFRV'
     },
     {
+        name: 'Чистые пруды - Красные Ворота',
+        year: 2026,
+        url: './maps/moscow/lr/red_gates_2026.webp',
+        link: './original_maps/moscow/lr/red_gates_2026_omaps.webp',
+        bounds: [[55.7741231, 37.6324868], [55.7702608, 37.6654673], [55.7527551, 37.6249123]],
+        author: ['MNKV','ALDBV','MSTPNV','DRN_E','SMRNV_K'],
+        areas: [50,25,13,8,4],
+        owner: ['ERMCHNKV_A','OPEN_BAND','ALDBV'],
+        type: ['CITY','SPRINT']
+    },
+    {
         name: 'Ивановская горка',
         year: 2025,
         url: './maps/moscow/ak/ivanovskaya_gorka_2025.webp',
@@ -878,6 +899,7 @@ let moscowMaps = [
         bounds: [[55.7611226, 37.6325727], [55.7589735, 37.6496959], [55.7519339, 37.6290965]],
         author: 'ALDBV',
         owner: 'ALDBV',
+        excluded: true,
         type: ['CITY','SPRINT']
     },
     {
@@ -1447,6 +1469,16 @@ let moscowMaps = [
         type: ['CITY']
     },
     {
+        name: 'Новое Марьино',
+        year: 2026,
+        url: './maps/moscow/lr/new_marino_2026.webp',
+        link: './original_maps/moscow/lr/new_marino_2026_omaps.webp',
+        bounds: [[55.6681340, 37.7523279], [55.6656168, 37.7744508], [55.6544324, 37.7479076]],
+        author: 'KLZHNY',
+        owner: 'ERMCHNKV_A',
+        type: ['CITY']
+    },
+    {
         name: 'МГДД(Ю)Т - Дворец Пионеров на Воробьевых Горах',
         year: 1998,
         url: './maps/moscow/mgddyt_1998.webp',
@@ -1717,18 +1749,6 @@ let moscowMaps = [
         type: ['CITY','PARK']
     },
     {
-        name: 'Парк Дубки',
-        year: 2024,
-        url: './maps/moscow/o-mephi/20230130_803.webp',
-        link: 'http://o-mephi.net/cup/maps/20250403_101.jpg',
-        local_link: './external/original_maps/moscow/o-mephi/20230130_803_omaps.jpg',
-        info: 'Небольшой живописный парк в Тимирязевском районе недалеко от клуба Ориента-Скрум.',
-        bounds: [[55.8243943, 37.563715], [55.823647, 37.5715256], [55.8175594, 37.5611615]],
-        author: 'MNKV',
-        owner: 'ORNTA_SKRM',
-        type: ['PARK']
-    },
-    {
         name: 'Химки, парк Дубки',
         year: 2023,
         url: './maps/moscow/ak/khimki_dubki_2023.webp',
@@ -1901,6 +1921,16 @@ let moscowMaps = [
         type: ['PARK']
     },
     {
+        name: 'Марьино',
+        year: 2026,
+        url: './maps/moscow/lr/marino_ski_2026.webp',
+        link: './original_maps/moscow/lr/marino_ski_2026_omaps.webp',
+        bounds: [[55.6597708, 37.7756739], [55.6573014, 37.7934408], [55.6485605, 37.7714682]],
+        author: 'MNKV',
+        owner: 'ERMCHNKV_A',
+        type: ['WINTER']
+    },
+    {
         name: 'Парк имени Артёма Боровика',
         year: 2017,
         url: './maps/moscow/o-mephi/20200907_909.webp',
@@ -2024,16 +2054,16 @@ let moscowMaps = [
         author: 'KRNVA'
     },
     {
-        name: 'Большая Битца 15000',
-        year: 2025,
-        excluded: true,
-        info: 'Устаревшая условно-бесплатная карта 2006-2022, генерализация А.Минакова под 15000 сделана в 2022-2025.',
-        url: './maps/moscow/ak/big_bitsa_2023.webp',
-        link: 'http://o-mephi.net/cup/maps/20250403_949.jpg',
+        name: 'Большая Битца',
+        year: 2026,
+        info: 'Сводная частично устаревшая условно-бесплатная карта 2006-2026, генерализованная под масштаб 15000 для проведения рогейнов.',
+        url: './maps/moscow/ak/big_bitsa_2026.webp',
+        link: ['./original_maps/moscow/ak/big_bitsa_2026_omaps.webp','http://o-mephi.net/cup/maps/20250403_949.jpg'],
         local_link: './external/original_maps/moscow/ak/big_bitsa_2023_omaps.jpg',
-        bounds: [[55.6551224, 37.5111866], [55.6434022, 37.6177025], [55.5581073, 37.4777985]],
+        bounds: [[55.6566719, 37.5042343], [55.6425303, 37.6195908], [55.5591267, 37.4668121]],
         author: ['MNKV','SYTV_N','MTN_Y','JASHPTRV','SKRPKO_S','KSTLV_E','DRNN_S','TTYNN_V','LUK_V','YURCHK','MKHLV_A','SLBDNK'],
-        owner: 'SYTV_N'
+        owner: 'SYTV_N',
+        type: ['ROGAINE']
     },
     {
         name: 'Голубинский Лесопарк',
@@ -2481,14 +2511,14 @@ let moscowMaps = [
         owner: 'NLTV_D'
     },
     {
-        name: 'Рублево (сводная)',
-        year: 2025,
-        url: './maps/moscow/o-mephi/20210529_847.webp',
-        link: 'http://o-mephi.net/cup/maps/20250614_683.jpg',
+        name: 'Рублево-Сосновка',
+        year: 2026,
+        url: './maps/moscow/lr/rublevo_2026.webp',
+        link: ['./original_maps/moscow/lr/rublevo_2026_omaps.webp','http://o-mephi.net/cup/maps/20250614_683.jpg'],
         local_link: './external/original_maps/moscow/o-mephi/20210529_847_omaps.jpg',
-        info: 'Общая карта, состоящая из трех частей. Две северные части - внутри и за МКАДом нарисованы в начале 2000-х Г. Яшпатровым в соответствии с действовавшими тогда представлениями о рисовке Москвоских карт под проект "Народная Карта" Н. Сытова. Южная часть нарисована В. Добрецовым в 2012 году, но к настоящему моменту (2021) в значительной степени устарела и для проведения серьезных соревнований по ориентированию непригодна.',
-        bounds: [[55.7931513, 37.3371649], [55.7870469, 37.3961735], [55.759867, 37.3275518]],
-        author: ['JASHPTRV','DBRTSV_V'],
+        info: 'Сборная карта, состоящая из нескольких частей разных авторов и владельцев. Корректировка - от 2012 до 2026гг.',
+        bounds: [[55.7937303, 37.3403406], [55.7841511, 37.4137259], [55.7604525, 37.3272622]],
+        author: ['DBRTSV_V','SYTV_N','TTYNN_V','JASHPTRV'],
         owner: ['ERMCHNKV_A','SYTV_N']
     },
     {
@@ -2796,6 +2826,28 @@ let moscowMaps = [
         bounds: [[55.8373737, 37.5328588], [55.8332526, 37.5689507], [55.8086372, 37.522645]],
         author: 'LUK_V',
         owner: 'FSO_MSK',
+        type: ['PARK']
+    },
+    {
+        name: 'Тимирязевский лесопарк',
+        year: 2026,
+        url: './maps/moscow/sz/timiryazevsky_2026.webp',
+        link: './original_maps/moscow/sz/timiryazevsky_2026_omaps.webp',
+        bounds: [[55.8285887, 37.5363564], [55.8247800, 37.5721049], [55.8154496, 37.5323224]],
+        author: ['DBRTSV_V','LUK_V','FLVSKY_S'],
+        owner: 'ERMCHNKV_A',
+        type: ['PARK']
+    },
+    {
+        name: 'Парк Дубки',
+        year: 2024,
+        url: './maps/moscow/o-mephi/20230130_803.webp',
+        link: 'http://o-mephi.net/cup/maps/20250403_101.jpg',
+        local_link: './external/original_maps/moscow/o-mephi/20230130_803_omaps.jpg',
+        info: 'Небольшой живописный парк в Тимирязевском районе недалеко от клуба Ориента-Скрум.',
+        bounds: [[55.8243943, 37.563715], [55.823647, 37.5715256], [55.8175594, 37.5611615]],
+        author: 'MNKV',
+        owner: 'ORNTA_SKRM',
         type: ['PARK']
     },
     {
@@ -3455,6 +3507,16 @@ let moscowMaps = [
         bounds: [[55.7356764, 37.4955225], [55.7337313, 37.5137186], [55.7280163, 37.493248]],
         author: 'ZHRDV_V',
         owner: 'FSO_MSK',
+        type: ['PARK']
+    },
+    {
+        name: 'Троице-Голенищево',
+        year: 2026,
+        url: './maps/moscow/sz/troitse_golenischevo_2026.webp',
+        link: './original_maps/moscow/sz/troitse_golenischevo_2026_omaps.webp',
+        bounds: [[55.7255029, 37.5014019], [55.7236903, 37.5175166], [55.7171036, 37.4985051]],
+        author: 'KLZHNY',
+        owner: 'ERMCHNKV_A',
         type: ['PARK']
     },
     {
@@ -6785,6 +6847,7 @@ let moscowMaps = [
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
         logo: 'msk_city_race.png',
+        excluded: true,
         type: ['CITY','SPRINT']
     },
     {
@@ -6795,6 +6858,7 @@ let moscowMaps = [
         bounds: [[55.7702005, 37.6398683], [55.7681002, 37.6577854], [55.7605793, 37.6361132]],
         author: ['MSTPNV','DRN_E','SMRNV_K','MNKV'],
         owner: 'OPEN_BAND',
+        excluded: true,
         type: ['CITY','SPRINT']
     },
     {

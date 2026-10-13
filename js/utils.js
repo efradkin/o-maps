@@ -1929,17 +1929,19 @@ function logoOne(logo, m) {
             }
         }
     }
-    if (m.owner && owners[m.owner]) {
-        pushLogo(logo, owners[m.owner].logo);
+    if (m.owner) {
+        if (Array.isArray(m.owner)) {
+            m.owner.forEach(o => pushLogo(logo, owners[o].logo));
+        } else if (owners[m.owner]) {
+            pushLogo(logo, owners[m.owner].logo);
+        }
     }
-    if (m.author && authors[m.author]) {
-        pushLogo(logo, authors[m.author].logo);
-    }
-    if (m.owner && Array.isArray(m.owner) && owners[m.owner[0]]) { // only the first one
-        pushLogo(logo, owners[m.owner[0]].logo);
-    }
-    if (m.author && Array.isArray(m.author) && authors[m.author[0]]) { // only the first one
-        pushLogo(logo, authors[m.author[0]].logo);
+    if (m.author) {
+        if (Array.isArray(m.author)) {
+            m.author.forEach(o => pushLogo(logo, authors[o].logo));
+        } else if (authors[m.author]) {
+            pushLogo(logo, authors[m.author].logo);
+        }
     }
     if (m.region) {
         pushLogo(logo, regions[m.region]?.logo);
