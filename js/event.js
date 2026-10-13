@@ -630,49 +630,54 @@
         return section('ev_program', 'Программа', html);
     }
 
-    // Карты: одна карта - превью слева, сведения справа (сетка Bootstrap; на
-    // телефоне превью над текстом во всю ширину); несколько карт - превью в
-    // ряд под списком. Сначала карты O-Maps (поле map), затем внешние файлы
-    // карт (поле maps) - как на странице старта: ссылка прямо на файл,
-    // изображение - превью, PDF, OCAD и файлы с хостов за капчей - значок;
-    // затем карты O-Stuff (поле o_stuff) - ссылка на страницу карты, превью - её
-    // маленькая картинка - полоса 400x100, в ряду она в натуральную высоту 100
-    // (не загрузилась - превью скрыто, ссылка остаётся).
+    // Карты: одна карта - крупное превью слева, сведения справа (сетка Bootstrap;
+    // на телефоне превью над текстом во всю ширину); несколько карт - каждая
+    // своей строкой: небольшое превью в столбце той же ширины, что и у одной
+    // карты, справа её название и ссылки (на телефоне превью над ними). Сначала карты O-Maps (поле map), затем внешние
+    // файлы карт (поле maps) - как на странице старта: ссылка прямо на файл,
+    // изображение - превью, PDF, OCAD и файлы с хостов за капчей - значок без
+    // превью; затем карты O-Stuff (поле o_stuff) - ссылка на страницу карты,
+    // превью - её маленькая картинка, полоса 400x100 (не загрузилась - превью
+    // скрыто, ссылка остаётся).
     function buildMapsSection(evt, ctx) {
         const names = asList(evt.map);
         const extMaps = getEventExternalMapItems(evt);
         if (names.length === 0 && extMaps.length === 0) return '';
-        const previews = [];
-        const lines = names.map(name => {
+        // карты по порядку: {body - сведения о карте, preview - превью или null}
+        const items = names.map(name => {
             const m = getMapForName(name);
             if (!m) {
                 console.warn('event.html: у события ' + evt.id + ' указана неизвестная карта ' + name);
-                return row('', esc(name));
+                return { body: row('', esc(name)), preview: null };
             }
             const page = mapPageFor(m, ctx.mapPage);
             const infoHref = 'map-info.html?map=' + encodeURIComponent(name);
-            if (!isMapHidden(m) && m.url) previews.push({ href: infoHref, m: m });
+            const preview = (!isMapHidden(m) && m.url) ? { href: infoHref, m: m } : null;
             let html = row('', `<a href="${infoHref}" target="_self">${stripTags(mapTitle(m, false, false))}</a> ` +
                 `<a href="${page}?calendar&map=${encodeURIComponent(name)}" title="Карта на O-Maps">🗺️</a>` +
                 (m.poster ? ' ' + chip({ href: m.poster, label: 'плакат', img: 'images/' + downloadIconExt(m.poster) + '-file.png' }) : ''));
             const authorsHtml = buildAuthors(m);
             if (authorsHtml) html += row('Авторы', authorsHtml.replace(/<br\s*\/?>$/i, ''));
             if (isMapHidden(m)) html += row('', 'Просмотр карты не разрешён правообладателем.');
-            return html;
+            return { body: html, preview: preview };
         });
         for (const x of extMaps) {
-            lines.push(row('', chip({ href: x.url, label: x.label, img: x.icon, title: x.title })));
-            if (x.preview) previews.push({ href: x.url, m: { url: x.preview, name: x.label }, external: true, attrs: externalMapPreviewAttrs(x), strip: x.ostuff !== undefined });
+            items.push({
+                body: row('', chip({ href: x.url, label: x.label, img: x.icon, title: x.title })),
+                preview: x.preview ? { href: x.url, m: { url: x.preview, name: x.label }, external: true, attrs: externalMapPreviewAttrs(x) } : null
+            });
         }
+        const previews = items.filter(it => it.preview).map(it => it.preview);
         const img = (p, cls, extra) => `<a href="${esc(p.href)}" ${p.external ? `target="_blank" rel="noopener${isNoReferrerUrl(p.href) ? ' noreferrer' : ''}"` : 'target="_self"'}><img src="${esc(p.m.url)}" loading="lazy" class="${cls}" alt="${esc(p.m.name ?? 'Карта')}"${extra ?? ''}${p.attrs ?? ''}></a>`;
         let html;
-        if (previews.length === 1) {
-            html = `<div class="row"><div class="col-sm-5 col-lg-3 mb-3">${img(previews[0], 'help-figure mw-100')}</div>` +
-                `<div class="col-sm-7 col-lg-9">${lines.join('')}</div></div>`;
+        if (items.length === 1 && previews.length === 1) {
+            html = `<div class="row"><div class="col-sm-5 col-lg-3 mb-3" data-preview-box>${img(previews[0], 'help-figure mw-100')}</div>` +
+                `<div class="col-sm-7 col-lg-9">${items[0].body}</div></div>`;
         } else {
-            html = lines.join('') + (previews.length
-                ? '<div class="d-flex flex-wrap gap-3 clearfix">' + previews.map(p => img(p, 'help-figure', p.strip ? ' height="100"' : ' height="160"')).join('') + '</div>'
-                : '');
+            html = items.map(it => it.preview
+                ? `<div class="row ev-map-row"><div class="col-sm-4 col-lg-3 mb-2" data-preview-box>${img(it.preview, 'help-figure')}</div>` +
+                  `<div class="col-sm-8 col-lg-9">${it.body}</div></div>`
+                : it.body).join('');
         }
         return section('ev_maps', names.length + extMaps.length > 1 ? 'Карты' : 'Карта', html);
     }

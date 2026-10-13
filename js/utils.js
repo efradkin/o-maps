@@ -2371,7 +2371,8 @@ function oStuffThumbUrl(n, ext) {
 
 // onerror превью карты O-Stuff: следующее расширение; когда перебраны все - запасная
 // картинка из data-fallback (с классом data-fallback-class), а без неё превью прячется
-// вместе со ссылкой (ссылка на карту есть рядом в списке).
+// вместе с обёрткой data-preview-box, если она есть, иначе вместе со ссылкой
+// (ссылка на карту есть рядом в списке).
 function oStuffThumbError(img) {
     const next = O_STUFF_THUMB_EXTS.indexOf(img.dataset.ext ?? O_STUFF_THUMB_EXTS[0]) + 1;
     if (next > 0 && next < O_STUFF_THUMB_EXTS.length) {
@@ -2385,7 +2386,7 @@ function oStuffThumbError(img) {
         if (img.dataset.fallbackClass) img.classList.add(img.dataset.fallbackClass);
         return;
     }
-    (img.closest('a') ?? img).style.display = 'none';
+    (img.closest('[data-preview-box]') ?? img.closest('a') ?? img).style.display = 'none';
 }
 
 // Внешние карты события для показа: файлы из поля maps, затем карты O-Stuff из o_stuff.

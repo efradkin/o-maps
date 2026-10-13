@@ -59,6 +59,17 @@
         @media screen and (max-width: 600px) {
             #event_map { height: 280px; }
         }
+        /* раздел «Карты», несколько карт: превью каждой карты рядом с её названием;
+           высота превью ограничена, пропорции сохраняются, по ширине - не больше
+           столбца (полоса O-Stuff 400x100 при этом уменьшается) */
+        #ev_maps .ev-map-row .help-figure {
+            max-height: 120px;
+            width: auto;
+            height: auto;
+        }
+        #ev_maps .ev-map-row .help-figure[data-ostuff] { max-height: 100px; }
+        #ev_maps .ev-map-row p:last-child { margin-bottom: 0; }
+        #ev_maps .ev-map-row + .ev-map-row, #ev_maps p + .ev-map-row { margin-top: 12px; }
     </style>
 </head>
 <body class="index-body help-body stat-body event-body">
