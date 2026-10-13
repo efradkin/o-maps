@@ -263,7 +263,7 @@
                 elTile.innerHTML = `
                     <div class="start-map-box align-items-center d-flex justify-content-center">
                         <div>
-                            <a href="${t.url}" target="_blank"><img src="${img}" title="${title}" loading="lazy"${t.preview ? '' : ' class="start-map-file-icon"'}${attrs} /></a>
+                            <a href="${t.url}" target="_blank"${noReferrerRel(t.url)}><img src="${img}" title="${title}" loading="lazy"${t.preview ? '' : ' class="start-map-file-icon"'}${attrs} /></a>
                             <div class="start-map-box-description">${title}</div>
                         </div>
                     </div>

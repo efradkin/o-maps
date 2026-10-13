@@ -410,10 +410,10 @@ function buildStartExtMapSection(x) {
     let html = '';
     if (x.preview) {
         const title = x.ostuff === undefined ? 'Полноразмер' : x.title;
-        html += `<a href="${x.url}" target="_blank" title="${title}"><img src="${x.preview}" loading="lazy" class="help-figure help-figure-right start-map-figure" alt="Карта"${externalMapPreviewAttrs(x)} /></a>`;
+        html += `<a href="${x.url}" target="_blank" title="${title}"${noReferrerRel(x.url)}><img src="${x.preview}" loading="lazy" class="help-figure help-figure-right start-map-figure" alt="Карта"${externalMapPreviewAttrs(x)} /></a>`;
     }
     const mark = x.ostuff === undefined ? '🗺️' : `<img src="${O_STUFF_ICON}" alt="O-Stuff" class="sheet-icon" />`;
-    html += `<h3>${mark} <a href="${x.url}" target="_blank">${x.evt.name}: ${x.label}</a></h3>`;
+    html += `<h3>${mark} <a href="${x.url}" target="_blank"${noReferrerRel(x.url)}>${x.evt.name}: ${x.label}</a></h3>`;
     let eventLine = buildEventDescription(x.evt, true);
     if (x.evt.id) {
         eventLine += ` <a href="#${x.evt.id}" title="Событие на этой странице">↑</a>`;

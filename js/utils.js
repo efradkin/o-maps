@@ -817,7 +817,7 @@ function buildOneLink(link, content, title, isDownload) {
         if (title) {
             title = ' title="' + title + '"';
         }
-        return `<a href="${link}" ${(title ?? '')} ${(isDownload ? 'download' : '')}>${content}</a>`;
+        return `<a href="${link}" ${(title ?? '')} ${(isDownload ? 'download' : '')}${noReferrerRel(link)}>${content}</a>`;
     }
     else
         return '';
@@ -2334,6 +2334,20 @@ function externalMapIcon(url) {
     return './images/' + (icons[ext] ?? 'url-file.png');
 }
 
+// Адреса, на которые не передаём Referer (временно, по согласованию с владельцем O-Stuff):
+// блокировщик ботов на o-stuff.net отбрасывает запросы со страниц сайтов *.spb.ru.
+// Ссылкам - rel="noreferrer" (noReferrerRel), картинкам - referrerpolicy="no-referrer".
+const NO_REFERRER_URL = /^https?:\/\/([a-z0-9-]+\.)*o-stuff\.net(\/|$)/i;
+
+function isNoReferrerUrl(url) {
+    return NO_REFERRER_URL.test(String(url ?? ''));
+}
+
+// Атрибут rel="noreferrer" для ссылки на такой адрес, иначе пусто.
+function noReferrerRel(url) {
+    return isNoReferrerUrl(url) ? ' rel="noreferrer"' : '';
+}
+
 // Карты архива maps.o-stuff.net - поле o_stuff события: номер карты или массив номеров.
 // Ссылка ведёт на страницу карты на O-Stuff, превью - маленькая картинка N.thumbnail.<ext>.
 const O_STUFF_MAP_PAGE = 'https://maps.o-stuff.net/ru/show_map.php?map=';
@@ -2394,7 +2408,7 @@ function getEventExternalMapItems(evt) {
 // при ошибке (oStuffThumbError) и запасная картинка fallback с классом fallbackClass.
 function externalMapPreviewAttrs(item, fallback, fallbackClass) {
     if (item.ostuff === undefined) return '';
-    return ` data-ostuff="${item.ostuff}" onerror="oStuffThumbError(this)"` +
+    return ` data-ostuff="${item.ostuff}" referrerpolicy="no-referrer" onerror="oStuffThumbError(this)"` +
         (fallback ? ` data-fallback="${fallback}"` : '') +
         (fallbackClass ? ` data-fallback-class="${fallbackClass}"` : '');
 }

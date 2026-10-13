@@ -181,7 +181,8 @@
         const icon = d.img ? `<img src="${esc(d.img)}" alt="" class="sheet-icon" onerror="this.remove()"> ` : (d.emoji ? d.emoji + ' ' : '');
         const title = d.title ? ` title="${esc(d.title)}"` : '';
         const klass = cls ? ` class="${cls}"` : '';
-        return `<a${klass} href="${esc(d.href)}" target="_blank" rel="noopener"${title}>${icon}${esc(d.label)}</a>`;
+        const rel = isNoReferrerUrl(d.href) ? 'noopener noreferrer' : 'noopener';
+        return `<a${klass} href="${esc(d.href)}" target="_blank" rel="${rel}"${title}>${icon}${esc(d.label)}</a>`;
     }
 
     // Список ссылок -> пилюли; одинаковые подписи нумеруются («YouTube 2»).
@@ -663,7 +664,7 @@
             lines.push(row('', chip({ href: x.url, label: x.label, img: x.icon, title: x.title })));
             if (x.preview) previews.push({ href: x.url, m: { url: x.preview, name: x.label }, external: true, attrs: externalMapPreviewAttrs(x), strip: x.ostuff !== undefined });
         }
-        const img = (p, cls, extra) => `<a href="${esc(p.href)}" ${p.external ? 'target="_blank" rel="noopener"' : 'target="_self"'}><img src="${esc(p.m.url)}" loading="lazy" class="${cls}" alt="${esc(p.m.name ?? 'Карта')}"${extra ?? ''}${p.attrs ?? ''}></a>`;
+        const img = (p, cls, extra) => `<a href="${esc(p.href)}" ${p.external ? `target="_blank" rel="noopener${isNoReferrerUrl(p.href) ? ' noreferrer' : ''}"` : 'target="_self"'}><img src="${esc(p.m.url)}" loading="lazy" class="${cls}" alt="${esc(p.m.name ?? 'Карта')}"${extra ?? ''}${p.attrs ?? ''}></a>`;
         let html;
         if (previews.length === 1) {
             html = `<div class="row"><div class="col-sm-5 col-lg-3 mb-3">${img(previews[0], 'help-figure mw-100')}</div>` +
