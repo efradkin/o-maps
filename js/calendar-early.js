@@ -3105,7 +3105,12 @@ let eventsEarly = [
         place: 'Лесколово',
         name: 'Осенний Марш-бросок (ОМБ)',
         start: 'MB',
-        map: 'leskolovo_mb_2000'
+        map: 'leskolovo_mb_2000',
+        maps: [
+            'https://kandid.ru/maps00/map_day.jpg',
+            'https://kandid.ru/maps00/map_night.jpg',
+            'https://kandid.ru/maps00/sport_map.jpg'
+        ]
     },
     {
         id: 'SPB_20010610_1',
@@ -3298,6 +3303,11 @@ let eventsEarly = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'cherkasovo_mb_2003'
+        map: 'cherkasovo_mb_2003',
+        maps: [
+            'https://kandid.ru/maps03/map1.jpg',
+            'https://kandid.ru/maps03/map2.jpg',
+            'https://kandid.ru/maps03/map3.jpg'
+        ]
     }
 ];

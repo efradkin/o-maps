@@ -63,7 +63,11 @@ let otherEvents2026 = [
     fmt: '42, 10',
     logo: 'wn_marathon.gif',
     track: 'spb_wn_2025_42km',
-    strava: 19179943647
+    strava: 19179943647,
+    maps: [
+        'https://runc.run/uploads/page_section_card_files/16062026_WN_Route_422_ru.png',
+        'https://runc.run/uploads/page_section_card_files/180626_WNM2026_Route_10km_ru.png'
+    ]
 },
 {
     id: 'OTHER_20260809_1',
@@ -74,6 +78,10 @@ let otherEvents2026 = [
     type: 'RUN',
     fmt: '21, 10',
     owner: 'RUNC',
+    maps: [
+        'https://runc.run/uploads/page_section_card_files/072026_SpbHalf_Route_10km_ru.png',
+        'https://runc.run/uploads/page_section_card_files/072026_SpbHalf_Route_21km_ru.png'
+    ]
 },
 {
     id: 'OTHER_20260906_1',

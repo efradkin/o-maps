@@ -739,7 +739,10 @@ let fsorEvents = [
             'https://rutube.ru/video/99a5e9f2fc871524d938a8f5c11a6c57/',
             'https://www.youtube.com/watch?v=8oCXoNJRvxo'
         ],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://rufso.ru/wp-content/uploads/2019/10/1997_0_compressed.pdf', // Азимут №0'97, PDF стр. 8–9 (журн. с. 12–15)
+        ]
     },
     {
         id: 'MAJOR_19960905_2',
@@ -791,7 +794,10 @@ let fsorEvents = [
         ],
         fmt: 'короткая, классика, эстафета',
         coord: [44.13333, 43.03333],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://rufso.ru/wp-content/uploads/2019/10/1998_1_compressed.pdf', // Азимут №1'98, PDF стр. 14–15 (журн. с. 24–27)
+        ]
     },
     {
         id: 'SPB_19980218_1',
@@ -853,7 +859,10 @@ let fsorEvents = [
         info: 'Победитель у мужчин — Михаил Мамлеев (Санкт-Петербург).',
         link: 'https://o-site.spb.ru/history/History/lso.html',
         coord: [44.561, 38.07695],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://rufso.ru/wp-content/uploads/2019/10/1998_2_compressed.pdf', // Азимут №2'98, PDF стр. 13 (журн. с. 22–23), «Самый тихий старт»
+        ]
     },
     {
         id: 'MAJOR_19990527_1',
@@ -879,7 +888,10 @@ let fsorEvents = [
         fmt: 'спринт, эстафета 3х, классика',
         res: 'https://o-site.spb.ru/history/Sum-1999/russia99.html',
         coord: [53.51667, 49.41667],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://rufso.ru/wp-content/uploads/2019/10/1999_5_compressed.pdf', // Азимут №5'99, PDF стр. 11–12 (журн. с. 18–21)
+        ]
     },
     {
         id: 'MAJOR_20000215_1',
@@ -909,7 +921,10 @@ let fsorEvents = [
         fmt: 'спринт, классика',
         res: 'https://o-site.spb.ru/history/Sum-2000/ples.html',
         coord: [57.45, 41.5],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://rufso.ru/wp-content/uploads/2019/10/2000_2_compressed.pdf', // Азимут №2'2000, PDF стр. 6–7 (журн. с. 8–11)
+        ]
     },
     {
         id: 'MAJOR_20000817_1',
@@ -1116,7 +1131,10 @@ let fsorEvents = [
         fmt: 'one-man-relay, короткая, эстафета 3х, классика',
         res: 'https://o-site.spb.ru/history/Sum-2003/smolensk.html',
         coord: [55.50963, 31.83406],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://rufso.ru/wp-content/uploads/2019/11/2003_3_compressed.pdf', // Азимут №3'2003, PDF стр. 12 (журн. с. 20–21)
+        ]
     },
     {
         id: 'SPB_20040201_1',
@@ -1257,7 +1275,10 @@ let fsorEvents = [
         fmt: 'средняя',
         res: 'https://o-site.spb.ru/history/Sum-2004/nn.html',
         o_stuff: 6261,
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://rufso.ru/wp-content/uploads/2018/08/2005№1-ЧР2004.pdf', // Азимут 2005 №1, статья о финале ЧР-2004: карты средней дистанции МЭ и ЖЭ
+        ]
     },
     {
         id: 'MAJOR_20040923_1',
@@ -1516,7 +1537,11 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел., марафон, комбинация, эстафета 3 чел.',
         coord: [54.73333, 55.96667],
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://moscompass.ru/news/2006/f2/4.jpg',
+            'https://moscompass.ru/news/2006/f2/5.jpg'
+        ]
     },
     {
         id: 'MAJOR_20060308_2',
@@ -2451,7 +2476,11 @@ let fsorEvents = [
         info: 'М: Сергей Детков (Новгородская обл.) - 1, Алексей Сидоров (Респ. Татарстан) - 2, Алексей Бортник (Москва) - 3; Ж: Татьяна Яксанова (Ивановская обл.) - 1, Юлия Новикова (Новгородская обл.) - 2, Наталья Виноградова (Москва) - 3.',
         fmt: 'общий старт',
         res: 'https://moscompass.ru/news/2010/20100909.htm',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://moscompass.ru/news/2010/20100909_ME.jpg',
+            'https://moscompass.ru/news/2010/20100909_DE.jpg'
+        ]
     },
     {
         id: 'MAJOR_20100910_1',
@@ -2461,7 +2490,10 @@ let fsorEvents = [
         info: 'М: Алексей Бортник (Москва) - 1, Денис Гришман (Респ. Карелия) - 2, Юрий Кирьянов (Ленинградская обл.) - 3; Ж: Юлия Новикова (Новгородская обл.) - 1, Галина Виноградова (Алтайский край) - 2, Татьяна Яксанова (Ивановская обл.) - 3.',
         fmt: 'выбор',
         res: 'https://moscompass.ru/news/2010/20100910.htm',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://moscompass.ru/news/2010/20100910.jpg'
+        ]
     },
     {
         id: 'MAJOR_20100912_1',
@@ -2471,7 +2503,10 @@ let fsorEvents = [
         info: 'МЖ: Новгородская обл. (Иван Никитин, Екатерина Попович, Сергей Детков, Юлия Новикова) - 1, Москва (Александр Минаков, Екатерина Терехова, Роман Ефимов, Наталья Коржова) - 2, Москва (Роман Ряполов, Анастасия Трубкина, Алексей Бортник, Наталья Виноградова) - 3.',
         fmt: 'эстафета 4 чел. (2М+2Ж)',
         res: 'https://moscompass.ru/news/2010/20100912.htm',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://moscompass.ru/news/2010/20100912.jpg'
+        ]
     },
     {
         id: 'MAJOR_20100913_1',
@@ -2481,7 +2516,11 @@ let fsorEvents = [
         info: 'М: Москва (Роман Ефимов, Роман Ряполов, Алексей Бортник) - 1, Воронежская обл. (Максим Сычев, Александр Харченко, Александр Щербаков) - 2, Краснодарский край (Максим Нарватов, Сергей Боровков, Роман Бондаренко) - 3; Ж: Новгородская обл. (Екатерина Попович, Алия Ситдикова, Юлия Новикова) - 1, Москва (Анастасия Трубкина, Наталья Виноградова, Наталья Коржова) - 2, Московская обл. (Татьяна Розова, Маргарита Молоткова, Татьяна Мендель) - 3.',
         fmt: 'эстафета 3 чел.',
         res: 'https://moscompass.ru/news/2010/20100913.htm',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://moscompass.ru/news/2010/20100913_M.jpg',
+            'https://moscompass.ru/news/2010/20100913_D.jpg'
+        ]
     },
     {
         id: 'MAJOR_20100914_1',
@@ -2491,7 +2530,15 @@ let fsorEvents = [
         info: 'М: Александр Минаков (Москва) - 1, Роман Ряполов (Москва) - 2, Алексей Сидоров (Респ. Татарстан) - 3; Ж: Анастасия Трубкина (Москва) - 1, Юлия Новикова (Новгородская обл.) - 2, Татьяна Яксанова (Ивановская обл.) - 3.',
         fmt: 'марафон',
         res: 'https://moscompass.ru/news/2010/20100914.htm',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://moscompass.ru/news/2010/20100914_MA.jpg',
+            'https://moscompass.ru/news/2010/20100914_MB.jpg',
+            'https://moscompass.ru/news/2010/20100914_MC.jpg',
+            'https://moscompass.ru/news/2010/20100914_DA.jpg',
+            'https://moscompass.ru/news/2010/20100914_DB.jpg',
+            'https://moscompass.ru/news/2010/20100914_DC.jpg'
+        ]
     },
     {
         id: 'MAJOR_20101219_1',
@@ -2509,7 +2556,10 @@ let fsorEvents = [
         res: 'https://moscompass.ru/news/2010/20101219.htm',
         coord: [57.15, 65.53333],
         video: 'https://www.youtube.com/watch?v=gBE2hJTmuHE',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://web.archive.org/web/20130930120548id_/http://o-mephi.net/cup/prot/cont20101219_1.gif'
+        ]
     },
     {
         id: 'MAJOR_20110224_1',
@@ -2638,7 +2688,19 @@ let fsorEvents = [
         ],
         coord: [55.66864, 60.36021],
         video: 'https://www.youtube.com/watch?v=c_1y-z38saQ',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://o-ural.ru/2011_may_roc/maps/class_q_ma.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/class_q_mb.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/class_q_mc.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/class_q_da.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/class_q_db.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/cross_q_MA.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/cross_q_MB.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/cross_q_MC.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/cross_q_DA.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/cross_q_DB.jpg'
+        ]
     },
     {
         id: 'MAJOR_20110522_1',
@@ -2648,7 +2710,15 @@ let fsorEvents = [
         info: 'М: Алексей Бортник (Москва) - 1, Андрей Храмов (Новгородская обл.) - 2, Валентин Новиков (Белгородская обл.) - 3; Ж: Наталья Виноградова (Москва) - 1, Татьяна Рябкина (Москва) - 2, Светлана Миронова (Нижегородская обл.) - 3.',
         fmt: 'лонг',
         res: 'https://o-ural.ru/anews/2011/110522_v.htm',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://o-ural.ru/2011_may_roc/maps/cross_map_lap1_m.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/cross_map_lap2_ma.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/cross_map_lap2_mb.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/cross_map_lap1_d.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/cross_map_lap2_da.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/cross_map_lap2_db.jpg'
+        ]
     },
     {
         id: 'MAJOR_20110523_1',
@@ -2658,7 +2728,11 @@ let fsorEvents = [
         info: 'М: Андрей Храмов (Новгородская обл.) - 1, Валентин Новиков (Белгородская обл.) - 2, Алексей Бортник (Москва) - 3; Ж: Татьяна Рябкина (Москва) - 1, Юлия Новикова (Новгородская обл.) - 2, Галина Виноградова (Алтайский край) - 3.',
         fmt: 'классика',
         res: 'https://o-ural.ru/anews/2011/110523_v.htm',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://o-ural.ru/2011_may_roc/maps/class_m.jpg',
+            'https://o-ural.ru/2011_may_roc/maps/class_d.jpg'
+        ]
     },
     {
         id: 'MAJOR_20110524_1',
@@ -2737,7 +2811,10 @@ let fsorEvents = [
             'http://o-sport.ru/temp/2011/20110613_110613final.pdf'
         ],
         coord: [60.7105, 28.74978],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://i1119.photobucket.com/albums/k624/EmmaBaut/33018ed4.jpg'
+        ]
     },
     {
         id: 'MAJOR_20110830_1',
@@ -2764,7 +2841,11 @@ let fsorEvents = [
         info: 'М: Андрей Храмов (Новгородская обл.) - 1, Алексей Бортник (Москва) - 2, Леонид Новиков (Белгородская обл.) - 3; Ж: Наталья Коржова (Москва) - 1, Юлия Новикова (Новгородская обл.) - 2, Светлана Миронова (Нижегородская обл.) - 3.',
         fmt: 'общий старт',
         res: 'https://o-ural.ru/anews/2011/110830.htm',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://o-ural.ru/imgs/2011/110830-w.jpg',
+            'https://o-ural.ru/imgs/2011/110830-m.jpg'
+        ]
     },
     {
         id: 'MAJOR_20110831_1',
@@ -2774,7 +2855,10 @@ let fsorEvents = [
         info: 'М: Алексей Бортник (Москва) - 1, Андрей Храмов (Новгородская обл.) - 2, Роман Ряполов (Москва) - 3; Ж: Юлия Новикова (Новгородская обл.) - 1, Наталья Коржова (Москва) - 2, Анастасия Тихонова (Ленинградская обл.) - 3.',
         fmt: 'выбор',
         res: 'https://o-ural.ru/anews/2011/110831.htm',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://o-ural.ru/imgs/2011/110831-vybor.jpg'
+        ]
     },
     {
         id: 'MAJOR_20110902_1',
@@ -2784,7 +2868,11 @@ let fsorEvents = [
         info: 'МЖ: Новгородская обл. (Екатерина Попович, Юлия Новикова, Сергей Детков, Андрей Храмов) - 1, Москва (Наталья Виноградова, Наталья Коржова, Роман Ряполов, Алексей Бортник) - 2, Москва (Анастасия Трубкина, Ирина Нюберг, Александр Минаков, Роман Ефимов) - 3.',
         fmt: 'эстафета 4 чел. (2М+2Ж)',
         res: 'https://o-ural.ru/anews/2011/110902.htm',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://o-ural.ru/imgs/2011/110902-w.jpg',
+            'https://o-ural.ru/imgs/2011/110902-m.jpg'
+        ]
     },
     {
         id: 'MAJOR_20110903_1',
@@ -2794,7 +2882,11 @@ let fsorEvents = [
         info: 'М: Воронежская обл. (Павел Заревенко, Максим Сычев, Александр Щербаков) - 1, Новгородская обл. (Иван Никитин, Сергей Детков, Андрей Храмов) - 2; Ж: Москва (Анастасия Трубкина, Наталья Коржова, Наталья Виноградова) - 1, Новгородская обл. (Ольга Глебова, Екатерина Попович, Юлия Новикова) - 3.',
         fmt: 'эстафета 3 чел.',
         res: 'https://o-ural.ru/anews/2011/110903.htm',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://o-ural.ru/imgs/2011/110903_w.jpg',
+            'https://o-ural.ru/imgs/2011/110903_m.jpg'
+        ]
     },
     {
         id: 'MAJOR_20111015_1',
@@ -3270,7 +3362,11 @@ let fsorEvents = [
             'https://www.orientpskov.ru/uploads/files/fsplits.htm',
             'https://www.orientpskov.ru/uploads/files/resProlog.pdf'
         ],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/kuzmolovo110/27240989/101764/101764_original.jpg',
+            'https://ic.pics.livejournal.com/kuzmolovo110/27240989/102465/102465_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20130519_1',
@@ -3284,7 +3380,13 @@ let fsorEvents = [
             'https://www.orientpskov.ru/uploads/files/res_komprolog.htm',
             'https://www.orientpskov.ru/uploads/files/split_komprolog.htm'
         ],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/kuzmolovo110/27240989/102911/102911_original.jpg',
+            'https://ic.pics.livejournal.com/kuzmolovo110/27240989/103139/103139_original.jpg',
+            'https://ic.pics.livejournal.com/kuzmolovo110/27240989/103656/103656_original.jpg',
+            'https://ic.pics.livejournal.com/kuzmolovo110/27240989/103862/103862_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20130626_1',
@@ -3301,7 +3403,14 @@ let fsorEvents = [
         res: 'https://moscompass.ru/news/2013/20130630_kom.xlsx',
         coord: [54.46667, 53.46667],
         video: 'https://www.youtube.com/watch?v=OwzskJlYOIs',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://web.archive.org/web/20140829203149id_/http://cuberussia.ru/f/upload/images/mtbo_2.jpg',
+            'https://web.archive.org/web/20140830030641id_/http://cuberussia.ru/f/upload/images/mtbo_4.jpg',
+            'https://web.archive.org/web/20140830025507id_/http://cuberussia.ru/f/upload/images/mtbo_5.jpg',
+            'https://web.archive.org/web/20140829203226id_/http://cuberussia.ru/f/upload/images/mtbo_7.jpg',
+            'https://web.archive.org/web/20140830030726id_/http://cuberussia.ru/f/upload/images/mtbo_8.jpg'
+        ]
     },
     {
         id: 'MAJOR_20130627_1',
@@ -3493,6 +3602,7 @@ let fsorEvents = [
         fmt: 'классика, общий старт, классика, лонг, многодневный',
         bulletin: 'http://o-saratov.narod.ru/rossiya_2014/info_2.pdf',
         res: 'http://o-saratov.narod.ru/rossiya_2014/rossiya_2014.htm',
+        gps: 'https://o-saratov.narod.ru/rossiya_2014/puti.zip', // пути призёров, все дни
         coord: [52.48333, 48.1],
         start: 'RUS'
     },
@@ -3565,7 +3675,10 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://moscompass.ru/news/2014/20140702velo.htm',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://img-fotki.yandex.ru/get/6810/565051.d/0_d1e1d_b568e059_orig'
+        ]
     },
     {
         id: 'MAJOR_20140703_1',
@@ -3628,7 +3741,10 @@ let fsorEvents = [
         info: 'М: Валентин Новиков (Новгородская обл.) - 1, Андрей Храмов (Новгородская обл.) - 2, Андрей Козырев (Нижегородская обл.) - 3; Ж: Галина Виноградова (Алтайский край) - 1, Светлана Миронова (Нижегородская обл.) - 2, Татьяна Рябкина (Новгородская обл.) - 3.',
         fmt: 'лонг, общий старт',
         res: 'https://moscompass.ru/news/2014/20141105res1day.htm',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://rufso.ru/wp-content/uploads/2018/08/2015№1-ЧР2014-в-Железноводске.pdf', // Статья журнала «Соревнования»; на стр. 1 карта общего старта-кросса 05.11.2014
+        ]
     },
     {
         id: 'MAJOR_20141106_1',
@@ -3742,7 +3858,12 @@ let fsorEvents = [
             './docs/2015/2015_02_01_kotovsk_russia_champ_team_omaps.pdf'
         ],
         coord: [52.58333, 41.5],
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'http://ic.pics.livejournal.com/leaorient/72805976/13456/13456_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/12989/12989_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/13143/13143_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20150202_1',
@@ -3818,7 +3939,12 @@ let fsorEvents = [
         fmt: 'общий старт',
         res: 'https://moscompass.ru/news/2015/20150303f.htm',
         o_stuff: [774, 775, 776],
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/275837/275837_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/276163/276163_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/276447/276447_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20150304_1',
@@ -3830,7 +3956,10 @@ let fsorEvents = [
         fmt: 'классика',
         res: 'https://moscompass.ru/news/2015/20150304f.htm',
         o_stuff: 773,
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/275620/275620_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20150305_1',
@@ -3841,7 +3970,10 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 3 чел.',
         res: 'https://moscompass.ru/news/2015/20150305f.htm',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/274480/274480_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20150307_1',
@@ -3852,7 +3984,11 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'марафон',
         res: 'https://moscompass.ru/news/2015/20150307f.htm',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/274906/274906_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/275152/275152_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20150522_1',
@@ -3940,7 +4076,10 @@ let fsorEvents = [
         fmt: 'лонг',
         res: 'https://rufso.orgeo.ru/result/view/2031/s/2',
         o_stuff: 862,
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'http://news.worldofo.com/wp-content/uploads/rg15/russianchampionshipslong_h21e_3.jpg'
+        ]
     },
     {
         id: 'MAJOR_20150707_1',
@@ -3960,7 +4099,15 @@ let fsorEvents = [
         res: 'https://web.archive.org/web/20150815125700/http://school-12.ru/rezultaty-sorevnovanij-velo-2015',
         coord: [57.14417, 43.1625],
         video: 'https://www.youtube.com/watch?v=NGjWQ9CUSLc',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'http://ic.pics.livejournal.com/leaorient/72805976/27059/27059_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/27167/27167_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/28319/28319_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/29553/29553_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/31019/31019_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/31589/31589_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20150708_1',
@@ -4193,7 +4340,10 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'спринт',
         res: 'https://rufso.orgeo.ru/result/view/2467/s/1',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/36205/36205_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20151216_1',
@@ -4204,7 +4354,11 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг',
         res: 'https://rufso.orgeo.ru/result/view/2467/s/2',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/36358/36358_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/36744/36744_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20151217_1',
@@ -4215,7 +4369,10 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'многодневная',
         res: 'https://web.archive.org/web/20160207095745/http://fsorb.ru/prezidium/sportivno-tehnicheskaya-kommisiya/pr-kr-chr-vs-2015-oktyabrskii/komplekt-protokolov-chr-i-vs-15-17-12.15',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/37289/37289_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20160221_1',
@@ -4227,7 +4384,15 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, эстафета, маркированная трасса 3 чел., комбинация',
         coord: [56.36056, 41.31972],
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'http://ic.pics.livejournal.com/leaorient/72805976/40106/40106_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/40378/40378_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/40513/40513_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/40849/40849_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/41117/41117_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/41366/41366_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20160221_2',
@@ -4637,7 +4802,19 @@ let fsorEvents = [
         fmt: 'спринт, лонг, многодневная',
         coord: [55.16667, 59.66667],
         video: 'https://www.youtube.com/watch?v=dhZwqyQo5Xo',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'http://ic.pics.livejournal.com/leaorient/72805976/47109/47109_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/47435/47435_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/47735/47735_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/48076/48076_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/48169/48169_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/48436/48436_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/48721/48721_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/49133/49133_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/54926/54926_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/55050/55050_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20161212_2',
@@ -4699,7 +4876,14 @@ let fsorEvents = [
         start: 'SKI_RUS',
         o_gps: {
             '04-М': 1739
-        }
+        },
+        maps: [
+            'http://ic.pics.livejournal.com/leaorient/72805976/55592/55592_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/56007/56007_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/61555/61555_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/57127/57127_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/57063/57063_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20170202_2',
@@ -4885,7 +5069,14 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел., спринт, лонг',
         coord: [56.36056, 41.31972],
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'http://ic.pics.livejournal.com/leaorient/72805976/82430/82430_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/82494/82494_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/82805/82805_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/83052/83052_original.jpg',
+            'http://ic.pics.livejournal.com/leaorient/72805976/86030/86030_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20170622_2',
@@ -4956,7 +5147,10 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Велокросс-эстафета-3-человека.pdf',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/93531/93531_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20170912_1',
@@ -4968,7 +5162,12 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Велокросс-общий-старт.pdf',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/93901/93901_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/94089/94089_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/94698/94698_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20170913_1',
@@ -4980,7 +5179,10 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2017/12/ЧР-Велокросс-классика.pdf',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/94911/94911_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20170914_1',
@@ -5203,7 +5405,10 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://rufso.ru/wp-content/uploads/2018/03/ЧР-Лыжная-гонка-МТ.pdf',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/152504/152504_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20180307_1',
@@ -5215,7 +5420,10 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2018/03/ЧР-Лыжная-гонка-эстафета-МТ.pdf',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/152707/152707_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20180308_1',
@@ -5227,7 +5435,11 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://rufso.ru/wp-content/uploads/2018/03/ЧР-Лыжная-гонка-комбинация.pdf',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/153017/153017_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/153253/153253_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20180309_1',
@@ -5239,7 +5451,13 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2018/03/ЧР-Лыжная-гонка-лонг-общий-старт.pdf',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/153540/153540_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/153731/153731_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/154057/154057_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/154178/154178_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20180316_1',
@@ -5404,7 +5622,11 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2018/07/ЧР-Велокросс-эстафета-2-человека-1.pdf',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/189980/189980_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/190321/190321_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20180707_1',
@@ -5416,7 +5638,10 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2018/07/ЧР-Велокросс-спринт-1.pdf',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/190630/190630_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20180708_1',
@@ -5429,7 +5654,11 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2018/07/ЧР-Велокросс-лонг-1.pdf',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/190739/190739_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/191094/191094_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20180922_1',
@@ -5650,7 +5879,11 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://rufso.ru/wp-content/uploads/2019/03/ЧР-ЛГ-МТ.pdf',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/204996/204996_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/205242/205242_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20190222_1',
@@ -5662,7 +5895,10 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2019/03/ЧР-ЛГ-эстафета-МТ-3-человека.pdf',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/205506/205506_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20190223_1',
@@ -5675,7 +5911,11 @@ let fsorEvents = [
         fmt: 'комбинация',
         res: 'https://rufso.ru/wp-content/uploads/2019/03/ЧР-ЛГ-комбинация.pdf',
         photo: 'https://vk.com/album-169497358_261103005',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/205863/205863_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/205704/205704_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20190224_1',
@@ -5687,7 +5927,12 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'лонг, общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2019/03/ЧР-ЛГ-лонг-общий-старт.pdf',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/206095/206095_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/206719/206719_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/206349/206349_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20190329_1',
@@ -5798,8 +6043,11 @@ let fsorEvents = [
         ],
         o_site: '190524chRF',
         reskeep: [138, 139, 140],
-        start: ['RUS','RUS_2019'],
-        map: ['kuznechnoe_travkino_2019_05_24','kuznechnoe_suuri_2019']
+        start: ['RUS','RUSSIA_2019'],
+        map: ['kuznechnoe_travkino_2019_05_24','kuznechnoe_suuri_2019'],
+        maps: [
+            'https://o-site.spb.ru/_races/190524chRF/190523_map.pdf'
+        ]
     },
     {
         id: 'SPB_20190524_2',
@@ -5810,7 +6058,7 @@ let fsorEvents = [
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2019/06/ЧР-классика.pdf',
         o_stuff: [2954, 2960],
-        start: ['RUS','RUS_2019']
+        start: ['RUS','RUSSIA_2019']
     },
     {
         id: 'SPB_20190526_3',
@@ -5821,7 +6069,7 @@ let fsorEvents = [
         fmt: 'многодневный',
         res: 'https://rufso.ru/wp-content/uploads/2019/06/ЧР-многодневный.pdf',
         o_stuff: [2963, 2958],
-        start: ['RUS','RUS_2019']
+        start: ['RUS','RUSSIA_2019']
     },
     {
         id: 'SPB_20190628_2',
@@ -5941,7 +6189,10 @@ let fsorEvents = [
         fmt: 'общий старт, эстафета 3 чел., классика',
         coord: [56.36056, 41.31972],
         photo: 'https://vk.com/album-159867921_266133387',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            // 'https://www.dropbox.com/sh/tbk85be4r30af40/AACrN32Al3rVuR5tGjEBymMfa?dl=0', // папка Dropbox автора отчёта «Мои карты» (все дни ЧР Ковров 2019)
+        ]
     },
     {
         id: 'MAJOR_20190830_2',
@@ -5954,7 +6205,11 @@ let fsorEvents = [
         fmt: 'общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2019/09/1-ВК-Общий-старт-_-Чемпионат.pdf',
         o_stuff: 3131,
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/238487/238487_800.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/238823/238823_800.jpg'
+        ]
     },
     {
         id: 'MAJOR_20190831_1',
@@ -5967,7 +6222,10 @@ let fsorEvents = [
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2019/09/2-ВК-Эстафета-3-чел-_-Чемпионат.pdf',
         o_stuff: 3132,
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/237404/237404_800.jpg'
+        ]
     },
     {
         id: 'MAJOR_20190901_1',
@@ -5980,7 +6238,10 @@ let fsorEvents = [
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2019/09/3-ВК-Классика-_-Чемпионат.pdf',
         o_stuff: 3133,
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/244897/244897_2000.jpg'
+        ]
     },
     {
         id: 'SPB_20190904_1',
@@ -6328,7 +6589,10 @@ let fsorEvents = [
             '19-Ж': 8188,
             '20-М': 8189,
             '20-Ж': 8190
-        }
+        },
+        maps: [
+            // 'https://www.dropbox.com/sh/dqq8rrz44geg912/AADhdmqu_1pAOc97A0D9HU_qa?dl=0', // папка Dropbox «Мои карты (в оригинале)», ЧР МТБО Томилино 2020
+        ]
     },
     {
         id: 'MAJOR_20200920_1',
@@ -6341,7 +6605,13 @@ let fsorEvents = [
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2020/09/Классика.pdf',
         photo: 'https://vk.com/album-181722204_273404148',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/321876/321876_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/326255/326255_800.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/326457/326457_800.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/326791/326791_800.jpg'
+        ]
     },
     {
         id: 'MAJOR_20200919_1',
@@ -6354,7 +6624,12 @@ let fsorEvents = [
         fmt: 'эстафета 3 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2020/09/Эстафета.pdf',
         photo: 'https://vk.com/album-181722204_273418852',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/328114/328114_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/328369/328369_800.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/328605/328605_800.jpg'
+        ]
     },
     {
         id: 'MAJOR_20200918_2',
@@ -6367,7 +6642,15 @@ let fsorEvents = [
         fmt: 'общий старт',
         res: 'https://rufso.ru/wp-content/uploads/2020/09/Общий-старт.pdf',
         photo: 'https://vk.com/album-181722204_273458800',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/335947/335947_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/336230/336230_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/336496/336496_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/338490/338490_800.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/339266/339266_800.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/340189/340189_800.jpg'
+        ]
     },
     {
         id: 'SPB_20200926_2',
@@ -6389,7 +6672,7 @@ let fsorEvents = [
         },
         video: 'https://www.youtube.com/watch?v=fQJcSSgX7e0',
         reskeep: [371, 372],
-        start: ['RUS_2020','RUS']
+        start: ['RUSSIA_2020','RUS']
     },
     {
         id: 'SPB_20200925_1',
@@ -6400,7 +6683,7 @@ let fsorEvents = [
         fmt: 'эстафета 4 чел. (2М+2Ж)',
         res: 'https://rufso.ru/wp-content/uploads/2020/10/1-день.pdf',
         photo: 'https://vk.com/album-181722204_273514548',
-        start: ['RUS_2020','RUS']
+        start: ['RUSSIA_2020','RUS']
     },
     {
         id: 'SPB_20200926_7',
@@ -6412,7 +6695,7 @@ let fsorEvents = [
         res: 'https://rufso.ru/wp-content/uploads/2020/10/2-день.pdf',
         photo: 'https://vk.com/album-181722204_273531639',
         video: 'https://www.youtube.com/watch?v=MDobTDBZB-A',
-        start: ['RUS_2020','RUS']
+        start: ['RUSSIA_2020','RUS']
     },
     {
         id: 'SPB_20200927_3',
@@ -6424,7 +6707,7 @@ let fsorEvents = [
         res: 'https://rufso.ru/wp-content/uploads/2020/10/3-день.pdf',
         photo: 'https://vk.com/album-181722204_273574945',
         video: 'https://www.youtube.com/watch?v=kZ3D7hsJGCs',
-        start: ['RUS_2020','RUS']
+        start: ['RUSSIA_2020','RUS']
     },
     {
         id: 'MAJOR_20201017_1',
@@ -6532,7 +6815,13 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2020/12/велокросс-спринт.pdf',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/351202/351202_800.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/359965/359965_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/360416/360416_800.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/360638/360638_800.jpg'
+        ]
     },
     {
         id: 'MAJOR_20201121_1',
@@ -6544,7 +6833,13 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2020/12/велокросс-эстафета-2-человека.pdf',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/356491/356491_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/356719/356719_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/357334/357334_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/356985/356985_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20201122_1',
@@ -6557,7 +6852,13 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2020/12/Велокросс-лонг-ЧР.pdf',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/363098/363098_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/367668/367668_900.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/363449/363449_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/363648/363648_800.jpg'
+        ]
     },
     {
         id: 'MAJOR_20201217_1',
@@ -6816,7 +7117,7 @@ let fsorEvents = [
         ],
         o_site: '210531',
         reskeep: [466, 468, 469],
-        start: ['RUS_2021','RUS'],
+        start: ['RUSSIA_2021','RUS'],
         map: ['sosnovy_bor_2021_05_29','sosnovy_bor_2021_05_30','sosnovy_bor_2021_05_31']
     },
     {
@@ -6838,7 +7139,10 @@ let fsorEvents = [
             '03-Ж': 10361,
             '04-М': 10377,
             '04-Ж': 10378
-        }
+        },
+        maps: [
+            // 'https://www.dropbox.com/sh/3msystejmi43tb3/AAAHTkhGu9R0W5V-2-s0P1GLa?dl=0', // папка Dropbox «все мои карты с путями», ЧР МТБО Воронеж 2021
+        ]
     },
     {
         id: 'MAJOR_20210702_2',
@@ -6851,7 +7155,12 @@ let fsorEvents = [
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2021/08/ЧР-велокросс-спринт.pdf',
         photo: 'https://vk.com/album-112435328_280333162',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/391407/391407_800.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/391473/391473_800.jpg',
+            'https://www.dropbox.com/s/w2ijjaf6b0fygu7/2021_07_02_%D1%81%D0%BF%D1%80%D0%B8%D0%BD%D1%82_%D0%BF%D1%83%D1%82%D1%8C.jpg?dl=1'
+        ]
     },
     {
         id: 'MAJOR_20210703_1',
@@ -6864,7 +7173,15 @@ let fsorEvents = [
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2021/08/ЧР-велокросс-эст-2-чел.pdf',
         photo: 'https://vk.com/album-112435328_280333476',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/400028/400028_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/400314/400314_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/400538/400538_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/400963/400963_original.jpg',
+            'https://www.dropbox.com/s/59vi59rm54ican4/2021_07_03_%D1%8D%D1%81%D1%82%D0%B0%D1%84%D0%B5%D1%82%D0%B0_1_%D0%BF%D1%83%D1%82%D1%8C.jpg?dl=1',
+            'https://www.dropbox.com/s/t6ifoke19bikx0o/2021_07_03_%D1%8D%D1%81%D1%82%D0%B0%D1%84%D0%B5%D1%82%D0%B0_2_%D0%BF%D1%83%D1%82%D1%8C.jpg?dl=1'
+        ]
     },
     {
         id: 'MAJOR_20210704_1',
@@ -6878,7 +7195,15 @@ let fsorEvents = [
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2021/08/ЧР-велокросс-лонг.pdf',
         photo: 'https://vk.com/album-112435328_280345983',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/409559/409559_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/409615/409615_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/409007/409007_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/409267/409267_original.jpg',
+            'https://www.dropbox.com/s/aepez7fzzs5qw9r/2021_07_04_%D0%BB%D0%BE%D0%BD%D0%B3_3_%D0%BF%D1%83%D1%82%D1%8C.jpg?dl=1',
+            'https://www.dropbox.com/s/pdn12danxqqlqr0/2021_07_04_%D0%BB%D0%BE%D0%BD%D0%B3_12_%D0%BF%D1%83%D1%82%D1%8C.jpg?dl=1'
+        ]
     },
     {
         id: 'MAJOR_20210716_1',
@@ -7137,7 +7462,11 @@ let fsorEvents = [
         info: 'М: Андрей Храмов (Новгородская обл.) - 1, Алексей Асмолов (Респ. Крым) - 2, Дмитрий Поляков (Санкт-Петербург) - 3; Ж: Анастасия Рудная (Новгородская обл.) - 1, Екатерина Савкина (Ленинградская обл.) - 2, Татьяна Рябкина (Новгородская обл.) - 3.',
         fmt: 'спринт, общий старт',
         res: 'http://old.o-kuban.ru/ftpgetfile.php?id=3908',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            'http://old.o-kuban.ru/ftpgetfile.php?id=3898',
+            'http://old.o-kuban.ru/ftpgetfile.php?id=3899'
+        ]
     },
     {
         id: 'MAJOR_20211219_1',
@@ -7372,7 +7701,11 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 2 чел.',
         res: 'https://rufso.ru/wp-content/uploads/2022/06/ЧР-Велокросс-эстафета-2-чел.pdf',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/419632/419632_800.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/419964/419964_800.jpg'
+        ]
     },
     {
         id: 'MAJOR_20220604_1',
@@ -7385,7 +7718,11 @@ let fsorEvents = [
         fmt: 'лонг',
         res: 'https://rufso.ru/wp-content/uploads/2022/06/ЧР-велокросс-лонг.pdf',
         photo: 'https://vk.com/album-181722204_282920638',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/424441/424441_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/424491/424491_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20220605_1',
@@ -7398,7 +7735,10 @@ let fsorEvents = [
         fmt: 'спринт',
         res: 'https://rufso.ru/wp-content/uploads/2022/06/ЧР-Велокросс-спринт.pdf',
         photo: 'https://vk.com/album-181722204_282942071',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/427661/427661_original.jpg'
+        ]
     },
     {
         id: 'SPB_20220611_1',
@@ -7835,7 +8175,10 @@ let fsorEvents = [
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2023/05/ЧР-Кросс-классика.pdf',
         o_stuff: [5638, 5654],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/o_lesenka_gladilkina/622?single', // 19.05.2023 кросс-классика, Женщины
+        ]
     },
     {
         id: 'MAJOR_20230520_1',
@@ -7848,7 +8191,10 @@ let fsorEvents = [
         fmt: 'многодневный',
         res: 'https://rufso.ru/wp-content/uploads/2023/05/ЧР-Кросс-многодневный.pdf',
         o_stuff: [5649, 5656],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/o_lesenka_gladilkina/623?single', // 20.05.2023 кросс-многодневный, Женщины
+        ]
     },
     {
         id: 'MAJOR_20230521_1',
@@ -7862,7 +8208,10 @@ let fsorEvents = [
         res: 'https://rufso.ru/wp-content/uploads/2023/05/ЧР-Кросс-марафон.pdf',
         o_stuff: [5648, 5657],
         photo: 'https://vk.com/album-181722204_291691134',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/o_lesenka_gladilkina/624?single', // 21.05.2023 кросс-марафон, Женщины
+        ]
     },
     {
         id: 'MAJOR_20230624_1',
@@ -7898,7 +8247,14 @@ let fsorEvents = [
         res: 'https://rufso.ru/wp-content/uploads/2023/11/ЧР-Велокросс-спринт.pdf',
         photo: 'https://disk.yandex.ru/d/Hs1964AfMMfzHg',
         video: 'https://www.youtube.com/watch?v=fr9TdNbYFLw',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/452160/452160_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/453457/453457_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/448743/448743_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/448902/448902_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/449278/449278_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20230625_1',
@@ -7912,7 +8268,13 @@ let fsorEvents = [
         res: 'https://rufso.ru/wp-content/uploads/2023/11/ЧР-Велокросс-эстафета-2-человека.pdf',
         photo: 'https://disk.yandex.ru/d/bsByuoqi55GlGA',
         video: 'https://www.youtube.com/watch?v=r0ozPFwRxcQ',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            'https://ic.pics.livejournal.com/leaorient/72805976/453695/453695_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/454079/454079_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/454277/454277_original.jpg',
+            'https://ic.pics.livejournal.com/leaorient/72805976/454618/454618_original.jpg'
+        ]
     },
     {
         id: 'MAJOR_20230822_1',
@@ -8257,7 +8619,10 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         res: 'https://rufso.orgeo.ru/result/view/30683/s/8',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            // 'https://t.me/evseniaa/2640?single', // 16.01.2024 маркированная трасса, Ж (фото карты)
+        ]
     },
     {
         id: 'MAJOR_20240117_1',
@@ -8270,7 +8635,10 @@ let fsorEvents = [
         fmt: 'эстафета, маркированная трасса 3 чел.',
         res: 'https://rufso.orgeo.ru/files/event/file/30683_6fbb9d50cc.zip',
         video: 'https://t.me/lamporient/3286',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            // 'https://t.me/evseniaa/2642?single', // 17.01.2024 эстафета-маркированная трасса 3 чел. (фото карты)
+        ]
     },
     {
         id: 'MAJOR_20240118_1',
@@ -8281,7 +8649,10 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'комбинация',
         res: 'https://rufso.orgeo.ru/files/event/file/30683_6fbb9d50cc.zip',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            // 'https://t.me/evseniaa/2644?single', // 18.01.2024 комбинация (классика), ЖЭ, с треком
+        ]
     },
     {
         id: 'MAJOR_20240305_1',
@@ -8447,7 +8818,7 @@ let fsorEvents = [
         reskeep: 654,
         fmt: 'эстафета 4 чел. (2М+2Ж), спринт, спринт, общий старт',
         coord: [59.95, 30.31667],
-        start: ['RUS','RUS_2024'],
+        start: ['RUS','RUSSIA_2024'],
         map: ['petropavlovka_2024','vasileostrovskaya_2024','serebrjany_prud_2024']
     },
     {
@@ -8463,7 +8834,7 @@ let fsorEvents = [
         fmt: 'эстафета 4 чел. (2М+2Ж)',
         res: 'https://o-site.spb.ru/_races/240519_russia/Official_results_Russia_SPb.zip',
         photo: 'https://vk.com/album-154221178_302861876',
-        start: ['RUS','RUS_2024']
+        start: ['RUS','RUSSIA_2024']
     },
     {
         id: 'SPB_20240518_3',
@@ -8478,7 +8849,7 @@ let fsorEvents = [
         fmt: 'спринт',
         res: 'https://rufso.orgeo.ru/result/view/33466/s/2',
         photo: 'https://vk.com/album-154221178_302861880',
-        start: ['RUS','RUS_2024']
+        start: ['RUS','RUSSIA_2024']
     },
     {
         id: 'SPB_20240519_3',
@@ -8495,7 +8866,7 @@ let fsorEvents = [
             'https://t.me/lamporient/4215',
             'https://t.me/lamporient/4218'
         ],
-        start: ['RUS','RUS_2024']
+        start: ['RUS','RUSSIA_2024']
     },
     {
         id: 'MAJOR_20240627_1',
@@ -8599,7 +8970,10 @@ let fsorEvents = [
             'https://vk.com/album-365697_302917873',
             'https://vk.com/album-169497358_304160636'
         ],
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            // 'https://t.me/pahat_nelzya_otdyhat/133?single', // 04.09.2024 велокросс-спринт, Мужчины
+        ]
     },
     {
         id: 'MAJOR_20240905_1',
@@ -8617,7 +8991,10 @@ let fsorEvents = [
             'https://vk.com/album-365697_302933344',
             'https://vk.com/album-169497358_304177807'
         ],
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            // 'https://t.me/pahat_nelzya_otdyhat/132?single', // 05.09.2024 велокросс-классика, Мужчины
+        ]
     },
     {
         id: 'MAJOR_20240907_1',
@@ -8696,7 +9073,10 @@ let fsorEvents = [
         fmt: 'классика',
         res: 'https://rufso.orgeo.ru/result/view/36257/s/2',
         o_stuff: [6973, 7009],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/katya_bezhit/5?single', // 18.09.2024 классика, ЖЭ (фото в Telegram)
+        ]
     },
     {
         id: 'MAJOR_20240919_1',
@@ -8711,7 +9091,10 @@ let fsorEvents = [
         fmt: 'лонг',
         res: 'https://rufso.orgeo.ru/result/view/36257/s/3',
         o_stuff: [6974, 7010],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/katya_bezhit/6?single', // 19.09.2024 лонг, ЖЭ (фото в Telegram)
+        ]
     },
     {
         id: 'MAJOR_20240921_1',
@@ -8794,7 +9177,10 @@ let fsorEvents = [
         fmt: 'выбор',
         res: 'https://rufso.orgeo.ru/result/view/37240/s/2',
         o_stuff: 7053,
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/kuleshow1/188?single', // 18.10.2024 кросс-выбор, МЭ/М35 (скрин Control с карты)
+        ]
     },
     {
         id: 'MAJOR_20241020_1',
@@ -8806,7 +9192,11 @@ let fsorEvents = [
         fmt: 'марафон',
         res: 'https://rufso.orgeo.ru/result/view/37240/s/4',
         o_stuff: [7054, 7055],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/kuleshow1/189?single', // 20.10.2024 кросс-марафон, МЭ-1 часть 1
+            // 'https://t.me/kuleshow1/190?single', // 20.10.2024 кросс-марафон, МЭ-1 часть 2
+        ]
     },
     {
         id: 'MAJOR_20241101_1',
@@ -8889,6 +9279,7 @@ let fsorEvents = [
         res: 'https://rufso.orgeo.ru/result/view/38693/s/2',
         maps: [
             // 'https://cloud.mail.ru/public/YaxX/8QFBehYJP'
+            // 'https://t.me/evseniaa/2944?single', // 13.12.2024 спринт, ЖЭ (фото в Telegram)
         ],
         photo: 'https://vk.com/album-19312601_305646498',
         start: 'SKI_RUS'
@@ -8969,7 +9360,10 @@ let fsorEvents = [
             'https://rufso.orgeo.ru/result/view/39231/s/2'
         ],
         video: 'https://t.me/lamporient/6076',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            // 'https://t.me/evseniaa/3049?single', // 19.02.2025 маркированная трасса, Женщины
+        ]
     },
     {
         id: 'MAJOR_20250220_1',
@@ -9022,7 +9416,10 @@ let fsorEvents = [
         fmt: 'классика, общий старт',
         res: 'https://rufso.orgeo.ru/result/view/39231/s/8',
         video: 'https://t.me/lamporient/6124',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            // 'https://t.me/zamposto/1095?single', // 24.02.2025 классика-общий старт, Мужчины (фото карты)
+        ]
     },
     {
         id: 'MAJOR_20250308_1',
@@ -9077,7 +9474,10 @@ let fsorEvents = [
             'https://t.me/lamporient/6190',
             'https://vkvideo.ru/video-229568771_456239025'
         ],
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            // 'https://t.me/nemapredaje/955?single', // 09.03.2025 лонг-общий старт, Мужчины
+        ]
     },
     {
         id: 'MAJOR_20250310_1',
@@ -9107,7 +9507,10 @@ let fsorEvents = [
             'https://orgeo.ru/live/#/39250/5'
         ],
         video: 'https://vkvideo.ru/video-229568771_456239027',
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            // 'https://t.me/nemapredaje/956?single', // 11.03.2025 эстафета 3 чел., Мужчины
+        ]
     },
     {
         id: 'MAJOR_20250313_1',
@@ -9121,7 +9524,10 @@ let fsorEvents = [
             'https://orientdv.ru/wp-content/uploads/2025/04/Официальные-протоколы-Чемпионата-России-2025-Комсомольск-на-Амуре_.pdf',
             'https://rufso.orgeo.ru/result/view/39250/s/8'
         ],
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            // 'https://t.me/nemapredaje/966?single', // 13.03.2025 спринт, Мужчины
+        ]
     },
     {
         id: 'MAJOR_20250314_1',
@@ -9136,7 +9542,10 @@ let fsorEvents = [
             'https://t.me/lamporient/6241',
             'https://vkvideo.ru/video-229568771_456239029'
         ],
-        start: 'SKI_RUS'
+        start: 'SKI_RUS',
+        maps: [
+            // 'https://t.me/nemapredaje/967?single', // 14.03.2025 марафон, Мужчины
+        ]
     },
     {
         id: 'MAJOR_20250626_1',
@@ -9234,7 +9643,10 @@ let fsorEvents = [
             'https://t.me/lamporient/7512',
             'https://www.youtube.com/watch?v=fXmnXr9sft4'
         ],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/tatorientrt/703', // Кросс-спринт 09.08.2025, карты М и Ж (фото, канал организаторов)
+        ]
     },
     {
         id: 'MAJOR_20250810_1',
@@ -9297,7 +9709,10 @@ let fsorEvents = [
             'https://t.me/lamporient/7658',
             'https://www.youtube.com/watch?v=5b1TgApyNG0'
         ],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/tatorientrt/726', // Кросс-эстафета 4 чел. 13.08.2025, карты этапов (фото)
+        ]
     },
     {
         id: 'MAJOR_20250819_1',
@@ -9330,7 +9745,10 @@ let fsorEvents = [
         res: 'https://o-perm.ru/admin/wp-content/uploads/2025/08/Ofitsialnye-protokoly-rezultatov-CHR-i-VS-Velo-Perm-2025.zip',
         o_stuff: 7488,
         photo: 'https://vk.com/album-169497358_308340871',
-        start: 'MTBO_RUS'
+        start: 'MTBO_RUS',
+        maps: [
+            // 'https://t.me/pahat_nelzya_otdyhat/346', // Велокросс-спринт 20.08.2025 МЭ + велокросс-лонг 21.08.2025 М (сканы карт)
+        ]
     },
     {
         id: 'MAJOR_20250824_1',
@@ -9423,7 +9841,10 @@ let fsorEvents = [
             'https://t.me/lamporient/7818',
             'https://t.me/lamporient/7823'
         ],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/thebestmapmaker/370', // Кросс-классика 12.09.2025, М и Ж (канал зам. по СТО/картографа)
+        ]
     },
     {
         id: 'MAJOR_20250913_1',
@@ -9438,7 +9859,10 @@ let fsorEvents = [
             'https://t.me/lamporient/7831',
             'https://t.me/lamporient/7836'
         ],
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/thebestmapmaker/372', // Кросс-лонг 13.09.2025, М и Ж, две части карты
+        ]
     },
     {
         id: 'MAJOR_20250915_1',
@@ -9451,7 +9875,10 @@ let fsorEvents = [
         res: 'https://orgeo.ru/live/#/43632/6',
         o_stuff: 7565,
         video: 'https://t.me/lamporient/7853',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/thebestmapmaker/376', // Кросс-эстафета 3 чел. 15.09.2025
+        ]
     },
     {
         id: 'MAJOR_20250916_1',
@@ -9468,7 +9895,10 @@ let fsorEvents = [
         o_stuff: 7566,
         photo: 'https://vk.com/album-9752432_308450718',
         video: 'https://t.me/lamporient/7860',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/thebestmapmaker/378', // Кросс-многодневный 16.09.2025, М и Ж
+        ]
     },
     {
         id: 'MAJOR_20251016_1',
@@ -9601,7 +10031,25 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркир, эстафета, комбинация, лонг, классика',
         owner: 'FSOR',
-        start: 'RUS_CUP'
+        start: 'RUSSIA_CUP',
+        maps: [
+            'https://static.tildacdn.pub/tild3763-3164-4630-a632-373933323335/_.jpg',
+            'https://static.tildacdn.pub/tild3739-6132-4666-b461-353937393232/_.jpg',
+            'https://static.tildacdn.pub/tild3034-3662-4435-b839-373030336333/_.jpg',
+            'https://static.tildacdn.pub/tild3538-3833-4962-b030-373664373135/_.jpg',
+            'https://static.tildacdn.pub/tild3236-6139-4338-a132-313066333764/___50.jpg',
+            'https://static.tildacdn.pub/tild3531-6530-4832-a565-633365383737/__12.jpg',
+            'https://static.tildacdn.pub/tild6531-3439-4835-a464-396237316331/_12.jpg',
+            'https://static.tildacdn.pub/tild3265-3766-4938-b936-633638363164/__35.jpg',
+            'https://static.tildacdn.pub/tild6330-6332-4832-a638-363734326563/__35.jpg',
+            'https://static.tildacdn.pub/tild3764-3330-4633-b131-653734306263/__60.jpg',
+            'https://static.tildacdn.pub/tild3538-3064-4432-a538-356531333362/___14.jpg',
+            'https://static.tildacdn.pub/tild6163-3564-4666-b263-656638366332/___.jpg',
+            'https://static.tildacdn.pub/tild3039-3261-4533-b564-636239363438/___17.jpg',
+            'https://static.tildacdn.pub/tild3361-3035-4637-b335-376166363361/___.jpg',
+            'https://static.tildacdn.pub/tild3831-3638-4336-a465-373237316365/__17.jpg',
+            'https://static.tildacdn.pub/tild6636-6434-4161-b934-653963623563/__14.jpg'
+        ]
     },
     {
         id: 'MAJOR_20260115_1',
@@ -9624,7 +10072,7 @@ let fsorEvents = [
             'https://rutube.ru/video/d425928a15e1412da110f4ab9476776e/',
             'https://t.me/lamporient/8816'
         ],
-        start: 'RUS_CUP'
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20260219_1',
@@ -9818,7 +10266,7 @@ let fsorEvents = [
             'https://vk.com/album-169497358_310928964',
             'https://vk.com/album-169497358_310906047'
         ],
-        start: 'RUS_CUP'
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20260512_1',
@@ -9865,7 +10313,10 @@ let fsorEvents = [
         info: 'М: Алексей Асмолов (Респ. Крым) - 1, Дмитрий Тихонов (Москва) - 2, Артём Попов (Санкт-Петербург) - 2; Ж: Вероника Калинина (Владимирская обл.) - 1, Анастасия Григорьева (Владимирская обл.) - 2, Елизавета Макаренко (Смоленская обл.) - 3.',
         fmt: 'спринт',
         res: 'https://orgeo.ru/live/#/51213/4',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/thebestmapmaker/564', // Кросс-спринт 13.05.2026, М и Ж
+        ]
     },
     {
         id: 'MAJOR_20260514_1',
@@ -9876,7 +10327,10 @@ let fsorEvents = [
         info: 'М: Павел Егоров (Нижегородская обл.) - 1, Артём Попов (Санкт-Петербург) - 2, Владислав Логинов (Санкт-Петербург) - 3; Ж: Елизавета Макаренко (Смоленская обл.) - 1, Вероника Калинина (Владимирская обл.) - 2, Анастасия Григорьева (Владимирская обл.) - 3.',
         fmt: 'спринт, общий старт',
         res: 'https://orgeo.ru/live/#/51213/6',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/thebestmapmaker/573', // Кросс-спринт-общий старт 14.05.2026, М и Ж
+        ]
     },
     {
         id: 'MAJOR_20260516_1',
@@ -9888,7 +10342,10 @@ let fsorEvents = [
         fmt: 'эстафета 2 чел.',
         res: 'https://orgeo.ru/live/#/51213/12',
         video: 'https://t.me/lamporient/9745',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/thebestmapmaker/581', // Кросс-спринт-эстафета 2 чел. 16.05.2026
+        ]
     },
     {
         id: 'MAJOR_20260517_1',
@@ -9900,7 +10357,10 @@ let fsorEvents = [
         res: 'https://orgeo.ru/live/#/51213/14',
         photo: 'https://vk.com/album-9752432_310913212',
         video: 'https://t.me/lamporient/9785',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/thebestmapmaker/583', // Кросс-эстафета 4 чел. 17.05.2026
+        ]
     },
     {
         id: 'MAJOR_20260528_2',
@@ -9920,7 +10380,7 @@ let fsorEvents = [
             'https://t.me/lamporient/9905',
             'https://t.me/lamporient/9912'
         ],
-        start: 'RUS_CUP'
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20260604_1',
@@ -9936,7 +10396,7 @@ let fsorEvents = [
             'https://vk.com/album-233782424_309666655',
             'https://vk.com/album-169497358_311263810'
         ],
-        start: 'RUS_CUP'
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20260625_1',
@@ -10129,7 +10589,7 @@ let fsorEvents = [
             'https://t.me/lamporient/10655',
             'https://t.me/lamporient/10663'
         ],
-        start: 'RUS_CUP'
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20260916_1',
@@ -10141,7 +10601,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт, лонг, эстафета 3х, масстарт',
         owner: 'FSOR',
-        start: 'RUS_CUP'
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20260922_1',
@@ -10202,7 +10662,10 @@ let fsorEvents = [
             'https://orgeo.ru/live/#/51024/3'
         ],
         video: 'https://t.me/lamporient/10728',
-        start: 'RUS'
+        start: 'RUS',
+        maps: [
+            // 'https://t.me/kustolaz/286', // Кросс-лонг 24.09.2026, М, карта с треком (Control)
+        ]
     },
     {
         id: 'MAJOR_20260926_1',
@@ -10253,7 +10716,7 @@ let fsorEvents = [
         major: true,
         fmt: 'выбор, спринт, спринт-масстарт',
         owner: 'FSOR',
-        start: 'RUS_CUP'
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20261101_1',
@@ -10275,7 +10738,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 2х, классика, марафон',
         owner: 'FSOR',
-        start: 'RUS_CUP'
+        start: 'RUSSIA_CUP'
     },
     {
         id: 'MAJOR_20261217_1',

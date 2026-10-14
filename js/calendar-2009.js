@@ -84,7 +84,10 @@ let events2009 = [
         start: ['VOLKOV_A','SPB_CHAMP'],
         o_site: '090201',
         bulletin: 'https://o-site.spb.ru/_races/090201/090201_info2.htm',
-        map: 'volkov_2009_02_01'
+        map: 'volkov_2009_02_01',
+        maps: [
+            'https://o-site.spb.ru/_races/090201/090201_map.gif'
+        ]
     },
     {
         id: 'SPB_20090207_1',
@@ -95,7 +98,10 @@ let events2009 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080207/090207_res.htm',
         o_site: '080207',
-        bulletin: 'https://o-site.spb.ru/_races/080207/090207_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/080207/090207_info2.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/080207/090207_map.gif'
+        ]
     },
     {
         id: 'SPB_20090208_1',
@@ -141,7 +147,10 @@ let events2009 = [
         info: '«100 км за 24 часа» - 1 этап кубка Санкт-Петербурга по рогейну',
         start: '100x24',
         o_site: '090221',
-        map: 'veschevo_2009'
+        map: 'veschevo_2009',
+        maps: [
+            'https://100x24.ru/2009/map/100x24_map_2009.gif'
+        ]
     },
     {
         id: 'SPB_20090222_1',
@@ -491,7 +500,11 @@ let events2009 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2009-1.php',
         map: 'vesnino_ba_2009',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2009-1/sm.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2009-1/big_s.jpg'
+        ]
     },
     {
         id: 'SPB_20090528_1',
@@ -589,7 +602,10 @@ let events2009 = [
         o_site: '090603',
         bulletin: 'http://o-time.ru/images/all/info/chspb030609_3.htm',
         reskeep: 263,
-        map: 'osinovaja_roscha_2018'
+        map: 'osinovaja_roscha_2018',
+        maps: [
+            'https://o-site.spb.ru/_races/090603/sprint_M21.jpg'
+        ]
     },
     {
         id: 'SPB_20090604_1',
@@ -816,7 +832,12 @@ let events2009 = [
         video: 'http://vkontakte.ru/video129292_121816260',
         info: 'Старейшая мультиспортивная гонка в России: в 2009-м году состоится уже 8-й Три-О-Тлон, история которого ведёт отсчёт с 2002-го года. Классическая гонка по набору дисциплин: треккинг, велосипед, байдарка, верёвочные этапы. Основная направленность гонки - навигация. Три дистанции - длинная, средняя и короткая. Участвуют команды из 2-х человек любого пола. Нас поддерживают: Альпина Спортивная Линия Яркий Мир Кант Спортсистем Про-Спорт Альпиндустрия Эксперты Приключений Игорь Лу Информационная поддержка: O-site x-race.msk.ru adventureraces.ru carabin.ru',
         logo: 'triotlon.gif',
-        o_site: 'tri-o-tlon-2009'
+        o_site: 'tri-o-tlon-2009',
+        maps: [
+            'https://o-site.spb.ru/_races/tri-o-tlon-2009/map1.gif',
+            'https://o-site.spb.ru/_races/tri-o-tlon-2009/map2.gif',
+            'https://o-site.spb.ru/_races/tri-o-tlon-2009/map_voda.gif'
+        ]
     },
     {
         id: 'SPB_20090816_1',
@@ -984,7 +1005,10 @@ let events2009 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'kanneliarvi_mb_2009'
+        map: 'kanneliarvi_mb_2009',
+        maps: [
+            'https://kandid.ru/maps09/mb2009.jpg'
+        ]
     },
     {
         id: 'SPB_20090927_1',
@@ -994,7 +1018,10 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090927kk/090927_res.htm',
         info: 'Кросс-кантрийная велосипедная гонка по пересеченной местности на кругу 6 км.',
         o_site: '090927kk',
-        bulletin: 'https://o-site.spb.ru/_races/090927kk/090927kk_i.htm'
+        bulletin: 'https://o-site.spb.ru/_races/090927kk/090927kk_i.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/090927kk/shema2.gif'
+        ]
     },
     {
         id: 'SPB_20091001_1',
@@ -1133,7 +1160,10 @@ let events2009 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2009-2.php',
         map: 'yappilya_ba_2009',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2009-2/map_bal_09.gif'
+        ]
     },
     {
         id: 'SPB_20091025_1',
@@ -1240,7 +1270,10 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/091122_mark/091122_res.htm',
         start: 'ROGAINE_110',
         o_site: '091122_mark',
-        bulletin: 'https://o-site.spb.ru/_races/091122_mark/091122_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/091122_mark/091122_info.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/091122_mark/091122_map.gif'
+        ]
     },
     {
         id: 'SPB_20091126_1',
@@ -1264,7 +1297,10 @@ let events2009 = [
         fmt: '3 и 8 часов бегом',
         start: 'GORNY_CROSS',
         o_site: '091128',
-        bulletin: 'https://o-site.spb.ru/_races/091128/091128_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/091128/091128_info2.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/091128/091128_map.gif'
+        ]
     },
     {
         id: 'SPB_20091129_1',
@@ -1307,7 +1343,10 @@ let events2009 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/091213/091213_res.htm',
         o_site: '091213',
-        bulletin: 'https://o-site.spb.ru/_races/091213/091213_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/091213/091213_info2.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/091213/091206_karta.gif'
+        ]
     },
     {
         id: 'SPB_20091213_2',
@@ -1327,7 +1366,10 @@ let events2009 = [
         res: 'http://www.o-site.spb.ru/_races/091220/091220_res.htm',
         publish: 'https://o-site.spb.ru/race.php?id=091220',
         o_site: '091220',
-        bulletin: 'https://o-site.spb.ru/_races/091220/091220_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/091220/091220_info2.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/091220/091220_karta.gif'
+        ]
     },
     {
         id: 'SPB_20091226_1',

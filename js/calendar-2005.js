@@ -484,7 +484,10 @@ let events2005 = [
         publish: 'https://o-site.spb.ru/race.php?id=tri-o-tlon-2005',
         photo: 'http://o-site.spb.ru/photos.php?page=2',
         logo: 'triotlon.gif',
-        o_site: 'tri-o-tlon-2005'
+        o_site: 'tri-o-tlon-2005',
+        maps: [
+            'https://o-site.spb.ru/_races/tri-o-tlon-2005/trek_winners.jpg'
+        ]
     },
     {
         id: 'SPB_20050806_1',
@@ -520,7 +523,8 @@ let events2005 = [
         res: 'https://rogaining.ru/results/rrc-results/2rrc-results.html',
         maps: [
             'https://rogaining.ru/results/rrc-results/2rrc_map.jpg',
-            'http://nn.rogaine.ru/images/maps/20050903_map.jpg'
+            'http://nn.rogaine.ru/images/maps/20050903_map.jpg',
+            'https://nn-rogaine.ru/images/maps/20050903_map.jpg'
         ],
         info: 'Чемпионат возобновлён после перерыва 2002–2004 годов. Победители: MO: Сергей Ященко, Олег Калинин (Москва) — 265 из 265 возможных; XO: Илья Слепов, Маргарита Пучкова (Москва) — 210. Команд — 41, участников — 89.',
         coord: [56.783816, 43.368443],
@@ -599,7 +603,10 @@ let events2005 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'myllypelto_mb_2005'
+        map: 'myllypelto_mb_2005',
+        maps: [
+            'https://kandid.ru/maps05/mbmap_2005.jpg'
+        ]
     },
     {
         id: 'SPB_20050925_1',
@@ -678,7 +685,10 @@ let events2005 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2005-2.php',
         start: 'BA',
         owner: 'BKTV',
-        map: 'zahodskoe_ba_2005'
+        map: 'zahodskoe_ba_2005',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-2/oct_05.jpg'
+        ]
     },
     {
         id: 'SPB_20051016_1',

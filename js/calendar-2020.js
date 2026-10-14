@@ -14,7 +14,10 @@ let events2020 = [
         o_gps: {
             '07': 6943,
             '08': 6947
-        }
+        },
+        maps: [
+            'https://o-site.spb.ru/_races/200107-08/200107_kontr_karta.jpg'
+        ]
     },
     {
         id: 'SPB_20200108_1',
@@ -25,7 +28,10 @@ let events2020 = [
         reg: 'http://sportident.ru/entry/event_info.php?id=4430',
         info: 'Стоимость за наличный расчет 1500 руб чел/день, по сертификату 700 руб чел/день + 250 руб чел/день за техническое обеспечение. Орг. взнос за Рождественские старты отдельно. Участникам будет доступно проживание в 2-4-6 местных номерах, пятиразовое питание, все кружки лагеря, спортивные тренировки. Для групп из 15 человек, 1 сопровождающий бесплатно. Заявки на участие принимаются до 20 ноября. Количество мест ограничено. Заявки принимаются по электронной почте cupladoga@mail.ru или по телефону +79062577200 Дополнительная информация появится в ближайшее время.',
         o_site: '200102-08',
-        o_gps: 6962
+        o_gps: 6962,
+        maps: [
+            'https://o-site.spb.ru/_races/200102-08/200105_k_map.jpg'
+        ]
     },
     {
         id: 'SPB_20200111_1',
@@ -87,7 +93,10 @@ let events2020 = [
         reskeep: 204,
         strava: 3024830806,
         map: 'toksovo_malinovaya_gora_2018',
-        o_gps: 7020
+        o_gps: 7020,
+        maps: [
+            'https://o-site.spb.ru/_races/200119_MT/200119_map.jpg'
+        ]
     },
     {
         id: 'SPB_20200119_3',
@@ -141,7 +150,10 @@ let events2020 = [
         o_site: '200126_t',
         bulletin: 'https://o-site.spb.ru/_races/200126_t/200126_info_2_1.pdf',
         reskeep: 300,
-        map: 'orekhovo_nyrkovo_winter_2012'
+        map: 'orekhovo_nyrkovo_winter_2012',
+        maps: [
+            'https://o-site.spb.ru/_races/200126_t/control_map.jpg'
+        ]
     },
     {
         id: 'SPB_20200201_1',
@@ -164,7 +176,10 @@ let events2020 = [
         o_site: '200202',
         bulletin: 'https://o-site.spb.ru/_races/200202/200202_info2.pdf',
         reskeep: 305,
-        map: 'orekhovo_nyrkovo_winter_2012'
+        map: 'orekhovo_nyrkovo_winter_2012',
+        maps: [
+            'https://o-site.spb.ru/_races/200202/200202_map.pdf'
+        ]
     },
     {
         id: 'SPB_20200202_2',
@@ -244,7 +259,10 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1140',
         o_site: '200216_NW',
         bulletin: 'https://o-site.spb.ru/_races/200216_NW/200216_infoNW.pdf',
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        maps: [
+            'https://o-site.spb.ru/_races/200216_NW/200216_map.jpg'
+        ]
     },
     {
         id: 'SPB_20200216_2',
@@ -334,7 +352,10 @@ let events2020 = [
         o_site: '20030809',
         bulletin: 'https://o-site.spb.ru/_races/20030809/20030809_info.pdf',
         reskeep: [324, 325],
-        strava: 3168300659
+        strava: 3168300659,
+        maps: [
+            'https://o-site.spb.ru/_races/20030809/200308_contr.jpg'
+        ]
     },
     {
         id: 'SPB_20200311_1',
@@ -460,7 +481,11 @@ let events2020 = [
         res: 'http://o-site.spb.ru/_races/200426/200426_rezultaty.pdf',
         info: '26 апреля (воскресенье!) состоится третий этап онлайн-старта по трейл-ориентированию (дисциплина "точное ориентирование"/PreO).',
         o_site: '200426',
-        bulletin: 'https://o-site.spb.ru/_races/200426/26_aprelya_Byulleten-2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/200426/26_aprelya_Byulleten-2.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/200426/200426solyushen.pdf',
+            'https://o-site.spb.ru/_races/200426/200426_map.pdf'
+        ]
     },
     {
         id: 'SPB_20200505_1',
@@ -481,7 +506,10 @@ let events2020 = [
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'melnikovo_2020'
+        map: 'melnikovo_2020',
+        maps: [
+            'https://kandid.ru/maps20/vmb20.jpg'
+        ]
     },
     {
         id: 'SPB_20200510_1',
@@ -492,7 +520,10 @@ let events2020 = [
         res: 'http://o-site.spb.ru/_races/200510/200510_rez_-_kopia5.pdf',
         info: '10 мая (воскресенье) состоится четвёртый этап онлайн-старта по трейл-ориентированию (дисциплина "точное ориентирование"/PreO).',
         o_site: '200510',
-        bulletin: 'https://o-site.spb.ru/_races/200510/10_maya_Info_byulleten.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/200510/10_maya_Info_byulleten.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/200510/map_200510_PreO.pdf'
+        ]
     },
     {
         id: 'SPB_20200515_1',
@@ -543,7 +574,10 @@ let events2020 = [
         photo: 'https://vk.com/album-30311715_267426606',
         map: 'kirillovskoe_2020',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2020-1/BA20.jpg'
+        ]
     },
     {
         id: 'SPB_20200530_1',
@@ -585,7 +619,10 @@ let events2020 = [
         photo: 'http://drive.google.com/drive/folders/1tvax9cc_9z9YWb7g6JodrwYHVvEevSKY?sa=D&ust=1592159831324000&usg=AFQjCNFL_1lRoEJzvMO-1rvfobSnGayRhg',
         info: 'Онлайн-тренировка, посвящённая Дню России, проводится с целью пропаганды здорового образа жизни среди населения, популяризации спортивного ориентирования (знакомство со спортом, изучение условных знаков и знаков легенд) и привлечения граждан к занятиям физической культуры и спортом. Мероприятие проводится в рамках проекта «На соревнования – всей семьей: игровое пространство для детей участников спортивных мероприятий». Проект реализуется с использованием гранта Президента Российской Федерации на развитие гражданского общества, предоставленного Фондом президентских грантов.',
         o_site: '200612',
-        bulletin: 'https://o-site.spb.ru/_races/200612/Byulleten_Onlayn-Orientirovanie_1.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/200612/Byulleten_Onlayn-Orientirovanie_1.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/200612/Map_answers.jpg'
+        ]
     },
     {
         id: 'SPB_20200612_2',
@@ -626,7 +663,10 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200627/200628_denmolodezhi.pdf',
         info: 'Онлайн-тренировка, посвящённая Дню Молодёжи, проводится с целью пропаганды здорового образа жизни среди населения, популяризации спортивного ориентирования (знакомство со спортом, изучение условных знаков и знаков легенд) и привлечения граждан к занятиям физической культуры и спортом. Мероприятие проводится в рамках проекта «На соревнования – всей семьей: игровое пространство для детей участников спортивных мероприятий». Проект реализуется с использованием гранта Президента Российской Федерации на развитие гражданского общества, предоставленного Фондом президентских грантов.',
         o_site: '200627',
-        map: 'pavlovsk_2012'
+        map: 'pavlovsk_2012',
+        maps: [
+            'https://o-site.spb.ru/_races/200627/map.JPG'
+        ]
     },
     {
         id: 'SPB_20200627_2',
@@ -780,7 +820,10 @@ let events2020 = [
         info: 'Мероприятие проводится с целью пропаганды здорового образа жизни среди населения, популяризации спортивного ориентирования (знакомство со спортом, изучение условных знаков и знаков легенд) и привлечения граждан к занятиям физической культуры и спортом. Мероприятие проводится в рамках проекта «Молодежный открытый фестиваль «Доступный спорт».',
         o_site: '200719',
         publish: 'https://o-site.spb.ru/race.php?id=200719',
-        map: 'sosnovaya_polyana_roschinka_2020'
+        map: 'sosnovaya_polyana_roschinka_2020',
+        maps: [
+            'https://o-site.spb.ru/_races/200719/dist_All.jpg'
+        ]
     },
     {
         id: 'SPB_20200719_2',
@@ -870,7 +913,10 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200812/200812_rez.pdf',
         info: 'Мероприятие проводится с целью пропаганды здорового образа жизни среди населения, популяризации спортивного ориентирования (знакомство со спортом, изучение условных знаков и знаков легенд) и привлечения граждан к занятиям физической культуры и спортом.',
         video: 'http://www.youtube.com/watch?v=1IW08aEkVJE',
-        o_site: '200812'
+        o_site: '200812',
+        maps: [
+            'https://o-site.spb.ru/_races/200812/razbor_compressed.pdf'
+        ]
     },
     {
         id: 'SPB_20200815_1',
@@ -1185,7 +1231,10 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200915/Kopia_200915.pdf',
         photo: 'http://vk.com/spb_orient?z=album-154221178_274831695',
         info: '15 сентября в Муринском парке пройдёт открытая тренировка «Доступный спорт» по трейл-ориентированию (дистанция PreO). Мероприятие проводится в рамках проекта «Молодежный открытый фестиваль «Доступный спорт».',
-        o_site: '200915'
+        o_site: '200915',
+        maps: [
+            'https://o-site.spb.ru/_races/200915/solution_.pdf'
+        ]
     },
     {
         id: 'SPB_20200917_1',
@@ -1326,7 +1375,10 @@ let events2020 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2020-2.php',
         map: 'yappilya_ba_2020',
         start: ['BA','TA'],
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2020-2/bal20.jpg'
+        ]
     },
     {
         id: 'SPB_20200926_5',
@@ -1400,7 +1452,10 @@ let events2020 = [
         o_gps: {
             '1':8281,
             '2':8283
-        }
+        },
+        maps: [
+            'https://kandid.ru/maps20/omb20.jpg'
+        ]
     },
     {
         id: 'SPB_20201004_1',
@@ -1744,7 +1799,11 @@ let events2020 = [
         o_site: '201115_110',
         bulletin: 'https://o-site.spb.ru/_races/201115_110/201115_info2.pdf',
         strava: 4343003862,
-        o_gps: 8531
+        o_gps: 8531,
+        maps: [
+            'https://o-site.spb.ru/_races/201115_110/201115_contrABC.jpg',
+            'https://o-site.spb.ru/_races/201115_110/201115_contrDE.jpg'
+        ]
     },
     {
         id: 'SPB_20201115_2',
@@ -1854,7 +1913,10 @@ let events2020 = [
         info: 'Открытое Первенство среди обучающихся школьных спортивных клубов ОУ СПб «Спорт для всех» по видам спорта» среди обучающихся с ОВЗ. Все желающие, не относящиеся к школьникам, могут участвовать в группе «Оpen».',
         owner: 'SFSO_LO',
         o_site: '201203_trailo',
-        bulletin: 'https://o-site.spb.ru/_races/201203_trailo/Info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/201203_trailo/Info.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/201203_trailo/Solution_All.png'
+        ]
     },
     {
         id: 'SPB_20201206_1',
@@ -2002,7 +2064,10 @@ let events2020 = [
         o_site: '201227',
         bulletin: 'https://o-site.spb.ru/_races/201227/201227_info2.pdf',
         strava: 4524905096,
-        o_gps: 8720
+        o_gps: 8720,
+        maps: [
+            'https://o-site.spb.ru/_races/201227/Control_map_201227.pdf'
+        ]
     },
     {
         id: 'SPB_20201231_1',

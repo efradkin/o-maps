@@ -46,7 +46,10 @@ let events2023 = [
             '07': 14805,
             '08': 14809
         },
-        bulletin: 'https://o-site.spb.ru/_races/230108_RS/230107-08_rozhd_start_info1-2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/230108_RS/230107-08_rozhd_start_info1-2.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/230108_RS/RS_MARKIR_control_map.pdf'
+        ]
     },
     {
         id: 'SPB_20230108_1',
@@ -99,7 +102,10 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/budogosh2023',
         endReg: '2023-01-18 22:00',
         res: 'https://o-site.spb.ru/_races/23012022/230120_res1.pdf',
-        o_site: '23012022'
+        o_site: '23012022',
+        maps: [
+            'https://o-site.spb.ru/_races/23012022/230120_map.pdf'
+        ]
     },
     {
         id: 'SPB_20230121_1',
@@ -129,7 +135,10 @@ let events2023 = [
         strava: 8464270393,
         o_site: '230128',
         bulletin: 'http://markir.spb.ru/info2023.pdf',
-        map: 'garbolovo_zmeinoe_2022'
+        map: 'garbolovo_zmeinoe_2022',
+        maps: [
+            'http://reg.o-time.ru/bul/23170.jpg'
+        ]
     },
     {
         id: 'SPB_20230129_1',
@@ -143,7 +152,10 @@ let events2023 = [
         o_site: '230129',
         bulletin: 'https://o-site.spb.ru/_races/230129/230129_info2_2.pdf',
         map: 'silande_winter_2024',
-        o_gps: 14929
+        o_gps: 14929,
+        maps: [
+            'https://o-site.spb.ru/_races/230129/230129_controlmap.pdf'
+        ]
     },
     {
         id: 'SPB_20230204_1',
@@ -176,7 +188,19 @@ let events2023 = [
         strava: 8508408303,
         o_site: '230205',
         bulletin: 'https://o-site.spb.ru/_races/230205/230205_INFO.pdf',
-        o_gps: 14971
+        o_gps: 14971,
+        maps: [
+            'https://o-site.spb.ru/_races/230205/Dist_230205.A.jpg',
+            'https://o-site.spb.ru/_races/230205/Dist_230205.B.jpg',
+            'https://o-site.spb.ru/_races/230205/Dist_230205.D.jpg',
+            'https://o-site.spb.ru/_races/230205/Dist_230205.F_g10.jpg',
+            'https://o-site.spb.ru/_races/230205/Dist_230205.F_m10.jpg',
+            'https://o-site.spb.ru/_races/230205/Dist_230205.E.jpg',
+            'https://o-site.spb.ru/_races/230205/Dist_230205.E_1.jpg',
+            'https://o-site.spb.ru/_races/230205/Dist_230205.E_2.jpg',
+            'https://o-site.spb.ru/_races/230205/Dist_230205.C.jpg',
+            'https://o-site.spb.ru/_races/230205/Dist_230205.C_F_dl.jpg'
+        ]
     },
     {
         id: 'SPB_20230209_1',
@@ -191,7 +215,10 @@ let events2023 = [
         o_site: '230213',
         bulletin: 'https://o-site.spb.ru/_races/230213/23020913_info.pdf',
         map: 'toksovo_vifk_winter_2023',
-        o_gps: 15061
+        o_gps: 15061,
+        maps: [
+            'https://o-site.spb.ru/_races/230213/230213_map.pdf'
+        ]
     },
     {
         id: 'SPB_20230219_1',
@@ -232,7 +259,10 @@ let events2023 = [
         info: 'Региональные и межмуниципальные соревнования "Праздничный маркир" В программе соревнований: лыжная гонка-маркированная трасса (вариант "А").',
         o_site: '230223',
         bulletin: 'https://o-site.spb.ru/_races/230223/230223_info1_.pdf',
-        map: 'lembolovo_winter_2019'
+        map: 'lembolovo_winter_2019',
+        maps: [
+            'https://o-site.spb.ru/_races/230223/230223_map.jpg'
+        ]
     },
     {
         id: 'SPB_20230225_1',
@@ -769,7 +799,10 @@ let events2023 = [
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'kuznechnoe_mb_2023'
+        map: 'kuznechnoe_mb_2023',
+        maps: [
+            'https://kandid.ru/maps23/vmb23.jpg'
+        ]
     },
     {
         id: 'SPB_20230514_1',
@@ -815,7 +848,10 @@ let events2023 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2023-1.php',
         photo: 'https://vk.com/album-30311715_293027780',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2023-1/BA2023.jpg'
+        ]
     },
     {
         id: 'SPB_20230520_1',
@@ -1484,7 +1520,11 @@ let events2023 = [
         o_site: '23081213',
         bulletin: 'https://o-site.spb.ru/_races/23081213/230801213_info.pdf',
         reskeep: [607, 608],
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        maps: [
+            'https://o-site.spb.ru/_races/23081213/230813-nitka-combi_1.pdf',
+            'https://o-site.spb.ru/_races/23081213/230813-nitka-combi_2.pdf'
+        ]
     },
     {
         id: 'SPB_20230812_2',
@@ -1727,7 +1767,10 @@ let events2023 = [
         photo: 'https://vk.com/album-30311715_295688844',
         map: 'pervomayskoe_ba_2023',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2023-2/bal_23.jpg'
+        ]
     },
     {
         id: 'SPB_20230916_1',
@@ -2017,7 +2060,10 @@ let events2023 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: '78km_michura_mb_2023'
+        map: '78km_michura_mb_2023',
+        maps: [
+            'https://kandid.ru/maps23/omb23.jpg'
+        ]
     },
     {
         id: 'SPB_20231014_1',
@@ -2175,7 +2221,10 @@ let events2023 = [
             // 'https://drive.google.com/file/d/1Z7RM4SKeK_o7BqXs15SMRbG_gEF5oZX_/view?usp=sharing'
             'https://vk.com/doc43236248_669716988'
         ],
-        maps: ['https://rogaining.ru/results/rrc-results/rrc2023_map.jpg'],
+        maps: [
+            'https://rogaining.ru/results/rrc-results/rrc2023_map.jpg',
+            'https://sun9-77.userapi.com/impg/ecw1PCQ06mmvTH0BQCZkFxwe9XrgU7_oxAK9Zw/ZdVGZqCa3gc.jpg?size=2560x2183&quality=95&sign=f0a44d33974ae2fc3f8a7db07beefeba&type=album'
+        ],
         map: 'abrau_myskhako_rrc_2023',
         photo: [
             'https://vk.com/album40165867_297212921',
@@ -2225,7 +2274,10 @@ let events2023 = [
         name: 'ТОЧНЫЙ АЗИМУТ - региональный этап',
         reg: 'http://forms.yandex.ru/u/634410cecacde36db3fe3357/',
         info: 'Региональный этап финального мероприятия «Всероссийские игры по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций» Заявки на участие принимаются с 10.00 (МСК) 16 октября 2023 года до 12.00 (МСК) 23 октября 2023 года. Мероприятие проводится с 10.00 до 20.00 (МСК) 24 октября 2023 года в дистанционном формате, в информационно-телекоммуникационной сети «Интернет».',
-        o_site: '231024_TA'
+        o_site: '231024_TA',
+        maps: [
+            'https://o-site.spb.ru/_races/231024_TA/Maps_answers.pdf'
+        ]
     },
     {
         id: 'SPB_20231028_1',
@@ -2390,7 +2442,14 @@ let events2023 = [
         start: 'ROGAINE_110',
         o_site: '231111',
         bulletin: 'https://o-site.spb.ru/_races/231111/231111_info2.pdf',
-        map: 'orekhovo_2024'
+        map: 'orekhovo_2024',
+        maps: [
+            'https://o-site.spb.ru/_races/231111/A.jpg',
+            'https://o-site.spb.ru/_races/231111/B.jpg',
+            'https://o-site.spb.ru/_races/231111/D.jpg',
+            'https://o-site.spb.ru/_races/231111/E.jpg',
+            'https://o-site.spb.ru/_races/231111/C.jpg'
+        ]
     },
     {
         id: 'SPB_20231112_1',
@@ -2465,7 +2524,10 @@ let events2023 = [
         o_gps: {
             'А': 17865,
             'ALL': 17864
-        }
+        },
+        maps: [
+            'https://o-site.spb.ru/_races/2023_Orientir/All_KP_231125.jpg'
+        ]
     },
     {
         id: 'SPB_20231125_2',
@@ -2508,7 +2570,10 @@ let events2023 = [
         bulletin: 'https://o-site.spb.ru/_races/231126_st/231126_info2_new.pdf',
         reskeep: 633,
         map: 'sosnovka_2014',
-        o_gps: 17881
+        o_gps: 17881,
+        maps: [
+            'https://o-site.spb.ru/_races/231126_st/1112_2.9.png'
+        ]
     },
     {
         id: 'SPB_20231128_1',
@@ -2519,7 +2584,10 @@ let events2023 = [
         res: 'http://disk.yandex.ru/i/Ze24i6Khs2igaA',
         info: 'Всероссийский этап финального мероприятия «Всероссийские игры по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций»',
         o_site: '231128_TA',
-        bulletin: 'https://o-site.spb.ru/_races/231128_TA/TochnnyAzimut2023_vseros_bul.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/231128_TA/TochnnyAzimut2023_vseros_bul.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/231128_TA/solutions.pdf'
+        ]
     },
     {
         id: 'SPB_20231201_1',

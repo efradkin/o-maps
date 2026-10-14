@@ -82,7 +82,10 @@ let events2026 = [
         endReg: '2026-01-08 23:55',
         type: 'SKI',
         fmt: 'маркир',
-        map: 'silande_winter_2024_omaps'
+        map: 'silande_winter_2024_omaps',
+        maps: [
+            'https://o-site.spb.ru/_races/260110_markir_s_prokolom/map_Kontr.jpg'
+        ]
     },
     {
         id: 'SPB_20260111_1',
@@ -397,7 +400,10 @@ let events2026 = [
         o_gps: 24278,
         type: 'SKI',
         fmt: 'маркир,масстарт',
-        map: 'kirovsk_winter_2024'
+        map: 'kirovsk_winter_2024',
+        maps: [
+            'https://orgeo.ru/files/event/file/49121_80be40ff73.pdf'
+        ]
     },
     {
         id: 'SPB_20260221_3',
@@ -467,7 +473,10 @@ let events2026 = [
         type: 'SKI',
         fmt: 'маркир',
         map: 'orekhovo_nyrkovo_winter_2012',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        maps: [
+            'https://o-site.spb.ru/_races/260301_Reg/260301_markir_kontr.jpg',
+        ]
     },
     {
         id: 'SPB_20260307_1',
@@ -823,7 +832,7 @@ let events2026 = [
         bulletin: 'https://o-site.spb.ru/_races/260407_NWSprint_1/260407_NWsprint1_inf1.pdf',
         reg: 'https://orgeo.ru/event/info/nw_sprint',
         endReg: '2026-04-06 20:00',
-        info: 'Новая карта. <a href="https://vk.com/@nordwestmedia-razbor-nwsprint-1-etap-07042026">Разбор дистанций</a>.',
+        info: 'Новая карта. Разбор дистанций: [<a href="https://vk.com/@nordwestmedia-razbor-nwsprint-1-etap-07042026">1</a>],[<a href="https://o-site.spb.ru/_races/260407_NWSprint_1/260407_NWsprint1_razbor.pdf">2</a>].',
         video: 'https://rutube.ru/video/12708e94ecc5e049206368e381b5d0e1/',
         fmt: 'спринт',
         owner: 'NW',
@@ -1020,14 +1029,14 @@ let events2026 = [
         place: 'Комендантский пр',
         reg: 'http://orgeo.ru/event/nw_sprint_23_04',
         endReg: '2026-04-22 21:00',
-        info: 'Новая карта.',
+        info: 'Новая карта. <a href="https://o-site.spb.ru/_races/260423_NWSprint_2/260423_NWsprint2_razbor.pdf">Разбор дистанций</a>.',
         fmt: 'спринт',
         o_site: '260423_NWSprint_2',
         bulletin: 'https://o-site.spb.ru/_races/260423_NWSprint_2/260423_NWsprint2_info.pdf',
         reskeep: 878,
         planner: 'MSKV',
         owner: 'NW',
-        map: 'komendantsky_2026'
+        map: 'komendantsky_2026',
     },
     {
         id: 'SPB_20260425_1',
@@ -1550,7 +1559,10 @@ let events2026 = [
         o_gps: 25166,
         start: 'MB',
         coord: [60.604374, 29.040213],
-        owner: ['BKTV', 'SHBN']
+        owner: ['BKTV', 'SHBN'],
+        maps: [
+            'https://kandid.ru/maps26/vmb26.pdf'
+        ]
     },
     {
         id: 'SPB_20260523_8',
@@ -1655,7 +1667,12 @@ let events2026 = [
         photo: ['https://vk.ru/album-232059320_311134585','https://disk.yandex.ru/d/3K5Mr3qCRU-KJA','https://disk.yandex.ru/d/KqyAbJmFszbqyg'],
         start: ['BA','TA'],
         owner: ['BKTV', 'SHBN'],
-        map: 'olenii_ba_2026'
+        map: 'olenii_ba_2026',
+        maps: [
+            'https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_1.jpg',
+            'https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_2.jpg',
+            'https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_3.jpg'
+        ]
     },
     {
         id: 'SPB_20260530_3',
@@ -3051,6 +3068,7 @@ let events2026 = [
         name: 'Легенда осени',
         place: 'Ильинский сад',
         reg: 'http://orgeo.ru/event/info/legosen26',
+        bulletin: 'https://o-site.spb.ru/_races/261017/261017_IB.pdf',
         endReg: '2026-10-15 23:55',
         owner: 'FENIX',
         o_site: '261017',
@@ -3225,11 +3243,23 @@ let events2026 = [
         cancelled: true
     },
     {
+        id: 'SPB_20261031_3',
+        date: '2026-10-31',
+        place: 'Лемболово',
+        name: 'Агалатовская классика',
+        o_site: '261031_bn',
+        map: 'topograph_2017',
+        owner: 'WN',
+    },
+    {
         id: 'SPB_20261101_1',
         date: '2026-11-01',
         name: 'Кубок D2RUN, финал',
+        place: 'Лосево',
+        reg: 'https://orgeo.ru/event/56164',
         fmt: 'лонг (гандикап)',
-        owner: 'DLITELNY'
+        owner: 'DLITELNY',
+        map: 'losevo_2022'
     },
     {
         id: 'SPB_20261104_1',

@@ -18,7 +18,10 @@ let events2010 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/100117_vv/100117_res.htm',
         start: 'VSEV_VESTI',
-        o_site: '100117_vv'
+        o_site: '100117_vv',
+        maps: [
+            'https://o-site.spb.ru/_races/100117_vv/100117_map_control.gif'
+        ]
     },
     {
         id: 'SPB_20100117_2',
@@ -97,7 +100,10 @@ let events2010 = [
         name: 'Зимняя гонка Кант',
         type: 'SKI',
         res: 'http://www.adventureraces.ru/races/wr/2010/results.htm',
-        o_site: '10020607'
+        o_site: '10020607',
+        maps: [
+            'https://o-site.spb.ru/_races/10020607/map_for_site.gif'
+        ]
     },
     {
         id: 'SPB_20100207_1',
@@ -144,7 +150,10 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/10022122_LO/100221_res.htm',
         info: '21 февраля - маркир; 22 февраля - заданное напр.',
         o_site: '10022122_LO',
-        bulletin: 'https://o-site.spb.ru/_races/10022122_LO/10022122_info.html'
+        bulletin: 'https://o-site.spb.ru/_races/10022122_LO/10022122_info.html',
+        maps: [
+            'https://o-site.spb.ru/_races/10022122_LO/100221_karta.gif'
+        ]
     },
     {
         id: 'SPB_20100222_1',
@@ -197,7 +206,10 @@ let events2010 = [
         start: '100x24',
         o_site: '10030607',
         bulletin: 'https://o-site.spb.ru/_races/10030607/10030607_info.htm',
-        map: 'gavrilovo_2010_rogaine'
+        map: 'gavrilovo_2010_rogaine',
+        maps: [
+            'https://100x24.ru/2010/maps/100x24_map_2010.gif'
+        ]
     },
     {
         id: 'SPB_20100307_1',
@@ -272,7 +284,10 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100321/100321_res.htm',
         info: 'Программа зимней части Кубка ОК Гольфстрим: 1 этап: 13 марта - спринт 2 этап: 14 марта - удлинённая дистанция 3 этап: 21 марта - маркир, классика',
         owner: 'GOLFSTREAM',
-        o_site: '100321'
+        o_site: '100321',
+        maps: [
+            'https://o-site.spb.ru/_races/100321/100321_karta.gif'
+        ]
     },
     {
         id: 'SPB_20100327_1',
@@ -428,7 +443,11 @@ let events2010 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-1.php',
         map: 'razdolie_ba_2010',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2010-1/map-1.png',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2010-1/map-2.png'
+        ]
     },
     {
         id: 'SPB_20100516_1',
@@ -480,7 +499,10 @@ let events2010 = [
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'elizavetinka_ogonki_2010'
+        map: 'elizavetinka_ogonki_2010',
+        maps: [
+            'https://kandid.ru/maps10/mbs_10.png'
+        ]
     },
     {
         id: 'SPB_20100523_1',
@@ -687,7 +709,10 @@ let events2010 = [
         bulletin: 'http://www.100x24.ru/2010/docs/bull_20100619.htm',
         o_site: '100619',
         start: '100x24',
-        map: 'gavrilovo_2010_velo'
+        map: 'gavrilovo_2010_velo',
+        maps: [
+            'https://100x24.ru/2010/maps/velo_map_20100619.gif'
+        ]
     },
     {
         id: 'SPB_20100621_1',
@@ -781,7 +806,10 @@ let events2010 = [
         photo: 'https://o-site.spb.ru/race.php?id=tri-o-tlon-2010',
         info: 'Старейшая мультиспортивная гонка в России: в 2010-м году состоялся уже 9-й Три-О-Тлон, история которого ведёт отсчёт с 2002-го года. Самая качественная (по организации) гонка 2009-го года согласно опросу на сайте x-race.msk.ru Классическая гонка по набору дисциплин: треккинг, велосипед, байдарка, верёвочные этапы. Основная направленность гонки - навигация. Три дистанции - длинная, средняя и короткая. Участвуют команды из 2-х человек любого пола. Нас поддержали: СК Темп Альпина Спортивная Линия Яркий Мир Маноми Кант Спортсистем Про-Спорт Альпиндустрия Эксперты Приключений Информационная поддержка: O-site x-race.msk.ru adventureraces.ru carabin.ru',
         logo: 'triotlon.gif',
-        o_site: 'tri-o-tlon-2010'
+        o_site: 'tri-o-tlon-2010',
+        maps: [
+            'https://o-site.spb.ru/_races/tri-o-tlon-2010/L1_L7_tracks.gif'
+        ]
     },
     {
         id: 'SPB_20100808_1',
@@ -885,7 +913,10 @@ let events2010 = [
         fmt: '3 и 6 часов',
         start: 'GORNY_CROSS',
         o_site: '100911',
-        bulletin: 'https://o-site.spb.ru/_races/100911/100911_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/100911/100911_info.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/100911/GK_tracks.gif'
+        ]
     },
     {
         id: 'SPB_20100912_1',
@@ -973,7 +1004,10 @@ let events2010 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'yappilya_mb_2010'
+        map: 'yappilya_mb_2010',
+        maps: [
+            'https://kandid.ru/maps10/map_mb_10.jpg'
+        ]
     },
     {
         id: 'SPB_20100926_1',
@@ -1063,7 +1097,10 @@ let events2010 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-2.php',
         map: 'gruzino_ba_2010',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2010-2/bal_10.jpg'
+        ]
     },
     {
         id: 'SPB_20101014_1',
@@ -1276,7 +1313,10 @@ let events2010 = [
         o_site: '101205_Az',
         bulletin: 'https://o-site.spb.ru/_races/101205_Az/101205_info3.htm',
         map: 'pesochnaya_2005',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        maps: [
+            'https://o-site.spb.ru/_races/101205_Az/101205_map.gif'
+        ]
     },
     {
         id: 'SPB_20101212_1',
@@ -1316,6 +1356,9 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/101226/101226_res.htm',
         video: 'https://www.youtube.com/watch?v=eJ6WGTbmy98',
         o_site: '101226',
-        map: 'toksovo_malinovaya_gora_1997'
+        map: 'toksovo_malinovaya_gora_1997',
+        maps: [
+            'https://o-site.spb.ru/_races/101226/101226_map.jpg'
+        ]
     },
 ];

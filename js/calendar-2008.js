@@ -65,7 +65,10 @@ let events2008 = [
         start: 'VOLKOV_A',
         o_site: '080203',
         bulletin: 'https://o-site.spb.ru/_races/080203/080203_bul3.htm',
-        map: 'volkov_2008_02_03'
+        map: 'volkov_2008_02_03',
+        maps: [
+            'https://o-site.spb.ru/_races/080203/080203_controlmap.jpg'
+        ]
     },
     {
         id: 'SPB_20080210_1',
@@ -87,7 +90,10 @@ let events2008 = [
         info: 'лыжный рогейн «100 км за 24 часа»',
         start: '100x24',
         o_site: '080216_r',
-        map: 'gavrilovo_2008'
+        map: 'gavrilovo_2008',
+        maps: [
+            'https://100x24.ru/2008/map/100x24_map_2008.gif'
+        ]
     },
     {
         id: 'SPB_20080217_1',
@@ -109,7 +115,10 @@ let events2008 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080223/080223_res.htm',
         o_site: '080223',
-        bulletin: 'https://o-site.spb.ru/_races/080223/08022325_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/080223/08022325_info.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/080223/080223_map.jpg'
+        ]
     },
     {
         id: 'SPB_20080225_1',
@@ -249,7 +258,10 @@ let events2008 = [
         name: 'Кубок Яркого Мира, 1-й и 2-й этапы',
         res: 'https://o-site.spb.ru/_races/08042627/YM_res.zip',
         start: 'YM_CUP',
-        o_site: '08042627'
+        o_site: '08042627',
+        maps: [
+            'https://o-site.spb.ru/_races/08042627/winners_track.gif'
+        ]
     },
     {
         id: 'SPB_20080427_1',
@@ -361,7 +373,10 @@ let events2008 = [
         name: 'Кубок Яркого Мира, 3 этап',
         res: 'https://o-site.spb.ru/_races/080511/080511_res.zip',
         start: 'YM_CUP',
-        o_site: '080511'
+        o_site: '080511',
+        maps: [
+            'https://o-site.spb.ru/_races/080511/080511_winnerspaths.gif'
+        ]
     },
     {
         id: 'SPB_20080515_1',
@@ -453,7 +468,10 @@ let events2008 = [
         info: 'Юбилейный, 50-й Чемпионат Санкт-Петербурга!!!',
         o_site: '080524',
         bulletin: 'http://www.o-site.spb.ru/_races/080525/08052425_info2.htm',
-        reskeep: 264
+        reskeep: 264,
+        maps: [
+            'https://o-site.spb.ru/_races/080524/080524_MELeadPath.jpg'
+        ]
     },
     {
         id: 'SPB_20080524_2',
@@ -465,7 +483,10 @@ let events2008 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-1.php',
         map: 'losinaya_gora_ba_2008',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2008-1/bikeadventure08map.gif'
+        ]
     },
     {
         id: 'SPB_20080525_1',
@@ -495,7 +516,11 @@ let events2008 = [
         info: 'Открытая техническая тренировка с электронной отметкой На тренировке будет предложена программа О-Mix. В одном старте будет содержаться несколько видов ориентирования, технических задач и иных вариантов нагрузки, типичной для спортивного ориентирования.',
         o_site: '080419',
         bulletin: 'http://docs.google.com/Doc?id=d8q4mwg_19jqwvdds',
-        map: 'toksovo_malinovaya_gora_1997'
+        map: 'toksovo_malinovaya_gora_1997',
+        maps: [
+            'https://o-site.spb.ru/_races/080419/080531_controlA.gif',
+            'https://o-site.spb.ru/_races/080419/080531_controlB.gif'
+        ]
     },
     {
         id: 'SPB_20080531_2',
@@ -627,7 +652,10 @@ let events2008 = [
         name: 'Памяти Бориса Панкратьева',
         res: 'https://o-site.spb.ru/_races/080720/080720_mtbo_rez.htm',
         photo: 'http://photofile.ru/users/jb7/3595092/',
-        o_site: '080720'
+        o_site: '080720',
+        maps: [
+            'https://o-site.spb.ru/_races/080720/DE_path.gif'
+        ]
     },
     {
         id: 'SPB_20080726_1',
@@ -641,7 +669,10 @@ let events2008 = [
         publish: 'https://o-site.spb.ru/race.php?id=tri-o-tlon-2008',
         info: 'Старейшая мультиспортивная гонка в России, в 2008-м году состоится уже 7-й Три-О-Тлон, который начал свою историю с 2002-го года. Классическая гонка по набору дисциплин: треккинг, велосипед, байдарка, верёвочные этапы. Основная направленность гонки - навигация. Три дистанции - длинная, средняя и для начинающих. Участвуют команды из 2-х человек любого пола. Информационная поддержка: O-site x-race.msk.ru adventureraces.ru carabin.ru',
         logo: 'triotlon.gif',
-        o_site: 'tri-o-tlon-2008'
+        o_site: 'tri-o-tlon-2008',
+        maps: [
+            'https://o-site.spb.ru/_races/tri-o-tlon-2008/winners_track.gif'
+        ]
     },
     {
         id: 'SPB_20080727_1',
@@ -673,7 +704,11 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/080810/rogain110_res.htm',
         start: 'ROGAINE_110',
         o_site: '080810',
-        bulletin: 'https://o-site.spb.ru/_races/080810/rogain110_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/080810/rogain110_info2.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/080810/rogain110_track1.jpg',
+            'https://o-site.spb.ru/_races/080810/rogain110_track2.jpg'
+        ]
     },
     {
         id: 'SPB_20080816_1',
@@ -779,7 +814,10 @@ let events2008 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'lembolovo_mb_2008'
+        map: 'lembolovo_mb_2008',
+        maps: [
+            'https://kandid.ru/maps08/mb2008.gif'
+        ]
     },
     {
         id: 'SPB_20080921_1',
@@ -829,7 +867,10 @@ let events2008 = [
         publish: 'https://o-site.spb.ru/race.php?id=081016',
         res: 'https://o-site.spb.ru/_races/081016/081016_res.htm',
         o_site: '081016',
-        endDate: '2008-10-16'
+        endDate: '2008-10-16',
+        maps: [
+            'https://o-site.spb.ru/_races/081016/081016_map.gif'
+        ]
     },
     {
         id: 'SPB_20081002_1',
@@ -941,7 +982,10 @@ let events2008 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-2.php',
         map: 'kanneliarvi_ba_2008',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2008-2/bal08_a3.jpg'
+        ]
     },
     {
         id: 'SPB_20081101_1',
@@ -1041,7 +1085,10 @@ let events2008 = [
         photo: 'http://foto.mail.ru/list/har1nka/1',
         start: 'GORNY_CROSS',
         o_site: '081129',
-        bulletin: 'https://o-site.spb.ru/_races/081129/GK14-bul.htm'
+        bulletin: 'https://o-site.spb.ru/_races/081129/GK14-bul.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/081129/081129_map.gif'
+        ]
     },
     {
         id: 'SPB_20081130_1',
@@ -1089,7 +1136,10 @@ let events2008 = [
         name: 'Кузьмоловский Маркир',
         res: 'https://o-site.spb.ru/_races/081214/081214_res.htm',
         info: 'Открытая тренировка',
-        o_site: '081214'
+        o_site: '081214',
+        maps: [
+            'https://o-site.spb.ru/_races/081214/081214_map.gif'
+        ]
     },
     {
         id: 'SPB_20081214_2',

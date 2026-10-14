@@ -240,7 +240,12 @@ let events2004 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'kuznechnoe_mb_2004'
+        map: 'kuznechnoe_mb_2004',
+        maps: [
+            'https://kandid.ru/maps04/p1.jpg',
+            'https://kandid.ru/maps04/p2.jpg',
+            'https://kandid.ru/maps04/p3.jpg'
+        ]
     },
     {
         id: 'SPB_20040926_1',

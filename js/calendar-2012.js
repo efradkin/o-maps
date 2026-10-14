@@ -105,7 +105,10 @@ let events2012 = [
         info: 'Вторая зимняя Универсиада Санкт-Петербурга по спортивному ориентированию на лыжах. Допускаются только команды ВУЗов (полные и неполные). Максимальные составы 5 М + 5 Ж.',
         o_site: '12020910',
         bulletin: 'https://o-site.spb.ru/_races/12020910/12020910_info3.htm',
-        map: 'toksovo_vifk_winter_2023'
+        map: 'toksovo_vifk_winter_2023',
+        maps: [
+            'https://o-site.spb.ru/_races/12020910/120209_mapAll.gif'
+        ]
     },
     {
         id: 'SPB_20120211_1',
@@ -161,7 +164,11 @@ let events2012 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/120226_1/120226_RES.htm',
         o_site: '120226_1',
-        bulletin: 'https://o-site.spb.ru/_races/120226_1/120226_info3.htm'
+        bulletin: 'https://o-site.spb.ru/_races/120226_1/120226_info3.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/120226_1/120226_map.gif',
+            'https://o-site.spb.ru/_races/120226_1/120226_shema_dist.gif'
+        ]
     },
     {
         id: 'SPB_20120308_1',
@@ -250,7 +257,11 @@ let events2012 = [
         video: 'https://www.youtube.com/watch?v=nYf_-WZoB1U',
         o_site: '120318',
         bulletin: 'https://o-site.spb.ru/_races/120318/120318_info.htm',
-        map: 'toksovo_malinovaya_gora_1997'
+        map: 'toksovo_malinovaya_gora_1997',
+        maps: [
+            'https://o-site.spb.ru/_races/120318/120318_map.gif',
+            'https://o-site.spb.ru/_races/120318/120318_shemadist.gif'
+        ]
     },
     {
         id: 'SPB_20120325_1',
@@ -440,7 +451,10 @@ let events2012 = [
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'roschino_mb_2012'
+        map: 'roschino_mb_2012',
+        maps: [
+            'https://kandid.ru/maps12/map_vmb12.jpg'
+        ]
     },
     {
         id: 'SPB_20120513_1',
@@ -523,7 +537,10 @@ let events2012 = [
         map: 'kamenka_ba_2012',
         start: 'BA',
         owner: 'BKTV',
-        info: 'Бобочинский полигон.'
+        info: 'Бобочинский полигон.',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2012-1/map_ba12.jpg'
+        ]
     },
     {
         id: 'SPB_20120520_1',
@@ -697,7 +714,10 @@ let events2012 = [
         fmt: '3 часа вело',
         o_site: '120624',
         start: '100x24',
-        map: 'gladyshevskoe_2012_velo'
+        map: 'gladyshevskoe_2012_velo',
+        maps: [
+            'https://100x24.ru/2012/maps/100x24_2012_mtb.gif'
+        ]
     },
     {
         id: 'SPB_20120626_1',
@@ -1143,7 +1163,10 @@ let events2012 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2012-2.php',
         map: 'sapernoe_ba_2012',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2012-2/bal12.png'
+        ]
     },
     {
         id: 'SPB_20120929_3',
@@ -1152,7 +1175,10 @@ let events2012 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'losevo_2012'
+        map: 'losevo_2012',
+        maps: [
+            'https://kandid.ru/maps12/map_omb12.gif'
+        ]
     },
     {
         id: 'SPB_20120930_1',
@@ -1226,7 +1252,10 @@ let events2012 = [
         name: 'Кубок школьного двора',
         res: 'https://o-site.spb.ru/_races/121011/121011_res.htm',
         o_site: '121011',
-        bulletin: 'https://o-site.spb.ru/_races/121011/121011_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/121011/121011_info.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/121011/121011_map.jpg'
+        ]
     },
     {
         id: 'SPB_20121011_2',
@@ -1355,7 +1384,10 @@ let events2012 = [
         place: 'шк №31',
         publish: 'https://o-site.spb.ru/race.php?id=121030',
         res: 'https://o-site.spb.ru/_races/121030/121030_res.pdf',
-        o_site: '121030'
+        o_site: '121030',
+        maps: [
+            'https://o-site.spb.ru/_races/121030/121030_karta.jpg'
+        ]
     },
     {
         id: 'SPB_20121102_1',
@@ -1508,7 +1540,10 @@ let events2012 = [
         publish: 'https://o-site.spb.ru/race.php?id=121216_2',
         res: 'https://o-site.spb.ru/_races/121216_2/121216_res.htm',
         o_site: '121216_2',
-        bulletin: 'https://o-site.spb.ru/_races/121216_2/20121216%20info_2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/121216_2/20121216%20info_2.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/121216_2/121216_map.gif'
+        ]
     },
     {
         id: 'SPB_20121216_2',
@@ -1533,7 +1568,10 @@ let events2012 = [
         place: 'Юкки',
         name: 'Новогодняя Эстафета',
         res: 'http://o-time.ru/images/all/w12/nyrelay2013.pdf',
-        o_site: '121223'
+        o_site: '121223',
+        maps: [
+            'http://o-time.ru/images/all/w12/nyrelay2013.jpg'
+        ]
     },
     {
         id: 'SPB_20121223_2',

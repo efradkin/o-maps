@@ -33,7 +33,11 @@ let commonEvents2026 = [
         ],
         gps: 'https://www.tulospalvelu.fi/gps/',
         coord: [46.1700372, 8.7958253],
-        owner: 'IOF'
+        owner: 'IOF',
+        maps: [
+            // 'https://www.livelox.com/Events/Show/186822', // Livelox: World Cup 2026 Locarno Ascona Switzerland
+            // 'https://www.livelox.com/Events/Show/186935', // Livelox: World Cup 2026 Locarno Ascona Switzerland Sprintrelay
+        ]
     },
     {
         id: 'SPB_20260509_2',

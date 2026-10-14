@@ -23,7 +23,11 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/18010708/180107_res.htm',
         owner: 'NW',
         o_site: '18010708',
-        bulletin: 'https://o-site.spb.ru/_races/18010708/180107-08_info2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/18010708/180107-08_info2.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/18010708/180107_control_map.gif',
+            'https://o-site.spb.ru/_races/18010708/180107_sd.jpg'
+        ]
     },
     {
         id: 'SPB_20180113_1',
@@ -66,7 +70,10 @@ let events2018 = [
         type: 'SKI',
         fmt: 'маркир',
         res: 'https://o-site.spb.ru/_races/180120/20180120_res.htm',
-        o_site: '180120'
+        o_site: '180120',
+        maps: [
+            'https://o-site.spb.ru/_races/180120/180120_markir_map.pdf'
+        ]
     },
     {
         id: 'SPB_20180121_1',
@@ -153,7 +160,10 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=838',
         res: 'https://o-site.spb.ru/_races/18021011_matreshka/180210M_res.htm',
         o_site: '18021011_matreshka',
-        bulletin: 'https://o-site.spb.ru/_races/18021011_matreshka/20180210_info_1_1.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/18021011_matreshka/20180210_info_1_1.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/18021011/180210_markir_All.pdf'
+        ]
     },
     {
         id: 'SPB_20180210_2',
@@ -165,7 +175,10 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/18021011/180210_rez.htm',
         info: 'Спортсмены, не представившие все необходимые документы в мандатную комиссию, не будут включены в стартовые протоколы и допущены к соревнованиям!',
         o_site: '18021011',
-        bulletin: 'https://o-site.spb.ru/_races/18021011/20180210_info_1.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/18021011/20180210_info_1.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/18021011/180210_markir_All.pdf'
+        ]
     },
     {
         id: 'SPB_20180218_1',
@@ -176,7 +189,10 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=840',
         res: 'https://o-site.spb.ru/_races/180218/180218_res2.htm',
         o_site: '180218',
-        bulletin: 'https://o-site.spb.ru/_races/180218/180218_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/180218/180218_info.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/180218/180218_map.pdf'
+        ]
     },
     {
         id: 'SPB_20180223_1',
@@ -677,7 +693,10 @@ let events2018 = [
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'gavrilovo_vmb_2018'
+        map: 'gavrilovo_vmb_2018',
+        maps: [
+            'https://kandid.ru/maps18/VMB18.jpg'
+        ]
     },
     {
         id: 'SPB_20180520_1',
@@ -750,7 +769,10 @@ let events2018 = [
         video: 'https://www.youtube.com/watch?v=yM4fWkWOB1g',
         map: ['kamennogorsk_ta_2018','smorodinka_2018'],
         start: ['BA','TA'],
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2018-1/BA18.png'
+        ]
     },
     {
         id: 'SPB_20180526_3',
@@ -1648,7 +1670,11 @@ let events2018 = [
         photo: 'https://vk.com/album-30311715_256332495',
         map: 'toksovo_bal_2018',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2018-2/mapBAL18-1.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2018-2/mapBAL18-2.jpg'
+        ]
     },
     {
         id: 'SPB_20180929_1',
@@ -1758,7 +1784,11 @@ let events2018 = [
         o_gps: {
             '1':4505,
             '2':4506
-        }
+        },
+        maps: [
+            'https://kandid.ru/maps18/OMB18_2.jpg',
+            'https://kandid.ru/maps18/OMB18_1.jpg'
+        ]
     },
     {
         id: 'SPB_20181007_1',
@@ -2049,7 +2079,10 @@ let events2018 = [
         start: 'ROGAINE_110',
         o_site: '181111_mt',
         map: 'lembolovo_2024',
-        o_gps: 4700
+        o_gps: 4700,
+        maps: [
+            'https://o-site.spb.ru/_races/181111_mt/181111_controlmap.jpg'
+        ]
     },
     {
         id: 'SPB_20181111_2',
@@ -2130,8 +2163,10 @@ let events2018 = [
         name: 'Цикл стартов МаТрёшка, 4 этап',
         start: 'MATRESHKA',
         res: 'http://o-site.spb.ru/_races/1804-11/181124_MT_split.htm',
-        publish: 'https://o-site.spb.ru/_races/1804-11/181124_map.jpg',
-        o_site: '1804-11'
+        o_site: '1804-11',
+        maps: [
+            'https://o-site.spb.ru/_races/1804-11/181124_map.jpg'
+        ]
     },
     {
         id: 'SPB_20181125_1',
@@ -2167,7 +2202,10 @@ let events2018 = [
         bulletin: 'https://o-site.spb.ru/_races/181201_NatAlka/181201.pdf',
         reskeep: 97,
         map: 'sosnovka_2014',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        maps: [
+            'https://o-site.spb.ru/_races/181201_NatAlka/NatAlka_map.jpg'
+        ]
     },
     {
         id: 'SPB_20181202_1',

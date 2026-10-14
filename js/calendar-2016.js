@@ -21,7 +21,10 @@ let events2016 = [
         o_site: '160109-10',
         bulletin: 'https://o-site.spb.ru/_races/160109-10/16010910_info3.html',
         endDate: '2016-01-10',
-        map: 'tsvelodubovo_winter_2003'
+        map: 'tsvelodubovo_winter_2003',
+        maps: [
+            'https://o-site.spb.ru/_races/160109-10/160109_cvel_map.jpg'
+        ]
     },
     {
         id: 'SPB_20160110_1',
@@ -160,7 +163,11 @@ let events2016 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/160228/160228_res.htm',
         o_site: '160228',
-        bulletin: 'https://o-site.spb.ru/_races/160228/160228_info_31.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/160228/160228_info_31.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/160228/Map10000_MT.gif',
+            'https://o-site.spb.ru/_races/160228/Map7500_MT1.gif'
+        ]
     },
     {
         id: 'SPB_20160306_1',
@@ -617,7 +624,10 @@ let events2016 = [
         type: 'TOURISM',
         video: 'https://www.youtube.com/watch?v=PboTL9iikB4',
         start: 'MB',
-        map: 'lembolovo_mb_2016'
+        map: 'lembolovo_mb_2016',
+        maps: [
+            'https://kandid.ru/maps16/VMB2016.jpg'
+        ]
     },
     {
         id: 'SPB_20160514_3',
@@ -814,7 +824,10 @@ let events2016 = [
         video: 'https://www.youtube.com/watch?v=RC114NyDPPA',
         map: 'melnikovo_ba_2016',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2016-1/BA2016_karta.png'
+        ]
     },
     {
         id: 'SPB_20160529_1',
@@ -1073,7 +1086,10 @@ let events2016 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=615',
         bulletin: 'http://100x24.ru/2016/docs/20160709_bull.htm',
         o_site: '160709',
-        start: '100x24'
+        start: '100x24',
+        maps: [
+            'https://100x24.ru/2016/maps/100x24_2016_mtbo.png'
+        ]
     },
     {
         id: 'SPB_20160723_2',
@@ -1445,7 +1461,10 @@ let events2016 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'borovinka_2012'
+        map: 'borovinka_2012',
+        maps: [
+            'https://kandid.ru/maps16/OMB2016.jpg'
+        ]
     },
     {
         id: 'SPB_20160924_4',
@@ -1534,7 +1553,10 @@ let events2016 = [
         video: 'https://www.youtube.com/watch?v=2rKJbFJohLc',
         map: 'yagodnoe_ba_2016',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2016-2/bal2016.png'
+        ]
     },
     {
         id: 'SPB_20161002_1',
@@ -1862,7 +1884,11 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/161120/161120_rezshtr.htm',
         info: 'Тренировочный старт на маркированной дистанции.',
         o_site: '161120',
-        bulletin: 'https://o-site.spb.ru/_races/161120/161120_marNW_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/161120/161120_marNW_info.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/161120/161120_km.pdf',
+            'https://o-site.spb.ru/_races/161120/161120_shemdist.pdf'
+        ]
     },
     {
         id: 'SPB_20161126_1',
@@ -1939,7 +1965,10 @@ let events2016 = [
         o_site: '2016_Orientir',
         bulletin: 'https://o-site.spb.ru/_races/2016_Orientir/161204_info2.htm',
         map: 'sosnovka_2014',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        maps: [
+            'https://o-site.spb.ru/_races/2016_Orientir/161204_dist_.All.jpg'
+        ]
     },
     {
         id: 'SPB_20161210_1',

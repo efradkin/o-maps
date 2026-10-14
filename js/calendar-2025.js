@@ -13,7 +13,10 @@ let events2025 = [
             'спринт': 21375
         },
         map: 'tsvelodubovo_winter_2003_omaps',
-        owner: 'NW'
+        owner: 'NW',
+        maps: [
+            'https://o-site.spb.ru/_races/250108_RS/250107_RS_control_map.jpg'
+        ]
     },
     {
         id: 'SPB_20250111_1',
@@ -71,11 +74,12 @@ let events2025 = [
         fmt: 'ЛГ-классика, ЛГ-масстарт',
         o_site: '250119_chemp',
         bulletin: 'https://o-site.spb.ru/_races/250119_chemp/25011819_info3.pdf',
+        publish: 'https://o-site.spb.ru/race.php?id=250119_chemp',
         map: 'orekhovo_nyrkovo_winter_2012',
         o_gps: {
             '18': 21426,
             '19': 21431
-        }
+        },
     },
     {
         id: 'SPB_20250201_1',
@@ -100,10 +104,11 @@ let events2025 = [
         fmt: 'ЛГ-лонг',
         o_site: '250202_chemp',
         bulletin: 'https://o-site.spb.ru/_races/250202_chemp/250202_info2.pdf',
+        publish: 'https://o-site.spb.ru/race.php?id=250202_chemp',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1650',
         o_gps: 21563,
         video: 'https://vkvideo.ru/video-218850805_456259621',
-        map: 'orekhovo_nyrkovo_winter_2012'
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20250201_2',
@@ -234,7 +239,7 @@ let events2025 = [
         map: 'piskarevsky_2024',
         publish: 'https://o-site.spb.ru/race.php?id=250223_ST',
         strava: 13702730016,
-        me: 'Фит'
+        me: 'Фит',
     },
     {
         id: 'SPB_20250227_1',
@@ -258,15 +263,13 @@ let events2025 = [
         type: 'SKI',
         o_site: '250302',
         bulletin: 'https://o-site.spb.ru/_races/250302/250302_info3.pdf',
+        publish: 'https://o-site.spb.ru/race.php?id=250302',
         o_gps: {
             '1': 21708,
             '2': 21711
         },
-        coord: [
-            60.460798,
-            30.306566
-        ],
-        map: 'orekhovo_nyrkovo_winter_2012'
+        coord: [60.460798, 30.306566],
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20250308_1',
@@ -287,7 +290,7 @@ let events2025 = [
         map: 'lesotekchnicheskaya_2025',
         publish: 'https://o-site.spb.ru/race.php?id=250308_ST',
         strava: 13820367367,
-        me: 'М45'
+        me: 'М45',
     },
     {
         id: 'SPB_20250308_2',
@@ -829,7 +832,10 @@ let events2025 = [
         publish: 'https://vk.com/album-230167293_309657044',
         map: 'tsvelodubovo_south_2021',
         reskeep: 697,
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        maps: [
+            'https://o-site.spb.ru/_races/250509/All_KP_09.05.2025.jpg'
+        ]
     },
     {
         id: 'SPB_20250510_1',
@@ -862,7 +868,8 @@ let events2025 = [
         o_site: '250510_velo',
         bulletin: 'https://o-site.spb.ru/_races/250510_velo/250510_info_2.pdf',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1691',
-        map: 'lembolovo_velo_relay_2025'
+        publish: 'https://o-site.spb.ru/race.php?id=250510_velo',
+        map: 'lembolovo_velo_relay_2025',
     },
     {
         id: 'SPB_20250511_1',
@@ -1068,7 +1075,11 @@ let events2025 = [
             'https://vk.com/album-29327859_307676199'
         ],
         map: 'borodinskoe_mb_2025',
-        start: 'MB'
+        start: 'MB',
+        maps: [
+            'https://kandid.ru/maps25/map_1.pdf',
+            'https://kandid.ru/maps25/map_2.pdf'
+        ]
     },
     {
         id: 'SPB_20250524_2',
@@ -1146,7 +1157,10 @@ let events2025 = [
         photo: ['https://vk.com/album-30311715_307382548','https://vk.com/album-30311715_306332306'],
         map: 'red_valley_2025',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2025-1/BA25.jpg'
+        ]
     },
     {
         id: 'SPB_20250531_3',
@@ -1895,7 +1909,13 @@ let events2025 = [
         owner: 'VYBORG',
         map: 'leypjasuo_2014',
         strava: 15567854500,
-        me: 'A'
+        me: 'A',
+        maps: [
+            'https://o-site.spb.ru/_races/250824_Tokma/TM25_A.jpg',
+            'https://o-site.spb.ru/_races/250824_Tokma/TM25_B.jpg',
+            'https://o-site.spb.ru/_races/250824_Tokma/TM25_D.jpg',
+            'https://o-site.spb.ru/_races/250824_Tokma/TM25_C.jpg'
+        ]
     },
     {
         id: 'SPB_20250830_1',
@@ -2116,7 +2136,7 @@ let events2025 = [
             'https://rutube.ru/video/b1267189df8aebb8490730aec92ae994/'
         ],
         map: 'pastorskoe_2024',
-        publish: 'https://vk.com/album-230167293_311033082',
+        publish: ['https://vk.com/album-230167293_311033082','https://o-site.spb.ru/race.php?id=250914_ch'],
         strava: 15807946368,
         me: 'М50'
     },
@@ -2691,7 +2711,10 @@ let events2025 = [
         ],
         start: 'BA',
         owner: 'BKTV',
-        map: 'snetkovskoe_ba_2025'
+        map: 'snetkovskoe_ba_2025',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2025-2/BAL25.jpg'
+        ]
     },
     {
         id: 'SPB_20251012_2',
@@ -2763,7 +2786,10 @@ let events2025 = [
         ],
         video: ['https://youtu.be/qpjohddGcKU','https://t.me/gradadventure/36'],
         map: ['red_valley_2025', 'yappilya_mb_2025'],
-        start: 'MB'
+        start: 'MB',
+        maps: [
+            'https://kandid.ru/maps25/omb25.jpg'
+        ]
     },
     {
         id: 'SPB_20251019_1',
@@ -3023,13 +3049,14 @@ let events2025 = [
         fmt: 'маркир',
         o_site: '251109',
         bulletin: 'https://o-site.spb.ru/_races/251109/251109_info1.pdf',
+        publish: 'https://o-site.spb.ru/race.php?id=251109',
         reg: 'http://orgeo.ru/event/47234',
         endReg: '2025-11-06 23:55',
         o_gps: 23839,
         start: 'ROGAINE_110',
         map: 'lembolovo_2024',
         strava: 16403313501,
-        me: 'A'
+        me: 'A',
     },
     {
         id: 'SPB_20251115_1',
@@ -3166,7 +3193,7 @@ let events2025 = [
         video: 'https://rutube.ru/video/9406bc8349c6b0483880dce378626e05/',
         reskeep: 822,
         map: 'sosnovka_2024',
-        publish: 'https://vk.com/album-230167293_311811604',
+        publish: ['https://vk.com/album-230167293_311811604','https://o-site.spb.ru/race.php?id=251123_ST'],
         strava: 16540895608,
         me: 'М45'
     },
@@ -3283,12 +3310,13 @@ let events2025 = [
         name: 'НатАлка',
         o_site: '2025_Orientir',
         bulletin: 'https://o-site.spb.ru/_races/2025_Orientir/Info_301125.pdf',
+        publish: 'https://o-site.spb.ru/race.php?id=2025_Orientir',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1708',
         o_gps: 23924,
         map: 'udelny_2021',
         strava: 16608173278,
         me: 'МА',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
     },
     {
         id: 'SPB_20251206_1',
@@ -3411,7 +3439,10 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/48286',
         endReg: '2025-12-11 22:55',
         photo: 'https://vk.ru/album-222424338_309589045',
-        map: 'sablino_zhemchug_cave'
+        map: 'sablino_zhemchug_cave',
+        maps: [
+            'https://orgeo.ru/files/event/file/48286_d5c744c5e3.pdf'
+        ]
     },
     {
         id: 'SPB_20251214_1',
@@ -3529,6 +3560,10 @@ let events2025 = [
         photo: 'https://vk.ru/album-220245153_312176887',
         map: 'toksovo_vifk_2020',
         owner: 'KUZMOLOVO',
-        reskeep: 836
+        reskeep: 836,
+        maps: [
+            'https://o-site.spb.ru/_races/251228_markir/251228_controlmap.jpg',
+            'https://o-site.spb.ru/_races/251228_markir/20251228_scheme.jpg'
+        ]
     }
 ];

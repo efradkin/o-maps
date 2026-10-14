@@ -62,7 +62,11 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/150124-25/150124_res.pdf',
         o_site: '150124-25',
-        bulletin: 'https://o-site.spb.ru/_races/150124-25/150125_info4MT.htm'
+        bulletin: 'https://o-site.spb.ru/_races/150124-25/150125_info4MT.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/150124-25/150125_map.pdf',
+            'https://o-site.spb.ru/_races/150124-25/150125_sxema_D.gif'
+        ]
     },
     {
         id: 'SPB_20150201_1',
@@ -72,7 +76,11 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=445',
         res: 'https://o-site.spb.ru/_races/150201/150201_res.htm',
         o_site: '150201',
-        bulletin: 'https://o-site.spb.ru/_races/150201/150201_info3.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/150201/150201_info3.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/150201/um-2015_ABC.JPG',
+            'https://o-site.spb.ru/_races/150201/um-2015_DEFG.JPG'
+        ]
     },
     {
         id: 'SPB_20150207_1',
@@ -86,7 +94,11 @@ let events2015 = [
         start: 'VOLKOV_A',
         o_site: '150207',
         bulletin: 'https://o-site.spb.ru/_races/150207/150207_info3.htm',
-        map: 'volkov_2015_02_07'
+        map: 'volkov_2015_02_07',
+        maps: [
+            'https://o-site.spb.ru/_races/150207/150207_dis_ABCD.pdf',
+            'https://o-site.spb.ru/_races/150207/150207_dis_EFG.pdf'
+        ]
     },
     {
         id: 'SPB_20150208_1',
@@ -135,7 +147,11 @@ let events2015 = [
         name: 'Чемпионат и Первенство СПб на лыжах, маркир',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/150215/150215_res2.pdf',
-        o_site: '150215'
+        o_site: '150215',
+        maps: [
+            'https://o-site.spb.ru/_races/150215/150215_dist_DE.pdf',
+            'https://o-site.spb.ru/_races/150215/150215_dist_ABC.pdf'
+        ]
     },
     {
         id: 'SPB_20150221_1',
@@ -171,7 +187,10 @@ let events2015 = [
         type: 'ROGAINE',
         res: 'http://www.100x24.ru/2015/results/100x24_20150301.htm',
         o_site: '150301r',
-        start: '100x24'
+        start: '100x24',
+        maps: [
+            'https://100x24.ru/2015/maps/100x24_2015.gif'
+        ]
     },
     {
         id: 'SPB_20150301_2',
@@ -724,7 +743,12 @@ let events2015 = [
         photo: 'https://vk.com/album-30311715_215508127',
         map: 'otradnoe_ba_2015',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba2015_1.png',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba2015_2.png',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba2015_3.png'
+        ]
     },
     {
         id: 'SPB_20150524_1',
@@ -802,7 +826,12 @@ let events2015 = [
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'kalinino_2015'
+        map: 'kalinino_2015',
+        maps: [
+            'https://kandid.ru/maps15/vmb_1.png',
+            'https://kandid.ru/maps15/vmb_2.png',
+            'https://kandid.ru/maps15/vmb_3.png'
+        ]
     },
     {
         id: 'SPB_20150531_1',
@@ -1148,7 +1177,10 @@ let events2015 = [
         res: 'http://100x24.ru/2015/results/20150816_res.htm',
         bulletin: 'http://100x24.ru/2015/docs/20150816_bull.htm',
         o_site: '150816_velo',
-        start: '100x24'
+        start: '100x24',
+        maps: [
+            'https://100x24.ru/2015/maps/100x24_2015_mtbo.gif'
+        ]
     },
     {
         id: 'SPB_20150816_2',
@@ -1398,7 +1430,10 @@ let events2015 = [
         photo: 'https://vk.com/album-30311715_216614758',
         map: 'krasna_gorka_ba_2015',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2015-2/bal-2015.png'
+        ]
     },
     {
         id: 'SPB_20150920_1',
@@ -1493,7 +1528,11 @@ let events2015 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'paltsevo_mb_2015'
+        map: 'paltsevo_mb_2015',
+        maps: [
+            'https://kandid.ru/maps15/omb_1.png',
+            'https://kandid.ru/maps15/omb_2.png'
+        ]
     },
     {
         id: 'SPB_20150927_1',
@@ -1819,7 +1858,10 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/151115/151115_rezshtr.htm',
         start: 'ROGAINE_110',
         o_site: '151115',
-        bulletin: 'https://o-site.spb.ru/_races/151115/151115_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/151115/151115_info.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/151115/151115_map.jpg'
+        ]
     },
     {
         id: 'SPB_20151118_1',
@@ -1910,7 +1952,10 @@ let events2015 = [
         bulletin: 'https://o-site.spb.ru/_races/151205/151205_info.htm',
         map: 'sosnovka_2014',
         owner: 'AZIMUT',
-        o_gps: 803
+        o_gps: 803,
+        maps: [
+            'https://o-site.spb.ru/_races/151205/151205_dist_.All.jpg'
+        ]
     },
     {
         id: 'SPB_20151206_1',

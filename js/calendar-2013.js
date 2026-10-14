@@ -107,7 +107,15 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/130203_Un/130203_res.htm',
         o_site: '130203_Un',
-        bulletin: 'https://o-site.spb.ru/_races/130203_Un/130203_info1.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/130203_Un/130203_info1.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/130203_Un/130203_Control_F.jpg',
+            'https://o-site.spb.ru/_races/130203_Un/130203_Control_A.jpg',
+            'https://o-site.spb.ru/_races/130203_Un/130203_Control_B.jpg',
+            'https://o-site.spb.ru/_races/130203_Un/130203_Control_E.jpg',
+            'https://o-site.spb.ru/_races/130203_Un/130203_Control_C.jpg',
+            'https://o-site.spb.ru/_races/130203_Un/130203_Control_D.jpg'
+        ]
     },
     {
         id: 'SPB_20130203_2',
@@ -158,7 +166,10 @@ let events2013 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130217/130217_split.htm',
-        o_site: '130217'
+        o_site: '130217',
+        maps: [
+            'https://o-site.spb.ru/_races/130217/map_m130217.gif'
+        ]
     },
     {
         id: 'SPB_20130223_1',
@@ -193,7 +204,11 @@ let events2013 = [
         start: 'VOLKOV_A',
         o_site: '130224',
         bulletin: 'https://o-site.spb.ru/_races/130224/20130224_info3.htm',
-        map: 'volkov_2013_02_23'
+        map: 'volkov_2013_02_23',
+        maps: [
+            'https://o-site.spb.ru/_races/130224/Map_ABC.gif',
+            'https://o-site.spb.ru/_races/130224/Map_DGE1.gif'
+        ]
     },
     {
         id: 'SPB_20130302_1',
@@ -242,7 +257,11 @@ let events2013 = [
         place: 'Ильичёво, Болотная Станция',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130303/130303_ split.htm',
-        o_site: '130303'
+        o_site: '130303',
+        maps: [
+            'https://o-site.spb.ru/_races/130303/130303_dist_ABCD.gif',
+            'https://o-site.spb.ru/_races/130303/130303_dist_EG.gif'
+        ]
     },
     {
         id: 'SPB_20130308_1',
@@ -310,7 +329,13 @@ let events2013 = [
         res: 'http://100x24.ru/results.htm',
         bulletin: 'http://100x24.ru/2013/docs/20130316_bull.htm',
         o_site: '130317',
-        start: '100x24'
+        start: '100x24',
+        maps: [
+            'https://100x24.ru/2013/maps/100x24_2013_map1.gif',
+            'https://100x24.ru/2013/maps/100x24_2013_map2.gif',
+            'https://100x24.ru/2013/maps/100x24_2013_map3.gif',
+            'https://100x24.ru/2013/maps/100x24_2013_map4.gif'
+        ]
     },
     {
         id: 'SPB_20130317_1',
@@ -692,7 +717,12 @@ let events2013 = [
         photo: 'https://vk.com/album-30311715_174424062',
         map: 'kirpichnoe_ba_2013',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2013-1/map_1_ba13.tif',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2013-1/map_2_ba13.tif',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2013-1/map_3_ba13.tif'
+        ]
     },
     {
         id: 'SPB_20130519_1',
@@ -760,7 +790,11 @@ let events2013 = [
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'zahodskoe_mb_2013'
+        map: 'zahodskoe_mb_2013',
+        maps: [
+            'https://kandid.ru/maps13/map_vmb13_1.gif',
+            'https://kandid.ru/maps13/map_vmb13_2.gif'
+        ]
     },
     {
         id: 'SPB_20130526_1',
@@ -1001,7 +1035,10 @@ let events2013 = [
         bulletin: 'http://100x24.ru/2013/docs/20130706_bull.htm',
         o_site: '130706',
         start: '100x24',
-        map: 'zelik_2013_100x24_velo'
+        map: 'zelik_2013_100x24_velo',
+        maps: [
+            'https://100x24.ru/2013/maps/100x24_2013_mtb.gif'
+        ]
     },
     {
         id: 'SPB_20130707_1',
@@ -1071,7 +1108,10 @@ let events2013 = [
         owner: 'WN',
         start: 'WN',
         o_site: '130721',
-        bulletin: 'https://o-site.spb.ru/_races/130721/130721_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/130721/130721_info.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/130721/WNR_map.gif'
+        ]
     },
     {
         id: 'SPB_20130728_1',
@@ -1241,7 +1281,10 @@ let events2013 = [
         res: 'http://www.o-site.spb.ru/_races/130904/130911_split.htm',
         start: 'SPRINT_TOUR',
         map: 'kosmonavtov_2013',
-        o_site: '130904'
+        o_site: '130904',
+        maps: [
+            'http://ic.pics.livejournal.com/swann74/31961374/616424/616424_original.jpg'
+        ]
     },
     {
         id: 'SPB_20130912_1',
@@ -1328,7 +1371,10 @@ let events2013 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'kuznechnoe_mb_2013'
+        map: 'kuznechnoe_mb_2013',
+        maps: [
+            'https://kandid.ru/maps13/map_omb13.jpg'
+        ]
     },
     {
         id: 'SPB_20130921_4',
@@ -1351,7 +1397,10 @@ let events2013 = [
         o_gps: {
             'М': 83,
             'Ж': 84
-        }
+        },
+        maps: [
+            'https://o-site.spb.ru/_races/130922/130922_map.jpg'
+        ]
     },
     {
         id: 'SPB_20130924_1',
@@ -1422,7 +1471,10 @@ let events2013 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2013-2.php',
         map: 'mullupelto_ba_2013',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2013-2/bal13.jpg'
+        ]
     },
     {
         id: 'SPB_20130929_1',
@@ -1684,7 +1736,10 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/131117/131117_res.htm',
         start: 'ROGAINE_110',
         o_site: '131117',
-        bulletin: 'https://o-site.spb.ru/_races/131117/131117_info2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/131117/131117_info2.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/131117/131117_map.jpg'
+        ]
     },
     {
         id: 'SPB_20131120_1',
@@ -1797,7 +1852,10 @@ let events2013 = [
         res: 'http://o-time.ru/images/all/w13/rgn281213.htm',
         video: 'https://www.youtube.com/watch?v=vbJUaW_ZpAc',
         fmt: 'Рогейн 1 час',
-        o_site: '131228R'
+        o_site: '131228R',
+        maps: [
+            'http://o-time.ru/images/all/w13/rgn281213.jpg'
+        ]
     },
     {
         id: 'SPB_20131229_1',

@@ -159,7 +159,11 @@ let events2019 = [
         bulletin: 'https://o-site.spb.ru/_races/190217/190217_info2.pdf',
         map: 'volkov_2019_02_17',
         start: 'VOLKOV_A',
-        o_gps: 5024
+        o_gps: 5024,
+        maps: [
+            'https://o-site.spb.ru/_races/190217/190217_map.pdf',
+            'https://o-site.spb.ru/_races/190217/190217_shtr.pdf'
+        ]
     },
     {
         id: 'SPB_20190223_1',
@@ -305,7 +309,15 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190407_LR/190407_rezults.pdf',
         info: '"Лабиринты разума" в формате квест-игры в закрытых помещениях.',
         o_site: '190407_LR',
-        bulletin: 'https://o-site.spb.ru/_races/190407_LR/190407.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/190407_LR/190407.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/190407_LR/190407_dist.1.jpg',
+            'https://o-site.spb.ru/_races/190407_LR/190407_dist2.jpg',
+            'https://o-site.spb.ru/_races/190407_LR/190407_dist3.jpg',
+            'https://o-site.spb.ru/_races/190407_LR/190407_dist4.jpg',
+            'https://o-site.spb.ru/_races/190407_LR/190407_dist5.jpg',
+            'https://o-site.spb.ru/_races/190407_LR/190407_dist6.jpg'
+        ]
     },
     {
         id: 'SPB_20190407_2',
@@ -403,7 +415,10 @@ let events2019 = [
         photo: 'http://vk.com/album-87193871_262759324',
         info: 'Открытое Первенство внутригородского муниципального образования Санкт-Петербурга город Колпино по спортивному ориентированию. Дисциплина – "Кросс-Выбор" с заданным первым КП. А также будет представлена дополнительная программа "Точное ориентирование".',
         o_site: '190421',
-        bulletin: 'https://o-site.spb.ru/_races/190421/IB2_2019.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/190421/IB2_2019.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/190421/map_kolpino.jpg'
+        ]
     },
     {
         id: 'SPB_20190421_2',
@@ -654,7 +669,10 @@ let events2019 = [
         o_site: '190512',
         bulletin: 'https://o-site.spb.ru/_races/190512/Info_12.pdf',
         map: 'orekhovo_rakitinskoe_2004',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        maps: [
+            'https://o-site.spb.ru/_races/190512/ALL_point.jpg'
+        ]
     },
     {
         id: 'SPB_20190512_3',
@@ -773,7 +791,10 @@ let events2019 = [
             '1':5748,
             '2':5749
         },
-        start: 'MB'
+        start: 'MB',
+        maps: [
+            'https://kandid.ru/maps19/vmb19.jpg'
+        ]
     },
     {
         id: 'SPB_20190519_1',
@@ -816,7 +837,11 @@ let events2019 = [
         map: 'luga_ba_2019',
         start: ['BA','TA'],
         owner: 'BKTV',
-        info: 'Лужский артиллерийский полигон.'
+        info: 'Лужский артиллерийский полигон.',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2019-1/BA19_1.png',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2019-1/BA19_2.png'
+        ]
     },
     {
         id: 'SPB_20190526_1',
@@ -1747,7 +1772,10 @@ let events2019 = [
         link: 'http://tradventure.ru , http://bikeadventure.ru',
         start: ['BA','TA'],
         owner: 'BKTV',
-        map: 'petrovskoe_ba_2019'
+        map: 'petrovskoe_ba_2019',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2019-2/BAL19.png'
+        ]
     },
     {
         id: 'SPB_20191005_3',
@@ -1860,7 +1888,11 @@ let events2019 = [
         type: 'TOURISM',
         video: ['https://www.youtube.com/watch?v=p6eRrZlrvaY','https://www.youtube.com/watch?v=y-klrrjUy3I'],
         start: 'MB',
-        map: 'lembolovo_mb_2019'
+        map: 'lembolovo_mb_2019',
+        maps: [
+            'https://kandid.ru/maps19/omb19_1.jpg',
+            'https://kandid.ru/maps19/omb19_2.jpg'
+        ]
     },
     {
         id: 'SPB_20191013_1',
@@ -2040,7 +2072,10 @@ let events2019 = [
         info: 'Мероприятие проводится с целью развития трейл-ориентирования и подготовки спортсменов к международным и всероссийским соревнованиям. Организаторы: комиссия по трейл-ориентированию Федерации спортивного ориентирования Санкт-Петербурга, туристско-спортивный клуб «31 КП», клуб «Азимут».',
         o_site: '191109tr',
         bulletin: 'https://o-site.spb.ru/_races/191109tr/191109_info.pdf',
-        map: 'sosnovka_2014'
+        map: 'sosnovka_2014',
+        maps: [
+            'https://o-site.spb.ru/_races/191109tr/191109_solution.pdf'
+        ]
     },
     {
         id: 'SPB_20191109_2',
@@ -2072,7 +2107,10 @@ let events2019 = [
         start: 'ROGAINE_110',
         o_site: '191110_markir',
         bulletin: 'https://o-site.spb.ru/_races/191110_markir/191110_m110_info.PDF',
-        reskeep: 288
+        reskeep: 288,
+        maps: [
+            'https://o-site.spb.ru/_races/191110_markir/191110_map_misheni.jpg'
+        ]
     },
     {
         id: 'SPB_20191110_2',
@@ -2148,7 +2186,10 @@ let events2019 = [
         bulletin: 'https://o-site.spb.ru/_races/191124_MaTreshka/20191124_MT_Lembolovo.pdf',
         reskeep: 203,
         strava: 2888276292,
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        maps: [
+            'https://o-site.spb.ru/_races/191124_MaTreshka/191124_map.jpg'
+        ]
     },
     {
         id: 'SPB_20191130_1',
@@ -2162,7 +2203,13 @@ let events2019 = [
         o_site: '191130_NatAlka',
         strava: 2901197392,
         map: 'sosnovka_2014',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        maps: [
+            'https://o-site.spb.ru/_races/191130_NatAlka/191130_map.jpg',
+            'https://o-site.spb.ru/_races/191130_NatAlka/distB-2.pdf',
+            'https://o-site.spb.ru/_races/191130_NatAlka/distC.pdf',
+            'https://o-site.spb.ru/_races/191130_NatAlka/distD-1.pdf'
+        ]
     },
     {
         id: 'SPB_20191201_1',
@@ -2172,7 +2219,10 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1115',
         res: 'https://o-site.spb.ru/_races/191201tr/191201_res.htm',
         o_site: '191201tr',
-        bulletin: 'https://o-site.spb.ru/_races/191201tr/191201_info_2_2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/191201tr/191201_info_2_2.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/191201tr/191201_map.pdf'
+        ]
     },
     {
         id: 'SPB_20191201_2',

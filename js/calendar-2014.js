@@ -16,7 +16,10 @@ let events2014 = [
         name: 'Кубок России среди ветеранов, «Рождественские старты 2014»',
         res: 'https://o-site.spb.ru/_races/14010708/20140107_rez_.htm',
         owner: 'NW',
-        o_site: '14010708'
+        o_site: '14010708',
+        maps: [
+            'https://o-site.spb.ru/_races/14010708/140107_markir.jpg'
+        ]
     },
     {
         id: 'SPB_20140111_1',
@@ -97,7 +100,10 @@ let events2014 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/140209U/140209_res.htm',
         o_site: '140209U',
-        bulletin: 'https://o-site.spb.ru/_races/140209U/140209_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/140209U/140209_info.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/140209U/140209_map.jpg'
+        ]
     },
     {
         id: 'SPB_20140212_1',
@@ -506,7 +512,13 @@ let events2014 = [
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'priozersk_mb_2014'
+        map: 'priozersk_mb_2014',
+        maps: [
+            'https://kandid.ru/maps14/short_vmb_14.png',
+            'https://kandid.ru/maps14/vmb_1.png',
+            'https://kandid.ru/maps14/vmb_2.png',
+            'https://kandid.ru/maps14/vmb_3.png'
+        ]
     },
     {
         id: 'SPB_20140518_1',
@@ -595,7 +607,10 @@ let events2014 = [
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2014-1.php',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2014-1/map_2014.jpg'
+        ]
     },
     {
         id: 'SPB_20140525_1',
@@ -745,7 +760,10 @@ let events2014 = [
         bulletin: 'http://100x24.ru/2014/docs/20140608_bull.htm',
         o_site: '140608',
         start: '100x24',
-        map: 'koltushi_2014'
+        map: 'koltushi_2014',
+        maps: [
+            'https://100x24.ru/2014/maps/100x24_2014_mtbo.gif'
+        ]
     },
     {
         id: 'SPB_20140612_1',
@@ -1271,7 +1289,11 @@ let events2014 = [
         photo: 'https://vk.com/album-30311715_203300364',
         map: 'kanneljarvy_ba_2014',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2014-2/BAL-2014_karta_1.png',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2014-2/BAL-2014_karta_2.png'
+        ]
     },
     {
         id: 'SPB_20140929_1',
@@ -1325,7 +1347,13 @@ let events2014 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'zelik_mb_2014'
+        map: 'zelik_mb_2014',
+        maps: [
+            'https://kandid.ru/maps14/MB-2014-fall_karta_1.png',
+            'https://kandid.ru/maps14/MB-2014-fall_karta_2.png',
+            'https://kandid.ru/maps14/MB-2014-fall_karta_3.png',
+            'https://kandid.ru/maps14/MB-2014-fall_karta_4.png'
+        ]
     },
     {
         id: 'SPB_20140927_3',
@@ -1412,7 +1440,10 @@ let events2014 = [
         place: 'Лемболово',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/140410/141016_res.htm',
-        o_site: '141012'
+        o_site: '141012',
+        maps: [
+            'https://o-site.spb.ru/_races/141012/141012_map.jpg'
+        ]
     },
     {
         id: 'SPB_20141015_1',
@@ -1558,7 +1589,10 @@ let events2014 = [
         place: 'Охта-парк',
         res: 'https://o-site.spb.ru/_races/141116/141116_RES_shtr.html',
         start: 'ROGAINE_110',
-        o_site: '141116'
+        o_site: '141116',
+        maps: [
+            'https://o-site.spb.ru/_races/141116/markir_control.All.jpg'
+        ]
     },
     {
         id: 'SPB_20141122_1',

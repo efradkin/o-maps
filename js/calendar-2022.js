@@ -95,7 +95,10 @@ let events2022 = [
         o_site: '220206',
         bulletin: 'https://o-site.spb.ru/_races/220206/INFO-1.pdf',
         endDate: '2022-02-06',
-        map: 'lembolovo_winter_2019'
+        map: 'lembolovo_winter_2019',
+        maps: [
+            'https://o-site.spb.ru/_races/220206/220130_MAP.jpg'
+        ]
     },
     {
         id: 'SPB_20220213_1',
@@ -742,7 +745,10 @@ let events2022 = [
         o_gps: {
             'ALL': 13078,
             'M18/35/45': 13082
-        }
+        },
+        maps: [
+            'https://o-site.spb.ru/_races/220521/220521_solution.jpg'
+        ]
     },
     {
         id: 'SPB_20220521_2',
@@ -764,7 +770,10 @@ let events2022 = [
         type: 'TOURISM',
         start: 'MB',
         map: 'kamennogorsk_2022',
-        o_gps: 13223
+        o_gps: 13223,
+        maps: [
+            'https://kandid.ru/maps22/vmb22.jpg'
+        ]
     },
     {
         id: 'SPB_20220522_1',
@@ -901,7 +910,10 @@ let events2022 = [
         photo: 'https://vk.com/album-30311715_284038157',
         start: 'BA',
         owner: 'BKTV',
-        map: 'razdolie_ba_2022'
+        map: 'razdolie_ba_2022',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2022-1/BA22.jpg'
+        ]
     },
     {
         id: 'SPB_20220529_1',
@@ -1909,7 +1921,10 @@ let events2022 = [
         photo: 'https://vk.com/album-30311715_286920535',
         map: 'orekhovo_ba_2022',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2022-2/bal22.jpg'
+        ]
     },
     {
         id: 'SPB_20221002_1',
@@ -2013,7 +2028,10 @@ let events2022 = [
         type: 'TOURISM',
         start: 'MB',
         map: 'gvardeyskoe_mb_2022',
-        o_gps: 14333
+        o_gps: 14333,
+        maps: [
+            'https://kandid.ru/maps22/omb22.jpg'
+        ]
     },
     {
         id: 'SPB_20221013_1',
@@ -2277,7 +2295,13 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/221105_p/221105_split.htm',
         o_site: '221105_p',
         bulletin: 'https://o-site.spb.ru/_races/221105_p/221105_info.pdf',
-        map: 'toksovo_malinovaya_gora_2018'
+        map: 'toksovo_malinovaya_gora_2018',
+        maps: [
+            'https://o-site.spb.ru/_races/221105_p/221105_distA.pdf',
+            'https://o-site.spb.ru/_races/221105_p/221105_distBB.pdf',
+            'https://o-site.spb.ru/_races/221105_p/221105_distDD.pdf',
+            'https://o-site.spb.ru/_races/221105_p/221105_distCC.pdf'
+        ]
     },
     {
         id: 'SPB_20221105_2',
@@ -2362,7 +2386,14 @@ let events2022 = [
         start: 'ROGAINE_110',
         o_site: '221113',
         bulletin: 'https://o-site.spb.ru/_races/221113/info_bull.pdf',
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        maps: [
+            'https://o-site.spb.ru/_races/221113/map_a.jpg',
+            'https://o-site.spb.ru/_races/221113/map_b.jpg',
+            'https://o-site.spb.ru/_races/221113/map_D.jpg',
+            'https://o-site.spb.ru/_races/221113/map_e.jpg',
+            'https://o-site.spb.ru/_races/221113/map_c.jpg'
+        ]
     },
     {
         id: 'SPB_20221119_1',
@@ -2420,7 +2451,10 @@ let events2022 = [
         bulletin: 'https://o-site.spb.ru/_races/2022_Orientir/Info_221126.pdf',
         map: 'udelny_2022',
         owner: 'AZIMUT',
-        o_gps: 14655
+        o_gps: 14655,
+        maps: [
+            'https://o-site.spb.ru/_races/2022_Orientir/20221126_ABCD.All.jpg'
+        ]
     },
     {
         id: 'SPB_20221127_1',

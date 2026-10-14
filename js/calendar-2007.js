@@ -38,7 +38,10 @@ let events2007 = [
         res: 'http://o-time.ru',
         info: 'XXVIII соревнования по спортивному ориентированию Всеволожские Вести',
         start: 'VSEV_VESTI',
-        o_site: '070114_vv'
+        o_site: '070114_vv',
+        maps: [
+            'http://o-time.ru/images/all/w07/vv.gif'
+        ]
     },
     {
         id: 'SPB_20070121_1',
@@ -521,7 +524,13 @@ let events2007 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2007-1.php',
         start: 'BA',
         owner: 'BKTV',
-        map: 'lebedevka_ba_2007'
+        map: 'lebedevka_ba_2007',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_1.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_2.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_3.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_4.jpg'
+        ]
     },
     {
         id: 'SPB_20070527_1',
@@ -693,7 +702,12 @@ let events2007 = [
         photo: 'http://o-site.spb.ru/gallery.php?id=gallery_TOT2007',
         info: 'Старейшая мультиспортивная гонка в России, в 2007-м году состоится уже 6-й Три-О-Тлон, который начал свою историю с 2002-го года. Победитель в номинации Самая качественная гонка 2005-го года согласно опросу, проведённому среди мультиспортсменов сайтом adventureraces.ru Согласно тому же опросу, двукратный победитель в номинации Лучший новый вид в мультиспорте (в 2004-м - болотинг, в 2005-м - пампасинг). Классическая гонка по набору дисциплин: треккинг, велосипед, байдарка, верёвочные этапы. Основная направленность гонки - навигация. Три дистанции - длинная, средняя и для начинающих. Участвуют команды из 2-х человек любого пола.',
         logo: 'triotlon.gif',
-        o_site: 'tri-o-tlon-2007'
+        o_site: 'tri-o-tlon-2007',
+        maps: [
+            'https://o-site.spb.ru/_races/tri-o-tlon-2007/map1_web.gif',
+            'https://o-site.spb.ru/_races/tri-o-tlon-2007/map2_web.gif',
+            'https://o-site.spb.ru/_races/tri-o-tlon-2007/map3_web.gif'
+        ]
     },
     {
         id: 'SPB_20070804_1',
@@ -725,7 +739,10 @@ let events2007 = [
         info: 'Ориенирование на велосипеде. Старт в 11:00. Группы МЖЭ, МЖН и МЖ-14. Дистанция в заданном направлении, средняя. Приглашаем всех.',
         owner: 'SFSO_LO',
         o_site: '070818v',
-        bulletin: 'https://o-site.spb.ru/_races/070818v/MTBO_SZFO-1.html'
+        bulletin: 'https://o-site.spb.ru/_races/070818v/MTBO_SZFO-1.html',
+        maps: [
+            'https://o-site.spb.ru/_races/070818v/070818v7500_MDN.jpg'
+        ]
     },
     {
         id: 'SPB_20070819_1',
@@ -738,7 +755,10 @@ let events2007 = [
         info: 'Ориенирование на велосипеде. Старт в 11:00. Группы МЖЭ, МЖН и МЖ-14. Дистанция в заданном направлении, спринт. Приглашаем всех.',
         owner: 'SFSO_LO',
         o_site: '070819v',
-        bulletin: 'https://o-site.spb.ru/_races/070819v/MTBO_SZFO-2.html'
+        bulletin: 'https://o-site.spb.ru/_races/070819v/MTBO_SZFO-2.html',
+        maps: [
+            'https://o-site.spb.ru/_races/070819v/070819v5000_MD14.jpg'
+        ]
     },
     {
         id: 'SPB_20070824_1',
@@ -886,7 +906,11 @@ let events2007 = [
         type: 'TOURISM',
         start: 'MB',
         map: 'orekhovo_mb_2007',
-        gps: './original_maps/rogaine/beketov/orekhovo_mb_2007_den_omaps.gif'
+        gps: './original_maps/rogaine/beketov/orekhovo_mb_2007_den_omaps.gif',
+        maps: [
+            'https://kandid.ru/maps07/mb2007_1.gif',
+            'https://kandid.ru/maps07/mb2007_2.gif'
+        ]
     },
     {
         id: 'SPB_20070923_1',
@@ -1025,7 +1049,11 @@ let events2007 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2007-2.php',
         map: 'gavrilovo_ba_2007',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2007-2/maplite_1.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2007-2/maplite_2.jpg'
+        ]
     },
     {
         id: 'SPB_20071028_1',
@@ -1083,7 +1111,10 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/071118/071118_res.htm',
         info: '1 этап самых популярных и массовых соревнований по ориентированию в зимний период. Cоревнования 2008 года будут проведены в пять этапов: 1 этап 18 ноября 2007 г. Шуваловский парк 2 этап 02 декабря 2007 г. Пискаревский парк 3 этап 16 декабря 2007 г. Парк "Александрино" 4 этап 10 февраля 2008 г. по назначению 5 этап 16 марта 2008 г. Павловcкий парк',
         o_site: '071118',
-        bulletin: 'https://o-site.spb.ru/_races/071118/071118_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/071118/071118_info.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/071118/tr1_winner.gif'
+        ]
     },
     {
         id: 'SPB_20071122_1',
@@ -1140,7 +1171,10 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/071216/071216_res.htm',
         info: '3 этап самых популярных и массовых соревнований по ориентированию в зимний период. Cоревнования 2008 года будут проведены в пять этапов: 1 этап 18 ноября 2007 г. Шуваловский парк 2 этап 02 декабря 2007 г. Пискаревский парк 3 этап 16 декабря 2007 г. Парк "Александрино" 4 этап 10 февраля 2008 г. по назначению 5 этап 16 марта 2008 г. Павловcкий парк',
         o_site: '071216',
-        bulletin: 'https://o-site.spb.ru/_races/071216/071216_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/071216/071216_info.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/071216/071216_winnerpaths.jpg'
+        ]
     },
     /*
         {

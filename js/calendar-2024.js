@@ -28,7 +28,10 @@ let events2024 = [
         o_gps: {
             '07': 18106,
             '08': 18123
-        }
+        },
+        maps: [
+            'https://o-site.spb.ru/_races/240108_RS/7_01_RS_control_map.jpg'
+        ]
     },
     {
         id: 'SPB_20240108_1',
@@ -69,7 +72,10 @@ let events2024 = [
         bulletin: 'https://o-site.spb.ru/_races/240114/240114info.pdf',
         reskeep: [639, 640],
         map: 'anyalovo_winter_2023',
-        o_gps: 18157
+        o_gps: 18157,
+        maps: [
+            'https://o-site.spb.ru/_races/240114/All.pdf'
+        ]
     },
     {
         id: 'SPB_20240114_1',
@@ -95,7 +101,10 @@ let events2024 = [
         type: 'SKI',
         fmt: 'маркир',
         o_site: '24011921',
-        map: 'budogosch_svetloe_winter_2024'
+        map: 'budogosch_svetloe_winter_2024',
+        maps: [
+            'https://o-site.spb.ru/_races/24011921/240119_map.pdf'
+        ]
     },
     {
         id: 'SPB_20240120_1',
@@ -166,7 +175,11 @@ let events2024 = [
         o_site: '240204_fl',
         bulletin: 'https://o-site.spb.ru/_races/240204_fl/240204_info2.pdf',
         map: 'toksovo_vifk_winter_2023',
-        o_gps: 18333
+        o_gps: 18333,
+        maps: [
+            'https://o-site.spb.ru/_races/240204_fl/map_s.pdf',
+            'https://o-site.spb.ru/_races/240204_fl/map_k.pdf'
+        ]
     },
     {
         id: 'SPB_20240203_3',
@@ -195,7 +208,10 @@ let events2024 = [
         o_site: '240211',
         bulletin: 'https://o-site.spb.ru/_races/240211/240211-info2.pdf',
         map: 'zerkalny_tarasovskoe_winter_2023',
-        o_gps: 18382
+        o_gps: 18382,
+        maps: [
+            'https://o-site.spb.ru/_races/240211/mapAll1.pdf'
+        ]
     },
     {
         id: 'SPB_20240217_1',
@@ -212,7 +228,10 @@ let events2024 = [
         o_gps: {
             '17': 18414,
             '18': 18416
-        }
+        },
+        maps: [
+            'https://o-site.spb.ru/_races/240218/240218_map.pdf'
+        ]
     },
     {
         id: 'SPB_20240224_1',
@@ -508,7 +527,10 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240428TT/240428TT-vosst-combi.htm',
         o_site: '240428TT',
         bulletin: 'https://o-site.spb.ru/_races/240428TT/240428TT_info.pdf',
-        map: 'enkolovo_2021'
+        map: 'enkolovo_2021',
+        maps: [
+            'https://o-site.spb.ru/_races/240428TT/240428TT_control_map.jpg'
+        ]
     },
     {
         id: 'SPB_20240428_2',
@@ -682,7 +704,10 @@ let events2024 = [
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'kanneliarvi_mb_2024'
+        map: 'kanneliarvi_mb_2024',
+        maps: [
+            'https://kandid.ru/maps24/vmb24.jpg'
+        ]
     },
     {
         id: 'SPB_20240509_1',
@@ -899,7 +924,10 @@ let events2024 = [
         start: 'BA',
         owner: 'BKTV',
         o_gps: 19599,
-        map: 'kanneliarvi_ba_2024'
+        map: 'kanneliarvi_ba_2024',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2024-1/BA24.jpg'
+        ]
     },
     {
         id: 'SPB_20240526_1',
@@ -1925,7 +1953,11 @@ let events2024 = [
         res: 'http://orgeo.ru/event/38241',
         o_site: '240929',
         bulletin: 'https://o-site.spb.ru/_races/240929/240929%20info.pdf',
-        o_gps: 20619
+        o_gps: 20619,
+        maps: [
+            'https://o-site.spb.ru/_races/240929/MAP_V.pdf',
+            'https://o-site.spb.ru/_races/240929/MAP_1.pdf'
+        ]
     },
     {
         id: 'SPB_20241002_1',
@@ -1991,7 +2023,10 @@ let events2024 = [
         start: 'BA',
         owner: 'BKTV',
         o_gps: 20726,
-        map: 'pervomayskoe_ba_2024'
+        map: 'pervomayskoe_ba_2024',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2024-2/BAL24.jpg'
+        ]
     },
     {
         id: 'SPB_20241006_1',
@@ -2158,7 +2193,10 @@ let events2024 = [
         o_gps: {
             'М': 20927,
             'Ж': 20930
-        }
+        },
+        maps: [
+            'https://o-site.spb.ru/_races/241026/241026_50V_shem_est.jpg'
+        ]
     },
     {
         id: 'SPB_20241103_1',
@@ -2226,7 +2264,10 @@ let events2024 = [
         o_gps: {
             'B': 21065,
             'C': 21064
-        }
+        },
+        maps: [
+            'https://o-site.spb.ru/_races/241109_Markir/241109_MAP_compressed.pdf'
+        ]
     },
     {
         id: 'SPB_20241116_1',
@@ -2335,7 +2376,10 @@ let events2024 = [
             'A': 21201,
             'C': 21215
         },
-        me: 'А'
+        me: 'А',
+        maps: [
+            'https://o-site.spb.ru/_races/2024_Orientir/All_point_241130.jpg'
+        ]
     },
     {
         id: 'SPB_20241201_1',

@@ -9,7 +9,10 @@ let events2017 = [
         owner: 'NW',
         o_site: '170107_08',
         bulletin: 'https://o-site.spb.ru/_races/170107_08/17010708_info3.pdf',
-        map: 'tsvelodubovo_winter_2003'
+        map: 'tsvelodubovo_winter_2003',
+        maps: [
+            'https://o-site.spb.ru/_races/170107_08/170107_map.jpg'
+        ]
     },
     {
         id: 'SPB_20170110_1',
@@ -31,7 +34,11 @@ let events2017 = [
         reg: 'http://www.x-race.info/calendar/89155/request/',
         res: 'http://www.multsport.ru/starts/oldny-rogaine-2017/results.html',
         owner: 'MULTSPORT',
-        o_site: '170114'
+        o_site: '170114',
+        maps: [
+            'https://www.multsport.ru/images/rog1cup17/Map1.jpg',
+            'https://www.multsport.ru/images/rog1cup17/Map2.jpg'
+        ]
     },
     {
         id: 'SPB_20170114_2',
@@ -111,7 +118,12 @@ let events2017 = [
         bulletin: 'https://o-site.spb.ru/_races/170211/170211_info3.pdf',
         map: 'volkov_2017_02_11',
         start: 'VOLKOV_A',
-        o_gps: 1786
+        o_gps: 1786,
+        maps: [
+            'https://o-site.spb.ru/_races/170211/map7500_CD.gif',
+            'https://o-site.spb.ru/_races/170211/map7500_EF.gif',
+            'https://o-site.spb.ru/_races/170211/map10000_AB.gif'
+        ]
     },
     {
         id: 'SPB_20170212_1',
@@ -176,7 +188,11 @@ let events2017 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170223_ch/170223_res.htm',
         info: 'Дистанция: маркированная трасса (прокол в карте)',
-        o_site: '170223_ch'
+        o_site: '170223_ch',
+        maps: [
+            'https://o-site.spb.ru/_races/170223_ch/map10000.jpg',
+            'https://o-site.spb.ru/_races/170223_ch/map7500.jpg'
+        ]
     },
     {
         id: 'SPB_20170223_2',
@@ -760,7 +776,10 @@ let events2017 = [
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'kanneliarvi_mb_2017'
+        map: 'kanneliarvi_mb_2017',
+        maps: [
+            'https://kandid.ru/maps17/VMB_17.png'
+        ]
     },
     {
         id: 'SPB_20170514_1',
@@ -977,7 +996,11 @@ let events2017 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2017-1.php',
         photo: 'https://vk.com/album-30311715_244242670',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2017-1/ba2017-1.png',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2017-1/ba2017-2.png'
+        ]
     },
     {
         id: 'SPB_20170528_1',
@@ -1088,7 +1111,10 @@ let events2017 = [
         res: 'http://o-site.spb.ru/_races/17061218/170612V_split.htm',
         info: 'Соревнования по ориентированию велокросс-классика на спортивном Фестивале «Яркий Мир»',
         start: 'YM',
-        o_site: '170612v'
+        o_site: '170612v',
+        maps: [
+            'https://o-site.spb.ru/_races/170612v/170612velo_Petya1.jpg'
+        ]
     },
     {
         id: 'SPB_20170612_2',
@@ -1120,7 +1146,10 @@ let events2017 = [
         reg: 'http://www.o-reg.spb.ru/?id=766',
         o_site: '170617_rog',
         bulletin: 'http://100x24.ru/',
-        start: '100x24'
+        start: '100x24',
+        maps: [
+            'https://100x24.ru/2017/maps/100x24_2017_mtbo.gif'
+        ]
     },
     {
         id: 'SPB_20170618_1',
@@ -1723,7 +1752,11 @@ let events2017 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2017-2.php',
         photo: 'https://vk.com/album-30311715_247663794',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2017-2/map1.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2017-2/map2.jpg'
+        ]
     },
     {
         id: 'SPB_20170930_4',
@@ -1850,7 +1883,11 @@ let events2017 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'luga_mb_2017'
+        map: 'luga_mb_2017',
+        maps: [
+            'https://kandid.ru/maps17/omb17_1.jpg',
+            'https://kandid.ru/maps17/omb17_2.jpg'
+        ]
     },
     {
         id: 'SPB_20171008_1',
@@ -2053,7 +2090,10 @@ let events2017 = [
         start: 'ROGAINE_110',
         o_site: '171112_markir',
         bulletin: 'https://o-site.spb.ru/_races/171112_markir/171112_info.pdf',
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        maps: [
+            'https://o-site.spb.ru/_races/171112_markir/171112_map.jpg'
+        ]
     },
     {
         id: 'SPB_20171112_2',
@@ -2099,7 +2139,10 @@ let events2017 = [
         o_site: '2017_Orientir',
         bulletin: 'https://o-site.spb.ru/_races/2017_Orientir/171125_info2.htm',
         map: 'sosnovka_2014',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        maps: [
+            'https://o-site.spb.ru/_races/2017_Orientir/171125_dist_demo.pdf'
+        ]
     },
     {
         id: 'SPB_20171126_1',
@@ -2140,7 +2183,14 @@ let events2017 = [
         start: 'MATRESHKA',
         res: 'http://o-site.spb.ru/_races/170416/171203_split.htm',
         publish: 'https://o-site.spb.ru/race.php?id=170416',
-        o_site: '170416'
+        o_site: '170416',
+        maps: [
+            'https://o-site.spb.ru/_races/170416/171203_A.jpg',
+            'https://o-site.spb.ru/_races/170416/171203_B.jpg',
+            'https://o-site.spb.ru/_races/170416/171203_Apro.jpg',
+            'https://o-site.spb.ru/_races/170416/171203_Bpro.jpg',
+            'https://o-site.spb.ru/_races/170416/171203_C.jpg'
+        ]
     },
     {
         id: 'SPB_20171209_1',

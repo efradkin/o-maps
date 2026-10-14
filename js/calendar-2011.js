@@ -28,7 +28,10 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/11011516/110115_res.htm',
         start: ['VSEV_VESTI','LO_CHAMP'],
         o_site: '11011516',
-        bulletin: 'https://o-site.spb.ru/_races/11011516/11011516_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/11011516/11011516_info.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/11011516/110115_map.jpg'
+        ]
     },
     {
         id: 'SPB_20110122_1',
@@ -62,7 +65,10 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/11012930/110129_res.pdf',
         info: 'Зимний Кубок ФСО Санкт-Петербурга и Ленинградской области. Спартакиада учащихся Санкт-Петербурга и Ленинградской области',
         o_site: '11012930',
-        bulletin: 'https://o-site.spb.ru/_races/11012930/110129_info3.htm'
+        bulletin: 'https://o-site.spb.ru/_races/11012930/110129_info3.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/11012930/110129_karta.gif'
+        ]
     },
     {
         id: 'SPB_20110206_1',
@@ -88,7 +94,11 @@ let events2011 = [
         start: 'VOLKOV_A',
         o_site: '110212',
         bulletin: 'https://o-site.spb.ru/_races/110212/110212_info3.htm',
-        map: 'volkov_2011_02_12'
+        map: 'volkov_2011_02_12',
+        maps: [
+            'https://o-site.spb.ru/_races/110212/110212_kartaA.gif',
+            'https://o-site.spb.ru/_races/110212/110212_karta1.gif'
+        ]
     },
     {
         id: 'SPB_20110213_1',
@@ -112,7 +122,10 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/110222/11022627_res.zip',
         info: 'Традиционная зимняя смена ориентировщиков и туристов Санкт-Петербурга в ЗЦ«Зеркальный»',
         o_site: '110222',
-        bulletin: 'https://o-site.spb.ru/_races/110222/11022627_info3.htm'
+        bulletin: 'https://o-site.spb.ru/_races/110222/11022627_info3.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/110222/110226_karta.gif'
+        ]
     },
     {
         id: 'SPB_20110223_1',
@@ -230,7 +243,10 @@ let events2011 = [
         info: '12.03.11 – Чемпионат и первенство СПб, лыжная гонка – маркир классика 35 – 40 минут. Код - 0830205511Я. 13.03.11 – Чемпионат и первенство СПб, 3й этап кубка клуба Гольфстрим, лыжная гонка – удлиненная дистанция в заданном направлении 120минут. Код - 0830155511Я.',
         owner: 'GOLFSTREAM',
         o_site: '11031213',
-        bulletin: 'https://o-site.spb.ru/_races/11031213/11031213_info3.htm'
+        bulletin: 'https://o-site.spb.ru/_races/11031213/11031213_info3.htm',
+        maps: [
+            'https://o-site.spb.ru/_races/11031213/110312_karta.gif'
+        ]
     },
     {
         id: 'SPB_20110320_1',
@@ -437,7 +453,12 @@ let events2011 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2011-1.php',
         map: 'otradnoe_ba_2011',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_1.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_2.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_3.gif'
+        ]
     },
     {
         id: 'SPB_20110515_1',
@@ -526,7 +547,11 @@ let events2011 = [
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'cherkasovo_mb_2011'
+        map: 'cherkasovo_mb_2011',
+        maps: [
+            'https://kandid.ru/maps11/map_mb11_1.jpg',
+            'https://kandid.ru/maps11/map_mb11_2.jpg'
+        ]
     },
     {
         id: 'SPB_20110522_1',
@@ -738,7 +763,10 @@ let events2011 = [
         bulletin: 'http://www.100x24.ru/2011/docs/20110703_bull.htm',
         o_site: '110703',
         start: '100x24',
-        map: 'toksovo_2011_velo'
+        map: 'toksovo_2011_velo',
+        maps: [
+            'https://100x24.ru/2011/maps/100x24_map_20110307_150dpi.gif'
+        ]
     },
     {
         id: 'SPB_20110709_1',
@@ -782,7 +810,10 @@ let events2011 = [
         photo: 'http://o-site.spb.ru/gallery.php?id=gallery_TOT2011_OA',
         info: 'Старейшая мультиспортивная гонка в России: в 2011-м году состоялся юбилейный 10-й Три-О-Тлон, история которого ведёт отсчёт с 2002-го года. Нас поддерживали: Альпина Спортивная Линия Red Fox & Inov8 Яркий Мир Кант SkiTent Спортсистем Альпиндустрия Эксперты Приключений Турфирма Весь Мир Информационная поддержка: O-site x-race.msk.ru adventureraces.ru carabin.ru',
         logo: 'triotlon.gif',
-        o_site: 'tri-o-tlon-2011'
+        o_site: 'tri-o-tlon-2011',
+        maps: [
+            'https://o-site.spb.ru/_races/tri-o-tlon-2011/map_TOT.gif'
+        ]
     },
     {
         id: 'SPB_20110724_1',
@@ -1044,7 +1075,11 @@ let events2011 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'razdolje_mb_2011'
+        map: 'razdolje_mb_2011',
+        maps: [
+            'https://kandid.ru/maps11/map_omb11_1.jpg',
+            'https://kandid.ru/maps11/map_omb11_2.jpg'
+        ]
     },
     {
         id: 'SPB_20110930_1',
@@ -1077,7 +1112,11 @@ let events2011 = [
         photo: 'https://vk.com/album-30311715_142817495',
         map: 'roschino_ba_2011',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2011-2/map_bal11_1.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2011-2/map_bal11_2.jpg'
+        ]
     },
     {
         id: 'SPB_20111002_1',
@@ -1292,7 +1331,10 @@ let events2011 = [
         name: 'Открытое Первенство п. Кузьмоловский',
         res: 'https://o-site.spb.ru/_races/111113/111113_res2.PDF',
         owner: 'SFSO_LO',
-        o_site: '111113'
+        o_site: '111113',
+        maps: [
+            'https://o-site.spb.ru/_races/111113/111113_map_contr.jpg'
+        ]
     },
     {
         id: 'SPB_20111117_1',
@@ -1424,6 +1466,9 @@ let events2011 = [
             'http://online47.ru/a/2012/01/06/Nou-hau_russkogo_orientir/',
             'https://www.youtube.com/watch?v=8-FDyKQd9uQ'
         ],
-        o_site: '111225'
+        o_site: '111225',
+        maps: [
+            'https://o-site.spb.ru/_races/111225/111225_map.gif'
+        ]
     }
 ];

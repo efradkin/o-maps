@@ -328,7 +328,10 @@ let events2006 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2006-1.php',
         start: 'BA',
         owner: 'BKTV',
-        map: 'mednoe_ba_2006'
+        map: 'mednoe_ba_2006',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2006-1/map_06.jpg'
+        ]
     },
     {
         id: 'SPB_20060527_1',
@@ -626,7 +629,11 @@ let events2006 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'gorkovskoe_mb_2006'
+        map: 'gorkovskoe_mb_2006',
+        maps: [
+            'https://kandid.ru/maps06/map_bo.jpg',
+            'https://kandid.ru/maps06/taiwan_bo.jpg'
+        ]
     },
     {
         id: 'SPB_20060924_1',
@@ -720,7 +727,10 @@ let events2006 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2006-2.php',
         start: 'BA',
         owner: 'BKTV',
-        map: 'leypyasuo_ba_2006'
+        map: 'leypyasuo_ba_2006',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2006-2/oct_06.jpg'
+        ]
     },
     {
         id: 'SPB_20061022_1',

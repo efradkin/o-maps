@@ -44,7 +44,10 @@ let events2021 = [
         o_gps: {
             '08': 8781,
             '09': 8815
-        }
+        },
+        maps: [
+            'https://o-site.spb.ru/_races/210108-09_rs/210108_map.pdf'
+        ]
     },
     {
         id: 'SPB_20210109_1',
@@ -115,7 +118,10 @@ let events2021 = [
         reskeep: 419,
         strava: 4666404884,
         map: 'pavlovsk_2012',
-        o_gps: 8889
+        o_gps: 8889,
+        maps: [
+            'https://o-site.spb.ru/_races/210114/PaffflofSK.All.jpg'
+        ]
     },
     {
         id: 'SPB_20210124_1',
@@ -127,7 +133,10 @@ let events2021 = [
         endReg: '2021-01-21 23:00',
         video: 'https://www.youtube.com/watch?v=CCeQJZ980pQ',
         o_site: '21012324',
-        bulletin: 'https://o-site.spb.ru/_races/21012324/21012324_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/21012324/21012324_info.pdf',
+        maps: [
+            'https://o-site.spb.ru/_races/21012324/control_map_All.pdf'
+        ]
     },
     {
         id: 'SPB_20210126_1',
@@ -189,7 +198,10 @@ let events2021 = [
         o_site: '21020607VV',
         bulletin: 'https://o-site.spb.ru/_races/21020607VV/21020607_info1.pdf',
         strava: 4743584991,
-        o_gps: 8996
+        o_gps: 8996,
+        maps: [
+            'https://o-site.spb.ru/_races/21020607VV/210206_map.pdf'
+        ]
     },
     {
         id: 'SPB_20210207_2',
@@ -460,7 +472,10 @@ let events2021 = [
         reg: 'https://o-site.spb.ru/_races/210417_az/Zayavka_Otkryty_klass.zip',
         info: 'В парке Екатерингоф 17 апреля пройдёт физкультурное мероприятие "Адмиралтейский азимут" (трейл-О), дисциплина "точное ориентирование" (preO). Программа: - Чемпионат СПб - спорт лиц ПОДА - Открытый старт для Open-групп Предварительные заявки на участие подаются до 15.04.2020 на e-mail: trailo2019@mail.ru',
         o_site: '210417_az',
-        map: 'ekateringof_2021'
+        map: 'ekateringof_2021',
+        maps: [
+            'https://o-site.spb.ru/_races/210417_az/solution.jpg'
+        ]
     },
     {
         id: 'SPB_20210417_4',
@@ -794,7 +809,11 @@ let events2021 = [
         o_gps: 9883,
         type: 'TOURISM',
         video: 'https://www.youtube.com/watch?v=Ge6PvS6S8X8',
-        start: 'MB'
+        start: 'MB',
+        maps: [
+            'https://kandid.ru/maps21/vmb21_1.jpg',
+            'https://kandid.ru/maps21/vmb21_2.jpg'
+        ]
     },
     {
         id: 'SPB_20210512_1',
@@ -924,7 +943,11 @@ let events2021 = [
         photo: 'https://vk.com/album-30311715_276456938',
         map: 'hiitola_ba_2021',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2021-1/BA21.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2021-1/TA21.jpg'
+        ]
     },
     {
         id: 'SPB_20210523_1',
@@ -1244,7 +1267,10 @@ let events2021 = [
             'М': 10199,
             'Ж': 10200,
             'М21А/45': 10251
-        }
+        },
+        maps: [
+            // 'https://www.livelox.com/Events/Show/65137', // Livelox: Кубок карельского перешейка 1 день
+        ]
     },
     {
         id: 'SPB_20210614_2',
@@ -1273,7 +1299,10 @@ let events2021 = [
             'М': 10202,
             'Ж': 10208,
             'М21А/45': 10247
-        }
+        },
+        maps: [
+            // 'https://www.livelox.com/Events/Show/65147', // Livelox: КПП 2021 День 2. Кросс классика длинная
+        ]
     },
     {
         id: 'SPB_20210616_1',
@@ -1693,7 +1722,10 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/050921_bb/20210509_SPRINT_absolyutny (1).pdf',
         info: 'Всероссийские соревнования по трейл-ориентированию «БАЛТИЙСКИЙ БЕРЕГ» (WRE) пройдут с 3 по 5 сентября. Кубок Санкт-Петербурга по спортивному ориентированию лиц с ПОДА: 04.09.2021',
         o_site: '050921_bb',
-        map: 'sestroretsk_pljazh_laskovy_2023'
+        map: 'sestroretsk_pljazh_laskovy_2023',
+        maps: [
+            'https://o-site.spb.ru/_races/050921_bb/Solution_1_2.pdf'
+        ]
     },
     {
         id: 'SPB_20210905_2',
@@ -2306,7 +2338,14 @@ let events2021 = [
         o_site: '211014_markir110',
         bulletin: 'https://o-site.spb.ru/_races/211014_markir110/info_bull.PDF',
         strava: 6255821909,
-        map: 'toksovo_malinovaya_gora_2018'
+        map: 'toksovo_malinovaya_gora_2018',
+        maps: [
+            'https://o-site.spb.ru/_races/211014_markir110/MapA.jpg',
+            'https://o-site.spb.ru/_races/211014_markir110/MapB.jpg',
+            'https://o-site.spb.ru/_races/211014_markir110/MapD.jpg',
+            'https://o-site.spb.ru/_races/211014_markir110/MapE.jpg',
+            'https://o-site.spb.ru/_races/211014_markir110/MapC.jpg'
+        ]
     },
     {
         id: 'SPB_20211114_2',
@@ -2460,7 +2499,10 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/211226B/211226B_info4.pdf',
         o_site: '211226B',
         strava: 6428571215,
-        o_gps: 11754
+        o_gps: 11754,
+        maps: [
+            'https://o-site.spb.ru/_races/211226B/211226_beg_kontrol.pdf'
+        ]
     },
     {
         id: 'SPB_20211226_2',
@@ -2471,7 +2513,10 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/211226l/211226_res.htm',
         o_site: '211226l',
         bulletin: 'https://o-site.spb.ru/_races/211226l/211226l_info3.pdf',
-        strava: 6428561506
+        strava: 6428561506,
+        maps: [
+            'https://o-site.spb.ru/_races/211226l/211226_l_kontrol.pdf'
+        ]
     },
     {
         id: 'SPB_20211226_3',
