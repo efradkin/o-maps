@@ -343,17 +343,38 @@
     max-width: calc(100vw - 20px) !important;
     box-sizing: border-box !important;
     margin: 0 !important;
-    padding: 8px 14px !important;
+    padding: 10px 8px 6px !important;
     border: 0 !important;
-    background: #3b7447 !important;
-    color: #fff !important;
-    font-size: 12px !important;
-    font-weight: 800 !important;
-    line-height: 1.25 !important;
-    letter-spacing: .025em !important;
+    border-bottom: 3px solid var(--om-month-rule, var(--om-green)) !important;
+    background: var(--om-card) !important;
+    color: var(--om-month-ink, var(--om-green)) !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+    letter-spacing: 0 !important;
     text-align: left !important;
     white-space: normal !important;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, .08) !important;
+    box-shadow: none !important;
+  }
+
+  /* Подпись: «О К Т Я Б Р Ь   2026» жирным (месяц капсом с разрядкой, год
+     без неё), счётчики приглушены (разметку строит buildMonth() в calendar.js). */
+  .om-mobile-enhanced .calendar-body .o-main-table td.month-row .month-name {
+    text-transform: uppercase !important;
+    letter-spacing: .25em !important;
+  }
+  .om-mobile-enhanced .calendar-body .o-main-table td.month-row .month-counts {
+    float: right !important;
+    margin-top: 2px !important;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    color: var(--om-muted) !important;
+  }
+
+  /* Лыжный календарь — в своём синем. */
+  .om-mobile-enhanced .calendar-body.ski-bodi .o-main-table td.month-row {
+    --om-month-ink: #044E71;
+    --om-month-rule: #2f7fa6;
   }
 
   /* Обычная строка таблицы превращается в карточку. Порядок ячеек штатный:

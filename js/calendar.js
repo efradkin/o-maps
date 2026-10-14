@@ -146,110 +146,135 @@ let currentDate;
 let monthTD = null, prevDate = null;
 let korients = 0, krogaines = 0, kothers = 0;
 
+// Строки-разделители групп (td.month-row). Обычно старты группируются по
+// месяцам. Если выборка разреженная — в среднем меньше SPARSE_GROUP_MIN
+// стартов на группу (например, «все WRC»: по одному старту в месяц) —
+// группы укрупняются до годов, а если и на год приходится меньше, разделители
+// не выводятся вовсе: год и так виден в колонке даты.
+// «Ранние» старты (startYear=EARLY) группируются не мельче чем по годам.
+const SPARSE_GROUP_MIN = 2;
+
+function groupKeyOf(date, grouping) {
+    return grouping === 'month' ? date.getFullYear() * 12 + date.getMonth() : date.getFullYear();
+}
+
+function chooseGrouping(events) {
+    if (currentSort !== 'date' || onlyMy || events.length === 0) {
+        return 'none';
+    }
+    const levels = ('EARLY' === START_YEAR_PARAM) ? ['year'] : ['month', 'year'];
+    for (const grouping of levels) {
+        const groups = new Set(events.map(evt => groupKeyOf(new Date(evt.date), grouping)));
+        if (events.length >= SPARSE_GROUP_MIN * groups.size) {
+            return grouping;
+        }
+    }
+    return 'none';
+}
+
 // строит табличку с инфой об авторах-составителях
 function renderMapsTable() {
     let totalEvents = 0, orientEvents = 0, rogaineEvents = 0, veloEvents = 0, skiEvents = 0, otherEvents = 0;
     tbody.innerHTML = '';
+    monthTD = null;
+    prevDate = null;
+    korients = krogaines = kothers = 0;
+
+    const visibleEvents = oEvents.filter(evt =>
+        !(onlyMy && !evt.strava && !evt.my && (!evt.id || !myEvents.includes(evt.id))) && validateEvent(evt));
+    const grouping = chooseGrouping(visibleEvents);
 
     let idx = 0;
     let prevYear = 0;
-    let currentMonth = -1, currentYear = -1;
-    for (const evt of oEvents) {
-        if (onlyMy && !evt.strava && !evt.my && (!evt.id || !myEvents.includes(evt.id))) {
-            continue;
+    let currentGroup = null;
+    for (const evt of visibleEvents) {
+        totalEvents++;
+        currentDate = new Date(evt.date);
+        const y = currentDate.getFullYear();
+        if (grouping !== 'none' && groupKeyOf(currentDate, grouping) !== currentGroup) {
+            if (monthTD) {
+                buildMonth(grouping);
+            }
+            const monthRow = document.createElement('tr');
+            monthTD = document.createElement('td');
+            monthTD.setAttribute('colspan', 8);
+            monthTD.classList.add('month-row');
+            monthRow.appendChild(monthTD);
+            tbody.appendChild(monthRow);
+            currentGroup = groupKeyOf(currentDate, grouping);
         }
 
-        if (validateEvent(evt)) {
-            totalEvents++;
-            currentDate = new Date(evt.date);
-            const month = currentDate.getMonth();
-            const y = currentDate.getFullYear();
-            if (currentSort === 'date' && (month !== currentMonth || y !== currentYear)) {
-                if (monthTD) {
-                    buildMonth();
-                }
-                const monthRow = document.createElement('tr');
-                monthTD = document.createElement('td');
-                monthTD.setAttribute('colspan', 8);
-                monthTD.classList.add('month-row');
-                monthRow.appendChild(monthTD);
-                if (!onlyMy && ('EARLY' !== START_YEAR_PARAM || (currentYear !== y))) {
-                    tbody.appendChild(monthRow);
-                }
-                currentMonth = month;
-                currentYear = y;
+        const row = document.createElement('tr');
+        const lastDate = new Date(evt.endDate ?? evt.date);
+        if (isOutdated(lastDate)) {
+            row.classList.add('disabled');
+        } else {
+            if (isActual(lastDate)) {
+                row.classList.add('current');
             }
-
-            const row = document.createElement('tr');
-            const lastDate = new Date(evt.endDate ?? evt.date);
-            if (isOutdated(lastDate)) {
-                row.classList.add('disabled');
-            } else {
-                if (isActual(lastDate)) {
-                    row.classList.add('current');
-                }
-            }
-            if(evt.cancelled) {
-                row.classList.add('cancelled');
-            }
-            // Важные старты. Внешний вид задают css/theme.css (десктоп —
-            // жирное начертание, как было) и css/calendar-mobile.css
-            // (карточки — крупный заголовок и утолщённая обводка).
-            if (isMajor(evt)) {
-                row.classList.add('major');
-            }
-            // «Мои» старты — тот же признак, по которому раньше ставился <b>.
-            // Внешний вид задают css/theme.css (десктоп) и
-            // css/calendar-mobile.css (карточки).
-            if (evt.id && myEvents.includes(evt.id)) {
-                row.classList.add('my-event');
-            }
-            if (!evt.type || evt.type.includes('ORIENT') || evt.type.includes('INDOOR')) {
-                row.classList.add('orient');
+        }
+        if(evt.cancelled) {
+            row.classList.add('cancelled');
+        }
+        // Важные старты. Внешний вид задают css/theme.css (десктоп —
+        // жирное начертание, как было) и css/calendar-mobile.css
+        // (карточки — крупный заголовок и утолщённая обводка).
+        if (isMajor(evt)) {
+            row.classList.add('major');
+        }
+        // «Мои» старты — тот же признак, по которому раньше ставился <b>.
+        // Внешний вид задают css/theme.css (десктоп) и
+        // css/calendar-mobile.css (карточки).
+        if (evt.id && myEvents.includes(evt.id)) {
+            row.classList.add('my-event');
+        }
+        if (!evt.type || evt.type.includes('ORIENT') || evt.type.includes('INDOOR')) {
+            row.classList.add('orient');
+            korients++;
+            orientEvents++;
+        } else if (evt.type.includes('WATER')) {
+            row.classList.add('water');
+            krogaines++;
+            rogaineEvents++;
+        } else if (isRogaine(evt)) {
+            row.classList.add('rogaine');
+            krogaines++;
+            rogaineEvents++;
+        } else {
+            if (evt.type.includes('SKI') || evt.type.includes('VELO')) {
                 korients++;
-                orientEvents++;
-            } else if (evt.type.includes('WATER')) {
-                row.classList.add('water');
-                krogaines++;
-                rogaineEvents++;
-            } else if (isRogaine(evt)) {
-                row.classList.add('rogaine');
-                krogaines++;
-                rogaineEvents++;
-            } else {
-                if (evt.type.includes('SKI') || evt.type.includes('VELO')) {
-                    korients++;
-                    if (evt.type.includes('SKI')) {
-                        skiEvents++;
-                    }
-                    if (evt.type.includes('VELO')) {
-                        veloEvents++;
-                    }
-                } else {
-                    otherEvents++;
+                if (evt.type.includes('SKI')) {
+                    skiEvents++;
                 }
+                if (evt.type.includes('VELO')) {
+                    veloEvents++;
+                }
+            } else {
+                kothers++;
+                otherEvents++;
             }
-            if (y !== prevYear) {
-                prevYear = y;
-                idx = 0;
-            }
-            td(evt, row, buildNumber(evt, idx++));
-            td(evt, row, buildEventDate(evt, true));
-            // название ведёт на страницу события (event.html), сайт события - иконка за ним
-            td(evt, row, buildEventStart(evt, false, false, true));
-            td(evt, row, buildEventPlace(evt));
-            td(evt, row, buildEventType(evt, true));
-            if (!onlyOneSport) {
-                td(evt, row, buildEventResults(evt));
-                td(evt, row, buildEventReports(evt, true));
-                td(evt, row, buildEventInfo(evt));
-            }
-            tbody.appendChild(row);
-
-            prevDate = currentDate;
         }
+        if (y !== prevYear) {
+            prevYear = y;
+            idx = 0;
+        }
+        td(evt, row, buildNumber(evt, idx++));
+        td(evt, row, buildEventDate(evt, true));
+        // название ведёт на страницу события (event.html), сайт события - иконка за ним
+        td(evt, row, buildEventStart(evt, false, false, true));
+        td(evt, row, buildEventPlace(evt));
+        td(evt, row, buildEventType(evt, true));
+        if (!onlyOneSport) {
+            td(evt, row, buildEventResults(evt));
+            td(evt, row, buildEventReports(evt, true));
+            td(evt, row, buildEventInfo(evt));
+        }
+        tbody.appendChild(row);
+
+        prevDate = currentDate;
     }
-    buildMonth();
+    buildMonth(grouping);
+    alignMonthRows();
     document.body.style.cursor = 'default';
 
     const div = document.querySelector('.o-sheet-roof-stat');
@@ -267,14 +292,53 @@ function renderMapsTable() {
     }
 }
 
-function buildMonth() {
+// Заполняет заголовок только что закончившейся группы: «О К Т Я Б Р Ь   1992»
+// (между месяцем и годом три &nbsp;) или «1992» и справа — ненулевые
+// счётчики по видам. Капс и разрядку букв месяца задаёт CSS (text-transform,
+// letter-spacing), а не пробелы в тексте, — так месяц находится поиском по
+// странице; год без разрядки. Внешний вид — css/theme.css (десктоп)
+// и css/calendar-mobile.css (карточки).
+function buildMonth(grouping) {
     if (prevDate && monthTD) {
-        let year = prevDate.getFullYear();
-        let monthName = prevDate.toLocaleString('ru', {month: 'long'}).toUpperCase().split('').join(' ');
-        monthTD.innerHTML = `${monthName}&nbsp;&nbsp;&nbsp;${year}` + (onlyOneSport ? '' : `&nbsp;&nbsp;&nbsp;(ориенты: ${korients}, рогейны: ${krogaines}, прочие: ${kothers})`);
+        const year = prevDate.getFullYear();
+        let title = `<span class="month-year">${year}</span>`;
+        if (grouping === 'month') {
+            const monthName = prevDate.toLocaleString('ru', {month: 'long'});
+            title = `<span class="month-name">${monthName}</span>&nbsp;&nbsp;&nbsp;` + title;
+        }
+        let counts = '';
+        if (!onlyOneSport) {
+            counts = [['ориенты', korients], ['рогейны', krogaines], ['прочие', kothers]]
+                .filter(([, n]) => n > 0)
+                .map(([label, n]) => `${label}: ${n}`)
+                .join(' · ');
+        }
+        monthTD.innerHTML = (counts ? `<span class="month-counts">${counts}</span>` : '') + title;
         korients = krogaines = kothers = 0;
     }
 }
+
+// Подпись в строке месяца выравнивается по тексту колонки «Дата»: ширина
+// колонки № зависит от данных (номер + значок вида), поэтому отступ меряем
+// по первой строке старта и отдаём в CSS через --o-month-indent.
+function alignMonthRows() {
+    const table = tbody.closest('table');
+    // без :has() — его поддерживают не все браузеры, а в querySelector
+    // неподдерживаемый селектор бросает исключение
+    const eventRow = Array.from(tbody.rows).find(row => !row.querySelector('td.month-row'));
+    const dateCell = eventRow && eventRow.cells[1];
+    if (!table || !dateCell || !dateCell.offsetWidth) {
+        return;
+    }
+    const indent = dateCell.offsetLeft + parseFloat(getComputedStyle(dateCell).paddingLeft || '0');
+    table.style.setProperty('--o-month-indent', `${Math.round(indent)}px`);
+}
+
+let monthAlignFrame = 0;
+window.addEventListener('resize', () => {
+    cancelAnimationFrame(monthAlignFrame);
+    monthAlignFrame = requestAnimationFrame(alignMonthRows);
+});
 
 // Жирное начертание важных и «моих» стартов раньше делалось здесь: каждая
 // ячейка оборачивалась в <b>. Теперь признаки живут классами строки
