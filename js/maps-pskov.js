@@ -3,7 +3,7 @@ let pskovMaps = [
     {
         name: 'Печорский район',
         date: '2010-06-05',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         url: './maps/other/malska_dolina_rogaine_2010.webp',
         link: 'https://7rrc.rogaining.ru/download/7rrc_map24.jpg',
         local_link: './external/original_maps/other/malska_dolina_rogaine_2010_omaps.jpg',
@@ -36,7 +36,7 @@ let pskovMaps = [
         bounds: [[56.4576296, 28.9625788], [56.4537405, 29.0087128], [56.4271462, 28.953867]],
         author: ['LNTV','MTN_Y','FMN_I','JANN_Y','ALSHN'],
         owner: 'PSKOV_RUS',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUS'
     },
     {
         name: 'Митковицы',
@@ -60,7 +60,7 @@ let pskovMaps = [
         logo: 'ussr_pskov_winter_1989.webp',
         author: ['ARTMV','BLNKN_N','VHTV_A','GZTLN','GSMNV_R','KNDRSHKN_V','LVN_B','MTVV','MTN_Y','PTRV_V','PPV_V','SVIR_A','SCHV_V','KHDNKCH','SCHRV_A','JANN_Y'],
         owner: 'PSKOV_RUS',
-        start: ['USSR_CHAMP','USSR_1989_WINTER']
+        start: ['USSR','SKI_USSR_1989']
     },
     {
         name: 'Изборск, Котья гора',
@@ -70,7 +70,7 @@ let pskovMaps = [
         info: 'Чемпионат России.',
         bounds: [[57.6549764, 27.8057528], [57.6518307, 27.8516722], [57.6239436, 27.7984142]],
         owner: 'PSKOV_RUS',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUS'
     },
     {
         name: 'Корытово',
@@ -225,7 +225,7 @@ let pskovMaps = [
         author: ['GZTLN','KHDNKCH','SCHRV_A'],
         owner: 'PSKOV_RUS',
         results: './docs/1982/1982_ussr_champ_results_omaps.xlsx',
-        start: ['USSR_1982','USSR_CHAMP']
+        start: ['USSR_1982','USSR']
     },
     {
         name: 'Лукавец',
@@ -236,7 +236,7 @@ let pskovMaps = [
         author: ['AFNSV_L','GLVNV_V','KRZHV','TRNV_V'],
         owner: 'PSKOV_RUS',
         results: './docs/1982/1982_ussr_champ_results_omaps.xlsx',
-        start: ['USSR_1982','USSR_CHAMP']
+        start: ['USSR_1982','USSR']
     },
     {
         name: 'Аболенье',
@@ -247,7 +247,7 @@ let pskovMaps = [
         bounds: [[56.5489334, 29.0099144], [56.5459999, 29.0685368], [56.5029656, 28.9996147]],
         author: ['JANN_Y','MTVV','FMN_I','ALSHN'],
         owner: 'PSKOV_RUS',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUS'
     },
     {
         name: 'Алоль',

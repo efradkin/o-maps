@@ -524,7 +524,7 @@ let events2009 = [
             'http://gornycross.narod.ru/RRC09-rez.htm'
         ],
         info: '6-й Чемпионат России по рогейну. Форматы: 24 часа (Ч-т России), 6 и 3 часа. Победители: Абс.: Евгений Домбровский, Олег Калинин («Омега-НН») — 244. Команд — 112, участников — 230.',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         o_site: '090530_rog',
         bulletin: [
             // 'https://o-site.spb.ru/_races/090530_rog/09053031_info.htm'

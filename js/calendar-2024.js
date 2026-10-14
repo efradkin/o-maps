@@ -1608,7 +1608,7 @@ let events2024 = [
         coord: [56.091893, 43.229598],
         fmt: '24, 8, 4, 8 вело',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20240818_1',

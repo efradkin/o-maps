@@ -1129,7 +1129,7 @@ let events2020 = [
         name: 'Чемпионат России по рогейну',
         type: 'ROGAINE',
         fmt: '24, 8',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         link: [
             'https://vk.com/event186840276',
             'https://web.archive.org/web/20210121104155/https://rrc2020.ru/',

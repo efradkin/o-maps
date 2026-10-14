@@ -2188,7 +2188,7 @@ let events2023 = [
         fmt: '24, 6, 24 вело',
         planner: 'SLMNV_G',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20231022_1',

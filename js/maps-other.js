@@ -88,7 +88,7 @@ let otherMaps = [
         bounds: [[56.9681876, 40.9292221], [56.9505917, 41.1420822], [56.7894094, 40.8792686]],
         logo: 'rogaine_russia_2011.webp',
         region: 'VLADIMIR',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         type: ['ROGAINE']
     },
     {
@@ -102,7 +102,7 @@ let otherMaps = [
         o_gps: 9803,
         author: ['BRV_D','SHSTKV_P','LGNV_E'],
         logo: 'rrc_2021.webp',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         region: 'VLADIMIR',
         type: ['ROGAINE']
     },
@@ -405,7 +405,7 @@ let otherMaps = [
         info: 'Галичское Заозерье. XXII-й Чемпионат России по рогейну.',
         bounds: [[58.5705798, 42.1852684], [58.5310825, 42.5352859], [58.4416241, 42.132225]],
         type: ['ROGAINE'],
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         logo: 'rrc_2025.gif',
         region: 'KOSTROMA'
     },
@@ -430,7 +430,7 @@ let otherMaps = [
         info: '12-й Чемпионат России по рогейну.',
         bounds: [[56.0727541, 92.4364758], [56.0761552, 92.7628899], [55.9536691, 92.4398661]],
         type: ['ROGAINE'],
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         region: 'KRASNOYARSK'
     },
     {
@@ -454,7 +454,7 @@ let otherMaps = [
         bounds: [[54.5574313, 90.7275009], [54.5576304, 91.0162354], [54.4396003, 90.7271576]],
         author: 'ANKN_I',
         type: ['ROGAINE'],
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         region: 'KRASNOYARSK'
     },
     // --- Курган ---
@@ -489,7 +489,7 @@ let otherMaps = [
         bounds: [[67.6112476, 33.6752844], [67.6048064, 33.7333918], [67.5764459, 33.648355]],
         author: ['KVZN','TKMKVA_P','TKMKV_K'],
         region: 'MURMANSK',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUS'
     },
     {
         name: 'г Горелая',
@@ -522,7 +522,7 @@ let otherMaps = [
         },
         author: ['SKRPKO_S','KVZN','TKMKV_K'],
         region: 'MURMANSK',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUS'
     },
     // --- В.Новгород ---
     {
@@ -591,7 +591,7 @@ let otherMaps = [
         bounds: [[57.9997753, 56.1396646], [57.993134, 56.1908197], [57.9716098, 56.1260605]],
         author: ['LNTV','STLRV','JASHPTRV'],
         region: 'PERM',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUS'
     },
     {
         name: 'Пермь, Черняевский лес, ПКиО',
@@ -616,7 +616,7 @@ let otherMaps = [
         type: ['ROGAINE'],
         region: 'PERM',
         major: true,
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         name: 'Южный лес',
@@ -699,7 +699,7 @@ let otherMaps = [
         },
         bounds: [[56.975205, 60.3298759], [56.9699655, 60.3755379], [56.9342752, 60.3137398]],
         author: 'KNTSVCH',
-        start: ['USSR_1987','USSR_CHAMP']
+        start: ['USSR_1987','USSR']
     },
     {
         name: 'Среднеуральск, Исеть',
@@ -712,7 +712,7 @@ let otherMaps = [
         },
         bounds: [[56.9783857, 60.2980328], [56.9726321, 60.349617], [56.9349074, 60.2813816]],
         author: 'KNTSVCH',
-        start: ['USSR_1987','USSR_CHAMP']
+        start: ['USSR_1987','USSR']
     },
     {
         name: 'Верх-Нейвинский',
@@ -724,7 +724,7 @@ let otherMaps = [
         o_gps: 6247,
         bounds: [[57.3599604, 60.1412201], [57.3450972, 60.3147697], [57.1837623, 60.09161]],
         logo: 'rrc_2019.webp',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         region: 'EKB',
         type: ['ROGAINE']
     },
@@ -782,7 +782,7 @@ let otherMaps = [
             'Ж':'./original_maps/other/nizhneisetsky_ussr_winter_champ_1990_03_11_w21_omaps.webp'
         },
         bounds: [[56.7469344, 60.6781769], [56.7393563, 60.7508755], [56.6964948, 60.6610107]],
-        start: ['USSR_1990_WINTER','USSR_CHAMP'],
+        start: ['SKI_USSR_1990','USSR'],
         author: 'KNTSVCH',
         type: ['WINTER']
     },
@@ -796,7 +796,7 @@ let otherMaps = [
             'Ж':'./original_maps/other/nizhneisetsky_ussr_winter_champ_1990_03_13_w21_omaps.webp'
         },
         bounds: [[56.7542757, 60.6107998], [56.7392622, 60.7240963], [56.7195331, 60.6004143]],
-        start: ['USSR_1990_WINTER','USSR_CHAMP'],
+        start: ['SKI_USSR_1990','USSR'],
         author: 'KNTSVCH',
         type: ['WINTER']
     },
@@ -806,7 +806,7 @@ let otherMaps = [
         url: './maps/other/nizhneisetsky_ussr_winter_champ_1990_03_14.webp',
         link: './original_maps/other/nizhneisetsky_ussr_winter_champ_1990_03_14_omaps.webp',
         bounds: [[56.727021, 60.622859], [56.7217466, 60.6747007], [56.7051181, 60.6180954]],
-        start: ['USSR_1990_WINTER','USSR_CHAMP'],
+        start: ['SKI_USSR_1990','USSR'],
         author: 'KNTSVCH',
         type: ['WINTER']
     },
@@ -816,7 +816,7 @@ let otherMaps = [
         url: './maps/other/verkh_neyvinsky_ussr_winter_champ_1991.webp',
         link: ['./original_maps/other/verkh_neyvinsky_ussr_winter_champ_1991_m21_omaps.webp','./original_maps/other/verkh_neyvinsky_ussr_winter_champ_1991_w21_omaps.webp'],
         bounds: [[57.3041806, 60.1385164], [57.2993584, 60.2015162], [57.266305, 60.1277876]],
-        start: ['USSR_1991_WINTER','USSR_CHAMP'],
+        start: ['SKI_USSR_1991','USSR'],
         type: ['WINTER']
     },
     {
@@ -825,7 +825,7 @@ let otherMaps = [
         url: './maps/other/murzinka_ussr_winter_champ_1991.webp',
         link: './original_maps/other/murzinka_ussr_winter_champ_1991_omaps.webp',
         bounds: [[57.2194226, 60.1049995], [57.2161695, 60.1352978], [57.1879485, 60.0934124]],
-        start: ['USSR_1991_WINTER','USSR_CHAMP'],
+        start: ['SKI_USSR_1991','USSR'],
         type: ['WINTER']
     },
     {
@@ -836,7 +836,7 @@ let otherMaps = [
         bounds: [[57.137427, 60.1115227], [57.1327693, 60.17272], [57.0948572, 60.0991631]],
         results: './docs/1991/1991_02_24_shamanikha_ussr_winter_champ_omaps.pdf',
         planner: 'KNTSVCH',
-        start: ['USSR_1991_WINTER','USSR_CHAMP'],
+        start: ['SKI_USSR_1991','USSR'],
         type: ['WINTER']
     },
     {
@@ -962,7 +962,7 @@ let otherMaps = [
         bounds: [[55.8001231, 60.3118515], [55.7673518, 60.550375], [55.6249915, 60.2353764]],
         author: ['KZLV_V','LNTV','CHRMNCH_A','GBDLN','VRBJV_V','PTPV_A','BLV_V','MLNKV_V','SLDTV_S','KNTSVCH','SPLKV','ZRN_A'],
         region: 'CHELYABINSK',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         type: ['ROGAINE']
     },
     {
@@ -976,7 +976,7 @@ let otherMaps = [
         bounds: [[55.7147829, 60.2863598], [55.6837786, 60.5039406], [55.5527672, 60.2161503]],
         author: ['KZLV_V','BNDR_N','SLDTV_S','GBDLN','BLV_V','RKHMNKLV','NCHKN','PTPV_A','VRBJV_V','MSHRN_A','GRSHKN'],
         region: 'CHELYABINSK',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         type: ['ROGAINE']
     },
     // --- Юг ---
@@ -1128,7 +1128,7 @@ let otherMaps = [
         author: 'ZAMOTA',
         owner: 'ZAMOTA',
         region: 'KRASNODAR',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUS'
     },
     {
         name: 'бульвар Черняховского',
@@ -1152,7 +1152,7 @@ let otherMaps = [
         bounds: [[44.7880488, 37.5710106], [44.7724523, 37.7712536], [44.6631589, 37.5504971]],
         author: ['GRSHKN','GLDKVA_S','SLMNV_G'],
         owner: 'RRF',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         region: 'NVRSYSK',
         type: ['ROGAINE']
     },
@@ -1257,7 +1257,7 @@ let otherMaps = [
         link: './original_maps/south/terskol_rrc_2021_omaps.webp',
         info: 'Открытый Чемпионат России по рогейну.',
         bounds: [[43.2974483, 42.4621582], [43.282829, 42.5990582], [43.2258805, 42.4482536]],
-        start: ['ZM','RUSSIA_ROGAINE_CHAMP'],
+        start: ['ZM','RRC'],
         region: 'KABARDA',
         type: ['ROGAINE']
     },
@@ -1278,7 +1278,7 @@ let otherMaps = [
         bounds: [[48.2437962, 25.1392078], [48.2427674, 25.179162], [48.1981622, 25.1350451]],
         results: './docs/1985/1985_ussr_champ_results_omaps.xlsx',
         author: ['KLTKV_A','DCHNKO_G','GMNKO_V','SRGCHK_N','MLR_P','TRSV_S','RBK_V','SKHRV_S','UGNCHV_V','GRLY_D','BRDV_M','KHNK_V','SLTY_S','MSHNV_A'],
-        start: ['USSR_1985','USSR_CHAMP']
+        start: ['USSR_1985','USSR']
     },
     {
         name: 'Черновцы, Снячев',
@@ -1291,7 +1291,7 @@ let otherMaps = [
         bounds: [[48.1845156, 25.829308], [48.1823695, 25.8687901], [48.1385996, 25.8234286]],
         results: './docs/1985/1985_ussr_champ_results_omaps.xlsx',
         author: 'SHTMPLR',
-        start: ['USSR_1985','USSR_CHAMP']
+        start: ['USSR_1985','USSR']
     },
     {
         name: 'Черновцы, Берегомет',
@@ -1301,7 +1301,7 @@ let otherMaps = [
         bounds: [[48.1671159, 25.3067493], [48.1643394, 25.3446007], [48.1312103, 25.3033161]],
         results: './docs/1985/1985_ussr_champ_results_omaps.xlsx',
         author: ['LPKA_V','PDLSNK_A','IVNNKO_V'],
-        start: ['USSR_1985','USSR_CHAMP']
+        start: ['USSR_1985','USSR']
     },
 
     // --- Казахстан ---
@@ -1319,7 +1319,7 @@ let otherMaps = [
             'М':'./original_maps/other/pasheno_1986_09_09_m21_omaps.webp',
             'Ж':'./original_maps/other/pasheno_1986_09_09_w21_omaps.webp'
         },
-        start: ['USSR_1986','USSR_CHAMP']
+        start: ['USSR_1986','USSR']
     },
     {
         name: 'Каркаралинск',
@@ -1333,7 +1333,7 @@ let otherMaps = [
             'М':'./original_maps/other/karkaralinsk_1986_09_11_m21_tracks_omaps.webp',
             'Ж':'./original_maps/other/karkaralinsk_1986_09_11_w21_tracks_omaps.webp'
         },
-        start: ['USSR_1986','USSR_CHAMP']
+        start: ['USSR_1986','USSR']
     },
 
     // --- Беларусь ---
@@ -1346,7 +1346,7 @@ let otherMaps = [
         bounds: [[54.1381547, 27.1631384], [54.1377524, 27.2027922], [54.1047034, 27.1611214]],
         author: 'LBNVSKY_A',
         results: 'https://ocbsu.orient.by/upload/2018/Protokoly_1988-BSU.pdf',
-        start: ['USSR_1988','USSR_CHAMP']
+        start: ['USSR_1988','USSR']
     },
     {
         name: 'Вязынка',
@@ -1356,7 +1356,7 @@ let otherMaps = [
         bounds: [[54.1503212, 27.2025776], [54.1480591, 27.2428322], [54.0916676, 27.1944237]],
         author: 'LBNVSKY_A',
         results: 'https://ocbsu.orient.by/upload/2018/Protokoly_1988-BSU.pdf',
-        start: ['USSR_1988','USSR_CHAMP']
+        start: ['USSR_1988','USSR']
     },
     {
         name: 'Таковщина',
@@ -1366,7 +1366,7 @@ let otherMaps = [
         bounds: [[54.3299637, 28.0965042], [54.3285873, 28.1431532], [54.2872996, 28.0922556]],
         author: ['ZYTSV_V','JANN_Y','SLMHO','TRNV_VL','TRKN_V'],
         results: 'https://ocbsu.orient.by/upload/2018/Protokoly_1988-BSU.pdf',
-        start: ['USSR_1988','USSR_CHAMP']
+        start: ['USSR_1988','USSR']
     },
     {
         name: 'Юрковичи',
@@ -1377,7 +1377,7 @@ let otherMaps = [
         gps: 'https://rg.obelarus.net/cgi-bin/reitti.cgi?act=map&id=279&kieli=',
         author: ['MLNKV_L','TRNV_VL','DLNN_E','TRKN_V','KPVA_Y'],
         results: 'https://ocbsu.orient.by/upload/2018/Protokoly_1988-BSU.pdf',
-        start: ['USSR_1988','USSR_CHAMP']
+        start: ['USSR_1988','USSR']
     },
 
     // --- Латвия ---
@@ -1394,7 +1394,7 @@ let otherMaps = [
         author: 'KRLS_M',
         results: './docs/1983/1983_ussr_champ_results_omaps.xlsx',
         bounds: [[57.3843953, 25.7080936], [57.3832387, 25.7625961], [57.3584096, 25.7067204]],
-        start: ['USSR_1983','USSR_CHAMP']
+        start: ['USSR_1983','USSR']
     },
     {
         name: 'Cēsis, Kārļi',
@@ -1405,7 +1405,7 @@ let otherMaps = [
         results: './docs/1983/1983_ussr_champ_results_omaps.xlsx',
         bounds: [[57.2759805, 25.1769304], [57.2741245, 25.2367115], [57.2541895, 25.1742268]],
         author: ['KSLV_V','ZDNSH','ZVTSKS','LPNSH'],
-        start: ['USSR_1983','USSR_CHAMP']
+        start: ['USSR_1983','USSR']
     },
     {
         name: 'Cēsis, Līgatne',
@@ -1419,7 +1419,7 @@ let otherMaps = [
         results: './docs/1983/1983_ussr_champ_results_omaps.xlsx',
         bounds: [[57.2573, 25.0349236], [57.2561626, 25.079298], [57.221444, 25.0326061]],
         author: 'KSLV_V',
-        start: ['USSR_1983','USSR_CHAMP']
+        start: ['USSR_1983','USSR']
     },
     {
         name: 'Pļaviņas, Mežezers',
@@ -1433,7 +1433,7 @@ let otherMaps = [
         },
         bounds: [[56.6687265, 25.6797266], [56.6664155, 25.7222986], [56.6250055, 25.6806707]],
         author: 'KSLV_V',
-        start: ['USSR_1990','USSR_CHAMP']
+        start: ['USSR_1990','USSR']
     },
 
     // --- Литва ---
@@ -1449,7 +1449,7 @@ let otherMaps = [
         },
         bounds: [[54.6213631, 24.4913149], [54.6193505, 24.5579624], [54.5766885, 24.4861221]],
         author: ['GPS_V','ZLVS_D','JVSA_A','GVLDS_J_G'],
-        start: ['USSR_1989','USSR_CHAMP']
+        start: ['USSR_1989','USSR']
     },
     {
         name: 'Ravai',
@@ -1459,7 +1459,7 @@ let otherMaps = [
         link: './original_maps/other/ravai_1989_07_25_omaps.webp',
         bounds: [[54.7006223, 25.105176], [54.6999775, 25.1626396], [54.6767342, 25.1044893]],
         author: ['MCKVCS','BLSS','SBCS_G'],
-        start: ['USSR_1989','USSR_CHAMP']
+        start: ['USSR_1989','USSR']
     },
     {
         name: 'Katlaukis',
@@ -1472,7 +1472,7 @@ let otherMaps = [
         },
         bounds: [[54.7584361, 25.7485199], [54.7566779, 25.8039665], [54.722687, 25.7443142]],
         author: ['VGNTS_N','GTS_J'],
-        start: ['USSR_1989','USSR_CHAMP']
+        start: ['USSR_1989','USSR']
     },
 
     // --- Эстония ---
@@ -1489,7 +1489,7 @@ let otherMaps = [
         results: './docs/1984/1984_ussr_champ_results_omaps.xlsx',
         bounds: [[58.153633, 26.6051102], [58.1495116, 26.6779804], [58.1189708, 26.5974712]],
         author: ['KRNR_O','RMM_K'],
-        start: ['USSR_1984','USSR_CHAMP']
+        start: ['USSR_1984','USSR']
     },
     {
         name: 'Tartu, Hellenurme',
@@ -1504,7 +1504,7 @@ let otherMaps = [
         results: './docs/1984/1984_ussr_champ_results_omaps.xlsx',
         bounds: [[58.1521838, 26.4073563], [58.1499645, 26.4567947], [58.1144373, 26.3998032]],
         author: ['ORS_P','PNI_T','RD_T','VRM_A'],
-        start: ['USSR_1984','USSR_CHAMP']
+        start: ['USSR_1984','USSR']
     },
     {
         name: 'Tartu, Alalooga',
@@ -1517,7 +1517,7 @@ let otherMaps = [
         results: './docs/1984/1984_ussr_champ_results_omaps.xlsx',
         bounds: [[58.1845513, 26.4036226], [58.1840083, 26.4446926], [58.1515044, 26.4005756]],
         author: 'KLM_K',
-        start: ['USSR_1984','USSR_CHAMP']
+        start: ['USSR_1984','USSR']
     },
 
     // --- Чехия ---

@@ -990,7 +990,7 @@ let events2016 = [
         type: 'ROGAINE',
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-sportivnomu-orientirovaniyu/championat-rossii-po-rogeynu-v-sosnovo-13-07-2016',
         info: 'Формат соревнований: - 24 часа бегом – чемпионат России. - 8 часов бегом – открытое первенство Санкт-Петербурга. - 6 часов на велосипеде – 3 этап кубка Всеволожского района. Победители: MO (абс.): Олег Калинин, Константин Соловьёв («Волга-Урал») — 239; WO: Анна Бурлинова, Наталья Зимина; XO: Юрий Агафонцев, Анастасия Галитарова. Команд — 94, участников — 205.',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         o_site: '16070203',
         bulletin: [
             // 'https://www.multsport.ru/starts/rus-run-rogaine-2016/bulletin-1.html'
@@ -1372,7 +1372,7 @@ let events2016 = [
         coord: [58.2387, 48.708],
         fmt: '24 вело, 10 вело, 10',
         type: ['ROGAINE','VELO'],
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20160918_1',

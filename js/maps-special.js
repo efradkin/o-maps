@@ -770,7 +770,7 @@ let specialMaps = [
         bounds: [[60.4456622, 30.319519], [60.4421481, 30.3811455], [60.4019739, 30.3081679]],
         type: ['VELO'],
         region: 'SPB',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUS'
     },
     {
         name: 'Силанде',

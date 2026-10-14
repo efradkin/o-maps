@@ -1177,7 +1177,7 @@ let events2018 = [
         fmt: '24, 6',
         planner: 'ANKN_I',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20180722_1',
@@ -1268,7 +1268,7 @@ let events2018 = [
             'http://www.multsport.ru/images/rogRus18/split.htm'
         ],
         fmt: 'Рогейн 6ч, Рогейн 18ч. Велосипедный и беговой рогейн.',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         owner: 'MULTSPORT',
         o_site: '18081112',
         link: [

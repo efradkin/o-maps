@@ -1051,7 +1051,7 @@ let events2015 = [
         coord: [51.6666, 46.4788],
         fmt: '24, 12, 6',
         type: ['ROGAINE','WATER'],
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20150726_1',
@@ -1093,7 +1093,7 @@ let events2015 = [
             // 'http://piterhappening.ru/docs/Results_velo2015_final.pdf' // недоступна
         ],
         info: '24 часа Велосипедный рогейн — Чемпионат России. Одновременно проводятся рогейны в двух альтернативных форматах: 9 часов Велосипедный рогейн - «Питер Хэппининг 2015» 9 часов Беговой рогейн - «Питер Хэппининг 2015». Победители: Владимир Левченко, Илья Строганов (MDK - Russia Adventure Team) – 330, 22:02:44; 2. Нагаев А., Колганов Е. (Chasing Daylight) 330; СО: Барышникова Н., Кашин Д., Розанов П. (Беличий отряд) 295; ЖО: Сафина М., Миронова И. (Полный X-Race) 217. Команд — 34, участников — 70.',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         o_site: '150809',
         bulletin: [
             // 'https://web.archive.org/web/20160806141039/http://x-race.info/calendar/48512/regulations/'
@@ -1364,7 +1364,7 @@ let events2015 = [
         name: '12-й Чемпионат России по рогейну',
         type: 'ROGAINE',
         fmt: '24 часа бегом',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         link: [
             'http://kras-rogaining.ru/',
             'http://kras-rogaining.ru/otchety/otchety-2015/238-otchety-12-go-chempionata-rossii-po-rogejnu.html',

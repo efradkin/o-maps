@@ -738,7 +738,7 @@ let events2019 = [
         type: ['ROGAINE','WATER'],
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2019/registration.html',
         fmt: '8ч – Весенний водный рогейн, 16ч – 2-й Чемпионат России по рогейну на байдарках.',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         owner: 'MULTSPORT',
         o_site: '19051819',
         map: 'vuoksa_rogaine_2019',
@@ -1372,7 +1372,7 @@ let events2019 = [
         coord: [57.232088, 60.085317],
         fmt: '24, 8, 4',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20190825_1',

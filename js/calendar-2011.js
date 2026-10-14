@@ -206,7 +206,7 @@ let events2011 = [
         coord: [56.8806, 40.9777],
         fmt: '24, 6',
         type: ['ROGAINE','SKI'],
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20110308_1',
@@ -953,7 +953,7 @@ let events2011 = [
         fmt: '24, 8, 4',
         planner: 'BNDR_N',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20110911_1',

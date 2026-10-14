@@ -111,7 +111,7 @@ let rogaineMaps = [
         bounds: [[61.195386, 29.6627426], [61.1948898, 29.9140549], [61.0483154, 29.662056]],
         owner: 'GORNY_CROSS',
         type: ['ROGAINE'],
-        start: ['GORNY_CROSS','RUSSIA_ROGAINE_CHAMP'],
+        start: ['GORNY_CROSS','RRC'],
         region: 'SPB'
     },
     {
@@ -170,7 +170,7 @@ let rogaineMaps = [
         info: '<a href="https://www.rogaine-spb.narod.ru/race0807/info.html">IV Чемпионат России по рогейну</a>.',
         author: ['ANTPV','KMN_I','OZRV'],
         type: ['ROGAINE'],
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         region: 'SPB'
     },
     {
@@ -186,7 +186,7 @@ let rogaineMaps = [
     {
         name: 'Лемболово-Мичуринское',
         year: 2012,
-        start: ['100x24','RUSSIA_ROGAINE_CHAMP'],
+        start: ['100x24','RRC'],
         url: './maps/rogaine/lembolovo_michurinskoe_rrc_2012.webp',
         link: 'https://100x24.ru/2012/maps/100x24_2012.gif',
         local_link: './external/original_maps/rogaine/lembolovo_michurinskoe_rrc_2012_omaps.gif',
@@ -206,7 +206,7 @@ let rogaineMaps = [
         author: 'RYLOV_V',
         owner: 'MULTSPORT',
         type: ['ROGAINE'],
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         region: 'SPB'
     },
 /*
@@ -248,7 +248,7 @@ let rogaineMaps = [
         info: '<a href="https://rrc2012.rogaining.ru/">IX Чемпионат России по рогейну</a>.',
         author: 'RYLOV_V',
         type: ['ROGAINE'],
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         region: 'SPB'
     },
     {
@@ -288,7 +288,7 @@ let rogaineMaps = [
         },
         type: ['ROGAINE'],
         region: 'SPB',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         name: 'Гарболово',
@@ -319,7 +319,7 @@ let rogaineMaps = [
         owner: 'MULTSPORT',
         type: ['ROGAINE'],
         region: 'SPB',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         name: 'Луга, оз Омчино',
@@ -542,6 +542,6 @@ let rogaineMaps = [
         author: 'RYLOV_V',
         owner: ['RYLOV_V','MULTSPORT'],
         type: ['ROGAINE'],
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
 ];

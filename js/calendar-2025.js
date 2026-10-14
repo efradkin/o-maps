@@ -1643,7 +1643,7 @@ let events2025 = [
         coord: [58.501726, 42.351461],
         fmt: '24, 4',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20250713_1',

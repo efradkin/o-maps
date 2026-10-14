@@ -2116,7 +2116,7 @@ let moscowMaps = [
         logo: 'fsor.webp',
         type: ['PARK'],
         region: 'MSK',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUS'
     },
     {
         name: 'ПиП Битцевский лес - Конно-Спортивный Комплекс',
@@ -3255,7 +3255,7 @@ let moscowMaps = [
         bounds: [[55.7800485, 38.4063148], [55.7280768, 38.9154625], [55.6171401, 38.3551598]],
         author: ['RSCHN_R','KLSV_S','MRDRS','KBRV_M','BRBA'],
         type: ['ROGAINE'],
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         region: 'MSK'
     },
     {
@@ -5016,7 +5016,7 @@ let moscowMaps = [
         bounds: [[56.3487022, 36.8536377], [56.3557407, 37.2264862], [56.2190186, 36.8608475]],
         author: 'KSTLV_E',
         type: ['ROGAINE'],
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         region: 'MSK'
     },
     {

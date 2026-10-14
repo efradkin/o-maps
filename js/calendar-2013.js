@@ -232,7 +232,7 @@ let events2013 = [
         coord: [55.913, 37.216],
         fmt: '24, 6, 3',
         type: ['ROGAINE','SKI'],
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20130303_1',
@@ -841,7 +841,7 @@ let events2013 = [
             'http://gornycross.narod.ru/130602_res.xls'
             // 'https://o-site.spb.ru/_races/130602/130601_split.htm' // недоступна
         ],
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         o_site: '130602',
         bulletin: [
             // 'https://o-site.spb.ru/_races/130602/GK130601_proezd.pdf'
@@ -1502,7 +1502,7 @@ let events2013 = [
         fmt: '24',
         planner: ['FRSV_K','PSTNV_D'],
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20131006_1',

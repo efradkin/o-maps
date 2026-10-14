@@ -982,7 +982,7 @@ let events2014 = [
         name: 'Чемпионат России по рогейну на велосипедах',
         type: ['ROGAINE','VELO'],
         reg: 'http://x-race.info/calendar/19045/request/',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         owner: ['MULTSPORT','RRF'],
         o_site: '14082324',
         link: [
@@ -1156,7 +1156,7 @@ let events2014 = [
         fmt: '24, 8, 4',
         planner: 'RSCHN_R',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20140916_1',

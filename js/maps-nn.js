@@ -8,7 +8,7 @@ let nnMaps = [
         results: './docs/1991/1991_ussr_champ_results_omaps.xlsx',
         bounds: [[55.7417285, 43.0738306], [55.7322332, 43.1580734], [55.7020165, 43.0597544]],
         author: ['KHDNKCH','SCHV_V','SCHRV_A','KNDRSHKN_V','SCHV_M'],
-        start: ['USSR_1991','USSR_CHAMP'],
+        start: ['USSR_1991','USSR'],
         region: 'N_NOVGOROD'
     },
     {
@@ -19,7 +19,7 @@ let nnMaps = [
         results: './docs/1991/1991_ussr_champ_results_omaps.xlsx',
         bounds: [[55.7318466, 43.0971336], [55.7279801, 43.1346416], [55.7001544, 43.0867052]],
         author: ['SCHV_V','KNDRSHKN_V','KHDNKCH'],
-        start: ['USSR_1991','USSR_CHAMP'],
+        start: ['USSR_1991','USSR'],
         region: 'N_NOVGOROD'
     },
     {
@@ -31,7 +31,7 @@ let nnMaps = [
         results: './docs/1991/1991_ussr_champ_results_omaps.xlsx',
         bounds: [[56.1283083, 43.0239201], [56.1235962, 43.068037], [56.1004335, 43.0142212]],
         author: ['KHDNKCH','KNDRSHKN_V','SCHRV_A'],
-        start: ['USSR_1991','USSR_CHAMP'],
+        start: ['USSR_1991','USSR'],
         region: 'N_NOVGOROD'
     },
     {
@@ -139,7 +139,7 @@ let nnMaps = [
         bounds: [[56.2534596, 43.2717133], [56.2192573, 43.5659409], [56.005292, 43.1745529]],
         author: ['BRV_D','SDNV_V'],
         type: ['ROGAINE'],
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         owner: 'NN_RORAINE',
         region: 'N_NOVGOROD'
     },
@@ -168,7 +168,7 @@ let nnMaps = [
         bounds: [[56.2011659, 43.0440903], [56.1630458, 43.4042358], [56.0460614, 42.9850388]],
         author: ['BRV_D','SHSTKV_P'],
         type: ['ROGAINE'],
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         owner: 'NN_RORAINE',
         region: 'N_NOVGOROD'
     },

@@ -11,7 +11,7 @@ let samaraMaps = [
         author: ['SKRPKO_S','PZDV_S','ZKN_V','ERKHV'],
         type: ['ROGAINE'],
         region: 'SAMARA',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         name: 'Тольятти, Ставропольский сосняк',

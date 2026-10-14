@@ -475,7 +475,7 @@ let commonEvents2026 = [
         fmt:  '24, 8, 4',
         type: 'ROGAINE',
         planner: 'RYLOV_V',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         info: 'Пути участников: [<a href="https://forestadventure.ru/2026/rrc/">1</a>], [<a href="https://o-route.ru/events/rrc-2026">2</a>]. Победители: MO (абс.): Михаил Полянчиков (Жуков), Павел Сорокин (Москва) — 488; XO: Дмитрий Панов, Сергей Романенков, Анна Шавлакова — 444; WO: Екатерина Петухова, Анна Шляпникова — 336. Команд — 84, участников — 181.',
         photo: 'https://vk.ru/album-8292013_314304112',
         res: [
@@ -606,6 +606,6 @@ let commonEvents2026 = [
         coord: [56.009102, 60.531791],
         fmt: '24',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
 ];

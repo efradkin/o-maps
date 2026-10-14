@@ -856,7 +856,7 @@ let events2022 = [
         name: 'Чемпионат России по рогейну на велосипедах',
         type: ['ROGAINE','VELO'],
         fmt: '16, 6',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         link: [
             // 'https://rogaining.site/', // недоступна, ниже — копия в архиве
             'https://web.archive.org/web/20230603010247/https://rogaining.site',
@@ -1471,7 +1471,7 @@ let events2022 = [
         fmt: '24, 6',
         planner: 'KZLV_V',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20220731_1',

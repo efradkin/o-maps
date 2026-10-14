@@ -352,7 +352,7 @@ let events2008 = [
         fmt: '24',
         planner: 'YSCHNK_S',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20080511_1',

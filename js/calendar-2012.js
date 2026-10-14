@@ -183,7 +183,7 @@ let events2012 = [
         info: '<a href="https://100x24.ru/2012/docs/100x24_nat.htm">Интервью</a>. Победители: МО: Игорь Клепча, Геннадий Некрасов (Red Fox, СПб) – 286 из 290, 23:30:48; СО: Наталья Абрамова, Андрей Шведов (Garmin-Ориента Ski) – 284; ЖО: Наталия Лукьянец, Наталья Зимина (Blondie) – 187. Команд — 38, участников — 79.',
         type: ['ROGAINE','SKI'],
         fmt: '24 и 6 часов',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         o_site: '12030910',
         bulletin: [
             // 'https://100x24.ru/2012/docs/20120309_bull.htm'
@@ -786,7 +786,7 @@ let events2012 = [
         name: 'Чемпионат России по рогейну, Горный кросс, 3 этап',
         place: 'Первомайский',
         type: 'ROGAINE',
-        start: ['RUSSIA_ROGAINE_CHAMP','GORNY_CROSS'],
+        start: ['RRC','GORNY_CROSS'],
         o_site: '12072122',
         bulletin: [
             // 'http://rrc2012.rogaining.ru/content/view/1/3/'

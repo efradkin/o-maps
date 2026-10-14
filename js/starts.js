@@ -474,21 +474,21 @@ let starts = {
         logo: 'vwc95.gif',
         region: 'SPB'
     },
-    USSR_CHAMP: {
+    USSR: {
         major: true,
         retro: true,
         short: 'Чемпионат СССР',
         name: 'Чемпионат СССР',
         owner: 'FSOR'
     },
-    USSR_CHAMP_WINTER: {
+    SKI_USSR: {
         major: true,
         retro: true,
         short: 'Зимний ЧСССР',
         name: 'Зимний Чемпионат СССР',
         owner: 'FSOR'
     },
-    USSR_1989_WINTER: {
+    SKI_USSR_1989: {
         major: true,
         retro: true,
         short: 'I Зимний Чемпионат СССР',
@@ -497,7 +497,7 @@ let starts = {
         region: 'PERM',
         owner: 'FSOR'
     },
-    USSR_1990_WINTER: {
+    SKI_USSR_1990: {
         major: true,
         retro: true,
         short: 'II Зимний Чемпионат СССР',
@@ -506,7 +506,7 @@ let starts = {
         region: 'EKB',
         owner: 'FSOR'
     },
-    USSR_1991_WINTER: {
+    SKI_USSR_1991: {
         major: true,
         retro: true,
         short: 'III Зимний Чемпионат СССР',
@@ -679,19 +679,19 @@ let starts = {
         logo: 'iof.gif',
         owner: 'IOF'
     },
-    RUSSIA_CHAMP: {
+    RUS: {
         major: true,
         short: 'ЧР',
         name: 'Чемпионат России',
         owner: 'FSOR'
     },
-    RUSSIA_CHAMP_MTBO: {
+    MTBO_RUS: {
         major: true,
         short: 'ЧР Вело',
         name: 'Чемпионат России по ориентированию на велосипедах',
         owner: 'FSOR'
     },
-    RUSSIA_CHAMP_SKI: {
+    SKI_RUS: {
         major: true,
         short: 'ЧР Лыжи',
         name: 'Чемпионат России по ориентированию на лыжах',
@@ -704,7 +704,7 @@ let starts = {
         name: 'Кубок России',
         owner: 'FSOR'
     },
-    RUSSIA_ROGAINE_CHAMP: {
+    RRC: {
         major: true,
         rogaine: true,
         short: 'Чемпионат России по рогейну',

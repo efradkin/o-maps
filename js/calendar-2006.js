@@ -466,7 +466,7 @@ let events2006 = [
         coord: [53.406449, 49.311312],
         fmt: '24, 12, 6, 3',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20060626_1',

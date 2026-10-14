@@ -317,34 +317,34 @@ let historyDocs = [
     },
     {
         name: 'Программа',
-        start: ['USSR_1981','USSR_CHAMP'],
+        start: ['USSR_1981','USSR'],
         year: 1981,
         link: './docs/1981/1981_ussr_champ_program_omaps.pdf',
         map: ['vyborg_saymenskie_dachi_1981','sosnovo_ulovnoe_oz_1981','veschevo_1981']
     },
     {
         name: 'Постановление',
-        start: ['USSR_1981','USSR_CHAMP'],
+        start: ['USSR_1981','USSR'],
         year: 1981,
         link: './docs/1981/1981_ussr_champ_resolution_omaps.pdf'
     },
     {
         name: 'Схема',
-        start: ['USSR_1981','USSR_CHAMP'],
+        start: ['USSR_1981','USSR'],
         year: 1981,
         link: './docs/1981/1981_ussr_champ_relay_schema_omaps.jpg',
         map: 'sosnovo_ulovnoe_oz_1981'
     },
     {
         name: 'Билет участника',
-        start: ['USSR_1981','USSR_CHAMP'],
+        start: ['USSR_1981','USSR'],
         year: 1981,
         link: './docs/1981/1981_ussr_champ_ticket_omaps.pdf'
     },
     {
         name: 'Азимут - через скалы',
         info: 'Статья в газете "Советский спорт".',
-        start: ['USSR_1981','USSR_CHAMP'],
+        start: ['USSR_1981','USSR'],
         date: '1981-08-07',
         link: './docs/1981/1981_08_07_ussr_champ_soviet_sport_article_omaps.pdf',
         author: 'LBDKN'
@@ -352,54 +352,54 @@ let historyDocs = [
     {
         name: 'Первые чемпионы',
         info: 'Статья в газете "Советский спорт".',
-        start: ['USSR_1981','USSR_CHAMP'],
+        start: ['USSR_1981','USSR'],
         date: '1981-08-08',
         link: './docs/1981/1981_08_08_ussr_champ_soviet_sport_article_omaps.pdf',
         author: 'LBDKN'
     },
     {
         name: 'Программа',
-        start: ['USSR_1982','USSR_CHAMP'],
+        start: ['USSR_1982','USSR'],
         year: 1982,
         link: './docs/1982/1982_ussr_champ_program_omaps.pdf',
         map: ['myakishevo_1982_08_25','lukavets_1982_08_27']
     },
     {
         name: 'Результаты',
-        start: ['USSR_1982','USSR_CHAMP'],
+        start: ['USSR_1982','USSR'],
         year: 1982,
         link: './docs/1982/1982_ussr_champ_results_omaps.xlsx',
         map: ['myakishevo_1982_08_25','lukavets_1982_08_27']
     },
     {
         name: 'Чемпионат СССР по спортивному ориентированию 1982 год . Псковская область , Алоль',
-        start: ['USSR_1982','USSR_CHAMP'],
+        start: ['USSR_1982','USSR'],
         year: 1982,
         link: ['https://www.youtube.com/watch?v=Jtd9LbAUujg','https://rutube.ru/video/e1a22dd397724140098c2245aacbfb1d/']
     },
     {
         name: 'Чемпионы названы',
         info: 'Статья в газете "Великолукская правда".',
-        start: ['USSR_1982','USSR_CHAMP'],
+        start: ['USSR_1982','USSR'],
         date: '1982-08-28',
         link: './docs/1982/1982_08_28_ussr_champ_velikolukska_pravda_article_omaps.pdf'
     },
     {
         name: 'Программа',
-        start: ['USSR_1983','USSR_CHAMP'],
+        start: ['USSR_1983','USSR'],
         year: 1983,
         link: './docs/1983/1983_ussr_champ_program_omaps.pdf',
         map: ['branti_parish_1983_08_19','karli_1983_08_20','ligatne_1983_08_21']
     },
     {
         name: 'Памятка',
-        start: ['USSR_1983','USSR_CHAMP'],
+        start: ['USSR_1983','USSR'],
         year: 1983,
         link: './docs/1983/1983_ussr_champ_pamyatka_omaps.pdf',
     },
     {
         name: 'Результаты',
-        start: ['USSR_1983','USSR_CHAMP'],
+        start: ['USSR_1983','USSR'],
         year: 1983,
         link: './docs/1983/1983_ussr_champ_results_omaps.xlsx',
         map: ['branti_parish_1983_08_19','karli_1983_08_20','ligatne_1983_08_21']
@@ -433,14 +433,14 @@ let historyDocs = [
     },
     {
         name: 'Программа',
-        start: ['USSR_1984','USSR_CHAMP'],
+        start: ['USSR_1984','USSR'],
         year: 1984,
         link: './docs/1984/1984_ussr_champ_program_omaps.pdf',
         map: ['maaritsa_1984_08_17','hellenurme_1984_08_18','alalooga_1984_08_19']
     },
     {
         name: 'Результаты',
-        start: ['USSR_1984','USSR_CHAMP'],
+        start: ['USSR_1984','USSR'],
         year: 1984,
         link: './docs/1984/1984_ussr_champ_results_omaps.xlsx',
         map: ['maaritsa_1984_08_17','hellenurme_1984_08_18','alalooga_1984_08_19']
@@ -502,20 +502,20 @@ let historyDocs = [
     },
     {
         name: 'Программа',
-        start: ['USSR_1985','USSR_CHAMP'],
+        start: ['USSR_1985','USSR'],
         year: 1985,
         link: './docs/1985/1985_ussr_champ_program_omaps.pdf',
         map: ['vizhnitsa_1985_08_24','chernovtsy_1985_08_25','beregomet_1985_08_26']
     },
     {
         name: 'Билет участника',
-        start: ['USSR_1985','USSR_CHAMP'],
+        start: ['USSR_1985','USSR'],
         year: 1985,
         link: './docs/1985/1985_ussr_champ_ticket_omaps.pdf'
     },
     {
         name: 'Результаты',
-        start: ['USSR_1985','USSR_CHAMP'],
+        start: ['USSR_1985','USSR'],
         year: 1985,
         link: './docs/1985/1985_ussr_champ_results_omaps.xlsx',
         map: ['vizhnitsa_1985_08_24','chernovtsy_1985_08_25','beregomet_1985_08_26']
@@ -523,7 +523,7 @@ let historyDocs = [
     {
         name: 'Полигон',
         info: 'Черновцы. Не нашёл точное место.🤷🏼',
-        start: ['USSR_1985','USSR_CHAMP'],
+        start: ['USSR_1985','USSR'],
         date: '1985-08-23',
         link: './original_maps/other/chernovtsy_1985_08_23_poligon_omaps.webp',
         author: 'PNTSR_V'
@@ -531,7 +531,7 @@ let historyDocs = [
     {
         name: 'С компасом по Буковине',
         info: 'Статья в газете "Советский спорт".',
-        start: ['USSR_1985','USSR_CHAMP'],
+        start: ['USSR_1985','USSR'],
         date: '1985-08-24',
         link: './docs/1985/1985_08_24_ussr_champ_soviet_sport_article_omaps.pdf',
         author: 'OGRDNKV'
@@ -539,7 +539,7 @@ let historyDocs = [
     {
         name: 'Горными трассами',
         info: 'Статья в газете "Советский спорт".',
-        start: ['USSR_1985','USSR_CHAMP'],
+        start: ['USSR_1985','USSR'],
         date: '1985-08-25',
         link: './docs/1985/1985_08_25_ussr_champ_soviet_sport_article_omaps.pdf',
         author: 'OGRDNKV'
@@ -547,7 +547,7 @@ let historyDocs = [
     {
         name: 'Ориентирование',
         info: 'Статья в газете "Советский спорт".',
-        start: ['USSR_1985','USSR_CHAMP'],
+        start: ['USSR_1985','USSR'],
         date: '1985-08-27',
         link: './docs/1985/1985_08_27_ussr_champ_soviet_sport_article_omaps.pdf',
         author: 'OGRDNKV'
@@ -595,21 +595,21 @@ let historyDocs = [
     },
     {
         name: 'Программа',
-        start: ['USSR_1986','USSR_CHAMP'],
+        start: ['USSR_1986','USSR'],
         year: 1986,
         link: './docs/1986/1986_ussr_champ_program_omaps.pdf',
         map: ['pasheno_1986_09_09','karkaralinsk_1986']
     },
     {
         name: 'Результаты',
-        start: ['USSR_1986','USSR_CHAMP'],
+        start: ['USSR_1986','USSR'],
         year: 1986,
         link: './docs/1986/1986_ussr_champ_results_omaps.xlsx',
         map: ['pasheno_1986_09_09','karkaralinsk_1986']
     },
     {
         name: 'Постановление об итогах',
-        start: ['USSR_1986','USSR_CHAMP'],
+        start: ['USSR_1986','USSR'],
         year: 1986,
         link: './docs/1986/1986_ussr_champ_resolution_omaps.xlsx',
     },
@@ -649,7 +649,7 @@ let historyDocs = [
         link: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
         map: 'karkaralinsk_1986',
         info: '9-11 сентября. Выписка из результатов.',
-        start: ['USSR_1986','USSR_CHAMP']
+        start: ['USSR_1986','USSR']
     },
     {
         name: 'Юный спартаковец (Приморский парк Победы)',
@@ -660,7 +660,7 @@ let historyDocs = [
     },
     {
         name: 'Программа',
-        start: ['USSR_1987','USSR_CHAMP'],
+        start: ['USSR_1987','USSR'],
         year: 1987,
         link: './docs/1987/1987_ussr_champ_program_omaps.pdf',
         map: ['iset_1987_08_13','iset_1987_08_16']
@@ -668,7 +668,7 @@ let historyDocs = [
     {
         name: 'Ориентирование',
         info: 'Статья в газете.',
-        start: ['USSR_1987','USSR_CHAMP'],
+        start: ['USSR_1987','USSR'],
         year: 1987,
         link: './docs/1987/1987_ussr_champ_article_omaps.pdf',
         author: 'OGRDNKV'
@@ -1064,7 +1064,7 @@ let historyDocs = [
     },
     {
         name: 'Программа',
-        start: ['USSR_1989','USSR_CHAMP'],
+        start: ['USSR_1989','USSR'],
         year: 1989,
         link: './docs/1989/1989_ussr_champ_program_omaps.pdf',
         map: ['velnio_duobe_1989_07_24','ravai_1989_07_25','katlaukis_1989_07_27']
@@ -1072,7 +1072,7 @@ let historyDocs = [
     {
         name: 'По долинам и по взгорьям',
         info: 'Статья в газете "Советский спорт".',
-        start: ['USSR_1989','USSR_CHAMP'],
+        start: ['USSR_1989','USSR'],
         date: '1989-07-27',
         link: './docs/1989/1989_07_27_ussr_champ_soviet_sport_article_omaps.pdf',
         author: 'OGRDNKV'
@@ -1080,7 +1080,7 @@ let historyDocs = [
     {
         name: 'Спортивное ориентирование',
         info: 'Статья в газете "Советский спорт".',
-        start: ['USSR_1989','USSR_CHAMP'],
+        start: ['USSR_1989','USSR'],
         date: '1989-07-28',
         link: './docs/1989/1989_07_28_ussr_champ_soviet_sport_article_omaps.pdf',
         author: 'OGRDNKV'
@@ -1088,7 +1088,7 @@ let historyDocs = [
     {
         name: 'Спортивное ориентирование',
         info: 'Статья в газете "Советский спорт".',
-        start: ['USSR_1989','USSR_CHAMP'],
+        start: ['USSR_1989','USSR'],
         date: '1989-07-30',
         link: './docs/1989/1989_07_30_ussr_champ_soviet_sport_article_omaps.pdf',
         author: 'OGRDNKV'
@@ -1375,7 +1375,7 @@ let historyDocs = [
         link: './docs/1989/1989_12_07_gornozavodsk_ussr_omaps.pdf',
         planner: ['MTN_Y','SVIR_A'],
         partly: true,
-        start: 'USSR_CHAMP'
+        start: 'USSR'
     },
     {
         name: 'Ранг летнего сезона г.Ленинграда, мужчины',
@@ -1616,7 +1616,7 @@ let historyDocs = [
     },
     {
         name: 'Результаты',
-        start: ['USSR_1991','USSR_CHAMP'],
+        start: ['USSR_1991','USSR'],
         year: 1991,
         link: './docs/1991/1991_ussr_champ_results_omaps.xlsx',
         map: []
@@ -1668,7 +1668,7 @@ let historyDocs = [
         planner: 'KNTSVCH',
         map: 'shamanikha_ussr_winter_champ_1991',
         info: '24-27 февраля.',
-        start: 'USSR_CHAMP'
+        start: 'USSR'
     },
     {
         name: 'Всесоюзные соревнования по спортивному ориентированию среди спортсменов среднего и старшего возраста (Нижний Новгород)',
@@ -2511,7 +2511,7 @@ let historyDocs = [
         info: 'Финал Чемпионата России по лыжному ориентированию. Главный судья соревнований А.М.Бровин, главный секретарь Е.А.Винер.',
         link: './docs/1998/1998_02_18_russia_omaps.pdf',
         planner: 'BRDN_V',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUS'
     },
     {
         name: 'Предчемпионат мира по лыжному ориентированию среди ветеранов (Орехово)',
@@ -2796,51 +2796,51 @@ let historyDocs = [
         date: '2009-07-02',
         info: 'Положение.',
         link: './docs/2009/2009_07_02_tula_russia_champ_polozhenie_omaps.pdf',
-        start: 'RUSSIA_CHAMP_MTBO'
+        start: 'MTBO_RUS'
     },
     {
         name: 'Чемпионат России по велоориентированию (Тула), классика',
         date: '2009-07-04',
         link: './docs/2009/2009_07_04_tula_russia_champ_omaps.doc',
-        start: 'RUSSIA_CHAMP_MTBO'
+        start: 'MTBO_RUS'
     },
     {
         name: 'Чемпионат России по велоориентированию (Тула), лонг',
         date: '2009-07-05',
         link: './docs/2009/2009_07_05_tula_russia_champ_omaps.doc',
-        start: 'RUSSIA_CHAMP_MTBO'
+        start: 'MTBO_RUS'
     },
     {
         name: 'Чемпионат России (Котовск)',
         date: '2015-02-01',
         info: 'Информационный бюллетень №3.',
         link: './docs/2015/2015_02_01_kotovsk_russia_champ_bulletin3_omaps.doc',
-        start: 'RUSSIA_CHAMP_SKI'
+        start: 'SKI_RUS'
     },
     {
         name: 'Чемпионат России (Котовск), маркированная трасса',
         date: '2015-02-02',
         link: './docs/2015/2015_02_02_kotovsk_russia_champ_omaps.pdf',
-        start: 'RUSSIA_CHAMP_SKI'
+        start: 'SKI_RUS'
     },
     {
         name: 'Чемпионат России (Котовск), эстафета, маркированная трасса 3 чел.',
         date: '2015-02-03',
         link: './docs/2015/2015_02_03_kotovsk_russia_champ_relay_omaps.pdf',
-        start: 'RUSSIA_CHAMP_SKI'
+        start: 'SKI_RUS'
     },
     {
         name: 'Чемпионат России (Котовск), комбинация',
         date: '2015-02-04',
         link: './docs/2015/2015_02_04_kotovsk_russia_champ_omaps.pdf',
-        start: 'RUSSIA_CHAMP_SKI'
+        start: 'SKI_RUS'
     },
     {
         name: 'Чемпионат России (Котовск)',
         date: '2015-02-01',
         info: 'Протокол командных результатов.',
         link: './docs/2015/2015_02_01_kotovsk_russia_champ_team_omaps.pdf',
-        start: 'RUSSIA_CHAMP_SKI'
+        start: 'SKI_RUS'
     },
     {
         name: 'Буклет-календарь от клуба KUZMOLOVO.',

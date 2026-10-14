@@ -104,11 +104,11 @@ const GLOBAL_MENU_ITEMS = [
             {
                 title: '🏆 Чемпионаты СССР и России',
                 menuItems: [
-                    { title: '🏃 СССР', page: 'calendar.html?startYear=ALL&start=USSR_CHAMP' },
-                    { title: '⛷️ СССР на лыжах', page: 'calendar.html?startYear=ALL&start=USSR_CHAMP_WINTER' },
-                    { title: '🏃 России', page: 'calendar.html?startYear=ALL&start=RUSSIA_CHAMP' },
-                    { title: '⛷️ России на лыжах', page: 'calendar.html?startYear=ALL&start=RUSSIA_CHAMP_SKI' },
-                    { title: '🚵 России на велосипедах', page: 'calendar.html?startYear=ALL&start=RUSSIA_CHAMP_MTBO' },
+                    { title: '🏃 СССР', page: 'calendar.html?startYear=ALL&start=USSR' },
+                    { title: '⛷️ СССР на лыжах', page: 'calendar.html?startYear=ALL&start=SKI_USSR' },
+                    { title: '🏃 России', page: 'calendar.html?startYear=ALL&start=RUS' },
+                    { title: '⛷️ России на лыжах', page: 'calendar.html?startYear=ALL&start=SKI_RUS' },
+                    { title: '🚵 России на велосипедах', page: 'calendar.html?startYear=ALL&start=MTBO_RUS' },
                 ]
             },
             {
@@ -117,7 +117,7 @@ const GLOBAL_MENU_ITEMS = [
                     { title: '🗓️ Все чемпионаты IRF', page: 'calendar.html?owner=IRF&startYear=ALL' },
                     { title: '🌐 Мира (WRC)', page: 'calendar.html?startYear=ALL&start=WRC' },
                     { title: '🌍 Европы (ERC)', page: 'calendar.html?startYear=ALL&start=ERC' },
-                    { title: '🏆 России', page: 'calendar.html?startYear=ALL&start=RUSSIA_ROGAINE_CHAMP' },
+                    { title: '🏆 России', page: 'calendar.html?startYear=ALL&start=RRC' },
                 ]
             },
             { title: '⛷️ Лыжные гонки', page: 'calendar-ski' },
@@ -131,28 +131,28 @@ const GLOBAL_MENU_ITEMS = [
             {
                 title: '🏆 Чемпионат СССР',
                 menuItems: [
-                    { title: '🗺️ На карте', page: 'all.html?start=USSR_CHAMP' },
-                    { title: '📑 Списком', page: 'sheet-all.html?start=USSR_CHAMP' },
-                    { title: '🗺️ Плитками', page: 'start.html?start=USSR_CHAMP' },
-                    { title: '📃 Документы', page: 'documents.html?start=USSR_CHAMP' },
+                    { title: '🗺️ На карте', page: 'all.html?start=USSR' },
+                    { title: '📑 Списком', page: 'sheet-all.html?start=USSR' },
+                    { title: '🗺️ Плитками', page: 'start.html?start=USSR' },
+                    { title: '📃 Документы', page: 'documents.html?start=USSR' },
                 ]
             },
             {
                 title: '🏆 Чемпионат России',
                 menuItems: [
-                    { title: '🗺️ На карте', page: 'all.html?start=RUSSIA_CHAMP' },
-                    { title: '📑 Списком', page: 'sheet-all.html?start=RUSSIA_CHAMP' },
-                    { title: '🗺️ Плитками', page: 'start.html?start=RUSSIA_CHAMP' },
-                    { title: '🗓️ В календаре', page: 'calendar.html?startYear=ALL&start=RUSSIA_CHAMP' },
+                    { title: '🗺️ На карте', page: 'all.html?start=RUS' },
+                    { title: '📑 Списком', page: 'sheet-all.html?start=RUS' },
+                    { title: '🗺️ Плитками', page: 'start.html?start=RUS' },
+                    { title: '🗓️ В календаре', page: 'calendar.html?startYear=ALL&start=RUS' },
                 ]
             },
             {
                 title: '🏆 Чемпионат России по рогейну',
                 menuItems: [
-                    { title: '🗺️ На карте', page: 'all.html?start=RUSSIA_ROGAINE_CHAMP' },
-                    { title: '📑 Списком', page: 'sheet-all.html?start=RUSSIA_ROGAINE_CHAMP' },
-                    { title: '🗺️ Плитками', page: 'start.html?start=RUSSIA_ROGAINE_CHAMP' },
-                    { title: '🗓️ В календаре', page: 'calendar.html?startYear=ALL&start=RUSSIA_ROGAINE_CHAMP' },
+                    { title: '🗺️ На карте', page: 'all.html?start=RRC' },
+                    { title: '📑 Списком', page: 'sheet-all.html?start=RRC' },
+                    { title: '🗺️ Плитками', page: 'start.html?start=RRC' },
+                    { title: '🗓️ В календаре', page: 'calendar.html?startYear=ALL&start=RRC' },
                 ]
             },
             { title: '🗺️ Авторы-составители карт', page: 'authors' },

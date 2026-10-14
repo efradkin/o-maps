@@ -1625,7 +1625,7 @@ let events2017 = [
         fmt: '24, 8, 4, 10 вело, 5 вело',
         planner: 'BRV_D',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20170924_1',

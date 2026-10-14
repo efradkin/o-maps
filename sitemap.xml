@@ -421,10 +421,10 @@
     <loc>https://o-maps.spb.ru/start.html?start=RFAR</loc>
   </url>
   <url>
-    <loc>https://o-maps.spb.ru/start.html?start=RUSSIA_CHAMP</loc>
+    <loc>https://o-maps.spb.ru/start.html?start=RUS</loc>
   </url>
   <url>
-    <loc>https://o-maps.spb.ru/start.html?start=RUSSIA_ROGAINE_CHAMP</loc>
+    <loc>https://o-maps.spb.ru/start.html?start=RRC</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/start.html?start=SCHOOL</loc>
@@ -445,7 +445,7 @@
     <loc>https://o-maps.spb.ru/start.html?start=TA</loc>
   </url>
   <url>
-    <loc>https://o-maps.spb.ru/start.html?start=USSR_CHAMP</loc>
+    <loc>https://o-maps.spb.ru/start.html?start=USSR</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/start.html?start=VACHSKY</loc>
@@ -523,10 +523,10 @@
     <loc>https://o-maps.spb.ru/start-details.html?start=RFAR</loc>
   </url>
   <url>
-    <loc>https://o-maps.spb.ru/start-details.html?start=RUSSIA_CHAMP</loc>
+    <loc>https://o-maps.spb.ru/start-details.html?start=RUS</loc>
   </url>
   <url>
-    <loc>https://o-maps.spb.ru/start-details.html?start=RUSSIA_ROGAINE_CHAMP</loc>
+    <loc>https://o-maps.spb.ru/start-details.html?start=RRC</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/start-details.html?start=SCHOOL</loc>
@@ -547,7 +547,7 @@
     <loc>https://o-maps.spb.ru/start-details.html?start=TA</loc>
   </url>
   <url>
-    <loc>https://o-maps.spb.ru/start-details.html?start=USSR_CHAMP</loc>
+    <loc>https://o-maps.spb.ru/start-details.html?start=USSR</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/start-details.html?start=VACHSKY</loc>

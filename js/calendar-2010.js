@@ -620,7 +620,7 @@ let events2010 = [
         coord: [57.787117, 27.773767],
         fmt: '24, 8, 4',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20100606_1',

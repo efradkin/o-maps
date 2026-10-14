@@ -1163,7 +1163,7 @@ let ryazanMaps = [
     {
         name: 'Полково',
         date: '2020-09-12',
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         url: './maps/ryazan/chr_2020_rogeyn_2020.webp',
         link: 'https://rogaining.ru/results/rrc-results/rrc2020_map.jpg',
         local_link: './external/original_maps/ryazan/chr_2020_rogeyn_2020_omaps.jpg',

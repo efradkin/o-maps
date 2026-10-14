@@ -3174,7 +3174,7 @@ let eventsEarly = [
         fmt: '24',
         planner: 'SHSTKV_G',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20010826_1',

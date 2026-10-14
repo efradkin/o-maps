@@ -749,7 +749,7 @@ let events2021 = [
         fmt: '24, 8, 4, 8 вело',
         planner: 'BRV_D',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20210509_1',
@@ -1418,7 +1418,7 @@ let events2021 = [
         place: 'Себеж',
         name: 'Чемпионат России по рогейну на байдарках',
         type: ['ROGAINE','WATER'],
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: 'RRC',
         fmt: '12',
         link: [
             'https://vk.com/gornycross',

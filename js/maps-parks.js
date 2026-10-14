@@ -790,7 +790,7 @@ let parkMaps = [
         author: ['VLKV_K','URVNTSV','MLVA_M','MRSKY_S'],
         type: ['PARK'],
         region: 'SPB',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUS'
     },
     {
         name: 'Парк 300-летия СПб',

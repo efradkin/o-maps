@@ -527,7 +527,7 @@ let events2005 = [
         fmt: '24',
         planner: 'SHPV_N',
         type: 'ROGAINE',
-        start: 'RUSSIA_ROGAINE_CHAMP'
+        start: 'RRC'
     },
     {
         id: 'SPB_20050904_1',
