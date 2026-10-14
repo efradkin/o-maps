@@ -482,7 +482,7 @@ let nnMaps = [
         bounds: [[55.7296234, 42.723856], [55.7248021, 42.7625012], [55.7064054, 42.7146935]],
         author: ['KNDRSHKN_V','SCHV_V'],
         owner: 'VACHSKY',
-        start: 'RUSSIA_CUP',
+        start: 'RUS_CUP',
         region: 'N_NOVGOROD'
     },
     {

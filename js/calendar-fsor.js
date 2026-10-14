@@ -5798,7 +5798,7 @@ let fsorEvents = [
         ],
         o_site: '190524chRF',
         reskeep: [138, 139, 140],
-        start: ['RUS','RUSSIA_2019'],
+        start: ['RUS','RUS_2019'],
         map: ['kuznechnoe_travkino_2019_05_24','kuznechnoe_suuri_2019']
     },
     {
@@ -5810,7 +5810,7 @@ let fsorEvents = [
         fmt: 'классика',
         res: 'https://rufso.ru/wp-content/uploads/2019/06/ЧР-классика.pdf',
         o_stuff: [2954, 2960],
-        start: ['RUS','RUSSIA_2019']
+        start: ['RUS','RUS_2019']
     },
     {
         id: 'SPB_20190526_3',
@@ -5821,7 +5821,7 @@ let fsorEvents = [
         fmt: 'многодневный',
         res: 'https://rufso.ru/wp-content/uploads/2019/06/ЧР-многодневный.pdf',
         o_stuff: [2963, 2958],
-        start: ['RUS','RUSSIA_2019']
+        start: ['RUS','RUS_2019']
     },
     {
         id: 'SPB_20190628_2',
@@ -6389,7 +6389,7 @@ let fsorEvents = [
         },
         video: 'https://www.youtube.com/watch?v=fQJcSSgX7e0',
         reskeep: [371, 372],
-        start: ['RUSSIA_2020','RUS']
+        start: ['RUS_2020','RUS']
     },
     {
         id: 'SPB_20200925_1',
@@ -6400,7 +6400,7 @@ let fsorEvents = [
         fmt: 'эстафета 4 чел. (2М+2Ж)',
         res: 'https://rufso.ru/wp-content/uploads/2020/10/1-день.pdf',
         photo: 'https://vk.com/album-181722204_273514548',
-        start: ['RUSSIA_2020','RUS']
+        start: ['RUS_2020','RUS']
     },
     {
         id: 'SPB_20200926_7',
@@ -6412,7 +6412,7 @@ let fsorEvents = [
         res: 'https://rufso.ru/wp-content/uploads/2020/10/2-день.pdf',
         photo: 'https://vk.com/album-181722204_273531639',
         video: 'https://www.youtube.com/watch?v=MDobTDBZB-A',
-        start: ['RUSSIA_2020','RUS']
+        start: ['RUS_2020','RUS']
     },
     {
         id: 'SPB_20200927_3',
@@ -6424,7 +6424,7 @@ let fsorEvents = [
         res: 'https://rufso.ru/wp-content/uploads/2020/10/3-день.pdf',
         photo: 'https://vk.com/album-181722204_273574945',
         video: 'https://www.youtube.com/watch?v=kZ3D7hsJGCs',
-        start: ['RUSSIA_2020','RUS']
+        start: ['RUS_2020','RUS']
     },
     {
         id: 'MAJOR_20201017_1',
@@ -6816,7 +6816,7 @@ let fsorEvents = [
         ],
         o_site: '210531',
         reskeep: [466, 468, 469],
-        start: ['RUSSIA_2021','RUS'],
+        start: ['RUS_2021','RUS'],
         map: ['sosnovy_bor_2021_05_29','sosnovy_bor_2021_05_30','sosnovy_bor_2021_05_31']
     },
     {
@@ -8447,7 +8447,7 @@ let fsorEvents = [
         reskeep: 654,
         fmt: 'эстафета 4 чел. (2М+2Ж), спринт, спринт, общий старт',
         coord: [59.95, 30.31667],
-        start: ['RUS','RUSSIA_2024'],
+        start: ['RUS','RUS_2024'],
         map: ['petropavlovka_2024','vasileostrovskaya_2024','serebrjany_prud_2024']
     },
     {
@@ -8463,7 +8463,7 @@ let fsorEvents = [
         fmt: 'эстафета 4 чел. (2М+2Ж)',
         res: 'https://o-site.spb.ru/_races/240519_russia/Official_results_Russia_SPb.zip',
         photo: 'https://vk.com/album-154221178_302861876',
-        start: ['RUS','RUSSIA_2024']
+        start: ['RUS','RUS_2024']
     },
     {
         id: 'SPB_20240518_3',
@@ -8478,7 +8478,7 @@ let fsorEvents = [
         fmt: 'спринт',
         res: 'https://rufso.orgeo.ru/result/view/33466/s/2',
         photo: 'https://vk.com/album-154221178_302861880',
-        start: ['RUS','RUSSIA_2024']
+        start: ['RUS','RUS_2024']
     },
     {
         id: 'SPB_20240519_3',
@@ -8495,7 +8495,7 @@ let fsorEvents = [
             'https://t.me/lamporient/4215',
             'https://t.me/lamporient/4218'
         ],
-        start: ['RUS','RUSSIA_2024']
+        start: ['RUS','RUS_2024']
     },
     {
         id: 'MAJOR_20240627_1',
@@ -9601,7 +9601,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'маркир, эстафета, комбинация, лонг, классика',
         owner: 'FSOR',
-        start: 'RUSSIA_CUP'
+        start: 'RUS_CUP'
     },
     {
         id: 'MAJOR_20260115_1',
@@ -9624,7 +9624,7 @@ let fsorEvents = [
             'https://rutube.ru/video/d425928a15e1412da110f4ab9476776e/',
             'https://t.me/lamporient/8816'
         ],
-        start: 'RUSSIA_CUP'
+        start: 'RUS_CUP'
     },
     {
         id: 'MAJOR_20260219_1',
@@ -9818,7 +9818,7 @@ let fsorEvents = [
             'https://vk.com/album-169497358_310928964',
             'https://vk.com/album-169497358_310906047'
         ],
-        start: 'RUSSIA_CUP'
+        start: 'RUS_CUP'
     },
     {
         id: 'MAJOR_20260512_1',
@@ -9920,7 +9920,7 @@ let fsorEvents = [
             'https://t.me/lamporient/9905',
             'https://t.me/lamporient/9912'
         ],
-        start: 'RUSSIA_CUP'
+        start: 'RUS_CUP'
     },
     {
         id: 'MAJOR_20260604_1',
@@ -9936,7 +9936,7 @@ let fsorEvents = [
             'https://vk.com/album-233782424_309666655',
             'https://vk.com/album-169497358_311263810'
         ],
-        start: 'RUSSIA_CUP'
+        start: 'RUS_CUP'
     },
     {
         id: 'MAJOR_20260625_1',
@@ -10129,7 +10129,7 @@ let fsorEvents = [
             'https://t.me/lamporient/10655',
             'https://t.me/lamporient/10663'
         ],
-        start: 'RUSSIA_CUP'
+        start: 'RUS_CUP'
     },
     {
         id: 'MAJOR_20260916_1',
@@ -10141,7 +10141,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'спринт, лонг, эстафета 3х, масстарт',
         owner: 'FSOR',
-        start: 'RUSSIA_CUP'
+        start: 'RUS_CUP'
     },
     {
         id: 'MAJOR_20260922_1',
@@ -10253,7 +10253,7 @@ let fsorEvents = [
         major: true,
         fmt: 'выбор, спринт, спринт-масстарт',
         owner: 'FSOR',
-        start: 'RUSSIA_CUP'
+        start: 'RUS_CUP'
     },
     {
         id: 'MAJOR_20261101_1',
@@ -10275,7 +10275,7 @@ let fsorEvents = [
         type: 'SKI',
         fmt: 'эстафета 2х, классика, марафон',
         owner: 'FSOR',
-        start: 'RUSSIA_CUP'
+        start: 'RUS_CUP'
     },
     {
         id: 'MAJOR_20261217_1',

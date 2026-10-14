@@ -5595,7 +5595,7 @@ let moscowMaps = [
     {
         name: 'Химки, ПКиО им Толстого',
         year: 2024,
-        start: 'RUSSIA_CUP_2024',
+        start: 'RUS_CUP_2024',
         url: './maps/moscow/ak/khimki_tolstogo_2024.webp',
         link: './original_maps/moscow/ak/khimki_tolstogo_2024_M.png',
         o_gps: {
@@ -5609,7 +5609,7 @@ let moscowMaps = [
     {
         name: 'Химки, яхт-клуб',
         year: 2024,
-        start: 'RUSSIA_CUP_2024',
+        start: 'RUS_CUP_2024',
         url: './maps/moscow/ak/khimki_2024.webp',
         link: './original_maps/moscow/ak/khimki_2024_M.png',
         o_gps: {

@@ -684,7 +684,7 @@ let otherMaps = [
         link: './original_maps/other/kalitvenskaya_2021_04_03_omaps.webp',
         bounds: [[48.2538554, 40.4855633], [48.2509408, 40.5101538], [48.2287895, 40.4793406]],
         author: ['DJCHKV','IDLBV'],
-        start: 'RUSSIA_CUP',
+        start: 'RUS_CUP',
         region: 'ROSTOV'
     },
     // --- Свердловская обл, Екатеринбург ---

@@ -697,7 +697,7 @@ let starts = {
         name: 'Чемпионат России по ориентированию на лыжах',
         owner: 'FSOR'
     },
-    RUSSIA_CUP: {
+    RUS_CUP: {
         major: true,
         logo: 'fsor.webp',
         short: 'Кубок России',
@@ -727,7 +727,7 @@ let starts = {
         logo: 'irf.gif',
         owner: 'IRF'
     },
-    RUSSIA_2019: {
+    RUS_2019: {
         major: true,
         short: 'ЧР 2019',
         name: '<a href="https://o-site.spb.ru/race.php?id=190524chRF">Чемпионат России 2019</a>',
@@ -735,7 +735,7 @@ let starts = {
         region: 'SPB',
         owner: 'FSOR'
     },
-    RUSSIA_2020: {
+    RUS_2020: {
         major: true,
         short: 'ЧР (спринт) 2020',
         name: '<a href="https://o-site.spb.ru/race.php?id=20092428">Чемпионат России 2020 (спринт)</a>',
@@ -743,7 +743,7 @@ let starts = {
         region: 'SPB',
         owner: 'FSOR'
     },
-    RUSSIA_2021: {
+    RUS_2021: {
         major: true,
         short: 'ЧР (спринт) 2021',
         name: '<a href="https://o-site.spb.ru/race.php?id=210531">Чемпионат России 2021 (спринт)</a>',
@@ -751,7 +751,7 @@ let starts = {
         region: 'SPB',
         owner: 'FSOR'
     },
-    RUSSIA_2022: {
+    RUS_2022: {
         major: true,
         short: 'ЧР 2022',
         name: '<a href="https://o-site.spb.ru/race.php?id=22060911">Чемпионат России 2022</a>',
@@ -759,7 +759,7 @@ let starts = {
         region: 'SPB',
         owner: 'FSOR'
     },
-    RUSSIA_2024: {
+    RUS_2024: {
         major: true,
         short: 'ЧР (спринт) 2024',
         name: '<a href="https://o-site.spb.ru/race.php?id=240519_russia">Чемпионат России (спринт)</a>',
@@ -767,7 +767,7 @@ let starts = {
         region: 'SPB',
         owner: 'FSOR'
     },
-    RUSSIA_CUP_2024: {
+    RUS_CUP_2024: {
         major: true,
         short: 'КР (спринт) 2024',
         name: '<a href="https://сшгорелова.рф/кубок-россии-г-химки/">Кубок России 2024 (спринт)</a>',

@@ -14,3 +14,28 @@ RewriteRule ^(.*)$ https://o-maps.spb.ru/$1 [R=301,L,NE]
 # 2) /index.html → каталог
 RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
 RewriteRule ^(.*/)?index\.html$ https://o-maps.spb.ru/$1 [R=301,L,NE]
+
+# 3) Переименованные коды стартов (2026-10): старые адреса ?start=... -> новые, 301.
+#    Нужно поисковикам (start.html и start-details.html со старыми кодами были
+#    в sitemap) и старым ссылкам (закладки, посты в Telegram, o-site, прежний
+#    фид приложения). Остальные параметры адреса сохраняются.
+RewriteCond %{QUERY_STRING} ^(.*&)?start=USSR_CHAMP_WINTER(&.*)?$
+RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=SKI_USSR%2 [R=301,L,NE]
+RewriteCond %{QUERY_STRING} ^(.*&)?start=USSR_(19[0-9][0-9])_WINTER(&.*)?$
+RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=SKI_USSR_%2%3 [R=301,L,NE]
+RewriteCond %{QUERY_STRING} ^(.*&)?start=USSR_CHAMP(&.*)?$
+RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=USSR%2 [R=301,L,NE]
+RewriteCond %{QUERY_STRING} ^(.*&)?start=RUSSIA_CHAMP_SKI(&.*)?$
+RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=SKI_RUS%2 [R=301,L,NE]
+RewriteCond %{QUERY_STRING} ^(.*&)?start=RUSSIA_CHAMP_MTBO(&.*)?$
+RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=MTBO_RUS%2 [R=301,L,NE]
+RewriteCond %{QUERY_STRING} ^(.*&)?start=RUSSIA_CHAMP(&.*)?$
+RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=RUS%2 [R=301,L,NE]
+RewriteCond %{QUERY_STRING} ^(.*&)?start=RUSSIA_ROGAINE_CHAMP(&.*)?$
+RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=RRC%2 [R=301,L,NE]
+RewriteCond %{QUERY_STRING} ^(.*&)?start=RUSSIA_CUP_2024(&.*)?$
+RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=RUS_CUP_2024%2 [R=301,L,NE]
+RewriteCond %{QUERY_STRING} ^(.*&)?start=RUSSIA_CUP(&.*)?$
+RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=RUS_CUP%2 [R=301,L,NE]
+RewriteCond %{QUERY_STRING} ^(.*&)?start=RUSSIA_(20[0-9][0-9])(&.*)?$
+RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=RUS_%2%3 [R=301,L,NE]

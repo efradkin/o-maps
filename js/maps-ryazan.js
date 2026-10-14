@@ -219,7 +219,7 @@ let ryazanMaps = [
         name: 'Выползово-Панино',
         date: '2022-08-27',
         correct: 2024,
-        start: 'RUSSIA_CUP',
+        start: 'RUS_CUP',
         url: './maps/ryazan/vypolzovo_panino_2022.webp',
         link: ['./original_maps/ryazan/vypolzovo_panino_2022_omaps.gif','./original_maps/ryazan/aglamazovo_2022_08_27_omaps.jpg'],
         bounds: [[54.5404057, 40.1677322], [54.5249172, 40.2897835], [54.4826051, 40.1466179]],
