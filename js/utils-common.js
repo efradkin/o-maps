@@ -275,6 +275,13 @@ function escapeXml(s) {
     });
 }
 
+// Значение как литерал JS-аргумента внутри HTML-атрибута (onclick="f(...)"):
+// JSON.stringify экранирует кавычки и обратные слэши для JS, escapeXml - кавычки для атрибута,
+// так что названия вида 'Сквер "Два медведя"' не ломают обработчик.
+function jsArg(value) {
+    return escapeXml(JSON.stringify(value));
+}
+
 // Собираем GPX 1.1 из массива L.LatLng.
 // options: { name, desc, waypoints } — waypoints добавляет <wpt> с номерами точек.
 // <ele> сознательно не пишем: выдуманные нули хуже отсутствия тега —

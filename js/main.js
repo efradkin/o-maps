@@ -1823,7 +1823,7 @@ function buildMapPopup(m) {
     }
 
     // скрыть карту
-    const onclick2 = 'onclick="hideMap(map, \'' + url + '\', ' + isMapHidden(m) + ', \'' + m.name + '\', ' + year(m) + '); return false;"';
+    const onclick2 = 'onclick="hideMap(map, ' + jsArg(url) + ', ' + isMapHidden(m) + ', ' + jsArg(m.name) + ', ' + jsArg(year(m)) + '); return false;"';
     result += '<br /><div class="hide-map-link"><a href="#" ' + onclick2 + '>Скрыть эту карту</a></div>';
 
     if (logo) {

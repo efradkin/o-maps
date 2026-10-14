@@ -3021,7 +3021,7 @@ let events2026 = [
         coord: [59.998039, 30.372709],
         fmt: 'спринт',
         owner: 'NW',
-        info: 'Новая карта.'
+        info: 'Новая карта. <a href="https://vk.ru/@nordwestmedia-razbor-nw-sprint-14102026">Разбор дистанций</a>.'
     },
     {
         id: 'SPB_20261014_2',
