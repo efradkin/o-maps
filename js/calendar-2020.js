@@ -1130,9 +1130,37 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '24, 8',
         start: 'RUSSIA_ROGAINE_CHAMP',
-        link: 'https://vk.com/event186840276',
+        link: [
+            'https://vk.com/event186840276',
+            'https://web.archive.org/web/20210121104155/https://rrc2020.ru/',
+            'https://rogaining.ru/news/rrf-news/rrc2020-bulletin1',
+            'https://rogaining.ru/news/rrf-news/rrc2020-bulletin2',
+            'https://rogaining.ru/news/rrf-news/rrc2020-covid',
+            'https://rogaining.ru/news/rrf-news/rrc2020-covid2',
+            'https://rogaining.ru/news/rrf-news/rrc2020-new-date',
+            'https://rogaining.ru/news/rrf-news/rrc2020-results',
+            'https://rogaining.ru/news/rrf-news/rrc-2020-results',
+            'https://rogaining.ru/events/calendar/event/615-rrc2020'
+            // 'https://yadi.sk/i/gF4qUyuXR5q95A' // недоступна
+            // 'https://yadi.sk/i/QjLDH4oUyYI0IA' // недоступна
+            // 'https://orgeo.ru/event/info/11252' // недоступна
+        ],
         map: 'chr_2020_rogeyn_2020',
-        o_gps: 8154
+        o_gps: 8154,
+        res: [
+            'https://rogaining.ru/results/rrc-results/rrc2020-results.html',
+            'https://rogaining.ru/download/results/rrc_2020_results.xls',
+            'https://rogaining.ru/download/results/rrc2020_results.xls'
+        ],
+        maps: ['https://rogaining.ru/results/rrc-results/rrc2020_map.jpg'],
+        bulletin: [
+            // 'https://rogaining.ru/download/doc/rrc2020_bulletin_1.pdf'
+            'https://vk.com/doc433020481_526756533'
+        ],
+        gps: 'https://sembruk.github.io/rrc2020/',
+        endDate: '2020-09-13',
+        coord: [54.74, 39.87],
+        info: 'Перенесён со 2–3 мая из-за COVID-19. Победители: MO (абс.): Сергей Мирошкин, Николай Мирошкин, Дмитрий Шемятихин, Дмитрий Панов («Дети Болот») — 320; XO: Сергей Пикуз, Екатерина Меньшова, Роман Куликов — 283; WO: Нина Михеева, Елена Руденко — 227. Команд — 73, участников — 159.'
     },
     {
         id: 'SPB_20200913_1',

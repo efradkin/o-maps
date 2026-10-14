@@ -158,7 +158,8 @@ let rogaineMaps = [
         bounds: [[60.6322906, 29.7506332], [60.6322906, 30.0211716], [60.4812471, 29.7499466]],
         info: '<a href="https://rogaine-spb.narod.ru/erc08/erc08-3rus.html">Чемпионат Европы по рогейну</a>.',
         type: ['ROGAINE'],
-        region: 'SPB'
+        region: 'SPB',
+        start: 'ERC'
     },
     {
         name: 'Лосево',
@@ -278,7 +279,7 @@ let rogaineMaps = [
         link: './original_maps/rogaine/zerkalny_rrc_2022_omaps.gif',
         bounds: [[60.3420709, 28.8645172], [60.3751813, 29.3345261], [60.138086, 28.9242554]],
         author: 'RYLOV_V',
-        info: 'II Кубок России по рогейну.',
+        info: 'II Кубок России по рогейну и 6-й Чемпионат России по рогейну на велосипедах.',
         o_gps: {
             'Бег 24':13197,
             'Бег 8':13201,
@@ -286,7 +287,8 @@ let rogaineMaps = [
             'Вело 6':13202
         },
         type: ['ROGAINE'],
-        region: 'SPB'
+        region: 'SPB',
+        start: 'RUSSIA_ROGAINE_CHAMP'
     },
     {
         name: 'Гарболово',
@@ -316,7 +318,8 @@ let rogaineMaps = [
         bounds: [[61.0690827, 29.8694229], [61.0640167, 30.116787], [60.9105755, 29.8550892]],
         owner: 'MULTSPORT',
         type: ['ROGAINE'],
-        region: 'SPB'
+        region: 'SPB',
+        start: 'RUSSIA_ROGAINE_CHAMP'
     },
     {
         name: 'Луга, оз Омчино',
@@ -538,6 +541,7 @@ let rogaineMaps = [
         bounds: [[60.9129957, 28.4521866], [60.8830227, 28.7587738], [60.6954516, 28.3632660]],
         author: 'RYLOV_V',
         owner: ['RYLOV_V','MULTSPORT'],
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        start: 'RUSSIA_ROGAINE_CHAMP'
     },
 ];

@@ -980,10 +980,29 @@ let events2014 = [
         endDate: '2014-08-24',
         place: 'Выборгский р-н Ленинградской области',
         name: 'Чемпионат России по рогейну на велосипедах',
-        type: 'ROGAINE',
+        type: ['ROGAINE','VELO'],
         reg: 'http://x-race.info/calendar/19045/request/',
         start: 'RUSSIA_ROGAINE_CHAMP',
-        o_site: '14082324'
+        owner: ['MULTSPORT','RRF'],
+        o_site: '14082324',
+        link: [
+            'http://www.multsport.ru/starts/bike-rogaine-rus-2014/',
+            'https://rogaining.ru/events/calendar/event/92-rrc-bike2014'
+            // 'http://x-race.info/calendar/19045/request_list/' // недоступна
+        ],
+        res: [
+            'http://www.multsport.ru/assets/files/rog14/group.htm',
+            'http://www.multsport.ru/assets/files/rog14/absolut.htm',
+            'http://www.multsport.ru/starts/bike-rogaine-rus-2014/results.html',
+            'http://www.multsport.ru/assets/files/rog14/split.htm'
+        ],
+        bulletin: [
+            // 'http://www.multsport.ru/starts/bike-rogaine-rus-2014/newsletter-1.html'
+            'https://web.archive.org/web/20190716104120/https://x-race.info/calendar/19045/regulations/'
+        ],
+        coord: [60.3198, 29.2972],
+        fmt: '24 (вело); 9 и 3 вело (ЧЛО), 24/9/3 бег (MatrasOFF рогейн)',
+        info: 'Победители: Алексей Пономарёв, Вера Пономарёва (ПЕДАЛЬКИ, СПб) – 257, 23:40:51; 2. Украинцев К., Шемятихин Д. (Дети болот) – 252; 3. Бородулин Ю., Соколов А. (Молодой боец) – 236. Команд — 28, участников — 61.'
     },
     {
         id: 'SPB_20140824_1',
@@ -1088,6 +1107,56 @@ let events2014 = [
         o_site: '14091314',
         bulletin: 'https://o-site.spb.ru/_races/14091314/14091314_info1.pdf',
         endDate: '2014-09-14'
+    },
+    {
+        id: 'RRF_20140913_1',
+        date: '2014-09-13',
+        endDate: '2014-09-14',
+        place: 'Алфёрово, Павлово-Посадский р-н',
+        name: '11-й Чемпионат России по рогейну',
+        link: [
+            'http://rrc2014.rogaining.ru/',
+            'https://vonok.livejournal.com/202320.html',
+            'https://leviathan-mai.livejournal.com/106925.html',
+            'http://www.tkmgtu.ru/index.php/2012-07-29-11-54-39/2012-07-30-12-18-24/19-articles/eto-interesno/stories-skilled/2001-rrc2014report',
+            'https://web.archive.org/web/20200918115028/https://x-race.info/news/34482/',
+            'https://rogaining.ru/news/rrf-news/organization-news/rrc2014',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2014-discount-payment',
+            'http://rrc2014.rogaining.ru/22-statistics',
+            'http://rrc2014.rogaining.ru/23-region-teams-results'
+            // 'https://cloud.mail.ru/public/37117c28cee8%2F11rrc' // недоступна
+            // 'http://x-race.info/news/34971/' // недоступна
+            // 'http://x-race.info/news/34950/' // недоступна
+            // 'http://vk.com/id156678794?w=note156678794_11992024' // недоступна
+        ],
+        res: [
+            'http://rrc2014.rogaining.ru/results/results24.htm',
+            'http://rrc2014.rogaining.ru/results/results8k.htm',
+            'http://rrc2014.rogaining.ru/results/splits/results24_s.htm',
+            'http://rrc2014.rogaining.ru/results/stat_controls24.htm'
+        ],
+        bulletin: [
+            // 'http://rrc2014.rogaining.ru/bulletin1'
+            // 'http://rrc2014.rogaining.ru/download/rrc2014_bulletin1_eng.pdf'
+            // 'http://rrc2014.rogaining.ru/bulletin2'
+            'http://rrc2014.rogaining.ru/download/rrc2014_bulletin2.pdf'
+        ],
+        maps: [
+            'http://rrc2014.rogaining.ru/results/rrc2014_map.jpg',
+            'http://rrc2014.rogaining.ru/download/rrc2014_peregons_map.png'
+        ],
+        map: 'alferovo_rogaine_2014',
+        photo: [
+            'https://www.facebook.com/media/set/?set=a.369803273176238.1073741856.100004397047958&type=1&l=c4356e1033',
+            'http://www.my-tour.ru/2014/20140913-rcc2014/index.htm',
+            'http://fotki.yandex.ru/users/rogaining/album/443453/'
+        ],
+        info: 'Победители: MO (абс.): Олег Калинин, Андрей Шведов — 224; WO: Анна Шавлакова, Надежда Ермакова; XO: Николай Мирошкин, Сергей Мирошкин, Анна Коробко, Дмитрий Шемятихин. Команд — 74, участников — 161.',
+        coord: [55.680974, 38.704522],
+        fmt: '24, 8, 4',
+        planner: 'RSCHN_R',
+        type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP'
     },
     {
         id: 'SPB_20140916_1',

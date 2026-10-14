@@ -615,7 +615,8 @@ let otherMaps = [
         bounds: [[57.9982743, 56.2966919], [58.0001846, 56.6293716], [57.8721488, 56.3006401]],
         type: ['ROGAINE'],
         region: 'PERM',
-        major: true
+        major: true,
+        start: 'RUSSIA_ROGAINE_CHAMP'
     },
     {
         name: 'Южный лес',

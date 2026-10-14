@@ -857,8 +857,37 @@ let events2022 = [
         type: ['ROGAINE','VELO'],
         fmt: '16, 6',
         start: 'RUSSIA_ROGAINE_CHAMP',
-        link: 'https://rogaining.site/',
-        map: 'zerkalny_rrc_2022'
+        link: [
+            // 'https://rogaining.site/', // недоступна, ниже — копия в архиве
+            'https://web.archive.org/web/20230603010247/https://rogaining.site',
+            'https://rogaining.ru/news/rrf-news/rrcup2022-results',
+            'https://rogaining.ru/news/rrf-news/rrcup2022',
+            'https://rogaining.ru/events/calendar/event/650-cup2022'
+            // 'http://rogaining.site/participants.html' // недоступна
+        ],
+        map: 'zerkalny_rrc_2022',
+        res: [
+            'https://web.archive.org/web/20220820012629/https://rogaining.site/news/itogovyie-rezultatyi.html'
+            // 'https://rogaining.site/images/site/news/rezult.xls' // недоступна
+        ],
+        photo: 'https://vk.com/album-8292013_286830390',
+        video: [
+            'https://www.youtube.com/watch?v=f2BlY4y_AI0',
+            'https://www.youtube.com/watch?v=dMjJT_jp168',
+            'https://www.youtube.com/watch?v=mBR-0JoHM8s'
+        ],
+        bulletin: [
+            // 'https://web.archive.org/web/20220820023112/https://rogaining.site/regulations/newsletter-1.html'
+            // 'https://web.archive.org/web/20220924203106/https://rogaining.site/regulations/newsletter-2.html'
+            'https://web.archive.org/web/20220820021939/https://rogaining.site/regulations/newsletter-3.html'
+        ],
+        o_gps: {
+            'Вело 16ч': 13200,
+            'Вело 6ч': 13202
+        },
+        coord: [60.245538, 29.12945],
+        info: 'Победители: МО: Владимир Левченко, Георгий Белуга – 356; ЖО: Елена Сафронова, Наталья Абрамова – 311; СО: Тарас Кащук, Ольга Игнатьева – 309.',
+        endDate: '2022-05-29'
     },
     {
         id: 'SPB_20220528_5',
@@ -1412,6 +1441,37 @@ let events2022 = [
         fmt: '8, 4',
         link: 'https://vk.com/hardrogaine',
         o_gps: 13748
+    },
+    {
+        id: 'RRF_20220730_1',
+        date: '2022-07-30',
+        endDate: '2022-07-31',
+        place: 'Кыштым, Слюдорудник',
+        name: '19-й Чемпионат России по рогейну',
+        link: [
+            'https://vk.com/rogein74',
+            'https://orgeo.ru/event/20337',
+            'https://rogaining.ru/news/rrf-news/rrc2022',
+            'https://rogaining.ru/news/rrf-news/rrc2022-bul2',
+            'https://rogaining.ru/news/rrf-news/rrc2022-results'
+        ],
+        res: 'https://rogaining.ru/download/results/rrc2022_results.pdf',
+        bulletin: [
+            // 'https://rogaining.ru/download/doc/rrc2022_bul1.docx'
+            'https://rogaining.ru/download/doc/rrc2022_bul2.pdf'
+        ],
+        maps: [
+            'https://rogaining.ru/download/maps/rrc2022_map_n.pdf',
+            'https://rogaining.ru/download/maps/rrc2022_map_s.pdf'
+        ],
+        map: 'slyudorudnik_rrc_2022',
+        o_gps: 13759,
+        info: 'Победители: MO (абс.): Дмитрий Панов, Максим Цветков (Blizzard Team) — 406; WO: Екатерина Шалдышева, Анна Шляпникова, Нина Михеева («Идём лесом») — 332; XO: Константин Павленко, Ирина Маркова, Павел Демещик (MATS, Ставрополь) — 320. Команд — 59, участников — 124.',
+        coord: [55.6716, 60.3698],
+        fmt: '24, 6',
+        planner: 'KZLV_V',
+        type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP'
     },
     {
         id: 'SPB_20220731_1',

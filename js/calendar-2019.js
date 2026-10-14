@@ -728,14 +728,40 @@ let events2019 = [
         endDate: '2019-05-19',
         place: 'оз Вуокса',
         name: 'Чемпионат России по рогейну на байдарках',
-        link: 'https://rrc2012.rogaining.ru/',
-        type: 'ROGAINE',
+        link: [
+            // 'https://rrc2012.rogaining.ru/', // ошибочная ссылка — сайт чемпионата 2012 года
+            'http://www.multsport.ru/starts/canoe-rogaine-2019/',
+            'http://www.multsport.ru/news/results-championship-water-rogaine-2019.html',
+            'https://vk.com/topic-8292013_40128224',
+            'https://rogaining.ru/news/rrf-news/rrc2019-kayak-results'
+        ],
+        type: ['ROGAINE','WATER'],
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2019/registration.html',
         fmt: '8ч – Весенний водный рогейн, 16ч – 2-й Чемпионат России по рогейну на байдарках.',
         start: 'RUSSIA_ROGAINE_CHAMP',
         owner: 'MULTSPORT',
         o_site: '19051819',
-        map: 'vuoksa_rogaine_2019'
+        map: 'vuoksa_rogaine_2019',
+        res: [
+            'http://www.multsport.ru/images/rogCanoe19/rezult.htm',
+            'http://www.multsport.ru/starts/canoe-rogaine-2019/results.html',
+            'http://www.multsport.ru/images/rogCanoe19/split.htm'
+        ],
+        maps: [
+            'http://www.multsport.ru/images/rogCanoe19/16.jpg',
+            'http://www.multsport.ru/images/rogCanoe19/8.jpg'
+        ],
+        photo: [
+            'https://vk.com/album-8292013_265675439',
+            'https://vk.com/album-8292013_265658349'
+        ],
+        bulletin: [
+            // 'http://www.multsport.ru/starts/canoe-rogaine-2019/rules.html'
+            'http://www.multsport.ru/starts/canoe-rogaine-2019/technical-information.html'
+        ],
+        gps: 'http://aclive.ru/Broadcast/ViewBroadcast?Id=5cdbf4e14455c70e7c0e881c',
+        coord: [60.9015, 29.9974],
+        info: 'Победители: Юрий Бородулин, Александр Эдуардов (СПб) – 227; столько же у Олега Мельникова и Михаила Воронова (Сосновый Бор); 3-е и лучшие СО: Наталья Орлова, Михаил Воронов (Псковская обл.) – 225. Команд — 34, участников — 68.'
     },
     {
         id: 'SPB_20190518_4',
@@ -1310,6 +1336,43 @@ let events2019 = [
         bulletin: 'https://o-site.spb.ru/_races/190824/190824_info2.pdf',
         map: 'gs_2019_08_24',
         planner: 'PRVSKY'
+    },
+    {
+        id: 'RRF_20190824_1',
+        date: '2019-08-24',
+        endDate: '2019-08-25',
+        place: 'Верх-Нейвинский, Свердловская обл.',
+        name: '16-й Чемпионат России по рогейну',
+        link: [
+            'https://rogaining-ural.ru/',
+            'https://rogaining-ural.ru/news/post-reliz',
+            'https://rogaining-ural.ru/history',
+            'https://rogaining.ru/news/rrf-news/rrc2019-entry',
+            'https://rogaining.ru/news/rrf-news/rrc2019-entry-continues',
+            'https://rogaining.ru/news/rrf-news/rrc2019-results'
+        ],
+        res: [
+            'https://rogaining-ural.ru/upload/results/rrc20190824/results_total.html',
+            'https://rogaining-ural.ru/upload/results/rrc20190824/results_class.html',
+            'https://rogaining-ural.ru/upload/results/rrc20190824/stat_controls.html'
+            // 'https://rogaining-ural.ru/upload/results/nurog20190824/results_format.html' // недоступна
+        ],
+        maps: ['https://rogaining-ural.ru/upload/results/rrc20190824/myroute/map20190824.jpg'],
+        map: 'verkh_neyvinsky_rrc_2019',
+        photo: [
+            'https://vk.com/album464610561_265863226',
+            'https://vk.com/album364778078_265474033',
+            'https://vk.com/album364778078_265563263',
+            'https://vk.com/album364778078_265490906',
+            'https://vk.com/album348029536_267483520'
+        ],
+        gps: 'https://rogaining-ural.ru/upload/results/rrc20190824/myroute/route.html',
+        o_gps: 6247,
+        info: 'Победители: MO (абс.): Дмитрий Шемятихин, Сергей Мирошкин, Николай Мирошкин («Дети болот») — 532; XO: Сергей Пикуз, Екатерина Меньшова («Аура приключений») — 461; WO: Нина Михеева, Елена Руденко («СПЛАВ-Шебекино») — 289. Команд — 77, участников — 164.',
+        coord: [57.232088, 60.085317],
+        fmt: '24, 8, 4',
+        type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP'
     },
     {
         id: 'SPB_20190825_1',

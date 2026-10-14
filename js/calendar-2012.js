@@ -180,13 +180,34 @@ let events2012 = [
         endDate: '2012-03-10',
         place: 'Лемболово',
         name: 'Чемпионат России по лыжному рогейну',
-        info: '<a href="https://100x24.ru/2012/docs/100x24_nat.htm">Интервью</a>.',
-        type: 'ROGAINE',
+        info: '<a href="https://100x24.ru/2012/docs/100x24_nat.htm">Интервью</a>. Победители: МО: Игорь Клепча, Геннадий Некрасов (Red Fox, СПб) – 286 из 290, 23:30:48; СО: Наталья Абрамова, Андрей Шведов (Garmin-Ориента Ski) – 284; ЖО: Наталия Лукьянец, Наталья Зимина (Blondie) – 187. Команд — 38, участников — 79.',
+        type: ['ROGAINE','SKI'],
         fmt: '24 и 6 часов',
         start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '12030910',
-        bulletin: 'http://100x24.ru/2012/docs/20120309_bull_add1.htm',
-        map: 'lembolovo_michurinskoe_rrc_2012'
+        bulletin: [
+            // 'https://100x24.ru/2012/docs/20120309_bull.htm'
+            // 'https://100x24.ru/2012/docs/20120309_bull_add2.htm'
+            'http://100x24.ru/2012/docs/20120309_bull_add1.htm'
+        ],
+        map: 'lembolovo_michurinskoe_rrc_2012',
+        link: [
+            'https://100x24.ru/',
+            'https://100x24.ru/2012/docs/100x24_nat.htm',
+            'https://web.archive.org/web/20230206171533/https://www.adventureraces.ru/articles/?id_article_full=136&id_race=915',
+            'https://rogaining.ru/news/rogaine-news/results-events/344-2rsrc'
+        ],
+        res: [
+            'https://100x24.ru/2012/results/100x24_2012_res_24h.htm',
+            'https://100x24.ru/2012/results/100x24_results_6h.htm',
+            'https://100x24.ru/results.htm',
+            'https://100x24.ru/2012/results/100x24_2012_split_24h.htm'
+        ],
+        maps: ['https://100x24.ru/2012/maps/100x24_2012.gif'],
+        // photo: 'https://picasaweb.google.com/apatenkov/100x242012' // недоступна
+        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=60&kieli=' // RouteGadget 24ч, сейчас не работает
+        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=61&kieli=' // RouteGadget 6ч, сейчас не работает
+        coord: [60.383, 30.218]
     },
     {
         id: 'SPB_20120310_1',
@@ -767,8 +788,44 @@ let events2012 = [
         type: 'ROGAINE',
         start: ['RUSSIA_ROGAINE_CHAMP','GORNY_CROSS'],
         o_site: '12072122',
-        bulletin: 'https://o-site.spb.ru/_races/12072122/12072122_info3.htm',
-        map: 'pervomajskoe_rrc_2012'
+        bulletin: [
+            // 'http://rrc2012.rogaining.ru/content/view/1/3/'
+            // 'http://rrc2012.rogaining.ru/content/view/2/4/'
+            // 'http://rrc2012.rogaining.ru/content/view/37/17/'
+            // 'http://rrc2012.rogaining.ru/content/view/43/19/'
+            'https://o-site.spb.ru/_races/12072122/12072122_info3.htm'
+        ],
+        map: 'pervomajskoe_rrc_2012',
+        link: [
+            'http://rrc2012.rogaining.ru/',
+            'https://rogaining.ru/rogaine/about-rogaine/rrc-2012',
+            'https://rogaining.ru/news/rogaine-news/announcement/325-rrc2012',
+            'https://rogaining.ru/news/rogaine-news/announcement/340-rrc2012',
+            'https://rogaining.ru/news/rogaine-news/announcement/347-rrc2012',
+            'https://rogaining.ru/news/rogaine-news/announcement/372-rrc2012',
+            'http://rrc2012.rogaining.ru/content/view/46/2/'
+        ],
+        res: [
+            'http://rrc2012.rogaining.ru/results/results24.htm',
+            'http://rrc2012.rogaining.ru/results/results8k.htm',
+            'http://rrc2012.rogaining.ru/results/splits/results24_s.htm',
+            'http://rrc2012.rogaining.ru/results/stat_controls.htm',
+            'http://rrc2012.rogaining.ru/results/teamresult_0.htm'
+        ],
+        maps: ['http://rrc2012.rogaining.ru/download/9rrc_map.jpg'],
+        photo: [
+            'https://vk.com/album-16993104_160316832',
+            'https://vk.com/album-31941981_160399873',
+            'https://vk.com/album156678794_160524980',
+            'http://fotki.yandex.ru/users/rogaining/album/242137/'
+            // 'https://plus.google.com/photos/115478201141686678582/albums/5768821734097288209?authkey=CJj9rMW1zOqQFQ' // недоступна
+        ],
+        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=65&kieli=' // RouteGadget, сейчас не работает
+        endDate: '2012-07-22',
+        coord: [60.392436, 29.726684],
+        planner: 'SMRNV_S',
+        fmt: '24, 8, 8 вело, 3',
+        info: 'Победители: MO (абс.): Алексей Королев, Денис Бареев («Волжские просторы», Н.Новгород) — 335; WO: Наталья Абрамова, Наталья Зимина — 300; XO: Владислав Завьялов, Алёна Акимова — 293. Команд — 83, участников — 172.'
     },
     {
         id: 'SPB_20120722_1',

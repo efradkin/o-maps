@@ -111,6 +111,15 @@ const GLOBAL_MENU_ITEMS = [
                     { title: '🚵 России на велосипедах', page: 'calendar.html?startYear=ALL&start=RUSSIA_CHAMP_MTBO' },
                 ]
             },
+            {
+                title: '🧭 Чемпионаты по рогейну',
+                menuItems: [
+                    { title: '🗓️ Все чемпионаты IRF', page: 'calendar.html?owner=IRF&startYear=ALL' },
+                    { title: '🌐 Мира (WRC)', page: 'calendar.html?startYear=ALL&start=WRC' },
+                    { title: '🌍 Европы (ERC)', page: 'calendar.html?startYear=ALL&start=ERC' },
+                    { title: '🏆 России', page: 'calendar.html?startYear=ALL&start=RUSSIA_ROGAINE_CHAMP' },
+                ]
+            },
             { title: '⛷️ Лыжные гонки', page: 'calendar-ski' },
             { title: '📲️ Android-приложение', page: 'help/calendar_app' },
         ]

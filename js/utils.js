@@ -394,6 +394,7 @@ function loadAllCalendars() {
         ...commonEvents2026,
         ...iofEvents,
         ...fsorEvents,
+        ...irfEvents,
         ...events2026,
         ...events2025,
         ...events2024,
@@ -704,6 +705,7 @@ function downloadIconExt(url) {
         case 'php':
         case 'djvu':
         case 'rar':
+        case 'xls':
         case 'xlsx':
         case 'tif': return 'url';
     }

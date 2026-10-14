@@ -24,7 +24,8 @@ let pskovMaps = [
         bounds: [[56.5721564, 28.8171387], [56.5453848, 29.1393471], [56.4090106, 28.7731934]],
         author: ['MNKV','SMKN_S','SBLV_S','KSTLV_E'],
         owner: 'PSKOV_RUS',
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        start: 'WRC'
     },
     {
         name: 'Андреева гора',

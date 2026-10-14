@@ -206,6 +206,35 @@ let events2013 = [
         o_site: '130302'
     },
     {
+        id: 'RRF_20130302_1',
+        date: '2013-03-02',
+        endDate: '2013-03-03',
+        place: 'ДОЛ «Энергия», Солнечногорский р-н',
+        name: '3-й Чемпионат России по рогейну на лыжах',
+        link: [
+            'https://web.archive.org/web/20131230002733/http://mosplay.ru/rogaining/zolotoj-marshrut-2013/3j-zimnij-chempionat-rossii',
+            'https://rogaining.ru/news/rogaine-news/results-events/3rsrc2013-results'
+            // 'http://mosplay.ru/routes/2013_03_Russian_Champ/' // недоступна
+            // 'http://mosplay.ru/wp-content/uploads/2013/03/Fin-24h-podgr.htm' // недоступна
+            // 'http://mosplay.ru/wp-content/uploads/2013/03/Fin-6h.htm' // недоступна
+            // 'http://mosplay.ru/wp-content/uploads/2013/03/Fin-3h.htm' // недоступна
+        ],
+        res: [
+            'https://web.archive.org/web/20131026201241id_/http://mosplay.ru/wp-content/uploads/2013/03/Fin-24h.htm',
+            'https://web.archive.org/web/20130306012506id_/http://mosplay.ru:80/wp-content/uploads/2013/03/Split-3h-6h-24h.htm'
+        ],
+        bulletin: [
+            // 'https://web.archive.org/web/20130225033303/http://mosplay.ru:80/wp-content/uploads/2013/02/3ChempRossii.htm'
+            'https://web.archive.org/web/20130319082054id_/http://mosplay.ru:80/wp-content/uploads/2013/02/Infobyul1-3CHR.pdf'
+        ],
+        maps: ['https://web.archive.org/web/20161221004018id_/http://mosplay.ru/routes/2013_03_Russian_Champ/map.jpg'],
+        info: 'Победители: СО: Андрей Шведов, Наталья Абрамова (Москва) – 345 (все КП) за 22:44 – абсолют; МО: Игорь Клепча, Юрий Бородулин (СПб) – 345 за 23:35:40; ЖО: Татьяна Павлова, Вера Мизонова (Н. Новгород) – 196. Команд — 19, участников — 40.',
+        coord: [55.913, 37.216],
+        fmt: '24, 6, 3',
+        type: ['ROGAINE','SKI'],
+        start: 'RUSSIA_ROGAINE_CHAMP'
+    },
+    {
         id: 'SPB_20130303_1',
         date: '2013-03-03',
         name: 'Чемпионат и Первенство СПб, маркир',
@@ -803,14 +832,36 @@ let events2013 = [
     },
     {
         id: 'SPB_20130602_1',
-        date: '2013-06-02',
+        date: '2013-06-01',
         place: 'Молодежное-Поляны',
         name: '1-й Чемпионат России по рогейну на велосипедах',
-        type: 'ROGAINE',
-        res: 'https://o-site.spb.ru/_races/130602/130602_res.zip',
+        type: ['ROGAINE','VELO'],
+        res: [
+            'https://o-site.spb.ru/_races/130602/130602_res.zip',
+            'http://gornycross.narod.ru/130602_res.xls'
+            // 'https://o-site.spb.ru/_races/130602/130601_split.htm' // недоступна
+        ],
         start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '130602',
-        bulletin: 'https://o-site.spb.ru/_races/130602/GK130601_info.pdf'
+        bulletin: [
+            // 'https://o-site.spb.ru/_races/130602/GK130601_proezd.pdf'
+            'https://o-site.spb.ru/_races/130602/GK130601_info.pdf'
+        ],
+        link: [
+            'http://gornycross.narod.ru/',
+            'https://rogaining.ru/news/rogaine-news/results-events/rrc-bike2013-results'
+            // 'http://gornycross.narod.ru/GK36-bul3.pdf' // недоступна
+        ],
+        maps: ['https://rogaining.ru/results/rrc-results/1rbrc_map.jpg'],
+        photo: 'https://mega.co.nz/#!Looija4B!OdUEsQxNhU0NDDe2q0WcTEIyb7lP62QtV2AK9aNZw-8',
+        gps: {
+            'Пути команд (zip)': 'https://o-site.spb.ru/_races/130602/130602_way.zip',
+            'Пути команд (rar, Д. Шемятихин)': 'http://gornycross.narod.ru/spb_ch_r_velo.rar'
+        },
+        coord: [60.3207, 29.2559],
+        fmt: '24 (вело); 24 бег, 8 вело/бег, 3 вело/бег',
+        info: 'Победители: Илья Строганов, Ольга Лимонова (Garmin, СПб, СО) – 200 (все КП), 16:49:55; МО(МВ): Игорь Бондаренко, Юрий Бородулин; ЖО: Марина Дудичева, Елена Семендяева (Белгородская обл.). Команд — 21, участников — 45.',
+        endDate: '2013-06-02'
     },
     {
         id: 'SPB_20130602_2',
@@ -1021,15 +1072,6 @@ let events2013 = [
         start: 'WN',
         o_site: '130721',
         bulletin: 'https://o-site.spb.ru/_races/130721/130721_info.pdf'
-    },
-    {
-        id: 'SPB_20130726_1',
-        date: '2013-07-26',
-        place: 'Псковская обл.',
-        name: '11-й Чемпионат Мира по рогейну',
-        type: 'ROGAINE',
-        fmt: '24 часа',
-        link: 'www.wrc2013.com'
     },
     {
         id: 'SPB_20130728_1',
@@ -1416,6 +1458,51 @@ let events2013 = [
         o_site: '131005',
         bulletin: 'https://o-site.spb.ru/_races/131005/131005_info2.pdf',
         map: 'osinovaja_roscha_velo_2020'
+    },
+    {
+        id: 'RRF_20131005_1',
+        date: '2013-10-05',
+        endDate: '2013-10-06',
+        place: 'Хвалынск, Саратовская обл.',
+        name: '10-й Чемпионат России по рогейну',
+        link: [
+            'http://rrc2013.rogaining.ru/',
+            'https://rogaining.ru/rogaine/about-rogaine/rrc2013-miroshkin',
+            'https://web.archive.org/web/20190825115656/https://x-race.info/items/17469/',
+            'https://web.archive.org/web/20190825121627/https://x-race.info/items/17477/',
+            'https://rogaining.ru/news/rogaine-news/announcement/424-rrc2013',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2013',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2013-1',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2013-2',
+            'https://rogaining.ru/news/rogaine-news/results-events/rrc2013-results'
+            // 'http://x-race.info/items/17429/' // недоступна
+        ],
+        res: [
+            'http://rrc2013.rogaining.ru/results/results.htm',
+            'http://rrc2013.rogaining.ru/results/splits/results.htm',
+            'http://rrc2013.rogaining.ru/results/stat_controls.htm'
+        ],
+        bulletin: [
+            // 'http://rrc2013.rogaining.ru/content/view/1/3/'
+            // 'http://rrc2013.rogaining.ru/content/view/2/4/'
+            'http://rrc2013.rogaining.ru/content/view/38/17/'
+        ],
+        maps: ['http://rrc2013.rogaining.ru/download/rrc2013_map.gif'],
+        photo: [
+            'http://www.my-tour.ru/2013/20131005-rogaining/index.htm',
+            'http://fotki.yandex.ru/users/barabu1ka/album/371029/',
+            'https://vk.com/album156678794_180933759'
+            // 'https://plus.google.com/photos/110963854552546542719/albums/5935487278713358497?authkey=CPn44Yv7iP68UA' // недоступна
+        ],
+        // video: 'http://youtu.be/HHpkODOk8wE' // недоступна
+        // video: 'http://youtu.be/lVdGtm1I1s8' // недоступна
+        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=72&kieli=' // RouteGadget, сейчас не работает
+        info: 'Победители: MO (абс.): Олег Калинин, Андрей Шведов — 340; WO: Наталья Абрамова, Анна Шавлакова; XO: Николай Мирошкин, Сергей Мирошкин, Анна Коробко. Команд — 78, участников — 165.',
+        coord: [52.528737, 48.069225],
+        fmt: '24',
+        planner: ['FRSV_K','PSTNV_D'],
+        type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP'
     },
     {
         id: 'SPB_20131006_1',

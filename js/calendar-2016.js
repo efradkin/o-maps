@@ -989,11 +989,40 @@ let events2016 = [
         name: 'Чемпионат России по рогейну',
         type: 'ROGAINE',
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-sportivnomu-orientirovaniyu/championat-rossii-po-rogeynu-v-sosnovo-13-07-2016',
-        info: 'Формат соревнований: - 24 часа бегом – чемпионат России. - 8 часов бегом – открытое первенство Санкт-Петербурга. - 6 часов на велосипеде – 3 этап кубка Всеволожского района.',
+        info: 'Формат соревнований: - 24 часа бегом – чемпионат России. - 8 часов бегом – открытое первенство Санкт-Петербурга. - 6 часов на велосипеде – 3 этап кубка Всеволожского района. Победители: MO (абс.): Олег Калинин, Константин Соловьёв («Волга-Урал») — 239; WO: Анна Бурлинова, Наталья Зимина; XO: Юрий Агафонцев, Анастасия Галитарова. Команд — 94, участников — 205.',
         start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '16070203',
-        bulletin: 'http://www.multsport.ru/starts/rus-run-rogaine-2016/bulletin-2.html',
-        map: 'zaporozhskoe_2016'
+        bulletin: [
+            // 'https://www.multsport.ru/starts/rus-run-rogaine-2016/bulletin-1.html'
+            // 'https://www.multsport.ru/images/rogRus16/bulletin-2.pdf'
+            // 'https://www.multsport.ru/starts/rus-run-rogaine-2016/technical-information.html'
+            'http://www.multsport.ru/starts/rus-run-rogaine-2016/bulletin-2.html'
+        ],
+        map: 'zaporozhskoe_2016',
+        link: [
+            'https://www.multsport.ru/starts/rus-run-rogaine-2016/',
+            'https://rogaining.ru/news/rrc2016-bulletin1',
+            'https://rogaining.ru/news/rrc2016-results',
+            'https://rogaining.ru/news/rrc2016-region-team-results',
+            'https://www.multsport.ru/news/13-russian-championship-rogaining-results.html'
+            // 'http://sport-orient.ru/wp-content/uploads/2016/03/Bulletin----1-Championship-of-Russia-2016-.pdf' // недоступна
+        ],
+        res: [
+            'https://www.multsport.ru/images/rogRus16/Rezult-24.pdf',
+            'https://www.multsport.ru/starts/rus-run-rogaine-2016/results.html',
+            'https://www.multsport.ru/images/rogRus16/Rezult-8.pdf',
+            'https://www.multsport.ru/images/rogRus16/Rezult-6.pdf',
+            'https://www.multsport.ru/images/rogRus16/split.htm'
+        ],
+        maps: ['https://www.multsport.ru/images/rogRus16/map.jpg'],
+        photo: [
+            'https://vk.com/album-8292013_234426312',
+            'https://vk.com/album156678794_233524022'
+        ],
+        gps: 'https://sembruk.github.io/rrc_run2016/results.html',
+        coord: [60.534233, 30.354958],
+        planner: ['DMNTV_P','KUOKNN_A'],
+        fmt: '24, 8, 6 вело'
     },
     {
         id: 'SPB_20160703_1',
@@ -1316,6 +1345,34 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160917_gl/160917_klas.pdf',
         info: '17 сентября 2016 г. в урочище Пухтолова гора пройдет Чемпионат и первенство по спортивному ориентированию - спорт глухих. В программе дисциплины "спринт" с 11:00 и "классика" с 13:30. Для младших школьников будет подготовлен "лабиринт на местности". Приглашаются все желающие, которые могут стартовать по желанию на дистанциях классики А, В, С, ДТР через 45 мин. после основных групп. Предварительная заявка через o-reg.spb.ru до 13 сентября включительно.',
         o_site: '160917_gl'
+    },
+    {
+        id: 'RRF_20160917_1',
+        date: '2016-09-17',
+        endDate: '2016-09-18',
+        place: 'Пищалье, Кировская обл.',
+        name: '4-й Чемпионат России по рогейну на велосипедах',
+        link: [
+            'https://web.archive.org/web/20161220090010/http://secret.2016.x-kirov.ru/',
+            'https://forum.x-kirov.ru/topic/6518-chempionat-rossii-2016-po-rogejnu-na-velosipedakh/',
+            'https://rogaining.ru/news/rrc-bike-2016-results'
+            // 'http://secret.2016.x-kirov.ru/' // недоступна
+            // 'http://secret.2016.x-kirov.ru/registration/' // недоступна
+        ],
+        res: [
+            'https://rogaining.ru/results/rrc-results/rrc2016_bike_results.pdf',
+            'https://rogaining.ru/download/doc/kirov_bike_2016_results.pdf'
+        ],
+        bulletin: [
+            // 'https://drive.google.com/file/d/1XNx-UXWW0s36KhSWINYyGXLsj0nGfWzn49df-lv2Dbk/view'
+            'http://forum.x-kirov.ru/topic/6518-chempionat-rossii-2016-po-rogejnu-na-velosipedakh/?p=123077'
+        ],
+        maps: ['https://rogaining.ru/results/rrc-results/rrc2016_bike_map.jpg'],
+        info: 'Победители: Наталья Зимина, Алексей Демьяненко, Руслан Дюльдин (Сальто Делчева, СО) – 161, 23:49:31; МО: Константин Сямтомов, Александр Порфирьев (Полуночники, Сыктывкар) – 157. Команд — 17, участников — 35.',
+        coord: [58.2387, 48.708],
+        fmt: '24 вело, 10 вело, 10',
+        type: ['ROGAINE','VELO'],
+        start: 'RUSSIA_ROGAINE_CHAMP'
     },
     {
         id: 'SPB_20160918_1',

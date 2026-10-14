@@ -2147,6 +2147,50 @@ let events2023 = [
         map: 'kanneljarvi_2023'
     },
     {
+        id: 'RRF_20231021_1',
+        date: '2023-10-21',
+        endDate: '2023-10-22',
+        place: 'Абрау-Мысхако, Новороссийск',
+        name: '20-й Чемпионат России по рогейну',
+        link: [
+            'http://novoros-rogaining.ru/',
+            'https://vk.com/novorosrogein',
+            'https://vk.com/topic-180575818_49193362',
+            'https://rogaining.ru/news/rrf-news/20-rrc-2023',
+            'https://rogaining.ru/news/rrf-news/rrc2023',
+            'https://rogaining.ru/news/rrf-news/rrc2023-1',
+            'https://rogaining.ru/news/rrf-news/rrc2023-2',
+            'https://rogaining.ru/news/rrf-news/rrc2023-3',
+            'https://rogaining.ru/news/rrf-news/rrc2023-4',
+            'https://rogaining.ru/news/rrf-news/rrc2023-5',
+            'https://rogaining.ru/news/rrf-news/rrc2023-results'
+        ],
+        res: [
+            'https://rogaining.ru/results/rrc-results/rrc2023_results.pdf',
+            'https://vk.com/doc43236248_670769293',
+            'https://disk.yandex.ru/d/urMwAl50LPo6vw'
+        ],
+        bulletin: [
+            // 'https://drive.google.com/file/d/1v8I7WpDTT8wWoschc4H6voOMFF1c85mK/view?usp=sharing'
+            // 'https://drive.google.com/file/d/1Z7RM4SKeK_o7BqXs15SMRbG_gEF5oZX_/view?usp=sharing'
+            'https://vk.com/doc43236248_669716988'
+        ],
+        maps: ['https://rogaining.ru/results/rrc-results/rrc2023_map.jpg'],
+        map: 'abrau_myskhako_rrc_2023',
+        photo: [
+            'https://vk.com/album40165867_297212921',
+            'https://disk.yandex.ru/d/YPpV5OV4L8cPyg'
+        ],
+        gps: 'https://aclive.ru/Broadcast/ViewBroadcast?Id=65315b29',
+        o_gps: 17658,
+        info: 'Победители: MO (абс.): Максим Цветков, Семён Якимов — 369 из 460; WO: Екатерина Петухова, Анна Шляпникова — 302; XO: Екатерина Клименко, Александр Шешуков (Симферополь) — 293. Команд — 74, участников — 155.',
+        coord: [44.711033, 37.641567],
+        fmt: '24, 6, 24 вело',
+        planner: 'SLMNV_G',
+        type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP'
+    },
+    {
         id: 'SPB_20231022_1',
         date: '2023-10-22',
         place: 'Каннельярви',

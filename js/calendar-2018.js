@@ -1153,6 +1153,33 @@ let events2018 = [
         start: 'GORNY_CROSS'
     },
     {
+        id: 'RRF_20180721_1',
+        date: '2018-07-21',
+        endDate: '2018-07-22',
+        place: 'Хакасия, урочище Карчалык',
+        name: '15-й Чемпионат России по рогейну',
+        link: [
+            'http://kras-rogaining.ru/blizhajshie-meropriyatiya-2/421-15-j-chempionat-rossii-po-rogejnu.html',
+            'https://rogaining.ru/news/rrc-2018',
+            'https://rogaining.ru/news/rrc2018-announcement',
+            'https://rogaining.ru/news/rrc2018-entry',
+            'https://rogaining.ru/news/rrc2018-results'
+        ],
+        res: 'http://o-sibsport.ru/Documents/2018/2018_ChR_Rogein/24_ch/results24_1.htm',
+        bulletin: [
+            // 'http://kras-rogaining.ru/news/2-uncategorised/353-informatsiya-krasnoyarskij-rogejn-2017.html'
+            'http://kras-rogaining.ru/blizhajshie-meropriyatiya-2/2-uncategorised/422-byulleten-1-15-j-chempionat-rossii-po-rogejnu.html'
+        ],
+        maps: ['https://vk.com/doc5887846_470588651'],
+        map: 'karchalyk_rrc_2018',
+        info: 'Победители: MO (абс.): Дмитрий Панов, Алексей Андрейкин («RZN-Дети болот», Рязань) — 279; XO: Николай Мирошкин, Сергей Мирошкин, Анна Коробко, Дмитрий Шемятихин — 274; WO: Екатерина Меньшова, Дарья Веселкова («Аура приключений») — 211. Команд — 50, участников — 107.',
+        coord: [54.5, 90.87],
+        fmt: '24, 6',
+        planner: 'ANKN_I',
+        type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP'
+    },
+    {
         id: 'SPB_20180722_1',
         date: '2018-07-22',
         place: 'Сярьги',
@@ -1233,13 +1260,30 @@ let events2018 = [
         endDate: '2018-08-12',
         place: 'Мичуринское',
         name: 'Чемпионат России по рогейну на велосипедах',
-        type: 'ROGAINE',
+        type: ['ROGAINE','VELO'],
         reg: 'http://www.multsport.ru/starts/bike-rogaine-rus-2018/registration.html',
-        res: 'http://www.multsport.ru/starts/bike-rogaine-rus-2018/results.html',
+        res: [
+            'http://www.multsport.ru/starts/bike-rogaine-rus-2018/results.html',
+            'http://www.multsport.ru/images/rogRus18/rezult.htm',
+            'http://www.multsport.ru/images/rogRus18/split.htm'
+        ],
         fmt: 'Рогейн 6ч, Рогейн 18ч. Велосипедный и беговой рогейн.',
         start: 'RUSSIA_ROGAINE_CHAMP',
         owner: 'MULTSPORT',
-        o_site: '18081112'
+        o_site: '18081112',
+        link: [
+            'http://www.multsport.ru/starts/bike-rogaine-rus-2018/',
+            'https://rogaining.ru/news/rrf-news/bike-rrc-2018-results',
+            'https://vk.com/topic-8292013_39118667'
+        ],
+        maps: ['http://www.multsport.ru/images/rogRus18/map-site.jpg'],
+        photo: 'https://vk.com/album-8292013_258057203',
+        bulletin: [
+            // 'http://www.multsport.ru/starts/bike-rogaine-rus-2018/rules.html'
+            'http://www.multsport.ru/starts/bike-rogaine-rus-2018/technical-information.html'
+        ],
+        coord: [60.5665, 29.8686],
+        info: 'Победители: Алексей Демьяненко (Н. Новгород), Евгений Шнякин (МО) – 47 из 51 КП; ЖЖ: Татьяна Коптева, Наталья Рысакова; МЖ: Наталья Барышникова, Тарас Кащук. Команд — 31, участников — 64.'
     },
     {
         id: 'SPB_20180811_3',

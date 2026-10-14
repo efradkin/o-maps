@@ -747,10 +747,37 @@ let events2007 = [
         place: 'Мельниково',
         name: 'Чемпионат России по рогейну',
         type: 'ROGAINE',
-        info: 'Открытый Чемпионат России по рогейну',
+        info: 'Открытый Чемпионат России по рогейну. Победители: Абс. (MV): Николай Луцанс, Айварс Михайлов (Рига, Латвия) — 246; M: Олег Калинин, Сергей Ященко (Polar Team) — 243; X: Анна Бурлинова, Михаил Першин — 240; W: Юлия Смирнова, Зоя Путилова (Пермь) — 115. Команд — 76, участников — 162.',
         start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '070824',
-        map: 'losevo_rrc_2007'
+        map: 'losevo_rrc_2007',
+        link: 'https://rogaine-spb.narod.ru/race0807/info.html',
+        res: [
+            'https://rogaine-spb.narod.ru/race0807/rgn24r.html',
+            'https://rogaining.ru/results/rrc-results/rrc2007-results.html',
+            'https://rogaine-spb.narod.ru/race0807/res.html',
+            'https://rogaine-spb.narod.ru/race0807/rgn8r.html',
+            'https://rogaine-spb.narod.ru/race0807/rgn8vr.html',
+            'https://rogaine-spb.narod.ru/race0807/rgn3r.html',
+            'https://rogaine-spb.narod.ru/race0807/rgn24s.html',
+            'https://rogaine-spb.narod.ru/race0807/rgn24i.html'
+        ],
+        maps: [
+            'https://rogaine-spb.narod.ru/race0807/map.gif',
+            'https://rogaining.ru/results/rrc-results/rrc2007_map.jpg'
+        ],
+        photo: [
+            'https://rogaine-spb.narod.ru/race0807/photo.html',
+            'https://rogaine-spb.narod.ru/race0807/photodist.html'
+        ],
+        bulletin: [
+            // 'https://rogaine-spb.narod.ru/race0807/race0807.html'
+            'https://rogaine-spb.narod.ru/race0807/fso.pdf'
+        ],
+        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=19&kieli=' // RouteGadget, сейчас не работает
+        coord: [60.921139, 29.763107],
+        planner: 'KMN_I',
+        fmt: '24, 8, 8 вело, 3'
     },
     {
         id: 'SPB_20070901_1',

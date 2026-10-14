@@ -519,12 +519,46 @@ let events2009 = [
         place: 'Кузнечное',
         name: 'Чемпионат России по рогейну',
         type: 'ROGAINE',
-        res: 'https://o-site.spb.ru/_races/090530_rog/090531_res.htm',
-        info: '6-й Чемпионат России по рогейну. Форматы: 24 часа (Ч-т России), 6 и 3 часа.',
+        res: [
+            'https://o-site.spb.ru/_races/090530_rog/090531_res.htm',
+            'http://gornycross.narod.ru/RRC09-rez.htm'
+        ],
+        info: '6-й Чемпионат России по рогейну. Форматы: 24 часа (Ч-т России), 6 и 3 часа. Победители: Абс.: Евгений Домбровский, Олег Калинин («Омега-НН») — 244. Команд — 112, участников — 230.',
         start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '090530_rog',
-        bulletin: 'https://o-site.spb.ru/_races/090530_rog/09053031_info2.htm',
-        map: 'kuznechnoe_2009'
+        bulletin: [
+            // 'https://o-site.spb.ru/_races/090530_rog/09053031_info.htm'
+            // 'https://o-site.spb.ru/_races/090530_rog/09053031_shema.JPG'
+            'https://o-site.spb.ru/_races/090530_rog/09053031_info2.htm'
+        ],
+        map: 'kuznechnoe_2009',
+        link: [
+            'http://gornycross.narod.ru/',
+            'https://o-site.spb.ru/race.php?id=090530_rog',
+            'https://web.archive.org/web/20160711230931/http://www.rogaining.com:80/news/news060609.html',
+            'https://rogaining.ru/news/rogaine-news/announcement/46-6rrc',
+            'https://rogaining.ru/news/rogaine-news/announcement/57-6-j-chempionat-rossii-po-rogejnu-2009',
+            'https://rogaining.ru/news/rogaine-news/announcement/67-6-j-chempionat-rossii-po-rogejnu',
+            'https://rogaining.ru/news/rogaine-news/announcement/73-6-j-chempionat-rossii-po-rogejnu',
+            'https://rogaining.ru/news/rogaine-news/results-events/78-6-j-chempionat-rossii-po-rogejnu',
+            'https://rogaining.ru/news/rogaine-news/site-new/82-6rrc'
+            // 'http://gornycross.narod.ru/RRC09-bul.doc' // недоступна
+            // 'http://gornycross.narod.ru/RRC09-POLOZp1.JPG' // недоступна
+            // 'http://gornycross.narod.ru/RRC09-POLOZp2.JPG' // недоступна
+            // 'http://gornycross.narod.ru/RRC-TEHINFO.doc' // недоступна
+            // 'http://gornycross.narod.ru/RRC09-POSTER.jpg' // недоступна
+        ],
+        maps: ['http://gornycross.narod.ru/RRC09-map.jpg'],
+        photo: [
+            'http://fotki.yandex.ru/users/gornycross/album/67845/'
+            // 'http://picasaweb.google.ru/sukhostoy/2009_05_2930#' // недоступна
+            // 'http://www.rogaining.ru/media/photo/category/20-6rrc.html' // недоступна
+        ],
+        video: 'http://www.youtube.com/watch?v=FXVTs5H8dx0',
+        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=33&kieli=' // RouteGadget, сейчас не работает
+        coord: [61.095664, 29.862778],
+        planner: 'SHKLV',
+        fmt: '24, 6, 3'
     },
     {
         id: 'SPB_20090530_3',

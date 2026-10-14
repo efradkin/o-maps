@@ -355,21 +355,6 @@ let commonEvents2026 = [
         start: 'MMS'
     },
     {
-        id: 'MAJOR_20260627_1',
-        date: '2026-06-27',
-        endDate: '2026-06-28',
-        place: 'Orlické Záhoří, Czech Republic',
-        name: 'European Rogaininig Championship (ERC)',
-        link: 'https://www.o-adventure.cz/stranka.php?co=2026erc',
-        gps: 'https://en.follow.me.cz/tracking-en/ERC2026/',
-        res: 'https://www.o-adventure.cz/stranka.php?co=2026vysledky',
-        video: 'https://youtu.be/p0bd2OFmXz4',
-        major: true,
-        type: 'ROGAINE',
-        fmt: '24',
-        owner: 'IRF'
-    },
-    {
         id: 'SPB_20260704_1',
         date: '2026-07-03',
         endDate: '2026-07-06',
@@ -473,20 +458,49 @@ let commonEvents2026 = [
         date: '2026-08-22',
         place: 'Выборг',
         name: 'Чемпионат России по рогейну',
-        link: 'https://www.multsport.ru/starts/rogaine-rus-2026/',
+        link: [
+            'https://www.multsport.ru/starts/rogaine-rus-2026/',
+            'https://vk.com/multsport',
+            'https://vk.ru/@hungry_raccoon2002-chempionat-rossii-po-rogeinu-2026',
+            'https://rogaining.ru/news/rrf-news/rrc2026',
+            'https://rogaining.ru/news/rrf-news/rrc2026-date',
+            'https://rogaining.ru/news/rogaine-news/rrc2026-entry',
+            'https://rogaining.ru/news/rogaine-news/rrc2026-2',
+            'https://rogaining.ru/news/rogaine-news/rrc2026-results',
+            'https://rogaining.ru/events/calendar/event/754-rrc2026',
+            'https://t.me/rogainomania/1563'
+        ],
         o_site: '260823r',
         reg: 'https://www.multsport.ru/starts/rogaine-rus-2026/registration.html',
         fmt:  '24, 8, 4',
         type: 'ROGAINE',
         planner: 'RYLOV_V',
         start: 'RUSSIA_ROGAINE_CHAMP',
-        info: 'Пути участников: [<a href="https://forestadventure.ru/2026/rrc/">1</a>], [<a href="https://o-route.ru/events/rrc-2026">2</a>].',
+        info: 'Пути участников: [<a href="https://forestadventure.ru/2026/rrc/">1</a>], [<a href="https://o-route.ru/events/rrc-2026">2</a>]. Победители: MO (абс.): Михаил Полянчиков (Жуков), Павел Сорокин (Москва) — 488; XO: Дмитрий Панов, Сергей Романенков, Анна Шавлакова — 444; WO: Екатерина Петухова, Анна Шляпникова — 336. Команд — 84, участников — 181.',
         photo: 'https://vk.ru/album-8292013_314304112',
-        res: 'https://www.multsport.ru/starts/rogaine-rus-2026/results.html',
+        res: [
+            'https://www.multsport.ru/starts/rogaine-rus-2026/results.html',
+            'https://www.multsport.ru/images/rogRus26/results-26.pdf',
+            'https://www.multsport.ru/images/rogRus26/split.html'
+        ],
         owner: 'MULTSPORT',
         map: 'vyborg_rrc_2026',
         o_gps: 25811,
-        coord: [60.818448, 28.610489]
+        coord: [60.818448, 28.610489],
+        maps: [
+            'https://viewer.o-gps-center.ru/newmaps/map_21882_2eee01dd3d618c8605eb482856382c74.jpeg',
+            'https://forestadventure.ru/2026/rrc/map.jpg'
+        ],
+        bulletin: [
+            // 'https://www.multsport.ru/starts/rogaine-rus-2026/rules.html'
+            'https://www.multsport.ru/starts/rogaine-rus-2026/technical-information.html'
+        ],
+        gps: {
+            'Пути участников (ForestAdventure)': 'https://forestadventure.ru/2026/rrc/',
+            'Карта популярности': 'https://forestadventure.ru/2026/rrc/popularity_map',
+            'O-Route': 'https://o-route.ru/events/rrc-2026'
+        },
+        endDate: '2026-08-23'
     },
     {
         id: 'MAJOR_20260825_1',
@@ -576,5 +590,22 @@ let commonEvents2026 = [
         major: true,
         fmt: 'long, middle, relay',
         owner: 'IOF'
+    },
+    {
+        id: 'RRF_20270807_1',
+        date: '2027-08-07',
+        endDate: '2027-08-08',
+        place: 'Аракуль, Челябинская обл.',
+        name: '24-й Чемпионат России по рогейну',
+        link: [
+            'https://rogaining.ru/news/rrf-news/rrc2027',
+            'https://rogaining.ru/component/jem/event/783-rrc2027',
+            'https://rogaining.ru/news/rrf-news/rrc-2027'
+        ],
+        info: 'Анонсирован Федерацией рогейна России.',
+        coord: [56.009102, 60.531791],
+        fmt: '24',
+        type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP'
     },
 ];

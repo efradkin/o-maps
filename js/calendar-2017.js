@@ -1577,6 +1577,57 @@ let events2017 = [
         bulletin: 'https://o-site.spb.ru/_races/170923_velo/170923_info_velo.pdf'
     },
     {
+        id: 'RRF_20170923_1',
+        date: '2017-09-23',
+        endDate: '2017-09-24',
+        place: 'Выболово, Богородский р-н',
+        name: '14-й Чемпионат России по рогейну',
+        link: [
+            'http://nn.rogaine.ru/op',
+            'https://mike-nn.livejournal.com/9231.html',
+            'https://vk.com/doc11730124_450042487?hash=37302eb98b9a428a7c&dl=a3e5318d3fce87a451',
+            'https://rogaining.ru/news/rrc2017-bulletin1',
+            'https://rogaining.ru/news/rrc2017-bulletin2',
+            'https://rogaining.ru/news/rrc2017-arena',
+            'https://rogaining.ru/news/rrc2017-results',
+            'https://rogaining.ru/news/rrc2017-region-team-results'
+            // 'https://cloud.mail.ru/public/CVi3/z3SQoD9pE' // недоступна
+            // 'https://vk.com/rogchamp2017' // недоступна
+        ],
+        res: [
+            'http://nn.rogaine.ru/results/2017/20170923/20170923_24.htm',
+            'http://nn.rogaine.ru/results/2017/20170923/20170923_8.htm',
+            'http://nn.rogaine.ru/results/2017/20170923/20170923_10.htm',
+            'http://nn.rogaine.ru/results/2017/20170923/20170923_stat.htm'
+        ],
+        bulletin: [
+            // 'http://nn.rogaine.ru/images/docs/IB_chempionat_Rossii_po_rogeynu_23-24_09_2017.pdf'
+            'http://nn.rogaine.ru/images/docs/IB2_chempionat_Rossii_po_rogeynu_23-24_09_2017.pdf'
+        ],
+        maps: ['http://nn.rogaine.ru/images/maps/map_rrc2017_final.jpg'],
+        map: 'bogorodsk_rrc_2017',
+        photo: [
+            'https://vk.com/album-137038817_247424179',
+            'https://vk.com/album-137038817_247755160',
+            'https://vk.com/album-137038817_247420494',
+            'https://vk.com/rogchamp2017?z=album-137038817_247398559',
+            'https://vk.com/public69709302?z=album-69709302_247469882',
+            'https://photos.app.goo.gl/XL7mgLHu9VmwDZGB2'
+        ],
+        video: [
+            'https://youtu.be/2gVmIp8SVbk',
+            'https://youtu.be/nDDnu95XWQ4',
+            'https://youtu.be/z9SAlueEfoc'
+            // 'https://youtu.be/y5FQlQLgIJs' // недоступна
+        ],
+        info: 'Победители: XO (абс.): Николай Мирошкин, Анна Коробко, Дмитрий Шемятихин — 347; MO: Олег Калинин, Константин Соловьёв — 342; WO: Нина Михеева, Марина Галкина. Команд — 122, участников — 267.',
+        coord: [56.0975, 43.439444],
+        fmt: '24, 8, 4, 10 вело, 5 вело',
+        planner: 'BRV_D',
+        type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP'
+    },
+    {
         id: 'SPB_20170924_1',
         date: '2017-09-24',
         place: 'Яппиля',

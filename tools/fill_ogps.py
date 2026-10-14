@@ -50,8 +50,8 @@ https://o-gps-center.ru/viewer/) в записях calendar-*.js.
      * в названии трансляции нет «тренировка», «тест», «копия», «онлайн»,
        «модель»/«training»;
      * запись — не беговой/лыжный забег (type RUN, SK_RACE) и не из
-       calendar-fsor.js и calendar-iof.js: чемпионаты и кубки России и IOF
-       заполняются вручную (в calendar-fsor.js o_gps ставится на
+       calendar-fsor.js, calendar-iof.js и calendar-irf.js: чемпионаты и кубки
+       России, IOF и IRF заполняются вручную (в calendar-fsor.js o_gps ставится на
        запись-«зонтик», дочерние записи не рассматриваются вовсе).
    Остальные кандидаты — в разделе «Проверить вручную» и в файлы не пишутся.
    Правила консервативны, но это всё же сопоставление по словам: смотрите
@@ -341,7 +341,7 @@ GENERIC = set('''чемпионат первенство кубок мемори
 GENERIC6 = {g[:6] for g in GENERIC}
 NOAUTO_NAME = re.compile(r'тренир|\bтрен\b|тест|копия|онлайн|on-?line|модел|model|training', re.I)
 NOAUTO_TYPES = {'RUN', 'SK_RACE'}
-NOAUTO_FILES = {'calendar-fsor.js', 'calendar-iof.js'}   # чемпионаты/кубки России и IOF заполняются вручную
+NOAUTO_FILES = {'calendar-fsor.js', 'calendar-iof.js', 'calendar-irf.js'}   # чемпионаты/кубки России, IOF и IRF заполняются вручную
 # город/регион, подразумеваемый файлом календаря (не считается «чужим» топонимом в названии трансляции)
 FILE_REGION = [(r'calendar-msk', 'Москва Московский Московская Москвы'), (r'calendar-samara', 'Самара Самарский Самарская Самары'),
                (r'calendar-(\d{4}|early|common)', 'Санкт-Петербург Петербург СПб Ленинградская')]

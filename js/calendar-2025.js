@@ -1607,6 +1607,45 @@ let events2025 = [
         map: 'toksovo_ska_2014'
     },
     {
+        id: 'RRF_20250712_1',
+        date: '2025-07-12',
+        endDate: '2025-07-13',
+        place: 'Галичский р-н, Костромская обл.',
+        name: '22-й Чемпионат России по рогейну',
+        link: [
+            'https://galtropa.ru/rogaine/2025',
+            'https://galtropa.ru/sportfest',
+            'https://orgeo.ru/event/41634',
+            'https://rogaining.ru/news/rrf-news/rrc2025',
+            'https://rogaining.ru/news/rogaine-news/gal-rogaine-2025',
+            'https://rogaining.ru/news/rogaine-news/gal-rogaine-rrc-2025',
+            'https://rogaining.ru/news/rogaine-news/rrc2025-results'
+            // 'https://drive.google.com/file/d/1YUpE7KtRoUr4B3s6unNoU2G3KO6RC9fT/view' // недоступна
+        ],
+        res: [
+            'https://rogaining.ru/results/rrc-results/rrc2025_results.pdf',
+            'https://data.galtropa.ru/results/2025/sportfest/rogaine-results-24h.pdf',
+            'https://data.galtropa.ru/results/2025/sportfest/rogaine-results-4h.pdf'
+        ],
+        bulletin: [
+            // 'https://data.galtropa.ru/results/2025/sportfest/polozhenie-rogaine.pdf'
+            // 'https://data.galtropa.ru/results/2025/sportfest/rogaine-info.pdf'
+            // 'https://data.galtropa.ru/results/2025/sportfest/tech-info-rogaine.pdf'
+            'https://data.galtropa.ru/results/2025/sportfest/protocol-rogaine-24.pdf'
+        ],
+        maps: [
+            'https://rogaining.ru/results/rrc-results/rrc2025_map.jpg',
+            'https://forestadventure.ru/2025/rrc/map.jpg'
+        ],
+        map: 'galich_rrc_2025',
+        gps: 'https://forestadventure.ru/2025/rrc/',
+        info: 'Победители: MO (абс.): Николай Мирошкин, Дмитрий Панов, Сергей Мирошкин — 373; XO: Марина Андреянова, Алексей Князев (Йошкар-Ола) — 285; WO: Елена Зотова, Надежда Сазонова (Н.Новгород) — 253. Команд — 82, участников — 177.',
+        coord: [58.501726, 42.351461],
+        fmt: '24, 4',
+        type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP'
+    },
+    {
         id: 'SPB_20250713_1',
         date: '2025-07-13',
         place: 'Лупполово',

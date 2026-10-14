@@ -10,7 +10,8 @@ let samaraMaps = [
         bounds: [[53.4338784, 49.262867], [53.422423, 49.4359016], [53.3495779, 49.2469025]],
         author: ['SKRPKO_S','PZDV_S','ZKN_V','ERKHV'],
         type: ['ROGAINE'],
-        region: 'SAMARA'
+        region: 'SAMARA',
+        start: 'RUSSIA_ROGAINE_CHAMP'
     },
     {
         name: 'Тольятти, Ставропольский сосняк',

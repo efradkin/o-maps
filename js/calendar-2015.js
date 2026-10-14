@@ -1029,6 +1029,31 @@ let events2015 = [
         bulletin: 'https://o-site.spb.ru/_races/150725_tr/150725_info.pdf'
     },
     {
+        id: 'RRF_20150725_1',
+        date: '2015-07-25',
+        endDate: '2015-07-26',
+        place: 'Подстепное, Саратовская обл.',
+        name: '1-й Чемпионат России по рогейну на байдарках',
+        link: [
+            'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/1-y-chempionat-rossii-po-rogeynu-na-baydarkah/glavnaya-1-y-chempionat-rossii-po-rogeynu-na-baydarkah/',
+            'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/events2015_32.html',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015-kayak',
+            'https://rogaining.ru/news/rrf-events-2015'
+        ],
+        res: 'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/1-y-chempionat-rossii-po-rogeynu-na-baydarkah/rezultaty-1-ogo-chempionat-rossii-po-rogeynu-na-baydarkah/',
+        bulletin: [
+            // 'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/1-y-chempionat-rossii-po-rogeynu-na-baydarkah/polozhenie-1-y-chempionat-rossii-po-rogeynu-na-baydarkah/'
+            'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/1-y-chempionat-rossii-po-rogeynu-na-baydarkah/informatsiya-1-y-chempionat-rossii-po-rogeynu-na-baydarkah/'
+        ],
+        maps: ['https://rogaining.ru/results/rrc-results/rrc2015_kayak_map.jpg'],
+        photo: 'https://vk.com/sportmir_water_rogain_2015',
+        info: 'Победители: Андрей Темяков, Павел Вереникин (Янтарный, Ростов-на-Дону/Волгодонск) – 192, 19:02:39; ЖО: Марина Воронина, Валентина Канурина (Ленивые совы) – 170; СО: Сергей Овчинников, Людмила Федорова (Самарские Выдры) – 142. Команд — 25, участников — 52.',
+        coord: [51.6666, 46.4788],
+        fmt: '24, 12, 6',
+        type: ['ROGAINE','WATER'],
+        start: 'RUSSIA_ROGAINE_CHAMP'
+    },
+    {
         id: 'SPB_20150726_1',
         date: '2015-07-26',
         place: 'Токсово-Рапполово-Охта парк',
@@ -1057,15 +1082,41 @@ let events2015 = [
         id: 'SPB_20150808_1',
         date: '2015-08-08',
         endDate: '2015-08-09',
-        place: 'Каменогорск',
+        place: 'Каменногорск',
         name: 'Чемпионат России по рогейну на велосипедах',
-        type: 'ROGAINE',
+        type: ['ROGAINE','VELO'],
         reg: 'http://x-race.info/calendar/48512/request/',
-        res: 'https://o-site.spb.ru/_races/150809/150808_split.htm',
-        info: '24 часа Велосипедный рогейн — Чемпионат России. Одновременно проводятся рогейны в двух альтернативных форматах: 9 часов Велосипедный рогейн - «Питер Хэппининг 2015» 9 часов Беговой рогейн - «Питер Хэппининг 2015»',
+        res: [
+            'https://o-site.spb.ru/_races/150809/150808_split.htm',
+            'https://web.archive.org/web/20160402114407id_/http://www.piterhappening.ru/docs/Results_velo2015_final.pdf',
+            'https://web.archive.org/web/20160730220217/http://piterhappening.ru/docs/150808_split.htm'
+            // 'http://piterhappening.ru/docs/Results_velo2015_final.pdf' // недоступна
+        ],
+        info: '24 часа Велосипедный рогейн — Чемпионат России. Одновременно проводятся рогейны в двух альтернативных форматах: 9 часов Велосипедный рогейн - «Питер Хэппининг 2015» 9 часов Беговой рогейн - «Питер Хэппининг 2015». Победители: Владимир Левченко, Илья Строганов (MDK - Russia Adventure Team) – 330, 22:02:44; 2. Нагаев А., Колганов Е. (Chasing Daylight) 330; СО: Барышникова Н., Кашин Д., Розанов П. (Беличий отряд) 295; ЖО: Сафина М., Миронова И. (Полный X-Race) 217. Команд — 34, участников — 70.',
         start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '150809',
-        bulletin: 'http://x-race.info/calendar/48512/regulations/'
+        bulletin: [
+            // 'https://web.archive.org/web/20160806141039/http://x-race.info/calendar/48512/regulations/'
+            // 'https://web.archive.org/web/20160204214314/http://piterhappening.ru/velo2015_information.html'
+            // 'https://web.archive.org/web/20160730163630/http://piterhappening.ru/docs/Information_bulleten_2.doc'
+            'http://x-race.info/calendar/48512/regulations/'
+        ],
+        link: [
+            'https://web.archive.org/web/20160204203719/http://piterhappening.ru/velo2015_map.html',
+            'https://rogaining.ru/news/rogaine-news/results-events/rrc2015-bike'
+            // 'http://piterhappening.ru/' // недоступна
+            // 'https://drive.google.com/file/d/0B71owoPsi_fiQW9YanhhbzVnVTg/view' // недоступна
+            // 'https://www.facebook.com/media/set/?set=a.414644988735957.1073741894.262182410648883&type=3' // недоступна
+            // 'http://x-race.info/calendar/48512/request_list/' // недоступна
+        ],
+        photo: [
+            'https://web.archive.org/web/20160204214241/http://piterhappening.ru/velo2015_foto.html',
+            'https://vk.com/album2903677_219224177'
+            // 'http://adventureraces.ru/photo/?id_of_section=11&id_of_photogallery=74' // недоступна
+            // 'https://plus.google.com/photos/118168096519803259968/albums/6181414038839235329' // недоступна
+        ],
+        coord: [60.9526, 29.1303],
+        fmt: '24 (вело); 9 вело и 9 бег («Питер Хэппининг 2015»)'
     },
     {
         id: 'SPB_20150809_1',
@@ -1314,8 +1365,27 @@ let events2015 = [
         type: 'ROGAINE',
         fmt: '24 часа бегом',
         start: 'RUSSIA_ROGAINE_CHAMP',
-        link: 'http://kras-rogaining.ru/',
-        map: 'krasnoyarsk_rrc_2015'
+        link: [
+            'http://kras-rogaining.ru/',
+            'http://kras-rogaining.ru/otchety/otchety-2015/238-otchety-12-go-chempionata-rossii-po-rogejnu.html',
+            'https://rogaining.ru/rogaine/about-rogaine/kras-rogaining',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015-bul1',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015-entry2',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015-entry3',
+            'https://rogaining.ru/news/rogaine-news/results-events/rrc2015-results',
+            'https://rogaining.ru/news/rogaine-news/results-events/rrc2015-region-team-results'
+            // 'http://x-race.info/news/57291/chempionat-rossii-po-rogeynu-krasnoyarsk-intervyu-s-organizatorami' // недоступна
+        ],
+        map: 'krasnoyarsk_rrc_2015',
+        res: 'http://kras-rogaining.ru/images/Kras-rogaining_2015/results24%20%D1%87%D0%B0%D1%81%D0%B0%20%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC.htm',
+        maps: [
+            'http://kras-rogaining.ru/images/stories/Kras-rogaining_2015/%D0%9A%D0%B0%D1%80%D1%82%D0%B0/MAP_CHR_2015.jpg',
+            'http://kras-rogaining.ru/images/stories/Kras-rogaining_2015/MAP_CR_2015.jpg'
+        ],
+        endDate: '2015-09-20',
+        coord: [56.01, 92.6],
+        info: 'Победители: MO (абс.): Николай Мирошкин, Дмитрий Шемятихин («Дети болот-1») — 272; WO: Нина Михеева, Марина Галкина; XO: Филипп Федосов, Мария Алешина. Команд — 51, участников — 109.'
     },
     {
         id: 'SPB_20150919_3',

@@ -453,6 +453,22 @@ let events2006 = [
         map: ['mms_2006_06_23', 'mms_2006_06_24', 'mms_2006_06_25']
     },
     {
+        id: 'RRF_20060624_1',
+        date: '2006-06-24',
+        endDate: '2006-06-25',
+        place: 'Тольятти, Самарская Лука',
+        name: '3-й Чемпионат России по рогейну',
+        res: 'https://rogaining.ru/results/rrc-results/3rrc_results.xls',
+        maps: ['https://rogaining.ru/results/rrc-results/3rrc_map.jpg'],
+        map: 'samarska_luka_2006_rogaine',
+        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=2&kieli=' // RouteGadget, сейчас не работает
+        info: 'Победители: Сергей Ященко, Олег Калинин. Команд — 33, участников — 66.',
+        coord: [53.406449, 49.311312],
+        fmt: '24, 12, 6, 3',
+        type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP'
+    },
+    {
         id: 'SPB_20060626_1',
         date: '2006-06-26',
         endDate: '2006-06-29',

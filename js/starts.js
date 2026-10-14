@@ -711,6 +711,22 @@ let starts = {
         logo: 'rrf_new.webp',
         owner: 'RRF'
     },
+    WRC: {
+        major: true,
+        rogaine: true,
+        short: 'WRC',
+        name: 'Чемпионат мира по рогейну (WRC)',
+        logo: 'irf.gif',
+        owner: 'IRF'
+    },
+    ERC: {
+        major: true,
+        rogaine: true,
+        short: 'ERC',
+        name: 'Чемпионат Европы по рогейну (ERC)',
+        logo: 'irf.gif',
+        owner: 'IRF'
+    },
     RUSSIA_2019: {
         major: true,
         short: 'ЧР 2019',

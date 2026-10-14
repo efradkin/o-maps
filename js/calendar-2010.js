@@ -576,6 +576,53 @@ let events2010 = [
         reskeep: 262
     },
     {
+        id: 'RRF_20100605_1',
+        date: '2010-06-05',
+        endDate: '2010-06-06',
+        place: 'Печорский р-н, Псковская обл.',
+        name: '7-й Чемпионат России по рогейну',
+        link: [
+            'http://7rrc.rogaining.ru/',
+            'https://rogaining.ru/news/rogaine-news/announcement/175-7rrc',
+            'https://rogaining.ru/news/rogaine-news/announcement/188-7-j-chempionat-rossii-po-rogejnu-2010',
+            'http://7rrc.rogaining.ru/content/view/38/2/'
+        ],
+        res: [
+            'http://7rrc.rogaining.ru/results/results24.htm',
+            'http://7rrc.rogaining.ru/results/results8.htm',
+            'http://7rrc.rogaining.ru/results/results4.htm',
+            'http://7rrc.rogaining.ru/results/splits/results24_s.htm',
+            'http://7rrc.rogaining.ru/results/stat_controls24.htm'
+        ],
+        bulletin: [
+            // 'http://7rrc.rogaining.ru/download/7rrc_invitation.pdf'
+            // 'http://7rrc.rogaining.ru/content/view/2/3/'
+            // 'http://7rrc.rogaining.ru/download/RRC2010_bulletin.pdf'
+            'http://7rrc.rogaining.ru/content/view/26/16/'
+        ],
+        maps: [
+            'http://7rrc.rogaining.ru/download/7rrc_map24.jpg',
+            'http://7rrc.rogaining.ru/download/7rrc_map8.jpg'
+            // 'http://7rrc.rogaining.ru/content/view/4/7/' // страница, не файл карты
+            // 'http://7rrc.rogaining.ru/content/view/16/14/' // страница, не файл карты
+        ],
+        map: 'malska_dolina_rogaine_2010',
+        photo: [
+            'http://imgsrc.ru/nanya/a528751.html'
+            // 'http://picasaweb.google.ru/rusrogaining/05062010#' // недоступна
+            // 'http://picasaweb.google.ru/rusrogaining/06062010#' // недоступна
+        ],
+        video: 'http://www.youtube.com/watch?v=4mCK0_AL86c',
+        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=41&kieli=' // RouteGadget 24ч, сейчас не работает
+        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=40&kieli=' // RouteGadget 8ч, сейчас не работает
+        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=39&kieli=' // RouteGadget 4ч, сейчас не работает
+        info: 'Победители: MO (абс.): Евгений Домбровский, Олег Калинин («ОМЕГА-НН») — 364; XO: Андрей Шведов, Наталья Абрамова — 344; WO: Анастасия Галитарова, Ирина Сафронова — 333. Команд — 106, участников — 225.',
+        coord: [57.787117, 27.773767],
+        fmt: '24, 8, 4',
+        type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP'
+    },
+    {
         id: 'SPB_20100606_1',
         date: '2010-06-06',
         place: 'Токсово, ВИФК',

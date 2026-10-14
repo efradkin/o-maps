@@ -507,6 +507,29 @@ let events2005 = [
         map: 'lembolovo_russia_2007'
     },
     {
+        id: 'RRF_20050903_1',
+        date: '2005-09-03',
+        endDate: '2005-09-04',
+        place: 'Городецкий р-н, Нижегородская обл.',
+        name: '2-й Чемпионат России по рогейну',
+        link: [
+            'http://nn.rogaine.ru/op',
+            'https://rogaining.ru/rogaine/about-rogaine/2rrc-gluhov',
+            'https://rogaining.ru/rogaine/about-rogaine/2rrc-komin'
+        ],
+        res: 'https://rogaining.ru/results/rrc-results/2rrc-results.html',
+        maps: [
+            'https://rogaining.ru/results/rrc-results/2rrc_map.jpg',
+            'http://nn.rogaine.ru/images/maps/20050903_map.jpg'
+        ],
+        info: 'Чемпионат возобновлён после перерыва 2002–2004 годов. Победители: MO: Сергей Ященко, Олег Калинин (Москва) — 265 из 265 возможных; XO: Илья Слепов, Маргарита Пучкова (Москва) — 210. Команд — 41, участников — 89.',
+        coord: [56.783816, 43.368443],
+        fmt: '24',
+        planner: 'SHPV_N',
+        type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP'
+    },
+    {
         id: 'SPB_20050904_1',
         date: '2005-09-04',
         place: '69км',

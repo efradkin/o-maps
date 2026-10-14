@@ -3148,6 +3148,35 @@ let eventsEarly = [
         map: ['peski_pulkonlampi_2001','peski_zabytoe_2001','peski_stayka_2001','peski_2001']
     },
     {
+        id: 'RRF_20010825_1',
+        date: '2001-08-25',
+        endDate: '2001-08-26',
+        place: 'Пермь',
+        name: '1-й Чемпионат России по рогейну',
+        link: [
+            'https://rogaining.ru/rogaine/about-rogaine/shestakov',
+            'https://rogaining.ru/rogaine/about-rogaine/perm-rogaining',
+            'https://rogaining.cz/upload/Ural_2001.pdf',
+            'https://telegra.ph/Rogaining-na-Urale-08-19',
+            'https://t.me/rogainomania/1541',
+            'https://t.me/rogainomania/1550',
+            'https://t.me/rogainomania/1551',
+            'https://t.me/rogainomania/1556',
+            'https://t.me/rogainomania/1558',
+            'https://t.me/rogainomania/1563',
+            'https://rogaining.ru/rogaine/rogaining-history/russian-rogaining'
+        ],
+        res: 'https://rogaining.ru/results/rrc-results/1rrc-results.html',
+        maps: ['https://rogaining.ru/results/rrc-results/1rrc_map.jpg'],
+        map: 'perm_rrc_2001',
+        info: 'Первый чемпионат России по рогейну, организатор — Герман Шестаков. Победители: MM: Мирослав Сейдл, Пётр Боранек (Прага, Чехия) — 1040 очков (52 КП из 64, все КП по 20 очков); MX: Наталья Копылова, Алексей Городилов (Лысьва); WW: Анна Расчёскина, Елена Вялых (Пермь/Краснокамск). Команд — 37, участников — 74.',
+        coord: [57.996691, 56.320265],
+        fmt: '24',
+        planner: 'SHSTKV_G',
+        type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP'
+    },
+    {
         id: 'SPB_20010826_1',
         date: '2001-08-26',
         place: 'Токсово',
