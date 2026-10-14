@@ -420,6 +420,10 @@ let owners = {
     ISKTL: {
         name: 'КСО ИСКАТЕЛЬ'
     },
+    JANN_Y: {
+        name: 'Янин Юрий Брониславович',
+        about: 'https://o-moscow.ru/people/YaninUB.html'
+    },
     JAKMV_S: {
         name: 'Якимов Семён, <a href="mailto:semyon@forestadventure.ru">semyon@forestadventure.ru</a>'
     },

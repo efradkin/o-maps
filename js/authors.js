@@ -572,7 +572,7 @@ let authors = {
         logo: 'fa.png'
     },
     JANN_Y: {
-        name: 'Янин Юрий',
+        name: 'Янин Юрий', // Брониславович
         about: 'https://o-moscow.ru/people/YaninUB.html'
     },
     JASHPTRV: { name: 'Яшпатров Геннадий' },

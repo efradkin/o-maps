@@ -667,6 +667,16 @@ let moscowMaps = [
         type: ['PARK']
     },
     {
+        name: 'Лужники',
+        year: 2022,
+        url: './maps/moscow/lr/luzhniki_2022.webp',
+        link: './original_maps/moscow/lr/luzhniki_2022_omaps.gif',
+        bounds: [[55.7275451, 37.5445318], [55.7245966, 37.5686073], [55.7135137, 37.5388455]],
+        author: 'MNKV',
+        owner: ['FSO_MSK','JANN_Y'],
+        type: ['PARK']
+    },
+    {
         name: 'Нескучный Сад',
         year: 2026,
         url: './maps/moscow/lr/neskuchny_2026.webp',
