@@ -53,14 +53,24 @@
         </nav>
     </header>
 
+    <div class="container">
+        <div class="row">
+            <section>
+                <small><i class="fa fa-github"></i> Подробно все изменения в проекте можно посмотреть на странице его <a href="https://github.com/efradkin/o-maps" target="_blank">GitHub-репозитория</a> (<a href="https://github.com/efradkin/o-maps/commits/main/" target="_blank">история коммитов</a>).</small>
+            </section>
+        </div>
+    </div>
+
     <div class="sheet-filters">
+        <script src="js/sheet-filter.js?v=42" data-items-root="#news-list" data-placeholder="Текст новости, дата…" data-label="Поиск по новостям"></script>
+
         <sup class="header_checkbox_container">
             <input type="checkbox" id="only-major-news" name="only-major" onclick="switchMajorNews(this.checked);" />
             <label for="only-major-news">только важные</label>
         </sup>
     </div>
 
-    <div class="container">
+    <div class="container" id="news-list">
     </div>
 
     <noscript>
@@ -90,7 +100,7 @@
     </div>
 
     <script src="js/welcome.js?v=42"></script>
-    <script src="js/news.js?v=44"></script>
+    <script src="js/news.js?v=45"></script>
     <script>
         let onlyMajorNews = false;
         const major = localStorage.getItem('onlyMajorNews');
@@ -105,7 +115,7 @@
         const images = [];
         let picCounter = 0;
 
-        let container = document.querySelector('.container');
+        let container = document.getElementById('news-list');
         news.forEach(n => {
             if (onlyMajorNews && !n.major) {
                 return;

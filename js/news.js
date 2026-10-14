@@ -1,5 +1,32 @@
 let news = [
     {
+        date: '2026-10-14',
+        title: 'Чемпионаты по рогейну',
+        info: 'Продолжаю расширять каталог O-Maps календаря. Добавил теперь чемпионаты по рогейну - <a href="calendar.html?startYear=ALL&amp;start=WRC">мировые</a>, <a href="calendar.html?startYear=ALL&amp;start=ERC">европейские</a> и <a href="calendar.html?startYear=ALL&amp;start=RRC">российские</a>. Традиционно, как у нас это принято - с огромным количеством ссылок на карты, результаты, бюллетени, статьи, фото, видео, GPS-трансляции и пр.',
+        major: true,
+        pics: ['2026-10-14_2', 8]
+    },
+    {
+        date: '2026-10-14',
+        title: 'Москва',
+        info: 'Большое обновление московских карт от Алексея Ермаченкова: <a href="moscow.html?map=red_gates_2026">Чистые пруды - Красные Ворота</a>, <a href="moscow.html?map=big_bitsa_2026">Большая Битца</a>, <a href="moscow.html?map=rublevo_2026">Рублево-Сосновка</a>, <a href="moscow.html?map=timiryazevsky_2026">Тимирязевский лесопарк</a>, <a href="moscow.html?map=neskuchny_2026">Нескучный Сад</a>, <a href="moscow.html?map=troitse_golenischevo_2026">Троице-Голенищево</a>, <a href="moscow.html?map=new_marino_2026">Новое Марьино</a> и лыжное <a href="moscow.html?map=marino_ski_2026">Марьино</a>.',
+        pics: ['2026-10-14_1', 8]
+    },
+    {
+        date: '2026-10-13',
+        title: 'История чемпионатов СССР и России',
+        info: 'Логичное продолжение <a href="https://t.me/o_maps_channel/1876">предыдущей новости</a>. На основе массива данных O-Maps календаря составил пять кратких, но насыщенных, статей по истории Чемпионатов СССР (<a href="history/ussr-foot.html">бегом</a> и <a href="history/ussr-ski.html">на лыжах</a>) и России (<a href="history/russia-foot.html">бегом</a>, <a href="history/russia-ski.html">на лыжах</a> и <a href="history/russia-mtbo.html">велосипедах</a>). Ну, и <a href="history/domestic.html">оглавление</a> к ним в придачу.',
+        major: true,
+        pics: ['2026-10-13', 8]
+    },
+    {
+        date: '2026-10-12',
+        title: 'Чемпионаты СССР и России',
+        info: 'Огромное количество разнообразной информации собрано теперь в O-Maps календаре и о Чемпионатах СССР (<a href="calendar.html?startYear=ALL&amp;start=USSR_CHAMP">бегом</a> и <a href="calendar.html?startYear=ALL&amp;start=USSR_CHAMP_WINTER">на лыжах</a>) и России (<a href="calendar.html?startYear=ALL&amp;start=RUSSIA_CHAMP">бегом</a>, <a href="calendar.html?startYear=ALL&amp;start=RUSSIA_CHAMP_SKI">на лыжах</a> и <a href="calendar.html?startYear=ALL&amp;start=RUSSIA_CHAMP_MTBO">велосипедах</a>) - карты, результаты (явно указаны чемпионы и призёры), ссылки на GPS-трансляции, фотографии и видео-трансляции, блоги и бюллетени.',
+        major: true,
+        pics: ['2026-10-12', 7]
+    },
+    {
         date: '2026-10-07',
         title: 'Чемпионат мира 2007',
         info: 'Достал из небытия (из веб-архива) <a href="documents.html?year=LATE">бюллетень</a>, <a href="moscow.html?map=planernaya_2007_02_27">карты</a> и <a href="event.html?id=IOF_20070223_1">результаты</a> лыжного Чемпионата Мира в московской Планерной 2007г. <br/>Кому-то м.б. будет интересно и тогдашние WOC-вестники почитать: <a href="https://moscompass.ru/news/2007/WOC_1_Maket.pdf">1</a>, <a href="https://moscompass.ru/news/2007/WOC_2_Maket.pdf">2</a>, <a href="https://moscompass.ru/news/2007/WOC_4_Maket.pdf">3</a>.',
