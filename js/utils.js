@@ -35,6 +35,7 @@ const SERVICES = [
     { re: /strava/i, label: 'Strava', img: 'images/strava_32.gif' },
     { re: /o-stuff\.net/i, label: 'O-Stuff', img: 'images/o-stuff.webp' },
     { re: /livejournal/i, label: 'ЖЖ', img: 'images/lj.webp' },
+    { re: /livelox\.com/i, label: 'Livelox', img: 'images/livelox.webp' },
 ];
 
 const OLIVE_IMAGE_URL = './maps/olive.png';
@@ -844,7 +845,31 @@ function fixCoord(coord) {
 }
 
 const O_GPS_CENTER_PREFIX = 'https://viewer.o-gps-center.ru/viewer/event/';
+const LIVELOX_PREFIX = 'https://www.livelox.com/Events/Show/';
+const LIVELOX_ICON = 'livelox.webp';
 
+function isLiveloxUrl(url) {
+    return /livelox\.com/i.test(String(url));
+}
+
+// Значок ссылки на трансляцию: у Livelox - свой, у остальных - img (по умолчанию url-file.png).
+function gpsIcon(url, img) {
+    return isLiveloxUrl(url) ? LIVELOX_ICON : (img ?? 'url-file.png');
+}
+
+// Ссылки на трансляции Livelox из поля livelox (номер события или массив номеров):
+// объект { 'Livelox': адрес } или { 'Livelox 1': …, 'Livelox 2': … }.
+function getLiveloxLinks(m) {
+    const ids = [].concat(m.livelox ?? []);
+    const result = {};
+    ids.forEach((id, i) => {
+        result['Livelox' + (ids.length > 1 ? ' ' + (i + 1) : '')] = LIVELOX_PREFIX + id;
+    });
+    return result;
+}
+
+// Трансляции события: gps, иначе o_gps; к ним добавляются трансляции Livelox.
+// Строка - если трансляция одна, объект { 'подпись': адрес } - если их несколько.
 function getGPS(m) {
     let gps = m.gps;
     if (!gps && m.o_gps) {
@@ -855,6 +880,15 @@ function getGPS(m) {
             }
         } else {
             gps = O_GPS_CENTER_PREFIX + m.o_gps;
+        }
+    }
+    if (m.livelox != null) {
+        const livelox = getLiveloxLinks(m);
+        if (!gps) {
+            const values = Object.values(livelox);
+            gps = values.length === 1 ? values[0] : livelox;
+        } else {
+            gps = {...(isObject(gps) ? gps : {[m.gps ? 'GPS' : 'O-GPS']: gps}), ...livelox};
         }
     }
     return gps;
@@ -880,7 +914,7 @@ function buildGpsLinksForEvents(events, img) {
                     }
                 }
             } else {
-                result += ' ' + buildLink(gps, '<img class="media-link" src="./images/' + (img ?? 'url-file.png') +'" alt="GPS">');
+                result += ' ' + buildLink(gps, '<img class="media-link" src="./images/' + gpsIcon(gps, img) +'" alt="GPS">');
             }
         }
     }
@@ -894,17 +928,17 @@ function buildGpsLinks(m, img, calendar, inline) {
         gps = getGPS(calendar);
     }
     if (gps) {
-        const image = `<img class="${inline ? 'sheet-icon' : 'media-link'}" src="./images/${img ?? 'url-file.png'}" alt="GPS">`;
+        const image = url => `<img class="${inline ? 'sheet-icon' : 'media-link'}" src="./images/${gpsIcon(url, img)}" alt="GPS">`;
         if (isObject(gps)) {
             let entries = Object.entries(Object.entries(gps));
             for (const [index, [key, value]] of entries) {
-                result += ` <a href="${value}" title="${key}">${image}</a>`;
+                result += ` <a href="${value}" title="${key}">${image(value)}</a>`;
                 if (index < entries.length - 1) {
                     result += ',';
                 }
             }
         } else {
-            result += buildLink(gps, image);
+            result += buildLink(gps, image(gps));
         }
     }
     return result;
@@ -1826,7 +1860,7 @@ function validateEvent(evt) {
                 }
                 break;
             case GPS_EVENTS_CALENDAR_PARAM_VALUE:
-                if (!evt.gps && !evt.o_gps) {
+                if (!evt.gps && !evt.o_gps && evt.livelox == null) {
                     return false;
                 }
                 break;

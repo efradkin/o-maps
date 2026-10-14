@@ -570,8 +570,8 @@
         const gps = getGPS(evt);
         if (gps) {
             const items = isObject(gps)
-                ? Object.entries(gps).map(([k, v]) => chip({ href: v, label: k, img: 'images/o-gps.gif' }))
-                : [chip({ href: gps, label: 'смотреть трансляцию', img: 'images/o-gps.gif' })];
+                ? Object.entries(gps).map(([k, v]) => chip({ href: v, label: k, img: 'images/' + gpsIcon(v, 'o-gps.gif') }))
+                : [chip({ href: gps, label: 'смотреть трансляцию', img: 'images/' + gpsIcon(gps, 'o-gps.gif') })];
             html += row('GPS-трансляция', items.join(', '));
         }
         html += row('Фото', chips(evt.photo, 'photo'));

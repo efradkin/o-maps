@@ -1268,9 +1268,7 @@ let events2021 = [
             'Ж': 10200,
             'М21А/45': 10251
         },
-        maps: [
-            // 'https://www.livelox.com/Events/Show/65137', // Livelox: Кубок карельского перешейка 1 день
-        ]
+        livelox: 65137
     },
     {
         id: 'SPB_20210614_2',
@@ -1300,9 +1298,7 @@ let events2021 = [
             'Ж': 10208,
             'М21А/45': 10247
         },
-        maps: [
-            // 'https://www.livelox.com/Events/Show/65147', // Livelox: КПП 2021 День 2. Кросс классика длинная
-        ]
+        livelox: 65147
     },
     {
         id: 'SPB_20210616_1',

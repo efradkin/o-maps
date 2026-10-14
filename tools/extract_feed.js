@@ -20,6 +20,7 @@ const SITE = (process.argv[3] || 'https://o-maps.spb.ru/').replace(/\/?$/, '/');
 
 const O_SITE_PREFIX = 'https://o-site.spb.ru/race.php?id=';
 const O_GPS_PREFIX = 'https://viewer.o-gps-center.ru/viewer/event/';
+const LIVELOX_PREFIX = 'https://www.livelox.com/Events/Show/';
 const RESKEEP_PREFIX = 'https://reskeep.ru/event/get?id=';
 
 // Поля `me` и `strava` в календаре — личные пометки владельца сайта,
@@ -92,7 +93,8 @@ const asArray = v => (v == null ? [] : Array.isArray(v) ? v : [v]);
 const isUrl = v => /^https?:\/\//.test(String(v));
 
 /**
- * gps и o_gps — строка/число или объект вида { 'группа': значение }.
+ * gps и o_gps — строка/число или объект вида { 'группа': значение };
+ * livelox — номер события Livelox или массив номеров.
  * Возвращает пары [группа | null, адрес].
  */
 function gpsEntries(value, prefix) {
@@ -430,8 +432,12 @@ function buildLinks(evt) {
     for (const [group, url] of gpsEntries(evt.o_gps, O_GPS_PREFIX)) {
         add({ kind: 'gps', label: group ? 'O-GPS ' + group : 'O-GPS', url, icon: 'o-gps.gif' });
     }
+    const livelox = gpsEntries(evt.livelox, LIVELOX_PREFIX);
+    livelox.forEach(([, url], i) => {
+        add({ kind: 'gps', label: 'Livelox' + (livelox.length > 1 ? ' ' + (i + 1) : ''), url, icon: 'livelox.webp' });
+    });
     for (const [group, url] of gpsEntries(evt.gps, '')) {
-        add({ kind: 'gps', label: group ? 'GPS ' + group : 'GPS', url, icon: 'o-gps.gif' });
+        add({ kind: 'gps', label: group ? 'GPS ' + group : 'GPS', url, icon: /livelox\.com/i.test(url) ? 'livelox.webp' : 'o-gps.gif' });
     }
     for (const ph of asArray(evt.photo)) {
         add({

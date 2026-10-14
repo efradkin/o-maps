@@ -8811,7 +8811,6 @@ let iofEvents = [
             'https://orienteering.sport/wp-content/uploads/2022/07/wmtboc_2022_map_middle_w20_2.pdf', // Part 2
             'https://orienteering.sport/wp-content/uploads/2022/07/wmtboc_2022_map_middle_m20_1.pdf', // Part 1
             'https://orienteering.sport/wp-content/uploads/2022/07/wmtboc_2022_map_middle_m20_2.pdf' // Part 2
-            // 'https://www.livelox.com/Events/Show/81288', // Livelox: WMTBOC MD
         ],
         photo: [
             'https://photos.google.com/share/AF1QipNewXQSu25ttvxXdcpF7w7JMbO4ZPUaVln6EbVLyC20_R7GByyVU2rUBwEQCDa4DQ?key=ZkxocWp0elM0ZFhrenRLTzdYSkh1OUJIZTZEbFh3' // Official photos
@@ -8820,7 +8819,8 @@ let iofEvents = [
         coord: [60.607222, 15.631111],
         type: 'VELO',
         fmt: 'middle',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 81288
     },
     {
         id: 'IOF_20220716_1',
@@ -8879,7 +8879,6 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/20220717lomgW/map',
             // карты (IOF LIVE)
             'https://drive.google.com/drive/folders/19LygNAx9O5N9jVL0jwizKr1uOqUJciC3?usp=sharing' // All
-            // 'https://www.livelox.com/Events/Show/81359', // Livelox: WMTBOC Long
         ],
         photo: [
             'https://photos.app.goo.gl/kEuiVcLtT5KrurdU8', // Official album 1
@@ -8889,7 +8888,8 @@ let iofEvents = [
         coord: [60.607222, 15.631111],
         type: 'VELO',
         fmt: 'long',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 81359
     },
     {
         id: 'IOF_20220719_1',
@@ -9349,8 +9349,7 @@ let iofEvents = [
         ],
         gps: {
             'M': 'https://events.loggator.com/xTGWWg',
-            'W': 'https://events.loggator.com/WH5xug',
-            'Livelox': 'https://www.livelox.com/Events/Show/94616/European-MTBO-Championship-Middle-Distance'
+            'W': 'https://events.loggator.com/WH5xug'
         },
         maps: [
             // 'https://photos.app.goo.gl/3DnDQefHss4Taf7J6', // карты организаторов (альбом Google Photos)
@@ -9360,7 +9359,6 @@ let iofEvents = [
             // карты (IOF LIVE)
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/16e9b54c6b99c3214b8ebac2/M21.png', // Men
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/69a27548ca1cd5c53292dcfb/W21.png' // Women
-            // 'https://www.livelox.com/Events/Show/94616', // Livelox: European MTBO Championship - Middle Distance
         ],
         photo: [
             'https://photos.google.com/share/AF1QipMcAZHX8N6iitfoPFY5JA5v9q9fH71pPykc_eV14uWm5OqzLkxh_HaAP39LlSY-cg?key=ZGNZdFZXNXN6NFNjQWZxZ0dxdHZEZHUzUE8zZ0V3' // Official
@@ -9368,7 +9366,8 @@ let iofEvents = [
         coord: [37.15, -8.0],
         type: 'VELO',
         fmt: 'middle',
-        start: 'EMTBOC'
+        start: 'EMTBOC',
+        livelox: 94616
     },
     {
         id: 'IOF_20230427_1',
@@ -9382,8 +9381,7 @@ let iofEvents = [
         ],
         gps: {
             'M': 'https://events.loggator.com/DqHp8Q',
-            'W': 'https://events.loggator.com/h9Pp5g',
-            'Livelox': 'https://www.livelox.com/Events/Show/94618/European-MTBO-Championship-Mass-Start-and-Long-Distance'
+            'W': 'https://events.loggator.com/h9Pp5g'
         },
         maps: [
             // 'https://photos.app.goo.gl/rExy7oinhZMzWrUS9', // карты организаторов (альбом Google Photos)
@@ -9393,7 +9391,6 @@ let iofEvents = [
             // карты (IOF LIVE)
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/cdb9c92682a7d56241a6dfe4/M21.JPG', // Men
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/735d11c58e7e7e2af306638f/W21.JPG' // Women
-            // 'https://www.livelox.com/Events/Show/94618', // Livelox: European MTBO Championship - Mass Start and Long Distance
         ],
         photo: [
             'https://photos.google.com/share/AF1QipP6ulIpJfQJDlTxOcX_ITtA8XAVR1LdynGxIy4sVjQXWvrljJsxkNqrPCmzGcDnAA?key=ZWlGSENCUXlUaWVMUzE2dVc5NTBYa2psNkFPVVRn' // Official
@@ -9401,7 +9398,8 @@ let iofEvents = [
         coord: [37.15, -8.0],
         type: 'VELO',
         fmt: 'mass start',
-        start: 'EMTBOC'
+        start: 'EMTBOC',
+        livelox: 94618
     },
     {
         id: 'IOF_20230428_1',
@@ -9415,8 +9413,7 @@ let iofEvents = [
         ],
         gps: {
             'M': 'https://events.loggator.com/1YhOAA',
-            'W': 'https://events.loggator.com/VRtOfg',
-            'Livelox': 'https://www.livelox.com/Events/Show/94694/European-MTBO-Championship-Sprint'
+            'W': 'https://events.loggator.com/VRtOfg'
         },
         maps: [
             // 'https://photos.app.goo.gl/MmuZzzANEtdrM5Pe9', // карты организаторов (альбом Google Photos)
@@ -9426,7 +9423,6 @@ let iofEvents = [
             // карты (IOF LIVE)
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/dc83c147602cdc33e46003b5/Mtbo_sprint_23_Canvas_1_M21.JPG', // Men
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/af829d455a26aa72cdd4626d/Mtbo_sprint_23_Canvas_1_W21.JPG' // Women
-            // 'https://www.livelox.com/Events/Show/94694', // Livelox: European MTBO Championship - Sprint
         ],
         photo: [
             'https://photos.google.com/share/AF1QipOs78o9Pc-1s3U1ArD0utIRp9der8Me72JE2zsWACbC8-VvG-ShUCzP_BVEz9KurQ?key=ci1NSjVtcHl3LXdTakhnckJxcEVXd3hENFFuV2ZB' // Official
@@ -9434,7 +9430,8 @@ let iofEvents = [
         coord: [37.15, -8.0],
         type: 'VELO',
         fmt: 'sprint',
-        start: 'EMTBOC'
+        start: 'EMTBOC',
+        livelox: 94694
     },
     {
         id: 'IOF_20230429_1',
@@ -9716,7 +9713,6 @@ let iofEvents = [
             // GPSSeuranta
             'https://www.tulospalvelu.fi/gps/20230820M/map',
             'https://www.tulospalvelu.fi/gps/20230820W/map'
-            // 'https://www.livelox.com/Events/Show/112044', // Livelox: WMTBOC Sprint Jicin
         ],
         photo: [
             'https://wmtboc2023.piwigo.com/index?/category/3-20_08_2023_sprint' // WMTBOC Albums
@@ -9728,7 +9724,8 @@ let iofEvents = [
         coord: [50.436667, 15.351667],
         type: 'VELO',
         fmt: 'sprint',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 112044
     },
     {
         id: 'IOF_20230822_1',
@@ -10205,12 +10202,7 @@ let iofEvents = [
         type: 'VELO',
         fmt: 'sprint, long, middle, mixed relay',
         start: 'EMTBOC',
-        maps: [
-            // 'https://www.livelox.com/Events/Show/130424', // Livelox: EMTBOC Sprint
-            // 'https://www.livelox.com/Events/Show/130445', // Livelox: EMTBOC Long
-            // 'https://www.livelox.com/Events/Show/130495', // Livelox: EMTBOC Middle
-            // 'https://www.livelox.com/Events/Show/130565', // Livelox: EMTBOC Relay
-        ]
+        livelox: [130424, 130445, 130495, 130565]
     },
     {
         id: 'IOF_20240712_1',
@@ -10587,7 +10579,6 @@ let iofEvents = [
             'https://orienteering.sport/wp-content/uploads/2024/08/eoc_2024_relay_men_map_3.jpg', // Leg 3
             'https://orienteering.sport/wp-content/uploads/2024/08/eoc_2024_relay_women_map.jpg', // Leg 1 & 2
             'https://orienteering.sport/wp-content/uploads/2024/08/eoc_2024_relay_women_map_3.jpg' // Leg 3
-            // 'https://www.livelox.com/Events/Show/136332', // Livelox: EOC relay
         ],
         photo: 'https://photos.google.com/share/AF1QipM22u80kGZBJ60OcQZYIcegO2rokJvl71hbIMFQRr_8OJgF9IQeoUZN7mXJo-CZIw?key=NC11SXh1X3FqMkZpNVFhcmQwTkg0RlRNS205cV9R',
         video: [
@@ -10596,7 +10587,8 @@ let iofEvents = [
         ],
         coord: [47.371667, 18.208611],
         fmt: 'relay',
-        start: 'EOC'
+        start: 'EOC',
+        livelox: 136332
     },
     {
         id: 'IOF_20240910_1',
@@ -10643,12 +10635,12 @@ let iofEvents = [
             // TrackSport
             'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-sprint-men/layers/kmz/6349cdd53a0501184dcd74c41b3b3af8/files/tile_0_0.jpg',
             'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-sprint-women/layers/kmz/e0feaec79529b2b062df0e76d1f08ec6/files/tile_0_0.jpg'
-            // 'https://www.livelox.com/Events/Show/137917', // Livelox: WMTBOC/JWMTBOC - SPRINT
         ],
         coord: [43.283333, 26.933333],
         type: 'VELO',
         fmt: 'sprint',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 137917
     },
     {
         id: 'IOF_20240911_1',
@@ -10668,12 +10660,12 @@ let iofEvents = [
             // TrackSport
             'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-mass-start-men/layers/kmz/763f00f14338a0f76148a998f1ebf388/files/tile_0_0.jpg',
             'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-mass-start-women/layers/kmz/8dfecefab2af89c89e12567b4f84c6a1/files/tile_0_0.jpg'
-            // 'https://www.livelox.com/Events/Show/137940', // Livelox: WMTBOC 2024 - Mass Start
         ],
         coord: [43.283333, 26.933333],
         type: 'VELO',
         fmt: 'mass start',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 137940
     },
     {
         id: 'IOF_20240912_1',
@@ -10693,12 +10685,12 @@ let iofEvents = [
             // TrackSport
             'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-middle-men/layers/kmz/047357ef5afbaaadba9d45213b711dd8/files/tile_0_0.jpg',
             'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-middle-women/layers/kmz/30f87ab63a17c2ced87a5a1d84dae657/files/tile_0_0.jpg'
-            // 'https://www.livelox.com/Events/Show/138079', // Livelox: WMTBOC/JWMTBOC - MIDDLE DISTANCE
         ],
         coord: [43.283333, 26.933333],
         type: 'VELO',
         fmt: 'middle',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 138079
     },
     {
         id: 'IOF_20240914_1',
@@ -10718,12 +10710,12 @@ let iofEvents = [
             // TrackSport
             'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-long-men/layers/kmz/0a4e27116f728dbceccf928aeb88b4a5/files/tile_0_0.jpg',
             'https://gps.tracksport.eu/storage/events/world-mtb-orienteering-championships-long-women/layers/kmz/d46ce2f95ad191884249fe85f3943f9e/files/tile_0_0.jpg'
-            // 'https://www.livelox.com/Events/Show/138194', // Livelox: WMTBOC 2024 - Long
         ],
         coord: [43.283333, 26.933333],
         type: 'VELO',
         fmt: 'long',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 138194
     },
     {
         id: 'IOF_20240915_1',
@@ -11104,7 +11096,6 @@ let iofEvents = [
             'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_q_w1.png', // Heat 1
             'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_q_w2.png', // Heat 2
             'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_q_w3.png' // Heat 3
-            // 'https://www.livelox.com/Events/Show/162085', // Livelox: World Orienteering Championships 2025: Middle Distance Quali
         ],
         photo: [
             'https://www.woc2025.fi/media/',
@@ -11114,7 +11105,8 @@ let iofEvents = [
         video: 'https://www.youtube.com/watch?v=0WAC4TENxxE',
         coord: [62.8925, 27.678333],
         fmt: 'middle',
-        start: 'WOC'
+        start: 'WOC',
+        livelox: 162085
     },
     {
         id: 'IOF_20250709_1',
@@ -11143,7 +11135,6 @@ let iofEvents = [
             // карты (IOF LIVE)
             'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_middle_men.png', // Men
             'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_middle_women.png' // Women
-            // 'https://www.livelox.com/Events/Show/162086', // Livelox: World Orienteering Championships 2025: Middle Distance Final
         ],
         photo: [
             'https://photos.app.goo.gl/7QJJjG65UJMFBtvh6',
@@ -11153,7 +11144,8 @@ let iofEvents = [
         video: 'https://www.youtube.com/watch?v=gy3COdirG3I',
         coord: [62.8925, 27.678333],
         fmt: 'middle',
-        start: 'WOC'
+        start: 'WOC',
+        livelox: 162086
     },
     {
         id: 'IOF_20250710_1',
@@ -11178,7 +11170,6 @@ let iofEvents = [
             // карты (IOF LIVE)
             'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_long_men.png', // Men
             'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_long_women.png' // Women
-            // 'https://www.livelox.com/Events/Show/162087', // Livelox: World Orienteering Championships 2025: Long Distance
         ],
         photo: [
             'https://photos.app.goo.gl/Prxe7RnX3QHUib1z6',
@@ -11188,7 +11179,8 @@ let iofEvents = [
         video: 'https://www.youtube.com/watch?v=DmwOcTK9SNg',
         coord: [62.8925, 27.678333],
         fmt: 'long',
-        start: 'WOC'
+        start: 'WOC',
+        livelox: 162087
     },
     {
         id: 'IOF_20250712_1',
@@ -11229,7 +11221,6 @@ let iofEvents = [
             'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_relay_men3.png', // Leg 3
             'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_relay_women.png', // Leg 1 & 2
             'https://orienteering.sport/wp-content/uploads/2025/07/woc_2025_map_relay_women3.png' // Leg 3
-            // 'https://www.livelox.com/Events/Show/162088', // Livelox: World Orienteering Championships 2025: Relay
         ],
         photo: [
             'https://photos.app.goo.gl/KeBAGts7LvmVUQEq7',
@@ -11239,7 +11230,8 @@ let iofEvents = [
         video: 'https://www.youtube.com/watch?v=kqk92O5okrw',
         coord: [62.8925, 27.678333],
         fmt: 'relay',
-        start: 'WOC'
+        start: 'WOC',
+        livelox: 162088
     },
     {
         id: 'IOF_20250812_1',
@@ -11289,12 +11281,12 @@ let iofEvents = [
             // TrackCourse
             'https://event.trackcourse.com/contests_maps/20250812/03abc35c8384ebbb8d7d0de00ceb003d9f6c2cfe/kml_image_Sprint-M21.jpg',
             'https://event.trackcourse.com/contests_maps/20250812/a14b242527a615ba30661bc6c5522359f7411258/kml_image_Sprint-K21.jpg'
-            // 'https://www.livelox.com/Events/Show/164847', // Livelox: WMTBOC 2025 - Sprint
         ],
         coord: [52.23, 21.011111],
         type: 'VELO',
         fmt: 'sprint',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 164847
     },
     {
         id: 'IOF_20250813_1',
@@ -11316,12 +11308,12 @@ let iofEvents = [
             // TrackCourse
             'https://event.trackcourse.com/contests_maps/20250813/07b74ee701fd2361d570b5e8e43632a526fd1d6b/kml_image_Middle-M21.jpg',
             'https://event.trackcourse.com/contests_maps/20250813/f2e7879ae6caa6a9b43290f3cb7aef9169d87031/kml_image_Middle-K21.jpg'
-            // 'https://www.livelox.com/Events/Show/164957', // Livelox: WMTBOC 2025 - Middle
         ],
         coord: [52.23, 21.011111],
         type: 'VELO',
         fmt: 'middle',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 164957
     },
     {
         id: 'IOF_20250814_1',
@@ -11343,12 +11335,12 @@ let iofEvents = [
             // TrackCourse
             'https://event.trackcourse.com/contests_maps/20250814/f9f7c4e77027ed548a21c22dec972bed5648fa36/kml_image_Mass-M21.jpg',
             'https://event.trackcourse.com/contests_maps/20250814/5bda667732350e47133f39a9262fb26bd85eea49/kml_image_Mass-W21.jpg'
-            // 'https://www.livelox.com/Events/Show/165055', // Livelox: WMTBOC 2025 - Mass Start
         ],
         coord: [52.23, 21.011111],
         type: 'VELO',
         fmt: 'mass start',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 165055
     },
     {
         id: 'IOF_20250816_1',
@@ -11370,12 +11362,12 @@ let iofEvents = [
             // TrackCourse
             'https://event.trackcourse.com/contests_maps/20250816/5db85df510e1017002197d4a9dd16363f4bd0a21/kml_image_Long-M21.jpg',
             'https://event.trackcourse.com/contests_maps/20250816/7940c8019b48d2a5f7ac798f2e4bd1c5a509774a/kml_image_Long-W21.jpg'
-            // 'https://www.livelox.com/Events/Show/165279', // Livelox: WMTBOC 2025 - Long
         ],
         coord: [52.23, 21.011111],
         type: 'VELO',
         fmt: 'long',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 165279
     },
     {
         id: 'IOF_20250817_1',
@@ -11398,12 +11390,12 @@ let iofEvents = [
             // TrackCourse
             'https://event.trackcourse.com/contests_maps/20250817/96f0a78489972fcd70aafacf19718ca2bd483936/kml_image_Relay-M21.jpg',
             'https://event.trackcourse.com/contests_maps/20250817/da1f9b772b119e617f630e96fe57775d9ee8f291/kml_image_Relay-W21.jpg'
-            // 'https://www.livelox.com/Events/Show/165480', // Livelox: WMTBOC 2025 - Relay
         ],
         coord: [52.23, 21.011111],
         type: 'VELO',
         fmt: 'relay',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 165480
     },
     {
         id: 'IOF_20250827_1',
@@ -11470,7 +11462,6 @@ let iofEvents = [
             'https://d1die33kgxnq4e.cloudfront.net/uploads/map/overlay/4079329a8848548c36bc34ac/optimized_tile_0_0.gif',
             // карты (IOF LIVE)
             'https://orienteering.sport/wp-content/uploads/2025/08/eoc_2025_map_sprint_relay.pdf' // All legs
-            // 'https://www.livelox.com/Events/Show/166612', // Livelox: EOC 2025 - Sprint Relay
         ],
         video: [
             'https://www.youtube.com/watch?v=4iudVhZm1R4', // ENG
@@ -11478,7 +11469,8 @@ let iofEvents = [
         ],
         coord: [50.93, 5.3375],
         fmt: 'sprint relay',
-        start: 'EOC'
+        start: 'EOC',
+        livelox: 166612
     },
     {
         id: 'IOF_20250828_1',
@@ -11798,8 +11790,7 @@ let iofEvents = [
         ],
         gps: {
             'M': 'https://events.loggator.com/2026EMTBOC_Sprint_ME',
-            'W': 'https://events.loggator.com/2026EMTBOC_Sprint_WE',
-            'Livelox': 'https://www.livelox.com/Events/Show/190834/SPRINT-MTBO-EOC26-ALMEIDA-PORTUGAL'
+            'W': 'https://events.loggator.com/2026EMTBOC_Sprint_WE'
         },
         maps: [
             // Loggator
@@ -11809,7 +11800,8 @@ let iofEvents = [
         coord: [40.716667, -6.9],
         type: 'VELO',
         fmt: 'sprint',
-        start: 'EMTBOC'
+        start: 'EMTBOC',
+        livelox: 190834
     },
     {
         id: 'IOF_20260526_1',
@@ -11822,8 +11814,7 @@ let iofEvents = [
         ],
         gps: {
             'M': 'https://events.loggator.com/2026EMTBOC_Middle_ME',
-            'W': 'https://events.loggator.com/2026EMTBOC_Middle_WE',
-            'Livelox': 'https://www.livelox.com/Events/Show/191001/MTBO26-Middle'
+            'W': 'https://events.loggator.com/2026EMTBOC_Middle_WE'
         },
         maps: [
             // Loggator
@@ -11833,7 +11824,8 @@ let iofEvents = [
         coord: [40.716667, -6.9],
         type: 'VELO',
         fmt: 'middle',
-        start: 'EMTBOC'
+        start: 'EMTBOC',
+        livelox: 191001
     },
     {
         id: 'IOF_20260527_1',
@@ -11843,8 +11835,7 @@ let iofEvents = [
         place: 'Almeida, Portugal (Алмейда, Португалия)',
         gps: {
             'M': 'https://events.loggator.com/2026EMTBOC_MassStart_ME',
-            'W': 'https://events.loggator.com/2026EMTBOC_MassStart_WE',
-            'Livelox': 'https://www.livelox.com/Events/Show/191263/MTBO26-Mass-Start-Long-Distance'
+            'W': 'https://events.loggator.com/2026EMTBOC_MassStart_WE'
         },
         maps: [
             // Loggator
@@ -11854,7 +11845,8 @@ let iofEvents = [
         coord: [40.716667, -6.9],
         type: 'VELO',
         fmt: 'mass start',
-        start: 'EMTBOC'
+        start: 'EMTBOC',
+        livelox: 191263
     },
     {
         id: 'IOF_20260528_1',
@@ -11866,8 +11858,7 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/8934/e84b40ea-ecea-4467-ae8f-ba01d6fd7f30/Results-Mixed-Relay.html'
         ],
         gps: {
-            'W': 'https://events.loggator.com/2026EMTBOC_Relay_WE',
-            'Livelox': 'https://www.livelox.com/Events/Show/191339/Relay-MTBO-26-Almeida'
+            'W': 'https://events.loggator.com/2026EMTBOC_Relay_WE'
         },
         maps: [
             // Loggator
@@ -11876,7 +11867,8 @@ let iofEvents = [
         coord: [40.716667, -6.9],
         type: 'VELO',
         fmt: 'mixed relay',
-        start: 'EMTBOC'
+        start: 'EMTBOC',
+        livelox: 191339
     },
     {
         id: 'MAJOR_20260706_1',
@@ -11965,8 +11957,6 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/8980/3cfa81f6-bb2b-4b15-8c0a-0699f71920bc/SQ-routechoices-WOMEN.pdf', // квалификация, варианты пути, женщины
             'https://eventor-iof-storage.orientering.se/eventdocuments/8980/eadbc02b-c24c-4286-a6b0-172ae53aba18/SF-routechoices-MEN.pdf', // финал, варианты пути, мужчины
             'https://eventor-iof-storage.orientering.se/eventdocuments/8980/e9a49177-58a5-4b7c-9305-f538d0f518ca/SF-routechoices-WOMEN.pdf' // финал, варианты пути, женщины
-            // 'https://www.livelox.com/Events/Show/195593', // Livelox: WOC 2026 - Sprint Quali
-            // 'https://www.livelox.com/Events/Show/195590', // Livelox: WOC 2026 - Sprint Final
         ],
         photo: [
             'https://photos.app.goo.gl/tyFjRg5SrTjfvBmm6',
@@ -11980,7 +11970,8 @@ let iofEvents = [
         ],
         coord: [44.407222, 8.933889],
         fmt: 'sprint',
-        start: 'WOC'
+        start: 'WOC',
+        livelox: [195593, 195590]
     },
     {
         id: 'IOF_20260709_1',
@@ -12016,7 +12007,6 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/8989/cb4db74e-71fb-4537-903a-16fdf32f2910/KOQ-map-Women-3.jpg', // женщины, забег 3
             'https://eventor-iof-storage.orientering.se/eventdocuments/8989/b7143953-3990-4fe8-aa0a-66fb0278476a/KOQ-routechoices-MEN.pdf', // варианты пути, мужчины
             'https://eventor-iof-storage.orientering.se/eventdocuments/8989/0b2eb9b7-cb30-4c2f-b0ce-9a1dac6347f9/KOQ-routechoices-WOMEN.pdf' // варианты пути, женщины
-            // 'https://www.livelox.com/Events/Show/195741', // Livelox: WOC 2026 - KO Sprint Quali
         ],
         photo: [
             'https://photos.app.goo.gl/CSgY1Fi3WRVvQU1Z9',
@@ -12024,7 +12014,8 @@ let iofEvents = [
         ],
         coord: [44.407222, 8.933889],
         fmt: 'knock-out',
-        start: 'WOC'
+        start: 'WOC',
+        livelox: 195741
     },
     {
         id: 'IOF_20260710_1',
@@ -12076,9 +12067,6 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/8990/276e59ee-c373-4bef-ae6b-4a474c291e50/KOF-routechoices-QF.pdf', // четвертьфиналы, варианты пути
             'https://eventor-iof-storage.orientering.se/eventdocuments/8990/fe5f7756-ddeb-4bbb-8d79-a0ee5e6417f2/KOF-routechoices-SF.pdf', // полуфиналы, варианты пути
             'https://eventor-iof-storage.orientering.se/eventdocuments/8990/651c2ea0-3078-43af-bb66-fc9aa541d08c/KOF-routechoices-Final.pdf' // финал, варианты пути
-            // 'https://www.livelox.com/Events/Show/195815', // Livelox: WOC 2026 - KO Quarter final
-            // 'https://www.livelox.com/Events/Show/195818', // Livelox: WOC 2026 - KO Semi finals
-            // 'https://www.livelox.com/Events/Show/195819', // Livelox: WOC 2026 - KO Sprint Final
         ],
         photo: [
             'https://photos.app.goo.gl/6kvnBaBXtaCoQbLv6',
@@ -12091,7 +12079,8 @@ let iofEvents = [
         ],
         coord: [44.407222, 8.933889],
         fmt: 'knock-out',
-        start: 'WOC'
+        start: 'WOC',
+        livelox: [195815, 195818, 195819]
     },
     {
         id: 'IOF_20260711_1',
@@ -12123,7 +12112,6 @@ let iofEvents = [
             // карты организаторов (IOF Eventor)
             'https://eventor-iof-storage.orientering.se/eventdocuments/8991/16f53a1c-d22e-4541-b7bb-7617bcfc532d/SR-map-total.pdf', // все этапы
             'https://eventor-iof-storage.orientering.se/eventdocuments/8991/acf0a0d9-9163-47e4-9a73-551a791ff2c9/SR-routechoices.pdf' // варианты пути
-            // 'https://www.livelox.com/Events/Show/195944', // Livelox: WOC 2026 - Sprint Relay
         ],
         photo: [
             'https://photos.app.goo.gl/F69HNeB2SKVf3eRp8',
@@ -12135,7 +12123,8 @@ let iofEvents = [
         ],
         coord: [44.407222, 8.933889],
         fmt: 'sprint relay',
-        start: 'WOC'
+        start: 'WOC',
+        livelox: 195944
     },
     {
         id: 'IOF_20260826_1',
@@ -12170,9 +12159,6 @@ let iofEvents = [
         res: [
             'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8775&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass' // миддл
         ],
-        gps: {
-            'Middle': 'https://www.livelox.com/Events/Show/199289/World-MTB-Orienteering-Championships-middle'
-        },
         photo: [
             'https://mediebank.tt.se/p/svenskorientering/album/120920' // миддл
         ],
@@ -12182,7 +12168,8 @@ let iofEvents = [
         coord: [61.016667, 14.533333],
         type: 'VELO',
         fmt: 'middle',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 199289
     },
     {
         id: 'IOF_20260827_1',
@@ -12193,9 +12180,6 @@ let iofEvents = [
         res: [
             'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8776&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass' // лонг
         ],
-        gps: {
-            'Long': 'https://www.livelox.com/Events/Show/199293/World-MTB-Orienteering-Championships-long'
-        },
         photo: [
             'https://mediebank.tt.se/p/svenskorientering/album/120921' // лонг
         ],
@@ -12205,7 +12189,8 @@ let iofEvents = [
         coord: [61.016667, 14.533333],
         type: 'VELO',
         fmt: 'long',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 199293
     },
     {
         id: 'IOF_20260829_1',
@@ -12216,9 +12201,6 @@ let iofEvents = [
         res: [
             'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8777&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass' // спринт
         ],
-        gps: {
-            'Sprint': 'https://www.livelox.com/Events/Show/199430/World-MTB-Orienteering-Championships-sprint'
-        },
         photo: [
             'https://mediebank.tt.se/p/svenskorientering/album/120922' // спринт
         ],
@@ -12231,7 +12213,8 @@ let iofEvents = [
         coord: [61.016667, 14.533333],
         type: 'VELO',
         fmt: 'sprint',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 199430
     },
     {
         id: 'IOF_20260830_1',
@@ -12242,9 +12225,6 @@ let iofEvents = [
         res: [
             'https://eventor.orienteering.sport/Events/ChampionshipResultlist?eventId=8778&championshipId=167&championshipRaceSubTypeId=2&groupBy=EventClass' // эстафета
         ],
-        gps: {
-            'Relay': 'https://www.livelox.com/Events/Show/199442/World-MTB-Orienteering-Championships-relay'
-        },
         photo: [
             'https://mediebank.tt.se/p/svenskorientering/album/120923' // эстафета
         ],
@@ -12255,7 +12235,8 @@ let iofEvents = [
         coord: [61.016667, 14.533333],
         type: 'VELO',
         fmt: 'relay',
-        start: 'WMTBOC'
+        start: 'WMTBOC',
+        livelox: 199442
     },
     {
         id: 'IOF_20260923_1',
@@ -12344,11 +12325,11 @@ let iofEvents = [
             'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_q-w1_map-scaled.png', // женщины, забег 1
             'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_q-w2_map-scaled.png', // женщины, забег 2
             'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_q-w3_map-scaled.png' // женщины, забег 3
-            // 'https://www.livelox.com/Events/Show/203698', // Livelox: EOC 2026 Qualification
         ],
         coord: [54.016667, 23.966667],
         fmt: 'qualification',
-        start: 'EOC'
+        start: 'EOC',
+        livelox: 203698
     },
     {
         id: 'IOF_20260924_1',
@@ -12388,11 +12369,11 @@ let iofEvents = [
             'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_long-mc_map-scaled.png', // мужчины, финал C
             'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_long-w_map-scaled.png', // женщины
             'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_long-wb_map-scaled.png' // женщины, финал B
-            // 'https://www.livelox.com/Events/Show/203829', // Livelox: EOC Long Distance Final
         ],
         coord: [54.016667, 23.966667],
         fmt: 'long',
-        start: 'EOC'
+        start: 'EOC',
+        livelox: 203829
     },
     {
         id: 'IOF_20260926_1',
@@ -12430,11 +12411,11 @@ let iofEvents = [
             'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_middle-mc_map-scaled.png', // мужчины, финал C
             'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_middle-w_map-scaled.png', // женщины
             'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_middle-wb_map-scaled.png' // женщины, финал B
-            // 'https://www.livelox.com/Events/Show/204073', // Livelox: EOC2026 Middle Distance
         ],
         coord: [54.016667, 23.966667],
         fmt: 'middle',
-        start: 'EOC'
+        start: 'EOC',
+        livelox: 204073
     },
     {
         id: 'IOF_20260927_1',
@@ -12465,10 +12446,10 @@ let iofEvents = [
             'https://www.tulospalvelu.fi/gps/2026eocRelayW3/map',
             // официальная карта (IOF LIVE)
             'https://orienteering.sport/wp-content/uploads/2026/09/eoc_2026_relay_men_map-scaled.png' // мужчины
-            // 'https://www.livelox.com/Events/Show/204178', // Livelox: EOC2026 Relay
         ],
         coord: [54.016667, 23.966667],
         fmt: 'relay',
-        start: 'EOC'
+        start: 'EOC',
+        livelox: 204178
     }
 ];
