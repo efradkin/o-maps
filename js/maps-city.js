@@ -2357,6 +2357,15 @@ let cityMaps = [
         type: ['CITY','SPRINT']
     },
     {
+        name: 'пл Мужества',
+        year: 2026,
+        url: './maps/city/muzhestva_2026.webp',
+        bounds: [[60.0015181, 30.3649235], [60.0015610, 30.3789568], [59.9965291, 30.3649449]],
+        author: 'DRIBAS',
+        owner: 'DRIBAS',
+        type: ['CITY','SPRINT']
+    },
+    {
         name: 'Физ-мат лицей №239',
         year: 2015,
         url: './maps/city/fml_239_2015.webp',
