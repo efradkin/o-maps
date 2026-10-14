@@ -2858,6 +2858,7 @@ let events2026 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://www.multsport.ru/starts/veloizol26/',
         reg: 'https://www.multsport.ru/starts/veloizol26/registration.html',
+        info: '<a href="https://o-route.ru/events/vi-2026">Треки участников</a>.',
         fmt: '8, 4',
         o_site: '261004r',
         owner: 'MULTSPORT'
@@ -3113,6 +3114,16 @@ let events2026 = [
         o_site: '261018',
         bulletin: 'https://o-site.spb.ru/_races/261018/261018_info.pdf',
         map: 'steklyanny_2026'
+    },
+    {
+        id: 'SPB_20261020_1',
+        date: '2026-10-20',
+        name: 'Открытое п-во Калининского р-на в честь дня рождения Ирины Вилениновны Степановой',
+        place: 'Пионерский парк',
+        fmt: 'спринт-рогейн, лабиринт',
+        link: 'https://t.me/ositespbnews/3468',
+        info: 'Старт открытый с 16.00 до 18.30.',
+        map: 'sakharova_2015'
     },
     {
         id: 'SPB_20261021_1',
