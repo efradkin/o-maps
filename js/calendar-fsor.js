@@ -5365,8 +5365,10 @@ let fsorEvents = [
         endDate: '2018-02-17',
         place: 'Цвелодубово',
         name: 'Первенство России, Цвелодубово',
-        type: 'VELO',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/180212/4komandnye.rar',
+        link: 'https://vk.com/pervenstvo_ski2018',
+        photo: 'https://vk.com/albums-158477483',
         video: [
             'http://northernwind.spb.ru/videosplit/2018/PervenstvoRussia',
             'https://www.youtube.com/watch?v=l1Ducgmg964'
