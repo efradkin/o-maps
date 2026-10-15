@@ -131,9 +131,6 @@ const regions = {
         name: 'Литва',
         logo: 'lietuva.gif'
     },
-    LNGRD: {
-        name: 'Ленинград'
-    },
     MSK: {
         name: 'Москва'
     },

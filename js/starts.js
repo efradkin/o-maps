@@ -399,21 +399,21 @@ let starts = {
         logo: 'meet_1966.jpg',
         major: true,
         retro: true,
-        region: 'LNGRD'
+        region: 'SPB'
     },
     START_1968: {
         short: '1-я многодневка\'1968',
         name: '<a href="https://o-site.spb.ru/history/History/fenomen.html">Первые многодневные соревнования</a>',
         major: true,
         retro: true,
-        region: 'LNGRD'
+        region: 'SPB'
     },
     ESTONIA_LENINGRAD: {
         short: 'Матч Эстония-Ленинград',
         name: '<a href="https://o-site.spb.ru/history/History/book.html#mark06">Матчевая встреча Эстония-Ленинград</a> (<a href="https://o-site.spb.ru/history/History/estle-s.html">лето</a>, <a href="https://o-site.spb.ru/history/History/estle-w.html">зима</a>)',
         major: true,
         retro: true,
-        region: 'LNGRD'
+        region: 'SPB'
     },
     USSR_BULGARIA_1968: {
         short: 'Матч СССР-Болгария\'1968',
@@ -424,7 +424,7 @@ let starts = {
             'Зам. главного секретаря - Л.В.Петрова и Н.А.Григоренко, Начальники дистанций - Л.В.Лебедкин, Р.А.Гладкобородов, А.И.Муравьев и А.И.Ходанович, Пом. начальника дистанции - Ю.Н.Леонов и И.Е.Штейнбук, Врач - Е.В.Утехина',
         major: true,
         retro: true,
-        region: 'LNGRD'
+        region: 'SPB'
     },
     USSR_V_1971: {
         short: 'Всесоюзные\'1971',
@@ -433,7 +433,7 @@ let starts = {
         info: 'Ленинград, 13-15.09.1971. Главный судья А.И.Муравьев, главный секретарь Н.А.Григоренко. Заместитель главного судьи по дистанциям А.Д.Котов',
         major: true,
         retro: true,
-        region: 'LNGRD',
+        region: 'SPB',
         owner: 'FSOR'
     },
     USSR_FRANCE_ARMY_1975: {
@@ -463,7 +463,7 @@ let starts = {
         logo: 'ussr_1975.jpg',
         major: true,
         retro: true,
-        region: 'LNGRD',
+        region: 'SPB',
         owner: 'FSOR'
     },
     VWC_1995: {
@@ -522,7 +522,7 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html">I чемпионат СССР</a> (' +
             '<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf">как это было</a>, <a href="./documents.html?start=USSR_1981">документы</a>)',
         logo: 'ussr_1981.webp',
-        region: 'LNGRD',
+        region: 'SPB',
         owner: 'FSOR'
     },
     USSR_1982: {
@@ -531,7 +531,7 @@ let starts = {
         short: 'II Чемпионат СССР',
         name: '<a href="https://o-site.spb.ru/history/History/luki-82.html">II чемпионат СССР</a> (<a href="./documents.html?start=USSR_1982">документы</a>)',
         logo: 'ussr_1982.webp',
-        region: 'LNGRD',
+        region: 'SPB',
         owner: 'FSOR'
     },
     USSR_1983: {
@@ -627,7 +627,7 @@ let starts = {
         short: '30 лет Ленинградского ориентирования',
         name: 'Многодневные <a href="./docs/1989/1989_05_07_XXX_years_omaps.pdf">соревнования</a>, посвящённые 30 летию Ленинградского ориентирования',
         logo: 'leningrad_30.webp',
-        region: 'LNGRD'
+        region: 'SPB'
     },
     JWSOC_2003: {
         major: true,

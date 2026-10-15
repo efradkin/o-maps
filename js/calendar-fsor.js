@@ -15,6 +15,7 @@ let fsorEvents = [
         info: 'Лично-командное первенство.',
         fmt: 'эстафета',
         start: 'USSR_V_1971',
+        region: 'SPB',
         map: ['zelenogorsk_schuchye_1971','ozerki_1971']
     },
     {
@@ -36,6 +37,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2020/12/ИтогиЧРвЛенинраде1981.pdf'
         ],
         coord: [60.2, 29.7],
+        region: 'SPB',
         start: ['USSR_1981','USSR']
     },
     {
@@ -696,6 +698,7 @@ let fsorEvents = [
         info: 'Главный судья — А.М.Бровин, главный секретарь — Л.А.Зиненко.',
         type: 'SKI',
         fmt: 'спринт, классика',
+        region: 'SPB',
         start: 'SKI_RUS'
     },
     {
@@ -779,6 +782,7 @@ let fsorEvents = [
         fmt: 'велокросс, спринт, классика',
         res: 'https://o-site.spb.ru/history/Knots/velo-96.html',
         coord: [60.41667, 30.33333],
+        region: 'SPB',
         start: 'MTBO_RUS'
     },
     {
@@ -812,6 +816,7 @@ let fsorEvents = [
         start: 'SKI_RUS',
         planner: 'BRDN_V',
         res: './docs/1998/1998_02_18_russia_omaps.pdf',
+        region: 'SPB',
         coord: [60.46507, 30.26405]
     },
     {
@@ -1000,6 +1005,7 @@ let fsorEvents = [
         link: 'https://o-site.spb.ru/history/Knots/kuzn-01.html',
         fmt: 'спринт, классика',
         coord: [61.12437, 29.88046],
+        region: 'SPB',
         start: 'RUS'
     },
     {
@@ -1250,6 +1256,7 @@ let fsorEvents = [
         type: 'VELO',
         fmt: 'эстафета 3 чел.',
         coord: [60.46507, 30.26405],
+        region: 'SPB',
         start: 'MTBO_RUS'
     },
     {
@@ -1331,6 +1338,7 @@ let fsorEvents = [
         major: true,
         fmt: 'спринт, общий старт, классика',
         coord: [59.56841, 30.12289],
+        region: 'SPB',
         start: 'RUS'
     },
     {
@@ -1860,6 +1868,7 @@ let fsorEvents = [
         bulletin: 'https://o-site.spb.ru/_races/070624/070624_info1.htm',
         fmt: 'спринт, лонг, эстафета 3 чел., классика',
         start: 'MTBO_RUS',
+        region: 'SPB',
         map: 'lembolovo_russia_2007'
     },
     {
@@ -2812,6 +2821,7 @@ let fsorEvents = [
         ],
         coord: [60.7105, 28.74978],
         start: 'RUS',
+        region: 'SPB',
         maps: [
             'https://i1119.photobucket.com/albums/k624/EmmaBaut/33018ed4.jpg'
         ]
@@ -4470,7 +4480,6 @@ let fsorEvents = [
         id: 'MAJOR_20160319_1',
         parent: 'MAJOR_20160318_1',
         date: '2016-03-19',
-        place: 'Томск',
         name: 'Чемпионат России, классика',
         info: 'Командный зачёт — М: Сибирский федеральный округ - 1, Приволжский федеральный округ - 2, Северо-Западный федеральный округ - 3; Ж: Приволжский федеральный округ - 1, Дальневосточный федеральный округ - 2, Сибирский федеральный округ - 3.',
         type: 'SKI',
@@ -4485,7 +4494,6 @@ let fsorEvents = [
         id: 'MAJOR_20160320_1',
         parent: 'MAJOR_20160318_1',
         date: '2016-03-20',
-        place: 'Томск',
         name: 'Чемпионат России, эстафета 3 чел.',
         info: 'Командный зачёт — Ж: Приволжский федеральный округ - 1, Дальневосточный федеральный округ - 2, Сибирский федеральный округ - 3.',
         type: 'SKI',
@@ -4497,7 +4505,6 @@ let fsorEvents = [
         id: 'MAJOR_20160322_1',
         parent: 'MAJOR_20160318_1',
         date: '2016-03-22',
-        place: 'Томск',
         name: 'Чемпионат России, марафон',
         info: 'Командный зачёт — М: Сибирский федеральный округ - 1, Приволжский федеральный округ - 2, Северо-Западный федеральный округ - 3; Ж: Приволжский федеральный округ - 1, Дальневосточный федеральный округ - 2, Сибирский федеральный округ - 3.',
         type: 'SKI',
@@ -4613,6 +4620,7 @@ let fsorEvents = [
             'https://rufso.ru/wp-content/uploads/2017/09/mnogodnevnyj_kross-m.pdf'
         ],
         o_stuff: 1444,
+        region: 'SPB',
         start: 'RUS'
     },
     {
@@ -5375,6 +5383,7 @@ let fsorEvents = [
         ],
         owner: 'FSOR',
         o_site: '180212',
+        region: 'SPB',
         o_gps: {
             '16-М20': 3379,
             '16-Ж20': 3380,
@@ -6046,6 +6055,7 @@ let fsorEvents = [
         o_site: '190524chRF',
         reskeep: [138, 139, 140],
         start: ['RUS','RUSSIA_2019'],
+        region: 'SPB',
         map: ['kuznechnoe_travkino_2019_05_24','kuznechnoe_suuri_2019'],
         maps: [
             'https://o-site.spb.ru/_races/190524chRF/190523_map.pdf'
@@ -6086,6 +6096,7 @@ let fsorEvents = [
         res: 'https://o-site.spb.ru/_races/19062830_velo/19062830_ofres.zip',
         owner: 'SFSO_LO',
         o_site: '19062830_velo',
+        region: 'SPB',
         bulletin: 'https://o-site.spb.ru/_races/19062830_velo/19062830_info2.pdf'
     },
     {
@@ -6127,7 +6138,7 @@ let fsorEvents = [
         endDate: '2019-07-22',
         place: 'Чита',
         name: 'Чемпионат России',
-        link: 'https://rufso.ru/%d1%87%d0%b5%d0%bc%d0%bf%d0%b8%d0%be%d0%bd%d0%b0%d1%82-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8-%d0%ba%d1%80%d0%be%d1%81%d1%81-%d1%87%d0%b8%d1%82%d0%b0/',
+        link: 'https://rufso.ru/чемпионат-россии-кросс-чита/',
         fmt: 'выбор, эстафета 2 чел., лонг, общий старт',
         coord: [52.03333, 113.5],
         photo: 'https://vk.com/album-9752432_264513552',
@@ -6674,6 +6685,7 @@ let fsorEvents = [
         },
         video: 'https://www.youtube.com/watch?v=fQJcSSgX7e0',
         reskeep: [371, 372],
+        region: 'SPB',
         start: ['RUSSIA_2020','RUS']
     },
     {
@@ -7120,6 +7132,7 @@ let fsorEvents = [
         o_site: '210531',
         reskeep: [466, 468, 469],
         start: ['RUSSIA_2021','RUS'],
+        region: 'SPB',
         map: ['sosnovy_bor_2021_05_29','sosnovy_bor_2021_05_30','sosnovy_bor_2021_05_31']
     },
     {
@@ -7760,6 +7773,7 @@ let fsorEvents = [
         reskeep: 535,
         o_stuff: [4962, 4979, 4963, 4988, 4980],
         start: 'RUS',
+        region: 'SPB',
         map: ['luga_omchino_2022_06_09','luga_omchino_2022_06_10','luga_omchino_2022_06_11'],
         o_gps: {
             '09-М': 13284,
@@ -8821,6 +8835,7 @@ let fsorEvents = [
         fmt: 'эстафета 4 чел. (2М+2Ж), спринт, спринт, общий старт',
         coord: [59.95, 30.31667],
         start: ['RUS','RUSSIA_2024'],
+        region: 'SPB',
         map: ['petropavlovka_2024','vasileostrovskaya_2024','serebrjany_prud_2024']
     },
     {

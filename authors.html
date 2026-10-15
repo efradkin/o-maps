@@ -216,7 +216,7 @@
         if (REGION_NAME_PARAM && REGION_NAME_PARAM !== 'ALL') {
             switch (REGION_NAME_PARAM) {
                 case 'SPB':
-                    oMaps = oMaps.filter(m => m.region === 'SPB' || m.region === 'LNGRD');
+                    oMaps = oMaps.filter(m => m.region === 'SPB');
                     break;
                 case 'MSK':
                 case 'BASH':
@@ -226,7 +226,7 @@
                     oMaps = oMaps.filter(m => m.region === REGION_NAME_PARAM);
                     break;
                 case 'OTHER':
-                    oMaps = oMaps.filter(m => m.region !== 'SPB' && m.region !== 'LNGRD' && m.region !== 'MSK' && m.region !== 'BASH' && m.region !== 'PSKOV' && m.region !== 'RYAZAN' && m.region !== 'SAMARA');
+                    oMaps = oMaps.filter(m => m.region !== 'SPB' && m.region !== 'MSK' && m.region !== 'BASH' && m.region !== 'PSKOV' && m.region !== 'RYAZAN' && m.region !== 'SAMARA');
                     break;
             }
         }
