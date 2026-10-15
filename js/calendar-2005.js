@@ -7,8 +7,11 @@ let events2005 = [
         type: 'SKI',
         fmt: 'заданное направление: 5 и 10 км вдоль лыжных трасс, длинная дистанция без подготовленной лыжни (группа А — 20 км, 16 КП)',
         info: 'Соревнования по лыжному ориентированию КСО «Азимут» на базе ЛМЗ, первый старт серии «Горный кросс».',
-        res: 'http://gornycross.narod.ru/protocol-GC-1.html',
-        start: 'GORNY_CROSS'
+        res: ['http://gornycross.narod.ru/protocol-GC-1.html','https://o-site.spb.ru/_races/050104/gorny_cross_res.htm'],
+        bulletin: 'https://o-site.spb.ru/_races/050104/gorny_cross.htm',
+        o_site: '050104',
+        start: 'GORNY_CROSS',
+        owner: ['GORNY_CROSS','AZIMUT']
     },
     {
         id: 'SPB_20050108_1',
@@ -818,17 +821,6 @@ let events2005 = [
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/051127/051127_res.zip',
         o_site: '051127'
-    },
-    {
-        id: 'SPB_20051204_1',
-        date: '2005-12-04',
-        place: 'Лемболово',
-        name: 'Горный кросс',
-        type: 'ROGAINE',
-        res: 'https://o-site.spb.ru/_races/050104/gorny_cross_res.htm',
-        start: 'GORNY_CROSS',
-        o_site: '050104',
-        map: 'lembolovo_orekhovo_peski_gk_2026'
     },
     {
         id: 'SPB_20051211_1',

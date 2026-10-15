@@ -681,15 +681,6 @@ let events2014 = [
         owner: 'AZIMUT'
     },
     {
-        id: 'SPB_20140531_2',
-        date: '2014-05-31',
-        name: 'Горный кросс-42',
-        type: 'ROGAINE',
-        fmt: '3 и 8 часов',
-        link: 'http://gornycross.narod.ru',
-        start: 'GORNY_CROSS'
-    },
-    {
         id: 'SPB_20140601_1',
         date: '2014-06-01',
         name: 'Первенство Команды 110%',

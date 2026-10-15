@@ -544,23 +544,13 @@ let events2013 = [
         bulletin: 'https://o-site.spb.ru/_races/13050103/13050103_info.pdf'
     },
     {
-        id: 'SPB_20130501_2',
-        date: '2013-05-01',
-        place: 'Луга',
-        map: 'luga_omchino_gk_2023',
-        name: 'Горный кросс-35',
-        type: 'ROGAINE',
-        fmt: '3 и 8 часов',
-        link: 'http://gornycross.narod.ru',
-        start: 'GORNY_CROSS'
-    },
-    {
         id: 'SPB_20130502_1',
         date: '2013-05-02',
         place: 'Луга, Шалово',
         map: 'luga_omchino_gk_2023',
         name: 'Горный кросс-35, рогейн «Лужский рубеж»',
         type: 'ROGAINE',
+        link: 'http://gornycross.narod.ru',
         res: 'https://o-site.spb.ru/_races/130501/130502_res_1.zip',
         info: 'I Чемпионат Северо-Запада России по рогейну «Лужский рубеж» и «Горный кросс-35».',
         fmt: '6 часов бегом',
@@ -857,26 +847,17 @@ let events2013 = [
         bulletin: 'https://o-site.spb.ru/_races/130601/130601_info.pdf'
     },
     {
-        id: 'SPB_20130601_2',
-        date: '2013-06-01',
-        name: 'Горный кросс-36',
-        type: 'ROGAINE',
-        fmt: '24,8,3 часа',
-        link: 'http://gornycross.narod.ru',
-        start: 'GORNY_CROSS'
-    },
-    {
         id: 'SPB_20130602_1',
         date: '2013-06-01',
         place: 'Молодежное-Поляны',
-        name: '1-й Чемпионат России по рогейну на велосипедах',
+        name: '1-й Чемпионат России по рогейну на велосипедах, Горный кросс-36',
         type: ['ROGAINE','VELO'],
         res: [
             'https://o-site.spb.ru/_races/130602/130602_res.zip',
             'http://gornycross.narod.ru/130602_res.xls'
             // 'https://o-site.spb.ru/_races/130602/130601_split.htm' // недоступна
         ],
-        start: 'RRC',
+        start: ['RRC','GORNY_CROSS'],
         o_site: '130602',
         bulletin: [
             // 'https://o-site.spb.ru/_races/130602/GK130601_proezd.pdf'
@@ -1243,17 +1224,6 @@ let events2013 = [
         res: 'http://o-site.spb.ru/_races/130331_OR/130905_split.htm',
         start: 'ORIENTIR',
         o_site: '130331_OR'
-    },
-    {
-        id: 'SPB_20130907_2',
-        date: '2013-09-07',
-        place: 'Зеленогорск',
-        map: 'zelenogorsk_gk_2009',
-        name: 'Горный кросс-39,40',
-        type: 'ROGAINE',
-        fmt: '8 и 3 часа',
-        link: 'http://gornycross.narod.ru',
-        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20130908_1',

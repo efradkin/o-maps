@@ -254,17 +254,6 @@ let events2016 = [
         o_gps: 932
     },
     {
-        id: 'SPB_20160319_1',
-        date: '2016-03-19',
-        place: 'Зеленогорск',
-        map: 'zelenogorsk_gk_2009',
-        name: 'Горный кросс-51',
-        type: 'ROGAINE',
-        fmt: '6 и 3 час., лыжи',
-        link: 'http://gornycross.narod.ru',
-        start: 'GORNY_CROSS'
-    },
-    {
         id: 'SPB_20160320_1',
         date: '2016-03-20',
         place: 'Сярьги',
@@ -1155,16 +1144,6 @@ let events2016 = [
         bulletin: 'https://o-site.spb.ru/_races/160731_WN/160731_info.pdf'
     },
     {
-        id: 'SPB_20160801_1',
-        date: '2016-08-01',
-        place: 'Приэльбрусье(?)',
-        name: 'Горный кросс-54',
-        type: 'ROGAINE',
-        fmt: '3-24 часа бег, особый формат(?)',
-        link: 'http://gornycross.narod.ru',
-        start: 'GORNY_CROSS'
-    },
-    {
         id: 'SPB_20160806_1',
         date: '2016-08-06',
         endDate: '2016-08-07',
@@ -1593,17 +1572,6 @@ let events2016 = [
         video: 'https://www.youtube.com/watch?v=MrbF5BCPIbY',
         start: 'OKINCHITSA',
         o_site: '16100809_Ok'
-    },
-    {
-        id: 'SPB_20161008_2',
-        date: '2016-10-08',
-        place: 'Молодежное',
-        map: 'molodezhnoe_gk_2024',
-        name: 'Горный кросс-55',
-        type: 'ROGAINE',
-        fmt: '6 и 3 час., бег и вело',
-        link: 'http://gornycross.narod.ru',
-        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20161008_3',
