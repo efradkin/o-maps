@@ -5,6 +5,7 @@ let events2010 = [
         endDate: '2010-01-09',
         place: 'Рощино',
         name: 'Две Пятёрочки',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/10010809/10010809_res.htm',
         o_site: '10010809',
         bulletin: 'https://o-site.spb.ru/_races/10010809/10010809_info2.htm'
@@ -1353,6 +1354,7 @@ let events2010 = [
         date: '2010-12-26',
         place: 'Токсово, Малиновая Гора',
         name: 'Новогодняя Эстафета',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/101226/101226_res.htm',
         video: 'https://www.youtube.com/watch?v=eJ6WGTbmy98',
         o_site: '101226',

@@ -24,6 +24,7 @@ let events2021 = [
         info: 'Программа тренировочных полигонов: 05.01 маркированная трасса на лыжах (вариант Г) 06.01 выбор бегом 07.01 заданное направление бегом',
         bulletin: 'https://o-site.spb.ru/_races/200103-09_sbor/210103-09_sbor_info1.pdf',
         o_site: '200103-09_sbor',
+        type: 'SKI',
         o_gps: {
             '03': 8740,
             '04': 8747,
@@ -36,6 +37,7 @@ let events2021 = [
         date: '2021-01-08',
         endDate: '2021-01-09',
         name: 'Рождественские старты-2021',
+        type: 'SKI',
         place: 'Мичуринское, база Мечта',
         res: 'https://o-site.spb.ru/_races/210108-09_rs/210108_rez.htm',
         bulletin: 'https://o-site.spb.ru/_races/210108-09_rs/210108-09_info1.pdf',
@@ -92,6 +94,7 @@ let events2021 = [
         id: 'SPB_20210117_2',
         date: '2021-01-17',
         name: 'Чемпионат и Первенство Ленинградской области',
+        type: 'SKI',
         start: 'LO_CHAMP',
         place: 'Шапки',
         reg: 'http://orgeo.ru/event/14844',
@@ -127,6 +130,7 @@ let events2021 = [
         id: 'SPB_20210124_1',
         date: '2021-01-24',
         name: 'Чемпионат и Первенство Ленинградской области',
+        type: 'SKI',
         start: 'LO_CHAMP',
         place: 'Кириши',
         reg: 'http://orgeo.ru/event/14977',
@@ -154,6 +158,7 @@ let events2021 = [
         date: '2021-01-29',
         endDate: '2021-01-31',
         name: 'Чемпионат и Первенство СЗФО и ЦФО',
+        type: 'SKI',
         place: 'Петровское',
         res: 'https://o-site.spb.ru/_races/21012830/210129_rez.htm',
         o_site: '21012830',
@@ -165,14 +170,6 @@ let events2021 = [
             '31-Ж1': 8930,
             '31-Ж3': 8929
         }
-    },
-    {
-        id: 'SPB_20210205_1',
-        date: '2021-02-05',
-        name: 'Тур де Лемболово – 2022',
-        place: 'Лемболово',
-        o_site: 'lembolovo-tour',
-        endDate: '2021-02-06'
     },
     {
         id: 'SPB_20210206_1',
@@ -192,6 +189,7 @@ let events2021 = [
         id: 'SPB_20210207_1',
         date: '2021-02-07',
         name: '42-е зимние соревнования На призы газеты Всеволожские вести',
+        type: 'SKI',
         place: 'Кузьмолово',
         res: 'https://o-site.spb.ru/_races/21020607VV/210206_res.htm',
         start: 'VSEV_VESTI',
@@ -671,6 +669,7 @@ let events2021 = [
         info: 'Рогейн в форматах: 3 и 6 часов бег, 4 часа вело.',
         start: 'HARD',
         o_site: '210502_rogaine',
+        type: 'ROGAINE',
         o_gps: {
             'Rogaine': 9734,
             'Trail': 9737,
@@ -1129,6 +1128,7 @@ let events2021 = [
         fmt: 'Рогейн в форматах: бег 4 и 8 часов',
         start: 'HARD',
         o_site: '210606_rogaine',
+        type: 'ROGAINE',
         o_gps: 10124
     },
     {
@@ -1754,6 +1754,7 @@ let events2021 = [
         date: '2021-09-11',
         place: 'Селезнёво',
         name: 'History Race',
+        type: ['ROGAINE', 'VELO'],
         reg: 'http://orgeo.ru/event/registration/historyrace2021',
         res: 'https://o-site.spb.ru/_races/210911/210911_res.htm',
         fmt: '8 часов вело',
@@ -2505,6 +2506,7 @@ let events2021 = [
         date: '2021-12-26',
         place: 'Лемболово',
         name: 'Новогодний Маркир на лыжах',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=1329',
         res: 'https://o-site.spb.ru/_races/211226l/211226_res.htm',
         o_site: '211226l',

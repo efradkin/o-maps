@@ -78,6 +78,7 @@ let samaraEvents2026 = [
         date: '2026-02-23',
         place: 'п.Прибрежный',
         name: 'Чемпионат и первенство г.о. Самара',
+        type: 'SKI',
         link: 'https://o-63.ru/data/2026/chempionat-i-pervenstvo-g-o-samara-10/',
         reg: 'https://orgeo.ru/event/50117',
         endReg: '2026-02-20 23:55',

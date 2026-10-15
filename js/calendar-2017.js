@@ -139,6 +139,7 @@ let events2017 = [
         date: '2017-02-13',
         place: 'ЗЦ Зеркальный',
         name: 'ТМ в Зеркальном',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170203-13/170212_res.htm',
         info: 'С 03 по 13 февраля 2017 г. в ЗЦ "Зеркальный" пройдет традиционная смена детских коллективов по спортивному ориентированию и спортивному туризму Санкт-Петербурга.',
         o_site: '170203-13'
@@ -283,6 +284,7 @@ let events2017 = [
         date: '2017-03-11',
         endDate: '2017-03-12',
         name: 'На приз газеты Всеволожские вести',
+        type: 'SKI',
         place: 'Кузьмоловский',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/17031112/17031112_sum.htm',
@@ -983,6 +985,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170527R/170527R_res.pdf',
         fmt: 'рогейн БЕГ - 24 и 6ч, ВЕЛО - 5ч, кросс-трейл - 38 и 17км',
         o_site: '170527R',
+        type: 'ROGAINE',
         bulletin: 'https://o-site.spb.ru/_races/170527R/170527R_info.pdf'
     },
     {
@@ -2260,6 +2263,7 @@ let events2017 = [
         date: '2017-12-30',
         place: 'Сертолово',
         name: 'Новогодняя Эстафета',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=825',
         res: 'http://reg.o-time.ru/result/17173.pdf',
         o_site: '171230'

@@ -61,6 +61,7 @@ let events2005 = [
         date: '2005-02-23',
         place: 'Кузьмолово',
         name: 'Пер-во клуба Гольфстрим. Выбор',
+        type: 'SKI',
         fmt: 'Выбор',
         owner: 'GOLFSTREAM',
         o_site: '050223'
@@ -645,6 +646,7 @@ let events2005 = [
         date: '2005-10-02',
         place: 'Можайская',
         name: 'МТБО Закрытие сезона 2005',
+        type: 'VELO',
         res: 'https://o-site.spb.ru/_races/051002_MTB/Zakritie2005rez.htm',
         o_site: '051002_MTB'
     },

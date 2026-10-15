@@ -20,6 +20,7 @@ let eventsEarly = [
         date: '1966-03-11',
         place: 'Юкки',
         name: 'Зимний матч городов СССР',
+        type: 'SKI',
         fmt: 'маркир',
         start: 'MEET_1966',
         map: 'yukki_1966'
@@ -29,6 +30,7 @@ let eventsEarly = [
         date: '1966-03-13',
         place: 'Орехово',
         name: 'Зимний матч городов СССР',
+        type: 'SKI',
         fmt: 'маркир-эстафета',
         start: 'MEET_1966',
         map: 'orekhovo_1966'
@@ -77,18 +79,10 @@ let eventsEarly = [
         endDate: '1969-03-04',
         place: 'Уфа, Тавтиманово, Юматово',
         name: 'П-во ЦС СДСО Буревестник',
+        type: 'SKI',
         fmt: 'маркир, эстафеты',
         res: ['./docs/1969/1969_03_02_ufa_tavtimanovo_omaps.pdf','./docs/1969/1969_03_04_ufa_umatovo_omaps.pdf'],
         map: ['tavtimanovo_1969','umatovo_1969_03_04']
-    },
-    {
-        id: 'SPB_19690304_1',
-        date: '1969-03-04',
-        place: 'Шапки',
-        name: 'П-во Ленинграда',
-        fmt: 'марафон маркир',
-        map: 'shapki_marathon_1969',
-        res: './docs/1969/1969_03_04_shapki_marathon_omaps.pdf'
     },
     {
         id: 'SPB_19690316_1',
@@ -268,6 +262,16 @@ let eventsEarly = [
         map: 'sosnovo_black_forest_1974'
     },
     {
+        id: 'SPB_19730304_1',
+        date: '1973-03-04',
+        place: 'Шапки',
+        name: 'П-во Ленинграда',
+        type: 'SKI',
+        fmt: 'марафон маркир',
+        map: 'shapki_marathon_1969',
+        res: './docs/1973/1973_03_04_shapki_marathon_omaps.pdf'
+    },
+    {
         id: 'SPB_19730602_4',
         date: '1973-06-02',
         endDate: '1973-06-03',
@@ -288,6 +292,7 @@ let eventsEarly = [
         date: '1977-02-26',
         place: 'Воейково',
         name: 'VII Зимняя спартакиада',
+        type: 'SKI',
         map: 'voeykovo_1977'
     },
     {
@@ -357,6 +362,7 @@ let eventsEarly = [
         date: '1978-01-21',
         place: 'Поляны',
         name: 'XIX Зимний Чемпионат Ленинграда и обл',
+        type: 'SKI',
         start: 'REPORT',
         fmt: 'маркир',
         map: 'polyany_1978_01_21_lningrad',
@@ -367,6 +373,7 @@ let eventsEarly = [
         date: '1979-01-14',
         place: 'Кузьмолово',
         name: 'Новогодняя эстафета',
+        type: 'SKI',
         fmt: 'эстафета',
         res: './docs/1979/1979_01_14_new_year_relay_omaps.pdf'
     },
@@ -384,6 +391,7 @@ let eventsEarly = [
         date: '1979-03-10',
         place: 'Сосново',
         name: 'П-во Ленинграда, марафон',
+        type: 'SKI',
         res: './docs/1979/1979_03_10_leningrad_marathon_omaps.pdf'
     },
     {
@@ -406,6 +414,7 @@ let eventsEarly = [
         id: 'SPB_19800115_1',
         date: '1980-01-15',
         name: 'Новогодняя эстафета',
+        type: 'SKI',
         fmt: 'эстафета',
         res: './docs/1980/1980_01_18_new_year_relay_omaps.pdf'
     },
@@ -421,6 +430,7 @@ let eventsEarly = [
         date: '1983-03-19',
         place: 'Юкки',
         name: 'Зимнее п-во ЛГС Спартак',
+        type: 'SKI',
         start: 'REPORT',
         planner: 'SHLKHN_Y',
         map: 'yukki_1983_03_19',
@@ -431,6 +441,7 @@ let eventsEarly = [
         date: '1983-03-20',
         place: 'Всеволожск',
         name: 'Зимнее п-во ЛГС Спартак.',
+        type: 'SKI',
         start: 'REPORT',
         fmt: 'маркир',
         planner: 'EGRV_E',
@@ -561,6 +572,7 @@ let eventsEarly = [
         endDate: '1986-01-12',
         place: 'Энколово',
         name: 'Зимняя Спартакиада',
+        type: 'SKI',
         res: './docs/1986/1986_01_11_spartakiada_omaps.pdf'
     },
     {
@@ -648,6 +660,7 @@ let eventsEarly = [
         endDate: '1988-02-07',
         place: 'Токсово',
         name: 'Чемпионат ДФСО Ленинграда',
+        type: 'SKI',
         planner: ['CHGRVSKY_V','KRMCHV'],
         res: './docs/1988/1988_02_06_dfso_omaps.pdf'
     },
@@ -672,6 +685,7 @@ let eventsEarly = [
         date: '1988-03-20',
         place: 'Токсово',
         name: 'Закрытие зимнего сезона клуба Азимут, марафон',
+        type: 'SKI',
         planner: ['SHRNN','SHVR'],
         res: './docs/1988/1988_03_20_azimut_winter_close_omaps.pdf'
     },
@@ -1062,6 +1076,7 @@ let eventsEarly = [
         date: '1988-11-13',
         place: 'Токсово, оз Светлое',
         name: 'Тренировочный старт в заданном направлении на лыжах',
+        type: 'SKI',
         res: './docs/1988/1988_11_13_toksovo_omaps.pdf'
     },
     {
@@ -1077,6 +1092,7 @@ let eventsEarly = [
         date: '1988-12-31',
         place: 'Юкки',
         name: 'Новогодняя эстафета',
+        type: 'SKI',
         fmt: 'эстафета',
         me: 'М-15',
         res: './docs/1988/1988_12_31_new_year_omaps.pdf'
@@ -1443,6 +1459,7 @@ let eventsEarly = [
         date: '1990-01-14',
         place: 'Кавголово',
         name: 'Зимний чемпионат ЛОС ДФСОП',
+        type: 'SKI',
         me: 'М-17',
         planner: 'SHVR',
         res: './docs/1990/1990_01_14_los_dfsop_omaps.pdf'
@@ -1452,6 +1469,7 @@ let eventsEarly = [
         date: '1990-01-20',
         place: 'Васкелово',
         name: 'Кубок Ленинграда, маркир',
+        type: 'SKI',
         me: 'МБ',
         planner: 'VLKV_A',
         res: './docs/1990/1990_01_20_leningrad_cup_omaps.pdf'
@@ -1461,6 +1479,7 @@ let eventsEarly = [
         date: '1990-01-21',
         place: 'Лемболово',
         name: 'Кубок Ленинграда',
+        type: 'SKI',
         me: 'МБ',
         planner: 'SHVR',
         res: './docs/1990/1990_01_21_leningrad_cup_omaps.pdf'
@@ -1470,6 +1489,7 @@ let eventsEarly = [
         date: '1990-02-17',
         place: 'Васкелово',
         name: 'Зимний чемпионат Ленинграда, маркир',
+        type: 'SKI',
         me: 'HB',
         planner: 'VLKV_A',
         res: './docs/1990/1990_02_17_leningrad_omaps.pdf'
@@ -1479,6 +1499,7 @@ let eventsEarly = [
         date: '1990-02-18',
         place: 'Васкелово',
         name: 'Зимний чемпионат Ленинграда',
+        type: 'SKI',
         me: 'HB',
         planner: 'VLKV_A',
         res: './docs/1990/1990_02_18_leningrad_omaps.pdf'
@@ -1488,6 +1509,7 @@ let eventsEarly = [
         date: '1990-02-24',
         place: 'Васкелово',
         name: 'Зимний чемпионат Ленинграда',
+        type: 'SKI',
         me: 'HB',
         planner: 'VLKV_A',
         res: './docs/1990/1990_02_24_leningrad_omaps.pdf'
@@ -1497,6 +1519,7 @@ let eventsEarly = [
         date: '1990-02-25',
         place: 'Васкелово',
         name: 'Зимний чемпионат Ленинграда',
+        type: 'SKI',
         fmt: 'эстафета 3х',
         me: 'М21',
         planner: 'VLKV_A',
@@ -1783,6 +1806,7 @@ let eventsEarly = [
         date: '1990-12-23',
         place: 'Колтуши',
         name: 'Открытие зимнего сезона в з/н',
+        type: 'SKI',
         me: 'МБ',
         planner: 'RYLOV_V',
         res: './docs/1990/1990_12_23_open_omaps.pdf'
@@ -1792,6 +1816,7 @@ let eventsEarly = [
         date: '1990-12-30',
         place: 'Всеволожск',
         name: 'Новогодняя эстафета',
+        type: 'SKI',
         fmt: 'эстафета',
         me: 'МВ',
         res: './docs/1990/1990_12_30_new_year_omaps.pdf'
@@ -1846,6 +1871,7 @@ let eventsEarly = [
         date: '1991-02-17',
         place: 'Колтуши',
         name: 'Зимнее п-во клуба АЗИМУТ',
+        type: 'SKI',
         res: './docs/1991/1991_02_17_azimut_omaps.pdf'
     },
     {
@@ -2286,6 +2312,7 @@ let eventsEarly = [
         endDate: '1992-01-26',
         place: 'Лемболово',
         name: 'Зимний чемпионат СПб',
+        type: 'SKI',
         start: 'SPB_CHAMP',
         me: 'H21',
         planner: ['NKFRV_A','TKHNV_V','VLKV_A'],
@@ -2297,6 +2324,7 @@ let eventsEarly = [
         endDate: '1992-02-02',
         place: 'Васкелово',
         name: 'Зимний чемпионат СПб',
+        type: 'SKI',
         start: 'SPB_CHAMP',
         me: 'H21',
         planner: ['NKFRV_A','TKHNV_V','VLKV_A'],
@@ -2323,7 +2351,7 @@ let eventsEarly = [
         id: 'SPB_19920426_1',
         date: '1992-04-26',
         place: 'Токсово',
-        name: 'Открытие зимнего сезона',
+        name: 'Открытие сезона',
         me: 'HA',
         planner: 'DRBSHV',
         res: './docs/1992/1992_04_26_open_omaps.pdf'
@@ -2519,6 +2547,7 @@ let eventsEarly = [
         date: '1993-03-14',
         place: 'Токсово',
         name: 'Зимняя Универсиада ВУЗов СПб',
+        type: 'SKI',
         me: 'М',
         res: './docs/1993/1993_03_14_universiada_omaps.pdf'
     },
@@ -2733,6 +2762,7 @@ let eventsEarly = [
         date: '1995-12-31',
         place: 'Гатчина',
         name: 'Новогодняя эстафета',
+        type: 'SKI',
         fmt: 'эстафета',
         res: './docs/1995/1995_12_31_ny_relay_omaps.pdf'
     },
@@ -2886,6 +2916,7 @@ let eventsEarly = [
         date: '1998-02-27',
         place: 'Орехово',
         name: 'Предчемпионат мира по лыжному ориентированию среди ветеранов',
+        type: 'SKI',
         res: './docs/1998/1998_02_27_world_masters_predchamp_omaps.pdf'
     },
     {
@@ -2954,6 +2985,7 @@ let eventsEarly = [
         date: '1999-02-20',
         place: 'Стеклянный',
         name: 'П-во России среди ДЮСШ. П-во России среди ветеранов',
+        type: 'SKI',
         map: 'steklyanny_winter_1999'
     },
     {
@@ -2961,6 +2993,7 @@ let eventsEarly = [
         date: '1999-03-07',
         place: 'Лемболово',
         name: 'Зимний чемпионат СПб, маркир',
+        type: 'SKI',
         start: 'SPB_CHAMP',
         planner: 'BRDN_V',
         res: './docs/1999/1999_03_07_spb_markir_omaps.pdf'
@@ -2970,6 +3003,7 @@ let eventsEarly = [
         date: '1999-03-14',
         place: 'Лемболово',
         name: 'Зимний чемпионат СПб',
+        type: 'SKI',
         fmt: 'эстафета 2х',
         start: 'SPB_CHAMP',
         planner: 'BRDN_V',
@@ -2980,6 +3014,7 @@ let eventsEarly = [
         date: '1999-03-21',
         place: 'Лемболово',
         name: 'Зимний чемпионат СПб',
+        type: 'SKI',
         start: 'SPB_CHAMP',
         planner: 'BRDN_V',
         res: './docs/1999/1999_03_21_spb_winter_omaps.pdf'

@@ -50,12 +50,6 @@ let historyDocs = [
         map: 'umatovo_1969_03_04'
     },
     {
-        name: 'П-во Ленинграда, марафон маркир (Шапки)',
-        date: '1969-03-04',
-        link: './docs/1969/1969_03_04_shapki_marathon_omaps.pdf',
-        map: 'shapki_marathon_1969'
-    },
-    {
         name: 'Матч городов-героев (Одесса, Бендеры)',
         date: '1969-04-12',
         link: './docs/1969/1969_04_12_odessa_omaps.pdf',
@@ -199,6 +193,12 @@ let historyDocs = [
         name: 'Календарь соревнований на лето Центрального клуба туристов г.Ленинграда',
         year: 1973,
         link: './docs/1973/1973_calendar_summer_omaps.pdf'
+    },
+    {
+        name: 'П-во Ленинграда, марафон маркир (Шапки)',
+        date: '1973-03-04',
+        link: './docs/1973/1973_03_04_shapki_marathon_omaps.pdf',
+        map: 'shapki_marathon_1969'
     },
     {
         name: 'Пятый матч городов-героев (Рощино)',

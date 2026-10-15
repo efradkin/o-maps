@@ -53,6 +53,7 @@ let events2016 = [
         endDate: '2016-01-24',
         place: 'Кузьмоловский',
         name: 'XXXVII Зимние соревнования на приз газеты Всеволожские вести',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/16012324/160123_res1.html',
         video: 'https://www.youtube.com/watch?v=VLLKlFkLhDs',
         start: 'VSEV_VESTI',
@@ -65,6 +66,7 @@ let events2016 = [
         endDate: '2016-01-31',
         place: 'Будогощь',
         name: 'Чемпионат и п-во Ленинградской обл. по ориентированию на лыжах',
+        type: 'SKI',
         start: 'LO_CHAMP',
         reg: 'http://orgeo.ru',
         res: 'https://o-site.spb.ru/_races/16012931/160129_res.htm',
@@ -142,6 +144,7 @@ let events2016 = [
         id: 'SPB_20160223_1',
         date: '2016-02-23',
         name: 'Новогодняя Эстафета',
+        type: 'SKI',
         o_site: '160223'
     },
     {
@@ -2028,6 +2031,7 @@ let events2016 = [
         date: '2016-12-25',
         place: 'Сертолово',
         name: 'Новогодняя Эстафета',
+        type: 'SKI',
         res: 'http://markir.spb.ru/results/2017.pdf',
         o_site: '161225',
         bulletin: 'http://markir.spb.ru/Info2017_2.html'

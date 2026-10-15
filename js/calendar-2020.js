@@ -8,6 +8,7 @@ let events2020 = [
         reg: 'http://sportident.ru/entry/event_info.php?id=4432',
         res: 'https://o-site.spb.ru/_races/200107-08/200107_res.htm',
         owner: 'NW',
+        type: 'SKI',
         o_site: '200107-08',
         bulletin: 'https://o-site.spb.ru/_races/200107-08/200107-08_info1.pdf',
         reskeep: [297, 298],
@@ -185,8 +186,10 @@ let events2020 = [
         id: 'SPB_20200202_2',
         date: '2020-02-02',
         place: 'Кузьмолово',
+        type: 'SKI',
         name: 'Открытая тренировка NordWest',
-        reskeep: 312
+        reskeep: 312,
+        owner: 'NW'
     },
     {
         id: 'SPB_20200208_1',
@@ -232,7 +235,13 @@ let events2020 = [
         endDate: '2020-02-23',
         name: 'Зимняя смена в ЗЦ Зеркальный',
         place: 'Зеркальный',
-        res: ['https://o-site.spb.ru/_races/200213-23/200215_split.htm','https://o-site.spb.ru/_races/200213-23/200216_split.htm','https://o-site.spb.ru/_races/200213-23/200220_split.htm','https://o-site.spb.ru/_races/200213-23/200222_split.htm'],
+        res: [
+            'https://o-site.spb.ru/_races/200213-23/200215_split.htm',
+            'https://o-site.spb.ru/_races/200213-23/200216_split.htm',
+            'https://o-site.spb.ru/_races/200213-23/200220_split.htm',
+            'https://o-site.spb.ru/_races/200213-23/200222_split.htm'
+        ],
+        type: 'SKI',
         o_site: '200213-23',
         o_gps: {
             '14': 7120,
@@ -1003,6 +1012,7 @@ let events2020 = [
         place: 'Выборгский район ЛО',
         name: 'History Race',
         res: 'https://o-site.spb.ru/_races/200829/200829_res.htm',
+        type: ['ROGAINE','VELO'],
         fmt: '6 и 12 часов',
         o_site: '200829'
     },

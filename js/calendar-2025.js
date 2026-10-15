@@ -119,7 +119,8 @@ let events2025 = [
         link: 'https://vk.com/wall-201330282_1661',
         owner: 'YUVENTA',
         map: 'sosnovij_bor_2021',
-        strava: 13508432660
+        strava: 13508432660,
+        me: 'М ветер'
     },
     {
         id: 'SPB_20250209_1',

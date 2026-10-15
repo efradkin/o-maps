@@ -779,6 +779,7 @@ let events2013 = [
         endDate: '2013-05-28',
         place: 'Токсово-Кавголово',
         name: 'Кубок России по МТБО',
+        type: 'VELO',
         reg: 'http://sportident.ru/entry/event_info.php?id=638',
         o_site: '13052528',
         bulletin: 'http://o-time.ru/mtbo/mtbo_rus.pdf'
@@ -1126,6 +1127,7 @@ let events2013 = [
         date: '2013-08-10',
         endDate: '2013-08-11',
         name: 'HappyBike',
+        type: ['ROGAINE', 'VELO'],
         reg: 'http://www.piterhappening.ru/entry_happybike2013.html',
         res: 'https://o-site.spb.ru/_races/130811/130810_res.htm',
         fmt: '8 и 24 часа',

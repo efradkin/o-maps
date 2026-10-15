@@ -4,6 +4,7 @@ let events2022 = [
         date: '2022-01-08',
         place: 'Мичуринское, б/о Мечта',
         name: 'Рождественские старты',
+        type: 'SKI',
         reg: 'http://sportident.online/entry/?id=5161',
         res: 'https://o-site.spb.ru/_races/090122_RS/20220108_RS_result.htm',
         bulletin: 'https://o-site.spb.ru/_races/090122_RS/20220108-09_rozhd_start_info1.pdf',
@@ -47,6 +48,7 @@ let events2022 = [
         id: 'SPB_20220116_2',
         date: '2022-01-16',
         name: 'Чемпионат и Первенство ЛО',
+        type: 'SKI',
         start: 'LO_CHAMP',
         place: 'Кириши',
         reg: 'http://orgeo.ru/event/19445',
@@ -72,6 +74,21 @@ let events2022 = [
         }
     },
     {
+        id: 'SPB_20220130_1',
+        date: '2022-01-30',
+        name: '«Тур де Лемболово – 2022»',
+        place: 'Лемболово',
+        type: 'SKI',
+        res: 'https://o-site.spb.ru/_races/220206/res1.htm',
+        video: 'https://www.youtube.com/watch?v=WK_TXhObUSw',
+        o_site: '220206',
+        bulletin: 'https://o-site.spb.ru/_races/220206/INFO-1.pdf',
+        map: 'lembolovo_winter_2019',
+        maps: [
+            'https://o-site.spb.ru/_races/220206/220130_MAP.jpg'
+        ]
+    },
+    {
         id: 'SPB_20220205_1',
         date: '2022-02-05',
         endDate: '2022-02-06',
@@ -90,15 +107,12 @@ let events2022 = [
         name: '«Тур де Лемболово – 2022»',
         place: 'Лемболово',
         type: 'SKI',
-        res: 'https://o-site.spb.ru/_races/220206/res1.htm',
+        res: ['https://o-site.spb.ru/_races/220206/220205_split.htm','https://o-site.spb.ru/_races/220206/220206_split.htm'],
         video: 'https://www.youtube.com/watch?v=WK_TXhObUSw',
         o_site: '220206',
         bulletin: 'https://o-site.spb.ru/_races/220206/INFO-1.pdf',
         endDate: '2022-02-06',
         map: 'lembolovo_winter_2019',
-        maps: [
-            'https://o-site.spb.ru/_races/220206/220130_MAP.jpg'
-        ]
     },
     {
         id: 'SPB_20220213_1',
@@ -117,6 +131,7 @@ let events2022 = [
         id: 'SPB_20220213_2',
         date: '2022-02-13',
         name: 'Чемпионат и Первенство ЛО',
+        type: 'SKI',
         start: 'LO_CHAMP',
         place: 'Шапки',
         reg: 'http://orgeo.ru/event/20143',
@@ -2544,6 +2559,7 @@ let events2022 = [
         id: 'SPB_20221225_1',
         date: '2022-12-25',
         name: 'Открытие сезона',
+        type: 'SKI',
         place: 'Кузьмолово',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1488',
         res: 'https://o-site.spb.ru/_races/221225_os/221225_ResultList.htm',
