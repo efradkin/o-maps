@@ -19,6 +19,19 @@ let fsorEvents = [
         map: ['zelenogorsk_schuchye_1971','ozerki_1971']
     },
     {
+        id: 'SPB_19750310_1',
+        date: '1975-03-10',
+        endDate: '1975-03-13',
+        place: 'Кавголово, Энколово',
+        name: 'Всесоюзные зимние соревнования',
+        type: 'SKI',
+        link: 'https://o-site.spb.ru/history/Knots/ussr-75.html',
+        info: 'Лично-командные соревнования, посвящённые 30-летию Победы. Главный судья А.К. Григоренко, главный секретарь Н.А. Григоренко. Сборная Ленинграда впервые выиграла общий зачёт.',
+        start: 'USSR_V_1975',
+        region: 'SPB',
+        map: ['kavgolovo_hepojarvi_retro','kavgolovo_hepojarvi_1975','kavgolovo_verojarvi_1975','enkolovo_1975']
+    },
+    {
         id: 'SPB_19810804_2',
         date: '1981-08-04',
         endDate: '1981-08-06',
@@ -784,6 +797,17 @@ let fsorEvents = [
         coord: [60.41667, 30.33333],
         region: 'SPB',
         start: 'MTBO_RUS'
+    },
+    {
+        id: 'SPB_19970624_1',
+        date: '1997-06-24',
+        endDate: '1997-06-25',
+        place: 'Кузнечное',
+        name: 'Кубок России',
+        link: 'https://o-site.spb.ru/history/Knots/kuzn-97.html',
+        info: 'Отбор в сборную на чемпионат мира в Норвегии. Карты и дистанции — С.В. Кузнецов, А.Н. Ковязин, А.А. Ширинян; директор В.П. Бородин, главный судья А.М. Бровин, главный секретарь А.А. Курдюмов.',
+        start: 'RUS_CUP',
+        region: 'SPB'
     },
     {
         id: 'MAJOR_19970916_1',
