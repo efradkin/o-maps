@@ -210,3 +210,9 @@ a.hist-video::before {
 .hist-fig-narrow { width: 30%; max-width: 300px; }
 .hist-cancelled small { white-space: nowrap; }
 .hist-timeline li > a, .hist-timeline li > span { align-content: center; }
+
+/* узкие экраны: «узкие» вертикальные фото тоже на всю ширину
+   (правило .hist-fig-narrow выше перебивало медиазапрос) */
+@media screen and (max-width: 700px) {
+    .hist-fig-narrow { float: none; width: 100%; max-width: none; margin: 4px 0 14px; }
+}

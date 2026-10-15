@@ -354,6 +354,7 @@ let irfEvents = [
         date: '2008-07-12',
         endDate: '2008-07-13',
         place: 'Michurinskoye, Leningrad Oblast, Russia (Мичуринское, Ленинградская обл., Россия)',
+        region: 'SPB',
         name: '5-й Чемпионат Европы по рогейну (ERC)',
         link: [
             'https://rogaine-spb.narod.ru/erc08/info.html',
@@ -1335,6 +1336,7 @@ let irfEvents = [
         date: '2022-05-28',
         endDate: '2022-05-29',
         place: 'Zerkalny, Leningrad Oblast, Russia (Зеркальный, Ленинградская обл., Россия)',
+        region: 'SPB',
         name: '18-й Чемпионат Европы по рогейну (ERC)',
         link: [
             'https://web.archive.org/web/20211209010324/https://rogaining.site/en/',

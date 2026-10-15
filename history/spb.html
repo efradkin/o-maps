@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <title>
+        Ориентирование в Ленинграде и Петербурге — O-Maps
+    </title>
+    <meta content="От ночного «закрытого маршрута» 1939 года и первого дневного старта в Линдуловской роще до спринтов в Петропавловской крепости: история ориентирования в Ленинграде, Санкт-Петербурге и Ленинградской области."
+          name="description"/>
+    <link href="../favicon.png" rel="icon" type="image/png"/>
+    <link href="../css/google-fonts.css" rel="stylesheet"/>
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="../css/main.css?v=24" rel="stylesheet"/>
+    <link href="../css/theme.css?v=23" rel="stylesheet"/>
+    <link href="../css/history.css?v=2" rel="stylesheet"/>
+    <script src="../js/theme-toggle.js">
+    </script>
+</head>
+<body class="index-body help-body stat-body history-body">
+<script src="../js/utils-common.js?v=37"></script>
+<script src="../js/utils.js?v=49"></script>
+<header class="page-header">
+    <h1>Ориентирование на берегах Невы</h1>
+    <nav aria-label="Навигация по странице" class="page-header-actions">
+        <a class="stat-map-link stat-map-link-right" href="../index.html" target="_self" title="Главная страница"><img
+                alt="Главная страница" src="../images/home.png"/></a>
+        <a class="stat-map-link stat-map-link-right" data-menu-icon="🗓️"
+           href="../calendar.html?startYear=ALL" target="_self" title="В календаре">
+            <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round"
+                 stroke-linejoin="round" stroke-width="2" style="color: var(--o-text)" viewbox="0 0 24 24" width="24">
+                <rect height="16.5" rx="2" width="18" x="3" y="4.5"></rect>
+                <path d="M3 9.5h18M8 2.5v4M16 2.5v4"></path>
+                <path d="M7 13.5h2M11 13.5h2M15 13.5h2M7 17h2M11 17h2"></path>
+            </svg>
+        </a>
+        <script src="../js/global-menu.js?v=39"></script>
+        <script>writeGlobalMenuHtml('../');</script>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <nav aria-label="Исторические статьи" class="hist-nav">
+            <a href="domestic.html">История ориентирования</a>
+            <ul>
+                <li>
+                    <span aria-current="page">Ленинград — Петербург</span>
+                </li>
+                <li>
+                    <a href="domestic.html">Чемпионаты СССР и России</a>
+                </li>
+                <li>
+                    <a href="iof.html">Чемпионаты мира и Европы</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="hist-section clearfix">
+            <h2>Город, где ориентирование стало спортом</h2>
+            <p>
+                Ленинград часто называют родиной отечественного спортивного ориентирования, и у этого есть веские основания.
+                Здесь в 1939 году прошли первые ночные соревнования туристов по «закрытому маршруту», а 19 июля 1959 года
+                стартовали дневные личные соревнования по специально подготовленной карте, и именно эту дату
+                ФСО России в 2016 году официально признала днём рождения отечественного ориентирования. Окрестности города
+                — прежде всего Карельский перешеек с его моренными холмами, озёрами и скалами — оказались идеальным полигоном:
+                технически сложный лес начинается в часе езды на электричке.
+            </p>
+            <p>
+                Статья прослеживает путь ленинградского, петербургского и областного ориентирования — от синек с контрольным
+                грузом за спиной до лидарных карт, спринтов в исторических кварталах и рогейнов на сотни участников.
+                Опорой служат <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">книга Н. В. Благово
+                «Первые азимуты на берегах Невы»</a>, <a href="https://o-site.spb.ru/history/" target="_blank" rel="noopener">исторические
+                страницы В. В. Добрецова</a> на O-Site, <a href="https://spbof.ru/ru/istoriya" target="_blank" rel="noopener">хроника
+                Федерации спортивного ориентирования Санкт-Петербурга</a> и, конечно, <a href="../calendar.html?startYear=ALL">календарь</a>
+                и <a href="../spb.html">архив карт O-Maps</a>.
+            </p>
+            <dl class="hist-facts">
+                <dt>Предтеча</dt>
+                <dd>1939, ночной «закрытый маршрут» В. В. Добковича</dd>
+                <dt>Первый старт</dt>
+                <dd>19 июля 1959, Линдуловская роща у Рощина</dd>
+                <dt>Федерация</dt>
+                <dd>с 8 декабря 1977 года (до этого — секция при Ленинградском клубе туристов)</dd>
+                <dt>Главные районы</dt>
+                <dd>Токсово, Орехово, Лемболово, Кузнечное, Выборг, Луга</dd>
+                <dt>Архив O-Maps</dt>
+                <dd>около 1 430 карт Петербурга и области, 3 583 события в календаре 2004–2026 годов</dd>
+            </dl>
+            <ol aria-label="Вехи по годам" class="hist-timeline">
+                <li>
+                    <a href="https://o-site.spb.ru/history/Knots/1941.html" target="_blank" rel="noopener" title="1939–1941: ночные и лыжные гонки по закрытому маршруту">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1939</span><small>закрытый маршрут</small></a>
+                </li>
+                <li>
+                    <a href="https://o-site.spb.ru/history/Knots/1959.html" target="_blank" rel="noopener" title="19 июля 1959: первый дневной личный старт у Рощина">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1959</span><small>Рощино</small></a>
+                </li>
+                <li>
+                    <a href="https://o-site.spb.ru/history/Knots/match-63.html" target="_blank" rel="noopener" title="1963: матч пяти городов в Песках, первые всесоюзные соревнования в Ужгороде">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1963</span><small>матч пяти городов</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=SPB_19680913_1" title="1968: первая международная встреча в СССР — матч СССР — Болгария">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1968</span><small>СССР — Болгария</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=SPB_19710612_1" title="1971: первые «Белые ночи»">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1971</span><small>«Белые ночи»</small></a>
+                </li>
+                <li>
+                    <a href="https://o-site.spb.ru/history/Knots/ussr-75.html" target="_blank" rel="noopener" title="1975: всесоюзные зимние соревнования под Ленинградом, первые цветные карты">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1975</span><small>цветные карты</small></a>
+                </li>
+                <li>
+                    <a href="https://o-site.spb.ru/history/History/lso.html" target="_blank" rel="noopener" title="8 декабря 1977: учреждена Федерация спортивного ориентирования Ленинграда">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1977</span><small>федерация</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=SPB_19810804_2" title="1981: I чемпионат СССР на Карельском перешейке">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1981</span><small>чемпионат СССР</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=SPB_19920516_1" title="1992: первый в России этап Кубка мира, Яппиля">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1992</span><small>Кубок мира</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=SPB_19950529_1" title="1995: Кубок мира среди ветеранов в Лемболове">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1995</span><small>ветераны мира</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=SPB_19960913_1" title="1996: первый чемпионат России по велоориентированию, Лемболово">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1996</span><small>велосипед</small></a>
+                </li>
+                <li>
+                    <a href="../start.html?start=KS" title="1997: Кубок России и многодневка в скалах Кузнечного">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1997</span><small>скалы Кузнечного</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=SPB_20030220_1" title="2003: юниорский чемпионат мира по лыжному ориентированию в Цвелодубове">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2003</span><small>юниоры мира</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=IRF_20080712_1" title="2008: чемпионат Европы по рогейну в Мичуринском">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2008</span><small>рогейн Европы</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=IOF_20110917_1" title="2011: чемпионат Европы по велоориентированию в Рощине">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2011</span><small>вело Европы</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=SPB_20190804_1" title="2019: 60 лет — памятный камень и ретро-старт в Линдуловской роще">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2019</span><small>60 лет</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=SPB_20240516_1" title="2024: чемпионат России по спринту в Санкт-Петербурге">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2024</span><small>спринт в городе</small></a>
+                </li>
+            </ol>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>1939–1958: «закрытый маршрут» и контрольный груз</h2>
+            <figure class="hist-fig hist-fig-right hist-fig-narrow"><a href="https://o-site.spb.ru/history/Knots/1941.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_1941_news.webp" alt="Заметка В. В. Добковича «Гонки по закрытому маршруту» в газете «Советский туризм и альпинизм», январь 1941 года." loading="lazy"></a><figcaption>Заметка В. В. Добковича «Гонки по закрытому маршруту» о лыжных командных гонках 12 января 1941 года в Кавголове («Советский туризм и альпинизм», № 4, 26 января 1941 года). <span class="hist-credit">Иллюстрация из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure>
+            <p>
+                Мысль сделать умение ходить по карте и компасу предметом состязания пришла к преподавателю
+                ЛГПИ им. А. И. Герцена <a href="https://o-site.spb.ru/history/Peoples/dobkovic.html" target="_blank" rel="noopener">Владимиру
+                Владиславовичу Добковичу</a> (1907–1983). В 1939 году он провёл в окрестностях Ленинграда ночные командные
+                соревнования туристов по неизвестному до старта, «закрытому» маршруту: в заданном порядке нужно было найти
+                несколько контрольных пунктов. В 1940-м прошло первое летнее первенство города, а 12 января 1941 года под
+                Кавголовом — <a href="https://o-site.spb.ru/history/Knots/1941.html" target="_blank" rel="noopener">лыжная гонка
+                по закрытому маршруту</a>. Сказывался опыт недавней финской войны: мужчины шли 26,5 км с винтовкой,
+                противогазом и 8 кг груза, женщины — 8,5 км; на старт вышли 16 мужских и 10 женских команд по десять человек.
+                Лучшее зачётное время показала команда «Зенита».
+            </p>
+            <figure class="hist-fig hist-fig-left hist-fig-narrow"><a href="https://o-site.spb.ru/history/Peoples/dobkovic.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_dobkovich.webp" alt="Владимир Владиславович Добкович." loading="lazy"></a><figcaption>Владимир Владиславович Добкович — автор «закрытого маршрута», «прадедушка» отечественного ориентирования. <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure>
+            <p>
+                После войны соревнования возобновились уже в 1947–1949 годах и в 1950-е стали очень популярны, особенно у
+                студентов: на одном из осенних первенств ЛГУ у Чёртова озера стартовало свыше 200 команд, больше тысячи человек.
+                Картой служила «синька» — светокопия выкопировки из топокарты 1:100 000 или 1:50 000, где были лишь дороги,
+                просеки и крупные водоёмы. Команда получала запечатанный конверт с картой-схемой и «приказом» вида
+                «от пересечения дороги с ручьём 675 м по азимуту 243°». Рюкзаки пломбировали свинцовой пломбой: у мужчин-разрядников
+                было 12 кг контрольного груза, у женщин 10 кг. На каждом КП горел костёр и сидел контролёр — иногда он засыпал,
+                костёр гас, и найти пункт становилось почти невозможно. Дистанции достигали 25–30 км, финишировали нередко утром.
+            </p>
+            <p>
+                Сильнейшими были команды вузов — ЛПИ, ЛГУ, ЛГПИ, ЛИТМО, ЛЭТИ — и заводов «Красная заря» и Кировского.
+                В феврале 1958 года сборная Ленинграда (А. Муравьёв, Б. Полоскин, В. Сидоров, А. Харитоненко, Л. Емельянова-Горбова,
+                В. Иванова, Л. Цветкова-Соболева, Е. Руднева) выиграла общий зачёт I Всероссийских зимних соревнований туристов
+                в Свердловске. Но к концу 1950-х всё чаще звучало: груз мешает бежать, а в команде из пяти человек
+                думает один капитан.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>19 июля 1959 года: по одному, днём и без рюкзаков</h2>
+            <figure class="hist-fig hist-fig-right"><a href="https://o-site.spb.ru/history/Knots/1959.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_1959_map.webp" alt="Карта соревнований 19 июля 1959 года с дистанцией и контрольной карточкой участника." loading="lazy"></a><figcaption>Карта первых дневных соревнований 19 июля 1959 года и карточка с подписями контролёров на КП. <span class="hist-credit">Иллюстрация из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure>
+            <p>
+                Новую формулу предложил ученик Добковича, мастер спорта по туризму
+                <a href="https://o-site.spb.ru/history/Peoples/lebedkin.html" target="_blank" rel="noopener">Лев Вениаминович Лебёдкин</a>.
+                В 1958 году он около двадцати дней корректировал местность у станции Рощино и подготовил кальку карты масштаба
+                1:20 000 площадью 12 км². Председатель городской туристской секции <a href="https://rufso.ru/wp-content/uploads/2017/07/azimut-2-2015.pdf#page=38" target="_blank" rel="noopener">А. Л. Васильев</a> добился разрешения —
+                выпускать туристов в лес поодиночке противоречило всем правилам безопасности того времени.
+            </p>
+            <figure class="hist-fig hist-fig-left hist-fig-narrow"><a href="https://o-site.spb.ru/history/Peoples/lebedkin.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_lebedkin.webp" alt="Лев Вениаминович Лебёдкин." loading="lazy"></a><figcaption>Лев Вениаминович Лебёдкин (ум. 1998) — автор карты и дистанций первого старта 1959 года, правил эстафеты на маркированной трассе; <a href="https://rufso.ru/wp-content/uploads/2019/10/1999_1_compressed.pdf#page=5" target="_blank" rel="noopener">«По непроторенным путям»</a> — памяти Лебёдкина в «Азимуте». <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure>
+            <p>
+                <a href="https://o-site.spb.ru/history/Knots/1959.html" target="_blank" rel="noopener">19 июля 1959 года</a> у реки Линдуловки
+                стартовали 32 мужчины и 17 женщин — днём, по одному и без груза. Главным судьёй был Р. А. Рыбин. Мужскую дистанцию
+                8,2 км с пятью КП выиграл <a href="https://o-site.spb.ru/history/Peoples/firsts.html#mark02" target="_blank" rel="noopener">Анатолий Муравьёв</a>, женскую (5,7 км, пять КП) — Т. Силивестрова. Бежали с армейскими
+                компасами Андрианова и непрочной синькой, отметку в карте делали контролёры. Никто не заблудился и не травмировался,
+                а на финише победители, по воспоминаниям <a href="https://o-site.spb.ru/history/Peoples/blagovo1.html" target="_blank" rel="noopener">Н. В. Благово</a>, развивали «прямо-таки спринтерскую скорость». Тот старт стал
+                первым летним первенством Ленинграда. Осенью на городском слёте опробовали ещё один вид — «ориентирование с нанесением
+                положения ориентира на карту», предшественника маркированной трассы, а 10 марта 1960 года в Орехове прошёл первый
+                зимний чемпионат города на маркированной трассе (чемпионы — Л. Лебёдкин и <a href="https://o-site.spb.ru/history/History/kom-60.html" target="_blank" rel="noopener">Н. Николаева</a>).
+            </p>
+            <figure class="hist-fig hist-fig-right hist-fig-narrow"><a href="https://spbof.ru/ru/istoriya/2-uncategorised/582-istoriya-orientirovaniya-1992g-po-nastoyashchee-vremya" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_cannon_2019.webp" alt="Н. В. Благово и А. И. Муравьёв у пушки Петропавловской крепости, 20 июля 2019 года." loading="lazy"></a><figcaption>20 июля 2019 года, 60-летие ориентирования: полуденный выстрел с Нарышкина бастиона Петропавловской крепости производят Н. В. Благово и А. И. Муравьёв — победитель старта 1959 года. <span class="hist-credit">Фото: <a href="https://spbof.ru/ru/istoriya" target="_blank" rel="noopener">хроника ФСО Санкт-Петербурга</a></span></figcaption></figure>
+            <p>
+                25 декабря 2016 года ФСО России официально признала 19 июля 1959 года датой рождения отечественного
+                ориентирования. В юбилейном 2019 году Никита Благово и Анатолий Муравьёв произвели полуденный выстрел из пушки
+                Петропавловской крепости, а 4 августа в Линдуловской роще открыли памятный камень и провели
+                <a href="../event.html?id=SPB_20190804_1">ретро-старт</a> — по чёрно-белой карте старого образца и с отметкой карандашом
+                в карточке. Под Полянами в те же дни прошёл <a href="../event.html?id=SPB_20190801_1">фестиваль 60-летия
+                спортивного ориентирования России</a>.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>1960–1965: правила, школьники и первые всесоюзные трассы</h2>
+            <figure class="hist-fig hist-fig-right"><a href="../original_maps/forest/toksovo/rappolovo_1963_omaps.webp" target="_blank"><img class="help-figure" src="img/spb_1963_rappolovo.webp" alt="Карта первенства Ленинграда 10 марта 1963 года в Рапполове, масштаб 1:25 000." loading="lazy"></a><figcaption><a href="../event.html?id=SPB_19630310_1">Первенство Ленинграда 10 марта 1963 года</a> в Рапполове: чёрно-белая карта 1:25 000 со штампом для ошибок на КП и штрафных минут. <a href="../original_maps/forest/toksovo/rappolovo_1963_omaps.webp" target="_blank">Открыть оригинал ↗</a></figcaption></figure>
+            <p>
+                Новый вид быстро нашёл сторонников. Уже в 1962 году в городе прошло 28 летних и 20 зимних соревнований, на которые
+                вышло около 4 700 человек. Секрет, по мнению Н. В. Благово, был в сочетании технически сложной местности рядом с
+                городом и достоверных, тщательно откорректированных карт: президиум Коллегии судей искал для каждого крупного
+                старта новый район и хорошую основу масштаба 1:25 000, а дистанции разбирали на семинарах. С 1967 года
+                ленинградцы одними из первых в стране перешли от кольцевой планировки дистанций к перекрёстной.
+            </p>
+            <p>
+                Первые общесоюзные правила соревнований разработали на конференции в Тарту в 1961 году под руководством эстонского
+                педагога Э. Изопа; русский текст редактировала ленинградка Гертруда Николаевна Васильева — первый тренер и первый
+                председатель городской Комиссии по слётам и соревнованиям (1962). В 1962 году <a href="https://o-site.spb.ru/history/Peoples/kozlovic.html" target="_blank" rel="noopener">Г. Козлович</a>, выступая за сборную
+                Вооружённых сил на матче с финнами под Тбилиси, привёз в Ленинград жидкостный компас Suunto, и вскоре энтузиасты
+                под руководством Н. Александрова наладили кустарное производство таких компасов со стрелками от компаса Андрианова.
+                В 1964 году <a href="https://o-site.spb.ru/history/Peoples/fedverg.html" target="_blank" rel="noopener">Ф. Вергилесов</a>, по данным <a href="https://o-site.spb.ru/history/History/lso.html" target="_blank" rel="noopener">летописи</a>,
+                придумал для зимнего ориентирования планшет-столик для крепления карты.
+            </p>
+            <p>
+                К началу 1960-х относится и детское ориентирование: <a href="https://o-site.spb.ru/history/Peoples/steinbuk.html" target="_blank" rel="noopener">И. Е. Штейнбук</a> начал заниматься с ребятами в
+                Ленинградском Дворце пионеров (кружок открыт в 1963 году), а учитель математики <a href="https://o-site.spb.ru/history/Peoples/ryzhik.html" target="_blank" rel="noopener">В. А. Рыжик</a> в 1964 году создал
+                в 239-й школе туристский клуб <a href="https://o-site.spb.ru/history/History/shagi-1.html" target="_blank" rel="noopener">«Шаги»</a>.
+                Эти два центра много лет пополняли сборные города.
+            </p>
+            <figure class="hist-fig hist-fig-left hist-fig-narrow"><a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank"><img class="help-figure" src="img/spb_redraw.webp" alt="Участники перерисовывают дистанцию с контрольной карты на свои карты." loading="lazy"></a><figcaption>Перерисовка дистанций: до появления отпечатанных курсов участники переносили КП с контрольной карты на свои карты. <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure>
+            <p>
+                Летом 1963 года, 7 июля, в Песках прошёл <a href="https://o-site.spb.ru/history/Knots/match-63.html" target="_blank" rel="noopener">матч
+                пяти команд</a> — Москвы, Ленинграда, Эстонии, Литвы и Свердловска (главный судья А. И. Муравьёв, начальник дистанции
+                Л. В. Лебёдкин). С 1964 года к нему присоединились Киев, Минск и Рига, и соревнование вошло в историю как
+                <a href="https://o-site.spb.ru/history/History/m8g.html" target="_blank" rel="noopener">«Матч восьми городов»</a>.
+                Успех встречи ускорил решение о <a href="https://o-site.spb.ru/history/History/fall1963.html" target="_blank" rel="noopener">I Всесоюзных
+                соревнованиях</a> в Ужгороде в октябре 1963 года: ленинградцы стали четвёртыми среди 17 команд, а женская
+                пятёрка (Н. Башарина, Т. Лобанова, <a href="https://o-site.spb.ru/history/History/kom-60.html" target="_blank" rel="noopener">Н. Мареева</a>, <a href="https://o-site.spb.ru/history/Peoples/milova.html" target="_blank" rel="noopener">Л. Милова</a>, <a href="https://o-site.spb.ru/history/Peoples/pzv.html" target="_blank" rel="noopener">З. Пятакова</a>) увезла кубок лучшей женской команды. Через два
+                года <a href="https://o-site.spb.ru/history/History/perm-65.html" target="_blank" rel="noopener">в Перми</a> Большанская, Смирнова и Лобанова выиграли эстафету — первые золотые медали всесоюзного уровня в
+                активе Ленинграда.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>1966–1970: мастера спорта, многодневки и международный дебют</h2>
+            <figure class="hist-fig hist-fig-right hist-fig-narrow"><a href="../original_maps/forest/meet_1966_title.jpg" target="_blank"><img class="help-figure" src="img/spb_1966_meet.webp" alt="Обложка программы второй матчевой встречи по ориентированию команд городов СССР, Ленинград, 10–14 марта 1966 года." loading="lazy"></a><figcaption>Программа зимнего матча команд городов СССР, Ленинград, 10–14 марта 1966 года. <span class="hist-credit">Архив карт O-Maps: <a href="../event.html?id=SPB_19660311_1">Юкки</a>, <a href="../event.html?id=SPB_19660313_1">Орехово</a></span></figcaption></figure>
+            <p>
+                В марте 1966 года Ленинград принял <a href="https://o-site.spb.ru/history/Knots/match-66.html" target="_blank" rel="noopener">зимний
+                матч команд городов СССР</a> — предшественника всесоюзных зимних соревнований. В
+                <a href="../event.html?id=SPB_19660311_1">Юкках</a> на маркированной трассе сильнейшей среди женщин стала Зоя Пятакова,
+                а <a href="../event.html?id=SPB_19660313_1">13 марта в Орехове</a> впервые прошли эстафеты на маркированной трассе
+                со штрафными кругами по правилам Л. В. Лебёдкина; мужскую выиграли ленинградцы <a href="https://o-site.spb.ru/history/Peoples/belyakov.html" target="_blank" rel="noopener">Л. Беляков</a>, <a href="https://o-site.spb.ru/history/Peoples/mitenkov.html" target="_blank" rel="noopener">В. Митенков</a> и <a href="https://o-site.spb.ru/history/Peoples/malinin.html" target="_blank" rel="noopener">В. Малинин</a>.
+                Летом сборная города (тренер Л. В. Беляков) впервые выиграла «Матч восьми городов» в Загорске, а победа
+                <strong><a href="https://o-site.spb.ru/history/Peoples/fomiceva.html" target="_blank" rel="noopener">Людмилы Фомичёвой</a></strong> в личном зачёте принесла ей звание мастера спорта СССР по ориентированию —
+                первой среди женщин страны (присвоено в январе 1967 года вместе с москвичом <a href="https://o-moscow.ru/people/IgnatenkoVA.html" target="_blank" rel="noopener">Валерием Игнатенко</a>). В октябре 1966 года
+                в Орехове появилось «марафонское» ориентирование: Людвиг Беляков пробежал 35,4 км, Татьяна Смирнова — 25 км.
+            </p>
+            <p>
+                Весной 1968 года Л. В. Беляков и <a href="https://o-site.spb.ru/history/Peoples/krylov.html" target="_blank" rel="noopener">С. Н. Крылов</a> провели под Каннельярви первую в стране массовую многодневку —
+                пять дней стартов, свыше 400 участников из Ленинграда, Прибалтики, Москвы, Свердловска и Горького. В том же
+                году <a href="https://o-site.spb.ru/history/Peoples/mmosk.html" target="_blank" rel="noopener">О. Казанцева</a> и В. Малинин первыми из ленинградцев вошли в сборную СССР, а 13–15 сентября у Петяярви и Снегирёвки
+                прошла <a href="../event.html?id=SPB_19680913_1">первая в СССР международная встреча</a> — сборные СССР и Болгарии
+                (главный судья Н. В. Благово). Ольга Казанцева, получив на эстафете серьёзную травму, всё же закончила этап и
+                обеспечила победу сборной страны.
+            </p>
+            <div class="hist-heroes" style="clear: both"><figure class="hist-fig hist-fig-none"><a href="https://o-site.spb.ru/history/Peoples/peoples.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_belyakov.webp" alt="Людвиг Викторович Беляков." loading="lazy" style="object-position: 50% 15%"></a><figcaption>Людвиг Викторович Беляков — тренер сборных города и СССР, автор первой эстафеты (1963), первой многодневки (1968) и одной из первых методик подготовки ориентировщиков. <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure><figure class="hist-fig hist-fig-none"><a href="https://o-site.spb.ru/history/Peoples/peoples.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_krylov.webp" alt="Сергей Николаевич Крылов." loading="lazy" style="object-position: 50% 15%"></a><figcaption>Сергей Николаевич Крылов — ведущий тренер Ленинграда с конца 1960-х: при нём на университетские старты выходило больше тысячи студентов. <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure></div>
+            <figure class="hist-fig hist-fig-left"><a href="../original_maps/forest/sosnovo/petyajarvi_1968_omaps.jpg" target="_blank"><img class="help-figure" src="img/spb_1968_petyajarvi.webp" alt="Чёрно-белая карта района Петяярви, подготовленная к матчу СССР — Болгария 1968 года." loading="lazy"></a><figcaption>Петяярви: карта к <a href="../event.html?id=SPB_19680913_1">матчу СССР — Болгария</a> 13 сентября 1968 года (начальники дистанции Л. В. Лебёдкин и Ю. Н. Леонов). <a href="../original_maps/forest/sosnovo/petyajarvi_1968_omaps.jpg" target="_blank">Открыть оригинал ↗</a></figcaption></figure>
+            <p>
+                1969 год стал вершиной первого поколения. На IV Всесоюзных соревнованиях в
+                <a href="https://o-site.spb.ru/history/History/bransk69.html" target="_blank" rel="noopener">брянских лесах</a> — на картах
+                «небывалой доселе достоверности», подготовленных москвичами во главе с <a href="https://o-moscow.ru/people/AleshinVM.html" target="_blank" rel="noopener">В. М. Алёшиным</a>, — сборная Ленинграда
+                впервые выиграла общий зачёт и заняла призовые места во всех семи видах программы; победили З. Пятакова, мужская
+                и юниорская эстафеты. В том же году <a href="../event.html?id=SPB_19690412_1">в Одессе</a> прошёл первый
+                <a href="https://o-site.spb.ru/history/History/mgg.html" target="_blank" rel="noopener">матч городов-героев</a>
+                (ленинградцы выигрывали его восемь раз из десяти), <a href="https://o-site.spb.ru/history/Peoples/leonov.html" target="_blank" rel="noopener">Ю. Н. Леонов</a> основал областную спортшколу по ориентированию —
+                начало систематической работы в Ленинградской области (о её «золотом веке» —
+                <a href="https://rufso.ru/wp-content/uploads/2017/07/azimut-1-2015.pdf#page=40" target="_blank" rel="noopener">воспоминания в журнале «Азимут»</a>), а для отметки на КП впервые применили компостеры. Юбилей
+                «10 лет спортивного ориентирования в Ленинграде» отметили <a href="../event.html?id=SPB_19690628_1">стартом у Гарболова</a>.
+            </p>
+            <div class="hist-heroes" style="clear: both"><figure class="hist-fig hist-fig-none"><a href="https://o-site.spb.ru/history/History/bransk69.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_1969_bryansk.webp" alt="Сборная Ленинграда на IV Всесоюзных летних соревнованиях, Брянск, 1969 год." loading="lazy" style="aspect-ratio: auto"></a><figcaption>Брянск, 1969: сборная Ленинграда — победитель общего зачёта IV Всесоюзных соревнований. Сидят: А. Бровин, И. Кокош, С. Крылов, И. Иванова, А. Морозов; стоят: Г. Цыпкина, Л. Милова, М. Малова, Л. Фомичёва, З. Пятакова, Г. Козлович, Н. Благово, О. Казанцева, В. Малинин, Т. Смирнова. <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure><figure class="hist-fig hist-fig-none"><a href="https://o-site.spb.ru/history/History/m8g.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_badges.webp" alt="Значки матчей команд восьми городов и матчей городов-героев 1965–1977 годов." loading="lazy" style="aspect-ratio: auto"></a><figcaption>Значки «Матча восьми городов» (1965–1970) и матчей городов-героев (1969–1977), среди них ленинградский 1973 года. <span class="hist-credit">Иллюстрация из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a>, коллекция А. И. и О. А. Муравьёвых</span></figcaption></figure></div>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>Матчи: Эстония, Рига, Москва и города-герои</h2>
+            <figure class="hist-fig hist-fig-right"><a href="https://o-site.spb.ru/history/History/estle-s.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_1962_women.webp" alt="Женская команда Ленинграда на третьем матче Эстония — Ленинград, Кингисепп, 1962 год." loading="lazy"></a><figcaption>Третий матч Эстония — Ленинград, Кингисепп, 1962 год. Женская команда: Г. Н. Васильева, Л. Фомичёва, Л. Сергеева, Н. Мареева, Л. Милова (Филина), Н. Николаева, Т. Лобанова, Н. Башун. <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure>
+            <p>
+                Двусторонние матчи долго были лучшей проверкой сил перед всесоюзными стартами. Старейший из них —
+                <a href="https://o-site.spb.ru/history/History/estle-s.html" target="_blank" rel="noopener">Эстония — Ленинград</a>:
+                первая встреча прошла летом 1960 года у Орехова, лучшими стали эстонец Аго Вило и ленинградка Тамара Тришина, а
+                общий зачёт выиграли хозяева. С тех пор матч проводили ежегодно поочерёдно на эстонской и ленинградской земле, с 1972 года —
+                ещё и зимой. Разрыв в счёте редко превышал два-три очка, а ленинградка Лидия Милова пробежала 24 таких матча —
+                рекорд, который, по словам Благово, «вряд ли удастся повторить».
+            </p>
+            <p>
+                С сильнейшей в те годы командой Риги ленинградцы встречались с 1968 года: за 13
+                <a href="https://o-site.spb.ru/history/History/rile.html" target="_blank" rel="noopener">матчей</a> до 1982 года счёт 10:3 в пользу
+                рижан. Были матчи с Москвой (с 1965 года — между обществами «Труд», с 1968-го — сборными городов), тройственный
+                матч Ленинград-2 — Петрозаводск — Ленинградская область, а в 1975 году в Юкках даже матч сборных Вооружённых сил
+                СССР и Франции. Особое место занимал матч городов-героев с торжественным открытием и посещением мемориалов; пятый матч
+                прошёл <a href="../event.html?id=SPB_19730602_4">в 1973 году под Рощином</a>. Все эти встречи имели «мастерский» статус, и многие ленинградцы выполнили норматив
+                мастера спорта именно на них.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>Массовость: «Белые ночи», «Ориентир» и семейные пары</h2>
+            <figure class="hist-fig hist-fig-right"><a href="../original_maps/forest/zelik/roschino_1971_wn_omaps.jpg" target="_blank"><img class="help-figure" src="img/spb_1971_wn.webp" alt="Карта первых соревнований «Белые ночи» 12 июня 1971 года у Рощина." loading="lazy"></a><figcaption>12 июня 1971 года, Рощино: карта <a href="../event.html?id=SPB_19710612_1">первых «Белых ночей»</a>, масштаб 1:25 000. <a href="../original_maps/forest/zelik/roschino_1971_wn_omaps.jpg" target="_blank">Открыть оригинал ↗</a></figcaption></figure>
+            <p>
+                Главной заботой секции было вовлечение новичков. В календарь вошли слёты, Кубок ЛКТ, Приз ЛОСТЭ, «Приз первокурсника»,
+                «Золотая осень», старты ко Дню Победы и годовщине снятия блокады. С 1970 года сезон открывала
+                <a href="../event.html?id=SPB_19790114_1">«Новогодняя эстафета»</a>, которую с 1974 года много лет проводил спортклуб «Позитрон».
+            </p>
+            <p>
+                12 июня 1971 года по предложению Н. В. Благово у Рощина прошли первые
+                <a href="../start.html?start=WN">«Белые ночи»</a> — победили З. Пятакова и С. Крылов. С 1974 года многодневку
+                готовил спортклуб «Экран»: <a href="https://o-site.spb.ru/history/Peoples/mmosk.html" target="_blank" rel="noopener">Сергей и Ольга Казанцевы и Мария Малова</a> каждый июнь рисовали новые карты с эмблемой-совой,
+                добавили ночные старты, в 1979 году к 20-летию ленинградского ориентирования провели 20-этапную ночную эстафету, а в 1980-м
+                на старт у Нахимовского озера вышли команды городов-побратимов Дрездена и Турку и более 1 200 участников. С 2001 года
+                «Белые ночи» проводит одноимённый клуб; сегодня он же организует зимне-весенний <a href="../start.html?start=KBN">Кубок
+                Белых ночей</a> — в календаре O-Maps это 203 этапа с 2014 года.
+            </p>
+            <p>
+                В середине 1970-х по эстонскому образцу появились открытые вечерние тренировочные старты
+                <a href="../start.html?start=ORIENTIR">«Ориентир»</a> по четвергам в парках и ближних лесах; первый провёл <a href="https://o-site.spb.ru/history/Peoples/yushel.html" target="_blank" rel="noopener">Ю. Л. Шелёхин</a> в
+                Сосновке. В 1988 году серия, которую к тому времени вёл клуб «Спартак», насчитывала больше двадцати этапов за сезон.
+                С 1972 года в последнюю субботу октября проводятся ночные командные соревнования по закрытому маршруту
+                <a href="../start.html?start=OKINCHITSA">памяти Анатолия Окинчица</a> — единственный старт, где «прародители»-туристы и
+                «наследники»-ориентировщики соревнуются на одной местности. С 1975 года <a href="https://o-site.spb.ru/history/Peoples/shumilov.html" target="_blank" rel="noopener">Владимир и Татьяна Шумиловы</a> проводят
+                <a href="../start.html?start=WEDDING">«Свадебные»</a> («Золотые кольца») — соревнования семейных пар в группах по
+                суммарному возрасту.
+            </p>
+            <figure class="hist-fig hist-fig-left hist-fig-narrow"><a href="https://o-site.spb.ru/history/History/tv-72.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_tv_1972.webp" alt="Комментатор Б. Б. Клецко и Л. Д. Фомичёва у макета местности на соревнованиях на приз Ленинградского телевидения." loading="lazy"></a><figcaption>Соревнования на приз Ленинградского телевидения: спортивный комментатор Б. Б. Клецко и Л. Д. Фомичёва у макета местности. <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure>
+            <p>
+                11 июня 1972 года у озера Щучьего под Комаровом прошли <a href="https://o-site.spb.ru/history/History/tv-72.html" target="_blank" rel="noopener">соревнования
+                на призы Ленинградского телевидения</a>: вышки, передвижная электростанция, огромный демонстрационный макет местности
+                и сорокаминутная передача — впервые ленинградское телевидение так подробно показало лесной спорт. С 1981 года
+                благодаря В. Н. Шумилову старт возобновился и проводился ежегодно до 1992 года; тот же Шумилов в 1980 году
+                учредил соревнования на призы газеты «Невская заря» (позже — <a href="../start.html?start=VSEV_VESTI">«Всеволожские вести»</a>).
+                В 1983 году <a href="https://vk.ru/wall-220245153_1280" target="_blank" rel="noopener">А. М. Василевский</a> объединил рядовых взрослых ориентировщиков в клуб при ЛГС «Спартак» — будущий
+                <a href="https://o-site.spb.ru/history/History/azimuth.html" target="_blank" rel="noopener">«Невский Азимут»</a>, ныне
+                КСО «Азимут», на долгие годы ставший центром массового ориентирования.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>Мастера трассы: от синьки к цветной карте</h2>
+            <figure class="hist-fig hist-fig-right"><a href="../original_maps/forest/toksovo/kavgolovo_hepojarvi_retro_omaps.jpg" target="_blank"><img class="help-figure" src="img/spb_1975_color.webp" alt="Одна из первых ленинградских цветных карт: Токсово, юг Хепоярви, 1975 год." loading="lazy"></a><figcaption>Токсово, юг Хепоярви: одна из двух первых цветных карт Ленинграда (В. М. Баймаков, к всесоюзным зимним соревнованиям 1975 года). <a href="../original_maps/forest/toksovo/kavgolovo_hepojarvi_retro_omaps.jpg" target="_blank">Открыть оригинал ↗</a></figcaption></figure>
+            <p>
+                Первые дистанции подготовил Л. В. Лебёдкин, затем секреты корректировки освоили А. И. Муравьёв, <a href="https://o-site.spb.ru/history/Peoples/algrig.html" target="_blank" rel="noopener">А. К. Григоренко</a>,
+                Л. В. Беляков, <a href="https://o-site.spb.ru/history/Peoples/kotov.html" target="_blank" rel="noopener">А. Д. Котов</a>, позже — <a href="https://o-site.spb.ru/history/Peoples/baimakov.html" target="_blank" rel="noopener">В. М. Баймаков</a>, С. А. и О. М. Казанцевы, М. М. Малова, А. И. Ходанович, С. Н. Крылов,
+                В. Б. Митенков, Г. В. Козлович, <a href="https://o-site.spb.ru/history/Peoples/vkravch.html" target="_blank" rel="noopener">В. Р. Кравченко</a>, <a href="https://o-site.spb.ru/history/Peoples/potakov.html" target="_blank" rel="noopener">А. А. Потаков</a>, Ю. Л. Шелёхин. Основой служили старые топокарты,
+                результатом сначала были синьки, со второй половины 1960-х — фотоотпечатки с калек, прорисованных тушью. Чёрно-белая
+                карта всё заметнее сдерживала рост мастерства, и в середине 1970-х В. М. Баймаков (Кавголово — Токсово) и
+                Ю. Л. Шелёхин (Юкки, к <a href="../original_maps/forest/yukki_1976_omaps.jpg" target="_blank">матчу СССР — Франция</a>) подготовили
+                первые ленинградские цветные карты. Летопись относит их к 1975 году, в книге Благово названа дата 1973 год.
+            </p>
+            <p>
+                Следующее поколение — <a href="https://o-site.spb.ru/history/Peoples/vnb.html" target="_blank" rel="noopener">В. Н. Белозёров</a>, <a href="https://o-site.spb.ru/history/Peoples/vgu.html" target="_blank" rel="noopener">В. Г. Урванцев</a>, Б. В. Тарасов, А. А. Ширинян, <a href="https://rufso.ru/wp-content/uploads/2017/07/azimut-2-2014.pdf#page=44" target="_blank" rel="noopener">С. В. Кузнецов</a>, С. И. Кириченко,
+                <a href="https://o-site.spb.ru/history/Peoples/allis.html" target="_blank" rel="noopener">А. И. Лисененков</a>, <a href="https://o-site.spb.ru/history/Peoples/leonfed.html" target="_blank" rel="noopener">Л. А. Фёдоров</a>, <a href="https://o-site.spb.ru/history/Peoples/yurov.html" target="_blank" rel="noopener">Ю. Б. Овчинников</a>, А. М. Василевский, К. В. Волков, В. Л. Чегаровский, <a href="https://o-site.spb.ru/history/Peoples/svyatkin.html" target="_blank" rel="noopener">М. Н. Святкин</a>,
+                А. И. Левичев — открывало новые районы: в 1978 году Овчинников и Волков сделали первые карты у Кузнечного. В 1990 году
+                ленинградцев впервые пригласили рисовать карту за границей (В. Чегаровский и Ю. Овчинников, Гдыня), а карты для
+                Кубка мира ветеранов 1995 года стали первыми в Петербурге, вычерченными на компьютере; первой лицензионную
+                программу <a href="https://www.ocad.com/" target="_blank" rel="noopener">OCAD</a> освоила О. М. Казанцева.
+                Сегодня в основном разделе <a href="../spb.html">архива O-Maps</a> около 1 430 карт Петербурга и области, и десятилетие от
+                десятилетия видно, как к лесным картам прибавляются городские, парковые и рогейновые.
+            </p>
+            <figure class="hist-fig hist-fig-none" style="clear: both">
+                <div style="position: relative; height: 340px"><canvas id="spbMapsChart" role="img" aria-label="Карты Петербурга и Ленинградской области в архиве O-Maps по десятилетиям и типам"></canvas></div>
+                <figcaption>Карты Санкт-Петербурга и Ленинградской области в <a href="../spb.html">архиве O-Maps</a> по десятилетиям: основной раздел, как на странице <a href="../charts-spb.html">статистики</a>, без карт отдельных стартов (по году карты; без 80 карт с неизвестным годом). «Город и парк» — городские, спринтерские и парковые карты; в последнюю группу вошли зимние, вело-, фото- и прочие карты.</figcaption>
+            </figure>
+            <p>
+                Любопытно, кто нарисовал больше всего. В основном разделе архива O-Maps лидирует
+                <a href="https://o-site.spb.ru/history/Peoples/shar.html" target="_blank" rel="noopener">Александр Ширинян</a> — 146 карт Петербурга и области, причём первая его самостоятельная карта датирована 1972 годом
+                (<a href="../original_maps/forest/toksovo/kavgolovo_1972_omaps.jpg" target="_blank">Кавголово</a>). За ним идут Виктор Рылов
+                и <a href="https://o-site.spb.ru/history/Peoples/vd.html" target="_blank" rel="noopener">Виктор Добрецов</a>.
+            </p>
+            <figure class="hist-fig hist-fig-none">
+                <div style="position: relative; height: 380px"><canvas id="spbAuthorsChart" role="img" aria-label="Авторы карт Петербурга и Ленинградской области с наибольшим числом карт в архиве O-Maps"></canvas></div>
+                <figcaption>Двенадцать авторов с наибольшим числом карт Петербурга и области в основном разделе архива O-Maps (без карт отдельных стартов и карт, исключённых из статистики), как на странице <a href="../charts-spb.html">статистики</a>; соавторство засчитывается каждому. Полный список — на странице <a href="../authors.html">авторов-составителей</a>.</figcaption>
+            </figure>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>1970-е: спартакиады, федерация и новое поколение</h2>
+            <figure class="hist-fig hist-fig-right"><a href="https://o-site.spb.ru/history/Knots/ussr-75.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_1975_winter.webp" alt="Сборная Ленинграда на всесоюзных зимних соревнованиях 1975 года." loading="lazy"></a><figcaption>Всесоюзные зимние соревнования, Ленинград, 1975 год. Сидят: К. Бреус, И. Порошина, Т. Свистун, О. Казанцева, Л. Милова, З. Пятакова; стоят: А. Осмехин, А. Волков, С. Кузнецов, И. Ломова, А. Бровин, И. Иванова, Е. Ширшова, М. Грязневич, И. Степанова, Ю. Овчинников, Г. Цыпкина, А. Базанов, А. Губанова, В. Малинин, Л. Фомичёва, А. Спица, Л. Фёдоров. <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure>
+            <p>
+                В сентябре 1971 года всесоюзные летние соревнования впервые прошли под Ленинградом — у
+                <a href="../event.html?id=SPB_19710913_1">Цвелодубова, Комарова и Озерков</a>; хозяева взяли две серебряные и три бронзовые
+                медали. Зимой 1972 года на матче с Эстонией в Кавголове впервые в городе провели лыжное ориентирование в заданном
+                направлении. А в марте 1975 года на <a href="https://o-site.spb.ru/history/Knots/ussr-75.html" target="_blank" rel="noopener">всесоюзных
+                зимних соревнованиях</a> в Кавголове и Энколове сборная Ленинграда впервые выиграла общий зачёт зимнего первенства страны:
+                З. Пятакова победила на маркированной трассе, мужская и юниорская команды — в эстафетах, а женскую эстафету выиграла
+                команда Ленинградской области (Л. Иванова, Э. Иванова, Н. Святкина).
+            </p>
+            <p>
+                В середине 1970-х ориентирование вошло в программы спартакиад профсоюзов и Ленинграда; у большинства ДСО и ведомств
+                появились штатные тренеры, а в чемпионатах города стали бороться сборные «Буревестника», «Динамо», «Зенита»,
+                «Спартака», «Труда» и СКА. 8 декабря 1977 года секцию сменила Федерация спортивного ориентирования Ленинграда,
+                председателем которой (как и секции с 1966 года) был Н. В. Благово. Появились детские школы: в 1975 году
+                В. Н. Шумилов и <a href="https://o-site.spb.ru/history/Peoples/brovin.html" target="_blank" rel="noopener">А. М. Бровин</a> открыли секцию в Кузьмолове, в 1978-м — отделение при ДЮСШ Сестрорецкого района,
+                в 1984-м — спортшкола № 2 при Дворце пионеров (В. Н. Белозёров). В 1978 году в программу зимних чемпионатов
+                вошло заданное направление на лыжах, а <a href="https://o-site.spb.ru/history/Peoples/turist80.html" target="_blank" rel="noopener">И. Степанова</a> и Н. Левичева первыми из ленинградцев выступили на <a href="https://o-site.spb.ru/history/History/students.html" target="_blank" rel="noopener">чемпионате
+                мира среди студентов</a>.
+            </p>
+            <p>
+                В 1980 году под Кавголовом и Осельками прошли первые
+                <a href="https://o-site.spb.ru/history/Knots/vet-80.html" target="_blank" rel="noopener">всесоюзные соревнования ветеранов</a> —
+                269 спортсменов старше 35 лет из 43 городов.
+            </p>
+            <div class="hist-heroes" style="clear: both"><figure class="hist-fig hist-fig-none"><a href="https://o-site.spb.ru/history/Peoples/pzv.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_pyatakova.webp" alt="Зоя Пятакова на дистанции." loading="lazy" style="object-position: 50% 30%"></a><figcaption>Зоя Пятакова (1938–2015) — одна из пяти первых ленинградок с мастерским званием, лучшая на маркированной трассе зимних всесоюзных стартов 1966, 1968 и 1975 годов, единственная участница всех десяти матчей городов-героев. <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure><figure class="hist-fig hist-fig-none"><a href="https://o-site.spb.ru/history/Peoples/turist80.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_stepanova.webp" alt="Ирина Степанова на дистанции." loading="lazy" style="object-position: 50% 20%"></a><figcaption>Ирина Степанова — 11 золотых медалей чемпионатов Ленинграда к 1984 году (больше всех), многократная победительница всесоюзных эстафет, позднее чемпионка мира среди ветеранов. <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure></div>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>1981–1991: чемпионаты СССР и выход на мировой уровень</h2>
+            <p>
+                Первый чемпионат СССР в 1981 году был поручен Ленинграду: три гонки прошли на Карельском перешейке — <a href="../event.html?id=SPB_19810804_1">у Выборга</a>,
+                <a href="../event.html?id=SPB_19810805_1">на озере Уловном</a> и <a href="../event.html?id=SPB_19810806_1">в Вещеве</a> (подробно — в <a href="ussr-foot.html">статье о чемпионатах СССР</a> и в
+                <a href="https://o-site.spb.ru/history/Knots/ussr-81.html" target="_blank" rel="noopener">архиве первого чемпионата</a>). Ленинградки
+                С. Березина, <a href="https://o-site.spb.ru/history/Peoples/turist80.html" target="_blank" rel="noopener">И. Иванова</a> и Н. Левичева <a href="../event.html?id=SPB_19810805_1">выиграли эстафету</a>, а хрустальный кубок за общекомандную победу первым получил
+                Ленинград. В 1982 году <a href="../event.html?id=MAJOR_19820825_2">в Великих Луках</a> чемпионами страны в личном зачёте стали брат и сестра — Михаил Святкин и
+                Надежда Левичева, в 1984-м <a href="../event.html?id=MAJOR_19840817_1">в Тарту</a> Святкин выиграл все три вида программы, а в 1986 году <a href="../event.html?id=SPB_19860909_1">в Каркаралинске</a> сборная
+                Ленинграда снова взяла общекомандный зачёт и мужскую эстафету.
+            </p>
+            <div class="hist-heroes"><figure class="hist-fig hist-fig-none"><a href="https://o-site.spb.ru/history/Peoples/svyatkin.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_svyatkin.webp" alt="Михаил Святкин." loading="lazy" style="object-position: 50% 30%"></a><figcaption>Михаил Святкин (1960–1992) — воспитанник Ю. Н. Леонова в областной станции юных туристов, чемпион СССР 1982, 1984 и 1986 годов, всеобщий любимец ориентировщиков страны. Его памяти с 1993 года посвящён <a href="../start.html?start=MMS">Мемориал</a>. <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure><figure class="hist-fig hist-fig-none"><a href="https://o-site.spb.ru/history/History/winners.html" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_levicheva.webp" alt="Надежда Левичева (Святкина) на дистанции зимних соревнований." loading="lazy" style="object-position: 50% 25%"></a><figcaption>Надежда Левичева (Святкина) — чемпионка СССР 1982 года, многократная обладательница Кубков СССР на лыжах, призёр первых чемпионатов СССР по лыжному ориентированию; в 1987 году первой из ленинградок выступила на чемпионате мира. <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure></div>
+            <p>
+                В 1987 году <a href="https://o-site.spb.ru/history/Peoples/alekseev.html" target="_blank" rel="noopener">В. Алексеев</a> и Н. Левичева первыми из ленинградцев выступили <a href="../event.html?id=IOF_19870903_1">на чемпионате мира</a> (Франция), в 1988-м
+                Левичева, Березина, Петрова и А. Левичев — на <a href="ski-woc.html">лыжном чемпионате мира</a> в Финляндии. На
+                <a href="woc.html">чемпионатах мира</a> бегом Владимир Алексеев был 7-м <a href="../event.html?id=IOF_19890817_1">в 1989 году</a> и 4-м <a href="../event.html?id=IOF_19910821_1">в 1991-м</a>. В 1989 году лыжное
+                ориентирование впервые вошло в Спартакиаду народов СССР, и сборная Ленинграда выиграла её общий зачёт, а Светлана
+                Березина стала <a href="../event.html?id=SPB_19891207_1">чемпионкой СССР в спринте</a> на <a href="ussr-ski.html">первом лыжном чемпионате страны</a>.
+            </p>
+            <p>
+                Массовое ориентирование конца 1980-х хорошо видно по <a href="../calendar.html?startYear=ALL">календарю O-Maps</a>: в 1988 году
+                в нём уже 52 события, в 1991-м — 53, большая часть — вечерние этапы «Ориентира». В 1988 году поездка группы
+                ленинградцев на шведскую многодневку <a href="https://www.oringen.se/" target="_blank" rel="noopener">O-Ringen</a> открыла
+                эпоху массовых выездов за рубеж; в мае 1989 года 30-летие ленинградского ориентирования отметили трёхдневкой в
+                <a href="../event.html?id=SPB_19890507_1">Будогощи</a>. 22 апреля 1990 года на Призе открытия сезона клуба «Невский Азимут»
+                впервые применили компьютерно-жетонную систему определения результатов А. А. Казакова, а с того же года
+                многодневка <a href="../event.html?id=SPB_19900616_1">«Невский Азимут»</a> открывает июньскую серию питерских многодневок. Последнюю эстафету чемпионатов СССР в
+                1991 году <a href="../event.html?id=MAJOR_19910731_1">выиграли мужчины Ленинграда</a> — М. Святкин, И. Гусев, О. Мельников и О. Анучкин.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>1990-е: Санкт-Петербург, Кубок мира и скалы Кузнечного</h2>
+            <figure class="hist-fig hist-fig-right hist-fig-narrow"><a href="../start.html?start=MMS"><img class="help-figure" src="img/spb_mms_1993.webp" alt="Буклет первого Мемориала Михаила Святкина, 2–4 июля 1993 года, Васкелово." loading="lazy"></a><figcaption>Буклет первого <a href="../event.html?id=SPB_19930704_1">Мемориала Михаила Святкина</a> и летнего чемпионата Санкт-Петербурга, Васкелово, июль 1993 года. <span class="hist-credit">Фото: О. Гурлева, <a href="https://spbof.ru/ru/istoriya" target="_blank" rel="noopener">хроника ФСО Санкт-Петербурга</a></span></figcaption></figure>
+            <p>
+                Новая страна началась с первых российских чемпионатов: в 1992 году <a href="https://o-site.spb.ru/history/Peoples/epetrova.html" target="_blank" rel="noopener">Екатерина Петрова</a> <a href="../event.html?id=MAJOR_19920210_1">выиграла классику</a>
+                <a href="russia-ski.html">первого лыжного чемпионата России</a>, в 1993-м сборная Петербурга взяла общий зачёт летнего
+                <a href="../event.html?id=MAJOR_19930825_1">чемпионата в Сортавале</a>, в <a href="../event.html?id=MAJOR_19950906_1">1995</a>–<a href="../event.html?id=MAJOR_19960905_1">1996</a> годах мужская эстафета (О. Анучкин, В. Алексеев, <a href="https://o-site.spb.ru/history/Peoples/mamleev.html" target="_blank" rel="noopener">М. Мамлеев</a>) дважды становилась
+                чемпионом страны. 16 мая 1992 года у Яппиля прошёл <a href="https://o-site.spb.ru/history/Knots/wc-92.html" target="_blank" rel="noopener">первый
+                в России этап Кубка мира</a> (карта и дистанции В. Л. и Ю. Л. Чегаровских), а осенью в Мичуринском — первые
+                международные детские соревнования <a href="../start.html?start=EUROPEAN_HOPE">«Надежды Европы»</a>.
+            </p>
+            <p>
+                В ноябре 1992 года на лыжной тренировке в Кузьмолове умер Михаил Святкин (о нём — <a href="https://rufso.ru/wp-content/uploads/2019/11/2003_2_compressed.pdf#page=25" target="_blank" rel="noopener">воспоминания С. А. Казанцева</a> в журнале «Азимут»). Уже в июле 1993-го сотни участников
+                собрались в Васкелове на <a href="https://o-site.spb.ru/history/Knots/mms-93.html" target="_blank" rel="noopener">первый Мемориал</a>
+                его имени, который с 1995 года проводят выпускники и тренеры областной спортшколы; именно там в Петербурге впервые
+                появились горячий душ после финиша, детский сад и микроориентирование для малышей. В 1995 году под Лемболовом впервые
+                в России прошёл <a href="../event.html?id=SPB_19950529_1">Кубок мира среди ветеранов</a>, в 1996-м на Карельском перешейке —
+                чемпионат мира среди военнослужащих (CISM), а в феврале 1999 года в Лемболове — <a href="https://o-site.spb.ru/history/WMSOC-99/index.html" target="_blank" rel="noopener">первый в истории чемпионат мира по
+                лыжному ориентированию среди ветеранов</a>.
+            </p>
+            <figure class="hist-fig hist-fig-left"><a href="../original_maps/starts/ks/ks_2001_06_25_omaps.jpg" target="_blank"><img class="help-figure" src="img/spb_ks_2001.webp" alt="Карта «Карельских скал» 2001 года, район Богатыри, масштаб 1:10 000." loading="lazy"></a><figcaption>«Карельские скалы» 2001 года, Богатыри: насыщенная скальная карта масштаба 1:10 000. <a href="../original_maps/starts/ks/ks_2001_06_25_omaps.jpg" target="_blank">Открыть оригинал ↗</a></figcaption></figure>
+            <p>
+                Петербург стал и колыбелью нового вида: 6 октября 1994 года здесь прошли <a href="https://o-site.spb.ru/history/Knots/velo-96.html" target="_blank" rel="noopener">первые в России соревнования по
+                велоориентированию</a> — шестикилометровую трассу преодолели три участника, а в сентябре 1996 года <a href="../event.html?id=SPB_19960913_1">в Лемболове</a> прошёл
+                <a href="russia-mtbo.html">первый чемпионат России на велосипедах</a> — его инициатором был <a href="https://rufso.ru/wp-content/uploads/2017/07/Borodin-2.pdf" target="_blank" rel="noopener">В. П. Бородин</a>, первой чемпионкой стала Екатерина Петрова. Осенью
+                1996 года бригада С. В. Кузнецова, А. А. Шириняна и А. Н. Ковязина начала осваивать скальные районы у Кузнечного. В июне
+                1997 года на новых картах прошли <a href="https://o-site.spb.ru/history/Knots/kuzn-97.html" target="_blank" rel="noopener">Кубок России</a>
+                и массовая многодневка, со временем получившая имя <a href="https://o-site.spb.ru/history/History/skaly.html" target="_blank" rel="noopener">«Карельские скалы»</a>.
+                Кузнецов называл её «окном в Скандинавию»: технические сборы на насыщенных ориентирами картах помогали российским
+                спортсменам сокращать отставание от северных соседей.
+            </p>
+            <p>
+                К 2000 году сложилась знаменитая июньская серия: «Невский Азимут», «Белые ночи», «Яркий мир», «Карельские скалы» и
+                Мемориал Святкина шли друг за другом и собирали до двух тысяч участников из многих регионов. В 1999 году
+                И. В. Фёдоров и М. В. Гуреев провели первую <a href="../start.html?start=SNOW_WAY">«Снежную тропу»</a> — массовый
+                зимний старт в городских парках, где на одном этапе бывает больше тысячи человек, а <a href="https://o-site.spb.ru/history/Peoples/vd.html" target="_blank" rel="noopener">Виктор Добрецов</a> открыл в
+                интернете <a href="https://o-site.spb.ru/history/" target="_blank" rel="noopener">сайт истории питерского ориентирования</a>,
+                без которого эта статья была бы гораздо беднее.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>2000-е: клубы, электроника, рогейн</h2>
+            <figure class="hist-fig hist-fig-right hist-fig-narrow"><a href="../original_maps/rogaine/michurinskoe_erc_2008_omaps.jpg" target="_blank"><img class="help-figure" src="img/spb_erc_2008.webp" alt="Карта чемпионата Европы по рогейну 2008 года в Мичуринском, масштаб 1:25 000." loading="lazy"></a><figcaption>Мичуринское, 12–13 июля 2008 года: карта <a href="../event.html?id=IRF_20080712_1">5-го чемпионата Европы по рогейну</a>. <a href="../original_maps/rogaine/michurinskoe_erc_2008_omaps.jpg" target="_blank">Открыть оригинал ↗</a></figcaption></figure>
+            <p>
+                В начале 2000-х в городе быстро множились клубы: «Белые Ночи», ГДТЮ, «Миля-Спорт», «Балтийский берег», затем
+                «Северный ветер», «Гольфстрим», «Веста», с 2004 года — Nord West. В 2003 году <a href="https://o-site.spb.ru/history/Peoples/akurd-sr.html" target="_blank" rel="noopener">А. А. Курдюмов</a> и С. Алексеев разработали
+                отечественную систему электронной отметки SFR, впервые применённую <a href="../event.html?id=SPB_20030627_1">на Мемориале Святкина</a>, а <a href="../event.html?id=SPB_20030620_1">на «Белых ночах»</a> впервые в
+                Петербурге на массовом старте заработал <a href="https://www.sportident.com/" target="_blank" rel="noopener">SportIdent</a>.
+                В феврале того же года областная спортшкола приняла в Цвелодубове <a href="../event.html?id=SPB_20030220_1">юниорский
+                чемпионат мира по лыжному ориентированию</a>, где Денис Ибрагимов выиграл эстафету. В 2004 году появился информационный
+                ресурс <a href="https://o-site.spb.ru/" target="_blank" rel="noopener">O-Site</a> (редактор Д. Куприенко), в программу
+                чемпионатов города вошёл спринт, а в Павловском парке прошёл <a href="../event.html?id=SPB_20040201_1">первый чемпионат
+                России по бегу на заснеженном грунте</a>.
+            </p>
+            <p>
+                В ноябре 2005 года у Орехова прошли первые под Петербургом соревнования по рогейну, через год — <a href="../event.html?id=SPB_20061104_2">первый чемпионат
+                города</a>, и рогейн быстро стал второй по массовости дисциплиной: кубки <a href="../start.html?start=GORNY_CROSS">«Горный кросс»</a>
+                и <a href="../start.html?start=ROGAINE_110">«Рогейн 110%»</a> насчитывают в календаре O-Maps больше чем по сотне этапов.
+                В июле 2008 года Мичуринское приняло <a href="../event.html?id=IRF_20080712_1">чемпионат Европы по рогейну</a> — 143 команды,
+                306 участников; в классе суперветеранов победили петербуржцы Александр Лисененков и Евгений Емельянов.
+                В 2006 году в Приморском парке Победы впервые прошёл <a href="../event.html?id=SPB_20060520_1">«Российский Азимут»</a> —
+                около пяти тысяч человек.
+            </p>
+            <p>
+                Были и тревожные сигналы: в 2007 году, по <a href="https://o-site.spb.ru/history/History/lso.html" target="_blank" rel="noopener">летописи</a>,
+                команды Петербурга впервые не поехали ни на зимний, ни на летний чемпионат России. Зато на международной арене выросли
+                свои звёзды. <strong>Михаил Мамлеев</strong> (<a href="https://rufso.ru/wp-content/uploads/2019/11/2003_2_compressed.pdf#page=9" target="_blank" rel="noopener">интервью</a> в «Азимуте», 2003) — чемпион мира среди юниоров 1994 года в эстафете — в 2002 году стал
+                <a href="../event.html?id=IOF_20020925_1">чемпионом Европы</a> на короткой дистанции и вторым в общем зачёте Кубка мира, а в 2003-м возглавил
+                мировой рейтинг. <strong><a href="https://o-site.spb.ru/history/Peoples/tsvetkov.html" target="_blank" rel="noopener">Дмитрий Цветков</a></strong>, двукратный чемпион мира среди юниоров 2003 года, в 2008-м выиграл в
+                Вентспилсе <a href="../event.html?id=IOF_20080528_1">длинную дистанцию</a> и <a href="../event.html?id=IOF_20080601_1">эстафету</a> <a href="eoc.html">чемпионата Европы</a>, а <a href="../event.html?id=IOF_20100815_1">в 2010</a> и <a href="../event.html?id=IOF_20130713_1">2013 годах</a> в составе сборной России стал
+                <a href="woc.html">чемпионом мира в эстафете</a>.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>2010-е и 2020-е: город становится картой</h2>
+            <figure class="hist-fig hist-fig-right"><a href="../original_maps/city/kronshtadt_2019_omaps.webp" target="_blank"><img class="help-figure" src="img/spb_kronshtadt.webp" alt="Спринтерская карта Кронштадта масштаба 1:5 000, Всемирный день ориентирования." loading="lazy"></a><figcaption>Кронштадт: спринтерская карта 1:5 000 ко <a href="https://worldorienteeringday.com/" target="_blank" rel="noopener">Всемирному дню ориентирования</a>. Таких городских карт в архиве O-Maps уже больше, чем лесных карт 1960–1980-х, вместе взятых. <a href="../original_maps/city/kronshtadt_2019_omaps.webp" target="_blank">Открыть оригинал ↗</a></figcaption></figure>
+            <p>
+                Главная перемена последних пятнадцати лет — ориентирование пришло в город. С 2009 года проводится городской
+                <a href="../start.html?start=SPRINT_TOUR">Спринт-Тур</a> (144 этапа в календаре), <a href="../event.html?id=SPB_20110629_1">с 2011-го</a> Nord West проводит
+                в скалах Каменногорска и Выборга <a href="../start.html?start=KKP">«Кубок (Камни) Карельского перешейка»</a>, с 2013-го
+                федерация ведёт проект <a href="../start.html?start=SCHOOL">«Спортивное ориентирование в школу»</a>. 11 мая 2016 года
+                <a href="../event.html?id=SPB_20160511_1">впервые прошли соревнования в Петропавловской крепости</a>, а в мае 2024 года
+                Петербург принял <a href="../event.html?id=SPB_20240516_1">чемпионат России в спринтерских дисциплинах</a>, кросс-эстафета которого прошла в самой крепости.
+                С 2022 года проводятся всероссийские соревнования <a href="../event.html?id=SPB_20221006_1">«Невский спринт»</a> — в первый год почти тысяча участников из 20 регионов.
+            </p>
+            <p>
+                Лес тоже никуда не делся. Ленинградская область принимала чемпионаты России в <a href="../event.html?id=SPB_20110612_1">Выборге</a> (2011),
+                <a href="../event.html?id=SPB_20160623_1">Выборгском районе</a> (2016), <a href="../event.html?id=SPB_20190524_1">Кузнечном</a> (2019),
+                <a href="../event.html?id=SPB_20200926_2">снова в Выборге</a> (2020), <a href="../event.html?id=SPB_20210529_2">Сосновом Бору</a> (2021) и
+                <a href="../event.html?id=SPB_20220611_1">Луге</a> (2022), а в сентябре 2011 года <a href="../event.html?id=IOF_20110917_1">в Рощине</a> прошёл
+                <a href="emtboc.html">чемпионат Европы по велоориентированию</a>, где обе российские эстафеты стали серебряными.
+                Чемпионат Европы по рогейну 2022 года в <a href="../event.html?id=IRF_20220528_1">Зеркальном</a> был отменён; на той же базе
+                прошли Кубок России по рогейну и чемпионат России по рогейну на велосипедах. Федерация осваивает и новые технологии: в
+                2022 году по президентскому гранту работала «Школа молодого картографа» с лидарной съёмкой, а в 2020-м Д. Ельцов
+                запустил бесконтактные полигоны — вместо чипа телефон, на КП QR-коды и NFC-метки.
+            </p>
+            <figure class="hist-fig hist-fig-none" style="clear: both">
+                <div style="position: relative; height: 360px"><canvas id="spbEventsChart" role="img" aria-label="Число событий календаря O-Maps по Петербургу и Ленинградской области по годам и видам"></canvas></div>
+                <figcaption>События <a href="../calendar.html">календаря O-Maps</a> по Петербургу и области в 2004–2026 годах по видам, включая проходившие здесь чемпионаты России и Европы (в 2026 году учтены и запланированные до конца сезона). Рекорд — 234 события в 2025 году; провал 2020-го — следствие ограничений пандемии.</figcaption>
+            </figure>
+            <p>
+                Самые «стартовые» места календаря — Токсово (224 события), Орехово (183) и Лемболово (165): те же районы, где
+                ленинградцы бегали ещё в 1960-е. За городом лидируют Луга, Выборг, Мичуринское, Цвелодубово и Зеркальный.
+            </p>
+            <figure class="hist-fig hist-fig-right"><a href="https://spbof.ru/ru/chempionat-rossii-2024" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_rus_2024.webp" alt="Награждение на чемпионате России по спортивному ориентированию в Санкт-Петербурге, май 2024 года." loading="lazy"></a><figcaption>Награждение на <a href="../event.html?id=SPB_20240516_1">чемпионате России 2024 года</a> в Санкт-Петербурге. <span class="hist-credit">Фото: <a href="https://spbof.ru/ru/chempionat-rossii-2024" target="_blank" rel="noopener">ФСО Санкт-Петербурга</a></span></figcaption></figure>
+            <p>
+                На национальном уровне новое поколение вернуло Петербургу титулы: спринтер <strong>Артём Попов</strong>
+                (золото чемпионатов России в каждом сезоне <a href="../event.html?id=MAJOR_20170515_1">2017</a>–<a href="../event.html?id=SPB_20210529_2">2021</a> годов), <strong>Евгений Годлевский</strong>,
+                <strong>Дмитрий Поляков</strong>, <strong>Юлия Усова</strong>; Дмитрий Цветков продолжал
+                выигрывать чемпионаты России и в 2020-е. В велоориентировании призёром чемпионатов России стала <strong>Екатерина Ландграф</strong>,
+                а в лыжном ориентировании сезон 2025/26 прошёл под знаком <strong>Сергея Горланова</strong> (Ленинградская область) — <a href="../event.html?id=IOF_20220127_1">чемпиона Европы 2022 года</a>
+                в эстафете, выигравшего несколько <a href="../event.html?id=MAJOR_20260220_1">титулов чемпиона России</a>. Юные петербургские ориентировщики приносили медали
+                первенств мира и Европы в беге, на велосипедах и на лыжах. После решений <a href="https://orienteering.sport/" target="_blank" rel="noopener">Международной федерации
+                ориентирования (IOF)</a> 2022 года российские спортсмены не выступают на её стартах, поэтому медальный счёт обрывается
+                на сезоне 2022 года.
+            </p>
+            <figure class="hist-fig hist-fig-none" style="clear: both">
+                <div style="position: relative; height: 320px"><canvas id="spbMedalsChart" role="img" aria-label="Международные медали петербургских ориентировщиков по годам и видам"></canvas></div>
+                <figcaption>Медали петербуржцев на чемпионатах и первенствах мира и Европы и Всемирных играх по <a href="https://spbof.ru/ru/istoriya/medalnyj-list/2-uncategorised/585-mezhdunarodnye-medali-peterburgskikh-orientirovshchikov" target="_blank" rel="noopener">медальному листу ФСО Санкт-Петербурга</a>: 62 медали, большинство из них — юношеские и юниорские. Список ведёт городская федерация, поэтому успехи спортсменов, выступавших за область (например, золото Д. Цветкова на чемпионате Европы 2008 года), в нём могут отсутствовать.</figcaption>
+            </figure>
+            <div class="hist-heroes" style="clear: both"><figure class="hist-fig hist-fig-none"><a href="../event.html?id=SPB_20060520_1"><img class="help-figure" src="img/spb_ra_2021.webp" alt="Юные участницы «Российского Азимута» 2021 года в Удельном парке." loading="lazy"></a><figcaption>«Российский Азимут» 2021 года в Удельном парке: на петербургских этапах бывает от 2 500 до 5 000 участников. <span class="hist-credit">Фото: <a href="https://spbof.ru/ru/projects/rossijskij-azimut" target="_blank" rel="noopener">ФСО Санкт-Петербурга</a></span></figcaption></figure><figure class="hist-fig hist-fig-none"><a href="https://spbof.ru/ru/istoriya" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_mass_start.webp" alt="Общий старт массовых соревнований по ориентированию, архивное чёрно-белое фото." loading="lazy"></a><figcaption>Под транспарантом «Старт» — общий старт массовых ленинградских соревнований: архивный кадр из хроники федерации. <span class="hist-credit">Фото: <a href="https://spbof.ru/ru/istoriya" target="_blank" rel="noopener">хроника ФСО Санкт-Петербурга</a></span></figcaption></figure></div>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>Лыжное ориентирование: от Кавголова до чемпионата Европы</h2>
+            <figure class="hist-fig hist-fig-right hist-fig-narrow"><a href="../original_maps/winter/toksovo_hepojarvi_west_winter_1987_omaps.jpg" target="_blank"><img class="help-figure" src="img/spb_ski_1987.webp" alt="Зимняя карта Токсова (запад Хепоярви) 1987 года с сетью лыжней." loading="lazy"></a><figcaption>Токсово, запад Хепоярви, 1987 год: зимняя карта, где главное — сеть лыжней разной ширины. Основной автор — В. Л. Чегаровский. <a href="../original_maps/winter/toksovo_hepojarvi_west_winter_1987_omaps.jpg" target="_blank">Открыть оригинал ↗</a></figcaption></figure>
+            <p>
+                Зимний вид у Ленинграда почти ровесник летнего: уже 12 января 1941 года под Кавголовом прошли командные лыжные гонки по
+                закрытому маршруту. Первый зимний чемпионат города в новом формате — на маркированной трассе — состоялся 10 марта 1960 года
+                в Орехове, с 1965 года в программу вошла эстафета, а в 1968-м — лыжный марафон (первыми стали Н. Махалов и О. Казанцева).
+                Маркированная трасса со штрафными кругами — «своеобразный биатлон», как назвал её Г. В. Шур в
+                <a href="https://rufso.ru/wp-content/uploads/2019/11/2002_2_compressed.pdf" target="_blank" rel="noopener">«Азимуте»</a>, — была придумана Л. В. Лебёдкиным и впервые опробована на
+                <a href="../event.html?id=SPB_19660313_1">эстафете зимнего матча городов</a> в Орехове в марте 1966 года. На всесоюзных зимних соревнованиях 1968 года в Калужской области маркированную трассу
+                выиграла Зоя Пятакова.
+            </p>
+            <p>
+                Ориентирование в заданном направлении на лыжах впервые провели в Кавголове 23 января 1972 года, на зимнем матче с Эстонией
+                (начальник дистанции С. Н. Крылов). В том же году женская команда «Труда», целиком ленинградская (О. Казанцева,
+                Г. Цыпкина, З. Пятакова), выиграла всесоюзные зимние соревнования в Туле, в 1974-м в Перми золото взяли И. Степанова
+                и А. Спица, а в марте 1975 года на <a href="https://o-site.spb.ru/history/Knots/ussr-75.html" target="_blank" rel="noopener">всесоюзных зимних соревнованиях</a> в Кавголове и Энколове
+                Ленинград впервые выиграл общий зачёт. В 1977 году в Свердловске две личные победы одержала Н. Святкина (Левичева),
+                а обе эстафеты выиграли ленинградцы. С 1978 года заданное направление и эстафеты в нём вошли в зимний чемпионат
+                города (первыми чемпионами стали А. Ширинян и И. Степанова), а на зимнем матче с Эстонией у Орехова впервые провели
+                эстафету в заданном направлении (начальники дистанций В. Г. Урванцев и В. Н. Белозёров).
+            </p>
+            <p>
+                1980-е — время ленинградских лыжниц. На Кубках СССР побеждали Н. Левичева (1981, 1984, 1986, 1987), И. Иванова,
+                Н. Леканова, Т. Свистун, С. Березина, а в 1983 году в Горьком на маркированной трассе все шесть первых мест заняли
+                ленинградки. В 1988 году Н. Левичева, С. Березина, Е. Петрова и А. Левичев первыми из ленинградцев выступили на
+                <a href="../event.html?id=IOF_19880302_1">чемпионате мира</a> в Финляндии. В 1989 году лыжное ориентирование впервые вошло в Спартакиаду
+                народов СССР, и сборная Ленинграда выиграла её в Кунгуре, а в декабре на <a href="../event.html?id=SPB_19891207_1">первом чемпионате СССР</a>
+                в Горнозаводске Светлана Березина победила в спринте. <a href="https://o-site.spb.ru/history/Peoples/epetrova.html" target="_blank" rel="noopener">Екатерина Петрова</a> — обладательница восьми
+                золотых медалей зимних всесоюзных соревнований, чемпионатов СССР и России 1988–1995 годов — выиграла <a href="../event.html?id=MAJOR_19920210_1">первый чемпионат России</a> в 1992 году,
+                а в 1996-м завоевала серебро в эстафете на <a href="../event.html?id=IOF_19960219_1">чемпионате мира</a> в Лиллехаммере.
+            </p>
+            <figure class="hist-fig hist-fig-left"><a href="../original_maps/winter/tsvelodubovo_winter_2003_omaps.jpg" target="_blank"><img class="help-figure" src="img/spb_ski_jwsoc_2003.webp" alt="Карта спринта юниорского чемпионата мира по лыжному ориентированию 2003 года в Цвелодубове." loading="lazy"></a><figcaption>Цвелодубово, 21 февраля 2003 года: карта спринта <a href="../event.html?id=SPB_20030220_1">юниорского чемпионата мира</a> (А. Ковязин, С. Кузнецов, С. Несынов). <a href="../original_maps/winter/tsvelodubovo_winter_2003_omaps.jpg" target="_blank">Открыть оригинал ↗</a></figcaption></figure>
+            <p>
+                Петербург и область не раз принимали главные лыжные старты страны: <a href="../event.html?id=SPB_19960125_1">личный чемпионат России 1996 года</a>
+                в Васкелове (главный судья А. М. Бровин), <a href="../event.html?id=SPB_19980218_1">финал чемпионата России 1998 года</a> в Орехове, первый в истории
+                <a href="https://o-site.spb.ru/history/WMSOC-99/index.html" target="_blank" rel="noopener">чемпионат мира среди ветеранов</a> (Лемболово, 1999), <a href="../event.html?id=SPB_20030220_1">юниорский чемпионат мира</a>
+                2003 года в Цвелодубове, Всероссийские зимние универсиады — <a href="../event.html?id=SPB_20220205_1">2022 года в Лемболове</a> и
+                <a href="../event.html?id=SPB_20240203_1">2024 года в Токсове</a>, <a href="../event.html?id=SPB_20230209_1">первенство России 2023 года</a>. Ветераны продолжали побеждать
+                и на мировом уровне: <a href="https://o-site.spb.ru/history/Peoples/vsfersh.html" target="_blank" rel="noopener">Виктория Фершалова</a> завоевала четыре золота зимних чемпионатов мира среди ветеранов
+                в 1999–2007 годах и ещё два — в 2018-м, а в 2020 году две золотые медали в группе Ж70 взяла Т. Свистун. С 2007 года
+                проводится длительное лыжное ориентирование <a href="../start.html?start=100x24">«100×24»</a>, а в 2012 году под Лемболовом прошёл
+                <a href="../event.html?id=SPB_20120309_1">чемпионат России по лыжному рогейну</a>.
+            </p>
+            <p>
+                Новейшую историю олицетворяет <strong>Сергей Горланов</strong> (Ленинградская область) — <a href="../event.html?id=IOF_20220127_1">чемпион Европы 2022 года</a>
+                в эстафете и многократный чемпион России сезона 2025/26. Федерация, в свою очередь, решает главную проблему зимнего вида —
+                доступность: в 2022–2023 годах по президентскому гранту действовал проект
+                <a href="https://spbof.ru/ru/projects/lyzhnoe-orientirovanie-v-shagovoj-dostupnosti" target="_blank" rel="noopener">«Лыжное ориентирование — в шаговой доступности»</a>
+                с бесплатными открытыми тренировками на «сетке» лыжней в Кузьмолове.
+            </p>
+            <dl class="hist-facts">
+                <dt>Зимние карты</dt>
+                <dd>37 карт в основном разделе архива O-Maps: 6 — 1980-х, 1 — 1990-х, 5 — 2000-х, 8 — 2010-х, 14 — 2020-х, у 3 год не указан; больше всех их у Ю. Чегаровского, В. Добрецова и А. Ковязина</dd>
+                <dt>Старты в календаре</dt>
+                <dd>251 лыжное событие в 2004–2026 годах (без лыжных рогейнов); пик — 21 в 2023 году</dd>
+            </dl>
+            <div class="hist-heroes" style="clear: both"><figure class="hist-fig hist-fig-none"><a href="https://spbof.ru/ru/projects/lyzhnoe-orientirovanie-v-shagovoj-dostupnosti" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_ski_poligon_2023.webp" alt="Открытая тренировка по лыжному ориентированию на полигоне, 2023 год." loading="lazy"></a><figcaption>Открытая тренировка на лыжном полигоне проекта «Лыжное ориентирование — в шаговой доступности», 2023 год. <span class="hist-credit">Фото: <a href="https://spbof.ru/ru/projects/lyzhnoe-orientirovanie-v-shagovoj-dostupnosti" target="_blank" rel="noopener">ФСО Санкт-Петербурга</a></span></figcaption></figure><figure class="hist-fig hist-fig-none"><a href="../event.html?id=IOF_20220126_1"><img class="help-figure" src="img/se1.webp" alt="Длинная дистанция чемпионата Европы 2022 года в болгарском Чепеларе." loading="lazy"></a><figcaption>Чепеларе, 2022 год: длинная дистанция того чемпионата Европы, на котором С. Горланов выиграл эстафету. <span class="hist-credit">Карта: <a href="https://gps.tracksport.eu/" target="_blank" rel="noopener">TrackSport</a></span></figcaption></figure></div>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>Велоориентирование: от двух «Кам» до чемпионата Европы</h2>
+            <figure class="hist-fig hist-fig-right"><a href="../original_maps/velo/lembolovo_russia_2007_omaps.jpg" target="_blank"><img class="help-figure" src="img/spb_mtbo_2007.webp" alt="Карта лонга чемпионата России по велоориентированию 2007 года в Лемболове." loading="lazy"></a><figcaption>Лемболово, 28 июня 2007 года: карта лонга <a href="../event.html?id=SPB_20070624_1">чемпионата России по велоориентированию</a>. <a href="../original_maps/velo/lembolovo_russia_2007_omaps.jpg" target="_blank">Открыть оригинал ↗</a></figcaption></figure>
+            <p>
+                Велоориентирование в России началось именно в Петербурге. По
+                <a href="https://o-site.spb.ru/history/Knots/velo-96.html" target="_blank" rel="noopener">воспоминаниям В. П. Бородина</a>, 6 октября 1994 года на закрытии летнего сезона три участника прошли
+                шестикилометровую трассу в заданном направлении — двое на складных «Камах» и один на настоящем маунтинбайке, преимущество
+                которого было очевидным. На следующий день решили покупать байки, при городской федерации появилась комиссия по
+                ориентированию на МТБ, и летом 1995 года 7–8 энтузиастов уже регулярно стартовали на специальных трассах, а двое съездили
+                на этап Кубка Финляндии — там 13-летний Сергей Степанов стал вторым в группе Н16. Одним из основателей нового вида был
+                «энтузиаст и бессребреник» <a href="https://o-site.spb.ru/history/Peoples/bap.html" target="_blank" rel="noopener">Борис Панкратьев</a>, прорубавший трассы и переводивший зарубежные
+                материалы; его памяти с <a href="../event.html?id=SPB_20060715_1">2006 года</a> посвящены соревнования по велоориентированию.
+            </p>
+            <p>
+                13–15 сентября 1996 года <a href="../event.html?id=SPB_19960913_1">в Лемболове</a> прошёл первый чемпионат России: победителями по сумме трёх дней
+                стали Виктор Корчагин (Московская область) и Екатерина Петрова и получили новенькие маунтинбайки, а среди призёров было много
+                петербуржцев — Вячеслав Семёнов, Андрей Колобов, Тарас Фёдоров, Анастасия Фёдорова, Гюльнара Пашаева. Тренерами первой сборной
+                России стали В. П. Бородин и И. Степанова (подробнее — в <a href="russia-mtbo.html">статье о чемпионатах России на велосипедах</a>).
+                В 2004 году в Орехове прошёл <a href="../event.html?id=SPB_20040904_1">чемпионат России</a> (бронза у мужской эстафеты Петербурга — И. Гусев,
+                А. Шелёхин, Ю. Бородулин), в том же году — <a href="../event.html?id=SPB_20040710_1">чемпионат города по MTB-O</a>, а в 2007 году
+                Лемболово и Васкелово снова приняли <a href="../event.html?id=SPB_20070624_1">чемпионат России</a>. В 2006 году А. Будкин и И. Бондаренко первыми
+                из петербуржцев выступили на <a href="../event.html?id=IOF_20060709_1">чемпионате мира</a> в Финляндии.
+            </p>
+            <figure class="hist-fig hist-fig-left hist-fig-narrow"><a href="emtboc.html"><img class="help-figure" src="img/p_hara.webp" alt="Марика Хара (Финляндия) — чемпионка Европы 2011 года в спринте." loading="lazy" style="object-position: 50% 25%"></a><figcaption>Марика Хара (Финляндия) — чемпионка Европы 2011 года в спринте, на чемпионате в Ленинградской области. <span class="hist-credit">Фото: Tage V. Andersen, <a href="https://commons.wikimedia.org/wiki/File:Marika_Hara_FIN276.jpg" target="_blank" rel="noopener">CC BY-SA 3.0, Wikimedia Commons</a></span></figcaption></figure>
+            <p>
+                Вершиной стал <a href="../event.html?id=IOF_20110917_1">чемпионат Европы 2011 года</a> с центром в Рощине, совмещённый с финалом Кубка мира: обе
+                российские эстафеты там стали серебряными. Затем область принимала <a href="../event.html?id=SPB_20190628_2">чемпионат России 2019 года</a> в
+                Кавголове, <a href="../event.html?id=SPB_20230511_1">первенство России 2023 года</a> в Лемболове, а Федерация спортивного ориентирования Петербурга —
+                <a href="../event.html?id=SPB_20250522_1">всероссийские и международные соревнования 2025 года</a> в Зеленогорске и
+                <a href="../event.html?id=SPB_20260523_1">международные соревнования 2026 года</a>. Рядом развиваются родственные форматы: велорогейны
+                (в 2013 году под Полянами прошёл <a href="../event.html?id=SPB_20130602_1">первый чемпионат России по рогейну на велосипедах</a>) и
+                <a href="../start.html?start=BA">BikeAdventure</a> — ориентирование на велосипедах с преодолением естественных препятствий.
+                Из петербургских спортсменов призёром чемпионатов России в последние годы становилась <strong>Екатерина Ландграф</strong>.
+            </p>
+            <dl class="hist-facts">
+                <dt>Велокарты</dt>
+                <dd>51 карта в основном разделе архива O-Maps: 1 — 1990-х (Дудергоф), 8 — 2000-х, 6 — 2010-х, 34 — 2020-х, у 2 год не указан; больше всех их у В. Матреничева, Р. Кузнецова и А. Шириняна</dd>
+                <dt>Старты в календаре</dt>
+                <dd>150 событий велоориентирования в 2004–2026 годах (без велорогейнов)</dd>
+            </dl>
+            <div class="hist-heroes" style="clear: both"><figure class="hist-fig hist-fig-none"><a href="../event.html?id=SPB_20050723_1"><img class="help-figure" src="img/spb_mtbo_2005.webp" alt="Карта спринта чемпионата Санкт-Петербурга по MTB-O 23 июля 2005 года, Силанде." loading="lazy" style="aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 20%"></a><figcaption>Силанде, 23 июля 2005 года: спринт <a href="../event.html?id=SPB_20050723_1">чемпионата Санкт-Петербурга по MTB-O</a>. <a href="../original_maps/velo/silande_velo_2005_omaps.jpg" target="_blank">Открыть оригинал ↗</a></figcaption></figure><figure class="hist-fig hist-fig-none"><a href="../event.html?id=SPB_20251011_6"><img class="help-figure" src="img/spb_mtbo_2025.webp" alt="Карта велокросс-эстафеты чемпионата и первенства Санкт-Петербурга 11 октября 2025 года, Лемболово." loading="lazy" style="aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 20%"></a><figcaption>Лемболово, 11 октября 2025 года: велокросс-эстафета <a href="../event.html?id=SPB_20251011_6">чемпионата и первенства Санкт-Петербурга</a> (К. Токмаков, Р. Кузнецов). <a href="../original_maps/velo/lembolovo_velo_relay_2025_omaps.gif" target="_blank">Открыть оригинал ↗</a></figcaption></figure></div>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>Тренеры</h2>
+            <figure class="hist-fig hist-fig-right hist-fig-narrow"><a href="https://rufso.ru/wp-content/uploads/2017/07/azimut-2-2014.pdf#page=44" target="_blank" rel="noopener"><img class="help-figure" src="img/spb_kuznetsov.webp" alt="Сергей Владимирович Кузнецов." loading="lazy"></a><figcaption>Сергей Владимирович Кузнецов (1954–2013) — тренер сборной Ленинграда, выигравшей общий зачёт чемпионата СССР 1986 года, картограф скал Кузнечного. <span class="hist-credit">Фото из книги Н. В. Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы»</a></span></figcaption></figure>
+            <p>
+                Первым тренером Ленинграда была дипломированный специалист Гертруда Николаевна Васильева: её ученики Л. Милова,
+                В. Митенков, Г. Козлович, Л. Фомичёва доказали, что одного туристского опыта мало, а в 1972 году она защитила первую в РСФСР
+                диссертацию по методике тренировки ориентировщиков. Технику и тактику ставил Л. В. Беляков — автор известной «коробочки
+                Белякова» и одной из первых методик (1968), тренер сборных города и СССР. С конца 1960-х ведущим тренером стал
+                выпускник института Лесгафта С. Н. Крылов, при котором выросли скоростная выносливость и умение читать карту на бегу;
+                в начале 1970-х атлетикой сборной занимался Ю. И. Глебов, а во второй половине десятилетия лыжную подготовку женщин
+                поставил <a href="https://o-site.spb.ru/history/Peoples/rubtsov.html" target="_blank" rel="noopener">А. А. Рубцов</a> — его заслуга есть в успехах И. Степановой и И. Ивановой.
+            </p>
+            <p>
+                Областную школу основал в 1969 году Ю. Н. Леонов, первый тренер Н. Левичевой, М. Святкина, Е. Кириченко; первым тренером
+                областного ориентирования называют М. М. Малову. К началу 1980-х в ДСО и коллективах физкультуры работали штатные и
+                общественные тренеры из сильных спортсменов: В. М. Баймаков («Зенит»), В. Н. Белозёров и
+                <a href="https://o-site.spb.ru/history/Peoples/vgu.html" target="_blank" rel="noopener">В. Г. Урванцев</a> (Дворец пионеров), А. М. Бровин («Динамо»), А. М. Василевский, А. В. Волков
+                и Л. А. Фёдоров («Спартак»), С. А. и О. М. Казанцевы («Экран»), А. Б. Осмехин (ЛТИ), Н. Г. Пирогов («Электросила»),
+                З. В. Пятакова (ДЮСШ Сестрорецкого района), <a href="https://o-site.spb.ru/history/Peoples/stas.html" target="_blank" rel="noopener">С. А. Рачицкий</a> (ЛИАП; в 1993 году — главный тренер
+                сборной России на чемпионате мира), А. А. Ширинян (СКА), В. Н. Шумилов («Труд», Кузьмоловская школа). Сборную Ленинграда, выигравшую общий зачёт чемпионата СССР 1986 года, готовили С. В. Кузнецов и Ю. Б. Овчинников.
+                Белозёров в 1984 году
+                создал спортшколу № 2 при Дворце пионеров (ныне СДЮШОР-2 ГДТЮ) и бессменно руководил ею; Урванцев много лет работал с
+                юношескими сборными страны. В армейском спорте сборную ВС России тренировала <a href="https://o-site.spb.ru/history/Peoples/larisa.html" target="_blank" rel="noopener">Л. В. Анучкина</a>,
+                в университетском — <a href="https://o-site.spb.ru/history/Peoples/bam.html" target="_blank" rel="noopener">Б. А. Михайлов</a>.
+            </p>
+            <p>
+                Следующее поколение тренеров вырастило мировых призёров: у К. В. Волкова занимались М. Мамлеев и Е. Марковкина (а позже и
+                Артём Попов); М. В. Гуреев — тренер С. Деткова, М. В. Семёнов — Е. Шараповой и Д. Ибрагимова, А. Н. Козьмов, Ю. А. Березюк
+                и В. Л. Чегаровский — Д. Цветкова. <a href="https://o-site.spb.ru/history/Peoples/sedr.html" target="_blank" rel="noopener">С. Ю. Дробышев</a> в 2001 году первым из петербургских ориентировщиков
+                стал заслуженным тренером России — за выступление команды глухих на Сурдлимпийских играх; в 2007 году это звание получила
+                <a href="https://o-site.spb.ru/history/Peoples/vsfersh.html" target="_blank" rel="noopener">В. С. Фершалова</a> («Балтийский берег»). В 2005 году почётный знак «За заслуги в развитии физической
+                культуры и спорта Санкт-Петербурга» среди первых получили пять детских тренеров-ориентировщиков —
+                <a href="https://o-site.spb.ru/history/Sum-2005/smolny.html" target="_blank" rel="noopener">В. Н. Белозёров, К. В. Волков, М. В. Гуреев, С. Б. Сахарова и В. Г. Урванцев</a>. Сегодня
+                чемпионов и призёров страны готовят, в частности, Е. Н. Грошева («Экран» — и бег, и лыжи, и велосипед), Л. В. Сергеева и
+                М. В. Малышев (Nord West; Сергеева в 2017 году признана лучшим тренером города по неолимпийским видам), А. В. Егоров (Пушкин),
+                А. В. Соловьёва (ABC), А. М. Волков (клуб «31 КП» для спортсменов с нарушением слуха и трейл-ориентирование).
+            </p>
+            <p>
+                Петербургская тренерская мысль оставила и большую библиотеку. Монографии «Основы беговой подготовки в спортивном
+                ориентировании» (Б. А. Михайлов, А. А. Ширинян и др., 1994) и «Психофизиология спортивного ориентирования» С. А. Казанцева (2000),
+                его же диссертация об интегральной подготовке ориентировщиков (2005), книга А. А. Шириняна и А. В. Иванова «Современная подготовка
+                спортсмена-ориентировщика» (2008) и многочисленные пособия Шириняна собраны в разделе <a href="../books.html">«Книги и статьи»</a>
+                O-Maps.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>Руководители, судьи, почётные члены</h2>
+            <p>
+                За всеми этими стартами стояли общественники. Первым руководителем ленинградских ориентировщиков была
+                Г. Н. Васильева (1962–1966), затем секцию и федерацию дольше всех возглавлял Н. В. Благово (1966–1983 и 2003–2007).
+                Председателями и президентами также были генерал-майор А. В. Петров (1983–1986), капитан I ранга Г. В. Морозов (1986–1988),
+                инженер <a href="https://o-site.spb.ru/history/Peoples/amanaev.html" target="_blank" rel="noopener">А. С. Манаев</a> (1988–1990), экономист <a href="https://o-site.spb.ru/history/Peoples/belyaev.html" target="_blank" rel="noopener">С. Г. Беляев</a> (1990–1992), Г. В. Ильменков (1992–1995), тренер В. П. Бородин
+                (1995–2000), генерал-полковник В. Н. Саввин (2000–2003) и инженер А. А. Курдюмов (2007–2013); с 2013 года
+                <a href="https://spbof.ru/ru/fso/prezidium" target="_blank" rel="noopener">федерацию</a> возглавляет Д. В. Куприенко.
+                Судейскую школу заложили первые судьи всесоюзной категории — Л. В. Лебёдкин и А. И. Муравьёв (1967), Н. В. Благово,
+                Л. В. Беляков, А. Д. Котов, В. М. Баймаков, Ю. Н. Леонов и Э. П. Бусыгин. Имена почти трёхсот энтузиастов собраны в
+                «<a href="https://o-site.spb.ru/history/Peoples/280.html" target="_blank" rel="noopener">Списке 280</a>» на O-Site, а
+                <a href="https://spbof.ru/ru/fso/honorarymembers" target="_blank" rel="noopener">почётными членами</a> городской федерации
+                избраны 57 человек — от Г. Н. Васильевой и И. Е. Штейнбука до Е. В. Петровой и <a href="https://o-site.spb.ru/history/Peoples/detkov99.html" target="_blank" rel="noopener">С. Ю. Деткова</a>.
+            </p>
+
+        </section>
+
+        <section class="hist-section clearfix">
+            <h2>Вместо заключения</h2>
+            <p>
+                Сам Никита Благово в послесловии 2016 года к своей книге с горечью писал, что Петербург во многом утратил завоёванное
+                в первую четверть века лидерство, а карты всё чаще рисуют приезжие картографы. Но календарь последних лет — с
+                рекордным числом стартов, городскими спринтами, школьными проектами и молодыми картографами — показывает, что
+                традиция, начатая у Линдуловки, жива.
+            </p>
+        </section>
+
+        <p class="hist-more">
+            Статья — компиляция материалов O-Maps и других источников, перечисленных в конце страницы; при её подготовке
+            использовался ИИ. Если вы заметили неточность или можете дополнить рассказ, <a href="../help/contacts.html">напишите нам</a>.
+        </p>
+        <section class="hist-section clearfix">
+            <h2>Источники</h2>
+            <small>Н. В. Благово, <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">«Первые азимуты на берегах Невы.
+                Спортивное ориентирование Ленинграда в 1959–1984 гг.»</a> (СПб., 2017; редакция O-Maps 2026 года) — текст и иллюстрации;
+                В. В. Добрецов, <a href="https://o-site.spb.ru/history/" target="_blank" rel="noopener">«Спортивное ориентирование в Ленинграде —
+                Санкт-Петербурге»</a>: <a href="https://o-site.spb.ru/history/History/book.html" target="_blank" rel="noopener">история 1959–1984</a>,
+                <a href="https://o-site.spb.ru/history/History/lso.html" target="_blank" rel="noopener">летопись 1939–2008</a>,
+                <a href="https://o-site.spb.ru/history/Knots/index.html" target="_blank" rel="noopener">«Узелки»</a>,
+                <a href="https://o-site.spb.ru/history/History/stats.html" target="_blank" rel="noopener">статистика</a>;
+                Федерация спортивного ориентирования Санкт-Петербурга —
+                <a href="https://spbof.ru/ru/istoriya/2-uncategorised/582-istoriya-orientirovaniya-1992g-po-nastoyashchee-vremya" target="_blank" rel="noopener">вехи 1992 — наст. время</a>,
+                <a href="https://spbof.ru/ru/istoriya/2-uncategorised/580-rukovoditeli-leningradskogo-i-peterburgskogo-orientirovaniya" target="_blank" rel="noopener">руководители</a>,
+                <a href="https://spbof.ru/ru/istoriya/medalnyj-list" target="_blank" rel="noopener">медальный лист</a>,
+                <a href="https://spbof.ru/ru/projects" target="_blank" rel="noopener">проекты</a> и фотографии;
+                даты, места, результаты и карты — <a href="../calendar.html?startYear=ALL">календарь</a> и
+                <a href="../spb.html">архив карт O-Maps</a> (данные диаграмм — по состоянию на октябрь 2026 года);
+                статьи O-Maps о <a href="ussr-foot.html">чемпионатах СССР</a>, <a href="russia-mtbo.html">велоориентировании</a>,
+                <a href="woc.html">чемпионатах мира</a>, <a href="eoc.html">Европы</a> и <a href="emtboc.html">чемпионатах Европы на велосипедах</a>.
+            </small>
+        </section>
+
+        <p class="hist-more">
+            Посмотреть архив: <a href="https://o-site.spb.ru/history/History/lso.html" target="_blank" rel="noopener">летопись Виктора Добрецова</a>
+            · <a href="../books/blagovo_first_azimuths_2026_omaps.pdf" target="_blank">книга Н. В. Благово</a>
+            · <a href="../charts-spb.html">статистика карт Петербурга</a>
+            · <a href="../documents.html">документы O-Maps</a>.
+        </p>
+        <nav aria-label="Другие исторические статьи" class="hist-nav">
+            <a href="domestic.html">Чемпионаты СССР и России →</a> <a href="iof.html">Чемпионаты мира и Европы →</a>
+        </nav>
+    </div>
+</main>
+<footer>
+    <hr/>
+    <span class="my-copyright">© <a href="https://vk.com/fradkin">Фрадкин Евгений</a>,<a href="https://t.me/o_maps">O-Maps group</a></span>
+</footer>
+<script src="../js/ext/jquery.slim.min.js"></script>
+<script src="../js/ext/bootstrap.min.js"></script>
+<script src="../js/ext/bootstrap5-dropdown-ml-hack.js"></script>
+<script src="../js/ext/chart-4.4.8.js"></script>
+<script src="../js/history-spb.js?v=1"></script>
+<script src="../js/welcome.js?v=37"></script>
+<script>writeWelcomeButton('../');</script>
+<script src="../js/seo-meta.js?v=10"></script>
+</body>
+</html>
