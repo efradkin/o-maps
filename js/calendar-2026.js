@@ -3031,6 +3031,7 @@ let events2026 = [
         place: 'сад 9 Января',
         reg: 'https://orgeo.ru/event/55827',
         bulletin: 'https://orgeo.ru/files/event/file/55827_8f70de77d6.pdf',
+        video: ['https://vkvideo.ru/video-238805001_456239045','https://www.youtube.com/watch?v=b_IGSxtLwiQ'],
         endReg: '2026-10-12 23:00',
         fmt: 'спринт',
         owner: 'NVGTR',
@@ -3141,7 +3142,10 @@ let events2026 = [
         type: ['ORIENT', 'ROGAINE'],
         place: 'Пионерский парк',
         fmt: 'спринт-рогейн, лабиринт',
-        link: 'https://t.me/ositespbnews/3468',
+        link: 'https://vk.com/wall-163764238_16710',
+        reg: 'https://orgeo.ru/event/56189',
+        endReg: '2026-10-19 16:00',
+        bulletin: 'https://orgeo.ru/files/event/file/56189_526817af89.docx',
         info: 'Старт открытый с 16.00 до 18.30.',
         map: 'sakharova_2015'
     },
@@ -3171,6 +3175,7 @@ let events2026 = [
         date: '2026-10-24',
         name: 'Финал КЛО',
         place: 'Стеклянный',
+        o_site: '261024r',
         link: 'https://www.multsport.ru/starts/klo-final-26/',
         reg: 'https://www.multsport.ru/starts/klo-final-26/registration.html',
         type: 'ROGAINE',
@@ -3286,6 +3291,16 @@ let events2026 = [
         type: 'ROGAINE',
         fmt: '6(5), 2',
         start: 'GORNY_CROSS'
+    },
+    {
+        id: 'SPB_20261108_1',
+        date: '2026-11-08',
+        place: 'Васильево, Тиверская застава',
+        name: 'XIII Кубок Весты, 2 этап',
+        link: 'https://vk.ru/wall-30365190_9671',
+        owner: 'VESTA_PRIOZERSK',
+        map: 'vasilievo_2024',
+        map: 'priozersk_kamenisty'
     },
     {
         id: 'SPB_20261114_1',
