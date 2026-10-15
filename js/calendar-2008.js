@@ -527,7 +527,7 @@ let events2008 = [
         date: '2008-05-31',
         place: 'Кузнечное',
         map: 'kuznechnoe_2009',
-        name: 'Горный Кросс - 9',
+        name: 'Горный кросс-9',
         type: 'ROGAINE',
         info: 'Открытое первенство Петроградского клуба туристов по ориентированию «100 за 24» - «Горный кросс – 9» на приз Администрации Петроградского района г. С-Петербурга.',
         start: 'GORNY_CROSS',
@@ -646,6 +646,18 @@ let events2008 = [
         bulletin: 'https://o-site.spb.ru/_races/080706/080706_info.htm'
     },
     {
+        id: 'SPB_20080718_1',
+        date: '2008-07-18',
+        endDate: '2008-07-20',
+        place: 'Орехово',
+        name: 'Горный кросс-10',
+        type: ['ROGAINE','ORIENT'],
+        fmt: 'заданное направление, рогейн 3 и 1,5 часа, турполоса',
+        info: 'Трёхдневный тренировочный старт на озёрах у Орехова.',
+        res: 'http://gornycross.narod.ru/gk-10-rez.xls',
+        start: 'GORNY_CROSS'
+    },
+    {
         id: 'SPB_20080720_1',
         date: '2008-07-20',
         place: 'Голубая Дача',
@@ -727,7 +739,8 @@ let events2008 = [
         endDate: '2008-08-24',
         place: 'Каменногорск',
         name: 'III Чемпионат СПб по рогейну',
-        start: 'SPB_CHAMP',
+        info: 'Совмещён с «Горным кроссом-11».',
+        start: ['SPB_CHAMP','GORNY_CROSS'],
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/08082224/080824_res.htm',
         o_site: '08082224'
@@ -1077,7 +1090,7 @@ let events2008 = [
     {
         id: 'SPB_20081129_1',
         date: '2008-11-29',
-        name: 'Горный кросс - 14',
+        name: 'Горный кросс-14',
         place: 'Орехово',
         map: 'lembolovo_orekhovo_peski_gk_2026',
         publish: 'https://o-site.spb.ru/race.php?id=081129',

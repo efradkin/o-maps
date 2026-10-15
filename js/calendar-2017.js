@@ -571,7 +571,7 @@ let events2017 = [
     {
         id: 'SPB_20170429_2',
         date: '2017-04-29',
-        name: 'Горный кросс - 55',
+        name: 'Горный кросс-55',
         place: 'Луга, Шалово',
         map: 'luga_omchino_gk_2023',
         type: 'ROGAINE',
@@ -981,7 +981,7 @@ let events2017 = [
         date: '2017-05-27',
         endDate: '2017-05-28',
         place: 'Кузнечное',
-        name: 'ГорныйКросс-56',
+        name: 'Горный кросс-56',
         res: 'https://o-site.spb.ru/_races/170527R/170527R_res.pdf',
         fmt: 'рогейн БЕГ - 24 и 6ч, ВЕЛО - 5ч, кросс-трейл - 38 и 17км',
         o_site: '170527R',
@@ -1269,7 +1269,7 @@ let events2017 = [
     {
         id: 'SPB_20170715_1',
         date: '2017-07-15',
-        name: 'ГорныйКросс-57',
+        name: 'Горный кросс-57',
         place: 'Орехово',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/170715R/170715R_res.pdf',
@@ -1725,7 +1725,7 @@ let events2017 = [
     {
         id: 'SPB_20170930_1',
         date: '2017-09-30',
-        name: 'ГорныйКросс-59',
+        name: 'Горный кросс-59',
         place: 'Молодежное',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/170930R/170930R_res.pdf',
@@ -2113,7 +2113,7 @@ let events2017 = [
     {
         id: 'SPB_20171118_1',
         date: '2017-11-18',
-        name: 'ГорныйКросс-60',
+        name: 'Горный кросс-60',
         place: 'Зеленогорск',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/171118R/171118R_res.pdf',

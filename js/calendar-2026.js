@@ -3044,7 +3044,7 @@ let events2026 = [
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/56142',
         endReg: '2026-10-16 16:00',
-        bulletin: 'https://orgeo.ru/files/event/file/56142_1e50add573.pdf',
+        bulletin: 'https://orgeo.ru/files/event/file/56142_53e5103ea6.pdf',
         start: 'SPRINT_TOUR',
         info: 'Памяти Ю.М.Артемьева.',
         map: 'vasileostrovskaya_2024'

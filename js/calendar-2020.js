@@ -1779,7 +1779,7 @@ let events2020 = [
     {
         id: 'SPB_20201114_1',
         date: '2020-11-14',
-        name: '«Горный Кросс - 78»',
+        name: '«Горный кросс-78»',
         place: 'Зеленогорск',
         map: 'zelenogorsk_gk_2009',
         type: 'ROGAINE',

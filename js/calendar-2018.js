@@ -33,7 +33,7 @@ let events2018 = [
     {
         id: 'SPB_20180113_1',
         date: '2018-01-13',
-        name: 'Горный Кросс-61',
+        name: 'Горный кросс-61',
         place: 'Орехово',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/180113R/180113R_res.pdf',
@@ -525,7 +525,7 @@ let events2018 = [
     {
         id: 'SPB_20180501_1',
         date: '2018-05-01',
-        name: 'Горный Кросс-62',
+        name: 'Горный кросс-62',
         place: 'Луга',
         map: 'luga_omchino_gk_2023',
         type: 'ROGAINE',
@@ -783,7 +783,7 @@ let events2018 = [
         date: '2018-05-26',
         place: 'Кузнечное',
         map: 'kuznechnoe_2009',
-        name: 'Горный кросс - 63',
+        name: 'Горный кросс-63',
         type: 'ROGAINE',
         fmt: '24,8,3',
         link: 'https://vk.com/gornycross',
@@ -1684,7 +1684,7 @@ let events2018 = [
     {
         id: 'SPB_20180929_1',
         date: '2018-09-29',
-        name: 'ГорныйКросс-64',
+        name: 'Горный кросс-64',
         place: 'Молодежное',
         map: 'molodezhnoe_gk_2024',
         type: 'ROGAINE',
@@ -2101,7 +2101,7 @@ let events2018 = [
     {
         id: 'SPB_20181117_1',
         date: '2018-11-17',
-        name: 'ГорныйКросс-65',
+        name: 'Горный кросс-65',
         place: 'Зеленогорск',
         map: 'zelenogorsk_gk_2009',
         type: 'ROGAINE',

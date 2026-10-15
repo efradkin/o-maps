@@ -1715,7 +1715,7 @@ let eventsEarly = [
         id: 'SPB_19900509_1',
         date: '1990-05-09',
         place: 'Юкки',
-        name: 'Приз открытия сезока клуба Азимут',
+        name: 'Приз открытия сезона клуба Азимут',
         me: 'М-15',
         planner: 'SHLKHN_Y',
         res: './docs/1990/1990_05_09_open_omaps.pdf'

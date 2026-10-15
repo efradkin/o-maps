@@ -45,7 +45,7 @@ let events2019 = [
         date: '2019-01-13',
         place: 'Орехово',
         map: 'lembolovo_orekhovo_peski_gk_2026',
-        name: 'Горный кросс - 66',
+        name: 'Горный кросс-66',
         type: 'ROGAINE',
         res: 'http://www.o-site.spb.ru/_races/2019GK/190113R_split.htm',
         fmt: '5, 3',
@@ -558,7 +558,7 @@ let events2019 = [
         id: 'SPB_20190502_1',
         date: '2019-05-02',
         place: 'Шалово',
-        name: 'Горный Кросс - 67',
+        name: 'Горный кросс-67',
         type: 'ROGAINE',
         res: 'http://www.o-site.spb.ru/_races/2019GK/190502R_split.htm',
         o_site: '2019GK'
@@ -2134,7 +2134,7 @@ let events2019 = [
     {
         id: 'SPB_20191116_1',
         date: '2019-11-16',
-        name: 'Кубок «Горный Кросс»',
+        name: 'Кубок «Горный кросс»',
         place: 'Зеленогорск',
         map: 'zelenogorsk_gk_2009',
         type: 'ROGAINE',

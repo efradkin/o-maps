@@ -319,6 +319,15 @@ let events2004 = [
         map: 'sosnovka_2004'
     },
     {
+        id: 'SPB_20041114_1',
+        date: '2004-11-14',
+        place: 'Зеленогорск',
+        name: 'Ориентир-19',
+        fmt: 'группа АМ — 12,5 км, 17 КП',
+        start: 'ORIENTIR',
+        res: 'http://gornycross.narod.ru/gk-arch.xls'
+    },
+    {
         id: 'SPB_20041128_1',
         date: '2004-11-28',
         place: 'Осиновая Роща',

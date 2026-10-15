@@ -682,6 +682,17 @@ let events2007 = [
         bulletin: 'https://o-site.spb.ru/_races/070721v/MTBO_SPb_Ch1-2007.html'
     },
     {
+        id: 'SPB_20070721_2',
+        date: '2007-07-21',
+        place: 'Зеленогорск, оз Щучье',
+        name: 'Горный кросс-7',
+        type: 'ROGAINE',
+        fmt: '3 часа, бегом и на велосипеде',
+        info: 'Тренировочный рогейн. Лучший результат — И. Пировский («Миля-Спорт»): 40 очков за 2:42:54.',
+        res: 'http://gornycross.narod.ru/rez-gk-7d.xls',
+        start: 'GORNY_CROSS'
+    },
+    {
         id: 'SPB_20070722_1',
         date: '2007-07-22',
         place: 'Юкки',
@@ -1156,7 +1167,7 @@ let events2007 = [
         endDate: '2007-12-09',
         place: 'Орехово',
         map: 'lembolovo_orekhovo_peski_gk_2026',
-        name: 'Горный Кросс -8',
+        name: 'Горный кросс-8',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/071208_gk/071209_res.htm',
         info: 'Рогейн в форматах 6 часов и 3 часа',

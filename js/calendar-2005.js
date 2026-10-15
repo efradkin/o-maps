@@ -1,5 +1,16 @@
 let events2005 = [
     {
+        id: 'SPB_20050104_1',
+        date: '2005-01-04',
+        place: 'Лемболово',
+        name: 'Горный кросс-1',
+        type: 'SKI',
+        fmt: 'заданное направление: 5 и 10 км вдоль лыжных трасс, длинная дистанция без подготовленной лыжни (группа А — 20 км, 16 КП)',
+        info: 'Соревнования по лыжному ориентированию КСО «Азимут» на базе ЛМЗ, первый старт серии «Горный кросс».',
+        res: 'http://gornycross.narod.ru/protocol-GC-1.html',
+        start: 'GORNY_CROSS'
+    },
+    {
         id: 'SPB_20050108_1',
         date: '2005-01-08',
         endDate: '2005-01-09',
@@ -123,8 +134,9 @@ let events2005 = [
         date: '2005-03-20',
         place: 'Зеленогорск',
         map: 'zelenogorsk_gk_2009',
-        name: 'Горный Кросс - 2',
-        type: 'ROGAINE',
+        name: 'Горный кросс-2',
+        type: 'SKI',
+        info: 'Соревнования по лыжному ориентированию: группа А — 25 км, 21 КП, около 40 участников.',
         res: 'https://o-site.spb.ru/_races/050320_GK/GK-2_results.htm',
         start: 'GORNY_CROSS',
         o_site: '050320_GK'
@@ -469,8 +481,10 @@ let events2005 = [
         date: '2005-07-24',
         place: 'Орехово',
         map: 'lembolovo_orekhovo_peski_gk_2026',
-        name: 'Горный Кросс -3',
+        name: 'Горный кросс-3',
         type: 'ROGAINE',
+        fmt: '3 часа',
+        info: 'Первый рогейн серии «Горный кросс».',
         res: 'https://o-site.spb.ru/_races/050724_gk/050724_res.zip',
         start: 'GORNY_CROSS',
         o_site: '050724_gk'
@@ -759,8 +773,11 @@ let events2005 = [
         endDate: '2005-11-06',
         place: 'Орехово',
         map: 'lembolovo_orekhovo_peski_gk_2026',
-        name: 'Горный Кросс-4',
+        name: 'Горный кросс-4',
         type: 'ROGAINE',
+        fmt: '24, 8 и 3 часа',
+        info: 'I открытый Кубок Санкт-Петербурга по рогейну, около 150 участников. Победители в формате 24 часа — команда «Лучик» (С. Ященко, С. Юткин, Москва).',
+        res: ['http://gornycross.narod.ru/rez-gk4-24h.htm','http://gornycross.narod.ru/rez-gk4-8h.htm','http://gornycross.narod.ru/rez-gk4-3h.htm'],
         start: 'GORNY_CROSS',
         o_site: '05110406'
     },
@@ -806,7 +823,7 @@ let events2005 = [
         id: 'SPB_20051204_1',
         date: '2005-12-04',
         place: 'Лемболово',
-        name: 'Горный Кросс',
+        name: 'Горный кросс',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/050104/gorny_cross_res.htm',
         start: 'GORNY_CROSS',

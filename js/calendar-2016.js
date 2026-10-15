@@ -39,7 +39,7 @@ let events2016 = [
     {
         id: 'SPB_20160116_1',
         date: '2016-01-16',
-        name: 'Горный Кросс-50',
+        name: 'Горный кросс-50',
         place: 'Орехово',
         map: 'lembolovo_orekhovo_peski_gk_2026',
         type: 'ROGAINE',
@@ -531,7 +531,7 @@ let events2016 = [
     {
         id: 'SPB_20160501_1',
         date: '2016-05-01',
-        name: 'Горный Кросс - 51',
+        name: 'Горный кросс-51',
         place: 'Луга, Шалово',
         map: 'luga_omchino_gk_2023',
         type: 'ROGAINE',
@@ -794,7 +794,7 @@ let events2016 = [
     {
         id: 'SPB_20160528_1',
         date: '2016-05-28',
-        name: 'Горный Кросс - 52',
+        name: 'Горный кросс-52',
         place: 'Кузнечное',
         map: 'kuznechnoe_2009',
         type: 'ROGAINE',
@@ -1848,7 +1848,7 @@ let events2016 = [
     {
         id: 'SPB_20161112_1',
         date: '2016-11-12',
-        name: 'Горный Кросс - 54',
+        name: 'Горный кросс-54',
         place: 'Зеленогорск',
         map: 'zelenogorsk_gk_2009',
         type: 'ROGAINE',

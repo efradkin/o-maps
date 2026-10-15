@@ -779,7 +779,7 @@ let events2009 = [
     {
         id: 'SPB_20090718_1',
         date: '2009-07-18',
-        name: 'Горный Кросс - 16',
+        name: 'Горный кросс-16',
         place: 'Зеленогорск, оз Щучье',
         map: 'zelenogorsk_gk_2009',
         type: 'ROGAINE',
@@ -1292,7 +1292,7 @@ let events2009 = [
         date: '2009-11-28',
         place: 'Зеленогорск',
         map: 'zelenogorsk_gk_2009',
-        name: 'Горный Кросс-17',
+        name: 'Горный кросс-17',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/091128/091128_res.htm',
         info: 'Рогейн в форматах 3 и 8 часов',
