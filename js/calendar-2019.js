@@ -1271,7 +1271,8 @@ let events2019 = [
         video: [
             'https://www.youtube.com/watch?v=yPT8N3zEwxs',
             'https://www.youtube.com/watch?v=e82EscSDsvs',
-            'https://www.youtube.com/watch?v=gYShCF_kPv4'
+            'https://www.youtube.com/watch?v=gYShCF_kPv4',
+            'https://vkvideo.ru/video-154221178_456239037'
         ],
         o_site: '19080105',
         reskeep: [177, 178, 180, 181],
