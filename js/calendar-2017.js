@@ -1454,7 +1454,7 @@ let events2017 = [
         endDate: '2017-09-10',
         place: 'Ягодное',
         name: 'MatrasOFF Race',
-        type: 'MULTI',
+        type: ['MULTI', 'ROGAINE'],
         reg: 'http://x-race.info/calendar/102909/request/',
         info: 'приключенческая гонка MatrasOFF Race - 2017 кубок Всеволожского района по рогейну, 4 этап',
         fmt: 'Рогейн 6ч (бег, вело), приключенческая гонка (Hard, Lite)',

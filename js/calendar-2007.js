@@ -137,6 +137,7 @@ let events2007 = [
         date: '2007-02-23',
         place: 'Сосново',
         name: '100x24',
+        type: 'ROGAINE',
         info: 'Рогейн 100 км. за 24 часа',
         o_site: '070223_100x24',
         endDate: '2007-02-24',

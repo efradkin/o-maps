@@ -1316,6 +1316,7 @@ let events2013 = [
         endDate: '2013-09-15',
         place: 'Выборг',
         name: 'Хэппи Хадж',
+        type: ['ORIENT','ROGAINE','TOURISM'],
         reg: 'http://www.piterhappening.ru/entry_hadz2013.html',
         res: 'https://o-site.spb.ru/_races/13091415/130914_res.htm',
         info: 'Три формата: рогейн 8 часов, заданное направление 24 часа или 15+10 часов с обязательной ночевкой (по типу "Марш-Броска")',
