@@ -177,9 +177,9 @@ let parkMaps = [
     },
     {
         name: 'Полюстровский парк',
-        year: 2022,
+        year: 2023,
         url: './maps/parks/polyustrovsky_2022.webp',
-        link: './original_maps/parks/polyustrovsky_2022_omaps.jpg',
+        link: ['./original_maps/parks/polyustrovsky_2022_omaps.jpg','./original_maps/parks/polyustrovsky_2023_ocd9_omaps.ocd','./original_maps/parks/polyustrovsky_2023_ocd12_omaps.ocd'],
         bounds: [[59.9691563, 30.4205847], [59.9680824, 30.4335666], [59.9602097, 30.4179668]],
         author: ['FDRV_L','TKMKVA_P','RDNV_I'],
         owner: 'RDNV_I',
@@ -1818,16 +1818,6 @@ let parkMaps = [
         type: ['SPRINT', 'PARK']
     },
     {
-        name: 'Заневский парк',
-        year: 2026,
-        url: './maps/parks/zanevsky_2026.webp',
-        link: './original_maps/parks/zanevsky_2026_omaps.gif',
-        bounds: [[59.9237160, 30.4092765], [59.9221890, 30.4234171], [59.9176343, 30.4065621]],
-        author: 'RDNV_I',
-        owner: 'RDNV_I',
-        type: ['PARK']
-    },
-    {
         name: 'Заневский парк (им Терешковой)',
         year: 2019,
         url: './maps/parks/zanevsky_2019.webp',
@@ -1835,6 +1825,16 @@ let parkMaps = [
         bounds: [[59.9228826, 30.4090619], [59.922033, 30.4218936], [59.9171396, 30.4075599]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
+        type: ['PARK']
+    },
+    {
+        name: 'Заневский парк',
+        year: 2026,
+        url: './maps/parks/zanevsky_2026.webp',
+        link: ['./original_maps/parks/zanevsky_2026_omaps.gif','./original_maps/parks/zanevsky_2026_ocd12_omaps.ocd','./original_maps/parks/zanevsky_2026_ocd9_omaps.ocd'],
+        bounds: [[59.9237160, 30.4092765], [59.9221890, 30.4234171], [59.9176343, 30.4065621]],
+        author: 'RDNV_I',
+        owner: 'RDNV_I',
         type: ['PARK']
     },
     {
@@ -1862,7 +1862,7 @@ let parkMaps = [
         name: 'Ильинский сад',
         year: 2026,
         url: './maps/parks/ilinsky_garden_2026.webp',
-        link: './original_maps/parks/ilinsky_garden_2026_omaps.gif',
+        link: ['./original_maps/parks/ilinsky_garden_2026_omaps.gif','./original_maps/parks/ilinsky_garden_2026_ocd9_omaps.ocd','./original_maps/parks/ilinsky_garden_2026_ocd12_omaps.ocd'],
         bounds: [[59.9678462, 30.4680061], [59.9655908, 30.4884338], [59.9604352, 30.4647017]],
         o_gps: 24580,
         author: 'RDNV_I',
