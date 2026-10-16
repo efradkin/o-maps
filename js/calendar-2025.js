@@ -1702,7 +1702,7 @@ let events2025 = [
         endReg: '2025-07-18 23:55',
         o_gps: 23126,
         info: 'Новая карта.',
-        map: 'silande_2025',
+        map: 'steklyanny_silande_2026',
         strava: 15175627545,
         me: 'A'
     },

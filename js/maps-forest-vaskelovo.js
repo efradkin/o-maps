@@ -182,22 +182,9 @@ let vaskelovoMaps = [
         author: ['DBRTSV_V','LBDKN','KUZNTSV_V']
     },
     {
-        name: 'Стеклянный, оз Силанде',
+        name: 'Стеклянный, с-в',
         year: 2026,
-        url: './maps/forest/vaskelovo/steklyanny_2026.png',
-        in_work: true,
-        order: {
-            ready: 'Сентябрь 2026',
-            author: ['RDNV_B','RDNV_I'],
-        },
-        bounds: [[60.4049943, 30.2329159], [60.3959218, 30.2538586], [60.3901972, 30.2052784]],
-        author: ['RDNV_B','RDNV_I','DBRTSV_V'],
-        owner:  ['RDNV_B','RDNV_I']
-    },
-    {
-        name: 'Силанде',
-        year: 2026,
-        url: './maps/forest/vaskelovo/silande_2026.png',
+        url: './maps/forest/vaskelovo/silande_east_2026.png',
         in_work: true,
         order: {
             author: 'RDNV_I',
@@ -206,11 +193,11 @@ let vaskelovoMaps = [
         owner:  'RDNV_I'
     },
     {
-        name: 'Силанде',
-        year: 2025,
-        url: './maps/forest/vaskelovo/silande_2025.webp',
-        link: './original_maps/forest/vaskelovo/silande_2025_omaps.jpg',
-        bounds: [[60.4042101, 30.2336025], [60.4021117, 30.2620983], [60.384408, 30.2274656]],
+        name: 'Стеклянный, Силанде',
+        year: 2026,
+        url: './maps/forest/vaskelovo/steklyanny_silande_2026.webp',
+        link: ['./original_maps/forest/vaskelovo/steklyanny_silande_2026_omaps.webp','./original_maps/forest/vaskelovo/silande_2025_omaps.jpg'],
+        bounds: [[60.4017726, 30.2186251], [60.3989533, 30.2460051], [60.3845564, 30.2110720]],
         author: ['RDNV_B','RDNV_I','DBRTSV_V'],
         owner:  ['RDNV_B','RDNV_I']
     },
