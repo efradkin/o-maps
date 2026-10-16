@@ -2777,12 +2777,19 @@ const YANDEX_LEAFLET_PLUGIN_URL = 'js/ext/Yandex.js';
 
 // Подложка карты lmap и строка атрибуции - те же, что на основной карте:
 // фон, выбранный там (background из map-build.js: параметр адреса или
-// localStorage, по умолчанию Яндекс Схема), и ATTRIBUTION. API Яндекс Карт
-// тяжёлый, поэтому грузится, только когда нужен: если выбран Яндекс (схема
-// или спутник). Не загрузился - OSM; logPrefix - имя страницы в сообщении консоли.
-async function addSiteBaseLayer(lmap, logPrefix) {
-    const bg = typeof background !== 'undefined' ? background : BACKGROUND_YANDEX;
-    const attribution = typeof ATTRIBUTION !== 'undefined' ? ATTRIBUTION : '';
+// localStorage, по умолчанию Яндекс Схема), и ATTRIBUTION. На странице без
+// map-build.js (статьи history/) фон и подпись вычисляются так же, как там.
+// API Яндекс Карт тяжёлый, поэтому грузится, только когда нужен: если выбран
+// Яндекс (схема или спутник). Не загрузился - OSM; logPrefix - имя страницы
+// в сообщении консоли; root - путь к корню сайта со страницы ('../' из history/).
+async function addSiteBaseLayer(lmap, logPrefix, root = '') {
+    const bg = typeof background !== 'undefined' ? background
+        : (BACKGROUND_PARAM || localStorage.getItem('background') || BACKGROUND_YANDEX);
+    const yandex = bg === BACKGROUND_YANDEX || bg === BACKGROUND_SATELLITE;
+    const attribution = typeof ATTRIBUTION !== 'undefined' ? ATTRIBUTION
+        : '© <a href="https://github.com/efradkin/o-maps">O-Maps</a> | <a href="https://t.me/o_maps">Спорт. карты</a> на ' +
+          (yandex ? '<a href="https://yandex.ru/legal/maps_termsofuse/ru/?lang=ru">Я.Картах</a>'
+                  : '<a href="https://www.openstreetmap.org/copyright">OSM</a>');
     if (bg === BACKGROUND_OSM) {
         L.tileLayer(OSM_TILES_URL, {maxZoom: 17, attribution: attribution}).addTo(lmap);
         return;
@@ -2791,16 +2798,9 @@ async function addSiteBaseLayer(lmap, logPrefix) {
         L.tileLayer(TOPO_TILES_URL, {maxZoom: 17, attribution: attribution}).addTo(lmap);
         return;
     }
-    const loadScript = src => new Promise((resolve, reject) => {
-        const script = document.createElement('script');
-        script.src = src;
-        script.onload = resolve;
-        script.onerror = () => reject(new Error('не загрузился ' + src));
-        document.head.appendChild(script);
-    });
     try {
-        if (typeof ymaps === 'undefined') await loadScript(YANDEX_MAPS_API_URL);
-        if (typeof L.yandex !== 'function') await loadScript(YANDEX_LEAFLET_PLUGIN_URL);
+        if (typeof ymaps === 'undefined') await loadScriptOnce(YANDEX_MAPS_API_URL);
+        if (typeof L.yandex !== 'function') await loadScriptOnce(root + YANDEX_LEAFLET_PLUGIN_URL);
         const options = {maxZoom: 17, attribution: attribution};
         if (bg === BACKGROUND_SATELLITE) options.type = 'satellite';
         L.yandex(options).addTo(lmap);
@@ -3373,3 +3373,179 @@ class PeekWidget {
 setTimeout(function() {
     new PeekWidget(typeof PEEK_WIDGET_OPTIONS !== 'undefined' ? PEEK_WIDGET_OPTIONS : {});
 }, 1000);
+
+/*   КАРТА МЕСТ ИСТОРИЧЕСКОЙ СТАТЬИ   */
+
+// Карта мест статьи раздела history/ (например, history/spb-history.html с данными
+// js/history-spb-poi.js). Записи — в формате poi.js: id, coord, name, плюс page (раздел
+// сайта для ссылки «Карты района»), poi, year (год первого упоминания — цвет точки),
+// events [[id, год, название, логотипы]] и maps [[файл, год, название]].
+// Разметка на странице:
+//   <section id="places"> … <div id="places-map"></div> <ul id="places-legend"></ul>
+//     <details><ul id="places-list"></ul></details> </section>
+// и значки в тексте: <a class="hist-place-pin" id="pl-ID-раздел" href="#place-ID">📍</a>.
+// Список мест и якоря #place-ID (метки у карты) создаются сразу; Leaflet, кластеризация и подложка
+// грузятся только когда карта близко к экрану или читатель перешёл к месту.
+// Подложка — та же, что на основной карте (addSiteBaseLayer).
+// Клик по значку 📍 или по месту в списке прокручивает к карте и открывает попап точки.
+function initHistoryPlacesMap(places, options = {}) {
+    const root = options.root ?? '../';
+    const mapEl = document.getElementById(options.mapId ?? 'places-map');
+    const listEl = document.getElementById(options.listId ?? 'places-list');
+    const legendEl = document.getElementById(options.legendId ?? 'places-legend');
+    if (!mapEl || !Array.isArray(places)) return;
+
+    // эпохи: цвет точки по году первого упоминания (классы hist-pm-e0…e4 в history.css)
+    const ERAS = [[1969, 'до 1969'], [1989, '1970–1980-е'], [1999, '1990-е'], [2009, '2000-е'], [Infinity, '2010-е и позже']];
+    const eraOf = year => ERAS.findIndex(([last]) => (year ?? Infinity) <= last);
+    const HOME_PAGES = ['spb', 'starts'];           // начальный вид — точки раздела Петербурга
+    const PIN = '📍';
+
+    const anchorOf = p => 'place-' + p.id.toLowerCase();
+    const byAnchor = new Map(places.map(p => [anchorOf(p), p]));
+
+    // --- легенда и список мест (без Leaflet) -------------------------------------------
+    if (legendEl) {
+        legendEl.innerHTML = ERAS.map(([, label], i) =>
+            `<li><span class="hist-pm hist-pm-e${i}" aria-hidden="true"></span>${htmlEscape(label)}</li>`).join('');
+    }
+    // якоря #place-ID — невидимые метки у верхнего края карты: переход по ним (в том числе
+    // с других страниц) прокручивает к карте, а не к свёрнутому списку мест
+    const anchorsEl = document.createElement('div');
+    anchorsEl.className = 'hist-place-anchors';
+    anchorsEl.innerHTML = places.map(p => `<span id="${anchorOf(p)}"></span>`).join('');
+    mapEl.before(anchorsEl);
+    if (listEl) {
+        // одно название — одна строка; у каждой точки свой номер, как в указателе имён
+        const groups = new Map();
+        for (const p of [...places].sort((a, b) => a.name.localeCompare(b.name, 'ru') || (a.year ?? 0) - (b.year ?? 0))) {
+            if (!groups.has(p.name)) groups.set(p.name, []);
+            groups.get(p.name).push(p);
+        }
+        listEl.innerHTML = [...groups].map(([name, ps]) => {
+            const head = `<a href="#${anchorOf(ps[0])}" target="_self">${htmlEscape(name)}</a>`;
+            const years = [...new Set(ps.map(p => p.year).filter(Boolean))].join(', ');
+            const more = ps.length < 2 ? '' : ' <span class="hist-names-refs">' + ps.map((p, i) =>
+                `<a href="#${anchorOf(p)}" target="_self" title="${htmlEscape(name)}, точка ${i + 1}">${i + 1}</a>`).join(' ') + '</span>';
+            return `<li>${head}${more}${years ? ` <small>${htmlEscape(years)}</small>` : ''}</li>`;
+        }).join('');
+    }
+
+    // упоминания в статье: значки 📍, сгруппированные по точкам; подпись — пункт оглавления раздела
+    function mentionsOf(p) {
+        return [...document.querySelectorAll(`a.hist-place-pin[href="#${anchorOf(p)}"]`)].map(a => {
+            const sec = a.closest('section[id]');
+            const toc = sec && document.querySelector(`nav.hist-toc a[href="#${sec.id}"]`);
+            return {id: a.id, label: toc ? toc.textContent.trim() : (sec ? sec.querySelector('h2')?.textContent.trim() : '')};
+        });
+    }
+
+    function popupHtml(p) {
+        const rows = [];
+        for (const [id, year, name, logos] of p.events || []) {
+            // логотип перед названием — как в календаре (buildEventStart)
+            const icons = (logos || []).map(l => `<img src="${root}logo/${htmlEscape(l)}" alt="Лого" class="sheet-icon"> `).join('');
+            rows.push(`<li><a href="${root}event.html?id=${encodeURIComponent(id)}">${year ?? '—'}</a> ${icons}${htmlEscape(name)}</li>`);
+        }
+        for (const [file, year, name] of p.maps || []) {
+            rows.push(`<li><a href="${root}map-info.html?map=${encodeURIComponent(file)}">карта${year ? ' ' + year : ''}</a> ${htmlEscape(name)}</li>`);
+        }
+        const mentions = mentionsOf(p).map(m => `<a href="#${m.id}" target="_self">${htmlEscape(m.label)}</a>`);
+        const links = [`<a href="${root}${p.page || 'all'}.html?x=${p.coord[0]}&y=${p.coord[1]}&zoom=13">🗺️ Карты района на O-Maps</a>`];
+        if (p.poi) links.push(`<a href="${root}poi.html?poi=${encodeURIComponent(p.poi)}">Место на O-Maps</a>`);
+        return `<div class="hist-map-popup">
+            <strong>${htmlEscape(p.name)}</strong>
+            ${rows.length ? `<ul>${rows.join('')}</ul>` : ''}
+            ${mentions.length ? `<p>В статье: ${mentions.join(' · ')}</p>` : ''}
+            <p>${links.join(' · ')}</p></div>`;
+    }
+
+    // --- Leaflet: ленивая загрузка ----------------------------------------------------
+    let ready = null;
+    let lmap, cluster;
+    const markers = new Map();
+    const homeBounds = () => L.latLngBounds(places.filter(p => HOME_PAGES.includes(p.page)).map(p => p.coord));
+
+    function init() {
+        if (ready) return ready;
+        ready = (async () => {
+            await Promise.all([
+                loadStylesheetOnce(root + 'css/leaflet.css'),
+                loadStylesheetOnce(root + 'js/ext/Leaflet.markercluster/MarkerCluster.css'),
+                loadScriptOnce(root + 'js/ext/leaflet.js'),
+            ]);
+            await loadScriptOnce(root + 'js/ext/Leaflet.markercluster/leaflet.markercluster.js');
+            mapEl.classList.add('is-ready');
+            lmap = L.map(mapEl, {
+                maxZoom: 17,                        // нужен кластеризации до появления подложки
+                scrollWheelZoom: !L.Browser.mobile, // колесо мыши масштабирует; на телефонах — два пальца
+                dragging: !L.Browser.mobile,        // одним пальцем — прокрутка страницы
+                tap: false,
+                attributionControl: false,
+            });
+            L.control.attribution().setPrefix('').addTo(lmap);
+            lmap.fitBounds(homeBounds(), {padding: [24, 24]});
+            addSiteBaseLayer(lmap, 'карта мест', root);
+            cluster = L.markerClusterGroup({
+                maxClusterRadius: 32,
+                showCoverageOnHover: false,
+                spiderfyOnMaxZoom: true,
+                iconCreateFunction: c => L.divIcon({
+                    html: `<span>${c.getChildCount()}</span>`, className: 'hist-cluster', iconSize: [30, 30]
+                }),
+            });
+            for (const p of places) {
+                const m = L.marker(p.coord, {
+                    title: p.name + (p.year ? ', ' + p.year : ''),
+                    icon: L.divIcon({
+                        html: `<span class="hist-pm hist-pm-e${eraOf(p.year)}"></span>`,
+                        className: 'hist-pm-icon', iconSize: [18, 18], iconAnchor: [9, 9], popupAnchor: [0, -8]
+                    }),
+                });
+                m.bindPopup(() => popupHtml(p), {maxWidth: 320, className: 'hist-map-popup-wrap'});
+                markers.set(p.id, m);
+                cluster.addLayer(m);
+            }
+            lmap.addLayer(cluster);
+        })();
+        return ready;
+    }
+
+    // точка по якорю #place-ID: прокрутить к карте, раскрыть кластер, открыть попап
+    async function focusPlace(anchor) {
+        const p = byAnchor.get(anchor);
+        if (!p) return;
+        mapEl.scrollIntoView({block: 'center', behavior: 'instant'});
+        await init();
+        const m = markers.get(p.id);
+        cluster.zoomToShowLayer(m, () => m.openPopup());
+    }
+
+    document.addEventListener('click', e => {
+        const a = e.target.closest && e.target.closest('a[href^="#place-"]');
+        if (!a || !byAnchor.has(a.getAttribute('href').slice(1))) return;
+        e.preventDefault();
+        const anchor = a.getAttribute('href').slice(1);
+        if (location.hash !== '#' + anchor) history.pushState(null, '', '#' + anchor);
+        focusPlace(anchor);
+    });
+    const fromHash = () => {
+        const anchor = decodeURIComponent(location.hash.slice(1));
+        if (byAnchor.has(anchor)) focusPlace(anchor);
+    };
+    window.addEventListener('hashchange', fromHash);
+    if (document.readyState === 'complete') fromHash();
+    else window.addEventListener('load', () => setTimeout(fromHash, 0), {once: true});
+
+    if ('IntersectionObserver' in window) {
+        const io = new IntersectionObserver(entries => {
+            if (entries.some(en => en.isIntersecting)) {
+                io.disconnect();
+                init();
+            }
+        }, {rootMargin: '400px 0px'});
+        io.observe(mapEl);
+    } else {
+        init();
+    }
+}

@@ -975,3 +975,33 @@ function addNoindexMeta() {
     meta.content = 'noindex';
     document.head.appendChild(meta);
 }
+
+// Однократная подгрузка скрипта или стилей по адресу: повторный вызов с тем же адресом
+// возвращает тот же Promise. Нужна там, где тяжёлые библиотеки (Leaflet и плагины)
+// загружаются только когда понадобились.
+const _loadedResources = new Map();
+function loadScriptOnce(src) {
+    if (!_loadedResources.has(src)) {
+        _loadedResources.set(src, new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = src;
+            script.onload = resolve;
+            script.onerror = () => reject(new Error('не загрузился ' + src));
+            document.head.appendChild(script);
+        }));
+    }
+    return _loadedResources.get(src);
+}
+function loadStylesheetOnce(href) {
+    if (!_loadedResources.has(href)) {
+        _loadedResources.set(href, new Promise((resolve, reject) => {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = href;
+            link.onload = resolve;
+            link.onerror = () => reject(new Error('не загрузился ' + href));
+            document.head.appendChild(link);
+        }));
+    }
+    return _loadedResources.get(href);
+}

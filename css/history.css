@@ -372,3 +372,123 @@ body.history-body section[id] { scroll-margin-top: 12px; }
     .hist-toc { padding: 12px 14px 14px; font-size: .88rem; }
     .hist-toc ol { columns: 2; column-gap: 14px; }
 }
+
+/* ---- карта мест статьи (initHistoryPlacesMap в utils.js) -------------------
+   Маркеры — точки цвета эпохи первого упоминания: одна оранжевая рампа от светлого
+   (раньше) к тёмному (позже), проверена на контраст к светлой подложке. Подложка
+   карты светлая в обеих темах сайта, поэтому цвета эпох общие. */
+body.history-body {
+    --hist-era-0: #ee9333;      /* до 1969 */
+    --hist-era-1: #de7411;      /* 1970–1980-е */
+    --hist-era-2: #bb5809;      /* 1990-е */
+    --hist-era-3: #8c4006;      /* 2000-е */
+    --hist-era-4: #5c2a03;      /* 2010-е и позже */
+}
+.hist-map {
+    height: 480px;
+    margin: 14px 0 8px;
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-sm);
+    background: var(--o-surface-2, var(--o-bg));
+    overflow: hidden;
+    position: relative;
+    z-index: 0;                 /* панели Leaflet не поверх меню сайта */
+}
+.hist-place-anchors { position: relative; height: 0; }
+.hist-place-anchors span { position: absolute; top: 14px; scroll-margin-top: 16px; }
+.hist-map:not(.is-ready)::before {
+    content: 'Карта загружается…';
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: var(--o-text-muted);
+    font-size: .9rem;
+}
+.hist-pm-icon { background: none; border: 0; }
+.hist-pm {
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin: 2px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .35), 0 1px 3px rgba(0, 0, 0, .3);
+}
+.hist-pm-e0 { background: var(--hist-era-0); }
+.hist-pm-e1 { background: var(--hist-era-1); }
+.hist-pm-e2 { background: var(--hist-era-2); }
+.hist-pm-e3 { background: var(--hist-era-3); }
+.hist-pm-e4 { background: var(--hist-era-4); }
+.hist-cluster span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: #3d433e;
+    color: #fff;
+    font: 600 12px/26px 'Roboto', sans-serif;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .35);
+}
+/* попап: цвета страницы, чтобы ссылки читались и в тёмной теме */
+.hist-map .leaflet-popup-content-wrapper,
+.hist-map .leaflet-popup-tip {
+    background: var(--o-surface);
+    color: var(--o-text);
+}
+.hist-map .leaflet-popup-content { margin: 12px 14px; min-height: 0; padding-top: 0; }
+.hist-map-popup { font-size: .85rem; line-height: 1.4; }
+.hist-map-popup strong { display: block; margin-bottom: 4px; font-size: .95rem; }
+.hist-map-popup ul { margin: 0 0 6px; padding: 0; list-style: none; max-height: 11em; overflow-y: auto; }
+.hist-map-popup li { margin: 2px 0; }
+.hist-map-popup li > a:first-child { font-variant-numeric: tabular-nums; font-weight: 600; }
+.hist-map-popup p { margin: 4px 0 0; color: var(--o-text-muted); }
+.hist-map a { color: var(--o-accent); }
+
+.hist-map-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    margin: 0 0 10px;
+    padding: 0;
+    list-style: none;
+    font-size: .84rem;
+    color: var(--o-text-muted);
+}
+.hist-map-legend li { display: flex; align-items: center; gap: 6px; }
+.hist-map-legend .hist-pm { width: 12px; height: 12px; margin: 0; }
+
+.hist-places > summary { cursor: pointer; color: var(--o-text-muted); font-size: .92rem; }
+.hist-places-list {
+    columns: 3 220px;
+    column-gap: 24px;
+    margin: 8px 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: .9rem;
+}
+.hist-places-list li { break-inside: avoid; padding: 1px 0; }
+.hist-places-list small { color: var(--o-text-faint); font-variant-numeric: tabular-nums; }
+
+/* значок 📍 после упоминания места: ведёт к точке на карте мест */
+body.history-body a.hist-place-pin {
+    margin-left: 1px;
+    font-size: .78em;
+    text-decoration: none;
+    vertical-align: .08em;
+    opacity: .7;
+}
+body.history-body a.hist-place-pin:hover { opacity: 1; }
+body.history-body a.hist-place-pin:target {
+    opacity: 1;
+    background: var(--o-accent-soft);
+    border-radius: 3px;
+    box-shadow: 0 0 0 3px var(--o-accent-soft);
+}
+body.history-body a.hist-place-pin { scroll-margin-top: 30vh; }
+
+@media screen and (max-width: 700px) {
+    .hist-map { height: 340px; }
+}
