@@ -694,24 +694,16 @@ function filterMapsForCharts() {
     //oMaps = oMaps.filter(m => !m.excluded && !(m.type && (m.type.includes('VELO') || m.type.includes('RELIEF') || m.type.includes('WINTER'))));
 }
 
+// Значки файлов, которые есть в images/ (<ext>-file.png).
+const FILE_ICON_EXTS = ['doc', 'gif', 'jpg', 'ocd', 'pdf', 'png', 'url', 'webp'];
+
+// Значок ссылки на файл: images/<результат>-file.png. Расширение без своего
+// значка (zip, html, xls..., а также «расширение» адреса без файла - домен
+// https://site.ru или точка в пути: ...-24.02.2026-(p.podgornyij,...)) - url.
 function downloadIconExt(url) {
     const ext = extractFileExt(url).toLowerCase();
-    switch (ext) {
-        case 'docx': return 'doc';
-        case 'jpeg': return 'jpg';
-        case 'omap': return 'ocd';
-        case 'zip':
-        case 'asp':
-        case 'html':
-        case 'htm':
-        case 'php':
-        case 'djvu':
-        case 'rar':
-        case 'xls':
-        case 'xlsx':
-        case 'tif': return 'url';
-    }
-    return ext;
+    const icon = {docx: 'doc', jpeg: 'jpg', omap: 'ocd'}[ext] ?? ext;
+    return FILE_ICON_EXTS.includes(icon) ? icon : 'url';
 }
 
 // Проставляет поле page всем картам массива, у которых оно ещё не задано.
@@ -2114,6 +2106,65 @@ function linkSiteImg(url, fallback) {
     return service?.siteImg ?? ((service?.img && !service.imgOnlyFor) ? service.img : fallback);
 }
 
+// Ссылки с иконкой и подписью (event.html, poi.html; раньше - в event.js).
+// Расширения адресов, по которым ссылка считается файлом.
+const LINK_FILE_EXTS = ['pdf', 'zip', 'rar', 'xls', 'xlsx', 'doc', 'docx', 'jpg', 'jpeg', 'png', 'gif', 'webp', 'ocd'];
+
+// Описание ссылки для linkChipHtml(): {href, label, img | emoji}. Сервис из SERVICES -
+// его подпись и иконка, файл - «Файл PDF», прочее - хост. context: 'video' /
+// 'photo' / 'reg' / 'res' (иконки фото/видео, e-mail в регистрации, тип файла в результатах).
+function describeLinkItem(url, context) {
+    const u = String(url);
+    // e-mail в регистрации - как buildOneEventReg()
+    if (u.startsWith('mailto:') || (context === 'reg' && u.includes('@'))) {
+        const mail = u.replace(/^mailto:/, '');
+        return { href: 'mailto:' + mail, label: mail, emoji: '✉️' };
+    }
+    const service = findLinkService(u);
+    const ext = (u.split('?')[0].match(/\.([a-z0-9]+)$/i) || [])[1]?.toLowerCase();
+    const fileExt = LINK_FILE_EXTS.includes(ext) ? ext : null;
+    if (service) {
+        let label = service.label;
+        if (fileExt && context === 'res') label += ' (' + fileExt.toUpperCase() + ')';
+        let img = (!service.imgOnlyFor || service.imgOnlyFor === context) ? service.img : undefined;
+        if (!img && context === 'photo') img = 'images/photo-camera.png';
+        if (!img && context === 'video') img = 'images/video-camera.png';
+        return { href: u, label: label, img: img };
+    }
+    if (fileExt || !/^https?:/i.test(u)) {
+        return {
+            href: u,
+            label: fileExt ? 'Файл ' + fileExt.toUpperCase() : 'Ссылка',
+            img: 'images/' + downloadIconExt(u) + '-file.png'
+        };
+    }
+    const host = urlHost(u);
+    const img = context === 'photo' ? 'images/photo-camera.png'
+        : context === 'video' ? 'images/video-camera.png' : 'images/url-file.png';
+    return { href: u, label: host, img: img };
+}
+
+// Ссылка с иконкой, как в календаре и на start-details: <img class="sheet-icon"> + подпись.
+// d: {href, label, img | emoji, title}; cls - классы ссылки (например кнопки Bootstrap).
+function linkChipHtml(d, cls) {
+    const icon = d.img ? `<img src="${htmlEscape(d.img)}" alt="" class="sheet-icon" onerror="this.remove()"> ` : (d.emoji ? d.emoji + ' ' : '');
+    const title = d.title ? ` title="${htmlEscape(d.title)}"` : '';
+    const klass = cls ? ` class="${cls}"` : '';
+    const rel = isNoReferrerUrl(d.href) ? 'noopener noreferrer' : 'noopener';
+    return `<a${klass} href="${htmlEscape(d.href)}" target="_blank" rel="${rel}"${title}>${icon}${htmlEscape(d.label)}</a>`;
+}
+
+// Список ссылок через запятую; одинаковые подписи нумеруются («YouTube 2»).
+function linkChipsHtml(urls, context) {
+    const seen = {};
+    return asList(urls).map(url => {
+        const d = describeLinkItem(url, context);
+        seen[d.label] = (seen[d.label] ?? 0) + 1;
+        if (seen[d.label] > 1) d.label += ' ' + seen[d.label];
+        return linkChipHtml(d);
+    }).join(', ');
+}
+
 // Иконки на все ссылки события (календарь): сначала страница на O-Site
 // (o_site), затем ссылки из link (строка или массив). Если нет ни того,
 // ни другого - ссылка на сайт старта. Ссылка известного сервиса (SERVICES)
@@ -2230,18 +2281,12 @@ function endRegState(evt) {
 
 // «осталось 5 ч», «остался 31 ч», «осталось 3 дня».
 function endRegLeftText(left) {
-    const plural = (n, one, few, many) => {
-        const n10 = n % 10, n100 = n % 100;
-        if (n10 === 1 && n100 !== 11) return one;
-        if (n10 >= 2 && n10 <= 4 && (n100 < 12 || n100 > 14)) return few;
-        return many;
-    };
     const minutes = Math.max(1, Math.floor(left / 60000));
     if (minutes < 60) return `осталось ${minutes} мин`;
     const hours = Math.floor(minutes / 60);
-    if (hours < 48) return `${plural(hours, 'остался', 'осталось', 'осталось')} ${hours} ч`;
+    if (hours < 48) return `${pluralRu(hours, 'остался', 'осталось', 'осталось')} ${hours} ч`;
     const days = Math.floor(hours / 24);
-    return `${plural(days, 'остался', 'осталось', 'осталось')} ${days} ${plural(days, 'день', 'дня', 'дней')}`;
+    return `${pluralRu(days, 'остался', 'осталось', 'осталось')} ${days} ${pluralRu(days, 'день', 'дня', 'дней')}`;
 }
 
 // Бейдж окончания приёма заявок для календаря (после ссылок регистрации).
@@ -2600,9 +2645,202 @@ function eventPageUrl(evt) {
     return 'event.html?id=' + encodeURIComponent(evt?.id ?? evt);
 }
 
+// --- Страницы записей: event.html, poi.html, owner.html ---------------------------
+// Общее для event.js, poi-page.js и owner.js (раньше - копии в каждом из них).
+
+// Календари сайта: массивы событий (имена ключей eventSources в event.html,
+// poi.html, owner.html) и страницы календаря. Порядок важен: событие относится
+// к первому календарю, в sources которого есть его массив. Общие события
+// (commonEvents2026) показываются и в СПб, и в московском календаре - «родным»
+// для них считается первый. mapPage - страница карты для событий без
+// собственной (у карты может быть своя страница: поле page или page её старта);
+// years - у календаря страницы по годам (?startYear=).
+const SITE_CALENDARS = [
+    {
+        title: 'Календарь СПб', page: 'calendar.html', mapPage: 'spb.html', years: true,
+        sources: ['events2026', 'events2025', 'events2024', 'events2023', 'events2022', 'events2021',
+            'events2020', 'events2019', 'events2018', 'events2017', 'events2016', 'events2015',
+            'events2014', 'events2013', 'events2012', 'events2011', 'events2010', 'events2009',
+            'events2008', 'events2007', 'events2006', 'events2005', 'events2004', 'eventsEarly',
+            'otherEvents2026', 'commonEvents2026', 'iofEvents', 'fsorEvents', 'irfEvents']
+    },
+    {
+        title: 'Календарь Москвы', page: 'calendar-msk.html', mapPage: 'moscow.html',
+        sources: ['mskEvents2026', 'mskEvents2025', 'mskEventsOther', 'commonEvents2026']
+    },
+    {
+        title: 'Календарь Самары', page: 'calendar-samara.html', mapPage: 'samara.html',
+        sources: ['samaraEvents2026']
+    },
+    {
+        title: 'Лыжный календарь', page: 'calendar-ski.html', mapPage: 'tracks.html',
+        sources: ['skiEvents2026']
+    },
+];
+
+// Строка «Подпись: значение»; пустое значение - пустая строка, пустая
+// подпись - одно значение. Значение со списком (<ol>/<ul>/<div>) не может
+// лежать в <p> - тогда <div class="mb-3">.
+function infoRow(label, value) {
+    if (!value || !String(value).trim()) return '';
+    const head = label ? `<b>${label}:</b> ` : '';
+    return /<(ol|ul|div)\b/i.test(value) ? `<div class="mb-3">${head}${value}</div>` : `<p>${head}${value}</p>`;
+}
+
+// Раздел страницы с заголовком <h2>; без содержимого - пустая строка.
+function infoSection(id, title, body) {
+    if (!body) return '';
+    return `<section id="${id}" class="clearfix"><h2>${title}</h2>${body}</section>`;
+}
+
+// Запись (событие, карта) принадлежит владельцу code: он указан в её поле
+// owner или в поле owner её старта - как getOwners(), но неизвестный код
+// старта не роняет страницу, а один раз выводится в консоль; logPrefix -
+// имя страницы в начале сообщения ('owner.html').
+const unknownOwnerStartCodes = new Set();
+function isOwnedBy(rec, code, logPrefix) {
+    if (asList(rec.owner).includes(code)) return true;
+    return asList(rec.start).some(s => {
+        if (!starts[s]) {
+            if (!unknownOwnerStartCodes.has(s)) {
+                unknownOwnerStartCodes.add(s);
+                console.warn(logPrefix + ': неизвестный код старта ' + s + ' (запись ' + (rec.id ?? rec.name) + ')');
+            }
+            return false;
+        }
+        return asList(starts[s].owner).includes(code);
+    });
+}
+
+// События владельца code во всех календарях страницы (eventSources), от новых
+// к старым: [{evt, source}], source - имя массива в eventSources. Из записей
+// с одинаковым id остаётся первая; записи без id не показываются.
+function findOwnerEvents(code, logPrefix) {
+    const events = [];
+    for (const [source, list] of Object.entries(eventSources)) {
+        for (const e of list) {
+            if (isOwnedBy(e, code, logPrefix)) events.push({evt: e, source: source});
+        }
+    }
+    const ids = new Set();
+    return events.filter(x => {
+        if (!x.evt.id || ids.has(x.evt.id)) return false;
+        ids.add(x.evt.id);
+        return true;
+    }).sort((a, b) => dateForCompare(b.evt) - dateForCompare(a.evt));
+}
+
+// Хотя бы одна из дат dates (строка или массив, 'YYYY-MM-DD…') попадает в дни
+// события evt (date..endDate включительно). Даты без дня (только год)
+// с событием не сопоставляются. Документы history-docs.js на event.html и
+// start-details.html.
+function isDateInEventDays(dates, evt) {
+    const from = String(evt.date ?? '').substring(0, 10);
+    const to = String(evt.endDate ?? evt.date ?? '').substring(0, 10);
+    if (!from) return false;
+    return asList(dates).some(dt => {
+        const day = String(dt).substring(0, 10);
+        return day.length === 10 && day >= from && day <= to;
+    });
+}
+
+// Маршрут на машине в Яндекс Картах до точки [широта, долгота].
+function yandexRouteUrl(point) {
+    return `https://yandex.ru/maps/?rtext=~${+point[0].toFixed(6)},${+point[1].toFixed(6)}&rtt=auto`;
+}
+
+// Заголовок и описание страницы записи (poi.html, owner.html): title -
+// «title — O-Maps» (и og:title), description - «O-Maps. description».
+function applyPageMeta(title, description) {
+    document.title = title + ' — O-Maps';
+    setMetaContent('meta[name="description"]', 'O-Maps. ' + description);
+    setMetaContent('meta[property="og:title"]', title + ' — O-Maps');
+    setMetaContent('meta[property="og:description"]', description);
+}
+
+// Запись по коду из адреса не найдена: заголовок title в элементе titleId,
+// html в элементе heroId, document.title «title — O-Maps» и noindex.
+function renderRecordNotFound(titleId, title, heroId, html) {
+    document.getElementById(titleId).textContent = title;
+    document.title = title + ' — O-Maps';
+    document.getElementById(heroId).innerHTML = html;
+    addNoindexMeta();
+}
+
+// --- Подложка и мини-карта места -----------------------------------------------
+// Мини-карты на event.html и poi.html (раньше - копии в event.js и poi-page.js).
+
+const OSM_TILES_URL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+const TOPO_TILES_URL = 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png';
+const YANDEX_MAPS_API_URL = 'https://api-maps.yandex.ru/2.1/?lang=ru_RU';
+const YANDEX_LEAFLET_PLUGIN_URL = 'js/ext/Yandex.js';
+
+// Подложка карты lmap и строка атрибуции - те же, что на основной карте:
+// фон, выбранный там (background из map-build.js: параметр адреса или
+// localStorage, по умолчанию Яндекс Схема), и ATTRIBUTION. API Яндекс Карт
+// тяжёлый, поэтому грузится, только когда нужен: если выбран Яндекс (схема
+// или спутник). Не загрузился - OSM; logPrefix - имя страницы в сообщении консоли.
+async function addSiteBaseLayer(lmap, logPrefix) {
+    const bg = typeof background !== 'undefined' ? background : BACKGROUND_YANDEX;
+    const attribution = typeof ATTRIBUTION !== 'undefined' ? ATTRIBUTION : '';
+    if (bg === BACKGROUND_OSM) {
+        L.tileLayer(OSM_TILES_URL, {maxZoom: 17, attribution: attribution}).addTo(lmap);
+        return;
+    }
+    if (bg === BACKGROUND_TOPO) {
+        L.tileLayer(TOPO_TILES_URL, {maxZoom: 17, attribution: attribution}).addTo(lmap);
+        return;
+    }
+    const loadScript = src => new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = src;
+        script.onload = resolve;
+        script.onerror = () => reject(new Error('не загрузился ' + src));
+        document.head.appendChild(script);
+    });
+    try {
+        if (typeof ymaps === 'undefined') await loadScript(YANDEX_MAPS_API_URL);
+        if (typeof L.yandex !== 'function') await loadScript(YANDEX_LEAFLET_PLUGIN_URL);
+        const options = {maxZoom: 17, attribution: attribution};
+        if (bg === BACKGROUND_SATELLITE) options.type = 'satellite';
+        L.yandex(options).addTo(lmap);
+    } catch (e) {
+        console.warn(logPrefix + ': подложка Яндекса недоступна (' + e.message + '), показан OSM');
+        L.tileLayer(OSM_TILES_URL, {
+            maxZoom: 17,
+            attribution: '© <a href="https://github.com/efradkin/o-maps">O-Maps</a> | ' +
+                '<a href="https://t.me/o_maps">Спорт. карты</a> на ' +
+                '<a href="https://www.openstreetmap.org/copyright">OSM</a>'
+        }).addTo(lmap);
+    }
+}
+
+// Мини-карта места в элементе el: без масштабирования колесом (страница
+// прокручивается), атрибуция без префикса «Leaflet», подложка - addSiteBaseLayer().
+// Отметки и вид (setView / fitBounds) добавляет страница.
+function createPlaceMiniMap(el, logPrefix) {
+    const lmap = L.map(el, {scrollWheelZoom: false, zoomControl: true, attributionControl: false});
+    L.control.attribution().setPrefix('').addTo(lmap);
+    addSiteBaseLayer(lmap, logPrefix);
+    return lmap;
+}
+
 function buildMapInfo(url) {
     const mapInfoLink = './map-info.html?map=' + extractFileName(url);
     return ` <a class="map-info-link" href="${mapInfoLink}" title="Информация о карте">🔗</a>`;
+}
+
+// Ссылки на результаты карты m (поле results) и её страницу на O-Site (o_site) -
+// продолжение описания карты на map-info.html и start-details.html.
+function buildMapResultsLinks(m) {
+    let html = '';
+    if (m.results) {
+        html += ` <a href="${m.results}">Результаты</a>.`;
+    }
+    if (m.o_site) {
+        html += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо и результаты</a>.`;
+    }
+    return html;
 }
 
 function buildPublish(events, label) {

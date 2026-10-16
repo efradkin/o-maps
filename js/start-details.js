@@ -118,15 +118,7 @@ function docsForMap(mapName) {
 // Документы, дата которых попадает в дни события (date..endDate).
 // Документы только с годом по дате не сопоставляются.
 function docsForEvent(evt) {
-    const from = String(evt.date ?? '').substring(0, 10);
-    const to = String(evt.endDate ?? evt.date ?? '').substring(0, 10);
-    if (!from) {
-        return [];
-    }
-    return startDetailsDocs.filter(d => asList(d.date).some(dt => {
-        const day = String(dt).substring(0, 10);
-        return day >= from && day <= to;
-    }));
+    return startDetailsDocs.filter(d => isDateInEventDays(d.date, evt));
 }
 
 // Абзац «Подпись: значение»; пустое значение - пустая строка.
@@ -192,10 +184,6 @@ function buildYearsNav(items) {
         years.map(v => `<a href="#${v.id}">${v.year}</a>`).join(' · ') + `</nav></section>`;
 }
 
-function asList(value) {
-    return value ? (Array.isArray(value) ? value : [value]) : [];
-}
-
 // --- вкладка «События» ---
 
 // Этапы многодневки (поле parent) идут сразу после «родителя» в хронологическом
@@ -230,8 +218,7 @@ function buildEventMapsInfo(evt) {
     let links = '';
     const previews = [];
     if (evt.map) {
-        const maps = Array.isArray(evt.map) ? evt.map : [evt.map];
-        for (const name of maps) {
+        for (const name of asList(evt.map)) {
             const m = getMapForName(name);
             const href = startDetailsMapHref(name);
             if (links) {
@@ -269,7 +256,7 @@ function buildStartEventSection(evt, level, idx, children, idOf) {
 
     let logo = '';
     if (evt.logo) {
-        const logos = Array.isArray(evt.logo) ? evt.logo : [evt.logo];
+        const logos = asList(evt.logo);
         logo = logos.length > 1
             ? buildLogoCarousel(logos.map(l => 'logo/' + l), 'event-logo-carousel-' + id, 'd-block', 'help-figure help-figure-left start-event-logo')
             : `<img src="./logo/${logos[0]}" loading="lazy" class="help-figure help-figure-left start-event-logo" alt="Лого" />`;
@@ -367,13 +354,7 @@ function buildStartMapSection(m) {
     if (m.about) {
         info += ` <a href="${m.about}">Сайт соревнований</a>.`;
     }
-    if (m.results) {
-        info += ` <a href="${m.results}">Результаты</a>.`;
-    }
-    if (m.o_site) {
-        info += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо и результаты</a>.`;
-    }
-    html += startDetailsLine('', info);
+    html += startDetailsLine('', info + buildMapResultsLinks(m));
     html += buildOrderPanel(m);
 
     if (hidden) {

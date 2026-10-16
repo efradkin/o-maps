@@ -388,7 +388,6 @@
         if (lastNewsVisitTime == null || (Number(lastNewsVisitTime) < lastNewsTime)) {
             document.getElementById('new_news_star').style.display = 'inline';
         } else {
-            console.log('>>', lastNewsDate, formatDate(news[0], lastNewsDate, true, false))
             document.getElementById('last_news_date').innerText = formatDateString(lastNewsDate, false, false);
         }
     </script>

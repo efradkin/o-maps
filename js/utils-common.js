@@ -920,3 +920,58 @@ function initTocHighlight(selector = 'nav.hist-toc') {
         init();
     }
 }
+
+// --- Страничные помощники: значения, разметка, <head> ------------------------
+// Перенесены из event.js, poi-page.js, owner.js и start-details.js, где были
+// одинаковые копии.
+
+// Значение поля как список: null/undefined - [], массив - как есть, иначе [value].
+function asList(value) {
+    return value == null ? [] : (Array.isArray(value) ? value : [value]);
+}
+
+// Экранирование текста для HTML - и в тексте, и в значении атрибута;
+// null/undefined - пустая строка.
+function htmlEscape(text) {
+    return String(text ?? '').replace(/[&<>"']/g, ch =>
+        ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'})[ch]);
+}
+
+// Текст HTML-разметки без тегов (через DOM, сущности раскрываются),
+// пробелы схлопнуты.
+function stripTags(html) {
+    const div = document.createElement('div');
+    div.innerHTML = String(html ?? '');
+    return div.textContent.replace(/\s+/g, ' ').trim();
+}
+
+// Русская форма слова при числе n: pluralRu(5, 'день', 'дня', 'дней') - 'дней'.
+function pluralRu(n, one, few, many) {
+    const n10 = n % 10, n100 = n % 100;
+    if (n10 === 1 && n100 !== 11) return one;
+    if (n10 >= 2 && n10 <= 4 && (n100 < 12 || n100 > 14)) return few;
+    return many;
+}
+
+// Хост адреса без «www.»; адрес, который не разбирается, - как есть.
+function urlHost(url) {
+    try {
+        return new URL(url).hostname.replace(/^www\./, '');
+    } catch (e) {
+        return url;
+    }
+}
+
+// Атрибут content у тега в <head> по селектору (например 'meta[name="description"]'),
+// если такой тег есть.
+function setMetaContent(selector, value) {
+    document.head.querySelector(selector)?.setAttribute('content', value);
+}
+
+// <meta name="robots" content="noindex"> - страницу не индексировать.
+function addNoindexMeta() {
+    const meta = document.createElement('meta');
+    meta.name = 'robots';
+    meta.content = 'noindex';
+    document.head.appendChild(meta);
+}

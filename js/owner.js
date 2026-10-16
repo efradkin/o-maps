@@ -20,73 +20,16 @@
 
     const OWNER_CODE = urlParams.get('owner');
 
-    // Календари сайта и страница календаря для ссылки «В календаре» (как в event.js).
-    const OWNER_CALENDARS = [
-        {
-            title: 'Календарь СПб', page: 'calendar.html', query: '&startYear=ALL',
-            sources: ['events2026', 'events2025', 'events2024', 'events2023', 'events2022', 'events2021',
-                'events2020', 'events2019', 'events2018', 'events2017', 'events2016', 'events2015',
-                'events2014', 'events2013', 'events2012', 'events2011', 'events2010', 'events2009',
-                'events2008', 'events2007', 'events2006', 'events2005', 'events2004', 'eventsEarly',
-                'otherEvents2026', 'commonEvents2026', 'iofEvents', 'fsorEvents', 'irfEvents']
-        },
-        { title: 'Календарь Москвы', page: 'calendar-msk.html', query: '', sources: ['mskEvents2026', 'mskEvents2025', 'mskEventsOther'] },
-        { title: 'Календарь Самары', page: 'calendar-samara.html', query: '', sources: ['samaraEvents2026'] },
-        { title: 'Лыжный календарь', page: 'calendar-ski.html', query: '', sources: ['skiEvents2026'] },
-    ];
-
-    function asList(value) {
-        return value == null ? [] : (Array.isArray(value) ? value : [value]);
-    }
-
-    function esc(text) {
-        return String(text ?? '').replace(/[&<>"']/g, ch =>
-            ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch]);
-    }
-
-    function stripTags(html) {
-        const div = document.createElement('div');
-        div.innerHTML = String(html ?? '');
-        return div.textContent.replace(/\s+/g, ' ').trim();
-    }
-
-    // Строка «Подпись: значение» - как на event.html и start-details.
-    function row(label, value) {
-        if (!value || !String(value).trim()) return '';
-        const head = label ? `<b>${label}:</b> ` : '';
-        return /<(ol|ul|div)\b/i.test(value) ? `<div class="mb-3">${head}${value}</div>` : `<p>${head}${value}</p>`;
-    }
-
-    function section(id, title, body) {
-        if (!body) return '';
-        return `<section id="${id}" class="clearfix"><h2>${title}</h2>${body}</section>`;
-    }
-
-    function uniqueById(events) {
-        const ids = new Set();
-        return events.filter(e => {
-            if (!e.id || ids.has(e.id)) return false;
-            ids.add(e.id);
-            return true;
-        });
-    }
-
-    // Владельцы записи (события или карты) - как getOwners() в utils.js, но
-    // неизвестный код старта не роняет страницу, а выводится в консоль.
-    const unknownStarts = new Set();
-    function isOwnedBy(rec) {
-        if (asList(rec.owner).includes(OWNER_CODE)) return true;
-        return asList(rec.start).some(code => {
-            if (!starts[code]) {
-                if (!unknownStarts.has(code)) {
-                    unknownStarts.add(code);
-                    console.warn('owner.html: неизвестный код старта ' + code + ' (запись ' + (rec.id ?? rec.name) + ')');
-                }
-                return false;
-            }
-            return asList(starts[code].owner).includes(OWNER_CODE);
-        });
-    }
+    // Календари сайта (SITE_CALENDARS в utils.js) для ссылок «Смотреть отдельно»:
+    // у календаря по годам - все годы (&startYear=ALL). Общие события
+    // (commonEvents2026) дают ссылку только на календарь СПб: из sources
+    // остальных календарей они убраны (так было и до переноса списка в utils.js).
+    const OWNER_CALENDARS = SITE_CALENDARS.map(c => ({
+        title: c.title,
+        page: c.page,
+        query: c.years ? '&startYear=ALL' : '',
+        sources: c.years ? c.sources : c.sources.filter(s => s !== 'commonEvents2026')
+    }));
 
     // Заголовок страницы - короткое название, иначе title, иначе name (без разметки).
     function ownerTitle(o) {
@@ -94,21 +37,6 @@
     }
 
     // --- данные ------------------------------------------------------------------
-
-    function ownerEvents() {
-        const events = [];
-        for (const [source, list] of Object.entries(eventSources)) {
-            for (const e of list) {
-                if (isOwnedBy(e)) events.push({ evt: e, source: source });
-            }
-        }
-        const ids = new Set();
-        return events.filter(x => {
-            if (!x.evt.id || ids.has(x.evt.id)) return false;
-            ids.add(x.evt.id);
-            return true;
-        }).sort((a, b) => dateForCompare(b.evt) - dateForCompare(a.evt));
-    }
 
     function ownerStarts() {
         return Object.keys(starts).filter(code => asList(starts[code].owner).includes(OWNER_CODE));
@@ -125,13 +53,13 @@
     function buildHero(o, events, maps) {
         let html = '';
         if (o.logo) {
-            html += `<img class="help-figure help-figure-left" src="./logo/${esc(o.logo)}" alt="">`;
+            html += `<img class="help-figure help-figure-left" src="./logo/${htmlEscape(o.logo)}" alt="">`;
         }
         if (o.info) html += `<p>${o.info}</p>`;
         const title = ownerTitle(o);
         if (o.name && stripTags(o.name) !== title) html += `<p>${o.name}</p>`;
         if (o.about) {
-            html += row('Подробнее', `<a href="${esc(o.about)}" target="_blank" rel="noopener">${esc(o.about)}</a>`);
+            html += infoRow('Подробнее', `<a href="${htmlEscape(o.about)}" target="_blank" rel="noopener">${htmlEscape(o.about)}</a>`);
         }
         const links = [];
         const sources = new Set(events.map(x => x.source));
@@ -143,57 +71,51 @@
         if (maps.length) {
             links.push(`<a href="sheet-all.html?owner=${encodeURIComponent(OWNER_CODE)}">карты списком</a>`);
         }
-        html += row('Смотреть отдельно', links.join(', '));
+        html += infoRow('Смотреть отдельно', links.join(', '));
         return html || '<p>Описания пока нет.</p>';
     }
 
     function buildStartsSection(codes) {
         const items = codes.map(code => {
             const s = starts[code];
-            const logo = s.logo ? `<img src="./logo/${esc(s.logo)}" alt="" class="sheet-icon"> ` : '';
+            const logo = s.logo ? `<img src="./logo/${htmlEscape(s.logo)}" alt="" class="sheet-icon"> ` : '';
             return `<li>${logo}<a href="start.html?start=${encodeURIComponent(code)}">${stripTags(s.name ?? s.short ?? code)}</a></li>`;
         });
-        return section('ow_starts', 'Соревнования', items.length ? `<ul>${items.join('')}</ul>` : '');
+        return infoSection('ow_starts', 'Соревнования', items.length ? `<ul>${items.join('')}</ul>` : '');
     }
 
     function buildEventsSection(events) {
         const items = events.map(x => {
             const e = x.evt;
             const logos = logoList(e);
-            const logo = logos.length ? `<img src="./logo/${esc(logos[0])}" alt="" class="sheet-icon"> ` : '';
-            const place = e.place ? ', ' + esc(e.place) : '';
+            const logo = logos.length ? `<img src="./logo/${htmlEscape(logos[0])}" alt="" class="sheet-icon"> ` : '';
+            const place = e.place ? ', ' + htmlEscape(e.place) : '';
             return `<li><b>${buildEventDate(e, true, true)}</b>, ${logo}<a href="event.html?id=${encodeURIComponent(e.id)}">${e.name}</a>${place} ${buildEventResults(e)}</li>`;
         });
         const title = 'События календаря' + (items.length > 1 ? ` (${items.length})` : '');
-        return section('ow_events', title, items.length ? `<ul>${items.join('')}</ul>` : '');
+        return infoSection('ow_events', title, items.length ? `<ul>${items.join('')}</ul>` : '');
     }
 
     function buildMapsSection(maps) {
         if (maps.length === 0) return '';
         const tiles = maps.map(m => {
             const name = getMapName(m);
-            const title = esc(`${year(m) ?? ''} - ${m.name}`.replace(/^ - /, ''));
+            const title = htmlEscape(`${year(m) ?? ''} - ${m.name}`.replace(/^ - /, ''));
             const img = isMapHidden(m) || !m.url ? '' :
-                `<a href="map-info.html?map=${encodeURIComponent(name)}" target="_self"><img src="${esc(mapImageUrl(m))}" title="${title}" loading="lazy" /></a>`;
+                `<a href="map-info.html?map=${encodeURIComponent(name)}" target="_self"><img src="${htmlEscape(mapImageUrl(m))}" title="${title}" loading="lazy" /></a>`;
             return `<div class="row"><div class="start-map-box align-items-center d-flex justify-content-center"><div>${img}` +
                 `<div class="start-map-box-description"><a href="map-info.html?map=${encodeURIComponent(name)}" target="_self">${title}</a></div></div></div></div>`;
         }).join('');
-        return section('ow_maps', maps.length > 1 ? `Карты (${maps.length})` : 'Карта', `<div class="start-maps-wrapper">${tiles}</div>`);
+        return infoSection('ow_maps', maps.length > 1 ? `Карты (${maps.length})` : 'Карта', `<div class="start-maps-wrapper">${tiles}</div>`);
     }
 
     // --- сборка страницы ---------------------------------------------------------
 
     function renderNotFound() {
         const text = OWNER_CODE
-            ? `На O-Maps нет владельца с кодом <b>${esc(OWNER_CODE)}</b>. Возможно, ссылка устарела или в ней опечатка.`
+            ? `На O-Maps нет владельца с кодом <b>${htmlEscape(OWNER_CODE)}</b>. Возможно, ссылка устарела или в ней опечатка.`
             : 'В адресе не указан код владельца: страница открывается как <code>owner.html?owner=КОД</code>.';
-        document.getElementById('owner_title').textContent = 'Владелец не найден';
-        document.title = 'Владелец не найден — O-Maps';
-        document.getElementById('owner_hero').innerHTML = `<p>${text}</p>`;
-        const meta = document.createElement('meta');
-        meta.name = 'robots';
-        meta.content = 'noindex';
-        document.head.appendChild(meta);
+        renderRecordNotFound('owner_title', 'Владелец не найден', 'owner_hero', `<p>${text}</p>`);
     }
 
     function render() {
@@ -202,23 +124,19 @@
             renderNotFound();
             return;
         }
-        const events = ownerEvents();
+        const events = findOwnerEvents(OWNER_CODE, 'owner.html');
         const maps = ownerMaps();
         const title = ownerTitle(o);
 
         document.getElementById('owner_title').textContent = title;
-        document.title = title + ' — O-Maps';
-        const description = stripTags(o.info ?? o.name);
-        document.querySelector('meta[name="description"]')?.setAttribute('content', 'O-Maps. ' + description);
-        document.querySelector('meta[property="og:title"]')?.setAttribute('content', title + ' — O-Maps');
-        document.querySelector('meta[property="og:description"]')?.setAttribute('content', description);
+        applyPageMeta(title, stripTags(o.info ?? o.name));
 
         document.getElementById('owner_hero').innerHTML = buildHero(o, events, maps);
         document.getElementById('owner_sections').innerHTML =
             buildStartsSection(ownerStarts()) +
             buildEventsSection(events) +
             buildMapsSection(maps) +
-            `<p class="text-end small text-muted">Код владельца: ${esc(OWNER_CODE)}</p>`;
+            `<p class="text-end small text-muted">Код владельца: ${htmlEscape(OWNER_CODE)}</p>`;
     }
 
     render();

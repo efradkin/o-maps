@@ -31,33 +31,7 @@
 
     const EVENT_ID = urlParams.get('id');
 
-    // Календари сайта. Порядок важен: событие относится к первому календарю,
-    // в sources которого есть его массив. Общие события (commonEvents2026)
-    // показываются и в СПб, и в московском календаре — «родным» для них
-    // считается первый. mapPage — страница карты для событий без собственной
-    // (у карты может быть своя страница: поле page или page её старта).
-    const EVENT_CALENDARS = [
-        {
-            title: 'Календарь СПб', page: 'calendar.html', mapPage: 'spb.html', years: true,
-            sources: ['events2026', 'events2025', 'events2024', 'events2023', 'events2022', 'events2021',
-                'events2020', 'events2019', 'events2018', 'events2017', 'events2016', 'events2015',
-                'events2014', 'events2013', 'events2012', 'events2011', 'events2010', 'events2009',
-                'events2008', 'events2007', 'events2006', 'events2005', 'events2004', 'eventsEarly',
-                'otherEvents2026', 'commonEvents2026', 'iofEvents', 'fsorEvents', 'irfEvents']
-        },
-        {
-            title: 'Календарь Москвы', page: 'calendar-msk.html', mapPage: 'moscow.html',
-            sources: ['mskEvents2026', 'mskEvents2025', 'mskEventsOther', 'commonEvents2026']
-        },
-        {
-            title: 'Календарь Самары', page: 'calendar-samara.html', mapPage: 'samara.html',
-            sources: ['samaraEvents2026']
-        },
-        {
-            title: 'Лыжный календарь', page: 'calendar-ski.html', mapPage: 'tracks.html',
-            sources: ['skiEvents2026']
-        },
-    ];
+    // Календари сайта - SITE_CALENDARS в utils.js.
     // Общие (международные и всероссийские) старты - на общую карту.
     const SOURCE_MAP_PAGE = { commonEvents2026: 'all.html', iofEvents: 'all.html', fsorEvents: 'all.html', irfEvents: 'all.html' };
 
@@ -67,31 +41,7 @@
     const WEEK_DAYS = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
     const DAY_MS = 24 * 60 * 60 * 1000;
 
-    const FILE_EXTS = ['pdf', 'zip', 'rar', 'xls', 'xlsx', 'doc', 'docx', 'jpg', 'jpeg', 'png', 'gif', 'webp', 'ocd'];
-
     // --- мелочи ---------------------------------------------------------------
-
-    function asList(value) {
-        return value == null ? [] : (Array.isArray(value) ? value : [value]);
-    }
-
-    function esc(text) {
-        return String(text ?? '').replace(/[&<>"']/g, ch =>
-            ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch]);
-    }
-
-    function stripTags(html) {
-        const div = document.createElement('div');
-        div.innerHTML = String(html ?? '');
-        return div.textContent.replace(/\s+/g, ' ').trim();
-    }
-
-    function plural(n, one, few, many) {
-        const n10 = n % 10, n100 = n % 100;
-        if (n10 === 1 && n100 !== 11) return one;
-        if (n10 >= 2 && n10 <= 4 && (n100 < 12 || n100 > 14)) return few;
-        return many;
-    }
 
     // 'YYYY-MM-DD' -> локальная полночь (new Date('YYYY-MM-DD') даёт UTC и
     // западнее Гринвича съезжает на день назад).
@@ -136,79 +86,13 @@
     // Значок-логотип события перед названием - как в календаре (buildEventStart).
     function eventLogoIcon(e) {
         const logos = logoList(e);
-        return logos.length ? `<img src="./logo/${esc(logos[0])}" alt="Лого" class="sheet-icon"> ` : '';
+        return logos.length ? `<img src="./logo/${htmlEscape(logos[0])}" alt="Лого" class="sheet-icon"> ` : '';
     }
 
     function absUrl(path) {
         return new URL(path, location.href).href;
     }
 
-    // Подписанная ссылка-«пилюля». context: 'video' / 'photo' / 'reg' / 'res'.
-    function describeLink(url, context) {
-        const u = String(url);
-        // e-mail в регистрации - как buildOneEventReg() в utils.js
-        if (u.startsWith('mailto:') || (context === 'reg' && u.includes('@'))) {
-            const mail = u.replace(/^mailto:/, '');
-            return { href: 'mailto:' + mail, label: mail, emoji: '✉️' };
-        }
-        const service = findLinkService(u);
-        const ext = (u.split('?')[0].match(/\.([a-z0-9]+)$/i) || [])[1]?.toLowerCase();
-        const fileExt = FILE_EXTS.includes(ext) ? ext : null;
-        if (service) {
-            let label = service.label;
-            if (fileExt && context === 'res') label += ' (' + fileExt.toUpperCase() + ')';
-            let img = (!service.imgOnlyFor || service.imgOnlyFor === context) ? service.img : undefined;
-            if (!img && context === 'photo') img = 'images/photo-camera.png';
-            if (!img && context === 'video') img = 'images/video-camera.png';
-            return { href: u, label: label, img: img };
-        }
-        if (fileExt || !/^https?:/i.test(u)) {
-            return {
-                href: u,
-                label: fileExt ? 'Файл ' + fileExt.toUpperCase() : 'Ссылка',
-                img: 'images/' + downloadIconExt(u) + '-file.png'
-            };
-        }
-        let host = u;
-        try { host = new URL(u).hostname.replace(/^www\./, ''); } catch (e) { /* как есть */ }
-        const img = context === 'photo' ? 'images/photo-camera.png'
-            : context === 'video' ? 'images/video-camera.png' : 'images/url-file.png';
-        return { href: u, label: host, img: img };
-    }
-
-    // Ссылка с иконкой, как в календаре и на start-details: <img class="sheet-icon"> + подпись.
-    function chip(d, cls) {
-        const icon = d.img ? `<img src="${esc(d.img)}" alt="" class="sheet-icon" onerror="this.remove()"> ` : (d.emoji ? d.emoji + ' ' : '');
-        const title = d.title ? ` title="${esc(d.title)}"` : '';
-        const klass = cls ? ` class="${cls}"` : '';
-        const rel = isNoReferrerUrl(d.href) ? 'noopener noreferrer' : 'noopener';
-        return `<a${klass} href="${esc(d.href)}" target="_blank" rel="${rel}"${title}>${icon}${esc(d.label)}</a>`;
-    }
-
-    // Список ссылок -> пилюли; одинаковые подписи нумеруются («YouTube 2»).
-    // Список ссылок через запятую; одинаковые подписи нумеруются («YouTube 2»).
-    function chips(urls, context) {
-        const seen = {};
-        return asList(urls).map(url => {
-            const d = describeLink(url, context);
-            seen[d.label] = (seen[d.label] ?? 0) + 1;
-            if (seen[d.label] > 1) d.label += ' ' + seen[d.label];
-            return chip(d);
-        }).join(', ');
-    }
-
-    // Строка «Подпись: значение» - как startDetailsLine() на start-details.
-    // Значение со списком (<ol>/<ul>) не может лежать в <p> - тогда <div>.
-    function row(label, value) {
-        if (!value || !String(value).trim()) return '';
-        const head = label ? `<b>${label}:</b> ` : '';
-        return /<(ol|ul|div)\b/i.test(value) ? `<div class="mb-3">${head}${value}</div>` : `<p>${head}${value}</p>`;
-    }
-
-    function section(id, title, body) {
-        if (!body) return '';
-        return `<section id="${id}" class="clearfix"><h2>${title}</h2>${body}</section>`;
-    }
 
     // --- поиск события и его календаря -------------------------------------------
 
@@ -227,7 +111,7 @@
     }
 
     function calendarFor(source) {
-        return EVENT_CALENDARS.find(c => c.sources.includes(source)) ?? EVENT_CALENDARS[0];
+        return SITE_CALENDARS.find(c => c.sources.includes(source)) ?? SITE_CALENDARS[0];
     }
 
     // События календаря без дублей id (первое вхождение - как findEvent()).
@@ -302,11 +186,11 @@
         }
         if (start > now) {
             const days = Math.round((start - now) / DAY_MS);
-            const text = days === 1 ? 'Завтра' : 'Через ' + days + ' ' + plural(days, 'день', 'дня', 'дней');
+            const text = days === 1 ? 'Завтра' : 'Через ' + days + ' ' + pluralRu(days, 'день', 'дня', 'дней');
             return { text: text, cls: 'bg-success', past: false };
         }
         const years = Math.floor((now - end) / (365.25 * DAY_MS));
-        const text = years >= 1 ? 'Состоялось ' + years + ' ' + plural(years, 'год', 'года', 'лет') + ' назад' : 'Состоялось';
+        const text = years >= 1 ? 'Состоялось ' + years + ' ' + pluralRu(years, 'год', 'года', 'лет') + ' назад' : 'Состоялось';
         return { text: text, cls: 'bg-secondary', past: true };
     }
 
@@ -453,7 +337,7 @@
 
         const place = getEventPlace(evt);
         if (place || evt.map || evt.coord || evt.track) {
-            html += row('Место', (place ? esc(place) : 'не указано') + ' ' + buildPlaceLinks(evt, ctx.calendar, ctx.mapPage));
+            html += infoRow('Место', (place ? htmlEscape(place) : 'не указано') + ' ' + buildPlaceLinks(evt, ctx.calendar, ctx.mapPage));
         }
         let sport = buildEventType(evt, false);
         // многострочный формат (лыжи: по строке на дистанцию) - здесь первая
@@ -462,26 +346,26 @@
             const fmt = String(evt.fmt).split(/<br\s*\/?>/i)[0];
             sport = sport ? sport + ' (' + fmt + ')' : fmt;
         }
-        html += row('Вид', sport);
-        html += row('Серия', seriesCodes(evt).map(code =>
-            `<a href="start-details.html?start=${encodeURIComponent(code)}">${esc(seriesLabel(code))}</a>`).join(', '));
+        html += infoRow('Вид', sport);
+        html += infoRow('Серия', seriesCodes(evt).map(code =>
+            `<a href="start-details.html?start=${encodeURIComponent(code)}">${htmlEscape(seriesLabel(code))}</a>`).join(', '));
         if (ctx.parent) {
-            html += row('Часть события', `<a href="${eventPageUrl(ctx.parent)}" target="_self">${ctx.parent.name}</a>`);
+            html += infoRow('Часть события', `<a href="${eventPageUrl(ctx.parent)}" target="_self">${ctx.parent.name}</a>`);
         }
 
         // Окончание приёма заявок (поле endReg): срок и бейдж «осталось …»,
         // цвет бейджа - как в календаре (buildEventEndReg в utils.js).
         const endReg = evt.reg && !ctx.status.past ? endRegState(evt) : null;
-        if (endReg) html += row('Приём заявок', endRegHtml(endReg));
+        if (endReg) html += infoRow('Приём заявок', endRegHtml(endReg));
 
         // Действия - кнопки Bootstrap. Регистрация - главная, пока событие не
         // прошло и приём заявок не закончился.
         const actions = [];
-        const btn = (d, cls) => chip(d, 'btn btn-sm ' + cls + ' me-2 mb-2');
+        const btn = (d, cls) => linkChipHtml(d, 'btn btn-sm ' + cls + ' me-2 mb-2');
         if (evt.reg && !ctx.status.past && !evt.cancelled) {
             const regCls = endReg?.level === 'closed' ? 'btn-outline-secondary' : 'btn-success';
             asList(evt.reg).forEach(r => {
-                const d = describeLink(r, 'reg');
+                const d = describeLinkItem(r, 'reg');
                 d.title = d.label;
                 d.label = asList(evt.reg).length > 1 ? 'Регистрация: ' + d.label : 'Регистрация';
                 actions.push(btn(d, regCls));
@@ -522,8 +406,8 @@
 
         const hero = document.getElementById('event_hero');
         const logoHtml = logos.length > 1
-            ? buildLogoCarousel(logos.map(l => 'logo/' + esc(l)), 'page-logo-carousel', 'd-block mw-100', 'd-inline-block')
-            : `<img src="./logo/${esc(logos[0])}" alt="Логотип" class="mw-100">`;
+            ? buildLogoCarousel(logos.map(l => 'logo/' + htmlEscape(l)), 'page-logo-carousel', 'd-block mw-100', 'd-inline-block')
+            : `<img src="./logo/${htmlEscape(logos[0])}" alt="Логотип" class="mw-100">`;
         hero.innerHTML = logos.length > 0
             ? `<div class="row"><div class="col-md-3 mb-3">${logoHtml}</div><div class="col-md-9">${html}</div></div>`
             : html;
@@ -561,27 +445,27 @@
     // --- секции ---------------------------------------------------------------------
 
     function buildResultsSection(evt) {
-        let html = row('Результаты', chips(evt.res, 'res'));
+        let html = infoRow('Результаты', linkChipsHtml(evt.res, 'res'));
         if (evt.reskeep) {
             const urls = asList(evt.reskeep).map(r => 'https://reskeep.ru/event/get?id=' + r);
-            html += row('Анализ сплитов', urls.map((u, i) =>
-                chip({ href: u, label: 'Reskeep' + (urls.length > 1 ? ' ' + (i + 1) : ''), img: 'images/r-k.gif' })).join(', '));
+            html += infoRow('Анализ сплитов', urls.map((u, i) =>
+                linkChipHtml({ href: u, label: 'Reskeep' + (urls.length > 1 ? ' ' + (i + 1) : ''), img: 'images/r-k.gif' })).join(', '));
         }
         const gps = getGPS(evt);
         if (gps) {
             const items = isObject(gps)
-                ? Object.entries(gps).map(([k, v]) => chip({ href: v, label: k, img: 'images/' + gpsIcon(v, 'o-gps.gif') }))
-                : [chip({ href: gps, label: 'смотреть трансляцию', img: 'images/' + gpsIcon(gps, 'o-gps.gif') })];
-            html += row('GPS-трансляция', items.join(', '));
+                ? Object.entries(gps).map(([k, v]) => linkChipHtml({ href: v, label: k, img: 'images/' + gpsIcon(v, 'o-gps.gif') }))
+                : [linkChipHtml({ href: gps, label: 'смотреть трансляцию', img: 'images/' + gpsIcon(gps, 'o-gps.gif') })];
+            html += infoRow('GPS-трансляция', items.join(', '));
         }
-        html += row('Фото', chips(evt.photo, 'photo'));
-        html += row('Видео', chips(evt.video, 'video'));
-        html += row('Карты с дистанциями', chips(evt.publish, 'photo'));
+        html += infoRow('Фото', linkChipsHtml(evt.photo, 'photo'));
+        html += infoRow('Видео', linkChipsHtml(evt.video, 'video'));
+        html += infoRow('Карты с дистанциями', linkChipsHtml(evt.publish, 'photo'));
         if (HAS_ME_PARAM && (evt.me || evt.strava)) {
             const strava = asList(evt.strava).map(s => 'https://www.strava.com/activities/' + s);
-            html += row('Моё участие', (evt.me ? esc(evt.me) + ' ' : '') + chips(strava));
+            html += infoRow('Моё участие', (evt.me ? htmlEscape(evt.me) + ' ' : '') + linkChipsHtml(strava));
         }
-        return section('ev_results', 'Результаты и материалы', html);
+        return infoSection('ev_results', 'Результаты и материалы', html);
     }
 
     // Организаторы: у владельца выводится title, а если его нет - name.
@@ -595,7 +479,7 @@
         }
         const item = code => {
             const o = owners[code];
-            const logo = o.logo ? `<img src="./logo/${esc(o.logo)}" alt="" class="sheet-icon"> ` : '';
+            const logo = o.logo ? `<img src="./logo/${htmlEscape(o.logo)}" alt="" class="sheet-icon"> ` : '';
             return logo + (o.title ?? o.name);
         };
         if (known.length === 0) return '';
@@ -606,17 +490,17 @@
     function buildDetailsSection(evt) {
         let html = evt.info ? `<p>${evt.info}</p>` : '';
         if (evt.bulletin) {
-            html += row('Информационный бюллетень', asList(evt.bulletin).map(b =>
-                chip({ href: b, label: describeLink(b).label, img: 'images/info.png' })).join(', '));
+            html += infoRow('Информационный бюллетень', asList(evt.bulletin).map(b =>
+                linkChipHtml({ href: b, label: describeLinkItem(b).label, img: 'images/info.png' })).join(', '));
         }
-        if (evt.reg) html += row('Регистрация', chips(evt.reg, 'reg'));
-        html += row('Организаторы', buildOwnersHtml(evt));
-        html += row('Планирование дистанций', buildPlanners(evt, null, true));
+        if (evt.reg) html += infoRow('Регистрация', linkChipsHtml(evt.reg, 'reg'));
+        html += infoRow('Организаторы', buildOwnersHtml(evt));
+        html += infoRow('Планирование дистанций', buildPlanners(evt, null, true));
         if (evt.o_site) {
-            html += row('Страница на O-Site', chip({ href: O_SITE_ADDRESS_PREFIX + evt.o_site, label: evt.o_site, img: 'images/o-site.gif' }));
+            html += infoRow('Страница на O-Site', linkChipHtml({ href: O_SITE_ADDRESS_PREFIX + evt.o_site, label: evt.o_site, img: 'images/o-site.gif' }));
         }
-        if (evt.fmt && String(evt.fmt).includes('<br')) html += row('Дистанции', '<br>' + evt.fmt); // лыжные: по строке на дистанцию
-        return section('ev_details', 'Подробности', html);
+        if (evt.fmt && String(evt.fmt).includes('<br')) html += infoRow('Дистанции', '<br>' + evt.fmt); // лыжные: по строке на дистанцию
+        return infoSection('ev_details', 'Подробности', html);
     }
 
     // Программа многодневки: «родитель» и его этапы (поле parent), текущее - жирным.
@@ -626,11 +510,11 @@
         if (stages.length === 0) return '';
         const item = e => {
             const text = `${shortDate(e, false)} — ` + eventLogoIcon(e) + (e === evt ? `<b>${e.name}</b>` : `<a href="${eventPageUrl(e)}" target="_self">${e.name}</a>`) +
-                (e.place && e.place !== root.place ? ` (${esc(e.place)})` : '');
+                (e.place && e.place !== root.place ? ` (${htmlEscape(e.place)})` : '');
             return text;
         };
         const html = `<ul><li>${item(root)}<ul>` + stages.map(e => `<li>${item(e)}</li>`).join('') + '</ul></li></ul>';
-        return section('ev_program', 'Программа', html);
+        return infoSection('ev_program', 'Программа', html);
     }
 
     // Карты: одна карта - крупное превью слева, сведения справа (сетка Bootstrap;
@@ -651,27 +535,27 @@
             const m = getMapForName(name);
             if (!m) {
                 console.warn('event.html: у события ' + evt.id + ' указана неизвестная карта ' + name);
-                return { body: row('', esc(name)), preview: null };
+                return { body: infoRow('', htmlEscape(name)), preview: null };
             }
             const page = mapPageFor(m, ctx.mapPage);
             const infoHref = 'map-info.html?map=' + encodeURIComponent(name);
             const preview = (!isMapHidden(m) && m.url) ? { href: infoHref, m: m } : null;
-            let html = row('', `<a href="${infoHref}" target="_self">${stripTags(mapTitle(m, false, false))}</a> ` +
+            let html = infoRow('', `<a href="${infoHref}" target="_self">${stripTags(mapTitle(m, false, false))}</a> ` +
                 `<a href="${page}?calendar&map=${encodeURIComponent(name)}" title="Карта на O-Maps">🗺️</a>` +
-                (m.poster ? ' ' + chip({ href: m.poster, label: 'плакат', img: 'images/' + downloadIconExt(m.poster) + '-file.png' }) : ''));
+                (m.poster ? ' ' + linkChipHtml({ href: m.poster, label: 'плакат', img: 'images/' + downloadIconExt(m.poster) + '-file.png' }) : ''));
             const authorsHtml = buildAuthors(m);
-            if (authorsHtml) html += row('Авторы', authorsHtml.replace(/<br\s*\/?>$/i, ''));
-            if (isMapHidden(m)) html += row('', 'Просмотр карты не разрешён правообладателем.');
+            if (authorsHtml) html += infoRow('Авторы', authorsHtml.replace(/<br\s*\/?>$/i, ''));
+            if (isMapHidden(m)) html += infoRow('', 'Просмотр карты не разрешён правообладателем.');
             return { body: html, preview: preview };
         });
         for (const x of extMaps) {
             items.push({
-                body: row('', chip({ href: x.url, label: x.label, img: x.icon, title: x.title })),
+                body: infoRow('', linkChipHtml({ href: x.url, label: x.label, img: x.icon, title: x.title })),
                 preview: x.preview ? { href: x.url, m: { url: x.preview, name: x.label }, external: true, attrs: externalMapPreviewAttrs(x) } : null
             });
         }
         const previews = items.filter(it => it.preview).map(it => it.preview);
-        const img = (p, cls, extra) => `<a href="${esc(p.href)}" ${p.external ? `target="_blank" rel="noopener${isNoReferrerUrl(p.href) ? ' noreferrer' : ''}"` : 'target="_self"'}><img src="${esc(p.m.url)}" loading="lazy" class="${cls}" alt="${esc(p.m.name ?? 'Карта')}"${extra ?? ''}${p.attrs ?? ''}></a>`;
+        const img = (p, cls, extra) => `<a href="${htmlEscape(p.href)}" ${p.external ? `target="_blank" rel="noopener${isNoReferrerUrl(p.href) ? ' noreferrer' : ''}"` : 'target="_self"'}><img src="${htmlEscape(p.m.url)}" loading="lazy" class="${cls}" alt="${htmlEscape(p.m.name ?? 'Карта')}"${extra ?? ''}${p.attrs ?? ''}></a>`;
         let html;
         if (items.length === 1 && previews.length === 1) {
             html = `<div class="row"><div class="col-sm-5 col-lg-3 mb-3" data-preview-box>${img(previews[0], 'help-figure mw-100')}</div>` +
@@ -682,7 +566,7 @@
                   `<div class="col-sm-8 col-lg-9">${it.body}</div></div>`
                 : it.body).join('');
         }
-        return section('ev_maps', names.length + extMaps.length > 1 ? 'Карты' : 'Карта', html);
+        return infoSection('ev_maps', names.length + extMaps.length > 1 ? 'Карты' : 'Карта', html);
     }
 
     // Место: мини-карта с картами события (повёрнутые подложки, как на
@@ -704,82 +588,30 @@
         if (!ctx.point) return '';
         const links = [];
         if (evt.coord) {
-            links.push(chip({ href: `${ctx.mapPage}?x=${evt.coord[0]}&y=${evt.coord[1]}&calendar`, label: 'Открыть на карте O-Maps', img: 'images/map_24.png' }, 'btn btn-sm btn-outline-secondary me-2 mb-2'));
+            links.push(linkChipHtml({ href: `${ctx.mapPage}?x=${evt.coord[0]}&y=${evt.coord[1]}&calendar`, label: 'Открыть на карте O-Maps', img: 'images/map_24.png' }, 'btn btn-sm btn-outline-secondary me-2 mb-2'));
         } else {
             const name = asList(evt.map)[0];
             const page = mapPageFor(getMapForName(name), ctx.mapPage);
-            links.push(chip({ href: `${page}?calendar&map=${encodeURIComponent(name)}`, label: 'Открыть на карте O-Maps', img: 'images/map_24.png' }, 'btn btn-sm btn-outline-secondary me-2 mb-2'));
+            links.push(linkChipHtml({ href: `${page}?calendar&map=${encodeURIComponent(name)}`, label: 'Открыть на карте O-Maps', img: 'images/map_24.png' }, 'btn btn-sm btn-outline-secondary me-2 mb-2'));
         }
         // Маршрут - до coord события, а без него до центра карты (eventPoint),
         // той же точки, где стоит маркер события на основной карте. И для
         // прошедших событий: место пригодится и для тренировки.
         const p = ctx.point;
-        links.push(chip({
-            href: `https://yandex.ru/maps/?rtext=~${+p[0].toFixed(6)},${+p[1].toFixed(6)}&rtt=auto`,
+        links.push(linkChipHtml({
+            href: yandexRouteUrl(p),
             label: evt.coord ? 'Маршрут в Яндексе до центра' : 'Маршрут в Яндексе до карты', emoji: '🚗',
             title: evt.coord ? 'Маршрут до места события' : 'Маршрут до центра карты события'
         }, 'btn btn-sm btn-outline-secondary me-2 mb-2'));
-        const coords = evt.coord ? row('Координаты', `${evt.coord[0]}, ${evt.coord[1]}`) : '';
-        return section('ev_place', 'Место', `<div id="event_map" role="img" aria-label="Карта места события"></div>${coords}<div>${links.join('')}</div>`);
-    }
-
-    // --- подложка мини-карты ------------------------------------------------------
-
-    const OSM_TILES = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    const TOPO_TILES = 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png';
-    const YANDEX_API = 'https://api-maps.yandex.ru/2.1/?lang=ru_RU';
-    const YANDEX_PLUGIN = 'js/ext/Yandex.js';
-
-    function loadScript(src) {
-        return new Promise((resolve, reject) => {
-            const script = document.createElement('script');
-            script.src = src;
-            script.onload = resolve;
-            script.onerror = () => reject(new Error('не загрузился ' + src));
-            document.head.appendChild(script);
-        });
-    }
-
-    // API Яндекс Карт тяжёлый, поэтому грузится только когда нужен: если на
-    // основной карте выбран Яндекс (схема или спутник). Не загрузился - OSM.
-    async function addBaseLayer(lmap) {
-        const bg = typeof background !== 'undefined' ? background : BACKGROUND_YANDEX;
-        const attribution = typeof ATTRIBUTION !== 'undefined' ? ATTRIBUTION : '';
-        if (bg === BACKGROUND_OSM) {
-            L.tileLayer(OSM_TILES, { maxZoom: 17, attribution: attribution }).addTo(lmap);
-            return;
-        }
-        if (bg === BACKGROUND_TOPO) {
-            L.tileLayer(TOPO_TILES, { maxZoom: 17, attribution: attribution }).addTo(lmap);
-            return;
-        }
-        try {
-            if (typeof ymaps === 'undefined') await loadScript(YANDEX_API);
-            if (typeof L.yandex !== 'function') await loadScript(YANDEX_PLUGIN);
-            const options = { maxZoom: 17, attribution: attribution };
-            if (bg === BACKGROUND_SATELLITE) options.type = 'satellite';
-            L.yandex(options).addTo(lmap);
-        } catch (e) {
-            console.warn('event.html: подложка Яндекса недоступна (' + e.message + '), показан OSM');
-            L.tileLayer(OSM_TILES, {
-                maxZoom: 17,
-                attribution: '© <a href="https://github.com/efradkin/o-maps">O-Maps</a> | ' +
-                    '<a href="https://t.me/o_maps">Спорт. карты</a> на ' +
-                    '<a href="https://www.openstreetmap.org/copyright">OSM</a>'
-            }).addTo(lmap);
-        }
+        const coords = evt.coord ? infoRow('Координаты', `${evt.coord[0]}, ${evt.coord[1]}`) : '';
+        return infoSection('ev_place', 'Место', `<div id="event_map" role="img" aria-label="Карта места события"></div>${coords}<div>${links.join('')}</div>`);
     }
 
     function initPlaceMap(evt, ctx) {
         const el = document.getElementById('event_map');
         if (!el || typeof L === 'undefined') return;
-        // Подложка и строка атрибуции - те же, что на основной карте: фон,
-        // выбранный там (background из map-build.js: параметр адреса или
-        // localStorage, по умолчанию Яндекс Схема), и ATTRIBUTION без префикса
-        // «Leaflet», как в main.js.
-        const lmap = L.map(el, { scrollWheelZoom: false, zoomControl: true, attributionControl: false });
-        L.control.attribution().setPrefix('').addTo(lmap);
-        addBaseLayer(lmap);
+        // Подложка и строка атрибуции - те же, что на основной карте (createPlaceMiniMap в utils.js).
+        const lmap = createPlaceMiniMap(el, 'event.html');
 
         let bounds = null;
         for (const name of asList(evt.map)) {
@@ -787,9 +619,9 @@
             if (!m || !m.bounds || m.bounds.length < 3) continue;
             const ll = m.bounds.slice(0, 3).map(b => L.latLng(b));
             L.imageOverlay.rotated(mapImageUrl(m), ll[0], ll[1], ll[2], { opacity: 0.85, alt: m.name }).addTo(lmap);
-            const b = L.latLngBounds([ll[0], ll[1], ll[2],
-                L.latLng(ll[1].lat + ll[2].lat - ll[0].lat, ll[1].lng + ll[2].lng - ll[0].lng)]);
-            bounds = bounds ? bounds.extend(b) : b;
+            // габарит карты - копия: mapLatLngBounds() кэширует его в m._llb, а extend() меняет объект
+            const b = mapLatLngBounds(m);
+            bounds = bounds ? bounds.extend(b) : L.latLngBounds(b.getSouthWest(), b.getNorthEast());
         }
 
         const s = ctx.status;
@@ -821,14 +653,14 @@
 
     // Документы - иконками скачивания, как на start-details (buildDownloadLinks).
     function buildDocsSection(evt) {
-        let html = evt.docs ? row('Документы события', buildDownloadLinks(null, evt.docs)) : '';
+        let html = evt.docs ? infoRow('Документы события', buildDownloadLinks(null, evt.docs)) : '';
         const related = relatedHistoryDocs(evt);
         if (related.length) {
             html += '<ul>' + related.map(d =>
                 `<li>${d.name ?? 'Документ'}${d.info ? ' — ' + d.info : ''} ${buildDownloadLinks(d.link, d.links)}</li>`
             ).join('') + '</ul>';
         }
-        return section('ev_docs', 'Документы', html);
+        return infoSection('ev_docs', 'Документы', html);
     }
 
     // Исторические документы (history-docs.js): с картой этого события или
@@ -837,15 +669,9 @@
         if (typeof historyDocs === 'undefined') return [];
         const maps = asList(evt.map);
         const codes = asList(evt.start);
-        const from = String(evt.date).substring(0, 10);
-        const to = String(evt.endDate ?? evt.date).substring(0, 10);
         return historyDocs.filter(d => {
             if (asList(d.map).some(m => maps.includes(m))) return true;
-            if (!codes.some(c => checkStartMap(c, d))) return false;
-            return asList(d.date).some(dt => {
-                const day = String(dt).substring(0, 10);
-                return day.length === 10 && day >= from && day <= to;
-            });
+            return codes.some(c => checkStartMap(c, d)) && isDateInEventDays(d.date, evt);
         });
     }
 
@@ -872,12 +698,12 @@
             const items = list.map(e => {
                 const y = parseDay(e.date).getFullYear();
                 const label = perYear[y] > 1 ? shortDate(e, true) : String(y);
-                const title = esc(stripTags(e.name) + ', ' + fullDateText(e));
+                const title = htmlEscape(stripTags(e.name) + ', ' + fullDateText(e));
                 return e.id === current.id
                     ? `<b title="${title}">${label}</b>`
                     : `<a href="${eventPageUrl(e)}" target="_self" title="${title}">${label}</a>`;
             });
-            html += row(esc(seriesLabel(code)), items.join(', ') +
+            html += infoRow(htmlEscape(seriesLabel(code)), items.join(', ') +
                 `. Всего событий: ${all.length}, <a href="start-details.html?start=${encodeURIComponent(code)}">страница серии</a>.`);
         }
         return html;
@@ -908,17 +734,17 @@
         let items = shown.map(e => {
             const place = getEventPlace(e)
             return `<li>${shortDate(e, false)} — ${eventLogoIcon(e)}<a href="${eventPageUrl(e)}" target="_self">${e.name}</a>` +
-                (place ? ` (${esc(place)})` : '') + '</li>';
+                (place ? ` (${htmlEscape(place)})` : '') + '</li>';
         }).join('');
         if (list.length > shown.length) {
             items += `<li>и ещё ${list.length - shown.length} — <a href="${ctx.calendarHref}">в календаре</a></li>`;
         }
-        return row('В те же и соседние дни', `<ul>${items}</ul>`);
+        return infoRow('В те же и соседние дни', `<ul>${items}</ul>`);
     }
 
     function buildAroundSection(evt, ctx) {
         const html = buildSeriesBlock(evt, ctx) + buildSameDaysBlock(evt, ctx);
-        return section('ev_around', 'Рядом в календаре', html);
+        return infoSection('ev_around', 'Рядом в календаре', html);
     }
 
     function buildNav(evt, ctx) {
@@ -983,10 +809,9 @@
         if (evt.info) fullDescription += ' ' + stripTags(evt.info);
         let description = fullDescription;
         if (description.length > 160) description = description.substring(0, 157).replace(/\s+\S*$/, '') + '…';
-        const set = (sel, value) => document.head.querySelector(sel)?.setAttribute('content', value);
-        set('meta[name="description"]', description);
-        set('meta[property="og:title"]', title);
-        set('meta[property="og:description"]', description);
+        setMetaContent('meta[name="description"]', description);
+        setMetaContent('meta[property="og:title"]', title);
+        setMetaContent('meta[property="og:description"]', description);
         // Картинка: логотип события, иначе первая карта события с файлом,
         // иначе общая превью-картинка сайта (она же og:image в event.html).
         const logos = logoList(evt);
@@ -994,7 +819,7 @@
         const image = logos.length ? absUrl('logo/' + logos[0])
             : firstMapUrl ? absUrl(firstMapUrl)
             : document.head.querySelector('meta[property="og:image"]')?.getAttribute('content');
-        if (image) set('meta[property="og:image"]', image);
+        if (image) setMetaContent('meta[property="og:image"]', image);
 
         const ld = {
             '@context': 'https://schema.org',
@@ -1036,17 +861,10 @@
 
     function renderNotFound() {
         const text = EVENT_ID
-            ? `В календарях O-Maps нет события с кодом <b>${esc(EVENT_ID)}</b>. Возможно, ссылка устарела или в ней опечатка.`
+            ? `В календарях O-Maps нет события с кодом <b>${htmlEscape(EVENT_ID)}</b>. Возможно, ссылка устарела или в ней опечатка.`
             : 'В адресе не указан код события: страница открывается как <code>event.html?id=КОД_СОБЫТИЯ</code>.';
-        document.getElementById('event_title').textContent = 'Событие не найдено';
-        document.title = 'Событие не найдено — O-Maps';
-        const hero = document.getElementById('event_hero');
-        hero.innerHTML = `<p>${text}</p><p>Найти старт можно в календарях: ` +
-            EVENT_CALENDARS.map(c => `<a href="${c.page}">${c.title}</a>`).join(', ') + '.</p>';
-        const meta = document.createElement('meta');
-        meta.name = 'robots';
-        meta.content = 'noindex';
-        document.head.appendChild(meta);
+        renderRecordNotFound('event_title', 'Событие не найдено', 'event_hero', `<p>${text}</p><p>Найти старт можно в календарях: ` +
+            SITE_CALENDARS.map(c => `<a href="${c.page}">${c.title}</a>`).join(', ') + '.</p>');
     }
 
     // --- сборка страницы ---------------------------------------------------------------
@@ -1066,7 +884,7 @@
             calendarHref: calendarLink(calendar, entry.source, evt),
             calendarEvents: calendarEvents(calendar),
             all: all,
-            parent: evt.parent ? all.find(e => e.id === evt.parent) : null,
+            parent: evt.parent ? findEvent(evt.parent) : null,
             status: timeStatus(evt),
             kind: eventKind(evt),
         };
@@ -1103,7 +921,7 @@
             buildDocsSection(evt) +
             buildAroundSection(evt, ctx) +
             buildNav(evt, ctx) +
-            `<p class="text-end small text-muted">Код события: ${esc(evt.id)}</p>`;
+            `<p class="text-end small text-muted">Код события: ${htmlEscape(evt.id)}</p>`;
         document.getElementById('event_sections').innerHTML = html;
 
         bindHeroActions(evt);

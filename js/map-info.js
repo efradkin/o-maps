@@ -18,12 +18,7 @@ let info = '';
 if (m.info) {
     info += m.info;
 }
-if (m.results) {
-    info += ` <a href="${m.results}">Результаты</a>.`;
-}
-if (m.o_site) {
-    info += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо и результаты</a>.`;
-}
+info += buildMapResultsLinks(m);
 info += ' ' + buildOrderPanel(m);
 if (info) {
     let el = document.getElementById('map_info');
