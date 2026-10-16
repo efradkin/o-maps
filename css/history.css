@@ -216,3 +216,68 @@ a.hist-video::before {
 @media screen and (max-width: 700px) {
     .hist-fig-narrow { float: none; width: 100%; max-width: none; margin: 4px 0 14px; }
 }
+
+/* ---- повторные упоминания людей: «тихие» ссылки ------------------------ */
+body.history-body a.hist-quiet {
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: underline dotted;
+    text-decoration-color: var(--o-text-faint);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+body.history-body a.hist-quiet:hover {
+    color: var(--o-accent);
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
+}
+
+/* место упоминания, на которое перешли из указателя имён */
+body.history-body a[id^="nm"] { scroll-margin-top: 30vh; }
+body.history-body a[id^="nm"]:target {
+    background: var(--o-accent-soft);
+    border-radius: 3px;
+    box-shadow: 0 0 0 3px var(--o-accent-soft);
+}
+
+/* ---- указатель имён (схлопнут по умолчанию) ---------------------------- */
+.hist-names > summary {
+    cursor: pointer;
+    list-style: none;
+}
+.hist-names > summary::-webkit-details-marker { display: none; }
+.hist-names > summary h2 { display: inline; }
+.hist-names > summary::after {
+    content: '▸';
+    display: inline-block;
+    margin-left: .5rem;
+    color: var(--o-text-muted);
+    transition: transform .15s ease;
+}
+.hist-names[open] > summary::after { transform: rotate(90deg); }
+.hist-names-note {
+    margin: .5rem 0 .75rem;
+    font-size: .92rem;
+    color: var(--o-text-muted);
+}
+.hist-names-list {
+    columns: 2 300px;
+    column-gap: 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.hist-names-list li {
+    break-inside: avoid;
+    margin: 0 0 4px;
+}
+.hist-names-refs {
+    font-size: .8rem;
+    font-variant-numeric: tabular-nums;
+}
+.hist-names-refs a {
+    margin-left: 2px;
+    font-weight: 400;
+    vertical-align: super;
+    line-height: 0;
+}
