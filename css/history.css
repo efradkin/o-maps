@@ -261,16 +261,21 @@ body.history-body a[id^="nm"]:target {
     color: var(--o-text-muted);
 }
 .hist-names-list {
-    columns: 2 300px;
-    column-gap: 32px;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 .hist-names-list li {
-    break-inside: avoid;
-    margin: 0 0 4px;
+    margin: 0 0 6px;
+    padding-left: 1.2em;
+    text-indent: -1.2em;              /* перенос строки — с отступом под именем */
 }
+.hist-names-list li > a:first-child { font-weight: 600; }
+.hist-names-more {
+    font-size: .88rem;
+    color: var(--o-text-muted);
+}
+.hist-names-more a { font-weight: 400; white-space: nowrap; }
 .hist-names-refs {
     font-size: .8rem;
     font-variant-numeric: tabular-nums;
