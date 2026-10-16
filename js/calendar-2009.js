@@ -872,6 +872,7 @@ let events2009 = [
         date: '2009-08-29',
         place: 'Цвелодубово',
         name: 'Миля-Спорт',
+        owner: 'MILYA_SPORT',
         o_site: '090829',
         bulletin: 'https://o-site.spb.ru/_races/090829/090829_info2.htm'
     },

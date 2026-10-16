@@ -950,6 +950,7 @@ let events2007 = [
         date: '2007-09-29',
         place: 'Орехово',
         name: 'Открытое первенство клуба «Миля Спорт»',
+        owner: 'MILYA_SPORT',
         res: 'https://o-site.spb.ru/_races/070929/070929_res.htm',
         o_site: '070929',
         map: 'orekhovo_rakitinskoe_2004'

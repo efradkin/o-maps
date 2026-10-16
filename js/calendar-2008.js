@@ -750,6 +750,7 @@ let events2008 = [
         date: '2008-08-30',
         place: '69км',
         name: 'Миля-спорт',
+        owner: 'MILYA_SPORT',
         o_site: '080830'
     },
     {
