@@ -2956,10 +2956,17 @@ function toggleLongText(button) {
 
 /* --- Peek Widget ---  */
 
+// Корень сайта относительно текущей страницы - по адресу самого utils.js
+// (страницы во вложенных папках, например history/, подключают ../js/utils.js).
+const SITE_ROOT = (() => {
+    const src = document.currentScript?.src;
+    return src ? src.replace(/js\/utils\.js(\?.*)?$/, '') : '';
+})();
+
 const PEEK_WIDGET_CONTENT = `
     <h3>Добро пожаловать!</h3>
-    <section><img src="logo/o-maps.webp" class="help-figure" title="Лого" /><br /><br />
-    <p>Тут могла бы быть Ваша реклама, но её тут нет. <a href="help/contacts.html">Пишите, звоните</a>. Мы рады поддержке и открыты для любых предложений.</section>
+    <section><img src="${SITE_ROOT}logo/o-maps.webp" class="help-figure" title="Лого" /><br /><br />
+    <p>Тут могла бы быть Ваша реклама, но её тут нет. <a href="${SITE_ROOT}help/contacts.html">Пишите, звоните</a>. Мы рады поддержке и открыты для любых предложений.</section>
     `;
 
 class PeekWidget {

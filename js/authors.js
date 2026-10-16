@@ -467,7 +467,7 @@ let authors = {
     },
     VLKV_A: {
         name: 'Волков Андрей', //Владимирович
-        about: 'https://o-site.spb.ru/history/Peoples/avolkov.html',
+        about: 'volkov_av.html',
         logo: 'mourning.webp'
     },
     VLKV_K: {
