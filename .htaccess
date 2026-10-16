@@ -35,7 +35,7 @@ RewriteCond %{QUERY_STRING} ^(.*&)?start=RUSSIA_ROGAINE_CHAMP(&.*)?$
 RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=RRC%2 [R=301,L,NE]
 RewriteCond %{QUERY_STRING} ^(.*&)?start=RUSSIA_CUP_2024(&.*)?$
 RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=RUS_CUP_2024%2 [R=301,L,NE]
-RewriteCond %{QUERY_STRING} ^(.*&)?start=RUSSIA_CUP(&.*)?$
+RewriteCond %{QUERY_STRING} ^(.*&)?start=RUS_CUP(&.*)?$
 RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=RUS_CUP%2 [R=301,L,NE]
 RewriteCond %{QUERY_STRING} ^(.*&)?start=RUSSIA_(20[0-9][0-9])(&.*)?$
 RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=RUS_%2%3 [R=301,L,NE]
