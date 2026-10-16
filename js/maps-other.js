@@ -1081,6 +1081,17 @@ let otherMaps = [
         type: ['PARK']
     },
     {
+        name: 'Черноморский ДК, Лодочный пруд',
+        year: 2026,
+        url: './maps/south/chernomorsky_boat_pond_2026.webp',
+        link: './original_maps/south/chernomorsky_boat_pond_2026_omaps.gif',
+        bounds: [[44.8513205, 38.4959650], [44.8511380, 38.4995162], [44.8498297, 38.4960723]],
+        author: 'KZKV_K',
+        owner: 'KZKV_K',
+        region: 'KRASNODAR',
+        type: ['PARK']
+    },
+    {
         name: 'Горячий ключ',
         year: 2013,
         url: './maps/south/hot_key_2013.webp',
