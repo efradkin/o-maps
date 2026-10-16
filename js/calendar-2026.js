@@ -3166,7 +3166,7 @@ let events2026 = [
         fmt: 'ночная эстафета',
         o_site: '261025_50Verst',
         bulletin: 'https://o-site.spb.ru/_races/261025_50Verst/261025_info_50_vyorst_2026.pdf',
-        reg: 'http://sportident.online/entry/?id=7198',
+        reg: 'http://sportident.online/entry/?id=7197',
         endReg: '2026-10-18',
         owner: 'NW'
     },
@@ -3199,7 +3199,7 @@ let events2026 = [
         fmt: 'детская эстафета',
         o_site: '261025_50Verst',
         bulletin: 'https://o-site.spb.ru/_races/261025_50Verst/261025_info_50_vyorst_2026.pdf',
-        reg: 'http://sportident.online/entry/?id=7197',
+        reg: 'https://sportident.online/entry/?id=7198',
         endReg: '2026-10-18',
         info: '+ тренировочные дистанции.',
         owner: 'NW'
