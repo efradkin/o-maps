@@ -293,14 +293,18 @@ function buildLogoCarousel(logos, id, imgClass, wrapperClass = '', wrapperStyle 
 }
 
 // Логотип во всплывающем окне: одна картинка или карусель со всеми логотипами
+// При isMobile текст попапа идёт под логотипом (mobile-popup-text), поэтому логотип
+// помечается классом popup-logo-inline и остаётся в потоке - иначе на сенсорных
+// устройствах с широким окном (> 600px) десктопный position: fixed кладёт его на текст
 function buildPopupLogo(logos, withCarousel = true) {
     if (!logos.length) {
         return '';
     }
+    const inlineClass = isMobile ? ' popup-logo-inline' : '';
     if (logos.length === 1 || !withCarousel) {
-        return '<img src="./' + logos[0] + '" alt="Лого" class="popup-logo" />';
+        return '<img src="./' + logos[0] + '" alt="Лого" class="popup-logo' + inlineClass + '" />';
     }
-    return buildLogoCarousel(logos, 'logo-carousel', 'd-block popup-logo');
+    return buildLogoCarousel(logos, 'logo-carousel', 'd-block popup-logo', inlineClass.trim());
 }
 
 const ACTUAL_EVENTS_CALENDAR_PARAM_VALUE = 'actual';

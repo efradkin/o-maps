@@ -372,6 +372,12 @@ body.sub-index-body {
 #logo-carousel .popup-logo {
     position: static;
 }
+/* раскладка isMobile (текст под логотипом): логотип и карусель в потоке
+   при любой ширине окна - сенсорные ноутбуки, планшеты в альбомной ориентации */
+.popup-logo.popup-logo-inline,
+#logo-carousel.popup-logo-inline {
+    position: static;
+}
 /* Карусель логотипов: все слайды в одной ячейке сетки, неактивные лишь невидимы,
    поэтому размер карусели - по самому большому логотипу и не меняется при листании */
 .logo-carousel .carousel-inner {
