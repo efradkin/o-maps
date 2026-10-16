@@ -39,3 +39,8 @@ RewriteCond %{QUERY_STRING} ^(.*&)?start=RUSSIA_CUP(&.*)?$
 RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=RUS_CUP%2 [R=301,L,NE]
 RewriteCond %{QUERY_STRING} ^(.*&)?start=RUSSIA_(20[0-9][0-9])(&.*)?$
 RewriteRule ^(.*)$ https://o-maps.spb.ru/$1?%1start=RUS_%2%3 [R=301,L,NE]
+
+# 4) Переименованные страницы (2026-10): статья по истории Петербурга
+#    history/spb.html -> history/spb-history.html (имя совпадало с картой /spb.html).
+#    Параметры адреса сохраняются, якорь (#…) браузер переносит сам.
+RewriteRule ^history/spb\.html$ https://o-maps.spb.ru/history/spb-history.html [R=301,L,NE]

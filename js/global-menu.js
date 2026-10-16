@@ -166,7 +166,7 @@ const GLOBAL_MENU_ITEMS = [
     {
         title: 'История',
         menuItems: [
-            { title: '🏙️ Ленинград, Петербург', page: 'history/spb' },
+            { title: '🏙️ Ленинград, Петербург', page: 'history/spb-history' },
             {
                 title: '🏆 Чемпионаты мира и Европы',
                 menuItems: [
