@@ -121,6 +121,14 @@
     <lastmod>2026-10-14</lastmod>
   </url>
   <url>
+    <loc>https://o-maps.spb.ru/owner.html</loc>
+    <lastmod>2026-10-16</lastmod>
+  </url>
+  <url>
+    <loc>https://o-maps.spb.ru/poi.html</loc>
+    <lastmod>2026-10-16</lastmod>
+  </url>
+  <url>
     <loc>https://o-maps.spb.ru/pskov-home.html</loc>
     <lastmod>2026-10-16</lastmod>
   </url>
@@ -350,7 +358,7 @@
   </url>
   <url>
     <loc>https://o-maps.spb.ru/history/spb-history.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/history/ussr-foot.html</loc>
@@ -472,6 +480,9 @@
   </url>
   <url>
     <loc>https://o-maps.spb.ru/start.html?start=VACHSKY</loc>
+  </url>
+  <url>
+    <loc>https://o-maps.spb.ru/start.html?start=VOLKOV_A</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/start.html?start=VSEV_VESTI</loc>
@@ -597,6 +608,9 @@
     <loc>https://o-maps.spb.ru/start-details.html?start=VACHSKY</loc>
   </url>
   <url>
+    <loc>https://o-maps.spb.ru/start-details.html?start=VOLKOV_A</loc>
+  </url>
+  <url>
     <loc>https://o-maps.spb.ru/start-details.html?start=VSEV_VESTI</loc>
   </url>
   <url>
@@ -621,6 +635,9 @@
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19590719_1</loc>
   </url>
   <url>
+    <loc>https://o-maps.spb.ru/event.html?id=SPB_19590920_1</loc>
+  </url>
+  <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19600310_1</loc>
   </url>
   <url>
@@ -634,6 +651,9 @@
   </url>
   <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19630707_1</loc>
+  </url>
+  <url>
+    <loc>https://o-maps.spb.ru/event.html?id=SPB_19630819_1</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19640919_1</loc>
@@ -681,6 +701,9 @@
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19690427_1</loc>
   </url>
   <url>
+    <loc>https://o-maps.spb.ru/event.html?id=SPB_19690508_1</loc>
+  </url>
+  <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19690525_1</loc>
   </url>
   <url>
@@ -690,10 +713,16 @@
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19690628_1</loc>
   </url>
   <url>
+    <loc>https://o-maps.spb.ru/event.html?id=SPB_19690701_1</loc>
+  </url>
+  <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19690719_1</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19690928_1</loc>
+  </url>
+  <url>
+    <loc>https://o-maps.spb.ru/event.html?id=SPB_19700101_1</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19700222_1</loc>
@@ -750,10 +779,19 @@
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19730602_4</loc>
   </url>
   <url>
+    <loc>https://o-maps.spb.ru/event.html?id=SPB_19740720_1</loc>
+  </url>
+  <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19750126_1</loc>
   </url>
   <url>
+    <loc>https://o-maps.spb.ru/event.html?id=SPB_19750219_1</loc>
+  </url>
+  <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19750522_1</loc>
+  </url>
+  <url>
+    <loc>https://o-maps.spb.ru/event.html?id=SPB_19760710_1</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19770226_1</loc>
@@ -835,6 +873,9 @@
   </url>
   <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19840617_1</loc>
+  </url>
+  <url>
+    <loc>https://o-maps.spb.ru/event.html?id=SPB_19840623_1</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19840825_1</loc>
@@ -975,6 +1016,9 @@
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19880629_1</loc>
   </url>
   <url>
+    <loc>https://o-maps.spb.ru/event.html?id=SPB_19880701_1</loc>
+  </url>
+  <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19880703_1</loc>
   </url>
   <url>
@@ -1045,6 +1089,9 @@
   </url>
   <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19881231_1</loc>
+  </url>
+  <url>
+    <loc>https://o-maps.spb.ru/event.html?id=SPB_19890122_1</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19890507_1</loc>
@@ -1261,6 +1308,9 @@
   </url>
   <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19900923_1</loc>
+  </url>
+  <url>
+    <loc>https://o-maps.spb.ru/event.html?id=SPB_19901005_1</loc>
   </url>
   <url>
     <loc>https://o-maps.spb.ru/event.html?id=SPB_19901006_1</loc>
