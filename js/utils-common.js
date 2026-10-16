@@ -788,3 +788,135 @@ function writeBackToStartButton(options = {}) {
         initBackToStartButton();
     }
 }
+
+// Подсветка текущего раздела в оглавлении длинной страницы (статьи history/*.html).
+// Разметка — оглавление со ссылками на id разделов, например:
+//   <nav class="hist-toc"><ol><li><a href="#intro" target="_self">…</a></li>…</ol></nav>
+// Текущей ссылке ставится класс is-current и aria-current="location"; как она
+// выглядит, задаёт CSS страницы (для статей — css/history.css).
+// Текущим считается последний раздел, чей верх поднялся выше четверти окна.
+// Короткие последние разделы, которые до этой черты не доезжают, становятся
+// текущими по очереди в последние полэкрана прокрутки (последний — в самом низу).
+// После клика по пункту оглавления (или перехода по #id раздела) подсвечивается
+// именно он, пока читатель сам не начнёт прокручивать страницу (колесо, касание,
+// клавиши, полоса прокрутки или клик по странице).
+// selector - селектор оглавления; если его нет на странице, функция ничего не делает.
+function initTocHighlight(selector = 'nav.hist-toc') {
+    function init() {
+        const toc = document.querySelector(selector);
+        if (!toc) return;
+
+        const items = [];
+        toc.querySelectorAll('a[href^="#"]').forEach(link => {
+            const target = document.getElementById(decodeURIComponent(link.getAttribute('href').slice(1)));
+            if (target) items.push({link, target});
+        });
+        if (!items.length) return;
+
+        let current = null;     // текущий пункт
+        let pinned = null;      // пункт, выбранный кликом или переходом по якорю
+        let rafId = null;
+
+        // если оглавление не помещается по высоте и прокручивается само,
+        // держим текущий пункт в его видимой области (страницу не двигаем)
+        function keepVisible(link) {
+            if (toc.scrollHeight <= toc.clientHeight + 1) return;
+            const top = link.getBoundingClientRect().top - toc.getBoundingClientRect().top + toc.scrollTop;
+            const bottom = top + link.offsetHeight;
+            if (top < toc.scrollTop + 24) {
+                toc.scrollTop = Math.max(0, top - 24);
+            } else if (bottom > toc.scrollTop + toc.clientHeight - 24) {
+                toc.scrollTop = bottom - toc.clientHeight + 24;
+            }
+        }
+
+        function setCurrent(item) {
+            if (item === current) return;
+            if (current) {
+                current.link.classList.remove('is-current');
+                current.link.removeAttribute('aria-current');
+            }
+            current = item;
+            if (!item) return;
+            item.link.classList.add('is-current');
+            item.link.setAttribute('aria-current', 'location');
+            keepVisible(item.link);
+        }
+
+        function update() {
+            rafId = null;
+            if (pinned) {
+                setCurrent(pinned);
+                return;
+            }
+            const vh = window.innerHeight;
+            const y = window.pageYOffset;
+            const maxY = document.documentElement.scrollHeight - vh;   // предел прокрутки
+            const threshold = vh * 0.25;
+            const range = vh * 0.5;
+
+            // at[i] — положение прокрутки, с которого раздел i становится текущим
+            let at = items.map(it => it.target.getBoundingClientRect().top + y - threshold);
+            // последние разделы до порога не доезжают (страница кончается):
+            // их точки равномерно сжимаем в последние полэкрана прокрутки
+            const last = at[at.length - 1];
+            const from = maxY - range;
+            if (last > maxY && last > from) {
+                at = at.map(a => a > from ? from + range * (a - from) / (last - from) : a);
+            }
+
+            let found = null;
+            for (let i = 0; i < items.length && y >= at[i] - 1; i++) {
+                found = items[i];
+            }
+            setCurrent(found);
+        }
+
+        function scheduleUpdate() {
+            if (rafId !== null) return;
+            rafId = requestAnimationFrame(update);
+        }
+
+        function pinById(id) {
+            pinned = items.find(it => it.target.id === id) || null;
+            scheduleUpdate();
+        }
+
+        // прокрутка самим читателем снимает закрепление
+        function unpin() {
+            if (!pinned) return;
+            pinned = null;
+            scheduleUpdate();
+        }
+
+        toc.addEventListener('click', event => {
+            const link = event.target.closest('a[href^="#"]');
+            const item = link && items.find(it => it.link === link);
+            if (item) {
+                pinned = item;
+                scheduleUpdate();
+            }
+        });
+        window.addEventListener('hashchange', () => pinById(decodeURIComponent(location.hash.slice(1))));
+        window.addEventListener('scroll', scheduleUpdate, {passive: true});
+        window.addEventListener('resize', scheduleUpdate);
+        window.addEventListener('wheel', unpin, {passive: true});
+        window.addEventListener('touchmove', unpin, {passive: true});
+        window.addEventListener('pointerdown', unpin);   // полоса прокрутки, клик по тексту
+        window.addEventListener('keydown', event => {
+            if (['ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End', ' '].includes(event.key)) unpin();
+        });
+
+        if (location.hash) {
+            pinById(decodeURIComponent(location.hash.slice(1)));
+        } else {
+            scheduleUpdate();
+        }
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+}

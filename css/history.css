@@ -286,3 +286,89 @@ body.history-body a[id^="nm"]:target {
     vertical-align: super;
     line-height: 0;
 }
+
+/* ---- оглавление статьи (nav.hist-toc) ----------------------------------
+   Разметка: <nav class="hist-toc"><p class="hist-toc-title">…</p><ol><li><a href="#id">…
+   — прямой потомок .container, между секциями. В потоке это компактная
+   карточка со ссылками в несколько колонок. На широком экране, где слева от
+   .container есть поле, оглавление уходит туда и «прилипает» при прокрутке:
+   float с отрицательными полями не сдвигает секции, а отрицательный нижний
+   отступ не даёт их .clearfix «упираться» в оглавление. */
+body.history-body section[id] { scroll-margin-top: 12px; }
+
+.hist-toc {
+    margin: 20px 0;
+    padding: 14px 20px 16px;
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r);
+    background: var(--o-surface);
+    box-shadow: var(--o-sh-1);
+    font-size: .92rem;
+    line-height: 1.35;
+}
+.hist-toc-title {
+    margin: 0 0 8px;
+    font-size: .78rem;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--o-text-muted);
+}
+.hist-toc ol {
+    columns: 4 170px;
+    column-gap: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.hist-toc li { break-inside: avoid; padding: 2px 0; }
+.hist-toc a {
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    text-decoration: none;
+}
+.hist-toc a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+@media screen and (min-width: 1500px) {
+    .hist-toc {
+        float: left;
+        position: sticky;
+        top: 16px;
+        width: 190px;
+        max-height: calc(100vh - 32px);
+        overflow-y: auto;
+        margin: 20px 0 -100vh -222px;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+        font-size: .86rem;
+    }
+    .hist-toc-title { margin-bottom: 6px; padding-left: 14px; }
+    .hist-toc ol { columns: auto; border-left: 2px solid var(--o-border); }
+    .hist-toc li { padding: 0; }
+    .hist-toc a {
+        display: block;
+        margin-left: -2px;
+        padding: 3px 0 3px 12px;
+        border-left: 2px solid transparent;
+        color: var(--o-text-muted);
+        font-weight: 400;
+    }
+    .hist-toc a:hover {
+        color: var(--o-accent);
+        border-left-color: var(--o-accent);
+        text-decoration: none;
+    }
+    /* текущий раздел (класс ставит initTocHighlight() из js/utils-common.js) */
+    .hist-toc a.is-current {
+        color: var(--o-accent);
+        border-left-color: var(--o-accent);
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 700px) {
+    .hist-toc { padding: 12px 14px 14px; font-size: .88rem; }
+    .hist-toc ol { columns: 2; column-gap: 14px; }
+}
