@@ -752,6 +752,9 @@ body.calendar-body .o-main-table td:last-child:not(.month-row) {
     color: var(--o-accent-dark);
 }
 #back-to-start:hover { background: var(--o-accent-soft); }
+/* тёмная тема: подложка — цвет поверхности (--o-surface) с той же прозрачностью */
+:root.o-dark #back-to-start { background: rgba(27,33,29,.94); }
+:root.o-dark #back-to-start:hover { background: var(--o-accent-soft); }
 
 /* ------------------------------------------------------------------ [13]
    ПРОЧИЕ БЛОКИ: превью карт, плитки стартов, всплывашки
