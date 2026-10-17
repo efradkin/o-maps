@@ -1412,6 +1412,39 @@ let historySpbPoi = [
         overlay: ['roschino_velo_2025', './maps/velo/roschino_velo_2025.webp', [[60.2793237, 29.5635223], [60.277813, 29.6025753], [60.2650017, 29.5617199]]],
     },
     {
+        id: 'zelenogorsk_2025',
+        coord: [60.200112, 29.712278], // центр карты zelenogorsk_2025
+        name: 'Зеленогорск',
+        page: 'spb',
+        year: 2025,
+        events: [
+            ['SPB_20251004_3', 2025, 'Невский спринт', ['sfso.gif']],
+        ],
+        overlay: ['zelenogorsk_2025', './maps/city/zelenogorsk_2025.webp', [[60.2034073, 29.706645], [60.202117, 29.7179103], [60.196817, 29.7040057]]],
+    },
+    {
+        id: 'bolotnaya_station_2025',
+        coord: [60.255186, 29.821422], // центр карты bolotnaya_station_2025
+        name: 'Зеленогорск',
+        page: 'spb',
+        year: 2025,
+        events: [
+            ['SPB_20251004_3', 2025, 'Невский спринт', ['sfso.gif']],
+        ],
+        overlay: ['bolotnaya_station_2025', './maps/forest/zelik/bolotnaya_station_2025.webp', [[60.2637671, 29.7961235], [60.2590412, 29.8467207], [60.2466058, 29.7899008]]],
+    },
+    {
+        id: 'zelenogorsk_tspko_2024',
+        coord: [60.190417, 29.702236], // центр карты zelenogorsk_tspko_2024
+        name: 'Зеленогорск',
+        page: 'spb',
+        year: 2025,
+        events: [
+            ['SPB_20251004_3', 2025, 'Невский спринт', ['sfso.gif']],
+        ],
+        overlay: ['zelenogorsk_tspko_2024', './maps/parks/zelenogorsk_tspko_2024.webp', [[60.1937134, 29.6961308], [60.1924334, 29.7083402], [60.1871211, 29.6935558]]],
+    },
+    {
         id: 'lembolovo_velo_relay_2025',
         coord: [60.409349, 30.331707], // центр карты lembolovo_velo_relay_2025
         name: 'Лемболово',
@@ -1435,6 +1468,17 @@ let historySpbPoi = [
             ['MAJOR_20260822_1', 2026, 'Чемпионат России по рогейну', ['rrf_new.webp']],
         ],
         overlay: ['vyborg_rrc_2026', './maps/rogaine/vyborg_rrc_2026.webp', [[60.9129957, 28.4521866], [60.8830227, 28.7587738], [60.6954516, 28.363266]]],
+    },
+    {
+        id: 'peterhof_spbgu_2026',
+        coord: [59.882698, 29.830509], // центр карты peterhof_spbgu_2026
+        name: 'Петергоф (ПУНК)',
+        page: 'spb',
+        year: 2026,
+        events: [
+            ['SPB_20260425_1', 2026, 'Открытие сезона', ['sfso.gif']],
+        ],
+        overlay: ['peterhof_spbgu_2026', './maps/city/peterhof_spbgu_2026.webp', [[59.887602, 29.8163581], [59.884523, 29.8446608], [59.8777934, 29.8121953]]],
     },
     {
         id: 'silande_velo_2025',
