@@ -786,7 +786,7 @@ let events2026 = [
         },
         owner: 'FENIX',
         planner: 'RDNV_I',
-        map: 'steklyanny_silande_2026'
+        map: 'silande_2025'
     },
     {
         id: 'SPB_20260405_2',

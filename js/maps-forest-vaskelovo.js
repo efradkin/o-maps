@@ -193,13 +193,22 @@ let vaskelovoMaps = [
         owner:  'RDNV_I'
     },
     {
+        name: 'Силанде',
+        year: 2025,
+        url: './maps/forest/vaskelovo/silande_2025.webp',
+        link: './original_maps/forest/vaskelovo/silande_2025_omaps.jpg',
+        bounds: [[60.4042101, 30.2336025], [60.4021117, 30.2620983], [60.384408, 30.2274656]],
+        author: ['RDNV_B','RDNV_I','DBRTSV_V'],
+        owner:  ['RDNV_B','RDNV_I']
+    },
+    {
         name: 'Стеклянный, Силанде',
         year: 2026,
         url: './maps/forest/vaskelovo/steklyanny_silande_2026.webp',
-        link: ['./original_maps/forest/vaskelovo/steklyanny_silande_2026_omaps.webp','./original_maps/forest/vaskelovo/silande_2025_omaps.jpg'],
+        link: ['./original_maps/forest/vaskelovo/steklyanny_silande_2026_omaps.webp'],
         bounds: [[60.4017726, 30.2186251], [60.3989533, 30.2460051], [60.3845564, 30.2110720]],
-        author: ['RDNV_B','RDNV_I','DBRTSV_V'],
-        owner:  ['RDNV_B','RDNV_I']
+        author: ['RDNV_I','DBRTSV_V'],
+        owner:  ['RDNV_I']
     },
     {
         name: 'Лемболовское',
