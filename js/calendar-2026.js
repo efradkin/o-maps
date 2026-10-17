@@ -3019,6 +3019,7 @@ let events2026 = [
         endReg: '2026-10-13 21:00',
         bulletin: 'https://o-site.spb.ru/_races/261014_NWSprint_2/261014_NWsprint_info.pdf',
         coord: [59.998039, 30.372709],
+        reskeep: 940,
         fmt: 'спринт',
         owner: 'NW',
         map: 'muzhestva_2026',
@@ -3048,6 +3049,8 @@ let events2026 = [
         bulletin: 'https://orgeo.ru/files/event/file/56142_53e5103ea6.pdf',
         start: 'SPRINT_TOUR',
         info: 'Памяти Ю.М.Артемьева.',
+        reskeep: 941,
+        maps: ['./original_maps/city/vasileostrovskaya_st_2026_10_17_m_omaps.gif','./original_maps/city/vasileostrovskaya_st_2026_10_17_w_omaps.gif'],
         map: 'vasileostrovskaya_2024'
     },
     {
