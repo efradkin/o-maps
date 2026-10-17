@@ -3434,9 +3434,16 @@ function initHistoryPlacesMap(places, options = {}) {
         }).join('');
     }
 
-    // упоминания в статье: значки 📍, сгруппированные по точкам; подпись — пункт оглавления раздела
+    // упоминания в статье: значки 📍, сгруппированные по точкам; подпись — пункт оглавления раздела;
+    // от раздела — одна ссылка, на первое упоминание в нём
     function mentionsOf(p) {
-        return [...document.querySelectorAll(`a.hist-place-pin[href="#${anchorOf(p)}"]`)].map(a => {
+        const secs = new Set();
+        return [...document.querySelectorAll(`a.hist-place-pin[href="#${anchorOf(p)}"]`)].filter(a => {
+            const sec = a.closest('section[id]');
+            if (secs.has(sec)) return false;
+            secs.add(sec);
+            return true;
+        }).map(a => {
             const sec = a.closest('section[id]');
             const toc = sec && document.querySelector(`nav.hist-toc a[href="#${sec.id}"]`);
             return {id: a.id, label: toc ? toc.textContent.trim() : (sec ? sec.querySelector('h2')?.textContent.trim() : '')};
