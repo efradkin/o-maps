@@ -921,6 +921,50 @@ function initTocHighlight(selector = 'nav.hist-toc') {
     }
 }
 
+// Полоса прогресса чтения у верхнего края окна (статьи history/*.html).
+// Создаёт <div class="CLASS" aria-hidden="true"><div></div></div> первым элементом <body>;
+// ширину внутренней полосы задаёт transform: scaleX(доля прокрученного), как она
+// выглядит — CSS страницы (для статей — css/history.css). Если прокручивать нечего,
+// у внешнего блока снимается класс is-active и полоса не видна.
+// className - класс внешнего блока.
+function initReadingProgress(className = 'hist-progress') {
+    function init() {
+        const bar = document.createElement('div');
+        bar.className = className;
+        bar.setAttribute('aria-hidden', 'true');
+        bar.appendChild(document.createElement('div'));
+        document.body.prepend(bar);
+        const fill = bar.firstChild;
+        let rafId = null;
+
+        function update() {
+            rafId = null;
+            const doc = document.documentElement;
+            const max = doc.scrollHeight - window.innerHeight;
+            const y = window.scrollY || doc.scrollTop || 0;
+            bar.classList.toggle('is-active', max > 0);
+            fill.style.transform = `scaleX(${max > 0 ? Math.min(1, Math.max(0, y / max)) : 0})`;
+        }
+
+        function schedule() {
+            if (rafId === null) rafId = requestAnimationFrame(update);
+        }
+
+        window.addEventListener('scroll', schedule, {passive: true});
+        window.addEventListener('resize', schedule);
+        // высота страницы растёт по мере загрузки картинок и диаграмм
+        window.addEventListener('load', schedule);
+        if (window.ResizeObserver) new ResizeObserver(schedule).observe(document.body);
+        update();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+}
+
 // --- Страничные помощники: значения, разметка, <head> ------------------------
 // Перенесены из event.js, poi-page.js, owner.js и start-details.js, где были
 // одинаковые копии.

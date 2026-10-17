@@ -492,3 +492,22 @@ body.history-body a.hist-place-pin { scroll-margin-top: 30vh; }
 @media screen and (max-width: 700px) {
     .hist-map { height: 340px; }
 }
+
+/* ---- полоса прогресса чтения (initReadingProgress в utils-common.js) ---- */
+.hist-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    z-index: 1100;              /* над картой Leaflet и закреплёнными блоками */
+    pointer-events: none;
+    display: none;
+}
+.hist-progress.is-active { display: block; }
+.hist-progress > div {
+    height: 100%;
+    background: var(--o-accent);
+    transform: scaleX(0);
+    transform-origin: left center;
+}
