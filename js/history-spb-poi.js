@@ -8,7 +8,10 @@
      events — события статьи в этой точке: [id, год, название в календаре, логотипы];
               логотипы — как перед названием в календаре (первый из logoList() и,
               у Russialoppet, его значок перед ним); нет логотипа — элемента нет;
-     maps   — карты O-Maps, на которые статья ссылается в этой точке: [файл, год, название].
+     maps   — карты O-Maps, на которые статья ссылается в этой точке: [файл, год, название];
+     overlay — карта, которая накладывается на карту мест, когда открыт попап точки:
+              [файл, url, углы (как bounds в maps-*.js), true — просмотр закрыт (isMapHidden)];
+              только карта, содержащая точку: своя карта точки, карта её события или выбранная вручную.
    Источник точки — в комментарии к coord.
    Файл собран скриптом по ссылкам статьи. */
 
@@ -26,6 +29,7 @@ let historySpbPoi = [
             ['SPB_19720122_1', 1972, 'Зимний матч Эстония-Ленинград'],
             ['SPB_20190628_2', 2019, 'Чемпионат и Первенство России', ['len_obl.gif']],
         ],
+        overlay: ['kavgolovo_1972', './maps/forest/toksovo/kavgolovo_1972.webp', [[60.1765047, 30.5206203], [60.1770382, 30.5428505], [60.1657033, 30.5212212]]],
         maps: [
             ['kavgolovo_1972', 1972, 'Кавголово'],
         ],
@@ -41,6 +45,7 @@ let historySpbPoi = [
             ['SPB_19710612_1', 1971, 'Белые Ночи', ['wn_retro.webp']],
             ['SPB_19730602_4', 1973, 'Пятый матч городов-героев'],
         ],
+        overlay: ['roschino_1971_wn', './maps/forest/zelik/roschino_1971_wn.webp', [[60.2736212, 29.4934845], [60.2742596, 29.5640373], [60.23832, 29.4938278]]],
         maps: [
             ['roschino_1971_wn', 1971, 'Рощино, Линдуловская роща'],
         ],
@@ -59,6 +64,7 @@ let historySpbPoi = [
             ['SPB_19780211_1', 1978, 'Зимний матч Эстония-Ленинград'],
             ['SPB_20061104_2', 2006, 'Чемпионат и Первенство Санкт-Петербурга по рогейну', ['sfso.gif']],
         ],
+        overlay: ['orekhovo_1966', './maps/forest/vaskelovo/orekhovo_1966.webp', [[60.4456198, 30.1664829], [60.4457468, 30.2464771], [60.4135133, 30.1696587]]],
     },
     {
         id: 'SPB_19620624_1',
@@ -81,6 +87,7 @@ let historySpbPoi = [
             ['SPB_19960913_1', 1996, 'Чемпионат России'],
             ['SPB_19990222_1', 1999, 'Чемпионат мира по лыжному ориентированию среди ветеранов'],
         ],
+        overlay: ['lembolovo_1983_wn', './maps/forest/vaskelovo/lembolovo_1983_wn.webp', [[60.4449001, 30.2569485], [60.4407508, 30.3384876], [60.4157381, 30.2517986]]],
     },
     {
         id: 'rappolovo_1963',
@@ -91,6 +98,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19630310_1', 1963, 'П-во Ленинграда'],
         ],
+        overlay: ['rappolovo_1963', './maps/forest/toksovo/rappolovo_1963.webp', [[60.1627782, 30.3533363], [60.1627782, 30.478735], [60.1308201, 30.3528214]]],
         maps: [
             ['rappolovo_1963', 1963, 'Рапполово'],
         ],
@@ -104,6 +112,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19660311_1', 1966, 'Зимний матч городов СССР', ['meet_1966.jpg']],
         ],
+        overlay: ['yukki_1966', './maps/forest/yukki_1966.webp', [[60.1358637, 30.287075], [60.1380433, 30.3922176], [60.0974189, 30.2895641]]],
     },
     {
         id: 'kanneljarvi_1968',
@@ -114,6 +123,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19680430_1', 1968, 'Первые многодневные соревнования'],
         ],
+        overlay: ['kanneljarvi_1968', './maps/forest/kanneljarvi_1968.webp', [[60.3894339, 29.3846512], [60.3869316, 29.42173], [60.313518, 29.3597603]]],
     },
     {
         id: 'zahodskoe_1968',
@@ -124,6 +134,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19680430_1', 1968, 'Первые многодневные соревнования'],
         ],
+        overlay: ['zahodskoe_1968', './maps/forest/zahodskoe_1968.webp', [[60.4162254, 29.3693733], [60.4149118, 29.4754601], [60.3792541, 29.3661118]]],
     },
     {
         id: 'gladyshevskoe_1968',
@@ -134,6 +145,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19680430_1', 1968, 'Первые многодневные соревнования'],
         ],
+        overlay: ['gladyshevskoe_1968', './maps/forest/gladyshevskoe_1968.webp', [[60.3261829, 29.3161583], [60.3232934, 29.4130611], [60.2934906, 29.3136692]]],
     },
     {
         id: 'polyany_1968',
@@ -144,6 +156,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19680430_1', 1968, 'Первые многодневные соревнования'],
         ],
+        overlay: ['polyany_1968', './maps/forest/polyany_1968.webp', [[60.3172585, 29.2650032], [60.3125828, 29.3458557], [60.2880883, 29.2582226]]],
     },
     {
         id: 'petyajarvi_1968',
@@ -154,6 +167,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19680913_1', 1968, 'Матч СССР-Болгария', ['ussr_bulgaria_1968.jpg']],
         ],
+        overlay: ['petyajarvi_1968', './maps/forest/sosnovo/petyajarvi_1968.webp', [[60.6346477, 30.0774765], [60.6278706, 30.1723194], [60.6052981, 30.0714684]]],
         maps: [
             ['petyajarvi_1968', 1968, 'Петяярви'],
         ],
@@ -167,6 +181,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19690628_1', 1969, '10 лет спортивного ориентирования в Ленинграде'],
         ],
+        overlay: ['sirkojarvi_1969', './maps/forest/toksovo/sirkojarvi_1969.webp', [[60.388416, 30.5136681], [60.3898155, 30.5996704], [60.3420709, 30.5184746]]],
     },
     {
         id: 'ozerki_1971',
@@ -177,6 +192,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19710913_1', 1971, 'Пятые Всесоюзные соревнования', ['1971.gif']],
         ],
+        overlay: ['ozerki_1971', './maps/forest/zelik/ozerki_1971.webp', [[60.3330658, 29.6860027], [60.3329384, 29.7424793], [60.3017837, 29.6854877]]],
     },
     {
         id: 'zelenogorsk_schuchye_1971',
@@ -188,6 +204,7 @@ let historySpbPoi = [
             ['SPB_19710913_1', 1971, 'Пятые Всесоюзные соревнования', ['1971.gif']],
             ['SPB_19720611_1', 1972, 'Приз Ленинградского телевидения'],
         ],
+        overlay: ['zelenogorsk_schuchye_1971', './maps/forest/zelik/zelenogorsk_schuchye_1971.webp', [[60.2235751, 29.7465992], [60.2539526, 29.8276234], [60.1949186, 29.7912312]]],
     },
     {
         id: 'sosnovka_1975',
@@ -198,6 +215,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19730426_1', 1973, 'Ориентир', ['azimut_retro.gif']],
         ],
+        overlay: ['sosnovka_1975', './maps/parks/sosnovka_1975.webp', [[60.0297431, 30.3408909], [60.029057, 30.368185], [60.0123734, 30.3389168]]],
     },
     {
         id: 'kavgolovo_hepojarvi_retro',
@@ -209,6 +227,7 @@ let historySpbPoi = [
             ['SPB_19750310_1', 1975, 'Всесоюзные зимние соревнования', ['ussr_1975.jpg']],
             ['SPB_19800614_1', 1980, 'Первые Всесоюзные соревнования ветеранов'],
         ],
+        overlay: ['kavgolovo_hepojarvi_retro', './maps/forest/toksovo/kavgolovo_hepojarvi_retro.webp', [[60.1644436, 30.5522919], [60.1624793, 30.6148624], [60.1385561, 30.5500603]]],
         maps: [
             ['kavgolovo_hepojarvi_retro', 1975, 'Токсово, юг Хепоярви'],
         ],
@@ -222,6 +241,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19750310_1', 1975, 'Всесоюзные зимние соревнования', ['ussr_1975.jpg']],
         ],
+        overlay: ['kavgolovo_hepojarvi_1975', './maps/forest/toksovo/kavgolovo_hepojarvi_1975.webp', [[60.1644436, 30.5522919], [60.1624793, 30.6148624], [60.1385561, 30.5500603]]],
     },
     {
         id: 'kavgolovo_verojarvi_1975',
@@ -232,6 +252,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19750310_1', 1975, 'Всесоюзные зимние соревнования', ['ussr_1975.jpg']],
         ],
+        overlay: ['kavgolovo_verojarvi_1975', './maps/forest/toksovo/kavgolovo_verojarvi_1975.webp', [[60.1727267, 30.5343533], [60.1692686, 30.6199265], [60.1420602, 30.5296326]]],
     },
     {
         id: 'enkolovo_1975',
@@ -242,6 +263,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19750310_1', 1975, 'Всесоюзные зимние соревнования', ['ussr_1975.jpg']],
         ],
+        overlay: ['enkolovo_1975', './maps/forest/toksovo/enkolovo_1975.webp', [[60.1328291, 30.4104137], [60.1311621, 30.4459476], [60.1141237, 30.4104567]]],
     },
     {
         id: 'yukki_1976',
@@ -252,6 +274,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19750522_1', 1975, 'Матч ВС СССР-Франция', ['ussr_1975.jpg']],
         ],
+        overlay: ['yukki_1976', './maps/forest/yukki_1976.webp', [[60.1263743, 30.2736425], [60.1227188, 30.3480577], [60.1030238, 30.2691793]]],
     },
     {
         id: 'yappilya_pistolet_1992',
@@ -263,6 +286,7 @@ let historySpbPoi = [
             ['SPB_19790616_1', 1979, 'Белые Ночи', ['wn_retro.webp']],
             ['SPB_19920516_1', 1992, 'Кубок Мира', ['owc_1992.jpg']],
         ],
+        overlay: ['yappilya_pistolet_1992', './maps/forest/yappilya_pistolet_1992.webp', [[60.2471382, 29.1260433], [60.2432193, 29.185524], [60.1843366, 29.1118813]]],
     },
     {
         id: 'tsvelodubovo_nakhimovskaya_tb_velo',
@@ -273,6 +297,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19800620_1', 1980, 'Белые Ночи', ['wn_retro.webp']],
         ],
+        overlay: ['tsvelodubovo_nakhimovskaya_tb_velo', './maps/velo/tsvelodubovo_nakhimovskaya_tb_velo.webp', [[60.3861682, 29.5448971], [60.3841535, 29.5624065], [60.3726567, 29.5391893]]],
     },
     {
         id: 'veschevo_1981',
@@ -283,6 +308,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19810806_1', 1981, 'I Чемпионат СССР, личные', ['ussr_1981.webp']],
         ],
+        overlay: ['veschevo_1981', './maps/forest/vyborg/veschevo_1981.webp', [[60.7596207, 29.1897297], [60.7553859, 29.2526436], [60.7309304, 29.1826916]]],
     },
     {
         id: 'vyborg_saymenskie_dachi_1981',
@@ -293,6 +319,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19810804_1', 1981, 'I Чемпионат СССР, лично-командные', ['ussr_1981.webp']],
         ],
+        overlay: ['vyborg_saymenskie_dachi_1981', './maps/forest/vyborg/vyborg_saymenskie_dachi_1981.webp', [[60.7931859, 28.7195492], [60.7903797, 28.7774849], [60.7649868, 28.7214375]]],
     },
     {
         id: 'sosnovo_ulovnoe_oz_1981',
@@ -303,6 +330,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19810805_1', 1981, 'I Чемпионат СССР, эстафета', ['ussr_1981.webp']],
         ],
+        overlay: ['sosnovo_ulovnoe_oz_1981', './maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981.webp', [[60.6047504, 30.2156639], [60.6022648, 30.2620983], [60.5855763, 30.2098274]]],
     },
     {
         id: 'myakishevo_1982_08_25',
@@ -313,6 +341,7 @@ let historySpbPoi = [
         events: [
             ['MAJOR_19820825_2', 1982, 'II Чемпионат СССР, заданное направление', ['ussr_1982.webp']],
         ],
+        overlay: ['myakishevo_1982_08_25', './maps/pskov/myakishevo_1982_08_25.webp', [[56.5870949, 28.9654541], [56.5848025, 29.0258789], [56.5515828, 28.9609051]]],
     },
     {
         id: 'MAJOR_19840817_1',
@@ -350,6 +379,7 @@ let historySpbPoi = [
         name: 'Токсово, запад Хепоярви',
         page: 'spb',
         year: 1987,
+        overlay: ['toksovo_hepojarvi_west_winter_1987', './maps/winter/toksovo_hepojarvi_west_winter_1987.webp', [[60.1977342, 30.5346107], [60.1938947, 30.5958939], [60.1406928, 30.5189037]]],
         maps: [
             ['toksovo_hepojarvi_west_winter_1987', 1987, 'Токсово, запад Хепоярви'],
         ],
@@ -373,6 +403,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19890507_1', 1989, '30 лет Ленинградского ориентирования', ['leningrad_30.webp']],
         ],
+        overlay: ['budogosch_orlenok_1988', './maps/forest/south/budogosch_orlenok_1988.webp', [[59.328286, 32.4112988], [59.3220243, 32.4900055], [59.2953884, 32.4005699]]],
     },
     {
         id: 'budogosch_cheremukhovoe_1988',
@@ -383,6 +414,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19890507_1', 1989, '30 лет Ленинградского ориентирования', ['leningrad_30.webp']],
         ],
+        overlay: ['budogosch_cheremukhovoe_1988', './maps/forest/south/budogosch_cheremukhovoe_1988.webp', [[59.3026628, 32.3771381], [59.299705, 32.4337006], [59.2674816, 32.3702288]]],
     },
     {
         id: 'SPB_19891207_1',
@@ -414,6 +446,7 @@ let historySpbPoi = [
             ['SPB_19900616_1', 1990, 'Невский Азимут', ['na.gif']],
             ['SPB_19920926_1', 1992, 'Надежды Европы (European hope)', ['european_hope.webp']],
         ],
+        overlay: ['michurinskoe_erc_2008', './maps/rogaine/michurinskoe_erc_2008.webp', [[60.6322906, 29.7506332], [60.6322906, 30.0211716], [60.4812471, 29.7499466]]],
         maps: [
             ['michurinskoe_erc_2008', null, 'Мичуринское'],
         ],
@@ -427,6 +460,7 @@ let historySpbPoi = [
         events: [
             ['MAJOR_19910731_1', 1991, 'XI Чемпионат СССР, эстафета', ['ussr_1991.webp']],
         ],
+        overlay: ['gorbatov_1991_07_31', './maps/nn/gorbatov_1991_07_31.webp', [[56.1283083, 43.0239201], [56.1235962, 43.068037], [56.1004335, 43.0142212]]],
     },
     {
         id: 'IOF_19910821_1',
@@ -457,6 +491,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19930704_1', 1993, 'Мемориал Михаила Святкина, ЧиП СПб', ['mms.jpg']],
         ],
+        overlay: ['silande_1992', './maps/forest/vaskelovo/silande_1992.webp', [[60.4278762, 30.2236891], [60.4233435, 30.2862167], [60.3788723, 30.2108574]]],
     },
     {
         id: 'MAJOR_19930825_1',
@@ -467,6 +502,7 @@ let historySpbPoi = [
         events: [
             ['MAJOR_19930825_1', 1993, 'Чемпионат России'],
         ],
+        overlay: ['sortavala_redfox_2026', './maps/rogaine/sortavala_redfox_2026.webp', [[61.9040458, 30.6463623], [61.8549342, 31.1314774], [61.6247576, 30.5217361]]],
     },
     {
         id: 'MAJOR_19950906_1',
@@ -487,6 +523,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19950529_1', 1995, 'Кубок мира среди ветеранов', ['vwc95.gif']],
         ],
+        overlay: ['lembolovo_vwc_model_1995', './maps/forest/vaskelovo/lembolovo_vwc_model_1995.webp', [[60.4046552, 30.2791357], [60.4027476, 30.3135967], [60.3782783, 30.2733421]]],
     },
     {
         id: 'lembolovo_vwc_1995_05_30',
@@ -497,6 +534,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19950529_1', 1995, 'Кубок мира среди ветеранов', ['vwc95.gif']],
         ],
+        overlay: ['lembolovo_vwc_1995_05_30', './maps/forest/vaskelovo/lembolovo_vwc_1995_05_30.webp', [[60.4273891, 30.2671623], [60.4228987, 30.34235], [60.3973846, 30.2591372]]],
     },
     {
         id: 'lembolovo_orekhovo_1995',
@@ -507,6 +545,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19950529_1', 1995, 'Кубок мира среди ветеранов', ['vwc95.gif']],
         ],
+        overlay: ['lembolovo_orekhovo_1995', './maps/forest/vaskelovo/lembolovo_orekhovo_1995.webp', [[60.4479482, 30.2355766], [60.4409202, 30.3398609], [60.4233435, 30.2284527]]],
     },
     {
         id: 'lembolovo_vwc_1995_06_02',
@@ -517,6 +556,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19950529_1', 1995, 'Кубок мира среди ветеранов', ['vwc95.gif']],
         ],
+        overlay: ['lembolovo_vwc_1995_06_02', './maps/forest/vaskelovo/lembolovo_vwc_1995_06_02.webp', [[60.4475672, 30.3158283], [60.4426562, 30.3995132], [60.4112249, 30.3056145]]],
     },
     {
         id: 'alol_rogaine_2013',
@@ -527,6 +567,7 @@ let historySpbPoi = [
         events: [
             ['MAJOR_19960905_1', 1996, 'Чемпионат России, финал'],
         ],
+        overlay: ['alol_rogaine_2013', './maps/other/alol_rogaine_2013.webp', [[56.5721564, 28.8171387], [56.5453848, 29.1393471], [56.4090106, 28.7731934]]],
     },
     {
         id: 'lembolovo_russia_2007',
@@ -538,6 +579,7 @@ let historySpbPoi = [
             ['SPB_19960125_1', 1996, 'Личный чемпионат России'],
             ['SPB_20070624_1', 2007, 'Чемпионат России по спортивному ориентированию на велосипедах', ['len_obl.gif']],
         ],
+        overlay: ['lembolovo_russia_2007', './maps/velo/lembolovo_russia_2007.webp', [[60.4456622, 30.319519], [60.4421481, 30.3811455], [60.4019739, 30.3081679]]],
         maps: [
             ['lembolovo_russia_2007', null, 'Лемболово, восток'],
         ],
@@ -551,6 +593,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19960807_1', 1996, 'Чемпионат мира среди военнослужащих (CISM)', ['military_1996.gif']],
         ],
+        overlay: ['sosnovo_black_forest_1986', './maps/forest/sosnovo/sosnovo_black_forest_1986.webp', [[60.5405251, 30.245018], [60.5374434, 30.3190041], [60.5084701, 30.2413273]]],
     },
     {
         id: 'orekhovo_rakitinskoe_1995',
@@ -561,6 +604,7 @@ let historySpbPoi = [
         events: [
             ['SPB_19960807_1', 1996, 'Чемпионат мира среди военнослужащих (CISM)', ['military_1996.gif']],
         ],
+        overlay: ['orekhovo_rakitinskoe_1995', './maps/forest/vaskelovo/orekhovo_rakitinskoe_1995.webp', [[60.4708634, 30.2990484], [60.4655962, 30.3848791], [60.4418623, 30.2901649]]],
     },
     {
         id: 'IOF_19960219_1',
@@ -582,6 +626,7 @@ let historySpbPoi = [
             ['SPB_19970624_1', 1997, 'Кубок России', ['fsor.webp']],
             ['SPB_20190524_1', 2019, 'Чемпионат России', ['fsor.webp']],
         ],
+        overlay: ['kuznechnoe_travkino_2019_05_24', './maps/forest/priozersk/kuznechnoe_travkino_2019_05_24.webp', [[61.150877, 29.8237181], [61.1484335, 29.8504543], [61.1387301, 29.8187399]]],
     },
     {
         id: 'SPB_19980218_1',
@@ -593,6 +638,7 @@ let historySpbPoi = [
             ['SPB_19980218_1', 1998, 'Чемпионат России, финал'],
             ['SPB_20040904_1', 2004, 'Чемпионат России по ориентированию на велосипедах'],
         ],
+        overlay: ['orekhovo_figurnoe_2001', './maps/forest/vaskelovo/orekhovo_figurnoe_2001.webp', [[60.4706307, 30.2596092], [60.4647923, 30.3325653], [60.4451118, 30.2557468]]],
     },
     {
         id: 'ks_2001_06_25',
@@ -603,6 +649,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20010622_1', 2001, 'Карельские скалы', ['ks.jpg']],
         ],
+        overlay: ['ks_2001_06_25', './maps/starts/ks/ks_2001_06_25.webp', [[61.1148058, 29.8108006], [61.1111155, 29.8693371], [61.096371, 29.8053074]]],
         maps: [
             ['ks_2001_06_25', 2001, 'Богатыри'],
         ],
@@ -616,6 +663,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20010622_1', 2001, 'Карельские скалы', ['ks.jpg']],
         ],
+        overlay: ['ks_2001_06_22', './maps/starts/ks/ks_2001_06_22.webp', [[61.1161325, 29.7582293], [61.1108253, 29.8162937], [61.0977192, 29.7511482]]],
     },
     {
         id: 'ks_2001_06_23',
@@ -626,6 +674,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20010622_1', 2001, 'Карельские скалы', ['ks.jpg']],
         ],
+        overlay: ['ks_2001_06_23', './maps/starts/ks/ks_2001_06_23.webp', [[61.1386576, 29.7871971], [61.1356952, 29.8263359], [61.1101203, 29.7782707]]],
     },
     {
         id: 'ks_2001_06_24',
@@ -636,6 +685,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20010622_1', 2001, 'Карельские скалы', ['ks.jpg']],
         ],
+        overlay: ['ks_2001_06_24', './maps/starts/ks/ks_2001_06_24.webp', [[61.1294381, 29.758873], [61.1244233, 29.8177958], [61.1089178, 29.7529507]]],
     },
     {
         id: 'ks_2001_06_26',
@@ -646,6 +696,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20010622_1', 2001, 'Карельские скалы', ['ks.jpg']],
         ],
+        overlay: ['ks_2001_06_26', './maps/starts/ks/ks_2001_06_26.webp', [[61.118081, 29.8120022], [61.1164642, 29.8429012], [61.0901268, 29.8035908]]],
     },
     {
         id: 'IOF_20020925_1',
@@ -666,6 +717,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20030627_1', 2003, 'Мемориал Михаила Святкина', ['mms.jpg']],
         ],
+        overlay: ['mms_2003_06_27', './maps/starts/mms/mms_2003_06_27.webp', [[61.0025794, 29.1832495], [61.0010814, 29.2002869], [60.9862648, 29.1777992]]],
     },
     {
         id: 'mms_2003_06_28',
@@ -676,6 +728,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20030627_1', 2003, 'Мемориал Михаила Святкина', ['mms.jpg']],
         ],
+        overlay: ['mms_2003_06_28', './maps/starts/mms/mms_2003_06_28.webp', [[60.99383, 29.1593885], [60.9906564, 29.1958237], [60.9807067, 29.1552258]]],
     },
     {
         id: 'mms_2003_06_29',
@@ -686,6 +739,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20030627_1', 2003, 'Мемориал Михаила Святкина', ['mms.jpg']],
         ],
+        overlay: ['mms_2003_06_29', './maps/starts/mms/mms_2003_06_29.webp', [[60.9973779, 29.1345406], [60.9934867, 29.1874123], [60.9828718, 29.1303778]]],
     },
     {
         id: 'wn_2003_06_20',
@@ -696,6 +750,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20030620_1', 2003, 'Белые Ночи', ['wn_retro.webp']],
         ],
+        overlay: ['wn_2003_06_20', './maps/starts/wn/wn_2003_06_20.webp', [[60.402896, 29.7017527], [60.4013274, 29.7273731], [60.3843656, 29.6961737]]],
     },
     {
         id: 'wn_2003_06_21',
@@ -706,6 +761,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20030620_1', 2003, 'Белые Ночи', ['wn_retro.webp']],
         ],
+        overlay: ['wn_2003_06_21', './maps/starts/wn/wn_2003_06_21.webp', [[60.4177508, 29.6786642], [60.4155686, 29.7118378], [60.3924872, 29.6718836]]],
     },
     {
         id: 'wn_2003_06_22',
@@ -716,6 +772,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20030620_1', 2003, 'Белые Ночи', ['wn_retro.webp']],
         ],
+        overlay: ['wn_2003_06_22', './maps/starts/wn/wn_2003_06_22.webp', [[60.4166703, 29.6978474], [60.4142973, 29.7346258], [60.3907273, 29.6908522]]],
     },
     {
         id: 'tsvelodubovo_winter_2003',
@@ -726,6 +783,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20030220_1', 2003, 'Чемпионат мира по ориентированию на лыжах среди юниоров', ['jwsoc_2003.jpg']],
         ],
+        overlay: ['tsvelodubovo_winter_2003', './maps/winter/tsvelodubovo_winter_2003.webp', [[60.3801237, 29.5524073], [60.3771541, 29.5998287], [60.3629386, 29.5482445]]],
         maps: [
             ['tsvelodubovo_winter_2003', null, 'Цвелодубово'],
         ],
@@ -739,6 +797,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20030220_1', 2003, 'Чемпионат мира по ориентированию на лыжах среди юниоров', ['jwsoc_2003.jpg']],
         ],
+        overlay: ['tsvelodubovo_rybatskoe_2003', './maps/winter/tsvelodubovo_rybatskoe_2003.webp', [[60.3641906, 29.5441246], [60.3614318, 29.5742512], [60.3546822, 29.540391]]],
     },
     {
         id: 'pukhtolova_gora_velo_2009',
@@ -749,6 +808,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20040710_1', 2004, 'Чемпионат СПб по MTB-O', ['sfso.gif']],
         ],
+        overlay: ['pukhtolova_gora_velo_2009', './maps/velo/pukhtolova_gora_velo_2009.webp', [[60.2560392, 29.6344185], [60.2513548, 29.6914959], [60.2287323, 29.6253204]]],
     },
     {
         id: 'SPB_20040201_1',
@@ -769,6 +829,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20050723_1', 2005, 'МТБ-О Чемпионат СПб', ['sfso.gif']],
         ],
+        overlay: ['silande_velo_2005', './maps/velo/silande_velo_2005.webp', [[60.4062235, 30.2478933], [60.405185, 30.2812386], [60.3798692, 30.2427006]]],
         maps: [
             ['silande_velo_2005', 2005, 'Силанде'],
         ],
@@ -783,6 +844,7 @@ let historySpbPoi = [
             ['SPB_20050724_1', 2005, 'Горный кросс-3', ['gk.gif']],
             ['SPB_20051104_1', 2005, 'Горный кросс-4', ['gk.gif']],
         ],
+        overlay: ['lembolovo_orekhovo_peski_gk_2026', './maps/rogaine/lembolovo_orekhovo_peski_gk_2026.webp', [[60.5090617, 30.267334], [60.4946924, 30.4896355], [60.4139371, 30.2425289]]],
     },
     {
         id: 'IOF_20060709_1',
@@ -803,6 +865,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20060715_1', 2006, 'Соревнования по Вело-О памяти Бориса Панкратьева'],
         ],
+        overlay: ['kanneljarvi_velo_2006', './maps/velo/kanneljarvi_velo_2006.webp', [[60.3783208, 29.2834568], [60.3706412, 29.3795013], [60.34326, 29.2721272]]],
     },
     {
         id: 'krestovsky_2021',
@@ -813,6 +876,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20060520_1', 2006, 'Российский Азимут СПб', ['sfso.gif']],
         ],
+        overlay: ['krestovsky_2021', './maps/parks/krestovsky_2021.webp', [[59.9762539, 30.2316284], [59.9746864, 30.2493525], [59.9698543, 30.229311]]],
     },
     {
         id: 'IOF_20080528_1',
@@ -834,6 +898,7 @@ let historySpbPoi = [
         events: [
             ['IRF_20080712_1', 2008, '5-й Чемпионат Европы по рогейну (ERC)', ['irf.gif']],
         ],
+        overlay: ['michurinskoe_erc_2008', './maps/rogaine/michurinskoe_erc_2008.webp', [[60.6322906, 29.7506332], [60.6322906, 30.0211716], [60.4812471, 29.7499466]]],
     },
     {
         id: 'IOF_20100815_1',
@@ -854,6 +919,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20110629_1', 2011, 'Кубок Карельского Перешейка', ['kkp.jpg']],
         ],
+        overlay: ['kkp_2011_06_30', './maps/starts/kkp/kkp_2011_06_30.webp', [[60.978146, 29.1815758], [60.9754184, 29.21947], [60.9657348, 29.1748381]], true],
     },
     {
         id: 'kkp_2011_07_01',
@@ -864,6 +930,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20110629_1', 2011, 'Кубок Карельского Перешейка', ['kkp.jpg']],
         ],
+        overlay: ['kkp_2011_07_01', './maps/starts/kkp/kkp_2011_07_01.webp', [[60.9706082, 29.1778851], [60.9674635, 29.2228603], [60.9528395, 29.1727352]], true],
     },
     {
         id: 'kkp_2011_07_02',
@@ -874,6 +941,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20110629_1', 2011, 'Кубок Карельского Перешейка', ['kkp.jpg']],
         ],
+        overlay: ['kkp_2011_07_02', './maps/starts/kkp/kkp_2011_07_02.webp', [[60.9731696, 29.1619205], [60.970754, 29.1932058], [60.9612981, 29.1576719]], true],
     },
     {
         id: 'kkp_2011_07_03',
@@ -884,6 +952,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20110629_1', 2011, 'Кубок Карельского Перешейка', ['kkp.jpg']],
         ],
+        overlay: ['kkp_2011_07_03', './maps/starts/kkp/kkp_2011_07_03.webp', [[60.9917178, 29.1659546], [60.9891371, 29.2014885], [60.9676509, 29.1578007]], true],
     },
     {
         id: 'SPB_20110612_1',
@@ -894,6 +963,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20110612_1', 2011, 'Чемпионат России'],
         ],
+        overlay: ['vyborg_center_rylov', './maps/city/vyborg_center_rylov.webp', [[60.7220749, 28.7364578], [60.7125556, 28.7622499], [60.7107396, 28.7182188]]],
     },
     {
         id: 'IOF_20110917_1',
@@ -914,6 +984,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20120309_1', 2012, 'Чемпионат России по лыжному рогейну', ['rrf_new.webp']],
         ],
+        overlay: ['lembolovo_michurinskoe_rrc_2012', './maps/rogaine/lembolovo_michurinskoe_rrc_2012.webp', [[60.5557601, 29.8725128], [60.5324615, 30.3603745], [60.3899428, 29.8433304]]],
     },
     {
         id: 'IOF_20130713_1',
@@ -934,6 +1005,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20130602_1', 2013, '1-й Чемпионат России по рогейну на велосипедах, Горный кросс-36', ['rrf_new.webp']],
         ],
+        overlay: ['kanneljarvy_rogaine_2024', './maps/rogaine/beketov/kanneljarvy_rogaine_2024.webp', [[60.451631, 29.1529083], [60.4507844, 29.617424], [60.1671337, 29.1491318]]],
     },
     {
         id: 'petropavlovka_2024',
@@ -944,6 +1016,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20160511_1', 2016, 'Всемирный День Ориентирования, Петропавловская Крепость'],
         ],
+        overlay: ['petropavlovka_2024', './maps/city/petropavlovka_2024.webp', [[59.9536888, 30.3107214], [59.9522813, 30.3238106], [59.9479511, 30.308404]]],
     },
     {
         id: 'novgorod_rogaine_2024_09_08',
@@ -954,6 +1027,7 @@ let historySpbPoi = [
         events: [
             ['MAJOR_20170515_1', 2017, 'Чемпионат России, спринт, общий старт'],
         ],
+        overlay: ['novgorod_rogaine_2024_09_08', './maps/other/novgorod_rogaine_2024_09_08.webp', [[58.5555385, 31.2468338], [58.5468509, 31.3323212], [58.4903744, 31.2222862]]],
     },
     {
         id: 'kronshtadt_2019',
@@ -964,6 +1038,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20200517_1', 2020, 'Всемирный день ориентирования в Санкт-Петербурге (Online)'],
         ],
+        overlay: ['kronshtadt_2019', './maps/city/kronshtadt_2019.webp', [[59.9957458, 29.7689366], [59.9934923, 29.7896218], [59.9869673, 29.7661042]]],
         maps: [
             ['kronshtadt_2019', 2019, 'Кронштадт'],
         ],
@@ -977,6 +1052,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20190524_1', 2019, 'Чемпионат России', ['fsor.webp']],
         ],
+        overlay: ['kuznechnoe_suuri_2019', './maps/forest/priozersk/kuznechnoe_suuri_2019.webp', [[61.1443537, 29.889164], [61.1368968, 29.9695015], [61.1247963, 29.8794651]]],
     },
     {
         id: 'sosnovaya_polyana_roschinka_2020',
@@ -987,6 +1063,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20190804_1', 2019, 'Ретро-старт'],
         ],
+        overlay: ['sosnovaya_polyana_roschinka_2020', './maps/forest/zelik/sosnovaya_polyana_roschinka_2020.webp', [[60.2270915, 29.5135689], [60.2263776, 29.5219159], [60.2199091, 29.5117235]]],
     },
     {
         id: 'poljany_university_2016',
@@ -997,6 +1074,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20190801_1', 2019, 'Фестиваль 60-летия спортивного ориентирования в России'],
         ],
+        overlay: ['poljany_university_2016', './maps/city/poljany_university_2016.webp', [[60.2893486, 29.3112552], [60.2891572, 29.3175209], [60.2852539, 29.3095815]]],
     },
     {
         id: 'vyborg_annenskie_2017',
@@ -1007,6 +1085,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20200926_2', 2020, 'Чемпионат России', ['fsor.webp']],
         ],
+        overlay: ['vyborg_annenskie_2017', './maps/forest/vyborg/vyborg_annenskie_2017.webp', [[60.7218755, 28.7187982], [60.7206372, 28.7339687], [60.7175727, 28.7169313]]],
     },
     {
         id: 'vyborg_center_2020_09_26',
@@ -1017,6 +1096,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20200926_2', 2020, 'Чемпионат России', ['fsor.webp']],
         ],
+        overlay: ['vyborg_center_2020_09_26', './maps/city/vyborg_center_2020_09_26.webp', [[60.715715, 28.729291], [60.7143085, 28.7443542], [60.7095953, 28.7268233]]],
     },
     {
         id: 'batarejnaya_gora_2020',
@@ -1027,6 +1107,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20200926_2', 2020, 'Чемпионат России', ['fsor.webp']],
         ],
+        overlay: ['batarejnaya_gora_2020', './maps/forest/vyborg/batarejnaya_gora_2020.webp', [[60.708829, 28.7526369], [60.7069182, 28.7687945], [60.7004294, 28.7487531]]],
     },
     {
         id: 'sosnovy_bor_2021_05_29',
@@ -1037,6 +1118,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20210529_2', 2021, 'Чемпионат России (спринт)', ['russia_2021.jpg']],
         ],
+        overlay: ['sosnovy_bor_2021_05_29', './maps/city/sosnovy_bor_2021_05_29.webp', [[59.8920908, 29.0781498], [59.8907884, 29.091239], [59.882865, 29.0745878]]],
     },
     {
         id: 'sosnovy_bor_2021_05_30',
@@ -1047,6 +1129,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20210529_2', 2021, 'Чемпионат России (спринт)', ['russia_2021.jpg']],
         ],
+        overlay: ['sosnovy_bor_2021_05_30', './maps/city/sosnovy_bor_2021_05_30.webp', [[59.9027991, 29.0725923], [59.8999905, 29.0883851], [59.8942328, 29.0704679]]],
     },
     {
         id: 'sosnovy_bor_2021_05_31',
@@ -1057,6 +1140,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20210529_2', 2021, 'Чемпионат России (спринт)', ['russia_2021.jpg']],
         ],
+        overlay: ['sosnovy_bor_2021_05_31', './maps/city/sosnovy_bor_2021_05_31.webp', [[59.8945126, 29.0825701], [59.8934148, 29.0942001], [59.8876666, 29.0801668]]],
     },
     {
         id: 'udelny_2022',
@@ -1067,6 +1151,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20210523_2', 2021, 'Российский Азимут СПб', ['sfso.gif']],
         ],
+        overlay: ['udelny_2022', './maps/parks/udelny_2022.webp', [[60.0165773, 30.2937269], [60.0135102, 30.3244543], [60.0034706, 30.2884483]]],
     },
     {
         id: 'IRF_20220528_1',
@@ -1077,6 +1162,7 @@ let historySpbPoi = [
         events: [
             ['IRF_20220528_1', 2022, '18-й Чемпионат Европы по рогейну (ERC)', ['irf.gif']],
         ],
+        overlay: ['zerkalny_rrc_2022', './maps/rogaine/zerkalny_rrc_2022.webp', [[60.3420709, 28.8645172], [60.3751813, 29.3345261], [60.138086, 28.9242554]]],
     },
     {
         id: 'lembolovo_winter_2019',
@@ -1087,6 +1173,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20220205_1', 2022, 'VII Всероссийская Зимняя Универсиада'],
         ],
+        overlay: ['lembolovo_winter_2019', './maps/winter/lembolovo_winter_2019.webp', [[60.4235129, 30.306344], [60.4204202, 30.340848], [60.4062871, 30.3008938]]],
     },
     {
         id: 'luga_omchino_2022_06_09',
@@ -1097,6 +1184,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20220611_1', 2022, 'Чемпионат России'],
         ],
+        overlay: ['luga_omchino_2022_06_09', './maps/forest/south/luga_omchino_2022_06_09.webp', [[58.7214625, 29.7919607], [58.7196353, 29.8102856], [58.7045466, 29.7855234]]],
     },
     {
         id: 'luga_omchino_2022_06_10',
@@ -1107,6 +1195,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20220611_1', 2022, 'Чемпионат России'],
         ],
+        overlay: ['luga_omchino_2022_06_10', './maps/forest/south/luga_omchino_2022_06_10.webp', [[58.7210391, 29.7538948], [58.7146659, 29.8148346], [58.696565, 29.7445393]]],
     },
     {
         id: 'luga_omchino_2022_06_11',
@@ -1117,6 +1206,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20220611_1', 2022, 'Чемпионат России'],
         ],
+        overlay: ['luga_omchino_2022_06_11', './maps/forest/south/luga_omchino_2022_06_11.webp', [[58.7346061, 29.8037839], [58.7326015, 29.8241687], [58.7234121, 29.7992349]]],
     },
     {
         id: 'sestroretsk_pljazh_laskovy_2023',
@@ -1127,6 +1217,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20221006_1', 2022, 'Всероссийские соревнования, Фестиваль «Невский спринт»', ['sfso.gif']],
         ],
+        overlay: ['sestroretsk_pljazh_laskovy_2023', './maps/forest/zelik/sestroretsk_pljazh_laskovy_2023.webp', [[60.1459058, 29.9258137], [60.1440365, 29.9421], [60.1388018, 29.9229598]]],
     },
     {
         id: 'IOF_20220126_1',
@@ -1148,6 +1239,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20230101_1', 2023, 'Тренировочный полигон', ['sfso.gif']],
         ],
+        overlay: ['kuzmolovo_poligon_2023', './maps/winter/kuzmolovo_poligon_2023.webp', [[60.129527, 30.5084968], [60.1281698, 30.5350828], [60.1120815, 30.5045271]]],
     },
     {
         id: 'lembolovo_velo_2023',
@@ -1158,6 +1250,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20230511_1', 2023, 'Первенство России (Лемболово, вело)', ['len_obl.gif']],
         ],
+        overlay: ['lembolovo_velo_2023', './maps/velo/lembolovo_velo_2023.webp', [[60.435627, 30.2808952], [60.4320695, 30.337801], [60.3865075, 30.2680206]]],
     },
     {
         id: 'toksovo_vifk_winter_2023',
@@ -1169,6 +1262,7 @@ let historySpbPoi = [
             ['SPB_20230209_1', 2023, 'Первенство России'],
             ['SPB_20240203_1', 2024, 'VIII Всероссийская Зимняя Универсиада'],
         ],
+        overlay: ['toksovo_vifk_winter_2023', './maps/winter/toksovo_vifk_winter_2023.webp', [[60.1932334, 30.5601454], [60.189628, 30.5967951], [60.1802182, 30.5548668]]],
     },
     {
         id: 'SPB_20240516_1',
@@ -1179,6 +1273,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20240516_1', 2024, 'Чемпионат России', ['russia_2024.jpg']],
         ],
+        overlay: ['petropavlovka_2024', './maps/city/petropavlovka_2024.webp', [[59.9536888, 30.3107214], [59.9522813, 30.3238106], [59.9479511, 30.308404]]],
     },
     {
         id: 'zelik_schuchje_velo_2025',
@@ -1189,6 +1284,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20250522_1', 2025, 'Всероссийские и Международные соревнования'],
         ],
+        overlay: ['zelik_schuchje_velo_2025', './maps/velo/zelik_schuchje_velo_2025.webp', [[60.2332495, 29.7486591], [60.2258341, 29.8119164], [60.2024689, 29.7341108]]],
     },
     {
         id: 'pukhtolova_gora_velo_2025',
@@ -1199,6 +1295,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20250522_1', 2025, 'Всероссийские и Международные соревнования'],
         ],
+        overlay: ['pukhtolova_gora_velo_2025', './maps/velo/pukhtolova_gora_velo_2025.webp', [[60.2445399, 29.6313715], [60.2388526, 29.6784925], [60.228711, 29.6246767]]],
     },
     {
         id: 'roschino_velo_2025',
@@ -1209,6 +1306,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20250522_1', 2025, 'Всероссийские и Международные соревнования'],
         ],
+        overlay: ['roschino_velo_2025', './maps/velo/roschino_velo_2025.webp', [[60.2793237, 29.5635223], [60.277813, 29.6025753], [60.2650017, 29.5617199]]],
     },
     {
         id: 'lembolovo_velo_relay_2025',
@@ -1219,6 +1317,7 @@ let historySpbPoi = [
         events: [
             ['SPB_20251011_6', 2025, 'ЧиП СПб', ['sfso.gif']],
         ],
+        overlay: ['lembolovo_velo_relay_2025', './maps/velo/lembolovo_velo_relay_2025.webp', [[60.4154626, 30.3235102], [60.4157593, 30.3399038], [60.4032351, 30.3197336]]],
         maps: [
             ['lembolovo_velo_relay_2025', null, 'Лемболово, юг'],
         ],
@@ -1232,5 +1331,6 @@ let historySpbPoi = [
         events: [
             ['SPB_20260523_1', 2026, 'Международные соревнования', ['sfso.gif']],
         ],
+        overlay: ['silande_velo_2025', './maps/velo/silande_velo_2025.webp', [[60.4219666, 30.2541161], [60.4188101, 30.2890062], [60.3916603, 30.2433014]]],
     },
 ];

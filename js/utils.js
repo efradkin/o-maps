@@ -3379,7 +3379,9 @@ setTimeout(function() {
 // Карта мест статьи раздела history/ (например, history/spb-history.html с данными
 // js/history-spb-poi.js). Записи — в формате poi.js: id, coord, name, плюс page (раздел
 // сайта для ссылки «Карты района»), poi, year (год первого упоминания — цвет точки),
-// events [[id, год, название, логотипы]] и maps [[файл, год, название]].
+// events [[id, год, название, логотипы]], maps [[файл, год, название]] и overlay [файл, url,
+// углы, закрыта] — карта O-Maps, которая накладывается, когда открыт попап точки, и остаётся
+// (карты копятся, непрозрачные, под маркерами; закрытая правообладателем — заглушкой, как mapImageUrl).
 // Разметка на странице:
 //   <section id="places"> … <div id="places-map"></div> <ul id="places-legend"></ul>
 //     <details><ul id="places-list"></ul></details> </section>
@@ -3387,7 +3389,8 @@ setTimeout(function() {
 // Список мест и якоря #place-ID (метки у карты) создаются сразу; Leaflet, кластеризация и подложка
 // грузятся только когда карта близко к экрану или читатель перешёл к месту.
 // Подложка — та же, что на основной карте (addSiteBaseLayer).
-// Клик по значку 📍 или по месту в списке прокручивает к карте и открывает попап точки.
+// Клик по значку 📍 или по месту в списке прокручивает к карте и открывает попап точки;
+// при таком переходе вид подгоняется под наложенную карту точки, при клике по маркеру — нет.
 function initHistoryPlacesMap(places, options = {}) {
     const root = options.root ?? '../';
     const mapEl = document.getElementById(options.mapId ?? 'places-map');
@@ -3474,7 +3477,10 @@ function initHistoryPlacesMap(places, options = {}) {
                 loadStylesheetOnce(root + 'js/ext/Leaflet.markercluster/MarkerCluster.css'),
                 loadScriptOnce(root + 'js/ext/leaflet.js'),
             ]);
-            await loadScriptOnce(root + 'js/ext/Leaflet.markercluster/leaflet.markercluster.js');
+            await Promise.all([
+                loadScriptOnce(root + 'js/ext/Leaflet.markercluster/leaflet.markercluster.js'),
+                loadScriptOnce(root + 'js/ext/Leaflet.ImageOverlay.Rotated.js'),
+            ]);
             mapEl.classList.add('is-ready');
             lmap = L.map(mapEl, {
                 maxZoom: 17,                        // нужен кластеризации до появления подложки
@@ -3503,6 +3509,7 @@ function initHistoryPlacesMap(places, options = {}) {
                     }),
                 });
                 m.bindPopup(() => popupHtml(p), {maxWidth: 320, className: 'hist-map-popup-wrap'});
+                m.on('popupopen', () => showOverlay(p));
                 markers.set(p.id, m);
                 cluster.addLayer(m);
             }
@@ -3511,13 +3518,37 @@ function initHistoryPlacesMap(places, options = {}) {
         return ready;
     }
 
-    // точка по якорю #place-ID: прокрутить к карте, раскрыть кластер, открыть попап
+    // карта O-Maps точки поверх подложки (как карты события на event.html); остаётся на месте
+    // после закрытия попапа, карты разных точек копятся. Возвращает её габарит.
+    const overlays = new Map();
+    function showOverlay(p) {
+        if (!p.overlay) return null;
+        if (!overlays.has(p.id)) {
+            const [file, url, corners, hidden] = p.overlay;
+            const src = root + (hidden ? OLIVE_IMAGE_URL : url).replace(/^\.\//, '');
+            const ll = corners.map(c => L.latLng(c));
+            const layer = ll.length >= 3
+                ? L.imageOverlay.rotated(src, ll[0], ll[1], ll[2], {opacity: 1, alt: file})
+                : L.imageOverlay(src, L.latLngBounds(ll), {opacity: 1, alt: file});
+            layer.addTo(lmap);
+            const box = ll.length >= 3
+                ? L.latLngBounds([ll[0], ll[1], ll[2], L.latLng(ll[1].lat + ll[2].lat - ll[0].lat, ll[1].lng + ll[2].lng - ll[0].lng)])
+                : L.latLngBounds(ll);
+            overlays.set(p.id, box);
+        }
+        return overlays.get(p.id);
+    }
+
+    // точка по якорю #place-ID: прокрутить к карте, показать карту точки и вписать её в вид,
+    // раскрыть кластер, открыть попап
     async function focusPlace(anchor) {
         const p = byAnchor.get(anchor);
         if (!p) return;
         mapEl.scrollIntoView({block: 'center', behavior: 'instant'});
         await init();
         const m = markers.get(p.id);
+        const box = showOverlay(p);
+        if (box) lmap.fitBounds(box, {padding: [16, 16], animate: false});
         cluster.zoomToShowLayer(m, () => m.openPopup());
     }
 
