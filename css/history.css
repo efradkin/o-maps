@@ -511,3 +511,23 @@ body.history-body a.hist-place-pin { scroll-margin-top: 30vh; }
     transform: scaleX(0);
     transform-origin: left center;
 }
+
+/* ---- узкие экраны (до 600 px) ------------------------------------------------
+   В шапке заголовок по main.css не переносится (white-space: nowrap) и вместе с
+   кнопками распирает страницу вбок; в статьях он переносится и сжимается.
+   Длинные подписи ссылок в указателе имён и подписи вех тоже разрешено переносить. */
+@media screen and (max-width: 600px) {
+    body.history-body header.page-header h1 {
+        flex: 1 1 auto;
+        min-width: 0;
+        white-space: normal;
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+    /* ссылка переносится целиком, а внутри — только если сама длиннее строки
+       (иначе «O-Site, 1987» рвалось бы на дефисе) */
+    .hist-names-more a { display: inline-block; max-width: 100%; white-space: normal; text-indent: 0; }
+    /* подписи в ленте вех на телефоне обрезались до 7–8 букв: две колонки и перенос */
+    .hist-timeline { grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); }
+    .hist-timeline small { white-space: normal; text-overflow: clip; overflow-wrap: anywhere; }
+}

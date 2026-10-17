@@ -203,6 +203,14 @@
                 border: { color: grid },
                 ticks: { autoSkip: !horizontal, maxRotation: 0 }
             };
+            /* на узком экране длинные подписи горизонтальной диаграммы («Александр Василевский»)
+               обрезаются у левого края: там имя сокращается до инициала */
+            if (horizontal) {
+                categoryAxis.ticks.callback = function (value) {
+                    var label = this.getLabelForValue(value);
+                    return this.chart.width < 420 ? label.replace(/^(\S)\S*\s+/, '$1.\u00a0') : label;
+                };
+            }
 
             instances.push(new Chart(canvas, {
                 type: cfg.type,
