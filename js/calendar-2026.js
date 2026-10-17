@@ -3077,6 +3077,9 @@ let events2026 = [
         endReg: '2026-10-15 23:55',
         owner: 'FENIX',
         o_site: '261017',
+        o_gps: 26133,
+        strava: 20620170601,
+        me: 'М50',
         map: 'ilinsky_garden_2026'
     },
     {
@@ -3160,6 +3163,18 @@ let events2026 = [
         fmt: 'спринт',
         owner: 'NW',
         info: 'Новая карта.'
+    },
+    {
+        id: 'SPB_20261022_1',
+        date: '2026-10-22',
+        name: 'Ночная тренировка',
+        place: 'Токсово, Малиновая гора',
+        o_site: '261022_NW_night',
+        reg: 'https://orgeo.ru/event/info/56250',
+        endReg: '2026-10-22 12:00',
+        bulletin: 'https://orgeo.ru/files/event/file/56250_8bb573d451.docx',
+        fmt: 'ночное',
+        owner: 'NW'
     },
     {
         id: 'SPB_20261024_1',
