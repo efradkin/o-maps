@@ -3062,6 +3062,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/54011',
         endReg: '2026-10-13 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/54011_556bccbada.docx',
+        photo: 'https://vk.ru/album-91656163_314728256',
         type: 'ROGAINE',
         fmt: '4, 2.5',
         start: 'LM',
@@ -3128,6 +3129,7 @@ let events2026 = [
         endReg: '2026-10-14 20:00',
         fmt: 'выбор',
         o_site: '261018_LO',
+        reskeep: 942,
         o_gps: 26141,
         me: 'М45',
         strava: 20633567530,
@@ -3141,6 +3143,7 @@ let events2026 = [
         place: 'Стеклянный, Силанде',
         reg: 'https://orgeo.ru/event/56109',
         endReg: '2026-10-16 12:00',
+        reskeep: 943,
         o_site: '261018',
         o_gps: {
             'A':26135,

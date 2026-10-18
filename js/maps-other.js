@@ -782,7 +782,7 @@ let otherMaps = [
             'Ж':'./original_maps/other/nizhneisetsky_ussr_winter_champ_1990_03_11_w21_omaps.webp'
         },
         bounds: [[56.7469344, 60.6781769], [56.7393563, 60.7508755], [56.6964948, 60.6610107]],
-        start: ['SKI_USSR_1990','USSR'],
+        start: ['SKI_USSR_1990','SKI_USSR'],
         author: 'KNTSVCH',
         type: ['WINTER']
     },
@@ -796,7 +796,7 @@ let otherMaps = [
             'Ж':'./original_maps/other/nizhneisetsky_ussr_winter_champ_1990_03_13_w21_omaps.webp'
         },
         bounds: [[56.7542757, 60.6107998], [56.7392622, 60.7240963], [56.7195331, 60.6004143]],
-        start: ['SKI_USSR_1990','USSR'],
+        start: ['SKI_USSR_1990','SKI_USSR'],
         author: 'KNTSVCH',
         type: ['WINTER']
     },
@@ -806,7 +806,7 @@ let otherMaps = [
         url: './maps/other/nizhneisetsky_ussr_winter_champ_1990_03_14.webp',
         link: './original_maps/other/nizhneisetsky_ussr_winter_champ_1990_03_14_omaps.webp',
         bounds: [[56.727021, 60.622859], [56.7217466, 60.6747007], [56.7051181, 60.6180954]],
-        start: ['SKI_USSR_1990','USSR'],
+        start: ['SKI_USSR_1990','SKI_USSR'],
         author: 'KNTSVCH',
         type: ['WINTER']
     },
@@ -816,7 +816,7 @@ let otherMaps = [
         url: './maps/other/verkh_neyvinsky_ussr_winter_champ_1991.webp',
         link: ['./original_maps/other/verkh_neyvinsky_ussr_winter_champ_1991_m21_omaps.webp','./original_maps/other/verkh_neyvinsky_ussr_winter_champ_1991_w21_omaps.webp'],
         bounds: [[57.3041806, 60.1385164], [57.2993584, 60.2015162], [57.266305, 60.1277876]],
-        start: ['SKI_USSR_1991','USSR'],
+        start: ['SKI_USSR_1991','SKI_USSR'],
         type: ['WINTER']
     },
     {
@@ -825,7 +825,7 @@ let otherMaps = [
         url: './maps/other/murzinka_ussr_winter_champ_1991.webp',
         link: './original_maps/other/murzinka_ussr_winter_champ_1991_omaps.webp',
         bounds: [[57.2194226, 60.1049995], [57.2161695, 60.1352978], [57.1879485, 60.0934124]],
-        start: ['SKI_USSR_1991','USSR'],
+        start: ['SKI_USSR_1991','SKI_USSR'],
         type: ['WINTER']
     },
     {
@@ -836,7 +836,7 @@ let otherMaps = [
         bounds: [[57.137427, 60.1115227], [57.1327693, 60.17272], [57.0948572, 60.0991631]],
         results: './docs/1991/1991_02_24_shamanikha_ussr_winter_champ_omaps.pdf',
         planner: 'KNTSVCH',
-        start: ['SKI_USSR_1991','USSR'],
+        start: ['SKI_USSR_1991','SKI_USSR'],
         type: ['WINTER']
     },
     {
