@@ -3398,10 +3398,12 @@ function initHistoryPlacesMap(places, options = {}) {
     const legendEl = document.getElementById(options.legendId ?? 'places-legend');
     if (!mapEl || !Array.isArray(places)) return;
 
-    // эпохи: цвет точки по году первого упоминания (классы hist-pm-e0…e4 в history.css)
-    const ERAS = [[1969, 'до 1969'], [1989, '1970–1980-е'], [1999, '1990-е'], [2009, '2000-е'], [Infinity, '2010-е и позже']];
+    // эпохи: цвет точки по году первого упоминания (классы hist-pm-e0…e4 в history.css);
+    // options.eras — свои эпохи статьи: [[последний год, подпись], …], у последней — Infinity
+    const ERAS = options.eras ?? [[1969, 'до 1969'], [1989, '1970–1980-е'], [1999, '1990-е'], [2009, '2000-е'], [Infinity, '2010-е и позже']];
     const eraOf = year => ERAS.findIndex(([last]) => (year ?? Infinity) <= last);
-    const HOME_PAGES = ['spb', 'starts'];           // начальный вид — точки раздела Петербурга
+    // начальный вид — точки этих разделов сайта (по умолчанию Петербурга); null — все точки
+    const HOME_PAGES = options.homePages === undefined ? ['spb', 'starts'] : options.homePages;
     const PIN = '📍';
 
     const anchorOf = p => 'place-' + p.id.toLowerCase();
@@ -3474,7 +3476,7 @@ function initHistoryPlacesMap(places, options = {}) {
     let ready = null;
     let lmap, cluster;
     const markers = new Map();
-    const homeBounds = () => L.latLngBounds(places.filter(p => HOME_PAGES.includes(p.page)).map(p => p.coord));
+    const homeBounds = () => L.latLngBounds(places.filter(p => !HOME_PAGES || HOME_PAGES.includes(p.page)).map(p => p.coord));
 
     function init() {
         if (ready) return ready;
