@@ -1,0 +1,100 @@
+{
+ "title": "Ориентирование в Ленинграде и Петербурге",
+ "article": "history/spb-history.html",
+ "var": "historySpbPoi",
+ "home_page": "spb",
+ "eras": [
+  [
+   1969,
+   "до 1969"
+  ],
+  [
+   1989,
+   "1970–1980-е"
+  ],
+  [
+   1999,
+   "1990-е"
+  ],
+  [
+   2009,
+   "2000-е"
+  ],
+  [
+   null,
+   "2010-е и позже"
+  ]
+ ],
+ "override": {
+  "SPB_19810804_2": [
+   "skip",
+   "место «Карельский перешеек», coord — центр перешейка"
+  ],
+  "SPB_20160623_1": [
+   "skip",
+   "место «Выборгский р-н, Ленинградская обл» — район, а не точка"
+  ],
+  "SPB_19690412_1": [
+   "skip",
+   "место «Одесса, Бендеры» — два города"
+  ],
+  "SPB_19630707_1": [
+   "skip",
+   "место «Пески» — в области несколько Песков"
+  ],
+  "SPB_20190426_1": [
+   "skip",
+   "место «Санкт-Петербург» — город целиком, площадки чемпионата не указаны"
+  ],
+  "SPB_19620624_1": [
+   "geo",
+   59.378053,
+   28.601209,
+   "по названию: https://www.cyclowiki.org/wiki/Кингисепп",
+   "Кингисепп"
+  ],
+  "SPB_20160511_1": [
+   "archive",
+   "petropavlovka_2024"
+  ],
+  "SPB_20060520_1": [
+   "archive",
+   "krestovsky_2021"
+  ],
+  "SPB_19730426_1": [
+   "archive",
+   "sosnovka_1975"
+  ],
+  "MAJOR_20170515_1": [
+   "archive",
+   "novgorod_rogaine_2024_09_08"
+  ],
+  "MAJOR_19960905_1": [
+   "archive",
+   "alol_rogaine_2013"
+  ],
+  "SPB_19800620_1": [
+   "archive",
+   "tsvelodubovo_nakhimovskaya_tb_velo"
+  ],
+  "SPB_20190801_1": [
+   "archive",
+   "poljany_university_2016"
+  ],
+  "SPB_19720611_1": [
+   "point",
+   "M:zelenogorsk_schuchye_1971"
+  ]
+ },
+ "poi_for": {
+  "M:kavgolovo_1972": "UTC_KAVGOLOVO"
+ },
+ "overlay_for": {
+  "SPB_19630819_1": "lembolovo_1983_wn",
+  "MAJOR_19930825_1": "sortavala_redfox_2026",
+  "SPB_20110612_1": "vyborg_center_rylov",
+  "SPB_20130602_1": "kanneljarvy_rogaine_2024",
+  "IRF_20220528_1": "zerkalny_rrc_2022",
+  "SPB_19980218_1": "orekhovo_figurnoe_2001"
+ }
+}
