@@ -3065,6 +3065,7 @@ let events2026 = [
         type: 'ROGAINE',
         fmt: '4, 2.5',
         start: 'LM',
+        o_gps: 26143,
         map: 'novgorod_rogaine_2024_09_08'
     },
     {
@@ -3127,6 +3128,9 @@ let events2026 = [
         endReg: '2026-10-14 20:00',
         fmt: 'выбор',
         o_site: '261018_LO',
+        o_gps: 26141,
+        me: 'М45',
+        strava: 20633567530,
         bulletin: 'https://o-site.spb.ru/_races/261018_LO/261018_info.pdf'
     },
     {
@@ -3138,7 +3142,14 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/56109',
         endReg: '2026-10-16 12:00',
         o_site: '261018',
+        o_gps: {
+            'A':26135,
+            'B':26135,
+            'C':26135,
+            'D':26135
+        },
         bulletin: 'https://o-site.spb.ru/_races/261018/261018_info.pdf',
+        publish: 'https://t.me/c/3634322394/3/207',
         map: 'steklyanny_silande_2026'
     },
     {
