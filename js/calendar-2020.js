@@ -1169,6 +1169,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/20091213/200912_split.htm',
         info: 'Чемпионат и Первенство ЛО, массовые соревнования ЛО, дисциплины: 12.09 - кросс-спринт 13.09 - кросс-лонг',
         o_site: '20091213',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#256',
         bulletin: 'https://o-site.spb.ru/_races/20091213/20091213_info3-1.pdf',
         reskeep: [365, 364],
         o_gps: {
@@ -1647,6 +1648,7 @@ let events2020 = [
             'https://rutube.ru/video/1f5933100cc56ae8255dd9594f27ddc9/'
         ],
         o_site: '201025LO',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#257',
         bulletin: 'https://o-site.spb.ru/_races/201025LO/201025_info2.pdf',
         strava: 4242108810,
         o_gps: 8450

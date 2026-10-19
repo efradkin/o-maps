@@ -3233,6 +3233,17 @@ let events2026 = [
         fmt: '1.5'
     },
     {
+        id: 'SPB_20261024_4',
+        date: '2026-10-24',
+        name: 'Открытая тренировка от клуба Феникс',
+        place: 'Гарболово',
+        o_site: '261024',
+        reg: 'https://orgeo.ru/event/56289',
+        bulletin: 'https://o-site.spb.ru/_races/261024/261024_info.pdf',
+        endReg: '2026-10-23 12:00',
+        map: 'garbolovo_zmeinoe_2026'
+    },
+    {
         id: 'SPB_20261025_1',
         date: '2026-10-25',
         name: '5 Вёрст',

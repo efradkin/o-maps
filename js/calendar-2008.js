@@ -543,7 +543,8 @@ let events2008 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/080601/080601_res.htm',
         info: 'Юбилейный, 50-й Чемпионат Санкт-Петербурга!!!',
-        o_site: '080601'
+        o_site: '080601',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#5'
     },
     {
         id: 'SPB_20080608_1',
@@ -621,6 +622,11 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/080624_KS/080624_KS_res.zip',
         start: 'KS',
         o_site: '080624_KS',
+        rg: [
+            'https://o-site.spb.ru/cgi-bin/rg2.php#6',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#7',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#8'
+        ],
         map: ['ks_2008_06_25', 'ks_2008_06_26'],
         endDate: '2008-06-26'
     },
@@ -705,6 +711,7 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/08080203/08080203_res.zip',
         start: 'YM_CUP',
         o_site: '08080203',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#10',
         bulletin: 'https://o-site.spb.ru/_races/08080203/08080203_info.htm'
     },
     {
@@ -919,7 +926,8 @@ let events2008 = [
         name: 'Кубок Яркого Мира, Финал',
         res: 'https://o-site.spb.ru/_races/081005/final_res.zip',
         start: 'YM_CUP',
-        o_site: '081005'
+        o_site: '081005',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#11'
     },
     {
         id: 'SPB_20081009_1',
@@ -936,7 +944,8 @@ let events2008 = [
         name: 'XXXVII Соревнования по ночному ориентированию памяти А. Окинчица',
         res: 'https://o-site.spb.ru/_races/08101112/08101112_res.htm',
         start: 'OKINCHITSA',
-        o_site: '08101112'
+        o_site: '08101112',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#12'
     },
     {
         id: 'SPB_20081018_1',

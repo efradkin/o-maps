@@ -86,6 +86,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130120/130120_res.htm',
         info: 'Соревнования проводятся 20 января 2013 года в окрестностях пос.Рощино (Райвола). Центр соревнований расположен в Детском оздоровительном лагере «Северная зорька». Размещение участников в отапливаемом помещении',
         o_site: '130120',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#140',
         bulletin: 'https://o-site.spb.ru/_races/130120/2013_01_20%20info1.htm'
     },
     {
@@ -96,6 +97,7 @@ let events2013 = [
         start: 'SNOW_WAY',
         res: 'http://o-site.spb.ru/_races/121118_tropa/130127_split.htm',
         o_site: '121118_tropa',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#141',
         bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html'
     },
     {
@@ -125,6 +127,7 @@ let events2013 = [
         start: 'SNOW_WAY',
         res: 'http://o-site.spb.ru/_races/121118_tropa/130203_split.htm',
         o_site: '121118_tropa',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#142',
         bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html'
     },
     {
@@ -155,6 +158,7 @@ let events2013 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130216/130216_SPLIT.htm',
         o_site: '130216',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#143',
         map: 'toksovo_shkolnoe_winter_2013',
         o_gps: 35
     },
@@ -180,6 +184,7 @@ let events2013 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130223Ch/130223_split.htm',
         o_site: '130223Ch',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#144',
         o_gps: 36,
         bulletin: 'https://o-site.spb.ru/_races/130223Ch/130223_info3.htm'
     },
@@ -274,6 +279,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130308_ch/130308_split.htm',
         info: 'Эстафета проводится по группам: Мдо13- 2 этапа, Ждо13- 2 этапа Мдо15- 3 этапа, Ждо15- 3 этапа, Мдо18- 3 этапа, Ждо18- 3 этапа, МЭ- 3 этапа, ЖЭ- 3 этапа, М90 (сумма возрастов ≥90 лет, мин. возраст 35 лет)- 2 этапа, Ж90 (сумма возрастов ≥90 лет, мин. возраст 35 лет)- 2 этапа, М110 (сумма возрастов ≥110 лет, мин. возраст 45 лет)- 2 этапа, Ж110 (сумма возрастов ≥110 лет, мин. возраст 45 лет)- 2 этапа',
         o_site: '130308_ch',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#145',
         o_gps: 39,
         bulletin: 'https://o-site.spb.ru/_races/130308_ch/13030809_info3.htm'
     },
@@ -297,6 +303,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130309/130309_split.htm',
         info: 'Место проведения: п.Ильичево, Болотная станция',
         o_site: '130309',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#146',
         o_gps: 40
     },
     {
@@ -508,6 +515,7 @@ let events2013 = [
         name: 'Кубок Яркого Мира 2013, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/130427_split.htm',
         o_site: '2013CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#147',
         start: 'YM_CUP'
     },
     {
@@ -518,6 +526,7 @@ let events2013 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/130428_Ch/130428_split_.htm',
         o_site: '130428_Ch',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#148',
         bulletin: 'https://o-site.spb.ru/_races/130428_Ch/130428_info3.htm',
         reskeep: 259
     },
@@ -610,6 +619,7 @@ let events2013 = [
         name: 'Кубок Яркого Мира 2013, 3 этап',
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/130510_split.htm',
         o_site: '2013CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#149',
         start: 'YM_CUP'
     },
     {
@@ -680,6 +690,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130518_Az/130518_RES.htm',
         info: 'Традиционный старт, провводимый КСО Азимут в память о тех, кого уже нет с нами...',
         o_site: '130518_Az',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#150',
         bulletin: 'https://o-site.spb.ru/_races/130518_Az/130518_info.htm',
         map: 'lembolovo_2002',
         owner: 'AZIMUT'
@@ -732,7 +743,8 @@ let events2013 = [
         name: 'Ориентир-6',
         start: 'ORIENTIR',
         res: 'http://o-site.spb.ru/_races/130331_OR/130521_split.htm',
-        o_site: '130331_OR'
+        o_site: '130331_OR',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#151'
     },
     {
         id: 'SPB_20130522_1',
@@ -815,7 +827,8 @@ let events2013 = [
         name: 'Ориентир-7',
         res: 'http://o-site.spb.ru/_races/130331_OR/130528_split.htm',
         start: 'ORIENTIR',
-        o_site: '130331_OR'
+        o_site: '130331_OR',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#152'
     },
     {
         id: 'SPB_20130529_1',
@@ -887,6 +900,7 @@ let events2013 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/130602Ch/130602_RES.htm',
         o_site: '130602Ch',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#153',
         bulletin: 'https://o-site.spb.ru/_races/130602Ch/130602_info3.pdf',
         reskeep: 247
     },
@@ -1129,6 +1143,7 @@ let events2013 = [
         name: 'Кубок Яркого Мира 2013, 6 этап',
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/130817_split.htm',
         o_site: '2013CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#154',
         start: 'YM_CUP'
     },
     {
@@ -1138,6 +1153,7 @@ let events2013 = [
         name: 'Кубок Яркого Мира 2013, 7 этап',
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/130818_split.htm',
         o_site: '2013CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#155',
         start: 'YM_CUP'
     },
     {
@@ -1159,6 +1175,10 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/13082425/13082425_res.htm',
         o_site: '13082425',
+        rg: [
+            'https://o-site.spb.ru/cgi-bin/rg2.php#156',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#157'
+        ],
         map: 'psk_2013_08_24',
         bulletin: 'https://o-site.spb.ru/_races/13082425/13082425_info2.pdf',
         o_gps: {
@@ -1187,6 +1207,7 @@ let events2013 = [
         name: 'Кубок Яркого Мира 2013, 8 этап',
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/130831_split.htm',
         o_site: '2013CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#158',
         start: 'YM_CUP'
     },
     {
@@ -1196,6 +1217,7 @@ let events2013 = [
         name: 'Кубок Яркого Мира 2013, 9 этап',
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/130901_split.htm',
         o_site: '2013CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#159',
         start: 'YM_CUP'
     },
     {
@@ -1233,6 +1255,7 @@ let events2013 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/130908/130908_res.htm',
         o_site: '130908',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#160',
         bulletin: 'https://o-site.spb.ru/_races/130908/130908_info2_.pdf',
         reskeep: 254
     },
@@ -1278,6 +1301,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/13091415_LO/130914_res.pdf',
         info: 'Старт 15 сентября входит в зачёт Кубка СПб и ЛО 2013 года.',
         o_site: '13091415_LO',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#161',
         bulletin: 'https://o-site.spb.ru/_races/13091415_LO/13091415_info3.htm'
     },
     {
@@ -1335,6 +1359,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130921/130921_mtbo_res.pdf',
         fmt: 'Велокросс-классика (40-70мин) - код дисциплины 0830241811Я',
         o_site: '130921',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#163',
         bulletin: 'https://o-site.spb.ru/_races/130921/130921_info2.htm'
     },
     {
@@ -1366,6 +1391,7 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130922/130922_split.htm',
         video: 'https://www.youtube.com/watch?v=59GaGUqEw1c',
         o_site: '130922',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#162',
         reskeep: 226,
         o_gps: {
             'М': 83,
@@ -1457,6 +1483,7 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/130929/130929_res.htm',
         o_site: '130929',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#164',
         o_gps: {
             'М': 92,
             'Ж': 93
@@ -1539,6 +1566,7 @@ let events2013 = [
         info: '4-е по счёту традиционные соревнования, проводимые клубом "Белые Ночи" при спонсорской поддержке генерального партнёра trikolor.tv',
         owner: 'WN',
         o_site: '131006',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#165',
         bulletin: 'https://o-site.spb.ru/_races/131006/131006_info2.htm'
     },
     {
@@ -1585,6 +1613,7 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/131016/20131016-rez.htm',
         o_site: '131016',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#169',
         o_gps: {
             'М': 116,
             'Ж': 117
@@ -1632,7 +1661,8 @@ let events2013 = [
         name: 'Финальный этап Кубка СПб и ЛО',
         reg: 'http://www.o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/131020/131020_res.pdf',
-        o_site: '131020'
+        o_site: '131020',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#167'
     },
     {
         id: 'SPB_20131023_1',
@@ -1671,6 +1701,7 @@ let events2013 = [
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/131027_split.htm',
         start: 'YM_CUP',
         o_site: '2013CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#168',
         o_gps: {
             'М': 122,
             'Ж': 123
@@ -1685,6 +1716,7 @@ let events2013 = [
         info: 'Традиционные праздничные осенние соревнования на удлинённой дистанции, проводимые КСО Азимут',
         logo: 'azimut.gif',
         o_site: '131104_Az',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#170',
         bulletin: 'https://o-site.spb.ru/_races/131104_Az/131104_info.htm',
         map: 'lembolovo_2002',
         owner: 'AZIMUT'
@@ -1721,7 +1753,8 @@ let events2013 = [
         name: 'Sprint Tour SPb 2013, 15 этап',
         start: 'SPRINT_TOUR',
         res: 'https://o-site.spb.ru/_races/130904/131120_split.htm',
-        o_site: '130904'
+        o_site: '130904',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#171'
     },
     {
         id: 'SPB_20131123_1',
@@ -1738,6 +1771,7 @@ let events2013 = [
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://o-site.spb.ru/_races/131208_tr/131124_split.htm',
         o_site: '131208_tr',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#172',
         bulletin: 'https://o-site.spb.ru/_races/131208_tr/131208_info.pdf'
     },
     {
@@ -1781,6 +1815,7 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/131208_tr/131208_split.htm',
         o_site: '131208_tr',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#173',
         bulletin: 'https://o-site.spb.ru/_races/131208_tr/131208_info.pdf'
     },
     {
@@ -1803,7 +1838,8 @@ let events2013 = [
         name: 'Рогейн-42',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/131215R/131215_res_.xls',
-        o_site: '131215R'
+        o_site: '131215R',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#174'
     },
     {
         id: 'SPB_20131222_1',
@@ -1838,6 +1874,7 @@ let events2013 = [
         reg: 'http://www.o-reg.spb.ru',
         res: 'http://o-site.spb.ru/_races/130331_OR/131229_split.htm',
         start: 'ORIENTIR',
-        o_site: '130331_OR'
+        o_site: '130331_OR',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#175'
     }
 ];

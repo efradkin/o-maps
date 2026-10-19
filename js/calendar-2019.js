@@ -85,6 +85,10 @@ let events2019 = [
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_middle/',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_middle/',
         o_site: '190120',
+        rg: [
+            'https://o-site.spb.ru/cgi-bin/rg2.php#247',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#248'
+        ],
         bulletin: 'https://o-site.spb.ru/_races/190120/19011920_info_3.pdf',
         reskeep: 103,
         o_gps: 4907
@@ -580,7 +584,8 @@ let events2019 = [
         name: 'Яркий Кубок 2018/2019, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/2019YC/190504_split.htm',
         reskeep: 121,
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#250'
     },
     {
         id: 'SPB_20190505_1',
@@ -589,7 +594,8 @@ let events2019 = [
         name: 'Яркий Кубок 2018/2019, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/2019YC/190505_split.htm',
         reskeep: 122,
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#249'
     },
     {
         id: 'SPB_20190507_1',
@@ -905,6 +911,7 @@ let events2019 = [
         photo: 'http://vk.com/spb_orient?z=album-154221178_263545564',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/chspbs_long/',
         o_site: '190602',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#251',
         reskeep: 145,
         o_gps: {
             'М12/Ж12': 5828,
@@ -1227,7 +1234,8 @@ let events2019 = [
         res: 'http://www.o-site.spb.ru/_races/2019YC/190721_split.htm',
         reskeep: 184,
         map: 'orekhovo_rakitinskoe_2004',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#252'
     },
     {
         id: 'SPB_20190727_1',
@@ -1348,7 +1356,8 @@ let events2019 = [
         name: 'Яркий Кубок 2018/2019, 8 этап',
         res: 'http://www.o-site.spb.ru/_races/2019YC/190817_split.htm',
         reskeep: 188,
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#253'
     },
     {
         id: 'SPB_20190818_1',
@@ -1357,7 +1366,8 @@ let events2019 = [
         name: 'Яркий Кубок 2019/2020, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2019YC/190818_split.htm',
         reskeep: 189,
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#254'
     },
     {
         id: 'SPB_20190824_1',

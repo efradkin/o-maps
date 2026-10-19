@@ -70,6 +70,7 @@ let events2017 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170121-22_SP/170121_res.htm',
         o_site: '170121-22_SP',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#233',
         bulletin: 'https://o-site.spb.ru/_races/170121-22_SP/170121-22_info2.pdf'
     },
     {
@@ -708,6 +709,7 @@ let events2017 = [
         name: 'Яркий Кубок 2017, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2017YC/170508_split.htm',
         o_site: '2017YC',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#234',
         start: 'YM_CUP',
         o_gps: 2230
     },
@@ -763,6 +765,7 @@ let events2017 = [
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/17042901/17051314_res_official.zip',
         o_site: '17042901',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#235',
         o_gps: {
             '13-М21А/20': 2243,
             '13-Ж21А/20': 2246,
@@ -1232,6 +1235,7 @@ let events2017 = [
         name: 'Яркий Кубок 2017, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/2017YC/170702_split.htm',
         o_site: '2017YC',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#236',
         start: 'YM_CUP'
     },
     {
@@ -1353,6 +1357,7 @@ let events2017 = [
         name: 'Яркий Кубок 2017, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/2017YC/170819_split.htm',
         o_site: '2017YC',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#237',
         start: 'YM_CUP'
     },
     {
@@ -1902,6 +1907,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/171008/171008_res_.htm',
         video: 'https://www.youtube.com/watch?v=O-5O-CrlOXw',
         o_site: '171008',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#238',
         reskeep: 243,
         bulletin: 'https://o-site.spb.ru/_races/171008/171008_info2.pdf',
         o_gps: {
@@ -2000,6 +2006,7 @@ let events2017 = [
         res: 'http://www.o-site.spb.ru/_races/2017YC/171029_split.htm',
         photo: 'http://vk.com/club128591100',
         o_site: '2017YC',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#239',
         start: 'YM_CUP'
     },
     {

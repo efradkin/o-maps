@@ -316,6 +316,7 @@ let events2009 = [
         name: 'Кубок Яркого Мира 2009, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090425_split.htm',
         o_site: '09cupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#14',
         start: 'YM_CUP'
     },
     {
@@ -325,6 +326,7 @@ let events2009 = [
         name: 'Кубок Яркого Мира 2009, 2 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090426_split.htm',
         o_site: '09cupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#13',
         start: 'YM_CUP'
     },
     {
@@ -367,7 +369,8 @@ let events2009 = [
         type: 'VELO',
         res: 'http://o-time.ru/content/view/388/28/',
         fmt: 'Заданное направление, масс-старт',
-        o_site: '090509_mtb'
+        o_site: '090509_mtb',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#16'
     },
     {
         id: 'SPB_20090510_1',
@@ -376,6 +379,7 @@ let events2009 = [
         name: 'Кубок Яркого Мира 2009, 3 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090510_split.htm',
         o_site: '09cupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#15',
         start: 'YM_CUP'
     },
     {
@@ -581,6 +585,7 @@ let events2009 = [
         name: 'Кубок Яркого Мира 2009, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090530_split.htm',
         o_site: '09cupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#17',
         start: 'YM_CUP'
     },
     {
@@ -590,6 +595,7 @@ let events2009 = [
         name: 'Кубок Яркого Мира 2009, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090531_split.htm',
         o_site: '09cupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#18',
         start: 'YM_CUP'
     },
     {
@@ -601,6 +607,7 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090603/090603_res.htm',
         photo: 'http://www.photo.yarkiymir.ru/albums/87/156/page-0/',
         o_site: '090603',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#20',
         bulletin: 'http://o-time.ru/images/all/info/chspb030609_3.htm',
         reskeep: 263,
         map: 'osinovaja_roscha_2018',
@@ -660,6 +667,7 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090607/090607_res.htm',
         photo: 'http://www.photo.yarkiymir.ru/albums/87/181/page-0/',
         o_site: '090607',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#21',
         bulletin: 'https://o-site.spb.ru/_races/090607/090607_info3.htm',
         reskeep: 251
     },
@@ -757,6 +765,7 @@ let events2009 = [
         name: 'Кубок Яркого Мира 2009, 6 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090705_split.htm',
         o_site: '09cupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#22',
         start: 'YM_CUP'
     },
     {
@@ -901,6 +910,7 @@ let events2009 = [
         name: 'Кубок Яркого Мира 2009, 8 этап',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090906_split.htm',
         o_site: '09cupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#23',
         start: 'YM_CUP'
     },
     {
@@ -1065,6 +1075,7 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/091004/091004_res.htm',
         photo: 'http://www.photo.yarkiymir.ru/albums/120/1657/',
         o_site: '091004',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#24',
         bulletin: 'https://o-site.spb.ru/_races/091004/091004_info.htm',
         reskeep: 230
     },
@@ -1085,7 +1096,8 @@ let events2009 = [
         name: 'XXXVIII Соревнования по ночному ориентированию памяти А. Окинчица',
         res: 'https://o-site.spb.ru/_races/091010/091010_res.htm',
         start: 'OKINCHITSA',
-        o_site: '091010'
+        o_site: '091010',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#25'
     },
     {
         id: 'SPB_20091015_1',
@@ -1094,6 +1106,7 @@ let events2009 = [
         name: 'Осенний Кубок 110%, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/091126/091015_res.htm',
         o_site: '091126',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#27',
         bulletin: 'https://o-site.spb.ru/_races/091126/091126_info.htm',
         start: 'ROGAINE_110'
     },
@@ -1115,6 +1128,7 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/09101718/091017.htm',
         info: 'Чемпионат и Первенство ЛО, посвященный 40-летию ориентирования в области',
         o_site: '09101718',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#28',
         bulletin: 'https://o-site.spb.ru/_races/09101718/09101718_info.zip',
         endDate: '2009-10-18',
         map: 'orekhovo_rakitinskoe_2004'
@@ -1139,6 +1153,7 @@ let events2009 = [
         name: 'Осенний Кубок 110%, 6 этап',
         res: 'http://www.o-site.spb.ru/_races/091126/091022_res.htm',
         o_site: '091126',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#29',
         bulletin: 'https://o-site.spb.ru/_races/091126/091126_info.htm',
         start: 'ROGAINE_110'
     },
@@ -1175,6 +1190,7 @@ let events2009 = [
         name: 'Финал Кубка ФСО',
         res: 'https://o-site.spb.ru/_races/091025/091025_res.htm',
         o_site: '091025',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#30',
         bulletin: 'https://o-site.spb.ru/_races/091025/091025_info.htm'
     },
     {
@@ -1193,7 +1209,8 @@ let events2009 = [
         place: 'Мичуринское',
         res: 'http://www.o-site.spb.ru/_races/09cupYM/091101_split.htm',
         start: 'YM_CUP',
-        o_site: '09cupYM'
+        o_site: '09cupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#31'
     },
     {
         id: 'SPB_20091101_2',
@@ -1246,6 +1263,7 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/091108_az/091108_res.htm',
         info: 'Тренировочный старт СДЮСШОР Курортного р-на и КСО Азимут',
         o_site: '091108_az',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#32',
         bulletin: 'https://o-site.spb.ru/_races/091108_az/091108_info.htm'
     },
     {

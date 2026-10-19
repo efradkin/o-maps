@@ -451,6 +451,11 @@
             html += infoRow('Анализ сплитов', urls.map((u, i) =>
                 linkChipHtml({ href: u, label: 'Reskeep' + (urls.length > 1 ? ' ' + (i + 1) : ''), img: 'images/r-k.gif' })).join(', '));
         }
+        if (evt.rg) {
+            const urls = asList(evt.rg);
+            html += infoRow('Пути участников', urls.map((u, i) =>
+                linkChipHtml({ href: u, label: 'RouteGadget' + (urls.length > 1 ? ' ' + (i + 1) : ''), img: 'images/' + RG_ICON })).join(', '));
+        }
         const gps = getGPS(evt);
         if (gps) {
             const items = isObject(gps)

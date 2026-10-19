@@ -84,6 +84,7 @@ let events2011 = [
         info: 'Сайт организаторов',
         owner: 'GOLFSTREAM',
         o_site: '110206',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#65',
         bulletin: 'https://o-site.spb.ru/_races/110206/110206_info3.htm'
     },
     {
@@ -114,6 +115,7 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/110213/110213_res.htm',
         fmt: 'спринт в заданном направлении',
         o_site: '110213',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#66',
         bulletin: 'https://o-site.spb.ru/_races/110213/110213_info3.htm'
     },
     {
@@ -140,6 +142,7 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/110223/110223_res.htm',
         fmt: 'масс-старт в заданном направлении на лыжах.',
         o_site: '110223',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#67',
         bulletin: 'https://o-site.spb.ru/_races/110223/100223_info3.htm',
         map: 'toksovo_vifk_winter_2023'
     },
@@ -182,6 +185,7 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/11030607/11030607_res.zip',
         info: '06 марта. Лыжная гонка 60. 07 марта. Эстафета, заданное направление.',
         o_site: '11030607',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#68',
         bulletin: 'https://o-site.spb.ru/_races/11030607/11030607_info2.htm'
     },
     {
@@ -263,6 +267,7 @@ let events2011 = [
         info: 'Лыжный рогейн клуба "Гольфстрим" состоится 20 марта в районе озера Щучье, поселок Комарово. Соревнования проводятся в формате 3 часа, зачет личный. Дополнительно дистанция по выбору для группы Fitness.',
         owner: 'GOLFSTREAM',
         o_site: '110320',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#73',
         bulletin: 'http://gs-oc.ru/phocadownload/competitions/2011/110320_rogain/110320_info2.pdf'
     },
     {
@@ -358,6 +363,7 @@ let events2011 = [
         name: 'Кубок Яркого Мира 2011, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110424_split.htm',
         o_site: '2011CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#74',
         start: 'YM_CUP'
     },
     {
@@ -377,7 +383,12 @@ let events2011 = [
         name: 'Чемпионат и Первенство ЛО',
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/11043002/11043002_res.zip',
-        o_site: '11043002'
+        o_site: '11043002',
+        rg: [
+            'https://o-site.spb.ru/cgi-bin/rg2.php#75',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#76',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#77'
+        ]
     },
     {
         id: 'SPB_20110504_1',
@@ -415,6 +426,7 @@ let events2011 = [
         name: 'Кубок Яркого Мира 2011, 2 этап',
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110509_split.htm',
         o_site: '2011CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#78',
         start: 'YM_CUP'
     },
     {
@@ -503,6 +515,7 @@ let events2011 = [
         info: 'Многоэтапный Кубок 18 мая – 1й этап летнего кубка. Спринт. Сосновка. 27 августа – 2й этап летнего кубка. Ночное ориентирование. Классика 45. По назначению. 2 октября – 3й этап летнего кубка. Марафон “На Холмах Яппиля”. Яппиля.',
         owner: 'GOLFSTREAM',
         o_site: '110518_GS',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#79',
         bulletin: 'http://gs-oc.ru/phocadownload/competitions/gs-cup-2011/110518/110518_info2.pdf',
         map: 'sosnovka_2011'
     },
@@ -534,7 +547,8 @@ let events2011 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/110521_v/110521_rez.htm',
         info: 'Чемпионат и первенство ЛенОбласти, велокросс-классика (40-70 мин)',
-        o_site: '110521_v'
+        o_site: '110521_v',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#80'
     },
     {
         id: 'SPB_20110521_2',
@@ -674,6 +688,7 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/110605/110605_res.htm',
         info: '53-й летний Чемпионат и Первенство г. Санкт-Петербурга по спортивному ориентированию',
         o_site: '110605',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#81',
         bulletin: 'https://o-site.spb.ru/_races/110605/110605_info2.pdf',
         reskeep: 249,
         map: 'orekhovo_rakitinskoe_2004'
@@ -744,6 +759,7 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/110627-0703/20110628-0702_res.zip',
         info: 'КУБОК РОССИИ по спортивному ориентированию на велосипедах ПЕРВЕНСТВО РОССИИ по спортивному ориентированию на велосипедах (юноши, девушки до 18 лет) ВСЕРОССИЙСКИЕ соревнования по ориентированию на велосипедах (юноши, девушки до 15 лет)',
         o_site: '110627-0703',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#82',
         bulletin: 'https://o-site.spb.ru/_races/110627-0703/110627-0703_info.pdf'
     },
     {
@@ -915,6 +931,7 @@ let events2011 = [
         name: 'Кубок Яркого Мира 2011, 6 этап',
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110903_split.htm',
         o_site: '2011CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#83',
         start: 'YM_CUP'
     },
     {
@@ -924,6 +941,7 @@ let events2011 = [
         name: 'Кубок Яркого Мира 2011, 7 этап',
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110904_split.htm',
         o_site: '2011CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#84',
         start: 'YM_CUP'
     },
     {
@@ -1000,7 +1018,8 @@ let events2011 = [
         info: 'Победители и призёры (1 – 3 место) в абсолютном зачете среди двух основных групп М (16, 18, 21, 40, 50) и Ж (16, 18, 21, 40, 50) (по лучшему времени независимо от группы и дистанции) награждаются ценными призами: 6 комплектов приемного оборудования предоставлены крупнейшим российским спутниковым оператором "Триколор ТВ" (www.tricolor.tv). 1-е место: комплект оборудования + 3 года подписки на Триколор ТВ 2-е место: комплект оборудования + 2 года подписки на Триколор ТВ 3-е место: комплект оборудования + 1 год подписки на Триколор ТВ',
         map: 'ilychevo_2016',
         owner: 'WN',
-        o_site: '110911'
+        o_site: '110911',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#85'
     },
     {
         id: 'SPB_20110915_1',
@@ -1132,6 +1151,7 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/111002/20111002_res.htm',
         info: 'Соревнования пройдут в районе ж/д станции Яппиля. Марафон 140 мин., кросс 35-100 мин.',
         o_site: '111002',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#88',
         bulletin: 'https://o-site.spb.ru/_races/111002/111002_info2.pdf'
     },
     {
@@ -1270,7 +1290,8 @@ let events2011 = [
         place: 'Первомайское',
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/111030_split.htm',
         start: 'YM_CUP',
-        o_site: '2011CupYM'
+        o_site: '2011CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#89'
     },
     {
         id: 'SPB_20111030_2',
@@ -1407,7 +1428,8 @@ let events2011 = [
         map: 'zelenogorsk_schuchye_2020',
         owner: 'WN',
         start: 'WN',
-        o_site: '111204'
+        o_site: '111204',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#92'
     },
     {
         id: 'SPB_20111211_1',
@@ -1419,6 +1441,7 @@ let events2011 = [
         video: 'https://www.youtube.com/watch?v=JO2JzdTPAaw',
         info: 'Парк Зверинец, Петродворец',
         o_site: '111211',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#93',
         bulletin: 'https://o-site.spb.ru/_races/111211/111211_info%203.html'
     },
     {

@@ -394,6 +394,7 @@ let events2016 = [
         name: 'Яркий Кубок 2016, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2016YC/160416_split.htm',
         o_site: '2016YC',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#220',
         start: 'YM_CUP'
     },
     {
@@ -559,6 +560,7 @@ let events2016 = [
         name: 'Яркий Кубок 2016, 2 этап',
         res: 'http://www.o-site.spb.ru/_races/2016YC/160508_split.htm',
         o_site: '2016YC',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#221',
         start: 'YM_CUP'
     },
     {
@@ -691,6 +693,7 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160521/160521_res_prv.pdf',
         photo: 'http://yadi.sk/d/hkJV8vtss2VZM',
         o_site: '160521',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#222',
         bulletin: 'https://o-site.spb.ru/_races/160521/160521_info2-3.htm',
         reskeep: 256,
         map: 'politekh_2022',
@@ -829,6 +832,7 @@ let events2016 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/160529/160529_res_perv.pdf',
         o_site: '160529',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#223',
         reskeep: 244,
         bulletin: 'https://o-site.spb.ru/_races/160529/160529_info2.pdf',
         o_gps: {
@@ -875,6 +879,7 @@ let events2016 = [
         video: 'https://www.youtube.com/watch?v=Xe47MvA0hBc',
         owner: ['VYBORG','NW'],
         o_site: '16060405VT',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#224',
         o_gps: {
             '4-М': 1178,
             '4-Ж': 1179,
@@ -1189,6 +1194,7 @@ let events2016 = [
         name: 'Яркий Кубок 2016, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/2016YC/160820_split.htm',
         o_site: '2016YC',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#226',
         start: 'YM_CUP'
     },
     {
@@ -1259,6 +1265,7 @@ let events2016 = [
         name: 'Яркий Кубок 2016, 7 этап',
         res: 'http://www.o-site.spb.ru/_races/2016YC/160903_split.htm',
         o_site: '2016YC',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#227',
         start: 'YM_CUP'
     },
     {
@@ -1381,6 +1388,7 @@ let events2016 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=637',
         res: 'https://o-site.spb.ru/_races/160918/160918_res_.htm',
         o_site: '160918',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#228',
         bulletin: 'https://o-site.spb.ru/_races/160918/16091718_info_.pdf'
     },
     {
@@ -1549,6 +1557,7 @@ let events2016 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=644',
         res: 'https://o-site.spb.ru/_races/161002/161002_res.htm',
         o_site: '161002',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#229',
         bulletin: 'https://o-site.spb.ru/_races/161002/161002_info2.pdf',
         reskeep: 223,
         o_gps: 1426
@@ -1596,6 +1605,7 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/161009_velo/161009_res.htm',
         photo: 'http://fotki.yandex.ru/users/apatenkov/album/518631/',
         o_site: '161009_velo',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#230',
         bulletin: 'https://o-site.spb.ru/_races/161009_velo/161009_info2.pdf',
         map: 'pukhtolova_gora_velo_2025'
     },
@@ -1721,6 +1731,7 @@ let events2016 = [
         place: 'Мичуринское',
         res: 'https://o-site.spb.ru/_races/2016YC/161023_res.pdf',
         o_site: '2016YC',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#231',
         start: 'YM_CUP',
         o_gps: {
             'М': 1475,
@@ -1779,6 +1790,7 @@ let events2016 = [
         info: 'Традиционные праздничные ноябрьские соревнования на удлинённой дистанции, проводимые КСО "Азимут".',
         logo: 'azimut.gif',
         o_site: '161104_',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#232',
         bulletin: 'https://o-site.spb.ru/_races/161104_/161104_info.pdf',
         map: 'lembolovo_2024',
         owner: 'AZIMUT'

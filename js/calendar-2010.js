@@ -151,6 +151,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/10022122_LO/100221_res.htm',
         info: '21 февраля - маркир; 22 февраля - заданное напр.',
         o_site: '10022122_LO',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#33',
         bulletin: 'https://o-site.spb.ru/_races/10022122_LO/10022122_info.html',
         maps: [
             'https://o-site.spb.ru/_races/10022122_LO/100221_karta.gif'
@@ -185,6 +186,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100228/100228_rez.htm',
         info: 'Лыжная гонка 45 мин.',
         o_site: '100228',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#35',
         bulletin: 'https://o-site.spb.ru/_races/100228/100228_info2.htm'
     },
     {
@@ -233,6 +235,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100308_Y/100308_res.htm',
         info: 'Спринт в заданном направлении, входит в "Кубок ЗН"',
         o_site: '100308_Y',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#37',
         bulletin: 'https://o-site.spb.ru/_races/100308_Y/100308_info.htm'
     },
     {
@@ -373,6 +376,7 @@ let events2010 = [
         name: 'Кубок Яркого Мира 2010, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100424_split.htm',
         o_site: '2010CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#38',
         start: 'YM_CUP'
     },
     {
@@ -382,6 +386,7 @@ let events2010 = [
         name: 'Кубок Яркого Мира 2010, 2 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100425_split.htm',
         o_site: '2010CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#39',
         start: 'YM_CUP'
     },
     {
@@ -393,6 +398,11 @@ let events2010 = [
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/10050103/100501_res.htm',
         o_site: '10050103',
+        rg: [
+            'https://o-site.spb.ru/cgi-bin/rg2.php#40',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#43',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#42'
+        ],
         bulletin: 'https://o-site.spb.ru/_races/10050103/10050103_info1.html'
     },
     {
@@ -424,6 +434,7 @@ let events2010 = [
         name: 'Кубок Яркого Мира 2010, 3 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100510_split.htm',
         o_site: '2010CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#44',
         start: 'YM_CUP'
     },
     {
@@ -532,6 +543,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100529_1/100529_res.htm',
         info: '52-й ЛЕТНИЙ ЧЕМПИОНАТ и ПЕРВЕНСТВО САНКТ-ПЕТЕРБУРГА по СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ БЕГОМ, классическая дистанция.',
         o_site: '100529_1',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#45',
         bulletin: 'https://o-site.spb.ru/_races/100529_1/100529_info1.htm',
         map: 'sosnovo_kalanchevka_2010',
         reskeep: 250
@@ -597,6 +609,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100605_SPb/100605_res_.htm',
         info: '52-й летний чемпионат и первенство Санкт-Петербурга по спортивному ориентированию',
         o_site: '100605_SPb',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#47',
         bulletin: 'https://o-site.spb.ru/_races/100605_SPb/100605_info.htm',
         reskeep: 262
     },
@@ -656,6 +669,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100606/100606_res.htm',
         video: ['https://www.youtube.com/watch?v=j_KTc8cVk-o','https://www.youtube.com/watch?v=jFCgJDqyx9s'],
         o_site: '100606',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#48',
         bulletin: 'https://o-site.spb.ru/_races/100606/100606_info.htm'
     },
     {
@@ -749,6 +763,10 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/10070305/100703_res.pdf',
         info: '3 июля - Спринт (Приозерск) 4 июля - Классика (Кузнечное) 5 июля - Кросс (Кузнечное)',
         o_site: '10070305',
+        rg: [
+            'https://o-site.spb.ru/cgi-bin/rg2.php#49',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#50'
+        ],
         bulletin: 'http://o-sport.ru/temp/2010/20100610_100702_Bulletin.pdf'
     },
     {
@@ -891,6 +909,7 @@ let events2010 = [
         name: 'Кубок Яркого Мира 2010, 8 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100905_split.htm',
         o_site: '2010CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#51',
         start: 'YM_CUP'
     },
     {
@@ -928,7 +947,8 @@ let events2010 = [
         name: 'Классика Белых Ночей',
         res: 'https://o-site.spb.ru/_races/100912/100912_res.zip',
         owner: 'WN',
-        o_site: '100912'
+        o_site: '100912',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#53'
     },
     {
         id: 'SPB_20100915_1',
@@ -968,6 +988,7 @@ let events2010 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/100919/100919_split-1.htm',
         o_site: '100919',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#55',
         bulletin: 'https://o-site.spb.ru/_races/100919/100919_info1.htm',
         reskeep: 241
     },
@@ -986,6 +1007,7 @@ let events2010 = [
         name: 'Парковый спринт - этап Кубка СПб и ЛО',
         res: 'http://o-time.ru/images/all/s10/footo220910.htm',
         o_site: '100922',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#54',
         bulletin: 'https://o-site.spb.ru/_races/100922/100922_info.htm',
         map: 'piskarevsky_1996'
     },
@@ -1030,6 +1052,7 @@ let events2010 = [
         res: 'http://o-site.spb.ru/_races/100929/100929_res.htm',
         owner: 'GOLFSTREAM',
         o_site: '100314',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#56',
         bulletin: 'https://o-site.spb.ru/_races/100314/10101617_info.pdf'
     },
     {
@@ -1060,6 +1083,7 @@ let events2010 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/101003/101003_res.htm',
         o_site: '101003',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#57',
         reskeep: 229
     },
     {
@@ -1078,7 +1102,8 @@ let events2010 = [
         name: 'XXXIX соревнования по ночному ориентированию памяти А.Окинчица',
         res: 'https://o-site.spb.ru/_races/101009/101009_res.htm',
         start: 'OKINCHITSA',
-        o_site: '101009'
+        o_site: '101009',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#58'
     },
     {
         id: 'SPB_20101009_2',
@@ -1142,6 +1167,11 @@ let events2010 = [
         res: 'http://gs-oc.ru/phocadownload/competitions/gs-cup/101016,17.zip',
         owner: 'GOLFSTREAM',
         o_site: '100314',
+        rg: [
+            'https://o-site.spb.ru/cgi-bin/rg2.php#59',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#60',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#61'
+        ],
         bulletin: 'https://o-site.spb.ru/_races/100314/10101617_info.pdf'
     },
     {
@@ -1151,6 +1181,7 @@ let events2010 = [
         name: 'Кубок Яркого Мира 2010, личный финал',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/101017_split1.htm',
         o_site: '2010CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#62',
         start: 'YM_CUP'
     },
     {

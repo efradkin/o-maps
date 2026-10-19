@@ -712,6 +712,10 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/180520/180520_rez_sprint.htm',
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» КСО Норд-Вест Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга»',
         o_site: '180520',
+        rg: [
+            'https://o-site.spb.ru/cgi-bin/rg2.php#240',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#241'
+        ],
         bulletin: 'https://o-site.spb.ru/_races/180520/180520---info%202.pdf'
     },
     {
@@ -1212,7 +1216,8 @@ let events2018 = [
         name: 'Яркий Кубок 2018/2019, 3 этап. Кросс-классика',
         res: 'http://www.o-site.spb.ru/_races/2018YC/180722_split.htm',
         reskeep: 1,
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#242'
     },
     {
         id: 'SPB_20180722_2',
@@ -1338,6 +1343,7 @@ let events2018 = [
         name: 'Яркий Кубок 2018, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/2018YC/180818_split.htm',
         o_site: '2018YC',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#243',
         start: 'YM_CUP'
     },
     {
@@ -1347,6 +1353,7 @@ let events2018 = [
         name: 'Яркий Кубок 2018/2019, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2018YC/180819_split.htm',
         o_site: '2018YC',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#244',
         start: 'YM_CUP'
     },
     {
@@ -2019,6 +2026,7 @@ let events2018 = [
         name: 'Яркий Кубок - 2018/2019',
         res: 'http://www.o-site.spb.ru/_races/2018YC/181028_split.htm',
         o_site: '2018YC',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#245',
         reskeep: 69,
         map: 'lembolovo_2024',
         start: 'YM_CUP'

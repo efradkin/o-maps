@@ -53,6 +53,7 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/130119/140119_res.pdf',
         video: ['http://vimeo.com/85339934','https://www.youtube.com/watch?v=mVSrvxZaD5I'],
         o_site: '130119',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#176',
         bulletin: 'https://o-site.spb.ru/_races/130119/140119_info3.htm',
         map: 'sestroretsk_dubki_2014'
     },
@@ -150,6 +151,7 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/140216/140216_res.pdf',
         info: 'Район соревнования - территория исторического архитектурно-паркового ансамбля «Елагин остров» Размещение участников средней школе №44 Приморского района по адресу ул.Школьная, 66(600 м. от ст.метро «Старая Деревня»). Прием участников соревнований в школе с 9:30 до 15:00 НАЧАЛО СТАРТА С 11:00',
         o_site: '140216',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#177',
         bulletin: 'https://o-site.spb.ru/_races/140216/140216_info3.htm'
     },
     {
@@ -161,6 +163,7 @@ let events2014 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/140223_SPb/140223_res.htm',
         o_site: '140223_SPb',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#178',
         bulletin: 'https://o-site.spb.ru/_races/140223_SPb/140223_info3.htm'
     },
     {
@@ -233,6 +236,7 @@ let events2014 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/140316/140316_split.htm',
         o_site: '140316',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#179',
         bulletin: 'https://o-site.spb.ru/_races/140316/140316_info3.htm'
     },
     {
@@ -243,7 +247,8 @@ let events2014 = [
         start: 'ORIENTIR',
         res: 'http://o-site.spb.ru/_races/140323_OR/140323_split.htm',
         owner: 'AZIMUT',
-        o_site: '140323_OR'
+        o_site: '140323_OR',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#180'
     },
     {
         id: 'SPB_20140330_1',
@@ -253,7 +258,8 @@ let events2014 = [
         start: 'ORIENTIR',
         res: 'http://o-site.spb.ru/_races/140323_OR/140330_split.htm',
         owner: 'AZIMUT',
-        o_site: '140323_OR'
+        o_site: '140323_OR',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#181'
     },
     {
         id: 'SPB_20140401_3',
@@ -280,7 +286,8 @@ let events2014 = [
         name: 'Sprint Tour SPb 2014, 1 этап',
         start: 'SPRINT_TOUR',
         res: 'http://o-site.spb.ru/_races/140409/140409_res.htm',
-        o_site: '140409'
+        o_site: '140409',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#182'
     },
     {
         id: 'SPB_20140410_1',
@@ -433,7 +440,8 @@ let events2014 = [
             'http://o-site.spb.ru/_races/140409/140507_split.htm',
             'https://reg.o-time.ru/race/140507'
         ],
-        o_site: '140409'
+        o_site: '140409',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#184'
     },
     {
         id: 'SPB_20140509_1',
@@ -453,6 +461,7 @@ let events2014 = [
         name: 'Яркий Кубок 2014, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/2014CupYM/140510_split.htm',
         o_site: '2014CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#185',
         start: 'YM_CUP'
     },
     {
@@ -487,7 +496,8 @@ let events2014 = [
         ],
         start: 'SPRINT_TOUR',
         map: 'politekhnicheskaya_2015',
-        o_site: '140409'
+        o_site: '140409',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#186'
     },
     {
         id: 'SPB_20140515_1',
@@ -508,6 +518,7 @@ let events2014 = [
         res: 'http://spbof.ru/ru/docs/finish/41-leto/253-rezultaty-sprint',
         fmt: 'Городской спринт',
         o_site: '140517',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#187',
         bulletin: 'https://o-site.spb.ru/_races/140517/140517_info3.htm',
         reskeep: 258
     },
@@ -555,7 +566,8 @@ let events2014 = [
         res: 'http://o-site.spb.ru/_races/140323_OR/140520_split.htm',
         owner: 'AZIMUT',
         start: 'ORIENTIR',
-        o_site: '140323_OR'
+        o_site: '140323_OR',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#189'
     },
     {
         id: 'SPB_20140521_1',
@@ -579,6 +591,7 @@ let events2014 = [
             'https://reg.o-time.ru/race/140521'
         ],
         o_site: '140409',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#188',
         start: 'SPRINT_TOUR',
         map: 'murinsky_center_2014'
     },
@@ -647,7 +660,8 @@ let events2014 = [
         res: 'http://o-site.spb.ru/_races/140323_OR/140527_split.htm',
         owner: 'AZIMUT',
         start: 'ORIENTIR',
-        o_site: '140323_OR'
+        o_site: '140323_OR',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#191'
     },
     {
         id: 'SPB_20140528_1',
@@ -656,6 +670,7 @@ let events2014 = [
         name: 'Sprint Tour SPb 2014, 6 этап',
         start: 'SPRINT_TOUR',
         o_site: '140409',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#190',
         res: 'https://reg.o-time.ru/race/140528'
     },
     {
@@ -697,6 +712,7 @@ let events2014 = [
         name: 'Sprint Tour SPb 2014, 7 этап',
         start: 'SPRINT_TOUR',
         o_site: '140409',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#192',
         res: 'https://reg.o-time.ru/race/140604'
     },
     {
@@ -730,6 +746,10 @@ let events2014 = [
         name: 'Памяти Сергея Кузнецова, Чемпионат и Первенство СПб, лонг',
         res: 'http://spbof.ru/ru/docs/finish/41-leto/252-rezultaty-long',
         o_site: '14060708',
+        rg: [
+            'https://o-site.spb.ru/cgi-bin/rg2.php#193',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#194'
+        ],
         bulletin: 'https://o-site.spb.ru/_races/14060708/14060708_info2.pdf',
         map: ['psk_2014_06_07', 'psk_2014_06_08'],
         o_gps: {
@@ -959,6 +979,7 @@ let events2014 = [
         fmt: '6 часов, 3 часа, детский формат',
         start: 'RFAR',
         o_site: '140803',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#195',
         map: 'lahdenpohja_rfar_2014'
     },
     {
@@ -978,6 +999,7 @@ let events2014 = [
         name: 'Яркий Кубок 2014, 7 этап',
         res: 'http://www.o-site.spb.ru/_races/2014CupYM/140816_split.htm',
         o_site: '2014CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#196',
         start: 'YM_CUP'
     },
     {
@@ -987,6 +1009,7 @@ let events2014 = [
         name: 'Яркий Кубок 2014, 8 этап',
         res: 'http://www.o-site.spb.ru/_races/2014CupYM/140817_split.htm',
         o_site: '2014CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#197',
         start: 'YM_CUP'
     },
     {
@@ -1036,6 +1059,7 @@ let events2014 = [
         name: 'Яркий Кубок 2014, 9 этап',
         res: 'http://www.o-site.spb.ru/_races/2014CupYM/140831_split.htm',
         o_site: '2014CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#198',
         start: 'YM_CUP'
     },
     {
@@ -1080,6 +1104,10 @@ let events2014 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/140907/140907_res.xls',
         o_site: '140907',
+        rg: [
+            'https://o-site.spb.ru/cgi-bin/rg2.php#199',
+            'https://o-site.spb.ru/cgi-bin/rg2.php#200'
+        ],
         bulletin: 'https://o-site.spb.ru/_races/140907/140907_info3.htm',
         reskeep: 239
     },
@@ -1359,6 +1387,7 @@ let events2014 = [
         name: 'Sprint Tour SPb 2014, 11 этап',
         start: 'SPRINT_TOUR',
         o_site: '140409',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#201',
         res: 'https://reg.o-time.ru/race/140927'
     },
     {
@@ -1371,6 +1400,7 @@ let events2014 = [
         photo: 'http://fotki.yandex.ru/users/wavygirl/album/453782',
         video: 'https://www.youtube.com/watch?v=mxzdkz77ZB4',
         o_site: '141005',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#202',
         reskeep: 225,
         o_gps: {
             'М': 294,
@@ -1523,6 +1553,7 @@ let events2014 = [
         place: 'Мичуринское',
         res: 'http://www.o-site.spb.ru/_races/2014CupYM/141026_split.htm',
         o_site: '2014CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#203',
         map: 'lembolovo_2002',
         start: 'YM_CUP'
     },
@@ -1619,6 +1650,7 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/141123/141123_res.pdf',
         video: 'https://www.youtube.com/watch?v=Ja4sI7qFx74',
         o_site: '141123',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#204',
         bulletin: 'https://o-site.spb.ru/_races/141123/20141123_info_33.pdf',
         map: 'piskarevsky_2012'
     },
@@ -1682,6 +1714,7 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/141207/141207_split1.htm',
         map: 'apple_garden_2014',
         o_site: '141207',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#205',
         bulletin: 'https://o-site.spb.ru/_races/141207/141207_info3.pdf'
     },
     {
@@ -1705,6 +1738,7 @@ let events2014 = [
         info: 'Тренировочный старт в формате спринт-рогейна',
         fmt: '60, 70 или 80 минут',
         o_site: '141214',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#206',
         bulletin: 'https://o-site.spb.ru/_races/141214/141214_info1.pdf'
     },
     {

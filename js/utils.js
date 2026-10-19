@@ -840,14 +840,23 @@ function fixCoord(coord) {
 const O_GPS_CENTER_PREFIX = 'https://viewer.o-gps-center.ru/viewer/event/';
 const LIVELOX_PREFIX = 'https://www.livelox.com/Events/Show/';
 const LIVELOX_ICON = 'livelox.webp';
+const RG_ICON = 'rg2.webp';
 
 function isLiveloxUrl(url) {
     return /livelox\.com/i.test(String(url));
 }
 
-// Значок ссылки на трансляцию: у Livelox - свой, у остальных - img (по умолчанию url-file.png).
+// Адрес события RouteGadget: RG2 (…/rg2.php#N) или старый RouteGadget 1 (…/reitti.cgi?…).
+function isRouteGadgetUrl(url) {
+    return /\/rg2\.php|\/reitti\.cgi/i.test(String(url));
+}
+
+// Значок ссылки на трансляцию: у Livelox и RouteGadget - свои, у остальных - img (по умолчанию url-file.png).
 function gpsIcon(url, img) {
-    return isLiveloxUrl(url) ? LIVELOX_ICON : (img ?? 'url-file.png');
+    if (isLiveloxUrl(url)) {
+        return LIVELOX_ICON;
+    }
+    return isRouteGadgetUrl(url) ? RG_ICON : (img ?? 'url-file.png');
 }
 
 // Ссылки на трансляции Livelox из поля livelox (номер события или массив номеров):
@@ -861,7 +870,18 @@ function getLiveloxLinks(m) {
     return result;
 }
 
-// Трансляции события: gps, иначе o_gps; к ним добавляются трансляции Livelox.
+// Ссылки на события RouteGadget из поля rg (адрес или массив адресов - по дням многодневки):
+// объект { 'RouteGadget': адрес } или { 'RouteGadget 1': …, 'RouteGadget 2': … }.
+function getRouteGadgetLinks(m) {
+    const urls = [].concat(m.rg ?? []);
+    const result = {};
+    urls.forEach((url, i) => {
+        result['RouteGadget' + (urls.length > 1 ? ' ' + (i + 1) : '')] = url;
+    });
+    return result;
+}
+
+// Трансляции события: gps, иначе o_gps; к ним добавляются трансляции Livelox и события RouteGadget.
 // Строка - если трансляция одна, объект { 'подпись': адрес } - если их несколько.
 function getGPS(m) {
     let gps = m.gps;
@@ -875,13 +895,13 @@ function getGPS(m) {
             gps = O_GPS_CENTER_PREFIX + m.o_gps;
         }
     }
-    if (m.livelox != null) {
-        const livelox = getLiveloxLinks(m);
+    const extra = {...(m.livelox != null ? getLiveloxLinks(m) : {}), ...(m.rg ? getRouteGadgetLinks(m) : {})};
+    if (Object.keys(extra).length) {
         if (!gps) {
-            const values = Object.values(livelox);
-            gps = values.length === 1 ? values[0] : livelox;
+            const values = Object.values(extra);
+            gps = values.length === 1 ? values[0] : extra;
         } else {
-            gps = {...(isObject(gps) ? gps : {[m.gps ? 'GPS' : 'O-GPS']: gps}), ...livelox};
+            gps = {...(isObject(gps) ? gps : {[m.gps ? 'GPS' : 'O-GPS']: gps}), ...extra};
         }
     }
     return gps;
@@ -1853,7 +1873,7 @@ function validateEvent(evt) {
                 }
                 break;
             case GPS_EVENTS_CALENDAR_PARAM_VALUE:
-                if (!evt.gps && !evt.o_gps && evt.livelox == null) {
+                if (!evt.gps && !evt.o_gps && evt.livelox == null && !evt.rg) {
                     return false;
                 }
                 break;

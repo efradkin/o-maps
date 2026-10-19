@@ -184,6 +184,7 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/150223/150223-2_res.pdf',
         o_site: '150223',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#207',
         o_gps: {
             'М': 409,
             'Ж': 410
@@ -524,7 +525,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150504/150504_res_signed.pdf',
         photo: 'https://o-site.spb.ru/_races/150504/150504_res_foto.htm',
         info: 'Соревнования организует ФСО СПб в рамках праздника, приуроченного 70-летию Победы, организуемого "Комитетом по молодёжной политике и взаимодействию с общественными организациями Санкт-Петербурга" В спортивной части программы праздника: - городской спринт (по карте 2015г, автор Виктор Добрецов), - ориентирование в лабиринте, - военно-патриотический квест.',
-        o_site: '150504'
+        o_site: '150504',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#211'
     },
     {
         id: 'SPB_20150506_1',
@@ -567,6 +569,7 @@ let events2015 = [
         name: 'Яркий Кубок 2015, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2015CupYM/150510_split.htm',
         o_site: '2015CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#212',
         start: 'YM_CUP'
     },
     {
@@ -587,6 +590,7 @@ let events2015 = [
         name: 'Яркий Кубок 2015, 2 этап',
         res: 'http://www.o-site.spb.ru/_races/2015CupYM/150511_split.htm',
         o_site: '2015CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#213',
         start: 'YM_CUP'
     },
     {
@@ -653,6 +657,7 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150516/150516_split.htm',
         video: 'https://www.youtube.com/watch?v=_d2QYPpX-W0',
         o_site: '150516',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#214',
         reskeep: 257,
         bulletin: 'https://o-site.spb.ru/_races/150516/150516_info4.html',
         o_gps: {
@@ -908,6 +913,7 @@ let events2015 = [
         name: 'Чемпионат и Первенство СПб, лонг',
         res: 'https://o-site.spb.ru/_races/150607/150607_offical_res.pdf',
         o_site: '150607',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#215',
         o_gps: {
             'М':533,
             'Ж':534
@@ -1176,6 +1182,7 @@ let events2015 = [
         name: 'Яркий Кубок 2015, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/2015CupYM/150815_split.htm',
         o_site: '2015CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#216',
         start: 'YM_CUP'
     },
     {
@@ -1200,6 +1207,7 @@ let events2015 = [
         name: 'Яркий Кубок 2015, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/2015CupYM/150816_split.htm',
         o_site: '2015CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#217',
         start: 'YM_CUP'
     },
     {
@@ -1243,6 +1251,7 @@ let events2015 = [
         name: 'Яркий Кубок 2015, 6 этап',
         res: 'http://www.o-site.spb.ru/_races/2015CupYM/150830_split.htm',
         o_site: '2015CupYM',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#218',
         start: 'YM_CUP'
     },
     {
@@ -1611,6 +1620,7 @@ let events2015 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/151004/151004_res_champ.pdf',
         o_site: '151004',
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#219',
         bulletin: 'https://o-site.spb.ru/_races/151004/151004_info2.pdf',
         reskeep: 224
     },
