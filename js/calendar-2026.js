@@ -3048,7 +3048,7 @@ let events2026 = [
         endReg: '2026-10-16 16:00',
         bulletin: 'https://orgeo.ru/files/event/file/56142_53e5103ea6.pdf',
         start: 'SPRINT_TOUR',
-        info: 'Памяти Ю.М.Артемьева.',
+        info: 'Памяти Ю.М.Артемьева. <a href="https://m.vk.com/@sprinttourspb-3-etap-sprint-tour-spb-osen-2026-17102026-analiz-distancii">Разбор дистанций</a>.',
         reskeep: 941,
         maps: ['./original_maps/city/vasileostrovskaya_st_2026_10_17_m_omaps.gif','./original_maps/city/vasileostrovskaya_st_2026_10_17_w_omaps.gif'],
         map: 'vasileostrovskaya_2024'
@@ -3091,6 +3091,7 @@ let events2026 = [
         place: 'Пухтолова гора',
         o_site: '261017_PZVP',
         reg: 'http://orgeo.ru/event/info/55914',
+        o_gps: 26131,
         endReg: '2026-10-14 23:55',
         bulletin: 'https://o-site.spb.ru/_races/261017_PZVP/261017_PZVP_info.pdf',
         fmt: 'спринт'
@@ -3174,6 +3175,10 @@ let events2026 = [
         date: '2026-10-21',
         name: 'NW Sprint, осень #3',
         place: 'Приморская',
+        o_site: '261021_NWSprint',
+        reg: 'http://orgeo.ru/event/56259',
+        endReg: '2026-10-20 22:00',
+        bulletin: 'https://o-site.spb.ru/_races/261021_NWSprint/261021_info.pdf',
         fmt: 'спринт',
         owner: 'NW',
         info: 'Новая карта.'
@@ -3188,7 +3193,8 @@ let events2026 = [
         endReg: '2026-10-22 12:00',
         bulletin: 'https://orgeo.ru/files/event/file/56250_8bb573d451.docx',
         fmt: 'ночное',
-        owner: 'NW'
+        owner: 'NW',
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20261024_1',
@@ -3199,7 +3205,9 @@ let events2026 = [
         o_site: '261025_50Verst',
         bulletin: 'https://o-site.spb.ru/_races/261025_50Verst/261025_info_50_vyorst_2026.pdf',
         reg: 'http://sportident.online/entry/?id=7197',
-        endReg: '2026-10-18',
+        endReg: '2026-10-20 23:59',
+        coord: [60.196722, 29.158649],
+        map: 'yappilya_2024',
         owner: 'NW'
     },
     {
@@ -3220,6 +3228,7 @@ let events2026 = [
         place: 'Сосновый бор, Приморский парк',
         link: 'https://vk.ru/wall-201330282_2651',
         reg: 'juventa-uvr@sbor.net',
+        endReg: '2026-10-21 18:00',
         type: 'ROGAINE',
         fmt: '1.5'
     },
@@ -3232,7 +3241,7 @@ let events2026 = [
         o_site: '261025_50Verst',
         bulletin: 'https://o-site.spb.ru/_races/261025_50Verst/261025_info_50_vyorst_2026.pdf',
         reg: 'https://sportident.online/entry/?id=7198',
-        endReg: '2026-10-18',
+        endReg: '2026-10-20 23:59',
         info: '+ тренировочные дистанции.',
         owner: 'NW'
     },

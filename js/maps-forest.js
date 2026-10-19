@@ -552,7 +552,6 @@ let forestMaps = [
         year: 2024,
         url: './maps/forest/yappilya_2024.webp',
         bounds: [[60.2352096, 29.1106796], [60.2278799, 29.1831207], [60.1873665, 29.0916252]],
-        restricted: 'с 19.03.2026 по 28.09.2026, ЧиП СПб',
         author: ['TKMKV_K','TKMKVA_P','KVZN','NSNV','NKFRV_A'],
         owner: ['GLTV_YU', 'GOLFSTREAM']
     },

@@ -10752,7 +10752,7 @@ let fsorEvents = [
     {
         id: 'MAJOR_20261015_1',
         date: '2026-10-15',
-        endDate: '2026-10-19',
+        endDate: '2026-10-18',
         place: 'Калининград',
         name: 'Кубок России, спринт',
         major: true,
