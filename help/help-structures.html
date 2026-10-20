@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>O-Maps. Структуры</title>
-    <meta name="description" content="Техническое писание внутренних структур данных O-Maps.">
+    <meta name="description" content="Техническое описание внутренних структур данных O-Maps.">
     <link rel="icon" type="image/png" href="../favicon.png"/>
     <link href='../css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/main.css?v=29"/>
-    <link rel="stylesheet" href="../css/theme.css?v=27"/>
-    <script src="../js/theme-toggle.js?v=46"></script>
+    <link rel="stylesheet" href="../css/main.css?v=28"/>
+    <link rel="stylesheet" href="../css/theme.css?v=26"/>
+    <script src="../js/theme-toggle.js?v=45"></script>
 
     <meta property="og:title" content="O-Maps. Структуры">
     <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
     <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="Техническое писание внутренних структур данных O-Maps.">
+    <meta property="og:description" content="Техническое описание внутренних структур данных O-Maps.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
 
     <!-- Yandex.Metrika counter -->
@@ -43,7 +43,7 @@
         <nav class="page-header-actions" aria-label="Навигация по странице">
             <a href="../index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="../images/home.png" alt="Главная страница" /></a>
 
-            <script src="../js/global-menu.js?v=48"></script>
+            <script src="../js/global-menu.js?v=47"></script>
             <script>
                 writeGlobalMenuHtml('../');
             </script>
@@ -74,35 +74,59 @@
                 <pre>
                     <code class="language-javascript">
 {
-    name: 'some text', // название, желательно без двойных кавычек
+    name: 'some text', // название
     year: 2025, // год издания (корректировки)
-    date: '2025-12-26', // дата связанного с картой старта
+    correct: 2026, // год последней корректировки, если year - год издания (выводится как «2008, корр. 2021»)
+    date: '2025-12-26', // дата связанного с картой старта - строка или массив строк (используется первая)
+    month: 3, // месяц (1-12), если нет точной даты date
+    startYear: 2013, // год старта на карте, если его нельзя определить по связанным событиям календаря и по date
     logo: 'logo.gif', // логотип
     about: 'http://some.link', // внешняя ссылка на описание карты/события
     info: 'some text', // любое текстовое описание
     url: './maps/some.webp', // уменьшенная картинка карты (превьюшка)
     link: 'some link', // ссылка на полноразмерное изображение карты в произвольном формате - строка или массив строк
+    local_link: './external/original_maps/some_omaps.jpg', // локальная копия внешнего полноразмерного изображения из link
+    photo: './tracks/folder/pic_1.jpg', // фото района; показывается вместо логотипа, если логотипа нет
+    poster: './original_maps/starts/some_omaps.jpg', // плакат старта
+    docs: ['folder', 5, 'gif'], // документы старта на сайте (см. ниже)
     bounds: [[x1, y1], [x2, y2], [x3, y3]], // координаты трёх углов карты (привязка)
     area: 123, // площадь карты (в км2)
+    zindex: 2, // порядок наложения карты на подложке: больше - выше, -1 - под остальными
+    region: 'KARELIA', // код региона (как в regions в utils.js), если регион не определяется по файлу с картами
+    page: 'spb', // раздел сайта (spb, pskov, starts...), на который ведут ссылки на карту
     gps: 'some link', // GPS-трансляция - строка или объект вида 'имя':'ссылка'
-    o_gps: 123, // числовой суффикс адреса GPS-трансляции на O-GPS-Center
+    o_gps: 123, // числовой суффикс адреса GPS-трансляции на O-GPS-Center - число или объект вида 'имя':число
     start: ['START1','START2'], // код связанного с картой старта - строка или массив строк
     o_site: 'some link', // идентификатор странички старта на сайте o-site.spb.ru
-    results: 'some link', // ссылка на страничку с результатами старта
+    results: 'some link', // ссылка на страничку с результатами старта - строка или массив строк
+    reskeep: 123, // идентификатор страницы результатов в RESKEEP
+    publish: 'some link', // ссылка на страницу, где опубликованы карты дистанций
+    video: 'some link', // ссылка на видео, м.б. несколько в массиве
     author: ['AUTHOR1','AUTHOR2'], // код автора карты - строка или массив строк
     areas: [20, 80], // проценты площади карты, отрисованные авторами
+    editor: ['AUTHOR1','AUTHOR2'], // код редактора карты (как у author) - строка или массив строк
     owner: ['OWNER1','OWNER2'], // код владельца карты - строка или массив строк
     planner: ['PLANNER1','PLANNER2'], // код планировщика дистанции - строка или массив строк
-    type: ['WINTER','RELIEF','SPECIAL','FOTO','CITY','SPRINT','PARK','VELO','FUN','ROGAINE'] // тип карты - массив строк,
+    type: ['FOREST','WINTER','RELIEF','SPECIAL','FOTO','CITY','SPRINT','PARK','INDOOR','VELO','WATER','FUN','ROGAINE'], // тип карты
     hidden: true, // такая карта не отображается
     major: true, // карта важного старта, выделяется в списке
     excluded: true, // такая карта не включается в статистику
+    restricted: 'на неопределённый срок', // район закрыт для посещения; текст выводится после слов «Район закрыт»
+    qtty: 3, // число бумажных копий карты в наличии
+    in_work: true, // карта ещё в работе, не готова
+    order: { owner: 'OWNER', author: 'AUTHOR', ready: 'Октябрь 2026', info: 'some text', area: 1 }, // запрос на составление или корректировку карты (см. ниже)
 },
                     </code>
                 </pre>
                 <p>Для <a href="https://o-maps.spb.ru/js/maps-unknown.js">списка карт, по которым недостаточно информации</a>,
                     все поля данных, кроме <b>link</b>, необязательные. Для всех остальных обязательны только <b>url</b> и <b>name</b>.
                     Пример такого набора данных - <a href="https://o-maps.spb.ru/js/maps-city.js">городские карты Санкт-Петербурга</a>.
+                <p>Карта без поля <b>type</b> считается лесной (FOREST).
+                <p>Значение поля <b>docs</b> - массив из двух или трёх элементов: папка в <b>docs/</b>, число файлов и их расширение
+                    (необязательно, по умолчанию jpg). Например, <code>['2x2/2005', 14]</code> - это файлы <code>docs/2x2/2005/doc_1_omaps.jpg</code> … <code>doc_14_omaps.jpg</code>.
+                <p>В объекте <b>order</b> все поля необязательные: <b>owner</b> - код заказчика (владельца), <b>author</b> - код исполнителя (автора),
+                    <b>ready</b> - ориентировочный срок готовности, <b>info</b> - описание работ (можно с HTML-разметкой), <b>area</b> - площадь (в км2).
+                    Карты с полем <b>order</b> показываются с параметром <b>?orders</b>.
             </section>
 
 
@@ -121,8 +145,11 @@
     start: ['START1','START2'], // код связанного с маршрутом старта - строка или массив строк
     type: ['WALK','RUN','VELO','SKI','WATER'], // тип маршрута - массив строк
     ski_kind: 'SKATE_ROUTE', // код типа лыжни
+    owner: 'OWNER', // код владельца (организатора) маршрута
     logo: 'logo.gif', // логотип
+    pic: './tracks/folder/pic.jpg', // картинка маршрута, если нет логотипа
     pics: ['folder',3], // папка с картинками
+    video: 'some link', // ссылка на видео - строка или объект вида 'имя':'ссылка'
     markir: true, // признак того, что маршрут промаркирован на местности
 },
                     </code>
@@ -138,39 +165,50 @@
                 <pre>
                     <code class="language-javascript">
 {
-    id: 'SPB_20260208_2', // идетификатор события в формате ПРЕФИКС_ДАТА_НОМЕР
+    id: 'SPB_20260208_2', // идентификатор события в формате ПРЕФИКС_ДАТА_НОМЕР
+    parent: 'SPB_20260207_1', // идентификатор «родительского» события многодневки
     date: '2025-12-26', // дата события
     endDate: '2025-12-27', // конечная дата для многодневных стартов
     place: 'some text', // место старта
     name: 'some text', // название
     logo: 'logo.gif', // логотип
-    type: ['ORIENT','ROGAINE','SKI','VELO','TOURISM','WATER','FUN','MULTI','SK_RACE','RUN'], // вид старта, возможны комбинации
+    type: ['ORIENT','ROGAINE','SKI','VELO','TOURISM','WATER','FUN','MULTI','SK_RACE','RUN','INDOOR','SPECIAL'], // вид старта
     fmt:  'any text', // формат старта (продолжительность рогейна, спринт, эстафета и пр)
-    link: 'some link', // ссылка на страничку старта
+    price: 1, // условия участия: 0 - бесплатно, 1 - платно, -1 - закрытое мероприятие
+    cancelled: true, // старт отменён
+    major: true, // важный старт (попадает в выборку важных стартов)
+    link: 'some link', // ссылка на страничку старта - строка или массив строк
     o_site: 'some link', // идентификатор странички старта на сайте o-site.spb.ru
-    reg: 'some link', // ссылка на страничку регистрации
+    bulletin: 'some link', // ссылка на информационный бюллетень - строка или массив строк
+    reg: 'some link', // ссылка на страничку регистрации - строка или массив строк
+    endReg: '2025-12-20 23:59', // окончание приёма заявок по московскому времени: YYYY-MM-DD HH:mm или YYYY-MM-DD
     info: 'some text', // комментарий или пояснение
-    res: 'some link', // ссылка на результаты
-    reskeep: 123, // идентификатор страницы результатов в RESKEEP
-    photo: 'some link', // ссылка на страничку с фотками - строка или массив строксфду
+    res: 'some link', // ссылка на результаты - строка или массив строк
+    reskeep: 123, // идентификатор страницы результатов в RESKEEP - число или массив чисел
+    docs: ['1988/folder', 8], // документы старта на сайте - как поле docs у карт
+    photo: 'some link', // ссылка на страничку с фотками - строка или массив строк
     video: 'some link', // ссылка на видео отчёт или трансляция - строка или массив строк
+    publish: 'some link', // ссылка на страничку, где опубликованы карты дистанций (не на файл отдельной карты - такие ссылки идут в maps) - строка или массив строк
     gps: 'some link', // ссылка на GPS-трансляцию - строка или объект вида 'имя':'ссылка'
-    o_gps: 123, // числовой суффикс адреса GPS-трансляции на O-GPS-Center
+    o_gps: 123, // числовой суффикс адреса GPS-трансляции на O-GPS-Center - число или объект вида 'имя':число (по дням или группам)
     livelox: 123, // номер события Livelox (из адреса livelox.com/Events/Show/123) - число или массив чисел
-    rg: 'some link', // ссылка на событие RouteGadget (пути участников), например https://o-site.spb.ru/cgi-bin/rg2.php#232 - строка или массив строк (по дням многодневки); показывается вместе с GPS-трансляциями
-    map: 'map_name', // идентификатор карты в O-Maps
+    rg: 'some link', // ссылка на GPS-трансляцию в RouteGadget
+    map: 'map_name', // идентификатор карты в O-Maps - строка или массив строк
+    maps: ['https://some.link/map.jpg'], // ссылки на внешние изображения или PDF карт дистанций - строка или массив строк
     o_stuff: 123, // номер карты в архиве maps.o-stuff.net (из адреса show_map.php?map=123) - число или массив чисел
     coord: [123, 456], // координаты старта
+    track: 'track_name', // маршрут на O-Maps (значение параметра track в ссылке tracks.html?track=...)
     owner: 'OWNER', // код владельца - строка или массив строк
     planner: 'PLANNER', // код планировщика дистанции - строка или массив строк
     start: 'START', // код старта-многодневки - строка или массив строк
+    region: 'SPB', // код региона (как в regions в utils.js)
     russialoppet: true, // признак лыжного старта серии Russialoppet
 }
                     </code>
                 </pre>
                 <p>Поле <b>map</b> для карты соответствует значению параметра <b>map</b> в ссылке на неё, которую можно получить,
                     кликнув по кнопке "Копировать ссылку" во всплывающем окошке информации о карте. Или, иначе, оно соответствует значению поля <b>url</b> в JSON-описании карты.
-                <p>Поля <b>owner</b>, <b>start</b> и <b>russialoppet</b> используются для выбора соответствующего логотипа.
+                <p>Логотип события выбирается по полям <b>logo</b>, <b>owner</b>, <b>start</b> (и региону старта) и <b>region</b>; при <b>russialoppet</b> перед ним показывается значок серии Russialoppet.
                 <p>Пример такого набора данных - <a href="https://o-maps.spb.ru/js/calendar-2026.js">питерский календарь 2026</a>.
             </section>
 
@@ -195,11 +233,11 @@
     <script src="../js/ext/bootstrap.min.js"></script>
     <script src="../js/ext/bootstrap5-dropdown-ml-hack.js"></script>
 
-    <script src="../js/utils-common.js?v=46"></script>
-    <script src="../js/welcome.js?v=46"></script>
+    <script src="../js/utils-common.js?v=45"></script>
+    <script src="../js/welcome.js?v=45"></script>
     <script>
         writeWelcomeButton('../');
     </script>
-    <script src="../js/seo-meta.js?v=25"></script>
+    <script src="../js/seo-meta.js?v=24"></script>
 </body>
 </html>
