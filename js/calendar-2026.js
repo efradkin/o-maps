@@ -3105,6 +3105,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/53888',
         endReg: '2026-10-15 22:00',
         bulletin: 'https://orgeo.ru/files/event/file/53888_a99fedfe25.docx',
+        photo: ['https://disk.yandex.ru/d/ZQs0NYD5aAYOpQ','https://drive.google.com/drive/folders/1fjhK4UF5IaNEuqTVFjhGPXgvvYlw4B0f'],
         coord: [61.014852, 30.228219],
         type: 'TOURISM',
         start: 'MB'
@@ -3128,6 +3129,8 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1761',
         link: 'https://vk.ru/wall-201330282_2651',
         endReg: '2026-10-14 20:00',
+        photo: 'https://vk.ru/album-201330282_312045557',
+        res: 'https://vk.ru/s/v1/doc/XVUwm3dhHRz1cOwf7i0fOKkaiVj3oNYf6QZeqDuRglm32R_kVfQ',
         fmt: 'выбор',
         o_site: '261018_LO',
         reskeep: 942,
@@ -3184,6 +3187,16 @@ let events2026 = [
         info: 'Новая карта.'
     },
     {
+        id: 'SPB_20261021_2',
+        date: '2026-10-21',
+        name: 'Физкультурное мероприятие по ориентированию',
+        place: 'парк Интернационалистов',
+        reg: 'https://vk.ru/im/?chat=fvxpxRpaksnqqSqOeYNaQj5jtdF9axS5HWw%3D',
+        link: 'https://vk.ru/wall-30686281_25491',
+        map: 'internatsionalistov_2021',
+        owner: 'FRUNZ_SPORT'
+    },
+    {
         id: 'SPB_20261022_1',
         date: '2026-10-22',
         name: 'Ночная тренировка',
@@ -3226,7 +3239,7 @@ let events2026 = [
         date: '2026-10-24',
         name: 'Вечерний рогейн',
         place: 'Сосновый бор, Приморский парк',
-        link: 'https://vk.ru/wall-201330282_2651',
+        link: 'https://vk.ru/wall-201330282_2663',
         reg: 'juventa-uvr@sbor.net',
         endReg: '2026-10-21 18:00',
         type: 'ROGAINE',
@@ -3242,6 +3255,17 @@ let events2026 = [
         bulletin: 'https://o-site.spb.ru/_races/261024/261024_info.pdf',
         endReg: '2026-10-23 12:00',
         map: 'garbolovo_zmeinoe_2026'
+    },
+    {
+        id: 'SPB_20261024_5',
+        date: '2026-10-24',
+        name: 'ЧиП Сертолово',
+        place: 'Сертолово',
+        reg: 'https://orgeo.ru/event/56270',
+        bulletin: 'https://o-site.spb.ru/_races/261024/261024_info.pdf',
+        endReg: '2026-10-21 23:55',
+        map: 'garbolovo_zmeinoe_2026',
+        map: 'sertolovo_2016'
     },
     {
         id: 'SPB_20261025_1',
@@ -3316,6 +3340,9 @@ let events2026 = [
         name: 'Кубок D2RUN, финал',
         place: 'Лосево',
         reg: 'https://orgeo.ru/event/56164',
+        endReg: '2026-10-30 23:55',
+        o_site: '261101_D2RUN_final',
+        bulletin: 'https://o-site.spb.ru/_races/261101_D2RUN_final/261101_Kubok_D2Run_2026_4_info1_1.pdf',
         fmt: 'лонг (гандикап)',
         owner: 'DLITELNY',
         map: 'losevo_2022'
