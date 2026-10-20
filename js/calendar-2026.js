@@ -3263,7 +3263,7 @@ let events2026 = [
         name: 'ЧиП Сертолово',
         place: 'Сертолово',
         reg: 'https://orgeo.ru/event/56270',
-        bulletin: 'https://o-site.spb.ru/_races/261024/261024_info.pdf',
+        bulletin: 'https://orgeo.ru/files/event/file/56270_0cfed06ec9.pdf',
         endReg: '2026-10-21 23:55',
         map: 'garbolovo_zmeinoe_2026',
         map: 'sertolovo_2016'
