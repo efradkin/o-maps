@@ -398,11 +398,11 @@ let events2010 = [
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/10050103/100501_res.htm',
         o_site: '10050103',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#40',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#43',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#42'
-        ],
+        rg: {
+            '1': 'https://o-site.spb.ru/cgi-bin/rg2.php#40',
+            '2': 'https://o-site.spb.ru/cgi-bin/rg2.php#43',
+            '3': 'https://o-site.spb.ru/cgi-bin/rg2.php#42'
+        },
         bulletin: 'https://o-site.spb.ru/_races/10050103/10050103_info1.html'
     },
     {
@@ -651,9 +651,11 @@ let events2010 = [
             // 'http://picasaweb.google.ru/rusrogaining/06062010#' // недоступна
         ],
         video: 'http://www.youtube.com/watch?v=4mCK0_AL86c',
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=41&kieli=' // RouteGadget 24ч, сейчас не работает
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=40&kieli=' // RouteGadget 8ч, сейчас не работает
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=39&kieli=' // RouteGadget 4ч, сейчас не работает
+        rg: {
+            '4': 'https://rogaine.ru/routegadget/rg2/#39',
+            '8': 'https://rogaine.ru/routegadget/rg2/#40',
+            '24': 'https://rogaine.ru/routegadget/rg2/#41'
+        },
         info: 'Победители: MO (абс.): Евгений Домбровский, Олег Калинин («ОМЕГА-НН») — 364; XO: Андрей Шведов, Наталья Абрамова — 344; WO: Анастасия Галитарова, Ирина Сафронова — 333. Команд — 106, участников — 225.',
         coord: [57.787117, 27.773767],
         fmt: '24, 8, 4',
@@ -763,10 +765,10 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/10070305/100703_res.pdf',
         info: '3 июля - Спринт (Приозерск) 4 июля - Классика (Кузнечное) 5 июля - Кросс (Кузнечное)',
         o_site: '10070305',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#49',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#50'
-        ],
+        rg: {
+            'классика': 'https://o-site.spb.ru/cgi-bin/rg2.php#49',
+            'кросс': 'https://o-site.spb.ru/cgi-bin/rg2.php#50'
+        },
         bulletin: 'http://o-sport.ru/temp/2010/20100610_100702_Bulletin.pdf'
     },
     {
@@ -1167,11 +1169,11 @@ let events2010 = [
         res: 'http://gs-oc.ru/phocadownload/competitions/gs-cup/101016,17.zip',
         owner: 'GOLFSTREAM',
         o_site: '100314',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#59',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#60',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#61'
-        ],
+        rg: {
+            'вело-спринт': 'https://o-site.spb.ru/cgi-bin/rg2.php#59',
+            'ночной этап': 'https://o-site.spb.ru/cgi-bin/rg2.php#60',
+            'вело-классика': 'https://o-site.spb.ru/cgi-bin/rg2.php#61'
+        },
         bulletin: 'https://o-site.spb.ru/_races/100314/10101617_info.pdf'
     },
     {
@@ -1269,6 +1271,7 @@ let events2010 = [
         info: '2 этап Большого Кубка и 3 этап Вело-Кубка. Открытый Чемпионат Санкт-Петерурга по классическому рогейну (24 часа).',
         fmt: 'Форматы 24, 8 и 3 часа; 8-ВЕЛО',
         o_site: '10110506',
+        rg: 'https://rogaine.ru/routegadget/rg2/#46',
         map: 'nazia_rogaine_2010'
     },
     {

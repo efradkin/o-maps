@@ -85,10 +85,10 @@ let events2019 = [
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_middle/',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_middle/',
         o_site: '190120',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#247',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#248'
-        ],
+        rg: {
+            '1': 'https://o-site.spb.ru/cgi-bin/rg2.php#247',
+            '2': 'https://o-site.spb.ru/cgi-bin/rg2.php#248'
+        },
         bulletin: 'https://o-site.spb.ru/_races/190120/19011920_info_3.pdf',
         reskeep: 103,
         o_gps: 4907

@@ -1175,10 +1175,10 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/13082425/13082425_res.htm',
         o_site: '13082425',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#156',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#157'
-        ],
+        rg: {
+            '24': 'https://o-site.spb.ru/cgi-bin/rg2.php#156',
+            '25': 'https://o-site.spb.ru/cgi-bin/rg2.php#157'
+        },
         map: 'psk_2013_08_24',
         bulletin: 'https://o-site.spb.ru/_races/13082425/13082425_info2.pdf',
         o_gps: {
@@ -1548,7 +1548,7 @@ let events2013 = [
         ],
         // video: 'http://youtu.be/HHpkODOk8wE' // недоступна
         // video: 'http://youtu.be/lVdGtm1I1s8' // недоступна
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=72&kieli=' // RouteGadget, сейчас не работает
+        rg: 'https://rogaine.ru/routegadget/rg2/#72',
         info: 'Победители: MO (абс.): Олег Калинин, Андрей Шведов — 340; WO: Наталья Абрамова, Анна Шавлакова; XO: Николай Мирошкин, Сергей Мирошкин, Анна Коробко. Команд — 78, участников — 165.',
         coord: [52.528737, 48.069225],
         fmt: '24',

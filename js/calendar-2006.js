@@ -464,7 +464,7 @@ let events2006 = [
         res: 'https://rogaining.ru/results/rrc-results/3rrc_results.xls',
         maps: ['https://rogaining.ru/results/rrc-results/3rrc_map.jpg'],
         map: 'samarska_luka_2006_rogaine',
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=2&kieli=' // RouteGadget, сейчас не работает
+        rg: 'https://rogaine.ru/routegadget/rg2/#2',
         info: 'Победители: Сергей Ященко, Олег Калинин. Команд — 33, участников — 66.',
         coord: [53.406449, 49.311312],
         fmt: '24, 12, 6, 3',
@@ -511,6 +511,37 @@ let events2006 = [
         info: 'Соревнования по ориентированию на велосипедах посвященные памяти Бориса Панкратьева. Возрастные группы: МЭ, ЖЭ, МЖ-14, МЖ-новички .',
         o_site: '06071516',
         map: 'kanneljarvi_velo_2006'
+    },
+    {
+        id: 'SPB_20060722_1',
+        date: '2006-07-22',
+        endDate: '2006-07-23',
+        place: 'Петяярви',
+        name: '2 этап Кубка СПб по рогейну «Петяярви-2006»',
+        type: 'ROGAINE',
+        fmt: '3, 8, 24 часа и 8 часов вело',
+        link: 'https://rogaine-spb.narod.ru/race0706/info.html',
+        bulletin: 'https://rogaine-spb.narod.ru/race0706/race.html',
+        res: [
+            'https://rogaine-spb.narod.ru/race0706/results.html',
+            'https://rogaine-spb.narod.ru/race0706/results/RGN23.HTM',
+            'https://rogaine-spb.narod.ru/race0706/results/RGN28.HTM',
+            'https://rogaine-spb.narod.ru/race0706/results/RGN28V.HTM',
+            'https://rogaine-spb.narod.ru/race0706/results/RGN224.HTM'
+        ],
+        split: [
+            'https://rogaine-spb.narod.ru/race0706/results/RGN23S.HTM',
+            'https://rogaine-spb.narod.ru/race0706/results/RGN28S.HTM',
+            'https://rogaine-spb.narod.ru/race0706/results/RGN28VS.HTM',
+            'https://rogaine-spb.narod.ru/race0706/results/RGN224S.HTM',
+            'https://rogaine-spb.narod.ru/race0706/results/RGN23I.HTM',
+            'https://rogaine-spb.narod.ru/race0706/results/RGN28I.HTM',
+            'https://rogaine-spb.narod.ru/race0706/results/RGN28VI.HTM',
+            'https://rogaine-spb.narod.ru/race0706/results/RGN224I.HTM'
+        ],
+        maps: 'https://rogaine-spb.narod.ru/race0706/map.gif',
+        photo: 'https://rogaine-spb.narod.ru/race0706/photoalex.html',
+        rg: 'https://rogaine.ru/routegadget/rg2/#0'
     },
     {
         id: 'SPB_20060729_1',
@@ -793,7 +824,14 @@ let events2006 = [
         type: 'ROGAINE',
         res: 'http://rogaine-spb.narod.ru/race1106/results.html',
         info: 'Финал Кубка СПб по рогейну ( г. Зеленогорск, пос. Ильичево, ДОЛ Огонек ) Это генеральная репетиция перед Чемпионатом России, который состоится в Санкт-Петербурге летом 2007 года. Уже подали заявки сильнейшие команды России и Европы.',
-        o_site: '061104_zel'
+        o_site: '061104_zel',
+        rg: {
+            '3': 'https://rogaine.ru/routegadget/rg2/#8',
+            '8': 'https://rogaine.ru/routegadget/rg2/#7',
+            '24': 'https://rogaine.ru/routegadget/rg2/#9',
+            '8 вело': 'https://rogaine.ru/routegadget/rg2/#6',
+            'пути': 'https://rogaine.ru/routegadget/rg2/#10'
+        }
     },
     {
         id: 'SPB_20061105_1',

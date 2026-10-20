@@ -746,10 +746,10 @@ let events2014 = [
         name: 'Памяти Сергея Кузнецова, Чемпионат и Первенство СПб, лонг',
         res: 'http://spbof.ru/ru/docs/finish/41-leto/252-rezultaty-long',
         o_site: '14060708',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#193',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#194'
-        ],
+        rg: {
+            '7': 'https://o-site.spb.ru/cgi-bin/rg2.php#193',
+            '8': 'https://o-site.spb.ru/cgi-bin/rg2.php#194'
+        },
         bulletin: 'https://o-site.spb.ru/_races/14060708/14060708_info2.pdf',
         map: ['psk_2014_06_07', 'psk_2014_06_08'],
         o_gps: {
@@ -1104,10 +1104,10 @@ let events2014 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/140907/140907_res.xls',
         o_site: '140907',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#199',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#200'
-        ],
+        rg: {
+            'марафон': 'https://o-site.spb.ru/cgi-bin/rg2.php#199',
+            'дети': 'https://o-site.spb.ru/cgi-bin/rg2.php#200'
+        },
         bulletin: 'https://o-site.spb.ru/_races/140907/140907_info3.htm',
         reskeep: 239
     },

@@ -223,7 +223,7 @@ let events2011 = [
             // 'https://picasaweb.google.com/kasatkanet/201' // недоступна
             // 'https://plus.google.com/photos/118046955259249067421/albums/5607574290620514513' // недоступна
         ],
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=48&kieli=' // RouteGadget, сейчас не работает
+        rg: 'https://rogaine.ru/routegadget/rg2/#48',
         info: 'Победители: Олег Калинин, Андрей Шведов (ОМЕГА-Ski-O, Москва) – 181 очко; СО: Марина Галкина, Александр Халяпин (Альфа-Битца); ЖО: Людмила Плис, Ольга Творогова. Команд — 34, участников — 72.',
         coord: [56.8806, 40.9777],
         fmt: '24, 6',
@@ -295,6 +295,7 @@ let events2011 = [
         name: 'Кубок СПб по рогейну, 1 этап',
         type: 'ROGAINE',
         o_site: '110402',
+        rg: 'https://rogaine.ru/routegadget/rg2/#49',
         bulletin: 'https://o-site.spb.ru/_races/110402/110402_info.htm'
     },
     {
@@ -384,11 +385,11 @@ let events2011 = [
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/11043002/11043002_res.zip',
         o_site: '11043002',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#75',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#76',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#77'
-        ]
+        rg: {
+            'спринт': 'https://o-site.spb.ru/cgi-bin/rg2.php#75',
+            'кросс': 'https://o-site.spb.ru/cgi-bin/rg2.php#76',
+            'классика': 'https://o-site.spb.ru/cgi-bin/rg2.php#77'
+        }
     },
     {
         id: 'SPB_20110504_1',
@@ -783,6 +784,7 @@ let events2011 = [
         res: 'http://www.100x24.ru/results.htm',
         bulletin: 'http://www.100x24.ru/2011/docs/20110703_bull.htm',
         o_site: '110703',
+        rg: 'https://rogaine.ru/routegadget/rg2/#52',
         start: '100x24',
         map: 'toksovo_2011_velo',
         maps: [
@@ -799,7 +801,11 @@ let events2011 = [
         type: 'ROGAINE',
         fmt: '6 часов (+ 3 часа)',
         link: 'http://rogaining.spb.ru',
-        o_site: '110709'
+        o_site: '110709',
+        rg: {
+            '9': 'https://rogaine.ru/routegadget/rg2/#53',
+            '10': 'https://rogaine.ru/routegadget/rg2/#54'
+        }
     },
     {
         id: 'SPB_20110716_1',
@@ -1000,8 +1006,10 @@ let events2011 = [
         ],
         map: 'kyshtym_rrc_2011',
         photo: 'http://fotki.yandex.ru/users/rogainer/album/172250/',
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=56&kieli=' // RouteGadget 24ч, сейчас не работает
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=55&kieli=' // RouteGadget 4/8ч, сейчас не работает
+        rg: {
+            '24': 'https://rogaine.ru/routegadget/rg2/#56',
+            '4 и 8': 'https://rogaine.ru/routegadget/rg2/#55'
+        },
         info: 'Победители: XO (абс.): Андрей Шведов, Наталья Абрамова («Garmin-Orienta») — 354; MO: Олег Калинин, Илья Ульянов («Омега») — 349; WO: Марина Галкина, Нина Михеева — 249. Команд — 64, участников — 134.',
         coord: [55.6716, 60.3698],
         fmt: '24, 8, 4',
@@ -1319,7 +1327,8 @@ let events2011 = [
         endDate: '2011-11-05',
         name: 'Кубок СПб по рогейну, 5 этап',
         type: 'ROGAINE',
-        o_site: '11110405'
+        o_site: '11110405',
+        rg: 'https://rogaine.ru/routegadget/rg2/#58'
     },
     {
         id: 'SPB_20111105_1',

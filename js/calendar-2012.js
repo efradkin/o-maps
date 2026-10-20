@@ -200,6 +200,10 @@ let events2012 = [
         fmt: '24 и 6 часов',
         start: 'RRC',
         o_site: '12030910',
+        rg: {
+            '6': 'https://rogaine.ru/routegadget/rg2/#61',
+            '24': 'https://rogaine.ru/routegadget/rg2/#60'
+        },
         bulletin: [
             // 'https://100x24.ru/2012/docs/20120309_bull.htm'
             // 'https://100x24.ru/2012/docs/20120309_bull_add2.htm'
@@ -220,8 +224,6 @@ let events2012 = [
         ],
         maps: ['https://100x24.ru/2012/maps/100x24_2012.gif'],
         // photo: 'https://picasaweb.google.com/apatenkov/100x242012' // недоступна
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=60&kieli=' // RouteGadget 24ч, сейчас не работает
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=61&kieli=' // RouteGadget 6ч, сейчас не работает
         coord: [60.383, 30.218]
     },
     {
@@ -290,6 +292,7 @@ let events2012 = [
         name: '1 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
         o_site: '120401',
+        rg: 'https://rogaine.ru/routegadget/rg2/#62',
         bulletin: 'http://rogaining.spb.ru/index.php?option=com_content&view=article&id=232&Itemid=354'
     },
     {
@@ -366,10 +369,10 @@ let events2012 = [
         start: 'SOSNOVOBORSKY_DUNY',
         res: 'https://o-site.spb.ru/_races/12042122/120421_res.htm',
         o_site: '12042122',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#99',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#100'
-        ],
+        rg: {
+            '21': 'https://o-site.spb.ru/cgi-bin/rg2.php#99',
+            '22': 'https://o-site.spb.ru/cgi-bin/rg2.php#100'
+        },
         bulletin: 'https://o-site.spb.ru/_races/12042122/12042122_info2.htm'
     },
     {
@@ -411,12 +414,12 @@ let events2012 = [
         video: 'https://www.youtube.com/watch?v=OCvA6n1Spoc',
         info: 'КАРТЫ ДЛЯ СОРЕВНОВАНИЙ ПОДГОТОВЛЕНЫ В 2011 г. Членам многодетных семей и малообеспеченным гражданам при предъявлении соответствующих документов предоставляется скидка на стартовый взнос в размере 50%.',
         o_site: '12042901',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#101',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#102',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#103',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#104'
-        ],
+        rg: {
+            '29': 'https://o-site.spb.ru/cgi-bin/rg2.php#101',
+            '30 полуфинал': 'https://o-site.spb.ru/cgi-bin/rg2.php#102',
+            '30 финал': 'https://o-site.spb.ru/cgi-bin/rg2.php#103',
+            '01': 'https://o-site.spb.ru/cgi-bin/rg2.php#104'
+        },
         bulletin: 'https://o-site.spb.ru/_races/12042901/12042901_info.pdf'
     },
     {
@@ -725,14 +728,14 @@ let events2012 = [
         owner: 'WN',
         start: ['WN','YM'],
         o_site: '12061924',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#110',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#111',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#112',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#113',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#114',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#115'
-        ],
+        rg: {
+            '19': 'https://o-site.spb.ru/cgi-bin/rg2.php#110',
+            '20': 'https://o-site.spb.ru/cgi-bin/rg2.php#111',
+            '21': 'https://o-site.spb.ru/cgi-bin/rg2.php#112',
+            '22': 'https://o-site.spb.ru/cgi-bin/rg2.php#113',
+            '23': 'https://o-site.spb.ru/cgi-bin/rg2.php#114',
+            '24': 'https://o-site.spb.ru/cgi-bin/rg2.php#115'
+        },
         bulletin: 'https://o-site.spb.ru/_races/12061924/12061924_info.pdf',
         map: ['ym_2012_06_19', 'ym_2012_pervomayskoe_long', 'ym_2012_06_21']
     },
@@ -746,6 +749,7 @@ let events2012 = [
         bulletin: 'http://100x24.ru/2012/docs/20120624_bull.htm',
         fmt: '3 часа вело',
         o_site: '120624',
+        rg: 'https://rogaine.ru/routegadget/rg2/#63',
         start: '100x24',
         map: 'gladyshevskoe_2012_velo',
         maps: [
@@ -842,6 +846,7 @@ let events2012 = [
         type: 'ROGAINE',
         start: ['RRC','GORNY_CROSS'],
         o_site: '12072122',
+        rg: 'https://rogaine.ru/routegadget/rg2/#65',
         bulletin: [
             // 'http://rrc2012.rogaining.ru/content/view/1/3/'
             // 'http://rrc2012.rogaining.ru/content/view/2/4/'
@@ -874,7 +879,6 @@ let events2012 = [
             'http://fotki.yandex.ru/users/rogaining/album/242137/'
             // 'https://plus.google.com/photos/115478201141686678582/albums/5768821734097288209?authkey=CJj9rMW1zOqQFQ' // недоступна
         ],
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=65&kieli=' // RouteGadget, сейчас не работает
         endDate: '2012-07-22',
         coord: [60.392436, 29.726684],
         planner: 'SMRNV_S',
@@ -1065,10 +1069,10 @@ let events2012 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/120915/120915_res_midl.pdf',
         o_site: '120915',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#125',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#126'
-        ],
+        rg: {
+            'спринт': 'https://o-site.spb.ru/cgi-bin/rg2.php#125',
+            'классика': 'https://o-site.spb.ru/cgi-bin/rg2.php#126'
+        },
         bulletin: 'https://o-site.spb.ru/_races/120915/120915_info2.pdf'
     },
     {
@@ -1377,10 +1381,10 @@ let events2012 = [
         video: 'https://www.youtube.com/watch?v=ONRgfh2ptn0',
         owner: 'VYBORG',
         o_site: '12102021',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#133',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#134'
-        ]
+        rg: {
+            'спринт': 'https://o-site.spb.ru/cgi-bin/rg2.php#133',
+            'классика': 'https://o-site.spb.ru/cgi-bin/rg2.php#134'
+        }
     },
     {
         id: 'SPB_20121025_1',

@@ -217,6 +217,34 @@ let events2007 = [
         o_site: '070311'
     },
     {
+        id: 'SPB_20070317_1',
+        date: '2007-03-17',
+        place: 'Кавголово, база «Динамо»',
+        name: '1 этап Кубка СПб по рогейну',
+        type: ['ROGAINE','SKI'],
+        fmt: '3 и 8 часов на лыжах',
+        link: 'https://rogaine-spb.narod.ru/race0307/info.html',
+        bulletin: 'https://rogaine-spb.narod.ru/race0307/race.html',
+        res: [
+            'https://rogaine-spb.narod.ru/race0307/results.html',
+            'https://rogaine-spb.narod.ru/race0307/rgn13.htm',
+            'https://rogaine-spb.narod.ru/race0307/rgn18.htm'
+        ],
+        split: [
+            'https://rogaine-spb.narod.ru/race0307/rgn13s.htm',
+            'https://rogaine-spb.narod.ru/race0307/rgn18s.htm'
+        ],
+        maps: 'https://rogaine-spb.narod.ru/race0307/map.gif',
+        photo: [
+            'https://rogaine-spb.narod.ru/race0307/photo.html',
+            'https://rogaine-spb.narod.ru/race0307/photodist.html'
+        ],
+        rg: {
+            '3': 'https://rogaine.ru/routegadget/rg2/#12',
+            '8': 'https://rogaine.ru/routegadget/rg2/#13'
+        }
+    },
+    {
         id: 'SPB_20070318_1',
         date: '2007-03-18',
         place: 'Павловский парк',
@@ -783,6 +811,12 @@ let events2007 = [
         info: 'Открытый Чемпионат России по рогейну. Победители: Абс. (MV): Николай Луцанс, Айварс Михайлов (Рига, Латвия) — 246; M: Олег Калинин, Сергей Ященко (Polar Team) — 243; X: Анна Бурлинова, Михаил Першин — 240; W: Юлия Смирнова, Зоя Путилова (Пермь) — 115. Команд — 76, участников — 162.',
         start: 'RRC',
         o_site: '070824',
+        rg: {
+            '3': 'https://rogaine.ru/routegadget/rg2/#16',
+            '8': 'https://rogaine.ru/routegadget/rg2/#18',
+            '24': 'https://rogaine.ru/routegadget/rg2/#19',
+            '8 вело': 'https://rogaine.ru/routegadget/rg2/#17'
+        },
         map: 'losevo_rrc_2007',
         link: 'https://rogaine-spb.narod.ru/race0807/info.html',
         res: [
@@ -807,7 +841,6 @@ let events2007 = [
             // 'https://rogaine-spb.narod.ru/race0807/race0807.html'
             'https://rogaine-spb.narod.ru/race0807/fso.pdf'
         ],
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=19&kieli=' // RouteGadget, сейчас не работает
         coord: [60.921139, 29.763107],
         planner: 'KMN_I',
         fmt: '24, 8, 8 вело, 3'
@@ -1095,6 +1128,37 @@ let events2007 = [
         info: 'Открытые, многоэтапные, личные соревнования с подведением командного зачета',
         o_site: '071104',
         bulletin: 'https://o-site.spb.ru/_races/071104/071104_info.htm'
+    },
+    {
+        id: 'SPB_20071104_2',
+        date: '2007-11-04',
+        endDate: '2007-11-05',
+        place: 'Токсово, база «Динамо»',
+        name: 'Чемпионат СПб по рогейну, Финал Кубка СПб',
+        start: 'SPB_CHAMP',
+        type: 'ROGAINE',
+        fmt: '3, 8, 24 часа и 8 часов вело',
+        link: 'https://rogaine-spb.narod.ru/race1107/info.html',
+        bulletin: 'https://rogaine-spb.narod.ru/race1107/race1107.html',
+        res: [
+            'https://rogaine-spb.narod.ru/race1107/res.html',
+            'https://rogaine-spb.narod.ru/race1107/r3.htm',
+            'https://rogaine-spb.narod.ru/race1107/r8.htm',
+            'https://rogaine-spb.narod.ru/race1107/r8v.htm',
+            'https://rogaine-spb.narod.ru/race1107/r24.htm'
+        ],
+        split: [
+            'https://rogaine-spb.narod.ru/race1107/rgn33i.htm',
+            'https://rogaine-spb.narod.ru/race1107/rgn38i.htm',
+            'https://rogaine-spb.narod.ru/race1107/rgn38vi.htm',
+            'https://rogaine-spb.narod.ru/race1107/rgn324i.htm'
+        ],
+        maps: 'https://rogaine-spb.narod.ru/race1107/map.jpg',
+        photo: [
+            'https://rogaine-spb.narod.ru/race1107/photo.html',
+            'https://rogaine-spb.narod.ru/race1107/photodist.html'
+        ],
+        rg: 'https://rogaine.ru/routegadget/rg2/#20'
     },
     {
         id: 'SPB_20071105_1',

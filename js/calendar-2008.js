@@ -90,6 +90,10 @@ let events2008 = [
         info: 'лыжный рогейн «100 км за 24 часа»',
         start: '100x24',
         o_site: '080216_r',
+        rg: {
+            '6': 'https://rogaine.ru/routegadget/rg2/#21',
+            '24': 'https://rogaine.ru/routegadget/rg2/#22'
+        },
         map: 'gavrilovo_2008',
         maps: [
             'https://100x24.ru/2008/map/100x24_map_2008.gif'
@@ -358,7 +362,7 @@ let events2008 = [
             // 'http://www.skisport.ru/photos/view.php?v=2&uid=155' // недоступна
         ],
         video: 'http://www.youtube.com/watch?v=s6xqoyC8SBE',
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=23&kieli=' // RouteGadget, сейчас не работает
+        rg: 'https://rogaine.ru/routegadget/rg2/#23',
         info: 'Победители: M: Олег Калинин, Сергей Юткин («Омега», Москва) — 3400; X: Павел Сысоев, Александра Кузьмина (Nike ACG) — 3190; W: Анна Бурлинова, Юлия Леменчук (Arena-CRAFT) — 2860. Команд — 109, участников — 236.',
         coord: [56.261397, 37.038089],
         fmt: '24',
@@ -622,11 +626,11 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/080624_KS/080624_KS_res.zip',
         start: 'KS',
         o_site: '080624_KS',
-        rg: [
-            'https://o-site.spb.ru/cgi-bin/rg2.php#6',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#7',
-            'https://o-site.spb.ru/cgi-bin/rg2.php#8'
-        ],
+        rg: {
+            '24': 'https://o-site.spb.ru/cgi-bin/rg2.php#6',
+            '25': 'https://o-site.spb.ru/cgi-bin/rg2.php#7',
+            '26': 'https://o-site.spb.ru/cgi-bin/rg2.php#8'
+        },
         map: ['ks_2008_06_25', 'ks_2008_06_26'],
         endDate: '2008-06-26'
     },

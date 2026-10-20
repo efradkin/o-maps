@@ -95,7 +95,7 @@ const isUrl = v => /^https?:\/\//.test(String(v));
 /**
  * gps и o_gps — строка/число или объект вида { 'группа': значение };
  * livelox — номер события Livelox или массив номеров;
- * rg — адрес события RouteGadget или массив адресов (по дням многодневки).
+ * rg — адрес события RouteGadget или объект вида { 'подпись': адрес } (по дням, форматам, группам).
  * Возвращает пары [группа | null, адрес].
  */
 function gpsEntries(value, prefix) {
@@ -437,10 +437,9 @@ function buildLinks(evt) {
     livelox.forEach(([, url], i) => {
         add({ kind: 'gps', label: 'Livelox' + (livelox.length > 1 ? ' ' + (i + 1) : ''), url, icon: 'livelox.webp' });
     });
-    const rg = gpsEntries(evt.rg, '');
-    rg.forEach(([, url], i) => {
-        add({ kind: 'gps', label: 'RouteGadget' + (rg.length > 1 ? ' ' + (i + 1) : ''), url, icon: 'rg2.webp' });
-    });
+    for (const [group, url] of gpsEntries(evt.rg, '')) {
+        add({ kind: 'gps', label: group ? 'RouteGadget ' + group : 'RouteGadget', url, icon: 'rg2.webp' });
+    }
     for (const [group, url] of gpsEntries(evt.gps, '')) {
         add({ kind: 'gps', label: group ? 'GPS ' + group : 'GPS', url, icon: /livelox\.com/i.test(url) ? 'livelox.webp' : 'o-gps.gif' });
     }

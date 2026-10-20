@@ -147,6 +147,10 @@ let events2009 = [
         info: '«100 км за 24 часа» - 1 этап кубка Санкт-Петербурга по рогейну',
         start: '100x24',
         o_site: '090221',
+        rg: {
+            '6': 'https://rogaine.ru/routegadget/rg2/#27',
+            '24': 'https://rogaine.ru/routegadget/rg2/#28'
+        },
         map: 'veschevo_2009',
         maps: [
             'https://100x24.ru/2009/map/100x24_map_2009.gif'
@@ -230,6 +234,7 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090314/090314_res3.htm',
         fmt: '3 и 8 часов',
         o_site: '090314',
+        rg: 'https://rogaine.ru/routegadget/rg2/#29',
         bulletin: 'https://o-site.spb.ru/_races/090314/090314_info.htm'
     },
     {
@@ -431,6 +436,7 @@ let events2009 = [
         type: 'ROGAINE',
         res: 'http://rogaining.spb.ru/index.php?option=com_wrapper&Itemid=159',
         o_site: '090516_rog',
+        rg: 'https://rogaine.ru/routegadget/rg2/#30',
         bulletin: 'https://o-site.spb.ru/_races/090516_rog/090516_info.htm'
     },
     {
@@ -509,7 +515,8 @@ let events2009 = [
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2009-1/sm.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2009-1/big_s.jpg'
-        ]
+        ],
+        rg: 'https://rogaine.ru/routegadget/rg2/#31'
     },
     {
         id: 'SPB_20090528_1',
@@ -544,6 +551,7 @@ let events2009 = [
         info: '6-й Чемпионат России по рогейну. Форматы: 24 часа (Ч-т России), 6 и 3 часа. Победители: Абс.: Евгений Домбровский, Олег Калинин («Омега-НН») — 244. Команд — 112, участников — 230.',
         start: 'RRC',
         o_site: '090530_rog',
+        rg: 'https://rogaine.ru/routegadget/rg2/#33',
         bulletin: [
             // 'https://o-site.spb.ru/_races/090530_rog/09053031_info.htm'
             // 'https://o-site.spb.ru/_races/090530_rog/09053031_shema.JPG'
@@ -573,7 +581,6 @@ let events2009 = [
             // 'http://www.rogaining.ru/media/photo/category/20-6rrc.html' // недоступна
         ],
         video: 'http://www.youtube.com/watch?v=FXVTs5H8dx0',
-        // gps: 'https://rogaining.ru/routegadget/cgi-bin/reitti.cgi?act=map&id=33&kieli=' // RouteGadget, сейчас не работает
         coord: [61.095664, 29.862778],
         planner: 'SHKLV',
         fmt: '24, 6, 3'
@@ -633,6 +640,7 @@ let events2009 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/090606_r/090606_res.htm',
         o_site: '090606_r',
+        rg: 'https://rogaine.ru/routegadget/rg2/#32',
         bulletin: 'https://o-site.spb.ru/_races/090606_r/090606_info.htm'
     },
     {

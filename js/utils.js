@@ -846,9 +846,9 @@ function isLiveloxUrl(url) {
     return /livelox\.com/i.test(String(url));
 }
 
-// Адрес события RouteGadget: RG2 (…/rg2.php#N) или старый RouteGadget 1 (…/reitti.cgi?…).
+// Адрес события RouteGadget: RG2 (…/rg2.php#N или …/rg2/#N) или старый RouteGadget 1 (…/reitti.cgi?…).
 function isRouteGadgetUrl(url) {
-    return /\/rg2\.php|\/reitti\.cgi/i.test(String(url));
+    return /\/rg2\.php|\/rg2\/(index\.php)?#|\/reitti\.cgi/i.test(String(url));
 }
 
 // Значок ссылки на трансляцию: у Livelox и RouteGadget - свои, у остальных - img (по умолчанию url-file.png).
@@ -870,15 +870,10 @@ function getLiveloxLinks(m) {
     return result;
 }
 
-// Ссылки на события RouteGadget из поля rg (адрес или массив адресов - по дням многодневки):
-// объект { 'RouteGadget': адрес } или { 'RouteGadget 1': …, 'RouteGadget 2': … }.
+// Ссылки на события RouteGadget из поля rg (адрес или, как у gps, объект { 'подпись': адрес } -
+// по дням, форматам, группам): объект { 'RouteGadget': адрес } или сам объект rg.
 function getRouteGadgetLinks(m) {
-    const urls = [].concat(m.rg ?? []);
-    const result = {};
-    urls.forEach((url, i) => {
-        result['RouteGadget' + (urls.length > 1 ? ' ' + (i + 1) : '')] = url;
-    });
-    return result;
+    return isObject(m.rg) ? {...m.rg} : {'RouteGadget': m.rg};
 }
 
 // Трансляции события: gps, иначе o_gps; к ним добавляются трансляции Livelox и события RouteGadget.
@@ -895,14 +890,20 @@ function getGPS(m) {
             gps = O_GPS_CENTER_PREFIX + m.o_gps;
         }
     }
-    const extra = {...(m.livelox != null ? getLiveloxLinks(m) : {}), ...(m.rg ? getRouteGadgetLinks(m) : {})};
-    if (Object.keys(extra).length) {
-        if (!gps) {
-            const values = Object.values(extra);
-            gps = values.length === 1 ? values[0] : extra;
-        } else {
-            gps = {...(isObject(gps) ? gps : {[m.gps ? 'GPS' : 'O-GPS']: gps}), ...extra};
+    const extra = [m.livelox != null ? getLiveloxLinks(m) : {}, m.rg ? getRouteGadgetLinks(m) : {}];
+    if (extra.some(e => Object.keys(e).length)) {
+        const result = !gps ? {} : (isObject(gps) ? {...gps} : {[m.gps ? 'GPS' : 'O-GPS']: gps});
+        for (const [k, v] of extra.flatMap(e => Object.entries(e))) {
+            // одинаковые подписи (например, 'день 1' у o_gps и rg) допустимы: ключ делается
+            // уникальным невидимым символом, чтобы ссылка не затёрла уже добавленную
+            let key = k;
+            while (key in result) {
+                key += '\u200B';
+            }
+            result[key] = v;
         }
+        const values = Object.values(result);
+        gps = values.length === 1 ? values[0] : result;
     }
     return gps;
 }
