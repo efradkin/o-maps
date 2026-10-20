@@ -3049,6 +3049,7 @@ let events2026 = [
         bulletin: 'https://orgeo.ru/files/event/file/56142_53e5103ea6.pdf',
         start: 'SPRINT_TOUR',
         info: 'Памяти Ю.М.Артемьева. <a href="https://m.vk.com/@sprinttourspb-3-etap-sprint-tour-spb-osen-2026-17102026-analiz-distancii">Разбор дистанций</a>.',
+        photo: 'https://vk.ru/album-178724756_313730785',
         reskeep: 941,
         maps: ['./original_maps/city/vasileostrovskaya_st_2026_10_17_m_omaps.gif','./original_maps/city/vasileostrovskaya_st_2026_10_17_w_omaps.gif'],
         map: 'vasileostrovskaya_2024'
@@ -3162,7 +3163,7 @@ let events2026 = [
     {
         id: 'SPB_20261020_1',
         date: '2026-10-20',
-        name: 'Открытое п-во Калининского р-на в честь дня рождения Ирины Вилениновны Степановой',
+        name: 'П-во Калининского р-на в честь дня рождения Ирины Степановой',
         type: ['ORIENT', 'ROGAINE'],
         place: 'Пионерский парк',
         fmt: 'спринт-рогейн, лабиринт',
@@ -3189,7 +3190,7 @@ let events2026 = [
     {
         id: 'SPB_20261021_2',
         date: '2026-10-21',
-        name: 'Физкультурное мероприятие по ориентированию',
+        name: 'Физкульт-мероприятие по ориентированию',
         place: 'парк Интернационалистов',
         reg: 'https://vk.ru/im/?chat=fvxpxRpaksnqqSqOeYNaQj5jtdF9axS5HWw%3D',
         link: 'https://vk.ru/wall-30686281_25491',
@@ -3248,7 +3249,7 @@ let events2026 = [
     {
         id: 'SPB_20261024_4',
         date: '2026-10-24',
-        name: 'Открытая тренировка от клуба Феникс',
+        name: 'Тренировка от клуба Феникс',
         place: 'Гарболово',
         o_site: '261024',
         reg: 'https://orgeo.ru/event/56289',
