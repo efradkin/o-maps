@@ -39,15 +39,6 @@
 
     <style>
         /* event.html. Остальное оформление - штатное (main.css, theme.css, Bootstrap). */
-        /* Название события бывает длинным: в шапке сайта h1 не переносится
-           (main.css), и на телефоне страница раздувалась вширь. */
-        body.event-body header.page-header h1 {
-            flex: 1 1 auto;
-            min-width: 0;
-            white-space: normal;
-            overflow-wrap: anywhere;
-            font-size: clamp(18px, 4.6vw, 30px);
-        }
         /* мини-карта места: Leaflet нужна заданная высота */
         #event_map {
             height: 380px;
@@ -80,8 +71,6 @@
     </script>
 
     <header class="page-header">
-        <h1 class="text-center" id="event_title">Событие календаря</h1>
-
         <nav class="page-header-actions" aria-label="Навигация по странице">
             <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
             <a href="calendar.html" target="_self" class="stat-map-link stat-map-link-right" id="event_calendar_link" title="В календаре" data-menu-icon="🗓️"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: var(--o-text)"><rect x="3" y="4.5" width="18" height="16.5" rx="2"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/><path d="M7 13.5h2M11 13.5h2M15 13.5h2M7 17h2M11 17h2"/></svg></a>
@@ -95,6 +84,8 @@
     </header>
 
     <div class="container" id="event_page">
+        <h1 class="text-center page-title" id="event_title">Событие календаря</h1>
+
         <section id="event_hero" class="clearfix">
             <p>Загрузка…</p>
         </section>

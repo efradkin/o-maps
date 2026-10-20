@@ -61,6 +61,23 @@ header.page-header h1 {
     font-size: clamp(18px, 5.5vw, 32px); /*15px, 4.2vw, 32px*/
 }
 
+/* Заголовок страницы с колонкой контента — не в шапке, а первой строкой колонки
+   (.container или сетки диаграмм .charts-grid): так он стоит над текстом на любой
+   ширине, а в шапке остаются только кнопки у правого края окна. В шапке заголовок
+   остался там, где колонки нет: календари, таблицы во всю ширину, map-info.
+   Размер — как у заголовка в шапке; длинный не распирает страницу, а переносится. */
+h1.page-title {
+    font-size: clamp(18px, 5.5vw, 32px);
+    overflow-wrap: anywhere;
+}
+.charts-grid > h1.page-title {
+    grid-column: 1 / -1;        /* на всю ширину сетки, от левой диаграммы */
+    margin: 0;
+}
+.start-maps-wrapper > h1.page-title {
+    flex: 0 0 100%;             /* отдельной строкой, а не ячейкой в ряду карт (volkov_av) */
+}
+
 .page-header-actions {
     display: flex;
     align-items: center;

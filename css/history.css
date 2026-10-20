@@ -513,14 +513,10 @@ body.history-body a.hist-place-pin { scroll-margin-top: 30vh; }
 }
 
 /* ---- узкие экраны (до 600 px) ------------------------------------------------
-   В шапке заголовок по main.css не переносится (white-space: nowrap) и вместе с
-   кнопками распирает страницу вбок; в статьях он переносится и сжимается.
-   Длинные подписи ссылок в указателе имён и подписи вех тоже разрешено переносить. */
+   Названия статей длинные: на телефоне заголовок мельче общего h1.page-title (main.css).
+   Длинные подписи ссылок в указателе имён и подписи вех разрешено переносить. */
 @media screen and (max-width: 600px) {
-    body.history-body header.page-header h1 {
-        flex: 1 1 auto;
-        min-width: 0;
-        white-space: normal;
+    body.history-body h1.page-title {
         font-size: 1.2rem;
         line-height: 1.2;
     }
