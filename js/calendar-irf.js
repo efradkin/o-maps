@@ -1,6 +1,6 @@
 // Чемпионаты International Rogaining Federation (IRF): мира по рогейну WRC (1992–2027) и Европы ERC (2003–2026).
 //   Собрано 13–14.10.2026. Записи WRC 2013 (SPB_20130726_1) и ERC 2026 (MAJOR_20260627_1) перенесены сюда
-//   из calendar-2013.js и calendar-common-2026.js с прежними id. owner, major и logo заданы в js/starts.js (WRC, ERC).
+//   из calendar-2013.js и calendar-common.js с прежними id. owner, major и logo заданы в js/starts.js (WRC, ERC).
 // Источники: таблицы чемпионатов Федерации рогейна России (rogaining.ru/events/championships/wrc, /erc, /medals),
 //   rogaining.org (IRF), официальные сайты чемпионатов (живые или копии web.archive.org), en/et.wikipedia.
 // place — латиницей/на языке оригинала, в скобках — по-русски. coord — центр соревнований (hash house) по бюллетеням,

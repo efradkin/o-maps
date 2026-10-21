@@ -1,6 +1,6 @@
 // Старты Федерации спортивного ориентирования России (ФСОР): записи с owner 'FSOR' и записи стартов,
 //   организатор которых ФСОР (чемпионаты СССР и России, Кубок России и др.; см. js/starts.js).
-// Перенесены из calendar-YYYY.js, calendar-early.js и calendar-common-2026.js скриптом tools/move_fsor.py.
+// Перенесены из calendar-YYYY.js, calendar-early.js и calendar-common.js скриптом tools/move_fsor.py.
 let fsorEvents = [
     {
         id: 'SPB_19710913_1',

@@ -68,7 +68,7 @@ function extractWelcome() {
 
 const DATA_FILES = ['starts.js', 'owners.js', 'planners.js', 'calendar-early.js'];
 for (let y = 2004; y <= 2026; y++) DATA_FILES.push(`calendar-${y}.js`);
-DATA_FILES.push('calendar-common-2026.js', 'calendar-other-2026.js', 'calendar-iof.js', 'calendar-fsor.js', 'calendar-irf.js');
+DATA_FILES.push('calendar-common.js', 'calendar-other-2026.js', 'calendar-iof.js', 'calendar-fsor.js', 'calendar-irf.js');
 
 const YEAR_VARS = ['eventsEarly'];
 for (let y = 2004; y <= 2026; y++) YEAR_VARS.push(`events${y}`);
