@@ -2582,6 +2582,8 @@ function buildEventPlaceOMaps(event, suffix) {
         mapPage = 'moscow.html';
     } else if (REGION_KEY == 'tracks') {
         mapPage = 'tracks.html';
+    } else if (REGION_KEY == 'smr') {
+        mapPage = 'samara.html';
     }
     let place = getEventPlace(event);
     if (event.map) {

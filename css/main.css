@@ -646,6 +646,23 @@ body.sub-index-body {
         padding-inline-start: 0;
     }
 }
+/* Календарь: «скачать» и плашка «Всего - …» — отдельной строкой под фильтрами,
+   таблица начинается под ней (раньше плашка наезжала на поиск и шапку таблицы).
+   Высота таблицы уменьшена на эту строку. На узких экранах — прежние правила. */
+@media screen and (min-width: 601px) {
+    body.calendar-body .o-sheet-roof {
+        height: auto;
+        top: 0;
+        align-items: center;
+        margin-bottom: 6px;
+        .o-sheet-roof-stat {
+            margin-top: 0;
+        }
+    }
+    body.calendar-body .o-sheet-wrapper {
+        height: calc(100vh - 145px);
+    }
+}
 .o-sheet-wrapper-wo-filters {
     height: calc(100vh - 120px);
 }
