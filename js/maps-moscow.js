@@ -7000,6 +7000,15 @@ let moscowMaps = [
         type: ['PARK']
     },
     {
+        name: 'Всехсвятская роща',
+        year: 2026,
+        url: './maps/moscow/sz/vsehsvjatskaya_roscha_2026.webp',
+        bounds: [[55.8127730, 37.4586368], [55.8135929, 37.4853945], [55.8079379, 37.4590659]],
+        author: 'SKLV_V',
+        owner: 'MLKHT',
+        type: ['PARK']
+    },
+    {
         name: 'Тушино',
         date: '2025-11-29',
         url: './maps/moscow/sz/tushino_rogaine_2025.webp',
