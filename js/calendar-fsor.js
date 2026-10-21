@@ -1462,7 +1462,8 @@ let fsorEvents = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/050604_MTB/050604mtb_res.htm',
         o_site: '050604_MTB',
-        start: 'RUS_CUP'
+        start: 'RUS_CUP',
+        region: 'SPB'
     },
     {
         id: 'MAJOR_20050908_1',
@@ -1703,6 +1704,7 @@ let fsorEvents = [
         endDate: '2006-06-29',
         place: 'Цвелодубово',
         name: 'Первенство России по Вело-О среди юношей и юниоров',
+        region: 'SPB',
         type: 'VELO',
         info: 'Первенство России по ориентированию на велосипедах среди юношей и юниоров',
         owner: 'SFSO_LO',
@@ -2537,7 +2539,8 @@ let fsorEvents = [
             'кросс': 'https://o-site.spb.ru/cgi-bin/rg2.php#50'
         },
         bulletin: 'http://o-sport.ru/temp/2010/20100610_100702_Bulletin.pdf',
-        start: 'RUS_CUP'
+        start: 'RUS_CUP',
+        region: 'SPB'
     },
     {
         id: 'MAJOR_20100909_1',
@@ -2633,7 +2636,8 @@ let fsorEvents = [
         info: 'КУБОК РОССИИ по спортивному ориентированию на велосипедах ПЕРВЕНСТВО РОССИИ по спортивному ориентированию на велосипедах (юноши, девушки до 18 лет) RUSSIAN MBO CUP RUSSIAN YOUTH MBO CHAMPIONCHIP PRE EUROPEAN MBO CHAMPIONSHIP-2011 OPEN EVENTS Leningrad Region, Orekhovo, 10-15. 09. 2010',
         o_site: '10091015',
         bulletin: 'https://o-site.spb.ru/_races/10091015/100910_info1.pdf',
-        start: 'RUS_CUP'
+        start: 'RUS_CUP',
+        region: 'SPB'
     },
     {
         id: 'MAJOR_20101219_1',
@@ -2924,7 +2928,8 @@ let fsorEvents = [
         o_site: '110627-0703',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#82',
         bulletin: 'https://o-site.spb.ru/_races/110627-0703/110627-0703_info.pdf',
-        start: 'RUS_CUP'
+        start: 'RUS_CUP',
+        region: 'SPB'
     },
     {
         id: 'MAJOR_20110830_1',
@@ -3615,12 +3620,15 @@ let fsorEvents = [
         date: '2013-05-25',
         endDate: '2013-05-28',
         place: 'Токсово-Кавголово',
-        name: 'Кубок России по МТБО',
+        name: 'Всероссийские соревнования, Кубок России по МТБО',
         type: 'VELO',
         reg: 'http://sportident.ru/entry/event_info.php?id=638',
+        info: 'Лично-командные соревнования. Группы: МЖ-20, 17, 14.',
         o_site: '13052528',
+        fmt: 'спринт, классика, эстафета 3х, лонг',
         bulletin: 'http://o-time.ru/mtbo/mtbo_rus.pdf',
-        start: 'RUS_CUP'
+        start: 'RUS_CUP',
+        region: 'SPB'
     },
     {
         id: 'MAJOR_20130605_1',
@@ -8028,6 +8036,7 @@ let fsorEvents = [
         endDate: '2019-05-12',
         place: 'Луга',
         name: 'Первенство России и Майская многодневка',
+        region: 'SPB',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
         video: [
             'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
@@ -9181,12 +9190,13 @@ let fsorEvents = [
         id: 'SPB_20200926_2',
         date: '2020-09-25',
         endDate: '2020-09-27',
-        name: 'Чемпионат России',
+        name: 'Чемпионат России, Всероссийские соревнования',
         place: 'Выборг',
         res: 'https://o-site.spb.ru/_races/20092428/20200927_res.htm',
-        owner: 'VYBORG',
         o_site: '20092428',
+        fmt: 'спринт',
         map: ['vyborg_annenskie_2017','vyborg_center_2020_09_26','batarejnaya_gora_2020'],
+        info: 'Личные соревнования.',
         o_gps: {
             '25-1': 8199,
             '25-3': 8207,
@@ -11922,6 +11932,7 @@ let fsorEvents = [
         endDate: '2023-02-12',
         place: 'Токсово',
         name: 'Первенство России',
+        region: 'SPB',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/230213/230213_Vseros_res.pdf',
         photo: 'http://vk.com/album-30365190_291308622',
@@ -12232,6 +12243,7 @@ let fsorEvents = [
         endDate: '2023-05-15',
         place: 'Лемболово',
         name: 'Первенство России (Лемболово, вело)',
+        region: 'SPB',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/230511/https://orgeo.ru/event/28751',
         owner: 'SFSO_LO',

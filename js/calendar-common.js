@@ -7,6 +7,7 @@ let commonEvents = [
         name: 'Мемориал Михаила Святкина, ЧиП СПб',
         fmt: 'спринт, классика',
         start: ['MMS','SPB_CHAMP'],
+        region: 'SPB',
         link: 'https://o-site.spb.ru/history/Knots/mms-93.html',
         map: 'silande_1992',
         planner: '?',
@@ -21,6 +22,7 @@ let commonEvents = [
         name: 'Мемориал Михаила Святкина',
         planner: 'SHRNN',
         start: 'MMS',
+        region: 'SPB',
         map: 'garbolovo_1994'
     },
     {
@@ -30,6 +32,7 @@ let commonEvents = [
         place: 'Петяярви',
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
+        region: 'SPB',
         map: ['petjajarvy_1995','mms_1995_07_01','mms_1995_07_02']
     },
     {
@@ -40,6 +43,7 @@ let commonEvents = [
         res: './docs/1996/1999_06_29_svyatkina_omaps.pdf',
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
+        region: 'SPB',
         map: ['mms_1996_06_29','mms_1996_06_30']
     },
     {
@@ -49,6 +53,7 @@ let commonEvents = [
         place: 'Лемболово, Орехово',
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
+        region: 'SPB',
         planner: 'TLNV_A',
         map: ['mms_1997_06_28','mms_1997_06_29']
     },
@@ -59,6 +64,7 @@ let commonEvents = [
         place: 'Кузнечное, Богатыри',
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
+        region: 'SPB',
         res: './docs/1998/1998_06_27_svyatkina_omaps.pdf',
         map: 'mms_1998_06'
     },
@@ -69,6 +75,7 @@ let commonEvents = [
         place: 'Яппиля',
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
+        region: 'SPB',
         res: './docs/1999/1999_06_26_svyatkina_omaps.pdf',
         map: ['yappilya_1999','yappilya_pistolet_1999']
     },
@@ -79,6 +86,7 @@ let commonEvents = [
         place: 'Каменногорск',
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
+        region: 'SPB',
         map: ['mms_2000_06_30','mms_2000_07_02']
     },
     {
@@ -89,6 +97,7 @@ let commonEvents = [
         res: './docs/2001/2001_06_28_svyatkina_omaps.pdf',
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
+        region: 'SPB',
         map: ['peski_pulkonlampi_2001','peski_zabytoe_2001','peski_stayka_2001','peski_2001']
     },
     {
@@ -98,6 +107,7 @@ let commonEvents = [
         place: 'Ягодное',
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
+        region: 'SPB',
         map: ['mms_2002_06_28','mms_2002_06_29','mms_2002_06_30']
     },
     {
@@ -107,6 +117,7 @@ let commonEvents = [
         place: 'Каменногорск',
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
+        region: 'SPB',
         map: ['mms_2003_06_27','mms_2003_06_28','mms_2003_06_29']
     },
     {
@@ -119,6 +130,7 @@ let commonEvents = [
         info: 'Традиционно хорошая организация и сильный состав участников',
         fmt: 'многодневка',
         start: 'MMS',
+        region: 'SPB',
         o_site: '040626_MS',
         map: ['mms_2004_06_25','mms_2004_06_26','mms_2004_06_27']
     },
@@ -130,6 +142,7 @@ let commonEvents = [
         name: 'Мемориал Святкина',
         res: 'https://o-site.spb.ru/_races/050624/MemSv_res.zip',
         start: 'MMS',
+        region: 'SPB',
         o_site: '050624',
         map: ['mms_2005_06_24','mms_2005_06_25','mms_2005_06_26']
     },
@@ -142,6 +155,7 @@ let commonEvents = [
         res: 'https://o-site.spb.ru/_races/06062225_MS/MS_res.zip',
         info: '14-й по счёту Мемориал Михаила Святкина',
         start: 'MMS',
+        region: 'SPB',
         o_site: '06062225_MS',
         map: ['mms_2006_06_23', 'mms_2006_06_24', 'mms_2006_06_25']
     },
@@ -153,6 +167,7 @@ let commonEvents = [
         res: 'https://o-site.spb.ru/_races/070622/070622_res.zip',
         info: 'XV Мемориал Михаила Святкина. Ожидается участие более двух с половиной тысяч спортсменов из различных регионов России, а также Белоруссии, Украины, Финляндии и Швеции.',
         start: 'MMS',
+        region: 'SPB',
         o_site: '070622',
         endDate: '2007-06-24',
         map: 'mms_2007_06_24',
@@ -166,6 +181,7 @@ let commonEvents = [
         name: 'Мемориал Святкина',
         info: '16-й Мемориал Михаила Святкина',
         start: 'MMS',
+        region: 'SPB',
         o_site: '080627_MS',
         map: 'mms_2008_06_28'
     },
@@ -178,6 +194,7 @@ let commonEvents = [
         res: 'https://o-site.spb.ru/_races/09062628/svyatkin2009_res.zip',
         info: '17-й Мемориал Михаила Святкина',
         start: 'MMS',
+        region: 'SPB',
         o_site: '09062628',
         map: ['mms_2009_06_26','mms_2009_06_27','mms_2009_06_28']
     },
@@ -189,6 +206,7 @@ let commonEvents = [
         name: 'Мемориал Михаила Святкина',
         res: 'https://o-site.spb.ru/_races/10062527/100625_res.htm',
         start: 'MMS',
+        region: 'SPB',
         o_site: '10062527',
         map: ['mms_2010_lembolovo','mms_2010_06_25','mms_2010_06_26','mms_2010_06_27']
     },
@@ -200,6 +218,7 @@ let commonEvents = [
         place: 'Лемболово',
         res: 'https://o-site.spb.ru/_races/11062126/110621_res.htm',
         start: 'MMS',
+        region: 'SPB',
         o_site: '11062126',
         map: ['mms_2011_lembolovo_orekhovo','mms_2011_06_21','mms_2011_06_22','mms_2011_06_23','mms_2011_06_24','mms_2011_06_25','mms_2011_06_26']
     },
@@ -211,6 +230,7 @@ let commonEvents = [
         name: 'Кубок Карельского Перешейка',
         info: 'Соревнования проводятся 29.06 -03.07 2011 года в Выборгском районе Ленинградской области, вблизи г.Каменногорск.',
         start: 'KKP',
+        region: 'SPB',
         o_site: '11062903',
         bulletin: 'https://o-site.spb.ru/_races/11062903/110630_info2.pdf',
         map: ['kkp_2011_06_30','kkp_2011_07_01','kkp_2011_07_02','kkp_2011_07_03']
@@ -224,6 +244,7 @@ let commonEvents = [
         res: 'https://o-site.spb.ru/_races/120626/120626_res.htm',
         info: 'Ленинградская область, Лемболово, 26 июня – 1 июля 2012 г.',
         start: 'MMS',
+        region: 'SPB',
         o_site: '120626',
         bulletin: 'http://www.svjatkin.spb.ru/',
         map: ['mms_2012_06_26', 'mms_2012_06_27', 'mms_2012_06_28', 'mms_2012_06_29', 'mms_2012_06_30', 'mms_2012_07_01']
@@ -236,6 +257,7 @@ let commonEvents = [
         place: 'Боровинка, оз Новинское',
         res: 'https://o-site.spb.ru/_races/12070306/KKP2012_res.zip',
         start: 'KKP',
+        region: 'SPB',
         o_site: '12070306',
         bulletin: 'https://o-site.spb.ru/_races/12070306/12070306_info2.pdf',
         planner: 'TLNV_A',
@@ -448,18 +470,6 @@ let commonEvents = [
         owner: 'FSOR'
     },
     {
-        id: 'MAJOR_20130526_1',
-        date: '2013-05-26',
-        endDate: '2013-06-01',
-        place: 'Токсово, Ленинградская обл',
-        name: 'Всероссийские соревнования',
-        info: 'Лично-командные соревнования. Группы: МЖ-20, 17, 14.',
-        type: 'VELO',
-        fmt: 'спринт, классика, эстафета 3 чел., лонг',
-        owner: 'FSOR',
-        region: 'SPB'
-    },
-    {
         id: 'MAJOR_20130601_1',
         date: '2013-06-01',
         endDate: '2013-06-09',
@@ -489,6 +499,7 @@ let commonEvents = [
         info: 'Всероссийские многодневные соревнования «Кубок Карельского Перешейка 2013»',
         video: 'https://www.youtube.com/watch?v=-1F_4uM-C3U',
         start: 'KKP',
+        region: 'SPB',
         o_site: '13062427',
         bulletin: 'http://kkp.spb.ru/info.php',
         map: ['kkp_2013_06_24','kkp_2013_06_27']
@@ -554,33 +565,24 @@ let commonEvents = [
         owner: 'FSOR'
     },
     {
-        id: 'MAJOR_20130627_8',
-        date: '2013-06-27',
-        endDate: '2013-07-02',
-        place: 'Выборг, Ленинградская обл',
-        name: 'Чемпионат и Первенство СЗФО',
-        info: 'Лично-командные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18, 20.',
-        fmt: 'классика, эстафета 3 чел.',
-        owner: 'FSOR',
-        region: 'SPB'
-    },
-    {
         id: 'SPB_20130628_1',
         date: '2013-06-28',
         place: 'Выборг',
-        name: 'XXI Мемориал Михаила Святкина',
+        name: 'XXI Мемориал Михаила Святкина, ЧиП СЗФО',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/13062830_MS/130630_res.htm',
-        info: 'Соревнования проводятся 28-30 июня 2013 года в Выборгском районе Ленинградской области (г.Выборг).',
+        info: 'Мемориал проводится 28-30 июня 2013 года в Выборгском районе Ленинградской области. ЧиП СЗФО - лично-командные соревнования, группы: МЖ-Элита, МЖ-14, 16, 18, 20.',
         start: 'MMS',
+        region: 'SPB',
         o_site: '13062830_MS',
         bulletin: 'https://o-site.spb.ru/_races/13062830_MS/130628-30_info.htm',
-        endDate: '2013-06-30',
+        endDate: '2013-07-02',
         map: ['vyborg_saymenskie_dachi_2013','mms_2013_06_28','mms_2013_06_29','mms_2013_06_30'],
         o_gps: {
             'М': 56,
             'Ж': 55
-        }
+        },
+        owner: ['SFSO_LO','FSOR']
     },
     {
         id: 'MAJOR_20130705_1',
@@ -745,6 +747,7 @@ let commonEvents = [
         date: '2014-01-25',
         endDate: '2014-01-27',
         name: 'Чемпионат и Первенство России, Универсиада СЗФО и ЦФО',
+        region: 'SPB',
         type: 'SKI',
         place: 'Будогощь',
         reg: 'http://orgeo.ru/event/763',
@@ -947,6 +950,7 @@ let commonEvents = [
         name: 'Кубок Карельского перешейка',
         res: 'https://o-site.spb.ru/_races/14062326_KKP/140623_res.htm',
         start: 'KKP',
+        region: 'SPB',
         o_site: '14062326_KKP',
         o_gps: {
             '24-М': 215,
@@ -960,6 +964,7 @@ let commonEvents = [
         place: 'Выборг',
         name: 'ККП #1',
         start: 'KKP',
+        region: 'SPB',
         o_site: '14062326_KKP',
         map: 'kkp_gusinaja_2014_06_23',
         o_gps: 214
@@ -971,6 +976,7 @@ let commonEvents = [
         place: 'Выборг',
         name: 'ККП #3',
         start: 'KKP',
+        region: 'SPB',
         o_site: '14062326_KKP',
         map: 'kkp_gusinaja_2014_06_25',
         o_gps: {
@@ -985,6 +991,7 @@ let commonEvents = [
         place: 'Выборг',
         name: 'ККП #4',
         start: 'KKP',
+        region: 'SPB',
         o_site: '14062326_KKP',
         map: 'kkp_goritsa_2014_06_26',
         o_gps: {
@@ -1019,7 +1026,7 @@ let commonEvents = [
         place: 'Выборг, Ленинградская обл',
         name: 'Чемпионат и Первенство СЗФО',
         info: 'Лично-командные соревнования. Группы: МЖ-14, 16, 18.',
-        fmt: 'спринт, эстафета 3 чел.',
+        fmt: 'спринт, эстафета 3х',
         owner: 'FSOR',
         region: 'SPB'
     },
@@ -1062,6 +1069,7 @@ let commonEvents = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/14062729/140629_res.htm',
         start: 'MMS',
+        region: 'SPB',
         o_site: '14062729',
         o_gps: 223,
         map: ['polyany_2016','mms_2014_polyany','mms_2014_06_27','mms_2014_06_28','mms_2014_06_29']
@@ -1550,6 +1558,7 @@ let commonEvents = [
             'https://www.youtube.com/watch?v=hxVsBq4xS1w'
         ],
         start: 'KKP',
+        region: 'SPB',
         o_site: '150621-27',
         map: 'kkp_obkhodnoe_2015_06_23'
     },
@@ -1593,6 +1602,7 @@ let commonEvents = [
         res: 'https://o-site.spb.ru/_races/15062628/150626_RES.htm',
         video: 'https://www.youtube.com/watch?v=vGTwNTZuqT4',
         start: 'MMS',
+        region: 'SPB',
         o_site: '15062628',
         o_gps: 565,
         map: ['kamenka_2015','mms_2015_krasna_dolina','mms_2015_06_26','mms_2015_06_27','mms_2015_06_28']
@@ -2067,6 +2077,7 @@ let commonEvents = [
             'https://www.youtube.com/watch?v=GDZYtaUk6G0'
         ],
         start: 'KKP',
+        region: 'SPB',
         o_site: '160619-24',
         map: ['kkp_goritsa_2016_06_18','kkp_solnechnoe_2016_06_19','kkp_trostinka_2016_06_23']
     },
@@ -2082,6 +2093,7 @@ let commonEvents = [
             'https://www.youtube.com/watch?v=sEFfuhMcC9M'
         ],
         start: 'MMS',
+        region: 'SPB',
         o_site: '20160624',
         bulletin: 'http://svjatkin.spb.ru/info.html',
         endDate: '2016-06-26',
@@ -2665,6 +2677,7 @@ let commonEvents = [
             'https://www.youtube.com/watch?v=Pqud-K2ZsW8'
         ],
         start: 'KKP',
+        region: 'SPB',
         o_site: '20170518_23KKP',
         bulletin: 'http://o-nw.com/file/infoKKP_1.pdf',
         map: 'kkp_prudy_2017_06_19'
@@ -2688,6 +2701,7 @@ let commonEvents = [
         name: 'XXV Мемориал Михаила Святкина',
         video: 'https://www.youtube.com/watch?v=O1-9Fes-3Gg',
         start: 'MMS',
+        region: 'SPB',
         o_site: '17062325',
         o_gps: 2492,
         map: ['mms_2017_korobitsyno','mms_2017_06_23','mms_2017_06_24','mms_2017_06_25']
@@ -3199,6 +3213,7 @@ let commonEvents = [
         endDate: '2018-05-02',
         place: 'Токсово',
         name: 'ЧиП СЗФО, Майская многодневка',
+        region: 'SPB',
         res: 'https://o-site.spb.ru/_races/180429/180429_resNW.htm',
         o_site: '180429',
         bulletin: 'https://o-site.spb.ru/_races/180429/1804290502_info_.pdf'
@@ -3276,6 +3291,7 @@ let commonEvents = [
             'https://www.youtube.com/watch?v=gCN1nAwSFUo'
         ],
         start: 'KKP',
+        region: 'SPB',
         o_site: '180617-18'
     },
     {
@@ -3285,6 +3301,7 @@ let commonEvents = [
         place: 'Выборг',
         name: 'ККП #1',
         start: 'KKP',
+        region: 'SPB',
         o_site: '180617-18',
         video: 'http://northernwind.spb.ru/videosplit/2018//kkp/day1',
         reskeep: 13,
@@ -3301,6 +3318,7 @@ let commonEvents = [
         place: 'Выборг',
         name: 'ККП #2',
         start: 'KKP',
+        region: 'SPB',
         o_site: '180617-18',
         map: 'kkp_solnechnoe_2018_06_19',
         o_gps: {
@@ -3318,6 +3336,7 @@ let commonEvents = [
         place: 'Выборг',
         name: 'ККП #3',
         start: 'KKP',
+        region: 'SPB',
         o_site: '180617-18',
         map: 'kkp_solnechnoe_2018_06_20',
         o_gps: {
@@ -3339,6 +3358,7 @@ let commonEvents = [
         place: 'Выборг',
         name: 'ККП #4',
         start: 'KKP',
+        region: 'SPB',
         o_site: '180617-18',
         map: 'kkp_trostinka_2018_06_21',
         o_gps: {
@@ -3363,6 +3383,7 @@ let commonEvents = [
         res: 'https://o-site.spb.ru/_races/180622mms/1rez.htm',
         video: 'https://www.youtube.com/watch?v=DmBYqYQ_XwQ',
         start: 'MMS',
+        region: 'SPB',
         o_site: '180622mms',
         planner: ['SRBRNTSKY','TLNV_A'],
         reskeep: [9, 8, 7],
@@ -3734,6 +3755,7 @@ let commonEvents = [
         endDate: '2019-01-28',
         place: 'Будогощь, б/о Мечта',
         name: 'Чемп. и п-во СЗФО и ЦФО',
+        region: 'SPB',
         type: 'SKI',
         reg: 'http://orgeo.ru/event/8332',
         endReg: '2019-01-22 22:00',
@@ -3747,6 +3769,7 @@ let commonEvents = [
         endDate: '2019-02-04',
         place: 'ДОЛ Голубое озеро (Цвелодубово)',
         name: 'Всероссийские соревнования в Цвелодубово',
+        region: 'SPB',
         type: 'SKI',
         res: 'http://www.northernwind.spb.ru/videosplit/',
         photo: 'http://photosport.online/index.html',
@@ -3995,6 +4018,7 @@ let commonEvents = [
         res: 'https://o-site.spb.ru/_races/190616-21_KKP/20190617_kkp_1_rez.htm',
         video: 'https://www.youtube.com/watch?v=xHGuA_XHXLc',
         start: 'KKP',
+        region: 'SPB',
         o_site: '190616-21_KKP',
         bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf'
     },
@@ -4005,6 +4029,7 @@ let commonEvents = [
         name: 'ККП #1',
         place: 'Каменогорск',
         start: 'KKP',
+        region: 'SPB',
         o_site: '190616-21_KKP',
         bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf',
         reskeep: 167,
@@ -4021,6 +4046,7 @@ let commonEvents = [
         name: 'ККП #2',
         place: 'Каменогорск',
         start: 'KKP',
+        region: 'SPB',
         o_site: '190616-21_KKP',
         bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf',
         map: 'kkp_prudy_2019_06_18',
@@ -4042,6 +4068,7 @@ let commonEvents = [
         name: 'ККП #3',
         place: 'Каменогорск',
         start: 'KKP',
+        region: 'SPB',
         o_site: '190616-21_KKP',
         bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf',
         map: 'kkp_prudy_2019_06_19',
@@ -4061,6 +4088,7 @@ let commonEvents = [
         name: 'ККП #4',
         place: 'Каменогорск',
         start: 'KKP',
+        region: 'SPB',
         o_site: '190616-21_KKP',
         bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf',
         map: 'kkp_prudy_2019_06_20',
@@ -4084,6 +4112,7 @@ let commonEvents = [
         res: 'https://o-site.spb.ru/_races/190623MMS/res1.htm',
         video: 'https://www.youtube.com/watch?v=0Hr9Tw0Cv5M',
         start: 'MMS',
+        region: 'SPB',
         o_site: '190623MMS',
         bulletin: 'https://o-site.spb.ru/_races/190623MMS/19062123_info.pdf',
         reskeep: [171, 172, 173],
@@ -4247,6 +4276,7 @@ let commonEvents = [
         endDate: '2019-08-05',
         place: 'Поляны, ДОЛ Университетский, ДОЛ Волна',
         name: 'Фестиваль 60-летия спортивного ориентирования в России',
+        region: 'SPB',
         res: 'http://o-site.spb.ru/_races/19080105/res1.htm',
         photo: 'http://vk.com/album-154221178_264969152',
         video: [
@@ -4990,17 +5020,6 @@ let commonEvents = [
         owner: 'FSOR'
     },
     {
-        id: 'MAJOR_20200924_3',
-        date: '2020-09-24',
-        endDate: '2020-09-28',
-        place: 'Выборг, Ленинградская обл',
-        name: 'Всероссийские соревнования, спринт',
-        info: 'Личные соревнования. Группы: МЖ-14, 16, 18.',
-        fmt: 'спринт',
-        owner: 'FSOR',
-        region: 'SPB'
-    },
-    {
         id: 'MAJOR_20201001_2',
         date: '2020-10-01',
         endDate: '2020-10-05',
@@ -5189,6 +5208,7 @@ let commonEvents = [
         date: '2021-01-29',
         endDate: '2021-01-31',
         name: 'Чемпионат и Первенство СЗФО и ЦФО',
+        region: 'SPB',
         type: 'SKI',
         place: 'Петровское',
         res: 'https://o-site.spb.ru/_races/21012830/210129_rez.htm',
@@ -5455,6 +5475,7 @@ let commonEvents = [
         info: 'Всероссийские соревнования по трейл-ориентированию "ЧЕМПИОНАТ ФЕДЕРАЦИИ СПОРТИВНОГО ОРИЕНТИРОВАНИЯ" Всероссийские соревнования по трейл-ориентированию "ПЕРВЕНСТВО ФЕДЕРАЦИИ СПОРТИВНОГО ОРИЕНТИРОВАНИЯ"',
         type: 'TRAIL_O',
         start: 'KS',
+        region: 'SPB',
         o_site: '210618_trailo'
     },
     {
@@ -5473,6 +5494,7 @@ let commonEvents = [
             'https://www.youtube.com/watch?v=vnw0VrvQi1k'
         ],
         start: 'KKP',
+        region: 'SPB',
         o_site: '210612-18_KKP',
         bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
         strava: [5458197904,5462673247,5485783437,5489340513]
@@ -5485,6 +5507,7 @@ let commonEvents = [
         name: 'ККП #1',
         fmt: 'классика',
         start: 'KKP',
+        region: 'SPB',
         o_site: '210612-18_KKP',
         bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
         reskeep: 474,
@@ -5508,6 +5531,7 @@ let commonEvents = [
         name: 'ККП #2',
         fmt: 'лонг',
         start: 'KKP',
+        region: 'SPB',
         o_site: '210612-18_KKP',
         bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
         reskeep: 477,
@@ -5531,6 +5555,7 @@ let commonEvents = [
         name: 'ККП #3',
         fmt: 'лонг-масстарт',
         start: 'KKP',
+        region: 'SPB',
         o_site: '210612-18_KKP',
         bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
         reskeep: 478,
@@ -5553,6 +5578,7 @@ let commonEvents = [
         name: 'ККП #4',
         fmt: 'спринт',
         start: 'KKP',
+        region: 'SPB',
         o_site: '210612-18_KKP',
         bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
         reskeep: 479,
@@ -5574,6 +5600,7 @@ let commonEvents = [
         name: 'Мемориал Михаила Святкина',
         res: 'https://o-site.spb.ru/_races/21061820/MMC21.pdf',
         start: 'MMS',
+        region: 'SPB',
         o_site: '21061820',
         cancelled: true
     },
@@ -5744,6 +5771,7 @@ let commonEvents = [
         date: '2021-09-05',
         place: 'пляж Ласковый',
         name: 'Всероссийские соревнования по трейл-ориентированию (WRE)',
+        region: 'SPB',
         res: 'https://o-site.spb.ru/_races/050921_bb/20210509_SPRINT_absolyutny (1).pdf',
         info: 'Всероссийские соревнования по трейл-ориентированию «БАЛТИЙСКИЙ БЕРЕГ» (WRE) пройдут с 3 по 5 сентября. Кубок Санкт-Петербурга по спортивному ориентированию лиц с ПОДА: 04.09.2021',
         type: 'TRAIL_O',
@@ -6328,6 +6356,7 @@ let commonEvents = [
             'https://www.youtube.com/watch?v=jtpjjOZBJpY',
         ],
         start: 'KKP',
+        region: 'SPB',
         o_site: '220613-16_KKP'
     },
     {
@@ -6338,6 +6367,7 @@ let commonEvents = [
         name: 'ККП #1',
         fmt: 'классика',
         start: 'KKP',
+        region: 'SPB',
         o_site: '220613-16_KKP',
         video: [
             'http://vk.com/video-93257360_456239179',
@@ -6363,6 +6393,7 @@ let commonEvents = [
         name: 'ККП #2',
         fmt: 'лонг',
         start: 'KKP',
+        region: 'SPB',
         o_site: '220613-16_KKP',
         map: 'kkp_paltsevo_2022_06_14',
         o_gps: {
@@ -6390,6 +6421,7 @@ let commonEvents = [
         name: 'ККП #3',
         fmt: 'лонг-масстарт',
         start: 'KKP',
+        region: 'SPB',
         o_site: '220613-16_KKP',
         reskeep: 548,
         strava: 7312045246,
@@ -6416,6 +6448,7 @@ let commonEvents = [
         name: 'ККП #4',
         fmt: 'спринт',
         start: 'KKP',
+        region: 'SPB',
         o_site: '220613-16_KKP',
         map: 'kkp_paltsevo_2022_06_16',
         o_gps: {
@@ -6439,6 +6472,7 @@ let commonEvents = [
         endDate: '2022-06-18',
         place: 'Выборг',
         name: 'Всероссийские соревнования «Чемпионат и Первенство ФСОР» — трейлО',
+        region: 'SPB',
         reg: 'http://orgeo.ru/event/info/22255',
         endReg: '2022-06-11 10:00',
         res: 'http://disk.yandex.ru/d/5pcfarHbOr3aDA%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5',
@@ -6468,6 +6502,7 @@ let commonEvents = [
         endReg: '2022-06-11 00:05',
         res: 'http://orgeo.ru/live/#/21592',
         start: 'MMS',
+        region: 'SPB',
         o_site: '22061820',
         bulletin: 'https://o-site.spb.ru/_races/22061820/22061721_info2.pdf',
         strava: [7328784020,7333156174],
@@ -6688,6 +6723,7 @@ let commonEvents = [
         date: '2022-09-17',
         place: 'Парк Дачи Эбсворта (усадьба «Литания», часть парка Новознаменка)',
         name: 'Всероссийские соревнования «Балтийский берег» (трейл-ориентирование)',
+        region: 'SPB',
         reg: 'http://orgeo.ru/event/info/23932',
         endReg: '2022-09-15 23:55',
         res: 'https://o-site.spb.ru/_races/220917_trailo/protokol_elita_preO.pdf',
@@ -6744,6 +6780,7 @@ let commonEvents = [
         endDate: '2022-10-10',
         place: 'Пушкин, Сестрорецкие Дюны, Ласковый пляж',
         name: 'Всероссийские соревнования, Фестиваль «Невский спринт»',
+        region: 'SPB',
         res: 'https://o-site.spb.ru/_races/221010_vseros/221008_res_sum.htm',
         photo: [
             'http://vk.com/album-154221178_287261227',
@@ -7343,6 +7380,7 @@ let commonEvents = [
         place: 'Пруды',
         name: 'Камни Карельского Перешейка 2023',
         start: 'KKP',
+        region: 'SPB',
         o_site: '230617-22_KKP',
         video: [
             'https://vksport.vkvideo.ru/video-93257360_456239221',
@@ -7361,6 +7399,7 @@ let commonEvents = [
         name: 'ККП 2023 #1',
         fmt: 'классика',
         start: 'KKP',
+        region: 'SPB',
         o_site: '230617-22_KKP',
         strava: 9321298380,
         reskeep: 599,
@@ -7395,6 +7434,7 @@ let commonEvents = [
         name: 'ККП 2023 #2',
         fmt: 'лонг',
         start: 'KKP',
+        region: 'SPB',
         o_site: '230617-22_KKP',
         strava: 9321303067,
         reskeep: 600,
@@ -7427,6 +7467,7 @@ let commonEvents = [
         name: 'ККП 2023 #3',
         fmt: 'лонг-масстарт',
         start: 'KKP',
+        region: 'SPB',
         o_site: '230617-22_KKP',
         strava: 9321307758,
         reskeep: 601,
@@ -7454,6 +7495,7 @@ let commonEvents = [
         name: 'ККП 2023 #4',
         fmt: 'спринт',
         start: 'KKP',
+        region: 'SPB',
         o_site: '230617-22_KKP',
         strava: 9321312836,
         reskeep: 602,
@@ -7490,6 +7532,7 @@ let commonEvents = [
             'https://www.youtube.com/watch?v=0N8VrUFS6Wk&pp=0gcJCdoKAYcqIYzv'
         ],
         start: 'MMS',
+        region: 'SPB',
         o_site: 'mms2023',
         bulletin: 'https://o-site.spb.ru/_races/mms2023/Info2.pdf',
         reskeep: [598, 596, 597],
@@ -7801,6 +7844,7 @@ let commonEvents = [
         date: '2023-09-16',
         endDate: '2023-09-17',
         name: 'Всероссийские соревнования по трейл-ориентированию',
+        region: 'SPB',
         place: 'Сосновка',
         reg: 'http://orgeo.ru/event/info/30161',
         endReg: '2023-09-15 00:00',
@@ -7868,6 +7912,7 @@ let commonEvents = [
         date: '2023-10-05',
         endDate: '2023-10-09',
         name: 'Всероссийские соревнования "Невский спринт"',
+        region: 'SPB',
         place: 'УТЦ Кавголово, Парголово, шк №97',
         res: 'http://orgeo.ru/live/#/29568/1',
         o_gps: 17533,
@@ -8394,6 +8439,7 @@ let commonEvents = [
         endDate: '2024-06-20',
         place: 'Каменногорск',
         name: 'Всероссийские соревнования по трейл-ориентированию',
+        region: 'SPB',
         type: 'TRAIL_O',
         reg: 'http://orgeo.ru/event/32124',
         o_site: '240616',
@@ -8413,6 +8459,7 @@ let commonEvents = [
             'https://www.youtube.com/watch?v=av3s0YPh2eg'
         ],
         start: 'KKP',
+        region: 'SPB',
         o_site: '240615-20_KKP',
         bulletin: 'http://o-nw.ru/kkp_bulletin',
         strava: [11675022463,11681133944,11688407003,11696132252]
@@ -8425,6 +8472,7 @@ let commonEvents = [
         name: 'ККП 2024 #1',
         fmt: 'классика',
         start: 'KKP',
+        region: 'SPB',
         o_site: '240615-20_KKP',
         bulletin: 'http://o-nw.ru/kkp_bulletin',
         strava: 11675022463,
@@ -8453,6 +8501,7 @@ let commonEvents = [
         name: 'ККП 2024 #2',
         fmt: 'лонг',
         start: 'KKP',
+        region: 'SPB',
         o_site: '240615-20_KKP',
         bulletin: 'http://o-nw.ru/kkp_bulletin',
         strava: 11681133944,
@@ -8480,6 +8529,7 @@ let commonEvents = [
         name: 'ККП 2024 #3',
         fmt: 'лонг-масстарт',
         start: 'KKP',
+        region: 'SPB',
         o_site: '240615-20_KKP',
         bulletin: 'http://o-nw.ru/kkp_bulletin',
         strava: 11688407003,
@@ -8501,6 +8551,7 @@ let commonEvents = [
         name: 'ККП 2024 #4',
         fmt: 'спринт',
         start: 'KKP',
+        region: 'SPB',
         o_site: '240615-20_KKP',
         bulletin: 'http://o-nw.ru/kkp_bulletin',
         strava: 11696132252,
@@ -8530,6 +8581,7 @@ let commonEvents = [
             'https://rutube.ru/video/fef298061836473c2363f83cf319743c/'
         ],
         start: 'MMS',
+        region: 'SPB',
         o_site: 'mms2024',
         reskeep: [660, 661, 662],
         map: ['mms_2024_06_22','mms_2024_06_23'],
@@ -8623,6 +8675,7 @@ let commonEvents = [
         ],
         owner: 'WN',
         start: 'WN',
+        region: 'SPB',
         o_site: 'bn_2024',
         bulletin: 'https://o-site.spb.ru/_races/bn_2024/bn_2024_info.pdf',
         map: ['wn_2024_06_28', 'wn_2024_06_29', 'wn_2024_06_30'],
@@ -8927,6 +8980,7 @@ let commonEvents = [
         date: '2024-09-14',
         endDate: '2024-09-15',
         name: 'Всероссийские соревнования «Балтийский берег» (трейл-ориентирование)',
+        region: 'SPB',
         place: 'Колпино',
         res: 'http://vk.com/trailopiter',
         info: 'Всероссийские соревнования по спортивному ориентированию в дисциплинах трейл-ориентирования «Балтийский берег» Всероссийский фестиваль среди обучающихся, обучающихся с ограниченными возможностями здоровья и инвалидов по спортивному ориентированию в 2024 году',
@@ -9011,6 +9065,7 @@ let commonEvents = [
         date: '2024-10-11',
         endDate: '2024-10-14',
         name: 'Всероссийские соревнования Невский спринт',
+        region: 'SPB',
         place: 'Крестовский о-в, Кавголово',
         reg: 'http://orgeo.ru/event/info/37598',
         endReg: '2024-10-11 14:00',
@@ -9469,6 +9524,7 @@ let commonEvents = [
         endDate: '2025-05-26',
         place: 'Зеленогорск',
         name: 'Всероссийские и Международные соревнования',
+        region: 'SPB',
         type: 'VELO',
         o_site: '250522-26_VSMS',
         bulletin: 'https://o-site.spb.ru/_races/250522-26_VSMS/Infbul3VS_3.pdf',
@@ -9605,6 +9661,7 @@ let commonEvents = [
         photo: 'https://vk.ru/album-227779225_309822985',
         video: 'https://www.youtube.com/watch?v=VLJFZh0gfLI',
         start: 'KKP',
+        region: 'SPB',
         map: 'kkp_prudy_2023_06_19',
         me: 'М50'
     },
@@ -9618,6 +9675,7 @@ let commonEvents = [
         o_site: '250616-19_KKP',
         bulletin: 'http://o-nw.ru/kkp_bulletin',
         start: 'KKP',
+        region: 'SPB',
         strava: 14818986127,
         me: 'М50',
         map: 'kkp_2025_06_16',
@@ -9641,6 +9699,7 @@ let commonEvents = [
         o_site: '250616-19_KKP',
         bulletin: 'http://o-nw.ru/kkp_bulletin',
         start: 'KKP',
+        region: 'SPB',
         strava: 14830428556,
         me: 'М50',
         map: 'kkp_2025_06_17',
@@ -9664,6 +9723,7 @@ let commonEvents = [
         o_site: '250616-19_KKP',
         bulletin: 'http://o-nw.ru/kkp_bulletin',
         start: 'KKP',
+        region: 'SPB',
         strava: 14839302850,
         me: 'М50',
         map: 'kkp_2025_06_18',
@@ -9684,6 +9744,7 @@ let commonEvents = [
         o_site: '250616-19_KKP',
         bulletin: 'http://o-nw.ru/kkp_bulletin',
         start: 'KKP',
+        region: 'SPB',
         strava: 14849160764,
         me: 'М50',
         map: 'kkp_2025_06_19',
@@ -9706,6 +9767,7 @@ let commonEvents = [
         endReg: '2025-06-17 08:00',
         reskeep: [708, 709],
         start: 'MMS',
+        region: 'SPB',
         video: [
             'https://www.youtube.com/watch?v=VsrsQUFx4Uo',
             'https://www.youtube.com/watch?v=Awc980cCwP4',
@@ -9812,6 +9874,7 @@ let commonEvents = [
         },
         reskeep: [710, 711, 712],
         start: 'WN',
+        region: 'SPB',
         map: ['petjajarvy_2024', 'wn_2025_06_27', 'wn_2025_06_28', 'wn_2025_06_29'],
         strava: [
             14934051264,
@@ -10182,6 +10245,7 @@ let commonEvents = [
         endDate: '2025-10-06',
         place: 'Зеленогорск',
         name: 'Невский спринт',
+        region: 'SPB',
         fmt: 'многодневка, спринт',
         o_site: '251007_NS',
         bulletin: 'https://o-site.spb.ru/_races/251007_NS/NS2025_info3.pdf',
@@ -10640,6 +10704,7 @@ let commonEvents = [
         date: '2026-05-23',
         endDate: '2026-05-24',
         name: 'Международные соревнования',
+        region: 'SPB',
         place: 'Стеклянный',
         o_site: 'velo2026',
         bulletin: 'https://o-site.spb.ru/_races/velo2026/Infbul3_.pdf',
@@ -10658,6 +10723,7 @@ let commonEvents = [
         endDate: '2026-05-31',
         major: true,
         name: 'Чемпионат России по спорту лиц с поражением ОДА',
+        region: 'SPB',
         video: [
             'https://vkvideo.ru/video-179258987_456239020',
             'https://vkvideo.ru/video-179258987_456239022',
@@ -10735,6 +10801,7 @@ let commonEvents = [
         fmt: 'многодневка',
         map: 'kkp_prudy_2026_06_15_kamenukola',
         start: 'KKP',
+        region: 'SPB',
         me: 'М50'
     },
     {
@@ -10761,6 +10828,7 @@ let commonEvents = [
         fmt: 'классика',
         map: 'kkp_prudy_2026_06_16',
         start: 'KKP',
+        region: 'SPB',
         strava: 19002085164,
         me: 'М50'
     },
@@ -10788,6 +10856,7 @@ let commonEvents = [
         fmt: 'классика',
         map: 'kkp_prudy_2026_06_17',
         start: 'KKP',
+        region: 'SPB',
         strava: 18957152639,
         me: 'М50'
     },
@@ -10815,6 +10884,7 @@ let commonEvents = [
         planner: 'BEVZA',
         map: 'kkp_prudy_2026_06_18',
         start: 'KKP',
+        region: 'SPB',
         strava: 18984998518,
         me: 'М50'
     },
@@ -10840,6 +10910,7 @@ let commonEvents = [
         planner: 'PSTVTV',
         map: 'kkp_prudy_2026_06_19',
         start: 'KKP',
+        region: 'SPB',
         strava: 18991752756,
         me: 'М50'
     },
@@ -10861,6 +10932,7 @@ let commonEvents = [
         planner: 'CHGRVSKY_M',
         map: 'kkp_prudy_2026_06_20',
         start: 'KKP',
+        region: 'SPB',
         strava: 18995310275,
         me: 'М50'
     },
@@ -10925,6 +10997,7 @@ let commonEvents = [
         planner: ['ILVS','NKTN_I'],
         publish: 'https://vk.com/album-142737358_311427986',
         start: 'MMS',
+        region: 'SPB',
         map: ['peski_2026','mms_2026_06_26','mms_2026_06_27','mms_2026_06_28']
     },
     {
@@ -10946,6 +11019,7 @@ let commonEvents = [
         map: 'mms_2026_06_26',
         publish: 'https://vk.com/album-142737358_311427986',
         start: 'MMS',
+        region: 'SPB',
         planner: 'ILVS'
     },
     {
@@ -10974,7 +11048,8 @@ let commonEvents = [
         map: 'mms_2026_06_27',
         publish: 'https://vk.com/album-142737358_311427986',
         planner: 'ILVS',
-        start: 'MMS'
+        start: 'MMS',
+        region: 'SPB'
     },
     {
         id: 'SPB_20260628_2',
@@ -11004,7 +11079,8 @@ let commonEvents = [
         planner: 'NKTN_I',
         map: 'mms_2026_06_28',
         publish: 'https://vk.com/album-142737358_311427986',
-        start: 'MMS'
+        start: 'MMS',
+        region: 'SPB'
     },
     {
         id: 'MAJOR_20260702_1',
@@ -11089,6 +11165,7 @@ let commonEvents = [
         ],
         fmt: 'спринт, лонг, классика',
         start: 'WN',
+        region: 'SPB',
         map: ['wn_2026_07_03','wn_2026_07_04','wn_2026_07_05'],
         planner: ['BLKV_M','GRBTNKVA_S','YGNV']
     },
@@ -11289,6 +11366,7 @@ let commonEvents = [
         type: 'ROGAINE',
         planner: 'RYLOV_V',
         start: 'RRC',
+        region: 'SPB',
         info: 'Пути участников: [<a href="https://forestadventure.ru/2026/rrc/">1</a>], [<a href="https://o-route.ru/events/rrc-2026">2</a>]. Победители: MO (абс.): Михаил Полянчиков (Жуков), Павел Сорокин (Москва) — 488; XO: Дмитрий Панов, Сергей Романенков, Анна Шавлакова — 444; WO: Екатерина Петухова, Анна Шляпникова — 336. Команд — 84, участников — 181.',
         photo: 'https://vk.ru/album-8292013_314304112',
         res: [
@@ -11439,22 +11517,12 @@ let commonEvents = [
         owner: 'FSOR'
     },
     {
-        id: 'MAJOR_20260910_1',
-        date: '2026-09-10',
-        endDate: '2026-09-14',
-        place: 'Санкт-Петербург',
-        name: 'Всероссийские соревнования «Невский спринт»',
-        info: 'Личные соревнования. Группы: МЖ-14, 16, 18, 20, 23, МЖ-Элита.',
-        fmt: 'спринт, многодневный, эстафета 2 чел.',
-        owner: 'FSOR',
-        region: 'SPB'
-    },
-    {
         id: 'SPB_20260911_1',
         date: '2026-09-11',
         endDate: '2026-09-13',
         place: 'Сестрорецк, Зеленогорск',
-        name: 'НЕВСКИЙ СПРИНТ',
+        name: 'Всероссийские соревнования «Невский спринт»',
+        region: 'SPB',
         o_site: '260913_NS',
         bulletin: 'https://o-site.spb.ru/_races/260913_NS/260910_info3_v3.pdf',
         o_gps: {
@@ -11465,7 +11533,7 @@ let commonEvents = [
         reg: 'http://orgeo.ru/event/info/53700',
         endReg: '2026-09-08 11:30',
         reskeep: [921,922,923],
-        fmt: 'спринт, многодневный, эстафета',
+        fmt: 'спринт, многодневный, эстафета 2х',
         owner: 'SFSO_SPB',
         planner: ['KSHN_D','LHMNV'],
         photo: [
@@ -11481,7 +11549,8 @@ let commonEvents = [
             'https://vk.ru/album-230167293_314459027',
             'https://vk.ru/album-230167293_314459034'
         ],
-        map: ['sestroretsk_dubkovskoe_2026','zelenogorsk_chernye_2023','zelenogorsk_schuchye_2026']
+        map: ['sestroretsk_dubkovskoe_2026','zelenogorsk_chernye_2023','zelenogorsk_schuchye_2026'],
+        region: 'SPB'
     },
     {
         id: 'MAJOR_20260911_1',
@@ -11512,6 +11581,7 @@ let commonEvents = [
         endDate: '2026-09-20',
         name: 'Гран-при Владимира Алексеева, ЧиП ЛО',
         start: 'LO_CHAMP',
+        region: 'SPB',
         place: 'Мичуринское',
         o_site: '260920',
         bulletin: 'https://o-site.spb.ru/_races/260920/260920_info.pdf',
