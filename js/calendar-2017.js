@@ -536,6 +536,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170426/170426_res.pdf',
         photo: 'http://vk.com/album-51571395_243769294',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
+        type: 'TRAIL_O',
         owner: 'SFSO_SPB',
         o_site: '170426'
     },
@@ -1156,44 +1157,6 @@ let events2017 = [
         maps: [
             'https://100x24.ru/2017/maps/100x24_2017_mtbo.gif'
         ]
-    },
-    {
-        id: 'SPB_20170618_1',
-        date: '2017-06-18',
-        endDate: '2017-06-23',
-        place: 'Каменногорск, Пруды',
-        name: 'Кубок Карельского Перешейка',
-        res: 'https://o-site.spb.ru/_races/20170518_23KKP/vseros_KKP.rar',
-        o_gps: {
-            'М': 2456,
-            'Ж': 2457,
-            'M20': 2476,
-            'Ж20': 2477,
-            'ALL': 2464,
-        },
-        video: [
-            'https://www.youtube.com/watch?v=Ln3P0EaC9SU',
-            'https://www.youtube.com/watch?v=P0dfYcRp3bY',
-            'https://www.youtube.com/watch?v=yUYNobd3ZF4',
-            'https://www.youtube.com/watch?v=9h0oEB0Btyg',
-            'https://www.youtube.com/watch?v=Pqud-K2ZsW8'
-        ],
-        start: 'KKP',
-        o_site: '20170518_23KKP',
-        bulletin: 'http://o-nw.com/file/infoKKP_1.pdf',
-        map: 'kkp_prudy_2017_06_19'
-    },
-    {
-        id: 'SPB_20170623_1',
-        date: '2017-06-23',
-        endDate: '2017-06-25',
-        place: 'Коробицино',
-        name: 'XXV Мемориал Михаила Святкина',
-        video: 'https://www.youtube.com/watch?v=O1-9Fes-3Gg',
-        start: 'MMS',
-        o_site: '17062325',
-        o_gps: 2492,
-        map: ['mms_2017_korobitsyno','mms_2017_06_23','mms_2017_06_24','mms_2017_06_25']
     },
     {
         id: 'SPB_20170701_1',
@@ -2031,20 +1994,6 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/171103/171103_res.htm',
         o_site: '171103',
         bulletin: 'https://o-site.spb.ru/_races/171103/171103_info1.pdf'
-    },
-    {
-        id: 'SPB_20171102_1',
-        date: '2017-11-02',
-        name: 'Sochi-2017',
-        place: 'Сочи',
-        res: 'http://orgeo.ru/live/#/5494',
-        o_site: '171103Sochi',
-        o_gps: {
-            'М': 3055,
-            'Ж': 3056,
-            'М20': 3057,
-            'Ж20': 3058
-        }
     },
     {
         id: 'SPB_20171104_1',

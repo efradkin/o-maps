@@ -1145,152 +1145,6 @@ let events2024 = [
         video: ['https://www.youtube.com/watch?v=AvwPOqkj22k','https://vkvideo.ru/video-93257360_456239236']
     },
     {
-        id: 'SPB_20240616_1',
-        date: '2024-06-16',
-        endDate: '2024-06-20',
-        place: 'Каменногорск',
-        name: 'Всероссийские соревнования по трейл-ориентированию',
-        reg: 'http://orgeo.ru/event/32124',
-        o_site: '240616',
-        bulletin: 'https://o-site.spb.ru/_races/240616/Info_bul_2024_KKP.pdf'
-    },
-    {
-        id: 'SPB_20240615_1',
-        date: '2024-06-17',
-        endDate: '2024-06-21',
-        place: 'Каменногорск',
-        name: 'Камни Карельского Перешейка',
-        reg: 'http://sportident.online/entry/?id=5930',
-        video: [
-            'http://northernwind.spb.ru/videosplit/2024/KKP/d1',
-            'http://northernwind.spb.ru/videosplit/2024/KKP/d2',
-            'http://northernwind.spb.ru/videosplit/2024/KKP/d4',
-            'https://www.youtube.com/watch?v=av3s0YPh2eg'
-        ],
-        start: 'KKP',
-        o_site: '240615-20_KKP',
-        bulletin: 'http://o-nw.ru/kkp_bulletin',
-        strava: [11675022463,11681133944,11688407003,11696132252]
-    },
-    {
-        id: 'SPB_20240617_1',
-        parent: 'SPB_20240615_1',
-        date: '2024-06-17',
-        place: 'Каменногорск',
-        name: 'ККП 2024 #1',
-        fmt: 'классика',
-        start: 'KKP',
-        o_site: '240615-20_KKP',
-        bulletin: 'http://o-nw.ru/kkp_bulletin',
-        strava: 11675022463,
-        reskeep: 657,
-        map: 'kkp_novinskoe_2024_06_17',
-        o_gps: {
-            'М': 19774,
-            'Ж': 19772,
-            'М50/55/Ж45': 19854,
-            'М21А': 19807,
-            'М20/М35': 19844,
-        },
-        video: [
-            'https://vkvideo.ru/video-93257360_456239239',
-            'https://rutube.ru/video/454b701d752663a0460ba82012cb8313/',
-            'https://www.youtube.com/watch?v=8KtdCrgRpOc',
-            'https://www.youtube.com/watch?v=E8VJL0bXcWo',
-            'https://www.youtube.com/watch?v=CCWKHF2m2Ns'
-        ]
-    },
-    {
-        id: 'SPB_20240618_1',
-        parent: 'SPB_20240615_1',
-        date: '2024-06-18',
-        place: 'Каменногорск',
-        name: 'ККП 2024 #2',
-        fmt: 'лонг',
-        start: 'KKP',
-        o_site: '240615-20_KKP',
-        bulletin: 'http://o-nw.ru/kkp_bulletin',
-        strava: 11681133944,
-        reskeep: 658,
-        map: 'kkp_novinskoe_2024_06_18',
-        o_gps: {
-            'М': 19783,
-            'Ж': 19781,
-            'М50/55/Ж45': 19861,
-            'Ж20/М18': 19811,
-            'М21А': 19830,
-        },
-        video: [
-            'https://vkvideo.ru/video-93257360_456239244',
-            'https://rutube.ru/video/f1a0fb311cd42b02cbafad0792993efc/',
-            'https://www.youtube.com/watch?v=b4xly5c1uj0',
-            'https://www.youtube.com/watch?v=8MI6LGyKN7E'
-        ]
-    },
-    {
-        id: 'SPB_20240619_1',
-        parent: 'SPB_20240615_1',
-        date: '2024-06-19',
-        place: 'Каменногорск',
-        name: 'ККП 2024 #3',
-        fmt: 'лонг-масстарт',
-        start: 'KKP',
-        o_site: '240615-20_KKP',
-        bulletin: 'http://o-nw.ru/kkp_bulletin',
-        strava: 11688407003,
-        map: 'kkp_2024_06_19',
-        o_gps: {
-            'М': 19790,
-            'М2': 19865,
-            'Ж': 19789,
-            'М50/55/Ж45': 19868,
-            'Ж20/М18': 19810,
-        },
-        video: ['https://vkvideo.ru/video-93257360_456239249','https://www.youtube.com/watch?v=5qnkvAx7M4I']
-    },
-    {
-        id: 'SPB_20240620_1',
-        parent: 'SPB_20240615_1',
-        date: '2024-06-20',
-        place: 'Каменногорск',
-        name: 'ККП 2024 #4',
-        fmt: 'спринт',
-        start: 'KKP',
-        o_site: '240615-20_KKP',
-        bulletin: 'http://o-nw.ru/kkp_bulletin',
-        strava: 11696132252,
-        reskeep: 659,
-        map: 'kkp_novinskoe_2024_06_20',
-        o_gps: {
-            'М': 19793,
-            'Ж': 19792,
-            'М50/55/Ж45': 19838,
-            'М21А': 19832,
-        },
-        video: [
-            'https://vkvideo.ru/video-93257360_456239251',
-            'https://www.youtube.com/watch?v=TOsJ0NYzKh8',
-            'https://www.youtube.com/watch?v=FoZ1wwh5yFU'
-        ]
-    },
-    {
-        id: 'SPB_20240621_1',
-        date: '2024-06-21',
-        endDate: '2024-06-23',
-        name: 'Мемориал Михаила Святкина',
-        place: 'Первомайское',
-        video: [
-            'https://www.youtube.com/watch?v=EBNBDpK8i6w',
-            'https://www.youtube.com/watch?v=bBAqaBj5BxQ',
-            'https://rutube.ru/video/fef298061836473c2363f83cf319743c/'
-        ],
-        start: 'MMS',
-        o_site: 'mms2024',
-        reskeep: [660, 661, 662],
-        map: ['mms_2024_06_22','mms_2024_06_23'],
-        planner: ['NKTN_I','ILVS']
-    },
-    {
         id: 'SPB_20240622_1',
         date: '2024-06-22',
         place: 'Санкт-Петербург',
@@ -1328,32 +1182,6 @@ let events2024 = [
         o_site: '24062427',
         bulletin: 'https://o-site.spb.ru/_races/24062427/24062427_info.pdf',
         map: ['ym_2024_pervomayskoe_sprint', 'ym_2024_pervomayskoe_klassika']
-    },
-    {
-        id: 'SPB_20240627_1',
-        date: '2024-06-27',
-        endDate: '2024-06-30',
-        name: 'Многодневка Белые Ночи, ЧиП СЗФО',
-        place: 'Воробьево оз',
-        res: 'https://o-site.spb.ru/_races/bn_2024/240701_Perv_kom.pdf',
-        video: [
-            'https://www.youtube.com/watch?v=cS5LZSSWWho',
-            'https://www.youtube.com/watch?v=NtIA9JzaYyA',
-            'https://www.youtube.com/watch?v=xpQ84Ueyc44',
-            'https://rutube.ru/video/0ff002ced26f57c75a9efbd8edbe6e08/',
-            'https://rutube.ru/video/49ebcc7099d3cc7561c7e09c2f3422a0/',
-            'https://www.youtube.com/watch?v=jZTeOnIpClk'
-        ],
-        owner: 'WN',
-        start: 'WN',
-        o_site: 'bn_2024',
-        bulletin: 'https://o-site.spb.ru/_races/bn_2024/bn_2024_info.pdf',
-        map: ['wn_2024_06_28', 'wn_2024_06_29', 'wn_2024_06_30'],
-        o_gps: {
-            '28': 19931,
-            '29': 19933,
-            '30': 19944
-        }
     },
     {
         id: 'SPB_20240629_1',
@@ -1772,17 +1600,6 @@ let events2024 = [
         o_gps: 20456
     },
     {
-        id: 'SPB_20240914_1',
-        date: '2024-09-14',
-        endDate: '2024-09-15',
-        name: 'Всероссийские соревнования «Балтийский берег» (трейл-ориентирование)',
-        place: 'Колпино',
-        res: 'http://vk.com/trailopiter',
-        info: 'Всероссийские соревнования по спортивному ориентированию в дисциплинах трейл-ориентирования «Балтийский берег» Всероссийский фестиваль среди обучающихся, обучающихся с ограниченными возможностями здоровья и инвалидов по спортивному ориентированию в 2024 году',
-        o_site: '240915_baltbereg',
-        bulletin: 'https://o-site.spb.ru/_races/240915_baltbereg/Info_Bul2_TR_O_24091415.pdf'
-    },
-    {
         id: 'SPB_20240914_2',
         date: '2024-09-14',
         endDate: '2024-09-15',
@@ -2083,21 +1900,6 @@ let events2024 = [
         photo: 'https://vk.ru/album-92124592_304480789'
     },
     {
-        id: 'SPB_20241011_1',
-        date: '2024-10-11',
-        endDate: '2024-10-14',
-        name: 'Всероссийские соревнования Невский спринт',
-        place: 'Крестовский о-в, Кавголово',
-        reg: 'http://orgeo.ru/event/info/37598',
-        endReg: '2024-10-11 14:00',
-        res: 'http://orgeo.ru/live/#/37598',
-        owner: 'SFSO_SPB',
-        o_site: '241014',
-        bulletin: 'https://o-site.spb.ru/_races/241014/241014-info3.pdf',
-        video: ['https://www.youtube.com/watch?v=QqH4NTkUANw','https://www.youtube.com/watch?v=xEt_Z9K5AU4'],
-        map: ['krestovsky_south_2023','kavgolovo_2024']
-    },
-    {
         id: 'SPB_20241012_3',
         date: '2024-10-12',
         place: 'Лемболово',
@@ -2351,15 +2153,6 @@ let events2024 = [
             'Фитнес': 21155
         },
         me: 'М45'
-    },
-    {
-        id: 'SPB_20241126_1',
-        date: '2024-11-26',
-        name: 'Онлайн соревнования ТОЧНЫЙ АЗИМУТ',
-        reg: 'http://forms.yandex.ru/cloud/636d0ae92530c205eae4cc20/',
-        info: 'Заключительное мероприятие Всероссийского фестиваля среди обучающихся, обучающихся с ограниченными возможностями здоровья и инвалидов по спортивному ориентированию на 2024 год «Онлайн соревнования «ТОЧНЫЙ АЗИМУТ»: 26 ноября с 00:00 до 20:00 (МСК).',
-        o_site: '241126_online',
-        bulletin: 'https://o-site.spb.ru/_races/241126_online/2024_INFORMATsIONNYJ_BYuLLETEN_ROSSIYa.pdf'
     },
     {
         id: 'SPB_20241130_1',

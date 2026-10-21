@@ -943,46 +943,6 @@ let events2016 = [
         map: ['na_2016_06_17', 'na_2016_pervomayskoe', 'na_2016_06_19']
     },
     {
-        id: 'SPB_20160619_1',
-        date: '2016-06-18',
-        endDate: '2016-06-24',
-        name: 'Кубок Карельского Перешейка',
-        place: 'Выборг',
-        res: 'http://moscompass.ru/news/2016/2016062021.htm',
-        o_gps: {
-            'М': 1217,
-            'Ж': 1218,
-        },
-        video: [
-            'https://www.youtube.com/watch?v=ccDgYo9KzNg',
-            'https://www.youtube.com/watch?v=rnbF6Eb1DhE',
-            'https://www.youtube.com/watch?v=p0Vc95g14yo',
-            'https://www.youtube.com/watch?v=3npql35PxRA',
-            'https://www.youtube.com/watch?v=GDZYtaUk6G0'
-        ],
-        start: 'KKP',
-        o_site: '160619-24',
-        map: ['kkp_goritsa_2016_06_18','kkp_solnechnoe_2016_06_19','kkp_trostinka_2016_06_23']
-    },
-    {
-        id: 'SPB_20160624_1',
-        date: '2016-06-24',
-        name: 'XXIV Мемориал Михаила Святкина',
-        place: 'Коробицыно',
-        reg: 'http://o-reg.spb.ru/entry-list?id=594',
-        res: 'https://o-site.spb.ru/_races/20160624/160626_res.htm',
-        video: [
-            'https://www.youtube.com/watch?v=83b-nz750Ho',
-            'https://www.youtube.com/watch?v=sEFfuhMcC9M'
-        ],
-        start: 'MMS',
-        o_site: '20160624',
-        bulletin: 'http://svjatkin.spb.ru/info.html',
-        endDate: '2016-06-26',
-        o_gps: 1235,
-        map: ['mms_2016_korobitsyno','mms_2016_06_24', 'mms_2016_06_25','mms_2016_06_26']
-    },
-    {
         id: 'SPB_20160628_1',
         date: '2016-06-28',
         place: 'Ржевский л/п',
@@ -1846,6 +1806,7 @@ let events2016 = [
         place: 'Парк Екатерингоф',
         name: 'Трейл-О Питер 2016',
         info: 'Проводится в рамках Межрегионального семинара по точному ориентированию (трейл-Ориентированию) «Точное ориентирование - адаптивная физкультура без границ»',
+        type: 'TRAIL_O',
         o_site: '161112',
         map: 'ekateringof_2021'
     },

@@ -459,6 +459,7 @@ let events2020 = [
         name: 'Онлайн-старт по трейл-ориентированию',
         res: 'https://o-site.spb.ru/_races/200411/rezultaty.pdf',
         info: '11 апреля в 20.01 пройдёт тренировочный онлайн-старт по трейл-ориентированию. Пожалуйста отнеситесь с пониманием. Заполните форму только один раз. И будьте внимательны при вводе уникального стартового номера.',
+        type: 'TRAIL_O',
         o_site: '200411',
         bulletin: 'https://o-site.spb.ru/_races/200411/200411_inf_.pdf'
     },
@@ -469,6 +470,7 @@ let events2020 = [
         name: 'Онлайн-старт по трейл-ориентированию, 2 этап',
         res: 'http://o-site.spb.ru/_races/200418/200418_rez.pdf',
         info: '18 апреля в 20.01 пройдёт второй этап тренировочного онлайн-старта по трейл-ориентированию. Местность в заданиях - «Комаровский берег».',
+        type: 'TRAIL_O',
         o_site: '200418',
         bulletin: 'http://o-site.spb.ru/_races/200418/200418_inf.pdf'
     },
@@ -489,6 +491,7 @@ let events2020 = [
         endReg: '2020-04-26 06:00',
         res: 'http://o-site.spb.ru/_races/200426/200426_rezultaty.pdf',
         info: '26 апреля (воскресенье!) состоится третий этап онлайн-старта по трейл-ориентированию (дисциплина "точное ориентирование"/PreO).',
+        type: 'TRAIL_O',
         o_site: '200426',
         bulletin: 'https://o-site.spb.ru/_races/200426/26_aprelya_Byulleten-2.pdf',
         maps: [
@@ -528,6 +531,7 @@ let events2020 = [
         endReg: '2020-05-10 06:00',
         res: 'http://o-site.spb.ru/_races/200510/200510_rez_-_kopia5.pdf',
         info: '10 мая (воскресенье) состоится четвёртый этап онлайн-старта по трейл-ориентированию (дисциплина "точное ориентирование"/PreO).',
+        type: 'TRAIL_O',
         o_site: '200510',
         bulletin: 'https://o-site.spb.ru/_races/200510/10_maya_Info_byulleten.pdf',
         maps: [
@@ -608,6 +612,7 @@ let events2020 = [
         endReg: '2020-05-31 16:00',
         res: 'https://o-site.spb.ru/_races/200601/200601_SCHOOL_REZ.pdf',
         info: '1 июня (понедельник) состоится онлайн-старт по трейл-О, приуроченный ко Дню защиты детей. Дистанция: TempO (Спринт)',
+        type: 'TRAIL_O',
         o_site: '200601',
         bulletin: 'https://o-site.spb.ru/_races/200601/01_iyunya_IB.pdf'
     },
@@ -1242,6 +1247,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200915/Kopia_200915.pdf',
         photo: 'http://vk.com/spb_orient?z=album-154221178_274831695',
         info: '15 сентября в Муринском парке пройдёт открытая тренировка «Доступный спорт» по трейл-ориентированию (дистанция PreO). Мероприятие проводится в рамках проекта «Молодежный открытый фестиваль «Доступный спорт».',
+        type: 'TRAIL_O',
         o_site: '200915',
         maps: [
             'https://o-site.spb.ru/_races/200915/solution_.pdf'
@@ -1923,6 +1929,7 @@ let events2020 = [
         reg: 'http://forms.gle/qfZVVcJogXwJs6C28',
         res: 'https://o-site.spb.ru/_races/201203_trailo/Predv_prot_Sport_dlya_vsekh_TreylO.pdf',
         info: 'Открытое Первенство среди обучающихся школьных спортивных клубов ОУ СПб «Спорт для всех» по видам спорта» среди обучающихся с ОВЗ. Все желающие, не относящиеся к школьникам, могут участвовать в группе «Оpen».',
+        type: 'TRAIL_O',
         owner: 'SFSO_LO',
         o_site: '201203_trailo',
         bulletin: 'https://o-site.spb.ru/_races/201203_trailo/Info.pdf',

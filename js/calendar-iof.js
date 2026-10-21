@@ -11758,6 +11758,38 @@ let iofEvents = [
         start: 'SKI_WOC'
     },
     {
+        id: 'MAJOR_20260424_1',
+        date: '2026-04-24',
+        endDate: '2026-04-26',
+        place: 'Locarno Switzerland',
+        name: 'Первый тур Кубка мира (OWC)',
+        link: 'https://orienteering.sport/event/orienteering-world-cup-round-1-6/welcome/',
+        major: true,
+        fmt: 'sprint, sprint relay knock-out sprint',
+        res: 'https://liveresults.ch/wc26r1/wc26r1-kos',
+        video: [
+            'https://youtu.be/OKRDXSKAjrw',
+            'https://youtu.be/CRaBucvMCyc',
+            'https://youtu.be/3-aUFBvEqZw',
+            'https://youtu.be/Wo8YPO0tzGU',
+        ],
+        gps: 'https://www.tulospalvelu.fi/gps/',
+        coord: [46.1700372, 8.7958253],
+        owner: 'IOF',
+        livelox: [186822, 186935]
+    },
+    {
+        id: 'MAJOR_20260522_1',
+        date: '2026-05-22',
+        endDate: '2026-05-28',
+        place: 'Португалия',
+        name: 'Чемпионат Европы (EMTBOC)',
+        res: 'https://www.tictactiming.pt/eventos/2026/0523_EMTBOC/EMTBOC_2026_Mixed_Relay.html',
+        major: true,
+        type: 'VELO',
+        owner: 'IOF'
+    },
+    {
         id: 'IOF_20260525_1',
         date: '2026-05-25',
         endDate: '2026-05-28', // по IOF; оргкомитет: 24–28 мая; перенесён из Оурена
@@ -11871,6 +11903,24 @@ let iofEvents = [
         fmt: 'mixed relay',
         start: 'EMTBOC',
         livelox: 191339
+    },
+    {
+        id: 'MAJOR_20260528_1',
+        date: '2026-05-28',
+        endDate: '2026-05-31',
+        place: 'Skara-Lidköping Sweden',
+        name: 'Второй тур Кубка мира (OWC)',
+        major: true,
+        fmt: 'knock-out sprint, sprint, sprint relay',
+        gps: 'https://www.tulospalvelu.fi/gps/',
+        video: [
+            'https://youtu.be/_womnWZvmcA',
+            'https://youtu.be/6V6RM7mydKs',
+            'https://youtu.be/jlyp2GFTsrM',
+            'https://youtu.be/horroNJAX0M',
+        ],
+        res: 'https://r.emit.live/followfull.php?comp=36831&lang=en',
+        owner: 'IOF'
     },
     {
         id: 'MAJOR_20260706_1',
@@ -12129,6 +12179,36 @@ let iofEvents = [
         livelox: 195944
     },
     {
+        id: 'MAJOR_20260806_1',
+        date: '2026-08-05',
+        endDate: '2026-08-09',
+        place: 'Vyšší Brod, Czechia',
+        name: 'Третий тур Кубка мира (World Cup)',
+        major: true,
+        fmt: 'long, middle, relay',
+        video: 'https://www.youtube.com/watch?v=F45Pr1atOXQ',
+        owner: 'IOF'
+    },
+    {
+        id: 'MAJOR_20260808_1',
+        date: '2026-08-08',
+        endDate: '2026-08-14',
+        place: 'Rzeszów-Przeworsk, Poland',
+        name: 'Чемпионат мира среди ветеранов (WMOC)',
+        major: true,
+        owner: 'IOF'
+    },
+    {
+        id: 'MAJOR_20260825_1',
+        date: '2026-08-25',
+        endDate: '2026-08-30',
+        place: 'Швеция',
+        name: 'Чемпионат мира (WMTBOC)',
+        major: true,
+        type: 'VELO',
+        owner: 'IOF'
+    },
+    {
         id: 'IOF_20260826_1',
         date: '2026-08-26',
         endDate: '2026-08-30', // по бюллетеню 1: 24-е - приезд, 25-е - модельная
@@ -12239,6 +12319,16 @@ let iofEvents = [
         fmt: 'relay',
         start: 'WMTBOC',
         livelox: 199442
+    },
+    {
+        id: 'MAJOR_20260909_2',
+        date: '2026-09-09',
+        endDate: '2026-09-13',
+        place: 'Великобритания',
+        name: 'Чемпионат мира среди ветеранов (WMMTBOC)',
+        major: true,
+        type: 'VELO',
+        owner: 'IOF'
     },
     {
         id: 'IOF_20260923_1',
@@ -12453,5 +12543,15 @@ let iofEvents = [
         fmt: 'relay',
         start: 'EOC',
         livelox: 204178
+    },
+    {
+        id: 'MAJOR_20260924_1',
+        date: '2026-09-24',
+        endDate: '2026-09-27',
+        place: 'Druskininkai, Lithuania',
+        name: 'Финальный тур Кубка мира (World Cup)',
+        major: true,
+        fmt: 'long, middle, relay',
+        owner: 'IOF'
     }
 ];

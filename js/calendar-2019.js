@@ -94,19 +94,6 @@ let events2019 = [
         o_gps: 4907
     },
     {
-        id: 'SPB_20190124_1',
-        date: '2019-01-24',
-        endDate: '2019-01-28',
-        place: 'Будогощь, б/о Мечта',
-        name: 'Чемп. и п-во СЗФО и ЦФО',
-        type: 'SKI',
-        reg: 'http://orgeo.ru/event/8332',
-        endReg: '2019-01-22 22:00',
-        photo: 'http://vk.com/vkusnypirozhochek?z=album-176158928_260195803',
-        o_site: '190124',
-        bulletin: 'https://o-site.spb.ru/_races/190124/byull_1-2_SZFO-TsFO.pdf'
-    },
-    {
         id: 'SPB_20190126_1',
         date: '2019-01-26',
         place: 'Лемболово',
@@ -118,28 +105,6 @@ let events2019 = [
         fmt: 'Рогейн 4 часа. Лыжи, бег или велосипед.',
         owner: 'MULTSPORT',
         o_site: '190126r'
-    },
-    {
-        id: 'SPB_20190130_1',
-        date: '2019-01-30',
-        endDate: '2019-02-04',
-        place: 'ДОЛ Голубое озеро (Цвелодубово)',
-        name: 'Всероссийские соревнования в Цвелодубово',
-        type: 'SKI',
-        res: 'http://www.northernwind.spb.ru/videosplit/',
-        photo: 'http://photosport.online/index.html',
-        info: 'Всероссийские соревнования по спортивному ориентированию (лыжные дисциплины) Всероссийские соревнования среди спортсменов среднего, старшего и пожилого возраста по спортивному ориентированию «Чемпионат Ветеранов» Всероссийские соревнования среди студентов',
-        video: 'http://www.northernwind.spb.ru/videosplit/',
-        o_site: '190201',
-        map: 'tsvelodubovo_winter_2003',
-        o_gps: {
-            '01-М': 4960,
-            '01-Ж': 4961,
-            '02-М': 4962,
-            '02-Ж': 4963,
-            '03-М': 4968,
-            '03-Ж': 4969
-        }
     },
     {
         id: 'SPB_20190210_1',
@@ -461,6 +426,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190502/190501_rez_relay_v2.pdf',
         photo: 'http://vk.com/abcdefz_spb?z=album-179258987_261602241',
         info: 'С 26 апреля по 5 мая в Санкт-Петербурге состоится Чемпионат России по спорту лиц с поражениями ОДА в дисциплине спортивное ориентирование. Группы Para: МЖО1-О3; МЖО4-О6. А для открытых групп МЖ (2001 и старше) и МЖ до 18 (2002-2009) будет проведён Фестиваль трейл-ориентирования «ТрейлО Питер» и Открытый Кубок Федерации спортивного ориентирования Санкт-Петербурга по трейл-ориентированию.',
+        type: 'TRAIL_O',
         o_site: '190502',
         bulletin: 'https://o-site.spb.ru/_races/190502/190426_treilo__inf3.pdf'
     },
@@ -568,16 +534,6 @@ let events2019 = [
         o_site: '2019GK'
     },
     {
-        id: 'SPB_20190504_1',
-        date: '2019-05-04',
-        name: 'Первенство России',
-        place: 'Великий Новгород',
-        res: 'http://www.northernwind.spb.ru/videosplit/2019/PR_Novgorod/day3/',
-        video: 'http://www.northernwind.spb.ru/videosplit/2019/PR_Novgorod/day3/',
-        o_site: '190504PR',
-        reskeep: [149, 150, 151]
-    },
-    {
         id: 'SPB_20190504_2',
         date: '2019-05-04',
         place: 'Кузьмолово',
@@ -632,33 +588,6 @@ let events2019 = [
         fmt: '- 4 часа бегом, 3 часа на велосипеде',
         o_site: '190510',
         bulletin: 'https://o-site.spb.ru/_races/190510/190510_info.pdf'
-    },
-    {
-        id: 'SPB_20190510_2',
-        date: '2019-05-10',
-        endDate: '2019-05-12',
-        place: 'Луга',
-        name: 'Первенство России и Майская многодневка',
-        res: 'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
-        video: [
-            'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
-            'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day2/',
-            'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day3/',
-            'https://www.youtube.com/watch?v=YHZxotwF5bo'
-        ],
-        o_site: '190510Luga',
-        reskeep: [129, 130, 131],
-        bulletin: 'https://o-site.spb.ru/_races/190510Luga/18021217_info3.pdf',
-        o_gps: {
-            '10-М': 5649,
-            '10-Ж': 5653,
-            '11-М': 5661,
-            '11-Ж': 5670,
-            '11-ALL': 5669,
-            '12-М': 5688,
-            '12-Ж': 5689,
-            '12-ALL': 5690
-        }
     },
     {
         id: 'SPB_20190512_1',
@@ -1001,127 +930,12 @@ let events2019 = [
         start: 'YM_CUP'
     },
     {
-        id: 'SPB_20190617_1',
-        date: '2019-06-17',
-        endDate: '2019-06-20',
-        name: 'Кубок Карельского Перешейка',
-        place: 'Каменогорск',
-        res: 'https://o-site.spb.ru/_races/190616-21_KKP/20190617_kkp_1_rez.htm',
-        video: 'https://www.youtube.com/watch?v=xHGuA_XHXLc',
-        start: 'KKP',
-        o_site: '190616-21_KKP',
-        bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf'
-    },
-    {
-        id: 'SPB_20190617_2',
-        parent: 'SPB_20190617_1',
-        date: '2019-06-17',
-        name: 'ККП #1',
-        place: 'Каменогорск',
-        start: 'KKP',
-        o_site: '190616-21_KKP',
-        bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf',
-        reskeep: 167,
-        video: 'http://northernwind.spb.ru/videosplit/2019/kkp/day1',
-        o_gps: {
-            'М': 5953,
-            'Ж': 5954
-        }
-    },
-    {
-        id: 'SPB_20190618_1',
-        parent: 'SPB_20190617_1',
-        date: '2019-06-18',
-        name: 'ККП #2',
-        place: 'Каменогорск',
-        start: 'KKP',
-        o_site: '190616-21_KKP',
-        bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf',
-        map: 'kkp_prudy_2019_06_18',
-        o_gps: {
-            'М': 5957,
-            'Ж': 5958,
-            'ALL': 5959,
-        },
-        reskeep: 168,
-        video: [
-            'http://northernwind.spb.ru/videosplit/2019/kkp/day2',
-            'https://www.youtube.com/watch?v=ENZuiWbswwE'
-        ]
-    },
-    {
-        id: 'SPB_20190619_1',
-        parent: 'SPB_20190617_1',
-        date: '2019-06-19',
-        name: 'ККП #3',
-        place: 'Каменогорск',
-        start: 'KKP',
-        o_site: '190616-21_KKP',
-        bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf',
-        map: 'kkp_prudy_2019_06_19',
-        o_gps: {
-            'М': 5964,
-            'Ж': 5965,
-            'Ж18': 5981,
-            'M18': 5982,
-            'ALL': 5966,
-        },
-        reskeep: 169
-    },
-    {
-        id: 'SPB_20190620_1',
-        parent: 'SPB_20190617_1',
-        date: '2019-06-20',
-        name: 'ККП #4',
-        place: 'Каменогорск',
-        start: 'KKP',
-        o_site: '190616-21_KKP',
-        bulletin: 'https://o-site.spb.ru/_races/190616-21_KKP/190616-21_KKP_2019.pdf',
-        map: 'kkp_prudy_2019_06_20',
-        o_gps: {
-            'М': 5967,
-            'Ж': 5968,
-            'Ж18': 5986,
-            'М18': 5988,
-            'ALL': 5969,
-        },
-        reskeep: 170
-    },
-    {
         id: 'SPB_20190620_2',
         date: '2019-06-20',
         name: 'Первенство ВУЗов МО РФ',
         place: 'Юкки',
         res: 'https://o-site.spb.ru/_races/190618-20VO/19061819_res_summ.pdf',
         o_site: '190618-20VO'
-    },
-    {
-        id: 'SPB_20190621_1',
-        date: '2019-06-21',
-        endDate: '2019-06-23',
-        place: 'Сосново',
-        name: 'XXVII Мемориал М.Святкина',
-        reg: 'http://orgeo.ru/event/9132',
-        endReg: '2019-06-12 08:30',
-        res: 'https://o-site.spb.ru/_races/190623MMS/res1.htm',
-        video: 'https://www.youtube.com/watch?v=0Hr9Tw0Cv5M',
-        start: 'MMS',
-        o_site: '190623MMS',
-        bulletin: 'https://o-site.spb.ru/_races/190623MMS/19062123_info.pdf',
-        reskeep: [171, 172, 173],
-        map: ['mms_2019_06_21','mms_2019_06_22','mms_2019_06_23'],
-        planner: 'SRBRNTSKY',
-        o_gps: {
-            '21-ALL': 6003,
-            '22-ALL': 6004,
-            '23-М': 6006,
-            '23-Ж': 6007,
-            '23-М18': 6014,
-            '23-Ж18': 6015,
-            '23-М16': 6013,
-            '23-Ж16': 6012,
-            '23-ALL': 6005
-        }
     },
     {
         id: 'SPB_20190622_1',
@@ -1267,35 +1081,6 @@ let events2019 = [
         res: 'http://o-site.spb.ru/_races/201819_BN/190728_split.htm',
         reskeep: 183,
         map: 'vorobjevo_2024'
-    },
-    {
-        id: 'SPB_20190801_1',
-        date: '2019-08-01',
-        endDate: '2019-08-05',
-        place: 'Поляны, ДОЛ Университетский, ДОЛ Волна',
-        name: 'Фестиваль 60-летия спортивного ориентирования в России',
-        res: 'http://o-site.spb.ru/_races/19080105/res1.htm',
-        photo: 'http://vk.com/album-154221178_264969152',
-        video: [
-            'https://www.youtube.com/watch?v=yPT8N3zEwxs',
-            'https://www.youtube.com/watch?v=e82EscSDsvs',
-            'https://www.youtube.com/watch?v=gYShCF_kPv4',
-            'https://vkvideo.ru/video-154221178_456239037'
-        ],
-        o_site: '19080105',
-        reskeep: [177, 178, 180, 181],
-        o_gps: {
-            '02-М20': 6208,
-            '02-Ж20': 6209,
-            '02-М18': 6210,
-            '02-Ж18': 6211,
-            '03-МЖ20': 6215,
-            '03-МЖ18': 6216,
-            '05-М20': 6220,
-            '05-Ж20': 6221,
-            '05-М18': 6222,
-            '05-Ж18': 6223
-        }
     },
     {
         id: 'SPB_20190804_1',
@@ -1767,6 +1552,7 @@ let events2019 = [
         place: 'Школа № 17, Куракина дача',
         name: 'Открытое первенство по трейл-ориентированию',
         info: 'Открытое Первенство среди обучающихся школьных спортивных клубов образовательных учреждений Санкт-Петербурга.',
+        type: 'TRAIL_O',
         o_site: '191004',
         bulletin: 'https://o-site.spb.ru/_races/191004/191004_inf.pdf',
         map: 'kurakina_dacha_2017'
@@ -2089,6 +1875,7 @@ let events2019 = [
         name: 'Открытая тренировка по трейл-ориентированию',
         res: 'http://o-site.spb.ru/_races/191109tr/protokol_191109.pdf',
         info: 'Мероприятие проводится с целью развития трейл-ориентирования и подготовки спортсменов к международным и всероссийским соревнованиям. Организаторы: комиссия по трейл-ориентированию Федерации спортивного ориентирования Санкт-Петербурга, туристско-спортивный клуб «31 КП», клуб «Азимут».',
+        type: 'TRAIL_O',
         o_site: '191109tr',
         bulletin: 'https://o-site.spb.ru/_races/191109tr/191109_info.pdf',
         map: 'sosnovka_2014',
@@ -2284,6 +2071,7 @@ let events2019 = [
         place: 'Сестрорецк, сквер Пограничников',
         res: 'https://o-site.spb.ru/_races/191214_trail/Result.pdf',
         info: '14 декабря в Сквере Пограничников (Сестрорецк) состоится открытая тренировка по трейл-ориентированию.',
+        type: 'TRAIL_O',
         o_site: '191214_trail'
     },
     {

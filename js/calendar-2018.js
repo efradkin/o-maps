@@ -337,14 +337,6 @@ let events2018 = [
         bulletin: 'https://o-site.spb.ru/_races/180311/180311_info3.pdf'
     },
     {
-        id: 'SPB_20180316_1',
-        date: '2018-03-16',
-        name: 'Кубок России',
-        place: 'Сочи',
-        res: 'https://o-site.spb.ru/_races/180316Sochi/res1.htm',
-        o_site: '180316Sochi'
-    },
-    {
         id: 'SPB_20180317_1',
         date: '2018-03-17',
         place: 'Пушкин, Нижний парк',
@@ -354,21 +346,6 @@ let events2018 = [
         o_site: '180317_P',
         bulletin: 'https://o-site.spb.ru/_races/180317_P/180317_info2_3.pdf',
         map: 'pushkin_nizhny_2019'
-    },
-    {
-        id: 'SPB_20180321_1',
-        date: '2018-03-21',
-        name: 'Черное море - 2018',
-        place: 'Новороссийск',
-        res: 'https://o-site.spb.ru/_races/180323Gel/summa4.htm',
-        o_site: '180323Gel',
-        o_gps: {
-            'М': 3475,
-            'Ж': 3476,
-            'М18/20': 3477,
-            'Ж18/20': 3478,
-            'М16': 3479
-        }
     },
     {
         id: 'SPB_20180331_1',
@@ -511,16 +488,6 @@ let events2018 = [
         res: 'http://o-site.spb.ru/_races/2018_kkr/180428_split.htm',
         o_site: '2018_kkr',
         bulletin: 'https://o-site.spb.ru/_races/2018_kkr/181014_info_kkr.pdf'
-    },
-    {
-        id: 'SPB_20180429_1',
-        date: '2018-04-29',
-        endDate: '2018-05-02',
-        place: 'Токсово',
-        name: 'ЧиП СЗФО, Майская многодневка',
-        res: 'https://o-site.spb.ru/_races/180429/180429_resNW.htm',
-        o_site: '180429',
-        bulletin: 'https://o-site.spb.ru/_races/180429/1804290502_info_.pdf'
     },
     {
         id: 'SPB_20180501_1',
@@ -946,120 +913,6 @@ let events2018 = [
         type: 'ROGAINE',
         fmt: '6',
         link: 'http://www.orientpskov.ru/'
-    },
-    {
-        id: 'SPB_20180617_1',
-        date: '2018-06-17',
-        endDate: '2018-06-22',
-        place: 'Выборг',
-        name: 'Кубок Карельского перешейка',
-        reg: 'http://sportident.ru/entry/event_info.php?id=3624',
-        res: 'http://moscompass.ru/news/2018/20180618.htm',
-        video: [
-            'https://www.youtube.com/watch?v=Ct-oMQk6V8I',
-            'https://www.youtube.com/watch?v=xMhUrqloaHQ',
-            'https://www.youtube.com/watch?v=gCN1nAwSFUo'
-        ],
-        start: 'KKP',
-        o_site: '180617-18'
-    },
-    {
-        id: 'SPB_20180618_1',
-        parent: 'SPB_20180617_1',
-        date: '2018-06-18',
-        place: 'Выборг',
-        name: 'ККП #1',
-        start: 'KKP',
-        o_site: '180617-18',
-        video: 'http://northernwind.spb.ru/videosplit/2018//kkp/day1',
-        reskeep: 13,
-        o_gps: {
-            'М': 4015,
-            'Ж': 4023,
-            'ALL': 4024
-        }
-    },
-    {
-        id: 'SPB_20180619_1',
-        parent: 'SPB_20180617_1',
-        date: '2018-06-19',
-        place: 'Выборг',
-        name: 'ККП #2',
-        start: 'KKP',
-        o_site: '180617-18',
-        map: 'kkp_solnechnoe_2018_06_19',
-        o_gps: {
-            'М': 4032,
-            'Ж': 4033,
-            'ALL': 4034,
-        },
-        video: 'http://northernwind.spb.ru/videosplit/2018//kkp/day2',
-        reskeep: 12
-    },
-    {
-        id: 'SPB_20180620_1',
-        parent: 'SPB_20180617_1',
-        date: '2018-06-20',
-        place: 'Выборг',
-        name: 'ККП #3',
-        start: 'KKP',
-        o_site: '180617-18',
-        map: 'kkp_solnechnoe_2018_06_20',
-        o_gps: {
-            'М': 4036,
-            'Ж': 4037,
-            'ALL': 4038,
-        },
-        video: [
-            'http://northernwind.spb.ru/videosplit/2018//kkp/day3',
-            'https://www.youtube.com/watch?v=bHNLjeT8PH8',
-            'https://www.youtube.com/watch?v=PQjKShU4L1k',
-        ],
-        reskeep: 11
-    },
-    {
-        id: 'SPB_20180621_1',
-        parent: 'SPB_20180617_1',
-        date: '2018-06-21',
-        place: 'Выборг',
-        name: 'ККП #4',
-        start: 'KKP',
-        o_site: '180617-18',
-        map: 'kkp_trostinka_2018_06_21',
-        o_gps: {
-            'Ж': 4039,
-            'М': 4040,
-            'ALL': 4042,
-        },
-        video: [
-            'http://northernwind.spb.ru/videosplit/2018//kkp/day4',
-            'https://www.youtube.com/watch?v=2_8qq972LFc',
-        ],
-        reskeep: 84
-    },
-    {
-        id: 'SPB_20180622_1',
-        date: '2018-06-22',
-        endDate: '2018-06-24',
-        name: 'Мемориал Михаила Святкина',
-        place: 'Раздолье',
-        reg: 'http://orgeo.ru/event/6775',
-        endReg: '2018-06-12 23:55',
-        res: 'https://o-site.spb.ru/_races/180622mms/1rez.htm',
-        video: 'https://www.youtube.com/watch?v=DmBYqYQ_XwQ',
-        start: 'MMS',
-        o_site: '180622mms',
-        planner: ['SRBRNTSKY','TLNV_A'],
-        reskeep: [9, 8, 7],
-        map: ['mms_2018_06_22','mms_2018_06_23','mms_2018_06_24'],
-        o_gps: {
-            '23-М': 4044,
-            '23-Ж': 4045,
-            '23-ALL': 4046,
-            '24-М': 4047,
-            '24-Ж': 4048,
-            '24-ALL': 4049
-        }
     },
     {
         id: 'SPB_20180625_1',

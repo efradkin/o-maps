@@ -3051,20 +3051,6 @@ let eventsEarly = [
         res: './docs/1993/1993_06_16_na_omaps.pdf'
     },
     {
-        id: 'SPB_19930704_1',
-        date: '1993-07-03',
-        endDate: '1993-07-04',
-        place: 'Васкелово, Силанде',
-        name: 'Мемориал Михаила Святкина, ЧиП СПб',
-        fmt: 'спринт, классика',
-        start: ['MMS','SPB_CHAMP'],
-        link: 'https://o-site.spb.ru/history/Knots/mms-93.html',
-        map: 'silande_1992',
-        planner: '?',
-        me: 'H21A',
-        res: ['./docs/1993/1993_07_03_spb_sprint_omaps.pdf','./docs/1993/1993_07_04_spb_omaps.pdf']
-    },
-    {
         id: 'SPB_19930905_1',
         date: '1993-09-05',
         place: 'Токсово',
@@ -3105,16 +3091,6 @@ let eventsEarly = [
         start: 'NA',
         planner: 'ZKHRV_VCH',
         res: './docs/1994/1994_06_17_na_omaps.pdf'
-    },
-    {
-        id: 'SPB_19940625_1',
-        date: '1994-07-02',
-        endDate: '1994-07-03',
-        place: 'Гарболово',
-        name: 'Мемориал Михаила Святкина',
-        planner: 'SHRNN',
-        start: 'MMS',
-        map: 'garbolovo_1994'
     },
     {
         id: 'SPB_19940903_1',
@@ -3164,15 +3140,6 @@ let eventsEarly = [
         start: 'WN',
         res: './docs/1995/1995_06_23_wn_omaps.pdf',
         map: ['tsvelodubovo_south_1995', 'tsvelodubovo_1995']
-    },
-    {
-        id: 'SPB_19950624_1',
-        date: '1995-07-01',
-        endDate: '1995-07-02',
-        place: 'Петяярви',
-        name: 'Мемориал Михаила Святкина',
-        start: 'MMS',
-        map: ['petjajarvy_1995','mms_1995_07_01','mms_1995_07_02']
     },
     {
         id: 'SPB_19950706_1',
@@ -3262,16 +3229,6 @@ let eventsEarly = [
         res: './docs/1996/1996_06_28_yeoc_omaps.pdf'
     },
     {
-        id: 'SPB_19960629_1',
-        date: '1996-06-29',
-        endDate: '1996-06-30',
-        place: 'Ягодное',
-        res: './docs/1996/1999_06_29_svyatkina_omaps.pdf',
-        name: 'Мемориал Михаила Святкина',
-        start: 'MMS',
-        map: ['mms_1996_06_29','mms_1996_06_30']
-    },
-    {
         id: 'SPB_19960807_1',
         date: '1996-08-07',
         endDate: '1996-08-13',
@@ -3325,16 +3282,6 @@ let eventsEarly = [
         start: 'WN',
         map: 'petjajarvy_1997',
         res: './docs/1997/1997_06_20_wn_omaps.pdf'
-    },
-    {
-        id: 'SPB_19970628_1',
-        date: '1997-06-28',
-        endDate: '1997-06-29',
-        place: 'Лемболово, Орехово',
-        name: 'Мемориал Михаила Святкина',
-        start: 'MMS',
-        planner: 'TLNV_A',
-        map: ['mms_1997_06_28','mms_1997_06_29']
     },
     {
         id: 'SPB_19970831_1',
@@ -3404,16 +3351,6 @@ let eventsEarly = [
         start: 'WN',
         map: ['sosnovo_ulovnoe_1998','koloskovo_1998'],
         res: './docs/1998/1998_06_19_wn_omaps.pdf'
-    },
-    {
-        id: 'SPB_19980627_1',
-        date: '1998-06-27',
-        endDate: '1998-06-28',
-        place: 'Кузнечное, Богатыри',
-        name: 'Мемориал Михаила Святкина',
-        start: 'MMS',
-        res: './docs/1998/1998_06_27_svyatkina_omaps.pdf',
-        map: 'mms_1998_06'
     },
     {
         id: 'SPB_19980829_1',
@@ -3530,16 +3467,6 @@ let eventsEarly = [
         map: 'sc_1999_06_20'
     },
     {
-        id: 'SPB_19990626_1',
-        date: '1999-06-26',
-        endDate: '1999-06-27',
-        place: 'Яппиля',
-        name: 'Мемориал Михаила Святкина',
-        start: 'MMS',
-        res: './docs/1999/1999_06_26_svyatkina_omaps.pdf',
-        map: ['yappilya_1999','yappilya_pistolet_1999']
-    },
-    {
         id: 'SPB_19990702_1',
         date: '1999-07-02',
         endDate: '1999-07-04',
@@ -3614,15 +3541,6 @@ let eventsEarly = [
         map: ['ks_2000_06_23','ks_2000_06_24','ks_2000_06_25']
     },
     {
-        id: 'SPB_20000630_1',
-        date: '2000-06-30',
-        endDate: '2000-07-02',
-        place: 'Каменногорск',
-        name: 'Мемориал Михаила Святкина',
-        start: 'MMS',
-        map: ['mms_2000_06_30','mms_2000_07_02']
-    },
-    {
         id: 'SPB_20000927_1',
         date: '2000-09-27',
         place: 'Лесколово',
@@ -3664,16 +3582,6 @@ let eventsEarly = [
         name: 'Карельские скалы',
         start: 'KS',
         map: ['ks_2001_06_22','ks_2001_06_23','ks_2001_06_24','ks_2001_06_25','ks_2001_06_26']
-    },
-    {
-        id: 'SPB_20010628_1',
-        date: '2001-06-28',
-        endDate: '2001-06-30',
-        place: 'Пески, оз Пулконлампи',
-        res: './docs/2001/2001_06_28_svyatkina_omaps.pdf',
-        name: 'Мемориал Михаила Святкина',
-        start: 'MMS',
-        map: ['peski_pulkonlampi_2001','peski_zabytoe_2001','peski_stayka_2001','peski_2001']
     },
     {
         id: 'RRF_20010825_1',
@@ -3739,15 +3647,6 @@ let eventsEarly = [
         map: ['ks_2002_06_24','ks_2002_06_25']
     },
     {
-        id: 'SPB_20020628_1',
-        date: '2002-06-28',
-        endDate: '2002-06-30',
-        place: 'Ягодное',
-        name: 'Мемориал Михаила Святкина',
-        start: 'MMS',
-        map: ['mms_2002_06_28','mms_2002_06_29','mms_2002_06_30']
-    },
-    {
         id: 'SPB_20020824_1',
         date: '2002-08-24',
         endDate: '2002-08-25',
@@ -3796,15 +3695,6 @@ let eventsEarly = [
         name: 'Карельские скалы',
         start: 'KS',
         map: ['ks_2003_06_24','ks_2003_06_25','ks_2003_06_26']
-    },
-    {
-        id: 'SPB_20030627_1',
-        date: '2003-06-27',
-        endDate: '2003-06-29',
-        place: 'Каменногорск',
-        name: 'Мемориал Михаила Святкина',
-        start: 'MMS',
-        map: ['mms_2003_06_27','mms_2003_06_28','mms_2003_06_29']
     },
     {
         id: 'SPB_20030802_1',

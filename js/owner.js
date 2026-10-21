@@ -22,13 +22,13 @@
 
     // Календари сайта (SITE_CALENDARS в utils.js) для ссылок «Смотреть отдельно»:
     // у календаря по годам - все годы (&startYear=ALL). Общие события
-    // (commonEvents2026) дают ссылку только на календарь СПб: из sources
+    // (commonEvents) дают ссылку только на календарь СПб: из sources
     // остальных календарей они убраны (так было и до переноса списка в utils.js).
     const OWNER_CALENDARS = SITE_CALENDARS.map(c => ({
         title: c.title,
         page: c.page,
         query: c.years ? '&startYear=ALL' : '',
-        sources: c.years ? c.sources : c.sources.filter(s => s !== 'commonEvents2026')
+        sources: c.years ? c.sources : c.sources.filter(s => s !== 'commonEvents')
     }));
 
     // Заголовок страницы - короткое название, иначе title, иначе name (без разметки).

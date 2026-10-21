@@ -224,6 +224,7 @@ const dic = {
     VELO: 'ВЕЛО',
     WALK: 'ПЕШИЙ',
     WATER: 'ВОДНЫЙ',
+    TRAIL_O: 'ТРЕЙЛ-О',
     // ---
     CITY: 'ГОРОД',
     EXCLUDED: 'НЕУЧТЁНКА',
@@ -393,7 +394,7 @@ const isMobile = regex.test(navigator.userAgent) ||
 
 function loadAllCalendars() {
     return [
-        ...commonEvents2026,
+        ...commonEvents,
         ...iofEvents,
         ...fsorEvents,
         ...irfEvents,
@@ -2672,7 +2673,7 @@ function eventPageUrl(evt) {
 // Календари сайта: массивы событий (имена ключей eventSources в event.html,
 // poi.html, owner.html) и страницы календаря. Порядок важен: событие относится
 // к первому календарю, в sources которого есть его массив. Общие события
-// (commonEvents2026) показываются и в СПб, и в московском календаре - «родным»
+// (commonEvents) показываются и в СПб, и в московском календаре - «родным»
 // для них считается первый. mapPage - страница карты для событий без
 // собственной (у карты может быть своя страница: поле page или page её старта);
 // years - у календаря страницы по годам (?startYear=).
@@ -2683,11 +2684,11 @@ const SITE_CALENDARS = [
             'events2020', 'events2019', 'events2018', 'events2017', 'events2016', 'events2015',
             'events2014', 'events2013', 'events2012', 'events2011', 'events2010', 'events2009',
             'events2008', 'events2007', 'events2006', 'events2005', 'events2004', 'eventsEarly',
-            'otherEvents2026', 'commonEvents2026', 'iofEvents', 'fsorEvents', 'irfEvents']
+            'otherEvents2026', 'commonEvents', 'iofEvents', 'fsorEvents', 'irfEvents']
     },
     {
         title: 'Календарь Москвы', page: 'calendar-msk.html', mapPage: 'moscow.html',
-        sources: ['mskEvents2026', 'mskEvents2025', 'mskEventsOther', 'commonEvents2026']
+        sources: ['mskEvents2026', 'mskEvents2025', 'mskEventsOther', 'commonEvents']
     },
     {
         title: 'Календарь Самары', page: 'calendar-samara.html', mapPage: 'samara.html',

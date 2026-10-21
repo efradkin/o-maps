@@ -776,17 +776,6 @@ let events2013 = [
         bulletin: 'https://o-site.spb.ru/_races/130606/130606_info.pdf'
     },
     {
-        id: 'SPB_20130525_1',
-        date: '2013-05-25',
-        endDate: '2013-05-28',
-        place: 'Токсово-Кавголово',
-        name: 'Кубок России по МТБО',
-        type: 'VELO',
-        reg: 'http://sportident.ru/entry/event_info.php?id=638',
-        o_site: '13052528',
-        bulletin: 'http://o-time.ru/mtbo/mtbo_rus.pdf'
-    },
-    {
         id: 'SPB_20130525_2',
         date: '2013-05-25',
         place: 'Заходское',
@@ -979,38 +968,6 @@ let events2013 = [
         bulletin: 'https://o-site.spb.ru/_races/13061823/13061823_info.pdf',
         map: ['ym_2013_06_18', 'ym_2013_06_19', 'ym_2013_borisovo_long'],
         start: ['WN','YM']
-    },
-    {
-        id: 'SPB_20130623_1',
-        date: '2013-06-23',
-        endDate: '2013-06-27',
-        place: 'Выборг',
-        name: 'Кубок Карельского Перешейка',
-        reg: 'http://sportident.ru/entry/event_info.php?id=531',
-        info: 'Всероссийские многодневные соревнования «Кубок Карельского Перешейка 2013»',
-        video: 'https://www.youtube.com/watch?v=-1F_4uM-C3U',
-        start: 'KKP',
-        o_site: '13062427',
-        bulletin: 'http://kkp.spb.ru/info.php',
-        map: ['kkp_2013_06_24','kkp_2013_06_27']
-    },
-    {
-        id: 'SPB_20130628_1',
-        date: '2013-06-28',
-        place: 'Выборг',
-        name: 'XXI Мемориал Михаила Святкина',
-        reg: 'http://o-reg.spb.ru/',
-        res: 'https://o-site.spb.ru/_races/13062830_MS/130630_res.htm',
-        info: 'Соревнования проводятся 28-30 июня 2013 года в Выборгском районе Ленинградской области (г.Выборг).',
-        start: 'MMS',
-        o_site: '13062830_MS',
-        bulletin: 'https://o-site.spb.ru/_races/13062830_MS/130628-30_info.htm',
-        endDate: '2013-06-30',
-        map: ['vyborg_saymenskie_dachi_2013','mms_2013_06_28','mms_2013_06_29','mms_2013_06_30'],
-        o_gps: {
-            'М': 56,
-            'Ж': 55
-        }
     },
     {
         id: 'SPB_20130706_1',

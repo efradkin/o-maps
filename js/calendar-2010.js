@@ -746,32 +746,6 @@ let events2010 = [
         map: 'ks_2010_06_23'
     },
     {
-        id: 'SPB_20100625_1',
-        date: '2010-06-25',
-        endDate: '2010-06-27',
-        place: 'Лемболово',
-        name: 'Мемориал Михаила Святкина',
-        res: 'https://o-site.spb.ru/_races/10062527/100625_res.htm',
-        start: 'MMS',
-        o_site: '10062527',
-        map: ['mms_2010_lembolovo','mms_2010_06_25','mms_2010_06_26','mms_2010_06_27']
-    },
-    {
-        id: 'SPB_20100703_1',
-        date: '2010-07-03',
-        endDate: '2010-07-05',
-        place: 'Приозерск, Кузнечное',
-        name: 'Кубок России по ориентированию бегом, Приозерск',
-        res: 'https://o-site.spb.ru/_races/10070305/100703_res.pdf',
-        info: '3 июля - Спринт (Приозерск) 4 июля - Классика (Кузнечное) 5 июля - Кросс (Кузнечное)',
-        o_site: '10070305',
-        rg: {
-            'классика': 'https://o-site.spb.ru/cgi-bin/rg2.php#49',
-            'кросс': 'https://o-site.spb.ru/cgi-bin/rg2.php#50'
-        },
-        bulletin: 'http://o-sport.ru/temp/2010/20100610_100702_Bulletin.pdf'
-    },
-    {
         id: 'SPB_20100704_1',
         date: '2010-07-04',
         place: 'оз.Медное',
@@ -913,18 +887,6 @@ let events2010 = [
         o_site: '2010CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#51',
         start: 'YM_CUP'
-    },
-    {
-        id: 'SPB_20100910_1',
-        date: '2010-09-10',
-        endDate: '2010-09-15',
-        name: 'КУБОК РОССИИ по спортивному ориентированию на велосипедах',
-        place: 'Орехово',
-        type: 'VELO',
-        res: 'https://o-site.spb.ru/_races/10091015/100910_res.htm',
-        info: 'КУБОК РОССИИ по спортивному ориентированию на велосипедах ПЕРВЕНСТВО РОССИИ по спортивному ориентированию на велосипедах (юноши, девушки до 18 лет) RUSSIAN MBO CUP RUSSIAN YOUTH MBO CHAMPIONCHIP PRE EUROPEAN MBO CHAMPIONSHIP-2011 OPEN EVENTS Leningrad Region, Orekhovo, 10-15. 09. 2010',
-        o_site: '10091015',
-        bulletin: 'https://o-site.spb.ru/_races/10091015/100910_info1.pdf'
     },
     {
         id: 'SPB_20100911_1',

@@ -58,20 +58,6 @@ let events2014 = [
         map: 'sestroretsk_dubki_2014'
     },
     {
-        id: 'SPB_20140125_1',
-        date: '2014-01-25',
-        endDate: '2014-01-27',
-        name: 'Чемпионат и Первенство России, Универсиада СЗФО и ЦФО',
-        type: 'SKI',
-        place: 'Будогощь',
-        reg: 'http://orgeo.ru/event/763',
-        endReg: '2014-01-21 00:00',
-        res: 'https://o-site.spb.ru/_races/140125/140125_res.htm',
-        info: 'Чемпионат и первенство СЗФО Чемпионат и первенство ЦФО III зимняя всероссийская Универсиада, 2 этап (СЗФО, ЦФО)',
-        o_site: '140125',
-        bulletin: 'https://o-site.spb.ru/_races/140125/14012527_info2a.pdf'
-    },
-    {
         id: 'SPB_20140131_1',
         date: '2014-01-31',
         endDate: '2014-02-02',
@@ -806,72 +792,6 @@ let events2014 = [
         start: ['WN','YM'],
         o_site: '14061722',
         map: ['ym_2014_06_17', 'ym_2014_pervomayskoe_long', 'ym_2014_06_19']
-    },
-    {
-        id: 'SPB_20140623_1',
-        date: '2014-06-23',
-        endDate: '2014-06-26',
-        place: 'Выборг',
-        name: 'Кубок Карельского перешейка',
-        res: 'https://o-site.spb.ru/_races/14062326_KKP/140623_res.htm',
-        start: 'KKP',
-        o_site: '14062326_KKP',
-        o_gps: {
-            '24-М': 215,
-            '24-Ж': 216
-        }
-    },
-    {
-        id: 'SPB_20140623_2',
-        parent: 'SPB_20140623_1',
-        date: '2014-06-23',
-        place: 'Выборг',
-        name: 'ККП #1',
-        start: 'KKP',
-        o_site: '14062326_KKP',
-        map: 'kkp_gusinaja_2014_06_23',
-        o_gps: 214
-    },
-    {
-        id: 'SPB_20140625_1',
-        parent: 'SPB_20140623_1',
-        date: '2014-06-25',
-        place: 'Выборг',
-        name: 'ККП #3',
-        start: 'KKP',
-        o_site: '14062326_KKP',
-        map: 'kkp_gusinaja_2014_06_25',
-        o_gps: {
-            'М': 217,
-            'Ж': 218,
-        }
-    },
-    {
-        id: 'SPB_20140626_1',
-        parent: 'SPB_20140623_1',
-        date: '2014-06-26',
-        place: 'Выборг',
-        name: 'ККП #4',
-        start: 'KKP',
-        o_site: '14062326_KKP',
-        map: 'kkp_goritsa_2014_06_26',
-        o_gps: {
-            'М': 219,
-            'Ж': 220,
-        }
-    },
-    {
-        id: 'SPB_20140627_1',
-        date: '2014-06-27',
-        endDate: '2014-06-29',
-        place: 'Поляны',
-        name: 'XXII Мемориал Михаила Святкина',
-        reg: 'http://o-reg.spb.ru',
-        res: 'https://o-site.spb.ru/_races/14062729/140629_res.htm',
-        start: 'MMS',
-        o_site: '14062729',
-        o_gps: 223,
-        map: ['polyany_2016','mms_2014_polyany','mms_2014_06_27','mms_2014_06_28','mms_2014_06_29']
     },
     {
         id: 'SPB_20140628_1',

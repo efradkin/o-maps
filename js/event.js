@@ -33,7 +33,7 @@
 
     // Календари сайта - SITE_CALENDARS в utils.js.
     // Общие (международные и всероссийские) старты - на общую карту.
-    const SOURCE_MAP_PAGE = { commonEvents2026: 'all.html', iofEvents: 'all.html', fsorEvents: 'all.html', irfEvents: 'all.html' };
+    const SOURCE_MAP_PAGE = { commonEvents: 'all.html', iofEvents: 'all.html', fsorEvents: 'all.html', irfEvents: 'all.html' };
 
     const NOT_SERIES = ['OTHER', 'REPORT'];
     const MONTHS_GEN = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня',

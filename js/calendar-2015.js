@@ -972,40 +972,6 @@ let events2015 = [
         o_site: '150620v'
     },
     {
-        id: 'SPB_20150622_1',
-        date: '2015-06-22',
-        endDate: '2015-06-25',
-        name: 'Кубок Карельского Перешейка',
-        place: 'Боровинка',
-        res: 'https://o-site.spb.ru/_races/150621-27/150622_rezKKP.html',
-        o_gps: {
-            'М': 558,
-            'Ж': 559,
-        },
-        video: [
-            'https://www.youtube.com/watch?v=GfXet2TgsEg',
-            'https://www.youtube.com/watch?v=ohlfS18TFBE',
-            'https://www.youtube.com/watch?v=hxVsBq4xS1w'
-        ],
-        start: 'KKP',
-        o_site: '150621-27',
-        map: 'kkp_obkhodnoe_2015_06_23'
-    },
-    {
-        id: 'SPB_20150626_1',
-        date: '2015-06-26',
-        endDate: '2015-06-28',
-        place: 'Красная Долина',
-        name: 'Мемориал Михаила Святкина',
-        reg: 'http://o-reg.spb.ru/entry-list?id=481',
-        res: 'https://o-site.spb.ru/_races/15062628/150626_RES.htm',
-        video: 'https://www.youtube.com/watch?v=vGTwNTZuqT4',
-        start: 'MMS',
-        o_site: '15062628',
-        o_gps: 565,
-        map: ['kamenka_2015','mms_2015_krasna_dolina','mms_2015_06_26','mms_2015_06_27','mms_2015_06_28']
-    },
-    {
         id: 'SPB_20150704_1',
         date: '2015-07-04',
         place: 'Лемболово',

@@ -72,7 +72,7 @@ DATA_FILES.push('calendar-common.js', 'calendar-other-2026.js', 'calendar-iof.js
 
 const YEAR_VARS = ['eventsEarly'];
 for (let y = 2004; y <= 2026; y++) YEAR_VARS.push(`events${y}`);
-YEAR_VARS.push('commonEvents2026', 'otherEvents2026', 'iofEvents', 'fsorEvents', 'irfEvents');
+YEAR_VARS.push('commonEvents', 'otherEvents2026', 'iofEvents', 'fsorEvents', 'irfEvents');
 
 let source = extractLiteral(read('utils.js'), 'const regions = {') + ';\n';
 source += extractLiteral(read('global-menu.js'), 'const GLOBAL_MENU_ITEMS = [', '[', ']') + ';\n';

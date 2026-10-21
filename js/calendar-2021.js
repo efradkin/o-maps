@@ -143,35 +143,6 @@ let events2021 = [
         ]
     },
     {
-        id: 'SPB_20210126_1',
-        date: '2021-01-26',
-        endDate: '2021-01-27',
-        name: 'Всероссийские игры по ориентированию ТОЧНЫЙ АЗИМУТ среди обучающихся образовательных организаций',
-        reg: 'http://forms.gle/CM1GnyiCiLJRmfYQA',
-        photo: 'http://drive.google.com/drive/folders/1tXxzW3dKMnLB-ml3mOgyfcuPbirnAgAI?usp=sharing',
-        info: '1 этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций. В программе: виртуальная О-дистанция по исторической части Выборга! 22 января в 16:00 (МСК) на платформе ZOOM состоится Всероссийский обучающий семинар "Трейл-ориентирование - спорт равных возможностей", на котором представители оргкомитета расскажут о специфике прохождения дистанции 1 этапа Игр в онлайн-формате.',
-        o_site: '270120',
-        bulletin: 'https://o-site.spb.ru/_races/270120/Informatsionny_byul2-2.pdf'
-    },
-    {
-        id: 'SPB_20210131_1',
-        date: '2021-01-29',
-        endDate: '2021-01-31',
-        name: 'Чемпионат и Первенство СЗФО и ЦФО',
-        type: 'SKI',
-        place: 'Петровское',
-        res: 'https://o-site.spb.ru/_races/21012830/210129_rez.htm',
-        o_site: '21012830',
-        o_gps: {
-            '30-М': 8922,
-            '30-Ж': 8926,
-            '31-М1': 8927,
-            '31-М3': 8928,
-            '31-Ж1': 8930,
-            '31-Ж3': 8929
-        }
-    },
-    {
         id: 'SPB_20210206_1',
         date: '2021-02-06',
         place: 'Приозерский район',
@@ -287,15 +258,6 @@ let events2021 = [
         o_gps: 9040
     },
     {
-        id: 'SPB_20210225_1',
-        date: '2021-02-25',
-        name: 'Всероссийские игры по ориентированию ТОЧНЫЙ АЗИМУТ среди обучающихся образовательных организаций',
-        reg: 'http://forms.gle/SkGXeRE7ZWmej4US9',
-        info: '2 этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций. В программе: виртуальная О-дистанция по курортному парку г.Кисловодск. 19 февраля в 16:00 (МСК) на платформе ZOOM состоится Всероссийский обучающий семинар "Трейл-ориентирование - ресурс дополнительного образования", на котором представители оргкомитета расскажут о специфике прохождения дистанции 2 этапа Игр в онлайн-формате.',
-        o_site: '210225_azimut',
-        bulletin: 'https://o-site.spb.ru/_races/210225_azimut/Informatsionny_byul_1_po_etapu_2.pdf'
-    },
-    {
         id: 'SPB_20210228_1',
         date: '2021-02-28',
         place: 'оз Вуокса, Кротово',
@@ -383,14 +345,6 @@ let events2021 = [
         reskeep: 426
     },
     {
-        id: 'SPB_20210316_1',
-        date: '2021-03-16',
-        name: 'Всероссийские игры по ориентированию ТОЧНЫЙ АЗИМУТ среди обучающихся образовательных организаций, 3 этап',
-        info: '3 этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций. В программе: виртуальная О-дистанция по Елагину острову (СПб). 15 марта в 12:00 (МСК) на платформе ZOOM состоится Всероссийский обучающий семинар "Трейл-ориентирование - ресурс дополнительного образования", на котором представители оргкомитета расскажут о специфике прохождения дистанции 3 этапа Игр в онлайн-формате.',
-        o_site: '210316_azimut',
-        bulletin: 'https://o-site.spb.ru/_races/210316_azimut/Inf_bul.pdf'
-    },
-    {
         id: 'SPB_20210321_1',
         date: '2021-03-28',
         place: 'Ржевский л/п',
@@ -469,6 +423,7 @@ let events2021 = [
         name: 'Адмиралтейский азимут (трейл-О)',
         reg: 'https://o-site.spb.ru/_races/210417_az/Zayavka_Otkryty_klass.zip',
         info: 'В парке Екатерингоф 17 апреля пройдёт физкультурное мероприятие "Адмиралтейский азимут" (трейл-О), дисциплина "точное ориентирование" (preO). Программа: - Чемпионат СПб - спорт лиц ПОДА - Открытый старт для Open-групп Предварительные заявки на участие подаются до 15.04.2020 на e-mail: trailo2019@mail.ru',
+        type: 'TRAIL_O',
         o_site: '210417_az',
         map: 'ekateringof_2021',
         maps: [
@@ -1071,6 +1026,7 @@ let events2021 = [
         endReg: '2021-06-01 17:30',
         res: 'http://o-site.spb.ru/_races/210601/PROTOKOLY.pdf',
         info: 'Дистанция спринт (TempO), 5 станций по 5 задач.',
+        type: 'TRAIL_O',
         o_site: '210601',
         bulletin: 'https://o-site.spb.ru/_races/210601/01_iyunya_IB.pdf'
     },
@@ -1205,17 +1161,6 @@ let events2021 = [
         o_gps: 10166
     },
     {
-        id: 'SPB_20210613_1',
-        date: '2021-06-13',
-        endDate: '2021-06-18',
-        place: 'Каменногорск',
-        name: 'Фестиваль трейл-ориентирования (Карельские скалы)',
-        res: 'https://o-site.spb.ru/_races/210618_trailo/210615_absolyut.pdf',
-        info: 'Всероссийские соревнования по трейл-ориентированию "ЧЕМПИОНАТ ФЕДЕРАЦИИ СПОРТИВНОГО ОРИЕНТИРОВАНИЯ" Всероссийские соревнования по трейл-ориентированию "ПЕРВЕНСТВО ФЕДЕРАЦИИ СПОРТИВНОГО ОРИЕНТИРОВАНИЯ"',
-        start: 'KS',
-        o_site: '210618_trailo'
-    },
-    {
         id: 'SPB_20210613_2',
         date: '2021-06-13',
         place: 'По назначению',
@@ -1228,122 +1173,11 @@ let events2021 = [
         o_gps: 10204
     },
     {
-        id: 'SPB_20210612_2',
-        date: '2021-06-14',
-        endDate: '2021-06-17',
-        place: 'Каменногорск',
-        name: 'Кубок Карельского Перешейка',
-        reg: 'https://sportident.online/entry/?id=4855',
-        res: 'https://o-site.spb.ru/_races/210612-18_KKP/210613-24_vseros.rar',
-        info: 'В рамках соревнований "Кубок Карельского Перешейка - 2021" состоятся: 12 июня - Трейл «Скалы бесконечности». 12 июня - Ночная эстафета по ориентированию «Пирамида». Заявка. 13 июня - Детская эстафета по ориентированию «Каменюкола». Заявка.',
-        video: [
-            'https://www.youtube.com/watch?v=91gHZ73pbJ4',
-            'https://www.youtube.com/watch?v=OLftfHGY-Xw',
-            'https://www.youtube.com/watch?v=QBYO0G-YnJ0',
-            'https://www.youtube.com/watch?v=vnw0VrvQi1k'
-        ],
-        start: 'KKP',
-        o_site: '210612-18_KKP',
-        bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
-        strava: [5458197904,5462673247,5485783437,5489340513]
-    },
-    {
-        id: 'SPB_20210614_1',
-        parent: 'SPB_20210612_2',
-        date: '2021-06-14',
-        place: 'Каменногорск',
-        name: 'ККП #1',
-        fmt: 'классика',
-        start: 'KKP',
-        o_site: '210612-18_KKP',
-        bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
-        reskeep: 474,
-        strava: 5469051700,
-        video: [
-            'https://www.youtube.com/watch?v=xa-xlJAm9rY',
-            'https://rutube.ru/video/0e7079b094a626fbe51935aa7cf880ce/'
-        ],
-        o_gps: {
-            'М': 10199,
-            'Ж': 10200,
-            'М21А/45': 10251
-        },
-        livelox: 65137
-    },
-    {
         id: 'SPB_20210614_2',
         date: '2021-06-14',
         name: 'Яркий Кубок #4',
         res: 'https://o-site.spb.ru/_races/2021YC/210614_split.htm',
         start: 'YM_CUP'
-    },
-    {
-        id: 'SPB_20210615_1',
-        parent: 'SPB_20210612_2',
-        date: '2021-06-15',
-        place: 'Каменногорск',
-        name: 'ККП #2',
-        fmt: 'лонг',
-        start: 'KKP',
-        o_site: '210612-18_KKP',
-        bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
-        reskeep: 477,
-        strava: 5473397540,
-        video: [
-            'https://www.youtube.com/watch?v=4PS1TbAmvVw',
-            'https://www.youtube.com/watch?v=GiBMhw5FW5M'
-        ],
-        o_gps: {
-            'М': 10202,
-            'Ж': 10208,
-            'М21А/45': 10247
-        },
-        livelox: 65147
-    },
-    {
-        id: 'SPB_20210616_1',
-        parent: 'SPB_20210612_2',
-        date: '2021-06-16',
-        place: 'Каменногорск',
-        name: 'ККП #3',
-        fmt: 'лонг-масстарт',
-        start: 'KKP',
-        o_site: '210612-18_KKP',
-        bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
-        reskeep: 478,
-        strava: 5479172883,
-        video: [
-            'https://www.youtube.com/watch?v=3EzV2Y0fy8g',
-            'https://www.youtube.com/watch?v=JQ_BQAA4Mho'
-        ],
-        o_gps: {
-            'М': 10210,
-            'Ж': 10211,
-            'ALL': 10212
-        }
-    },
-    {
-        id: 'SPB_20210617_1',
-        parent: 'SPB_20210612_2',
-        date: '2021-06-17',
-        place: 'Каменногорск',
-        name: 'ККП #4',
-        fmt: 'спринт',
-        start: 'KKP',
-        o_site: '210612-18_KKP',
-        bulletin: 'http://o-nw.com/file/kkp/2021/kkp_2021_bulletin_1-2.v2.pdf',
-        reskeep: 479,
-        strava: 5484649702,
-        video: [
-            'https://www.youtube.com/watch?v=IhcGk_yX2Jc',
-            'https://www.youtube.com/watch?v=2aQF0F5Y52w'
-        ],
-        o_gps: {
-            'М': 10220,
-            'Ж': 10227,
-            'М21А/45': 10248,
-            'ALL': 10228
-        }
     },
     {
         id: 'SPB_20210619_1',
@@ -1366,15 +1200,6 @@ let events2021 = [
         fmt: '6',
         link: 'https://vk.com/velikayarivercub',
         map: 'delta_velikaya_river'
-    },
-    {
-        id: 'SPB_20210620_1',
-        date: '2021-06-20',
-        name: 'Мемориал Михаила Святкина',
-        res: 'https://o-site.spb.ru/_races/21061820/MMC21.pdf',
-        start: 'MMS',
-        o_site: '21061820',
-        cancelled: true
     },
     {
         id: 'SPB_20210625_1',
@@ -1615,18 +1440,6 @@ let events2021 = [
         o_gps: 10772
     },
     {
-        id: 'SPB_20210827_1',
-        date: '2021-08-27',
-        endDate: '2021-08-29',
-        name: 'Кубок ветеранов',
-        place: 'Окуловка',
-        reg: 'http://orgeo.ru/event/17616',
-        endReg: '2021-08-20 00:00',
-        res: 'http://orgeo.ru/live/#/17616',
-        o_site: '20210827_okulovka',
-        bulletin: 'https://o-site.spb.ru/_races/20210827_okulovka/b4.pdf'
-    },
-    {
         id: 'SPB_20210828_1',
         date: '2021-08-28',
         name: 'Памяти Димы Фатидинова',
@@ -1709,19 +1522,6 @@ let events2021 = [
         fmt: '4, 2',
         link: 'https://opskov.ru/pgr2021/',
         o_gps: 10859
-    },
-    {
-        id: 'SPB_20210905_1',
-        date: '2021-09-05',
-        place: 'пляж Ласковый',
-        name: 'Всероссийские соревнования по трейл-ориентированию (WRE)',
-        res: 'https://o-site.spb.ru/_races/050921_bb/20210509_SPRINT_absolyutny (1).pdf',
-        info: 'Всероссийские соревнования по трейл-ориентированию «БАЛТИЙСКИЙ БЕРЕГ» (WRE) пройдут с 3 по 5 сентября. Кубок Санкт-Петербурга по спортивному ориентированию лиц с ПОДА: 04.09.2021',
-        o_site: '050921_bb',
-        map: 'sestroretsk_pljazh_laskovy_2023',
-        maps: [
-            'https://o-site.spb.ru/_races/050921_bb/Solution_1_2.pdf'
-        ]
     },
     {
         id: 'SPB_20210905_2',
@@ -2114,16 +1914,6 @@ let events2021 = [
         map: 'pukhtolova_gora_2025'
     },
     {
-        id: 'SPB_20211019_1',
-        date: '2021-10-19',
-        name: 'Точный азимут, 4 этап, онлайн',
-        reg: 'http://forms.gle/EB9Pp2gBRs5wFUL48',
-        res: 'https://o-site.spb.ru/_races/211018_az/20211019_rez.pdf',
-        info: '4 этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций',
-        o_site: '211018_az',
-        bulletin: 'https://o-site.spb.ru/_races/211018_az/20211019_Tochn_az.pdf'
-    },
-    {
         id: 'SPB_20211022_1',
         date: '2021-10-22',
         place: 'Дибуновская ул',
@@ -2171,14 +1961,6 @@ let events2021 = [
             'М21А': 11377,
             'ALL': 11378
         }
-    },
-    {
-        id: 'SPB_20211030_1',
-        date: '2021-10-30',
-        name: 'Первенство России',
-        place: 'Белгород',
-        res: 'https://o-site.spb.ru/_races/20211030_bel/res1.htm',
-        o_site: '20211030_bel'
     },
     {
         id: 'SPB_20211030_2',
@@ -2367,17 +2149,6 @@ let events2021 = [
         o_gps: 11564
     },
     {
-        id: 'SPB_20211123_1',
-        date: '2021-11-23',
-        endDate: '2021-11-24',
-        name: 'Точный азимут, 5 этап, онлайн',
-        reg: 'http://docs.google.com/forms/d/e/1FAIpQLSfjPRNulcRE4wHYnaxvyJBi_WZh16IlfbCOfJXF9ksScSF-TA/closedform',
-        res: 'http://drive.google.com/drive/folders/1qarCC_fULRflQJwSsMb2mnZpK9hUSV6N',
-        info: '5 этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций',
-        o_site: '211123_az',
-        bulletin: 'https://o-site.spb.ru/_races/211123_az/20211123_inf.pdf'
-    },
-    {
         id: 'SPB_20211127_1',
         date: '2021-11-27',
         place: 'Васкелово',
@@ -2442,17 +2213,6 @@ let events2021 = [
             'ALL': 11700,
             'М': 11719
         }
-    },
-    {
-        id: 'SPB_20211214_1',
-        date: '2021-12-14',
-        endDate: '2021-12-15',
-        name: 'Точный азимут, 6 этап, онлайн',
-        reg: 'http://forms.gle/xfG6eRwm99YiWQx79',
-        res: 'http://drive.google.com/drive/folders/1aiK_DzdtR3fkV0E_d9mvqMIvqseVcQej',
-        info: '6 этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций',
-        o_site: '211215_az',
-        bulletin: 'https://o-site.spb.ru/_races/211215_az/InfBul.pdf'
     },
     {
         id: 'SPB_20211218_1',

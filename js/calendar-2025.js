@@ -1018,32 +1018,6 @@ let events2025 = [
         map: 'drezdenskaya_2023'
     },
     {
-        id: 'SPB_20250522_1',
-        date: '2025-05-22',
-        endDate: '2025-05-26',
-        place: 'Зеленогорск',
-        name: 'Всероссийские и Международные соревнования',
-        type: 'VELO',
-        o_site: '250522-26_VSMS',
-        bulletin: 'https://o-site.spb.ru/_races/250522-26_VSMS/Infbul3VS_3.pdf',
-        reg: 'http://sportident.online/entry/?id=6558',
-        photo: [
-            'http://cloud.mail.ru/public/2AEJ/TWonJiT4i',
-            'http://cloud.mail.ru/public/HZM2/uYGPqAUuW',
-            'http://cloud.mail.ru/public/Rcic/5fFUntpGS'
-        ],
-        video: [
-            'http://vk.com/clip-220245153_456239040?c=1',
-            'http://vk.com/clip-220245153_456239041?c=1'
-        ],
-        map: [
-            'zelik_schuchje_velo_2025',
-            'pukhtolova_gora_velo_2025',
-            'roschino_velo_2025'
-        ],
-        major: true
-    },
-    {
         id: 'SPB_20250522_2',
         date: '2025-05-22',
         place: 'Новотоксово, ВИФК',
@@ -1368,137 +1342,6 @@ let events2025 = [
         }
     },
     {
-        id: 'SPB_20250614_1',
-        date: '2025-06-16',
-        endDate: '2025-06-19',
-        place: 'Пруды',
-        name: 'Камни Карельского Перешейка',
-        o_site: '250616-19_KKP',
-        bulletin: 'http://o-nw.ru/kkp_bulletin',
-        reg: 'http://sportident.online/entry/?id=6379',
-        photo: 'https://vk.ru/album-227779225_309822985',
-        video: 'https://www.youtube.com/watch?v=VLJFZh0gfLI',
-        start: 'KKP',
-        map: 'kkp_prudy_2023_06_19',
-        me: 'М50'
-    },
-    {
-        id: 'SPB_20250616_1',
-        parent: 'SPB_20250614_1',
-        date: '2025-06-16',
-        place: 'Пруды',
-        name: 'ККП #1',
-        fmt: 'классика',
-        o_site: '250616-19_KKP',
-        bulletin: 'http://o-nw.ru/kkp_bulletin',
-        start: 'KKP',
-        strava: 14818986127,
-        me: 'М50',
-        map: 'kkp_2025_06_16',
-        o_gps: {
-            'М': 22865,
-            'Ж': 22864,
-            'М50/55': 22894,
-        },
-        video: [
-            'https://vkvideo.ru/video-93257360_456239278',
-            'https://www.youtube.com/watch?v=Hd7rUUf1vDg'
-        ]
-    },
-    {
-        id: 'SPB_20250617_1',
-        parent: 'SPB_20250614_1',
-        date: '2025-06-17',
-        place: 'Пруды',
-        name: 'ККП #2',
-        fmt: 'лонг',
-        o_site: '250616-19_KKP',
-        bulletin: 'http://o-nw.ru/kkp_bulletin',
-        start: 'KKP',
-        strava: 14830428556,
-        me: 'М50',
-        map: 'kkp_2025_06_17',
-        o_gps: {
-            'М': 22869,
-            'Ж': 22868,
-            'М50/55': 22896,
-        },
-        video: [
-            'https://vkvideo.ru/video-93257360_456239279',
-            'https://www.youtube.com/watch?v=YzshhewPboE'
-        ]
-    },
-    {
-        id: 'SPB_20250618_1',
-        parent: 'SPB_20250614_1',
-        date: '2025-06-18',
-        place: 'Пруды',
-        name: 'ККП #3',
-        fmt: 'лонг-масстарт',
-        o_site: '250616-19_KKP',
-        bulletin: 'http://o-nw.ru/kkp_bulletin',
-        start: 'KKP',
-        strava: 14839302850,
-        me: 'М50',
-        map: 'kkp_2025_06_18',
-        o_gps: {
-            'М': 22871,
-            'Ж': 22870,
-            'М50/55': 22897,
-        },
-        video: 'https://vkvideo.ru/video-93257360_456239280'
-    },
-    {
-        id: 'SPB_20250619_1',
-        parent: 'SPB_20250614_1',
-        date: '2025-06-19',
-        place: 'Пруды',
-        name: 'ККП #4',
-        fmt: 'спринт',
-        o_site: '250616-19_KKP',
-        bulletin: 'http://o-nw.ru/kkp_bulletin',
-        start: 'KKP',
-        strava: 14849160764,
-        me: 'М50',
-        map: 'kkp_2025_06_19',
-        o_gps: {
-            'М': 22873,
-            'Ж': 22872,
-            'М50/55': 22898,
-        },
-        video: 'https://vkvideo.ru/video-93257360_456239281'
-    },
-    {
-        id: 'SPB_20250620_1',
-        date: '2025-06-20',
-        endDate: '2025-06-22',
-        place: 'Яппиля',
-        name: 'Мемориал Михаила Святкина XXXI',
-        o_site: 'mms2025',
-        bulletin: 'https://o-site.spb.ru/_races/mms2025/info3.pdf',
-        reg: 'http://orgeo.ru/event/43134',
-        endReg: '2025-06-17 08:00',
-        reskeep: [708, 709],
-        start: 'MMS',
-        video: [
-            'https://www.youtube.com/watch?v=VsrsQUFx4Uo',
-            'https://www.youtube.com/watch?v=Awc980cCwP4',
-            'https://www.youtube.com/watch?v=od8Wr9N-yLE'
-        ],
-        photo: [
-            'https://vk.com/album-230167293_310146909',
-            'https://vk.com/album-230167293_310169173',
-            'https://vk.com/album-230167293_310182665',
-            'https://vk.com/album-128591100_307166407',
-            'https://www.youtube.com/watch?v=VsrsQUFx4Uo',
-            'https://www.youtube.com/watch?v=Awc980cCwP4',
-            'https://www.youtube.com/watch?v=od8Wr9N-yLE'
-        ],
-        map: ['mms_2025_06_20','mms_2025_06_21','mms_2025_06_22'],
-        planner: ['ILVS','NKTN_I'],
-        o_gps: 22906
-    },
-    {
         id: 'SPB_20250623_1',
         date: '2025-06-23',
         endDate: '2025-06-24',
@@ -1508,31 +1351,6 @@ let events2025 = [
         bulletin: 'https://o-site.spb.ru/_races/250622/250622_ib.pdf',
         reg: 'http://o-reg.spb.ru/',
         map: 'yappilya_tarasovskoe_2024'
-    },
-    {
-        id: 'SPB_20250626_1',
-        date: '2025-06-26',
-        endDate: '2025-06-29',
-        place: 'Раздолье, Петяярви',
-        name: 'Белые Ночи',
-        o_site: '2025_bn',
-        bulletin: 'https://o-site.spb.ru/_races/2025_bn/250629_info-2.pdf',
-        reg: 'http://orgeo.ru/event/info/44257',
-        endReg: '2025-06-24 09:55',
-        o_gps: {
-            'Спринт': 22977,
-            'Лонг': 22979,
-            'Классика': 22980,
-        },
-        reskeep: [710, 711, 712],
-        start: 'WN',
-        map: ['petjajarvy_2024', 'wn_2025_06_27', 'wn_2025_06_28', 'wn_2025_06_29'],
-        strava: [
-            14934051264,
-            14942090719,
-            14952833945
-        ],
-        me: 'М50'
     },
     {
         id: 'SPB_20250628_1',
@@ -2491,54 +2309,6 @@ let events2025 = [
         link: 'https://vk.com/wall-39074786_8496',
         info: 'Новая карта.',
         owner: 'VYBORG'
-    },
-    {
-        id: 'SPB_20251004_3',
-        date: '2025-10-04',
-        endDate: '2025-10-06',
-        place: 'Зеленогорск',
-        name: 'Невский спринт',
-        fmt: 'многодневка, спринт',
-        o_site: '251007_NS',
-        bulletin: 'https://o-site.spb.ru/_races/251007_NS/NS2025_info3.pdf',
-        reg: 'https://orgeo.ru/event/info/45533',
-        endReg: '2025-10-03 14:00',
-        reskeep: [801, 802],
-        o_gps: {
-            '4-М': 23568,
-            '4-Фит': 23605,
-            '5': 23575
-        },
-        info: 'Новые карты, видеосплиты.',
-        owner: 'SFSO_SPB',
-        map: [
-            'zelenogorsk_2025',
-            'bolotnaya_station_2025',
-            'zelenogorsk_tspko_2024'
-        ],
-        planner: ['PLKV_D','CHGRVSKY_V'],
-        publish: 'https://vk.com/album-230167293_311285775',
-        photo: [
-            'https://vk.com/album-230167293_311306913',
-            'https://disk.yandex.ru/d/H7HjD5tQNKFYoA',
-            'https://vk.com/album-18388945_308761615',
-            'https://vk.ru/album-230167293_311317823',
-            'https://vk.com/album-230167293_311307465'
-        ],
-        video: [
-            'http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day1/',
-            'http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day2/',
-            'http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day3/',
-            'http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day3/festival',
-            'https://rutube.ru/video/797a428cd6245962c61c9385092ac1b3/',
-            'https://rutube.ru/video/ccbae3f2817a06db737c95a340823929/',
-            'https://www.youtube.com/watch?v=Cga7gAcCAWY',
-            'https://www.youtube.com/watch?v=BfDZjOGhcF0',
-            'https://www.youtube.com/watch?v=9Ri0V0_VPMg',
-            'https://www.youtube.com/watch?v=S94M9jkHthY'
-        ],
-        strava: 16040676104,
-        me: 'Фит'
     },
     {
         id: 'SPB_20251007_1',

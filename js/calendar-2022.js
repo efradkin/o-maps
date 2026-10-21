@@ -320,6 +320,7 @@ let events2022 = [
         name: 'Фестиваль трейл-о «Адмиралтейский азимут»',
         res: 'https://o-site.spb.ru/_races/220417trailo/PreO_Ekateringof_16_04_2022.pdf',
         info: 'Трассы трейл-ориентирования в рамках Фестиваля инклюзивного спортивного ориентирования «Адмиралтейский азимут» (16-17 апреля 2022) Чемпионат Санкт-Петербурга по спортивному ориентированию – спорт лиц с поражением опорно-двигательного аппарата (16 апреля 2022 года)',
+        type: 'TRAIL_O',
         o_site: '220417trailo',
         bulletin: 'https://o-site.spb.ru/_races/220417trailo/220417trailo_inf1.pdf',
         map: 'ekateringof_2021'
@@ -1103,161 +1104,6 @@ let events2022 = [
         video: 'https://www.youtube.com/watch?v=TeqilOEgG74'
     },
     {
-        id: 'SPB_20220613_1',
-        date: '2022-06-13',
-        endDate: '2022-06-18',
-        place: 'Выборг',
-        name: 'Всероссийские соревнования «Чемпионат и Первенство ФСОР» — трейлО',
-        reg: 'http://orgeo.ru/event/info/22255',
-        endReg: '2022-06-11 10:00',
-        res: 'http://disk.yandex.ru/d/5pcfarHbOr3aDA%D0%9E%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5',
-        info: 'ВСЕРОССИЙСКИЕ СОРЕВНОВАНИЯ ПО ТРЕЙЛ-ОРИЕНТИРОВАНИЮ «ЧЕМПИОНАТ И ПЕРВЕНСТВО ФЕДЕРАЦИИ СПОРТИВНОГО ОРИЕНТИРОВАНИЯ РОССИИ»',
-        owner: 'SFSO_LO',
-        o_site: '220618_trailo',
-        bulletin: 'https://o-site.spb.ru/_races/220618_trailo/Chemp_Perv_FSOR_inf1.pdf'
-    },
-    {
-        id: 'SPB_20220611_2',
-        date: '2022-06-13',
-        endDate: '2022-06-16',
-        place: 'Выборг',
-        name: 'Камни Карельского Перешейка 2022',
-        reg: 'http://sportident.online/entry/?id=5132',
-        res: 'http://o-site.spb.ru/_races/220613-16_KKP/220611_Piramida_result.htm',
-        info: 'В рамках соревнований "Камни Карельского Перешейка 2022" также состоятся: 11 июня - Трейл «Царь скалы» Сайт трейла 11 июня - Ночная эстафета по ориентированию «Пирамида» Заявка Результаты Сплиты Видеотрансляция ВК 12 июня - Детская эстафета по ориентированию «Каменюкола» Заявка Результаты Сплиты Видеотрансляция ВК',
-        video: [
-            'https://www.youtube.com/watch?v=jtpjjOZBJpY',
-        ],
-        start: 'KKP',
-        o_site: '220613-16_KKP'
-    },
-    {
-        id: 'SPB_20220613_2',
-        parent: 'SPB_20220611_2',
-        date: '2022-06-13',
-        place: 'Выборг',
-        name: 'ККП #1',
-        fmt: 'классика',
-        start: 'KKP',
-        o_site: '220613-16_KKP',
-        video: [
-            'http://vk.com/video-93257360_456239179',
-            'https://vkvideo.ru/video-93257360_456239172',
-            'https://www.youtube.com/watch?v=k6hEF6Gy08o',
-            'https://www.youtube.com/watch?v=okR-qVsJlFQ',
-            'https://www.youtube.com/watch?v=G11RRJXzr9U',
-        ],
-        reskeep: 536,
-        strava: 7301364842,
-        o_gps: {
-            'М': 13333,
-            'Ж': 13334,
-            'М45/21А': 13401,
-            'ALL': 13348
-        }
-    },
-    {
-        id: 'SPB_20220614_1',
-        parent: 'SPB_20220611_2',
-        date: '2022-06-14',
-        place: 'Выборг',
-        name: 'ККП #2',
-        fmt: 'лонг',
-        start: 'KKP',
-        o_site: '220613-16_KKP',
-        map: 'kkp_paltsevo_2022_06_14',
-        o_gps: {
-            'М': 13335,
-            'Ж': 13336,
-            'М45/21А': 13450,
-            'ALL': 13352,
-        },
-        video: [
-            'https://vkvideo.ru/video-93257360_456239173',
-            'https://www.youtube.com/watch?v=7flfOdWND4g',
-            'https://www.youtube.com/watch?v=Mj49gwogR-0',
-            'https://www.youtube.com/watch?v=m0soMz91AHM',
-            'https://www.youtube.com/watch?v=1MUx93Vnbwc',
-            'https://rutube.ru/video/dde67d2dd1ae459b0693e8b180183657/'
-        ],
-        reskeep: 547,
-        strava: 7306552917
-    },
-    {
-        id: 'SPB_20220615_1',
-        parent: 'SPB_20220611_2',
-        date: '2022-06-15',
-        place: 'Выборг',
-        name: 'ККП #3',
-        fmt: 'лонг-масстарт',
-        start: 'KKP',
-        o_site: '220613-16_KKP',
-        reskeep: 548,
-        strava: 7312045246,
-        video: [
-            'https://vkvideo.ru/video-93257360_456239174',
-            'https://www.youtube.com/watch?v=zMeycC23YgI',
-            'https://www.youtube.com/watch?v=2Y35LlCDc6Y',
-            'https://www.youtube.com/watch?v=B1j86stckv0'
-        ],
-        o_gps: {
-            'М': 13338,
-            'Ж': 13339,
-            'М20': 13364,
-            'Ж20': 13365,
-            'М45': 13449,
-            'ALL': 13355
-        }
-    },
-    {
-        id: 'SPB_20220616_1',
-        parent: 'SPB_20220611_2',
-        date: '2022-06-16',
-        place: 'Выборг',
-        name: 'ККП #4',
-        fmt: 'спринт',
-        start: 'KKP',
-        o_site: '220613-16_KKP',
-        map: 'kkp_paltsevo_2022_06_16',
-        o_gps: {
-            'М': 13340,
-            'Ж': 13341,
-            'Все КП': 13361,
-            'М45/21А': 13376,
-        },
-        strava: 7317347262,
-        reskeep: 549,
-        video: [
-            'https://vkvideo.ru/video-93257360_456239175',
-            'https://www.youtube.com/watch?v=0VCwyeNpzEY',
-            'https://www.youtube.com/watch?v=VVIKbMxqd0U',
-            'https://www.youtube.com/watch?v=C9PwVpfrwqI'
-        ]
-    },
-    {
-        id: 'SPB_20220617_1',
-        date: '2022-06-17',
-        endDate: '2022-06-20',
-        name: 'Мемориал М.Святкина',
-        place: 'Сосново, Снегирёвка',
-        reg: 'http://orgeo.ru/event/21591',
-        endReg: '2022-06-11 00:05',
-        res: 'http://orgeo.ru/live/#/21592',
-        start: 'MMS',
-        o_site: '22061820',
-        bulletin: 'https://o-site.spb.ru/_races/22061820/22061721_info2.pdf',
-        strava: [7328784020,7333156174],
-        reskeep: [545, 546],
-        map: ['mms_2022_06_17','mms_2022_06_18','mms_2022_06_19','mms_2022_06_21'],
-        planner: 'SHEIN',
-        o_gps: {
-            '18-М40/45': 13414,
-            '19-М': 13415,
-            '19-Ж': 13416,
-            '19-М45': 13424
-        }
-    },
-    {
         id: 'SPB_20220620_1',
         date: '2022-06-20',
         endDate: '2022-06-23',
@@ -1706,18 +1552,6 @@ let events2022 = [
         start: 'SCHOOL'
     },
     {
-        id: 'SPB_20220917_1',
-        date: '2022-09-17',
-        place: 'Парк Дачи Эбсворта (усадьба «Литания», часть парка Новознаменка)',
-        name: 'Всероссийские соревнования «Балтийский берег» (трейл-ориентирование)',
-        reg: 'http://orgeo.ru/event/info/23932',
-        endReg: '2022-09-15 23:55',
-        res: 'https://o-site.spb.ru/_races/220917_trailo/protokol_elita_preO.pdf',
-        info: 'Кубок Санкт-Петербурга по спортивному ориентированию – спорт лиц с поражением опорно-двигательного аппарата 2022 год Всероссийские соревнования по спортивному ориентированию «Балтийский берег» Всероссийский фестиваль среди обучающихся, обучающихся с ограниченными возможностями здоровья и инвалидов по ориентированию на местности в 2022 году',
-        o_site: '220917_trailo',
-        bulletin: 'https://o-site.spb.ru/_races/220917_trailo/Reglament_Kubok__vserossiyskie_Baltiyskiy_bereg.pdf'
-    },
-    {
         id: 'SPB_20220917_2',
         date: '2022-09-17',
         place: 'Гарболово',
@@ -1971,41 +1805,6 @@ let events2022 = [
         info: 'В ожидании главных ночных стартов года, можно потренировать навыки ориентирования в темноте.',
         o_site: '220604_PMC',
         map: 'rzhevsky_2024'
-    },
-    {
-        id: 'SPB_20221006_1',
-        date: '2022-10-06',
-        endDate: '2022-10-10',
-        place: 'Пушкин, Сестрорецкие Дюны, Ласковый пляж',
-        name: 'Всероссийские соревнования, Фестиваль «Невский спринт»',
-        res: 'https://o-site.spb.ru/_races/221010_vseros/221008_res_sum.htm',
-        photo: [
-            'http://vk.com/album-154221178_287261227',
-            'http://vk.com/album-154221178_287261185',
-            'http://vk.com/album-154221178_287261206',
-        ],
-        video: [
-            'https://www.youtube.com/watch?v=fRPq_D5p_-4',
-            'https://www.youtube.com/watch?v=29hiuxaqDbk',
-            'https://www.youtube.com/watch?v=hiu3bViJPqU',
-            'https://rutube.ru/video/82cf8112083a2cf94056d4be46250886/',
-            'https://rutube.ru/video/ff83fee8a7495ff510885e2d4cf2883c/',
-            'https://rutube.ru/video/18fc6e072db903c5397238607ded3c21/',
-            'https://www.youtube.com/watch?v=B-ydxW0RmLs',
-            'https://www.youtube.com/watch?v=3ox0HecYQ6I',
-            'https://www.youtube.com/watch?v=Hr4eyglcmxo'
-        ],
-        strava: [7924730324, 7929743485, 7936822837],
-        owner: 'SFSO_SPB',
-        o_site: '221010_vseros',
-        reskeep: [538, 552, 551],
-        map: 'sestroretsk_pljazh_laskovy_2023',
-        o_gps: {
-            '07': 14321,
-            '08': 14335,
-            '08-М18/ЖЭ': 14338,
-            '09-М18': 14366
-        }
     },
     {
         id: 'SPB_20221008_1',

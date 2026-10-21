@@ -93,6 +93,7 @@
             <option value="2024">2024</option>
             <option value="2025">2025</option>
             <option value="2026">2026</option>
+            <option value="2027">2027</option>
             <option value="ALL" selected>Все годы</option>
         </select>
 
@@ -306,7 +307,7 @@
             ...eventsEarly
         ];
         switch (y) {
-            case 'ALL': oEvents.push(...allYearsEvents); oEvents.push(...commonEvents2026); oEvents.push(...otherEvents2026); break;
+            case 'ALL': oEvents.push(...allYearsEvents); oEvents.push(...otherEvents2026); break;
             case 'EARLY': oEvents.push(...eventsEarly); break;
             case '2004': oEvents.push(...events2004); break;
             case '2005': oEvents.push(...events2005); break;
@@ -330,16 +331,18 @@
             case '2023': oEvents.push(...events2023); break;
             case '2024': oEvents.push(...events2024); break;
             case '2025': oEvents.push(...events2025); break;
+            case '2027': break;
             case '2026':
-            default: oEvents.push(...events2026); oEvents.push(...commonEvents2026); oEvents.push(...otherEvents2026); break;
+            default: oEvents.push(...events2026); oEvents.push(...otherEvents2026); break;
         }
-        // Чемпионаты мира IOF (js/calendar-iof.js) — по году даты начала; до 2004 года — в «Ранних».
-        const iofYear = /^\d{4}$/.test(y) && y >= '2004' && y <= '2026' ? y : '2026';
-        oEvents.push(...iofEvents.filter(e => y === 'ALL' || (y === 'EARLY' ? e.date < '2004' : e.date.startsWith(iofYear))));
-        // Старты ФСОР (js/calendar-fsor.js) — так же: по году даты начала; до 2004 года — в «Ранних».
-        oEvents.push(...fsorEvents.filter(e => y === 'ALL' || (y === 'EARLY' ? e.date < '2004' : e.date.startsWith(iofYear))));
-        // Чемпионаты мира и Европы по рогейну IRF (js/calendar-irf.js) — так же.
-        oEvents.push(...irfEvents.filter(e => y === 'ALL' || (y === 'EARLY' ? e.date < '2004' : e.date.startsWith(iofYear))));
+        // Общие старты (js/calendar-common.js), чемпионаты IOF (js/calendar-iof.js), старты ФСОР (js/calendar-fsor.js)
+        // и чемпионаты IRF (js/calendar-irf.js) — по году даты начала; до 2004 года — в «Ранних».
+        const iofYear = /^\d{4}$/.test(y) && y >= '2004' && y <= '2027' ? y : '2026';
+        const byYear = e => y === 'ALL' || (y === 'EARLY' ? e.date < '2004' : e.date.startsWith(iofYear));
+        oEvents.push(...commonEvents.filter(byYear));
+        oEvents.push(...iofEvents.filter(byYear));
+        oEvents.push(...fsorEvents.filter(byYear));
+        oEvents.push(...irfEvents.filter(byYear));
 
         document.getElementById('year_selector').value = y;
 

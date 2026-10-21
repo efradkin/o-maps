@@ -89,6 +89,7 @@ const GLOBAL_MENU_ITEMS = [
             { title: '🗓️ Москва', page: 'calendar-msk' },
             { title: '🗓️ Самара', page: 'calendar-samara' },
             { title: '🗓️ Главные старты', page: 'calendar.html?start=major' },
+            { title: '🗓️ ФСОР', page: 'calendar.html?owner=FSOR' },
             {
                 title: '🌍 Чемпионаты IOF',
                 menuItems: [

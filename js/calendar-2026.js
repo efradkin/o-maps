@@ -1455,23 +1455,6 @@ let events2026 = [
         start: 'SPRINT_TOUR'
     },
     {
-        id: 'SPB_20260523_1',
-        date: '2026-05-23',
-        endDate: '2026-05-24',
-        name: 'Международные соревнования',
-        place: 'Стеклянный',
-        o_site: 'velo2026',
-        bulletin: 'https://o-site.spb.ru/_races/velo2026/Infbul3_.pdf',
-        reg: 'http://sportident.online/entry/?id=7099',
-        video: 'https://vk.com/video-220245153_456239095',
-        type: 'VELO',
-        fmt: 'классика, масстарт',
-        owner: 'SFSO_SPB',
-        major: true,
-        publish: 'https://vk.com/album-230167293_313631286',
-        map: 'silande_velo_2025'
-    },
-    {
         id: 'SPB_20260523_7',
         date: '2026-05-23',
         name: 'Царскосельский азимут',
@@ -2433,17 +2416,6 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1747',
         owner: 'SFSO_SPB',
         map: 'pukhtolova_gora_2025'
-    },
-    {
-        id: 'SPB_20260828_1',
-        date: '2026-08-28',
-        endDate: '2026-08-30',
-        name: 'ЧиП СЗФО',
-        place: 'Петрозаводск',
-        reg: 'https://orgeo.ru/event/54289',
-        endReg: '2026-08-26 10:00',
-        fmt: 'выбор, масстарт, лонг-масстарт',
-        owner: 'FSO_KARELIA'
     },
     {
         id: 'SPB_20260829_1',

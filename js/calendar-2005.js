@@ -327,15 +327,6 @@ let events2005 = [
         o_site: '050522'
     },
     {
-        id: 'SPB_20050527_1',
-        date: '2005-05-27',
-        endDate: '2005-05-29',
-        place: 'Московская обл, Одинцово',
-        name: 'Кубок России по МТБ-О 1,2 этап',
-        type: 'VELO',
-        o_site: '050528'
-    },
-    {
         id: 'SPB_20050528_1',
         date: '2005-05-28',
         endDate: '2005-05-29',
@@ -343,16 +334,6 @@ let events2005 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/05052829/05052829.zip',
         o_site: '05052829'
-    },
-    {
-        id: 'SPB_20050603_1',
-        date: '2005-06-03',
-        endDate: '2005-06-06',
-        place: 'Каннельярви',
-        name: 'Кубок России по МТБ-О 3,4 этап',
-        type: 'VELO',
-        res: 'https://o-site.spb.ru/_races/050604_MTB/050604mtb_res.htm',
-        o_site: '050604_MTB'
     },
     {
         id: 'SPB_20050604_1',
@@ -420,17 +401,6 @@ let events2005 = [
         start: 'KS',
         o_site: '050620',
         map: ['ks_2005_06_20','ks_2005_06_21','ks_2005_06_22']
-    },
-    {
-        id: 'SPB_20050624_1',
-        date: '2005-06-24',
-        endDate: '2005-06-26',
-        place: 'Сосново, 78км',
-        name: 'Мемориал Святкина',
-        res: 'https://o-site.spb.ru/_races/050624/MemSv_res.zip',
-        start: 'MMS',
-        o_site: '050624',
-        map: ['mms_2005_06_24','mms_2005_06_25','mms_2005_06_26']
     },
     {
         id: 'SPB_20050702_1',

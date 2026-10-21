@@ -757,19 +757,6 @@ let events2012 = [
         ]
     },
     {
-        id: 'SPB_20120626_1',
-        date: '2012-06-26',
-        endDate: '2012-07-01',
-        name: 'XX Мемориал Михаила Святкина',
-        place: 'Лемболово',
-        res: 'https://o-site.spb.ru/_races/120626/120626_res.htm',
-        info: 'Ленинградская область, Лемболово, 26 июня – 1 июля 2012 г.',
-        start: 'MMS',
-        o_site: '120626',
-        bulletin: 'http://www.svjatkin.spb.ru/',
-        map: ['mms_2012_06_26', 'mms_2012_06_27', 'mms_2012_06_28', 'mms_2012_06_29', 'mms_2012_06_30', 'mms_2012_07_01']
-    },
-    {
         id: 'SPB_20120630_1',
         date: '2012-06-30',
         endDate: '2012-07-01',
@@ -778,19 +765,6 @@ let events2012 = [
         type: 'ROGAINE',
         fmt: '8 и 24 часа',
         o_site: '120630'
-    },
-    {
-        id: 'SPB_20120703_1',
-        date: '2012-07-03',
-        endDate: '2012-07-06',
-        name: 'Кубок Карельского Перешейка',
-        place: 'Боровинка, оз Новинское',
-        res: 'https://o-site.spb.ru/_races/12070306/KKP2012_res.zip',
-        start: 'KKP',
-        o_site: '12070306',
-        bulletin: 'https://o-site.spb.ru/_races/12070306/12070306_info2.pdf',
-        planner: 'TLNV_A',
-        map: ['kkp_2012_07_02','kkp_2012_07_04']
     },
     {
         id: 'SPB_20120707_1',

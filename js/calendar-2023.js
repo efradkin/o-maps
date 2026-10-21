@@ -204,24 +204,6 @@ let events2023 = [
         ]
     },
     {
-        id: 'SPB_20230209_1',
-        date: '2023-02-09',
-        endDate: '2023-02-12',
-        place: 'Токсово',
-        name: 'Первенство России',
-        type: 'SKI',
-        res: 'https://o-site.spb.ru/_races/230213/230213_Vseros_res.pdf',
-        photo: 'http://vk.com/album-30365190_291308622',
-        video: 'https://www.youtube.com/watch?v=46IuiG56HUc',
-        o_site: '230213',
-        bulletin: 'https://o-site.spb.ru/_races/230213/23020913_info.pdf',
-        map: 'toksovo_vifk_winter_2023',
-        o_gps: 15061,
-        maps: [
-            'https://o-site.spb.ru/_races/230213/230213_map.pdf'
-        ]
-    },
-    {
         id: 'SPB_20230219_1',
         date: '2023-02-19',
         place: 'Зеркальный',
@@ -511,6 +493,7 @@ let events2023 = [
         endReg: '2023-04-14 18:00',
         res: 'https://o-site.spb.ru/_races/230415_trailo/230415_trailo_rezult.pdf',
         info: 'Чемпионат Санкт-Петербурга по спортивному ориентированию – спорт лиц с поражением опорно-двигательного аппарата. Открытые соревнования на приз комиссии по трейл-ориентированию Федерации спортивного ориентирования Санкт-Петербурга.',
+        type: 'TRAIL_O',
         o_site: '230415_trailo'
     },
     {
@@ -756,19 +739,6 @@ let events2023 = [
         start: 'SPRINT_TOUR',
         reskeep: 586,
         photo: 'https://vk.ru/album-92124592_292986474'
-    },
-    {
-        id: 'SPB_20230511_1',
-        date: '2023-05-11',
-        endDate: '2023-05-15',
-        place: 'Лемболово',
-        name: 'Первенство России (Лемболово, вело)',
-        type: 'VELO',
-        res: 'https://o-site.spb.ru/_races/230511/https://orgeo.ru/event/28751',
-        owner: 'SFSO_LO',
-        o_site: '230511',
-        bulletin: 'https://o-site.spb.ru/_races/230511/info_1.pdf',
-        map: 'lembolovo_velo_2023'
     },
     {
         id: 'SPB_20230513_1',
@@ -1143,179 +1113,12 @@ let events2023 = [
         o_gps: 16507
     },
     {
-        id: 'SPB_20230617_1',
-        date: '2023-06-19',
-        endDate: '2023-06-22',
-        place: 'Пруды',
-        name: 'Камни Карельского Перешейка 2023',
-        start: 'KKP',
-        o_site: '230617-22_KKP',
-        video: [
-            'https://vksport.vkvideo.ru/video-93257360_456239221',
-            'https://www.youtube.com/watch?v=DYPQbahZwtc',
-            'https://www.youtube.com/watch?v=b8r-CSOze84',
-            'https://www.youtube.com/watch?v=HV-j7omktaE',
-            'https://www.youtube.com/watch?v=y7GxLpH4J98',
-        ],
-        map: 'kkp_prudy_2023_06_17'
-    },
-    {
-        id: 'SPB_20230619_1',
-        parent: 'SPB_20230617_1',
-        date: '2023-06-19',
-        place: 'Пруды',
-        name: 'ККП 2023 #1',
-        fmt: 'классика',
-        start: 'KKP',
-        o_site: '230617-22_KKP',
-        strava: 9321298380,
-        reskeep: 599,
-        map: 'kkp_prudy_2023_06_19',
-        o_gps: {
-            'М': 16497,
-            'Ж': 16501,
-            'М18': 16503,
-            'М45/21А': 16598,
-            'Ж16': 16581,
-            'М70': 16533,
-            'М21А/Open-B.': 16556,
-            'Ж12': 16582,
-            'Ж40': 16585,
-            'М45': 16591,
-            'М21АК': 16518,
-        },
-        video: [
-            'https://www.youtube.com/watch?v=DvbP31HGfIc',
-            'https://www.youtube.com/watch?v=XIB442BrfeQ',
-            'https://www.youtube.com/watch?v=YaSLDLs0X60',
-            'https://www.youtube.com/watch?v=LZLAnVFYMfw',
-            'https://www.youtube.com/watch?v=c5_JqAqfrGM',
-            'https://vkvideo.ru/video-93257360_456239218'
-        ]
-    },
-    {
-        id: 'SPB_20230620_1',
-        parent: 'SPB_20230617_1',
-        date: '2023-06-20',
-        place: 'Пруды',
-        name: 'ККП 2023 #2',
-        fmt: 'лонг',
-        start: 'KKP',
-        o_site: '230617-22_KKP',
-        strava: 9321303067,
-        reskeep: 600,
-        map: 'kkp_prudy_2023_06_20',
-        o_gps: {
-            'М': 16498,
-            'Ж': 16513,
-            'М18': 16514,
-            'М45/21А': 16599,
-            'М21А/Open-B.': 16557,
-            'Ж16': 16586,
-            'Ж12': 16587,
-            'М45': 16588,
-            'Ж40': 16589,
-            'M21АК': 16540,
-        },
-        video: [
-            'https://www.youtube.com/watch?v=g-YOzBUM3a8',
-            'https://www.youtube.com/watch?v=0dYYvMJPVP0',
-            'https://www.youtube.com/watch?v=hmkOtR96THs',
-            'https://www.youtube.com/watch?v=97-FYsFlI7U',
-            'https://vkvideo.ru/video-93257360_456239220'
-        ]
-    },
-    {
-        id: 'SPB_20230621_1',
-        parent: 'SPB_20230617_1',
-        date: '2023-06-21',
-        place: 'Пруды',
-        name: 'ККП 2023 #3',
-        fmt: 'лонг-масстарт',
-        start: 'KKP',
-        o_site: '230617-22_KKP',
-        strava: 9321307758,
-        reskeep: 601,
-        video: [
-            'https://www.youtube.com/watch?v=LQlzH_ehSKM',
-            'https://www.youtube.com/watch?v=JvMDymoVLdw',
-            'https://www.youtube.com/watch?v=lOyollFirFI',
-            'https://www.youtube.com/watch?v=pc6vf-fWUzw',
-            'https://vkvideo.ru/video-93257360_456239222'
-        ],
-        o_gps: {
-            'М': 16499,
-            'Ж': 16520,
-            'М18': 16521,
-            'М45/21А': 16600,
-            'M21A/Open-B': 16558,
-            'М21АК': 16547
-        }
-    },
-    {
-        id: 'SPB_20230622_1',
-        parent: 'SPB_20230617_1',
-        date: '2023-06-22',
-        place: 'Пруды',
-        name: 'ККП 2023 #4',
-        fmt: 'спринт',
-        start: 'KKP',
-        o_site: '230617-22_KKP',
-        strava: 9321312836,
-        reskeep: 602,
-        video: [
-            'https://www.youtube.com/watch?v=X_AetUb6PSY',
-            'https://www.youtube.com/watch?v=I2H0Ac5btpw',
-            'https://www.youtube.com/watch?v=DxbF-lfXJL8',
-            'https://www.youtube.com/watch?v=5o5AytYd3q4',
-            'https://www.youtube.com/watch?v=4RBVnvbGbjc',
-            'https://www.youtube.com/watch?v=7kKVndzkFQM',
-            'https://vkvideo.ru/video-93257360_456239223'
-        ],
-        o_gps: {
-            'М': 16500,
-            'Ж': 16522,
-            'М18': 16523,
-            'М45/21А': 16601,
-            'М21А/Open-B': 16562,
-            'М21АК': 16548,
-            'М70': 16544
-        }
-    },
-    {
         id: 'SPB_20230623_2',
         date: '2023-06-23',
         name: 'Тренировочный старт',
         place: 'оз Горица',
         video: 'https://www.youtube.com/watch?v=9WNKrGr3wag',
         map: 'kkp_goritsa_2014_06_26'
-    },
-    {
-        id: 'SPB_20230623_1',
-        date: '2023-06-23',
-        endDate: '2023-06-25',
-        name: 'Мемориал Михаила Святкина',
-        place: 'Сосново, Уловное оз',
-        reg: 'http://orgeo.ru/event/info/28788',
-        endReg: '2023-06-20 23:00',
-        res: 'http://orgeo.ru/live/#/28788/3',
-        video: [
-            'https://www.youtube.com/watch?v=mFBr2MNJL9M',
-            'https://www.youtube.com/watch?v=0N8VrUFS6Wk&pp=0gcJCdoKAYcqIYzv'
-        ],
-        start: 'MMS',
-        o_site: 'mms2023',
-        bulletin: 'https://o-site.spb.ru/_races/mms2023/Info2.pdf',
-        reskeep: [598, 596, 597],
-        map: ['mms_2023_06_23','mms_2023_06_24','mms_2023_06_25'],
-        planner: 'TSVTKV_D',
-        o_gps: {
-            '23': 16535,
-            '24': 16538,
-            '24-М18': 16542,
-            '24-Раззява': 16569,
-            '25': 16553
-        }
     },
     {
         id: 'SPB_20230624_1',
@@ -1798,20 +1601,6 @@ let events2023 = [
         bulletin: 'https://o-site.spb.ru/_races/230916_zg_relay/230916_info3.pdf'
     },
     {
-        id: 'SPB_20230916_2',
-        date: '2023-09-16',
-        endDate: '2023-09-17',
-        name: 'Всероссийские соревнования по трейл-ориентированию',
-        place: 'Сосновка',
-        reg: 'http://orgeo.ru/event/info/30161',
-        endReg: '2023-09-15 00:00',
-        res: 'https://o-site.spb.ru/_races/230916_tr/230916_res.pdf',
-        info: 'Всероссийские соревнования по спортивному ориентированию в дисциплинах трейл-ориентирования «Балтийский берег» Всероссийский фестиваль среди обучающихся, обучающихся с ограниченными возможностями здоровья и инвалидов по ориентированию на местности в 2023 году',
-        o_site: '230916_tr',
-        bulletin: 'https://o-site.spb.ru/_races/230916_tr/230917_trailo_inf3.pdf',
-        map: 'sosnovka_2014'
-    },
-    {
         id: 'SPB_20230916_3',
         date: '2023-09-16',
         endDate: '2023-09-17',
@@ -2019,26 +1808,6 @@ let events2023 = [
         },
         map: 'zhaka_djuklo_2023',
         photo: 'https://vk.ru/album-92124592_297414910'
-    },
-    {
-        id: 'SPB_20231005_1',
-        date: '2023-10-05',
-        endDate: '2023-10-09',
-        name: 'Всероссийские соревнования "Невский спринт"',
-        place: 'УТЦ Кавголово, Парголово, шк №97',
-        res: 'http://orgeo.ru/live/#/29568/1',
-        o_gps: 17533,
-        video: [
-            'https://www.youtube.com/watch?v=pSrwKLYU-OE',
-            'https://rutube.ru/video/d0cfec4658b9f623f39c9c6ae643feff/',
-            'https://www.youtube.com/watch?v=7PCKW5Bn33k'
-        ],
-        owner: 'SFSO_SPB',
-        o_site: '231009_NS',
-        bulletin: 'https://o-site.spb.ru/_races/231009_NS/231008-info3.pdf',
-        strava: 9986789707,
-        reskeep: 616,
-        map: ['kavgolovo_utts_2023','pargolovo_2021','drezdenskaya_2023']
     },
     {
         id: 'SPB_20231007_1',
@@ -2576,20 +2345,6 @@ let events2023 = [
         o_gps: 17881,
         maps: [
             'https://o-site.spb.ru/_races/231126_st/1112_2.9.png'
-        ]
-    },
-    {
-        id: 'SPB_20231128_1',
-        date: '2023-11-28',
-        name: 'ТОЧНЫЙ АЗИМУТ - всероссийский этап',
-        reg: 'http://orgeo.ru/event/info/22932',
-        endReg: '2023-11-27 16:30',
-        res: 'http://disk.yandex.ru/i/Ze24i6Khs2igaA',
-        info: 'Всероссийский этап финального мероприятия «Всероссийские игры по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций»',
-        o_site: '231128_TA',
-        bulletin: 'https://o-site.spb.ru/_races/231128_TA/TochnnyAzimut2023_vseros_bul.pdf',
-        maps: [
-            'https://o-site.spb.ru/_races/231128_TA/solutions.pdf'
         ]
     },
     {
