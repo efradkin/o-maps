@@ -33,16 +33,24 @@
     --o-row-orient:  #f3faf4;
     --o-row-rogaine: #fdf8ec;
     --o-row-water:   #f0f7fd;
+    --o-row-ski:     #f0faff;
     --o-bar-orient:  #4f9a63;
     --o-bar-rogaine: #d09a3c;
     --o-bar-water:   #4b8ec4;
+    --o-bar-ski:     #8aaec8;
     /* подсветка текущих стартов (tr.current) — чуть насыщеннее тона типа */
     --o-cur-orient:  #e3f3e6;
     --o-cur-rogaine: #fcf2da;
     --o-cur-water:   #e7f1fb;
+    --o-cur-ski:     #e1f1fb;
     /* наведение на строку календаря — полупрозрачный слой поверх фона строки:
        тон типа сохраняется, строка только темнеет */
     --o-row-hover-tint: rgba(40, 60, 30, .07);
+    /* затемнение при наведении — в тоне вида спорта строки */
+    --o-hover-orient:  rgba(40, 110, 55, .08);
+    --o-hover-rogaine: rgba(170, 115, 20, .09);
+    --o-hover-blue:    rgba(30, 100, 160, .08);   /* лыжи и водный рогейн */
+    --o-hover-none:    rgba(30, 40, 30, .05);     /* строки без типа */
 
     /* геометрия и тени */
     --o-r:      12px;
@@ -487,6 +495,11 @@ body.calendar-body .o-main-table tr { background-color: var(--o-surface); }
 body.calendar-body .o-main-table .orient  { background-color: var(--o-row-orient); }
 body.calendar-body .o-main-table .rogaine { background-color: var(--o-row-rogaine); }
 body.calendar-body .o-main-table .water   { background-color: var(--o-row-water); }
+body.calendar-body .o-main-table .ski     { background-color: var(--o-row-ski); }
+/* лыжный календарь: старая «зебра» из main.css (body.ski-bodi … tr:nth-child(odd) —
+   lightgray !important) в новом дизайне не нужна — строки красит тип, как в других календарях */
+body.calendar-body.ski-bodi .o-main-table tr:nth-child(odd)     { background-color: var(--o-surface) !important; }
+body.calendar-body.ski-bodi .o-main-table tr.ski:nth-child(odd) { background-color: var(--o-row-ski) !important; }
 
 /* Прокрутка к текущим стартам (scrollIntoView в calendar.js) ставит строку
    к верху скролл-контейнера, но там «прилипшая» шапка thead — она перекрывала
@@ -505,18 +518,20 @@ body.calendar-body .o-main-table td {
 /* цветная полоса слева — только у строк с типом (month-row не затрагивается) */
 body.calendar-body .o-main-table tr.orient  > td:first-child,
 body.calendar-body .o-main-table tr.rogaine > td:first-child,
-body.calendar-body .o-main-table tr.water   > td:first-child {
+body.calendar-body .o-main-table tr.water   > td:first-child,
+body.calendar-body .o-main-table tr.ski     > td:first-child {
     border-left: 3px solid transparent;
     padding-left: 11px;
 }
 body.calendar-body .o-main-table tr.orient  > td:first-child { border-left-color: var(--o-bar-orient); }
 body.calendar-body .o-main-table tr.rogaine > td:first-child { border-left-color: var(--o-bar-rogaine); }
 body.calendar-body .o-main-table tr.water   > td:first-child { border-left-color: var(--o-bar-water); }
+body.calendar-body .o-main-table tr.ski     > td:first-child { border-left-color: var(--o-bar-ski); }
 
 /* прошедшие старты — приглушаем полосу, чтобы не спорила с серым текстом */
 body.calendar-body .o-main-table tr.disabled > td:first-child { border-left-color: #cfd6ca; }
-body.calendar-body .o-main-table .disabled { color: var(--o-text-faint); }
-body.calendar-body .o-main-table .disabled a { color: var(--o-text-faint); }
+body.calendar-body .o-main-table .disabled { color: var(--o-text-muted); }
+body.calendar-body .o-main-table .disabled a { color: var(--o-text-muted); }
 
 /* текущие старты — лёгкая подсветка в тоне своего типа (раньше был один
    зелёный на всех: рогейны теряли жёлтый фон, бег и прочие «без типа»
@@ -526,11 +541,23 @@ body.calendar-body .o-main-table .disabled a { color: var(--o-text-faint); }
 body.calendar-body .o-main-table tr.current:where(.orient)  > td { background-color: var(--o-cur-orient); }
 body.calendar-body .o-main-table tr.current:where(.rogaine) > td { background-color: var(--o-cur-rogaine); }
 body.calendar-body .o-main-table tr.current:where(.water)   > td { background-color: var(--o-cur-water); }
+body.calendar-body .o-main-table tr.current:where(.ski)     > td { background-color: var(--o-cur-ski); }
 
 /* hover — не отдельный цвет, а затемнение собственного фона строки
-   (тип от <tr> или подсветка .current на <td>): рогейн остаётся жёлтым,
-   ориентирование зелёным, строки без типа получают нейтральный серый.
-   background-color не трогаем, слой рисуем через background-image. */
+   (тип от <tr> или подсветка .current на <td>) в тоне вида спорта:
+   рогейн остаётся жёлтым, ориентирование зелёным, лыжи и водный рогейн
+   голубыми, строки без типа получают нейтральный серый. Слой рисуем через
+   background-image. Общее правило таблиц (tr:hover > td — зелёный
+   --o-accent-soft) в календаре снимаем: ячейки прозрачны, виден фон строки;
+   у .current ячейки сохраняют свою подсветку. */
+body.calendar-body .o-main-table tbody tr { --o-row-hover-tint: var(--o-hover-none); }
+body.calendar-body .o-main-table tbody tr.orient  { --o-row-hover-tint: var(--o-hover-orient); }
+body.calendar-body .o-main-table tbody tr.rogaine { --o-row-hover-tint: var(--o-hover-rogaine); }
+body.calendar-body .o-main-table tbody tr.water,
+body.calendar-body .o-main-table tbody tr.ski     { --o-row-hover-tint: var(--o-hover-blue); }
+body.calendar-body .o-main-table tbody tr:not(.current):hover > td:not(.month-row) {
+    background-color: transparent;
+}
 body.calendar-body .o-main-table tbody tr:hover > td:not(.month-row) {
     background-image: linear-gradient(var(--o-row-hover-tint), var(--o-row-hover-tint));
 }
@@ -573,6 +600,11 @@ body.calendar-body .o-main-table td.month-row .month-counts {
 body.calendar-body.ski-bodi .o-main-table td.month-row {
     --o-month-ink: #044E71;
     --o-month-rule: #2f7fa6;
+}
+/* в тёмной теме тёмно-синий заголовок месяца не читается — светлый синий */
+:root.o-dark body.calendar-body.ski-bodi .o-main-table td.month-row {
+    --o-month-ink: #8ec3e3;
+    --o-month-rule: #4b8ec4;
 }
 
 /* «Прочее» — вторичная колонка, приглушаем */
@@ -877,16 +909,24 @@ footer hr {
     --o-row-orient:  #1b241d;
     --o-row-rogaine: #241f16;
     --o-row-water:   #16202a;
+    --o-row-ski:     #182026;
     --o-cur-orient:  #233226;
     --o-cur-rogaine: #2c2518;
     --o-cur-water:   #1a2733;
+    --o-cur-ski:     #1e2932;
     --o-row-hover-tint: rgba(255, 255, 255, .06);
+    --o-hover-orient:  rgba(124, 188, 139, .10);
+    --o-hover-rogaine: rgba(208, 154, 60, .10);
+    --o-hover-blue:    rgba(110, 170, 220, .10);
+    --o-hover-none:    rgba(255, 255, 255, .06);
     --o-sh-1:        0 1px 2px rgba(0,0,0,.4);
     --o-sh-2:        0 6px 20px rgba(0,0,0,.5);
     --o-sh-pop:      0 12px 34px rgba(0,0,0,.6);
     --o-ring:        0 0 0 3px rgba(124,188,139,.28);
 }
-:root.o-dark .o-main-table tr:nth-child(odd) { background-color: #1e2420; }
+/* зебра таблиц в тёмной теме; в календаре строки красит вид спорта (блок [10]) —
+   иначе это правило (оно специфичнее) перебивает цвет нечётных строк */
+:root.o-dark body:not(.calendar-body) .o-main-table tr:nth-child(odd) { background-color: #1e2420; }
 :root.o-dark body.index-body .region-box img { filter: invert(1) hue-rotate(180deg); opacity: .7; }
 :root.o-dark .leaflet-control-layers { background: rgba(27,33,29,.9) !important; }
 /* Кнопки-иконки оставляем на светлой подложке даже в тёмной теме:

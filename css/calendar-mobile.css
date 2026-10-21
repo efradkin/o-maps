@@ -419,6 +419,17 @@
     --om-type-chip-ink: #7a5716;
   }
 
+  /* Лыжное ориентирование и лыжные гонки (класс .ski). */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.ski {
+    --om-type-bar: #8aaec8;
+    --om-type-bg: #f6f9fc;
+    --om-type-date: #e4edf4;
+    --om-type-date-active: #d3e2ed;
+    --om-type-date-ink: #2b4558;
+    --om-type-chip: #e2ebf3;
+    --om-type-chip-ink: #335b78;
+  }
+
   /* Водный рогейн (класс .water). */
   .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.water {
     --om-type-bar: #4b8ec4;

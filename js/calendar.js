@@ -241,6 +241,11 @@ function renderMapsTable() {
             krogaines++;
             rogaineEvents++;
         } else {
+            // лыжное ориентирование и лыжные гонки — голубоватый фон (theme.css, tr.ski);
+            // лыжный рогейн остаётся рогейном
+            if (evt.type.includes('SKI') || evt.type.includes('SK_RACE')) {
+                row.classList.add('ski');
+            }
             if (evt.type.includes('SKI') || evt.type.includes('VELO')) {
                 korients++;
                 if (evt.type.includes('SKI')) {
