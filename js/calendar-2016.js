@@ -1298,7 +1298,7 @@ let events2016 = [
         start: 'LO_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=636',
         res: 'https://o-site.spb.ru/_races/160917/160917_res.htm',
-        fmt: 'эстафета - 2 этапа',
+        fmt: 'эстафета 2х',
         o_site: '160917',
         bulletin: 'http://o-site.spb.ru/_races/160918/16091718_info_.pdf'
     },
