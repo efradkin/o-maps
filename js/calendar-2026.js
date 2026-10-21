@@ -1537,8 +1537,9 @@ let events2026 = [
         endReg: '2026-05-20 22:00',
         type: 'TOURISM',
         link: ['https://t.me/pmarshbrosok', 'https://kandid.ru'],
-        photo: ['https://disk.yandex.ru/d/QJHL35iYw7iShQ','https://disk.yandex.ru/d/uxbIEg-wR0WiaA'],
-        res: 'https://vk.com/wall-29327859_5942',
+        photo: ['https://disk.yandex.ru/d/QJHL35iYw7iShQ','https://disk.yandex.ru/d/uxbIEg-wR0WiaA','https://disk.yandex.ru/d/fyHgtwJ6S0BKjw'],
+        res: 'https://kandid.ru/vmb26r.htm', // https://vk.com/wall-29327859_5942
+        split: 'https://kandid.ru/vmb26s.htm',
         o_gps: 25166,
         start: 'MB',
         coord: [60.604374, 29.040213],
@@ -3079,6 +3080,7 @@ let events2026 = [
         endReg: '2026-10-15 22:00',
         bulletin: 'https://orgeo.ru/files/event/file/53888_a99fedfe25.docx',
         photo: ['https://disk.yandex.ru/d/ZQs0NYD5aAYOpQ','https://drive.google.com/drive/folders/1fjhK4UF5IaNEuqTVFjhGPXgvvYlw4B0f'],
+        video: 'https://vk.com/video-176889592_456239170',
         coord: [61.014852, 30.228219],
         type: 'TOURISM',
         start: 'MB'

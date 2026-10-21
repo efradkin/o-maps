@@ -1207,6 +1207,7 @@ let irfEvents = [
             // 'https://web.archive.org/web/20230324183950/https://www.wrc2019.cat/en/terrain-and-map/' // страница, не файл карты
         ],
         photo: 'https://web.archive.org/web/20230324200744/https://www.wrc2019.cat/en/images-2/',
+        video: 'https://www.youtube.com/watch?v=h7vMo5andls',
         gps: {
             'Tracktherace': 'https://tracktherace.com/en/world-rogaining-championship-2019/',
             'PlayMap': 'https://play-map.com/event?id=347',

@@ -746,7 +746,6 @@ let events2024 = [
         place: 'Орово',
         reg: 'http://orgeo.ru/event/info/35406',
         endReg: '2024-05-08 23:55',
-        res: 'http://orgeo.ru/live/#/35406',
         info: 'Первенство Заневского городского поселения по спортивному ориентированию «Всеволожский ориентир», посвященных Дню Великой Победы Кубок Белых Ночей 10 этап.',
         map: 'orovo_2019',
         o_site: '240510',
@@ -2126,7 +2125,6 @@ let events2024 = [
         place: 'шк №188, ул Стасовой 4А',
         reg: 'http://orgeo.ru/event/dm24',
         endReg: '2024-11-21 12:00',
-        res: 'http://orgeo.ru/live/#/dm24',
         o_site: '241123',
         bulletin: 'https://o-site.spb.ru/_races/241123/241123_ib2.pdf',
         map: 'poljustrovo_2023'
