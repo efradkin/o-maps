@@ -6,8 +6,18 @@
  *
  * Логика классификации и подписей повторяет js/utils.js (buildEventType,
  * isMajor, isEventLikeRogaine, isEventOther, buildEventReg, buildEventResults,
- * buildEventReports, logoList). При изменении этих функций на сайте правьте
- * и здесь — иначе приложение начнёт расходиться с сайтом.
+ * buildEventReports, buildEventSiteIcons, buildEventPlace, getEventPlace,
+ * getGPS, logoList) и renderMapsTable() из js/calendar.js. При изменении этих
+ * функций на сайте правьте и здесь — иначе приложение начнёт расходиться с сайтом.
+ *
+ * Какие файлы календаря и карт читать, берётся из calendar.html (он лежит
+ * уровнем выше каталога js/): те же <script src="js/calendar-*.js"> и
+ * <script src="js/maps-*.js">, что подключает страница, и тот же список
+ * `let oMaps = [...]`. Новый год календаря или новый файл карт добавляются
+ * в calendar.html — сюда ничего дописывать не нужно.
+ *
+ * Предупреждения о подозрительных данных (например, parent, указывающий
+ * на несуществующую запись) пишутся в stderr; выгрузка при этом собирается.
  */
 'use strict';
 
@@ -22,6 +32,10 @@ const O_SITE_PREFIX = 'https://o-site.spb.ru/race.php?id=';
 const O_GPS_PREFIX = 'https://viewer.o-gps-center.ru/viewer/event/';
 const LIVELOX_PREFIX = 'https://www.livelox.com/Events/Show/';
 const RESKEEP_PREFIX = 'https://reskeep.ru/event/get?id=';
+const O_STUFF_MAP_PAGE = 'https://maps.o-stuff.net/ru/show_map.php?map=';
+
+const warnings = [];
+const warn = msg => warnings.push(msg);
 
 // Поля `me` и `strava` в календаре — личные пометки владельца сайта,
 // в выгрузку для приложения они намеренно не попадают.
@@ -66,44 +80,117 @@ function extractWelcome() {
     return source.slice(from, to).trim();
 }
 
-const DATA_FILES = ['starts.js', 'owners.js', 'planners.js', 'calendar-early.js'];
-for (let y = 2004; y <= 2026; y++) DATA_FILES.push(`calendar-${y}.js`);
-DATA_FILES.push('calendar-common.js', 'calendar-other-2026.js', 'calendar-iof.js', 'calendar-fsor.js', 'calendar-irf.js');
+// ------------------------------------------------- что подключает calendar.html --
 
-const YEAR_VARS = ['eventsEarly'];
-for (let y = 2004; y <= 2026; y++) YEAR_VARS.push(`events${y}`);
-YEAR_VARS.push('commonEvents', 'otherEvents2026', 'iofEvents', 'fsorEvents', 'irfEvents');
+const CALENDAR_HTML = path.join(JS_DIR, '..', 'calendar.html');
+if (!fs.existsSync(CALENDAR_HTML)) {
+    throw new Error('не найден ' + CALENDAR_HTML + ' — списки файлов календаря и карт берутся из него');
+}
+const calendarHtml = fs.readFileSync(CALENDAR_HTML, 'utf8');
+const pageScripts = [...calendarHtml.matchAll(/<script\s+src="js\/([^"?]+)/g)].map(m => m[1]);
+
+// Файлы календаря — calendar-*.js с массивом событий (calendar-mobile.js и
+// прочий код массивов не объявляет). Имя массива берётся из самого файла.
+const EVENTS_DECL = /^(?:let|const|var)\s+(\w*[Ee]vents\w*)\s*=\s*\[/m;
+const CALENDAR_FILES = [];
+const BUCKET_VARS = [];
+for (const f of pageScripts.filter(f => /^calendar-.+\.js$/.test(f))) {
+    const decl = EVENTS_DECL.exec(read(f));
+    if (!decl) continue;
+    CALENDAR_FILES.push(f);
+    BUCKET_VARS.push(decl[1]);
+}
+if (!CALENDAR_FILES.length) throw new Error('в calendar.html не нашлось файлов календаря');
+
+const MAP_FILES = pageScripts.filter(f => /^maps-.+\.js$/.test(f));
+const oMapsMatch = /let oMaps = \[([\s\S]*?)\];/.exec(calendarHtml);
+if (!oMapsMatch) throw new Error('в calendar.html не найден список let oMaps = [...]');
 
 let source = extractLiteral(read('utils.js'), 'const regions = {') + ';\n';
+source += extractLiteral(read('utils.js'), 'const SERVICES = [', '[', ']') + ';\n';
+source += extractLiteral(read('utils.js'), 'function assignPage(') + '\n';
 source += extractLiteral(read('global-menu.js'), 'const GLOBAL_MENU_ITEMS = [', '[', ']') + ';\n';
-for (const f of DATA_FILES) {
-    if (!fs.existsSync(path.join(JS_DIR, f))) continue;
+for (const f of ['starts.js', 'owners.js', 'planners.js', ...MAP_FILES, ...CALENDAR_FILES]) {
     source += read(f) + '\n;\n';
 }
-source += `;({ regions, starts, owners, planners, menu: GLOBAL_MENU_ITEMS, buckets: {${YEAR_VARS
-    .map(v => `${v}: typeof ${v} === 'undefined' ? [] : ${v}`)
-    .join(', ')}} });`;
+source += `;({ regions, SERVICES, starts, owners, planners, menu: GLOBAL_MENU_ITEMS,
+    oMaps: [${oMapsMatch[1]}],
+    buckets: {${BUCKET_VARS.join(', ')}} });`;
 
 const loaded = vm.runInContext(source, vm.createContext({}), { filename: 'omaps-data.js' });
-const { regions, starts, owners, planners, menu, buckets } = loaded;
+const { regions, SERVICES, starts, owners, planners, menu, oMaps, buckets } = loaded;
+
+// Все события по id — для parent (место дочерней записи берётся у родителя).
+const eventsById = new Map();
+for (const list of Object.values(buckets)) {
+    for (const evt of list) if (evt && evt.id && !eventsById.has(evt.id)) eventsById.set(evt.id, evt);
+}
 
 // ------------------------------------------------------------ вспомогалки --
 
 const asArray = v => (v == null ? [] : Array.isArray(v) ? v : [v]);
-const isUrl = v => /^https?:\/\//.test(String(v));
+const isObject = v => v !== null && typeof v === 'object' && !Array.isArray(v);
 
 /**
- * gps и o_gps — строка/число или объект вида { 'группа': значение };
- * livelox — номер события Livelox или массив номеров;
- * rg — адрес события RouteGadget или объект вида { 'подпись': адрес } (по дням, форматам, группам).
- * Возвращает пары [группа | null, адрес].
+ * Трансляции события — повторяет getGPS(): gps, а если его нет — o_gps;
+ * к ним добавляются Livelox (livelox) и RouteGadget (rg).
+ * gps, o_gps и rg — значение или объект { 'подпись': значение }; livelox —
+ * номер события или массив номеров. Возвращает пары [подпись, адрес].
+ *
+ * Собирается тем же объектом, что и на сайте, чтобы порядок совпадал:
+ * у объекта JS ключи-числа (rg по дням — '24', '25') идут первыми.
+ * Одинаковые подписи сайт различает невидимым символом — здесь он убирается.
  */
-function gpsEntries(value, prefix) {
-    if (value && typeof value === 'object' && !Array.isArray(value)) {
-        return Object.entries(value).map(([group, v]) => [group, prefix + v]);
+function gpsEntries(evt) {
+    const prefixed = (value, prefix) => {
+        if (!isObject(value)) return prefix + value;
+        const out = {};
+        for (const [k, v] of Object.entries(value)) out[k] = prefix + v;
+        return out;
+    };
+    let gps = evt.gps;
+    if (!gps && evt.o_gps) gps = prefixed(evt.o_gps, O_GPS_PREFIX);
+
+    const extra = {};
+    if (evt.livelox != null) {
+        const ids = asArray(evt.livelox);
+        ids.forEach((id, i) => { extra['Livelox' + (ids.length > 1 ? ' ' + (i + 1) : '')] = LIVELOX_PREFIX + id; });
     }
-    return asArray(value).map(v => [null, prefix + v]);
+    const rg = evt.rg ? (isObject(evt.rg) ? evt.rg : { 'RouteGadget': evt.rg }) : {};
+
+    if (!Object.keys(extra).length && !Object.keys(rg).length) {
+        if (!gps) return [];
+        return isObject(gps) ? Object.entries(gps) : asArray(gps).map(v => [evt.gps ? 'GPS' : 'O-GPS', v]);
+    }
+    const result = !gps ? {} : isObject(gps) ? { ...gps } : { [evt.gps ? 'GPS' : 'O-GPS']: gps };
+    for (const [k, v] of [...Object.entries(extra), ...Object.entries(rg)]) {
+        let key = k;
+        while (key in result) key += '\u200B';
+        result[key] = v;
+    }
+    return Object.entries(result).map(([k, v]) => [k.replace(/\u200B/g, ''), v]);
 }
+
+/** Значок трансляции — повторяет gpsIcon(url, 'o-gps.gif'). */
+function gpsIcon(url) {
+    if (/livelox\.com/i.test(String(url))) return 'livelox.webp';
+    if (/\/rg2\.php|\/rg2\/(index\.php)?#|\/reitti\.cgi/i.test(String(url))) return 'rg2.webp';
+    return 'o-gps.gif';
+}
+
+/** Сервис ссылки из SERVICES (js/utils.js) — первое совпадение по адресу. */
+function findLinkService(url) {
+    const u = String(url == null ? '' : url);
+    return SERVICES.find(s => s.re.test(u));
+}
+
+/** Иконка ссылки на обычную страницу сервиса — повторяет linkSiteImg(); путь от корня сайта. */
+function linkSiteImg(url, fallback) {
+    const service = findLinkService(url);
+    if (service && service.siteImg) return service.siteImg;
+    return service && service.img && !service.imgOnlyFor ? service.img : fallback;
+}
+
 const typesOf = evt => asArray(evt.type).length ? asArray(evt.type) : ['ORIENT'];
 const has = (evt, t) => typesOf(evt).includes(t);
 
@@ -133,11 +220,16 @@ function filterKeys(evt) {
     return keys;
 }
 
-/** Раскраска карточки — повторяет классы строки в renderMapsTable(). */
+/**
+ * Раскраска карточки — повторяет классы строки в renderMapsTable():
+ * лыжное ориентирование и лыжные гонки получают SKI, лыжный рогейн
+ * остаётся рогейном.
+ */
 function colorClass(evt) {
     if (has(evt, 'ORIENT') || has(evt, 'INDOOR')) return 'ORIENT';
     if (has(evt, 'WATER')) return 'WATER';
     if (isRogaine(evt)) return 'ROGAINE';
+    if (has(evt, 'SKI') || has(evt, 'SK_RACE')) return 'SKI';
     return 'OTHER';
 }
 
@@ -167,6 +259,7 @@ function typeLabel(evt) {
             case 'FUN': return 'Интерактив';
             case 'INDOOR': return 'В помещении';
             case 'SPECIAL': return 'Другой';
+            case 'TRAIL_O': return 'Трейл-О';
         }
     }
     if (!raw) return 'Ориент';
@@ -206,19 +299,23 @@ function logoFile(evt) {
 // перестают выглядеть как повторяющийся текст.
 const IMAGES = SITE + 'images/';
 
-/** Расширение файла для иконок вида `pdf-file.png` — повторяет downloadIconExt(). */
+// Значки файлов, которые есть в images/ (<ext>-file.png) — FILE_ICON_EXTS в utils.js.
+const FILE_ICON_EXTS = ['doc', 'gif', 'jpg', 'ocd', 'pdf', 'png', 'url', 'webp'];
+
+/**
+ * Значок файла вида `pdf-file.png` — повторяет downloadIconExt() и
+ * extractFileExt(): расширение берётся из последней части адреса без
+ * параметров; без точки в ней, как и для расширения без своего значка, — url.
+ */
 function fileIcon(url) {
-    const path = String(url).split(/[?#]/)[0];
-    const ext = (path.split('.').pop() || '').toLowerCase();
-    switch (ext) {
-        case 'jpeg': case 'jpg': return 'jpg-file.png';
-        case 'omap': case 'ocd': return 'ocd-file.png';
-        case 'pdf': return 'pdf-file.png';
-        case 'png': return 'png-file.png';
-        case 'gif': return 'gif-file.png';
-        case 'doc': case 'docx': return 'doc-file.png';
-        default: return 'url-file.png';
-    }
+    let u = String(url);
+    if (u.includes('?')) u = u.replace(/[?&]+([^=&]+)=([^&]*)/gi, '').replace(/\/+$/, '');
+    const last = u.slice(u.lastIndexOf('/') + 1);
+    const dot = last.lastIndexOf('.');
+    let ext = dot < 0 ? 'url' : last.slice(dot + 1);
+    ext = ext.substring(0, ext.search(/$|[?#]/)).toLowerCase();
+    const icon = { docx: 'doc', jpeg: 'jpg', omap: 'ocd' }[ext] || ext;
+    return (FILE_ICON_EXTS.includes(icon) ? icon : 'url') + '-file.png';
 }
 
 /** Иконка сервиса регистрации. */
@@ -233,10 +330,13 @@ function regIcon(url) {
     return 'url-file.png';
 }
 
-/** Иконка сервиса результатов. */
+/**
+ * Иконка сервиса результатов. У O-Site для результатов — значок с «R»
+ * (o-site-r.gif, как в SERVICES), обычный o-site.gif — для страниц сайта.
+ */
 function resIcon(url) {
     if (url.includes('orgeo')) return 'orgeo.webp';
-    if (url.includes('o-site')) return 'o-site.gif';
+    if (url.includes('o-site')) return 'o-site-r.gif';
     if (url.includes('o-time')) return 'otime.webp';
     if (url.includes('multsport')) return 'multsport.webp';
     if (url.includes('sportident')) return 'si.webp';
@@ -267,14 +367,6 @@ function regLabel(url) {
     return 'Регистрация';
 }
 
-/** Подпись ссылки из evt.link, когда их несколько: сайт, а не регистрация. */
-function linkLabel(url) {
-    const wiki = url.match(/\/\/(\w+)\.wikipedia\.org/);
-    if (wiki) return 'Википедия (' + wiki[1] + ')';
-    const label = regLabel(url);
-    return label === 'Регистрация' ? 'Сайт старта' : label;
-}
-
 /** Подпись кнопки результатов — повторяет buildEventResults(). */
 function resLabel(url) {
     const table = [
@@ -303,8 +395,8 @@ function absolute(url) {
 /**
  * Кнопки карточки.
  *
- * kind  — семантика: reg | res | split | reskeep | site | gps | photo |
- *         video | map | place | publish | link | doc
+ * kind  — семантика: reg | res | split | reskeep | site | bulletin | gps |
+ *         photo | video | map | place | publish | doc
  * icon  — полный адрес картинки на сайте; приложение рисует её вместо подписи
  * glyph — эмодзи вместо картинки (для ссылок рядом с местом, как на сайте)
  * slot  — куда ставить: title (сразу за названием), place (сразу за местом),
@@ -313,60 +405,110 @@ function absolute(url) {
  * label остаётся всегда: он идёт в описание для чтения с экрана и во
  * всплывающую подсказку при долгом нажатии.
  */
+
 /**
- * Адрес, на который ведёт название старта — как buildEventStart() на сайте:
- * сначала собственный сайт старта, затем O-Site, затем сайт серии.
- */
-/**
- * Адрес, на который ведёт название старта.
- *
- * С сентября 2026 на сайте это страница события event.html?id=..., а не сайт
- * старта — см. buildEventStart(evt, …, withEventPage) в js/utils.js. Сайт
- * старта переехал оттуда на отдельный значок, см. siteUrl().
+ * Адрес, на который ведёт название старта: страница события event.html?id=...,
+ * как buildEventStart(evt, …, withEventPage) на сайте. Сайты события стоят
+ * значками рядом с названием, см. siteIcons().
  */
 function nameUrl(evt) {
     if (!evt.id) return null;
     return SITE + 'event.html?id=' + encodeURIComponent(evt.id);
 }
 
+/** Сайт старта, к которому относится событие (первый из start), — eventStartLink(). */
+function eventStartLink(evt) {
+    const st = asArray(evt.start)[0];
+    return st && starts[st] && starts[st].link ? starts[st].link : null;
+}
+
 /**
- * Сайт события для значка рядом с названием.
- *
- * Порядок тот же, что в buildEventStart при withEventPage: сначала страница
- * на O-Site, затем своя ссылка события, затем сайт серии стартов.
+ * Значки сайтов события у названия — повторяет buildEventSiteIcons():
+ * сначала страница на O-Site, затем все ссылки из link. Если нет ни того,
+ * ни другого — сайт старта. Ссылка известного сервиса (SERVICES) получает
+ * его значок и подпись (Википедия, ЖЖ, ВКонтакте…), остальные — o-site.gif.
+ * Возвращает [{ url, label, iconPath }], iconPath — от корня сайта.
  */
-function siteUrl(evt) {
-    const site = asArray(evt.o_site)[0];
-    if (site) return O_SITE_PREFIX + site;
+function siteIcons(evt) {
+    const urls = [];
+    for (const o of asArray(evt.o_site)) urls.push(O_SITE_PREFIX + o);
+    for (const l of asArray(evt.link)) if (l) urls.push(l);
+    let defaultTitle = 'Страница сайта события';
+    if (!urls.length) {
+        const startLink = eventStartLink(evt);
+        if (startLink) urls.push(startLink);
+        defaultTitle = 'Сайт старта';
+    }
+    return urls.map(url => {
+        const service = findLinkService(url);
+        return {
+            url,
+            label: service ? service.label : defaultTitle,
+            iconPath: linkSiteImg(url, 'images/o-site.gif'),
+        };
+    });
+}
 
-    const own = asArray(evt.link)[0];
-    if (own) return absolute(own);
+/** Место события; у дочерней записи без своего места — место родителя (getEventPlace()). */
+function eventPlace(evt) {
+    let place = evt.place;
+    if (!place && evt.parent) {
+        const parent = eventsById.get(evt.parent);
+        if (!parent) warn(`${evt.id}: parent ${evt.parent} — такой записи нет`);
+        else if (parent.place) place = parent.place;
+    }
+    return place ? String(place).trim() : null;
+}
 
-    const start = asArray(evt.start)[0];
-    if (start && starts[start] && starts[start].link) return absolute(starts[start].link);
+/** Карта O-Maps по имени файла — повторяет getMapForName(). */
+const mapByName = new Map();
+function getMapForName(name) {
+    if (!name) return null;
+    if (mapByName.has(name)) return mapByName.get(name);
+    let found = null;
+    for (const m of oMaps) {
+        if (m.url && String(m.url).includes(name)) { found = m; break; }
+        const link = asArray(m.link)[0];
+        if (link && String(link).includes(name)) { found = m; break; }
+    }
+    mapByName.set(name, found);
+    return found;
+}
 
-    return null;
+/**
+ * Имя внешнего файла карты для подписи — externalMapFileName(): последняя
+ * часть адреса, а если в ней нет расширения — вместе с предыдущей.
+ */
+function externalMapFileName(url) {
+    const parts = String(url).split(/[?#]/)[0].split('/').filter(Boolean);
+    let name = parts.pop() || '';
+    if (!name.includes('.') && parts.length > 1) name = parts.pop() + '/' + name;
+    try { return decodeURIComponent(name); } catch (e) { return name; }
+}
+
+/** Подпись ссылки на сплиты: «Сплиты», с сервисом, если он известен. */
+function splitLabel(url) {
+    const label = resLabel(String(url));
+    return label === 'Результаты' ? 'Сплиты' : 'Сплиты (' + label + ')';
 }
 
 function buildLinks(evt) {
     const links = [];
-    const add = ({ kind, label, url, icon, glyph, slot }) => {
+    // icon — файл из images/, iconPath — путь от корня сайта (logo/…, images/…).
+    const add = ({ kind, label, url, icon, iconPath, glyph, slot }) => {
         const u = absolute(url);
         if (!u || links.some(l => l.url === u)) return;
         const link = { kind, label, url: u, slot: slot || 'row' };
         if (icon) link.icon = IMAGES + icon;
+        else if (iconPath) link.icon = SITE + iconPath;
         if (glyph) link.glyph = glyph;
         links.push(link);
     };
 
     // Порядок значков у названия повторяет строку календаря на сайте:
-    // сайт события, регистрация, информационный бюллетень.
-    const site = siteUrl(evt);
-    if (site) {
-        add({
-            kind: 'site', label: 'Страница сайта события', url: site,
-            icon: 'o-site.gif', slot: 'title',
-        });
+    // сайты события, регистрация, информационный бюллетень.
+    for (const s of siteIcons(evt)) {
+        add({ kind: 'site', label: s.label, url: s.url, iconPath: s.iconPath, slot: 'title' });
     }
 
     for (const r of asArray(evt.reg)) {
@@ -382,66 +524,65 @@ function buildLinks(evt) {
         add({ kind: 'bulletin', label: 'Информационный бюллетень', url: b, slot: 'title' });
     }
 
-    // Карта и точка — сразу за местом, теми же эмодзи, что и на сайте
-    // (buildEventPlace): 🗺️ карта, 🌐 координаты, 🚸 трек.
-    const mapPage = 'spb.html';
-    // maps: адреса (http/https) — внешние страницы с картами старта, в выгрузку
-    // пока не идут (поле на будущее); остальные значения — идентификаторы карт O-Maps, как map.
-    for (const m of asArray(evt.map).concat(asArray(evt.maps).filter(v => !isUrl(v)))) {
-        add({
-            kind: 'map', label: 'Карта на O-Maps', glyph: '🗺️', slot: 'place',
-            url: `${SITE}${mapPage}?calendar&map=${m}`,
-        });
-    }
-    if (evt.coord && evt.coord.length === 2) {
-        add({
-            kind: 'place', label: 'Место на O-Maps', glyph: '🌐', slot: 'place',
-            url: `${SITE}${mapPage}?x=${evt.coord[0]}&y=${evt.coord[1]}&calendar`,
-        });
-    }
-    if (evt.track) {
+    // Карта, точка и трек — сразу за местом, теми же эмодзи, что и на сайте
+    // (buildEventPlaceOMaps): 🗺️ карта, 🌐 координаты, 🚸 трек. Карта
+    // открывается на своей странице (поле page карты или page её старта),
+    // остальные — на spb.html; выбранная страница действует и для следующих
+    // ссылок, как на сайте. Трек — только если нет ни карты, ни координат.
+    let mapPage = 'spb.html';
+    const hasCoord = Array.isArray(evt.coord) && evt.coord.length === 2;
+    const coordLink = () => add({
+        kind: 'place', label: 'Место на O-Maps', glyph: '🌐', slot: 'place',
+        url: `${SITE}${mapPage}?x=${evt.coord[0]}&y=${evt.coord[1]}&calendar`,
+    });
+    const mapNames = asArray(evt.map);
+    if (mapNames.length) {
+        for (const m of mapNames) {
+            const mp = getMapForName(m);
+            const page = mp && (mp.page || (mp.start && starts[mp.start] && starts[mp.start].page));
+            if (page) mapPage = page + '.html';
+            add({
+                kind: 'map', label: 'Карта на O-Maps', glyph: '🗺️', slot: 'place',
+                url: `${SITE}${mapPage}?calendar&map=${m}`,
+            });
+            if (hasCoord) coordLink();
+        }
+    } else if (hasCoord) {
+        coordLink();
+    } else if (evt.track) {
         add({
             kind: 'place', label: 'Трек на O-Maps', glyph: '🚸', slot: 'place',
             url: `${SITE}tracks.html?track=${evt.track}&calendar`,
         });
     }
 
-    // evt.link бывает и строкой, и массивом — у стартов с несколькими площадками.
-    const linkList = asArray(evt.link);
-    for (const l of linkList) {
+    // Внешние карты (buildEventExternalMaps): 🗺️ на файлы карт из поля maps
+    // (адреса в интернете или файлы на самом сайте), значок O-Stuff — на карты
+    // архива maps.o-stuff.net из поля o_stuff (номера карт).
+    for (const url of asArray(evt.maps)) {
         add({
-            kind: 'link', url: l, icon: 'external-link.png',
-            label: linkList.length > 1 ? linkLabel(String(l)) : 'Сайт старта',
+            kind: 'map', label: 'Карта (файл) ' + externalMapFileName(url), glyph: '🗺️', slot: 'place', url,
         });
     }
-    // Первая страница на O-Site уже стоит значком у названия, add() отсеет
-    // её по совпадению адреса; остальные остаются в общем ряду.
-    for (const o of asArray(evt.o_site)) {
-        add({ kind: 'site', label: 'O-Site', url: O_SITE_PREFIX + o, icon: 'o-site.gif' });
+    for (const n of asArray(evt.o_stuff)) {
+        add({
+            kind: 'map', label: 'O-Stuff, карта ' + n, icon: 'o-stuff.webp', slot: 'place',
+            url: O_STUFF_MAP_PAGE + n,
+        });
     }
+
     for (const r of asArray(evt.res)) {
         add({ kind: 'res', label: resLabel(r), url: r, icon: resIcon(r) });
     }
-    // Сплиты лежат на самом сайте; o-site-r.gif — вариант значка O-Site
-    // с пометкой, отличается от обычного и не путается с ним в ряду.
+    // Сплиты — любые сервисы и файлы; значок — как у результатов.
     for (const sp of asArray(evt.split)) {
-        add({ kind: 'split', label: 'Сплиты', url: sp, icon: 'o-site-r.gif' });
+        add({ kind: 'split', label: splitLabel(sp), url: sp, icon: resIcon(String(sp)) });
     }
     for (const r of asArray(evt.reskeep)) {
         add({ kind: 'reskeep', label: 'Reskeep', url: RESKEEP_PREFIX + r, icon: 'r-k.gif' });
     }
-    for (const [group, url] of gpsEntries(evt.o_gps, O_GPS_PREFIX)) {
-        add({ kind: 'gps', label: group ? 'O-GPS ' + group : 'O-GPS', url, icon: 'o-gps.gif' });
-    }
-    const livelox = gpsEntries(evt.livelox, LIVELOX_PREFIX);
-    livelox.forEach(([, url], i) => {
-        add({ kind: 'gps', label: 'Livelox' + (livelox.length > 1 ? ' ' + (i + 1) : ''), url, icon: 'livelox.webp' });
-    });
-    for (const [group, url] of gpsEntries(evt.rg, '')) {
-        add({ kind: 'gps', label: group ? 'RouteGadget ' + group : 'RouteGadget', url, icon: 'rg2.webp' });
-    }
-    for (const [group, url] of gpsEntries(evt.gps, '')) {
-        add({ kind: 'gps', label: group ? 'GPS ' + group : 'GPS', url, icon: /livelox\.com/i.test(url) ? 'livelox.webp' : 'o-gps.gif' });
+    for (const [label, url] of gpsEntries(evt)) {
+        add({ kind: 'gps', label, url, icon: gpsIcon(url) });
     }
     for (const ph of asArray(evt.photo)) {
         add({
@@ -515,13 +656,14 @@ for (const key of Object.keys(buckets)) {
 
         const fmt = evt.fmt ? stripHtml(evt.fmt) : null;
         const info = evt.info ? absolutizeHtml(evt.info) : null;
+        const place = eventPlace(evt);
 
         events.push({
             id,
             date: evt.date,
             endDate: evt.endDate || null,
             name: String(evt.name || '').trim(),
-            place: evt.place ? String(evt.place).trim() : null,
+            place,
             types: typesOf(evt),
             typeLabel: typeLabel(evt),
             fmt,
@@ -544,7 +686,7 @@ for (const key of Object.keys(buckets)) {
             links: buildLinks(evt),
             // Строка для поиска — заранее в нижнем регистре, чтобы приложение
             // не занималось этим на каждом нажатии клавиши.
-            search: [evt.name, evt.place, fmt, stripHtml(info), ownerText(evt), plannersText(evt)]
+            search: [evt.name, place, fmt, stripHtml(info), ownerText(evt), plannersText(evt)]
                 .filter(Boolean).join(' ').toLowerCase().replace(/ё/g, 'е')
         });
     }
@@ -602,3 +744,5 @@ process.stdout.write(JSON.stringify({
     })(),
     events: events.map(compact)
 }));
+
+for (const w of warnings) process.stderr.write('предупреждение: ' + w + '\n');

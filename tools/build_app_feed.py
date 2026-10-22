@@ -3,9 +3,10 @@
 """
 build_app_feed.py — собирает JSON-выгрузку календаря для Android-приложения.
 
-Читает js/calendar-*.js, js/starts.js, js/owners.js, js/planners.js,
-js/global-menu.js и раздел `regions` из js/utils.js, после чего кладёт
-в каталог выгрузки два файла:
+Читает файлы календаря и карт, которые подключает calendar.html
+(js/calendar-*.js, js/maps-*.js — по его тегам <script>), js/starts.js,
+js/owners.js, js/planners.js, js/global-menu.js и разделы `regions`
+и `SERVICES` из js/utils.js, после чего кладёт в каталог выгрузки два файла:
 
     app/calendar.json      — сами события и меню сайта
     app/manifest.json      — версия, размер, sha256 и дата сборки
@@ -78,8 +79,10 @@ def run_extractor(js_dir: Path, site: str) -> dict:
         ['node', str(extractor), str(js_dir), site],
         capture_output=True,
     )
+    # stderr показываем всегда: при успехе там предупреждения о данных
+    # (например, parent без родителя), которые стоит поправить руками.
+    sys.stderr.write(proc.stderr.decode('utf-8', 'replace'))
     if proc.returncode != 0:
-        sys.stderr.write(proc.stderr.decode('utf-8', 'replace'))
         sys.exit(f'extract_feed.js завершился с кодом {proc.returncode}')
 
     return json.loads(proc.stdout.decode('utf-8'))

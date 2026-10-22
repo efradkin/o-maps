@@ -2367,38 +2367,38 @@ function buildCouches(evt) {
     return res;
 }
 
+// Одна ссылка на результаты (title не задан) или сплиты (title 'Сплиты'): известный
+// сервис - его названием, остальное - значком типа файла.
+function buildOneEventResult(r, title) {
+    if (r.includes('orgeo')) {
+        return buildLink(r, 'Orgeo', title);
+    } else if (r.includes('o-site')) {
+        return buildLink(r, 'O-Site', title);
+    } else if (r.includes('o-time')) {
+        return buildLink(r, 'O-Time', title);
+    } else if (r.includes('multsport')) {
+        return buildLink(r, 'Multsport', title);
+    } else if (r.includes('sportident')) {
+        return buildLink(r, 'Sportident', title);
+    } else if (r.includes('vk.com') || r.includes('vk.ru')) {
+        return buildLink(r, 'VK', title);
+    } else if (r.includes('reskeep')) {
+        return buildLink(r, 'Reskeep', title);
+    } else if (r.includes('t.me')) {
+        return buildLink(r, 'Telegram', title);
+    }
+    const label = title ?? 'Результаты';
+    return buildLink(r, `<img src="./images/${downloadIconExt(r)}-file.png" alt="${label}" title="${label}" class="sheet-icon" />`);
+}
+
 function buildEventResults(evt) {
     let res = '';
-    if (evt.res) {
-        let results = evt.res;
-        if (!Array.isArray(evt.res)) {
-            results = [evt.res];
-        }
-        for (const r of results) {
-            if (r.includes('orgeo')) {
-                res += buildLink(r, 'Orgeo');
-            } else if (r.includes('o-site')) {
-                res += buildLink(r, 'O-Site');
-            } else if (r.includes('o-time')) {
-                res += buildLink(r, 'O-Time');
-            } else if (r.includes('multsport')) {
-                res += buildLink(r, 'Multsport');
-            } else if (r.includes('sportident')) {
-                res += buildLink(r, 'Sportident');
-            } else if (r.includes('vk.com') || r.includes('vk.ru')) {
-                res += buildLink(r, 'VK');
-            } else if (r.includes('reskeep')) {
-                res += buildLink(r, 'Reskeep');
-            } else if (r.includes('t.me')) {
-                res += buildLink(r, 'Telegram');
-            } else {
-                let iconExt = downloadIconExt(r);
-                res += buildLink(r, `<img src="./images/${iconExt}-file.png" alt="Результаты" title="Результаты" class="sheet-icon" />`);
-            }
-        }
+    for (const r of [].concat(evt.res ?? [])) {
+        res += buildOneEventResult(r);
     }
-    if (evt.split) {
-        res += ' ' + buildLink(evt.split, 'O-Site', null, true);
+    // сплиты (поле split: ссылка или массив) - любые сервисы и файлы, не только O-Site
+    for (const sp of [].concat(evt.split ?? [])) {
+        res += ' ' + buildOneEventResult(sp, 'Сплиты');
     }
     if (evt.reskeep) {
         let reskeep = evt.reskeep;
@@ -2934,7 +2934,9 @@ function buildEventType(evt, withFmt) {
             case 'INDOOR':
                 result = 'В помещении'; break;
             case 'SPECIAL':
-                result = 'Другой';
+                result = 'Другой'; break;
+            case 'TRAIL_O':
+                result = 'Трейл-О';
         }
         if (!result && type) {
             if (type.includes('CLUB')) {
