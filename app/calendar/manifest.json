@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-10-22T21:45:51+00:00",
+  "generated": "2026-10-22T22:52:59+00:00",
   "events": 6784,
   "size": 10174634,
-  "sha256": "0d38c98f2f0b96ece6b1458a22a455502c5e10d5f6b43c0c82de7d4db812a24c",
+  "sha256": "a231123c8fde6575a5aa83e5dca37635fca11205b9e0c4e2b1dcb5f5e4f671ee",
   "url": "spb.json",
   "datasets": [
     {
@@ -12,13 +12,13 @@
       "url": "spb.json",
       "events": 6784,
       "size": 10174634,
-      "sha256": "0d38c98f2f0b96ece6b1458a22a455502c5e10d5f6b43c0c82de7d4db812a24c"
+      "sha256": "a231123c8fde6575a5aa83e5dca37635fca11205b9e0c4e2b1dcb5f5e4f671ee"
     }
   ],
   "app": {
-    "versionCode": 6,
-    "versionName": "0.7.6",
-    "url": "https://o-maps.spb.ru/app/calendar/o-maps-calendar-0.7.6.apk",
-    "notes": "Ссылка на страницу события, бюллетени, окончание приёма заявок"
+    "versionCode": 7,
+    "versionName": "0.7.7",
+    "url": "https://o-maps.spb.ru/app/calendar/o-maps-calendar-0.7.7.apk",
+    "notes": "Лыжный цвет, фильтр GPS, внешние карты и карты O-Stuff, заголовки по годам"
   }
 }
