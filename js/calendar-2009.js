@@ -709,6 +709,15 @@ let events2009 = [
         bulletin: 'https://o-site.spb.ru/_races/09061214/09061214_info.htm'
     },
     {
+        id: 'SPB_20090612_3',
+        date: '2009-06-12',
+        endDate: '2009-06-14',
+        place: 'Приозерский район',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR'
+    },
+    {
         id: 'SPB_20090616_1',
         date: '2009-06-16',
         endDate: '2009-06-21',

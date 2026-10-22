@@ -708,6 +708,16 @@ let events2011 = [
         map: ['na_2011_06_12','yagodnoe_na_2011']
     },
     {
+        id: 'SPB_20110611_2',
+        date: '2011-06-11',
+        endDate: '2011-06-12',
+        place: 'Сортавала',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR',
+        map: 'sortavala_rfar_2011'
+    },
+    {
         id: 'SPB_20110613_1',
         date: '2011-06-13',
         endDate: '2011-06-19',

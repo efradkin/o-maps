@@ -586,6 +586,16 @@ let events2008 = [
         map: ['na_2008_06_12', 'na_2008_06_13', 'na_2008_06_14']
     },
     {
+        id: 'SPB_20080612_2',
+        date: '2008-06-12',
+        endDate: '2008-06-16',
+        place: 'Хибины',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR',
+        region: 'MURMANSK'
+    },
+    {
         id: 'SPB_20080615_1',
         date: '2008-06-15',
         place: 'Каменогорск',
@@ -950,6 +960,15 @@ let events2008 = [
         o_site: '08101819',
         bulletin: 'http://www.orientirclub.ucoz.ru/',
         map: 'monrepo_2007'
+    },
+    {
+        id: 'SPB_20081018_2',
+        date: '2008-10-18',
+        place: 'Sognsvann',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR',
+        region: 'NORWAY'
     },
     {
         id: 'SPB_20081019_1',

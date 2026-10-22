@@ -1097,7 +1097,7 @@ let events2024 = [
         date: '2024-06-13',
         endDate: '2024-06-16',
         place: 'Импилахти',
-        name: 'RED FOX ADVENTURE RACE',
+        name: 'Red Fox Adventure Race',
         type: 'MULTI',
         video: [
             'https://www.instagram.com/reel/C8WPzZDKAiq/',

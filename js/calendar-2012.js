@@ -706,6 +706,16 @@ let events2012 = [
         map: 'lembolovo_2002'
     },
     {
+        id: 'SPB_20120610_2',
+        date: '2012-06-10',
+        endDate: '2012-06-12',
+        place: 'Белое море',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR',
+        region: 'KARELIA'
+    },
+    {
         id: 'SPB_20120615_1',
         date: '2012-06-15',
         endDate: '2012-06-17',
@@ -743,6 +753,7 @@ let events2012 = [
         id: 'SPB_20120623_1',
         date: '2012-06-23',
         name: 'Велорогейн 100х24',
+        place: 'Горьковское',
         type: 'ROGAINE',
         reg: 'http://100x24.ru/reg.htm',
         res: 'http://100x24.ru/results.htm',
@@ -764,16 +775,13 @@ let events2012 = [
         place: 'Пальцево',
         type: 'ROGAINE',
         fmt: '8 и 24 часа',
+        maps: [
+            './original_maps/starts/other/paltsevo_happyhudzh_2012_1_omaps.webp',
+            './original_maps/starts/other/paltsevo_happyhudzh_2012_2_omaps.webp',
+            './original_maps/starts/other/paltsevo_happyhudzh_2012_3_omaps.webp',
+            './original_maps/starts/other/paltsevo_happyhudzh_2012_4_omaps.webp'
+        ],
         o_site: '120630'
-    },
-    {
-        id: 'SPB_20120707_1',
-        date: '2012-07-07',
-        place: 'Выборгский район Ленинградской области',
-        name: '3 этап Кубка Ассоциации рогейна СПб',
-        fmt: '3 часа вело',
-        link: 'rogaining.spb.ru',
-        type: 'ROGAINE'
     },
     {
         id: 'SPB_20120708_1',
@@ -781,18 +789,9 @@ let events2012 = [
         place: 'пл.78 км Приозерского направления',
         name: '3 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
-        fmt: '3 часа бегом',
-        o_site: '120708'
-    },
-    {
-        id: 'SPB_20120708_2',
-        date: '2012-07-08',
-        place: 'Выборгский район Ленинградской области',
-        name: 'Чемпионат Ленинградской области, 4 этап Кубка Ассоциации рогейна СПб',
-        start: 'LO_CHAMP',
-        fmt: '6 часов бегом',
+        fmt: '3 часа бег/вело',
         link: 'rogaining.spb.ru',
-        type: 'ROGAINE'
+        o_site: '120708'
     },
     {
         id: 'SPB_20120714_1',

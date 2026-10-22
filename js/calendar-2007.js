@@ -330,6 +330,18 @@ let events2007 = [
         o_site: '070421_kreo'
     },
     {
+        id: 'SPB_20070421_4',
+        date: '2007-04-21',
+        endDate: '2007-04-22',
+        place: 'Петяярви',
+        name: 'WILD RUN',
+        maps: [
+            './original_maps/starts/other/petyajarvi_wildrun_2007_pro1_omaps.webp',
+            './original_maps/starts/other/petyajarvi_wildrun_2007_pro3_omaps.webp',
+            './original_maps/starts/other/petyajarvi_wildrun_2007_pro2_omaps.webp'
+        ],
+    },
+    {
         id: 'SPB_20070421_3',
         date: '2007-04-21',
         place: 'Дюны',
@@ -591,6 +603,19 @@ let events2007 = [
         o_site: '070602'
     },
     {
+        id: 'SPB_20070602_2',
+        date: '2007-06-02',
+        endDate: '2007-06-03',
+        name: 'Urban Race',
+        place: 'СПб',
+        type: 'MULTI',
+        maps: [
+            './original_maps/starts/other/spb_urbanrace_2007_1_omaps.webp',
+            './original_maps/starts/other/spb_urbanrace_2007_2_omaps.webp',
+            './original_maps/starts/other/spb_urbanrace_2007_3_omaps.webp'
+        ]
+    },
+    {
         id: 'SPB_20070603_1',
         date: '2007-06-03',
         name: 'Чемпионат СПб, лонг',
@@ -599,6 +624,15 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070603/070603_osv.osv',
         info: '49-й Чемпионат и Первенство СПб, кросс',
         o_site: '070603'
+    },
+    {
+        id: 'SPB_20070609_1',
+        date: '2007-06-09',
+        endDate: '2007-06-13',
+        place: 'Хибины',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR'
     },
     {
         id: 'SPB_20070610_1',

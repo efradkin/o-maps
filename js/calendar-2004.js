@@ -68,7 +68,7 @@ let events2004 = [
         date: '2004-06-12',
         endDate: '2004-06-13',
         place: 'Зеркальный',
-        name: 'Red Fox adventure race',
+        name: 'Red Fox Adventure Race',
         type: 'MULTI',
         res: 'https://o-site.spb.ru/_races/00000012/results.htm',
         info: 'второе издание летнего чемпионата СПб по приключенческим гонкам',

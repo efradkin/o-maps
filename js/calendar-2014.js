@@ -782,6 +782,16 @@ let events2014 = [
         map: ['na_2014_06_12', 'na_2014_pervomayskoe', 'na_2014_06_15']
     },
     {
+        id: 'SPB_20140612_2',
+        date: '2014-06-12',
+        endDate: '2014-06-15',
+        place: 'Лахденпохский р-н',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR',
+        region: 'KARELIA'
+    },
+    {
         id: 'SPB_20140617_1',
         date: '2014-06-17',
         endDate: '2014-06-22',
@@ -897,7 +907,7 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/140803/140803_res.htm',
         info: 'Рогейн в мультиспортивном формате. Участникам предлагаются следующие форматы: «MR-6» мультирогейн в формате 6 часов, «MR-3» мультирогейн в формате 3 часа, «Kids 9-11» (дети от 9 до 11 лет), «Kids 12-14» (дети от 12 до 14 лет).',
         fmt: '6 часов, 3 часа, детский формат',
-        start: 'RFAR',
+        owner: 'RFAR',
         o_site: '140803',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#195',
         map: 'lahdenpohja_rfar_2014'

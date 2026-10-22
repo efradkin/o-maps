@@ -970,6 +970,15 @@ let events2013 = [
         start: ['WN','YM']
     },
     {
+        id: 'SPB_20130621_1',
+        date: '2013-06-21',
+        endDate: '2013-06-24',
+        place: 'Выборг',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR'
+    },
+    {
         id: 'SPB_20130706_1',
         date: '2013-07-05',
         endDate: '2013-07-07',
@@ -1271,6 +1280,12 @@ let events2013 = [
         reg: 'http://www.piterhappening.ru/entry_hadz2013.html',
         res: 'https://o-site.spb.ru/_races/13091415/130914_res.htm',
         info: 'Три формата: рогейн 8 часов, заданное направление 24 часа или 15+10 часов с обязательной ночевкой (по типу "Марш-Броска")',
+        maps: [
+            './original_maps/starts/other/vyborg_happyhudzh_2013_1_omaps.webp',
+            './original_maps/starts/other/vyborg_happyhudzh_2013_2_omaps.webp',
+            './original_maps/starts/other/vyborg_happyhudzh_2013_3_omaps.webp',
+            './original_maps/starts/other/vyborg_happyhudzh_2013_4_omaps.webp'
+        ],
         o_site: '13091415'
     },
     {

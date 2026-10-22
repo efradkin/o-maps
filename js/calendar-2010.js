@@ -684,6 +684,16 @@ let events2010 = [
         bulletin: 'https://o-site.spb.ru/_races/10060919/10060919_info.htm'
     },
     {
+        id: 'SPB_20100611_1',
+        date: '2010-06-11',
+        endDate: '2010-06-13',
+        place: 'Сочи',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR',
+        region: 'KRASNODAR'
+    },
+    {
         id: 'SPB_20100612_1',
         date: '2010-06-12',
         place: 'Петяярви',

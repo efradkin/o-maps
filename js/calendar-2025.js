@@ -1275,7 +1275,7 @@ let events2025 = [
         id: 'SPB_20250613_1',
         date: '2025-06-13',
         place: 'Гвардейское',
-        name: 'RED FOX ADVENTURE RACE',
+        name: 'Red Fox Adventure Race',
         fmt: '12, 24, 48',
         type: 'MULTI',
         video: 'https://www.youtube.com/watch?v=tiuB_xvD6fM',

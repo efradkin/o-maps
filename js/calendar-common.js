@@ -13337,7 +13337,7 @@ let commonEvents = [
         id: 'SPB_20260613_1',
         date: '2026-06-12',
         place: 'Сортавала',
-        name: 'RED FOX ADVENTURE RACE',
+        name: 'Red Fox Adventure Race',
         fmt: '48, 24, 12',
         type: 'MULTI',
         video: 'https://rutube.ru/video/8ee93922fb880c1281f3069bd452c7b5/',

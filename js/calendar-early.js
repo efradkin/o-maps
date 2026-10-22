@@ -3670,6 +3670,15 @@ let eventsEarly = [
         map: ['tsvelodubovo_winter_2003','tsvelodubovo_rybatskoe_2003']
     },
     {
+        id: 'SPB_20030614_1',
+        date: '2003-06-14',
+        place: 'Кавголово',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR',
+        map: 'kavgolovo_rfar_2003'
+    },
+    {
         id: 'SPB_20030617_1',
         date: '2003-06-17',
         endDate: '2003-06-18',

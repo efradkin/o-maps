@@ -731,6 +731,7 @@ let events2006 = [
         id: 'SPB_20061021_2',
         date: '2006-10-21',
         name: 'BikeAdventure',
+        place: 'Лейпясуо',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2006-2.php',

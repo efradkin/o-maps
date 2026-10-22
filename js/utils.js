@@ -153,6 +153,9 @@ const regions = {
         name: 'Новосибирск',
         logo: 'nsk_orient.webp'
     },
+    NORWAY: {
+        name: 'Норвегия',
+    },
     ORENBURG: {
         name: 'Оренбург',
         logo: 'orenburg.webp'
@@ -1722,8 +1725,14 @@ function buildCalendarGroup() {
 
 function filterEvents(events, onlyMajor) {
     return events.filter(evt => {
-        if (START_YEAR_PARAM && (START_YEAR_PARAM !== 'ALL') && (startYear(evt).toString() !== START_YEAR_PARAM)) {
-            return false;
+        if (START_YEAR_PARAM) {
+            const sy = startYear(evt);
+            if (START_YEAR_PARAM === 'EARLY') {
+                if (sy >= 2004) return false;
+            } else
+            if ((START_YEAR_PARAM !== 'ALL') && (sy.toString() !== START_YEAR_PARAM)) {
+                return false;
+            }
         }
         if (onlyMajor && !isMajor(evt)) {
             return false;

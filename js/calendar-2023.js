@@ -1013,7 +1013,7 @@ let events2023 = [
         date: '2023-06-11',
         endDate: '2023-06-14',
         place: 'Карелия',
-        name: 'RED FOX ADVENTURE RACE',
+        name: 'Red Fox Adventure Race',
         type: 'MULTI',
         start: 'RFAR',
         video: [
