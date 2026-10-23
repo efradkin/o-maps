@@ -306,6 +306,7 @@ let events2019 = [
         o_site: '190407',
         bulletin: 'https://o-site.spb.ru/_races/190407/190407_info.pdf',
         map: 'romanovka_2013',
+        maps: './original_maps/starts/other/romanovka_2019_04_07_omaps.webp',
         reskeep: 111
     },
     {
@@ -502,7 +503,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190502lo/190501_split.html',
         o_site: '190502lo',
         bulletin: 'https://o-site.spb.ru/_races/190502lo/19050103_info.pdf',
-        reskeep: [118, 119, 120]
+        reskeep: [118, 119, 120],
+        maps: './original_maps/starts/other/kuzmolovo_2019_05_02_omaps.webp'
     },
     {
         id: 'SPB_20190501_2',
@@ -1781,7 +1783,8 @@ let events2019 = [
         place: 'м Лесная',
         name: 'Sprint Tour SPb - осень 2019, 4 этап',
         start: 'SPRINT_TOUR',
-        reskeep: 198
+        reskeep: 198,
+        map: 'lesnaya_kantemirovskaya_2024'
     },
     {
         id: 'SPB_20191026_1',

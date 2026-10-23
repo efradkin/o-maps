@@ -3621,6 +3621,32 @@ let eventsEarly = [
         res: './docs/2001/2001_08_26_green_snake_omaps.pdf'
     },
     {
+        id: 'SPB_20010909_1',
+        date: '2001-09-09',
+        place: 'Медное оз',
+        name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
+        maps: './original_maps/starts/other/mednoe_2001_09_09_omaps.webp'
+    },
+    {
+        id: 'SPB_20011209_1',
+        date: '2001-12-09',
+        place: 'Пролетарский парк',
+        name: 'Снежная Тропа',
+        start: 'SNOW_WAY',
+        map: 'aleksandrijsky_2010',
+        maps: './original_maps/starts/other/proletarsky_2001_12_09_omaps.webp'
+    },
+    {
+        id: 'SPB_20020414_1',
+        date: '2002-04-14',
+        place: 'Осиновая роща',
+        name: 'Снежная Тропа',
+        start: 'SNOW_WAY',
+        map: 'osinovaja_roscha_1999',
+        maps: './original_maps/starts/other/osinovaja_roscha_2002_04_14_omaps.webp'
+    },
+    {
         id: 'SPB_20020618_1',
         date: '2002-06-18',
         place: 'пл 67км, оз Ветреное',
@@ -3647,6 +3673,14 @@ let eventsEarly = [
         map: ['ks_2002_06_24','ks_2002_06_25']
     },
     {
+        id: 'SPB_20020804_1',
+        date: '2002-08-04',
+        place: 'Пасторское оз',
+        name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
+        maps: './original_maps/starts/other/pastorskoe_2002_08_04_omaps.webp'
+    },
+    {
         id: 'SPB_20020824_1',
         date: '2002-08-24',
         endDate: '2002-08-25',
@@ -3668,6 +3702,15 @@ let eventsEarly = [
         type: 'SKI',
         start: 'JWSOC_2003',
         map: ['tsvelodubovo_winter_2003','tsvelodubovo_rybatskoe_2003']
+    },
+    {
+        id: 'SPB_20030119_1',
+        date: '2003-01-19',
+        place: 'ЦПКиО',
+        name: 'Снежная тропа',
+        start: 'SNOW_WAY',
+        map: 'elagin_2000',
+        maps: './original_maps/starts/other/elagin_2003_01_19_omaps.webp'
     },
     {
         id: 'SPB_20030614_1',

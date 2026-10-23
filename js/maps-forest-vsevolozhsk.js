@@ -295,7 +295,7 @@ let vsevolozhskMaps = [
     {
         name: 'Разметелево',
         year: 2004,
-        url: './maps/forest/vsevolozhsk/razmetelevo.webp',
+        url: './maps/forest/vsevolozhsk/razmetelevo_2004.webp',
         link: ['./original_maps/forest/vsevolozhsk/razmetelevo_omaps.jpg','./original_maps/forest/vsevolozhsk/razmetelevo_2004_omaps.jpg'],
         bounds: [[59.9112342, 30.6864882], [59.9100938, 30.7047272], [59.8979781, 30.6829262]],
         author: 'RYLOV_V',

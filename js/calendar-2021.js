@@ -1052,7 +1052,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210415_ks/210603_rez.html',
         video: 'https://www.youtube.com/watch?v=QnW6Z4WSTzs',
         o_site: '210415_ks',
-        map: 'lehtusi_valkijarvi_2016'
+        map: 'lehtusi_valkijarvi_2016',
+        maps: './original_maps/starts/other/lehtusi_2021_06_03_omaps.webp'
     },
     {
         id: 'SPB_20210605_1',

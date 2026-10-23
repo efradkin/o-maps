@@ -716,7 +716,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070708/070708_res.zip',
         start: 'YM_CUP',
         o_site: '070708',
-        map: 'orekhovo_rakitinskoe_2004'
+        map: 'orekhovo_rakitinskoe_2004',
+        maps: './original_maps/starts/other/orekhovo_kym_2007_07_08_omaps.webp'
     },
     {
         id: 'SPB_20070721_1',

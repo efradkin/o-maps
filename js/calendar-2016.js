@@ -316,7 +316,8 @@ let events2016 = [
         o_site: '160409',
         bulletin: 'https://o-site.spb.ru/_races/160409/161008_info.pdf',
         photo: 'https://vk.ru/album-92124592_230362297',
-        res: 'https://reg.o-time.ru/race/16067'
+        res: 'https://reg.o-time.ru/race/16067',
+        maps: './original_maps/starts/other/rubinshteina_2016_04_09_omaps.webp'
     },
     {
         id: 'SPB_20160410_1',

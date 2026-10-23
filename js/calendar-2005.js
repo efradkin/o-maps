@@ -162,7 +162,9 @@ let events2005 = [
         name: 'Сосновоборские дюны',
         start: 'SOSNOVOBORSKY_DUNY',
         res: 'https://o-site.spb.ru/_races/050410/sosnbor_res.zip',
-        o_site: '050410'
+        o_site: '050410',
+        map: 'sosnovij_bor_2004',
+        maps: './original_maps/starts/other/sosnovy_bor_2005_04_09_omaps.webp'
     },
     {
         id: 'SPB_20050417_1',
@@ -199,7 +201,8 @@ let events2005 = [
         name: 'Кубок Яркого Мира, 2 этап',
         res: 'https://o-site.spb.ru/_races/050424/YM_et2res.zip',
         start: 'YM_CUP',
-        o_site: '050424'
+        o_site: '050424',
+        maps: './original_maps/starts/other/kuzmolovo_kym_2005_04_05_omaps.webp'
     },
     {
         id: 'SPB_20050430_1',
@@ -343,7 +346,8 @@ let events2005 = [
         name: 'Чемпионат СПб, эстафеты и классика',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/05060405/05060405.zip',
-        o_site: '05060405'
+        o_site: '05060405',
+        maps: "./original_maps/starts/other/kanneliarvi_istok_2005_06_05_omaps.webp"
     },
     {
         id: 'SPB_20050610_1',
@@ -486,7 +490,8 @@ let events2005 = [
         name: 'Кубок Яркого Мира, 7-8-й этапы',
         res: 'https://o-site.spb.ru/_races/050806ym/ym_et7et8_res.zip',
         start: 'YM_CUP',
-        o_site: '050806ym'
+        o_site: '050806ym',
+        maps: './original_maps/starts/other/kuznechnoe_kym_2005_08_07_omaps.webp'
     },
     {
         id: 'SPB_20050821_1',

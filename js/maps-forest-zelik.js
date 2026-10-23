@@ -505,7 +505,7 @@ let zelikMaps = [
         name: 'Зеленогорск, Дружинное оз',
         year: 2002,
         url: './maps/forest/zelik/zelenogorsk_druzhinnoe_2002.webp',
-        link: './original_maps/forest/zelik/zelenogorsk_druzhinnoe_2002_omaps.jpg',
+        link: ['./original_maps/forest/zelik/zelenogorsk_druzhinnoe_2002_omaps.jpg','./original_maps/forest/zelik/zelenogorsk_druzhinnoe_2002_omaps.webp'],
         bounds: [[60.2382135, 29.7350121], [60.2355718, 29.7718763], [60.219291, 29.729991]],
         author: ['VLKV_K','URVNTSV']
     },

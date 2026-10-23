@@ -1405,7 +1405,8 @@ let otherMaps = [
         author: 'KRLS_M',
         results: './docs/1983/1983_ussr_champ_results_omaps.xlsx',
         bounds: [[57.3843953, 25.7080936], [57.3832387, 25.7625961], [57.3584096, 25.7067204]],
-        start: ['USSR_1983','USSR']
+        start: ['USSR_1983','USSR'],
+        region: 'LATVIA'
     },
     {
         name: 'Cēsis, Kārļi',
@@ -1416,7 +1417,8 @@ let otherMaps = [
         results: './docs/1983/1983_ussr_champ_results_omaps.xlsx',
         bounds: [[57.2759805, 25.1769304], [57.2741245, 25.2367115], [57.2541895, 25.1742268]],
         author: ['KSLV_V','ZDNSH','ZVTSKS','LPNSH'],
-        start: ['USSR_1983','USSR']
+        start: ['USSR_1983','USSR'],
+        region: 'LATVIA'
     },
     {
         name: 'Cēsis, Līgatne',
@@ -1430,7 +1432,8 @@ let otherMaps = [
         results: './docs/1983/1983_ussr_champ_results_omaps.xlsx',
         bounds: [[57.2573, 25.0349236], [57.2561626, 25.079298], [57.221444, 25.0326061]],
         author: 'KSLV_V',
-        start: ['USSR_1983','USSR']
+        start: ['USSR_1983','USSR'],
+        region: 'LATVIA'
     },
     {
         name: 'Pļaviņas, Mežezers',
@@ -1444,7 +1447,49 @@ let otherMaps = [
         },
         bounds: [[56.6687265, 25.6797266], [56.6664155, 25.7222986], [56.6250055, 25.6806707]],
         author: 'KSLV_V',
-        start: ['USSR_1990','USSR']
+        start: ['USSR_1990','USSR'],
+        region: 'LATVIA'
+    },
+    {
+        name: 'Rīga, Dzegužkalns',
+        date: '2019-07-06',
+        url: './maps/other/dzeguzkalns_2019_07_06.webp',
+        link: './original_maps/other/dzeguzkalns_wmoc_2019_07_06_m35_omaps.webp',
+        info: 'Чемпионат мира среди ветеранов (WMOC 2019), квалификация спринта. M35, забег 2: 3,5 км, 23 КП, набор 40 м. Масштаб 1:4000. Картограф Mikus Puriņš, дистанции Alvis Reinsons.',
+        results: ['https://web.archive.org/web/20190821202009/https://wmoc2019.lv/Race-data/6/Results_dir/day_1.htm','https://web.archive.org/web/20190821211652/https://wmoc2019.lv/Race-data/6/Results_dir/split_1_M35-2.htm'],
+        bounds: [[56.9682344, 24.0579987], [56.9673337, 24.0722251], [56.9607361, 24.0563679]],
+        type: ['CITY','SPRINT'],
+        region: 'LATVIA'
+    },
+    {
+        name: 'Rīga, Bumbukalns',
+        date: '2019-07-10',
+        url: './maps/other/bumbukalns_2019_07_10.webp',
+        link: './original_maps/other/bumbukalns_wmoc_2019_07_10_m35a_omaps.webp',
+        info: 'Чемпионат мира среди ветеранов (WMOC 2019), финал средней дистанции. M35A: 6,2 км, 26 КП. Масштаб 1:7500. Картограф Māris Strautnieks, дистанции Aigars Vārna.',
+        results: 'https://web.archive.org/web/20190719185741/https://www.wmoc2019.lv/Race-data/10/Results/MF_Results.htm',
+        bounds: [[57.0123047, 23.9720821], [57.0096409, 24.0186882], [56.9939348, 23.9683056]],
+        region: 'LATVIA'
+    },
+    {
+        name: 'Rīga, Bumbukalns',
+        date: '2019-07-09',
+        url: './maps/other/bumbukalns_2019_07_09.webp',
+        link: './original_maps/other/bumbukalns_2019_07_09_m35_omaps.webp',
+        info: 'Чемпионат мира среди ветеранов (WMOC 2019), лесная квалификация. M35, забег 2: 9,7 км, 25 КП. Масштаб 1:7500. Картограф Māris Strautnieks, дистанции Oskars Zērnis.',
+        results: 'https://web.archive.org/web/20190719185451/https://www.wmoc2019.lv/Race-data/9/Results/FQ_results.htm',
+        bounds: [[57.0184961, 23.9737129], [57.0160898, 24.0120792], [56.9924854, 23.9689493]],
+        region: 'LATVIA'
+    },
+    {
+        name: 'Carnikava, Garezeri',
+        date: '2019-07-12',
+        url: './maps/other/garezeri_2019_07_12.webp',
+        link: './original_maps/other/garezeri_wmoc_2019_07_12_m35b_omaps.webp',
+        info: 'Чемпионат мира среди ветеранов (WMOC 2019), финал длинной дистанции. M35B: 10,3 км, 20 КП, набор 255 м. Масштаб 1:10 000. Природный парк «Piejūra». Картограф и дистанции Indulis Peilāns.',
+        results: 'https://web.archive.org/web/20190822074522/https://www.wmoc2019.lv/Race-data/12/Results/LF_Results.htm',
+        bounds: [[57.1906460, 24.2830467], [57.1879369, 24.3311548], [57.1549346, 24.2769742]],
+        region: 'LATVIA'
     },
 
     // --- Литва ---
@@ -1578,6 +1623,15 @@ let otherMaps = [
         info: 'Parc Disneyland. Le Bri\'O Tour Etape 2.',
         bounds: [[48.875251, 2.7719235], [48.8753004, 2.7813864], [48.8679542, 2.7718163]],
         logo: 'disney.gif',
+        region: 'FRA'
+    },
+    {
+        name: 'Париж',
+        date: '2012-09-29',
+        url: './maps/other/paris_2019.webp',
+        link: './original_maps/other/paris_2019_omaps.webp',
+        info: 'Raid O\' Paris',
+        bounds: [[48.8623856, 2.3400664], [48.8623997, 2.3596787], [48.8440734, 2.3404527]],
         region: 'FRA'
     },
 

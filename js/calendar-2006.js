@@ -245,7 +245,8 @@ let events2006 = [
         name: 'Кубок Яркого Мира, 3 этап',
         res: 'https://o-site.spb.ru/_races/060508_ym/060508_res.zip',
         start: 'YM_CUP',
-        o_site: '060508_ym'
+        o_site: '060508_ym',
+        maps: './original_maps/starts/other/kuzmolovo_kym_2006_05_08_omaps.webp'
     },
     {
         id: 'SPB_20060509_1',
@@ -840,7 +841,8 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/061203/061203_res.zip',
         info: 'Многоэтапные соревнования по парковому ориентированию бегом на заснеженном грунте.',
         o_site: '061203',
-        bulletin: 'https://o-site.spb.ru/_races/061203/bullet2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/061203/bullet2.htm',
+        maps: './original_maps/starts/other/shuvalovsky_2006_12_03_omaps.webp'
     },
     {
         id: 'SPB_20061210_1',

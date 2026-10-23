@@ -186,10 +186,10 @@ let events2020 = [
         id: 'SPB_20200202_2',
         date: '2020-02-02',
         place: 'Кузьмолово',
-        type: 'SKI',
         name: 'Открытая тренировка NordWest',
         reskeep: 312,
-        owner: 'NW'
+        owner: 'NW',
+        maps: './original_maps/starts/other/kuzmolovo_2020_02_02_omaps.webp'
     },
     {
         id: 'SPB_20200208_1',
@@ -1309,7 +1309,9 @@ let events2020 = [
         date: '2020-09-20',
         place: 'м Лесная',
         name: 'Tour de Sprint. Старт 1',
-        reskeep: 375
+        reskeep: 375,
+        map: 'lesnaya_kantemirovskaya_2024',
+        maps: './original_maps/starts/other/lesnaya_st_2020_09_20_omaps.webp'
     },
     {
         id: 'SPB_20200920_2',
@@ -1326,7 +1328,8 @@ let events2020 = [
         date: '2020-09-21',
         place: 'Большая Пушкарская ул',
         name: 'Tour de Sprint. Старт 2',
-        reskeep: 376
+        reskeep: 376,
+        maps: './original_maps/starts/other/big_pushkarskaya_2020_09_21_omaps.webp'
     },
     {
         id: 'SPB_20200921_2',

@@ -703,7 +703,8 @@ let events2012 = [
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#109',
         bulletin: 'https://o-site.spb.ru/_races/120610/120610_info3.pdf',
         reskeep: 248,
-        map: 'lembolovo_2002'
+        map: 'lembolovo_2002',
+        maps: './original_maps/starts/other/lembolovo_2012_06_10_omaps.webp'
     },
     {
         id: 'SPB_20120610_2',

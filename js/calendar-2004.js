@@ -1,5 +1,14 @@
 let events2004 = [
     {
+        id: 'SPB_20040201_1',
+        date: '2004-02-01',
+        place: 'Павловск',
+        name: 'Снежная Тропа',
+        start: 'SNOW_WAY',
+        map: 'pavlovsk_2012',
+        maps: './original_maps/starts/other/pavlovsk_2004_02_01_omaps.webp'
+    },
+    {
         id: 'SPB_20040424_1',
         date: '2004-04-24',
         place: 'Пискаревский л/п',
@@ -19,7 +28,8 @@ let events2004 = [
         info: 'Первый этап пройдет по новой карте, составленной Виктором Рыловым в 2004г.',
         fmt: '1 этап Кубка',
         start: 'YM_CUP',
-        o_site: '040425'
+        o_site: '040425',
+        map: 'razmetelevo_2004'
     },
     {
         id: 'SPB_20040501_1',
@@ -30,16 +40,27 @@ let events2004 = [
         o_site: '00000003'
     },
     {
+        id: 'SPB_20040510_1',
+        date: '2004-05-10',
+        place: 'Кирхгоф',
+        name: 'П-во Комитета по образованию СПб',
+        map: 'tuutari_2004'
+    },
+    {
         id: 'SPB_20040605_1',
         date: '2004-06-05',
         endDate: '2004-06-06',
         place: 'Кузьмолово',
-        name: 'Чемпионат СПб, спринт',
+        name: 'Чемпионат СПб',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/040606/sprint.zip',
         info: 'Возрастные группы: Спринт: МЖ12, МЖ14, МЖ16, МЖ18, МЖ20, МЖ21Е, МЖ21К, МЖ40, МЖ50 МЖ60; МЖ open (ребенок + родитель, ребенок + тренер, новички).',
-        fmt: 'спринт',
-        o_site: '040606'
+        fmt: 'эстафета, спринт',
+        o_site: '040606',
+        maps: [
+            './original_maps/starts/other/kuzmolovo_2004_06_05_omaps.webp',
+            './original_maps/starts/other/kuzmolovo_2004_06_06_omaps.webp'
+        ]
     },
     {
         id: 'SPB_20040605_2',
@@ -131,7 +152,8 @@ let events2004 = [
         name: '3 этап Кубка Яркого Мира',
         res: 'https://o-site.spb.ru/_races/040704/YM_etap_3.zip',
         start: 'YM_CUP',
-        o_site: '040704'
+        o_site: '040704',
+        maps: './original_maps/starts/other/orekhovo_2004_06_04_omaps.webp'
     },
     {
         id: 'SPB_20040710_1',
@@ -179,7 +201,8 @@ let events2004 = [
         info: 'Возрастные группы: МЖ 10 12 14 16 40 50 60 Ж21 М21а М21б',
         fmt: 'средняя дистанция',
         start: 'YM_CUP',
-        o_site: '040905'
+        o_site: '040905',
+        map: 'sosnovo_black_forest_1986'
     },
     {
         id: 'SPB_20040911_1',
@@ -274,8 +297,10 @@ let events2004 = [
         id: 'SPB_20041017_1',
         date: '2004-10-17',
         name: '6-этапные эстафеты',
+        place: 'Зеленогорск, Дружинное оз',
         info: 'юношеская шестиэтапная эстафета «Jun-80»: участники 1989 – 1994 г.р., не менее двух девушек; сумма возрастов шести участников команды не более 80 лет. смешанная шестиэтапная эстафета «Mix-21»: участники не моложе 1991 г.р.',
-        o_site: '041017'
+        o_site: '041017',
+        maps: './original_maps/starts/other/zelik_2004_10_17_omaps.webp'
     },
     {
         id: 'SPB_20041024_1',
@@ -304,7 +329,8 @@ let events2004 = [
         info: 'Ориентирование по выбору. Старт общий по группам',
         fmt: 'парковое ориентирование',
         o_site: '041031',
-        map: 'sosnovka_2004'
+        map: 'sosnovka_2004',
+        maps: './original_maps/starts/other/sosnovka_2004_10_31_omaps.webp'
     },
     {
         id: 'SPB_20041114_1',
@@ -324,7 +350,8 @@ let events2004 = [
         res: 'https://o-site.spb.ru/_races/041128/results_etap2.zip',
         info: '2 этап Кубка Санкт-Петербурга по парковому ориентированию',
         o_site: '041128',
-        map: 'osinovaja_roscha_2018'
+        map: 'osinovaja_roscha_2018',
+        maps: './original_maps/starts/other/osinovaja_roscha_2004_11_28_omaps.webp'
     },
     {
         id: 'SPB_20041226_1',

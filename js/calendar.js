@@ -489,7 +489,11 @@ function writeStickyHeader() {
             const viewport = getVisualViewportBox();
 
             const tableRect = table.getBoundingClientRect();
-            const headerRect = headerRow.getBoundingClientRect();
+            // Меряем ячейку, а не строку: position: sticky задан у thead th, и при прокрутке
+            // .o-sheet-wrapper строка уезжает вверх, а ячейки остаются на месте. По строке
+            // плавающая шапка включалась поверх «липкой» (десктоп с сенсорным экраном,
+            // где isMobile === true). Плавающая нужна, только когда ушли сами ячейки.
+            const headerRect = (headerRow.querySelector('th, td') || headerRow).getBoundingClientRect();
 
             const viewportTop = viewport.top;
             const viewportLeft = viewport.left;

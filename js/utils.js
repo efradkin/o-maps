@@ -125,7 +125,7 @@ const regions = {
     },
     LATVIA: {
         name: 'Латвия',
-        logo: 'latvia.webp'
+        logo: 'LOF.gif' // 'latvia.webp'
     },
     LIETUVA: {
         name: 'Литва',
@@ -202,8 +202,13 @@ const regions = {
     UKRAINE: {
         name: 'Украина'
     },
+    FINLAND: {
+        name: 'Финляндия',
+        logo: 'finland.gif'
+    },
     FRA: {
-        name: 'Франция'
+        name: 'Франция',
+        logo: 'france.webp'
     },
     CHELYABINSK: {
         name: 'Челябинск',
@@ -389,8 +394,13 @@ if (HAS_PRTNR_PARAM) {
 }
 
 const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+// Сенсорный экран сам по себе не делает устройство мобильным: у ноутбуков и моноблоков
+// с тачем основной указатель - мышь или тачпад (pointer: fine), и раскладка у них десктопная.
+// Тач учитывается, только когда основной указатель - палец (pointer: coarse): планшеты,
+// в том числе iPad, который в userAgent представляется как Mac.
 const isMobile = regex.test(navigator.userAgent) ||
-    'ontouchstart' in window || navigator.maxTouchPoints > 0 ||
+    (('ontouchstart' in window || navigator.maxTouchPoints > 0) &&
+        !!window.matchMedia && window.matchMedia('(pointer: coarse)').matches) ||
     (typeof L !== 'undefined') && L.Browser && (L.Browser.android || L.Browser.mobile);  // || L.Browser.touch || L.Browser.retina
 
 /*   FUNCTIONS   */

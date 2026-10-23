@@ -788,7 +788,8 @@ let events2011 = [
         name: 'Кубок Яркого Мира 2011, 3 этап',
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110716_split.htm',
         o_site: '2011CupYM',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        maps: './original_maps/starts/other/tsvelodubovo_2011_07_16_omaps.webp'
     },
     {
         id: 'SPB_20110717_1',

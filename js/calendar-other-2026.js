@@ -108,7 +108,7 @@ let otherEvents2026 = [
 },
 {
     id: 'OTHER_20261025_1',
-    date: '2026-10-25',
+    date: '2026-10-24',
     place: 'СПб',
     name: 'Арена марафон',
     link: 'https://pushkin-run.ru',

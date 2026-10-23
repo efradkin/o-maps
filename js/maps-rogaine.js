@@ -544,4 +544,23 @@ let rogaineMaps = [
         type: ['ROGAINE'],
         start: 'RRC'
     },
+    {
+        name: 'Lahti',
+        year: 2011,
+        url: './maps/rogaine/lahti_rogaine_2011.webp',
+        link: './original_maps/rogaine/lahti_rogaine_2011_omaps.webp',
+        bounds: [[61.0831967, 25.6678391], [61.0851887, 25.9445572], [60.9802695, 25.6726456]],
+        type: ['ROGAINE'],
+        region: 'FINLAND'
+    },
+    {
+        name: 'Helsinki, Siikajarvi',
+        year: 2012,
+        url: './maps/rogaine/siikajarvi_trail_2012.webp',
+        link: './original_maps/rogaine/siikajarvi_trail_2012_omaps.webp',
+        info: 'Trail tour Finland',
+        bounds: [[60.3365067, 24.4486141], [60.3394376, 24.6087742], [60.2718336, 24.4533348]],
+        type: ['ROGAINE','SPECIAL'],
+        region: 'FINLAND'
+    },
 ];

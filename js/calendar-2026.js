@@ -3229,7 +3229,8 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/56289',
         bulletin: 'https://o-site.spb.ru/_races/261024/261024_info.pdf',
         endReg: '2026-10-23 12:00',
-        map: 'garbolovo_zmeinoe_2026'
+        map: 'garbolovo_zmeinoe_2026',
+        o_gps: [26177,26178,26179,26180]
     },
     {
         id: 'SPB_20261024_5',
