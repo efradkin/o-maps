@@ -684,13 +684,13 @@ let events2008 = [
         date: '2008-07-26',
         endDate: '2008-07-27',
         name: 'Три-О-Тлон',
+        start: 'TRI_O_TLON',
         place: 'оз Зеркальное',
         type: 'MULTI',
         res: 'https://o-site.spb.ru/_races/tri-o-tlon-2008/tot2008_res.htm',
         photo: 'http://www.yarkiymir.ru/main/company/news/view/218/',
         publish: 'https://o-site.spb.ru/race.php?id=tri-o-tlon-2008',
         info: 'Старейшая мультиспортивная гонка в России, в 2008-м году состоится уже 7-й Три-О-Тлон, который начал свою историю с 2002-го года. Классическая гонка по набору дисциплин: треккинг, велосипед, байдарка, верёвочные этапы. Основная направленность гонки - навигация. Три дистанции - длинная, средняя и для начинающих. Участвуют команды из 2-х человек любого пола. Информационная поддержка: O-site x-race.msk.ru adventureraces.ru carabin.ru',
-        logo: 'triotlon.gif',
         o_site: 'tri-o-tlon-2008',
         maps: [
             'https://o-site.spb.ru/_races/tri-o-tlon-2008/winners_track.gif'

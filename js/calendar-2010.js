@@ -531,8 +531,16 @@ let events2010 = [
         id: 'SPB_20100529_1',
         date: '2010-05-29',
         name: 'MatrasOFF Race',
+        place: 'Зеленогорск',
         type: 'MULTI',
-        o_site: '100529'
+        o_site: '100529',
+        maps: [
+            './original_maps/starts/other/zelik_matrasoff_2010_1_omaps.webp',
+            './original_maps/starts/other/zelik_matrasoff_2010_2_omaps.webp',
+            './original_maps/starts/other/zelik_matrasoff_2010_2_legenda_omaps.webp',
+            './original_maps/starts/other/zelik_matrasoff_2010_3_omaps.webp',
+            './original_maps/starts/other/zelik_matrasoff_2010_3_legenda_omaps.webp'
+        ]
     },
     {
         id: 'SPB_20100529_2',
@@ -805,6 +813,7 @@ let events2010 = [
         date: '2010-07-24',
         endDate: '2010-07-25',
         name: 'Три-О-Тлон',
+        start: 'TRI_O_TLON',
         place: 'Мельниково',
         type: 'MULTI',
         publish: 'https://o-site.spb.ru/race.php?id=tri-o-tlon-2010',
@@ -812,7 +821,6 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/tri-o-tlon-2010/TOT_res.htm',
         photo: 'https://o-site.spb.ru/race.php?id=tri-o-tlon-2010',
         info: 'Старейшая мультиспортивная гонка в России: в 2010-м году состоялся уже 9-й Три-О-Тлон, история которого ведёт отсчёт с 2002-го года. Самая качественная (по организации) гонка 2009-го года согласно опросу на сайте x-race.msk.ru Классическая гонка по набору дисциплин: треккинг, велосипед, байдарка, верёвочные этапы. Основная направленность гонки - навигация. Три дистанции - длинная, средняя и короткая. Участвуют команды из 2-х человек любого пола. Нас поддержали: СК Темп Альпина Спортивная Линия Яркий Мир Маноми Кант Спортсистем Про-Спорт Альпиндустрия Эксперты Приключений Информационная поддержка: O-site x-race.msk.ru adventureraces.ru carabin.ru',
-        logo: 'triotlon.gif',
         o_site: 'tri-o-tlon-2010',
         maps: [
             'https://o-site.spb.ru/_races/tri-o-tlon-2010/L1_L7_tracks.gif'

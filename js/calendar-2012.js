@@ -872,11 +872,11 @@ let events2012 = [
         endDate: '2012-07-29',
         place: 'Воробьёво оз',
         name: 'Три-О-Тлон',
+        start: 'TRI_O_TLON',
         type: 'MULTI',
         res: 'https://o-site.spb.ru/_races/tri-o-tlon-2012/TOT_res.zip',
         photo: 'http://o-site.spb.ru/gallery.php?id=gallery_TOT2012_IS',
         info: 'Старейшая мультиспортивная гонка в России: в 2012-м году исполнится 10 лет со дня первого Три-О-Тлона, состоявшегося в августе 2002-го года. Классическая мультигонка по набору дисциплин: треккинг, велоориентирование, байдарка, верёвочные этапы. Нас поддерживают: Альпина Спортивная Линия Red Fox & Inov8 Яркий Мир SkiTent Спортсистем Альпиндустрия Эксперты Приключений Информационная поддержка: O-site x-race.info adventureraces.ru carabin.ru',
-        logo: 'triotlon.gif',
         o_site: 'tri-o-tlon-2012',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#117'
     },

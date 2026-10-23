@@ -807,13 +807,15 @@ let events2011 = [
         endDate: '2011-07-24',
         place: 'Мичуринское',
         name: 'Три-О-Тлон',
+        start: 'TRI_O_TLON',
         res: 'https://o-site.spb.ru/_races/tri-o-tlon-2011/110723_res.htm',
         photo: 'http://o-site.spb.ru/gallery.php?id=gallery_TOT2011_OA',
         info: 'Старейшая мультиспортивная гонка в России: в 2011-м году состоялся юбилейный 10-й Три-О-Тлон, история которого ведёт отсчёт с 2002-го года. Нас поддерживали: Альпина Спортивная Линия Red Fox & Inov8 Яркий Мир Кант SkiTent Спортсистем Альпиндустрия Эксперты Приключений Турфирма Весь Мир Информационная поддержка: O-site x-race.msk.ru adventureraces.ru carabin.ru',
-        logo: 'triotlon.gif',
         o_site: 'tri-o-tlon-2011',
+        type: 'MULTI',
         maps: [
-            'https://o-site.spb.ru/_races/tri-o-tlon-2011/map_TOT.gif'
+            'https://o-site.spb.ru/_races/tri-o-tlon-2011/map_TOT.gif',
+            './original_maps/starts/other/michura_triotlon_2011_6_omaps.webp'
         ]
     },
     {

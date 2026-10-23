@@ -468,10 +468,11 @@ let events2005 = [
         endDate: '2005-07-31',
         place: 'Цвелодубово',
         name: 'Три-О-Тлон 2005',
+        start: 'TRI_O_TLON',
+        type: 'MULTI',
         res: 'https://o-site.spb.ru/_races/tri-o-tlon-2005/TOT2005_res.htm',
         publish: 'https://o-site.spb.ru/race.php?id=tri-o-tlon-2005',
         photo: 'http://o-site.spb.ru/photos.php?page=2',
-        logo: 'triotlon.gif',
         o_site: 'tri-o-tlon-2005',
         maps: [
             'https://o-site.spb.ru/_races/tri-o-tlon-2005/trek_winners.jpg'

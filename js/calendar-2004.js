@@ -152,10 +152,11 @@ let events2004 = [
         endDate: '2004-08-01',
         place: 'Рощино-Ильичёво-Зеленогорск',
         name: 'Три-О-Тлон',
+        start: 'TRI_O_TLON',
+        type: 'MULTI',
         res: 'https://o-site.spb.ru/_races/tri-o-tlon-2004/results.htm',
         photo: 'http://o-site.spb.ru/gallery.php?id=gallery_TOT2004',
         info: '3-я традиционная мультиспортивная гонка. Участники: команды двойки любого пола. Дистанции: длинная (120км) и техническая (60км).',
-        logo: 'triotlon.gif',
         o_site: 'tri-o-tlon-2004'
     },
     {
