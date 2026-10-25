@@ -1,12 +1,26 @@
 const EVENT_MONTH_PARAM = urlParams.get('event-month');
 
-let onlyMajor = false;
-let major = localStorage.getItem('onlyMajor');
-if (major != null) {
-    onlyMajor = (major === 'true');
+// Галочки «важные» и «локальные» отражают параметры адреса major и local (в браузере не хранятся):
+// параметр без значения, =1 или =true — только такие события, =0 или =false — все, кроме них, нет параметра — все.
+function eventsParamMode(name) {
+    return urlParams.has(name) ? !['0', 'false'].includes(urlParams.get(name)) : null;
 }
-if (onlyMajor) {
-    document.getElementById('only-major').checked = 'checked';
+
+// Щелчок по галочке ставит параметр (=1, как mobile=1) или убирает его из адреса.
+function switchEventsParam(name, checked) {
+    const url = new URL(window.location.href);
+    if (checked) {
+        url.searchParams.set(name, '1');
+    } else {
+        url.searchParams.delete(name);
+    }
+    window.location.href = url.toString();
+}
+
+const majorMode = eventsParamMode('major');   // null — все, true — только важные, false — все, кроме важных
+if (majorMode) {
+    const checkbox = document.getElementById('only-major');   // в лыжном календаре галочки нет
+    if (checkbox) checkbox.checked = true;
 }
 let onlyMy = false;
 let my = localStorage.getItem('onlyMy');
@@ -15,6 +29,14 @@ if (my != null) {
 }
 if (onlyMy) {
     document.getElementById('only-my').checked = 'checked';
+}
+// «Локальные» — события региона календаря: поле region записи совпадает с REGION_KEY страницы
+// или запись взята из файлов регионального календаря (страница перечисляет их в наборе LOCAL_EVENTS);
+// дочерняя запись (parent) локальна, если локален её родитель. Без LOCAL_EVENTS (лыжный календарь)
+// фильтра нет.
+const localMode = (typeof LOCAL_EVENTS !== 'undefined') ? eventsParamMode('local') : null;
+if (localMode) {
+    document.getElementById('only-local').checked = true;
 }
 let myEdit = false;
 let myedt = localStorage.getItem('myEdit');
@@ -33,11 +55,6 @@ if (me) {
     myEvents = [
         ...me.split(',')
     ];
-}
-
-function switchMajor(value) {
-    localStorage.setItem('onlyMajor', value);
-    location.reload();
 }
 
 function switchMy(checked) {
@@ -62,9 +79,18 @@ function myEditDone() {
 }
 
 // Фильтрация массива. Оставляем только эвенты, соответствующие критерию запроса (есди он задан).
-const allMajors = onlyMajor || START_NAME_PARAM === 'major';
+if (localMode !== null) {
+    // локальность определяется до остальных фильтров: родитель записи должен быть ещё в oEvents
+    const byId = new Map(oEvents.map(evt => [evt.id, evt]));
+    const isLocal = evt => evt.region === REGION_KEY || LOCAL_EVENTS.has(evt) ||
+        (!!evt.parent && evt.parent !== evt.id && byId.has(evt.parent) && isLocal(byId.get(evt.parent)));
+    oEvents = oEvents.filter(evt => isLocal(evt) === localMode);
+}
+const allMajors = majorMode === true || START_NAME_PARAM === 'major';
 if (allMajors) {
     oEvents = oEvents.filter(event => isMajor(event));
+} else if (majorMode === false) {
+    oEvents = oEvents.filter(event => !isMajor(event));
 }
 if (HAS_ONLY_ME_PARAM) {
     oEvents = oEvents.filter(event => event.me !== undefined || event.strava !== undefined);

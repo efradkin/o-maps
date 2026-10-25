@@ -916,6 +916,7 @@ let events2016 = [
         endDate: '2016-06-12',
         name: 'Чемпионат Прибалтики',
         place: 'Пыльва, Эстония',
+        region: 'ESTONIA',
         o_site: '16061012'
     },
 {
@@ -1321,34 +1322,6 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160917_gl/160917_klas.pdf',
         info: '17 сентября 2016 г. в урочище Пухтолова гора пройдет Чемпионат и первенство по спортивному ориентированию - спорт глухих. В программе дисциплины "спринт" с 11:00 и "классика" с 13:30. Для младших школьников будет подготовлен "лабиринт на местности". Приглашаются все желающие, которые могут стартовать по желанию на дистанциях классики А, В, С, ДТР через 45 мин. после основных групп. Предварительная заявка через o-reg.spb.ru до 13 сентября включительно.',
         o_site: '160917_gl'
-    },
-    {
-        id: 'RRF_20160917_1',
-        date: '2016-09-17',
-        endDate: '2016-09-18',
-        place: 'Пищалье, Кировская обл.',
-        name: '4-й Чемпионат России по рогейну на велосипедах',
-        link: [
-            'https://web.archive.org/web/20161220090010/http://secret.2016.x-kirov.ru/',
-            'https://forum.x-kirov.ru/topic/6518-chempionat-rossii-2016-po-rogejnu-na-velosipedakh/',
-            'https://rogaining.ru/news/rrc-bike-2016-results'
-            // 'http://secret.2016.x-kirov.ru/' // недоступна
-            // 'http://secret.2016.x-kirov.ru/registration/' // недоступна
-        ],
-        res: [
-            'https://rogaining.ru/results/rrc-results/rrc2016_bike_results.pdf',
-            'https://rogaining.ru/download/doc/kirov_bike_2016_results.pdf'
-        ],
-        bulletin: [
-            // 'https://drive.google.com/file/d/1XNx-UXWW0s36KhSWINYyGXLsj0nGfWzn49df-lv2Dbk/view'
-            'http://forum.x-kirov.ru/topic/6518-chempionat-rossii-2016-po-rogejnu-na-velosipedakh/?p=123077'
-        ],
-        maps: ['https://rogaining.ru/results/rrc-results/rrc2016_bike_map.jpg'],
-        info: 'Победители: Наталья Зимина, Алексей Демьяненко, Руслан Дюльдин (Сальто Делчева, СО) – 161, 23:49:31; МО: Константин Сямтомов, Александр Порфирьев (Полуночники, Сыктывкар) – 157. Команд — 17, участников — 35.',
-        coord: [58.2387, 48.708],
-        fmt: '24 вело, 10 вело, 10',
-        type: ['ROGAINE','VELO'],
-        start: 'RRC'
     },
     {
         id: 'SPB_20160918_1',

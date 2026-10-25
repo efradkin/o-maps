@@ -189,48 +189,6 @@ let events2011 = [
         bulletin: 'https://o-site.spb.ru/_races/11030607/11030607_info2.htm'
     },
     {
-        id: 'RRF_20110306_1',
-        date: '2011-03-06',
-        endDate: '2011-03-07',
-        place: 'Иваново, Ломы',
-        name: '1-й Чемпионат России по рогейну на лыжах',
-        link: [
-            'http://ski.rogaining.ru/',
-            'https://igorklepcha.livejournal.com/11087.html',
-            'https://rogaining.ru/news/rogaine-news/results-events/250-ski2011'
-        ],
-        res: [
-            'http://ski.rogaining.ru/results/results24.htm',
-            'http://ski.rogaining.ru/results/results6.htm',
-            'http://ski.rogaining.ru/results/results24_s.htm',
-            'http://ski.rogaining.ru/results/stat_controls.htm'
-        ],
-        bulletin: [
-            // 'http://ski.rogaining.ru/content/view/2/3/'
-            // 'http://ski.rogaining.ru/content/view/6/8/'
-            // 'http://ski.rogaining.ru/content/view/8/9/'
-            'http://ski.rogaining.ru/content/view/16/10/'
-        ],
-        maps: [
-            'https://ski.rogaining.ru/download/ski2011_map.jpg'
-            // 'http://ski.rogaining.ru/content/view/23/12/' // страница, не файл карты
-        ],
-        map: 'ivanovo_lomy_2011',
-        photo: [
-            'http://ski.rogaining.ru/content/view/24/13/'
-            // 'http://fotki.yandex.ru/users/rogainer/album/156683/' // недоступна
-            // 'https://picasaweb.google.com/my.elementum/1' // недоступна
-            // 'https://picasaweb.google.com/kasatkanet/201' // недоступна
-            // 'https://plus.google.com/photos/118046955259249067421/albums/5607574290620514513' // недоступна
-        ],
-        rg: 'https://rogaine.ru/routegadget/rg2/#48',
-        info: 'Победители: Олег Калинин, Андрей Шведов (ОМЕГА-Ski-O, Москва) – 181 очко; СО: Марина Галкина, Александр Халяпин (Альфа-Битца); ЖО: Людмила Плис, Ольга Творогова. Команд — 34, участников — 72.',
-        coord: [56.8806, 40.9777],
-        fmt: '24, 6',
-        type: ['ROGAINE','SKI'],
-        start: 'RRC'
-    },
-    {
         id: 'SPB_20110308_1',
         date: '2011-03-08',
         name: 'Всеволожская тропа, 3 этап',
@@ -535,6 +493,7 @@ let events2011 = [
         date: '2011-05-20',
         endDate: '2011-05-22',
         place: 'Нида, Литва',
+        region: 'LIETUVA',
         name: 'Чемпионат Прибалтики',
         o_site: '11052022',
         bulletin: 'https://o-site.spb.ru/_races/11052022/boc-2011-b1.pdf'
@@ -712,6 +671,7 @@ let events2011 = [
         date: '2011-06-11',
         endDate: '2011-06-12',
         place: 'Сортавала',
+        region: 'KARELIA',
         name: 'Red Fox Adventure Race',
         type: 'MULTI',
         start: 'RFAR',
@@ -948,51 +908,6 @@ let events2011 = [
         start: 'GORNY_CROSS',
         o_site: '110910',
         bulletin: 'https://o-site.spb.ru/_races/110910/110910_info2.htm'
-    },
-    {
-        id: 'RRF_20110910_1',
-        date: '2011-09-10',
-        endDate: '2011-09-11',
-        place: 'Кыштым, Слюдорудник',
-        name: '8-й Чемпионат России по рогейну',
-        link: [
-            'http://rrc2011.rogaining.ru/',
-            'https://rogaining.ru/news/rogaine-news/announcement/234-8rrc',
-            'https://rogaining.ru/news/rogaine-news/announcement/241-rrc2011',
-            'https://rogaining.ru/news/rogaine-news/announcement/255-rrc2011',
-            'https://rogaining.ru/news/rogaine-news/announcement/278-rrc2011',
-            'https://rogaining.ru/news/rogaine-news/announcement/294-rrc2011',
-            'https://rogaining.ru/news/rogaine-news/results-events/296-8rrc',
-            'http://rrc2011.rogaining.ru/content/view/34/2/'
-        ],
-        res: [
-            'http://rrc2011.rogaining.ru/results/results24.htm',
-            'http://rrc2011.rogaining.ru/results/results8.htm',
-            'http://rrc2011.rogaining.ru/results/results4.htm',
-            'http://rrc2011.rogaining.ru/results/splits/results24s.htm',
-            'http://rrc2011.rogaining.ru/results/stat_controls24.htm'
-        ],
-        bulletin: [
-            // 'http://rrc2011.rogaining.ru/content/view/1/3/'
-            'http://rrc2011.rogaining.ru/content/view/2/4/'
-        ],
-        maps: [
-            'http://rrc2011.rogaining.ru/download/8rrc_map24.jpg',
-            'http://rrc2011.rogaining.ru/download/8rrc_map4_8.jpg'
-            // 'http://rrc2011.rogaining.ru/content/view/3/15/' // страница, не файл карты
-        ],
-        map: 'kyshtym_rrc_2011',
-        photo: 'http://fotki.yandex.ru/users/rogainer/album/172250/',
-        rg: {
-            '24': 'https://rogaine.ru/routegadget/rg2/#56',
-            '4 и 8': 'https://rogaine.ru/routegadget/rg2/#55'
-        },
-        info: 'Победители: XO (абс.): Андрей Шведов, Наталья Абрамова («Garmin-Orienta») — 354; MO: Олег Калинин, Илья Ульянов («Омега») — 349; WO: Марина Галкина, Нина Михеева — 249. Команд — 64, участников — 134.',
-        coord: [55.6716, 60.3698],
-        fmt: '24, 8, 4',
-        planner: 'BNDR_N',
-        type: 'ROGAINE',
-        start: 'RRC'
     },
     {
         id: 'SPB_20110911_1',

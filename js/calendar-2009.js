@@ -532,6 +532,7 @@ let events2009 = [
         date: '2009-05-30',
         endDate: '2009-05-31',
         place: 'Kuldiga, Latvia',
+        region: 'LATVIA',
         name: 'Чемпионат Прибалтики',
         info: 'Открытый Чемпионат Прибалтики по ориентированию',
         o_site: '09053031',

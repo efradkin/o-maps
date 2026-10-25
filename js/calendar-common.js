@@ -1,5 +1,139 @@
 let commonEvents = [
     {
+        id: 'MAJOR_19580202_1',
+        date: '1958-02-02',
+        endDate: '1958-02-03',
+        place: 'Свердловск',
+        name: 'I Всероссийские зимние туристские соревнования',
+        type: 'SKI',
+        coord: [56.8389, 60.6057],
+        info: 'Команда Ленинграда заняла 1-е место среди 16 команд РСФСР (по летописи — 17 команд, «I Всероссийский слёт туристов»).',
+        link: './books/blagovo_first_azimuths_2026_omaps.pdf#page=37'
+    },
+    {
+        id: 'MAJOR_19620220_1',
+        date: '1962-02-20',
+        place: 'Тбилиси',
+        name: 'Матч Вооружённых Сил СССР — Оборонительных сил Финляндии',
+        coord: [41.7151, 44.8271],
+        info: 'Второй дружественный матч армейских команд («кросс с ориентированием»), победила советская команда. Среди участников — Г. Козлович (Ленинград), один из тренеров — Г.Н. Васильева. Ленинградцы впервые познакомились с жидкостным компасом Suunto.',
+        link: './books/blagovo_first_azimuths_2026_omaps.pdf#page=52'
+    },
+    {
+        id: 'MAJOR_19631012_1',
+        date: '1963-10-12',
+        endDate: '1963-10-14',
+        place: 'Ужгород',
+        name: 'I Всесоюзные соревнования',
+        coord: [48.6208, 22.2879],
+        fmt: 'маркированная трасса, бег патрулей',
+        info: 'Проведены по решению ЦС по туризму и экскурсиям и ВЦСПС. 17 команд (по хронике ФСОР — 30 коллективов; по orient.by — 11–15 октября, около 350 участников). Карта — фотокопия старой венгерской, рельеф штриховкой; старт парами. Командные места: Литва, Эстония, Латвия, Ленинград — 4, Москва — 5. Кубок лучшей женской команды — у Ленинграда (Н. Башарина, Н. Мареева, З. Пятакова, Л. Милова, Т. Лобанова). При соревнованиях прошёл Всесоюзный семинар судей.',
+        link: [
+            'https://rufso.ru/history/',
+            'https://orient.by/orienteering/history/ussr/',
+            './books/blagovo_first_azimuths_2026_omaps.pdf#page=38'
+        ]
+    },
+    {
+        id: 'MAJOR_19650820_1',
+        date: '1965-08-20',
+        endDate: '1965-08-22',
+        place: 'Пермь',
+        name: 'II Всесоюзные соревнования',
+        coord: [58.0105, 56.2502],
+        info: '28 команд, организатор — Г.Н. Шестаков. Эстафету среди женщин выиграли ленинградки М. Большанская, Т. Смирнова и Т. Лобанова.',
+        link: [
+            'https://rufso.ru/wp-content/uploads/2017/07/specvypusk-azimut.pdf',
+            'https://rufso.ru/history/',
+            './books/blagovo_first_azimuths_2026_omaps.pdf#page=44'
+        ]
+    },
+    {
+        id: 'MAJOR_19670915_1',
+        date: '1967-09-15',
+        endDate: '1967-09-17',
+        place: 'Горький',
+        name: 'III Всесоюзные соревнования',
+        coord: [56.3269, 44.0059],
+        info: 'Впервые выступали юноши и девушки.',
+        link: [
+            './books/blagovo_first_azimuths_2026_omaps.pdf#page=42',
+            'https://rufso.ru/wp-content/uploads/2018/02/История-отечествнного-ориентирования.pdf'
+        ]
+    },
+    {
+        id: 'MAJOR_19680301_1',
+        date: '1968-03-01',
+        endDate: '1968-03-03',
+        place: 'Калуга',
+        name: 'Всесоюзные зимние соревнования',
+        type: 'SKI',
+        coord: [54.5293, 36.2754],
+        info: 'Около 30 сборных союзных республик, городов, краёв и областей боролись за главный приз Центрального совета по туризму. Победители: Станислав Елаховский (Москва) и Зоя Пятакова (Ленинград). Командные места: Москва, Свердловская обл., Эстония, Литва, Ленинград.',
+        link: [
+            './books/blagovo_first_azimuths_2026_omaps.pdf#page=218',
+            'https://rufso.ru/history/'
+        ]
+    },
+    {
+        id: 'SPB_19690302_1',
+        date: '1969-03-02',
+        endDate: '1969-03-04',
+        place: 'Уфа, Тавтиманово, Юматово',
+        name: 'П-во ЦС СДСО Буревестник',
+        type: 'SKI',
+        fmt: 'маркир, эстафеты',
+        res: ['./docs/1969/1969_03_02_ufa_tavtimanovo_omaps.pdf','./docs/1969/1969_03_04_ufa_umatovo_omaps.pdf'],
+        map: ['tavtimanovo_1969','umatovo_1969_03_04']
+    },
+    {
+        id: 'SPB_19710723_1',
+        date: '1971-07-23',
+        place: 'Псков',
+        name: 'Матч Болгария - СССР',
+        res: './docs/1971/1971_07_23_bulgaria_ussr_omaps.pdf'
+    },
+    {
+        id: 'SPB_19770314_1',
+        date: '1977-03-14',
+        endDate: '1977-03-15',
+        place: 'Уфа, Юматово',
+        name: 'П-во ЦС СДСО Буревестник, маркир',
+        res: './docs/1977/1977_03_14_ufa_umatovo_omaps.pdf',
+        map: 'ufa_markir_1977_03_14'
+    },
+    {
+        id: 'MAJOR_19780701_1',
+        date: '1978-07-01',
+        endDate: '1978-07-02',
+        place: 'Выру',
+        name: 'I Кубок СССР',
+        coord: [57.8339, 27.0192],
+        link: [
+            'https://orient.by/orienteering/history/ussr/',
+            './books/blagovo_first_azimuths_2026_omaps.pdf#page=163'
+        ]
+    },
+    {
+        id: 'MAJOR_19810317_1',
+        date: '1981-03-17',
+        endDate: '1981-03-19',
+        place: 'Свердловск',
+        name: 'I Кубок СССР по ориентированию на лыжах',
+        type: 'SKI',
+        coord: [56.8389, 60.6057],
+        info: 'Первые соревнования по ориентированию, проведённые Спорткомитетом СССР.',
+        link: 'https://orient.by/orienteering/history/ussr/'
+    },
+    {
+        id: 'SPB_19910301_1',
+        date: '1991-03-01',
+        endDate: '1991-03-03',
+        place: 'Нижний Новгород',
+        name: 'Всесоюзные соревнования по спортивному ориентированию среди спортсменов среднего и старшего возраста',
+        res: './docs/1991/1991_veteran_ussr_omaps.pdf'
+    },
+    {
         id: 'SPB_19930704_1',
         date: '1993-07-03',
         endDate: '1993-07-04',
@@ -80,6 +214,18 @@ let commonEvents = [
         map: ['yappilya_1999','yappilya_pistolet_1999']
     },
     {
+        id: 'RRF_19990828_1',
+        date: '1999-08-28',
+        endDate: '1999-08-29',
+        place: 'Пермь',
+        name: 'Открытый чемпионат Перми по рогейну',
+        type: 'ROGAINE',
+        coord: [58.0105, 56.2502],
+        fmt: '24 часа',
+        info: 'Первый рогейн в России, 12 команд. Организатор — Г.Н. Шестаков.',
+        link: 'https://rogaining.ru/rogaine/rogaining-history/russian-rogaining'
+    },
+    {
         id: 'SPB_20000630_1',
         date: '2000-06-30',
         endDate: '2000-07-02',
@@ -99,6 +245,35 @@ let commonEvents = [
         start: 'MMS',
         region: 'SPB',
         map: ['peski_pulkonlampi_2001','peski_zabytoe_2001','peski_stayka_2001','peski_2001']
+    },
+    {
+        id: 'RRF_20010825_1',
+        date: '2001-08-25',
+        endDate: '2001-08-26',
+        place: 'Пермь',
+        name: '1-й Чемпионат России по рогейну',
+        link: [
+            'https://rogaining.ru/rogaine/about-rogaine/shestakov',
+            'https://rogaining.ru/rogaine/about-rogaine/perm-rogaining',
+            'https://rogaining.cz/upload/Ural_2001.pdf',
+            'https://telegra.ph/Rogaining-na-Urale-08-19',
+            'https://t.me/rogainomania/1541',
+            'https://t.me/rogainomania/1550',
+            'https://t.me/rogainomania/1551',
+            'https://t.me/rogainomania/1556',
+            'https://t.me/rogainomania/1558',
+            'https://t.me/rogainomania/1563',
+            'https://rogaining.ru/rogaine/rogaining-history/russian-rogaining'
+        ],
+        res: 'https://rogaining.ru/results/rrc-results/1rrc-results.html',
+        maps: ['https://rogaining.ru/results/rrc-results/1rrc_map.jpg'],
+        map: 'perm_rrc_2001',
+        info: 'Первый чемпионат России по рогейну, организатор — Герман Шестаков. Победители: MM: Мирослав Сейдл, Пётр Боранек (Прага, Чехия) — 1040 очков (52 КП из 64, все КП по 20 очков); MX: Наталья Копылова, Алексей Городилов (Лысьва); WW: Анна Расчёскина, Елена Вялых (Пермь/Краснокамск). Команд — 37, участников — 74.',
+        coord: [57.996691, 56.320265],
+        fmt: '24',
+        planner: 'SHSTKV_G',
+        type: 'ROGAINE',
+        start: 'RRC'
     },
     {
         id: 'SPB_20020628_1',
@@ -147,6 +322,30 @@ let commonEvents = [
         map: ['mms_2005_06_24','mms_2005_06_25','mms_2005_06_26']
     },
     {
+        id: 'RRF_20050903_1',
+        date: '2005-09-03',
+        endDate: '2005-09-04',
+        place: 'Городецкий р-н, Нижегородская обл.',
+        name: '2-й Чемпионат России по рогейну',
+        link: [
+            'http://nn.rogaine.ru/op',
+            'https://rogaining.ru/rogaine/about-rogaine/2rrc-gluhov',
+            'https://rogaining.ru/rogaine/about-rogaine/2rrc-komin'
+        ],
+        res: 'https://rogaining.ru/results/rrc-results/2rrc-results.html',
+        maps: [
+            'https://rogaining.ru/results/rrc-results/2rrc_map.jpg',
+            'http://nn.rogaine.ru/images/maps/20050903_map.jpg',
+            'https://nn-rogaine.ru/images/maps/20050903_map.jpg'
+        ],
+        info: 'Чемпионат возобновлён после перерыва 2002–2004 годов. Победители: MO: Сергей Ященко, Олег Калинин (Москва) — 265 из 265 возможных; XO: Илья Слепов, Маргарита Пучкова (Москва) — 210. Команд — 41, участников — 89.',
+        coord: [56.783816, 43.368443],
+        fmt: '24',
+        planner: 'SHPV_N',
+        type: 'ROGAINE',
+        start: 'RRC'
+    },
+    {
         id: 'SPB_20060622_1',
         date: '2006-06-22',
         endDate: '2006-06-25',
@@ -158,6 +357,23 @@ let commonEvents = [
         region: 'SPB',
         o_site: '06062225_MS',
         map: ['mms_2006_06_23', 'mms_2006_06_24', 'mms_2006_06_25']
+    },
+    {
+        id: 'RRF_20060624_1',
+        date: '2006-06-24',
+        endDate: '2006-06-25',
+        place: 'Тольятти, Самарская Лука',
+        region: 'SAMARA',
+        name: '3-й Чемпионат России по рогейну',
+        res: 'https://rogaining.ru/results/rrc-results/3rrc_results.xls',
+        maps: ['https://rogaining.ru/results/rrc-results/3rrc_map.jpg'],
+        map: 'samarska_luka_2006_rogaine',
+        rg: 'https://rogaine.ru/routegadget/rg2/#2',
+        info: 'Победители: Сергей Ященко, Олег Калинин. Команд — 33, участников — 66.',
+        coord: [53.406449, 49.311312],
+        fmt: '24, 12, 6, 3',
+        type: 'ROGAINE',
+        start: 'RRC'
     },
     {
         id: 'SPB_20070622_1',
@@ -172,6 +388,46 @@ let commonEvents = [
         endDate: '2007-06-24',
         map: 'mms_2007_06_24',
         planner: 'SHEIN'
+    },
+    {
+        id: 'RRF_20080510_1',
+        date: '2008-05-10',
+        endDate: '2008-05-11',
+        place: 'Сенеж, Солнечногорский р-н',
+        region: 'MSK',
+        name: '5-й Чемпионат России по рогейну',
+        link: [
+            'http://senege.rogaining.ru/',
+            'https://slazav-news.livejournal.com/309718.html',
+            'https://vonok.livejournal.com/5279.html',
+            'http://izib.narod.ru/Sport/20080510_rogaining.htm'
+            // 'http://dw.school2.ru/doc/rogain2008.html' // недоступна
+            // 'http://senege.rogaining.ru/content/view/40' // недоступна
+        ],
+        res: [
+            'http://senege.rogaining.ru/results/rgn110508.htm',
+            'http://senege.rogaining.ru/results/5rrc_splits.htm',
+            'http://senege.rogaining.ru/results/5rrc_info.htm'
+        ],
+        bulletin: [
+            // 'http://senege.rogaining.ru/content/view/7/34/'
+            // 'http://senege.rogaining.ru/content/view/25/49/'
+            'http://senege.rogaining.ru/content/view/33/51/'
+        ],
+        maps: ['http://senege.rogaining.ru/results/5rrc_map.gif'],
+        map: 'senezh_2008',
+        photo: [
+            'https://rogaine-spb.narod.ru/articles/rrc2008.html'
+            // 'http://www.skisport.ru/photos/view.php?v=2&uid=155' // недоступна
+        ],
+        video: 'http://www.youtube.com/watch?v=s6xqoyC8SBE',
+        rg: 'https://rogaine.ru/routegadget/rg2/#23',
+        info: 'Победители: M: Олег Калинин, Сергей Юткин («Омега», Москва) — 3400; X: Павел Сысоев, Александра Кузьмина (Nike ACG) — 3190; W: Анна Бурлинова, Юлия Леменчук (Arena-CRAFT) — 2860. Команд — 109, участников — 236.',
+        coord: [56.261397, 37.038089],
+        fmt: '24',
+        planner: 'YSCHNK_S',
+        type: 'ROGAINE',
+        start: 'RRC'
     },
     {
         id: 'SPB_20080627_1',
@@ -199,6 +455,55 @@ let commonEvents = [
         map: ['mms_2009_06_26','mms_2009_06_27','mms_2009_06_28']
     },
     {
+        id: 'RRF_20100605_1',
+        date: '2010-06-05',
+        endDate: '2010-06-06',
+        place: 'Печорский р-н, Псковская обл.',
+        name: '7-й Чемпионат России по рогейну',
+        link: [
+            'http://7rrc.rogaining.ru/',
+            'https://rogaining.ru/news/rogaine-news/announcement/175-7rrc',
+            'https://rogaining.ru/news/rogaine-news/announcement/188-7-j-chempionat-rossii-po-rogejnu-2010',
+            'http://7rrc.rogaining.ru/content/view/38/2/'
+        ],
+        res: [
+            'http://7rrc.rogaining.ru/results/results24.htm',
+            'http://7rrc.rogaining.ru/results/results8.htm',
+            'http://7rrc.rogaining.ru/results/results4.htm',
+            'http://7rrc.rogaining.ru/results/splits/results24_s.htm',
+            'http://7rrc.rogaining.ru/results/stat_controls24.htm'
+        ],
+        bulletin: [
+            // 'http://7rrc.rogaining.ru/download/7rrc_invitation.pdf'
+            // 'http://7rrc.rogaining.ru/content/view/2/3/'
+            // 'http://7rrc.rogaining.ru/download/RRC2010_bulletin.pdf'
+            'http://7rrc.rogaining.ru/content/view/26/16/'
+        ],
+        maps: [
+            'http://7rrc.rogaining.ru/download/7rrc_map24.jpg',
+            'http://7rrc.rogaining.ru/download/7rrc_map8.jpg'
+            // 'http://7rrc.rogaining.ru/content/view/4/7/' // страница, не файл карты
+            // 'http://7rrc.rogaining.ru/content/view/16/14/' // страница, не файл карты
+        ],
+        map: 'malska_dolina_rogaine_2010',
+        photo: [
+            'http://imgsrc.ru/nanya/a528751.html'
+            // 'http://picasaweb.google.ru/rusrogaining/05062010#' // недоступна
+            // 'http://picasaweb.google.ru/rusrogaining/06062010#' // недоступна
+        ],
+        video: 'http://www.youtube.com/watch?v=4mCK0_AL86c',
+        rg: {
+            '4': 'https://rogaine.ru/routegadget/rg2/#39',
+            '8': 'https://rogaine.ru/routegadget/rg2/#40',
+            '24': 'https://rogaine.ru/routegadget/rg2/#41'
+        },
+        info: 'Победители: MO (абс.): Евгений Домбровский, Олег Калинин («ОМЕГА-НН») — 364; XO: Андрей Шведов, Наталья Абрамова — 344; WO: Анастасия Галитарова, Ирина Сафронова — 333. Команд — 106, участников — 225.',
+        coord: [57.787117, 27.773767],
+        fmt: '24, 8, 4',
+        type: 'ROGAINE',
+        start: 'RRC'
+    },
+    {
         id: 'SPB_20100625_1',
         date: '2010-06-25',
         endDate: '2010-06-27',
@@ -209,6 +514,48 @@ let commonEvents = [
         region: 'SPB',
         o_site: '10062527',
         map: ['mms_2010_lembolovo','mms_2010_06_25','mms_2010_06_26','mms_2010_06_27']
+    },
+    {
+        id: 'RRF_20110306_1',
+        date: '2011-03-06',
+        endDate: '2011-03-07',
+        place: 'Иваново, Ломы',
+        name: '1-й Чемпионат России по рогейну на лыжах',
+        link: [
+            'http://ski.rogaining.ru/',
+            'https://igorklepcha.livejournal.com/11087.html',
+            'https://rogaining.ru/news/rogaine-news/results-events/250-ski2011'
+        ],
+        res: [
+            'http://ski.rogaining.ru/results/results24.htm',
+            'http://ski.rogaining.ru/results/results6.htm',
+            'http://ski.rogaining.ru/results/results24_s.htm',
+            'http://ski.rogaining.ru/results/stat_controls.htm'
+        ],
+        bulletin: [
+            // 'http://ski.rogaining.ru/content/view/2/3/'
+            // 'http://ski.rogaining.ru/content/view/6/8/'
+            // 'http://ski.rogaining.ru/content/view/8/9/'
+            'http://ski.rogaining.ru/content/view/16/10/'
+        ],
+        maps: [
+            'https://ski.rogaining.ru/download/ski2011_map.jpg'
+            // 'http://ski.rogaining.ru/content/view/23/12/' // страница, не файл карты
+        ],
+        map: 'ivanovo_lomy_2011',
+        photo: [
+            'http://ski.rogaining.ru/content/view/24/13/'
+            // 'http://fotki.yandex.ru/users/rogainer/album/156683/' // недоступна
+            // 'https://picasaweb.google.com/my.elementum/1' // недоступна
+            // 'https://picasaweb.google.com/kasatkanet/201' // недоступна
+            // 'https://plus.google.com/photos/118046955259249067421/albums/5607574290620514513' // недоступна
+        ],
+        rg: 'https://rogaine.ru/routegadget/rg2/#48',
+        info: 'Победители: Олег Калинин, Андрей Шведов (ОМЕГА-Ski-O, Москва) – 181 очко; СО: Марина Галкина, Александр Халяпин (Альфа-Битца); ЖО: Людмила Плис, Ольга Творогова. Команд — 34, участников — 72.',
+        coord: [56.8806, 40.9777],
+        fmt: '24, 6',
+        type: ['ROGAINE','SKI'],
+        start: 'RRC'
     },
     {
         id: 'SPB_20110621_1',
@@ -234,6 +581,51 @@ let commonEvents = [
         o_site: '11062903',
         bulletin: 'https://o-site.spb.ru/_races/11062903/110630_info2.pdf',
         map: ['kkp_2011_06_30','kkp_2011_07_01','kkp_2011_07_02','kkp_2011_07_03']
+    },
+    {
+        id: 'RRF_20110910_1',
+        date: '2011-09-10',
+        endDate: '2011-09-11',
+        place: 'Кыштым, Слюдорудник',
+        name: '8-й Чемпионат России по рогейну',
+        link: [
+            'http://rrc2011.rogaining.ru/',
+            'https://rogaining.ru/news/rogaine-news/announcement/234-8rrc',
+            'https://rogaining.ru/news/rogaine-news/announcement/241-rrc2011',
+            'https://rogaining.ru/news/rogaine-news/announcement/255-rrc2011',
+            'https://rogaining.ru/news/rogaine-news/announcement/278-rrc2011',
+            'https://rogaining.ru/news/rogaine-news/announcement/294-rrc2011',
+            'https://rogaining.ru/news/rogaine-news/results-events/296-8rrc',
+            'http://rrc2011.rogaining.ru/content/view/34/2/'
+        ],
+        res: [
+            'http://rrc2011.rogaining.ru/results/results24.htm',
+            'http://rrc2011.rogaining.ru/results/results8.htm',
+            'http://rrc2011.rogaining.ru/results/results4.htm',
+            'http://rrc2011.rogaining.ru/results/splits/results24s.htm',
+            'http://rrc2011.rogaining.ru/results/stat_controls24.htm'
+        ],
+        bulletin: [
+            // 'http://rrc2011.rogaining.ru/content/view/1/3/'
+            'http://rrc2011.rogaining.ru/content/view/2/4/'
+        ],
+        maps: [
+            'http://rrc2011.rogaining.ru/download/8rrc_map24.jpg',
+            'http://rrc2011.rogaining.ru/download/8rrc_map4_8.jpg'
+            // 'http://rrc2011.rogaining.ru/content/view/3/15/' // страница, не файл карты
+        ],
+        map: 'kyshtym_rrc_2011',
+        photo: 'http://fotki.yandex.ru/users/rogainer/album/172250/',
+        rg: {
+            '24': 'https://rogaine.ru/routegadget/rg2/#56',
+            '4 и 8': 'https://rogaine.ru/routegadget/rg2/#55'
+        },
+        info: 'Победители: XO (абс.): Андрей Шведов, Наталья Абрамова («Garmin-Orienta») — 354; MO: Олег Калинин, Илья Ульянов («Омега») — 349; WO: Марина Галкина, Нина Михеева — 249. Команд — 64, участников — 134.',
+        coord: [55.6716, 60.3698],
+        fmt: '24, 8, 4',
+        planner: 'BNDR_N',
+        type: 'ROGAINE',
+        start: 'RRC'
     },
     {
         id: 'SPB_20120626_1',
@@ -401,6 +793,36 @@ let commonEvents = [
         type: 'SKI',
         fmt: 'маркированная трасса, классика, эстафета 3х',
         owner: 'FSOR'
+    },
+    {
+        id: 'RRF_20130302_1',
+        date: '2013-03-02',
+        endDate: '2013-03-03',
+        place: 'ДОЛ «Энергия», Солнечногорский р-н',
+        region: 'MSK',
+        name: '3-й Чемпионат России по рогейну на лыжах',
+        link: [
+            'https://web.archive.org/web/20131230002733/http://mosplay.ru/rogaining/zolotoj-marshrut-2013/3j-zimnij-chempionat-rossii',
+            'https://rogaining.ru/news/rogaine-news/results-events/3rsrc2013-results'
+            // 'http://mosplay.ru/routes/2013_03_Russian_Champ/' // недоступна
+            // 'http://mosplay.ru/wp-content/uploads/2013/03/Fin-24h-podgr.htm' // недоступна
+            // 'http://mosplay.ru/wp-content/uploads/2013/03/Fin-6h.htm' // недоступна
+            // 'http://mosplay.ru/wp-content/uploads/2013/03/Fin-3h.htm' // недоступна
+        ],
+        res: [
+            'https://web.archive.org/web/20131026201241id_/http://mosplay.ru/wp-content/uploads/2013/03/Fin-24h.htm',
+            'https://web.archive.org/web/20130306012506id_/http://mosplay.ru:80/wp-content/uploads/2013/03/Split-3h-6h-24h.htm'
+        ],
+        bulletin: [
+            // 'https://web.archive.org/web/20130225033303/http://mosplay.ru:80/wp-content/uploads/2013/02/3ChempRossii.htm'
+            'https://web.archive.org/web/20130319082054id_/http://mosplay.ru:80/wp-content/uploads/2013/02/Infobyul1-3CHR.pdf'
+        ],
+        maps: ['https://web.archive.org/web/20161221004018id_/http://mosplay.ru/routes/2013_03_Russian_Champ/map.jpg'],
+        info: 'Победители: СО: Андрей Шведов, Наталья Абрамова (Москва) – 345 (все КП) за 22:44 – абсолют; МО: Игорь Клепча, Юрий Бородулин (СПб) – 345 за 23:35:40; ЖО: Татьяна Павлова, Вера Мизонова (Н. Новгород) – 196. Команд — 19, участников — 40.',
+        coord: [55.913, 37.216],
+        fmt: '24, 6, 3',
+        type: ['ROGAINE','SKI'],
+        start: 'RRC'
     },
     {
         id: 'MAJOR_20130306_1',
@@ -662,6 +1084,51 @@ let commonEvents = [
         owner: 'FSOR'
     },
     {
+        id: 'RRF_20131005_1',
+        date: '2013-10-05',
+        endDate: '2013-10-06',
+        place: 'Хвалынск, Саратовская обл.',
+        name: '10-й Чемпионат России по рогейну',
+        link: [
+            'http://rrc2013.rogaining.ru/',
+            'https://rogaining.ru/rogaine/about-rogaine/rrc2013-miroshkin',
+            'https://web.archive.org/web/20190825115656/https://x-race.info/items/17469/',
+            'https://web.archive.org/web/20190825121627/https://x-race.info/items/17477/',
+            'https://rogaining.ru/news/rogaine-news/announcement/424-rrc2013',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2013',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2013-1',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2013-2',
+            'https://rogaining.ru/news/rogaine-news/results-events/rrc2013-results'
+            // 'http://x-race.info/items/17429/' // недоступна
+        ],
+        res: [
+            'http://rrc2013.rogaining.ru/results/results.htm',
+            'http://rrc2013.rogaining.ru/results/splits/results.htm',
+            'http://rrc2013.rogaining.ru/results/stat_controls.htm'
+        ],
+        bulletin: [
+            // 'http://rrc2013.rogaining.ru/content/view/1/3/'
+            // 'http://rrc2013.rogaining.ru/content/view/2/4/'
+            'http://rrc2013.rogaining.ru/content/view/38/17/'
+        ],
+        maps: ['http://rrc2013.rogaining.ru/download/rrc2013_map.gif'],
+        photo: [
+            'http://www.my-tour.ru/2013/20131005-rogaining/index.htm',
+            'http://fotki.yandex.ru/users/barabu1ka/album/371029/',
+            'https://vk.com/album156678794_180933759'
+            // 'https://plus.google.com/photos/110963854552546542719/albums/5935487278713358497?authkey=CPn44Yv7iP68UA' // недоступна
+        ],
+        // video: 'http://youtu.be/HHpkODOk8wE' // недоступна
+        // video: 'http://youtu.be/lVdGtm1I1s8' // недоступна
+        rg: 'https://rogaine.ru/routegadget/rg2/#72',
+        info: 'Победители: MO (абс.): Олег Калинин, Андрей Шведов — 340; WO: Наталья Абрамова, Анна Шавлакова; XO: Николай Мирошкин, Сергей Мирошкин, Анна Коробко. Команд — 78, участников — 165.',
+        coord: [52.528737, 48.069225],
+        fmt: '24',
+        planner: ['FRSV_K','PSTNV_D'],
+        type: 'ROGAINE',
+        start: 'RRC'
+    },
+    {
         id: 'MAJOR_20131011_1',
         date: '2013-10-11',
         endDate: '2013-10-15',
@@ -677,6 +1144,7 @@ let commonEvents = [
         date: '2013-10-25',
         endDate: '2013-10-28',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «В честь 50-летия спортивного ориентирования»',
         info: 'Личные соревнования. Группы: МЖ-12, 14, 16, 18, 20, МЖ 30-85.',
         fmt: 'классика, общий старт',
@@ -860,6 +1328,7 @@ let commonEvents = [
         id: 'MAJOR_20140426_1',
         date: '2014-04-26',
         place: 'Москва',
+        region: 'MSK',
         name: 'Чемпионат и Первенство Москвы',
         info: 'Группы: МЖ-Элита.',
         type: 'VELO',
@@ -1171,9 +1640,61 @@ let commonEvents = [
         reg: 'https://orgeo.ru/event/1118'
     },
     {
+        id: 'RRF_20140913_1',
+        date: '2014-09-13',
+        endDate: '2014-09-14',
+        place: 'Алфёрово, Павлово-Посадский р-н',
+        region: 'MSK',
+        name: '11-й Чемпионат России по рогейну',
+        link: [
+            'http://rrc2014.rogaining.ru/',
+            'https://vonok.livejournal.com/202320.html',
+            'https://leviathan-mai.livejournal.com/106925.html',
+            'http://www.tkmgtu.ru/index.php/2012-07-29-11-54-39/2012-07-30-12-18-24/19-articles/eto-interesno/stories-skilled/2001-rrc2014report',
+            'https://web.archive.org/web/20200918115028/https://x-race.info/news/34482/',
+            'https://rogaining.ru/news/rrf-news/organization-news/rrc2014',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2014-discount-payment',
+            'http://rrc2014.rogaining.ru/22-statistics',
+            'http://rrc2014.rogaining.ru/23-region-teams-results'
+            // 'https://cloud.mail.ru/public/37117c28cee8%2F11rrc' // недоступна
+            // 'http://x-race.info/news/34971/' // недоступна
+            // 'http://x-race.info/news/34950/' // недоступна
+            // 'http://vk.com/id156678794?w=note156678794_11992024' // недоступна
+        ],
+        res: [
+            'http://rrc2014.rogaining.ru/results/results24.htm',
+            'http://rrc2014.rogaining.ru/results/results8k.htm',
+            'http://rrc2014.rogaining.ru/results/splits/results24_s.htm',
+            'http://rrc2014.rogaining.ru/results/stat_controls24.htm'
+        ],
+        bulletin: [
+            // 'http://rrc2014.rogaining.ru/bulletin1'
+            // 'http://rrc2014.rogaining.ru/download/rrc2014_bulletin1_eng.pdf'
+            // 'http://rrc2014.rogaining.ru/bulletin2'
+            'http://rrc2014.rogaining.ru/download/rrc2014_bulletin2.pdf'
+        ],
+        maps: [
+            'http://rrc2014.rogaining.ru/results/rrc2014_map.jpg',
+            'http://rrc2014.rogaining.ru/download/rrc2014_peregons_map.png'
+        ],
+        map: 'alferovo_rogaine_2014',
+        photo: [
+            'https://www.facebook.com/media/set/?set=a.369803273176238.1073741856.100004397047958&type=1&l=c4356e1033',
+            'http://www.my-tour.ru/2014/20140913-rcc2014/index.htm',
+            'http://fotki.yandex.ru/users/rogaining/album/443453/'
+        ],
+        info: 'Победители: MO (абс.): Олег Калинин, Андрей Шведов — 224; WO: Анна Шавлакова, Надежда Ермакова; XO: Николай Мирошкин, Сергей Мирошкин, Анна Коробко, Дмитрий Шемятихин. Команд — 74, участников — 161.',
+        coord: [55.680974, 38.704522],
+        fmt: '24, 8, 4',
+        planner: 'RSCHN_R',
+        type: 'ROGAINE',
+        start: 'RRC'
+    },
+    {
         id: 'MAJOR_20140914_1',
         date: '2014-09-14',
         place: 'Москва',
+        region: 'MSK',
         name: 'Чемпионат и Первенство Москвы',
         info: 'Группы: МЖ-14, 16, 18, 20, Элита.',
         fmt: 'эстафета 3х',
@@ -1215,6 +1736,7 @@ let commonEvents = [
         id: 'MAJOR_20140928_1',
         date: '2014-09-28',
         place: 'Москва',
+        region: 'MSK',
         name: 'Чемпионат и Первенство Москвы',
         info: 'Группы: МЖ-Элита, МЖ-14, 17, 20.',
         type: 'VELO',
@@ -1576,6 +2098,7 @@ let commonEvents = [
         date: '2015-05-06',
         endDate: '2015-05-11',
         place: 'Лыткарино, Московская обл',
+        region: 'MSK',
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-14, 17.',
         type: 'VELO',
@@ -1726,6 +2249,31 @@ let commonEvents = [
         reg: 'https://orgeo.ru/event/1841'
     },
     {
+        id: 'RRF_20150725_1',
+        date: '2015-07-25',
+        endDate: '2015-07-26',
+        place: 'Подстепное, Саратовская обл.',
+        name: '1-й Чемпионат России по рогейну на байдарках',
+        link: [
+            'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/1-y-chempionat-rossii-po-rogeynu-na-baydarkah/glavnaya-1-y-chempionat-rossii-po-rogeynu-na-baydarkah/',
+            'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/events2015_32.html',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015-kayak',
+            'https://rogaining.ru/news/rrf-events-2015'
+        ],
+        res: 'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/1-y-chempionat-rossii-po-rogeynu-na-baydarkah/rezultaty-1-ogo-chempionat-rossii-po-rogeynu-na-baydarkah/',
+        bulletin: [
+            // 'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/1-y-chempionat-rossii-po-rogeynu-na-baydarkah/polozhenie-1-y-chempionat-rossii-po-rogeynu-na-baydarkah/'
+            'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/1-y-chempionat-rossii-po-rogeynu-na-baydarkah/informatsiya-1-y-chempionat-rossii-po-rogeynu-na-baydarkah/'
+        ],
+        maps: ['https://rogaining.ru/results/rrc-results/rrc2015_kayak_map.jpg'],
+        photo: 'https://vk.com/sportmir_water_rogain_2015',
+        info: 'Победители: Андрей Темяков, Павел Вереникин (Янтарный, Ростов-на-Дону/Волгодонск) – 192, 19:02:39; ЖО: Марина Воронина, Валентина Канурина (Ленивые совы) – 170; СО: Сергей Овчинников, Людмила Федорова (Самарские Выдры) – 142. Команд — 25, участников — 52.',
+        coord: [51.6666, 46.4788],
+        fmt: '24, 12, 6',
+        type: ['ROGAINE','WATER'],
+        start: 'RRC'
+    },
+    {
         id: 'MAJOR_20150801_1',
         date: '2015-08-01',
         endDate: '2015-08-05',
@@ -1791,6 +2339,36 @@ let commonEvents = [
         fmt: 'спринт, классика, эстафета 3х',
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/2048'
+    },
+    {
+        id: 'SPB_20150919_2',
+        date: '2015-09-19',
+        place: 'Красноярский край',
+        name: '12-й Чемпионат России по рогейну',
+        type: 'ROGAINE',
+        fmt: '24 часа бегом',
+        start: 'RRC',
+        link: [
+            'http://kras-rogaining.ru/',
+            'http://kras-rogaining.ru/otchety/otchety-2015/238-otchety-12-go-chempionata-rossii-po-rogejnu.html',
+            'https://rogaining.ru/rogaine/about-rogaine/kras-rogaining',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015-bul1',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015-entry2',
+            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015-entry3',
+            'https://rogaining.ru/news/rogaine-news/results-events/rrc2015-results',
+            'https://rogaining.ru/news/rogaine-news/results-events/rrc2015-region-team-results'
+            // 'http://x-race.info/news/57291/chempionat-rossii-po-rogeynu-krasnoyarsk-intervyu-s-organizatorami' // недоступна
+        ],
+        map: 'krasnoyarsk_rrc_2015',
+        res: 'http://kras-rogaining.ru/images/Kras-rogaining_2015/results24%20%D1%87%D0%B0%D1%81%D0%B0%20%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC.htm',
+        maps: [
+            'http://kras-rogaining.ru/images/stories/Kras-rogaining_2015/%D0%9A%D0%B0%D1%80%D1%82%D0%B0/MAP_CHR_2015.jpg',
+            'http://kras-rogaining.ru/images/stories/Kras-rogaining_2015/MAP_CR_2015.jpg'
+        ],
+        endDate: '2015-09-20',
+        coord: [56.01, 92.6],
+        info: 'Победители: MO (абс.): Николай Мирошкин, Дмитрий Шемятихин («Дети болот-1») — 272; WO: Нина Михеева, Марина Галкина; XO: Филипп Федосов, Мария Алешина. Команд — 51, участников — 109.'
     },
     {
         id: 'MAJOR_20151008_1',
@@ -2145,6 +2723,7 @@ let commonEvents = [
         id: 'MAJOR_20160506_1',
         date: '2016-05-06',
         place: 'Москва',
+        region: 'MSK',
         name: 'Кубок ФСОР',
         info: 'Неофициальные соревнования в новой дисциплине. Группы: МЖ-14, 17, 20.',
         type: 'VELO',
@@ -2164,6 +2743,7 @@ let commonEvents = [
         date: '2016-05-27',
         endDate: '2016-05-31',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Слет ориентировщиков»',
         info: 'Соревнования среди команд учреждений дополнительного образования детей (спортивных школ), младший возраст. Лично-командные соревнования. Группы: МЖ-11, 12, 13, 14, 15, 16, 18, 20, Элита.',
         fmt: 'классика, эстафета 2х',
@@ -2450,6 +3030,34 @@ let commonEvents = [
         video: 'https://www.youtube.com/watch?v=K9WhBfSzUmc'
     },
     {
+        id: 'RRF_20160917_1',
+        date: '2016-09-17',
+        endDate: '2016-09-18',
+        place: 'Пищалье, Кировская обл.',
+        name: '4-й Чемпионат России по рогейну на велосипедах',
+        link: [
+            'https://web.archive.org/web/20161220090010/http://secret.2016.x-kirov.ru/',
+            'https://forum.x-kirov.ru/topic/6518-chempionat-rossii-2016-po-rogejnu-na-velosipedakh/',
+            'https://rogaining.ru/news/rrc-bike-2016-results'
+            // 'http://secret.2016.x-kirov.ru/' // недоступна
+            // 'http://secret.2016.x-kirov.ru/registration/' // недоступна
+        ],
+        res: [
+            'https://rogaining.ru/results/rrc-results/rrc2016_bike_results.pdf',
+            'https://rogaining.ru/download/doc/kirov_bike_2016_results.pdf'
+        ],
+        bulletin: [
+            // 'https://drive.google.com/file/d/1XNx-UXWW0s36KhSWINYyGXLsj0nGfWzn49df-lv2Dbk/view'
+            'http://forum.x-kirov.ru/topic/6518-chempionat-rossii-2016-po-rogejnu-na-velosipedakh/?p=123077'
+        ],
+        maps: ['https://rogaining.ru/results/rrc-results/rrc2016_bike_map.jpg'],
+        info: 'Победители: Наталья Зимина, Алексей Демьяненко, Руслан Дюльдин (Сальто Делчева, СО) – 161, 23:49:31; МО: Константин Сямтомов, Александр Порфирьев (Полуночники, Сыктывкар) – 157. Команд — 17, участников — 35.',
+        coord: [58.2387, 48.708],
+        fmt: '24 вело, 10 вело, 10',
+        type: ['ROGAINE','VELO'],
+        start: 'RRC'
+    },
+    {
         id: 'MAJOR_20161006_1',
         date: '2016-10-06',
         endDate: '2016-10-10',
@@ -2515,6 +3123,7 @@ let commonEvents = [
         date: '2016-12-23',
         endDate: '2016-12-26',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Новогодние старты»',
         info: 'Соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Личные соревнования. Группы: МЖ-14, 17, 20, Э 12, 14, 16, 18, Элита. Призёры по онлайн-результатам orgeo (не официальный протокол): Суббота — М: Валера Глухов (Ориента - Gold team) - 1, Григорий Медведев (Ориента-SKI-O) - 2, Юрий Масный (МосКомпас-Ориент) - 3; Ж: Светлана Поверина (Ориента - Gold team) - 1, Елена Хельдерт (Ориента-Тропа) - 2, Мария Верховцева (Бутово-team) - 3. Воскресенье — М: Валера Глухов (Ориента - Gold team) - 1, Григорий Медведев (Ориента-SKI-O) - 2, Юрий Масный (МосКомпас-Ориент) - 3; Ж: Мария Крылова (ОМЕГА) - 1, Светлана Поверина (Ориента - Gold team) - 2, Анна Инюшина (Тула ЦКТиЭ) - 3.',
         fmt: 'выбор, спринт',
@@ -2827,6 +3436,7 @@ let commonEvents = [
         date: '2017-05-05',
         endDate: '2017-05-07',
         place: 'им. Цюрупы, Московская обл',
+        region: 'MSK',
         name: 'Чемпионат и Первенство ЦФО и ЮФО',
         info: 'Зональные соревнования. Личные соревнования. Группы: МЖ-Элита, МЖ-14, 17.',
         type: 'VELO',
@@ -2850,6 +3460,7 @@ let commonEvents = [
         date: '2017-05-07',
         endDate: '2017-05-10',
         place: 'им. Цюрупы, Московская обл',
+        region: 'MSK',
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14, 17.',
         type: 'VELO',
@@ -2880,6 +3491,7 @@ let commonEvents = [
         date: '2017-05-24',
         endDate: '2017-05-29',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Слет ориентировщиков»',
         info: 'Личные соревнования. Группы: МЖ-12, 14, 16.',
         fmt: 'выбор, спринт, классика, многодневный, эстафета 2х',
@@ -3166,6 +3778,7 @@ let commonEvents = [
         date: '2017-09-10',
         endDate: '2017-09-14',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-14, 17.',
         type: 'VELO',
@@ -3183,6 +3796,57 @@ let commonEvents = [
         fmt: 'спринт, эстафета 3х, классика',
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/4946'
+    },
+    {
+        id: 'RRF_20170923_1',
+        date: '2017-09-23',
+        endDate: '2017-09-24',
+        place: 'Выболово, Богородский р-н',
+        name: '14-й Чемпионат России по рогейну',
+        link: [
+            'http://nn.rogaine.ru/op',
+            'https://mike-nn.livejournal.com/9231.html',
+            'https://vk.com/doc11730124_450042487?hash=37302eb98b9a428a7c&dl=a3e5318d3fce87a451',
+            'https://rogaining.ru/news/rrc2017-bulletin1',
+            'https://rogaining.ru/news/rrc2017-bulletin2',
+            'https://rogaining.ru/news/rrc2017-arena',
+            'https://rogaining.ru/news/rrc2017-results',
+            'https://rogaining.ru/news/rrc2017-region-team-results'
+            // 'https://cloud.mail.ru/public/CVi3/z3SQoD9pE' // недоступна
+            // 'https://vk.com/rogchamp2017' // недоступна
+        ],
+        res: [
+            'http://nn.rogaine.ru/results/2017/20170923/20170923_24.htm',
+            'http://nn.rogaine.ru/results/2017/20170923/20170923_8.htm',
+            'http://nn.rogaine.ru/results/2017/20170923/20170923_10.htm',
+            'http://nn.rogaine.ru/results/2017/20170923/20170923_stat.htm'
+        ],
+        bulletin: [
+            // 'http://nn.rogaine.ru/images/docs/IB_chempionat_Rossii_po_rogeynu_23-24_09_2017.pdf'
+            'http://nn.rogaine.ru/images/docs/IB2_chempionat_Rossii_po_rogeynu_23-24_09_2017.pdf'
+        ],
+        maps: ['http://nn.rogaine.ru/images/maps/map_rrc2017_final.jpg'],
+        map: 'bogorodsk_rrc_2017',
+        photo: [
+            'https://vk.com/album-137038817_247424179',
+            'https://vk.com/album-137038817_247755160',
+            'https://vk.com/album-137038817_247420494',
+            'https://vk.com/rogchamp2017?z=album-137038817_247398559',
+            'https://vk.com/public69709302?z=album-69709302_247469882',
+            'https://photos.app.goo.gl/XL7mgLHu9VmwDZGB2'
+        ],
+        video: [
+            'https://youtu.be/2gVmIp8SVbk',
+            'https://youtu.be/nDDnu95XWQ4',
+            'https://youtu.be/z9SAlueEfoc'
+            // 'https://youtu.be/y5FQlQLgIJs' // недоступна
+        ],
+        info: 'Победители: XO (абс.): Николай Мирошкин, Анна Коробко, Дмитрий Шемятихин — 347; MO: Олег Калинин, Константин Соловьёв — 342; WO: Нина Михеева, Марина Галкина. Команд — 122, участников — 267.',
+        coord: [56.0975, 43.439444],
+        fmt: '24, 8, 4, 10 вело, 5 вело',
+        planner: 'BRV_D',
+        type: 'ROGAINE',
+        start: 'RRC'
     },
     {
         id: 'MAJOR_20170928_1',
@@ -3249,6 +3913,7 @@ let commonEvents = [
         date: '2017-12-22',
         endDate: '2017-12-25',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Новогодние старты»',
         info: 'Личные соревнования. Группы: МЖ-12, 14, 17, 20, Элита.',
         type: 'SKI',
@@ -3576,6 +4241,7 @@ let commonEvents = [
         date: '2018-05-24',
         endDate: '2018-05-28',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Слет ориентировщиков»',
         info: 'Личные соревнования. Группы: МЖ-Элита, 20, 18, 16, 14, 13, 12, 11. Призёры по онлайн-результатам orgeo (не официальный протокол): Кросс-спринт, код — М: Алексей Бортник (Москва - Bortnik Alexey) - 1, Павел Заревенко (Тульская обл. - Заревенко Павел) - 2, Юрий Масный (Москва - Масный Алексей) - 3; Ж: Екатерина Власова (Москва - Наумов Павел) - 1, Галина Рыбедюк (Москва - Тремпольцев Александ) - 2, Татьяна Грибанова (Москва - Грибанова Татьяна) - 3. Кросс-классика, код — М: Алексей Бортник (Москва - Bortnik Alexey) - 1, Дмитрий Коновалов (Москва - Масный Алексей) - 2, Александр Минаков (Москва - Минакова Екатерина) - 3; Ж: Екатерина Власова (Москва - Наумов Павел) - 1, Татьяна Грибанова (Москва - Грибанова Татьяна) - 2, Людмила Сапроненкова (Московская обл. - Бордюков Антон) - 3.',
         fmt: 'спринт, классика, эстафета 2х',
@@ -3874,6 +4540,33 @@ let commonEvents = [
         reg: 'https://orgeo.ru/event/7070'
     },
     {
+        id: 'RRF_20180721_1',
+        date: '2018-07-21',
+        endDate: '2018-07-22',
+        place: 'Хакасия, урочище Карчалык',
+        name: '15-й Чемпионат России по рогейну',
+        link: [
+            'http://kras-rogaining.ru/blizhajshie-meropriyatiya-2/421-15-j-chempionat-rossii-po-rogejnu.html',
+            'https://rogaining.ru/news/rrc-2018',
+            'https://rogaining.ru/news/rrc2018-announcement',
+            'https://rogaining.ru/news/rrc2018-entry',
+            'https://rogaining.ru/news/rrc2018-results'
+        ],
+        res: 'http://o-sibsport.ru/Documents/2018/2018_ChR_Rogein/24_ch/results24_1.htm',
+        bulletin: [
+            // 'http://kras-rogaining.ru/news/2-uncategorised/353-informatsiya-krasnoyarskij-rogejn-2017.html'
+            'http://kras-rogaining.ru/blizhajshie-meropriyatiya-2/2-uncategorised/422-byulleten-1-15-j-chempionat-rossii-po-rogejnu.html'
+        ],
+        maps: ['https://vk.com/doc5887846_470588651'],
+        map: 'karchalyk_rrc_2018',
+        info: 'Победители: MO (абс.): Дмитрий Панов, Алексей Андрейкин («RZN-Дети болот», Рязань) — 279; XO: Николай Мирошкин, Сергей Мирошкин, Анна Коробко, Дмитрий Шемятихин — 274; WO: Екатерина Меньшова, Дарья Веселкова («Аура приключений») — 211. Команд — 50, участников — 107.',
+        coord: [54.5, 90.87],
+        fmt: '24, 6',
+        planner: 'ANKN_I',
+        type: 'ROGAINE',
+        start: 'RRC'
+    },
+    {
         id: 'MAJOR_20180816_1',
         date: '2018-08-16',
         endDate: '2018-08-20',
@@ -3913,6 +4606,7 @@ let commonEvents = [
         date: '2018-09-06',
         endDate: '2018-09-10',
         place: 'Конобеево, Раменский р-н, Московская обл',
+        region: 'MSK',
         name: 'Чемпионат и Первенство ЦФО, Всероссийские соревнования по ориентированию на велосипедах',
         info: 'Чемпионат и Первенство ЦФО: лично-командные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18. Всероссийские соревнования по ориентированию на велосипедах: личные соревнования. Группы: МЖ-Элита.',
         type: ['ORIENT','VELO'],
@@ -4078,6 +4772,7 @@ let commonEvents = [
         date: '2018-12-28',
         endDate: '2018-12-31',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Новогодние старты»',
         info: 'Личные соревнования. Группы: МЖ-12, 14, 17, 20, Элита. Призёры по онлайн-результатам orgeo (не официальный протокол): Лыжная гонка-спринт — М: Николай Макаров (Кировская обл. (Киров)) - 1, Валерий Глухов (Московская обл. (Свирь)) - 2, Юрий Балев (Москва (Ориента-Голд-Тим)) - 3; Ж: Ирина Тулупова (Ивановская обл. (СДЮСШОР 3 ИваноФ) - 1, Татьяна Мендель (Московская обл.) - 2, Анастасия Большова (Московская обл. (Свирь)) - 3. Лыжная гонка-классика — М: Валерий Глухов (Московская обл.) - 1, Николай Макаров (Кировская обл. (Киров)) - 2, Олег Калинин (Москва (Ориента-Тропа)) - 3; Ж: Ирина Тулупова (Ивановская обл. (СДЮСШОР 3 Ивано’g6tl) - 1, Татьяна Мендель (Московская обл.) - 2, Анастасия Свирь (Московская обл.) - 3.',
         type: 'SKI',
@@ -4456,6 +5151,7 @@ let commonEvents = [
         date: '2019-05-23',
         endDate: '2019-05-27',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Слет ориентировщиков»',
         info: 'Личные соревнования. Соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Группы: МЖ-20, 18, 16, 14, 13, 12, 11.',
         fmt: 'спринт, классика, многодневный, эстафета 2х',
@@ -4888,6 +5584,43 @@ let commonEvents = [
         o_stuff: [3111, 3112, 3113]
     },
     {
+        id: 'RRF_20190824_1',
+        date: '2019-08-24',
+        endDate: '2019-08-25',
+        place: 'Верх-Нейвинский, Свердловская обл.',
+        name: '16-й Чемпионат России по рогейну',
+        link: [
+            'https://rogaining-ural.ru/',
+            'https://rogaining-ural.ru/news/post-reliz',
+            'https://rogaining-ural.ru/history',
+            'https://rogaining.ru/news/rrf-news/rrc2019-entry',
+            'https://rogaining.ru/news/rrf-news/rrc2019-entry-continues',
+            'https://rogaining.ru/news/rrf-news/rrc2019-results'
+        ],
+        res: [
+            'https://rogaining-ural.ru/upload/results/rrc20190824/results_total.html',
+            'https://rogaining-ural.ru/upload/results/rrc20190824/results_class.html',
+            'https://rogaining-ural.ru/upload/results/rrc20190824/stat_controls.html'
+            // 'https://rogaining-ural.ru/upload/results/nurog20190824/results_format.html' // недоступна
+        ],
+        maps: ['https://rogaining-ural.ru/upload/results/rrc20190824/myroute/map20190824.jpg'],
+        map: 'verkh_neyvinsky_rrc_2019',
+        photo: [
+            'https://vk.com/album464610561_265863226',
+            'https://vk.com/album364778078_265474033',
+            'https://vk.com/album364778078_265563263',
+            'https://vk.com/album364778078_265490906',
+            'https://vk.com/album348029536_267483520'
+        ],
+        gps: 'https://rogaining-ural.ru/upload/results/rrc20190824/myroute/route.html',
+        o_gps: 6247,
+        info: 'Победители: MO (абс.): Дмитрий Шемятихин, Сергей Мирошкин, Николай Мирошкин («Дети болот») — 532; XO: Сергей Пикуз, Екатерина Меньшова («Аура приключений») — 461; WO: Нина Михеева, Елена Руденко («СПЛАВ-Шебекино») — 289. Команд — 77, участников — 164.',
+        coord: [57.232088, 60.085317],
+        fmt: '24, 8, 4',
+        type: 'ROGAINE',
+        start: 'RRC'
+    },
+    {
         id: 'MAJOR_20190912_1',
         date: '2019-09-12',
         endDate: '2019-09-16',
@@ -5026,6 +5759,7 @@ let commonEvents = [
         date: '2019-12-27',
         endDate: '2019-12-30',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Новогодние старты»',
         info: 'Личные соревнования. Соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Группы: МЖ-12, 14, 17, 20, Элита.',
         type: 'SKI',
@@ -5322,6 +6056,7 @@ let commonEvents = [
         date: '2020-04-30',
         endDate: '2020-05-04',
         place: 'Волжский р-н, Самарская обл',
+        region: 'SAMARA',
         name: 'Чемпионат и Первенство ПФО',
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'классика, многодневный, общий старт',
@@ -5343,6 +6078,7 @@ let commonEvents = [
         date: '2020-05-28',
         endDate: '2020-06-01',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Слет ориентировщиков»',
         info: 'Личные соревнования. Соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Группы: МЖ-Элита, 20, 18, 16, 15, 14, 13, 12, 11.',
         fmt: 'спринт, классика, многодневный, эстафета 2х',
@@ -5600,6 +6336,46 @@ let commonEvents = [
         owner: 'FSOR'
     },
     {
+        id: 'SPB_20200912_4',
+        date: '2020-09-12',
+        place: 'Рязань, Полково',
+        name: 'Чемпионат России по рогейну',
+        type: 'ROGAINE',
+        fmt: '24, 8',
+        start: 'RRC',
+        link: [
+            'https://vk.com/event186840276',
+            'https://web.archive.org/web/20210121104155/https://rrc2020.ru/',
+            'https://rogaining.ru/news/rrf-news/rrc2020-bulletin1',
+            'https://rogaining.ru/news/rrf-news/rrc2020-bulletin2',
+            'https://rogaining.ru/news/rrf-news/rrc2020-covid',
+            'https://rogaining.ru/news/rrf-news/rrc2020-covid2',
+            'https://rogaining.ru/news/rrf-news/rrc2020-new-date',
+            'https://rogaining.ru/news/rrf-news/rrc2020-results',
+            'https://rogaining.ru/news/rrf-news/rrc-2020-results',
+            'https://rogaining.ru/events/calendar/event/615-rrc2020'
+            // 'https://yadi.sk/i/gF4qUyuXR5q95A' // недоступна
+            // 'https://yadi.sk/i/QjLDH4oUyYI0IA' // недоступна
+            // 'https://orgeo.ru/event/info/11252' // недоступна
+        ],
+        map: 'chr_2020_rogeyn_2020',
+        o_gps: 8154,
+        res: [
+            'https://rogaining.ru/results/rrc-results/rrc2020-results.html',
+            'https://rogaining.ru/download/results/rrc_2020_results.xls',
+            'https://rogaining.ru/download/results/rrc2020_results.xls'
+        ],
+        maps: ['https://rogaining.ru/results/rrc-results/rrc2020_map.jpg'],
+        bulletin: [
+            // 'https://rogaining.ru/download/doc/rrc2020_bulletin_1.pdf'
+            'https://vk.com/doc433020481_526756533'
+        ],
+        gps: 'https://sembruk.github.io/rrc2020/',
+        endDate: '2020-09-13',
+        coord: [54.74, 39.87],
+        info: 'Перенесён со 2–3 мая из-за COVID-19. Победители: MO (абс.): Сергей Мирошкин, Николай Мирошкин, Дмитрий Шемятихин, Дмитрий Панов («Дети Болот») — 320; XO: Сергей Пикуз, Екатерина Меньшова, Роман Куликов — 283; WO: Нина Михеева, Елена Руденко — 227. Команд — 73, участников — 159.'
+    },
+    {
         id: 'MAJOR_20200917_1',
         date: '2020-09-17',
         endDate: '2020-09-21',
@@ -5614,6 +6390,7 @@ let commonEvents = [
         date: '2020-09-17',
         endDate: '2020-09-21',
         place: 'Люберцы, Московская обл',
+        region: 'MSK',
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-14, 17.',
         type: 'VELO',
@@ -5740,6 +6517,7 @@ let commonEvents = [
         date: '2020-12-25',
         endDate: '2020-12-28',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Новогодние старты»',
         info: 'Личные соревнования. Соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Группы: МЖ-12, 13, 14, 15, 17, 20, Элита.',
         type: 'SKI',
@@ -6088,6 +6866,7 @@ let commonEvents = [
         date: '2021-04-22',
         endDate: '2021-04-26',
         place: 'Самара',
+        region: 'SAMARA',
         name: 'Чемпионат и Первенство ПФО',
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'классика, многодневный, общий старт',
@@ -6162,6 +6941,7 @@ let commonEvents = [
         date: '2021-04-30',
         endDate: '2021-05-04',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14, 17. Велокросс-общий старт — М: Юрий Балев (Московская обл.) - 1, Валерий Глухов (Московская обл.) - 2, Антон Фолифоров (Владимирская обл.) - 3; Ж: Светлана Фолифорова (Владимирская обл.) - 1, Ульяна Сухоловская (Саратовская обл.) - 2, Алена Аксенова (Санкт-Петербург) - 3. Велокросс-классика — М: Данил Бузовкин (Московская обл.) - 1, Руслан Грицан (Москва) - 2, Антон Фолифоров (Владимирская обл.) - 3; Ж: Анастасия Большова (Московская обл.) - 1, Светлана Фолифорова (Владимирская обл.) - 2, Алена Аксенова (Санкт-Петербург) - 3. Велокросс-спринт — М: Дмитрий Кузьмин (Москва) - 1, Антон Фолифоров (Владимирская обл.) - 2, Юрий Балев (Московская обл.) - 3; Ж: Светлана Фолифорова (Владимирская обл.) - 1, Анастасия Свирь (Московская обл.) - 2, Татьяна Губернаторова (Московская обл.) - 3.',
         type: 'VELO',
@@ -6184,10 +6964,58 @@ let commonEvents = [
         res: 'https://rufso.orgeo.ru/event/results/12717'
     },
     {
+        id: 'RRF_20210508_1',
+        date: '2021-05-08',
+        endDate: '2021-05-09',
+        place: 'Обашево, Владимирская обл.',
+        name: '18-й Чемпионат России по рогейну',
+        link: [
+            'https://zalesye2021.ru/',
+            'https://orgeo.ru/event/12636',
+            'https://rogaining.ru/download/doc/rrc2021_post_press.pdf',
+            'https://rogaining.ru/news/rrf-news/rrc2021-2022',
+            'https://rogaining.ru/news/rrf-news/rrc2021-entry',
+            'https://rogaining.ru/news/rrf-news/rrc2021-reg',
+            'https://rogaining.ru/news/rrf-news/rrc2021-reg-three-days',
+            'https://rogaining.ru/news/rrf-news/rrc2021-results'
+            // 'https://vk.com/zalesie2021' // недоступна
+        ],
+        res: [
+            'https://rogaining.ru/results/rrc-results/rrc2021-results.html',
+            'https://rogaining.ru/download/doc/rrc_2021_results.xlsx'
+        ],
+        bulletin: [
+            // 'https://zalesye2021.ru/wp-content/uploads/2020/06/Event_and_Team_Presentation_RRC_Zalesje2021_02.06.2020-%D1%80%D1%83%D1%81.pdf'
+            // 'https://zalesye2021.ru/wp-content/uploads/2020/06/18TH-RUSSIAN-ROGAINING-CHAMPIONSHIPS-02.06.2020-1.pdf'
+            'https://vk.com/doc188669644_594555740'
+        ],
+        maps: [
+            'https://rogaining.ru/results/rrc-results/rrc2021_map.jpg',
+            'https://zalesye2021.ru/wp-content/uploads/2021/06/Zalesye_final_new_page-08.05.-scaled.jpg'
+        ],
+        map: 'obashevo_rrc_2021',
+        video: [
+            'https://www.youtube.com/watch?v=rScqgJbKXRk',
+            'https://vk.com/video188669644_456239035'
+        ],
+        gps: {
+            'Пути участников (sembruk)': 'https://sembruk.github.io/rrc2021/routes.html',
+            'iOrient': 'https://www.iorient.ru/Competition.aspx?CompetitionId=153'
+        },
+        o_gps: 9803,
+        info: 'Победители: MO (абс.): Дмитрий Панов, Семён Якимов (ForestAdventure) — 306; XO: Наталья Манжай, Игорь Манжай, Константин Иванов (Blizzard Team) — 251; WO: Анастасия Афанасьева, Екатерина Меньшова («Аура приключений») — 249. Команд — 96, участников — 204.',
+        coord: [56.624058, 38.485741],
+        fmt: '24, 8, 4, 8 вело',
+        planner: 'BRV_D',
+        type: 'ROGAINE',
+        start: 'RRC'
+    },
+    {
         id: 'MAJOR_20210528_1',
         date: '2021-05-28',
         endDate: '2021-06-01',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Слет ориентировщиков»',
         info: 'Личные соревнования. Соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Группы: МЖ-Элита, 20, 18, 16, 14, 13, 12, 11.',
         fmt: 'классика, лонг, многодневный, эстафета 2х',
@@ -6454,6 +7282,33 @@ let commonEvents = [
         },
         video: 'https://www.youtube.com/watch?v=WuW6wAoyzuk',
         o_stuff: [4389, 4394, 4395, 4396]
+    },
+    {
+        id: 'SPB_20210703_2',
+        date: '2021-07-03',
+        place: 'Себеж',
+        name: 'Чемпионат России по рогейну на байдарках',
+        type: ['ROGAINE','WATER'],
+        start: 'RRC',
+        fmt: '12',
+        link: [
+            'https://vk.com/gornycross',
+            'https://orgeo.ru/event/17122',
+            'https://vk.com/club31941981',
+            'https://rogaining.ru/download/doc/gk82_story.pdf',
+            'https://rogaining.ru/news/rrf-news/kayak-rrc-2021-results',
+            'https://o-site.spb.ru/race.php?id=2021GK'
+        ],
+        res: [
+            'https://vk.com/doc3096232_603829968',
+            'https://o-site.spb.ru/_races/2021GK/210703R_res.pdf',
+            'https://o-site.spb.ru/_races/2021GK/210703R_split.htm'
+        ],
+        photo: 'https://vk.com/album-31941981_280409041',
+        bulletin: 'https://rogaining.ru/download/doc/gk82_bul_4.pdf',
+        endDate: '2021-07-04',
+        coord: [56.3155, 28.4251],
+        info: 'Победители: Александр Рамазанов, Денис Соколов (Выборгский р., СПб, МО) – 68 из 81; 2. Александр Павлов, Наталья Орлова (SN, В. Луки, XV) – 67; 3. Антон Ивашкин, Дмитрий Соломатин (ТАНДЕМ, MV) – 57. Команд — 7, участников — 14.'
     },
     {
         id: 'MAJOR_20210710_1',
@@ -7006,6 +7861,7 @@ let commonEvents = [
         date: '2022-02-03',
         endDate: '2022-02-07',
         place: 'Люберцы, Московская обл',
+        region: 'MSK',
         name: 'Всероссийские соревнования среди студентов',
         info: 'Лично-командные соревнования. Группы: МЖ-25.',
         type: 'SKI',
@@ -7017,6 +7873,7 @@ let commonEvents = [
         date: '2022-02-04',
         endDate: '2022-02-08',
         place: 'Люберцы, Московская обл',
+        region: 'MSK',
         name: 'Всероссийские соревнования ветеранов «Кубок ветеранов»',
         info: 'Группы: МЖ 35-90.',
         type: 'SKI',
@@ -7339,6 +8196,7 @@ let commonEvents = [
         date: '2022-05-25',
         endDate: '2022-05-30',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Слет ориентировщиков»',
         info: 'Личные соревнования. Соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Группы: МЖ-Элита, 20, 18, 16, 15, 14, 13, 12, 11. Призёры по онлайн-результатам orgeo (не официальный протокол): Кросс-классика — М: Антон Бордюков (СДЮСШОР по ЛВС, Химки) - 1, Иван Садовников (Ориента-ЗАРЯ, Москва) - 2, Павел Новиков (МО ЦСППСНВС, Ступино) - 3; Ж: Людмила Сапроненкова (СДЮСШОР по ЛВС, Химки) - 1, Татьяна Грибанова (О-Фрязино, Москва) - 2, Дарья Грачева (Московская обл.) - 3. Кросс-лонг — М: Петр Сухарев (Искатель, Москва) - 1, Иван Садовников (Ориента-ЗАРЯ, Москва) - 2, Павел Новиков (МО ЦСППСНВС, Ступино) - 3; Ж: Татьяна Грибанова (О-Фрязино, Москва) - 1, Зоя Тихонова (CRAFT-ОРИЕНТА, Москва) - 2, Людмила Сапроненкова (СДЮСШОР по ЛВС, Химки) - 3.',
         fmt: 'эстафета 2х, классика, лонг, многодневный',
@@ -7738,6 +8596,37 @@ let commonEvents = [
         o_stuff: [5081, 5093, 5094, 5095, 5096, 5097]
     },
     {
+        id: 'RRF_20220730_1',
+        date: '2022-07-30',
+        endDate: '2022-07-31',
+        place: 'Кыштым, Слюдорудник',
+        name: '19-й Чемпионат России по рогейну',
+        link: [
+            'https://vk.com/rogein74',
+            'https://orgeo.ru/event/20337',
+            'https://rogaining.ru/news/rrf-news/rrc2022',
+            'https://rogaining.ru/news/rrf-news/rrc2022-bul2',
+            'https://rogaining.ru/news/rrf-news/rrc2022-results'
+        ],
+        res: 'https://rogaining.ru/download/results/rrc2022_results.pdf',
+        bulletin: [
+            // 'https://rogaining.ru/download/doc/rrc2022_bul1.docx'
+            'https://rogaining.ru/download/doc/rrc2022_bul2.pdf'
+        ],
+        maps: [
+            'https://rogaining.ru/download/maps/rrc2022_map_n.pdf',
+            'https://rogaining.ru/download/maps/rrc2022_map_s.pdf'
+        ],
+        map: 'slyudorudnik_rrc_2022',
+        o_gps: 13759,
+        info: 'Победители: MO (абс.): Дмитрий Панов, Максим Цветков (Blizzard Team) — 406; WO: Екатерина Шалдышева, Анна Шляпникова, Нина Михеева («Идём лесом») — 332; XO: Константин Павленко, Ирина Маркова, Павел Демещик (MATS, Ставрополь) — 320. Команд — 59, участников — 124.',
+        coord: [55.6716, 60.3698],
+        fmt: '24, 6',
+        planner: 'KZLV_V',
+        type: 'ROGAINE',
+        start: 'RRC'
+    },
+    {
         id: 'MAJOR_20220811_1',
         date: '2022-08-11',
         endDate: '2022-08-15',
@@ -8064,6 +8953,7 @@ let commonEvents = [
         date: '2022-12-22',
         endDate: '2022-12-26',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Новогодние старты»',
         info: 'Личные соревнования. Соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Группы: МЖ-Элита, МЖ-12, 13, 14, 15, 17, 20.',
         type: 'SKI',
@@ -8077,6 +8967,7 @@ let commonEvents = [
         date: '2022-12-23',
         endDate: '2022-12-25',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Новогодние старты»',
         info: 'Личные соревнования. Соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Группы: МЖ-12, 13, 14, 15, 17, 20, МЖ-Элита.',
         type: 'SKI',
@@ -8595,6 +9486,7 @@ let commonEvents = [
         date: '2023-05-05',
         endDate: '2023-05-10',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14. Велокросс-спринт — М: Антон Фолифоров (Владимирская обл.) - 1, Петр Голованов (Москва) - 2, Григорий Медведев (Москва) - 3; Ж: Светлана Фолифорова (Владимирская обл.) - 1, Ольга Ш.виноградова (Владимирская обл.) - 2, Анастасия Большова (Московская обл.) - 3. Велокросс-классика — М: Петр Голованов (Москва) - 1, Данил Бузовкин (Московская обл.) - 2, Григорий Медведев (Москва) - 3; Ж: Светлана Фолифорова (Владимирская обл.) - 1, Екатерина Ландграф (Санкт-Петербург) - 2, Анастасия Большова (Московская обл.) - 3.',
         type: 'VELO',
@@ -8622,6 +9514,7 @@ let commonEvents = [
         date: '2023-05-25',
         endDate: '2023-05-29',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Слет ориентировщиков»',
         info: 'Всероссийские соревнования: личные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18, 20. Всероссийский фестиваль юных ориентировщиков: соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Личный зачет. Группы: МЖ-11, 12, 13, 14, 15, 16, 18. Межрегиональные соревнования: личные соревнования. Группы: МЖ-12. Призёры по онлайн-результатам orgeo (не официальный протокол): Кросс-классика — М: Петр Сухарев (Искатель, Москва СЗАО) - 1, Денис Глазунов (Петрозаводск, Респ. Карелия) - 2, Дмитрий Тихонов (Москомпас-Ориента Масный, Москва) - 3; Ж: Анна Дворянская (ЦСКА, Самара) - 1, Мария Новикова (химки, Химки) - 2, Евгения Кремена (МГУ, Москва ЮЗАО) - 3. Кросс-лонг — М: Петр Сухарев (Искатель, Москва СЗАО) - 1, Денис Глазунов (Петрозаводск, Респ. Карелия) - 2, Ростислав Байдимиров (Ориента г.Бирск, Бирский р-н, респ.Башко) - 3; Ж: Анна Дворянская (ЦСКА, Самара) - 1, Мария Новикова (химки, Химки) - 2, Татьяна Грибанова (О-Фрязино, Москва ВАО) - 3.',
         fmt: 'эстафета 2х, классика, лонг, многодневный',
@@ -8928,6 +9821,7 @@ let commonEvents = [
         date: '2023-06-25',
         endDate: '2023-06-29',
         place: 'Химки, Московская обл',
+        region: 'MSK',
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-14, 17.',
         type: 'VELO',
@@ -9183,6 +10077,7 @@ let commonEvents = [
         date: '2023-08-11',
         endDate: '2023-08-14',
         place: 'Химки, Московская обл',
+        region: 'MSK',
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'спринт, классика',
@@ -9449,6 +10344,53 @@ let commonEvents = [
         map: ['kavgolovo_utts_2023','pargolovo_2021','drezdenskaya_2023']
     },
     {
+        id: 'RRF_20231021_1',
+        date: '2023-10-21',
+        endDate: '2023-10-22',
+        place: 'Абрау-Мысхако, Новороссийск',
+        name: '20-й Чемпионат России по рогейну',
+        link: [
+            'http://novoros-rogaining.ru/',
+            'https://vk.com/novorosrogein',
+            'https://vk.com/topic-180575818_49193362',
+            'https://rogaining.ru/news/rrf-news/20-rrc-2023',
+            'https://rogaining.ru/news/rrf-news/rrc2023',
+            'https://rogaining.ru/news/rrf-news/rrc2023-1',
+            'https://rogaining.ru/news/rrf-news/rrc2023-2',
+            'https://rogaining.ru/news/rrf-news/rrc2023-3',
+            'https://rogaining.ru/news/rrf-news/rrc2023-4',
+            'https://rogaining.ru/news/rrf-news/rrc2023-5',
+            'https://rogaining.ru/news/rrf-news/rrc2023-results'
+        ],
+        res: [
+            'https://rogaining.ru/results/rrc-results/rrc2023_results.pdf',
+            'https://vk.com/doc43236248_670769293',
+            'https://disk.yandex.ru/d/urMwAl50LPo6vw'
+        ],
+        bulletin: [
+            // 'https://drive.google.com/file/d/1v8I7WpDTT8wWoschc4H6voOMFF1c85mK/view?usp=sharing'
+            // 'https://drive.google.com/file/d/1Z7RM4SKeK_o7BqXs15SMRbG_gEF5oZX_/view?usp=sharing'
+            'https://vk.com/doc43236248_669716988'
+        ],
+        maps: [
+            'https://rogaining.ru/results/rrc-results/rrc2023_map.jpg',
+            'https://sun9-77.userapi.com/impg/ecw1PCQ06mmvTH0BQCZkFxwe9XrgU7_oxAK9Zw/ZdVGZqCa3gc.jpg?size=2560x2183&quality=95&sign=f0a44d33974ae2fc3f8a7db07beefeba&type=album'
+        ],
+        map: 'abrau_myskhako_rrc_2023',
+        photo: [
+            'https://vk.com/album40165867_297212921',
+            'https://disk.yandex.ru/d/YPpV5OV4L8cPyg'
+        ],
+        gps: 'https://aclive.ru/Broadcast/ViewBroadcast?Id=65315b29',
+        o_gps: 17658,
+        info: 'Победители: MO (абс.): Максим Цветков, Семён Якимов — 369 из 460; WO: Екатерина Петухова, Анна Шляпникова — 302; XO: Екатерина Клименко, Александр Шешуков (Симферополь) — 293. Команд — 74, участников — 155.',
+        coord: [44.711033, 37.641567],
+        fmt: '24, 6, 24 вело',
+        planner: 'SLMNV_G',
+        type: 'ROGAINE',
+        start: 'RRC'
+    },
+    {
         id: 'MAJOR_20231026_1',
         date: '2023-10-26',
         endDate: '2023-10-30',
@@ -9550,6 +10492,7 @@ let commonEvents = [
         date: '2023-12-22',
         endDate: '2023-12-25',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Новогодние старты»',
         info: 'Всероссийские соревнования: личные соревнования. Группы: МЖ-Элита, МЖ-14, 17, 20. Всероссийский фестиваль юных ориентировщиков: соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Личные соревнования. Группы: МЖ-12, 14, 17. Межрегиональные соревнования: личные соревнования. Группы: МЖ-12. Призёры по онлайн-результатам orgeo (не официальный протокол): Лыжная гонка-спринт — М: Юрий Балев (РВО, Химки) - 1, Петр Сухарев (Искатель, Москва) - 2, Петр Голованов (Битца Ватутинки) - 3; Ж: Ольга Бородулина (Ленинградская обл.) - 1, Вера Дробот (Ленинградская обл.) - 2, Евгения Кремена (МГУ, Москва ЮЗАО) - 3. Лыжная гонка-классика — М: Петр Сухарев (Искатель, Москва) - 1, Юрий Балев (РВО, Химки) - 2, Вячеслав Черных (Москва лично) - 3; Ж: Ольга Бородулина (Ленинградская обл.) - 1, Вера Дробот (Ленинградская обл.) - 2, Татьяна Антохина (Москва лично) - 3.',
         type: 'SKI',
@@ -10098,6 +11041,7 @@ let commonEvents = [
         date: '2024-05-23',
         endDate: '2024-05-27',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Слет ориентировщиков»',
         info: 'Всероссийские соревнования: личные соревнования. Группы: МЖ-Элита, 23, 20, 18, 16, 14. Всероссийский фестиваль юных ориентировщиков: соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Личные соревнования. Группы: МЖ 18, 16, 15, 14, 13, 12, 11. Межрегиональные соревнования: личные соревнования. Группы: МЖ-12. Призёры по онлайн-результатам orgeo (не официальный протокол): Кросс-спринт — М: Петр Сухарев (Искатель, Москва СЗАО) - 1, Александр Минаков (МосКомпас, Москва ВАО) - 2, Ростислав Байдимиров (Москва, лично) - 3; Ж: Марина Трубкина (Москва ЮВАО, лично) - 1, Дарья Щербакова (МосКомпас, Москва ВАО) - 2, Мария Хамурзова (Атлантида 709, Москва СВАО) - 3. Кросс-классика — М: Петр Сухарев (Искатель, Москва СЗАО) - 1, Максим Цветков (Москва ЗАО) - 2, Александр Минаков (МосКомпас, Москва ВАО) - 3; Ж: Марина Трубкина (Москва ЮВАО, лично) - 1, Екатерина Комарова (Рязань) - 2, Дарья Щербакова (МосКомпас, Москва ВАО) - 3. Кросс-лонг — М: Петр Сухарев (Искатель, Москва СЗАО) - 1, Максим Цветков (Москва ЗАО) - 2, Ростислав Байдимиров (Москва, лично) - 3; Ж: Марина Трубкина (Москва ЮВАО, лично) - 1, Мария Бабенкова (Южно-Сахалинск, лично) - 2, Мария Хамурзова (Атлантида 709, Москва СВАО) - 3.',
         fmt: 'спринт, классика, лонг, многодневный',
@@ -10110,6 +11054,7 @@ let commonEvents = [
         date: '2024-05-24',
         endDate: '2024-05-27',
         place: 'Люберцы, Московская обл',
+        region: 'MSK',
         name: 'Международные соревнования',
         info: 'Личные соревнования. Группы: МЖ-Элита. Велокросс-общий старт — М: Антон Фолифоров (Владимирская обл.) - 1, Юрий Балев (Московская обл.) - 2, Григорий Медведев (Москва) - 3; Ж: Светлана Фолифорова (Владимирская обл.) - 1, Татьяна Губернаторова (Владимирская обл.) - 2, Алена Аксенова (Санкт-Петербург) - 3. Велокросс-классика, пролог — М: Антон Фолифоров (Владимирская обл.) - 1, Григорий Медведев (Москва) - 2, Данил Бузовкин (Московская обл.) - 3; Ж: Светлана Фолифорова (Владимирская обл.) - 1, Анастасия Большова (Московская обл.) - 2, Дарья Севбо (Москва) - 3. Велокросс-классика, финал — М: Григорий Медведев (Москва) - 1, Юрий Балев (Московская обл.) - 2, Данил Бузовкин (Московская обл.) - 3; Ж: Светлана Фолифорова (Владимирская обл.) - 1, Анастасия Большова (Московская обл.) - 2, Алена Аксенова (Санкт-Петербург) - 3.',
         type: 'VELO',
@@ -10447,6 +11392,7 @@ let commonEvents = [
         date: '2024-06-27',
         endDate: '2024-07-01',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-14, 17.',
         type: 'VELO',
@@ -10685,6 +11631,39 @@ let commonEvents = [
         o_gps: 20286
     },
     {
+        id: 'RRF_20240817_1',
+        date: '2024-08-17',
+        endDate: '2024-08-18',
+        place: 'Тимонино, Богородский р-н',
+        name: '21-й Чемпионат России по рогейну',
+        link: [
+            'https://web.archive.org/web/20240917073446/https://rogaincup.ru/',
+            'https://vk.com/kukorog',
+            'https://orgeo.ru/event/33262',
+            'https://rogaining.ru/news/rrf-news/rrc2024-reg',
+            'https://rogaining.ru/news/rrf-news/rrc2024-reg-1',
+            'https://rogaining.ru/news/rrf-news/rrc2024-results'
+        ],
+        res: [
+            'https://rogaining.ru/results/rrc-results/rrc2024_results.pdf',
+            'https://web.archive.org/web/20241005141732id_/https://rogaincup.ru/wp-content/uploads/2024/08/24-chasa-protokol-rezultatov-1.pdf'
+            // 'https://rogaincup.ru/wp-content/uploads/2024/08/24-chasa-splity-2.htm' // недоступна
+        ],
+        bulletin: 'https://web.archive.org/web/20240324193259id_/https://rogaincup.ru/wp-content/uploads/2024/01/info-1-rog-2024.pdf',
+        maps: [
+            'https://rogaining.ru/results/rrc-results/rrc2024_map.jpg',
+            'https://forestadventure.ru/2024/rrc/map.jpg'
+        ],
+        map: 'dzerzhinsk_timonino_rrc_2024',
+        gps: 'https://forestadventure.ru/2024/rrc/',
+        o_gps: 20232,
+        info: 'Победители: MO (абс.): Константин Иванов, Семён Якимов (BLIZZARD) — 379; WO: Екатерина Петухова, Анна Шляпникова — 305; XO: Алексей Князев, Марина Андреянова — 285. Команд — 79, участников — 173.',
+        coord: [56.091893, 43.229598],
+        fmt: '24, 8, 4, 8 вело',
+        type: 'ROGAINE',
+        start: 'RRC'
+    },
+    {
         id: 'MAJOR_20240821_1',
         date: '2024-08-21',
         endDate: '2024-08-26',
@@ -10741,6 +11720,7 @@ let commonEvents = [
         date: '2024-08-29',
         endDate: '2024-09-02',
         place: 'Химки, Московская обл',
+        region: 'MSK',
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-14, 16, 18.',
         fmt: 'выбор, спринт, общий старт',
@@ -10754,6 +11734,7 @@ let commonEvents = [
         date: '2024-08-30',
         endDate: '2024-09-02',
         place: 'Химки, Московская обл',
+        region: 'MSK',
         name: 'Международные соревнования',
         info: 'Личные соревнования. Группы: МЖ-Элита.',
         fmt: 'спринт, общий старт',
@@ -11130,6 +12111,7 @@ let commonEvents = [
         date: '2024-12-26',
         endDate: '2024-12-30',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Новогодние старты»',
         info: 'Всероссийские соревнования: личные соревнования. Группы: МЖ-14, 17, 20, 24, МЖ-Элита. Всероссийский фестиваль юных ориентировщиков: соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Личные соревнования. Группы: МЖ-12, 13, 14, 15, 17. Межрегиональные соревнования: личные соревнования. Группы: МЖ-12. Призёры по онлайн-результатам orgeo (не официальный протокол): Лыжная гонка-спринт — М: Петр Сухарев (Искатель, Москва) - 1, Валерий Глухов (O-skills, Лыткари) - 2, Руслан Грицан (Ориента Ски-О, Мо) - 3; Ж: Алена Трапезникова (Комсомольск-на-Ам) - 1, Ольга Бородулина (Ленинградская обл.) - 2, Екатерина Степанова (Нижний Новгород) - 3. Лыжная гонка-классика — М: Петр Сухарев (Искатель, Москва) - 1, Валерий Глухов (O-skills, Лыткари) - 2, Степан Малиновский (Череповец) - 3; Ж: Ольга Бородулина (Ленинградская обл.) - 1, Евгения Кремена (Самбо 70-Тропа, М) - 2, Екатерина Степанова (Нижний Новгород) - 3.',
         type: 'SKI',
@@ -11638,6 +12620,7 @@ let commonEvents = [
         date: '2025-04-30',
         endDate: '2025-05-04',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-Элита. Велокросс-классика, пролог — М: Дмитрий Кузьмин (Москва) - 1, Григорий Медведев (Москва) - 2, Петр Голованов (Московская обл.) - 3; Ж: Светлана Фолифорова (Владимирская обл.) - 1, Дарья Медведева (Москва) - 2, Анастасия Большова (Московская обл.) - 2. Велокросс-классика, финал — М: Ярослав Шведов (Москва) - 1, Антон Фолифоров (Владимирская обл.) - 2, Григорий Медведев (Москва) - 3; Ж: Светлана Фолифорова (Владимирская обл.) - 1, Анастасия Большова (Московская обл.) - 2, Алена Аксенова (Санкт-Петербург) - 3.',
         type: 'VELO',
@@ -11693,6 +12676,7 @@ let commonEvents = [
         date: '2025-05-23',
         endDate: '2025-05-27',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Слет ориентировщиков»',
         info: 'Всероссийские соревнования: личные соревнования. Группы: МЖ-Элита, МЖ-20, 18, 16, 14. Всероссийский фестиваль юных ориентировщиков: соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Личный зачет. Группы: МЖ-18, 16, 14, 12. Межрегиональные соревнования: личные соревнования. Группы: МЖ-12. Призёры по онлайн-результатам orgeo (не официальный протокол): Кросс-классика — М: Петр Сухарев (Искатель, Москва С) - 1, Сергей Умрихин (Курск) - 2, Павел Новиков (Khimki, Химки) - 3; Ж: Дарья Есипова (CRAFT-ОРИЕНТА, Мос) - 1, Анастасия Курова (Воронеж, лично) - 2, Наталья Савельева (Ориента Ski-O, Мос) - 3. Кросс-лонг — М: Петр Сухарев (Искатель, Москва С) - 1, Дмитрий Дегтярёв (Воронеж СШОР 18 Па) - 2, Даниил Ильченко (МосКомпас-Ориента) - 3; Ж: Анастасия Курова (Воронеж, лично) - 1, Евгения Кремена (Самбо 70-Тропа, Мо) - 2, Людмила Сапроненкова (СДЮСШОР по ЛВС, Хи) - 3.',
         fmt: 'эстафета 2х, классика, лонг, многодневный',
@@ -12114,6 +13098,45 @@ let commonEvents = [
         reg: 'https://orgeo.ru/event/41917',
         bulletin: 'https://orgeo.ru/files/event/file/41917_bef6a06c98.pdf',
         o_stuff: [7430, 7431, 7432, 7433, 7434, 7435]
+    },
+    {
+        id: 'RRF_20250712_1',
+        date: '2025-07-12',
+        endDate: '2025-07-13',
+        place: 'Галичский р-н, Костромская обл.',
+        name: '22-й Чемпионат России по рогейну',
+        link: [
+            'https://galtropa.ru/rogaine/2025',
+            'https://galtropa.ru/sportfest',
+            'https://orgeo.ru/event/41634',
+            'https://rogaining.ru/news/rrf-news/rrc2025',
+            'https://rogaining.ru/news/rogaine-news/gal-rogaine-2025',
+            'https://rogaining.ru/news/rogaine-news/gal-rogaine-rrc-2025',
+            'https://rogaining.ru/news/rogaine-news/rrc2025-results'
+            // 'https://drive.google.com/file/d/1YUpE7KtRoUr4B3s6unNoU2G3KO6RC9fT/view' // недоступна
+        ],
+        res: [
+            'https://rogaining.ru/results/rrc-results/rrc2025_results.pdf',
+            'https://data.galtropa.ru/results/2025/sportfest/rogaine-results-24h.pdf',
+            'https://data.galtropa.ru/results/2025/sportfest/rogaine-results-4h.pdf'
+        ],
+        bulletin: [
+            // 'https://data.galtropa.ru/results/2025/sportfest/polozhenie-rogaine.pdf'
+            // 'https://data.galtropa.ru/results/2025/sportfest/rogaine-info.pdf'
+            // 'https://data.galtropa.ru/results/2025/sportfest/tech-info-rogaine.pdf'
+            'https://data.galtropa.ru/results/2025/sportfest/protocol-rogaine-24.pdf'
+        ],
+        maps: [
+            'https://rogaining.ru/results/rrc-results/rrc2025_map.jpg',
+            'https://forestadventure.ru/2025/rrc/map.jpg'
+        ],
+        map: 'galich_rrc_2025',
+        gps: 'https://forestadventure.ru/2025/rrc/',
+        info: 'Победители: MO (абс.): Николай Мирошкин, Дмитрий Панов, Сергей Мирошкин — 373; XO: Марина Андреянова, Алексей Князев (Йошкар-Ола) — 285; WO: Елена Зотова, Надежда Сазонова (Н.Новгород) — 253. Команд — 82, участников — 177.',
+        coord: [58.501726, 42.351461],
+        fmt: '24, 4',
+        type: 'ROGAINE',
+        start: 'RRC'
     },
     {
         id: 'MAJOR_20250716_1',
@@ -12725,6 +13748,7 @@ let commonEvents = [
         date: '2025-12-26',
         endDate: '2025-12-29',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Новогодние старты»',
         info: 'Всероссийские соревнования: личные соревнования. Группы: МЖ-14, 17, 20, МЖ-Элита. Всероссийский фестиваль юных ориентировщиков: соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Личные соревнования. Группы: МЖ-17, 14, 12. Межрегиональные соревнования: личные соревнования. Группы: МЖ-12. Призёры по онлайн-результатам orgeo (не официальный протокол): Лыжная гонка-спринт — М: Максим Цветков (Москва лично) - 1, Михаил Беляков (Тамбов) - 2, Сергей Шорохов (ЮЗАО-TEAM, Москва ЮЗАО) - 3; Ж: Марина Трубкина (Самбо 70-Тропа, Москва ЮЗАО) - 1, Анна Чумоватова (Лыткарино-К2, Лыткарино) - 2, Олеся Гладилкина (Владимирская обл.) - 3. Лыжная гонка-классика — М: Сергей Шорохов (ЮЗАО-TEAM, Москва ЮЗАО) - 1, Максим Цветков (Москва лично) - 2, Петр Сухарев (Искатель, Москва СЗАО) - 3; Ж: Марина Трубкина (Самбо 70-Тропа, Москва ЮЗАО) - 1, Олеся Гладилкина (Владимирская обл.) - 2, Анна Чумоватова (Лыткарино-К2, Лыткарино) - 3.',
         type: 'SKI',
@@ -14012,6 +15036,7 @@ let commonEvents = [
         date: '2026-08-20',
         endDate: '2026-08-24',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-Элита. Велокросс-спринт — М: Григорий Медведев (Москва) - 1, Павел Радыванюк (Московская обл.) - 2, Алексей Кузьмин (Москва) - 3; Ж: Екатерина Ландграф (Санкт-Петербург) - 1, Дарья Медведева (Москва) - 2, Варвара Хмелевская (Москва) - 3. Велокросс-лонг — М: Юрий Балев (Московская обл.) - 1, Григорий Медведев (Москва) - 2, Павел Радыванюк (Московская обл.) - 3; Ж: Анастасия Большова (Московская обл.) - 1, Дарья Медведева (Москва) - 2, Екатерина Ландграф (Санкт-Петербург) - 3.',
         type: 'VELO',
@@ -14181,6 +15206,7 @@ let commonEvents = [
         date: '2026-09-02',
         endDate: '2026-09-07',
         place: 'Химки, Московская обл',
+        region: 'MSK',
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-14, 17.',
         type: 'VELO',
@@ -14849,6 +15875,7 @@ let commonEvents = [
         date: '2027-05-20',
         endDate: '2027-05-24',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Слет ориентировщиков»',
         info: 'Всероссийские соревнования: личные соревнования. Группы: МЖ-Элита, МЖ-23, 20, 18, 16, 14. Межрегиональные соревнования: личные соревнования. Группы: МЖ-12.',
         fmt: 'спринт, классика, лонг, многодневный',
@@ -14965,6 +15992,7 @@ let commonEvents = [
         date: '2027-06-30',
         endDate: '2027-07-05',
         place: 'Самара',
+        region: 'SAMARA',
         name: 'Чемпионат и Первенство ПФО',
         info: 'Лично-командные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'классика, лонг, эстафета 3х, общий старт',
@@ -15421,6 +16449,7 @@ let commonEvents = [
         date: '2027-12-24',
         endDate: '2027-12-27',
         place: 'Москва',
+        region: 'MSK',
         name: 'Всероссийские соревнования «Новогодние старты»',
         info: 'Всероссийские соревнования: личные соревнования. Группы: МЖ14, 17, 20, МЖ-Элита. Межрегиональные соревнования: личные соревнования. Группы: МЖ-12.',
         type: 'SKI',

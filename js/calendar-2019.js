@@ -1169,43 +1169,6 @@ let events2019 = [
         planner: 'PRVSKY'
     },
     {
-        id: 'RRF_20190824_1',
-        date: '2019-08-24',
-        endDate: '2019-08-25',
-        place: 'Верх-Нейвинский, Свердловская обл.',
-        name: '16-й Чемпионат России по рогейну',
-        link: [
-            'https://rogaining-ural.ru/',
-            'https://rogaining-ural.ru/news/post-reliz',
-            'https://rogaining-ural.ru/history',
-            'https://rogaining.ru/news/rrf-news/rrc2019-entry',
-            'https://rogaining.ru/news/rrf-news/rrc2019-entry-continues',
-            'https://rogaining.ru/news/rrf-news/rrc2019-results'
-        ],
-        res: [
-            'https://rogaining-ural.ru/upload/results/rrc20190824/results_total.html',
-            'https://rogaining-ural.ru/upload/results/rrc20190824/results_class.html',
-            'https://rogaining-ural.ru/upload/results/rrc20190824/stat_controls.html'
-            // 'https://rogaining-ural.ru/upload/results/nurog20190824/results_format.html' // недоступна
-        ],
-        maps: ['https://rogaining-ural.ru/upload/results/rrc20190824/myroute/map20190824.jpg'],
-        map: 'verkh_neyvinsky_rrc_2019',
-        photo: [
-            'https://vk.com/album464610561_265863226',
-            'https://vk.com/album364778078_265474033',
-            'https://vk.com/album364778078_265563263',
-            'https://vk.com/album364778078_265490906',
-            'https://vk.com/album348029536_267483520'
-        ],
-        gps: 'https://rogaining-ural.ru/upload/results/rrc20190824/myroute/route.html',
-        o_gps: 6247,
-        info: 'Победители: MO (абс.): Дмитрий Шемятихин, Сергей Мирошкин, Николай Мирошкин («Дети болот») — 532; XO: Сергей Пикуз, Екатерина Меньшова («Аура приключений») — 461; WO: Нина Михеева, Елена Руденко («СПЛАВ-Шебекино») — 289. Команд — 77, участников — 164.',
-        coord: [57.232088, 60.085317],
-        fmt: '24, 8, 4',
-        type: 'ROGAINE',
-        start: 'RRC'
-    },
-    {
         id: 'SPB_20190825_1',
         date: '2019-08-25',
         place: 'Токсово, Малиновая гора',

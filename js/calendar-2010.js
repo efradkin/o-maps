@@ -499,6 +499,7 @@ let events2010 = [
         date: '2010-05-22',
         endDate: '2010-05-23',
         place: 'Селгисе, Эстония',
+        region: 'ESTONIA',
         name: 'Чемпионат Прибалтики',
         res: 'http://www.okilves.ee/voist/baltimv2010/index.php',
         photo: 'http://o-site.spb.ru/gallery.php?id=gallery83',
@@ -620,55 +621,6 @@ let events2010 = [
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#47',
         bulletin: 'https://o-site.spb.ru/_races/100605_SPb/100605_info.htm',
         reskeep: 262
-    },
-    {
-        id: 'RRF_20100605_1',
-        date: '2010-06-05',
-        endDate: '2010-06-06',
-        place: 'Печорский р-н, Псковская обл.',
-        name: '7-й Чемпионат России по рогейну',
-        link: [
-            'http://7rrc.rogaining.ru/',
-            'https://rogaining.ru/news/rogaine-news/announcement/175-7rrc',
-            'https://rogaining.ru/news/rogaine-news/announcement/188-7-j-chempionat-rossii-po-rogejnu-2010',
-            'http://7rrc.rogaining.ru/content/view/38/2/'
-        ],
-        res: [
-            'http://7rrc.rogaining.ru/results/results24.htm',
-            'http://7rrc.rogaining.ru/results/results8.htm',
-            'http://7rrc.rogaining.ru/results/results4.htm',
-            'http://7rrc.rogaining.ru/results/splits/results24_s.htm',
-            'http://7rrc.rogaining.ru/results/stat_controls24.htm'
-        ],
-        bulletin: [
-            // 'http://7rrc.rogaining.ru/download/7rrc_invitation.pdf'
-            // 'http://7rrc.rogaining.ru/content/view/2/3/'
-            // 'http://7rrc.rogaining.ru/download/RRC2010_bulletin.pdf'
-            'http://7rrc.rogaining.ru/content/view/26/16/'
-        ],
-        maps: [
-            'http://7rrc.rogaining.ru/download/7rrc_map24.jpg',
-            'http://7rrc.rogaining.ru/download/7rrc_map8.jpg'
-            // 'http://7rrc.rogaining.ru/content/view/4/7/' // страница, не файл карты
-            // 'http://7rrc.rogaining.ru/content/view/16/14/' // страница, не файл карты
-        ],
-        map: 'malska_dolina_rogaine_2010',
-        photo: [
-            'http://imgsrc.ru/nanya/a528751.html'
-            // 'http://picasaweb.google.ru/rusrogaining/05062010#' // недоступна
-            // 'http://picasaweb.google.ru/rusrogaining/06062010#' // недоступна
-        ],
-        video: 'http://www.youtube.com/watch?v=4mCK0_AL86c',
-        rg: {
-            '4': 'https://rogaine.ru/routegadget/rg2/#39',
-            '8': 'https://rogaine.ru/routegadget/rg2/#40',
-            '24': 'https://rogaine.ru/routegadget/rg2/#41'
-        },
-        info: 'Победители: MO (абс.): Евгений Домбровский, Олег Калинин («ОМЕГА-НН») — 364; XO: Андрей Шведов, Наталья Абрамова — 344; WO: Анастасия Галитарова, Ирина Сафронова — 333. Команд — 106, участников — 225.',
-        coord: [57.787117, 27.773767],
-        fmt: '24, 8, 4',
-        type: 'ROGAINE',
-        start: 'RRC'
     },
     {
         id: 'SPB_20100606_1',

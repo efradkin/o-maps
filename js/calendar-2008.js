@@ -332,45 +332,6 @@ let events2008 = [
         o_site: '080510'
     },
     {
-        id: 'RRF_20080510_1',
-        date: '2008-05-10',
-        endDate: '2008-05-11',
-        place: 'Сенеж, Солнечногорский р-н',
-        name: '5-й Чемпионат России по рогейну',
-        link: [
-            'http://senege.rogaining.ru/',
-            'https://slazav-news.livejournal.com/309718.html',
-            'https://vonok.livejournal.com/5279.html',
-            'http://izib.narod.ru/Sport/20080510_rogaining.htm'
-            // 'http://dw.school2.ru/doc/rogain2008.html' // недоступна
-            // 'http://senege.rogaining.ru/content/view/40' // недоступна
-        ],
-        res: [
-            'http://senege.rogaining.ru/results/rgn110508.htm',
-            'http://senege.rogaining.ru/results/5rrc_splits.htm',
-            'http://senege.rogaining.ru/results/5rrc_info.htm'
-        ],
-        bulletin: [
-            // 'http://senege.rogaining.ru/content/view/7/34/'
-            // 'http://senege.rogaining.ru/content/view/25/49/'
-            'http://senege.rogaining.ru/content/view/33/51/'
-        ],
-        maps: ['http://senege.rogaining.ru/results/5rrc_map.gif'],
-        map: 'senezh_2008',
-        photo: [
-            'https://rogaine-spb.narod.ru/articles/rrc2008.html'
-            // 'http://www.skisport.ru/photos/view.php?v=2&uid=155' // недоступна
-        ],
-        video: 'http://www.youtube.com/watch?v=s6xqoyC8SBE',
-        rg: 'https://rogaine.ru/routegadget/rg2/#23',
-        info: 'Победители: M: Олег Калинин, Сергей Юткин («Омега», Москва) — 3400; X: Павел Сысоев, Александра Кузьмина (Nike ACG) — 3190; W: Анна Бурлинова, Юлия Леменчук (Arena-CRAFT) — 2860. Команд — 109, участников — 236.',
-        coord: [56.261397, 37.038089],
-        fmt: '24',
-        planner: 'YSCHNK_S',
-        type: 'ROGAINE',
-        start: 'RRC'
-    },
-    {
         id: 'SPB_20080511_1',
         date: '2008-05-11',
         place: 'Токсово',

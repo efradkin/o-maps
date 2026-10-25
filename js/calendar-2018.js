@@ -1036,33 +1036,6 @@ let events2018 = [
         start: 'GORNY_CROSS'
     },
     {
-        id: 'RRF_20180721_1',
-        date: '2018-07-21',
-        endDate: '2018-07-22',
-        place: 'Хакасия, урочище Карчалык',
-        name: '15-й Чемпионат России по рогейну',
-        link: [
-            'http://kras-rogaining.ru/blizhajshie-meropriyatiya-2/421-15-j-chempionat-rossii-po-rogejnu.html',
-            'https://rogaining.ru/news/rrc-2018',
-            'https://rogaining.ru/news/rrc2018-announcement',
-            'https://rogaining.ru/news/rrc2018-entry',
-            'https://rogaining.ru/news/rrc2018-results'
-        ],
-        res: 'http://o-sibsport.ru/Documents/2018/2018_ChR_Rogein/24_ch/results24_1.htm',
-        bulletin: [
-            // 'http://kras-rogaining.ru/news/2-uncategorised/353-informatsiya-krasnoyarskij-rogejn-2017.html'
-            'http://kras-rogaining.ru/blizhajshie-meropriyatiya-2/2-uncategorised/422-byulleten-1-15-j-chempionat-rossii-po-rogejnu.html'
-        ],
-        maps: ['https://vk.com/doc5887846_470588651'],
-        map: 'karchalyk_rrc_2018',
-        info: 'Победители: MO (абс.): Дмитрий Панов, Алексей Андрейкин («RZN-Дети болот», Рязань) — 279; XO: Николай Мирошкин, Сергей Мирошкин, Анна Коробко, Дмитрий Шемятихин — 274; WO: Екатерина Меньшова, Дарья Веселкова («Аура приключений») — 211. Команд — 50, участников — 107.',
-        coord: [54.5, 90.87],
-        fmt: '24, 6',
-        planner: 'ANKN_I',
-        type: 'ROGAINE',
-        start: 'RRC'
-    },
-    {
         id: 'SPB_20180722_1',
         date: '2018-07-22',
         place: 'Сярьги',
@@ -1114,6 +1087,7 @@ let events2018 = [
         date: '2018-08-04',
         endDate: '2018-08-05',
         place: 'Пустошкинский р-он Псковской обл',
+        region: 'PSKOV',
         name: 'Чемпионат СЗФО по рогейну',
         type: 'ROGAINE',
         reg: 'http://o-reg.spb.ru/entry-list?id=858',

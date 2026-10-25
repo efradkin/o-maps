@@ -53,6 +53,7 @@ let events2024 = [
         id: 'SPB_20240108_2',
         date: '2024-01-08',
         place: 'Псков',
+        region: 'PSKOV',
         name: 'Псковский Новогодний рогейн',
         type: 'ROGAINE',
         fmt: '3.0',
@@ -1097,6 +1098,7 @@ let events2024 = [
         date: '2024-06-13',
         endDate: '2024-06-16',
         place: 'Импилахти',
+        region: 'KARELIA',
         name: 'Red Fox Adventure Race',
         type: 'MULTI',
         video: [
@@ -1246,6 +1248,7 @@ let events2024 = [
         id: 'SPB_20240706_4',
         date: '2024-07-06',
         place: 'Псков',
+        region: 'PSKOV',
         name: 'Кубок реки Великой 2024',
         type: 'ROGAINE',
         link: 'https://orgeo.ru/event/info/36109',
@@ -1433,39 +1436,6 @@ let events2024 = [
             '24': 20254,
             'Вело': 20256
         }
-    },
-    {
-        id: 'RRF_20240817_1',
-        date: '2024-08-17',
-        endDate: '2024-08-18',
-        place: 'Тимонино, Богородский р-н',
-        name: '21-й Чемпионат России по рогейну',
-        link: [
-            'https://web.archive.org/web/20240917073446/https://rogaincup.ru/',
-            'https://vk.com/kukorog',
-            'https://orgeo.ru/event/33262',
-            'https://rogaining.ru/news/rrf-news/rrc2024-reg',
-            'https://rogaining.ru/news/rrf-news/rrc2024-reg-1',
-            'https://rogaining.ru/news/rrf-news/rrc2024-results'
-        ],
-        res: [
-            'https://rogaining.ru/results/rrc-results/rrc2024_results.pdf',
-            'https://web.archive.org/web/20241005141732id_/https://rogaincup.ru/wp-content/uploads/2024/08/24-chasa-protokol-rezultatov-1.pdf'
-            // 'https://rogaincup.ru/wp-content/uploads/2024/08/24-chasa-splity-2.htm' // недоступна
-        ],
-        bulletin: 'https://web.archive.org/web/20240324193259id_/https://rogaincup.ru/wp-content/uploads/2024/01/info-1-rog-2024.pdf',
-        maps: [
-            'https://rogaining.ru/results/rrc-results/rrc2024_map.jpg',
-            'https://forestadventure.ru/2024/rrc/map.jpg'
-        ],
-        map: 'dzerzhinsk_timonino_rrc_2024',
-        gps: 'https://forestadventure.ru/2024/rrc/',
-        o_gps: 20232,
-        info: 'Победители: MO (абс.): Константин Иванов, Семён Якимов (BLIZZARD) — 379; WO: Екатерина Петухова, Анна Шляпникова — 305; XO: Алексей Князев, Марина Андреянова — 285. Команд — 79, участников — 173.',
-        coord: [56.091893, 43.229598],
-        fmt: '24, 8, 4, 8 вело',
-        type: 'ROGAINE',
-        start: 'RRC'
     },
     {
         id: 'SPB_20240818_1',
@@ -1750,6 +1720,7 @@ let events2024 = [
         id: 'SPB_20240928_2',
         date: '2024-09-28',
         place: 'Новгород',
+        region: 'NOVGOROD',
         name: 'Лужский меридиан',
         type: 'ROGAINE',
         fmt: '3, 5',

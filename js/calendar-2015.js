@@ -3,6 +3,7 @@ let events2015 = [
         id: 'SPB_20150106_1',
         date: '2015-01-06',
         place: 'Финляндия',
+        region: 'FINLAND',
         name: 'Loppiais Rogaining',
         type: 'ROGAINE',
         fmt: '8 часов',
@@ -264,6 +265,7 @@ let events2015 = [
         id: 'SPB_20150321_1',
         date: '2015-03-21',
         place: 'Эстония, Таллинн',
+        region: 'ESTONIA',
         name: 'XT Winter rogaine',
         type: 'ROGAINE',
         fmt: '4 часа',
@@ -283,6 +285,7 @@ let events2015 = [
         id: 'SPB_20150329_2',
         date: '2015-03-29',
         place: 'Финляндия, Турку',
+        region: 'FINLAND',
         name: 'Turku Rogaining Wintersprint',
         type: 'ROGAINE',
         link: 'http://www.ivk.fi/rogaining/'
@@ -494,6 +497,7 @@ let events2015 = [
         id: 'SPB_20150502_2',
         date: '2015-05-02',
         place: 'Финляндия, Päijänne Tavastia',
+        region: 'FINLAND',
         name: 'Salpaus-Rogaining',
         type: 'ROGAINE',
         fmt: '6 и 12 часов бегом',
@@ -503,6 +507,7 @@ let events2015 = [
         id: 'SPB_20150502_3',
         date: '2015-05-02',
         place: 'Латвия',
+        region: 'LATVIA',
         name: 'Rezekne rogain',
         type: 'ROGAINE',
         fmt: '6 и 12 часов бегом',
@@ -823,6 +828,7 @@ let events2015 = [
         date: '2015-05-30',
         endDate: '2015-05-31',
         place: 'Тукумс, Латвия',
+        region: 'LATVIA',
         name: 'Чемпионат Прибалтики',
         o_site: '15053031'
     },
@@ -927,6 +933,7 @@ let events2015 = [
         id: 'SPB_20150611_1',
         date: '2015-06-11',
         place: 'Кажма, северная Онега',
+        region: 'KARELIA',
         name: 'Red Fox Adventure Race',
         video: ['https://www.youtube.com/watch?v=8gIyoNa8EKo','https://www.youtube.com/watch?v=4wQqO4_TBv4'],
         type: 'MULTI',
@@ -1039,31 +1046,6 @@ let events2015 = [
         owner: 'VYBORG',
         o_site: '150725_tr',
         bulletin: 'https://o-site.spb.ru/_races/150725_tr/150725_info.pdf'
-    },
-    {
-        id: 'RRF_20150725_1',
-        date: '2015-07-25',
-        endDate: '2015-07-26',
-        place: 'Подстепное, Саратовская обл.',
-        name: '1-й Чемпионат России по рогейну на байдарках',
-        link: [
-            'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/1-y-chempionat-rossii-po-rogeynu-na-baydarkah/glavnaya-1-y-chempionat-rossii-po-rogeynu-na-baydarkah/',
-            'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/events2015_32.html',
-            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015-kayak',
-            'https://rogaining.ru/news/rrf-events-2015'
-        ],
-        res: 'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/1-y-chempionat-rossii-po-rogeynu-na-baydarkah/rezultaty-1-ogo-chempionat-rossii-po-rogeynu-na-baydarkah/',
-        bulletin: [
-            // 'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/1-y-chempionat-rossii-po-rogeynu-na-baydarkah/polozhenie-1-y-chempionat-rossii-po-rogeynu-na-baydarkah/'
-            'http://www.sarsport.ru/sportmir/sorevnovaniya/events2015/1-y-chempionat-rossii-po-rogeynu-na-baydarkah/informatsiya-1-y-chempionat-rossii-po-rogeynu-na-baydarkah/'
-        ],
-        maps: ['https://rogaining.ru/results/rrc-results/rrc2015_kayak_map.jpg'],
-        photo: 'https://vk.com/sportmir_water_rogain_2015',
-        info: 'Победители: Андрей Темяков, Павел Вереникин (Янтарный, Ростов-на-Дону/Волгодонск) – 192, 19:02:39; ЖО: Марина Воронина, Валентина Канурина (Ленивые совы) – 170; СО: Сергей Овчинников, Людмила Федорова (Самарские Выдры) – 142. Команд — 25, участников — 52.',
-        coord: [51.6666, 46.4788],
-        fmt: '24, 12, 6',
-        type: ['ROGAINE','WATER'],
-        start: 'RRC'
     },
     {
         id: 'SPB_20150726_1',
@@ -1244,6 +1226,7 @@ let events2015 = [
         id: 'SPB_20150905_1',
         date: '2015-09-05',
         place: 'Псковская обл., Печорский р-н',
+        region: 'PSKOV',
         name: 'Чемпионат СЗФО по рогейну',
         type: 'ROGAINE',
         o_site: '150905_rog',
@@ -1374,36 +1357,6 @@ let events2015 = [
         o_site: '150919_velo',
         bulletin: 'https://o-site.spb.ru/_races/150919_velo/150919_info-2.pdf',
         map: 'krasna_gorka_velo_2022'
-    },
-    {
-        id: 'SPB_20150919_2',
-        date: '2015-09-19',
-        place: 'Красноярский край',
-        name: '12-й Чемпионат России по рогейну',
-        type: 'ROGAINE',
-        fmt: '24 часа бегом',
-        start: 'RRC',
-        link: [
-            'http://kras-rogaining.ru/',
-            'http://kras-rogaining.ru/otchety/otchety-2015/238-otchety-12-go-chempionata-rossii-po-rogejnu.html',
-            'https://rogaining.ru/rogaine/about-rogaine/kras-rogaining',
-            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015',
-            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015-bul1',
-            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015-entry2',
-            'https://rogaining.ru/news/rogaine-news/announcement/rrc2015-entry3',
-            'https://rogaining.ru/news/rogaine-news/results-events/rrc2015-results',
-            'https://rogaining.ru/news/rogaine-news/results-events/rrc2015-region-team-results'
-            // 'http://x-race.info/news/57291/chempionat-rossii-po-rogeynu-krasnoyarsk-intervyu-s-organizatorami' // недоступна
-        ],
-        map: 'krasnoyarsk_rrc_2015',
-        res: 'http://kras-rogaining.ru/images/Kras-rogaining_2015/results24%20%D1%87%D0%B0%D1%81%D0%B0%20%D0%B1%D0%B5%D0%B3%D0%BE%D0%BC.htm',
-        maps: [
-            'http://kras-rogaining.ru/images/stories/Kras-rogaining_2015/%D0%9A%D0%B0%D1%80%D1%82%D0%B0/MAP_CHR_2015.jpg',
-            'http://kras-rogaining.ru/images/stories/Kras-rogaining_2015/MAP_CR_2015.jpg'
-        ],
-        endDate: '2015-09-20',
-        coord: [56.01, 92.6],
-        info: 'Победители: MO (абс.): Николай Мирошкин, Дмитрий Шемятихин («Дети болот-1») — 272; WO: Нина Михеева, Марина Галкина; XO: Филипп Федосов, Мария Алешина. Команд — 51, участников — 109.'
     },
     {
         id: 'SPB_20150919_3',

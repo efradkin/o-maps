@@ -1474,6 +1474,7 @@ let events2026 = [
         date: '2026-05-23',
         name: 'Новгородский исторический рогейн',
         place: 'Новгород',
+        region: 'NOVGOROD',
         link: 'https://vk.com/wall-91656163_2676',
         reg: 'https://orgeo.ru/event/info/50670',
         endReg: '2026-05-21 23:55',
@@ -3032,6 +3033,7 @@ let events2026 = [
         date: '2026-10-17',
         name: 'Новгородский исторический рогейн',
         place: 'Новгород',
+        region: 'NOVGOROD',
         link: 'https://vk.com/wall-91656163_2736',
         reg: 'https://orgeo.ru/event/54011',
         endReg: '2026-10-13 23:55',
@@ -3157,6 +3159,7 @@ let events2026 = [
         reg: 'http://orgeo.ru/event/56259',
         endReg: '2026-10-20 22:00',
         bulletin: 'https://o-site.spb.ru/_races/261021_NWSprint/261021_info.pdf',
+        reskeep: 944,
         fmt: 'спринт',
         owner: 'NW',
         info: 'Новая карта.'
@@ -3207,7 +3210,8 @@ let events2026 = [
         link: 'https://www.multsport.ru/starts/klo-final-26/',
         reg: 'https://www.multsport.ru/starts/klo-final-26/registration.html',
         type: 'ROGAINE',
-        fmt: '4'
+        fmt: '4',
+        o_gps: 26183
     },
     {
         id: 'SPB_20261024_3',
@@ -3230,7 +3234,8 @@ let events2026 = [
         bulletin: 'https://o-site.spb.ru/_races/261024/261024_info.pdf',
         endReg: '2026-10-23 12:00',
         map: 'garbolovo_zmeinoe_2026',
-        o_gps: [26177,26178,26179,26180]
+        o_gps: [26177,26178,26179,26180],
+        reskeep: 945
     },
     {
         id: 'SPB_20261024_5',
@@ -3304,10 +3309,12 @@ let events2026 = [
     {
         id: 'SPB_20261031_3',
         date: '2026-10-31',
-        place: 'Лемболово',
-        name: 'Агалатовская классика',
+        place: 'Стеклянный',
+        name: 'Васкеловская классика',
         o_site: '261031_bn',
-        map: 'topograph_2017',
+        reg: 'http://orgeo.ru/event/vaskelovo_classic_2026',
+        endReg: '2026-10-30 20:00',
+        map: 'stekljanny_2021',
         owner: 'WN',
     },
     {

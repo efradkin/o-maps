@@ -400,7 +400,7 @@
         if (!ctx.status.past && !evt.cancelled) actions.push(button('ev_ics', '📅 В свой календарь'));
         const isMy = readMyEvents().includes(evt.id);
         actions.push(button('ev_my', isMy ? '★ Мой старт' : '☆ Мой старт',
-            ` aria-pressed="${isMy}" title="Отметка видна в календаре (фильтр «только мои»)"`));
+            ` aria-pressed="${isMy}" title="Отметка видна в календаре (фильтр «мои»)"`));
         actions.push(button('ev_share', '<img src="images/share.png" alt="" class="sheet-icon"> Поделиться'));
         html += `<div class="mt-3">${actions.join('')}</div>`;
 

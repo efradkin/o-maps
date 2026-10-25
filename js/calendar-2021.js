@@ -674,53 +674,6 @@ let events2021 = [
         map: 'topograph_2017'
     },
     {
-        id: 'RRF_20210508_1',
-        date: '2021-05-08',
-        endDate: '2021-05-09',
-        place: 'Обашево, Владимирская обл.',
-        name: '18-й Чемпионат России по рогейну',
-        link: [
-            'https://zalesye2021.ru/',
-            'https://orgeo.ru/event/12636',
-            'https://rogaining.ru/download/doc/rrc2021_post_press.pdf',
-            'https://rogaining.ru/news/rrf-news/rrc2021-2022',
-            'https://rogaining.ru/news/rrf-news/rrc2021-entry',
-            'https://rogaining.ru/news/rrf-news/rrc2021-reg',
-            'https://rogaining.ru/news/rrf-news/rrc2021-reg-three-days',
-            'https://rogaining.ru/news/rrf-news/rrc2021-results'
-            // 'https://vk.com/zalesie2021' // недоступна
-        ],
-        res: [
-            'https://rogaining.ru/results/rrc-results/rrc2021-results.html',
-            'https://rogaining.ru/download/doc/rrc_2021_results.xlsx'
-        ],
-        bulletin: [
-            // 'https://zalesye2021.ru/wp-content/uploads/2020/06/Event_and_Team_Presentation_RRC_Zalesje2021_02.06.2020-%D1%80%D1%83%D1%81.pdf'
-            // 'https://zalesye2021.ru/wp-content/uploads/2020/06/18TH-RUSSIAN-ROGAINING-CHAMPIONSHIPS-02.06.2020-1.pdf'
-            'https://vk.com/doc188669644_594555740'
-        ],
-        maps: [
-            'https://rogaining.ru/results/rrc-results/rrc2021_map.jpg',
-            'https://zalesye2021.ru/wp-content/uploads/2021/06/Zalesye_final_new_page-08.05.-scaled.jpg'
-        ],
-        map: 'obashevo_rrc_2021',
-        video: [
-            'https://www.youtube.com/watch?v=rScqgJbKXRk',
-            'https://vk.com/video188669644_456239035'
-        ],
-        gps: {
-            'Пути участников (sembruk)': 'https://sembruk.github.io/rrc2021/routes.html',
-            'iOrient': 'https://www.iorient.ru/Competition.aspx?CompetitionId=153'
-        },
-        o_gps: 9803,
-        info: 'Победители: MO (абс.): Дмитрий Панов, Семён Якимов (ForestAdventure) — 306; XO: Наталья Манжай, Игорь Манжай, Константин Иванов (Blizzard Team) — 251; WO: Анастасия Афанасьева, Екатерина Меньшова («Аура приключений») — 249. Команд — 96, участников — 204.',
-        coord: [56.624058, 38.485741],
-        fmt: '24, 8, 4, 8 вело',
-        planner: 'BRV_D',
-        type: 'ROGAINE',
-        start: 'RRC'
-    },
-    {
         id: 'SPB_20210509_1',
         date: '2021-05-09',
         place: 'Пухтолова гора',
@@ -1264,33 +1217,6 @@ let events2021 = [
         }
     },
     {
-        id: 'SPB_20210703_2',
-        date: '2021-07-03',
-        place: 'Себеж',
-        name: 'Чемпионат России по рогейну на байдарках',
-        type: ['ROGAINE','WATER'],
-        start: 'RRC',
-        fmt: '12',
-        link: [
-            'https://vk.com/gornycross',
-            'https://orgeo.ru/event/17122',
-            'https://vk.com/club31941981',
-            'https://rogaining.ru/download/doc/gk82_story.pdf',
-            'https://rogaining.ru/news/rrf-news/kayak-rrc-2021-results',
-            'https://o-site.spb.ru/race.php?id=2021GK'
-        ],
-        res: [
-            'https://vk.com/doc3096232_603829968',
-            'https://o-site.spb.ru/_races/2021GK/210703R_res.pdf',
-            'https://o-site.spb.ru/_races/2021GK/210703R_split.htm'
-        ],
-        photo: 'https://vk.com/album-31941981_280409041',
-        bulletin: 'https://rogaining.ru/download/doc/gk82_bul_4.pdf',
-        endDate: '2021-07-04',
-        coord: [56.3155, 28.4251],
-        info: 'Победители: Александр Рамазанов, Денис Соколов (Выборгский р., СПб, МО) – 68 из 81; 2. Александр Павлов, Наталья Орлова (SN, В. Луки, XV) – 67; 3. Антон Ивашкин, Дмитрий Соломатин (ТАНДЕМ, MV) – 57. Команд — 7, участников — 14.'
-    },
-    {
         id: 'SPB_20210704_1',
         date: '2021-07-04',
         name: 'Яркий Кубок #5',
@@ -1518,6 +1444,7 @@ let events2021 = [
         id: 'SPB_20210904_4',
         date: '2021-09-04',
         place: 'Псков',
+        region: 'PSKOV',
         name: 'Псковский городской рогейн',
         type: 'ROGAINE',
         fmt: '4, 2',

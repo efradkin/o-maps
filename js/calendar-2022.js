@@ -460,6 +460,7 @@ let events2022 = [
         id: 'SPB_20220430_3',
         date: '2022-04-30',
         place: 'Псков',
+        region: 'PSKOV',
         name: 'Исторический рогейн',
         type: 'ROGAINE',
         fmt: '3',
@@ -1067,6 +1068,7 @@ let events2022 = [
         id: 'SPB_20220611_3',
         date: '2022-06-11',
         place: 'Питкяранта',
+        region: 'KARELIA',
         map: 'pitkjaranta_rfar_2022',
         o_gps: 13306,
         name: 'Red Fox Adventure Race',
@@ -1316,37 +1318,6 @@ let events2022 = [
         o_gps: 13748
     },
     {
-        id: 'RRF_20220730_1',
-        date: '2022-07-30',
-        endDate: '2022-07-31',
-        place: 'Кыштым, Слюдорудник',
-        name: '19-й Чемпионат России по рогейну',
-        link: [
-            'https://vk.com/rogein74',
-            'https://orgeo.ru/event/20337',
-            'https://rogaining.ru/news/rrf-news/rrc2022',
-            'https://rogaining.ru/news/rrf-news/rrc2022-bul2',
-            'https://rogaining.ru/news/rrf-news/rrc2022-results'
-        ],
-        res: 'https://rogaining.ru/download/results/rrc2022_results.pdf',
-        bulletin: [
-            // 'https://rogaining.ru/download/doc/rrc2022_bul1.docx'
-            'https://rogaining.ru/download/doc/rrc2022_bul2.pdf'
-        ],
-        maps: [
-            'https://rogaining.ru/download/maps/rrc2022_map_n.pdf',
-            'https://rogaining.ru/download/maps/rrc2022_map_s.pdf'
-        ],
-        map: 'slyudorudnik_rrc_2022',
-        o_gps: 13759,
-        info: 'Победители: MO (абс.): Дмитрий Панов, Максим Цветков (Blizzard Team) — 406; WO: Екатерина Шалдышева, Анна Шляпникова, Нина Михеева («Идём лесом») — 332; XO: Константин Павленко, Ирина Маркова, Павел Демещик (MATS, Ставрополь) — 320. Команд — 59, участников — 124.',
-        coord: [55.6716, 60.3698],
-        fmt: '24, 6',
-        planner: 'KZLV_V',
-        type: 'ROGAINE',
-        start: 'RRC'
-    },
-    {
         id: 'SPB_20220731_1',
         date: '2022-07-31',
         place: 'Смоляное оз',
@@ -1460,6 +1431,7 @@ let events2022 = [
         id: 'SPB_20220903_1',
         date: '2022-09-03',
         place: 'Псков',
+        region: 'PSKOV',
         name: 'Псковский городской рогейн',
         type: 'ROGAINE',
         fmt: '4, 2',

@@ -2597,11 +2597,11 @@ function buildEventPlace(event, suffix) {
 
 function buildEventPlaceOMaps(event, suffix) {
     let mapPage ='spb.html';
-    if (REGION_KEY == 'msk') {
+    if (REGION_KEY === 'MSK') {
         mapPage = 'moscow.html';
-    } else if (REGION_KEY == 'tracks') {
+    } else if (REGION_KEY === 'tracks') {
         mapPage = 'tracks.html';
-    } else if (REGION_KEY == 'smr') {
+    } else if (REGION_KEY === 'SAMARA') {
         mapPage = 'samara.html';
     }
     let place = getEventPlace(event);

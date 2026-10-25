@@ -99,11 +99,14 @@
         </select>
 -->
         <sup class="header_checkbox_container">
-            <input type="checkbox" id="only-major" name="only-major" onclick="switchMajor(this.checked);" />
-            <label for="only-major">только важные &nbsp;</label>
+            <input type="checkbox" id="only-major" name="only-major" onclick="switchEventsParam('major', this.checked);" />
+            <label for="only-major">важные &nbsp;</label>
+
+            <input type="checkbox" id="only-local" name="only-local" onclick="switchEventsParam('local', this.checked);" />
+            <label for="only-local">локальные &nbsp;</label>
 
             <input type="checkbox" id="only-my" name="only-my" onclick="switchMy(this.checked);" />
-            <label for="only-my">только мои</label>
+            <label for="only-my">мои</label>
             <a href="#" id="edit-my-button" onclick="editMy(); return false" title="Правка своих" style="display: none">✏️</a>
             <a href="#" id="edit-my-done-button" onclick="myEditDone(); return false" title="Готово" style="display: none">✔️</a>
         </sup>
@@ -152,11 +155,15 @@
         let loadImagesRequired = false;
         let documentsPage = true;
         let currentSort = 'date';
-        const REGION_KEY = 'msk';
+        const REGION_KEY = 'MSK';
 
         let oMaps = [
             ...moscowMaps
         ];
+
+        // Локальные события (галочка «локальные», js/calendar.js): файлы календаря Москвы
+        // calendar-msk-*.js; кроме них — записи с region: 'MSK'.
+        const LOCAL_EVENTS = new Set([...mskEvents2025, ...mskEvents2026, ...mskEventsOther]);
 
         let oEvents = [
             ...mskEvents2025,
