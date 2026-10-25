@@ -106,6 +106,19 @@ const MAP_FILES = pageScripts.filter(f => /^maps-.+\.js$/.test(f));
 const oMapsMatch = /let oMaps = \[([\s\S]*?)\];/.exec(calendarHtml);
 if (!oMapsMatch) throw new Error('в calendar.html не найден список let oMaps = [...]');
 
+// «Локальные» старты (галочка «локальные» в calendar.js): region записи совпадает
+// с REGION_KEY страницы или запись взята из файлов регионального календаря —
+// набор LOCAL_EVENTS, который страница собирает из своих массивов (для СПб —
+// allYearsEvents и otherEvents2026). Оба выражения берутся из calendar.html как есть.
+const regionKeyMatch = /const REGION_KEY = '([^']+)'/.exec(calendarHtml);
+const localEventsMatch = /const LOCAL_EVENTS = (new Set\([\s\S]*?\));/.exec(calendarHtml);
+if (!regionKeyMatch || !localEventsMatch) {
+    throw new Error('в calendar.html не найдены REGION_KEY и LOCAL_EVENTS — по ним считаются «локальные» старты');
+}
+const allYearsDecl = calendarHtml.includes('const allYearsEvents = [')
+    ? extractLiteral(calendarHtml, 'const allYearsEvents = [', '[', ']') + ';\n'
+    : '';
+
 let source = extractLiteral(read('utils.js'), 'const regions = {') + ';\n';
 source += extractLiteral(read('utils.js'), 'const SERVICES = [', '[', ']') + ';\n';
 source += extractLiteral(read('utils.js'), 'function assignPage(') + '\n';
@@ -113,17 +126,37 @@ source += extractLiteral(read('global-menu.js'), 'const GLOBAL_MENU_ITEMS = [', 
 for (const f of ['starts.js', 'owners.js', 'planners.js', ...MAP_FILES, ...CALENDAR_FILES]) {
     source += read(f) + '\n;\n';
 }
+source += allYearsDecl;
 source += `;({ regions, SERVICES, starts, owners, planners, menu: GLOBAL_MENU_ITEMS,
     oMaps: [${oMapsMatch[1]}],
+    localEvents: ${localEventsMatch[1]},
     buckets: {${BUCKET_VARS.join(', ')}} });`;
 
 const loaded = vm.runInContext(source, vm.createContext({}), { filename: 'omaps-data.js' });
-const { regions, SERVICES, starts, owners, planners, menu, oMaps, buckets } = loaded;
+const { regions, SERVICES, starts, owners, planners, menu, oMaps, localEvents, buckets } = loaded;
+const REGION_KEY = regionKeyMatch[1];
 
 // Все события по id — для parent (место дочерней записи берётся у родителя).
 const eventsById = new Map();
 for (const list of Object.values(buckets)) {
     for (const evt of list) if (evt && evt.id && !eventsById.has(evt.id)) eventsById.set(evt.id, evt);
+}
+
+/**
+ * Локальный старт — как isLocal() в js/calendar.js: region совпадает с REGION_KEY
+ * страницы, запись из файлов регионального календаря (localEvents) или локален
+ * её родитель (parent).
+ */
+const localCache = new Map();
+function isLocal(evt) {
+    if (localCache.has(evt)) return localCache.get(evt);
+    localCache.set(evt, false);   // защита от зацикленных parent
+    let local = evt.region === REGION_KEY || localEvents.has(evt);
+    if (!local && evt.parent && evt.parent !== evt.id && eventsById.has(evt.parent)) {
+        local = isLocal(eventsById.get(evt.parent));
+    }
+    localCache.set(evt, local);
+    return local;
 }
 
 // ------------------------------------------------------------ вспомогалки --
@@ -651,7 +684,10 @@ for (const key of Object.keys(buckets)) {
     for (const evt of buckets[key]) {
         if (!evt || !evt.date) continue;
         const id = evt.id || `${key}_${evt.date}_${evt.name}`;
-        if (seen.has(id)) continue;
+        if (seen.has(id)) {
+            warn(`${id}: идентификатор повторяется (${key}) — в выгрузку попала только первая запись`);
+            continue;
+        }
         seen.add(id);
 
         const fmt = evt.fmt ? stripHtml(evt.fmt) : null;
@@ -671,6 +707,8 @@ for (const key of Object.keys(buckets)) {
             color: colorClass(evt),
             badge: badge(evt),
             major: isMajor(evt),
+            // «Локальный» старт региона календаря — галочка «локальные» на сайте.
+            local: isLocal(evt),
             cancelled: Boolean(evt.cancelled),
             closed: evt.price === -1,
             paid: evt.price === 1,
