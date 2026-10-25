@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-10-25T14:43:10+00:00",
+  "generated": "2026-10-25T15:07:55+00:00",
   "events": 6790,
   "size": 10238427,
-  "sha256": "0bdf4219726221d5c5dbeb5188dc5de358eee466d4c6bd3f462b81109763a362",
+  "sha256": "a94aa0091bc16fa241c037709caf9cabc103b5b90efb81affbde37e5c8f0dbaa",
   "url": "spb.json",
   "datasets": [
     {
@@ -12,13 +12,13 @@
       "url": "spb.json",
       "events": 6790,
       "size": 10238427,
-      "sha256": "0bdf4219726221d5c5dbeb5188dc5de358eee466d4c6bd3f462b81109763a362"
+      "sha256": "a94aa0091bc16fa241c037709caf9cabc103b5b90efb81affbde37e5c8f0dbaa"
     }
   ],
   "app": {
     "versionCode": 8,
     "versionName": "0.7.8",
     "url": "https://o-maps.spb.ru/app/calendar/o-maps-calendar-0.7.8.apk",
-    "notes": "Лыжный цвет, фильтр GPS, внешние карты и карты O-Stuff, заголовки по годам"
+    "notes": "Галочки «важные», «локальные», «мои»"
   }
 }
