@@ -507,6 +507,7 @@ let tracks = [
         gpx: 'tracks/bugaina_trail_omaps.gpx',
         owner: 'OOPTSPB',
         markir: true,
+        video: 'https://vkvideo.ru/video-26270763_456254582',
         type: ['WALK']
     },
     {

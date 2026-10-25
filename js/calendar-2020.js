@@ -1292,7 +1292,8 @@ let events2020 = [
         place: 'Большая Пушкарская ул',
         name: 'Tour de Sprint. Старт 2',
         reskeep: 376,
-        maps: './original_maps/starts/other/big_pushkarskaya_2020_09_21_omaps.webp'
+        maps: './original_maps/starts/other/big_pushkarskaya_2020_09_21_omaps.webp',
+        map: 'petrogradka_wn_2024'
     },
     {
         id: 'SPB_20200921_2',

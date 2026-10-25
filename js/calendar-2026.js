@@ -2948,9 +2948,10 @@ let events2026 = [
         fmt: '6',
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/53879',
+        photo: 'https://vk.ru/album-30311715_312230105',
         video: 'https://vk.com/video20703959_456239616',
         endReg: '2026-10-07 22:00',
-        info: '+ беговой TrailAdventure.',
+        info: '+ беговой TrailAdventure. <a href="https://o-route.ru/events/ba-aut-2026">Треки участников</a>.',
         start: ['BA','TA'],
         owner: ['BKTV', 'SHBN']
     },
@@ -3083,6 +3084,7 @@ let events2026 = [
         bulletin: 'https://orgeo.ru/files/event/file/53888_a99fedfe25.docx',
         photo: ['https://disk.yandex.ru/d/ZQs0NYD5aAYOpQ','https://drive.google.com/drive/folders/1fjhK4UF5IaNEuqTVFjhGPXgvvYlw4B0f'],
         video: 'https://vk.com/video-176889592_456239170',
+        info: '<a href="https://o-route.ru/events/omb-2026">Треки участников</a>.',
         coord: [61.014852, 30.228219],
         type: 'TOURISM',
         start: 'MB'
@@ -3209,6 +3211,7 @@ let events2026 = [
         o_site: '261024r',
         link: 'https://www.multsport.ru/starts/klo-final-26/',
         reg: 'https://www.multsport.ru/starts/klo-final-26/registration.html',
+        photo: 'https://vk.ru/album-8292013_314781321',
         type: 'ROGAINE',
         fmt: '4',
         o_gps: 26183
@@ -3221,6 +3224,8 @@ let events2026 = [
         link: 'https://vk.ru/wall-201330282_2663',
         reg: 'juventa-uvr@sbor.net',
         endReg: '2026-10-21 18:00',
+        photo: 'https://vk.ru/album-201330282_312091606',
+        res: 'https://vk.ru/s/v1/doc/8aMAxTEzTWv2rS3LOq1p_TZNtdzWeOsV5mR1HxP3CfFC8MIUxZM',
         type: 'ROGAINE',
         fmt: '1.5'
     },
@@ -3266,8 +3271,12 @@ let events2026 = [
         date: '2026-10-28',
         name: 'Спринт Тур',
         place: 'Озерки',
+        reg: 'https://orgeo.ru/event/56346',
+        endReg: '2026-10-27 23:55',
+        bulletin: 'https://orgeo.ru/files/event/file/56346_1f76babddc.pdf',
         fmt: 'спринт',
-        start: 'SPRINT_TOUR'
+        start: 'SPRINT_TOUR',
+        map: 'esenina_2021'
     },
     {
         id: 'SPB_20261030_1',
@@ -3369,8 +3378,10 @@ let events2026 = [
         date: '2026-11-14',
         place: 'Луга, б/о Штоль',
         name: 'Рогейн на Лужских берегах (ККР №5)',
-        reg: 'https://orgeo.ru/event/48943',
-        fmt: '6, 3',
+        reg: 'https://orgeo.ru/event/info/56353', // https://orgeo.ru/event/48943
+        endReg: '2026-11-11 22:00',
+        bulletin: 'https://orgeo.ru/files/event/file/56353_acf100af6d.pdf',
+        fmt: '5, 3',
         type: 'ROGAINE',
         map: 'toloni_2025',
         owner: 'SHBN'

@@ -1115,7 +1115,7 @@ let events2019 = [
         name: 'Sprint Camp 2019. 1 день. Утро',
         reskeep: [185, 186],
         start: 'SPRINT_TOUR',
-        map: 'petrogradskaya_2016'
+        map: 'vvedenskaya_2019'
     },
     {
         id: 'SPB_20190811_1',
