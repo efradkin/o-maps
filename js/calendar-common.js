@@ -5629,7 +5629,8 @@ let commonEvents = [
         info: 'Лично-командные соревнования. Группы: МЖ-25.',
         fmt: 'спринт, классика, эстафета 3х',
         owner: 'FSOR',
-        reg: 'https://orgeo.ru/event/10178'
+        reg: 'https://orgeo.ru/event/10178',
+        o_gps: 6398
     },
     {
         id: 'MAJOR_20190912_3',
@@ -7020,7 +7021,8 @@ let commonEvents = [
         info: 'Личные соревнования. Соревнования среди команд учреждений дополнительного образования детей (спортивных школ). Группы: МЖ-Элита, 20, 18, 16, 14, 13, 12, 11.',
         fmt: 'классика, лонг, многодневный, эстафета 2х',
         owner: 'FSOR',
-        reg: 'https://orgeo.ru/event/o_slet_moscow_2021'
+        reg: 'https://orgeo.ru/event/o_slet_moscow_2021',
+        o_gps: 10046
     },
     {
         id: 'MAJOR_20210602_1',
@@ -7866,7 +7868,15 @@ let commonEvents = [
         info: 'Лично-командные соревнования. Группы: МЖ-25.',
         type: 'SKI',
         fmt: 'спринт, классика, эстафета 3х',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        o_gps: {
+            '05-1': 11962,
+            '05-2': 11963,
+            '06-1': 11976,
+            '06-2': 11977,
+            '07-1': 11996,
+            '07-2': 11997
+        }
     },
     {
         id: 'MAJOR_20220204_1',
@@ -9120,7 +9130,11 @@ let commonEvents = [
         type: 'SKI',
         fmt: 'спринт, классика, эстафета 3х',
         owner: 'FSOR',
-        reg: 'https://orgeo.ru/event/25120'
+        reg: 'https://orgeo.ru/event/25120',
+        o_gps: {
+            '06-М25': 14990,
+            '06-Ж25': 14991
+        }
     },
     {
         id: 'MAJOR_20230209_1',
@@ -10164,7 +10178,11 @@ let commonEvents = [
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/29004',
         bulletin: 'https://orgeo.ru/files/event/file/29004_3bc2ee7e40.doc',
-        o_stuff: 5935
+        o_stuff: 5935,
+        o_gps: {
+            '26': 17062,
+            '27': 17063
+        }
     },
     {
         id: 'MAJOR_20230831_2',
@@ -10708,7 +10726,11 @@ let commonEvents = [
         fmt: 'спринт, классика, эстафета 3х',
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/33202',
-        res: 'https://orgeo.ru/files/event/file/33202_f0bf45d81e.zip'
+        res: 'https://orgeo.ru/files/event/file/33202_f0bf45d81e.zip',
+        o_gps: {
+            '17-1': 18412,
+            '17-2': 18413
+        }
     },
     {
         id: 'MAJOR_20240305_2',
@@ -14799,7 +14821,8 @@ let commonEvents = [
         start: 'WN',
         region: 'SPB',
         map: ['wn_2026_07_03','wn_2026_07_04','wn_2026_07_05'],
-        planner: ['BLKV_M','GRBTNKVA_S','YGNV']
+        planner: ['BLKV_M','GRBTNKVA_S','YGNV'],
+        o_gps: 25542
     },
     {
         id: 'COMMON_20260704_1',

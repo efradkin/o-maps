@@ -47,8 +47,8 @@ https://o-gps-center.ru/viewer/) в записях calendar-*.js.
        СПб — в calendar-YYYY.js); в соседние ±1 день нет трансляции с теми же
        словами, но с другим топонимом — защита от одноимённых стартов в
        других городах («Золотая осень», «Российский азимут» …);
-     * в названии трансляции нет «тренировка», «тест», «копия», «онлайн»,
-       «модель»/«training»;
+     * в названии трансляции нет «тренировка» («трен», «тр»), «тест»,
+       «копия», «онлайн», «модель»/«training»;
      * запись — не беговой/лыжный забег (type RUN, SK_RACE) и не из
        calendar-fsor.js, calendar-iof.js и calendar-irf.js: чемпионаты и кубки
        России, IOF и IRF заполняются вручную (в calendar-fsor.js o_gps ставится на
@@ -65,6 +65,38 @@ https://o-gps-center.ru/viewer/) в записях calendar-*.js.
    'Средняя'/'Длинная', дистанция 'A'–'D' или группы ('М35/40');
    если различить нельзя — '1', '2', …
 
+   Старты СПб и ЛО, которых нет в календаре. В конце отчёта — раздел
+   «Возможно, старты СПб и ЛО, которых нет в календаре»: трансляции, для
+   которых не нашлось ни одной записи календаря СПб (дата ±1 день и общие
+   значимые слова), но название которых указывает на Петербург или область:
+     * в названии есть «СПб», «ЛО», «Петербург», «Ленинград…», «Ленобл»;
+     * или слово с заглавной буквы (обычно топоним: Токсово, Орехово,
+       Щучье …), которое есть и в месте записей календаря СПб, и в названиях
+       трансляций, уже вписанных в o_gps записей СПб, но нет ни в записях
+       других регионов, ни в названиях их трансляций; составной топоним
+       («Спас-Каменка») сравнивается целиком. При этом в названии нет слов,
+       известных только по записям и трансляциям других регионов (в том
+       числе частей составных слов: «Рязань-Трофи»). Названия спортшкол и
+       организаций (СШОР, ДЮСШ, УТС, ФСО …) и видов (МТБО) местом не считаются,
+       как и слова из списка исключений NOT_SPB в начале скрипта (Коломна,
+       Чудово, Мир, Мечта …) — его пополняют по ложным срабатываниям.
+   Записи календаря СПб: calendar-YYYY.js, calendar-early.js,
+   calendar-other-YYYY.js, calendar-ski-YYYY.js без поля region и записи
+   любых файлов с region: 'SPB' (у дочерней записи — region родителя).
+   Тренировки, тесты и копии (см. ниже) и спортивная радиопеленгация
+   («Охота на лис», частоты в МГц) в раздел не попадают. По каждому
+   дню указано, какие записи СПб в календаре на эту дату есть: если есть,
+   трансляция, возможно, относится к одной из них, а названия просто не
+   совпали. Это подсказка для ручной проверки, в файлы ничего не пишется.
+
+   Кэш списка трансляций. Вес слова считается по всему списку трансляций,
+   а на одной-двух страницах (--fresh) он неточен. Поэтому скачанный список
+   сохраняется в файл (по умолчанию fill_ogps_cache.json рядом со скриптом;
+   его стоит добавить в .gitignore): полный проход без --year и --fresh
+   заменяет кэш целиком, частичный — дополняет. Веса слов и проверка
+   одноимённых стартов в соседние дни берутся по кэшу вместе со скачанным.
+   Если полного прохода ещё не было, скрипт об этом предупреждает.
+
 Общие правила:
   * правка на месте в каталоге --src; записи, у которых o_gps уже есть, не
     трогаются (повторный запуск ничего не меняет); файлы без изменений не
@@ -80,15 +112,34 @@ https://o-gps-center.ru/viewer/) в записях calendar-*.js.
   --year YYYY     только записи этого года (по полю date); в режиме 2 ещё и
                   скачиваются только страницы списка с трансляциями этого
                   года (список идёт от новых к старым), поэтому поиск быстрее.
-                  Без --year скачивается весь список (~700 страниц, несколько
-                  минут).
+                  Без --year и --fresh скачивается весь список (~700 страниц,
+                  несколько минут).
+  --fresh [N]     режим 2: только трансляции за последние N дней (по
+                  умолчанию 7; дата трансляции не раньше сегодня минус N,
+                  будущие тоже входят) — скачиваются лишь первые страницы
+                  списка, обычно одна-две. Записи календаря — любых лет.
+                  Вместе с --year — пересечение обоих условий.
   --save FILE     режим 2: записать уверенные соответствия в FILE в формате
                   карты (для правки и применения через --matches).
+  --cache FILE    режим 2: файл кэша списка трансляций (по умолчанию
+                  fill_ogps_cache.json рядом со скриптом).
+  --no-cache      режим 2: не читать и не записывать кэш.
   --src DIR       каталог с calendar-*.js (по умолчанию js).
   -n, --dry-run   ничего не записывать в calendar-*.js, только показать.
   --zip FILE      упаковать изменённые файлы в архив (внутри — каталог js/);
                   при -n и при отсутствии изменений архив не создаётся.
+  --out [FILE]    дублировать отчёт (всё, что выводится в консоль, кроме строки
+                  прогресса и служебных сообщений) в файл FILE, UTF-8; без
+                  имени — fill_ogps_out.txt в текущем каталоге. Файл
+                  перезаписывается. Работает в обоих режимах.
   -h, --help      справка.
+
+Пока скачивается список трансляций, в консоли одной строкой показывается
+прогресс (как в check_upload.py):
+  [██████████░░░░░░░░░░░░░░░░░░░░] 240/700  34%  трансляций: 4810  прошло 40 с, осталось ~1 мин 17 с
+С --year и --fresh число страниц заранее неизвестно, и прогресс считается
+в днях: сколько дней от самой новой трансляции до границы уже пройдено.
+Строки прогресса нет, если вывод перенаправлен в файл.
 
 Примеры (из корня репозитория):
   python tools/fill_ogps.py --matches ogps_matches.json -n
@@ -97,11 +148,71 @@ https://o-gps-center.ru/viewer/) в записях calendar-*.js.
   python tools/fill_ogps.py --year 2026 --apply -n      # что будет вписано
   python tools/fill_ogps.py --year 2026 --apply         # вписать уверенные
   python tools/fill_ogps.py --save new_matches.json     # все годы, карта для правки
+  python tools/fill_ogps.py --fresh                     # трансляции последней недели
+  python tools/fill_ogps.py --fresh 3 --apply           # за 3 дня, вписать уверенные
+  python tools/fill_ogps.py --year 2026 --out           # отчёт и в консоль, и в fill_ogps_out.txt
 """
-import argparse, concurrent.futures as cf, datetime as dt, html, json, math, os, re, sys, time, urllib.request, zipfile
+import argparse, concurrent.futures as cf, datetime as dt, html, json, math, os, re, shutil, subprocess, sys, time, urllib.request, zipfile
 from collections import Counter, defaultdict
 
 VIEWER = 'https://o-gps-center.ru/viewer/'
+CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fill_ogps_cache.json')
+BAR_WIDTH = 30
+
+# ---------------------------------------------------------------- прогресс (как в check_upload.py)
+
+def duration(seconds):
+    """«14 с», «2 мин 05 с», «1 ч 03 мин»."""
+    s = int(round(seconds))
+    if s < 60:
+        return f'{s} с'
+    if s < 3600:
+        return f'{s // 60} мин {s % 60:02d} с'
+    return f'{s // 3600} ч {s % 3600 // 60:02d} мин'
+
+class Progress:
+    """Прогресс-бар в одной строке stderr; выключен, если stderr — не консоль."""
+
+    def __init__(self, total, fmt=None):
+        self.total, self.started, self.shown, self.width = max(total, 1), time.time(), 0.0, 0
+        self.fmt = fmt or (lambda done, total: f'{done:>{len(str(total))}}/{total}')
+        self.on, self.finished = sys.stderr.isatty(), False
+
+    def update(self, done, note=''):
+        done = min(done, self.total)
+        now = time.time()
+        if not self.on or self.finished or (done < self.total and now - self.shown < 0.1):
+            return
+        self.shown = now
+        frac = done / self.total
+        full = int(frac * BAR_WIDTH)
+        elapsed = now - self.started
+        line = (f'[{"█" * full}{"░" * (BAR_WIDTH - full)}] {self.fmt(done, self.total)}'
+                f' {frac:4.0%}  {note}{"  " if note else ""}прошло {duration(elapsed)}')
+        if 0 < done < self.total:
+            line += f', осталось ~{duration(elapsed / done * (self.total - done))}'
+        line = line[:shutil.get_terminal_size().columns - 1]   # длиннее окна — строка перенесётся и \r не сработает
+        pad = max(0, self.width - len(line))                    # стереть хвост более длинной прежней строки
+        self.width = len(line)
+        sys.stderr.write('\r' + line + ' ' * pad)
+        if done == self.total:
+            sys.stderr.write('\n')
+            self.finished = True
+        sys.stderr.flush()
+
+class Tee:
+    """stdout, который пишет и в консоль, и в файл (для --out)."""
+
+    def __init__(self, stream, path):
+        self.stream, self.file = stream, open(path, 'w', encoding='utf-8', newline='\n')
+
+    def write(self, s):
+        self.stream.write(s)
+        self.file.write(s)
+
+    def flush(self):
+        self.stream.flush()
+        self.file.flush()
 
 # ---------------------------------------------------------------- файлы календаря
 
@@ -142,7 +253,7 @@ def scan(s):
         i += 1
     return objs, code
 
-FIELD = re.compile(r"""\b(id|date|endDate|name|place|parent|type)\s*:\s*(?:'((?:[^'\\]|\\.)*)'|"((?:[^"\\]|\\.)*)"|\[([^\]]*)\])""")
+FIELD = re.compile(r"""\b(id|date|endDate|name|place|parent|type|region)\s*:\s*(?:'((?:[^'\\]|\\.)*)'|"((?:[^"\\]|\\.)*)"|\[([^\]]*)\])""")
 ITEMSTR = re.compile(r"""'((?:[^'\\]|\\.)*)'|"((?:[^"\\]|\\.)*)\"""")
 unesc = lambda v: re.sub(r'\\(.)', r'\1', v)
 
@@ -210,8 +321,14 @@ def load_records(src):
             used.update(ids)
             live = ''.join(ch for ch, k in zip(body, code[a:b + 1]) if k)
             f['has_gps'] = bool(re.search(r'\bo_gps\s*:', live))
+            f['gps'] = ogps_ids(live)        # трансляции записи (без закомментированных)
             f['file'] = os.path.basename(path)
             recs.append(f)
+    byid = {r['id']: r for r in recs}
+    for r in recs:                           # запись календаря СПб: region родителя, своё region, файл
+        par = byid.get(r.get('parent')) if r.get('parent') else None
+        reg = r.get('region') or (par.get('region') if par else None)
+        r['spb'] = reg == 'SPB' if reg else bool(SPB_FILES.fullmatch(r['file']))
     return recs, used
 
 # ---------------------------------------------------------------- запись в файлы
@@ -302,14 +419,23 @@ def parse_page(s):
         print(f'  ! на странице разобрано {len(items)} из {s.count("box_article")} трансляций', file=sys.stderr)
     return items
 
-def fetch_broadcasts(year=None, threads=6):
-    """Трансляции со страниц списка. Список отсортирован от новых к старым; с year
-    скачиваются страницы, пока на очередной порции не останется трансляций года year и новее."""
+def fetch_broadcasts(lo=None, threads=6):
+    """Трансляции со страниц списка: ({id: трансляция}, весь ли список скачан).
+    Список отсортирован от новых к старым; с lo ('ГГГГ-ММ-ДД') скачиваются страницы,
+    пока на очередной порции не останутся только трансляции старше lo."""
     first = get_page(1)
     last = max([int(x) for x in re.findall(r'\?page=(\d+)', first)] or [1])
     items = parse_page(first)
-    lo = f'{year}-01-01' if year else None
+    if lo:                                   # прогресс в днях: от самой новой трансляции до lo
+        newest = D(max([x['date'] for x in items] or [lo]))
+        progress = Progress((newest - D(lo)).days, fmt=lambda d, t: f'{d}/{t} дн.')
+        left = lambda: (newest - D(min(x['date'] for x in items))).days if items else 0
+    else:
+        progress = Progress(last)
+        left = lambda: p - 1
     p = 2
+    progress.update(left(), f'страниц: 1, трансляций: {len(items)}')
+    complete = True
     with cf.ThreadPoolExecutor(threads) as ex:
         while p <= last:
             batch = list(range(p, min(last, p + threads - 1) + 1))
@@ -317,13 +443,41 @@ def fetch_broadcasts(year=None, threads=6):
             got = [x for s in pages for x in parse_page(s)]
             items += got
             p = batch[-1] + 1
-            print(f'\r  страниц: {p - 1}/{last}', end='', file=sys.stderr)
+            progress.update(left(), f'страниц: {p - 1}, трансляций: {len(items)}')
             if lo and got and max(x['date'] for x in got) < lo:
+                complete = p > last
                 break
-    print(file=sys.stderr)
-    if year:
-        items = [x for x in items if x['date'][:4] == year]
-    return {x['id']: x for x in items}
+    progress.update(progress.total, f'страниц: {p - 1}, трансляций: {len(items)}')
+    return {x['id']: x for x in items}, complete
+
+def load_cache(path):
+    """(дата последнего полного прохода или None, {id: трансляция}) из файла кэша."""
+    try:
+        d = json.load(open(path, encoding='utf-8'))
+        return d.get('full'), {int(k): dict(id=int(k), date=v[0], name=v[1]) for k, v in d['items'].items()}
+    except FileNotFoundError:
+        return None, {}
+    except (ValueError, KeyError, TypeError, IndexError, AttributeError) as e:
+        print(f'  ! кэш {path} не прочитан ({e}), будет записан заново', file=sys.stderr)
+        return None, {}
+
+def save_cache(path, full, items):
+    """Кэш: по трансляции в строке, от новых к старым."""
+    rows = [f'  {json.dumps(str(i))}: {json.dumps([x["date"], x["name"]], ensure_ascii=False)}'
+            for i, x in sorted(items.items(), reverse=True)]
+    text = '{\n "full": ' + json.dumps(full) + ',\n "items": {\n' + ',\n'.join(rows) + '\n }\n}\n'
+    tmp = path + '.tmp'
+    open(tmp, 'w', encoding='utf-8', newline='\n').write(text)
+    os.replace(tmp, path)
+
+def warn_if_not_ignored(path):
+    """Напоминание, если git не игнорирует файл кэша (он не нужен в репозитории и на сайте)."""
+    try:
+        r = subprocess.run(['git', 'check-ignore', '-q', path], capture_output=True)
+    except OSError:
+        return                                          # git не установлен
+    if r.returncode == 1:
+        print(f'  ! {os.path.relpath(path)} не в .gitignore — кэш не нужен в репозитории', file=sys.stderr)
 
 # ---------------------------------------------------------------- сопоставление
 
@@ -339,12 +493,45 @@ GENERIC = set('''чемпионат первенство кубок мемори
  официальная official трансляция пароль дистанция группа старт эстафета спринт лонг классика маркир средняя
  рогейн трейл открытие закрытие сезона короткая длинная средняя сводная карта круг ночная ночное'''.split())
 GENERIC6 = {g[:6] for g in GENERIC}
-NOAUTO_NAME = re.compile(r'тренир|\bтрен\b|тест|копия|онлайн|on-?line|модел|model|training', re.I)
+NOAUTO_NAME = re.compile(r'тренир|\bтрен\b|\bтр\b|тест|копия|онлайн|on-?line|модел|model|training', re.I)
 NOAUTO_TYPES = {'RUN', 'SK_RACE'}
 NOAUTO_FILES = {'calendar-fsor.js', 'calendar-iof.js', 'calendar-irf.js'}   # чемпионаты/кубки России, IOF и IRF заполняются вручную
 # город/регион, подразумеваемый файлом календаря (не считается «чужим» топонимом в названии трансляции)
 FILE_REGION = [(r'calendar-msk', 'Москва Московский Московская Москвы'), (r'calendar-samara', 'Самара Самарский Самарская Самары'),
                (r'calendar-(\d{4}|early|common)', 'Санкт-Петербург Петербург СПб Ленинградская')]
+# файлы календаря СПб: их записи без поля region — петербургские
+SPB_FILES = re.compile(r'calendar-(\d{4}|early|other-\d{4}|ski-\d{4})\.js')
+# указание на Петербург или область в названии трансляции
+SPB_MARK = re.compile(r'(?<!\w)(?:СПб|СПБ|Спб|спб|С-Пб|ЛО|ЛенОбл)(?!\w)|[Пп]етербург|[Лл]енинград|[Лл]енобл')
+CAPWORD = re.compile(r'[A-ZА-ЯЁ][A-Za-zА-Яа-яЁё]{2,}')
+# не места: спортшколы, организации, виды — такие слова есть в любом регионе
+NOT_PLACE = {t[:6] for t in '''сшор сдюсшор дюсш сдюшор сш цдют ддют гбоу гбу гбоудо маудо мбудо мбоудо дод
+ утс фсо федерация мтбо mtbo трейл trail'''.split()}
+# не считаются топонимами СПб, хотя по данным календаря выглядят так: места с тем же названием
+# в других регионах, места не в СПб и ЛО, обычные слова и фамилии из названий мест;
+# пополнять по ложным срабатываниям в разделе «Возможно, старты СПб и ЛО…»
+NOT_SPB = '''Коломна Ильинский Чудово
+ Мир Мечта Новое Тихое Горка Холм Голубая Малиновая Осиновая Болотная Яркий Ласковый Прибой Детский
+ Аврора Возрождение Пролетарский
+ Алексеева Егоровой Сахарова Карпинского Жени'''.split()
+# не старты календаря: спортивная радиопеленгация («Охота на лис», частоты)
+NOT_CALENDAR = re.compile(r'охот\w* на лис|радиопеленг|\d\s*мгц', re.I)
+# слово с заглавной буквы или составной топоним через дефис («Спас-Каменка», «Усть-Луга»)
+CAPTERM = re.compile(r'[A-ZА-ЯЁ][A-Za-zА-Яа-яЁё]*(?:-[A-Za-zА-Яа-яЁё]+)+|[A-ZА-ЯЁ][A-Za-zА-Яа-яЁё]{2,}')
+
+def cap_terms(s, parts=False):
+    """{основа: слово} для слов с заглавной буквы: основа — как в proper_words(),
+    у составного топонима — он весь («спас-каменка»), чтобы «Каменка» не совпала со «Спас-Каменкой»;
+    с parts — ещё и основы частей составного слова («рязань-трофи» -> и «рязань»)."""
+    out = {}
+    for w in CAPTERM.findall(s):
+        if '-' in w:
+            out.setdefault(w.lower().replace('ё', 'е'), w)
+        if '-' not in w or parts:
+            for t in toks(w):
+                if t not in GENERIC6 and t not in NOT_PLACE:
+                    out.setdefault(t, w)
+    return out
 
 def norm(s):
     return re.sub(r'[^a-zа-я0-9]+', ' ', s.lower().replace('ё', 'е'))
@@ -359,7 +546,7 @@ def toks(s):
 
 def proper_words(name):
     """Значимые слова с заглавной буквы (обычно топонимы и названия) — в виде основ, как в toks()."""
-    words = re.findall(r'[A-ZА-ЯЁ][A-Za-zА-Яа-яЁё]{2,}', name)
+    words = CAPWORD.findall(name)
     return {t for t in toks(' '.join(words)) if t not in GENERIC6}
 
 def D(s):
@@ -409,7 +596,8 @@ def build_value(rec, evs):
 
 def discover(recs, used, all_broadcasts, broadcasts, year=None):
     """Кандидаты для трансляций broadcasts (all_broadcasts — весь скачанный список, для весов слов
-    и проверки неоднозначности). Возвращает (sure, check, byid)."""
+    и проверки неоднозначности). Возвращает (sure, check, byid, nospb); nospb — трансляции,
+    для которых не нашлось ни одной записи календаря СПб (дата ±1 день, общие слова)."""
     byid = {r['id']: r for r in recs}
     df = Counter()
     for e in all_broadcasts.values():
@@ -449,7 +637,7 @@ def discover(recs, used, all_broadcasts, broadcasts, year=None):
     for e in all_broadcasts.values():
         near[e['date']].append(e)
 
-    sure, check = defaultdict(list), defaultdict(list)
+    sure, check, nospb = defaultdict(list), defaultdict(list), []
     for e in sorted(broadcasts.values(), key=lambda e: e['id']):
         if e['id'] in used:
             continue
@@ -460,6 +648,8 @@ def discover(recs, used, all_broadcasts, broadcasts, year=None):
             common = et & rt
             if common:
                 hits.append((sum(W(t) for t in common), r, d0 <= d <= d1, common, types, rt | reg, target))
+        if not any(h[1]['spb'] for h in hits):
+            nospb.append(e)
         if not hits:
             continue
         hits.sort(key=lambda h: -h[0])
@@ -481,12 +671,70 @@ def discover(recs, used, all_broadcasts, broadcasts, year=None):
                   and not (types & NOAUTO_TYPES))
         if ok:
             sure[best[1]['id']].append(e)
+            if nospb and nospb[-1] is e:
+                nospb.pop()                  # уверенно сопоставлена с записью другого региона
             continue
         for h in hits:                       # в отчёт: записи без o_gps; ±1 день — только при весе ≥ 6
             if not h[6] or (h[4] & NOAUTO_TYPES) or (not h[2] and h[0] < 6):
                 continue
             check[h[1]['id']].append((e, h[2], h[0], sorted(h[3])))
-    return sure, check, byid
+    return sure, check, byid, nospb
+
+def spb_missing(nospb, recs, pool):
+    """Из трансляций без записи СПб — те, что похожи на старты СПб и ЛО.
+    pool — все известные трансляции (для слов в названиях уже вписанных в o_gps трансляций).
+    Возвращает [(трансляция, причина)] и {дата: [записи СПб на эту дату]}."""
+    # слова записей календаря (место и название) и трансляций, уже вписанных в o_gps:
+    # составные слова целиком — для слов СПб, с частями — для слов других регионов
+    spb_place, spb_bc, other = set(), set(), set()
+    spb_all, other_all = set(), set()
+    for r in recs:
+        texts = [r.get('place', ''), r.get('name', '')] + [pool[i]['name'] for i in r['gps'] if i in pool]
+        whole = [set(cap_terms(t)) for t in texts]
+        if r['spb']:
+            spb_place |= whole[0]
+            spb_bc |= set().union(*whole[2:])
+            spb_all |= set().union(*(cap_terms(t, True) for t in texts))
+        else:
+            other |= set().union(*whole)
+            other_all |= set().union(*(cap_terms(t, True) for t in texts))
+    # слово СПб: есть в месте записей СПб и в названиях их трансляций, нет у записей
+    # и трансляций других регионов
+    local = (spb_place & spb_bc) - other - set(cap_terms(' '.join(NOT_SPB)))
+    foreign = other_all - spb_all                # слова, известные только по другим регионам
+
+    out, days = [], set()
+    for e in nospb:
+        name = e['name']
+        if NOAUTO_NAME.search(name) or NOT_CALENDAR.search(name):
+            continue
+        mark = SPB_MARK.search(name)
+        terms = cap_terms(name)
+        if mark:
+            why = mark.group(0)
+        elif terms.keys() & local and not cap_terms(name, parts=True).keys() & foreign:
+            why = ', '.join(dict.fromkeys(w for t, w in terms.items() if t in local))
+        else:
+            continue
+        out.append((e, why))
+        days.add(e['date'])
+    on_day = defaultdict(list)               # записи СПб, в даты которых попадает трансляция
+    for r in recs:
+        if not r['spb']:
+            continue
+        try:
+            d0 = D(r['date'])
+            d1 = max(d0, D(r.get('endDate') or r['date']))
+        except ValueError:
+            continue
+        if (d1 - d0).days > 60:
+            continue                         # сезонные серии и «зонтики» на месяцы — не подсказка
+        d = d0
+        while d <= d1:
+            if d.isoformat() in days:
+                on_day[d.isoformat()].append(r)
+            d += dt.timedelta(days=1)
+    return out, on_day
 
 def report(sure, check, byid):
     def head(rid):
@@ -503,6 +751,21 @@ def report(sure, check, byid):
         for e, ins, sc, common in sorted(check[rid], key=lambda x: x[0]['id']):
             print(f"    {e['id']:6} {e['date']}{'' if ins else ' [±1 день]'}  {e['name']}   ~{','.join(common)} ({sc:.1f})")
 
+def report_spb(missing, on_day):
+    print(f'\n== Возможно, старты СПб и ЛО, которых нет в календаре ({len(missing)} трансляций) ==')
+    by_day = defaultdict(list)
+    for e, why in missing:
+        by_day[e['date']].append((e, why))
+    for day in sorted(by_day):
+        rs = sorted(on_day.get(day, []), key=lambda r: r['id'])
+        if rs:
+            known = '; '.join(f"{r['id']} {r.get('name', '')}" for r in rs[:5]) + (f' и ещё {len(rs) - 5}' if len(rs) > 5 else '')
+            print(f'{day} · в календаре СПб в этот день: {known}')
+        else:
+            print(f'{day} · в календаре СПб в этот день записей нет')
+        for e, why in sorted(by_day[day], key=lambda x: x[0]['id']):
+            print(f"    {e['id']:6}  {e['name']}   [{why}]")
+
 # ---------------------------------------------------------------- main
 
 def main():
@@ -510,17 +773,30 @@ def main():
     ap.add_argument('--matches', help='JSON-карта {id записи: o_gps}; без него — поиск новых трансляций на o-gps-center.ru')
     ap.add_argument('--apply', action='store_true', help='режим поиска: вписать уверенные соответствия')
     ap.add_argument('--year', help='только записи этого года (YYYY)')
+    ap.add_argument('--fresh', nargs='?', type=int, const=7, metavar='N',
+                    help='режим поиска: только трансляции за последние N дней (по умолчанию 7)')
     ap.add_argument('--save', help='режим поиска: записать уверенные соответствия в JSON-карту')
+    ap.add_argument('--cache', default=CACHE, help='файл кэша списка трансляций')
+    ap.add_argument('--no-cache', action='store_true', help='не читать и не записывать кэш')
     ap.add_argument('--src', default='js', help='каталог с calendar-*.js (по умолчанию js)')
     ap.add_argument('-n', '--dry-run', action='store_true', help='ничего не менять в файлах')
     ap.add_argument('--zip', help='упаковать изменённые файлы в архив')
+    ap.add_argument('--out', nargs='?', const='fill_ogps_out.txt', metavar='FILE',
+                    help='дублировать отчёт в файл (UTF-8), по умолчанию fill_ogps_out.txt')
     a = ap.parse_args()
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, 'reconfigure'):
+            stream.reconfigure(errors='replace')            # кириллица и псевдографика в консоли Windows
+    if a.out:
+        sys.stdout = Tee(sys.stdout, a.out)
     if a.year and not re.fullmatch(r'\d{4}', a.year):
         ap.error('--year: ожидается год вида 2026')
+    if a.fresh is not None and a.fresh < 0:
+        ap.error('--fresh: число дней не может быть отрицательным')
 
     if a.matches:
-        if a.apply or a.save:
-            ap.error('--apply и --save относятся к режиму поиска (без --matches)')
+        if a.apply or a.save or a.fresh is not None:
+            ap.error('--apply, --save и --fresh относятся к режиму поиска (без --matches)')
         mapping = json.load(open(a.matches, encoding='utf-8'))
         apply_mapping(a.src, mapping, a.dry_run, a.zip, a.year)
         return
@@ -528,10 +804,30 @@ def main():
     recs, used = load_records(a.src)
     print(f'Записей: {len(recs)}, без o_gps: {sum(not r["has_gps"] for r in recs)}, '
           f'трансляций уже в o_gps: {len(used)}', file=sys.stderr)
-    broadcasts = fetch_broadcasts(a.year)
-    print(f'Трансляций в списке{" за " + a.year if a.year else ""}: {len(broadcasts)}', file=sys.stderr)
-    sure, check, byid = discover(recs, used, broadcasts, broadcasts, a.year)
+    since = (dt.date.today() - dt.timedelta(days=a.fresh)).isoformat() if a.fresh is not None else None
+    lo = max(filter(None, [f'{a.year}-01-01' if a.year else None, since]), default=None)
+    full_at, cached = (None, {}) if a.no_cache else load_cache(a.cache)
+    fetched, complete = fetch_broadcasts(lo)
+    if complete:                             # весь список: кэш заменяется целиком
+        pool, full_at = dict(fetched), dt.date.today().isoformat()
+    else:
+        pool = {**cached, **fetched}
+    if not a.no_cache:
+        save_cache(a.cache, full_at, pool)
+        warn_if_not_ignored(a.cache)
+    broadcasts = {i: x for i, x in fetched.items()
+                  if (not a.year or x['date'][:4] == a.year) and (not since or x['date'] >= since)}
+    span = ' за ' + a.year if a.year else ''
+    span += f' с {since}' if since else ''
+    print(f'Трансляций в списке{span}: {len(broadcasts)}; для весов слов: {len(pool)}', file=sys.stderr)
+    if not full_at:
+        print('  ! полного прохода по списку ещё не было: веса слов посчитаны по части списка, '
+              'и уверенных соответствий может быть меньше. Запустите один раз без --year и --fresh — '
+              'список сохранится в кэш' + (' (сейчас кэш отключён: --no-cache)' if a.no_cache else ''),
+              file=sys.stderr)
+    sure, check, byid, nospb = discover(recs, used, pool, broadcasts, a.year)
     report(sure, check, byid)
+    report_spb(*spb_missing(nospb, recs, pool))
     mapping = {rid: build_value(byid[rid], evs) for rid, evs in sure.items()}
     if a.save:
         json.dump(mapping, open(a.save, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

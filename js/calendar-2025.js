@@ -92,7 +92,8 @@ let events2025 = [
         bulletin: 'https://o-site.spb.ru/_races/250201_fl/250201_info.pdf',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1654',
         map: 'orekhovo_nyrkovo_winter_2012',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        o_gps: 21547
     },
     {
         id: 'SPB_20250202_1',
@@ -2174,7 +2175,8 @@ let events2025 = [
         name: 'XII Кубок Весты №1, Памяти друзей, П-во Приозерска',
         link: 'https://vk.com/wall-30365190_8650',
         owner: 'VESTA_PRIOZERSK',
-        map: 'priozersk_kamenisty'
+        map: 'priozersk_kamenisty',
+        o_gps: 23483
     },
     {
         id: 'SPB_20250927_3',

@@ -1733,7 +1733,11 @@ let events2020 = [
         bulletin: 'https://o-site.spb.ru/_races/201108_perspectiva_2/201108_info2.pdf',
         reskeep: [394,395],
         strava: 4308179205,
-        map: 'orekhovo_2024'
+        map: 'orekhovo_2024',
+        o_gps: {
+            '1': 8509,
+            '2': 8513
+        }
     },
     {
         id: 'SPB_20201108_3',

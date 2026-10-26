@@ -3,3 +3,4 @@
 /app/*/*.apk
 /tools/check_upload.ini
 /compare_files
+/tools/fill_ogps_cache.json

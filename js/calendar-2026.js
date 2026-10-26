@@ -3087,7 +3087,8 @@ let events2026 = [
         info: '<a href="https://o-route.ru/events/omb-2026">Треки участников</a>.',
         coord: [61.014852, 30.228219],
         type: 'TOURISM',
-        start: 'MB'
+        start: 'MB',
+        o_gps: 26147
     },
     {
         id: 'SPB_20261017_5',

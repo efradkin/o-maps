@@ -949,7 +949,8 @@ let events2013 = [
         place: 'Выборг',
         name: 'Red Fox Adventure Race',
         type: 'MULTI',
-        start: 'RFAR'
+        start: 'RFAR',
+        o_gps: 53
     },
     {
         id: 'SPB_20130706_1',
