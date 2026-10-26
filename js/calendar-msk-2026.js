@@ -7,8 +7,9 @@ let mskEvents2026 = [
         type: "ORIENT",
         fmt: "кросс-комбинация",
         coord: [55.772515, 37.936149],
-        link: "https://moscompass.ru/news/more.php?id=6182",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        link: "https://orienteering.moscow/",
+        reg: "https://orgeo.ru/event/48519",
+        endReg: "2026-01-01 21:00",
         photo: "https://vk.com/albums-78257998",
         owner: "CLEVER_MSK"
     },
@@ -21,7 +22,8 @@ let mskEvents2026 = [
         fmt: "рогейн 2 часа",
         coord: [55.628707, 37.541171],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/48823",
+        endReg: "2026-01-10 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -45,7 +47,8 @@ let mskEvents2026 = [
         fmt: "рогейн 2 часа",
         coord: [55.77966, 37.445883],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/49084",
+        endReg: "2026-01-17 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -105,7 +108,8 @@ let mskEvents2026 = [
         fmt: "ЛГ эст. 4 этапа",
         coord: [55.652843, 37.779896],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/49521",
+        endReg: "2026-02-05 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -117,7 +121,8 @@ let mskEvents2026 = [
         fmt: "ЛГ-спринт",
         coord: [55.769496, 37.935015],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/49705",
+        endReg: "2026-02-06 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -129,7 +134,9 @@ let mskEvents2026 = [
         fmt: "рогейн 2 часа",
         coord: [55.631605, 37.742981],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/49701",
+        endReg: "2026-02-07 21:00",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK"
     },
     {
@@ -155,7 +162,8 @@ let mskEvents2026 = [
         fmt: "ЛГ-Классика",
         coord: [55.769496, 37.935015],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/49987",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK"
     },
     {
@@ -167,7 +175,8 @@ let mskEvents2026 = [
         fmt: "рогейн 2 часа",
         coord: [55.709211, 37.477354],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/49703",
+        endReg: "2026-02-14 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -179,7 +188,9 @@ let mskEvents2026 = [
         fmt: "ЛГ-спринт",
         coord: [55.652843, 37.779896],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50147",
+        endReg: "2026-02-20 15:00",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK"
     },
     {
@@ -191,7 +202,8 @@ let mskEvents2026 = [
         fmt: "кросс-спринт (City Race)",
         coord: [55.631605, 37.742981],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50186",
+        endReg: "2026-02-20 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -203,7 +215,8 @@ let mskEvents2026 = [
         fmt: "кросс-спринт (City Race)",
         coord: [55.855258, 37.485581],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50187",
+        endReg: "2026-02-21 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -219,7 +232,8 @@ let mskEvents2026 = [
         fmt: "кросс-спринт (City Race)",
         coord: [55.611174, 37.761518],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50188",
+        endReg: "2026-02-22 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -231,7 +245,8 @@ let mskEvents2026 = [
         fmt: "кросс-спринт-long (City Race)",
         coord: [55.706536, 37.464763],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50355",
+        endReg: "2026-02-27 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -243,7 +258,8 @@ let mskEvents2026 = [
         fmt: "кросс-спринт (City Race)",
         coord: [55.709654, 37.404053],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50356",
+        endReg: "2026-02-28 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -251,10 +267,13 @@ let mskEvents2026 = [
         date: "2026-03-01",
         name: "XXXVIII МССИ",
         place: "Кунцево",
+        reg: "https://orgeo.ru/event/49865",
         type: "SKI",
         fmt: "ЛГ-классика",
         coord: [55.738855, 37.394],
-        link: "https://orientband.ru/"
+        link: "https://orientband.ru/",
+        endReg: "2026-02-25 23:55",
+        bulletin: "https://docs.google.com/document/d/1uzn5hASaOA5JRrz83zROM7wtFJUw-STah2M1JGLsMOE/edit?usp=sharing"
     },
     {
         id: 'MSK_20260301_3',
@@ -275,7 +294,8 @@ let mskEvents2026 = [
         fmt: "кросс-спринт (City Race)",
         coord: [55.634823, 37.591284],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50357",
+        endReg: "2026-03-06 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -287,7 +307,8 @@ let mskEvents2026 = [
         fmt: "кросс-спринт-long (City Race)",
         coord: [55.631605, 37.742981],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50446",
+        endReg: "2026-03-07 20:45",
         owner: "CLEVER_MSK"
     },
     {
@@ -299,7 +320,9 @@ let mskEvents2026 = [
         fmt: "кросс-спринт (City Race)",
         coord: [55.765845, 37.478984],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50358",
+        endReg: "2026-03-08 21:00",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK"
     },
     {
@@ -311,7 +334,8 @@ let mskEvents2026 = [
         fmt: "кросс-спринт-long (City Race)",
         coord: [55.638671, 37.617155],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50359",
+        endReg: "2026-03-13 21:45",
         owner: "CLEVER_MSK"
     },
     {
@@ -335,7 +359,8 @@ let mskEvents2026 = [
         fmt: "кросс-спринт (City Race)",
         coord: [55.654224, 37.749783],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50360",
+        endReg: "2026-03-14 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -347,7 +372,9 @@ let mskEvents2026 = [
         fmt: "кросс-спринт-long (City Race)",
         coord: [55.650279, 37.739296],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50361",
+        endReg: "2026-03-21 14:00",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK"
     },
     {
@@ -359,7 +386,9 @@ let mskEvents2026 = [
         fmt: "кросс-спринт (City Race)",
         coord: [55.618533, 37.530857],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50362",
+        endReg: "2026-03-21 21:00",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK"
     },
     {
@@ -371,7 +400,8 @@ let mskEvents2026 = [
         fmt: "кросс-спринт (City Race)",
         coord: [55.89656, 37.656209],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50363",
+        endReg: "2026-03-27 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -383,7 +413,9 @@ let mskEvents2026 = [
         fmt: "кросс-спринт (City Race)",
         coord: [55.598837, 37.744504],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50364",
+        endReg: "2026-03-28 21:00",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK"
     },
     {
@@ -410,6 +442,7 @@ let mskEvents2026 = [
         date: "2026-04-02",
         name: "Московский Меридиан",
         place: "Кузьминки",
+        reg: "https://orgeo.ru/event/48489",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.689663, 37.819153],
@@ -425,16 +458,22 @@ let mskEvents2026 = [
         fmt: "кросс-спринт (City Race)",
         coord: [55.638538, 37.735537],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50365",
+        endReg: "2026-04-03 21:00",
         owner: "CLEVER_MSK"
     },
     {
         id: 'MSK_20260404_2',
         date: "2026-04-04",
         name: "Open Band Нокаут Спринт",
+        place: "м. Новокузнецкая",
+        reg: "https://orgeo.ru/event/50821",
         type: "ORIENT",
         fmt: "кросс-спринт",
-        link: "https://orientband.ru/"
+        coord: [55.742275, 37.629002],
+        link: "https://orientband.ru/",
+        endReg: "2026-04-01 23:55",
+        bulletin: "https://docs.google.com/document/d/1_jzZs6Sv3zshjP0MKLynoqy2ZZpjDzvmhs2XfFzBSuQ/edit?tab=t.0"
     },
     {
         id: 'MSK_20260405_1',
@@ -445,7 +484,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.611174, 37.761518],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50447",
+        endReg: "2026-04-04 18:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -453,25 +493,34 @@ let mskEvents2026 = [
         date: "2026-04-05",
         name: "Весеннее первенство О-Кунцево",
         place: "Кунцево",
+        reg: "https://orgeo.ru/event/48980",
         type: "ORIENT",
         fmt: "кросс-спринт",
         coord: [55.738855, 37.394],
         link: "https://vk.link/okuncevo",
-        owner: "O_KUNTSEVO"
+        owner: "O_KUNTSEVO",
+        endReg: "2026-04-02 23:55",
+        bulletin: "https://docs.google.com/document/d/1v2tdCKAz6Ur-up4m-5fYTf1lZeGJcpgSpopG-zOn3ZA/edit?tab=t.0"
     },
     {
         id: 'MSK_20260405_3',
         date: "2026-04-05",
         name: "Open Band Нокаут Спринт",
+        place: "м. Новокузнецкая",
+        reg: "https://orgeo.ru/event/50823",
         type: "ORIENT",
         fmt: "кросс-спринт",
-        link: "https://orientband.ru/"
+        coord: [55.742275, 37.629002],
+        link: "https://orientband.ru/",
+        endReg: "2026-04-01 23:55",
+        bulletin: "https://docs.google.com/document/d/1_jzZs6Sv3zshjP0MKLynoqy2ZZpjDzvmhs2XfFzBSuQ/edit?tab=t.0"
     },
     {
         id: 'MSK_20260407_1',
         date: "2026-04-07",
         name: "Московский Меридиан",
         place: "Кузьминки",
+        reg: "https://orgeo.ru/event/48490",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.689663, 37.819153],
@@ -483,6 +532,7 @@ let mskEvents2026 = [
         date: "2026-04-09",
         name: "Московский Меридиан",
         place: "Белая Дача",
+        reg: "https://orgeo.ru/event/48491",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.674133, 37.848701],
@@ -506,7 +556,8 @@ let mskEvents2026 = [
         fmt: "City Race",
         coord: [55.74573, 37.619607],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50744",
+        endReg: "2026-04-10 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -525,6 +576,7 @@ let mskEvents2026 = [
         date: "2026-04-14",
         name: "Московский Меридиан",
         place: "Белая Дача",
+        reg: "https://orgeo.ru/event/48492",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.674133, 37.848701],
@@ -536,6 +588,7 @@ let mskEvents2026 = [
         date: "2026-04-16",
         name: "Московский Меридиан",
         place: "Рублёво-восток",
+        reg: "https://orgeo.ru/event/51869",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.773251, 37.377041],
@@ -551,7 +604,9 @@ let mskEvents2026 = [
         fmt: "рогейн 2 часа",
         coord: [55.77261, 37.377436],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/51914",
+        endReg: "2026-04-17 21:00",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK"
     },
     {
@@ -561,8 +616,11 @@ let mskEvents2026 = [
         place: "на согласовании",
         type: "ORIENT",
         fmt: "кросс-спринт-общ. старт (нокаут)",
+        coord: [55.731434, 37.502483],
         link: "https://mosorient.ru/",
-        reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
+        reg: "https://orgeo.ru/event/51875",
+        endReg: "2026-04-16 23:55",
+        bulletin: "https://docs.google.com/document/d/1pFpIkrQg7EIOBRFT-P1AQ3gBWPX-I6L8sR5maQhr2vw/edit?usp=sharing",
         owner: "FSO_MSK"
     },
     {
@@ -585,7 +643,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.826338, 37.487866],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/51273",
+        endReg: "2026-04-18 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -593,6 +652,7 @@ let mskEvents2026 = [
         date: "2026-04-21",
         name: "Московский Меридиан",
         place: "Рублёво-запад",
+        reg: "https://orgeo.ru/event/51871",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.783012, 37.362808],
@@ -604,6 +664,7 @@ let mskEvents2026 = [
         date: "2026-04-23",
         name: "Московский Меридиан",
         place: "Рублёво-запад",
+        reg: "https://orgeo.ru/event/51872",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.783012, 37.362808],
@@ -655,6 +716,7 @@ let mskEvents2026 = [
         date: "2026-04-30",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/52145",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.632622, 37.58086],
@@ -679,8 +741,10 @@ let mskEvents2026 = [
         place: "Бутово",
         type: "ORIENT",
         fmt: "кросс-многодневный",
+        coord: [55.619881, 37.580688],
         link: "https://mosorient.ru/",
-        reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
+        reg: "https://orgeo.ru/event/51924",
+        endReg: "2026-04-28 23:55",
         owner: "FSO_MSK"
     },
     {
@@ -701,8 +765,10 @@ let mskEvents2026 = [
         place: "Бутово",
         type: "ORIENT",
         fmt: "кросс-многодневный",
+        coord: [55.619881, 37.580688],
         link: "https://mosorient.ru/",
-        reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
+        reg: "https://orgeo.ru/event/51924",
+        endReg: "2026-04-28 23:55",
         owner: "FSO_MSK"
     },
     {
@@ -723,8 +789,10 @@ let mskEvents2026 = [
         place: "Бутово",
         type: "ORIENT",
         fmt: "кросс-многодневный",
+        coord: [55.619881, 37.580688],
         link: "https://mosorient.ru/",
-        reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
+        reg: "https://orgeo.ru/event/51924",
+        endReg: "2026-04-28 23:55",
         owner: "FSO_MSK"
     },
     {
@@ -732,6 +800,7 @@ let mskEvents2026 = [
         date: "2026-05-05",
         name: "Московский Меридиан",
         place: "Кузьминки",
+        reg: "https://orgeo.ru/event/52389",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.693329, 37.772224],
@@ -743,6 +812,7 @@ let mskEvents2026 = [
         date: "2026-05-07",
         name: "Московский Меридиан",
         place: "Покровское-Стрешнево",
+        reg: "https://orgeo.ru/event/52367",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.826338, 37.487866],
@@ -758,7 +828,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.674133, 37.848701],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/52161",
+        endReg: "2026-05-08 22:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -781,7 +852,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.855258, 37.485581],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/50450",
+        endReg: "2026-05-09 15:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -791,8 +863,11 @@ let mskEvents2026 = [
         place: "Хорлово",
         type: "ORIENT",
         fmt: "кросс-классика",
+        coord: [55.340324, 38.802586],
         link: "https://mosorient.ru/",
-        reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
+        reg: "https://orgeo.ru/event/51748",
+        endReg: "2026-05-08 09:55",
+        bulletin: "https://docs.google.com/document/d/1yU_MEgXXt03DeCTzRuBBZgUhEzhLi94GEUG5HkOQIfQ/edit?usp=sharing",
         owner: "FSO_MSK"
     },
     {
@@ -800,6 +875,7 @@ let mskEvents2026 = [
         date: "2026-05-12",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/52368",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.632622, 37.58086],
@@ -822,6 +898,7 @@ let mskEvents2026 = [
         date: "2026-05-14",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/52369",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.626858, 37.544853],
@@ -846,8 +923,11 @@ let mskEvents2026 = [
         place: "Теплый Стан",
         type: "ORIENT",
         fmt: "кросс - эст. 3 этапа",
+        coord: [55.638416, 37.493855],
         link: "https://mosorient.ru/",
-        reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
+        reg: "https://orgeo.ru/event/52569",
+        endReg: "2026-05-14 23:55",
+        bulletin: "https://docs.google.com/document/d/1dHoFBDxttjcQkJuM58g7m4hyu5OQ3xhpeKf-UrE3xT4/edit?usp=sharing",
         owner: "FSO_MSK"
     },
     {
@@ -855,6 +935,7 @@ let mskEvents2026 = [
         date: "2026-05-19",
         name: "Московский Меридиан",
         place: "Ясенево",
+        reg: "https://orgeo.ru/event/52370",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.622139, 37.523602],
@@ -866,6 +947,7 @@ let mskEvents2026 = [
         date: "2026-05-21",
         name: "Московский Меридиан",
         place: "Сосновка",
+        reg: "https://orgeo.ru/event/52371",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.760006, 37.398121],
@@ -879,8 +961,11 @@ let mskEvents2026 = [
         place: "Битцевский Лес",
         type: "ORIENT",
         fmt: "кросс-спринт",
+        coord: [55.596264, 37.58189],
         link: "https://mosorient.ru/",
-        reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
+        reg: "https://orgeo.ru/event/51922",
+        endReg: "2026-05-18 12:15",
+        bulletin: "https://orgeo.ru/files/event/file/51922_90c3c2e314.pdf",
         owner: "FSO_MSK",
         o_gps: 25171
     },
@@ -891,8 +976,11 @@ let mskEvents2026 = [
         place: "Битцевский Лес",
         type: "ORIENT",
         fmt: "кросс-классика",
+        coord: [55.596264, 37.58189],
         link: "https://mosorient.ru/",
-        reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
+        reg: "https://orgeo.ru/event/51922",
+        endReg: "2026-05-18 12:15",
+        bulletin: "https://orgeo.ru/files/event/file/51922_90c3c2e314.pdf",
         owner: "FSO_MSK",
         o_gps: 25172
     },
@@ -903,8 +991,11 @@ let mskEvents2026 = [
         place: "Битцевский Лес",
         type: "ORIENT",
         fmt: "кросс-лонг",
+        coord: [55.596264, 37.58189],
         link: "https://mosorient.ru/",
-        reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
+        reg: "https://orgeo.ru/event/51922",
+        endReg: "2026-05-18 12:15",
+        bulletin: "https://orgeo.ru/files/event/file/51922_90c3c2e314.pdf",
         owner: "FSO_MSK"
     },
     {
@@ -912,6 +1003,7 @@ let mskEvents2026 = [
         date: "2026-05-26",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/52372",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.624519, 37.546818],
@@ -923,6 +1015,7 @@ let mskEvents2026 = [
         date: "2026-05-28",
         name: "Московский Меридиан",
         place: "Ясенево",
+        reg: "https://orgeo.ru/event/52373",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.62772, 37.538666],
@@ -970,6 +1063,7 @@ let mskEvents2026 = [
         date: "2026-06-02",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/53216",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.610455, 37.561783],
@@ -981,6 +1075,7 @@ let mskEvents2026 = [
         date: "2026-06-04",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/53219",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.585289, 37.570236],
@@ -996,7 +1091,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.694963, 37.843986],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/52914",
+        endReg: "2026-06-05 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -1008,7 +1104,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.77261, 37.377436],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/52915",
+        endReg: "2026-06-06 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -1016,6 +1113,7 @@ let mskEvents2026 = [
         date: "2026-06-09",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/53217",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.585289, 37.570236],
@@ -1027,6 +1125,7 @@ let mskEvents2026 = [
         date: "2026-06-11",
         name: "Московский Меридиан",
         place: "ст. \"Медик\"",
+        reg: "https://orgeo.ru/event/53527",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.738086, 37.386742],
@@ -1069,7 +1168,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.826338, 37.487866],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/52918",
+        endReg: "2026-06-16 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -1077,10 +1177,14 @@ let mskEvents2026 = [
         date: "2026-06-16",
         name: "Летнее первенство О-Кунцево",
         place: "Кунцево",
+        reg: "https://orgeo.ru/event/48981",
         type: "ORIENT",
         fmt: "кросс-спринт",
+        coord: [55.741791, 37.391487],
         link: "https://vk.link/okuncevo",
-        owner: "O_KUNTSEVO"
+        owner: "O_KUNTSEVO",
+        endReg: "2026-06-13 23:55",
+        bulletin: "https://docs.google.com/document/d/1laYyreN63kj4AvwJc7y4EKhS56kdIqGICvIZ4cOT6cU/edit?tab=t.0"
     },
     {
         id: 'MSK_20260618_1',
@@ -1091,7 +1195,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.760614, 37.399821],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53124",
+        endReg: "2026-06-18 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -1131,7 +1236,7 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.708292, 37.55108],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53125",
         owner: "CLEVER_MSK"
     },
     {
@@ -1143,7 +1248,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.739014, 37.794541],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53126",
+        endReg: "2026-06-25 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -1156,6 +1262,7 @@ let mskEvents2026 = [
         coord: [55.794355, 37.462981],
         link: "https://docs.google.com/document/d/1hL33gH9ac8hRpkf3dKGuTc-_7BskLMlWW57kcx9YFLs/edit?tab=t.0",
         reg: "https://buyrun.ru/event/135",
+        bulletin: "https://docs.google.com/document/d/1hL33gH9ac8hRpkf3dKGuTc-_7BskLMlWW57kcx9YFLs/edit?usp=sharing",
         res: "https://orgeo.ru/files/event/file/53737_6ecbb72e32.xlsx",
         owner: "MLKHT",
         map: "rogova_2026"
@@ -1183,7 +1290,9 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.738086, 37.386742],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53127",
+        endReg: "2026-06-30 23:55",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK"
     },
     {
@@ -1195,7 +1304,9 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.711741, 37.5825],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53128",
+        endReg: "2026-07-02 23:55",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK"
     },
     {
@@ -1235,7 +1346,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.77966, 37.445883],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53129",
+        endReg: "2026-07-07 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -1247,7 +1359,9 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.638538, 37.735537],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53130",
+        endReg: "2026-07-09 23:55",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK"
     },
     {
@@ -1287,7 +1401,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.668066, 37.538981],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53131",
+        endReg: "2026-07-14 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -1299,7 +1414,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.854337, 37.468636],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53132",
+        endReg: "2026-07-16 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -1339,7 +1455,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.708292, 37.55108],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53133",
+        endReg: "2026-07-21 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -1351,7 +1468,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.642059, 37.743034],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53134",
+        endReg: "2026-07-23 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -1362,6 +1480,7 @@ let mskEvents2026 = [
         type: "ORIENT",
         fmt: "Лонг",
         coord: [55.825578, 37.531646],
+        link: "https://docs.google.com/document/d/1n48RcIsfIjyqbGCeBCN7tJ7tPwugQQDKAhqWpG5qmwo/edit?usp=sharing",
         bulletin: "https://docs.google.com/document/d/1n48RcIsfIjyqbGCeBCN7tJ7tPwugQQDKAhqWpG5qmwo/edit?usp=sharing",
         reg: "https://buyrun.ru/event/143",
         res: "https://orgeo.ru/files/event/file/54109_4b8674bc63.xlsx",
@@ -1372,9 +1491,13 @@ let mskEvents2026 = [
         id: 'MSK_20260726_1',
         date: "2026-07-26",
         name: "Большой летний аэророгейн",
+        place: "парк Марьинский ручей",
+        reg: "https://orgeo.ru/event/53878",
         type: "ROGAINE",
         fmt: "рогейн",
-        link: "https://orientband.ru/"
+        coord: [55.569202, 37.346882],
+        link: "https://orientband.ru/",
+        endReg: "2026-07-23 23:55"
     },
     {
         id: 'MSK_20260726_2',
@@ -1399,7 +1522,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.787618, 37.531301],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53135",
+        endReg: "2026-07-28 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -1411,7 +1535,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.826338, 37.487866],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53136",
+        endReg: "2026-07-30 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -1438,7 +1563,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.725956, 37.7919],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53137",
+        endReg: "2026-08-04 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -1450,7 +1576,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.77966, 37.445883],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53138",
+        endReg: "2026-08-06 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -1462,7 +1589,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.855258, 37.485581],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53139",
+        endReg: "2026-08-11 23:55",
         owner: "CLEVER_MSK"
     },
     {
@@ -1474,7 +1602,9 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.631605, 37.742981],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/53140",
+        endReg: "2026-08-13 23:55",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK"
     },
     {
@@ -1482,6 +1612,7 @@ let mskEvents2026 = [
         date: "2026-08-13",
         name: "Московский Меридиан",
         place: "Рублёво-запад",
+        reg: "https://orgeo.ru/event/53929",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.783012, 37.362808],
@@ -1505,6 +1636,7 @@ let mskEvents2026 = [
         date: "2026-08-18",
         name: "Московский Меридиан",
         place: "Рублёво-восток",
+        reg: "https://orgeo.ru/event/53931",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.773251, 37.377041],
@@ -1516,6 +1648,7 @@ let mskEvents2026 = [
         date: "2026-08-20",
         name: "Московский Меридиан",
         place: "Рублёво-запад",
+        reg: "https://orgeo.ru/event/53930",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.783012, 37.362808],
@@ -1544,6 +1677,7 @@ let mskEvents2026 = [
         type: "ORIENT",
         fmt: "лонг",
         coord: [55.807892, 37.550774],
+        link: "https://docs.google.com/document/d/1E-tdch9LBZ0oFOJT5YqDDrgjpjzG4otBrAv9H2Bzi4s/edit?usp=sharing",
         bulletin: "https://docs.google.com/document/d/1E-tdch9LBZ0oFOJT5YqDDrgjpjzG4otBrAv9H2Bzi4s/edit?usp=sharing",
         reg: "https://buyrun.ru/event/151",
         res: "https://orgeo.ru/files/event/file/54611_217a9c5ecf.xlsx",
@@ -1555,6 +1689,7 @@ let mskEvents2026 = [
         date: "2026-08-25",
         name: "Московский Меридиан",
         place: "Кузьминки",
+        reg: "https://orgeo.ru/event/54342",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.693329, 37.772224],
@@ -1566,6 +1701,7 @@ let mskEvents2026 = [
         date: "2026-08-27",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/54586",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.585289, 37.570236],
@@ -1581,7 +1717,8 @@ let mskEvents2026 = [
         fmt: "кросс-многодневный",
         coord: [55.769496, 37.935015],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/54496",
+        endReg: "2026-08-28 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -1605,7 +1742,8 @@ let mskEvents2026 = [
         fmt: "кросс-многодневный",
         coord: [55.772479, 37.936232],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/54496",
+        endReg: "2026-08-28 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -1625,6 +1763,7 @@ let mskEvents2026 = [
         date: "2026-09-01",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/54587",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.632622, 37.58086],
@@ -1636,6 +1775,7 @@ let mskEvents2026 = [
         date: "2026-09-03",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/54588",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.585289, 37.570236],
@@ -1651,7 +1791,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.767518, 37.76987],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/54580",
+        endReg: "2026-09-04 21:50",
         owner: "CLEVER_MSK"
     },
     {
@@ -1660,7 +1801,7 @@ let mskEvents2026 = [
         name: "Покровская Горизонталь",
         place: "Покровское-Стрешнево",
         type: "ORIENT",
-        fmt: "кросс-эстафета 2х",
+        fmt: "кросс-эстафета 2 чел.",
         coord: [55.826338, 37.487866],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
@@ -1671,6 +1812,7 @@ let mskEvents2026 = [
         date: "2026-09-08",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/54903",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.624519, 37.546818],
@@ -1682,6 +1824,7 @@ let mskEvents2026 = [
         date: "2026-09-10",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/54902",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.626858, 37.544853],
@@ -1708,7 +1851,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.77275, 37.81539],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/54582",
+        endReg: "2026-09-11 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -1727,6 +1871,7 @@ let mskEvents2026 = [
         date: "2026-09-15",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/55146",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.632622, 37.58086],
@@ -1738,6 +1883,7 @@ let mskEvents2026 = [
         date: "2026-09-17",
         name: "Московский Меридиан",
         place: "Битцевский лес",
+        reg: "https://orgeo.ru/event/55147",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.632622, 37.58086],
@@ -1753,7 +1899,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.738086, 37.386742],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/54583",
+        endReg: "2026-09-18 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -1763,8 +1910,11 @@ let mskEvents2026 = [
         place: "Фосфоритный",
         type: "ORIENT",
         fmt: "кросс - лонг",
+        coord: [55.338741, 38.903175],
         link: "https://mosorient.ru/",
-        reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
+        reg: "https://orgeo.ru/event/54829",
+        endReg: "2026-09-17 23:55",
+        bulletin: "https://docs.google.com/document/d/1BcvBNomUrfcUjd7ceWLv8h0L1DB6-X7LjhsHuhCy8yU/edit?tab=t.0",
         owner: "FSO_MSK"
     },
     {
@@ -1772,6 +1922,7 @@ let mskEvents2026 = [
         date: "2026-09-22",
         name: "Московский Меридиан",
         place: "Ясенево",
+        reg: "https://orgeo.ru/event/55148",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.62772, 37.538666],
@@ -1783,6 +1934,7 @@ let mskEvents2026 = [
         date: "2026-09-24",
         name: "Московский Меридиан",
         place: "Кузьминки",
+        reg: "https://orgeo.ru/event/55149",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.693329, 37.772224],
@@ -1806,10 +1958,11 @@ let mskEvents2026 = [
         name: "Ночные соревнования пам. А.С. Горюнова",
         place: "на согласовании",
         type: "ORIENT",
-        fmt: "кросс-эстафета 2х",
+        fmt: "кросс-эстафета 2 чел.",
         coord: [55.721404, 37.510822],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/54727",
+        endReg: "2026-09-25 14:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -1819,10 +1972,13 @@ let mskEvents2026 = [
         place: "Филевский парк",
         type: "ORIENT",
         fmt: "классическая дистанция",
-        coord: [55.74534, 37.487026],
+        coord: [
+            55.750462,
+            37.491646
+        ],
         link: "https://docs.google.com/document/d/1IP48LPI_TArSETd_KRuwzhDELkKYb7dUUahT7NtcxSQ/edit?usp=sharing",
         reg: "https://buyrun.ru/event/152",
-        res: "https://orgeo.ru/files/event/file/55235_e673ae6763.pdf",
+        res: "https://orgeo.ru/files/event/file/55235_e07d9b2205.xls",
         owner: "MLKHT",
         map: "fili_2026"
     },
@@ -1842,6 +1998,7 @@ let mskEvents2026 = [
         date: "2026-09-29",
         name: "Московский Меридиан",
         place: "Покровское-Стрешнево",
+        reg: "https://orgeo.ru/event/55484",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.826338, 37.487866],
@@ -1853,6 +2010,7 @@ let mskEvents2026 = [
         date: "2026-10-01",
         name: "Московский Меридиан",
         place: "Сосновка",
+        reg: "https://orgeo.ru/event/55485",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.760006, 37.398121],
@@ -1879,7 +2037,8 @@ let mskEvents2026 = [
         fmt: "City Race",
         coord: [55.769581, 37.651557],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/54726",
+        endReg: "2026-10-02 20:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -1892,7 +2051,7 @@ let mskEvents2026 = [
         coord: [55.784728, 37.516126],
         link: "https://docs.google.com/document/d/1vXEvIZ7cvLzEHkgECojcS_OxuXzoMXz2QhvS_8cTPKU/edit?usp=sharing",
         reg: "https://buyrun.ru/event/153",
-        res: "https://orgeo.ru/files/event/file/55441_1a239cbcf2.pdf",
+        res: "https://orgeo.ru/files/event/file/55441_6290608b4d.xls",
         owner: "MLKHT",
         map: "birch_grove_2026"
     },
@@ -1916,7 +2075,9 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.67416, 37.849253],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/54731",
+        endReg: "2026-10-03 21:00",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK"
     },
     {
@@ -1924,6 +2085,7 @@ let mskEvents2026 = [
         date: "2026-10-06",
         name: "Московский Меридиан",
         place: "Ясенево",
+        reg: "https://orgeo.ru/event/55486",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [55.62772, 37.538666],
@@ -1935,6 +2097,7 @@ let mskEvents2026 = [
         date: "2026-10-08",
         name: "Московский Меридиан",
         place: "Серебряный Бор",
+        reg: "https://orgeo.ru/event/55901",
         type: "ORIENT",
         fmt: "кросс-выбор ночн.",
         coord: [55.779381, 37.42537],
@@ -1946,11 +2109,14 @@ let mskEvents2026 = [
         date: "2026-10-09",
         name: "Ночное первенство О-Кунцево",
         place: "Крылатское",
+        reg: "https://orgeo.ru/event/55649",
         type: "ORIENT",
         fmt: "кросс-спринт",
         coord: [55.762188, 37.403176],
         link: "https://vk.link/okuncevo",
-        owner: "O_KUNTSEVO"
+        owner: "O_KUNTSEVO",
+        endReg: "2026-10-07 23:55",
+        bulletin: "https://docs.google.com/document/d/1TuJB5i0r748oRKIRpes1M8vLjbm2k9PCODAh_CfExAQ/edit?usp=sharing"
     },
     {
         id: 'MSK_20261010_1',
@@ -1982,8 +2148,9 @@ let mskEvents2026 = [
         place: "Битцевский Лес",
         type: "ORIENT",
         fmt: "кросс-классика",
+        coord: [55.613575, 37.576565],
         link: "https://mosorient.ru/",
-        reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
+        reg: "https://orgeo.ru/event/46826",
         owner: "FSO_MSK"
     },
     {
@@ -2092,7 +2259,7 @@ let mskEvents2026 = [
         name: "Золотая осень",
         place: "Кусково",
         type: "ORIENT",
-        fmt: "кросс-эстафета 3х",
+        fmt: "кросс-эстафета 3 чел.",
         coord: [55.734524, 37.800192],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",

@@ -3,6 +3,7 @@ let events2026 = [
         id: 'SPB_20260104_1',
         date: '2026-01-04',
         place: 'Сестрорецк, Таможенная дорога',
+        coord: [60.134312, 29.952772],
         name: 'Кубок Белых ночей №6',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/48813',
@@ -22,6 +23,7 @@ let events2026 = [
         place: 'Чкаловская, Антифитнес',
         name: 'Длительный спринт №1',
         fmt: 'спринт',
+        coord: [59.967312, 30.292765],
         reg: 'https://orgeo.ru/event/info/48923',
         endReg: '2026-01-05 20:00',
         bulletin: 'https://orgeo.ru/files/event/file/48923_5b0978f6ab.pdf',
@@ -38,6 +40,7 @@ let events2026 = [
         id: 'SPB_20260107_1',
         date: '2026-01-07',
         place: 'Суоранда',
+        coord: [59.953739, 30.617752],
         name: 'Кубок Белых ночей №7',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/48811',
@@ -56,6 +59,7 @@ let events2026 = [
         place: 'Мужества',
         name: 'Длительный спринт №2',
         fmt: 'спринт',
+        coord: [59.996716, 30.351412],
         reg: 'https://orgeo.ru/event/49046',
         endReg: '2026-01-09 20:00',
         bulletin: 'https://orgeo.ru/files/event/file/49046_4a7a87e058.pdf',
@@ -82,6 +86,7 @@ let events2026 = [
         endReg: '2026-01-08 23:55',
         type: 'SKI',
         fmt: 'маркир',
+        coord: [60.391666, 30.245314],
         map: 'silande_winter_2024_omaps',
         maps: [
             'https://o-site.spb.ru/_races/260110_markir_s_prokolom/map_Kontr.jpg'
@@ -91,6 +96,8 @@ let events2026 = [
         id: 'SPB_20260111_1',
         date: '2026-01-11',
         place: 'Колосково',
+        o_site: '260111r',
+        reg: 'http://www.multsport.ru/starts/winter-rogaine-26/registration.html',
         name: 'Зимний рогейн',
         link: 'https://www.multsport.ru/starts/winter-rogaine-26/',
         o_gps: 24104,
@@ -114,6 +121,7 @@ let events2026 = [
         endReg: '2026-01-09 18:55',
         type: 'SKI',
         fmt: 'спринт',
+        coord: [59.899872, 31.009554],
         o_gps: 24101,
         map: 'kirovsk_winter_2024'
     },
@@ -123,6 +131,7 @@ let events2026 = [
         place: 'Выборгский р-он, САМПО',
         name: 'Длительный спринт №3',
         fmt: 'спринт',
+        coord: [60.023273, 30.374437],
         link: 'https://t.me/dlitelnyy/440',
         reg: 'https://orgeo.ru/event/49111',
         endReg: '2026-01-16 20:00',
@@ -182,6 +191,7 @@ let events2026 = [
         },
         type: 'SKI',
         fmt: 'классика,многодневная',
+        coord: [59.899872, 31.009554],
         map: 'kirovsk_winter_2024'
     },
     {
@@ -206,7 +216,8 @@ let events2026 = [
         o_gps: 24152,
         type: 'SKI',
         map: 'polyustrovsky_2022',
-        fmt: 'спринт'
+        fmt: 'спринт',
+        coord: [59.963627, 30.426975]
     },
     {
         id: 'SPB_20260125_2',
@@ -274,6 +285,7 @@ let events2026 = [
         name: 'ЛужSki рогейн',
         type: ['ROGAINE', 'SKI'],
         fmt: '6, 3',
+        coord: [58.726257, 29.812109],
         link: 'https://vk.com/event166397868',
         reg: 'https://orgeo.ru/event/48867',
         endReg: '2026-02-04 23:55',
@@ -297,6 +309,7 @@ let events2026 = [
         ],
         type: 'SKI',
         fmt: 'спринт, классика',
+        coord: [60.463142, 30.26553],
         map: 'orekhovo_nyrkovo_winter_2012',
         publish: 'https://vk.com/album-230167293_312551370',
         owner: 'SFSO_SPB'
@@ -350,6 +363,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/49838',
         endReg: '2026-02-11 12:00',
         fmt: 'спринт',
+        coord: [59.785267, 30.703159],
         map: 'sverdlova_2024'
     },
     {
@@ -367,6 +381,7 @@ let events2026 = [
         o_gps: 24257,
         type: 'SKI',
         fmt: 'классика, спринт',
+        coord: [60.24202, 29.133184],
         map: 'zerkalny_tarasovskoe_winter_2023',
         publish: 'https://vk.com/album-230167293_312624491',
         owner: 'SFSO_SPB'
@@ -378,6 +393,7 @@ let events2026 = [
         name: 'Горный кросс-112',
         type: 'ROGAINE',
         fmt: '5, 2',
+        coord: [60.460217, 30.298832],
         o_site: '260221R',
         bulletin: 'https://o-site.spb.ru/_races/260221R/260221_info1.pdf',
         reg: 'https://orgeo.ru/event/48446',
@@ -388,7 +404,7 @@ let events2026 = [
     },
     {
         id: 'SPB_20260221_2',
-        date: '2026-02-21',
+        date: '2026-02-20',
         endDate: '2026-02-22',
         place: 'Кировск',
         name: 'ЧиП ЛО',
@@ -400,6 +416,7 @@ let events2026 = [
         o_gps: 24278,
         type: 'SKI',
         fmt: 'маркир,масстарт',
+        coord: [59.899872, 31.009554],
         map: 'kirovsk_winter_2024',
         maps: [
             'https://orgeo.ru/files/event/file/49121_80be40ff73.pdf'
@@ -409,6 +426,8 @@ let events2026 = [
         id: 'SPB_20260221_3',
         date: '2026-02-21',
         place: 'Павловск, парк Мариенталь',
+        fmt: 'спринт',
+        coord: [59.684608, 30.446577],
         name: 'Веселый Ветер',
         o_site: '260221',
         reg: 'http://orgeo.ru/event/info/ib26',
@@ -433,6 +452,7 @@ let events2026 = [
         o_gps: 24299,
         photo: ['https://vk.com/album-230167293_312706609'],
         fmt: 'спринт',
+        coord: [60.00486, 30.314901],
         info: 'Медаль - каждому участнику. Квест в стиле средневекового фэнтези.',
         map: 'udelny_2022',
         publish: 'https://vk.com/album-230167293_312706609',
@@ -446,6 +466,7 @@ let events2026 = [
         start: 'SPB_CHAMP',
         place: 'Орехово',
         o_site: '260228_ChiP',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1722',
         bulletin: 'https://o-site.spb.ru/_races/260228_ChiP/260301_info2_final3.pdf',
         type: 'SKI',
         fmt: 'масстарт',
@@ -469,9 +490,11 @@ let events2026 = [
         name: 'Региональные соревнования (Маркир)',
         place: 'Орехово',
         o_site: '260301_Reg',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1723',
         bulletin: 'https://o-site.spb.ru/_races/260301_Reg/260301_info2_final3.pdf',
         type: 'SKI',
         fmt: 'маркир',
+        coord: [60.463142, 30.26553],
         map: 'orekhovo_nyrkovo_winter_2012',
         owner: 'SFSO_SPB',
         maps: [
@@ -493,6 +516,7 @@ let events2026 = [
         id: 'SPB_20260307_2',
         date: '2026-03-07',
         place: 'Сестрорецк, Таможенная дорога',
+        coord: [60.133198, 29.952524],
         name: 'Кубок Белых ночей №8',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/info/50766',
@@ -521,6 +545,7 @@ let events2026 = [
         },
         photo: 'https://vk.ru/album-230167293_312838601',
         fmt: 'спринт',
+        coord: [59.828205, 30.290878],
         map: 'pulkovsky_2024',
         publish: 'https://vk.com/album-230167293_312838601',
         planner: 'LHMNV',
@@ -542,6 +567,7 @@ let events2026 = [
         photo: 'https://vk.com/album-224681305_310355992',
         type: ['ROGAINE', 'SKI'],
         fmt: '5, 3',
+        coord: [59.590611, 31.167007],
         map: 'shapki_ski_adventure_2026'
     },
     {
@@ -549,6 +575,8 @@ let events2026 = [
         date: '2026-03-14',
         name: 'Длительный спринт №4',
         place: 'Удельная',
+        fmt: 'dлительный спринт - этап 4',
+        coord: [60.008297, 30.321608],
         link: 'https://t.me/dlitelnyy/475',
         reg: 'https://orgeo.ru/event/50876',
         endReg: '2026-03-13 19:00',
@@ -562,10 +590,21 @@ let events2026 = [
         me: 'Pro'
     },
     {
+        id: 'SPB_20260314_2',
+        date: '2026-03-14',
+        name: 'Закрытые районные соревнования Невского р-на по спортивному ориентированию',
+        place: 'ГБОУ Школа №691',
+        coord: [59.917217, 30.444628],
+        reg: 'https://orgeo.ru/event/50788',
+        endReg: '2026-03-12 21:00'
+    },
+    {
         id: 'SPB_20260315_1',
         date: '2026-03-15',
         name: 'Колтушская классика',
         place: 'Колтуши',
+        fmt: 'классика',
+        coord: [59.966515, 30.635971],
         o_site: '260315_bn',
         bulletin: 'https://o-site.spb.ru/_races/260315_bn/260315_info.pdf',
         reg: 'http://orgeo.ru/event/koltushi_classic',
@@ -596,6 +635,8 @@ let events2026 = [
         name: 'Перспектива',
         start: 'PERSPEKTIVA',
         place: 'Токсово, КомБыт',
+        fmt: 'классика',
+        coord: [60.141563, 30.501711],
         o_site: '260322_p',
         bulletin: 'https://o-site.spb.ru/_races/260322_p/260322_info2.pdf',
         reg: 'http://orgeo.ru/event/51010',
@@ -615,6 +656,7 @@ let events2026 = [
         endReg: '2026-03-27 10:00',
         reskeep: 855,
         fmt: 'спринт',
+        coord: [59.949741, 30.493002],
         owner: 'FENIX',
         planner: 'RDNV_I',
         map: 'school_141_2015',
@@ -634,6 +676,7 @@ let events2026 = [
         bulletin: 'https://orgeo.ru/files/event/file/51230_377952db2f.pdf',
         planner: 'LHMNV',
         fmt: 'смешанный',
+        coord: [60.019127, 30.347216],
         start: 'SPRINT_TOUR',
         info: 'Сад КП.',
         reskeep: 845,
@@ -648,6 +691,7 @@ let events2026 = [
         date: '2026-03-29',
         name: 'Тренировка от Феникса',
         place: 'Серово',
+        coord: [60.199127, 29.580641],
         o_site: '260329_f',
         bulletin: 'https://o-site.spb.ru/_races/260329_f/260329_info.pdf',
         reg: 'https://orgeo.ru/event/50798',
@@ -678,6 +722,7 @@ let events2026 = [
         endReg: '2026-03-26 21:00',
         reskeep: 856,
         type: 'INDOOR',
+        coord: [59.937626, 30.438328],
         info: 'Несколько дистанций в зачёт.',
         owner: 'FENIX',
         map: 'school_491_2026'
@@ -687,6 +732,7 @@ let events2026 = [
         date: '2026-03-31',
         name: 'Тренировка от Феникса',
         place: 'Осиновая роща',
+        coord: [60.111324, 30.248827],
         o_site: '260329_f',
         bulletin: 'https://o-site.spb.ru/_races/260329_f/260331_info.pdf',
         reg: 'https://orgeo.ru/event/50799',
@@ -710,6 +756,7 @@ let events2026 = [
             'Ж': 24581
         },
         fmt: 'спринт',
+        coord: [59.962727, 30.474709],
         owner: 'FENIX',
         planner: 'RDNV_I',
         info: 'Новая карта.',
@@ -722,6 +769,7 @@ let events2026 = [
         date: '2026-04-02',
         name: 'Тренировка от Феникса',
         place: 'Юкки',
+        coord: [60.110996, 30.308208],
         o_site: '260329_f',
         bulletin: 'https://o-site.spb.ru/_races/260329_f/260402_info.pdf',
         reg: 'https://orgeo.ru/event/info/50869',
@@ -749,6 +797,7 @@ let events2026 = [
             'Ж': 24604
         },
         fmt: 'спринт',
+        coord: [59.955841, 30.426451],
         owner: 'FENIX',
         planner: 'RDNV_I',
         map: 'school_532_2023'
@@ -759,6 +808,8 @@ let events2026 = [
         name: 'Кубок Белых ночей №8',
         start: 'KBN',
         place: 'Ильичёво',
+        fmt: 'классика',
+        coord: [60.268791, 29.761175],
         o_site: '250304_bn',
         bulletin: 'https://o-site.spb.ru/_races/250304_bn/260404_info.pdf',
         reg: 'http://orgeo.ru/event/51427',
@@ -775,6 +826,7 @@ let events2026 = [
         date: '2026-04-05',
         name: 'Тренировка от Феникса',
         place: 'Стеклянный, оз Силанде',
+        coord: [60.393497, 30.242603],
         o_site: '260329_f',
         bulletin: 'https://o-site.spb.ru/_races/260329_f/260405_info.pdf',
         reg: 'https://orgeo.ru/event/50803',
@@ -794,6 +846,8 @@ let events2026 = [
         name: 'Кубок Белых ночей №9',
         start: 'KBN',
         place: 'Болотная станция',
+        fmt: 'классика',
+        coord: [60.254215, 29.798157],
         o_site: '260305_bn',
         bulletin: 'https://o-site.spb.ru/_races/260305_bn/260405_info.pdf',
         reg: 'http://orgeo.ru/event/51441',
@@ -815,6 +869,7 @@ let events2026 = [
         photo: 'https://disk.yandex.ru/d/LHiLDTkD-K2JIA',
         video: 'https://rutube.ru/video/c4e8e87774893df840fdbe99ad6b0f83/',
         fmt: 'спринт',
+        coord: [60.048423, 30.710582],
         map: 'romanovka_2013',
         owner: 'DLITELNY',
         reskeep: 864,
@@ -835,6 +890,7 @@ let events2026 = [
         info: 'Новая карта. Разбор дистанций: [<a href="https://vk.com/@nordwestmedia-razbor-nwsprint-1-etap-07042026">1</a>],[<a href="https://o-site.spb.ru/_races/260407_NWSprint_1/260407_NWsprint1_razbor.pdf">2</a>].',
         video: 'https://rutube.ru/video/12708e94ecc5e049206368e381b5d0e1/',
         fmt: 'спринт',
+        coord: [60.006392, 30.207974],
         owner: 'NW',
         map: 'bogatyrsky_2025',
         planner: 'SDRV_A',
@@ -846,6 +902,7 @@ let events2026 = [
         place: 'Луга, Шалово',
         name: 'Лужский меридиан',
         fmt: '5, 2.5',
+        coord: [58.812096, 29.925781],
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/49261',
@@ -900,6 +957,7 @@ let events2026 = [
         endReg: '2026-04-10 11:30',
         bulletin: 'https://orgeo.ru/files/event/file/51603_8722a7d855.pdf',
         fmt: 'спринт',
+        coord: [59.441673, 32.011719],
         owner: 'MLV_AL',
         map: 'kirishi_assol_2024'
     },
@@ -914,6 +972,7 @@ let events2026 = [
         bulletin: 'https://orgeo.ru/files/event/file/51902_6fb92e4ffb.pdf',
         o_gps: 24739,
         fmt: 'спринт',
+        coord: [60.059708, 30.310289],
         start: 'SPRINT_TOUR',
         info: 'Новая карта. <a href="https://vk.ru/@sprinttourspb-noname-sprint-tur-2026-15042026-2-etap">Разбор дистанций</a>.',
         photo: 'https://vk.ru/album-92124592_310621060',
@@ -928,6 +987,8 @@ let events2026 = [
         date: '2026-04-18',
         name: 'Охта Парк классика',
         place: 'Охта-Парк',
+        fmt: 'классика',
+        coord: [60.142666, 30.45175],
         o_site: '260418_bn',
         bulletin: 'https://o-site.spb.ru/_races/260418_bn/260418_info.pdf',
         reg: 'https://orgeo.ru/event/ohta_classic_2026',
@@ -944,6 +1005,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/51917',
         endReg: '2026-04-14 21:00',
         fmt: 'спринт',
+        coord: [59.872437, 30.451242],
         info: 'Закрытое мероприятие.',
         map: 'kurakina_dacha_2023'
     },
@@ -961,6 +1023,7 @@ let events2026 = [
         },
         reskeep: 874,
         fmt: 'спринт',
+        coord: [59.951172, 30.464003],
         info: 'Новая карта.',
         map: 'porokhovye_school_127_2026'
     },
@@ -969,6 +1032,7 @@ let events2026 = [
         date: '2026-04-18',
         name: '30-й меридиан',
         place: 'усадьба Богословка',
+        coord: [59.8283, 30.568512],
         reg: 'https://orgeo.ru/event/51698',
         endReg: '2026-04-15 20:00',
         strava: 18155162974,
@@ -984,6 +1048,7 @@ let events2026 = [
         endReg: '2026-04-17 14:00',
         o_gps: 24753,
         fmt: 'спринт',
+        coord: [59.843796, 30.23987],
         map: 'vorontsovsky_skver_2024'
     },
     {
@@ -992,6 +1057,7 @@ let events2026 = [
         name: 'Перспектива',
         start: 'PERSPEKTIVA',
         place: 'Лемболово, р Вьюн',
+        coord: [60.387558, 30.286098],
         o_site: '260419_p',
         bulletin: 'https://o-site.spb.ru/_races/260419_p/260419_info.pdf',
         reg: 'http://orgeo.ru/event/51889',
@@ -1002,6 +1068,15 @@ let events2026 = [
         owner: 'FENIX',
         map: 'lembolovo_2024',
         me: 'МА'
+    },
+    {
+        id: 'SPB_20260419_2',
+        date: '2026-04-19',
+        name: 'Первенство МАУ "Всеволожский центр ФКС" по спортивному ориентированию',
+        place: 'зона отдыха "Водоём"',
+        coord: [60.150421, 30.212942],
+        reg: 'https://orgeo.ru/event/51898',
+        endReg: '2026-04-15 21:00'
     },
     {
         id: 'SPB_20260421_1',
@@ -1019,6 +1094,7 @@ let events2026 = [
         strava: 18198928633,
         owner: 'FENIX',
         fmt: 'спринт',
+        coord: [59.956898, 30.428465],
         map: 'school_532_2023',
         me: 'М'
     },
@@ -1031,6 +1107,7 @@ let events2026 = [
         endReg: '2026-04-22 21:00',
         info: 'Новая карта. <a href="https://o-site.spb.ru/_races/260423_NWSprint_2/260423_NWsprint2_razbor.pdf">Разбор дистанций</a>.',
         fmt: 'спринт',
+        coord: [60.02331, 30.237502],
         o_site: '260423_NWSprint_2',
         bulletin: 'https://o-site.spb.ru/_races/260423_NWSprint_2/260423_NWsprint2_info.pdf',
         reskeep: 878,
@@ -1050,6 +1127,7 @@ let events2026 = [
         planner: 'SVCHK',
         info: 'Тест бесконтактной SFR-отметки.',
         fmt: 'гроздь',
+        coord: [59.882286, 29.82394],
         map: 'peterhof_spbgu_2026',
         publish: 'https://vk.com/album-230167293_313366249',
         strava: 18250178408,
@@ -1072,6 +1150,7 @@ let events2026 = [
         },
         type: 'ROGAINE',
         fmt: '4',
+        coord: [58.71888, 29.814526],
         map: 'toloni_2025',
         owner: 'SHBN'
     },
@@ -1080,6 +1159,8 @@ let events2026 = [
         date: '2026-04-25',
         name: 'Первомайская классика',
         place: 'Первомайское',
+        fmt: 'классика',
+        coord: [60.40427, 29.679583],
         reg: 'https://orgeo.ru/event/info/pervomay_classic',
         endReg: '2026-04-24 22:00',
         o_gps: 24847,
@@ -1112,14 +1193,25 @@ let events2026 = [
         name: 'Кубок Обухово',
         place: 'Школа №527',
         fmt: 'спринт',
+        coord: [59.854771, 30.467773],
         reg: 'https://orgeo.ru/event/44669',
         endReg: '2026-04-24 23:00',
         map: 'troitskoe_pole_2026'
     },
     {
+        id: 'SPB_20260426_3',
+        date: '2026-04-26',
+        name: 'Адмиралтейский азимут',
+        place: 'парк Екатерингоф',
+        coord: [59.901623, 30.25633],
+        reg: 'https://orgeo.ru/event/52191',
+        endReg: '2026-04-23'
+    },
+    {
         id: 'SPB_20260501_1',
         date: '2026-05-01',
         place: 'Гарболово',
+        coord: [60.348804, 30.503036],
         o_site: '260501',
         bulletin: 'http://orgeo.ru/files/event/file/52020_29af25cefd.pdf',
         reg: 'http://orgeo.ru/event/info/52020',
@@ -1132,6 +1224,7 @@ let events2026 = [
         id: 'SPB_20260501_2',
         date: '2026-05-01',
         place: 'Суоранда',
+        coord: [59.954746, 30.624722],
         reg: 'https://orgeo.ru/event/52074',
         endReg: '2026-04-29 14:45',
         bulletin: 'https://orgeo.ru/files/event/file/52074_926c8ad94f.pdf',
@@ -1148,6 +1241,7 @@ let events2026 = [
         bulletin: 'https://orgeo.ru/files/event/file/52080_a2d176b440.pdf',
         name: 'Сокол на крыльях ночи',
         fmt: 'масстарт, ночное',
+        coord: [59.954746, 30.624722],
         map: 'orovo_2019',
         owner: 'WN'
     },
@@ -1164,6 +1258,7 @@ let events2026 = [
         o_gps: 24914,
         type: 'ROGAINE',
         fmt: '5(4), 2',
+        coord: [58.719448, 29.81505],
         map: 'luga_omchino_gk_2023',
         start: 'GORNY_CROSS'
     },
@@ -1186,6 +1281,7 @@ let events2026 = [
         ],
         o_gps: 24904,
         fmt: 'классика',
+        coord: [60.595974, 30.253975],
         reskeep: 882,
         start: 'HARD',
         map: 'krivko_2025'
@@ -1204,6 +1300,7 @@ let events2026 = [
         info: '<a href="https://100kp.o-route.ru/">Треки участников</a>.',
         video: 'https://www.youtube.com/watch?v=G2ZAM2kHBPY',
         fmt: 'выбор',
+        coord: [60.139446, 28.104589],
         map: 'pukhtolova_gora_2025',
         strava: 18357096800,
         me: 'МВ'
@@ -1219,6 +1316,7 @@ let events2026 = [
         o_site: '260507_NWSprint_3',
         info: 'Новая карта. <a href="https://o-site.spb.ru/_races/260507_NWSprint_3/260507_NWSprint3_razbor.pdf">Разбор дистанций</a>.',
         fmt: 'спринт',
+        coord: [60.023211, 30.243396],
         owner: 'NW',
         map: 'koroleva_2026'
     },
@@ -1233,6 +1331,7 @@ let events2026 = [
         o_gps: 24950,
         photo: 'https://vk.com/album-154221178_311076066',
         fmt: 'классика',
+        coord: [60.373573, 30.241991],
         owner: 'AZIMUT',
         map: 'stekljanny_2021',
         reskeep: 886
@@ -1248,6 +1347,7 @@ let events2026 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1731',
         type: 'VELO',
         fmt: 'спринт',
+        coord: [60.28926, 29.310209],
         map: 'poljany_velo_2023'
     },
     {
@@ -1297,6 +1397,7 @@ let events2026 = [
         reskeep: 885,
         me: 'М50',
         fmt: 'классика',
+        coord: [60.289265, 29.3102],
         planner: 'KSHN_D',
         map: 'anyalovo_2023',
         publish: 'https://vk.com/album-230167293_313515750'
@@ -1304,6 +1405,7 @@ let events2026 = [
     {
         id: 'SPB_20260516_1',
         date: '2026-05-16',
+        endDate: '2026-05-17',
         name: 'Весенний водный рогейн',
         place: 'Вуокса',
         o_site: '260517r',
@@ -1328,6 +1430,7 @@ let events2026 = [
         endReg: '2026-05-14 20:00',
         o_gps: 25066,
         fmt: 'спринт',
+        coord: [59.666836, 30.795532],
         map: 'ulianovka_2022',
         owner: 'EGRV_EGR',
         strava: 18526784305,
@@ -1370,6 +1473,7 @@ let events2026 = [
         o_site: '260517',
         bulletin: 'https://o-site.spb.ru/_races/260517/260517_info3.pdf',
         fmt: 'эстафета 3х',
+        coord: [60.294285, 29.317977],
         map: 'polyany_2019',
         publish: 'https://vk.com/album-230167293_313563270',
         info: 'У ветеранов - классика.',
@@ -1390,6 +1494,7 @@ let events2026 = [
         date: '2026-05-17',
         name: 'Физкульт-мероприятие Красногвардейского р-на',
         place: 'Полюстровский парк',
+        coord: [59.964439, 30.420109],
         reg: 'https://orgeo.ru/event/info/52834',
         endReg: '2026-05-15 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/52834_a0739c80d8.pdf',
@@ -1416,6 +1521,7 @@ let events2026 = [
         date: '2026-05-19',
         name: 'Феникс Middle Cup',
         place: 'Юкки',
+        coord: [60.110996, 30.308208],
         o_site: '260519_',
         bulletin: 'https://o-site.spb.ru/_races/260519_/260519%20info.pdf',
         reg: 'https://orgeo.ru/event/50870',
@@ -1437,6 +1543,7 @@ let events2026 = [
         o_site: '260520',
         bulletin: 'http://orgeo.ru/files/event/file/52764_c60849c63c.pdf',
         fmt: 'выбор',
+        coord: [59.867989, 30.328783],
         reg: 'https://orgeo.ru/event/permosk26',
         endReg: '2026-05-17 23:55',
         o_gps: 25116,
@@ -1459,6 +1566,8 @@ let events2026 = [
         date: '2026-05-23',
         name: 'Царскосельский азимут',
         place: 'Баболовский парк',
+        fmt: 'классика',
+        coord: [59.705376, 30.371605],
         reg: 'http://orgeo.ru/event/tsa26',
         endReg: '2026-05-21',
         strava: 18620304297,
@@ -1482,6 +1591,7 @@ let events2026 = [
         res: 'https://vk.com/wall-91656163_2733',
         type: 'ROGAINE',
         fmt: '5, 2.5',
+        coord: [58.530746, 31.251511],
         start: 'LM',
         map: 'novgorod_rogaine_2024_09_08'
     },
@@ -1489,6 +1599,7 @@ let events2026 = [
         id: 'SPB_20260523_9',
         date: '2026-05-23',
         place: 'Мичуринское, оз Долгое',
+        coord: [60.579781, 29.958342],
         name: 'Кубок Белых ночей №12',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/52972',
@@ -1511,14 +1622,15 @@ let events2026 = [
         o_site: '260524',
         bulletin: 'https://o-site.spb.ru/_races/260524/260524_infobul.pdf',
         fmt: 'спринт, классика',
+        coord: [60.294548, 29.316053],
         map: 'orekhovo_figurnoe_2025',
         publish: 'https://vk.com/album-230167293_313624527',
         owner: 'SFSO_SPB'
     },
     {
         id: 'SPB_20260523_5',
-        date: '2026-05-23',
-        endDate: '2026-05-24',
+        date: '2026-05-23', // !
+        endDate: '2026-05-24', // !
         name: 'Универсиада (П-во ВУЗов)',
         place: 'Орехово',
         o_site: '260524_VUZ',
@@ -1531,6 +1643,7 @@ let events2026 = [
     {
         id: 'SPB_20260523_4',
         date: '2026-05-23',
+        // endDate: '2026-05-24',
         name: 'Весенний марш-бросок',
         place: 'Гаврилово',
         map: 'gavrilovo_vmb_2026_05_23',
@@ -1569,11 +1682,13 @@ let events2026 = [
         name: 'Контрольный старт',
         start: 'CONTROLNY_START',
         place: 'Пасторское оз',
+        reg: 'https://orgeo.ru/event/53141',
         o_gps: {
             'М':25135,
             'Ж':25136
         },
         fmt: 'ночное',
+        coord: [60.22604, 30.036732],
         map: 'pastorskoe_2024'
     },
     {
@@ -1591,6 +1706,7 @@ let events2026 = [
         video: ['https://www.youtube.com/watch?v=ib0wDfvzexc','https://vkvideo.ru/video-238805001_456239023'],
         planner: 'RYKV_A',
         fmt: 'спринт',
+        coord: [60.011162, 30.359816],
         start: 'SPRINT_TOUR',
         map: 'zhaka_djuklo_2023'
     },
@@ -1599,6 +1715,8 @@ let events2026 = [
         date: '2026-05-28',
         name: 'Кавголовская классика',
         place: 'Кавголово',
+        fmt: 'классика',
+        coord: [60.173531, 30.52527],
         o_site: '260528_bn',
         bulletin: 'https://o-site.spb.ru/_races/260528_bn/260528_info.pdf',
         reg: 'https://orgeo.ru/event/kavgolovo_classic',
@@ -1640,10 +1758,12 @@ let events2026 = [
     {
         id: 'SPB_20260530_2',
         date: '2026-05-30',
+        // endDate: '2026-05-31',
         name: 'BikeAdventure, TrailAdventure',
         place: 'Оленьи оз',
         type: ['ROGAINE', 'VELO'],
         fmt: '24, 12, 6',
+        coord: [60.51598, 30.472736],
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/48965',
         endReg: '2026-05-27 23:30',
@@ -1677,7 +1797,7 @@ let events2026 = [
         place: 'Южно-Приморский парк',
         o_site: '260531_RA',
         bulletin: 'https://o-site.spb.ru/_races/260531_RA/260531_info2.pdf',
-        reg: 'http://o-reg.spb.ru/?filter[day_id]=1742',
+        reg: ['http://o-reg.spb.ru/?filter[day_id]=1742','http://o-reg.spb.ru/?filter[day_id]=1745'], // !
         o_gps: {
             'М21':25252,
             'Ж21/М45':25253,
@@ -1698,6 +1818,7 @@ let events2026 = [
         id: 'SPB_20260531_2',
         date: '2026-05-31',
         place: 'Раздолье',
+        coord: [60.585312, 30.134295],
         name: 'Кубок Белых ночей №13',
         start: 'KBN',
         reg: 'https://orgeo.ru/event/53258',
@@ -1719,6 +1840,7 @@ let events2026 = [
     {
         id: 'SPB_20260606_1',
         date: '2026-06-06',
+        endDate: '2026-06-07',
         place: 'Кузнечное',
         name: 'Горный кросс-114',
         o_site: '260606R',
@@ -1730,6 +1852,7 @@ let events2026 = [
         photo: ['https://disk.yandex.ru/d/x60hmJH6uwo26w','https://vk.com/album-31941981_311094927','https://vk.com/album-31941981_311299868'],
         type: 'ROGAINE',
         fmt: '24, 8(7), 3',
+        coord: [61.122356, 29.884197],
         map: 'kuznechnoe_2009',
         start: 'GORNY_CROSS'
     },
@@ -1737,6 +1860,7 @@ let events2026 = [
         id: 'SPB_20260606_2',
         date: '2026-06-06',
         place: 'Петяярви',
+        coord: [60.632153, 30.091534],
         name: 'Кубок Белых ночей №14',
         start: 'KBN',
         o_site: '260606_bn',
@@ -1758,6 +1882,15 @@ let events2026 = [
         map: 'yappilya_2024'
     },
     {
+        id: 'SPB_20260606_4',
+        date: '2026-06-06',
+        name: 'Контрольный старт', // !
+        place: 'Выборг, Петровское', // !
+        coord: [60.804424, 28.762323],
+        reg: 'https://orgeo.ru/event/53504',
+        owner: 'KUZMOLOVO'
+    },
+    {
         id: 'SPB_20260607_1',
         date: '2026-06-07',
         name: 'Кубок D2RUN, 2 этап',
@@ -1769,6 +1902,7 @@ let events2026 = [
         bulletin: 'https://o-site.spb.ru/_races/260607_D2RUN_2/260607_Kubok_D2Run_2_info2.pdf',
         info: 'Спешл-группа — «Новички».',
         fmt: 'масстарт',
+        coord: [60.230135, 30.033877],
         owner: 'DLITELNY',
         map: 'pastorskoe_2024',
         publish: 'https://t.me/dlitelnyy/562',
@@ -1783,6 +1917,7 @@ let events2026 = [
         endDate: '2026-06-15',
         name: 'УТС ККП',
         place: 'Пруды',
+        coord: [60.747391, 28.93955],
         link: 'https://o-nw.ru/kkp',
         reg: 'https://sportident.online/entry/?id=6852',
         video: [
@@ -1799,7 +1934,7 @@ let events2026 = [
         endDate: '2026-06-14',
         place: 'Первомайское',
         name: 'Невский Азимут',
-        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1736',
+        reg: ['http://www.o-reg.spb.ru/?filter[day_id]=1736', 'http://www.o-reg.spb.ru/?filter[day_id]=1737', 'http://www.o-reg.spb.ru/?filter[day_id]=1738', 'http://www.o-reg.spb.ru/?filter[day_id]=1739'],
         o_site: '260614',
         bulletin: 'https://o-site.spb.ru/_races/260614/Pol_NA_2026.pdf',
         start: 'NA',
@@ -1848,6 +1983,7 @@ let events2026 = [
         ],
         info: '<a href="https://o-site.spb.ru/_races/260616-21_KKP/2026_kamenukola_videos.html">Видео-нарезка</a> участников на дистанции.',
         fmt: 'эстафета детская',
+        coord: [61.064512, 29.133659],
         map: 'kkp_prudy_2026_06_15_kamenukola',
         start: 'KKP',
         o_site: '260616-21_KKP'
@@ -1858,6 +1994,8 @@ let events2026 = [
         name: 'Перспектива',
         start: 'PERSPEKTIVA',
         place: 'Силанде',
+        fmt: 'A/B/C/D',
+        coord: [60.391284, 30.244696],
         o_site: '260621_p',
         bulletin: 'https://o-site.spb.ru/_races/260621_p/260621_info1.pdf',
         reg: 'http://orgeo.ru/event/info/53685',
@@ -1877,6 +2015,7 @@ let events2026 = [
         endReg: '2026-06-23 12:00',
         photo: 'https://vk.com/album-128591100_311331067',
         fmt: 'командный спринт / эстафета',
+        coord: [60.483479, 30.422943],
         map: 'peski_2026',
         owner: 'INGRIA'
     },
@@ -1904,7 +2043,7 @@ let events2026 = [
     {
         id: 'SPB_20260628_1',
         date: '2026-06-28',
-        endDate: '2026-06-30',
+        endDate: '2026-06-30', // !
         name: 'Праздник эстафет',
         place: 'Пески',
         o_site: '260628',
@@ -1914,11 +2053,20 @@ let events2026 = [
         map: 'peski_2026'
     },
     {
+        id: 'SPB_20260628_3',
+        date: '2026-06-28',
+        name: 'Лучший ориентировщик',
+        place: 'Командор',
+        coord: [59.945469, 29.060055],
+        reg: 'https://orgeo.ru/event/53852'
+    },
+    {
         id: 'SPB_20260629_1',
         date: '2026-06-29',
         endDate: '2026-07-02',
         name: 'УТС Белые ночи',
         place: 'Сосново, оз Уловное',
+        coord: [60.595272, 30.221197],
         link: 'https://vk.com/wall-196511971_1466',
         reg: 'https://orgeo.ru/event/53687',
         endReg: '2026-06-28 22:00',
@@ -1950,6 +2098,7 @@ let events2026 = [
         info: '<a href="https://o-route.ru/events/gk-115-2026">Пути участников</a>.',
         type: 'ROGAINE',
         fmt: '6(5), 3',
+        coord: [60.411205, 30.31778],
         map: 'lembolovo_orekhovo_peski_gk_2026',
         start: 'GORNY_CROSS'
     },
@@ -1969,6 +2118,7 @@ let events2026 = [
             'https://www.youtube.com/watch?v=jQLIIjU-ppQ'
         ],
         type: 'INDOOR',
+        coord: [60.091621, 30.379456],
         owner: 'OPEN_BAND',
         map: 'mega_parnas_2026',
         publish: 'https://t.me/openband_orient/2701',
@@ -1984,6 +2134,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/53793',
         endReg: '2026-07-04 23:55',
         fmt: 'эстафета',
+        coord: [60.590275, 30.229116],
         owner: 'WN',
         map: 'sosnovo_ulovnoe_oz_2023'
     },
@@ -2000,8 +2151,9 @@ let events2026 = [
     },
     {
         id: 'SPB_20260711_1',
+        coord: [61.279575, 30.100233],
         date: '2026-07-11',
-        endDate: '2026-07-12',
+        endDate: '2026-07-12', // !
         name: 'Летнее первенство Белых ночей',
         place: 'о Койонсаари',
         o_site: '260611_bn',
@@ -2019,6 +2171,7 @@ let events2026 = [
         date: '2026-07-11',
         name: 'Dлительная серия #1',
         place: 'Лемболово',
+        coord: [60.416146, 30.328993],
         o_site: '260711_Dlit_1',
         bulletin: 'https://o-site.spb.ru/_races/260711_Dlit_1/260711_Dlit_1_info1.pdf',
         reg: 'http://orgeo.ru/event/53961',
@@ -2035,6 +2188,7 @@ let events2026 = [
         date: '2026-07-12',
         name: 'Dлительная серия #2',
         place: 'Лемболово',
+        coord: [60.416309, 30.328737],
         o_site: '260712_Dlit_2',
         bulletin: 'https://o-site.spb.ru/_races/260712_Dlit_2/260712_Dlit_2_info1.pdf',
         reg: 'http://orgeo.ru/event/53962',
@@ -2079,6 +2233,7 @@ let events2026 = [
         name: 'Кубок Белых ночей №15',
         start: 'KBN',
         place: 'Мичуринское, Петриченко',
+        coord: [60.590874, 29.885193],
         reg: 'https://orgeo.ru/event/54027',
         endReg: '2026-07-17 20:55',
         bulletin: 'https://orgeo.ru/files/event/file/54027_77a0dbabf2.pdf',
@@ -2090,6 +2245,7 @@ let events2026 = [
         name: 'Кубок Белых ночей №16',
         start: 'KBN',
         place: 'Мичуринское, Петриченко',
+        coord: [60.590874, 29.885193],
         reg: 'https://orgeo.ru/event/54029',
         endReg: '2026-07-18 20:00',
         bulletin: 'https://orgeo.ru/files/event/file/54029_dec17b7dd0.pdf',
@@ -2100,6 +2256,7 @@ let events2026 = [
         date: '2026-07-21',
         name: 'Dлительная серия #3',
         place: 'Сосновка',
+        coord: [60.022976, 30.337349],
         link: 'https://t.me/dlitelnyy/597',
         reg: 'https://orgeo.ru/event/54132',
         endReg: '2026-07-20 23:00',
@@ -2149,6 +2306,7 @@ let events2026 = [
         name: 'Кубок Белых ночей №17,18',
         start: 'KBN',
         place: 'Барышево',
+        coord: [60.727924, 29.531181],
         reg: 'https://orgeo.ru/event/54186',
         endReg: '2026-07-24 20:00',
         bulletin: 'https://orgeo.ru/files/event/file/54186_1271aa3ec6.pdf',
@@ -2170,6 +2328,7 @@ let events2026 = [
         name: 'Кубок Белых ночей №19,20',
         start: 'KBN',
         place: 'Смоляное оз',
+        coord: [60.634357, 29.525326],
         reg: 'https://orgeo.ru/event/54227',
         endReg: '2026-07-31 12:00',
         bulletin: 'https://orgeo.ru/files/event/file/54227_c101aceae2.pdf',
@@ -2196,6 +2355,7 @@ let events2026 = [
         name: 'Перспектива',
         start: 'PERSPEKTIVA',
         place: 'Комарово',
+        coord: [60.176647, 29.827707],
         reg: 'http://orgeo.ru/event/54309',
         endReg: '2026-07-31',
         o_site: '260802_p',
@@ -2226,6 +2386,7 @@ let events2026 = [
         o_gps: 25723,
         type: 'ROGAINE',
         fmt: '3',
+        coord: [60.220882, 29.15118],
         owner: 'SHBN',
         map: 'jappilya_2024'
     },
@@ -2255,6 +2416,7 @@ let events2026 = [
         place: 'Ладожский парк',
         name: 'Лабиринт на газоне - День Физкультурника',
         fmt: 'лабиринт',
+        coord: [59.943302, 30.457975],
         info: 'Три дистанции простого уровня сложности 150-250м. Бесплатно, без предварительной регистрации.',
         reg: 'https://orgeo.ru/event/54223',
         owner: 'FENIX'
@@ -2285,6 +2447,7 @@ let events2026 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1750',
         type: 'VELO',
         fmt: 'масстарт',
+        coord: [60.222206, 29.12976],
         video: 'https://vk.com/video-220245153_456239104',
         photo: ['https://vk.ru/album-154221178_311697593','https://vk.ru/album-230167293_314194200'],
         map: 'zerkalny_velo_2023'
@@ -2300,6 +2463,7 @@ let events2026 = [
         bulletin: 'https://o-site.spb.ru/_races/260815-16_Aristomed_o-weekend/260815-16_Aristomed_o-vikend_byulleten_1.pdf',
         place: 'Сосновый бор',
         fmt: 'классика, ночной спринт, классика',
+        coord: [59.880895, 29.072165],
         video: [
             'https://vk.com/video-147403700_456239308',
             'https://youtube.com/watch?v=cRg7Lolr10U',
@@ -2353,6 +2517,7 @@ let events2026 = [
         name: 'Перспектива',
         start: 'PERSPEKTIVA',
         place: 'Осиновая роща',
+        coord: [60.110912, 30.246861],
         reg: 'http://orgeo.ru/event/54456',
         endReg: '2026-08-18 18:00',
         o_site: '260819_p',
@@ -2393,6 +2558,17 @@ let events2026 = [
         fmt: 'спринт, ночная классика, классика',
         map: ['vozrozhdenie_2024','vozrozhdenie_2026']
     },
+/*
+    {
+        id: 'SPB_20260822_1',
+        date: '2026-08-22',
+        name: 'Чип ЛО',
+        place: 'Лейпясуо',
+        fmt: 'классика',
+        coord: [60.747391, 28.93955],
+        reg: 'https://orgeo.ru/event/43766'
+    },
+*/
     {
         id: 'SPB_20260826_1',
         date: '2026-08-26',
@@ -2472,6 +2648,7 @@ let events2026 = [
         date: '2026-09-05',
         name: 'Феникс Middle-Cup',
         place: 'Вьюн',
+        coord: [60.370556, 30.281898],
         reg: 'https://orgeo.ru/event/54579',
         endReg: '2026-09-04 15:00',
         o_site: '260905_f',
@@ -2494,6 +2671,8 @@ let events2026 = [
         date: '2026-09-05',
         name: 'Физкультурное мероприятие',
         place: 'Ржевский л/п',
+        fmt: 'классика',
+        coord: [59.960537, 30.492369],
         reg: 'https://orgeo.ru/event/54769',
         endReg: '2026-09-03 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/54769_596b22b262.pdf',
@@ -2508,6 +2687,8 @@ let events2026 = [
         date: '2026-09-06',
         name: 'Петербургская осень',
         place: 'Петяярви',
+        fmt: 'классика',
+        coord: [60.631023, 30.126431],
         o_site: '260906',
         bulletin: 'https://o-site.spb.ru/_races/260906/PetOs_060926.pdf',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1755',
@@ -2531,6 +2712,7 @@ let events2026 = [
         name: 'Лига кадетского спорта',
         place: 'парк Интернационалистов',
         fmt: 'спринт',
+        coord: [59.858749, 30.401691],
         reg: 'https://orgeo.ru/event/55127',
         endReg: '2026-09-09 11:00',
         info: '+ тренировочные дистанции.',
@@ -2541,10 +2723,12 @@ let events2026 = [
         date: '2026-09-17',
         name: 'Отборочный спринт СФСО СПб. Длительная серия, 5 этап',
         place: 'Комендантский пр',
+        o_site: '260917',
         fmt: 'спринт',
+        coord: [60.022545, 30.25032],
         reg: 'https://orgeo.ru/event/55347',
         endReg: '2026-09-16 23:00',
-        bulletin: 'https://orgeo.ru/files/event/file/55347_c0b8e47ed1.pdf',
+        bulletin: 'https://o-site.spb.ru/_races/260917/260917_info.pdf',
         link: 'https://t.me/dlitelnyy/691',
         reskeep: 925,
         map: 'koroleva_2026',
@@ -2564,6 +2748,7 @@ let events2026 = [
         info: '<a href="https://o-route.ru/events/gk-116">Пути участников</a>.',
         type: 'ROGAINE',
         fmt: '5(4), 2',
+        coord: [60.261944, 29.5341],
         o_gps: 25994,
         map: 'molodezhnoe_gk_2024',
         start: 'GORNY_CROSS'
@@ -2577,6 +2762,7 @@ let events2026 = [
         publish: 'https://t.me/c/3634322394/166',
         type: 'FUN',
         fmt: 'лабиринт',
+        coord: [59.951622, 30.416229],
         info: 'Бесплатный старт. 7 разных дистанций.',
         owner: 'FENIX'
     },
@@ -2598,8 +2784,8 @@ let events2026 = [
     },
     {
         id: 'SPB_20260924_1',
-        date: '2026-09-23',
-        endDate: '2026-09-27',
+        date: '2026-09-22',
+        endDate: '2026-09-28',
         name: 'Старты в Зеркальном',
         place: 'Яппиля',
         fmt: 'выбор, классика, спринт',
@@ -2619,6 +2805,7 @@ let events2026 = [
         endReg: '2026-09-23 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/55557_8ae5a1c498.pdf',
         fmt: 'спринт',
+        coord: [60.009247, 30.419146],
         start: 'SPRINT_TOUR',
         reskeep: 929,
         info: '<a href="https://vk.ru/@sprinttourspb-1-etap-sprint-tour-spb-osen-2026-24092026-analiz-distancii">Разбор дистанций</a>.',
@@ -2651,6 +2838,7 @@ let events2026 = [
         video: 'https://vk.ru/video-128591100_456239103',
         publish: 'https://vk.ru/wall-128591100_3329',
         fmt: 'семейно-командные по выбору',
+        coord: [60.387852, 30.286667],
         start: 'WEDDING',
         map: 'lembolovo_2024'
     },
@@ -2682,6 +2870,7 @@ let events2026 = [
         video: ['https://www.youtube.com/shorts/cLQGhLPXXQI','https://t.me/c/2776154706/4512'],
         type: 'ROGAINE',
         fmt: '10, 6, 3',
+        coord: [58.695415, 29.846569],
         owner: 'SHBN',
         map: 'toloni_2025'
     },
@@ -2698,6 +2887,7 @@ let events2026 = [
         me: 'OPEN',
         strava: 20339428992,
         fmt: 'спринт',
+        coord: [59.919678, 30.411772],
         map: 'zanevsky_2026',
         photo: 'https://disk.yandex.ru/d/46qlXKAhYkPYAw',
         publish: 'https://t.me/c/3634322394/3/180',
@@ -2724,6 +2914,7 @@ let events2026 = [
         place: 'Яппиля',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1752',
         fmt: 'лонг',
+        coord: [60.20274, 29.144857],
         o_site: '260927',
         reskeep: 929,
         bulletin: 'https://o-site.spb.ru/_races/260927/260627_info3.pdf',
@@ -2752,6 +2943,7 @@ let events2026 = [
         id: 'SPB_20260927_3',
         date: '2026-09-27',
         place: 'Будогощь',
+        coord: [59.441673, 32.011719],
         name: 'XII соревнования памяти Ю.А.Березюка',
         reg: 'https://orgeo.ru/event/berezuk_2026',
         endReg: '2026-09-25 11:00',
@@ -2777,13 +2969,14 @@ let events2026 = [
         name: 'Спринт Тур',
         place: 'Комендантский пр',
         reg: 'https://orgeo.ru/event/55723',
-        endReg: '2026-09-29 23:55',
+        endReg: '2026-09-30 09:00',
         bulletin: 'https://orgeo.ru/files/event/file/55723_5cbb7b58b5.pdf',
         o_gps: 26083,
         reskeep: 932,
         planner: ['NSCHRT','CHGRVSKY_M'],
         photo: 'https://vk.ru/album-92124592_311909521',
         fmt: 'спринт',
+        coord: [60.010674, 30.253674],
         start: 'SPRINT_TOUR',
         info: 'Новая карта. <a href="https://vk.ru/@-92124592-2-etap-sprint-tour-spb-osen-2026-30092026-analiz-distancii">Разбор дистанций</a>.',
         map: 'komendantsky_metro_2026',
@@ -2814,19 +3007,30 @@ let events2026 = [
         map: 'school_158_2021'
     },
     {
+        id: 'SPB_20261001_2',
+        date: '2026-10-01',
+        name: 'Кросс-выбор',
+        place: 'сквер Пограничнико', // !
+        coord: [60.109776, 29.97377],
+        reg: 'https://orgeo.ru/event/55794',
+        endReg: '2026-09-30 20:00'
+    },
+    {
         id: 'SPB_20261003_1',
         date: '2026-10-03',
         name: '54-й Мемориал Анатолия Окинчица',
         place: 'Семиозерье',
+        o_site: '261003',
         link: 'https://touristclub.ru/okinchits/polozhenie/',
         reg: 'https://orgeo.ru/event/54791',
         endReg: '2026-09-30 23:55',
-        bulletin: 'http://touristclub.ru/okinchits/polozhenie/',
+        bulletin: ['https://o-site.spb.ru/_races/261003/261003_info.pdf','http://touristclub.ru/okinchits/polozhenie/'], // !
         res: 'http://touristclub.ru/wp-content/uploads/2026/10/Okin2026_split.html',
         publish: 'https://vk.ru/album-21755_312151949',
         photo: 'https://vk.ru/album-21755_312151949',
         video: ['https://vkvideo.ru/video-238805001_456239043','https://www.youtube.com/watch?v=xVLvut6QSxA'],
         fmt: 'ночное',
+        coord: [60.289127, 29.309061],
         start: 'OKINCHITSA'
     },
     {
@@ -2834,10 +3038,11 @@ let events2026 = [
         date: '2026-10-03',
         name: 'Кубок Колпино',
         place: 'Колпинский ПКиО',
+        coord: [59.732956, 30.593126],
         link: 'https://vk.ru/wall-171862432_235',
         reg: 'https://orgeo.ru/event/55190',
-        bulletin: 'https://orgeo.ru/files/event/file/55190_641ed466e4.pdf',
-        endReg: '2026-10-01 00:00',
+        bulletin: 'https://o-site.spb.ru/_races/261003_kolpino/261003_info2.pdf',
+        endReg: '2026-09-30 00:00',
         o_site: '261003_kolpino'
     },
     {
@@ -2868,14 +3073,24 @@ let events2026 = [
         coord: [60.187875,30.549333]
     },
     {
+        id: 'SPB_20261003_4',
+        date: '2026-10-03',
+        name: 'Кубок Санкт-Петербурга среди лиц с ПОДА',
+        place: 'Молодежное', // !
+        coord: [60.198723, 29.526632],
+        reg: 'https://orgeo.ru/event/55717',
+        endReg: '2026-10-01'
+    },
+    {
         id: 'SPB_20261004_1',
         date: '2026-10-04',
         name: 'Феникс Middle-Cup',
         place: 'Линдуловская роща',
+        coord: [60.238766, 29.526703],
         reg: 'https://orgeo.ru/event/55780',
-        endReg: '2026-10-02 12:00',
+        endReg: '2026-10-02 23:55',
         reskeep: 933,
-        bulletin: 'https://orgeo.ru/files/event/file/55780_0838dec9c9.pdf',
+        bulletin: 'https://orgeo.ru/files/event/file/55780_0412d401dd.pdf',
         publish: 'https://disk.yandex.ru/d/Dybf7s7KHRjqkQ',
         owner: 'FENIX',
         map: 'lindulovskaya_roscha_2015'
@@ -2885,9 +3100,10 @@ let events2026 = [
         date: '2026-10-04',
         name: 'Тренировочный старт',
         place: 'Токсовские карьеры',
+        coord: [60.194099, 30.577518],
         reg: 'https://orgeo.ru/event/55829',
         endReg: '2026-10-03 14:00',
-        bulletin: 'https://orgeo.ru/files/event/file/55829_1e33273095.pdf',
+        bulletin: 'https://orgeo.ru/files/event/file/55829_5d5885b3ec.pdf',
         owner: 'KUZMOLOVO'
     },
     {
@@ -2897,13 +3113,33 @@ let events2026 = [
         place: 'Туристская ул',
         o_site: '261007_NWSprint_1',
         reg: 'https://orgeo.ru/event/info/55837',
-        bulletin: 'https://o-site.spb.ru/_races/261007_NWSprint_1/261007_NWsprint_info.pdf',
+        bulletin: 'https://o-site.spb.ru/_races/261007_NWSprint_1/261007_NWsprint_techinfo.pdf',
         info: '<a href="https://o-site.spb.ru/_races/261007_NWSprint_1/261007_NWSprint_razbor.pdf">Разбор дистанций</a>.',
-        endReg: '2026-10-06 22:00',
+        endReg: '2026-10-07 10:00',
         reskeep: 937,
         fmt: 'спринт',
+        coord: [60.0065, 30.207586],
         map: 'bogatyrsky_2025',
         owner: 'NW'
+    },
+    {
+        id: 'SPB_20261007_2',
+        date: '2026-10-07',
+        name: 'Ориентирование по зданию, клубный забег КСО Феникс',
+        place: 'Школа 491',
+        coord: [59.937626, 30.438328],
+        reg: 'https://orgeo.ru/event/55995',
+        type: 'INDOOR',
+        owner: 'FENIX'
+    },
+    {
+        id: 'SPB_20261007_3',
+        date: '2026-10-07',
+        name: 'Ориентирование в Колледж',
+        place: 'Московский',
+        reg: 'https://orgeo.ru/event/55994',
+        type: 'INDOOR',
+        owner: 'FENIX'
     },
     {
         id: 'SPB_20261010_1',
@@ -2914,9 +3150,10 @@ let events2026 = [
         o_site: '261010R',
         reg: 'https://orgeo.ru/event/50690',
         endReg: '2026-10-09 19:00',
-        bulletin: 'https://orgeo.ru/files/event/file/50690_d8f015b153.pdf',
+        bulletin: 'https://o-site.spb.ru/_races/261010R/261010R_info.pdf',
         type: 'ROGAINE',
         fmt: '1',
+        coord: [60.172356, 30.525661],
         start: 'GORNY_CROSS',
         map: 'kavgolovo_2017'
     },
@@ -2927,13 +3164,15 @@ let events2026 = [
         name: 'Золотая осень, ЧиП ЛО',
         o_site: 'vyb_zo',
         reg: 'http://orgeo.ru/event/55777',
-        endReg: '2026-10-07 23:55',
+        endReg: '2026-10-08 08:00',
         bulletin: 'https://o-site.spb.ru/_races/vyb_zo/info1.pdf',
         start: 'LO_CHAMP',
         o_gps: 26112,
         strava: 20527472955,
         me: 'М50',
         place: 'Выборг, Анненские укрепления, оз Горица',
+        fmt: 'спринт, классика',
+        coord: [60.719032, 28.729204],
         video: ['https://youtu.be/xlM_hHw8tvM','https://vkvideo.ru/video-238805001_456239044'],
         reskeep: [938,939],
         owner: 'VYBORG',
@@ -2946,6 +3185,7 @@ let events2026 = [
         place: 'Лемболово',
         type: ['ROGAINE', 'VELO'],
         fmt: '6',
+        coord: [60.415466, 30.327087],
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/53879',
         photo: 'https://vk.ru/album-30311715_312230105',
@@ -2964,7 +3204,7 @@ let events2026 = [
         o_site: '261011_velo',
         reg: 'https://www.o-reg.spb.ru/?filter[day_id]=1760',
         endReg: '2026-10-08 23:59',
-        bulletin: 'https://o-site.spb.ru/_races/261011_velo/261011_info.pdf',
+        bulletin: 'https://o-site.spb.ru/_races/261011_velo/261011_info2.pdf',
         publish: 'https://vk.ru/album-230167293_314685615',
         photo: 'https://vk.ru/album-230167293_314685615',
         planner: 'VSLV_S',
