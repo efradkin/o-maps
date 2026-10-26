@@ -134,6 +134,9 @@ const regions = {
     MSK: {
         name: 'Москва'
     },
+    MOLDOVA: {
+        name: 'Молдова'
+    },
     MURMANSK: {
         name: 'Мурманск',
         logo: 'murmansk.webp'

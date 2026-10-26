@@ -241,4 +241,9 @@ let unknownMaps = [
         year: 1,
         link: './original_maps/unknown/unknown_75_omaps.webp'
     },
+    {
+        name: 'Тула',
+        year: 1988,
+        link: './original_maps/unknown/unknown_76_omaps.webp'
+    },
  ];

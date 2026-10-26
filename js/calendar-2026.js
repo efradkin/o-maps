@@ -3164,7 +3164,7 @@ let events2026 = [
         reskeep: 944,
         fmt: 'спринт',
         owner: 'NW',
-        info: 'Новая карта.'
+        info: 'Новая карта. <a href="https://vk.ru/@-93257360-razbor-nw-sprint-22102026">Разбор дистанций</a>.'
     },
     {
         id: 'SPB_20261021_2',
@@ -3197,6 +3197,8 @@ let events2026 = [
         fmt: 'ночная эстафета',
         o_site: '261025_50Verst',
         bulletin: 'https://o-site.spb.ru/_races/261025_50Verst/261025_info_50_vyorst_2026.pdf',
+        photo: 'https://vk.ru/album-93257360_312223793',
+        publish: 'https://vk.ru/album-93257360_312223793',
         reg: 'http://sportident.online/entry/?id=7197',
         endReg: '2026-10-20 23:59',
         coord: [60.196722, 29.158649],
@@ -3262,6 +3264,9 @@ let events2026 = [
         o_site: '261025_50Verst',
         bulletin: 'https://o-site.spb.ru/_races/261025_50Verst/261025_info_50_vyorst_2026.pdf',
         reg: 'https://sportident.online/entry/?id=7198',
+        video: ['https://vkvideo.ru/video-230838055_456239064','https://vkvideo.ru/video-93257360_456239330'],
+        photo: 'https://vk.ru/album-93257360_312223793',
+        publish: 'https://vk.ru/album-93257360_312223793',
         endReg: '2026-10-20 23:59',
         info: '+ тренировочные дистанции.',
         owner: 'NW'

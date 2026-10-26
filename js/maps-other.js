@@ -922,6 +922,22 @@ let otherMaps = [
     },
     // --- Челябинск ---
     {
+        name: 'Хребет',
+        year: 1986,
+        url: './maps/other/khrebet_1986.webp',
+        link: './original_maps/other/khrebet_1986_omaps.webp',
+        bounds: [[55.1090153, 59.8739433], [55.1035161, 59.9201202], [55.0750260, 59.8614120]],
+        region: 'CHELYABINSK'
+    },
+    {
+        name: 'Черновское',
+        year: 1980,
+        url: './maps/other/chernovskoe_1980.webp',
+        link: './original_maps/other/chernovskoe_1980_omaps.webp',
+        bounds: [[54.9460023, 60.0938416], [54.9425760, 60.1347399], [54.9149334, 60.0875330]],
+        region: 'CHELYABINSK'
+    },
+    {
         name: 'оз Большой Еланчик',
         year: 2003,
         url: './maps/other/big_elanchik_2003.webp',
@@ -1389,6 +1405,17 @@ let otherMaps = [
         author: ['MLNKV_L','TRNV_VL','DLNN_E','TRKN_V','KPVA_Y'],
         results: 'https://ocbsu.orient.by/upload/2018/Protokoly_1988-BSU.pdf',
         start: ['USSR_1988','USSR']
+    },
+
+    // --- Молдова ---
+
+    {
+        name: 'Дурлештский лес',
+        year: 1989,
+        url: './maps/other/durleshtsky_forest_1989.webp',
+        link: './original_maps/other/durleshtsky_forest_1989_omaps.webp',
+        bounds: [[47.0414982, 28.7246561], [47.0403869, 28.7598896], [47.0214321, 28.7231541]],
+        region: 'MOLDOVA'
     },
 
     // --- Латвия ---
