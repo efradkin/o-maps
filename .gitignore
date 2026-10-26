@@ -1,3 +1,5 @@
 /original_maps/
 /wdpa-russia-tiles/
 /app/*/*.apk
+/tools/check_upload.ini
+/compare_files
