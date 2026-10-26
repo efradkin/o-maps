@@ -902,6 +902,7 @@ let authors = {
     BCHNV_A: { name: 'Бучнев А.' },
     BLSS: { name: 'Baleišis Edvardas' },
     BNDR_N: { name: 'Бондарь Николай' },
+    BRDNSV_A: { name: 'Бердоносов А.' },
     BRDV_M: { name: 'Бородаев М.' },
     BRV_D: { name: 'Бареев Денис' },
     BYMRZN: { name: 'Баймурзин Х.' },
@@ -909,6 +910,7 @@ let authors = {
     DLNN_E: { name: 'Долинин Е.' },
     DMN_A: { name: 'Дёмин А.' },
     VHTV_A: { name: 'Вахитов А.' },
+    FRSV_A: { name: 'Фирсов А.' },
     GLDKVA_S: { name: 'Гладкова Светлана' },
     GLTSKY_V: { name: 'Гелецкий В.' },
     GPS_V: { name: 'Gipas Vytautas' },
@@ -918,6 +920,7 @@ let authors = {
     GSMNV_R: { name: 'Гусманов Р.' },
     GTMNSKY_S: { name: 'Гетманский С.' },
     GTS_J: { name: 'Gytis Juška' },
+    GTS_M: { name: 'Гитис М.' },
     GVLDS_J_G: { name: 'Gvildys Jonas Gediminas' },
     IDLBV: { name: 'Идельбаев Нурбулат' }, // Волгодонск
     IVNNKO_V: { name: 'Иваненко В.' },
@@ -951,6 +954,7 @@ let authors = {
     LPNSH: { name: 'Лиепиньш В.' },
     MCKVCS: { name: 'Mickevičius Karolis' },
     LSHV_A: { name: 'Лайшев Алексей' },
+    MKHV_A: { name: 'Махов А.' },
     MLNN_V: { name: 'Малинин Вадим' }, // Геннадьевич
     MLR_P: { name: 'Муляр П.' },
     MLSHNKO_V: { name: 'Малашенко Валерий' }, // Брянск
@@ -967,6 +971,7 @@ let authors = {
     PNI_T: { name: 'Pani Tonu' },
     PNCHKV: { name: 'Панчуков С.' },
     PNTSR_V: { name: 'Панцир В.' },
+    PPKV_S: { name: 'Попков С.' },
     PTPV_A: { name: 'Потопаев Александр' },
     PTPV_AN: { name: 'Потопаев Андрей' },
     PLKTV_V: { name: 'Полуэктов В.' }, // С.
@@ -996,6 +1001,7 @@ let authors = {
     TRNTSVA_M: { name: 'Туринцева Маргарита' },
     TRSV_S: { name: 'Трусов С.' },
     UGNCHV_V: { name: 'Угничев В.' },
+    VLVCH_G: { name: 'Волович Г.' },
     VRM_A: { name: 'Veermae Avo' },
     VRNN_Y: { name: 'Воронин Юрий' },
     YURDK: { name: 'Юрдик В.' },

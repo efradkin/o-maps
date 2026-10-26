@@ -886,6 +886,16 @@ let otherMaps = [
     },
     // --- Тула ---
     {
+        name: 'Дубна',
+        year: 1988,
+        url: './maps/other/dubna_1988.webp',
+        link: './original_maps/other/dubna_1988_omaps.webp',
+        bounds: [[54.1751711, 36.9062948], [54.1700466, 36.9481373], [54.1464002, 36.8971109]],
+        info: 'Майская многодневка.',
+        author: 'NSNV',
+        region: 'TULA'
+    },
+    {
         name: 'Домнино',
         date: '2024-07-27',
         url: './maps/other/domnino_rogaine_2024.webp',
@@ -927,6 +937,7 @@ let otherMaps = [
         url: './maps/other/khrebet_1986.webp',
         link: './original_maps/other/khrebet_1986_omaps.webp',
         bounds: [[55.1090153, 59.8739433], [55.1035161, 59.9201202], [55.0750260, 59.8614120]],
+        author: ['BRDNSV_A','VLVCH_G','GTS_M','MKHV_A','PPKV_S','FRSV_A'],
         region: 'CHELYABINSK'
     },
     {
