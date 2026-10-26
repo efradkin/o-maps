@@ -18,6 +18,8 @@ sync_calendar.py — получение и обновление записей �
   endreg    срок окончания заявок (endReg) по страницам регистрации из reg —
             orgeo, o-reg.spb.ru, sportident.online, reg.o-time.ru (как в
             fill_end_reg.py);
+  names     start и owner по названию записи (правила NAME_RULES в начале
+            скрипта, см. ниже);
   ogps      fill_ogps.py --apply — ссылки на GPS-трансляции o-gps-center.ru;
             внешний скрипт, идёт последним, чтобы видеть новые записи.
 Все шаги работают с временной копией calendar-*.js; в --src файлы
@@ -123,6 +125,21 @@ o-site с этим o_site (или ссылкой race.php?id=…), событи�
 Записи, которые остаются на сайте, это не касается: связь по действующим o_site и
 reg работает как обычно. Отменённый старт по-прежнему помечается cancelled: true.
 
+start и owner по названию (шаг names). Правила NAME_RULES (регулярные
+выражения по name, в начале скрипта) составлены по записям календаря: у записей
+с подходящим названием этот код уже стоит, другого нет. Проверяются по порядку,
+срабатывает первое подошедшее. Правила SPB — для calendar-YYYY.js,
+calendar-early.js и calendar-common.js, MSK — для calendar-msk-*.js.
+  * start ставится, если его нет;
+  * owner — если его нет и у start записи организатор не задан в js/starts.js
+    (если задан — дублировать его в записи не нужно; если не задан — owner
+    ставится и записи со start), и только когда в календаре уже есть запись с
+    подходящим названием и этим owner — без start или с тем же start, — не
+    раньше года первой такой записи (организаторы меняются). Почему owner не
+    поставлен — с -v в расхождениях;
+  * записи — новые и в обрабатываемых датах; «// !» соблюдается.
+Новый повторяющийся старт: добавьте правило в NAME_RULES.
+
 Фиксация полей — комментарий «// !». Чтобы ни один шаг (в том числе
 import_calendar_msk.py, import_calendar_malakhit.py и fill_ogps.py) не менял
 поле записи, поставьте после его значения, в той же строке, комментарий,
@@ -134,6 +151,10 @@ import_calendar_msk.py, import_calendar_malakhit.py и fill_ogps.py) не мен
     // ! bulletin, coord
     // ! *
 Зафиксированное поле не перезаписывается, не удаляется и не добавляется.
+
+Закомментированное поле записи («// endDate: '2026-05-24',») — отвергнутое
+значение: ни один шаг не впишет в это поле именно это значение снова (другое —
+впишет, как обычно; чтобы поле не трогали вовсе, используйте «// !»).
 Сопоставление записи с источниками это не отменяет: остальные поля
 обновляются как обычно. Что не изменено из-за «// !» — строка в конце отчёта
 (список — с -v).
@@ -164,7 +185,7 @@ import_calendar_msk.py, import_calendar_malakhit.py и fill_ogps.py) не мен
   --year Y         старты года Y (YYYY или YYYY-YYYY; можно повторять).
   --all            вся история.
   --only STEPS     выполнить только эти шаги (через запятую:
-                   msk,malakhit,osite,orgeo,endreg,ogps).
+                   msk,malakhit,osite,orgeo,endreg,names,ogps).
   --skip STEPS     пропустить эти шаги.
   -n, --dry-run    ничего не записывать в --src, только показать.
   -v, --verbose    подробный отчёт: расхождения name/place/fmt/type, события
@@ -213,7 +234,7 @@ import fill_ogps as OG          # noqa: E402  токены, прогресс, Te
 import fill_bulletins as FB     # noqa: E402  разбор calendar-*.js, бюллетени
 import fill_end_reg as FE       # noqa: E402  сайты регистрации
 
-STEPS = ['msk', 'malakhit', 'osite', 'orgeo', 'endreg', 'ogps']
+STEPS = ['msk', 'malakhit', 'osite', 'orgeo', 'endreg', 'names', 'ogps']
 FRESH_DEFAULT = 14
 SERIES_DAYS = 14        # страница о-сайта длиннее — серия/сезон, а не один старт
 UMBRELLA_DAYS = 60      # записи длиннее — «зонтики», по словам не сопоставляются
@@ -235,22 +256,110 @@ MSK_FILE = re.compile(r'calendar-msk-[\w-]+\.js$')
 DATE_FILE = re.compile(r'calendar-(?:\d{4}|early)\.js$')     # даты стартов берутся из источников
 NOAUTO_FILES = OG.NOAUTO_FILES
 NOAUTO_TYPES = OG.NOAUTO_TYPES
-NEW_ORDER = ['id', 'date', 'endDate', 'name', 'place', 'type', 'fmt', 'coord',
-             'o_site', 'reg', 'endReg', 'bulletin']
+NEW_ORDER = ['id', 'date', 'endDate', 'name', 'start', 'place', 'type', 'fmt', 'coord',
+             'o_site', 'reg', 'endReg', 'bulletin', 'owner']
 # после какого поля вставлять новое поле существующей записи (первое найденное)
 ANCHORS = {
     'endDate': ['date'], 'name': ['endDate', 'date'], 'place': ['name'],
     'type': ['fmt', 'place', 'name'], 'fmt': ['place', 'name'],
     'coord': ['fmt', 'type', 'place', 'name'], 'o_site': ['place', 'name'],
     'reg': ['o_site', 'place', 'name'], 'endReg': ['reg'],
-    'bulletin': ['endReg', 'reg', 'o_site'],
+    'bulletin': ['endReg', 'reg', 'o_site'], 'start': ['name'],
 }
 TECH = {'reg', 'bulletin', 'date', 'endDate', 'coord', 'endReg'}
+
+# start и owner по названию записи (шаг names): (поле, код, регулярное выражение по name).
+# Правила составлены по записям календаря (октябрь 2026): у записей, чьё название подходит,
+# этот код уже стоит, другого нет. Проверяются по порядку, срабатывает первое подошедшее.
+# SPB — calendar-YYYY.js, calendar-early.js, calendar-common.js; MSK — calendar-msk-*.js.
+NAME_RULES = {
+    'SPB': [
+        ('start', 'KBN', r'кубок белых ноч'),
+        ('start', 'SPRINT_TOUR', r'sprint tour|спринт[- ]тур'),
+        ('start', 'ORIENTIR', r'^ориентир-\d'),
+        ('start', 'YM_CUP', r'кубок яркого мира|яркий кубок'),
+        ('start', 'ROGAINE_110', r'(кубок|рогейн)[^,]*\b110\s*%|\b110\s*%.*(кубок|рогейн)'),
+        ('start', 'GORNY_CROSS', r'горный кросс'),
+        ('start', 'KUZMOLOVSKY_STARTS', r'кузьмоловские старты'),
+        ('start', 'SNOW_WAY', r'снежная тропа'),
+        ('start', 'KKP', r'^ккп\b|кубок карельского перешейка'),
+        ('start', 'SCHOOL', r'ориентирование\s*-?\s*в школу'),
+        ('start', 'VSEVOLOZHSK_WAY', r'всеволожская тропа'),
+        ('start', 'BA', r'bike ?adventure'),
+        ('start', 'PERSPEKTIVA', r'^перспектива'),
+        ('start', 'MB', r'марш-бросок'),
+        ('start', 'MMS', r'мемориал (михаила )?святкина'),
+        ('start', 'NA', r'невский азимут'),
+        ('start', 'WEDDING', r'золотые кольца|свадебные'),
+        ('start', 'GS', r'зел[её]ный змей'),
+        ('start', 'RFAR', r'red ?fox'),
+        ('start', 'OKINCHITSA', r'окинчиц'),
+        ('start', 'VSEV_VESTI', r'всеволожские вести'),
+        ('start', 'SOSNOVOBORSKY_DUNY', r'сосновоборские дюны'),
+        ('start', '100x24', r'100 за 24|100\s*[хx]\s*24'),
+        ('start', 'LM', r'лужский меридиан|новгородский меридиан|новгородский исторический рогейн'),
+        ('start', 'MATRESHKA', r'матр[её]шк'),
+        ('start', 'WEEKLY_ORIENT', r'weekly orient'),
+        ('start', 'KKR', r'кубок коротких рогейнов'),
+        ('start', 'VYBORGSKY_TROIKA', r'выборгская тройка'),
+        ('start', 'WHITE_NIGHTS', r'white nights (sprint|middle)'),
+        ('start', 'HARD', r'hard[- ]rogaine'),
+        ('start', 'KS', r'карельские скалы'),
+        ('start', 'TRI_O_TLON', r'три-о-тлон'),
+        ('start', 'VOLKOV_A', r'мемориал (андрея |а\. ?)волкова'),
+        ('start', '2x2', r'эстафеты 2\s*[хx]\s*2'),
+        ('start', 'STREKOZAIKI', r'стрекоза'),
+        ('start', 'CONTROLNY_START', r'^контрольный старт'),
+        ('start', 'SPB_CHAMP', r'^(чип|чемпионат( и первенство)?|первенство) (спб|санкт-петербурга)\b'),
+        ('start', 'LO_CHAMP', r'^(чип|чемпионат( и первенство)?|чемпионат и пер-во) (ло|ленинградской области)\b'),
+        ('start', 'WN', r'^(неделя ориентирования )?«?белые ночи»?$'),
+        ('owner', 'VESTA_PRIOZERSK', r'кубок весты'),
+        ('owner', 'AZIMUT', r'осенний марафон|петербургская осень$|памяти друзей|натал|посвящ[её]нные дню победы'),
+        ('owner', 'WN', r'белых ночей'),
+        ('owner', 'SFSO_SPB', r'российский азимут( -)? ?спб'),
+        ('owner', 'SFSO_LO', r'российский азимут.*\bло\b'),
+        ('owner', 'MULTSPORT', r'^(весенний |петербургский )?водный рогейн( \d{4})?$|ice trail|велоизоляц|matrasoff'),
+        ('owner', 'DLITELNY', r'^[дd]лительн|dnrun|d2run'),
+        ('owner', 'VYBORG', r'о-выборг|тренировочный старт выборг'),
+        ('owner', 'NW', r'рождественские старты|nw sprint|в[её]рст|nord ?west'),
+        ('owner', 'GOLFSTREAM', r'гольфстрим'),
+        ('owner', 'FENIX', r'феникс'),
+        ('owner', 'YUVENTA', r'кубок снятия блокады|соснового бора'),
+        ('owner', 'SHBN', r'лужск\w* .*рогейн|рогейн на лужских'),
+        ('owner', 'FRUNZ_SPORT', r'фрунзенск'),
+        ('owner', 'EGRV_SRG', r'березюка'),
+        ('owner', 'SUBBOTNIK', r'александрийские субботники'),
+        ('owner', 'EGRV_EGR', r'царскосельский азимут'),
+        ('owner', 'MLV_AL', r'кириш'),
+        ('owner', 'MILYA_SPORT', r'миля[- ]спорт'),
+    ],
+    'MSK': [
+        ('owner', 'SYTV_N', r'московский меридиан'),
+        ('owner', 'CLEVER_MSK', r'московск(ая|ое) (осень|весна|лето|зима)|нано-?подкуст|нанорогейн'),
+        ('owner', 'FSO_MSK', r'кубок федерации со г\.? ?москвы'),
+        ('owner', 'O_KUNTSEVO', r'о-кунцево'),
+    ],
+}
 SOFT = ['name', 'place', 'fmt', 'type']
 
 
 def D(s):
     return dt.date.fromisoformat(s)
+
+
+RELAY = re.compile(r'(эстафет[а-яё]*)\s*[-–—]?\s*(\d+)(?:\s*/\s*(\d+))?\s*[-–—]?\s*'
+                   r'(?:х|x|чел(?:овека|овек)?\.?)(?![а-яёa-z])', re.I)
+PERSONS = re.compile(r'(\d+)\s*[-–—]?\s*человека?(?![а-яё])', re.I)
+
+
+def norm_fmt(s):
+    """Формат как принято в календаре: «эстафета 3 чел.», «эстафета - 3 человека» -> «эстафета 3х»,
+    «эстафета 2/3 человека» -> «эстафета 2х/3х»; прочие «N человека» -> «N чел.»
+    (как «маркированная трасса 3 чел.»). Используется и import_calendar_msk.py / _malakhit.py."""
+    if not s:
+        return s
+    s = RELAY.sub(lambda m: '%s %sх%s' % (m.group(1), m.group(2), '/%sх' % m.group(3) if m.group(3) else ''), s)
+    return PERSONS.sub(r'\1 чел.', s)
 
 
 def overlap(a0, a1, b0, b1):
@@ -466,18 +575,13 @@ class CalFile:
         self.path, self.name = path, os.path.basename(path)
         self.text, self.enc, self.eol = FB.read_js(path)
         self.q = '"' if self.text.count(': "') > self.text.count(": '") else "'"
-        self.coord_ml = len(re.findall(r'coord:\s*\[\s*\n', self.text)) > \
-            len(re.findall(r'coord:\s*\[[^\n\]]*\]', self.text))
         self.recs, self.new = [], []
         self.error = None
         self.ind1, self.ind2 = '    ', '        '
 
     def js(self, k, v, indent):
         if k == 'coord' and isinstance(v, list):
-            if self.coord_ml:
-                inner = indent + '    '
-                return '[\n' + ',\n'.join(inner + fnum(x) for x in v) + '\n' + indent + ']'
-            return '[' + ', '.join(fnum(x) for x in v) + ']'
+            return '[' + ', '.join(fnum(x) for x in v) + ']'      # в строку: [55.371487, 38.812763]
         if isinstance(v, list):
             return '[' + ', '.join(self.js(k, x, indent) for x in v) + ']'
         if isinstance(v, bool):
@@ -498,6 +602,7 @@ class Rec:
                 self.v[f['key']] = parse_value(cfile.text[f['vstart']:f['vend']])
         self.changes, self.log, self.blocked = {}, [], []
         self.lock = locked_fields(cfile.text, span, self.flds) if span else set()
+        self.rejected = commented_fields(cfile.text, span) if span else {}
         self.new = span is None
         self.seq = 0
         self.src = []            # откуда взяты данные: 'o-site 261104_OM', 'orgeo 56164'
@@ -533,6 +638,9 @@ class Rec:
             return False
         if not self.new and self.locked(k):
             self.blocked.append((k, old, val, why))
+            return False
+        if not self.new and any(same(k, val, x) for x in self.rejected.get(k, [])):
+            self.blocked.append((k, old, val, why + ', значение закомментировано'))
             return False
         self.changes[k] = val
         if not self.new:
@@ -658,6 +766,21 @@ def braces(c):
             if depth == 0:
                 out.append(c[start:i + 1])
         i += 1
+    return out
+
+
+CMT_LINE = re.compile(r'^[ \t]*//[ \t]*([A-Za-z_$][\w$]*)[ \t]*:[ \t]*(.*?)[ \t]*,?[ \t]*$', re.M)
+
+
+def commented_fields(t, span):
+    """Закомментированные поля записи («// endDate: '2026-05-24',»): {поле: [значения]}.
+    Такое значение отвергнуто вручную — скрипты не вписывают его снова (другое значение — можно)."""
+    s, e = span
+    out = {}
+    for m in CMT_LINE.finditer(t, s, e):
+        v = parse_value(m.group(2))
+        if not isinstance(v, Raw):
+            out.setdefault(m.group(1), []).append(v)
     return out
 
 
@@ -1039,7 +1162,7 @@ class OSiteEvent:
             self.coord = [float(m.group(1)), float(m.group(2))]
         for k in ('Формат', 'Дисциплина', 'Дистанция'):
             if props.get(k):
-                self.fmt = props[k]
+                self.fmt = norm_fmt(props[k])
                 break
         for href, text in OS_LINK.findall(page):
             text = clean(text)
@@ -1230,6 +1353,7 @@ class OrgeoEvent:
             if not DISCIPLINE.search(d):
                 continue
             d = re.sub(r'^(?:кросс|лыжная гонка|лг|велокросс|трейл-?о?)\s+-\s+', '', d).strip()
+            d = norm_fmt(d)
             if d and d not in fm:
                 fm.append(d)
         self.fmt = ', '.join(fm) or None
@@ -1727,6 +1851,71 @@ def merge(cal, osite_events, rep, scope):
             rep.manual('%s: на orgeo «%s» — отменён/перенесён?' % (r.head(), og.name))
 
 
+def name_area(r):
+    if DATE_FILE.fullmatch(r.cf.name) or r.cf.name == 'calendar-common.js':
+        return 'SPB'
+    if MSK_FILE.fullmatch(r.cf.name):
+        return 'MSK'
+    return None
+
+
+def start_owners(path):
+    """{код старта: owner} из js/starts.js — организатор, заданный у старта."""
+    try:
+        s = open(path, encoding='utf-8').read()
+    except OSError:
+        return None
+    out = {}
+    for m in re.finditer(r'\n    (\w+): \{(.*?)\n    \},', s, re.S):
+        own = re.findall(r"\bowner:\s*(\[[^\]]*\]|'[^']*'|\"[^\"]*\")", m.group(2))
+        if own:
+            out[m.group(1)] = own[0]
+    return out
+
+
+def by_name(cal, scope, rep, owners_of_start):
+    """start и owner по названию (NAME_RULES), каждое — если его нет. owner не ставится, если у
+    start записи организатор задан в starts.js (дублировать его в записи не нужно); если не задан
+    или start нет — ставится, но только если в календаре уже есть запись с подходящим названием и
+    этим owner — без start или с тем же start, — и не раньше года первой такой записи:
+    организаторы меняются."""
+    rules = {area: [(f, code, re.compile(rx, re.I)) for f, code, rx in rs] for area, rs in NAME_RULES.items()}
+    skey = lambda r: tuple(sorted(x for x in aslist(r.get('start')) if isinstance(x, str)))
+    since = {}
+    for r in cal.recs:
+        area = name_area(r)
+        if not area or not r.d0 or r.new:
+            continue
+        for f, code, rx in rules[area]:
+            if f == 'owner' and code in aslist(r.get('owner')) and rx.search(r.get('name') or ''):
+                since.setdefault((area, code, rx.pattern), []).append((r.d0.year, skey(r)))
+    for r in cal.recs:
+        area = name_area(r)
+        if not area or not r.d0 or not (r.new or scope.hits(r.d0, r.d1)):
+            continue
+        name = r.get('name') or ''
+        if not r.get('start'):
+            for f, code, rx in rules[area]:
+                if f == 'start' and rx.search(name):
+                    r.set('start', code, 'по названию')
+                    break
+        own_by_start = any(x in owners_of_start for x in aslist(r.get('start')) if isinstance(x, str))
+        if not r.get('owner') and not own_by_start:
+            for f, code, rx in rules[area]:
+                if f == 'owner' and rx.search(name):
+                    k = skey(r)
+                    years = [y for y, ks in since.get((area, code, rx.pattern), []) if not ks or ks == k]
+                    first = min(years) if years else None
+                    st = 'без start' + (' или со start ' + '/'.join(k) if k else '')
+                    if first is not None and r.d0.year >= first:
+                        r.set('owner', code, 'по названию')
+                    elif rep.verbose:
+                        rep.diffs.append('%s: owner %s по названию не ставится — %s' % (r.head(), code, (
+                            'такое название с этим owner (%s) встречается с %s года' % (st, first)) if first else
+                            'такого названия с этим owner (%s) в календаре нет' % st))
+                    break
+
+
 def end_reg(cal, scope, fetcher, orgeo_by_ref, workers, rep):
     """endReg по страницам регистрации из reg (как fill_end_reg.py)."""
     tasks = []
@@ -1795,7 +1984,7 @@ def run_external(cmd, title):
     return p.returncode
 
 
-def step_sites(work, scope, steps, workers, verbose):
+def step_sites(work, scope, steps, workers, verbose, starts_js):
     rep = Report(verbose)
     fetcher = Fetcher()
     cal = Calendar(work)
@@ -1894,6 +2083,12 @@ def step_sites(work, scope, steps, workers, verbose):
     if 'orgeo' in steps:
         link_orgeo(cal, orgeo_events, rep, scope)
     merge(cal, osite_events, rep, scope)
+    if 'names' in steps:
+        owners = start_owners(starts_js)
+        if owners is None:
+            rep.error('нет %s — owner по названию не ставится' % starts_js)
+        else:
+            by_name(cal, scope, rep, owners)
     if 'endreg' in steps:
         by_ref = {}
         for e in orgeo_events.values():
@@ -1938,14 +2133,15 @@ def print_report(cal, rep):
     if blocked:
         n = sum(len(r.blocked) for r in blocked)
         if rep.verbose:
-            print('\n-- Не изменены: поле зафиксировано «// !» (%d) --' % n)
+            print('\n-- Не изменены: поле зафиксировано «// !» или значение закомментировано (%d) --' % n)
             for r in sorted(blocked, key=lambda r: (r.get('date') or '', r.id)):
                 print(r.head())
                 for k, old, val, why in r.blocked:
                     print('    %-9s %s, источник: %s   [%s]' % (k + ':', short(old) if old is not None else '—',
                                                            short(val) if val is not None else '—', why))
         else:
-            print('\nНе изменено полей, зафиксированных «// !»: %d (список — с ключом -v)' % n)
+            print('\nНе изменено полей, зафиксированных «// !» или с закомментированным значением: %d '
+                  '(список — с ключом -v)' % n)
     if rep.ignored:
         if rep.verbose:
             print('\n-- Пропущены: запись закомментирована в календаре (%d) --' % len(rep.ignored))
@@ -2040,8 +2236,8 @@ def main():
         if 'malakhit' in steps:
             run_external([py, os.path.join(TOOLS, 'import_calendar_malakhit.py'), '--src', work] + scope.args(),
                          'Календарь «Малахита» (import_calendar_malakhit.py)')
-        if {'osite', 'orgeo', 'endreg'} & set(steps):
-            step_sites(work, scope, steps, a.workers, a.verbose)
+        if {'osite', 'orgeo', 'endreg', 'names'} & set(steps):
+            step_sites(work, scope, steps, a.workers, a.verbose, os.path.join(src, 'starts.js'))
         if 'ogps' in steps:
             cmd = [py, os.path.join(TOOLS, 'fill_ogps.py'), '--src', work, '--apply']
             if scope.kind == 'fresh':

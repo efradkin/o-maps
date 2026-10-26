@@ -33,7 +33,7 @@ import_calendar_msk.py — импорт «Неофициального свод�
     1  Дата                -> date
     3  Название            -> name  (+ owner O_KUNTSEVO для «Первенство О-Кунцево»;
                                      нестроковое значение — строка пропускается)
-    4  Вид дист.           -> fmt, type (ЛГ -> SKI, рогейн -> ROGAINE,
+    4  Вид дист.           -> fmt (эстафеты — «эстафета 3х», не «3 чел.»), type (ЛГ -> SKI, рогейн -> ROGAINE,
                                           велокросс -> VELO, иначе ORIENT)
     5  Место проведения    -> place
     7  Координаты          -> coord
@@ -44,6 +44,7 @@ import_calendar_msk.py — импорт «Неофициального свод�
 с той же датой и тем же названием или местом, пропускается — так удаляют
 ненужный старт, чтобы он не появился снова (как в sync_calendar.py).
 
+Значение, закомментированное в записи («// fmt: "…",»), не вписывается снова.
 Поле, зафиксированное комментарием «// !» после значения (или строкой
 «// ! поле, …» / «// ! *» внутри записи, — как в sync_calendar.py), не
 меняется и не добавляется. Изменённая запись правится на месте: остальные
@@ -79,7 +80,8 @@ from datetime import date, datetime, timedelta
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.dont_write_bytecode = True
 import fill_bulletins as FB                                   # noqa: E402  разбор записей
-from sync_calendar import Ignored, locked_fields, patch_record  # noqa: E402  удалённые записи, «// !», правка на месте
+from sync_calendar import (Ignored, commented_fields, locked_fields, norm_fmt,  # noqa: E402
+                           patch_record, same)              # удалённые записи, «// !», формат, правка на месте
 
 SHEET_URL = ("https://docs.google.com/spreadsheets/d/"
              "1D0_ybH3A0TBZaC4sjPHkkthQrTiwUdudkz1VES1Ai7Y/edit?gid=257262853")
@@ -283,7 +285,7 @@ def process_link(ev, url):
 
 
 def process_format(ev, s):
-    ev["fmt"] = s
+    ev["fmt"] = norm_fmt(s)       # «кросс-эстафета 3 чел.» -> «кросс-эстафета 3х», как принято в календаре
     if "ЛГ" in s:
         ev["type"] = "SKI"
     elif "рогейн" in s.lower():
@@ -438,8 +440,7 @@ def js_value(key, val, nl, ind):
     if key == "id":
         return "'" + val + "'"
     if key == "coord":
-        inner = ind + "    "
-        return "[" + nl + ("," + nl).join(inner + js_num(v) for v in val) + nl + ind + "]"
+        return "[" + ", ".join(js_num(v) for v in val) + "]"     # в строку: [55.371487, 38.812763]
     if isinstance(val, list):
         return "[" + ", ".join(js_str(v) for v in val) + "]"
     return js_str(val)
@@ -598,6 +599,7 @@ def main():
             (re.findall(r"\d{4}-\d{2}-\d{2}", d.get("date", "")) or [""])[0]
         records.append({"span": (st, en), "fields": f, "date": dt,
                         "lock": locked_fields(text, (st, en - 1), FB.parse_fields(text, st, en - 1)),
+                        "rejected": commented_fields(text, (st, en - 1)),
                         "id": js_unquote(d.get("id", "")) or "",
                         "name": js_unquote(d.get("name", "")),
                         "place": js_unquote(d.get("place", "")),
@@ -629,6 +631,8 @@ def main():
                 v = ev.get(k)
                 if v is None or k in match["lock"] or "*" in match["lock"]:
                     continue                # поле зафиксировано комментарием «// !»
+                if any(same(k, v, x) for x in match["rejected"].get(k, [])):
+                    continue                # это значение закомментировано в записи — отвергнуто вручную
                 raw = js_value(k, v, nl, ind)
                 if k in old_vals:
                     old = old_vals[k]

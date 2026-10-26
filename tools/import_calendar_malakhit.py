@@ -49,6 +49,7 @@ name/place/type/fmt заполняются, только если их ещё н
 «//») с owner MLKHT и той же датой или с той же reg, пропускается — так
 удаляют ненужный старт, чтобы он не появился снова (как в sync_calendar.py).
 
+Значение, закомментированное в записи («// fmt: "…",»), не вписывается снова.
 Поле, зафиксированное комментарием «// !» после значения (или строкой
 «// ! поле, …» / «// ! *» внутри записи, — как в sync_calendar.py), не
 меняется и не добавляется. Изменённая запись правится на месте: остальные
@@ -73,7 +74,8 @@ from html.parser import HTMLParser
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.dont_write_bytecode = True
 import fill_bulletins as FB                                   # noqa: E402  разбор записей
-from sync_calendar import Ignored, locked_fields, patch_record  # noqa: E402  удалённые записи, «// !», правка на месте
+from sync_calendar import (Ignored, commented_fields, locked_fields, norm_fmt,  # noqa: E402
+                           patch_record, same)              # удалённые записи, «// !», формат, правка на месте
 
 DOC_ID = "1uZyPOj4ksADFaDgNujK6B1QxRRYWYNwrl9r7SY9hJ7k"
 DOC_EXPORT = "https://docs.google.com/document/d/{id}/export?format={fmt}"
@@ -317,7 +319,7 @@ def enrich(rec, use_bulletins):
     blob = (rec["name"] + " " + rec.get("place", "")).lower()
     rogaine = "рогейн" in blob
     rec["type"] = "ROGAINE" if rogaine else DEFAULT_TYPE
-    fmt = b_fmt or ("рогейн" if rogaine else None)
+    fmt = norm_fmt(b_fmt) or ("рогейн" if rogaine else None)     # эстафеты — «эстафета 3х»
     if fmt:
         rec["fmt"] = fmt
     rec["owner"] = OWNER
@@ -417,8 +419,7 @@ def js_value(key, val, nl, ind):
     if key == "id":
         return "'" + val + "'"
     if key == "coord":
-        inner = ind + "    "
-        return "[" + nl + ("," + nl).join(inner + js_num(v) for v in val) + nl + ind + "]"
+        return "[" + ", ".join(js_num(v) for v in val) + "]"     # в строку: [55.371487, 38.812763]
     if isinstance(val, list):
         return "[" + ", ".join(js_str(v) for v in val) + "]"
     return js_str(val)
@@ -562,6 +563,7 @@ def main():
         date = js_unquote(d.get("date", "")) or (re.findall(r"\d{4}-\d{2}-\d{2}", d.get("date", "")) or [""])[0]
         records.append({"span": (st, en), "fields": f, "date": date,
                         "lock": locked_fields(text, (st, en - 1), FB.parse_fields(text, st, en - 1)),
+                        "rejected": commented_fields(text, (st, en - 1)),
                         "id": js_unquote(d.get("id", "")) or "",
                         "owner": js_unquote(d.get("owner", "")) or "",
                         "reg": js_unquote(d.get("reg", "")) or ""})
@@ -601,6 +603,8 @@ def main():
             def put(k, v):
                 if k in lock or "*" in lock:
                     return                  # поле зафиксировано комментарием «// !»
+                if any(same(k, v, x) for x in match["rejected"].get(k, [])):
+                    return                  # это значение закомментировано в записи — отвергнуто вручную
                 raw = js_value(k, v, nl, "        ")
                 if k in keys:
                     i = keys.index(k)

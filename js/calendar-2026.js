@@ -1885,6 +1885,7 @@ let events2026 = [
         id: 'SPB_20260606_4',
         date: '2026-06-06',
         name: 'Контрольный старт', // !
+        start: 'CONTROLNY_START',
         place: 'Выборг, Петровское', // !
         coord: [60.804424, 28.762323],
         reg: 'https://orgeo.ru/event/53504',
@@ -3507,7 +3508,8 @@ let events2026 = [
         endReg: '2026-10-23 16:00',
         map: 'garbolovo_zmeinoe_2026',
         o_gps: [26177,26178,26179,26180],
-        reskeep: 945
+        reskeep: 945,
+        owner: 'FENIX'
     },
     {
         id: 'SPB_20261024_5',
