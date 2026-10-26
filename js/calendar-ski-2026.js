@@ -6,10 +6,7 @@ let skiEvents2026 = [
         place: 'Крестовский Остров',
         type: 'SK_RACE',
         fmt: '1.8, эстафета 2х2х2км свободный<br/>1.8М, 1.8Ж свободный<br/>ММ 2х2х2км свободный<br/>ЖЖ 2х2х2км свободный<br/>МЖ 2х2х2км свободный',
-        coord: [
-            59.971562,
-            30.245021
-        ],
+        coord: [59.971562, 30.245021],
         link: 'https://vk.com/spbrun_run',
         reg: 'https://reg.russiarunning.com/events/',
         start: 'SPBRUN',
@@ -22,10 +19,7 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         fmt: '15, 10, 5 классика<br/>15М классика<br/>10М, 10Ж классика<br/>5М, 5Ж классика',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         link: 'https://vk.com/club_llg',
         reg: 'https://reg.o-time.ru/race/26214',
         owner: 'KLLG',
@@ -38,10 +32,7 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         fmt: '15, 10, 5 свободный<br/>15М свободный<br/>10М, 10Ж свободный<br/>5М, 5Ж свободный',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         link: 'https://vk.com/club_llg',
         reg: 'https://reg.o-time.ru/race/26214',
         owner: 'KLLG',
@@ -54,10 +45,7 @@ let skiEvents2026 = [
         place: 'Орехово, лыжный стадион рядом с базой Трансмост',
         type: 'SK_RACE',
         fmt: '26, 12.8, 5,1 свободный',
-        coord: [
-            60.462416,
-            30.29462
-        ],
+        coord: [60.462416, 30.29462],
         link: 'https://vk.com/multsport',
         reg: 'https://reg.o-time.ru/race/26203',
         owner: 'MULTSPORT',
@@ -70,10 +58,7 @@ let skiEvents2026 = [
         place: 'Токсово/Кузьмолово, Охта-Парк',
         type: 'SK_RACE',
         fmt: '25, 10 свободный<br/>25 М, Ж свободный<br/>10  М, Ж свободный',
-        coord: [
-            60.127481,
-            30.463336
-        ],
+        coord: [60.127481, 30.463336],
         link: 'https://toksovocup.com/',
         reg: 'https://russialoppet.ru/events/toksovo2026.html',
         photo: 'https://www.sport-images.ru/events/lijniy-marafon-toksovocup-skate-2026/',
@@ -88,10 +73,7 @@ let skiEvents2026 = [
         place: 'Токсово/Кузьмолово, Охта-Парк',
         type: 'SK_RACE',
         fmt: '50, 25 классика<br/>50М, 50Ж классика<br/>25М, 25Ж классика',
-        coord: [
-            60.127481,
-            30.463336
-        ],
+        coord: [60.127481, 30.463336],
         link: 'https://toksovocup.com/',
         reg: 'https://russialoppet.ru/events/toksovo2026.html',
         photo: 'https://www.sport-images.ru/events/lijniy-marafon-toksovocup-classic-2026/',
@@ -106,10 +88,7 @@ let skiEvents2026 = [
         place: 'Пушкин, Отдельный парк',
         type: 'SK_RACE',
         fmt: '10, 5, 3, 2, 1 свободный<br/>10М, 10Ж свободный<br/>5М(17-19), 5Ж(17-19) свободный<br/>3М(13-16), 5Ж(13-16) свободный<br/>2М(11-12), 5Ж(11-12) свободный<br/>1М(до 10), 1Ж(до10) свободный',
-        coord: [
-            59.711702,
-            30.420615
-        ],
+        coord: [59.711702, 30.420615],
         link: 'https://vk.com/cfkcsnews',
         reg: 'https://reg.o-time.ru/race/26095',
         owner: 'PUSHKIN',
@@ -122,10 +101,7 @@ let skiEvents2026 = [
         place: 'Пушкин, Отдельный парк',
         type: 'SK_RACE',
         fmt: 'Эстафеты 2х3х0.5км, 2х3х1.4км свободный<br/>ММ 2х3х1.4 свободный<br/>ЖЖ 2х3х1.4 свободный<br/>МЖ 2х3х1.4 свободный<br/>ММ 2х3х0.5 (до 13) свободный<br/>ЖЖ 2х3х0.5 (до 13) свободный<br/>МЖ 2х3х0.5 (до 13) свободный',
-        coord: [
-            59.711702,
-            30.420615
-        ],
+        coord: [59.711702, 30.420615],
         link: 'https://vk.com/cfkcsnews',
         reg: 'https://reg.o-time.ru/race/26095',
         owner: 'PUSHKIN',
@@ -138,10 +114,7 @@ let skiEvents2026 = [
         place: 'Гарболово',
         type: 'SK_RACE',
         fmt: '50, 25, 12.5 классика<br/>50М, 50Ж классика<br/>25М, 25Ж классика<br/>12.5М, 12.5Ж классика',
-        coord: [
-            60.338019,
-            30.500704
-        ],
+        coord: [60.338019, 30.500704],
         link: 'https://vk.com/sport_v_garbolovo',
         reg: 'https://reg.o-time.ru/race/26099',
         owner: 'GARBOLOVO',
@@ -153,10 +126,7 @@ let skiEvents2026 = [
         name: 'Игры святого благоверного князя Александра I',
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         price: -1
     },
     {
@@ -166,10 +136,7 @@ let skiEvents2026 = [
         name: 'Игры святого благоверного князя Александра I',
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         price: -1
     },
     {
@@ -178,10 +145,7 @@ let skiEvents2026 = [
         name: 'Лыжня России',
         place: 'Крестовский остров',
         type: 'SK_RACE',
-        coord: [
-            59.971562,
-            30.245021
-        ],
+        coord: [59.971562, 30.245021],
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
@@ -227,10 +191,7 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         fmt: '10, 7.5, 5 свободный<br/>10М (до50) свободный<br/>10Ж (до 50) свободный<br/>5М (>50), 5Ж (>50) свободный',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         link: 'https://vk.com/club_llg',
         owner: 'KLLG',
         price: 0
@@ -241,10 +202,7 @@ let skiEvents2026 = [
         name: 'Лыжня России',
         place: 'Крестовский остров',
         type: 'SK_RACE',
-        coord: [
-            59.971562,
-            30.245021
-        ],
+        coord: [59.971562, 30.245021],
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
@@ -267,10 +225,7 @@ let skiEvents2026 = [
         name: 'Лыжня России',
         place: 'Парголово,СШОР Выборгского р-на, Выборгское шоссе 369к5',
         type: 'SK_RACE',
-        coord: [
-            60.075954,
-            30.276791
-        ],
+        coord: [60.075954, 30.276791],
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
@@ -282,10 +237,7 @@ let skiEvents2026 = [
         name: 'Лыжня России',
         place: 'Полежаевский парк',
         type: 'SK_RACE',
-        coord: [
-            59.835239,
-            30.185474
-        ],
+        coord: [59.835239, 30.185474],
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
@@ -319,10 +271,7 @@ let skiEvents2026 = [
         name: 'Лыжня России',
         place: 'Полежаевский парк',
         type: 'SK_RACE',
-        coord: [
-            59.835239,
-            30.185474
-        ],
+        coord: [59.835239, 30.185474],
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
@@ -367,10 +316,7 @@ let skiEvents2026 = [
         name: 'Лыжня России',
         place: 'Крестовский остров',
         type: 'SK_RACE',
-        coord: [
-            59.971562,
-            30.245021
-        ],
+        coord: [59.971562, 30.245021],
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
@@ -393,10 +339,7 @@ let skiEvents2026 = [
         name: 'Лыжня России',
         place: 'Ольгино, заказник \'Северное побережье невской губы\'',
         type: 'SK_RACE',
-        coord: [
-            60.001245,
-            30.062373
-        ],
+        coord: [60.001245, 30.062373],
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
@@ -408,10 +351,7 @@ let skiEvents2026 = [
         name: 'Лыжня России',
         place: 'Пушкин, Отдельный парк',
         type: 'SK_RACE',
-        coord: [
-            59.711702,
-            30.420615
-        ],
+        coord: [59.711702, 30.420615],
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
@@ -434,10 +374,7 @@ let skiEvents2026 = [
         name: 'Лыжня России',
         place: 'Гарболово',
         type: 'SK_RACE',
-        coord: [
-            60.338019,
-            30.500704
-        ],
+        coord: [60.338019, 30.500704],
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
@@ -450,10 +387,7 @@ let skiEvents2026 = [
         place: 'Гарболово',
         type: 'SK_RACE',
         fmt: '14, 7, 3, 1, 0.5 свободный<br/>14М, 14Ж свободный<br/>3М (11-14), 3Ж (11-14) свободный<br/>1М (7-10), 1Ж (7-10) свободный<br/>0.5М (5-6), 0.5Ж (5-6) свободный',
-        coord: [
-            60.338019,
-            30.500704
-        ],
+        coord: [60.338019, 30.500704],
         link: 'https://vk.com/sport_v_garbolovo',
         reg: 'https://reg.o-time.ru/race/26102',
         owner: 'GARBOLOVO',
@@ -466,10 +400,7 @@ let skiEvents2026 = [
         place: 'Парголово,СШОР Выборгского р-на, Выборгское шоссе 369к5',
         type: 'SK_RACE',
         fmt: '7.5, 5, 1 свободный<br/>7.5 (М>18) свободный<br/>5М (14-16), 5М (>60) свободный<br/>5Ж (14-16), 5Ж (>60) свободный<br/>1М (8-12), 1Ж (8-12) свободный',
-        coord: [
-            60.075954,
-            30.276791
-        ],
+        coord: [60.075954, 30.276791],
         link: 'https://vk.com/mass_sport',
         reg: 'https://reg.o-time.ru/race/26123',
         start: 'VYBORG_SKI',
@@ -482,10 +413,7 @@ let skiEvents2026 = [
         place: 'Крестовский Остров',
         type: 'SK_RACE',
         fmt: '1.8, эстафета 2х2х2км свободный<br/>1.8М, 1.8Ж свободный<br/>ММ 2х2х2км свободный<br/>ЖЖ 2х2х2км свободный<br/>МЖ 2х2х2км свободный<br/>корпоративные 2х2х2км свободный',
-        coord: [
-            59.971562,
-            30.245021
-        ],
+        coord: [59.971562, 30.245021],
         link: 'https://vk.com/spbrun_run',
         reg: 'https://reg.russiarunning.com/events/',
         start: 'SPBRUN',
@@ -498,10 +426,7 @@ let skiEvents2026 = [
         place: 'Орехово, лыжный стадион рядом с  базой ТрансМост',
         type: 'SK_RACE',
         fmt: '20, 10, 5, 3 свободный<br/>20М<br/>10М, 10Ж<br/>10М (15-16), 10Ж (15-16)<br/>5М, 5Ж<br/>5М (11-14), 5Ж (11-14)<br/>3М, 3Ж',
-        coord: [
-            60.462416,
-            30.29462
-        ],
+        coord: [60.462416, 30.29462],
         link: 'https://vk.com/public207072134',
         reg: 'https://reg.o-time.ru/race/26230',
         start: 'SPORTDRIVE',
@@ -514,10 +439,7 @@ let skiEvents2026 = [
         place: 'Выборг, Лесхозная ул д12, Лыжная база \'Фаворит\'',
         type: 'SK_RACE',
         fmt: '30, 10, 5, 1, 0.5 свободный<br/>30М, 30Ж свободный<br/>10М (16-18), 10 Ж(18) свободный<br/>5М, 5Ж свободный<br/>5М (12-14), 5Ж (12-16) свободный<br/>1М (до 12), 1Ж (до 12) свободный<br/>0.5М (до 12), 0.5Ж (до 12) свободный',
-        coord: [
-            60.745131,
-            28.748437
-        ],
+        coord: [60.745131, 28.748437],
         link: 'https://vk.com/vyborgmarathon',
         reg: 'https://reg.o-time.ru/race/26024',
         start: 'VYBORG_SKI',
@@ -530,10 +452,7 @@ let skiEvents2026 = [
         place: 'Токсово, СКА',
         type: 'SK_RACE',
         fmt: '50, 30, 10, 5 свободный<br/>50М свободный<br/>30М, 30Ж свободный<br/>10М, 10Ж свободный<br/>5М, 5Ж свободный',
-        coord: [
-            60.153023,
-            30.55947
-        ],
+        coord: [60.153023, 30.55947],
         link: 'https://vk.com/public207072134',
         reg: 'https://reg.o-time.ru/race/26082',
         start: 'SPORTDRIVE',
@@ -546,10 +465,7 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         fmt: '20, 10, 5 классика<br/>20М классика<br/>10М (>60), Ж классика<br/>5М (>75), 5Ж (>60) классика',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         link: 'https://vk.com/club_llg',
         reg: 'https://reg.o-time.ru/race/26137',
         owner: 'KLLG',
@@ -562,10 +478,7 @@ let skiEvents2026 = [
         place: 'Токсово, СКА',
         type: 'SK_RACE',
         fmt: '33,22, эстафета 3х11км свободный<br/>33М свободный<br/>22М (>60), 22Ж свободный<br/>11Ж (>60) свободный<br/>эстафета 3х11 свободный',
-        coord: [
-            60.153023,
-            30.55947
-        ],
+        coord: [60.153023, 30.55947],
         link: 'http://vk.com/alpskispb',
         reg: 'https://reg.o-time.ru/race/26009',
         owner: 'ALP_SPB',
@@ -578,10 +491,7 @@ let skiEvents2026 = [
         place: 'Гатчина, Парк Зверинец',
         type: 'SK_RACE',
         fmt: '25, 17, 5, 2.5 свободный<br/>25М свободный<br/>17Ж свободный<br/>5М(14-18), 5Ж(14-18) свободный<br/>2.5М, 2.5Ж свободный<br/>2.5М(14-18), 2.5Ж(14-18) свободный',
-        coord: [
-            59.58369,
-            30.11692
-        ],
+        coord: [59.58369, 30.11692],
         link: 'https://vk.ru/gtn_ski',
         reg: 'https://reg.o-time.ru/race/26272',
         owner: 'GATCHINA',
@@ -594,10 +504,7 @@ let skiEvents2026 = [
         place: 'Петрозаводск, лыжная база \'Фонтаны\'',
         type: 'SK_RACE',
         fmt: '20, 10, 5, 2 свободный<br/>20М, 20Ж свободный<br/>10М, 10Ж свободный<br/>10М (17-19), 10Ж (17-19) свободный<br/>5М (13-16), 5Ж (13-16) свободный<br/>2М (8-12), 2Ж (8-12) свободный',
-        coord: [
-            61.758441,
-            34.330565
-        ],
+        coord: [61.758441, 34.330565],
         link: 'https://vk.com/skilab10',
         reg: 'https://reg.o-time.ru/race/26216',
         owner: 'KARELIA_SKI',
@@ -610,10 +517,7 @@ let skiEvents2026 = [
         place: 'Демино',
         type: 'SK_RACE',
         fmt: '30, 10, 5 свободный<br/>30М, 30Ж свободный<br/>10М, 10Ж свободный<br/>5М, 5Ж свободный',
-        coord: [
-            58.037615,
-            39.113445
-        ],
+        coord: [58.037615, 39.113445],
         link: 'https://deminom.ru/marathons/lyzhnyy-marafon-wl/19-traditsionnyy-mezhdunarodnyy-deminskiy-lyzhnyy-marafon-2026/',
         reg: 'https://russialoppet.ru/events/demino2026short.html',
         owner: 'DEMINO_SKI',
@@ -627,10 +531,7 @@ let skiEvents2026 = [
         place: 'Демино',
         type: 'SK_RACE',
         fmt: '50 свободный',
-        coord: [
-            58.037615,
-            39.113445
-        ],
+        coord: [58.037615, 39.113445],
         link: 'https://deminom.ru/marathons/lyzhnyy-marafon-wl/19-traditsionnyy-mezhdunarodnyy-deminskiy-lyzhnyy-marafon-2026/',
         reg: 'https://russialoppet.ru/events/demino2026short.html',
         owner: 'DEMINO_SKI',
@@ -644,10 +545,7 @@ let skiEvents2026 = [
         place: 'Дудергоф (Можайка)',
         type: 'SK_RACE',
         fmt: '9, 6, 3 свободный<br/>9М свободный<br/>6М (>60), 6Ж свободный<br/>3М (11-14), 3Ж (11-14) свободный',
-        coord: [
-            59.692984,
-            30.120692
-        ],
+        coord: [59.692984, 30.120692],
         reg: 'https://reg.o-time.ru/race/26258',
         price: 1
     },
@@ -658,10 +556,7 @@ let skiEvents2026 = [
         place: 'Токсово, СКА',
         type: 'SK_RACE',
         fmt: '10, 5, 1 свободный<br/>10М, 10Ж свободный<br/>5М, 5Ж свободный<br/>1М (до12), 1Ж (до 12) свободный',
-        coord: [
-            60.075954,
-            30.276791
-        ],
+        coord: [60.075954, 30.276791],
         link: 'https://vk.com/mass_sport',
         reg: 'https://reg.o-time.ru/race/26034',
         owner: 'MASS_SPORT',
@@ -686,10 +581,7 @@ let skiEvents2026 = [
         place: 'Демино',
         type: 'SK_RACE',
         fmt: '30, 2,1 классика<br/>30М, 30Ж классика<br/>2М (8-12), 2Ж (8-12) классика<br/>1М (до 8), 1Ж (до 8) классика',
-        coord: [
-            58.037615,
-            39.113445
-        ],
+        coord: [58.037615, 39.113445],
         link: 'https://deminom.ru/marathons/lyzhnyy-marafon-wl/19-traditsionnyy-mezhdunarodnyy-deminskiy-lyzhnyy-marafon-2026/',
         reg: 'https://russialoppet.ru/events/demino2026short.html',
         owner: 'DEMINO_SKI',
@@ -714,10 +606,7 @@ let skiEvents2026 = [
         name: 'Первенство СПб',
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         price: -1
     },
     {
@@ -726,10 +615,7 @@ let skiEvents2026 = [
         name: 'Первенство СПб',
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         price: -1
     },
     {
@@ -738,10 +624,7 @@ let skiEvents2026 = [
         name: 'Первенство СПб',
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         price: -1
     },
     {
@@ -750,10 +633,7 @@ let skiEvents2026 = [
         name: 'Первенство Ленинградской области среди обучащихся',
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         price: -1
     },
     {
@@ -762,10 +642,7 @@ let skiEvents2026 = [
         name: 'Региональные соревнования \'Олимпийские надежды 2026\'',
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         price: -1
     },
     {
@@ -775,10 +652,7 @@ let skiEvents2026 = [
         place: 'Крестовский Остров',
         type: 'SK_RACE',
         fmt: '1.8, эстафета 2х2х2км свободный<br/>1.8М, 1.8Ж свободный<br/>ММ 2х2х2км свободный<br/>ЖЖ 2х2х2км свободный<br/>МЖ 2х2х2км свободный<br/>корпоративные 2х2х2км свободный',
-        coord: [
-            59.971562,
-            30.245021
-        ],
+        coord: [59.971562, 30.245021],
         link: 'https://vk.com/spbrun_run',
         reg: 'https://reg.russiarunning.com/events/',
         start: 'SPBRUN',
@@ -791,10 +665,7 @@ let skiEvents2026 = [
         place: 'Республика Карелия, г.Петрозаводск, Курганский проезд 3',
         type: 'SK_RACE',
         fmt: '50, 25, 12.5 свободный<br/>50М, 50Ж свободный<br/>25М, 25Ж свободный<br/>12.5М, 12.5Ж свободный',
-        coord: [
-            61.764526,
-            34.34898
-        ],
+        coord: [61.764526, 34.34898],
         link: 'https://vk.com/fontanmarathon',
         reg: 'https://reg.o-time.ru/race/26118',
         owner: 'KARELIA_SKI',
@@ -807,10 +678,7 @@ let skiEvents2026 = [
         place: 'Орехово, лыжный стадион рядом с  базой ТрансМост',
         type: 'SK_RACE',
         fmt: '50, 30, 10, 5 свободный<br/>50М свободный<br/>30М, 30Ж свободный<br/>10, 10Ж свободный<br/>10М (15-16), 10Ж (15-16) свободный<br/>5М, 5Ж свободный<br/>5М (11-12), 5Ж (11-12) свободный<br/>5М (13-14), 5Ж (13-14) свободный',
-        coord: [
-            60.462416,
-            30.29462
-        ],
+        coord: [60.462416, 30.29462],
         link: 'https://vk.com/public207072134',
         reg: 'https://reg.o-time.ru/race/26044',
         start: 'SPORTDRIVE',
@@ -823,10 +691,7 @@ let skiEvents2026 = [
         place: 'Республика Карелия, г.Петрозаводск, Курганский проезд 3',
         type: 'SK_RACE',
         fmt: '50, 25, 12.5 классика<br/>50М, 50Ж классика<br/>25М, 25Ж классика<br/>12.5М, 12.5Ж классика',
-        coord: [
-            61.764526,
-            34.34898
-        ],
+        coord: [61.764526, 34.34898],
         link: 'https://vk.com/fontanmarathon',
         reg: 'https://reg.o-time.ru/race/26119',
         owner: 'KARELIA_SKI',
@@ -839,10 +704,7 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         fmt: '10, 7.5, 5 свободный<br/>10М (до50) свободный<br/>10Ж (до 50) свободный<br/>5М (>50), 5Ж (>50) свободный',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         link: 'https://vk.com/club_llg',
         reg: 'https://reg.o-time.ru/race/26137',
         owner: 'KLLG',
@@ -867,10 +729,7 @@ let skiEvents2026 = [
         place: 'Гарболово',
         type: 'SK_RACE',
         fmt: '10, 5, 3, 1, 0.5 свободный<br/>10М, 10Ж свободный<br/>5М,5Ж свободный<br/>3М (11-14), 3Ж (11-14) свободный<br/>1М (8-10), 1Ж (8-10) свободный<br/>0.5М (5-6), 0.5Ж (5-6) свободный',
-        coord: [
-            60.338019,
-            30.500704
-        ],
+        coord: [60.338019, 30.500704],
         link: 'https://vk.com/sport_v_garbolovo',
         reg: 'https://reg.o-time.ru/race/26294',
         owner: 'GARBOLOVO',
@@ -895,10 +754,7 @@ let skiEvents2026 = [
         name: 'Региональные соревнования \'Закрытие сезона\'',
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         price: -1
     },
     {
@@ -907,10 +763,7 @@ let skiEvents2026 = [
         name: 'Первенство СПб Спринт Классика',
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         price: -1
     },
     {
@@ -919,10 +772,7 @@ let skiEvents2026 = [
         name: 'Первенство СПб Спринт Классика',
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         price: -1
     },
     {
@@ -932,10 +782,7 @@ let skiEvents2026 = [
         place: 'Мурманск, ул Долина Уюта, д4',
         type: 'SK_RACE',
         fmt: '50, 25 свободный<br/>50М, 50Ж свободный<br/>25М, 25Ж свободный',
-        coord: [
-            68.941513,
-            33.129023
-        ],
+        coord: [68.941513, 33.129023],
         link: 'https://marathon51.ru/',
         reg: 'https://reg.russiarunning.com/event/52MLM',
         price: 1
@@ -947,10 +794,7 @@ let skiEvents2026 = [
         place: 'Мурманск, ул Долина Уюта, д4',
         type: 'SK_RACE',
         fmt: '50, 25 классика<br/>50М, 50Ж классика<br/>25М, 25Ж классика',
-        coord: [
-            68.941513,
-            33.129023
-        ],
+        coord: [68.941513, 33.129023],
         link: 'https://marathon51.ru/',
         reg: 'https://reg.russiarunning.com/event/52MLM',
         price: 1
@@ -962,10 +806,7 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         fmt: '10, 5, 1 свободный<br/>10М, 10Ж свободный<br/>5М (14-16), 5М (>60) свободный<br/>5Ж свободный<br/>1М (8-12), 1Ж (8-12) свободный',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         link: 'https://vk.com/mass_sport',
         reg: 'https://reg.o-time.ru/race/26124',
         owner: 'MASS_SPORT',
@@ -978,10 +819,7 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         fmt: '10, 5 свободный<br/>10М(<60), 10Ж(<60) свободный<br/>5М(>60), 5Ж(>60) свободный',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         link: 'https://vk.com/club_llg',
         reg: 'https://reg.o-time.ru/race/26139',
         owner: 'KLLG',
@@ -994,10 +832,7 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         fmt: '10, 7.5, 5 свободный<br/>10М (до50) свободный<br/>7.5Ж (до 50) свободный<br/>5М (>50), 5Ж (>50) свободный',
-        coord: [
-            60.1792273,
-            30.5382775
-        ],
+        coord: [60.1792273, 30.5382775],
         link: 'https://vk.com/club_llg',
         reg: 'https://reg.o-time.ru/race/26137',
         owner: 'KLLG'

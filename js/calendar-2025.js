@@ -58,10 +58,7 @@ let events2025 = [
         bulletin: 'http://orgeo.ru/files/event/file/39326_7a075be776.pdf',
         reg: 'http://orgeo.ru/event/lo_budogosh_2025',
         endReg: '2025-01-15 13:00',
-        coord: [
-            59.278465,
-            32.380748
-        ]
+        coord: [59.278465, 32.380748]
     },
     {
         id: 'SPB_20250118_1',
@@ -1711,10 +1708,7 @@ let events2025 = [
         res: 'https://www.multsport.ru/starts/klo-sar-25/results.html',
         o_gps: 23326,
         photo: 'https://vk.com/album-8292013_310872932',
-        coord: [
-            60.177493,
-            30.312978
-        ],
+        coord: [60.177493, 30.312978],
         owner: 'MULTSPORT'
     },
     {
@@ -2043,10 +2037,7 @@ let events2025 = [
             797,
             798
         ],
-        coord: [
-            60.604963,
-            29.829899
-        ],
+        coord: [60.604963, 29.829899],
         owner: 'WN',
         map: 'michurinskoe_2022',
         strava: 15887917340,
@@ -2059,10 +2050,7 @@ let events2025 = [
         name: 'Турслёт ИТМО',
         fmt: 'ночное',
         o_gps: 23464,
-        coord: [
-            60.6303333,
-            29.9957657
-        ]
+        coord: [60.6303333, 29.9957657]
     },
     {
         id: 'SPB_20250921_1',
@@ -2707,10 +2695,7 @@ let events2025 = [
         link: 'https://docs.google.com/document/d/1izDA_mrnEgjZjqbEsGz-6UuMrg_Cp3TZcbbTtTGkULw/',
         res: 'https://docs.google.com/spreadsheets/d/1aKS2st7pwEeulHw9d59mKU7A74xvRZaZVjiohlWeiB4/edit?gid=22540084#gid=22540084',
         o_gps: 23796,
-        coord: [
-            60.158032,
-            30.512599
-        ],
+        coord: [60.158032, 30.512599],
         strava: 16334988354,
         me: '50+'
     },
@@ -3019,10 +3004,7 @@ let events2025 = [
             'https://disk.yandex.ru/i/PgKHbpnYhPkdJQ',
             'https://www.youtube.com/watch?v=Zvk2Eo8UOuc'
         ],
-        coord: [
-            58.5301416,
-            31.2510395
-        ],
+        coord: [58.5301416, 31.2510395],
         start: 'LM'
     },
     {

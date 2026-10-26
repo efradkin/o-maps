@@ -6,10 +6,7 @@ let mskEvents2025 = [
         place: "Кучинский л/п",
         type: "ORIENT",
         fmt: "кросс-комбинация",
-        coord: [
-            55.769528,
-            37.93502
-        ],
+        coord: [55.769528, 37.93502],
         link: "https://moscompass.ru/news/more.php?id=5992",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/novnoch2025_.htm",
@@ -23,10 +20,7 @@ let mskEvents2025 = [
         place: "р-н Марьино",
         type: "ORIENT",
         fmt: "кросс-спринт (City Race)",
-        coord: [
-            55.650002,
-            37.73946
-        ],
+        coord: [55.650002, 37.73946],
         link: "http://moscompass.ru/news/more.php?id=5974",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/NT2024_10_.htm",
@@ -40,10 +34,7 @@ let mskEvents2025 = [
         place: "р-н Вешняки",
         type: "ORIENT",
         fmt: "кросс-спринт (City Race)",
-        coord: [
-            55.723812,
-            37.800776
-        ],
+        coord: [55.723812, 37.800776],
         link: "http://moscompass.ru/news/more.php?id=5974",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/NT2024_11_.htm",
@@ -57,10 +48,7 @@ let mskEvents2025 = [
         place: "Измайлово",
         type: "ROGAINE",
         fmt: "рогейн 2 часа",
-        coord: [
-            55.763574,
-            37.770484
-        ],
+        coord: [55.763574, 37.770484],
         link: "https://moscompass.ru/news/more.php?id=6007",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_1_.htm",
@@ -75,10 +63,7 @@ let mskEvents2025 = [
         place: "р-н Вешняки",
         type: "ORIENT",
         fmt: "кросс-спринт (City Race)",
-        coord: [
-            55.736286,
-            37.818758
-        ],
+        coord: [55.736286, 37.818758],
         link: "http://moscompass.ru/news/more.php?id=5974",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/NT2024_12_.htm",
@@ -92,10 +77,7 @@ let mskEvents2025 = [
         place: "Кузьминки",
         type: "ROGAINE",
         fmt: "рогейн 2 часа",
-        coord: [
-            55.691116,
-            37.806925
-        ],
+        coord: [55.691116, 37.806925],
         link: "https://moscompass.ru/news/more.php?id=6007",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_2_.htm",
@@ -110,10 +92,7 @@ let mskEvents2025 = [
         place: "БЛК \"Марьино\"",
         type: "SKI",
         fmt: "ЛГ эст. 4 этапа",
-        coord: [
-            55.652843,
-            37.779896
-        ],
+        coord: [55.652843, 37.779896],
         link: "https://moscompass.ru/news/more.php?id=6004",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Gorunov_2025W_.htm",
@@ -127,10 +106,7 @@ let mskEvents2025 = [
         place: "Алёшкино",
         type: "SKI",
         fmt: "ЛГ общий старт",
-        coord: [
-            55.862553,
-            37.41289
-        ],
+        coord: [55.862553, 37.41289],
         link: "https://vk.com/moscow_orienteering",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://celestia.su/ol",
@@ -144,10 +120,7 @@ let mskEvents2025 = [
         place: "Поворот на Рублево",
         type: "ROGAINE",
         fmt: "рогейн 2 часа",
-        coord: [
-            55.776332,
-            37.355835
-        ],
+        coord: [55.776332, 37.355835],
         link: "https://moscompass.ru/news/more.php?id=6007",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_3_.htm",
@@ -162,10 +135,7 @@ let mskEvents2025 = [
         place: "Салтыковка",
         type: "SKI",
         fmt: "ЛГ многодневная",
-        coord: [
-            55.785165,
-            37.940085
-        ],
+        coord: [55.785165, 37.940085],
         link: "https://vk.com/moscow_orienteering",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://celestia.su/ol",
@@ -179,10 +149,7 @@ let mskEvents2025 = [
         place: "Салтыковка",
         type: "SKI",
         fmt: "ЛГ многодневная",
-        coord: [
-            55.785165,
-            37.940085
-        ],
+        coord: [55.785165, 37.940085],
         link: "https://vk.com/moscow_orienteering",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://celestia.su/ol",
@@ -196,10 +163,7 @@ let mskEvents2025 = [
         place: "Район Ясенево",
         type: "ROGAINE",
         fmt: "рогейн 2 часа",
-        coord: [
-            55.615955,
-            37.532154
-        ],
+        coord: [55.615955, 37.532154],
         link: "https://moscompass.ru/news/more.php?id=6007",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_4_.htm",
@@ -214,10 +178,7 @@ let mskEvents2025 = [
         place: "Серебряный Бор",
         type: "ROGAINE",
         fmt: "рогейн 2 часа",
-        coord: [
-            55.77966,
-            37.445883
-        ],
+        coord: [55.77966, 37.445883],
         link: "https://moscompass.ru/news/more.php?id=6007",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_5_.htm",
@@ -232,10 +193,7 @@ let mskEvents2025 = [
         place: "Салтыковка",
         type: "SKI",
         fmt: "ЛГ спринт",
-        coord: [
-            55.769528,
-            37.93502
-        ],
+        coord: [55.769528, 37.93502],
         link: "https://vk.com/moscow_orienteering",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://celestia.su/ol",
@@ -249,10 +207,7 @@ let mskEvents2025 = [
         place: "Медик-Ромашково",
         type: "ROGAINE",
         fmt: "рогейн 2 часа",
-        coord: [
-            55.738749,
-            37.393412
-        ],
+        coord: [55.738749, 37.393412],
         link: "https://moscompass.ru/news/more.php?id=6007",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_6_.htm",
@@ -267,10 +222,7 @@ let mskEvents2025 = [
         place: "ПКиО Измайлово",
         type: "ROGAINE",
         fmt: "рогейн 2 часа",
-        coord: [
-            55.763574,
-            37.770484
-        ],
+        coord: [55.763574, 37.770484],
         link: "https://moscompass.ru/news/more.php?id=6007",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_7_.htm",
@@ -285,10 +237,7 @@ let mskEvents2025 = [
         place: "Битцевский Лес",
         type: "ROGAINE",
         fmt: "рогейн 2 часа",
-        coord: [
-            55.618997,
-            37.580691
-        ],
+        coord: [55.618997, 37.580691],
         link: "https://moscompass.ru/news/more.php?id=6007",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_8_.htm",
@@ -303,10 +252,7 @@ let mskEvents2025 = [
         place: "Борисово",
         type: "ORIENT",
         fmt: "кросс-спринт (City Race)",
-        coord: [
-            55.631605,
-            37.742981
-        ],
+        coord: [55.631605, 37.742981],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_1_.htm",
@@ -320,10 +266,7 @@ let mskEvents2025 = [
         place: "Левобережный",
         type: "ORIENT",
         fmt: "кросс-спринт (City Race)",
-        coord: [
-            55.855258,
-            37.485581
-        ],
+        coord: [55.855258, 37.485581],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_2_.htm",
@@ -337,10 +280,7 @@ let mskEvents2025 = [
         place: "Зябликово",
         type: "ORIENT",
         fmt: "кросс-спринт-long (City Race)",
-        coord: [
-            55.631605,
-            37.742981
-        ],
+        coord: [55.631605, 37.742981],
         link: "https://moscompass.ru/news/more.php?id=6022",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/8marta2025_.htm",
@@ -354,10 +294,7 @@ let mskEvents2025 = [
         place: "Марьино",
         type: "ORIENT",
         fmt: "кросс-спринт (City Race)",
-        coord: [
-            55.654224,
-            37.749783
-        ],
+        coord: [55.654224, 37.749783],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_3_.htm",
@@ -371,10 +308,7 @@ let mskEvents2025 = [
         place: "Матвеевское",
         type: "ORIENT",
         fmt: "кросс-спринт-long (City Race)",
-        coord: [
-            55.706536,
-            37.464763
-        ],
+        coord: [55.706536, 37.464763],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_4_.htm",
@@ -388,10 +322,7 @@ let mskEvents2025 = [
         place: "Можайский",
         type: "ORIENT",
         fmt: "кросс-спринт (City Race)",
-        coord: [
-            55.709654,
-            37.404053
-        ],
+        coord: [55.709654, 37.404053],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_5_.htm",
@@ -405,10 +336,7 @@ let mskEvents2025 = [
         place: "Марьино",
         type: "ORIENT",
         fmt: "кросс-спринт-long (City Race)",
-        coord: [
-            55.650279,
-            37.739296
-        ],
+        coord: [55.650279, 37.739296],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_6_.htm",
@@ -422,10 +350,7 @@ let mskEvents2025 = [
         place: "Филёвская Пойма",
         type: "ORIENT",
         fmt: "кросс-спринт (City Race)",
-        coord: [
-            55.765845,
-            37.478984
-        ],
+        coord: [55.765845, 37.478984],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_7_.htm",
@@ -439,10 +364,7 @@ let mskEvents2025 = [
         place: "Медведково",
         type: "ORIENT",
         fmt: "кросс-спринт (City Race)",
-        coord: [
-            55.892351,
-            37.651682
-        ],
+        coord: [55.892351, 37.651682],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_8_.htm",
@@ -456,10 +378,7 @@ let mskEvents2025 = [
         place: "Северное Чертаново",
         type: "ORIENT",
         fmt: "кросс-спринт (City Race)",
-        coord: [
-            55.634823,
-            37.591284
-        ],
+        coord: [55.634823, 37.591284],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_9_.htm",
@@ -473,10 +392,7 @@ let mskEvents2025 = [
         place: "Ясенево",
         type: "ORIENT",
         fmt: "кросс-спринт (City Race)",
-        coord: [
-            55.618533,
-            37.530857
-        ],
+        coord: [55.618533, 37.530857],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_10_.htm",
@@ -490,10 +406,7 @@ let mskEvents2025 = [
         place: "Садовники-Коломенское",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.660446,
-            37.651764
-        ],
+        coord: [55.660446, 37.651764],
         link: "https://moscompass.ru/news/more.php?id=6034",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/den_kosmonavtiki_2025_.htm",
@@ -507,10 +420,7 @@ let mskEvents2025 = [
         place: "Белопесоцкий",
         type: "ROGAINE",
         fmt: "рогейн 2 часа",
-        coord: [
-            54.86264,
-            38.124473
-        ],
+        coord: [54.86264, 38.124473],
         link: "https://moscompass.ru/news/more.php?id=6031",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosNanorogaine_2025_1_.htm",
@@ -524,10 +434,7 @@ let mskEvents2025 = [
         place: "Красные ворота",
         type: "ORIENT",
         fmt: "City Race",
-        coord: [
-            55.769581,
-            37.651557
-        ],
+        coord: [55.769581, 37.651557],
         link: "https://moscompass.ru/news/more.php?id=6029",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MCR_2025_.htm",
@@ -554,10 +461,7 @@ let mskEvents2025 = [
         place: "Покровское-Стрешнево",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.826338,
-            37.487866
-        ],
+        coord: [55.826338, 37.487866],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_11_.htm",
@@ -572,10 +476,7 @@ let mskEvents2025 = [
         place: "Парк Дружбы",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.855258,
-            37.485581
-        ],
+        coord: [55.855258, 37.485581],
         link: "https://moscompass.ru/news/more.php?id=6052",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Den_Pobedi_2025_.htm",
@@ -589,10 +490,7 @@ let mskEvents2025 = [
         place: "Кузьминки Заречье",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.692331,
-            37.772246
-        ],
+        coord: [55.692331, 37.772246],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_12_.htm",
@@ -606,10 +504,7 @@ let mskEvents2025 = [
         place: "Чертаново (м.Чертановская)",
         type: "ORIENT",
         fmt: "кросс-спринт",
-        coord: [
-            55.638671,
-            37.617155
-        ],
+        coord: [55.638671, 37.617155],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_13_.htm",
@@ -623,10 +518,7 @@ let mskEvents2025 = [
         place: "Орехово-Борисово южное",
         type: "ORIENT",
         fmt: "кросс-спринт",
-        coord: [
-            55.611174,
-            37.761518
-        ],
+        coord: [55.611174, 37.761518],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_14_.htm",
@@ -640,10 +532,7 @@ let mskEvents2025 = [
         place: "Жулебино",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.694963,
-            37.843986
-        ],
+        coord: [55.694963, 37.843986],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_15_.htm",
@@ -657,10 +546,7 @@ let mskEvents2025 = [
         place: "Алёшкино",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.867641,
-            37.426114
-        ],
+        coord: [55.867641, 37.426114],
         link: "https://moscompass.ru/news/more.php?id=6016",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_16_.htm",
@@ -674,10 +560,7 @@ let mskEvents2025 = [
         place: "с/х 1 мая",
         type: "ROGAINE",
         fmt: "рогейн 8 часов",
-        coord: [
-            55.798418,
-            37.845899
-        ],
+        coord: [55.798418, 37.845899],
         link: "https://moscompass.ru/news/more.php?id=6043",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/bigizmailovo_2025_.htm",
@@ -692,10 +575,7 @@ let mskEvents2025 = [
         place: "Покровское-Стрешнево",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.826338,
-            37.487866
-        ],
+        coord: [55.826338, 37.487866],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_1_.htm",
@@ -709,10 +589,7 @@ let mskEvents2025 = [
         place: "Сосновка",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.760614,
-            37.399821
-        ],
+        coord: [55.760614, 37.399821],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_2_.htm",
@@ -726,10 +603,7 @@ let mskEvents2025 = [
         place: "Парк Дружбы",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.855258,
-            37.485581
-        ],
+        coord: [55.855258, 37.485581],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_3_.htm",
@@ -743,10 +617,7 @@ let mskEvents2025 = [
         place: "Кусково",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.739014,
-            37.794541
-        ],
+        coord: [55.739014, 37.794541],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_4_.htm",
@@ -760,10 +631,7 @@ let mskEvents2025 = [
         place: "Салтыковка",
         type: "ROGAINE",
         fmt: "рогейн 2 часа",
-        coord: [
-            55.769562,
-            37.9351
-        ],
+        coord: [55.769562, 37.9351],
         link: "https://moscompass.ru/news/more.php?id=6007",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_9_.htm",
@@ -777,10 +645,7 @@ let mskEvents2025 = [
         place: "Серебряный Бор",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.77966,
-            37.445883
-        ],
+        coord: [55.77966, 37.445883],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_5_.htm",
@@ -794,10 +659,7 @@ let mskEvents2025 = [
         place: "Нескучный Сад",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.711741,
-            37.5825
-        ],
+        coord: [55.711741, 37.5825],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_6_.htm",
@@ -811,10 +673,7 @@ let mskEvents2025 = [
         place: "Битцевский лес",
         type: "ROGAINE",
         fmt: "рогейн 2 часа",
-        coord: [
-            55.628707,
-            37.541171
-        ],
+        coord: [55.628707, 37.541171],
         link: "https://moscompass.ru/news/more.php?id=6007",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_10_.htm",
@@ -829,10 +688,7 @@ let mskEvents2025 = [
         place: "Кузьминки (Волжская)",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.691935,
-            37.772154
-        ],
+        coord: [55.691935, 37.772154],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_7_.htm",
@@ -846,10 +702,7 @@ let mskEvents2025 = [
         place: "Братеевский парк",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.638538,
-            37.735537
-        ],
+        coord: [55.638538, 37.735537],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_8_.htm",
@@ -863,10 +716,7 @@ let mskEvents2025 = [
         place: "Воронцовский парк",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.668066,
-            37.538981
-        ],
+        coord: [55.668066, 37.538981],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_9_.htm",
@@ -880,10 +730,7 @@ let mskEvents2025 = [
         place: "Парк Шкулёва",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.690394,
-            37.750691
-        ],
+        coord: [55.690394, 37.750691],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_10_.htm",
@@ -897,10 +744,7 @@ let mskEvents2025 = [
         place: "Воробьевы Горы",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.708292,
-            37.55108
-        ],
+        coord: [55.708292, 37.55108],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_11_.htm",
@@ -914,10 +758,7 @@ let mskEvents2025 = [
         place: "Парк 850 летия Москвы",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.642059,
-            37.743034
-        ],
+        coord: [55.642059, 37.743034],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_12_.htm",
@@ -931,10 +772,7 @@ let mskEvents2025 = [
         place: "Ходынское поле",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.787618,
-            37.531301
-        ],
+        coord: [55.787618, 37.531301],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_13_.htm",
@@ -948,10 +786,7 @@ let mskEvents2025 = [
         place: "Покровское-Стрешнево",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.826338,
-            37.487866
-        ],
+        coord: [55.826338, 37.487866],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_14_.htm",
@@ -965,10 +800,7 @@ let mskEvents2025 = [
         place: "Кусково",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.725956,
-            37.7919
-        ],
+        coord: [55.725956, 37.7919],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_15_.htm",
@@ -982,10 +814,7 @@ let mskEvents2025 = [
         place: "Серебряный Бор",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.77966,
-            37.445883
-        ],
+        coord: [55.77966, 37.445883],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_16_.htm",
@@ -999,10 +828,7 @@ let mskEvents2025 = [
         place: "Кузьминки (Заречье)",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.691935,
-            37.772154
-        ],
+        coord: [55.691935, 37.772154],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_17_.htm",
@@ -1016,10 +842,7 @@ let mskEvents2025 = [
         place: "Воробьевы Горы",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.708292,
-            37.55108
-        ],
+        coord: [55.708292, 37.55108],
         link: "https://moscompass.ru/news/more.php?id=6080",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_18_.htm",
@@ -1033,10 +856,7 @@ let mskEvents2025 = [
         place: "Вешняки",
         type: "ORIENT",
         fmt: "кросс-спринт",
-        coord: [
-            55.728191,
-            37.807792
-        ],
+        coord: [55.728191, 37.807792],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_1_.htm",
@@ -1050,10 +870,7 @@ let mskEvents2025 = [
         place: "Орехово-Борисово южное",
         type: "ORIENT",
         fmt: "кросс-спринт",
-        coord: [
-            55.598837,
-            37.744504
-        ],
+        coord: [55.598837, 37.744504],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_2_.htm",
@@ -1067,10 +884,7 @@ let mskEvents2025 = [
         place: "Салтыковка",
         type: "ORIENT",
         fmt: "кросс-многодневный",
-        coord: [
-            55.769498,
-            37.934995
-        ],
+        coord: [55.769498, 37.934995],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_3_.htm",
@@ -1084,10 +898,7 @@ let mskEvents2025 = [
         place: "Салтыковка",
         type: "ORIENT",
         fmt: "кросс-многодневный",
-        coord: [
-            55.769498,
-            37.934995
-        ],
+        coord: [55.769498, 37.934995],
         link: "https://moscompass.ru/news/more.php?id=6102",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_3_.htm",
@@ -1101,10 +912,7 @@ let mskEvents2025 = [
         place: "Салтыковка",
         type: "ORIENT",
         fmt: "кросс-многодневный",
-        coord: [
-            55.772479,
-            37.936232
-        ],
+        coord: [55.772479, 37.936232],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_4_.htm",
@@ -1118,10 +926,7 @@ let mskEvents2025 = [
         place: "Салтыковка",
         type: "ORIENT",
         fmt: "кросс-многодневный",
-        coord: [
-            55.772479,
-            37.936232
-        ],
+        coord: [55.772479, 37.936232],
         link: "https://moscompass.ru/news/more.php?id=6102",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_4_.htm",
@@ -1135,10 +940,7 @@ let mskEvents2025 = [
         place: "Измайлово-запад",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.767518,
-            37.76987
-        ],
+        coord: [55.767518, 37.76987],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_5_.htm",
@@ -1152,10 +954,7 @@ let mskEvents2025 = [
         place: "Измайлово-восток",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.77275,
-            37.81539
-        ],
+        coord: [55.77275, 37.81539],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_6_.htm",
@@ -1169,10 +968,7 @@ let mskEvents2025 = [
         place: "Покровское-Стрешнево",
         type: "ORIENT",
         fmt: "кросс-эстафета 2х",
-        coord: [
-            55.826338,
-            37.487866
-        ],
+        coord: [55.826338, 37.487866],
         link: "https://moscompass.ru/news/more.php?id=6112",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/PokrGoriz_2025_.htm",
@@ -1186,10 +982,7 @@ let mskEvents2025 = [
         place: "Патриаршие Пруды",
         type: "ORIENT",
         fmt: "City Race",
-        coord: [
-            55.764417,
-            37.591288
-        ],
+        coord: [55.764417, 37.591288],
         link: "https://moscompass.ru/news/more.php?id=6029",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MCR_2025_2_.htm",
@@ -1203,10 +996,7 @@ let mskEvents2025 = [
         place: "Воробьевы Горы",
         type: "ROGAINE",
         fmt: "рогейн 90 мин + классика  в ЗН",
-        coord: [
-            55.708292,
-            37.55108
-        ],
+        coord: [55.708292, 37.55108],
         link: "https://moscompass.ru/news/more.php?id=6007",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_11_.htm",
@@ -1220,10 +1010,7 @@ let mskEvents2025 = [
         place: "Фосфоритный",
         type: "ROGAINE",
         fmt: "рогейн 3 часа + лонг  в ЗН",
-        coord: [
-            55.337965,
-            38.903316
-        ],
+        coord: [55.337965, 38.903316],
         link: "https://moscompass.ru/news/more.php?id=6007",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_12_.htm",
@@ -1238,10 +1025,7 @@ let mskEvents2025 = [
         place: "Фосфоритный",
         type: "ORIENT",
         fmt: "кросс-лонг (марафон)",
-        coord: [
-            55.337965,
-            38.903316
-        ],
+        coord: [55.337965, 38.903316],
         link: "https://vk.com/moscow_orienteering",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://celestia.su/ol",
@@ -1255,10 +1039,7 @@ let mskEvents2025 = [
         place: "Нескучный Сад",
         type: "ORIENT",
         fmt: "кросс-эстафета 2х",
-        coord: [
-            55.717131,
-            37.588905
-        ],
+        coord: [55.717131, 37.588905],
         link: "https://moscompass.ru/news/more.php?id=6129",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Gorunov_2025_.htm",
@@ -1285,10 +1066,7 @@ let mskEvents2025 = [
         place: "Орехово-Борисово южное",
         type: "ORIENT",
         fmt: "кросс-спринт",
-        coord: [
-            55.598837,
-            37.744504
-        ],
+        coord: [55.598837, 37.744504],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_2_.htm",
@@ -1302,10 +1080,7 @@ let mskEvents2025 = [
         place: "Парк Дубки",
         type: "ORIENT",
         fmt: "кросс-выбор 100КП",
-        coord: [
-            55.821803,
-            37.565762
-        ],
+        coord: [55.821803, 37.565762],
         link: "https://moscompass.ru/news/more.php?id=6138",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Dubki_2025_.htm",
@@ -1319,10 +1094,7 @@ let mskEvents2025 = [
         place: "Парк Дубки",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.821803,
-            37.565762
-        ],
+        coord: [55.821803, 37.565762],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_7_.htm",
@@ -1336,10 +1108,7 @@ let mskEvents2025 = [
         place: "Кузьминки",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.695132,
-            37.76943
-        ],
+        coord: [55.695132, 37.76943],
         link: "https://moscompass.ru/news/more.php?id=6136",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Moscompasorienta_2025_.htm",
@@ -1353,10 +1122,7 @@ let mskEvents2025 = [
         place: "Стадион \"Медик\"",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.741035,
-            37.391084
-        ],
+        coord: [55.741035, 37.391084],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_8x_.htm",
@@ -1370,10 +1136,7 @@ let mskEvents2025 = [
         place: "Стадион \"Медик\"",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.741035,
-            37.391084
-        ],
+        coord: [55.741035, 37.391084],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_8_.htm",
@@ -1387,10 +1150,7 @@ let mskEvents2025 = [
         place: "Кусково",
         type: "ORIENT",
         fmt: "кросс-эстафета 3х",
-        coord: [
-            55.734029,
-            37.799517
-        ],
+        coord: [55.734029, 37.799517],
         link: "https://moscompass.ru/news/more.php?id=6142",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/ZolOsen_2025_.htm",
@@ -1404,10 +1164,7 @@ let mskEvents2025 = [
         place: "Сосновка",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.760614,
-            37.399821
-        ],
+        coord: [55.760614, 37.399821],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_9_.htm",
@@ -1421,10 +1178,7 @@ let mskEvents2025 = [
         place: "Битцевский лес (Узкое)",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.628707,
-            37.541171
-        ],
+        coord: [55.628707, 37.541171],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_10_.htm",
@@ -1438,10 +1192,7 @@ let mskEvents2025 = [
         place: "Лыткарино (Яма)",
         type: "ROGAINE",
         fmt: "рогейн 2 часа",
-        coord: [
-            55.602152,
-            37.919997
-        ],
+        coord: [55.602152, 37.919997],
         link: "https://moscompass.ru/news/more.php?id=6031",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosNanorogaine_2025_4_.htm",
@@ -1456,10 +1207,7 @@ let mskEvents2025 = [
         place: "Нескучный Сад",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.711741,
-            37.5825
-        ],
+        coord: [55.711741, 37.5825],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_11_.htm",
@@ -1473,10 +1221,7 @@ let mskEvents2025 = [
         place: "Покровское-Стрешнево",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.826338,
-            37.487866
-        ],
+        coord: [55.826338, 37.487866],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_12_.htm",
@@ -1490,10 +1235,7 @@ let mskEvents2025 = [
         place: "Рублево",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.77261,
-            37.377436
-        ],
+        coord: [55.77261, 37.377436],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_13_.htm",
@@ -1507,10 +1249,7 @@ let mskEvents2025 = [
         place: "Ясенево-Битца",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.628707,
-            37.541171
-        ],
+        coord: [55.628707, 37.541171],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_14_.htm",
@@ -1524,10 +1263,7 @@ let mskEvents2025 = [
         place: "Ст. \"Медик\"",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.738086,
-            37.386742
-        ],
+        coord: [55.738086, 37.386742],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_15_.htm",
@@ -1541,10 +1277,7 @@ let mskEvents2025 = [
         place: "Алешкино",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.867641,
-            37.426114
-        ],
+        coord: [55.867641, 37.426114],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_16_.htm",
@@ -1558,10 +1291,7 @@ let mskEvents2025 = [
         place: "Белая дача",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.67416,
-            37.849253
-        ],
+        coord: [55.67416, 37.849253],
         link: "https://moscompass.ru/news/more.php?id=6101",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_17_.htm",
@@ -1575,10 +1305,7 @@ let mskEvents2025 = [
         place: "Покровское-Стрешнево",
         type: "ORIENT",
         fmt: "кросс-классика",
-        coord: [
-            55.826338,
-            37.487866
-        ],
+        coord: [55.826338, 37.487866],
         link: "https://moscompass.ru/news/more.php?id=6159",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/pokr_2025_.htm",
@@ -1592,10 +1319,7 @@ let mskEvents2025 = [
         place: "Патриаршие пруды",
         type: "ROGAINE",
         fmt: "рогейн 2 часа",
-        coord: [
-            55.764417,
-            37.591288
-        ],
+        coord: [55.764417, 37.591288],
         link: "https://moscompass.ru/news/more.php?id=6031",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosNanorogaine_2025_5_.htm",
@@ -1609,10 +1333,7 @@ let mskEvents2025 = [
         place: "Химкинский л/п",
         type: "ORIENT",
         fmt: "кросс-выбор",
-        coord: [
-            55.88257,
-            37.477713
-        ],
+        coord: [55.88257, 37.477713],
         link: "https://moscompass.ru/news/more.php?id=6168",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/snej_2025_1_.htm",
@@ -1626,10 +1347,7 @@ let mskEvents2025 = [
         place: "Ясенево(юг)",
         type: "ORIENT",
         fmt: "кросс-выбор",
-        coord: [
-            55.618874,
-            37.531153
-        ],
+        coord: [55.618874, 37.531153],
         link: "https://moscompass.ru/news/more.php?id=6168",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/snej_2025_2_.htm",
@@ -1643,10 +1361,7 @@ let mskEvents2025 = [
         place: "Парк Дружбы",
         type: "ORIENT",
         fmt: "кросс-выбор",
-        coord: [
-            55.855258,
-            37.485581
-        ],
+        coord: [55.855258, 37.485581],
         link: "https://moscompass.ru/news/more.php?id=6168",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/snej_2025_3_.htm",
@@ -1660,10 +1375,7 @@ let mskEvents2025 = [
         place: "Дендропарк",
         type: "ORIENT",
         fmt: "кросс-выбор",
-        coord: [
-            55.603071,
-            37.671956
-        ],
+        coord: [55.603071, 37.671956],
         link: "https://moscompass.ru/news/more.php?id=6168",
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/snej_2025_4_.htm",
