@@ -4,10 +4,29 @@
 import_calendar_malakhit.py — импорт календаря клуба «Малахит» (Google Doc)
 в js/calendar-msk-2026.js.
 
+Вызывается и из tools/sync_calendar.py (шаг malakhit) с теми же ключами.
+
 Запуск из корня сайта (скрипт лежит в tools/, календарь — в js/):
 
-    python tools/import_calendar_malakhit.py            # записать изменения
-    python tools/import_calendar_malakhit.py --dry      # dry-run: только показать изменения
+    python tools/import_calendar_malakhit.py              # записать изменения
+    python tools/import_calendar_malakhit.py -n           # только показать изменения
+    python tools/import_calendar_malakhit.py --fresh 14   # только старты с сегодня-14 дней
+
+Ключи:
+    --src DIR        каталог с calendar-msk-YYYY.js или корень сайта (по умолч. js);
+                     документ — календарь DOC_YEAR года, файл calendar-msk-DOC_YEAR.js
+    --year Y         только строки документа со стартами года Y (YYYY или
+                     YYYY-YYYY, можно повторять)
+    --fresh [N]      только строки со стартами не раньше сегодня минус N дней
+                     (по умолч. 7) — прошедшие раньше не создаются и не обновляются
+    -n, --dry-run    ничего не записывать, только показать (старое имя: --dry)
+    --doc ID|URL     ID или URL Google-документа
+    --html FILE      взять документ из локального HTML-файла (экспорт Google Docs)
+    --no-bulletins   не читать бюллетени (name/fmt по умолчанию)
+    --out [FILE]     дублировать отчёт в файл (UTF-8), без имени —
+                     import_calendar_malakhit_out.txt в текущем каталоге
+    -h, --help       справка
+Без --year и --fresh обрабатываются все строки документа.
 
 Колонки документа -> поля записи:
     Дата                     -> date   (+ id MSK_YYYYMMDD_N)
@@ -26,6 +45,15 @@ import_calendar_malakhit.py — импорт календаря клуба «М�
 обновляются reg/link/coord/res/owner (только непустыми значениями из документа);
 name/place/type/fmt заполняются, только если их ещё нет (ручные правки не трогаем).
 
+Строка документа, для которой есть закомментированная запись (/* … */ или
+«//») с owner MLKHT и той же датой или с той же reg, пропускается — так
+удаляют ненужный старт, чтобы он не появился снова (как в sync_calendar.py).
+
+Поле, зафиксированное комментарием «// !» после значения (или строкой
+«// ! поле, …» / «// ! *» внутри записи, — как в sync_calendar.py), не
+меняется и не добавляется. Изменённая запись правится на месте: остальные
+поля, их порядок и комментарии сохраняются.
+
 Только стандартная библиотека Python.
 """
 
@@ -38,12 +66,18 @@ import sys
 import tempfile
 import time
 import urllib.parse
+import datetime
 import urllib.request
 from html.parser import HTMLParser
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.dont_write_bytecode = True
+import fill_bulletins as FB                                   # noqa: E402  разбор записей
+from sync_calendar import Ignored, locked_fields, patch_record  # noqa: E402  удалённые записи, «// !», правка на месте
+
 DOC_ID = "1uZyPOj4ksADFaDgNujK6B1QxRRYWYNwrl9r7SY9hJ7k"
 DOC_EXPORT = "https://docs.google.com/document/d/{id}/export?format={fmt}"
-DEFAULT_JS = os.path.join("js", "calendar-msk-2026.js")
+DOC_YEAR = 2026         # документ — календарь этого года
 
 OWNER = "MLKHT"
 DEFAULT_NAME = "Открытая тренировка"
@@ -359,31 +393,9 @@ def split_records(text, a0, a1):
 
 
 def parse_fields(block):
-    """'{ k: v, ... }' -> [(key, raw_value)] с сохранением порядка."""
-    body = block[1:-1]
-    out, i, n = [], 0, len(body)
-    while i < n:
-        m = re.compile(r"\s*,?\s*([A-Za-z_$][\w$]*|'[^']*'|\"[^\"]*\")\s*:\s*").match(body, i)
-        if not m:
-            break
-        key = m.group(1).strip("'\"")
-        j = m.end()
-        depth, k = 0, j
-        while k < n:
-            c = body[k]
-            if c in "'\"`":
-                k = scan_string(body, k)
-                continue
-            if c in "[{(":
-                depth += 1
-            elif c in "]})":
-                depth -= 1
-            elif c == "," and depth == 0:
-                break
-            k += 1
-        out.append((key, body[j:k].strip()))
-        i = k
-    return out
+    """'{ k: v, ... }' -> [(key, raw_value)] с сохранением порядка; комментарии
+    (в том числе «// !» — фиксация поля) пропускаются (разбор fill_bulletins.py)."""
+    return [(f["key"], block[f["vstart"]:f["vend"]]) for f in FB.parse_fields(block, 0, len(block) - 1)]
 
 
 def js_unquote(raw):
@@ -463,20 +475,67 @@ def node_check(text):
     return True
 
 
+def parse_years(values):
+    out = set()
+    for v in values:
+        m = re.fullmatch(r"(\d{4})(?:-(\d{4}))?", v.strip())
+        if not m:
+            raise ValueError(v)
+        a, b = int(m.group(1)), int(m.group(2) or m.group(1))
+        out.update(range(min(a, b), max(a, b) + 1))
+    return out
+
+
+def resolve_js(src, year):
+    name = f"calendar-msk-{year}.js"
+    for d in (src, os.path.join(src, "js")):
+        if os.path.isfile(os.path.join(d, name)):
+            return os.path.join(d, name)
+    sys.exit(f"Нет файла {name} в {src} (запускайте из корня сайта или укажите --src)")
+
+
+class Tee:
+    """stdout, который пишет и в консоль, и в файл (для --out)."""
+
+    def __init__(self, stream, path):
+        self.stream, self.file = stream, open(path, "w", encoding="utf-8", newline="\n")
+
+    def write(self, s):
+        self.stream.write(s)
+        self.file.write(s)
+
+    def flush(self):
+        self.stream.flush()
+        self.file.flush()
+
+
 def main():
-    ap = argparse.ArgumentParser(description="Импорт календаря «Малахит» в calendar-msk-2026.js")
-    ap.add_argument("--js", default=DEFAULT_JS, help=f"JS-файл календаря (по умолч. {DEFAULT_JS})")
+    ap = argparse.ArgumentParser(description=f"Импорт календаря «Малахит» в calendar-msk-{DOC_YEAR}.js "
+                                             "(ключи — в шапке файла)")
+    ap.add_argument("--src", default="js", help="каталог с calendar-msk-YYYY.js или корень сайта (по умолч. js)")
+    ap.add_argument("--year", action="append", default=[], metavar="Y",
+                    help="только старты года Y (YYYY или YYYY-YYYY; можно несколько раз)")
+    ap.add_argument("--fresh", nargs="?", type=int, const=7, metavar="N",
+                    help="только старты не раньше сегодня минус N дней (по умолч. 7)")
+    ap.add_argument("-n", "--dry-run", "--dry", dest="dry", action="store_true",
+                    help="ничего не записывать, только показать")
     ap.add_argument("--doc", default=DOC_ID, help="ID или URL Google-документа")
     ap.add_argument("--html", help="взять документ из локального HTML-файла (экспорт Google Docs)")
     ap.add_argument("--no-bulletins", action="store_true",
                     help="не читать бюллетени (name/fmt по умолчанию)")
-    ap.add_argument("--dry", action="store_true",
-                    help="dry-run: показать изменения, файл не записывать")
-    ap.add_argument("--out", help="записать результат в другой файл вместо --js")
+    ap.add_argument("--out", nargs="?", const="import_calendar_malakhit_out.txt", metavar="FILE",
+                    help="дублировать отчёт в файл (по умолч. import_calendar_malakhit_out.txt)")
     args = ap.parse_args()
-
-    if not os.path.isfile(args.js):
-        sys.exit(f"Нет файла {args.js} (запускайте из папки, где лежат tools/ и js/)")
+    if args.out:
+        sys.stdout = Tee(sys.stdout, args.out)
+    try:
+        years = parse_years(args.year)
+    except ValueError as ex:
+        ap.error(f"--year: ожидается YYYY или YYYY-YYYY, получено {ex}")
+    if args.fresh is not None and args.fresh < 0:
+        ap.error("--fresh: число дней не может быть отрицательным")
+    since = (datetime.date.today() - datetime.timedelta(days=args.fresh)).isoformat() if args.fresh is not None else None
+    js_path = resolve_js(args.src, DOC_YEAR)
 
     # --- документ ---
     if args.html:
@@ -487,11 +546,13 @@ def main():
     doc_recs = parse_doc(html)
     if not doc_recs:
         sys.exit("В документе не найдено ни одной строки с датой — формат изменился?")
+    doc_recs = [r for r in doc_recs if (not years or int(r["date"][:4]) in years)
+                and (not since or r["date"] >= since)]
     for r in doc_recs:
         enrich(r, not args.no_bulletins)
 
     # --- JS ---
-    text, enc, bom, nl = read_text(args.js)
+    text, enc, bom, nl = read_text(js_path)
     a0, a1 = find_array(text)
     spans = split_records(text, a0, a1)
     records = []
@@ -500,6 +561,7 @@ def main():
         d = dict(f)
         date = js_unquote(d.get("date", "")) or (re.findall(r"\d{4}-\d{2}-\d{2}", d.get("date", "")) or [""])[0]
         records.append({"span": (st, en), "fields": f, "date": date,
+                        "lock": locked_fields(text, (st, en - 1), FB.parse_fields(text, st, en - 1)),
                         "id": js_unquote(d.get("id", "")) or "",
                         "owner": js_unquote(d.get("owner", "")) or "",
                         "reg": js_unquote(d.get("reg", "")) or ""})
@@ -511,7 +573,8 @@ def main():
 
     replacements = []   # (start, end, new_text)
     inserts = []        # (pos, new_text)
-    n_new = n_upd = n_same = 0
+    n_new = n_upd = n_same = n_ign = 0
+    ignored = Ignored().add_text(text).recs
 
     for dr in doc_recs:
         match = None
@@ -521,13 +584,23 @@ def main():
                 break
         if match is None and dr.get("reg"):
             match = next((r for r in records if r["reg"] and r["reg"] == dr["reg"]), None)
+        if match is None and any((r.get("owner") == OWNER and r.get("date") == dr["date"])
+                                 or (dr.get("reg") and r.get("reg") == dr["reg"]) for r in ignored):
+            n_ign += 1                      # запись закомментирована — старт не нужен
+            print(f"- {dr['date']} {dr['name']} (запись закомментирована)")
+            continue
 
         if match:
             fields = list(match["fields"])
             keys = [k for k, _ in fields]
             changed = []
 
+            lock = match["lock"]
+            upd = {}
+
             def put(k, v):
+                if k in lock or "*" in lock:
+                    return                  # поле зафиксировано комментарием «// !»
                 raw = js_value(k, v, nl, "        ")
                 if k in keys:
                     i = keys.index(k)
@@ -536,6 +609,7 @@ def main():
                         else js_unquote(old) == v
                     if not same:
                         fields[i] = (k, raw)
+                        upd[k] = raw
                         changed.append(k)
                 else:
                     # вставить по FIELD_ORDER
@@ -547,6 +621,7 @@ def main():
                             break
                     fields.insert(pos, (k, raw))
                     keys.insert(pos, k)
+                    upd[k] = raw
                     changed.append("+" + k)
 
             for k in DOC_FIELDS:
@@ -558,7 +633,8 @@ def main():
 
             if changed:
                 st, en = match["span"]
-                replacements.append((st, en, render_record(fields, nl)))
+                # правка на месте: комментарии и порядок полей записи сохраняются
+                replacements.append((st, en, patch_record(text[st:en], upd, FIELD_ORDER, nl)))
                 n_upd += 1
                 d = dict(fields)
                 print(f"m {dr['date']} {js_unquote(d.get('name', '')) or dr['name']}")
@@ -593,7 +669,8 @@ def main():
         print(f"c {dr['date']} {dr['name']}")
 
     stats = (f"Прочитано из документа: {len(doc_recs)}, "
-             f"создано: {n_new}, обновлено: {n_upd}")
+             f"создано: {n_new}, обновлено: {n_upd}"
+             + (f", пропущено (запись закомментирована): {n_ign}" if n_ign else ""))
     if not (n_new or n_upd):
         print(stats)
         return
@@ -618,7 +695,7 @@ def main():
         print(stats + " (dry-run: файл не изменён)")
         return
 
-    dest = args.out or args.js
+    dest = js_path
     data = new_text.encode(enc)
     if bom:
         data = b"\xef\xbb\xbf" + data

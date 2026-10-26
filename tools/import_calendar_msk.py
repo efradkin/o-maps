@@ -5,11 +5,29 @@ import_calendar_msk.py — импорт «Неофициального свод�
 (Google Sheets) в js/calendar-msk-2026.js. Python-аналог MskCalendar.java
 (источник UNOFFICIAL_2026), но файл не перегенерируется целиком:
 новые записи добавляются, существующие обновляются, остальное не трогается.
+Вызывается и из tools/sync_calendar.py (шаг msk) с теми же ключами.
 
 Запуск из корня сайта (скрипт лежит в tools/, календарь — в js/):
 
-    python tools/import_calendar_msk.py         # записать изменения
-    python tools/import_calendar_msk.py --dry   # только показать, что изменится
+    python tools/import_calendar_msk.py              # записать изменения
+    python tools/import_calendar_msk.py -n           # только показать, что изменится
+    python tools/import_calendar_msk.py --fresh 14   # только старты с сегодня-14 дней
+    python tools/import_calendar_msk.py --year 2026 --out
+
+Ключи:
+    --src DIR      каталог с calendar-msk-YYYY.js или корень сайта (по умолч. js);
+                   таблица — календарь SHEET_YEAR года, файл calendar-msk-SHEET_YEAR.js
+    --year Y       только строки таблицы со стартами года Y (YYYY или YYYY-YYYY,
+                   можно повторять)
+    --fresh [N]    только строки со стартами не раньше сегодня минус N дней
+                   (по умолч. 7) — прошедшие раньше не создаются и не обновляются
+    -n, --dry-run  ничего не записывать, только показать (старое имя: --dry)
+    --sheet URL    URL Google-таблицы (с gid)
+    --xlsx FILE    взять таблицу из локального XLSX-файла
+    --out [FILE]   дублировать отчёт в файл (UTF-8), без имени —
+                   import_calendar_msk_out.txt в текущем каталоге
+    -h, --help     справка
+Без --year и --fresh обрабатываются все строки таблицы.
 
 Колонки таблицы (первые две строки — заголовок):
     1  Дата                -> date
@@ -22,10 +40,22 @@ import_calendar_msk.py — импорт «Неофициального свод�
     8, 9, 10  Сайт/ВК/ТГ   -> link (первая ссылка), owner/start по домену
     11 Регистрация         -> reg (только если в ячейке есть ссылка)
 
+Строка таблицы, для которой есть закомментированная запись (/* … */ или «//»)
+с той же датой и тем же названием или местом, пропускается — так удаляют
+ненужный старт, чтобы он не появился снова (как в sync_calendar.py).
+
+Поле, зафиксированное комментарием «// !» после значения (или строкой
+«// ! поле, …» / «// ! *» внутри записи, — как в sync_calendar.py), не
+меняется и не добавляется. Изменённая запись правится на месте: остальные
+поля, их порядок и комментарии сохраняются.
+
 Сопоставление с существующими записями (записи с owner MLKHT не участвуют):
 та же дата и то же название (и место, если таких несколько); если название
 поменялось — та же дата и то же место. Поля, которых нет в таблице
 (res, photo и т. п.), и пустые ячейки существующие значения не стирают.
+Ссылка reg на страницу события orgeo (orgeo.ru/event/<id>) не заменяется
+ссылкой таблицы на список событий (orgeo.ru/event/organizer/…, …/index/…) —
+такую ссылку на событие вписывает sync_calendar.py.
 
 Только стандартная библиотека Python (XLSX читается через zipfile + ElementTree).
 """
@@ -46,10 +76,15 @@ import zipfile
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.dont_write_bytecode = True
+import fill_bulletins as FB                                   # noqa: E402  разбор записей
+from sync_calendar import Ignored, locked_fields, patch_record  # noqa: E402  удалённые записи, «// !», правка на месте
+
 SHEET_URL = ("https://docs.google.com/spreadsheets/d/"
              "1D0_ybH3A0TBZaC4sjPHkkthQrTiwUdudkz1VES1Ai7Y/edit?gid=257262853")
 XLSX_EXPORT = "https://docs.google.com/spreadsheets/d/{id}/export?format=xlsx&gid={gid}"
-DEFAULT_JS = os.path.join("js", "calendar-msk-2026.js")
+SHEET_YEAR = 2026       # таблица — календарь этого года
 HEADER_ROWS = 2
 SKIP_OWNERS = {"MLKHT"}          # записи из других импортов не трогаем
 
@@ -379,31 +414,9 @@ def split_records(text, a0, a1):
 
 
 def parse_fields(block):
-    """'{ k: v, ... }' -> [(key, raw_value)] с сохранением порядка."""
-    body = block[1:-1]
-    out, i, n = [], 0, len(body)
-    while i < n:
-        m = re.compile(r"\s*,?\s*([A-Za-z_$][\w$]*|'[^']*'|\"[^\"]*\")\s*:\s*").match(body, i)
-        if not m:
-            break
-        key = m.group(1).strip("'\"")
-        j = m.end()
-        depth, k = 0, j
-        while k < n:
-            c = body[k]
-            if c in "'\"`":
-                k = scan_string(body, k)
-                continue
-            if c in "[{(":
-                depth += 1
-            elif c in "]})":
-                depth -= 1
-            elif c == "," and depth == 0:
-                break
-            k += 1
-        out.append((key, body[j:k].strip()))
-        i = k
-    return out
+    """'{ k: v, ... }' -> [(key, raw_value)] с сохранением порядка; комментарии
+    (в том числе «// !» — фиксация поля) пропускаются (разбор fill_bulletins.py)."""
+    return [(f["key"], block[f["vstart"]:f["vend"]]) for f in FB.parse_fields(block, 0, len(block) - 1)]
 
 
 def js_unquote(raw):
@@ -483,6 +496,50 @@ def node_check(text):
 # Основная логика
 # --------------------------------------------------------------------------
 
+ORGEO_LIST = re.compile(r"orgeo\.ru/(?:event/(?:organizer|index|archive)\b|u\d+|\?|$)", re.I)
+ORGEO_EVENT = re.compile(r"orgeo\.ru/event/(?:info/)?(?!organizer\b|index\b|archive\b)[\w-]+/?$", re.I)
+
+
+def keep_reg(old_raw, new):
+    """True — оставить reg записи: в ней ссылка на событие orgeo, а в таблице — на список."""
+    old = js_unquote(old_raw or "") or ""
+    return bool(ORGEO_EVENT.search(old.strip()) and ORGEO_LIST.search(new or ""))
+
+
+def parse_years(values):
+    out = set()
+    for v in values:
+        m = re.fullmatch(r"(\d{4})(?:-(\d{4}))?", v.strip())
+        if not m:
+            raise ValueError(v)
+        a, b = int(m.group(1)), int(m.group(2) or m.group(1))
+        out.update(range(min(a, b), max(a, b) + 1))
+    return out
+
+
+def resolve_js(src, year):
+    name = f"calendar-msk-{year}.js"
+    for d in (src, os.path.join(src, "js")):
+        if os.path.isfile(os.path.join(d, name)):
+            return os.path.join(d, name)
+    sys.exit(f"Нет файла {name} в {src} (запускайте из корня сайта или укажите --src)")
+
+
+class Tee:
+    """stdout, который пишет и в консоль, и в файл (для --out)."""
+
+    def __init__(self, stream, path):
+        self.stream, self.file = stream, open(path, "w", encoding="utf-8", newline="\n")
+
+    def write(self, s):
+        self.stream.write(s)
+        self.file.write(s)
+
+    def flush(self):
+        self.stream.flush()
+        self.file.flush()
+
+
 def find_match(ev, records, taken):
     cands = [r for r in records
              if r["date"] == ev["date"] and r["owner"] not in SKIP_OWNERS
@@ -499,24 +556,39 @@ def find_match(ev, records, taken):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Импорт сводного календаря Москвы в calendar-msk-2026.js")
-    ap.add_argument("--js", default=DEFAULT_JS, help=f"JS-файл календаря (по умолч. {DEFAULT_JS})")
+    ap = argparse.ArgumentParser(description=f"Импорт сводного календаря Москвы в calendar-msk-{SHEET_YEAR}.js "
+                                             "(ключи — в шапке файла)")
+    ap.add_argument("--src", default="js", help="каталог с calendar-msk-YYYY.js или корень сайта (по умолч. js)")
+    ap.add_argument("--year", action="append", default=[], metavar="Y",
+                    help="только старты года Y (YYYY или YYYY-YYYY; можно несколько раз)")
+    ap.add_argument("--fresh", nargs="?", type=int, const=7, metavar="N",
+                    help="только старты не раньше сегодня минус N дней (по умолч. 7)")
+    ap.add_argument("-n", "--dry-run", "--dry", dest="dry", action="store_true",
+                    help="ничего не записывать, только показать")
     ap.add_argument("--sheet", default=SHEET_URL, help="URL Google-таблицы (с gid)")
     ap.add_argument("--xlsx", help="взять таблицу из локального XLSX-файла")
-    ap.add_argument("--dry", action="store_true",
-                    help="dry-run: показать изменения, файл не записывать")
-    ap.add_argument("--out", help="записать результат в другой файл вместо --js")
+    ap.add_argument("--out", nargs="?", const="import_calendar_msk_out.txt", metavar="FILE",
+                    help="дублировать отчёт в файл (по умолч. import_calendar_msk_out.txt)")
     args = ap.parse_args()
-
-    if not os.path.isfile(args.js):
-        sys.exit(f"Нет файла {args.js} (запускайте из папки, где лежат tools/ и js/)")
+    if args.out:
+        sys.stdout = Tee(sys.stdout, args.out)
+    try:
+        years = parse_years(args.year)
+    except ValueError as ex:
+        ap.error(f"--year: ожидается YYYY или YYYY-YYYY, получено {ex}")
+    if args.fresh is not None and args.fresh < 0:
+        ap.error("--fresh: число дней не может быть отрицательным")
+    since = (date.today() - timedelta(days=args.fresh)).isoformat() if args.fresh is not None else None
+    js_path = resolve_js(args.src, SHEET_YEAR)
 
     xlsx = open(args.xlsx, "rb").read() if args.xlsx else download_xlsx(args.sheet)
     sheet = parse_sheet(xlsx)
     if not sheet:
         sys.exit("В таблице не найдено ни одной записи — формат изменился?")
+    sheet = [ev for ev in sheet if (not years or int(ev["date"][:4]) in years)
+             and (not since or ev["date"] >= since)]
 
-    text, enc, bom, nl = read_text(args.js)
+    text, enc, bom, nl = read_text(js_path)
     a0, a1 = find_array(text)
     records = []
     for st, en in split_records(text, a0, a1):
@@ -525,6 +597,7 @@ def main():
         dt = js_unquote(d.get("date", "")) or \
             (re.findall(r"\d{4}-\d{2}-\d{2}", d.get("date", "")) or [""])[0]
         records.append({"span": (st, en), "fields": f, "date": dt,
+                        "lock": locked_fields(text, (st, en - 1), FB.parse_fields(text, st, en - 1)),
                         "id": js_unquote(d.get("id", "")) or "",
                         "name": js_unquote(d.get("name", "")),
                         "place": js_unquote(d.get("place", "")),
@@ -537,42 +610,40 @@ def main():
 
     taken = set()
     replacements, inserts = [], []
-    n_new = n_upd = 0
+    n_new = n_upd = n_ign = 0
+    ignored = [dict(r, owner=r.get("owner", ""), name=r.get("name"), place=r.get("place"))
+               for r in Ignored().add_text(text).recs]
     ind = "        "
 
     for ev in sheet:
         match = find_match(ev, records, taken)
+        if not match and find_match(ev, ignored, set()):
+            n_ign += 1                      # запись закомментирована — старт не нужен
+            print(f"- {ev['date']} {ev.get('name', '')} (запись закомментирована)")
+            continue
         if match:
             taken.add(id(match))
-            fields = list(match["fields"])
-            keys = [k for k, _ in fields]
-            changed = False
+            old_vals = dict(match["fields"])
+            upd = {}
             for k in SHEET_FIELDS:
                 v = ev.get(k)
-                if v is None:
-                    continue
+                if v is None or k in match["lock"] or "*" in match["lock"]:
+                    continue                # поле зафиксировано комментарием «// !»
                 raw = js_value(k, v, nl, ind)
-                if k in keys:
-                    i = keys.index(k)
-                    old = fields[i][1]
+                if k in old_vals:
+                    old = old_vals[k]
+                    if k == "reg" and keep_reg(old, v):
+                        continue
                     same = (coord_of(old) == [round(x, 6) for x in v]) if k == "coord" \
                         else js_unquote(old) == v
                     if not same:
-                        fields[i] = (k, raw)
-                        changed = True
+                        upd[k] = raw
                 else:
-                    order = FIELD_ORDER.index(k)
-                    pos = len(fields)
-                    for i, kk in enumerate(keys):
-                        if kk in FIELD_ORDER and FIELD_ORDER.index(kk) > order:
-                            pos = i
-                            break
-                    fields.insert(pos, (k, raw))
-                    keys.insert(pos, k)
-                    changed = True
-            if changed:
+                    upd[k] = raw
+            if upd:
                 st, en = match["span"]
-                replacements.append((st, en, render_record(fields, nl)))
+                # правка на месте: комментарии и порядок полей записи сохраняются
+                replacements.append((st, en, patch_record(text[st:en], upd, FIELD_ORDER, nl)))
                 n_upd += 1
                 print(f"m {ev['date']} {ev.get('name', '')}")
             continue
@@ -601,7 +672,8 @@ def main():
         print(f"c {ev['date']} {ev.get('name', '')}")
 
     stats = (f"Прочитано из таблицы: {len(sheet)}, "
-             f"создано: {n_new}, обновлено: {n_upd}")
+             f"создано: {n_new}, обновлено: {n_upd}"
+             + (f", пропущено (запись закомментирована): {n_ign}" if n_ign else ""))
     if not (n_new or n_upd):
         print(stats)
         return
@@ -631,7 +703,7 @@ def main():
     data = new_text.encode(enc)
     if bom:
         data = b"\xef\xbb\xbf" + data
-    with open(args.out or args.js, "wb") as f:
+    with open(js_path, "wb") as f:
         f.write(data)
     print(stats)
 

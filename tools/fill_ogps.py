@@ -101,6 +101,8 @@ https://o-gps-center.ru/viewer/) в записях calendar-*.js.
   * правка на месте в каталоге --src; записи, у которых o_gps уже есть, не
     трогаются (повторный запуск ничего не меняет); файлы без изменений не
     перезаписываются;
+  * запись со строкой-комментарием «// ! o_gps» (или «// ! *») не получает
+    o_gps ни в одном режиме — как в sync_calendar.py;
   * кодировка (UTF-8/cp1251) и переводы строк (CRLF/LF) сохраняются
     пофайлово; поле o_gps вставляется последним полем записи;
   * перед правкой на реальных данных держите git чистым и смотрите -n.
@@ -301,6 +303,12 @@ def ogps_ids(body):
         ids += [int(x) for x in re.findall(r'\d+', rest)]
     return ids
 
+def locked(body):
+    """o_gps зафиксировано строкой-комментарием «// ! o_gps» (или «// ! *») в записи — как в sync_calendar.py."""
+    names = {x for m in re.finditer(r'^[ \t]*//[ \t]*!(.*)$', body, re.M) for x in re.split(r'[\s,;]+', m.group(1)) if x}
+    return 'o_gps' in names or '*' in names
+
+
 def calendar_files(src):
     return [os.path.join(src, f) for f in sorted(os.listdir(src))
             if re.fullmatch(r'calendar-.*\.js', f)]
@@ -312,6 +320,7 @@ def load_records(src):
     for path in calendar_files(src):
         s, _ = read(path)
         objs, code = scan(s)
+        used.update(ogps_ids(s))            # и номера в закомментированных записях между записями
         for a, b in objs:
             f = top_fields(s, code, a, b)
             if 'id' not in f or 'date' not in f:
@@ -320,7 +329,7 @@ def load_records(src):
             ids = ogps_ids(body)
             used.update(ids)
             live = ''.join(ch for ch, k in zip(body, code[a:b + 1]) if k)
-            f['has_gps'] = bool(re.search(r'\bo_gps\s*:', live))
+            f['has_gps'] = bool(re.search(r'\bo_gps\s*:', live)) or locked(body)
             f['gps'] = ogps_ids(live)        # трансляции записи (без закомментированных)
             f['file'] = os.path.basename(path)
             recs.append(f)
@@ -359,6 +368,8 @@ def process(path, mapping, done, year=None):
         done.add(rid)
         if re.search(r'\bo_gps\s*:', ''.join(ch for ch, k in zip(body, code[a:b + 1]) if k)):
             print(f'  = {rid}: o_gps уже есть'); continue
+        if locked(body):
+            print(f'  = {rid}: o_gps зафиксировано в lock'); continue
         ls = s.rfind('\n', 0, a + m.start()) + 1
         ind = re.match(r'[ \t]*', s[ls:]).group(0)
         p = b - 1
