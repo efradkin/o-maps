@@ -15,6 +15,9 @@ sync_calendar.py — получение и обновление записей �
   orgeo     orgeo.ru, раздел «Ориентирование», подразделы СПб, ЛО и МСК
             (только местные), будущие и прошедшие события; собрания, лекции и
             семинары пропускаются;
+  reskeep   reskeep.ru: номера протоколов (главная страница, весь список) —
+            в поле reskeep записей (см. ниже); сертификат reskeep.ru отдаётся
+            без промежуточного — он лежит в tools/extra_ca.pem;
   endreg    срок окончания заявок (endReg) по страницам регистрации из reg —
             orgeo, o-reg.spb.ru, sportident.online, reg.o-time.ru (как в
             fill_end_reg.py);
@@ -167,6 +170,20 @@ calendar-early.js и calendar-common.js, MSK — для calendar-msk-*.js.
   * записи — новые и в обрабатываемых датах; «// !» соблюдается.
 Новый повторяющийся старт: добавьте правило в NAME_RULES.
 
+reskeep (шаг reskeep). Главная страница reskeep.ru — весь список протоколов
+(дата, название, место); номер протокола N (reskeep.ru/event/get?id=N) пишется
+в поле reskeep записи: число, у многодневной записи без записей дней — массив
+по дням. Запись ищется по дате (день протокола внутри её дат) и словам, как
+выше; «зонтик» уступает своей записи этого дня (дочерней, с parent). Прежде
+слов — ссылки со страницы протокола (она загружается только для ещё не
+вписанных номеров): каталог о-сайта «…/_races/<каталог>/…» или race.php?id= —
+запись с этим o_site или со ссылкой в этот каталог; событие orgeo (в т.ч.
+orgeo.ru/live/#/N) — запись с ним в reg; та же ссылка — в любом поле записи
+(res, split…); из нескольких таких записей — однодневная в день протокола. Номер,
+уже стоящий в какой-либо записи, не трогается; номер в комментарии
+(«// reskeep: 123» или ссылка …event/get?id=123) не вписывается. Неуверенные
+совпадения — в «Проверить вручную», протоколы без записи — с -v в «Не созданы».
+
 Фиксация полей — комментарий «// !». Чтобы ни один шаг (в том числе
 import_calendar_msk.py, import_calendar_malakhit.py и fill_ogps.py) не менял
 поле записи, поставьте после его значения, в той же строке, комментарий,
@@ -261,7 +278,7 @@ import fill_ogps as OG          # noqa: E402  токены, прогресс, Te
 import fill_bulletins as FB     # noqa: E402  разбор calendar-*.js, бюллетени
 import fill_end_reg as FE       # noqa: E402  сайты регистрации
 
-STEPS = ['msk', 'malakhit', 'osite', 'orgeo', 'endreg', 'names', 'ogps']
+STEPS = ['msk', 'malakhit', 'osite', 'orgeo', 'reskeep', 'endreg', 'names', 'ogps']
 FRESH_DEFAULT = 14
 SERIES_DAYS = 14        # страница о-сайта длиннее — серия/сезон, а не один старт
 UMBRELLA_DAYS = 60      # записи длиннее — «зонтики», по словам не сопоставляются
@@ -269,6 +286,8 @@ RARE_WEIGHT = 5.0       # вес «редкого» слова для увере
 USER_AGENT = 'Mozilla/5.0 (o-maps.spb.ru sync_calendar)'
 OSITE = 'https://o-site.spb.ru/'
 ORGEO = 'https://orgeo.ru/'
+RESKEEP = 'https://reskeep.ru/'
+EXTRA_CA = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'extra_ca.pem')
 ORGEO_REGIONS = ['spb', 'lenobl', 'moscow+mosobl']
 ORGEO_SKIP_LEVEL = {'Собрания, лекции, коференции'}
 ORGEO_NATIONAL_LEVEL = {'Всероссийские ФСОР'}
@@ -604,6 +623,13 @@ class Fetcher:
         self.insecure = ssl.create_default_context()
         self.insecure.check_hostname = False
         self.insecure.verify_mode = ssl.CERT_NONE
+        self.extra = None        # системные корни + промежуточные сертификаты из extra_ca.pem
+        if os.path.exists(EXTRA_CA):
+            try:
+                self.extra = ssl.create_default_context()
+                self.extra.load_verify_locations(EXTRA_CA)
+            except (OSError, ssl.SSLError):
+                self.extra = None
         self.count = 0
 
     def get(self, url, charset=None):
@@ -656,8 +682,17 @@ class Fetcher:
             resp = urllib.request.urlopen(req, timeout=self.timeout)
         except urllib.error.URLError as ex:
             if isinstance(getattr(ex, 'reason', None), ssl.SSLError):
-                # неполная цепочка сертификатов у хостинга — повтор без проверки
-                resp = urllib.request.urlopen(req, timeout=self.timeout, context=self.insecure)
+                # неполная цепочка сертификатов у хостинга: сначала с промежуточными из extra_ca.pem
+                # (reskeep.ru), потом — как раньше — без проверки
+                resp = None
+                if self.extra is not None:
+                    try:
+                        resp = urllib.request.urlopen(req, timeout=self.timeout, context=self.extra)
+                    except urllib.error.URLError as ex2:
+                        if not isinstance(getattr(ex2, 'reason', None), ssl.SSLError):
+                            raise
+                if resp is None:
+                    resp = urllib.request.urlopen(req, timeout=self.timeout, context=self.insecure)
             else:
                 raise
         with resp:
@@ -2193,6 +2228,239 @@ def not_types(cal, rep, owners_of_start):
                 r.head(), '/'.join(sorted(bad)), '/'.join(sorted(org))))
 
 
+RK_ROW = re.compile(r'<a href="/event/get\?id=(\d+)">\s*<div class="row resultRow">(.*?)</a>', re.S)
+RK_CELL = re.compile(r'<div class="col[^"]*">(.*?)</div>', re.S)
+
+
+def reskeep_list(fetcher, rep):
+    """События reskeep.ru с главной страницы (там весь список, по месяцам):
+    [(id, дата, название, место)]."""
+    try:
+        page, _ = fetcher.get(RESKEEP, 'utf-8')
+    except Exception as ex:
+        rep.error('reskeep: список не загружен: %s' % ex)
+        return []
+    out = []
+    for g in re.split(r'<div class="monthRow">', page)[1:]:
+        y = re.search(r'(\d{4})', g[:80])
+        if not y:
+            continue
+        for m in RK_ROW.finditer(g):
+            c = [clean(x) for x in RK_CELL.findall(m.group(2))]
+            d = re.fullmatch(r'(\d{1,2})\.(\d{1,2})', c[0] if c else '')
+            if not d:
+                continue
+            try:
+                day = dt.date(int(y.group(1)), int(d.group(2)), int(d.group(1)))
+            except ValueError:
+                continue
+            out.append((int(m.group(1)), day, c[1] if len(c) > 1 else '', c[2] if len(c) > 2 else ''))
+    if not out:
+        rep.error('reskeep: на главной странице не найдено ни одного события — изменилась вёрстка?')
+    return out
+
+
+def day_records(hits, children, day):
+    """[(вес, запись, слова)]: «зонтик» -> его запись этого дня (у «ККП #1» с «Камни Карельского
+    перешейка. 1 день» общих слов может не быть): одна дочерняя в этот день — она; несколько — те
+    из них, что тоже есть в hits; иначе «зонтик» отбрасывается (по нему не решить)."""
+    by_id = {h[1].id: h for h in hits}
+    out = {}
+    for h in hits:
+        kids = [c for c in children.get(h[1].id, []) if c.d0 <= day <= c.d1]
+        if not kids:
+            out.setdefault(h[1].id, h)
+            continue
+        own = [by_id[c.id] for c in kids if c.id in by_id]
+        if len(kids) == 1:
+            k = kids[0]
+            kh = by_id.get(k.id, h)
+            out[k.id] = (max(h[0], kh[0]), k, h[2] | kh[2])
+        else:
+            for x in own:
+                out.setdefault(x[1].id, x)
+    return list(out.values())
+
+
+RK_SKIP_HOST = re.compile(r'(?:^|\.)(?:reskeep\.ru|yandex\.\w+|ya\.ru|google\.\w+|vk\.com|vk\.ru|t\.me|'
+                          r'facebook\.com|instagram\.com|apple\.com)$', re.I)
+
+
+def reskeep_links(page):
+    """Внешние ссылки страницы протокола reskeep -> (каталоги/страницы о-сайта, события orgeo,
+    прочие ссылки norm_url). «…/_races/261021_NWSprint/…» -> 261021_NWSprint, «race.php?id=X» -> X,
+    «orgeo.ru/live/#/55808» и «orgeo.ru/event/55808» -> 55808."""
+    osite, orgeo, urls = set(), set(), set()
+    for u in re.findall(r'href="(https?://[^"]+)"', page or ''):
+        u = html.unescape(u).strip()
+        host = (urllib.parse.urlsplit(u).hostname or '').lower()
+        if RK_SKIP_HOST.search(host):
+            continue
+        m = re.search(r'o-site\.spb\.ru/_races/([^/?#]+)/', u, re.I)
+        if m:
+            osite.add(urllib.parse.unquote(m.group(1)))
+        m = re.search(r'o-site\.spb\.ru/race\.php\?id=([^&#]+)', u, re.I)
+        if m:
+            osite.add(urllib.parse.unquote(m.group(1)))
+        m = re.search(r'orgeo\.ru/live/#/(\d+)', u, re.I)
+        ref = m.group(1) if m else orgeo_ref(u)
+        if ref:
+            orgeo.add(ORGEO_ALIAS.get(ref, ref))
+        urls.add(norm_url(u))
+    return osite, orgeo, urls
+
+
+def rec_urls(v, out=None):
+    """Все строки-ссылки значения поля записи (вложенные массивы и объекты) -> norm_url."""
+    out = set() if out is None else out
+    if isinstance(v, str):
+        if re.match(r'(?:https?:)?//|www\.', v.strip()):
+            out.add(norm_url(v if '://' in v else 'http://' + v.lstrip('/')))
+    elif isinstance(v, list):
+        for x in v:
+            rec_urls(x, out)
+    elif isinstance(v, dict):
+        for x in v.values():
+            rec_urls(x, out)
+    return out
+
+
+def reskeep_by_links(pool, children, links, day):
+    """Записи, на которые ведут ссылки страницы протокола: o_site = каталог/страница о-сайта или
+    в полях записи ссылка «…/_races/<каталог>/…»; событие orgeo — в reg; та же ссылка (протокол,
+    сплиты) — в любом поле записи. Только записи, в даты которых входит день протокола.
+    -> (запись | None, кандидаты)."""
+    osite, orgeo, urls = links
+    if not (osite or orgeo or urls):
+        return None, []
+    hits = []
+    for r in pool:
+        if not (r.d0 <= day <= r.d1):
+            continue
+        ru = set()
+        for k, v in r.v.items():
+            if k not in ('id', 'date', 'endDate', 'name', 'place', 'info'):
+                rec_urls(v, ru)
+        why = set()
+        if r.get('o_site') in osite or any(re.search(r'o-site\.spb\.ru/_races/%s/' % re.escape(d), u, re.I)
+                                           for d in osite for u in ru):
+            why.add('o-site')
+        if orgeo & {ORGEO_ALIAS.get(x, x) for x in (orgeo_ref(u) for u in aslist(r.get('reg'))
+                                                    if isinstance(u, str)) if x}:
+            why.add('orgeo')
+        if urls & ru:
+            why.add('ссылка')
+        if why:
+            hits.append((len(why), r, why))
+    hits = day_records(hits, children, day)
+    if len(hits) == 1:
+        return hits[0][1], hits
+    single = [h for h in hits if h[1].d0 == h[1].d1 == day]
+    if len(single) == 1:
+        return single[0][1], hits
+    return None, hits
+
+
+def reskeep_match(cal, pool, children, name, place, day):
+    """Запись для протокола reskeep (один день): даты записи включают день, общие значимые слова
+    названия и места; «зонтик» уступает своей дочерней записи этого дня (протоколы пишутся в
+    записи дней). -> (запись | None, сомнительные [(запись, вес, слова)])."""
+    et = OG.toks((name or '') + ' ' + (place or ''))
+    ept = OG.toks(place or '') - OG.toks(name or '')
+    hits = []
+    for r in pool:
+        if not (r.d0 <= day <= r.d1):
+            continue
+        common = et & r.tok
+        if not common:
+            continue
+        rpt = OG.toks(r.get('place') or '') - r.ntok
+        if ept and rpt and not (ept & r.tok) and not (rpt & et) and len(et & r.ntok) < 2:
+            continue                # места разные, а название совпало слабо
+        hits.append((sum(cal.W(t) for t in common), r, common))
+    hits = day_records(hits, children, day)
+    if not hits:
+        return None, []
+    hits.sort(key=lambda h: (-h[0], (h[1].d1 - h[1].d0).days))
+    score, r, common = hits[0]
+    strong = len(common) >= 2 or max(cal.W(t) for t in common) >= RARE_WEIGHT
+    unique = len(hits) == 1 or hits[1][0] <= score / 2
+    if strong and unique:
+        return r, []
+    return None, [(h[1], h[0], sorted(h[2])) for h in hits[:3]]
+
+
+def link_reskeep(cal, events, rep, scope, fetcher=None, workers=2):
+    """reskeep: номер протокола (reskeep.ru/event/get?id=N) — в поле reskeep записи (число или
+    массив: у многодневной записи без дочерних — по протоколу на день). Уже вписанные номера не
+    трогаются; закомментированные (в любом комментарии «reskeep: …» или ссылке …event/get?id=N)
+    не вписываются."""
+    have = defaultdict(list)
+    for r in cal.recs:
+        for x in aslist(r.get('reskeep')):
+            if isinstance(x, (int, float)):
+                have[int(x)].append(r)
+    ignored = set()
+    for f in cal.files.values():
+        for c in js_comments(f.text):
+            for m in re.finditer(r'\breskeep:\s*(\[[^\]]*\]|\d+)', c):
+                ignored.update(int(x) for x in re.findall(r'\d+', m.group(1)))
+            ignored.update(int(x) for x in re.findall(r'reskeep\.ru/event/(?:get|download/results-file)\?id=(\d+)', c))
+    pool = [r for r in cal.recs if r.d0 and (r.d1 - r.d0).days <= UMBRELLA_DAYS
+            and r.cf.name not in NOAUTO_FILES and not r.new]
+    children = defaultdict(list)
+    for r in pool:
+        if r.get('parent'):
+            children[r.get('parent')].append(r)
+    todo = []
+    for rid, day, name, place in sorted(events, key=lambda e: (e[1], e[0])):
+        if rid in have or not scope.hits(day, day):
+            continue
+        if rid in ignored:
+            rep.ignored.append('reskeep %d %s «%s»' % (rid, day, name))
+            continue
+        todo.append((rid, day, name, place))
+    # страницы протоколов — только для ещё не вписанных номеров: на них ссылки на о-сайт/orgeo
+    pages = {}
+    if fetcher is not None and todo:
+        urls = {RESKEEP + 'event/get?id=%d' % rid: rid for rid, _, _, _ in todo}
+        for u, x in fetcher.many(list(urls), 'utf-8', workers, 'страницы reskeep').items():
+            if isinstance(x, Exception):
+                rep.error('reskeep %d: %s' % (urls[u], x))
+            else:
+                pages[urls[u]] = x[0]
+    added = defaultdict(list)
+    for rid, day, name, place in todo:
+        r, cands = reskeep_by_links(pool, children, reskeep_links(pages.get(rid)), day)
+        if r is not None:
+            w, _ = reskeep_match(cal, pool, children, name, place, day)
+            if w is not None and w is not r:      # ссылка и название указывают на разные записи
+                rep.manual('reskeep %d %s «%s»: по ссылке — %s «%s», по названию — %s «%s»' % (
+                    rid, day, name, r.id, r.get('name'), w.id, w.get('name')))
+                continue
+            added[r].append((rid, name, 'по ссылке на ' + '/'.join(sorted(
+                next(h[2] for h in cands if h[1] is r)))))
+            continue
+        if len(cands) > 1:
+            rep.manual('reskeep %d %s «%s»: ссылки страницы ведут на несколько записей: %s' % (
+                rid, day, name, ', '.join('%s «%s»' % (h[1].id, h[1].get('name')) for h in cands)))
+            continue
+        r, maybe = reskeep_match(cal, pool, children, name, place, day)
+        if r is None:
+            if maybe:
+                rep.manual('reskeep %d %s «%s»: возможно, %s' % (rid, day, name, '; '.join(
+                    '%s «%s» (%.1f: %s)' % (x.id, x.get('name'), sc, ','.join(c)) for x, sc, c in maybe)))
+            elif rep.verbose:
+                rep.notnew.append('reskeep %d %s «%s» (%s): записи в календаре не найдено' % (rid, day, name, place))
+            continue
+        added[r].append((rid, name, 'по дате и словам'))
+    for r, items in added.items():
+        cur = [int(x) for x in aslist(r.get('reskeep')) if isinstance(x, (int, float))]
+        new = cur + [rid for rid, _, _ in items if rid not in cur]
+        r.set('reskeep', new[0] if len(new) == 1 else new,
+              'reskeep ' + ', '.join('%d «%s» %s' % (rid, n, how) for rid, n, how in items))
+
+
 def end_reg(cal, scope, fetcher, orgeo_by_ref, workers, rep):
     """endReg по страницам регистрации из reg (как fill_end_reg.py)."""
     tasks = []
@@ -2268,7 +2536,7 @@ def step_sites(work, scope, steps, workers, verbose, starts_js):
     for f in cal.files.values():
         if f.error:
             rep.error('%s: файл не разобран: %s' % (f.name, f.error))
-    print('\n== o-site / orgeo / endReg (%s) ==' % scope)
+    print('\n== o-site / orgeo / reskeep / endReg (%s) ==' % scope)
     in_scope = [r for r in cal.recs if r.d0 and scope.hits(r.d0, r.d1)]
     print('Записей календаря: %d, в области: %d' % (len(cal.recs), len(in_scope)), file=sys.stderr)
 
@@ -2362,6 +2630,10 @@ def step_sites(work, scope, steps, workers, verbose, starts_js):
     if 'orgeo' in steps:
         link_orgeo(cal, orgeo_events, rep, scope)
     merge(cal, osite_events, rep, scope)
+    if 'reskeep' in steps:
+        rk = reskeep_list(fetcher, rep)
+        print('reskeep: протоколов %d' % len(rk))
+        link_reskeep(cal, rk, rep, scope, fetcher, min(workers, 2))
     if 'names' in steps:
         owners = start_owners(starts_js)
         if owners is None:
@@ -2520,7 +2792,7 @@ def main():
         if 'malakhit' in steps:
             run_external([py, os.path.join(TOOLS, 'import_calendar_malakhit.py'), '--src', work] + scope.args(),
                          'Календарь «Малахита» (import_calendar_malakhit.py)')
-        if {'osite', 'orgeo', 'endreg', 'names'} & set(steps):
+        if {'osite', 'orgeo', 'reskeep', 'endreg', 'names'} & set(steps):
             step_sites(work, scope, steps, a.workers, a.verbose, os.path.join(src, 'starts.js'))
         if 'ogps' in steps:
             cmd = [py, os.path.join(TOOLS, 'fill_ogps.py'), '--src', work, '--apply']

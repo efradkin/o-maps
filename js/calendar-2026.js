@@ -2829,7 +2829,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/55165',
         endReg: '2026-09-25 16:00',
         o_site: '260926S',
-        reskeep: 922,
+        reskeep: 930,
         bulletin: 'https://o-site.spb.ru/_races/260926S/260926S_info.pdf',
         photo: 'https://vk.ru/album-128591100_311992046',
         video: 'https://vk.ru/video-128591100_456239103',
