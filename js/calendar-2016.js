@@ -71,7 +71,7 @@ let events2016 = [
         type: 'SKI',
         coord: [59.278816, 32.380589],
         start: 'LO_CHAMP',
-        reg: 'http://orgeo.ru',
+        reg: 'https://orgeo.ru',
         res: 'https://o-site.spb.ru/_races/16012931/160129_res.htm',
         o_site: '16012931',
         bulletin: 'https://o-site.spb.ru/_races/16012931/16012931_info2.htm'
@@ -256,7 +256,7 @@ let events2016 = [
         name: 'Кубок СПб, Снежная Тропа, 5 этап',
         start: 'SNOW_WAY',
         reg: 'http://o-reg.spb.ru/entry-list?id=570',
-        res: 'http://orgeo.ru/online/2327?s=5',
+        res: 'https://orgeo.ru/online/2327?s=5',
         info: 'Соревнования проводятся 13 марта 2016 года в Отдельном (Нижнем) парке г.Пушкина. Старт и финиш находятся в восточной части парка вблизи прохода под железной дорогой из пос. Тярлево в парк.',
         o_site: '160313_ST',
         map: 'pushkin_nizhny_2019',

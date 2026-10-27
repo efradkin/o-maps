@@ -2344,6 +2344,16 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20261107_2',
+        date: "2026-11-07",
+        name: "Микрогейн",
+        place: "Братцево",
+        type: "ROGAINE",
+        fmt: "рогейн",
+        coord: [55.842697, 37.401472],
+        owner: "MLKHT"
+    },
+    {
         id: 'MSK_20261108_1',
         date: "2026-11-08",
         name: "Московская Осень",

@@ -6722,7 +6722,7 @@ let fsorEvents = [
         date: '2017-11-02',
         name: 'Sochi-2017',
         place: 'Сочи',
-        res: 'http://orgeo.ru/live/#/5494',
+        res: 'https://orgeo.ru/live/#/5494',
         o_site: '171103Sochi',
         o_gps: {
             'М': 3055,
@@ -11873,7 +11873,7 @@ let fsorEvents = [
         fmt: 'многодневный',
         coord: [58.7183, 29.820068],
         link: 'https://t.me/obolt46/196',
-        reg: 'http://orgeo.ru/event/21496',
+        reg: 'https://orgeo.ru/event/21496',
         endReg: '2022-06-03 23:55',
         res: [
             'http://sportident.online/ol/?id=774&g=5',
@@ -14244,7 +14244,7 @@ let fsorEvents = [
             'https://t.me/olga_shmaylova/368',
             'https://t.me/diman_trenit/711'
         ],
-        reg: 'http://orgeo.ru/event/info/33466',
+        reg: 'https://orgeo.ru/event/info/33466',
         endReg: '2024-05-12 23:55',
         res: 'https://o-site.spb.ru/_races/240519_russia/240518_results_.pdf',
         photo: 'http://disk.yandex.ru/d/gauoPfUSaHxVlQ',
@@ -16495,7 +16495,7 @@ let fsorEvents = [
             'https://t.me/kuleshow1/352',
             'https://t.me/maxmishany/319'
         ],
-        res: 'http://orgeo.ru/live/#/51213/14',
+        res: 'https://orgeo.ru/live/#/51213/14',
         photo: [
             'https://vk.com/album-9752432_310905153',
             'https://vk.com/album-9752432_310880126'

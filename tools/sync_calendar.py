@@ -93,6 +93,8 @@ sync_calendar.py — получение и обновление записей �
                 «Даты не совпадают»;
       coord     с о-сайта («Координаты центра соревнований»); с orgeo —
                 только если coord нет;
+  * ссылки http://orgeo.ru пишутся как https://orgeo.ru — и новые, и уже
+    записанные (в записях обрабатываемых дат; «// !» соблюдается);
   * name, place, fmt, type — только заполняются, если их нет (type — если у
     записи нет type, а источник даёт не ORIENT; в calendar-msk-*.js type
     пишется всегда, как в остальных записях Москвы); расхождения — с -v.
@@ -557,7 +559,9 @@ class Scope:
             return list(range(today.year + 1, self.since.year - 1, -1))
         if self.kind == 'years':
             return sorted(self.years, reverse=True)
-        return sorted(set(available) | {today.year, today.year + 1}, reverse=True)
+        # на archive.php нет ссылки на «свой» год (сейчас — 2025): берём все годы подряд
+        first = min([y for y in available if y >= 2000] or [today.year])
+        return list(range(today.year + 1, first - 1, -1))
 
     def args(self):
         """Ключи области для внешних скриптов (fill_ogps — отдельно)."""
@@ -762,6 +766,7 @@ class Rec:
                 self.by[f['key']] = f
                 self.v[f['key']] = parse_value(cfile.text[f['vstart']:f['vend']])
         self.changes, self.log, self.blocked = {}, [], []
+        self.https = []          # позиции «http» в ссылках http://orgeo.ru — заменить на https (https_orgeo)
         self.lock = locked_fields(cfile.text, span, self.flds) if span else set()
         self.rejected = commented_fields(cfile.text, span) if span else {}
         self.new = span is None
@@ -794,6 +799,7 @@ class Rec:
 
     def set(self, k, val, why):
         """Записать новое значение поля; -> True, если оно изменилось."""
+        val = fix_links(val)
         old = self.get(k)
         if same(k, old, val):
             return False
@@ -970,6 +976,38 @@ def locked_fields(t, span, flds):
     return out
 
 
+ORGEO_HTTP = re.compile(r'\bhttp://((?:www\.)?orgeo\.ru)\b', re.I)
+
+
+def fix_links(v):
+    """http://orgeo.ru… -> https://orgeo.ru… (строка или список строк); прочее — как есть.
+    Используется и import_calendar_msk.py / _malakhit.py."""
+    if isinstance(v, str):
+        return ORGEO_HTTP.sub(r'https://\1', v)
+    if isinstance(v, list):
+        return [fix_links(x) for x in v]
+    return v
+
+
+def https_orgeo(cal, scope, rep):
+    """В уже записанных ссылках http://orgeo.ru -> https://orgeo.ru (записи в обрабатываемых
+    датах; поля с «// !» и закомментированные строки не трогаются)."""
+    for r in cal.recs:
+        if r.new or not r.d0 or not scope.hits(r.d0, r.d1) or r.locked('*'):
+            continue
+        t = r.cf.text
+        for f in r.flds:
+            if f['key'] in r.changes or r.locked(f['key']):
+                continue
+            for m in ORGEO_HTTP.finditer(t, f['vstart'], f['vend']):
+                line = t[t.rfind('\n', 0, m.start()) + 1:m.start()]
+                if not re.search(r'(?<!:)//', line):
+                    r.https.append(m.start())
+        if r.https:
+            rep.https += len(r.https)
+            rep.https_recs += 1
+
+
 def patch_record(block, changes, order, nl='\n'):
     """Правка одной записи без её пересборки (комментарии и порядок полей сохраняются).
     block — текст записи от '{' до '}'; changes — {поле: значение в виде JS-текста | None — удалить};
@@ -1112,6 +1150,8 @@ class Calendar:
         edits = []      # (start, end, текст, seq)
         seq = 0
         for r in cfile.recs:
+            for pos in r.https:
+                edits.append((pos, pos + 4, 'https', seq)); seq += 1
             if not r.changes:
                 continue
             removals = [k for k, v in r.changes.items() if v is None and k in r.by]
@@ -1294,6 +1334,9 @@ class OSiteEvent:
         self.regs, self.cands, self.orgeo_refs = [], [], []
         self.recs = []
         self.badyear = None
+        self.yearless = False
+        self.year_src = 'list'   # откуда год для дат без года: list | id | guess (year_hint)
+        self.rec_years = []      # годы записей с этим o_site (для year_hint)
 
     @property
     def series(self):
@@ -1311,6 +1354,21 @@ class OSiteEvent:
     def url(self):
         return OSITE + 'race.php?id=' + urllib.parse.quote(self.id, safe='')
 
+    def year_hint(self):
+        """Год для дат без года, если старта нет в списках по годам (страница загружена по o_site
+        записи): по id «250330_Dlit_1» -> 2025, иначе по дате записи, иначе текущий."""
+        m = re.match(r'(\d{2})(\d{2})(\d{2})(?!\d)', self.id)
+        if m:
+            try:
+                y = dt.date(2000 + int(m.group(1)), int(m.group(2)), int(m.group(3))).year
+                self.year_src = 'id'
+                return y
+            except ValueError:
+                pass
+        self.year_src = 'guess'
+        years = [r.d0.year for r in self.recs if r.d0] + [y for y in self.rec_years]
+        return years[0] if years else dt.date.today().year
+
     def parse(self, page, final, year):
         self.page, self.final = page, final
         title = re.search(r'font-size: 14pt; ">(.*?)</span>', page, re.S)
@@ -1327,6 +1385,8 @@ class OSiteEvent:
                 if dd:
                     self.d0, self.d1 = dd
                     self.datetext = self.datetext or txt
+                    # год не указан («30 марта») — взят из списка или угадан (year_hint)
+                    self.yearless = not re.search(r'\d{4}|\.\d{2}\s*$', txt.strip(' .,'))
                     break
         self.check_year()
         self.place = props.get('Место Проведения') or None
@@ -1586,6 +1646,7 @@ class Report:
         self.verbose = verbose
         self.errors, self.check, self.notnew, self.diffs, self.dates = [], [], [], [], []
         self.ignored = []
+        self.https = self.https_recs = 0
 
     def error(self, s):
         self.errors.append(s)
@@ -1945,7 +2006,11 @@ def merge(cal, osite_events, rep, scope):
                 src, tag = (ev.d0, ev.d1), tag_os
             elif og and not (ev and series) and len(og.recs) == 1 and (og.d1 - og.d0).days < SERIES_DAYS:
                 src, tag = (og.d0, og.d1), tag_og
-            if src and src[0] and src != (r.d0, r.d1):
+            if (src and src[0] and src != (r.d0, r.d1) and tag == tag_os and ev.yearless
+                    and ev.year_src == 'guess' and src[0].year != r.d0.year):
+                rep.dates.append('%s: o-site %s — год на странице не указан, дата не меняется' % (
+                    r.head(), ev.datetext))
+            elif src and src[0] and src != (r.d0, r.d1):
                 if own:
                     r.set('date', src[0].isoformat(), tag)
                     r.set('endDate', src[1].isoformat() if src[1] != src[0] else None, tag)
@@ -2213,6 +2278,8 @@ def step_sites(work, scope, steps, workers, verbose, starts_js):
         for r in in_scope:
             if r.get('o_site') and r.get('o_site') not in osite_events:
                 osite_events[r.get('o_site')] = OSiteEvent(r.get('o_site'))
+            if r.get('o_site') in osite_events and not osite_events[r.get('o_site')].items:
+                osite_events[r.get('o_site')].rec_years.append(r.d0.year)
     if 'orgeo' in steps:
         orgeo_events, alias = orgeo_list(fetcher, scope, rep)
         for r in in_scope:
@@ -2230,7 +2297,7 @@ def step_sites(work, scope, steps, workers, verbose, starts_js):
                 e.error = str(x)
                 rep.error('o-site %s: %s' % (e.id, x))
             else:
-                e.parse(x[0], x[1], e.items[0] if e.items else (e.d0.year if e.d0 else dt.date.today().year))
+                e.parse(x[0], x[1], e.items[0] if e.items else e.year_hint())
                 if not e.name:
                     e.error = 'страницы нет'
                     e.page = None
@@ -2308,10 +2375,11 @@ def step_sites(work, scope, steps, workers, verbose, starts_js):
         for e in orgeo_events.values():
             by_ref.update({ref: e for ref in e.refs})
         end_reg(cal, scope, fetcher, by_ref, workers, rep)
+    https_orgeo(cal, scope, rep)
     print_report(cal, rep)
     changed = []
     for cfile in cal.files.values():
-        if not any(r.changes for r in cfile.recs) and not cfile.new:
+        if not any(r.changes or r.https for r in cfile.recs) and not cfile.new:
             continue
         text = cal.render(cfile)
         if text == cfile.text:
@@ -2334,6 +2402,8 @@ def print_report(cal, rep):
         for k, old, val, why in r.log:
             print('    %-9s %s → %s   [%s]' % (k + ':', short(old) if old is not None else '—',
                                              short(val) if val is not None else '—', why))
+    if rep.https:
+        print('\nhttp://orgeo.ru -> https://orgeo.ru: ссылок %d в %d записях' % (rep.https, rep.https_recs))
     print('\n-- Новые записи (%d) --' % len(new))
     for r in sorted(new, key=lambda r: (r.get('date'), r.id)):
         print('+ ' + r.head() + '   [' + ', '.join(r.src) + ']')

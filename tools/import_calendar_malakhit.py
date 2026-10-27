@@ -74,7 +74,7 @@ from html.parser import HTMLParser
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.dont_write_bytecode = True
 import fill_bulletins as FB                                   # noqa: E402  разбор записей
-from sync_calendar import (Ignored, commented_fields, locked_fields, norm_fmt, rogaine_fmt,  # noqa: E402
+from sync_calendar import (Ignored, commented_fields, fix_links, locked_fields, norm_fmt, rogaine_fmt,  # noqa: E402
                            patch_record, same)              # удалённые записи, «// !», формат, правка на месте
 
 DOC_ID = "1uZyPOj4ksADFaDgNujK6B1QxRRYWYNwrl9r7SY9hJ7k"
@@ -417,6 +417,7 @@ def js_num(x):
 
 
 def js_value(key, val, nl, ind):
+    val = fix_links(val)         # http://orgeo.ru -> https://orgeo.ru
     if key == "id":
         return "'" + val + "'"
     if key == "coord":
