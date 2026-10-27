@@ -2834,7 +2834,7 @@ let events2026 = [
         photo: 'https://vk.ru/album-128591100_311992046',
         video: 'https://vk.ru/video-128591100_456239103',
         publish: 'https://vk.ru/wall-128591100_3329',
-        fmt: 'семейно-командные по выбору',
+        fmt: 'семейно-командные, выбор',
         coord: [60.387852, 30.286667],
         start: 'WEDDING',
         map: 'lembolovo_2024'

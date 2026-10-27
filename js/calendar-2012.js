@@ -197,7 +197,7 @@ let events2012 = [
         name: 'Чемпионат России по лыжному рогейну',
         info: '<a href="https://100x24.ru/2012/docs/100x24_nat.htm">Интервью</a>. Победители: МО: Игорь Клепча, Геннадий Некрасов (Red Fox, СПб) – 286 из 290, 23:30:48; СО: Наталья Абрамова, Андрей Шведов (Garmin-Ориента Ski) – 284; ЖО: Наталия Лукьянец, Наталья Зимина (Blondie) – 187. Команд — 38, участников — 79.',
         type: ['ROGAINE','SKI'],
-        fmt: '24 и 6 часов',
+        fmt: '24, 6',
         start: 'RRC',
         o_site: '12030910',
         rg: {
@@ -306,7 +306,7 @@ let events2012 = [
         id: 'SPB_20120407_1',
         date: '2012-04-07',
         place: 'Невский лесопарк',
-        fmt: 'А - по памяти, В - выбор, Взрослый новичок',
+        fmt: 'А - по памяти, В - выбор, взрослый новичок',
         name: 'Тренировка от Стрекозаек',
         start: 'STREKOZAIKI',
         res: 'http://nat-crusta.livejournal.com/112321.html',
@@ -356,7 +356,7 @@ let events2012 = [
         date: '2012-04-21',
         name: 'Открытое пер-во Калининского р-на, 1 этап. Городской спринт',
         place: 'шк №175',
-        fmt: 'Городской спринт в заданном направлении',
+        fmt: 'городской спринт, заданное направление',
         o_site: '120421',
         bulletin: 'https://o-site.spb.ru/_races/120421/120421_info2.htm'
     },
@@ -546,7 +546,7 @@ let events2012 = [
         date: '2012-05-19',
         place: 'Санкт-Петербург',
         name: 'Бегущий город. День в городе',
-        fmt: '4 и 8 часов бегом, 3 и 6 часов вело, 4 часа на роликах',
+        fmt: '8(6), 4(3)',
         link: 'runcity.org/ru',
         type: 'ROGAINE'
     },
@@ -755,7 +755,7 @@ let events2012 = [
         reg: 'http://100x24.ru/reg.htm',
         res: 'http://100x24.ru/results.htm',
         bulletin: 'http://100x24.ru/2012/docs/20120624_bull.htm',
-        fmt: '3 часа вело',
+        fmt: '3',
         o_site: '120624',
         rg: 'https://rogaine.ru/routegadget/rg2/#63',
         start: '100x24',
@@ -771,7 +771,7 @@ let events2012 = [
         name: 'Приключенческий рогейн Хэппи ХАДЖ',
         place: 'Пальцево',
         type: 'ROGAINE',
-        fmt: '8 и 24 часа',
+        fmt: '24, 8',
         maps: [
             './original_maps/starts/other/paltsevo_happyhudzh_2012_1_omaps.webp',
             './original_maps/starts/other/paltsevo_happyhudzh_2012_2_omaps.webp',
@@ -786,7 +786,7 @@ let events2012 = [
         place: 'пл.78 км Приозерского направления',
         name: '3 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
-        fmt: '3 часа бег/вело',
+        fmt: '3',
         link: 'rogaining.spb.ru',
         o_site: '120708'
     },
@@ -1046,7 +1046,7 @@ let events2012 = [
         date: '2012-09-15',
         place: 'Будогощь',
         name: 'Кубок Ленинградской области, 5 этап Кубка Ассоциации рогейна СПб',
-        fmt: '6 часов бегом',
+        fmt: '6',
         link: 'rogaining.spb.ru',
         type: 'ROGAINE'
     },
@@ -1054,7 +1054,7 @@ let events2012 = [
         id: 'SPB_20120916_1',
         date: '2012-09-16',
         place: 'Лемболово',
-        fmt: 'Классика50',
+        fmt: 'классика50',
         name: 'Открытое п-во КСО Азимут',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/120916_Az/120916_res.htm',
@@ -1237,7 +1237,7 @@ let events2012 = [
         name: 'Вело-О на Велопитере',
         type: 'VELO',
         res: 'http://velopiter.spb.ru/fest12/mtbo-fin.htm',
-        fmt: 'классическая дистанция в заданном направлении',
+        fmt: 'классическая дистанция, заданное направление',
         o_site: '121006'
     },
     {
@@ -1248,7 +1248,7 @@ let events2012 = [
         map: 'zelenogorsk_gk_2009',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/121006GK/121006GK_res.zip',
-        fmt: '3ч и 6ч бегом и на велосипедах',
+        fmt: '6, 3',
         start: 'GORNY_CROSS',
         o_site: '121006GK',
         bulletin: 'https://o-site.spb.ru/_races/121006GK/GK121006_info.pdf'
@@ -1421,7 +1421,7 @@ let events2012 = [
         date: '2012-11-02',
         place: 'Цвелодубово',
         name: '6 этап Кубка Ассоциации рогейна СПб',
-        fmt: '24 часа бегом',
+        fmt: '24',
         link: 'rogaining.spb.ru',
         type: 'ROGAINE'
     },
@@ -1431,7 +1431,7 @@ let events2012 = [
         place: 'Цвелодубово',
         name: 'Кубок СПб по рогейну, 3 часа',
         type: 'ROGAINE',
-        fmt: '3 часа',
+        fmt: '3',
         o_site: '121103'
     },
     {

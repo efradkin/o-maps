@@ -106,7 +106,7 @@ let events2019 = [
         reg: 'http://www.multsport.ru/starts/winter-rogaine-19/registration.html',
         res: 'https://o-site.spb.ru/_races/190126r/190126_res.htm',
         video: 'https://www.youtube.com/watch?v=x6ZLxdS5nEY',
-        fmt: 'Рогейн 4 часа. Лыжи, бег или велосипед.',
+        fmt: '4',
         owner: 'MULTSPORT',
         o_site: '190126r'
     },
@@ -179,7 +179,7 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/ice-trail-2019/registration.html',
         video: 'https://www.youtube.com/watch?v=vHAx6Vjk7GE',
-        fmt: 'Рогейн 6ч (лыжи, бег)',
+        fmt: '6',
         owner: 'MULTSPORT',
         o_site: '190302'
     },
@@ -400,7 +400,7 @@ let events2019 = [
         id: 'SPB_20190421_1',
         date: '2019-04-21',
         place: 'Колпино',
-        fmt: '«Кросс-Выбор» с заданным первым КП',
+        fmt: '«кросс-выбор» с заданным первым КП',
         coord: [59.745975, 30.600752],
         name: 'Первенство Колпино',
         reg: 'https://orgeo.ru/event/9255',
@@ -623,7 +623,7 @@ let events2019 = [
         reg: 'http://clubrevolution.ru/product/klo-2019-3-etap/',
         res: 'https://o-site.spb.ru/_races/190510/190510_res.htm',
         video: 'https://www.youtube.com/watch?v=D_vVA-cHH2s',
-        fmt: '- 4 часа бегом, 3 часа на велосипеде',
+        fmt: '4(3)',
         o_site: '190510',
         bulletin: 'https://o-site.spb.ru/_races/190510/190510_info.pdf'
     },
@@ -738,7 +738,7 @@ let events2019 = [
         ],
         type: ['ROGAINE','WATER'],
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2019/registration.html',
-        fmt: '8ч – Весенний водный рогейн, 16ч – 2-й Чемпионат России по рогейну на байдарках.',
+        fmt: '16, 8',
         start: 'RRC',
         owner: 'MULTSPORT',
         o_site: '19051819',
@@ -1145,7 +1145,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190810/190810_res.pdf',
         video: ['https://www.youtube.com/watch?v=ClYGatKlFqM','https://www.youtube.com/watch?v=6KBvHQtw7YY'],
         info: 'Чемпионат Северо-Западного федерального округа 2019 года по рогейну бегом, 4 этап Кубка Ленинградской области 2019 года по рогейну «На Лужских берегах»',
-        fmt: '6 часов, бег и вело',
+        fmt: '6',
         o_site: '190810'
     },
     {
@@ -1405,7 +1405,7 @@ let events2019 = [
         place: 'Лосево',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/matrasoff-race-2019/registration.html',
-        fmt: 'Рогейн 8ч (велосипед, бег). Мультигонка 14 и 24 часа.',
+        fmt: '8',
         owner: 'MULTSPORT',
         o_site: '19092122'
     },

@@ -79,7 +79,7 @@ let events2020 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/winter-rogaine-20/registration.html',
         video: ['https://www.youtube.com/watch?v=qMmQMfFs87o','https://www.youtube.com/watch?v=aBaXJnM_CNM'],
-        fmt: 'Рогейн 4ч (лыжи, бег, велосипед)',
+        fmt: '4',
         owner: 'MULTSPORT',
         o_site: '200119'
     },
@@ -322,7 +322,7 @@ let events2020 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/ice-trail-2020/registration.html',
         video: 'https://www.youtube.com/watch?v=6uMl1mDAcH0',
-        fmt: 'Рогейн 6ч (бег/лыжи или велосипед)',
+        fmt: '6',
         owner: 'MULTSPORT',
         o_site: '200229r'
     },
@@ -579,7 +579,7 @@ let events2020 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2020/registration.html',
         video: ['https://www.youtube.com/watch?v=A-XZIHinuaw','https://www.youtube.com/watch?v=fW7vxveGSo4'],
-        fmt: 'Рогейн 8ч и 16ч (на байдарках)',
+        fmt: '16, 8',
         owner: 'MULTSPORT',
         o_site: '200516',
         map: 'vuoksa_rogaine_2019',
@@ -1085,7 +1085,7 @@ let events2020 = [
         name: 'History Race',
         res: 'https://o-site.spb.ru/_races/200829/200829_res.htm',
         type: ['ROGAINE','VELO'],
-        fmt: '6 и 12 часов',
+        fmt: '12, 6',
         o_site: '200829'
     },
     {
@@ -1906,7 +1906,7 @@ let events2020 = [
         map: 'zelenogorsk_gk_2009',
         type: 'ROGAINE',
         res: 'http://www.o-site.spb.ru/_races/2020GK/200111R_split.htm',
-        fmt: 'Рогейн; 7 и 3 часа БЕГ; 6 часа ВЕЛО; трейл',
+        fmt: '7(6), 3',
         start: 'GORNY_CROSS',
         o_site: '2020GK',
         strava: 4335235686,
@@ -2218,7 +2218,7 @@ let events2020 = [
         id: 'SPB_20201231_1',
         date: '2020-12-31',
         place: 'Сосновка',
-        fmt: 'Заданное направление',
+        fmt: 'заданное направление',
         name: 'Тренировка FoxTeam',
         reg: 'http://o-reg.spb.ru/entry-list?id=1330',
         o_site: '211231',

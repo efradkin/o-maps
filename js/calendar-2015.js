@@ -6,7 +6,7 @@ let events2015 = [
         region: 'FINLAND',
         name: 'Loppiais Rogaining',
         type: 'ROGAINE',
-        fmt: '8 часов',
+        fmt: '8',
         link: 'http://loppiaisrogaining.wordpress.com/'
     },
     {
@@ -30,7 +30,7 @@ let events2015 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/christmas-rogaine-2015/registration.html',
         res: 'https://o-site.spb.ru/_races/150111/150111_res.htm',
-        fmt: '3 и 5 часов. Способ передвижения - любой (бег, лыжи, велосипед).',
+        fmt: '5, 3',
         owner: 'MULTSPORT',
         o_site: '150111'
     },
@@ -42,7 +42,7 @@ let events2015 = [
         map: 'lembolovo_orekhovo_peski_gk_2026',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/150117/150117_res.pdf',
-        fmt: 'рогейн 5 (6 – по погоде) и 3 часов (БЕГ или НА ЛЫЖАХ по погоде) и 5(6) часов ВЕЛО (по погоде).',
+        fmt: '6, 5, 3',
         start: 'GORNY_CROSS',
         o_site: '150117',
         bulletin: 'https://o-site.spb.ru/_races/150117/150117_info2.pdf'
@@ -95,7 +95,7 @@ let events2015 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=447',
         res: 'https://o-site.spb.ru/_races/150207/150207_res.pdf',
-        fmt: 'Маркированная дистанция с проколами',
+        fmt: 'маркированная дистанция с проколами',
         start: 'VOLKOV_A',
         o_site: '150207',
         bulletin: 'https://o-site.spb.ru/_races/150207/150207_info3.htm',
@@ -273,7 +273,7 @@ let events2015 = [
         region: 'ESTONIA',
         name: 'XT Winter rogaine',
         type: 'ROGAINE',
-        fmt: '4 часа',
+        fmt: '4',
         link: 'http://www.xtsport.ee/'
     },
     {
@@ -470,7 +470,7 @@ let events2015 = [
         start: 'GORNY_CROSS',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/150501R/150501R_res.pdf',
-        fmt: '5 и 2 часа БЕГОМ, 4 часа ВЕЛО',
+        fmt: '5(4), 2',
         o_site: '150501R',
         bulletin: 'https://o-site.spb.ru/_races/150501R/150501R_info.pdf'
     },
@@ -505,7 +505,7 @@ let events2015 = [
         region: 'FINLAND',
         name: 'Salpaus-Rogaining',
         type: 'ROGAINE',
-        fmt: '6 и 12 часов бегом',
+        fmt: '12, 6',
         link: 'http://rogaine.wordpress.com/'
     },
     {
@@ -515,7 +515,7 @@ let events2015 = [
         region: 'LATVIA',
         name: 'Rezekne rogain',
         type: 'ROGAINE',
-        fmt: '6 и 12 часов бегом',
+        fmt: '12, 6',
         link: 'http://rogaining.lv'
     },
     {
@@ -568,7 +568,7 @@ let events2015 = [
         place: 'Всеволожск',
         name: 'Кубок Всеволожского района, 1 этап',
         type: 'ROGAINE',
-        fmt: '4 часа бегом и вело',
+        fmt: '4',
         link: 'http://o-site.spb.ru/news.php',
         map: 'vsevolozhsk_2015'
     },
@@ -897,7 +897,7 @@ let events2015 = [
         name: 'Горный кросс-47',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/150606GK/150606R_res.pdf',
-        fmt: 'рогейн 6 и 24 часа',
+        fmt: '24, 6',
         start: 'GORNY_CROSS',
         o_site: '150606GK',
         bulletin: 'https://o-site.spb.ru/_races/150606GK/GK150606_info2.pdf'
@@ -1053,7 +1053,7 @@ let events2015 = [
         id: 'SPB_20150726_1',
         date: '2015-07-26',
         place: 'Токсово-Рапполово-Охта парк',
-        fmt: '4 часа бегом и вело',
+        fmt: '4',
         name: '2 этап кубка Всеволожского района по рогейну',
         type: 'ROGAINE',
         reg: 'http://www.x-race.info/calendar/54796/request/',
@@ -1071,7 +1071,7 @@ let events2015 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=498',
         res: 'https://o-site.spb.ru/_races/150801/150801_res.htm',
         info: 'Рогейн в мультиспортивном формате. Участникам предлагаются следующие форматы: «MR-6» мультирогейн в формате 6 часов, «MR-3» мультирогейн в формате 3 часа, «Kids 9-11» (дети от 9 до 11 лет), «Kids 12-14» (дети от 12 до 14 лет).',
-        fmt: '6 часов, 3 часа, детский зачёт',
+        fmt: '6, 3',
         o_site: '150801',
         map: 'pervomajskoe_2015'
     },
@@ -1113,7 +1113,7 @@ let events2015 = [
             // 'https://plus.google.com/photos/118168096519803259968/albums/6181414038839235329' // недоступна
         ],
         coord: [60.9526, 29.1303],
-        fmt: '24 (вело); 9 вело и 9 бег («Питер Хэппининг 2015»)'
+        fmt: '24 вело, 9'
     },
     {
         id: 'SPB_20150809_1',
@@ -1301,7 +1301,7 @@ let events2015 = [
         name: 'Горный кросс-48',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/150912R/150912R_res.pdf',
-        fmt: 'бег - 5 и 2 часа, вело - 4 часа',
+        fmt: '5(4), 2',
         start: 'GORNY_CROSS',
         o_site: '150912R',
         bulletin: 'https://o-site.spb.ru/_races/150912R/150912_info.pdf'
@@ -1646,7 +1646,7 @@ let events2015 = [
         place: 'Лемболово-Орехово',
         name: 'Рогейн',
         type: 'ROGAINE',
-        fmt: '6/8 часов бегом и вело',
+        fmt: '8, 6',
         link: 'http://www.multsport.ru/'
     },
     {
@@ -1665,7 +1665,7 @@ let events2015 = [
         place: 'Песочный',
         name: 'Открытое пер-во СДЮСШОР Курортного района, посв.памяти З.В.Пятаковой',
         res: 'https://o-site.spb.ru/_races/151018/151018_res.htm',
-        fmt: 'ВЫБОР 25 мин. с первым заданным КП.',
+        fmt: 'выбор 25 мин. с первым заданным КП.',
         o_site: '151018'
     },
     {
@@ -1797,7 +1797,7 @@ let events2015 = [
         map: 'zelenogorsk_gk_2009',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/151114R/151114R_res.pdf',
-        fmt: 'БЕГ - 7 и 3 часа, ВЕЛО - 6 часов',
+        fmt: '7(6), 3',
         link: 'http://gornycross.narod.ru',
         start: 'GORNY_CROSS',
         o_site: '151114R',
@@ -1969,7 +1969,7 @@ let events2015 = [
         id: 'SPB_20151213_1',
         date: '2015-12-13',
         place: 'Колтуши',
-        fmt: 'Классика',
+        fmt: 'классика',
         name: 'Всеволожская тропа 2015, 5 этап',
         start: 'VSEVOLOZHSK_WAY',
         reg: 'http://o-reg.spb.ru/',

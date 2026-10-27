@@ -37,7 +37,7 @@ let events2018 = [
         place: 'Орехово',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/180113R/180113R_res.pdf',
-        fmt: 'рогейн 3 и 6 часов',
+        fmt: '6, 3',
         o_site: '180113R',
         bulletin: 'https://o-site.spb.ru/_races/180113R/180113R_info.pdf',
         start: 'GORNY_CROSS'
@@ -111,7 +111,7 @@ let events2018 = [
         reg: 'http://www.multsport.ru/starts/winter-rogaine-18/registration.html',
         res: 'http://www.multsport.ru/images/rog1cup18/rezult.htm',
         video: 'https://www.youtube.com/watch?v=IugRLdORzek',
-        fmt: '4 часа, лыжи, бег',
+        fmt: '4',
         owner: 'MULTSPORT',
         o_site: '180127'
     },
@@ -287,7 +287,7 @@ let events2018 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/ice-trail-2018/registration.html',
         res: 'http://www.multsport.ru/starts/ice-trail-2018/results.html',
-        fmt: 'Рогейн 6ч (лыжи, бег)',
+        fmt: '6',
         owner: 'MULTSPORT',
         o_site: '180303',
         map: 'vuoksa_rogaine_2019'
@@ -539,7 +539,7 @@ let events2018 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/180501R/180501R_res.pdf',
         video: 'https://www.youtube.com/watch?v=rEV23hEStHc',
-        fmt: 'рогейн: БЕГОМ 5 и 2 часа, ВЕЛО - 4 часа',
+        fmt: '5(4), 2',
         start: 'GORNY_CROSS',
         o_site: '180501R',
         bulletin: 'https://o-site.spb.ru/_races/180501R/180501R_info.pdf'
@@ -694,7 +694,7 @@ let events2018 = [
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2018/registration.html',
         res: 'http://www.multsport.ru/images/rogCanoe18/rezult.htm',
         video: 'https://www.youtube.com/watch?v=upUBuxtv_gI',
-        fmt: 'Рогейн 8ч и 16ч (на байдарках)',
+        fmt: '16, 8',
         owner: 'MULTSPORT',
         o_site: '18051920',
         map: 'vuoksa_rogaine_2019'
@@ -1165,7 +1165,7 @@ let events2018 = [
             'http://www.multsport.ru/images/rogRus18/rezult.htm',
             'http://www.multsport.ru/images/rogRus18/split.htm'
         ],
-        fmt: 'Рогейн 6ч, Рогейн 18ч. Велосипедный и беговой рогейн.',
+        fmt: '18, 6',
         start: 'RRC',
         owner: 'MULTSPORT',
         o_site: '18081112',
@@ -1374,7 +1374,7 @@ let events2018 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/matrasoff-race-2018/registration.html',
         info: '15-16 сентября в Приозерском районе в окрестностях п.Отрадное будет дан старт 9й ежегодной приключенческой гонке MatrasOFF Race - 2018. Участников ждут зарекомендовавшие себя дисциплины: велоориентирование, классическое спортивное ориентирование, байдарка, пакрафт. Всё это разбавят космоснимок, технические этапы, GPS-задания и велолегенда. А также в рамках мультигонки пройдет 5й этап кубка Ленинградской области по рогейну в формате велосипедного и бегового зачета на 6-8 часов.',
-        fmt: 'Приключенческая годна на 14 и 24 часа. Рогейн 6ч (велосипедный и беговой зачеты).',
+        fmt: '6',
         video: ['https://www.youtube.com/watch?v=Di07maRmpbk','https://www.youtube.com/watch?v=pyRpyqy0JGQ'],
         owner: 'MULTSPORT',
         o_site: '18091516'

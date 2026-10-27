@@ -30,7 +30,7 @@ let events2014 = [
         name: 'Горный кросс-40',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/140111/140111_res.zip',
-        fmt: 'рогейн 6 и 3 часов',
+        fmt: '6, 3',
         start: 'GORNY_CROSS',
         o_site: '140111',
         bulletin: 'https://o-site.spb.ru/_races/140111/GK40-bul-3.doc'
@@ -212,7 +212,7 @@ let events2014 = [
         date: '2014-03-15',
         name: '100х24',
         type: 'ROGAINE',
-        fmt: 'лыжи, 24 и 6 часов',
+        fmt: '24, 6',
         link: 'http://100x24.ru',
         start: '100x24'
     },
@@ -502,7 +502,7 @@ let events2014 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, спринт',
         start: 'SPB_CHAMP',
         res: 'http://spbof.ru/ru/docs/finish/41-leto/253-rezultaty-sprint',
-        fmt: 'Городской спринт',
+        fmt: 'городской спринт',
         o_site: '140517',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#187',
         bulletin: 'https://o-site.spb.ru/_races/140517/140517_info3.htm',
@@ -859,7 +859,7 @@ let events2014 = [
         map: 'lembolovo_orekhovo_peski_gk_2026',
         name: 'Горный кросс-42',
         type: 'ROGAINE',
-        fmt: '3 и 6 часов',
+        fmt: '6, 3',
         link: 'http://gornycross.narod.ru',
         res: 'https://o-site.spb.ru/_races/140719/140719_res.pdf',
         start: 'GORNY_CROSS',
@@ -871,7 +871,7 @@ let events2014 = [
         date: '2014-07-27',
         name: 'Рогейн - 110%',
         type: 'ROGAINE',
-        fmt: '3 часа',
+        fmt: '3',
         start: 'ROGAINE_110'
     },
     {
@@ -903,7 +903,7 @@ let events2014 = [
         type: ['MULTI', 'ROGAINE'],
         res: 'https://o-site.spb.ru/_races/140803/140803_res.htm',
         info: 'Рогейн в мультиспортивном формате. Участникам предлагаются следующие форматы: «MR-6» мультирогейн в формате 6 часов, «MR-3» мультирогейн в формате 3 часа, «Kids 9-11» (дети от 9 до 11 лет), «Kids 12-14» (дети от 12 до 14 лет).',
-        fmt: '6 часов, 3 часа, детский формат',
+        fmt: '6, 3',
         o_site: '140803',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#195',
         map: 'lahdenpohja_rfar_2014'
@@ -966,7 +966,7 @@ let events2014 = [
             'https://web.archive.org/web/20190716104120/https://x-race.info/calendar/19045/regulations/'
         ],
         coord: [60.3198, 29.2972],
-        fmt: '24 (вело); 9 и 3 вело (ЧЛО), 24/9/3 бег (MatrasOFF рогейн)',
+        fmt: '24, 9, 3',
         info: 'Победители: Алексей Пономарёв, Вера Пономарёва (ПЕДАЛЬКИ, СПб) – 257, 23:40:51; 2. Украинцев К., Шемятихин Д. (Дети болот) – 252; 3. Бородулин Ю., Соколов А. (Молодой боец) – 236. Команд — 28, участников — 61.'
     },
     {
@@ -1009,7 +1009,7 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/140906R/140906R_res.pdf',
         o_site: '140906R',
         bulletin: 'https://o-site.spb.ru/_races/140906R/140906R_info.pdf',
-        fmt: '3 и 6 часов',
+        fmt: '6, 3',
         link: 'http://gornycross.narod.ru',
         start: 'GORNY_CROSS'
     },
@@ -1476,7 +1476,7 @@ let events2014 = [
         date: '2014-11-15',
         name: 'Горный кросс-44',
         type: 'ROGAINE',
-        fmt: '3 и 8 часов',
+        fmt: '8, 3',
         link: 'http://gornycross.narod.ru',
         res: 'https://o-site.spb.ru/_races/20141115R/141115_res.pdf',
         start: 'GORNY_CROSS',

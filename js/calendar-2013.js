@@ -226,7 +226,7 @@ let events2013 = [
         name: 'Лыжный рогейн RUSH',
         place: 'Шапки ',
         type: 'ROGAINE',
-        fmt: '3 и 6 часов на лыжах',
+        fmt: '6, 3',
         link: 'https://rush-rogaining.ucoz.ru/',
         o_site: '130302'
     },
@@ -539,7 +539,7 @@ let events2013 = [
         link: 'http://gornycross.narod.ru',
         res: 'https://o-site.spb.ru/_races/130501/130502_res_1.zip',
         info: 'I Чемпионат Северо-Запада России по рогейну «Лужский рубеж» и «Горный кросс-35».',
-        fmt: '6 часов бегом',
+        fmt: '6',
         start: 'GORNY_CROSS',
         o_site: '130501',
         bulletin: 'https://o-site.spb.ru/_races/130501/GK130502_info.pdf'
@@ -854,7 +854,7 @@ let events2013 = [
             'Пути команд (rar, Д. Шемятихин)': 'http://gornycross.narod.ru/spb_ch_r_velo.rar'
         },
         coord: [60.3207, 29.2559],
-        fmt: '24 (вело); 24 бег, 8 вело/бег, 3 вело/бег',
+        fmt: '24, 8, 3',
         info: 'Победители: Илья Строганов, Ольга Лимонова (Garmin, СПб, СО) – 200 (все КП), 16:49:55; МО(МВ): Игорь Бондаренко, Юрий Бородулин; ЖО: Марина Дудичева, Елена Семендяева (Белгородская обл.). Команд — 21, участников — 45.'
     },
     {
@@ -1015,7 +1015,7 @@ let events2013 = [
         type: 'ROGAINE',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/130720/130720_res.pdf',
-        fmt: '3 часа бегом',
+        fmt: '3',
         start: 'ROGAINE_110',
         o_site: '130720',
         bulletin: 'https://o-site.spb.ru/_races/130720/130620_info.pdf'
@@ -1030,7 +1030,7 @@ let events2013 = [
         type: 'ROGAINE',
         reg: 'http://www.x-race.info/calendar/9944/tender/',
         res: 'https://o-site.spb.ru/_races/130720_GK/130720_res_.xls',
-        fmt: '6 и 3 час. бегом; 6 час. вело',
+        fmt: '6, 3',
         start: 'GORNY_CROSS',
         o_site: '130720_GK',
         bulletin: 'https://o-site.spb.ru/_races/130720_GK/130720_info.doc'
@@ -1043,7 +1043,7 @@ let events2013 = [
         type: 'ROGAINE',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/130721/130721_res.xls',
-        fmt: '3 часа бегом',
+        fmt: '3',
         start: 'WN',
         o_site: '130721',
         bulletin: 'https://o-site.spb.ru/_races/130721/130721_info.pdf',
@@ -1067,7 +1067,7 @@ let events2013 = [
         type: ['ROGAINE', 'VELO'],
         reg: 'http://www.piterhappening.ru/entry_happybike2013.html',
         res: 'https://o-site.spb.ru/_races/130811/130810_res.htm',
-        fmt: '8 и 24 часа',
+        fmt: '24, 8',
         o_site: '130811'
     },
     {
@@ -1305,7 +1305,7 @@ let events2013 = [
         start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/130921/130921_mtbo_res.pdf',
-        fmt: 'Велокросс-классика (40-70мин) - код дисциплины 0830241811Я',
+        fmt: 'велокросс-классика (40-70мин) - код дисциплины 0830241811Я',
         o_site: '130921',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#163',
         bulletin: 'https://o-site.spb.ru/_races/130921/130921_info2.htm'
@@ -1381,7 +1381,7 @@ let events2013 = [
         place: 'Кузьмолово',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/130927/130927_res.htm',
-        fmt: 'Двухэтапная эстафета в заданном направлении',
+        fmt: 'эстафета 2х, заданное направление',
         start: 'ROGAINE_110',
         o_site: '130927',
         bulletin: 'https://o-site.spb.ru/_races/130927/130927_info.pdf'
@@ -1404,7 +1404,7 @@ let events2013 = [
         name: 'Золотые кольца',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/130928_ZK/130928_res.htm',
-        fmt: 'Эстафеты по выбору',
+        fmt: 'эстафеты-выбор',
         start: 'WEDDING',
         o_site: '130928_ZK'
     },
@@ -1531,7 +1531,7 @@ let events2013 = [
         name: 'Горный кросс-38',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/131019/131019gk_res.zip',
-        fmt: '3 и 6 часов бегом и вело',
+        fmt: '6, 3',
         start: 'GORNY_CROSS',
         o_site: '131019',
         bulletin: 'https://o-site.spb.ru/_races/131019/131019_info3a.doc'
@@ -1764,7 +1764,7 @@ let events2013 = [
         reg: 'http://rogaining.spb.ru/index.php?option=com_wrapper&view=wrapper&Itemid=375',
         res: 'http://o-time.ru/images/all/w13/rgn281213.htm',
         video: 'https://www.youtube.com/watch?v=vbJUaW_ZpAc',
-        fmt: 'Рогейн 1 час',
+        fmt: '1',
         o_site: '131228R',
         maps: [
             'http://o-time.ru/images/all/w13/rgn281213.jpg'

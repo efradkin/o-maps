@@ -535,7 +535,7 @@ let events2016 = [
         place: 'Луга, Шалово',
         map: 'luga_omchino_gk_2023',
         type: 'ROGAINE',
-        fmt: '6 и 3 час., бег и вело',
+        fmt: '6, 3',
         link: 'http://gornycross.narod.ru',
         res: 'https://o-site.spb.ru/_races/160501R/160501R_res.pdf',
         video: 'https://www.youtube.com/watch?v=i8o4hl-1sBA',
@@ -616,7 +616,7 @@ let events2016 = [
         type: 'ROGAINE',
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-rogeynu/kvr-2016-vtoroy-etap',
         res: 'https://o-site.spb.ru/_races/160514/160514_res.htm',
-        fmt: '4 часа бегом и 4 часа на велосипеде.',
+        fmt: '4',
         o_site: '160514',
         bulletin: 'https://o-site.spb.ru/_races/160514/160514_info2.pdf'
     },
@@ -746,7 +746,7 @@ let events2016 = [
         place: 'оз Вуокса',
         name: 'Весенний водный рогейн',
         type: 'ROGAINE',
-        fmt: '8 и 16(18) часов, байдарка',
+        fmt: '18, 16, 8',
         link: 'http://www.multsport.ru',
         map: 'vuoksa_rogaine_2019',
         owner: 'MULTSPORT'
@@ -805,7 +805,7 @@ let events2016 = [
         place: 'Кузнечное',
         map: 'kuznechnoe_2009',
         type: 'ROGAINE',
-        fmt: '24, 8 и 3 час., бег',
+        fmt: '24, 8, 3',
         link: 'http://gornycross.narod.ru',
         res: 'https://o-site.spb.ru/_races/260528R/160528R_res.pdf',
         video: 'https://www.youtube.com/watch?v=IjY_bhTJSgI',
@@ -1055,7 +1055,7 @@ let events2016 = [
         name: 'Велорогейн «100 за 24» - 3 этап кубка Всеволожского района',
         start: '100x24',
         type: 'ROGAINE',
-        fmt: '3-4 часа вело',
+        fmt: '3-4',
         link: 'http://gornycross.narod.ru'
     },
     {
@@ -1104,7 +1104,7 @@ let events2016 = [
         photo: 'http://new.vk.com/album-33130354_234334134',
         video: ['https://www.youtube.com/watch?v=E11GBoQ_QXE','https://www.youtube.com/watch?v=Y7DoWN7Uz_A'],
         info: 'Рогейн в мультиспортивном формате. Участникам предлагаются следующие форматы: «MR-4» мультирогейн в формате 4 часа, «MR-2» мультирогейн в формате 2 часа, «Kids 9-11» (дети от 9 до 11 лет), «Kids 12-14» (дети от 12 до 14 лет).',
-        fmt: 'рогейн 4 часа, 2 часа, детский зачёт',
+        fmt: '4, 2',
         o_site: '160731',
         map: 'pitkaranta_rfar_2016'
     },
@@ -1139,7 +1139,7 @@ let events2016 = [
         name: 'MatrasOFF Race',
         type: ['MULTI', 'ROGAINE'],
         reg: 'http://www.multsport.ru/starts/matrasoff-race-2016/registration.html',
-        fmt: 'Приключенческая гонка 18 и 24ч. Беговой и Велосипедный рогейн 8ч.',
+        fmt: '8',
         owner: 'MULTSPORT',
         o_site: '160807'
     },
@@ -1149,7 +1149,7 @@ let events2016 = [
         place: 'Токсово',
         name: '4 этап Кубка Всеволожского района',
         type: 'ROGAINE',
-        fmt: '3-4 часа бег, вело',
+        fmt: '3-4',
         link: 'www.multsport.ru'
     },
     {
@@ -1793,7 +1793,7 @@ let events2016 = [
         map: 'zelenogorsk_gk_2009',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/161112R/161112R_res-1.pdf',
-        fmt: '7/3 часа БЕГ, 6 часов ВЕЛО',
+        fmt: '7(6), 3',
         link: 'http://gornycross.narod.ru',
         video: 'https://www.youtube.com/watch?v=3v-7bAmZ-mA',
         start: 'GORNY_CROSS',

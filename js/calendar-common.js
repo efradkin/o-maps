@@ -221,7 +221,7 @@ let commonEvents = [
         name: 'Открытый чемпионат Перми по рогейну',
         type: 'ROGAINE',
         coord: [58.0105, 56.2502],
-        fmt: '24 часа',
+        fmt: '24',
         info: 'Первый рогейн в России, 12 команд. Организатор — Г.Н. Шестаков.',
         link: 'https://rogaining.ru/rogaine/rogaining-history/russian-rogaining'
     },
@@ -2434,7 +2434,7 @@ let commonEvents = [
         place: 'Красноярский край',
         name: '12-й Чемпионат России по рогейну',
         type: 'ROGAINE',
-        fmt: '24 часа бегом',
+        fmt: '24',
         start: 'RRC',
         link: [
             'http://kras-rogaining.ru/',

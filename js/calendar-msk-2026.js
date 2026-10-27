@@ -1975,10 +1975,7 @@ let mskEvents2026 = [
         place: "Филевский парк",
         type: "ORIENT",
         fmt: "классическая дистанция",
-        coord: [
-            55.750462,
-            37.491646
-        ],
+        coord: [55.750462, 37.491646],
         link: "https://docs.google.com/document/d/1IP48LPI_TArSETd_KRuwzhDELkKYb7dUUahT7NtcxSQ/edit?usp=sharing",
         reg: "https://buyrun.ru/event/152",
         res: "https://orgeo.ru/files/event/file/55235_e07d9b2205.xls",

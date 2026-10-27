@@ -21,7 +21,7 @@ let events2005 = [
         name: 'Рождественские Старты',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/050109/results.zip',
-        fmt: 'дистанция в заданном направлении',
+        fmt: 'заданное направление',
         owner: 'NW',
         o_site: '050109'
     },
@@ -49,7 +49,7 @@ let events2005 = [
         name: 'Кубок СПб. Маркир',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/050130/spb_cup.zip',
-        fmt: 'Маркир',
+        fmt: 'маркир',
         o_site: '050130'
     },
     {
@@ -77,7 +77,7 @@ let events2005 = [
         place: 'Кузьмолово',
         name: 'Пер-во клуба Гольфстрим. Выбор',
         type: 'SKI',
-        fmt: 'Выбор',
+        fmt: 'выбор',
         owner: 'GOLFSTREAM',
         o_site: '050223'
     },
@@ -98,7 +98,7 @@ let events2005 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/050306/050306.htm',
-        fmt: 'Маркир',
+        fmt: 'маркир',
         o_site: '050306'
     },
     {
@@ -411,7 +411,7 @@ let events2005 = [
         id: 'SPB_20050702_1',
         date: '2005-07-02',
         place: 'Токсово',
-        fmt: '2-х этапные эстафеты',
+        fmt: 'эстафеты 2х',
         name: 'Чемпионат и первенство MTBO SPb Club',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/050702/Results.htm',
@@ -463,7 +463,7 @@ let events2005 = [
         map: 'lembolovo_orekhovo_peski_gk_2026',
         name: 'Горный кросс-3',
         type: 'ROGAINE',
-        fmt: '3 часа',
+        fmt: '3',
         info: 'Первый рогейн серии «Горный кросс».',
         res: 'https://o-site.spb.ru/_races/050724_gk/050724_res.zip',
         start: 'GORNY_CROSS',
@@ -586,7 +586,7 @@ let events2005 = [
         id: 'SPB_20050925_1',
         date: '2005-09-25',
         place: 'Токсово, Охта-парк',
-        fmt: 'по выбору',
+        fmt: 'выбор',
         name: 'Кубок СДЮШОР №2, Чемпионат ВУЗов',
         o_site: '050925'
     },
@@ -620,7 +620,7 @@ let events2005 = [
         id: 'SPB_20051002_2',
         date: '2005-10-02',
         place: 'Можайская',
-        fmt: 'средняя дистанция в заданном направлении',
+        fmt: 'средняя дистанция, заданное направление',
         name: 'МТБО Закрытие сезона 2005',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/051002_MTB/Zakritie2005rez.htm',
@@ -737,7 +737,7 @@ let events2005 = [
         map: 'lembolovo_orekhovo_peski_gk_2026',
         name: 'Горный кросс-4',
         type: 'ROGAINE',
-        fmt: '24, 8 и 3 часа',
+        fmt: '24, 8, 3',
         info: 'I открытый Кубок Санкт-Петербурга по рогейну, около 150 участников. Победители в формате 24 часа — команда «Лучик» (С. Ященко, С. Юткин, Москва).',
         res: ['http://gornycross.narod.ru/rez-gk4-24h.htm','http://gornycross.narod.ru/rez-gk4-8h.htm','http://gornycross.narod.ru/rez-gk4-3h.htm'],
         start: 'GORNY_CROSS',

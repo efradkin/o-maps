@@ -250,7 +250,7 @@ let events2017 = [
         name: 'Рогейн - Ice Trail 2017',
         video: 'https://www.youtube.com/watch?v=VitW_vpUA6k',
         type: 'ROGAINE',
-        fmt: '6ч и 24ч',
+        fmt: '24, 6',
         o_site: '170304',
         map: 'vuoksa_rogaine_2019',
         owner: 'MULTSPORT'
@@ -872,7 +872,7 @@ let events2017 = [
         place: 'оз Вуокса',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2017/registration.html',
-        fmt: 'Рогейн 8ч, рогейн 16ч.',
+        fmt: '16, 8',
         owner: 'MULTSPORT',
         o_site: '17052021',
         map: 'vuoksa_rogaine_2019'
@@ -994,7 +994,7 @@ let events2017 = [
         name: 'Горный кросс-56',
         start: 'GORNY_CROSS',
         res: 'https://o-site.spb.ru/_races/170527R/170527R_res.pdf',
-        fmt: 'рогейн БЕГ - 24 и 6ч, ВЕЛО - 5ч, кросс-трейл - 38 и 17км',
+        fmt: '24, 6(5)',
         o_site: '170527R',
         type: 'ROGAINE',
         bulletin: 'https://o-site.spb.ru/_races/170527R/170527R_info.pdf'
@@ -1100,7 +1100,7 @@ let events2017 = [
         place: 'Моторное',
         type: 'ROGAINE',
         reg: 'http://docs.google.com/forms/d/e/1FAIpQLSd87dXZOK0xfe9U_oNFflJBXp19lGBYW-7nurB-ms8IK3jOkQ/viewform?c=0&w=1',
-        fmt: 'Велосипедный рогейн 4 и 6ч.',
+        fmt: '6, 4',
         o_site: '170610'
     },
     {
@@ -1249,7 +1249,7 @@ let events2017 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/170715R/170715R_res.pdf',
         video: 'https://www.youtube.com/watch?v=YoR_-JyNeZ8',
-        fmt: '6 и 3 часа - бег, 5 часов - вело',
+        fmt: '6(5), 3',
         o_site: '170715R',
         bulletin: 'https://o-site.spb.ru/_races/170715R/170715_info.pdf'
     },
@@ -1433,7 +1433,7 @@ let events2017 = [
         type: ['MULTI', 'ROGAINE'],
         reg: 'http://x-race.info/calendar/102909/request/',
         info: 'приключенческая гонка MatrasOFF Race - 2017 кубок Всеволожского района по рогейну, 4 этап',
-        fmt: 'Рогейн 6ч (бег, вело), приключенческая гонка (Hard, Lite)',
+        fmt: '6',
         video: ['https://www.youtube.com/watch?v=Lj6GA633Unc','https://www.youtube.com/watch?v=WOrC7Rqguho'],
         o_site: '170909',
         owner: 'MULTSPORT'
@@ -1663,7 +1663,7 @@ let events2017 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/170930R/170930R_res.pdf',
         video: ['https://www.youtube.com/watch?v=lqzh1Dt053Q','https://www.youtube.com/watch?v=IKtfaaqNDSg'],
-        fmt: 'рогейн: бегом 5 и 2 часа, вело - 4 часа',
+        fmt: '5(4), 2',
         o_site: '170930R',
         bulletin: 'https://o-site.spb.ru/_races/170930R/170930R_info.pdf'
     },
@@ -2037,7 +2037,7 @@ let events2017 = [
         place: 'Зеленогорск',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/171118R/171118R_res.pdf',
-        fmt: '7 и 3 часа - бег, 6 часов - вело',
+        fmt: '7(6), 3',
         o_site: '171118R',
         bulletin: 'https://o-site.spb.ru/_races/171118R/171118R_info.pdf'
     },

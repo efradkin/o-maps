@@ -114,7 +114,7 @@ let events2011 = [
         place: 'Кузьмоловский',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/110213/110213_res.htm',
-        fmt: 'спринт в заданном направлении',
+        fmt: 'спринт, заданное направление',
         o_site: '110213',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#66',
         bulletin: 'https://o-site.spb.ru/_races/110213/110213_info3.htm'
@@ -141,7 +141,7 @@ let events2011 = [
         name: 'Открытое пер-во ВИФК',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/110223/110223_res.htm',
-        fmt: 'масс-старт в заданном направлении на лыжах.',
+        fmt: 'масс-старт, заданное направление на лыжах.',
         o_site: '110223',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#67',
         bulletin: 'https://o-site.spb.ru/_races/110223/100223_info3.htm',
@@ -513,7 +513,7 @@ let events2011 = [
         place: 'Санкт-Петербург',
         name: '"Бегущий город. День в Городе"',
         type: 'ROGAINE',
-        fmt: '8 и 4 часа',
+        fmt: '8, 4',
         link: 'http://runcity.org/ru'
     },
     {
@@ -579,7 +579,7 @@ let events2011 = [
         name: 'Горный кросс-26',
         type: 'ROGAINE',
         info: 'Кубок главы администрации Петроградского района по ориентированию «100 км за 24 часа» рогейн «Горный кросс-26»',
-        fmt: '24 часа и 6 часов',
+        fmt: '24, 6',
         start: 'GORNY_CROSS',
         o_site: '110529_rog',
         bulletin: 'https://o-site.spb.ru/_races/110529_rog/110528_info.htm'
@@ -729,7 +729,7 @@ let events2011 = [
         start: 'LO_CHAMP',
         place: 'Первомайское',
         type: 'ROGAINE',
-        fmt: '6 часов (+ 3 часа)',
+        fmt: '6, 3',
         link: 'http://rogaining.spb.ru',
         o_site: '110709',
         rg: {
@@ -820,7 +820,7 @@ let events2011 = [
         place: 'Кузьмолово',
         name: 'Рогейн 110%',
         type: 'ROGAINE',
-        fmt: '3 часа',
+        fmt: '3',
         start: 'ROGAINE_110'
     },
     {

@@ -15,7 +15,7 @@ let events2010 = [
         date: '2010-01-17',
         name: 'На призы газеты Всеволожские Вести',
         place: 'Кузьмоловский',
-        fmt: 'Маркир',
+        fmt: 'маркир',
         publish: 'https://o-site.spb.ru/race.php?id=100117_vv',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/100117_vv/100117_res.htm',
@@ -263,7 +263,7 @@ let events2010 = [
         id: 'SPB_20100314_1',
         date: '2010-03-14',
         place: 'Павловский парк',
-        fmt: 'Ориентирование по выбору',
+        fmt: 'выбор',
         name: 'Снежная Тропа, 2 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/100315/100314_res.pdf',
@@ -327,7 +327,7 @@ let events2010 = [
         map: 'lembolovo_orekhovo_peski_gk_2026',
         name: 'Горный кросс-19',
         type: ['ROGAINE','SKI'],
-        fmt: 'рогейн на лыжах, 8 и 3 часа',
+        fmt: '8, 3',
         start: 'GORNY_CROSS',
         o_site: '100410',
         bulletin: 'https://o-site.spb.ru/_races/100410/100410_info.htm'
@@ -415,7 +415,7 @@ let events2010 = [
         name: 'Соревнования, посвящённые Дню Победы',
         res: 'https://o-site.spb.ru/_races/100508_Az/100508_res.htm',
         info: 'Соревнования, посвящённые 65-й годовщине Победы Открытое п-во СДЮСШОР Курортного р-на, посв. Дню Победы',
-        fmt: 'Классика40',
+        fmt: 'классика40',
         o_site: '100508_Az',
         map: 'pukhtolova_gora_2009',
         owner: 'AZIMUT'
@@ -470,7 +470,7 @@ let events2010 = [
         place: 'Всеволожск',
         name: 'Российский Азимут ЛО',
         res: 'https://o-site.spb.ru/_races/10RA_LO/10RA_LO_split.htm',
-        fmt: 'дистанция по выбору',
+        fmt: 'выбор',
         owner: 'SFSO_LO',
         o_site: '10RA_LO',
         map: 'vsevolozhsk_2010'
@@ -482,7 +482,7 @@ let events2010 = [
         name: 'Спринт Кубок по Рогейну, 2 этап',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/100403/100516_res.htm',
-        fmt: '3 часа',
+        fmt: '3',
         o_site: '100403'
     },
     {
@@ -567,7 +567,7 @@ let events2010 = [
         name: 'Рогейн «100 за 24»',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/10052930/10052930_res.zip',
-        fmt: '3, 6 и 24 часа',
+        fmt: '24, 6, 3',
         info: '«Горный кросс-20».',
         start: ['100x24','GORNY_CROSS'],
         o_site: '10052930'
@@ -733,7 +733,7 @@ let events2010 = [
         start: 'LO_CHAMP',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/100710/100710_res.htm',
-        fmt: '3 часа',
+        fmt: '3',
         o_site: '100710',
         bulletin: 'https://o-site.spb.ru/_races/100710/100710_info.htm'
     },
@@ -867,7 +867,7 @@ let events2010 = [
         name: 'Горный кросс-22',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/100911/100911_res.xls',
-        fmt: '3 и 6 часов',
+        fmt: '6, 3',
         start: 'GORNY_CROSS',
         o_site: '100911',
         bulletin: 'https://o-site.spb.ru/_races/100911/100911_info.htm',
@@ -1204,7 +1204,7 @@ let events2010 = [
         type: 'ROGAINE',
         res: 'http://rogaining.spb.ru/index.php?option=com_content&task=view&id=62&Itemid=122',
         info: '2 этап Большого Кубка и 3 этап Вело-Кубка. Открытый Чемпионат Санкт-Петерурга по классическому рогейну (24 часа).',
-        fmt: 'Форматы 24, 8 и 3 часа; 8-ВЕЛО',
+        fmt: '24, 8, 3',
         o_site: '10110506',
         rg: 'https://rogaine.ru/routegadget/rg2/#46',
         map: 'nazia_rogaine_2010'
@@ -1237,7 +1237,7 @@ let events2010 = [
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/101121/101121_res1.htm',
         info: '21 ноября 2010 г. - 1 этап 12 декабря 2010 г. - 2 этап',
-        fmt: 'ориентирование по выбору',
+        fmt: 'выбор',
         o_site: '101121',
         bulletin: 'https://o-site.spb.ru/_races/101121/101121_info3.htm',
         map: 'piskarevsky_1996'

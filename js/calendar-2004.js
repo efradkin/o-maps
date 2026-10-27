@@ -191,7 +191,7 @@ let events2004 = [
         start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/040815/ChempSPbMTBO-klas2.htm',
-        fmt: 'Соревнования в заданном направлении, классическая дистанция',
+        fmt: 'заданное направление, классическая дистанция',
         o_site: '040815'
     },
     {
@@ -224,7 +224,7 @@ let events2004 = [
         name: 'Фестиваль ВЕЛОПИТЕР-2004',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/040919/mtb-o_VeloPiter.zip',
-        fmt: 'ориентирование по выбору',
+        fmt: 'выбор',
         o_site: '040919'
     },
     {

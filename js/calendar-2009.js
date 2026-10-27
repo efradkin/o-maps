@@ -23,7 +23,7 @@ let events2009 = [
         id: 'SPB_20090118_1',
         date: '2009-01-18',
         place: 'Кузьмоловский',
-        fmt: 'Маркированная трасса, раздельный старт',
+        fmt: 'маркированная трасса, раздельный старт',
         name: 'На приз газеты Всеволожские Вести',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/090118_vesti/090118_res.htm',
@@ -45,7 +45,7 @@ let events2009 = [
         id: 'SPB_20090125_1',
         date: '2009-01-25',
         place: 'Александрино',
-        fmt: 'Ориентирование в заданном направлении',
+        fmt: 'заданное направление',
         name: 'Снежная Тропа, 3 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/090125/090125_res.pdf',
@@ -234,7 +234,7 @@ let events2009 = [
         name: '2 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/090314/090314_res3.htm',
-        fmt: '3 и 8 часов',
+        fmt: '8, 3',
         o_site: '090314',
         rg: 'https://rogaine.ru/routegadget/rg2/#29',
         bulletin: 'https://o-site.spb.ru/_races/090314/090314_info.htm'
@@ -375,7 +375,7 @@ let events2009 = [
         name: 'Соревнования по вело-О, посвящённые Дню Победы',
         type: 'VELO',
         res: 'http://o-time.ru/content/view/388/28/',
-        fmt: 'Заданное направление, масс-старт',
+        fmt: 'заданное направление, масс-старт',
         o_site: '090509_mtb',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#16',
         owner: 'AZIMUT'
@@ -398,7 +398,7 @@ let events2009 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/090511/090511_res.htm',
         info: 'Открытое первенство СДЮСШОР Курортного р-на им. В. Коренькова по вело-ориентированию (Открытие Сезона)',
-        fmt: 'Заданное направление (средняя дистанция)',
+        fmt: 'заданное направление (средняя дистанция)',
         o_site: '090511',
         bulletin: 'https://o-site.spb.ru/_races/090511/090511_info2.htm'
     },
@@ -751,7 +751,7 @@ let events2009 = [
         place: 'Кузнечное',
         name: 'Рогейн After-party',
         type: 'ROGAINE',
-        fmt: '3 ч.',
+        fmt: '3',
         o_site: '090629',
         bulletin: 'https://o-site.spb.ru/_races/090629/090629_info.htm'
     },
@@ -802,7 +802,7 @@ let events2009 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/090718/090718_res.htm',
         info: 'Рогейн в формате 3 часа бегом',
-        fmt: '3 часа бегом',
+        fmt: '3',
         start: 'GORNY_CROSS',
         o_site: '090718'
     },
@@ -1126,7 +1126,7 @@ let events2009 = [
         place: 'Пасторское и Медное оз',
         name: '9 этап Кубка СПб по рогейну',
         type: 'ROGAINE',
-        fmt: '3 часа бегом и 3 часа ВЕЛО',
+        fmt: '3',
         o_site: '091017'
     },
     {
@@ -1298,7 +1298,7 @@ let events2009 = [
         date: '2009-11-22',
         name: 'Маркир-110',
         place: 'Кузьмоловский',
-        fmt: 'Маркир',
+        fmt: 'маркир',
         res: 'https://o-site.spb.ru/_races/091122_mark/091122_res.htm',
         start: 'ROGAINE_110',
         o_site: '091122_mark',
@@ -1326,7 +1326,7 @@ let events2009 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/091128/091128_res.htm',
         info: 'Рогейн в форматах 3 и 8 часов',
-        fmt: '3 и 8 часов бегом',
+        fmt: '8, 3',
         start: 'GORNY_CROSS',
         o_site: '091128',
         bulletin: 'https://o-site.spb.ru/_races/091128/091128_info2.htm',
@@ -1409,7 +1409,7 @@ let events2009 = [
         place: 'Токсово',
         name: 'Новогодний рогейн',
         type: 'ROGAINE',
-        fmt: '3 часа',
+        fmt: '3',
         o_site: '091226',
         bulletin: 'https://o-site.spb.ru/_races/091226/091226_info.htm'
     },
