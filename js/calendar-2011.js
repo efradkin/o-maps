@@ -52,6 +52,7 @@ let events2011 = [
         date: '2011-01-22',
         endDate: '2011-01-23',
         place: 'Кузьмоловский',
+        fmt: 'спринт и длинная',
         name: 'Чемпионат и Первенство Ленинградской области',
         type: 'SKI',
         start: 'LO_CHAMP',
@@ -233,7 +234,6 @@ let events2011 = [
         date: '2011-03-27',
         name: 'Ориентир-1',
         res: 'http://o-site.spb.ru/_races/110327_Or/110327_res.xls',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '110327_Or',
         bulletin: 'https://o-site.spb.ru/_races/110327_Or/111120_info.htm'
@@ -300,7 +300,6 @@ let events2011 = [
         date: '2011-04-20',
         name: 'Ориентир-2',
         res: 'http://o-site.spb.ru/_races/110327_Or/110420_res.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '110327_Or',
         bulletin: 'https://o-site.spb.ru/_races/110327_Or/111120_info.htm'
@@ -354,7 +353,6 @@ let events2011 = [
         date: '2011-05-04',
         name: 'Ориентир-3',
         res: 'http://o-site.spb.ru/_races/110327_Or/110504_res.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '110327_Or',
         bulletin: 'https://o-site.spb.ru/_races/110327_Or/111120_info.htm'
@@ -393,7 +391,6 @@ let events2011 = [
         date: '2011-05-11',
         name: 'Ориентир-4',
         res: 'http://o-site.spb.ru/_races/110327_Or/110511_split.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '110327_Or',
         bulletin: 'https://o-site.spb.ru/_races/110327_Or/111120_info.htm'
@@ -429,7 +426,6 @@ let events2011 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2011-1.php',
         map: 'otradnoe_ba_2011',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_1.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_2.jpg',
@@ -502,6 +498,7 @@ let events2011 = [
         id: 'SPB_20110521_1',
         date: '2011-05-21',
         place: 'оз Пасторское',
+        fmt: 'велокросс-классика (40-70 мин)',
         name: 'Чемпионат и первенство ЛенОбласти, вело',
         start: 'LO_CHAMP',
         type: 'VELO',
@@ -694,7 +691,6 @@ let events2011 = [
         place: 'Ягодное',
         name: 'Фестиваль «Белые Ночи-2011»',
         res: 'https://o-site.spb.ru/_races/11061419/11061419_res.zip',
-        owner: 'WN',
         start: ['WN','YM'],
         o_site: '11061419',
         bulletin: 'https://o-site.spb.ru/_races/11061419/11061419_info.pdf',
@@ -784,7 +780,6 @@ let events2011 = [
         date: '2011-07-24',
         name: 'Ориентир-6',
         res: 'http://o-site.spb.ru/_races/110327_Or/110724_split.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '110327_Or',
         bulletin: 'https://o-site.spb.ru/_races/110327_Or/111120_info.htm'
@@ -795,7 +790,6 @@ let events2011 = [
         name: 'Ориентир-7',
         start: 'ORIENTIR',
         res: 'http://o-site.spb.ru/_races/110327_Or/110731_split.htm',
-        owner: 'AZIMUT',
         o_site: '110327_Or',
         bulletin: 'https://o-site.spb.ru/_races/110327_Or/111120_info.htm'
     },
@@ -862,7 +856,6 @@ let events2011 = [
         date: '2011-08-31',
         name: 'Ориентир-8',
         res: 'http://o-site.spb.ru/_races/110327_Or/110831_split.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '110327_Or',
         bulletin: 'https://o-site.spb.ru/_races/110327_Or/111120_info.htm'
@@ -892,7 +885,6 @@ let events2011 = [
         date: '2011-09-07',
         name: 'Ориентир-9',
         res: 'http://o-site.spb.ru/_races/110327_Or/110907_split.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '110327_Or',
         bulletin: 'https://o-site.spb.ru/_races/110327_Or/111120_info.htm'
@@ -1036,7 +1028,6 @@ let events2011 = [
         photo: 'https://vk.com/album-30311715_142817495',
         map: 'roschino_ba_2011',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2011-2/map_bal11_1.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2011-2/map_bal11_2.jpg'
@@ -1086,6 +1077,7 @@ let events2011 = [
     {
         id: 'SPB_20111008_1',
         date: '2011-10-08',
+        // endDate: '2011-10-09',
         place: 'Лемболово',
         name: 'Ночные соревнования памяти Анатолия Окинчица',
         res: 'https://o-site.spb.ru/_races/111009/111009_res.pdf',
@@ -1255,6 +1247,7 @@ let events2011 = [
         id: 'SPB_20111113_1',
         date: '2011-11-13',
         place: 'Кузьмоловский',
+        fmt: 'комбинированная',
         name: 'Открытое Первенство п. Кузьмоловский',
         res: 'https://o-site.spb.ru/_races/111113/111113_res2.PDF',
         owner: 'SFSO_LO',
@@ -1291,8 +1284,7 @@ let events2011 = [
         o_site: '110327_Or',
         bulletin: 'https://o-site.spb.ru/_races/110327_Or/111120_info.htm',
         map: 'sosnovka_2011',
-        start: 'ORIENTIR',
-        owner: 'AZIMUT'
+        start: 'ORIENTIR'
     },
     {
         id: 'SPB_20111126_1',
@@ -1327,7 +1319,6 @@ let events2011 = [
         info: 'Победителям в группах МА-МD и ЖА-ЖD по ящику мандаринов!!!',
         video: ['http://online47.ru/a/2011/12/05/Den_viborov_beg_po_zada/','https://www.youtube.com/watch?v=6YXzC1e426s'],
         map: 'zelenogorsk_schuchye_2020',
-        owner: 'WN',
         start: 'WN',
         o_site: '111204',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#92'

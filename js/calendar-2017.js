@@ -1,7 +1,8 @@
 let events2017 = [
     {
         id: 'SPB_20170108_1',
-        date: '2017-01-08',
+        date: '2017-01-07',
+        endDate: '2017-01-08',
         place: 'Цвелодубово, ДОЛ Голубое озеро',
         name: 'Рождественские старты - 2017',
         res: 'https://o-site.spb.ru/_races/170107_08/170107_res.htm',
@@ -16,10 +17,11 @@ let events2017 = [
     },
     {
         id: 'SPB_20170110_1',
-        date: '2017-01-10',
+        date: '2017-01-03',
+        endDate: '2017-01-10',
         place: 'Цвелодубово',
         name: 'Зимний сбор в Цвелодубово-2017',
-        type: 'VELO',
+        type: 'SKI', // !
         reg: 'http://sportident.ru/entry/event_info.php?id=1898',
         info: 'Зимний сбор в Цвелодубово-2017',
         o_site: '170103_sbor',
@@ -66,6 +68,7 @@ let events2017 = [
         date: '2017-01-21',
         endDate: '2017-01-22',
         place: 'Орехово, б/о ПАН',
+        fmt: '22.01 - "лыжная гонка-классика"',
         name: 'Спартакиада учащихся России - Санкт-Петербург',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170121-22_SP/170121_res.htm',
@@ -81,9 +84,12 @@ let events2017 = [
         name: 'Чемпионат и первенство ЛО; зимний GRAND PRIX среди ветеранов',
         start: 'LO_CHAMP',
         type: 'SKI',
+        coord: [59.278816, 32.380589],
         res: 'https://o-site.spb.ru/_races/17012729/170127_rez.htm',
         o_site: '17012729',
-        bulletin: 'https://o-site.spb.ru/_races/17012729/17012729_info2.pdf'
+        reg: 'https://orgeo.ru/event/3855',
+        bulletin: 'https://o-site.spb.ru/_races/17012729/17012729_info2.pdf',
+        endReg: '2017-01-24 22:00'
     },
     {
         id: 'SPB_20170128_1',
@@ -187,6 +193,7 @@ let events2017 = [
         name: '58-й зимний ЧиП СПб Маркированная трасса',
         start: 'SPB_CHAMP',
         place: 'Орехово, б/о ПАН',
+        // fmt: 'SFR-System',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170223_ch/170223_res.htm',
         info: 'Дистанция: маркированная трасса (прокол в карте)',
@@ -245,7 +252,8 @@ let events2017 = [
         type: 'ROGAINE',
         fmt: '6ч и 24ч',
         o_site: '170304',
-        map: 'vuoksa_rogaine_2019'
+        map: 'vuoksa_rogaine_2019',
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20170305_1',
@@ -282,8 +290,7 @@ let events2017 = [
     },
     {
         id: 'SPB_20170312_2',
-        date: '2017-03-11',
-        endDate: '2017-03-12',
+        date: '2017-03-12',
         name: 'На приз газеты Всеволожские вести',
         type: 'SKI',
         place: 'Кузьмоловский',
@@ -317,8 +324,7 @@ let events2017 = [
     },
     {
         id: 'SPB_20170319_1',
-        date: '2017-03-17',
-        endDate: '2017-03-19',
+        date: '2017-03-19',
         name: 'Sprint Camp SPb 2017',
         place: 'СПб',
         reg: 'http://sportident.ru/entry/event_info.php?id=2026',
@@ -425,7 +431,6 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170412/170412_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/170412/170412_res_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '170412',
         map: 'school_529_2017',
         start: 'SCHOOL'
@@ -481,7 +486,6 @@ let events2017 = [
         photo: 'https://o-site.spb.ru/_races/170419/170419_res_foto.htm',
         video: 'https://www.youtube.com/watch?v=-lFWcywDf5Q',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '170419',
         map: 'school_604_2017',
         start: 'SCHOOL'
@@ -517,8 +521,8 @@ let events2017 = [
     },
     {
         id: 'SPB_20170423_1',
-        date: '2017-04-22',
-        endDate: '2017-04-23',
+        date: '2017-04-22', // !
+        endDate: '2017-04-23', // !
         name: 'Сосновоборские дюны',
         start: 'SOSNOVOBORSKY_DUNY',
         place: 'Сосновый Бор',
@@ -533,11 +537,11 @@ let events2017 = [
         date: '2017-04-26',
         place: 'Школа-интерната №9, ул Старцева, 7',
         name: 'Трейл-ориентирование - в школу',
+        start: 'SCHOOL',
         res: 'https://o-site.spb.ru/_races/170426/170426_res.pdf',
         photo: 'http://vk.com/album-51571395_243769294',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
         type: 'TRAIL_O',
-        owner: 'SFSO_SPB',
         o_site: '170426'
     },
     {
@@ -599,6 +603,7 @@ let events2017 = [
         date: '2017-04-30',
         name: 'Соревнования памяти Ю.А.Березюка',
         place: 'Будогощь',
+        coord: [59.298985, 32.460903],
         reg: 'http://orgeo.ru/event/4112',
         endReg: '2017-04-26 23:55',
         info: '3-и традиционные Соревнования памяти Юрия Александровича Березюка. Кубок города Кириши по спортивному ориентированию. Кубок Профкома ООО «ПО Киришинефтеоргсинтез»',
@@ -657,10 +662,10 @@ let events2017 = [
         date: '2017-05-03',
         place: 'ДДЮТ Выборгского р-на, ул Сантьяго-де-Куба, 4-2',
         name: 'Спортивное ориентирование - в школу (Выборгский р-н)',
+        start: 'SCHOOL',
         res: 'https://o-site.spb.ru/_races/170503/170503_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/170503/170503_res_foto.xls',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '170503'
     },
     {
@@ -804,7 +809,6 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170517/170517_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/170517/170517_res_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '170517',
         map: 'school_69_2017',
         start: 'SCHOOL'
@@ -855,6 +859,7 @@ let events2017 = [
         id: 'SPB_20170520_2',
         date: '2017-05-20',
         place: 'Парк 300-летия СПб',
+        fmt: 'спринт', // !
         name: 'Спартакиада Санкт-Петербурга по спортивному ориентированию',
         o_site: '170520_spartakiada',
         map: '300_let_spb_2022'
@@ -987,6 +992,7 @@ let events2017 = [
         endDate: '2017-05-28',
         place: 'Кузнечное',
         name: 'Горный кросс-56',
+        start: 'GORNY_CROSS',
         res: 'https://o-site.spb.ru/_races/170527R/170527R_res.pdf',
         fmt: 'рогейн БЕГ - 24 и 6ч, ВЕЛО - 5ч, кросс-трейл - 38 и 17км',
         o_site: '170527R',
@@ -1004,7 +1010,6 @@ let events2017 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2017-1.php',
         photo: 'https://vk.com/album-30311715_244242670',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2017-1/ba2017-1.png',
             'https://www.bikeadventure.ru/upload/files/arhiv-2017-1/ba2017-2.png'
@@ -1050,7 +1055,6 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/17060204/170602_res.htm',
         video: 'https://www.youtube.com/watch?v=7zpDGB2rY9s',
-        owner: 'WN',
         start: 'WN',
         o_site: '17060204',
         bulletin: 'https://o-site.spb.ru/_races/17060204/WN_3d_info.pdf',
@@ -1115,6 +1119,7 @@ let events2017 = [
         id: 'SPB_20170612_1',
         date: '2017-06-12',
         place: 'Ягодное',
+        fmt: 'велокросс-классика',
         name: 'Вело-О на Фестивале «Яркий Мир»',
         type: 'VELO',
         res: 'http://o-site.spb.ru/_races/17061218/170612V_split.htm',
@@ -1239,6 +1244,7 @@ let events2017 = [
         id: 'SPB_20170715_1',
         date: '2017-07-15',
         name: 'Горный кросс-57',
+        start: 'GORNY_CROSS',
         place: 'Орехово',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/170715R/170715R_res.pdf',
@@ -1272,8 +1278,8 @@ let events2017 = [
     },
     {
         id: 'SPB_20170730_1',
-        date: '2017-07-29',
-        endDate: '2017-07-30',
+        date: '2017-07-29', // !
+        endDate: '2017-07-30', // !
         name: 'Ладожский ориентир',
         place: 'Ягодное',
         reg: 'http://sportident.ru/entry/event_info.php?id=3389',
@@ -1429,7 +1435,8 @@ let events2017 = [
         info: 'приключенческая гонка MatrasOFF Race - 2017 кубок Всеволожского района по рогейну, 4 этап',
         fmt: 'Рогейн 6ч (бег, вело), приключенческая гонка (Hard, Lite)',
         video: ['https://www.youtube.com/watch?v=Lj6GA633Unc','https://www.youtube.com/watch?v=WOrC7Rqguho'],
-        o_site: '170909'
+        o_site: '170909',
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20170909_2',
@@ -1574,19 +1581,25 @@ let events2017 = [
         name: 'Чемпионат и п-во ЛО по вело-О',
         start: 'LO_CHAMP',
         type: 'VELO',
+        coord: [59.278816, 32.380589],
         res: 'https://o-site.spb.ru/_races/170923_velo/170923_res_velo.html',
         o_site: '170923_velo',
-        bulletin: 'https://o-site.spb.ru/_races/170923_velo/170923_info_velo.pdf'
+        reg: 'https://orgeo.ru/event/5076',
+        bulletin: 'https://o-site.spb.ru/_races/170923_velo/170923_info_velo.pdf',
+        endReg: '2017-09-22 18:00'
     },
     {
         id: 'SPB_20170924_1',
         date: '2017-09-24',
         place: 'Яппиля',
+        fmt: 'марафон, кросс - лонг - общий старт',
+        coord: [60.223824, 29.182177],
         name: '59-й Чемпионат и первенство СПб - марафон',
         start: 'SPB_CHAMP',
         res: 'http://orgeo.ru/live/#/5260',
         video: 'http://northernwind.spb.ru/videosplit/2018/chspb_marathon',
         o_site: '170924',
+        reg: 'https://orgeo.ru/event/5260',
         reskeep: 236,
         bulletin: 'https://o-site.spb.ru/_races/170924/170924_info3.pdf',
         o_gps: {
@@ -1600,9 +1613,9 @@ let events2017 = [
         date: '2017-09-26',
         place: 'ГБОУ средняя школа №339 Невского р-на, ул Дыбенко 12-2',
         name: 'Спортивное ориентирование - в школу (Невский район)',
+        start: 'SCHOOL',
         res: 'https://o-site.spb.ru/_races/170926/170926_res_lab.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '170926'
     },
     {
@@ -1645,6 +1658,7 @@ let events2017 = [
         id: 'SPB_20170930_1',
         date: '2017-09-30',
         name: 'Горный кросс-59',
+        start: 'GORNY_CROSS',
         place: 'Молодежное',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/170930R/170930R_res.pdf',
@@ -1674,7 +1688,6 @@ let events2017 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2017-2.php',
         photo: 'https://vk.com/album-30311715_247663794',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2017-2/map1.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2017-2/map2.jpg'
@@ -1734,7 +1747,6 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/171004/171004_res_lab.htm',
         photo: 'http://vk.com/fazer_russia?w=wall-51571395_4148&z=album-51571395_247911082',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '171004',
         map: 'school_226_2017',
         start: 'SCHOOL'
@@ -1877,7 +1889,6 @@ let events2017 = [
         name: 'Спортивное ориентирование - в школу, Красногвардейский р-он',
         res: 'https://o-site.spb.ru/_races/171018/171018_res_lab.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '171018',
         map: 'school_133_2017',
         start: 'SCHOOL'
@@ -1892,8 +1903,8 @@ let events2017 = [
     },
     {
         id: 'SPB_20171022_1',
-        date: '2017-10-21',
-        endDate: '2017-10-22',
+        date: '2017-10-21', // !
+        endDate: '2017-10-22', // !
         name: 'Золотая осень',
         place: 'им Калинина',
         res: 'https://o-site.spb.ru/_races/17102122/171021_res.htm',
@@ -1994,6 +2005,7 @@ let events2017 = [
         id: 'SPB_20171112_1',
         date: '2017-11-12',
         place: 'Лемболово',
+        fmt: 'маркир',
         name: 'МАРКИР-110',
         reg: 'http://o-reg.spb.ru/entry-list?id=813',
         res: 'https://o-site.spb.ru/_races/171112_markir/171112_res1.html',
@@ -2021,6 +2033,7 @@ let events2017 = [
         id: 'SPB_20171118_1',
         date: '2017-11-18',
         name: 'Горный кросс-60',
+        start: 'GORNY_CROSS',
         place: 'Зеленогорск',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/171118R/171118R_res.pdf',
@@ -2058,6 +2071,9 @@ let events2017 = [
         id: 'SPB_20171126_1',
         date: '2017-11-26',
         name: 'Снежная тропа, 3 этап',
+        place: 'парк Александрино',
+        fmt: 'спринт',
+        coord: [59.869026, 30.196257],
         start: 'SNOW_WAY',
         reg: 'http://o-reg.spb.ru/entry-list?id=818',
         res: 'https://o-site.spb.ru/_races/171126/171126_res.htm',
@@ -2146,10 +2162,12 @@ let events2017 = [
         name: 'Снежная тропа, 4 этап',
         start: 'SNOW_WAY',
         place: 'Пискаревский парк',
+        coord: [59.997898, 30.405464],
         res: 'https://o-site.spb.ru/_races/171217/171217_res.htm',
         info: 'размещаются в средней общеобразовательной школе № 473 Калининского района по адресу: ул. Верности, д. 28, корп.',
         bulletin: 'https://o-site.spb.ru/_races/171217/171217_info1-3.pdf',
         o_site: '171217',
+        reg: 'https://orgeo.ru/event/5705',
         map: 'piskarevsky_2012',
         o_gps: 3175
     },

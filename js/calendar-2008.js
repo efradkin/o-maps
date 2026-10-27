@@ -448,7 +448,6 @@ let events2008 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-1.php',
         map: 'losinaya_gora_ba_2008',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2008-1/bikeadventure08map.gif'
         ]
@@ -476,6 +475,7 @@ let events2008 = [
         id: 'SPB_20080531_1',
         date: '2008-05-31',
         place: 'Токсово, Малиновая гора',
+        // fmt: 'А, B, C',
         name: 'креОстарт-2',
         res: 'https://o-site.spb.ru/_races/080419/080531_res.htm',
         info: 'Открытая техническая тренировка с электронной отметкой На тренировке будет предложена программа О-Mix. В одном старте будет содержаться несколько видов ориентирования, технических задач и иных вариантов нагрузки, типичной для спортивного ориентирования.',
@@ -574,7 +574,6 @@ let events2008 = [
         name: 'Фестиваль Ориентирования Яркий Мир - Белые Ночи',
         res: 'https://o-site.spb.ru/_races/08061722/festival_res.zip',
         info: 'ПЕТЕРБУРГСКИЙ ФЕСТИВАЛЬ СПОРТИВНОГО ОРИЕНТИРОВАНИЯ «ЯРКИЙ МИР - БЕЛЫЕ НОЧИ»',
-        owner: 'WN',
         start: ['WN','YM'],
         o_site: '08061722',
         map: ['wn_2008_06_18', 'wn_2008_06_19', 'wn_2008_06_20', 'wn_2008_06_21', 'wn_2008_06_22']
@@ -809,6 +808,7 @@ let events2008 = [
         id: 'SPB_20080921_1',
         date: '2008-09-21',
         place: 'Ушково, Пухтолова гора',
+        fmt: 'Для новичков и МЖ10 - дистанция с разметкой',
         name: 'Кубок Дворца',
         res: 'https://o-site.spb.ru/_races/080921/080921_res.htm',
         o_site: '080921',
@@ -904,6 +904,7 @@ let events2008 = [
     {
         id: 'SPB_20081011_1',
         date: '2008-10-11',
+        // endDate: '2008-10-12',
         place: 'Ягодное',
         name: 'XXXVII Соревнования по ночному ориентированию памяти А. Окинчица',
         res: 'https://o-site.spb.ru/_races/08101112/08101112_res.htm',
@@ -979,7 +980,6 @@ let events2008 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-2.php',
         map: 'kanneliarvi_ba_2008',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2008-2/bal08_a3.jpg'
         ]
@@ -1037,6 +1037,7 @@ let events2008 = [
         id: 'SPB_20081116_1',
         date: '2008-11-16',
         place: 'Токсово, оз Светлое',
+        // fmt: '4,5 км',
         name: 'Открытое первенство пос. Кузьмоловский',
         res: 'https://o-site.spb.ru/_races/081116_kuz/081116_res.zip',
         owner: 'SFSO_LO',

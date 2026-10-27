@@ -95,7 +95,29 @@ sync_calendar.py — получение и обновление записей �
                 только если coord нет;
   * name, place, fmt, type — только заполняются, если их нет (type — если у
     записи нет type, а источник даёт не ORIENT; в calendar-msk-*.js type
-    пишется всегда, как в остальных записях Москвы); расхождения — с -v;
+    пишется всегда, как в остальных записях Москвы); расхождения — с -v.
+    fmt приводится к виду календаря (norm_fmt): именительный падеж, строчная
+    буква, «эстафета 2х», «эстафеты 2х» (из «2-х этапные эстафеты»), «выбор»
+    (из «по выбору»), «заданное направление»; у рогейнов — только часы
+    (rogaine_fmt): «рогейн 4 часа» -> «4», «бег 6/2 часа, вело 5» -> «6(5), 2»;
+    старые значения — norm_fmt_all.py.
+    type с о-сайта — прежде всего по словам (TYPE_WORDS в начале скрипта; слово
+    считается с начала: «Цвелодубово» — не «вело»): рогейн, горный кросс ->
+    ROGAINE; трейл-о -> TRAIL_O; в помещении, в зале, в здании, по зданию,
+    indoor -> INDOOR; мульти…, multi… -> MULTI (эти четыре решают сразу); вело…,
+    МТБО, MTB-O, bike -> VELO; лыж…, ski, ЛГ, зимний -> SKI; кросс…, бег…, летний, пешком -> ORIENT (не пишется).
+    «Зимний» и «летний» учитываются только в названии и полях страницы (в
+    описании «соревнования в зимний период» бывают и у пеших стартов), «зимний
+    сезон», «лыжедром», «лыжная база/трасса/стадион» (места) и адреса сайтов
+    (ski-o-spb.narod.ru) — не вид старта. Порядок: слова в названии и полях страницы «Формат»,
+    «Дисциплина», «Вид», «Дистанция»; затем значок «Рогейн» (рогейн бегом —
+    всё равно рогейн); затем слова описания в списке стартов; затем значок вида
+    («Вело» -> VELO, «Лыжи» -> SKI; «Мультиспорт» не используется: им помечены и
+    обычные старты). Если слова противоречат друг другу (лыжи и кросс) — они не
+    решают, решает следующий шаг. type с orgeo — по тем же словам в названии и
+    дисциплинах программы, иначе ORIENT. Виды, которых у организатора не бывает
+    (NOT_TYPES: у Белых Ночей, owner WN или start с owner WN в starts.js, — SKI),
+    не вписываются;
   * серия (у страницы о-сайта несколько записей, её дат больше SERIES_DAYS
     или дата не разобрана): date, endDate, name, place, fmt и reg с о-сайта не
     переносятся («Заявка» на странице серии часто ведёт на один из этапов),
@@ -131,6 +153,9 @@ start и owner по названию (шаг names). Правила NAME_RULES (
 срабатывает первое подошедшее. Правила SPB — для calendar-YYYY.js,
 calendar-early.js и calendar-common.js, MSK — для calendar-msk-*.js.
   * start ставится, если его нет;
+  * owner удаляется, если у start записи в js/starts.js задан тот же организатор
+    (и у записей, где start уже был, во всех файлах календаря; другой owner
+    остаётся);
   * owner — если его нет и у start записи организатор не задан в js/starts.js
     (если задан — дублировать его в записи не нужно; если не задан — owner
     ставится и записи со start), и только когда в календаре уже есть запись с
@@ -247,7 +272,40 @@ ORGEO_SKIP_LEVEL = {'Собрания, лекции, коференции'}
 ORGEO_NATIONAL_LEVEL = {'Всероссийские ФСОР'}
 SEMINAR = re.compile(r'семинар', re.I)
 NATIONAL = re.compile(r'(?:Чемпионат|Кубок|Первенство)[^,.;]*\bРоссии\b|Всероссийск|\bмира\b|\bЕвропы\b', re.I)
-OSITE_TYPE = {'orientering': 'ORIENT', 'rogein': 'ROGAINE', 'skiing': 'SKI', 'velo': 'VELO', 'multisport': 'MULTI'}
+# значок вида на о-сайте (images/format/*.gif) -> type; «multisport» на о-сайте ставят и обычным
+# стартам и тренировкам (Кубок Белых Ночей, Царскосельский азимут…), поэтому type по нему не ставится
+OSITE_TYPE = {'orientering': 'ORIENT', 'rogein': 'ROGAINE', 'skiing': 'SKI', 'velo': 'VELO'}
+
+# вид старта по описанию (название, описание, формат/дисциплина…): оно важнее значка вида.
+# Проверяются по порядку; если подошли и SKI, и ORIENT (или SKI и VELO) — по описанию не решить.
+TYPE_WORDS = [            # (type, слова, «слабые» слова — только в названии и полях страницы)
+    ('ROGAINE', r'рогейн|rogain|\bгорн\w* кросс', None),
+    ('TRAIL_O', r'\bтрейл-?о\b|\bтрейл-ориент|\btrail-?o\b|\bпо тропам', None),
+    ('INDOOR', r'\bв помещени|\bв зале\b|\bв здани|\bпо здани|\bindoor', None),
+    ('MULTI', r'\bмульти|\bmulti', None),
+    ('VELO', r'\bвело|\bмтб-?о\b|\bmtb-?o\b|\bмтбо\b|\bmtbo\b|\bbike\b|\bбайк', None),
+    ('SKI', r'\bлыж|\bski\b|\bski-?o\b|\bлг\b', r'\bзимн(ий|яя|ее|ие|его|юю|их)\b'),
+    ('ORIENT', r'\bкросс|\bбег(ом|овой|овая|овые)?\b|\bпешком\b', r'\bлетн(ий|яя|ее|ие|его|юю|их)\b'),
+]
+TYPE_RX = [(t, re.compile(rx, re.I), re.compile(weak, re.I) if weak else None) for t, rx, weak in TYPE_WORDS]
+DECISIVE = 4            # первые четыре (рогейн, трейл-о, в помещении, мульти) решают сразу
+# организатор -> виды, которых у его стартов не бывает (у Белых Ночей нет лыжных стартов: «Выбор50 —
+# зимний Кубок Белых Ночей» — не лыжи); проверяется по owner записи и owner её start в starts.js
+NOT_TYPES = {'WN': {'SKI'}}
+# не вид старта: «по итогам зимнего сезона», места «лыжедром СКА», «от лыжной базы», «по лыжной трассе»
+SEASON = re.compile(r'\b(зимн|летн)\w* (сезон|период)\w*|\bлыжедром\w*|\bлыжн\w* (баз|трасс|стадион)\w*', re.I)
+
+
+def type_by_words(text, weak=True):
+    """type по ключевым словам или None, если слов нет или они противоречат друг другу
+    (например, «лыжи» и «кросс»). «Рогейн», «трейл-о», «в помещении», «мульти» решают сразу. weak — учитывать и
+    «слабые» слова («зимний», «летний»): в названии да, в длинном описании нет."""
+    t = SEASON.sub(' ', re.sub(r'https?://\S+|\b[\w.-]+\.(?:ru|com|org|net|info)\S*', ' ', text or ''))   # и без ссылок
+    for typ, rx, _ in TYPE_RX[:DECISIVE]:
+        if rx.search(t):
+            return typ
+    found = [typ for typ, rx, wk in TYPE_RX[DECISIVE:] if rx.search(t) or (weak and wk and wk.search(t))]
+    return found[0] if len(found) == 1 else None
 SPB_REGIONS = {'Санкт-Петербург', 'Ленинградская обл.'}
 MSK_REGIONS = {'Москва', 'Московская обл.'}
 DATA_FILE = re.compile(r'calendar-(?!mobile\.js$)[\w-]+\.js$')
@@ -352,14 +410,117 @@ RELAY = re.compile(r'(эстафет[а-яё]*)\s*[-–—]?\s*(\d+)(?:\s*/\s*(\
 PERSONS = re.compile(r'(\d+)\s*[-–—]?\s*человека?(?![а-яё])', re.I)
 
 
+NUM_WORDS = {'одно': 1, 'двух': 2, 'трех': 3, 'трёх': 3, 'четырех': 4, 'четырёх': 4, 'пяти': 5, 'шести': 6}
+STAGES = re.compile(r'\b(\d+|одно|двух|тр[её]х|четыр[её]х|пяти|шести)\s*-?\s*(?:х|ти|ми)?\s*-?\s*этапн[а-яё]*'
+                    r'\s+((?:[а-яё]+(?:ая|ые)\s+)?эстафет[а-яё]*)', re.I)
+ONE_OF = re.compile(r'(^|,\s*)(?:ориентирование|дистанци[яи]|соревновани[яе])\s+по\s+выбору\b|'
+                    r'(\S)\s+по\s+выбору\b|\bпо\s+выбору\b', re.I)
+GIVEN_DIR = re.compile(r'(^|,\s*)(?:ориентирование|дистанци[яи]|соревновани[яе])\s+в\s+заданном\s+направлении\b|'
+                       r'(\S)\s+в\s+заданном\s+направлении\b|\bв\s+заданном\s+направлении\b', re.I)
+
+
+CAPS_KEEP = {'МТБО', 'МТБ-О', 'СЗФО', 'ВФСО', 'ФСОР', 'СФСО'}   # аббревиатуры: не в строчные
+
+
 def norm_fmt(s):
-    """Формат как принято в календаре: «эстафета 3 чел.», «эстафета - 3 человека» -> «эстафета 3х»,
-    «эстафета 2/3 человека» -> «эстафета 2х/3х»; прочие «N человека» -> «N чел.»
-    (как «маркированная трасса 3 чел.»). Используется и import_calendar_msk.py / _malakhit.py."""
+    """Формат как принято в календаре — в именительном падеже, со строчной буквы:
+    «эстафета 3 чел.», «эстафета - 3 человека» -> «эстафета 3х», «эстафета 2/3 человека» -> «эстафета 2х/3х»,
+    «2-х этапные эстафеты», «двухэтапная (ночная) эстафета» -> «эстафеты 2х», «(ночная) эстафета 2х»;
+    «по выбору», «ориентирование по выбору» -> «выбор» («Х по выбору» -> «Х, выбор», «эстафета по выбору» ->
+    «эстафета-выбор»); «(ориентирование) в заданном направлении» -> «заданное направление»
+    («Х в заданном направлении» -> «Х, заданное направление»); прочие «N человека» -> «N чел.» (как «маркированная трасса 3 чел.»).
+    Используется и import_calendar_msk.py / _malakhit.py."""
     if not s:
         return s
+    s = STAGES.sub(lambda m: m.group(0) if re.search(r'\bи\s*$', s[:m.start()]) else  # «4-х и 5-ти этапная»
+                   '%s %sх' % (m.group(2), NUM_WORDS.get(m.group(1).lower(), m.group(1))), s)
     s = RELAY.sub(lambda m: '%s %sх%s' % (m.group(1), m.group(2), '/%sх' % m.group(3) if m.group(3) else ''), s)
-    return PERSONS.sub(r'\1 чел.', s)
+    s = PERSONS.sub(r'\1 чел.', s)
+    s = ONE_OF.sub(lambda m: (m.group(1) + 'выбор' if m.group(1) is not None else
+                              m.group(2) + ('-выбор' if re.search(r'эстафет[а-яё]*$', s[:m.start(2) + 1], re.I)
+                                            else ', выбор') if m.group(2) else 'выбор'), s)
+    s = GIVEN_DIR.sub(lambda m: (m.group(1) + 'заданное направление' if m.group(1) is not None else
+                                 m.group(2) + ', заданное направление' if m.group(2) else 'заданное направление'), s)
+    s = re.sub(r',\s*,', ',', s)
+    # первое слово каждой части (вне скобок) — со строчной: «Кросс-классика», «КРОСС-ВЫБОР»,
+    # «„Кросс-Выбор“» -> «кросс-…»; аббревиатуры (ЛГ, SUP, MTBO) и «Би-О-Тлон» остаются
+    def low(m):
+        w = m.group(2)
+        if re.fullmatch(r'[А-ЯЁ-]{4,}', w) and w not in CAPS_KEEP or re.fullmatch(r'[А-ЯЁ][а-яё]+(?:-[А-ЯЁа-яё][а-яё]+)*', w) and \
+                not re.search(r'-[А-ЯЁ][а-яё]*-', w):
+            return m.group(1) + w.lower()
+        return m.group(0)
+    out, depth, last = [], 0, 0
+    for m in re.finditer(r'[()]|(^|,\s*)([«"\']?)', s):
+        out.append(s[last:m.end()])
+        last = m.end()
+        if m.group(0) in ('(', ')'):
+            depth += 1 if m.group(0) == '(' else -1
+        elif depth == 0 and m.group(1) is not None:
+            w = re.match(r'([А-ЯЁа-яё-]+)', s[last:])
+            if w:
+                new = low(re.match(r'()(.*)', w.group(1)))
+                out.append(new)
+                last += len(w.group(1))
+    out.append(s[last:])
+    return ''.join(out)
+
+
+ROG_BIKE = re.compile(r'вело|велосипед|bike|mtb', re.I)
+ROG_SKIP = re.compile(r'мульти|приключ|трейл|кросс-?трейл|марш-бросок|заданн|турполос', re.I)
+ROG_NUM = re.compile(r'(?<![\d.№])(\d{1,2}(?:\.\d)?(?:-\d{1,2})?)(?![\d.]|\s*(?:км|km|кп|kp|мин|м\b|%|чел|лет|г\.|-?(?:й|го|ти|х)\b))',
+                     re.I)
+
+
+def rogaine_fmt(s):
+    """fmt рогейна — продолжительности в часах, как принято в календаре: «рогейн 4 часа» -> «4»,
+    «бег 6/2 часа, вело 5 часов» -> «6(5), 2» (вело — в скобках у ближайшей не меньшей беговой),
+    «4 и 8 часов на велосипеде или бегом» -> «8, 4», «байдарки 6ч и 12ч, SUP 5ч» -> «12, 6, 5»;
+    вело длиннее всех беговых — «24 вело». Мультигонки, трейлы и т.п. в той же строке не считаются.
+    -> None, если часов в тексте нет («60, 70 или 80 минут», «городской рогейн»)."""
+    if not s or not re.search(r'\d\s*(?:ч|час)|час|\d.*(?:бег|вело)', s, re.I):
+        return None
+    t = re.sub(r'\b([0-3]),5(?=\s*(?:ч|час))', r'\1.5', s)
+    t = re.sub(r'(\d)-?х\s*(час)', r'\1 \2', t)                     # «3-х часовой»
+    t = re.sub(r'\(([^()]*)\)', lambda m: '(' + m.group(1).replace(',', ' ').replace(';', ' ') + ')', t)
+    mode_rx = r'бег|пешк|лыж|байдар|каяк|sup|сап|ролик|вело|велосипед|bike|mtb'
+    foot, bike = [], []
+    for part in re.split(r'[,;]|\.(?=\s*(?:[А-ЯЁA-Z]|$))', t):   # «5 ч. вело» — не конец части
+        if ROG_SKIP.search(part):
+            continue
+        # [числа, вело?, без единиц]; вид не назван: у голого числа («3 и 6 часов вело») — как у
+        # следующей части, иначе («велорогейн 4 и 6ч», «24 часа и 8 часов вело») — как у предыдущей
+        sub = []
+        for c in re.split(r'\s+и\s+(?=[^,;]*\d)', part):
+            mode = None
+            if re.search(mode_rx, c, re.I):
+                mode = bool(ROG_BIKE.search(c)) and not re.search(r'бег|пешк|лыж|байдар|каяк|sup|сап|ролик', c, re.I)
+            sub.append([[n for n in ROG_NUM.findall(re.sub(r'\d+:\d+', ' ', c)) if float(n.split('-')[0]) <= 48],
+                        mode, not re.search(r'\d\s*(?:ч|час)', c, re.I)])
+        nxt = None
+        for x in reversed(sub):
+            if x[1] is None and x[2]:
+                x[1] = nxt
+            nxt = x[1]
+        prev = None
+        for x in sub:
+            if x[1] is None:
+                x[1] = prev
+            prev = x[1]
+        for nums, mode, _ in sub:
+            (bike if mode else foot).extend(nums)
+    key = lambda n: float(n.split('-')[0])
+    foot = sorted(set(foot), key=key, reverse=True)
+    if not foot:
+        return ', '.join(sorted(set(bike), key=key, reverse=True)) or None
+    extra, attach = [], {}
+    for b in sorted(set(bike) - set(foot), key=key, reverse=True):
+        geq = [f for f in foot if key(f) >= key(b)]
+        if geq and geq[-1] not in attach:
+            attach[geq[-1]] = b
+        else:
+            extra.append(b + ' вело')
+    return ', '.join(extra + [f + ('(%s)' % attach[f] if f in attach else '') for f in foot])
 
 
 def overlap(a0, a1, b0, b1):
@@ -966,11 +1127,17 @@ class Calendar:
                         ind = indent_of(t, f['kpos'])
                         edits.append((f['vstart'], f['vend'], cfile.js(k, val, ind), seq)); seq += 1
                 elif val is not None:
-                    if removals:
-                        anchor = r.flds[0]
+                    # якорь вставки — не удаляемое поле и не поле перед удаляемым последним
+                    # (у него снимается запятая): иначе правки пересекутся
+                    gone = {r.flds.index(r.by[x]) for x in removals}
+                    bad = gone | {i - 1 for i in gone if i == len(r.flds) - 1}
+                    names = [a for a in ANCHORS.get(k, []) if a in r.by and r.flds.index(r.by[a]) not in bad]
+                    if names:
+                        anchor = r.by[names[0]]
+                    elif not removals:
+                        anchor = r.flds[-1]
                     else:
-                        names = [a for a in ANCHORS.get(k, []) if a in r.by]
-                        anchor = r.by[names[0]] if names else r.flds[-1]
+                        anchor = r.flds[0]
                     inserts[anchor['kpos']].append((anchor, k, val))
             for items in inserts.values():
                 anchor = items[0][0]
@@ -1119,6 +1286,7 @@ class OSiteEvent:
     def __init__(self, oid):
         self.id, self.items = oid, []
         self.name = self.datetext = self.icon = None
+        self.desc = self.props_text = None
         self.d0 = self.d1 = None
         self.page = self.final = None
         self.error = None
@@ -1133,7 +1301,12 @@ class OSiteEvent:
 
     @property
     def typ(self):
-        return OSITE_TYPE.get(self.icon)
+        """Название и формат/дисциплина/вид/дистанция страницы -> значок «Рогейн» -> описание в
+        списке стартов -> значок вида."""
+        return (type_by_words(' '.join(x for x in (self.name, self.props_text) if x))
+                or ('ROGAINE' if self.icon == 'rogein' else None)
+                or type_by_words(self.desc, weak=False)
+                or OSITE_TYPE.get(self.icon))
 
     def url(self):
         return OSITE + 'race.php?id=' + urllib.parse.quote(self.id, safe='')
@@ -1160,6 +1333,7 @@ class OSiteEvent:
         m = re.fullmatch(r'(-?\d{1,2}\.\d+)\s*[,;]\s*(-?\d{1,3}\.\d+)', props.get('Координаты центра соревнований', ''))
         if m:
             self.coord = [float(m.group(1)), float(m.group(2))]
+        self.props_text = ' '.join(props.get(k, '') for k in ('Формат', 'Дисциплина', 'Вид', 'Дистанция'))
         for k in ('Формат', 'Дисциплина', 'Дистанция'):
             if props.get(k):
                 self.fmt = norm_fmt(props[k])
@@ -1214,6 +1388,8 @@ def osite_list(fetcher, scope, workers, rep):
                 if not ev.items:
                     ev.datetext, ev.name = clean(m.group(1)), clean(m.group(3))
                     ev.icon = icon and icon.group(1)
+                    desc = re.search(r"<p class=race-desc>(.*?)</p>", blk, re.S)
+                    ev.desc = clean(desc.group(1)) if desc else None
                     dd = parse_osite_date(ev.datetext, year)
                     if dd:
                         ev.d0, ev.d1 = dd
@@ -1335,17 +1511,7 @@ class OrgeoEvent:
             parts = re.findall(r'<strong>(.*?)</strong>', li, re.S)
             if len(parts) >= 2:
                 disc.append(clean(parts[1]).rstrip('.'))
-        low = ' '.join(disc).lower() + ' ' + (self.name or '').lower()
-        if re.search(r'рогейн', low):
-            self.typ = 'ROGAINE'
-        elif re.search(r'лыжн', low):
-            self.typ = 'SKI'
-        elif re.search(r'велокросс|велоориент|\bмтбо\b|mtbo', low):
-            self.typ = 'VELO'
-        elif re.search(r'трейл-?о|по тропам|trail-?o', low):
-            self.typ = 'TRAIL_O'
-        else:
-            self.typ = 'ORIENT'
+        self.typ = type_by_words((self.name or '') + ' ' + ' '.join(disc)) or 'ORIENT'
         fm = []
         for d in disc:
             d = re.sub(r'\s*\([^)]*\)', '', d).replace('"', '').replace('«', '').replace('»', '')
@@ -1830,6 +1996,10 @@ def merge(cal, osite_events, rep, scope):
             'fmt': [(None if series else (ev.fmt if ev else None), tag_os), (og.fmt if og else None, tag_og)],
             'type': [(ev.typ if ev else None, tag_os), (og.typ if og else None, tag_og)],
         }
+        typ_src = next((v for v, _ in vals['type'] if v), None)
+        rogaine = 'ROGAINE' in (set(aslist(r.get('type'))) if r.get('type') else {typ_src})
+        if rogaine:          # у рогейнов в fmt — только часы: «рогейн 4 часа» -> «4»
+            vals['fmt'] = [(rogaine_fmt(v) or v, t) for v, t in vals['fmt']]
         for k in SOFT:
             cand = [(v, t) for v, t in vals[k] if v]
             if not cand:
@@ -1878,7 +2048,8 @@ def by_name(cal, scope, rep, owners_of_start):
     start записи организатор задан в starts.js (дублировать его в записи не нужно); если не задан
     или start нет — ставится, но только если в календаре уже есть запись с подходящим названием и
     этим owner — без start или с тем же start, — и не раньше года первой такой записи:
-    организаторы меняются."""
+    организаторы меняются. Если start вписан, а owner записи тот же, что у старта в starts.js, —
+    owner удаляется (drop_owners — и у записей, где start уже был)."""
     rules = {area: [(f, code, re.compile(rx, re.I)) for f, code, rx in rs] for area, rs in NAME_RULES.items()}
     skey = lambda r: tuple(sorted(x for x in aslist(r.get('start')) if isinstance(x, str)))
     since = {}
@@ -1914,6 +2085,47 @@ def by_name(cal, scope, rep, owners_of_start):
                             'такое название с этим owner (%s) встречается с %s года' % (st, first)) if first else
                             'такого названия с этим owner (%s) в календаре нет' % st))
                     break
+
+
+def drop_owners(cal, scope, rep, owners_of_start):
+    """owner записи не нужен, если тот же организатор задан у её start в starts.js (у нескольких
+    start — у любого из них): такой owner удаляется. Если в записи owner другой (или ещё и другой) —
+    остаётся (с -v — в отчёте, если start вписан сейчас). Все файлы календаря; записи — новые и в
+    обрабатываемых датах; «// !» соблюдается."""
+    for r in cal.recs:
+        if not r.d0 or not (r.new or scope.hits(r.d0, r.d1)):
+            continue
+        own = {x for x in aslist(r.get('owner')) if isinstance(x, str)}
+        starts = [x for x in aslist(r.get('start')) if isinstance(x, str)]
+        by_start = set()
+        for st in starts:
+            by_start.update(re.findall(r"[A-Z0-9_]+", owners_of_start.get(st) or ''))
+        if not own or not by_start:
+            continue
+        if own <= by_start:
+            r.set('owner', None, 'owner %s есть у старта %s в starts.js' % ('/'.join(sorted(own)), '/'.join(starts)))
+        elif rep.verbose and 'start' in r.changes:
+            rep.diffs.append('%s: start %s вписан, owner %s остаётся — у старта в starts.js %s' % (
+                r.head(), '/'.join(starts), '/'.join(sorted(own)), '/'.join(sorted(by_start))))
+
+
+def not_types(cal, rep, owners_of_start):
+    """Отменить вписанный скриптом type, которого у стартов этого организатора не бывает (NOT_TYPES);
+    организатор — owner записи и owner её start в starts.js."""
+    for r in cal.recs:
+        if 'type' not in r.changes:
+            continue
+        org = {x for x in aslist(r.get('owner')) if isinstance(x, str)}
+        for st in aslist(r.get('start')):
+            v = owners_of_start.get(st) if isinstance(st, str) else None
+            if v:
+                org.update(re.findall(r"[A-Z0-9_]+", v))
+        bad = set().union(set(), *(NOT_TYPES.get(o, set()) for o in org)) & set(aslist(r.changes['type']))
+        if bad:
+            del r.changes['type']
+            r.log = [x for x in r.log if x[0] != 'type']
+            rep.diffs.append('%s: type %s не вписан — у стартов %s такого не бывает (NOT_TYPES)' % (
+                r.head(), '/'.join(sorted(bad)), '/'.join(sorted(org))))
 
 
 def end_reg(cal, scope, fetcher, orgeo_by_ref, workers, rep):
@@ -2089,6 +2301,8 @@ def step_sites(work, scope, steps, workers, verbose, starts_js):
             rep.error('нет %s — owner по названию не ставится' % starts_js)
         else:
             by_name(cal, scope, rep, owners)
+            drop_owners(cal, scope, rep, owners)
+    not_types(cal, rep, start_owners(starts_js) or {})
     if 'endreg' in steps:
         by_ref = {}
         for e in orgeo_events.values():

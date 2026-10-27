@@ -31,6 +31,7 @@ let events2016 = [
         date: '2016-01-10',
         name: 'Рождественский рогейн. 1 этап Кубка Всеволожского района по рогейну',
         place: 'Лемболово',
+        fmt: '4',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/160110/160110_res.html',
         o_site: '160110',
@@ -65,8 +66,10 @@ let events2016 = [
         date: '2016-01-29',
         endDate: '2016-01-31',
         place: 'Будогощь',
+        fmt: 'маркированная трасса 0830203811я, комбинация 0830223811я, спринт 0830133811я',
         name: 'Чемпионат и п-во Ленинградской обл. по ориентированию на лыжах',
         type: 'SKI',
+        coord: [59.278816, 32.380589],
         start: 'LO_CHAMP',
         reg: 'http://orgeo.ru',
         res: 'https://o-site.spb.ru/_races/16012931/160129_res.htm',
@@ -121,11 +124,13 @@ let events2016 = [
         id: 'SPB_20160221_1',
         date: '2016-02-21',
         place: 'Сосновка',
+        coord: [59.730087, 30.397814],
         name: 'Кубок СПб, Снежная Тропа, 4 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/160221_st/160221_res.htm',
         photo: 'http://vk.com/fotografiruy_vse?z=photo-42649628_403107330%2Falbum-42649628_228558137%2Frev',
         o_site: '160221_st',
+        reg: 'https://orgeo.ru/event/2327',
         map: 'sosnovka_2014',
         bulletin: 'https://o-site.spb.ru/_races/160221_st/160221_info3.pdf',
         o_gps: 900
@@ -164,8 +169,10 @@ let events2016 = [
         start: 'SPB_CHAMP',
         place: 'Ильичево, Болотная станция',
         type: 'SKI',
+        coord: [59.730087, 30.397814],
         res: 'https://o-site.spb.ru/_races/160228/160228_res.htm',
         o_site: '160228',
+        reg: 'https://orgeo.ru/event/2327',
         bulletin: 'https://o-site.spb.ru/_races/160228/160228_info_31.pdf',
         maps: [
             'https://o-site.spb.ru/_races/160228/Map10000_MT.gif',
@@ -179,6 +186,7 @@ let events2016 = [
         start: 'SPB_CHAMP',
         place: 'Ильичево, Болотная станция',
         type: 'SKI',
+        coord: [59.730087, 30.397814],
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/160306/160306_res.htm',
         o_site: '160306',
@@ -210,6 +218,7 @@ let events2016 = [
         start: 'SPB_CHAMP',
         place: 'Ильичево, Болотная станция',
         type: 'SKI',
+        coord: [59.730087, 30.397814],
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/160308/160308_res.htm',
         o_site: '160308',
@@ -243,6 +252,7 @@ let events2016 = [
         id: 'SPB_20160313_1',
         date: '2016-03-13',
         place: 'Павловск, Отдельный парк',
+        coord: [59.730087, 30.397814],
         name: 'Кубок СПб, Снежная Тропа, 5 этап',
         start: 'SNOW_WAY',
         reg: 'http://o-reg.spb.ru/entry-list?id=570',
@@ -419,7 +429,6 @@ let events2016 = [
         photo: 'http://yadi.sk/d/t1heyoD3rGitG',
         video: 'https://www.youtube.com/watch?v=0qdrmgTm21E',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '160420',
         map: 'pushkin_school_645',
         start: 'SCHOOL'
@@ -648,21 +657,24 @@ let events2016 = [
         id: 'SPB_20160515_2',
         date: '2016-05-15',
         place: 'Будогощь',
+        coord: [59.320827, 32.40831],
         name: 'Соревнования памяти Ю.А.Березюка',
         res: 'https://o-site.spb.ru/_races/160515_B/160515_res.pdf',
         o_site: '160515_B',
+        reg: 'https://orgeo.ru/event/2705',
         bulletin: 'https://o-site.spb.ru/_races/160515_B/160515_info2.pdf',
-        owner: 'EGRV_SRG'
+        owner: 'EGRV_SRG',
+        endReg: '2016-05-10 00:00'
     },
     {
         id: 'SPB_20160518_1',
         date: '2016-05-18',
         place: 'школа №495',
         name: 'Спортивное ориентирование - в школу, Московский р-н',
+        start: 'SCHOOL',
         res: 'https://o-site.spb.ru/_races/160518/160518_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/160518/160518_res_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '160518'
     },
     {
@@ -707,6 +719,7 @@ let events2016 = [
         id: 'SPB_20160521_2',
         date: '2016-05-21',
         place: 'Токсово',
+        fmt: 'спринт',
         name: 'Чемпионат и первенство ЛО по вело, спринт',
         start: 'LO_CHAMP',
         type: 'VELO',
@@ -735,7 +748,8 @@ let events2016 = [
         type: 'ROGAINE',
         fmt: '8 и 16(18) часов, байдарка',
         link: 'http://www.multsport.ru',
-        map: 'vuoksa_rogaine_2019'
+        map: 'vuoksa_rogaine_2019',
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20160522_1',
@@ -820,7 +834,6 @@ let events2016 = [
         video: 'https://www.youtube.com/watch?v=RC114NyDPPA',
         map: 'melnikovo_ba_2016',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2016-1/BA2016_karta.png'
         ]
@@ -926,7 +939,6 @@ let events2016 = [
         name: 'Фестиваль «Белые Ночи»',
         place: 'Первомайское',
         res: 'https://o-site.spb.ru/_races/16061016/160610_split.htm',
-        owner: 'WN',
         start: ['WN','YM'],
         o_site: '16061016',
         bulletin: 'https://o-site.spb.ru/_races/16061016/16061016_info.pdf',
@@ -1032,7 +1044,6 @@ let events2016 = [
         name: 'Летнее первенство клуба Белые Ночи',
         res: 'https://o-site.spb.ru/_races/16071011/160709_res.htm',
         map: 'baryshevo_2015',
-        owner: 'WN',
         start: 'WN',
         o_site: '16071011',
         bulletin: 'https://o-site.spb.ru/_races/16071011/16070910_info.pdf'
@@ -1042,6 +1053,7 @@ let events2016 = [
         date: '2016-07-09',
         place: 'Всеволожский район',
         name: 'Велорогейн «100 за 24» - 3 этап кубка Всеволожского района',
+        start: '100x24',
         type: 'ROGAINE',
         fmt: '3-4 часа вело',
         link: 'http://gornycross.narod.ru'
@@ -1077,13 +1089,15 @@ let events2016 = [
         name: 'MatrasOFF Race',
         type: 'MULTI',
         fmt: '9 часов бег и вело',
-        link: 'www.multsport.ru'
+        link: 'www.multsport.ru',
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20160730_1',
         date: '2016-07-30',
         place: 'Моторное, Воробьёвы оз',
         name: 'RedFox мультирогейн, RedFox мульти-kids',
+        start: 'RFAR',
         type: ['MULTI', 'ROGAINE'],
         reg: 'http://o-reg.spb.ru/entry-list?id=620',
         res: ['https://adventure-race.redfox.ru/archive/archive_2016/','https://o-site.spb.ru/_races/160731/160730_res.htm'],
@@ -1091,7 +1105,6 @@ let events2016 = [
         video: ['https://www.youtube.com/watch?v=E11GBoQ_QXE','https://www.youtube.com/watch?v=Y7DoWN7Uz_A'],
         info: 'Рогейн в мультиспортивном формате. Участникам предлагаются следующие форматы: «MR-4» мультирогейн в формате 4 часа, «MR-2» мультирогейн в формате 2 часа, «Kids 9-11» (дети от 9 до 11 лет), «Kids 12-14» (дети от 12 до 14 лет).',
         fmt: 'рогейн 4 часа, 2 часа, детский зачёт',
-        owner: 'RFAR',
         o_site: '160731',
         map: 'pitkaranta_rfar_2016'
     },
@@ -1115,7 +1128,6 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160731_WN/160731_res.htm',
         info: 'Соревнования проводятся по НОВОЙ КАРТЕ!',
         map: 'vorobjevo_2024',
-        owner: 'WN',
         start: 'WN',
         o_site: '160731_WN',
         bulletin: 'https://o-site.spb.ru/_races/160731_WN/160731_info.pdf'
@@ -1376,8 +1388,8 @@ let events2016 = [
     },
     {
         id: 'SPB_20160926_1',
-        date: '2016-09-24',
-        endDate: '2016-09-26',
+        date: '2016-09-24', // !
+        endDate: '2016-09-26', // !
         name: 'Старты в Зеркальном',
         place: 'Зеркальный',
         res: ['https://o-site.spb.ru/_races/160924-26/160924_split.htm','https://o-site.spb.ru/_races/160924-26/160926_split.htm'],
@@ -1434,7 +1446,6 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160928/160928_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/160928/161028_res_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '160928',
         map: 'school_303_2016',
         start: 'SCHOOL'
@@ -1487,7 +1498,6 @@ let events2016 = [
         video: 'https://www.youtube.com/watch?v=2rKJbFJohLc',
         map: 'yagodnoe_ba_2016',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2016-2/bal2016.png'
         ]
@@ -1519,12 +1529,15 @@ let events2016 = [
     {
         id: 'SPB_20161008_1',
         date: '2016-10-08',
+        // endDate: '2016-10-09',
         place: 'Ягодное, оз Берестовое',
+        coord: [60.969749, 30.138672],
         name: '45-е ночные соревнования памяти Анатолия Окинчица',
         res: 'https://o-site.spb.ru/_races/16100809_Ok/161008_res.htm',
         video: 'https://www.youtube.com/watch?v=MrbF5BCPIbY',
         start: 'OKINCHITSA',
-        o_site: '16100809_Ok'
+        o_site: '16100809_Ok',
+        reg: 'https://orgeo.ru/event/3526'
     },
     {
         id: 'SPB_20161008_3',
@@ -1570,7 +1583,6 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/161012/161012_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/161012/161012_res_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '161012',
         map: 'school_490_2016',
         start: 'SCHOOL'
@@ -1631,7 +1643,6 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/161019s/161019_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/161019s/161019_res_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '161019s',
         map: 'school_150_2016',
         start: 'SCHOOL'
@@ -1700,6 +1711,7 @@ let events2016 = [
         fmt: 'командный выбор',
         res: 'https://o-site.spb.ru/_races/161029/161029_res.htm',
         o_site: '161029_',
+        reg: 'http://o-reg.spb.ru/entry-list?id=657',
         bulletin: 'https://o-site.spb.ru/_races/161029_/161029_info.htm',
         start: 'WEDDING'
     },
@@ -1707,6 +1719,7 @@ let events2016 = [
         id: 'SPB_20161030_1',
         date: '2016-10-30',
         place: 'Гарболово',
+        fmt: '4',
         name: '6 этап Кубка Всеволожского района по рогейну',
         type: 'ROGAINE',
         reg: 'http://reg.o-time.ru/start.php?event=16143',
@@ -1760,15 +1773,18 @@ let events2016 = [
         bulletin: 'https://o-site.spb.ru/_races/161106/161106_info.pdf',
         map: 'orovo_north_2016'
     },
+/*
     {
         id: 'SPB_20161110_1',
         date: '2016-11-10',
         endDate: '2016-11-12',
         name: 'Межрегиональный семинар по трейл-Ориентированию',
+        type: 'TRAIL_O',
         res: 'https://o-site.spb.ru/_races/161111/161112_res.pdf',
         o_site: '161111',
         bulletin: 'https://o-site.spb.ru/_races/161111/16111012_seminar_info.pdf'
     },
+*/
     {
         id: 'SPB_20161112_1',
         date: '2016-11-12',
@@ -1816,7 +1832,8 @@ let events2016 = [
         maps: [
             'https://o-site.spb.ru/_races/161120/161120_km.pdf',
             'https://o-site.spb.ru/_races/161120/161120_shemdist.pdf'
-        ]
+        ],
+        owner: 'NW'
     },
     {
         id: 'SPB_20161126_1',
@@ -1840,10 +1857,13 @@ let events2016 = [
         id: 'SPB_20161127_1',
         date: '2016-11-27',
         place: 'Шуваловский парк',
+        fmt: 'выбор', // !
+        coord: [60.00499, 30.392418],
         name: 'Снежная тропа 2016/2017, 3 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/161127_tropa/161127_res.htm',
         o_site: '161127_tropa',
+        reg: 'https://orgeo.ru/event/3693',
         o_gps: 1584,
         bulletin: 'https://o-site.spb.ru/_races/161127_tropa/161127_info3.pdf'
     },
@@ -1941,6 +1961,7 @@ let events2016 = [
         id: 'SPB_20161218_1',
         date: '2016-12-18',
         place: 'Сосновка',
+        coord: [60.00499, 30.392418],
         name: 'Снежная тропа 2016 Финальный этап',
         start: 'SNOW_WAY',
         reg: 'http://o-reg.spb.ru/entry-list?id=666',

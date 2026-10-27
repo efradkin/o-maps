@@ -96,6 +96,7 @@ let events2018 = [
         name: 'ЧиП ЛО',
         start: 'LO_CHAMP',
         type: 'SKI',
+        coord: [59.278816, 32.380589],
         reg: 'http://orgeo.ru/event/registration/5769',
         res: 'https://o-site.spb.ru/_races/18012628/180126_res.pdf',
         o_site: '18012628',
@@ -118,11 +119,13 @@ let events2018 = [
         id: 'SPB_20180128_1',
         date: '2018-01-28',
         place: 'Павловский парк',
+        fmt: 'спринт',
         name: 'Соревнования ко Дню снятия Блокады',
         res: 'https://o-site.spb.ru/_races/180128/180128_split.htm',
         video: 'https://www.youtube.com/watch?v=vPXrpVjzDlQ',
         info: 'Проходят при поддержке ОАО "Фацер"',
         o_site: '180128',
+        reg: 'https://orgeo.ru/event/5925',
         bulletin: 'https://o-site.spb.ru/_races/180128/180128_info3.pdf',
         map: 'pavlovsk_2012'
     },
@@ -139,14 +142,14 @@ let events2018 = [
         bulletin: 'https://o-site.spb.ru/_races/180204_BN/180204_info.pdf'
     },
     {
-        id: 'SPB_20180211_1',
+        id: 'SPB_20180204_2',
         date: '2018-02-04',
-        endDate: '2018-02-11',
         place: 'Зеркальный',
         name: 'Первенство СДЮСШ ОР №2 СПБ ГДТЮ',
         type: 'SKI',
+        fmt: 'спринт',
         reg: 'http://o-reg.spb.ru/entry-list?id=834',
-        res: ['https://o-site.spb.ru/_races/180204/180204_res.htm','https://o-site.spb.ru/_races/180204/180211_split.htm'],
+        res: 'https://o-site.spb.ru/_races/180204/180204_res.htm',
         info: 'Соревнования состоятся в районе ЗЦ Зеркальный 04 февраля - Лыжная гонка-спринт 11 февраля - Лыжная гонка-маркированная трасса (с проколами в карте) На соревнования заявки принимаются только от коллективов Санкт-Петербурга.',
         owner: 'SFSO_SPB',
         o_site: '180204',
@@ -159,7 +162,7 @@ let events2018 = [
         name: 'Matreshka-ski',
         place: 'Цвелодубово',
         type: 'SKI',
-        reg: 'http://o-reg.spb.ru/entry-list?id=838',
+        reg: ['http://o-reg.spb.ru/entry-list?id=838', 'http://o-reg.spb.ru/entry-list?id=839'],
         res: 'https://o-site.spb.ru/_races/18021011_matreshka/180210M_res.htm',
         o_site: '18021011_matreshka',
         bulletin: 'https://o-site.spb.ru/_races/18021011_matreshka/20180210_info_1_1.pdf',
@@ -182,6 +185,20 @@ let events2018 = [
         maps: [
             'https://o-site.spb.ru/_races/18021011/180210_markir_All.pdf'
         ]
+    },
+    {
+        id: 'SPB_20180211_1',
+        date: '2018-02-11',
+        place: 'Зеркальный',
+        name: 'Первенство СДЮСШ ОР №2 СПБ ГДТЮ',
+        type: 'SKI',
+        fmt: 'маркир',
+        reg: 'http://o-reg.spb.ru/entry-list?id=834',
+        res: 'https://o-site.spb.ru/_races/180204/180211_split.htm',
+        info: 'Соревнования состоятся в районе ЗЦ Зеркальный 04 февраля - Лыжная гонка-спринт 11 февраля - Лыжная гонка-маркированная трасса (с проколами в карте) На соревнования заявки принимаются только от коллективов Санкт-Петербурга.',
+        owner: 'SFSO_SPB',
+        o_site: '180204',
+        bulletin: 'https://o-site.spb.ru/_races/180204/180211_info3.pdf'
     },
     {
         id: 'SPB_20180218_1',
@@ -243,6 +260,7 @@ let events2018 = [
         id: 'SPB_20180225_1',
         date: '2018-02-25',
         place: 'Новоорловский парк',
+        fmt: 'выбор',
         name: 'ОРИЕНТИР-КОЛОМЯГИ',
         reg: 'http://o-reg.spb.ru/entry-list?id=844',
         res: 'https://o-site.spb.ru/_races/180225_ok/180225_res.htm',
@@ -328,6 +346,7 @@ let events2018 = [
         id: 'SPB_20180311_1',
         date: '2018-03-11',
         place: 'Шуваловский парк',
+        fmt: 'кросс - классика',
         name: 'П-во Выборгского р-на',
         reg: 'http://o-reg.spb.ru/entry-list?id=850',
         res: 'https://o-site.spb.ru/_races/180311/180311_res.htm',
@@ -340,6 +359,7 @@ let events2018 = [
         id: 'SPB_20180317_1',
         date: '2018-03-17',
         place: 'Пушкин, Нижний парк',
+        fmt: 'кросс - классика общий старт',
         name: 'Весёлый ветер',
         reg: 'http://o-reg.spb.ru/entry-list?id=852',
         res: 'https://o-site.spb.ru/_races/180317_P/180317_res.htm',
@@ -348,10 +368,19 @@ let events2018 = [
         map: 'pushkin_nizhny_2019'
     },
     {
+        id: 'SPB_20180318_1',
+        date: '2018-03-18',
+        name: 'Соревнования по спортивному ориентированию среди жителей Красногвардейского района Санкт-Петербурга',
+        place: 'Красногвардейский р-н',
+        reg: 'https://orgeo.ru/event/6251'
+    },
+    {
         id: 'SPB_20180331_1',
         date: '2018-03-31',
         place: 'Пушкин',
+        fmt: 'кросс - классика',
         name: 'Ориентир-1',
+        start: 'ORIENTIR',
         reg: 'http://o-reg.spb.ru/entry-list?id=863',
         res: 'https://o-site.spb.ru/_races/180331/180331_res.htm',
         info: 'Традиционная серия тренировочных стартов, проводимых КСО "Азимут"',
@@ -360,8 +389,7 @@ let events2018 = [
     },
     {
         id: 'SPB_20180407_1',
-        date: '2018-04-01',
-        endDate: '2018-04-07',
+        date: '2018-04-07',
         name: 'Весенние капели',
         place: 'Болотная станция, Юкки',
         reg: 'http://o-reg.spb.ru/entry-list?id=866',
@@ -382,6 +410,8 @@ let events2018 = [
         id: 'SPB_20180408_1',
         date: '2018-04-08',
         place: 'Сертолово',
+        fmt: 'кросс-классика',
+        coord: [60.145702, 30.205418],
         name: 'Всеволожская тропа:Сертолово',
         start: 'VSEVOLOZHSK_WAY',
         reg: 'http://o-reg.spb.ru/entry-list?id=865',
@@ -428,7 +458,6 @@ let events2018 = [
         photo: 'http://vk.com/album-51571395_253168487',
         video: 'https://www.youtube.com/watch?v=2f03F-oMZ38',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '180418',
         map: 'pushkin_school_552_2018',
         start: 'SCHOOL'
@@ -445,6 +474,15 @@ let events2018 = [
         video: ['https://www.youtube.com/watch?v=9B7c5O_CGBY','https://www.youtube.com/watch?v=oi8F_92svGk'],
         o_site: '180421-22_',
         bulletin: 'https://o-site.spb.ru/_races/180421-22_/180421_22_info3.pdf'
+    },
+    {
+        id: 'SPB_20180421_2',
+        date: '2018-04-21',
+        name: 'Соревнования по спортивному квесту среди жителей Красногвардейского района',
+        place: 'Полюстровский парк',
+        coord: [59.962582, 30.430367],
+        reg: 'https://orgeo.ru/event/6402',
+        endReg: '2018-04-20 20:00'
     },
     {
         id: 'SPB_20180422_1',
@@ -472,9 +510,12 @@ let events2018 = [
         id: 'SPB_20180425_2',
         date: '2018-04-25',
         place: 'Пушкин, Баболовский парк',
+        fmt: 'выбор',
+        coord: [59.730087, 30.397814],
         name: 'Царскосельский Азимут',
         res: 'http://orgeo.ru/live/#/6566',
         o_site: '180425ca',
+        reg: 'https://orgeo.ru/event/6566',
         bulletin: 'https://o-site.spb.ru/_races/180425ca/180425_info3.pdf',
         map: 'pushkin_babolovsky_2019'
     },
@@ -546,6 +587,7 @@ let events2018 = [
         id: 'SPB_20180506_1',
         date: '2018-05-06',
         place: 'Будогощь',
+        coord: [59.315002, 32.412041],
         name: '4-е соревнования Памяти Ю.А.Березюка',
         reg: 'http://orgeo.ru/event/info/5866',
         endReg: '2018-04-28 23:55',
@@ -690,14 +732,15 @@ let events2018 = [
         date: '2018-05-23',
         place: 'школа-интернат №9, ул Старцева, 7',
         name: 'Спортивное ориентирование в школу, Калининский район',
+        start: 'SCHOOL',
         photo: 'http://vk.com/fazer_russia?z=album-51571395_254007253',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Специальный этап, рассчитанный на участие в том числе и детей с нарушениями опорно-двигательного аппарата. Проводится на базе школы-интерната для детей с ограниченными возможностями развития. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
         o_site: '180523'
     },
     {
         id: 'SPB_20180525_1',
-        date: '2018-05-24',
-        endDate: '2018-05-26',
+        date: '2018-05-24', // !
+        endDate: '2018-05-26', // !
         name: 'Спартакиада ВС РФ среди сборных команд ВУЗов',
         place: 'Сертолово, Вартемяги',
         res: 'https://o-site.spb.ru/_races/180524-26/1805_it.pdf',
@@ -744,7 +787,6 @@ let events2018 = [
         video: 'https://www.youtube.com/watch?v=yM4fWkWOB1g',
         map: ['kamennogorsk_ta_2018','smorodinka_2018'],
         start: ['BA','TA'],
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2018-1/BA18.png'
         ]
@@ -920,7 +962,7 @@ let events2018 = [
         endDate: '2018-06-27',
         place: 'Петяярви',
         name: 'Праздник эстафет',
-        reg: 'http://o-reg.spb.ru/entry-list?id=901',
+        reg: ['http://o-reg.spb.ru/entry-list?id=901', 'http://o-reg.spb.ru/entry-list?id=903'],
         o_site: '18062527',
         bulletin: 'https://o-site.spb.ru/_races/18062527/18062527_info2.pdf'
     },
@@ -934,7 +976,6 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/180701/180629_res.htm',
         video: 'https://www.youtube.com/watch?v=bcpXFSBki-E',
         info: 'Организаторы: Клуб спортивного ориентирования «Белые Ночи». При поддержке «Региональной спортивной федерации спортивного ориентирования Ленинградской области».',
-        owner: 'WN',
         start: 'WN',
         o_site: '180701',
         bulletin: 'https://o-site.spb.ru/_races/180701/180629_info.pdf',
@@ -952,7 +993,6 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/180630v/180630v_rez1.htm',
         info: 'Вечерние вело-старты на многодневке Белые Ночи',
         map: ['petjajarvy_2024','wn_2018_06_30'],
-        owner: 'WN',
         start: 'WN',
         o_site: '180630v',
         bulletin: 'https://o-site.spb.ru/_races/180630v/180630v_info.html',
@@ -1156,6 +1196,7 @@ let events2018 = [
         id: 'SPB_20180812_1',
         date: '2018-08-12',
         place: 'Лемболово',
+        fmt: 'кросс - классика',
         name: 'Ладожский ориентир',
         reg: 'http://o-reg.spb.ru/entry-list?id=922',
         res: 'https://o-site.spb.ru/_races/180812_/180812_res.htm',
@@ -1256,6 +1297,7 @@ let events2018 = [
         id: 'SPB_20180908_2',
         date: '2018-09-08',
         place: 'парк СПбПУ',
+        fmt: 'эстафета 2х', // !
         name: 'Чемпионат и первенство СПб - эстафета 2 человека',
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=925',
@@ -1314,6 +1356,7 @@ let events2018 = [
         id: 'SPB_20180915_1',
         date: '2018-09-15',
         place: 'Мичуринское',
+        fmt: 'эстафета 2х', // !
         name: 'Чемпионат и п-во Ленинградской обл., эстафета',
         start: 'LO_CHAMP',
         planner: 'Мичуринское',
@@ -1340,6 +1383,7 @@ let events2018 = [
         id: 'SPB_20180916_1',
         date: '2018-09-16',
         place: 'Мичуринское',
+        fmt: 'кросс - лонг',
         name: 'Чемпионат и п-во Ленинградской обл., лонг',
         start: 'LO_CHAMP',
         reg: 'http://o-reg.spb.ru/entry-list?id=931',
@@ -1371,8 +1415,8 @@ let events2018 = [
     },
     {
         id: 'SPB_20180924_1',
-        date: '2018-09-21',
-        endDate: '2018-09-24',
+        date: '2018-09-21', // !
+        endDate: '2018-09-24', // !
         name: 'Старты в Зеркальном',
         place: 'Зеркальный',
         res: ['https://o-site.spb.ru/_races/180921-24/180921_split.htm','https://o-site.spb.ru/_races/180921-24/180922_split.htm','https://o-site.spb.ru/_races/180921-24/180924_split.htm'],
@@ -1427,10 +1471,11 @@ let events2018 = [
         date: '2018-09-26',
         place: 'ГБОУ лицей №101, ГБОУ шк №468',
         name: 'Спортивное ориентирование в школу, Выборгский р-н',
+        start: 'SCHOOL',
         res: 'https://o-site.spb.ru/_races/180926/180926_res_lab.htm',
         photo: 'http://vk.com/fazer_russia?w=wall-51571395_6078',
         info: 'состоится 17 октября (среда), адрес: актовый зал ДДЮТ (ул. Сантьяго-де-Куба д.4 корп.2), начало в 18-00. Сменная обувь обязательна! Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
-        owner: 'VYBORG',
+        // owner: 'VYBORG',
         o_site: '180926'
     },
     {
@@ -1459,9 +1504,11 @@ let events2018 = [
         id: 'SPB_20180929_3',
         date: '2018-09-29',
         place: 'Будогощь',
+        fmt: 'велокросс - спринт',
         name: 'Ч-т и п-во ЛО по велоориентированию (спринт)',
         start: 'LO_CHAMP',
         type: 'VELO',
+        coord: [59.278816, 32.380589],
         reg: 'http://orgeo.ru/event/7454',
         endReg: '2018-09-28 20:00',
         o_site: '180929_velo',
@@ -1509,7 +1556,6 @@ let events2018 = [
         photo: 'https://vk.com/album-30311715_256332495',
         map: 'toksovo_bal_2018',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2018-2/mapBAL18-1.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2018-2/mapBAL18-2.jpg'
@@ -1533,9 +1579,11 @@ let events2018 = [
         id: 'SPB_20180930_1',
         date: '2018-09-30',
         place: 'Будогощь',
+        fmt: 'велокросс - классика',
         name: 'ЧиП ЛО по велоориентированию (классика)',
         start: 'LO_CHAMP',
         type: 'VELO',
+        coord: [59.278816, 32.380589],
         reg: 'http://orgeo.ru/event/7454',
         endReg: '2018-09-28 20:00',
         o_site: '180930_velo',
@@ -1580,6 +1628,7 @@ let events2018 = [
         date: '2018-10-03',
         place: 'шк №17, ул Бабушкина, 58-1В, Куракина дача',
         name: 'Спортивное ориентирование в школу, Невский р-н',
+        start: 'SCHOOL',
         res: 'https://o-site.spb.ru/_races/181003/181003_res_lab.pdf',
         photo: 'http://vk.com/album-51571395_256951294',
         info: 'Специальный этап на базе школы для детей с ограниченными возможностями здоровья! Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
@@ -1653,8 +1702,7 @@ let events2018 = [
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
         o_site: '181010',
         map: 'school_175_2018',
-        start: 'SCHOOL',
-        owner: 'SFSO_SPB'
+        start: 'SCHOOL'
     },
     {
         id: 'SPB_20181010_2',
@@ -1735,8 +1783,10 @@ let events2018 = [
     },
     {
         id: 'SPB_20181020_1',
+        fmt: 'кросс - классика - общий старт',
+        coord: [60.747391, 28.93955],
         date: '2018-10-20',
-        endDate: '2018-10-21',
+        endDate: '2018-10-21', // !
         place: 'Пальцево',
         name: 'Золотая осень',
         reg: 'http://o-reg.spb.ru/entry-list?id=951',
@@ -1784,8 +1834,9 @@ let events2018 = [
         id: 'SPB_20181021_3',
         date: '2018-10-21',
         place: 'Дюны',
+        fmt: 'кросс - лонг',
         name: 'Памяти Зои Викторовны Пятаковой',
-        reg: 'http://o-reg.spb.ru/entry-list?id=955',
+        reg: 'http://o-reg.spb.ru/entry-list?id=952',
         res: 'https://o-site.spb.ru/_races/181021_/181021_res_PZV.htm',
         o_site: '181021',
         bulletin: 'https://o-site.spb.ru/_races/181021/18102021_info.pdf'
@@ -1835,6 +1886,7 @@ let events2018 = [
         video: 'http://www.northernwind.spb.ru/videosplit/2018/pervenstvostudetov_zolotayaosen/',
         owner: 'AZIMUT',
         o_site: '181027_',
+        reg: 'http://o-reg.spb.ru/entry-list?id=957',
         bulletin: 'https://o-site.spb.ru/_races/181027_/181027_info2.pdf',
         reskeep: 68
     },
@@ -1845,7 +1897,8 @@ let events2018 = [
         place: 'Зеленогорск',
         video: 'http://youtu.be/DYUHvS84FEs',
         o_site: '181028_nwtrail',
-        reskeep: 75
+        reskeep: 75,
+        owner: 'NW'
     },
     {
         id: 'SPB_20181028_2',
@@ -1912,6 +1965,7 @@ let events2018 = [
         id: 'SPB_20181111_1',
         date: '2018-11-11',
         place: 'Лемболово',
+        fmt: 'маркир бегом',
         name: 'Маркир-110',
         reg: 'http://o-reg.spb.ru/entry-list?id=953',
         res: 'https://o-site.spb.ru/_races/181111_mt/181111_split.htm',
@@ -1975,9 +2029,13 @@ let events2018 = [
         id: 'SPB_20181118_3',
         date: '2018-11-18',
         place: 'Гарболово',
+        // fmt: 'соревнования на дистанции кросс - классика',
+        coord: [60.346527, 30.50141],
+        reg: 'https://orgeo.ru/event/7980',
         name: 'Всеволожская тропа, 1 этап',
         start: 'VSEVOLOZHSK_WAY',
-        reskeep: 93
+        reskeep: 93,
+        endReg: '2018-11-16 08:00'
     },
     {
         id: 'SPB_20181118_4',
@@ -2114,6 +2172,7 @@ let events2018 = [
         id: 'SPB_20181216_1',
         date: '2018-12-16',
         place: 'Сосновка',
+        coord: [60.00499, 30.392418],
         name: 'Снежная тропа, 4 этап',
         start: 'SNOW_WAY',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=976',

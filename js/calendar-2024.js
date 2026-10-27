@@ -38,9 +38,11 @@ let events2024 = [
         id: 'SPB_20240108_1',
         date: '2024-01-08',
         place: 'Кировск',
-        name: 'Чемпионат и первенство ЛО, лыжная гонка - спринт',
+        fmt: 'спринт', // !
+        name: 'Чемпионат и первенство ЛО', // !
         start: 'LO_CHAMP',
         type: 'SKI',
+        coord: [59.898834, 31.001806],
         reg: 'http://orgeo.ru/event/kirovsk_ski_o_2024',
         endReg: '2024-01-06 20:00',
         o_site: '240107',
@@ -58,6 +60,15 @@ let events2024 = [
         type: 'ROGAINE',
         fmt: '3.0',
         link: 'https://orgeo.ru/event/32150'
+    },
+    {
+        id: 'SPB_20240112_1',
+        date: '2024-01-12',
+        name: 'Соревнования по спортивному ориентированию "Кубок школьного двора"',
+        place: 'ГБОУ Школа №691',
+        coord: [59.917217, 30.444628],
+        reg: 'https://orgeo.ru/event/32681',
+        endReg: '2024-01-11 23:55'
     },
     {
         id: 'SPB_20240113_1',
@@ -94,6 +105,16 @@ let events2024 = [
         o_gps: 18172
     },
     {
+        id: 'SPB_20240117_1',
+        date: '2024-01-17',
+        name: 'Звездный лыжный поход школьников Курортного района',
+        place: 'Заречная дорога',
+        type: 'SKI',
+        coord: [60.122585, 29.964069],
+        reg: 'https://orgeo.ru/event/32773',
+        endReg: '2024-01-16 17:10'
+    },
+    {
         id: 'SPB_20240119_1',
         date: '2024-01-19',
         endDate: '2024-01-21',
@@ -117,10 +138,12 @@ let events2024 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         fmt: 'спринт, классика',
+        coord: [60.374104, 30.242163],
         res: 'http://orgeo.ru/live/#/33000/2',
         photo: 'http://vk.com/album-154221178_301140651',
         info: 'Чемпионат и Первенство Санкт-Петербурга. Межмуниципальные соревнования. Первенство СФСО Санкт-Петербурга. Программа: 20 января (суббота) — «Лыжная гонка‐спринт»; 21 января (воскресенье) — «Лыжная гонка‐классика».',
         o_site: '240121',
+        reg: 'https://orgeo.ru/event/33000',
         bulletin: 'https://o-site.spb.ru/_races/240121/240121_info1.pdf',
         reskeep: [635, 636],
         map: 'silande_winter_2024',
@@ -128,6 +151,16 @@ let events2024 = [
             '20': 18220,
             '21': 18226
         }
+    },
+    {
+        id: 'SPB_20240120_2',
+        date: '2024-01-20',
+        name: 'РЕГИОНАЛЬНЫЙ ВОЕННО-СПОРТИВНЫЙ ТУРНИР «ЛИГА КАДЕТСКОГО СПОРТА»',
+        place: 'ГБОУ СОШ №364 Фрунзенского района',
+        fmt: 'спринт',
+        coord: [59.845024, 30.384838],
+        reg: 'https://orgeo.ru/event/32997',
+        endReg: '2024-01-19 14:00'
     },
     {
         id: 'SPB_20240127_1',
@@ -172,7 +205,7 @@ let events2024 = [
         place: 'Токсово (ВИФК)',
         name: 'Февральская Лыжня',
         type: 'SKI',
-        reg: 'http://o-reg.spb.ru/?filter[day_id]=1585',
+        reg: ['http://o-reg.spb.ru/?filter[day_id]=1585', 'http://o-reg.spb.ru/?filter[day_id]=1586'],
         res: 'http://orgeo.ru/event/33335',
         o_site: '240204_fl',
         bulletin: 'https://o-site.spb.ru/_races/240204_fl/240204_info2.pdf',
@@ -205,9 +238,11 @@ let events2024 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, Зеркальный',
         start: 'SPB_CHAMP',
         type: 'SKI',
+        coord: [60.24511, 29.132259],
         res: 'http://orgeo.ru/event/33534',
         publish: 'https://o-site.spb.ru/race.php?id=240211',
         o_site: '240211',
+        reg: 'https://orgeo.ru/event/33534',
         bulletin: 'https://o-site.spb.ru/_races/240211/240211-info2.pdf',
         map: 'zerkalny_tarasovskoe_winter_2023',
         o_gps: 18382,
@@ -236,10 +271,41 @@ let events2024 = [
         ]
     },
     {
+        id: 'SPB_20240218_1',
+        date: '2024-02-18',
+        name: 'Соревнования по спортивному ориентированию "Кубок школьного двора"',
+        place: 'ГБУ ДО «ПДДТ» Невского района',
+        coord: [59.887016, 30.485521],
+        reg: 'https://orgeo.ru/event/33487',
+        endReg: '2024-02-17 14:55'
+    },
+    {
+        id: 'SPB_20240218_2',
+        date: '2024-02-18',
+        name: 'Областные соревнования по спортивному ориентированию "Приз РСФСО ЛО"',
+        place: 'База отдыха "Мечта", Будогощь',
+        coord: [59.278816, 32.380589],
+        reg: 'https://orgeo.ru/event/32951',
+        endReg: '2024-02-15 20:00'
+    },
+    {
+        id: 'SPB_20240221_1',
+        date: '2024-02-21',
+        name: 'Ориентирование на лыжах в Курортном районе',
+        place: 'сквер Пограничников', // !
+        type: 'SKI',
+        coord: [60.109776, 29.97377],
+        reg: 'https://orgeo.ru/event/33585',
+        endReg: '2024-02-20 21:00'
+    },
+    {
         id: 'SPB_20240224_1',
         date: '2024-02-24',
         name: 'Kite Adventure Orient Race «ТУУТАРЭЙС»',
         place: 'Туутари Парк',
+        type: 'ROGAINE',
+        // fmt: 'рогейн',
+        coord: [59.692978, 30.178198],
         reg: 'http://orgeo.ru/event/kiteadv',
         endReg: '2024-02-15 23:55',
         info: 'В связи с погодными условиями соревнования Kite Adventure Orient Race «ТУУТАРЭЙС» переносятся предварительно на следующие выходные!!!',
@@ -300,6 +366,17 @@ let events2024 = [
         strava: 10882033709,
         map: 'shuvalovsky_rogaine_2024'
     },
+/*
+    {
+        id: 'SPB_20240303_3',
+        date: '2024-03-03',
+        name: '1',
+        place: 'Осиновая роща',
+        coord: [60.110912, 30.246861],
+        reg: 'https://orgeo.ru/event/33952',
+        bulletin: 'https://orgeo.ru/files/event/file/33952_0a2b4b465f.pdf'
+    },
+*/
     {
         id: 'SPB_20240308_1',
         date: '2024-03-08',
@@ -325,16 +402,25 @@ let events2024 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, Токсово',
         type: 'SKI',
         start: 'SPB_CHAMP',
-        reg: 'http://o-reg.spb.ru/?filter[day_id]=1589',
+        reg: ['http://o-reg.spb.ru/?filter[day_id]=1589', 'http://o-reg.spb.ru/?filter[day_id]=1591', 'http://o-reg.spb.ru/?filter[day_id]=1590'],
         res: 'http://orgeo.ru/live/#/31914',
         o_site: '240310',
         bulletin: 'https://o-site.spb.ru/_races/240310/240310%20info2.pdf'
     },
     {
+        id: 'SPB_20240310_1',
+        date: '2024-03-10',
+        name: 'Открытая тренировка', // !
+        place: 'Кировск, Политехнический техникум', // !
+        coord: [59.898834, 31.001806],
+        reg: 'https://orgeo.ru/event/33752',
+        endReg: '2024-03-07 23:55'
+    },
+    {
         id: 'SPB_20240316_1',
         date: '2024-03-16',
         place: 'Ржевка',
-        name: 'Турнир по спортивному ориентированию для жителей Красногвардейского района',
+        name: 'Турнир для жителей Красногвардейского р-на', // !
         type: 'ROGAINE',
         fmt: '1.0',
         link: 'https://vk.com/orient_spb_lo?w=wall-220245153_709',
@@ -359,6 +445,7 @@ let events2024 = [
         id: 'SPB_20240324_1',
         date: '2024-03-24',
         place: 'Осиновая Роща',
+        coord: [60.110912, 30.246861],
         name: 'Перспектива',
         start: 'PERSPEKTIVA',
         reg: 'http://orgeo.ru/event/info/34408',
@@ -378,9 +465,21 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/info/ski_adventure_2024',
         fmt: '3-х часовой рогейн, способ передвижения - лыжи',
+        coord: [59.590195, 31.166838],
         o_site: '240324r',
         bulletin: 'https://o-site.spb.ru/_races/240324r/240324_info.pdf',
         map: 'shapki_ski_adventure_2026'
+    },
+    {
+        id: 'SPB_20240330_1',
+        date: '2024-03-30',
+        name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
+        place: 'Кавголово (Динамо)',
+        coord: [60.167961, 30.534094],
+        reg: 'https://orgeo.ru/event/34573',
+        endReg: '2024-03-29 15:00',
+        bulletin: 'https://orgeo.ru/files/event/file/34573_f587787a2b.docx'
     },
     {
         id: 'SPB_20240331_1',
@@ -392,6 +491,7 @@ let events2024 = [
         endReg: '2024-03-29 23:55',
         res: 'https://o-site.spb.ru/_races/240331_p/240331_split.htm',
         fmt: 'Общий старт в 12:00. Старт по станции с 12:01 до 12:20',
+        coord: [60.140438, 30.51828],
         o_site: '240331_p',
         bulletin: 'https://o-site.spb.ru/_races/240331_p/240331_info.pdf',
         strava: 11075131561,
@@ -403,16 +503,30 @@ let events2024 = [
         id: 'SPB_20240406_1',
         date: '2024-04-06',
         place: 'Ржевский л/п',
+        reg: 'https://orgeo.ru/event/34658',
         name: 'Турнир на Ржевке',
         type: 'ROGAINE',
+        coord: [59.960522, 30.492346],
         strava: 11118506694,
         map: 'rzhevsky_2024',
-        o_gps: 18822
+        o_gps: 18822,
+        endReg: '2024-04-05 21:00'
+    },
+    {
+        id: 'SPB_20240407_1',
+        date: '2024-04-07',
+        name: 'Соревнования по спортивному ориентированию "Кубок школьного двора"',
+        place: 'ГБУ ДО «ПДДТ» Невского района',
+        coord: [59.887016, 30.485521],
+        reg: 'https://orgeo.ru/event/34726',
+        endReg: '2024-04-06 17:30'
     },
     {
         id: 'SPB_20240413_1',
         date: '2024-04-13',
         place: 'Ладожский парк',
+        fmt: 'Кросс-спринт',
+        coord: [59.943527, 30.457035],
         name: 'Первенство Красногвардейского района',
         reg: 'http://orgeo.ru/event/info/34692',
         endReg: '2024-04-10 23:55',
@@ -427,6 +541,8 @@ let events2024 = [
         id: 'SPB_20240413_2',
         date: '2024-04-13',
         place: 'ГБОУ СОШ 527, 2-й Рабфаковский пер., 1, корп. 4',
+        fmt: 'спринт', // !
+        coord: [59.854771, 30.467773],
         name: 'Районные соревнования «Кубок Обухово»',
         reg: 'http://orgeo.ru/event/info/34596',
         endReg: '2024-04-11 23:00',
@@ -458,6 +574,8 @@ let events2024 = [
         id: 'SPB_20240414_1',
         date: '2024-04-14',
         place: 'Ржевский л/п',
+        // fmt: 'Кросс-классика',
+        coord: [59.960522, 30.492346],
         name: 'Открытие сезона',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1597',
         res: 'http://orgeo.ru/live/#/34995/1',
@@ -469,6 +587,16 @@ let events2024 = [
             'ALL': 18893,
             'М55': 20537
         }
+    },
+    {
+        id: 'SPB_20240414_2',
+        date: '2024-04-14',
+        name: 'Весенний кубок', // !
+        fmt: 'выбор (гроздь)',
+        place: 'Напротив Фанатского',
+        coord: [59.315155, 32.408333],
+        reg: 'https://orgeo.ru/event/34514',
+        endReg: '2024-04-12 20:00'
     },
     {
         id: 'SPB_20240420_1',
@@ -510,9 +638,20 @@ let events2024 = [
         o_gps: 19044
     },
     {
+        id: 'SPB_20240423_2',
+        date: '2024-04-23',
+        endDate: '2024-04-24',
+        name: 'Зарница в Курортном районе',
+        place: 'сквер Пограничников', // !
+        coord: [60.109776, 29.97377],
+        reg: 'https://orgeo.ru/event/35002',
+        endReg: '2024-04-22 18:00'
+    },
+    {
         id: 'SPB_20240427_1',
         date: '2024-04-27',
         place: 'Кавголово (Динамо)',
+        coord: [60.167961, 30.534094],
         name: 'Перспектива - Кавголово',
         start: 'PERSPEKTIVA',
         reg: 'http://orgeo.ru/event/35206',
@@ -526,14 +665,17 @@ let events2024 = [
         id: 'SPB_20240428_1',
         date: '2024-04-28',
         place: 'Энколово',
+        coord: [60.114206, 30.43267],
         name: 'Техника и Тактика',
         res: 'https://o-site.spb.ru/_races/240428TT/240428TT-vosst-combi.htm',
         o_site: '240428TT',
+        reg: 'https://orgeo.ru/event/35015',
         bulletin: 'https://o-site.spb.ru/_races/240428TT/240428TT_info.pdf',
         map: 'enkolovo_2021',
         maps: [
             'https://o-site.spb.ru/_races/240428TT/240428TT_control_map.jpg'
-        ]
+        ],
+        endReg: '2024-04-26 23:55'
     },
     {
         id: 'SPB_20240428_2',
@@ -551,6 +693,8 @@ let events2024 = [
         id: 'SPB_20240428_3',
         date: '2024-04-28',
         place: 'Воронцовский сквер',
+        coord: [59.844418, 30.240202],
+        reg: 'https://orgeo.ru/event/35187',
         name: 'Level up',
         strava: [11280974914,11281226032],
         map: 'vorontsovsky_skver_2024',
@@ -558,12 +702,16 @@ let events2024 = [
             'ALL': 19114,
             'Грозди': 19140,
             'Выбор': 19144
-        }
+        },
+        endReg: '2024-04-26 23:00',
+        bulletin: 'https://orgeo.ru/files/event/file/35187_45dfbf4da1.pdf'
     },
     {
         id: 'SPB_20240429_1',
         date: '2024-04-29',
         place: 'Зеленогорск, Парк культуры и отдыха',
+        fmt: 'Кросс-спринт',
+        coord: [60.204876, 29.742239],
         name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-спринт',
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1599',
@@ -666,6 +814,15 @@ let events2024 = [
         o_gps: 19280
     },
     {
+        id: 'SPB_20240504_4',
+        date: '2024-05-04',
+        name: 'Турнир по спортивному ориентированию',
+        place: 'Ржевский лесопарк',
+        coord: [59.960522, 30.492346],
+        reg: 'https://orgeo.ru/event/35342',
+        endReg: '2024-05-03 20:00'
+    },
+    {
         id: 'SPB_20240505_1',
         date: '2024-05-05',
         name: 'Кубок белых ночей, 9 этап',
@@ -681,6 +838,7 @@ let events2024 = [
         id: 'SPB_20240505_2',
         date: '2024-05-05',
         place: 'Токсово, карьеры',
+        coord: [60.194469, 30.577171],
         name: 'Перспектива 100кп',
         start: 'PERSPEKTIVA',
         reg: 'http://orgeo.ru/event/info/35023',
@@ -694,6 +852,7 @@ let events2024 = [
         id: 'SPB_20240505_3',
         date: '2024-05-05',
         place: 'Пухтолова гора',
+        fmt: 'Кросс-классика',
         name: 'Тренировочный старт',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1612',
         res: 'https://o-site.spb.ru/_races/240905/240505_RES.htm',
@@ -713,13 +872,24 @@ let events2024 = [
         ]
     },
     {
+        id: 'SPB_20240505_5',
+        date: '2024-05-05',
+        name: 'Всеволожский фестиваль по спортивному ориентированию',
+        place: 'парк Песчанка',
+        coord: [60.030949, 30.64176],
+        reg: 'https://orgeo.ru/event/35346',
+        endReg: '2024-05-03 23:00'
+    },
+    {
         id: 'SPB_20240509_1',
         date: '2024-05-09',
         place: 'оз Силанде',
+        fmt: 'классика',
         name: 'Соревнования, посвященные Дню Победы',
         res: 'https://o-site.spb.ru/_races/240509/Split_240509.htm',
         strava: 11369203305,
         o_site: '240509',
+        reg: 'https://orgeo.ru/event/35586',
         bulletin: 'https://o-site.spb.ru/_races/240509/Info_240509.pdf',
         reskeep: 653,
         map: 'silande_2024',
@@ -735,6 +905,7 @@ let events2024 = [
         date: '2024-05-09',
         place: 'Каннельярви',
         name: 'Весенний Марш-бросок (ВМБ)',
+        start: 'MB',
         type: 'TOURISM',
         o_gps: 19360,
         map: 'kanneliarvi_mb_2024'
@@ -745,6 +916,8 @@ let events2024 = [
         name: 'Всеволожский ориентир, Кубок Белых ночей, 10 этап',
         start: 'KBN',
         place: 'Орово',
+        fmt: 'классика',
+        coord: [59.96645, 30.636086],
         reg: 'http://orgeo.ru/event/info/35406',
         endReg: '2024-05-08 23:55',
         info: 'Первенство Заневского городского поселения по спортивному ориентированию «Всеволожский ориентир», посвященных Дню Великой Победы Кубок Белых Ночей 10 этап.',
@@ -769,6 +942,8 @@ let events2024 = [
         date: '2024-05-11',
         name: 'Царскосельский Азимут-2024',
         place: 'Пушкин, Нижний (Отдельный) парк',
+        fmt: 'выбор',
+        coord: [59.705376, 30.371605],
         reg: 'http://orgeo.ru/event/sa24',
         endReg: '2024-05-09 23:55',
         res: 'https://o-site.spb.ru/_races/241105/240511_rez.htm',
@@ -777,12 +952,14 @@ let events2024 = [
         o_site: '241105',
         bulletin: 'https://o-site.spb.ru/_races/241105/241105_IB2.pdf',
         map: 'pushkin_nizhny_2019',
-        o_gps: 19365
+        o_gps: 19365,
+        owner: 'EGRV_EGR'
     },
     {
         id: 'SPB_20240512_1',
         date: '2024-05-12',
         place: 'Орехово, оз Бол Борково',
+        coord: [60.463142, 30.26553],
         name: 'Клубная эстафета «Змей Горыныч»',
         reg: 'http://orgeo.ru/event/34733',
         endReg: '2024-05-09',
@@ -815,19 +992,44 @@ let events2024 = [
         start: 'ROGAINE_110'
     },
     {
+        id: 'SPB_20240512_3',
+        date: '2024-05-12',
+        name: 'Весенний кубок т.к. "Ассоль" ООО "Кинеф"', // !
+        place: 'Орленок',
+        coord: [59.299007, 32.460899],
+        reg: 'https://orgeo.ru/event/34516',
+        endReg: '2024-05-09 21:00'
+    },
+    {
         id: 'SPB_20240514_1',
         date: '2024-05-14',
         place: 'Новгородская ул',
+        fmt: 'спринт', // !
+        coord: [59.983082, 30.351397],
+        reg: 'https://orgeo.ru/event/35606',
         name: 'Sprint camp Saint-Pi #2',
         strava: 11409657567,
         o_gps: 19431
     },
     {
+        id: 'SPB_20240514_2',
+        date: '2024-05-14',
+        name: 'Зарничка в Курортном районе',
+        place: 'ДДТ на Сестре',
+        coord: [60.099049, 29.969873],
+        reg: 'https://orgeo.ru/event/35675',
+        endReg: '2024-05-13 22:50'
+    },
+    {
         id: 'SPB_20240515_1',
         date: '2024-05-15',
         place: 'Владимирская',
+        fmt: 'спринт', // !
+        coord: [59.983082, 30.351397],
+        reg: 'https://orgeo.ru/event/35606',
         name: 'Sprint camp Saint-Pi #3',
-        strava: 11418443568
+        strava: 11418443568,
+        endReg: '2024-05-15 22:50'
     },
     {
         id: 'SPB_20240518_1',
@@ -835,6 +1037,7 @@ let events2024 = [
         name: 'Кубок Белых Ночей, 12 этап',
         start: 'KBN',
         place: 'Болотная станция',
+        coord: [60.254223, 29.798124],
         reg: 'http://orgeo.ru/event/35710',
         endReg: '2024-05-17 20:00',
         res: 'https://o-site.spb.ru/_races/240518_wn/240518_res_WN.htm',
@@ -847,6 +1050,8 @@ let events2024 = [
         date: '2024-05-18',
         endDate: '2024-05-19',
         place: 'оз Вуокса',
+        fmt: '4, 8, 16',
+        info: 'Рогейн на 4, 8 и 16ч. Разрешено участие на байдарках, каяках, каноэ, SUP и пакрафтах.',
         name: 'Водный рогейн',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2024/registration.html',
@@ -856,11 +1061,21 @@ let events2024 = [
         o_gps: 19509
     },
     {
+        id: 'SPB_20240518_4',
+        date: '2024-05-18',
+        name: 'Олимпиада, Ориентирование',
+        place: 'школа 104', // !
+        fmt: 'спринт',
+        coord: [59.986366, 30.349665],
+        reg: 'https://orgeo.ru/event/35816'
+    },
+    {
         id: 'SPB_20240519_1',
         date: '2024-05-19',
         name: 'Кубок Белых Ночей, 13 этап',
         start: 'KBN',
         place: 'Симагино',
+        coord: [60.26482, 29.900597],
         reg: 'http://orgeo.ru/event/35711',
         endReg: '2024-05-18 20:00',
         res: 'https://o-site.spb.ru/_races/240519_wn/240519_res_WN.htm',
@@ -884,14 +1099,26 @@ let events2024 = [
         o_gps: 19477
     },
     {
+        id: 'SPB_20240520_1',
+        date: '2024-05-20',
+        name: 'Физкультурное мероприятие по спортивному ориентированию в рамках X Смотра Конкурса Комитета', // !
+        place: 'Раздельный парк',
+        fmt: 'классика',
+        coord: [59.711834, 30.420385],
+        reg: 'https://orgeo.ru/event/35858'
+    },
+    {
         id: 'SPB_20240525_1',
         date: '2024-05-25',
         place: 'Пулковский парк',
+        fmt: 'спринт',
+        coord: [59.85207, 30.321218],
         name: 'Российский Азимут',
         res: 'http://orgeo.ru/live/#/35998',
         map: 'pulkovsky_2024',
         owner: 'SFSO_SPB',
         o_site: '240525_RA',
+        reg: 'https://orgeo.ru/event/35998',
         bulletin: 'https://o-site.spb.ru/_races/240525_RA/240525_info.pdf',
         o_gps: 19559
     },
@@ -914,17 +1141,18 @@ let events2024 = [
     {
         id: 'SPB_20240525_4',
         date: '2024-05-25',
+        endDate: '2024-05-26',
         place: 'Каннельярви',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         fmt: '6 / 24',
+        coord: [60.335457, 29.328936],
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/34584',
         endReg: '2024-05-21 23:55',
         photo: ['https://vk.com/album-166397868_302923379','https://vk.com/album-30311715_302752378'],
         res: ['https://www.bikeadventure.ru/arhiv/arhiv-2024-1.php','https://vk.com/bikeadventure?w=wall-30311715_2075'],
         start: 'BA',
-        owner: 'BKTV',
         o_gps: 19599,
         map: 'kanneliarvi_ba_2024',
         maps: [
@@ -934,14 +1162,17 @@ let events2024 = [
     {
         id: 'SPB_20240526_1',
         date: '2024-05-26',
-        place: 'оз Сиркиярви',
+        place: 'Гарболово, оз Сиркиярви',
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
         fmt: 'эстафета',
         res: 'http://orgeo.ru/live/#/36008',
         o_site: '240526',
         bulletin: 'https://o-site.spb.ru/_races/240526/240526-info-2.pdf',
+        coord: [60.386765, 30.456762],
+        reg: 'https://orgeo.ru/event/36008',
         reskeep: [655, 656],
+        start: 'SPB_CHAMP',
         map: 'garbolovo_sirkijarvi_2022',
         o_gps: {
             'ALL': 19566,
@@ -981,7 +1212,7 @@ let events2024 = [
         endDate: '2024-06-02',
         place: 'Лемболово',
         name: 'Приз начала лета',
-        reg: 'http://o-reg.spb.ru/?filter[day_id]=1619',
+        reg: ['http://o-reg.spb.ru/?filter[day_id]=1619', 'http://o-reg.spb.ru/?filter[day_id]=1620'],
         res: 'http://orgeo.ru/live/#/36161/2',
         o_site: '240602',
         bulletin: 'https://o-site.spb.ru/_races/240602/240602_info.pdf',
@@ -1027,11 +1258,15 @@ let events2024 = [
         id: 'SPB_20240605_2',
         date: '2024-06-05',
         place: 'Универсам САМПО',
+        coord: [60.023144, 30.3764],
+        reg: 'https://orgeo.ru/event/36088',
         map: 'sampo_2024',
         name: 'Спринт-Тур #3',
         reskeep: 645,
         start: 'SPRINT_TOUR',
-        photo: 'https://vk.ru/album-92124592_303006024'
+        photo: 'https://vk.ru/album-92124592_303006024',
+        endReg: '2024-06-04 23:55',
+        bulletin: 'https://orgeo.ru/files/event/file/36088_7fe8f9375a.png'
     },
     {
         id: 'SPB_20240608_1',
@@ -1039,8 +1274,11 @@ let events2024 = [
         name: 'Чемпионат и первенство Санкт-Петербурга, кросс-лонг',
         start: 'SPB_CHAMP',
         place: 'Пасторское оз',
+        fmt: 'лонг',
+        coord: [60.112347, 30.30233],
         res: 'http://orgeo.ru/live/#/36303/1',
         o_site: '240608',
+        reg: 'https://orgeo.ru/event/36303',
         bulletin: 'https://o-site.spb.ru/_races/240608/240608_info2_3.pdf',
         strava: 11602451194,
         reskeep: 648,
@@ -1051,12 +1289,23 @@ let events2024 = [
         }
     },
     {
+        id: 'SPB_20240608_2',
+        date: '2024-06-08',
+        endDate: '2024-06-09',
+        name: 'Летний турслет ООО "КИНЕФ" - 2024',
+        place: 'Будогощь',
+        fmt: 'эстафета ориентирование',
+        coord: [59.284115, 32.444244],
+        reg: 'https://orgeo.ru/event/36210'
+    },
+    {
         id: 'SPB_20240609_1',
         date: '2024-06-09',
         place: 'Мичуринское',
         name: 'Рогейн 110%',
         type: 'ROGAINE',
         fmt: '3, 6',
+        coord: [60.624508, 29.907143],
         link: 'https://vk.com/rogaine110',
         reg: 'https://orgeo.ru/event/35851',
         endReg: '2024-06-07 23:55',
@@ -1176,13 +1425,16 @@ let events2024 = [
         date: '2024-06-24',
         endDate: '2024-06-27',
         place: 'п. Первомайское',
+        coord: [60.422562, 29.680117],
         name: 'Спортивный фестиваль «Яркий Мир»',
         res: 'https://o-site.spb.ru/_races/24062427/240625_split.htm',
         info: 'Традиционные многодневные соревнования по спортивному ориентированию, центр соревнований совмещен с XXX Мемориалом МИХАИЛА СВЯТКИНА.',
         start: 'YM',
         o_site: '24062427',
+        reg: 'https://orgeo.ru/event/35402',
         bulletin: 'https://o-site.spb.ru/_races/24062427/24062427_info.pdf',
-        map: ['ym_2024_pervomayskoe_sprint', 'ym_2024_pervomayskoe_klassika']
+        map: ['ym_2024_pervomayskoe_sprint', 'ym_2024_pervomayskoe_klassika'],
+        endReg: '2024-06-13 23:55'
     },
     {
         id: 'SPB_20240629_1',
@@ -1207,6 +1459,22 @@ let events2024 = [
         link: 'https://t.me/borderlandrace',
         res: 'https://docs.google.com/spreadsheets/d/1pQEsmbSAN5J9lIg_KnmJ8iSv63hsBV6nOMs1XU2lg7Q/edit?gid=0',
         o_gps: 19954
+    },
+    {
+        id: 'SPB_20240629_3',
+        date: '2024-06-29',
+        name: 'Мега гонка "Путь единства"',
+        place: 'парк АВИАТОРОВ',
+        coord: [59.865173, 30.301865],
+        reg: 'https://orgeo.ru/event/36597'
+    },
+    {
+        id: 'SPB_20240630_1',
+        date: '2024-06-30',
+        name: 'Слет молодежи Ломоносовского р-на',
+        place: 'Раздельный парк',
+        coord: [59.711834, 30.420385],
+        reg: 'https://orgeo.ru/event/36603'
     },
     {
         id: 'SPB_20240701_1',
@@ -1236,6 +1504,7 @@ let events2024 = [
         id: 'SPB_20240706_2',
         date: '2024-07-06',
         place: 'Орехово',
+        coord: [60.458249, 30.291372],
         name: 'Открытая тренировка клуба Dлительный',
         reg: 'http://orgeo.ru/event/36550',
         endReg: '2024-07-04 23:55',
@@ -1259,8 +1528,10 @@ let events2024 = [
         id: 'SPB_20240707_1',
         date: '2024-07-07',
         place: 'Петяярви',
+        fmt: 'рогейн + ориентирование',
         name: 'Петяярви Рогейн + ориентирование',
         type: 'ROGAINE',
+        coord: [60.606731, 30.100178],
         reg: 'http://orgeo.ru/event/info/petayarvi_rogeyn_orient_2024',
         endReg: '2024-07-05',
         res: 'https://o-site.spb.ru/_races/240707_rogaine/240707_split.htm',
@@ -1275,8 +1546,9 @@ let events2024 = [
     },
     {
         id: 'SPB_20240713_1',
+        coord: [60.615528, 29.937141],
         date: '2024-07-13',
-        endDate: '2024-07-14',
+        endDate: '2024-07-14', // !
         name: 'Кубок Белых Ночей 14 и 15 этапы',
         start: 'KBN',
         place: 'Журавлёво',
@@ -1296,6 +1568,7 @@ let events2024 = [
         id: 'SPB_20240714_1',
         date: '2024-07-14',
         place: 'Медное озеро',
+        fmt: '4', // !
         name: 'Карельский рубеж, 3 этап Кубка ЛО по рогейну',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/klo-med-24/registration.html',
@@ -1310,6 +1583,7 @@ let events2024 = [
         name: 'Перспектива',
         start: 'PERSPEKTIVA',
         place: 'Лемболово',
+        coord: [60.416939, 30.327948],
         reg: 'http://orgeo.ru/event/36612#',
         endReg: '2024-07-12 23:55',
         res: 'https://o-site.spb.ru/_races/240714/240714_split.htm',
@@ -1336,6 +1610,7 @@ let events2024 = [
         name: 'Перспектива',
         start: 'PERSPEKTIVA',
         place: 'Комарово',
+        coord: [60.176647, 29.827707],
         reg: 'http://orgeo.ru/event/36827',
         endReg: '2024-07-26 23:55',
         res: 'https://o-site.spb.ru/_races/240728_p/240728_split.htm',
@@ -1364,18 +1639,24 @@ let events2024 = [
     {
         id: 'SPB_20240803_1',
         date: '2024-08-03',
+        endDate: '2024-08-04',
         place: 'оз Тихое',
+        coord: [60.637352, 29.685555],
+        reg: 'https://orgeo.ru/event/36971',
         name: 'Кубок Белых Ночей #18',
         start: 'KBN',
         strava: [12050980404,12050981150],
         reskeep: 651,
         map: 'tikhoe_2024',
-        o_gps: 20141
+        o_gps: 20141,
+        endReg: '2024-08-02 20:00',
+        bulletin: 'https://orgeo.ru/files/event/file/36971_20a3d15564.docx'
     },
     {
         id: 'SPB_20240810_1',
         date: '2024-08-10',
         place: 'Лосево',
+        fmt: '4', // !
         name: 'Рогейн «На Лосевских порогах»',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/klo-los-24/registration.html',
@@ -1389,22 +1670,30 @@ let events2024 = [
         id: 'SPB_20240810_2',
         date: '2024-08-10',
         place: 'Сосново, оз Уловное',
+        coord: [60.592167, 30.229025],
+        reg: 'https://orgeo.ru/event/37045',
         name: 'Кубок Белых Ночей #20',
         start: 'KBN',
         strava: [12110067916,12110447883],
         map: 'sosnovo_ulovnoe_oz_2023',
-        o_gps: 20192
+        o_gps: 20192,
+        endReg: '2024-08-09 21:00',
+        bulletin: 'https://orgeo.ru/files/event/file/37045_5a0a60d92a.docx'
     },
     {
         id: 'SPB_20240811_1',
         date: '2024-08-11',
         place: 'Былинное оз',
+        coord: [60.592167, 30.229025],
+        reg: 'https://orgeo.ru/event/37045',
         name: 'Кубок Белых Ночей #21',
         start: 'KBN',
         reskeep: 664,
         strava: 12119068051,
         map: 'bylinnoe_2023',
-        o_gps: 20200
+        o_gps: 20200,
+        endReg: '2024-08-09 21:00',
+        bulletin: 'https://orgeo.ru/files/event/file/37045_5a0a60d92a.docx'
     },
     {
         id: 'SPB_20240817_1',
@@ -1444,6 +1733,7 @@ let events2024 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, велокросс-лонг',
         start: 'SPB_CHAMP',
         type: 'VELO',
+        coord: [60.412686, 30.272518],
         res: 'https://o-site.spb.ru/_races/240818/240818_ResultList.htm',
         o_site: '240818',
         bulletin: 'https://o-site.spb.ru/_races/240818/240818_info.pdf',
@@ -1471,12 +1761,14 @@ let events2024 = [
         info: 'Ежегодные соревнования History Race, посвященные истории довоенной Финляндии. Старт в 6км от пос.Мичуринское Приозерского р-на Ленинградской обл. Участников ждут велорогейн, беговое ориентирование, поиск КП по космоснимку и старинной карте, бонусные КП, фото-КП. Форматы: приключенческий велорогейн на 8 и 12 часов, беговой рогейн на 10 часов. Командой и лично.',
         o_site: '240831',
         type: ['ROGAINE','VELO'],
+        coord: [60.528454, 29.854282],
         o_gps: 20325
     },
     {
         id: 'SPB_20240831_2',
         date: '2024-08-31',
         place: 'Цвелодубово',
+        coord: [60.360203, 29.551222],
         name: '65-лет ориентированию в России',
         reg: 'http://orgeo.ru/event/info/36862',
         endReg: '2024-08-28 23:55',
@@ -1490,19 +1782,44 @@ let events2024 = [
         map: 'tsvelodubovo_south_2021'
     },
     {
+        id: 'SPB_20240831_3',
+        date: '2024-08-31',
+        name: 'X Традиционные соревнования памяти Ю.А.Березюка - 2024',
+        place: 'Фанатский круг',
+        coord: [59.312447, 32.420113],
+        reg: 'https://orgeo.ru/event/36536',
+        endReg: '2024-08-29 18:00',
+        bulletin: 'https://orgeo.ru/files/event/file/36536_72c5231d0e.pdf',
+        owner: 'EGRV_SRG'
+    },
+    {
+        id: 'SPB_20240831_4',
+        date: '2024-08-31',
+        name: 'Кубок Белых Ночей 22 этап',
+        start: 'KBN',
+        place: 'Ягодное', // !
+        fmt: 'классика',
+        coord: [60.622902, 29.908806],
+        reg: 'https://orgeo.ru/event/37347',
+        endReg: '2024-08-30 20:00'
+    },
+    {
         id: 'SPB_20240901_1',
         date: '2024-09-01',
         place: 'Ягодное',
+        coord: [60.632996, 29.978586],
         name: 'Зеленый Змей 2024',
         res: 'https://o-site.spb.ru/_races/240901ZZ/240901zz_split.htm',
         start: 'GS',
         o_site: '240901ZZ',
+        reg: 'https://orgeo.ru/event/37159',
         bulletin: 'https://o-site.spb.ru/_races/240901ZZ/240901zz_info.pdf',
         o_gps: 20345,
         strava: 12297265168,
         reskeep: 665,
         map: 'gs_2024_09_01',
-        planner: 'KSRKV'
+        planner: 'KSRKV',
+        endReg: '2024-08-30 23:55'
     },
     {
         id: 'SPB_20240901_2',
@@ -1520,23 +1837,46 @@ let events2024 = [
         start: 'ROGAINE_110'
     },
     {
+        id: 'SPB_20240906_1',
+        date: '2024-09-06',
+        name: 'ГБОУ СОШ Морская школа',
+        place: 'Парк Интернациалистов',
+        fmt: 'спринт', // !
+        coord: [59.858749, 30.401691],
+        reg: 'https://orgeo.ru/event/37666'
+    },
+    {
         id: 'SPB_20240907_1',
         date: '2024-09-07',
         place: 'Орехово',
+        coord: [60.456337, 30.286135],
         name: 'Приз газеты «Всеволожские вести»',
         res: 'https://o-site.spb.ru/_races/240907VV/240907_split-experimental.htm',
         start: 'VSEV_VESTI',
         o_site: '240907VV',
+        reg: 'https://orgeo.ru/event/37451',
         bulletin: 'https://o-site.spb.ru/_races/240907VV/240907_info.pdf',
         strava: 12348470229,
         reskeep: 663,
         map: 'orekhovo_2024',
-        o_gps: 20397
+        o_gps: 20397,
+        endReg: '2024-09-05 23:55'
+    },
+    {
+        id: 'SPB_20240907_2',
+        date: '2024-09-07',
+        name: 'Осенний кубок ТК "Ассоль" ООО "Кинеф"', // !
+        place: 'База отдыха "Мечта", Будогощь',
+        coord: [59.278816, 32.380589],
+        reg: 'https://orgeo.ru/event/37315',
+        endReg: '2024-09-05 18:30'
     },
     {
         id: 'SPB_20240908_1',
         date: '2024-09-08',
         place: 'Лемболово',
+        fmt: 'классика',
+        coord: [60.416939, 30.327948],
         name: 'Петербургская осень',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1633',
         res: 'https://o-site.spb.ru/_races/240908/Res_240908.htm',
@@ -1560,18 +1900,33 @@ let events2024 = [
         date: '2024-09-11',
         name: 'Спринт Тур, 4 этап',
         place: 'пр Просвещения',
+        coord: [60.04594, 30.332069],
+        reg: 'https://orgeo.ru/event/37671',
         map: 'school_518_2024',
         start: 'SPRINT_TOUR',
         reskeep: 666,
         strava: 12384865213,
         video: 'https://vkvideo.ru/video-92124592_456239031',
         photo: 'https://vk.ru/album-92124592_304150070',
-        o_gps: 20456
+        o_gps: 20456,
+        endReg: '2024-09-11 09:00',
+        bulletin: 'https://orgeo.ru/files/event/file/37671_2fb7ba7736.pdf'
+    },
+    {
+        id: 'SPB_20240913_1',
+        date: '2024-09-13',
+        name: 'Турнир по спортивному ориентированию',
+        place: 'Ржевский лесопарк',
+        coord: [59.960522, 30.492346],
+        reg: 'https://orgeo.ru/event/37779',
+        endReg: '2024-09-12 23:55'
     },
     {
         id: 'SPB_20240914_2',
-        date: '2024-09-14',
-        endDate: '2024-09-15',
+        date: '2024-09-14', // !
+        endDate: '2024-09-15', // !
+        reg: 'https://orgeo.ru/event/37301',
+        endReg: '2024-09-12 22:55',
         name: 'Мемориал Владимира Алексеева',
         place: 'Мичуринское',
         res: 'https://o-site.spb.ru/_races/240915/split1.htm',
@@ -1603,6 +1958,7 @@ let events2024 = [
         date: '2024-09-20',
         name: 'Золотая осень',
         place: 'ГБУ ДО ЦДЮТТ «Охта»',
+        coord: [59.977673, 30.479654],
         reg: 'http://orgeo.ru/event/participants/37889',
         res: 'https://o-site.spb.ru/_races/240920_zo/240920_split.htm',
         o_site: '240920_zo',
@@ -1625,13 +1981,16 @@ let events2024 = [
         id: 'SPB_20240921_2',
         date: '2024-09-21',
         place: 'Гарболово',
+        coord: [60.346226, 30.500565],
         name: 'Золотые кольца',
         res: 'https://o-site.spb.ru/_races/240921/240921_res.pdf',
         info: 'Традиционные соревнования семейных пар - командные соревнования с раздельным выбором',
         start: 'WEDDING',
         o_site: '240921',
+        reg: 'https://orgeo.ru/event/37746',
         bulletin: 'https://o-site.spb.ru/_races/240921/240921_info.pdf',
-        map: 'garbolovo_2014'
+        map: 'garbolovo_2014',
+        endReg: '2024-09-19 23:55'
     },
     {
         id: 'SPB_20240921_3',
@@ -1649,6 +2008,8 @@ let events2024 = [
         id: 'SPB_20240922_1',
         date: '2024-09-22',
         place: 'Петровское, база Связист',
+        // fmt: 'Кросс-классика',
+        coord: [60.809151, 30.116699],
         name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-классика',
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1628',
@@ -1661,6 +2022,25 @@ let events2024 = [
             'ALL': 20574,
             'М55': 20604
         }
+    },
+    {
+        id: 'SPB_20240923_1',
+        date: '2024-09-23',
+        name: 'Городское ориентирование "Неизвестная Охта"',
+        place: 'Малоохтинский парк',
+        coord: [59.932663, 30.412184],
+        reg: 'https://orgeo.ru/event/37700',
+        endReg: '2024-09-22 23:00',
+        bulletin: 'https://orgeo.ru/files/event/file/37700_6bb1c55595.pdf'
+    },
+    {
+        id: 'SPB_20240924_1',
+        date: '2024-09-24',
+        name: 'Первенство Кировского района по спортивному ориентированию',
+        place: 'Сад 9 января, ротонда',
+        coord: [59.891548, 30.277409],
+        reg: 'https://orgeo.ru/event/37999',
+        endReg: '2024-09-23 23:50'
     },
     {
         id: 'SPB_20240925_1',
@@ -1679,12 +2059,16 @@ let events2024 = [
         id: 'SPB_20240925_2',
         date: '2024-09-25',
         place: 'Пионерская, аллея Поликарпова',
+        coord: [60.008003, 30.289583],
+        reg: 'https://orgeo.ru/event/38062',
         name: 'Спринт-Тур, 5 этап',
         reskeep: 668,
         strava: 12501717192,
         start: 'SPRINT_TOUR',
         map: 'alleya_polikarpova_2024',
-        o_gps: 20617
+        o_gps: 20617,
+        endReg: '2024-09-24 23:55',
+        bulletin: 'https://orgeo.ru/files/event/file/38062_cdd004bece.pdf'
     },
     {
         id: 'SPB_20240927_1',
@@ -1692,8 +2076,11 @@ let events2024 = [
         endDate: '2024-09-30',
         name: 'Старты в Зеркальном',
         place: 'Зеркальный',
+        fmt: 'выбор, классика, спринт',
+        coord: [60.24202, 29.133184],
         res: 'http://orgeo.ru/live/#/38224',
         o_site: '240930',
+        reg: 'https://orgeo.ru/event/38224',
         bulletin: 'https://o-site.spb.ru/_races/240930/240930_info1.pdf',
         map: 'zerkalny_2002',
         o_gps: {
@@ -1724,6 +2111,7 @@ let events2024 = [
         name: 'Лужский меридиан',
         type: 'ROGAINE',
         fmt: '3, 5',
+        coord: [58.517139, 31.274569],
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/info/36929',
         endReg: '2024-09-24 23:00',
@@ -1734,11 +2122,23 @@ let events2024 = [
         start: 'LM'
     },
     {
+        id: 'SPB_20240928_3',
+        date: '2024-09-28',
+        name: 'Кубок Белых Ночей 1 этап',
+        start: 'KBN',
+        place: 'Ильичёво', // !
+        coord: [60.269157, 29.75979],
+        reg: 'https://orgeo.ru/event/38081',
+        endReg: '2024-09-27 20:00'
+    },
+    {
         id: 'SPB_20240929_1',
         date: '2024-09-29',
-        name: 'Чемпионат и Первенство Санкт-Петербурга, эстафета',
+        name: 'Чемпионат и Первенство Санкт-Петербурга', // !
         start: 'SPB_CHAMP',
         place: 'Зеркальный',
+        fmt: 'эстафета',
+        coord: [60.24202, 29.133184],
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1632',
         res: 'http://orgeo.ru/event/38241',
         o_site: '240929',
@@ -1757,15 +2157,24 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/241002/241002_res_lab.pdf',
         photo: 'http://vk.com/album-154221178_304491669',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по физической культуре и спорту Санкт-Петербурга Комитета по образованию Санкт-Петербурга ГБНОУ "Балтийский Берег"',
-        owner: 'SFSO_SPB',
         o_site: '241002',
         map: 'school_339_2024',
         start: 'SCHOOL'
     },
     {
+        id: 'SPB_20241003_1',
+        date: '2024-10-03',
+        name: 'Золотая осень в Курортном районе',
+        place: 'сквер Пограничников', // !
+        coord: [60.109776, 29.97377],
+        reg: 'https://orgeo.ru/event/38194',
+        endReg: '2024-10-02 19:00'
+    },
+    {
         id: 'SPB_20241005_1',
         date: '2024-10-05',
         place: 'Токсово',
+        coord: [60.144947, 30.503898],
         name: 'Открытая тренировка клуба Dлительный',
         reg: 'http://orgeo.ru/event/38249',
         endReg: '2024-10-04 21:00',
@@ -1788,8 +2197,10 @@ let events2024 = [
     {
         id: 'SPB_20241005_3',
         date: '2024-10-05',
+        // endDate: '2024-10-06',
         name: 'Мемориал А.Окинчица',
         place: 'Каменка',
+        coord: [60.501789, 29.010962],
         reg: 'http://orgeo.ru/event/37551',
         endReg: '2024-10-02 18:30',
         start: 'OKINCHITSA',
@@ -1805,13 +2216,13 @@ let events2024 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         fmt: '6.0',
+        coord: [60.392822, 29.728912],
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/37086',
         endReg: '2024-10-01 23:55',
         res: 'https://vk.com/bikeadventure?w=wall-30311715_2181',
         photo: 'https://vk.com/album-30311715_304241338',
         start: 'BA',
-        owner: 'BKTV',
         o_gps: 20726,
         map: 'pervomayskoe_ba_2024',
         maps: [
@@ -1819,9 +2230,32 @@ let events2024 = [
         ]
     },
     {
+        id: 'SPB_20241005_5',
+        date: '2024-10-05',
+        name: 'Кубок Белых Ночей 2 этап',
+        start: 'KBN',
+        place: 'Пухтолова гора', // !
+        fmt: 'классика',
+        coord: [60.22979, 29.663973],
+        reg: 'https://orgeo.ru/event/38265',
+        endReg: '2024-10-04 20:00'
+    },
+    {
+        id: 'SPB_20241005_6',
+        date: '2024-10-05',
+        name: 'Кубок профкома ООО "Кинеф"', // !
+        fmt: 'ночное',
+        place: 'Клуб Ассоль',
+        coord: [59.441673, 32.011719],
+        reg: 'https://orgeo.ru/event/38178',
+        endReg: '2024-10-04 13:00'
+    },
+    {
         id: 'SPB_20241006_1',
         date: '2024-10-06',
         place: 'Невский л/п, усадьба Богословка',
+        fmt: 'классика', // !
+        coord: [59.828262, 30.568319],
         name: 'Соревнования по спортивному ориентированию «Нева-трейл»',
         reg: 'http://orgeo.ru/event/info/38192',
         endReg: '2024-10-03 23:00',
@@ -1831,7 +2265,8 @@ let events2024 = [
         id: 'SPB_20241006_2',
         date: '2024-10-06',
         place: 'Яппиля',
-        name: 'Чемпионат и первенство Санкт-Петербурга, марафон',
+        name: 'Чемпионат и первенство Санкт-Петербурга', // !
+        fmt: 'марафон',
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1635',
         res: 'http://orgeo.ru/live/#/38447',
@@ -1851,14 +2286,18 @@ let events2024 = [
         id: 'SPB_20241009_1',
         date: '2024-10-09',
         place: 'школа № 605 (пр Просвещения, 46-4А)',
+        coord: [60.043076, 30.322456],
         name: 'Спортивное ориентирование - в школу, Выборгский район, школа №605',
         res: 'https://o-site.spb.ru/_races/241009/241009_res_lab.pdf',
         photo: 'http://vk.com/album-154221178_304577699',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по физической культуре и спорту Санкт-Петербурга Комитета по образованию Санкт-Петербурга ГБНОУ "Балтийский Берег"',
         owner: 'VYBORG',
         o_site: '241009',
+        reg: 'https://orgeo.ru/event/38364',
+        bulletin: 'https://orgeo.ru/files/event/file/38364_7f206131da.pdf',
         map: 'school_605_2024',
-        start: 'SCHOOL'
+        start: 'SCHOOL',
+        endReg: '2024-10-08 23:55'
     },
     {
         id: 'SPB_20241009_2',
@@ -1882,10 +2321,41 @@ let events2024 = [
         o_gps: 20849
     },
     {
+        id: 'SPB_20241013_1',
+        date: '2024-10-13',
+        name: 'ОРИЕНТИРОВАНИЕ на соревнованиях памяти Дмитрия Лисового',
+        place: 'Всеволожск, Румболовский парк',
+        coord: [60.037125, 30.633188],
+        reg: 'https://orgeo.ru/event/38451',
+        endReg: '2024-10-12 02:05',
+        bulletin: 'https://orgeo.ru/files/event/file/38451_d331ddd72c.pdf'
+    },
+    {
+        id: 'SPB_20241017_1',
+        date: '2024-10-17',
+        name: 'Первенство Кировского р-на', // !
+        place: 'Усадьба Александрино',
+        coord: [59.845509, 30.220913],
+        reg: 'https://orgeo.ru/event/38384',
+        endReg: '2024-10-14 23:55',
+        cancelled: true
+    },
+    {
+        id: 'SPB_20241018_1',
+        date: '2024-10-18',
+        name: 'Допризывка',
+        place: 'Парк Интернациалистов',
+        fmt: 'спринт',
+        coord: [59.858749, 30.401691],
+        reg: 'https://orgeo.ru/event/38713'
+    },
+    {
         id: 'SPB_20241019_1',
         date: '2024-10-19',
         name: 'Первенство Красногвардейского района',
         place: 'Ржевский л/п',
+        fmt: 'классика', // !
+        coord: [59.960522, 30.492346],
         reg: 'http://orgeo.ru/event/participants/38276#tab',
         res: 'https://o-site.spb.ru/_races/241019/241019_split-1.htm',
         strava: 12691370592,
@@ -1915,27 +2385,42 @@ let events2024 = [
         date: '2024-10-19',
         endDate: '2024-10-20',
         place: 'Гвардейское',
+        fmt: 'лонг',
+        coord: [60.013542, 30.415421],
         name: 'Золотая осень',
         res: 'https://o-site.spb.ru/_races/24101920/split1.htm',
         info: 'Традиционные соревнования в г. Выборге',
         owner: 'VYBORG',
         o_site: '24101920',
+        reg: 'https://orgeo.ru/event/28922',
         map: 'gvardeyskoe_2004'
+    },
+    {
+        id: 'SPB_20241019_4',
+        date: '2024-10-19',
+        name: 'Физкультурное мероприятие по интерактивному фото-ориентированию',
+        place: 'Центр спорта Выборгского р-она', // !
+        coord: [59.997494, 30.357475],
+        reg: 'https://orgeo.ru/event/38416',
+        endReg: '2024-10-18 23:55'
     },
     {
         id: 'SPB_20241020_1',
         date: '2024-10-20',
         place: 'Сестрорецк, Таможенная дорога',
+        coord: [60.134312, 29.952772],
         name: 'Первенство ГБУ СШОР им.В.Коренькова «Памяти З.В.Пятаковой»',
         res: 'https://o-site.spb.ru/_races/241020_PZVP/241020_ofrez.pdf',
         strava: 12699879053,
         o_site: '241020_PZVP',
+        reg: 'https://orgeo.ru/event/38039',
         bulletin: 'https://o-site.spb.ru/_races/241020_PZVP/241020_info2.pdf',
         map: 'sestroretsk_tamozhennaya_doroga_2012',
         o_gps: {
             'МЭ/18/35/45': 20890,
             'ALL': 20884
-        }
+        },
+        endReg: '2024-10-17 23:55'
     },
     {
         id: 'SPB_20241020_2',
@@ -1951,6 +2436,15 @@ let events2024 = [
         o_site: '241020r',
         o_gps: 20892,
         map: 'shapki_KLO_2024'
+    },
+    {
+        id: 'SPB_20241022_1',
+        date: '2024-10-22',
+        name: 'Санкт-Петербургская школьная лига спортивного ориентирования «ТОЧНЫЙ АЗИМУТ» (онлайн)',
+        place: 'Парк Городов Героев',
+        coord: [59.83836, 30.325983],
+        reg: 'https://orgeo.ru/event/38624',
+        endReg: '2024-10-21 15:00'
     },
     {
         id: 'SPB_20241026_1',
@@ -1971,7 +2465,30 @@ let events2024 = [
         },
         maps: [
             'https://o-site.spb.ru/_races/241026/241026_50V_shem_est.jpg'
-        ]
+        ],
+        owner: 'NW'
+    },
+    {
+        id: 'SPB_20241026_2',
+        date: '2024-10-26',
+        name: 'Кубок Белых Ночей 3 этап',
+        start: 'KBN',
+        place: 'Раздолье', // !
+        fmt: 'классика',
+        coord: [60.584446, 30.133951],
+        reg: 'https://orgeo.ru/event/38792',
+        endReg: '2024-10-25 20:00',
+        bulletin: 'https://o-site.spb.ru/_races/241026_bn/241026_info.pdf'
+    },
+    {
+        id: 'SPB_20241027_1',
+        date: '2024-10-27',
+        name: 'Чемпионат и Первенство МО Сертолово',
+        place: 'г. Сертолово "Водоем"',
+        coord: [60.151287, 30.213152],
+        reg: 'https://orgeo.ru/event/38545',
+        endReg: '2024-10-24 23:55',
+        bulletin: 'https://orgeo.ru/files/event/file/38545_7f54df141b.pdf'
     },
     {
         id: 'SPB_20241103_1',
@@ -1989,10 +2506,23 @@ let events2024 = [
         }
     },
     {
+        id: 'SPB_20241103_2',
+        date: '2024-11-03',
+        name: 'Кубок Белых Ночей 4 этап',
+        start: 'KBN',
+        place: 'Петяярви', // !
+        fmt: 'классика',
+        coord: [60.631954, 30.094469],
+        reg: 'https://orgeo.ru/event/38919',
+        endReg: '2024-11-02 20:00'
+    },
+    {
         id: 'SPB_20241104_1',
         date: '2024-11-04',
         name: 'Осенний марафон',
         place: 'Цвелодубово',
+        fmt: 'лонг',
+        coord: [60.378113, 29.582766],
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1640',
         res: 'https://o-site.spb.ru/_races/241104_OM/Res1_OM_241104.htm',
         photo: 'http://photos.app.goo.gl/2VZttyFAQ4PyErVCA',
@@ -2028,6 +2558,7 @@ let events2024 = [
         date: '2024-11-09',
         name: 'МАРКИР 110%',
         place: 'Лемболово',
+        coord: [60.416359, 30.328569],
         reg: 'http://orgeo.ru/event/38765',
         endReg: '2024-11-07 23:55',
         res: 'https://o-site.spb.ru/_races/241109_Markir/241109_RES.htm',
@@ -2045,12 +2576,35 @@ let events2024 = [
         ]
     },
     {
+        id: 'SPB_20241110_1',
+        date: '2024-11-10',
+        name: 'Кубок Белых Ночей 5 этап',
+        start: 'KBN',
+        place: 'Петровское', // !
+        fmt: 'классика',
+        coord: [60.625355, 30.210554],
+        reg: 'https://orgeo.ru/event/39054',
+        endReg: '2024-11-09 20:00',
+        bulletin: 'https://orgeo.ru/files/event/file/39054_9e4bc94a7f.pdf',
+        o_gps: 21080
+    },
+    {
+        id: 'SPB_20241111_1',
+        date: '2024-11-11',
+        name: 'Турнир по фотоориентированию для жителей Красногвардейского района',
+        place: 'Заневский пр., 65 к 1 р. Оккервиль',
+        coord: [59.930305, 30.431145],
+        reg: 'https://orgeo.ru/event/39026',
+        endReg: '2024-11-10 20:00'
+    },
+    {
         id: 'SPB_20241116_1',
         date: '2024-11-16',
         place: 'Луга, Омчино',
         name: 'Рогейн на Лужских берегах',
         type: 'ROGAINE',
         fmt: '3, 6',
+        coord: [58.726257, 29.812109],
         link: 'https://vk.com/event166397868',
         reg: 'https://orgeo.ru/event/38049',
         endReg: '2024-11-13 23:55',
@@ -2076,11 +2630,22 @@ let events2024 = [
         }
     },
     {
+        id: 'SPB_20241119_1',
+        date: '2024-11-19',
+        name: 'Кубок СПАСКа по ориентированию',
+        place: 'Техно-Рузовский спринт',
+        fmt: 'спринт',
+        coord: [59.912884, 30.319599],
+        reg: 'https://orgeo.ru/event/39262'
+    },
+    {
         id: 'SPB_20241123_1',
         date: '2024-11-23',
         name: 'Зеленогорский рогейн + ориентирование',
         place: 'Зеленогорск',
+        fmt: 'рогейн + ориентирование',
         type: 'ROGAINE',
+        coord: [60.254211, 29.798157],
         reg: 'http://orgeo.ru/event/zele_rog',
         endReg: '2024-11-21 23:55',
         res: 'https://o-site.spb.ru/_races/241103_zr/241123_res.htm',
@@ -2094,11 +2659,22 @@ let events2024 = [
         date: '2024-11-23',
         name: 'Соревнования посвященные Дню матери',
         place: 'шк №188, ул Стасовой 4А',
+        fmt: 'спринт',
+        coord: [59.970383, 30.431116],
         reg: 'http://orgeo.ru/event/dm24',
         endReg: '2024-11-21 12:00',
         o_site: '241123',
         bulletin: 'https://o-site.spb.ru/_races/241123/241123_ib2.pdf',
         map: 'poljustrovo_2023'
+    },
+    {
+        id: 'SPB_20241123_3',
+        date: '2024-11-23',
+        name: 'Закрытые районные соревнования Невского района по спортивному туризму и ориентированию',
+        place: 'ГБОУ СОШ №339',
+        coord: [59.903667, 30.462872],
+        reg: 'https://orgeo.ru/event/39229',
+        endReg: '2024-11-22 20:00'
     },
     {
         id: 'SPB_20241124_1',
@@ -2147,9 +2723,20 @@ let events2024 = [
         ]
     },
     {
+        id: 'SPB_20241130_2',
+        date: '2024-11-30',
+        name: 'Районные соревнования Невского р-на "Кубок школьного двора" (1 этап)', // !
+        place: 'Школа -интернат №31',
+        fmt: 'соревнования в дисциплине кросс - спринт',
+        coord: [59.898056, 30.424532],
+        reg: 'https://orgeo.ru/event/39416',
+        endReg: '2024-11-28 23:00'
+    },
+    {
         id: 'SPB_20241201_1',
         date: '2024-12-01',
         place: 'Токсово, Малиновая гора',
+        coord: [60.161853, 30.491893],
         name: 'Dлительное ЗАКРЫТИЕ СЕЗОНА',
         reg: 'http://orgeo.ru/event/info/39278',
         endReg: '2024-11-29 23:55',
@@ -2163,12 +2750,37 @@ let events2024 = [
         id: 'SPB_20241201_2',
         date: '2024-12-01',
         place: 'Лиговка',
+        fmt: 'спринт', // !
+        coord: [59.909794, 30.31238],
+        reg: 'https://orgeo.ru/event/39386',
         name: 'Saint-pi Sprint camp',
         strava: 13020611828,
         owner: 'WN',
         map: 'vladimirskaya-ligovsky_2023',
         o_gps: 21205,
-        me: 'M'
+        me: 'M',
+        endReg: '2024-11-29 20:25',
+        bulletin: 'https://orgeo.ru/files/event/file/39386_21914a9f93.pdf'
+    },
+    {
+        id: 'SPB_20241201_3',
+        date: '2024-12-01',
+        endDate: '2024-12-04',
+        name: 'Чемпионат и первенство Ленинградской области, Сосновоборские Дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
+        place: 'Ювента',
+        fmt: 'эстафета 4, классика, спринт',
+        coord: [59.885307, 29.08267],
+        reg: 'https://orgeo.ru/event/35163'
+    },
+    {
+        id: 'SPB_20241203_1',
+        date: '2024-12-03',
+        name: 'Ориентирование в Лабиринте 2024',
+        place: 'Школа № 456',
+        coord: [59.73888, 30.616499],
+        reg: 'https://orgeo.ru/event/39127',
+        endReg: '2024-12-02 14:00'
     },
     {
         id: 'SPB_20241206_1',
@@ -2184,17 +2796,35 @@ let events2024 = [
         id: 'SPB_20241207_1',
         date: '2024-12-07',
         place: 'Коломна',
+        coord: [59.919544, 30.275805],
+        reg: 'https://orgeo.ru/event/39586',
         name: 'Saint-pi Sprint camp',
         strava: 13063189120,
         map: 'kolomensky_island_2023',
         owner: 'WN',
         o_gps: 21230,
-        me: 'M'
+        me: 'M',
+        endReg: '2024-12-06 10:40',
+        bulletin: 'https://orgeo.ru/files/event/file/39586_8e53d4bac4.pdf'
+    },
+    {
+        id: 'SPB_20241208_1',
+        date: '2024-12-08',
+        name: 'Кубок Белых Ночей 6 этап',
+        start: 'KBN',
+        place: 'Кавголово', // !
+        fmt: 'классика',
+        coord: [60.187702, 30.549641],
+        reg: 'https://orgeo.ru/event/39552',
+        endReg: '2024-12-07 20:00',
+        bulletin: 'https://o-site.spb.ru/_races/241026_bn/241208_info.pdf'
     },
     {
         id: 'SPB_20241214_1',
         date: '2024-12-14',
         place: 'Охта-Парк',
+        fmt: 'классика',
+        coord: [60.142841, 30.451643],
         name: 'Кубок Белых Ночей, 7 этап',
         start: 'KBN',
         reg: 'http://orgeo.ru/event/info/39730',
@@ -2210,6 +2840,7 @@ let events2024 = [
         name: 'Снежная тропа',
         start: 'SNOW_WAY',
         place: 'Удельный парк',
+        fmt: 'Кросс-классика',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1644',
         res: 'http://orgeo.ru/live/#38447/2',
         o_site: '241215',
@@ -2228,6 +2859,8 @@ let events2024 = [
         date: '2024-12-21',
         name: 'Приз Деда Мороза',
         place: 'Кавголово',
+        fmt: 'классика',
+        coord: [60.173641, 30.525888],
         reg: 'http://orgeo.ru/event/39581',
         endReg: '2024-12-20 20:00',
         res: 'https://o-site.spb.ru/_races/moroz_2024/241221_res.htm',
@@ -2241,14 +2874,26 @@ let events2024 = [
         id: 'SPB_20241222_1',
         date: '2024-12-22',
         place: 'Кировск',
-        name: 'Чемпионат и первенство ЛО, ЛГ-классика-общий старт',
+        fmt: 'масс-старт', // !
+        name: 'Чемпионат и первенство ЛО', // !
         type: 'SKI',
+        coord: [59.898834, 31.001806],
         start: 'LO_CHAMP',
         reg: 'http://orgeo.ru/event/kirovsk_ski_o_mass',
         endReg: '2024-12-20 08:00',
         o_site: '241222',
         bulletin: 'http://orgeo.ru/files/event/file/39458_1eb481cbb3.pdf',
         map: 'kirovsk_winter_2024'
+    },
+    {
+        id: 'SPB_20241222_2',
+        date: '2024-12-22',
+        name: 'Открытые соревнования СПб по подземному ориентированию',
+        place: 'катакомба "Жемчужная" вход "Штаны"',
+        coord: [59.667442, 30.801353],
+        reg: 'https://orgeo.ru/event/39789',
+        endReg: '2024-12-19 23:55',
+        bulletin: 'https://disk.yandex.ru/i/rLxj1swZ_bX4CA'
     },
     {
         id: 'SPB_20241229_1',
@@ -2266,5 +2911,17 @@ let events2024 = [
         name: 'Итоговый вечер СФСО СПб',
         info: 'Вечер Федерации спортивного ориентирования Санкт-Петербурга по итогам 2024г. В программе: - награждение за 3 этап Снежной Тропы (15 декабря, Удельный парк) - награждение призёров Чемпионатов России 2024 - награждение за Эстафетную Лигу 2024 - чаепитие, праздничная лотерея На вечере можно будет забрать дипломы за летний Чемпионат и первенство СПб (кроссовые и велокроссовые дисциплины) Начало в 18:00',
         o_site: '241230'
+    },
+    {
+        id: 'SPB_20241230_2',
+        date: '2024-12-30',
+        name: 'Сестрорецкая классика',
+        place: 'Сестрорецк, Таможенная дорога', // !
+        fmt: 'классика',
+        coord: [60.135178, 29.951624],
+        reg: 'https://orgeo.ru/event/40024',
+        endReg: '2024-12-29 21:00',
+        bulletin: 'https://orgeo.ru/files/event/file/40024_dca90bf7b0.pdf',
+        owner: 'WN'
     }
 ];

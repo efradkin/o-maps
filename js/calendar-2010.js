@@ -15,6 +15,7 @@ let events2010 = [
         date: '2010-01-17',
         name: 'На призы газеты Всеволожские Вести',
         place: 'Кузьмоловский',
+        fmt: 'Маркир',
         publish: 'https://o-site.spb.ru/race.php?id=100117_vv',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/100117_vv/100117_res.htm',
@@ -110,6 +111,7 @@ let events2010 = [
         id: 'SPB_20100207_1',
         date: '2010-02-07',
         place: 'Орехово',
+        fmt: 'гонка 45 (Маркированная трасса)',
         name: 'Чемпионат и Первенство СПб, маркир',
         start: 'SPB_CHAMP',
         type: 'SKI',
@@ -119,7 +121,7 @@ let events2010 = [
     {
         id: 'SPB_20100209_1',
         date: '2010-02-09',
-        endDate: '2010-02-11',
+        endDate: '2010-02-10',
         name: 'Первая Зимняя Универсиада Санкт-Петербурга',
         place: 'Орехово',
         type: 'SKI',
@@ -261,6 +263,7 @@ let events2010 = [
         id: 'SPB_20100314_1',
         date: '2010-03-14',
         place: 'Павловский парк',
+        fmt: 'Ориентирование по выбору',
         name: 'Снежная Тропа, 2 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/100315/100314_res.pdf',
@@ -456,7 +459,6 @@ let events2010 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-1.php',
         map: 'razdolie_ba_2010',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2010-1/map-1.png',
             'https://www.bikeadventure.ru/upload/files/arhiv-2010-1/map-2.png'
@@ -682,7 +684,6 @@ let events2010 = [
         place: 'Мичуринское',
         name: 'Фестиваль «Белые Ночи-2010»',
         res: 'https://o-site.spb.ru/_races/10061520/10061520_res.zip',
-        owner: 'WN',
         start: ['WN','YM'],
         o_site: '10061520',
         bulletin: 'https://o-site.spb.ru/_races/10061520/10061520-info.pdf',
@@ -889,6 +890,7 @@ let events2010 = [
         date: '2010-09-15',
         place: 'Токсово, Каменная дорога',
         name: 'Ориентир-8',
+        start: 'ORIENTIR',
         res: 'https://o-site.spb.ru/_races/100421_OR/100915_res.htm',
         info: 'Тренировочный старт КСО Азимут.',
         o_site: '100421_OR'
@@ -1032,6 +1034,7 @@ let events2010 = [
     {
         id: 'SPB_20101009_1',
         date: '2010-10-09',
+        // endDate: '2010-10-10',
         place: 'Зеленогорск, Чёрные оз',
         name: 'XXXIX соревнования по ночному ориентированию памяти А.Окинчица',
         res: 'https://o-site.spb.ru/_races/101009/101009_res.htm',
@@ -1059,7 +1062,6 @@ let events2010 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-2.php',
         map: 'gruzino_ba_2010',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2010-2/bal_10.jpg'
         ]
@@ -1183,6 +1185,7 @@ let events2010 = [
         id: 'SPB_20101104_1',
         date: '2010-11-04',
         place: 'Лемболово',
+        fmt: 'удлинённая',
         name: 'Осенний марафон',
         res: 'https://o-site.spb.ru/_races/101104_Az/101104_res.htm',
         info: 'Традиционные праздничные ноябрьские соревнования на удлинённой дистанции, проводимы клубом Азимут',
@@ -1275,6 +1278,7 @@ let events2010 = [
         id: 'SPB_20101205_2',
         date: '2010-12-05',
         place: 'Песочная',
+        fmt: 'маркированная дист. бегом',
         name: 'Ориентир НатАлка',
         res: 'https://o-site.spb.ru/_races/101205_Az/101205_res.htm',
         info: 'Традиционный старт КСО Азимут',

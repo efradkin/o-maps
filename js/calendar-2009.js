@@ -23,6 +23,7 @@ let events2009 = [
         id: 'SPB_20090118_1',
         date: '2009-01-18',
         place: 'Кузьмоловский',
+        fmt: 'Маркированная трасса, раздельный старт',
         name: 'На приз газеты Всеволожские Вести',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/090118_vesti/090118_res.htm',
@@ -44,6 +45,7 @@ let events2009 = [
         id: 'SPB_20090125_1',
         date: '2009-01-25',
         place: 'Александрино',
+        fmt: 'Ориентирование в заданном направлении',
         name: 'Снежная Тропа, 3 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/090125/090125_res.pdf',
@@ -375,7 +377,8 @@ let events2009 = [
         res: 'http://o-time.ru/content/view/388/28/',
         fmt: 'Заданное направление, масс-старт',
         o_site: '090509_mtb',
-        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#16'
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#16',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20090510_1',
@@ -511,7 +514,6 @@ let events2009 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2009-1.php',
         map: 'vesnino_ba_2009',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2009-1/sm.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2009-1/big_s.jpg'
@@ -1070,7 +1072,8 @@ let events2009 = [
         name: 'Пер-во клуба NordWest',
         res: 'https://o-site.spb.ru/_races/091003_nw/091003_res.htm',
         o_site: '091003_nw',
-        bulletin: 'https://o-site.spb.ru/_races/091003_nw/091003_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/091003_nw/091003_info.htm',
+        owner: 'NW'
     },
     {
         id: 'SPB_20091004_1',
@@ -1098,6 +1101,7 @@ let events2009 = [
     {
         id: 'SPB_20091010_1',
         date: '2009-10-10',
+        // endDate: '2009-10-11',
         place: 'Ягодное',
         name: 'XXXVIII Соревнования по ночному ориентированию памяти А. Окинчица',
         res: 'https://o-site.spb.ru/_races/091010/091010_res.htm',
@@ -1129,6 +1133,7 @@ let events2009 = [
         id: 'SPB_20091017_2',
         date: '2009-10-17',
         place: 'Орехово',
+        fmt: '17 окт - з/н, 18 окт - 2-х эт. эстафета',
         name: 'Чемпионат и П-во ЛО, посвященные 40-летию спортивного ориентирования в ЛО',
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/09101718/091017.htm',
@@ -1184,7 +1189,6 @@ let events2009 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2009-2.php',
         map: 'yappilya_ba_2009',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2009-2/map_bal_09.gif'
         ]
@@ -1294,6 +1298,7 @@ let events2009 = [
         date: '2009-11-22',
         name: 'Маркир-110',
         place: 'Кузьмоловский',
+        fmt: 'Маркир',
         res: 'https://o-site.spb.ru/_races/091122_mark/091122_res.htm',
         start: 'ROGAINE_110',
         o_site: '091122_mark',

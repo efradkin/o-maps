@@ -4,6 +4,8 @@ let samaraEvents2026 = [
         date: '2025-08-21',
         endDate: '2025-08-24',
         place: 'поляна им.Валерия Грушина',
+        fmt: 'спринт, классика',
+        coord: [53.471191, 49.914623],
         name: 'Многодневка ЛУКА — 2025',
         link: 'https://o-63.ru/data/2025/mnogodnevka-luka-2025/',
         reg: 'https://orgeo.ru/event/info/luka_samara2025',

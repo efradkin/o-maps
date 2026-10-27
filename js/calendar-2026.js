@@ -1065,7 +1065,6 @@ let events2026 = [
         o_gps: 24777,
         strava: 18170060238,
         reskeep: 876,
-        owner: 'FENIX',
         map: 'lembolovo_2024',
         me: 'МА'
     },
@@ -1888,8 +1887,7 @@ let events2026 = [
         start: 'CONTROLNY_START',
         place: 'Выборг, Петровское', // !
         coord: [60.804424, 28.762323],
-        reg: 'https://orgeo.ru/event/53504',
-        owner: 'KUZMOLOVO'
+        reg: 'https://orgeo.ru/event/53504'
     },
     {
         id: 'SPB_20260607_1',
@@ -2555,7 +2553,6 @@ let events2026 = [
         reskeep: [912,913,914],
         publish: 'https://vk.ru/wall-207717517_13895',
         video: ['https://www.youtube.com/watch?v=rbA5PLcaub0','https://vkvideo.ru/video-238805001_456239040'],
-        owner: 'NW',
         fmt: 'спринт, ночная классика, классика',
         map: ['vozrozhdenie_2024','vozrozhdenie_2026']
     },
@@ -2819,7 +2816,6 @@ let events2026 = [
         place: 'Фрунзенский р-он, шк №364',
         name: 'Спортивное ориентирование - в школу, №61',
         o_site: '260924',
-        owner: 'SFSO_SPB',
         start: 'SCHOOL',
         photo: 'https://vk.ru/album-230167293_314545646',
         map: 'school_364_2026'
@@ -2990,7 +2986,6 @@ let events2026 = [
         place: 'Выборгский р-он, шк №457',
         name: 'Спортивное ориентирование - в школу, №62',
         o_site: '260930',
-        owner: 'SFSO_SPB',
         start: 'SCHOOL',
         map: 'school_457_2026',
         photo: 'https://vk.ru/album-230167293_314592955',
@@ -3002,7 +2997,6 @@ let events2026 = [
         place: 'Калининский р-он, шк №150',
         name: 'Спортивное ориентирование - в школу, №63',
         o_site: '261001',
-        owner: 'SFSO_SPB',
         start: 'SCHOOL',
         photo: 'https://vk.ru/album-230167293_314592958',
         map: 'school_158_2021'

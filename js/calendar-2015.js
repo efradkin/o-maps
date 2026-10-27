@@ -131,12 +131,16 @@ let events2015 = [
         date: '2015-02-13',
         endDate: '2015-02-15',
         place: 'Будогощь',
+        fmt: 'маркированная трасса, классика, спринт',
         name: 'Чемпионат и первенство Ленинградской обл. по ориентированию на лыжах',
         type: 'SKI',
+        coord: [59.278816, 32.380589],
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/15021315_LO/150213_res.htm',
         o_site: '15021315_LO',
-        bulletin: 'https://o-site.spb.ru/_races/15021315_LO/15021315_info.pdf'
+        reg: 'https://orgeo.ru/event/1469',
+        bulletin: 'https://o-site.spb.ru/_races/15021315_LO/15021315_info.pdf',
+        endReg: '2015-02-12 22:00'
     },
     {
         id: 'SPB_20150214_1',
@@ -226,6 +230,7 @@ let events2015 = [
         id: 'SPB_20150309_1',
         date: '2015-03-09',
         place: 'Ильичёво, Болотная станция',
+        type: 'SKI',
         name: 'Чемпионат СПб среди ВУЗов - Приз закрытия зимнего сезона',
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/',
@@ -409,7 +414,6 @@ let events2015 = [
         photo: 'https://o-site.spb.ru/_races/150422/150422_res_foto.htm',
         video: 'https://www.youtube.com/watch?v=bYdFw1LQXkE',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '150422',
         map: 'school_606_2015',
         start: 'SCHOOL'
@@ -463,6 +467,7 @@ let events2015 = [
         date: '2015-05-01',
         place: 'Шалово',
         name: 'Рогейн Горный кросс-46',
+        start: 'GORNY_CROSS',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/150501R/150501R_res.pdf',
         fmt: '5 и 2 часа БЕГОМ, 4 часа ВЕЛО',
@@ -618,7 +623,6 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150514/150514_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/150514/150514_res_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '150514',
         map: 'lavra_2015',
         start: 'SCHOOL'
@@ -714,7 +718,6 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150520/150520_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/150520/150520_res_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '150520',
         map: 'school_98_2015',
         start: 'SCHOOL'
@@ -764,7 +767,6 @@ let events2015 = [
         photo: 'https://vk.com/album-30311715_215508127',
         map: 'otradnoe_ba_2015',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba2015_1.png',
             'https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba2015_2.png',
@@ -804,6 +806,7 @@ let events2015 = [
         id: 'SPB_20150530_1',
         date: '2015-05-30',
         place: 'Облучье',
+        coord: [59.304283, 32.222488],
         name: 'Соревнования памяти Юрия Березюка',
         reg: 'http://orgeo.ru',
         res: 'https://o-site.spb.ru/_races/150530_Bud/150530_res.htm',
@@ -961,7 +964,6 @@ let events2015 = [
         name: 'Фестиваль «Белые Ночи»',
         place: 'Мичуринское',
         res: 'https://o-site.spb.ru/_races/15061621/150616_split.htm',
-        owner: 'WN',
         start: ['WN','YM'],
         o_site: '15061621',
         bulletin: 'https://o-site.spb.ru/_races/15061621/15061621_info.pdf',
@@ -1051,6 +1053,7 @@ let events2015 = [
         id: 'SPB_20150726_1',
         date: '2015-07-26',
         place: 'Токсово-Рапполово-Охта парк',
+        fmt: '4 часа бегом и вело',
         name: '2 этап кубка Всеволожского района по рогейну',
         type: 'ROGAINE',
         reg: 'http://www.x-race.info/calendar/54796/request/',
@@ -1063,12 +1066,12 @@ let events2015 = [
         date: '2015-08-01',
         place: 'Первомайское',
         name: 'RedFox мультирогейн, RedFox мульти-kids',
+        start: 'RFAR',
         type: ['MULTI', 'ROGAINE'],
         reg: 'http://www.o-reg.spb.ru/entry-list?id=498',
         res: 'https://o-site.spb.ru/_races/150801/150801_res.htm',
         info: 'Рогейн в мультиспортивном формате. Участникам предлагаются следующие форматы: «MR-6» мультирогейн в формате 6 часов, «MR-3» мультирогейн в формате 3 часа, «Kids 9-11» (дети от 9 до 11 лет), «Kids 12-14» (дети от 12 до 14 лет).',
         fmt: '6 часов, 3 часа, детский зачёт',
-        owner: 'RFAR',
         o_site: '150801',
         map: 'pervomajskoe_2015'
     },
@@ -1264,10 +1267,10 @@ let events2015 = [
         date: '2015-09-09',
         place: 'Школа №339, ул Дыбенко 12-2',
         name: 'Спортивное ориентирование - в школу, Невский р-н',
+        start: 'SCHOOL',
         res: 'https://o-site.spb.ru/_races/150909/150909_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/150909/150909_res_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '150909'
     },
     {
@@ -1369,7 +1372,6 @@ let events2015 = [
         photo: 'https://vk.com/album-30311715_216614758',
         map: 'krasna_gorka_ba_2015',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2015-2/bal-2015.png'
         ]
@@ -1378,6 +1380,7 @@ let events2015 = [
         id: 'SPB_20150920_1',
         date: '2015-09-20',
         place: 'ур Воронцово (Симагино)',
+        fmt: 'классическая 60-80 мин.',
         name: 'Классика Белых Ночей',
         res: 'https://o-site.spb.ru/_races/150920T/150920_res.htm',
         owner: 'WN',
@@ -1504,7 +1507,6 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150930/150930_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/150930/150930_res_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '150930',
         map: 'school_149_2022',
         start: 'SCHOOL'
@@ -1519,6 +1521,16 @@ let events2015 = [
         o_site: '150409',
         bulletin: 'https://o-site.spb.ru/_races/150409/151022_info.pdf'
     },
+/*
+    {
+        id: 'SPB_20151002_1',
+        date: '2015-10-02',
+        name: 'тест1',
+        place: 'тест',
+        coord: [59.875996, 29.873159],
+        reg: 'https://orgeo.ru/event/2279'
+    },
+*/
     {
         id: 'SPB_20151003_1',
         date: '2015-10-03',
@@ -1551,7 +1563,6 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/151007/151007_res_foto.htm',
         photo: 'https://o-site.spb.ru/_races/151007/151007_res_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '151007',
         map: 'school_482_2021',
         start: 'SCHOOL'
@@ -1569,6 +1580,7 @@ let events2015 = [
     {
         id: 'SPB_20151010_1',
         date: '2015-10-10',
+        // endDate: '2015-10-11',
         place: 'Яппиля',
         name: 'Мемориал Анатолия Окинчица',
         res: 'http://www.touristclub.ru/files/Results2015.htm',
@@ -1680,7 +1692,6 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/151021/151021_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/151021/151021_res_foto.xls',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '151021',
         map: 'school_141_2015',
         start: 'SCHOOL'
@@ -1716,6 +1727,16 @@ let events2015 = [
         o_site: '150908',
         bulletin: 'http://white-o-nights.ru/wo-8leg/'
     },
+/*
+    {
+        id: 'SPB_20151028_1',
+        date: '2015-10-28',
+        name: 'Тест Эстафета',
+        place: 'тест',
+        coord: [59.875996, 29.873159],
+        reg: 'https://orgeo.ru/event/2287'
+    },
+*/
     {
         id: 'SPB_20151101_1',
         date: '2015-11-01',
@@ -1762,6 +1783,7 @@ let events2015 = [
         date: '2015-11-08',
         name: 'Открытый старт в Орехово',
         place: 'Орехово',
+        fmt: '2-9 км',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/151108/151108_res.htm',
         o_site: '151108',
@@ -1845,11 +1867,14 @@ let events2015 = [
         id: 'SPB_20151122_1',
         date: '2015-11-22',
         place: 'Сосновая поляна',
+        fmt: 'спринт до 25 мин', // !
+        coord: [59.730087, 30.397814],
         name: 'Кубок Санкт-Петербурга «СНЕЖНАЯ ТРОПА 2015/2016», 1 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/151122_ST/151122_res.htm',
         bulletin: 'https://o-site.spb.ru/_races/151122_ST/151122_info4.htm',
         o_site: '151122_ST',
+        reg: 'https://orgeo.ru/event/2327',
         o_gps: 780
     },
     {
@@ -1880,6 +1905,16 @@ let events2015 = [
         res: 'http://o-site.spb.ru/_races/151107wn/151128_split.htm',
         o_site: '151107wn'
     },
+/*
+    {
+        id: 'SPB_20151201_1',
+        date: '2015-12-01',
+        name: 'Первенство Бани',
+        place: 'тест',
+        coord: [59.875996, 29.873159],
+        reg: 'https://orgeo.ru/event/2356'
+    },
+*/
     {
         id: 'SPB_20151205_1',
         date: '2015-12-05',
@@ -1901,6 +1936,7 @@ let events2015 = [
         id: 'SPB_20151206_1',
         date: '2015-12-06',
         place: 'Петродворец',
+        coord: [59.730087, 30.397814],
         name: 'Кубок Санкт-Петербурга «СНЕЖНАЯ ТРОПА 2015/2016», 2 этап',
         start: 'SNOW_WAY',
         reg: 'http://o-reg.spb.ru/entry-list?id=546',
@@ -1933,6 +1969,7 @@ let events2015 = [
         id: 'SPB_20151213_1',
         date: '2015-12-13',
         place: 'Колтуши',
+        fmt: 'Классика',
         name: 'Всеволожская тропа 2015, 5 этап',
         start: 'VSEVOLOZHSK_WAY',
         reg: 'http://o-reg.spb.ru/',
@@ -1966,6 +2003,7 @@ let events2015 = [
         id: 'SPB_20151220_1',
         date: '2015-12-20',
         place: 'Пискаревский парк',
+        coord: [59.730087, 30.397814],
         name: 'Кубок СПб, Снежная Тропа 2015/2016, 3 этап, Финал 2015 года',
         start: 'SNOW_WAY',
         res: 'http://orgeo.ru/online/2327?s=3',
@@ -1973,6 +2011,7 @@ let events2015 = [
         info: 'Вид программы: Ориентирование по выбору с обязательным первым КП.',
         video: 'http://www.northernwind.spb.ru/online/video/',
         o_site: '151220_ST',
+        reg: 'https://orgeo.ru/event/2327',
         map: 'piskarevsky_2012',
         o_gps: 815
     },

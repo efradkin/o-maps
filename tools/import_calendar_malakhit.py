@@ -74,7 +74,7 @@ from html.parser import HTMLParser
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.dont_write_bytecode = True
 import fill_bulletins as FB                                   # noqa: E402  разбор записей
-from sync_calendar import (Ignored, commented_fields, locked_fields, norm_fmt,  # noqa: E402
+from sync_calendar import (Ignored, commented_fields, locked_fields, norm_fmt, rogaine_fmt,  # noqa: E402
                            patch_record, same)              # удалённые записи, «// !», формат, правка на месте
 
 DOC_ID = "1uZyPOj4ksADFaDgNujK6B1QxRRYWYNwrl9r7SY9hJ7k"
@@ -319,7 +319,8 @@ def enrich(rec, use_bulletins):
     blob = (rec["name"] + " " + rec.get("place", "")).lower()
     rogaine = "рогейн" in blob
     rec["type"] = "ROGAINE" if rogaine else DEFAULT_TYPE
-    fmt = norm_fmt(b_fmt) or ("рогейн" if rogaine else None)     # эстафеты — «эстафета 3х»
+    fmt = ((rogaine_fmt(b_fmt) if rogaine else None)       # у рогейнов — только часы: «рогейн 4 часа» -> «4»
+           or norm_fmt(b_fmt) or ("рогейн" if rogaine else None))     # эстафеты — «эстафета 3х»
     if fmt:
         rec["fmt"] = fmt
     rec["owner"] = OWNER

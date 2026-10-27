@@ -1,7 +1,7 @@
 let events2005 = [
     {
         id: 'SPB_20050104_1',
-        date: '2005-01-04',
+        date: '2005-01-04', // !
         place: 'Лемболово',
         name: 'Горный кросс-1',
         type: 'SKI',
@@ -57,6 +57,7 @@ let events2005 = [
         date: '2005-02-05',
         endDate: '2005-02-06',
         place: 'Карельский перешеек',
+        fmt: '10км, 50км, 100км',
         name: 'WINTER EXTREME 2005. 2d Edition',
         type: 'MULTI',
         o_site: '050206_WE'
@@ -136,6 +137,7 @@ let events2005 = [
         id: 'SPB_20050320_1',
         date: '2005-03-20',
         place: 'Зеленогорск',
+        fmt: '5 - 25 км',
         map: 'zelenogorsk_gk_2009',
         name: 'Горный кросс-2',
         type: 'SKI',
@@ -318,8 +320,7 @@ let events2005 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2005-1.php',
-        start: 'BA',
-        owner: 'BKTV'
+        start: 'BA'
     },
     {
         id: 'SPB_20050522_1',
@@ -365,6 +366,7 @@ let events2005 = [
         date: '2005-06-11',
         endDate: '2005-06-12',
         place: 'Лемболово',
+        fmt: '50-100 км',
         name: 'RedFox 2005',
         type: 'MULTI',
         res: 'http://www.adventureraces.ru/objects/2005-6-15/22052_1.xls',
@@ -389,7 +391,6 @@ let events2005 = [
         name: 'Белые Ночи',
         res: 'https://o-site.spb.ru/_races/050517/WN.zip',
         fmt: 'многодневка',
-        owner: 'WN',
         start: ['WN','YM'],
         o_site: '050517',
         map: ['wn_2005_06_18', 'wn_2005_06_19']
@@ -410,6 +411,7 @@ let events2005 = [
         id: 'SPB_20050702_1',
         date: '2005-07-02',
         place: 'Токсово',
+        fmt: '2-х этапные эстафеты',
         name: 'Чемпионат и первенство MTBO SPb Club',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/050702/Results.htm',
@@ -438,6 +440,7 @@ let events2005 = [
         id: 'SPB_20050717_1',
         date: '2005-07-17',
         place: 'Токсово, СКА',
+        fmt: '14км',
         name: 'Пробег Хепоярви',
         res: 'https://o-site.spb.ru/_races/050717/050717_res.zip',
         o_site: '050717'
@@ -583,6 +586,7 @@ let events2005 = [
         id: 'SPB_20050925_1',
         date: '2005-09-25',
         place: 'Токсово, Охта-парк',
+        fmt: 'по выбору',
         name: 'Кубок СДЮШОР №2, Чемпионат ВУЗов',
         o_site: '050925'
     },
@@ -599,6 +603,7 @@ let events2005 = [
         id: 'SPB_20051001_1',
         date: '2005-10-01',
         place: 'Яппиля, оз Плетневое',
+        fmt: 'спринт',
         name: 'приз Mile-sport',
         res: 'https://o-site.spb.ru/_races/051001/051001_res.zip',
         o_site: '051001'
@@ -615,6 +620,7 @@ let events2005 = [
         id: 'SPB_20051002_2',
         date: '2005-10-02',
         place: 'Можайская',
+        fmt: 'средняя дистанция в заданном направлении',
         name: 'МТБО Закрытие сезона 2005',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/051002_MTB/Zakritie2005rez.htm',
@@ -632,6 +638,7 @@ let events2005 = [
     {
         id: 'SPB_20051008_1',
         date: '2005-10-08',
+        // endDate: '2005-10-09',
         place: 'Колосково',
         name: 'XXXIV Соревнования по ночному ориентированию памяти А. Окинчица',
         res: 'https://o-site.spb.ru/_races/051008/051008_res.htm',
@@ -656,7 +663,6 @@ let events2005 = [
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2005-2.php',
         start: 'BA',
-        owner: 'BKTV',
         map: 'zahodskoe_ba_2005',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2005-2/oct_05.jpg'

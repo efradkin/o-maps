@@ -80,7 +80,7 @@ from datetime import date, datetime, timedelta
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.dont_write_bytecode = True
 import fill_bulletins as FB                                   # noqa: E402  разбор записей
-from sync_calendar import (Ignored, commented_fields, locked_fields, norm_fmt,  # noqa: E402
+from sync_calendar import (Ignored, commented_fields, locked_fields, norm_fmt, rogaine_fmt,  # noqa: E402
                            patch_record, same)              # удалённые записи, «// !», формат, правка на месте
 
 SHEET_URL = ("https://docs.google.com/spreadsheets/d/"
@@ -290,6 +290,7 @@ def process_format(ev, s):
         ev["type"] = "SKI"
     elif "рогейн" in s.lower():
         ev["type"] = "ROGAINE"
+        ev["fmt"] = rogaine_fmt(s) or ev["fmt"]     # у рогейнов — только часы: «рогейн 2 часа» -> «2»
     elif "велокросс" in s:
         ev["type"] = "VELO"
     else:

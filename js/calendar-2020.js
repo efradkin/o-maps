@@ -52,6 +52,8 @@ let events2020 = [
         name: 'Чемпионат и Первенство Ленинградской области',
         start: 'LO_CHAMP',
         place: 'Шапки',
+        fmt: 'выбор',
+        coord: [59.604321, 31.194151],
         reg: 'http://orgeo.ru/event/11640',
         endReg: '2020-01-10 08:30',
         res: 'https://o-site.spb.ru/_races/200112_lo/200112_res.htm',
@@ -105,6 +107,8 @@ let events2020 = [
         name: 'Чемпионат и Первенство Ленинградской области',
         start: 'LO_CHAMP',
         place: 'Будогощь',
+        fmt: 'спринт - общий старт, многодневный кросс',
+        coord: [59.278816, 32.380589],
         reg: 'http://orgeo.ru/event/11719',
         endReg: '2020-01-16 19:00',
         bulletin: 'https://o-site.spb.ru/_races/200119_lo/20011719_info1.pdf',
@@ -130,6 +134,8 @@ let events2020 = [
         date: '2020-01-26',
         name: 'Веселый ветер',
         place: 'Павловск',
+        fmt: 'классика',
+        coord: [59.689499, 30.44532],
         reg: 'http://o-reg.spb.ru/entry-list?id=1126',
         res: 'http://orgeo.ru/live/#/11853',
         video: 'https://www.youtube.com/watch?v=T8iwv22Ew-I',
@@ -232,7 +238,7 @@ let events2020 = [
     {
         id: 'SPB_20200223_1',
         date: '2020-02-13',
-        endDate: '2020-02-23',
+        endDate: '2020-02-23', // !
         name: 'Зимняя смена в ЗЦ Зеркальный',
         place: 'Зеркальный',
         res: [
@@ -271,7 +277,8 @@ let events2020 = [
         map: 'lembolovo_2024',
         maps: [
             'https://o-site.spb.ru/_races/200216_NW/200216_map.jpg'
-        ]
+        ],
+        owner: 'NW'
     },
     {
         id: 'SPB_20200216_2',
@@ -356,6 +363,7 @@ let events2020 = [
         endDate: '2020-03-09',
         name: '41-е зимние соревнования На призы газеты Всеволожские вести',
         place: 'Кузьмолово',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/20030809/200308_res.html',
         start: 'VSEV_VESTI',
         o_site: '20030809',
@@ -370,10 +378,13 @@ let events2020 = [
         id: 'SPB_20200311_1',
         date: '2020-03-11',
         place: 'Полюстровский проспект',
+        coord: [59.968937, 30.399048],
+        reg: 'https://orgeo.ru/event/12345',
         name: 'Sprint Tour SPb - 2020, 1 этап',
         start: 'SPRINT_TOUR',
         reskeep: 322,
-        photo: 'https://vk.ru/album-92124592_270983639'
+        photo: 'https://vk.ru/album-92124592_270983639',
+        endReg: '2020-03-11 10:00'
     },
     {
         id: 'SPB_20200313_1',
@@ -454,14 +465,27 @@ let events2020 = [
         cancelled: true
     },
     {
+        id: 'SPB_20200410_1',
+        date: '2020-04-10',
+        name: 'Тренировочный полигон. СК им. Алексеева',
+        place: 'СК им Алексеева',
+        coord: [60.012905, 30.361776],
+        reg: 'https://orgeo.ru/event/12547',
+        endReg: '2020-04-09 20:00'
+    },
+    {
         id: 'SPB_20200411_1',
         date: '2020-04-11',
         name: 'Онлайн-старт по трейл-ориентированию',
+        place: 'Муринский парк',
         res: 'https://o-site.spb.ru/_races/200411/rezultaty.pdf',
         info: '11 апреля в 20.01 пройдёт тренировочный онлайн-старт по трейл-ориентированию. Пожалуйста отнеситесь с пониманием. Заполните форму только один раз. И будьте внимательны при вводе уникального стартового номера.',
         type: 'TRAIL_O',
+        coord: [60.026901, 30.398426],
         o_site: '200411',
-        bulletin: 'https://o-site.spb.ru/_races/200411/200411_inf_.pdf'
+        reg: 'https://orgeo.ru/event/12580',
+        bulletin: 'https://o-site.spb.ru/_races/200411/200411_inf_.pdf',
+        endReg: '2020-04-11 06:00'
     },
     {
         id: 'SPB_20200418_1',
@@ -471,8 +495,11 @@ let events2020 = [
         res: 'http://o-site.spb.ru/_races/200418/200418_rez.pdf',
         info: '18 апреля в 20.01 пройдёт второй этап тренировочного онлайн-старта по трейл-ориентированию. Местность в заданиях - «Комаровский берег».',
         type: 'TRAIL_O',
+        coord: [60.179947, 29.798918],
         o_site: '200418',
-        bulletin: 'http://o-site.spb.ru/_races/200418/200418_inf.pdf'
+        reg: 'https://orgeo.ru/event/12594',
+        bulletin: 'http://o-site.spb.ru/_races/200418/200418_inf.pdf',
+        endReg: '2020-04-18 06:00'
     },
     {
         id: 'SPB_20200425_2',
@@ -488,11 +515,13 @@ let events2020 = [
         id: 'SPB_20200426_1',
         date: '2020-04-26',
         name: 'Онлайн-старт по трейл-ориентированию, 3 этап',
+        place: 'Дюны 2',
         reg: 'http://orgeo.ru/event/12605',
         endReg: '2020-04-26 06:00',
         res: 'http://o-site.spb.ru/_races/200426/200426_rezultaty.pdf',
         info: '26 апреля (воскресенье!) состоится третий этап онлайн-старта по трейл-ориентированию (дисциплина "точное ориентирование"/PreO).',
         type: 'TRAIL_O',
+        coord: [60.118328, 29.967537],
         o_site: '200426',
         bulletin: 'https://o-site.spb.ru/_races/200426/26_aprelya_Byulleten-2.pdf',
         maps: [
@@ -528,11 +557,13 @@ let events2020 = [
         id: 'SPB_20200510_1',
         date: '2020-05-10',
         name: 'Онлайн-старт по трейл-ориентированию, 4 этап',
+        place: 'Дюны (Таможенная дорога)',
         reg: 'http://orgeo.ru/event/info/12629',
         endReg: '2020-05-10 06:00',
         res: 'http://o-site.spb.ru/_races/200510/200510_rez_-_kopia5.pdf',
         info: '10 мая (воскресенье) состоится четвёртый этап онлайн-старта по трейл-ориентированию (дисциплина "точное ориентирование"/PreO).',
         type: 'TRAIL_O',
+        coord: [60.134312, 29.952772],
         o_site: '200510',
         bulletin: 'https://o-site.spb.ru/_races/200510/10_maya_Info_byulleten.pdf',
         maps: [
@@ -571,6 +602,7 @@ let events2020 = [
         date: '2020-05-23',
         place: 'Луга',
         name: 'Новгородский меридиан',
+        start: 'LM',
         type: 'ROGAINE',
         fmt: '4',
         video: ['https://www.youtube.com/watch?v=JkeIvn02TUs','https://www.youtube.com/watch?v=BMivTrC_Dyc'],
@@ -588,7 +620,6 @@ let events2020 = [
         photo: 'https://vk.com/album-30311715_267426606',
         map: 'kirillovskoe_2020',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2020-1/BA20.jpg'
         ]
@@ -609,11 +640,13 @@ let events2020 = [
         id: 'SPB_20200601_1',
         date: '2020-06-01',
         name: 'Онлайн-старт по трейл-ориентированию, 5 этап',
+        place: 'Верхнее Суздальское озеро',
         reg: 'http://orgeo.ru/event/info/12689',
         endReg: '2020-05-31 16:00',
         res: 'https://o-site.spb.ru/_races/200601/200601_SCHOOL_REZ.pdf',
         info: '1 июня (понедельник) состоится онлайн-старт по трейл-О, приуроченный ко Дню защиты детей. Дистанция: TempO (Спринт)',
         type: 'TRAIL_O',
+        coord: [60.03701, 30.312908],
         o_site: '200601',
         bulletin: 'https://o-site.spb.ru/_races/200601/01_iyunya_IB.pdf'
     },
@@ -646,13 +679,24 @@ let events2020 = [
         name: 'Велоизоляция',
         type: 'ROGAINE',
         fmt: '8, 4',
-        link: 'http://www.multsport.ru'
+        link: 'http://www.multsport.ru',
+        owner: 'MULTSPORT'
+    },
+    {
+        id: 'SPB_20200618_1',
+        date: '2020-06-18',
+        name: 'Чемпионат Западного военного округа',
+        place: 'Раздельный парк',
+        fmt: 'эстафета 3х',
+        coord: [59.711834, 30.420385],
+        reg: 'https://orgeo.ru/event/12820'
     },
     {
         id: 'SPB_20200620_2',
         date: '2020-06-20',
         place: 'Луга',
         name: 'Новгородский меридиан',
+        start: 'LM',
         video: 'https://www.youtube.com/watch?v=xbPg-UxPbAg',
         type: 'ROGAINE',
         fmt: '4',
@@ -708,7 +752,8 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '10, 6',
         link: 'https://vk.com/adventureraces',
-        o_gps: 7781
+        o_gps: 7781,
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20200628_1',
@@ -766,6 +811,15 @@ let events2020 = [
         owner: 'WN'
     },
     {
+        id: 'SPB_20200705_2',
+        date: '2020-07-05',
+        name: 'Техника и тактика',
+        place: 'Первомайскоe',
+        coord: [60.410271, 29.712158],
+        reg: 'https://orgeo.ru/event/12874',
+        endReg: '2020-07-04 21:00'
+    },
+    {
         id: 'SPB_20200711_1',
         date: '2020-07-11',
         place: 'Мичуринское',
@@ -788,9 +842,12 @@ let events2020 = [
         id: 'SPB_20200712_1',
         date: '2020-07-12',
         place: 'Ягодное',
+        coord: [60.635677, 29.988073],
+        reg: 'https://orgeo.ru/event/12932',
         name: 'Тренировочный старт Яркого Мира. Техника и Тактика 2',
         reskeep: 335,
-        strava: 3751749892
+        strava: 3751749892,
+        endReg: '2020-07-11 20:00'
     },
     {
         id: 'SPB_20200718_1',
@@ -889,8 +946,11 @@ let events2020 = [
         id: 'SPB_20200801_1',
         date: '2020-08-01',
         place: 'Лосево',
+        coord: [60.69067, 29.917124],
+        reg: 'https://orgeo.ru/event/13092',
         name: 'Тренировочный старт Яркого Мира. Техника и тактика 3. Спринт 1',
-        reskeep: [351, 352]
+        reskeep: [351, 352],
+        endReg: '2020-07-31 09:00'
     },
     {
         id: 'SPB_20200801_3',
@@ -905,8 +965,11 @@ let events2020 = [
         id: 'SPB_20200802_1',
         date: '2020-08-02',
         place: 'Лосево',
+        coord: [60.677929, 29.927185],
+        reg: 'https://orgeo.ru/event/13093',
         name: 'Тренировочный старт Яркого Мира. Техника и тактика 3',
-        reskeep: 350
+        reskeep: 350,
+        endReg: '2020-07-31 09:00'
     },
     {
         id: 'SPB_20200807_1',
@@ -924,6 +987,7 @@ let events2020 = [
         date: '2020-08-12',
         name: 'Онлайн-старт по ориентированию',
         place: 'Муринский парк',
+        coord: [60.020859, 30.420368],
         reg: 'http://orgeo.ru/event/info/13161',
         endReg: '2020-08-12 12:00',
         res: 'https://o-site.spb.ru/_races/200812/200812_rez.pdf',
@@ -986,6 +1050,7 @@ let events2020 = [
         date: '2020-08-23',
         name: 'Памяти Димы Фатидинова',
         place: 'Вартемяги',
+        coord: [60.155235, 30.307243],
         reg: 'http://orgeo.ru/event/13253',
         endReg: '2020-08-22 18:00',
         res: 'https://o-site.spb.ru/_races/200823/200823_res.html',
@@ -1062,25 +1127,31 @@ let events2020 = [
         id: 'SPB_20200830_2',
         date: '2020-08-30',
         place: 'Мельничный ручей',
+        coord: [59.983475, 30.685045],
+        reg: 'https://orgeo.ru/event/13229',
         name: 'Техника и тактика, 5 этап',
         strava: 3987228924,
-        map: 'vsevolozhsk_zhdanovskie_oz_2014'
+        map: 'vsevolozhsk_zhdanovskie_oz_2014',
+        endReg: '2020-08-28 23:00'
     },
     {
         id: 'SPB_20200903_1',
         date: '2020-09-03',
         place: 'Токсово',
+        coord: [60.150196, 30.473648],
         name: 'Кузьмоловские старты, 1 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/200903_KS/200903_res.htm',
         reskeep: 359,
         o_site: '200903_KS',
-        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf'
+        reg: 'https://orgeo.ru/event/13390',
+        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf',
+        endReg: '2020-09-03 12:00'
     },
     {
         id: 'SPB_20200905_1',
         date: '2020-09-05',
-        endDate: '2020-09-06',
+        endDate: '2020-09-06', // !
         place: 'Сосновый Бор',
         name: 'СОСНОВОБОРСКИЕ ДЮНЫ - 2020',
         start: 'SOSNOVOBORSKY_DUNY',
@@ -1118,22 +1189,28 @@ let events2020 = [
         id: 'SPB_20200909_1',
         date: '2020-09-09',
         place: 'м Новочеркасская',
+        coord: [59.928406, 30.411463],
+        reg: 'https://orgeo.ru/event/12484',
         name: 'Sprint Tour SPb - 2020, 2 этап',
         start: 'SPRINT_TOUR',
         reskeep: 363,
         map: 'novocherkasskaya_2020',
-        photo: 'https://vk.ru/album-92124592_274798090'
+        photo: 'https://vk.ru/album-92124592_274798090',
+        endReg: '2020-09-09 10:00'
     },
     {
         id: 'SPB_20200910_1',
         date: '2020-09-10',
         place: 'Кузьмолово',
+        coord: [60.121426, 30.503517],
         name: 'Кузьмоловские старты, 2 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/200903_KS/200910_res.htm',
         reskeep: 366,
         o_site: '200903_KS',
-        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf'
+        reg: 'https://orgeo.ru/event/13392',
+        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf',
+        endReg: '2020-09-10 12:00'
     },
     {
         id: 'SPB_20200912_1',
@@ -1152,7 +1229,8 @@ let events2020 = [
             '3': 8137,
             '4': 8136,
             '5': 8138
-        }
+        },
+        owner: 'NW'
     },
     {
         id: 'SPB_20200912_2',
@@ -1210,6 +1288,7 @@ let events2020 = [
         photo: 'http://vk.com/spb_orient?z=album-154221178_274831695',
         info: '15 сентября в Муринском парке пройдёт открытая тренировка «Доступный спорт» по трейл-ориентированию (дистанция PreO). Мероприятие проводится в рамках проекта «Молодежный открытый фестиваль «Доступный спорт».',
         type: 'TRAIL_O',
+        coord: [60.026901, 30.398426],
         o_site: '200915',
         maps: [
             'https://o-site.spb.ru/_races/200915/solution_.pdf'
@@ -1219,12 +1298,15 @@ let events2020 = [
         id: 'SPB_20200917_1',
         date: '2020-09-17',
         place: 'Вартемяги',
+        coord: [60.155235, 30.307243],
         name: 'Кузьмоловские старты, 3 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/200903_KS/200917_res.htm',
         reskeep: 373,
         o_site: '200903_KS',
-        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf'
+        reg: 'https://orgeo.ru/event/13393',
+        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf',
+        endReg: '2020-09-17 12:00'
     },
     {
         id: 'SPB_20200918_1',
@@ -1250,11 +1332,14 @@ let events2020 = [
         id: 'SPB_20200919_2',
         date: '2020-09-19',
         place: 'Васкелово',
+        coord: [60.372383, 30.260702],
+        reg: 'https://orgeo.ru/event/13648',
         name: 'White Nights Middle',
         start: 'WHITE_NIGHTS',
         res: 'http://o-site.spb.ru/_races/2020WN/200919_split.htm',
         reskeep: 368,
-        strava: 4083562005
+        strava: 4083562005,
+        endReg: '2020-09-18 23:55'
     },
     {
         id: 'SPB_20200919_3',
@@ -1271,10 +1356,13 @@ let events2020 = [
         id: 'SPB_20200920_1',
         date: '2020-09-20',
         place: 'м Лесная',
+        coord: [59.961487, 30.309471],
+        reg: 'https://orgeo.ru/event/13660',
         name: 'Tour de Sprint. Старт 1',
         reskeep: 375,
         map: 'lesnaya_kantemirovskaya_2024',
-        maps: './original_maps/starts/other/lesnaya_st_2020_09_20_omaps.webp'
+        maps: './original_maps/starts/other/lesnaya_st_2020_09_20_omaps.webp',
+        endReg: '2020-09-19 12:00'
     },
     {
         id: 'SPB_20200920_2',
@@ -1285,6 +1373,16 @@ let events2020 = [
         res: 'http://o-site.spb.ru/_races/2021BN/200920_split.htm',
         o_site: '2021BN',
         bulletin: 'https://o-site.spb.ru/_races/2021BN/210905_info.pdf'
+    },
+    {
+        id: 'SPB_20200920_3',
+        date: '2020-09-20',
+        name: 'Памяти Ю.А.Березюка - 2020',
+        place: 'пос. Будогощь',
+        coord: [59.314949, 32.411793],
+        reg: 'https://orgeo.ru/event/13417',
+        endReg: '2020-09-18 12:00',
+        owner: 'EGRV_SRG'
     },
     {
         id: 'SPB_20200921_1',
@@ -1306,27 +1404,36 @@ let events2020 = [
         id: 'SPB_20200922_1',
         date: '2020-09-22',
         place: 'Матвеевский сад',
+        coord: [59.961487, 30.309471],
+        reg: 'https://orgeo.ru/event/13660',
         name: 'Tour de Sprint. Старт 4',
-        reskeep: 378
+        reskeep: 378,
+        endReg: '2020-09-19 12:00'
     },
     {
         id: 'SPB_20200923_1',
         date: '2020-09-23',
         place: 'ул Бутлерова',
+        coord: [60.001087, 30.402361],
+        reg: 'https://orgeo.ru/event/13736',
         name: 'Sprint Tour SPb - 2020, 3 этап',
         start: 'SPRINT_TOUR',
         reskeep: 327,
-        photo: 'https://vk.ru/album-92124592_275019777'
+        photo: 'https://vk.ru/album-92124592_275019777',
+        endReg: '2020-09-23 01:00'
     },
     {
         id: 'SPB_20200924_1',
         date: '2020-09-24',
         place: 'Кузьмолово',
+        coord: [60.113289, 30.516993],
         name: 'Кузьмоловские старты, 4 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/200903_KS/200924_res.htm',
         o_site: '200903_KS',
-        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf'
+        reg: 'https://orgeo.ru/event/13394',
+        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf',
+        endReg: '2020-09-24 12:00'
     },
     {
         id: 'SPB_20200926_1',
@@ -1359,7 +1466,6 @@ let events2020 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2020-2.php',
         map: 'yappilya_ba_2020',
         start: ['BA','TA'],
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2020-2/bal20.jpg'
         ]
@@ -1381,6 +1487,7 @@ let events2020 = [
         place: 'Великий Новгород',
         region: 'NOVGOROD',
         name: 'Новгородский меридиан (городской рогейн)',
+        start: 'LM',
         type: 'ROGAINE',
         fmt: '4',
         link: 'https://vk.com/club91656163'
@@ -1389,8 +1496,11 @@ let events2020 = [
         id: 'SPB_20200927_1',
         date: '2020-09-27',
         place: 'Неизвестно',
+        coord: [60.12925, 30.418903],
+        reg: 'https://orgeo.ru/event/13790',
         name: 'Тренировочный старт Яркого Мира. Техника и тактика 6',
-        reskeep: 379
+        reskeep: 379,
+        endReg: '2020-09-26 15:00'
     },
     {
         id: 'SPB_20200927_2',
@@ -1408,11 +1518,27 @@ let events2020 = [
         id: 'SPB_20201001_1',
         date: '2020-10-01',
         place: 'Токсово, Малиновая гора',
+        coord: [60.161575, 30.493732],
         name: 'Кузьмоловские старты, 5 этап',
         start: 'KUZMOLOVSKY_STARTS',
         o_site: '200903_KS',
-        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf'
+        reg: 'https://orgeo.ru/event/13852',
+        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf',
+        endReg: '2020-10-01 12:00'
     },
+/*
+    {
+        id: 'SPB_20201002_1',
+        date: '2020-10-02',
+        endDate: '2020-10-24',
+        name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
+        place: 'ДОЛ Университетский',
+        fmt: 'спринт, классика, эстафета',
+        coord: [60.288475, 29.311214],
+        reg: 'https://orgeo.ru/event/13929'
+    },
+*/
     {
         id: 'SPB_20201003_1',
         date: '2020-10-03',
@@ -1462,6 +1588,7 @@ let events2020 = [
         id: 'SPB_20201008_1',
         date: '2020-10-08',
         place: 'Токсово, Комбыт',
+        coord: [60.137444, 30.496565],
         name: 'Кузьмоловские старты, 6 этап',
         start: 'KUZMOLOVSKY_STARTS',
         reg: 'http://orgeo.ru/event/13945',
@@ -1544,10 +1671,13 @@ let events2020 = [
         id: 'SPB_20201017_2',
         date: '2020-10-17',
         place: 'Удельная, ул Нежинская',
+        coord: [60.008282, 30.321062],
+        reg: 'https://orgeo.ru/event/14081',
         name: 'Sprint Tour SPb - 2020, 4 этап',
         start: 'SPRINT_TOUR',
         reskeep: 387,
-        photo: 'https://vk.ru/album-92124592_275383837'
+        photo: 'https://vk.ru/album-92124592_275383837',
+        endReg: '2020-10-16 18:30'
     },
     {
         id: 'SPB_20201018_1',
@@ -1566,6 +1696,7 @@ let events2020 = [
         name: 'Рогейн 110 - V этап',
         place: 'Гарболово',
         type: 'ROGAINE',
+        coord: [60.346527, 30.50141],
         reg: 'http://orgeo.ru/event/13859',
         endReg: '2020-10-18 00:00',
         res: 'https://o-site.spb.ru/_races/201018_110/201018_res2.htm',
@@ -1644,12 +1775,15 @@ let events2020 = [
         id: 'SPB_20201031_2',
         date: '2020-10-31',
         place: 'м Академическая',
+        coord: [60.007809, 30.395241],
+        reg: 'https://orgeo.ru/event/14177',
         map: 'school_470_2020',
         name: 'Sprint Tour SPb - 2020, 5 этап',
         start: 'SPRINT_TOUR',
         reskeep: 388,
         strava: 4265390438,
-        photo: 'https://vk.ru/album-92124592_275618757'
+        photo: 'https://vk.ru/album-92124592_275618757',
+        endReg: '2020-10-30 18:00'
     },
     {
         id: 'SPB_20201031_3',
@@ -1680,6 +1814,8 @@ let events2020 = [
         date: '2020-11-07',
         name: 'Индивидуальная тренировка',
         place: 'Буферный парк, Пушкин',
+        fmt: 'классика',
+        coord: [59.742741, 30.41395],
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/200711/201107_rez3.htm',
         o_site: '200711',
@@ -1691,8 +1827,11 @@ let events2020 = [
         id: 'SPB_20201107_2',
         date: '2020-11-07',
         place: 'Мичуринское',
+        coord: [60.623077, 29.81419],
+        reg: 'https://orgeo.ru/event/14250',
         name: 'Техника и тактика, 7 этап',
-        reskeep: 391
+        reskeep: 391,
+        endReg: '2020-11-06 18:00'
     },
     {
         id: 'SPB_20201107_3',
@@ -1743,8 +1882,11 @@ let events2020 = [
         id: 'SPB_20201108_3',
         date: '2020-11-08',
         place: 'Мичуринское',
+        coord: [60.610661, 29.837082],
+        reg: 'https://orgeo.ru/event/14252',
         name: 'Техника и тактика, 8 этап',
-        reskeep: 396
+        reskeep: 396,
+        endReg: '2020-11-06 18:00'
     },
     {
         id: 'SPB_20201108_4',
@@ -1774,9 +1916,12 @@ let events2020 = [
         id: 'SPB_20201114_2',
         date: '2020-11-14',
         place: 'м Горьковская',
+        coord: [59.95797, 30.331228],
+        reg: 'https://orgeo.ru/event/13935',
         name: 'White Nights Sprint #2',
         start: 'WHITE_NIGHTS',
-        reskeep: 398
+        reskeep: 398,
+        endReg: '2020-11-13 20:00'
     },
     {
         id: 'SPB_20201115_1',
@@ -1848,6 +1993,7 @@ let events2020 = [
         date: '2020-11-22',
         place: 'Луга, оз Омчино',
         name: 'Новгородский меридиан (финал)',
+        start: 'LM',
         type: 'ROGAINE',
         fmt: '3',
         link: 'https://vk.com/club91656163'
@@ -1870,6 +2016,8 @@ let events2020 = [
         name: 'ЧиП ЛО, Перспектива-4',
         start: ['PERSPEKTIVA','LO_CHAMP'],
         place: 'Красная горка',
+        fmt: 'кросс классика',
+        coord: [59.971283, 29.325603],
         reg: 'http://orgeo.ru/event/info/14372',
         endReg: '2020-11-27 13:00',
         res: 'https://o-site.spb.ru/_races/201129/201129_split1.htm',
@@ -1902,6 +2050,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201203_trailo/Predv_prot_Sport_dlya_vsekh_TreylO.pdf',
         info: 'Открытое Первенство среди обучающихся школьных спортивных клубов ОУ СПб «Спорт для всех» по видам спорта» среди обучающихся с ОВЗ. Все желающие, не относящиеся к школьникам, могут участвовать в группе «Оpen».',
         type: 'TRAIL_O',
+        coord: [59.732956, 30.593126],
         owner: 'SFSO_LO',
         o_site: '201203_trailo',
         bulletin: 'https://o-site.spb.ru/_races/201203_trailo/Info.pdf',
@@ -1913,14 +2062,17 @@ let events2020 = [
         id: 'SPB_20201206_1',
         date: '2020-12-06',
         place: 'Гарболово',
+        coord: [60.347504, 30.502035],
         name: 'Индивидуальная тренировка «Техника и Тактика»',
         res: 'https://o-site.spb.ru/_races/2020TT/201206_split3.htm',
         info: 'Тренировочный старт от Яркого Мира',
         o_site: '2020TT',
+        reg: 'https://orgeo.ru/event/14427',
         bulletin: 'https://o-site.spb.ru/_races/2020TT/201206TT_info2.pdf',
         reskeep: 403,
         strava: 4437026952,
-        o_gps: 8614
+        o_gps: 8614,
+        endReg: '2020-12-05 10:00'
     },
     {
         id: 'SPB_20201212_1',
@@ -2037,6 +2189,7 @@ let events2020 = [
         id: 'SPB_20201227_1',
         date: '2020-12-27',
         place: 'Воейково',
+        coord: [59.958237, 30.698721],
         name: 'Предновогодняя индивидуальная тренировка Ингрия',
         reg: 'http://orgeo.ru/event/14552',
         endReg: '2020-12-26 14:00',
@@ -2049,6 +2202,7 @@ let events2020 = [
         id: 'SPB_20201227_2',
         date: '2020-12-27',
         place: 'Лемболово',
+        fmt: 'маркир',
         name: 'Тренировка Новогодний Маркир',
         reg: 'http://o-reg.spb.ru/entry-list?id=1208',
         res: 'https://o-site.spb.ru/_races/201227/201227_res_1.htm',
@@ -2064,6 +2218,7 @@ let events2020 = [
         id: 'SPB_20201231_1',
         date: '2020-12-31',
         place: 'Сосновка',
+        fmt: 'Заданное направление',
         name: 'Тренировка FoxTeam',
         reg: 'http://o-reg.spb.ru/entry-list?id=1330',
         o_site: '211231',

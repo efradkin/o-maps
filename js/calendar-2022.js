@@ -49,8 +49,10 @@ let events2022 = [
         date: '2022-01-16',
         name: 'Чемпионат и Первенство ЛО',
         type: 'SKI',
+        coord: [59.437054, 31.996506],
         start: 'LO_CHAMP',
         place: 'Кириши',
+        fmt: 'вид 1 лг - классика, вид 2 лг - многодневная',
         reg: 'http://orgeo.ru/event/19445',
         endReg: '2022-01-13 20:00',
         o_site: '22011416'
@@ -60,28 +62,35 @@ let events2022 = [
         date: '2022-01-22',
         endDate: '2022-01-23',
         place: 'Токсово, база ВИФК',
+        fmt: 'спринт, классика',
         name: 'Чемпионат и Первенство Санкт-Петербурга',
         start: 'SPB_CHAMP',
         type: 'SKI',
+        coord: [59.935719, 30.355654],
         res: 'https://o-site.spb.ru/_races/220122/220122_res.htm',
         o_site: '220122',
+        reg: 'https://orgeo.ru/event/20146',
         bulletin: 'https://o-site.spb.ru/_races/220122/info2.pdf',
         reskeep: [507, 508],
         map: 'toksovo_vifk_winter_2023',
         o_gps: {
             '22': 11909,
             '23': 11913
-        }
+        },
+        endReg: '2022-01-22 00:00'
     },
     {
         id: 'SPB_20220130_1',
         date: '2022-01-30',
         name: '«Тур де Лемболово – 2022»',
         place: 'Лемболово',
+        fmt: 'маркир, спринт, классика',
         type: 'SKI',
+        coord: [60.416939, 30.327948],
         res: 'https://o-site.spb.ru/_races/220206/res1.htm',
         video: 'https://www.youtube.com/watch?v=WK_TXhObUSw',
         o_site: '220206',
+        reg: 'https://orgeo.ru/event/20287',
         bulletin: 'https://o-site.spb.ru/_races/220206/INFO-1.pdf',
         map: 'lembolovo_winter_2019',
         maps: [
@@ -106,10 +115,13 @@ let events2022 = [
         date: '2022-02-05',
         name: '«Тур де Лемболово – 2022»',
         place: 'Лемболово',
+        fmt: 'маркир, спринт, классика',
         type: 'SKI',
+        coord: [60.416939, 30.327948],
         res: ['https://o-site.spb.ru/_races/220206/220205_split.htm','https://o-site.spb.ru/_races/220206/220206_split.htm'],
         video: 'https://www.youtube.com/watch?v=WK_TXhObUSw',
         o_site: '220206',
+        reg: 'https://orgeo.ru/event/20287',
         bulletin: 'https://o-site.spb.ru/_races/220206/INFO-1.pdf',
         endDate: '2022-02-06',
         map: 'lembolovo_winter_2019',
@@ -132,12 +144,25 @@ let events2022 = [
         date: '2022-02-13',
         name: 'Чемпионат и Первенство ЛО',
         type: 'SKI',
+        coord: [59.604321, 31.194151],
         start: 'LO_CHAMP',
         place: 'Шапки',
+        fmt: 'лонг',
         reg: 'http://orgeo.ru/event/20143',
         endReg: '2022-02-11 16:00',
         res: 'https://o-site.spb.ru/_races/220213/220213_split.htm',
         o_site: '220213'
+    },
+    {
+        id: 'SPB_20220213_3',
+        date: '2022-02-13',
+        endDate: '2022-02-20',
+        name: 'Зимние СТАРТЫ в ЗЕРКАЛЬНОМ',
+        place: 'ЗЦ "Зеркальный"',
+        type: 'SKI',
+        fmt: 'маркированная дистанция, спринт, классика',
+        coord: [60.24202, 29.133184],
+        reg: 'https://orgeo.ru/event/20522'
     },
     {
         id: 'SPB_20220219_1',
@@ -195,11 +220,14 @@ let events2022 = [
         id: 'SPB_20220227_2',
         date: '2022-02-27',
         place: 'Орехово',
+        fmt: 'эстафета, классика, лонг',
         name: 'Чемпионат и Первенство Санкт-Петербурга, эстафета',
         start: 'SPB_CHAMP',
         type: 'SKI',
+        coord: [60.463142, 30.26553],
         res: 'http://orgeo.ru/live/#/20753',
         o_site: '220227',
+        reg: 'https://orgeo.ru/event/20753',
         bulletin: 'https://o-site.spb.ru/_races/220227/220227_info2.pdf',
         map: 'orekhovo_nyrkovo_winter_2012',
         o_gps: 12120
@@ -209,11 +237,14 @@ let events2022 = [
         date: '2022-03-06',
         endDate: '2022-03-07',
         place: 'Орехово',
+        fmt: 'эстафета, классика, лонг',
         name: 'Чемпионат и Первенство Санкт-Петербурга, общий старт',
         start: 'SPB_CHAMP',
         type: 'SKI',
+        coord: [60.463142, 30.26553],
         res: 'https://o-site.spb.ru/_races/220307/220306_res.htm',
         o_site: '220307',
+        reg: 'https://orgeo.ru/event/20753',
         map: 'orekhovo_nyrkovo_winter_2012',
         bulletin: 'https://o-site.spb.ru/_races/220307/220367_info-3.pdf',
         o_gps: {
@@ -225,8 +256,10 @@ let events2022 = [
         id: 'SPB_20220313_1',
         date: '2022-03-13',
         place: 'Орехово',
+        fmt: 'ЛГ-комбинация',
         name: '43-е зимние соревнования На призы газеты Всеволожские вести',
         type: 'SKI',
+        coord: [60.456219, 30.287008],
         reg: 'http://orgeo.ru/event/info/20912',
         endReg: '2022-03-12 01:55',
         res: 'https://o-site.spb.ru/_races/220313/220313ResultList.htm',
@@ -237,10 +270,20 @@ let events2022 = [
         o_gps: 12181
     },
     {
+        id: 'SPB_20220313_2',
+        date: '2022-03-13',
+        name: 'Первенство г.Кириши - Маркированная трасса',
+        place: 'Водоканал, автодром (поляна мотокросса)',
+        coord: [59.437054, 31.996506],
+        reg: 'https://orgeo.ru/event/15076',
+        endReg: '2022-03-11 23:55'
+    },
+    {
         id: 'SPB_20220319_1',
         date: '2022-03-19',
         place: 'Токсово',
         name: 'HARD-Rogaine | Snow',
+        start: 'HARD',
         type: 'ROGAINE',
         fmt: '4',
         link: 'https://vk.com/hardrogaine',
@@ -307,7 +350,7 @@ let events2022 = [
         name: 'Чемпионат и Первенство ЛО (спринт)',
         start: 'LO_CHAMP',
         place: 'Выборг',
-        reg: 'http://orgeo.ru/event/21308',
+        reg: ['http://orgeo.ru/event/21308', 'http://orgeo.ru/event/21311'],
         endReg: '2022-04-08 10:25',
         res: 'https://o-site.spb.ru/_races/220410/220410_ress.htm',
         o_site: '220410'
@@ -338,6 +381,7 @@ let events2022 = [
         id: 'SPB_20220417_1',
         date: '2022-04-17',
         place: 'Детские Дюны',
+        fmt: 'спринт',
         name: 'Открытие сезона',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1409',
         res: 'https://o-site.spb.ru/_races/220417/220417_results.htm',
@@ -373,11 +417,14 @@ let events2022 = [
         date: '2022-04-23',
         endDate: '2022-04-24',
         place: 'Сосновый Бор',
+        fmt: 'классика, лонг',
+        coord: [59.885307, 29.08267],
         name: 'Сосновоборские Дюны',
         start: 'SOSNOVOBORSKY_DUNY',
         video: 'https://www.youtube.com/watch?v=DThWAJtzzYA',
         res: 'https://o-site.spb.ru/_races/220424/220423_res.htm',
         o_site: '220424',
+        reg: 'https://orgeo.ru/event/21816',
         bulletin: 'https://o-site.spb.ru/_races/220424/220423-24_info2.pdf',
         strava: [7028043340,7032642029],
         reskeep: [513, 514],
@@ -409,12 +456,24 @@ let events2022 = [
         start: 'LM'
     },
     {
+        id: 'SPB_20220423_2',
+        date: '2022-04-23',
+        name: 'Кубок Кинеф по спортивному ориентированию. Кросс - спринт',
+        // place: 'Спринт 23.04.22',
+        coord: [59.294243, 32.433903],
+        reg: 'https://orgeo.ru/event/21589',
+        endReg: '2022-04-21 20:30'
+    },
+    {
         id: 'SPB_20220424_1',
         date: '2022-04-24',
         place: 'Пушкин, Баболовский парк',
+        fmt: 'выбор',
+        coord: [59.705376, 30.371605],
         name: 'Царскосельский азимут',
         res: 'https://o-site.spb.ru/_races/220424_/220424_res_tsa.htm',
         o_site: '220424_',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1413',
         bulletin: 'https://o-site.spb.ru/_races/220424_/',
         map: 'pushkin_babolovsky_2019',
         owner: 'EGRV_EGR'
@@ -431,11 +490,14 @@ let events2022 = [
         id: 'SPB_20220427_1',
         date: '2022-04-27',
         place: 'Парголово',
+        coord: [60.075768, 30.277498],
+        reg: 'https://orgeo.ru/event/21711',
         name: 'Noname Sprint Tour SPb 2022, 3 этап (MASS-SPRINT)',
         start: 'SPRINT_TOUR',
         reskeep: 517,
         map: 'pargolovo_2021',
-        photo: 'https://vk.ru/album-92124592_283881261'
+        photo: 'https://vk.ru/album-92124592_283881261',
+        endReg: '2022-04-26 21:00'
     },
     {
         id: 'SPB_20220430_1',
@@ -451,10 +513,13 @@ let events2022 = [
         id: 'SPB_20220430_2',
         date: '2022-04-30',
         place: 'Энколово',
+        coord: [60.114243, 30.432558],
+        reg: 'https://orgeo.ru/event/21859',
         name: 'Техника и Тактика',
         reskeep: 531,
         res: 'https://o-site.spb.ru/_races/2022TT/220430TT_split.htm',
-        map: 'enkolovo_2021'
+        map: 'enkolovo_2021',
+        endReg: '2022-04-29 17:00'
     },
     {
         id: 'SPB_20220430_3',
@@ -474,6 +539,8 @@ let events2022 = [
         name: 'Всеволожская тропа, Майская многодневка',
         start: 'VSEVOLOZHSK_WAY',
         place: 'Кузьмолово, Энколово, Охта-парк',
+        fmt: 'спринт, классика общий старт, лонг',
+        coord: [60.120312, 30.422249],
         reg: 'http://orgeo.ru/event/info/21216',
         endReg: '2022-04-29 08:30',
         res: 'http://sportident.online/ol/?id=704',
@@ -512,9 +579,21 @@ let events2022 = [
         o_gps: 12861
     },
     {
+        id: 'SPB_20220505_1',
+        date: '2022-05-05',
+        name: 'Кузьмоловские старты 2022 (1 этап)',
+        start: 'KUZMOLOVSKY_STARTS',
+        place: 'Кузьмолово (полигон)',
+        coord: [60.113289, 30.516993],
+        reg: 'https://orgeo.ru/event/22052',
+        endReg: '2022-05-05 12:00'
+    },
+    {
         id: 'SPB_20220506_1',
         date: '2022-05-06',
         place: 'Покровский о-в',
+        coord: [59.918789, 30.294752],
+        reg: 'https://orgeo.ru/event/22083',
         name: 'White Nights Sprint #1 (Дом-утюг спринт)',
         start: 'WHITE_NIGHTS',
         strava: 7098024858,
@@ -557,6 +636,8 @@ let events2022 = [
         id: 'SPB_20220509_1',
         date: '2022-05-09',
         place: 'Зеленогорск, Болотная станция',
+        fmt: 'классика',
+        coord: [60.204876, 29.742239],
         name: 'Соревнования, посвященные Дню Победы',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1417',
         res: 'https://o-site.spb.ru/_races/220509/Res_090522.htm',
@@ -617,6 +698,16 @@ let events2022 = [
         map: 'osinovaja_roscha_velo_2020'
     },
     {
+        id: 'SPB_20220512_1',
+        date: '2022-05-12',
+        name: 'Кузьмоловские старты 2022 (2 этап)',
+        start: 'KUZMOLOVSKY_STARTS',
+        place: 'Токсово, Изумрудное оз',
+        coord: [60.146965, 30.486351],
+        reg: 'https://orgeo.ru/event/22200',
+        endReg: '2022-05-12 00:00'
+    },
+    {
         id: 'SPB_20220514_1',
         date: '2022-05-14',
         name: 'Открытая тренировка',
@@ -632,9 +723,12 @@ let events2022 = [
         id: 'SPB_20220514_2',
         date: '2022-05-14',
         place: 'Орехово',
+        fmt: 'спринт, классика',
+        coord: [60.456219, 30.287008],
         name: 'VIII Всероссийская летняя Универсиада',
         res: 'https://o-site.spb.ru/_races/20220514/Res_kom_of.pdf',
         o_site: '20220514',
+        reg: 'https://orgeo.ru/event/22291',
         bulletin: 'https://o-site.spb.ru/_races/20220514/Bul_Vuz_0522.pdf',
         endDate: '2022-05-15',
         map: 'orekhovo_2024'
@@ -696,6 +790,7 @@ let events2022 = [
         id: 'SPB_20220515_3',
         date: '2022-05-15',
         place: 'Орехово',
+        fmt: 'кросс-классика',
         name: 'Соревнования Памяти друзей',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1434',
         res: 'https://o-site.spb.ru/_races/220515_AZ/220515_res_PD.htm',
@@ -703,6 +798,15 @@ let events2022 = [
         bulletin: 'https://o-site.spb.ru/_races/220515_AZ/Info_150522.pdf',
         map: 'orekhovo_2024',
         owner: 'AZIMUT'
+    },
+    {
+        id: 'SPB_20220515_4',
+        date: '2022-05-15',
+        name: 'Первенство г.Кириши по спортивному ориентированию. Кросс - классика',
+        // place: 'Классика 15.05',
+        coord: [59.309692, 32.33633],
+        reg: 'https://orgeo.ru/event/22089',
+        endReg: '2022-05-13 20:00'
     },
     {
         id: 'SPB_20220517_1',
@@ -737,6 +841,16 @@ let events2022 = [
         o_gps: 13063
     },
     {
+        id: 'SPB_20220519_1',
+        date: '2022-05-19',
+        name: 'Кузьмоловские старты 2022 (3 этап)',
+        start: 'KUZMOLOVSKY_STARTS',
+        place: 'г.Сертолово',
+        coord: [60.150356, 30.213163],
+        reg: 'https://orgeo.ru/event/22315',
+        endReg: '2022-05-19 12:00'
+    },
+    {
         id: 'SPB_20220520_1',
         date: '2022-05-20',
         place: 'Парк Авиаторов',
@@ -749,6 +863,8 @@ let events2022 = [
         id: 'SPB_20220521_1',
         date: '2022-05-21',
         place: 'Парк 300-летия СПб',
+        fmt: 'спринт',
+        coord: [59.982712, 30.198215],
         name: 'Российский Азимут',
         res: 'https://o-site.spb.ru/_races/220521/220521-split.htm',
         photo: 'http://disk.yandex.ru/d/Pys4whutiheb3Q',
@@ -756,6 +872,7 @@ let events2022 = [
         strava: 7178027439,
         owner: 'SFSO_SPB',
         o_site: '220521',
+        reg: 'https://orgeo.ru/event/22411',
         bulletin: 'https://o-site.spb.ru/_races/220521/220521_info2.pdf',
         reskeep: 527,
         map: '300_let_spb_2022',
@@ -771,13 +888,17 @@ let events2022 = [
         id: 'SPB_20220521_2',
         date: '2022-05-21',
         place: 'Всеволожск, Румболовский парк',
+        fmt: 'кросс-выбор, с заданным 1-м кп',
+        coord: [60.036358, 30.641298],
         name: 'Российский Азимут - Лен. область',
         res: 'https://o-site.spb.ru/_races/220521LO/220521LO_split.htm',
         owner: 'SFSO_LO',
         o_site: '220521LO',
+        reg: 'https://orgeo.ru/event/22037',
         bulletin: 'https://o-site.spb.ru/_races/220521LO/220521LO_info.pdf',
         reskeep: 543,
-        map: 'vsevolozhsk_rumbolovo_2014'
+        map: 'vsevolozhsk_rumbolovo_2014',
+        endReg: '2022-05-19 23:55'
     },
     {
         id: 'SPB_20220521_3',
@@ -796,6 +917,8 @@ let events2022 = [
         id: 'SPB_20220522_1',
         date: '2022-05-22',
         place: 'Новое Сертолово',
+        fmt: 'спринт, эстафета',
+        coord: [60.142532, 30.233826],
         name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-спринт',
         start: 'SPB_CHAMP',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1431',
@@ -822,6 +945,15 @@ let events2022 = [
         start: 'LM'
     },
     {
+        id: 'SPB_20220522_3',
+        date: '2022-05-22',
+        name: 'Кубок Кинеф по спортивному ориентированию. Кросс - выбор',
+        // place: 'Выбор 22.05',
+        coord: [59.32935, 32.409409],
+        reg: 'https://orgeo.ru/event/22307',
+        endReg: '2022-05-20 20:00'
+    },
+    {
         id: 'SPB_20220524_1',
         date: '2022-05-24',
         name: 'Перспектива Middle Cup',
@@ -830,12 +962,24 @@ let events2022 = [
         o_site: '220604_PMC'
     },
     {
+        id: 'SPB_20220526_1',
+        date: '2022-05-26',
+        name: 'Кузьмоловские старты 2022 (4 этап)',
+        start: 'KUZMOLOVSKY_STARTS',
+        place: 'Токсово ВИФК',
+        coord: [60.194469, 30.577171],
+        reg: 'https://orgeo.ru/event/22460',
+        endReg: '2022-05-26 12:00'
+    },
+    {
         id: 'SPB_20220528_1',
         date: '2022-05-28',
         place: 'Лемболово',
+        fmt: 'спринт, эстафета',
+        coord: [60.142532, 30.233826],
         name: 'Чемпионат и Первенство Санкт-Петербурга, эстафета',
         start: 'SPB_CHAMP',
-        reg: 'http://o-reg.spb.ru/?filter[day_id]=1443',
+        reg: ['http://o-reg.spb.ru/?filter[day_id]=1443', 'http://o-reg.spb.ru/?filter[day_id]=1445'],
         res: 'http://orgeo.ru/live/#/22427/2>',
         info: 'Уважаемые участники, по техническим причинам заявка на Чемпионат и Первенство Санкт-Петербурга в дисциплине кросс-эстафета–3 человека будет открыта во вторник (24 мая)',
         o_site: '220528_relay',
@@ -926,7 +1070,6 @@ let events2022 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2022-1.php',
         photo: 'https://vk.com/album-30311715_284038157',
         start: 'BA',
-        owner: 'BKTV',
         map: 'razdolie_ba_2022',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2022-1/BA22.jpg'
@@ -938,6 +1081,7 @@ let events2022 = [
         name: 'Чемпионат и Первенство ЛО',
         start: 'LO_CHAMP',
         place: 'Зеркальный',
+        fmt: 'эстафета 2х, спринт-масстарт', // !
         res: 'https://o-site.spb.ru/_races/220529_lo/220529_RES_SPRINT.htm',
         bulletin: 'https://o-site.spb.ru/_races/220529_lo/220529_reg.pdf',
         o_site: '220529_lo',
@@ -976,11 +1120,14 @@ let events2022 = [
         id: 'SPB_20220601_1',
         date: '2022-06-01',
         place: 'ул Вавиловых',
+        coord: [60.021786, 30.394623],
+        reg: 'https://orgeo.ru/event/22567',
         map: 'school_98_2022',
         name: 'Noname Sprint Tour SPb 2022, 5 этап',
         start: 'SPRINT_TOUR',
         reskeep: 519,
-        photo: 'https://vk.ru/album-92124592_284354256'
+        photo: 'https://vk.ru/album-92124592_284354256',
+        endReg: '2022-06-01 01:00'
     },
     {
         id: 'SPB_20220604_1',
@@ -1106,14 +1253,26 @@ let events2022 = [
         video: 'https://www.youtube.com/watch?v=TeqilOEgG74'
     },
     {
+        id: 'SPB_20220617_2',
+        date: '2022-06-17',
+        name: 'Тренировочные старты',
+        place: 'oз. Щучье',
+        coord: [60.524792, 30.326813],
+        reg: 'https://orgeo.ru/event/21593',
+        endReg: '2022-06-14 00:05'
+    },
+    {
         id: 'SPB_20220620_1',
         date: '2022-06-20',
         endDate: '2022-06-23',
         place: 'Ягодное',
+        fmt: '3 спринта, классика+выбор',
+        coord: [60.635677, 29.988073],
         name: 'Спортивный Фестиваль «Яркий Мир»',
         res: 'https://o-site.spb.ru/_races/22062023/220620_split.htm',
         start: 'YM',
         o_site: '22062023',
+        reg: 'https://orgeo.ru/event/22030',
         map: ['ym_2022_06_20', 'ym_2022_yagodnoe_prolog2', 'ym_2022_yagodnoe_sprint_final', 'ym_2022_yagodnoe_klassika', 'ym_2022_yagodnoe_vybor'],
         bulletin: 'https://o-site.spb.ru/_races/22062023/22062023_info-3.pdf',
         o_gps: {
@@ -1124,13 +1283,26 @@ let events2022 = [
             '22-Классика': 13434,
             '22-вечер': 13435,
             '23-Выбор': 13445
-        }
+        },
+        endReg: '2022-06-09 23:55'
+    },
+    {
+        id: 'SPB_20220620_2',
+        date: '2022-06-20',
+        name: 'Праздник эстафет (трехэтапная эстафета)',
+        place: 'oз. Щучье',
+        fmt: 'эстафета 3х',
+        coord: [60.524792, 30.326813],
+        reg: 'https://orgeo.ru/event/21592',
+        endReg: '2022-06-18 23:55'
     },
     {
         id: 'SPB_20220624_1',
         date: '2022-06-24',
         endDate: '2022-06-26',
         place: 'Петяярви',
+        fmt: 'спринт, лонг, классика',
+        coord: [60.60619, 30.100185],
         name: 'Неделя ориентирования «Белые Ночи»',
         res: 'https://o-site.spb.ru/_races/220624/split1.htm',
         info: '51-е Многодневные соревнования по спортивному ориентированию.',
@@ -1142,16 +1314,17 @@ let events2022 = [
             'https://rutube.ru/video/f487266b84e2b0f4c930117a4565f1ad/',
             'https://www.youtube.com/watch?v=EDtL32IwWRs'
         ],
-        owner: 'WN',
         start: 'WN',
         strava: 7367429794,
         o_site: '220624',
+        reg: 'https://orgeo.ru/event/21681',
         bulletin: 'https://o-site.spb.ru/_races/220624/220624_info.pdf',
         map: ['wn_2022_06_24','wn_2022_06_25','wn_2022_06_26'],
         reskeep: 537,
         o_gps: {
             '25':13468
-        }
+        },
+        endReg: '2022-06-21 14:00'
     },
     {
         id: 'SPB_20220625_1',
@@ -1167,6 +1340,7 @@ let events2022 = [
         date: '2022-06-25',
         place: 'Лахденпохский р-н',
         name: 'HARD-Rogaine | Ladoga',
+        start: 'HARD',
         type: 'ROGAINE',
         fmt: '16, 10-6',
         link: 'https://vk.com/hardrogaine',
@@ -1203,12 +1377,16 @@ let events2022 = [
         id: 'SPB_20220702_1',
         date: '2022-07-02',
         place: 'Ильичёво',
+        fmt: 'классика',
+        coord: [60.268677, 29.762047],
+        reg: 'https://orgeo.ru/event/22963',
         name: 'White Nights Middle #5',
         start: 'WHITE_NIGHTS',
         strava: 7402274954,
         map: 'ilychevo_2016',
         reskeep: 539,
-        o_gps: 13500
+        o_gps: 13500,
+        endReg: '2022-07-01 20:00'
     },
     {
         id: 'SPB_20220703_1',
@@ -1222,7 +1400,7 @@ let events2022 = [
         endDate: '2022-07-10',
         place: 'Воробьево оз',
         name: 'Летнее Первенство Белых Ночей',
-        reg: 'http://o-reg.spb.ru/?filter[day_id]=1451',
+        reg: ['http://o-reg.spb.ru/?filter[day_id]=1451', 'http://o-reg.spb.ru/?filter[day_id]=1452'],
         res: 'https://o-site.spb.ru/_races/220709_bn/220709_res.htm',
         map: 'vorobjevo_2024',
         owner: 'WN',
@@ -1290,6 +1468,8 @@ let events2022 = [
         endDate: '2022-07-31',
         name: 'Ладожский ориентир',
         place: 'Кузнечное, оз Суури',
+        fmt: 'лонг, классика',
+        coord: [61.132381, 29.917377],
         reg: 'http://orgeo.ru/event/23025',
         endReg: '2022-07-28 14:30',
         res: 'https://o-site.spb.ru/_races/22073031/220730_split.htm',
@@ -1301,17 +1481,21 @@ let events2022 = [
         id: 'SPB_20220730_2',
         date: '2022-07-30',
         place: 'Барышево',
+        coord: [60.717308, 29.540728],
+        reg: 'https://orgeo.ru/event/23227',
         name: 'Кубок Белых Ночей, 15 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2022BN/220730_split.htm',
         reskeep: 550,
-        map: 'baryshevo_2015'
+        map: 'baryshevo_2015',
+        endReg: '2022-07-29 20:00'
     },
     {
         id: 'SPB_20220730_3',
         date: '2022-07-30',
         place: 'Лахденпохский р-н',
         name: 'HARD-Rogaine | Ladoga II',
+        start: 'HARD',
         type: 'ROGAINE',
         fmt: '8, 4',
         link: 'https://vk.com/hardrogaine',
@@ -1321,16 +1505,21 @@ let events2022 = [
         id: 'SPB_20220731_1',
         date: '2022-07-31',
         place: 'Смоляное оз',
+        coord: [60.717308, 29.540728],
+        reg: 'https://orgeo.ru/event/23227',
         name: 'Кубок Белых Ночей, 16 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2022BN/220731_split.htm',
         reskeep: 553,
-        map: 'smoljanoe_2015'
+        map: 'smoljanoe_2015',
+        endReg: '2022-07-29 20:00'
     },
     {
         id: 'SPB_20220806_1',
         date: '2022-08-06',
         place: 'Тихое оз',
+        fmt: 'классика',
+        coord: [60.637535, 29.682764],
         name: 'Кубок Белых Ночей - 2021/22 - 17-й и 18-й этапы',
         start: 'KBN',
         reg: 'http://orgeo.ru/event/info/23285',
@@ -1418,14 +1607,17 @@ let events2022 = [
         id: 'SPB_20220827_2',
         date: '2022-08-27',
         place: 'Выборгский район',
+        reg: 'https://orgeo.ru/event/23190',
         name: 'Приключенческий рогейн History Race',
         type: 'ROGAINE',
         fmt: '12, 7',
+        coord: [60.996723, 29.180819],
         link: 'https://vk.com/historyrace',
         o_gps: {
             'Вело': 13964,
             'Бег': 13965
-        }
+        },
+        endReg: '2022-08-22 00:00'
     },
     {
         id: 'SPB_20220903_1',
@@ -1442,6 +1634,7 @@ let events2022 = [
         id: 'SPB_20220904_1',
         date: '2022-09-04',
         place: 'Первомайское',
+        coord: [60.431019, 29.721125],
         name: 'Мемориал Владимира Алексеева',
         reg: 'http://orgeo.ru/event/info/23013',
         endReg: '2022-09-01 22:00',
@@ -1489,6 +1682,7 @@ let events2022 = [
         name: 'Рогейн 110',
         place: 'Волочаевка',
         type: 'ROGAINE',
+        coord: [60.415974, 29.664991],
         reg: 'http://orgeo.ru/event/23512',
         endReg: '2022-09-09 23:55',
         video: 'https://www.youtube.com/watch?v=bl16U1tbPhs',
@@ -1503,12 +1697,16 @@ let events2022 = [
         date: '2022-09-11',
         name: 'Тренировка «Техника и Тактика»',
         place: 'Мельничный ручей, 2-е Ждановское оз',
+        fmt: 'комбинированная, классические',
+        coord: [59.983475, 30.685045],
         res: 'https://o-site.spb.ru/_races/220911TT/220911TT_split.htm',
         info: 'Тренировочное мероприятие от бригады Яркого Мира.',
         o_site: '220911TT',
+        reg: 'https://orgeo.ru/event/23987',
         bulletin: 'https://o-site.spb.ru/_races/220911TT/220911TT_info.pdf',
         start: 'YM',
-        map: 'vsevolozhsk_zhdanovskie_oz_2014'
+        map: 'vsevolozhsk_zhdanovskie_oz_2014',
+        endReg: '2022-09-10 15:00'
     },
     {
         id: 'SPB_20220914_1',
@@ -1524,9 +1722,21 @@ let events2022 = [
         start: 'SCHOOL'
     },
     {
+        id: 'SPB_20220915_1',
+        date: '2022-09-15',
+        name: 'Кузьмоловские старты 2022 (5 этап)',
+        start: 'KUZMOLOVSKY_STARTS',
+        place: 'Токсово, Изумрудное оз',
+        coord: [60.146965, 30.486351],
+        reg: 'https://orgeo.ru/event/24075',
+        endReg: '2022-09-15 12:00',
+        o_gps: 14105
+    },
+    {
         id: 'SPB_20220917_2',
         date: '2022-09-17',
         place: 'Гарболово',
+        fmt: 'масстарт', // !
         name: 'Приз газеты «Всеволожские вести»',
         res: 'https://o-site.spb.ru/_races/220917/220917_split.htm',
         start: 'VSEV_VESTI',
@@ -1564,6 +1774,16 @@ let events2022 = [
         }
     },
     {
+        id: 'SPB_20220918_2',
+        date: '2022-09-18',
+        name: 'VIII Традиционные соревнования памяти Ю.А.Березюка - 2022',
+        place: 'Будогощь',
+        coord: [59.284115, 32.444244],
+        reg: 'https://orgeo.ru/event/23195',
+        endReg: '2022-09-16 18:00',
+        owner: 'EGRV_SRG'
+    },
+    {
         id: 'SPB_20220921_1',
         date: '2022-09-21',
         place: 'Школа №149, ул Черкасова 4-2',
@@ -1580,10 +1800,23 @@ let events2022 = [
         id: 'SPB_20220921_2',
         date: '2022-09-21',
         place: 'ул Фаворского',
+        coord: [60.001694, 30.389671],
+        reg: 'https://orgeo.ru/event/24240',
         name: 'Noname Sprint Tour SPb - 2022, 7 этап',
         start: 'SPRINT_TOUR',
         reskeep: 557,
-        photo: 'https://vk.ru/album-92124592_286829863'
+        photo: 'https://vk.ru/album-92124592_286829863',
+        endReg: '2022-09-21 09:00'
+    },
+    {
+        id: 'SPB_20220922_1',
+        date: '2022-09-22',
+        name: 'Кузьмоловские старты 2022 (5 этап)',
+        start: 'KUZMOLOVSKY_STARTS',
+        place: 'Вартемяги (север)',
+        coord: [60.175903, 30.309711],
+        reg: 'https://orgeo.ru/event/24252',
+        endReg: '2022-09-22 12:00'
     },
     {
         id: 'SPB_20220924_1',
@@ -1615,6 +1848,7 @@ let events2022 = [
         date: '2022-09-24',
         name: 'Кубок Колпино',
         place: 'Колпино',
+        coord: [59.732956, 30.593126],
         reg: 'http://orgeo.ru/event/info/16449',
         endReg: '2022-09-22 23:55',
         strava: 7859011178,
@@ -1628,9 +1862,12 @@ let events2022 = [
         id: 'SPB_20220924_4',
         date: '2022-09-24',
         place: 'Зеркальный',
+        fmt: 'спринт, классика',
+        coord: [60.24202, 29.133184],
         name: 'Старты в Зеркальном',
         res: 'http://orgeo.ru/live/#/24321/1',
         o_site: '220924_Z',
+        reg: 'https://orgeo.ru/event/24321',
         bulletin: 'https://o-site.spb.ru/_races/220924_Z/220924_Zerkalny.pdf',
         map: 'zerkalny_2002',
         o_gps: {
@@ -1665,6 +1902,7 @@ let events2022 = [
         id: 'SPB_20220925_1',
         date: '2022-09-25',
         place: 'Яппиля',
+        fmt: 'Кросс-марафон, кросс-лонг-общий старт',
         name: 'Марафон на холмах Яппиля',
         res: 'https://o-site.spb.ru/_races/220925/220925-res.pdf',
         photo: 'http://disk.yandex.ru/d/p_S-LrobJUwbDw',
@@ -1679,6 +1917,16 @@ let events2022 = [
         o_gps: 14195
     },
     {
+        id: 'SPB_20220925_2',
+        date: '2022-09-25',
+        name: 'Первенство Киришского р-на', // !
+        fmt: 'спринт',
+        place: 'Будогощь', // !
+        coord: [59.314949, 32.411793],
+        reg: 'https://orgeo.ru/event/23201',
+        endReg: '2022-09-23 22:00'
+    },
+    {
         id: 'SPB_20220927_1',
         date: '2022-09-27',
         place: 'Парголово',
@@ -1687,9 +1935,21 @@ let events2022 = [
         map: 'pargolovo_2021'
     },
     {
+        id: 'SPB_20220929_1',
+        date: '2022-09-29',
+        name: 'Кузьмоловские старты 2022 (7 этап)',
+        start: 'KUZMOLOVSKY_STARTS',
+        place: 'Токсово, Каменная дорога',
+        coord: [60.139175, 30.553598],
+        reg: 'https://orgeo.ru/event/24378',
+        endReg: '2022-09-29 12:00'
+    },
+    {
         id: 'SPB_20221001_1',
         date: '2022-10-01',
         place: 'Стеклянный',
+        fmt: 'классика',
+        coord: [60.374237, 30.264151],
         name: 'Петербургская осень',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1466',
         res: 'http://orgeo.ru/live/#/24448',
@@ -1714,10 +1974,13 @@ let events2022 = [
         id: 'SPB_20221001_3',
         date: '2022-10-01',
         place: 'ул Крашенинникова',
+        coord: [60.006851, 30.407299],
+        reg: 'https://orgeo.ru/event/24430',
         map: 'litsey_95_2022',
         name: 'Noname Sprint Tour SPb - 2022, 8 этап (RUNLAB-SPRINT)',
         start: 'SPRINT_TOUR',
-        reskeep: 540
+        reskeep: 540,
+        endReg: '2022-09-30 21:00'
     },
     {
         id: 'SPB_20221001_5',
@@ -1741,10 +2004,18 @@ let events2022 = [
         photo: 'https://vk.com/album-30311715_286920535',
         map: 'orekhovo_ba_2022',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2022-2/bal22.jpg'
         ]
+    },
+    {
+        id: 'SPB_20221001_4',
+        date: '2022-10-01',
+        name: 'Кубок Кинеф по спортивному ориентированию в темное время суток',
+        place: 'База отдыха "Мечта", Будогощь',
+        coord: [59.278816, 32.380589],
+        reg: 'https://orgeo.ru/event/23197',
+        endReg: '2022-09-30 20:00'
     },
     {
         id: 'SPB_20221002_1',
@@ -1776,6 +2047,16 @@ let events2022 = [
         info: 'В ожидании главных ночных стартов года, можно потренировать навыки ориентирования в темноте.',
         o_site: '220604_PMC',
         map: 'rzhevsky_2024'
+    },
+    {
+        id: 'SPB_20221006_2',
+        date: '2022-10-06',
+        name: 'Кузьмоловские старты 2022 (7 этап)',
+        start: 'KUZMOLOVSKY_STARTS',
+        place: 'Токсово, комбыт',
+        coord: [60.137444, 30.496565],
+        reg: 'https://orgeo.ru/event/24537',
+        endReg: '2022-10-06 12:00'
     },
     {
         id: 'SPB_20221008_1',
@@ -1824,6 +2105,7 @@ let events2022 = [
         name: 'Кузьмоловские старты',
         start: 'KUZMOLOVSKY_STARTS',
         place: 'Кавголово',
+        coord: [60.177197, 30.535995],
         reg: 'http://orgeo.ru/event/24650',
         endReg: '2022-10-13 12:00',
         res: 'https://o-site.spb.ru/_races/220505/221013_split.htm',
@@ -1859,10 +2141,21 @@ let events2022 = [
         start: 'GORNY_CROSS',
         map: 'zelenogorsk_gk_2009'
     },
+/*
+    {
+        id: 'SPB_20221015_3',
+        date: '2022-10-15',
+        name: 'Test 3',
+        place: 'Поляны',
+        coord: [60.294548, 29.316053],
+        reg: 'https://orgeo.ru/event/24709'
+    },
+*/
     {
         id: 'SPB_20221016_1',
         date: '2022-10-16',
         place: 'Сестрорецк, Таможенная дорога',
+        coord: [60.134312, 29.952772],
         name: 'Первенство ГБУ СШОР им.В.Коренькова «Памяти З.В.Пятаковой»',
         reg: 'http://orgeo.ru/event/24599',
         endReg: '2022-10-13 23:55',
@@ -1909,7 +2202,8 @@ let events2022 = [
         info: 'III клубная ночная эстафета 50 ВЁРСТ',
         o_site: '221022_50Verst',
         map: 'tsvelodubovo_2020',
-        o_gps: 14441
+        o_gps: 14441,
+        owner: 'NW'
     },
     {
         id: 'SPB_20221022_3',
@@ -1956,10 +2250,14 @@ let events2022 = [
         id: 'SPB_20221025_1',
         date: '2022-10-25',
         name: 'Региональный этап «ТОЧНЫЙ АЗИМУТ 2022» (С 10 до 18 (МКС) 25 октября)',
+        place: 'Санаторий "Дюны"',
+        coord: [60.123131, 29.94873],
         res: 'http://disk.yandex.ru/d/xh7_n7KAN23tNw',
         info: 'Региональный этап финального мероприятия «Всероссийские игры по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций» Всероссийского фестиваля среди обучающихся, обучающихся с ограниченными возможностями здоровья и инвалидов по ориентированию на местности. Данный этап является отборочным на всероссийский этап.',
         o_site: '221025_azimut',
-        bulletin: 'https://o-site.spb.ru/_races/221025_azimut/Infbul1_tochny_az.pdf'
+        reg: 'https://orgeo.ru/event/24629',
+        bulletin: 'https://o-site.spb.ru/_races/221025_azimut/Infbul1_tochny_az.pdf',
+        endReg: '2022-10-24 12:00'
     },
     {
         id: 'SPB_20221029_1',
@@ -1967,6 +2265,7 @@ let events2022 = [
         place: 'Луга',
         name: 'Рогейн «Лужский меридиан»',
         type: 'ROGAINE',
+        coord: [58.791428, 29.882595],
         reg: 'http://orgeo.ru/event/info/23274',
         endReg: '2022-10-28 18:00',
         info: 'мероприятие от организаторов из В.Новгорода',
@@ -2008,6 +2307,7 @@ let events2022 = [
         id: 'SPB_20221030_1',
         date: '2022-10-30',
         place: 'Сертолово, ЖК Чистый ручей',
+        coord: [60.142532, 30.233826],
         name: 'Чемпионат и Первенство МО Сертолово «Осенняя тропа 2022»',
         reg: 'http://orgeo.ru/event/24814',
         endReg: '2022-10-28 21:00',
@@ -2020,12 +2320,16 @@ let events2022 = [
         id: 'SPB_20221030_2',
         date: '2022-10-30',
         place: 'Сосново, Уловное оз',
+        fmt: 'классика',
+        coord: [60.590839, 30.229223],
+        reg: 'https://orgeo.ru/event/24870',
         name: 'White Nights Middle #6',
         start: 'WHITE_NIGHTS',
         map: 'sosnovo_ulovnoe_oz_2023',
         strava: 8041902569,
         reskeep: 562,
-        o_gps: 14518
+        o_gps: 14518,
+        endReg: '2022-10-29 20:00'
     },
     {
         id: 'SPB_20221103_1',
@@ -2033,6 +2337,8 @@ let events2022 = [
         endDate: '2022-11-03',
         name: 'Тренировочный сбор на каникулах',
         place: 'Токсово',
+        fmt: 'выбор, маркир+классика с 15 часов, спринт',
+        coord: [60.140438, 30.51828],
         reg: 'http://orgeo.ru/event/info/24828',
         endReg: '2022-10-30 12:00',
         res: 'https://o-site.spb.ru/_races/221103/221031_split.htm',
@@ -2044,12 +2350,14 @@ let events2022 = [
         id: 'SPB_20221104_1',
         date: '2022-11-04',
         place: 'Семиозерье',
+        fmt: 'марафон',
         name: 'Осенний марафон',
         res: 'https://o-site.spb.ru/_races/221104_OM/Res1_221104.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         strava: 8066428678,
         logo: 'azimut.gif',
         o_site: '221104_OM',
+        reg: 'https://orgeo.ru/event/25022',
         bulletin: 'https://o-site.spb.ru/_races/221104_OM/Info_OM_221104.pdf',
         reskeep: 563,
         owner: 'AZIMUT',
@@ -2062,6 +2370,8 @@ let events2022 = [
         id: 'SPB_20221104_2',
         date: '2022-11-04',
         place: 'Пушкин, школа №552',
+        fmt: 'спринт-масстарт', // !
+        coord: [59.73605, 30.400644],
         name: 'Первенство клуба Forest Team',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1479',
         res: 'http://orgeo.ru/live/#/25029',
@@ -2075,6 +2385,8 @@ let events2022 = [
         name: 'Перспектива Маркир',
         start: 'PERSPEKTIVA',
         place: 'Токсово, Малиновая гора',
+        fmt: 'маркир вариант д',
+        coord: [60.194469, 30.577171],
         reg: 'http://orgeo.ru/event/24925',
         endReg: '2022-11-04 23:55',
         res: 'https://o-site.spb.ru/_races/221105_p/221105_split.htm',
@@ -2104,6 +2416,8 @@ let events2022 = [
         name: 'Перспектива 100 КП',
         start: 'PERSPEKTIVA',
         place: 'Токсово, Малиновая гора',
+        fmt: 'выбор', // !
+        coord: [60.161755, 30.49258],
         reg: 'http://orgeo.ru/event/24918#',
         endReg: '2022-11-04 23:55',
         res: 'https://o-site.spb.ru/_races/221106_100kp/221106_100_split.htm',
@@ -2124,6 +2438,15 @@ let events2022 = [
         bulletin: 'https://o-site.spb.ru/_races/2023_bn/221210_info.pdf'
     },
     {
+        id: 'SPB_20221107_1',
+        date: '2022-11-07',
+        endDate: '2022-11-08',
+        name: 'Кубок СПАСКа по спортивному ориентированию',
+        place: 'Центральный',
+        fmt: 'спринт',
+        reg: 'https://orgeo.ru/event/25043'
+    },
+    {
         id: 'SPB_20221112_1',
         date: '2022-11-12',
         place: 'Орехово',
@@ -2142,12 +2465,15 @@ let events2022 = [
         id: 'SPB_20221112_2',
         date: '2022-11-12',
         place: 'ЖК "Академ Парк" (ул Верности)',
+        coord: [60.003128, 30.403973],
+        reg: 'https://orgeo.ru/event/25084',
         map: 'akadem_park_2022',
         name: 'Noname Sprint Tour - 2022, 10 этап',
         start: 'SPRINT_TOUR',
         reskeep: 564,
         photo: 'https://vk.ru/album-92124592_287990405',
-        o_gps: 14620
+        o_gps: 14620,
+        endReg: '2022-11-11 21:00'
     },
     {
         id: 'SPB_20221112_3',
@@ -2193,9 +2519,20 @@ let events2022 = [
         o_gps: 14630
     },
     {
+        id: 'SPB_20221119_2',
+        date: '2022-11-19',
+        name: 'Открытое Первенство п.Кузьмоловский по спортивному ориентированию',
+        place: 'Токсово, комбыт',
+        coord: [60.137444, 30.496565],
+        reg: 'https://orgeo.ru/event/25226',
+        endReg: '2022-11-18 10:00'
+    },
+    {
         id: 'SPB_20221120_1',
         date: '2022-11-20',
         place: 'Лупполово',
+        fmt: 'кросс-классика',
+        coord: [60.16021, 30.269415],
         name: 'Всеволожская тропа',
         start: 'VSEVOLOZHSK_WAY',
         reg: 'http://orgeo.ru/event/25146',
@@ -2212,6 +2549,8 @@ let events2022 = [
         id: 'SPB_20221126_1',
         date: '2022-11-26',
         place: 'Школа №188, ул Стасовой, 4А',
+        fmt: 'кросс спринт',
+        coord: [59.970383, 30.431116],
         name: 'День Матери',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1484',
         res: 'https://o-site.spb.ru/_races/221126/221126_off.pdf',
@@ -2264,6 +2603,8 @@ let events2022 = [
         id: 'SPB_20221129_1',
         date: '2022-11-29',
         name: '«ТОЧНЫЙ АЗИМУТ 2022», финал (С 10:00 (МСК) 29 ноября до 10:00 (МСК) 30 ноября)',
+        place: 'Аннинские укрепления',
+        coord: [60.719032, 28.729204],
         reg: 'http://forms.yandex.ru/cloud/636d0ae92530c205eae4cc20/',
         res: 'http://disk.yandex.ru/i/3pvLSbc80DIFcA',
         info: 'Финальное мероприятие «Всероссийские игры по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций» Всероссийского фестиваля среди обучающихся, обучающихся с ограниченными возможностями здоровья и инвалидов по ориентированию на местности.',

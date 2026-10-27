@@ -13,6 +13,7 @@ let events2014 = [
         date: '2014-01-07',
         endDate: '2014-01-08',
         place: 'Цвелодубово',
+        type: 'SKI',
         name: 'Кубок России среди ветеранов, «Рождественские старты 2014»',
         res: 'https://o-site.spb.ru/_races/14010708/20140107_rez_.htm',
         owner: 'NW',
@@ -63,7 +64,9 @@ let events2014 = [
         endDate: '2014-02-02',
         name: 'Всероссийские соревнования ветеранов по спортивному ориентированию на лыжах',
         type: 'SKI',
+        coord: [59.278599, 32.380501],
         place: 'Будогощь',
+        fmt: 'маркированная трасса, классика, спринт',
         reg: 'http://orgeo.ru/event/764',
         endReg: '2014-01-28 22:00',
         res: 'https://o-site.spb.ru/_races/140202/140131_res.htm',
@@ -100,10 +103,10 @@ let events2014 = [
         date: '2014-02-12',
         place: 'ГБОУ школа №655, ул Оптиков 35-2',
         name: 'Спортивное ориентирование - в школу, Приморский район',
+        start: 'SCHOOL',
         res: 'https://o-site.spb.ru/_races/140212/140212_res.htm',
         info: 'Соревнования проводятся в рамках проекта Федерации спортивного ориентирования Санкт-Петербурга «Спортивное ориентирование - в школу» с целью популяризации спортивного ориентирования среди учащихся образовательных учреждений Санкт-Петербурга',
         video: 'http://vimeo.com/86731355',
-        owner: 'SFSO_SPB',
         o_site: '140212'
     },
     {
@@ -232,7 +235,6 @@ let events2014 = [
         name: 'Ориентир-1',
         start: 'ORIENTIR',
         res: 'http://o-site.spb.ru/_races/140323_OR/140323_split.htm',
-        owner: 'AZIMUT',
         o_site: '140323_OR',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#180'
     },
@@ -243,7 +245,6 @@ let events2014 = [
         name: 'Ориентир-2',
         start: 'ORIENTIR',
         res: 'http://o-site.spb.ru/_races/140323_OR/140330_split.htm',
-        owner: 'AZIMUT',
         o_site: '140323_OR',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#181'
     },
@@ -318,11 +319,11 @@ let events2014 = [
         date: '2014-04-16',
         place: 'ГБОУ СОШ №285, ул Пограничника Гарькавого, 46-4',
         name: 'Спортивное ориентирование - в школу, Красносельский район',
+        start: 'SCHOOL',
         res: 'https://o-site.spb.ru/_races/140416/140416_res_spr.htm',
         photo: 'https://o-site.spb.ru/_races/140416/140416_foto_res.htm',
         video: 'https://www.youtube.com/watch?v=7QD9lAYFyUg',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '140416'
     },
     {
@@ -343,7 +344,6 @@ let events2014 = [
         place: 'Сосновка',
         name: 'Ориентир-3',
         res: 'http://o-site.spb.ru/_races/140323_OR/140422_res.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '140323_OR'
     },
@@ -457,7 +457,6 @@ let events2014 = [
         place: 'Парк ЛТА',
         name: 'Ориентир-4',
         res: 'http://o-site.spb.ru/_races/140323_OR/140513_split.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '140323_OR'
     },
@@ -551,7 +550,6 @@ let events2014 = [
         place: 'Песочная',
         name: 'Ориентир-5',
         res: 'http://o-site.spb.ru/_races/140323_OR/140520_split.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '140323_OR',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#189'
@@ -561,10 +559,10 @@ let events2014 = [
         date: '2014-05-21',
         place: 'ГБОУ СОШ №188, ул Маршала Тухачевского, 17А',
         name: 'Спортивное ориентирование - в школу, Красногвардейский район',
+        start: 'SCHOOL',
         res: 'https://o-site.spb.ru/_races/140521/140521_labirint.htm',
         photo: 'https://o-site.spb.ru/_races/140521/140521_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '140521',
         map: 'school_188_2016'
     },
@@ -613,7 +611,6 @@ let events2014 = [
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2014-1.php',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2014-1/map_2014.jpg'
         ]
@@ -645,7 +642,6 @@ let events2014 = [
         place: 'Песочная',
         name: 'Ориентир-6',
         res: 'http://o-site.spb.ru/_races/140323_OR/140527_split.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '140323_OR',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#191'
@@ -750,6 +746,7 @@ let events2014 = [
         id: 'SPB_20140607_3',
         date: '2014-06-07',
         name: 'Кубок Коротких Маршрутов, 1 этап',
+        type: 'ROGAINE',
         res: 'http://o-site.spb.ru/_races/140607_KKM/KKM140607_split.zip',
         o_site: '140607_KKM'
     },
@@ -799,7 +796,6 @@ let events2014 = [
         place: 'Первомайское',
         name: 'Фестиваль спортивного ориентирования «Белые Ночи»',
         res: 'https://o-site.spb.ru/_races/14061722/14061722_res_official.zip',
-        owner: 'WN',
         start: ['WN','YM'],
         o_site: '14061722',
         map: ['ym_2014_06_17', 'ym_2014_pervomayskoe_long', 'ym_2014_06_19']
@@ -831,6 +827,7 @@ let events2014 = [
         id: 'SPB_20140705_2',
         date: '2014-07-05',
         name: 'Кубок Коротких Маршрутов, 2 этап',
+        type: 'ROGAINE',
         res: 'http://o-site.spb.ru/_races/140607_KKM/140705_split.htm',
         o_site: '140607_KKM'
     },
@@ -851,7 +848,6 @@ let events2014 = [
         name: 'Летнее первенство клуба Белые Ночи',
         res: 'https://o-site.spb.ru/_races/14071213/140712_res.htm',
         map: 'tikhoe_2024',
-        owner: 'WN',
         start: 'WN',
         o_site: '14071213',
         bulletin: 'https://o-site.spb.ru/_races/14071213/14071213_info.pdf'
@@ -884,7 +880,6 @@ let events2014 = [
         place: 'Петяярви',
         name: 'Ориентир-7',
         res: 'http://o-site.spb.ru/_races/140323_OR/140727_split.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '140323_OR'
     },
@@ -904,11 +899,11 @@ let events2014 = [
         date: '2014-08-03',
         place: 'Мичуринское-Ягодное',
         name: 'RedFox мультирогейн, RedFox мульти-kids',
+        start: 'RFAR',
         type: ['MULTI', 'ROGAINE'],
         res: 'https://o-site.spb.ru/_races/140803/140803_res.htm',
         info: 'Рогейн в мультиспортивном формате. Участникам предлагаются следующие форматы: «MR-6» мультирогейн в формате 6 часов, «MR-3» мультирогейн в формате 3 часа, «Kids 9-11» (дети от 9 до 11 лет), «Kids 12-14» (дети от 12 до 14 лет).',
         fmt: '6 часов, 3 часа, детский формат',
-        owner: 'RFAR',
         o_site: '140803',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#195',
         map: 'lahdenpohja_rfar_2014'
@@ -917,6 +912,7 @@ let events2014 = [
         id: 'SPB_20140810_1',
         date: '2014-08-10',
         place: 'Токсово',
+        type: 'ROGAINE',
         name: 'Кубок Коротких Маршрутов, 3 этап',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/140607_KKM/140810_split.xls',
@@ -1048,7 +1044,6 @@ let events2014 = [
         place: 'Токсово',
         name: 'Ориентир-8',
         res: 'http://o-site.spb.ru/_races/140323_OR/140909_split.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '140323_OR'
     },
@@ -1088,7 +1083,6 @@ let events2014 = [
         place: 'Парк Интернационалистов',
         name: 'Ориентир-9',
         res: 'http://o-site.spb.ru/_races/140323_OR/140916_split.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '140323_OR'
     },
@@ -1116,10 +1110,10 @@ let events2014 = [
         date: '2014-09-19',
         place: 'ГБОУ СОШ №473, ул Верности, 28-4',
         name: 'Спортивное ориентирование - в школу, Калининский р-н',
+        start: 'SCHOOL',
         res: 'https://o-site.spb.ru/_races/140919/140919_lab_res.htm',
         photo: 'https://o-site.spb.ru/_races/140919/140919_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '140919'
     },
     {
@@ -1149,7 +1143,6 @@ let events2014 = [
         place: 'Кавголово',
         name: 'Ориентир-10',
         res: 'http://o-site.spb.ru/_races/140323_OR/140923_split.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '140323_OR'
     },
@@ -1169,7 +1162,6 @@ let events2014 = [
         name: 'Кузьмоловские старты, 11 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://o-site.spb.ru/_races/140410/140925_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410',
         bulletin: 'https://o-site.spb.ru/_races/140410/141023_info.pdf'
     },
@@ -1195,7 +1187,6 @@ let events2014 = [
         photo: 'https://vk.com/album-30311715_203300364',
         map: 'kanneljarvy_ba_2014',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2014-2/BAL-2014_karta_1.png',
             'https://www.bikeadventure.ru/upload/files/arhiv-2014-2/BAL-2014_karta_2.png'
@@ -1319,6 +1310,7 @@ let events2014 = [
     {
         id: 'SPB_20141011_1',
         date: '2014-10-11',
+        // endDate: '2014-10-12',
         place: 'Яппиля, оз Комонь',
         name: 'Мемориал А.Окинчица',
         res: 'https://o-site.spb.ru/_races/14101112/141011_res.htm',
@@ -1443,10 +1435,10 @@ let events2014 = [
         date: '2014-10-29',
         place: 'Сестрорецк, ГБОУ СОШ №541, ул Володарского, 12',
         name: 'Спортивное ориентирование - в школу, Курортный р-н',
+        start: 'SCHOOL',
         res: 'https://o-site.spb.ru/_races/141029/141019_lab_res.htm',
         photo: 'https://o-site.spb.ru/_races/141029/141029_foto_res.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
-        owner: 'SFSO_SPB',
         o_site: '141029'
     },
     {
@@ -1573,8 +1565,7 @@ let events2014 = [
         logo: 'azimut.gif',
         o_site: '140323_OR',
         map: ['sosnovka_2014','pushkin_babolovsky_2019','pesochnaya_2005'],
-        start: 'ORIENTIR',
-        owner: 'AZIMUT'
+        start: 'ORIENTIR'
     },
     {
         id: 'SPB_20141206_1',

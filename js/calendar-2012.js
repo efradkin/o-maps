@@ -280,7 +280,6 @@ let events2012 = [
         date: '2012-03-25',
         name: 'Ориентир-1',
         res: 'http://o-site.spb.ru/_races/120325_Or/120325_split_.htm',
-        owner: 'AZIMUT',
         o_site: '120325_Or',
         bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm',
         start: 'ORIENTIR'
@@ -307,6 +306,7 @@ let events2012 = [
         id: 'SPB_20120407_1',
         date: '2012-04-07',
         place: 'Невский лесопарк',
+        fmt: 'А - по памяти, В - выбор, Взрослый новичок',
         name: 'Тренировка от Стрекозаек',
         start: 'STREKOZAIKI',
         res: 'http://nat-crusta.livejournal.com/112321.html',
@@ -380,7 +380,6 @@ let events2012 = [
         date: '2012-04-25',
         name: 'Ориентир-2',
         res: 'http://o-site.spb.ru/_races/120325_Or/120425_res.htm',
-        owner: 'AZIMUT',
         o_site: '120325_Or',
         bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm',
         start: 'ORIENTIR'
@@ -497,7 +496,6 @@ let events2012 = [
         date: '2012-05-16',
         name: 'Ориентир-3',
         res: 'http://o-site.spb.ru/_races/120325_Or/120516_split.htm',
-        owner: 'AZIMUT',
         o_site: '120325_Or',
         bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm',
         start: 'ORIENTIR'
@@ -536,6 +534,7 @@ let events2012 = [
         id: 'SPB_20120519_2',
         date: '2012-05-19',
         place: 'Токсово',
+        fmt: 'средняя',
         name: 'Чемпионат Ленинградской области по велоориентированию',
         start: 'LO_CHAMP',
         type: 'VELO',
@@ -561,7 +560,6 @@ let events2012 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2012-1.php',
         map: 'kamenka_ba_2012',
         start: 'BA',
-        owner: 'BKTV',
         info: 'Бобочинский полигон.',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2012-1/map_ba12.jpg'
@@ -594,7 +592,6 @@ let events2012 = [
         date: '2012-05-23',
         name: 'Ориентир-4',
         res: 'http://o-site.spb.ru/_races/120325_Or/120523_split.htm',
-        owner: 'AZIMUT',
         o_site: '120325_Or',
         bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm',
         start: 'ORIENTIR'
@@ -646,7 +643,6 @@ let events2012 = [
         date: '2012-05-30',
         name: 'Ориентир-5',
         res: 'http://o-site.spb.ru/_races/120325_Or/120530_split.htm',
-        owner: 'AZIMUT',
         o_site: '120325_Or',
         bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm',
         start: 'ORIENTIR'
@@ -737,7 +733,6 @@ let events2012 = [
         place: 'Первомайское',
         name: 'Фестиваль «Белые Ночи-2012»',
         res: 'https://o-site.spb.ru/_races/12061924/fest-1day.htm',
-        owner: 'WN',
         start: ['WN','YM'],
         o_site: '12061924',
         rg: {
@@ -888,7 +883,6 @@ let events2012 = [
         name: 'Ориентир-6',
         start: 'ORIENTIR',
         res: 'http://o-site.spb.ru/_races/120325_Or/120805_split.htm',
-        owner: 'AZIMUT',
         o_site: '120325_Or',
         bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm'
     },
@@ -918,7 +912,6 @@ let events2012 = [
         name: 'Ориентир-7',
         start: 'ORIENTIR',
         res: 'http://o-site.spb.ru/_races/120325_Or/120819_split.htm',
-        owner: 'AZIMUT',
         o_site: '120325_Or',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#120',
         bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm'
@@ -979,7 +972,6 @@ let events2012 = [
         date: '2012-09-05',
         name: 'Ориентир-8',
         res: 'http://o-site.spb.ru/_races/120325_Or/120905_split.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '120325_Or',
         bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm'
@@ -1009,7 +1001,6 @@ let events2012 = [
         date: '2012-09-12',
         name: 'Ориентир-9',
         res: 'http://o-site.spb.ru/_races/120325_Or/120912_split.htm',
-        owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '120325_Or',
         bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm'
@@ -1063,6 +1054,7 @@ let events2012 = [
         id: 'SPB_20120916_1',
         date: '2012-09-16',
         place: 'Лемболово',
+        fmt: 'Классика50',
         name: 'Открытое п-во КСО Азимут',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/120916_Az/120916_res.htm',
@@ -1159,8 +1151,8 @@ let events2012 = [
     },
     {
         id: 'SPB_20121001_1',
-        date: '2012-09-28',
-        endDate: '2012-10-01',
+        date: '2012-09-28', // !
+        endDate: '2012-10-01', // !
         place: 'Зеркальный',
         name: 'Старты в Зеркальном',
         res: 'https://o-site.spb.ru/_races/120928/120928-1001_res.zip',
@@ -1190,7 +1182,6 @@ let events2012 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2012-2.php',
         map: 'sapernoe_ba_2012',
         start: 'BA',
-        owner: 'BKTV',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2012-2/bal12.png'
         ]
@@ -1317,6 +1308,7 @@ let events2012 = [
     {
         id: 'SPB_20121013_2',
         date: '2012-10-13',
+        // endDate: '2012-10-14',
         place: 'Лемболово',
         name: 'Ночные соревнования памяти А.Окинчица',
         res: 'https://o-site.spb.ru/_races/121013_Ok/121014_res.htm',
@@ -1529,8 +1521,7 @@ let events2012 = [
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#138',
         bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm',
         map: 'sosnovka_2011',
-        start: 'ORIENTIR',
-        owner: 'AZIMUT'
+        start: 'ORIENTIR'
     },
     {
         id: 'SPB_20121125_2',
