@@ -3561,12 +3561,13 @@ let events2026 = [
         name: 'Спринт Тур',
         place: 'Озерки',
         reg: 'https://orgeo.ru/event/56346',
-        endReg: '2026-10-27 23:55',
+        endReg: '2026-10-28 10:00',
         bulletin: 'https://orgeo.ru/files/event/file/56346_1f76babddc.pdf',
         fmt: 'спринт',
         coord: [60.041443, 30.325857],
         start: 'SPRINT_TOUR',
-        map: 'esenina_2021'
+        map: 'esenina_2021',
+        reskeep: 946
     },
     {
         id: 'SPB_20261030_1',
@@ -3616,6 +3617,7 @@ let events2026 = [
         o_site: '261031_bn',
         reg: 'https://orgeo.ru/event/vaskelovo_classic_2026',
         endReg: '2026-10-30 20:00',
+        bulletin: 'https://o-site.spb.ru/_races/261031_bn/261031_info.pdf',
         map: 'stekljanny_2021',
         owner: 'WN',
     },
@@ -3632,6 +3634,17 @@ let events2026 = [
         coord: [60.678437, 29.967588],
         owner: 'DLITELNY',
         map: 'losevo_2022'
+    },
+    {
+        id: 'SPB_20261101_2',
+        date: '2026-11-01',
+        name: 'Кубок Белых ночей 2 этап',
+        start: 'KBN',
+        place: 'Станция Петяярви',
+        coord: [60.631023, 30.126431],
+        reg: 'https://orgeo.ru/event/56504',
+        endReg: '2026-10-31 18:00',
+        bulletin: 'https://orgeo.ru/files/event/file/56504_4d2bf518af.pdf'
     },
     {
         id: 'SPB_20261104_1',
