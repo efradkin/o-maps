@@ -68,6 +68,7 @@
         <script src="js/sheet-filter.js?v=54"></script>
 
         <select id="year_selector" class="header_selector" onchange="updateUrlParam('startYear', this.value)">
+            <option value="EARLY">Ранние</option>
             <option value="ALL">Все годы</option>
         </select>
 
@@ -84,24 +85,6 @@
             <option value="future">Будущие</option>
         </select>
 
-<!--
-        <label for="event_month_selector">Месяц:</label>
-        <select id="event_month_selector" class="header_selector" onchange="selectEventMonth(this.value)">
-            <option value="0">все</option>
-            <option value="1">Январь</option>
-            <option value="2">Февраль</option>
-            <option value="3">Март</option>
-            <option value="4">Апрель</option>
-            <option value="5">Май</option>
-            <option value="6">Июнь</option>
-            <option value="7">Июль</option>
-            <option value="8">Август</option>
-            <option value="9">Сентябрь</option>
-            <option value="10">Октябрь</option>
-            <option value="11">Ноябрь</option>
-            <option value="12">Декабрь</option>
-        </select>
--->
         <sup class="header_checkbox_container">
             <input type="checkbox" id="only-major" name="only-major" onclick="switchEventsParam('major', this.checked);" />
             <label for="only-major">важные &nbsp;</label>
@@ -179,15 +162,16 @@
             ...irfEvents,
         ];
 
-        // Выбор года (?startYear=, как в calendar.html): без параметра — текущий год, «Все годы» — ALL.
-        // Годы в списке — те, где есть свои (LOCAL_EVENTS) старты, и текущий.
+        // Выбор года (?startYear=): «Ранние» — до 2013 года, далее годы по отдельности.
+        // Обычные годы в списке — те, где есть свои (LOCAL_EVENTS) старты, и текущий.
         (function () {
+            const FIRST_REGULAR_YEAR = 2013;
             const current = String(new Date().getFullYear());
-            const y = START_YEAR_PARAM ?? current;
+            const requested = START_YEAR_PARAM ?? current;
             const years = new Set([current]);
             for (const e of LOCAL_EVENTS) {
                 const sy = startYear(e);
-                if (sy) years.add(String(sy));
+                if (sy && Number(sy) >= FIRST_REGULAR_YEAR) years.add(String(sy));
             }
             const selector = document.getElementById('year_selector');
             const all = selector.querySelector('option[value="ALL"]');
@@ -196,8 +180,15 @@
                 opt.value = opt.textContent = yr;
                 selector.insertBefore(opt, all);
             }
-            selector.value = years.has(y) || y === 'ALL' ? y : current;
-            if (y !== 'ALL') {
+            const y = (requested === 'EARLY' || requested === 'ALL' || years.has(requested))
+                ? requested : current;
+            selector.value = y;
+            if (y === 'EARLY') {
+                oEvents = oEvents.filter(e => {
+                    const sy = startYear(e);
+                    return sy && Number(sy) < FIRST_REGULAR_YEAR;
+                });
+            } else if (y !== 'ALL') {
                 oEvents = oEvents.filter(e => String(startYear(e)) === y);
             }
         })();

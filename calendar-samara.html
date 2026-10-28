@@ -68,6 +68,7 @@
         <script src="js/sheet-filter.js?v=54"></script>
 
         <select id="year_selector" class="header_selector" onchange="updateUrlParam('startYear', this.value)">
+            <option value="EARLY">Ранние</option>
             <option value="ALL">Все годы</option>
         </select>
 
@@ -124,7 +125,10 @@
     <script src="js/ext/jquery.slim.min.js"></script>
 
     <script src="js/calendar-samara.js?v=54"></script>
-<!--    <script src="js/calendar-common.js?v=55"></script>-->
+    <script src="js/calendar-common.js?v=55"></script>
+    <script src="js/calendar-iof.js?v=26"></script>
+    <script src="js/calendar-fsor.js?v=21"></script>
+    <script src="js/calendar-irf.js?v=14"></script>
 
     <script src="js/maps-samara.js?v=54"></script>
 
@@ -148,18 +152,22 @@
 
         let oEvents = [
             ...samaraEvents2026,
-            // ...commonEvents,
+            ...commonEvents,
+            ...iofEvents,
+            ...fsorEvents,
+            ...irfEvents,
         ];
 
-        // Выбор года (?startYear=, как в calendar.html): без параметра — текущий год, «Все годы» — ALL.
-        // Годы в списке — те, где есть свои (LOCAL_EVENTS) старты, и текущий.
+        // Выбор года (?startYear=): «Ранние» — до 2014 года, далее годы по отдельности.
+        // Обычные годы в списке — те, где есть свои (LOCAL_EVENTS) старты, и текущий.
         (function () {
+            const FIRST_REGULAR_YEAR = 2014;
             const current = String(new Date().getFullYear());
-            const y = START_YEAR_PARAM ?? current;
+            const requested = START_YEAR_PARAM ?? current;
             const years = new Set([current]);
             for (const e of LOCAL_EVENTS) {
                 const sy = startYear(e);
-                if (sy) years.add(String(sy));
+                if (sy && Number(sy) >= FIRST_REGULAR_YEAR) years.add(String(sy));
             }
             const selector = document.getElementById('year_selector');
             const all = selector.querySelector('option[value="ALL"]');
@@ -168,8 +176,15 @@
                 opt.value = opt.textContent = yr;
                 selector.insertBefore(opt, all);
             }
-            selector.value = years.has(y) || y === 'ALL' ? y : current;
-            if (y !== 'ALL') {
+            const y = (requested === 'EARLY' || requested === 'ALL' || years.has(requested))
+                ? requested : current;
+            selector.value = y;
+            if (y === 'EARLY') {
+                oEvents = oEvents.filter(e => {
+                    const sy = startYear(e);
+                    return sy && Number(sy) < FIRST_REGULAR_YEAR;
+                });
+            } else if (y !== 'ALL') {
                 oEvents = oEvents.filter(e => String(startYear(e)) === y);
             }
         })();
