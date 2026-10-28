@@ -5516,7 +5516,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию "Кросс-спринт" - 8 этап',
         place: 'Тольятти',
         coord: [53.516205, 49.268471],
-        reg: 'https://orgeo.ru/event/56097'
+        reg: 'https://orgeo.ru/event/56097',
+        endReg: '2026-10-16 17:00'
     },
     {
         id: 'SMR_20261018_1',
@@ -5525,6 +5526,7 @@ let samaraEvents2026 = [
         place: 'Парк Металлург',
         coord: [53.233997, 50.268452],
         reg: 'https://orgeo.ru/event/56080',
+        endReg: '2026-10-15 23:55',
         bulletin: 'https://parkcup.ru/etapinfo/41-kubok-parkov-samary-2026-1-i-etap.html'
     },
     {
@@ -5534,6 +5536,7 @@ let samaraEvents2026 = [
         place: 'Самара',
         coord: [53.448914, 50.09713],
         reg: 'https://orgeo.ru/event/56263',
+        endReg: '2026-10-21 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/56263_0a0cc38c39.pdf'
     },
     {
@@ -5542,7 +5545,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию "Кросс-спринт" - 9 этап',
         place: 'Лыжная база — "Лада парк"',
         coord: [53.500023, 49.301273],
-        reg: 'https://orgeo.ru/event/56261'
+        reg: 'https://orgeo.ru/event/56261',
+        endReg: '2026-10-23 17:00'
     },
     {
         id: 'SMR_20261025_1',
@@ -5551,6 +5555,7 @@ let samaraEvents2026 = [
         place: 'Парк Дружбы',
         coord: [53.203102, 50.218712],
         reg: 'https://orgeo.ru/event/56293',
+        endReg: '2026-10-22 23:55',
         bulletin: 'https://parkcup.ru/news/58-kubok-parkov-samary-2026.html'
     },
     {
@@ -5560,6 +5565,7 @@ let samaraEvents2026 = [
         place: 'Парк Победы',
         coord: [53.193295, 50.20219],
         reg: 'https://orgeo.ru/event/56420',
+        endReg: '2026-10-29 23:55',
         bulletin: 'https://parkcup.ru/news/58-kubok-parkov-samary-2026.html'
     },
     {
@@ -5569,7 +5575,8 @@ let samaraEvents2026 = [
         place: 'Дубки (ЛЭП',
         fmt: 'выбор',
         coord: [53.285645, 50.224873],
-        reg: 'https://orgeo.ru/event/56469'
+        reg: 'https://orgeo.ru/event/56469',
+        endReg: '2026-11-02 23:55'
     }
 
 ];  
