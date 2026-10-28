@@ -12,9 +12,10 @@ sync_calendar.py — получение и обновление записей �
             (Google Doc) -> calendar-msk-YYYY.js; внешний скрипт;
   osite     o-site.spb.ru: списки стартов archive.php?year=YYYY и страницы
             race.php?id=…;
-  orgeo     orgeo.ru, раздел «Ориентирование», подразделы СПб, ЛО и МСК
+  orgeo     orgeo.ru, раздел «Ориентирование», подразделы СПб, ЛО, МСК и Самара
             (только местные), будущие и прошедшие события; собрания, лекции и
-            семинары пропускаются;
+            семинары пропускаются; из подраздела Самары — только старты в
+            Самарской области (там бывают и соседние регионы);
   reskeep   reskeep.ru: номера протоколов (главная страница, весь список) —
             в поле reskeep записей (см. ниже); сертификат reskeep.ru отдаётся
             без промежуточного — он лежит в tools/extra_ca.pem;
@@ -64,7 +65,8 @@ sync_calendar.py — получение и обновление записей �
      (parent) уступает «зонтику», если подходит и он. Кандидаты — записи
      календаря СПб (как в fill_ogps.py: calendar-YYYY.js, calendar-early.js и
      записи с region: 'SPB') для o-site и orgeo СПб/ЛО, записи
-     calendar-msk-*.js и с region: 'MSK' для orgeo МСК; только записи в
+     calendar-msk-*.js и с region: 'MSK' для orgeo МСК, calendar-samara-*.js
+     и с region: 'SAMARA' для orgeo Самары; только записи в
      обрабатываемых датах. Записи calendar-fsor.js, calendar-iof.js,
      calendar-irf.js, беговые и лыжные забеги (type RUN, SK_RACE), записи без
      date и «зонтики» длиннее 60 дней так не сопоставляются — только по
@@ -85,12 +87,15 @@ sync_calendar.py — получение и обновление записей �
       bulletin  «Информационный бюллетень» с наибольшим номером (как в
                 fill_bulletins.py, с раскладкой по записям серии); если в
                 записи массив бюллетеней — не заменяется, только в отчёт;
+                бюллетень orgeo заменяет только бюллетень orgeo: бюллетень
+                о-сайта (и любой другой) в записи остаётся;
       endReg    по странице регистрации (шаг endreg, как в fill_end_reg.py);
                 срок позже последнего дня старта или разные сроки на разных
                 страницах — в отчёт, не пишется;
       date, endDate  с o-site, иначе с orgeo (если событие orgeo короче
-                SERIES_DAYS и сопоставлено с одной записью); только в
-                calendar-YYYY.js и calendar-early.js; в других
+                SERIES_DAYS и сопоставлено с одной записью; у записи с o_site
+                — только когда шаг osite тоже идёт); только в
+                calendar-YYYY.js, calendar-early.js и calendar-samara-*.js; в других
                 файлах (calendar-common.js, calendar-fsor.js, Москва…) даты
                 ведутся по своим источникам, и несовпадения выводятся в раздел
                 «Даты не совпадают»;
@@ -207,12 +212,14 @@ import_calendar_msk.py, import_calendar_malakhit.py и fill_ogps.py) не мен
   * старт o-site или orgeo (СПб/ЛО), не найденный в календаре, добавляется в
     calendar-YYYY.js (по году date) с полями id (SPB_YYYYMMDD_N), date,
     endDate, name, place, type, fmt, coord, o_site, reg, endReg, bulletin —
-    запись встаёт по дате;
+    запись встаёт по дате; старт orgeo в Самарской области — в последний
+    calendar-samara-*.js (все годы в одном файле), id SMR_YYYYMMDD_N;
   * не создаются, а выводятся в «Не созданы»: серии; старты без разобранной
     даты (с -v); когда нет файла calendar-YYYY.js; когда в названии и месте
     нет значимых слов; когда в календаре в те же дни ±1 день есть запись с
     общими словами (возможный дубль — например, «ЧиП СПб» и «Чемпионат и
-    Первенство Санкт-Петербурга»); события orgeo вне СПб и ЛО по месту
+    Первенство Санкт-Петербурга»); события orgeo вне СПб, ЛО и Самарской
+    области по месту
     проведения (с -v); уровень «Всероссийские ФСОР» и названия с
     «Чемпионат/Кубок/Первенство … России», «Всероссийские», «мира», «Европы»
     (такие записи ведутся в calendar-fsor.js/calendar-common.js); события
@@ -288,7 +295,7 @@ OSITE = 'https://o-site.spb.ru/'
 ORGEO = 'https://orgeo.ru/'
 RESKEEP = 'https://reskeep.ru/'
 EXTRA_CA = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'extra_ca.pem')
-ORGEO_REGIONS = ['spb', 'lenobl', 'moscow+mosobl']
+ORGEO_REGIONS = ['spb', 'lenobl', 'moscow+mosobl', 'samara']
 ORGEO_SKIP_LEVEL = {'Собрания, лекции, коференции'}
 ORGEO_NATIONAL_LEVEL = {'Всероссийские ФСОР'}
 SEMINAR = re.compile(r'семинар', re.I)
@@ -329,10 +336,12 @@ def type_by_words(text, weak=True):
     return found[0] if len(found) == 1 else None
 SPB_REGIONS = {'Санкт-Петербург', 'Ленинградская обл.'}
 MSK_REGIONS = {'Москва', 'Московская обл.'}
+SMR_REGIONS = {'Самара', 'Самарская обл.'}
 DATA_FILE = re.compile(r'calendar-(?!mobile\.js$)[\w-]+\.js$')
 SPB_YEAR_FILE = re.compile(r'calendar-(\d{4})\.js$')
 MSK_FILE = re.compile(r'calendar-msk-[\w-]+\.js$')
-DATE_FILE = re.compile(r'calendar-(?:\d{4}|early)\.js$')     # даты стартов берутся из источников
+SMR_FILE = re.compile(r'calendar-samara-[\w-]+\.js$')     # все записи Самары — в одном файле (последнем)
+DATE_FILE = re.compile(r'calendar-(?:\d{4}|early|samara-[\w-]+)\.js$')     # даты стартов берутся из источников
 NOAUTO_FILES = OG.NOAUTO_FILES
 NOAUTO_TYPES = OG.NOAUTO_TYPES
 NEW_ORDER = ['id', 'date', 'endDate', 'name', 'start', 'place', 'type', 'fmt', 'coord',
@@ -1150,6 +1159,7 @@ class Calendar:
             reg = r.get('region') or (par.get('region') if par else None)
             r.spb = reg == 'SPB' if reg else bool(OG.SPB_FILES.fullmatch(r.cf.name))
             r.msk = reg == 'MSK' if reg else bool(MSK_FILE.fullmatch(r.cf.name))
+            r.smr = reg == 'SAMARA' if reg else bool(SMR_FILE.fullmatch(r.cf.name))
         df = Counter()
         for r in self.recs:
             df.update(r.tok)
@@ -1158,7 +1168,7 @@ class Calendar:
 
     def new_record(self, fn, fields, src):
         cfile = self.files[fn]
-        prefix = 'MSK' if MSK_FILE.fullmatch(fn) else 'SPB'
+        prefix = 'MSK' if MSK_FILE.fullmatch(fn) else 'SMR' if SMR_FILE.fullmatch(fn) else 'SPB'
         ymd = fields['date'].replace('-', '')
         k = 1
         while '%s_%s_%d' % (prefix, ymd, k) in self.ids:
@@ -1171,7 +1181,7 @@ class Calendar:
             if val is not None:
                 r.changes[key] = val
         r.refresh_dates()
-        r.spb, r.msk = not prefix == 'MSK', prefix == 'MSK'
+        r.spb, r.msk, r.smr = prefix == 'SPB', prefix == 'MSK', prefix == 'SMR'
         r.src.append(src)
         r.seq = len(cfile.new)
         cfile.new.append(r)
@@ -1577,6 +1587,8 @@ class OrgeoEvent:
             return 'SPB'
         if self.addr in MSK_REGIONS:
             return 'MSK'
+        if self.addr in SMR_REGIONS:
+            return 'SAMARA'
         return None if self.addr else self.region
 
     def parse(self, page, final):
@@ -1594,7 +1606,9 @@ class OrgeoEvent:
         except (KeyError, ValueError):
             pass
         self.addr = meta.get('addressRegion') or None
-        self.place = meta.get('streetAddress') or self.place
+        if meta.get('streetAddress'):     # центр соревнований; без дат и служебных слов, иначе — город
+            self.place = orgeo_place(' » '.join(x for x in (meta.get('addressRegion'), meta.get('addressLocality'),
+                                                            meta.get('streetAddress')) if x)) or self.place
         try:
             self.coord = [float(meta['latitude']), float(meta['longitude'])]
             if self.coord == [0.0, 0.0]:
@@ -1622,6 +1636,30 @@ class OrgeoEvent:
             html.unescape(x) for x in re.findall(r'o-site\.spb\.ru/race\.php\?id=([^&"\'#\s<>]+)', page)))
         self.cands = bulletins(page, final)
         self.endreg = FE.SITES[0]['find'](page)
+
+
+PLACE_DATE = re.compile(r'\b\d{1,2}(?:-\d{1,2})?[./]\d{1,2}(?:[./]\d{2,4})?\b|'
+                        r'\b\d{1,2}(?:-\d{1,2})?\s+(?:январ|феврал|март|апрел|ма[йя]|июн|июл|август|сентябр|'
+                        r'октябр|ноябр|декабр)\w*(?:\s+\d{4})?|\(?\b(?:19|20)\d{2}\b\)?', re.I)
+PLACE_JUNK = re.compile(r'(?:регистрац|центр\w* соревнован|место старта|старт|финиш|сбор|парковк|'
+                        r'индивидуальн\w* гонк|спринт|классика|лонг|кубок|чип\b|чемпионат|первенств)', re.I)
+
+
+def orgeo_place(text):
+    """Место из списка orgeo («Область » Город » Центр соревнований»): последняя часть без дат и
+    годов («БАРСУК 06.10.24» -> «БАРСУК»); если в ней остались только служебные слова
+    («Регистрация», «Старт 24.10.2026», «Центр соревнований 7-8.05.2023», «ЧиП г.о. Самара 27-28 июня
+    2026») — предыдущая часть (город; область — нет)."""
+    parts = [x.strip() for x in (text or '').split('»') if x.strip()]
+    while parts:
+        last = re.sub(r'\s{2,}', ' ', PLACE_DATE.sub(' ', parts[-1])).strip(' ,.-–—()')
+        last = re.sub(r'\(\s*\)', '', last).strip(' ,.-–—')
+        if last and not re.match(PLACE_JUNK.pattern + r'|\d+$', last, re.I):
+            return last
+        parts.pop()
+        if len(parts) == 1 and re.search(r'(?:ская|ский|ская обл\.?|край|республика)$', parts[0], re.I):
+            return None                # осталась только область — места нет
+    return None
 
 
 def orgeo_list(fetcher, scope, rep):
@@ -1658,8 +1696,8 @@ def orgeo_list(fetcher, scope, rep):
                 ev.level = html.unescape(level)
                 name = re.sub(r'<b class="visible-xs-inline".*?</span>', '', a, flags=re.S)
                 ev.name = ev.name or clean(name)
-                ev.place = ev.place or clean(place).split('»')[-1].strip() or None
-                ev.region = 'MSK' if reg.startswith('moscow') else 'SPB'
+                ev.place = ev.place or orgeo_place(clean(place))
+                ev.region = 'MSK' if reg.startswith('moscow') else 'SAMARA' if reg == 'samara' else 'SPB'
                 dd = parse_orgeo_dates(dtext)
                 if dd:
                     ev.d0, ev.d1 = dd
@@ -1744,7 +1782,7 @@ def near(cal, region, name, place, d0, d1):
     for r in cal.recs:
         if not r.d0 or (r.d1 - r.d0).days > UMBRELLA_DAYS:
             continue
-        if not ((region == 'SPB' and r.spb) or (region == 'MSK' and r.msk)):
+        if not in_region(r, region):
             continue
         if overlap(r.d0, r.d1, a, b):
             c = et & r.tok
@@ -1758,6 +1796,11 @@ def no_words(name, place):
     return not OG.toks((name or '') + ' ' + (place or ''))
 
 
+def in_region(r, region):
+    return ((region == 'SPB' and r.spb) or (region == 'MSK' and r.msk)
+            or (region == 'SAMARA' and getattr(r, 'smr', False)))
+
+
 def word_pool(cal, region, scope):
     """Записи, которые можно сопоставлять по словам."""
     out = []
@@ -1768,7 +1811,7 @@ def word_pool(cal, region, scope):
             continue
         if r.types() & NOAUTO_TYPES:
             continue
-        if (region == 'SPB' and r.spb) or (region == 'MSK' and r.msk):
+        if in_region(r, region):
             out.append(r)
     return out
 
@@ -1886,7 +1929,7 @@ def link_orgeo(cal, events, rep, scope):
     for r in cal.recs:
         if r.get('o_site'):
             by_osite[r.get('o_site')].append(r)
-    pools = {'SPB': word_pool(cal, 'SPB', scope), 'MSK': word_pool(cal, 'MSK', scope)}
+    pools = {x: word_pool(cal, x, scope) for x in ('SPB', 'MSK', 'SAMARA')}
     claims = defaultdict(list)
     for ev in events.values():
         if not ev.page:
@@ -1948,10 +1991,13 @@ def link_orgeo(cal, events, rep, scope):
         if ev.level in ORGEO_SKIP_LEVEL or SEMINAR.search(ev.name or ''):
             continue
         tag = 'orgeo %s %s «%s»' % (ev.id, ev.d0, ev.name)
+        if re.search(r'отмен', ev.name or '', re.I):
+            rep.notnew.append(tag + ': отменён')
+            continue
         if ev.area == 'MSK' or (ev.area is None and ev.region == 'MSK'):
             rep.notnew.append(tag + ': Москва — записи создаёт сводная таблица (import_calendar_msk.py)')
             continue
-        if ev.area != 'SPB':
+        if ev.area not in ('SPB', 'SAMARA'):
             if rep.verbose:
                 rep.notnew.append(tag + ': место проведения — %s' % (ev.addr or '?'))
             continue
@@ -1959,14 +2005,18 @@ def link_orgeo(cal, events, rep, scope):
             rep.notnew.append(tag + ': всероссийский/международный старт — запись ведётся в '
                                     'calendar-fsor.js/calendar-common.js')
             continue
-        fn = 'calendar-%d.js' % ev.d0.year
+        if ev.area == 'SAMARA':          # все записи Самары — в последнем calendar-samara-*.js
+            smr = sorted(f for f in cal.files if SMR_FILE.fullmatch(f))
+            fn = smr[-1] if smr else 'calendar-samara-*.js'
+        else:
+            fn = 'calendar-%d.js' % ev.d0.year
         if fn not in cal.files:
             rep.notnew.append(tag + ': нет файла %s' % fn)
             continue
         if no_words(ev.name, ev.place):
             rep.notnew.append(tag + ': в названии и месте нет значимых слов — проверьте, нет ли старта в календаре')
             continue
-        dup = near(cal, 'SPB', ev.name, ev.place, ev.d0, ev.d1)
+        dup = near(cal, ev.area, ev.name, ev.place, ev.d0, ev.d1)
         if dup:
             rep.notnew.append(tag + ': возможно, это %s — впишите reg или создайте запись вручную' % dup)
             continue
@@ -2039,7 +2089,9 @@ def merge(cal, osite_events, rep, scope):
             src = None
             if ev and not series:
                 src, tag = (ev.d0, ev.d1), tag_os
-            elif og and not (ev and series) and len(og.recs) == 1 and (og.d1 - og.d0).days < SERIES_DAYS:
+            elif (og and not (ev and series) and len(og.recs) == 1 and (og.d1 - og.d0).days < SERIES_DAYS
+                  and not (r.get('o_site') and not osite_events)):
+                # у записи с o_site даты — с о-сайта; без шага osite (--only orgeo) orgeo их не меняет
                 src, tag = (og.d0, og.d1), tag_og
             if (src and src[0] and src != (r.d0, r.d1) and tag == tag_os and ev.yearless
                     and ev.year_src == 'guess' and src[0].year != r.d0.year):
@@ -2078,6 +2130,12 @@ def merge(cal, osite_events, rep, scope):
                     bull, tag_b = ch['url'], tag_og
                 else:
                     rep.manual('%s: несколько разных бюллетеней на orgeo: %s' % (r.head(), ch['detail']))
+        if bull and tag_b == tag_og and r.get('bulletin') and not all(
+                isinstance(x, str) and 'orgeo.ru' in x for x in aslist(r.get('bulletin'))):
+            # бюллетень orgeo заменяет только бюллетень orgeo: o-site и прочие (вписанные вручную) остаются
+            if url_key(bull) not in {url_key(x) for x in aslist(r.get('bulletin')) if isinstance(x, str)}:
+                rep.diffs.append('%s: bulletin %s, %s: %s' % (r.head(), short(r.get('bulletin')), tag_og, bull))
+            bull = None
         if bull:
             cur = r.get('bulletin')
             if isinstance(cur, list):        # несколько бюллетеней в записи — не заменяем одним
@@ -2683,7 +2741,7 @@ def print_report(cal, rep):
             if r.get(k) is not None:
                 print('    %-9s %s' % (k + ':', short(r.get(k))))
         for e in r.orgeo:
-            if e and e.area and e.area != 'SPB':
+            if e and e.area and e.area not in ('SPB', 'SAMARA'):
                 print('    ! место проведения по orgeo: %s' % e.addr)
     blocked = [r for r in cal.recs if r.blocked]
     if blocked:

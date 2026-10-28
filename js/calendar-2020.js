@@ -1000,6 +1000,7 @@ let events2020 = [
         date: '2020-08-12',
         name: 'Онлайн-старт по ориентированию',
         place: 'Муринский парк',
+        type: 'TRAIL_O',
         coord: [60.020859, 30.420368],
         reg: 'https://orgeo.ru/event/info/13161',
         endReg: '2020-08-12 12:00',

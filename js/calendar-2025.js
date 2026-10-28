@@ -1920,6 +1920,7 @@ let events2025 = [
             'https://orgeo.ru/event/info/45167'
         ],
         endReg: '2025-08-21 14:00',
+        bulletin: 'https://orgeo.ru/files/event/file/45167_6b47f32086.pdf',
         video: [
             'https://www.youtube.com/watch?v=c1z6ygtj6tQ',
             'https://www.youtube.com/watch?v=7R8INV1bLhQ'

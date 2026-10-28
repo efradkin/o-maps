@@ -1399,6 +1399,7 @@ let events2026 = [
         reskeep: 885,
         me: 'М50',
         fmt: 'классика',
+        // type: 'VELO',
         coord: [60.289265, 29.3102],
         planner: 'KSHN_D',
         map: 'anyalovo_2023',
