@@ -65,7 +65,7 @@ sync_calendar.py — получение и обновление записей �
      (parent) уступает «зонтику», если подходит и он. Кандидаты — записи
      календаря СПб (как в fill_ogps.py: calendar-YYYY.js, calendar-early.js и
      записи с region: 'SPB') для o-site и orgeo СПб/ЛО, записи
-     calendar-msk-*.js и с region: 'MSK' для orgeo МСК, calendar-samara-*.js
+     calendar-msk-*.js и с region: 'MSK' для orgeo МСК, calendar-samara.js
      и с region: 'SAMARA' для orgeo Самары; только записи в
      обрабатываемых датах. Записи calendar-fsor.js, calendar-iof.js,
      calendar-irf.js, беговые и лыжные забеги (type RUN, SK_RACE), записи без
@@ -95,7 +95,7 @@ sync_calendar.py — получение и обновление записей �
       date, endDate  с o-site, иначе с orgeo (если событие orgeo короче
                 SERIES_DAYS и сопоставлено с одной записью; у записи с o_site
                 — только когда шаг osite тоже идёт); только в
-                calendar-YYYY.js, calendar-early.js и calendar-samara-*.js; в других
+                calendar-YYYY.js, calendar-early.js и calendar-samara.js; в других
                 файлах (calendar-common.js, calendar-fsor.js, Москва…) даты
                 ведутся по своим источникам, и несовпадения выводятся в раздел
                 «Даты не совпадают»;
@@ -213,7 +213,7 @@ import_calendar_msk.py, import_calendar_malakhit.py и fill_ogps.py) не мен
     calendar-YYYY.js (по году date) с полями id (SPB_YYYYMMDD_N), date,
     endDate, name, place, type, fmt, coord, o_site, reg, endReg, bulletin —
     запись встаёт по дате; старт orgeo в Самарской области — в последний
-    calendar-samara-*.js (все годы в одном файле), id SMR_YYYYMMDD_N;
+    calendar-samara.js (все годы в одном файле), id SMR_YYYYMMDD_N;
   * не создаются, а выводятся в «Не созданы»: серии; старты без разобранной
     даты (с -v); когда нет файла calendar-YYYY.js; когда в названии и месте
     нет значимых слов; когда в календаре в те же дни ±1 день есть запись с
@@ -340,8 +340,8 @@ SMR_REGIONS = {'Самара', 'Самарская обл.'}
 DATA_FILE = re.compile(r'calendar-(?!mobile\.js$)[\w-]+\.js$')
 SPB_YEAR_FILE = re.compile(r'calendar-(\d{4})\.js$')
 MSK_FILE = re.compile(r'calendar-msk-[\w-]+\.js$')
-SMR_FILE = re.compile(r'calendar-samara[-][\w-]+\.js$')     # все записи Самары — в одном файле (последнем)
-DATE_FILE = re.compile(r'calendar-(?:\d{4}|early|samara-[\w-]+)\.js$')     # даты стартов берутся из источников
+SMR_FILE = re.compile(r'calendar-samara(?:-[\w-]+)?\.js$')   # записи Самары: calendar-samara.js (все годы)
+DATE_FILE = re.compile(r'calendar-(?:\d{4}|early|samara(?:-[\w-]+)?)\.js$')     # даты стартов берутся из источников
 NOAUTO_FILES = OG.NOAUTO_FILES
 NOAUTO_TYPES = OG.NOAUTO_TYPES
 NEW_ORDER = ['id', 'date', 'endDate', 'name', 'start', 'place', 'type', 'fmt', 'coord',
@@ -1652,8 +1652,11 @@ def orgeo_place(text):
     2026») — предыдущая часть (город; область — нет)."""
     parts = [x.strip() for x in (text or '').split('»') if x.strip()]
     while parts:
-        last = re.sub(r'\s{2,}', ' ', PLACE_DATE.sub(' ', parts[-1])).strip(' ,.-–—()')
+        last = re.sub(r'\s{2,}', ' ', PLACE_DATE.sub(' ', parts[-1]))
         last = re.sub(r'\(\s*\)', '', last).strip(' ,.-–—')
+        if last.count('(') > last.count(')'):        # «р. Курумка (Кемпинг» — скобку закрыть
+            last = last.rstrip(' ,.-–—(') + ')' if not last.endswith('(') else last.rstrip(' (')
+        last = last.lstrip(')').strip(' ,.-–—')
         if last and not re.match(PLACE_JUNK.pattern + r'|\d+$', last, re.I):
             return last
         parts.pop()
@@ -2005,9 +2008,9 @@ def link_orgeo(cal, events, rep, scope):
             rep.notnew.append(tag + ': всероссийский/международный старт — запись ведётся в '
                                     'calendar-fsor.js/calendar-common.js')
             continue
-        if ev.area == 'SAMARA':          # все записи Самары — в последнем calendar-samara-*.js
+        if ev.area == 'SAMARA':          # все записи Самары — в calendar-samara.js
             smr = sorted(f for f in cal.files if SMR_FILE.fullmatch(f))
-            fn = smr[-1] if smr else 'calendar-samara-*.js'
+            fn = 'calendar-samara.js' if 'calendar-samara.js' in smr else (smr[-1] if smr else 'calendar-samara.js')
         else:
             fn = 'calendar-%d.js' % ev.d0.year
         if fn not in cal.files:
