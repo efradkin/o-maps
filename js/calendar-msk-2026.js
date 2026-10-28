@@ -15,6 +15,26 @@ let mskEvents2026 = [
         map: '20210529_464'
     },
     {
+        id: 'MSK_20260110_1',
+        date: "2026-01-10",
+        name: "Тренировочный старт",
+        place: "г. Раменское, ул. Советская д.36",
+        type: "ORIENT",
+        coord: [55.569538, 38.228806],
+        reg: "https://orgeo.ru/event/49065",
+        endReg: "2026-01-09 21:00"
+    },
+    {
+        id: 'MSK_20260110_2',
+        date: "2026-01-10",
+        name: "Открытая тренировка СК Малахит",
+        place: "Усадьба Братцево",
+        type: "ORIENT",
+        coord: [55.848381, 37.400581],
+        reg: "https://orgeo.ru/event/48993",
+        bulletin: "https://docs.google.com/document/d/1hxeUdEbzK8K3hJMXTALPfNln0gvhg0Ksso3N8g4AJic/edit?usp=sharing"
+    },
+    {
         id: 'MSK_20260111_1',
         date: "2026-01-11",
         name: "Нано-Подкуст",
@@ -42,6 +62,17 @@ let mskEvents2026 = [
         map: '20250404_702'
     },
     {
+        id: 'MSK_20260117_2',
+        date: "2026-01-17",
+        name: "Первый этап кубка Спортмастер PRO по спортивному ориентированию",
+        place: "Образовательный комплекс \"Запад\"",
+        type: "ORIENT",
+        coord: [55.738667, 37.394268],
+        reg: "https://orgeo.ru/event/48892",
+        endReg: "2026-01-14 23:55",
+        bulletin: "https://docs.google.com/document/d/1XK39tm0RneaAP_OwYtMqlhcgYKxA7yIj-OAtWdDI6sI/edit?usp=sharing"
+    },
+    {
         id: 'MSK_20260118_1',
         date: "2026-01-18",
         name: "Нано-Подкуст",
@@ -54,6 +85,16 @@ let mskEvents2026 = [
         endReg: "2026-01-17 21:00",
         owner: "CLEVER_MSK",
         map: '20210529_930'
+    },
+    {
+        id: 'MSK_20260122_1',
+        date: "2026-01-22",
+        name: "Открытая тренировка СК Малахит. Ночной спринт",
+        place: "Усадьба Михалково",
+        type: "ORIENT",
+        coord: [55.842392, 37.521034],
+        reg: "https://orgeo.ru/event/49340",
+        bulletin: "https://docs.google.com/document/d/1vyLrnOS8VbzIX2tsoWv7IHqTKBlztoC8fY1SljWb6ZQ/edit?usp=sharing"
     },
     {
         id: 'MSK_20260124_1',
@@ -82,6 +123,16 @@ let mskEvents2026 = [
         map: 'big_bitsa_2024'
     },
     {
+        id: 'MSK_20260129_1',
+        date: "2026-01-29",
+        name: "Открытая тренировка СК Малахит. Ночной спринт",
+        place: "Головинский канал",
+        type: "ORIENT",
+        coord: [55.845081, 37.507412],
+        reg: "https://orgeo.ru/event/49515",
+        bulletin: "https://docs.google.com/document/d/1o0jIJDQEay1ebk4PQOAUbLRKzoTuKqDbBMOZ_BNWSzM/edit?usp=sharing"
+    },
+    {
         id: 'MSK_20260131_1',
         date: "2026-01-31",
         name: "ЧиП Москвы",
@@ -93,6 +144,14 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
         owner: "FSO_MSK",
         map: '20250403_510'
+    },
+    {
+        id: 'MSK_20260131_2',
+        date: "2026-01-31",
+        name: "Радиалка. Лыжынг&Трейл",
+        place: "Воскресенский",
+        type: "SKI",
+        reg: "https://orgeo.ru/event/48971"
     },
     {
         id: 'MSK_20260201_1',
@@ -177,6 +236,16 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20260214_2',
+        date: "2026-02-14",
+        name: "Наколенный спринт",
+        place: "Волжская LIFE",
+        type: "ORIENT",
+        coord: [55.696495, 37.744427],
+        reg: "https://orgeo.ru/event/50002",
+        endReg: "2026-02-13 12:00"
+    },
+    {
         id: 'MSK_20260215_1',
         date: "2026-02-15",
         name: "Нано-Подкуст",
@@ -238,6 +307,16 @@ let mskEvents2026 = [
         map: '20210531_770'
     },
     {
+        id: 'MSK_20260222_3',
+        date: "2026-02-22",
+        name: "Первенство КСО Фрязино",
+        place: "Десятка!",
+        type: "ORIENT",
+        coord: [55.927929, 38.062904],
+        reg: "https://orgeo.ru/event/50284",
+        endReg: "2026-02-20 21:00"
+    },
+    {
         id: 'MSK_20260223_1',
         date: "2026-02-23",
         name: "Московская Весна",
@@ -250,6 +329,26 @@ let mskEvents2026 = [
         endReg: "2026-02-22 21:00",
         owner: "CLEVER_MSK",
         map: 'shmelevka_2026'
+    },
+    {
+        id: 'MSK_20260223_2',
+        date: "2026-02-23",
+        name: "Первенство города Раменское",
+        place: "озеро Пионер",
+        type: "ORIENT",
+        coord: [55.567799, 38.238636],
+        reg: "https://orgeo.ru/event/49984",
+        endReg: "2026-02-20 23:55"
+    },
+    {
+        id: 'MSK_20260226_1',
+        date: "2026-02-26",
+        name: "Открытая ночная тренировка СК Малахит",
+        place: "Бабушкинский парк",
+        type: "ORIENT",
+        coord: [55.873123, 37.654099],
+        reg: "https://orgeo.ru/event/50260",
+        bulletin: "https://docs.google.com/document/d/1dUU3x-Sy-BVIww-7ak6MCI5lviOff3GR-Ean1QFTvLg/edit?usp=sharing"
     },
     {
         id: 'MSK_20260228_1',
@@ -307,6 +406,27 @@ let mskEvents2026 = [
         map: '20210531_872'
     },
     {
+        id: 'MSK_20260301_4',
+        date: "2026-03-01",
+        name: "Чемпионат и Первенство м.о.Истра по спортивному ориентированию на лыжах",
+        place: "лесопарк \"Шишкин лес\", лыжная база",
+        type: "SKI",
+        fmt: "спринт",
+        coord: [55.797916, 37.072891],
+        reg: "https://orgeo.ru/event/50569",
+        endReg: "2026-02-28 12:00"
+    },
+    {
+        id: 'MSK_20260305_1',
+        date: "2026-03-05",
+        name: "Открытая тренировка СК Малахит. Ночной спринт",
+        place: "Сквер Жадова",
+        type: "ORIENT",
+        coord: [55.800571, 37.470631],
+        reg: "https://orgeo.ru/event/50607",
+        bulletin: "https://docs.google.com/document/d/1rcQo-LJFMibEPOrKd0S7y8wl_A6od6cXHaJHa16a4KE/edit?usp=sharing"
+    },
+    {
         id: 'MSK_20260307_1',
         date: "2026-03-07",
         name: "Московская Весна",
@@ -362,6 +482,16 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20260314_2',
+        date: "2026-03-14",
+        name: "Чемпионат и Первенство муниципального округа Истра по спортивному ориентированию, кросс-эстафета-2ч",
+        place: "лесопарк \"Шишкин лес\", лыжная база",
+        type: "ORIENT",
+        coord: [55.797916, 37.072891],
+        reg: "https://orgeo.ru/event/50845",
+        endReg: "2026-03-10 23:55"
+    },
+    {
         id: 'MSK_20260315_1',
         date: "2026-03-15",
         name: "ЧиП г. Москвы Юношеский Фест.",
@@ -386,6 +516,16 @@ let mskEvents2026 = [
         endReg: "2026-03-14 21:00",
         owner: "CLEVER_MSK",
         map: 'new_marino_2026'
+    },
+    {
+        id: 'MSK_20260315_3',
+        date: "2026-03-15",
+        name: "Тренировочный старт \"Весенняя капель\"",
+        place: "Чернавка (Свободы - Народное Имение)",
+        type: "ORIENT",
+        coord: [55.576401, 38.230873],
+        reg: "https://orgeo.ru/event/50952",
+        endReg: "2026-03-14 18:00"
     },
     {
         id: 'MSK_20260321_1',
@@ -416,6 +556,16 @@ let mskEvents2026 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK",
         map: 'big_bitsa_2024'
+    },
+    {
+        id: 'MSK_20260326_1',
+        date: "2026-03-26",
+        name: "Открытая тренировка СК Малахит. Ночной спринт",
+        place: "г. Москва, Ландшафтный парк Митино",
+        type: "ORIENT",
+        coord: [55.835155, 37.382748],
+        reg: "https://orgeo.ru/event/51151",
+        bulletin: "https://docs.google.com/document/d/16iaXjy6Wpzve7aQro0i4nzFveYDbhooApN2Bswc7haY/edit?usp=sharing"
     },
     {
         id: 'MSK_20260328_1',
@@ -466,6 +616,17 @@ let mskEvents2026 = [
         owner: "SYTV_N"
     },
     {
+        id: 'MSK_20260401_1',
+        date: "2026-04-01",
+        name: "Открытая тренировка команды RAVE TEAM",
+        place: "Медик, лес",
+        type: "ORIENT",
+        coord: [55.742592, 37.386433],
+        reg: "https://orgeo.ru/event/51475",
+        endReg: "2026-03-31 23:55",
+        bulletin: "https://orgeo.ru/files/event/file/51475_3c645d5997.docx"
+    },
+    {
         id: 'MSK_20260402_1',
         date: "2026-04-02",
         name: "Московский Меридиан",
@@ -477,6 +638,16 @@ let mskEvents2026 = [
         link: "https://mosmeridian.website.yandexcloud.net/",
         owner: "SYTV_N",
         map: '20250403_463'
+    },
+    {
+        id: 'MSK_20260403_1',
+        date: "2026-04-03",
+        name: "День здоровья",
+        place: "Школа Истра 3",
+        type: "ORIENT",
+        coord: [55.924011, 36.872875],
+        reg: "https://orgeo.ru/event/51433",
+        endReg: "2026-04-03 11:00"
     },
     {
         id: 'MSK_20260404_1',
@@ -504,6 +675,16 @@ let mskEvents2026 = [
         endReg: "2026-04-01 23:55",
         bulletin: "https://docs.google.com/document/d/1_jzZs6Sv3zshjP0MKLynoqy2ZZpjDzvmhs2XfFzBSuQ/edit?tab=t.0",
         map: 'novokuznetskaya_2026'
+    },
+    {
+        id: 'MSK_20260404_3',
+        date: "2026-04-04",
+        name: "OBKOS - Ориентирование в помещении - 4 апреля",
+        place: "Мега Белая Дача",
+        type: "INDOOR",
+        coord: [55.656368, 37.84515],
+        reg: "https://orgeo.ru/event/50819",
+        bulletin: "https://docs.google.com/document/d/1_jzZs6Sv3zshjP0MKLynoqy2ZZpjDzvmhs2XfFzBSuQ/edit?tab=t.0"
     },
     {
         id: 'MSK_20260405_1',
@@ -546,6 +727,17 @@ let mskEvents2026 = [
         endReg: "2026-04-01 23:55",
         bulletin: "https://docs.google.com/document/d/1_jzZs6Sv3zshjP0MKLynoqy2ZZpjDzvmhs2XfFzBSuQ/edit?tab=t.0",
         map: 'novokuznetskaya_2026'
+    },
+    {
+        id: 'MSK_20260406_1',
+        date: "2026-04-06",
+        name: "ТС НАШ ЛЕС 2026 апрель Э1 (6.04.2026)",
+        place: "Соколка, \"Беседки у проката\"",
+        type: "ORIENT",
+        coord: [55.914005, 36.896114],
+        reg: "https://orgeo.ru/event/51528",
+        endReg: "2026-04-04 20:00",
+        bulletin: "https://docs.google.com/document/d/1gg2pFr-N-kFcwOx7Q0Tf9A1UEB7SbpKr/edit?usp=sharing&ouid=101816014487550846737&rtpof=true&sd=true"
     },
     {
         id: 'MSK_20260407_1',
@@ -606,6 +798,38 @@ let mskEvents2026 = [
         owner: "FSO_MSK"
     },
     {
+        id: 'MSK_20260412_2',
+        date: "2026-04-12",
+        name: "Традиционные соревнования по спортивному ориентированию турклуба МГУ",
+        place: "Битцевский лес",
+        type: "ORIENT",
+        coord: [55.647491, 37.56897],
+        reg: "https://orgeo.ru/event/51205",
+        endReg: "2026-04-09 23:55"
+    },
+    {
+        id: 'MSK_20260412_3',
+        date: "2026-04-12",
+        name: "Четвертый этап кубка Спортмастер PRO по спортивному ориентированию",
+        place: "Ленинский проспект, 137к2",
+        type: "ORIENT",
+        coord: [55.642334, 37.475334],
+        reg: "https://orgeo.ru/event/51672",
+        endReg: "2026-04-09 23:55",
+        bulletin: "https://docs.google.com/document/d/1P46PuvgpEUD9uhOLCFQV-nUistPO8DRdJLE6uax8Ync/edit?usp=sharing"
+    },
+    {
+        id: 'MSK_20260413_1',
+        date: "2026-04-13",
+        name: "ТС НАШ ЛЕС 2026 апрель Э2 (13.04.2026)",
+        place: "Соколка, \"Беседки у проката\"",
+        type: "ORIENT",
+        coord: [55.914005, 36.896114],
+        reg: "https://orgeo.ru/event/51574",
+        endReg: "2026-04-11 20:00",
+        bulletin: "https://docs.google.com/document/d/1gg2pFr-N-kFcwOx7Q0Tf9A1UEB7SbpKr/edit?usp=sharing&ouid=101816014487550846737&rtpof=true&sd=true"
+    },
+    {
         id: 'MSK_20260414_1',
         date: "2026-04-14",
         name: "Московский Меридиан",
@@ -660,6 +884,16 @@ let mskEvents2026 = [
         owner: "FSO_MSK"
     },
     {
+        id: 'MSK_20260418_3',
+        date: "2026-04-18",
+        name: "Матчевая встреча \"Малое Золотое Кольцо\"",
+        place: "Музей-заповедник «Абрамцево",
+        type: "ORIENT",
+        coord: [56.234386, 37.96685],
+        reg: "https://orgeo.ru/event/51506",
+        endReg: "2026-04-16 23:55"
+    },
+    {
         id: 'MSK_20260419_1',
         date: "2026-04-19",
         name: "ЧиП Москвы",
@@ -683,6 +917,38 @@ let mskEvents2026 = [
         endReg: "2026-04-18 21:00",
         owner: "CLEVER_MSK",
         map: '20230130_140'
+    },
+    {
+        id: 'MSK_20260419_3',
+        date: "2026-04-19",
+        name: "\"Подснежник - 2026\"",
+        place: "Лесопарк Чёрная речка",
+        type: "ORIENT",
+        coord: [56.738514, 37.176743],
+        reg: "https://orgeo.ru/event/51934",
+        endReg: "2026-04-17 21:00"
+    },
+    {
+        id: 'MSK_20260419_4',
+        date: "2026-04-19",
+        name: "Пятый этап кубка (19 апреля) Спортмастер PRO по спортивному ориентированию",
+        place: "Спасопесковская площадь",
+        type: "ORIENT",
+        coord: [55.750114, 37.587555],
+        reg: "https://orgeo.ru/event/51876",
+        endReg: "2026-04-16 23:55",
+        bulletin: "https://docs.google.com/document/d/1pFpIkrQg7EIOBRFT-P1AQ3gBWPX-I6L8sR5maQhr2vw/edit?usp=sharing"
+    },
+    {
+        id: 'MSK_20260420_1',
+        date: "2026-04-20",
+        name: "ТС НАШ ЛЕС 2026 апрель Э3 (20 .04.2026)",
+        place: "Соколка, \"Беседки у проката\"",
+        type: "ORIENT",
+        coord: [55.914005, 36.896114],
+        reg: "https://orgeo.ru/event/51576",
+        endReg: "2026-04-18 20:00",
+        bulletin: "https://docs.google.com/document/d/1gg2pFr-N-kFcwOx7Q0Tf9A1UEB7SbpKr/edit?usp=sharing&ouid=101816014487550846737&rtpof=true&sd=true"
     },
     {
         id: 'MSK_20260421_1',
@@ -839,6 +1105,16 @@ let mskEvents2026 = [
         owner: "FSO_MSK"
     },
     {
+        id: 'MSK_20260503_3',
+        date: "2026-05-03",
+        name: "Открытая тренировка \"Весна на Гидре\"",
+        place: "оз. Гидра",
+        type: "ORIENT",
+        coord: [55.565109, 38.182732],
+        reg: "https://orgeo.ru/event/52431",
+        endReg: "2026-05-01"
+    },
+    {
         id: 'MSK_20260505_1',
         date: "2026-05-05",
         name: "Московский Меридиан",
@@ -944,6 +1220,17 @@ let mskEvents2026 = [
         map: '20230130_140'
     },
     {
+        id: 'MSK_20260513_2',
+        date: "2026-05-13",
+        name: "Открытое первенство РГАУ-МСХА по спортивному ориентированию",
+        place: "РГАУ-МСХА им. К.А. Тимирязева, СОК",
+        type: "ORIENT",
+        coord: [55.834057, 37.564938],
+        reg: "https://orgeo.ru/event/52580",
+        endReg: "2026-05-12 20:30",
+        bulletin: "https://orgeo.ru/files/event/file/52580_58831db815.docx"
+    },
+    {
         id: 'MSK_20260514_1',
         date: "2026-05-14",
         name: "Московский Меридиан",
@@ -966,6 +1253,27 @@ let mskEvents2026 = [
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
         owner: "FSO_MSK"
+    },
+    {
+        id: 'MSK_20260516_2',
+        date: "2026-05-16",
+        name: "Миниориентирование Слет 2026",
+        place: "Леоново МИНИ поляна",
+        type: "ORIENT",
+        coord: [55.890736, 36.743176],
+        reg: "https://orgeo.ru/event/52792",
+        endReg: "2026-05-15 00:00"
+    },
+    {
+        id: 'MSK_20260516_3',
+        date: "2026-05-16",
+        name: "Российский Азимут 2026",
+        place: "ВДНХ",
+        type: "ORIENT",
+        coord: [55.837795, 37.613594],
+        reg: "https://orgeo.ru/event/52485",
+        endReg: "2026-05-12 23:55",
+        bulletin: "https://docs.google.com/document/d/1YrGQqAOTQQtee29QlYtePPIxdWl626a_puW_EZNBchc/edit?usp=sharing"
     },
     {
         id: 'MSK_20260517_1',
@@ -1056,6 +1364,16 @@ let mskEvents2026 = [
         map: 'big_bitsa_2024'
     },
     {
+        id: 'MSK_20260524_2',
+        date: "2026-05-24",
+        name: "Майский выбор 2026",
+        place: "Лес за ЛФВЭ",
+        type: "ORIENT",
+        coord: [56.763203, 37.215508],
+        reg: "https://orgeo.ru/event/52960",
+        endReg: "2026-05-22 21:00"
+    },
+    {
         id: 'MSK_20260526_1',
         date: "2026-05-26",
         name: "Московский Меридиан",
@@ -1107,6 +1425,15 @@ let mskEvents2026 = [
         map: '20200907_909'
     },
     {
+        id: 'MSK_20260530_3',
+        date: "2026-05-30",
+        name: "НЕрадиалка",
+        place: "Академия Спартак",
+        type: "ORIENT",
+        coord: [55.803795, 37.694748],
+        reg: "https://orgeo.ru/event/51893"
+    },
+    {
         id: 'MSK_20260531_1',
         date: "2026-05-31",
         name: "Московская Весна + Moscow Sprint Tour",
@@ -1118,6 +1445,17 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         owner: "CLEVER_MSK",
         map: 'novokosino_2025'
+    },
+    {
+        id: 'MSK_20260601_1',
+        date: "2026-06-01",
+        name: "Открытая тренировка команды RAVE TEAM",
+        place: "Теплый Стан, Генерала Тюленева",
+        type: "ORIENT",
+        coord: [55.6273, 37.488148],
+        reg: "https://orgeo.ru/event/53375",
+        endReg: "2026-06-01 16:00",
+        bulletin: "https://orgeo.ru/files/event/file/53375_5dbbbdf994.docx"
     },
     {
         id: 'MSK_20260602_1',
@@ -1133,6 +1471,17 @@ let mskEvents2026 = [
         map: 'big_bitsa_2024'
     },
     {
+        id: 'MSK_20260603_1',
+        date: "2026-06-03",
+        name: "Открытая тренировка команды RAVE TEAM",
+        place: "Лыткарино, Яма, у моста",
+        type: "ORIENT",
+        coord: [55.601208, 37.920067],
+        reg: "https://orgeo.ru/event/53377",
+        endReg: "2026-06-03 15:00",
+        bulletin: "https://orgeo.ru/files/event/file/53377_cf714e63ff.docx"
+    },
+    {
         id: 'MSK_20260604_1',
         date: "2026-06-04",
         name: "Московский Меридиан",
@@ -1146,6 +1495,16 @@ let mskEvents2026 = [
         map: 'big_bitsa_2024'
     },
     {
+        id: 'MSK_20260605_1',
+        date: "2026-06-05",
+        name: "Лагерь полоса",
+        place: "Соколка, \"Беседки у проката\"",
+        type: "ORIENT",
+        coord: [55.914005, 36.896114],
+        reg: "https://orgeo.ru/event/53438",
+        endReg: "2026-06-03 09:00"
+    },
+    {
         id: 'MSK_20260606_1',
         date: "2026-06-06",
         name: "Московская Весна",
@@ -1157,6 +1516,18 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/52914",
         endReg: "2026-06-05 21:00",
         owner: "CLEVER_MSK"
+    },
+    {
+        id: 'MSK_20260606_2',
+        date: "2026-06-06",
+        name: "5КП RUN 1 этап",
+        place: "Филёвская Пойма",
+        type: "ORIENT",
+        fmt: "спринт",
+        coord: [55.765598, 37.47916],
+        reg: "https://orgeo.ru/event/53153",
+        endReg: "2026-06-05 17:20",
+        bulletin: "https://orgeo.ru/files/event/file/53153_37e353334a.pdf"
     },
     {
         id: 'MSK_20260607_1',
@@ -1173,6 +1544,16 @@ let mskEvents2026 = [
         map: 'rublevo_2005'
     },
     {
+        id: 'MSK_20260607_2',
+        date: "2026-06-07",
+        name: "Москва Спортивная",
+        place: "ВДНХ, парковка",
+        type: "ORIENT",
+        coord: [55.830826, 37.63636],
+        reg: "https://orgeo.ru/event/52514",
+        endReg: "2026-06-04 23:55"
+    },
+    {
         id: 'MSK_20260609_1',
         date: "2026-06-09",
         name: "Московский Меридиан",
@@ -1184,6 +1565,16 @@ let mskEvents2026 = [
         link: "https://mosmeridian.website.yandexcloud.net/",
         owner: "SYTV_N",
         map: 'big_bitsa_2024'
+    },
+    {
+        id: 'MSK_20260610_1',
+        date: "2026-06-10",
+        name: "Лагерь миниориентирование",
+        place: "Школа Истра 3",
+        type: "ORIENT",
+        coord: [55.924011, 36.872875],
+        reg: "https://orgeo.ru/event/53572",
+        endReg: "2026-06-10 00:00"
     },
     {
         id: 'MSK_20260611_1',
@@ -1225,6 +1616,18 @@ let mskEvents2026 = [
         res: "https://orgeo.ru/files/event/file/53530_41fd45a297.xls",
         owner: "MLKHT",
         map: "vsehsvjatskaya_roscha_2025"
+    },
+    {
+        id: 'MSK_20260614_1',
+        date: "2026-06-14",
+        name: "5КП RUN 3 этап",
+        place: "Измайлово-восток(площадки у Лебедянского)",
+        type: "ORIENT",
+        fmt: "лонг",
+        coord: [55.773151, 37.81432],
+        reg: "https://orgeo.ru/event/53155",
+        endReg: "2026-06-12 18:55",
+        bulletin: "https://orgeo.ru/files/event/file/53155_b8723d9f3c.pdf"
     },
     {
         id: 'MSK_20260616_1',
@@ -1284,6 +1687,18 @@ let mskEvents2026 = [
         map: "20200919_688"
     },
     {
+        id: 'MSK_20260620_2',
+        date: "2026-06-20",
+        name: "5КП RUN 4 этап",
+        place: "Теплый стан(арка)",
+        type: "ORIENT",
+        fmt: "спринт",
+        coord: [55.635281, 37.489151],
+        reg: "https://orgeo.ru/event/53156",
+        endReg: "2026-06-19 14:55",
+        bulletin: "https://orgeo.ru/files/event/file/53156_3431c80a74.pdf"
+    },
+    {
         id: 'MSK_20260621_1',
         date: "2026-06-21",
         name: "Открытая тренировка",
@@ -1325,6 +1740,16 @@ let mskEvents2026 = [
         map: '20250403_280'
     },
     {
+        id: 'MSK_20260626_1',
+        date: "2026-06-26",
+        name: "Спринт в Слободском бору",
+        place: "Серпухов, Городской бор, Слобода",
+        type: "ORIENT",
+        coord: [54.920609, 37.416901],
+        reg: "https://orgeo.ru/event/53791",
+        endReg: "2026-06-25 19:00"
+    },
+    {
         id: 'MSK_20260627_1',
         date: "2026-06-27",
         name: "Открытая тренировка",
@@ -1338,6 +1763,18 @@ let mskEvents2026 = [
         res: "https://orgeo.ru/files/event/file/53737_6ecbb72e32.xlsx",
         owner: "MLKHT",
         map: "rogova_2026"
+    },
+    {
+        id: 'MSK_20260627_2',
+        date: "2026-06-27",
+        name: "5КП RUN Финал",
+        place: "ЛЗ Тёплый стан (спортплощадки у входа)",
+        type: "ORIENT",
+        fmt: "классика - общий старт",
+        coord: [55.635353, 37.490189],
+        reg: "https://orgeo.ru/event/53157",
+        endReg: "2026-06-26 13:55",
+        bulletin: "https://orgeo.ru/files/event/file/53157_e752e0f987.pdf"
     },
     {
         id: 'MSK_20260628_1',
@@ -1396,6 +1833,28 @@ let mskEvents2026 = [
         res: "https://orgeo.ru/files/event/file/53880_3773e2f36a.xlsx",
         owner: "MLKHT",
         map: "20200919_536"
+    },
+    {
+        id: 'MSK_20260704_2',
+        date: "2026-07-04",
+        name: "Старт года - Городской спринт",
+        place: "Школа 538",
+        type: "ORIENT",
+        coord: [55.650368, 37.57357],
+        reg: "https://orgeo.ru/event/53823",
+        endReg: "2026-07-03 22:00",
+        bulletin: "https://docs.google.com/document/d/1ve7MUIDRARfN8k0HohDXhSp49rZ5JzhdgYs3RiEUPm4"
+    },
+    {
+        id: 'MSK_20260704_3',
+        date: "2026-07-04",
+        name: "Старт года - Ориент-шоу",
+        place: "Школа 538",
+        type: "ORIENT",
+        coord: [55.650368, 37.57357],
+        reg: "https://orgeo.ru/event/53824",
+        endReg: "2026-07-03 22:00",
+        bulletin: "https://docs.google.com/document/d/1ve7MUIDRARfN8k0HohDXhSp49rZ5JzhdgYs3RiEUPm4"
     },
     {
         id: 'MSK_20260706_1',
@@ -1524,6 +1983,17 @@ let mskEvents2026 = [
         map: "mikhalkovo_2026"
     },
     {
+        id: 'MSK_20260719_2',
+        date: "2026-07-19",
+        name: "Нокаут - спринт",
+        place: "К югу от стадиона Авангард",
+        type: "ORIENT",
+        coord: [55.762539, 37.782669],
+        reg: "https://orgeo.ru/event/53867",
+        endReg: "2026-07-18 11:55",
+        bulletin: "https://orgeo.ru/files/event/file/53867_609b11c967.pdf"
+    },
+    {
         id: 'MSK_20260721_1',
         date: "2026-07-21",
         name: "Московское Лето",
@@ -1566,6 +2036,16 @@ let mskEvents2026 = [
         map: "20210104_9"
     },
     {
+        id: 'MSK_20260725_2',
+        date: "2026-07-25",
+        name: "1111",
+        place: "Измайлово-восток(площадки у Лебедянского)",
+        type: "ORIENT",
+        coord: [55.773151, 37.81432],
+        reg: "https://orgeo.ru/event/54009",
+        endReg: "2026-07-24 13:55"
+    },
+    {
         id: 'MSK_20260726_1',
         date: "2026-07-26",
         name: "Большой летний аэророгейн",
@@ -1592,6 +2072,17 @@ let mskEvents2026 = [
         map: 'aviatsionnaya_2026'
     },
     {
+        id: 'MSK_20260726_3',
+        date: "2026-07-26",
+        endDate: "2026-07-28",
+        name: "УТС перед Макушкой лета - 2026",
+        place: "пос. Заречный",
+        type: "ORIENT",
+        coord: [57.000065, 39.151058],
+        reg: "https://orgeo.ru/event/54024",
+        endReg: "2026-07-25 23:55"
+    },
+    {
         id: 'MSK_20260728_1',
         date: "2026-07-28",
         name: "Московское Лето",
@@ -1604,6 +2095,16 @@ let mskEvents2026 = [
         endReg: "2026-07-28 23:55",
         owner: "CLEVER_MSK",
         map: 'hodynskoe_pole_2024'
+    },
+    {
+        id: 'MSK_20260728_2',
+        date: "2026-07-28",
+        name: "Ночной старт",
+        place: "пос. Заречный",
+        type: "ORIENT",
+        coord: [57.000065, 39.151058],
+        reg: "https://orgeo.ru/event/54023",
+        endReg: "2026-07-25 23:55"
     },
     {
         id: 'MSK_20260730_1',
@@ -1663,6 +2164,29 @@ let mskEvents2026 = [
         map: '20210529_930'
     },
     {
+        id: 'MSK_20260806_2',
+        date: "2026-08-06",
+        name: "Городской турнир по Мини Ориентированию",
+        place: "Парк Истра \"за торговлей\"",
+        type: "ORIENT",
+        coord: [55.919197, 36.857101],
+        reg: "https://orgeo.ru/event/54366",
+        endReg: "2026-08-02 00:00"
+    },
+    {
+        id: 'MSK_20260807_1',
+        date: "2026-08-07",
+        endDate: "2026-08-09",
+        name: "День Физкультурника 2026",
+        place: "Стадион МИЭТ",
+        type: "ORIENT",
+        fmt: "классика, лонг",
+        coord: [55.985748, 37.209106],
+        reg: "https://orgeo.ru/event/53858",
+        endReg: "2026-08-03 23:55",
+        bulletin: "https://docs.google.com/document/d/1zSwtjFENDBw5GUaidRwT57qX_hHj3vDJPs9Hf-z2Fns/edit?usp=sharing"
+    },
+    {
         id: 'MSK_20260811_1',
         date: "2026-08-11",
         name: "Московское Лето",
@@ -1713,6 +2237,17 @@ let mskEvents2026 = [
     {
         id: 'MSK_20260816_1',
         date: "2026-08-16", name: "Open Band Sprint Weekend", link: "https://orientband.ru/"
+    },
+    {
+        id: 'MSK_20260816_2',
+        date: "2026-08-16",
+        name: "OBSW: Нокаут-спринт (16 августа)",
+        place: "Сквер у памятника В.И. Ульянову",
+        type: "ORIENT",
+        coord: [55.765114, 37.64185],
+        reg: "https://orgeo.ru/event/54062",
+        endReg: "2026-08-12 23:55",
+        bulletin: "https://docs.google.com/document/d/1RrpDjo0lDtEXwFQfZclgb7sdQL2vb3Aic4l8snfNc5A/edit?usp=sharing"
     },
     {
         id: 'MSK_20260818_1',
@@ -1819,6 +2354,29 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20260829_3',
+        date: "2026-08-29",
+        name: "Тренировка кросс-спринт",
+        place: "Ивановское",
+        type: "ORIENT",
+        coord: [55.759167, 37.822655],
+        reg: "https://orgeo.ru/event/54476",
+        endReg: "2026-08-27 23:55"
+    },
+    {
+        id: 'MSK_20260829_4',
+        date: "2026-08-29",
+        endDate: "2026-08-30",
+        name: "Старт года II",
+        place: "район Зюзино",
+        type: "ORIENT",
+        fmt: "спринт, классика",
+        coord: [55.649727, 37.586727],
+        reg: "https://orgeo.ru/event/54690",
+        endReg: "2026-08-28 23:55",
+        bulletin: "https://orgeo.ru/files/event/file/54690_e28b9b1940.docx"
+    },
+    {
         id: 'MSK_20260830_1',
         date: "2026-08-30",
         name: "Московская Осень",
@@ -1844,6 +2402,16 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20260830_3',
+        date: "2026-08-30",
+        name: "Тренировка кросс-выбор",
+        place: "Терлецкий лесопарк( восточный пруд)",
+        type: "ORIENT",
+        coord: [55.766567, 37.818607],
+        reg: "https://orgeo.ru/event/54477",
+        endReg: "2026-08-27 23:55"
+    },
+    {
         id: 'MSK_20260901_1',
         date: "2026-09-01",
         name: "Московский Меридиан",
@@ -1857,6 +2425,17 @@ let mskEvents2026 = [
         map: 'big_bitsa_2024'
     },
     {
+        id: 'MSK_20260902_1',
+        date: "2026-09-02",
+        name: "ТС НАШ ЛЕС 2026 апрель Э4 (перенос с 27.04.2026 на 4.05.2026)",
+        place: "Соколка, \"Беседки у проката\"",
+        type: "ORIENT",
+        coord: [55.914005, 36.896114],
+        reg: "https://orgeo.ru/event/51577",
+        endReg: "2026-05-02 20:00",
+        bulletin: "https://docs.google.com/document/d/1gg2pFr-N-kFcwOx7Q0Tf9A1UEB7SbpKr/edit?usp=sharing&ouid=101816014487550846737&rtpof=true&sd=true"
+    },
+    {
         id: 'MSK_20260903_1',
         date: "2026-09-03",
         name: "Московский Меридиан",
@@ -1868,6 +2447,16 @@ let mskEvents2026 = [
         link: "https://mosmeridian.website.yandexcloud.net/",
         owner: "SYTV_N",
         map: 'big_bitsa_2024'
+    },
+    {
+        id: 'MSK_20260904_1',
+        date: "2026-09-04",
+        endDate: "2026-09-05",
+        name: "ТурСлёт Движение первых 2026",
+        place: "Шаховская, Дятлово/Красное Село, р. Руза",
+        type: "ORIENT",
+        coord: [55.93565, 35.509792],
+        reg: "https://orgeo.ru/event/54989"
     },
     {
         id: 'MSK_20260905_1',
@@ -1894,6 +2483,17 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         owner: "CLEVER_MSK",
         map: '20230130_140'
+    },
+    {
+        id: 'MSK_20260907_1',
+        date: "2026-09-07",
+        name: "ТС НАШ ЛЕС 2026 сентябрь Э1",
+        place: "Соколка, \"Беседки у проката\"",
+        type: "ORIENT",
+        coord: [55.914005, 36.896114],
+        reg: "https://orgeo.ru/event/54900",
+        endReg: "2026-09-05 20:00",
+        bulletin: "https://docs.google.com/document/d/1GmgA5rFm4GlqTW1iSG9JqdKlm5KoMSjO/edit?usp=sharing&ouid=101816014487550846737&rtpof=true&sd=true"
     },
     {
         id: 'MSK_20260908_1',
@@ -1947,6 +2547,26 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20260912_3',
+        date: "2026-09-12",
+        name: "Кубок главы городского округа Люберцы",
+        place: "парк \"Лесная опушка\" центральный вход",
+        type: "ORIENT",
+        coord: [55.604774, 37.965733],
+        reg: "https://orgeo.ru/event/54805",
+        endReg: "2026-09-09 23:55"
+    },
+    {
+        id: 'MSK_20260912_4',
+        date: "2026-09-12",
+        endDate: "2026-09-13",
+        name: "Радиалка Чилловая и Лайтовая",
+        place: "Вблизи г. Ступино, будет уточнено",
+        type: "ORIENT",
+        coord: [54.856739, 38.070683],
+        reg: "https://orgeo.ru/event/51895"
+    },
+    {
         id: 'MSK_20260913_1',
         date: "2026-09-13",
         name: "Кубок Клубов ФСОМ",
@@ -1956,6 +2576,17 @@ let mskEvents2026 = [
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
         owner: "FSO_MSK"
+    },
+    {
+        id: 'MSK_20260914_1',
+        date: "2026-09-14",
+        name: "ТС НАШ ЛЕС 2026 сентябрь Э2",
+        place: "Соколка, \"Беседки у проката\"",
+        type: "ORIENT",
+        coord: [55.914005, 36.896114],
+        reg: "https://orgeo.ru/event/54904",
+        endReg: "2026-09-13 23:55",
+        bulletin: "https://docs.google.com/document/d/1GmgA5rFm4GlqTW1iSG9JqdKlm5KoMSjO/edit?usp=sharing&ouid=101816014487550846737&rtpof=true&sd=true"
     },
     {
         id: 'MSK_20260915_1',
@@ -1982,6 +2613,16 @@ let mskEvents2026 = [
         link: "https://mosmeridian.website.yandexcloud.net/",
         owner: "SYTV_N",
         map: 'big_bitsa_2024'
+    },
+    {
+        id: 'MSK_20260918_1',
+        date: "2026-09-18",
+        name: "Школьный турнир по МиниОриентированию",
+        place: "Школа Истра 3",
+        type: "ORIENT",
+        coord: [55.924011, 36.872875],
+        reg: "https://orgeo.ru/event/55455",
+        endReg: "2026-09-17 22:50"
     },
     {
         id: 'MSK_20260919_1',
@@ -2013,6 +2654,28 @@ let mskEvents2026 = [
         map: 'fosforitny_2022'
     },
     {
+        id: 'MSK_20260920_2',
+        date: "2026-09-20",
+        name: "Открытые соревнования по спортивному ориентированию в дисциплине велокросс - общий старт",
+        place: "Поляна в лесу около ул. Поляны",
+        type: "VELO",
+        coord: [55.560089, 37.551926],
+        reg: "https://orgeo.ru/event/55246",
+        endReg: "2026-09-17 23:55",
+        bulletin: "https://docs.google.com/document/d/1wXFQ7V9k8tuVjZW01LPQfBm3W0BQwjUZrQtfLXzlKk8/edit?usp=sharing"
+    },
+    {
+        id: 'MSK_20260921_1',
+        date: "2026-09-21",
+        name: "ТС НАШ ЛЕС 2026 сентябрь Э3",
+        place: "Соколка, \"Беседки у проката\"",
+        type: "ORIENT",
+        coord: [55.914005, 36.896114],
+        reg: "https://orgeo.ru/event/54905",
+        endReg: "2026-09-20 23:55",
+        bulletin: "https://docs.google.com/document/d/1GmgA5rFm4GlqTW1iSG9JqdKlm5KoMSjO/edit?usp=sharing&ouid=101816014487550846737&rtpof=true&sd=true"
+    },
+    {
         id: 'MSK_20260922_1',
         date: "2026-09-22",
         name: "Московский Меридиан",
@@ -2037,6 +2700,26 @@ let mskEvents2026 = [
         link: "https://mosmeridian.website.yandexcloud.net/",
         owner: "SYTV_N",
         map: '20250403_463'
+    },
+    {
+        id: 'MSK_20260924_2',
+        date: "2026-09-24",
+        name: "Трена про",
+        place: "Школа Истра 3",
+        type: "ORIENT",
+        coord: [55.924011, 36.872875],
+        reg: "https://orgeo.ru/event/55584",
+        endReg: "2026-09-21 00:00"
+    },
+    {
+        id: 'MSK_20260925_1',
+        date: "2026-09-25",
+        name: "День Туризма 2026",
+        place: "Школа Истра 3",
+        type: "ORIENT",
+        coord: [55.924011, 36.872875],
+        reg: "https://orgeo.ru/event/55582",
+        endReg: "2026-09-24 23:55"
     },
     {
         id: 'MSK_20260926_1',
@@ -2077,6 +2760,16 @@ let mskEvents2026 = [
         map: "fili_2026"
     },
     {
+        id: 'MSK_20260926_4',
+        date: "2026-09-26",
+        name: "Золотая осень 2026",
+        place: "Мост через р. Воря",
+        type: "ORIENT",
+        coord: [56.114521, 38.13765],
+        reg: "https://orgeo.ru/event/55464",
+        endReg: "2026-09-24 23:00"
+    },
+    {
         id: 'MSK_20260927_1',
         date: "2026-09-27",
         name: "ЧиП Москвы",
@@ -2086,6 +2779,28 @@ let mskEvents2026 = [
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
         owner: "FSO_MSK"
+    },
+    {
+        id: 'MSK_20260927_2',
+        date: "2026-09-27",
+        name: "Десятый этап кубка Спортмастер PRO по спортивному ориентированию",
+        place: "Кинопарк Москино",
+        type: "ORIENT",
+        coord: [55.419613, 37.256351],
+        reg: "https://orgeo.ru/event/55044",
+        endReg: "2026-09-24 23:55",
+        bulletin: "https://docs.google.com/document/d/1woGhbVK5x7-n28dtsMYGF9ZmELJz7lABFbRjrn1CacI/edit?usp=sharing"
+    },
+    {
+        id: 'MSK_20260928_1',
+        date: "2026-09-28",
+        name: "ТС НАШ ЛЕС 2026 сентябрь Э4",
+        place: "Соколка, \"Беседки у проката\"",
+        type: "ORIENT",
+        coord: [55.914005, 36.896114],
+        reg: "https://orgeo.ru/event/54906",
+        endReg: "2026-09-27 23:55",
+        bulletin: "https://docs.google.com/document/d/1GmgA5rFm4GlqTW1iSG9JqdKlm5KoMSjO/edit?usp=sharing&ouid=101816014487550846737&rtpof=true&sd=true"
     },
     {
         id: 'MSK_20260929_1',
@@ -2101,6 +2816,16 @@ let mskEvents2026 = [
         map: '20230130_140'
     },
     {
+        id: 'MSK_20260930_1',
+        date: "2026-09-30",
+        name: "Первенство МГУ по спортивному ориентированию",
+        place: "Подтрибунное помещение кампуса МГУ",
+        type: "ORIENT",
+        coord: [55.70129, 37.537113],
+        reg: "https://orgeo.ru/event/55639",
+        endReg: "2026-09-29 23:55"
+    },
+    {
         id: 'MSK_20261001_1',
         date: "2026-10-01",
         name: "Московский Меридиан",
@@ -2112,6 +2837,16 @@ let mskEvents2026 = [
         link: "https://mosmeridian.website.yandexcloud.net/",
         owner: "SYTV_N",
         map: '20230130_884'
+    },
+    {
+        id: 'MSK_20261001_2',
+        date: "2026-10-01",
+        name: "Ночное в Терлецком",
+        place: "Лесопарк \"Терлецкий\"",
+        type: "ORIENT",
+        coord: [55.765892, 37.803577],
+        reg: "https://orgeo.ru/event/55423",
+        endReg: "2026-09-30 23:55"
     },
     {
         id: 'MSK_20261003_1',
@@ -2153,6 +2888,16 @@ let mskEvents2026 = [
         map: "birch_grove_2026"
     },
     {
+        id: 'MSK_20261003_4',
+        date: "2026-10-03",
+        name: "Тренировка кросс-классика",
+        place: "Измайлово-восток(площадки у Лебедянского)",
+        type: "ORIENT",
+        coord: [55.773151, 37.81432],
+        reg: "https://orgeo.ru/event/55424",
+        endReg: "2026-09-30 23:55"
+    },
+    {
         id: 'MSK_20261004_1',
         date: "2026-10-04",
         name: "ЧиП Москвы",
@@ -2180,6 +2925,17 @@ let mskEvents2026 = [
         map: '20210103_183'
     },
     {
+        id: 'MSK_20261005_1',
+        date: "2026-10-05",
+        name: "Открытая тренировка команды RAVE TEAM",
+        place: "Серебряный Бор (остров)",
+        type: "ORIENT",
+        coord: [55.779385, 37.425369],
+        reg: "https://orgeo.ru/event/55923",
+        endReg: "2026-10-05 16:00",
+        bulletin: "https://orgeo.ru/files/event/file/55923_137212ba23.docx"
+    },
+    {
         id: 'MSK_20261006_1',
         date: "2026-10-06",
         name: "Московский Меридиан",
@@ -2191,6 +2947,17 @@ let mskEvents2026 = [
         link: "https://mosmeridian.website.yandexcloud.net/",
         owner: "SYTV_N",
         map: 'big_bitsa_2024'
+    },
+    {
+        id: 'MSK_20261007_1',
+        date: "2026-10-07",
+        name: "Открытое первенство РГАУ-МСХА по спортивному ориентированию",
+        place: "Тимирязевский лесопарк (ул. Пасечная)",
+        type: "ORIENT",
+        coord: [55.823952, 37.539909],
+        reg: "https://orgeo.ru/event/54996",
+        endReg: "2026-10-06 23:55",
+        bulletin: "https://orgeo.ru/files/event/file/54996_05123b53ee.docx"
     },
     {
         id: 'MSK_20261008_1',
@@ -2259,6 +3026,27 @@ let mskEvents2026 = [
         map: 'big_bitsa_2024'
     },
     {
+        id: 'MSK_20261011_2',
+        date: "2026-10-11",
+        name: "Тренировочный старт \"Чернавка\"",
+        place: "Чернавка (центр)",
+        type: "ORIENT",
+        coord: [55.573555, 38.234238],
+        reg: "https://orgeo.ru/event/55976",
+        endReg: "2026-10-09 23:55"
+    },
+    {
+        id: 'MSK_20261012_1',
+        date: "2026-10-12",
+        name: "Открытая тренировка команды RAVE TEAM Кузьминки",
+        place: "Кузьминки восточные, детская площадка",
+        type: "ORIENT",
+        coord: [55.685772, 37.816723],
+        reg: "https://orgeo.ru/event/56081",
+        endReg: "2026-10-12 16:00",
+        bulletin: "https://orgeo.ru/files/event/file/56081_d8d0a24e20.docx"
+    },
+    {
         id: 'MSK_20261013_1',
         date: "2026-10-13",
         name: "Московский Меридиан",
@@ -2270,6 +3058,17 @@ let mskEvents2026 = [
         link: "https://mosmeridian.website.yandexcloud.net/",
         owner: "SYTV_N",
         map: '20210529_930'
+    },
+    {
+        id: 'MSK_20261014_1',
+        date: "2026-10-14",
+        name: "Открытая тренировка команды RAVE TEAM Измайлово",
+        place: "Измайлово, метро Измайловская",
+        type: "ORIENT",
+        coord: [55.785545, 37.782391],
+        reg: "https://orgeo.ru/event/56082",
+        endReg: "2026-10-14 16:00",
+        bulletin: "https://orgeo.ru/files/event/file/56082_039dc43c46.docx"
     },
     {
         id: 'MSK_20261015_1',
@@ -2327,6 +3126,17 @@ let mskEvents2026 = [
         map: 'ostashovo_2024'
     },
     {
+        id: 'MSK_20261019_1',
+        date: "2026-10-19",
+        name: "Открытая тренировка команды RAVE TEAM Теплый стан",
+        place: "Теплый Стан, Генерала Тюленева",
+        type: "ORIENT",
+        coord: [55.6273, 37.488148],
+        reg: "https://orgeo.ru/event/56083",
+        endReg: "2026-10-19 16:00",
+        bulletin: "https://orgeo.ru/files/event/file/56083_895813186e.docx"
+    },
+    {
         id: 'MSK_20261020_1',
         date: "2026-10-20",
         name: "Московский Меридиан",
@@ -2352,6 +3162,17 @@ let mskEvents2026 = [
         owner: "SYTV_N"
     },
     {
+        id: 'MSK_20261022_2',
+        date: "2026-10-22",
+        name: "Открытая тренировка команды RAVE TEAM Лыткарино",
+        place: "Лыткарино, Яма, у моста",
+        type: "ORIENT",
+        coord: [55.601208, 37.920067],
+        reg: "https://orgeo.ru/event/56084",
+        endReg: "2026-10-22 16:00",
+        bulletin: "https://orgeo.ru/files/event/file/56084_f994dc7eb5.docx"
+    },
+    {
         id: 'MSK_20261024_1',
         date: "2026-10-24",
         name: "Московская Осень",
@@ -2366,6 +3187,16 @@ let mskEvents2026 = [
         map: 'big_bitsa_2024'
     },
     {
+        id: 'MSK_20261024_2',
+        date: "2026-10-24",
+        name: "Тренировка НОВАЯ КАРТА",
+        place: "Старая Басманная 22кБс6",
+        type: "ORIENT",
+        coord: [55.766628, 37.666378],
+        reg: "https://orgeo.ru/event/55908",
+        endReg: "2026-10-23 19:55"
+    },
+    {
         id: 'MSK_20261025_1',
         date: "2026-10-25",
         name: "Золотая осень",
@@ -2377,6 +3208,29 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         owner: "CLEVER_MSK",
         map: '20250403_280'
+    },
+    {
+        id: 'MSK_20261025_2',
+        date: "2026-10-25",
+        name: "Муниципальные соревнования по спортивному ориентированию \"Кубок м.о.Истра-2026\"",
+        place: "Лесопарк \"Соколиная гора\"",
+        type: "ORIENT",
+        fmt: "классика",
+        coord: [55.913414, 36.894581],
+        reg: "https://orgeo.ru/event/56193",
+        endReg: "2026-10-21 23:55",
+        bulletin: "https://orgeo.ru/files/event/file/56193_bf4edfab6b.pdf"
+    },
+    {
+        id: 'MSK_20261025_3',
+        date: "2026-10-25",
+        name: "\"Зов Тигра\": команда туристов бросает вызов ориентировщикам!",
+        place: "Лыжная база \"Волкуша\"",
+        type: "ORIENT",
+        coord: [55.602821, 37.909904],
+        reg: "https://orgeo.ru/event/56131",
+        endReg: "2026-10-24 20:00",
+        bulletin: "https://telegra.ph/ZOV-TIGRA-2026---oficialnaya-stranica-meropriyatiya-10-11"
     },
     {
         id: 'MSK_20261027_1',
@@ -2403,6 +3257,16 @@ let mskEvents2026 = [
         map: '20210531_610'
     },
     {
+        id: 'MSK_20261030_1',
+        date: "2026-10-30",
+        name: "\"Гонка Первых\"",
+        place: "Парк им. Н. Островского",
+        type: "ORIENT",
+        coord: [54.883171, 38.084232],
+        reg: "https://orgeo.ru/event/56203",
+        endReg: "2026-10-29 18:00"
+    },
+    {
         id: 'MSK_20261031_1',
         date: "2026-10-31",
         name: "Московская Осень",
@@ -2416,6 +3280,16 @@ let mskEvents2026 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK",
         map: '20230130_884'
+    },
+    {
+        id: 'MSK_20261031_2',
+        date: "2026-10-31",
+        name: "Тренировочный старт по спортивному ориентированию клуба Active по новой карте в парке «Ёлочки»",
+        place: "Парк Елочки",
+        type: "ORIENT",
+        coord: [55.41869, 37.778851],
+        reg: "https://orgeo.ru/event/56435",
+        endReg: "2026-10-30 11:00"
     },
     {
         id: 'MSK_20261101_1',
@@ -2483,6 +3357,28 @@ let mskEvents2026 = [
         map: '20230130_140'
     },
     {
+        id: 'MSK_20261108_2',
+        date: "2026-11-08",
+        name: "Золотые Кольца 2026",
+        place: "Волкушинский карьер",
+        type: "ORIENT",
+        fmt: "старт эстафеты по протоколу",
+        coord: [55.601109, 37.909718],
+        reg: "https://orgeo.ru/event/56047",
+        endReg: "2026-11-04 23:55",
+        bulletin: "https://docs.google.com/document/d/1CmEdQe_DBNKNrbxaWTFtsKlTsaJrBMOKZn5MQt7WzKU/edit?tab=t.0"
+    },
+    {
+        id: 'MSK_20261108_3',
+        date: "2026-11-08",
+        name: "Дыхание Зимы - 2026",
+        place: "Набережная Мендеева",
+        type: "ORIENT",
+        coord: [56.751495, 37.191353],
+        reg: "https://orgeo.ru/event/56519",
+        endReg: "2026-11-06 21:00"
+    },
+    {
         id: 'MSK_20261114_1',
         date: "2026-11-14",
         name: "Московская Осень",
@@ -2510,6 +3406,18 @@ let mskEvents2026 = [
         endReg: "2026-11-12 23:55",
         bulletin: "https://docs.google.com/document/d/1F7G92AA2MWIlq9dpb8_lT2mLyIIUn4eWLfIB7SpVsXc/edit?usp=sharing",
         map: 'krylatskoe_1990'
+    },
+    {
+        id: 'MSK_20261114_3',
+        date: "2026-11-14",
+        endDate: "2026-11-15",
+        name: "Большое ночное ориентирование Андрея Зайцева",
+        place: "Борисово",
+        type: "ORIENT",
+        coord: [54.901299, 37.496712],
+        reg: "https://orgeo.ru/event/56344",
+        endReg: "2026-11-12 23:55",
+        bulletin: "https://forestadventure.ru/bno2026-info/"
     },
     {
         id: 'MSK_20261115_1',
@@ -2598,6 +3506,15 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20261205_2',
+        date: "2026-12-05",
+        name: "Радиалка сНеЖная",
+        place: "окрестности Звенигорода",
+        type: "ORIENT",
+        coord: [55.730457, 36.852661],
+        reg: "https://orgeo.ru/event/51897"
+    },
+    {
         id: 'MSK_20261206_1',
         date: "2026-12-06",
         name: "Рубеж Славы",
@@ -2607,6 +3524,17 @@ let mskEvents2026 = [
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
         owner: "FSO_MSK"
+    },
+    {
+        id: 'MSK_20261206_2',
+        date: "2026-12-06",
+        name: "Ориентирование в ТРЦ Ривьера",
+        place: "ТЦ Ривьера",
+        type: "ORIENT",
+        coord: [55.704941, 37.640316],
+        reg: "https://orgeo.ru/event/56458",
+        endReg: "2026-12-03 23:55",
+        bulletin: "https://docs.google.com/document/d/1elnB8x4GV85tNIsFssjTGDuOOTrskgafxS-RK4qxZms/edit?usp=sharing"
     },
     {
         id: 'MSK_20261212_1',
@@ -2704,5 +3632,27 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
         owner: "CLEVER_MSK"
+    },
+    {
+        id: 'MSK_20270323_1',
+        date: "2027-03-23",
+        name: "Московский Меридиан",
+        place: "Жулебино - ММ-2",
+        type: "ORIENT",
+        coord: [55.695015, 37.842514],
+        reg: "https://orgeo.ru/event/55904",
+        owner: "SYTV_N"
+    },
+    {
+        id: 'MSK_20270508_1',
+        date: "2027-05-08",
+        endDate: "2027-05-10",
+        name: "Спортивный фестиваль \"Беги лесом\"",
+        place: "База старт",
+        type: "ORIENT",
+        fmt: "классика, спринт, многодневный",
+        coord: [54.920074, 38.796062],
+        reg: "https://orgeo.ru/event/54678",
+        endReg: "2027-05-04 23:00"
     }
 ]

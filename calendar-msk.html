@@ -67,6 +67,10 @@
     <div class="sheet-filters">
         <script src="js/sheet-filter.js?v=54"></script>
 
+        <select id="year_selector" class="header_selector" onchange="updateUrlParam('startYear', this.value)">
+            <option value="ALL">Все годы</option>
+        </select>
+
         <select id="event_type_selector" class="header_selector" onchange="updateUrlParam('calendar', this.value)">
             <option value="ALL">все старты</option>
             <option value="ORIENT">Ориент</option>
@@ -174,6 +178,29 @@
             ...fsorEvents,
             ...irfEvents,
         ];
+
+        // Выбор года (?startYear=, как в calendar.html): без параметра — текущий год, «Все годы» — ALL.
+        // Годы в списке — те, где есть свои (LOCAL_EVENTS) старты, и текущий.
+        (function () {
+            const current = String(new Date().getFullYear());
+            const y = START_YEAR_PARAM ?? current;
+            const years = new Set([current]);
+            for (const e of LOCAL_EVENTS) {
+                const sy = startYear(e);
+                if (sy) years.add(String(sy));
+            }
+            const selector = document.getElementById('year_selector');
+            const all = selector.querySelector('option[value="ALL"]');
+            for (const yr of [...years].sort()) {
+                const opt = document.createElement('option');
+                opt.value = opt.textContent = yr;
+                selector.insertBefore(opt, all);
+            }
+            selector.value = years.has(y) || y === 'ALL' ? y : current;
+            if (y !== 'ALL') {
+                oEvents = oEvents.filter(e => String(startYear(e)) === y);
+            }
+        })();
 
         const popupMessage = 'Если Вашего старта нет в таблице, или Вы знаете ссылки на фото, видео и GPS-трансляции для стартов, ' +
             'которые тут уже есть, <a href="help/contacts.html">сообщите мне</a>, и я добавлю. Спасибо заранее!';

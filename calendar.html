@@ -192,6 +192,7 @@
     <script src="js/calendar-2024.js?v=54"></script>
     <script src="js/calendar-2025.js?v=54"></script>
     <script src="js/calendar-2026.js?v=59"></script>
+    <script src="js/calendar-2027.js?v=1"></script>
     <script src="js/calendar-common.js?v=55"></script>
     <script src="js/calendar-iof.js?v=26"></script>
     <script src="js/calendar-fsor.js?v=21"></script>
@@ -284,6 +285,7 @@
         let oEvents = [];
         const y = START_YEAR_PARAM ?? '2026';
         const allYearsEvents = [
+            ...events2027,
             ...events2026,
             ...events2025,
             ...events2024,
@@ -337,7 +339,7 @@
             case '2023': oEvents.push(...events2023); break;
             case '2024': oEvents.push(...events2024); break;
             case '2025': oEvents.push(...events2025); break;
-            case '2027': break;
+            case '2027': oEvents.push(...events2027); break;
             case '2026':
             default: oEvents.push(...events2026); oEvents.push(...otherEvents2026); break;
         }

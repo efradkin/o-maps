@@ -67,6 +67,10 @@
     <div class="sheet-filters">
         <script src="js/sheet-filter.js?v=54"></script>
 
+        <select id="year_selector" class="header_selector" onchange="updateUrlParam('startYear', this.value)">
+            <option value="ALL">Все годы</option>
+        </select>
+
         <select id="event_type_selector" class="header_selector" onchange="updateUrlParam('calendar', this.value)">
             <option value="ALL">все старты</option>
             <option value="ORIENT">Ориент</option>
@@ -139,13 +143,36 @@
         ];
 
         // Локальные события (галочка «локальные», js/calendar.js): файлы календаря Самары
-        // calendar-samara-*.js; кроме них — записи с region: 'SAMARA'.
+        // calendar-samara.js; кроме них — записи с region: 'SAMARA'.
         const LOCAL_EVENTS = new Set([...samaraEvents2026]);
 
         let oEvents = [
             ...samaraEvents2026,
             // ...commonEvents,
         ];
+
+        // Выбор года (?startYear=, как в calendar.html): без параметра — текущий год, «Все годы» — ALL.
+        // Годы в списке — те, где есть свои (LOCAL_EVENTS) старты, и текущий.
+        (function () {
+            const current = String(new Date().getFullYear());
+            const y = START_YEAR_PARAM ?? current;
+            const years = new Set([current]);
+            for (const e of LOCAL_EVENTS) {
+                const sy = startYear(e);
+                if (sy) years.add(String(sy));
+            }
+            const selector = document.getElementById('year_selector');
+            const all = selector.querySelector('option[value="ALL"]');
+            for (const yr of [...years].sort()) {
+                const opt = document.createElement('option');
+                opt.value = opt.textContent = yr;
+                selector.insertBefore(opt, all);
+            }
+            selector.value = years.has(y) || y === 'ALL' ? y : current;
+            if (y !== 'ALL') {
+                oEvents = oEvents.filter(e => String(startYear(e)) === y);
+            }
+        })();
 
         const popupMessage = 'Если Вы хотели бы добавить какую-то информацию в этот календарь или сделать новый ' +
             '(например, для другого региона или вида спорта), <a href="help/contacts.html">напишите мне</a>.';

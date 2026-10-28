@@ -41,7 +41,9 @@ import_calendar_malakhit.py — импорт календаря клуба «М�
 информационного бюллетеня (отключается ключом --no-bulletins).
 
 Сопоставление с существующими записями: запись с тем же owner MLKHT и той же
-датой, либо запись с той же ссылкой на заявку (reg). У найденной записи
+датой, либо запись с той же ссылкой на заявку (reg; событие orgeo — по номеру
+или псевдониму в ссылке), либо запись той же даты без owner со словом
+«Малахит» в названии или месте (такие создаёт sync_calendar.py из orgeo). У найденной записи
 обновляются reg/link/coord/res/owner (только непустыми значениями из документа);
 name/place/type/fmt заполняются, только если их ещё нет (ручные правки не трогаем).
 
@@ -75,7 +77,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.dont_write_bytecode = True
 import fill_bulletins as FB                                   # noqa: E402  разбор записей
 from sync_calendar import (Ignored, commented_fields, fix_links, locked_fields, norm_fmt, rogaine_fmt,  # noqa: E402
-                           patch_record, same)              # удалённые записи, «// !», формат, правка на месте
+                           orgeo_ref, patch_record, same, same_event)  # удалённые записи, «// !», правка на месте
 
 DOC_ID = "1uZyPOj4ksADFaDgNujK6B1QxRRYWYNwrl9r7SY9hJ7k"
 DOC_EXPORT = "https://docs.google.com/document/d/{id}/export?format={fmt}"
@@ -568,6 +570,8 @@ def main():
                         "rejected": commented_fields(text, (st, en - 1)),
                         "id": js_unquote(d.get("id", "")) or "",
                         "owner": js_unquote(d.get("owner", "")) or "",
+                        "name": js_unquote(d.get("name", "")) or "",
+                        "place": js_unquote(d.get("place", "")) or "",
                         "reg": js_unquote(d.get("reg", "")) or ""})
 
     prefixes = [re.match(r"([A-Z]+)_\d{8}_\d+$", r["id"]) for r in records]
@@ -587,7 +591,14 @@ def main():
                 match = r
                 break
         if match is None and dr.get("reg"):
-            match = next((r for r in records if r["reg"] and r["reg"] == dr["reg"]), None)
+            ref = orgeo_ref(dr["reg"])
+            match = next((r for r in records if r["reg"] and (r["reg"] == dr["reg"] or (
+                ref and orgeo_ref(r["reg"]) == ref))), None)
+        if match is None:   # запись создана sync_calendar.py из orgeo: без owner, «… Малахит …», тот же день
+            cands = [r for r in records if r["date"] == dr["date"] and not r["owner"]
+                     and re.search(r"малахит", r["name"] + " " + r["place"], re.I)]
+            match = same_event(dr.get("name"), dr.get("place"), dr.get("reg"), cands) or (
+                cands[0] if len(cands) == 1 else None)
         if match is None and any((r.get("owner") == OWNER and r.get("date") == dr["date"])
                                  or (dr.get("reg") and r.get("reg") == dr["reg"]) for r in ignored):
             n_ign += 1                      # запись закомментирована — старт не нужен

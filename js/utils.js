@@ -414,6 +414,7 @@ function loadAllCalendars() {
         ...iofEvents,
         ...fsorEvents,
         ...irfEvents,
+        ...events2027,
         ...events2026,
         ...events2025,
         ...events2024,
@@ -2704,7 +2705,7 @@ function eventPageUrl(evt) {
 const SITE_CALENDARS = [
     {
         title: 'Календарь СПб', page: 'calendar.html', mapPage: 'spb.html', years: true,
-        sources: ['events2026', 'events2025', 'events2024', 'events2023', 'events2022', 'events2021',
+        sources: ['events2027', 'events2026', 'events2025', 'events2024', 'events2023', 'events2022', 'events2021',
             'events2020', 'events2019', 'events2018', 'events2017', 'events2016', 'events2015',
             'events2014', 'events2013', 'events2012', 'events2011', 'events2010', 'events2009',
             'events2008', 'events2007', 'events2006', 'events2005', 'events2004', 'eventsEarly',

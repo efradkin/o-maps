@@ -52,7 +52,13 @@ import_calendar_msk.py — импорт «Неофициального свод�
 
 Сопоставление с существующими записями (записи с owner MLKHT не участвуют):
 та же дата и то же название (и место, если таких несколько); если название
-поменялось — та же дата и то же место. Поля, которых нет в таблице
+поменялось — та же дата и то же место; если и так не нашлось (например, запись
+создана sync_calendar.py из orgeo под названием orgeo) — среди ещё не
+сопоставленных записей той же даты запись со ссылкой на то же событие orgeo в
+reg или с общими значимыми словами названия и места (не меньше двух, без
+равного соперника; одного — если в этот день это единственная свободная запись
+и единственная несопоставленная строка; sync_calendar.same_event). Тогда name/place и остальные
+поля берутся из таблицы. Поля, которых нет в таблице
 (res, photo и т. п.), и пустые ячейки существующие значения не стирают.
 Ссылка reg на страницу события orgeo (orgeo.ru/event/<id>) не заменяется
 ссылкой таблицы на список событий (orgeo.ru/event/organizer/…, …/index/…) —
@@ -80,8 +86,10 @@ from datetime import date, datetime, timedelta
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.dont_write_bytecode = True
 import fill_bulletins as FB                                   # noqa: E402  разбор записей
+from collections import Counter                               # noqa: E402
+from fill_ogps import toks                                    # noqa: E402  значимые слова (как в sync_calendar)
 from sync_calendar import (Ignored, commented_fields, fix_links, locked_fields, norm_fmt, rogaine_fmt,  # noqa: E402
-                           patch_record, same)              # удалённые записи, «// !», формат, правка на месте
+                           patch_record, same, same_event)  # удалённые записи, «// !», формат, правка на месте
 
 SHEET_URL = ("https://docs.google.com/spreadsheets/d/"
              "1D0_ybH3A0TBZaC4sjPHkkthQrTiwUdudkz1VES1Ai7Y/edit?gid=257262853")
@@ -605,6 +613,7 @@ def main():
                         "id": js_unquote(d.get("id", "")) or "",
                         "name": js_unquote(d.get("name", "")),
                         "place": js_unquote(d.get("place", "")),
+                        "reg": js_unquote(d.get("reg", "")) or "",
                         "owner": js_unquote(d.get("owner", "")) or ""})
 
     prefixes = [re.match(r"([A-Z]+)_\d{8}_\d+$", r["id"]) for r in records]
@@ -619,14 +628,40 @@ def main():
                for r in Ignored().add_text(text).recs]
     ind = "        "
 
-    for ev in sheet:
-        match = find_match(ev, records, taken)
+    # сопоставление в два прохода: сначала точное (дата + название/место) для всех строк, потом для
+    # оставшихся — тот же старт под другим названием среди ещё свободных записей той же даты
+    # (например, запись создана sync_calendar.py из orgeo): та же ссылка orgeo в reg или общие слова
+    matches, loose = {}, set()
+    for i, ev in enumerate(sheet):
+        m = find_match(ev, records, taken)
+        if m:
+            taken.add(id(m))
+            matches[i] = m
+    df = Counter(t for r in records for t in toks((r["name"] or "") + " " + (r["place"] or "")))
+    common = frozenset(t for t, n in df.items() if n > max(3, len(records) // 30))    # частые слова файла
+    rest = {}
+    for i, ev in enumerate(sheet):
+        if i not in matches:
+            rest[ev["date"]] = rest.get(ev["date"], 0) + 1
+    for i, ev in enumerate(sheet):
+        if i in matches:
+            continue
+        cands = [r for r in records if r["date"] == ev["date"] and r["owner"] not in SKIP_OWNERS
+                 and id(r) not in taken]
+        m = same_event(ev.get("name"), ev.get("place"), ev.get("reg"), cands, alone=rest[ev["date"]] == 1,
+                       common=common)
+        if m:
+            taken.add(id(m))
+            matches[i] = m
+            loose.add(i)
+
+    for i, ev in enumerate(sheet):
+        match = matches.get(i)
         if not match and find_match(ev, ignored, set()):
             n_ign += 1                      # запись закомментирована — старт не нужен
             print(f"- {ev['date']} {ev.get('name', '')} (запись закомментирована)")
             continue
         if match:
-            taken.add(id(match))
             old_vals = dict(match["fields"])
             upd = {}
             for k in SHEET_FIELDS:
@@ -651,7 +686,8 @@ def main():
                 # правка на месте: комментарии и порядок полей записи сохраняются
                 replacements.append((st, en, patch_record(text[st:en], upd, FIELD_ORDER, nl)))
                 n_upd += 1
-                print(f"m {ev['date']} {ev.get('name', '')}")
+                print(f"m {ev['date']} {ev.get('name', '')}"
+                      + (f"  (запись {match['id']} «{match['name']}» — тот же старт)" if i in loose else ""))
             continue
 
         ymd = ev["date"].replace("-", "")

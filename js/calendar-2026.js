@@ -1162,7 +1162,7 @@ let events2026 = [
         place: 'Первомайское',
         fmt: 'классика',
         coord: [60.40427, 29.679583],
-        reg: 'https://orgeo.ru/event/info/pervomay_classic',
+        reg: 'https://orgeo.ru/event/info/52218',
         endReg: '2026-04-24 22:00',
         o_gps: 24847,
         reskeep: 879,

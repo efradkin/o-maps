@@ -5,7 +5,8 @@ let samaraEvents2026 = [
         name: 'XXV мемориал А.Н.Балахонкина',
         place: 'р. Курумка (Кемпинг)',
         coord: [53.511448, 50.092777],
-        reg: 'https://orgeo.ru/event/933'
+        reg: 'https://orgeo.ru/event/933',
+        endReg: '2014-04-18 17:00'
     },
     {
         id: 'SMR_20140426_1',
@@ -13,7 +14,8 @@ let samaraEvents2026 = [
         name: 'Кубок ФСО Тольятти 2014',
         place: 'Тольятти',
         coord: [53.570801, 49.028954],
-        reg: 'https://orgeo.ru/event/946'
+        reg: 'https://orgeo.ru/event/946',
+        endReg: '2014-04-25 16:55'
     },
     {
         id: 'SMR_20140427_1',
@@ -21,7 +23,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство Самарской области. Спринт',
         place: 'р. Курумка (Кемпинг)',
         coord: [53.511448, 50.092777],
-        reg: 'https://orgeo.ru/event/925'
+        reg: 'https://orgeo.ru/event/925',
+        endReg: '2014-04-25 17:00'
     },
     {
         id: 'SMR_20140509_1',
@@ -30,7 +33,8 @@ let samaraEvents2026 = [
         name: 'Приз Победы',
         place: 'Приз Победы Мастрюково',
         coord: [53.47662, 49.968967],
-        reg: 'https://orgeo.ru/event/986'
+        reg: 'https://orgeo.ru/event/986',
+        endReg: '2014-05-07 23:00'
     },
     {
         id: 'SMR_20140511_1',
@@ -38,7 +42,8 @@ let samaraEvents2026 = [
         name: 'Мемориал Андрея Рожнова',
         place: 'р. Курумка (Кемпинг)',
         coord: [53.511448, 50.092777],
-        reg: 'https://orgeo.ru/event/974'
+        reg: 'https://orgeo.ru/event/974',
+        endReg: '2014-05-08 23:55'
     },
     {
         id: 'SMR_20140525_1',
@@ -46,7 +51,8 @@ let samaraEvents2026 = [
         name: 'Кубок классика 4-й этап - Тольятти',
         place: 'Тольятти',
         coord: [53.502823, 49.601486],
-        reg: 'https://orgeo.ru/event/993'
+        reg: 'https://orgeo.ru/event/993',
+        endReg: '2014-05-24 23:55'
     },
     {
         id: 'SMR_20140601_1',
@@ -54,7 +60,8 @@ let samaraEvents2026 = [
         name: 'Фан-старт',
         place: 'Курумоч низ',
         coord: [53.45211, 50.083786],
-        reg: 'https://orgeo.ru/event/1048'
+        reg: 'https://orgeo.ru/event/1048',
+        endReg: '2014-05-30 23:55'
     },
     {
         id: 'SMR_20140608_1',
@@ -62,7 +69,8 @@ let samaraEvents2026 = [
         name: 'Кубок классика 5-й этап - Тольятти',
         place: 'Тольятти',
         coord: [53.468689, 49.383175],
-        reg: 'https://orgeo.ru/event/1059'
+        reg: 'https://orgeo.ru/event/1059',
+        endReg: '2014-06-07 21:55'
     },
     {
         id: 'SMR_20140614_1',
@@ -71,7 +79,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство Самарской области',
         place: 'П. Прибрежный',
         coord: [53.486916, 49.860821],
-        reg: 'https://orgeo.ru/event/1049'
+        reg: 'https://orgeo.ru/event/1049',
+        endReg: '2014-06-12 23:55'
     },
     {
         id: 'SMR_20140621_1',
@@ -80,7 +89,8 @@ let samaraEvents2026 = [
         name: 'Открытый летний Чемпионат и первенство г.о. Самара',
         place: 'Приз Победы Мастрюково',
         coord: [53.47662, 49.968967],
-        reg: 'https://orgeo.ru/event/1050'
+        reg: 'https://orgeo.ru/event/1050',
+        endReg: '2014-06-19 23:55'
     },
     {
         id: 'SMR_20140830_1',
@@ -88,7 +98,8 @@ let samaraEvents2026 = [
         name: 'Кубок Самарской области. Кросс',
         place: 'полянка Шура',
         coord: [53.452141, 50.159985],
-        reg: 'https://orgeo.ru/event/1132'
+        reg: 'https://orgeo.ru/event/1132',
+        endReg: '2014-08-28 23:55'
     },
     {
         id: 'SMR_20140906_1',
@@ -96,7 +107,8 @@ let samaraEvents2026 = [
         name: 'Кубок Тольятти - парковое 3-й этап',
         place: 'Тольятти',
         coord: [53.518391, 49.267735],
-        reg: 'https://orgeo.ru/event/1152'
+        reg: 'https://orgeo.ru/event/1152',
+        endReg: '2014-09-05 13:00'
     },
     {
         id: 'SMR_20140907_1',
@@ -104,7 +116,8 @@ let samaraEvents2026 = [
         name: 'Кубок Самарской области. Эстафета',
         place: 'п. Береза (овраги)',
         coord: [53.505943, 50.109943],
-        reg: 'https://orgeo.ru/event/1133'
+        reg: 'https://orgeo.ru/event/1133',
+        endReg: '2014-09-05 23:55'
     },
     {
         id: 'SMR_20140913_1',
@@ -113,7 +126,8 @@ let samaraEvents2026 = [
         name: 'Мемориал Дмитрия Меляшинского',
         place: 'Царев Курган',
         coord: [53.422588, 50.11874],
-        reg: 'https://orgeo.ru/event/1135'
+        reg: 'https://orgeo.ru/event/1135',
+        endReg: '2014-09-11 00:00'
     },
     {
         id: 'SMR_20140921_1',
@@ -121,7 +135,8 @@ let samaraEvents2026 = [
         name: 'Кубок классика 7-й этап - Тольятти',
         place: 'Тольятти',
         coord: [53.581352, 49.570587],
-        reg: 'https://orgeo.ru/event/1182'
+        reg: 'https://orgeo.ru/event/1182',
+        endReg: '2014-09-19 14:00'
     },
     {
         id: 'SMR_20141005_1',
@@ -129,7 +144,8 @@ let samaraEvents2026 = [
         name: 'Кубок Самарской области. Классика',
         place: 'Мастрюково Кубок области',
         coord: [53.48074, 49.950855],
-        reg: 'https://orgeo.ru/event/1230'
+        reg: 'https://orgeo.ru/event/1230',
+        endReg: '2014-10-03 21:00'
     },
     {
         id: 'SMR_20141012_1',
@@ -137,7 +153,8 @@ let samaraEvents2026 = [
         name: 'Самарский Марафон',
         place: 'П. Прибрежный',
         coord: [53.486916, 49.860821],
-        reg: 'https://orgeo.ru/event/1253'
+        reg: 'https://orgeo.ru/event/1253',
+        endReg: '2014-10-09 23:55'
     },
     {
         id: 'SMR_20141019_1',
@@ -145,7 +162,8 @@ let samaraEvents2026 = [
         name: 'Кубок классика 8-й этап - Тольятти',
         place: 'жд\\ст. Канал, широкая просека',
         coord: [53.477535, 49.628994],
-        reg: 'https://orgeo.ru/event/1276'
+        reg: 'https://orgeo.ru/event/1276',
+        endReg: '2014-10-17 23:55'
     },
     {
         id: 'SMR_20141102_1',
@@ -154,7 +172,8 @@ let samaraEvents2026 = [
         name: 'Жигулевская Осень (6,7,8 этапы Кубка парков) - Тольятти',
         place: 'Место будет уточнено',
         coord: [53.564388, 49.58741],
-        reg: 'https://orgeo.ru/event/1287'
+        reg: 'https://orgeo.ru/event/1287',
+        endReg: '2014-10-31 15:00'
     },
     {
         id: 'SMR_20141227_1',
@@ -162,7 +181,8 @@ let samaraEvents2026 = [
         name: 'На Призы Деда Мороза',
         place: 'Тольятти',
         coord: [53.478371, 49.368092],
-        reg: 'https://orgeo.ru/event/1379'
+        reg: 'https://orgeo.ru/event/1379',
+        endReg: '2014-12-26 17:00'
     },
     {
         id: 'SMR_20141228_1',
@@ -170,7 +190,8 @@ let samaraEvents2026 = [
         name: 'Первенство самарской области',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/1390'
+        reg: 'https://orgeo.ru/event/1390',
+        endReg: '2014-12-26 17:00'
     },
     {
         id: 'SMR_20150118_1',
@@ -178,7 +199,8 @@ let samaraEvents2026 = [
         name: 'Областные соревнования',
         place: 'СДЮСШОР 1',
         coord: [53.304146, 50.280243],
-        reg: 'https://orgeo.ru/event/1422'
+        reg: 'https://orgeo.ru/event/1422',
+        endReg: '2015-01-16 22:00'
     },
     {
         id: 'SMR_20150215_1',
@@ -186,7 +208,8 @@ let samaraEvents2026 = [
         name: 'Областные соревнования',
         place: 'Жилгородок',
         coord: [53.439301, 50.12859],
-        reg: 'https://orgeo.ru/event/1501'
+        reg: 'https://orgeo.ru/event/1501',
+        endReg: '2015-02-14 15:00'
     },
     {
         id: 'SMR_20150222_1',
@@ -194,7 +217,8 @@ let samaraEvents2026 = [
         name: 'Приз Защитника Отечества',
         place: 'СДЮСШОР 1',
         coord: [53.304146, 50.280243],
-        reg: 'https://orgeo.ru/event/1518'
+        reg: 'https://orgeo.ru/event/1518',
+        endReg: '2015-02-20 00:00'
     },
     {
         id: 'SMR_20150301_1',
@@ -202,7 +226,8 @@ let samaraEvents2026 = [
         name: 'Памяти Никиты Лукьянчикова',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/1544'
+        reg: 'https://orgeo.ru/event/1544',
+        endReg: '2015-02-27 23:00'
     },
     {
         id: 'SMR_20150412_1',
@@ -210,7 +235,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Комсомольского р-на - Тольятти',
         place: 'Тольятти',
         coord: [53.497272, 49.507244],
-        reg: 'https://orgeo.ru/event/1650'
+        reg: 'https://orgeo.ru/event/1650',
+        endReg: '2015-04-10 16:00'
     },
     {
         id: 'SMR_20150419_1',
@@ -218,7 +244,8 @@ let samaraEvents2026 = [
         name: 'Ч и П Самарской области . Спринт',
         place: 'Царев Курган',
         coord: [53.422588, 50.11874],
-        reg: 'https://orgeo.ru/event/1690'
+        reg: 'https://orgeo.ru/event/1690',
+        endReg: '2015-04-17 17:00'
     },
     {
         id: 'SMR_20150426_1',
@@ -226,7 +253,8 @@ let samaraEvents2026 = [
         name: 'Памяти А. Балахонкина',
         place: 'р. Курумка (Кемпинг)',
         coord: [53.511448, 50.092777],
-        reg: 'https://orgeo.ru/event/1713'
+        reg: 'https://orgeo.ru/event/1713',
+        endReg: '2015-04-24 17:00'
     },
     {
         id: 'SMR_20150509_1',
@@ -235,7 +263,8 @@ let samaraEvents2026 = [
         name: 'Приз Победы',
         place: 'Приз Победы',
         coord: [53.332809, 50.256264],
-        reg: 'https://orgeo.ru/event/1733'
+        reg: 'https://orgeo.ru/event/1733',
+        endReg: '2015-05-07 21:15'
     },
     {
         id: 'SMR_20150511_1',
@@ -243,7 +272,8 @@ let samaraEvents2026 = [
         name: 'Кубок памяти Андрея Рожнова',
         place: 'р. Курумка (Кемпинг)',
         coord: [53.511448, 50.092777],
-        reg: 'https://orgeo.ru/event/1697'
+        reg: 'https://orgeo.ru/event/1697',
+        endReg: '2015-05-07 23:00'
     },
     {
         id: 'SMR_20150516_1',
@@ -251,7 +281,8 @@ let samaraEvents2026 = [
         name: 'Царь горы',
         place: 'пл. им. В. Грушина',
         coord: [53.475964, 49.913628],
-        reg: 'https://orgeo.ru/event/1781'
+        reg: 'https://orgeo.ru/event/1781',
+        endReg: '2015-05-15 21:00'
     },
     {
         id: 'SMR_20150524_1',
@@ -259,7 +290,8 @@ let samaraEvents2026 = [
         name: 'Кубок ФСО г. Тольятти 2015 г',
         place: 'Тольятти',
         coord: [53.572155, 49.037792],
-        reg: 'https://orgeo.ru/event/1828'
+        reg: 'https://orgeo.ru/event/1828',
+        endReg: '2015-05-23 13:00'
     },
     {
         id: 'SMR_20150531_1',
@@ -267,7 +299,8 @@ let samaraEvents2026 = [
         name: 'Fan - старт',
         place: 'п. Береза',
         coord: [53.516129, 50.132858],
-        reg: 'https://orgeo.ru/event/1865'
+        reg: 'https://orgeo.ru/event/1865',
+        endReg: '2015-05-29 17:00'
     },
     {
         id: 'SMR_20150607_1',
@@ -275,7 +308,8 @@ let samaraEvents2026 = [
         name: 'Ч и П г.о. Тольятти - Парковый',
         place: 'Ч и П г. Тольятти - Парковый',
         coord: [53.522034, 49.276211],
-        reg: 'https://orgeo.ru/event/1859'
+        reg: 'https://orgeo.ru/event/1859',
+        endReg: '2015-06-06 12:00'
     },
     {
         id: 'SMR_20150613_1',
@@ -284,7 +318,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'П. Прибрежный',
         coord: [53.486916, 49.860821],
-        reg: 'https://orgeo.ru/event/1904'
+        reg: 'https://orgeo.ru/event/1904',
+        endReg: '2015-06-11 17:00'
     },
     {
         id: 'SMR_20150617_1',
@@ -292,7 +327,8 @@ let samaraEvents2026 = [
         name: 'Первенство Самарской области среди обучающихся',
         place: 'Золотой Бор',
         coord: [53.439198, 50.159168],
-        reg: 'https://orgeo.ru/event/1931'
+        reg: 'https://orgeo.ru/event/1931',
+        endReg: '2015-06-16 15:00'
     },
     {
         id: 'SMR_20150620_1',
@@ -301,7 +337,8 @@ let samaraEvents2026 = [
         name: 'Открытый летний Чемпионат и первенство г. о. Самара',
         place: 'ст. Мастрюково',
         coord: [53.477551, 49.967186],
-        reg: 'https://orgeo.ru/event/1926'
+        reg: 'https://orgeo.ru/event/1926',
+        endReg: '2015-06-18 23:00'
     },
     {
         id: 'SMR_20150829_1',
@@ -309,7 +346,8 @@ let samaraEvents2026 = [
         name: 'ЧиП Самарской области. Кубок Г.В. Шура',
         place: 'Мастрюково 1 км от станции',
         coord: [53.47517, 49.93721],
-        reg: 'https://orgeo.ru/event/2020'
+        reg: 'https://orgeo.ru/event/2020',
+        endReg: '2015-08-27 23:55'
     },
     {
         id: 'SMR_20150906_1',
@@ -317,7 +355,8 @@ let samaraEvents2026 = [
         name: 'ЧиП Самарской области. Эстафета',
         place: 'п. Береза (овраги)',
         coord: [53.505943, 50.109943],
-        reg: 'https://orgeo.ru/event/2068'
+        reg: 'https://orgeo.ru/event/2068',
+        endReg: '2015-09-03 23:00'
     },
     {
         id: 'SMR_20150912_1',
@@ -326,7 +365,8 @@ let samaraEvents2026 = [
         name: 'Мемориал Дмитрия Меляшинского',
         place: 'ст. курумоч',
         coord: [53.465927, 50.06675],
-        reg: 'https://orgeo.ru/event/2049'
+        reg: 'https://orgeo.ru/event/2049',
+        endReg: '2015-09-09 23:55'
     },
     {
         id: 'SMR_20150920_1',
@@ -334,7 +374,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о. Тольятти классика',
         place: 'Тольятти',
         coord: [53.507786, 49.59642],
-        reg: 'https://orgeo.ru/event/2103'
+        reg: 'https://orgeo.ru/event/2103',
+        endReg: '2015-09-18 20:00'
     },
     {
         id: 'SMR_20151003_1',
@@ -342,7 +383,8 @@ let samaraEvents2026 = [
         name: '"Пятнашки" в Пятнашке',
         place: 'интермебель',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/2157'
+        reg: 'https://orgeo.ru/event/2157',
+        endReg: '2015-09-29 23:00'
     },
     {
         id: 'SMR_20151004_1',
@@ -350,7 +392,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'Мастрюково Кубок области',
         coord: [53.48074, 49.950855],
-        reg: 'https://orgeo.ru/event/2174'
+        reg: 'https://orgeo.ru/event/2174',
+        endReg: '2015-10-01 23:55'
     },
     {
         id: 'SMR_20151011_1',
@@ -358,7 +401,8 @@ let samaraEvents2026 = [
         name: 'Самарский Марафон',
         place: 'Золотой Бор',
         coord: [53.439198, 50.159168],
-        reg: 'https://orgeo.ru/event/2212'
+        reg: 'https://orgeo.ru/event/2212',
+        endReg: '2015-10-08 23:55'
     },
     {
         id: 'SMR_20151018_1',
@@ -366,7 +410,8 @@ let samaraEvents2026 = [
         name: 'Марафон Тольятти',
         place: 'Тольятти',
         coord: [53.585754, 49.577835],
-        reg: 'https://orgeo.ru/event/2240'
+        reg: 'https://orgeo.ru/event/2240',
+        endReg: '2015-10-17 12:00'
     },
     {
         id: 'SMR_20151024_1',
@@ -374,7 +419,8 @@ let samaraEvents2026 = [
         name: '"Звездопад" - Ночное ориентирование',
         place: 'Тольятти',
         coord: [53.477894, 49.452164],
-        reg: 'https://orgeo.ru/event/2254'
+        reg: 'https://orgeo.ru/event/2254',
+        endReg: '2015-10-23 11:00'
     },
     {
         id: 'SMR_20151024_2',
@@ -382,7 +428,8 @@ let samaraEvents2026 = [
         name: 'Открытое Первенство ЦДЮТЭ Эдельвейс, Тольятти',
         place: 'Комс р-н, Комсомольское ш. - ул. Есенин',
         coord: [53.477421, 49.452507],
-        reg: 'https://orgeo.ru/event/2256'
+        reg: 'https://orgeo.ru/event/2256',
+        endReg: '2015-10-22 14:00'
     },
     {
         id: 'SMR_20151030_1',
@@ -392,7 +439,8 @@ let samaraEvents2026 = [
         place: 'Дубки',
         fmt: 'выбор осени 1 день, выбор осени 2 день',
         coord: [53.283356, 50.206738],
-        reg: 'https://orgeo.ru/event/2258'
+        reg: 'https://orgeo.ru/event/2258',
+        endReg: '2015-10-29 23:00'
     },
     {
         id: 'SMR_20151102_1',
@@ -402,7 +450,8 @@ let samaraEvents2026 = [
         place: 'Парки г. Тольятти',
         fmt: 'выбор',
         coord: [53.535561, 49.409569],
-        reg: 'https://orgeo.ru/event/2277'
+        reg: 'https://orgeo.ru/event/2277',
+        endReg: '2015-10-31 21:00'
     },
     {
         id: 'SMR_20151227_1',
@@ -410,7 +459,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'СДЮСШОР 1',
         coord: [53.304146, 50.280243],
-        reg: 'https://orgeo.ru/event/2407'
+        reg: 'https://orgeo.ru/event/2407',
+        endReg: '2015-12-25 23:55'
     },
     {
         id: 'SMR_20160110_1',
@@ -418,7 +468,8 @@ let samaraEvents2026 = [
         name: 'Кубок "Сокола"',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/2430'
+        reg: 'https://orgeo.ru/event/2430',
+        endReg: '2016-01-08 23:55'
     },
     {
         id: 'SMR_20160124_1',
@@ -426,7 +477,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'СДЮСШОР 1',
         coord: [53.304146, 50.280243],
-        reg: 'https://orgeo.ru/event/2505'
+        reg: 'https://orgeo.ru/event/2505',
+        endReg: '2016-01-23 00:00'
     },
     {
         id: 'SMR_20160131_1',
@@ -434,7 +486,8 @@ let samaraEvents2026 = [
         name: 'Спринт',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/2528'
+        reg: 'https://orgeo.ru/event/2528',
+        endReg: '2016-01-29 23:55'
     },
     {
         id: 'SMR_20160223_1',
@@ -442,7 +495,8 @@ let samaraEvents2026 = [
         name: 'Приз Защитника Отечества',
         place: 'СДЮСШОР 1',
         coord: [53.304146, 50.280243],
-        reg: 'https://orgeo.ru/event/2599'
+        reg: 'https://orgeo.ru/event/2599',
+        endReg: '2016-02-22 00:00'
     },
     {
         id: 'SMR_20160228_1',
@@ -450,7 +504,8 @@ let samaraEvents2026 = [
         name: 'Памяти Никиты Лукьянчикова',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/2626'
+        reg: 'https://orgeo.ru/event/2626',
+        endReg: '2016-02-27 00:00'
     },
     {
         id: 'SMR_20160410_1',
@@ -458,7 +513,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Комсомольского р-на - Тольятти',
         place: 'Поворот с трассы - далее по маркировке',
         coord: [53.496708, 49.506989],
-        reg: 'https://orgeo.ru/event/2750'
+        reg: 'https://orgeo.ru/event/2750',
+        endReg: '2016-04-08 16:00'
     },
     {
         id: 'SMR_20160417_1',
@@ -466,7 +522,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'р. Курумка (Кемпинг)',
         coord: [53.511448, 50.092777],
-        reg: 'https://orgeo.ru/event/2817'
+        reg: 'https://orgeo.ru/event/2817',
+        endReg: '2016-04-15 17:00'
     },
     {
         id: 'SMR_20160424_1',
@@ -474,7 +531,8 @@ let samaraEvents2026 = [
         name: 'Мемориал А. Балахонкина',
         place: 'Мемориал А.Балахонкина',
         coord: [53.502174, 50.106232],
-        reg: 'https://orgeo.ru/event/2855'
+        reg: 'https://orgeo.ru/event/2855',
+        endReg: '2016-04-22 23:55'
     },
     {
         id: 'SMR_20160507_1',
@@ -482,7 +540,8 @@ let samaraEvents2026 = [
         name: 'Кубок памяти Андрея Рожнова',
         place: 'Курумоч низ',
         coord: [53.45211, 50.083786],
-        reg: 'https://orgeo.ru/event/2835'
+        reg: 'https://orgeo.ru/event/2835',
+        endReg: '2016-05-05 23:00'
     },
     {
         id: 'SMR_20160508_1',
@@ -491,7 +550,8 @@ let samaraEvents2026 = [
         name: 'Приз Победы',
         place: 'Л/база "Чайка"',
         coord: [53.351662, 50.234634],
-        reg: 'https://orgeo.ru/event/2915'
+        reg: 'https://orgeo.ru/event/2915',
+        endReg: '2016-05-07 00:00'
     },
     {
         id: 'SMR_20160515_1',
@@ -499,7 +559,8 @@ let samaraEvents2026 = [
         name: 'Первенство ФСО г.о. Тольятти',
         place: 'Дорога на с/п "Алые Паруса"',
         coord: [53.572971, 49.041527],
-        reg: 'https://orgeo.ru/event/2925'
+        reg: 'https://orgeo.ru/event/2925',
+        endReg: '2016-05-13 22:00'
     },
     {
         id: 'SMR_20160521_1',
@@ -507,7 +568,8 @@ let samaraEvents2026 = [
         name: 'Царь горы',
         place: 'пл. им. В. Грушина',
         coord: [53.475964, 49.913628],
-        reg: 'https://orgeo.ru/event/2988'
+        reg: 'https://orgeo.ru/event/2988',
+        endReg: '2016-05-20 12:00'
     },
     {
         id: 'SMR_20160529_1',
@@ -515,7 +577,8 @@ let samaraEvents2026 = [
         name: 'Фан - старт',
         place: 'Прибрежный низ',
         coord: [53.479523, 49.828098],
-        reg: 'https://orgeo.ru/event/3031'
+        reg: 'https://orgeo.ru/event/3031',
+        endReg: '2016-05-27 20:00'
     },
     {
         id: 'SMR_20160605_1',
@@ -523,7 +586,8 @@ let samaraEvents2026 = [
         name: 'Открытый Чемпионат г.о. Тольятти по классическому ориентированию',
         place: 'Тольятти',
         coord: [53.478306, 49.777996],
-        reg: 'https://orgeo.ru/event/3061'
+        reg: 'https://orgeo.ru/event/3061',
+        endReg: '2016-06-04 20:00'
     },
     {
         id: 'SMR_20160611_1',
@@ -532,7 +596,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'Царев Курган',
         coord: [53.422588, 50.11874],
-        reg: 'https://orgeo.ru/event/3083'
+        reg: 'https://orgeo.ru/event/3083',
+        endReg: '2016-06-09 23:55'
     },
     {
         id: 'SMR_20160618_1',
@@ -540,7 +605,8 @@ let samaraEvents2026 = [
         name: 'Первенство Самарской области среди учащихся',
         place: 'Молодецкий курган',
         coord: [53.393238, 49.299595],
-        reg: 'https://orgeo.ru/event/3111'
+        reg: 'https://orgeo.ru/event/3111',
+        endReg: '2016-06-16 17:00'
     },
     {
         id: 'SMR_20160625_1',
@@ -549,7 +615,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство г.о. Самара',
         place: 'П. Прибрежный',
         coord: [53.486916, 49.860821],
-        reg: 'https://orgeo.ru/event/3127'
+        reg: 'https://orgeo.ru/event/3127',
+        endReg: '2016-06-23 00:00'
     },
     {
         id: 'SMR_20160730_1',
@@ -557,7 +624,8 @@ let samaraEvents2026 = [
         name: 'Ориент-Фест-2016',
         place: 'с.Зелёновка',
         coord: [53.50423, 49.607838],
-        reg: 'https://orgeo.ru/event/3192'
+        reg: 'https://orgeo.ru/event/3192',
+        endReg: '2016-07-28 00:00'
     },
     {
         id: 'SMR_20160807_1',
@@ -565,7 +633,8 @@ let samaraEvents2026 = [
         name: '"Ориент-Фест 2016", 2 этап',
         place: 'узюково начало',
         coord: [53.629948, 49.671436],
-        reg: 'https://orgeo.ru/event/3224'
+        reg: 'https://orgeo.ru/event/3224',
+        endReg: '2016-08-05 19:00'
     },
     {
         id: 'SMR_20160828_1',
@@ -573,7 +642,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'ст. Курумоч низ',
         coord: [53.44912, 50.086491],
-        reg: 'https://orgeo.ru/event/3281'
+        reg: 'https://orgeo.ru/event/3281',
+        endReg: '2016-08-26 17:00'
     },
     {
         id: 'SMR_20160904_1',
@@ -581,7 +651,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'Мастрюки на север',
         coord: [53.481979, 49.97036],
-        reg: 'https://orgeo.ru/event/3282'
+        reg: 'https://orgeo.ru/event/3282',
+        endReg: '2016-09-02 17:00'
     },
     {
         id: 'SMR_20160910_1',
@@ -590,7 +661,8 @@ let samaraEvents2026 = [
         name: 'Мемориал Дм. Меляшинского',
         place: 'л/база Динамо',
         coord: [53.36496, 50.214722],
-        reg: 'https://orgeo.ru/event/3283'
+        reg: 'https://orgeo.ru/event/3283',
+        endReg: '2016-09-06 00:00'
     },
     {
         id: 'SMR_20160924_1',
@@ -598,7 +670,8 @@ let samaraEvents2026 = [
         name: 'Пятнашки',
         place: 'б/о "Рассвет"',
         coord: [53.278091, 50.222908],
-        reg: 'https://orgeo.ru/event/3402'
+        reg: 'https://orgeo.ru/event/3402',
+        endReg: '2016-09-22 00:00'
     },
     {
         id: 'SMR_20160925_1',
@@ -606,7 +679,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'Зеленовка',
         coord: [53.497761, 49.626057],
-        reg: 'https://orgeo.ru/event/3403'
+        reg: 'https://orgeo.ru/event/3403',
+        endReg: '2016-09-23 23:55'
     },
     {
         id: 'SMR_20161002_1',
@@ -614,7 +688,8 @@ let samaraEvents2026 = [
         name: 'Самарский Марафон',
         place: 'Жилгородок, дорога',
         coord: [53.439445, 50.123955],
-        reg: 'https://orgeo.ru/event/3470'
+        reg: 'https://orgeo.ru/event/3470',
+        endReg: '2016-09-30 23:55'
     },
     {
         id: 'SMR_20161008_1',
@@ -622,7 +697,8 @@ let samaraEvents2026 = [
         name: 'Фестиваль «Ориент-Фест 2016»',
         place: 'с.Узюково',
         coord: [53.581863, 49.569901],
-        reg: 'https://orgeo.ru/event/3441'
+        reg: 'https://orgeo.ru/event/3441',
+        endReg: '2016-10-07 12:30'
     },
     {
         id: 'SMR_20161009_1',
@@ -630,7 +706,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о. Тольятти - классика',
         place: 'Тольятти',
         coord: [53.513672, 49.653477],
-        reg: 'https://orgeo.ru/event/3511'
+        reg: 'https://orgeo.ru/event/3511',
+        endReg: '2016-10-07 19:00'
     },
     {
         id: 'SMR_20161016_1',
@@ -638,7 +715,8 @@ let samaraEvents2026 = [
         name: 'Открытый Чемпионат г.о. Тольятти по спортивному ориентированию на удлиненных дистанциях',
         place: 'Тольятти',
         coord: [53.477432, 49.803532],
-        reg: 'https://orgeo.ru/event/3538'
+        reg: 'https://orgeo.ru/event/3538',
+        endReg: '2016-10-14 20:00'
     },
     {
         id: 'SMR_20161020_1',
@@ -646,7 +724,8 @@ let samaraEvents2026 = [
         name: 'Открытый кубок МБОУ ДО "Эдельвейс" г.о. Тольятти',
         place: 'Тольятти',
         coord: [53.475952, 49.457882],
-        reg: 'https://orgeo.ru/event/3547'
+        reg: 'https://orgeo.ru/event/3547',
+        endReg: '2016-10-19 20:00'
     },
     {
         id: 'SMR_20161022_1',
@@ -654,7 +733,8 @@ let samaraEvents2026 = [
         name: 'Осенняя тропа',
         place: 'Дубки, въезд со студёного',
         coord: [53.296329, 50.210968],
-        reg: 'https://orgeo.ru/event/3569'
+        reg: 'https://orgeo.ru/event/3569',
+        endReg: '2016-10-20 21:00'
     },
     {
         id: 'SMR_20161023_1',
@@ -662,7 +742,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков - 2016, 2 этап (дозаявки)',
         place: 'Парк Молодежный',
         coord: [53.223595, 50.241673],
-        reg: 'https://orgeo.ru/event/3574'
+        reg: 'https://orgeo.ru/event/3574',
+        endReg: '2016-10-22 16:00'
     },
     {
         id: 'SMR_20161030_1',
@@ -671,7 +752,8 @@ let samaraEvents2026 = [
         place: 'Парк Дружба',
         fmt: 'спринт',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/3605'
+        reg: 'https://orgeo.ru/event/3605',
+        endReg: '2016-10-27 23:00'
     },
     {
         id: 'SMR_20161030_2',
@@ -679,7 +761,8 @@ let samaraEvents2026 = [
         name: 'Фестиваль "Ориент Фест - 2016"',
         place: 'о/к "Березка, Ягодинский бор',
         coord: [53.559135, 49.021088],
-        reg: 'https://orgeo.ru/event/3597'
+        reg: 'https://orgeo.ru/event/3597',
+        endReg: '2016-10-28 15:00'
     },
     {
         id: 'SMR_20161102_1',
@@ -687,7 +770,8 @@ let samaraEvents2026 = [
         name: 'Приз памяти Андрея Маркова',
         place: 'ПКиО Комсомольского р-на',
         coord: [53.480713, 49.465187],
-        reg: 'https://orgeo.ru/event/3601'
+        reg: 'https://orgeo.ru/event/3601',
+        endReg: '2016-10-31 21:00'
     },
     {
         id: 'SMR_20161104_1',
@@ -696,7 +780,8 @@ let samaraEvents2026 = [
         name: 'Выбор осени 2016',
         place: 'Дубки, въезд со студёного',
         coord: [53.296329, 50.210968],
-        reg: 'https://orgeo.ru/event/3598'
+        reg: 'https://orgeo.ru/event/3598',
+        endReg: '2016-11-01 23:30'
     },
     {
         id: 'SMR_20161113_1',
@@ -705,7 +790,8 @@ let samaraEvents2026 = [
         place: 'Парк Загородный',
         fmt: 'классика',
         coord: [53.229156, 50.165455],
-        reg: 'https://orgeo.ru/event/3644'
+        reg: 'https://orgeo.ru/event/3644',
+        endReg: '2016-11-11 15:00'
     },
     {
         id: 'SMR_20161127_1',
@@ -713,7 +799,8 @@ let samaraEvents2026 = [
         name: 'Соревнования памяти Л.И.Навалихиной',
         place: 'Автозаводский р-н, Лыжная база',
         coord: [49.300297, 53.498981],
-        reg: 'https://orgeo.ru/event/3668'
+        reg: 'https://orgeo.ru/event/3668',
+        endReg: '2016-11-25 15:00'
     },
     {
         id: 'SMR_20161224_1',
@@ -721,7 +808,8 @@ let samaraEvents2026 = [
         name: 'По следам Деда Мороза',
         place: 'ДДЮТ',
         coord: [53.499058, 49.29314],
-        reg: 'https://orgeo.ru/event/3796'
+        reg: 'https://orgeo.ru/event/3796',
+        endReg: '2016-12-23 21:00'
     },
     {
         id: 'SMR_20161225_1',
@@ -729,7 +817,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'СДЮСШОР 1',
         coord: [53.304146, 50.280243],
-        reg: 'https://orgeo.ru/event/3798'
+        reg: 'https://orgeo.ru/event/3798',
+        endReg: '2016-12-23 23:55'
     },
     {
         id: 'SMR_20170104_1',
@@ -737,7 +826,8 @@ let samaraEvents2026 = [
         name: 'Общее Собрание 4-го января',
         place: 'ул. Фрунзе 14Б ("Квадрат")',
         coord: [53.516422, 49.282825],
-        reg: 'https://orgeo.ru/event/3839'
+        reg: 'https://orgeo.ru/event/3839',
+        endReg: '2017-01-03 23:55'
     },
     {
         id: 'SMR_20170115_1',
@@ -745,7 +835,8 @@ let samaraEvents2026 = [
         name: 'Кубок "Сокола"',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/3848'
+        reg: 'https://orgeo.ru/event/3848',
+        endReg: '2017-01-13 23:55'
     },
     {
         id: 'SMR_20170129_1',
@@ -753,7 +844,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'СДЮСШОР 1',
         coord: [53.304146, 50.280243],
-        reg: 'https://orgeo.ru/event/3939'
+        reg: 'https://orgeo.ru/event/3939',
+        endReg: '2017-01-27 23:55'
     },
     {
         id: 'SMR_20170212_1',
@@ -761,7 +853,8 @@ let samaraEvents2026 = [
         name: 'Красноглинский спринт',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/4027'
+        reg: 'https://orgeo.ru/event/4027',
+        endReg: '2017-02-10 23:55'
     },
     {
         id: 'SMR_20170223_1',
@@ -769,7 +862,8 @@ let samaraEvents2026 = [
         name: 'Три горки',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/4063'
+        reg: 'https://orgeo.ru/event/4063',
+        endReg: '2017-02-21 23:55'
     },
     {
         id: 'SMR_20170226_1',
@@ -777,7 +871,8 @@ let samaraEvents2026 = [
         name: 'Приз Защитника Отечества',
         place: 'СДЮСШОР 1',
         coord: [53.304146, 50.280243],
-        reg: 'https://orgeo.ru/event/4070'
+        reg: 'https://orgeo.ru/event/4070',
+        endReg: '2017-02-24 23:55'
     },
     {
         id: 'SMR_20170305_1',
@@ -785,7 +880,8 @@ let samaraEvents2026 = [
         name: 'Памяти Никиты Лукьянчикова',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/4106'
+        reg: 'https://orgeo.ru/event/4106',
+        endReg: '2017-03-03 23:55'
     },
     {
         id: 'SMR_20170409_1',
@@ -794,7 +890,8 @@ let samaraEvents2026 = [
         place: 'Комсомольский р-н, АТП-3, Карьер',
         fmt: 'общий старт',
         coord: [53.492729, 49.521942],
-        reg: 'https://orgeo.ru/event/4299'
+        reg: 'https://orgeo.ru/event/4299',
+        endReg: '2017-04-08 11:00'
     },
     {
         id: 'SMR_20170413_1',
@@ -802,7 +899,8 @@ let samaraEvents2026 = [
         name: 'Четверг ориентирования',
         place: 'ул. Спортивная, старт',
         coord: [53.499264, 49.274029],
-        reg: 'https://orgeo.ru/event/4359'
+        reg: 'https://orgeo.ru/event/4359',
+        endReg: '2017-04-13 00:00'
     },
     {
         id: 'SMR_20170415_1',
@@ -810,7 +908,8 @@ let samaraEvents2026 = [
         name: '1 этап кубка парков',
         place: '1 этап кубка парков',
         coord: [53.507069, 49.272121],
-        reg: 'https://orgeo.ru/event/4360'
+        reg: 'https://orgeo.ru/event/4360',
+        endReg: '2017-04-14 18:00'
     },
     {
         id: 'SMR_20170416_1',
@@ -818,7 +917,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'Царев Курган',
         coord: [53.422588, 50.11874],
-        reg: 'https://orgeo.ru/event/4341'
+        reg: 'https://orgeo.ru/event/4341',
+        endReg: '2017-04-14 23:55'
     },
     {
         id: 'SMR_20170423_1',
@@ -826,7 +926,8 @@ let samaraEvents2026 = [
         name: 'Мемориал А.Н. Балахонкина',
         place: 'р. Курумка (Кемпинг)',
         coord: [53.511448, 50.092777],
-        reg: 'https://orgeo.ru/event/4385'
+        reg: 'https://orgeo.ru/event/4385',
+        endReg: '2017-04-20 23:55'
     },
     {
         id: 'SMR_20170509_1',
@@ -834,7 +935,8 @@ let samaraEvents2026 = [
         name: 'Кубок памяти Андрея Рожнова',
         place: 'кемпинг "Русская охота"',
         coord: [53.504578, 50.069454],
-        reg: 'https://orgeo.ru/event/4446'
+        reg: 'https://orgeo.ru/event/4446',
+        endReg: '2017-05-06 22:00'
     },
     {
         id: 'SMR_20170509_2',
@@ -842,7 +944,8 @@ let samaraEvents2026 = [
         name: 'Приз Победы (2 этап Парк-тура 2017)',
         place: 'Музей истории и техники ВАЗа',
         coord: [53.553249, 49.25045],
-        reg: 'https://orgeo.ru/event/4493'
+        reg: 'https://orgeo.ru/event/4493',
+        endReg: '2017-05-07 20:00'
     },
     {
         id: 'SMR_20170514_1',
@@ -850,7 +953,8 @@ let samaraEvents2026 = [
         name: 'Кубок ФСО Тольятти 1-й этап',
         place: 'Дорога на Алые паруса',
         coord: [53.571022, 49.03006],
-        reg: 'https://orgeo.ru/event/4531'
+        reg: 'https://orgeo.ru/event/4531',
+        endReg: '2017-05-12 17:00'
     },
     {
         id: 'SMR_20170520_1',
@@ -858,7 +962,8 @@ let samaraEvents2026 = [
         name: 'Российский Азимут 2017 - Тольятти',
         place: 'Российский Азимут',
         coord: [53.499828, 49.300285],
-        reg: 'https://orgeo.ru/event/4494'
+        reg: 'https://orgeo.ru/event/4494',
+        endReg: '2017-05-19 15:00'
     },
     {
         id: 'SMR_20170521_1',
@@ -866,7 +971,8 @@ let samaraEvents2026 = [
         name: 'Царь горы',
         place: 'пл. им. В. Грушина',
         coord: [53.475964, 49.913628],
-        reg: 'https://orgeo.ru/event/4568'
+        reg: 'https://orgeo.ru/event/4568',
+        endReg: '2017-05-19 17:00'
     },
     {
         id: 'SMR_20170527_1',
@@ -874,7 +980,8 @@ let samaraEvents2026 = [
         name: 'Ночной старт',
         place: 'Вниз от Прибрежного',
         coord: [53.471252, 49.810547],
-        reg: 'https://orgeo.ru/event/4567'
+        reg: 'https://orgeo.ru/event/4567',
+        endReg: '2017-05-20 23:55'
     },
     {
         id: 'SMR_20170528_1',
@@ -882,7 +989,8 @@ let samaraEvents2026 = [
         name: 'ФАН - старт',
         place: 'Вниз от Прибрежного',
         coord: [53.471252, 49.810547],
-        reg: 'https://orgeo.ru/event/4569'
+        reg: 'https://orgeo.ru/event/4569',
+        endReg: '2017-05-26 17:00'
     },
     {
         id: 'SMR_20170604_1',
@@ -890,7 +998,8 @@ let samaraEvents2026 = [
         name: 'Кубок ФСО Тольятти 2-й этап',
         place: 'Тольятти',
         coord: [53.477432, 49.775379],
-        reg: 'https://orgeo.ru/event/4685'
+        reg: 'https://orgeo.ru/event/4685',
+        endReg: '2017-06-02 17:00'
     },
     {
         id: 'SMR_20170617_1',
@@ -900,7 +1009,8 @@ let samaraEvents2026 = [
         place: 'Станция Курумоч (верх)',
         fmt: 'классика, кросс',
         coord: [53.461906, 50.079151],
-        reg: 'https://orgeo.ru/event/4781'
+        reg: 'https://orgeo.ru/event/4781',
+        endReg: '2017-06-15 23:55'
     },
     {
         id: 'SMR_20170620_1',
@@ -908,7 +1018,8 @@ let samaraEvents2026 = [
         name: 'Первенство Самарской области среди учащихся',
         place: 'Вниз от Прибрежного',
         coord: [53.471252, 49.810547],
-        reg: 'https://orgeo.ru/event/4804'
+        reg: 'https://orgeo.ru/event/4804',
+        endReg: '2017-06-19 15:00'
     },
     {
         id: 'SMR_20170624_1',
@@ -918,7 +1029,8 @@ let samaraEvents2026 = [
         place: 'Вниз от Прибрежного',
         fmt: 'кросс, классика',
         coord: [53.471252, 49.810547],
-        reg: 'https://orgeo.ru/event/4792'
+        reg: 'https://orgeo.ru/event/4792',
+        endReg: '2017-06-22 23:55'
     },
     {
         id: 'SMR_20170720_1',
@@ -926,7 +1038,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Самара',
         coord: [53.227661, 50.172386],
-        reg: 'https://orgeo.ru/event/4889'
+        reg: 'https://orgeo.ru/event/4889',
+        endReg: '2017-07-19 15:00'
     },
     {
         id: 'SMR_20170730_1',
@@ -934,7 +1047,8 @@ let samaraEvents2026 = [
         name: 'тренировка в п. Волжском',
         place: 'Пойма',
         coord: [53.431892, 50.096416],
-        reg: 'https://orgeo.ru/event/4921'
+        reg: 'https://orgeo.ru/event/4921',
+        endReg: '2017-07-28 23:30'
     },
     {
         id: 'SMR_20170810_1',
@@ -942,7 +1056,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный четверг',
         place: 'Парк Дружба',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/4962'
+        reg: 'https://orgeo.ru/event/4962',
+        endReg: '2017-08-09 23:00'
     },
     {
         id: 'SMR_20170817_1',
@@ -950,7 +1065,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Лесопарк 60-летия Советской Власти',
         coord: [53.254078, 50.253689],
-        reg: 'https://orgeo.ru/event/4997'
+        reg: 'https://orgeo.ru/event/4997',
+        endReg: '2017-08-16 21:00'
     },
     {
         id: 'SMR_20170824_1',
@@ -958,7 +1074,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Самара',
         coord: [53.33588, 50.22514],
-        reg: 'https://orgeo.ru/event/5015'
+        reg: 'https://orgeo.ru/event/5015',
+        endReg: '2017-08-23 21:00'
     },
     {
         id: 'SMR_20170827_1',
@@ -966,7 +1083,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'ст. Курумоч низ',
         coord: [53.44912, 50.086491],
-        reg: 'https://orgeo.ru/event/4963'
+        reg: 'https://orgeo.ru/event/4963',
+        endReg: '2017-08-24 23:55'
     },
     {
         id: 'SMR_20170831_1',
@@ -974,7 +1092,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Сквер академика Кузнецова',
         coord: [53.344086, 50.222713],
-        reg: 'https://orgeo.ru/event/5046'
+        reg: 'https://orgeo.ru/event/5046',
+        endReg: '2017-08-30 21:00'
     },
     {
         id: 'SMR_20170903_1',
@@ -982,7 +1101,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'Орленок',
         coord: [53.481136, 49.880112],
-        reg: 'https://orgeo.ru/event/4964'
+        reg: 'https://orgeo.ru/event/4964',
+        endReg: '2017-09-01 17:00'
     },
     {
         id: 'SMR_20170907_1',
@@ -990,7 +1110,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Загородный парк-нижняя парковка',
         coord: [53.229626, 50.161549],
-        reg: 'https://orgeo.ru/event/5125'
+        reg: 'https://orgeo.ru/event/5125',
+        endReg: '2017-09-06 23:00'
     },
     {
         id: 'SMR_20170909_1',
@@ -1000,7 +1121,8 @@ let samaraEvents2026 = [
         place: 'Мастрюково Кубок области',
         fmt: 'классика',
         coord: [53.48074, 49.950855],
-        reg: 'https://orgeo.ru/event/5044'
+        reg: 'https://orgeo.ru/event/5044',
+        endReg: '2017-09-07 23:55'
     },
     {
         id: 'SMR_20170914_1',
@@ -1008,7 +1130,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: '15ка тренировочный старт',
         coord: [53.253262, 50.258114],
-        reg: 'https://orgeo.ru/event/5176'
+        reg: 'https://orgeo.ru/event/5176',
+        endReg: '2017-09-13 23:00'
     },
     {
         id: 'SMR_20170917_1',
@@ -1016,7 +1139,8 @@ let samaraEvents2026 = [
         name: 'ЧиП Тольятти',
         place: 'Станция Пискалы',
         coord: [53.48399, 49.724052],
-        reg: 'https://orgeo.ru/event/5166'
+        reg: 'https://orgeo.ru/event/5166',
+        endReg: '2017-09-15 13:00'
     },
     {
         id: 'SMR_20170921_1',
@@ -1024,7 +1148,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Парк Молодежный',
         coord: [53.223595, 50.241673],
-        reg: 'https://orgeo.ru/event/5222'
+        reg: 'https://orgeo.ru/event/5222',
+        endReg: '2017-09-20 23:00'
     },
     {
         id: 'SMR_20170924_1',
@@ -1032,7 +1157,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'Жилгородок, дорога',
         coord: [53.439445, 50.123955],
-        reg: 'https://orgeo.ru/event/5219'
+        reg: 'https://orgeo.ru/event/5219',
+        endReg: '2017-09-22 16:00'
     },
     {
         id: 'SMR_20170928_1',
@@ -1040,7 +1166,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Дружба тренировочный четверг',
         coord: [53.203163, 50.218735],
-        reg: 'https://orgeo.ru/event/5278'
+        reg: 'https://orgeo.ru/event/5278',
+        endReg: '2017-09-27 23:00'
     },
     {
         id: 'SMR_20171001_1',
@@ -1048,7 +1175,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство г.о. Самара на удлиненных дистанциях',
         place: 'Станция Курумоч (верх)',
         coord: [53.461906, 50.079151],
-        reg: 'https://orgeo.ru/event/5271'
+        reg: 'https://orgeo.ru/event/5271',
+        endReg: '2017-09-29 16:00'
     },
     {
         id: 'SMR_20171005_1',
@@ -1056,7 +1184,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'полянка УСЦ "Чайка"',
         coord: [53.358028, 50.241501],
-        reg: 'https://orgeo.ru/event/5341'
+        reg: 'https://orgeo.ru/event/5341',
+        endReg: '2017-10-04 23:00'
     },
     {
         id: 'SMR_20171008_1',
@@ -1064,7 +1193,8 @@ let samaraEvents2026 = [
         name: '3 этап открытого Кубка ФСО г.о. Тольятти',
         place: '3 Озера',
         coord: [53.502945, 49.513428],
-        reg: 'https://orgeo.ru/event/5302'
+        reg: 'https://orgeo.ru/event/5302',
+        endReg: '2017-10-06 19:00'
     },
     {
         id: 'SMR_20171012_1',
@@ -1072,7 +1202,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Парк Победы',
         coord: [53.193295, 50.20219],
-        reg: 'https://orgeo.ru/event/5393'
+        reg: 'https://orgeo.ru/event/5393',
+        endReg: '2017-10-11 23:00'
     },
     {
         id: 'SMR_20171015_1',
@@ -1080,7 +1211,8 @@ let samaraEvents2026 = [
         name: 'Тольяттинский Марафон',
         place: 'Марафон',
         coord: [53.513363, 49.644745],
-        reg: 'https://orgeo.ru/event/5386'
+        reg: 'https://orgeo.ru/event/5386',
+        endReg: '2017-10-13 18:00'
     },
     {
         id: 'SMR_20171019_1',
@@ -1088,7 +1220,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: '15-ка тренировочный старт',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/5425'
+        reg: 'https://orgeo.ru/event/5425',
+        endReg: '2017-10-18 23:50'
     },
     {
         id: 'SMR_20171022_1',
@@ -1097,7 +1230,8 @@ let samaraEvents2026 = [
         place: 'Загородный парк-нижняя парковка',
         fmt: 'парковый спринт',
         coord: [53.229626, 50.161549],
-        reg: 'https://orgeo.ru/event/5411'
+        reg: 'https://orgeo.ru/event/5411',
+        endReg: '2017-10-20 09:00'
     },
     {
         id: 'SMR_20171029_1',
@@ -1105,7 +1239,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2017 - дозаявка на 3 этап',
         place: 'Парк Дружба',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/5444'
+        reg: 'https://orgeo.ru/event/5444',
+        endReg: '2017-10-27 06:00'
     },
     {
         id: 'SMR_20171103_1',
@@ -1113,7 +1248,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по парковому ориентированию бегом - 1 день',
         place: 'Автозаводский район, "Фанни Парк"',
         coord: [53.518375, 49.268059],
-        reg: 'https://orgeo.ru/event/5470'
+        reg: 'https://orgeo.ru/event/5470',
+        endReg: '2017-11-02 17:00'
     },
     {
         id: 'SMR_20171104_1',
@@ -1123,7 +1259,8 @@ let samaraEvents2026 = [
         place: 'Лесопарк им. 60-летия Советской власти',
         fmt: 'выбор',
         coord: [53.253563, 50.258324],
-        reg: 'https://orgeo.ru/event/5446'
+        reg: 'https://orgeo.ru/event/5446',
+        endReg: '2017-11-02 04:00'
     },
     {
         id: 'SMR_20171105_1',
@@ -1131,7 +1268,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2017 - дозаявка на 4 этап',
         place: 'Парк Дружба',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/5479'
+        reg: 'https://orgeo.ru/event/5479',
+        endReg: '2017-11-02 23:55'
     },
     {
         id: 'SMR_20171112_1',
@@ -1139,7 +1277,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков - дозаявка на утешительный забег финала',
         place: 'Лесопарк им. 60-летия Советской власти',
         coord: [53.253563, 50.258324],
-        reg: 'https://orgeo.ru/event/5502'
+        reg: 'https://orgeo.ru/event/5502',
+        endReg: '2017-11-10 12:00'
     },
     {
         id: 'SMR_20171119_1',
@@ -1147,7 +1286,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные воскресенья',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/5544'
+        reg: 'https://orgeo.ru/event/5544',
+        endReg: '2017-11-17 23:00'
     },
     {
         id: 'SMR_20171126_1',
@@ -1155,7 +1295,8 @@ let samaraEvents2026 = [
         name: 'Памяти Л.И.Навалихиной',
         place: 'Лыжная база (Автозаводский район)',
         coord: [53.499386, 49.30077],
-        reg: 'https://orgeo.ru/event/5584'
+        reg: 'https://orgeo.ru/event/5584',
+        endReg: '2017-11-25 17:00'
     },
     {
         id: 'SMR_20171203_1',
@@ -1163,7 +1304,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные воскресенья',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/5610'
+        reg: 'https://orgeo.ru/event/5610',
+        endReg: '2017-12-01 23:00'
     },
     {
         id: 'SMR_20171217_1',
@@ -1171,7 +1313,8 @@ let samaraEvents2026 = [
         name: 'Открытие сезона',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/5680'
+        reg: 'https://orgeo.ru/event/5680',
+        endReg: '2017-12-15 23:55'
     },
     {
         id: 'SMR_20171224_1',
@@ -1179,7 +1322,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'СДЮСШОР 1',
         coord: [53.304146, 50.280243],
-        reg: 'https://orgeo.ru/event/5717'
+        reg: 'https://orgeo.ru/event/5717',
+        endReg: '2017-12-22 23:55'
     },
     {
         id: 'SMR_20171230_1',
@@ -1187,7 +1331,8 @@ let samaraEvents2026 = [
         name: 'Соревнования "на приза Деда Мороза"',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/5749'
+        reg: 'https://orgeo.ru/event/5749',
+        endReg: '2017-12-28 23:55'
     },
     {
         id: 'SMR_20180105_1',
@@ -1198,7 +1343,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'маркированная дистанция, классика',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/5770'
+        reg: 'https://orgeo.ru/event/5770',
+        endReg: '2018-01-04 12:00'
     },
     {
         id: 'SMR_20180114_1',
@@ -1206,7 +1352,8 @@ let samaraEvents2026 = [
         name: 'Первенство Самарской области среди обучающихся',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/5818'
+        reg: 'https://orgeo.ru/event/5818',
+        endReg: '2018-01-12 13:00'
     },
     {
         id: 'SMR_20180128_1',
@@ -1214,7 +1361,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'СДЮСШОР 1',
         coord: [53.304146, 50.280243],
-        reg: 'https://orgeo.ru/event/5883'
+        reg: 'https://orgeo.ru/event/5883',
+        endReg: '2018-01-26 23:55'
     },
     {
         id: 'SMR_20180204_1',
@@ -1223,7 +1371,8 @@ let samaraEvents2026 = [
         place: 'Три горки',
         type: 'SKI',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/5955'
+        reg: 'https://orgeo.ru/event/5955',
+        endReg: '2018-02-02 00:00'
     },
     {
         id: 'SMR_20180211_1',
@@ -1231,7 +1380,8 @@ let samaraEvents2026 = [
         name: 'Кубок маркировки 2 этап',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/5991'
+        reg: 'https://orgeo.ru/event/5991',
+        endReg: '2018-02-09 00:00'
     },
     {
         id: 'SMR_20180218_1',
@@ -1239,7 +1389,8 @@ let samaraEvents2026 = [
         name: 'Кубок маркировки 3 этап',
         place: 'П. Прибрежный',
         coord: [53.486916, 49.860821],
-        reg: 'https://orgeo.ru/event/6041'
+        reg: 'https://orgeo.ru/event/6041',
+        endReg: '2018-02-16 00:00'
     },
     {
         id: 'SMR_20180224_1',
@@ -1247,7 +1398,8 @@ let samaraEvents2026 = [
         name: 'Кубок Защитника Отечества',
         place: 'СДЮСШОР 1',
         coord: [53.304146, 50.280243],
-        reg: 'https://orgeo.ru/event/6110'
+        reg: 'https://orgeo.ru/event/6110',
+        endReg: '2018-02-22 23:55'
     },
     {
         id: 'SMR_20180304_1',
@@ -1255,7 +1407,8 @@ let samaraEvents2026 = [
         name: 'Памяти Никиты Лукьянчикова',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/6153'
+        reg: 'https://orgeo.ru/event/6153',
+        endReg: '2018-03-02 23:55'
     },
     {
         id: 'SMR_20180311_1',
@@ -1264,7 +1417,8 @@ let samaraEvents2026 = [
         place: 'Три горки',
         fmt: 'комбинированная эстафета 4 этапа',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/6220'
+        reg: 'https://orgeo.ru/event/6220',
+        endReg: '2018-03-09 19:00'
     },
     {
         id: 'SMR_20180414_1',
@@ -1272,7 +1426,8 @@ let samaraEvents2026 = [
         name: 'Открытое первенство СДЮСШОР №14 Тольятти',
         place: 'Автоз. р-н, парк Победы, Приморский б-р',
         coord: [53.50753, 49.2743],
-        reg: 'https://orgeo.ru/event/6435'
+        reg: 'https://orgeo.ru/event/6435',
+        endReg: '2018-04-12 20:00'
     },
     {
         id: 'SMR_20180415_1',
@@ -1280,7 +1435,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство Самарской области',
         place: 'Станция Курумоч (верх)',
         coord: [53.461906, 50.079151],
-        reg: 'https://orgeo.ru/event/6432'
+        reg: 'https://orgeo.ru/event/6432',
+        endReg: '2018-04-13 23:55'
     },
     {
         id: 'SMR_20180420_1',
@@ -1288,7 +1444,8 @@ let samaraEvents2026 = [
         name: 'Смотр-конкурс среди обучающихся МБОУ ДО "Эдельвейс" - 4 этап',
         place: 'Автозаводский р-н, парк Победы(Юбилейн)',
         coord: [53.507938, 49.274986],
-        reg: 'https://orgeo.ru/event/6379'
+        reg: 'https://orgeo.ru/event/6379',
+        endReg: '2018-04-19 00:00'
     },
     {
         id: 'SMR_20180421_1',
@@ -1296,7 +1453,8 @@ let samaraEvents2026 = [
         name: 'Лесной лабиринт',
         place: 'Мехзавод 14 квартал',
         coord: [53.300903, 50.270767],
-        reg: 'https://orgeo.ru/event/6514'
+        reg: 'https://orgeo.ru/event/6514',
+        endReg: '2018-04-19 23:55'
     },
     {
         id: 'SMR_20180422_1',
@@ -1304,7 +1462,8 @@ let samaraEvents2026 = [
         name: 'Мемориал А.Балахонкина',
         place: 'Курумоч низ',
         coord: [53.45211, 50.083786],
-        reg: 'https://orgeo.ru/event/6515'
+        reg: 'https://orgeo.ru/event/6515',
+        endReg: '2018-04-20 23:55'
     },
     {
         id: 'SMR_20180505_1',
@@ -1313,7 +1472,8 @@ let samaraEvents2026 = [
         name: 'Городской турнир "Приз Победы"',
         place: 'Станция Курумоч (верх)',
         coord: [53.461906, 50.079151],
-        reg: 'https://orgeo.ru/event/6625'
+        reg: 'https://orgeo.ru/event/6625',
+        endReg: '2018-05-04 00:00'
     },
     {
         id: 'SMR_20180509_1',
@@ -1321,7 +1481,8 @@ let samaraEvents2026 = [
         name: 'Кубок памяти Андрея Рожнова',
         place: 'кемпинг "Русская охота"',
         coord: [53.504578, 50.069454],
-        reg: 'https://orgeo.ru/event/6511'
+        reg: 'https://orgeo.ru/event/6511',
+        endReg: '2018-05-07 23:00'
     },
     {
         id: 'SMR_20180513_1',
@@ -1329,7 +1490,8 @@ let samaraEvents2026 = [
         name: 'Кубок ФСО г.о. Тольятти, 1 этап',
         place: 'дорога на "Алые Паруса"',
         coord: [53.573586, 49.045818],
-        reg: 'https://orgeo.ru/event/6695'
+        reg: 'https://orgeo.ru/event/6695',
+        endReg: '2018-05-11 21:00'
     },
     {
         id: 'SMR_20180517_1',
@@ -1337,7 +1499,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Дружба тренировочный четверг',
         coord: [53.203163, 50.218735],
-        reg: 'https://orgeo.ru/event/6797'
+        reg: 'https://orgeo.ru/event/6797',
+        endReg: '2018-05-16 23:55'
     },
     {
         id: 'SMR_20180519_1',
@@ -1345,7 +1508,8 @@ let samaraEvents2026 = [
         name: 'Российский Азимут - 2018, г. Тольятти',
         place: 'Лыжная база (Автозаводский район)',
         coord: [53.499386, 49.30077],
-        reg: 'https://orgeo.ru/event/6674'
+        reg: 'https://orgeo.ru/event/6674',
+        endReg: '2018-05-17 18:00'
     },
     {
         id: 'SMR_20180520_1',
@@ -1353,7 +1517,8 @@ let samaraEvents2026 = [
         name: 'Царь горы',
         place: 'пл. им. В. Грушина',
         coord: [53.475964, 49.913628],
-        reg: 'https://orgeo.ru/event/6778'
+        reg: 'https://orgeo.ru/event/6778',
+        endReg: '2018-05-18 23:00'
     },
     {
         id: 'SMR_20180523_1',
@@ -1361,7 +1526,8 @@ let samaraEvents2026 = [
         name: 'Творческий отчет САКСОР',
         place: 'Горизонт',
         coord: [53.243484, 50.192947],
-        reg: 'https://orgeo.ru/event/6847'
+        reg: 'https://orgeo.ru/event/6847',
+        endReg: '2018-05-22 23:55'
     },
     {
         id: 'SMR_20180524_1',
@@ -1369,7 +1535,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный четверг',
         place: 'Красная Глинка 2',
         coord: [53.385593, 50.170712],
-        reg: 'https://orgeo.ru/event/6842'
+        reg: 'https://orgeo.ru/event/6842',
+        endReg: '2018-05-23 23:00'
     },
     {
         id: 'SMR_20180527_1',
@@ -1377,7 +1544,8 @@ let samaraEvents2026 = [
         name: 'Кубок ФСО г.о. Тольятти, 2 этап',
         place: 'Тольятти',
         coord: [53.509762, 49.667946],
-        reg: 'https://orgeo.ru/event/6814'
+        reg: 'https://orgeo.ru/event/6814',
+        endReg: '2018-05-25 21:00'
     },
     {
         id: 'SMR_20180603_1',
@@ -1385,7 +1553,8 @@ let samaraEvents2026 = [
         name: 'Фан - старт',
         place: 'р. Курумка (Кемпинг)',
         coord: [53.511448, 50.092777],
-        reg: 'https://orgeo.ru/event/6897'
+        reg: 'https://orgeo.ru/event/6897',
+        endReg: '2018-06-01 23:55'
     },
     {
         id: 'SMR_20180607_1',
@@ -1393,7 +1562,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Царев Курган',
         coord: [53.422588, 50.11874],
-        reg: 'https://orgeo.ru/event/6970'
+        reg: 'https://orgeo.ru/event/6970',
+        endReg: '2018-06-06 23:00'
     },
     {
         id: 'SMR_20180614_1',
@@ -1401,7 +1571,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Пятнашка',
         coord: [53.255287, 50.249569],
-        reg: 'https://orgeo.ru/event/7011'
+        reg: 'https://orgeo.ru/event/7011',
+        endReg: '2018-06-13 23:00'
     },
     {
         id: 'SMR_20180616_1',
@@ -1411,7 +1582,8 @@ let samaraEvents2026 = [
         place: 'Прибрежный',
         fmt: 'классика, лонг',
         coord: [53.486095, 49.878757],
-        reg: 'https://orgeo.ru/event/7013'
+        reg: 'https://orgeo.ru/event/7013',
+        endReg: '2018-06-14 23:55'
     },
     {
         id: 'SMR_20180619_1',
@@ -1419,7 +1591,8 @@ let samaraEvents2026 = [
         name: 'Первенство Самарской области среди обучающихся',
         place: 'Вниз от Прибрежного',
         coord: [53.471252, 49.810547],
-        reg: 'https://orgeo.ru/event/7014'
+        reg: 'https://orgeo.ru/event/7014',
+        endReg: '2018-06-17 23:00'
     },
     {
         id: 'SMR_20180623_1',
@@ -1429,7 +1602,8 @@ let samaraEvents2026 = [
         place: 'Вниз от Прибрежного',
         fmt: 'классика, кросс',
         coord: [53.471252, 49.810547],
-        reg: 'https://orgeo.ru/event/7015'
+        reg: 'https://orgeo.ru/event/7015',
+        endReg: '2018-06-21 17:00'
     },
     {
         id: 'SMR_20180705_1',
@@ -1437,7 +1611,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный четверг',
         place: 'Управленческий, тренировочный',
         coord: [53.335793, 50.228535],
-        reg: 'https://orgeo.ru/event/7105'
+        reg: 'https://orgeo.ru/event/7105',
+        endReg: '2018-07-04 22:00'
     },
     {
         id: 'SMR_20180712_1',
@@ -1445,7 +1620,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Дубки, лесная поляна',
         coord: [53.291016, 50.220284],
-        reg: 'https://orgeo.ru/event/7135'
+        reg: 'https://orgeo.ru/event/7135',
+        endReg: '2018-07-11 17:00'
     },
     {
         id: 'SMR_20180719_1',
@@ -1453,7 +1629,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Царев Курган',
         coord: [53.422588, 50.11874],
-        reg: 'https://orgeo.ru/event/7158'
+        reg: 'https://orgeo.ru/event/7158',
+        endReg: '2018-07-18 20:00'
     },
     {
         id: 'SMR_20180809_1',
@@ -1461,7 +1638,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'пос. Дома ЭМО',
         coord: [53.368313, 50.202648],
-        reg: 'https://orgeo.ru/event/7241'
+        reg: 'https://orgeo.ru/event/7241',
+        endReg: '2018-08-08 21:00'
     },
     {
         id: 'SMR_20180816_1',
@@ -1471,7 +1649,8 @@ let samaraEvents2026 = [
         place: 'Верхний Бор',
         fmt: 'спринт. открытие фестиваля, лонг, классика. награждение победителей и призеров. отъезд участников',
         coord: [53.471668, 49.953583],
-        reg: 'https://orgeo.ru/event/7123'
+        reg: 'https://orgeo.ru/event/7123',
+        endReg: '2018-08-14 20:00'
     },
     {
         id: 'SMR_20180823_1',
@@ -1480,7 +1659,8 @@ let samaraEvents2026 = [
         place: 'Молодецкий курган',
         fmt: 'выбор',
         coord: [53.392376, 49.300568],
-        reg: 'https://orgeo.ru/event/7323'
+        reg: 'https://orgeo.ru/event/7323',
+        endReg: '2018-08-22 21:00'
     },
     {
         id: 'SMR_20180823_2',
@@ -1488,7 +1668,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: '15_ка тренировочный старт',
         coord: [53.26239, 50.248066],
-        reg: 'https://orgeo.ru/event/7328'
+        reg: 'https://orgeo.ru/event/7328',
+        endReg: '2018-08-22 00:00'
     },
     {
         id: 'SMR_20180826_1',
@@ -1496,7 +1677,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство Самарской области',
         place: 'р. Курумка (Кемпинг)',
         coord: [53.511448, 50.092777],
-        reg: 'https://orgeo.ru/event/7268'
+        reg: 'https://orgeo.ru/event/7268',
+        endReg: '2018-08-23 23:55'
     },
     {
         id: 'SMR_20180830_1',
@@ -1504,7 +1686,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: '151 км',
         coord: [53.447487, 50.115768],
-        reg: 'https://orgeo.ru/event/7373'
+        reg: 'https://orgeo.ru/event/7373',
+        endReg: '2018-08-29 00:00'
     },
     {
         id: 'SMR_20180902_1',
@@ -1513,7 +1696,8 @@ let samaraEvents2026 = [
         place: 'пл. им. В. Грушина',
         fmt: 'классика',
         coord: [53.475964, 49.913628],
-        reg: 'https://orgeo.ru/event/7310'
+        reg: 'https://orgeo.ru/event/7310',
+        endReg: '2018-08-30 00:00'
     },
     {
         id: 'SMR_20180906_1',
@@ -1521,7 +1705,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Дубки, лагерь',
         coord: [53.277824, 50.218563],
-        reg: 'https://orgeo.ru/event/7428'
+        reg: 'https://orgeo.ru/event/7428',
+        endReg: '2018-09-05 19:00'
     },
     {
         id: 'SMR_20180908_1',
@@ -1531,7 +1716,8 @@ let samaraEvents2026 = [
         place: 'л/база Динамо',
         fmt: 'спринт, классика',
         coord: [53.36496, 50.214722],
-        reg: 'https://orgeo.ru/event/7311'
+        reg: 'https://orgeo.ru/event/7311',
+        endReg: '2018-09-06 23:55'
     },
     {
         id: 'SMR_20180913_1',
@@ -1539,7 +1725,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Парк Победы',
         coord: [53.193295, 50.20219],
-        reg: 'https://orgeo.ru/event/7489'
+        reg: 'https://orgeo.ru/event/7489',
+        endReg: '2018-09-12 19:00'
     },
     {
         id: 'SMR_20180916_1',
@@ -1547,7 +1734,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство г.о. Тольятти',
         place: 'Комсомольский р-н, Тольяттинское ПАТП-3',
         coord: [53.492844, 49.513466],
-        reg: 'https://orgeo.ru/event/7447'
+        reg: 'https://orgeo.ru/event/7447',
+        endReg: '2018-09-15 10:00'
     },
     {
         id: 'SMR_20180920_1',
@@ -1555,7 +1743,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Дружба тренировочный четверг',
         coord: [53.203163, 50.218735],
-        reg: 'https://orgeo.ru/event/7541'
+        reg: 'https://orgeo.ru/event/7541',
+        endReg: '2018-09-19 19:00'
     },
     {
         id: 'SMR_20180923_1',
@@ -1563,7 +1752,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: '151 км',
         coord: [53.447487, 50.115768],
-        reg: 'https://orgeo.ru/event/7543'
+        reg: 'https://orgeo.ru/event/7543',
+        endReg: '2018-09-20 23:55'
     },
     {
         id: 'SMR_20180930_1',
@@ -1571,7 +1761,8 @@ let samaraEvents2026 = [
         name: 'Марафон Тольятти 2018',
         place: 'жд\\ст. Канал, широкая просека',
         coord: [53.477535, 49.628994],
-        reg: 'https://orgeo.ru/event/7607'
+        reg: 'https://orgeo.ru/event/7607',
+        endReg: '2018-09-29 10:00'
     },
     {
         id: 'SMR_20181007_1',
@@ -1579,7 +1770,8 @@ let samaraEvents2026 = [
         name: 'Самарский марафон',
         place: 'Марафон Самара',
         coord: [53.448982, 50.098087],
-        reg: 'https://orgeo.ru/event/7669'
+        reg: 'https://orgeo.ru/event/7669',
+        endReg: '2018-10-05 00:00'
     },
     {
         id: 'SMR_20181014_1',
@@ -1587,7 +1779,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2018 (1 этап)',
         place: 'Самара',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/7761'
+        reg: 'https://orgeo.ru/event/7761',
+        endReg: '2018-10-11 22:55'
     },
     {
         id: 'SMR_20181014_2',
@@ -1595,7 +1788,8 @@ let samaraEvents2026 = [
         name: 'Кубок ФСО г.о. Тольятти, 4 этап',
         place: '3 Озера Комс.район Тольятти',
         coord: [53.497364, 49.505539],
-        reg: 'https://orgeo.ru/event/7727'
+        reg: 'https://orgeo.ru/event/7727',
+        endReg: '2018-10-12 20:00'
     },
     {
         id: 'SMR_20181020_1',
@@ -1603,7 +1797,8 @@ let samaraEvents2026 = [
         name: 'Ночной Лабиринт',
         place: 'Стадион "САЛЮТ"',
         coord: [53.304966, 50.276791],
-        reg: 'https://orgeo.ru/event/7818'
+        reg: 'https://orgeo.ru/event/7818',
+        endReg: '2018-10-18 23:55'
     },
     {
         id: 'SMR_20181021_1',
@@ -1611,7 +1806,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2018 (2 этап)',
         place: 'Парк Молодежный',
         coord: [53.223595, 50.241673],
-        reg: 'https://orgeo.ru/event/7762'
+        reg: 'https://orgeo.ru/event/7762',
+        endReg: '2018-10-18 22:55'
     },
     {
         id: 'SMR_20181027_1',
@@ -1619,7 +1815,8 @@ let samaraEvents2026 = [
         name: 'Ночной звездопад 2018',
         place: 'кафе "У Юры", загор компл "Анаит"',
         coord: [53.512131, 49.575211],
-        reg: 'https://orgeo.ru/event/7877'
+        reg: 'https://orgeo.ru/event/7877',
+        endReg: '2018-10-26 20:00'
     },
     {
         id: 'SMR_20181028_1',
@@ -1627,7 +1824,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2018 (3 этап)',
         place: 'Лесопарк им. 60-летия Советской власти',
         coord: [53.253563, 50.258324],
-        reg: 'https://orgeo.ru/event/7763'
+        reg: 'https://orgeo.ru/event/7763',
+        endReg: '2018-10-26 13:00'
     },
     {
         id: 'SMR_20181103_1',
@@ -1637,7 +1835,8 @@ let samaraEvents2026 = [
         place: 'Лесопарк им. 60-летия Советской власти',
         fmt: 'выбор - 1, выбор - 2',
         coord: [53.253563, 50.258324],
-        reg: 'https://orgeo.ru/event/7878'
+        reg: 'https://orgeo.ru/event/7878',
+        endReg: '2018-11-01 23:55'
     },
     {
         id: 'SMR_20181103_2',
@@ -1646,7 +1845,8 @@ let samaraEvents2026 = [
         name: 'Кубок Тольятти "Парк-тур-2018"',
         place: 'Комсомольский район, Детский парк',
         coord: [53.481529, 49.466305],
-        reg: 'https://orgeo.ru/event/7893'
+        reg: 'https://orgeo.ru/event/7893',
+        endReg: '2018-11-01 22:00'
     },
     {
         id: 'SMR_20181104_1',
@@ -1654,7 +1854,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2018 (4 этап)',
         place: 'Парк Дружба',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/7764'
+        reg: 'https://orgeo.ru/event/7764',
+        endReg: '2018-11-01 22:55'
     },
     {
         id: 'SMR_20181111_1',
@@ -1662,7 +1863,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2018 (финал)',
         place: 'Стадион Парка Гагарина',
         coord: [53.226593, 50.198364],
-        reg: 'https://orgeo.ru/event/7976'
+        reg: 'https://orgeo.ru/event/7976',
+        endReg: '2018-11-10 11:00'
     },
     {
         id: 'SMR_20181124_1',
@@ -1670,7 +1872,8 @@ let samaraEvents2026 = [
         name: 'закрытие летнего спортивного сезона 2018, первенство ДДЮТ',
         place: 'ДДЮТ',
         coord: [53.499058, 49.29314],
-        reg: 'https://orgeo.ru/event/8062'
+        reg: 'https://orgeo.ru/event/8062',
+        endReg: '2018-11-22 21:00'
     },
     {
         id: 'SMR_20181125_1',
@@ -1678,7 +1881,8 @@ let samaraEvents2026 = [
         name: 'Памяти Л.И.Навалихиной',
         place: 'Автозаводский р-н, Лыжная база',
         coord: [49.300297, 53.498981],
-        reg: 'https://orgeo.ru/event/8063'
+        reg: 'https://orgeo.ru/event/8063',
+        endReg: '2018-11-22 21:00'
     },
     {
         id: 'SMR_20181202_1',
@@ -1686,7 +1890,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт',
         place: 'Жилгородок',
         coord: [53.439301, 50.12859],
-        reg: 'https://orgeo.ru/event/8109'
+        reg: 'https://orgeo.ru/event/8109',
+        endReg: '2018-11-30 23:55'
     },
     {
         id: 'SMR_20181209_1',
@@ -1694,7 +1899,8 @@ let samaraEvents2026 = [
         name: 'Открытие зимнего сезона',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/8180'
+        reg: 'https://orgeo.ru/event/8180',
+        endReg: '2018-12-08 16:00'
     },
     {
         id: 'SMR_20181223_1',
@@ -1702,7 +1908,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'школа 33',
         coord: [53.303711, 50.271408],
-        reg: 'https://orgeo.ru/event/8237'
+        reg: 'https://orgeo.ru/event/8237',
+        endReg: '2018-12-21 16:00'
     },
     {
         id: 'SMR_20181229_1',
@@ -1711,7 +1918,8 @@ let samaraEvents2026 = [
         place: 'Л/база "САКСОР"',
         fmt: 'выбор с общего старта с суперпризами на кп',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/8291'
+        reg: 'https://orgeo.ru/event/8291',
+        endReg: '2018-12-28 16:00'
     },
     {
         id: 'SMR_20181230_1',
@@ -1719,7 +1927,8 @@ let samaraEvents2026 = [
         name: 'Новогодний старт',
         place: 'Автозаводский р-н, Лыжная база',
         coord: [49.300297, 53.498981],
-        reg: 'https://orgeo.ru/event/8286'
+        reg: 'https://orgeo.ru/event/8286',
+        endReg: '2018-12-28 14:00'
     },
     {
         id: 'SMR_20190104_1',
@@ -1729,7 +1938,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'маркировка - классика',
         coord: [53.488029, 49.848194],
-        reg: 'https://orgeo.ru/event/8336'
+        reg: 'https://orgeo.ru/event/8336',
+        endReg: '2019-01-03 11:00'
     },
     {
         id: 'SMR_20190106_1',
@@ -1739,7 +1949,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'спринт',
         coord: [53.488029, 49.848194],
-        reg: 'https://orgeo.ru/event/8337'
+        reg: 'https://orgeo.ru/event/8337',
+        endReg: '2019-01-05 11:00'
     },
     {
         id: 'SMR_20190113_1',
@@ -1747,7 +1958,8 @@ let samaraEvents2026 = [
         name: 'Зима в 15-ке',
         place: 'Лесопарк им 60-летия Советской Власти',
         coord: [53.253975, 50.258152],
-        reg: 'https://orgeo.ru/event/8322'
+        reg: 'https://orgeo.ru/event/8322',
+        endReg: '2019-01-12 15:00'
     },
     {
         id: 'SMR_20190120_1',
@@ -1755,7 +1967,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'школа 33',
         coord: [53.303711, 50.271408],
-        reg: 'https://orgeo.ru/event/8474'
+        reg: 'https://orgeo.ru/event/8474',
+        endReg: '2019-01-18 16:00'
     },
     {
         id: 'SMR_20190203_1',
@@ -1764,7 +1977,8 @@ let samaraEvents2026 = [
         place: 'Жилгородок',
         fmt: 'кубок маркировки 2 этап',
         coord: [53.439301, 50.12859],
-        reg: 'https://orgeo.ru/event/8616'
+        reg: 'https://orgeo.ru/event/8616',
+        endReg: '2019-02-01 16:00'
     },
     {
         id: 'SMR_20190210_1',
@@ -1772,7 +1986,8 @@ let samaraEvents2026 = [
         name: 'Первенство области среди обучающихся',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/8694'
+        reg: 'https://orgeo.ru/event/8694',
+        endReg: '2019-02-08 16:00'
     },
     {
         id: 'SMR_20190217_1',
@@ -1780,7 +1995,8 @@ let samaraEvents2026 = [
         name: '3 этап кубка маркировки',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/8749'
+        reg: 'https://orgeo.ru/event/8749',
+        endReg: '2019-02-15 21:00'
     },
     {
         id: 'SMR_20190221_1',
@@ -1796,7 +2012,8 @@ let samaraEvents2026 = [
         name: 'Приз Защитника Отечества',
         place: 'школа 33',
         coord: [53.303711, 50.271408],
-        reg: 'https://orgeo.ru/event/8795'
+        reg: 'https://orgeo.ru/event/8795',
+        endReg: '2019-02-21 18:00'
     },
     {
         id: 'SMR_20190224_1',
@@ -1805,7 +2022,8 @@ let samaraEvents2026 = [
         place: 'Три горки',
         type: 'SKI',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/8811'
+        reg: 'https://orgeo.ru/event/8811',
+        endReg: '2019-02-22 15:00'
     },
     {
         id: 'SMR_20190303_1',
@@ -1813,7 +2031,8 @@ let samaraEvents2026 = [
         name: 'Памяти Никиты Лукьянчикова',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/8864'
+        reg: 'https://orgeo.ru/event/8864',
+        endReg: '2019-03-01 17:00'
     },
     {
         id: 'SMR_20190310_1',
@@ -1821,7 +2040,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный забег',
         place: 'Дворец спорта',
         coord: [53.213974, 50.257915],
-        reg: 'https://orgeo.ru/event/8959'
+        reg: 'https://orgeo.ru/event/8959',
+        endReg: '2019-03-09 14:00'
     },
     {
         id: 'SMR_20190413_1',
@@ -1829,7 +2049,8 @@ let samaraEvents2026 = [
         name: 'Кубок города Тольятти по спортивному ориентированию бегом "Парк-тур-2019" - 1 этап',
         place: 'Автоз. р-н, парк Победы, Приморский б-р',
         coord: [53.50753, 49.2743],
-        reg: 'https://orgeo.ru/event/9220'
+        reg: 'https://orgeo.ru/event/9220',
+        endReg: '2019-04-10 17:00'
     },
     {
         id: 'SMR_20190414_1',
@@ -1837,7 +2058,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'Марафон Самара',
         coord: [53.448982, 50.098087],
-        reg: 'https://orgeo.ru/event/9224'
+        reg: 'https://orgeo.ru/event/9224',
+        endReg: '2019-04-11 23:00'
     },
     {
         id: 'SMR_20190421_1',
@@ -1845,7 +2067,8 @@ let samaraEvents2026 = [
         name: 'Мемориал А. Балахонкина',
         place: 'р. Курумка (Кемпинг)',
         coord: [53.511448, 50.092777],
-        reg: 'https://orgeo.ru/event/9348'
+        reg: 'https://orgeo.ru/event/9348',
+        endReg: '2019-04-18 23:55'
     },
     {
         id: 'SMR_20190425_1',
@@ -1853,7 +2076,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Кр.Глинка',
         coord: [53.381779, 50.174019],
-        reg: 'https://orgeo.ru/event/9398'
+        reg: 'https://orgeo.ru/event/9398',
+        endReg: '2019-04-24 20:00'
     },
     {
         id: 'SMR_20190428_1',
@@ -1861,7 +2085,8 @@ let samaraEvents2026 = [
         name: 'Открытие сезона 2019 Тольятти',
         place: 'Поволжское шоссе, ост. "Озерки" (АТП-3)',
         coord: [53.496326, 49.508278],
-        reg: 'https://orgeo.ru/event/9390'
+        reg: 'https://orgeo.ru/event/9390',
+        endReg: '2019-04-26 23:00'
     },
     {
         id: 'SMR_20190501_1',
@@ -1871,7 +2096,8 @@ let samaraEvents2026 = [
         place: 'Золотой Бор',
         fmt: 'выбор, классика, спринт',
         coord: [53.439198, 50.159168],
-        reg: 'https://orgeo.ru/event/9207'
+        reg: 'https://orgeo.ru/event/9207',
+        endReg: '2019-04-28 23:55'
     },
     {
         id: 'SMR_20190509_1',
@@ -1881,14 +2107,16 @@ let samaraEvents2026 = [
         place: '151 км',
         fmt: 'выбор, классика',
         coord: [53.447487, 50.115768],
-        reg: 'https://orgeo.ru/event/9505'
+        reg: 'https://orgeo.ru/event/9505',
+        endReg: '2019-05-06 22:55'
     },
     {
         id: 'SMR_20190509_2',
         date: '2019-05-09',
         name: 'Кубок города Тольятти по спортивному ориентированию бегом "Парк-тур-2019" - 2 этап',
         place: 'Тольятти',
-        reg: 'https://orgeo.ru/event/9515'
+        reg: 'https://orgeo.ru/event/9515',
+        endReg: '2019-05-07 13:00'
     },
     {
         id: 'SMR_20190511_1',
@@ -1896,7 +2124,8 @@ let samaraEvents2026 = [
         name: 'Мемориал Андрея Рожнова',
         place: 'р. Курумка (Кемпинг)',
         coord: [53.511448, 50.092777],
-        reg: 'https://orgeo.ru/event/9494'
+        reg: 'https://orgeo.ru/event/9494',
+        endReg: '2019-05-06 22:55'
     },
     {
         id: 'SMR_20190512_1',
@@ -1904,7 +2133,8 @@ let samaraEvents2026 = [
         name: 'Кубок ФСО Тольятти 2019 - 1й Этап (ЧиП Тольятти)',
         place: 'Узюковский бор, ост. "СНТ Родники"',
         coord: [53.60741, 49.619671],
-        reg: 'https://orgeo.ru/event/9542'
+        reg: 'https://orgeo.ru/event/9542',
+        endReg: '2019-05-11 18:00'
     },
     {
         id: 'SMR_20190516_1',
@@ -1912,7 +2142,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: '15_ка тренировочный старт',
         coord: [53.26239, 50.248066],
-        reg: 'https://orgeo.ru/event/9647'
+        reg: 'https://orgeo.ru/event/9647',
+        endReg: '2019-05-15 20:00'
     },
     {
         id: 'SMR_20190519_1',
@@ -1920,7 +2151,8 @@ let samaraEvents2026 = [
         name: 'Царь горы 2019',
         place: 'пл. им. В. Грушина',
         coord: [53.475964, 49.913628],
-        reg: 'https://orgeo.ru/event/9644'
+        reg: 'https://orgeo.ru/event/9644',
+        endReg: '2019-05-16 22:55'
     },
     {
         id: 'SMR_20190522_1',
@@ -1928,7 +2160,8 @@ let samaraEvents2026 = [
         name: 'Кубок города Тольятти по спортивному ориентированию бегом "Парк-тур-2019" - 3 этап',
         place: 'ул Спортивная, напротив 8 квартала',
         coord: [53.499138, 49.285286],
-        reg: 'https://orgeo.ru/event/9681'
+        reg: 'https://orgeo.ru/event/9681',
+        endReg: '2019-05-21 13:00'
     },
     {
         id: 'SMR_20190523_1',
@@ -1936,7 +2169,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'дома Эмо/Динамо',
         coord: [53.368809, 50.203121],
-        reg: 'https://orgeo.ru/event/9742'
+        reg: 'https://orgeo.ru/event/9742',
+        endReg: '2019-05-22 20:00'
     },
     {
         id: 'SMR_20190526_1',
@@ -1945,7 +2179,8 @@ let samaraEvents2026 = [
         place: '125 км (пойма), б/о "Калинка"',
         fmt: 'классика',
         coord: [53.468319, 49.769966],
-        reg: 'https://orgeo.ru/event/9645'
+        reg: 'https://orgeo.ru/event/9645',
+        endReg: '2019-05-24 22:55'
     },
     {
         id: 'SMR_20190530_1',
@@ -1953,7 +2188,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Дубки, лагерь',
         coord: [53.277824, 50.218563],
-        reg: 'https://orgeo.ru/event/9836'
+        reg: 'https://orgeo.ru/event/9836',
+        endReg: '2019-05-29 19:00'
     },
     {
         id: 'SMR_20190601_1',
@@ -1961,7 +2197,8 @@ let samaraEvents2026 = [
         name: 'Кубок города Тольятти по спортивному ориентированию бегом "Парк-тур-2019" - 4 этап',
         place: 'ПКиО Центрального р-на',
         coord: [53.510731, 49.418667],
-        reg: 'https://orgeo.ru/event/9809'
+        reg: 'https://orgeo.ru/event/9809',
+        endReg: '2019-05-30 20:00'
     },
     {
         id: 'SMR_20190602_1',
@@ -1970,7 +2207,8 @@ let samaraEvents2026 = [
         place: 'Русская Охота',
         fmt: 'песчаный трейл',
         coord: [53.505909, 50.07029],
-        reg: 'https://orgeo.ru/event/9754'
+        reg: 'https://orgeo.ru/event/9754',
+        endReg: '2019-05-30 22:55'
     },
     {
         id: 'SMR_20190606_1',
@@ -1978,7 +2216,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Царев Курган',
         coord: [53.422588, 50.11874],
-        reg: 'https://orgeo.ru/event/9900'
+        reg: 'https://orgeo.ru/event/9900',
+        endReg: '2019-06-05 19:00'
     },
     {
         id: 'SMR_20190615_1',
@@ -1987,7 +2226,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: '"МИР"',
         coord: [53.470657, 49.810093],
-        reg: 'https://orgeo.ru/event/9914'
+        reg: 'https://orgeo.ru/event/9914',
+        endReg: '2019-06-13 22:00'
     },
     {
         id: 'SMR_20190619_1',
@@ -1995,7 +2235,8 @@ let samaraEvents2026 = [
         name: 'Первенство Самарской области среди обучающихся',
         place: '"МИР"',
         coord: [53.470657, 49.810093],
-        reg: 'https://orgeo.ru/event/9915'
+        reg: 'https://orgeo.ru/event/9915',
+        endReg: '2019-06-16 22:55'
     },
     {
         id: 'SMR_20190622_1',
@@ -2004,7 +2245,8 @@ let samaraEvents2026 = [
         name: 'Летний чемпионат и первенство г.о. Самара',
         place: '"МИР"',
         coord: [53.470657, 49.810093],
-        reg: 'https://orgeo.ru/event/9916'
+        reg: 'https://orgeo.ru/event/9916',
+        endReg: '2019-06-19 22:55'
     },
     {
         id: 'SMR_20190704_1',
@@ -2012,7 +2254,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: '151 км, Жилгородок',
         coord: [53.438683, 50.121212],
-        reg: 'https://orgeo.ru/event/10047'
+        reg: 'https://orgeo.ru/event/10047',
+        endReg: '2019-07-03 19:00'
     },
     {
         id: 'SMR_20190707_1',
@@ -2020,7 +2263,8 @@ let samaraEvents2026 = [
         name: 'Юбилей А.Абрамова',
         place: 'р. Курумка (Кемпинг)',
         coord: [53.511448, 50.092777],
-        reg: 'https://orgeo.ru/event/10016'
+        reg: 'https://orgeo.ru/event/10016',
+        endReg: '2019-07-03 00:00'
     },
     {
         id: 'SMR_20190711_1',
@@ -2028,7 +2272,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Управленческий, тренировочный',
         coord: [53.335793, 50.228535],
-        reg: 'https://orgeo.ru/event/10091'
+        reg: 'https://orgeo.ru/event/10091',
+        endReg: '2019-07-10 20:00'
     },
     {
         id: 'SMR_20190727_1',
@@ -2036,7 +2281,8 @@ let samaraEvents2026 = [
         name: 'Фестиваль PROспорт - Спортивное ориентирование',
         place: 'пл. имени Грушина',
         coord: [53.476357, 49.913624],
-        reg: 'https://orgeo.ru/event/10131'
+        reg: 'https://orgeo.ru/event/10131',
+        endReg: '2019-07-25 20:00'
     },
     {
         id: 'SMR_20190801_1',
@@ -2044,7 +2290,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'б/о "Рассвет"',
         coord: [53.278091, 50.222908],
-        reg: 'https://orgeo.ru/event/10194'
+        reg: 'https://orgeo.ru/event/10194',
+        endReg: '2019-07-31 19:00'
     },
     {
         id: 'SMR_20190815_1',
@@ -2054,7 +2301,8 @@ let samaraEvents2026 = [
         place: 'б/о "Радуга"',
         fmt: 'спринт, лонг, классика',
         coord: [53.476288, 49.792648],
-        reg: 'https://orgeo.ru/event/8622'
+        reg: 'https://orgeo.ru/event/8622',
+        endReg: '2019-08-14 23:55'
     },
     {
         id: 'SMR_20190825_1',
@@ -2062,7 +2310,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'полянка Шура',
         coord: [53.452141, 50.159985],
-        reg: 'https://orgeo.ru/event/10284'
+        reg: 'https://orgeo.ru/event/10284',
+        endReg: '2019-08-22 23:55'
     },
     {
         id: 'SMR_20190831_1',
@@ -2070,7 +2319,8 @@ let samaraEvents2026 = [
         name: 'летний Кубок Сокола 2019',
         place: 'Царев Курган',
         coord: [53.422588, 50.11874],
-        reg: 'https://orgeo.ru/event/10391'
+        reg: 'https://orgeo.ru/event/10391',
+        endReg: '2019-08-29 23:00'
     },
     {
         id: 'SMR_20190901_1',
@@ -2078,7 +2328,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'П. Прибрежный',
         coord: [53.486916, 49.860821],
-        reg: 'https://orgeo.ru/event/10286'
+        reg: 'https://orgeo.ru/event/10286',
+        endReg: '2019-08-29 23:55'
     },
     {
         id: 'SMR_20190905_1',
@@ -2086,7 +2337,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: '15_ка тренировочный старт',
         coord: [53.26239, 50.248066],
-        reg: 'https://orgeo.ru/event/10491'
+        reg: 'https://orgeo.ru/event/10491',
+        endReg: '2019-09-04 23:00'
     },
     {
         id: 'SMR_20190907_1',
@@ -2096,7 +2348,8 @@ let samaraEvents2026 = [
         place: 'МДМ',
         fmt: 'выбор, классика',
         coord: [53.449059, 50.086792],
-        reg: 'https://orgeo.ru/event/10126'
+        reg: 'https://orgeo.ru/event/10126',
+        endReg: '2019-09-05 23:55'
     },
     {
         id: 'SMR_20190912_1',
@@ -2104,7 +2357,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Дружба тренировочный четверг',
         coord: [53.203163, 50.218735],
-        reg: 'https://orgeo.ru/event/10580'
+        reg: 'https://orgeo.ru/event/10580',
+        endReg: '2019-09-11 23:00'
     },
     {
         id: 'SMR_20190915_1',
@@ -2112,7 +2366,9 @@ let samaraEvents2026 = [
         name: 'Открытый Чемпионат и Первенство г.о. Тольятти 2019 г',
         place: '3 Озера',
         coord: [53.502945, 49.513428],
-        reg: 'https://orgeo.ru/event/10498'
+        reg: 'https://orgeo.ru/event/10498',
+        endReg: '2019-09-13 23:00',
+        o_gps: 6430
     },
     {
         id: 'SMR_20190921_1',
@@ -2120,7 +2376,8 @@ let samaraEvents2026 = [
         name: 'Кубок города Тольятти по спортивному ориентированию бегом "Парк-тур-2019" - 5 этап',
         place: 'Ул.Юбилейная, 32 квартал, карта "Собор"',
         coord: [53.524231, 49.279774],
-        reg: 'https://orgeo.ru/event/10640'
+        reg: 'https://orgeo.ru/event/10640',
+        endReg: '2019-09-20 12:00'
     },
     {
         id: 'SMR_20190922_1',
@@ -2128,7 +2385,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: '151 км, Жилгородок',
         coord: [53.438683, 50.121212],
-        reg: 'https://orgeo.ru/event/10644'
+        reg: 'https://orgeo.ru/event/10644',
+        endReg: '2019-09-19 23:55'
     },
     {
         id: 'SMR_20190926_1',
@@ -2136,7 +2394,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Парк Победы',
         coord: [53.193295, 50.20219],
-        reg: 'https://orgeo.ru/event/10669'
+        reg: 'https://orgeo.ru/event/10669',
+        endReg: '2019-09-25 23:00'
     },
     {
         id: 'SMR_20190929_1',
@@ -2144,7 +2403,8 @@ let samaraEvents2026 = [
         name: '3й этап Кубка ФСО г.о. Тольятти',
         place: 'пос. Зеленовка, на восток 1,3 км',
         coord: [53.513721, 49.650089],
-        reg: 'https://orgeo.ru/event/10682'
+        reg: 'https://orgeo.ru/event/10682',
+        endReg: '2019-09-27 23:00'
     },
     {
         id: 'SMR_20191003_1',
@@ -2152,7 +2412,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные четверги',
         place: 'Кр.Глинка',
         coord: [53.381779, 50.174019],
-        reg: 'https://orgeo.ru/event/10830'
+        reg: 'https://orgeo.ru/event/10830',
+        endReg: '2019-10-02 23:00'
     },
     {
         id: 'SMR_20191006_1',
@@ -2160,7 +2421,8 @@ let samaraEvents2026 = [
         name: 'МАРАФОН г. Самара',
         place: 'Станция Курумоч (верх)',
         coord: [53.461906, 50.079151],
-        reg: 'https://orgeo.ru/event/10822'
+        reg: 'https://orgeo.ru/event/10822',
+        endReg: '2019-10-03 23:55'
     },
     {
         id: 'SMR_20191013_1',
@@ -2168,7 +2430,8 @@ let samaraEvents2026 = [
         name: '4й этап Кубка ФСО г.о. Тольятти (кросс-лонг)',
         place: 'Зеленовка - ЖигМоре широкая просека',
         coord: [53.496746, 49.563957],
-        reg: 'https://orgeo.ru/event/10864'
+        reg: 'https://orgeo.ru/event/10864',
+        endReg: '2019-10-11 23:00'
     },
     {
         id: 'SMR_20191019_1',
@@ -2177,7 +2440,8 @@ let samaraEvents2026 = [
         place: 'школа 33',
         fmt: 'общий старт по забегам',
         coord: [53.303711, 50.271408],
-        reg: 'https://orgeo.ru/event/10964'
+        reg: 'https://orgeo.ru/event/10964',
+        endReg: '2019-10-17 23:55'
     },
     {
         id: 'SMR_20191020_1',
@@ -2185,7 +2449,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2019 (1 этап)',
         place: 'Самара',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/10858'
+        reg: 'https://orgeo.ru/event/10858',
+        endReg: '2019-10-18 14:00'
     },
     {
         id: 'SMR_20191027_1',
@@ -2193,7 +2458,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2019 (2 этап)',
         place: 'Самара',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/10859'
+        reg: 'https://orgeo.ru/event/10859',
+        endReg: '2019-10-24 23:55'
     },
     {
         id: 'SMR_20191102_1',
@@ -2203,7 +2469,9 @@ let samaraEvents2026 = [
         place: 'Дубки',
         fmt: 'выбор - спринт с общего старта',
         coord: [53.283356, 50.206738],
-        reg: 'https://orgeo.ru/event/11038'
+        reg: 'https://orgeo.ru/event/11038',
+        endReg: '2019-10-31 15:00',
+        o_gps: 6724
     },
     {
         id: 'SMR_20191102_2',
@@ -2213,7 +2481,8 @@ let samaraEvents2026 = [
         place: 'Комсомольский район, Детский парк',
         fmt: 'ориентирование бегом, заданное направление и, выбор',
         coord: [53.481529, 49.466305],
-        reg: 'https://orgeo.ru/event/10946'
+        reg: 'https://orgeo.ru/event/10946',
+        endReg: '2019-10-29 21:00'
     },
     {
         id: 'SMR_20191103_1',
@@ -2221,7 +2490,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2019 (3 этап)',
         place: 'Самара',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/11054'
+        reg: 'https://orgeo.ru/event/11054',
+        endReg: '2019-10-31 23:55'
     },
     {
         id: 'SMR_20191110_1',
@@ -2229,7 +2499,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2019 (4 этап)',
         place: 'Самара',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/11107'
+        reg: 'https://orgeo.ru/event/11107',
+        endReg: '2019-11-07 22:50'
     },
     {
         id: 'SMR_20191116_1',
@@ -2237,7 +2508,8 @@ let samaraEvents2026 = [
         name: 'Открытое первенство ДДЮТ (9 этап Кубка г.о.Тольятти)',
         place: 'ДДЮТ',
         coord: [53.499058, 49.29314],
-        reg: 'https://orgeo.ru/event/11136'
+        reg: 'https://orgeo.ru/event/11136',
+        endReg: '2019-11-14 14:00'
     },
     {
         id: 'SMR_20191117_1',
@@ -2245,7 +2517,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2019 (финал)',
         place: 'Самара',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/11182'
+        reg: 'https://orgeo.ru/event/11182',
+        endReg: '2019-11-16 05:00'
     },
     {
         id: 'SMR_20191124_1',
@@ -2253,7 +2526,9 @@ let samaraEvents2026 = [
         name: '"Снежная призма 2019"',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/11215'
+        reg: 'https://orgeo.ru/event/11215',
+        endReg: '2019-11-22 22:00',
+        o_gps: 6790
     },
     {
         id: 'SMR_20191124_2',
@@ -2261,7 +2536,8 @@ let samaraEvents2026 = [
         name: 'Памяти Лилии Навалихиной',
         place: 'Л/база Автозаводского р-на, освещёнка',
         coord: [53.497898, 49.30003],
-        reg: 'https://orgeo.ru/event/11217'
+        reg: 'https://orgeo.ru/event/11217',
+        endReg: '2019-11-21 21:00'
     },
     {
         id: 'SMR_20191201_1',
@@ -2269,7 +2545,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт по спортивному ориентированию',
         place: 'микрорайон Жилгородок, 27',
         coord: [53.439373, 50.128639],
-        reg: 'https://orgeo.ru/event/11270'
+        reg: 'https://orgeo.ru/event/11270',
+        endReg: '2019-11-29 21:00'
     },
     {
         id: 'SMR_20191222_1',
@@ -2278,7 +2555,8 @@ let samaraEvents2026 = [
         place: 'Л/база "САКСОР"',
         type: 'SKI',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/11491'
+        reg: 'https://orgeo.ru/event/11491',
+        endReg: '2019-12-20 19:00'
     },
     {
         id: 'SMR_20191230_1',
@@ -2288,7 +2566,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'спринт, выбор с масстарта с возрастным гандикапом',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/11571'
+        reg: 'https://orgeo.ru/event/11571',
+        endReg: '2019-12-28 23:00'
     },
     {
         id: 'SMR_20200105_1',
@@ -2297,7 +2576,8 @@ let samaraEvents2026 = [
         place: 'Л/база "САКСОР"',
         type: 'SKI',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/11587'
+        reg: 'https://orgeo.ru/event/11587',
+        endReg: '2020-01-04 20:00'
     },
     {
         id: 'SMR_20200106_1',
@@ -2308,7 +2588,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'маркировка д, классика',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/11588'
+        reg: 'https://orgeo.ru/event/11588',
+        endReg: '2020-01-04 23:00'
     },
     {
         id: 'SMR_20200119_1',
@@ -2316,7 +2597,8 @@ let samaraEvents2026 = [
         name: 'Кубок маркировки - 2020, 1 этап',
         place: 'п/к Авиатор',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/11714'
+        reg: 'https://orgeo.ru/event/11714',
+        endReg: '2020-01-16 23:55'
     },
     {
         id: 'SMR_20200202_1',
@@ -2324,7 +2606,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'школа 33',
         coord: [53.303711, 50.271408],
-        reg: 'https://orgeo.ru/event/11866'
+        reg: 'https://orgeo.ru/event/11866',
+        endReg: '2020-01-30 23:55'
     },
     {
         id: 'SMR_20200216_1',
@@ -2332,7 +2615,8 @@ let samaraEvents2026 = [
         name: 'Областные соревнования среди обучающихся 2002 г.р. и моложе',
         place: 'Жилгородок',
         coord: [53.439301, 50.12859],
-        reg: 'https://orgeo.ru/event/11983'
+        reg: 'https://orgeo.ru/event/11983',
+        endReg: '2020-02-13 23:00'
     },
     {
         id: 'SMR_20200223_1',
@@ -2340,7 +2624,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство городского округа Самара',
         place: 'школа 33',
         coord: [53.303711, 50.271408],
-        reg: 'https://orgeo.ru/event/12178'
+        reg: 'https://orgeo.ru/event/12178',
+        endReg: '2020-02-21 23:55'
     },
     {
         id: 'SMR_20200229_1',
@@ -2348,7 +2633,8 @@ let samaraEvents2026 = [
         name: 'Прикидка',
         place: 'Дворец спорта',
         coord: [53.213974, 50.257915],
-        reg: 'https://orgeo.ru/event/12113'
+        reg: 'https://orgeo.ru/event/12113',
+        endReg: '2020-02-27 21:00'
     },
     {
         id: 'SMR_20200301_1',
@@ -2356,7 +2642,8 @@ let samaraEvents2026 = [
         name: 'Кубок маркировки - 2020, 3 этап',
         place: 'п/к Авиатор п. Береза',
         coord: [53.516941, 50.136147],
-        reg: 'https://orgeo.ru/event/12245'
+        reg: 'https://orgeo.ru/event/12245',
+        endReg: '2020-02-28 12:00'
     },
     {
         id: 'SMR_20200307_1',
@@ -2364,7 +2651,8 @@ let samaraEvents2026 = [
         name: 'Памяти Никиты Лукъянчикова',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/12307'
+        reg: 'https://orgeo.ru/event/12307',
+        endReg: '2020-03-05 23:55'
     },
     {
         id: 'SMR_20200308_1',
@@ -2372,7 +2660,8 @@ let samaraEvents2026 = [
         name: '2-х этапная эстафета',
         place: 'Л/база "САКСОР"',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/12308'
+        reg: 'https://orgeo.ru/event/12308',
+        endReg: '2020-03-05 23:55'
     },
     {
         id: 'SMR_20200531_1',
@@ -2381,7 +2670,8 @@ let samaraEvents2026 = [
         place: '135 км',
         fmt: 'классика 30/40 мин',
         coord: [53.476089, 49.91354],
-        reg: 'https://orgeo.ru/event/12688'
+        reg: 'https://orgeo.ru/event/12688',
+        endReg: '2020-05-29 15:00'
     },
     {
         id: 'SMR_20200606_1',
@@ -2391,7 +2681,8 @@ let samaraEvents2026 = [
         place: '151 км, Жилгородок',
         fmt: 'спринт 15/25 минут, классика 30/40',
         coord: [53.438683, 50.121212],
-        reg: 'https://orgeo.ru/event/12712'
+        reg: 'https://orgeo.ru/event/12712',
+        endReg: '2020-06-05 11:00'
     },
     {
         id: 'SMR_20200613_1',
@@ -2401,7 +2692,8 @@ let samaraEvents2026 = [
         place: 'Поляна шура',
         fmt: 'выбор 25/35 мин, классика 30/45',
         coord: [53.451504, 50.159313],
-        reg: 'https://orgeo.ru/event/12735'
+        reg: 'https://orgeo.ru/event/12735',
+        endReg: '2020-06-12 11:45'
     },
     {
         id: 'SMR_20200626_1',
@@ -2411,7 +2703,8 @@ let samaraEvents2026 = [
         place: '154 КМ, с. Малая Царевщина',
         fmt: 'классика, спринт',
         coord: [53.439392, 50.158867],
-        reg: 'https://orgeo.ru/event/12812'
+        reg: 'https://orgeo.ru/event/12812',
+        endReg: '2020-06-24 15:00'
     },
     {
         id: 'SMR_20200705_1',
@@ -2420,7 +2713,12 @@ let samaraEvents2026 = [
         place: 'Курумоч 05_07_2020',
         fmt: 'классика',
         coord: [53.473026, 50.06543],
-        reg: 'https://orgeo.ru/event/12895'
+        reg: 'https://orgeo.ru/event/12895',
+        endReg: '2020-07-03 17:00',
+        o_gps: {
+            'Длинная': 7850,
+            'Средняя': 7851
+        }
     },
     {
         id: 'SMR_20200712_1',
@@ -2429,7 +2727,9 @@ let samaraEvents2026 = [
         place: 'Мехзавод 12_07_2020',
         fmt: 'спринт',
         coord: [53.306637, 50.274864],
-        reg: 'https://orgeo.ru/event/12920'
+        reg: 'https://orgeo.ru/event/12920',
+        endReg: '2020-07-10 17:00',
+        o_gps: 7886
     },
     {
         id: 'SMR_20200716_1',
@@ -2437,7 +2737,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие - "Четверг"',
         place: 'Лесопарк 60-летия Советской Власти',
         coord: [53.254078, 50.253689],
-        reg: 'https://orgeo.ru/event/12976'
+        reg: 'https://orgeo.ru/event/12976',
+        endReg: '2020-07-16 07:00'
     },
     {
         id: 'SMR_20200723_1',
@@ -2445,7 +2746,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие - "Четверг"',
         place: 'Парк Металлург',
         coord: [53.233997, 50.268452],
-        reg: 'https://orgeo.ru/event/13028'
+        reg: 'https://orgeo.ru/event/13028',
+        endReg: '2020-07-23 01:00'
     },
     {
         id: 'SMR_20200726_1',
@@ -2454,7 +2756,9 @@ let samaraEvents2026 = [
         place: 'Царев Курган',
         fmt: 'спринт',
         coord: [53.422588, 50.11874],
-        reg: 'https://orgeo.ru/event/13017'
+        reg: 'https://orgeo.ru/event/13017',
+        endReg: '2020-07-24 17:00',
+        o_gps: 7943
     },
     {
         id: 'SMR_20200730_1',
@@ -2462,7 +2766,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие - "Четверг"',
         place: 'Парк Победы',
         coord: [53.193295, 50.20219],
-        reg: 'https://orgeo.ru/event/13085'
+        reg: 'https://orgeo.ru/event/13085',
+        endReg: '2020-07-30 01:00'
     },
     {
         id: 'SMR_20200808_1',
@@ -2470,7 +2775,9 @@ let samaraEvents2026 = [
         name: 'Тренировка Юбилей Сушилина Сергея 30!',
         place: 'Дубки',
         coord: [53.283356, 50.206738],
-        reg: 'https://orgeo.ru/event/13128'
+        reg: 'https://orgeo.ru/event/13128',
+        endReg: '2020-08-07 09:00',
+        o_gps: 7975
     },
     {
         id: 'SMR_20200815_1',
@@ -2478,7 +2785,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие - "Четверг"',
         place: 'Дружба тренировочный четверг',
         coord: [53.203163, 50.218735],
-        reg: 'https://orgeo.ru/event/13086'
+        reg: 'https://orgeo.ru/event/13086',
+        endReg: '2020-08-13 23:55'
     },
     {
         id: 'SMR_20200820_1',
@@ -2486,7 +2794,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие - "Четверг"',
         place: 'Воронежские Озера',
         coord: [53.242485, 50.224575],
-        reg: 'https://orgeo.ru/event/13255'
+        reg: 'https://orgeo.ru/event/13255',
+        endReg: '2020-08-20 00:00'
     },
     {
         id: 'SMR_20200906_1',
@@ -2495,7 +2804,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'классика',
         coord: [53.482632, 49.922436],
-        reg: 'https://orgeo.ru/event/13386'
+        reg: 'https://orgeo.ru/event/13386',
+        endReg: '2020-09-04 15:00'
     },
     {
         id: 'SMR_20200910_1',
@@ -2503,7 +2813,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие - "Четверг"',
         place: 'Парк Молодежный',
         coord: [53.223595, 50.241673],
-        reg: 'https://orgeo.ru/event/13579'
+        reg: 'https://orgeo.ru/event/13579',
+        endReg: '2020-09-10 00:00'
     },
     {
         id: 'SMR_20200912_1',
@@ -2513,7 +2824,8 @@ let samaraEvents2026 = [
         place: 'МДМ',
         fmt: 'крос - выбор, классика',
         coord: [53.561619, 49.952812],
-        reg: 'https://orgeo.ru/event/13306'
+        reg: 'https://orgeo.ru/event/13306',
+        endReg: '2020-09-10 18:00'
     },
     {
         id: 'SMR_20200917_1',
@@ -2521,7 +2833,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие - "Четверг"',
         place: 'Лесопарк им 60-летия Советской Власти',
         coord: [53.253975, 50.258152],
-        reg: 'https://orgeo.ru/event/13668'
+        reg: 'https://orgeo.ru/event/13668',
+        endReg: '2020-09-17 00:00'
     },
     {
         id: 'SMR_20200919_1',
@@ -2529,7 +2842,8 @@ let samaraEvents2026 = [
         name: 'Песчаный трейл 2020 - спортивное ориентирование',
         place: 'кемпинг "Русская охота"',
         coord: [53.504578, 50.069454],
-        reg: 'https://orgeo.ru/event/13657'
+        reg: 'https://orgeo.ru/event/13657',
+        endReg: '2020-09-18 11:00'
     },
     {
         id: 'SMR_20200920_1',
@@ -2537,7 +2851,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие "На Рассвете"',
         place: 'Узюковский бор, напротив СНТ Рассвет',
         coord: [53.604851, 49.614925],
-        reg: 'https://orgeo.ru/event/13662'
+        reg: 'https://orgeo.ru/event/13662',
+        endReg: '2020-09-18 23:00'
     },
     {
         id: 'SMR_20200924_1',
@@ -2545,7 +2860,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие - "Четверг"',
         place: 'Парк Гагарина (Парк Хаус)',
         coord: [53.231846, 50.199486],
-        reg: 'https://orgeo.ru/event/13761'
+        reg: 'https://orgeo.ru/event/13761',
+        endReg: '2020-09-23 23:55'
     },
     {
         id: 'SMR_20200926_1',
@@ -2553,7 +2869,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие - "Четверг"',
         place: 'Дубки с Можайского',
         coord: [53.283482, 50.205334],
-        reg: 'https://orgeo.ru/event/13799'
+        reg: 'https://orgeo.ru/event/13799',
+        endReg: '2020-09-25 17:00'
     },
     {
         id: 'SMR_20200926_2',
@@ -2561,7 +2878,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по парковому спортивному ориентированию "Парк-тур" 2020',
         place: 'Ул.Юбилейная, 32 квартал, карта "Собор"',
         coord: [53.524231, 49.279774],
-        reg: 'https://orgeo.ru/event/13716'
+        reg: 'https://orgeo.ru/event/13716',
+        endReg: '2020-09-24 19:00'
     },
     {
         id: 'SMR_20200927_1',
@@ -2570,7 +2888,8 @@ let samaraEvents2026 = [
         place: 'Жилгородок',
         fmt: 'классика',
         coord: [53.449181, 50.116947],
-        reg: 'https://orgeo.ru/event/13762'
+        reg: 'https://orgeo.ru/event/13762',
+        endReg: '2020-09-25 17:00'
     },
     {
         id: 'SMR_20201001_1',
@@ -2578,7 +2897,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие - "Четверг"',
         place: 'Парк Победы',
         coord: [53.193295, 50.20219],
-        reg: 'https://orgeo.ru/event/13886'
+        reg: 'https://orgeo.ru/event/13886',
+        endReg: '2020-09-30 20:00'
     },
     {
         id: 'SMR_20201003_1',
@@ -2586,7 +2906,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие - "Четверг"',
         place: '15ка тренировочный старт',
         coord: [53.253262, 50.258114],
-        reg: 'https://orgeo.ru/event/13898'
+        reg: 'https://orgeo.ru/event/13898',
+        endReg: '2020-10-02 19:00'
     },
     {
         id: 'SMR_20201003_2',
@@ -2594,7 +2915,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по парковому спортивному ориентированию "Парк-тур" 2020 - 2 этап',
         place: 'Автоз. р-н, парк Победы, Приморский б-р',
         coord: [53.50753, 49.2743],
-        reg: 'https://orgeo.ru/event/13851'
+        reg: 'https://orgeo.ru/event/13851',
+        endReg: '2020-10-01 19:00'
     },
     {
         id: 'SMR_20201004_1',
@@ -2603,7 +2925,8 @@ let samaraEvents2026 = [
         place: '04_10_2020',
         fmt: 'марафон',
         coord: [53.489517, 49.907436],
-        reg: 'https://orgeo.ru/event/13765'
+        reg: 'https://orgeo.ru/event/13765',
+        endReg: '2020-10-02 17:00'
     },
     {
         id: 'SMR_20201011_1',
@@ -2611,7 +2934,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство г.о. Тольятти ("Марафон 2020")',
         place: 'пос. Зеленовка, на восток 2,5 км',
         coord: [53.509682, 49.663368],
-        reg: 'https://orgeo.ru/event/13924'
+        reg: 'https://orgeo.ru/event/13924',
+        endReg: '2020-10-09 23:00'
     },
     {
         id: 'SMR_20201018_1',
@@ -2619,7 +2943,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2020 (1 этап)',
         place: 'Парк Металлург',
         coord: [53.233997, 50.268452],
-        reg: 'https://orgeo.ru/event/14059'
+        reg: 'https://orgeo.ru/event/14059',
+        endReg: '2020-10-16 19:00'
     },
     {
         id: 'SMR_20201025_1',
@@ -2627,7 +2952,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2020 (2 этап)',
         place: 'Парк Гагарина (Стадион)',
         coord: [53.226692, 50.198147],
-        reg: 'https://orgeo.ru/event/14132'
+        reg: 'https://orgeo.ru/event/14132',
+        endReg: '2020-10-22 23:55'
     },
     {
         id: 'SMR_20201101_1',
@@ -2635,7 +2961,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2020 (3 этап)',
         place: 'Воронежские Озера',
         coord: [53.242485, 50.224575],
-        reg: 'https://orgeo.ru/event/14179'
+        reg: 'https://orgeo.ru/event/14179',
+        endReg: '2020-10-29 23:55'
     },
     {
         id: 'SMR_20201104_1',
@@ -2643,7 +2970,8 @@ let samaraEvents2026 = [
         name: 'Выбор Осени - 2020 - 2 день (отдельно)',
         place: 'Дубки, въезд со студёного',
         coord: [53.296329, 50.210968],
-        reg: 'https://orgeo.ru/event/14225'
+        reg: 'https://orgeo.ru/event/14225',
+        endReg: '2020-11-02 23:55'
     },
     {
         id: 'SMR_20201108_1',
@@ -2651,7 +2979,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2020 (4 этап)',
         place: 'Парк Молодежный',
         coord: [53.223595, 50.241673],
-        reg: 'https://orgeo.ru/event/14249'
+        reg: 'https://orgeo.ru/event/14249',
+        endReg: '2020-11-05 23:55'
     },
     {
         id: 'SMR_20201115_1',
@@ -2667,7 +2996,8 @@ let samaraEvents2026 = [
         name: '"Памяти Навалихиных"',
         place: 'Автозаводский р-н, Лыжная база',
         coord: [49.300297, 53.498981],
-        reg: 'https://orgeo.ru/event/14358'
+        reg: 'https://orgeo.ru/event/14358',
+        endReg: '2020-11-26 19:00'
     },
     {
         id: 'SMR_20201213_1',
@@ -2675,7 +3005,8 @@ let samaraEvents2026 = [
         name: 'Открытие зимнего сезона',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/14572'
+        reg: 'https://orgeo.ru/event/14572',
+        endReg: '2020-12-11 18:00'
     },
     {
         id: 'SMR_20201227_1',
@@ -2684,7 +3015,8 @@ let samaraEvents2026 = [
         place: 'Мехзавод 12_07_2020',
         fmt: 'дыжная гонка - спринт',
         coord: [53.306637, 50.274864],
-        reg: 'https://orgeo.ru/event/14734'
+        reg: 'https://orgeo.ru/event/14734',
+        endReg: '2020-12-25 17:00'
     },
     {
         id: 'SMR_20201230_1',
@@ -2692,7 +3024,8 @@ let samaraEvents2026 = [
         name: 'на призы Деда Мороза',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/14794'
+        reg: 'https://orgeo.ru/event/14794',
+        endReg: '2020-12-29 17:00'
     },
     {
         id: 'SMR_20210109_1',
@@ -2702,7 +3035,8 @@ let samaraEvents2026 = [
         place: 'Л/база "САКСОР"',
         fmt: 'маркировка',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/14862'
+        reg: 'https://orgeo.ru/event/14862',
+        endReg: '2021-01-07 17:00'
     },
     {
         id: 'SMR_20210124_1',
@@ -2711,7 +3045,8 @@ let samaraEvents2026 = [
         place: 'Мехзавод 12_07_2020',
         fmt: 'дыжная гонка - классика',
         coord: [53.306637, 50.274864],
-        reg: 'https://orgeo.ru/event/15045'
+        reg: 'https://orgeo.ru/event/15045',
+        endReg: '2021-01-22 18:00'
     },
     {
         id: 'SMR_20210207_1',
@@ -2719,7 +3054,8 @@ let samaraEvents2026 = [
         name: 'Кубок маркировки, 1 этап',
         place: 'Самара',
         coord: [53.255463, 50.249203],
-        reg: 'https://orgeo.ru/event/15307'
+        reg: 'https://orgeo.ru/event/15307',
+        endReg: '2021-02-05 15:30'
     },
     {
         id: 'SMR_20210222_1',
@@ -2729,7 +3065,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'спринт',
         coord: [53.306637, 50.274864],
-        reg: 'https://orgeo.ru/event/15510'
+        reg: 'https://orgeo.ru/event/15510',
+        endReg: '2021-02-19 23:55'
     },
     {
         id: 'SMR_20210223_1',
@@ -2739,7 +3076,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         coord: [53.43861, 50.133953],
-        reg: 'https://orgeo.ru/event/15511'
+        reg: 'https://orgeo.ru/event/15511',
+        endReg: '2021-02-19 00:00'
     },
     {
         id: 'SMR_20210228_1',
@@ -2749,7 +3087,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         coord: [53.43861, 50.133953],
-        reg: 'https://orgeo.ru/event/15591'
+        reg: 'https://orgeo.ru/event/15591',
+        endReg: '2021-02-26 23:55'
     },
     {
         id: 'SMR_20210306_1',
@@ -2757,7 +3096,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный забег',
         place: 'Дворец спорта',
         coord: [53.213974, 50.257915],
-        reg: 'https://orgeo.ru/event/15543'
+        reg: 'https://orgeo.ru/event/15543',
+        endReg: '2021-03-04 00:00'
     },
     {
         id: 'SMR_20210307_1',
@@ -2767,7 +3107,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'спринт',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/15745'
+        reg: 'https://orgeo.ru/event/15745',
+        endReg: '2021-03-04 23:55'
     },
     {
         id: 'SMR_20210308_1',
@@ -2777,7 +3118,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'спринт',
         coord: [53.306637, 50.274864],
-        reg: 'https://orgeo.ru/event/15743'
+        reg: 'https://orgeo.ru/event/15743',
+        endReg: '2021-03-05 23:55'
     },
     {
         id: 'SMR_20210416_1',
@@ -2785,7 +3127,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по парковому спортивному ориентированию "Парк-тур" 2021',
         place: 'Автоз. р-н, парк Победы, Приморский б-р',
         coord: [53.50753, 49.2743],
-        reg: 'https://orgeo.ru/event/16218'
+        reg: 'https://orgeo.ru/event/16218',
+        endReg: '2021-04-13 20:00'
     },
     {
         id: 'SMR_20210418_1',
@@ -2794,7 +3137,9 @@ let samaraEvents2026 = [
         place: 'Станция Курумоч (верх)',
         fmt: 'спринт',
         coord: [53.461906, 50.079151],
-        reg: 'https://orgeo.ru/event/16366'
+        reg: 'https://orgeo.ru/event/16366',
+        endReg: '2021-04-16 17:00',
+        o_gps: 9457
     },
     {
         id: 'SMR_20210423_1',
@@ -2803,7 +3148,8 @@ let samaraEvents2026 = [
         place: 'ПКиО Комсомольского р-на',
         fmt: 'выбор',
         coord: [53.480713, 49.465187],
-        reg: 'https://orgeo.ru/event/16535'
+        reg: 'https://orgeo.ru/event/16535',
+        endReg: '2021-04-23 16:00'
     },
     {
         id: 'SMR_20210501_1',
@@ -2813,7 +3159,8 @@ let samaraEvents2026 = [
         place: 'МДМ',
         fmt: 'классика',
         coord: [53.561619, 49.952812],
-        reg: 'https://orgeo.ru/event/16437'
+        reg: 'https://orgeo.ru/event/16437',
+        endReg: '2021-04-27 23:00'
     },
     {
         id: 'SMR_20210508_1',
@@ -2823,7 +3170,8 @@ let samaraEvents2026 = [
         place: 'Мастрюково Кубок области',
         fmt: 'выбор, лонг',
         coord: [53.48074, 49.950855],
-        reg: 'https://orgeo.ru/event/16746'
+        reg: 'https://orgeo.ru/event/16746',
+        endReg: '2021-05-05 23:55'
     },
     {
         id: 'SMR_20210509_1',
@@ -2831,7 +3179,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по парковому спортивному ориентированию',
         place: 'Музей истории и техники ВАЗа',
         coord: [53.553249, 49.25045],
-        reg: 'https://orgeo.ru/event/16745'
+        reg: 'https://orgeo.ru/event/16745',
+        endReg: '2021-05-05 21:00'
     },
     {
         id: 'SMR_20210510_1',
@@ -2839,7 +3188,12 @@ let samaraEvents2026 = [
         name: 'Кубок памяти Андрея Рожнова по спортивному ориентированию',
         place: 'Курумоч низ',
         coord: [53.45211, 50.083786],
-        reg: 'https://orgeo.ru/event/16715'
+        reg: 'https://orgeo.ru/event/16715',
+        endReg: '2021-05-05 17:00',
+        o_gps: {
+            'Средняя': 9875,
+            'Короткая': 9876
+        }
     },
     {
         id: 'SMR_20210516_1',
@@ -2848,7 +3202,9 @@ let samaraEvents2026 = [
         place: 'кемпинг "Русская охота"',
         fmt: 'классика',
         coord: [53.504578, 50.069454],
-        reg: 'https://orgeo.ru/event/16916'
+        reg: 'https://orgeo.ru/event/16916',
+        endReg: '2021-05-14 14:00',
+        o_gps: 9929
     },
     {
         id: 'SMR_20210520_1',
@@ -2856,7 +3212,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный "Четверг"',
         place: 'Лесопарк им. 60-летия Советской власти',
         coord: [53.253563, 50.258324],
-        reg: 'https://orgeo.ru/event/16998'
+        reg: 'https://orgeo.ru/event/16998',
+        endReg: '2021-05-19 09:00'
     },
     {
         id: 'SMR_20210603_1',
@@ -2864,7 +3221,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный "Четверг"',
         place: 'Парк Гагарина (Парк Хаус)',
         coord: [53.231846, 50.199486],
-        reg: 'https://orgeo.ru/event/17328'
+        reg: 'https://orgeo.ru/event/17328',
+        endReg: '2021-06-02 23:00'
     },
     {
         id: 'SMR_20210605_1',
@@ -2873,7 +3231,8 @@ let samaraEvents2026 = [
         place: 'р. Курумка (Кемпинг)',
         fmt: 'классика',
         coord: [53.511448, 50.092777],
-        reg: 'https://orgeo.ru/event/17201'
+        reg: 'https://orgeo.ru/event/17201',
+        endReg: '2021-06-03 17:00'
     },
     {
         id: 'SMR_20210606_1',
@@ -2881,7 +3240,8 @@ let samaraEvents2026 = [
         name: '2й Этап Кубка г.о. Тольятти 2021',
         place: 'жд.ст. 125 км - старая турбаза',
         coord: [53.477032, 49.776421],
-        reg: 'https://orgeo.ru/event/17094'
+        reg: 'https://orgeo.ru/event/17094',
+        endReg: '2021-06-04 22:00'
     },
     {
         id: 'SMR_20210612_1',
@@ -2891,7 +3251,8 @@ let samaraEvents2026 = [
         place: 'с. Пискалы, Узюковский бор',
         fmt: 'классика, лонг',
         coord: [53.631519, 49.799393],
-        reg: 'https://orgeo.ru/event/17286'
+        reg: 'https://orgeo.ru/event/17286',
+        endReg: '2021-06-10 23:00'
     },
     {
         id: 'SMR_20210617_1',
@@ -2899,7 +3260,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный "Четверг"',
         place: '15_ка тренировочный старт',
         coord: [53.26239, 50.248066],
-        reg: 'https://orgeo.ru/event/17478'
+        reg: 'https://orgeo.ru/event/17478',
+        endReg: '2021-06-16 23:55'
     },
     {
         id: 'SMR_20210619_1',
@@ -2909,7 +3271,8 @@ let samaraEvents2026 = [
         place: 'Прибрежный (лес)',
         fmt: 'классика, кросс многодневный',
         coord: [53.495735, 49.880497],
-        reg: 'https://orgeo.ru/event/17454'
+        reg: 'https://orgeo.ru/event/17454',
+        endReg: '2021-06-17 23:55'
     },
     {
         id: 'SMR_20210701_1',
@@ -2917,7 +3280,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный "Четверг"',
         place: 'Дружба тренировочный четверг',
         coord: [53.203163, 50.218735],
-        reg: 'https://orgeo.ru/event/17579'
+        reg: 'https://orgeo.ru/event/17579',
+        endReg: '2021-06-30 23:55'
     },
     {
         id: 'SMR_20210714_1',
@@ -2925,7 +3289,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный "Четверг"',
         place: 'Воронежские Озера',
         coord: [53.242485, 50.224575],
-        reg: 'https://orgeo.ru/event/17682'
+        reg: 'https://orgeo.ru/event/17682',
+        endReg: '2021-07-13 23:55'
     },
     {
         id: 'SMR_20210724_1',
@@ -2934,7 +3299,13 @@ let samaraEvents2026 = [
         name: 'Демобилизация 2021',
         place: 'Секретариат',
         coord: [53.487305, 49.931095],
-        reg: 'https://orgeo.ru/event/17701'
+        reg: 'https://orgeo.ru/event/17701',
+        endReg: '2021-07-22 20:00',
+        o_gps: {
+            '24-Длинная': 10484,
+            '25-Длинная': 10509,
+            '25-Короткая': 10530
+        }
     },
     {
         id: 'SMR_20210829_1',
@@ -2943,7 +3314,8 @@ let samaraEvents2026 = [
         place: 'Мастрюково Кубок области',
         fmt: 'эстафета 2х',
         coord: [53.48074, 49.950855],
-        reg: 'https://orgeo.ru/event/18018'
+        reg: 'https://orgeo.ru/event/18018',
+        endReg: '2021-08-27 18:00'
     },
     {
         id: 'SMR_20210904_1',
@@ -2951,7 +3323,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по парковому спортивному ориентированию',
         place: 'Памятник Татищеву',
         coord: [53.476616, 49.347771],
-        reg: 'https://orgeo.ru/event/18134'
+        reg: 'https://orgeo.ru/event/18134',
+        endReg: '2021-09-02 18:00'
     },
     {
         id: 'SMR_20210905_1',
@@ -2960,7 +3333,8 @@ let samaraEvents2026 = [
         place: 'Жилгородок',
         fmt: 'классика',
         coord: [53.449181, 50.116947],
-        reg: 'https://orgeo.ru/event/18114'
+        reg: 'https://orgeo.ru/event/18114',
+        endReg: '2021-09-03 18:00'
     },
     {
         id: 'SMR_20210911_1',
@@ -2969,7 +3343,8 @@ let samaraEvents2026 = [
         name: 'Мемориал Дмитрия Меляшинского - 2021',
         place: 'Бинарадка',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/18015'
+        reg: 'https://orgeo.ru/event/18015',
+        endReg: '2021-09-09 11:00'
     },
     {
         id: 'SMR_20210918_1',
@@ -2978,7 +3353,8 @@ let samaraEvents2026 = [
         name: 'ЧиП Тольятти (3й Этап Кубка)',
         place: 'с. Зеленовка, восточная окраина',
         coord: [53.508118, 49.626419],
-        reg: 'https://orgeo.ru/event/17937'
+        reg: 'https://orgeo.ru/event/17937',
+        endReg: '2021-09-17 10:00'
     },
     {
         id: 'SMR_20210925_1',
@@ -2986,7 +3362,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по парковому спортивному ориентированию',
         place: 'ПКиО Центрального р-на',
         coord: [53.510731, 49.418667],
-        reg: 'https://orgeo.ru/event/18509'
+        reg: 'https://orgeo.ru/event/18509',
+        endReg: '2021-09-23 21:00'
     },
     {
         id: 'SMR_20210926_1',
@@ -2995,7 +3372,8 @@ let samaraEvents2026 = [
         place: '125 км',
         fmt: 'классика',
         coord: [53.484867, 49.779018],
-        reg: 'https://orgeo.ru/event/18370'
+        reg: 'https://orgeo.ru/event/18370',
+        endReg: '2021-09-24 17:00'
     },
     {
         id: 'SMR_20211002_1',
@@ -3003,7 +3381,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по парковому спортивному ориентированию',
         place: 'Ул.Юбилейная, 32 квартал, карта "Собор"',
         coord: [53.524231, 49.279774],
-        reg: 'https://orgeo.ru/event/18630'
+        reg: 'https://orgeo.ru/event/18630',
+        endReg: '2021-09-30 09:00'
     },
     {
         id: 'SMR_20211003_1',
@@ -3012,7 +3391,8 @@ let samaraEvents2026 = [
         place: 'Прибрежный',
         fmt: 'лонг',
         coord: [53.486095, 49.878757],
-        reg: 'https://orgeo.ru/event/18371'
+        reg: 'https://orgeo.ru/event/18371',
+        endReg: '2021-10-01 17:00'
     },
     {
         id: 'SMR_20211010_1',
@@ -3020,7 +3400,8 @@ let samaraEvents2026 = [
         name: '4й этап Кубка Тольятти 2021',
         place: 'Широкая просека (с.Зеленовка - Жиг-Море)',
         coord: [53.498039, 49.57428],
-        reg: 'https://orgeo.ru/event/18738'
+        reg: 'https://orgeo.ru/event/18738',
+        endReg: '2021-10-08 22:50'
     },
     {
         id: 'SMR_20211016_1',
@@ -3028,7 +3409,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по парковому спортивному ориентированию - 7 этап',
         place: 'Автозаводский район, "Фанни Парк"',
         coord: [53.518375, 49.268059],
-        reg: 'https://orgeo.ru/event/18877'
+        reg: 'https://orgeo.ru/event/18877',
+        endReg: '2021-10-14 09:00'
     },
     {
         id: 'SMR_20211024_1',
@@ -3037,7 +3419,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'классика',
         coord: [53.484402, 49.953892],
-        reg: 'https://orgeo.ru/event/18963'
+        reg: 'https://orgeo.ru/event/18963',
+        endReg: '2021-10-23 15:00'
     },
     {
         id: 'SMR_20211031_1',
@@ -3045,7 +3428,8 @@ let samaraEvents2026 = [
         name: 'Открытый тренировочный старт клуба "Саксор-Олимпик"',
         place: 'Самара',
         coord: [53.473038, 50.073532],
-        reg: 'https://orgeo.ru/event/19030'
+        reg: 'https://orgeo.ru/event/19030',
+        endReg: '2021-10-30 15:00'
     },
     {
         id: 'SMR_20211104_1',
@@ -3054,7 +3438,8 @@ let samaraEvents2026 = [
         place: 'Тольятти',
         fmt: 'классика - ночное',
         coord: [53.509758, 49.663113],
-        reg: 'https://orgeo.ru/event/19079'
+        reg: 'https://orgeo.ru/event/19079',
+        endReg: '2021-11-04 15:00'
     },
     {
         id: 'SMR_20211107_1',
@@ -3062,7 +3447,9 @@ let samaraEvents2026 = [
         name: 'Открытый тренировочный старт "Памяти друзей"',
         place: 'дорога на "Алые паруса" (на юг 250 м)',
         coord: [53.571877, 49.05043],
-        reg: 'https://orgeo.ru/event/19089'
+        reg: 'https://orgeo.ru/event/19089',
+        endReg: '2021-11-05 23:50',
+        owner: 'AZIMUT'
     },
     {
         id: 'SMR_20211226_1',
@@ -3072,7 +3459,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'спринт',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/19662'
+        reg: 'https://orgeo.ru/event/19662',
+        endReg: '2021-12-24 17:00'
     },
     {
         id: 'SMR_20211230_1',
@@ -3080,7 +3468,8 @@ let samaraEvents2026 = [
         name: 'на призы Деда Мороза',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/19727'
+        reg: 'https://orgeo.ru/event/19727',
+        endReg: '2021-12-29 21:00'
     },
     {
         id: 'SMR_20211231_1',
@@ -3090,7 +3479,13 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'классика',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/19728'
+        reg: 'https://orgeo.ru/event/19728',
+        endReg: '2021-12-29 21:00',
+        o_gps: {
+            'М14': 11769,
+            'Ж14': 11770,
+            '1': 11771
+        }
     },
     {
         id: 'SMR_20220116_1',
@@ -3098,7 +3493,8 @@ let samaraEvents2026 = [
         name: 'Кубок маркировки, 1 этап',
         place: 'За пансионатом престарелых',
         coord: [53.306557, 50.274712],
-        reg: 'https://orgeo.ru/event/19953'
+        reg: 'https://orgeo.ru/event/19953',
+        endReg: '2022-01-14 23:00'
     },
     {
         id: 'SMR_20220130_1',
@@ -3106,7 +3502,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарcкой области',
         place: 'За пансионатом престарелых',
         coord: [53.306557, 50.274712],
-        reg: 'https://orgeo.ru/event/20056'
+        reg: 'https://orgeo.ru/event/20056',
+        endReg: '2022-01-28 17:00'
     },
     {
         id: 'SMR_20220227_1',
@@ -3116,7 +3513,16 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         coord: [53.489487, 49.852734],
-        reg: 'https://orgeo.ru/event/20548'
+        reg: 'https://orgeo.ru/event/20548',
+        endReg: '2022-02-25 18:00',
+        o_gps: {
+            'М21': 12109,
+            'Ж17/40': 12110,
+            'М17/М40/Ж21': 12111,
+            '1': 12112,
+            '2': 12113,
+            '3': 12114
+        }
     },
     {
         id: 'SMR_20220306_1',
@@ -3124,7 +3530,14 @@ let samaraEvents2026 = [
         name: 'памяти Никиты Лукъянчикова',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/20811'
+        reg: 'https://orgeo.ru/event/20811',
+        endReg: '2022-03-04 23:55',
+        o_gps: {
+            '1': 12166,
+            'М14': 12167,
+            '2': 12172,
+            'Ж14': 12173
+        }
     },
     {
         id: 'SMR_20220410_1',
@@ -3132,7 +3545,8 @@ let samaraEvents2026 = [
         name: 'Открытие сезона 2022',
         place: 'АТП-3, Комсомольский р-н',
         coord: [53.494316, 49.514061],
-        reg: 'https://orgeo.ru/event/21368'
+        reg: 'https://orgeo.ru/event/21368',
+        endReg: '2022-04-08 22:55'
     },
     {
         id: 'SMR_20220416_1',
@@ -3140,7 +3554,8 @@ let samaraEvents2026 = [
         name: 'Кубок парков г.о.Тольятти-2022',
         place: 'Автоз. р-н, парк Победы, Приморский б-р',
         coord: [53.50753, 49.2743],
-        reg: 'https://orgeo.ru/event/21401'
+        reg: 'https://orgeo.ru/event/21401',
+        endReg: '2022-04-13 21:00'
     },
     {
         id: 'SMR_20220417_1',
@@ -3148,7 +3563,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'Станция Курумоч (верх)',
         coord: [53.461906, 50.079151],
-        reg: 'https://orgeo.ru/event/21532'
+        reg: 'https://orgeo.ru/event/21532',
+        endReg: '2022-04-15 17:00'
     },
     {
         id: 'SMR_20220422_1',
@@ -3156,7 +3572,8 @@ let samaraEvents2026 = [
         name: '4 этап смотра – конкурса «В мире ориентиров»',
         place: 'ПКиО Комсомольского района',
         coord: [53.535561, 49.409569],
-        reg: 'https://orgeo.ru/event/21504'
+        reg: 'https://orgeo.ru/event/21504',
+        endReg: '2022-04-20 22:00'
     },
     {
         id: 'SMR_20220428_1',
@@ -3164,7 +3581,8 @@ let samaraEvents2026 = [
         name: 'Лесной спорт для всей семьи - тренировочный четверг',
         place: 'Лесопарк им. 60-летия Советской власти',
         coord: [53.253563, 50.258324],
-        reg: 'https://orgeo.ru/event/21865'
+        reg: 'https://orgeo.ru/event/21865',
+        endReg: '2022-04-27 15:00'
     },
     {
         id: 'SMR_20220430_1',
@@ -3172,7 +3590,8 @@ let samaraEvents2026 = [
         name: '1й Этап Кубка Тольятти 2022',
         place: 'дорога на "Алые паруса", Ягодинский бор',
         coord: [53.572388, 49.039059],
-        reg: 'https://orgeo.ru/event/21679'
+        reg: 'https://orgeo.ru/event/21679',
+        endReg: '2022-04-28 21:00'
     },
     {
         id: 'SMR_20220501_1',
@@ -3180,7 +3599,8 @@ let samaraEvents2026 = [
         name: 'вв п в',
         place: '"МИР"',
         coord: [53.470657, 49.810093],
-        reg: 'https://orgeo.ru/event/20511'
+        reg: 'https://orgeo.ru/event/20511',
+        endReg: '2022-02-11 22:00'
     },
     {
         id: 'SMR_20220501_2',
@@ -3188,7 +3608,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт',
         place: 'Пискалы, трасса м5',
         coord: [53.514065, 49.714245],
-        reg: 'https://orgeo.ru/event/21975'
+        reg: 'https://orgeo.ru/event/21975',
+        endReg: '2022-04-30 16:00'
     },
     {
         id: 'SMR_20220509_1',
@@ -3198,7 +3619,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'выбор, классика',
         coord: [53.562931, 49.961643],
-        reg: 'https://orgeo.ru/event/21562'
+        reg: 'https://orgeo.ru/event/21562',
+        endReg: '2022-05-07 23:00'
     },
     {
         id: 'SMR_20220509_2',
@@ -3206,7 +3628,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию -"Кросс-спринт" - 2 этап',
         place: 'Музей истории техники',
         coord: [53.553555, 49.243401],
-        reg: 'https://orgeo.ru/event/21939'
+        reg: 'https://orgeo.ru/event/21939',
+        endReg: '2022-05-05 21:00'
     },
     {
         id: 'SMR_20220515_1',
@@ -3214,7 +3637,9 @@ let samaraEvents2026 = [
         name: 'Кубок памяти Андрея Рожнова по спортивному ориентированию',
         place: 'Курумоч низ',
         coord: [53.45211, 50.083786],
-        reg: 'https://orgeo.ru/event/21915'
+        reg: 'https://orgeo.ru/event/21915',
+        endReg: '2022-05-11 23:00',
+        o_gps: 13026
     },
     {
         id: 'SMR_20220521_1',
@@ -3222,7 +3647,8 @@ let samaraEvents2026 = [
         name: 'РОССИЙСКИЙ АЗИМУТ- 2022',
         place: 'Парк Гагарина (Стадион)',
         coord: [53.226692, 50.198147],
-        reg: 'https://orgeo.ru/event/21764'
+        reg: 'https://orgeo.ru/event/21764',
+        endReg: '2022-05-20 13:00'
     },
     {
         id: 'SMR_20220522_1',
@@ -3230,7 +3656,17 @@ let samaraEvents2026 = [
         name: 'Мемориал Анатолия Балахонкина',
         place: 'Кемпинг, СТД Береза 3',
         coord: [53.511467, 50.092712],
-        reg: 'https://orgeo.ru/event/22152'
+        reg: 'https://orgeo.ru/event/22152',
+        endReg: '2022-05-19 19:00',
+        o_gps: {
+            'М21': 13088,
+            'М55/М16/Ж40': 13090,
+            'Ж14': 13091,
+            'М12': 13092,
+            'М14': 13093,
+            'Ж21': 13097,
+            '1': 13102
+        }
     },
     {
         id: 'SMR_20220530_1',
@@ -3238,7 +3674,8 @@ let samaraEvents2026 = [
         name: 'Соревнования по спортивному ориентированию для детского сада №407',
         place: 'Школа №139',
         coord: [53.24276, 50.192291],
-        reg: 'https://orgeo.ru/event/22603'
+        reg: 'https://orgeo.ru/event/22603',
+        endReg: '2022-05-30 08:25'
     },
     {
         id: 'SMR_20220601_1',
@@ -3247,7 +3684,8 @@ let samaraEvents2026 = [
         place: 'Воронежские Озера',
         fmt: 'выбор',
         coord: [53.242485, 50.224575],
-        reg: 'https://orgeo.ru/event/22656'
+        reg: 'https://orgeo.ru/event/22656',
+        endReg: '2022-05-31 22:00'
     },
     {
         id: 'SMR_20220604_1',
@@ -3256,7 +3694,19 @@ let samaraEvents2026 = [
         place: 'кемпинг "Русская охота"',
         fmt: 'классика',
         coord: [53.504578, 50.069454],
-        reg: 'https://orgeo.ru/event/22526'
+        reg: 'https://orgeo.ru/event/22526',
+        endReg: '2022-06-02 00:00',
+        o_gps: {
+            '1': 13237,
+            'Ж12': 13238,
+            'Ж14/60': 13239,
+            'Ж16/50': 13240,
+            'Ж21/М40': 13241,
+            'М12/70': 13242,
+            'М14/60': 13243,
+            'М16/М50/Ж40': 13244,
+            'М21': 13245
+        }
     },
     {
         id: 'SMR_20220605_1',
@@ -3264,7 +3714,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство г.о. Тольятти',
         place: '3 Озера, ост. Озерки',
         coord: [53.497116, 49.506184],
-        reg: 'https://orgeo.ru/event/22595'
+        reg: 'https://orgeo.ru/event/22595',
+        endReg: '2022-06-04 18:00'
     },
     {
         id: 'SMR_20220609_1',
@@ -3272,7 +3723,8 @@ let samaraEvents2026 = [
         name: 'Лесной спорт для всей семьи - тренировочный четверг',
         place: 'Воронежские Озера',
         coord: [53.242485, 50.224575],
-        reg: 'https://orgeo.ru/event/22652'
+        reg: 'https://orgeo.ru/event/22652',
+        endReg: '2022-06-07 23:55'
     },
     {
         id: 'SMR_20220611_1',
@@ -3281,7 +3733,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство Самарской обл. / 2й этап Кубка Тольятти',
         place: 'с. Пискалы, Узюковский бор',
         coord: [53.631454, 49.7995],
-        reg: 'https://orgeo.ru/event/22693'
+        reg: 'https://orgeo.ru/event/22693',
+        endReg: '2022-06-09 23:55'
     },
     {
         id: 'SMR_20220617_1',
@@ -3290,7 +3743,8 @@ let samaraEvents2026 = [
         place: 'Тольяттинская поляна Фестивального парка',
         fmt: 'классика',
         coord: [53.4715, 49.916462],
-        reg: 'https://orgeo.ru/event/22759'
+        reg: 'https://orgeo.ru/event/22759',
+        endReg: '2022-06-15 12:00'
     },
     {
         id: 'SMR_20220618_1',
@@ -3300,7 +3754,8 @@ let samaraEvents2026 = [
         place: '135 км',
         fmt: 'классика, кросс многодневный',
         coord: [53.476089, 49.91354],
-        reg: 'https://orgeo.ru/event/22732'
+        reg: 'https://orgeo.ru/event/22732',
+        endReg: '2022-06-16 11:00'
     },
     {
         id: 'SMR_20220714_1',
@@ -3308,7 +3763,8 @@ let samaraEvents2026 = [
         name: 'Лесной спорт для всей семьи - тренировочный четверг',
         place: 'Парк Загородный',
         coord: [53.229156, 50.165455],
-        reg: 'https://orgeo.ru/event/23099'
+        reg: 'https://orgeo.ru/event/23099',
+        endReg: '2022-07-13 05:00'
     },
     {
         id: 'SMR_20220717_1',
@@ -3316,7 +3772,8 @@ let samaraEvents2026 = [
         name: 'Лесной спорт - для всей семьи (спортивное ориентирование)',
         place: 'Дубки, политехник',
         coord: [53.283581, 50.205734],
-        reg: 'https://orgeo.ru/event/2022'
+        reg: 'https://orgeo.ru/event/2022',
+        endReg: '2015-08-28 15:00'
     },
     {
         id: 'SMR_20220730_1',
@@ -3324,7 +3781,8 @@ let samaraEvents2026 = [
         name: 'Лесной спорт - для всей семьи (спортивное ориентирование)',
         place: 'Царев Курган',
         coord: [53.422588, 50.11874],
-        reg: 'https://orgeo.ru/event/23140'
+        reg: 'https://orgeo.ru/event/23140',
+        endReg: '2022-07-28 19:00'
     },
     {
         id: 'SMR_20220811_1',
@@ -3332,7 +3790,8 @@ let samaraEvents2026 = [
         name: 'Лесной спорт для всей семьи - тренировочный четверг',
         place: 'Парк Гагарина (Парк Хаус)',
         coord: [53.231846, 50.199486],
-        reg: 'https://orgeo.ru/event/23401'
+        reg: 'https://orgeo.ru/event/23401',
+        endReg: '2022-08-10 23:00'
     },
     {
         id: 'SMR_20220818_1',
@@ -3342,7 +3801,46 @@ let samaraEvents2026 = [
         place: 'б/о "Радуга"',
         fmt: 'спринт, классика, многодневный',
         coord: [53.476288, 49.792648],
-        reg: 'https://orgeo.ru/event/21708'
+        reg: 'https://orgeo.ru/event/21708',
+        endReg: '2022-08-10 23:00',
+        o_gps: {
+            '19-М21': 13852,
+            '19-Ж14': 13853,
+            '19-Ж16': 13854,
+            '19-Ж18': 13855,
+            '19-Ж21': 13856,
+            '19-Ж40': 13857,
+            '19-1': 13858,
+            '19-М14': 13859,
+            '19-М16': 13860,
+            '19-М18': 13861,
+            '19-М40': 13862,
+            '19-2': 13863,
+            '19-3': 13864,
+            '19-4': 13865,
+            '20-М21': 13879,
+            '20-Ж14': 13880,
+            '20-Ж16': 13881,
+            '20-Ж40': 13882,
+            '20-1': 13883,
+            '20-М10/Ж10': 13884,
+            '20-М12/Ж12': 13885,
+            '20-М14': 13886,
+            '20-М16': 13887,
+            '20-2': 13888,
+            '20-Ж18': 13889,
+            '20-Ж21': 13890,
+            '20-М40': 13891,
+            '20-М18': 13892,
+            '21-М21': 13897,
+            '21-М18': 13898,
+            '21-М16': 13899,
+            '21-Ж21': 13900,
+            '21-Ж18': 13901,
+            '21-Ж16': 13902,
+            '21-М50': 13908,
+            '21-М14': 13911
+        }
     },
     {
         id: 'SMR_20220828_1',
@@ -3350,7 +3848,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство Самарской обл. 2-х этапная эстафета',
         place: 'с. Пискалы, Узюковский бор, пер просек',
         coord: [53.629837, 49.774609],
-        reg: 'https://orgeo.ru/event/23484'
+        reg: 'https://orgeo.ru/event/23484',
+        endReg: '2022-08-25 22:55'
     },
     {
         id: 'SMR_20220903_1',
@@ -3358,7 +3857,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию -"Кросс-спринт" - 3 этап',
         place: 'Памятник Татищеву',
         coord: [53.476616, 49.347771],
-        reg: 'https://orgeo.ru/event/23663'
+        reg: 'https://orgeo.ru/event/23663',
+        endReg: '2022-09-02 09:30'
     },
     {
         id: 'SMR_20220904_1',
@@ -3367,7 +3867,8 @@ let samaraEvents2026 = [
         place: 'Мастрюково',
         fmt: 'классика',
         coord: [53.48542, 49.958698],
-        reg: 'https://orgeo.ru/event/23730'
+        reg: 'https://orgeo.ru/event/23730',
+        endReg: '2022-09-02 16:00'
     },
     {
         id: 'SMR_20220905_1',
@@ -3375,7 +3876,8 @@ let samaraEvents2026 = [
         name: 'Соревнования по спортивному ориентированию',
         place: 'б.о "Салют"',
         coord: [53.533649, 50.313282],
-        reg: 'https://orgeo.ru/event/23833'
+        reg: 'https://orgeo.ru/event/23833',
+        endReg: '2022-09-01 21:00'
     },
     {
         id: 'SMR_20220908_1',
@@ -3383,7 +3885,8 @@ let samaraEvents2026 = [
         name: 'Лесной спорт для всей семьи - тренировочный четверг',
         place: 'Дружба тренировочный четверг',
         coord: [53.203163, 50.218735],
-        reg: 'https://orgeo.ru/event/23809'
+        reg: 'https://orgeo.ru/event/23809',
+        endReg: '2022-09-07 22:00'
     },
     {
         id: 'SMR_20220910_1',
@@ -3393,7 +3896,9 @@ let samaraEvents2026 = [
         place: 'Курумоч низ',
         fmt: 'выбор - выбор 30/40 мин, заданное направление - классика 40/60 мин',
         coord: [53.45211, 50.083786],
-        reg: 'https://orgeo.ru/event/23245'
+        reg: 'https://orgeo.ru/event/23245',
+        endReg: '2022-09-09 13:00',
+        o_gps: 14054
     },
     {
         id: 'SMR_20220916_1',
@@ -3401,7 +3906,8 @@ let samaraEvents2026 = [
         name: 'Соревнования по спортивному ориентированию',
         place: 'Стрежень',
         coord: [53.468227, 49.808411],
-        reg: 'https://orgeo.ru/event/24171'
+        reg: 'https://orgeo.ru/event/24171',
+        endReg: '2022-09-16 01:00'
     },
     {
         id: 'SMR_20220918_1',
@@ -3409,7 +3915,8 @@ let samaraEvents2026 = [
         name: '3й этап Кубка г.о. Тольятти',
         place: 'Узюковский бор, напротив СНТ Родники',
         coord: [53.616817, 49.632908],
-        reg: 'https://orgeo.ru/event/23970'
+        reg: 'https://orgeo.ru/event/23970',
+        endReg: '2022-09-17 18:55'
     },
     {
         id: 'SMR_20220925_1',
@@ -3418,7 +3925,19 @@ let samaraEvents2026 = [
         place: 'Мастрюково',
         fmt: 'классика',
         coord: [53.48542, 49.958698],
-        reg: 'https://orgeo.ru/event/24180'
+        reg: 'https://orgeo.ru/event/24180',
+        endReg: '2022-09-22 23:55',
+        o_gps: {
+            'М21': 14170,
+            'М40': 14171,
+            'М14/60': 14172,
+            'Ж21/М16/М50': 14173,
+            'Ж16/40/50': 14174,
+            '1': 14175,
+            'М12': 14176,
+            'Ж12': 14177,
+            'М70/Ж14/Ж60': 14178
+        }
     },
     {
         id: 'SMR_20220929_1',
@@ -3426,7 +3945,8 @@ let samaraEvents2026 = [
         name: 'Лесной спорт для всей семьи - тренировочный четверг',
         place: 'Парк Победы',
         coord: [53.193295, 50.20219],
-        reg: 'https://orgeo.ru/event/24365'
+        reg: 'https://orgeo.ru/event/24365',
+        endReg: '2022-09-28 16:00'
     },
     {
         id: 'SMR_20220930_1',
@@ -3434,7 +3954,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию -"Кросс-спринт" - 4 этап',
         place: '4 этап - Центральный парк (ул.Гагарина)',
         coord: [53.535561, 49.409569],
-        reg: 'https://orgeo.ru/event/24190'
+        reg: 'https://orgeo.ru/event/24190',
+        endReg: '2022-09-27 22:00'
     },
     {
         id: 'SMR_20221002_1',
@@ -3443,7 +3964,8 @@ let samaraEvents2026 = [
         place: '02_10_2022',
         fmt: 'лонг',
         coord: [53.472309, 49.828175],
-        reg: 'https://orgeo.ru/event/24364'
+        reg: 'https://orgeo.ru/event/24364',
+        endReg: '2022-09-30 17:00'
     },
     {
         id: 'SMR_20221009_1',
@@ -3451,7 +3973,8 @@ let samaraEvents2026 = [
         name: '4й этап Кубка г.о. Тольятти',
         place: 'пос. Прибрежный, СДНТ Орлёнок',
         coord: [53.491085, 49.886189],
-        reg: 'https://orgeo.ru/event/24454'
+        reg: 'https://orgeo.ru/event/24454',
+        endReg: '2022-10-07 23:55'
     },
     {
         id: 'SMR_20221013_1',
@@ -3459,7 +3982,8 @@ let samaraEvents2026 = [
         name: 'Лесной спорт для всей семьи - тренировочный четверг',
         place: 'Парк Металлург',
         coord: [53.233997, 50.268452],
-        reg: 'https://orgeo.ru/event/24624'
+        reg: 'https://orgeo.ru/event/24624',
+        endReg: '2022-10-12 22:55'
     },
     {
         id: 'SMR_20221015_1',
@@ -3467,7 +3991,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию -"Кросс-спринт" - 7 этап',
         place: 'Автозаводский район, "Фанни Парк"',
         coord: [53.518375, 49.268059],
-        reg: 'https://orgeo.ru/event/24635'
+        reg: 'https://orgeo.ru/event/24635',
+        endReg: '2022-10-12 21:00'
     },
     {
         id: 'SMR_20221016_1',
@@ -3475,7 +4000,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2022 (1 этап)',
         place: 'Лесопарк им 60-летия Советской Власти',
         coord: [53.253975, 50.258152],
-        reg: 'https://orgeo.ru/event/24450'
+        reg: 'https://orgeo.ru/event/24450',
+        endReg: '2022-10-13 23:55'
     },
     {
         id: 'SMR_20221022_1',
@@ -3483,7 +4009,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию -"Кросс-спринт" - 8 этап',
         place: 'Автозаводский р-н, парк Победы(Юбилейн)',
         coord: [53.507938, 49.274986],
-        reg: 'https://orgeo.ru/event/24705'
+        reg: 'https://orgeo.ru/event/24705',
+        endReg: '2022-10-19 21:00'
     },
     {
         id: 'SMR_20221023_1',
@@ -3491,7 +4018,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2022 (2 этап)',
         place: 'Парк Победы',
         coord: [53.193295, 50.20219],
-        reg: 'https://orgeo.ru/event/24702'
+        reg: 'https://orgeo.ru/event/24702',
+        endReg: '2022-10-20 23:55'
     },
     {
         id: 'SMR_20221029_1',
@@ -3499,7 +4027,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию -"Кросс-спринт" - 9 этап',
         place: 'ДДЮТ, автоклуб, Ст.Разина, 99, стр.1',
         coord: [53.535561, 49.409569],
-        reg: 'https://orgeo.ru/event/24885'
+        reg: 'https://orgeo.ru/event/24885',
+        endReg: '2022-10-26 21:00'
     },
     {
         id: 'SMR_20221030_1',
@@ -3507,7 +4036,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2022 (3 этап)',
         place: 'Парк Металлург',
         coord: [53.233997, 50.268452],
-        reg: 'https://orgeo.ru/event/24864'
+        reg: 'https://orgeo.ru/event/24864',
+        endReg: '2022-10-28 10:00'
     },
     {
         id: 'SMR_20221104_1',
@@ -3515,7 +4045,9 @@ let samaraEvents2026 = [
         name: 'Открытый старт "Памяти друзей"',
         place: 'Жиг-Море, Ловчий+',
         coord: [53.479736, 49.54195],
-        reg: 'https://orgeo.ru/event/24902'
+        reg: 'https://orgeo.ru/event/24902',
+        endReg: '2022-11-02 22:55',
+        owner: 'AZIMUT'
     },
     {
         id: 'SMR_20221106_1',
@@ -3523,7 +4055,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2022 (4 этап)',
         place: 'Парк Дружбы',
         coord: [53.203102, 50.218712],
-        reg: 'https://orgeo.ru/event/24979'
+        reg: 'https://orgeo.ru/event/24979',
+        endReg: '2022-11-04 19:40'
     },
     {
         id: 'SMR_20221113_1',
@@ -3531,7 +4064,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2022 (ФИНАЛ)',
         place: 'Парк Гагарина (Стадион)',
         coord: [53.226692, 50.198147],
-        reg: 'https://orgeo.ru/event/25103'
+        reg: 'https://orgeo.ru/event/25103',
+        endReg: '2022-11-12 15:00'
     },
     {
         id: 'SMR_20221127_1',
@@ -3539,7 +4073,8 @@ let samaraEvents2026 = [
         name: 'Памяти Навалихиных',
         place: 'Л/база Автозаводского р-на, освещёнка',
         coord: [53.497898, 49.30003],
-        reg: 'https://orgeo.ru/event/25288'
+        reg: 'https://orgeo.ru/event/25288',
+        endReg: '2022-11-23 23:00'
     },
     {
         id: 'SMR_20221218_1',
@@ -3547,7 +4082,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт по спортивному ориентированию',
         place: 'Самара',
         coord: [53.439285, 50.128613],
-        reg: 'https://orgeo.ru/event/25638'
+        reg: 'https://orgeo.ru/event/25638',
+        endReg: '2022-12-16 23:00'
     },
     {
         id: 'SMR_20221225_1',
@@ -3557,7 +4093,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'спринт',
         coord: [53.306637, 50.274864],
-        reg: 'https://orgeo.ru/event/25782'
+        reg: 'https://orgeo.ru/event/25782',
+        endReg: '2022-12-23 23:55'
     },
     {
         id: 'SMR_20221230_1',
@@ -3565,7 +4102,8 @@ let samaraEvents2026 = [
         name: 'на призы Деда Мороза',
         place: 'эллипсы на Трех горках',
         coord: [53.346062, 50.242073],
-        reg: 'https://orgeo.ru/event/25841'
+        reg: 'https://orgeo.ru/event/25841',
+        endReg: '2022-12-30 08:00'
     },
     {
         id: 'SMR_20230106_1',
@@ -3573,7 +4111,8 @@ let samaraEvents2026 = [
         name: 'Рождественская ночь',
         place: 'Автозаводский р-н, Лыжная база',
         coord: [49.300297, 53.498981],
-        reg: 'https://orgeo.ru/event/25936'
+        reg: 'https://orgeo.ru/event/25936',
+        endReg: '2023-01-03 21:00'
     },
     {
         id: 'SMR_20230115_1',
@@ -3581,7 +4120,8 @@ let samaraEvents2026 = [
         name: 'Кубок Сокола',
         place: 'Три горки, у столба',
         coord: [53.346123, 50.239986],
-        reg: 'https://orgeo.ru/event/26081'
+        reg: 'https://orgeo.ru/event/26081',
+        endReg: '2023-01-13 20:00'
     },
     {
         id: 'SMR_20230122_1',
@@ -3591,7 +4131,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'классика',
         coord: [53.306637, 50.274864],
-        reg: 'https://orgeo.ru/event/26222'
+        reg: 'https://orgeo.ru/event/26222',
+        endReg: '2023-01-20 23:55'
     },
     {
         id: 'SMR_20230205_1',
@@ -3599,7 +4140,8 @@ let samaraEvents2026 = [
         name: 'Кубок маркировки 2 этап',
         place: 'Самара',
         coord: [53.30851, 50.270992],
-        reg: 'https://orgeo.ru/event/26536'
+        reg: 'https://orgeo.ru/event/26536',
+        endReg: '2023-02-03 23:55'
     },
     {
         id: 'SMR_20230211_1',
@@ -3609,7 +4151,8 @@ let samaraEvents2026 = [
         place: 'Л/база "САКСОР"',
         fmt: 'выбор, классика, эстафета',
         coord: [53.347836, 50.231838],
-        reg: 'https://orgeo.ru/event/26917'
+        reg: 'https://orgeo.ru/event/26917',
+        endReg: '2023-02-16 00:00'
     },
     {
         id: 'SMR_20230218_1',
@@ -3625,7 +4168,15 @@ let samaraEvents2026 = [
         name: 'Кубок Сокола, финал',
         place: 'Три горки, у столба',
         coord: [53.346123, 50.239986],
-        reg: 'https://orgeo.ru/event/26692'
+        reg: 'https://orgeo.ru/event/26692',
+        endReg: '2023-02-17 23:55',
+        o_gps: {
+            '1': 15073,
+            'М14': 15074,
+            'Ж14': 15075,
+            'М17-1': 15076,
+            'М17-2': 15077
+        }
     },
     {
         id: 'SMR_20230226_1',
@@ -3635,7 +4186,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'лыжная гонка',
         coord: [53.488258, 49.847916],
-        reg: 'https://orgeo.ru/event/19554'
+        reg: 'https://orgeo.ru/event/19554',
+        endReg: '2023-02-06 21:40'
     },
     {
         id: 'SMR_20230226_2',
@@ -3645,7 +4197,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         coord: [53.48798, 49.848183],
-        reg: 'https://orgeo.ru/event/26461'
+        reg: 'https://orgeo.ru/event/26461',
+        endReg: '2023-02-24 17:00'
     },
     {
         id: 'SMR_20230305_1',
@@ -3653,7 +4206,8 @@ let samaraEvents2026 = [
         name: 'Памяти Никиты Лукъянчикова',
         place: 'Три горки, у столба',
         coord: [53.346123, 50.239986],
-        reg: 'https://orgeo.ru/event/27163'
+        reg: 'https://orgeo.ru/event/27163',
+        endReg: '2023-03-03 23:55'
     },
     {
         id: 'SMR_20230409_1',
@@ -3661,7 +4215,8 @@ let samaraEvents2026 = [
         name: 'Октрытие сезона 2023',
         place: 'АТП-3, Поволжское ш, ост. Озерки',
         coord: [53.49564, 49.507717],
-        reg: 'https://orgeo.ru/event/27746'
+        reg: 'https://orgeo.ru/event/27746',
+        endReg: '2023-04-07 23:55'
     },
     {
         id: 'SMR_20230415_1',
@@ -3677,7 +4232,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию (дисциплина "Кросс-спринт" - 1 этап',
         place: 'Автоз. р-н, парк Победы, Приморский б-р',
         coord: [53.50753, 49.2743],
-        reg: 'https://orgeo.ru/event/27999'
+        reg: 'https://orgeo.ru/event/27999',
+        endReg: '2023-04-12 21:00'
     },
     {
         id: 'SMR_20230416_1',
@@ -3686,7 +4242,8 @@ let samaraEvents2026 = [
         place: 'Курумоч верх',
         fmt: 'спринт',
         coord: [53.448746, 50.097927],
-        reg: 'https://orgeo.ru/event/27931'
+        reg: 'https://orgeo.ru/event/27931',
+        endReg: '2023-04-14 23:55'
     },
     {
         id: 'SMR_20230426_1',
@@ -3695,7 +4252,8 @@ let samaraEvents2026 = [
         place: 'Кросс-спринт',
         fmt: 'спринт',
         coord: [53.306461, 50.274578],
-        reg: 'https://orgeo.ru/event/28296'
+        reg: 'https://orgeo.ru/event/28296',
+        endReg: '2023-04-26 09:00'
     },
     {
         id: 'SMR_20230428_1',
@@ -3704,7 +4262,8 @@ let samaraEvents2026 = [
         place: 'Кросс-спринт',
         fmt: 'спринт',
         coord: [53.489002, 49.850689],
-        reg: 'https://orgeo.ru/event/28297'
+        reg: 'https://orgeo.ru/event/28297',
+        endReg: '2023-04-28 08:00'
     },
     {
         id: 'SMR_20230429_1',
@@ -3712,7 +4271,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные старты',
         place: 'Лесопарк им 60-летия Советской Власти',
         coord: [53.253975, 50.258152],
-        reg: 'https://orgeo.ru/event/28358'
+        reg: 'https://orgeo.ru/event/28358',
+        endReg: '2023-04-28 15:00'
     },
     {
         id: 'SMR_20230430_1',
@@ -3720,7 +4280,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти 1й этап "Кросс-классика"',
         place: 'Ягодинский бор, дорога на "Алые паруса"',
         coord: [53.572224, 49.04253],
-        reg: 'https://orgeo.ru/event/28274'
+        reg: 'https://orgeo.ru/event/28274',
+        endReg: '2023-04-28 23:55'
     },
     {
         id: 'SMR_20230507_1',
@@ -3730,7 +4291,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'выбор, классика',
         coord: [53.483486, 49.949963],
-        reg: 'https://orgeo.ru/event/28306'
+        reg: 'https://orgeo.ru/event/28306',
+        endReg: '2023-05-05 23:00'
     },
     {
         id: 'SMR_20230509_1',
@@ -3738,7 +4300,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию (Дисциплина "Кросс-спринт") - 2 этап',
         place: 'Музей истории техники',
         coord: [53.553555, 49.243401],
-        reg: 'https://orgeo.ru/event/28554'
+        reg: 'https://orgeo.ru/event/28554',
+        endReg: '2023-05-07 21:00'
     },
     {
         id: 'SMR_20230514_1',
@@ -3746,7 +4309,8 @@ let samaraEvents2026 = [
         name: 'Кубок памяти Андрея Рожнова по спортивному ориентированию',
         place: 'Курумоч низ',
         coord: [53.45211, 50.083786],
-        reg: 'https://orgeo.ru/event/28317'
+        reg: 'https://orgeo.ru/event/28317',
+        endReg: '2023-05-11 22:00'
     },
     {
         id: 'SMR_20230515_1',
@@ -3755,7 +4319,8 @@ let samaraEvents2026 = [
         name: 'Практикум по спортивному ориентированию для взрослых',
         place: 'Лесопарк 60летия Советской власти',
         coord: [53.255497, 50.249306],
-        reg: 'https://orgeo.ru/event/28369'
+        reg: 'https://orgeo.ru/event/28369',
+        endReg: '2023-05-12 22:00'
     },
     {
         id: 'SMR_20230521_1',
@@ -3764,7 +4329,16 @@ let samaraEvents2026 = [
         place: 'кемпинг "Русская охота"',
         fmt: 'классика',
         coord: [53.504578, 50.069454],
-        reg: 'https://orgeo.ru/event/28720'
+        reg: 'https://orgeo.ru/event/28720',
+        endReg: '2023-05-18 23:00',
+        o_gps: {
+            'М16': 16182,
+            'Ж14': 16183,
+            'М14': 16192,
+            'М21': 16194,
+            'М12': 16198,
+            '1': 16199
+        }
     },
     {
         id: 'SMR_20230525_1',
@@ -3772,7 +4346,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный четверг',
         place: 'Парк Металлург',
         coord: [53.233997, 50.268452],
-        reg: 'https://orgeo.ru/event/28978'
+        reg: 'https://orgeo.ru/event/28978',
+        endReg: '2023-05-24 15:00'
     },
     {
         id: 'SMR_20230527_1',
@@ -3780,7 +4355,8 @@ let samaraEvents2026 = [
         name: 'Соревнования по спортивному ориентированию бегом',
         place: 'Ст. Бинарадка',
         coord: [53.562862, 49.961025],
-        reg: 'https://orgeo.ru/event/28934'
+        reg: 'https://orgeo.ru/event/28934',
+        endReg: '2023-05-26 09:00'
     },
     {
         id: 'SMR_20230527_2',
@@ -3788,7 +4364,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию (дисциплина "Кросс-спринт) - 3 этап',
         place: 'Памятник Татищеву',
         coord: [53.476616, 49.347771],
-        reg: 'https://orgeo.ru/event/28919'
+        reg: 'https://orgeo.ru/event/28919',
+        endReg: '2023-05-24 21:00'
     },
     {
         id: 'SMR_20230603_1',
@@ -3796,7 +4373,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный четверг',
         place: 'Платная парковка парка Гагарина',
         coord: [53.226135, 50.199402],
-        reg: 'https://orgeo.ru/event/29059'
+        reg: 'https://orgeo.ru/event/29059',
+        endReg: '2023-06-01 20:00'
     },
     {
         id: 'SMR_20230604_1',
@@ -3805,7 +4383,8 @@ let samaraEvents2026 = [
         place: 'Кемпинг, СТД Береза 3',
         fmt: 'классика',
         coord: [53.511467, 50.092712],
-        reg: 'https://orgeo.ru/event/29097'
+        reg: 'https://orgeo.ru/event/29097',
+        endReg: '2023-06-02 19:00'
     },
     {
         id: 'SMR_20230608_1',
@@ -3813,7 +4392,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный четверг',
         place: 'Воронежские Озера',
         coord: [53.242485, 50.224575],
-        reg: 'https://orgeo.ru/event/29206'
+        reg: 'https://orgeo.ru/event/29206',
+        endReg: '2023-06-07 20:00'
     },
     {
         id: 'SMR_20230610_1',
@@ -3822,7 +4402,8 @@ let samaraEvents2026 = [
         name: '2й этап Кубка Тольятти и Чемпионат и Первенство Самарской области',
         place: 'с.п. Пискалы, Узюковски бор',
         coord: [53.630741, 49.792343],
-        reg: 'https://orgeo.ru/event/29118'
+        reg: 'https://orgeo.ru/event/29118',
+        endReg: '2023-06-09 11:00'
     },
     {
         id: 'SMR_20230615_1',
@@ -3830,7 +4411,8 @@ let samaraEvents2026 = [
         name: 'Контрольная тренировка',
         place: 'Самара',
         coord: [53.478985, 49.826393],
-        reg: 'https://orgeo.ru/event/29215'
+        reg: 'https://orgeo.ru/event/29215',
+        endReg: '2023-06-14 13:00'
     },
     {
         id: 'SMR_20230617_1',
@@ -3840,7 +4422,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'классика, многодневный',
         coord: [53.466492, 49.808025],
-        reg: 'https://orgeo.ru/event/29262'
+        reg: 'https://orgeo.ru/event/29262',
+        endReg: '2023-06-16 12:00'
     },
     {
         id: 'SMR_20230624_1',
@@ -3850,7 +4433,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'классика, многодневный',
         coord: [53.486111, 49.794552],
-        reg: 'https://orgeo.ru/event/29338'
+        reg: 'https://orgeo.ru/event/29338',
+        endReg: '2023-06-22 19:00'
     },
     {
         id: 'SMR_20230705_1',
@@ -3859,7 +4443,8 @@ let samaraEvents2026 = [
         place: 'Циолковский',
         fmt: 'спринт',
         coord: [53.542313, 50.304283],
-        reg: 'https://orgeo.ru/event/29496'
+        reg: 'https://orgeo.ru/event/29496',
+        endReg: '2023-07-03 18:00'
     },
     {
         id: 'SMR_20230713_1',
@@ -3867,7 +4452,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный четверг',
         place: 'дубки. поляна рядом с лагерем рассвет',
         coord: [53.278198, 50.216583],
-        reg: 'https://orgeo.ru/event/29567'
+        reg: 'https://orgeo.ru/event/29567',
+        endReg: '2023-07-12 20:00'
     },
     {
         id: 'SMR_20230729_1',
@@ -3875,7 +4461,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные старты',
         place: 'Царев Курган',
         coord: [53.422588, 50.11874],
-        reg: 'https://orgeo.ru/event/29695'
+        reg: 'https://orgeo.ru/event/29695',
+        endReg: '2023-07-28 10:00'
     },
     {
         id: 'SMR_20230817_1',
@@ -3886,6 +4473,7 @@ let samaraEvents2026 = [
         fmt: 'спринт, классика, многодневный',
         coord: [53.476288, 49.792648],
         reg: 'https://orgeo.ru/event/27961',
+        endReg: '2023-08-14 11:00',
         bulletin: 'https://orgeo.ru/files/event/file/27961_d38ee14068.pdf'
     },
     {
@@ -3894,7 +4482,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство Самарской обл. 2-х этапная эстафета',
         place: '3 Озера, центр',
         coord: [53.503101, 49.508339],
-        reg: 'https://orgeo.ru/event/29969'
+        reg: 'https://orgeo.ru/event/29969',
+        endReg: '2023-08-24 22:55'
     },
     {
         id: 'SMR_20230903_1',
@@ -3903,7 +4492,8 @@ let samaraEvents2026 = [
         place: 'КУПРИНКА',
         fmt: 'классика',
         coord: [53.469711, 49.767296],
-        reg: 'https://orgeo.ru/event/30117'
+        reg: 'https://orgeo.ru/event/30117',
+        endReg: '2023-08-31 23:55'
     },
     {
         id: 'SMR_20230907_1',
@@ -3911,7 +4501,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный четверг',
         place: 'Дружба тренировочный четверг',
         coord: [53.203163, 50.218735],
-        reg: 'https://orgeo.ru/event/30158'
+        reg: 'https://orgeo.ru/event/30158',
+        endReg: '2023-09-07 10:00'
     },
     {
         id: 'SMR_20230908_1',
@@ -3919,7 +4510,8 @@ let samaraEvents2026 = [
         name: 'Турслёт 2023',
         place: 'Турслёт',
         coord: [53.46595, 49.808811],
-        reg: 'https://orgeo.ru/event/30360'
+        reg: 'https://orgeo.ru/event/30360',
+        endReg: '2023-09-07 00:00'
     },
     {
         id: 'SMR_20230909_1',
@@ -3930,7 +4522,12 @@ let samaraEvents2026 = [
         fmt: 'классика 25/40 мин, классика 40/60 мин',
         coord: [53.562862, 49.961025],
         reg: 'https://orgeo.ru/event/29395',
-        bulletin: 'https://orgeo.ru/files/event/file/29395_54a9dbd909.pdf'
+        endReg: '2023-09-06 23:55',
+        bulletin: 'https://orgeo.ru/files/event/file/29395_54a9dbd909.pdf',
+        o_gps: {
+            '09': 17176,
+            '10': 17190
+        }
     },
     {
         id: 'SMR_20230916_1',
@@ -3939,7 +4536,9 @@ let samaraEvents2026 = [
         name: '3й этап Кубка/Чемпионат и Первенство г.о. Тольятти',
         place: 'трасса М5 Урал (991й км)',
         coord: [53.515865, 49.748032],
-        reg: 'https://orgeo.ru/event/28999'
+        reg: 'https://orgeo.ru/event/28999',
+        endReg: '2023-09-15 11:55',
+        o_gps: 17254
     },
     {
         id: 'SMR_20230924_1',
@@ -3947,7 +4546,9 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'СДТ САТУРН',
         coord: [53.305656, 50.208923],
-        reg: 'https://orgeo.ru/event/30555'
+        reg: 'https://orgeo.ru/event/30555',
+        endReg: '2023-09-22 19:00',
+        o_gps: 17361
     },
     {
         id: 'SMR_20231001_1',
@@ -3956,7 +4557,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'лонг',
         coord: [53.489487, 49.852734],
-        reg: 'https://orgeo.ru/event/30772'
+        reg: 'https://orgeo.ru/event/30772',
+        endReg: '2023-09-29 16:00'
     },
     {
         id: 'SMR_20231015_1',
@@ -3964,7 +4566,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2023 (1 этап)',
         place: 'Парк Металлург',
         coord: [53.233997, 50.268452],
-        reg: 'https://orgeo.ru/event/31162'
+        reg: 'https://orgeo.ru/event/31162',
+        endReg: '2023-10-12 23:55'
     },
     {
         id: 'SMR_20231015_2',
@@ -3972,7 +4575,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти 4й этап "Кросс-лонг" ("Марафон Тольятти")',
         place: 'с. Пискалы, Узюковский бор',
         coord: [53.631454, 49.7995],
-        reg: 'https://orgeo.ru/event/31010'
+        reg: 'https://orgeo.ru/event/31010',
+        endReg: '2023-10-14 12:30'
     },
     {
         id: 'SMR_20231020_1',
@@ -3989,7 +4593,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2023 (2 этап)',
         place: 'Парк Дружбы',
         coord: [53.203102, 50.218712],
-        reg: 'https://orgeo.ru/event/31309'
+        reg: 'https://orgeo.ru/event/31309',
+        endReg: '2023-10-19 23:55'
     },
     {
         id: 'SMR_20231028_1',
@@ -3997,7 +4602,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство г.о.Тольятти ("кросс-классика")',
         place: 'с. Зеленовка, юго-восток 600м',
         coord: [53.497936, 49.626163],
-        reg: 'https://orgeo.ru/event/31341'
+        reg: 'https://orgeo.ru/event/31341',
+        endReg: '2023-10-27 15:20'
     },
     {
         id: 'SMR_20231029_1',
@@ -4005,7 +4611,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2023 (3 этап)',
         place: 'Парк Гагарина (Стадион)',
         coord: [53.226692, 50.198147],
-        reg: 'https://orgeo.ru/event/31404'
+        reg: 'https://orgeo.ru/event/31404',
+        endReg: '2023-10-26 23:55'
     },
     {
         id: 'SMR_20231104_1',
@@ -4014,7 +4621,8 @@ let samaraEvents2026 = [
         name: 'Выбор Осени - 2023',
         place: 'Лесопарк им. 60-летия Советской власти',
         coord: [53.253563, 50.258324],
-        reg: 'https://orgeo.ru/event/31352'
+        reg: 'https://orgeo.ru/event/31352',
+        endReg: '2023-11-01 23:55'
     },
     {
         id: 'SMR_20231105_1',
@@ -4022,7 +4630,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2023 (4 этап)',
         place: 'Воронежские Озера',
         coord: [53.242485, 50.224575],
-        reg: 'https://orgeo.ru/event/31495'
+        reg: 'https://orgeo.ru/event/31495',
+        endReg: '2023-11-03 13:55'
     },
     {
         id: 'SMR_20231105_2',
@@ -4030,7 +4639,13 @@ let samaraEvents2026 = [
         name: 'Старт "Памяти друзей"',
         place: 'Жиг-Море, "Ловчий+"',
         coord: [53.479565, 49.547604],
-        reg: 'https://orgeo.ru/event/31437'
+        reg: 'https://orgeo.ru/event/31437',
+        endReg: '2023-11-03 23:55',
+        owner: 'AZIMUT',
+        o_gps: {
+            'Средняя': 17745,
+            '1': 17748
+        }
     },
     {
         id: 'SMR_20231112_1',
@@ -4038,7 +4653,9 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2023 (финал - утеха)',
         place: 'Лесопарк 60-летия Советской Власти',
         coord: [53.254078, 50.253689],
-        reg: 'https://orgeo.ru/event/31628'
+        reg: 'https://orgeo.ru/event/31628',
+        endReg: '2023-11-10 23:55',
+        o_gps: 17777
     },
     {
         id: 'SMR_20231118_1',
@@ -4046,7 +4663,8 @@ let samaraEvents2026 = [
         name: 'Кубок парков-2023 г.о.Тольятти (дисциплина "Кросс-спринт") - 9 этап',
         place: 'Автозаводский р-н, парк Победы(Юбилейн)',
         coord: [53.507938, 49.274986],
-        reg: 'https://orgeo.ru/event/31666'
+        reg: 'https://orgeo.ru/event/31666',
+        endReg: '2023-11-15 22:00'
     },
     {
         id: 'SMR_20231126_1',
@@ -4054,7 +4672,8 @@ let samaraEvents2026 = [
         name: 'Мемориал "Навалихиных"',
         place: 'Лыжная база (Автозаводский район)',
         coord: [53.499386, 49.30077],
-        reg: 'https://orgeo.ru/event/31842'
+        reg: 'https://orgeo.ru/event/31842',
+        endReg: '2023-11-25 11:00'
     },
     {
         id: 'SMR_20231224_1',
@@ -4064,7 +4683,9 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'спринт',
         coord: [53.306637, 50.274864],
-        reg: 'https://orgeo.ru/event/32341'
+        reg: 'https://orgeo.ru/event/32341',
+        endReg: '2023-12-21 23:55',
+        o_gps: 17969
     },
     {
         id: 'SMR_20231230_1',
@@ -4072,7 +4693,8 @@ let samaraEvents2026 = [
         name: 'Приз Деда Мороза',
         place: 'Три горки, дел столб',
         coord: [53.346233, 50.241837],
-        reg: 'https://orgeo.ru/event/32461'
+        reg: 'https://orgeo.ru/event/32461',
+        endReg: '2023-12-28 22:55'
     },
     {
         id: 'SMR_20240106_1',
@@ -4081,7 +4703,13 @@ let samaraEvents2026 = [
         name: 'Кубок Сокола',
         place: 'Три горки, у столба',
         coord: [53.346123, 50.239986],
-        reg: 'https://orgeo.ru/event/32620'
+        reg: 'https://orgeo.ru/event/32620',
+        endReg: '2024-01-05 10:55',
+        o_gps: {
+            '07-1': 18114,
+            '07-2': 18140,
+            '07-3': 18141
+        }
     },
     {
         id: 'SMR_20240121_1',
@@ -4091,7 +4719,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'классика',
         coord: [53.306808, 50.26656],
-        reg: 'https://orgeo.ru/event/32879'
+        reg: 'https://orgeo.ru/event/32879',
+        endReg: '2024-01-19 23:00'
     },
     {
         id: 'SMR_20240204_1',
@@ -4099,7 +4728,8 @@ let samaraEvents2026 = [
         name: 'Кубок маркировки - 1 этап',
         place: 'За пансионатом престарелых',
         coord: [53.306557, 50.274712],
-        reg: 'https://orgeo.ru/event/33190'
+        reg: 'https://orgeo.ru/event/33190',
+        endReg: '2024-02-01 23:55'
     },
     {
         id: 'SMR_20240211_1',
@@ -4107,7 +4737,8 @@ let samaraEvents2026 = [
         name: 'Кубок маркировки - 2 этап',
         place: 'Горелый хутор',
         coord: [53.332958, 50.256145],
-        reg: 'https://orgeo.ru/event/33400'
+        reg: 'https://orgeo.ru/event/33400',
+        endReg: '2024-02-09 15:00'
     },
     {
         id: 'SMR_20240222_1',
@@ -4115,7 +4746,8 @@ let samaraEvents2026 = [
         name: 'Спортивное ориентирование в рамках Военно-спортивной игры "Зарница"',
         place: 'Школа №165',
         coord: [53.485821, 49.85239],
-        reg: 'https://orgeo.ru/event/33769'
+        reg: 'https://orgeo.ru/event/33769',
+        endReg: '2024-02-19 18:00'
     },
     {
         id: 'SMR_20240224_1',
@@ -4123,7 +4755,8 @@ let samaraEvents2026 = [
         name: 'День защитника Отечества',
         place: 'Автозаводский р-н, Лыжная база',
         coord: [49.300297, 53.498981],
-        reg: 'https://orgeo.ru/event/32382'
+        reg: 'https://orgeo.ru/event/32382',
+        endReg: '2024-02-21 22:00'
     },
     {
         id: 'SMR_20240225_1',
@@ -4134,7 +4767,9 @@ let samaraEvents2026 = [
         fmt: 'маркированная трасса',
         coord: [53.483643, 49.847885],
         reg: 'https://orgeo.ru/event/33603',
-        bulletin: 'https://orgeo.ru/files/event/file/33603_3d2f0336c5.pdf'
+        endReg: '2024-02-23 17:00',
+        bulletin: 'https://orgeo.ru/files/event/file/33603_3d2f0336c5.pdf',
+        o_gps: 18415
     },
     {
         id: 'SMR_20240303_1',
@@ -4142,7 +4777,9 @@ let samaraEvents2026 = [
         name: 'Памяти Никиты Лукъяничикова - 2024',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/33915'
+        reg: 'https://orgeo.ru/event/33915',
+        endReg: '2024-03-01 17:00',
+        o_gps: 18506
     },
     {
         id: 'SMR_20240412_1',
@@ -4150,7 +4787,8 @@ let samaraEvents2026 = [
         name: 'Открытая тренировка по спортивному ориентированию',
         place: 'ПКиО Комсомольского р-на',
         coord: [53.480713, 49.465187],
-        reg: 'https://orgeo.ru/event/34626'
+        reg: 'https://orgeo.ru/event/34626',
+        endReg: '2024-04-11 21:00'
     },
     {
         id: 'SMR_20240413_1',
@@ -4158,7 +4796,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию - дисциплина «Кросс-спринт» ("Кубок парков-2024")',
         place: 'Автозаводский р-н, парк Победы(Юбилейн)',
         coord: [53.507938, 49.274986],
-        reg: 'https://orgeo.ru/event/34819'
+        reg: 'https://orgeo.ru/event/34819',
+        endReg: '2024-04-10 20:00'
     },
     {
         id: 'SMR_20240414_1',
@@ -4166,7 +4805,8 @@ let samaraEvents2026 = [
         name: 'Октрытие сезона 2024',
         place: 'АТП-3 (центр), Комсомольский р-н',
         coord: [53.494316, 49.513897],
-        reg: 'https://orgeo.ru/event/34742'
+        reg: 'https://orgeo.ru/event/34742',
+        endReg: '2024-04-12 23:55'
     },
     {
         id: 'SMR_20240419_1',
@@ -4174,7 +4814,8 @@ let samaraEvents2026 = [
         name: 'Открытый смотр-конкурс г.о. Тольятти "Туристская мозаика". 4 этап "В мире ориентиров"',
         place: 'Парк Комсомольского района',
         coord: [53.481869, 49.465881],
-        reg: 'https://orgeo.ru/event/35102'
+        reg: 'https://orgeo.ru/event/35102',
+        endReg: '2024-04-18 22:00'
     },
     {
         id: 'SMR_20240421_1',
@@ -4183,7 +4824,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'спринт',
         coord: [53.473118, 50.065834],
-        reg: 'https://orgeo.ru/event/35004'
+        reg: 'https://orgeo.ru/event/35004',
+        endReg: '2024-04-19 17:00'
     },
     {
         id: 'SMR_20240427_1',
@@ -4192,7 +4834,8 @@ let samaraEvents2026 = [
         place: 'Частная школа «Интеллект-плюс',
         fmt: 'выбор',
         coord: [53.255219, 50.215042],
-        reg: 'https://orgeo.ru/event/35325'
+        reg: 'https://orgeo.ru/event/35325',
+        endReg: '2024-04-26 00:00'
     },
     {
         id: 'SMR_20240501_1',
@@ -4200,7 +4843,8 @@ let samaraEvents2026 = [
         name: 'Спортивное ориентирование',
         place: 'б/о "Стрежень"',
         coord: [53.464565, 49.811592],
-        reg: 'https://orgeo.ru/event/35397'
+        reg: 'https://orgeo.ru/event/35397',
+        endReg: '2024-05-01 01:00'
     },
     {
         id: 'SMR_20240505_1',
@@ -4208,7 +4852,9 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство го Тольятти 2024',
         place: 'Ягодинский б., дорога на "Алые паруса" 3',
         coord: [53.574284, 49.050194],
-        reg: 'https://orgeo.ru/event/35277'
+        reg: 'https://orgeo.ru/event/35277',
+        endReg: '2024-05-04 09:00',
+        o_gps: 19295
     },
     {
         id: 'SMR_20240506_1',
@@ -4217,7 +4863,8 @@ let samaraEvents2026 = [
         place: 'Стадион школы №146',
         fmt: 'спринт',
         coord: [53.48811, 49.84919],
-        reg: 'https://orgeo.ru/event/35457'
+        reg: 'https://orgeo.ru/event/35457',
+        endReg: '2024-05-03 15:00'
     },
     {
         id: 'SMR_20240507_1',
@@ -4226,7 +4873,8 @@ let samaraEvents2026 = [
         place: 'Школа №164',
         fmt: 'спринт',
         coord: [53.51902, 50.134911],
-        reg: 'https://orgeo.ru/event/35528'
+        reg: 'https://orgeo.ru/event/35528',
+        endReg: '2024-05-06 23:00'
     },
     {
         id: 'SMR_20240509_1',
@@ -4237,6 +4885,7 @@ let samaraEvents2026 = [
         fmt: 'выбор, классика',
         coord: [53.488228, 49.786064],
         reg: 'https://orgeo.ru/event/35364',
+        endReg: '2024-05-07 17:00',
         bulletin: 'https://orgeo.ru/files/event/file/35364_32b30e9db2.pdf'
     },
     {
@@ -4245,7 +4894,8 @@ let samaraEvents2026 = [
         name: 'Кубок парков-2024 - 2 этап',
         place: 'Музей истории техники',
         coord: [53.553555, 49.243401],
-        reg: 'https://orgeo.ru/event/35414'
+        reg: 'https://orgeo.ru/event/35414',
+        endReg: '2024-05-06 21:00'
     },
     {
         id: 'SMR_20240514_1',
@@ -4254,7 +4904,8 @@ let samaraEvents2026 = [
         place: 'школа 33',
         fmt: 'спринт',
         coord: [53.303711, 50.271408],
-        reg: 'https://orgeo.ru/event/35694'
+        reg: 'https://orgeo.ru/event/35694',
+        endReg: '2024-05-13 18:00'
     },
     {
         id: 'SMR_20240516_1',
@@ -4263,7 +4914,8 @@ let samaraEvents2026 = [
         place: 'Школа №139',
         fmt: 'спринт',
         coord: [53.24276, 50.192291],
-        reg: 'https://orgeo.ru/event/35770'
+        reg: 'https://orgeo.ru/event/35770',
+        endReg: '2024-05-15 19:00'
     },
     {
         id: 'SMR_20240518_1',
@@ -4273,7 +4925,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'спринт, классика',
         coord: [53.448906, 50.086605],
-        reg: 'https://orgeo.ru/event/35556'
+        reg: 'https://orgeo.ru/event/35556',
+        endReg: '2024-05-16 19:00'
     },
     {
         id: 'SMR_20240523_1',
@@ -4281,7 +4934,8 @@ let samaraEvents2026 = [
         name: 'Знакомство со спортивным ориентированием',
         place: 'Самара',
         coord: [53.488922, 49.856907],
-        reg: 'https://orgeo.ru/event/35923'
+        reg: 'https://orgeo.ru/event/35923',
+        endReg: '2024-05-22 23:00'
     },
     {
         id: 'SMR_20240525_1',
@@ -4289,7 +4943,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт',
         place: 'ж/д станция им. Валерия Грушина',
         coord: [53.476105, 49.913956],
-        reg: 'https://orgeo.ru/event/35828'
+        reg: 'https://orgeo.ru/event/35828',
+        endReg: '2024-05-24 10:00'
     },
     {
         id: 'SMR_20240526_1',
@@ -4297,7 +4952,8 @@ let samaraEvents2026 = [
         name: '1й этап Кубка го Тольятти 2024',
         place: 'жд станция "Пискалы"',
         coord: [53.482483, 49.737709],
-        reg: 'https://orgeo.ru/event/35775'
+        reg: 'https://orgeo.ru/event/35775',
+        endReg: '2024-05-24 23:55'
     },
     {
         id: 'SMR_20240601_1',
@@ -4306,7 +4962,12 @@ let samaraEvents2026 = [
         place: 'Песчаный Трэйл',
         fmt: 'классика',
         coord: [53.511513, 50.088043],
-        reg: 'https://orgeo.ru/event/35914'
+        reg: 'https://orgeo.ru/event/35914',
+        endReg: '2024-05-30 17:00',
+        o_gps: {
+            'Средняя': 19621,
+            'Короткая': 19622
+        }
     },
     {
         id: 'SMR_20240601_2',
@@ -4314,7 +4975,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию (дисциплина "Кросс-спринт") - 3 этап',
         place: 'Памятник Татищеву',
         coord: [53.476616, 49.347771],
-        reg: 'https://orgeo.ru/event/35876'
+        reg: 'https://orgeo.ru/event/35876',
+        endReg: '2024-05-29 21:00'
     },
     {
         id: 'SMR_20240602_1',
@@ -4322,7 +4984,12 @@ let samaraEvents2026 = [
         name: 'Кубок памяти Андрея Рожнова по спортивному ориентированию',
         place: 'Курумоч низ, Кубок Рожнова',
         coord: [53.461266, 50.073185],
-        reg: 'https://orgeo.ru/event/35969'
+        reg: 'https://orgeo.ru/event/35969',
+        endReg: '2024-05-30 23:00',
+        o_gps: {
+            'Средняя': 19639,
+            '1': 19668
+        }
     },
     {
         id: 'SMR_20240608_1',
@@ -4331,7 +4998,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство Самарской области',
         place: 'Узюковский бор, с. Пискалы, СНТ Природа',
         coord: [53.640984, 49.77486],
-        reg: 'https://orgeo.ru/event/36048'
+        reg: 'https://orgeo.ru/event/36048',
+        endReg: '2024-06-07 10:30'
     },
     {
         id: 'SMR_20240613_1',
@@ -4339,7 +5007,8 @@ let samaraEvents2026 = [
         name: 'Спортивное ориентирование в школе',
         place: 'Школа 85',
         coord: [53.20216, 50.159618],
-        reg: 'https://orgeo.ru/event/36336'
+        reg: 'https://orgeo.ru/event/36336',
+        endReg: '2024-06-10 15:50'
     },
     {
         id: 'SMR_20240615_1',
@@ -4347,7 +5016,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт',
         place: 'Золотой Бор, Жилгородок',
         coord: [53.43861, 50.133953],
-        reg: 'https://orgeo.ru/event/36338'
+        reg: 'https://orgeo.ru/event/36338',
+        endReg: '2024-06-14 11:00'
     },
     {
         id: 'SMR_20240616_1',
@@ -4356,7 +5026,8 @@ let samaraEvents2026 = [
         name: 'Летний УТС 2024 по спортивному ориентированию',
         place: 'б/о "Стрежень"',
         coord: [53.464565, 49.811592],
-        reg: 'https://orgeo.ru/event/36367'
+        reg: 'https://orgeo.ru/event/36367',
+        endReg: '2024-06-19 13:00'
     },
     {
         id: 'SMR_20240622_1',
@@ -4366,7 +5037,8 @@ let samaraEvents2026 = [
         place: 'Стрежень',
         fmt: 'многодневный',
         coord: [53.468227, 49.808411],
-        reg: 'https://orgeo.ru/event/36403'
+        reg: 'https://orgeo.ru/event/36403',
+        endReg: '2024-06-20 18:00'
     },
     {
         id: 'SMR_20240713_1',
@@ -4375,7 +5047,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт',
         place: 'кемпинг "Русская охота"',
         coord: [53.504578, 50.069454],
-        reg: 'https://orgeo.ru/event/36733'
+        reg: 'https://orgeo.ru/event/36733',
+        endReg: '2024-07-12 14:00'
     },
     {
         id: 'SMR_20240724_1',
@@ -4383,7 +5056,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие для самых маленьких',
         place: 'Детский городок, парк 50-летия Октября',
         coord: [53.235954, 50.269825],
-        reg: 'https://orgeo.ru/event/36570'
+        reg: 'https://orgeo.ru/event/36570',
+        endReg: '2024-06-27 15:00'
     },
     {
         id: 'SMR_20240727_1',
@@ -4391,7 +5065,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт',
         place: '15ка тренировочный старт',
         coord: [53.253262, 50.258114],
-        reg: 'https://orgeo.ru/event/36871'
+        reg: 'https://orgeo.ru/event/36871',
+        endReg: '2024-07-26 12:00'
     },
     {
         id: 'SMR_20240803_1',
@@ -4399,7 +5074,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт',
         place: 'Малая царевщина 53.435985, 50.146489',
         coord: [53.435982, 50.146358],
-        reg: 'https://orgeo.ru/event/36978'
+        reg: 'https://orgeo.ru/event/36978',
+        endReg: '2024-08-02 12:00'
     },
     {
         id: 'SMR_20240810_1',
@@ -4407,7 +5083,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт',
         place: 'Царев Курган',
         coord: [53.422588, 50.11874],
-        reg: 'https://orgeo.ru/event/37074'
+        reg: 'https://orgeo.ru/event/37074',
+        endReg: '2024-08-09 12:00'
     },
     {
         id: 'SMR_20240818_1',
@@ -4416,7 +5093,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'эстафета 2х',
         coord: [53.483051, 49.950005],
-        reg: 'https://orgeo.ru/event/37120'
+        reg: 'https://orgeo.ru/event/37120',
+        endReg: '2024-08-16 17:00'
     },
     {
         id: 'SMR_20240820_1',
@@ -4426,6 +5104,7 @@ let samaraEvents2026 = [
         place: 'Фестивальная поляна имени В. Грушина',
         coord: [53.472069, 49.910511],
         reg: 'https://orgeo.ru/event/36291',
+        endReg: '2024-08-19 11:00',
         bulletin: 'https://orgeo.ru/files/event/file/36291_f6cbe4bcb6.pdf'
     },
     {
@@ -4435,7 +5114,8 @@ let samaraEvents2026 = [
         place: 'Фестивальная поляна имени В. Грушина',
         fmt: 'старт эстафеты 3х',
         coord: [53.472069, 49.910511],
-        reg: 'https://orgeo.ru/event/36878'
+        reg: 'https://orgeo.ru/event/36878',
+        endReg: '2024-08-23 23:00'
     },
     {
         id: 'SMR_20240831_1',
@@ -4443,7 +5123,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт',
         place: 'Дубки, лагерь',
         coord: [53.277824, 50.218563],
-        reg: 'https://orgeo.ru/event/37417'
+        reg: 'https://orgeo.ru/event/37417',
+        endReg: '2024-08-30 12:00'
     },
     {
         id: 'SMR_20240901_1',
@@ -4452,7 +5133,8 @@ let samaraEvents2026 = [
         place: 'Прибрежный, "Орленок"',
         fmt: 'классика',
         coord: [53.480099, 49.883087],
-        reg: 'https://orgeo.ru/event/37208'
+        reg: 'https://orgeo.ru/event/37208',
+        endReg: '2024-08-30 17:00'
     },
     {
         id: 'SMR_20240906_1',
@@ -4461,7 +5143,8 @@ let samaraEvents2026 = [
         place: 'Поляна',
         fmt: 'выбор',
         coord: [53.466412, 49.808342],
-        reg: 'https://orgeo.ru/event/37658'
+        reg: 'https://orgeo.ru/event/37658',
+        endReg: '2024-09-05 15:00'
     },
     {
         id: 'SMR_20240907_1',
@@ -4472,6 +5155,7 @@ let samaraEvents2026 = [
         fmt: 'классика 30/50 мин, классика 40/60 мин',
         coord: [53.562862, 49.961025],
         reg: 'https://orgeo.ru/event/36845',
+        endReg: '2024-09-04 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/36845_911fa31761.pdf'
     },
     {
@@ -4480,7 +5164,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт',
         place: 'Мехзавод 12_07_2020',
         coord: [53.306637, 50.274864],
-        reg: 'https://orgeo.ru/event/37759'
+        reg: 'https://orgeo.ru/event/37759',
+        endReg: '2024-09-13 12:00'
     },
     {
         id: 'SMR_20240915_1',
@@ -4488,7 +5173,8 @@ let samaraEvents2026 = [
         name: '3й этап Кубка го Тольятти 2024',
         place: 'с. Зеленовка, широкая просека',
         coord: [53.504608, 49.588985],
-        reg: 'https://orgeo.ru/event/37716'
+        reg: 'https://orgeo.ru/event/37716',
+        endReg: '2024-09-13 22:55'
     },
     {
         id: 'SMR_20240922_1',
@@ -4496,7 +5182,14 @@ let samaraEvents2026 = [
         name: '4й этап Кубка го Тольятти 2024',
         place: 'с. Пискалы, Узюковский бор',
         coord: [53.631454, 49.7995],
-        reg: 'https://orgeo.ru/event/37934'
+        reg: 'https://orgeo.ru/event/37934',
+        endReg: '2024-09-20 22:55',
+        o_gps: {
+            '1': 20583,
+            'М21': 20586,
+            'М18/Ж40': 20587,
+            'М16/Ж18': 20590
+        }
     },
     {
         id: 'SMR_20240928_1',
@@ -4504,7 +5197,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт',
         place: 'Малая царевщина 154км (2)',
         coord: [53.43996, 50.164333],
-        reg: 'https://orgeo.ru/event/38129'
+        reg: 'https://orgeo.ru/event/38129',
+        endReg: '2024-09-27 12:00'
     },
     {
         id: 'SMR_20240928_2',
@@ -4512,7 +5206,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию (Дисциплина "Кросс-спринт") - 5 этап',
         place: 'Автозаводский р-н, парк Победы(Юбилейн)',
         coord: [53.507938, 49.274986],
-        reg: 'https://orgeo.ru/event/38086'
+        reg: 'https://orgeo.ru/event/38086',
+        endReg: '2024-09-25 22:00'
     },
     {
         id: 'SMR_20240929_1',
@@ -4521,7 +5216,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'лонг',
         coord: [53.449207, 50.117298],
-        reg: 'https://orgeo.ru/event/38097'
+        reg: 'https://orgeo.ru/event/38097',
+        endReg: '2024-09-27 17:00'
     },
     {
         id: 'SMR_20241005_1',
@@ -4529,7 +5225,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт',
         place: 'Дубки с Можайского',
         coord: [53.283482, 50.205334],
-        reg: 'https://orgeo.ru/event/38283'
+        reg: 'https://orgeo.ru/event/38283',
+        endReg: '2024-10-04 12:00'
     },
     {
         id: 'SMR_20241005_2',
@@ -4537,7 +5234,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию (Дисциплина "Кросс-спринт") - 6 этап',
         place: 'ул.Революционная, сквер Спасо-Пр.собора',
         coord: [53.535561, 49.409569],
-        reg: 'https://orgeo.ru/event/38251'
+        reg: 'https://orgeo.ru/event/38251',
+        endReg: '2024-10-02 22:00'
     },
     {
         id: 'SMR_20241006_1',
@@ -4546,7 +5244,8 @@ let samaraEvents2026 = [
         place: 'БАРСУК',
         fmt: 'лонг',
         coord: [53.315647, 50.212765],
-        reg: 'https://orgeo.ru/event/38263'
+        reg: 'https://orgeo.ru/event/38263',
+        endReg: '2024-10-04 17:00'
     },
     {
         id: 'SMR_20241012_1',
@@ -4554,7 +5253,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт',
         place: '15ка тренировочный старт',
         coord: [53.253262, 50.258114],
-        reg: 'https://orgeo.ru/event/38487'
+        reg: 'https://orgeo.ru/event/38487',
+        endReg: '2024-10-11 12:00'
     },
     {
         id: 'SMR_20241013_1',
@@ -4562,7 +5262,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство г.о. Тольятти 2024',
         place: 'Узюковский бор, широкая просека',
         coord: [53.603622, 49.613991],
-        reg: 'https://orgeo.ru/event/38368'
+        reg: 'https://orgeo.ru/event/38368',
+        endReg: '2024-10-10 12:00'
     },
     {
         id: 'SMR_20241019_1',
@@ -4570,7 +5271,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию - 8 этап (дисциплина "Кросс-спринт")',
         place: 'Автозаводский район, "Фанни Парк"',
         coord: [53.518375, 49.268059],
-        reg: 'https://orgeo.ru/event/38614'
+        reg: 'https://orgeo.ru/event/38614',
+        endReg: '2024-10-16 22:00'
     },
     {
         id: 'SMR_20241020_1',
@@ -4579,6 +5281,7 @@ let samaraEvents2026 = [
         place: 'Парк Металлург',
         coord: [53.233997, 50.268452],
         reg: 'https://orgeo.ru/event/38466',
+        endReg: '2024-10-17 23:55',
         bulletin: 'http://parkcup.ru/news/54-kubok-parkov-2024.html'
     },
     {
@@ -4587,7 +5290,8 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт по спортивному ориентированию',
         place: 'ДК "Пламя"',
         coord: [53.483692, 49.847881],
-        reg: 'https://orgeo.ru/event/38729'
+        reg: 'https://orgeo.ru/event/38729',
+        endReg: '2024-10-25 22:00'
     },
     {
         id: 'SMR_20241026_2',
@@ -4595,7 +5299,8 @@ let samaraEvents2026 = [
         name: 'Кубок го.Тольятти по спортивному ориентированию (дисциплина "Кросс-спринт") - 9 этап',
         place: 'ДДЮТ',
         coord: [53.499058, 49.29314],
-        reg: 'https://orgeo.ru/event/38747'
+        reg: 'https://orgeo.ru/event/38747',
+        endReg: '2024-10-23 23:00'
     },
     {
         id: 'SMR_20241027_1',
@@ -4603,7 +5308,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2024 (2 этап)',
         place: 'Парк Дружбы',
         coord: [53.203102, 50.218712],
-        reg: 'https://orgeo.ru/event/38781'
+        reg: 'https://orgeo.ru/event/38781',
+        endReg: '2024-10-24 23:00'
     },
     {
         id: 'SMR_20241103_1',
@@ -4611,7 +5317,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2024 (3 этап)',
         place: 'Воронежские Озера',
         coord: [53.242485, 50.224575],
-        reg: 'https://orgeo.ru/event/38864'
+        reg: 'https://orgeo.ru/event/38864',
+        endReg: '2024-10-31 23:55'
     },
     {
         id: 'SMR_20241104_1',
@@ -4620,7 +5327,8 @@ let samaraEvents2026 = [
         place: 'Лесопарк 60-летия Советской Власти (МШ)',
         fmt: 'выбор',
         coord: [53.262867, 50.248039],
-        reg: 'https://orgeo.ru/event/38814'
+        reg: 'https://orgeo.ru/event/38814',
+        endReg: '2024-11-02 19:00'
     },
     {
         id: 'SMR_20241110_1',
@@ -4628,7 +5336,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2024 (4 этап)',
         place: 'Парк Гагарина (Стадион)',
         coord: [53.226692, 50.198147],
-        reg: 'https://orgeo.ru/event/38979'
+        reg: 'https://orgeo.ru/event/38979',
+        endReg: '2024-11-07 23:55'
     },
     {
         id: 'SMR_20241117_1',
@@ -4636,7 +5345,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2024 (финал - утеха)',
         place: 'Лесопарк 60-летия Советской Власти',
         coord: [53.254078, 50.253689],
-        reg: 'https://orgeo.ru/event/39150'
+        reg: 'https://orgeo.ru/event/39150',
+        endReg: '2024-11-14 23:55'
     },
     {
         id: 'SMR_20241117_2',
@@ -4644,7 +5354,9 @@ let samaraEvents2026 = [
         name: 'Старт "Памяти друзей"',
         place: 'Зеленовка - ЖигМоре, широкая просека2024',
         coord: [53.50024, 49.579063],
-        reg: 'https://orgeo.ru/event/39167'
+        reg: 'https://orgeo.ru/event/39167',
+        endReg: '2024-11-16 09:00',
+        owner: 'AZIMUT'
     },
     {
         id: 'SMR_20241124_1',
@@ -4652,7 +5364,8 @@ let samaraEvents2026 = [
         name: 'Мемориал "Навалихиных"',
         place: 'Лыжная база (Автозаводский район)',
         coord: [53.499386, 49.30077],
-        reg: 'https://orgeo.ru/event/39301'
+        reg: 'https://orgeo.ru/event/39301',
+        endReg: '2024-11-23 10:00'
     },
     {
         id: 'SMR_20241222_1',
@@ -4662,7 +5375,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'спринт',
         coord: [53.306557, 50.274712],
-        reg: 'https://orgeo.ru/event/39888'
+        reg: 'https://orgeo.ru/event/39888',
+        endReg: '2024-12-20 17:00'
     },
     {
         id: 'SMR_20241230_1',
@@ -4670,7 +5384,8 @@ let samaraEvents2026 = [
         name: 'На призы Деда Мороза',
         place: 'Три горки, у столба',
         coord: [53.346123, 50.239986],
-        reg: 'https://orgeo.ru/event/40098'
+        reg: 'https://orgeo.ru/event/40098',
+        endReg: '2024-12-29 17:55'
     },
     {
         id: 'SMR_20250106_1',
@@ -4678,7 +5393,8 @@ let samaraEvents2026 = [
         name: 'Соревнования по спортивному ориентированию бегом по выбору "Рождественская ночь-2025"',
         place: 'Лыжная база (Автозаводский район)',
         coord: [53.499386, 49.30077],
-        reg: 'https://orgeo.ru/event/40135'
+        reg: 'https://orgeo.ru/event/40135',
+        endReg: '2025-01-03 22:00'
     },
     {
         id: 'SMR_20250111_1',
@@ -4687,7 +5403,8 @@ let samaraEvents2026 = [
         name: 'Кубок "Сокола"-2025',
         place: 'Три горки, у столба',
         coord: [53.346123, 50.239986],
-        reg: 'https://orgeo.ru/event/40292'
+        reg: 'https://orgeo.ru/event/40292',
+        endReg: '2025-01-09 23:55'
     },
     {
         id: 'SMR_20250119_1',
@@ -4697,7 +5414,8 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'классика',
         coord: [53.306557, 50.274712],
-        reg: 'https://orgeo.ru/event/40486'
+        reg: 'https://orgeo.ru/event/40486',
+        endReg: '2025-01-17 23:00'
     },
     {
         id: 'SMR_20250202_1',
@@ -4705,7 +5423,8 @@ let samaraEvents2026 = [
         name: 'Кубок маркировки - 1 этап',
         place: 'ЛЭП Три горки-Горелый хутор',
         coord: [53.345451, 50.244289],
-        reg: 'https://orgeo.ru/event/40874'
+        reg: 'https://orgeo.ru/event/40874',
+        endReg: '2025-01-31 23:55'
     },
     {
         id: 'SMR_20250209_1',
@@ -4713,7 +5432,8 @@ let samaraEvents2026 = [
         name: 'Кубок маркировки - 2025, 2 этап',
         place: 'Мехзавод 12_07_2020',
         coord: [53.306637, 50.274864],
-        reg: 'https://orgeo.ru/event/41068'
+        reg: 'https://orgeo.ru/event/41068',
+        endReg: '2025-02-07 23:55'
     },
     {
         id: 'SMR_20250223_1',
@@ -4723,7 +5443,9 @@ let samaraEvents2026 = [
         type: 'SKI',
         fmt: 'маркированная трасса',
         coord: [53.48798, 49.848183],
-        reg: 'https://orgeo.ru/event/41285'
+        reg: 'https://orgeo.ru/event/41285',
+        endReg: '2025-02-21 23:00',
+        o_gps: 21687
     },
     {
         id: 'SMR_20250308_1',
@@ -4731,7 +5453,8 @@ let samaraEvents2026 = [
         name: 'Памяти Никиты Лукъянчикова',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/41674'
+        reg: 'https://orgeo.ru/event/41674',
+        endReg: '2025-03-06 23:55'
     },
     {
         id: 'SMR_20250412_1',
@@ -4739,7 +5462,8 @@ let samaraEvents2026 = [
         name: 'Кубок парков г.о.Тольятти - «Кросс-спринт» (0830011811Я)',
         place: 'Автозаводский р-н, парк Победы(Юбилейн)',
         coord: [53.507938, 49.274986],
-        reg: 'https://orgeo.ru/event/42243'
+        reg: 'https://orgeo.ru/event/42243',
+        endReg: '2025-04-09 22:00'
     },
     {
         id: 'SMR_20250413_1',
@@ -4747,7 +5471,8 @@ let samaraEvents2026 = [
         name: 'Октрытие сезона 2025',
         place: 'АТП-3, Комсомольский р-н',
         coord: [53.490936, 49.511944],
-        reg: 'https://orgeo.ru/event/42437'
+        reg: 'https://orgeo.ru/event/42437',
+        endReg: '2025-04-11 21:55'
     },
     {
         id: 'SMR_20250418_1',
@@ -4755,7 +5480,8 @@ let samaraEvents2026 = [
         name: 'Открытый смотр-конкурс г.о. Тольятти "Туристская мозаика". 4 этап "В мире ориентиров"',
         place: 'Комсомольский район, Детский парк',
         coord: [53.481529, 49.466305],
-        reg: 'https://orgeo.ru/event/43156'
+        reg: 'https://orgeo.ru/event/43156',
+        endReg: '2025-04-17 21:00'
     },
     {
         id: 'SMR_20250420_1',
@@ -4764,7 +5490,8 @@ let samaraEvents2026 = [
         place: 'Арена соревнований',
         fmt: 'спринт',
         coord: [53.490971, 49.852032],
-        reg: 'https://orgeo.ru/event/43022'
+        reg: 'https://orgeo.ru/event/43022',
+        endReg: '2025-04-17 23:55'
     },
     {
         id: 'SMR_20250504_1',
@@ -4772,7 +5499,9 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство го Тольятти 2025',
         place: 'Ягодинский б., дорога на "Алые паруса" 4',
         coord: [53.572105, 49.051785],
-        reg: 'https://orgeo.ru/event/43252'
+        reg: 'https://orgeo.ru/event/43252',
+        endReg: '2025-05-02 21:00',
+        o_gps: 22459
     },
     {
         id: 'SMR_20250509_1',
@@ -4780,7 +5509,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию "Кубок парков-2025"',
         place: 'Музей истории и техники ВАЗа',
         coord: [53.553249, 49.25045],
-        reg: 'https://orgeo.ru/event/43545'
+        reg: 'https://orgeo.ru/event/43545',
+        endReg: '2025-05-06 22:00'
     },
     {
         id: 'SMR_20250510_1',
@@ -4790,7 +5520,8 @@ let samaraEvents2026 = [
         place: 'пл. им. В. Грушина',
         fmt: 'выбор, классика',
         coord: [53.475964, 49.913628],
-        reg: 'https://orgeo.ru/event/43383'
+        reg: 'https://orgeo.ru/event/43383',
+        endReg: '2025-05-08 23:00'
     },
     {
         id: 'SMR_20250518_1',
@@ -4798,7 +5529,8 @@ let samaraEvents2026 = [
         name: 'Кубок го Тольятти 2025 - 1й этап',
         place: 'пос. Зеленовка, на восток 2,5 км',
         coord: [53.509682, 49.663368],
-        reg: 'https://orgeo.ru/event/43684'
+        reg: 'https://orgeo.ru/event/43684',
+        endReg: '2025-05-17 11:55'
     },
     {
         id: 'SMR_20250524_1',
@@ -4809,6 +5541,7 @@ let samaraEvents2026 = [
         fmt: 'выбор, классика',
         coord: [53.504578, 50.069454],
         reg: 'https://orgeo.ru/event/43895',
+        endReg: '2025-05-21 22:00',
         bulletin: 'https://orgeo.ru/files/event/file/43895_9c030efebb.pdf'
     },
     {
@@ -4817,7 +5550,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию (Дисциплина «Кросс-спринт» (0830011811Я) - 3 этап',
         place: 'Памятник Татищеву',
         coord: [53.476616, 49.347771],
-        reg: 'https://orgeo.ru/event/44106'
+        reg: 'https://orgeo.ru/event/44106',
+        endReg: '2025-05-28 22:00'
     },
     {
         id: 'SMR_20250608_1',
@@ -4825,7 +5559,9 @@ let samaraEvents2026 = [
         name: 'Кубок памяти Андрея Рожнова по спортивному ориентированию',
         place: 'Самара',
         coord: [53.455563, 50.07708],
-        reg: 'https://orgeo.ru/event/43471'
+        reg: 'https://orgeo.ru/event/43471',
+        endReg: '2025-06-06 23:55',
+        o_gps: 22812
     },
     {
         id: 'SMR_20250613_1',
@@ -4834,7 +5570,8 @@ let samaraEvents2026 = [
         name: 'Чемптонат и Первенство Самарской обл (Кубок го Тольятти 2025 - 2й этап)',
         place: '990 км трасса М5-Урал',
         coord: [53.514717, 49.692638],
-        reg: 'https://orgeo.ru/event/44268'
+        reg: 'https://orgeo.ru/event/44268',
+        endReg: '2025-06-11 22:55'
     },
     {
         id: 'SMR_20250621_1',
@@ -4844,7 +5581,8 @@ let samaraEvents2026 = [
         place: 'Тольяттинская поляна Фестивального парка',
         fmt: 'многодневный',
         coord: [53.4715, 49.916462],
-        reg: 'https://orgeo.ru/event/44545'
+        reg: 'https://orgeo.ru/event/44545',
+        endReg: '2025-06-18 23:55'
     },
     {
         id: 'SMR_20250723_1',
@@ -4853,7 +5591,8 @@ let samaraEvents2026 = [
         name: 'Тренировочное мероприятие по спортивному ориентированию',
         place: 'Лесопарк 60-летия Советской Власти',
         coord: [53.254078, 50.253689],
-        reg: 'https://orgeo.ru/event/45160'
+        reg: 'https://orgeo.ru/event/45160',
+        endReg: '2025-07-22 10:00'
     },
     {
         id: 'SMR_20250809_1',
@@ -4864,6 +5603,7 @@ let samaraEvents2026 = [
         fmt: 'классика',
         coord: [53.30621, 50.275089],
         reg: 'https://orgeo.ru/event/45380',
+        endReg: '2025-08-07 23:00',
         bulletin: 'https://orgeo.ru/files/event/file/45380_41d9c1c6e8.pdf'
     },
     {
@@ -4874,6 +5614,7 @@ let samaraEvents2026 = [
         fmt: 'классика',
         coord: [53.491283, 49.85442],
         reg: 'https://orgeo.ru/event/45503',
+        endReg: '2025-08-14 23:00',
         bulletin: 'https://orgeo.ru/files/event/file/45503_c4ccf62be4.pdf'
     },
     {
@@ -4882,7 +5623,8 @@ let samaraEvents2026 = [
         name: 'Кубок го Тольятти 2025 - 3й этап',
         place: 'с. Пискалы, Узюковский бор',
         coord: [53.631454, 49.7995],
-        reg: 'https://orgeo.ru/event/45357'
+        reg: 'https://orgeo.ru/event/45357',
+        endReg: '2025-08-16 20:00'
     },
     {
         id: 'SMR_20250821_1',
@@ -4914,7 +5656,8 @@ let samaraEvents2026 = [
         place: 'Эстафета Стара Бинарадка',
         fmt: 'эстафета 2х',
         coord: [53.561211, 49.951214],
-        reg: 'https://orgeo.ru/event/45603'
+        reg: 'https://orgeo.ru/event/45603',
+        endReg: '2025-08-29 17:00'
     },
     {
         id: 'SMR_20250907_1',
@@ -4923,7 +5666,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'классика',
         coord: [53.485538, 49.789925],
-        reg: 'https://orgeo.ru/event/45897'
+        reg: 'https://orgeo.ru/event/45897',
+        endReg: '2025-09-05 18:30'
     },
     {
         id: 'SMR_20250913_1',
@@ -4933,7 +5677,9 @@ let samaraEvents2026 = [
         place: 'Ст. Бинарадка',
         fmt: 'классика 30/40 мин, классика 40/50 мин',
         coord: [53.58622, 49.940063],
-        reg: 'https://orgeo.ru/event/45423'
+        reg: 'https://orgeo.ru/event/45423',
+        endReg: '2025-09-11 13:00',
+        o_gps: 23390
     },
     {
         id: 'SMR_20250921_1',
@@ -4941,7 +5687,8 @@ let samaraEvents2026 = [
         name: 'Кубок го Тольятти 2025 - 4й этап',
         place: 'Зеленовка - ЖигМоре шир просека -09',
         coord: [53.501007, 49.579086],
-        reg: 'https://orgeo.ru/event/46153'
+        reg: 'https://orgeo.ru/event/46153',
+        endReg: '2025-09-19 22:55'
     },
     {
         id: 'SMR_20250927_1',
@@ -4949,7 +5696,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию «Кросс-спринт» (0830011811Я) - 5 этап',
         place: 'Автозаводский р-н, парк Победы(Юбилейн)',
         coord: [53.507938, 49.274986],
-        reg: 'https://orgeo.ru/event/46582'
+        reg: 'https://orgeo.ru/event/46582',
+        endReg: '2025-09-25 22:00'
     },
     {
         id: 'SMR_20250928_1',
@@ -4957,7 +5705,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'Прибрежный, "Орленок"',
         coord: [53.480099, 49.883087],
-        reg: 'https://orgeo.ru/event/46523'
+        reg: 'https://orgeo.ru/event/46523',
+        endReg: '2025-09-26 17:00'
     },
     {
         id: 'SMR_20251004_1',
@@ -4965,7 +5714,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию «Кросс-спринт» (0830011811Я) - 6 этап',
         place: '6 этап, Ул.Революционная-м.Спортмастер',
         coord: [53.522263, 49.274986],
-        reg: 'https://orgeo.ru/event/46732'
+        reg: 'https://orgeo.ru/event/46732',
+        endReg: '2025-10-02 19:00'
     },
     {
         id: 'SMR_20251005_1',
@@ -4987,6 +5737,7 @@ let samaraEvents2026 = [
         place: 'Барсук',
         coord: [53.307148, 50.209702],
         reg: 'https://orgeo.ru/event/46912',
+        endReg: '2025-10-10 12:00',
         bulletin: 'https://orgeo.ru/files/event/file/46912_739ca4205f.pdf'
     },
     {
@@ -4995,7 +5746,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство го Тольятти',
         place: 'Узюковский бор, широкая просека',
         coord: [53.603622, 49.613991],
-        reg: 'https://orgeo.ru/event/46639'
+        reg: 'https://orgeo.ru/event/46639',
+        endReg: '2025-10-10 22:55'
     },
     {
         id: 'SMR_20251019_1',
@@ -5003,7 +5755,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2025 (1 этап)',
         place: 'Парк Металлург',
         coord: [53.233997, 50.268452],
-        reg: 'https://orgeo.ru/event/47059'
+        reg: 'https://orgeo.ru/event/47059',
+        endReg: '2025-10-16 23:55'
     },
     {
         id: 'SMR_20251020_1',
@@ -5012,7 +5765,8 @@ let samaraEvents2026 = [
         name: 'Тренировочные сборы 21-25.10.2025',
         place: 'Радуга',
         coord: [53.475327, 49.791546],
-        reg: 'https://orgeo.ru/event/47032'
+        reg: 'https://orgeo.ru/event/47032',
+        endReg: '2025-10-12 23:55'
     },
     {
         id: 'SMR_20251025_1',
@@ -5020,7 +5774,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию (Дисциплина "Кросс-спринт") - 9 этап',
         place: 'ДДЮТ',
         coord: [53.499058, 49.29314],
-        reg: 'https://orgeo.ru/event/47276'
+        reg: 'https://orgeo.ru/event/47276',
+        endReg: '2025-10-22 22:00'
     },
     {
         id: 'SMR_20251026_1',
@@ -5028,7 +5783,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2025 (2 этап)',
         place: 'Воронежские Озера',
         coord: [53.242485, 50.224575],
-        reg: 'https://orgeo.ru/event/47314'
+        reg: 'https://orgeo.ru/event/47314',
+        endReg: '2025-10-23 23:55'
     },
     {
         id: 'SMR_20251026_2',
@@ -5036,7 +5792,9 @@ let samaraEvents2026 = [
         name: 'Старт "Памяти друзей"',
         place: 'Жиг-Море, Ловчий+',
         coord: [53.479736, 49.542271],
-        reg: 'https://orgeo.ru/event/47258'
+        reg: 'https://orgeo.ru/event/47258',
+        endReg: '2025-10-24 22:55',
+        owner: 'AZIMUT'
     },
     {
         id: 'SMR_20251102_1',
@@ -5044,7 +5802,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2025 (3 этап)',
         place: 'Парк Победы',
         coord: [53.193295, 50.20219],
-        reg: 'https://orgeo.ru/event/47445'
+        reg: 'https://orgeo.ru/event/47445',
+        endReg: '2025-10-30 23:55'
     },
     {
         id: 'SMR_20251104_1',
@@ -5053,7 +5812,8 @@ let samaraEvents2026 = [
         place: 'Дубки (ЛЭП)',
         fmt: 'выбор',
         coord: [53.285645, 50.224873],
-        reg: 'https://orgeo.ru/event/47372'
+        reg: 'https://orgeo.ru/event/47372',
+        endReg: '2025-11-02 23:50'
     },
     {
         id: 'SMR_20251109_1',
@@ -5061,7 +5821,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2025 (4 этап)',
         place: 'Парк Дружбы',
         coord: [53.203102, 50.218712],
-        reg: 'https://orgeo.ru/event/47638'
+        reg: 'https://orgeo.ru/event/47638',
+        endReg: '2025-11-06 23:55'
     },
     {
         id: 'SMR_20251116_1',
@@ -5069,7 +5830,8 @@ let samaraEvents2026 = [
         name: 'Кубок Парков Самары - 2025 (финал + утеха)',
         place: 'Лесопарк 60-летия Советской Власти',
         coord: [53.254078, 50.253689],
-        reg: 'https://orgeo.ru/event/47789'
+        reg: 'https://orgeo.ru/event/47789',
+        endReg: '2025-11-14 23:55'
     },
     {
         id: 'SMR_20251130_1',
@@ -5077,7 +5839,9 @@ let samaraEvents2026 = [
         name: 'Мемориал "Навалихиных"',
         place: 'Лыжная база (Автозаводский район)',
         coord: [53.499386, 49.30077],
-        reg: 'https://orgeo.ru/event/47945'
+        reg: 'https://orgeo.ru/event/47945',
+        endReg: '2025-11-28 22:55',
+        o_gps: 23925
     },
     {
         id: 'SMR_20251214_1',
@@ -5085,7 +5849,13 @@ let samaraEvents2026 = [
         name: 'Тренировочный старт Динамо 14.12.25',
         place: 'Динамо',
         coord: [53.367474, 50.213398],
-        reg: 'https://orgeo.ru/event/48412'
+        reg: 'https://orgeo.ru/event/48412',
+        endReg: '2025-12-12 23:55',
+        o_gps: {
+            'Длинная': 23963,
+            'Средняя': 23964,
+            'Короткая': 23965
+        }
     },
     {
         id: 'SMR_20251228_1',
@@ -5093,7 +5863,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'Мехзавод, пансионат',
         coord: [53.306572, 50.27475],
-        reg: 'https://orgeo.ru/event/48780'
+        reg: 'https://orgeo.ru/event/48780',
+        endReg: '2025-12-26 23:55'
     },
     {
         id: 'SMR_20251230_1',
@@ -5101,7 +5872,8 @@ let samaraEvents2026 = [
         name: 'На призы Деда Мороза',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/48802'
+        reg: 'https://orgeo.ru/event/48802',
+        endReg: '2025-12-29 08:00'
     },
     {
         id: 'SMR_20260103_1',
@@ -5109,7 +5881,8 @@ let samaraEvents2026 = [
         name: 'Кубок маркировки, 1 этап',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/48836'
+        reg: 'https://orgeo.ru/event/48836',
+        endReg: '2026-01-01 23:55'
     },
     {
         id: 'SMR_20260104_1',
@@ -5118,7 +5891,9 @@ let samaraEvents2026 = [
         name: 'Кубок "Сокола"',
         place: 'Три горки',
         coord: [53.34586, 50.234463],
-        reg: 'https://orgeo.ru/event/48837'
+        reg: 'https://orgeo.ru/event/48837',
+        endReg: '2026-01-01 23:55',
+        o_gps: 24018
     },
     {
         id: 'SMR_20260118_1',
@@ -5126,7 +5901,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и первенство Самарской области',
         place: 'Мехзавод, пансионат',
         coord: [53.306572, 50.27475],
-        reg: 'https://orgeo.ru/event/49146'
+        reg: 'https://orgeo.ru/event/49146',
+        endReg: '2026-01-16 23:55'
     },
     {
         id: 'SMR_20260118_2',
@@ -5137,7 +5913,9 @@ let samaraEvents2026 = [
         fmt: '2',
         coord: [53.498917, 49.296738],
         reg: 'https://orgeo.ru/event/49147',
-        bulletin: 'https://orgeo.ru/files/event/file/49147_b2059eda07.pdf'
+        endReg: '2026-01-16 23:00',
+        bulletin: 'https://orgeo.ru/files/event/file/49147_b2059eda07.pdf',
+        o_gps: 24013
     },
     {
         id: 'SMR_20260201_1',
@@ -5145,7 +5923,8 @@ let samaraEvents2026 = [
         name: 'Кубок маркировки, 2 этап',
         place: 'Горелый хутор',
         coord: [53.332958, 50.256145],
-        reg: 'https://orgeo.ru/event/49033'
+        reg: 'https://orgeo.ru/event/49033',
+        endReg: '2026-01-30 23:55'
     },
     {
         id: 'SMR_20260208_1',
@@ -5153,6 +5932,7 @@ let samaraEvents2026 = [
         place: 'Загородный парк',
         coord: [53.227402, 50.172916],
         reg: 'https://orgeo.ru/event/49856',
+        endReg: '2026-02-06 23:00',
         name: 'Снежные парки',
         link: 'https://o-63.ru/data/2026/snezhnye-parki/',
         res: 'https://t.me/TrainingoClub',
@@ -5169,6 +5949,7 @@ let samaraEvents2026 = [
         place: '7a микрорайон',
         coord: [53.245911, 50.217983],
         reg: 'https://orgeo.ru/event/50095',
+        endReg: '2026-02-13 23:55',
         name: 'Снежные парки 2 этап',
         link: 'https://o-63.ru/data/2026/snezhnye-parki-2-etap/',
         res: 'https://t.me/TrainingoClub',
@@ -5188,6 +5969,7 @@ let samaraEvents2026 = [
         link: 'https://o-63.ru/data/2026/snezhnye-parki-3-etap/',
         res: 'https://t.me/TrainingoClub',
         reg: 'https://orgeo.ru/event/50351',
+        endReg: '2026-02-20 23:55',
         bulletin: 'https://orgeo.ru/files/event/file/50351_24d2ca074d.pdf',
         map: 'park_gagarina',
         owner: 'TRAINING_O_CLUB'
@@ -5213,7 +5995,8 @@ let samaraEvents2026 = [
         name: 'Памяти Никиты Лукъянчикова',
         place: 'Три горки, у столба',
         coord: [53.346123, 50.239986],
-        reg: 'https://orgeo.ru/event/50471'
+        reg: 'https://orgeo.ru/event/50471',
+        endReg: '2026-02-28 10:00'
     },
     {
         id: 'SMR_20260308_1',
@@ -5239,7 +6022,8 @@ let samaraEvents2026 = [
         name: 'Кубок го Тольятти 2026 - 1й этап',
         place: 'Ягодинский б., дорога на "Алые паруса" 5',
         coord: [53.572411, 49.038864],
-        reg: 'https://orgeo.ru/event/51499'
+        reg: 'https://orgeo.ru/event/51499',
+        endReg: '2026-04-10 22:55'
     },
     {
         id: 'SMR_20260418_1',
@@ -5247,7 +6031,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию "Кросс-спринт"» (0830011811Я) - 1 этап',
         place: 'Автозаводский р-н, парк Победы(Юбилейн)',
         coord: [53.507938, 49.274986],
-        reg: 'https://orgeo.ru/event/51830'
+        reg: 'https://orgeo.ru/event/51830',
+        endReg: '2026-04-15 22:00'
     },
     {
         id: 'SMR_20260419_1',
@@ -5256,7 +6041,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'спринт',
         coord: [53.461861, 50.080116],
-        reg: 'https://orgeo.ru/event/51755'
+        reg: 'https://orgeo.ru/event/51755',
+        endReg: '2026-04-16 23:55'
     },
     {
         id: 'SMR_20260423_1',
@@ -5264,7 +6050,8 @@ let samaraEvents2026 = [
         name: 'Открытый смотр-конкурс г.о. Тольятти "Туристская мозаика". 4 этап "В мире ориентиров"',
         place: 'Комсомольский район, Детский парк',
         coord: [53.481529, 49.466305],
-        reg: 'https://orgeo.ru/event/52192'
+        reg: 'https://orgeo.ru/event/52192',
+        endReg: '2026-04-22 14:00'
     },
     {
         id: 'SMR_20260509_1',
@@ -5272,7 +6059,13 @@ let samaraEvents2026 = [
         name: '"Кубок парков-2026" г.о.Тольятти, дисциплина "Кросс-спринт", 2 этап',
         place: 'Музей истории техники',
         coord: [53.553555, 49.243401],
-        reg: 'https://orgeo.ru/event/52505'
+        reg: 'https://orgeo.ru/event/52505',
+        endReg: '2026-05-07 22:00',
+        o_gps: {
+            'Длинная': 24915,
+            'Средняя': 24916,
+            'Короткая': 24917
+        }
     },
     {
         id: 'SMR_20260510_1',
@@ -5282,7 +6075,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'выбор, классика',
         coord: [53.483486, 49.949963],
-        reg: 'https://orgeo.ru/event/52507'
+        reg: 'https://orgeo.ru/event/52507',
+        endReg: '2026-05-08 23:55'
     },
     {
         id: 'SMR_20260513_1',
@@ -5291,7 +6085,8 @@ let samaraEvents2026 = [
         name: '"Солнечный ориентир - 2026"',
         place: 'МБУ детский сад №116 "Солнечный"',
         coord: [53.522884, 49.291542],
-        reg: 'https://orgeo.ru/event/52819'
+        reg: 'https://orgeo.ru/event/52819',
+        endReg: '2026-05-12 23:00'
     },
     {
         id: 'SMR_20260517_1',
@@ -5299,7 +6094,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство го Тольятти',
         place: 'с. Зеленовка, широкая просека',
         coord: [53.504608, 49.588985],
-        reg: 'https://orgeo.ru/event/52608'
+        reg: 'https://orgeo.ru/event/52608',
+        endReg: '2026-05-15 22:55'
     },
     {
         id: 'SMR_20260523_1',
@@ -5309,7 +6105,9 @@ let samaraEvents2026 = [
         place: 'Ст. Бинарадка',
         fmt: 'спринт, классика',
         coord: [53.562862, 49.961025],
-        reg: 'https://orgeo.ru/event/52895'
+        reg: 'https://orgeo.ru/event/52895',
+        endReg: '2026-05-21 12:00',
+        o_gps: 25151
     },
     {
         id: 'SMR_20260529_1',
@@ -5336,7 +6134,8 @@ let samaraEvents2026 = [
         name: 'Технический сбор КСО "Жигули"',
         place: 'Самара',
         coord: [53.504681, 49.589077],
-        reg: 'https://orgeo.ru/event/53345'
+        reg: 'https://orgeo.ru/event/53345',
+        endReg: '2026-05-29 18:00'
     },
     {
         id: 'SMR_20260605_1',
@@ -5345,7 +6144,8 @@ let samaraEvents2026 = [
         name: 'тренировка азимута',
         place: '135 км',
         coord: [53.476089, 49.91354],
-        reg: 'https://orgeo.ru/event/53490'
+        reg: 'https://orgeo.ru/event/53490',
+        endReg: '2026-06-10 00:00'
     },
     {
         id: 'SMR_20260607_1',
@@ -5353,7 +6153,8 @@ let samaraEvents2026 = [
         name: 'Кубок го Тольятти 2026 - 2й этап',
         place: '3 Озера, центр',
         coord: [53.503101, 49.508339],
-        reg: 'https://orgeo.ru/event/53297'
+        reg: 'https://orgeo.ru/event/53297',
+        endReg: '2026-06-06 12:55'
     },
     {
         id: 'SMR_20260613_1',
@@ -5362,7 +6163,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство Самарской области (кросс-многодневный)',
         place: 'с. Пискалы, Узюковский бор',
         coord: [53.631454, 49.7995],
-        reg: 'https://orgeo.ru/event/53427'
+        reg: 'https://orgeo.ru/event/53427',
+        endReg: '2026-06-11 22:55'
     },
     {
         id: 'SMR_20260621_1',
@@ -5370,7 +6172,8 @@ let samaraEvents2026 = [
         name: 'Кубок памяти Андрея Рожнова по спортивному ориентированию',
         place: 'Самара',
         coord: [53.505928, 50.073593],
-        reg: 'https://orgeo.ru/event/53489'
+        reg: 'https://orgeo.ru/event/53489',
+        endReg: '2026-06-18 23:55'
     },
     {
         id: 'SMR_20260624_1',
@@ -5388,7 +6191,8 @@ let samaraEvents2026 = [
         place: 'Самара',
         fmt: 'классика, многодневный',
         coord: [53.485744, 49.796169],
-        reg: 'https://orgeo.ru/event/53702'
+        reg: 'https://orgeo.ru/event/53702',
+        endReg: '2026-06-25 19:00'
     },
     {
         id: 'SMR_20260718_1',
@@ -5396,7 +6200,8 @@ let samaraEvents2026 = [
         name: 'Соревнования по спортивному ориентированию и туризму',
         place: 'Тольятти',
         coord: [53.517994, 49.687702],
-        reg: 'https://orgeo.ru/event/54144'
+        reg: 'https://orgeo.ru/event/54144',
+        endReg: '2026-07-17 08:00'
     },
     {
         id: 'SMR_20260820_1',
@@ -5405,7 +6210,8 @@ let samaraEvents2026 = [
         place: '3 Озера',
         fmt: 'классика - общий старт',
         coord: [53.502945, 49.513428],
-        reg: 'https://orgeo.ru/event/54673'
+        reg: 'https://orgeo.ru/event/54673',
+        endReg: '2026-08-20 01:00'
     },
     {
         id: 'SMR_20260822_1',
@@ -5413,7 +6219,8 @@ let samaraEvents2026 = [
         name: 'Чемпионат и Первенство го Тольятти 2026',
         place: '989 км трасса М5-Урал',
         coord: [53.512646, 49.715641],
-        reg: 'https://orgeo.ru/event/54531'
+        reg: 'https://orgeo.ru/event/54531',
+        endReg: '2026-08-20 22:55'
     },
     {
         id: 'SMR_20260823_1',
@@ -5422,7 +6229,8 @@ let samaraEvents2026 = [
         place: '151 км, Жилгородок',
         fmt: 'эстафета 2х',
         coord: [53.438683, 50.121212],
-        reg: 'https://orgeo.ru/event/54568'
+        reg: 'https://orgeo.ru/event/54568',
+        endReg: '2026-08-20 23:55'
     },
     {
         id: 'SMR_20260905_1',
@@ -5431,7 +6239,8 @@ let samaraEvents2026 = [
         place: 'Автозаводской р-н, Парк Победы',
         fmt: 'спринт - общий старт',
         coord: [53.510731, 49.418667],
-        reg: 'https://orgeo.ru/event/55072'
+        reg: 'https://orgeo.ru/event/55072',
+        endReg: '2026-09-05 10:00'
     },
     {
         id: 'SMR_20260906_1',
@@ -5440,7 +6249,8 @@ let samaraEvents2026 = [
         place: 'КУПРИНКА',
         fmt: 'классика',
         coord: [53.469711, 49.767296],
-        reg: 'https://orgeo.ru/event/54943'
+        reg: 'https://orgeo.ru/event/54943',
+        endReg: '2026-09-04 23:55'
     },
     {
         id: 'SMR_20260912_1',
@@ -5450,7 +6260,14 @@ let samaraEvents2026 = [
         place: 'Ст. Бинарадка МДМ',
         fmt: 'классика 30/40 мин, классика 40/50 мин',
         coord: [53.584137, 49.92683],
-        reg: 'https://orgeo.ru/event/54718'
+        reg: 'https://orgeo.ru/event/54718',
+        endReg: '2026-09-10 23:00',
+        o_gps: {
+            '12-1': 25932,
+            '12-2': 25963,
+            '13-1': 25933,
+            '13-2': 25964
+        }
     },
     {
         id: 'SMR_20260920_1',
@@ -5458,7 +6275,13 @@ let samaraEvents2026 = [
         name: 'Кубок го Тольятти 2026 - 4й этап ("Марафон-Тольятти")',
         place: 'Узюковский бор, широкая просека',
         coord: [53.603622, 49.613991],
-        reg: 'https://orgeo.ru/event/55247'
+        reg: 'https://orgeo.ru/event/55247',
+        endReg: '2026-09-19 16:00',
+        o_gps: {
+            '1': 25998,
+            '2': 25999,
+            '3': 26010
+        }
     },
     {
         id: 'SMR_20260926_1',
@@ -5466,7 +6289,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию "Кросс-спринт" - 5 этап',
         place: 'Парк Победы',
         coord: [53.513378, 49.27652],
-        reg: 'https://orgeo.ru/event/55525'
+        reg: 'https://orgeo.ru/event/55525',
+        endReg: '2026-09-25 18:00'
     },
     {
         id: 'SMR_20260927_1',
@@ -5475,7 +6299,8 @@ let samaraEvents2026 = [
         place: 'ж/д станция им. Валерия Грушина',
         fmt: 'лонг',
         coord: [53.476105, 49.913956],
-        reg: 'https://orgeo.ru/event/55544'
+        reg: 'https://orgeo.ru/event/55544',
+        endReg: '2026-09-25 23:55'
     },
     {
         id: 'SMR_20261003_1',
@@ -5483,7 +6308,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию "Кросс-спринт" - 6 этап',
         place: 'сквер Спасо‑-Преображенского собора',
         coord: [53.521847, 49.276001],
-        reg: 'https://orgeo.ru/event/55709'
+        reg: 'https://orgeo.ru/event/55709',
+        endReg: '2026-10-02 18:00'
     },
     {
         id: 'SMR_20261004_1',
@@ -5491,7 +6317,9 @@ let samaraEvents2026 = [
         name: 'Старт "Памяти друзей"',
         place: 'ст жд Канал - Жиг-Море',
         coord: [53.477886, 49.629444],
-        reg: 'https://orgeo.ru/event/55683'
+        reg: 'https://orgeo.ru/event/55683',
+        endReg: '2026-10-03 08:00',
+        owner: 'AZIMUT'
     },
     {
         id: 'SMR_20261010_1',
@@ -5499,7 +6327,8 @@ let samaraEvents2026 = [
         name: 'Кубок г.о.Тольятти по спортивному ориентированию "Кросс-спринт" - 7 этап',
         place: 'парк «Центральный',
         coord: [53.511036, 49.418346],
-        reg: 'https://orgeo.ru/event/55905'
+        reg: 'https://orgeo.ru/event/55905',
+        endReg: '2026-10-09 18:00'
     },
     {
         id: 'SMR_20261011_1',
@@ -5508,7 +6337,8 @@ let samaraEvents2026 = [
         place: 'БАРСУК',
         fmt: 'лонг - общий старт',
         coord: [53.315647, 50.212765],
-        reg: 'https://orgeo.ru/event/55955'
+        reg: 'https://orgeo.ru/event/55955',
+        endReg: '2026-10-09 17:00'
     },
     {
         id: 'SMR_20261017_1',
