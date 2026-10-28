@@ -255,7 +255,8 @@ let events2012 = [
         name: 'Весенняя Капель',
         res: 'https://o-site.spb.ru/_races/120317/120317_res.htm',
         o_site: '120317',
-        bulletin: 'https://o-site.spb.ru/_races/120317/120317_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/120317/120317_info.htm',
+        map: 'kolpino_chuhonka_2020'
     },
     {
         id: 'SPB_20120318_1',
@@ -312,7 +313,8 @@ let events2012 = [
         res: 'http://nat-crusta.livejournal.com/112321.html',
         photo: 'http://fotki.yandex.ru/users/skandysnail/album/129089/',
         o_site: '120407_Str',
-        bulletin: 'https://o-site.spb.ru/_races/120407_Str/120407_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/120407_Str/120407_info.htm',
+        map: 'nevsky_2007'
     },
     {
         id: 'SPB_20120408_1',
@@ -391,7 +393,8 @@ let events2012 = [
         name: 'Командная Эстафета, Колпино',
         res: 'https://o-site.spb.ru/_races/120426/120426_res.pdf',
         o_site: '120426',
-        bulletin: 'https://o-site.spb.ru/_races/120426/120426_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/120426/120426_info.htm',
+        map: 'kolpino_nikolsky_skver_2019'
     },
     {
         id: 'SPB_20120426_2',
@@ -429,7 +432,8 @@ let events2012 = [
         res: 'http://www.o-site.spb.ru/_races/2012CupYM/120506_split.htm',
         o_site: '2012CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#105',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'suoranda_2006'
     },
     {
         id: 'SPB_20120507_1',
@@ -456,7 +460,8 @@ let events2012 = [
         name: 'Открытая тренировка в Колпино',
         res: 'https://o-site.spb.ru/_races/120508/120508_res.pdf',
         o_site: '120508',
-        bulletin: 'https://o-site.spb.ru/_races/120508/120508_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/120508/120508_info.pdf',
+        map: 'kolpino_chuhonka_2020'
     },
     {
         id: 'SPB_20120509_1',
@@ -509,7 +514,8 @@ let events2012 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/12051718/120517_res.htm',
         o_site: '12051718',
-        bulletin: 'https://o-site.spb.ru/_races/12051718/12051718_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/12051718/12051718_info2.htm',
+        map: 'solnechnoe_djuny_2007'
     },
     {
         id: 'SPB_20120517_2',
@@ -778,7 +784,8 @@ let events2012 = [
             './original_maps/starts/other/paltsevo_happyhudzh_2012_3_omaps.webp',
             './original_maps/starts/other/paltsevo_happyhudzh_2012_4_omaps.webp'
         ],
-        o_site: '120630'
+        o_site: '120630',
+        map: 'paltsevo_2015'
     },
     {
         id: 'SPB_20120708_1',
@@ -806,7 +813,8 @@ let events2012 = [
         res: 'http://www.o-site.spb.ru/_races/2012CupYM/120715_split.htm',
         o_site: '2012CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#116',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20120721_1',
@@ -875,7 +883,8 @@ let events2012 = [
         photo: 'http://o-site.spb.ru/gallery.php?id=gallery_TOT2012_IS',
         info: 'Старейшая мультиспортивная гонка в России: в 2012-м году исполнится 10 лет со дня первого Три-О-Тлона, состоявшегося в августе 2002-го года. Классическая мультигонка по набору дисциплин: треккинг, велоориентирование, байдарка, верёвочные этапы. Нас поддерживают: Альпина Спортивная Линия Red Fox & Inov8 Яркий Мир SkiTent Спортсистем Альпиндустрия Эксперты Приключений Информационная поддержка: O-site x-race.info adventureraces.ru carabin.ru',
         o_site: 'tri-o-tlon-2012',
-        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#117'
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#117',
+        map: 'vorobjevo_bn_2013'
     },
     {
         id: 'SPB_20120805_1',
@@ -955,7 +964,8 @@ let events2012 = [
         res: 'http://www.o-site.spb.ru/_races/2012CupYM/120901_split.htm',
         o_site: '2012CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#122',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'pastorskoe_mednoe_2009'
     },
     {
         id: 'SPB_20120902_1',
@@ -965,7 +975,8 @@ let events2012 = [
         res: 'http://www.o-site.spb.ru/_races/2012CupYM/120902_split.htm',
         o_site: '2012CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#123',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'pastorskoe_mednoe_2009'
     },
     {
         id: 'SPB_20120905_1',
@@ -1071,7 +1082,8 @@ let events2012 = [
         name: 'Чемпионат и пер-во ЛО по велоориентированию',
         start: 'LO_CHAMP',
         type: 'VELO',
-        o_site: '120916'
+        o_site: '120916',
+        map: 'budogosch_mechta_2005'
     },
     {
         id: 'SPB_20120919_1',
@@ -1211,7 +1223,8 @@ let events2012 = [
             'М': 9,
             'Ж': 10
         },
-        bulletin: 'https://o-site.spb.ru/_races/120930/120930_info3.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/120930/120930_info3.pdf',
+        map: 'yappilya_tarasovskoe_2024'
     },
     {
         id: 'SPB_20121003_1',
@@ -1263,7 +1276,8 @@ let events2012 = [
         video: 'http://youtu.be/o9hg5vGSgjI',
         o_site: '121007',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#131',
-        reskeep: 227
+        reskeep: 227,
+        map: 'ilichevo_gorki_2012'
     },
     {
         id: 'SPB_20121011_1',
@@ -1394,7 +1408,8 @@ let events2012 = [
         res: 'http://www.o-site.spb.ru/_races/2012CupYM/121028_split.htm',
         start: 'YM_CUP',
         o_site: '2012CupYM',
-        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#135'
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#135',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20121028_2',
@@ -1402,7 +1417,8 @@ let events2012 = [
         place: 'Щеглово',
         name: 'Соревнования Памяти Димы Лисового',
         res: 'https://o-site.spb.ru/_races/121028_/121028_OR_res.htm',
-        o_site: '121028_'
+        o_site: '121028_',
+        map: 'scheglovo_1987'
     },
     {
         id: 'SPB_20121030_1',
@@ -1497,7 +1513,8 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/121118_tropa/121118_SPLIT.htm',
         o_site: '121118_tropa',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#137',
-        bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html'
+        bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html',
+        map: 'piskarevsky_2012'
     },
     {
         id: 'SPB_20121124_1',
@@ -1550,7 +1567,8 @@ let events2012 = [
         o_site: '121118_tropa',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#139',
         o_gps: 15,
-        bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html'
+        bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html',
+        map: 'murinsky_sampo_2012'
     },
     {
         id: 'SPB_20121215_1',
@@ -1583,7 +1601,8 @@ let events2012 = [
         name: 'Всеволожская тропа, 2 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/130407/121216_split.htm',
-        o_site: '130407'
+        o_site: '130407',
+        map: 'nevskaya_dubrovka_2003'
     },
     {
         id: 'SPB_20121222_1',

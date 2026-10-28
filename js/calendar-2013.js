@@ -103,7 +103,8 @@ let events2013 = [
         res: 'http://o-site.spb.ru/_races/121118_tropa/130127_split.htm',
         o_site: '121118_tropa',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#141',
-        bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html'
+        bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html',
+        map: 'sosnovka_2011'
     },
     {
         id: 'SPB_20130203_1',
@@ -122,7 +123,8 @@ let events2013 = [
             'https://o-site.spb.ru/_races/130203_Un/130203_Control_E.jpg',
             'https://o-site.spb.ru/_races/130203_Un/130203_Control_C.jpg',
             'https://o-site.spb.ru/_races/130203_Un/130203_Control_D.jpg'
-        ]
+        ],
+        map: 'polyany_2016'
     },
     {
         id: 'SPB_20130203_2',
@@ -133,7 +135,8 @@ let events2013 = [
         res: 'http://o-site.spb.ru/_races/121118_tropa/130203_split.htm',
         o_site: '121118_tropa',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#142',
-        bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html'
+        bulletin: 'https://o-site.spb.ru/_races/121118_tropa/130317_info_3.html',
+        map: 'lesotekchnicheskaya_2001'
     },
     {
         id: 'SPB_20130212_1',
@@ -200,7 +203,8 @@ let events2013 = [
         name: 'Всеволожская тропа, 3 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://www.o-site.spb.ru/_races/130407/130223_split.htm',
-        o_site: '130407'
+        o_site: '130407',
+        map: 'rakhja_south_2007'
     },
     {
         id: 'SPB_20130224_1',
@@ -242,7 +246,8 @@ let events2013 = [
         maps: [
             'https://o-site.spb.ru/_races/130303/130303_dist_ABCD.gif',
             'https://o-site.spb.ru/_races/130303/130303_dist_EG.gif'
-        ]
+        ],
+        map: 'zelenogorsk_chernye_winter'
     },
     {
         id: 'SPB_20130308_1',
@@ -257,7 +262,8 @@ let events2013 = [
         o_site: '130308_ch',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#145',
         o_gps: 39,
-        bulletin: 'https://o-site.spb.ru/_races/130308_ch/13030809_info3.htm'
+        bulletin: 'https://o-site.spb.ru/_races/130308_ch/13030809_info3.htm',
+        map: 'zelenogorsk_chernye_winter'
     },
     {
         id: 'SPB_20130308_2',
@@ -277,10 +283,11 @@ let events2013 = [
         link: 'https://swann74.livejournal.com/61272.html',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130309/130309_split.htm',
-        info: 'Место проведения: п.Ильичево, Болотная станция',
+        info: 'Место проведения: п.Ильичёво, Болотная станция',
         o_site: '130309',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#146',
-        o_gps: 40
+        o_gps: 40,
+        map: 'zelenogorsk_chernye_winter'
     },
     {
         id: 'SPB_20130310_1',
@@ -291,7 +298,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130310/130310_RES.pdf',
         info: 'Мандатная комиссия будет проходить 6 марта в СДЮСШОР №2 по адресу Невский пр.39, ком. 59 с 17 до 19 часов. Электронная заявка на o-reg.spb.ru. Состав команды - 10 человек независимо от пола, зачет по 8 лучшим. Справки по участию и заявке +7921 9182378 (Ирина Ломова).',
         o_site: '130310',
-        bulletin: 'https://o-site.spb.ru/_races/130310/130310_info1.htm'
+        bulletin: 'https://o-site.spb.ru/_races/130310/130310_info1.htm',
+        map: 'zelenogorsk_chernye_winter'
     },
     {
         id: 'SPB_20130313_1',
@@ -356,7 +364,8 @@ let events2013 = [
         start: 'STREKOZAIKI',
         res: 'https://o-site.spb.ru/_races/130406_Str/130406_res.htm',
         o_site: '130406_Str',
-        bulletin: 'https://o-site.spb.ru/_races/130406_Str/130406_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/130406_Str/130406_info.htm',
+        map: 'aleksandrino_north_2013'
     },
     {
         id: 'SPB_20130407_1',
@@ -493,7 +502,8 @@ let events2013 = [
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/130427_split.htm',
         o_site: '2013CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#147',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'suoranda_2006'
     },
     {
         id: 'SPB_20130428_1',
@@ -563,7 +573,8 @@ let events2013 = [
         name: 'Sprint Tour SPb 2013, 4 этап',
         start: 'SPRINT_TOUR',
         res: 'http://www.o-site.spb.ru/_races/130904/130508_split.htm',
-        o_site: '130904'
+        o_site: '130904',
+        map: 'narvskaya_kirovets_2012'
     },
     {
         id: 'SPB_20130509_1',
@@ -637,7 +648,8 @@ let events2013 = [
         name: 'Sprint Tour SPb 2013, 5 этап',
         start: 'SPRINT_TOUR',
         res: 'http://www.o-site.spb.ru/_races/130904/130515_split.htm',
-        o_site: '130904'
+        o_site: '130904',
+        map: 'avrora_2013'
     },
     {
         id: 'SPB_20130516_1',
@@ -741,7 +753,8 @@ let events2013 = [
         name: 'Sprint Tour SPb 2013, 6 этап',
         res: 'http://www.o-site.spb.ru/_races/130904/130522_split.htm',
         start: 'SPRINT_TOUR',
-        o_site: '130904'
+        o_site: '130904',
+        map: 'sosnovaya_poljana_2015'
     },
     {
         id: 'SPB_20130523_1',
@@ -803,7 +816,8 @@ let events2013 = [
         name: 'Sprint Tour SPb 2013, 7 этап',
         res: 'http://www.o-site.spb.ru/_races/130904/130529_split.htm',
         start: 'SPRINT_TOUR',
-        o_site: '130904'
+        o_site: '130904',
+        map: 'rzhevsky_2024'
     },
     {
         id: 'SPB_20130530_1',
@@ -909,7 +923,8 @@ let events2013 = [
         place: 'Первомайское',
         name: 'Кузьмоловские вожди-2',
         res: 'https://o-site.spb.ru/_races/130612/130612_res.htm',
-        o_site: '130612'
+        o_site: '130612',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20130612_2',
@@ -917,7 +932,8 @@ let events2013 = [
         place: 'Первомайское',
         name: 'Кузьмоловские вожди-2',
         res: 'https://o-site.spb.ru/_races/130612/130612_res.htm',
-        o_site: '130612'
+        o_site: '130612',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20130614_1',
@@ -953,7 +969,8 @@ let events2013 = [
         name: 'Red Fox Adventure Race',
         type: 'MULTI',
         start: 'RFAR',
-        o_gps: 53
+        o_gps: 53,
+        map: 'vyborg_rfar_2013'
     },
     {
         id: 'SPB_20130706_1',
@@ -961,7 +978,8 @@ let events2013 = [
         endDate: '2013-07-07',
         name: 'Балтийские юношеские игры',
         place: 'Выборг, Кировские Дачи',
-        video: 'https://www.youtube.com/watch?v=0otJHpAGAoQ'
+        video: 'https://www.youtube.com/watch?v=0otJHpAGAoQ',
+        map: 'kirovskie_dachi_2014'
     },
     {
         id: 'SPB_20130706_2',
@@ -986,7 +1004,8 @@ let events2013 = [
         name: 'Кубок Яркого Мира 2013, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/130707_split.htm',
         o_site: '2013CupYM',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20130713_1',
@@ -1049,7 +1068,8 @@ let events2013 = [
         bulletin: 'https://o-site.spb.ru/_races/130721/130721_info.pdf',
         maps: [
             'https://o-site.spb.ru/_races/130721/WNR_map.gif'
-        ]
+        ],
+        map: 'vorobjevo_bn_2013'
     },
     {
         id: 'SPB_20130728_1',
@@ -1086,7 +1106,8 @@ let events2013 = [
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/130817_split.htm',
         o_site: '2013CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#154',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'vorobjevo_2024'
     },
     {
         id: 'SPB_20130818_1',
@@ -1096,7 +1117,8 @@ let events2013 = [
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/130818_split.htm',
         o_site: '2013CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#155',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'vorobjevo_2024'
     },
     {
         id: 'SPB_20130824_1',
@@ -1160,7 +1182,8 @@ let events2013 = [
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/130901_split.htm',
         o_site: '2013CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#159',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20130904_1',
@@ -1565,7 +1588,8 @@ let events2013 = [
         reg: 'http://www.o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/131020/131020_res.pdf',
         o_site: '131020',
-        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#167'
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#167',
+        map: 'kirovskie_dachi_2014'
     },
     {
         id: 'SPB_20131023_1',
@@ -1595,7 +1619,8 @@ let events2013 = [
         owner: 'AZIMUT',
         logo: 'azimut.gif',
         o_site: '131026_Az',
-        bulletin: 'https://o-site.spb.ru/_races/131026_Az/131026_info_.htm'
+        bulletin: 'https://o-site.spb.ru/_races/131026_Az/131026_info_.htm',
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20131027_1',
@@ -1609,7 +1634,8 @@ let events2013 = [
         o_gps: {
             'М': 122,
             'Ж': 123
-        }
+        },
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20131104_1',
@@ -1634,7 +1660,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/131030/131030_results.zip',
         info: 'Праздник организуется с целью популяризации спортивного ориентирования среди учащихся образовательных учреждений Выборгского района Санкт-Петербурга. В программе спортивного праздника три вида соревнований: - дистанция личная «Ориентирование на пришкольной территории». - дистанция личная «Ориентирование в лабиринте»; - дистанция командная (два человека) «Фото-ориентирование». Соревнования открытые!',
         video: 'http://vimeo.com/79819214',
-        o_site: '131030'
+        o_site: '131030',
+        map: 'school_110_1_2024'
     },
     {
         id: 'SPB_20131117_1',
@@ -1708,7 +1735,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/131201/131201_res1.pdf',
         info: 'Соревнования проводятся 01 декабря 2013 года на территории парка «Александрино» и примыкающего жилого квартала Кировского района Санкт-Петербурга.',
         o_site: '131201',
-        bulletin: 'https://o-site.spb.ru/_races/131201/131201_info_2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/131201/131201_info_2.htm',
+        map: 'aleksandrino_north_2013'
     },
     {
         id: 'SPB_20131208_1',
@@ -1720,7 +1748,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/131208_tr/131208_split.htm',
         o_site: '131208_tr',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#173',
-        bulletin: 'https://o-site.spb.ru/_races/131208_tr/131208_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/131208_tr/131208_info.pdf',
+        map: 'morozova_2013'
     },
     {
         id: 'SPB_20131208_2',

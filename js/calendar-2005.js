@@ -17,7 +17,7 @@ let events2005 = [
         id: 'SPB_20050108_1',
         date: '2005-01-08',
         endDate: '2005-01-09',
-        place: 'Ильичево',
+        place: 'Ильичёво',
         name: 'Рождественские Старты',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/050109/results.zip',
@@ -40,7 +40,8 @@ let events2005 = [
         name: 'Снежная Тропа, 3 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/050123/tropa_3et_res.zip',
-        o_site: '050123'
+        o_site: '050123',
+        map: 'shuvalovsky_1999'
     },
     {
         id: 'SPB_20050130_1',
@@ -69,7 +70,8 @@ let events2005 = [
         name: 'Снежная Тропа, 4 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/050206_tr/tropa_4et_res.htm',
-        o_site: '050206_tr'
+        o_site: '050206_tr',
+        map: 'gatchina_zverinets_2005'
     },
     {
         id: 'SPB_20050223_1',
@@ -174,7 +176,8 @@ let events2005 = [
         place: 'Голубая Дача',
         name: 'Открытие летнего сезона',
         res: 'https://o-site.spb.ru/_races/050417/050417.zip',
-        o_site: '050417'
+        o_site: '050417',
+        map: 'golubaya_dacha_2005'
     },
     {
         id: 'SPB_20050423_1',
@@ -213,14 +216,15 @@ let events2005 = [
         name: 'МТБ-О Парк Тур, 1 этап',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/050430_MTB/FINISHvelo30_04_05.htm',
-        o_site: '050430_MTB'
+        o_site: '050430_MTB',
+        map: 'polezhaevsky_2001'
     },
     {
         id: 'SPB_20050430_2',
         date: '2005-04-30',
         endDate: '2005-05-02',
         place: 'Кириши',
-        name: 'на призы Киришинефтеоргсинтез',
+        name: 'на призы КиришиНефтеОргСинтез',
         res: 'https://o-site.spb.ru/_races/050430/kirishi_res.zip',
         o_site: '050430'
     },
@@ -271,7 +275,8 @@ let events2005 = [
         name: 'МТБ-О Парк Тур, 2 этап',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/050509/pt2.htm',
-        o_site: '050509'
+        o_site: '050509',
+        map: 'shuvalovsky_park_velo_2021'
     },
     {
         id: 'SPB_20050510_1',
@@ -328,7 +333,8 @@ let events2005 = [
         place: 'Зеленогорск, оз Щучье',
         name: 'Первенство КО, день2',
         res: 'https://o-site.spb.ru/_races/050522/050522_ko_res.zip',
-        o_site: '050522'
+        o_site: '050522',
+        map: 'zelenogorsk_schuchye_2005'
     },
     {
         id: 'SPB_20050528_1',
@@ -424,7 +430,8 @@ let events2005 = [
         name: 'Кубок Яркого Мира, 6 этап',
         res: 'https://o-site.spb.ru/_races/050703_ym/ym_et6_res.zip',
         start: 'YM_CUP',
-        o_site: '050703_ym'
+        o_site: '050703_ym',
+        map: 'mednoe_rfar_2006'
     },
     {
         id: 'SPB_20050716_1',
@@ -434,7 +441,8 @@ let events2005 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/050716/gonkaO2005res.htm',
         fmt: 'по кругам',
-        o_site: '050716'
+        o_site: '050716',
+        map: 'orlinaya_gora_2004'
     },
     {
         id: 'SPB_20050717_1',
@@ -588,7 +596,8 @@ let events2005 = [
         place: 'Токсово, Охта-парк',
         fmt: 'выбор',
         name: 'Кубок СДЮШОР №2, Чемпионат ВУЗов',
-        o_site: '050925'
+        o_site: '050925',
+        map: 'toksovo_okhta_park_2001'
     },
     {
         id: 'SPB_20050929_1',
@@ -614,7 +623,8 @@ let events2005 = [
         place: 'Яппиля, оз Тарасовское',
         name: 'марафон На холмах Яппиля',
         res: 'https://o-site.spb.ru/_races/051002/051002_res.zip',
-        o_site: '051002'
+        o_site: '051002',
+        map: 'tarasovskoe_2000'
     },
     {
         id: 'SPB_20051002_2',
@@ -643,7 +653,8 @@ let events2005 = [
         name: 'XXXIV Соревнования по ночному ориентированию памяти А. Окинчица',
         res: 'https://o-site.spb.ru/_races/051008/051008_res.htm',
         start: 'OKINCHITSA',
-        o_site: '051008'
+        o_site: '051008',
+        map: 'koloskovo_1998'
     },
     {
         id: 'SPB_20051015_1',
@@ -652,7 +663,8 @@ let events2005 = [
         name: 'Чемпионат СПБ, марафон',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/051015_mar/051015_res.zip',
-        o_site: '051015_mar'
+        o_site: '051015_mar',
+        map: 'pastorskoe_mednoe_2009'
     },
     {
         id: 'SPB_20051015_2',
@@ -675,7 +687,8 @@ let events2005 = [
         name: 'Кубок Яркого Мира, Финал',
         res: 'https://o-site.spb.ru/_races/051016/051016_res.zip',
         start: 'YM_CUP',
-        o_site: '051016'
+        o_site: '051016',
+        map: 'vaskelovo_bannoe_2006'
     },
     {
         id: 'SPB_20051022_1',
@@ -683,7 +696,8 @@ let events2005 = [
         place: 'Зеленогорск, Чёрные оз',
         name: 'Критериум',
         res: 'https://o-site.spb.ru/_races/051022/051022_res.zip',
-        o_site: '051022'
+        o_site: '051022',
+        map: 'na_2003_zelik_1'
     },
     {
         id: 'SPB_20051022_2',
@@ -693,7 +707,8 @@ let events2005 = [
         name: 'Пер-во ЛО среди учащихся',
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/05102223/05102223_res.zip',
-        o_site: '05102223'
+        o_site: '05102223',
+        map: 'kirovskie_dachi_2014'
     },
     {
         id: 'SPB_20051023_1',
@@ -701,7 +716,8 @@ let events2005 = [
         place: 'Комарово, оз Щучье',
         name: 'Финал Кубка ФСО СПб',
         res: 'https://o-site.spb.ru/_races/051023/051023_res.zip',
-        o_site: '051023'
+        o_site: '051023',
+        map: 'zelenogorsk_leninskoe_2008'
     },
     {
         id: 'SPB_20051029_1',
@@ -760,7 +776,8 @@ let events2005 = [
         place: 'Черные оз, Зеленогорск',
         name: '1 этап Кубка центра Ладога',
         res: 'https://o-site.spb.ru/_races/051105/051105_res.zip',
-        o_site: '051105'
+        o_site: '051105',
+        map: 'na_2003_zelik_1'
     },
     {
         id: 'SPB_20051113_1',
@@ -788,7 +805,8 @@ let events2005 = [
         name: 'Снежная Тропа, 3 этап',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/051211/051211_res.zip',
-        o_site: '051211'
+        o_site: '051211',
+        map: 'berngardovka_1991'
     },
     {
         id: 'SPB_20051225_1',

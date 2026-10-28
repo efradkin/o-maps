@@ -165,7 +165,8 @@ let events2015 = [
         maps: [
             'https://o-site.spb.ru/_races/150215/150215_dist_DE.pdf',
             'https://o-site.spb.ru/_races/150215/150215_dist_ABC.pdf'
-        ]
+        ],
+        map: 'zelenogorsk_chernye_winter'
     },
     {
         id: 'SPB_20150221_1',
@@ -177,7 +178,8 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/150221/150221-2_res.pdf',
         o_site: '150221',
-        bulletin: 'https://o-site.spb.ru/_races/150221/15022123_info3.htm'
+        bulletin: 'https://o-site.spb.ru/_races/150221/15022123_info3.htm',
+        map: 'zelenogorsk_chernye_winter'
     },
     {
         id: 'SPB_20150223_1',
@@ -194,7 +196,8 @@ let events2015 = [
             'М': 409,
             'Ж': 410
         },
-        bulletin: 'https://o-site.spb.ru/_races/150223/150223_info3.htm'
+        bulletin: 'https://o-site.spb.ru/_races/150223/150223_info3.htm',
+        map: 'zelenogorsk_chernye_winter'
     },
     {
         id: 'SPB_20150301_1',
@@ -217,7 +220,8 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru',
         owner: 'WN',
         o_site: '150301_BN',
-        bulletin: 'https://o-site.spb.ru/_races/150301_BN/150301_info1.htm'
+        bulletin: 'https://o-site.spb.ru/_races/150301_BN/150301_info1.htm',
+        map: 'sestroretsk_tamozhennaya_doroga_2021'
     },
     {
         id: 'SPB_20150301_3',
@@ -236,7 +240,8 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/150309_St/150309_res.htm',
         o_site: '150309_St',
-        bulletin: 'https://o-site.spb.ru/_races/150309_St/150309_info3.htm'
+        bulletin: 'https://o-site.spb.ru/_races/150309_St/150309_info3.htm',
+        map: 'zelenogorsk_chernye_winter'
     },
     {
         id: 'SPB_20150309_2',
@@ -245,7 +250,8 @@ let events2015 = [
         name: 'Кубок Белых Ночей 2014/15, 6 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/WNC2015/150309_split_.htm',
-        o_site: 'WNC2015'
+        o_site: 'WNC2015',
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20150311_1',
@@ -264,7 +270,8 @@ let events2015 = [
         name: 'Кубок Белых Ночей 2014/15, 7 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/WNC2015/150315_split.htm',
-        o_site: 'WNC2015'
+        o_site: 'WNC2015',
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20150321_1',
@@ -313,7 +320,8 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/150404_Str/150404_res.htm',
         o_site: '150404_Str',
-        bulletin: 'https://o-site.spb.ru/_races/150404_Str/150404_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/150404_Str/150404_info.htm',
+        map: 'nevsky_2007'
     },
     {
         id: 'SPB_20150405_1',
@@ -334,7 +342,8 @@ let events2015 = [
         start: 'SPRINT_TOUR',
         o_site: '150408',
         bulletin: 'https://o-site.spb.ru/_races/150408/151118_info.pdf',
-        res: 'https://reg.o-time.ru/race/15023'
+        res: 'https://reg.o-time.ru/race/15023',
+        map: 'kronshtadt_sobor_2014'
     },
     {
         id: 'SPB_20150409_1',
@@ -375,7 +384,8 @@ let events2015 = [
         start: 'SPRINT_TOUR',
         o_site: '150408',
         bulletin: 'https://o-site.spb.ru/_races/150408/151118_info.pdf',
-        res: 'https://reg.o-time.ru/race/15024'
+        res: 'https://reg.o-time.ru/race/15024',
+        map: 'vyborgskaya_2015'
     },
     {
         id: 'SPB_20150416_1',
@@ -385,7 +395,8 @@ let events2015 = [
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/150409/150416_res.htm',
         o_site: '150409',
-        bulletin: 'https://o-site.spb.ru/_races/150409/151022_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/150409/151022_info.pdf',
+        map: 'pastorskoe_mednoe_2009'
     },
     {
         id: 'SPB_20150419_1',
@@ -460,7 +471,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150419_SD/150430_res.htm',
         info: 'По дистанциям: - группы МЖ до 9, МЖ до 11, МЖ до 13 - Заданное направление с ниткой. - МЖ до 15 -- МЖ до 17 - заданное, классика Соревнования состоятся в районе ж.д. ст. Тарасовская',
         o_site: '150419_SD',
-        owner: 'ANCHKV'
+        owner: 'ANCHKV',
+        map: 'tarasovskoe_2000'
     },
     {
         id: 'SPB_20150501_1',
@@ -472,7 +484,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150501R/150501R_res.pdf',
         fmt: '5(4), 2',
         o_site: '150501R',
-        bulletin: 'https://o-site.spb.ru/_races/150501R/150501R_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/150501R/150501R_info.pdf',
+        map: 'luga_shalovo_lm_2023'
     },
     {
         id: 'SPB_20150501_2',
@@ -536,7 +549,8 @@ let events2015 = [
         photo: 'https://o-site.spb.ru/_races/150504/150504_res_foto.htm',
         info: 'Соревнования организует ФСО СПб в рамках праздника, приуроченного 70-летию Победы, организуемого "Комитетом по молодёжной политике и взаимодействию с общественными организациями Санкт-Петербурга" В спортивной части программы праздника: - городской спринт (по карте 2015г, автор Виктор Добрецов), - ориентирование в лабиринте, - военно-патриотический квест.',
         o_site: '150504',
-        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#211'
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#211',
+        map: 'kronshtadt_sobor_2014'
     },
     {
         id: 'SPB_20150506_1',
@@ -547,7 +561,8 @@ let events2015 = [
         start: 'SPRINT_TOUR',
         res: 'https://reg.o-time.ru/race/15026',
         o_site: '150408',
-        bulletin: 'https://o-site.spb.ru/_races/150408/151118_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/150408/151118_info.pdf',
+        map: 'sosnovka_mototrek_2015'
     },
     {
         id: 'SPB_20150509_1',
@@ -673,7 +688,8 @@ let events2015 = [
             'М': 512,
             'Ж': 514,
             'ALL': 513
-        }
+        },
+        map: 'kavgolovo_utts_2023'
     },
     {
         id: 'SPB_20150516_3',
@@ -685,7 +701,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150516v/ResultList.htm',
         info: 'Открытый Чемпионат и первенство Ленинградской области по ориентированию на велосипедах. Спринт.',
         o_site: '150516v',
-        bulletin: 'https://o-site.spb.ru/_races/150516v/150516v_info.html'
+        bulletin: 'https://o-site.spb.ru/_races/150516v/150516v_info.html',
+        map: 'orlinaya_gora_2004'
     },
     {
         id: 'SPB_20150517_1',
@@ -842,7 +859,8 @@ let events2015 = [
         name: 'Кубок Белых Ночей 2014/15, 9 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/WNC2015/150530_split.htm',
-        o_site: 'WNC2015'
+        o_site: 'WNC2015',
+        map: 'oselki_2015'
     },
     {
         id: 'SPB_20150530_5',
@@ -867,7 +885,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150531_Az/150531_res.htm',
         o_site: '150531_Az',
         bulletin: 'https://o-site.spb.ru/_races/150531_Az/150531_info.htm',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        map: 'zelenogorsk_chernye_2023'
     },
     {
         id: 'SPB_20150603_1',
@@ -877,7 +896,8 @@ let events2015 = [
         start: 'SPRINT_TOUR',
         o_site: '150408',
         bulletin: 'https://o-site.spb.ru/_races/150408/151118_info.pdf',
-        res: 'https://reg.o-time.ru/race/15030'
+        res: 'https://reg.o-time.ru/race/15030',
+        map: 'novoorlovsky_2015'
     },
     {
         id: 'SPB_20150604_1',
@@ -1036,7 +1056,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150718/150718_res.htm',
         owner: 'VYBORG',
         o_site: '150718',
-        bulletin: 'https://o-site.spb.ru/_races/150718/150718_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/150718/150718_info.pdf',
+        map: 'verkchne_cherkasovo_2015'
     },
     {
         id: 'SPB_20150725_1',
@@ -1047,7 +1068,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150725_tr/150725_res.htm',
         owner: 'VYBORG',
         o_site: '150725_tr',
-        bulletin: 'https://o-site.spb.ru/_races/150725_tr/150725_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/150725_tr/150725_info.pdf',
+        map: 'paltsevo_2015'
     },
     {
         id: 'SPB_20150726_1',
@@ -1134,7 +1156,8 @@ let events2015 = [
         res: 'http://www.o-site.spb.ru/_races/2015CupYM/150815_split.htm',
         o_site: '2015CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#216',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'vorobjevo_2024'
     },
     {
         id: 'SPB_20150816_1',
@@ -1159,7 +1182,8 @@ let events2015 = [
         res: 'http://www.o-site.spb.ru/_races/2015CupYM/150816_split.htm',
         o_site: '2015CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#217',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'vorobjevo_2024'
     },
     {
         id: 'SPB_20150823_1',
@@ -1213,7 +1237,8 @@ let events2015 = [
         start: 'SPRINT_TOUR',
         o_site: '150408',
         bulletin: 'https://o-site.spb.ru/_races/150408/151118_info.pdf',
-        res: 'https://reg.o-time.ru/race/15031'
+        res: 'https://reg.o-time.ru/race/15031',
+        map: 'lomonosovskaya_2015'
     },
     {
         id: 'SPB_20150903_1',
@@ -1260,7 +1285,8 @@ let events2015 = [
         start: 'WEEKLY_ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2015/08/Weekly-Orient-1-%D1%8D%D1%82%D0%B0%D0%BF-%D1%81.htm',
         o_site: '150908',
-        bulletin: 'http://white-o-nights.ru/wo-8leg/'
+        bulletin: 'http://white-o-nights.ru/wo-8leg/',
+        map: 'lehtusi_valkijarvi_2016'
     },
     {
         id: 'SPB_20150909_1',
@@ -1281,7 +1307,8 @@ let events2015 = [
         start: 'SPRINT_TOUR',
         o_site: '150408',
         bulletin: 'https://o-site.spb.ru/_races/150408/151118_info.pdf',
-        res: 'https://reg.o-time.ru/race/15032'
+        res: 'https://reg.o-time.ru/race/15032',
+        map: 'udelnaya_2015'
     },
     {
         id: 'SPB_20150910_1',
@@ -1325,7 +1352,8 @@ let events2015 = [
         start: 'WEEKLY_ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2015/08/Weekly-Orient-2-%D1%8D%D1%82%D0%B0%D0%BF-%D1%81.htm',
         o_site: '150908',
-        bulletin: 'http://white-o-nights.ru/wo-8leg/'
+        bulletin: 'http://white-o-nights.ru/wo-8leg/',
+        map: 'oselki_2015'
     },
     {
         id: 'SPB_20150916_1',
@@ -1408,7 +1436,8 @@ let events2015 = [
         start: 'WEEKLY_ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2015/08/Weekly-Orient-3-%D1%8D%D1%82%D0%B0%D0%BF-%D1%81.htm',
         o_site: '150908',
-        bulletin: 'http://white-o-nights.ru/wo-8leg/'
+        bulletin: 'http://white-o-nights.ru/wo-8leg/',
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20150923_1',
@@ -1497,7 +1526,8 @@ let events2015 = [
         start: 'WEEKLY_ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2015/09/Weekly_orient_4_leg_split.htm',
         o_site: '150908',
-        bulletin: 'http://white-o-nights.ru/wo-8leg/'
+        bulletin: 'http://white-o-nights.ru/wo-8leg/',
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20150930_1',
@@ -1596,7 +1626,8 @@ let events2015 = [
         start: 'SPRINT_TOUR',
         o_site: '150408',
         bulletin: 'https://o-site.spb.ru/_races/150408/151118_info.pdf',
-        res: 'https://reg.o-time.ru/race/15035'
+        res: 'https://reg.o-time.ru/race/15035',
+        map: 'pokrovsky_island_2014'
     },
     {
         id: 'SPB_20151014_1',
@@ -1605,7 +1636,8 @@ let events2015 = [
         place: 'Осиновая роща',
         res: 'https://o-site.spb.ru/_races/151014_PPKI/151014_rezPPK.htm',
         o_site: '151014_PPKI',
-        bulletin: 'https://o-site.spb.ru/_races/151014_PPKI/151014_infoSPK.html'
+        bulletin: 'https://o-site.spb.ru/_races/151014_PPKI/151014_infoSPK.html',
+        map: 'osinovaja_roscha_2013'
     },
     {
         id: 'SPB_20151015_1',
@@ -1666,7 +1698,8 @@ let events2015 = [
         name: 'Открытое пер-во СДЮСШОР Курортного района, посв.памяти З.В.Пятаковой',
         res: 'https://o-site.spb.ru/_races/151018/151018_res.htm',
         fmt: 'выбор 25 мин. с первым заданным КП.',
-        o_site: '151018'
+        o_site: '151018',
+        map: 'pesochnaya_2005'
     },
     {
         id: 'SPB_20151018_2',
@@ -1682,7 +1715,8 @@ let events2015 = [
         place: 'Первомайское',
         res: 'http://www.o-site.spb.ru/_races/2015CupYM/151018_split.htm',
         o_site: '2015CupYM',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20151021_1',
@@ -1725,7 +1759,8 @@ let events2015 = [
         start: 'WEEKLY_ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2015/09/Weekly_Orient_5_leg_split.htm',
         o_site: '150908',
-        bulletin: 'http://white-o-nights.ru/wo-8leg/'
+        bulletin: 'http://white-o-nights.ru/wo-8leg/',
+        map: 'toksovo_okhta_park_2008'
     },
 /*
     {
@@ -1766,7 +1801,8 @@ let events2015 = [
         name: 'Кубок Белых Ночей 2015/16, 1 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/151107wn/151107_split.htm',
-        o_site: '151107wn'
+        o_site: '151107wn',
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20151107_2',
@@ -1903,7 +1939,8 @@ let events2015 = [
         name: 'Кубок Белых Ночей 2015/16, 3 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/151107wn/151128_split.htm',
-        o_site: '151107wn'
+        o_site: '151107wn',
+        map: 'ilychevo_2016'
     },
 /*
     {
@@ -1963,7 +2000,8 @@ let events2015 = [
         name: 'Кубок Белых Ночей 2015/16, 4 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/151107wn/151212_split.htm',
-        o_site: '151107wn'
+        o_site: '151107wn',
+        map: 'garbolovo_sirkkajarvi'
     },
     {
         id: 'SPB_20151213_1',
@@ -1997,7 +2035,8 @@ let events2015 = [
         name: 'Кубок Белых Ночей 2015/16, 5 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/151107wn/151219_split.htm',
-        o_site: '151107wn'
+        o_site: '151107wn',
+        map: 'lehtusi_valkijarvi_2016'
     },
     {
         id: 'SPB_20151220_1',

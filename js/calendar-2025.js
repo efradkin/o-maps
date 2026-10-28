@@ -33,7 +33,8 @@ let events2025 = [
         o_gps: 21398,
         photo: 'https://vk.com/album-8292013_308226055',
         coord: [60.4060487, 30.3227162],
-        owner: 'MULTSPORT'
+        owner: 'MULTSPORT',
+        map: 'lembolovo_hard_rogaine_2023'
     },
     {
         id: 'SPB_20250112_1',
@@ -71,7 +72,8 @@ let events2025 = [
         place: 'Охта',
         coord: [59.943447, 30.4146],
         reg: 'https://orgeo.ru/event/40723',
-        endReg: '2025-01-26 19:00'
+        endReg: '2025-01-26 19:00',
+        map: 'big_okhta_2017'
     },
     {
         id: 'SPB_20250117_1',
@@ -86,7 +88,8 @@ let events2025 = [
         bulletin: 'https://orgeo.ru/files/event/file/39326_7a075be776.pdf',
         reg: 'https://orgeo.ru/event/lo_budogosh_2025',
         endReg: '2025-01-15 13:00',
-        coord: [59.278465, 32.380748]
+        coord: [59.278465, 32.380748],
+        map: 'budogosch_svetloe_winter_2024'
     },
     {
         id: 'SPB_20250118_1',
@@ -229,7 +232,8 @@ let events2025 = [
         place: 'Полюстровский парк', // !
         coord: [59.962582, 30.430367],
         reg: 'https://orgeo.ru/event/41014',
-        endReg: '2025-02-16 20:00'
+        endReg: '2025-02-16 20:00',
+        map: 'polyustrovsky_2022'
     },
     {
         id: 'SPB_20250222_1',
@@ -560,7 +564,8 @@ let events2025 = [
         coord: [59.844418, 30.240202],
         reg: 'https://orgeo.ru/event/42807',
         endReg: '2025-04-08 06:55',
-        bulletin: 'https://orgeo.ru/files/event/file/42807_977f053d95.pdf'
+        bulletin: 'https://orgeo.ru/files/event/file/42807_977f053d95.pdf',
+        map: 'vorontsovsky_skver_2024'
     },
     {
         id: 'SPB_20250412_1',
@@ -1414,7 +1419,7 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/44185',
         endReg: '2025-05-31 20:00',
         bulletin: 'https://orgeo.ru/files/event/file/44185_3b03286625.pdf',
-        map: 'ilychevo-simagino_2015'
+        map: 'vorontsovskoe_simagino_2021'
     },
     {
         id: 'SPB_20250605_1',
@@ -1524,7 +1529,8 @@ let events2025 = [
             'https://www.youtube.com/watch?v=iE3hEDwiwdo',
             'https://www.youtube.com/watch?v=4nLK9BDNoAo',
             'https://www.youtube.com/watch?v=R1jkjlESKAs'
-        ]
+        ],
+        map: 'kkp_2025_06_17'
     },
     {
         id: 'SPB_20250614_2',
@@ -1990,7 +1996,8 @@ let events2025 = [
         place: 'Стадион Петровский',
         fmt: 'спринт+лабиринт',
         coord: [59.952087, 30.283287],
-        reg: 'https://orgeo.ru/event/46018'
+        reg: 'https://orgeo.ru/event/46018',
+        map: 'petrovsky_stadium_2025'
     },
     {
         id: 'SPB_20250830_3',
@@ -2336,7 +2343,8 @@ let events2025 = [
         name: 'Турслёт ИТМО',
         fmt: 'ночное',
         o_gps: 23464,
-        coord: [60.6303333, 29.9957657]
+        coord: [60.6303333, 29.9957657],
+        map: 'michurinskoe_2022'
     },
     {
         id: 'SPB_20250921_1',
@@ -2760,7 +2768,8 @@ let events2025 = [
         name: 'ПРИЗ НОВИЧКА 2025',
         place: 'ДДЮТ Выборгского р-на', // !
         coord: [60.034519, 30.349815],
-        reg: 'https://orgeo.ru/event/47173'
+        reg: 'https://orgeo.ru/event/47173',
+        map: 'vyborgsky_ddjut_2017'
     },
     {
         id: 'SPB_20251017_1',
@@ -2976,7 +2985,8 @@ let events2025 = [
         name: 'Петербургская осень, Чемпионат СПб среди ВУЗов',
         place: 'п. Колоскова',
         coord: [60.601505, 30.197718],
-        reg: 'https://orgeo.ru/event/47423'
+        reg: 'https://orgeo.ru/event/47423',
+        map: 'krivko_2021'
     },
 /*
     {
@@ -3048,7 +3058,8 @@ let events2025 = [
         o_gps: 23796,
         coord: [60.158032, 30.512599],
         strava: 16334988354,
-        me: '50+'
+        me: '50+',
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20251103_1',
@@ -3322,7 +3333,8 @@ let events2025 = [
         o_site: '251127_TA',
         reg: 'https://orgeo.ru/event/47891',
         endReg: '2025-11-26 14:00',
-        bulletin: 'https://o-site.spb.ru/_races/251127_TA/TochnnyAzimut2025.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/251127_TA/TochnnyAzimut2025.pdf',
+        map: 'aleksandrovsky_park_2024'
     },
     {
         id: 'SPB_20251129_1',

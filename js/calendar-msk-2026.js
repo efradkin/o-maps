@@ -11,7 +11,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/48519",
         endReg: "2026-01-01 21:00",
         photo: "https://vk.com/albums-78257998",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20210529_464'
     },
     {
         id: 'MSK_20260111_1',
@@ -24,7 +25,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/48823",
         endReg: "2026-01-10 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260117_1',
@@ -36,7 +38,8 @@ let mskEvents2026 = [
         coord: [55.738086, 37.386742],
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: '20250404_702'
     },
     {
         id: 'MSK_20260118_1',
@@ -49,7 +52,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/49084",
         endReg: "2026-01-17 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20210529_930'
     },
     {
         id: 'MSK_20260124_1',
@@ -61,7 +65,8 @@ let mskEvents2026 = [
         coord: [55.599541, 37.553809],
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260125_1',
@@ -73,7 +78,8 @@ let mskEvents2026 = [
         coord: [55.599541, 37.553809],
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260131_1',
@@ -85,7 +91,8 @@ let mskEvents2026 = [
         coord: [55.625459, 37.898916],
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: '20250403_510'
     },
     {
         id: 'MSK_20260201_1',
@@ -97,7 +104,8 @@ let mskEvents2026 = [
         coord: [55.625459, 37.898916],
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: '20250403_510'
     },
     {
         id: 'MSK_20260206_1',
@@ -110,7 +118,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/49521",
         endReg: "2026-02-05 23:55",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'marino_ski_2026'
     },
     {
         id: 'MSK_20260207_1',
@@ -151,7 +160,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/winter26",
         endReg: '2026-02-05 23:55',
         bulletin: 'https://docs.google.com/document/d/1ReqFJA8otxejMYvulrm0R8c9HzVSKDu5dHiiIXsJrAY/edit?tab=t.0',
-        owner: "O_KUNTSEVO"
+        owner: "O_KUNTSEVO",
+        map: '20210531_872'
     },
     {
         id: 'MSK_20260214_1',
@@ -177,7 +187,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/49703",
         endReg: "2026-02-14 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'matveevskoe_2023'
     },
     {
         id: 'MSK_20260220_1',
@@ -191,7 +202,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/50147",
         endReg: "2026-02-20 15:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'marino_ski_2026'
     },
     {
         id: 'MSK_20260221_1',
@@ -217,11 +229,13 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/50187",
         endReg: "2026-02-21 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20250404_210'
     },
     {
         id: 'MSK_20260222_2',
-        date: "2026-02-22", name: "Первенство МКСШОР \"Запад\"", place: "Митино", type: "SKI", fmt: "ЛГ-Спринт"
+        date: "2026-02-22", name: "Первенство МКСШОР \"Запад\"", place: "Митино", type: "SKI", fmt: "ЛГ-Спринт",
+        map: '20210531_770'
     },
     {
         id: 'MSK_20260223_1',
@@ -234,7 +248,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/50188",
         endReg: "2026-02-22 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'shmelevka_2026'
     },
     {
         id: 'MSK_20260228_1',
@@ -247,7 +262,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/50355",
         endReg: "2026-02-27 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'matveevskoe_2023'
     },
     {
         id: 'MSK_20260301_1',
@@ -273,7 +289,8 @@ let mskEvents2026 = [
         coord: [55.738855, 37.394],
         link: "https://orientband.ru/",
         endReg: "2026-02-25 23:55",
-        bulletin: "https://docs.google.com/document/d/1uzn5hASaOA5JRrz83zROM7wtFJUw-STah2M1JGLsMOE/edit?usp=sharing"
+        bulletin: "https://docs.google.com/document/d/1uzn5hASaOA5JRrz83zROM7wtFJUw-STah2M1JGLsMOE/edit?usp=sharing",
+        map: '20210531_872'
     },
     {
         id: 'MSK_20260301_3',
@@ -286,7 +303,8 @@ let mskEvents2026 = [
         coord: [55.738855, 37.394],
         link: "https://orientband.ru/",
         endReg: "2026-02-26 23:55",
-        bulletin: "https://docs.google.com/document/d/1uzn5hASaOA5JRrz83zROM7wtFJUw-STah2M1JGLsMOE/edit?usp=sharing"
+        bulletin: "https://docs.google.com/document/d/1uzn5hASaOA5JRrz83zROM7wtFJUw-STah2M1JGLsMOE/edit?usp=sharing",
+        map: '20210531_872'
     },
     {
         id: 'MSK_20260307_1',
@@ -299,7 +317,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/50357",
         endReg: "2026-03-06 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20210104_340'
     },
     {
         id: 'MSK_20260308_1',
@@ -326,7 +345,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/50358",
         endReg: "2026-03-08 21:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20230130_202'
     },
     {
         id: 'MSK_20260314_1',
@@ -364,7 +384,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/50360",
         endReg: "2026-03-14 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'new_marino_2026'
     },
     {
         id: 'MSK_20260321_1',
@@ -378,7 +399,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/50361",
         endReg: "2026-03-21 14:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20250403_647'
     },
     {
         id: 'MSK_20260322_1',
@@ -392,7 +414,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/50362",
         endReg: "2026-03-21 21:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260328_1',
@@ -405,7 +428,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/50363",
         endReg: "2026-03-27 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'medvedkovo_2024'
     },
     {
         id: 'MSK_20260329_1',
@@ -419,7 +443,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/50364",
         endReg: "2026-03-28 21:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'shmelevka_2026'
     },
     {
         id: 'MSK_20260329_2',
@@ -450,7 +475,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.689663, 37.819153],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20250403_463'
     },
     {
         id: 'MSK_20260404_1',
@@ -476,7 +502,8 @@ let mskEvents2026 = [
         coord: [55.742275, 37.629002],
         link: "https://orientband.ru/",
         endReg: "2026-04-01 23:55",
-        bulletin: "https://docs.google.com/document/d/1_jzZs6Sv3zshjP0MKLynoqy2ZZpjDzvmhs2XfFzBSuQ/edit?tab=t.0"
+        bulletin: "https://docs.google.com/document/d/1_jzZs6Sv3zshjP0MKLynoqy2ZZpjDzvmhs2XfFzBSuQ/edit?tab=t.0",
+        map: 'novokuznetskaya_2026'
     },
     {
         id: 'MSK_20260405_1',
@@ -503,7 +530,8 @@ let mskEvents2026 = [
         link: "https://vk.link/okuncevo",
         owner: "O_KUNTSEVO",
         endReg: "2026-04-02 23:55",
-        bulletin: "https://docs.google.com/document/d/1v2tdCKAz6Ur-up4m-5fYTf1lZeGJcpgSpopG-zOn3ZA/edit?tab=t.0"
+        bulletin: "https://docs.google.com/document/d/1v2tdCKAz6Ur-up4m-5fYTf1lZeGJcpgSpopG-zOn3ZA/edit?tab=t.0",
+        map: '20210531_872'
     },
     {
         id: 'MSK_20260405_3',
@@ -516,7 +544,8 @@ let mskEvents2026 = [
         coord: [55.742275, 37.629002],
         link: "https://orientband.ru/",
         endReg: "2026-04-01 23:55",
-        bulletin: "https://docs.google.com/document/d/1_jzZs6Sv3zshjP0MKLynoqy2ZZpjDzvmhs2XfFzBSuQ/edit?tab=t.0"
+        bulletin: "https://docs.google.com/document/d/1_jzZs6Sv3zshjP0MKLynoqy2ZZpjDzvmhs2XfFzBSuQ/edit?tab=t.0",
+        map: 'novokuznetskaya_2026'
     },
     {
         id: 'MSK_20260407_1',
@@ -528,7 +557,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.689663, 37.819153],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20250403_463'
     },
     {
         id: 'MSK_20260409_1',
@@ -540,7 +570,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.674133, 37.848701],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20210103_183'
     },
     {
         id: 'MSK_20260411_1',
@@ -584,7 +615,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.674133, 37.848701],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20210103_183'
     },
     {
         id: 'MSK_20260416_1',
@@ -610,7 +642,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/51914",
         endReg: "2026-04-17 21:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'rublevo_2005'
     },
     {
         id: 'MSK_20260418_2',
@@ -648,7 +681,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/51273",
         endReg: "2026-04-18 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20260421_1',
@@ -685,7 +719,8 @@ let mskEvents2026 = [
         link: "https://sportident.ru/mk/",
         reg: "https://sportident.online/?en&d=2026&c=6&land=643&reg=50",
         start: "MSK_COMPASS",
-        o_gps: 24818
+        o_gps: 24818,
+        map: 'lytkarino_mirny_1989'
     },
     {
         id: 'MSK_20260426_1',
@@ -701,7 +736,8 @@ let mskEvents2026 = [
         o_gps: {
             'ALL': 24819,
             'М35/40': 24879
-        }
+        },
+        map: 'lytkarino_mirny_1989'
     },
     {
         id: 'MSK_20260428_1',
@@ -712,7 +748,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.641228, 37.556114],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260430_1',
@@ -724,7 +761,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.632622, 37.58086],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260501_1',
@@ -735,7 +773,8 @@ let mskEvents2026 = [
         fmt: "велокросс - классика",
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: '20250403_280'
     },
     {
         id: 'MSK_20260501_2',
@@ -759,7 +798,8 @@ let mskEvents2026 = [
         fmt: "велокросс - классика",
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: 'jahroma_1972'
     },
     {
         id: 'MSK_20260502_2',
@@ -808,7 +848,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.693329, 37.772224],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20250403_463'
     },
     {
         id: 'MSK_20260507_1',
@@ -820,7 +861,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.826338, 37.487866],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20260509_1',
@@ -833,7 +875,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/52161",
         endReg: "2026-05-08 22:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20210103_183'
     },
     {
         id: 'MSK_20260510_1',
@@ -857,7 +900,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/50450",
         endReg: "2026-05-09 15:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20250404_210'
     },
     {
         id: 'MSK_20260511_1',
@@ -871,7 +915,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/51748",
         endReg: "2026-05-08 09:55",
         bulletin: "https://docs.google.com/document/d/1yU_MEgXXt03DeCTzRuBBZgUhEzhLi94GEUG5HkOQIfQ/edit?usp=sharing",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: 'horlovo_2024'
     },
     {
         id: 'MSK_20260512_1',
@@ -883,7 +928,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.632622, 37.58086],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260513_1',
@@ -894,7 +940,8 @@ let mskEvents2026 = [
         fmt: "кросс-выбор",
         coord: [55.826338, 37.487866],
         link: "http://horoshevo-o-team.ru/",
-        reg: "https://sportident.online/?en&c=6&land=643&reg=77"
+        reg: "https://sportident.online/?en&c=6&land=643&reg=77",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20260514_1',
@@ -906,7 +953,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.626858, 37.544853],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260516_1',
@@ -931,7 +979,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/52569",
         endReg: "2026-05-14 23:55",
         bulletin: "https://docs.google.com/document/d/1dHoFBDxttjcQkJuM58g7m4hyu5OQ3xhpeKf-UrE3xT4/edit?usp=sharing",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: '20210103_264'
     },
     {
         id: 'MSK_20260519_1',
@@ -943,7 +992,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.622139, 37.523602],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260521_1',
@@ -955,7 +1005,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.760006, 37.398121],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20230130_884'
     },
     {
         id: 'MSK_20260522_1',
@@ -970,7 +1021,8 @@ let mskEvents2026 = [
         endReg: "2026-05-18 12:15",
         bulletin: "https://orgeo.ru/files/event/file/51922_90c3c2e314.pdf",
         owner: "FSO_MSK",
-        o_gps: 25171
+        o_gps: 25171,
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260523_1',
@@ -985,7 +1037,8 @@ let mskEvents2026 = [
         endReg: "2026-05-18 12:15",
         bulletin: "https://orgeo.ru/files/event/file/51922_90c3c2e314.pdf",
         owner: "FSO_MSK",
-        o_gps: 25172
+        o_gps: 25172,
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260524_1',
@@ -999,7 +1052,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/51922",
         endReg: "2026-05-18 12:15",
         bulletin: "https://orgeo.ru/files/event/file/51922_90c3c2e314.pdf",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260526_1',
@@ -1011,7 +1065,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.624519, 37.546818],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260528_1',
@@ -1023,7 +1078,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.62772, 37.538666],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260529_1',
@@ -1047,7 +1103,8 @@ let mskEvents2026 = [
         coord: [55.661641, 37.755904],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20200907_909'
     },
     {
         id: 'MSK_20260531_1',
@@ -1059,7 +1116,8 @@ let mskEvents2026 = [
         coord: [55.734703, 37.849088],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'novokosino_2025'
     },
     {
         id: 'MSK_20260602_1',
@@ -1071,7 +1129,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.610455, 37.561783],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260604_1',
@@ -1083,7 +1142,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.585289, 37.570236],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260606_1',
@@ -1109,7 +1169,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/52915",
         endReg: "2026-06-06 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'rublevo_2005'
     },
     {
         id: 'MSK_20260609_1',
@@ -1121,7 +1182,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.585289, 37.570236],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260611_1',
@@ -1133,7 +1195,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.738086, 37.386742],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20250404_702'
     },
     {
         id: 'MSK_20260612_1',
@@ -1146,7 +1209,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
         owner: "CLEVER_MSK",
-        o_gps: 25322
+        o_gps: 25322,
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260613_1',
@@ -1173,7 +1237,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/52918",
         endReg: "2026-06-16 23:55",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20260616_2',
@@ -1187,7 +1252,8 @@ let mskEvents2026 = [
         link: "https://vk.link/okuncevo",
         owner: "O_KUNTSEVO",
         endReg: "2026-06-13 23:55",
-        bulletin: "https://docs.google.com/document/d/1laYyreN63kj4AvwJc7y4EKhS56kdIqGICvIZ4cOT6cU/edit?tab=t.0"
+        bulletin: "https://docs.google.com/document/d/1laYyreN63kj4AvwJc7y4EKhS56kdIqGICvIZ4cOT6cU/edit?tab=t.0",
+        map: '20210531_872'
     },
     {
         id: 'MSK_20260618_1',
@@ -1200,7 +1266,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/53124",
         endReg: "2026-06-18 23:55",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20230130_884'
     },
     {
         id: 'MSK_20260620_1',
@@ -1240,7 +1307,8 @@ let mskEvents2026 = [
         coord: [55.708292, 37.55108],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/53125",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20210104_258'
     },
     {
         id: 'MSK_20260625_1',
@@ -1253,7 +1321,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/53126",
         endReg: "2026-06-25 23:55",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20250403_280'
     },
     {
         id: 'MSK_20260627_1',
@@ -1296,7 +1365,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/53127",
         endReg: "2026-06-30 23:55",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20250404_702'
     },
     {
         id: 'MSK_20260702_1',
@@ -1310,7 +1380,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/53128",
         endReg: "2026-07-02 23:55",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'neskuchny_2026'
     },
     {
         id: 'MSK_20260704_1',
@@ -1351,7 +1422,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/53129",
         endReg: "2026-07-07 23:55",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20210529_930'
     },
     {
         id: 'MSK_20260709_1',
@@ -1406,7 +1478,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/53131",
         endReg: "2026-07-14 23:55",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20230130_474'
     },
     {
         id: 'MSK_20260716_1',
@@ -1419,7 +1492,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/53132",
         endReg: "2026-07-16 23:55",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20250404_210'
     },
     {
         id: 'MSK_20260718_1',
@@ -1460,7 +1534,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/53133",
         endReg: "2026-07-21 23:55",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20210104_258'
     },
     {
         id: 'MSK_20260723_1',
@@ -1527,7 +1602,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/53135",
         endReg: "2026-07-28 23:55",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'hodynskoe_pole_2024'
     },
     {
         id: 'MSK_20260730_1',
@@ -1540,7 +1616,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/53136",
         endReg: "2026-07-30 23:55",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20260802_1',
@@ -1568,7 +1645,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/53137",
         endReg: "2026-08-04 23:55",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20250403_280'
     },
     {
         id: 'MSK_20260806_1',
@@ -1581,7 +1659,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/53138",
         endReg: "2026-08-06 23:55",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20210529_930'
     },
     {
         id: 'MSK_20260811_1',
@@ -1594,7 +1673,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/53139",
         endReg: "2026-08-11 23:55",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20250404_210'
     },
     {
         id: 'MSK_20260813_1',
@@ -1697,7 +1777,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.693329, 37.772224],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20250403_463'
     },
     {
         id: 'MSK_20260827_1',
@@ -1709,7 +1790,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.585289, 37.570236],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260829_1',
@@ -1771,7 +1853,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.632622, 37.58086],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260903_1',
@@ -1783,7 +1866,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.585289, 37.570236],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260905_1',
@@ -1808,7 +1892,8 @@ let mskEvents2026 = [
         coord: [55.826338, 37.487866],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20260908_1',
@@ -1820,7 +1905,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.624519, 37.546818],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260910_1',
@@ -1832,7 +1918,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.626858, 37.544853],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260912_1',
@@ -1843,7 +1930,8 @@ let mskEvents2026 = [
         fmt: "велокросс - классика",
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: '20250403_280'
     },
     {
         id: 'MSK_20260912_2',
@@ -1879,7 +1967,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.632622, 37.58086],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260917_1',
@@ -1891,7 +1980,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.632622, 37.58086],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260919_1',
@@ -1904,7 +1994,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54583",
         endReg: "2026-09-18 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20250404_702'
     },
     {
         id: 'MSK_20260920_1',
@@ -1918,7 +2009,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/54829",
         endReg: "2026-09-17 23:55",
         bulletin: "https://docs.google.com/document/d/1BcvBNomUrfcUjd7ceWLv8h0L1DB6-X7LjhsHuhCy8yU/edit?tab=t.0",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: 'fosforitny_2022'
     },
     {
         id: 'MSK_20260922_1',
@@ -1930,7 +2022,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.62772, 37.538666],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20260924_1',
@@ -1942,7 +2035,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.693329, 37.772224],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20250403_463'
     },
     {
         id: 'MSK_20260926_1',
@@ -2003,7 +2097,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.826338, 37.487866],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20261001_1',
@@ -2015,7 +2110,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.760006, 37.398121],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20230130_884'
     },
     {
         id: 'MSK_20261003_1',
@@ -2039,7 +2135,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54726",
         endReg: "2026-10-02 20:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'clean_lakes_2026'
     },
     {
         id: 'MSK_20261003_3',
@@ -2064,7 +2161,8 @@ let mskEvents2026 = [
         fmt: "велокросс-эст. 2 чел.",
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: '20210105_869'
     },
     {
         id: 'MSK_20261004_2',
@@ -2078,7 +2176,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/54731",
         endReg: "2026-10-03 21:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20210103_183'
     },
     {
         id: 'MSK_20261006_1',
@@ -2090,7 +2189,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.62772, 37.538666],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20261008_1',
@@ -2102,7 +2202,8 @@ let mskEvents2026 = [
         fmt: "кросс-выбор ночн.",
         coord: [55.779381, 37.42537],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20210529_930'
     },
     {
         id: 'MSK_20261009_1',
@@ -2116,7 +2217,8 @@ let mskEvents2026 = [
         link: "https://vk.link/okuncevo",
         owner: "O_KUNTSEVO",
         endReg: "2026-10-07 23:55",
-        bulletin: "https://docs.google.com/document/d/1TuJB5i0r748oRKIRpes1M8vLjbm2k9PCODAh_CfExAQ/edit?usp=sharing"
+        bulletin: "https://docs.google.com/document/d/1TuJB5i0r748oRKIRpes1M8vLjbm2k9PCODAh_CfExAQ/edit?usp=sharing",
+        map: 'krylatskoe_1990'
     },
     {
         id: 'MSK_20261010_1',
@@ -2127,7 +2229,8 @@ let mskEvents2026 = [
         fmt: "кросс-классика",
         coord: [55.826338, 37.487866],
         link: "http://horoshevo-o-team.ru/",
-        reg: "https://sportident.online/?en&c=6&land=643&reg=77"
+        reg: "https://sportident.online/?en&c=6&land=643&reg=77",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20261010_2',
@@ -2139,7 +2242,8 @@ let mskEvents2026 = [
         coord: [55.821803, 37.565762],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20230130_803'
     },
     {
         id: 'MSK_20261011_1',
@@ -2151,7 +2255,8 @@ let mskEvents2026 = [
         coord: [55.613575, 37.576565],
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/46826",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20261013_1',
@@ -2163,7 +2268,8 @@ let mskEvents2026 = [
         fmt: "кросс-выбор ночн.",
         coord: [55.779381, 37.42537],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20210529_930'
     },
     {
         id: 'MSK_20261015_1',
@@ -2175,7 +2281,8 @@ let mskEvents2026 = [
         fmt: "кросс-выбор ночн.",
         coord: [55.647988, 37.466378],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: 'troparevo_2019'
     },
     {
         id: 'MSK_20261017_1',
@@ -2186,7 +2293,8 @@ let mskEvents2026 = [
         fmt: "кросс-спринт",
         coord: [55.826338, 37.487866],
         link: "http://horoshevo-o-team.ru/",
-        reg: "https://sportident.online/?en&c=6&land=643&reg=77"
+        reg: "https://sportident.online/?en&c=6&land=643&reg=77",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20261017_2',
@@ -2200,7 +2308,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/54739",
         endReg: "2026-10-16 21:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20210104_258'
     },
     {
         id: 'MSK_20261018_1',
@@ -2214,7 +2323,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/55386",
         endReg: "2026-10-14 23:55",
         bulletin: "https://docs.google.com/document/d/1OwlT3U-VS7wQVgTyNdULP5Uv1wocD-4DpWHCnfP6MNk/edit?tab=t.0",
-        owner: "FSO_MSK"
+        owner: "FSO_MSK",
+        map: 'ostashovo_2024'
     },
     {
         id: 'MSK_20261020_1',
@@ -2226,7 +2336,8 @@ let mskEvents2026 = [
         fmt: "кросс-выбор ночн.",
         coord: [55.598554, 37.524075],
         link: "https://mosmeridian.website.yandexcloud.net/",
-        owner: "SYTV_N"
+        owner: "SYTV_N",
+        map: '20210103_146'
     },
     {
         id: 'MSK_20261022_1',
@@ -2251,7 +2362,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54740",
         endReg: "2026-10-23 21:10",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20261025_1',
@@ -2263,7 +2375,8 @@ let mskEvents2026 = [
         coord: [55.734524, 37.800192],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20250403_280'
     },
     {
         id: 'MSK_20261027_1',
@@ -2286,7 +2399,8 @@ let mskEvents2026 = [
         coord: [55.754982, 37.414317],
         link: "https://docs.google.com/document/d/1DID6DMyjEtu0XLz_lBX7ht_wv21yYyEnEh9MvWkBWq8/edit?usp=sharing",
         reg: "https://buyrun.ru/event/158",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: '20210531_610'
     },
     {
         id: 'MSK_20261031_1',
@@ -2300,7 +2414,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/54741",
         endReg: "2026-10-30 21:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20230130_884'
     },
     {
         id: 'MSK_20261101_1',
@@ -2313,7 +2428,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54742",
         endReg: "2026-10-31 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20261104_1',
@@ -2338,7 +2454,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54743",
         endReg: "2026-11-06 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'neskuchny_2026'
     },
     {
         id: 'MSK_20261107_2',
@@ -2348,7 +2465,8 @@ let mskEvents2026 = [
         type: "ROGAINE",
         fmt: "рогейн",
         coord: [55.842697, 37.401472],
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: '20200919_688'
     },
     {
         id: 'MSK_20261108_1',
@@ -2361,7 +2479,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54744",
         endReg: "2026-11-07 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20261114_1',
@@ -2374,7 +2493,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54745",
         endReg: "2026-11-13 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'rublevo_2005'
     },
     {
         id: 'MSK_20261114_2',
@@ -2388,7 +2508,8 @@ let mskEvents2026 = [
         link: "https://vk.link/okuncevo",
         owner: "O_KUNTSEVO",
         endReg: "2026-11-12 23:55",
-        bulletin: "https://docs.google.com/document/d/1F7G92AA2MWIlq9dpb8_lT2mLyIIUn4eWLfIB7SpVsXc/edit?usp=sharing"
+        bulletin: "https://docs.google.com/document/d/1F7G92AA2MWIlq9dpb8_lT2mLyIIUn4eWLfIB7SpVsXc/edit?usp=sharing",
+        map: 'krylatskoe_1990'
     },
     {
         id: 'MSK_20261115_1',
@@ -2401,7 +2522,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54746",
         endReg: "2026-11-14 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'timiryazevsky_2026'
     },
     {
         id: 'MSK_20261121_1',
@@ -2414,7 +2536,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54747",
         endReg: "2026-11-20 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20250404_702'
     },
     {
         id: 'MSK_20261122_1',
@@ -2444,7 +2567,8 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54749",
         endReg: "2026-11-27 21:00",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20210103_183'
     },
     {
         id: 'MSK_20261129_1',
@@ -2458,7 +2582,8 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/54735",
         endReg: "2026-11-28 21:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20261205_1',
@@ -2493,7 +2618,8 @@ let mskEvents2026 = [
         coord: [55.88257, 37.477713],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20220112_220'
     },
     {
         id: 'MSK_20261213_1',
@@ -2505,7 +2631,8 @@ let mskEvents2026 = [
         coord: [55.618874, 37.531153],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20261219_1',
@@ -2517,7 +2644,8 @@ let mskEvents2026 = [
         coord: [55.855258, 37.485581],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: '20250404_210'
     },
     {
         id: 'MSK_20261220_1',
@@ -2529,7 +2657,8 @@ let mskEvents2026 = [
         coord: [55.644514, 37.461288],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
-        owner: "CLEVER_MSK"
+        owner: "CLEVER_MSK",
+        map: 'troparevo_1990'
     },
     {
         id: 'MSK_20261220_2',

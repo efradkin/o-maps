@@ -42,7 +42,8 @@ let events2019 = [
         o_site: '190113lo',
         reg: 'https://orgeo.ru/event/8260',
         bulletin: 'https://o-site.spb.ru/_races/190113lo/190113_Info.pdf',
-        endReg: '2019-01-11 15:30'
+        endReg: '2019-01-11 15:30',
+        map: 'shapki_winter_2019'
     },
     {
         id: 'SPB_20190113_2',
@@ -190,7 +191,8 @@ let events2019 = [
         name: 'Кубок Белых Ночей, 8 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/201819_BN/190302_split.htm',
-        reskeep: 127
+        reskeep: 127,
+        map: 'sestroretsk_tamozhennaya_doroga_2021'
     },
     {
         id: 'SPB_20190303_1',
@@ -373,7 +375,8 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1004',
         res: 'http://o-site.spb.ru/_races/190414/140419_res.htm',
         o_site: '190414',
-        bulletin: 'https://o-site.spb.ru/_races/190414/vikli_voeykovo.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/190414/vikli_voeykovo.pdf',
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20190417_1',
@@ -412,7 +415,8 @@ let events2019 = [
         bulletin: 'https://o-site.spb.ru/_races/190421/IB2_2019.pdf',
         maps: [
             'https://o-site.spb.ru/_races/190421/map_kolpino.jpg'
-        ]
+        ],
+        map: 'kolpino_nikolsky_skver_2019'
     },
     {
         id: 'SPB_20190421_2',
@@ -429,7 +433,8 @@ let events2019 = [
         place: 'Никольский сквер',
         coord: [59.745975, 30.600752],
         reg: 'https://orgeo.ru/event/9298',
-        endReg: '2019-04-20 00:00'
+        endReg: '2019-04-20 00:00',
+        map: 'kolpino_nikolsky_skver_2019'
     },
     {
         id: 'SPB_20190424_1',
@@ -567,7 +572,8 @@ let events2019 = [
         start: 'GORNY_CROSS',
         type: 'ROGAINE',
         res: 'http://www.o-site.spb.ru/_races/2019GK/190502R_split.htm',
-        o_site: '2019GK'
+        o_site: '2019GK',
+        map: 'luga_shalovo_lm_2023'
     },
     {
         id: 'SPB_20190504_2',
@@ -587,7 +593,8 @@ let events2019 = [
         res: 'http://www.o-site.spb.ru/_races/2019YC/190505_split.htm',
         reskeep: 122,
         start: 'YM_CUP',
-        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#249'
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#249',
+        map: 'elizavetino_2019'
     },
     {
         id: 'SPB_20190507_1',
@@ -667,7 +674,8 @@ let events2019 = [
         info: '5-е традиционные соревнования памяти Ю.А. Березюка Кубок города Кириши по спортивному ориентированию Кубок Профкома ООО «ПО Киришинефтеоргсинтез»',
         o_site: '190512b',
         bulletin: 'https://o-site.spb.ru/_races/190512b/190512_info.pdf',
-        owner: 'EGRV_SRG'
+        owner: 'EGRV_SRG',
+        map: 'tikhvin_road_2012'
     },
     {
         id: 'SPB_20190515_1',
@@ -836,7 +844,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190526/190526_sprint_results.htm',
         o_site: '190526',
         bulletin: 'https://o-site.spb.ru/_races/190526/20190526_sprint_info1.pdf',
-        reskeep: 141
+        reskeep: 141,
+        map: 'suoranda_2006'
     },
     {
         id: 'SPB_20190526_2',
@@ -849,7 +858,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190526_relay/190526_rezults.htm',
         o_site: '190526_relay',
         bulletin: 'https://o-site.spb.ru/_races/190526_relay/20190526_relay_info1.pdf',
-        reskeep: 142
+        reskeep: 142,
+        map: 'suoranda_2006'
     },
     {
         id: 'SPB_20190529_1',
@@ -867,7 +877,8 @@ let events2019 = [
         name: 'Кубок Белых ночей, 13 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/201819_BN/190601_split.htm',
-        reskeep: 146
+        reskeep: 146,
+        map: 'vorontsovskoe_simagino_2021'
     },
     {
         id: 'SPB_20190602_1',
@@ -884,7 +895,8 @@ let events2019 = [
         o_gps: {
             'М12/Ж12': 5828,
             'ALL': 5827
-        }
+        },
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20190607_1',
@@ -986,7 +998,8 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1047',
         res: 'http://o-site.spb.ru/_races/190622/190622_results.htm',
         o_site: '190622',
-        bulletin: 'https://o-site.spb.ru/_races/190622/20190622_class_info1.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/190622/20190622_class_info1.pdf',
+        map: 'sosnovo_ulovnoe_velo_2021'
     },
     {
         id: 'SPB_20190624_1',
@@ -1000,7 +1013,8 @@ let events2019 = [
         res: 'https://orgeo.ru/live/#/10004/2',
         photo: 'http://vk.com/album-9087078_264070934',
         o_site: '190624-26',
-        bulletin: 'https://o-site.spb.ru/_races/190624-26/190624_IB_1.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/190624-26/190624_IB_1.pdf',
+        map: 'krivko_ulovnoe_2023'
     },
     {
         id: 'SPB_20190628_1',
@@ -1035,7 +1049,8 @@ let events2019 = [
         name: 'Кубок Белых Ночей 2018/19, 14 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/201819_BN/190706_split.htm',
-        o_site: '201819_BN'
+        o_site: '201819_BN',
+        map: 'baryshevo_2015'
     },
     {
         id: 'SPB_20190707_1',
@@ -1044,7 +1059,8 @@ let events2019 = [
         name: 'Кубок Белых Ночей 2018/19, 15 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/201819_BN/190707_split.htm',
-        o_site: '201819_BN'
+        o_site: '201819_BN',
+        map: 'smoljanoe_2015'
     },
     {
         id: 'SPB_20190713_1',
@@ -1110,7 +1126,8 @@ let events2019 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1052',
         res: 'http://o-site.spb.ru/_races/190728/190728_res.htm',
         o_site: '190728',
-        bulletin: 'https://o-site.spb.ru/_races/190728/190728_info2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/190728/190728_info2.pdf',
+        map: 'vorobjevo_bn_2013'
     },
     {
         id: 'SPB_20190728_2',
@@ -1319,7 +1336,8 @@ let events2019 = [
         owner: 'WN',
         o_site: '190908',
         bulletin: 'https://o-site.spb.ru/_races/190908/190908_info2.pdf',
-        reskeep: 194
+        reskeep: 194,
+        map: 'vorontsovskoe_simagino_2021'
     },
     {
         id: 'SPB_20190911_1',
@@ -1345,7 +1363,8 @@ let events2019 = [
         reg: 'https://orgeo.ru/event/10288',
         bulletin: 'https://o-site.spb.ru/_races/190905/191010_info.pdf',
         reskeep: 213,
-        endReg: '2019-09-12 12:00'
+        endReg: '2019-09-12 12:00',
+        map: 'vartemjagi_north_2017'
     },
     {
         id: 'SPB_20190914_1',
@@ -1369,7 +1388,8 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1076',
         res: 'https://o-site.spb.ru/_races/190915/190915_rezMTBO.htm',
         o_site: '190915',
-        bulletin: 'https://o-site.spb.ru/_races/190915/20190915_long_info2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/190915/20190915_long_info2.pdf',
+        map: 'zelenogorsk_chernye_velo_2025'
     },
     {
         id: 'SPB_20190918_1',
@@ -1395,7 +1415,8 @@ let events2019 = [
         reg: 'https://orgeo.ru/event/10289',
         bulletin: 'https://o-site.spb.ru/_races/190905/191010_info.pdf',
         reskeep: 217,
-        endReg: '2019-09-19 12:00'
+        endReg: '2019-09-19 12:00',
+        map: 'toksovo_vifk_2000'
     },
     {
         id: 'SPB_20190921_1',
@@ -1407,7 +1428,8 @@ let events2019 = [
         reg: 'http://www.multsport.ru/starts/matrasoff-race-2019/registration.html',
         fmt: '8',
         owner: 'MULTSPORT',
-        o_site: '19092122'
+        o_site: '19092122',
+        map: 'losevo_rogaine_2024'
     },
     {
         id: 'SPB_20190921_2',
@@ -1429,7 +1451,8 @@ let events2019 = [
         name: 'МаТрешка 2019, 2 этап',
         start: 'MATRESHKA',
         res: 'http://o-site.spb.ru/_races/1909-12/190922_split_MT.htm',
-        reskeep: 201
+        reskeep: 201,
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20190922_1',
@@ -1472,7 +1495,8 @@ let events2019 = [
         reg: 'https://orgeo.ru/event/10293',
         bulletin: 'https://o-site.spb.ru/_races/190905/191010_info.pdf',
         reskeep: 218,
-        endReg: '2019-09-26 12:00'
+        endReg: '2019-09-26 12:00',
+        map: 'oselki_2015'
     },
     {
         id: 'SPB_20190929_1',
@@ -1558,7 +1582,8 @@ let events2019 = [
             'М3': 6531,
             'Ж3': 6530,
             'ALL': 6532
-        }
+        },
+        map: 'silande_2024'
     },
     {
         id: 'SPB_20191003_1',
@@ -1632,7 +1657,8 @@ let events2019 = [
         video: 'http://northernwind.spb.ru/videosplit/2019/chspbs_middle',
         o_site: '191006',
         reskeep: 272,
-        strava: 2767801547
+        strava: 2767801547,
+        map: 'krivko_ulovnoe_2023'
     },
     {
         id: 'SPB_20191009_1',
@@ -1655,7 +1681,8 @@ let events2019 = [
         start: 'SPRINT_TOUR',
         reskeep: 197,
         photo: 'https://vk.ru/album-92124592_267344035',
-        endReg: '2019-10-09 09:00'
+        endReg: '2019-10-09 09:00',
+        map: 'ozerki_2013'
     },
     {
         id: 'SPB_20191011_1',
@@ -1695,7 +1722,8 @@ let events2019 = [
         logo: 'azimut.gif',
         o_site: '191012_',
         bulletin: 'https://o-site.spb.ru/_races/191012_/Info_PetOs.pdf',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        map: 'bolotnaya_station_2019'
     },
     {
         id: 'SPB_20191012_3',
@@ -1717,7 +1745,8 @@ let events2019 = [
         place: 'Болотная станция',
         res: 'https://o-site.spb.ru/_races/191012_1/Stud_Res.pdf',
         o_site: '191012_1',
-        reskeep: 274
+        reskeep: 274,
+        map: 'bolotnaya_station_2019'
     },
     {
         id: 'SPB_20191012_5',
@@ -1768,17 +1797,19 @@ let events2019 = [
         owner: 'VYBORG',
         o_site: '191019-20',
         bulletin: 'https://o-site.spb.ru/_races/191019-20/Zol_Osen_2019.pdf',
-        reskeep: [279, 280]
+        reskeep: [279, 280],
+        map: 'kirovskie_dachi_2014'
     },
     {
         id: 'SPB_20191019_2',
         date: '2019-10-19',
-        place: 'Ильичево',
+        place: 'Ильичёво',
         name: 'Кубок Белых Ночей 2019/20, 3 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/191019_split.htm',
         o_site: '2020BN',
-        reskeep: 310
+        reskeep: 310,
+        map: 'ilychevo_2016'
     },
     {
         id: 'SPB_20191020_1',
@@ -1790,7 +1821,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191020/191020_SPLIT.htm',
         o_site: '191020',
         bulletin: 'https://o-site.spb.ru/_races/191020/191020_info3.pdf',
-        o_gps: 6662
+        o_gps: 6662,
+        map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
     {
         id: 'SPB_20191020_2',
@@ -1798,7 +1830,8 @@ let events2019 = [
         name: 'Спартакиада СПб среди кадетов',
         place: 'Сестрорецкие Дюны',
         o_site: '191020_VO',
-        bulletin: 'https://o-site.spb.ru/_races/191020_VO/191020_info3_vo.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/191020_VO/191020_info3_vo.pdf',
+        map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
     {
         id: 'SPB_20191023_1',
@@ -1875,7 +1908,8 @@ let events2019 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/191102_split.htm',
         o_site: '2020BN',
-        reskeep: 284
+        reskeep: 284,
+        map: 'pukhtolova_gora_2023'
     },
     {
         id: 'SPB_20191103_1',
@@ -1897,7 +1931,8 @@ let events2019 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/191103_split.htm',
         o_site: '2020BN',
-        reskeep: 285
+        reskeep: 285,
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20191104_1',
@@ -1939,7 +1974,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191109/191109_res.htm',
         o_site: '191109',
         bulletin: 'http://sport-orient.ru/wp-content/uploads/2019/11/7-noyabrya-2019-byulleten-%E2%84%961-.pdf',
-        reskeep: 287
+        reskeep: 287,
+        map: 'berngardovka_2021'
     },
     {
         id: 'SPB_20191109_3',
@@ -1949,7 +1985,8 @@ let events2019 = [
         start: 'KKR',
         type: 'ROGAINE',
         fmt: '3',
-        link: 'http://o-site.spb.ru/'
+        link: 'http://o-site.spb.ru/',
+        map: 'pervomajskoe_2015'
     },
     {
         id: 'SPB_20191110_1',
@@ -1976,7 +2013,8 @@ let events2019 = [
         res: 'https://orgeo.ru/live/#/11152',
         o_site: '191110',
         bulletin: 'https://o-site.spb.ru/_races/191110/191110_info2.pdf',
-        reskeep: 289
+        reskeep: 289,
+        map: 'sablino_2020'
     },
     {
         id: 'SPB_20191116_1',
@@ -2002,7 +2040,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191116/191116_rez.htm',
         video: 'https://www.youtube.com/watch?v=Xzxcv20BEWo',
         o_site: '191116',
-        bulletin: 'https://o-site.spb.ru/_races/191116/19111617_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/191116/19111617_info.pdf',
+        map: 'toksovo_vifk_2000'
     },
     {
         id: 'SPB_20191123_1',
@@ -2012,7 +2051,8 @@ let events2019 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/191123_split.htm',
         o_site: '2020BN',
-        reskeep: 308
+        reskeep: 308,
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20191124_1',
@@ -2094,7 +2134,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191201gs/191201_res.htm',
         owner: 'SFSO_LO',
         o_site: '191201gs',
-        bulletin: 'http://sport-orient.ru/wp-content/uploads/2019/11/informaczionnyj-byulleten-22shlisselburg22.pdf'
+        bulletin: 'http://sport-orient.ru/wp-content/uploads/2019/11/informaczionnyj-byulleten-22shlisselburg22.pdf',
+        map: 'shlisselburg_2019'
     },
     {
         id: 'SPB_20191207_1',
@@ -2104,7 +2145,8 @@ let events2019 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/191207_split.htm',
         o_site: '2020BN',
-        reskeep: 309
+        reskeep: 309,
+        map: 'bolotnaya_station_2019'
     },
     {
         id: 'SPB_20191208_1',
@@ -2119,7 +2161,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191208/191208_res.html',
         o_site: '191208',
         bulletin: 'https://o-site.spb.ru/_races/191208/191208_info.pdf',
-        reskeep: 292
+        reskeep: 292,
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20191214_1',
@@ -2129,7 +2172,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191214_trail/Result.pdf',
         info: '14 декабря в Сквере Пограничников (Сестрорецк) состоится открытая тренировка по трейл-ориентированию.',
         type: 'TRAIL_O',
-        o_site: '191214_trail'
+        o_site: '191214_trail',
+        map: 'sestroretsk_skver_pogranichnikov_2014'
     },
     {
         id: 'SPB_20191214_2',
@@ -2139,7 +2183,8 @@ let events2019 = [
         place: 'Орово',
         res: 'http://o-site.spb.ru/_races/2018WN/191214_split.htm',
         strava: 2932167797,
-        reskeep: 291
+        reskeep: 291,
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20191215_1',

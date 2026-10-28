@@ -12,7 +12,8 @@ let mskEvents2025 = [
         endReg: "2025-01-02 21:00",
         res: "http://o-mephi.net/cup/prot/novnoch2025_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210529_464'
     },
     {
         id: 'MSK_20250109_1',
@@ -57,7 +58,8 @@ let mskEvents2025 = [
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_1_.htm",
         owner: "CLEVER_MSK",
         photo: "https://vk.com/albums-78257998",
-        o_gps: 21424
+        o_gps: 21424,
+        map: '20210529_21'
     },
     {
         id: 'MSK_20250123_1',
@@ -90,7 +92,8 @@ let mskEvents2025 = [
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_2_.htm",
         owner: "CLEVER_MSK",
         photo: "https://vk.com/albums-78257998",
-        o_gps: 21487
+        o_gps: 21487,
+        map: '20250403_463'
     },
     {
         id: 'MSK_20250131_1',
@@ -105,7 +108,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/Gorunov_2025W_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'marino_ski_2026'
     },
     {
         id: 'MSK_20250201_1',
@@ -120,7 +124,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls/",
         res: "http://celestia.su/ol",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'aleshkino_1992'
     },
     {
         id: 'MSK_20250202_1',
@@ -198,7 +203,8 @@ let mskEvents2025 = [
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_5_.htm",
         owner: "CLEVER_MSK",
         photo: "https://vk.com/albums-78257998",
-        o_gps: 21611
+        o_gps: 21611,
+        map: '20210529_930'
     },
     {
         id: 'MSK_20250215_1',
@@ -245,7 +251,8 @@ let mskEvents2025 = [
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_7_.htm",
         owner: "CLEVER_MSK",
         photo: "https://vk.com/albums-78257998",
-        o_gps: 21660
+        o_gps: 21660,
+        map: '20210529_21'
     },
     {
         id: 'MSK_20250222_1',
@@ -261,7 +268,8 @@ let mskEvents2025 = [
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_8_.htm",
         owner: "CLEVER_MSK",
         photo: "https://vk.com/albums-78257998",
-        o_gps: 21688
+        o_gps: 21688,
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20250301_1',
@@ -291,7 +299,8 @@ let mskEvents2025 = [
         endReg: "2025-03-01 21:50",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_2_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250404_210'
     },
     {
         id: 'MSK_20250308_1',
@@ -320,7 +329,8 @@ let mskEvents2025 = [
         endReg: "2025-03-08 21:00",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_3_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250403_647'
     },
     {
         id: 'MSK_20250315_1',
@@ -336,7 +346,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_4_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'matveevskoe_2023'
     },
     {
         id: 'MSK_20250316_1',
@@ -368,7 +379,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_6_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250403_647'
     },
     {
         id: 'MSK_20250323_1',
@@ -384,7 +396,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_7_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20230130_202'
     },
     {
         id: 'MSK_20250329_1',
@@ -400,7 +413,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_8_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'medvedkovo_2024'
     },
     {
         id: 'MSK_20250330_1',
@@ -416,7 +430,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_9_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210104_340'
     },
     {
         id: 'MSK_20250405_1',
@@ -432,7 +447,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_10_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20250406_1',
@@ -460,7 +476,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosNanorogaine_2025_1_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210603_109'
     },
     {
         id: 'MSK_20250419_1',
@@ -476,7 +493,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/MCR_2025_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250424_643'
     },
     {
         id: 'MSK_20250504_1',
@@ -506,7 +524,8 @@ let mskEvents2025 = [
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_11_.htm",
         owner: "CLEVER_MSK",
         photo: "https://vk.com/albums-78257998",
-        o_gps: 22519
+        o_gps: 22519,
+        map: '20230130_140'
     },
     {
         id: 'MSK_20250509_1',
@@ -522,7 +541,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/Den_Pobedi_2025_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250404_210'
     },
     {
         id: 'MSK_20250510_1',
@@ -570,7 +590,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_14_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'shmelevka_2026'
     },
     {
         id: 'MSK_20250607_1',
@@ -602,7 +623,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/MosVesna_2025_16_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'aleshkino_1992'
     },
     {
         id: 'MSK_20250612_1',
@@ -632,7 +654,8 @@ let mskEvents2025 = [
         endReg: "2025-06-17 23:55",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_1_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20250619_1',
@@ -647,7 +670,8 @@ let mskEvents2025 = [
         endReg: "2025-06-19 23:00",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_2_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20230130_884'
     },
     {
         id: 'MSK_20250624_1',
@@ -662,7 +686,8 @@ let mskEvents2025 = [
         endReg: "2025-06-24 23:55",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_3_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250404_210'
     },
     {
         id: 'MSK_20250626_1',
@@ -677,7 +702,8 @@ let mskEvents2025 = [
         endReg: "2025-06-26 23:55",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_4_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250403_280'
     },
     {
         id: 'MSK_20250629_1',
@@ -708,7 +734,8 @@ let mskEvents2025 = [
         endReg: "2025-07-01 23:55",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_5_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210529_930'
     },
     {
         id: 'MSK_20250703_1',
@@ -723,7 +750,8 @@ let mskEvents2025 = [
         endReg: "2025-07-03 23:55",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_6_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210104_258'
     },
     {
         id: 'MSK_20250706_1',
@@ -740,7 +768,8 @@ let mskEvents2025 = [
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_10_.htm",
         owner: "CLEVER_MSK",
         photo: "https://vk.com/albums-78257998",
-        o_gps: 23021
+        o_gps: 23021,
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20250708_1',
@@ -755,7 +784,8 @@ let mskEvents2025 = [
         endReg: "2025-07-08 23:55",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_7_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250403_463'
     },
     {
         id: 'MSK_20250710_1',
@@ -785,7 +815,8 @@ let mskEvents2025 = [
         endReg: "2025-07-15 23:55",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_9_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20230130_474'
     },
     {
         id: 'MSK_20250717_1',
@@ -801,7 +832,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_10_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210531_842'
     },
     {
         id: 'MSK_20250722_1',
@@ -817,7 +849,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_11_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210104_258'
     },
     {
         id: 'MSK_20250724_1',
@@ -848,7 +881,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_13_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'hodynskoe_pole_2024'
     },
     {
         id: 'MSK_20250731_1',
@@ -864,7 +898,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_14_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20250805_1',
@@ -879,7 +914,8 @@ let mskEvents2025 = [
         endReg: "2025-08-05 23:55",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_15_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250403_280'
     },
     {
         id: 'MSK_20250807_1',
@@ -894,7 +930,8 @@ let mskEvents2025 = [
         endReg: "2025-08-07 23:55",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_16_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210529_930'
     },
     {
         id: 'MSK_20250812_1',
@@ -908,7 +945,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_17_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250403_463'
     },
     {
         id: 'MSK_20250814_1',
@@ -922,7 +960,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/44539",
         res: "http://o-mephi.net/cup/prot/Mosleto2025_18_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210104_258'
     },
     {
         id: 'MSK_20250823_1',
@@ -950,7 +989,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_2_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'shmelevka_2026'
     },
     {
         id: 'MSK_20250830_1',
@@ -1055,7 +1095,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/PokrGoriz_2025_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20250927_1',
@@ -1071,7 +1112,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/MCR_2025_2_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'patriki_yakimanka_2026'
     },
     {
         id: 'MSK_20250927_2',
@@ -1087,7 +1129,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_11_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210104_258'
     },
     {
         id: 'MSK_20250928_1',
@@ -1104,7 +1147,8 @@ let mskEvents2025 = [
         res: "http://o-mephi.net/cup/prot/nano_podkust_2025_12_.htm",
         owner: "CLEVER_MSK",
         photo: "https://vk.com/albums-78257998",
-        o_gps: 23535
+        o_gps: 23535,
+        map: 'fosforitny_2022'
     },
     {
         id: 'MSK_20250928_2',
@@ -1118,7 +1162,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://celestia.su/ol",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'fosforitny_2022'
     },
     {
         id: 'MSK_20251004_1',
@@ -1134,7 +1179,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/Gorunov_2025_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210104_258'
     },
     {
         id: 'MSK_20251011_1',
@@ -1162,7 +1208,8 @@ let mskEvents2025 = [
         endReg: "2025-10-10 21:00",
         res: "http://o-mephi.net/cup/prot/mososen_2025_2_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'shmelevka_2026'
     },
     {
         id: 'MSK_20251018_1',
@@ -1178,7 +1225,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/Dubki_2025_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20230130_803'
     },
     {
         id: 'MSK_20251018_2',
@@ -1193,7 +1241,8 @@ let mskEvents2025 = [
         endReg: "2025-10-17 23:00",
         res: "http://o-mephi.net/cup/prot/mososen_2025_7_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20230130_803'
     },
     {
         id: 'MSK_20251019_1',
@@ -1207,7 +1256,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/Moscompasorienta_2025_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250403_463'
     },
     {
         id: 'MSK_20251025_1',
@@ -1221,7 +1271,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_8x_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250404_702'
     },
     {
         id: 'MSK_20251025_2',
@@ -1235,7 +1286,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/mososen_2025_8_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250404_702'
     },
     {
         id: 'MSK_20251026_1',
@@ -1251,7 +1303,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/ZolOsen_2025_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250403_280'
     },
     {
         id: 'MSK_20251102_1',
@@ -1267,7 +1320,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/mososen_2025_9_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20230130_884'
     },
     {
         id: 'MSK_20251103_1',
@@ -1283,7 +1337,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/mososen_2025_10_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20251104_1',
@@ -1298,7 +1353,8 @@ let mskEvents2025 = [
         res: "http://o-mephi.net/cup/prot/MosNanorogaine_2025_4_.htm",
         owner: "CLEVER_MSK",
         photo: "https://vk.com/albums-78257998",
-        o_gps: 23820
+        o_gps: 23820,
+        map: 'lytkarino_bno_2016'
     },
     {
         id: 'MSK_20251108_1',
@@ -1314,7 +1370,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/mososen_2025_11_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210104_258'
     },
     {
         id: 'MSK_20251109_1',
@@ -1330,7 +1387,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/mososen_2025_12_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20251115_1',
@@ -1346,7 +1404,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/mososen_2025_13_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'rublevo_2005'
     },
     {
         id: 'MSK_20251116_1',
@@ -1378,7 +1437,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/mososen_2025_15_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250404_702'
     },
     {
         id: 'MSK_20251123_1',
@@ -1394,7 +1454,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/mososen_2025_16_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'aleshkino_1992'
     },
     {
         id: 'MSK_20251129_1',
@@ -1410,7 +1471,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/mososen_2025_17_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210103_183'
     },
     {
         id: 'MSK_20251130_1',
@@ -1426,7 +1488,8 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/pokr_2025_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20230130_140'
     },
     {
         id: 'MSK_20251206_1',
@@ -1440,7 +1503,8 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         res: "http://o-mephi.net/cup/prot/MosNanorogaine_2025_5_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'patriki_yakimanka_2026'
     },
     {
         id: 'MSK_20251213_1',
@@ -1455,7 +1519,8 @@ let mskEvents2025 = [
         endReg: "2025-12-12 21:00",
         res: "http://o-mephi.net/cup/prot/snej_2025_1_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20220112_220'
     },
     {
         id: 'MSK_20251214_1',
@@ -1470,7 +1535,8 @@ let mskEvents2025 = [
         endReg: "2025-12-13 21:00",
         res: "http://o-mephi.net/cup/prot/snej_2025_2_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: 'big_bitsa_2024'
     },
     {
         id: 'MSK_20251220_1',
@@ -1485,7 +1551,8 @@ let mskEvents2025 = [
         endReg: "2025-12-19 21:00",
         res: "http://o-mephi.net/cup/prot/snej_2025_3_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20250404_210'
     },
     {
         id: 'MSK_20251221_1',
@@ -1501,6 +1568,7 @@ let mskEvents2025 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         res: "http://o-mephi.net/cup/prot/snej_2025_4_.htm",
         owner: "CLEVER_MSK",
-        photo: "https://vk.com/albums-78257998"
+        photo: "https://vk.com/albums-78257998",
+        map: '20210616_394'
     },
 ]

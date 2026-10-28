@@ -21,7 +21,8 @@ let otherEvents2026 = [
     type: 'RUN',
     fmt: '21, 10, 3',
     start: 'PUSHKINRUN',
-    track: 'pavlovsky_zabeg_21'
+    track: 'pavlovsky_zabeg_21',
+    map: 'pavlovsk_school_464'
 },
 {
     id: 'OTHER_20260419_1',
@@ -104,7 +105,8 @@ let otherEvents2026 = [
     type: 'RUN',
     fmt: '21, 10, 3',
     start: 'PUSHKINRUN',
-    track: 'pavlovsky_zabeg_21'
+    track: 'pavlovsky_zabeg_21',
+    map: 'pavlovsk_school_464'
 },
 {
     id: 'OTHER_20261025_1',
@@ -127,7 +129,8 @@ let otherEvents2026 = [
     type: 'RUN',
     fmt: '20, 7',
     logo: 'nemartovsky.gif',
-    track: 'igora_nemartovsky_2024'
+    track: 'igora_nemartovsky_2024',
+    map: 'igora_2023'
 },
 {
     id: 'OTHER_20261108_1',
@@ -138,7 +141,8 @@ let otherEvents2026 = [
     type: 'RUN',
     fmt: '21, 10, 2',
     start: 'GATCHINA',
-    track: 'gatchina_half_2024_21km'
+    track: 'gatchina_half_2024_21km',
+    map: 'gatchina_aerodrom_2022'
 },
 /* --- ЛЫЖИ --- */
 // https://docs.google.com/spreadsheets/d/e/2PACX-1vRJJXxtBc9nqhZpFvcvX-q39mVoblSGQW1pR6OnuLODBFyXLdgg0JZUdIdN1Lgp0I3jzwm7dB5zCudK/pubhtml?gid=1063843429&single=true
@@ -167,7 +171,8 @@ let otherEvents2026 = [
     start: 'TOKSOVO_CUP',
     track: 'ohtapark_ski',
     photo: ['https://www.sport-images.ru/events/lijniy-marafon-toksovocup-skate-2026/','https://www.sport-images.ru/events/lijniy-marafon-toksovocup-classic-2026/'],
-    coord: [60.127481, 30.463336]
+    coord: [60.127481, 30.463336],
+    map: 'toksovo_okhta_park_2008'
 },
 {
     id: 'OTHER_20260208_1',
@@ -180,7 +185,8 @@ let otherEvents2026 = [
     fmt: '50 classic',
     owner: 'GARBOLOVO',
     track: 'garbolovo_master_ski',
-    coord: [60.338019, 30.500704]
+    coord: [60.338019, 30.500704],
+    map: 'garbolovo_zmeinoe_2022'
 },
 {
     id: 'OTHER_20260321_1',

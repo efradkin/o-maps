@@ -8,7 +8,8 @@ let eventsEarly = [
         type: 'SKI',
         fmt: 'ночной закрытый маршрут, командные',
         info: 'Первые зимние соревнования по закрытому маршруту, организатор В.В. Добкович. 16 мужских и 10 женских команд по 10 человек: мужчины — 26,5 км с винтовкой, противогазом и 8 кг груза, женщины — 8,5 км.',
-        link: 'https://o-site.spb.ru/history/Knots/1941.html'
+        link: 'https://o-site.spb.ru/history/Knots/1941.html',
+        map: 'kavgolovo_1972'
     },
     {
         id: 'MAJOR_19580606_1',
@@ -27,7 +28,8 @@ let eventsEarly = [
         place: 'Рощино, Линдуловская роща',
         name: 'Первенство Ленинграда, первые дневные личные соревнования',
         info: '32 мужчины и 17 женщин. Главный судья Р.А. Рыбин, карта (1:20 000) и дистанции — Л.В. Лебёдкин. Победители: А. Муравьёв (8,2 км, 5 КП) и Т. Силивестрова (5,7 км, 5 КП). В 2016 году ФСО России признала 19 июля 1959 года днём рождения отечественного спортивного ориентирования.',
-        link: 'https://o-site.spb.ru/history/Knots/1959.html'
+        link: 'https://o-site.spb.ru/history/Knots/1959.html',
+        map: 'roschino_1971_wn'
     },
     {
         id: 'SPB_19590920_1',
@@ -100,7 +102,8 @@ let eventsEarly = [
         place: 'Пески',
         name: 'Матч пяти городов',
         info: 'Матч сборных Эстонской ССР, Литовской ССР, Москвы, Ленинграда и Свердловска, позднее — «Матч восьми городов». Главный судья А.И. Муравьёв, главный секретарь Н.А. Григоренко, начальник дистанции Л.В. Лебёдкин.',
-        link: 'https://o-site.spb.ru/history/Knots/match-63.html'
+        link: 'https://o-site.spb.ru/history/Knots/match-63.html',
+        map: 'peski_2001'
     },
     {
         id: 'SPB_19630819_1',
@@ -236,14 +239,16 @@ let eventsEarly = [
         date: '1969-04-20',
         place: 'Павловск',
         name: 'П-во ЛГУ им.Жданова',
-        res: './docs/1969/1969_04_20_lgu_pavlovsk_omaps.pdf'
+        res: './docs/1969/1969_04_20_lgu_pavlovsk_omaps.pdf',
+        map: 'pavlovsk_school_464'
     },
     {
         id: 'SPB_19690427_1',
         date: '1969-04-27',
         place: 'Невский л/п',
         name: 'П-во мат-меха ЛГУ',
-        res: './docs/1969/1969_04_27_matmech_lgu_nevsky_omaps.pdf'
+        res: './docs/1969/1969_04_27_matmech_lgu_nevsky_omaps.pdf',
+        map: 'nevsky_1990'
     },
     {
         id: 'SPB_19690508_1',
@@ -258,7 +263,8 @@ let eventsEarly = [
         date: '1969-05-25',
         place: '69км, оз Осиновское',
         name: 'Приз Ленинградского турклуба',
-        res: './docs/1969/1969_05_25_lkt_omaps.pdf'
+        res: './docs/1969/1969_05_25_lkt_omaps.pdf',
+        map: 'sverdlovets_velo_2021'
     },
     {
         id: 'SPB_19690621_1',
@@ -283,7 +289,8 @@ let eventsEarly = [
         endDate: '1969-07-03',
         place: 'Ленинское, Воейково',
         name: 'Всероссийские соревнования школьников',
-        info: 'Впервые под Ленинградом, с участием команды Болгарии; организованы ЛДП им. А.А. Жданова при содействии городской секции. Главный судья А.И. Муравьёв, главный секретарь Н.В. Благово.'
+        info: 'Впервые под Ленинградом, с участием команды Болгарии; организованы ЛДП им. А.А. Жданова при содействии городской секции. Главный судья А.И. Муравьёв, главный секретарь Н.В. Благово.',
+        map: ['zelenogorsk_chernye_1999', 'voeykovo_1977']
     },
     {
         id: 'SPB_19690719_1',
@@ -292,7 +299,8 @@ let eventsEarly = [
         place: 'Ильичёво, оз Долгое',
         name: 'II-я матчевая встреча Рига - Ленинград',
         planner: 'KPSTN',
-        res: './docs/1969/1969_07_19_riga_leningrad_omaps.pdf'
+        res: './docs/1969/1969_07_19_riga_leningrad_omaps.pdf',
+        map: 'ilychevo_dolgoe_1995'
     },
     {
         id: 'MAJOR_19690905_1',
@@ -324,7 +332,8 @@ let eventsEarly = [
         name: 'Новогодняя эстафета',
         type: 'SKI',
         fmt: 'эстафета',
-        info: 'Первая «Новогодняя эстафета», по инициативе Л.В. Белякова и А.Д. Котова. С 1974 года и до начала 1990-х её проводил спортклуб «Позитрон».'
+        info: 'Первая «Новогодняя эстафета», по инициативе Л.В. Белякова и А.Д. Котова. С 1974 года и до начала 1990-х её проводил спортклуб «Позитрон».',
+        map: 'kavgolovo_1972'
     },
     {
         id: 'SPB_19700222_1',
@@ -403,7 +412,8 @@ let eventsEarly = [
         date: '1971-09-19',
         place: 'Комарово',
         name: 'Первенство Ленинграда, марафон',
-        res: './docs/1971/1971_09_19_leningrad_marathon_omaps.pdf'
+        res: './docs/1971/1971_09_19_leningrad_marathon_omaps.pdf',
+        map: 'komarovo_1990'
     },
     {
         id: 'SPB_19720122_1',
@@ -415,7 +425,8 @@ let eventsEarly = [
         fmt: 'маркир, заданное направление',
         info: 'Первый зимний матч. 23 января впервые в Ленинграде проведено ориентирование в заданном направлении на лыжах (начальник дистанции С.Н. Крылов). Победители: маркированная трасса — В. Малинин и З. Пятакова, заданное направление — А. Базанов и З. Пятакова. Счёт Э:Л 0:1.',
         link: 'https://o-site.spb.ru/history/History/estle-w.html',
-        start: 'ESTONIA_LENINGRAD'
+        start: 'ESTONIA_LENINGRAD',
+        map: 'kavgolovo_1972'
     },
     {
         id: 'MAJOR_19720219_1',
@@ -441,7 +452,8 @@ let eventsEarly = [
         place: 'Комарово, оз Щучье',
         name: 'Приз Ленинградского телевидения',
         info: 'Первые массовые соревнования на призы Ленинградского телевидения, по инициативе Н.В. Благово и при помощи спортивного комментатора Б.Б. Клецко.',
-        link: 'https://o-site.spb.ru/history/History/tv-72.html'
+        link: 'https://o-site.spb.ru/history/History/tv-72.html',
+        map: 'komarovo_1990'
     },
     {
         id: 'SPB_19730218_1',
@@ -471,7 +483,8 @@ let eventsEarly = [
         place: 'Сосновка',
         name: 'Ориентир',
         info: 'Первые открытые массовые тренировочные соревнования «Ориентир», организатор Ю.Л. Шелёхин.',
-        start: 'ORIENTIR'
+        start: 'ORIENTIR',
+        map: 'sosnovka_1975'
     },
     {
         id: 'SPB_19730602_4',
@@ -487,7 +500,8 @@ let eventsEarly = [
         endDate: '1974-07-21',
         place: 'Тарасовское',
         name: '15 лет ленинградского ориентирования',
-        info: 'Соревнования, посвящённые 15-летию ленинградского ориентирования.'
+        info: 'Соревнования, посвящённые 15-летию ленинградского ориентирования.',
+        map: 'tarasovskoe_1995'
     },
     {
         id: 'SPB_19750126_1',
@@ -519,7 +533,8 @@ let eventsEarly = [
         endDate: '1976-07-11',
         place: 'Воейково',
         name: 'Летняя Спартакиада Ленинграда',
-        info: 'Ориентирование впервые включено в программу летней Спартакиады Ленинграда. Главный судья А.К. Григоренко, главный секретарь Н.А. Григоренко, начальники дистанций Н.В. Благово, Л.В. Лебёдкин, Д.Б. Милов, А.И. Ходанович.'
+        info: 'Ориентирование впервые включено в программу летней Спартакиады Ленинграда. Главный судья А.К. Григоренко, главный секретарь Н.А. Григоренко, начальники дистанций Н.В. Благово, Л.В. Лебёдкин, Д.Б. Милов, А.И. Ходанович.',
+        map: 'voeykovo_1977'
     },
     {
         id: 'SPB_19770226_1',
@@ -620,7 +635,8 @@ let eventsEarly = [
         name: 'П-во Ленинграда среди к/ф',
         fmt: 'эстафета',
         planner: 'DVRKO_V',
-        res: './docs/1979/1979_03_08_leningrad_kf_relay_omaps.pdf'
+        res: './docs/1979/1979_03_08_leningrad_kf_relay_omaps.pdf',
+        map: 'kavgolovo_1972'
     },
     {
         id: 'SPB_19790310_1',
@@ -678,7 +694,8 @@ let eventsEarly = [
         place: 'Кавголово, Осельки',
         name: 'Первые Всесоюзные соревнования ветеранов',
         info: '269 спортсменов старше 35 лет из 43 городов. Главный судья А.М. Бровин, главный секретарь Э.М. Аксенов, начальник дистанций В.М. Баймаков.',
-        res: 'https://o-site.spb.ru/history/Knots/vet-80.html'
+        res: 'https://o-site.spb.ru/history/Knots/vet-80.html',
+        map: 'kavgolovo_oselki_1990'
     },
     {
         id: 'SPB_19800620_1',
@@ -858,7 +875,8 @@ let eventsEarly = [
         place: 'Энколово',
         name: 'Зимняя Спартакиада',
         type: 'SKI',
-        res: './docs/1986/1986_01_11_spartakiada_omaps.pdf'
+        res: './docs/1986/1986_01_11_spartakiada_omaps.pdf',
+        map: 'enkolovo_1985'
     },
     {
         id: 'SPB_19860413_1',
@@ -955,7 +973,8 @@ let eventsEarly = [
         place: 'Голубые дачи',
         name: 'Спринт "Метелица", выбор',
         planner: 'EGRV_E',
-        res: './docs/1988/1988_02_14_metelitsa_omaps.pdf'
+        res: './docs/1988/1988_02_14_metelitsa_omaps.pdf',
+        map: 'mruchey_1983_09_17'
     },
     {
         id: 'SPB_19880313_1',
@@ -997,7 +1016,8 @@ let eventsEarly = [
         place: 'Голубые Дачи',
         name: 'Кросс ориентировщиков',
         me: 'М-13',
-        res: './docs/1988/1988_04_17_kross_omaps.pdf'
+        res: './docs/1988/1988_04_17_kross_omaps.pdf',
+        map: 'mruchey_1983_09_17'
     },
     {
         id: 'SPB_19880424_1',
@@ -1016,7 +1036,8 @@ let eventsEarly = [
         place: 'Шалово',
         name: 'Майская Ленинградская многодневка',
         planner: 'BDKN_A',
-        res: './docs/1988/1988_04_30_mayski_omaps.pdf'
+        res: './docs/1988/1988_04_30_mayski_omaps.pdf',
+        map: 'luga_shalovo_lm_2023'
     },
     {
         id: 'SPB_19880509_1',
@@ -1042,7 +1063,8 @@ let eventsEarly = [
         start: 'ORIENTIR',
         me: 'МА',
         planner: 'ERMSHKN',
-        res: './docs/1988/1988_05_11_orientir_2_omaps.pdf'
+        res: './docs/1988/1988_05_11_orientir_2_omaps.pdf',
+        map: 'kavgolovo_1981'
     },
     {
         id: 'SPB_19880515_1',
@@ -1063,7 +1085,8 @@ let eventsEarly = [
         start: 'ORIENTIR',
         me: 'МБ',
         planner: 'MDVDKN',
-        res: './docs/1988/1988_05_18_orientir_4_omaps.pdf'
+        res: './docs/1988/1988_05_18_orientir_4_omaps.pdf',
+        map: 'mruchey_1983_09_17'
     },
     {
         id: 'SPB_19880520_1',
@@ -1137,7 +1160,8 @@ let eventsEarly = [
         place: 'Шуваловский парк, Токсово, Рапполово',
         name: 'Чемпионат ЛОС ДФСО профсоюзов',
         planner: ['SHVR','LKNVA','CHGRVSKY_Y','CHGRVSKY_V','BBNNA_Y','SHRNN'],
-        res: './docs/1988/1988_06_10_dfso_unions_omaps.pdf'
+        res: './docs/1988/1988_06_10_dfso_unions_omaps.pdf',
+        map: ['shuvalovsky_park_1988', 'rappolovo_1963']
     },
     {
         id: 'SPB_19880615_1',
@@ -1146,7 +1170,8 @@ let eventsEarly = [
         name: 'Ориентир-7',
         start: 'ORIENTIR',
         planner: ['SPTSA','TSPKNA'],
-        res: './docs/1988/1988_06_15_orientir_7_omaps.pdf'
+        res: './docs/1988/1988_06_15_orientir_7_omaps.pdf',
+        map: 'shuvalovsky_park_1988'
     },
     {
         id: 'SPB_19880618_1',
@@ -1216,7 +1241,8 @@ let eventsEarly = [
         name: 'Ориентир-13',
         start: 'ORIENTIR',
         planner: 'BRSV_V',
-        res: './docs/1988/1988_07_13_orientir_13_omaps.pdf'
+        res: './docs/1988/1988_07_13_orientir_13_omaps.pdf',
+        map: 'piskarevsky_1985'
     },
     {
         id: 'SPB_19880717_1',
@@ -1225,7 +1251,8 @@ let eventsEarly = [
         name: 'Ориентир-14',
         start: 'ORIENTIR',
         planner: 'PVLVA_N',
-        res: './docs/1988/1988_07_17_orientir_14_omaps.pdf'
+        res: './docs/1988/1988_07_17_orientir_14_omaps.pdf',
+        map: 'komarovo_1990'
     },
     {
         id: 'SPB_19880720_1',
@@ -1251,7 +1278,8 @@ let eventsEarly = [
         name: 'Ориентир-18',
         start: 'ORIENTIR',
         planner: 'GRGRV_B',
-        res: './docs/1988/1988_07_27_orientir_18_omaps.pdf'
+        res: './docs/1988/1988_07_27_orientir_18_omaps.pdf',
+        map: 'novo_toksovo_winter_1980'
     },
     {
         id: 'SPB_19880731_1',
@@ -1284,7 +1312,8 @@ let eventsEarly = [
         place: 'Удельный парк',
         name: 'Ориентир-22',
         start: 'ORIENTIR',
-        res: './docs/1988/1988_08_31_orientir_22_omaps.pdf'
+        res: './docs/1988/1988_08_31_orientir_22_omaps.pdf',
+        map: 'udelny_1987'
     },
     {
         id: 'SPB_19880907_1',
@@ -1312,7 +1341,8 @@ let eventsEarly = [
         name: 'Ориентир-24',
         start: 'ORIENTIR',
         planner: 'KDNV_A',
-        res: './docs/1988/1988_09_22_orientir_24_omaps.pdf'
+        res: './docs/1988/1988_09_22_orientir_24_omaps.pdf',
+        map: 'shuvalovsky_park_1988'
     },
     {
         id: 'SPB_19880924_1',
@@ -1378,7 +1408,8 @@ let eventsEarly = [
         place: 'Кавголово',
         name: 'Тренировочная дистанция, выбор',
         planner: 'VSLVSKY',
-        res: './docs/1988/1988_11_27_kavgolovo_omaps.pdf'
+        res: './docs/1988/1988_11_27_kavgolovo_omaps.pdf',
+        map: 'kavgolovo_1981'
     },
     {
         id: 'SPB_19881231_1',
@@ -1417,7 +1448,8 @@ let eventsEarly = [
         name: 'Ориентир-1',
         start: 'ORIENTIR',
         planner: 'NKLVCH',
-        res: './docs/1989/1989_05_09_orientir_1_omaps.pdf'
+        res: './docs/1989/1989_05_09_orientir_1_omaps.pdf',
+        map: 'enkolovo_1985'
     },
     {
         id: 'SPB_19890517_1',
@@ -1434,7 +1466,8 @@ let eventsEarly = [
         name: 'Приз Ленинградского телевидения',
         me: 'М-15',
         planner: 'SHVR',
-        res: './docs/1989/1989_05_21_tv_omaps.pdf'
+        res: './docs/1989/1989_05_21_tv_omaps.pdf',
+        map: 'kavgolovo_1981'
     },
     {
         id: 'SPB_19890524_1',
@@ -1452,7 +1485,8 @@ let eventsEarly = [
         name: 'П-во ЛОС ВДФСО Профсоюзов среди юношей и девушек',
         me: 'М-15',
         planner: ['SHRNN','CHGRVSKY_V','CHGRVSKY_Y','CHGRVSKA_O','NVGRDTSV'],
-        res: './docs/1989/1989_05_24_unions_omaps.pdf'
+        res: './docs/1989/1989_05_24_unions_omaps.pdf',
+        map: 'rappolovo_1963'
     },
     {
         id: 'SPB_19890527_1',
@@ -1495,7 +1529,8 @@ let eventsEarly = [
         name: 'Ориентир-5',
         start: 'ORIENTIR',
         me: 'МБ',
-        res: './docs/1989/1989_06_14_orientir_5_omaps.pdf'
+        res: './docs/1989/1989_06_14_orientir_5_omaps.pdf',
+        map: 'shuvalovsky_park_1988'
     },
     {
         id: 'SPB_19890622_1',
@@ -1532,7 +1567,8 @@ let eventsEarly = [
         place: 'Комарово',
         name: 'Ориентир-8',
         start: 'ORIENTIR',
-        res: './docs/1989/1989_07_02_orientir_8_omaps.pdf'
+        res: './docs/1989/1989_07_02_orientir_8_omaps.pdf',
+        map: 'komarovo_1990'
     },
     {
         id: 'SPB_19890705_1',
@@ -1575,7 +1611,8 @@ let eventsEarly = [
         name: 'Ориентир-13',
         start: 'ORIENTIR',
         planner: 'KRZHNVSKY',
-        res: './docs/1989/1989_07_19_orientir_13_omaps.pdf'
+        res: './docs/1989/1989_07_19_orientir_13_omaps.pdf',
+        map: 'kavgolovo_1981'
     },
     {
         id: 'SPB_19890723_1',
@@ -1670,7 +1707,8 @@ let eventsEarly = [
         name: 'Летний чемпионат Ленинграда',
         fmt: 'эстафета',
         planner: 'OVCHNNKV',
-        res: './docs/1989/1989_09_17_championship_omaps.pdf'
+        res: './docs/1989/1989_09_17_championship_omaps.pdf',
+        map: 'petjajarvy_kentavr_2014'
     },
     {
         id: 'SPB_19890924_1',
@@ -1712,7 +1750,8 @@ let eventsEarly = [
         place: 'Мельничный ручей',
         name: 'XXVIII командные ночные соревнования туристов памяти А.Окинчица',
         start: 'OKINCHITSA',
-        res: './docs/1989/1989_10_20_okinchitsa_omaps.pdf'
+        res: './docs/1989/1989_10_20_okinchitsa_omaps.pdf',
+        map: 'mruchey_1983_09_17'
     },
     {
         id: 'SPB_19891105_1',
@@ -1721,7 +1760,8 @@ let eventsEarly = [
         name: 'Ориентир-21',
         start: 'ORIENTIR',
         planner: 'DRBSHV',
-        res: './docs/1989/1989_11_05_orientir_21_omaps.pdf'
+        res: './docs/1989/1989_11_05_orientir_21_omaps.pdf',
+        map: 'komarovo_1990'
     },
     {
         id: 'SPB_19891108_1',
@@ -1763,7 +1803,8 @@ let eventsEarly = [
         type: 'SKI',
         me: 'М-17',
         planner: 'SHVR',
-        res: './docs/1990/1990_01_14_los_dfsop_omaps.pdf'
+        res: './docs/1990/1990_01_14_los_dfsop_omaps.pdf',
+        map: 'orientir_1990_07_04'
     },
     {
         id: 'SPB_19900120_1',
@@ -1849,7 +1890,8 @@ let eventsEarly = [
         endDate: '1990-05-02',
         place: 'Воейково',
         name: 'Майские многодневные соревнования',
-        res: './docs/1990/1990_04_30_mayski_omaps.pdf'
+        res: './docs/1990/1990_04_30_mayski_omaps.pdf',
+        map: 'koltushi_1990'
     },
     {
         id: 'SPB_19900509_1',
@@ -1869,7 +1911,8 @@ let eventsEarly = [
         video: 'https://vk.com/wall-135156716_14',
         me: 'М15',
         planner: 'SHLKHN_Y',
-        res: './docs/1990/1990_05_20_tv_omaps.pdf'
+        res: './docs/1990/1990_05_20_tv_omaps.pdf',
+        map: 'sosnovka_1981'
     },
     {
         id: 'SPB_19900606_1',
@@ -2009,7 +2052,8 @@ let eventsEarly = [
         name: 'Ориентир-26',
         start: 'ORIENTIR',
         planner: 'BLNV_A',
-        res: './docs/1990/1990_09_12_orientir_26_omaps.pdf'
+        res: './docs/1990/1990_09_12_orientir_26_omaps.pdf',
+        map: 'sosnovka_1981'
     },
     {
         id: 'SPB_19900915_1',
@@ -2045,7 +2089,8 @@ let eventsEarly = [
         endDate: '1990-10-07',
         place: 'Осельки',
         name: 'Всесоюзные соревнования среди глухих',
-        info: 'Первые Всесоюзные соревнования по ориентированию среди глухих.'
+        info: 'Первые Всесоюзные соревнования по ориентированию среди глухих.',
+        map: 'oselki_1985'
     },
     {
         id: 'SPB_19901006_1',
@@ -2146,7 +2191,8 @@ let eventsEarly = [
         name: 'Кубок Ленинграда',
         me: 'М18',
         planner: 'SHRNN',
-        res: ['./docs/1991/1991_01_19_leningrad_cup_omaps.pdf', './docs/1991/1991_01_20_leningrad_cup_omaps.pdf']
+        res: ['./docs/1991/1991_01_19_leningrad_cup_omaps.pdf', './docs/1991/1991_01_20_leningrad_cup_omaps.pdf'],
+        map: 'orientir_1991_07_10'
     },
     {
         id: 'SPB_19910202_1',
@@ -2174,7 +2220,8 @@ let eventsEarly = [
         date: '1991-02-16',
         place: 'Шуваловский парк',
         name: 'П-во обкома профсоюза',
-        res: './docs/1991/1991_02_16_obkom_unions_omaps.pdf'
+        res: './docs/1991/1991_02_16_obkom_unions_omaps.pdf',
+        map: 'orientir_1991_09_04'
     },
     {
         id: 'SPB_19910217_1',
@@ -2247,7 +2294,8 @@ let eventsEarly = [
         place: 'Шалово',
         name: 'Майские многодневные соревнования',
         planner: ['FDRV_L','DRBSHV'],
-        res: './docs/1991/1991_05_01_mayski_omaps.pdf'
+        res: './docs/1991/1991_05_01_mayski_omaps.pdf',
+        map: 'luga_shalovo_lm_2023'
     },
     {
         id: 'SPB_19910509_1',
@@ -2365,7 +2413,8 @@ let eventsEarly = [
         place: 'Невский л/п, Вартемяки',
         name: 'Летний чемпионат ЛОС ВДФСО профсоюзов',
         planner: ['SHRNN','SHLKHN_Y'],
-        res: ['./docs/1991/1991_06_15_vdfso_unions_omaps.pdf', './docs/1991/1991_06_16_vdfso_unions_omaps.pdf']
+        res: ['./docs/1991/1991_06_15_vdfso_unions_omaps.pdf', './docs/1991/1991_06_16_vdfso_unions_omaps.pdf'],
+        map: 'orientir_1991_07_24'
     },
     {
         id: 'SPB_19910626_1',
@@ -2472,7 +2521,8 @@ let eventsEarly = [
         place: 'ст Песочное',
         name: 'Приз НЕВСКОЙ ЗАРИ',
         me: 'М-17',
-        res: './docs/1991/1991_08_31_nevska_zarya_omaps.pdf'
+        res: './docs/1991/1991_08_31_nevska_zarya_omaps.pdf',
+        map: 'orientir_1991_08_28'
     },
     {
         id: 'SPB_19910904_1',
@@ -2520,7 +2570,8 @@ let eventsEarly = [
         place: 'Комарово',
         name: 'Кубок ЛГДТЮ',
         planner: 'GRV_M',
-        res: './docs/1991/1991_09_15_lgdty_omaps.pdf'
+        res: './docs/1991/1991_09_15_lgdty_omaps.pdf',
+        map: 'orientir_1991_05_22'
     },
     {
         id: 'SPB_19910921_1',
@@ -2557,7 +2608,8 @@ let eventsEarly = [
         name: 'Золотая осень',
         me: 'H17',
         planner: ['DRBSHV','FDRV_L'],
-        res: './docs/1991/1991_10_05_golden_autumn_omaps.pdf'
+        res: './docs/1991/1991_10_05_golden_autumn_omaps.pdf',
+        map: 'oselki_1985'
     },
     {
         id: 'SPB_19911012_1',
@@ -2590,7 +2642,8 @@ let eventsEarly = [
         date: '1991-10-27',
         place: 'Мельничный ручей',
         name: 'Закрытие сезона',
-        res: './docs/1991/1991_10_27_season_close_omaps.pdf'
+        res: './docs/1991/1991_10_27_season_close_omaps.pdf',
+        map: 'mruchey_1983_09_17'
     },
     {
         id: 'SPB_19911108_1',
@@ -2680,7 +2733,8 @@ let eventsEarly = [
         place: 'Кавголово',
         name: 'Приз телевидения',
         me: 'H17',
-        res: './docs/1992/1992_05_10_tv_omaps.pdf'
+        res: './docs/1992/1992_05_10_tv_omaps.pdf',
+        map: 'orientir_1991_07_10'
     },
     {
         id: 'SPB_19920513_1',
@@ -2708,7 +2762,8 @@ let eventsEarly = [
         name: 'Лесной ландыш',
         me: 'HA',
         planner: 'VLKV_A',
-        res: './docs/1992/1992_05_24_forest_landysh_omaps.pdf'
+        res: './docs/1992/1992_05_24_forest_landysh_omaps.pdf',
+        map: 'oselki_1985'
     },
     {
         id: 'SPB_19920527_1',
@@ -2769,7 +2824,8 @@ let eventsEarly = [
         start: 'ORIENTIR',
         me: 'МА',
         planner: 'BRSV_V',
-        res: './docs/1992/1992_07_15_orientir_omaps.pdf'
+        res: './docs/1992/1992_07_15_orientir_omaps.pdf',
+        map: 'orientir_1991_07_10'
     },
     {
         id: 'SPB_19920717_1',
@@ -2826,7 +2882,8 @@ let eventsEarly = [
         name: 'П-во КСО Азимут',
         me: 'HA',
         planner: 'DRBSHV',
-        res: './docs/1992/1992_09_27_azimuth_omaps.pdf'
+        res: './docs/1992/1992_09_27_azimuth_omaps.pdf',
+        map: 'sablino_1992'
     },
     {
         id: 'SPB_19921004_1',
@@ -2836,7 +2893,8 @@ let eventsEarly = [
         start: 'SPB_CHAMP',
         me: 'H-A',
         planner: 'VSLVSKY',
-        res: './docs/1992/1992_10_04_spb_marathon_omaps.pdf'
+        res: './docs/1992/1992_10_04_spb_marathon_omaps.pdf',
+        map: 'orientir_1991_04_07'
     },
     {
         id: 'SPB_19921017_1',
@@ -2879,7 +2937,8 @@ let eventsEarly = [
         start: 'ORIENTIR',
         me: 'HA',
         planner: 'RDKV',
-        res: './docs/1993/1993_04_11_orientir_1_omaps.pdf'
+        res: './docs/1993/1993_04_11_orientir_1_omaps.pdf',
+        map: 'orientir_1991_04_07'
     },
     {
         id: 'SPB_19930512_1',
@@ -2919,7 +2978,8 @@ let eventsEarly = [
         name: 'Невский Азимут',
         start: 'NA',
         planner: ['VLKV_A','NKFRV_A','SKLV_B','FSNKO','SHRPV_V'],
-        res: './docs/1993/1993_06_16_na_omaps.pdf'
+        res: './docs/1993/1993_06_16_na_omaps.pdf',
+        map: 'borisovo_1988'
     },
     {
         id: 'SPB_19930905_1',
@@ -2961,7 +3021,8 @@ let eventsEarly = [
         name: 'Невский Азимут',
         start: 'NA',
         planner: 'ZKHRV_VCH',
-        res: './docs/1994/1994_06_17_na_omaps.pdf'
+        res: './docs/1994/1994_06_17_na_omaps.pdf',
+        map: 'borisovo_1988'
     },
     {
         id: 'SPB_19940903_1',
@@ -3026,7 +3087,8 @@ let eventsEarly = [
         place: 'Осельки',
         name: 'Зелёный змей',
         start: 'GS',
-        res: './docs/1995/1995_09_03_green_snake_omaps.pdf'
+        res: './docs/1995/1995_09_03_green_snake_omaps.pdf',
+        map: 'oselki_1985'
     },
     {
         id: 'SPB_19950917_1',
@@ -3051,7 +3113,8 @@ let eventsEarly = [
         name: 'Новогодняя эстафета',
         type: 'SKI',
         fmt: 'эстафета',
-        res: './docs/1995/1995_12_31_ny_relay_omaps.pdf'
+        res: './docs/1995/1995_12_31_ny_relay_omaps.pdf',
+        map: 'gatchina_prioratsky_1993'
     },
     {
         id: 'SPB_19960126_1',
@@ -3123,7 +3186,8 @@ let eventsEarly = [
         place: 'Ильичёво',
         name: 'ЧиП СПб, удлинённая дистанция',
         start: 'SPB_CHAMP',
-        res: './docs/1996/1996_09_29_spb_omaps.pdf'
+        res: './docs/1996/1996_09_29_spb_omaps.pdf',
+        map: 'ilychevo_1993'
     },
     {
         id: 'SPB_19970612_1',
@@ -3353,7 +3417,8 @@ let eventsEarly = [
         place: 'Песочный',
         name: 'ПУТЧ-99',
         planner: 'MLNN_E',
-        res: './docs/1999/1999_08_22_putch_omaps.pdf'
+        res: './docs/1999/1999_08_22_putch_omaps.pdf',
+        map: 'pesochnaya_1998'
     },
     {
         id: 'SPB_19990828_1',
@@ -3456,7 +3521,8 @@ let eventsEarly = [
         place: 'Медное оз',
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
-        maps: './original_maps/starts/other/mednoe_2001_09_09_omaps.webp'
+        maps: './original_maps/starts/other/mednoe_2001_09_09_omaps.webp',
+        map: 'mednoe_rfar_2006'
     },
     {
         id: 'SPB_20011209_1',
@@ -3508,7 +3574,8 @@ let eventsEarly = [
         place: 'Пасторское оз',
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
-        maps: './original_maps/starts/other/pastorskoe_2002_08_04_omaps.webp'
+        maps: './original_maps/starts/other/pastorskoe_2002_08_04_omaps.webp',
+        map: 'pastorskoe_1982'
     },
     {
         id: 'SPB_20020824_1',

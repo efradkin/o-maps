@@ -100,7 +100,8 @@ let events2018 = [
         reg: 'https://orgeo.ru/event/registration/5769',
         res: 'https://o-site.spb.ru/_races/18012628/180126_res.pdf',
         o_site: '18012628',
-        bulletin: 'https://o-site.spb.ru/_races/18012628/18012628_info1.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/18012628/18012628_info1.pdf',
+        map: 'budogosch_svetloe_winter_2024'
     },
     {
         id: 'SPB_20180127_1',
@@ -234,7 +235,8 @@ let events2018 = [
         name: 'Всеволожская тропа, 1 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://o-site.spb.ru/_races/180223VT/180223_split.htm',
-        o_site: '180223VT'
+        o_site: '180223VT',
+        map: 'rakhja_2017'
     },
     {
         id: 'SPB_20180224_1',
@@ -254,7 +256,8 @@ let events2018 = [
         name: 'Кубок Белых Ночей 2017/18, 8 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/180224_split.htm',
-        o_site: '2018WN'
+        o_site: '2018WN',
+        map: 'sestroretsk_tamozhennaya_doroga_2021'
     },
     {
         id: 'SPB_20180225_1',
@@ -310,7 +313,8 @@ let events2018 = [
         name: 'Кубок Белых Ночей 2017/18, 9 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/180304_split.htm',
-        o_site: '2018WN'
+        o_site: '2018WN',
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20180308_1',
@@ -340,7 +344,8 @@ let events2018 = [
         name: 'Кубок Белых Ночей 2017/18, 10 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/180309_split.htm',
-        o_site: '2018WN'
+        o_site: '2018WN',
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20180311_1',
@@ -353,7 +358,8 @@ let events2018 = [
         info: 'Соревнования являются официальным первенством Выборгского р-на СПб, в детских, юниорских и основных группах возможно выполнение массовых разрядов.',
         owner: 'VYBORG',
         o_site: '180311',
-        bulletin: 'https://o-site.spb.ru/_races/180311/180311_info3.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/180311/180311_info3.pdf',
+        map: 'shuvalovsky_rogaine_2024'
     },
     {
         id: 'SPB_20180317_1',
@@ -404,7 +410,8 @@ let events2018 = [
         name: 'Кубок Белых Ночей 2017/18, 11 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/180407_split.htm',
-        o_site: '2018WN'
+        o_site: '2018WN',
+        map: 'kavgolovo_old_ski_track_2023'
     },
     {
         id: 'SPB_20180408_1',
@@ -417,7 +424,8 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=865',
         res: 'https://o-site.spb.ru/_races/180408/180804_res.htm',
         o_site: '180408',
-        bulletin: 'https://o-site.spb.ru/_races/180408/180408_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/180408/180408_info.pdf',
+        map: 'sertolovo_2016'
     },
     {
         id: 'SPB_20180414_1',
@@ -427,7 +435,8 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=869',
         res: 'https://o-site.spb.ru/_races/180414/180414_res.htm',
         o_site: '180414',
-        bulletin: 'https://o-site.spb.ru/_races/180414/180414_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/180414/180414_info.pdf',
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20180415_1',
@@ -482,7 +491,8 @@ let events2018 = [
         place: 'Полюстровский парк',
         coord: [59.962582, 30.430367],
         reg: 'https://orgeo.ru/event/6402',
-        endReg: '2018-04-20 20:00'
+        endReg: '2018-04-20 20:00',
+        map: 'polyustrovsky_2022'
     },
     {
         id: 'SPB_20180422_1',
@@ -528,7 +538,8 @@ let events2018 = [
         type: 'ROGAINE',
         res: 'http://o-site.spb.ru/_races/2018_kkr/180428_split.htm',
         o_site: '2018_kkr',
-        bulletin: 'https://o-site.spb.ru/_races/2018_kkr/181014_info_kkr.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/2018_kkr/181014_info_kkr.pdf',
+        map: 'voejkovo_2014'
     },
     {
         id: 'SPB_20180501_1',
@@ -593,7 +604,8 @@ let events2018 = [
         endReg: '2018-04-28 23:55',
         o_site: '180506_B',
         bulletin: 'https://o-site.spb.ru/_races/180506_B/180506_info2.pdf',
-        owner: 'EGRV_SRG'
+        owner: 'EGRV_SRG',
+        map: 'budogosch_2015'
     },
     {
         id: 'SPB_20180506_2',
@@ -602,7 +614,8 @@ let events2018 = [
         name: 'Кубок Белых Ночей 2017/18, 12 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/180506_split_BN.htm',
-        o_site: '2018WN'
+        o_site: '2018WN',
+        map: 'oselki_2015'
     },
     {
         id: 'SPB_20180509_1',
@@ -624,7 +637,8 @@ let events2018 = [
         name: 'Кубок Белых Ночей 2017/18, 13 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/180512_split.htm',
-        o_site: '2018WN'
+        o_site: '2018WN',
+        map: 'vorontsovskoe_simagino_2021'
     },
     {
         id: 'SPB_20180512_2',
@@ -635,7 +649,8 @@ let events2018 = [
         type: 'ROGAINE',
         res: 'http://o-site.spb.ru/_races/2018_kkr/180512_kkr_split.htm',
         o_site: '2018_kkr',
-        bulletin: 'https://o-site.spb.ru/_races/2018_kkr/181014_info_kkr.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/2018_kkr/181014_info_kkr.pdf',
+        map: 'vorontsovskoe_simagino_2021'
     },
     {
         id: 'SPB_20180513_1',
@@ -1059,7 +1074,8 @@ let events2018 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=913',
         res: 'https://o-site.spb.ru/_races/180715_Fox/180715_res.htm',
         o_site: '180715_Fox',
-        bulletin: 'https://o-site.spb.ru/_races/180715_Fox/180715_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/180715_Fox/180715_info.pdf',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20180715_1',
@@ -1083,7 +1099,8 @@ let events2018 = [
         res: 'http://www.o-site.spb.ru/_races/2018YC/180722_split.htm',
         reskeep: 1,
         start: 'YM_CUP',
-        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#242'
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#242',
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20180722_2',
@@ -1102,7 +1119,8 @@ let events2018 = [
         place: 'Луга, оз Омчино',
         name: 'Лужский приключенческий рогейн',
         type: 'ROGAINE',
-        video: 'https://www.youtube.com/watch?v=fDtHESZuVw8'
+        video: 'https://www.youtube.com/watch?v=fDtHESZuVw8',
+        map: 'toloni_2025'
     },
     {
         id: 'SPB_20180728_2',
@@ -1111,7 +1129,8 @@ let events2018 = [
         name: 'Кубок Белых Ночей 2017/18, 16 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/180728_split.htm',
-        o_site: '2018WN'
+        o_site: '2018WN',
+        map: 'vorobjevo_2024'
     },
     {
         id: 'SPB_20180729_1',
@@ -1120,7 +1139,8 @@ let events2018 = [
         name: 'Кубок Белых Ночей 2017/18, 17 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/180729_split.htm',
-        o_site: '2018WN'
+        o_site: '2018WN',
+        map: 'vorobjevo_2024'
     },
     {
         id: 'SPB_20180804_1',
@@ -1141,7 +1161,8 @@ let events2018 = [
         name: 'Кубок Белых Ночей 2017/18, 18 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/180805_split.htm',
-        o_site: '2018WN'
+        o_site: '2018WN',
+        map: 'ilychevo_2016'
     },
     {
         id: 'SPB_20180811_1',
@@ -1181,7 +1202,8 @@ let events2018 = [
             'http://www.multsport.ru/starts/bike-rogaine-rus-2018/technical-information.html'
         ],
         coord: [60.5665, 29.8686],
-        info: 'Победители: Алексей Демьяненко (Н. Новгород), Евгений Шнякин (МО) – 47 из 51 КП; ЖЖ: Татьяна Коптева, Наталья Рысакова; МЖ: Наталья Барышникова, Тарас Кащук. Команд — 31, участников — 64.'
+        info: 'Победители: Алексей Демьяненко (Н. Новгород), Евгений Шнякин (МО) – 47 из 51 КП; ЖЖ: Татьяна Коптева, Наталья Рысакова; МЖ: Наталья Барышникова, Тарас Кащук. Команд — 31, участников — 64.',
+        map: 'michurinskoe_redfox_2014'
     },
     {
         id: 'SPB_20180811_3',
@@ -1241,7 +1263,8 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=920',
         res: 'https://o-site.spb.ru/_races/180826_/180826_res.htm',
         o_site: '180826_',
-        bulletin: 'https://o-site.spb.ru/_races/180826_/180826_bull.PDF'
+        bulletin: 'https://o-site.spb.ru/_races/180826_/180826_bull.PDF',
+        map: 'ilychevo_2016'
     },
     {
         id: 'SPB_20180901_1',
@@ -1253,7 +1276,8 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=891',
         res: 'https://o-site.spb.ru/_races/180901/180901_res.htm',
         o_site: '180901',
-        bulletin: 'https://o-site.spb.ru/_races/180901/20180901_massstart_info2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/180901/20180901_massstart_info2.pdf',
+        map: 'zelenogorsk_chernye_velo_2025'
     },
     {
         id: 'SPB_20180902_1',
@@ -1350,7 +1374,8 @@ let events2018 = [
         name: 'Кузьмоловские старты, 1 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://o-site.spb.ru/_races/2018_KS/ResultList13092018.htm',
-        o_site: '2018_KS'
+        o_site: '2018_KS',
+        map: 'toksovo_izumrudnoe_2007'
     },
     {
         id: 'SPB_20180915_1',
@@ -1486,7 +1511,8 @@ let events2018 = [
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://o-site.spb.ru/_races/2018_KS/ResultList27092018.html',
         reskeep: 52,
-        o_site: '2018_KS'
+        o_site: '2018_KS',
+        map: 'osinovaja_roscha_2018'
     },
     {
         id: 'SPB_20180929_2',
@@ -1659,7 +1685,8 @@ let events2018 = [
         name: 'Sprint Tour SPb 2018, 4 этап',
         start: 'SPRINT_TOUR',
         reskeep: 58,
-        photo: 'https://vk.ru/album-92124592_256957030'
+        photo: 'https://vk.ru/album-92124592_256957030',
+        map: 'vasileostrovskaya_2024'
     },
     {
         id: 'SPB_20181006_3',
@@ -1690,7 +1717,8 @@ let events2018 = [
         bulletin: 'https://o-site.spb.ru/_races/181007/181007_info2_v3.pdf',
         video: 'http://northernwind.spb.ru/videosplit/2018/chspb_middle',
         reskeep: 57,
-        o_gps: 4495
+        o_gps: 4495,
+        map: 'silande_2024'
     },
     {
         id: 'SPB_20181010_1',
@@ -1818,7 +1846,8 @@ let events2018 = [
         name: 'Открытое Первенство МО г.Колпино',
         res: 'https://o-site.spb.ru/_races/181021k/181021_res.htm',
         o_site: '181021k',
-        bulletin: 'https://o-site.spb.ru/_races/181021k/181021_info2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/181021k/181021_info2.pdf',
+        map: 'kolpino_chuhonka_2020'
     },
     {
         id: 'SPB_20181021_2',
@@ -1828,7 +1857,8 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=955',
         res: 'https://o-site.spb.ru/_races/181021_/181021_res_PZV.htm',
         o_site: '181021_',
-        bulletin: 'https://o-site.spb.ru/_races/181021_/181021_info_.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/181021_/181021_info_.pdf',
+        map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
     {
         id: 'SPB_20181021_3',
@@ -1839,7 +1869,8 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=952',
         res: 'https://o-site.spb.ru/_races/181021_/181021_res_PZV.htm',
         o_site: '181021',
-        bulletin: 'https://o-site.spb.ru/_races/181021/18102021_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/181021/18102021_info.pdf',
+        map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
     {
         id: 'SPB_20181024_1',
@@ -1917,7 +1948,8 @@ let events2018 = [
         place: 'Медное озеро',
         name: 'Вечерняя тренировка FoxTeam',
         o_site: '181101',
-        bulletin: 'https://o-site.spb.ru/_races/181101/181101_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/181101/181101_info.pdf',
+        map: 'pastorskoe_mednoe_2009'
     },
     {
         id: 'SPB_20181103_1',
@@ -1985,7 +2017,8 @@ let events2018 = [
         name: 'Кубок Белых ночей, 4 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/201819_BN/181110_split.htm',
-        reskeep: 91
+        reskeep: 91,
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20181117_1',
@@ -2035,7 +2068,8 @@ let events2018 = [
         name: 'Всеволожская тропа, 1 этап',
         start: 'VSEVOLOZHSK_WAY',
         reskeep: 93,
-        endReg: '2018-11-16 08:00'
+        endReg: '2018-11-16 08:00',
+        map: 'garbolovo_2016'
     },
     {
         id: 'SPB_20181118_4',
@@ -2044,7 +2078,8 @@ let events2018 = [
         name: 'Кубок Белых Ночей 2018/19, 5 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/201819_BN/181118_split.htm',
-        o_site: '201819_BN'
+        o_site: '201819_BN',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20181124_1',
@@ -2064,7 +2099,8 @@ let events2018 = [
         o_site: '1804-11',
         maps: [
             'https://o-site.spb.ru/_races/1804-11/181124_map.jpg'
-        ]
+        ],
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20181125_1',
@@ -2076,7 +2112,8 @@ let events2018 = [
         bulletin: 'https://o-site.spb.ru/_races/181125/ib3.pdf',
         o_site: '181125',
         reskeep: 94,
-        o_gps: 4745
+        o_gps: 4745,
+        map: 'pushkin_buferny_2018'
     },
     {
         id: 'SPB_20181201_1',
@@ -2085,7 +2122,8 @@ let events2018 = [
         place: 'Новая Ладога',
         reg: 'http://sport-orient.ru/products/uncategorized/gorodskoy-sprint-novaya-ladoga',
         o_site: '181201',
-        bulletin: 'http://sport-orient.ru/wp-content/uploads/2018/11/Informatsionnyiy-Byulleten-22Novaya-Ladoga22.pdf'
+        bulletin: 'http://sport-orient.ru/wp-content/uploads/2018/11/Informatsionnyiy-Byulleten-22Novaya-Ladoga22.pdf',
+        map: 'novaja_ladoga_2018'
     },
     {
         id: 'SPB_20181201_2',
@@ -2154,7 +2192,8 @@ let events2018 = [
         start: 'MATRESHKA',
         res: 'https://o-site.spb.ru/_races/1804-11/181209_split_MT.htm',
         o_site: '1804-11',
-        reskeep: 99
+        reskeep: 99,
+        map: 'pukhtolova_gora_2009'
     },
     {
         id: 'SPB_20181215_1',

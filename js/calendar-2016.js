@@ -74,7 +74,8 @@ let events2016 = [
         reg: 'https://orgeo.ru',
         res: 'https://o-site.spb.ru/_races/16012931/160129_res.htm',
         o_site: '16012931',
-        bulletin: 'https://o-site.spb.ru/_races/16012931/16012931_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/16012931/16012931_info2.htm',
+        map: 'budogosch_svetloe_winter_2024'
     },
     {
         id: 'SPB_20160213_1',
@@ -107,7 +108,8 @@ let events2016 = [
         name: 'Кубок Белых Ночей 2015/16, 6 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/151107wn/160214_split.htm',
-        o_site: '151107wn'
+        o_site: '151107wn',
+        map: 'sestroretsk_tamozhennaya_doroga_2021'
     },
     {
         id: 'SPB_20160215_1',
@@ -143,7 +145,8 @@ let events2016 = [
         start: 'VSEVOLOZHSK_WAY',
         res: 'http://o-site.spb.ru/_races/160222/160222_split.htm',
         o_site: '160222',
-        bulletin: 'https://o-site.spb.ru/_races/160222/161211_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/160222/161211_info.pdf',
+        map: 'rakhja_south_2007'
     },
     {
         id: 'SPB_20160223_1',
@@ -167,7 +170,7 @@ let events2016 = [
         date: '2016-02-28',
         name: 'Чемпионат и Первенство Санкт-Петербурга, лыжная гонка – маркированная трасса',
         start: 'SPB_CHAMP',
-        place: 'Ильичево, Болотная станция',
+        place: 'Ильичёво, Болотная станция',
         type: 'SKI',
         coord: [59.730087, 30.397814],
         res: 'https://o-site.spb.ru/_races/160228/160228_res.htm',
@@ -184,7 +187,7 @@ let events2016 = [
         date: '2016-03-06',
         name: 'Чемпионат и Первенство Санкт-Петербурга, лыжная гонка - классика',
         start: 'SPB_CHAMP',
-        place: 'Ильичево, Болотная станция',
+        place: 'Ильичёво, Болотная станция',
         type: 'SKI',
         coord: [59.730087, 30.397814],
         reg: 'http://o-reg.spb.ru/',
@@ -209,14 +212,15 @@ let events2016 = [
         name: 'Кубок Белых Ночей 2015/16, 7 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/151107wn/160307_split.htm',
-        o_site: '151107wn'
+        o_site: '151107wn',
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20160308_1',
         date: '2016-03-08',
         name: 'Чемпионат и Первенство Санкт-Петербурга, лыжная гонка - лонг',
         start: 'SPB_CHAMP',
-        place: 'Ильичево, Болотная станция',
+        place: 'Ильичёво, Болотная станция',
         type: 'SKI',
         coord: [59.730087, 30.397814],
         reg: 'http://o-reg.spb.ru/',
@@ -246,7 +250,8 @@ let events2016 = [
         name: 'Кубок Белых Ночей 2015/16, 8 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/151107wn/160312_split.htm',
-        o_site: '151107wn'
+        o_site: '151107wn',
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20160313_1',
@@ -271,7 +276,8 @@ let events2016 = [
         start: 'WEEKLY_ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2016/03/fiinal1.htm',
         o_site: '150908',
-        bulletin: 'http://white-o-nights.ru/wo-8leg/'
+        bulletin: 'http://white-o-nights.ru/wo-8leg/',
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20160326_1',
@@ -358,7 +364,8 @@ let events2016 = [
         photo: 'https://vk.ru/album-92124592_230604141',
         o_site: '160409',
         bulletin: 'https://o-site.spb.ru/_races/160409/161008_info.pdf',
-        res: 'https://reg.o-time.ru/race/16068'
+        res: 'https://reg.o-time.ru/race/16068',
+        map: 'kronshtadt_sobor_2014'
     },
     {
         id: 'SPB_20160414_1',
@@ -396,7 +403,8 @@ let events2016 = [
         place: 'форт Красная горка',
         res: 'https://o-site.spb.ru/_races/16041617/160416_res.htm',
         o_site: '16041617',
-        bulletin: 'https://o-site.spb.ru/_races/16041617/16041617_info3.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/16041617/16041617_info3.pdf',
+        map: 'fort_krasnaja_gorka_2012'
     },
     {
         id: 'SPB_20160416_4',
@@ -406,7 +414,8 @@ let events2016 = [
         res: 'http://www.o-site.spb.ru/_races/2016YC/160416_split.htm',
         o_site: '2016YC',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#220',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20160419_1',
@@ -450,7 +459,8 @@ let events2016 = [
         name: 'Кузьмоловские старты, 2 этап',
         start: 'KUZMOLOVSKY_STARTS',
         o_site: '160414_KS',
-        bulletin: 'https://o-site.spb.ru/_races/160414_KS/161006_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/160414_KS/161006_info.pdf',
+        map: 'kujalovo_2012'
     },
     {
         id: 'SPB_20160424_1',
@@ -485,7 +495,8 @@ let events2016 = [
         name: 'Кубок Белых Ночей 2015/16, 10 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/151107wn/160424_split.htm',
-        o_site: '151107wn'
+        o_site: '151107wn',
+        map: 'garbolovo_sirkkajarvi'
     },
     {
         id: 'SPB_20160426_1',
@@ -561,7 +572,8 @@ let events2016 = [
         name: 'Кубок Белых Ночей 2015/16, 11 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/151107wn/160507_split.htm',
-        o_site: '151107wn'
+        o_site: '151107wn',
+        map: 'oselki_2015'
     },
     {
         id: 'SPB_20160508_1',
@@ -571,7 +583,8 @@ let events2016 = [
         res: 'http://www.o-site.spb.ru/_races/2016YC/160508_split.htm',
         o_site: '2016YC',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#221',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'michurinskoe_2022'
     },
     {
         id: 'SPB_20160509_1',
@@ -606,7 +619,8 @@ let events2016 = [
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/160414_KS/160512_split.htm',
         o_site: '160414_KS',
-        bulletin: 'https://o-site.spb.ru/_races/160414_KS/161006_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/160414_KS/161006_info.pdf',
+        map: 'oselki_2015'
     },
     {
         id: 'SPB_20160514_1',
@@ -640,7 +654,8 @@ let events2016 = [
         name: 'Кубок Белых Ночей 2015/16, 12 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/151107wn/160514_split.htm',
-        o_site: '151107wn'
+        o_site: '151107wn',
+        map: 'garbolovo_sirkkajarvi'
     },
     {
         id: 'SPB_20160515_1',
@@ -651,7 +666,8 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160515/160515_res.htm',
         o_site: '160515',
         bulletin: 'https://o-site.spb.ru/_races/160515/160515_info3.htm',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        map: 'ilychevo_2016'
     },
     {
         id: 'SPB_20160515_2',
@@ -852,7 +868,8 @@ let events2016 = [
         o_gps: {
             'М': 1150,
             'Ж': 1151
-        }
+        },
+        map: 'ilychevo-simagino_2015'
     },
     {
         id: 'SPB_20160529_2',
@@ -870,7 +887,8 @@ let events2016 = [
         start: 'SPRINT_TOUR',
         o_site: '160409',
         bulletin: 'https://o-site.spb.ru/_races/160409/161008_info.pdf',
-        res: 'https://reg.o-time.ru/race/16074'
+        res: 'https://reg.o-time.ru/race/16074',
+        map: 'piskarevsky_2012'
     },
     {
         id: 'SPB_20160602_1',
@@ -880,7 +898,8 @@ let events2016 = [
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/160414_KS/160602_res.htm',
         o_site: '160414_KS',
-        bulletin: 'https://o-site.spb.ru/_races/160414_KS/161006_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/160414_KS/161006_info.pdf',
+        map: 'pastorskoe_mednoe_2009'
     },
     {
         id: 'SPB_20160604_1',
@@ -951,7 +970,8 @@ let events2016 = [
         name: 'Яркий Кубок 2016, 3 этап',
         res: 'http://www.o-site.spb.ru/_races/2016YC/160613s_split.htm',
         o_site: '2016YC',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20160617_1',
@@ -973,7 +993,8 @@ let events2016 = [
         name: 'Ржевская тропа здоровья, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/160628/160628_res.htm',
         o_site: '160628',
-        bulletin: 'https://o-site.spb.ru/_races/160628/160824_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/160628/160824_info.pdf',
+        map: 'rzhevsky_2024'
     },
     {
         id: 'SPB_20160702_1',
@@ -1025,7 +1046,8 @@ let events2016 = [
         name: 'Яркий Кубок 2016, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/2016YC/160703_split.htm',
         o_site: '2016YC',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'vsevolozhsk_zhdanovskie_oz_2014'
     },
     {
         id: 'SPB_20160708_1',
@@ -1034,7 +1056,8 @@ let events2016 = [
         name: 'Ржевская тропа здоровья, 2 этап',
         res: 'https://www.o-site.spb.ru/_races/160628/160708_res.htm',
         o_site: '160628',
-        bulletin: 'https://o-site.spb.ru/_races/160628/160824_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/160628/160824_info.pdf',
+        map: 'rzhevsky_2024'
     },
     {
         id: 'SPB_20160709_1',
@@ -1080,7 +1103,8 @@ let events2016 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=622',
         res: 'https://o-site.spb.ru/_races/160716_tren/160723_res.htm',
         o_site: '160716_tren',
-        bulletin: 'https://o-site.spb.ru/_races/160716_tren/160723_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/160716_tren/160723_info.htm',
+        map: 'bolotnaya_station_2019'
     },
     {
         id: 'SPB_20160723_3',
@@ -1230,7 +1254,8 @@ let events2016 = [
         start: 'SPRINT_TOUR',
         o_site: '160409',
         bulletin: 'https://o-site.spb.ru/_races/160409/161008_info.pdf',
-        res: 'https://reg.o-time.ru/race/16076'
+        res: 'https://reg.o-time.ru/race/16076',
+        map: 'serebrjany_prud_2016'
     },
     {
         id: 'SPB_20160901_1',
@@ -1270,7 +1295,8 @@ let events2016 = [
         start: 'SPRINT_TOUR',
         o_site: '160409',
         bulletin: 'https://o-site.spb.ru/_races/160409/161008_info.pdf',
-        res: 'https://reg.o-time.ru/race/16077'
+        res: 'https://reg.o-time.ru/race/16077',
+        map: 'udelnaya_2015'
     },
     {
         id: 'SPB_20160908_1',
@@ -1280,7 +1306,8 @@ let events2016 = [
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/160414_KS/160908_split.htm',
         o_site: '160414_KS',
-        bulletin: 'https://o-site.spb.ru/_races/160414_KS/161006_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/160414_KS/161006_info.pdf',
+        map: 'toksovo_malinovaya_gora_2013'
     },
     {
         id: 'SPB_20160911_1',
@@ -1333,7 +1360,8 @@ let events2016 = [
         place: 'Пухтолова гора',
         res: 'https://o-site.spb.ru/_races/160917_gl/160917_klas.pdf',
         info: '17 сентября 2016 г. в урочище Пухтолова гора пройдет Чемпионат и первенство по спортивному ориентированию - спорт глухих. В программе дисциплины "спринт" с 11:00 и "классика" с 13:30. Для младших школьников будет подготовлен "лабиринт на местности". Приглашаются все желающие, которые могут стартовать по желанию на дистанциях классики А, В, С, ДТР через 45 мин. после основных групп. Предварительная заявка через o-reg.spb.ru до 13 сентября включительно.',
-        o_site: '160917_gl'
+        o_site: '160917_gl',
+        map: 'pukhtolova_gora_2009'
     },
     {
         id: 'SPB_20160918_1',
@@ -1355,7 +1383,8 @@ let events2016 = [
         start: 'SPRINT_TOUR',
         o_site: '160409',
         bulletin: 'https://o-site.spb.ru/_races/160409/161008_info.pdf',
-        res: 'https://reg.o-time.ru/race/16079'
+        res: 'https://reg.o-time.ru/race/16079',
+        map: 'vyborgsky_ddjut_2017'
     },
     {
         id: 'SPB_20160922_1',
@@ -1420,7 +1449,8 @@ let events2016 = [
         start: 'SPRINT_TOUR',
         o_site: '160409',
         bulletin: 'https://o-site.spb.ru/_races/160409/161008_info.pdf',
-        res: 'https://reg.o-time.ru/race/16080'
+        res: 'https://reg.o-time.ru/race/16080',
+        map: 'kolomensky_island_2023'
     },
     {
         id: 'SPB_20160925_1',
@@ -1458,7 +1488,8 @@ let events2016 = [
         start: 'SPRINT_TOUR',
         o_site: '160409',
         bulletin: 'https://o-site.spb.ru/_races/160409/161008_info.pdf',
-        res: 'https://reg.o-time.ru/race/16071'
+        res: 'https://reg.o-time.ru/race/16071',
+        map: 'narvskaya_2025'
     },
     {
         id: 'SPB_20160929_1',
@@ -1484,7 +1515,8 @@ let events2016 = [
         place: 'парк Малиновка',
         name: 'Благотворительный старт «Мир Вашему дому»',
         o_site: '161001v',
-        bulletin: 'https://o-site.spb.ru/_races/161001v/161001_info1.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/161001v/161001_info1.pdf',
+        map: 'malinovka_2003'
     },
     {
         id: 'SPB_20161001_4',
@@ -1550,7 +1582,8 @@ let events2016 = [
             'https://reg.o-time.ru/race/16081'
         ],
         o_site: '160409',
-        bulletin: 'https://o-site.spb.ru/_races/160409/161008_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/160409/161008_info.pdf',
+        map: 'chkalovskaya_2021'
     },
     {
         id: 'SPB_20161009_1',
@@ -1616,7 +1649,8 @@ let events2016 = [
         video: 'https://www.youtube.com/watch?v=PZosqAlsbaw',
         owner: 'VYBORG',
         o_site: '16101516',
-        bulletin: 'https://o-site.spb.ru/_races/16101516/16101516_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/16101516/16101516_info.pdf',
+        map: 'paltsevo_2015'
     },
     {
         id: 'SPB_20161016_1',
@@ -1677,7 +1711,8 @@ let events2016 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=654',
         res: 'https://o-site.spb.ru/_races/161023/161023_res.htm',
         o_site: '161023',
-        bulletin: 'https://o-site.spb.ru/_races/161023/161023_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/161023/161023_info2.htm',
+        map: 'pesochnaya_2005'
     },
     {
         id: 'SPB_20161023_2',
@@ -1701,7 +1736,8 @@ let events2016 = [
         place: 'Полежаевский парк',
         res: 'https://o-site.spb.ru/_races/161029/161029_res.htm',
         o_site: '161029',
-        bulletin: 'https://o-site.spb.ru/_races/161029/161029_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/161029/161029_info.pdf',
+        map: 'polezhaevsky_2015'
     },
     {
         id: 'SPB_20161029_2',
@@ -1759,7 +1795,8 @@ let events2016 = [
         name: 'Цикл стартов МаТрёшка, 2 этап',
         start: 'MATRESHKA',
         res: 'https://o-site.spb.ru/_races/161105/161105matr_rez.htm',
-        o_site: '161105'
+        o_site: '161105',
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20161106_1',
@@ -1833,7 +1870,8 @@ let events2016 = [
             'https://o-site.spb.ru/_races/161120/161120_km.pdf',
             'https://o-site.spb.ru/_races/161120/161120_shemdist.pdf'
         ],
-        owner: 'NW'
+        owner: 'NW',
+        map: 'solnechnoe_djuny_2007'
     },
     {
         id: 'SPB_20161126_1',
@@ -1851,7 +1889,8 @@ let events2016 = [
         name: 'Кубок Белых Ночей 2016/17, 2 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/161126_split.htm',
-        o_site: '2017WN'
+        o_site: '2017WN',
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20161127_1',
@@ -1875,7 +1914,8 @@ let events2016 = [
         reg: 'http://reg.o-time.ru/list_future.php',
         res: 'https://o-site.spb.ru/_races/161110/161201_res.htm',
         o_site: '161110',
-        bulletin: 'https://o-site.spb.ru/_races/161110/161201_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/161110/161201_info.pdf',
+        map: 'shuvalovsky_1999'
     },
     {
         id: 'SPB_20161202_1',
@@ -1935,7 +1975,8 @@ let events2016 = [
         name: 'Кубок Белых Ночей 2016/17, 3 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/161210_split.htm',
-        o_site: '2017WN'
+        o_site: '2017WN',
+        map: 'ilychevo_2016'
     },
     {
         id: 'SPB_20161211_1',
@@ -1980,7 +2021,8 @@ let events2016 = [
         type: 'SKI',
         res: 'http://markir.spb.ru/results/2017.pdf',
         o_site: '161225',
-        bulletin: 'http://markir.spb.ru/Info2017_2.html'
+        bulletin: 'http://markir.spb.ru/Info2017_2.html',
+        map: 'sertolovo_2016'
     },
     {
         id: 'SPB_20161229_1',

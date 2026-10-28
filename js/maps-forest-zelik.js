@@ -182,7 +182,7 @@ let zelikMaps = [
     {
         name: 'Солнечное, Дюны',
         year: 2007,
-        url: './maps/forest/zelik/solnechnoe-djuny_2007.webp',
+        url: './maps/forest/zelik/solnechnoe_djuny_2007.webp',
         link: ['./original_maps/forest/zelik/solnechnoe-djuny_2007_1_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_2_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_3_omaps.gif','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
         bounds: [[60.1480634, 29.9297619], [60.1450299, 29.9705315], [60.1304354, 29.9247837]],
         author: 'SHRNN',
@@ -557,6 +557,13 @@ let zelikMaps = [
         bounds: [[60.2782386, 29.756813], [60.2765789, 29.7787428], [60.2614468, 29.7514486]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
+    },
+    {
+        name: 'Ильичёво',
+        year: 2005,
+        url: './maps/forest/zelik/ilychevo_2005.webp',
+        link: './original_maps/forest/zelik/ilychevo_2005_omaps.webp',
+        bounds: [[60.2695831, 29.7588730], [60.2684072, 29.7780132], [60.2607177, 29.7564483]],
     },
     {
         name: 'Ильичёво',

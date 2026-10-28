@@ -91,7 +91,8 @@ let commonEvents = [
         date: '1971-07-23',
         place: 'Псков',
         name: 'Матч Болгария - СССР',
-        res: './docs/1971/1971_07_23_bulgaria_ussr_omaps.pdf'
+        res: './docs/1971/1971_07_23_bulgaria_ussr_omaps.pdf',
+        map: 'pskov_kremlin_2003'
     },
     {
         id: 'SPB_19770314_1',
@@ -1270,7 +1271,8 @@ let commonEvents = [
         res: 'https://o-site.spb.ru/_races/140125/140125_res.htm',
         info: 'Чемпионат и первенство СЗФО Чемпионат и первенство ЦФО III зимняя всероссийская Универсиада, 2 этап (СЗФО, ЦФО)',
         o_site: '140125',
-        bulletin: 'https://o-site.spb.ru/_races/140125/14012527_info2a.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/140125/14012527_info2a.pdf',
+        map: 'budogosch_svetloe_winter_2024'
     },
     {
         id: 'MAJOR_20140129_1',
@@ -1371,7 +1373,8 @@ let commonEvents = [
         info: 'Личные соревнования. Группы: МЖ-14, 16, 18.',
         fmt: 'классика, общий старт, многодневный',
         owner: 'FSOR',
-        o_stuff: [582, 585]
+        o_stuff: [582, 585],
+        map: 'suvorova_2024'
     },
     {
         id: 'MAJOR_20140430_2',
@@ -1439,7 +1442,8 @@ let commonEvents = [
         coord: [54.461819, 53.536488],
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/919',
-        endReg: '2014-04-25 18:00'
+        endReg: '2014-04-25 18:00',
+        map: 'oktyabrsky_spartak_winter_2006'
     },
     {
         id: 'MAJOR_20140601_1',
@@ -2955,7 +2959,8 @@ let commonEvents = [
         name: 'Чемпионат Вооружённых сил',
         info: 'Группы: МЖ-Элита.',
         fmt: 'спринт, классика, эстафета',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'chita_mntn_1986'
     },
     {
         id: 'MAJOR_20160630_1',
@@ -3020,7 +3025,8 @@ let commonEvents = [
         name: 'Чемпионат и Первенство ЮФО и СКФО',
         info: 'Зональные соревнования. Лично-командные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18, 20.',
         fmt: 'спринт, эстафета 3х',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'kurumoch_2018'
     },
     {
         id: 'MAJOR_20160708_1',
@@ -3386,7 +3392,8 @@ let commonEvents = [
         info: 'Группы: МЖ-Элита.',
         type: 'SKI',
         fmt: 'классика, спринт, эстафета 3х',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'sochi_ahun_2001'
     },
     {
         id: 'MAJOR_20170301_1',
@@ -3477,7 +3484,8 @@ let commonEvents = [
             '08-М': 2018,
             '09-М': 2019
         },
-        o_stuff: [1749, 1750]
+        o_stuff: [1749, 1750],
+        map: 'pavlovsk_school_464'
     },
     {
         id: 'MAJOR_20170413_1',
@@ -3497,7 +3505,8 @@ let commonEvents = [
         name: 'Чемпионат и Первенство СЗФО',
         info: 'Личные соревнования. Группы: МЖ-14, 16, 18, Элита.',
         fmt: 'многодневный',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'pskov_carbuilder_ra_2010'
     },
     {
         id: 'MAJOR_20170425_1',
@@ -3763,7 +3772,8 @@ let commonEvents = [
         place: 'Рязань',
         name: 'Чемпионат Вооружённых сил Российской Федерации',
         info: 'Группы: МЖ-Элита.',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'dp_shk71_2021'
     },
     {
         id: 'MAJOR_20170629_1',
@@ -3883,7 +3893,8 @@ let commonEvents = [
         info: 'Лично-командные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'спринт, лонг, эстафета 3х',
         owner: 'FSOR',
-        o_stuff: [2066, 2067, 2068]
+        o_stuff: [2066, 2067, 2068],
+        map: 'alol_2021'
     },
     {
         id: 'MAJOR_20170720_1',
@@ -4106,7 +4117,8 @@ let commonEvents = [
         fmt: 'спринт, лонг, классика',
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/5694',
-        res: 'https://rufso.orgeo.ru/event/results/5694'
+        res: 'https://rufso.orgeo.ru/event/results/5694',
+        map: 'perm_chernyaevsky_1982'
     },
     {
         id: 'MAJOR_20171222_1',
@@ -4328,7 +4340,8 @@ let commonEvents = [
         info: 'Личные соревнования. Группы: МЖ-12, 14, 16, 18, 20, Элита.',
         fmt: 'спринт, лонг',
         owner: 'FSOR',
-        o_stuff: [2329, 2330, 2331]
+        o_stuff: [2329, 2330, 2331],
+        map: 'pavlovsk_school_464'
     },
     {
         id: 'MAJOR_20180412_2',
@@ -4349,7 +4362,8 @@ let commonEvents = [
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18. Призёры по онлайн-результатам orgeo (не официальный протокол): Спринт — М: Андрей Шувалов (Дюсш Тверь) - 1, Александр Ходосенко (Тверь) - 2, Андрей Никифоров (Клуб ориентирования О-Псков) - 3; Ж: Мария Засимовская (БАЛТИЙСКИЙ БЕРЕГ-Ф) - 1, Алла Зинина (лично) - 2, Анастасия Мурзина (БАЛТИЙСКИЙ БЕРЕГ-Ф) - 3. Кросс — М: Андрей Шувалов (Дюсш Тверь) - 1, Дмитрий Крылов (КСШОР-2, Тверь) - 2, Андрей Никифоров (Клуб ориентирования О-Псков) - 3; Ж: Мария Засимовская (БАЛТИЙСКИЙ БЕРЕГ-Ф) - 1, Екатерина Кононова (KONONOV) - 2, Анастасия Мурзина (БАЛТИЙСКИЙ БЕРЕГ-Ф) - 3. Кросс-средняя дистанция — М: Андрей Шувалов (Дюсш Тверь) - 1, Павел Бибич (31КП-СЕСТРОРЕЦК) - 2, Дмитрий Крылов (КСШОР-2, Тверь) - 3; Ж: Мария Засимовская (БАЛТИЙСКИЙ БЕРЕГ-Ф) - 1, Екатерина Кононова (KONONOV) - 2, Алла Зинина (лично) - 3.',
         fmt: 'многодневный',
         owner: 'FSOR',
-        reg: 'https://orgeo.ru/event/6472'
+        reg: 'https://orgeo.ru/event/6472',
+        map: 'pskov_carbuilder_ra_2010'
     },
     {
         id: 'MAJOR_20180425_1',
@@ -4445,7 +4459,8 @@ let commonEvents = [
         o_site: '180429',
         reg: 'https://orgeo.ru/event/6464',
         bulletin: 'https://o-site.spb.ru/_races/180429/1804290502_info_.pdf',
-        endReg: '2018-04-26 23:00'
+        endReg: '2018-04-26 23:00',
+        map: 'toksovo_tramplin_ska'
     },
     {
         id: 'MAJOR_20180504_1',
@@ -4499,7 +4514,8 @@ let commonEvents = [
             'https://orgeo.ru/event/6162'
         ],
         endReg: '2018-05-24 12:00',
-        o_stuff: [3457, 3461, 3462, 3463, 3464, 3465]
+        o_stuff: [3457, 3461, 3462, 3463, 3464, 3465],
+        map: 'vidogoschi_2021'
     },
     {
         id: 'MAJOR_20180613_1',
@@ -5041,7 +5057,8 @@ let commonEvents = [
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/8016',
         endReg: '2018-12-03 16:00',
-        res: 'https://rufso.orgeo.ru/event/results/8016'
+        res: 'https://rufso.orgeo.ru/event/results/8016',
+        map: 'oktyabrsky_spartak_winter_2006'
     },
     {
         id: 'MAJOR_20181228_1',
@@ -5075,7 +5092,8 @@ let commonEvents = [
         coord: [54.461819, 53.536488],
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/8083',
-        endReg: '2018-12-30 23:00'
+        endReg: '2018-12-30 23:00',
+        map: 'oktyabrsky_spartak_winter_2006'
     },
     {
         id: 'MAJOR_20190103_3',
@@ -5128,7 +5146,8 @@ let commonEvents = [
         coord: [54.461819, 53.536488],
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/8425',
-        endReg: '2019-01-22 22:00'
+        endReg: '2019-01-22 22:00',
+        map: 'oktyabrsky_spartak_winter_2006'
     },
     {
         id: 'MAJOR_20190124_7',
@@ -5158,7 +5177,8 @@ let commonEvents = [
         endReg: '2019-01-22 22:00',
         photo: 'http://vk.com/vkusnypirozhochek?z=album-176158928_260195803',
         o_site: '190124',
-        bulletin: 'https://o-site.spb.ru/_races/190124/byull_1-2_SZFO-TsFO.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/190124/byull_1-2_SZFO-TsFO.pdf',
+        map: 'budogosch_mechta_2005'
     },
     {
         id: 'SPB_20190130_1',
@@ -5348,7 +5368,8 @@ let commonEvents = [
         name: 'Чемпионат и Первенство СЗФО',
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'классика, многодневный, общий старт',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'pskov_carbuilder_ra_2010'
     },
     {
         id: 'MAJOR_20190422_1',
@@ -5501,7 +5522,8 @@ let commonEvents = [
         reg: 'https://orgeo.ru/event/9184',
         endReg: '2019-05-23 09:50',
         o_stuff: [2964, 2965, 2974, 2975, 2976, 2977],
-        reskeep: [144, 147, 148]
+        reskeep: [144, 147, 148],
+        map: 'dzerzhinsk_zhelnino_1993'
     },
     {
         id: 'MAJOR_20190612_1',
@@ -5802,7 +5824,8 @@ let commonEvents = [
             '19': 6124,
             '20': 6125,
             '21': 6126
-        }
+        },
+        map: 'alol_2021'
     },
     {
         id: 'MAJOR_20190718_3',
@@ -5840,7 +5863,8 @@ let commonEvents = [
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-14, 16, 18.',
         fmt: 'выбор, эстафета 2х, лонг, общий старт',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'chita_mntn_1986'
     },
     {
         id: 'MAJOR_20190726_2',
@@ -5885,7 +5909,8 @@ let commonEvents = [
             '05-Ж20': 6221,
             '05-М18': 6222,
             '05-Ж18': 6223
-        }
+        },
+        map: 'poljany_university_2016'
     },
     {
         id: 'MAJOR_20190808_1',
@@ -5935,7 +5960,8 @@ let commonEvents = [
             '24-2': 6255,
             '25': 6256
         },
-        o_stuff: [3111, 3112, 3113]
+        o_stuff: [3111, 3112, 3113],
+        map: 'lubenets_winter_1989'
     },
     {
         id: 'RRF_20190824_1',
@@ -6353,7 +6379,8 @@ let commonEvents = [
         name: 'Всероссийские соревнования «Тихий Дон»',
         info: 'Личные соревнования. Группы: МЖ-12, 14, 16, 18, 20, Элита.',
         fmt: 'спринт, классика, лонг',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'pavlovsk_school_464'
     },
     {
         id: 'MAJOR_20200415_1',
@@ -6395,7 +6422,8 @@ let commonEvents = [
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'классика, многодневный, общий старт',
         owner: 'FSOR',
-        reg: 'https://orgeo.ru/event/12399'
+        reg: 'https://orgeo.ru/event/12399',
+        map: 'pskov_carbuilder_ra_2010'
     },
     {
         id: 'MAJOR_20200425_1',
@@ -6577,7 +6605,8 @@ let commonEvents = [
         name: 'Чемпионат и Первенство ДФО',
         info: 'Лично-командные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'спринт, лонг, эстафета 3х',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'chita_mntn_1986'
     },
     {
         id: 'MAJOR_20200701_1',
@@ -6631,7 +6660,8 @@ let commonEvents = [
         name: 'Чемпионат и Первенство СЗФО',
         info: 'Лично-командные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'спринт, лонг, эстафета 3х',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'alol_2021'
     },
     {
         id: 'MAJOR_20200717_3',
@@ -6651,7 +6681,8 @@ let commonEvents = [
         name: 'Всероссийские соревнования «Пермский период»',
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'классика, лонг, спринт',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'polazna_1982'
     },
     {
         id: 'MAJOR_20200730_1',
@@ -6866,7 +6897,8 @@ let commonEvents = [
         name: 'Всероссийские соревнования',
         info: 'Личные соревнования. Группы: МЖ-14, 16, 18.',
         fmt: 'выбор, лонг, общий старт, классика',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'stroitel_2025'
     },
     {
         id: 'MAJOR_20201126_3',
@@ -6988,7 +7020,8 @@ let commonEvents = [
         coord: [54.461819, 53.536488],
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/14997',
-        res: 'https://rufso.orgeo.ru/event/results/14997'
+        res: 'https://rufso.orgeo.ru/event/results/14997',
+        map: 'oktyabrsky_spartak_winter_2006'
     },
     {
         id: 'SPB_20210126_1',
@@ -7002,7 +7035,8 @@ let commonEvents = [
         photo: 'http://drive.google.com/drive/folders/1tXxzW3dKMnLB-ml3mOgyfcuPbirnAgAI?usp=sharing',
         info: '1 этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций. В программе: виртуальная О-дистанция по исторической части Выборга! 22 января в 16:00 (МСК) на платформе ZOOM состоится Всероссийский обучающий семинар "Трейл-ориентирование - спорт равных возможностей", на котором представители оргкомитета расскажут о специфике прохождения дистанции 1 этапа Игр в онлайн-формате.',
         o_site: '270120',
-        bulletin: 'https://o-site.spb.ru/_races/270120/Informatsionny_byul2-2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/270120/Informatsionny_byul2-2.pdf',
+        map: 'vyborg_rfar_2013'
     },
     {
         id: 'MAJOR_20210128_1',
@@ -7075,7 +7109,8 @@ let commonEvents = [
             '31-Ж1': 8930,
             '31-Ж3': 8929
         },
-        endReg: '2021-01-25 22:55'
+        endReg: '2021-01-25 22:55',
+        map: 'petrovskoe_svjazist_2010'
     },
     {
         id: 'MAJOR_20210204_1',
@@ -7213,7 +7248,8 @@ let commonEvents = [
         info: 'Личные соревнования. Группы: МЖ-14, 16, 18, 20, МЖ-Элита.',
         fmt: 'спринт, лонг, классика',
         owner: 'FSOR',
-        video: 'https://www.youtube.com/watch?v=wa8ImS7ElD4'
+        video: 'https://www.youtube.com/watch?v=wa8ImS7ElD4',
+        map: 'pavlovsk_school_464'
     },
     {
         id: 'MAJOR_20210415_2',
@@ -7253,7 +7289,8 @@ let commonEvents = [
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'многодневный, классика, общий старт',
         owner: 'FSOR',
-        reskeep: [440, 439]
+        reskeep: [440, 439],
+        map: 'pskov_carbuilder_ra_2010'
     },
     {
         id: 'MAJOR_20210422_1',
@@ -7421,7 +7458,8 @@ let commonEvents = [
         reg: 'https://orgeo.ru/event/12717',
         endReg: '2021-04-30 23:00',
         bulletin: 'https://fsono.ru/wp-content/uploads/2021/04/202105_dzer_infobul2.pdf',
-        res: 'https://rufso.orgeo.ru/event/results/12717'
+        res: 'https://rufso.orgeo.ru/event/results/12717',
+        map: 'dzerzhinsk_zhelnino_1993'
     },
     {
         id: 'RRF_20210508_1',
@@ -7535,7 +7573,8 @@ let commonEvents = [
         region: 'SPB',
         o_site: '210618_trailo',
         reg: 'https://orgeo.ru/event/16635',
-        endReg: '2021-06-12 23:50'
+        endReg: '2021-06-12 23:50',
+        map: 'psk_2014_06_08'
     },
     {
         id: 'SPB_20210612_2',
@@ -7742,7 +7781,8 @@ let commonEvents = [
         name: 'Чемпионат и Первенство ДФО',
         info: 'Лично-командные соревнования. Группы: МЖ-Элита, МЖ-Элита.',
         fmt: 'спринт, лонг, эстафета 3х',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'chita_mntn_1986'
     },
     {
         id: 'MAJOR_20210630_1',
@@ -7929,7 +7969,8 @@ let commonEvents = [
         o_gps: {
             '22-М': 10735,
             '22-Ж': 10736
-        }
+        },
+        map: 'pskov_carbuilder_ra_2010'
     },
     {
         id: 'MAJOR_20210825_1',
@@ -8000,7 +8041,8 @@ let commonEvents = [
         name: 'Всероссийские соревнования среди студентов',
         info: 'Лично-командные соревнования. Группы: МЖ-Элита.',
         fmt: 'спринт, классика, эстафета 3х',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'vidogoschi_2021'
     },
     {
         id: 'MAJOR_20210916_1',
@@ -8015,7 +8057,8 @@ let commonEvents = [
         reg: 'https://orgeo.ru/event/17660',
         endReg: '2021-09-12 20:00',
         o_gps: 10940,
-        o_stuff: [4515, 4516, 4517, 4522, 4523, 4524]
+        o_stuff: [4515, 4516, 4517, 4522, 4523, 4524],
+        map: 'kasimov_loschinino_tsrb_2020'
     },
     {
         id: 'MAJOR_20210916_3',
@@ -8377,7 +8420,8 @@ let commonEvents = [
         info: 'Лично-командные соревнования. Группы: МЖ-Элита, МЖ-14, 17.',
         type: 'SKI',
         fmt: 'спринт, классика, эстафета 3х',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'omskaya_2022'
     },
     {
         id: 'MAJOR_20220128_2',
@@ -8606,7 +8650,8 @@ let commonEvents = [
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/21519',
         o_gps: 12612,
-        video: 'https://www.youtube.com/watch?v=Wu8jGwAoh8g'
+        video: 'https://www.youtube.com/watch?v=Wu8jGwAoh8g',
+        map: 'pavlovsk_school_464'
     },
     {
         id: 'MAJOR_20220414_2',
@@ -8617,7 +8662,8 @@ let commonEvents = [
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'многодневный',
         owner: 'FSOR',
-        reskeep: [512, 520, 521]
+        reskeep: [512, 520, 521],
+        map: 'pskov_carbuilder_ra_2010'
     },
     {
         id: 'MAJOR_20220414_5',
@@ -8800,7 +8846,8 @@ let commonEvents = [
             '03-2': 13252,
             '05-1': 13270,
             '05-2': 13272
-        }
+        },
+        map: 'alol_2021'
     },
     {
         id: 'MAJOR_20220609_1',
@@ -8981,7 +9028,8 @@ let commonEvents = [
         coord: [60.799774, 28.771322],
         owner: 'SFSO_LO',
         o_site: '220618_trailo',
-        bulletin: 'https://o-site.spb.ru/_races/220618_trailo/Chemp_Perv_FSOR_inf1.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/220618_trailo/Chemp_Perv_FSOR_inf1.pdf',
+        map: 'vyborg_2019'
     },
     {
         id: 'MAJOR_20220617_2',
@@ -9157,7 +9205,8 @@ let commonEvents = [
             '16': 13611,
             '17': 13620
         },
-        o_stuff: [5051, 5052, 5053, 5055]
+        o_stuff: [5051, 5052, 5053, 5055],
+        map: 'alol_2021'
     },
     {
         id: 'MAJOR_20220721_2',
@@ -9302,7 +9351,8 @@ let commonEvents = [
             'https://www.youtube.com/watch?v=NYKuETNbAsc',
             'https://www.youtube.com/watch?v=sGLmo6VhEaQ'
         ],
-        o_stuff: [5194, 5408]
+        o_stuff: [5194, 5408],
+        map: 'vidogoschi_2021'
     },
     {
         id: 'MAJOR_20220825_4',
@@ -9995,7 +10045,8 @@ let commonEvents = [
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18, 20.',
         fmt: 'спринт, лонг',
         owner: 'FSOR',
-        o_stuff: [5474, 5475, 5476, 5482, 5496, 5497, 5498, 5499, 5530]
+        o_stuff: [5474, 5475, 5476, 5482, 5496, 5497, 5498, 5499, 5530],
+        map: 'pavlovsk_school_464'
     },
     {
         id: 'MAJOR_20230413_4',
@@ -10042,7 +10093,8 @@ let commonEvents = [
             '16-2': 15636,
             '16-3': 15637
         },
-        reskeep: [583, 585]
+        reskeep: [583, 585],
+        map: 'pskov_summer_garden_2023'
     },
     {
         id: 'MAJOR_20230420_1',
@@ -10288,7 +10340,8 @@ let commonEvents = [
             '10-М18/21А/35/40': 16505,
             '11-М18/21А/35/40': 16515
         },
-        o_stuff: [5699, 5700, 5701, 5702, 5715, 5718, 5719]
+        o_stuff: [5699, 5700, 5701, 5702, 5715, 5718, 5719],
+        map: ['navashino_dedovskoe_2023_06_11', 'navashino_dedovskoe_2023_06_12']
     },
     {
         id: 'MAJOR_20230609_1',
@@ -10550,7 +10603,8 @@ let commonEvents = [
         fmt: 'спринт, эстафета 2х, общий старт',
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/29449',
-        res: 'https://rufso.orgeo.ru/event/results/29449'
+        res: 'https://rufso.orgeo.ru/event/results/29449',
+        map: 'khimki_2022'
     },
     {
         id: 'MAJOR_20230629_1',
@@ -10732,7 +10786,8 @@ let commonEvents = [
         coord: [56.44339, 29.168381],
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/27773',
-        o_stuff: [5819, 5838, 5871]
+        o_stuff: [5819, 5838, 5871],
+        map: 'alol_2021'
     },
     {
         id: 'MAJOR_20230711_1',
@@ -10832,7 +10887,8 @@ let commonEvents = [
         info: 'Личные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'спринт, классика',
         owner: 'FSOR',
-        o_stuff: 5887
+        o_stuff: 5887,
+        map: 'khimki_2022'
     },
     {
         id: 'MAJOR_20230816_1',
@@ -11000,7 +11056,8 @@ let commonEvents = [
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/29918',
         endReg: '2023-09-07 23:50',
-        bulletin: 'https://orgeo.ru/files/event/file/29918_2ed22ea18f.pdf'
+        bulletin: 'https://orgeo.ru/files/event/file/29918_2ed22ea18f.pdf',
+        map: 'pskov_kremlin_2003'
     },
     {
         id: 'SPB_20230916_2',
@@ -11236,7 +11293,8 @@ let commonEvents = [
         bulletin: 'https://o-site.spb.ru/_races/231128_TA/TochnnyAzimut2023_vseros_bul.pdf',
         maps: [
             'https://o-site.spb.ru/_races/231128_TA/solutions.pdf'
-        ]
+        ],
+        map: 'ekateringof_2021'
     },
     {
         id: 'MAJOR_20231130_2',
@@ -11696,7 +11754,8 @@ let commonEvents = [
             '12-М50': 18871,
             '12-Ж16': 18872,
             '13-Ж16': 18891
-        }
+        },
+        map: 'pavlovsk_school_464'
     },
     {
         id: 'MAJOR_20240418_1',
@@ -11716,7 +11775,8 @@ let commonEvents = [
             '21-1': 19005,
             '21-2': 19040
         },
-        reskeep: [652, 630, 631]
+        reskeep: [652, 630, 631],
+        map: 'pskov_summer_garden_2023'
     },
     {
         id: 'MAJOR_20240423_1',
@@ -11776,7 +11836,8 @@ let commonEvents = [
             '27-1': 19148,
             '27-2': 19149,
             '28-М18/16': 19141
-        }
+        },
+        map: 'pskov_summer_garden_2023'
     },
     {
         id: 'MAJOR_20240425_5',
@@ -12009,7 +12070,8 @@ let commonEvents = [
         coord: [60.991913, 29.182669],
         reg: 'https://orgeo.ru/event/32124',
         o_site: '240616',
-        bulletin: 'https://o-site.spb.ru/_races/240616/Info_bul_2024_KKP.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/240616/Info_bul_2024_KKP.pdf',
+        map: 'psk_2014_06_08'
     },
     {
         id: 'SPB_20240615_1',
@@ -12488,7 +12550,8 @@ let commonEvents = [
             '01-М21': 20155,
             '03-М21-1': 20176,
             '03-М21-2': 20185
-        }
+        },
+        map: 'vidogoschi_2021'
     },
     {
         id: 'MAJOR_20240805_2',
@@ -12645,7 +12708,8 @@ let commonEvents = [
         reg: 'https://orgeo.ru/event/kubok2024',
         endReg: '2024-08-26',
         bulletin: 'https://orgeo.ru/files/event/file/36992_a66db3d97a.pdf',
-        res: 'https://rufso.orgeo.ru/event/results/kubok2024'
+        res: 'https://rufso.orgeo.ru/event/results/kubok2024',
+        map: 'khimki_2024'
     },
     {
         id: 'MAJOR_20240830_2',
@@ -12661,7 +12725,8 @@ let commonEvents = [
         reg: 'https://orgeo.ru/event/kubok2024',
         endReg: '2024-08-26',
         bulletin: 'https://orgeo.ru/files/event/file/36992_a66db3d97a.pdf',
-        res: 'https://rufso.orgeo.ru/event/results/kubok2024'
+        res: 'https://rufso.orgeo.ru/event/results/kubok2024',
+        map: 'khimki_2024'
     },
     {
         id: 'MAJOR_20240905_3',
@@ -12693,7 +12758,8 @@ let commonEvents = [
         place: 'ВДЦ «ОРЛЕНОК», Краснодарский край',
         name: 'Всероссийские спортивные соревнования школьников Президентские состязания 2023/2024 учебного года',
         info: 'ФИНАЛ. Группы: По Положению.',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'budogosch_orlenok_2006'
     },
     {
         id: 'MAJOR_20240912_1',
@@ -12810,7 +12876,8 @@ let commonEvents = [
         o_site: '240915_baltbereg',
         reg: 'https://orgeo.ru/event/37150',
         bulletin: 'https://o-site.spb.ru/_races/240915_baltbereg/Info_Bul2_TR_O_24091415.pdf',
-        endReg: '2024-09-13 14:00'
+        endReg: '2024-09-13 14:00',
+        map: 'kolpino_chuhonka_2020'
     },
     {
         id: 'MAJOR_20240916_1',
@@ -12993,7 +13060,8 @@ let commonEvents = [
         endReg: '2024-11-25 12:00',
         info: 'Заключительное мероприятие Всероссийского фестиваля среди обучающихся, обучающихся с ограниченными возможностями здоровья и инвалидов по спортивному ориентированию на 2024 год «Онлайн соревнования «ТОЧНЫЙ АЗИМУТ»: 26 ноября с 00:00 до 20:00 (МСК).',
         o_site: '241126_online',
-        bulletin: 'https://o-site.spb.ru/_races/241126_online/2024_INFORMATsIONNYJ_BYuLLETEN_ROSSIYa.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/241126_online/2024_INFORMATsIONNYJ_BYuLLETEN_ROSSIYa.pdf',
+        map: 'zelenogorsk_tspko_2024'
     },
     {
         id: 'MAJOR_20241127_1',
@@ -13100,7 +13168,8 @@ let commonEvents = [
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/38101',
         endReg: '2025-01-01 23:55',
-        bulletin: 'https://o-bash.ru/wp-content/uploads/2024/10/Kubok-Rossii-VS-Informatsionnyj-byulleten-1.pdf'
+        bulletin: 'https://o-bash.ru/wp-content/uploads/2024/10/Kubok-Rossii-VS-Informatsionnyj-byulleten-1.pdf',
+        map: 'glumilino_2026_winter'
     },
     {
         id: 'MAJOR_20250103_3',
@@ -13147,7 +13216,8 @@ let commonEvents = [
         reg: 'https://orgeo.ru/event/39471',
         endReg: '2025-01-10 22:00',
         bulletin: 'https://orgeo.ru/files/event/file/39471_17b1760445.pdf',
-        res: 'https://rufso.orgeo.ru/event/results/39471'
+        res: 'https://rufso.orgeo.ru/event/results/39471',
+        map: 'oktyabrsky_spartak_winter_2006'
     },
     {
         id: 'MAJOR_20250123_1',
@@ -13459,7 +13529,8 @@ let commonEvents = [
         name: 'Всероссийские соревнования «Тихий Дон»',
         info: 'Личные соревнования. Группы: МЖ 14, 16, 18, 20, МЖ-Элита.',
         fmt: 'спринт, лонг',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'pavlovsk_school_464'
     },
     {
         id: 'MAJOR_20250410_2',
@@ -13473,7 +13544,8 @@ let commonEvents = [
         reg: 'https://orgeo.ru/event/40844',
         bulletin: 'https://www.orientpskov.ru/uploads/files/meropriyatia/НЕВСКИЙ%202025/Информационный%20бюллетень%20ВСАН%2011-13.04.2025.pdf',
         video: 'https://t.me/lamporient/6500',
-        o_stuff: [7221, 7345]
+        o_stuff: [7221, 7345],
+        map: 'pskov_summer_garden_2023'
     },
     {
         id: 'MAJOR_20250421_1',
@@ -13531,7 +13603,8 @@ let commonEvents = [
         info: 'Лично-командные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18. Призёры по онлайн-результатам orgeo (не официальный протокол): Кросс-спринт — М: Михаил Максименко (ЮВЕНТА СОСНОВЫЙ БОР) - 1, Юрий Кирьянов (Ингрия) - 2, Иван Никитин (СКО Русь) - 3; Ж: Екатерина Никитина (Новгородская обл.) - 1, Диана Кургузкина (МАУ Всеволожский ЦФКС Ингрия) - 2, Виктория Чернышева (ЮВЕНТА СОСНОВЫЙ БОР) - 3. Кросс-многодневный — М: Михаил Максименко (ЮВЕНТА СОСНОВЫЙ БОР) - 1, Кирилл Васильев (СШОР Бал берег ПЕТЕРГОФ) - 2, Даниил Жулдыбин (БЕЛЫЕ НОЧИ Всеволожский Центр Ф) - 3; Ж: Екатерина Никитина (Новгородская обл.) - 1, Виктория Чернышева (ЮВЕНТА СОСНОВЫЙ БОР) - 2, Диана Кургузкина (МАУ Всеволожский ЦФКС Ингрия) - 3.',
         fmt: 'спринт, многодневный, эстафета 2х',
         owner: 'FSOR',
-        reg: 'https://orgeo.ru/event/43397'
+        reg: 'https://orgeo.ru/event/43397',
+        map: 'pskov_summer_garden_2023'
     },
     {
         id: 'MAJOR_20250424_5',
@@ -14002,7 +14075,8 @@ let commonEvents = [
         reg: 'https://orgeo.ru/event/44139',
         endReg: '2025-06-25 23:00',
         o_gps: 22976,
-        o_stuff: [7399, 7400, 7424]
+        o_stuff: [7399, 7400, 7424],
+        map: 'vyshny_volochek_rogaine_2023'
     },
     {
         id: 'MAJOR_20250626_6',
@@ -14359,7 +14433,8 @@ let commonEvents = [
         o_gps: {
             '16-М': 23218,
             '16-Ж': 23219
-        }
+        },
+        map: 'pskov_kremlin_2003'
     },
     {
         id: 'MAJOR_20250815_2',
@@ -14636,7 +14711,8 @@ let commonEvents = [
         name: 'Всероссийские соревнования среди студентов',
         info: 'Лично-командные соревнования. Группы: МЖ-25.',
         fmt: 'спринт, классика, эстафета 3х',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'dp_shk71_2021'
     },
     {
         id: 'MAJOR_20250918_2',
@@ -15227,7 +15303,8 @@ let commonEvents = [
         coord: [57.824371, 28.322937],
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/49631',
-        bulletin: 'https://orgeo.ru/files/event/file/49631_8cfbcb96a8.pdf'
+        bulletin: 'https://orgeo.ru/files/event/file/49631_8cfbcb96a8.pdf',
+        map: 'pskov_kremlin_2003'
     },
     {
         id: 'MAJOR_20260423_4',
@@ -15388,7 +15465,8 @@ let commonEvents = [
         name: 'Мемориал Александра Матросова',
         place: 'Псков',
         link: 'https://vk.com/skorus',
-        owner: 'PSKOV_RUS'
+        owner: 'PSKOV_RUS',
+        map: 'pskov_summer_garden_2023'
     },
     {
         id: 'MAJOR_20260512_2',
@@ -15419,7 +15497,8 @@ let commonEvents = [
         reg: 'https://orgeo.ru/event/prdz26',
         endReg: '2026-05-12 19:40',
         bulletin: 'https://orgeo.ru/files/event/file/49483_669092a4a9.pdf',
-        res: 'https://rufso.orgeo.ru/event/results/prdz26'
+        res: 'https://rufso.orgeo.ru/event/results/prdz26',
+        map: 'dzerzhinsk_zhelnino_1993'
     },
     {
         id: 'SPB_20260523_1',
@@ -15477,7 +15556,8 @@ let commonEvents = [
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/50660',
         endReg: '2026-05-24 21:00',
-        bulletin: 'https://orgeo.ru/files/event/file/50660_c84960fc75.pdf'
+        bulletin: 'https://orgeo.ru/files/event/file/50660_c84960fc75.pdf',
+        map: 'alol_2021'
     },
     {
         id: 'MAJOR_20260609_1',
@@ -15497,7 +15577,8 @@ let commonEvents = [
             'https://orgeo.ru/files/event/file/50011_8555ce7d40.pdf'
         ],
         o_gps: 25368,
-        o_stuff: [7854, 7855, 7856, 7857, 7859, 7860, 7861, 7862, 7863, 7864]
+        o_stuff: [7854, 7855, 7856, 7857, 7859, 7860, 7861, 7862, 7863, 7864],
+        map: 'vacha_aleksandrovo_2026_06_13'
     },
     {
         id: 'MAJOR_20260611_1',
@@ -15954,7 +16035,8 @@ let commonEvents = [
         info: 'Лично-командные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'классика, лонг, эстафета 3х',
         owner: 'FSOR',
-        o_gps: 25547
+        o_gps: 25547,
+        map: 'chita_mntn_1986'
     },
     {
         id: 'SPB_20260704_1',
@@ -16192,7 +16274,8 @@ let commonEvents = [
             '31': 25684,
             '01': 25687,
             '02': 25691
-        }
+        },
+        map: 'dzerzhinsk_zhelnino_1993'
     },
     {
         id: 'MAJOR_20260812_1',
@@ -16469,7 +16552,8 @@ let commonEvents = [
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/53848',
         endReg: '2026-09-08 23:00',
-        res: 'https://rufso.orgeo.ru/event/results/53848'
+        res: 'https://rufso.orgeo.ru/event/results/53848',
+        map: 'vyshny_volochek_rogaine_2023'
     },
     {
         id: 'SPB_20260911_1',
@@ -16564,7 +16648,8 @@ let commonEvents = [
         publish: 'https://vk.ru/wall-196511971_1676',
         fmt: 'классика, лонг',
         coord: [60.58234, 29.907015],
-        owner: 'WN'
+        owner: 'WN',
+        map: 'michurinskoe_2022'
     },
     {
         id: 'MAJOR_20260924_3',
@@ -16876,7 +16961,8 @@ let commonEvents = [
         info: 'Личные соревнования. Группы: МЖ-Элита.',
         type: 'SKI',
         fmt: 'маркированная трасса, комбинация, лонг, общий старт',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'perm_chernyaevsky_1982'
     },
     {
         id: 'MAJOR_20270223_1',
@@ -16949,7 +17035,8 @@ let commonEvents = [
         name: 'Всероссийские соревнования «Тихий Дон»',
         info: 'Личные соревнования. Группы: МЖ 14, 16, 18, 20, МЖ-Элита.',
         fmt: 'спринт, лонг',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'pavlovsk_school_464'
     },
     {
         id: 'MAJOR_20270415_1',
@@ -16959,7 +17046,8 @@ let commonEvents = [
         name: 'Всероссийские соревнования «Венок славы Александра Невского»',
         info: 'Всероссийские соревнования: личные соревнования. Группы: МЖ-14, 16, 18, МЖ-Элита. Межрегиональные соревнования: личные соревнования. Группы: МЖ-12.',
         fmt: 'классика, лонг',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'pskov_summer_garden_2023'
     },
     {
         id: 'MAJOR_20270415_3',
@@ -17020,7 +17108,8 @@ let commonEvents = [
         name: 'Чемпионат и Первенство СЗФО',
         info: 'Лично-командные соревнования. Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'выбор, спринт, многодневный, эстафета 2х',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'pskov_summer_garden_2023'
     },
     {
         id: 'MAJOR_20270422_5',
@@ -17198,7 +17287,8 @@ let commonEvents = [
         info: 'Личные соревнования. Группы: МЖ14, 16, 18, МЖ-Элита.',
         fmt: 'многодневный',
         owner: 'FSOR',
-        region: 'SPB'
+        region: 'SPB',
+        map: 'peski_2026'
     },
     {
         id: 'MAJOR_20270628_1',
@@ -17310,7 +17400,8 @@ let commonEvents = [
         name: 'Всероссийские соревнования «Русь»',
         info: 'Группы: МЖ-Элита, МЖ-14, 16, 18.',
         fmt: 'лонг',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'alol_2021'
     },
     {
         id: 'MAJOR_20270721_1',
@@ -17330,7 +17421,8 @@ let commonEvents = [
         name: 'Всероссийские соревнования «Пермский период»',
         info: 'Всероссийские соревнования: личные соревнования. Группы: МЖ-14, 16, 18, МЖ-Элита. Всероссийские соревнования: группы: МЖ-12, 14, 18, МЖ-Элита.',
         fmt: 'выбор, лонг, классика',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'polazna_1982'
     },
     {
         id: 'MAJOR_20270722_2',
@@ -17448,7 +17540,8 @@ let commonEvents = [
         info: 'Личные соревнования. Группы: МЖ-Элита.',
         type: 'VELO',
         fmt: 'спринт, эстафета 3х, лонг, классика, эстафета 2х, общий старт',
-        owner: 'FSOR'
+        owner: 'FSOR',
+        map: 'perm_chernyaevsky_1982'
     },
     {
         id: 'MAJOR_20270825_1',

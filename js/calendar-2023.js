@@ -109,7 +109,8 @@ let events2023 = [
         o_site: '23012022',
         maps: [
             'https://o-site.spb.ru/_races/23012022/230120_map.pdf'
-        ]
+        ],
+        map: 'budogosch_mechta_2005'
     },
     {
         id: 'SPB_20230121_1',
@@ -431,7 +432,8 @@ let events2023 = [
         endReg: '2023-03-17 00:00',
         info: 'Информация: Заявка починина, можно заявляться! Шипы, в связи погодных условий, будут разрешены. Старт БЕСПЛАТНЫЙ для всех!',
         o_site: '230318',
-        bulletin: 'https://o-site.spb.ru/_races/230318/230319_ib2_vv.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/230318/230319_ib2_vv.pdf',
+        map: 'pushkin_school_552_2022'
     },
     {
         id: 'SPB_20230318_2',
@@ -569,7 +571,8 @@ let events2023 = [
         info: 'Чемпионат Санкт-Петербурга по спортивному ориентированию – спорт лиц с поражением опорно-двигательного аппарата. Открытые соревнования на приз комиссии по трейл-ориентированию Федерации спортивного ориентирования Санкт-Петербурга.',
         type: 'TRAIL_O',
         coord: [60.204876, 29.742239],
-        o_site: '230415_trailo'
+        o_site: '230415_trailo',
+        map: 'zelenogorsk_tspko_2024'
     },
     {
         id: 'SPB_20230416_1',
@@ -582,7 +585,8 @@ let events2023 = [
         res: 'https://orgeo.ru/live/#/28147',
         info: 'Открытие летнего сезона Федерации спортивного ориентирования Санкт-Петербурга. Официальный старт с присвоением разрядов',
         o_site: '230416',
-        bulletin: 'https://o-site.spb.ru/_races/230416/230416_info3.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/230416/230416_info3.pdf',
+        map: 'toksovo_vifk_2020'
     },
     {
         id: 'SPB_20230418_1',
@@ -601,7 +605,8 @@ let events2023 = [
         type: 'VELO',
         coord: [60.029278, 30.353764],
         reg: 'https://orgeo.ru/event/28129',
-        endReg: '2023-04-17 22:00'
+        endReg: '2023-04-17 22:00',
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20230420_1',
@@ -611,7 +616,8 @@ let events2023 = [
         place: 'Шуваловский парк',
         coord: [60.078239, 30.303949],
         reg: 'https://orgeo.ru/event/28168',
-        endReg: '2023-04-20 12:00'
+        endReg: '2023-04-20 12:00',
+        map: 'shuvalovsky_rogaine_2024'
     },
     {
         id: 'SPB_20230422_1',
@@ -627,7 +633,8 @@ let events2023 = [
         video: 'https://www.youtube.com/watch?v=nV5lOGaoQI8',
         start: 'LM',
         o_site: '230422',
-        bulletin: 'https://o-site.spb.ru/_races/230422/230422_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/230422/230422_info.pdf',
+        map: 'luga_shalovo_lm_2023'
     },
     {
         id: 'SPB_20230422_2',
@@ -654,7 +661,8 @@ let events2023 = [
             '22': 15753,
             '23': 15762,
             '23-М18': 15767
-        }
+        },
+        map: 'sosnovij_bor_lipovo_2020'
     },
     {
         id: 'SPB_20230422_3',
@@ -663,7 +671,8 @@ let events2023 = [
         name: 'Кубок Белых Ночей 2022/23, 10 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230422_split.htm',
-        o_site: 'cbn_2023'
+        o_site: 'cbn_2023',
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20230426_1',
@@ -697,7 +706,8 @@ let events2023 = [
         place: 'Осиновая роща',
         coord: [60.110912, 30.246861],
         reg: 'https://orgeo.ru/event/28311',
-        endReg: '2023-04-27 12:00'
+        endReg: '2023-04-27 12:00',
+        map: 'osinovaja_roscha_2018'
     },
     {
         id: 'SPB_20230429_1',
@@ -785,7 +795,8 @@ let events2023 = [
         name: 'Кубок Белых Ночей 2022/23, 13 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230501_split.htm',
-        o_site: 'cbn_2023'
+        o_site: 'cbn_2023',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20230506_1',
@@ -805,7 +816,8 @@ let events2023 = [
         name: 'Кубок Белых Ночей 2022/23, 14 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230506_split.htm',
-        o_site: 'cbn_2023'
+        o_site: 'cbn_2023',
+        map: 'bylinnoe_2023'
     },
     {
         id: 'SPB_20230507_1',
@@ -833,7 +845,8 @@ let events2023 = [
         place: 'п.Вьюн',
         coord: [60.387558, 30.286098],
         reg: 'https://orgeo.ru/event/28135',
-        endReg: '2023-05-06 15:00'
+        endReg: '2023-05-06 15:00',
+        map: 'lembolovo_orekhovo_2023'
     },
     {
         id: 'SPB_20230508_1',
@@ -953,16 +966,20 @@ let events2023 = [
         name: 'Кубок Белых Ночей 2022/23, 18 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230514_split.htm',
-        o_site: 'cbn_2023'
+        o_site: 'cbn_2023',
+        map: 'vorontsovskoe_simagino_2021'
     },
+/*
     {
         id: 'SPB_20230515_1',
         date: '2023-05-15',
         name: 'Черноозерская средняя',
-        place: 'Выборгский',
+        place: 'Зеленогорск, Чёрные оз',
         reg: 'https://orgeo.ru/event/28793',
-        owner: 'WN'
+        owner: 'WN',
+        map: 'zelenogorsk_chernye_2023'
     },
+*/
     {
         id: 'SPB_20230517_1',
         date: '2023-05-17',
@@ -989,7 +1006,8 @@ let events2023 = [
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2023-1/BA2023.jpg'
-        ]
+        ],
+        map: 'kamennogorsk_ba_2023'
     },
     {
         id: 'SPB_20230518_1',
@@ -1008,7 +1026,8 @@ let events2023 = [
         place: 'Лупполово',
         coord: [60.16021, 30.269415],
         reg: 'https://orgeo.ru/event/28777',
-        endReg: '2023-05-18 12:00'
+        endReg: '2023-05-18 12:00',
+        map: 'luppolovo_2022'
     },
     {
         id: 'SPB_20230520_1',
@@ -1080,7 +1099,8 @@ let events2023 = [
         place: 'Малиновая гора',
         coord: [60.161575, 30.493732],
         reg: 'https://orgeo.ru/event/28951',
-        endReg: '2023-05-25 12:00'
+        endReg: '2023-05-25 12:00',
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20230526_1',
@@ -1136,7 +1156,8 @@ let events2023 = [
         type: 'ROGAINE',
         coord: [59.299007, 32.460899],
         reg: 'https://orgeo.ru/event/28790',
-        endReg: '2023-05-26 13:00'
+        endReg: '2023-05-26 13:00',
+        map: 'budogosch_orlenok_winter_2009'
     },
     {
         id: 'SPB_20230601_1',
@@ -1148,7 +1169,8 @@ let events2023 = [
         reg: 'https://orgeo.ru/event/info/29108',
         endReg: '2023-06-01 12:00',
         res: 'https://o-site.spb.ru/_races/23_KS_s/230601_split.htm',
-        o_site: '23_KS_s'
+        o_site: '23_KS_s',
+        map: 'kavgolovo_2017'
     },
     {
         id: 'SPB_20230601_2',
@@ -1176,6 +1198,7 @@ let events2023 = [
         info: 'Соревнования пройдут в традиционном формате: 1 старт - Сб 03.06 ДЕНЬ 2 старт - Сб 03.06 НОЧЬ 3 старт - Вс 04.06 ДЕНЬ Ночной старт проводится в группах MW16-MW55. Спортсмены MW60 могут участвовать в ночном старте, но при подведении итогов он не учитывается.',
         owner: ['VYBORG','NW'],
         o_site: '230603-04_VTR',
+        me: 'М45',
         strava: [9193509746,9197336971,9201368608],
         reskeep: [594, 592, 593],
         o_gps: {
@@ -1184,7 +1207,8 @@ let events2023 = [
             '03-МЭ': 16372,
             '04-M40/45': 16362,
             '04-МЭ': 16371
-        }
+        },
+        map: ['gavrilovo_2014','kkp_goritsa_2016_06_18']
     },
     {
         id: 'SPB_20230604_1',
@@ -1196,7 +1220,8 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/230604/230604_split.htm',
         video: 'http://vk.com/clip-220245153_456239020',
         o_site: '230604',
-        bulletin: 'https://o-site.spb.ru/_races/230604/230604_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/230604/230604_info.pdf',
+        map: 'poljany_university_2016'
     },
     {
         id: 'SPB_20230610_1',
@@ -1341,7 +1366,8 @@ let events2023 = [
         o_site: 'ch_m_2023',
         bulletin: 'https://o-site.spb.ru/_races/ch_m_2023/230618_info.pdf',
         strava: 9638656656,
-        o_gps: 16507
+        o_gps: 16507,
+        map: 'zelenogorsk_chernye_2023'
     },
     {
         id: 'SPB_20230623_2',
@@ -1360,7 +1386,7 @@ let events2023 = [
         start: 'HARD',
         type: ['WATER','ROGAINE'],
         fmt: '6',
-        res: 'http://hardrogaine.ru/HR_Ladoga_I_2023_%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B.htm',
+        res: 'hardrogaine.ru/HR_Ladoga_I_2023_результаты.htm',
         o_gps: 16571
     },
     {
@@ -1493,7 +1519,8 @@ let events2023 = [
         o_site: '23072223',
         bulletin: 'https://o-site.spb.ru/_races/23072223/23072223_info1.pdf',
         reskeep: [611, 612],
-        o_gps: 16871
+        o_gps: 16871,
+        map: 'kuznechnoe_west_2008'
     },
     {
         id: 'SPB_20230729_1',
@@ -1521,7 +1548,8 @@ let events2023 = [
         name: 'Кубок Белых Ночей 2022/23, 19 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230722_res.htm',
-        o_site: 'cbn_2023'
+        o_site: 'cbn_2023',
+        map: 'vorobjevo_2024'
     },
     {
         id: 'SPB_20230723_1',
@@ -1530,7 +1558,8 @@ let events2023 = [
         name: 'Кубок Белых Ночей 2022/23, 20 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2023_bn/230723_res.htm',
-        o_site: 'cbn_2023'
+        o_site: 'cbn_2023',
+        map: 'vorobjevo_2024'
     },
     {
         id: 'SPB_20230805_1',
@@ -1575,7 +1604,8 @@ let events2023 = [
         maps: [
             'https://o-site.spb.ru/_races/23081213/230813-nitka-combi_1.pdf',
             'https://o-site.spb.ru/_races/23081213/230813-nitka-combi_2.pdf'
-        ]
+        ],
+        map: 'losevo_2022'
     },
     {
         id: 'SPB_20230812_2',
@@ -1636,7 +1666,8 @@ let events2023 = [
             'бег': 17034,
             'вело': 17052,
             'гонка': 17041
-        }
+        },
+        map: 'borodinskoe_mb_2025'
     },
     {
         id: 'SPB_20230820_1',
@@ -1651,7 +1682,8 @@ let events2023 = [
         strava: 9685482559,
         o_site: '230508_110',
         bulletin: 'https://orgeo.ru/files/event/file/29317_72b86eab92.docx',
-        o_gps: 17035
+        o_gps: 17035,
+        map: 'michurinskoe_redfox_2014'
     },
     {
         id: 'SPB_20230826_1',
@@ -1780,7 +1812,8 @@ let events2023 = [
         reskeep: 591,
         o_gps: 17114,
         endReg: '2023-09-02 20:00',
-        bulletin: 'https://orgeo.ru/files/event/file/30159_49a2aa40fd.pdf'
+        bulletin: 'https://orgeo.ru/files/event/file/30159_49a2aa40fd.pdf',
+        map: 'vorontsovskoe_simagino_2021'
     },
     {
         id: 'SPB_20230909_1',
@@ -1870,7 +1903,8 @@ let events2023 = [
         name: 'Кубок ООО "Кинеф". Кросс - спринт (Парковое)',
         place: 'Сквер Спортивный',
         coord: [59.450848, 32.030399],
-        reg: 'https://orgeo.ru/event/30465'
+        reg: 'https://orgeo.ru/event/30465',
+        map: 'kirishi_skver_sportivny_2023'
     },
     {
         id: 'SPB_20230916_1',
@@ -1894,7 +1928,8 @@ let events2023 = [
             'М40': 17235,
             'Ж40': 17237
         },
-        bulletin: 'https://o-site.spb.ru/_races/230916_zg_relay/230916_info3.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/230916_zg_relay/230916_info3.pdf',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20230916_3',
@@ -2079,17 +2114,19 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '6',
         res: 'https://vk.com/wall-166397868_4003',
-        o_gps: 17419
+        o_gps: 17419,
+        map: 'shalovo_luzhsky_2023'
     },
     {
         id: 'SPB_20230930_2',
         date: '2023-09-30',
         name: 'Кубок Белых Ночей',
         start: 'KBN',
-        place: 'Ильичево',
+        place: 'Ильичёво',
         coord: [60.268677, 29.762047],
         reg: 'https://orgeo.ru/event/30840',
-        endReg: '2023-09-29 20:00'
+        endReg: '2023-09-29 20:00',
+        map: 'ilychevo_2016'
     },
     {
         id: 'SPB_20230930_3',
@@ -2162,7 +2199,8 @@ let events2023 = [
             'М21': 17513,
             '4МА': 17534
         },
-        bulletin: 'http://touristclub.ru/okinchits/polozhenie/'
+        bulletin: 'http://touristclub.ru/okinchits/polozhenie/',
+        map: 'losevo_2022'
     },
     {
         id: 'SPB_20231007_2',
@@ -2492,7 +2530,8 @@ let events2023 = [
         o_site: '231103_P',
         bulletin: 'https://o-site.spb.ru/_races/231103_P/UTS.pdf',
         endDate: '2023-11-03',
-        o_gps: 17712
+        o_gps: 17712,
+        map: 'toksovo_vifk_2020'
     },
     {
         id: 'SPB_20231104_1',
@@ -2545,7 +2584,8 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/231107_bn/231106_split.htm',
         o_site: '231107_bn',
         bulletin: 'https://o-site.spb.ru/_races/231107_bn/231106_info.pdf',
-        o_gps: 17756
+        o_gps: 17756,
+        map: 'stekljanny_2021'
     },
     {
         id: 'SPB_20231106_2',
@@ -2622,7 +2662,8 @@ let events2023 = [
         place: 'МО Сертолово',
         coord: [60.147133, 30.205254],
         reg: 'https://orgeo.ru/event/31559',
-        endReg: '2023-11-09'
+        endReg: '2023-11-09',
+        map: 'sertolovo_2016'
     },
     {
         id: 'SPB_20231112_4',
@@ -2631,7 +2672,8 @@ let events2023 = [
         place: 'Колпино, Чухонка', // !
         fmt: 'спринт',
         coord: [59.735348, 30.594612],
-        reg: 'https://orgeo.ru/event/31664'
+        reg: 'https://orgeo.ru/event/31664',
+        map: 'kolpino_chuhonka_2020'
     },
     {
         id: 'SPB_20231115_1',
@@ -2654,7 +2696,8 @@ let events2023 = [
         reg: 'https://orgeo.ru/event/31675',
         bulletin: 'https://orgeo.ru/files/event/file/31675_4b3cf26582.pdf',
         o_gps: 17820,
-        endReg: '2023-11-17 20:00'
+        endReg: '2023-11-17 20:00',
+        map: 'ozerki_2022'
     },
     {
         id: 'SPB_20231118_2',
@@ -2736,7 +2779,8 @@ let events2023 = [
         o_site: 'kbn_2024',
         reg: 'https://orgeo.ru/event/31676',
         bulletin: 'https://orgeo.ru/files/event/file/31676_61e29d6cf9.pdf',
-        endReg: '2023-11-24 20:00'
+        endReg: '2023-11-24 20:00',
+        map: 'bolotnaya_station_2019'
     },
     {
         id: 'SPB_20231125_4',
@@ -2900,7 +2944,8 @@ let events2023 = [
         place: 'сквер генерала Андреева',
         coord: [60.107201, 29.972029],
         reg: 'https://orgeo.ru/event/31957',
-        endReg: '2023-12-26 14:55'
+        endReg: '2023-12-26 14:55',
+        map: 'sestroretsk_skver_generala_andreeva_2023'
     },
     {
         id: 'SPB_20231230_1',

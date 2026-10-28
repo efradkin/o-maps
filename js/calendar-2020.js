@@ -58,7 +58,8 @@ let events2020 = [
         endReg: '2020-01-10 08:30',
         res: 'https://o-site.spb.ru/_races/200112_lo/200112_res.htm',
         o_site: '200112_lo',
-        bulletin: 'https://o-site.spb.ru/_races/200112_lo/200112_Info1.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/200112_lo/200112_Info1.pdf',
+        map: 'shapki_2010'
     },
     {
         id: 'SPB_20200118_1',
@@ -118,7 +119,8 @@ let events2020 = [
             '18-Ж16': 7012,
             '19-М16': 7018,
             '19-Ж16': 7019
-        }
+        },
+        map: 'budogosch_2015'
     },
     {
         id: 'SPB_20200125_1',
@@ -127,7 +129,8 @@ let events2020 = [
         name: 'Кубок Белых Ночей, 11 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/200125_split.htm',
-        reskeep: 307
+        reskeep: 307,
+        map: 'sestroretsk_tamozhennaya_doroga_2021'
     },
     {
         id: 'SPB_20200126_1',
@@ -170,7 +173,9 @@ let events2020 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/200201_split.htm',
         reskeep: 306,
-        strava: 3062434549
+        strava: 3062434549,
+        me: 'MA',
+        map: 'kavgolovo_old_ski_track_2023'
     },
     {
         id: 'SPB_20200202_1',
@@ -471,7 +476,8 @@ let events2020 = [
         place: 'СК им Алексеева',
         coord: [60.012905, 30.361776],
         reg: 'https://orgeo.ru/event/12547',
-        endReg: '2020-04-09 20:00'
+        endReg: '2020-04-09 20:00',
+        map: 'manezh_alekseeva_2015'
     },
     {
         id: 'SPB_20200411_1',
@@ -485,7 +491,8 @@ let events2020 = [
         o_site: '200411',
         reg: 'https://orgeo.ru/event/12580',
         bulletin: 'https://o-site.spb.ru/_races/200411/200411_inf_.pdf',
-        endReg: '2020-04-11 06:00'
+        endReg: '2020-04-11 06:00',
+        map: 'murinsky_2020'
     },
     {
         id: 'SPB_20200418_1',
@@ -568,7 +575,8 @@ let events2020 = [
         bulletin: 'https://o-site.spb.ru/_races/200510/10_maya_Info_byulleten.pdf',
         maps: [
             'https://o-site.spb.ru/_races/200510/map_200510_PreO.pdf'
-        ]
+        ],
+        map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
     {
         id: 'SPB_20200515_1',
@@ -655,7 +663,8 @@ let events2020 = [
         date: '2020-06-06',
         name: 'Serebruanitskii Cup',
         place: 'Первомайское',
-        strava: 3573558841
+        strava: 3573558841,
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20200612_1',
@@ -753,7 +762,8 @@ let events2020 = [
         fmt: '10, 6',
         link: 'https://vk.com/adventureraces',
         o_gps: 7781,
-        owner: 'MULTSPORT'
+        owner: 'MULTSPORT',
+        map: 'ladozhsky_park_2023'
     },
     {
         id: 'SPB_20200628_1',
@@ -847,7 +857,8 @@ let events2020 = [
         name: 'Тренировочный старт Яркого Мира. Техника и Тактика 2',
         reskeep: 335,
         strava: 3751749892,
-        endReg: '2020-07-11 20:00'
+        endReg: '2020-07-11 20:00',
+        map: 'michurinskoe_2022'
     },
     {
         id: 'SPB_20200718_1',
@@ -950,7 +961,8 @@ let events2020 = [
         reg: 'https://orgeo.ru/event/13092',
         name: 'Тренировочный старт Яркого Мира. Техника и тактика 3. Спринт 1',
         reskeep: [351, 352],
-        endReg: '2020-07-31 09:00'
+        endReg: '2020-07-31 09:00',
+        map: 'losevo_2005'
     },
     {
         id: 'SPB_20200801_3',
@@ -969,7 +981,8 @@ let events2020 = [
         reg: 'https://orgeo.ru/event/13093',
         name: 'Тренировочный старт Яркого Мира. Техника и тактика 3',
         reskeep: 350,
-        endReg: '2020-07-31 09:00'
+        endReg: '2020-07-31 09:00',
+        map: 'losevo_2005'
     },
     {
         id: 'SPB_20200807_1',
@@ -996,7 +1009,8 @@ let events2020 = [
         o_site: '200812',
         maps: [
             'https://o-site.spb.ru/_races/200812/razbor_compressed.pdf'
-        ]
+        ],
+        map: 'murinsky_east_2023'
     },
     {
         id: 'SPB_20200815_1',
@@ -1055,7 +1069,8 @@ let events2020 = [
         endReg: '2020-08-22 18:00',
         res: 'https://o-site.spb.ru/_races/200823/200823_res.html',
         o_site: '200823',
-        bulletin: 'https://o-site.spb.ru/_races/200823/200823_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/200823/200823_info.pdf',
+        map: 'vartemjagi_south_2018'
     },
     {
         id: 'SPB_20200823_2',
@@ -1121,7 +1136,8 @@ let events2020 = [
         photo: 'http://vk.com/album-154221178_274564365',
         info: '30 августа в р-не оз.Силанде пройдёт физкультурно-оздоровительная акция "Ориентир на Победу", приуроченная к памятной дате - 3 сентября (День окончания Второй мировой войны). В программе: дистанции в заданном направлении.',
         o_site: '200830_pobeda',
-        reskeep: 358
+        reskeep: 358,
+        map: 'silande_2024'
     },
     {
         id: 'SPB_20200830_2',
@@ -1146,7 +1162,8 @@ let events2020 = [
         o_site: '200903_KS',
         reg: 'https://orgeo.ru/event/13390',
         bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf',
-        endReg: '2020-09-03 12:00'
+        endReg: '2020-09-03 12:00',
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20200905_1',
@@ -1210,7 +1227,8 @@ let events2020 = [
         o_site: '200903_KS',
         reg: 'https://orgeo.ru/event/13392',
         bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf',
-        endReg: '2020-09-10 12:00'
+        endReg: '2020-09-10 12:00',
+        map: 'kuzmolovo_jubilejnaya_2018'
     },
     {
         id: 'SPB_20200912_1',
@@ -1236,7 +1254,7 @@ let events2020 = [
         id: 'SPB_20200912_2',
         date: '2020-09-12',
         name: 'Рогейн 110, 3 этап',
-        place: 'Ильичево, Болотная станция',
+        place: 'Ильичёво, Болотная станция',
         type: 'ROGAINE',
         reg: 'http://reg.o-time.ru/start.php?event=20142',
         res: 'https://o-site.spb.ru/_races/200912_R/200912_Rres.htm',
@@ -1262,7 +1280,8 @@ let events2020 = [
             'Ж18/35/М16/21К/55': 8144,
             'Ж20/21/М18/35/40': 8145,
             'М20/21': 8146
-        }
+        },
+        map: 'krivko_2021'
     },
     {
         id: 'SPB_20200913_1',
@@ -1292,7 +1311,8 @@ let events2020 = [
         o_site: '200915',
         maps: [
             'https://o-site.spb.ru/_races/200915/solution_.pdf'
-        ]
+        ],
+        map: 'murinsky_2020'
     },
     {
         id: 'SPB_20200917_1',
@@ -1306,7 +1326,8 @@ let events2020 = [
         o_site: '200903_KS',
         reg: 'https://orgeo.ru/event/13393',
         bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf',
-        endReg: '2020-09-17 12:00'
+        endReg: '2020-09-17 12:00',
+        map: 'vartemjagi_south_2018'
     },
     {
         id: 'SPB_20200918_1',
@@ -1314,7 +1335,8 @@ let events2020 = [
         place: 'Муринский парк',
         name: 'White Nights Sprint #1',
         start: 'WHITE_NIGHTS',
-        reskeep: 374
+        reskeep: 374,
+        map: 'murinsky_2020'
     },
     {
         id: 'SPB_20200919_1',
@@ -1338,8 +1360,10 @@ let events2020 = [
         start: 'WHITE_NIGHTS',
         res: 'http://o-site.spb.ru/_races/2020WN/200919_split.htm',
         reskeep: 368,
+        me: 'MA',
         strava: 4083562005,
-        endReg: '2020-09-18 23:55'
+        endReg: '2020-09-18 23:55',
+        map: 'stekljanny_2021'
     },
     {
         id: 'SPB_20200919_3',
@@ -1382,7 +1406,8 @@ let events2020 = [
         coord: [59.314949, 32.411793],
         reg: 'https://orgeo.ru/event/13417',
         endReg: '2020-09-18 12:00',
-        owner: 'EGRV_SRG'
+        owner: 'EGRV_SRG',
+        map: 'budogosch_2015'
     },
     {
         id: 'SPB_20200921_1',
@@ -1433,7 +1458,8 @@ let events2020 = [
         o_site: '200903_KS',
         reg: 'https://orgeo.ru/event/13394',
         bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf',
-        endReg: '2020-09-24 12:00'
+        endReg: '2020-09-24 12:00',
+        map: 'kuzmolovo_zona_z_2018'
     },
     {
         id: 'SPB_20200926_1',
@@ -1453,7 +1479,8 @@ let events2020 = [
         name: 'Кубок Белых ночей 2019/20, 2 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2021BN/200926_split.htm',
-        reskeep: 380
+        reskeep: 380,
+        map: 'vorontsovskoe_simagino_2021'
     },
     {
         id: 'SPB_20200926_4',
@@ -1524,7 +1551,8 @@ let events2020 = [
         o_site: '200903_KS',
         reg: 'https://orgeo.ru/event/13852',
         bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf',
-        endReg: '2020-10-01 12:00'
+        endReg: '2020-10-01 12:00',
+        map: 'toksovo_malinovaya_gora_2018'
     },
 /*
     {
@@ -1595,7 +1623,8 @@ let events2020 = [
         endReg: '2020-10-08 12:00',
         res: 'https://o-site.spb.ru/_races/200903_KS/201008_res.htm',
         o_site: '200903_KS',
-        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/200903_KS/201008_info.pdf',
+        map: 'toksovo_kombyt_2017'
     },
     {
         id: 'SPB_20201010_1',
@@ -1665,7 +1694,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/2020_WO/201017_res.htm',
         info: 'Индивидуальная тренировка по спортивному ориентированию.',
         o_site: '2020_WO',
-        bulletin: 'https://o-site.spb.ru/_races/2020_WO/201017_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/2020_WO/201017_info.pdf',
+        map: 'vorontsovskoe_simagino_2021'
     },
     {
         id: 'SPB_20201017_2',
@@ -1677,7 +1707,8 @@ let events2020 = [
         start: 'SPRINT_TOUR',
         reskeep: 387,
         photo: 'https://vk.ru/album-92124592_275383837',
-        endReg: '2020-10-16 18:30'
+        endReg: '2020-10-16 18:30',
+        map: 'udelnaya_2015'
     },
     {
         id: 'SPB_20201018_1',
@@ -1701,7 +1732,8 @@ let events2020 = [
         endReg: '2020-10-18 00:00',
         res: 'https://o-site.spb.ru/_races/201018_110/201018_res2.htm',
         start: 'ROGAINE_110',
-        o_site: '201018_110'
+        o_site: '201018_110',
+        map: 'garbolovo_strekozy_2011'
     },
     {
         id: 'SPB_20201018_3',
@@ -1756,7 +1788,8 @@ let events2020 = [
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#257',
         bulletin: 'https://o-site.spb.ru/_races/201025LO/201025_info2.pdf',
         strava: 4242108810,
-        o_gps: 8450
+        o_gps: 8450,
+        map: 'luga_omchino_2021'
     },
     {
         id: 'SPB_20201031_1',
@@ -1821,7 +1854,8 @@ let events2020 = [
         o_site: '200711',
         reskeep: 393,
         strava: 4300602827,
-        o_gps: 8502
+        o_gps: 8502,
+        map: 'pushkin_buferny_2018'
     },
     {
         id: 'SPB_20201107_2',
@@ -1831,7 +1865,8 @@ let events2020 = [
         reg: 'https://orgeo.ru/event/14250',
         name: 'Техника и тактика, 7 этап',
         reskeep: 391,
-        endReg: '2020-11-06 18:00'
+        endReg: '2020-11-06 18:00',
+        map: 'michurinskoe_2022'
     },
     {
         id: 'SPB_20201107_3',
@@ -1886,7 +1921,8 @@ let events2020 = [
         reg: 'https://orgeo.ru/event/14252',
         name: 'Техника и тактика, 8 этап',
         reskeep: 396,
-        endReg: '2020-11-06 18:00'
+        endReg: '2020-11-06 18:00',
+        map: 'michurinskoe_2022'
     },
     {
         id: 'SPB_20201108_4',
@@ -1938,7 +1974,8 @@ let events2020 = [
         maps: [
             'https://o-site.spb.ru/_races/201115_110/201115_contrABC.jpg',
             'https://o-site.spb.ru/_races/201115_110/201115_contrDE.jpg'
-        ]
+        ],
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20201115_2',
@@ -1996,7 +2033,8 @@ let events2020 = [
         start: 'LM',
         type: 'ROGAINE',
         fmt: '3',
-        link: 'https://vk.com/club91656163'
+        link: 'https://vk.com/club91656163',
+        map: 'gorodok_lm_2023'
     },
     {
         id: 'SPB_20201128_1',
@@ -2028,7 +2066,8 @@ let events2020 = [
         o_gps: {
             'А': 8583,
             'B': 8582
-        }
+        },
+        map: 'fort_krasnaja_gorka_2020'
     },
     {
         id: 'SPB_20201129_2',
@@ -2072,7 +2111,8 @@ let events2020 = [
         reskeep: 403,
         strava: 4437026952,
         o_gps: 8614,
-        endReg: '2020-12-05 10:00'
+        endReg: '2020-12-05 10:00',
+        map: 'garbolovo_2016'
     },
     {
         id: 'SPB_20201212_1',
@@ -2084,7 +2124,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/2020WN/201212_res.htm',
         o_site: '2020WN',
         bulletin: 'https://o-site.spb.ru/_races/2020WN/201212_info.pdf',
-        reskeep: 409
+        reskeep: 409,
+        map: 'kavgolovo_2017'
     },
     {
         id: 'SPB_20201212_2',
@@ -2196,7 +2237,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201227i/201227_res.htm',
         o_site: '201227i',
         bulletin: 'https://o-site.spb.ru/_races/201227i/201227_info.pdf',
-        reskeep: 416
+        reskeep: 416,
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20201227_2',

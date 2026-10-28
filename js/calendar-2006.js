@@ -8,7 +8,8 @@ let events2006 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/060107/060107run_res.zip',
         info: 'Открытый лично-командный кубок «Центра «Ладога» по спортивному ориентированию бегом» (в рамках учебно-тренировочного сбора)',
-        o_site: '060107'
+        o_site: '060107',
+        map: 'ilychevo_2005'
     },
     {
         id: 'SPB_20060107_2',
@@ -19,7 +20,8 @@ let events2006 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/06010708/06010708_res.zip',
         info: '1-й и 2-й этапы Открытого лично-командного кубка Центра «Ладога» по спортивному ориентированию на лыжах (в рамках учебно-тренировочного сбора)',
-        o_site: '06010708'
+        o_site: '06010708',
+        map: 'ilychevo_2005'
     },
     {
         id: 'SPB_20060115_1',
@@ -30,7 +32,8 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/060115/060115_res.zip',
         info: 'Открытый зимний кубок Санкт-Петербурга по спортивному ориентированию',
         start: 'VSEV_VESTI',
-        o_site: '060115'
+        o_site: '060115',
+        map: 'enkolovo_1999'
     },
     {
         id: 'SPB_20060129_1',
@@ -78,7 +81,8 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/060212_GS/060212_res.zip',
         info: 'Открытый кубок клуба Гольфстрим по лыжному ориентированию. Соревнования личные, проводятся по группам МЖ14 (1993-92 г.р.), МЖ16 (1991-90 г.р.), МЖ18 (1989-88 г.р.), МЖ21А , МЖ21В, МЖ45 (1961-52), МЖ55(1951 и старше).',
         owner: 'GOLFSTREAM',
-        o_site: '060212_GS'
+        o_site: '060212_GS',
+        map: 'yappilya_pistolet_1997'
     },
     {
         id: 'SPB_20060218_1',
@@ -186,7 +190,8 @@ let events2006 = [
         place: 'Голубая Дача',
         name: 'Открытие летнего сезона',
         res: 'https://o-site.spb.ru/_races/060416/060416_res.zip',
-        o_site: '060416'
+        o_site: '060416',
+        map: 'golubaya_dacha_2005'
     },
     {
         id: 'SPB_20060422_1',
@@ -207,7 +212,8 @@ let events2006 = [
         info: '1 этап популярных соревнований. Возрастные группы:МЖ 10 12 14 16 18 21а 21б 40 50 60 М45 М55, гр.7-8 лет без зачета в Кубок',
         start: 'YM_CUP',
         o_site: '060423_ym',
-        bulletin: 'https://o-site.spb.ru/_races/060423_ym/060423_bul.htm'
+        bulletin: 'https://o-site.spb.ru/_races/060423_ym/060423_bul.htm',
+        map: 'solnechnoe_djuny_2007'
     },
     {
         id: 'SPB_20060429_1',
@@ -282,7 +288,8 @@ let events2006 = [
         place: 'Дюны',
         name: 'Кубок СПб по спринтерским эстафетам',
         res: 'http://ski-o-spb.narod.ru/s06/2x2cup.htm',
-        o_site: '060513_SPbCup'
+        o_site: '060513_SPbCup',
+        map: 'solnechnoe_djuny_2007'
     },
     {
         id: 'SPB_20060513_2',
@@ -348,7 +355,8 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/060527/060527_res.htm',
         info: '48 летний Чемпионат и Первенство г. Санкт-Петербурга по спортивному ориентированию.',
         o_site: '060527',
-        bulletin: 'https://o-site.spb.ru/_races/060527/SPb_Champ_2006.htm'
+        bulletin: 'https://o-site.spb.ru/_races/060527/SPb_Champ_2006.htm',
+        map: 'solnechnoe_djuny_2007'
     },
     {
         id: 'SPB_20060528_1',
@@ -358,7 +366,8 @@ let events2006 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/060528/060528_res.htm',
         info: '48 летний Чемпионат и Первенство г. Санкт-Петербурга по спортивному ориентированию',
-        o_site: '060528'
+        o_site: '060528',
+        map: 'ilichevo_gorki_2012'
     },
     {
         id: 'SPB_20060602_1',
@@ -422,7 +431,8 @@ let events2006 = [
         name: 'Яркий Мир',
         res: 'https://o-site.spb.ru/_races/06061315_YM/YM2006_res.rar',
         start: 'YM',
-        o_site: '06061315_YM'
+        o_site: '06061315_YM',
+        map: 'wn_sprint_2006'
     },
     {
         id: 'SPB_20060616_1',
@@ -542,7 +552,8 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/060826/SPb_Gonka_rez.html',
         info: 'Ежегодная открытая кросс-кантрийная велогонка ориентировщиков',
         fmt: 'по кругам',
-        o_site: '060826'
+        o_site: '060826',
+        map: 'orlinaya_gora_2004'
     },
     {
         id: 'SPB_20060827_1',
@@ -553,7 +564,8 @@ let events2006 = [
         start: 'SPB_CHAMP',
         type: 'VELO',
         info: 'Чемпионат Санкт-Петербурга по велоориентированию, 2-х этапные эстафеты. Группы МЖ-14, МЭ, ЖЭ, МЖ.',
-        o_site: '060827'
+        o_site: '060827',
+        map: 'toksovo_vifk_2013_velo'
     },
     {
         id: 'SPB_20060902_1',
@@ -563,7 +575,8 @@ let events2006 = [
         name: 'Кубок Яркого Мира, 8-й и 10-й этапы',
         res: 'https://o-site.spb.ru/_races/06090203/8-10etaps_res.rar',
         start: 'YM_CUP',
-        o_site: '06090203'
+        o_site: '06090203',
+        map: 'mednoe_rfar_2006'
     },
     {
         id: 'SPB_20060909_1',
@@ -687,7 +700,8 @@ let events2006 = [
         name: 'Первенство ВУЗов',
         res: 'https://o-site.spb.ru/_races/061014/results.zip',
         info: 'Чемпионат ВУЗов по спортивному ориентированию бегом',
-        o_site: '061014'
+        o_site: '061014',
+        map: 'orlinaya_gora_2004'
     },
     {
         id: 'SPB_20061014_2',
@@ -791,10 +805,10 @@ let events2006 = [
         date: '2006-11-04',
         endDate: '2006-11-06',
         name: 'Финал Кубка СПб по рогейну',
-        place: 'Ильичево',
+        place: 'Ильичёво',
         type: 'ROGAINE',
         res: 'http://rogaine-spb.narod.ru/race1106/results.html',
-        info: 'Финал Кубка СПб по рогейну ( г. Зеленогорск, пос. Ильичево, ДОЛ Огонек ) Это генеральная репетиция перед Чемпионатом России, который состоится в Санкт-Петербурге летом 2007 года. Уже подали заявки сильнейшие команды России и Европы.',
+        info: 'Финал Кубка СПб по рогейну ( г. Зеленогорск, пос. Ильичёво, ДОЛ Огонек ) Это генеральная репетиция перед Чемпионатом России, который состоится в Санкт-Петербурге летом 2007 года. Уже подали заявки сильнейшие команды России и Европы.',
         o_site: '061104_zel',
         rg: {
             '3': 'https://rogaine.ru/routegadget/rg2/#8',
@@ -807,10 +821,11 @@ let events2006 = [
     {
         id: 'SPB_20061105_1',
         date: '2006-11-05',
-        place: 'Ильичево',
+        place: 'Ильичёво',
         name: 'Кубок Центра Ладога, 1 этап',
         info: 'Открытый лично-командный Кубок Центра Ладога по спортивному ориентированию бегом, 1 этап.',
-        o_site: '061105'
+        o_site: '061105',
+        map: 'ilychevo_2005'
     },
     {
         id: 'SPB_20061119_1',
@@ -833,7 +848,8 @@ let events2006 = [
         info: 'Многоэтапные соревнования по парковому ориентированию бегом на заснеженном грунте.',
         o_site: '061203',
         bulletin: 'https://o-site.spb.ru/_races/061203/bullet2.htm',
-        maps: './original_maps/starts/other/shuvalovsky_2006_12_03_omaps.webp'
+        maps: './original_maps/starts/other/shuvalovsky_2006_12_03_omaps.webp',
+        map: 'shuvalovsky_1999'
     },
     {
         id: 'SPB_20061210_1',
@@ -852,7 +868,8 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/061217/it_17_12_06.zip',
         info: 'Многоэтапные соревнования по парковому ориентированию бегом на заснеженном грунте.',
         o_site: '061217',
-        bulletin: 'https://o-site.spb.ru/_races/061217/061217_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/061217/061217_info.htm',
+        map: 'pesochnaya_1998'
     },
     {
         id: 'SPB_20061224_1',
@@ -862,6 +879,7 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/061224foot/pr_24_12_06.zip',
         info: 'Эстафета на маркированной трассе бегом',
         o_site: '061224foot',
-        bulletin: 'https://o-site.spb.ru/_races/061224foot/inf_24_12_06.htm'
+        bulletin: 'https://o-site.spb.ru/_races/061224foot/inf_24_12_06.htm',
+        map: 'volkov_2006_01_29'
     },
 ];

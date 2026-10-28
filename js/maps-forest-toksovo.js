@@ -759,7 +759,7 @@ let toksovoMaps = [
     {
         name: 'Охта-Парк',
         year: 2021,
-        url: './maps/parks/okhta-park_2021.webp',
+        url: './maps/parks/okhta_park_2021.webp',
         link: './original_maps/forest/toksovo/park_2021_omaps.jpg',
         photo: './tracks/okhta-park/pic_2.jpg',
         bounds: [[60.1341006, 30.4431367], [60.1324658, 30.4558825], [60.125594, 30.4395103]],

@@ -33,7 +33,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100117/100117_res.zip',
         info: 'Ориентирование бегом на заснеженном грунте',
         o_site: '100117',
-        bulletin: 'https://o-site.spb.ru/_races/100117/100117_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/100117/100117_info2.htm',
+        map: 'aleksandrino_south_2007'
     },
     {
         id: 'SPB_20100122_1',
@@ -226,7 +227,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100307/100306_res.pdf',
         info: '06 марта. лыжная гонка 60 (классика). 07 марта. Эстафета, заданное направление.',
         o_site: '100307',
-        bulletin: 'https://o-site.spb.ru/_races/100307/10030607_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/100307/10030607_info2.htm',
+        map: 'zelenogorsk_schuchje_winter_2011'
     },
     {
         id: 'SPB_20100308_1',
@@ -238,7 +240,8 @@ let events2010 = [
         info: 'Спринт в заданном направлении, входит в "Кубок ЗН"',
         o_site: '100308_Y',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#37',
-        bulletin: 'https://o-site.spb.ru/_races/100308_Y/100308_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/100308_Y/100308_info.htm',
+        map: 'zelenogorsk_schuchje_winter_2011'
     },
     {
         id: 'SPB_20100308_2',
@@ -294,7 +297,8 @@ let events2010 = [
         o_site: '100321',
         maps: [
             'https://o-site.spb.ru/_races/100321/100321_karta.gif'
-        ]
+        ],
+        map: 'zelenogorsk_schuchje_winter_2011'
     },
     {
         id: 'SPB_20100327_1',
@@ -370,17 +374,19 @@ let events2010 = [
         date: '2010-04-22',
         place: 'Сертолово',
         name: 'Первенство Сертолово',
-        video: 'https://www.youtube.com/watch?v=7NII12eGm4M'
+        video: 'https://www.youtube.com/watch?v=7NII12eGm4M',
+        map: '2x2_2006_04_29'
     },
     {
         id: 'SPB_20100424_1',
         date: '2010-04-24',
-        place: 'детские Дюны',
+        place: 'Детские Дюны',
         name: 'Кубок Яркого Мира 2010, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100424_split.htm',
         o_site: '2010CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#38',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'sestroretskie_detskie_djuny_2010'
     },
     {
         id: 'SPB_20100425_1',
@@ -390,7 +396,8 @@ let events2010 = [
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100425_split.htm',
         o_site: '2010CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#39',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'solnechnoe_djuny_2007'
     },
     {
         id: 'SPB_20100501_1',
@@ -433,12 +440,13 @@ let events2010 = [
     {
         id: 'SPB_20100510_1',
         date: '2010-05-10',
-        place: 'оз.Банное',
+        place: 'оз Банное',
         name: 'Кубок Яркого Мира 2010, 3 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100510_split.htm',
         o_site: '2010CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#44',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'vaskelovo_bannoe_2006'
     },
     {
         id: 'SPB_20100515_1',
@@ -528,7 +536,8 @@ let events2010 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/100523/100523_res.htm',
         o_site: '100523',
-        bulletin: 'https://o-site.spb.ru/_races/100523/100523_info3.htm'
+        bulletin: 'https://o-site.spb.ru/_races/100523/100523_info3.htm',
+        map: 'osinovaja_roscha_1999'
     },
     {
         id: 'SPB_20100529_1',
@@ -580,7 +589,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100530/100530_res.htm',
         start: 'ROGAINE_110',
         o_site: '100530',
-        bulletin: 'https://o-site.spb.ru/_races/100530/100530_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/100530/100530_info.htm',
+        map: 'koloskovo_1998'
     },
     {
         id: 'SPB_20100530_2',
@@ -634,7 +644,8 @@ let events2010 = [
         video: ['https://www.youtube.com/watch?v=j_KTc8cVk-o','https://www.youtube.com/watch?v=jFCgJDqyx9s'],
         o_site: '100606',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#48',
-        bulletin: 'https://o-site.spb.ru/_races/100606/100606_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/100606/100606_info.htm',
+        map: 'toksovo_vifk_2000'
     },
     {
         id: 'SPB_20100609_1',
@@ -653,7 +664,8 @@ let events2010 = [
         name: 'Red Fox Adventure Race',
         type: 'MULTI',
         start: 'RFAR',
-        region: 'KRASNODAR'
+        region: 'KRASNODAR',
+        map: 'sochi_ahun_2001'
     },
     {
         id: 'SPB_20100612_1',
@@ -719,11 +731,12 @@ let events2010 = [
     {
         id: 'SPB_20100704_1',
         date: '2010-07-04',
-        place: 'оз.Медное',
+        place: 'оз Медное',
         name: 'Кубок Яркого Мира 2010, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100704_split.htm',
         o_site: '2010CupYM',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'pastorskoe_mednoe_2009'
     },
     {
         id: 'SPB_20100710_1',
@@ -838,16 +851,18 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100718/100904_res.htm',
         info: 'V этап Велодрайв-О-Cup',
         o_site: '100718',
-        bulletin: 'https://o-site.spb.ru/_races/100718/100904_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/100718/100904_info.htm',
+        map: 'zelik_schuchje_velo_2010'
     },
     {
         id: 'SPB_20100904_2',
         date: '2010-09-04',
-        place: 'оз.Пасторское',
+        place: 'оз Пасторское',
         name: 'Кубок Яркого Мира 2010, 7 этап',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100904_split.htm',
         o_site: '2010CupYM',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'pastorskoe_mednoe_2009'
     },
     {
         id: 'SPB_20100905_1',
@@ -857,7 +872,8 @@ let events2010 = [
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100905_split.htm',
         o_site: '2010CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#51',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'pastorskoe_mednoe_2009'
     },
     {
         id: 'SPB_20100911_1',
@@ -989,7 +1005,8 @@ let events2010 = [
         owner: 'GOLFSTREAM',
         o_site: '100314',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#56',
-        bulletin: 'https://o-site.spb.ru/_races/100314/10101617_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/100314/10101617_info.pdf',
+        map: 'sosnovka_2004'
     },
     {
         id: 'SPB_20100930_1',
@@ -1040,7 +1057,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/101009/101009_res.htm',
         start: 'OKINCHITSA',
         o_site: '101009',
-        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#58'
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#58',
+        map: 'na_2003_zelik_1'
     },
     {
         id: 'SPB_20101009_2',
@@ -1050,7 +1068,8 @@ let events2010 = [
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/10100910/10100910_res.zip',
         o_site: '10100910',
-        endDate: '2010-10-10'
+        endDate: '2010-10-10',
+        map: 'zelenogorsk_leninskoe_2008'
     },
     {
         id: 'SPB_20101009_3',
@@ -1092,7 +1111,8 @@ let events2010 = [
         place: 'Песочный',
         name: 'Ночные Эстафеты',
         res: 'https://o-site.spb.ru/_races/101016/101016_res.htm',
-        o_site: '101016'
+        o_site: '101016',
+        map: 'pesochnaya_2005'
     },
     {
         id: 'SPB_20101016_3',
@@ -1118,7 +1138,8 @@ let events2010 = [
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/101017_split1.htm',
         o_site: '2010CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#62',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20101021_1',
@@ -1139,7 +1160,8 @@ let events2010 = [
         res: 'http://orientirclub.ucoz.ru/index/rezultaty_1_go_dnja/0-5',
         owner: 'VYBORG',
         o_site: '10102324',
-        bulletin: 'http://orientirclub.ucoz.ru/index/0-2'
+        bulletin: 'http://orientirclub.ucoz.ru/index/0-2',
+        map: 'tammisuo_1991'
     },
     {
         id: 'SPB_20101030_1',
@@ -1300,7 +1322,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/101212/101212_res.htm',
         info: '21 ноября 2010 г. - 1 этап 12 декабря 2010 г. - 2 этап',
         o_site: '101212',
-        bulletin: 'https://o-site.spb.ru/_races/101212/101212_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/101212/101212_info2.htm',
+        map: 'aleksandrijsky_2010'
     },
     {
         id: 'SPB_20101219_1',

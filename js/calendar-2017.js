@@ -89,7 +89,8 @@ let events2017 = [
         o_site: '17012729',
         reg: 'https://orgeo.ru/event/3855',
         bulletin: 'https://o-site.spb.ru/_races/17012729/17012729_info2.pdf',
-        endReg: '2017-01-24 22:00'
+        endReg: '2017-01-24 22:00',
+        map: 'budogosch_svetloe_winter_2024'
     },
     {
         id: 'SPB_20170128_1',
@@ -110,7 +111,8 @@ let events2017 = [
         name: 'Кубок Белых Ночей 2016/17, 4 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/170205_split_.htm',
-        o_site: '2017WN'
+        o_site: '2017WN',
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20170211_1',
@@ -185,7 +187,8 @@ let events2017 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/170219_split.htm',
         o_site: '2017WN',
-        o_gps: 1804
+        o_gps: 1804,
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20170223_1',
@@ -219,7 +222,8 @@ let events2017 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/170224_split.htm',
         o_site: '2017WN',
-        o_gps: 1819
+        o_gps: 1819,
+        map: 'garbolovo_vuoly_2008'
     },
     {
         id: 'SPB_20170225_1',
@@ -274,7 +278,8 @@ let events2017 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/170305_split.htm',
         o_site: '2017WN',
-        o_gps: 1854
+        o_gps: 1854,
+        map: 'sestroretsk_tamozhennaya_doroga_2021'
     },
     {
         id: 'SPB_20170308_1',
@@ -320,7 +325,8 @@ let events2017 = [
         name: 'Кубок Белых Ночей 2016/17, 9 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/170312_split.htm',
-        o_site: '2017WN'
+        o_site: '2017WN',
+        map: 'toksovo_malinovaya_gora_2013'
     },
     {
         id: 'SPB_20170319_1',
@@ -335,12 +341,13 @@ let events2017 = [
     {
         id: 'SPB_20170319_2',
         date: '2017-03-19',
-        place: 'Болотная станция, Ильичево',
+        place: 'Болотная станция, Ильичёво',
         name: 'Весенняя тропа от FoxTeam',
         reg: 'http://o-reg.spb.ru/entry-list?id=710',
         res: 'https://o-site.spb.ru/_races/170319_FoxTeam/170319_rezFT.htm',
         o_site: '170319_FoxTeam',
-        bulletin: 'https://o-site.spb.ru/_races/170319_FoxTeam/170319_ft_info2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/170319_FoxTeam/170319_ft_info2.pdf',
+        map: 'ilychevo_2016'
     },
     {
         id: 'SPB_20170319_3',
@@ -349,7 +356,8 @@ let events2017 = [
         name: 'Кубок Белых Ночей 2016/17, 10 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/170319_split.htm',
-        o_site: '2017WN'
+        o_site: '2017WN',
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20170408_1',
@@ -367,7 +375,8 @@ let events2017 = [
         name: 'Кубок Белых Ночей 2016/17, 11 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/170325_split.htm',
-        o_site: '2017WN'
+        o_site: '2017WN',
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20170325_2',
@@ -375,7 +384,8 @@ let events2017 = [
         place: 'Песочная',
         name: 'Весенние капели, 1 этап',
         res: 'http://o-site.spb.ru/_races/170326_VK/170326_res.htm',
-        o_site: '170326_VK'
+        o_site: '170326_VK',
+        map: 'pesochnaya_2005'
     },
     {
         id: 'SPB_20170402_1',
@@ -384,7 +394,8 @@ let events2017 = [
         name: 'Кубок Белых Ночей 2016/17, 12 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2017WN/170402_split.htm',
-        o_site: '2017WN'
+        o_site: '2017WN',
+        map: 'garbolovo_sirkkajarvi'
     },
     {
         id: 'SPB_20170402_2',
@@ -475,7 +486,8 @@ let events2017 = [
         start: 'MATRESHKA',
         res: 'http://o-site.spb.ru/_races/170416/170416_split_MT.htm',
         o_site: '170416',
-        o_gps: 2064
+        o_gps: 2064,
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20170419_1',
@@ -572,7 +584,8 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=743',
         res: 'https://o-site.spb.ru/_races/170429_WOr/170429_res.htm',
         o_site: '170429_WOr',
-        bulletin: 'https://o-site.spb.ru/_races/170429_WOr/170429_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/170429_WOr/170429_info.pdf',
+        map: 'pastorskoe_mednoe_2009'
     },
     {
         id: 'SPB_20170429_2',
@@ -666,7 +679,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170503/170503_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/170503/170503_res_foto.xls',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
-        o_site: '170503'
+        o_site: '170503',
+        map: 'vyborgsky_ddjut_2017'
     },
     {
         id: 'SPB_20170506_1',
@@ -677,7 +691,8 @@ let events2017 = [
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-rogeynu/kvr-2017-vtoroy-etap',
         res: 'https://o-site.spb.ru/_races/170506/170506_res.htm',
         o_site: '170506',
-        bulletin: 'https://o-site.spb.ru/_races/170506/170506_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/170506/170506_info.pdf',
+        map: 'voejkovo_2014'
     },
     {
         id: 'SPB_20170506_2',
@@ -717,7 +732,8 @@ let events2017 = [
         o_site: '2017YC',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#234',
         start: 'YM_CUP',
-        o_gps: 2230
+        o_gps: 2230,
+        map: 'michurinskoe_2022'
     },
     {
         id: 'SPB_20170509_1',
@@ -751,7 +767,8 @@ let events2017 = [
         start: 'SPRINT_TOUR',
         o_site: '170412_ST',
         bulletin: 'https://o-site.spb.ru/_races/170412_ST/171014_info.pdf',
-        res: 'https://reg.o-time.ru/race/17084'
+        res: 'https://reg.o-time.ru/race/17084',
+        map: 'vyborgsky_ddjut_2017'
     },
     {
         id: 'SPB_20170511_1',
@@ -761,7 +778,8 @@ let events2017 = [
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/170511_res.htm',
         o_site: '2017_KS',
-        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf',
+        map: 'oselki_2015'
     },
     {
         id: 'SPB_20170513_1',
@@ -913,7 +931,8 @@ let events2017 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/170521_velo/170521_rez.htm',
         o_site: '170521_velo',
-        bulletin: 'https://o-site.spb.ru/_races/170521_velo/170521_info1.htm'
+        bulletin: 'https://o-site.spb.ru/_races/170521_velo/170521_info1.htm',
+        map: 'sestroretsk_detskie_djuny_velo_2025'
     },
     {
         id: 'SPB_20170524_1',
@@ -933,7 +952,8 @@ let events2017 = [
         start: 'SPRINT_TOUR',
         o_site: '170412_ST',
         bulletin: 'https://o-site.spb.ru/_races/170412_ST/171014_info.pdf',
-        res: 'https://reg.o-time.ru/race/17086'
+        res: 'https://reg.o-time.ru/race/17086',
+        map: 'elagin_2017'
     },
     {
         id: 'SPB_20170525_1',
@@ -943,7 +963,8 @@ let events2017 = [
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/170525_res.htm',
         o_site: '2017_KS',
-        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/2017_KS/171005_info.pdf',
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20170527_1',
@@ -1025,7 +1046,8 @@ let events2017 = [
         res: 'http://www.o-site.spb.ru/_races/170427-28_VT/170528_split_day.htm',
         o_site: '170528',
         bulletin: 'http://o-site.spb.ru/_races/170527/17052728_info.pdf',
-        reskeep: 253
+        reskeep: 253,
+        map: 'vozrozhdenie_2024'
     },
     {
         id: 'SPB_20170531_1',
@@ -1298,7 +1320,8 @@ let events2017 = [
         video: 'https://www.youtube.com/watch?v=3TJU7WWugjI',
         info: 'Серия из четырёх личных стартов',
         o_site: '170806_Per',
-        bulletin: 'https://o-site.spb.ru/_races/170806_Per/170806_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/170806_Per/170806_info.pdf',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20170812_1',
@@ -1329,7 +1352,8 @@ let events2017 = [
         res: 'http://www.o-site.spb.ru/_races/2017YC/170819_split.htm',
         o_site: '2017YC',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#237',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20170820_1',
@@ -1338,7 +1362,8 @@ let events2017 = [
         name: 'Яркий Кубок 2017, 6 этап',
         res: 'http://www.o-site.spb.ru/_races/2017YC/170820_split.htm',
         o_site: '2017YC',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20170826_1',
@@ -1360,7 +1385,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170826_Per/170826_res.htm',
         info: 'Серия из четырёх личных стартов',
         o_site: '170826_Per',
-        bulletin: 'https://o-site.spb.ru/_races/170826_Per/170826_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/170826_Per/170826_info.pdf',
+        map: 'polyany_2016'
     },
     {
         id: 'SPB_20170827_1',
@@ -1465,7 +1491,8 @@ let events2017 = [
         owner: 'WN',
         o_site: '170910_BN',
         o_gps: 2797,
-        bulletin: 'https://o-site.spb.ru/_races/170910_BN/170910_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/170910_BN/170910_info.pdf',
+        map: 'vorontsovskoe_simagino_2021'
     },
     {
         id: 'SPB_20170910_2',
@@ -1484,7 +1511,8 @@ let events2017 = [
         start: 'SPRINT_TOUR',
         o_site: '170412_ST',
         bulletin: 'https://o-site.spb.ru/_races/170412_ST/171014_info.pdf',
-        res: 'https://reg.o-time.ru/race/17089'
+        res: 'https://reg.o-time.ru/race/17089',
+        map: 'politekh_2022'
     },
     {
         id: 'SPB_20170914_1',
@@ -1503,7 +1531,8 @@ let events2017 = [
         place: 'Семиозерье',
         type: 'VELO',
         res: 'http://velopiter.spb.ru/club/fest17/mtbo-fin.htm',
-        o_site: '170916'
+        o_site: '170916',
+        map: 'poljany_velo_2023'
     },
     {
         id: 'SPB_20170916_2',
@@ -1606,7 +1635,8 @@ let events2017 = [
             'М': 2854,
             'Ж': 2860,
             'ALL': 2861
-        }
+        },
+        map: 'yappilya_2024'
     },
     {
         id: 'SPB_20170926_1',
@@ -1652,7 +1682,8 @@ let events2017 = [
         name: 'Вечерняя тренировка от FoxTeam',
         res: 'https://o-site.spb.ru/_races/170929/170929_split.htm',
         o_site: '170929',
-        bulletin: 'https://o-site.spb.ru/_races/170929/170929_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/170929/170929_info.pdf',
+        map: 'osinovaja_roscha_2013'
     },
     {
         id: 'SPB_20170930_1',
@@ -1665,7 +1696,8 @@ let events2017 = [
         video: ['https://www.youtube.com/watch?v=lqzh1Dt053Q','https://www.youtube.com/watch?v=IKtfaaqNDSg'],
         fmt: '5(4), 2',
         o_site: '170930R',
-        bulletin: 'https://o-site.spb.ru/_races/170930R/170930R_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/170930R/170930R_info.pdf',
+        map: 'molodezhnoe_gk_2024'
     },
     {
         id: 'SPB_20170930_2',
@@ -1691,7 +1723,8 @@ let events2017 = [
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2017-2/map1.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2017-2/map2.jpg'
-        ]
+        ],
+        map: 'orekhovo_vetrennoe_2004'
     },
     {
         id: 'SPB_20170930_4',
@@ -1704,7 +1737,8 @@ let events2017 = [
         o_gps: {
             'A-pro': 2887,
             'B-pro': 2891
-        }
+        },
+        map: 'pukhtolova_gora_2023'
     },
     {
         id: 'SPB_20170923_3',
@@ -1880,7 +1914,8 @@ let events2017 = [
         logo: 'azimut.gif',
         o_site: '171014_Az',
         bulletin: 'https://o-site.spb.ru/_races/171014_Az/171015_info3.htm',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        map: 'orlinaya_gora_2004'
     },
     {
         id: 'SPB_20171018_1',
@@ -1912,7 +1947,8 @@ let events2017 = [
         video: 'https://www.youtube.com/watch?v=kqE3hRdAvww',
         owner: 'VYBORG',
         o_site: '17102122',
-        o_gps: 3020
+        o_gps: 3020,
+        map: 'vyborg_kalinina_2015'
     },
     {
         id: 'SPB_20171028_1',
@@ -1921,7 +1957,8 @@ let events2017 = [
         name: 'Кубок Белых Ночей 2017/18, 2 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/171028_split.htm',
-        o_site: '2018WN'
+        o_site: '2018WN',
+        map: 'pukhtolova_gora_2023'
     },
     {
         id: 'SPB_20171029_1',
@@ -1932,7 +1969,8 @@ let events2017 = [
         photo: 'http://vk.com/club128591100',
         o_site: '2017YC',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#239',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20171029_2',
@@ -1945,7 +1983,8 @@ let events2017 = [
         o_gps: {
             'A-pro': 3037,
             'B-pro': 3040
-        }
+        },
+        map: 'shuvalovsky_rogaine_2024'
     },
     {
         id: 'SPB_20171030_1',
@@ -2125,7 +2164,8 @@ let events2017 = [
         name: 'Кубок Белых Ночей 2017/18, 6 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/171209_split.htm',
-        o_site: '2018WN'
+        o_site: '2018WN',
+        map: 'kavgolovo_2017'
     },
     {
         id: 'SPB_20171210_1',
@@ -2154,7 +2194,8 @@ let events2017 = [
         name: 'Кубок Белых Ночей 2017/18, 7 этап',
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2018WN/171216_split.htm',
-        o_site: '2018WN'
+        o_site: '2018WN',
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20171217_1',
@@ -2191,7 +2232,8 @@ let events2017 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=825',
         res: 'http://reg.o-time.ru/result/17173.pdf',
-        o_site: '171230'
+        o_site: '171230',
+        map: 'sertolovo_2016'
     },
     {
         id: 'SPB_20171231_1',

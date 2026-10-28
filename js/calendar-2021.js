@@ -77,7 +77,8 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/2021_WO/210116_info.pdf',
         reskeep: 418,
         strava: 4628186806,
-        o_gps: 8858
+        o_gps: 8858,
+        map: 'sestroretsk_tamozhennaya_doroga_2021'
     },
     {
         id: 'SPB_20210117_1',
@@ -109,7 +110,8 @@ let events2021 = [
         o_gps: {
             'П-во': 8870,
             'М40/Ж21': 8877
-        }
+        },
+        map: 'shapki_winter_2019'
     },
     {
         id: 'SPB_20210123_1',
@@ -146,7 +148,8 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/21012324/21012324_info.pdf',
         maps: [
             'https://o-site.spb.ru/_races/21012324/control_map_All.pdf'
-        ]
+        ],
+        map: 'kirishi_ski_track_2024'
     },
     {
         id: 'SPB_20210206_1',
@@ -180,7 +183,8 @@ let events2021 = [
         maps: [
             'https://o-site.spb.ru/_races/21020607VV/210206_map.pdf'
         ],
-        endReg: '2021-02-04 23:55'
+        endReg: '2021-02-04 23:55',
+        map: 'kuzmolovo_poligon_2023'
     },
     {
         id: 'SPB_20210207_2',
@@ -227,7 +231,8 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/210214/210214_info.pdf',
         reskeep: 414,
         strava: 4784783686,
-        o_gps: 9019
+        o_gps: 9019,
+        map: 'kuzmolovo_poligon_2023'
     },
     {
         id: 'SPB_20210217_1',
@@ -380,7 +385,8 @@ let events2021 = [
         name: 'Всеволожская тропа, 1 этап',
         start: 'VSEVOLOZHSK_WAY',
         reskeep: 426,
-        endReg: '2021-03-05 23:55'
+        endReg: '2021-03-05 23:55',
+        map: 'kuzmolovo_poligon_2023'
     },
     {
         id: 'SPB_20210321_1',
@@ -441,7 +447,8 @@ let events2021 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2021BN/210411_split.htm',
         reskeep: 437,
-        o_gps: 9358
+        o_gps: 9358,
+        map: 'sestroretsk_tamozhennaya_doroga_2021'
     },
     {
         id: 'SPB_20210414_1',
@@ -565,7 +572,8 @@ let events2021 = [
         place: 'Токсово, Кривое озеро',
         coord: [60.15155, 30.534725],
         reg: 'https://orgeo.ru/event/16525',
-        endReg: '2021-04-22 12:00'
+        endReg: '2021-04-22 12:00',
+        map: 'toksovo_krivoe_2014'
     },
     {
         id: 'SPB_20210424_1',
@@ -583,6 +591,7 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/210424-25/info3.pdf',
         reskeep: [448, 449],
         strava: [5184271179,5189322903],
+        me: 'М45',
         o_gps: {
             '24-М12': 9490,
             '24-Ж12': 9502,
@@ -596,7 +605,8 @@ let events2021 = [
             '25-Ж14': 9507,
             '25-М45,Ж20/21': 9627,
             '25-М16/50,Ж18/35': 9621
-        }
+        },
+        map: ['kalischenskoe_oz_2021','sosnovij_bor_2021']
     },
     {
         id: 'SPB_20210424_2',
@@ -617,7 +627,8 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1244',
         res: 'https://o-site.spb.ru/_races/210425_MTBO/210425_rez.htm',
         o_site: '210425_MTBO',
-        bulletin: 'https://o-site.spb.ru/_races/210425_MTBO/210425_info2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/210425_MTBO/210425_info2.pdf',
+        map: 'sestroretsk_tamozhennaya_doroga_velo_2008'
     },
     {
         id: 'SPB_20210428_1',
@@ -786,11 +797,13 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/210509-10_V3/100521_bulVTR2021.pdf',
         reskeep: [456, 457, 458],
         strava: [5266488472,5270566831,5272603253],
+        me: 'М45',
         o_gps: {
             '09-Open-A': 9859,
             '09-Ночное': 9865,
             '10-Классика': 9878
-        }
+        },
+        map: ['vyborg_school_10','velichka_2024','vozrozhdenie_2024']
     },
     {
         id: 'SPB_20210509_3',
@@ -897,7 +910,8 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '4, 2',
         link: 'https://vk.com/club91656163',
-        o_gps: 9923
+        o_gps: 9923,
+        map: 'luga_omchino_gk_2023'
     },
     {
         id: 'SPB_20210516_1',
@@ -971,7 +985,8 @@ let events2021 = [
         o_site: '210523LO',
         reg: 'https://orgeo.ru/event/16970',
         bulletin: 'https://o-site.spb.ru/_races/210523LO/210523LO_info2.pdf',
-        endReg: '2021-05-20 23:55'
+        endReg: '2021-05-20 23:55',
+        map: 'berngardovka_2021'
     },
     {
         id: 'SPB_20210523_2',
@@ -1033,7 +1048,8 @@ let events2021 = [
         info: '29 и 30 мая в Сосновом Бору (Ленинградская область) пройдут областные соревнования «Спринт» (кросс-спринт).',
         o_site: '210530',
         bulletin: 'http://o-site.spb.ru/_races/210531/Bulletin3.pdf',
-        reskeep: [467, 471]
+        reskeep: [467, 471],
+        map: 'sosnovij_bor_2021'
     },
     {
         id: 'SPB_20210529_3',
@@ -1101,7 +1117,8 @@ let events2021 = [
         type: 'TRAIL_O',
         coord: [59.747093, 30.595148],
         o_site: '210601',
-        bulletin: 'https://o-site.spb.ru/_races/210601/01_iyunya_IB.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/210601/01_iyunya_IB.pdf',
+        map: 'kolpino_nikolsky_skver_2019'
     },
     {
         id: 'SPB_20210602_1',
@@ -1112,7 +1129,8 @@ let events2021 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1264',
         res: 'https://o-site.spb.ru/_races/210527_mtbo/20210602split.htm',
         o_site: '210527_mtbo',
-        bulletin: 'https://o-site.spb.ru/_races/210527_mtbo/2021_05_27_MTBO.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/210527_mtbo/2021_05_27_MTBO.pdf',
+        map: 'shuvalovsky_park_velo_2021'
     },
     {
         id: 'SPB_20210603_1',
@@ -1266,7 +1284,8 @@ let events2021 = [
         place: 'oз. Щучье',
         coord: [60.524792, 30.326813],
         reg: 'https://orgeo.ru/event/16569',
-        endReg: '2021-06-18 15:00'
+        endReg: '2021-06-18 15:00',
+        map: 'snegirevka_schuchji_2000'
     },
     {
         id: 'SPB_20210619_1',
@@ -1297,7 +1316,8 @@ let events2021 = [
         place: 'oз. Щучье',
         coord: [60.524792, 30.326813],
         reg: 'https://orgeo.ru/event/16568',
-        endReg: '2021-06-20 00:00'
+        endReg: '2021-06-20 00:00',
+        map: 'snegirevka_schuchji_2000'
     },
     {
         id: 'SPB_20210623_2',
@@ -1354,7 +1374,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210701_open/01072021F.htm',
         info: 'Индивидуальные тренировки по ориентированию (бегом) 1 июля: Охта-парк',
         o_site: '210701_open',
-        bulletin: 'https://o-site.spb.ru/_races/210701_open/210701_inf2.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/210701_open/210701_inf2.pdf',
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20210703_1',
@@ -1445,7 +1466,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/2021YC/210807_split.htm',
         reskeep: 480,
         start: 'YM_CUP',
-        endReg: '2021-08-04 23:55'
+        endReg: '2021-08-04 23:55',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20210807_3',
@@ -1468,7 +1490,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/2021YC/210808_split.htm',
         reskeep: 481,
         start: 'YM_CUP',
-        endReg: '2021-08-04 23:55'
+        endReg: '2021-08-04 23:55',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20210814_1',
@@ -1478,7 +1501,8 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '4',
         link: 'https://vk.com/hardrogaine',
-        o_gps: 10715
+        o_gps: 10715,
+        map: 'vorobjevo_bn_2013'
     },
     {
         id: 'SPB_20210815_1',
@@ -1494,7 +1518,8 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/210815/210815_info.pdf',
         reskeep: 482,
         strava: [5796117417,5796461444,5796464578],
-        o_gps: 10691
+        o_gps: 10691,
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20210821_1',
@@ -1544,7 +1569,8 @@ let events2021 = [
         place: 'Осельки',
         reg: 'http://o-reg.spb.ru/entry-list?id=1289',
         res: 'https://o-site.spb.ru/_races/210828_110/210828_res.htm',
-        o_site: '210828_110'
+        o_site: '210828_110',
+        map: 'oselki_2015'
     },
     {
         id: 'SPB_20210828_2',
@@ -1599,7 +1625,8 @@ let events2021 = [
             'Ж2': 10874,
             'Ж3': 10875
         },
-        owner: 'NW'
+        owner: 'NW',
+        map: 'michurinskoe_2022'
     },
     {
         id: 'SPB_20210904_2',
@@ -1647,7 +1674,8 @@ let events2021 = [
         reg: 'http://sportident.online/entry/?id=5007',
         res: 'https://o-site.spb.ru/_races/05092021MaTreshra/20210905_matr_result.htm',
         o_site: '05092021MaTreshra',
-        bulletin: 'https://o-site.spb.ru/_races/05092021MaTreshra/20210905_matr_info_new.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/05092021MaTreshra/20210905_matr_info_new.pdf',
+        map: 'michurinskoe_2022'
     },
     {
         id: 'SPB_20210905_4',
@@ -1657,7 +1685,8 @@ let events2021 = [
         coord: [59.284115, 32.444244],
         reg: 'https://orgeo.ru/event/17646',
         endReg: '2021-08-31 23:55',
-        owner: 'EGRV_SRG'
+        owner: 'EGRV_SRG',
+        map: 'budogosch_2015'
     },
     {
         id: 'SPB_20210909_1',
@@ -1667,7 +1696,8 @@ let events2021 = [
         place: 'Кузьмолово (карьеры)',
         coord: [60.108234, 30.520941],
         reg: 'https://orgeo.ru/event/18227',
-        endReg: '2021-09-09 11:00'
+        endReg: '2021-09-09 11:00',
+        map: 'kuzmolovo_zona_z_2018'
     },
     {
         id: 'SPB_20210911_1',
@@ -1720,7 +1750,8 @@ let events2021 = [
         place: 'Малиновая гора',
         coord: [60.161575, 30.493732],
         reg: 'https://orgeo.ru/event/18365',
-        endReg: '2021-09-16 11:00'
+        endReg: '2021-09-16 11:00',
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20210918_1',
@@ -1744,6 +1775,7 @@ let events2021 = [
         link: 'https://vk.com/event166397868',
         o_gps: 11002
     },
+/*
     {
         id: 'SPB_20210918_3',
         date: '2021-09-18',
@@ -1755,6 +1787,7 @@ let events2021 = [
         coord: [60.704346, 28.763769],
         reg: 'https://orgeo.ru/event/18468'
     },
+*/
     {
         id: 'SPB_20210919_1',
         date: '2021-09-19',
@@ -1772,6 +1805,7 @@ let events2021 = [
         date: '2021-09-19',
         place: 'Вещево',
         name: 'Чемпионат и Первенство Санкт-Петербурга, классика-общий старт',
+        reg: 'https://orgeo.ru/event/18468',
         start: 'SPB_CHAMP',
         res: 'http://www.northernwind.spb.ru/videosplit/2021/chspbs_middle/',
         photo: 'http://disk.yandex.ru/d/uzUA__97XPmC8A',
@@ -1783,6 +1817,7 @@ let events2021 = [
             'ALL':10963
         },
         reskeep: 491,
+        me: 'М45',
         strava: 5986357953,
         map: 'veschevo_2021'
     },
@@ -1791,10 +1826,11 @@ let events2021 = [
         date: '2021-09-23',
         name: 'Кузьмоловские старты 2021',
         start: 'KUZMOLOVSKY_STARTS',
-        place: 'Жд ст. Кавголово',
+        place: 'Кавголово',
         coord: [60.168079, 30.532871],
         reg: 'https://orgeo.ru/event/18529',
-        endReg: '2021-09-23 12:00'
+        endReg: '2021-09-23 12:00',
+        map: 'kavgolovo_2017'
     },
     {
         id: 'SPB_20210925_1',
@@ -1850,7 +1886,8 @@ let events2021 = [
         place: 'г. Сертолово',
         coord: [60.142532, 30.233826],
         reg: 'https://orgeo.ru/event/18473',
-        endReg: '2021-09-24 12:00'
+        endReg: '2021-09-24 12:00',
+        map: 'sertolovo_chistjie_ruchji_2024'
     },
     {
         id: 'SPB_20210926_1',
@@ -1894,10 +1931,11 @@ let events2021 = [
         id: 'SPB_20210926_3',
         date: '2021-09-26',
         name: 'Техника и тактика - 10',
-        place: 'оз. Ждановское',
+        place: 'оз Ждановское',
         coord: [59.983475, 30.685045],
         reg: 'https://orgeo.ru/event/18292',
-        endReg: '2021-09-25 12:00'
+        endReg: '2021-09-25 12:00',
+        map: 'vsevolozhsk_zhdanovskie_oz_2014'
     },
     {
         id: 'SPB_20210929_1',
@@ -1926,18 +1964,21 @@ let events2021 = [
         place: 'Юкки',
         coord: [60.112347, 30.30233],
         reg: 'https://orgeo.ru/event/18641',
-        endReg: '2021-09-30 12:00'
+        endReg: '2021-09-30 12:00',
+        map: 'yukki_north_2020'
     },
     {
         id: 'SPB_20211002_1',
         date: '2021-10-02',
         place: 'Токсово',
         name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-эстафета-3 чел',
+        reg: 'https://orgeo.ru/event/18468',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/211002/res.htm',
         o_site: '211002',
         bulletin: 'https://o-site.spb.ru/_races/211002/211002_info2.pdf',
         reskeep: 493,
+        me: 'М45',
         strava: [6051938295,6051944260],
         o_gps: {
             'Эстафета М90': 11168,
@@ -1950,6 +1991,7 @@ let events2021 = [
         date: '2021-10-03',
         place: 'Поляны',
         name: 'Чемпионат и Первенство Санкт-Петербурга, классика',
+        reg: 'https://orgeo.ru/event/18468',
         start: 'SPB_CHAMP',
         o_site: '211003',
         reskeep: 494,
@@ -1974,7 +2016,8 @@ let events2021 = [
         endReg: '2021-10-07 12:00',
         res: 'https://o-site.spb.ru/_races/210909_KS/211007_res.htm',
         o_site: '210909_KS',
-        bulletin: 'https://o-site.spb.ru/_races/210909_KS/211007_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/210909_KS/211007_info.pdf',
+        map: 'toksovo_krivoe_2014'
     },
     {
         id: 'SPB_20211009_1',
@@ -2036,7 +2079,8 @@ let events2021 = [
         name: 'Рогейн 1+1',
         type: 'ROGAINE',
         fmt: '6',
-        link: 'https://vk.com/event166397868'
+        link: 'https://vk.com/event166397868',
+        map: 'gavrilovo_vmb_2026_05_23'
     },
     {
         id: 'SPB_20211010_1',
@@ -2046,8 +2090,10 @@ let events2021 = [
         start: 'SPB_CHAMP',
         fmt: 'лонг-масстарт',
         o_site: '211010_long',
+        reg: 'https://orgeo.ru/event/18468',
         bulletin: 'https://o-site.spb.ru/_races/211010_long/211010_info2_3.pdf',
         reskeep: 496,
+        me: 'М45',
         strava: 6091647873,
         o_gps: {
             'М21':11235,
@@ -2148,10 +2194,11 @@ let events2021 = [
         id: 'SPB_20211023_3',
         date: '2021-10-23',
         name: 'Техника и тактика - 11',
-        place: 'оз. Ждановское',
+        place: 'оз Ждановское',
         coord: [59.983475, 30.685045],
         reg: 'https://orgeo.ru/event/18851',
-        endReg: '2021-10-22 21:00'
+        endReg: '2021-10-22 21:00',
+        map: 'vsevolozhsk_zhdanovskie_oz_2014'
     },
     {
         id: 'SPB_20211024_1',
@@ -2224,7 +2271,9 @@ let events2021 = [
         name: 'Эстафета-рогейн',
         type: 'ROGAINE',
         fmt: '4',
-        link: 'https://vk.com/event166397868'
+        link: 'https://vk.com/event166397868',
+        map: 'toloni_2025',
+        owner: 'SHBN'
     },
     {
         id: 'SPB_20211030_5',
@@ -2235,7 +2284,8 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/hardrogaine',
-        video: 'https://www.youtube.com/watch?v=PGuqXUn7SI4'
+        video: 'https://www.youtube.com/watch?v=PGuqXUn7SI4',
+        map: 'lembolovo_hard_rogaine_2023'
     },
     {
         id: 'SPB_20211030_6',
@@ -2413,7 +2463,8 @@ let events2021 = [
         bulletin: 'https://o-site.spb.ru/_races/211128_ST/211128_info3.pdf',
         reskeep: 505,
         strava: 6316864782,
-        o_gps: 11603
+        o_gps: 11603,
+        map: 'pushkin_buferny_2018'
     },
     {
         id: 'SPB_20211204_1',
@@ -2449,7 +2500,8 @@ let events2021 = [
         place: 'Дюны (Таможенная дорога)',
         coord: [60.134312, 29.952772],
         reg: 'https://orgeo.ru/event/19391',
-        endReg: '2021-12-02 22:00'
+        endReg: '2021-12-02 22:00',
+        map: 'sestroretsk_tamozhennaya_doroga_2021'
     },
     {
         id: 'SPB_20211212_1',

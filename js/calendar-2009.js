@@ -6,7 +6,8 @@ let events2009 = [
         name: 'СТРЕК-О-НОЧЬ',
         type: 'SKI',
         o_site: '090104',
-        bulletin: 'https://o-site.spb.ru/_races/090104/090104_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/090104/090104_info.htm',
+        map: 'zelenogorsk_schuchje_winter_2011'
     },
     {
         id: 'SPB_20090106_1',
@@ -50,7 +51,8 @@ let events2009 = [
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/090125/090125_res.pdf',
         o_site: '090125',
-        bulletin: 'https://o-site.spb.ru/_races/090125/090125_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/090125/090125_info2.htm',
+        map: 'aleksandrino_south_2007'
     },
     {
         id: 'SPB_20090128_1',
@@ -246,7 +248,8 @@ let events2009 = [
         name: 'Снежная Тропа, финал',
         start: 'SNOW_WAY',
         res: 'https://o-site.spb.ru/_races/090315/090315_res.pdf',
-        o_site: '090315'
+        o_site: '090315',
+        map: '2x2_2008_05_02'
     },
     {
         id: 'SPB_20090321_1',
@@ -295,7 +298,8 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090419/090419_res.htm',
         info: 'Открытые соревнования туристов Всеволожского ДДЮТ по спортивному ориентированию',
         o_site: '090419',
-        bulletin: 'https://o-site.spb.ru/_races/090419/090419_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/090419/090419_info.htm',
+        map: 'toksovo_izumrudnoe_2007'
     },
     {
         id: 'SPB_20090421_1',
@@ -305,7 +309,8 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090519/090421_res.htm',
         start: 'SPRINT_TOUR',
         o_site: '090519',
-        bulletin: 'https://o-site.spb.ru/_races/090519/090519_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/090519/090519_info.htm',
+        map: 'sosnovka_2004'
     },
     {
         id: 'SPB_20090423_1',
@@ -324,7 +329,8 @@ let events2009 = [
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090425_split.htm',
         o_site: '09cupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#14',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20090426_1',
@@ -334,7 +340,8 @@ let events2009 = [
         res: 'http://www.o-site.spb.ru/_races/09cupYM/090426_split.htm',
         o_site: '09cupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#13',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20090501_1',
@@ -400,7 +407,8 @@ let events2009 = [
         info: 'Открытое первенство СДЮСШОР Курортного р-на им. В. Коренькова по вело-ориентированию (Открытие Сезона)',
         fmt: 'заданное направление (средняя дистанция)',
         o_site: '090511',
-        bulletin: 'https://o-site.spb.ru/_races/090511/090511_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/090511/090511_info2.htm',
+        map: 'zelik_schuchje_velo_2010'
     },
     {
         id: 'SPB_20090511_2',
@@ -420,7 +428,8 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090519/090512_res.htm',
         start: 'SPRINT_TOUR',
         o_site: '090519',
-        bulletin: 'https://o-site.spb.ru/_races/090519/090519_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/090519/090519_info.htm',
+        map: 'sosnovka_2004'
     },
     {
         id: 'SPB_20090514_1',
@@ -483,7 +492,8 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090519/090519_res.htm',
         start: 'SPRINT_TOUR',
         o_site: '090519',
-        bulletin: 'https://o-site.spb.ru/_races/090519/090519_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/090519/090519_info.htm',
+        map: 'nevsky_2007'
     },
     {
         id: 'SPB_20090521_1',
@@ -656,7 +666,8 @@ let events2009 = [
         photo: 'http://www.photo.yarkiymir.ru/albums/87/180/page-0/',
         o_site: '090606',
         bulletin: 'https://o-site.spb.ru/_races/090606/090606_info3.htm',
-        reskeep: 235
+        reskeep: 235,
+        map: 'pastorskoe_mednoe_2009'
     },
     {
         id: 'SPB_20090607_1',
@@ -680,7 +691,8 @@ let events2009 = [
         o_site: '090607',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#21',
         bulletin: 'https://o-site.spb.ru/_races/090607/090607_info3.htm',
-        reskeep: 251
+        reskeep: 251,
+        map: 'pastorskoe_mednoe_2009'
     },
     {
         id: 'SPB_20090610_1',
@@ -927,7 +939,8 @@ let events2009 = [
         name: 'Велопитер',
         place: 'Зеленогорск, Чёрные оз',
         type: 'VELO',
-        o_site: '090912'
+        o_site: '090912',
+        map: 'zelenogorsk_chernye_velo_2025'
     },
     {
         id: 'SPB_20090912_2',
@@ -938,7 +951,8 @@ let events2009 = [
         info: 'М/Ж 10, 12, 14, 16, 18, 20, 21, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80.',
         logo: 'azimut.gif',
         o_site: '090912_az',
-        bulletin: 'https://o-site.spb.ru/_races/090912_az/090912_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/090912_az/090912_info2.htm',
+        map: 'solnechnoe_djuny_2007'
     },
     {
         id: 'SPB_20090913_1',
@@ -949,7 +963,8 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090913/090913_res.pdf',
         o_site: '090913',
         bulletin: 'https://o-site.spb.ru/_races/090913/090913_info2.htm',
-        reskeep: 242
+        reskeep: 242,
+        map: 'pastorskoe_mednoe_2009'
     },
     {
         id: 'SPB_20090917_1',
@@ -988,7 +1003,8 @@ let events2009 = [
         name: 'Шестиэтапные эстафеты',
         res: 'https://o-site.spb.ru/_races/090920/090920_res.htm',
         info: 'Межклубные шестиэтапные эстафеты, проводимые клубом Северный Ветер',
-        o_site: '090920'
+        o_site: '090920',
+        map: 'nevsky_2007'
     },
     {
         id: 'SPB_20090924_1',
@@ -1042,7 +1058,8 @@ let events2009 = [
         bulletin: 'https://o-site.spb.ru/_races/090927kk/090927kk_i.htm',
         maps: [
             'https://o-site.spb.ru/_races/090927kk/shema2.gif'
-        ]
+        ],
+        map: 'zelik_schuchje_velo_2010'
     },
     {
         id: 'SPB_20091001_1',
@@ -1052,7 +1069,8 @@ let events2009 = [
         res: 'http://www.o-site.spb.ru/_races/091126/091001_res.htm',
         o_site: '091126',
         bulletin: 'https://o-site.spb.ru/_races/091126/091126_info.htm',
-        start: 'ROGAINE_110'
+        start: 'ROGAINE_110',
+        map: 'osinovaja_roscha_1999'
     },
     {
         id: 'SPB_20091003_1',
@@ -1177,7 +1195,8 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/09102425/091024_res.htm',
         info: 'Юбилейные, 40-е по счёту соревнования',
         owner: 'VYBORG',
-        o_site: '09102425'
+        o_site: '09102425',
+        map: 'monrepo_2007'
     },
     {
         id: 'SPB_20091024_2',
@@ -1210,7 +1229,8 @@ let events2009 = [
         name: 'Ночные Эстафеты',
         res: 'https://o-site.spb.ru/_races/091031/091031_res.htm',
         o_site: '091031',
-        bulletin: 'https://o-site.spb.ru/_races/091031/091031_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/091031/091031_info2.htm',
+        map: 'pesochnaya_2005'
     },
     {
         id: 'SPB_20091101_1',
@@ -1252,7 +1272,8 @@ let events2009 = [
         logo: 'azimut.gif',
         o_site: '091104_az',
         bulletin: 'https://o-site.spb.ru/_races/091104_az/091104_info2.htm',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20091107_1',
@@ -1274,7 +1295,8 @@ let events2009 = [
         info: 'Тренировочный старт СДЮСШОР Курортного р-на и КСО Азимут',
         o_site: '091108_az',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#32',
-        bulletin: 'https://o-site.spb.ru/_races/091108_az/091108_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/091108_az/091108_info.htm',
+        map: 'zelenogorsk_leninskoe_2008'
     },
     {
         id: 'SPB_20091112_1',
@@ -1401,7 +1423,8 @@ let events2009 = [
         bulletin: 'https://o-site.spb.ru/_races/091220/091220_info2.htm',
         maps: [
             'https://o-site.spb.ru/_races/091220/091220_karta.gif'
-        ]
+        ],
+        map: 'solnechnoe_djuny_2007'
     },
     {
         id: 'SPB_20091226_1',

@@ -2,21 +2,23 @@ let events2007 = [
     {
         id: 'SPB_20070107_1',
         date: '2007-01-07',
-        place: 'Ильичево',
+        place: 'Ильичёво',
         name: 'Кубок Ленинградской Области',
         type: 'SKI',
         info: 'Кубок Ленинградской Области 2 (областной) Этап III Зимней Спартакиады уч-ся РФ Кубок Центра ЛАДОГА',
         o_site: '070107',
-        bulletin: 'https://o-site.spb.ru/_races/070107/ladogaskio.htm'
+        bulletin: 'https://o-site.spb.ru/_races/070107/ladogaskio.htm',
+        map: 'zelenogorsk_chernye_winter'
     },
     {
         id: 'SPB_20070108_1',
         date: '2007-01-08',
-        place: 'Ильичево',
+        place: 'Ильичёво',
         name: 'Кубок Центра ЛАДОГА, 2 этап',
         type: 'SKI',
         o_site: '070108',
-        bulletin: 'https://o-site.spb.ru/_races/070108/ladogafooto.htm'
+        bulletin: 'https://o-site.spb.ru/_races/070108/ladogafooto.htm',
+        map: 'zelenogorsk_chernye_winter'
     },
     {
         id: 'SPB_20070114_1',
@@ -27,7 +29,8 @@ let events2007 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/070114_LO/070114_res.zip',
         info: 'Первенство Ленинградской области среди обучающихся в МОУ ДОД ЛО, Кубок Ленинградской области',
-        o_site: '070114_LO'
+        o_site: '070114_LO',
+        map: 'zelenogorsk_chernye_winter'
     },
     {
         id: 'SPB_20070114_2',
@@ -52,7 +55,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070121/result.zip',
         info: 'Многоэтапные соревнования по парковому ориентированию бегом на заснеженном грунте.',
         o_site: '070121',
-        bulletin: 'https://o-site.spb.ru/_races/070121/info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/070121/info.htm',
+        map: 'sosnovaya_poljana_2015'
     },
     {
         id: 'SPB_20070128_1',
@@ -64,7 +68,8 @@ let events2007 = [
         info: 'Зимнее первенство Комитета по образованию Санкт-Петербурга и квалификационные соревнования взрослых спортсменов',
         owner: 'SFSO_SPB',
         o_site: '070128',
-        bulletin: 'https://o-site.spb.ru/_races/070128/info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/070128/info.htm',
+        map: 'zelenogorsk_schuchje_winter_2011'
     },
     {
         id: 'SPB_20070203_1',
@@ -75,7 +80,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070203/070203_res.zip',
         info: '2-й Мемориал Андрея Волкова',
         start: 'VOLKOV_A',
-        o_site: '070203'
+        o_site: '070203',
+        map: 'zelenogorsk_chernye_winter'
     },
     {
         id: 'SPB_20070204_1',
@@ -86,7 +92,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070204/070204_res.zip',
         info: 'Зимнее первенство Комитета по образованию Санкт-Петербурга 2 день и Первенство «ОК Гольфстрим» (1 этап кубка ОК Гольфстрим»)',
         owner: 'GOLFSTREAM',
-        o_site: '070204'
+        o_site: '070204',
+        map: 'zelenogorsk_chernye_winter'
     },
     {
         id: 'SPB_20070214_1',
@@ -155,7 +162,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070224/070224_res.htm',
         info: 'Зимний чемпионат Санкт-Петербурга',
         o_site: '070224',
-        bulletin: 'https://o-site.spb.ru/_races/070224/070224_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/070224/070224_info.htm',
+        map: '2x2_2006_04_29'
     },
     {
         id: 'SPB_20070225_1',
@@ -167,7 +175,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070225/070225_res.htm',
         info: 'Зимний чемпионат Санкт-Петербурга',
         o_site: '070225',
-        bulletin: 'https://o-site.spb.ru/_races/070224/070224_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/070224/070224_info.htm',
+        map: '2x2_2006_04_29'
     },
     {
         id: 'SPB_20070304_1',
@@ -197,7 +206,8 @@ let events2007 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/070308/070308_res.htm',
         o_site: '070308',
-        bulletin: 'http://o-time.ru/images/all/info/chspb080307.htm'
+        bulletin: 'http://o-time.ru/images/all/info/chspb080307.htm',
+        map: '2x2_2006_04_29'
     },
     {
         id: 'SPB_20070310_1',
@@ -306,7 +316,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070415_AZ/070415_AZ_result.zip',
         info: 'Открытое первенство СДЮШОР Курортного р-на на приз Открытия летнего сезона',
         o_site: '070415_AZ',
-        bulletin: 'https://o-site.spb.ru/_races/070415_AZ/070415_AZ_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/070415_AZ/070415_AZ_info2.htm',
+        map: 'zelenogorsk_leninskoe_2008'
     },
     {
         id: 'SPB_20070419_1',
@@ -356,7 +367,8 @@ let events2007 = [
         photo: 'http://photofile.ru/users/gns/2622143/',
         info: 'Открытие сезона 2007 года по вело ориентированию. Старт в 11:00. Группы М, Ж и МЖ-14. Укороченная дистанция средней сложности в заданном направлении.',
         o_site: '070421v',
-        bulletin: 'https://o-site.spb.ru/_races/070421v/MTBO_SPb_Club-Otkritie-2007.html'
+        bulletin: 'https://o-site.spb.ru/_races/070421v/MTBO_SPb_Club-Otkritie-2007.html',
+        map: 'sestroretsk_tamozhennaya_doroga_velo_2008'
     },
     {
         id: 'SPB_20070422_1',
@@ -433,7 +445,8 @@ let events2007 = [
         name: '1 этап Кубка ФСО СПб',
         res: 'https://o-site.spb.ru/_races/070509/070509_results.htm',
         info: 'Соревнования, посвященные Дню Победы. I этап Кубка ФСО СПб',
-        o_site: '070509'
+        o_site: '070509',
+        map: 'golubaya_dacha_2005'
     },
     {
         id: 'SPB_20070509_2',
@@ -784,7 +797,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070804/07080405_res.zip',
         start: 'YM_CUP',
         o_site: '070804',
-        bulletin: 'https://o-site.spb.ru/_races/070804/07080405_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/070804/07080405_info.htm',
+        map: 'zamostie_2006'
     },
     {
         id: 'SPB_20070805_1',
@@ -794,7 +808,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070804/07080405_res.zip',
         start: 'YM_CUP',
         o_site: '070805',
-        bulletin: 'https://o-site.spb.ru/_races/070804/07080405_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/070804/07080405_info.htm',
+        map: 'zamostie_2006'
     },
     {
         id: 'SPB_20070818_1',
@@ -896,7 +911,8 @@ let events2007 = [
         place: 'Осельки',
         name: 'Критериум',
         res: 'https://o-site.spb.ru/_races/070908/070908_res.zip',
-        o_site: '070908'
+        o_site: '070908',
+        map: 'oselki_2007'
     },
     {
         id: 'SPB_20070909_1',
@@ -937,7 +953,7 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070916/070916_res.htm',
         fmt: 'эстафета одного участника',
         o_site: '070916',
-        map: 'solnechnoe-djuny_2007'
+        map: 'solnechnoe_djuny_2007'
     },
     {
         id: 'SPB_20070922_1',
@@ -960,7 +976,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/07092223/070922_res.htm',
         info: 'Первенство Ленинградской области среди обучающихся по спортивному ориентированию бегом',
         o_site: '07092223',
-        bulletin: 'https://o-site.spb.ru/_races/07092223/07092223_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/07092223/07092223_info2.htm',
+        map: 'ilychevo_2005'
     },
     {
         id: 'SPB_20070922_3',
@@ -969,7 +986,8 @@ let events2007 = [
         name: 'Золотые кольца (Свадебные)',
         res: 'https://o-site.spb.ru/_races/070922/070922_res.htm',
         start: 'WEDDING',
-        o_site: '070922'
+        o_site: '070922',
+        map: 'oselki_2007'
     },
     {
         id: 'SPB_20070922_4',
@@ -1062,7 +1080,8 @@ let events2007 = [
         name: 'Ночной Кубок 110%, 2 этап',
         res: 'https://o-site.spb.ru/_races/071122/071011_110cup2_res.htm',
         start: 'ROGAINE_110',
-        o_site: '071122'
+        o_site: '071122',
+        map: 'toksovo_izumrudnoe_2007'
     },
     {
         id: 'SPB_20071013_1',
@@ -1145,7 +1164,8 @@ let events2007 = [
         name: 'Тренировка: маркир, нитка, выбор',
         info: 'Открытая тренировка в Кавголово. Маркир, Нитка, Выбор.',
         fmt: 'маркир, нитка, выбор',
-        o_site: '071028_tr'
+        o_site: '071028_tr',
+        map: 'toksovo_vifk_2000'
     },
     {
         id: 'SPB_20071104_1',
@@ -1222,7 +1242,8 @@ let events2007 = [
         bulletin: 'https://o-site.spb.ru/_races/071118/071118_info.htm',
         maps: [
             'https://o-site.spb.ru/_races/071118/tr1_winner.gif'
-        ]
+        ],
+        map: 'shuvalovsky_1999'
     },
     {
         id: 'SPB_20071122_1',
@@ -1284,7 +1305,8 @@ let events2007 = [
         bulletin: 'https://o-site.spb.ru/_races/071216/071216_info.htm',
         maps: [
             'https://o-site.spb.ru/_races/071216/071216_winnerpaths.jpg'
-        ]
+        ],
+        map: 'aleksandrino_south_2007'
     },
     /*
         {

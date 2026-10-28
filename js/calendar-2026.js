@@ -107,7 +107,8 @@ let events2026 = [
             'SKI'
         ],
         fmt: '4',
-        owner: 'MULTSPORT'
+        owner: 'MULTSPORT',
+        map: 'koloskovo_1998'
     },
     {
         id: 'SPB_20260111_2',
@@ -337,7 +338,8 @@ let events2026 = [
         place: 'Таврический сад',
         o_gps: 24186,
         fmt: 'спринт',
-        owner: 'SHRNN'
+        owner: 'SHRNN',
+        map: 'tavrichesky_1998'
     },
     {
         id: 'SPB_20260214_1',
@@ -1204,7 +1206,8 @@ let events2026 = [
         place: 'парк Екатерингоф',
         coord: [59.901623, 30.25633],
         reg: 'https://orgeo.ru/event/52191',
-        endReg: '2026-04-23'
+        endReg: '2026-04-23',
+        map: 'ekateringof_2021'
     },
     {
         id: 'SPB_20260501_1',
@@ -1457,7 +1460,8 @@ let events2026 = [
         endReg: '2026-05-15 10:00',
         bulletin: 'https://orgeo.ru/files/event/file/52397_6059807bd8.pdf',
         owner: 'MLV_AL',
-        coord: [59.315125, 32.408235]
+        coord: [59.315125, 32.408235],
+        map: 'budogosch_92km_2022'
     },
     {
         id: 'SPB_20260517_1',
@@ -2407,7 +2411,8 @@ let events2026 = [
             'https://vk.ru/album-163764238_311699777'
         ],
         o_gps: 25725,
-        start: 'HARD'
+        start: 'HARD',
+        map: 'vorobjevo_bn_2013'
     },
     {
         id: 'SPB_20260808_3',
@@ -2418,7 +2423,8 @@ let events2026 = [
         coord: [59.943302, 30.457975],
         info: 'Три дистанции простого уровня сложности 150-250м. Бесплатно, без предварительной регистрации.',
         reg: 'https://orgeo.ru/event/54223',
-        owner: 'FENIX'
+        owner: 'FENIX',
+        map: 'ladozhsky_park_2023'
     },
     {
         id: 'SPB_20260808_4',
@@ -2484,7 +2490,8 @@ let events2026 = [
         endReg: '2026-08-14 21:00',
         bulletin: 'https://orgeo.ru/files/event/file/54528_fbdd3610b6.pdf',
         place: 'Ягодное',
-        coord: [60.630897, 30.017148]
+        coord: [60.630897, 30.017148],
+        map: 'yagodnoe_2007'
     },
     {
         id: 'SPB_20260815_3',
@@ -3026,7 +3033,8 @@ let events2026 = [
         video: ['https://vkvideo.ru/video-238805001_456239043','https://www.youtube.com/watch?v=xVLvut6QSxA'],
         fmt: 'ночное',
         coord: [60.289127, 29.309061],
-        start: 'OKINCHITSA'
+        start: 'OKINCHITSA',
+        map: 'polyany_2019'
     },
     {
         id: 'SPB_20261003_2',
@@ -3074,7 +3082,8 @@ let events2026 = [
         place: 'Молодежное', // !
         coord: [60.198723, 29.526632],
         reg: 'https://orgeo.ru/event/55717',
-        endReg: '2026-10-01'
+        endReg: '2026-10-01',
+        map: 'molodezhnoe_2024'
     },
     {
         id: 'SPB_20261004_1',
@@ -3134,7 +3143,8 @@ let events2026 = [
         place: 'Московский',
         reg: 'https://orgeo.ru/event/55994',
         type: 'INDOOR',
-        owner: 'FENIX'
+        owner: 'FENIX',
+        map: 'tsfkiz_moskovsky_2016'
     },
     {
         id: 'SPB_20261010_1',
@@ -3188,7 +3198,8 @@ let events2026 = [
         endReg: '2026-10-07 22:00',
         info: '+ беговой TrailAdventure. <a href="https://o-route.ru/events/ba-aut-2026">Треки участников</a>.',
         start: ['BA','TA'],
-        owner: ['BKTV', 'SHBN']
+        owner: ['BKTV', 'SHBN'],
+        map: 'lembolovo_hard_rogaine_2023'
     },
     {
         id: 'SPB_20261011_1',
@@ -3669,7 +3680,8 @@ let events2026 = [
         o_site: '261108_110',
         reg: 'https://orgeo.ru/event/56429',
         endReg: '2026-11-05 23:55',
-        bulletin: 'https://o-site.spb.ru/_races/261108_110/markir08112026-info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/261108_110/markir08112026-info.pdf',
+        map: 'silande_2024'
     },
     {
         id: 'SPB_20261114_1',
@@ -3701,7 +3713,8 @@ let events2026 = [
         start: 'SNOW_WAY',
         fmt: 'спринт',
         endReg: '2026-11-19',
-        bulletin: 'https://o-site.spb.ru/_races/261122_st/261122_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/261122_st/261122_info.pdf',
+        map: 'sosnovka_2024'
     },
     {
         id: 'SPB_20261128_1',

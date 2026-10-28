@@ -23,7 +23,8 @@ let skiEvents2026 = [
         link: 'https://vk.com/club_llg',
         reg: 'https://reg.o-time.ru/race/26214',
         owner: 'KLLG',
-        price: 1
+        price: 1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260125_1',
@@ -36,7 +37,8 @@ let skiEvents2026 = [
         link: 'https://vk.com/club_llg',
         reg: 'https://reg.o-time.ru/race/26214',
         owner: 'KLLG',
-        price: 1
+        price: 1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260125_2',
@@ -64,7 +66,8 @@ let skiEvents2026 = [
         photo: 'https://www.sport-images.ru/events/lijniy-marafon-toksovocup-skate-2026/',
         start: 'TOKSOVO_CUP',
         russialoppet: true,
-        price: 1
+        price: 1,
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SKI_20260201_1',
@@ -79,7 +82,8 @@ let skiEvents2026 = [
         photo: 'https://www.sport-images.ru/events/lijniy-marafon-toksovocup-classic-2026/',
         start: 'TOKSOVO_CUP',
         russialoppet: true,
-        price: 1
+        price: 1,
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SKI_20260207_1',
@@ -118,7 +122,8 @@ let skiEvents2026 = [
         link: 'https://vk.com/sport_v_garbolovo',
         reg: 'https://reg.o-time.ru/race/26099',
         owner: 'GARBOLOVO',
-        price: 1
+        price: 1,
+        map: 'garbolovo_zmeinoe_2022'
     },
     {
         id: 'SKI_20260208_3',
@@ -127,7 +132,8 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         coord: [60.1792273, 30.5382775],
-        price: -1
+        price: -1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260209_1',
@@ -137,7 +143,8 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         coord: [60.1792273, 30.5382775],
-        price: -1
+        price: -1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260208_4',
@@ -160,7 +167,8 @@ let skiEvents2026 = [
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
-        price: 0
+        price: 0,
+        map: 'piskarevsky_2024'
     },
     {
         id: 'SKI_20260208_6',
@@ -194,7 +202,8 @@ let skiEvents2026 = [
         coord: [60.1792273, 30.5382775],
         link: 'https://vk.com/club_llg',
         owner: 'KLLG',
-        price: 0
+        price: 0,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260214_1',
@@ -217,7 +226,8 @@ let skiEvents2026 = [
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
-        price: 0
+        price: 0,
+        map: 'ekateringof_2021'
     },
     {
         id: 'SKI_20260214_3',
@@ -241,7 +251,8 @@ let skiEvents2026 = [
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
-        price: 0
+        price: 0,
+        map: 'polezhaevsky_south_2021'
     },
     {
         id: 'SKI_20260214_5',
@@ -252,7 +263,8 @@ let skiEvents2026 = [
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
-        price: 0
+        price: 0,
+        map: 'kolpino_chuhonka_2020'
     },
     {
         id: 'SKI_20260214_6',
@@ -263,7 +275,8 @@ let skiEvents2026 = [
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
-        price: 0
+        price: 0,
+        map: 'polyustrovsky_2022'
     },
     {
         id: 'SKI_20260214_7',
@@ -275,7 +288,8 @@ let skiEvents2026 = [
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
-        price: 0
+        price: 0,
+        map: 'polezhaevsky_south_2021'
     },
     {
         id: 'SKI_20260214_8',
@@ -286,7 +300,8 @@ let skiEvents2026 = [
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
-        price: 0
+        price: 0,
+        map: 'sestroretsk_pljazh_laskovy_2026'
     },
     {
         id: 'SKI_20260214_9',
@@ -308,7 +323,8 @@ let skiEvents2026 = [
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
-        price: 0
+        price: 0,
+        map: 'yablonovsky_sad_2024'
     },
     {
         id: 'SKI_20260214_11',
@@ -331,7 +347,8 @@ let skiEvents2026 = [
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
-        price: 0
+        price: 0,
+        map: 'english_2010'
     },
     {
         id: 'SKI_20260214_13',
@@ -378,7 +395,8 @@ let skiEvents2026 = [
         link: 'http://www.minsport.gov.ru/',
         reg: 'https://www.gosuslugi.ru/',
         owner: 'MINSPORT',
-        price: 0
+        price: 0,
+        map: 'garbolovo_zmeinoe_2022'
     },
     {
         id: 'SKI_20260215_1',
@@ -391,7 +409,8 @@ let skiEvents2026 = [
         link: 'https://vk.com/sport_v_garbolovo',
         reg: 'https://reg.o-time.ru/race/26102',
         owner: 'GARBOLOVO',
-        price: 1
+        price: 1,
+        map: 'garbolovo_zmeinoe_2022'
     },
     {
         id: 'SKI_20260218_1',
@@ -456,7 +475,8 @@ let skiEvents2026 = [
         link: 'https://vk.com/public207072134',
         reg: 'https://reg.o-time.ru/race/26082',
         start: 'SPORTDRIVE',
-        price: 1
+        price: 1,
+        map: 'toksovo_krivoe_2014'
     },
     {
         id: 'SKI_20260222_3',
@@ -469,7 +489,8 @@ let skiEvents2026 = [
         link: 'https://vk.com/club_llg',
         reg: 'https://reg.o-time.ru/race/26137',
         owner: 'KLLG',
-        price: 1
+        price: 1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260223_1',
@@ -482,7 +503,8 @@ let skiEvents2026 = [
         link: 'http://vk.com/alpskispb',
         reg: 'https://reg.o-time.ru/race/26009',
         owner: 'ALP_SPB',
-        price: 1
+        price: 1,
+        map: 'toksovo_krivoe_2014'
     },
     {
         id: 'SKI_20260223_2',
@@ -495,7 +517,8 @@ let skiEvents2026 = [
         link: 'https://vk.ru/gtn_ski',
         reg: 'https://reg.o-time.ru/race/26272',
         owner: 'GATCHINA',
-        price: 1
+        price: 1,
+        map: 'gatchina_zverinets_1986'
     },
     {
         id: 'SKI_20260223_3',
@@ -547,7 +570,8 @@ let skiEvents2026 = [
         fmt: '9, 6, 3 свободный<br/>9М свободный<br/>6М (>60), 6Ж свободный<br/>3М (11-14), 3Ж (11-14) свободный',
         coord: [59.692984, 30.120692],
         reg: 'https://reg.o-time.ru/race/26258',
-        price: 1
+        price: 1,
+        map: 'nagorny_park_2020'
     },
     {
         id: 'SKI_20260228_3',
@@ -607,7 +631,8 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         coord: [60.1792273, 30.5382775],
-        price: -1
+        price: -1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260302_1',
@@ -616,7 +641,8 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         coord: [60.1792273, 30.5382775],
-        price: -1
+        price: -1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260303_1',
@@ -625,7 +651,8 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         coord: [60.1792273, 30.5382775],
-        price: -1
+        price: -1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260305_1',
@@ -634,7 +661,8 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         coord: [60.1792273, 30.5382775],
-        price: -1
+        price: -1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260306_1',
@@ -643,7 +671,8 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         coord: [60.1792273, 30.5382775],
-        price: -1
+        price: -1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260307_1',
@@ -708,7 +737,8 @@ let skiEvents2026 = [
         link: 'https://vk.com/club_llg',
         reg: 'https://reg.o-time.ru/race/26137',
         owner: 'KLLG',
-        price: 0
+        price: 0,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260314_1',
@@ -720,7 +750,8 @@ let skiEvents2026 = [
         coord: [60.20879, 29.720611],
         link: 'https://vk.com/dvigatelski',
         reg: 'https://reg.o-time.ru/race/26022',
-        price: 1
+        price: 1,
+        map: 'zelenogorsk_priboy_1992'
     },
     {
         id: 'SKI_20260315_1',
@@ -733,7 +764,8 @@ let skiEvents2026 = [
         link: 'https://vk.com/sport_v_garbolovo',
         reg: 'https://reg.o-time.ru/race/26294',
         owner: 'GARBOLOVO',
-        price: 1
+        price: 1,
+        map: 'garbolovo_zmeinoe_2022'
     },
     {
         id: 'SKI_20260321_1',
@@ -755,7 +787,8 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         coord: [60.1792273, 30.5382775],
-        price: -1
+        price: -1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260324_1',
@@ -764,7 +797,8 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         coord: [60.1792273, 30.5382775],
-        price: -1
+        price: -1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260325_1',
@@ -773,7 +807,8 @@ let skiEvents2026 = [
         place: 'Токсово, УТЦ',
         type: 'SK_RACE',
         coord: [60.1792273, 30.5382775],
-        price: -1
+        price: -1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260328_1',
@@ -810,7 +845,8 @@ let skiEvents2026 = [
         link: 'https://vk.com/mass_sport',
         reg: 'https://reg.o-time.ru/race/26124',
         owner: 'MASS_SPORT',
-        price: 1
+        price: 1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260405_1',
@@ -823,7 +859,8 @@ let skiEvents2026 = [
         link: 'https://vk.com/club_llg',
         reg: 'https://reg.o-time.ru/race/26139',
         owner: 'KLLG',
-        price: 1
+        price: 1,
+        map: 'kavgolovo_1989'
     },
     {
         id: 'SKI_20260213_2',
@@ -835,6 +872,7 @@ let skiEvents2026 = [
         coord: [60.1792273, 30.5382775],
         link: 'https://vk.com/club_llg',
         reg: 'https://reg.o-time.ru/race/26137',
-        owner: 'KLLG'
+        owner: 'KLLG',
+        map: 'kavgolovo_1989'
     }
 ]

@@ -20,7 +20,8 @@ let events2008 = [
         type: 'SKI',
         info: 'Лыжное ориентирование на маркированной трассе с электронной отметкой.',
         o_site: '080112',
-        bulletin: 'https://o-site.spb.ru/_races/080112/080112_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/080112/080112_info.htm',
+        map: '2x2_2008_05_01'
     },
     {
         id: 'SPB_20080113_1',
@@ -212,7 +213,8 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/08041213_U/080413_res.htm',
         info: '1 этап кубка клуба "Ультра СПб" по ориентированию на велосипедах',
         o_site: '08041213_U',
-        bulletin: 'https://o-site.spb.ru/_races/08041213_U/08041213_u_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/08041213_U/08041213_u_info.htm',
+        map: 'golubaya_dacha_2005'
     },
     {
         id: 'SPB_20080417_1',
@@ -234,7 +236,8 @@ let events2008 = [
         fmt: '19 апреля - ЗН (спринт)',
         o_site: '08041920',
         bulletin: 'https://o-site.spb.ru/_races/08041920/08041920_info3.htm',
-        endDate: '2008-04-20'
+        endDate: '2008-04-20',
+        map: 'solnechnoe_djuny_2007'
     },
     {
         id: 'SPB_20080420_1',
@@ -300,7 +303,8 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/08050103/080501_luga_res.htm',
         info: 'ЧЕМПИОНАТ И ПЕРВЕНСТВО ЛЕНИНГРАДСКОЙ ОБЛАСТИ, ОТКРЫТЫЙ КУБОК СЗФО',
         o_site: '08050103',
-        bulletin: 'https://o-site.spb.ru/_races/08050103/08050103_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/08050103/08050103_info.htm',
+        map: 'luga_omchino_1994'
     },
     {
         id: 'SPB_20080509_1',
@@ -321,7 +325,8 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/080510_mtbo/080510_rez.htm',
         info: 'Кубок СПб по велоориентированию. Классическая дистанция в заданном направлении.',
         o_site: '080510_mtbo',
-        bulletin: 'https://o-site.spb.ru/_races/080510_mtbo/080510_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/080510_mtbo/080510_info.htm',
+        map: 'peski_2001'
     },
     {
         id: 'SPB_20080510_2',
@@ -380,7 +385,8 @@ let events2008 = [
         name: 'Весенний Кубок 110%, 5 этап',
         res: 'https://o-site.spb.ru/_races/0804_cup110/080517_res.txt',
         start: 'ROGAINE_110',
-        o_site: '0804_cup110'
+        o_site: '0804_cup110',
+        map: 'peski_2001'
     },
     {
         id: 'SPB_20080518_1',
@@ -421,7 +427,8 @@ let events2008 = [
         name: 'Весенний Кубок 110%, 6 этап',
         res: 'https://o-site.spb.ru/_races/0804_cup110/080522_res.txt',
         start: 'ROGAINE_110',
-        o_site: '0804_cup110'
+        o_site: '0804_cup110',
+        map: 'oselki_2007'
     },
     {
         id: 'SPB_20080524_1',
@@ -612,7 +619,8 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/080706/080706_res.zip',
         start: 'YM_CUP',
         o_site: '080706',
-        bulletin: 'https://o-site.spb.ru/_races/080706/080706_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/080706/080706_info.htm',
+        map: 'mednoe_rfar_2006'
     },
     {
         id: 'SPB_20080718_1',
@@ -637,7 +645,8 @@ let events2008 = [
         o_site: '080720',
         maps: [
             'https://o-site.spb.ru/_races/080720/DE_path.gif'
-        ]
+        ],
+        map: 'golubaya_dacha_2005'
     },
     {
         id: 'SPB_20080726_1',
@@ -664,7 +673,8 @@ let events2008 = [
         planner: 'OSPV_A',
         res: 'https://o-site.spb.ru/_races/080720_ori/08072627_res.zip',
         info: '«Ориентиры» - 12,13 Два дня – 26 и 27 июля 2008 Можно ехать с палаткой и ночевать! Зеленогорск-Комарово, северный берег оз. Щучье Программа: 26 июля (суббота) – заданное направление + выбор, нач. дист. – Наталья Яшукова, старт открытый с 12:00 до 13:00; 27 июля (воскресенье) – классическая дистанция в заданном направлении, нач. дист. – Александр Осипов, старт открытый с 12:00 до 13:00. Справки у Натальи Яшуковой, м.т. 8(921)-755-47-28, д.т. 534-61-86.',
-        o_site: '080720_ori'
+        o_site: '080720_ori',
+        map: 'zelenogorsk_schuchye_2005'
     },
     {
         id: 'SPB_20080803_1',
@@ -761,7 +771,8 @@ let events2008 = [
         type: 'VELO',
         info: '6-й Фестиваль «ВелоПитер». Традиционное мероприятие для всех велосипедистов. В программе различные соревнования и конкурсы для всех, от спортсменов до новичков, и, конечно, общение. Будет палаточный лагерь.',
         o_site: '080913_v',
-        bulletin: 'https://o-site.spb.ru/_races/080913_v/VP.html'
+        bulletin: 'https://o-site.spb.ru/_races/080913_v/VP.html',
+        map: 'zelenogorsk_chernye_velo_2025'
     },
     {
         id: 'SPB_20080913_2',
@@ -780,7 +791,8 @@ let events2008 = [
         name: 'Чемпионат Санкт-Петербурга, марафон',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/080914/080914_res.htm',
-        o_site: '080914'
+        o_site: '080914',
+        map: 'koloskovo_1998'
     },
     {
         id: 'SPB_20080920_1',
@@ -891,7 +903,8 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/081005/final_res.zip',
         start: 'YM_CUP',
         o_site: '081005',
-        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#11'
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#11',
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20081009_1',
@@ -968,7 +981,8 @@ let events2008 = [
         name: 'Пер-во ЛО среди обучающихся Финал Кубка ФСО (26.10)',
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/08102526/081026_res.pdf',
-        o_site: '08102526'
+        o_site: '08102526',
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20081025_3',
@@ -993,7 +1007,7 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/090419_VT/081130_res.htm',
         info: '5-ти этапные соревнования',
         o_site: '090419_VT',
-        map: 'proba'
+        map: 'proba_2008'
     },
     {
         id: 'SPB_20081102_1',
@@ -1050,7 +1064,8 @@ let events2008 = [
         place: 'Кавголово, Орлиная гора',
         name: 'Тренировка от ДТЮ',
         info: 'Программа: маркир 3,5км - 9кп для средних и старших для новичков - нитка маркира врисована в карту + кп в 50-70м от маркира. для средних и старших: упражнение «нитка» (приблизительно 4км и 7км - 2 варианта), полигон для выбора или самостоятельного планирования дистанций заданного направления.',
-        o_site: '081116'
+        o_site: '081116',
+        map: 'orlinaya_gora_2004'
     },
     {
         id: 'SPB_20081120_1',
@@ -1106,7 +1121,8 @@ let events2008 = [
         place: 'Зеленогорск, оз Щучье',
         publish: 'https://o-site.spb.ru/race.php?id=081130t',
         o_site: '081130t',
-        bulletin: 'https://o-site.spb.ru/_races/081130t/081130t_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/081130t/081130t_info.htm',
+        map: 'zelenogorsk_schuchye_2005'
     },
     {
         id: 'SPB_20081130_3',
@@ -1115,7 +1131,8 @@ let events2008 = [
         name: 'Всеволожская тропа 2009, 1 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'https://www.o-site.spb.ru/_races/090419_VT/081130_res.htm',
-        o_site: '081223'
+        o_site: '081223',
+        map: 'proba_2008'
     },
     {
         id: 'SPB_20081207_1',
@@ -1147,7 +1164,8 @@ let events2008 = [
         name: 'Лесной Азимут',
         res: 'https://o-site.spb.ru/_races/081214_2/081214_split.htm',
         o_site: '081214_2',
-        bulletin: 'https://o-site.spb.ru/_races/081214_2/081214_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/081214_2/081214_info2.htm',
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20081221_1',
@@ -1157,7 +1175,8 @@ let events2008 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080421/081221_split.htm',
         o_site: '080421',
-        bulletin: 'https://o-site.spb.ru/_races/080421/081221_info2.htm'
+        bulletin: 'https://o-site.spb.ru/_races/080421/081221_info2.htm',
+        map: 'zelenogorsk_schuchye_2005'
     },
     {
         id: 'SPB_20081221_2',
@@ -1166,7 +1185,8 @@ let events2008 = [
         name: 'Всеволожская тропа 2009, 2 этап',
         start: 'VSEVOLOZHSK_WAY',
         res: 'https://o-site.spb.ru/_races/081223/081221_res.htm',
-        o_site: '081223'
+        o_site: '081223',
+        map: 'morozova_2013'
     },
     {
         id: 'SPB_20081227_1',

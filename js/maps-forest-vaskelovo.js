@@ -241,7 +241,7 @@ let vaskelovoMaps = [
         name: 'Васкелово, Банное оз',
         year: 1995,
         area: 7.5,
-        url: './maps/forest/vaskelovo/vaskelovo_bannoe_oz.webp',
+        url: './maps/forest/vaskelovo/vaskelovo_bannoe_oz_1995.webp',
         link: './original_maps/forest/vaskelovo/vaskelovo_bannoe_oz_omaps.jpg',
         bounds: [[60.4038074, 30.4238892], [60.4000768, 30.4791641], [60.3644877, 30.413332]],
         author: 'CHGRVSKY_V'

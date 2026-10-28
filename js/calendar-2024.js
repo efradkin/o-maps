@@ -296,7 +296,8 @@ let events2024 = [
         type: 'SKI',
         coord: [60.109776, 29.97377],
         reg: 'https://orgeo.ru/event/33585',
-        endReg: '2024-02-20 21:00'
+        endReg: '2024-02-20 21:00',
+        map: 'sestroretsk_skver_pogranichnikov_2020'
     },
     {
         id: 'SPB_20240224_1',
@@ -414,7 +415,8 @@ let events2024 = [
         place: 'Кировск, Политехнический техникум', // !
         coord: [59.898834, 31.001806],
         reg: 'https://orgeo.ru/event/33752',
-        endReg: '2024-03-07 23:55'
+        endReg: '2024-03-07 23:55',
+        map: 'kirovsk_2025'
     },
     {
         id: 'SPB_20240316_1',
@@ -479,7 +481,8 @@ let events2024 = [
         coord: [60.167961, 30.534094],
         reg: 'https://orgeo.ru/event/34573',
         endReg: '2024-03-29 15:00',
-        bulletin: 'https://orgeo.ru/files/event/file/34573_f587787a2b.docx'
+        bulletin: 'https://orgeo.ru/files/event/file/34573_f587787a2b.docx',
+        map: 'kavgolovo_2017'
     },
     {
         id: 'SPB_20240331_1',
@@ -568,7 +571,8 @@ let events2024 = [
         link: 'https://orgeo.ru/event/info/33379',
         res: 'https://vk.com/doc17383066_673298132?hash=n2x8gjMtY5CYdlKsO3ErLi1QZAMy4Jnpkm4Z4aCmLZL',
         o_gps: 18894,
-        start: 'LM'
+        start: 'LM',
+        map: 'gorodok_lm_2023'
     },
     {
         id: 'SPB_20240414_1',
@@ -645,7 +649,8 @@ let events2024 = [
         place: 'сквер Пограничников', // !
         coord: [60.109776, 29.97377],
         reg: 'https://orgeo.ru/event/35002',
-        endReg: '2024-04-22 18:00'
+        endReg: '2024-04-22 18:00',
+        map: 'sestroretsk_skver_pogranichnikov_2020'
     },
     {
         id: 'SPB_20240427_1',
@@ -796,7 +801,8 @@ let events2024 = [
         place: 'м.Чкаловская',
         name: 'Noname Sprint Tour 2024, 2 этап',
         start: 'SPRINT_TOUR',
-        reskeep: 644
+        reskeep: 644,
+        map: 'chkalovskaya_2021'
     },
     {
         id: 'SPB_20240504_3',
@@ -811,7 +817,8 @@ let events2024 = [
         ],
         strava: 11330077100,
         res: 'https://vk.com/event166397868?w=wall-166397868_4225',
-        o_gps: 19280
+        o_gps: 19280,
+        map: 'jappilya_2024'
     },
     {
         id: 'SPB_20240504_4',
@@ -820,7 +827,8 @@ let events2024 = [
         place: 'Ржевский лесопарк',
         coord: [59.960522, 30.492346],
         reg: 'https://orgeo.ru/event/35342',
-        endReg: '2024-05-03 20:00'
+        endReg: '2024-05-03 20:00',
+        map: 'rzhevsky_2024'
     },
     {
         id: 'SPB_20240505_1',
@@ -878,7 +886,8 @@ let events2024 = [
         place: 'парк Песчанка',
         coord: [60.030949, 30.64176],
         reg: 'https://orgeo.ru/event/35346',
-        endReg: '2024-05-03 23:00'
+        endReg: '2024-05-03 23:00',
+        map: 'vsevolozhsk_peschanka_2021'
     },
     {
         id: 'SPB_20240509_1',
@@ -998,7 +1007,8 @@ let events2024 = [
         place: 'Орленок',
         coord: [59.299007, 32.460899],
         reg: 'https://orgeo.ru/event/34516',
-        endReg: '2024-05-09 21:00'
+        endReg: '2024-05-09 21:00',
+        map: 'budogosch_orlenok_2006'
     },
     {
         id: 'SPB_20240514_1',
@@ -1086,7 +1096,8 @@ let events2024 = [
         o_gps: {
             'A': 19492,
             'B': 19521
-        }
+        },
+        map: 'vorontsovskoe_simagino_2021'
     },
     {
         id: 'SPB_20240519_2',
@@ -1243,7 +1254,8 @@ let events2024 = [
         fmt: '3 / 6',
         link: 'https://reg.o-time.ru/race/24343',
         res: 'https://vk.com/wall-163764238_11599',
-        o_gps: 19630
+        o_gps: 19630,
+        map: 'vorobjevo_bn_2013'
     },
     {
         id: 'SPB_20240604_1',
@@ -1296,7 +1308,8 @@ let events2024 = [
         place: 'Будогощь',
         fmt: 'эстафета ориентирование',
         coord: [59.284115, 32.444244],
-        reg: 'https://orgeo.ru/event/36210'
+        reg: 'https://orgeo.ru/event/36210',
+        map: 'budogosch_2015'
     },
     {
         id: 'SPB_20240609_1',
@@ -1312,7 +1325,8 @@ let events2024 = [
         bulletin: 'https://orgeo.ru/files/event/file/35851_698946f63a.pdf',
         res: 'https://vk.com/wall-197270357_1025',
         o_gps: 19740,
-        start: 'ROGAINE_110'
+        start: 'ROGAINE_110',
+        map: 'michurinskoe_redfox_2014'
     },
     {
         id: 'SPB_20240610_1',
@@ -1466,7 +1480,8 @@ let events2024 = [
         name: 'Мега гонка "Путь единства"',
         place: 'парк АВИАТОРОВ',
         coord: [59.865173, 30.301865],
-        reg: 'https://orgeo.ru/event/36597'
+        reg: 'https://orgeo.ru/event/36597',
+        map: 'aviatorov_2020'
     },
     {
         id: 'SPB_20240630_1',
@@ -1484,7 +1499,8 @@ let events2024 = [
         start: 'LO_CHAMP',
         reg: 'http://o-reg.spb.ru/',
         video: 'https://www.youtube.com/watch?v=-7rs51U0QAk',
-        o_site: '240701'
+        o_site: '240701',
+        map: 'vorobjevo_2024'
     },
     {
         id: 'SPB_20240706_1',
@@ -1801,7 +1817,8 @@ let events2024 = [
         fmt: 'классика',
         coord: [60.622902, 29.908806],
         reg: 'https://orgeo.ru/event/37347',
-        endReg: '2024-08-30 20:00'
+        endReg: '2024-08-30 20:00',
+        map: 'michurinskoe_2022'
     },
     {
         id: 'SPB_20240901_1',
@@ -1834,7 +1851,8 @@ let events2024 = [
         ],
         res: 'https://vk.com/rogaine110?w=wall-197270357_1063',
         o_gps: 20355,
-        start: 'ROGAINE_110'
+        start: 'ROGAINE_110',
+        map: 'pervomayskoe_ba_2024'
     },
     {
         id: 'SPB_20240906_1',
@@ -1919,7 +1937,8 @@ let events2024 = [
         place: 'Ржевский лесопарк',
         coord: [59.960522, 30.492346],
         reg: 'https://orgeo.ru/event/37779',
-        endReg: '2024-09-12 23:55'
+        endReg: '2024-09-12 23:55',
+        map: 'rzhevsky_2024'
     },
     {
         id: 'SPB_20240914_2',
@@ -1942,7 +1961,8 @@ let events2024 = [
             'М': 20482,
             'Ж': 20481,
             'М16/21А/50': 20505
-        }
+        },
+        map: 'michurinskoe_2022'
     },
     {
         id: 'SPB_20240915_1',
@@ -2121,7 +2141,8 @@ let events2024 = [
         res: 'https://vk.com/club91656163?w=wall-91656163_2475',
         o_gps: 20664,
         strava: 12523064593,
-        start: 'LM'
+        start: 'LM',
+        map: 'novgorod_rogaine_2024_09_08'
     },
     {
         id: 'SPB_20240928_3',
@@ -2131,7 +2152,8 @@ let events2024 = [
         place: 'Ильичёво', // !
         coord: [60.269157, 29.75979],
         reg: 'https://orgeo.ru/event/38081',
-        endReg: '2024-09-27 20:00'
+        endReg: '2024-09-27 20:00',
+        map: 'ilychevo_2016'
     },
     {
         id: 'SPB_20240929_1',
@@ -2149,7 +2171,8 @@ let events2024 = [
         maps: [
             'https://o-site.spb.ru/_races/240929/MAP_V.pdf',
             'https://o-site.spb.ru/_races/240929/MAP_1.pdf'
-        ]
+        ],
+        map: 'yappilya_tarasovskoe_2024'
     },
     {
         id: 'SPB_20241002_1',
@@ -2170,7 +2193,8 @@ let events2024 = [
         place: 'сквер Пограничников', // !
         coord: [60.109776, 29.97377],
         reg: 'https://orgeo.ru/event/38194',
-        endReg: '2024-10-02 19:00'
+        endReg: '2024-10-02 19:00',
+        map: 'sestroretsk_skver_pogranichnikov_2020'
     },
     {
         id: 'SPB_20241005_1',
@@ -2182,7 +2206,8 @@ let events2024 = [
         endReg: '2024-10-04 21:00',
         res: 'https://o-site.spb.ru/_races/241005_tren_Dlit/241005_result_Dlit.htm',
         o_site: '241005_tren_Dlit',
-        bulletin: 'https://o-site.spb.ru/_races/241005_tren_Dlit/241005_Dlit_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/241005_tren_Dlit/241005_Dlit_info.pdf',
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20241005_2',
@@ -2240,7 +2265,8 @@ let events2024 = [
         fmt: 'классика',
         coord: [60.22979, 29.663973],
         reg: 'https://orgeo.ru/event/38265',
-        endReg: '2024-10-04 20:00'
+        endReg: '2024-10-04 20:00',
+        map: 'pukhtolova_gora_2023'
     },
     {
         id: 'SPB_20241005_6',
@@ -2261,7 +2287,8 @@ let events2024 = [
         name: 'Соревнования по спортивному ориентированию «Нева-трейл»',
         reg: 'https://orgeo.ru/event/info/38192',
         endReg: '2024-10-03 23:00',
-        o_site: '241006nt'
+        o_site: '241006nt',
+        map: 'nevsky_2024'
     },
     {
         id: 'SPB_20241006_2',
@@ -2330,7 +2357,8 @@ let events2024 = [
         coord: [60.037125, 30.633188],
         reg: 'https://orgeo.ru/event/38451',
         endReg: '2024-10-12 02:05',
-        bulletin: 'https://orgeo.ru/files/event/file/38451_d331ddd72c.pdf'
+        bulletin: 'https://orgeo.ru/files/event/file/38451_d331ddd72c.pdf',
+        map: 'vsevolozhsk_rumbolovo_2014'
     },
     {
         id: 'SPB_20241017_1',
@@ -2468,7 +2496,8 @@ let events2024 = [
         maps: [
             'https://o-site.spb.ru/_races/241026/241026_50V_shem_est.jpg'
         ],
-        owner: 'NW'
+        owner: 'NW',
+        map: 'sosnovo_ulovnoe_oz_2023'
     },
     {
         id: 'SPB_20241026_2',
@@ -2480,7 +2509,8 @@ let events2024 = [
         coord: [60.584446, 30.133951],
         reg: 'https://orgeo.ru/event/38792',
         endReg: '2024-10-25 20:00',
-        bulletin: 'https://o-site.spb.ru/_races/241026_bn/241026_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/241026_bn/241026_info.pdf',
+        map: 'razdolje_2022'
     },
     {
         id: 'SPB_20241027_1',
@@ -2516,7 +2546,8 @@ let events2024 = [
         fmt: 'классика',
         coord: [60.631954, 30.094469],
         reg: 'https://orgeo.ru/event/38919',
-        endReg: '2024-11-02 20:00'
+        endReg: '2024-11-02 20:00',
+        map: 'petjajarvy_2024'
     },
     {
         id: 'SPB_20241104_1',
@@ -2612,7 +2643,8 @@ let events2024 = [
         endReg: '2024-11-13 23:55',
         res: 'https://vk.com/event166397868?w=wall-166397868_4588',
         o_gps: 21099,
-        video: 'https://www.youtube.com/watch?v=Gy5n37Wzj6E'
+        video: 'https://www.youtube.com/watch?v=Gy5n37Wzj6E',
+        map: 'omchino_luzhski_2024'
     },
     {
         id: 'SPB_20241117_1',
@@ -2629,7 +2661,8 @@ let events2024 = [
         o_gps: {
             'М50': 21100,
             'Ж50/М60': 21113
-        }
+        },
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20241119_1',
@@ -2654,7 +2687,8 @@ let events2024 = [
         strava: 12964367498,
         o_site: '241103_zr',
         bulletin: 'https://o-site.spb.ru/_races/241103_zr/241123_info.pdf',
-        o_gps: 21129
+        o_gps: 21129,
+        map: 'zelenogorsk_north_wn_2024'
     },
     {
         id: 'SPB_20241123_2',
@@ -2819,7 +2853,8 @@ let events2024 = [
         coord: [60.187702, 30.549641],
         reg: 'https://orgeo.ru/event/39552',
         endReg: '2024-12-07 20:00',
-        bulletin: 'https://o-site.spb.ru/_races/241026_bn/241208_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/241026_bn/241208_info.pdf',
+        map: 'kavgolovo_2024'
     },
     {
         id: 'SPB_20241214_1',
@@ -2924,6 +2959,7 @@ let events2024 = [
         reg: 'https://orgeo.ru/event/40024',
         endReg: '2024-12-29 21:00',
         bulletin: 'https://orgeo.ru/files/event/file/40024_dca90bf7b0.pdf',
-        owner: 'WN'
+        owner: 'WN',
+        map: 'sestroretsk_tamozhennaya_doroga_2021'
     }
 ];

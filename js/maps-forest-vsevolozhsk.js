@@ -268,7 +268,7 @@ let vsevolozhskMaps = [
     {
         name: 'Проба',
         year: 2008,
-        url: './maps/forest/vsevolozhsk/proba.webp',
+        url: './maps/forest/vsevolozhsk/proba_2008.webp',
         link: ['./original_maps/forest/vsevolozhsk/proba_omaps.jpg','./original_maps/forest/vsevolozhsk/proba_2008_omaps.ocd'],
         bounds: [[60.1154067, 30.7508183], [60.1133967, 30.7885408], [60.0985314, 30.74687]],
         author: 'RYLOV_V',

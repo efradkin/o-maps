@@ -33,7 +33,8 @@ let events2011 = [
         bulletin: 'https://o-site.spb.ru/_races/11011516/11011516_info.htm',
         maps: [
             'https://o-site.spb.ru/_races/11011516/110115_map.jpg'
-        ]
+        ],
+        map: 'volkov_2011_02_12'
     },
     {
         id: 'SPB_20110122_1',
@@ -58,7 +59,8 @@ let events2011 = [
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/11012223/110122_res_CH.pdf',
         o_site: '11012223',
-        bulletin: 'https://o-site.spb.ru/_races/11012223/11012223_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/11012223/11012223_info.htm',
+        map: 'volkov_2011_02_12'
     },
     {
         id: 'SPB_20110130_1',
@@ -72,7 +74,8 @@ let events2011 = [
         bulletin: 'https://o-site.spb.ru/_races/11012930/110129_info3.htm',
         maps: [
             'https://o-site.spb.ru/_races/11012930/110129_karta.gif'
-        ]
+        ],
+        map: 'volkov_2011_02_12'
     },
     {
         id: 'SPB_20110206_1',
@@ -86,7 +89,8 @@ let events2011 = [
         owner: 'GOLFSTREAM',
         o_site: '110206',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#65',
-        bulletin: 'https://o-site.spb.ru/_races/110206/110206_info3.htm'
+        bulletin: 'https://o-site.spb.ru/_races/110206/110206_info3.htm',
+        map: 'volkov_2011_02_12'
     },
     {
         id: 'SPB_20110212_1',
@@ -117,7 +121,8 @@ let events2011 = [
         fmt: 'спринт, заданное направление',
         o_site: '110213',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#66',
-        bulletin: 'https://o-site.spb.ru/_races/110213/110213_info3.htm'
+        bulletin: 'https://o-site.spb.ru/_races/110213/110213_info3.htm',
+        map: 'volkov_2011_02_12'
     },
     {
         id: 'SPB_20110222_1',
@@ -214,7 +219,8 @@ let events2011 = [
         bulletin: 'https://o-site.spb.ru/_races/11031213/11031213_info3.htm',
         maps: [
             'https://o-site.spb.ru/_races/11031213/110312_karta.gif'
-        ]
+        ],
+        map: 'zelenogorsk_schuchje_winter_2011'
     },
     {
         id: 'SPB_20110320_1',
@@ -227,7 +233,8 @@ let events2011 = [
         owner: 'GOLFSTREAM',
         o_site: '110320',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#73',
-        bulletin: 'http://gs-oc.ru/phocadownload/competitions/2011/110320_rogain/110320_info2.pdf'
+        bulletin: 'http://gs-oc.ru/phocadownload/competitions/2011/110320_rogain/110320_info2.pdf',
+        map: 'zelenogorsk_schuchje_winter_2011'
     },
     {
         id: 'SPB_20110327_1',
@@ -384,7 +391,8 @@ let events2011 = [
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/110509_split.htm',
         o_site: '2011CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#78',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20110511_1',
@@ -414,7 +422,8 @@ let events2011 = [
         info: 'Традиционный старт КСО Азимут, посвящённый памяти тех ориентировщиков, которых уже нет с нами...',
         o_site: '110514_Az',
         bulletin: 'https://o-site.spb.ru/_races/110514_Az/110514_info.htm',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        map: 'solnechnoe_djuny_2007'
     },
     {
         id: 'SPB_20110514_2',
@@ -505,7 +514,8 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/110521_v/110521_rez.htm',
         info: 'Чемпионат и первенство ЛенОбласти, велокросс-классика (40-70 мин)',
         o_site: '110521_v',
-        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#80'
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#80',
+        map: 'pastorskoe_velo_2007'
     },
     {
         id: 'SPB_20110521_2',
@@ -593,7 +603,8 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/110529/110529_res.htm',
         info: '53-й летний Чемпионат и Первенство г. Санкт-Петербурга по спортивному ориентированию',
         o_site: '110529',
-        bulletin: 'https://o-site.spb.ru/_races/110529/110529_info3.htm'
+        bulletin: 'https://o-site.spb.ru/_races/110529/110529_info3.htm',
+        map: 'kujalovo_2012'
     },
     {
         id: 'SPB_20110601_1',
@@ -621,7 +632,8 @@ let events2011 = [
         place: 'Воейково',
         res: 'https://o-site.spb.ru/_races/110603/110603_split.htm',
         o_site: '110603',
-        bulletin: 'https://o-site.spb.ru/_races/110603/110603_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/110603/110603_info.htm',
+        map: 'voejkovo_2009'
     },
     {
         id: 'SPB_20110604_1',
@@ -735,7 +747,8 @@ let events2011 = [
         rg: {
             '9': 'https://rogaine.ru/routegadget/rg2/#53',
             '10': 'https://rogaine.ru/routegadget/rg2/#54'
-        }
+        },
+        map: 'pervomajskoe_2015'
     },
     {
         id: 'SPB_20110716_1',
@@ -930,7 +943,8 @@ let events2011 = [
         place: 'Орехово, Фигурное оз',
         type: 'VELO',
         res: 'http://fedor-e.narod.ru/fest11/mtbo-fin.htm',
-        o_site: '110917'
+        o_site: '110917',
+        map: 'orekhovo_figurnoe_velo_2020'
     },
     {
         id: 'SPB_20110917_2',
@@ -1004,7 +1018,8 @@ let events2011 = [
         name: 'Ночное Первенство СПб по спортивному ориентированию',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/110930/110930_res.htm',
-        o_site: '110930'
+        o_site: '110930',
+        map: 'toksovo_vifk_2000'
     },
     {
         id: 'SPB_20111001_1',
@@ -1144,7 +1159,8 @@ let events2011 = [
         res: 'http://o-site.spb.ru/_races/111117/111020_split.htm',
         start: 'ROGAINE_110',
         o_site: '111117',
-        bulletin: 'https://o-site.spb.ru/_races/111117/111017_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/111117/111017_info.pdf',
+        map: 'kujalovo_2012'
     },
     {
         id: 'SPB_20111022_1',
@@ -1152,7 +1168,8 @@ let events2011 = [
         place: 'Солнечное, Дюны',
         name: 'Ночные Эстафеты',
         res: 'https://o-site.spb.ru/_races/111022/111022_res.htm',
-        o_site: '111022'
+        o_site: '111022',
+        map: 'solnechnoe_djuny_2007'
     },
     {
         id: 'SPB_20111022_2',
@@ -1183,7 +1200,8 @@ let events2011 = [
         res: 'http://www.o-site.spb.ru/_races/2011CupYM/111030_split.htm',
         start: 'YM_CUP',
         o_site: '2011CupYM',
-        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#89'
+        rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#89',
+        map: 'wn_sprint_2006'
     },
     {
         id: 'SPB_20111030_2',
@@ -1203,7 +1221,8 @@ let events2011 = [
         logo: 'azimut.gif',
         o_site: '111104_Az',
         bulletin: 'https://o-site.spb.ru/_races/111104_Az/111104_info.htm',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        map: 'bolotnaya_station_2019'
     },
     {
         id: 'SPB_20111104_2',
@@ -1334,7 +1353,8 @@ let events2011 = [
         info: 'Парк Зверинец, Петродворец',
         o_site: '111211',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#93',
-        bulletin: 'https://o-site.spb.ru/_races/111211/111211_info%203.html'
+        bulletin: 'https://o-site.spb.ru/_races/111211/111211_info%203.html',
+        map: 'aleksandrijsky_2010'
     },
     {
         id: 'SPB_20111218_1',
@@ -1370,7 +1390,8 @@ let events2011 = [
         place: 'парк Александрино',
         name: 'Открытые тренировки на ЮЗ',
         res: 'https://o-site.spb.ru/_races/111224_SW/111224_res.htm',
-        o_site: '111224_SW'
+        o_site: '111224_SW',
+        map: 'aleksandrino_south_2007'
     },
     {
         id: 'SPB_20111225_1',
@@ -1389,6 +1410,7 @@ let events2011 = [
         o_site: '111225',
         maps: [
             'https://o-site.spb.ru/_races/111225/111225_map.gif'
-        ]
+        ],
+        map: 'solnechnoe_djuny_2007'
     }
 ];
