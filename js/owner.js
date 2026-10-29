@@ -90,7 +90,7 @@
             const logos = logoList(e);
             const logo = logos.length ? `<img src="./logo/${htmlEscape(logos[0])}" alt="" class="sheet-icon"> ` : '';
             const place = e.place ? ', ' + htmlEscape(e.place) : '';
-            return `<li><b>${buildEventDate(e, true, true)}</b>, ${logo}<a href="event.html?id=${encodeURIComponent(e.id)}">${e.name}</a>${place} ${buildEventResults(e)}</li>`;
+            return `<li><b>${buildEventDate(e, true, true)}</b>, ${logo}${buildEventPageTitle(e)}${place} ${buildEventResults(e)}</li>`;
         });
         const title = 'События календаря' + (items.length > 1 ? ` (${items.length})` : '');
         return infoSection('ow_events', title, items.length ? `<ul>${items.join('')}</ul>` : '');

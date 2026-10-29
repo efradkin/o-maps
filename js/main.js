@@ -1863,15 +1863,7 @@ function buildEventDescription(e, withPlanner) {
         info += `<img src="./logo/${logo[0]}" alt="Лого" class="sheet-icon" /> `;
     }
 
-    let link = e.link;
-    if (!link && e.o_site) {
-        link = O_SITE_ADDRESS_PREFIX + e.o_site;
-    }
-    if (link) {
-        info += buildLink(link, e.name); // link бывает массивом - ссылка на первый сайт
-    } else {
-        info += e.name;
-    }
+    info += buildEventPageTitle(e);
 /*
     if (e.start) {
         info += '<b>' + getMapStarts(e) + '</b> ';
@@ -1880,9 +1872,6 @@ function buildEventDescription(e, withPlanner) {
         info += e.info;
     }
 */
-    if (e.link) {
-        info += ' ' + buildOSiteInfo(e);
-    }
     info += ' ' + buildEventResults(e);
     info += ' ' + buildGpsLinks(e, 'o-gps.gif', null, true);
     info += ' ' + buildPublish(e, '🗺️');
@@ -1920,8 +1909,11 @@ function buildEventPopup(evt, m) {
         result += '<div class="popup-text">';
     }
 
-    // имя
-    result += '<b>' + buildEventStart(evt, true);
+    // имя: для POI - собственная страница точки, для соревнований - страница события.
+    const titleLink = evt.poi && evt.id
+        ? buildLink(`poi.html?poi=${encodeURIComponent(evt.id)}`, evt.name, 'Страница точки')
+        : buildEventStart(evt, true);
+    result += '<b>' + titleLink;
 
     result += '</b><hr />';
 

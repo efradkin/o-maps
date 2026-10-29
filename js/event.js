@@ -350,7 +350,7 @@
         html += infoRow('Серия', seriesCodes(evt).map(code =>
             `<a href="start-details.html?start=${encodeURIComponent(code)}">${htmlEscape(seriesLabel(code))}</a>`).join(', '));
         if (ctx.parent) {
-            html += infoRow('Часть события', `<a href="${eventPageUrl(ctx.parent)}" target="_self">${ctx.parent.name}</a>`);
+            html += infoRow('Часть события', buildEventPageTitle(ctx.parent));
         }
 
         // Окончание приёма заявок (поле endReg): срок и бейдж «осталось …»,
@@ -521,7 +521,10 @@
         const stages = ctx.all.filter(e => e.parent && e.parent === root.id).sort(compareEvents);
         if (stages.length === 0) return '';
         const item = e => {
-            const text = `${shortDate(e, false)} — ` + eventLogoIcon(e) + (e === evt ? `<b>${e.name}</b>` : `<a href="${eventPageUrl(e)}" target="_self">${e.name}</a>`) +
+            const eventTitle = e === evt
+                ? `<b>${e.name}${e.cancelled ? ' (ОТМЕНА!)' : ''}</b>` + buildEventSiteIcons(e)
+                : buildEventPageTitle(e);
+            const text = `${shortDate(e, false)} — ` + eventLogoIcon(e) + eventTitle +
                 (e.place && e.place !== root.place ? ` (${htmlEscape(e.place)})` : '');
             return text;
         };
@@ -745,7 +748,7 @@
         const shown = list.slice(0, SAME_DAYS_LIMIT);
         let items = shown.map(e => {
             const place = getEventPlace(e)
-            return `<li>${shortDate(e, false)} — ${eventLogoIcon(e)}<a href="${eventPageUrl(e)}" target="_self">${e.name}</a>` +
+            return `<li>${shortDate(e, false)} — ${eventLogoIcon(e)}${buildEventPageTitle(e)}` +
                 (place ? ` (${htmlEscape(place)})` : '') + '</li>';
         }).join('');
         if (list.length > shown.length) {
@@ -765,7 +768,7 @@
         if (i < 0) return '';
         const prev = list[i - 1], next = list[i + 1];
         const link = (e, prefix, suffix, cls) => e
-            ? `<div class="${cls}"><small>${prefix}${shortDate(e, true)}${suffix}</small><br>${eventLogoIcon(e)}<a href="${eventPageUrl(e)}" target="_self">${e.name}</a></div>`
+            ? `<div class="${cls}"><small>${prefix}${shortDate(e, true)}${suffix}</small><br>${eventLogoIcon(e)}${buildEventPageTitle(e)}</div>`
             : '<div></div>';
         return `<section aria-label="Соседние события календаря"><div class="d-flex justify-content-between gap-3">` +
             link(prev, '← ', '', '') + link(next, '', ' →', 'text-end') + '</div></section>';

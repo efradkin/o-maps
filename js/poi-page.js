@@ -50,8 +50,8 @@
         if (p.start && starts[p.start]) {
             html += infoRow('Серия', `<a href="start.html?start=${encodeURIComponent(p.start)}">${stripTags(starts[p.start].name ?? starts[p.start].short)}</a>`);
         }
-        html += infoRow('Сайт', asList(p.link).map(l => linkChipHtml({ href: l, label: urlHost(l), img: 'images/url-file.png' })).join(', '));
-        html += infoRow(p.type === 'ORIENT' ? 'Регистрация' : 'Ещё ссылки', asList(p.reg).map(l => linkChipHtml({ href: l, label: urlHost(l), img: 'images/url-file.png' })).join(', '));
+        html += infoRow('Сайт', asList(p.link).map(l => linkChipHtml(describeLinkItem(l))).join(', '));
+        html += infoRow(p.type === 'ORIENT' ? 'Регистрация' : 'Ещё ссылки', asList(p.reg).map(l => linkChipHtml(describeLinkItem(l))).join(', '));
         if (p.o_site) {
             html += infoRow('Страница на O-Site', `<a href="${O_SITE_ADDRESS_PREFIX + encodeURIComponent(p.o_site)}" target="_blank" rel="noopener"><img src="images/o-site.gif" alt="" class="sheet-icon"> ${htmlEscape(p.o_site)}</a>`);
         }
@@ -72,7 +72,7 @@
         if (events.length) {
             const items = events.slice(0, RECENT_EVENTS).map(e => {
                 const place = e.place ? ', ' + htmlEscape(e.place) : '';
-                return `<li><b>${buildEventDate(e, true, true)}</b>, <a href="event.html?id=${encodeURIComponent(e.id)}">${e.name}</a>${place}</li>`;
+                return `<li><b>${buildEventDate(e, true, true)}</b>, ${buildEventPageTitle(e)}${place}</li>`;
             });
             const more = events.length > RECENT_EVENTS
                 ? `<p><a href="owner.html?owner=${encodeURIComponent(p.id)}">Все события (${events.length}) →</a></p>` : '';

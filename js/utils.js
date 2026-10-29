@@ -2242,11 +2242,14 @@ const LINK_FILE_EXTS = ['pdf', 'zip', 'rar', 'xls', 'xlsx', 'doc', 'docx', 'jpg'
 // Описание ссылки для linkChipHtml(): {href, label, img | emoji}. Сервис из SERVICES -
 // его подпись и иконка, файл - «Файл PDF», прочее - хост. context: 'video' /
 // 'photo' / 'reg' / 'res' (иконки фото/видео, e-mail в регистрации, тип файла в результатах).
+const EMAIL_ADDRESS_RE = /^[A-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-Z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?$/i;
+
 function describeLinkItem(url, context) {
-    const u = String(url);
-    // e-mail в регистрации - как buildOneEventReg()
-    if (u.startsWith('mailto:') || (context === 'reg' && u.includes('@'))) {
-        const mail = u.replace(/^mailto:/, '');
+    const u = String(url ?? '').trim();
+    // Почтой считаем только явный mailto: или строку, целиком соответствующую email.
+    // Наличие @ внутри URL (например, vk.com/@...) не делает его адресом почты.
+    if (/^mailto:/i.test(u) || (context === 'reg' && EMAIL_ADDRESS_RE.test(u))) {
+        const mail = u.replace(/^mailto:/i, '');
         return { href: 'mailto:' + mail, label: mail, emoji: '✉️' };
     }
     const service = findLinkService(u);
