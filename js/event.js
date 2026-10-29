@@ -452,10 +452,22 @@
                 linkChipHtml({ href: u, label: 'Reskeep' + (urls.length > 1 ? ' ' + (i + 1) : ''), img: 'images/r-k.gif' })).join(', '));
         }
         const gps = getGPS(evt);
-        if (gps) {
-            const items = isObject(gps)
-                ? Object.entries(gps).map(([k, v]) => linkChipHtml({ href: v, label: k, img: 'images/' + gpsIcon(v, 'o-gps.gif') }))
-                : [linkChipHtml({ href: gps, label: 'смотреть трансляцию', img: 'images/' + gpsIcon(gps, 'o-gps.gif') })];
+        if (hasGpsValue(gps)) {
+            const iconLink = (url, label) => {
+                const safeLabel = htmlEscape(label);
+                const rel = isNoReferrerUrl(url) ? 'noopener noreferrer' : 'noopener';
+                return `<a href="${htmlEscape(url)}" target="_blank" rel="${rel}" title="${safeLabel}" aria-label="${safeLabel}"><img src="images/${htmlEscape(gpsIcon(url, 'o-gps.gif'))}" alt="" class="sheet-icon"></a>`;
+            };
+            let items;
+            if (Array.isArray(gps)) {
+                items = gps.map((url, i) => iconLink(url, 'GPS-трансляция' + (gps.length > 1 ? ' ' + (i + 1) : '')));
+            } else if (isObject(gps)) {
+                items = Object.entries(gps).map(([label, url]) => isGpsArrayLabel(label)
+                    ? iconLink(url, label)
+                    : linkChipHtml({ href: url, label: label, img: 'images/' + gpsIcon(url, 'o-gps.gif') }));
+            } else {
+                items = [linkChipHtml({ href: gps, label: 'смотреть трансляцию', img: 'images/' + gpsIcon(gps, 'o-gps.gif') })];
+            }
             html += infoRow('GPS-трансляция', items.join(', '));
         }
         html += infoRow('Фото', linkChipsHtml(evt.photo, 'photo'));

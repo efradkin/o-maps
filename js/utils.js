@@ -894,23 +894,70 @@ function getRouteGadgetLinks(m) {
     return isObject(m.rg) ? {...m.rg} : {'RouteGadget': m.rg};
 }
 
-// Трансляции события: gps, иначе o_gps; к ним добавляются трансляции Livelox и события RouteGadget.
-// Строка - если трансляция одна, объект { 'подпись': адрес } - если их несколько.
+// Проверка наличия хотя бы одной непустой GPS-ссылки или идентификатора.
+function hasGpsItem(value) {
+    return value !== null && value !== undefined && value !== '';
+}
+
+function normalizeGpsValue(value) {
+    if (Array.isArray(value)) {
+        const items = value.filter(hasGpsItem);
+        return items.length ? items : null;
+    }
+    if (isObject(value)) {
+        const entries = Object.entries(value).filter(([, item]) => hasGpsItem(item));
+        return entries.length ? Object.fromEntries(entries) : null;
+    }
+    return hasGpsItem(value) ? value : null;
+}
+
+// Имена, которые getGPS создаёт для элементов исходного массива.
+// Такие ссылки показываются стандартными GPS-иконками, а не текстовыми подписями.
+function isGpsArrayLabel(label) {
+    return /^(?:GPS|O-GPS)(?: \d+)?$/.test(String(label));
+}
+
+// Трансляции события: gps, иначе o_gps; к ним добавляются трансляции Livelox и RouteGadget.
+// gps/o_gps могут быть одиночным значением, объектом «подпись: ссылка/ID» или массивом.
 function getGPS(m) {
-    let gps = m.gps;
-    if (!gps && m.o_gps) {
-        if (isObject(m.o_gps)) {
-            gps = {...m.o_gps};
-            for (const g in gps) {
-                gps[g] = O_GPS_CENTER_PREFIX + gps[g];
+    let gps = normalizeGpsValue(m.gps);
+    if (gps === null) {
+        const oGps = normalizeGpsValue(m.o_gps);
+        if (oGps !== null) {
+            const toOGpsUrl = id => {
+                const value = String(id);
+                return /^https?:\/\//i.test(value) ? value : O_GPS_CENTER_PREFIX + value;
+            };
+            if (isObject(oGps)) {
+                gps = Object.fromEntries(Object.entries(oGps)
+                    .map(([label, id]) => [label, toOGpsUrl(id)]));
+            } else if (Array.isArray(oGps)) {
+                gps = oGps.map(toOGpsUrl);
+            } else {
+                gps = toOGpsUrl(oGps);
             }
-        } else {
-            gps = O_GPS_CENTER_PREFIX + m.o_gps;
         }
     }
-    const extra = [m.livelox != null ? getLiveloxLinks(m) : {}, m.rg ? getRouteGadgetLinks(m) : {}];
+
+    const extra = [
+        hasGpsValue(m.livelox) ? getLiveloxLinks(m) : {},
+        hasGpsValue(m.rg) ? getRouteGadgetLinks(m) : {}
+    ];
     if (extra.some(e => Object.keys(e).length)) {
-        const result = !gps ? {} : (isObject(gps) ? {...gps} : {[m.gps ? 'GPS' : 'O-GPS']: gps});
+        let result;
+        if (gps === null) {
+            result = {};
+        } else if (isObject(gps)) {
+            result = {...gps};
+        } else if (Array.isArray(gps)) {
+            const label = hasGpsValue(m.gps) ? 'GPS' : 'O-GPS';
+            result = Object.fromEntries(gps.map((url, i) => [
+                label + (gps.length > 1 ? ' ' + (i + 1) : ''),
+                url
+            ]));
+        } else {
+            result = {[hasGpsValue(m.gps) ? 'GPS' : 'O-GPS']: gps};
+        }
         for (const [k, v] of extra.flatMap(e => Object.entries(e))) {
             // одинаковые подписи (например, 'день 1' у o_gps и rg) допустимы: ключ делается
             // уникальным невидимым символом, чтобы ссылка не затёрла уже добавленную
@@ -921,11 +968,32 @@ function getGPS(m) {
             result[key] = v;
         }
         const values = Object.values(result);
-        gps = values.length === 1 ? values[0] : result;
+        gps = values.length === 0 ? null : values.length === 1 ? values[0] : result;
     }
     return gps;
 }
 
+// Общая проверка для фильтра «GPS»: пустые массивы и объекты не считаются трансляцией.
+function hasGpsValue(value) {
+    if (Array.isArray(value)) {
+        return value.some(hasGpsItem);
+    }
+    if (isObject(value)) {
+        return Object.values(value).some(hasGpsItem);
+    }
+    return hasGpsItem(value);
+}
+
+// Человекочитаемое представление GPS-значений для CSV.
+function gpsToText(value) {
+    if (Array.isArray(value)) {
+        return value.map(String).join(', ');
+    }
+    if (isObject(value)) {
+        return Object.entries(value).map(([label, url]) => label + ': ' + url).join(', ');
+    }
+    return value == null ? '' : String(value);
+}
 function buildGpsLinksForEvents(events, img) {
     let result = '';
     const gpsList = [];
@@ -935,19 +1003,28 @@ function buildGpsLinksForEvents(events, img) {
             gpsList.push(gps);
         }
     }
-    if (gpsList) {
-        for (const gps of gpsList) {
-            if (isObject(gps)) {
-                let entries = Object.entries(Object.entries(gps));
-                for (const [index, [key, value]] of entries) {
+    for (const gps of gpsList) {
+        if (isObject(gps)) {
+            const entries = Object.entries(gps);
+            for (const [index, [key, value]] of entries.entries()) {
+                if (isGpsArrayLabel(key)) {
+                    result += ' ' + buildLink(value, '<img class="media-link" src="./images/' + gpsIcon(value, img) + '" alt="GPS">');
+                } else {
                     result += ` <a href="${value}">${key}</a>`;
-                    if (index < entries.length - 1) {
-                        result += ',';
-                    }
                 }
-            } else {
-                result += ' ' + buildLink(gps, '<img class="media-link" src="./images/' + gpsIcon(gps, img) +'" alt="GPS">');
+                if (index < entries.length - 1) {
+                    result += ',';
+                }
             }
+        } else if (Array.isArray(gps)) {
+            for (const [index, url] of gps.entries()) {
+                result += ' ' + buildLink(url, '<img class="media-link" src="./images/' + gpsIcon(url, img) + '" alt="GPS">');
+                if (index < gps.length - 1) {
+                    result += ',';
+                }
+            }
+        } else {
+            result += ' ' + buildLink(gps, '<img class="media-link" src="./images/' + gpsIcon(gps, img) + '" alt="GPS">');
         }
     }
     return result;
@@ -962,10 +1039,17 @@ function buildGpsLinks(m, img, calendar, inline) {
     if (gps) {
         const image = url => `<img class="${inline ? 'sheet-icon' : 'media-link'}" src="./images/${gpsIcon(url, img)}" alt="GPS">`;
         if (isObject(gps)) {
-            let entries = Object.entries(Object.entries(gps));
-            for (const [index, [key, value]] of entries) {
+            const entries = Object.entries(gps);
+            for (const [index, [key, value]] of entries.entries()) {
                 result += ` <a href="${value}" title="${key}">${image(value)}</a>`;
                 if (index < entries.length - 1) {
+                    result += ',';
+                }
+            }
+        } else if (Array.isArray(gps)) {
+            for (const [index, url] of gps.entries()) {
+                result += ' ' + buildLink(url, image(url));
+                if (index < gps.length - 1) {
                     result += ',';
                 }
             }
@@ -1366,7 +1450,7 @@ function buildMapsCSV(maps, owner) {
     for (const m of maps) {
         if (owner === undefined || owner === m.owner || (Array.isArray(m.owner) && m.owner.includes(owner))) {
             result += '\n' + m.name + CSV_SPRTR + safe(year(m)) + CSV_SPRTR + o(m.owner) + CSV_SPRTR + link(m.url) +
-                CSV_SPRTR + link(m.link) + CSV_SPRTR + safe(m.info) + CSV_SPRTR + start(m.start) + CSV_SPRTR + safe(getGPS(m)) + CSV_SPRTR + m.type;
+                CSV_SPRTR + link(m.link) + CSV_SPRTR + safe(m.info) + CSV_SPRTR + start(m.start) + CSV_SPRTR + safe(gpsToText(getGPS(m))) + CSV_SPRTR + m.type;
         }
     }
     console.log(result);
@@ -1898,7 +1982,7 @@ function validateEvent(evt) {
                 }
                 break;
             case GPS_EVENTS_CALENDAR_PARAM_VALUE:
-                if (!evt.gps && !evt.o_gps && evt.livelox == null && !evt.rg) {
+                if (!hasGpsValue(getGPS(evt))) {
                     return false;
                 }
                 break;
