@@ -924,6 +924,7 @@ let authors = {
     GVLDS_J_G: { name: 'Gvildys Jonas Gediminas' },
     IDLBV: { name: 'Идельбаев Нурбулат' }, // Волгодонск
     IVNNKO_V: { name: 'Иваненко В.' },
+    IVSCHNKO_S: { name: 'Иващенко Сергей' }, // Олегович
     JVSA_A: { name: 'Jovaiša Andrius' },
     KHLDV_V: { name: 'Хлудов В.' }, // С.
     KHNK_V: { name: 'Ханюк В.' },

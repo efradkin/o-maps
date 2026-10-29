@@ -778,10 +778,7 @@ let events2019 = [
         place: 'Выборг',
         name: 'Весенний Марш-бросок',
         type: 'TOURISM',
-        o_gps: {
-            '1':5748,
-            '2':5749
-        },
+        o_gps: [5748,5749],
         start: 'MB',
         maps: [
             'https://kandid.ru/maps19/vmb19.jpg'

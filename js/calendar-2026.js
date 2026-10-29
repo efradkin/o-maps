@@ -3555,6 +3555,7 @@ let events2026 = [
         fmt: 'лесная удлиненная классика, спринт папула с фонарями',
         coord: [60.747204, 28.74892],
         reg: 'https://orgeo.ru/event/56394',
+        o_gps: [26201,26202,26204,26209,26210,26212,26214],
         owner: 'FENIX'
     },
     {
@@ -3568,8 +3569,10 @@ let events2026 = [
         fmt: 'спринт',
         coord: [60.041443, 30.325857],
         start: 'SPRINT_TOUR',
+        planner: 'CHGRVSKY_M',
         map: 'esenina_2021',
         maps: ['./original_maps/city/esenina_2026_10_28_st_m_omaps.gif','./original_maps/city/esenina_2026_10_28_st_w_omaps.gif'],
+        info: '<a href="https://vk.ru/@sprinttourspb-4-etap-sprint-tour-spb-osen-2026-mass-sprint-28102026-anal">Разбор дистанций</a>.',
         reskeep: 946
     },
     {

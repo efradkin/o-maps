@@ -886,6 +886,18 @@ let otherMaps = [
     },
     // --- Тула ---
     {
+        name: 'Гурьевские каменоломни',
+        year: 2008,
+        url: './maps/other/gurievsky_cave_2008.webp',
+        link: './original_maps/other/gurievsky_cave_2008_omaps.gif',
+        bounds: [[54.4030207, 38.1983042], [54.4031955, 38.2084751], [54.3958008, 38.1972313]],
+        about: 'https://ru.wikipedia.org/wiki/Гурьевские_каменоломни',
+        info: '<a href="https://web.archive.org/web/20200218005428/http://oouu.ru/travel/tula-obl/bjaki/bjaki-maps.html">Карты Бяковских каменоломен</a> в вэб-архиве.',
+        author: 'IVSCHNKO_S',
+        // type: ['FUN'],
+        region: 'TULA'
+    },
+    {
         name: 'Дубна',
         year: 1988,
         url: './maps/other/dubna_1988.webp',
