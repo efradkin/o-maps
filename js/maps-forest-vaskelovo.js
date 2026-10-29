@@ -352,20 +352,6 @@ let vaskelovoMaps = [
     },
     {
         name: 'Гарболово, Змеиное оз',
-        year: 2026,
-        url: './maps/forest/vaskelovo/garbolovo_zmeinoe_2026.png',
-        bounds: [[60.3462327, 30.4983044], [60.3338730, 30.5496311], [60.3308354, 30.4925108]],
-        owner: 'RDNV_I',
-        in_work: true,
-        order: {
-            info: '1:10000, H 5m.',
-            ready: 'Октябрь 2026',
-            owner: 'RDNV_I',
-            author: 'RDNV_I'
-        }
-    },
-    {
-        name: 'Гарболово, Змеиное оз',
         year: 2022,
         url: './maps/forest/vaskelovo/garbolovo_zmeinoe_2022.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_zmeinoe_2022_omaps.jpg',
@@ -373,6 +359,16 @@ let vaskelovoMaps = [
         bounds: [[60.344895, 30.4965448], [60.341179, 30.5377436], [60.3308354, 30.4925108]],
         author: ['MLNKV_L','RYLOV_V'],
         owner: ['SHLKHN_AN','SHEIN']
+    },
+    {
+        name: 'Гарболово, Змеиное оз',
+        year: 2026,
+        url: './maps/forest/vaskelovo/garbolovo_zmeinoe_2026.webp',
+        link: './original_maps/forest/vaskelovo/garbolovo_zmeinoe_2026_omaps.gif',
+        bounds: [[60.3448101, 30.4996777], [60.3411471, 30.5341172], [60.3330764, 30.4942060]],
+        owner: 'RDNV_I',
+        author: 'RDNV_I',
+        in_work: true
     },
     {
         name: 'Куйвози',

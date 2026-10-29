@@ -1710,7 +1710,7 @@ function buildMapPopup(m) {
     let info = '';
 
     if (m.type && m.type.includes('FOTO')) {
-        info += '<b>Фото-ориентирование.</b>';
+        info += '<b>Фото-ориентирование.</b> ';
     }
 
     let dates = getMapDates(m);

@@ -3646,12 +3646,13 @@ let events2026 = [
         date: '2026-11-01',
         name: 'Кубок Белых ночей 2 этап',
         start: 'KBN',
-        place: 'Станция Петяярви',
+        place: 'Петяярви',
         o_site: '261101_bn',
         coord: [60.631023, 30.126431],
         reg: 'https://orgeo.ru/event/56504',
         endReg: '2026-10-31 18:00',
-        bulletin: 'https://o-site.spb.ru/_races/261101_bn/261101_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/261101_bn/261101_info.pdf',
+        map: 'petjajarvy_kentavr_2014'
     },
     {
         id: 'SPB_20261104_1',
