@@ -894,7 +894,7 @@ let otherMaps = [
         about: 'https://ru.wikipedia.org/wiki/Гурьевские_каменоломни',
         info: '<a href="https://web.archive.org/web/20200218005428/http://oouu.ru/travel/tula-obl/bjaki/bjaki-maps.html">Карты Бяковских каменоломен</a> в вэб-архиве.',
         author: 'IVSCHNKO_S',
-        // type: ['FUN'],
+        type: ['FUN'],
         region: 'TULA'
     },
     {
