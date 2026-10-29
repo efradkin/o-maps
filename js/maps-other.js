@@ -892,7 +892,7 @@ let otherMaps = [
         link: './original_maps/other/gurievsky_cave_2008_omaps.gif',
         bounds: [[54.4030207, 38.1983042], [54.4031955, 38.2084751], [54.3958008, 38.1972313]],
         about: 'https://ru.wikipedia.org/wiki/Гурьевские_каменоломни',
-        info: '<a href="https://web.archive.org/web/20200218005428/http://oouu.ru/travel/tula-obl/bjaki/bjaki-maps.html">Карты Бяковских каменоломен</a> в вэб-архиве.',
+        info: '<a href="https://web.archive.org/web/20200218005428/http://oouu.ru/travel/tula-obl/bjaki/bjaki-maps.html">Карты Бяковских каменоломен</a> в веб-архиве.',
         author: 'IVSCHNKO_S',
         type: ['FUN'],
         region: 'TULA'
