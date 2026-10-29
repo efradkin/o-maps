@@ -3469,7 +3469,7 @@ let events2026 = [
         fmt: 'ночная эстафета',
         o_site: '261025_50Verst',
         bulletin: 'https://o-site.spb.ru/_races/261025_50Verst/261025_info_50_vyorst_2026.pdf',
-        photo: 'https://vk.ru/album-93257360_312223793',
+        photo: ['https://vk.ru/album-93257360_312223793','https://kozhin-jr.ru/disk/24-10-2026-50-verst-5bdvdf'],
         publish: 'https://vk.ru/album-93257360_312223793',
         reg: 'http://sportident.online/entry/?id=7197',
         endReg: '2026-10-20 23:59',
@@ -3569,6 +3569,7 @@ let events2026 = [
         coord: [60.041443, 30.325857],
         start: 'SPRINT_TOUR',
         map: 'esenina_2021',
+        maps: ['./original_maps/city/esenina_2026_10_28_st_m_omaps.gif','./original_maps/city/esenina_2026_10_28_st_w_omaps.gif'],
         reskeep: 946
     },
     {
