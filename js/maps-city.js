@@ -2375,6 +2375,15 @@ let cityMaps = [
         type: ['CITY','SPRINT']
     },
     {
+        name: 'Юкковская коррекционная школа',
+        year: 2008,
+        url: './maps/city/yukki_special_boarding_school_2008.webp',
+        link: ['./original_maps/schools/yukki_special_boarding_school_2008_omaps.gif','./original_maps/schools/yukki_special_boarding_school_2008_A_omaps.gif','./original_maps/schools/yukki_special_boarding_school_2008_B_omaps.gif'],
+        bounds: [[60.1090929, 30.2814209], [60.1093121, 30.2831805], [60.1084138, 30.2818608]],
+        author: 'DRBSHV',
+        type: ['INDOOR']
+    },
+    {
         name: 'Физ-мат лицей №239',
         year: 2015,
         url: './maps/city/fml_239_2015.webp',
