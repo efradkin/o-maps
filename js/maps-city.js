@@ -2357,6 +2357,15 @@ let cityMaps = [
         type: ['CITY','SPRINT']
     },
     {
+        name: 'ЖК "Морской фасад"',
+        year: 2026,
+        url: './maps/city/see_frontend_2026.webp',
+        bounds: [[59.9580613, 30.2125955], [59.9571374, 30.2213073], [59.9518623, 30.2101493]],
+        author: 'DRIBAS',
+        owner: 'DRIBAS',
+        type: ['CITY','SPRINT']
+    },
+    {
         name: 'пл Мужества',
         year: 2026,
         url: './maps/city/muzhestva_2026.webp',

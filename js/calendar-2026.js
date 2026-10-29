@@ -3434,7 +3434,8 @@ let events2026 = [
         fmt: 'спринт',
         coord: [59.95575, 30.215895],
         owner: 'NW',
-        info: 'Новая карта. <a href="https://vk.ru/@-93257360-razbor-nw-sprint-22102026">Разбор дистанций</a>.'
+        info: 'Новая карта. <a href="https://vk.ru/@-93257360-razbor-nw-sprint-22102026">Разбор дистанций</a>.',
+        map: 'see_frontend_2026'
     },
     {
         id: 'SPB_20261021_2',
