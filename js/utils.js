@@ -2141,6 +2141,36 @@ function buildOSiteInfo(events) {
     return result;
 }
 
+
+// Единое отображение названия события: если у события есть id, название ведёт
+// на event.html, а o_site/link (или сайт серии) показываются отдельными иконками.
+// Для старых записей без id сохраняется ссылка на внешний сайт, если она есть.
+function buildEventPageTitle(evt) {
+    let name = evt.name;
+    if (evt.cancelled) {
+        name += ' (ОТМЕНА!)'
+    }
+
+    if (evt.id) {
+        return buildLink(eventPageUrl(evt), name, 'Страница события') + buildEventSiteIcons(evt);
+    }
+
+    // Совместимость со старыми записями, у которых нет отдельной страницы события.
+    let siteLink = null;
+    if (evt.link) {
+        siteLink = evt.link;
+    } else if (evt.o_site) {
+        siteLink = O_SITE_ADDRESS_PREFIX + evt.o_site;
+    } else {
+        siteLink = eventStartLink(evt);
+    }
+    let result = siteLink ? buildLink(siteLink, name) : name;
+    if (evt.link && evt.o_site) {
+        result += buildOSiteInfo(evt);
+    }
+    return result;
+}
+
 // withEventPage (календарь): название ведёт на страницу события (event.html),
 // а ссылка на сайт события переезжает на иконку o-site.gif сразу за названием.
 function buildEventStart(evt, withoutLogo, justTitle, withEventPage) {

@@ -3253,6 +3253,7 @@ let mskEvents2026 = [
         coord: [55.754982, 37.414317],
         link: "https://docs.google.com/document/d/1DID6DMyjEtu0XLz_lBX7ht_wv21yYyEnEh9MvWkBWq8/edit?usp=sharing",
         reg: "https://buyrun.ru/event/158",
+        res: "https://malahit-sprint.ru/events/start-2026-10-29-nochnaya-kross-klvssika-krylatskie-holmy",
         owner: "MLKHT",
         map: '20210531_610'
     },
@@ -3328,6 +3329,16 @@ let mskEvents2026 = [
         link: "https://docs.google.com/document/d/12E_ygODYGZqvJbS3WlLwnp7bhdqI7xxf-Gjk1Qspjko/edit?usp=sharing",
         reg: "https://buyrun.ru/event/159",
         owner: "MLKHT"
+    },
+    {
+        id: 'MSK_20261106_1',
+        date: "2026-11-06",
+        name: "Муниципальные соревнования по спортивному ориентированию посвящённые памяти С.П. Дьячкова",
+        place: "МОУ Дашковская СОШ, п.Большевик",
+        type: "ORIENT",
+        coord: [54.904556, 37.360451],
+        reg: "https://orgeo.ru/event/56537",
+        endReg: "2026-11-04 00:00"
     },
     {
         id: 'MSK_20261107_1',
