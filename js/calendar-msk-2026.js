@@ -3362,6 +3362,8 @@ let mskEvents2026 = [
         type: "ROGAINE",
         fmt: "рогейн",
         coord: [55.842697, 37.401472],
+        link: "https://docs.google.com/document/d/1f_96ftcglbiSh_zYfm3H6e9gr5Is6vM89FjMuAMDius/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/160",
         owner: "MLKHT",
         map: '20200919_688'
     },

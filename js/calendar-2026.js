@@ -3635,7 +3635,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/56164',
         endReg: '2026-10-30 23:55',
         o_site: '261101_D2RUN_final',
-        bulletin: 'https://o-site.spb.ru/_races/261101_D2RUN_final/261101_Kubok_D2Run_2026_4_info1_1.pdf',
+        bulletin: 'https://o-site.spb.ru/_races/261101_D2RUN_final/261101_Kubok_D2Run_2026_info2.pdf',
         fmt: 'лонг (гандикап)',
         coord: [60.678437, 29.967588],
         owner: 'DLITELNY',
