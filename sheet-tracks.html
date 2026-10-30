@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css?v=31"/>
-    <link rel="stylesheet" href="css/theme.css?v=29"/>
+    <link rel="stylesheet" href="css/theme.css?v=30"/>
     <script src="js/theme-toggle.js?v=56"></script>
     <link rel="stylesheet" href="css/slideshow.css"/>
 
@@ -40,7 +40,7 @@
 
     <base target="_blank">
 </head>
-<body class="stat-body sheet-body sheet-body">
+<body class="stat-body sheet-body sheet-body tracks-sheet-body">
     <script src="js/utils-common.js?v=56"></script>
     <script src="js/utils.js?v=70"></script>
     <header class="page-header">
@@ -90,7 +90,7 @@
 
     <div class="o-sheet-roof" style="display: none">
         <a href="#" onclick="downloadSheetTable('o-maps-tracks.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
-        <div>Всего - <span id="total_routes"></span> (<span id="run_tracks" class="RUN"></span> беговых, <span id="velo_tracks" class="VELO"></span> вело, <span id="ski_tracks" class="SKI"></span> лыжных, <span id="walk_tracks" class="WALK"></span> пеших и <span id="water_tracks" class="WATER"></span> водных).</div>
+        <div class="o-sheet-roof-stat">Всего - <span id="total_routes"></span> (<span id="run_tracks" class="RUN"></span> беговых, <span id="velo_tracks" class="VELO"></span> вело, <span id="ski_tracks" class="SKI"></span> лыжных, <span id="walk_tracks" class="WALK"></span> пеших и <span id="water_tracks" class="WATER"></span> водных).</div>
     </div>
     <div class="o-sheet-wrapper">
         <table class="o-main-table o-sheet tracks-table">
@@ -238,7 +238,7 @@
             document.getElementById('water_tracks').innerText = wtrTracks;
 
             document.getElementById('sheet-spinner').style.display = 'none';
-            document.querySelector('.o-sheet-roof').style.display = 'block';
+            document.querySelector('.o-sheet-roof').style.display = 'flex';
         }
 
         function td(m, row, html) {

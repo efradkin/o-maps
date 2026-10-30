@@ -2427,3 +2427,249 @@ a.leaflet-control-slider-toggle {
 @media (prefers-reduced-motion: reduce) {
     .end-reg-urgent { animation: none; }
 }
+
+/* ------------------------------------------------------------------ [20]
+   ВЫСОТА ТАБЛИЧНЫХ СТРАНИЦ И ВЕРХНЯЯ НАВИГАЦИЯ
+
+   На широких экранах таблица занимает остаток высоты окна и прокручивается
+   внутри .o-sheet-wrapper. Высота рассчитывается flex-разметкой, а не
+   фиксированными вычитаниями вроде 120/245px: у разных страниц разная шапка.
+
+   Если заголовок находится в контенте, а в шапке остались только кнопки,
+   шапка выводится из потока и накладывается на свободную область справа.
+   Кнопки остаются на прежних координатах, заголовок поднимается на её место.
+   До 600px существующая мобильная раскладка не меняется.
+   ------------------------------------------------------------------ */
+@media screen and (min-width: 601px) {
+    body.sheet-body:has(> .o-sheet-wrapper) {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        height: 100dvh;
+        min-height: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    body.sheet-body:has(> .o-sheet-wrapper) > header.page-header {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    body.sheet-body:has(> .o-sheet-wrapper) > .container,
+    body.sheet-body:has(> .o-sheet-wrapper) > .sheet-filters,
+    body.sheet-body:has(> .o-sheet-wrapper) > .o-sheet-roof {
+        flex: 0 0 auto;
+    }
+
+    /* Фильтры остаются компактной группой по центру, а не растягиваются
+       на всю ширину из-за align-items:stretch у flex-контейнера. */
+    body.sheet-body:has(> .o-sheet-wrapper) > .sheet-filters {
+        align-self: center;
+    }
+
+    body.sheet-body:has(> .o-sheet-wrapper) > .o-sheet-wrapper {
+        flex: 1 1 0;
+        min-height: 0;
+        height: auto;
+        max-height: none;
+    }
+
+    /* Старые <br> между шапкой и таблицей больше не нужны: расстояние
+       распределяет flex-контейнер, а пустые строки только отнимают высоту. */
+    body.sheet-body:has(> .o-sheet-wrapper) > br {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    /* Убираем верхний внутренний отступ у контента табличных страниц.
+       Навигация остаётся на прежней высоте независимо от контента. */
+    body.sheet-body:has(> .o-sheet-wrapper):not(:has(> header.page-header > h1)) {
+        padding-top: 0;
+    }
+
+    /* Кнопка About добавляется первой непосредственно в body.
+       Не включаем её в flex-поток: ставим на одну высоту с кнопками шапки. */
+    body.sheet-body:has(> .o-sheet-wrapper) > .about-button {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        float: none;
+        margin: 0;
+        z-index: 101;
+    }
+
+    /* В этих таблицах заголовок находится в первом .container, а в шапке
+       остаются только кнопки. Выводим шапку из потока, не сдвигая кнопки. */
+    body.sheet-body:has(> .o-sheet-wrapper) > header.page-header:not(:has(h1)) {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        width: auto;
+        margin: 0;
+        z-index: 100;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    /* Заголовок в шапке должен начинаться правее кнопки About,
+       которая закреплена слева и не участвует в потоке документа. */
+    body.sheet-body:has(> .o-sheet-wrapper) > header.page-header > h1 {
+        position: relative;
+        left: 16px;
+    }
+
+    /* Небольшой отступ от верхнего края для заголовка контента. */
+    body.sheet-body:has(> .o-sheet-wrapper) > .container > h1.page-title {
+        margin-block-start: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body.sheet-body:has(> .o-sheet-wrapper) > .container > h1.page-title {
+        margin-block-start: 10px;
+        max-width: calc(100% - 400px);
+        font-size: clamp(18px, 2.25vw, 32px);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body.sheet-body:has(> .o-sheet-wrapper) > .container > h1.page-title {
+        max-width: calc(100% - 280px);
+    }
+}
+
+
+/* ------------------------------------------------------------------
+   ВЫРАВНИВАНИЕ ЗАГОЛОВКОВ И ПАНЕЛЕЙ ФИЛЬТРОВ
+
+   Панель фильтров получает ту же левую координату, что и заголовок:
+   для заголовков в шапке — с безопасным отступом от About,
+   для заголовков внутри .container — по левому краю контейнера.
+   До 600px включительно исходная мобильная раскладка не меняется.
+   ------------------------------------------------------------------ */
+@media screen and (min-width: 601px) {
+    /* Заголовки в шапке не должны заходить под About.
+       На широких экранах они выравниваются по контейнеру шириной 1170px. */
+    body.sheet-body:has(> .o-sheet-wrapper) > header.page-header > h1 {
+        left: max(45px, calc((100vw - 1170px) / 2 + 5px));
+    }
+
+    /* Фильтры по умолчанию выравниваются с заголовками в шапке. */
+    body.sheet-body:has(> .o-sheet-wrapper) > .sheet-filters {
+        align-self: flex-start;
+        margin-top: 5px;
+        margin-left: max(45px, calc((100vw - 1170px) / 2 + 5px));
+    }
+
+    /* Если заголовок находится в .container (например, clubs.html),
+       фильтры выравниваются по левому краю содержимого контейнера. */
+    body.sheet-body:has(> .o-sheet-wrapper):has(> .container > h1.page-title) > .sheet-filters {
+        margin-left: 12px;
+    }
+
+    /* У clubs.html между заголовком и фильтрами есть информационная карточка.
+       Убираем её нижний внешний отступ, чтобы до фильтров оставалось 5px. */
+    body.sheet-body.help-body:has(> .o-sheet-wrapper):has(> .container > section) > .container > section {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body.sheet-body:has(> .o-sheet-wrapper):has(> .container > h1.page-title) > .sheet-filters {
+        margin-left: calc((100vw - 1180px) / 2 + 2px);
+    }
+}
+
+
+/* Уменьшаем расстояние от основного заголовка до первой информационной
+   секции. Остальные карточки и мобильная раскладка сохраняют свои отступы. */
+@media screen and (min-width: 601px) {
+    body.help-body .container > h1.page-title + section {
+        margin-top: 10px;
+    }
+}
+
+
+/* ------------------------------------------------------------------
+   ПЛАШКА СТАТИСТИКИ НА СТРАНИЦЕ МАРШРУТОВ
+
+   Повторяет оформление и компоновку статистики календаря.
+   ------------------------------------------------------------------ */
+@media screen and (min-width: 601px) {
+    body.tracks-sheet-body .o-sheet-roof {
+        display: flex;
+        height: auto;
+        top: 0;
+        align-items: center;
+        margin-bottom: 6px;
+    }
+
+    body.tracks-sheet-body .o-sheet-roof .o-sheet-roof-stat {
+        display: inline-block;
+        margin-top: 0;
+    }
+}
+
+
+/* ------------------------------------------------------------------
+   ЕДИНОЕ ВЕРХНЕЕ РАСПОЛОЖЕНИЕ СТРАНИЦ СТАТИСТИКИ И СПРАВКИ
+
+   Верхняя навигация не должна занимать вертикальное место перед заголовком.
+   Заголовки начинаются на одном уровне с заголовком clubs.html.
+   ------------------------------------------------------------------ */
+@media screen and (min-width: 601px) {
+    /* Страницы справки и статистики без табличного layout:
+       оставляем кнопки в шапке на прежней высоте, но выводим шапку из потока. */
+    body.help-body:not(:has(> .o-sheet-wrapper)):has(h1) > header.page-header,
+    body.stat-body:not(.sheet-body):has(h1.page-title) > header.page-header {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        width: auto;
+        margin: 0;
+        z-index: 100;
+    }
+
+    /* У index-body исторически было padding:30px у всех h1.
+       Убираем его у основных заголовков, в том числе на news.html. */
+    body.help-body h1.page-title,
+    body.stat-body h1.page-title {
+        padding: 0;
+    }
+
+    /* Основной заголовок получает верхнюю координату 10px от края страницы.
+       У stat-body это уже обеспечивается padding:10px; для help-only страниц
+       добавляем такой же верхний внутренний отступ. */
+    body.help-body:not(.stat-body):not(.sheet-body) {
+        padding-top: 10px;
+    }
+
+    body.help-body:not(:has(> .o-sheet-wrapper)) h1.page-title,
+    body.stat-body:not(.sheet-body) h1.page-title {
+        margin-top: 0;
+    }
+
+    /* Несколько старых help-страниц используют h1 без класса page-title. */
+    body.help-body:not(:has(> .o-sheet-wrapper)) > .container > h1:first-child,
+    body.help-body:not(:has(> .o-sheet-wrapper)) > h1:first-of-type {
+        padding: 0;
+        margin-top: 0;
+    }
+}
+
+
+/* Информационная карточка на странице памяти А. В. Волкова:
+   растягиваем её на всю ширину контейнера, как заголовок и сетку карт. */
+@media screen and (min-width: 601px) {
+    body.help-body .start-maps-wrapper > #start_info {
+        width: 100%;
+        flex: 0 0 100%;
+        box-sizing: border-box;
+    }
+}
