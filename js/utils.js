@@ -1213,7 +1213,10 @@ function getMapForName(fileName) {
     if (!fileName) {
         return null;
     }
-    for (const m of oMaps) {
+    // Не все страницы содержат каталог карт oMaps (например, лыжный календарь).
+    // В этом случае просто возвращаем null, а не прерываем построение таблицы.
+    const maps = (typeof oMaps !== 'undefined' && Array.isArray(oMaps)) ? oMaps : [];
+    for (const m of maps) {
         if (m.url) {
             if (m.url.includes(fileName)) {
                 return m;
@@ -2141,36 +2144,6 @@ function buildOSiteInfo(events) {
     return result;
 }
 
-
-// Единое отображение названия события: если у события есть id, название ведёт
-// на event.html, а o_site/link (или сайт серии) показываются отдельными иконками.
-// Для старых записей без id сохраняется ссылка на внешний сайт, если она есть.
-function buildEventPageTitle(evt) {
-    let name = evt.name;
-    if (evt.cancelled) {
-        name += ' (ОТМЕНА!)'
-    }
-
-    if (evt.id) {
-        return buildLink(eventPageUrl(evt), name, 'Страница события') + buildEventSiteIcons(evt);
-    }
-
-    // Совместимость со старыми записями, у которых нет отдельной страницы события.
-    let siteLink = null;
-    if (evt.link) {
-        siteLink = evt.link;
-    } else if (evt.o_site) {
-        siteLink = O_SITE_ADDRESS_PREFIX + evt.o_site;
-    } else {
-        siteLink = eventStartLink(evt);
-    }
-    let result = siteLink ? buildLink(siteLink, name) : name;
-    if (evt.link && evt.o_site) {
-        result += buildOSiteInfo(evt);
-    }
-    return result;
-}
-
 // withEventPage (календарь): название ведёт на страницу события (event.html),
 // а ссылка на сайт события переезжает на иконку o-site.gif сразу за названием.
 function buildEventStart(evt, withoutLogo, justTitle, withEventPage) {
@@ -2272,14 +2245,11 @@ const LINK_FILE_EXTS = ['pdf', 'zip', 'rar', 'xls', 'xlsx', 'doc', 'docx', 'jpg'
 // Описание ссылки для linkChipHtml(): {href, label, img | emoji}. Сервис из SERVICES -
 // его подпись и иконка, файл - «Файл PDF», прочее - хост. context: 'video' /
 // 'photo' / 'reg' / 'res' (иконки фото/видео, e-mail в регистрации, тип файла в результатах).
-const EMAIL_ADDRESS_RE = /^[A-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-Z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?$/i;
-
 function describeLinkItem(url, context) {
-    const u = String(url ?? '').trim();
-    // Почтой считаем только явный mailto: или строку, целиком соответствующую email.
-    // Наличие @ внутри URL (например, vk.com/@...) не делает его адресом почты.
-    if (/^mailto:/i.test(u) || (context === 'reg' && EMAIL_ADDRESS_RE.test(u))) {
-        const mail = u.replace(/^mailto:/i, '');
+    const u = String(url);
+    // e-mail в регистрации - как buildOneEventReg()
+    if (u.startsWith('mailto:') || (context === 'reg' && u.includes('@'))) {
+        const mail = u.replace(/^mailto:/, '');
         return { href: 'mailto:' + mail, label: mail, emoji: '✉️' };
     }
     const service = findLinkService(u);
