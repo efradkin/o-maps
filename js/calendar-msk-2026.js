@@ -3490,6 +3490,15 @@ let mskEvents2026 = [
         date: "2026-11-22", name: "Аэророгейн", type: "ROGAINE", fmt: "рогейн", link: "https://orientband.ru/"
     },
     {
+        id: 'MSK_20261122_3',
+        date: "2026-11-22",
+        name: "КВАРК",
+        place: "МФТИ",
+        type: "ORIENT",
+        coord: [55.929585, 37.521267],
+        reg: "https://orgeo.ru/event/56563"
+    },
+    {
         id: 'MSK_20261128_1',
         date: "2026-11-28",
         name: "Московская Осень",

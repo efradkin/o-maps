@@ -354,7 +354,7 @@ let events2005 = [
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/05060405/05060405.zip',
         o_site: '05060405',
-        maps: "./original_maps/starts/other/kanneliarvi_istok_2005_06_05_omaps.webp"
+        maps: './original_maps/starts/other/kanneliarvi_istok_2005_06_05_omaps.webp'
     },
     {
         id: 'SPB_20050610_1',

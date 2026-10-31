@@ -3625,7 +3625,9 @@ let events2026 = [
         endReg: '2026-10-30 20:00',
         bulletin: 'https://o-site.spb.ru/_races/261031_bn/261031_info.pdf',
         map: 'stekljanny_2021',
+        maps: './original_maps/starts/other/steklyanny_wn_2026_10_31_omaps.webp',
         owner: 'WN',
+        reskeep: 947,
     },
     {
         id: 'SPB_20261101_1',

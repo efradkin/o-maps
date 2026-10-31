@@ -16753,7 +16753,7 @@ let commonEvents = [
         owner: 'FSOR',
         reg: 'https://orgeo.ru/event/chemp_26_stav',
         endReg: '2026-10-26 20:00',
-        bulletin: 'https://orgeo.ru/files/event/file/51688_7686f68e65.pdf'
+        bulletin: 'https://www.fso-sk.ru/content/files/01_07112026_Info_Stav_26.pdf'
     },
     {
         id: 'MAJOR_20261119_1',
