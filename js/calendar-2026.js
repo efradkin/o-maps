@@ -3555,7 +3555,7 @@ let events2026 = [
         fmt: 'лесная удлиненная классика, спринт папула с фонарями',
         coord: [60.747204, 28.74892],
         reg: 'https://orgeo.ru/event/56394',
-        o_gps: [26201,26202,26204,26209,26210,26212,26214,26217,26219],
+        o_gps: [26201,26202,26204,26209,26210,26212,26214,26217,26219,26223],
         owner: 'FENIX'
     },
     {
@@ -3628,6 +3628,8 @@ let events2026 = [
         maps: './original_maps/starts/other/steklyanny_wn_2026_10_31_omaps.webp',
         owner: 'WN',
         reskeep: 947,
+        me: 'MA',
+        strava: 20807619697
     },
     {
         id: 'SPB_20261101_1',
@@ -3657,6 +3659,15 @@ let events2026 = [
         map: 'petjajarvy_kentavr_2014'
     },
     {
+        id: 'SPB_20261103_1',
+        date: '2026-11-03',
+        name: 'Соревнования по спортивному ориентированию в условиях закрытого помещения "Золотая осень"',
+        place: 'ГБОУ СОШ №14',
+        coord: [59.896053, 30.482716],
+        reg: 'https://orgeo.ru/event/56576',
+        endReg: '2026-11-02 18:00'
+    },
+    {
         id: 'SPB_20261104_1',
         date: '2026-11-04',
         name: 'Осенний марафон',
@@ -3683,6 +3694,17 @@ let events2026 = [
         fmt: '6(5), 2',
         coord: [60.456219, 30.287008],
         start: 'GORNY_CROSS'
+    },
+    {
+        id: 'SPB_20261107_2',
+        date: '2026-11-07',
+        name: 'Urban sprint Матвеевский сад',
+        place: 'Матвеевский сад',
+        coord: [59.961315, 30.309017],
+        reg: 'https://orgeo.ru/event/56570',
+        endReg: '2026-11-06 16:00',
+        bulletin: 'https://orgeo.ru/files/event/file/56570_0f71f2289f.pdf',
+        owner: 'WN'
     },
     {
         id: 'SPB_20261108_1',
