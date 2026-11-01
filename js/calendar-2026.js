@@ -3566,6 +3566,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/56346',
         endReg: '2026-10-28 10:00',
         bulletin: 'https://orgeo.ru/files/event/file/56346_1f76babddc.pdf',
+        photo: 'https://vk.ru/album-178724756_313819028',
         fmt: 'спринт',
         coord: [60.041443, 30.325857],
         start: 'SPRINT_TOUR',
@@ -3596,7 +3597,10 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/info/55469',
         endReg: '2026-10-28 23:00',
         bulletin: 'https://orgeo.ru/files/event/file/55469_f4f9d86bb6.docx',
+        video: 'https://vk.com/video-91656163_456239067',
+        res: 'https://vk.ru/wall-91656163_2799',
         map: 'luga_shalovo_lm_2023',
+        o_gps: 26233,
         start: 'LM'
     },
     {
@@ -3642,6 +3646,9 @@ let events2026 = [
         bulletin: 'https://o-site.spb.ru/_races/261101_D2RUN_final/261101_Kubok_D2Run_2026_info2.pdf',
         fmt: 'лонг (гандикап)',
         coord: [60.678437, 29.967588],
+        me: 'М50',
+        strava: 20814665726,
+        o_gps: 26232,
         owner: 'DLITELNY',
         map: 'losevo_2022'
     },
@@ -3661,7 +3668,7 @@ let events2026 = [
     {
         id: 'SPB_20261103_1',
         date: '2026-11-03',
-        name: 'Соревнования по спортивному ориентированию в условиях закрытого помещения "Золотая осень"',
+        name: 'Закрытые соревнования по спортивному ориентированию в условиях закрытого помещения "Золотая осень"',
         place: 'ГБОУ СОШ №14',
         coord: [59.896053, 30.482716],
         reg: 'https://orgeo.ru/event/56576',
@@ -3698,7 +3705,7 @@ let events2026 = [
     {
         id: 'SPB_20261107_2',
         date: '2026-11-07',
-        name: 'Urban sprint Матвеевский сад',
+        name: 'Urban sprint',
         place: 'Матвеевский сад',
         coord: [59.961315, 30.309017],
         reg: 'https://orgeo.ru/event/56570',

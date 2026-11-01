@@ -371,15 +371,15 @@ let rogaineKkmMaps = [
         type: ['FOTO','ROGAINE']
     },
     {
-        name: 'Кировский завод',
-        date: '2025-11',
-        about: 'https://vk.com/wall-227807023_365',
+        name: 'Путиловская',
+        date: '2026-11',
+        about: 'https://vk.ru/wall-227807023_564',
         info: 'Ноябрь, фото-рогейн.',
-        url: './maps/rogaine/kkm/kirovsky_KKM_2025_11.webp',
-        link: ['https://psv4.userapi.com/s/v1/d2/FGurwg51UsByuuYsqTTUGmpO7-vhFQOQDAM_8Bh_qQLJYpcbDXod7Juq6D-DnPl7yEdDMnmt_Dx2sZyaVXciZLDi5szLLOzmC4fAsl6_VfOnIvZ0dEWxdlzzFbJLIy2pK427FDi4fgxB/KKM_11_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/j4bnFKQug1ofPyvVLUauIoPuj7d5j9jUljRpoFukn8EI2gphKhvSX1WdzuRVM0s-_gGXXIt4eKNVMUXKLSmc2WZCoph-FKpB1N6PTo8cYH_xRLrFlYvaL2IS3A_VYt7UssigRUgPML1p/SETKA_11_2025.jpg?dl=1'],
-        local_link: ['./external/original_maps/rogaine/kkm/kirovsky_KKM_2025_11_1_omaps.jpg','./external/original_maps/rogaine/kkm/kirovsky_KKM_2025_11_2_omaps.jpg'],
-        bounds: [[59.9091041, 30.2454472], [59.909018, 30.2962589], [59.869533, 30.2454042]],
-        o_gps: 23785,
+        url: './maps/rogaine/kkm/putilovskaya_KKM_2026_11.webp',
+        link: ['https://psv4.vkuserphoto.ru/s/v1/d2/VGCXK4vUJc6_wFeeujfOINVMyKgXHQRRivjfR8WPeFZQ6w4ST0KjL8mQum_yCNiQQOQ-8AaoHs3E-ZIS_WI_WqIAdqJ3FrgihPebFYvDV_BHJcSg4mPIV-ZthVp-6GLfZ7rrQ9HqfVke/KKM_11_2026.jpg?dl=1','https://psv4.vkuserphoto.ru/s/v1/d2/AuYm94of2EJv6_HbgqoIKbkOqxNTzzzWDwVmB_u77n8doLNwOZMfzOc4AdJf-0yuAYgw-Y_gKe_JwW7ZKxRRH78M2LMDOs9A9GGHol1taeQt_cDY1kXDZfhGK2c27FHagixfgfE9z-wP/SETKA_11_2026.jpg?dl=1'],
+        local_link: ['./external/original_maps/rogaine/kkm/putilovskaya_KKM_2026_11_1_omaps.jpg','./external/original_maps/rogaine/kkm/putilovskaya_KKM_2026_11_2_omaps.jpg'],
+        bounds: [[59.9092170, 30.2455544], [59.9092224, 30.2964735], [59.8694899, 30.2455330]],
+        o_gps: 26222,
         start: ['FOTO_ROGAINE','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']

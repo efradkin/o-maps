@@ -613,6 +613,20 @@ let otherStartsMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Кировский завод',
+        date: '2025-11',
+        about: 'https://vk.com/wall-227807023_365',
+        info: 'Ноябрь, фото-рогейн.',
+        url: './maps/rogaine/kkm/kirovsky_KKM_2025_11.webp',
+        link: ['https://psv4.userapi.com/s/v1/d2/FGurwg51UsByuuYsqTTUGmpO7-vhFQOQDAM_8Bh_qQLJYpcbDXod7Juq6D-DnPl7yEdDMnmt_Dx2sZyaVXciZLDi5szLLOzmC4fAsl6_VfOnIvZ0dEWxdlzzFbJLIy2pK427FDi4fgxB/KKM_11_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/j4bnFKQug1ofPyvVLUauIoPuj7d5j9jUljRpoFukn8EI2gphKhvSX1WdzuRVM0s-_gGXXIt4eKNVMUXKLSmc2WZCoph-FKpB1N6PTo8cYH_xRLrFlYvaL2IS3A_VYt7UssigRUgPML1p/SETKA_11_2025.jpg?dl=1'],
+        local_link: ['./external/original_maps/rogaine/kkm/kirovsky_KKM_2025_11_1_omaps.jpg','./external/original_maps/rogaine/kkm/kirovsky_KKM_2025_11_2_omaps.jpg'],
+        bounds: [[59.9091041, 30.2454472], [59.909018, 30.2962589], [59.869533, 30.2454042]],
+        o_gps: 23785,
+        start: ['FOTO_ROGAINE','KKM'],
+        owner: 'RYZHOV',
+        type: ['FOTO','ROGAINE']
+    },
+    {
         name: 'Автово',
         date: '2022-12',
         url: './maps/rogaine/kkm/avtovo_KKM_2021_12.webp',
