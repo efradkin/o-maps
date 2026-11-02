@@ -3714,6 +3714,17 @@ let events2026 = [
         owner: 'WN'
     },
     {
+        id: 'SPB_20261107_3',
+        date: '2026-11-07',
+        name: 'Феникс Middle-Cup',
+        place: 'Ржевский лесопарк, Восточная часть',
+        coord: [59.952816, 30.508656],
+        reg: 'https://orgeo.ru/event/56585',
+        endReg: '2026-11-06 12:00',
+        bulletin: 'https://orgeo.ru/files/event/file/56585_e2ea05b23f.pdf',
+        owner: 'FENIX'
+    },
+    {
         id: 'SPB_20261108_1',
         date: '2026-11-08',
         place: 'Васильево, Тиверская застава',
