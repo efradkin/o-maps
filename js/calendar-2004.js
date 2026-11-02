@@ -104,7 +104,7 @@ let events2004 = [
         endDate: '2004-06-16',
         place: 'Снегирёвка',
         name: 'Яркий Мир - 2004',
-        res: 'https://o-site.spb.ru/_races/040614_YM/YM_results.zip',
+        res: ['https://o-site.spb.ru/_races/040614_YM/YM_results.zip','./files/2004/040614-16s.htm'],
         info: 'традиционная многодневка',
         fmt: 'многодневка',
         start: 'YM',

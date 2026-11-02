@@ -1012,16 +1012,10 @@ function buildGpsLinksForEvents(events, img) {
                 } else {
                     result += ` <a href="${value}">${key}</a>`;
                 }
-                if (index < entries.length - 1) {
-                    result += ',';
-                }
             }
         } else if (Array.isArray(gps)) {
             for (const [index, url] of gps.entries()) {
                 result += ' ' + buildLink(url, '<img class="media-link" src="./images/' + gpsIcon(url, img) + '" alt="GPS">');
-                if (index < gps.length - 1) {
-                    result += ',';
-                }
             }
         } else {
             result += ' ' + buildLink(gps, '<img class="media-link" src="./images/' + gpsIcon(gps, img) + '" alt="GPS">');
@@ -1042,16 +1036,10 @@ function buildGpsLinks(m, img, calendar, inline) {
             const entries = Object.entries(gps);
             for (const [index, [key, value]] of entries.entries()) {
                 result += ` <a href="${value}" title="${key}">${image(value)}</a>`;
-                if (index < entries.length - 1) {
-                    result += ',';
-                }
             }
         } else if (Array.isArray(gps)) {
             for (const [index, url] of gps.entries()) {
                 result += ' ' + buildLink(url, image(url));
-                if (index < gps.length - 1) {
-                    result += ',';
-                }
             }
         } else {
             result += buildLink(gps, image(gps));
@@ -2518,7 +2506,7 @@ function buildOneEventResult(r, title) {
         return buildLink(r, 'Telegram', title);
     }
     const label = title ?? 'Результаты';
-    return buildLink(r, `<img src="./images/${downloadIconExt(r)}-file.png" alt="${label}" title="${label}" class="sheet-icon" />`);
+    return buildLink(r, ` <img src="./images/${downloadIconExt(r)}-file.png" alt="${label}" title="${label}" class="sheet-icon" />`);
 }
 
 function buildEventResults(evt) {

@@ -302,7 +302,7 @@ let commonEvents = [
         endDate: '2004-06-27',
         place: 'Петяярви',
         name: 'XII-й Мемориал Святкина',
-        res: 'https://o-site.spb.ru/_races/040626_MS/result_3days.zip',
+        res: ['https://o-site.spb.ru/_races/040626_MS/result_3days.zip','./files/2004/040625.htm','./files/2004/040626.htm','./files/2004/040627.htm'],
         info: 'Традиционно хорошая организация и сильный состав участников',
         fmt: 'многодневка',
         start: 'MMS',
