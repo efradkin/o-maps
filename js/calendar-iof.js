@@ -5252,7 +5252,6 @@ let iofEvents = [
         res: 'https://eventor.orienteering.org/Events/Show/4865',
         maps: 'http://news.worldofo.com/wp-content/uploads/2016/08/map.png',
         photo: [
-            'https://orienteering-my.sharepoint.com/:f:/g/personal/malin_fuhr_orienteering_sport/Ej6D6QUAGqtJkFCUAsJiuDsBoFIxYLMACh0keBpE_m3Ipg?e=7CXBd4',
             'https://commons.wikimedia.org/wiki/Category:World_Orienteering_Championships_2016', // Wikimedia Commons
             'https://commons.wikimedia.org/wiki/Category:WOC_2016_Arena_Str%C3%B6mstad_East' // Wikimedia Commons
         ],
@@ -5624,7 +5623,6 @@ let iofEvents = [
             'https://eventor.orienteering.org/Events/ResultList?eventId=5738'
         ],
         photo: [
-            'https://orienteering-my.sharepoint.com/:f:/g/personal/malin_fuhr_orienteering_sport/EnMAwcvnXk1Fi3Ftjr6sWnMBDRuUu_HEK0dHJLB9MhsOUA?e=Tdzejb',
             'https://commons.wikimedia.org/wiki/Category:World_Orienteering_Championships_2017' // Wikimedia Commons
         ],
         video: [
@@ -6412,7 +6410,6 @@ let iofEvents = [
             'https://eventor-iof-storage.orientering.se/eventdocuments/5120/e77241b8-0391-4767-a797-0428457697fc/Old-map---Sigulda-4.jpg',
             'https://eventor-iof-storage.orientering.se/eventdocuments/5120/bfed3753-8563-4a49-a0bc-ea71639ba591/Old-map---Sigulda-5.jpg'
         ],
-        photo: 'https://orienteering-my.sharepoint.com/:f:/g/personal/malin_fuhr_orienteering_sport/EoybHP7lvxBHgd3SWIaPbWoBurI95T-PeFAqVajTmU1y8A?e=HFJwun',
         video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJdRoYmwc7GgUOoNfQZc37pp',
         coord: [56.948889, 24.106389],
         fmt: 'sprint, middle, long, relay, sprint relay',
@@ -7066,7 +7063,6 @@ let iofEvents = [
             'https://photos.app.goo.gl/YMTCPrKhwGNDYPvQ8',
             'https://photos.app.goo.gl/2CXUGtiQyRn7nkkY7',
             'https://photos.app.goo.gl/kisbrsDv1Kwp5LCZ9',
-            'https://orienteering-my.sharepoint.com/:f:/g/personal/malin_fuhr_orienteering_sport/Etk367tG-yhCsosNHmXml7ABlnkElU8ywkMy0RJkbclAHQ?e=jggFoX'
         ],
         video: 'https://www.youtube.com/playlist?list=PLJxCa_0RthJcdxRnZUiHgm9B6KrlNYRoQ',
         coord: [59.333333, 11.333333], // координаты региона, не населённого пункта — уточнить
@@ -7842,17 +7838,6 @@ let iofEvents = [
         photo: [
             'https://photos.google.com/share/AF1QipMD6bzZb_e6YKoeNCXcR7Ssy7FvDSOscjuK876ikjpCXNlDfMW5ZcQiF1TCs3L2eg?key=blljeVVHbnlSWG1NNHh0dnVqZGo2cnRESkFhenpB',
             'https://photos.app.goo.gl/k7cLmu5ZuDiPw1tt6',
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FQualification%2FStart%20%28by%20Petr%20Kade%C5%99%C3%A1vek%29', // Start
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E_cnRpbWU9SElTbUpRVV8yVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FQualification%2FFortress%20-%20Ji%C5%99%C3%AD%20%C4%8Cech', // Fortress
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E_cnRpbWU9SElTbUpRVV8yVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FQualification%2FTom%C3%A1%C5%A1%20Bubela%20-%20FB%20bubos%20-%20IG%20bubos12', // Wall
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E_cnRpbWU9SElTbUpRVV8yVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FQualification%2FLast%20controls%20and%20finish', // Last control & finish
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FStart%20and%20Finish%20by%20Tom%C3%A1%C5%A1%20Bubela%20%2D%20FB%20bubos%20%2D%20IG%20bubos12', // Start & Finish
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FFortress%20by%20Lukas%20Budinsky', // Fortress
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FFortress%20%28by%20Ji%C5%99%C3%AD%20%C4%8Cech%29', // Fortress
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FFortress%20tunnel%20and%20prizegiving%20%28by%20Petr%20Kade%C5%99%C3%A1vek%29', // Tunnels & prizegiving
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FStart%2Efinish%20arena%20and%20fortress%20by%20Petr%20H%C3%A1p', // Arena & fortress
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FFlower%20ceremony%20and%20press%20conference%20by%20Ji%C5%99%C3%AD%20%C4%8Cech', // Flower ceremony & press conference
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VxUE9fXzBvWEdwR3RhNG81bVdoMTRzQkpFZWNzYmhrMTJEX1NMdHFfdDRwS1E%5FcnRpbWU9RktmMkNNUV8yVWc&viewid=86854d22%2Dbf18%2D4cf6%2D8bb1%2Df357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Sprint%2FFinal%2FMedal%20ceremony%20%28by%20Petr%20Kade%C5%99%C3%A1vek%29' // Medal ceremony
         ],
         video: [
             'https://www.youtube.com/watch?v=eCRf80JjHjE', // WOC 2021 Sprint (Orienteering Tube)
@@ -7965,17 +7950,6 @@ let iofEvents = [
         photo: [
             'https://photos.app.goo.gl/KyuitLxRv8ZfRHR38',
             'https://photos.app.goo.gl/en3fQJwSKJBp99gd9',
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FQualification%2FForest%20by%20Tom%C3%A1%C5%A1%20Bubela%20-%20FB%20bubos%20-%20IG%20bubos12', // Forest (1)
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FQualification%2FForest%20by%20Luk%C3%A1%C5%A1%20Bud%C3%ADnsk%C3%BD', // Forest (2)
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FQualification%2FForest%20by%20Petr%20H%C3%A1p', // Forest (3)
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FQualification%2FMeadow%20-%20men%20by%20Ji%C5%99%C3%AD%20%C4%8Cech', // Meadow (1)
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FQualification%2FMeadow%20-%20women%20by%20Ji%C5%99%C3%AD%20%C4%8Cech', // Meadow (2)
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FFinal%2FForest%20by%20Tom%C3%A1%C5%A1%20Bubela%20-%20FB%20bubos%20-%20IG%20bubos12', // Forest (1)
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FFinal%2FForest%20by%20Petr%20H%C3%A1p', // Forest (2)
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FFinal%2FForest%20by%20Luk%C3%A1%C5%A1%20Bud%C3%ADnsk%C3%BD', // Forest (3)
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FFinal%2FMeadow%20and%20finish%20-%20women%20by%20Ji%C5%99%C3%AD%20%C4%8Cech', // Meadow & finish, women
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FFinal%2FMeadow%20and%20finish%20-%20men%20by%20Ji%C5%99%C3%AD%20%C4%8Cech', // Meadow & finish, men
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0VyRmRtN0p3UFpWSXRqaXI2TkYtbDcwQjdiSl9EZ0lKbngxQ1FDUklsR19OcEE_cnRpbWU9VVR4bUpLWkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Middle%2FFinal%2FCeremonies%20by%20Ji%C5%99%C3%AD%20%C4%8Cech' // Ceremonies
         ],
         video: [
             'https://www.youtube.com/watch?v=uOn19ZldtFQ', // WOC 2021 Middle (Orienteering Tube)
@@ -8031,8 +8005,6 @@ let iofEvents = [
         ],
         photo: [
             'https://photos.app.goo.gl/aZjZog34FkzBFCiC6',
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0V0STNBOEhka0M1T2tOTzc1bUhBaHZvQkxEUUVYV1ByNFlDR2VmNFI0R1lKTEE_cnRpbWU9S3B1aXdxVkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Relays%2FForest%20-%20Women%20by%20Luk%C3%A1%C5%A1%20Bud%C3%ADnsk%C3%BD', // Forest (1)
-            'https://firmadat365.sharepoint.com/sites/woc2021/Gallery/Forms/Thumbnails.aspx?originalPath=aHR0cHM6Ly9maXJtYWRhdDM2NS5zaGFyZXBvaW50LmNvbS86Zjovcy93b2MyMDIxL0V0STNBOEhka0M1T2tOTzc1bUhBaHZvQkxEUUVYV1ByNFlDR2VmNFI0R1lKTEE_cnRpbWU9S3B1aXdxVkMyVWc&viewid=86854d22-bf18-4cf6-8bb1-f357f66d57e9&id=%2Fsites%2Fwoc2021%2FGallery%2FPublic%2FWOC%202021%20Relays%2FForest%20by%20Tom%C3%A1%C5%A1%20Bubela%20-%20FB%20bubos%20-%20IG%20bubos12' // Forest (2)
         ],
         video: [
             'https://www.youtube.com/watch?v=9JQQXr88ixs', // WOC 2021 Relay (Orienteering Tube)
