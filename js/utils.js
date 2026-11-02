@@ -822,6 +822,43 @@ function buildLink(link, content, title, allItems, isDownload) {
         return '';
 }
 
+// Список нерабочих ссылок формируется tools/check_broken_links.py.
+// Нормализуем URL одинаково для списка и для ссылок, создаваемых на странице.
+function normalizeBrokenLinkUrls(value) {
+    if (typeof value !== 'string') return [];
+    const parts = value.trim().split(/,\s*(?=(?:https?:\/\/|www\.))/i);
+    return parts.map(part => {
+        let url = part.trim();
+        if (!url) return '';
+        try {
+            if (url.startsWith('//')) {
+                url = location.protocol + url;
+            } else if (/^www\./i.test(url)) {
+                url = 'https://' + url;
+            }
+            const parsed = new URL(url, location.href);
+            // Фрагмент не отправляется серверу и не влияет на существование файла.
+            parsed.hash = '';
+            return parsed.href;
+        } catch (_error) {
+            return url.toLowerCase();
+        }
+    }).filter(Boolean);
+}
+
+const BROKEN_LINKS_SET = new Set();
+if (typeof brokenLinks !== 'undefined' && Array.isArray(brokenLinks)) {
+    for (const url of brokenLinks) {
+        for (const normalized of normalizeBrokenLinkUrls(url)) {
+            BROKEN_LINKS_SET.add(normalized);
+        }
+    }
+}
+
+function isBrokenLink(url) {
+    return normalizeBrokenLinkUrls(String(url ?? '')).some(value => BROKEN_LINKS_SET.has(value));
+}
+
 function buildOneLink(link, content, title, isDownload) {
     let contentImage;
     if (content === 'VK') {
@@ -845,10 +882,20 @@ function buildOneLink(link, content, title, isDownload) {
         content = `<img src="./images/${contentImage}" alt="${content}" title="${content}" class="sheet-icon">`;
     }
     if (link) {
-        if (title) {
-            title = ' title="' + title + '"';
+        const broken = isBrokenLink(link);
+        const attributes = [];
+        let linkTitle = title ? String(title) : '';
+        if (broken) {
+            linkTitle = linkTitle
+                ? `${linkTitle} — Ссылка не найдена при последней проверке`
+                : 'Ссылка не найдена при последней проверке';
+            attributes.push(`class="om-broken-link ${/<img\b/i.test(content) ? 'om-broken-link-icon' : 'om-broken-link-text'}"`);
         }
-        return `<a href="${link}" ${(title ?? '')} ${(isDownload ? 'download' : '')}${noReferrerRel(link)}>${content}</a>`;
+        if (linkTitle) attributes.push(`title="${htmlEscape(linkTitle)}"`);
+        if (isDownload) attributes.push('download');
+        const rel = noReferrerRel(link);
+        if (rel) attributes.push(rel.trim());
+        return `<a href="${link}"${attributes.length ? ' ' + attributes.join(' ') : ''}>${content}</a>`;
     }
     else
         return '';
@@ -2299,9 +2346,22 @@ function describeLinkItem(url, context) {
 // Ссылка с иконкой, как в календаре и на start-details: <img class="sheet-icon"> + подпись.
 // d: {href, label, img | emoji, title}; cls - классы ссылки (например кнопки Bootstrap).
 function linkChipHtml(d, cls) {
-    const icon = d.img ? `<img src="${htmlEscape(d.img)}" alt="" class="sheet-icon" onerror="this.remove()"> ` : (d.emoji ? d.emoji + ' ' : '');
-    const title = d.title ? ` title="${htmlEscape(d.title)}"` : '';
-    const klass = cls ? ` class="${cls}"` : '';
+    const broken = isBrokenLink(d.href);
+    const iconClass = broken ? ' class="om-broken-link-icon"' : '';
+    const image = d.img
+        ? `<img src="${htmlEscape(d.img)}" alt="" class="sheet-icon" onerror="this.remove()">`
+        : '';
+    // На странице события обводим только иконку, не захватывая подпись ссылки.
+    const icon = image
+        ? (broken ? `<span${iconClass}>${image}</span> ` : image + ' ')
+        : (d.emoji ? (broken ? `<span${iconClass}>${d.emoji}</span> ` : d.emoji + ' ') : '');
+    const titleText = broken
+        ? (d.title || d.label) + ' — Ссылка не найдена при последней проверке'
+        : d.title;
+    const title = titleText ? ` title="${htmlEscape(titleText)}"` : '';
+    const classes = [cls, broken ? 'om-broken-link' : '', broken && !image && !d.emoji ? 'om-broken-link-text' : '']
+        .filter(Boolean).join(' ');
+    const klass = classes ? ` class="${htmlEscape(classes)}"` : '';
     const rel = isNoReferrerUrl(d.href) ? 'noopener noreferrer' : 'noopener';
     return `<a${klass} href="${htmlEscape(d.href)}" target="_blank" rel="${rel}"${title}>${icon}${htmlEscape(d.label)}</a>`;
 }

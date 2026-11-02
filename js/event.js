@@ -455,8 +455,11 @@
         if (hasGpsValue(gps)) {
             const iconLink = (url, label) => {
                 const safeLabel = htmlEscape(label);
+                const broken = isBrokenLink(url);
+                const brokenClass = broken ? ' class="om-broken-link om-broken-link-icon"' : '';
+                const title = broken ? `${safeLabel} — Ссылка не найдена при последней проверке` : safeLabel;
                 const rel = isNoReferrerUrl(url) ? 'noopener noreferrer' : 'noopener';
-                return `<a href="${htmlEscape(url)}" target="_blank" rel="${rel}" title="${safeLabel}" aria-label="${safeLabel}"><img src="images/${htmlEscape(gpsIcon(url, 'o-gps.gif'))}" alt="" class="sheet-icon"></a>`;
+                return `<a${brokenClass} href="${htmlEscape(url)}" target="_blank" rel="${rel}" title="${title}" aria-label="${safeLabel}"><img src="images/${htmlEscape(gpsIcon(url, 'o-gps.gif'))}" alt="" class="sheet-icon"></a>`;
             };
             let items;
             if (Array.isArray(gps)) {
@@ -570,7 +573,13 @@
             });
         }
         const previews = items.filter(it => it.preview).map(it => it.preview);
-        const img = (p, cls, extra) => `<a href="${htmlEscape(p.href)}" ${p.external ? `target="_blank" rel="noopener${isNoReferrerUrl(p.href) ? ' noreferrer' : ''}"` : 'target="_self"'}><img src="${htmlEscape(p.m.url)}" loading="lazy" class="${cls}" alt="${htmlEscape(p.m.name ?? 'Карта')}"${extra ?? ''}${p.attrs ?? ''}></a>`;
+        const img = (p, cls, extra) => {
+            const broken = !!p.external && isBrokenLink(p.href);
+            const brokenAttrs = broken
+                ? `class="om-broken-link om-broken-link-icon" title="${htmlEscape((p.m.name ?? 'Карта') + ' — Ссылка не найдена при последней проверке')}"`
+                : '';
+            return `<a ${brokenAttrs} href="${htmlEscape(p.href)}" ${p.external ? `target="_blank" rel="noopener${isNoReferrerUrl(p.href) ? ' noreferrer' : ''}"` : 'target="_self"'}><img src="${htmlEscape(p.m.url)}" loading="lazy" class="${cls}" alt="${htmlEscape(p.m.name ?? 'Карта')}"${extra ?? ''}${p.attrs ?? ''}></a>`;
+        };
         let html;
         if (items.length === 1 && previews.length === 1) {
             html = `<div class="row"><div class="col-sm-5 col-lg-3 mb-3" data-preview-box>${img(previews[0], 'help-figure mw-100')}</div>` +

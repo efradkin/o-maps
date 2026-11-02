@@ -18,6 +18,7 @@
     --o-surface-2:   #eaefe4;   /* мягкая подложка: шапки, пилюли, hover */
     --o-border:      #dde2d6;
     --o-border-soft: #e9ede4;
+    --o-broken-link-border: #89938a;
 
     /* текст */
     --o-text:        #1e2620;
@@ -900,6 +901,7 @@ footer hr {
     --o-surface-2:   #242b26;
     --o-border:      #323a34;
     --o-border-soft: #2a312c;
+    --o-broken-link-border: #aeb8ae;
     --o-text:        #e5eae4;
     --o-text-muted:  #96a194;
     --o-text-faint:  #6d786c;
@@ -2672,4 +2674,38 @@ a.leaflet-control-slider-toggle {
         flex: 0 0 100%;
         box-sizing: border-box;
     }
+}
+
+
+/* ------------------------------------------------------------------ [N]
+   НЕРАБОЧИЕ ВНЕШНИЕ ССЫЛКИ
+   Список формируется tools/check_broken_links.py. Иконки обводятся рамкой,
+   текстовые ссылки получают пунктирное подчёркивание. Цвет зависит от темы.
+   ------------------------------------------------------------------ */
+.om-broken-link-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0 2px;
+    padding: 1px 2px;
+    border: 2px dashed var(--o-broken-link-border);
+    border-radius: 4px;
+    line-height: 1;
+}
+.om-broken-link-icon img {
+    display: block;
+    border-radius: 1px;
+}
+a.om-broken-link.om-broken-link-text {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--o-broken-link-border);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+a.om-broken-link:focus-visible {
+    outline: 2px solid var(--o-broken-link-border);
+    outline-offset: 4px;
 }

@@ -91,7 +91,6 @@ const brokenLinks = [
     "https://o-site.spb.ru/_races/19062830_velo/https://orgeo.ru/event/9654",
     "https://orgeo.ru/event/24062026",
     // res
-    "./docs/1991_04_27_yukki_omaps.pdf",
     "http://disk.yandex.ru/i/3pvLSbc80DIFcA",
     "http://o-mephi.net/cup/prot/Gorunov_2025W_.htm",
     "http://o-mephi.net/cup/prot/Mosleto2025_17_.htm",

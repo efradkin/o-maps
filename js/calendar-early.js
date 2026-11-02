@@ -2276,7 +2276,7 @@ let eventsEarly = [
         planner: 'PVLV_M',
         start: 'ORIENTIR',
         map: 'orientir_1991_04_27',
-        res: ['./docs/1991_04_27_yukki_omaps.pdf', './docs/1991/1991_04_27_yukki_omaps.pdf'],
+        res: ['./docs/1991/1991_04_27_yukki_omaps.pdf','./docs/1991/1991_04_27_yukki_omaps.pdf'],
         me: 'МА'
     },
     {

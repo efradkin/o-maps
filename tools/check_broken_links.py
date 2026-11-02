@@ -31,7 +31,6 @@
 Результаты:
   js/broken_links.js       — JS-массив brokenLinks, сгруппированный по полям;
   broken_links_out.txt     — подробный текстовый отчёт (по умолчанию).
-
 Запуск из корня проекта:
   python tools/check_broken_links.py
   python tools/check_broken_links.py --force
