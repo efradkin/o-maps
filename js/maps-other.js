@@ -1663,6 +1663,20 @@ let otherMaps = [
         region: 'CHINA'
     },
 
+    // --- Босния-Герцеговина ---
+
+    {
+        name: 'Babin do, Bjelašnica',
+        date: '2026-10-25',
+        url: './maps/other/babindo_rogaine_2026.webp',
+        link: './original_maps/other/babindo_rogaine_2026_omaps.webp',
+        bounds: [[43.7342669, 18.2342148], [43.7356933, 18.3036518], [43.6771838, 18.2368755]],
+        about: 'https://libahunt.eu/bosnia-hertzegovina-2026',
+        info: '<a href="https://telegra.ph/Rogejn-v-Bosnii-sneg-oblaka-i-uroki-gor-10-27">Отчёт</a> Алексея Козлова.',
+        region: 'BOSNIA',
+        type: ['ROGAINE']
+    },
+
     // --- Франция ---
 
     {

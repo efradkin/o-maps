@@ -819,7 +819,6 @@ let events2019 = [
         name: 'BikeAdventure, TrailAdventure',
         type: ['ROGAINE', 'VELO'],
         fmt: '9',
-        link: 'http://tradventure.ru , http://bikeadventure.ru',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2019-1.php',
         photo: 'https://vk.com/album-30311715_262656659',
         map: 'luga_ba_2019',
@@ -1624,7 +1623,6 @@ let events2019 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2019-2.php',
         photo: 'https://vk.com/album-30311715_263433475',
         fmt: '6, 3',
-        link: 'http://tradventure.ru , http://bikeadventure.ru',
         start: ['BA','TA'],
         map: 'petrovskoe_ba_2019',
         maps: [

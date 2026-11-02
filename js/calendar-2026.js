@@ -3738,11 +3738,12 @@ let events2026 = [
         id: 'SPB_20261108_2',
         date: '2026-11-08',
         name: 'Маркир 110%',
-        place: 'оз. Силанде',
+        place: 'оз Силанде',
         coord: [60.412533, 30.272448],
         o_site: '261108_110',
         reg: 'https://orgeo.ru/event/56429',
         endReg: '2026-11-05 23:55',
+        start: 'ROGAINE_110',
         bulletin: 'https://o-site.spb.ru/_races/261108_110/markir08112026-info.pdf',
         map: 'silande_2024'
     },

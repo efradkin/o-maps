@@ -60,6 +60,9 @@ const regions = {
     BULGARIA: {
         name: 'Болгария',
     },
+    BOSNIA: {
+        name: 'Босния и Герцеговина',
+    },
     VLADIMIR: {
         name: 'Владимирская обл',
     },

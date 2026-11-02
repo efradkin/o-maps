@@ -960,7 +960,6 @@ let events2021 = [
         name: 'BikeAdventure, TrailAdventure',
         type: ['ROGAINE', 'VELO'],
         fmt: '12',
-        link: 'http://tradventure.ru , http://bikeadventure.ru',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2021-1.php',
         o_gps: {
             'BA':9986,
