@@ -97,7 +97,7 @@ for (const s of sections) {
       const e = events.get(key); r.start = e ? e.start || null : null; r.logos = e ? eventLogos(e) : [];
       // регионы события: его поле region и region его стартов (как logoOne в utils.js)
       r.regions = e ? [e.region, ...[].concat(e.start || []).map(st => ctx.starts?.[st]?.region)].filter(Boolean) : [];
-      r.regionPages = [...new Set(r.regions.map(rg => REGION_FIELD[rg] || 'all'))]; r.title = e ? strip(e.name || '') : '?'; r.place = e ? (e.place || '') : '?'; r.year = e ? +String(e.date).slice(0, 4) : null;
+      r.regionPages = [...new Set(r.regions.map(rg => REGION_FIELD[rg] || 'all'))]; r.title = e ? strip(e.name || '') : '?'; r.place = e ? (e.place || '') : '?'; r.year = e ? +String(e.date ?? e.year).slice(0, 4) : null;
       if (e && e.coord) { r.coord = e.coord; r.src = 'coord события ' + key; r.srcKind = 'coord'; }
       else if (e && e.map) { const mn = [].concat(e.map).find(n => maps.has(n)); if (mn) { const m = maps.get(mn); r.coord = center(m); r.src = 'центр карты ' + mn + ' (событие ' + key + ')'; r.srcKind = 'map'; r.srcMap = mn; } }
       const ms = e ? [].concat(e.map || []).filter(n => maps.has(n)) : [];
