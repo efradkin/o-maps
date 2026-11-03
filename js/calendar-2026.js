@@ -3699,7 +3699,7 @@ let events2026 = [
         map: 'lembolovo_orekhovo_peski_gk_2026',
         name: 'Горный кросс-117',
         reg: 'https://orgeo.ru/event/50689',
-        bulletin: 'https://o-site.spb.ru/_races/261107R/261107R_info.pdf',
+        bulletin: 'https://o-site.spb.ru/_races/261107R/261107R_info2.pdf',
         endReg: '2026-11-06 19:00',
         type: 'ROGAINE',
         fmt: '6(5), 2',
