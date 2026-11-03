@@ -558,7 +558,11 @@ let events2020 = [
         map: 'melnikovo_2020',
         maps: [
             'https://kandid.ru/maps20/vmb20.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/vmb20r.htm',
+        split: 'https://kandid.ru/vmb20s.htm',
+        photo: 'https://vk.com/album-29327859_267772608',
+        bulletin: 'https://kandid.ru/oldrules/vmb2020.pdf',
     },
     {
         id: 'SPB_20200510_1',
@@ -623,13 +627,19 @@ let events2020 = [
         name: 'BikeAdventure, TrailAdventure',
         type: ['ROGAINE', 'VELO'],
         fmt: '24',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2020-1.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2020-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2020-1/BA20_r.htm'
+        ],
         photo: 'https://vk.com/album-30311715_267426606',
         map: 'kirillovskoe_2020',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2020-1/BA20.jpg'
-        ]
+        ],
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2020-1/BA20_s.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2020-1/BA2020_polojenie.pdf',
     },
     {
         id: 'SPB_20200530_1',
@@ -1489,12 +1499,18 @@ let events2020 = [
         name: 'BikeAdventure, TrailAdventure',
         type: ['ROGAINE', 'VELO'],
         fmt: '6',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2020-2.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2020-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2020-2/bal20r.htm'
+        ],
         map: 'yappilya_ba_2020',
         start: ['BA','TA'],
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2020-2/bal20.jpg'
-        ]
+        ],
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2020-2/bal20s.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2020-2/bal20_polojenie.pdf',
     },
     {
         id: 'SPB_20200926_5',
@@ -1593,7 +1609,11 @@ let events2020 = [
         },
         maps: [
             'https://kandid.ru/maps20/omb20.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/omb20r.htm',
+        split: 'https://kandid.ru/omb20s.htm',
+        photo: 'https://vk.com/album-29327859_275417910',
+        bulletin: 'https://kandid.ru/oldrules/omb2020.pdf',
     },
     {
         id: 'SPB_20201004_1',

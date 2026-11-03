@@ -432,14 +432,22 @@ let events2011 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2011-1.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2011-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba2011.html'
+        ],
         map: 'otradnoe_ba_2011',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_1.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_2.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_3.gif'
-        ]
+        ],
+        split: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba2011s.html',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba2011i.html'
+        ],
+        photo: 'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=5',
     },
     {
         id: 'SPB_20110515_1',
@@ -537,7 +545,10 @@ let events2011 = [
         maps: [
             'https://kandid.ru/maps11/map_mb11_1.jpg',
             'https://kandid.ru/maps11/map_mb11_2.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2011',
+        split: 'https://kandid.ru/vmb2011.xls',
+        photo: 'https://kandid.ru/?p=4_18',
     },
     {
         id: 'SPB_20110522_1',
@@ -1009,7 +1020,10 @@ let events2011 = [
         maps: [
             'https://kandid.ru/maps11/map_omb11_1.jpg',
             'https://kandid.ru/maps11/map_omb11_2.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2011a',
+        split: 'https://kandid.ru/mb2011.xls',
+        photo: 'https://kandid.ru/?p=4_19',
     },
     {
         id: 'SPB_20110930_1',
@@ -1039,14 +1053,24 @@ let events2011 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2011-2.php',
-        photo: 'https://vk.com/album-30311715_142817495',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2011-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2011-2/bal2011.html'
+        ],
+        photo: [
+            'https://vk.com/album-30311715_142817495',
+            'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=4'
+        ],
         map: 'roschino_ba_2011',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2011-2/map_bal11_1.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2011-2/map_bal11_2.jpg'
-        ]
+        ],
+        split: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2011-2/bal2011s.html',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2011-2/bal2011i.html'
+        ],
     },
     {
         id: 'SPB_20111002_1',

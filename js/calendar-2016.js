@@ -645,7 +645,11 @@ let events2016 = [
         map: 'lembolovo_mb_2016',
         maps: [
             'https://kandid.ru/maps16/VMB2016.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2016',
+        split: 'https://kandid.ru/vmb2016s.html',
+        photo: 'https://vk.com/album-29327859_227394935',
+        bulletin: 'https://kandid.ru/oldrules/vmb2016.pdf',
     },
     {
         id: 'SPB_20160514_3',
@@ -845,14 +849,22 @@ let events2016 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2016-1.php',
-        photo: 'https://vk.com/album-30311715_230913976',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2016-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2016-1/BA2016r.htm'
+        ],
+        photo: [
+            'https://vk.com/album-30311715_230913976',
+            'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=33'
+        ],
         video: 'https://www.youtube.com/watch?v=RC114NyDPPA',
         map: 'melnikovo_ba_2016',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2016-1/BA2016_karta.png'
-        ]
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2016-1/BA2016s.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2016-1/BA2016_polojenie.pdf',
     },
     {
         id: 'SPB_20160529_1',
@@ -1439,7 +1451,11 @@ let events2016 = [
         map: 'borovinka_2012',
         maps: [
             'https://kandid.ru/maps16/OMB2016.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2016a',
+        split: 'https://kandid.ru/omb2016s.html',
+        photo: 'https://vk.com/album-29327859_235197141',
+        bulletin: 'https://kandid.ru/oldrules/omb2016.pdf',
     },
     {
         id: 'SPB_20160924_4',
@@ -1525,14 +1541,22 @@ let events2016 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2016-2.php',
-        photo: 'https://vk.com/album-30311715_235765199',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2016-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2016-2/BAL2016r.htm'
+        ],
+        photo: [
+            'https://vk.com/album-30311715_235765199',
+            'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=34'
+        ],
         video: 'https://www.youtube.com/watch?v=2rKJbFJohLc',
         map: 'yagodnoe_ba_2016',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2016-2/bal2016.png'
-        ]
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2016-2/BAL2016s.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2016-2/Pologenie_BAL_01.10.2016.pdf',
     },
     {
         id: 'SPB_20161002_1',

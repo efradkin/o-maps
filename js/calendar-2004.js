@@ -261,7 +261,9 @@ let events2004 = [
             'https://kandid.ru/maps04/p1.jpg',
             'https://kandid.ru/maps04/p2.jpg',
             'https://kandid.ru/maps04/p3.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2004',
+        photo: 'https://kandid.ru/?p=4_10',
     },
     {
         id: 'SPB_20040926_1',

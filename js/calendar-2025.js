@@ -1261,7 +1261,9 @@ let events2025 = [
         maps: [
             'https://kandid.ru/maps25/map_1.pdf',
             'https://kandid.ru/maps25/map_2.pdf'
-        ]
+        ],
+        split: 'https://kandid.ru/vmb25s.htm',
+        bulletin: 'https://kandid.ru/oldrules/vmb2025.pdf',
     },
     {
         id: 'SPB_20250524_2',
@@ -1337,14 +1339,18 @@ let events2025 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/info/40559',
-        res: 'https://vk.com/wall-30311715_2246',
+        res: [
+            'https://vk.com/wall-30311715_2246',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2025-1/BA25_r.htm'
+        ],
         o_gps: 22755,
         photo: ['https://vk.com/album-30311715_307382548','https://vk.com/album-30311715_306332306'],
         map: 'red_valley_2025',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2025-1/BA25.jpg'
-        ]
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2025-1/BA25_s.htm',
     },
     {
         id: 'SPB_20250531_3',
@@ -2738,7 +2744,10 @@ let events2025 = [
         link: 'https://www.bikeadventure.ru/',
         reg: 'https://orgeo.ru/event/44940',
         endReg: '2025-10-08 23:55',
-        res: 'https://www.bikeadventure.ru/results/',
+        res: [
+            'https://www.bikeadventure.ru/results/',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2025-2/BAL25_r.htm'
+        ],
         o_gps: 23660,
         photo: [
             'https://disk.yandex.ru/d/RA9hL_hI24Wttg',
@@ -2748,7 +2757,8 @@ let events2025 = [
         map: 'snetkovskoe_ba_2025',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2025-2/BAL25.jpg'
-        ]
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2025-2/BAL25_s.htm',
     },
     {
         id: 'SPB_20251012_2',
@@ -2840,7 +2850,8 @@ let events2025 = [
         start: 'MB',
         maps: [
             'https://kandid.ru/maps25/omb25.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/omb25r.pdf',
     },
     {
         id: 'SPB_20251019_1',

@@ -924,7 +924,10 @@ let events2022 = [
         o_gps: 13223,
         maps: [
             'https://kandid.ru/maps22/vmb22.jpg'
-        ]
+        ],
+        res: 'https://docs.google.com/spreadsheets/d/1TqviaRZVWp8b6vKFtNbVmPznGhIl6yLwbcCrAFtWWzs/edit?usp=sharing',
+        photo: 'https://vk.com/album-29327859_283956787',
+        bulletin: 'https://kandid.ru/oldrules/vmb2022.pdf',
     },
     {
         id: 'SPB_20220522_1',
@@ -1088,7 +1091,7 @@ let events2022 = [
         map: 'razdolie_ba_2022',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2022-1/BA22.jpg'
-        ]
+        ],
     },
     {
         id: 'SPB_20220529_1',
@@ -2029,7 +2032,7 @@ let events2022 = [
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2022-2/bal22.jpg'
-        ]
+        ],
     },
     {
         id: 'SPB_20221001_4',
@@ -2122,7 +2125,10 @@ let events2022 = [
         o_gps: 14333,
         maps: [
             'https://kandid.ru/maps22/omb22.jpg'
-        ]
+        ],
+        res: 'https://docs.google.com/spreadsheets/d/15i5lD89zqbQAD7D33-ZVKSQbk_Xg2j04PrjYw_xR2D8',
+        photo: 'https://vk.com/album-29327859_287301074',
+        bulletin: 'https://kandid.ru/oldrules/omb2022.pdf',
     },
     {
         id: 'SPB_20221013_1',

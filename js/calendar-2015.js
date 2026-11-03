@@ -780,15 +780,24 @@ let events2015 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2015-1.php',
-        photo: 'https://vk.com/album-30311715_215508127',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2015-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba_2015_r.htm'
+        ],
+        photo: [
+            'https://vk.com/album-30311715_215508127',
+            'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=31'
+        ],
         map: 'otradnoe_ba_2015',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba2015_1.png',
             'https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba2015_2.png',
-            'https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba2015_3.png'
-        ]
+            'https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba2015_3.png',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba2015_leg_1.png'
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba_2015_s.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2015-1/%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20BikeAdventure%202015.docx',
     },
     {
         id: 'SPB_20150524_1',
@@ -874,7 +883,14 @@ let events2015 = [
             'https://kandid.ru/maps15/vmb_1.png',
             'https://kandid.ru/maps15/vmb_2.png',
             'https://kandid.ru/maps15/vmb_3.png'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2015',
+        split: 'https://kandid.ru/vmb2015s.html',
+        photo: [
+            'https://kandid.ru/?p=4_25',
+            'https://vk.com/album-29327859_210617349'
+        ],
+        bulletin: 'https://kandid.ru/oldrules/vmb2015.pdf',
     },
     {
         id: 'SPB_20150531_1',
@@ -1396,13 +1412,21 @@ let events2015 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2015-2.php',
-        photo: 'https://vk.com/album-30311715_216614758',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2015-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2015-2/bal2015_r.htm'
+        ],
+        photo: [
+            'https://vk.com/album-30311715_216614758',
+            'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=32'
+        ],
         map: 'krasna_gorka_ba_2015',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2015-2/bal-2015.png'
-        ]
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2015-2/bal2015_s.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2015-2/%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20BikeAdventureLite%202015.docx',
     },
     {
         id: 'SPB_20150920_1',
@@ -1503,7 +1527,14 @@ let events2015 = [
         maps: [
             'https://kandid.ru/maps15/omb_1.png',
             'https://kandid.ru/maps15/omb_2.png'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2015a',
+        split: 'https://kandid.ru/omb2015s.html',
+        photo: [
+            'https://kandid.ru/?p=4_26',
+            'https://vk.com/album-29327859_219717743'
+        ],
+        bulletin: 'https://kandid.ru/oldrules/omb2015.pdf',
     },
     {
         id: 'SPB_20150927_1',

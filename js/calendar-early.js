@@ -2662,6 +2662,14 @@ let eventsEarly = [
         res: './docs/1992/1992_01_01_new_year_omaps.pdf'
     },
     {
+        id: 'SPB_1992_1',
+        year: '1992',
+        place: 'Лейпясуо, Заходское',
+        name: 'Марш-бросок',
+        type: 'TOURISM',
+        start: 'MB'
+    },
+    {
         id: 'SPB_19920125_1',
         date: '1992-01-25',
         endDate: '1992-01-26',
@@ -2912,6 +2920,14 @@ let eventsEarly = [
         res: './docs/1992/1992_10_18_universities_omaps.pdf'
     },
     {
+        id: 'SPB_1993_1',
+        year: '1993',
+        place: 'Синево, Мюллюпельто',
+        name: 'Марш-бросок',
+        type: 'TOURISM',
+        start: 'MB'
+    },
+    {
         id: 'SPB_19930314_1',
         date: '1993-03-14',
         place: 'Токсово',
@@ -3007,6 +3023,15 @@ let eventsEarly = [
         res: './docs/1993/1993_10_17_universities_omaps.pdf'
     },
     {
+        id: 'SPB_1994_1',
+        year: '1994',
+        place: 'р Смородинка, р Волчья',
+        name: 'Марш-бросок',
+        type: 'TOURISM',
+        res: 'https://kandid.ru/?p=5_1994_1',
+        start: 'MB'
+    },
+    {
         id: 'SPB_19940109_1',
         date: '1994-01-09',
         name: 'St.Petersburg Cup',
@@ -3042,6 +3067,18 @@ let eventsEarly = [
         fmt: 'заданное направление, 6 км',
         info: 'Первые в России соревнования по велоориентированию: три участника, двое на складных велосипедах «Кама» и один на маунтинбайке.',
         link: 'https://o-site.spb.ru/history/Knots/velo-96.html'
+    },
+    {
+        id: 'SPB_1995_1',
+        year: '1995',
+        place: 'Морозовские оз, Петяярви',
+        name: 'Марш-бросок',
+        type: 'TOURISM',
+        res: [
+            'https://kandid.ru/?p=5_1995_1',
+            'https://kandid.ru/?p=5_1995_2'
+        ],
+        start: 'MB'
     },
     {
         id: 'SPB_19950529_1',
@@ -3117,6 +3154,18 @@ let eventsEarly = [
         map: 'gatchina_prioratsky_1993'
     },
     {
+        id: 'SPB_1996_1',
+        year: '1996',
+        place: 'Орехово, Лемболово',
+        name: 'Марш-бросок',
+        type: 'TOURISM',
+        res: [
+            'https://kandid.ru/?p=5_1996_1',
+            'https://kandid.ru/?p=5_1996_2'
+        ],
+        start: 'MB'
+    },
+    {
         id: 'SPB_19960126_1',
         date: '1996-01-26',
         endDate: '1996-01-28',
@@ -3190,6 +3239,18 @@ let eventsEarly = [
         map: 'ilychevo_1993'
     },
     {
+        id: 'SPB_1997_1',
+        year: '1997',
+        place: 'Гаврилово, Лейпясуо',
+        name: 'Марш-бросок',
+        type: 'TOURISM',
+        res: [
+            'https://kandid.ru/?p=5_1997_1',
+            'https://kandid.ru/?p=5_1997_2'
+        ],
+        start: 'MB'
+    },
+    {
         id: 'SPB_19970612_1',
         date: '1997-06-12',
         endDate: '1997-06-14',
@@ -3253,6 +3314,19 @@ let eventsEarly = [
         map: ['ozerki_1997','tarasovskoe_1997','yappilya_pistolet_1997']
     },
     {
+        id: 'SPB_1998_1',
+        year: '1998',
+        place: 'Горьковское, Цвелодубово',
+        name: 'Марш-бросок',
+        type: 'TOURISM',
+        res: [
+            'https://kandid.ru/?p=5_1998_1',
+            'https://kandid.ru/?p=5_1998_2'
+        ],
+        photo: 'https://kandid.ru/?p=4_4',
+        start: 'MB'
+    },
+    {
         id: 'SPB_19980227_1',
         date: '1998-02-27',
         place: 'Орехово',
@@ -3310,6 +3384,19 @@ let eventsEarly = [
         name: 'Чемпионат СПб, удлинённая дистанция',
         start: 'SPB_CHAMP',
         res: './docs/1998/1998_09_20_spb_long_omaps.pdf'
+    },
+    {
+        id: 'SPB_1999_1',
+        year: '1999',
+        place: 'Заходское, Лейпясуо',
+        name: 'Марш-бросок',
+        type: 'TOURISM',
+        res: [
+            'https://kandid.ru/?p=5_1999_1',
+            'https://kandid.ru/?p=5_1999_2'
+        ],
+        photo: 'https://kandid.ru/?p=4_5',
+        start: 'MB'
     },
     {
         id: 'SPB_19990220_1',
@@ -3475,7 +3562,12 @@ let eventsEarly = [
             'https://kandid.ru/maps00/map_day.jpg',
             'https://kandid.ru/maps00/map_night.jpg',
             'https://kandid.ru/maps00/sport_map.jpg'
-        ]
+        ],
+        res: [
+            'https://kandid.ru/?p=5_2000_1',
+            'https://kandid.ru/?p=5_2000_2'
+        ],
+        photo: 'https://kandid.ru/?p=4_6',
     },
     {
         id: 'SPB_20010610_1',
@@ -3523,6 +3615,21 @@ let eventsEarly = [
         start: 'SPB_CHAMP',
         maps: './original_maps/starts/other/mednoe_2001_09_09_omaps.webp',
         map: 'mednoe_rfar_2006'
+    },
+    {
+        id: 'SPB_20010929_1',
+        date: '2001-09-29',
+        endDate: '2001-09-30',
+        place: 'Васкелово, Пери',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        res: [
+            'https://kandid.ru/?p=5_2001_2',
+            'https://kandid.ru/?p=5_2001_3'
+        ],
+        photo: 'https://kandid.ru/?p=4_7',
+        bulletin: 'https://kandid.ru/oldrules/mb2001.pdf',
+        start: 'MB'
     },
     {
         id: 'SPB_20011209_1',
@@ -3589,6 +3696,21 @@ let eventsEarly = [
         photo: 'http://o-site.spb.ru/gallery.php?id=gallery03',
         info: 'Первый Три-О-Тлон',
         o_site: 'TOT2002'
+    },
+    {
+        id: 'SPB_20021005_1',
+        date: '2002-10-05',
+        endDate: '2002-10-06',
+        place: 'Сосново, Петяярви',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        res: [
+            'https://kandid.ru/?p=5_2002_2',
+            'https://kandid.ru/?p=5_2002_3'
+        ],
+        photo: 'https://kandid.ru/?p=4_8',
+        bulletin: 'https://kandid.ru/oldrules/mb2002.pdf',
+        start: 'MB'
     },
     {
         id: 'SPB_20030220_1',
@@ -3670,6 +3792,11 @@ let eventsEarly = [
             'https://kandid.ru/maps03/map1.jpg',
             'https://kandid.ru/maps03/map2.jpg',
             'https://kandid.ru/maps03/map3.jpg'
-        ]
+        ],
+        res: [
+            'https://kandid.ru/?p=5_2003_1',
+            'https://kandid.ru/?p=5_2003_2'
+        ],
+        photo: 'https://kandid.ru/?p=4_9',
     }
 ];

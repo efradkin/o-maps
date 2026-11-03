@@ -704,15 +704,21 @@ let events2013 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2013-1.php',
-        photo: 'https://vk.com/album-30311715_174424062',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2013-1.php',
+            'http://o-time.ru/index.php/-mainmenu-59/846-18-190513-bikeadventure'
+        ],
+        photo: [
+            'https://vk.com/album-30311715_174424062',
+            'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=1'
+        ],
         map: 'kirpichnoe_ba_2013',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2013-1/map_1_ba13.tif',
             'https://www.bikeadventure.ru/upload/files/arhiv-2013-1/map_2_ba13.tif',
             'https://www.bikeadventure.ru/upload/files/arhiv-2013-1/map_3_ba13.tif'
-        ]
+        ],
     },
     {
         id: 'SPB_20130519_1',
@@ -776,7 +782,8 @@ let events2013 = [
         maps: [
             'https://kandid.ru/maps13/map_vmb13_1.gif',
             'https://kandid.ru/maps13/map_vmb13_2.gif'
-        ]
+        ],
+        photo: 'https://kandid.ru/?p=4_21',
     },
     {
         id: 'SPB_20130526_1',
@@ -1343,7 +1350,8 @@ let events2013 = [
         map: 'kuznechnoe_mb_2013',
         maps: [
             'https://kandid.ru/maps13/map_omb13.jpg'
-        ]
+        ],
+        photo: 'https://kandid.ru/?p=4_22',
     },
     {
         id: 'SPB_20130921_4',
@@ -1438,12 +1446,17 @@ let events2013 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2013-2.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2013-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2013-2/bal2013.htm'
+        ],
         map: 'mullupelto_ba_2013',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2013-2/bal13.jpg'
-        ]
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2013-2/bal2013s.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2013-2/BAL2013_polojenie.pdf',
     },
     {
         id: 'SPB_20130929_1',

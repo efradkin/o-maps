@@ -530,7 +530,13 @@ let events2014 = [
             'https://kandid.ru/maps14/vmb_1.png',
             'https://kandid.ru/maps14/vmb_2.png',
             'https://kandid.ru/maps14/vmb_3.png'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2014',
+        split: [
+            'https://kandid.ru/shot_vmb_2014.html',
+            'https://kandid.ru/splits_vmb_2014.xls'
+        ],
+        photo: 'https://kandid.ru/?p=4_23',
     },
     {
         id: 'SPB_20140518_1',
@@ -621,11 +627,17 @@ let events2014 = [
         place: 'Большое Поле',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2014-1.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2014-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2014-1/ba2014r.html'
+        ],
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2014-1/map_2014.jpg'
-        ]
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2014-1/ba2014s.html',
+        photo: 'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=29',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2014-1/BA2014_polojenie.pdf',
     },
     {
         id: 'SPB_20140525_1',
@@ -1207,14 +1219,22 @@ let events2014 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2014-2.php',
-        photo: 'https://vk.com/album-30311715_203300364',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2014-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2014-2/rez_BAL2014.htm'
+        ],
+        photo: [
+            'https://vk.com/album-30311715_203300364',
+            'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=30'
+        ],
         map: 'kanneljarvy_ba_2014',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2014-2/BAL-2014_karta_1.png',
             'https://www.bikeadventure.ru/upload/files/arhiv-2014-2/BAL-2014_karta_2.png'
-        ]
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2014-2/split_BAL2014.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2014-2/BAL2014_polojenie.pdf',
     },
     {
         id: 'SPB_20140929_1',
@@ -1276,7 +1296,14 @@ let events2014 = [
             'https://kandid.ru/maps14/MB-2014-fall_karta_2.png',
             'https://kandid.ru/maps14/MB-2014-fall_karta_3.png',
             'https://kandid.ru/maps14/MB-2014-fall_karta_4.png'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2014a',
+        split: 'https://kandid.ru/omb2014s.html',
+        photo: [
+            'https://kandid.ru/?p=4_24',
+            'https://vk.com/album-29327859_203805034'
+        ],
+        bulletin: 'https://kandid.ru/oldrules/omb2014.pdf',
     },
     {
         id: 'SPB_20140927_3',

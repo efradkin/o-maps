@@ -808,7 +808,11 @@ let events2017 = [
         map: 'kanneliarvi_mb_2017',
         maps: [
             'https://kandid.ru/maps17/VMB_17.png'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2017',
+        split: 'https://kandid.ru/vmb2017s.htm',
+        photo: 'https://vk.com/album-29327859_244490626',
+        bulletin: 'https://kandid.ru/oldrules/vmb2017.pdf',
     },
     {
         id: 'SPB_20170514_1',
@@ -1028,13 +1032,21 @@ let events2017 = [
         type: ['ROGAINE', 'VELO'],
         fmt: '24',
         link: 'http://bikeadventure.ru/news/ba2017-sostoitsya-27-28-maya.php',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2017-1.php',
-        photo: 'https://vk.com/album-30311715_244242670',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2017-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2017-1/BA2017r.htm'
+        ],
+        photo: [
+            'https://vk.com/album-30311715_244242670',
+            'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=35'
+        ],
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2017-1/ba2017-1.png',
             'https://www.bikeadventure.ru/upload/files/arhiv-2017-1/ba2017-2.png'
-        ]
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2017-1/BA2017s.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2017-1/BA2017_polojenie.pdf',
     },
     {
         id: 'SPB_20170528_1',
@@ -1717,14 +1729,19 @@ let events2017 = [
         place: 'Ветренное оз',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2017-2.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2017-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2017-2/BAL2017r.htm'
+        ],
         photo: 'https://vk.com/album-30311715_247663794',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2017-2/map1.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2017-2/map2.jpg'
         ],
-        map: 'orekhovo_vetrennoe_2004'
+        map: 'orekhovo_vetrennoe_2004',
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2017-2/BAL2017s.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2017-2/BAL2017_polojenie.pdf',
     },
     {
         id: 'SPB_20170930_4',
@@ -1855,7 +1872,11 @@ let events2017 = [
         maps: [
             'https://kandid.ru/maps17/omb17_1.jpg',
             'https://kandid.ru/maps17/omb17_2.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2017a',
+        split: 'https://kandid.ru/omb2017s.htm',
+        photo: 'https://vk.com/album-29327859_247777412',
+        bulletin: 'https://kandid.ru/oldrules/omb2017.pdf',
     },
     {
         id: 'SPB_20171008_1',

@@ -324,8 +324,25 @@ let events2005 = [
         place: 'Громово',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2005-1.php',
-        start: 'BA'
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2005-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-1/res_05.html',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-1/res_05.xls'
+        ],
+        start: 'BA',
+        maps: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-1/46_2005.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-1/45_2005.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-1/44_2005.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-1/29_2005.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-1/14_2005.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-1/13_2005.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-1/04_2005.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-1/06_2005.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-1/17_2005.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-1/30_2005.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-1/31_2005.jpg'
+        ],
     },
     {
         id: 'SPB_20050522_1',
@@ -588,7 +605,9 @@ let events2005 = [
         map: 'myllypelto_mb_2005',
         maps: [
             'https://kandid.ru/maps05/mbmap_2005.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2005',
+        photo: 'https://kandid.ru/?p=4_11',
     },
     {
         id: 'SPB_20050925_1',
@@ -673,12 +692,15 @@ let events2005 = [
         place: 'Заходское',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2005-2.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2005-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2005-2/res_05_oct.html'
+        ],
         start: 'BA',
         map: 'zahodskoe_ba_2005',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2005-2/oct_05.jpg'
-        ]
+        ],
     },
     {
         id: 'SPB_20051016_1',

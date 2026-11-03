@@ -1771,7 +1771,10 @@ let events2026 = [
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/48965',
         endReg: '2026-05-27 23:30',
-        res: 'https://bikeadventure.ru/arhiv/arhiv-2026-1.php',
+        res: [
+            'https://bikeadventure.ru/arhiv/arhiv-2026-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2026-1/BA26_r.htm'
+        ],
         o_gps: 25248,
         photo: ['https://vk.ru/album-232059320_311134585','https://disk.yandex.ru/d/3K5Mr3qCRU-KJA','https://disk.yandex.ru/d/KqyAbJmFszbqyg'],
         start: ['BA','TA'],
@@ -1781,7 +1784,8 @@ let events2026 = [
             'https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_1.jpg',
             'https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_2.jpg',
             'https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_3.jpg'
-        ]
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2026-1/BA26_s.htm',
     },
     {
         id: 'SPB_20260530_3',

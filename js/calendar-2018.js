@@ -724,7 +724,11 @@ let events2018 = [
         map: 'gavrilovo_vmb_2018',
         maps: [
             'https://kandid.ru/maps18/VMB18.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2018',
+        split: 'https://kandid.ru/vmb18s.htm',
+        photo: 'https://vk.com/album-29327859_251427177',
+        bulletin: 'https://kandid.ru/oldrules/vmb2018.pdf',
     },
     {
         id: 'SPB_20180520_1',
@@ -797,13 +801,19 @@ let events2018 = [
         name: 'BikeAdventure, TrailAdventure',
         type: ['ROGAINE', 'VELO'],
         fmt: '9',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2018-1.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2018-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2018-1/BA18r.htm'
+        ],
         video: 'https://www.youtube.com/watch?v=yM4fWkWOB1g',
         map: ['kamennogorsk_ta_2018','smorodinka_2018'],
         start: ['BA','TA'],
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2018-1/BA18.png'
-        ]
+        ],
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2018-1/BA18s.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2018-1/BA2018_polojenie.pdf',
     },
     {
         id: 'SPB_20180526_3',
@@ -1575,14 +1585,20 @@ let events2018 = [
         name: 'BikeAdventure, TrailAdventure',
         type: ['ROGAINE', 'VELO'],
         fmt: '9',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2018-2.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2018-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2018-2/BAL18r.htm'
+        ],
         photo: 'https://vk.com/album-30311715_256332495',
         map: 'toksovo_bal_2018',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2018-2/mapBAL18-1.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2018-2/mapBAL18-2.jpg'
-        ]
+        ],
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2018-2/BAL18s.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2018-2/BAL2018_polojenie.pdf',
     },
     {
         id: 'SPB_20180929_1',
@@ -1700,7 +1716,11 @@ let events2018 = [
         maps: [
             'https://kandid.ru/maps18/OMB18_2.jpg',
             'https://kandid.ru/maps18/OMB18_1.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/omb18r.htm',
+        split: 'https://kandid.ru/omb18s.htm',
+        photo: 'https://vk.com/album-29327859_257122897',
+        bulletin: 'https://kandid.ru/oldrules/omb2018.pdf',
     },
     {
         id: 'SPB_20181007_1',

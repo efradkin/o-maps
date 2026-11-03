@@ -464,13 +464,18 @@ let events2010 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-1.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2010-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2010-1/ba2010.html'
+        ],
         map: 'razdolie_ba_2010',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2010-1/map-1.png',
             'https://www.bikeadventure.ru/upload/files/arhiv-2010-1/map-2.png'
-        ]
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2010-1/ba2010s.html',
+        photo: 'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=7',
     },
     {
         id: 'SPB_20100516_1',
@@ -526,7 +531,13 @@ let events2010 = [
         map: 'elizavetinka_ogonki_2010',
         maps: [
             'https://kandid.ru/maps10/mbs_10.png'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2010',
+        split: [
+            'https://kandid.ru/mbs_10-split_1.html',
+            'https://kandid.ru/mbs_10-split_2.html'
+        ],
+        photo: 'https://kandid.ru/?p=4_16',
     },
     {
         id: 'SPB_20100523_1',
@@ -984,7 +995,10 @@ let events2010 = [
         map: 'yappilya_mb_2010',
         maps: [
             'https://kandid.ru/maps10/map_mb_10.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2010a',
+        split: 'https://kandid.ru/mb2010.xls',
+        photo: 'https://kandid.ru/?p=4_17',
     },
     {
         id: 'SPB_20100926_1',
@@ -1078,12 +1092,21 @@ let events2010 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-2.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2010-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2010-2/bal2010-1.html',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2010-2/bal2010-2.html'
+        ],
         map: 'gruzino_ba_2010',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2010-2/bal_10.jpg'
-        ]
+        ],
+        split: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2010-2/bal2010s-1.html',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2010-2/bal2010s-2.html'
+        ],
+        photo: 'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=6',
     },
     {
         id: 'SPB_20101014_1',

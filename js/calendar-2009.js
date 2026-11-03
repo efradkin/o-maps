@@ -521,14 +521,26 @@ let events2009 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2009-1.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2009-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2009-1/ba2009.html'
+        ],
         map: 'vesnino_ba_2009',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2009-1/sm.jpg',
-            'https://www.bikeadventure.ru/upload/files/arhiv-2009-1/big_s.jpg'
+            'https://www.bikeadventure.ru/upload/files/arhiv-2009-1/big_s.jpg',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2009-1/big_n.jpg'
         ],
-        rg: 'https://rogaine.ru/routegadget/rg2/#31'
+        rg: 'https://rogaine.ru/routegadget/rg2/#31',
+        split: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2009-1/ba2009s.html',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2009-1/ba2009i.html'
+        ],
+        photo: [
+            'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=14',
+            'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=10'
+        ],
     },
     {
         id: 'SPB_20090528_1',
@@ -1044,7 +1056,9 @@ let events2009 = [
         map: 'kanneliarvi_mb_2009',
         maps: [
             'https://kandid.ru/maps09/mb2009.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2009',
+        photo: 'https://kandid.ru/?p=4_15',
     },
     {
         id: 'SPB_20090927_1',
@@ -1210,7 +1224,9 @@ let events2009 = [
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2009-2/map_bal_09.gif'
-        ]
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2009-2/bal2009.html',
+        photo: 'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=8',
     },
     {
         id: 'SPB_20091025_1',

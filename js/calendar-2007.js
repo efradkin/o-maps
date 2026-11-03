@@ -581,7 +581,10 @@ let events2007 = [
         place: 'Лебедевка',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2007-1.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2007-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2007-1/ba2007.html'
+        ],
         start: 'BA',
         map: 'lebedevka_ba_2007',
         maps: [
@@ -589,7 +592,11 @@ let events2007 = [
             'https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_2.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_3.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_4.jpg'
-        ]
+        ],
+        split: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2007-1/ba2007s.html',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2007-1/ba2007i.html'
+        ],
     },
     {
         id: 'SPB_20070527_1',
@@ -1001,7 +1008,9 @@ let events2007 = [
         maps: [
             'https://kandid.ru/maps07/mb2007_1.gif',
             'https://kandid.ru/maps07/mb2007_2.gif'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2007',
+        photo: 'https://kandid.ru/?p=4_13',
     },
     {
         id: 'SPB_20070923_1',
@@ -1141,13 +1150,16 @@ let events2007 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2007-2.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2007-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2007-2/bal2007.html'
+        ],
         map: 'gavrilovo_ba_2007',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2007-2/maplite_1.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2007-2/maplite_2.jpg'
-        ]
+        ],
     },
     {
         id: 'SPB_20071028_1',

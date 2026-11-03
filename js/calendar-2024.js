@@ -878,7 +878,8 @@ let events2024 = [
         map: 'kanneliarvi_mb_2024',
         maps: [
             'https://kandid.ru/maps24/vmb24.jpg'
-        ]
+        ],
+        photo: 'https://vk.com/album-29327859_302799897',
     },
     {
         id: 'SPB_20240505_5',
@@ -1169,7 +1170,7 @@ let events2024 = [
         map: 'kanneliarvi_ba_2024',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2024-1/BA24.jpg'
-        ]
+        ],
     },
     {
         id: 'SPB_20240526_1',
@@ -2255,7 +2256,7 @@ let events2024 = [
         map: 'pervomayskoe_ba_2024',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2024-2/BAL24.jpg'
-        ]
+        ],
     },
     {
         id: 'SPB_20241005_5',
@@ -2348,7 +2349,11 @@ let events2024 = [
         type: 'ROGAINE',
         fmt: 'марш-бросок 75км',
         link: 'https://multsport.ru/starts/omb24',
-        o_gps: 20849
+        o_gps: 20849,
+        maps: 'https://kandid.ru/maps24/omb24.jpg',
+        res: 'https://kandid.ru/omb24r.pdf',
+        photo: 'https://vk.com/album-29327859_304549582',
+        bulletin: 'https://kandid.ru/oldrules/omb2024.pdf',
     },
     {
         id: 'SPB_20241013_1',

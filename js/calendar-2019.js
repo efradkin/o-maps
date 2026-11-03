@@ -777,11 +777,22 @@ let events2019 = [
         place: 'Выборг',
         name: 'Весенний Марш-бросок',
         type: 'TOURISM',
-        o_gps: [5748,5749],
+        o_gps: {
+            '1':5748,
+            '2':5749
+        },
         start: 'MB',
         maps: [
             'https://kandid.ru/maps19/vmb19.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/vmb19r.htm',
+        split: 'https://kandid.ru/vmb19s.htm',
+        photo: [
+            'https://vk.com/album-29327859_261744200',
+            'https://vk.com/album-29327859_263472196'
+        ],
+        bulletin: 'https://kandid.ru/oldrules/vmb2019.pdf',
+        map: 'vyborg_2019',
     },
     {
         id: 'SPB_20190519_1',
@@ -818,7 +829,10 @@ let events2019 = [
         name: 'BikeAdventure, TrailAdventure',
         type: ['ROGAINE', 'VELO'],
         fmt: '9',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2019-1.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2019-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2019-1/BA19r.htm'
+        ],
         photo: 'https://vk.com/album-30311715_262656659',
         map: 'luga_ba_2019',
         start: ['BA','TA'],
@@ -826,7 +840,10 @@ let events2019 = [
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2019-1/BA19_1.png',
             'https://www.bikeadventure.ru/upload/files/arhiv-2019-1/BA19_2.png'
-        ]
+        ],
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2019-1/BA19s.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2019-1/BA2019_polojenie.pdf',
     },
     {
         id: 'SPB_20190526_1',
@@ -1619,14 +1636,20 @@ let events2019 = [
         name: 'BikeAdventure, TrailAdventure',
         place: 'Петровское',
         type: ['ROGAINE', 'VELO'],
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2019-2.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2019-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2019-2/BAL19r.htm'
+        ],
         photo: 'https://vk.com/album-30311715_263433475',
         fmt: '6, 3',
         start: ['BA','TA'],
         map: 'petrovskoe_ba_2019',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2019-2/BAL19.png'
-        ]
+        ],
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2019-2/BAL19s.htm',
+        bulletin: 'https://www.bikeadventure.ru/upload/files/arhiv-2019-2/BAL2019_polojenie.pdf',
     },
     {
         id: 'SPB_20191005_3',
@@ -1754,7 +1777,11 @@ let events2019 = [
         maps: [
             'https://kandid.ru/maps19/omb19_1.jpg',
             'https://kandid.ru/maps19/omb19_2.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/omb19r.htm',
+        split: 'https://kandid.ru/omb19s.htm',
+        photo: 'https://vk.com/album-29327859_263804163',
+        bulletin: 'https://kandid.ru/oldrules/omb2019.pdf',
     },
     {
         id: 'SPB_20191013_1',

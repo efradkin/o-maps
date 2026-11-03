@@ -819,7 +819,11 @@ let events2021 = [
         maps: [
             'https://kandid.ru/maps21/vmb21_1.jpg',
             'https://kandid.ru/maps21/vmb21_2.jpg'
-        ]
+        ],
+        res: 'https://kandid.ru/vmb21r.htm',
+        split: 'https://kandid.ru/vmb21s.htm',
+        photo: 'https://vk.com/album-29327859_276793678',
+        bulletin: 'https://kandid.ru/oldrules/vmb2021.pdf',
     },
     {
         id: 'SPB_20210512_1',
@@ -960,18 +964,27 @@ let events2021 = [
         name: 'BikeAdventure, TrailAdventure',
         type: ['ROGAINE', 'VELO'],
         fmt: '12',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2021-1.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2021-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2021-1/BA21_r.htm',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2021-1/BA21_rv.htm'
+        ],
         o_gps: {
             'BA':9986,
             'TA':9987
         },
-        photo: 'https://vk.com/album-30311715_276456938',
+        photo: [
+            'https://vk.com/album-30311715_276456938',
+            'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=37'
+        ],
         map: 'hiitola_ba_2021',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2021-1/BA21.jpg',
             'https://www.bikeadventure.ru/upload/files/arhiv-2021-1/TA21.jpg'
-        ]
+        ],
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2021-1/BA21_s.htm',
     },
     {
         id: 'SPB_20210523_1',

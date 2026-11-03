@@ -339,12 +339,19 @@ let events2006 = [
         place: 'оз Медное, оз Светлое',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2006-1.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2006-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2006-1/res_06.html'
+        ],
         start: 'BA',
         map: 'mednoe_ba_2006',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2006-1/map_06.jpg'
-        ]
+        ],
+        split: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2006-1/res_06s.html',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2006-1/res_06os.html'
+        ],
     },
     {
         id: 'SPB_20060527_1',
@@ -646,7 +653,13 @@ let events2006 = [
         maps: [
             'https://kandid.ru/maps06/map_bo.jpg',
             'https://kandid.ru/maps06/taiwan_bo.jpg'
-        ]
+        ],
+        res: [
+            'https://kandid.ru/?p=5_2006_1',
+            'https://kandid.ru/protocol06.rar'
+        ],
+        split: 'https://kandid.ru/?p=5_2006_2',
+        photo: 'https://kandid.ru/?p=4_12',
     },
     {
         id: 'SPB_20060924_1',
@@ -741,12 +754,19 @@ let events2006 = [
         place: 'Лейпясуо',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2006-2.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2006-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2006-2/bal2006.html'
+        ],
         start: 'BA',
         map: 'leypyasuo_ba_2006',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2006-2/oct_06.jpg'
-        ]
+        ],
+        split: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2006-2/bal2006i.html',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2006-2/bal2006s.html'
+        ],
     },
     {
         id: 'SPB_20061022_1',

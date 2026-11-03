@@ -483,7 +483,16 @@ let events2012 = [
         map: 'roschino_mb_2012',
         maps: [
             'https://kandid.ru/maps12/map_vmb12.jpg'
-        ]
+        ],
+        res: [
+            'https://kandid.ru/?p=5_2012',
+            'https://kandid.ru/vmb2012.pdf'
+        ],
+        split: [
+            'https://kandid.ru/vmb2012s.html',
+            'https://kandid.ru/vmb2012i.html'
+        ],
+        photo: 'https://kandid.ru/?p=4_20',
     },
     {
         id: 'SPB_20120513_1',
@@ -563,13 +572,21 @@ let events2012 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2012-1.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2012-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2012-1/ba2012.html'
+        ],
         map: 'kamenka_ba_2012',
         start: 'BA',
         info: 'Бобочинский полигон.',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2012-1/map_ba12.jpg'
-        ]
+        ],
+        split: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2012-1/ba2012s.html',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2012-1/ba2012i.html'
+        ],
+        photo: 'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=3',
     },
     {
         id: 'SPB_20120520_1',
@@ -1191,12 +1208,17 @@ let events2012 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2012-2.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2012-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2012-2/bal2012.html'
+        ],
         map: 'sapernoe_ba_2012',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2012-2/bal12.png'
-        ]
+        ],
+        split: 'https://www.bikeadventure.ru/upload/files/arhiv-2012-2/bal2012s.html',
+        photo: 'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=2',
     },
     {
         id: 'SPB_20120929_3',

@@ -931,7 +931,8 @@ let events2023 = [
         map: 'kuznechnoe_mb_2023',
         maps: [
             'https://kandid.ru/maps23/vmb23.jpg'
-        ]
+        ],
+        photo: 'https://vk.com/album-29327859_293290989'
     },
     {
         id: 'SPB_20230513_4',
@@ -2223,7 +2224,8 @@ let events2023 = [
         map: '78km_michura_mb_2023',
         maps: [
             'https://kandid.ru/maps23/omb23.jpg'
-        ]
+        ],
+        photo: 'https://vk.com/album-29327859_295951182'
     },
     {
         id: 'SPB_20231012_2',

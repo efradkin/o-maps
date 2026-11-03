@@ -459,12 +459,20 @@ let events2008 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-1.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2008-1.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2008-1/ba2008.html'
+        ],
         map: 'losinaya_gora_ba_2008',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2008-1/bikeadventure08map.gif'
-        ]
+        ],
+        split: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2008-1/ba2008s.html',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2008-1/ba2008i.html'
+        ],
+        photo: 'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=18',
     },
     {
         id: 'SPB_20080525_1',
@@ -821,7 +829,9 @@ let events2008 = [
         map: 'lembolovo_mb_2008',
         maps: [
             'https://kandid.ru/maps08/mb2008.gif'
-        ]
+        ],
+        res: 'https://kandid.ru/?p=5_2008',
+        photo: 'https://kandid.ru/?p=4_14',
     },
     {
         id: 'SPB_20080921_1',
@@ -998,12 +1008,23 @@ let events2008 = [
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
-        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-2.php',
+        res: [
+            'https://www.bikeadventure.ru/arhiv/arhiv-2008-2.php',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2008-2/bal2008.html'
+        ],
         map: 'kanneliarvi_ba_2008',
         start: 'BA',
         maps: [
             'https://www.bikeadventure.ru/upload/files/arhiv-2008-2/bal08_a3.jpg'
-        ]
+        ],
+        split: [
+            'https://www.bikeadventure.ru/upload/files/arhiv-2008-2/bal2008s.html',
+            'https://www.bikeadventure.ru/upload/files/arhiv-2008-2/bal2008i.html'
+        ],
+        photo: [
+            'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=13',
+            'https://www.bikeadventure.ru/photo-gallery/?PAGE_NAME=section&SECTION_ID=11'
+        ],
     },
     {
         id: 'SPB_20081101_1',
