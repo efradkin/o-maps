@@ -3475,7 +3475,8 @@ let events2026 = [
         endReg: '2026-10-20 23:59',
         coord: [60.196722, 29.158649],
         map: 'yappilya_2024',
-        owner: 'NW'
+        owner: 'NW',
+        o_gps: 26247
     },
     {
         id: 'SPB_20261024_2',
@@ -3652,7 +3653,8 @@ let events2026 = [
         strava: 20814665726,
         o_gps: 26232,
         owner: 'DLITELNY',
-        map: 'losevo_2022'
+        map: 'losevo_2022',
+        reskeep: 948
     },
     {
         id: 'SPB_20261101_2',
