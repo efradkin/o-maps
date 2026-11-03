@@ -262,11 +262,23 @@ let mmsStartsMaps = [
     {
         name: 'Каменногорск',
         start: 'MMS',
+        year: 2008,
+        info: 'Плакат-календарь. Сводная карта всех дней.',
+        url: './maps/starts/mms/mms_2008_poster.webp',
+        link: './original_maps/starts/mms/mms_2008_poster_omaps.webp',
+        poster: './original_maps/starts/mms/mms_2008_poster_omaps.webp',
+        bounds: [[60.9895533, 29.1740227], [60.9847244, 29.2279243], [60.9541939, 29.1608906]],
+        author: ['VRBY','KVZN','KUZNTSV_S','KUZNTSV_R','NSNV','TKMKV_K']
+    },
+    {
+        name: 'Каменногорск',
+        start: 'MMS',
         date: '2008-06-28',
         info: 'Полуфинал.',
         url: './maps/starts/mms/mms_2008_06_28.webp',
         link: './original_maps/starts/mms/mms_2008_06_28_omaps.jpg',
-        bounds: [[60.9889706, 29.1777992], [60.9864313, 29.2094278], [60.9679008, 29.1706324]]
+        bounds: [[60.9889706, 29.1777992], [60.9864313, 29.2094278], [60.9679008, 29.1706324]],
+        author: ['VRBY','KVZN','KUZNTSV_S','KUZNTSV_R','NSNV','TKMKV_K']
     },
     {
         name: 'Кузнечное, Богатыри',
@@ -275,6 +287,7 @@ let mmsStartsMaps = [
         info: 'Финал.',
         url: './maps/starts/mms/mms_2009_06_28.webp',
         link: ['./original_maps/starts/mms/mms_2009_06_28_omaps.jpg','./original_maps/starts/mms/mms_all_2009_06_28_omaps.webp','./original_maps/starts/mms/mms_all_cps_2009_omaps.webp'],
+        poster: './original_maps/starts/mms/mms_2009_poster_omaps.webp',
         bounds: [[61.1242367, 29.8180532], [61.1221642, 29.8549175], [61.0994615, 29.8105431]]
     },
     {

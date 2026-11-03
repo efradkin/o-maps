@@ -440,7 +440,7 @@ let commonEvents = [
         start: 'MMS',
         region: 'SPB',
         o_site: '080627_MS',
-        map: 'mms_2008_06_28'
+        map: ['mms_2008_poster','mms_2008_06_28']
     },
     {
         id: 'SPB_20090626_1',

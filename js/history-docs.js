@@ -2672,7 +2672,23 @@ let historyDocs = [
         map: ['planernaya_2007_02_27','planernaya_2007_03_02']
     },
     {
-        name: 'Сводная карта всех дней (Лемболово)',
+        name: 'Плакат-календарь. Сводная карта всех дней (Каменногорск)',
+        start: 'MMS',
+        year: 2008,
+        info: '<a href="https://o-site.spb.ru/race.php?id=080627_MS">Инфо и результаты.</a>',
+        link: './original_maps/starts/mms/mms_2008_poster_omaps.webp',
+        author: ['VRBY','KVZN','KUZNTSV_S','KUZNTSV_R','NSNV','TKMKV_K']
+    },
+    {
+        name: 'Плакат-календарь. Сводная карта всех дней (Кузнечное)',
+        start: 'MMS',
+        year: 2009,
+        info: '<a href="https://o-site.spb.ru/race.php?id=09062628">Инфо и результаты.</a>',
+        link: './original_maps/starts/mms/mms_2009_poster_omaps.webp',
+        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K']
+    },
+    {
+        name: 'Плакат. Сводная карта всех дней (Лемболово)',
         start: 'MMS',
         year: 2010,
         info: '<a href="https://o-site.spb.ru/race.php?id=10062527">Инфо и результаты.</a>',
@@ -2680,7 +2696,7 @@ let historyDocs = [
         author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
-        name: 'Календарь (Лемболово-Орехово)',
+        name: 'Плакат-календарь. Календарь (Лемболово-Орехово)',
         start: 'MMS',
         year: 2011,
         info: '<a href="https://o-site.spb.ru/race.php?id=11062126">Инфо и результаты.</a>',
@@ -2688,7 +2704,15 @@ let historyDocs = [
         author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
-        name: 'Сводная карта всех дней (Поляны)',
+        name: 'Плакат-календарь. Сводная карта всех дней (Выборг)',
+        start: 'MMS',
+        year: 2013,
+        info: '<a href="https://o-site.spb.ru/race.php?id=13062830_MS">Инфо и результаты.</a>',
+        link: './original_maps/starts/mms/mms_2013_poster_omaps.webp',
+        author: ['KRYLS','SMLGS','TMLNS']
+    },
+    {
+        name: 'Плакат-календарь. Сводная карта всех дней (Поляны)',
         start: 'MMS',
         year: 2014,
         info: '<a href="https://o-site.spb.ru/race.php?id=14062729">Инфо и результаты.</a>',
@@ -2696,7 +2720,7 @@ let historyDocs = [
         author: 'SHRNN'
     },
     {
-        name: 'Сводная карта всех дней (Красная долина)',
+        name: 'Плакат-календарь. Сводная карта всех дней (Красная долина)',
         start: 'MMS',
         year: 2015,
         info: '<a href="https://o-site.spb.ru/race.php?id=15062628">Инфо и результаты.</a>',
@@ -2704,7 +2728,7 @@ let historyDocs = [
         author: ['DJCHKV','STLV_S']
     },
     {
-        name: 'Сводная карта всех дней (Коробицыно)',
+        name: 'Плакат-календарь. Сводная карта всех дней (Коробицыно)',
         start: 'MMS',
         year: 2016,
         info: '<a href="https://o-site.spb.ru/race.php?id=20160624">Инфо и результаты.</a>',
@@ -2712,7 +2736,7 @@ let historyDocs = [
         author: ['DJCHKV','STLV_S','PPV_D']
     },
     {
-        name: 'Сводная карта всех дней (Коробицыно)',
+        name: 'Плакат-календарь. Сводная карта всех дней (Коробицыно)',
         start: 'MMS',
         year: 2017,
         info: '<a href="https://o-site.spb.ru/race.php?id=17062325">Инфо и результаты.</a>',
