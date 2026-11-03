@@ -457,12 +457,18 @@ function year(o) { // map, track, event
     return null;
 }
 
+// Дата записи календаря для сортировки и сравнения: date, а у записи только с годом
+// (year: 'YYYY' без date) - 1 января этого года. Показывается у такой записи только год.
+function eventSortDate(evt) {
+    return evt.date ?? (evt.year ? evt.year + '-01-01' : undefined);
+}
+
 function getLastDate(events) {
     let date = null;
     if (events) {
         for (const e of events) {
-            if (e.date) {
-                const d = new Date(e.date);
+            if (eventSortDate(e)) {
+                const d = new Date(eventSortDate(e));
                 if (!date) {
                     date = d;
                 } else {
@@ -521,8 +527,8 @@ function getMapDates(m, events) {
     } else {
         const cache = [];
         for (const e of events) {
-            const date = getMapDatesOne(e);
-            if (cache.includes(date)) continue;
+            const date = e.date ? getMapDatesOne(e) : String(e.year ?? '');   // у записи только с годом - год
+            if (!date || cache.includes(date)) continue;
             cache.push(date);
             if (result) {
                 result += ', ';
@@ -1999,7 +2005,7 @@ function isEventOther(evt) {
 
 function validateEvent(evt) {
     if (CALENDAR_PARAM) {
-        const currentDate = new Date(evt.date);
+        const currentDate = new Date(eventSortDate(evt));
         const type = getEventType(evt);
         switch (CALENDAR_PARAM) {
             case ORIENT_EVENTS_CALENDAR_PARAM_VALUE:
@@ -2080,6 +2086,9 @@ function buildSheetDate(m) {
 }
 
 function buildEventDate(evt, withYear, withoutWeekDays) {
+    if (!evt.date && evt.year) {
+        return withYear ? String(evt.year) : '';   // запись только с годом: дня и месяца нет
+    }
     const date = new Date(evt.date);
     let day = date.getDate();
     let month = MONTHS_SHORT[date.getMonth()];

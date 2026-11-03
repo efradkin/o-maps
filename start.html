@@ -258,7 +258,7 @@
             if (!t.map) {
                 // внешняя карта: изображение - превью, PDF и прочее - значок; ссылка прямо на файл,
                 // у карты O-Stuff - на её страницу (превью не загрузилось - значок O-Stuff)
-                const title = `${strt.short}: ${new Date(t.evt.date).getFullYear()} - ${t.evt.name}`.replaceAll('"', '&quot;');
+                const title = `${strt.short}: ${new Date(eventSortDate(t.evt)).getFullYear()} - ${t.evt.name}`.replaceAll('"', '&quot;');
                 const img = t.preview ?? t.icon;
                 const attrs = externalMapPreviewAttrs(t, t.icon, 'start-map-file-icon');
                 const elTile = document.createElement("div");

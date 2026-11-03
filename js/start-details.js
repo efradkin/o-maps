@@ -263,10 +263,12 @@ function buildStartEventSection(evt, level, idx, children, idOf) {
     }
 
     let html = maps.figures + logo;
-    const eventYear = startYear(evt) ?? new Date(evt.date).getFullYear();
+    const eventYear = startYear(evt) ?? new Date(eventSortDate(evt)).getFullYear();
+    const day = buildEventDate(evt);   // у записи только с годом - пусто
+    const dateText = (day ? day + ' ' : '') + eventYear;
     const eventDate = evt.id
-        ? `<a href="${eventPageUrl(evt)}" class="event-page-link" title="Страница события">${buildEventDate(evt)} ${eventYear}</a>`
-        : `${buildEventDate(evt)} ${eventYear}`;
+        ? `<a href="${eventPageUrl(evt)}" class="event-page-link" title="Страница события">${dateText}</a>`
+        : dateText;
     html += `<h3>🗓️ ${eventDate} &nbsp;${buildEventStart(evt, true, true)}</h3>`;
 
     html += startDetailsLine('Место', buildEventPlace(evt));
@@ -324,7 +326,7 @@ function renderStartEvents() {
 
     // оглавление по годам - на первое событие года
     let html = buildYearsNav(ordered.map(item =>
-        ({year: new Date(item.evt.date).getFullYear(), id: idOf.get(item.evt)})));
+        ({year: new Date(eventSortDate(item.evt)).getFullYear(), id: idOf.get(item.evt)})));
 
     ordered.forEach((item, idx) => {
         html += buildStartEventSection(item.evt, item.level, idx, children, idOf);
@@ -413,7 +415,7 @@ function renderStartMaps() {
     ].sort((a, b) => b.date - a.date);
     let html = buildYearsNav(items.map(it => it.map
         ? {year: startMapYear(it.map, findEventsForMap(it.map, true)), id: mapSectionId(getMapName(it.map))}
-        : {year: new Date(it.ext.evt.date).getFullYear(), id: it.ext.id}));
+        : {year: new Date(eventSortDate(it.ext.evt)).getFullYear(), id: it.ext.id}));
     for (const it of items) {
         html += it.map ? buildStartMapSection(it.map) : buildStartExtMapSection(it.ext);
     }

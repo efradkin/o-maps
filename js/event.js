@@ -55,7 +55,9 @@
         return new Date(now.getFullYear(), now.getMonth(), now.getDate());
     }
 
+    // У записи только с годом (year без date) вместо даты - год.
     function shortDate(evt, withYear) {
+        if (!evt.date) return String(evt.year ?? '');
         const d = parseDay(evt.date);
         const mon = dt => MONTHS_GEN[dt.getMonth()].substring(0, 3);
         let s = d.getDate() + ' ' + mon(d);
@@ -70,6 +72,7 @@
     }
 
     function fullDateText(evt) {
+        if (!evt.date) return String(evt.year ?? '');
         const d = parseDay(evt.date);
         let s = d.getDate() + ' ' + MONTHS_GEN[d.getMonth()];
         if (evt.endDate && evt.endDate !== evt.date) {
@@ -138,14 +141,14 @@
     }
 
     function compareEvents(a, b) {
-        const c = String(a.date).localeCompare(String(b.date));
+        const c = String(eventSortDate(a)).localeCompare(String(eventSortDate(b))) || (a.date ? 1 : 0) - (b.date ? 1 : 0);
         return c !== 0 ? c : String(a.id).localeCompare(String(b.id));
     }
 
     function calendarLink(calendar, source, evt) {
         let href = calendar.page;
         if (calendar.years) {
-            const year = parseDay(evt.date).getFullYear();
+            const year = parseDay(eventSortDate(evt)).getFullYear();
             // До 2004 года (eventsEarly и ранние чемпионаты IOF) — страница «Ранние».
             const y = source === 'eventsEarly' || year < 2004 ? 'EARLY' : String(year);
             href += '?startYear=' + y;
@@ -177,8 +180,8 @@
     // --- статус по датам ------------------------------------------------------------
 
     function timeStatus(evt) {
-        const start = parseDay(evt.date);
-        const end = parseDay(evt.endDate ?? evt.date);
+        const start = parseDay(eventSortDate(evt));
+        const end = parseDay(evt.endDate ?? eventSortDate(evt));
         const now = today();
         if (evt.cancelled) return { text: 'Отменено', cls: 'bg-danger', past: end < now };
         if (now >= start && now <= end) {
@@ -305,6 +308,7 @@
     }
 
     function dateLine(evt) {
+        if (!evt.date) return fullDateText(evt);   // только год
         const d = parseDay(evt.date);
         let week = WEEK_DAYS[d.getDay()];
         if (evt.endDate && evt.endDate !== evt.date) week += ' – ' + WEEK_DAYS[parseDay(evt.endDate).getDay()];
@@ -446,6 +450,7 @@
 
     function buildResultsSection(evt) {
         let html = infoRow('Результаты', linkChipsHtml(evt.res, 'res'));
+        html += infoRow('Сплиты', linkChipsHtml(evt.split, 'res'));
         if (evt.reskeep) {
             const urls = asList(evt.reskeep).map(r => 'https://reskeep.ru/event/get?id=' + r);
             html += infoRow('Анализ сплитов', urls.map((u, i) =>
@@ -670,7 +675,7 @@
 
     // «Скоро» для маркера - как isActual() на основной карте (неделя).
     function timeStatusSoon(evt) {
-        const start = parseDay(evt.date);
+        const start = parseDay(eventSortDate(evt));
         const d = (start - today()) / DAY_MS;
         return d >= 0 && d < 7;
     }
@@ -716,11 +721,11 @@
             }
             const perYear = {};
             for (const e of all) {
-                const y = parseDay(e.date).getFullYear();
+                const y = parseDay(eventSortDate(e)).getFullYear();
                 perYear[y] = (perYear[y] ?? 0) + 1;
             }
             const items = list.map(e => {
-                const y = parseDay(e.date).getFullYear();
+                const y = parseDay(eventSortDate(e)).getFullYear();
                 const label = perYear[y] > 1 ? shortDate(e, true) : String(y);
                 const title = htmlEscape(stripTags(e.name) + ', ' + fullDateText(e));
                 return e.id === current.id
@@ -747,17 +752,18 @@
     }
 
     function buildSameDaysBlock(evt, ctx) {
+        if (!evt.date) return '';   // у записи только с годом дней нет
         const from = shiftDay(evt.date, -SAME_DAYS_MARGIN);
         const to = shiftDay(evt.endDate ?? evt.date, SAME_DAYS_MARGIN);
         const family = new Set([evt.id, ctx.parent?.id, ...ctx.all.filter(e => e.parent && (e.parent === evt.id || e.parent === ctx.parent?.id)).map(e => e.id)]);
         const list = ctx.calendarEvents
-            .filter(e => !family.has(e.id) && String(e.date).substring(0, 10) <= to && String(e.endDate ?? e.date).substring(0, 10) >= from)
+            .filter(e => !family.has(e.id) && e.date && String(e.date).substring(0, 10) <= to && String(e.endDate ?? e.date).substring(0, 10) >= from)
             .sort(compareEvents);
         if (!list.length) return '';
         const shown = list.slice(0, SAME_DAYS_LIMIT);
         let items = shown.map(e => {
             const place = getEventPlace(e)
-            return `<li>${shortDate(e, false)} — ${eventLogoIcon(e)}${buildEventPageTitle(e)}` +
+            return `<li>${shortDate(e, false)} — ${eventLogoIcon(e)}<a href="${eventPageUrl(e)}" target="_self">${e.name}</a>` +
                 (place ? ` (${htmlEscape(place)})` : '') + '</li>';
         }).join('');
         if (list.length > shown.length) {
@@ -849,8 +855,8 @@
             '@context': 'https://schema.org',
             '@type': 'SportsEvent',
             name: name,
-            startDate: evt.date,
-            endDate: evt.endDate ?? evt.date,
+            startDate: evt.date ?? evt.year,
+            endDate: evt.endDate ?? evt.date ?? evt.year,
             eventStatus: evt.cancelled ? 'https://schema.org/EventCancelled' : 'https://schema.org/EventScheduled',
             eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
             url: absUrl(eventPageUrl(evt)),

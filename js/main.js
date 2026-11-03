@@ -1080,7 +1080,7 @@ function createEventMarkers(evt) {
 }
 
 function createEventMarker(evt, evtMap) {
-    const currentDate = new Date(evt.date);
+    const currentDate = new Date(eventSortDate(evt));
     let now = new Date();
 
     let evtCPimage = './images/event_marker';
@@ -1872,6 +1872,9 @@ function buildEventDescription(e, withPlanner) {
         info += e.info;
     }
 */
+    if (e.link) {
+        info += ' ' + buildOSiteInfo(e);
+    }
     info += ' ' + buildEventResults(e);
     info += ' ' + buildGpsLinks(e, 'o-gps.gif', null, true);
     info += ' ' + buildPublish(e, '🗺️');
@@ -1919,10 +1922,10 @@ function buildEventPopup(evt, m) {
 
     // дата
     let info = '';
-    let d = buildEventDate(evt);
+    let d = buildEventDate(evt);   // у записи только с годом - пусто, остаётся год
     let sy = startYear(evt);
-    if (d && sy) {
-        info += `<b>${d} ${sy}</b>. `;
+    if (sy) {
+        info += `<b>${d ? d + ' ' : ''}${sy}</b>. `;
     }
 
     // место

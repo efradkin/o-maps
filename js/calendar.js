@@ -109,6 +109,7 @@ if (CALENDAR_PARAM) {
 }
 if (EVENT_MONTH_PARAM && ('0' !== EVENT_MONTH_PARAM)) {
     oEvents = oEvents.filter(event => {
+        if (!event.date) return false;   // у записи только с годом месяц неизвестен
         const date = new Date(event.date);
         const month = date.getMonth() + 1;
         return month.toString() === EVENT_MONTH_PARAM;
@@ -123,7 +124,7 @@ window.onload = function() {
     // сортировка стартов
     oEvents.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
         .sort((a, b) => {
-            let compare = dateForCompare(a) - dateForCompare(b);
+            let compare = dateForCompare(a) - dateForCompare(b) || yearOnlyFirst(a, b);
             if (compare === 0 && a.id && b.id) {
                 compare = a.id.localeCompare(b.id);
             }
@@ -169,7 +170,7 @@ window.onload = function() {
 const tbody = document.querySelector('.o-main-table tbody');
 
 let currentDate;
-let monthTD = null, prevDate = null;
+let monthTD = null, prevDate = null, prevYearOnly = false;
 let korients = 0, krogaines = 0, kothers = 0;
 
 // Строки-разделители групп (td.month-row). Обычно старты группируются по
@@ -180,8 +181,17 @@ let korients = 0, krogaines = 0, kothers = 0;
 // «Ранние» старты (startYear=EARLY) группируются не мельче чем по годам.
 const SPARSE_GROUP_MIN = 2;
 
-function groupKeyOf(date, grouping) {
-    return grouping === 'month' ? date.getFullYear() * 12 + date.getMonth() : date.getFullYear();
+// Запись только с годом (year без date) при группировке по месяцам идёт
+// отдельной группой перед январём своего года, в заголовке - только год.
+function groupKeyOf(evt, grouping) {
+    const date = new Date(eventSortDate(evt));
+    if (grouping !== 'month') return date.getFullYear();
+    return evt.date ? date.getFullYear() * 12 + date.getMonth() : date.getFullYear() * 12 - 0.5;
+}
+
+// При равной дате запись только с годом (1 января) - раньше записей с датой.
+function yearOnlyFirst(a, b) {
+    return (a.date ? 1 : 0) - (b.date ? 1 : 0);
 }
 
 function chooseGrouping(events) {
@@ -190,7 +200,7 @@ function chooseGrouping(events) {
     }
     const levels = ('EARLY' === START_YEAR_PARAM) ? ['year'] : ['month', 'year'];
     for (const grouping of levels) {
-        const groups = new Set(events.map(evt => groupKeyOf(new Date(evt.date), grouping)));
+        const groups = new Set(events.map(evt => groupKeyOf(evt, grouping)));
         if (events.length >= SPARSE_GROUP_MIN * groups.size) {
             return grouping;
         }
@@ -215,9 +225,9 @@ function renderMapsTable() {
     let currentGroup = null;
     for (const evt of visibleEvents) {
         totalEvents++;
-        currentDate = new Date(evt.date);
+        currentDate = new Date(eventSortDate(evt));
         const y = currentDate.getFullYear();
-        if (grouping !== 'none' && groupKeyOf(currentDate, grouping) !== currentGroup) {
+        if (grouping !== 'none' && groupKeyOf(evt, grouping) !== currentGroup) {
             if (monthTD) {
                 buildMonth(grouping);
             }
@@ -227,11 +237,11 @@ function renderMapsTable() {
             monthTD.classList.add('month-row');
             monthRow.appendChild(monthTD);
             tbody.appendChild(monthRow);
-            currentGroup = groupKeyOf(currentDate, grouping);
+            currentGroup = groupKeyOf(evt, grouping);
         }
 
         const row = document.createElement('tr');
-        const lastDate = new Date(evt.endDate ?? evt.date);
+        const lastDate = new Date(evt.endDate ?? eventSortDate(evt));
         if (isOutdated(lastDate)) {
             row.classList.add('disabled');
         } else {
@@ -303,6 +313,7 @@ function renderMapsTable() {
         tbody.appendChild(row);
 
         prevDate = currentDate;
+        prevYearOnly = !evt.date;
     }
     buildMonth(grouping);
     alignMonthRows();
@@ -333,7 +344,7 @@ function buildMonth(grouping) {
     if (prevDate && monthTD) {
         const year = prevDate.getFullYear();
         let title = `<span class="month-year">${year}</span>`;
-        if (grouping === 'month') {
+        if (grouping === 'month' && !prevYearOnly) {
             const monthName = prevDate.toLocaleString('ru', {month: 'long'});
             title = `<span class="month-name">${monthName}</span>&nbsp;&nbsp;&nbsp;` + title;
         }
@@ -446,7 +457,8 @@ function sortEventsTable() {
             break;
         case 'date':
             oEvents.sort((a, b) => {
-                return isAscending ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date);
+                const compare = eventSortDate(a).localeCompare(eventSortDate(b)) || yearOnlyFirst(a, b);
+                return isAscending ? compare : -compare;
             });
             break;
         case 'place':

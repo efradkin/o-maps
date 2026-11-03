@@ -347,7 +347,7 @@
         // Общие старты (js/calendar-common.js), чемпионаты IOF (js/calendar-iof.js), старты ФСОР (js/calendar-fsor.js)
         // и чемпионаты IRF (js/calendar-irf.js) — по году даты начала; до 2004 года — в «Ранних».
         const iofYear = /^\d{4}$/.test(y) && y >= '2004' && y <= '2027' ? y : '2026';
-        const byYear = e => y === 'ALL' || (y === 'EARLY' ? e.date < '2004' : e.date.startsWith(iofYear));
+        const byYear = e => y === 'ALL' || (y === 'EARLY' ? eventSortDate(e) < '2004' : eventSortDate(e).startsWith(iofYear));
         oEvents.push(...commonEvents.filter(byYear));
         oEvents.push(...iofEvents.filter(byYear));
         oEvents.push(...fsorEvents.filter(byYear));
