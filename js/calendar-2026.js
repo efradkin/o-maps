@@ -3691,6 +3691,7 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1762',
         bulletin: 'https://o-site.spb.ru/_races/261104_OM/Info_OM_041126.pdf',
         fmt: 'лонг',
+        coord: [60.367405, 29.553411],
         owner: 'AZIMUT',
         map: 'tsvelodubovo_2020',
         endReg: '2026-11-01 18:00'
@@ -3794,6 +3795,16 @@ let events2026 = [
         name: 'День матери',
         owner: 'FENIX',
         map: 'poljustrovo_tukhachevskogo_2026'
+    },
+    {
+        id: 'SPB_20261129_1',
+        date: '2026-11-29',
+        name: 'Кавголовская классика',
+        place: 'Кавголовская классика, ноябрь',
+        fmt: 'классика',
+        coord: [60.187801, 30.548779],
+        o_site: '261129_bn',
+        reg: 'https://orgeo.ru/event/56645'
     },
 /*
     {
