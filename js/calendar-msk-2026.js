@@ -3348,7 +3348,7 @@ let mskEvents2026 = [
         type: "ORIENT",
         coord: [54.904556, 37.360451],
         reg: "https://orgeo.ru/event/56537",
-        endReg: "2026-11-04 00:00"
+        endReg: "2026-11-04 16:00"
     },
     {
         id: 'MSK_20261107_1',

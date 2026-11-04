@@ -3692,9 +3692,11 @@ let events2026 = [
         bulletin: 'https://o-site.spb.ru/_races/261104_OM/Info_OM_041126.pdf',
         fmt: 'лонг',
         coord: [60.367405, 29.553411],
+        video: 'https://vk.ru/clip-220245153_456239107',
         owner: 'AZIMUT',
         map: 'tsvelodubovo_2020',
-        endReg: '2026-11-01 18:00'
+        endReg: '2026-11-01 18:00',
+        o_gps: 26262
     },
     {
         id: 'SPB_20261107_1',
@@ -3825,7 +3827,12 @@ let events2026 = [
         id: 'SPB_20261213_1',
         date: '2026-12-13',
         name: 'Снежная тропа',
+        place: 'Удельный парк',
+        o_site: '261213_st',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1764',
         start: 'SNOW_WAY',
-        fmt: 'спринт'
+        fmt: 'спринт',
+        endReg: '2026-12-10',
+        bulletin: 'https://o-site.spb.ru/_races/261213_st/261213_info-1.pdf'
     }
 ];
