@@ -3328,7 +3328,8 @@ let mskEvents2026 = [
         coord: [55.792382, 37.364131],
         link: "https://docs.google.com/document/d/12E_ygODYGZqvJbS3WlLwnp7bhdqI7xxf-Gjk1Qspjko/edit?usp=sharing",
         reg: "https://buyrun.ru/event/159",
-        owner: "MLKHT"
+        owner: "MLKHT",
+        map: 'lipovaya_roscha_2026'
     },
     {
         id: 'MSK_20261104_3',

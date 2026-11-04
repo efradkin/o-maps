@@ -1455,6 +1455,15 @@ let moscowMaps = [
         type: ['PARK']
     },
     {
+        name: 'Липовая Роща',
+        year: 2026,
+        url: './maps/moscow/lr/lipovaya_roscha_2026.webp',
+        bounds: [[55.8002317, 37.3713255], [55.7959136, 37.3777413], [55.7933684, 37.3583651]],
+        author: 'MLKHV_B',
+        owner: 'MLKHT',
+        type: ['PARK']
+    },
+    {
         name: 'Люблинский парк, Парк Шкулёва',
         year: 2025,
         url: './maps/moscow/o-mephi/20210531_842.webp',
