@@ -3254,6 +3254,14 @@ function buildOrderPanel(m) {
             result += `. Приблизительная дата готовности - ${m.order.ready}`;
         }
         result += `${from ? '. Заказчик - ' + from : ''}.<br />`;
+        if (m.order.author) {
+            if (Array.isArray(m.author)) {
+                result += 'Исполнители:';
+            } else {
+                result += 'Исполнитель: ';
+            }
+            result += buildAuthors(m.order);
+        }
         result += buildOrderInfo(m, true, true, false);
         result += '</div><br />';
     }

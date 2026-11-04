@@ -611,6 +611,19 @@ let vyborgMaps = [
         bounds: [[60.7445867, 28.7580872], [60.744314, 28.781991], [60.7251809, 28.7585163]]
     },
     {
+        name: 'Кировские дачи, стрельбище',
+        year: 2027,
+        url: './maps/forest/vyborg/kirovskie_dachi_2027.webp',
+        link: './original_maps/forest/vyborg/kirovskie_dachi_2027_omaps.webp',
+        owner: 'VYBORG',
+        order: {
+            author: 'RDNV_I',
+            owner: 'VYBORG'
+        },
+        in_work: true,
+        bounds: [[60.7414615, 28.7594604], [60.7396996, 28.7748241], [60.7313081, 28.7547398]],
+    },
+    {
         name: 'Кировские дачи',
         year: 1992,
         url: './maps/forest/vyborg/kirovskie_dachi_1992.webp',
