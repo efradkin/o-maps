@@ -3696,7 +3696,10 @@ let events2026 = [
         owner: 'AZIMUT',
         map: 'tsvelodubovo_2020',
         endReg: '2026-11-01 18:00',
-        o_gps: 26262
+        strava: 20854831427,
+        me: 'М50',
+        o_gps: 26262,
+        reskeep: 949
     },
     {
         id: 'SPB_20261107_1',
@@ -3729,10 +3732,11 @@ let events2026 = [
         date: '2026-11-07',
         name: 'Феникс Middle-Cup',
         place: 'Ржевский лесопарк, Восточная часть',
+        o_site: '261107',
         coord: [59.952816, 30.508656],
         reg: 'https://orgeo.ru/event/56585',
         endReg: '2026-11-06 12:00',
-        bulletin: 'https://orgeo.ru/files/event/file/56585_e2ea05b23f.pdf',
+        bulletin: 'https://o-site.spb.ru/_races/261107/261107_info.pdf',
         owner: 'FENIX'
     },
     {
@@ -3755,7 +3759,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/56429',
         endReg: '2026-11-05 23:55',
         start: 'ROGAINE_110',
-        bulletin: 'https://o-site.spb.ru/_races/261108_110/markir08112026-info.pdf',
+        bulletin: 'https://o-site.spb.ru/_races/261108_110/markir_info2.pdf',
         map: 'silande_2024'
     },
     {
