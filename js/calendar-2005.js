@@ -359,9 +359,11 @@ let events2005 = [
         date: '2005-05-28',
         endDate: '2005-05-29',
         name: 'Чемпионат СПб, спринт и средняя дистанция',
+        place: 'Ильичёво',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/05052829/05052829.zip',
-        o_site: '05052829'
+        o_site: '05052829',
+        map: 'ilychevo_2005'
     },
     {
         id: 'SPB_20050604_1',

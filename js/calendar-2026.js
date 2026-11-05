@@ -3102,7 +3102,8 @@ let events2026 = [
         bulletin: 'https://orgeo.ru/files/event/file/55780_0412d401dd.pdf',
         publish: 'https://disk.yandex.ru/d/Dybf7s7KHRjqkQ',
         owner: 'FENIX',
-        map: 'lindulovskaya_roscha_2015'
+        map: 'lindulovskaya_roscha_2015',
+        maps: './original_maps/starts/other/lindulovskaya_roscha_2016_10_04_omaps.webp'
     },
     {
         id: 'SPB_20261004_2',

@@ -733,7 +733,8 @@ let events2009 = [
         info: 'Открытое первенство СДЮСШОР Курортного района, Открытое первенство КСО «Азимут»',
         logo: 'azimut.gif',
         o_site: '09061214',
-        bulletin: 'https://o-site.spb.ru/_races/09061214/09061214_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/09061214/09061214_info.htm',
+        maps: './original_maps/starts/other/komarovo_2009_06_12_omaps.webp'
     },
     {
         id: 'SPB_20090612_3',

@@ -1036,6 +1036,7 @@ let parkMaps = [
         year: 2015,
         url: './maps/parks/novoorlovsky_2015.webp',
         link: './original_maps/parks/novoorlovsky_2015_omaps.jpg',
+        about: 'https://qr-orient.ru/spbpoligon',
         bounds: [[60.0585865, 30.2692223], [60.0567444, 30.2942848], [60.0469536, 30.2661753]],
         info: 'Ковидный полигон от O-Time.',
         author: 'DBRTSV_V',

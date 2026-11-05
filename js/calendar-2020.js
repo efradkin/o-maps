@@ -1594,7 +1594,9 @@ let events2020 = [
         photo: 'http://vk.com/spb_orient?z=album-154221178_275110153',
         info: 'Организаторы: Комитет по физической культуре и спорту Санкт-Петербурга. СПб ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» РФСОО «Спортивная Федерация спортивного ориентирования Санкт-Петербурга»',
         o_site: '201003',
-        reskeep: 382
+        reskeep: 382,
+        map: 'sestroretskie_detskie_djuny_2020',
+        maps: './original_maps/starts/other/sestroretsk_detskie_dyuny_2020_10_03_omaps.webp'
     },
     {
         id: 'SPB_20201003_2',
@@ -1791,7 +1793,8 @@ let events2020 = [
         bulletin: 'https://o-site.spb.ru/_races/201024_relay/20102425_info1.pdf',
         reskeep: 390,
         strava: 4236692958,
-        map: 'sestroretsk_tamozhennaya_doroga_2012'
+        map: 'sestroretsk_tamozhennaya_doroga_2012',
+        maps: './original_maps/starts/other/sestroretsk_tamozhennaya_doroga_2020_10_24_omaps.webp'
     },
     {
         id: 'SPB_20201025_1',

@@ -1151,7 +1151,8 @@ let events2008 = [
         publish: 'https://o-site.spb.ru/race.php?id=081130t',
         o_site: '081130t',
         bulletin: 'https://o-site.spb.ru/_races/081130t/081130t_info.htm',
-        map: 'zelenogorsk_schuchye_2005'
+        map: 'zelenogorsk_schuchye_2005',
+        maps: './original_maps/starts/other/zelenogorsk_schuchye_2008_11_30_omaps.webp'
     },
     {
         id: 'SPB_20081130_3',

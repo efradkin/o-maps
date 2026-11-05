@@ -482,6 +482,7 @@ let southMaps = [
         year: 2020,
         url: './maps/forest/south/shapki_otime_2020.webp',
         link: './original_maps/forest/south/shapki_otime_2020_omaps.jpg',
+        about: 'https://qr-orient.ru/spbpoligon',
         bounds: [[59.5982289, 31.1704445], [59.5987501, 31.2126732], [59.5807198, 31.1713028]],
         info: 'Ковидный полигон от O-Time.',
         owner: 'NKLSK'
@@ -681,6 +682,7 @@ let southMaps = [
         url: './maps/forest/south/nagorny_park_2020.webp',
         link: './original_maps/forest/south/nagorny_park_2020_omaps.jpg',
         photo: './tracks/dudergof/pic_5.jpg',
+        about: 'https://qr-orient.ru/spbpoligon',
         bounds: [[59.7056033, 30.1187181], [59.7035899, 30.14112], [59.6917022, 30.1136541]],
         info: 'Ковидный полигон от O-Time.',
         author: 'DBRTSV_V'

@@ -529,7 +529,9 @@ let events2021 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/210418/splits_2021_04_18_mtbo.htm',
         o_site: '210418',
-        bulletin: 'https://o-site.spb.ru/_races/210418/210418_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/210418/210418_info.pdf',
+        map: 'solnechnoe_velo_2021',
+        maps: './original_maps/starts/other/solnechnoe_velo_2021_04_18_omaps.webp'
     },
     {
         id: 'SPB_20210418_2',
@@ -628,7 +630,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210425_MTBO/210425_rez.htm',
         o_site: '210425_MTBO',
         bulletin: 'https://o-site.spb.ru/_races/210425_MTBO/210425_info2.pdf',
-        map: 'sestroretsk_tamozhennaya_doroga_velo_2008'
+        map: 'sestroretsk_tamozhennaya_doroga_velo_2008',
+        maps: './original_maps/starts/other/sestroretsk_tamozhennaya_doroga_velo_2021_04_25_omaps.webp'
     },
     {
         id: 'SPB_20210428_1',
@@ -955,7 +958,8 @@ let events2021 = [
         res: 'http://sportident.online/ol/?id=347',
         o_site: '210522',
         bulletin: 'https://o-site.spb.ru/_races/210522/210522_info2.pdf',
-        map: 'pukhtolova_gora_velo_2025'
+        map: 'pukhtolova_gora_velo_2025',
+        maps: './original_maps/starts/other/pukhtolova_gora_velo_2021_05_22_omaps.webp'
     },
     {
         id: 'SPB_20210522_2',

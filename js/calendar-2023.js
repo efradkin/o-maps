@@ -572,7 +572,8 @@ let events2023 = [
         type: 'TRAIL_O',
         coord: [60.204876, 29.742239],
         o_site: '230415_trailo',
-        map: 'zelenogorsk_tspko_2024'
+        map: 'zelenogorsk_tspko_2024',
+        maps: './original_maps/starts/other/zelenogorsk_tspko_2023_04_15_omaps.webp'
     },
     {
         id: 'SPB_20230416_1',

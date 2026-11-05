@@ -1083,7 +1083,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/10100910/10100910_res.zip',
         o_site: '10100910',
         endDate: '2010-10-10',
-        map: 'zelenogorsk_leninskoe_2008'
+        map: 'zelenogorsk_leninskoe_2008',
+        maps: './original_maps/starts/other/zelenogorsk_2010_10_10_omaps.webp'
     },
     {
         id: 'SPB_20101009_3',
