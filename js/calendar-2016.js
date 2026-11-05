@@ -309,8 +309,11 @@ let events2016 = [
         id: 'SPB_20160403_1',
         date: '2016-04-03',
         name: 'Весенние капели',
+        place: 'Лехтуси',
         res: 'https://o-site.spb.ru/_races/160326/160403_res.htm',
-        o_site: '160326'
+        o_site: '160326',
+        map: 'lehtusi_valkijarvi_2016',
+        maps: './original_maps/starts/other/lehtusi_2016_04_03_omaps.webp'
     },
     {
         id: 'SPB_20160409_1',
@@ -775,7 +778,7 @@ let events2016 = [
         id: 'SPB_20160522_1',
         date: '2016-05-22',
         name: 'Российский Азимут ЛО',
-        place: 'Юкки, Выборг',
+        place: 'Лесколово, Выборг',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/160522_LO/160522_res1.htm',
         video: 'https://www.youtube.com/watch?v=fh3Gmjc_HS0',

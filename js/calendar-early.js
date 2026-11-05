@@ -3032,6 +3032,14 @@ let eventsEarly = [
         start: 'MB'
     },
     {
+        id: 'SPB_1994_2',
+        year: '1994',
+        place: 'Гарболово',
+        name: 'Кубок Нева-Тур',
+        map: 'garbolovo_1994',
+        maps: './original_maps/starts/other/garbolovo_1994_neva_tour_omaps.webp'
+    },
+    {
         id: 'SPB_19940109_1',
         date: '1994-01-09',
         name: 'St.Petersburg Cup',

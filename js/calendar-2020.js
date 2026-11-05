@@ -876,7 +876,8 @@ let events2020 = [
         name: 'Serebruanitskii Cup 3',
         reskeep: 343,
         strava: 3780635030,
-        map: 'stekljanny_2014'
+        map: 'stekljanny_2014',
+        maps: './original_maps/starts/other/stekljanny_2014_07_18_omaps.webp'
     },
     {
         id: 'SPB_20200718_2',
@@ -2131,7 +2132,8 @@ let events2020 = [
         strava: 4437026952,
         o_gps: 8614,
         endReg: '2020-12-05 10:00',
-        map: 'garbolovo_2016'
+        map: 'garbolovo_2016',
+        maps: './original_maps/starts/other/garbolovo_2020_12_06_omaps.webp'
     },
     {
         id: 'SPB_20201212_1',

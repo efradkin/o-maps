@@ -775,7 +775,9 @@ let events2006 = [
         name: '48-й летний Ч-т и Пер-во СПб по спортивному ориентированию, марафон',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/061022/res.rar',
-        o_site: '061022'
+        o_site: '061022',
+        map: 'vaskelovo_bannoe_2006',
+        maps: ['./original_maps/starts/other/bannoe_2006_10_22_1_omaps.webp','./original_maps/starts/other/bannoe_2006_10_22_2_omaps.webp']
     },
     {
         id: 'SPB_20061028_1',
