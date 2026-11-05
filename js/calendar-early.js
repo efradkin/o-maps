@@ -1412,6 +1412,13 @@ let eventsEarly = [
         map: 'kavgolovo_1981'
     },
     {
+        id: 'SPB_19881218_1',
+        date: '1988-12-18',
+        place: 'Щеглово',
+        name: 'Невская заря',
+        map: 'scheglovo_1987'
+    },
+    {
         id: 'SPB_19881231_1',
         date: '1988-12-31',
         place: 'Юкки',

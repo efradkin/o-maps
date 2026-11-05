@@ -498,7 +498,7 @@ let events2013 = [
         id: 'SPB_20130427_2',
         date: '2013-04-27',
         place: 'Суоранда',
-        name: 'Кубок Яркого Мира 2013, 1 этап',
+        name: 'П-во Всеволожского р-на, Кубок Яркого Мира 2013, 1 этап',
         res: 'http://www.o-site.spb.ru/_races/2013CupYM/130427_split.htm',
         o_site: '2013CupYM',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#147',

@@ -2046,7 +2046,9 @@ let events2015 = [
         bulletin: 'https://o-site.spb.ru/_races/150223_VT/151213_info.pdf',
         info: '5 этап многоэтапных соревнований Всеволожского района по спортивному ориентированию',
         o_site: '150223_VT',
-        o_gps: 811
+        o_gps: 811,
+        map: 'koltushi_2009',
+        maps: './original_maps/starts/other/koltushi_2015_12_13_omaps.webp'
     },
     {
         id: 'SPB_20151213_2',

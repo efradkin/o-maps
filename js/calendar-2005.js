@@ -112,7 +112,8 @@ let events2005 = [
         fmt: 'выбор с раздельного старта',
         start: 'YM_CUP',
         o_site: '050307',
-        map: 'vsevolozhsk_rumbolovo_2001'
+        map: 'vsevolozhsk_rumbolovo_2001',
+        maps: './original_maps/starts/other/vsevolozhsk_rumbolovo_2005_03_07_omaps.webp'
     },
     {
         id: 'SPB_20050308_1',

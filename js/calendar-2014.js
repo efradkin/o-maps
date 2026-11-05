@@ -306,7 +306,8 @@ let events2014 = [
         name: 'Яркий Кубок 2014, 2 этап',
         res: 'http://www.o-site.spb.ru/_races/2014CupYM/140413_split.htm',
         o_site: '2014CupYM',
-        start: 'YM_CUP'
+        start: 'YM_CUP',
+        maps: './original_maps/starts/other/voejkovo_2014_04_13_omaps.webp'
     },
     {
         id: 'SPB_20140415_1',
@@ -867,7 +868,8 @@ let events2014 = [
         res: 'http://www.o-site.spb.ru/_races/2014CupYM/140706_split.htm',
         o_site: '2014CupYM',
         start: 'YM_CUP',
-        map: 'suoranda_2006'
+        map: 'orovo_2007',
+        maps: './original_maps/starts/other/suoranda_2014_07_06_omaps.webp'
     },
     {
         id: 'SPB_20140712_1',

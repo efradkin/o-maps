@@ -1293,7 +1293,8 @@ let events2019 = [
         o_site: '190901',
         bulletin: 'https://o-site.spb.ru/_races/190901/190901_info.pdf',
         reskeep: 190,
-        map: 'vsevolozhsk_rumbolovo_2014'
+        map: 'vsevolozhsk_rumbolovo_2014',
+        maps: './original_maps/starts/other/vsevolozhsk_rumbolovo_2019_09_01_omaps.webp'
     },
     {
         id: 'SPB_20190901_3',

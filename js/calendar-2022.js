@@ -911,6 +911,7 @@ let events2022 = [
         bulletin: 'https://o-site.spb.ru/_races/220521LO/220521LO_info.pdf',
         reskeep: 543,
         map: 'vsevolozhsk_rumbolovo_2014',
+        maps: './original_maps/starts/other/vsevolozhsk_rumbolovo_2022_05_21_omaps.webp',
         endReg: '2022-05-19 23:55'
     },
     {

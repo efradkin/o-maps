@@ -1126,7 +1126,8 @@ let events2010 = [
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/101016_split.htm',
         start: 'YM_CUP',
         o_site: '2010CupYM',
-        map: 'sestroretskie_detskie_djuny_2010'
+        map: 'voejkovo_2009',
+        maps: './original_maps/starts/other/voejkovo_2009_10_16_omaps.webp'
     },
     {
         id: 'SPB_20101016_2',

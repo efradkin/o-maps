@@ -150,6 +150,7 @@ let vsevolozhskMaps = [
         name: 'Воейково',
         year: 2009,
         url: './maps/forest/vsevolozhsk/voejkovo_2009.webp',
+        link: './original_maps/forest/vsevolozhsk/voejkovo_2009_omaps.gif',
         bounds: [[59.9704772, 30.6625843], [59.9653223, 30.7164001], [59.9513358, 30.656147]],
         author: 'GRV_S'
     },
@@ -165,6 +166,7 @@ let vsevolozhskMaps = [
         name: 'Всеволожск, Ждановские оз',
         year: 2014,
         url: './maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_oz_2014.webp',
+        link: ['./original_maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_oz_2020_08_30_omaps.webp','./original_maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_oz_2023_10_28_omaps.webp'],
         bounds: [[59.9959818, 30.684042], [59.9941147, 30.7074738], [59.9795392, 30.6785917]],
         author: ['MKHLV_A','SLBDNK']
     },

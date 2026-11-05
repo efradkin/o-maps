@@ -212,7 +212,8 @@ let events2017 = [
         name: 'Всеволожская тропа 2017, 1 этап',
         start: 'VSEVOLOZHSK_WAY',
         place: 'Рахья',
-        map: 'rakhja_2017'
+        map: 'rakhja_2017',
+        maps: './original_maps/starts/other/rakhja_2017_02_23_omaps.webp'
     },
     {
         id: 'SPB_20170224_1',

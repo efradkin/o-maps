@@ -999,7 +999,8 @@ let events2008 = [
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/08102526/081026_res.pdf',
         o_site: '08102526',
-        map: 'voejkovo_2009'
+        map: 'voejkovo_2009',
+        maps: ['./original_maps/starts/other/voejkovo_2008_10_25_omaps.webp','./original_maps/starts/other/voejkovo_2008_10_26_omaps.webp']
     },
     {
         id: 'SPB_20081025_3',

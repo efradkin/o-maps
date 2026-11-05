@@ -999,7 +999,8 @@ let events2021 = [
         reg: 'https://orgeo.ru/event/16970',
         bulletin: 'https://o-site.spb.ru/_races/210523LO/210523LO_info2.pdf',
         endReg: '2021-05-20 23:55',
-        map: 'berngardovka_2021'
+        map: 'berngardovka_2021',
+        maps: './original_maps/starts/other/berngardovka_2021_05_23_omaps.webp'
     },
     {
         id: 'SPB_20210523_2',

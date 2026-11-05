@@ -346,6 +346,7 @@ let events2011 = [
         date: '2011-04-30',
         endDate: '2011-05-02',
         name: 'Чемпионат и Первенство ЛО',
+        place: 'Павлово, Воейково',
         start: 'LO_CHAMP',
         res: 'https://o-site.spb.ru/_races/11043002/11043002_res.zip',
         o_site: '11043002',
@@ -353,7 +354,8 @@ let events2011 = [
             'спринт': 'https://o-site.spb.ru/cgi-bin/rg2.php#75',
             'кросс': 'https://o-site.spb.ru/cgi-bin/rg2.php#76',
             'классика': 'https://o-site.spb.ru/cgi-bin/rg2.php#77'
-        }
+        },
+        map: ['koltushi_2009','voejkovo_2009']
     },
     {
         id: 'SPB_20110504_1',

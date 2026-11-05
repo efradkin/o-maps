@@ -1276,7 +1276,8 @@ let events2007 = [
         info: 'Соревнования проводятся по группам: МЖ10 (1997 г.р. и младше), МЖ-12 (1996-1995 г.р.), МЖ-14 (1994-1993г.р.), МЖ-16 (1992-1991г.р.), МЖ-21 (1990г.р. и старше), М,Ж-40 (1967-1953 г.р.), МЖ-55 (1952 г.р. и старше)',
         owner: 'SFSO_LO',
         o_site: '071125',
-        bulletin: 'https://o-site.spb.ru/_races/071125/071125_info.htm'
+        bulletin: 'https://o-site.spb.ru/_races/071125/071125_info.htm',
+        maps: './original_maps/starts/other/vsevolozhsk_2007_11_25_omaps.webp'
     },
     {
         id: 'SPB_20071202_1',
