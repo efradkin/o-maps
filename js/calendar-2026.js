@@ -3811,7 +3811,8 @@ let events2026 = [
         fmt: 'классика',
         coord: [60.187801, 30.548779],
         o_site: '261129_bn',
-        reg: 'https://orgeo.ru/event/56645'
+        reg: 'https://orgeo.ru/event/56645',
+        endReg: '2026-11-28 20:00'
     },
 /*
     {
