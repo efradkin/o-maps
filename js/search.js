@@ -319,7 +319,7 @@
             `<span class="search-date">${formatDates(date, endDate)}</span> ` +
             (parent ? '<span class="search-stage" title="Этап многодневного события">↳</span> ' : '') +
             russialoppetLogo + logoImg(logo, name) +
-            `<a href="event.html?id=${encodeURIComponent(id)}" target="_self">${hl(name)}</a>` +
+            `<a href="event.html?id=${encodeURIComponent(id)}">${hl(name)}</a>` +
             (flags.includes('c') ? ' <span class="badge bg-secondary">отменено</span>' : '') +
             icons +
             (extra.length ? ` <span class="search-meta">· ${extra.join(' · ')}</span>` : '') +
@@ -340,7 +340,7 @@
         const caption = [name, mapYears(rec)].filter(Boolean).join(', ');
         const region = mapRegion(rec);
         return `<div class="start-map-box search-map-box">` +
-            `<a href="map-info.html?map=${encodeURIComponent(key)}" target="_self">` +
+            `<a href="map-info.html?map=${encodeURIComponent(key)}">` +
             `<img src="${esc(img)}" alt="${esc(caption)}" title="${esc(caption + (region ? ' · ' + region : ''))}" loading="lazy" /></a>` +
             `<div class="start-map-box-description">${hl(name)}${mapYears(rec) ? ', ' + mapYears(rec) : ''}</div>` +
             (region ? `<div class="search-meta">${esc(region)}</div>` : '') +
@@ -352,7 +352,7 @@
         const extra = [mapRegion(rec), typesHtml(types)].filter(Boolean);
         return `<li class="search-map">` +
             `<span class="search-date">${esc(mapYears(rec)) || '—'}</span> ` +
-            `<a href="map-info.html?map=${encodeURIComponent(key)}" target="_self">${hl(name)}</a>` +
+            `<a href="map-info.html?map=${encodeURIComponent(key)}">${hl(name)}</a>` +
             (extra.length ? ` <span class="search-meta">· ${extra.join(' · ')}</span>` : '') +
             `</li>`;
     }
@@ -385,7 +385,7 @@
                 break;
         }
         return `<li class="search-entity">${logoImg(logo, rec.name)}` +
-            `<a href="${esc(href)}" target="_self">${hl(rec.name)}</a>` +
+            `<a href="${esc(href)}">${hl(rec.name)}</a>` +
             (note ? ` <span class="search-meta">${hl(note)}</span>` : '') + '</li>';
     }
 
@@ -444,7 +444,7 @@
         const showsMaps = lists.m.length && (tab === 'all' || tab === 'maps');
         if (showsMaps) {
             const next = view === 'tiles' ? 'list' : 'tiles';
-            html += `<li class="nav-item search-view-item"><a class="nav-link search-view-switch" href="#" target="_self" ` +
+            html += `<li class="nav-item search-view-item"><a class="nav-link search-view-switch" href="#" ` +
                 `data-view="${next}" title="${next === 'list' ? 'Показать карты списком' : 'Показать карты плашками с картинками'}">` +
                 `${next === 'list' ? '☰ Списком' : '▦ Плашками'}</a></li>`;
         }
@@ -502,7 +502,7 @@
                 let part = `<h2 class="${isShort ? 'h6' : 'h5'}">${kind.title} <span class="search-count">${list.length}</span></h2>`;
                 part += renderList(kind, list, kind.preview, hl);
                 if (list.length > kind.preview) {
-                    part += `<p><a href="#" target="_self" data-tab="${kind.tab}">Все ${countText(kind, list.length)} →</a></p>`;
+                    part += `<p><a href="#" data-tab="${kind.tab}">Все ${countText(kind, list.length)} →</a></p>`;
                 }
                 if (isShort) shortHtml += `<div class="search-subgroup">${part}</div>`;
                 else html += `<section class="search-group">${part}</section>`;
