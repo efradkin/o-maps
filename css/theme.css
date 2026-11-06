@@ -2629,6 +2629,14 @@ a.leaflet-control-slider-toggle {
 }
 
 
+/* Основные заголовки справки и статистики не должны наследовать
+   исторический padding:30px из .index-body h1 — в том числе на мобильных. */
+body.help-body h1.page-title,
+body.stat-body h1.page-title {
+    padding: 0;
+}
+
+
 /* ------------------------------------------------------------------
    ЕДИНОЕ ВЕРХНЕЕ РАСПОЛОЖЕНИЕ СТРАНИЦ СТАТИСТИКИ И СПРАВКИ
 
@@ -2647,13 +2655,6 @@ a.leaflet-control-slider-toggle {
         width: auto;
         margin: 0;
         z-index: 100;
-    }
-
-    /* У index-body исторически было padding:30px у всех h1.
-       Убираем его у основных заголовков, в том числе на news.html. */
-    body.help-body h1.page-title,
-    body.stat-body h1.page-title {
-        padding: 0;
     }
 
     /* Основной заголовок получает верхнюю координату 10px от края страницы.
@@ -2882,4 +2883,39 @@ a.om-broken-link:focus-visible {
 .search-event-icons .end-reg {
     margin-left: 2px;
     font-size: .72rem;
+}
+
+/* ------------------------------------------------------------------
+   МОБИЛЬНАЯ ШАПКА СТРАНИЦЫ ПОИСКА
+
+   About и навигация остаются у верхнего края, а заголовок располагается
+   справа от About. Шапка не занимает отдельную строку перед содержимым.
+   ------------------------------------------------------------------ */
+@media screen and (max-width: 600px) {
+    body.search-body > .about-button {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        float: none;
+        margin: 0;
+        z-index: 101;
+    }
+
+    body.search-body > header.page-header {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        width: auto;
+        margin: 0;
+        z-index: 100;
+    }
+
+    body.search-body main > .container > h1.page-title {
+        position: relative;
+        left: 35px;
+        top: 10px;
+        margin-top: 0;
+        padding-bottom: 20px;
+    }
 }
