@@ -422,9 +422,18 @@ input[type="checkbox"]:focus-visible, input[type="radio"]:focus-visible {
 }
 .dropdown-button-right button:hover { background: var(--o-surface-2); }
 
+/* Прозрачная область шапки не должна перекрывать содержимое страницы.
+   Интерактивными остаются только её непосредственные элементы: заголовок,
+   навигация и другие реальные элементы управления. */
+header.page-header {
+    pointer-events: none;
+}
+
+header.page-header > * {
+    pointer-events: auto;
+}
+
 .about-button {
-    position: relative;
-    z-index: 101;
     border: 1px solid var(--o-border);
     background: var(--o-surface);
     box-shadow: var(--o-sh-1);
@@ -2503,6 +2512,7 @@ a.leaflet-control-slider-toggle {
         left: 10px;
         float: none;
         margin: 0;
+        z-index: 101;
     }
 
     /* В этих таблицах заголовок находится в первом .container, а в шапке
