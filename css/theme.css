@@ -2749,6 +2749,14 @@ a.om-broken-link:focus-visible {
     font-variant-numeric: tabular-nums;
 }
 .search-meta { color: var(--o-text-muted); font-size: .9em; }
+
+.search-downloads { margin-left: .45em; white-space: nowrap; }
+.search-resource > a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.search-resource .search-meta { margin-left: .25em; }
+@media (max-width: 600px) {
+    .search-resource .search-date { margin-bottom: 1px; }
+    .search-downloads { display: inline-block; margin-left: .25em; }
+}
 .search-logo { margin-right: 5px; }
 .search-stage { color: var(--o-text-faint); }
 .search-cancelled a { text-decoration: line-through; }

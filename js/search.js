@@ -2,14 +2,14 @@
  * search.js — страница search.html: поиск по каталогу O-Maps.
  *
  * Данные — js/search-index.json, его собирает tools/build_search_index.js из calendar-*.js,
- * maps-*.js, starts.js, owners.js, authors.js, planners.js и poi.js (формат записей — в шапке
- * скрипта). Индекс грузится один раз при открытии страницы; запрос с cache: 'no-cache' —
+ * maps-*.js, справочников и каталогов документов, книг и маршрутов (формат записей — в шапке
+ * генератора). Индекс грузится один раз при открытии страницы; запрос с cache: 'no-cache' —
  * браузер каждый раз сверяется с сервером, и неизменившийся файл не перекачивается (ответ 304).
  *
  * Поиск — при вводе, когда в запросе есть слово от трёх букв или год: запрос делится на слова, каждое слово
- * должно найтись в записи (в названии, месте или любом описании); регистр не важен, ё = е.
- * Слово-год (1972) или годы (1990-1999) не ищутся в тексте, а отбирают карты и события этих
- * лет; на серии, клубы, людей и места год не действует.
+ * должно найтись в записи (в названии, месте, описании или имени прикреплённого файла); регистр не важен, ё = е.
+ * Слово-год (1972) или годы (1990-1999) не ищутся в тексте, а отбирают карты, события,
+ * документы и книги этих лет; на серии, клубы, людей, маршруты и места год не действует.
  *
  * Порядок: сначала записи, где слова нашлись в названии (с начала слова — выше), потом — в месте,
  * потом — в остальном тексте; при равенстве — новые выше.
@@ -35,17 +35,22 @@
             forms: ['серия стартов', 'серии стартов', 'серий стартов']},
         {key: 'o', tab: 'owners', title: 'Клубы и организаторы', preview: 8, page: 60,
             forms: ['клуб или организатор', 'клуба или организатора', 'клубов и организаторов']},
-        {key: 'a', tab: 'authors', title: 'Авторы карт', preview: 8, page: 60,
-            forms: ['автор карт', 'автора карт', 'авторов карт']},
+        {key: 'a', tab: 'authors', title: 'Картографы', preview: 8, page: 60,
+            forms: ['картограф', 'картографа', 'картографов']},
         {key: 'p', tab: 'planners', title: 'Начальники дистанций', preview: 8, page: 60,
             forms: ['начальник дистанций', 'начальника дистанций', 'начальников дистанций']},
+        {key: 't', tab: 'tracks', title: 'Маршруты', preview: 8, page: 60,
+            forms: ['маршрут', 'маршрута', 'маршрутов']},
+        {key: 'd', tab: 'documents', title: 'Документы и правила', preview: 8, page: 60,
+            forms: ['документ', 'документа', 'документов']},
+        {key: 'b', tab: 'books', title: 'Книги и статьи', preview: 8, page: 60,
+            forms: ['книга или статья', 'книги и статьи', 'книг и статей']},
         {key: 'm', tab: 'maps', title: 'Карты', preview: 12, page: 48, forms: ['карта', 'карты', 'карт']},
         {key: 'e', tab: 'events', title: 'События', preview: 20, page: 100, forms: ['событие', 'события', 'событий']},
     ];
-    // Порядок вкладок: главное — карты и события. На «Всё» короткие списки (серии, клубы, люди,
-    // места — по строке-другой) идут первыми, чтобы не теряться под длинными.
-    const TAB_ORDER = ['m', 'e', 's', 'o', 'a', 'p', 'i'];
-    const ALL_ORDER = ['s', 'o', 'a', 'p', 'i', 'm', 'e'];
+    // На вкладках карты и события остаются первыми; короткие справочники и новые каталоги — далее.
+    const TAB_ORDER = ['m', 'e', 'd', 'b', 't', 's', 'o', 'a', 'p', 'i'];
+    const ALL_ORDER = ['s', 'o', 'a', 't', 'p', 'i', 'd', 'b', 'm', 'e'];
 
     const input = document.getElementById('search_input');
     const form = document.getElementById('search_form');
@@ -140,6 +145,9 @@
         out.a = index.a.map(r => make('a', r, r[1], '', r[0].toLowerCase() + ' ' + r[3]));
         out.p = index.p.map(r => make('p', r, r[1], '', r[0].toLowerCase() + ' ' + r[2]));
         out.i = index.i.map(r => make('i', r, r[1], r[3], r[0].toLowerCase() + ' ' + r[4]));
+        out.d = index.d.map(r => make('d', r, r[0], '', r[6], r[1]));
+        out.b = index.b.map(r => make('b', r, r[0], '', r[6], r[1]));
+        out.t = index.t.map(r => make('t', r, r[1], '', r[0].toLowerCase() + ' ' + (r[3] || ''), null));
         return out;
     }
 
@@ -192,6 +200,7 @@
     function newer(a, b) {
         if (a.kind === 'e') return b.row[1].localeCompare(a.row[1]);
         if (a.kind === 'm') return (b.years[0] ?? 0) - (a.years[0] ?? 0);
+        if (['d', 'b'].includes(a.kind)) return (b.years?.[0] ?? 0) - (a.years?.[0] ?? 0);
         return a.name.localeCompare(b.name, 'ru');
     }
 
@@ -200,14 +209,14 @@
         const result = {query, total: 0, lists: {}};
         if (!query.ready) return result;
         for (const kind of KINDS) {
-            // серии, клубы, люди и места — только по словам: у них нет года
-            if (!query.texts.length && !['e', 'm'].includes(kind.key)) {
+            // Справочники и маршруты ищутся только по словам; у них нет годового фильтра.
+            if (!query.texts.length && !['e', 'm', 'd', 'b'].includes(kind.key)) {
                 result.lists[kind.key] = [];
                 continue;
             }
             const list = [];
             for (const rec of records[kind.key]) {
-                if (!yearsMatch(rec, ['e', 'm'].includes(kind.key) ? query.years : [])) continue;
+                if (!yearsMatch(rec, ['e', 'm', 'd', 'b'].includes(kind.key) ? query.years : [])) continue;
                 const s = score(rec, query.texts);
                 if (s) list.push({rec, s});
             }
@@ -305,10 +314,37 @@
                 logo = r[2];
                 note = r[3];
                 break;
+            case 't':
+                href = 'tracks.html?onlytrack=' + encodeURIComponent(r[0]);
+                note = r[2] ? r[2].split(',').map(t => dic[t] || t).join(', ') : '';
+                break;
         }
         return `<li class="search-entity">${logoImg(logo, rec.name)}` +
             `<a href="${esc(href)}" target="_self">${hl(rec.name)}</a>` +
             (note ? ` <span class="search-meta">${hl(note)}</span>` : '') + '</li>';
+    }
+
+    function isDownloadLink(url) {
+        return /\.(pdf|jpg|jpeg|png|gif|ocd|omap|gpx|zip|docx?|xlsx?|pptx?)(?:[?#].*)?$/i.test(String(url));
+    }
+
+    function resourceItem(rec, hl) {
+        const r = rec.row;
+        const [name, years, date, links, info, source] = r;
+        const dateText = date || (years?.length ? years.join(', ') : '');
+        const title = links.length === 1
+            ? `<a href="${esc(links[0])}" target="_blank" rel="noopener" title="${isDownloadLink(links[0]) ? 'Скачать документ' : 'Открыть источник'}">${hl(name)}</a>`
+            : hl(name);
+        const downloads = links.length > 1
+            ? `<span class="search-downloads">${links.map((url, i) =>
+                `<a href="${esc(url)}" target="_blank" rel="noopener">${isDownloadLink(url) ? `Скачать ${i + 1}` : `Источник ${i + 1}`}</a>`
+            ).join(', ')}</span>`
+            : '';
+        const details = [source, info].filter(Boolean).join(' · ');
+        return `<li class="search-resource"><span class="search-date">${esc(dateText)}</span>` +
+            `${title} ${downloads}` +
+            (details ? ` <span class="search-meta">· ${hl(details)}</span>` : '') +
+            '</li>';
     }
 
     function renderList(kind, list, limit, hl) {
@@ -316,8 +352,10 @@
         if (kind.key === 'm' && view === 'tiles') {
             return `<div class="start-maps-wrapper search-maps clearfix">${part.map(r => mapTile(r, hl)).join('')}</div>`;
         }
-        const item = kind.key === 'e' ? eventItem : kind.key === 'm' ? mapItem : entityItem;
-        const cls = ['e', 'm'].includes(kind.key) ? 'search-list' : 'search-list search-entities';
+        const item = kind.key === 'e' ? eventItem :
+            kind.key === 'm' ? mapItem :
+            ['d', 'b'].includes(kind.key) ? resourceItem : entityItem;
+        const cls = ['e', 'm', 'd', 'b'].includes(kind.key) ? 'search-list' : 'search-list search-entities';
         return `<ul class="${cls}">${part.map(r => item(r, hl)).join('')}</ul>`;
     }
 

@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Поиск по каталогу — O-Maps</title>
-    <meta name="description" content="O-Maps. Поиск по каталогу спортивных карт и календарю соревнований: карты, события, серии стартов, клубы, авторы карт и места.">
+    <meta name="description" content="O-Maps. Поиск по каталогу спортивных карт, событиям, документам, книгам, картографам и маршрутам.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href="css/google-fonts.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css?v=31"/>
-    <link rel="stylesheet" href="css/theme.css?v=31"/>
+    <link rel="stylesheet" href="css/theme.css?v=32"/>
     <script src="js/theme-toggle.js?v=60"></script>
 
     <meta property="og:title" content="Поиск по каталогу — O-Maps">
     <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
     <meta property="og:url" content="https://o-maps.spb.ru/search.html">
-    <meta property="og:description" content="O-Maps. Поиск по каталогу спортивных карт и календарю соревнований.">
+    <meta property="og:description" content="O-Maps. Поиск по картам, событиям, документам, книгам, картографам и маршрутам.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
 
     <!-- Yandex.Metrika counter -->
@@ -57,12 +57,13 @@
             <form id="search_form" role="search" action="search.html" target="_self" autocomplete="off">
                 <label for="search_input" class="visually-hidden">Что искать</label>
                 <input id="search_input" name="q" type="search" class="form-control search-page-input" autofocus
-                       placeholder="Место, название, клуб, автор, год…" aria-describedby="search_status" />
+                       placeholder="Название, место, картограф, маршрут, документ, год…" aria-describedby="search_status" />
             </form>
             <p id="search_status" class="search-status" role="status" aria-live="polite">
-                Ищет по картам, календарю, сериям стартов, клубам, авторам карт и местам — по названиям и всем описаниям,
-                без учёта регистра, «ё» и «е» не различаются. Год (<em>Кавголово 1972</em>) или годы
-                (<em>Белые ночи 1990-1999</em>) отбирают карты и события этих лет.
+                Ищет по картам, событиям, документам, правилам, книгам и статьям, картографам, маршрутам,
+                сериям стартов, клубам и местам. Поиск не зависит от регистра, «ё» и «е» не различаются.
+                Год (<em>Кавголово 1972</em>) или годы (<em>Белые ночи 1990-1999</em>) отбирают карты,
+                события, документы и книги этих лет. Для документов и книг доступны прямые ссылки на файлы.
             </p>
 
             <ul class="nav nav-tabs search-tabs" id="search_tabs" role="tablist" hidden></ul>
@@ -81,7 +82,7 @@
 
     <script src="js/utils-common.js?v=60"></script>
     <script src="js/utils.js?v=75"></script>
-    <script src="js/search.js?v=1"></script>
+    <script src="js/search.js?v=2"></script>
     <script src="js/welcome.js?v=59"></script>
     <script>
         writeWelcomeButton();

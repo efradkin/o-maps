@@ -10,7 +10,8 @@
  *   -h, --help      эта справка
  *
  * Читает все данные сайта: js/calendar-*.js (кроме calendar-mobile.js), js/maps-*.js,
- * starts.js, owners.js, authors.js, planners.js, poi.js. Логику берёт из самого сайта:
+ * starts.js, owners.js, authors.js, planners.js, poi.js, history-docs.js, rules.js,
+ * books.js, tracks-run.js, tracks-ski.js и tracks.js. Логику берёт из самого сайта:
  * utils-common.js и utils.js загружаются в Node с заглушками браузера, так что год карты
  * (year), логотип события (logoList), закрытые карты (mapImageUrl), имя карты для
  * map-info.html (getMapName), словари dic и regions — те же, что на страницах.
@@ -28,6 +29,9 @@
  *   a (авторы)   [код, имя, логотип, текст]
  *   p (начальники дистанций) [код, имя, текст]
  *   i (POI)      [id, название, картинка, место, текст]
+ *   d (документы и правила) [название, годы, дата, ссылки, описание, источник, текст]
+ *   b (книги и статьи) [название, годы, дата, ссылки, описание, источник, текст]
+ *   t (маршруты) [id для onlytrack, название, виды]
  * «Текст» — всё остальное, по чему ищем, уже нормализованное (строчные, ё = е, без тегов):
  * все строковые поля записи, кроме ссылок, путей, адресов почты и личных пометок
  * (me, strava), плюс названия связанных серий, клубов, авторов, начальников дистанций,
@@ -107,6 +111,12 @@ const poi = get('poi'), dic = get('dic'), regions = get('regions');
 const fn = name => get(name);
 const logoList = fn('logoList'), year = fn('year'), mapImageUrl = fn('mapImageUrl'), getMapName = fn('getMapName');
 
+// Дополнительные каталоги. Загружаем исходные массивы, чтобы индекс всегда
+// соответствовал данным сайта, а не отдельной копии этих данных.
+for (const f of ['history-docs.js', 'rules.js', 'books.js', 'tracks-run.js', 'tracks-ski.js', 'tracks.js']) run(f);
+const historyDocs = fn('historyDocs'), rules = fn('rules'), books = fn('oBooks');
+const allTracks = [...fn('runTracks'), ...fn('skiTracks'), ...fn('tracks')];
+
 // ------------------------------------------------------------- текст --
 
 const ENTITIES = {nbsp: ' ', amp: '&', quot: '"', laquo: '«', raquo: '»', mdash: '—', ndash: '–', lt: '<', gt: '>', apos: "'", hellip: '…'};
@@ -123,6 +133,33 @@ function plain(html) {
 // Как unifyString() в utils.js: строчные, ё = е.
 function norm(s) {
     return plain(s).toLocaleLowerCase('ru').replaceAll('ё', 'е');
+}
+
+// Имя файла из ссылки или относительного пути. Учитываем имя целиком и без расширения:
+// так можно искать как `map_1987`, так и `map_1987.pdf` или отдельные части имени.
+const FILE_EXT = /\.(?:pdf|jpe?g|png|gif|webp|bmp|tiff?|ocd|omap|gpx|zip|rar|7z|docx?|xlsx?|pptx?|txt|csv|kml|kmz|xml|htm|html|php|cgi|aspx?|mp3|mp4|mov|avi)(?:[?#].*)?$/i;
+const FILE_NAME_SKIP_KEYS = new Set(['logo', 'icon', 'shadowUrl', 'siteImg']);
+
+function fileNameText(value) {
+    if (typeof value !== 'string') return '';
+    const raw = value.trim().replace(/\\/g, '/');
+    if (!FILE_EXT.test(raw)) return '';
+    let name = raw.split(/[?#]/)[0].split('/').pop();
+    try { name = decodeURIComponent(name); } catch (e) { /* имя уже декодировано */ }
+    return name;
+}
+
+// Ищем имена файлов во вложенных ссылках и массивах, но не в логотипах и иконках.
+function collectFileNames(value, out, key) {
+    if (value == null || FILE_NAME_SKIP_KEYS.has(key)) return;
+    if (typeof value === 'string') {
+        const name = fileNameText(value);
+        if (name) out.push(name);
+    } else if (Array.isArray(value)) {
+        value.forEach(v => collectFileNames(v, out));
+    } else if (typeof value === 'object') {
+        for (const [k, v] of Object.entries(value)) collectFileNames(v, out, k);
+    }
 }
 
 // Не текст для поиска: название и место (их добавляет страница), личные пометки, геометрия,
@@ -157,7 +194,8 @@ const asList = v => v == null ? [] : (Array.isArray(v) ? v : [v]);
 
 // Имя человека из authors.js / planners.js: «Егор Алексеев, <a href="mailto:…">…</a>» -> «Егор Алексеев»
 function personName(rec) {
-    return plain(String(rec?.name ?? '').split(/,\s*<a|\s+-\s+<a|<a/)[0]).replace(/[,\s-]+$/, '');
+    // plain() removes a wrapping anchor but preserves its visible text.
+    return plain(String(rec?.name ?? '').split(/,\s*<a|\s+-\s+<a/)[0]).replace(/[,\s-]+$/, '');
 }
 const ownerName = o => plain(o.title || o.name);
 
@@ -167,6 +205,8 @@ const problem = msg => problems.push(msg);
 function refText(out, codes, table, label, toName, where) {
     for (const c of asList(codes)) {
         if (typeof c !== 'string') continue;
+        // «?» в planner означает, что имя неизвестно, а не ссылку на код справочника.
+        if (label === 'начальник дистанции' && c === '?') continue;
         out.push(c);
         const r = table[c];
         if (r) out.push(toName(r));
@@ -239,6 +279,7 @@ for (const [id, {e, file}] of eventsById) {
     const where = `${file} ${id}`;
     const parts = [];
     collect(e, parts);
+    collectFileNames(e, parts);
     refText(parts, e.start, starts, 'старт', s => `${plain(s.name)} ${plain(s.short)}`, where);
     refText(parts, e.owner, owners, 'владелец', ownerName, where);
     refText(parts, e.planner, planners, 'начальник дистанции', personName, where);
@@ -279,6 +320,7 @@ for (const [key, {m, file}] of mapsByName) {
     const where = `${file} ${key}`;
     const parts = [];
     collect(m, parts);
+    collectFileNames(m, parts);
     refText(parts, m.author, authors, 'автор', personName, where);
     refText(parts, m.editor, authors, 'редактор', personName, where);
     refText(parts, m.owner, owners, 'владелец', ownerName, where);
@@ -335,9 +377,104 @@ const I = poi.map(p => {
     return [p.id, plain(p.name), p.logo ? './logo/' + p.logo : (p.image || ''), plain(p.place), haystack(parts, `${p.name} ${p.place ?? ''}`)];
 }).sort(byName);
 
+// Ссылки, которые страницы-каталоги показывают в колонке «Файлы».
+function resourceLinks(rec, fallback) {
+    if (rec.link) return asList(rec.link).filter(v => typeof v === 'string' && v.trim());
+    if (rec.links) {
+        const [folder, count, ext = 'jpg'] = rec.links;
+        return Array.from({length: Number(count) || 0}, (_, i) =>
+            `./docs/${folder}/doc_${i + 1}_omaps.${ext}`);
+    }
+    return fallback ? [fallback] : [];
+}
+
+function recordYears(rec) {
+    const y = Number(rec.year);
+    if (Number.isInteger(y) && y >= 1800 && y <= 2100) return [y];
+    const m = /^(\\d{4})/.exec(String(rec.date ?? ''));
+    return m && +m[1] >= 1800 && +m[1] <= 2100 ? [+m[1]] : [];
+}
+
+function resourceText(rec, source, where) {
+    const parts = [];
+    collect(rec, parts);
+    const fallback = source === 'rules' ? rec.url : (source === 'books' ? rec.about : null);
+    resourceLinks(rec, fallback).forEach(link => {
+        const name = fileNameText(link);
+        if (name) parts.push(name);
+    });
+    if (source === 'history') {
+        refText(parts, rec.start, starts, 'старт', s => `${plain(s.name)} ${plain(s.short)}`, where);
+        refText(parts, rec.planner, planners, 'начальник дистанции', personName, where);
+    } else {
+        refText(parts, rec.author, authors, 'автор', personName, where);
+        refText(parts, rec.owner, owners, 'владелец', ownerName, where);
+    }
+    parts.push(ddmmyyyy(rec.date));
+    return parts;
+}
+
+// Исторические документы и правила/спецификации — единая категория поиска.
+// Для rules.js приоритет у локального файла из link; url используется, если
+// отдельной ссылки на скачивание нет (в том числе внешние PDF).
+const D = [
+    ...historyDocs.map((rec, i) => {
+        const where = `history-docs.js #${i + 1}`;
+        const links = resourceLinks(rec);
+        const years = recordYears(rec);
+        const displayDate = rec.date ? ddmmyyyy(rec.date) : (years[0] ? String(years[0]) : '');
+        return [plain(rec.name), years, displayDate, links, plain(rec.info), 'Исторический документ',
+            haystack(resourceText(rec, 'history', where), rec.name)];
+    }),
+    ...rules.map((rec, i) => {
+        const where = `rules.js #${i + 1}`;
+        const links = resourceLinks(rec, rec.url);
+        const years = recordYears(rec);
+        return [plain(rec.name), years, years[0] ? String(years[0]) : '', links, '', 'Правила и спецификации',
+            haystack(resourceText(rec, 'rules', where), rec.name)];
+    })
+].filter(r => r[3].length);
+D.sort((a, b) => (b[1][0] ?? 0) - (a[1][0] ?? 0) || a[0].localeCompare(b[0], 'ru'));
+
+const B = books.map((rec, i) => {
+    const where = `books.js #${i + 1}`;
+    const links = resourceLinks(rec, rec.about);
+    const years = recordYears(rec);
+    return [plain(rec.name), years, years[0] ? String(years[0]) : '', links, plain(rec.info),
+        'Книга или статья', haystack(resourceText(rec, 'books', where), rec.name)];
+}).filter(r => r[3].length)
+    .sort((a, b) => (b[1][0] ?? 0) - (a[1][0] ?? 0) || a[0].localeCompare(b[0], 'ru'));
+
+// ID маршрута совпадает с параметром onlytrack: имя GPX-файла без расширения
+// и суффикса _omaps. Для маршрутов с несколькими GPX используется первый,
+// как и в getFirstTrack() на странице tracks.html.
+function trackId(track) {
+    const gpx = track.gpx;
+    const first = Array.isArray(gpx) ? gpx[0] :
+        (gpx && typeof gpx === 'object' ? Object.values(gpx)[0] : gpx);
+    if (typeof first !== 'string' || !first) return '';
+    const file = first.split(/[?#]/)[0].split('/').pop();
+    return file.replace(/\.[^.]+$/, '').replace(/_omaps$/, '');
+}
+const trackIds = new Set();
+const T = [];
+for (const track of allTracks) {
+    const id = trackId(track);
+    if (!id) { problem(`tracks.js: у маршрута «${plain(track.name)}» не определяется ID`); continue; }
+    if (trackIds.has(id)) {
+        problem(`tracks: повтор ID маршрута ${id} (${plain(track.name)})`);
+        continue;
+    }
+    trackIds.add(id);
+    const fileParts = [id];
+    collectFileNames(track.gpx, fileParts);
+    T.push([id, plain(track.name), asList(track.type).join(','), haystack(fileParts, track.name)]);
+}
+T.sort((a, b) => a[1].localeCompare(b[1], 'ru'));
+
 // -------------------------------------------------------------- запись --
 
-const index = {e: E, m: M, s: S, o: O, a: A, p: P, i: I};
+const index = {e: E, m: M, s: S, o: O, a: A, p: P, i: I, d: D, b: B, t: T};
 // По записи на строку: diff в git остаётся читаемым, а размер почти тот же.
 const json = '{\n' + Object.entries(index).map(([k, rows]) =>
     `"${k}": [\n` + rows.map(r => JSON.stringify(r)).join(',\n') + '\n]').join(',\n') + '\n}\n';
@@ -347,7 +484,8 @@ const changed = old !== json;
 const zlib = require('zlib');
 const kb = n => (n / 1024).toFixed(0) + ' КБ';
 console.log(`событий ${E.length}, карт ${M.length}, серий ${S.length}, клубов ${O.length}, ` +
-    `авторов ${A.length}, начальников дистанций ${P.length}, мест ${I.length}`);
+    `картографов ${A.length}, начальников дистанций ${P.length}, мест ${I.length}, ` +
+    `документов и правил ${D.length}, книг и статей ${B.length}, маршрутов ${T.length}`);
 console.log(`размер ${kb(Buffer.byteLength(json))}, gzip ${kb(zlib.gzipSync(json).length)}, ` +
     `brotli ${kb(zlib.brotliCompressSync(json).length)}`);
 if (!changed) console.log(`${path.relative(REPO, OUT)}: изменений нет`);
