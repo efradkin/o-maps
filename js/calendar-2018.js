@@ -1392,7 +1392,6 @@ let events2018 = [
         fmt: 'эстафета 2х', // !
         name: 'Чемпионат и п-во Ленинградской обл., эстафета',
         start: 'LO_CHAMP',
-        planner: 'Мичуринское',
         reg: 'http://o-reg.spb.ru/entry-list?id=930',
         res: 'https://o-site.spb.ru/_races/180915_LO/180915_res_.htm',
         o_site: '180915_LO',

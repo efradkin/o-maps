@@ -2709,3 +2709,71 @@ a.om-broken-link:focus-visible {
     outline: 2px solid var(--o-broken-link-border);
     outline-offset: 4px;
 }
+
+/* ------------------------------------------------------------------ [21]
+   СТРАНИЦА ПОИСКА search.html (js/search.js)
+   Вкладки — штатные nav-tabs (блок выше), плашки карт — .start-map-box
+   (как на start.html), значки — .sheet-icon. Здесь только строки списков,
+   подсветка найденного и подписи.
+   ------------------------------------------------------------------ */
+.search-body .search-page-input { max-width: 640px; font-size: 1.1rem; }
+/* поле поиска на главной (index.html) ведёт на search.html?q=… */
+.index-search { max-width: 560px; margin: 6px auto 22px; }
+.search-body .search-page-input,
+.index-search .form-control {
+    background-color: var(--o-surface);
+    color: var(--o-text);
+    border-color: var(--o-border);
+}
+.search-body .search-page-input::placeholder,
+.index-search .form-control::placeholder { color: var(--o-text-faint); }
+.search-status { margin: 12px 0 16px; color: var(--o-text-muted); }
+.search-status em { font-style: normal; color: var(--o-text); }
+.search-tabs { margin-bottom: 8px; }
+.search-tabs .search-view-item { margin-left: auto; }
+.search-tabs .search-view-switch { color: var(--o-accent); white-space: nowrap; }
+.search-count { color: var(--o-text-faint); font-weight: normal; font-size: .85em; }
+.search-group { margin-top: 18px; }
+.search-group h2 { margin-bottom: 6px; }
+.search-subgroup + .search-subgroup { margin-top: 10px; }
+.search-subgroup .search-list { margin-bottom: 0; }
+.search-list { list-style: none; padding-left: 0; margin-bottom: 8px; }
+.search-list > li { padding: 3px 0; border-bottom: 1px solid var(--o-border-soft); }
+.search-list > li:last-child { border-bottom: 0; }
+.search-entities { display: flex; flex-wrap: wrap; gap: 4px 22px; }
+.search-entities > li { border-bottom: 0; }
+.search-date {
+    display: inline-block;
+    min-width: 9.5em;
+    color: var(--o-text-muted);
+    font-variant-numeric: tabular-nums;
+}
+.search-meta { color: var(--o-text-muted); font-size: .9em; }
+.search-logo { margin-right: 5px; }
+.search-stage { color: var(--o-text-faint); }
+.search-cancelled a { text-decoration: line-through; }
+.search-results mark {
+    padding: 0 1px;
+    border-radius: 3px;
+    background: var(--o-accent-soft);
+    color: inherit;
+    box-shadow: inset 0 -2px 0 rgba(74,124,78,.45);
+}
+/* плашки одной высоты: картинка вписана в квадрат, подпись — до двух строк */
+.search-map-box { text-align: center; padding-bottom: 4px; }
+.search-map-box img { display: block; width: 194px; height: 194px; margin: 0 auto; object-fit: contain; }
+.search-map-box .start-map-box-description {
+    height: auto;
+    min-height: 2.6em;
+    padding: 2px 4px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.search-map-box .search-meta { font-size: 11px; }
+@media (max-width: 600px) {
+    .search-date { min-width: 0; display: block; font-size: .85em; }
+    .search-maps .start-map-box { width: calc(50% - 12px); margin: 6px; }
+    .search-maps .start-map-box img { width: 100%; height: auto; aspect-ratio: 1; }
+}

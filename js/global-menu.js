@@ -1,5 +1,6 @@
 // https://github.com/BenPortner/leaflet-burgermenu
 const GLOBAL_MENU_ITEMS = [
+    { title: '🔍 Поиск по каталогу', page: 'search' },
     {
         title: 'Регионы',
         menuItems: [
@@ -369,6 +370,7 @@ function addLocalRightButtonsToGlobalMenuOnMobile() {
 
     const localLinks = Array.from(document.querySelectorAll('.stat-map-link-right'))
         .filter(link => !isHomeRightButton(link))
+        .filter(link => !link.hasAttribute('data-in-global-menu'))
         .filter(isVisibleBeforeMobileHiding);
 
     if (localLinks.length === 0) {
@@ -565,8 +567,23 @@ function runAfterDomReady(callback) {
     }
 }
 
+// Кнопка поиска по каталогу в шапке — перед меню, на всех страницах, кроме самой search.html.
+// На телефоне кнопки шапки прячутся (hideRightButtonsOnMobile) — поиск остаётся пунктом меню.
+function buildSearchButtonHtml(urlPrefix) {
+    if (/\/search\.html$/.test(location.pathname)) {
+        return '';
+    }
+    // Значок — лупа (SVG цветом текста темы), не images/search_24.png: та картинка уже значит
+    // поиск по документам и поиск в календаре. На телефоне в меню кнопку не копируем:
+    // там уже есть пункт «Поиск по каталогу» (data-in-global-menu).
+    return `<a href="${urlPrefix}search.html" target="_self" class="stat-map-link stat-map-link-right" title="Поиск по каталогу" data-in-global-menu>` +
+        `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" ` +
+        `aria-hidden="true" style="color: var(--o-text)"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg></a>\n`;
+}
+
 function writeGlobalMenuHtml(urlPrefix = '') {
-    document.currentScript.insertAdjacentHTML('beforebegin', buildMenuHtml(GLOBAL_MENU_ITEMS, {urlPrefix: urlPrefix}));
+    document.currentScript.insertAdjacentHTML('beforebegin',
+        buildSearchButtonHtml(urlPrefix) + buildMenuHtml(GLOBAL_MENU_ITEMS, {urlPrefix: urlPrefix}));
     runAfterDomReady(setupResponsiveRightButtons);
 }
 
