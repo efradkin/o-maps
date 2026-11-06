@@ -3656,7 +3656,7 @@ let events2026 = [
         coord: [60.678437, 29.967588],
         me: 'М50',
         strava: 20814665726,
-        o_gps: 26232,
+        o_gps: [26232,26257],
         owner: 'DLITELNY',
         map: 'losevo_2022',
         reskeep: 948
@@ -3758,7 +3758,7 @@ let events2026 = [
         coord: [60.412533, 30.272448],
         o_site: '261108_110',
         reg: 'https://orgeo.ru/event/56429',
-        endReg: '2026-11-05 23:55',
+        endReg: '2026-11-06 15:00',
         start: 'ROGAINE_110',
         bulletin: 'https://o-site.spb.ru/_races/261108_110/markir_info2.pdf',
         map: 'silande_2024'

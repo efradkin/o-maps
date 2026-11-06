@@ -343,7 +343,8 @@ let events2015 = [
         o_site: '150408',
         bulletin: 'https://o-site.spb.ru/_races/150408/151118_info.pdf',
         res: 'https://reg.o-time.ru/race/15023',
-        map: 'kronshtadt_sobor_2014'
+        map: 'kronshtadt_sobor_2014',
+        maps: './original_maps/starts/st/kronshtadt_2015_04_08_st_omaps.gif'
     },
     {
         id: 'SPB_20150409_1',

@@ -368,7 +368,8 @@ let events2016 = [
         o_site: '160409',
         bulletin: 'https://o-site.spb.ru/_races/160409/161008_info.pdf',
         res: 'https://reg.o-time.ru/race/16068',
-        map: 'kronshtadt_sobor_2014'
+        map: 'kronshtadt_sobor_2014',
+        maps: './original_maps/starts/st/kronshtadt_2016_04_13_st_omaps.webp'
     },
     {
         id: 'SPB_20160414_1',

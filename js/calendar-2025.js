@@ -836,6 +836,7 @@ let events2025 = [
         reskeep: 693,
         photo: 'https://vk.com/album-92124592_307010019',
         map: 'akademicheskaya_2023',
+        maps: './original_maps/starts/st/akademicheskaya_2025_04_29_st_omaps.gif',
         start: 'SPRINT_TOUR'
     },
     {

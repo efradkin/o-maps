@@ -1831,7 +1831,8 @@ let events2022 = [
         start: 'SPRINT_TOUR',
         reskeep: 557,
         photo: 'https://vk.ru/album-92124592_286829863',
-        endReg: '2022-09-21 09:00'
+        endReg: '2022-09-21 09:00',
+        map: 'school_470_2020'
     },
     {
         id: 'SPB_20220922_1',

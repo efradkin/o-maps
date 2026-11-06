@@ -1399,7 +1399,8 @@ let events2017 = [
         info: 'Серия из четырёх личных стартов',
         o_site: '170826_Per',
         bulletin: 'https://o-site.spb.ru/_races/170826_Per/170826_info.pdf',
-        map: 'polyany_2016'
+        map: 'polyany_2016',
+        maps: './original_maps/starts/other/polyany_2017_08_26_omaps.webp'
     },
     {
         id: 'SPB_20170827_1',
