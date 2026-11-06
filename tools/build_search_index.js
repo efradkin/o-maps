@@ -17,7 +17,7 @@
  * map-info.html (getMapName), словари dic и regions — те же, что на страницах.
  *
  * Индекс — JSON, по массиву на вид записей; запись — массив полей по порядку:
- *   e (события)  [id, дата, дата окончания, название, место, логотип, виды, флаги, родитель, текст]
+ *   e (события)  [id, дата, дата окончания, название, место, логотип, виды, флаги, родитель, текст, поля для иконок календаря]
  *                дата — 'YYYY-MM-DD' или 'YYYY' (запись с year вместо date); флаги: c — отменено,
  *                m — главный старт (поле major); родитель — id многодневки (поле parent) или '';
  *                у этапа без своего места и логотипа — место и логотип родителя, как на сайте
@@ -302,8 +302,41 @@ for (const [id, {e, file}] of eventsById) {
     const place = e.place ?? parent?.place;
     const logo = logoList(e)[0] || (parent ? logoList(parent)[0] : '') || '';
     const flags = (e.cancelled ? 'c' : '') + (e.major ? 'm' : '');
+
+    // Минимальный набор полей для иконок календаря. HTML и ссылки формируются
+    // в браузере существующими функциями utils.js.
+    const eventMeta = {};
+    for (const key of [
+        'o_site', 'link', 'reg', 'endReg', 'bulletin', 'maps', 'o_stuff',
+        'res', 'split', 'reskeep', 'gps', 'o_gps', 'livelox', 'rg',
+        'photo', 'video', 'strava', 'publish', 'coord', 'track', 'map',
+        'me', 'russialoppet'
+    ]) {
+        if (e[key] !== undefined && e[key] !== null && e[key] !== '') {
+            eventMeta[key] = e[key];
+        }
+    }
+    // Если у события нет собственного сайта, календарь показывает сайт его старта.
+    if (!eventMeta.o_site && !eventMeta.link) {
+        const startCode = asList(e.start)[0];
+        if (startCode && starts[startCode]?.link) eventMeta.link = starts[startCode].link;
+    }
+
+    // Страницы карт для поля map: повторяем разрешение page карты / page её старта
+    // из buildEventPlaceOMaps(), но храним только короткие имена страниц.
+    let mapPage = 'spb';
+    const mapPages = [];
+    for (const mapName of asList(e.map)) {
+        const mapRec = mapsByName.get(mapName)?.m;
+        if (mapRec && (mapRec.page || (mapRec.start && starts[mapRec.start]?.page))) {
+            mapPage = mapRec.page ?? starts[mapRec.start].page;
+        }
+        mapPages.push(mapPage);
+    }
+    if (mapPages.length) eventMeta.mapPages = mapPages;
+
     E.push([id, date, String(e.endDate ?? ''), plain(e.name), plain(place), logo,
-        asList(e.type).join(','), flags, e.parent || '', haystack(parts, `${e.name} ${place ?? ''}`)]);
+        asList(e.type).join(','), flags, e.parent || '', haystack(parts, `${e.name} ${place ?? ''}`), eventMeta]);
 }
 E.sort((a, b) => b[1].localeCompare(a[1]) || a[0].localeCompare(b[0]));
 

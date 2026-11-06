@@ -2842,3 +2842,33 @@ a.om-broken-link:focus-visible {
         margin-left: 8px;
     }
 }
+
+
+/* Иконки дополнительной информации события в результатах поиска */
+.search-event-icons {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px 5px;
+    max-width: 100%;
+    margin-left: .35rem;
+    vertical-align: middle;
+}
+.search-event-icons > a,
+.search-event-icons > span {
+    display: inline-flex;
+    align-items: center;
+}
+.search-event-icons img.sheet-icon {
+    vertical-align: middle;
+}
+.search-event-icons img.media-link {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+.search-event-icons .end-reg {
+    margin-left: 2px;
+    font-size: .72rem;
+}

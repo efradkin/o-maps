@@ -268,6 +268,41 @@
 
     // ---------------------------------------------------------- вывод --
 
+    function eventIconsHtml(meta, date, endDate, flags) {
+        if (!meta) return '';
+        const icons = [];
+        if (meta.o_site || meta.link) icons.push(buildEventSiteIcons(meta));
+        if (meta.reg) icons.push(buildEventReg(meta));
+        if (meta.bulletin) icons.push(buildEventBulletin(meta));
+
+        const mapNames = [].concat(meta.map ?? []).filter(Boolean);
+        const mapPages = meta.mapPages || [];
+        if (mapNames.length) {
+            mapNames.forEach((mapName, i) => {
+                const page = mapPages[i] || 'spb';
+                icons.push(buildLink(`${page}.html?calendar&map=${encodeURIComponent(mapName)}`, '🗺️', 'Карта на O-Maps'));
+                if (meta.coord) {
+                    icons.push(buildLink(`${page}.html?x=${meta.coord[0]}&y=${meta.coord[1]}&calendar`, '🌐', 'Место на O-Maps'));
+                }
+            });
+        } else if (meta.coord) {
+            icons.push(buildLink(`spb.html?x=${meta.coord[0]}&y=${meta.coord[1]}&calendar`, '🌐', 'Место на O-Maps'));
+        } else if (meta.track) {
+            icons.push(buildLink(`tracks.html?track=${encodeURIComponent(meta.track)}&calendar`, '🚸', 'Трек на O-Maps'));
+        }
+
+        if (meta.maps || meta.o_stuff) icons.push(buildEventExternalMaps(meta));
+        if (meta.res || meta.split || meta.reskeep) icons.push(buildEventResults(meta));
+        if (meta.gps || meta.o_gps || meta.livelox || meta.rg || meta.photo || meta.video || (HAS_ME_PARAM && meta.strava)) {
+            icons.push(buildEventReports(meta, true));
+        }
+        if (meta.publish) icons.push(buildPublish(meta));
+        if (HAS_ME_PARAM && meta.me) icons.push(`<sup class="my-race">${meta.me}</sup>`);
+
+        const html = icons.filter(Boolean).join(' ').trim();
+        return html ? `<span class="search-event-icons">${html}</span>` : '';
+    }
+
     function eventItem(rec, hl) {
         const r = rec.row;
         const [id, date, endDate, name, place, logo, types, flags, parent] = r;
@@ -275,12 +310,18 @@
         if (place) extra.push(hl(place));
         const t = typesHtml(types);
         if (t) extra.push(t);
+        const meta = r[10] || {};
+        const icons = eventIconsHtml(meta, date, endDate, flags);
+        const russialoppetLogo = meta.russialoppet
+            ? '<img src="./logo/russialoppet.gif" alt="RussiaLoppet" title="RussiaLoppet" class="sheet-icon search-logo"> '
+            : '';
         return `<li class="search-event${flags.includes('c') ? ' search-cancelled' : ''}">` +
             `<span class="search-date">${formatDates(date, endDate)}</span> ` +
             (parent ? '<span class="search-stage" title="Этап многодневного события">↳</span> ' : '') +
-            logoImg(logo, name) +
+            russialoppetLogo + logoImg(logo, name) +
             `<a href="event.html?id=${encodeURIComponent(id)}" target="_self">${hl(name)}</a>` +
             (flags.includes('c') ? ' <span class="badge bg-secondary">отменено</span>' : '') +
+            icons +
             (extra.length ? ` <span class="search-meta">· ${extra.join(' · ')}</span>` : '') +
             '</li>';
     }
