@@ -11,8 +11,8 @@
  * Слово-год (1972) или годы (1990-1999) не ищутся в тексте, а отбирают карты, события,
  * документы и книги этих лет; на серии, клубы, людей, маршруты и места год не действует.
  *
- * Порядок: сначала записи, где слова нашлись в названии (с начала слова — выше), потом — в месте,
- * потом — в остальном тексте; при равенстве — новые выше.
+ * Сортировка переключается общей кнопкой: по релевантности (название, место, остальной текст)
+ * или по дате (сначала новые). Режим сохраняется между вкладками и в адресе поискового запроса.
  *
  * Показ: вкладки «Всё» и по видам записей с числом найденного; на «Всё» у каждого вида —
  * первые записи и ссылка на вкладку вида. Карты — плашками с картинкой (как start.html)
@@ -26,6 +26,7 @@
     const MIN_CHARS = 3;
     const DEBOUNCE_MS = 150;
     const VIEW_KEY = 'om-search-view';
+    const SORT_KEY = 'om-search-sort';
 
     // Виды записей: вкладка, заголовок, сколько показывать на «Всё» и порциями на своей вкладке.
     // forms — для строки «Найдено: …» (pluralRu: одна, несколько, много).
@@ -64,6 +65,7 @@
     let found = null;            // результат последнего поиска
     let tab = urlParams.get('in') || 'all';
     let view = readView();
+    let sortMode = readSort();
     const shown = {};            // сколько записей вида показано на его вкладке
     let timer = null;
 
@@ -80,6 +82,22 @@
     function saveView(v) {
         try {
             localStorage.setItem(VIEW_KEY, v);
+        } catch (e) { /* без запоминания */ }
+    }
+
+    function readSort() {
+        const fromUrl = urlParams.get('sort');
+        if (fromUrl === 'date' || fromUrl === 'relevance') return fromUrl;
+        try {
+            return localStorage.getItem(SORT_KEY) === 'date' ? 'date' : 'relevance';
+        } catch (e) {
+            return 'relevance';
+        }
+    }
+
+    function saveSort(v) {
+        try {
+            localStorage.setItem(SORT_KEY, v);
         } catch (e) { /* без запоминания */ }
     }
 
@@ -204,6 +222,13 @@
         return a.name.localeCompare(b.name, 'ru');
     }
 
+    function dateRank(rec) {
+        if (rec.kind === 'e') return Number(String(rec.row[1] || '').replace(/-/g, '')) || 0;
+        if (rec.kind === 'm') return Number(rec.years?.[rec.years.length - 1] || 0);
+        if (rec.kind === 'd' || rec.kind === 'b') return Number(rec.years?.[0] || 0);
+        return 0;
+    }
+
     function search(q) {
         const query = parseQuery(q);
         const result = {query, total: 0, lists: {}};
@@ -220,7 +245,13 @@
                 const s = score(rec, query.texts);
                 if (s) list.push({rec, s});
             }
-            list.sort((a, b) => b.s - a.s || newer(a.rec, b.rec));
+            list.sort((a, b) => {
+                if (sortMode === 'date' && ['e', 'm', 'd', 'b'].includes(kind.key)) {
+                    const byDate = dateRank(b.rec) - dateRank(a.rec);
+                    if (byDate) return byDate;
+                }
+                return b.s - a.s || newer(a.rec, b.rec);
+            });
             result.lists[kind.key] = list.map(x => x.rec);
             result.total += list.length;
         }
@@ -383,6 +414,14 @@
                 `data-view="${next}" title="${next === 'list' ? 'Показать карты списком' : 'Показать карты плашками с картинками'}">` +
                 `${next === 'list' ? '☰ Списком' : '▦ Плашками'}</a></li>`;
         }
+        if (['e', 'm', 'd', 'b'].some(key => lists[key].length)) {
+            html += `<li class="nav-item search-sort-item"><div class="search-sort-control" role="group" aria-label="Сортировка результатов">` +
+                `<span class="search-sort-label">Сортировка</span>` +
+                `<button type="button" class="${sortMode === 'relevance' ? 'active' : ''}" data-sort="relevance" ` +
+                `aria-pressed="${sortMode === 'relevance'}">По релевантности</button>` +
+                `<button type="button" class="${sortMode === 'date' ? 'active' : ''}" data-sort="date" ` +
+                `aria-pressed="${sortMode === 'date'}">По дате</button></div></li>`;
+        }
         tabsEl.innerHTML = html;
         tabsEl.hidden = false;
     }
@@ -454,6 +493,7 @@
         const q = input.value.trim();
         if (q) url.searchParams.set('q', q); else url.searchParams.delete('q');
         if (tab !== 'all' && q) url.searchParams.set('in', tab); else url.searchParams.delete('in');
+        if (q) url.searchParams.set('sort', sortMode); else url.searchParams.delete('sort');
         if (url.href !== location.href) history.replaceState(null, '', url);
         document.title = (q ? q + ' — ' : '') + 'Поиск по каталогу — O-Maps';
     }
@@ -486,6 +526,17 @@
             render();
             syncUrl();
             if (!tabLink.closest('#search_tabs')) tabsEl.scrollIntoView({block: 'start'});
+            return;
+        }
+        const sortButton = ev.target.closest('[data-sort]');
+        if (sortButton) {
+            const nextSort = sortButton.dataset.sort;
+            if (nextSort !== sortMode && ['relevance', 'date'].includes(nextSort)) {
+                sortMode = nextSort;
+                saveSort(sortMode);
+                render();
+                syncUrl();
+            }
             return;
         }
         const viewLink = ev.target.closest('[data-view]');

@@ -2730,7 +2730,46 @@ a.om-broken-link:focus-visible {
 .search-status { margin: 12px 0 16px; color: var(--o-text-muted); }
 .search-status em { font-style: normal; color: var(--o-text); }
 .search-tabs { margin-bottom: 8px; }
-.search-tabs .search-view-item { margin-left: auto; }
+.search-tabs .search-sort-item {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 0 0 .25rem;
+    border-bottom: 0;
+}
+.search-sort-control {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    padding: 4px;
+    border: 1px solid var(--o-accent);
+    border-radius: 9px;
+    background: var(--o-accent-soft);
+}
+.search-sort-label {
+    padding: 0 .35rem;
+    color: var(--o-text-muted);
+    font-size: .75rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.search-sort-control button {
+    padding: .35rem .55rem;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--o-text-muted);
+    font-size: .875rem;
+    line-height: 1.25;
+    white-space: nowrap;
+}
+.search-sort-control button.active {
+    border-color: var(--o-border-soft);
+    background: var(--o-surface);
+    color: var(--o-text);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
+}
+.search-tabs .search-view-item { margin-left: 8px; }
 .search-tabs .search-view-switch { color: var(--o-accent); white-space: nowrap; }
 .search-count { color: var(--o-text-faint); font-weight: normal; font-size: .85em; }
 .search-group { margin-top: 18px; }
@@ -2784,4 +2823,22 @@ a.om-broken-link:focus-visible {
     .search-date { min-width: 0; display: block; font-size: .85em; }
     .search-maps .start-map-box { width: calc(50% - 12px); margin: 6px; }
     .search-maps .start-map-box img { width: 100%; height: auto; aspect-ratio: 1; }
+}
+
+
+@media (max-width: 575.98px) {
+    .search-tabs .search-sort-item {
+        margin-left: auto;
+        width: auto;
+        max-width: 100%;
+        padding-top: 4px;
+    }
+    .search-sort-control {
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .search-tabs .search-view-item {
+        margin-left: 8px;
+    }
 }
