@@ -356,12 +356,6 @@ const S = Object.entries(starts).map(([code, s]) => {
     return [code, plain(s.name || s.short), plain(s.short), s.logo || '', haystack(parts, `${s.name ?? ''} ${s.short ?? ''}`)];
 }).sort(byName);
 
-const O = Object.entries(owners).map(([code, o]) => {
-    const parts = [code];
-    collect(o, parts);
-    return [code, ownerName(o), o.logo || '', haystack(parts, ownerName(o))];
-}).sort(byName);
-
 const A = Object.entries(authors).map(([code, a]) => [code, personName(a), a.logo || '', haystack([code, plain(a.info)], personName(a))])
     .sort(byName);
 
@@ -474,7 +468,7 @@ T.sort((a, b) => a[1].localeCompare(b[1], 'ru'));
 
 // -------------------------------------------------------------- запись --
 
-const index = {e: E, m: M, s: S, o: O, a: A, p: P, i: I, d: D, b: B, t: T};
+const index = {e: E, m: M, s: S, a: A, p: P, i: I, d: D, b: B, t: T};
 // По записи на строку: diff в git остаётся читаемым, а размер почти тот же.
 const json = '{\n' + Object.entries(index).map(([k, rows]) =>
     `"${k}": [\n` + rows.map(r => JSON.stringify(r)).join(',\n') + '\n]').join(',\n') + '\n}\n';
@@ -483,7 +477,7 @@ const old = fs.existsSync(OUT) ? fs.readFileSync(OUT, 'utf8') : null;
 const changed = old !== json;
 const zlib = require('zlib');
 const kb = n => (n / 1024).toFixed(0) + ' КБ';
-console.log(`событий ${E.length}, карт ${M.length}, серий ${S.length}, клубов ${O.length}, ` +
+console.log(`событий ${E.length}, карт ${M.length}, серий ${S.length}, ` +
     `картографов ${A.length}, начальников дистанций ${P.length}, мест ${I.length}, ` +
     `документов и правил ${D.length}, книг и статей ${B.length}, маршрутов ${T.length}`);
 console.log(`размер ${kb(Buffer.byteLength(json))}, gzip ${kb(zlib.gzipSync(json).length)}, ` +

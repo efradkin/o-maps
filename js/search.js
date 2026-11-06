@@ -34,8 +34,6 @@
         {key: 'i', tab: 'places', title: 'Места', preview: 8, page: 60, forms: ['место', 'места', 'мест']},
         {key: 's', tab: 'starts', title: 'Серии стартов', preview: 8, page: 60,
             forms: ['серия стартов', 'серии стартов', 'серий стартов']},
-        {key: 'o', tab: 'owners', title: 'Клубы и организаторы', preview: 8, page: 60,
-            forms: ['клуб или организатор', 'клуба или организатора', 'клубов и организаторов']},
         {key: 'a', tab: 'authors', title: 'Картографы', preview: 8, page: 60,
             forms: ['картограф', 'картографа', 'картографов']},
         {key: 'p', tab: 'planners', title: 'Начальники дистанций', preview: 8, page: 60,
@@ -50,8 +48,8 @@
         {key: 'e', tab: 'events', title: 'События', preview: 20, page: 100, forms: ['событие', 'события', 'событий']},
     ];
     // На вкладках карты и события остаются первыми; короткие справочники и новые каталоги — далее.
-    const TAB_ORDER = ['m', 'e', 'd', 'b', 't', 's', 'o', 'a', 'p', 'i'];
-    const ALL_ORDER = ['s', 'o', 'a', 't', 'p', 'i', 'd', 'b', 'm', 'e'];
+    const TAB_ORDER = ['m', 'e', 'd', 'b', 't', 's', 'a', 'p', 'i'];
+    const ALL_ORDER = ['s', 'a', 't', 'p', 'i', 'd', 'b', 'm', 'e'];
 
     const input = document.getElementById('search_input');
     const form = document.getElementById('search_form');
@@ -159,7 +157,6 @@
         });
         out.m = index.m.map(r => make('m', r, r[1], '', r[0].toLowerCase() + ' ' + r[6], r[2]));
         out.s = index.s.map(r => make('s', r, r[1], r[2], r[0].toLowerCase() + ' ' + r[4]));
-        out.o = index.o.map(r => make('o', r, r[1], '', r[0].toLowerCase() + ' ' + r[3]));
         out.a = index.a.map(r => make('a', r, r[1], '', r[0].toLowerCase() + ' ' + r[3]));
         out.p = index.p.map(r => make('p', r, r[1], '', r[0].toLowerCase() + ' ' + r[2]));
         out.i = index.i.map(r => make('i', r, r[1], r[3], r[0].toLowerCase() + ' ' + r[4]));
@@ -327,10 +324,6 @@
                 href = 'start.html?start=' + encodeURIComponent(r[0]);
                 logo = r[3];
                 if (r[2] && !rec.nameN.includes(norm(r[2]))) note = r[2];   // краткое имя, если оно другое
-                break;
-            case 'o':
-                href = 'owner.html?owner=' + encodeURIComponent(r[0]);
-                logo = r[2];
                 break;
             case 'a':
                 href = 'sheet-all.html?author=' + encodeURIComponent(r[0]);
