@@ -3726,6 +3726,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/56570',
         endReg: '2026-11-06 16:00',
         bulletin: 'https://orgeo.ru/files/event/file/56570_0f71f2289f.pdf',
+        photo: 'https://vk.ru/album-196511971_312298009',
         owner: 'WN'
     },
     {

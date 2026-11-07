@@ -17073,6 +17073,7 @@ let fsorEvents = [
         place: 'Ставрополь',
         name: 'Чемпионат России',
         fmt: 'выбор, лонг, масстарт, марафон',
+        photo: 'https://eudamon.wfolio.pro/disk/02-06',
         start: 'RUS'
     },
     {
