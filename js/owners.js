@@ -783,4 +783,8 @@ let owners = {
         name: '<a href="https://rufso.ru/literatura/">ФСОР, Литература</a>',
         logo: 'fsor.webp'
     },
+    MURMAN_BOOK: {
+        name: '<a href="https://orient-murman.ru/index.php/book/">Мурманская подборка</a>',
+        logo: 'murman_orient.gif'
+    },
 }
