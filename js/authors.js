@@ -1041,5 +1041,23 @@ let authors = {
         about: 'https://rufso.ru/wp-content/uploads/2019/11/Лосев-Андрей-Сталиевич.pdf'
     },
     RN_L: { name: 'Ron Lowry' },
+
+    // Авторы материалов с сайта ФСОР
+    AGLTSV_V_N: { name: 'Агальцов В.Н.' },
+    ANDRSSN_G: { name: 'Горан Андерссон' },
+    BBKVA_E_N: { name: 'Бобкова Е.Н.' },
+    GLGV_O_L: { name: 'Глаголева О.Л.' },
+    IVNV_E_I: { name: 'Иванов Е.И.' },
+    KDNV_V_S: { name: 'Кудинов В.С.' },
+    KIRCHO_A_N: { name: 'Кирчо А.Н.' },
+    KRNOV_I_V: { name: 'Крайнов И.В.' },
+    KRKHN_L_A: { name: 'Крохин Л.А.' },
+    KRPLSN_ASYA: { name: 'Карпельсон Ася' },
+    PPLV_E_I: { name: 'Пепеляев Е.И.' },
+    SHUR_G_V: { name: 'Шур Г.В.' },
+    SHTYKVA_U_V: { name: 'Штыкова У.В.' },
+    UHVSKY_F_S: { name: 'Уховский Ф.С.' },
+    VLKV_A_M: { name: 'Волков А.М.' },
+    VRNV_Y_S: { name: 'Воронов Ю.С.' },
 };
 

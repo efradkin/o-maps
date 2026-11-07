@@ -779,4 +779,8 @@ let owners = {
     SHRNN_AA: {
         name: 'Александр Альбертович Ширинян, <a href="mailto:skishar@mail.ru">skishar@mail.ru</a>.'
     },
+    FSOR_BOOK: {
+        name: '<a href="https://rufso.ru/literatura/">ФСОР, Литература</a>',
+        logo: 'fsor.webp'
+    },
 }
