@@ -397,13 +397,16 @@
         const r = rec.row;
         const [name, years, date, links, info, source] = r;
         const dateText = date || (years?.length ? years.join(', ') : '');
-        const title = links.length === 1
-            ? `<a href="${esc(links[0])}" target="_blank" rel="noopener" title="${isDownloadLink(links[0]) ? 'Скачать документ' : 'Открыть источник'}">${hl(name)}</a>`
+        // Первая ссылка — основная: название документа всегда ведёт на неё.
+        const primaryLink = links[0];
+        const title = primaryLink
+            ? `<a href="${esc(primaryLink)}" target="_blank" rel="noopener" title="${isDownloadLink(primaryLink) ? 'Скачать документ' : 'Открыть источник'}">${hl(name)}</a>`
             : hl(name);
+        // Дополнительные ссылки показываем такими же иконками, как на rules.html.
         const downloads = links.length > 1
-            ? `<span class="search-downloads">${links.map((url, i) =>
-                `<a href="${esc(url)}" target="_blank" rel="noopener">${isDownloadLink(url) ? `Скачать ${i + 1}` : `Источник ${i + 1}`}</a>`
-            ).join(', ')}</span>`
+            ? `<span class="search-downloads">${links.slice(1).map(url =>
+                `<a href="${esc(url)}" class="ext-link" title="Скачать" target="_blank" rel="noopener"><img src="./images/${downloadIconExt(url)}-file.png" alt="Скачать"></a>`
+            ).join(' ')}</span>`
             : '';
         const details = [source, info].filter(Boolean).join(' · ');
         return `<li class="search-resource"><span class="search-date">${esc(dateText)}</span>` +
