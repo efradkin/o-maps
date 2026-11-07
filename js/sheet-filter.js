@@ -4,7 +4,9 @@
 //                       (например, "#news-list" на странице новостей); без него - строки .o-sheet
 //   data-placeholder  - подсказка в поле ввода
 //   data-label        - aria-label поля ввода
+//   data-always-open  - сразу показывать поле раскрытым и не сворачивать его
 const SHEET_FILTER_OPTIONS = document.currentScript.dataset;
+const SHEET_FILTER_ALWAYS_OPEN = SHEET_FILTER_OPTIONS.alwaysOpen === 'true';
 
 function sheetFilterAttr(value) {
     return String(value).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
@@ -60,14 +62,19 @@ document.addEventListener("DOMContentLoaded", () => {
         input.focus();
     }
     function close(){
-        wrap.classList.remove('is-open');
-        btn.setAttribute('aria-expanded','false');
         input.value = '';
         apply();
+        if (SHEET_FILTER_ALWAYS_OPEN) return;
+        wrap.classList.remove('is-open');
+        btn.setAttribute('aria-expanded','false');
     }
 
     btn.addEventListener('click', function(){
-        wrap.classList.contains('is-open') ? close() : open();
+        if (SHEET_FILTER_ALWAYS_OPEN) {
+            open();
+        } else {
+            wrap.classList.contains('is-open') ? close() : open();
+        }
     });
 
     input.addEventListener('input', function(){
@@ -82,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // схлопывать при потере фокуса, если ничего не введено
     input.addEventListener('blur', function(){
-        if (!input.value) close();
+        if (!SHEET_FILTER_ALWAYS_OPEN && !input.value) close();
     });
 
     // горячая клавиша «/» — как на GitHub
@@ -100,6 +107,12 @@ document.addEventListener("DOMContentLoaded", () => {
             if (input.value) apply();
         }, 50);
     }).observe(root, { childList: true, subtree: true });
+
+    // В постоянно раскрытом режиме показываем поле сразу, не переводя на него фокус.
+    if (SHEET_FILTER_ALWAYS_OPEN) {
+        wrap.classList.add('is-open');
+        btn.setAttribute('aria-expanded','true');
+    }
 
     // начальный запрос из адреса: ?q=токсово
     const initialQuery = (SEARCH_PARAM || '').trim();

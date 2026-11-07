@@ -57,12 +57,16 @@
         </nav>
     </header>
 
-    <br />
+    <div class="sheet-filters">
+        <script src="js/sheet-filter.js?v=60" data-always-open="true"
+                data-placeholder="Название, автор, источник и пр…"
+                data-label="Поиск по книгам и статьям"></script>
+    </div>
 
     <div class="o-sheet-roof">
         <a href="#" onclick="downloadSheetTable('o-maps-books.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
-    <div class="o-sheet-wrapper o-sheet-wrapper-wo-filters">
+    <div class="o-sheet-wrapper">
         <table class="o-main-table o-sheet">
             <thead>
             <tr>
