@@ -3483,6 +3483,16 @@ let mskEvents2026 = [
         map: 'timiryazevsky_2026'
     },
     {
+        id: 'MSK_20261115_2',
+        date: "2026-11-15",
+        name: "Каникулы",
+        place: "МБОУ Хотьковская СОШ № 1",
+        type: "ORIENT",
+        coord: [56.245968, 37.990269],
+        reg: "https://orgeo.ru/event/56707",
+        endReg: "2026-11-14 12:00"
+    },
+    {
         id: 'MSK_20261121_1',
         date: "2026-11-21",
         name: "Московская Осень",

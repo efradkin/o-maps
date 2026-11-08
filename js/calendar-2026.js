@@ -3711,6 +3711,7 @@ let events2026 = [
         name: 'Горный кросс-117',
         reg: 'https://orgeo.ru/event/50689',
         bulletin: 'https://o-site.spb.ru/_races/261107R/261107R_info2.pdf',
+        info: '<a href="https://o-route.ru/events/gk-118">Треки участников</a>.'
         endReg: '2026-11-06 19:00',
         type: 'ROGAINE',
         fmt: '6(5), 2',
@@ -3788,6 +3789,15 @@ let events2026 = [
         date: '2026-11-15',
         name: 'Первенство ГБУ ДО СШОР им. Коренькова',
         fmt: 'спринт'
+    },
+    {
+        id: 'SPB_20261121_1',
+        date: '2026-11-21',
+        name: 'Тренировочный старт ФСО Выборга',
+        o_site: '261121',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1765',
+        endReg: '2026-11-19',
+        bulletin: 'https://o-site.spb.ru/_races/261121/261121_info.pdf'
     },
     {
         id: 'SPB_20261122_1',
