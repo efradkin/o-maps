@@ -787,4 +787,8 @@ let owners = {
         name: '<a href="https://orient-murman.ru/index.php/book/">Мурманская подборка</a>',
         logo: 'murman_orient.gif'
     },
+    NOVGOROD_BOOK: {
+        name: '<a href="https://o-novgorod.ru/48-2/">о-Новгород</a>',
+        logo: 'novgorod_books.gif'
+    },
 }
