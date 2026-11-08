@@ -3715,6 +3715,9 @@ let events2026 = [
         type: 'ROGAINE',
         fmt: '6(5), 2',
         coord: [60.456219, 30.287008],
+        o_gps: 26279,
+        me: '2ч',
+        starava: 20892940158,
         start: 'GORNY_CROSS'
     },
     {
@@ -3739,7 +3742,9 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/56585',
         endReg: '2026-11-06 12:00',
         bulletin: 'https://o-site.spb.ru/_races/261107/261107_info.pdf',
-        owner: 'FENIX'
+        o_gps: [26280,26281,26282,26283],
+        owner: 'FENIX',
+        reskeep: 950
     },
     {
         id: 'SPB_20261108_1',

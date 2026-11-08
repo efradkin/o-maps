@@ -3376,6 +3376,7 @@ let mskEvents2026 = [
         coord: [55.842697, 37.401472],
         link: "https://docs.google.com/document/d/1f_96ftcglbiSh_zYfm3H6e9gr5Is6vM89FjMuAMDius/edit?usp=sharing",
         reg: "https://buyrun.ru/event/160",
+        res: "https://malahit-sprint.ru/live/start-2026-11-07-mikrogejn-bratcevo",
         owner: "MLKHT",
         map: '20200919_688'
     },
