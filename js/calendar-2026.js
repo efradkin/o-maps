@@ -3693,6 +3693,7 @@ let events2026 = [
         bulletin: 'https://o-site.spb.ru/_races/261104_OM/Info_OM_041126.pdf',
         fmt: 'лонг',
         coord: [60.367405, 29.553411],
+        photo: ['https://vk.ru/album-220245153_314867535','https://disk.yandex.ru/d/uMvVKReQt6TxKQ'],
         video: 'https://vk.ru/clip-220245153_456239107',
         owner: 'AZIMUT',
         map: 'tsvelodubovo_2020',
@@ -3712,6 +3713,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/50689',
         bulletin: 'https://o-site.spb.ru/_races/261107R/261107R_info2.pdf',
         info: '<a href="https://o-route.ru/events/gk-118">Треки участников</a>.',
+        video: 'https://vk.com/video-31941981_456239092',
         endReg: '2026-11-06 19:00',
         type: 'ROGAINE',
         fmt: '6(5), 2',
@@ -3753,6 +3755,8 @@ let events2026 = [
         place: 'Васильево, Тиверская застава',
         name: 'XIII Кубок Весты, 2 этап',
         link: 'https://vk.ru/wall-30365190_9671',
+        res: 'https://vk.com/wall-30365190_9756',
+        publish: 'https://vk.com/wall-30365190_9756',
         owner: 'VESTA_PRIOZERSK',
         map: 'vasilievo_2024',
         map: 'priozersk_kamenisty'
@@ -3768,6 +3772,7 @@ let events2026 = [
         endReg: '2026-11-06 15:00',
         start: 'ROGAINE_110',
         bulletin: 'https://o-site.spb.ru/_races/261108_110/markir_info2.pdf',
+        maps: 'https://o-site.spb.ru/_races/261108_110/markir110-2026-controlmap.jpg',
         map: 'silande_2024'
     },
     {
@@ -3783,6 +3788,17 @@ let events2026 = [
         type: 'ROGAINE',
         map: 'toloni_2025',
         owner: 'SHBN'
+    },
+    {
+        id: 'SPB_20261114_2',
+        date: '2026-11-14',
+        name: 'Феникс Middle-Cup',
+        place: 'Стеклянный',
+        o_site: '261114',
+        coord: [60.393497, 30.242603],
+        reg: 'https://orgeo.ru/event/56710',
+        bulletin: 'https://o-site.spb.ru/_races/261114/261114_info.pdf',
+        owner: 'FENIX'
     },
     {
         id: 'SPB_20261115_1',
@@ -3818,6 +3834,14 @@ let events2026 = [
         name: 'День матери',
         owner: 'FENIX',
         map: 'poljustrovo_tukhachevskogo_2026'
+    },
+    {
+        id: 'SPB_20261128_3',
+        date: '2026-11-28',
+        name: 'Ориентир НатАлка',
+        place: 'Пискаревский парк',
+        o_site: '2026_Orientir',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20261129_1',
