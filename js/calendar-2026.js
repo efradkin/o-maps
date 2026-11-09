@@ -3797,6 +3797,7 @@ let events2026 = [
         o_site: '261114',
         coord: [60.393497, 30.242603],
         reg: 'https://orgeo.ru/event/56710',
+        endReg: '2026-11-13 12:00',
         bulletin: 'https://o-site.spb.ru/_races/261114/261114_info.pdf',
         owner: 'FENIX'
     },

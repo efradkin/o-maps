@@ -44,8 +44,7 @@ let events2027 = [
         name: 'ЧиП СПб, ЧиП ЛО',
         start: ['SPB_CHAMP','LO_CHAMP'],
         type: 'SKI',
-        fmt: 'маркир',
-        owner: 'SFSO_SPB'
+        fmt: 'маркир'
     },
     {
         id: 'SPB_20270124_1',
@@ -54,8 +53,7 @@ let events2027 = [
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
         type: 'SKI',
-        fmt: 'масстарт',
-        owner: 'SFSO_SPB'
+        fmt: 'масстарт'
     },
     {
         id: 'SPB_20270206_1',
@@ -64,8 +62,7 @@ let events2027 = [
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
         type: 'SKI',
-        fmt: 'спринт',
-        owner: 'SFSO_SPB'
+        fmt: 'спринт'
     },
     {
         id: 'SPB_20270207_1',
@@ -74,16 +71,15 @@ let events2027 = [
         name: 'ЧиП СПб, ЧиП ЛО',
         start: ['SPB_CHAMP','LO_CHAMP'],
         type: 'SKI',
-        fmt: 'лонг',
-        owner: 'SFSO_SPB'
+        fmt: 'лонг'
     },
     {
         id: 'SPB_20270214_1',
         date: '2027-02-14',
         place: 'Сестрорецк, парк Дубки',
         name: 'Снежная Тропа, 1-й этап',
-        fmt: 'спринт',
-        owner: 'SFSO_SPB'
+        start: 'SNOW_WAY',
+        fmt: 'спринт'
     },
     {
         id: 'SPB_20270221_1',
@@ -112,8 +108,7 @@ let events2027 = [
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
         type: 'SKI',
-        fmt: 'эстафета 2х, эстафета 3х',
-        owner: 'SFSO_SPB'
+        fmt: 'эстафета 2х, эстафета 3х'
     },
     {
         id: 'SPB_20270227_1',
@@ -130,8 +125,8 @@ let events2027 = [
         date: '2027-03-14',
         place: 'Южно-Приморский парк',
         name: 'Снежная Тропа, 2-й этап',
-        fmt: 'спринт',
-        owner: 'SFSO_SPB'
+        start: 'SNOW_WAY',
+        fmt: 'спринт'
     },
     {
         id: 'SPB_20270410_1',
@@ -147,8 +142,7 @@ let events2027 = [
         place: 'Петергоф (ПУНК)',
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
-        fmt: 'эстафета 2х2, эстафета 2х3',
-        owner: 'SFSO_SPB'
+        fmt: 'эстафета 2х2, эстафета 2х3'
     },
     {
         id: 'SPB_20270425_1',
@@ -156,8 +150,7 @@ let events2027 = [
         place: 'Зеленогорск',
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
-        fmt: 'спринт',
-        owner: 'SFSO_SPB'
+        fmt: 'спринт'
     },
     {
         id: 'SPB_20270508_1',
@@ -189,8 +182,7 @@ let events2027 = [
         place: 'Лемболово',
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
-        fmt: 'классика',
-        owner: 'SFSO_SPB'
+        fmt: 'классика'
     },
     {
         id: 'SPB_20270522_1',
@@ -198,8 +190,7 @@ let events2027 = [
         place: 'Лейпясуо',
         name: 'ЧиП ЛО',
         start: 'LO_CHAMP',
-        fmt: 'эстафета 2х',
-        owner: 'SFSO_LO'
+        fmt: 'эстафета 2х'
     },
     {
         id: 'SPB_20270523_1',
@@ -207,8 +198,7 @@ let events2027 = [
         place: 'Сосново',
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
-        fmt: 'лонг',
-        owner: 'SFSO_SPB'
+        fmt: 'лонг'
     },
     {
         id: 'SPB_20270530_1',
@@ -225,8 +215,7 @@ let events2027 = [
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
         type: 'VELO',
-        fmt: 'спринт',
-        owner: 'SFSO_SPB'
+        fmt: 'спринт'
     },
     {
         id: 'SPB_20270612_1',
@@ -234,8 +223,7 @@ let events2027 = [
         endDate: '2027-06-14',
         place: 'Ленинградская область',
         name: 'Невский Азимут',
-        start: 'NA',
-        owner: 'AZIMUT'
+        start: 'NA'
     },
     {
         id: 'SPB_20270612_2',
@@ -260,8 +248,7 @@ let events2027 = [
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
         type: 'VELO',
-        fmt: 'масстарт',
-        owner: 'SFSO_SPB'
+        fmt: 'масстарт'
     },
     {
         id: 'SPB_20270829_1',
@@ -269,8 +256,7 @@ let events2027 = [
         place: 'Выборг',
         name: 'ЧиП ЛО',
         start: 'LO_CHAMP',
-        fmt: 'масстарт',
-        owner: 'SFSO_LO'
+        fmt: 'масстарт'
     },
     {
         id: 'SPB_20270905_1',
@@ -278,8 +264,7 @@ let events2027 = [
         place: 'Вещево',
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
-        fmt: 'лонг-масстарт',
-        owner: 'SFSO_SPB'
+        fmt: 'лонг-масстарт'
     },
     {
         id: 'SPB_20270911_1',
@@ -294,8 +279,7 @@ let events2027 = [
         place: 'Лемболово',
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
-        fmt: 'эстафета 3х',
-        owner: 'SFSO_SPB'
+        fmt: 'эстафета 3х'
     },
     {
         id: 'SPB_20270923_1',
@@ -313,8 +297,7 @@ let events2027 = [
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
         type: 'VELO',
-        fmt: 'классика',
-        owner: 'SFSO_SPB'
+        fmt: 'классика'
     },
     {
         id: 'SPB_20270926_2',
@@ -350,8 +333,7 @@ let events2027 = [
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
         type: 'VELO',
-        fmt: 'эстафета 2х',
-        owner: 'SFSO_SPB'
+        fmt: 'эстафета 2х'
     },
     {
         id: 'SPB_20271016_1',
@@ -367,8 +349,7 @@ let events2027 = [
         place: 'Зеленогорск',
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
-        fmt: 'выбор, ночное',
-        owner: 'SFSO_SPB'
+        fmt: 'выбор, ночное'
     },
     {
         id: 'SPB_20271017_1',
@@ -376,8 +357,7 @@ let events2027 = [
         place: 'Зеленогорск',
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
-        fmt: 'масстарт',
-        owner: 'SFSO_SPB'
+        fmt: 'масстарт'
     },
     {
         id: 'SPB_20271023_1',
@@ -388,7 +368,7 @@ let events2027 = [
         owner: 'NW'
     },
     {
-        id: 'SPB_20271023_1',
+        id: 'SPB_20271023_2',
         date: '2027-10-24',
         place: 'Ленинградская область',
         name: '5 вёрст',
@@ -421,8 +401,8 @@ let events2027 = [
         date: '2027-11-21',
         place: 'Санкт-Петербург',
         name: 'Снежная Тропа, 3-й этап',
-        fmt: 'спринт',
-        owner: 'SFSO_SPB'
+        start: 'SNOW_WAY',
+        fmt: 'спринт'
     },
     {
         id: 'SPB_20271205_1',
@@ -436,7 +416,7 @@ let events2027 = [
         date: '2027-12-12',
         place: 'Санкт-Петербург',
         name: 'Снежная Тропа, 4-й этап',
-        fmt: 'спринт',
-        owner: 'SFSO_SPB'
+        start: 'SNOW_WAY',
+        fmt: 'спринт'
     }
 ];
