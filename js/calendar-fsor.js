@@ -16211,7 +16211,6 @@ let fsorEvents = [
             'http://vs.o-perm.tilda.ws/',
             'https://t.me/KuzmolovoDragons/235'
         ],
-        major: true,
         type: 'SKI',
         fmt: 'маркир, эстафета, комбинация, лонг, классика',
         start: 'RUS_CUP',
@@ -16246,7 +16245,6 @@ let fsorEvents = [
             'https://t.me/ksyushaorient/4797',
             'https://t.me/KuzmolovoDragons/235'
         ],
-        major: true,
         type: 'SKI',
         fmt: 'спринт, многодневная, лонг',
         photo: 'https://vk.com/album-143199645_309873364',
@@ -16491,7 +16489,6 @@ let fsorEvents = [
         endDate: '2026-04-27',
         place: 'Ставропольский край, Железноводск',
         name: 'Кубок России',
-        major: true,
         type: 'VELO',
         fmt: 'многодневные, эстафета 2х',
         photo: [
@@ -16635,7 +16632,6 @@ let fsorEvents = [
         endDate: '2026-06-01',
         place: 'Челябинск',
         name: 'Кубок России, лично-командные',
-        major: true,
         fmt: 'эстафета 2х, эстафета 3х, эстафета 4х',
         res: 'https://orgeo.ru/live/#/51003',
         photo: [
@@ -16654,7 +16650,6 @@ let fsorEvents = [
         endDate: '2026-06-08',
         place: 'Нижегородская обл, Вача',
         name: 'Кубок России',
-        major: true,
         fmt: 'классика, лонг, многодневный',
         photo: [
             'https://vk.com/album-181722204_309611663',
@@ -16916,7 +16911,6 @@ let fsorEvents = [
             'https://rufso.ru/%d0%ba%d1%83%d0%b1%d0%be%d0%ba-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8-%d0%ba%d1%80%d0%be%d1%81%d1%81%d0%be%d0%b2%d1%8b%d0%b5-%d0%b4%d0%b8%d1%81%d1%86%d0%b8%d0%bf%d0%bb%d0%b8%d0%bd%d1%8b-5/',
             'https://toptver.ru/lenta/kubok-rossii-po-sportivnomu-orientirovaniju-proshel-v-tverskoj-oblasti/'
         ],
-        major: true,
         fmt: 'масстарт, лонг-масстарт, марафон',
         photo: 'https://vk.com/album-27129367_310782524',
         video: [
@@ -16932,7 +16926,6 @@ let fsorEvents = [
         endDate: '2026-09-21',
         place: 'Новосибирск',
         name: 'Кубок России',
-        major: true,
         type: 'VELO',
         fmt: 'спринт, лонг, эстафета 3х, масстарт',
         start: 'RUS_CUP'
@@ -17062,7 +17055,6 @@ let fsorEvents = [
         endDate: '2026-10-18',
         place: 'Калининград',
         name: 'Кубок России, спринт',
-        major: true,
         fmt: 'выбор, спринт, спринт-масстарт',
         start: 'RUS_CUP'
     },
@@ -17085,7 +17077,6 @@ let fsorEvents = [
         endDate: '2026-12-15',
         place: 'Алтай, Семинский перевал',
         name: 'Кубок России',
-        major: true,
         type: 'SKI',
         fmt: 'эстафета 2х, классика, марафон',
         start: 'RUS_CUP'
