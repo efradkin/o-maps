@@ -3424,7 +3424,7 @@ let mskEvents2026 = [
         type: "ORIENT",
         coord: [55.079048, 38.756603],
         reg: "https://orgeo.ru/event/56632",
-        endReg: "2026-11-11 23:50",
+        endReg: "2026-11-12 22:50",
         bulletin: "https://orgeo.ru/files/event/file/56632_04da84e620.pdf"
     },
     {
@@ -3505,6 +3505,17 @@ let mskEvents2026 = [
         endReg: "2026-11-20 21:00",
         owner: "CLEVER_MSK",
         map: '20250404_702'
+    },
+    {
+        id: 'MSK_20261121_2',
+        date: "2026-11-21",
+        name: "Ночной выбор в парке «Елочки»",
+        place: "Парк Елочки",
+        type: "ORIENT",
+        fmt: "общий старт",
+        coord: [55.41869, 37.778851],
+        reg: "https://orgeo.ru/event/56754",
+        endReg: "2026-11-20 11:00"
     },
     {
         id: 'MSK_20261122_1',

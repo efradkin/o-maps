@@ -3651,6 +3651,7 @@ let events2026 = [
         o_site: '261101_D2RUN_final',
         bulletin: 'https://o-site.spb.ru/_races/261101_D2RUN_final/261101_Kubok_D2Run_2026_info2.pdf',
         publish: 'https://t.me/dlitelnyy/766',
+        photo: 'https://kozhin-jr.ru/disk/01-11-2026-kubok-d2run-46jm7k',
         planner: 'KSHN_D',
         fmt: 'лонг (гандикап)',
         coord: [60.678437, 29.967588],
@@ -3773,6 +3774,8 @@ let events2026 = [
         start: 'ROGAINE_110',
         bulletin: 'https://o-site.spb.ru/_races/261108_110/markir_info2.pdf',
         maps: 'https://o-site.spb.ru/_races/261108_110/markir110-2026-controlmap.jpg',
+        photo: 'https://vk.com/album-92124592_312217325',
+        video: 'https://vk.ru/clip-220245153_456239110',
         map: 'silande_2024'
     },
     {
