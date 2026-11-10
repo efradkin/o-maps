@@ -198,6 +198,9 @@ const regions = {
     SPB: {
         name: 'С-Петербург'
     },
+    STAVROPOL: {
+        name: 'Ставрополь'
+    },
     TULA: {
         name: 'Тульская обл'
     },

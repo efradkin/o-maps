@@ -1311,6 +1311,42 @@ let otherMaps = [
         region: 'KABARDA',
         type: ['ROGAINE']
     },
+    {
+        name: 'Ставрополь, парк Победы',
+        date: '2026-11-05',
+        url: './maps/south/victory_park_2026_11_05.webp',
+        link: './original_maps/south/victory_park_2026_11_05_omaps.webp',
+        info: 'Полигон.',
+        bounds: [[45.0292708, 41.9103098], [45.0278907, 41.9276261], [45.0218090, 41.9087005]],
+        start: ['RUS_2026','RUS']
+    },
+    {
+        name: 'Таманский лес',
+        date: '2026-11-02',
+        url: './maps/south/tamansky_forest_2026.webp',
+        link: ['./original_maps/south/tamansky_forest_2026_2026_11_02_omaps.webp','./original_maps/south/tamansky_forest_2026_2026_11_04_omaps.webp'],
+        info: '2 (выбор) и 4 (масстарт) ноября.',
+        bounds: [[45.0575619, 41.9244289], [45.0545151, 41.9553709], [45.0359051, 41.9199979]],
+        start: ['RUS_2026','RUS']
+    },
+    {
+        name: 'Русский лес',
+        date: '2026-11-03',
+        url: './maps/south/russky_forest_2026.webp',
+        link: './original_maps/south/russky_forest_2026_11_03_omaps.webp',
+        info: 'Лонг-масстарт.',
+        bounds: [[45.0487243, 41.8425679], [45.0462077, 41.8651628], [45.0309389, 41.8398643]],
+        start: ['RUS_2026','RUS']
+    },
+    {
+        name: 'Беспутская поляна',
+        date: '2026-11-06',
+        url: './maps/south/besputskaya_polyana_2026.webp',
+        link: './original_maps/south/besputskaya_polyana_2026_11_06_omaps.webp',
+        info: 'Марафон.',
+        bounds: [[45.0731872, 41.8438768], [45.0699443, 41.8741322], [45.0392940, 41.8372250]],
+        start: ['RUS_2026','RUS']
+    },
 
     // --- Не Россия ---
 

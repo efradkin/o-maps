@@ -762,10 +762,18 @@ let starts = {
     RUS_2024: {
         major: true,
         short: 'ЧР (спринт) 2024',
-        name: '<a href="https://o-site.spb.ru/race.php?id=240519_russia">Чемпионат России (спринт)</a>',
+        name: '<a href="https://o-site.spb.ru/race.php?id=240519_russia">Чемпионат России (спринт) 2024</a>',
         logo: 'russia_2024.jpg',
         region: 'SPB',
         owner: 'FSOR'
+    },
+    RUS_2026: {
+        major: true,
+        short: 'ЧР 2026',
+        name: '<a href="https://www.fso-sk.ru/sport/chempionat_rossii_1_-_7_noyabrya_2026_g_g_stavropol.html">Чемпионат России 2026</a>',
+        logo: 'stavropol_2026.webp',
+        region: 'STAVROPOL',
+        owner: ['SFSO_STAVROPOL','FSOR']
     },
     RUS_CUP_2024: {
         major: true,

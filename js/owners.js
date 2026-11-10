@@ -254,7 +254,7 @@ let owners = {
     },
     SFSO_LO: {
         title: '<a href="https://vk.ru/lo.orienteering">Региональная спортивная федерация спортивного ориентирования Ленинградской области</a>',
-        name: 'Региональная спортивная федерация спортивного ориентирования Ленинградской области',
+        name: 'Федерация спортивного ориентирования Ленинградской области',
         logo: 'len_obl.gif'
     },
     SFSO_SPB: {
@@ -269,6 +269,11 @@ let owners = {
         title: '<a href="https://rufso.ru/">Федерация спортивного ориентирования России</a>',
         name: 'ФСОР',
         logo: 'fsor.webp'
+    },
+    SFSO_STAVROPOL: {
+        title: '<a href="https://www.fso-sk.ru/">Федерация спортивного ориентирования Ставропольского края</a>',
+        name: 'Федерация спортивного ориентирования Ставропольского края',
+        logo: 'len_obl.gif'
     },
     IOF: {
         title: '<a href="https://orienteering.sport/">International Orienteering Federation (IOF)</a>',

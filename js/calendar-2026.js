@@ -3758,6 +3758,7 @@ let events2026 = [
         link: 'https://vk.ru/wall-30365190_9671',
         res: 'https://vk.com/wall-30365190_9756',
         publish: 'https://vk.com/wall-30365190_9756',
+        video: 'https://vkvideo.ru/video7973032_456239127',
         owner: 'VESTA_PRIOZERSK',
         map: 'vasilievo_2024',
         map: 'priozersk_kamenisty'
