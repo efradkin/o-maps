@@ -17075,7 +17075,8 @@ let fsorEvents = [
         fmt: 'выбор, лонг, масстарт, марафон',
         photo: ['https://eudamon.wfolio.pro/disk/02-06','https://vk.ru/album-63010573_314888863'],
         video: 'https://vkvideo.ru/video-63010573_456239081',
-        map: ['victory_park_2026_11_05','tamansky_forest_2026','russky_forest_2026'],
+        publish: 'https://vk.ru/wall-63010573_4756',
+        map: ['victory_park_2026_11_05','tamansky_forest_2026','russky_forest_2026','besputskaya_polyana_2026'],
         start: ['RUS_2026','RUS']
     },
     {

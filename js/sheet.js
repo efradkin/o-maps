@@ -34,7 +34,7 @@ window.onload = function() {
     }
     if (REGION_NAME_PARAM) {
         oMaps = oMaps.filter(m => {
-            return REGION_NAME_PARAM === m.region;
+            return getRegions(m).includes(REGION_NAME_PARAM);
         });
     }
     if (ORDER_STATUS_PARAM) {

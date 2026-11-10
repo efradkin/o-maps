@@ -1703,6 +1703,39 @@ function checkStartMap(start, m) {
     return (start === m.start);
 }
 
+// Все регионы, к которым относится карта: собственный регион карты
+// и регионы стартов, на которые она ссылается.
+function getRegions(m) {
+    const result = [];
+    const addRegion = region => {
+        if (Array.isArray(region)) {
+            for (const item of region) {
+                addRegion(item);
+            }
+        } else if (region && !result.includes(region)) {
+            result.push(region);
+        }
+    };
+
+    if (!m) {
+        return result;
+    }
+
+    addRegion(m.region);
+
+    const mapStarts = Array.isArray(m.start) ? m.start : (m.start ? [m.start] : []);
+    if (typeof starts !== 'undefined') {
+        for (const startId of mapStarts) {
+            const start = starts[startId];
+            if (start) {
+                addRegion(start.region);
+            }
+        }
+    }
+
+    return result;
+}
+
 // Имена карт, на которые ссылаются события календаря старта. По умолчанию
 // события - глобальный oEvents (если страница его загрузила); результат
 // кешируется для каждой пары «массив событий + старт».
