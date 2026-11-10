@@ -162,6 +162,7 @@ const GLOBAL_MENU_ITEMS = [
             { title: '📃 Сканы документов', page: 'documents' },
             { title: '💼 Руководства и правила', page: 'rules' },
             { title: '📖 Книги и статьи', page: 'books' },
+            { title: '🧭 Журнал «Азимут»', page: 'azimut' },
             { title: '❓ Неопределённые карты', page: 'unknown' },
         ]
     },

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Журнал «Азимут» — O-Maps</title>
+    <meta name="description" content="Архив журнала «Азимут»: поиск по названиям статей и полнотекстовый поиск по выпускам.">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css?v=32"/>
+    <link rel="stylesheet" href="css/theme.css?v=32"/>
+    <link rel="stylesheet" href="css/azimut.css?v=1"/>
+    <script src="js/theme-toggle.js?v=61"></script>
+
+    <meta property="og:title" content="O-Maps. Журнал «Азимут»">
+    <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/azimut.html">
+    <meta property="og:description" content="Архив журнала «Азимут»: поиск по названиям статей и полнотекстовый поиск по выпускам.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <base target="_blank">
+</head>
+<body class="help-body stat-body index-body azimut-body">
+    <script src="js/utils-common.js?v=61"></script>
+    <script src="js/broken_links.js?v=4"></script>
+    <script src="js/utils.js?v=77"></script>
+
+    <header class="page-header">
+        <nav class="page-header-actions" aria-label="Навигация по странице">
+            <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
+            <script src="js/global-menu.js?v=63"></script>
+            <script>writeGlobalMenuHtml();</script>
+        </nav>
+    </header>
+
+    <main class="container azimut-content">
+        <h1 id="azimutPageTitle" class="page-title mb-3">Журнал «Азимут»</h1>
+
+        <div id="azimutSearchControls" class="d-flex flex-wrap align-items-center gap-3 mb-2">
+            <div class="index-search flex-grow-1" style="max-width: 640px; margin: 6px 0 0;">
+                <div class="input-group">
+                    <input type="search" id="azimutSearchInput" class="form-control"
+                           placeholder="Название статьи, автор, слово или «фраза»…"
+                           autocomplete="off" spellcheck="false"
+                           aria-label="Поиск по журналу «Азимут»">
+                    <button type="button" id="azimutSearchBtn" class="cal-search__btn"
+                            title="Поиск" aria-label="Поиск">
+                        <img src="images/search_24.png" alt="Поиск">
+                    </button>
+                </div>
+            </div>
+            <label class="form-check d-flex align-items-center gap-2 mb-0" for="azimutFulltext">
+                <input type="checkbox" id="azimutFulltext" class="form-check-input mt-0">
+                <span>Полнотекстовый поиск</span>
+            </label>
+        </div>
+        <p id="azimutSearchHint" class="small text-muted mb-2">
+            Поиск работает по названиям статей. <!--Поиск по нескольким словам учитывает их все; точную фразу можно заключить в кавычки.-->
+            Полнотекстовый индекс загружается только после включения соответствующего режима.
+        </p>
+
+        <div id="azimutSearchStatus" class="search-status" role="status" aria-live="polite">
+            Загружаю каталог выпусков…
+        </div>
+
+        <section id="azimutResults" aria-live="polite" hidden>
+            <div class="d-flex justify-content-between align-items-baseline gap-2 mb-3">
+                <h2 class="h5 mb-0">Результаты поиска</h2>
+                <span id="azimutResultsCount" class="small text-muted"></span>
+            </div>
+            <div id="azimutResultsList"></div>
+        </section>
+
+        <section id="azimutIssueDetail" class="azimut-issue-detail" aria-labelledby="azimutIssueDetailTitle" hidden>
+            <a id="azimutIssueClose" class="azimut-issue-detail__close" href="azimut.html"
+               target="_self" title="Назад к выпускам" aria-label="Назад к выпускам">×</a>
+            <div class="azimut-issue-detail__header">
+                <a id="azimutIssueBack" class="azimut-issue-detail__back" href="azimut.html" target="_self">← Назад к выпускам</a>
+                <h2 id="azimutIssueDetailTitle" class="azimut-issue-detail__title"></h2>
+            </div>
+            <div class="azimut-issue-detail__layout">
+                <div class="azimut-issue-detail__cover-column">
+                    <div id="azimutIssueCover" class="azimut-issue-detail__cover"></div>
+                    <a id="azimutIssueOpenPdf" class="azimut-issue-detail__open" href="#"
+                       target="_blank" rel="noopener noreferrer">Открыть журнал</a>
+                </div>
+                <section class="azimut-issue-detail__content" aria-label="Содержание выпуска">
+                    <p id="azimutIssueSummary" class="azimut-issue-detail__summary"></p>
+                    <div id="azimutIssueArticles"></div>
+                </section>
+            </div>
+        </section>
+
+        <section id="azimutCatalogSection" aria-label="Выпуски журнала">
+            <div class="d-flex justify-content-between align-items-baseline gap-2 mb-3">
+                <h2 class="h5 mb-0">Выпуски журнала</h2>
+                <span id="azimutIssuesCount" class="small text-muted"></span>
+            </div>
+            <div id="azimutIssues" class="row g-4"></div>
+        </section>
+
+        <p id="azimutSource" class="azimut-source">
+            <a href="https://rufso.ru/журнал-азимут-по-номерам/" target="_blank" rel="noopener">
+                Страница журнала «Азимут» на сайте ФСОР
+            </a>
+        </p>
+    </main>
+
+    <noscript>
+        <div id="noscript_content">
+            <p class="h1">Журнал «Азимут»</p>
+            <p>Для работы каталога и поиска необходимо включить JavaScript.</p>
+        </div>
+    </noscript>
+
+    <script src="js/ext/bootstrap.min.js"></script>
+    <script src="js/ext/bootstrap5-dropdown-ml-hack.js"></script>
+
+    <script src="js/welcome.js?v=61"></script>
+    <script>writeWelcomeButton();</script>
+    <script src="js/azimut.js?v=11" data-data-dir="azimut/"></script>
+    <script src="js/seo-meta.js?v=40"></script>
+</body>
+</html>

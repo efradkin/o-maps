@@ -237,7 +237,7 @@ body.index-body .region-box a {
 }
 body.index-body .region-box img {
     max-width: 100%;
-    max-height: 92px;
+    /*max-height: 92px;*/
     object-fit: contain;
     opacity: .82;
     transition: opacity .18s ease;

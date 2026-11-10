@@ -1,0 +1,195 @@
+/* В режиме просмотра выпуска строка поиска не используется. */
+.azimut-body.azimut-issue-page #azimutSearchControls {
+    display: none !important;
+}
+
+.azimut-body .azimut-issue-detail {
+    position: relative;
+    margin: 1rem 0 2rem;
+    padding: 20px;
+    color: var(--o-text);
+    background: var(--o-surface);
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r);
+    box-shadow: var(--o-sh-card, none);
+}
+
+.azimut-body .azimut-issue-detail__close {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    color: var(--o-text-muted);
+    background: transparent;
+    border: 0;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.azimut-body .azimut-issue-detail__close:hover {
+    color: var(--o-text);
+    background: var(--o-surface-2);
+    text-decoration: none;
+}
+
+.azimut-body .azimut-issue-detail__header {
+    padding-right: 44px;
+    margin-bottom: 18px;
+}
+
+.azimut-body .azimut-issue-detail__back {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: var(--o-accent-dark, var(--o-accent));
+    text-decoration: none;
+}
+
+.azimut-body .azimut-issue-detail__back:hover {
+    text-decoration: underline;
+}
+
+.azimut-body .azimut-issue-detail__title {
+    margin: 0;
+    color: var(--o-text);
+    font-size: 1.35rem;
+    font-weight: 650;
+}
+
+.azimut-body .azimut-issue-detail__layout {
+    display: grid;
+    grid-template-columns: minmax(180px, 270px) minmax(0, 1fr);
+    align-items: stretch;
+    gap: 24px;
+}
+
+.azimut-body .azimut-issue-detail__cover-column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-width: 0;
+}
+
+.azimut-body .azimut-issue-detail__cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: min(68vh, 680px);
+    min-height: 220px;
+    padding: 10px;
+    overflow: hidden;
+    background: var(--o-surface-2);
+    border: 1px solid var(--o-border-soft, var(--o-border));
+    border-radius: var(--o-r-sm);
+}
+
+.azimut-body .azimut-issue-detail__cover img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: none !important;
+    opacity: 1 !important;
+}
+
+.azimut-body .azimut-issue-detail__open {
+    display: block;
+    margin-top: 10px;
+    padding: 9px 12px;
+    color: var(--o-accent-dark, var(--o-accent));
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-sm);
+}
+
+.azimut-body .azimut-issue-detail__open:hover {
+    background: var(--o-surface-2);
+    text-decoration: underline;
+}
+
+.azimut-body .azimut-issue-detail__content {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+}
+
+.azimut-body .azimut-issue-detail__summary {
+    margin: 0 0 10px;
+    color: var(--o-text-muted);
+    font-size: .9rem;
+}
+
+.azimut-body .azimut-issue-detail__articles {
+    min-height: 160px;
+    max-height: min(68vh, 760px);
+    margin: 0;
+    padding: 0 10px 0 28px;
+    overflow: auto;
+}
+
+.azimut-body .azimut-issue-detail__articles li {
+    padding: 7px 0;
+    border-bottom: 1px solid var(--o-border-soft, var(--o-border));
+}
+
+.azimut-body .azimut-issue-detail__articles a {
+    color: var(--o-accent-dark, var(--o-accent));
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.azimut-body .azimut-issue-detail__articles a:hover {
+    text-decoration: underline;
+}
+
+.azimut-body .azimut-issue-detail__page {
+    margin-left: 8px;
+    color: var(--o-text-muted);
+    font-size: .85rem;
+    white-space: nowrap;
+}
+
+.azimut-body .azimut-issue-detail__empty {
+    margin: 0;
+    color: var(--o-text-muted);
+}
+
+@media (max-width: 600px) {
+    .azimut-body .azimut-issue-detail {
+        margin-top: .5rem;
+        padding: 14px;
+    }
+
+    .azimut-body .azimut-issue-detail__layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 16px;
+    }
+
+    .azimut-body .azimut-issue-detail__cover {
+        height: min(320px, 38vh);
+        min-height: 160px;
+        max-height: 320px;
+    }
+
+    .azimut-body .azimut-issue-detail__cover img {
+        width: auto;
+        max-width: 100%;
+        max-height: 300px;
+    }
+
+    .azimut-body .azimut-issue-detail__articles {
+        min-height: 120px;
+        max-height: 48vh;
+        padding-right: 6px;
+    }
+}
