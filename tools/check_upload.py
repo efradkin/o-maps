@@ -27,11 +27,13 @@
 Запуск из корня проекта:
   python tools/check_upload.py [ПАПКА …] [--base URL] [--workers N] [--timeout S]
                                [--retries N] [--out ФАЙЛ] [--missing-list ФАЙЛ]
-                               [--compare_files [ПАПКА]] [--upload [-y]] [--no-color]
+                               [--compare_files [ПАПКА]] [--upload [-y]] [--fresh [ДНЕЙ]] [--no-color]
 
   ПАПКА               папки для проверки относительно корня проекта (по умолчанию original_maps);
                       путь на сервере повторяет путь в проекте: original_maps/bash/ufa_1985_omaps.jpg
                       -> https://o-maps.spb.ru/original_maps/bash/ufa_1985_omaps.jpg
+  --fresh [ДНЕЙ]     проверять только файлы, изменённые за последние ДНЕЙ суток
+                      (по умолчанию 14, если ключ указан без числа); без ключа — все файлы
   --base URL          адрес сайта (по умолчанию https://o-maps.spb.ru/)
   --workers N         сколько запросов выполнять одновременно (по умолчанию 8)
   --timeout S         тайм-аут одного запроса в секундах (по умолчанию 30)
@@ -158,8 +160,10 @@ def by_folder(items):
     return dict(sorted(groups.items()))
 
 
-def local_files(dirs):
-    """[(путь относительно корня через '/', размер)] по всем папкам, по алфавиту."""
+def local_files(dirs, fresh=None):
+    """[(путь относительно корня через '/', размер)] по всем папкам, по алфавиту.
+    fresh — минимальное время изменения (Unix timestamp) или None без фильтра.
+    """
     out = []
     for d in dirs:
         for root, subdirs, files in os.walk(d):
@@ -168,6 +172,8 @@ def local_files(dirs):
                 if name.startswith('.') or name.lower() in SKIP_NAMES:
                     continue
                 path = os.path.join(root, name)
+                if fresh is not None and os.path.getmtime(path) < fresh:
+                    continue
                 rel = os.path.relpath(path, '.').replace(os.sep, '/')
                 out.append((rel, os.path.getsize(path)))
     return out
@@ -454,6 +460,8 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     ap.add_argument('dirs', nargs='*', default=['original_maps'])
     ap.add_argument('--base', default='https://o-maps.spb.ru/')
+    ap.add_argument('--fresh', nargs='?', const=14, type=int, metavar='ДНЕЙ',
+                    help='проверять файлы, изменённые за последние ДНЕЙ суток (по умолчанию 14)')
     ap.add_argument('--workers', type=int, default=8)
     ap.add_argument('--timeout', type=float, default=30)
     ap.add_argument('--retries', type=int, default=3)
@@ -464,6 +472,8 @@ def main():
     ap.add_argument('-y', '--yes', action='store_true')
     ap.add_argument('--no-color', action='store_true')
     args = ap.parse_args()
+    if args.fresh is not None and args.fresh < 0:
+        ap.error('--fresh: число дней не может быть отрицательным')
     for stream in (sys.stdout, sys.stderr):
         if hasattr(stream, 'reconfigure'):
             stream.reconfigure(errors='replace')            # кириллица и псевдографика в консоли Windows
@@ -478,9 +488,10 @@ def main():
         ftp_cfg = read_ftp_config()
         warn_if_not_ignored(FTP_CONFIG)
 
-    files = local_files(args.dirs)
+    files = local_files(args.dirs, time.time() - args.fresh * 86400 if args.fresh is not None else None)
     sizes = dict(files)
-    print(f'файлов: {len(files)}, проверяю на {base} …', file=sys.stderr)
+    period = f' (изменены за последние {args.fresh} сут.)' if args.fresh is not None else ''
+    print(f'файлов: {len(files)}{period}, проверяю на {base} …', file=sys.stderr)
 
     missing, differ, failed, present = [], [], [], []
     started = time.time()
