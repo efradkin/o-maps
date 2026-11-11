@@ -1303,8 +1303,9 @@ let parkMaps = [
     {
         name: 'Ржевский лесопарк',
         year: 2024,
+        correct: 2026,
         url: './maps/parks/rzhevsky_2024.webp',
-        link: './original_maps/parks/rzhevsky_2024_omaps.jpg',
+        link: ['./original_maps/parks/rzhevsky_2024_omaps.jpg','./original_maps/parks/rzhevsky_2026_omaps.webp'],
         bounds: [[59.9800115, 30.4961586], [59.9725389, 30.5585575], [59.9516581, 30.4848289]],
         author: 'RDNV_I',
         owner: 'RDNV_I',
