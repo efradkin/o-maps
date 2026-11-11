@@ -1347,6 +1347,33 @@ let otherMaps = [
         bounds: [[45.0731872, 41.8438768], [45.0699443, 41.8741322], [45.0392940, 41.8372250]],
         start: ['RUS_2026','RUS']
     },
+    {
+        name: 'Перкальские скалы',
+        date: '2026-03-26',
+        url: './maps/south/perkalskie_2026_03_26.webp',
+        link: './original_maps/south/perkalskie_2026_03_26_omaps.webp',
+        info: 'Пролог 1.',
+        bounds: [[44.0745446, 43.0776501], [44.0734346, 43.0951166], [44.0593271, 43.0760622]],
+        start: 'PASTUKHOVA'
+    },
+    {
+        name: 'Машук',
+        date: ['2026-03-27','2026-03-29'],
+        url: './maps/south/mashuk_2026_03_27.webp',
+        link: ['./original_maps/south/mashuk_2026_03_27_omaps.webp','./original_maps/south/mashuk_2026_03_29_omaps.webp'],
+        info: 'Пролог 2, Кросс-классика.',
+        bounds: [[44.0680233, 43.0852675], [44.0661114, 43.1195354], [44.0508764, 43.0828214]],
+        start: 'PASTUKHOVA'
+    },
+    {
+        name: 'Машук, Каменоломни',
+        date: '2026-03-28',
+        url: './maps/south/mashuk_2026_03_28.webp',
+        link: './original_maps/south/mashuk_2026_03_28_omaps.webp',
+        info: 'Финал.',
+        bounds: [[44.0615706, 43.1036246], [44.0609076, 43.1167674], [44.0451159, 43.1018221]],
+        start: 'PASTUKHOVA'
+    },
 
     // --- Не Россия ---
 

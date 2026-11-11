@@ -199,7 +199,8 @@ const regions = {
         name: 'С-Петербург'
     },
     STAVROPOL: {
-        name: 'Ставрополь'
+        name: 'Ставрополь',
+        logo: 'stavropol.webp'
     },
     TULA: {
         name: 'Тульская обл'
@@ -2834,9 +2835,9 @@ function buildEventPlaceOMaps(event, suffix) {
             } else {
                 result += buildLink(`${mapPage}?calendar&map=${m}`, ' 🗺️', 'Карта на O-Maps');
             }
-            if (event.coord) {
-                result += buildLink(`${mapPage}?x=${event.coord[0]}&y=${event.coord[1]}&calendar${suffix ? '&'+suffix : ''}`, ' 🌐', 'Место на O-Maps');
-            }
+        }
+        if (event.coord) {
+            result += buildLink(`${mapPage}?x=${event.coord[0]}&y=${event.coord[1]}&calendar${suffix ? '&'+suffix : ''}`, ' 🌐', 'Место на O-Maps');
         }
         return result;
     } else if (event.coord) {
