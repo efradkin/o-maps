@@ -245,7 +245,9 @@ function renderMapsTable() {
         if (isOutdated(lastDate)) {
             row.classList.add('disabled');
         } else {
-            if (isActual(lastDate)) {
+            if(evt.closed) {
+                row.classList.add('disabled');
+            } else if (isActual(lastDate)) {
                 row.classList.add('current');
             }
         }

@@ -141,8 +141,7 @@ let otherEvents2026 = [
     type: 'RUN',
     fmt: '21, 10, 2',
     start: 'GATCHINA',
-    track: 'gatchina_half_2024_21km',
-    map: 'gatchina_aerodrom_2022'
+    track: 'gatchina_half_2024_21km'
 },
 /* --- ЛЫЖИ --- */
 // https://docs.google.com/spreadsheets/d/e/2PACX-1vRJJXxtBc9nqhZpFvcvX-q39mVoblSGQW1pR6OnuLODBFyXLdgg0JZUdIdN1Lgp0I3jzwm7dB5zCudK/pubhtml?gid=1063843429&single=true

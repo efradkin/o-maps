@@ -3549,6 +3549,7 @@ let events2026 = [
         photo: 'https://vk.ru/album-93257360_312223793',
         publish: 'https://vk.ru/album-93257360_312223793',
         endReg: '2026-10-20 23:59',
+        map: 'yappilya_2024',
         info: '+ тренировочные дистанции.',
         owner: 'NW'
     },
@@ -3562,6 +3563,7 @@ let events2026 = [
         coord: [60.747204, 28.74892],
         reg: 'https://orgeo.ru/event/56394',
         o_gps: [26201,26202,26204,26209,26210,26212,26214,26217,26219,26223],
+        map: ['kirovskie_dachi_2014','papula_2023'],
         owner: 'FENIX'
     },
     {
@@ -3748,6 +3750,7 @@ let events2026 = [
         bulletin: 'https://o-site.spb.ru/_races/261107/261107_info.pdf',
         o_gps: [26280,26281,26282,26283],
         owner: 'FENIX',
+        map: 'rzhevsky_2024',
         reskeep: 950
     },
     {
@@ -3803,14 +3806,16 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/56710',
         endReg: '2026-11-13 12:00',
         bulletin: 'https://o-site.spb.ru/_races/261114/261114_info.pdf',
-        owner: 'FENIX'
+        owner: 'FENIX',
+        map: 'silande_2025'
     },
     {
         id: 'SPB_20261115_1',
         date: '2026-11-15',
         name: 'Первенство ГБУ ДО СШОР им. Коренькова',
         fmt: 'спринт',
-        info: 'Закрытый старт.'
+        info: 'Закрытый старт.',
+        closed: true
     },
     {
         id: 'SPB_20261115_2',
@@ -3821,7 +3826,8 @@ let events2026 = [
         coord: [60.254082, 29.801373],
         reg: 'https://orgeo.ru/event/56780',
         endReg: '2026-11-14 20:00',
-        bulletin: 'https://orgeo.ru/files/event/file/56780_c212c4afa5.pdf'
+        bulletin: 'https://orgeo.ru/files/event/file/56780_c212c4afa5.pdf',
+        map: 'bolotnaya_station_2019'
     },
     {
         id: 'SPB_20261121_1',
@@ -3841,7 +3847,8 @@ let events2026 = [
         coord: [60.133198, 29.952524],
         reg: 'https://orgeo.ru/event/56782',
         endReg: '2026-11-20 20:00',
-        bulletin: 'https://orgeo.ru/files/event/file/56782_9c2bb5e9ce.pdf'
+        bulletin: 'https://orgeo.ru/files/event/file/56782_9c2bb5e9ce.pdf',
+        map: 'sestroretsk_tamozhennaya_doroga_2021'
     },
     {
         id: 'SPB_20261122_1',
@@ -3860,6 +3867,7 @@ let events2026 = [
         id: 'SPB_20261128_1',
         date: '2026-11-28',
         name: 'День матери',
+        place: 'Полюстрово',
         owner: 'FENIX',
         map: 'poljustrovo_tukhachevskogo_2026'
     },
@@ -3869,7 +3877,8 @@ let events2026 = [
         name: 'Ориентир НатАлка',
         place: 'Пискаревский парк',
         o_site: '2026_Orientir',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        map: 'piskarevsky_2024'
     },
     {
         id: 'SPB_20261129_1',
@@ -3880,7 +3889,8 @@ let events2026 = [
         coord: [60.187801, 30.548779],
         o_site: '261129_bn',
         reg: 'https://orgeo.ru/event/56645',
-        endReg: '2026-11-28 20:00'
+        endReg: '2026-11-28 20:00',
+        map: 'kavgolovo_old_ski_track_2023'
     },
 /*
     {
@@ -3907,6 +3917,7 @@ let events2026 = [
         start: 'SNOW_WAY',
         fmt: 'спринт',
         endReg: '2026-12-10',
-        bulletin: 'https://o-site.spb.ru/_races/261213_st/261213_info-1.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/261213_st/261213_info-1.pdf',
+        map: 'udelny_2022'
     }
 ];

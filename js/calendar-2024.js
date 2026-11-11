@@ -2860,7 +2860,7 @@ let events2024 = [
         reg: 'https://orgeo.ru/event/39552',
         endReg: '2024-12-07 20:00',
         bulletin: 'https://o-site.spb.ru/_races/241026_bn/241208_info.pdf',
-        map: 'kavgolovo_2024'
+        map: 'kavgolovo_old_ski_track_2023'
     },
     {
         id: 'SPB_20241214_1',
