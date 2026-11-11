@@ -3813,6 +3813,17 @@ let events2026 = [
         info: 'Закрытый старт.'
     },
     {
+        id: 'SPB_20261115_2',
+        date: '2026-11-15',
+        name: 'Кубок Белых ночей 3 этап',
+        start: 'KBN',
+        place: 'Болотная станция',
+        coord: [60.254082, 29.801373],
+        reg: 'https://orgeo.ru/event/56780',
+        endReg: '2026-11-14 20:00',
+        bulletin: 'https://orgeo.ru/files/event/file/56780_c212c4afa5.pdf'
+    },
+    {
         id: 'SPB_20261121_1',
         date: '2026-11-21',
         name: 'Тренировочный старт ФСО Выборга',
@@ -3820,6 +3831,17 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1765',
         endReg: '2026-11-19',
         bulletin: 'https://o-site.spb.ru/_races/261121/261121_info.pdf'
+    },
+    {
+        id: 'SPB_20261121_2',
+        date: '2026-11-21',
+        name: 'Кубок Белых ночей 4 этап',
+        start: 'KBN',
+        place: 'Сестрорецкие дюны',
+        coord: [60.133198, 29.952524],
+        reg: 'https://orgeo.ru/event/56782',
+        endReg: '2026-11-20 20:00',
+        bulletin: 'https://orgeo.ru/files/event/file/56782_9c2bb5e9ce.pdf'
     },
     {
         id: 'SPB_20261122_1',
