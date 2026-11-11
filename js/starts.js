@@ -796,6 +796,14 @@ let starts = {
         owner: 'SFSO_STAVROPOL',
         region: 'STAVROPOL'
     },
+    STAVROPOL_COMPAS: {
+        short: 'Ставропольский компас',
+        name: '<a href="https://o-ikar.com/competitions">Ставропольский компас</a>',
+        info: '«Ставропольский компас» — это традиционная серия городских соревнований и этапов Кубка и Первенства города Ставрополя по спортивному ориентированию, организуемая Федерацией спортивного ориентирования Ставропольского края (ФСО СК) и местными клубами (например, клубом «Икар»).',
+        logo: 'stavropol_ikar.gif',
+        owner: 'SFSO_STAVROPOL',
+        region: 'STAVROPOL'
+    },
     CISM_96: {
         major: true,
         retro: true,

@@ -7,8 +7,7 @@ let owners = {
         logo: 'sdjushor2.jpg'
     },
     AZIMUT: {
-        title: 'КСО "Азимут"',
-        name: 'Азимут',
+        name: 'КСО "Азимут"',
         logo: 'azimut_retro.gif'
     },
     BBCH_A: {
@@ -67,7 +66,7 @@ let owners = {
     },
     GORNY_CROSS: {
         title: '<a href="https://vk.ru/gornycross">Горный Кросс</a>',
-        name: 'Горный Кросс, Александр Шумский',
+        name: '<a href="https://vk.ru/gornycross">Горный Кросс</a>, Александр Шумский',
         rogaine: true
     },
     GOLDMRSHRT: {
@@ -157,7 +156,7 @@ let owners = {
     },
     LM: {
         title: '<a href="https://vk.ru/club91656163">Лужский Меридиан</a>',
-        name: 'Орлов Александр, "Лужский Меридиан".',
+        name: 'Орлов Александр, <a href="https://vk.ru/club91656163">Лужский Меридиан</a>.',
         logo: 'lm.jpg',
         rogaine: true
     },
@@ -179,7 +178,6 @@ let owners = {
         logo: 'kirovsk_everest.jpg'
     },
     MULTSPORT: {
-        title: '<a href="https://www.multsport.ru/">Мультиспорт</a>',
         name: '<a href="https://www.multsport.ru/">Мультиспорт</a>',
         logo: 'multsport.webp',
         rogaine: true
@@ -266,18 +264,15 @@ let owners = {
         }
     },
     FSOR: {
-        title: '<a href="https://rufso.ru/">Федерация спортивного ориентирования России</a>',
-        name: 'ФСОР',
+        name: '<a href="https://rufso.ru/">Федерация спортивного ориентирования России</a>',
         logo: 'fsor.webp'
     },
     SFSO_STAVROPOL: {
-        title: '<a href="https://www.fso-sk.ru/">Федерация спортивного ориентирования Ставропольского края</a>',
-        name: 'Федерация спортивного ориентирования Ставропольского края',
+        name: '<a href="https://www.fso-sk.ru/">Федерация спортивного ориентирования Ставропольского края</a>',
         logo: 'len_obl.gif'
     },
     IOF: {
-        title: '<a href="https://orienteering.sport/">International Orienteering Federation (IOF)</a>',
-        name: 'International Orienteering Federation (IOF)',
+        name: '<a href="https://orienteering.sport/">International Orienteering Federation (IOF)</a>',
         logo: 'iof.gif'
     },
     IRF: {

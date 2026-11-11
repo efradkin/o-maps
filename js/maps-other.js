@@ -1333,7 +1333,7 @@ let otherMaps = [
         name: 'Русский лес',
         date: '2026-11-03',
         url: './maps/south/russky_forest_2026.webp',
-        link: './original_maps/south/russky_forest_2026_11_03_omaps.webp',
+        link: './original_maps/south/russky_forest_2026_omaps.webp',
         info: 'Лонг-масстарт.',
         bounds: [[45.0487243, 41.8425679], [45.0462077, 41.8651628], [45.0309389, 41.8398643]],
         start: ['RUS_2026','RUS']
@@ -1373,6 +1373,42 @@ let otherMaps = [
         info: 'Финал.',
         bounds: [[44.0615706, 43.1036246], [44.0609076, 43.1167674], [44.0451159, 43.1018221]],
         start: 'PASTUKHOVA'
+    },
+    {
+        name: 'Русский лес',
+        date: '2026-04-05',
+        url: './maps/south/russky_forest_2026_04_05.webp',
+        link: ['./original_maps/south/russky_forest_2026_04_05_m_omaps.webp','./original_maps/south/russky_forest_2026_04_05_w_omaps.webp'],
+        bounds: [[45.0710051, 41.8400574], [45.0690047, 41.8564081], [45.0541210, 41.8366671]],
+        start: 'STAVROPOL_COMPAS',
+        author: 'LUK_V'
+    },
+    {
+        name: 'Грушевая балка',
+        date: '2026-09-06',
+        url: './maps/south/grusha_balka_2026_09_06.webp',
+        link: ['./original_maps/south/grusha_balka_2026_09_06_m_omaps.webp','./original_maps/south/grusha_balka_2026_09_06_w_omaps.webp'],
+        bounds: [[45.0082632, 41.8673944], [45.0049256, 41.9034863], [44.9967324, 41.8651199]],
+        start: 'STAVROPOL_COMPAS',
+        author: ['MKHLV_A','STLRV']
+    },
+    {
+        name: 'Заячья поляна',
+        date: '2026-09-20',
+        url: './maps/south/hare_meadow_2026_09_20.webp',
+        link: ['./original_maps/south/hare_meadow_2026_09_20_m_omaps.webp','./original_maps/south/hare_meadow_2026_09_20_w_omaps.webp'],
+        bounds: [[45.0185935, 41.9453287], [45.0154385, 41.9690180], [45.0085515, 41.9427538]],
+        start: 'STAVROPOL_COMPAS',
+        author: ['MKHLV_A','SLBDNK']
+    },
+    {
+        name: 'Шпаковская ул',
+        date: '2026-10-25',
+        url: './maps/south/shpakovskaya_2026_10_25.webp',
+        link: ['./original_maps/south/shpakovskaya_2026_10_25_m_omaps.webp','./original_maps/south/shpakovskaya_2026_10_25_w_omaps.webp'],
+        bounds: [[45.0204364, 41.9254053], [45.0196249, 41.9330764], [45.0127536, 41.9238603]],
+        author: 'ZHRDV_T',
+        start: 'STAVROPOL_COMPAS'
     },
 
     // --- Не Россия ---
