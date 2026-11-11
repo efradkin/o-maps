@@ -1,5 +1,43 @@
 let news = [
     {
+        date: '2026-11-11',
+        title: 'Пастухова',
+        info: 'Карты соревнований "Памяти топографа Пастухова" вокруг Машука опубликовали <a href="https://www.fso-sk.ru/sport/pastuhova_2026.html">на официальном сайте</a>. Добавил их к себе <a href="https://o-maps.spb.ru/all.html?me=&amp;startYear=ALL&amp;start=PASTUKHOVA&amp;calendar=">в каталог</a>. И оформил подборку стартов Пастухова <a href="https://o-maps.spb.ru/calendar.html?startYear=ALL&amp;start=PASTUKHOVA">в календаре</a>. И ещё, вот, отдельная удобная <a href="https://o-maps.spb.ru/start-details.html?start=PASTUKHOVA">страничка</a>.',
+        pics: ['2026-11-11_2', 7]
+    },
+    {
+        date: '2026-11-10',
+        title: 'Карты Ставрополья',
+        info: 'Карты недавнего Чемпионата России в Ставрополе давеча были опубликованы на официальной <a href="https://vk.ru/wall-63010573_4756">ВК-страничке</a>. А теперь они - и <a href="https://o-maps.spb.ru/all.html?x=45.0563038&amp;y=41.8846893&amp;zoom=13">на O-Maps</a>. Первые карты в Ставропольском крае.',
+        pics: ['2026-11-10_2', 3]
+    },
+    {
+        date: '2026-11-10',
+        title: 'Журнал «Азимут»',
+        info: '<strong>Журнал «Азимут»</strong> теперь и на O-Maps. <br/>Сделал <a href="https://o-maps.spb.ru/azimut.html">специальную страницу</a> для удобного просмотра номеров и поиска информации в них. Сами журналы по прежнему расположены на <a href="https://rufso.ru/%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB-%D0%B0%D0%B7%D0%B8%D0%BC%D1%83%D1%82-%D0%BF%D0%BE-%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B0%D0%BC/">сайте ФСОР</a>.',
+        pics: ['2026-11-10_1', 5],
+        major: true
+    },
+    {
+        date: '2026-11-09',
+        title: 'Календарь 2027',
+        info: 'В O-Maps календаре на 2027 год уже полно стартов - помимо календаря ФСОР, там теперь и местные питерские соревнования: <a href="https://o-maps.spb.ru/calendar.html?startYear=2027">https://o-maps.spb.ru/calendar.html?startYear=2027</a>',
+        pics: ['2026-11-09', 4]
+    },
+    {
+        date: '2026-11-08',
+        title: 'Книги и материалы',
+        info: 'Добавил множество ссылок на книги и материалы с сайтов ФСОР и Мурманского ориентирования. Теперь <a href="https://o-maps.spb.ru/books.html">наша подборка</a> - наверняка, самая богатая из существующих. И удобный поиск, опять же.',
+        pics: ['2026-11-08', 4]
+    },
+    {
+        date: '2026-11-07',
+        title: 'Поиск по каталогу',
+        info: '<strong>Страница поиска</strong> конечно же должна быть. И вот, теперь она есть: <a href="https://o-maps.spb.ru/search.html">https://o-maps.spb.ru/search.html</a><br/>Найдётся всё!',
+        pics: ['2026-11-07_2', 6],
+        major: true
+    },
+    {
         date: '2026-11-03',
         title: 'Плакаты Мемориала Святкина',
         info: 'Александр Тюленев передал мне несколько плакатов-календарей, посвящённых Мемориалу Михаила Святкина разных лет. Какие-то у меня уже были и раньше, но вот ещё три новых я отсканировал. Посмотреть все эти постеры можно <a href="start-details.html?start=MMS&amp;tab=posters">тут</a>.',
