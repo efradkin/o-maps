@@ -200,7 +200,7 @@ const regions = {
     },
     STAVROPOL: {
         name: 'Ставрополь',
-        logo: 'stavropol.webp'
+        //logo: 'stavropol.webp'
     },
     TULA: {
         name: 'Тульская обл'

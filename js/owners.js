@@ -271,6 +271,11 @@ let owners = {
         name: '<a href="https://www.fso-sk.ru/">Федерация спортивного ориентирования Ставропольского края</a>',
         logo: 'len_obl.gif'
     },
+    STAVROPOL_IKAR: {
+        title: '<a href="https://o-ikar.com">Клуб активного отдыха, спорта и путешествий ИКАР</a>',
+        name: '<a href="https://o-ikar.com">Клуб активного отдыха, спорта и путешествий ИКАР</a> (СКНП ФСО СК), Дегтярев Дмитрий Михайлович (+7 915 260 36 52).',
+        logo: 'stavropol_ikar.gif',
+    },
     IOF: {
         name: '<a href="https://orienteering.sport/">International Orienteering Federation (IOF)</a>',
         logo: 'iof.gif'
