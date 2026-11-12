@@ -3807,6 +3807,7 @@ let events2026 = [
         endReg: '2026-11-13 12:00',
         bulletin: 'https://o-site.spb.ru/_races/261114/261114_info.pdf',
         owner: 'FENIX',
+        o_gps: [26305,26306,26307,26308],
         map: 'silande_2025'
     },
     {
