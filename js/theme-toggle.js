@@ -1,8 +1,10 @@
 /* =========================================================================
    O-Maps · theme-toggle.js
-   Переключатель светлой / тёмной темы.
+   Переключатель темы: светлая / тёмная / бумажная (тетрадная).
 
-   Два состояния: светлая ⇄ тёмная. По умолчанию светлая.
+   Три состояния по кругу: светлая → тёмная → бумажная → светлая.
+   По умолчанию светлая. На кнопке — значок темы, которая включится
+   по нажатию.
    Выбор запоминается в localStorage под ключом 'omapsTheme'.
    Системная настройка (prefers-color-scheme) намеренно не учитывается.
 
@@ -10,7 +12,7 @@
    там есть строка «Новости / Контакты», куда она встаёт. На остальных
    страницах скрипт лишь применяет выбранную тему. Разметку править не нужно.
 
-   Работает в паре с блоками [15] и [16] в css/theme.css.
+   Работает в паре с блоками [15], [16] и [20] в css/theme.css.
 
    ВАЖНО: подключать синхронно, БЕЗ defer и async, в <head>
    (это делает install-theme.py):
@@ -24,14 +26,18 @@
     var KEY = 'omapsTheme';
     var DEFAULT = 'light';
 
+    /* порядок переключения и значок следующей темы на кнопке */
+    var NEXT = { light: 'dark', dark: 'paper', paper: 'light' };
     var VIEW = {
-        light: { icon: '🌙', label: 'Включить тёмную тему' },
-        dark:  { icon: '☀️', label: 'Включить светлую тему' }
+        light:    { icon: '🌙', label: 'Включить тёмную тему' },
+        dark:     { icon: '📄', label: 'Включить бумажную тему' },
+        paper:    { icon: '☀️', label: 'Включить светлую тему' }
     };
 
     function read() {
         try {
-            return localStorage.getItem(KEY) === 'dark' ? 'dark' : DEFAULT;
+            var mode = localStorage.getItem(KEY);
+            return Object.prototype.hasOwnProperty.call(NEXT, mode) ? mode : DEFAULT;
         } catch (e) {
             return DEFAULT;
         }
@@ -48,7 +54,8 @@
     function paint(mode) {
         var root = document.documentElement;
         root.classList.toggle('o-dark', mode === 'dark');
-        root.classList.toggle('o-light', mode !== 'dark');
+        root.classList.toggle('o-paper', mode === 'paper');
+        root.classList.toggle('o-light', mode === 'light');
     }
 
     function refreshButton(button, mode) {
@@ -67,7 +74,7 @@
         button.innerHTML = '<span class="o-theme-toggle__icon" aria-hidden="true"></span>';
         button.addEventListener('click', function (event) {
             event.preventDefault();
-            var next = read() === 'dark' ? 'light' : 'dark';
+            var next = NEXT[read()];
             write(next);
             paint(next);
             refreshButton(button, next);

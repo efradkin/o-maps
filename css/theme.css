@@ -900,7 +900,7 @@ footer hr {
 
 /* ------------------------------------------------------------------ [15]
    ТЁМНАЯ ТЕМА
-   Класс o-dark / o-light ставит на <html> скрипт js/theme-toggle.js
+   Классы o-dark / o-light / o-paper ставит на <html> скрипт js/theme-toggle.js
    (и inline-сниппет в <head> — до первой отрисовки, чтобы не мигало).
    ------------------------------------------------------------------ */
 :root.o-light { color-scheme: light; }
@@ -2919,3 +2919,285 @@ a.om-broken-link:focus-visible {
         padding-bottom: 20px;
     }
 }
+
+/* =========================================================================
+   БУМАЖНАЯ ТЕМА: клетчатый лист.
+   Добавлено поверх актуального оформления сайта, без замены существующих
+   блоков и исправлений.
+   ========================================================================= */
+@font-face { font-family: 'Balsamiq Sans'; font-style: normal; font-weight: 400; font-display: swap;
+    src: url(fonts/balsamiq-sans/balsamiq-sans-cyrillic-400-normal.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+@font-face { font-family: 'Balsamiq Sans'; font-style: normal; font-weight: 400; font-display: swap;
+    src: url(fonts/balsamiq-sans/balsamiq-sans-latin-400-normal.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Balsamiq Sans'; font-style: normal; font-weight: 700; font-display: swap;
+    src: url(fonts/balsamiq-sans/balsamiq-sans-cyrillic-700-normal.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+@font-face { font-family: 'Balsamiq Sans'; font-style: normal; font-weight: 700; font-display: swap;
+    src: url(fonts/balsamiq-sans/balsamiq-sans-latin-700-normal.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Balsamiq Sans'; font-style: italic; font-weight: 400; font-display: swap;
+    src: url(fonts/balsamiq-sans/balsamiq-sans-cyrillic-400-italic.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+@font-face { font-family: 'Balsamiq Sans'; font-style: italic; font-weight: 400; font-display: swap;
+    src: url(fonts/balsamiq-sans/balsamiq-sans-latin-400-italic.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Balsamiq Sans'; font-style: italic; font-weight: 700; font-display: swap;
+    src: url(fonts/balsamiq-sans/balsamiq-sans-cyrillic-700-italic.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+@font-face { font-family: 'Balsamiq Sans'; font-style: italic; font-weight: 700; font-display: swap;
+    src: url(fonts/balsamiq-sans/balsamiq-sans-latin-700-italic.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Caveat'; font-style: normal; font-weight: 400 700; font-display: swap;
+    src: url(fonts/caveat/caveat-cyrillic-600-normal.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+@font-face { font-family: 'Caveat'; font-style: normal; font-weight: 400 700; font-display: swap;
+    src: url(fonts/caveat/caveat-latin-600-normal.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+:root.o-paper {
+    color-scheme: light;
+    /* лист и чернила */
+    --o-bg:          #ffffff;
+    --o-surface:     #ffffff;          /* непрозрачная подложка: меню, панели карты, липкие шапки */
+    --o-surface-2:   #eef3fa;
+    --o-border:      #7f8aa3;          /* карандашная линия рамок */
+    --o-border-soft: #c9d3e3;
+    --o-broken-link-border: #7f8aa3;
+    --o-text:        #1f2538;          /* графит */
+    --o-text-muted:  #56607a;
+    --o-text-faint:  #8c94a8;
+    --o-accent:      #2350b4;          /* синяя шариковая ручка */
+    --o-accent-dark: #173a8a;
+    --o-accent-soft: rgba(35, 80, 180, .08);
+    /* строки календаря — полупрозрачный «маркер»: сквозь тон видна клетка */
+    --o-row-orient:  rgba(110, 200, 120, .13);
+    --o-row-rogaine: rgba(255, 196, 50, .16);
+    --o-row-water:   rgba(80, 160, 235, .11);
+    --o-row-ski:     rgba(80, 175, 225, .11);
+    --o-cur-orient:  rgba(110, 200, 120, .26);
+    --o-cur-rogaine: rgba(255, 196, 50, .32);
+    --o-cur-water:   rgba(80, 160, 235, .22);
+    --o-cur-ski:     rgba(80, 175, 225, .22);
+    --o-bar-orient:  #3f8f55;
+    --o-bar-rogaine: #c98a1c;
+    --o-bar-water:   #3c7fbf;
+    --o-bar-ski:     #6d9cc0;
+    --o-hover-orient:  rgba(60, 150, 75, .10);
+    --o-hover-rogaine: rgba(210, 150, 20, .12);
+    --o-hover-blue:    rgba(35, 80, 180, .08);
+    --o-hover-none:    rgba(35, 80, 180, .06);
+    /* без теней: на бумаге их нет */
+    --o-sh-1:   none;
+    --o-sh-2:   none;
+    --o-sh-pop: 2px 3px 0 rgba(31, 37, 56, .18);
+    --o-ring:   0 0 0 3px rgba(35, 80, 180, .22);
+    /* собственные токены темы */
+    --o-paper-sheet: #ffffff;          /* цвет листа: фон и непрозрачные плашки поверх клетки */
+    --o-paper-grid:  #dbe6f2;          /* линии клетки */
+    --o-paper-cell:  20px;             /* клетка ≈ 5 мм */
+    --o-paper-red:   #c6352d;          /* красная ручка: поля, текущее, важное */
+    --o-paper-ink:   #1f3f8f;          /* заголовки */
+    --o-paper-line:  1.5px;            /* толщина нарисованных рамок */
+    /* неровная «нарисованная» рамка (классический приём: эллиптические радиусы) */
+    --o-paper-wobble: 14px 4px 12px 5px / 5px 12px 4px 14px;
+    --o-font-body: 'Balsamiq Sans', Roboto, 'Segoe UI', Arial, sans-serif;
+    --o-font-hand: 'Caveat', 'Balsamiq Sans', cursive;
+}
+
+/* --- лист в клетку ----------------------------------------------------
+   Две тонкие линии образуют клетку; фон листа остаётся белым. */
+:root.o-paper body,
+:root.o-paper body.ski-bodi,
+:root.o-paper .peek-widget,
+:root.o-paper .o-sheet-wrapper {
+    background-color: var(--o-paper-sheet);
+    background-image:
+        linear-gradient(var(--o-paper-grid) 1px, transparent 1px),
+        linear-gradient(90deg, var(--o-paper-grid) 1px, transparent 1px);
+    background-size:
+        var(--o-paper-cell) var(--o-paper-cell),
+        var(--o-paper-cell) var(--o-paper-cell);
+    background-attachment: scroll, scroll;
+}
+/* календарь прокручивается внутри .o-sheet-wrapper, а не страница:
+   клетка должна ехать вместе со строками, а не стоять под ними */
+:root.o-paper .o-sheet-wrapper {
+    background-attachment: local, local;
+}
+
+/* --- шрифты ----------------------------------------------------------- */
+:root.o-paper body { font-family: var(--o-font-body); color: var(--o-text); }
+:root.o-paper :is(h1, h2, h3, #noscript_content .h1) {
+    font-family: var(--o-font-hand);
+    font-weight: 700;
+    color: var(--o-paper-ink);
+    letter-spacing: 0;
+    font-size-adjust: none;
+}
+/* рукописный шрифт мельче при том же кегле — увеличиваем заголовки */
+:root.o-paper h1 { font-size: 2.6rem; line-height: 1.1; }
+:root.o-paper h2 { font-size: 2.1rem; line-height: 1.15; }
+:root.o-paper h3 { font-size: 1.7rem; }
+:root.o-paper :is(h4, h5) { font-family: var(--o-font-body); font-weight: 700; color: var(--o-text); }
+:root.o-paper :is(input, select, button, textarea, .btn) { font-family: inherit; }
+
+/* --- ссылки: синяя ручка; в тексте подчёркнуты всегда ----------------
+   (в таблицах и на плитках подчёркивание только при наведении — иначе рябит) */
+:root.o-paper :is(p, li, dd, dt, figcaption, blockquote, small) a:not(.btn) {
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgba(35, 80, 180, .4);
+    text-underline-offset: 3px;
+}
+:root.o-paper a:hover { text-decoration-color: currentColor; }
+
+/* --- карточки и секции: прозрачные, с нарисованной рамкой ------------- */
+:root.o-paper :is(
+        body.help-body section,
+        body.index-body .region-box,
+        .peek-content section,
+        #noscript_content) {
+    background: transparent;
+    border: var(--o-paper-line) solid var(--o-border);
+    border-radius: var(--o-paper-wobble);
+    box-shadow: none;
+}
+:root.o-paper body.index-body .region-box:hover {
+    transform: rotate(-.6deg);
+    border-color: var(--o-accent);
+}
+:root.o-paper body.index-body .region-box h5 { font-family: var(--o-font-hand); font-size: 1.4rem; line-height: 1.1; color: var(--o-paper-ink); }
+:root.o-paper body.index-body .region-box a { text-decoration: none; }
+:root.o-paper body.index-body nav .row > .col:last-child .region-box {
+    background: transparent;
+    border-style: dashed;
+}
+/* важные новости — красной ручкой по полю слева */
+:root.o-paper body.help-body .major section {
+    background: transparent;
+    border-color: var(--o-border);
+    border-left: 3px solid var(--o-paper-red);
+}
+/* предупреждения — как приписка на полях */
+:root.o-paper body.help-body section:has(> small) {
+    background: transparent;
+    border: var(--o-paper-line) dashed var(--o-border);
+}
+:root.o-paper body.help-body section small { color: var(--o-text-muted); }
+
+/* --- вкладки: подчёркнутое слово вместо «таблетки» -------------------- */
+:root.o-paper ul.nav.nav-tabs { background: transparent; padding: 0; gap: 14px; border-radius: 0; }
+:root.o-paper ul.nav.nav-tabs button.nav-link { padding: 4px 2px; border-radius: 0; color: var(--o-text-muted); }
+:root.o-paper ul.nav.nav-tabs button.nav-link.active {
+    background: transparent;
+    box-shadow: inset 0 -3px 0 var(--o-paper-red);
+    color: var(--o-text);
+}
+
+/* --- кнопки, селекты, поля: белые (поверх клетки), с рамкой от руки -- */
+:root.o-paper :is(select, .header_selector, .stat-map-link, .dropdown-button-right,
+        .about-button, .o-theme-toggle, .cal-search__btn, .cal-search__input, .o-sheet-roof-stat) {
+    background-color: var(--o-paper-sheet);
+    border: var(--o-paper-line) solid var(--o-border);
+    border-radius: var(--o-paper-wobble);
+    box-shadow: none;
+}
+:root.o-paper :is(.stat-map-link, .o-theme-toggle, .about-button):hover {
+    background: var(--o-paper-sheet);
+    border-color: var(--o-accent);
+    transform: rotate(-2deg);
+}
+:root.o-paper input[type="checkbox"], :root.o-paper input[type="radio"] {
+    border: var(--o-paper-line) solid var(--o-text-muted);
+    background: var(--o-paper-sheet);
+}
+/* отмеченный чекбокс — «галочка ручкой», а не заливка */
+:root.o-paper input[type="checkbox"]:checked { background: var(--o-paper-sheet); border-color: var(--o-text-muted); }
+:root.o-paper input[type="checkbox"]::before {
+    width: 12px; height: 12px;
+    background: var(--o-accent);
+}
+:root.o-paper input[type="radio"]:checked { background: var(--o-paper-sheet); border-color: var(--o-text-muted); }
+:root.o-paper input[type="radio"]::before { background: var(--o-accent); }
+:root.o-paper .dropdown-menu {
+    border: var(--o-paper-line) solid var(--o-border);
+    border-radius: var(--o-paper-wobble);
+}
+
+/* --- таблицы: строки прозрачные, разделители — карандашом ------------- */
+:root.o-paper .o-main-table tr,
+:root.o-paper .o-main-table tr:nth-child(odd),
+:root.o-paper body.calendar-body .o-main-table tr,
+:root.o-paper body.calendar-body.ski-bodi .o-main-table tr:nth-child(odd) { background-color: transparent !important; }
+:root.o-paper body.calendar-body .o-main-table .orient  { background-color: var(--o-row-orient) !important; }
+:root.o-paper body.calendar-body .o-main-table .rogaine { background-color: var(--o-row-rogaine) !important; }
+:root.o-paper body.calendar-body .o-main-table .water   { background-color: var(--o-row-water) !important; }
+:root.o-paper body.calendar-body .o-main-table .ski     { background-color: var(--o-row-ski) !important; }
+:root.o-paper .o-main-table td,
+:root.o-paper .o-main-table th { border-bottom: 1px solid var(--o-border-soft); }
+/* шапка таблицы липкая — ей нужна непрозрачная подложка, иначе строки
+   просвечивают; линия под шапкой — двойная, как отчёркивание в тетради */
+:root.o-paper :is(.o-main-table thead th, .o-sheet th, #calendar-floating-header th, #calendar-floating-header td) {
+    background: var(--o-paper-sheet);
+    color: var(--o-paper-ink);
+    border-bottom: 0;
+    box-shadow: inset 0 -4px 0 var(--o-paper-sheet), inset 0 -5px 0 var(--o-border), inset 0 -1px 0 var(--o-border);
+}
+:root.o-paper #calendar-floating-header { box-shadow: 0 2px 0 var(--o-border-soft); border-bottom: 0; }
+/* текущие старты — пометка красной ручкой на поле */
+:root.o-paper body.calendar-body .o-main-table tr.current > td:first-child {
+    box-shadow: inset 3px 0 0 var(--o-paper-red);
+}
+/* прошедшие — бледнее, как карандашная запись */
+:root.o-paper body.calendar-body .o-main-table tr.disabled > td:first-child { border-left-color: #c3cad6; }
+/* разделитель месяца — заголовок от руки, подчёркнут красным */
+:root.o-paper body.calendar-body .o-main-table td.month-row {
+    background: var(--o-paper-sheet);
+    color: var(--o-paper-ink);
+    font-family: var(--o-font-hand);
+    font-size: 26px;
+    font-weight: 700;
+    border-bottom: 2px solid var(--o-paper-red);
+}
+:root.o-paper body.calendar-body .o-main-table td.month-row .month-name {
+    display: inline-block;             /* иначе ::first-letter не сработает */
+    text-transform: none;              /* прописные рукописным шрифтом читаются плохо */
+    letter-spacing: 0;
+}
+:root.o-paper body.calendar-body .o-main-table td.month-row .month-name::first-letter { text-transform: uppercase; }
+:root.o-paper body.calendar-body .o-main-table td.month-row .month-counts { font-family: var(--o-font-body); }
+
+/* --- всплывающие окна ------------------------------------------------- */
+:root.o-paper :is(.slide-popup, .peek-widget) {
+    border: 2px solid var(--o-text);
+    border-radius: var(--o-paper-wobble);
+    box-shadow: var(--o-sh-pop);
+}
+:root.o-paper .peek-ear { background: var(--o-paper-ink); box-shadow: none; }
+
+/* --- бейджи Bootstrap: обведены, а не залиты ----------------------------
+   цвет рамки и текста берётся из того же класса bg-*, что и раньше заливка */
+:root.o-paper .badge {
+    --o-badge-ink: var(--o-text-muted);
+    background: var(--o-paper-sheet) !important;
+    color: var(--o-badge-ink) !important;
+    border: var(--o-paper-line) solid var(--o-badge-ink);
+    border-radius: var(--o-paper-wobble);
+    font-family: var(--o-font-body);
+    font-weight: 700;
+}
+:root.o-paper .badge.bg-danger    { --o-badge-ink: var(--o-paper-red); }
+:root.o-paper .badge.bg-warning   { --o-badge-ink: #b26a00; }
+:root.o-paper .badge.bg-success   { --o-badge-ink: #2f7d45; }
+:root.o-paper .badge.bg-primary,
+:root.o-paper .badge.bg-info      { --o-badge-ink: var(--o-accent); }
+:root.o-paper .badge.bg-light     { --o-badge-ink: var(--o-text-muted); border-style: dashed; }
+
+/* --- статьи «Истории» ------------------------------------------------- */
+:root.o-paper .hist-section { background: transparent; }
+
+/* --- карта: панели Leaflet остаются белыми, шрифт — обычный ---------- */
+:root.o-paper .leaflet-container { font-family: Roboto, 'Segoe UI', Arial, sans-serif; }
+:root.o-paper .leaflet-container :is(h1, h2, h3) { font-family: inherit; color: inherit; font-size: revert; }

@@ -527,3 +527,31 @@ body.history-body a.hist-place-pin { scroll-margin-top: 30vh; }
     .hist-timeline { grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); }
     .hist-timeline small { white-space: normal; text-overflow: clip; overflow-wrap: anywhere; }
 }
+
+/* ---- бумажная тема (o-paper, блок [20] в theme.css) ---------------------
+   Заголовки рукописным шрифтом: он мельче при том же кегле — крупнее.
+   Плашки (навигация, вехи, оглавление, карточки) — без заливки, с рамкой
+   «от руки»; текущая статья в навигации — подчёркнута красной ручкой. */
+:root.o-paper body.history-body .hist-section h2 { font-size: 2rem; line-height: 1.15; }
+:root.o-paper .hist-card h3 { font-size: 1.5rem; }
+:root.o-paper :is(.hist-nav li a, .hist-nav li span, .hist-timeline li > span,
+        .hist-timeline li > a, .hist-toc, .hist-card) {
+    background: transparent;
+    border: var(--o-paper-line) solid var(--o-border);
+    border-radius: var(--o-paper-wobble);
+    box-shadow: none;
+}
+:root.o-paper .hist-timeline li > span { border-style: dashed; }
+:root.o-paper .hist-nav li span[aria-current] {
+    background: transparent;
+    border-color: var(--o-text);
+    color: var(--o-text);
+    font-weight: 700;
+    box-shadow: inset 0 -3px 0 var(--o-paper-red);
+}
+:root.o-paper :is(.hist-nav li a, .hist-timeline a, .hist-toc a) { text-decoration: none; }
+:root.o-paper .hist-toc-title { font-family: var(--o-font-hand); font-size: 1.35rem; text-transform: none; letter-spacing: 0; color: var(--o-paper-ink); }
+:root.o-paper .hist-progress > div { background: var(--o-paper-red); }
+@media screen and (max-width: 600px) {
+    :root.o-paper body.history-body h1.page-title { font-size: 1.7rem; }
+}

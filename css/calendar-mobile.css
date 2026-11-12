@@ -1024,3 +1024,134 @@
     filter: none;
     opacity: 1;
   }
+
+  /* ==========================================================================
+     Бумажная (тетрадная) тема — класс o-paper на <html>, см. блок [20]
+     в css/theme.css. Карточки прозрачные, сквозь них видна клетка листа;
+     тон вида спорта — полупрозрачный «маркер», рамки «от руки» вместо теней.
+     Префикс html.o-paper тяжелее любого правила выше, поэтому !important
+     здесь нужен только там, где он есть у перебиваемого правила.
+     ========================================================================== */
+  html.o-paper.om-mobile-enhanced {
+    --om-green: var(--o-accent);
+    --om-green-2: var(--o-accent-soft);
+    --om-green-3: var(--o-accent-soft);
+    --om-bg: var(--o-paper-sheet);
+    --om-card: transparent;
+    --om-ink: var(--o-text);
+    --om-muted: var(--o-text-muted);
+    --om-line: var(--o-border);
+    --om-type-bar: var(--o-text-faint);
+    --om-type-date: transparent;
+    --om-type-date-active: var(--o-accent-soft);
+    --om-type-date-ink: var(--o-text);
+    --om-type-chip: transparent;
+    --om-type-chip-ink: var(--o-text-muted);
+  }
+  html.o-paper.om-mobile-enhanced body.calendar-body {
+    font-family: var(--o-font-body) !important;
+  }
+  html.o-paper.om-mobile-enhanced .calendar-body header.page-header,
+  html.o-paper.om-mobile-enhanced .calendar-body .sheet-filters {
+    background: var(--o-paper-sheet) !important;
+    border-bottom: 1.5px solid var(--om-line) !important;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  html.o-paper.om-mobile-enhanced .calendar-body header.page-header > h1 {
+    color: var(--o-paper-ink) !important;
+  }
+  /* фон листа — та же клетка, что в theme.css; повторяем с !important,
+     потому что мобильный вид ставит списку background: transparent !important */
+  html.o-paper.om-mobile-enhanced .calendar-body .o-sheet-wrapper {
+    background-color: var(--o-paper-sheet) !important;
+    background-image:
+      linear-gradient(var(--o-paper-grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--o-paper-grid) 1px, transparent 1px) !important;
+    background-size:
+      var(--o-paper-cell) var(--o-paper-cell),
+      var(--o-paper-cell) var(--o-paper-cell) !important;
+    background-attachment: local, local !important;
+  }
+
+  /* поля, кнопки, переключатели — белые, в рамке от руки */
+  html.o-paper.om-mobile-enhanced .calendar-body :is(.om-mobile-search, #year_selector, #event_type_selector,
+      .om-mobile-refresh, .om-mobile-map-button, .om-mobile-home-button, .om-mobile-expand-all, .om-mobile-pin) {
+    border: 1.5px solid var(--om-line) !important;
+    border-radius: var(--o-paper-wobble) !important;
+    background-color: var(--o-paper-sheet) !important;
+  }
+
+  /* месяц — заголовок от руки, подчёркнут красной ручкой */
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table td.month-row {
+    background: var(--o-paper-sheet) !important;
+    color: var(--o-paper-ink) !important;
+    font-family: var(--o-font-hand) !important;
+    font-size: 22px !important;
+    border-bottom: 2px solid var(--o-paper-red) !important;
+  }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table td.month-row .month-name {
+    display: inline-block;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+  }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table td.month-row .month-name::first-letter {
+    text-transform: uppercase;
+  }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table td.month-row .month-counts {
+    font-family: var(--o-font-body) !important;
+  }
+
+  /* карточка: прозрачная, рамка от руки, полоса вида спорта слева остаётся */
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) {
+    border: 1.5px solid var(--om-line) !important;
+    border-left: 4px solid var(--om-type-bar) !important;
+    border-radius: var(--o-paper-wobble) !important;
+    box-shadow: none !important;
+  }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr.orient   { --om-type-bar: var(--o-bar-orient); --om-type-bg: var(--o-row-orient); --om-type-chip-ink: var(--o-text-muted); }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr.rogaine  { --om-type-bar: var(--o-bar-rogaine); --om-type-bg: var(--o-row-rogaine); --om-type-chip-ink: var(--o-text-muted); }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr.ski      { --om-type-bar: var(--o-bar-ski); --om-type-bg: var(--o-row-ski); --om-type-chip-ink: var(--o-text-muted); }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr.water    { --om-type-bar: var(--o-bar-water); --om-type-bg: var(--o-row-water); --om-type-chip-ink: var(--o-text-muted); }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr.cancelled { --om-type-bar: var(--o-paper-red); --om-type-bg: transparent; }
+  /* текущий старт — обведён красной ручкой; важный — рамка жирнее, без тени */
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr.current {
+    outline: 1.5px solid var(--o-paper-red) !important;
+    outline-offset: 2px;
+  }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.major,
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.major.disabled {
+    border-width: 2.5px !important;
+    border-left-width: 6px !important;
+    box-shadow: none !important;
+  }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.my-event {
+    border-width: 2px !important;
+    border-left-width: 4px !important;
+    border-color: #6d54a8 !important;
+    border-left-color: var(--om-type-bar) !important;
+  }
+
+  /* плашки даты и вида спорта — обведены пунктиром вместо заливки */
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(2),
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(5) {
+    border: 1.5px dashed var(--om-line) !important;
+    border-radius: var(--o-paper-wobble) !important;
+    background: transparent !important;   /* светлый тон типа (--om-type-date/chip) на бумаге не нужен */
+  }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsed > td:nth-child(5) {
+    border: 0 !important;
+  }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(3) a {
+    color: var(--o-accent) !important;
+  }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(6) a,
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(7) a {
+    border: 1.5px solid var(--om-line) !important;
+    border-radius: var(--o-paper-wobble) !important;
+    background: var(--o-paper-sheet) !important;
+    color: var(--o-accent) !important;
+  }
+  html.o-paper.om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(8) a {
+    color: var(--o-accent) !important;
+  }
