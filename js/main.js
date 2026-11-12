@@ -13,6 +13,8 @@ let userNavigationActive = false;
 let userLocationButton = null;
 let userLocationMarker = null;
 let userLocationAccuracy = null;
+let userNavigationHeading = 0;
+let userNavigationHeadingOrigin = null;
 let layerControl;
 let opacitySlider;
 let notificationControl;
@@ -2467,6 +2469,8 @@ function handleUserLocationError(event) {
 function startUserNavigation() {
     if (userNavigationActive) return;
     userNavigationActive = true;
+    userNavigationHeading = 0;
+    userNavigationHeadingOrigin = lastUserLocation ? lastUserLocation.latlng : null;
     if (userLocationButton) {
         userLocationButton.classList.add('om-navigation-active');
         userLocationButton.title = 'Выключить режим навигации';
@@ -2490,22 +2494,43 @@ function startUserNavigation() {
 }
 
 function updateUserNavigationLayers(latlng, accuracy) {
-    const radius = Number.isFinite(accuracy) && accuracy > 0 ? accuracy : 1;
+    // GPS обычно сообщает точность в метрах. Минимум 15 м оставляет круг
+    // различимым и при очень хорошем/округлённом до нуля значении accuracy.
+    const reportedAccuracy = Number.isFinite(accuracy) && accuracy > 0 ? accuracy : 15;
+    const radius = Math.max(reportedAccuracy, 15);
+
+    // Направление определяем по смещению от последней принятой опорной точки.
+    // Небольшие перемещения игнорируются, чтобы GPS-погрешность на месте
+    // не заставляла стрелку хаотично вращаться.
+    if (userNavigationHeadingOrigin) {
+        const distance = map.distance(userNavigationHeadingOrigin, latlng);
+        const movementThreshold = Math.max(4, Math.min(12, reportedAccuracy * 0.35));
+        if (distance >= movementThreshold) {
+            userNavigationHeading = getUserMovementBearing(userNavigationHeadingOrigin, latlng);
+            userNavigationHeadingOrigin = latlng;
+        }
+    } else {
+        userNavigationHeadingOrigin = latlng;
+    }
 
     if (!userLocationAccuracy) {
         userLocationAccuracy = L.circle(latlng, {
             radius: radius,
-            color: 'var(--o-accent)',
-            weight: 1.5,
-            opacity: 0.65,
-            fillColor: 'var(--o-accent-soft)',
+            // Цвета задаются CSS-классом, чтобы автоматически следовать теме.
+            // Эти значения — запасные, если CSS-класс по какой-либо причине
+            // не применился.
+            color: '#2350b4',
+            weight: 2.5,
+            opacity: 0.9,
+            fillColor: '#5b91e8',
             fillOpacity: 0.2,
             interactive: false,
             bubblingMouseEvents: false,
             className: 'om-user-location-accuracy'
         }).addTo(map);
-        if (userLocationAccuracy.getElement()) {
-            userLocationAccuracy.getElement().classList.add('om-user-location-accuracy');
+        const accuracyElement = userLocationAccuracy.getElement();
+        if (accuracyElement) {
+            accuracyElement.classList.add('om-user-location-accuracy');
         }
     } else {
         userLocationAccuracy.setLatLng(latlng);
@@ -2513,28 +2538,48 @@ function updateUserNavigationLayers(latlng, accuracy) {
     }
 
     if (!userLocationMarker) {
-        userLocationMarker = L.circleMarker(latlng, {
-            radius: 7,
-            color: 'var(--o-surface)',
-            weight: 3,
-            fillColor: 'var(--o-accent)',
-            fillOpacity: 1,
+        const arrowIcon = L.divIcon({
+            className: 'om-user-location-arrow-icon',
+            html: `<svg class="om-user-location-arrow" viewBox="0 0 48 48" aria-hidden="true" style="transform: rotate(${userNavigationHeading}deg)"><path d="M24 2.5 5 43 24 32.5 43 43Z"></path></svg>`,
+            iconSize: [44, 44],
+            iconAnchor: [22, 22]
+        });
+        userLocationMarker = L.marker(latlng, {
+            icon: arrowIcon,
             interactive: false,
+            keyboard: false,
             bubblingMouseEvents: false,
-            className: 'om-user-location-marker'
+            zIndexOffset: 1000
         }).addTo(map);
-        if (userLocationMarker.getElement()) {
-            userLocationMarker.getElement().classList.add('om-user-location-marker');
-        }
     } else {
         userLocationMarker.setLatLng(latlng);
+        const markerElement = userLocationMarker.getElement();
+        const arrowElement = markerElement && markerElement.querySelector('.om-user-location-arrow');
+        if (arrowElement) {
+            arrowElement.style.transform = `rotate(${userNavigationHeading}deg)`;
+        }
     }
+}
+
+function getUserMovementBearing(from, to) {
+    const toRadians = value => value * Math.PI / 180;
+    const lat1 = toRadians(from.lat);
+    const lat2 = toRadians(to.lat);
+    const deltaLng = toRadians(to.lng - from.lng);
+
+    const y = Math.sin(deltaLng) * Math.cos(lat2);
+    const x = Math.cos(lat1) * Math.sin(lat2) -
+        Math.sin(lat1) * Math.cos(lat2) * Math.cos(deltaLng);
+
+    return (Math.atan2(y, x) * 180 / Math.PI + 360) % 360;
 }
 
 function stopUserNavigation() {
     if (!userNavigationActive) return;
     userNavigationActive = false;
     map.stopLocate();
+    userNavigationHeading = 0;
+    userNavigationHeadingOrigin = null;
 
     if (userLocationMarker) {
         map.removeLayer(userLocationMarker);

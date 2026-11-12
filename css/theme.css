@@ -3205,19 +3205,38 @@ a.om-broken-link:focus-visible {
 
 /* --- Геолокация: активная кнопка и маркеры текущего местоположения --- */
 :root .leaflet-control-zoom-to-start.om-navigation-active {
-    background-color: var(--o-accent-soft) !important;
+    background-color: color-mix(in srgb, var(--o-accent) 22%, var(--o-surface)) !important;
     border-radius: 5px !important;
-    box-shadow: inset 0 0 0 2px var(--o-accent) !important;
+    box-shadow: inset 0 0 0 4px var(--o-accent) !important;
 }
-.leaflet-overlay-pane .om-user-location-accuracy {
+.leaflet-overlay-pane path.om-user-location-accuracy {
     stroke: var(--o-accent) !important;
-    fill: var(--o-accent-soft) !important;
-    stroke-opacity: .65 !important;
+    stroke-width: 2.5px !important;
+    fill: var(--o-accent) !important;
+    stroke-opacity: .9 !important;
     fill-opacity: .2 !important;
 }
-.leaflet-overlay-pane .om-user-location-marker {
-    stroke: var(--o-surface) !important;
-    fill: var(--o-accent) !important;
-    stroke-opacity: 1 !important;
-    fill-opacity: 1 !important;
+
+/* Стрелка направления движения в режиме GPS-навигации */
+.leaflet-marker-icon.om-user-location-arrow-icon {
+    background: transparent !important;
+    border: 0 !important;
 }
+.om-user-location-arrow {
+    display: block;
+    width: 44px;
+    height: 44px;
+    overflow: visible;
+    transform-origin: 50% 50%;
+    transition: transform .2s ease-out;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .45));
+    opacity: 0.8; /* 20% transparency */
+}
+.om-user-location-arrow path {
+    fill: var(--o-accent) !important;
+    stroke: var(--o-surface) !important;
+    stroke-width: 3.2px;
+    stroke-linejoin: round;
+    paint-order: stroke fill;
+}
+
