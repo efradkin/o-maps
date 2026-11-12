@@ -7,6 +7,12 @@ const DEFAULT_ZOOM_LEVEL = 13;
 const ZERO_LATLNG = new L.LatLng(0, 0);
 
 let map;
+let lastUserLocation = null;
+let userLocationRequestPending = false;
+let userNavigationActive = false;
+let userLocationButton = null;
+let userLocationMarker = null;
+let userLocationAccuracy = null;
 let layerControl;
 let opacitySlider;
 let notificationControl;
@@ -461,8 +467,14 @@ if (mapElement) {
         buildGlobalMenu();
     }
 
-    // Instantiate the ZoomBar control..
-    new L.Control.ZoomBar({position: 'topleft'}).addTo(map);
+    // Кнопка «Моё местоположение»: первое нажатие центрирует карту,
+    // повторное включает/выключает GPS-навигацию.
+    const zoomBarControl = new L.Control.ZoomBar({position: 'topleft'}).addTo(map);
+    // GPS-навигация доступна только на мобильных устройствах.
+    // На десктопе ZoomBar сохраняет штатное поведение без перехвата клика.
+    if (isMobile) {
+        bindUserLocationControl(zoomBarControl);
+    }
 
     let attributionControl = L.control.attribution().addTo(map);
     attributionControl.setPrefix('');
@@ -2365,6 +2377,178 @@ function shareMap(e) {
 
     copyToClipboard(url2share);
     notificationControl.info(`Ссылка скопирована в буфер обмена.`);
+}
+
+// --- Геопозиция и режим навигации -----------------------------------
+function bindUserLocationControl(control) {
+    const button = control && control._zoomStartButton;
+    if (!button) return;
+
+    userLocationButton = button;
+    button.setAttribute('aria-label', 'Моё местоположение');
+    button.addEventListener('click', function (event) {
+        // Перехватываем штатный обработчик ZoomBar: его setView нужен
+        // только при первом позиционировании, но не во время навигации.
+        event.preventDefault();
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        handleUserLocationButtonClick();
+    }, true);
+
+    map.on('locationfound', handleUserLocationFound);
+    map.on('locationerror', handleUserLocationError);
+}
+
+function handleUserLocationButtonClick() {
+    if (userNavigationActive) {
+        stopUserNavigation();
+        return;
+    }
+    if (userLocationRequestPending) return;
+
+    // Если карта всё ещё центрирована на координатах последнего GPS-фикса,
+    // включаем слежение, не перемещая карту. Иначе выполняем обычное
+    // позиционирование — в том числе после ручного перемещения карты.
+    if (isMapCenteredOnUserLocation()) {
+        startUserNavigation();
+        return;
+    }
+
+    if (typeof navigator === 'undefined' || !navigator.geolocation) {
+        notificationControl.warning('Моё местоположение', 'Браузер не поддерживает определение местоположения.');
+        return;
+    }
+
+    userLocationRequestPending = true;
+    map.locate({
+        setView: true,
+        maxZoom: 15,
+        enableHighAccuracy: true,
+        maximumAge: 0,
+        timeout: 15000
+    });
+}
+
+function isMapCenteredOnUserLocation() {
+    return !!lastUserLocation &&
+        map.distance(map.getCenter(), lastUserLocation.latlng) <= 100;
+}
+
+function handleUserLocationFound(event) {
+    userLocationRequestPending = false;
+    lastUserLocation = {
+        latlng: event.latlng,
+        accuracy: Number.isFinite(event.accuracy) ? event.accuracy : 0
+    };
+
+    if (userNavigationActive) {
+        updateUserNavigationLayers(event.latlng, event.accuracy);
+    }
+}
+
+function handleUserLocationError(event) {
+    const wasInitialRequest = userLocationRequestPending;
+    userLocationRequestPending = false;
+
+    if (!wasInitialRequest && !userNavigationActive) return;
+
+    let message = 'Не удалось определить местоположение.';
+    if (event.code === 1) {
+        message = 'Доступ к местоположению запрещён. Разрешите его в настройках браузера.';
+        if (userNavigationActive) stopUserNavigation();
+    } else if (event.code === 3) {
+        message = 'Не удалось получить координаты вовремя. GPS может заработать при следующем обновлении.';
+    } else if (event.message) {
+        message = event.message;
+    }
+    notificationControl.warning('Моё местоположение', message, {timeout: 6000});
+}
+
+function startUserNavigation() {
+    if (userNavigationActive) return;
+    userNavigationActive = true;
+    if (userLocationButton) {
+        userLocationButton.classList.add('om-navigation-active');
+        userLocationButton.title = 'Выключить режим навигации';
+        userLocationButton.setAttribute('aria-label', 'Выключить режим навигации');
+    }
+
+    // Показываем последний известный фикс сразу, не дожидаясь нового GPS-ответа.
+    if (lastUserLocation) {
+        updateUserNavigationLayers(lastUserLocation.latlng, lastUserLocation.accuracy);
+    }
+
+    // watch:true обновляет только маркер и круг точности. setView:false
+    // принципиален: карта остаётся там, где её оставил пользователь.
+    map.locate({
+        watch: true,
+        setView: false,
+        enableHighAccuracy: true,
+        maximumAge: 1000,
+        timeout: 20000
+    });
+}
+
+function updateUserNavigationLayers(latlng, accuracy) {
+    const radius = Number.isFinite(accuracy) && accuracy > 0 ? accuracy : 1;
+
+    if (!userLocationAccuracy) {
+        userLocationAccuracy = L.circle(latlng, {
+            radius: radius,
+            color: 'var(--o-accent)',
+            weight: 1.5,
+            opacity: 0.65,
+            fillColor: 'var(--o-accent-soft)',
+            fillOpacity: 0.2,
+            interactive: false,
+            bubblingMouseEvents: false,
+            className: 'om-user-location-accuracy'
+        }).addTo(map);
+        if (userLocationAccuracy.getElement()) {
+            userLocationAccuracy.getElement().classList.add('om-user-location-accuracy');
+        }
+    } else {
+        userLocationAccuracy.setLatLng(latlng);
+        userLocationAccuracy.setRadius(radius);
+    }
+
+    if (!userLocationMarker) {
+        userLocationMarker = L.circleMarker(latlng, {
+            radius: 7,
+            color: 'var(--o-surface)',
+            weight: 3,
+            fillColor: 'var(--o-accent)',
+            fillOpacity: 1,
+            interactive: false,
+            bubblingMouseEvents: false,
+            className: 'om-user-location-marker'
+        }).addTo(map);
+        if (userLocationMarker.getElement()) {
+            userLocationMarker.getElement().classList.add('om-user-location-marker');
+        }
+    } else {
+        userLocationMarker.setLatLng(latlng);
+    }
+}
+
+function stopUserNavigation() {
+    if (!userNavigationActive) return;
+    userNavigationActive = false;
+    map.stopLocate();
+
+    if (userLocationMarker) {
+        map.removeLayer(userLocationMarker);
+        userLocationMarker = null;
+    }
+    if (userLocationAccuracy) {
+        map.removeLayer(userLocationAccuracy);
+        userLocationAccuracy = null;
+    }
+    if (userLocationButton) {
+        userLocationButton.classList.remove('om-navigation-active');
+        userLocationButton.title = 'Моё местоположение';
+        userLocationButton.setAttribute('aria-label', 'Моё местоположение');
+    }
 }
 
 function centerMap(e) {
