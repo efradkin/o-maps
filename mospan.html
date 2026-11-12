@@ -266,7 +266,7 @@
         for (const section of fotosDiv.children) {
             const imgNo = section.getAttribute('data-img');
             if (imgNo) {
-                const url = 'foto/mospan/mospan_' + imgNo + '.jpg';
+                const url = 'foto/mospan/mospan_' + imgNo + '.webp';
                 images.push(url);
                 let title = section.getAttribute('title');
                 const sectionContent = '<a href="#" onClick="openModal(' + picCounter++ + '); return false;">' +

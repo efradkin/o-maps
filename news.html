@@ -138,7 +138,7 @@
             let idx = picCounter;
             if (n.pics) {
                 for (let p = 0; (p < n.pics[1] && p < 2); p++) {
-                    imgs += img.replace('#src', `news/${n.pics[0]}/thumb_${p+1}.jpg`).replace('#counter', picCounter+p);
+                    imgs += img.replace('#src', `news/${n.pics[0]}/thumb_${p+1}.webp`).replace('#counter', picCounter+p);
                 }
             }
             row = row.replace('#img', imgs);

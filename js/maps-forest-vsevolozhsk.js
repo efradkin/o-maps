@@ -83,7 +83,7 @@ let vsevolozhskMaps = [
         year: 2005,
         url: './maps/forest/vsevolozhsk/golubaya_dacha_2005.webp',
         link: './original_maps/forest/vsevolozhsk/golubaya_dacha_2005_omaps.jpg',
-        photo: 'tracks/koltushi_kamy/pic_1.jpg',
+        photo: 'tracks/koltushi_kamy/pic_1.webp',
         bounds: [[59.9679643, 30.6106138], [59.9659023, 30.6605244], [59.947446, 30.6081247]],
         author: ['RYLOV_V','DRBSHV'],
         qtty: 2
@@ -122,7 +122,7 @@ let vsevolozhskMaps = [
         year: 2019,
         url: './maps/forest/vsevolozhsk/orovo_2019.webp',
         o_gps: 21855,
-        photo: 'tracks/hare_trail/pic_1.jpg',
+        photo: 'tracks/hare_trail/pic_1.webp',
         bounds: [[59.9680717, 30.6228018], [59.9661171, 30.6492376], [59.9529904, 30.6176949]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
@@ -132,7 +132,7 @@ let vsevolozhskMaps = [
         year: 2007,
         url: './maps/forest/vsevolozhsk/orovo_2007.webp',
         link: './original_maps/forest/vsevolozhsk/orovo_2007_omaps.gif',
-        photo: 'tracks/hare_trail/pic_3.jpg',
+        photo: 'tracks/hare_trail/pic_3.webp',
         bounds: [[59.965666, 30.6211281], [59.9647424, 30.6429291], [59.9551177, 30.6197119]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'

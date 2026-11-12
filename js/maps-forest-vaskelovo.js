@@ -355,7 +355,7 @@ let vaskelovoMaps = [
         year: 2022,
         url: './maps/forest/vaskelovo/garbolovo_zmeinoe_2022.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_zmeinoe_2022_omaps.jpg',
-        photo: './tracks/garbolovo/pic_1.jpg',
+        photo: './tracks/garbolovo/pic_1.webp',
         bounds: [[60.344895, 30.4965448], [60.341179, 30.5377436], [60.3308354, 30.4925108]],
         author: ['MLNKV_L','RYLOV_V'],
         owner: ['SHLKHN_AN','SHEIN']
@@ -543,7 +543,7 @@ let vaskelovoMaps = [
         year: 2009,
         url: './maps/forest/vaskelovo/orekhovo_zhuravushka_2009.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_zhuravushka_2009_omaps.jpg',
-        photo: './tracks/orekhovo/pic_2.jpg',
+        photo: './tracks/orekhovo/pic_2.webp',
         bounds: [[60.4864695, 30.2960443], [60.4845244, 30.3194761], [60.4596088, 30.2869034]],
         author: ['MKHLV_A','SLBDNK']
     },
@@ -740,7 +740,7 @@ let vaskelovoMaps = [
         area: 18.5,
         url: './maps/forest/vaskelovo/orekhovo_2024.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_2024_omaps.jpg',
-        photo: './tracks/orekhovo/pic_1.jpg',
+        photo: './tracks/orekhovo/pic_1.webp',
         bounds: [[60.491395, 30.2700806], [60.4788788, 30.3907585], [60.4437146, 30.2497387]],
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY','RDNV_I'],
         owner: 'RDNV_I'

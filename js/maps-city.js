@@ -113,7 +113,7 @@ let cityMaps = [
         year: 2017,
         url: './maps/city/koltushi_2017.webp',
         link: './original_maps/city/koltushi_2017_omaps.jpg',
-        photo: './tracks/pavlovo/pic_4.jpg',
+        photo: './tracks/pavlovo/pic_4.webp',
         bounds: [[59.9461565, 30.6432724], [59.9447809, 30.6645155], [59.9308932, 30.638938]],
         author: 'DBRTSV_V',
         owner: 'SHEIN',

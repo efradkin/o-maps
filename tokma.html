@@ -308,7 +308,7 @@
         let fotosDiv = document.getElementById('fotos');
         for (const section of fotosDiv.children) {
             const imgNo = section.getAttribute('data-img');
-            const url = 'foto/tokma/tokma_' + imgNo + '.jpg';
+            const url = 'foto/tokma/tokma_' + imgNo + '.webp';
             images.push(url);
             let title = section.getAttribute('title');
             const sectionContent = '<a href="#" onClick="openModal(' + picCounter++ + '); return false;">' +

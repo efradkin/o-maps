@@ -478,7 +478,7 @@ let sosnovoMaps = [
         year: 1985,
         url: './maps/forest/sosnovo/petjajarvy_yagodnoe_1985.webp',
         link: './original_maps/forest/sosnovo/petjajarvy_yagodnoe_1985_omaps.jpg',
-        photo: './tracks/petyajarvi/pic_6.jpg',
+        photo: './tracks/petyajarvi/pic_6.webp',
         bounds: [[60.6370888, 30.0159359], [60.6316172, 30.1024532], [60.6094685, 30.0083828]],
         author: ['LVCHV','SVTKN']
     },
@@ -506,7 +506,7 @@ let sosnovoMaps = [
         year: 1,
         url: './maps/forest/sosnovo/petjajarvy_kentavr_tarasov.webp',
         link: './original_maps/forest/sosnovo/petjajarvy_kentavr_omaps.jpg',
-        photo: './tracks/petyajarvi/pic_7.jpg',
+        photo: './tracks/petyajarvi/pic_7.webp',
         bounds: [[60.6351107, 30.1372147], [60.6325011, 30.1790571], [60.6191972, 30.1339531]],
         author: 'TRSV'
     },
@@ -548,7 +548,7 @@ let sosnovoMaps = [
         results: './docs/1987/1987_07_22_masters_omaps.pdf',
         url: './maps/forest/sosnovo/petjajarvy_1987.webp',
         link: './original_maps/forest/sosnovo/petjajarvy_1987_omaps.jpg',
-        photo: './tracks/petyajarvi/pic_3.jpg',
+        photo: './tracks/petyajarvi/pic_3.webp',
         bounds: [[60.6346057, 30.0654602], [60.6274286, 30.1828766], [60.6063934, 30.0587654]],
         author: ['LVCHV','SVTKN']
     },
@@ -567,7 +567,7 @@ let sosnovoMaps = [
         year: 2019,
         url: './maps/forest/sosnovo/petyajarvi_west_2019.webp',
         link: './original_maps/forest/sosnovo/petyajarvi_west_2019_omaps.jpg',
-        photo: 'tracks/petyajarvi/pic_6.jpg',
+        photo: 'tracks/petyajarvi/pic_6.webp',
         bounds: [[60.6320802, 30.0483799], [60.6305648, 30.0832272], [60.6134277, 30.0445175]],
         author: 'DJCHKV',
         owner: 'SHEIN'
@@ -586,7 +586,7 @@ let sosnovoMaps = [
         year: 2014,
         url: './maps/forest/sosnovo/petyajarvi_2014.webp',
         link: ['./original_maps/forest/sosnovo/petyajarvi_2014_omaps.jpg','./original_maps/forest/sosnovo/petyajarvi_2014_omaps.gif'],
-        photo: 'tracks/petyajarvi/pic_7.jpg',
+        photo: 'tracks/petyajarvi/pic_7.webp',
         bounds: [[60.6351107, 30.0718117], [60.628881, 30.1607323], [60.6144385, 30.0687218]]
     },
     {

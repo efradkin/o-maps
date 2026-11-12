@@ -375,7 +375,7 @@ let toksovoMaps = [
         year: 1999,
         url: './maps/forest/toksovo/kavgolovo_1999.webp',
         link: ['./original_maps/forest/toksovo/kavgolovo_1999_omaps.gif','./original_maps/forest/toksovo/kavgolovo_2000_omaps.jpg'],
-        photo: './tracks/kavgolovo/pic_1.jpg',
+        photo: './tracks/kavgolovo/pic_1.webp',
         bounds: [[60.1773797, 30.5221224], [60.1763766, 30.5456829], [60.16107, 30.5181313]],
         author: ['SHRNN','BBNNA_I']
     },
@@ -384,7 +384,7 @@ let toksovoMaps = [
         year: 2004,
         url: './maps/forest/toksovo/kavgolovo_2004.webp',
         link: './original_maps/forest/toksovo/kavgolovo_2004_omaps.jpg',
-        photo: './tracks/kavgolovo/pic_2.jpg',
+        photo: './tracks/kavgolovo/pic_2.webp',
         bounds: [[60.1771663, 30.5227232], [60.1767608, 30.5454254], [60.1622444, 30.5194187]],
         author: 'VSLVSKY'
     },
@@ -401,7 +401,7 @@ let toksovoMaps = [
         year: 2004,
         url: './maps/forest/toksovo/orlinaya_gora_2004.webp',
         link: './original_maps/forest/toksovo/orlinaya_gora_2004_omaps.jpg',
-        photo: './tracks/kurgolovo/pic_2.jpg',
+        photo: './tracks/kurgolovo/pic_2.webp',
         bounds: [[60.1961131, 30.5313921], [60.193532, 30.5598879], [60.1772303, 30.5259848]],
         author: ['BRDR','VSLVSKY']
     },
@@ -522,7 +522,7 @@ let toksovoMaps = [
         year: 2001,
         url: './maps/forest/toksovo/toksovo_okhta_park_2001.webp',
         link: './original_maps/forest/toksovo/toksovo_okhta_park_2001_omaps.jpg',
-        photo: './tracks/okhta-park/pic_3.jpg',
+        photo: './tracks/okhta-park/pic_3.webp',
         bounds: [[60.1470594, 30.4105854], [60.1440258, 30.4635429], [60.1160696, 30.403204]],
         author: ['DRBSHV','CHGRVSKY_V','CHGRVSKY_Y']
     },
@@ -531,7 +531,7 @@ let toksovoMaps = [
         year: 2003,
         url: './maps/forest/toksovo/toksovo_svetloe_oz_2003.webp',
         link: './original_maps/forest/toksovo/toksovo_svetloe_oz_2003_omaps.jpg',
-        photo: './tracks/toksovo/pic_2.jpg',
+        photo: './tracks/toksovo/pic_2.webp',
         bounds: [[60.1578669, 30.4578352], [60.1551547, 30.4958582], [60.1427867, 30.4535437]],
         author: 'CHGRVSKY_M'
     },
@@ -540,7 +540,7 @@ let toksovoMaps = [
         year: 2017,
         url: './maps/forest/toksovo/toksovo_oz_svetloe_2017.webp',
         link: './original_maps/forest/toksovo/toksovo_oz_svetloe_2017_omaps.jpg',
-        photo: './tracks/toksovo/pic_1.jpg',
+        photo: './tracks/toksovo/pic_1.webp',
         bounds: [[60.160707, 30.43612], [60.1560944, 30.4944849], [60.1449658, 30.4308844]],
         author: 'DBRTSV_V',
         owner: 'SHEIN'
@@ -567,7 +567,7 @@ let toksovoMaps = [
         year: 2008,
         url: './maps/forest/toksovo/toksovo_okhta_park_2008.webp',
         link: ['./original_maps/forest/toksovo/toksovo_okhta_park_2008_omaps.jpg','./original_maps/forest/toksovo/enkolovo_2008_omaps.webp'],
-        photo: './tracks/okhta-park/pic_1.jpg',
+        photo: './tracks/okhta-park/pic_1.webp',
         bounds: [[60.1563293, 30.3935051], [60.1497936, 30.4720831], [60.1169249, 30.3810596]],
         author: ['MKHLV_A','SLBDNK']
     },
@@ -593,7 +593,7 @@ let toksovoMaps = [
         year: 2018,
         url: './maps/forest/toksovo/toksovo_malinovaya_gora_2018.webp',
         link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_2018_omaps.jpg',
-        photo: './tracks/toksovo/pic_3.jpg',
+        photo: './tracks/toksovo/pic_3.webp',
         bounds: [[60.1764406, 30.4537582], [60.1732817, 30.5079174], [60.148042, 30.4475784]],
         author: ['TKMKV_K','KVZN'],
         owner: 'SHEIN'
@@ -761,7 +761,7 @@ let toksovoMaps = [
         year: 2021,
         url: './maps/parks/okhta_park_2021.webp',
         link: './original_maps/forest/toksovo/park_2021_omaps.jpg',
-        photo: './tracks/okhta-park/pic_2.jpg',
+        photo: './tracks/okhta-park/pic_2.webp',
         bounds: [[60.1341006, 30.4431367], [60.1324658, 30.4558825], [60.125594, 30.4395103]],
         author: 'DBRTSV_V',
         owner: 'SHEIN',

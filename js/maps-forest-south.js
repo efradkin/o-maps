@@ -523,7 +523,7 @@ let southMaps = [
         year: 2006,
         url: './maps/forest/south/luga_shalovo_2006.webp',
         link: './original_maps/forest/south/luga_shalovo_2006_omaps.jpg',
-        photo: './tracks/shalovo/pic_2.jpg',
+        photo: './tracks/shalovo/pic_2.webp',
         bounds: [[58.8016506, 29.9254704], [58.798716, 29.9798012], [58.7702473, 29.9192047]],
         author: 'BYMKV'
     },
@@ -611,7 +611,7 @@ let southMaps = [
         year: 2022,
         url: './maps/forest/south/luga_alenka_2022.webp',
         link: './original_maps/forest/south/luga_alenka_2022_omaps.jpg',
-        photo: './tracks/shalovo/pic_1.jpg',
+        photo: './tracks/shalovo/pic_1.webp',
         bounds: [[58.8226296, 29.9111366], [58.8195635, 29.9522495], [58.8012504, 29.9046135]],
         owner: 'SHEIN',
         author: 'STLRV'
@@ -672,7 +672,7 @@ let southMaps = [
         year: 1997,
         url: './maps/forest/south/nagorny_park_1997.webp',
         link: ['./original_maps/forest/south/nagorny_park_1997_omaps.jpg','./original_maps/forest/south/crown_hill_1997_omaps.jpg'],
-        photo: './tracks/dudergof/pic_1.jpg',
+        photo: './tracks/dudergof/pic_1.webp',
         bounds: [[59.7054734, 30.1201344], [59.7034817, 30.1404762], [59.6922653, 30.1151991]],
         author: 'DBRTSV_V'
     },
@@ -681,7 +681,7 @@ let southMaps = [
         year: 2020,
         url: './maps/forest/south/nagorny_park_2020.webp',
         link: './original_maps/forest/south/nagorny_park_2020_omaps.jpg',
-        photo: './tracks/dudergof/pic_5.jpg',
+        photo: './tracks/dudergof/pic_5.webp',
         about: 'https://qr-orient.ru/spbpoligon',
         bounds: [[59.7056033, 30.1187181], [59.7035899, 30.14112], [59.6917022, 30.1136541]],
         info: 'Ковидный полигон от O-Time.',

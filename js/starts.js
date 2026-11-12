@@ -189,7 +189,7 @@ let starts = {
         name: 'Зелёный Змей',
         logo: 'gs.jpg',
         info: 'Дистанция средней длины с большим количеством пунктов.',
-        foto: ['gs_champions.jpg'],
+        foto: ['gs_champions.webp'],
         page: 'starts',
         planner: 'GBNV_V',
         owner: 'AZIMUT'

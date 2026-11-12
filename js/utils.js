@@ -3339,7 +3339,7 @@ function buildFotos(t, root = 'tracks') {
     let result = '';
     if (t.pics) {
         for (let p = 1; p <= t.pics[1]; p++) {
-            let url = root + '/' + t.pics[0] + '/pic_' + p + '.jpg';
+            let url = root + '/' + t.pics[0] + '/pic_' + p + '.webp';
             result += '<a href="#" onClick="openModal(' + picCounter++ + '); return false;"><img src="' + url + '" class="track-table-pic" alt="Фото" /></a>';
             images.push(url);
         }

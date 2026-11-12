@@ -237,7 +237,7 @@ function buildTrackPopup(t, gpxLayer) {
     } else if (logos.length > 0) {
         pic = './logo/' + logos[0];
     } else if (t.pics) {
-        pic = './tracks/' + t.pics[0] + '/pic_1.jpg';
+        pic = './tracks/' + t.pics[0] + '/pic_1.webp';
     } else {
         pic = './logo/o-maps.webp';
     }
@@ -278,7 +278,7 @@ function buildTrackPopup(t, gpxLayer) {
     if (t.pics) {
         info += ' <a href="#" onClick="openModal(' + picCounter + '); return false;">Картинки</a>.';
         for (let p = 1; p <= t.pics[1]; p++) {
-            let url = 'tracks/' + t.pics[0] + '/pic_' + p + '.jpg';
+            let url = 'tracks/' + t.pics[0] + '/pic_' + p + '.webp';
             images.push(url);
             picCounter++;
         }

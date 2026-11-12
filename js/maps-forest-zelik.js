@@ -399,7 +399,7 @@ let zelikMaps = [
         area: 15,
         url: './maps/forest/zelik/zelenogorsk_priboy_2000.webp',
         link: ['./original_maps/forest/zelik/zelenogorsk_priboy_2000_omaps.jpg','./original_maps/forest/zelik/zelik_simagino_2015_omaps.ocd'],
-        photo: './tracks/zelenogorsk/pic_1.jpg',
+        photo: './tracks/zelenogorsk/pic_1.webp',
         bounds: [[60.2478197, 29.7302055], [60.2377661, 29.8478794], [60.199867, 29.7148418]],
         author: ['TKMKV_K','KUZNTSV_S','SHRNN']
     },

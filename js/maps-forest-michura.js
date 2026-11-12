@@ -139,7 +139,7 @@ let michuraMaps = [
         year: 1993,
         url: './maps/forest/michura/petrichenko_svetloe_1993.webp',
         link: ['./original_maps/forest/michura/petrichenko_svetloe_1993_clean_omaps.webp','./original_maps/forest/michura/petrichenko_svetloe_1993_omaps.jpg'],
-        photo: './tracks/berestovoe/pic_1.jpg',
+        photo: './tracks/berestovoe/pic_1.webp',
         bounds: [[60.6092789, 29.8770189], [60.6034865, 29.9367571], [60.5886534, 29.8688221]],
         author: 'BYMKV'
     },
@@ -193,7 +193,7 @@ let michuraMaps = [
         info: 'Карта рисовалась для ММС и "Карельских Скал".',
         url: './maps/forest/michura/yagodnoe_2007.webp',
         link: './original_maps/forest/michura/yagodnoe_2007.pdf',
-        photo: 'tracks/berestovoe/pic_7.jpg',
+        photo: 'tracks/berestovoe/pic_7.webp',
         bounds: [[60.6421388, 29.8697662], [60.6285863, 30.0226307], [60.6052981, 29.8568058]],
         author: ['KUZNTSV_S','TKMKV_K','NSNV','KVZN','SHRNN']
     },
@@ -225,7 +225,7 @@ let michuraMaps = [
         area: 70,
         url: './maps/forest/michura/michurinskoe_2022.webp',
         bounds: [[60.6672085, 29.7957802], [60.6372572, 30.0891495], [60.5773553, 29.7587013]],
-        photo: 'tracks/petrichenko/pic_1.jpg',
+        photo: 'tracks/petrichenko/pic_1.webp',
         author: ['MKHLV_A','GVRLK','SLBDNK','ILVS','GRBTNKV','TRNV_V','TKMKV_K','KUZNTSV_S','VRBY'],
         owner: ['WN','ILVS']
     },

@@ -64,7 +64,7 @@ let rogaineMaps = [
         year: 2011,
         url: './maps/winter/zelenogorsk_schuchje_winter_2011.webp',
         link: './original_maps/rogaine/zelenogorsk_schuchje_winter_2011_omaps.jpg',
-        photo: './tracks/zelenogorsk/pic_2.jpg',
+        photo: './tracks/zelenogorsk/pic_2.webp',
         bounds: [[60.2466271, 29.7188759], [60.2370844, 29.8472786], [60.1929134, 29.716301]],
         type: ['WINTER','ROGAINE']
     },
