@@ -3823,10 +3823,11 @@ let events2026 = [
         name: 'Кубок Белых ночей 3 этап',
         start: 'KBN',
         place: 'Болотная станция',
+        o_site: '261115_WN',
         coord: [60.254082, 29.801373],
         reg: 'https://orgeo.ru/event/56780',
         endReg: '2026-11-14 20:00',
-        bulletin: 'https://orgeo.ru/files/event/file/56780_c212c4afa5.pdf',
+        bulletin: 'https://o-site.spb.ru/_races/261115_WN/261115_WN.pdf',
         map: 'bolotnaya_station_2019'
     },
     {
@@ -3855,10 +3856,11 @@ let events2026 = [
         name: 'Кубок Белых ночей 4 этап',
         start: 'KBN',
         place: 'Сестрорецкие дюны',
+        o_site: '261121_WN',
         coord: [60.133198, 29.952524],
         reg: 'https://orgeo.ru/event/56782',
         endReg: '2026-11-20 20:00',
-        bulletin: 'https://orgeo.ru/files/event/file/56782_9c2bb5e9ce.pdf',
+        bulletin: 'https://o-site.spb.ru/_races/261121_WN/261121_WN.pdf',
         map: 'sestroretsk_tamozhennaya_doroga_2021'
     },
     {
