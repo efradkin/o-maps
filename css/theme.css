@@ -3240,3 +3240,11 @@ a.om-broken-link:focus-visible {
     paint-order: stroke fill;
 }
 
+/* История движения: последние 5 минут, максимум 1 км */
+.leaflet-overlay-pane path.om-user-location-trail {
+    stroke: var(--o-accent) !important;
+    stroke-width: 5px !important;
+    stroke-opacity: .5 !important;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}

@@ -13,8 +13,13 @@ let userNavigationActive = false;
 let userLocationButton = null;
 let userLocationMarker = null;
 let userLocationAccuracy = null;
+let userNavigationTrailLayer = null;
+let userNavigationTrailPoints = [];
 let userNavigationHeading = 0;
 let userNavigationHeadingOrigin = null;
+
+const USER_NAVIGATION_TRAIL_DURATION = 5 * 60 * 1000;
+const USER_NAVIGATION_TRAIL_MAX_DISTANCE = 1000;
 let layerControl;
 let opacitySlider;
 let notificationControl;
@@ -2471,6 +2476,8 @@ function startUserNavigation() {
     userNavigationActive = true;
     userNavigationHeading = 0;
     userNavigationHeadingOrigin = lastUserLocation ? lastUserLocation.latlng : null;
+    userNavigationTrailPoints = [];
+    userNavigationTrailLayer = null;
     if (userLocationButton) {
         userLocationButton.classList.add('om-navigation-active');
         userLocationButton.title = 'Выключить режим навигации';
@@ -2537,6 +2544,8 @@ function updateUserNavigationLayers(latlng, accuracy) {
         userLocationAccuracy.setRadius(radius);
     }
 
+    updateUserNavigationTrail(latlng, reportedAccuracy);
+
     if (!userLocationMarker) {
         const arrowIcon = L.divIcon({
             className: 'om-user-location-arrow-icon',
@@ -2558,6 +2567,68 @@ function updateUserNavigationLayers(latlng, accuracy) {
         if (arrowElement) {
             arrowElement.style.transform = `rotate(${userNavigationHeading}deg)`;
         }
+    }
+}
+
+function updateUserNavigationTrail(latlng, accuracy) {
+    const now = Date.now();
+    const previousPoint = userNavigationTrailPoints[userNavigationTrailPoints.length - 1];
+
+    // Не добавляем каждое GPS-колебание: небольшое перемещение в пределах
+    // погрешности не должно превращать хвост в шумную ломаную.
+    if (!previousPoint) {
+        userNavigationTrailPoints.push({latlng, timestamp: now});
+    } else {
+        const distance = map.distance(previousPoint.latlng, latlng);
+        const movementThreshold = Math.max(3, Math.min(8, accuracy * 0.2));
+        if (distance >= movementThreshold) {
+            userNavigationTrailPoints.push({latlng, timestamp: now});
+        }
+    }
+
+    // Оставляем историю не старше 5 минут.
+    while (
+        userNavigationTrailPoints.length > 1 &&
+        userNavigationTrailPoints[1].timestamp < now - USER_NAVIGATION_TRAIL_DURATION
+    ) {
+        userNavigationTrailPoints.shift();
+    }
+
+    // Дополнительно ограничиваем длину траектории одним километром.
+    // Считаем именно длину пути по сегментам, а не прямое расстояние.
+    let totalDistance = 0;
+    for (let i = 1; i < userNavigationTrailPoints.length; i++) {
+        totalDistance += map.distance(
+            userNavigationTrailPoints[i - 1].latlng,
+            userNavigationTrailPoints[i].latlng
+        );
+    }
+    while (
+        userNavigationTrailPoints.length > 1 &&
+        totalDistance > USER_NAVIGATION_TRAIL_MAX_DISTANCE
+    ) {
+        totalDistance -= map.distance(
+            userNavigationTrailPoints[0].latlng,
+            userNavigationTrailPoints[1].latlng
+        );
+        userNavigationTrailPoints.shift();
+    }
+
+    const path = userNavigationTrailPoints.map(point => point.latlng);
+
+    if (!userNavigationTrailLayer) {
+        userNavigationTrailLayer = L.polyline(path, {
+            color: '#2350b4',
+            weight: 5,
+            opacity: 0.5,
+            lineCap: 'round',
+            lineJoin: 'round',
+            interactive: false,
+            bubblingMouseEvents: false,
+            className: 'om-user-location-trail'
+        }).addTo(map);
+    } else {
+        userNavigationTrailLayer.setLatLngs(path);
     }
 }
 
@@ -2589,6 +2660,11 @@ function stopUserNavigation() {
         map.removeLayer(userLocationAccuracy);
         userLocationAccuracy = null;
     }
+    if (userNavigationTrailLayer) {
+        map.removeLayer(userNavigationTrailLayer);
+        userNavigationTrailLayer = null;
+    }
+    userNavigationTrailPoints = [];
     if (userLocationButton) {
         userLocationButton.classList.remove('om-navigation-active');
         userLocationButton.title = 'Моё местоположение';
