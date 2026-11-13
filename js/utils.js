@@ -76,6 +76,10 @@ const regions = {
         name: 'Геленджик',
         logo: 'gelendzhik.gif'
     },
+    GEORGIA: {
+        name: 'Грузия',
+        logo: 'orient_geo.webp'
+    },
     DAGESTAN: {
         name: 'Дагестан',
     },

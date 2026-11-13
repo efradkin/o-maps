@@ -1952,4 +1952,28 @@ let otherMaps = [
         author: 'MSTPNV',
         owner: 'MSTPNV'
     },
+    {
+        name: 'Uplistsikhe',
+        year: 2026,
+        region: 'GEORGIA',
+        bounds: [[41.9791293, 44.2051435], [41.9778691, 44.2195415], [41.9671806, 44.2032981]],
+        about: 'https://so-club.org/en/sioweek_2026_en/',
+        logo: 'sacartvelo.webp',
+        info: 'Sakartvelo International O-Week 2026, Day 1, Middle',
+        url: './maps/other/uplistsikhe_2026.webp',
+        link: './original_maps/other/uplistsikhe_2026_omaps.gif',
+        livelox: 'https://www.livelox.com/Events/Show/196401/III-Sakartvelo-International-O-Week-Day-1-Uplistsikhe-Middle'
+    },
+    {
+        name: 'Sameba',
+        date: '2026-11-05',
+        region: 'GEORGIA',
+        bounds: [[41.5869933, 44.5071602], [41.5850995, 44.5271802], [41.5744737, 44.5058298]],
+        about: 'https://so-club.org/en/sioweek_2026_en/',
+        info: 'Event: SIO-Week 2026. Day 2',
+        logo: 'sacartvelo.webp',
+        url: './maps/other/sameba_2026_11_05.webp',
+        link: './original_maps/other/sameba_2026_11_05_omaps.gif',
+        livelox: 'https://www.livelox.com/Events/Show/207963/SIO-Week-2026-Day-2-Sameba'
+    }
 ];
