@@ -929,19 +929,25 @@ let parkMaps = [
     },
     {
         name: 'Крестовский о-в',
+        year: 2026,
+        url: './maps/parks/krestovsky_2026.png',
+        bounds: [[59.9754809, 30.2238607], [59.9742998, 30.2585363], [59.9693604, 30.2223158]],
+        author: 'PSTVTV',
+        owner: 'SHEIN',
+        order: {
+            ready: 'Октябрь-ноябрь 2026',
+            owner: 'SHEIN'
+        },
+        type: ['PARK']
+    },
+    {
+        name: 'Крестовский о-в',
         year: 2021,
         url: './maps/parks/krestovsky_2021.webp',
         link: './original_maps/parks/krestovsky_2021_omaps.webp',
         bounds: [[59.9762539, 30.2316284], [59.9746864, 30.2493525], [59.9698543, 30.229311]],
         author: ['DBRTSV_V','FDRV_I'],
         owner: 'GOLFSTREAM',
-        in_work: true,
-        order: {
-            ready: 'Октябрь-ноябрь 2026',
-            info: 'От метро Крестовский остров до Газпром арены. Желательно в двух вариантах - в лесных знаках под масштаб 1:7500 и в спринтерских под масштаб 1:4000.',
-            area: 1.3,
-            owner: 'SHEIN'
-        },
         type: ['PARK']
     },
     {
