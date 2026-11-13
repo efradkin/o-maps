@@ -550,6 +550,7 @@ let irfEvents = [
             // 'http://rogaine.org.nz/wrc2010/eventinfo.htm'
             'http://rogaine.org.nz/wrc2010/finalinstructions.pdf'
         ],
+        map: 'cheviot_2010_11_20',
         maps: [
             'http://rogaine.org.nz/wrc2010/winnersmap.gif'
             // 'http://rogaine.org.nz/wrc2010/eventbase.gif' // страница, не файл карты

@@ -155,6 +155,10 @@ const regions = {
     NOVGOROD: {
         name: 'Великий Новгород',
     },
+    NZ: {
+        name: 'Новая Зеландия',
+        logo: 'nz.webp'
+    },
     NVRSYSK: {
         name: 'Новороссийск',
         logo: 'novorossiysk.gif'

@@ -563,4 +563,14 @@ let rogaineMaps = [
         type: ['ROGAINE','SPECIAL'],
         region: 'FINLAND'
     },
+    {
+        name: 'Cheviot',
+        year: 2010,
+        region: 'NZ',
+        bounds: [[-42.6969458, 173.2140541], [-42.7502897, 173.3985901], [-42.8856498, 173.1057358]],
+        major: true,
+        type: 'ROGAINE',
+        url: './maps/other/cheviot_2010_11_20.webp',
+        link: './original_maps/other/cheviot_2010_11_20_rogaine_omaps.gif'
+    }
 ];
