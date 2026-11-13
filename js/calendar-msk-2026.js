@@ -3465,7 +3465,7 @@ let mskEvents2026 = [
         type: "ORIENT",
         coord: [54.901299, 37.496712],
         reg: "https://orgeo.ru/event/56344",
-        endReg: "2026-11-12 23:55",
+        endReg: "2026-11-13 00:10",
         bulletin: "https://forestadventure.ru/bno2026-info/",
         o_gps: 26310
     },

@@ -3839,7 +3839,7 @@ let events2026 = [
         coord: [59.905704, 30.51535],
         reg: 'https://orgeo.ru/event/56809',
         fmt: 'лично-командные',
-        endReg: '2026-11-13 14:00',
+        endReg: '2026-11-14 16:00',
         map: 'kudrovo_school_3_2024'
     },
     {
@@ -3874,7 +3874,7 @@ let events2026 = [
         start: 'SNOW_WAY',
         fmt: 'спринт',
         endReg: '2026-11-19',
-        bulletin: 'https://o-site.spb.ru/_races/261122_st/261122_info.pdf',
+        bulletin: 'https://o-site.spb.ru/_races/261122_st/261122_info2.pdf',
         map: 'sosnovka_2024'
     },
     {
