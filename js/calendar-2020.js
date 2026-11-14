@@ -1456,7 +1456,8 @@ let events2020 = [
         start: 'SPRINT_TOUR',
         reskeep: 327,
         photo: 'https://vk.ru/album-92124592_275019777',
-        endReg: '2020-09-23 01:00'
+        endReg: '2020-09-23 01:00',
+        map: 'akadem_park_2022'
     },
     {
         id: 'SPB_20200924_1',

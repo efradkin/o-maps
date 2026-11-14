@@ -3883,6 +3883,8 @@ let events2026 = [
         name: 'День матери',
         place: 'Полюстрово',
         owner: 'FENIX',
+        o_site: '2611280',
+        reg: 'http://orgeo.ru/event/info/dm26',
         map: 'poljustrovo_tukhachevskogo_2026'
     },
     {

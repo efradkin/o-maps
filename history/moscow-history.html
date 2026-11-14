@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <base target="_blank">
+    <title>
+        Ориентирование в Москве — O-Maps
+    </title>
+    <meta content="От «закрытого маршрута» у Тучково в 1958 году и первой маркированной трассы 19 мая 1963-го до чемпионата мира в Химках, «Московского Меридиана» и спринтов в центре города: история спортивного ориентирования в Москве и Подмосковье."
+          name="description"/>
+    <link href="../favicon.png" rel="icon" type="image/png"/>
+    <link href="../css/google-fonts.css" rel="stylesheet"/>
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="../css/main.css?v=24" rel="stylesheet"/>
+    <link href="../css/theme.css?v=23" rel="stylesheet"/>
+    <link href="../css/history.css?v=2" rel="stylesheet"/>
+    <script src="../js/theme-toggle.js">
+    </script>
+</head>
+<body class="index-body help-body stat-body history-body">
+<script src="../js/utils-common.js?v=37"></script>
+<script src="../js/utils.js?v=49"></script>
+<header class="page-header">
+    <nav aria-label="Навигация по странице" class="page-header-actions">
+        <a class="stat-map-link stat-map-link-right" href="../index.html" target="_self" title="Главная страница"><img
+                alt="Главная страница" src="../images/home.png"/></a>
+        <a class="stat-map-link stat-map-link-right" data-menu-icon="🗓️"
+           href="../calendar-msk.html" target="_self" title="Календарь Москвы">
+            <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round"
+                 stroke-linejoin="round" stroke-width="2" style="color: var(--o-text)" viewbox="0 0 24 24" width="24">
+                <rect height="16.5" rx="2" width="18" x="3" y="4.5"></rect>
+                <path d="M3 9.5h18M8 2.5v4M16 2.5v4"></path>
+                <path d="M7 13.5h2M11 13.5h2M15 13.5h2M7 17h2M11 17h2"></path>
+            </svg>
+        </a>
+        <script src="../js/global-menu.js?v=39"></script>
+        <script>writeGlobalMenuHtml('../');</script>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <h1 class="page-title">Ориентирование в Москве</h1>
+
+        <nav aria-label="Исторические статьи" class="hist-nav">
+            <a href="index.html" target="_self">История ориентирования</a>
+            <ul>
+                <li>
+                    <a href="world-history.html" target="_self">Мир</a>
+                </li>
+                <li>
+                    <a href="europe-history.html" target="_self">Европа</a>
+                </li>
+                <li>
+                    <a href="russia-history.html" target="_self">Россия и СССР</a>
+                </li>
+                <li>
+                    <span aria-current="page">Москва</span>
+                </li>
+                <li>
+                    <a href="spb-history.html" target="_self">Ленинград&nbsp;— Петербург</a>
+                </li>
+                <li>
+                    <a href="rogaine-world-history.html" target="_self">Рогейн в мире</a>
+                </li>
+                <li>
+                    <a href="rogaine-russia-history.html" target="_self">Рогейн в России</a>
+                </li>
+                <li>
+                    <a href="domestic.html" target="_self">Чемпионаты СССР и России</a>
+                </li>
+                <li>
+                    <a href="iof.html" target="_self">Чемпионаты мира и Европы</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="hist-section clearfix" id="intro">
+            <h2>Лесной спорт большого города</h2>
+            <p>
+                Московское ориентирование появилось на несколько лет позже, чем в Ленинграде и Прибалтике, но очень быстро стало одним из главных
+                его центров. Здесь работала Центральная комиссия (позже секция) по слётам и соревнованиям, здесь учреждались союзная и российская
+                федерации, москвичи стали первыми в стране мастерами спорта среди мужчин, а москвич <a id="nm1-1" href="https://ru.wikipedia.org/wiki/Кузьмин,_Иван_Николаевич" rel="noopener">Иван Кузьмин</a> в 1994&nbsp;году&nbsp;— первым российским
+                чемпионом мира. Туристы соревновались по «закрытому маршруту» у Тучково ещё в 1958&nbsp;году, а днём рождения московского
+                ориентирования считается 19&nbsp;мая 1963&nbsp;года, когда у деревни Лямцино прошли первые соревнования по только что утверждённым
+                правилам. Полем для этого спорта стали Клинско-Дмитровская гряда, долины Истры и Москвы-реки, лыткаринские карьеры и десятки
+                городских лесопарков&nbsp;— от Битцы до Лосиного острова.
+            </p>
+            <p>
+                Статья прослеживает путь московского и подмосковного ориентирования&nbsp;— от синек с рюкзаком контрольного груза до карт
+                исторического центра и вечерних серий в парках. Опорой служат <a href="https://o-moscow.ru/chronology.html" rel="noopener">хронология
+                московского ориентирования</a> (1958–2003) и <a href="https://o-moscow.ru/people.html" rel="noopener">«Имена»</a> на o-moscow.ru,
+                глава «г.&nbsp;Москва» в сборнике ФСОР <a href="https://rufso.ru/wp-content/uploads/2018/02/%D0%9E%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B2-%D1%80%D0%B5%D0%B3%D0%B8%D0%BE%D0%BD%D0%B0%D1%85.pdf" rel="noopener">«Ориентирование в регионах»</a>
+                (Ю.&nbsp;С.&nbsp;Константинов, по материалам Б.&nbsp;Ю.&nbsp;Томсона, Н.&nbsp;Н.&nbsp;Куницына и Д.&nbsp;Л.&nbsp;Никифорова),
+                <a href="https://rufso.ru/history/" rel="noopener">хроника</a> Федерации спортивного ориентирования России, журнал
+                <a href="https://rufso.ru/журнал-азимут-по-номерам/" rel="noopener">«Азимут»</a> и, конечно, <a href="../calendar-msk.html">календарь</a>
+                и <a href="../moscow.html">архив карт O-Maps</a>. Все упомянутые люди собраны в <a href="#names" target="_self">указателе имён</a> в конце статьи.
+            </p>
+            <dl class="hist-facts">
+                <dt>Предтеча</dt>
+                <dd>1958, соревнования туристов с ночным этапом по карте у Тучково (победила команда МХТИ, капитан <a id="nm2-1" href="https://o-moscow.ru/people/OgorodnikovBI.html" rel="noopener">Б.&nbsp;И.&nbsp;Огородников</a>)</dd>
+                <dt>День рождения</dt>
+                <dd>19&nbsp;мая 1963, Лямцино у платформы Востряково</dd>
+                <dt>Федерация</dt>
+                <dd>с 30&nbsp;ноября 1977 (до этого&nbsp;— комиссия по слётам и соревнованиям и секция ориентирования при Московском совете по туризму)</dd>
+                <dt>Чемпионы мира</dt>
+                <dd><a id="nm1-2" class="hist-quiet" href="https://ru.wikipedia.org/wiki/Кузьмин,_Иван_Николаевич" rel="noopener">И.&nbsp;Кузьмин</a> (лыжи, 1994), <a id="nm3-1" href="https://ru.wikipedia.org/wiki/Грицан,_Руслан_Леонидович" rel="noopener">Р.&nbsp;Грицан</a> (лыжи и велосипед, с 2002), <a id="nm4-1" href="https://en.wikipedia.org/wiki/Ksenia_Chernykh" rel="noopener">К.&nbsp;Черных</a> и Н.&nbsp;Микрюкова (велосипед, с 2006); из Подмосковья&nbsp;— <a id="nm5-1" href="https://ru.wikipedia.org/wiki/Корчагин,_Виктор_Станиславович" rel="noopener">В.&nbsp;Корчагин</a> (лыжи, 1998: длинная дистанция и эстафета)</dd>
+                <dt><a href="#places" target="_self" title="Места на карте">Главные районы</a></dt>
+                <dd>Клинско-Дмитровская гряда, Лыткарино, Битца, Измайлово, Планерная и Химки, Раздоры и Ромашково</dd>
+                <dt>Архив O-Maps</dt>
+                <dd>713&nbsp;карт Москвы и Подмосковья (700 после исключения 13&nbsp;записей; 676 с известным годом на диаграмме); 1&nbsp;443&nbsp;события московского региона в календаре: 1&nbsp;346 локальных записей 2013–2027&nbsp;годов и 97&nbsp;записей общих календарей 1958–2027&nbsp;годов (на 14 ноября 2026&nbsp;года; <a href="#sources" target="_self">все числа O-Maps</a>&nbsp;— на эту дату)</dd>
+            </dl>
+            <ol aria-label="Вехи по годам" class="hist-timeline">
+                <li>
+                    <a href="../event.html?id=MAJOR_19580606_1" title="6–7 июня 1958: соревнования туристов Москвы у Тучково, ночной этап по карте">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1958</span><small>Тучково</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=MAJOR_19630519_1" title="19 мая 1963: первые соревнования по утверждённым правилам — день рождения московского ориентирования">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1963</span><small>Лямцино</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=MAJOR_19630630_1" title="30 июня 1963: старт у Дютьково, от которого хронология o-moscow.ru ведёт историю Кубка Москвы">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1963</span><small>Кубок Москвы</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=MAJOR_19660702_1" title="1966: матч восьми городов под Загорском — первые мастера спорта">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1966</span><small>первые мастера</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=MAJOR_19680301_1" title="1968: победа сборной Москвы на первых всесоюзных зимних соревнованиях в Калуге">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1968</span><small>Калуга</small></a>
+                </li>
+                <li>
+                    <a href="#1970s" target="_self" title="24 мая 1970: первые соревнования на призы Центрального телевидения в Измайлово">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1970</span><small>призы ЦТ</small></a>
+                </li>
+                <li>
+                    <a href="#1970s" target="_self" title="30 ноября 1977: учреждена Федерация спортивного ориентирования Москвы">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1977</span><small>федерация</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=MAJOR_19850826_1" title="1985: эстафетная команда Москвы — чемпион СССР">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1985</span><small>чемпионы СССР</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=IOF_19940201_1" title="1994: Иван Кузьмин — первый российский чемпион мира">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1994</span><small>Кузьмин</small></a>
+                </li>
+                <li>
+                    <a href="#mass" target="_self" title="1997: первый сезон «Московского Меридиана»">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1997</span><small>«Меридиан»</small></a>
+                </li>
+                <li>
+                    <a href="#1990s" target="_self" title="29 августа 1999: старт у стен Кремля">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1999</span><small>у Кремля</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=IOF_20050905_1" title="2005: Руслан Грицан — первый российский чемпион мира по велоориентированию">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2005</span><small>велосипед</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=IOF_20070223_1" title="2007: чемпионат мира по лыжному ориентированию в Химках">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2007</span><small>Химки</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=MAJOR_20131012_1" title="2013: чемпионат России в Бутовском лесопарке и соревнования в честь 50-летия ориентирования">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2013</span><small>Бутово</small></a>
+                </li>
+            </ol>
+        </section>
+
+        <nav aria-label="Оглавление статьи" class="hist-toc">
+            <p class="hist-toc-title">Оглавление</p>
+            <ol>
+                <li><a href="#intro" target="_self" title="Лесной спорт большого города">Вступление</a></li>
+                <li><a href="#places" target="_self">Места на карте</a></li>
+                <li><a href="#prehistory" target="_self" title="1958–1962: синьки, рюкзаки и первые правила">1958–1962: предыстория</a></li>
+                <li><a href="#1963" target="_self" title="1963: день рождения московского ориентирования">1963</a></li>
+                <li><a href="#1964-1970" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1964–1970</a></li>
+                <li><a href="#1970s" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">1970-е</a></li>
+                <li><a href="#1981-1991" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">1981–1991</a></li>
+                <li><a href="#1990s" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля">1990-е</a></li>
+                <li><a href="#2000s" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках">2000-е</a></li>
+                <li><a href="#2010s" target="_self" title="2010–2020-е: город как стадион">2010–2020-е</a></li>
+                <li><a href="#mass" target="_self" title="Массовые старты: от «Первого старта» до «Московского Меридиана»">Массовые старты</a></li>
+                <li><a href="#rogaine" target="_self" title="Рогейн: москвичи на длинных дистанциях">Рогейн</a></li>
+                <li><a href="#maps" target="_self" title="Картографы Москвы">Картографы</a></li>
+                <li><a href="#leaders" target="_self" title="Руководители, тренеры и летописцы">Руководители и летописцы</a></li>
+                <li><a href="#afterword" target="_self">Вместо заключения</a></li>
+                <li><a href="#sources" target="_self">Источники</a></li>
+                <li><a href="#names" target="_self">Указатель имён</a></li>
+            </ol>
+        </nav>
+
+        <section class="hist-section clearfix" id="places">
+            <h2>Места на карте</h2>
+            <p>
+                Где проходили соревнования, о которых рассказывает статья. Точка стоит там же, где событие
+                на <a href="../moscow.html">карте календаря O-Maps</a>&nbsp;— в его координатах или в центре его карты,
+                поэтому у многодневных стартов точек несколько. Цвет точки показывает, когда место впервые
+                появляется в статье, число в кружке&nbsp;— сколько рядом точек. Значок 📍 в тексте ведёт
+                к месту на этой карте.
+            </p>
+            <div aria-label="Карта мест статьи" class="hist-map" id="places-map" role="region"></div>
+            <ul aria-label="Цвет точки — время первого упоминания места в статье" class="hist-map-legend" id="places-legend"></ul>
+            <details class="hist-places">
+                <summary>Все места списком</summary>
+                <ul class="hist-places-list" id="places-list"></ul>
+            </details>
+        </section>
+
+        <section class="hist-section clearfix" id="prehistory">
+            <h2>1958–1962: синьки, рюкзаки и первые правила</h2>
+            <p>
+                Начиналось всё в туристских клубах. В 1958&nbsp;году активисты Московского городского клуба туристов создали комиссию по слётам
+                и соревнованиям (она заседала на Рабочей улице, в доме, который не сохранился); возглавил её выпускник автомеханического института
+                <a id="nm6-1" href="https://o-moscow.ru/people/YaryshevAP.html" rel="noopener">Алексей Павлович Ярышев</a>&nbsp;— так его называет <a href="https://o-moscow.ru/years/chronology_1958.html" rel="noopener">хронология o-moscow.ru</a>, а страница «Имён»
+                и другие годы хронологии&nbsp;— Александром Павловичем. 6–7&nbsp;июня того же года у станции Тучково на берегу Москвы-реки прошли
+                <a href="../event.html?id=MAJOR_19580606_1">соревнования московских туристов</a><a class="hist-place-pin" href="#place-major_19580606_1" id="pl-major_19580606_1-prehistory" target="_self" title="Тучково — на карте мест" aria-label="Тучково — на карте мест">📍</a>: поздно вечером девяноста командам вручили карты с нанесёнными
+                контрольными пунктами, причём пункт тем дороже, чем дальше от финиша и чем лучше спрятан. К утру команды вернулись, отдохнули и пошли
+                на полосу препятствий&nbsp;— переплыть реку, пройти на байдарках против течения, перенести через овраг по верёвке «пострадавшего»,
+                поставить палатку и развести костёр. Первыми стали студенты Московского химико-технологического института им.&nbsp;Менделеева
+                во главе с капитаном <a id="nm2-2" href="https://o-moscow.ru/people/OgorodnikovBI.html" rel="noopener">Борисом Огородниковым</a>, вторыми&nbsp;— туристы «Динамо», третьими&nbsp;— «Труда».
+            </p>
+            <p>
+                Следующей весной прошло первое ночное командное первенство Москвы по «закрытому маршруту» среди коллективов физкультуры. По хронологии
+                o-moscow.ru, это было в ночь с 19 на 20&nbsp;марта 1959&nbsp;года; по сборнику ФСОР&nbsp;— с 18 на 19&nbsp;марта, а сам
+                <a id="nm7-1" href="https://o-moscow.ru/people/TomsonBU.html" rel="noopener">Борис Томсон</a>, впоследствии многолетний секретарь московской секции, датой своего дебюта называет 19&nbsp;марта. Участники
+                ехали электричкой с Ярославского вокзала, и капитанам прямо в поезде выдавали синьку, увеличенную до масштаба 1:50&nbsp;000 с топоосновы
+                1922&nbsp;года; на обороте были указаны азимуты, число КП и даже магнитное склонение. Каждый нёс рюкзак с пятью килограммами груза, а финишировать
+                надо было в деревне Жучки к полудню (по сборнику ФСОР, карты вручали капитанам в полночь на станциях Хотьково, 55&nbsp;км и Абрамцево). Осенью 1959-го сборная московских туристов, составленная из спортсменов Электролампового завода,
+                съездила по инициативе директора клуба туристов <a id="nm8-1" href="https://o-moscow.ru/people/ZlacenMR.html" rel="noopener">Михаила Злацена</a> на международную встречу в Болгарию и заняла четвёртое
+                место вслед за командами ГДР, Чехословакии и Венгрии.
+            </p>
+            <p>
+                Об опыте соседей москвичи узнавали из печати: в 1961&nbsp;году альманах «Туристские тропы» опубликовал сообщения о зарубежных соревнованиях
+                и выдержки из международных правил (авторы&nbsp;— <a id="nm9-1" href="https://o-moscow.ru/people/VasilevaGL.html" rel="noopener">Г.&nbsp;Васильева</a> и И.&nbsp;Лев), а на методической конференции в Тарту
+                в декабре того же года среди московских делегатов был представитель коллегии судей <a id="nm10-1" href="https://o-moscow.ru/people/PlotkeIB.html" rel="noopener">Игорь Плотке</a>. В 1961&nbsp;году руководитель
+                кружка юных судей Московского дворца пионеров <a id="nm11-1" href="https://o-moscow.ru/people/KulikovVM.html" rel="noopener">Валентин Куликов</a> начал проводить соревнования юных туристов по специально подготовленным
+                картам. В феврале 1962&nbsp;года на первенстве клуба туристов Первомайского района у платформы Калистово впервые поставили маркированную трассу:
+                ошибку в наколе КП штрафовали по шкале «1&nbsp;мм&nbsp;— 1&nbsp;минута, 2&nbsp;мм&nbsp;— 2, 3&nbsp;мм&nbsp;— 4, 4&nbsp;мм&nbsp;— 8», и такую систему признали неудачной.
+                Тем же февралём москвич <a id="nm12-1" href="https://o-moscow.ru/people/ChalovGE.html" rel="noopener">Геннадий Чалов</a> выиграл «размеченную трассу» на слёте «Европа&nbsp;— Азия» под Свердловском, а в марте
+                у платформы Берёзки-Дачные прошло первое личное первенство Москвы на маркированной трассе&nbsp;— неофициальное, потому что правила
+                ещё не были утверждены (победили <a id="nm13-1" href="https://o-moscow.ru/people/VladimirovaLM.html" rel="noopener">Лариса Владимирова</a> и Г.&nbsp;Чалов). Летом 1962&nbsp;года при Центральном совете по туризму
+                появилась Центральная комиссия по слётам и соревнованиям; её председателем на семнадцать лет стал москвич, химик
+                <a id="nm14-1" href="https://o-moscow.ru/people/KudryavcevVN.html" rel="noopener">Владимир Николаевич Кудрявцев</a>.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="1963">
+            <h2>1963: день рождения московского ориентирования</h2>
+            <figure class="hist-fig hist-fig-right hist-fig-narrow"><a href="../map-info.html?map=zosimova_pustyn_1963"><img class="help-figure" src="img/msk_1963_mai.webp" width="507" height="750" alt="Рукописная чёрно-белая карта района соревнований туристов МАИ у станции Зосимова Пустынь, октябрь 1963 года." loading="lazy"></a><figcaption>«Район соревнований туристов МАИ» у Зосимовой Пустыни: карта <a href="../event.html?id=MAJOR_19631027_1">маркированной трассы октября 1963&nbsp;года</a>, ошибку в нанесении КП штрафовали временем. <a href="../map-info.html?map=zosimova_pustyn_1963">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-zosimova_pustyn_1963" id="pl-zosimova_pustyn_1963-1963" target="_self" title="Бекасово — на карте мест" aria-label="Бекасово — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                В апреле Центральный совет по туризму утвердил «Правила туристских соревнований», и молодая дисциплина получила первый документ, единый
+                для всей страны. Уже 19&nbsp;мая 1963&nbsp;года у деревни Лямцино возле платформы Востряково Павелецкой дороги по этим правилам прошли
+                <a href="../event.html?id=MAJOR_19630519_1">предварительные отборочные соревнования в сборную Москвы</a><a class="hist-place-pin" href="#place-major_19630519_1" id="pl-major_19630519_1-1963" target="_self" title="Лямцино — на карте мест" aria-label="Лямцино — на карте мест">📍</a>&nbsp;— с них и ведут отсчёт московского
+                ориентирования. Маркированную трассу организовали <a id="nm6-2" href="https://o-moscow.ru/people/YaryshevAP.html" rel="noopener">Александр Ярышев</a> (главный судья) и <a id="nm15-1" href="https://o-moscow.ru/people/YaryshevaLA.html" rel="noopener">Людмила Ярышева</a> (главный секретарь).
+                Карта, по сборнику ФСОР, была масштаба 1:50&nbsp;000 (на самой карте, опубликованной в хронологии o-moscow.ru, подписано «в 1&nbsp;см&nbsp;— 650&nbsp;м»), штраф&nbsp;— 2&nbsp;минуты за миллиметр ошибки, 4&nbsp;минуты за два, 9&nbsp;минут за три, и, хотя все
+                пункты разрешалось наносить на карту на финише, призёр Анатолий Карасик набрал около полутора часов штрафа, а средний штраф участников превысил
+                четыре часа («Ориентирование в регионах», с.&nbsp;359).
+                Из лучших сформировали школу спортивного ориентирования со старшим тренером <a id="nm2-3" href="https://o-moscow.ru/people/OgorodnikovBI.html" rel="noopener">Борисом Огородниковым</a>.
+            </p>
+            <p>
+                30&nbsp;июня на слёте московских туристов под Звенигородом, у деревни Дютьково, впервые разыграли соревнования в заданном направлении,
+                с которых хронология o-moscow.ru ведёт историю главного городского приза&nbsp;— <a href="../event.html?id=MAJOR_19630630_1">Кубка Москвы</a><a class="hist-place-pin" href="#place-major_19630630_1" id="pl-major_19630630_1-1963" target="_self" title="Дютьково — на карте мест" aria-label="Дютьково — на карте мест">📍</a> (сборник ФСОР и газеты 1967&nbsp;года считают Кубок с января 1964&nbsp;года). Главным судьёй был <a id="nm10-2" href="https://o-moscow.ru/people/PlotkeIB.html" rel="noopener">Игорь Плотке</a>,
+                победили <a id="nm16-1" href="https://o-moscow.ru/people/ZhivotnevaM.html" rel="noopener">Марина Животнева</a> и <a id="nm17-1" href="https://o-moscow.ru/people/ArhipovIA.html" rel="noopener">Игорь Архипов</a>. Сборник ФСОР вспоминает, что пункты тогда старались ставить на площадных
+                ориентирах и прятать, у них скапливались участники, и стартовавшие позже бежали быстрее; победитель опередил шестого на 36&nbsp;минут.
+                В июле московская сборная выступила в Ленинградской области на <a href="../event.html?id=SPB_19630707_1">матче пяти городов</a>&nbsp;—
+                прологе знаменитого «Матча восьми городов»&nbsp;— и заняла четвёртое место. В сентябре у деревни Сокольниково на Клинско-Дмитровской гряде
+                прошёл первый официальный чемпионат Москвы на маркированной трассе; чемпионами стали студентка МИТХТ <a id="nm18-1" href="https://o-moscow.ru/people/KornouhovaMV.html" rel="noopener">Майя Корноухова</a>
+                и научный сотрудник Института атомной энергии <a id="nm19-1" href="https://o-moscow.ru/people/IvanovDP.html" rel="noopener">Денис Иванов</a>. По его итогам набрали команду на
+                <a href="../event.html?id=MAJOR_19631012_1">I&nbsp;Всесоюзные соревнования в Ужгороде</a>.
+            </p>
+            <p>
+                Три недели до отъезда в Закарпатье сборная тренировалась в ЦПКиО им.&nbsp;Горького под руководством Б.&nbsp;Огородникова и Евгения Арциса.
+                Москву представляли три команды (сборник ФСОР уточняет: две сборные столицы и вне конкурса&nbsp;— «Динамо», то есть ориентировщики Курчатовского
+                института); тренером женской команды был <a id="nm20-1" href="https://o-moscow.ru/people/IvanovEI.html" rel="noopener">Евгений Иванов</a>. Первая сборная Москвы заняла пятое место из 29&nbsp;команд вслед за Литвой,
+                Эстонией, Латвией и Ленинградом (хроника ФСОР насчитывает 30&nbsp;коллективов), а без личных наград москвичи остались. О правилах
+                участники ещё имели смутное представление: будущего мастера спорта Ольгу Левину сняли за то, что рядом с ней у финишного створа бежала
+                подруга по команде. Вывод тренеры сделали простой&nbsp;— догнать Прибалтику и Ленинград, и в том же году при Московском совете по туризму
+                на общественных началах появилась секция ориентирования города. Осенью маркированную трассу поставили и туристы МАИ у Зосимовой Пустыни (по календарю O-Maps&nbsp;— у Бекасово): участники наносили
+                на карту положение КП, и за ошибку их штрафовали временем.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="1964-1970">
+            <h2>1964–1970: Кубок Москвы, первые мастера и победа в Калуге</h2>
+            <p>
+                Зимой 1964&nbsp;года появились лыжные старты: в январе у платформы Икша впервые разыграли Кубок Москвы на лыжах&nbsp;— сборник ФСОР называет его просто первым Кубком Москвы (победили <a id="nm21-1" href="https://o-moscow.ru/people/OgorodnikovaNA.html" rel="noopener">Наталья Огородникова</a>
+                и <a id="nm17-2" href="https://o-moscow.ru/people/ArhipovIA.html" rel="noopener">И.&nbsp;Архипов</a>), в феврале у Сходни&nbsp;— первое первенство Москвы по ориентированию на лыжах (<a id="nm16-2" href="https://o-moscow.ru/people/ZhivotnevaM.html" rel="noopener">М.&nbsp;Животнева</a> и <a id="nm12-2" href="https://o-moscow.ru/people/ChalovGE.html" rel="noopener">Г.&nbsp;Чалов</a>).
+                По инициативе <a id="nm22-1" href="https://o-moscow.ru/people/RoksanovAN.html" rel="noopener">Андрея Роксанова</a> у платформы Холщевики впервые пробежали трёхэтапные эстафеты (по хронологии&nbsp;— в августе,
+                по странице Роксанова в «Именах»&nbsp;— в октябре 1964&nbsp;года), а в декабре у Семхоза <a id="nm23-1" href="https://o-moscow.ru/people/IgnatenkoVA.html" rel="noopener">Валерий Игнатенко</a> предложил участникам
+                карту с частично откорректированной топоосновой. С того же года проводит весенние и осенние первенства секция МВТУ им.&nbsp;Баумана, одна
+                из сильнейших в городе.
+            </p>
+            <p>
+                1965&nbsp;год принёс московским картографам первый большой успех: у деревни Редкино маркированную трассу поставили по полностью
+                откорректированной и вычерченной вручную спортивной карте, работами руководил <a id="nm24-1" href="https://o-moscow.ru/people/AleshinVM.html" rel="noopener">Виктор Алёшин</a>. Летом <a id="nm13-2" href="https://o-moscow.ru/people/VladimirovaLM.html" rel="noopener">Лариса Владимирова</a>
+                выиграла II&nbsp;Всесоюзные соревнования в Перми и стала, по хронике ФСОР, первой россиянкой, победившей на всесоюзном уровне. В октябре
+                москвичи впервые бежали марафон&nbsp;— около 30&nbsp;км тремя кругами у платформы Берёзки, причём по оплошности судей вместо нормальных карт
+                участникам раздали негативы отпечатков топоосновы, а в декабре по инициативе В.&nbsp;Игнатенко у платформы Радищево прошёл первый
+                «Первый старт»&nbsp;— массовые соревнования для новичков, ставшие ежегодными.
+            </p>
+            <figure class="hist-fig hist-fig-right hist-fig-narrow"><a href="../map-info.html?map=izmailovsky_1966"><img class="help-figure" src="img/msk_1966_izmailovo.webp" width="409" height="285" alt="Чёрно-белая карта Измайловского лесопарка 1966 года с номерами и стоимостью контрольных пунктов." loading="lazy"></a><figcaption>Измайловский лесопарк, 1966: первые соревнования в черте города. Каждый пункт стоил определённое число очков, побеждал набравший больше за контрольное время. <a href="../map-info.html?map=izmailovsky_1966">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-izmailovsky_1966" id="pl-izmailovsky_1966-1964-1970" target="_self" title="Измайловский парк — на карте мест" aria-label="Измайловский парк — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                В январе 1966&nbsp;года ориентировщики впервые вышли на старт в черте города: первенство клуба туристов Первомайского района по инициативе
+                Г.&nbsp;Чалова провели в <a href="../map-info.html?map=izmailovsky_1966">Измайловском лесопарке</a><a class="hist-place-pin" href="#place-izmailovsky_1966" id="pl-izmailovsky_1966-1964-1970-2" target="_self" title="Измайловский парк — на карте мест" aria-label="Измайловский парк — на карте мест">📍</a>, и газетная заметка, сохранённая
+                в архиве O-Maps, насчитала более 300&nbsp;лыжников из 22&nbsp;коллективов. В марте на матче 15&nbsp;городов под Ленинградом москвички
+                Галина Илларионова, Антонина Шеленкова и <a id="nm25-1" href="https://o-moscow.ru/people/SokolovaSA.html" rel="noopener">Сталина Соколова</a> выиграли женскую эстафету на маркированной трассе со штрафными кругами,
+                и сборная Москвы впервые стала первой в общекомандном зачёте всесоюзного старта. В мае у платформы Ромашково <a id="nm26-1" href="https://o-moscow.ru/people/KrivokorE.html" rel="noopener">Евгений Кривокор</a>
+                придумал вечерние тренировки «Четверг здоровья». А в июле под Загорском, у Торбеева озера, прошёл
+                <a href="../event.html?id=MAJOR_19660702_1">IV&nbsp;матч восьми городов</a><a class="hist-place-pin" href="#place-major_19660702_1" id="pl-major_19660702_1-1964-1970" target="_self" title="Загорск — на карте мест" aria-label="Загорск — на карте мест">📍</a>: заняв первые два места в заданном направлении,
+                В.&nbsp;Игнатенко и <a id="nm27-1" href="https://o-moscow.ru/people/MohovVV.html" rel="noopener">Виктор Мохов</a> выполнили норматив мастера спорта. Звания им присвоили в январе 1967&nbsp;года, вместе с первыми
+                москвичами&nbsp;— судьями всесоюзной категории <a id="nm14-2" href="https://o-moscow.ru/people/KudryavcevVN.html" rel="noopener">В.&nbsp;Н.&nbsp;Кудрявцевым</a>, <a id="nm28-1" href="https://o-moscow.ru/people/KolesnikovAA.html" rel="noopener">А.&nbsp;А.&nbsp;Колесниковым</a>, <a id="nm10-3" href="https://o-moscow.ru/people/PlotkeIB.html" rel="noopener">И.&nbsp;Б.&nbsp;Плотке</a>
+                и <a id="nm29-1" href="https://o-moscow.ru/people/RinevichES.html" rel="noopener">Е.&nbsp;С.&nbsp;Риневичем</a>. Хроника ФСОР называет первыми российскими мастерами спорта двух москвичей и ленинградок Людмилу Фомичёву
+                и Ольгу Малову (Казанцеву), а в календаре O-Maps победителями загорского матча записаны Фомичёва и Игнатенко; подробнее&nbsp;— в
+                <a href="russia-history.html#1964-1970" target="_self">статье об ориентировании в России и СССР</a>.
+            </p>
+            <p>
+                С 1&nbsp;января 1967&nbsp;года у москвичей появилось своё помещение&nbsp;— в клубе туристов Ленинского района в Серповом переулке, где работали
+                комиссии и консультировали организаторов. 10–12&nbsp;марта Москва принимала матч 15&nbsp;городов: личные соревнования на маркированной трассе
+                начинались у разъезда Дубосеково, где в 1941&nbsp;году сражались панфиловцы, эстафета прошла в Битцевском лесопарке у базы «Красный маяк».
+                Летом председатель Центральной секции В.&nbsp;Н.&nbsp;Кудрявцев был приглашён на IV&nbsp;конгресс Международной федерации ориентирования
+                (<a href="https://orienteering.sport/" rel="noopener">IOF</a>) в Австрию, а <a id="nm30-1" href="https://o-moscow.ru/people/KirchoAN.html" rel="noopener">Андрей Кирчо</a> смастерил один из первых самодельных жидкостных компасов
+                и опубликовал чертежи в журнале «Турист»; в 1968&nbsp;году <a id="nm31-1" href="https://o-moscow.ru/people/AlmazovUA.html" rel="noopener">Юрий Алмазов</a> и <a id="nm32-1" href="https://o-moscow.ru/people/ZhuchkovVG.html" rel="noopener">Владимир Жучков</a> наладили выпуск самодельных
+                компасов, не уступавших, по хронике ФСОР, шведским и финским.
+            </p>
+            <p>
+                Главный успех десятилетия пришёлся на зиму. 1–3&nbsp;марта 1968&nbsp;года под Калугой прошли
+                <a href="../event.html?id=MAJOR_19680301_1">первые Всесоюзные зимние соревнования</a> команд союзных республик и городов РСФСР, и сборная
+                Москвы, которую готовил <a id="nm33-1" href="https://o-moscow.ru/people/KazakovAG.html" rel="noopener">Анатолий Казаков</a>, их выиграла: <a id="nm34-1" href="https://o-moscow.ru/people/ElahovskiiSB.html" rel="noopener">Станислав Елаховский</a> стал чемпионом, а обе эстафеты
+                остались за москвичами (<a id="nm13-3" class="hist-quiet" href="https://o-moscow.ru/people/VladimirovaLM.html" rel="noopener">Л.&nbsp;Владимирова</a>, <a id="nm21-2" class="hist-quiet" href="https://o-moscow.ru/people/OgorodnikovaNA.html" rel="noopener">Н.&nbsp;Огородникова</a>, <a id="nm25-2" class="hist-quiet" href="https://o-moscow.ru/people/SokolovaSA.html" rel="noopener">С.&nbsp;Соколова</a> и С.&nbsp;Елаховский, <a id="nm35-1" href="https://o-moscow.ru/people/VoroncovGYa.html" rel="noopener">Г.&nbsp;Воронцов</a>, В.&nbsp;Игнатенко).
+                Хронология o-moscow.ru пишет о трёх победах из четырёх видов программы, сборник ФСОР&nbsp;— о четырёх первых местах и 14&nbsp;очках отрыва от
+                второй команды, Свердловска. Тогда же на Кубке Москвы у Колюбакино появились карты с затемнёнными открытыми участками.
+            </p>
+            <p>
+                1969&nbsp;год дал Москве сразу несколько долгоживущих стартов. С.&nbsp;Елаховский придумал «Встречу поколений» с гандикапом по возрасту,
+                секция МВТУ провела соревнования памяти погибшей на Памире спортсменки Татьяны Соколовой&nbsp;— из них выросли общемосковские
+                «Памяти друзей», а на <a href="../map-info.html?map=lobnia_1969">закрытии сезона у Круглого озера</a><a class="hist-place-pin" href="#place-lobnia_1969" id="pl-lobnia_1969-1964-1970" target="_self" title="Мышецкое, оз Круглое — на карте мест" aria-label="Мышецкое, оз Круглое — на карте мест">📍</a> разыграли «Золотые кольца», со временем ставшие
+                эстафетой супружеских пар. Москвичи <a id="nm36-1" href="https://o-moscow.ru/people/BushinskiiAV.html" rel="noopener">А.&nbsp;Бушинский</a>, <a id="nm37-1" href="https://o-moscow.ru/people/KalitkinNN.html" rel="noopener">Н.&nbsp;Калиткин</a>, <a id="nm38-1" href="https://o-moscow.ru/people/KrutickiiVN.html" rel="noopener">В.&nbsp;Крутицкий</a>, <a id="nm39-1" href="https://o-moscow.ru/people/KuzminRN.html" rel="noopener">Р.&nbsp;Кузьмин</a> и В.&nbsp;Самойлов под руководством
+                В.&nbsp;Алёшина готовили дистанции IV&nbsp;Всесоюзных соревнований под Брянском. Массовость росла: на Кубок Москвы в феврале 1970&nbsp;года
+                вышли 600&nbsp;человек.
+            </p>
+            <figure class="hist-fig hist-fig-none" style="clear: both"><a href="../map-info.html?map=rozhdestvenno_1970"><img class="help-figure" src="img/msk_1970_rozhdestvenno.webp" width="752" height="562" alt="Чёрно-белая карта района деревни Рождественно с кружками контрольных пунктов, июнь 1970 года." loading="lazy"></a><figcaption>Рождественно, 21&nbsp;июня 1970&nbsp;года: Кубок Москвы в формате выбора&nbsp;— 32&nbsp;КП общей стоимостью 116&nbsp;очков, у мужчин два часа, у женщин полтора. Победили <a id="nm40-1" href="https://o-moscow.ru/people/RyazanskayaTU.html" rel="noopener">Татьяна Рязанская</a> и <a id="nm41-1" href="https://o-moscow.ru/people/KunicynNN.html" rel="noopener">Николай Куницын</a>, стартовал 461&nbsp;человек, среди них 12&nbsp;мастеров спорта (в описании карты на O-Maps&nbsp;— «почти 500»). <a href="../map-info.html?map=rozhdestvenno_1970">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-rozhdestvenno_1970" id="pl-rozhdestvenno_1970-1964-1970" target="_self" title="Рождественно — на карте мест" aria-label="Рождественно — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+        </section>
+
+        <section class="hist-section clearfix" id="1970s">
+            <h2>1970-е: телевизионные призы, спортшкола и федерация</h2>
+            <p>
+                Самым известным изобретением московских ориентировщиков стали соревнования на призы Центрального телевидения. Первые прошли 24&nbsp;мая 1970&nbsp;года
+                в Измайловском лесопарке: участники пользовались картой и информацией, опубликованными в газете «Московская спортивная неделя».
+                Инициатором был <a id="nm2-4" href="https://o-moscow.ru/people/OgorodnikovBI.html" rel="noopener">Борис Огородников</a>, главным судьёй&nbsp;— <a id="nm7-2" href="https://o-moscow.ru/people/TomsonBU.html" rel="noopener">Б.&nbsp;Томсон</a>. Каждую весну старты шли в разных парках, их показывал
+                Первый канал, и, по странице Огородникова на o-moscow.ru, продолжались до 1999&nbsp;года; сборник ФСОР говорит о тридцати годах и до тысячи
+                участников (подробности&nbsp;— в очерке Б.&nbsp;И.&nbsp;Огородникова <a href="https://o-moscow.ru/reports/moving_01.html" rel="noopener">«Незабываемый телесериал»</a>).
+                По его же сценариям сняли фильмы «Спортивное ориентирование» (1975, сто копий разослали в вузы всех республик) и «Ориентируйся на местности» (1978).
+                В 1970&nbsp;году вышло и первое отечественное пособие по организации стартов&nbsp;— «Судейство соревнований по ориентированию на местности»
+                <a id="nm24-2" href="https://o-moscow.ru/people/AleshinVM.html" rel="noopener">В.&nbsp;Алёшина</a>, <a id="nm20-2" href="https://o-moscow.ru/people/IvanovEI.html" rel="noopener">Е.&nbsp;Иванова</a> и <a id="nm28-2" href="https://o-moscow.ru/people/KolesnikovAA.html" rel="noopener">А.&nbsp;Колесникова</a>.
+            </p>
+            <figure class="hist-fig hist-fig-right"><a href="../map-info.html?map=planernaya_1972"><img class="help-figure" src="img/msk_1972_planernaya.webp" width="794" height="553" alt="Чёрно-белая спорткарта района Планерной для лыжных соревнований 1972 года." loading="lazy"></a><figcaption>Планерная, 19&nbsp;февраля 1972&nbsp;года: карта <a href="../event.html?id=MAJOR_19720219_1">первого открытого личного первенства Москвы по ориентированию на лыжах в заданном направлении</a>. Среди составителей&nbsp;— А.&nbsp;Мальцев, <a id="nm24-3" href="https://o-moscow.ru/people/AleshinVM.html" rel="noopener">В.&nbsp;Алёшин</a>, <a id="nm36-2" href="https://o-moscow.ru/people/BushinskiiAV.html" rel="noopener">А.&nbsp;Бушинский</a> и <a id="nm42-1" href="https://o-moscow.ru/people/LevinBK.html" rel="noopener">Б.&nbsp;Левин</a>. <a href="../map-info.html?map=planernaya_1972">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-planernaya_1972" id="pl-planernaya_1972-1970s" target="_self" title="Планерная — на карте мест" aria-label="Планерная — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                На всесоюзных трассах москвичи по-прежнему сильнее всего были зимой: в 1971&nbsp;году в Казани золото выиграли <a id="nm43-1" href="https://o-moscow.ru/people/KrivonosovaLM.html" rel="noopener">Лидия Куклина</a>
+                и <a id="nm34-2" href="https://o-moscow.ru/people/ElahovskiiSB.html" rel="noopener">Станислав Елаховский</a>, а эстафету&nbsp;— <a id="nm44-1" href="https://o-moscow.ru/people/SmykodubZM.html" rel="noopener">З.&nbsp;Смыкодуб</a>, <a id="nm40-2" href="https://o-moscow.ru/people/RyazanskayaTU.html" rel="noopener">Т.&nbsp;Калашникова</a> и Л.&nbsp;Куклина. В феврале 1972&nbsp;года у Планерной
+                прошёл <a href="../event.html?id=MAJOR_19720219_1">первый открытый зимний чемпионат столицы в заданном направлении</a><a class="hist-place-pin" href="#place-planernaya_1972" id="pl-planernaya_1972-1970s-2" target="_self" title="Планерная — на карте мест" aria-label="Планерная — на карте мест">📍</a> с иногородними участниками;
+                у женщин победила Л.&nbsp;Куклина. Той же зимой на Кубок Москвы вышли свыше 600&nbsp;москвичей из 27&nbsp;районных секций и 115&nbsp;гостей из
+                Горького, Куйбышева, Обнинска, Тулы и других городов, а юбилейный десятый чемпионат осенью 1972-го пришлось отменить из-за лесных пожаров
+                на востоке области.
+            </p>
+            <p>
+                Десятилетие московского ориентирования отметили 19&nbsp;мая 1973&nbsp;года стартом «Старая карта» у деревни Баранцево на Пятницком шоссе:
+                дистанцию построили по образцу трассы десятилетней давности, участники заложили капсулу с пожеланиями и посадили ели на «Поляне ориентировщиков».
+                <a id="nm45-1" href="https://o-moscow.ru/people/GranovskiiEB.html" rel="noopener">Евгений Грановский</a>, <a id="nm46-1" href="https://o-moscow.ru/people/StaneckiiLA.html" rel="noopener">Лев Станецкий</a> и Б.&nbsp;Томсон выпустили сборник
+                <a href="https://o-moscow.ru/reports/10years.html" rel="noopener">«Московскому ориентированию&nbsp;— 10&nbsp;лет»</a> (в хронологии&nbsp;— «Спортивному ориентированию в Москве&nbsp;— 10&nbsp;лет»), а Елаховский&nbsp;— книгу
+                <a href="https://o-moscow.ru/books/1973_Elakhovskyi_Beg.pdf" rel="noopener">«Бег к невидимой цели»</a>. 17&nbsp;ноября 1973&nbsp;года
+                <a id="nm41-2" href="https://o-moscow.ru/people/KunicynNN.html" rel="noopener">Николай Куницын</a> перед уходом в армию провёл у Зосимовой Пустыни <a href="../map-info.html?map=zosimova_pustyn_1973">«Осенний призыв»</a><a class="hist-place-pin" href="#place-zosimova_pustyn_1973" id="pl-zosimova_pustyn_1973-1970s" target="_self" title="Зосимова пустынь — на карте мест" aria-label="Зосимова пустынь — на карте мест">📍</a>&nbsp;—
+                старт в формате рогейна с форой по разрядам, позже возрождённый им как «Осенние встречи».
+            </p>
+            <p>
+                В середине десятилетия выросла детская школа. В январе 1974&nbsp;года по инициативе <a id="nm47-1" href="https://o-moscow.ru/people/NikiforovDL.html" rel="noopener">Дмитрия Никифорова</a> прошли первые «Новогодние старты» для воспитанников
+                спортшкол и домов пионеров Москвы, Ленинграда, Риги, Челябинска и других городов, а в Перовском районе открылась первая в Москве
+                детско-юношеская спортшкола с отделением ориентирования (по хронике ФСОР на rufso.ru&nbsp;— в сентябре, по хронологии o-moscow.ru и сборнику ФСОР&nbsp;— в декабре 1974&nbsp;года);
+                старшим тренером стал энтузиаст детского ориентирования <a id="nm48-1" href="https://o-moscow.ru/people/NikanorovUB.html" rel="noopener">Юрий Никаноров</a>, с 1978&nbsp;года школу вела <a id="nm44-2" class="hist-quiet" href="https://o-moscow.ru/people/SmykodubZM.html" rel="noopener">Зинаида Смыкодуб</a>.
+                Сегодня это СДЮСШОР «Ориента». Из школьного ориентирования пришли лидеры конца десятилетия&nbsp;— <a id="nm49-1" href="https://o-moscow.ru/people/MuhinaON.html" rel="noopener">Ольга Мухина</a> и <a id="nm50-1" href="https://o-moscow.ru/people/SimakinSM.html" rel="noopener">Сергей Симакин</a>:
+                в 1975&nbsp;году в Миассе Симакин первым из россиян выиграл мужской зачёт всесоюзных соревнований, Мухина в том же году выиграла всероссийские
+                соревнования в Касимове (хроника ФСОР), а в списке кандидатов в сборную СССР на 1977&nbsp;год от Москвы значились только они двое.
+            </p>
+            <figure class="hist-fig hist-fig-left hist-fig-narrow"><a href="../map-info.html?map=diakovo_1975"><img class="help-figure" src="img/msk_1975_diakovo.webp" width="608" height="824" alt="Цветная спортивная карта района деревни Дьяково 1975 года: жёлтые открытые участки, коричневые горизонтали, синие водоёмы." loading="lazy"></a><figcaption>Дьяково у станции Турист, 1975: первый день <a href="../start.html?start=USSR_FRANCE_ARMY_1975">матча армейских сборных СССР и Франции</a>, 12&nbsp;км с 12&nbsp;КП, начальник дистанции&nbsp;— <a id="nm24-4" href="https://o-moscow.ru/people/AleshinVM.html" rel="noopener">Виктор Алёшин</a>. На этой встрече, по хронологии o-moscow.ru, впервые в Москве бежали по цветной карте. <a href="../map-info.html?map=diakovo_1975">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-diakovo_1975" id="pl-diakovo_1975-1970s" target="_self" title="Дьяково — на карте мест" aria-label="Дьяково — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                1975&nbsp;год запомнился двумя международными событиями. В мае Москва принимала седьмой матч команд городов-героев&nbsp;— с дистанциями
+                у Волоколамска и Калистово и церемонией открытия на Красной площади; москвичи выиграли и личные виды, и общий зачёт. Летом у деревни Дьяково
+                прошёл первый день <a href="../start.html?start=USSR_FRANCE_ARMY_1975">матча армейских сборных СССР и Франции</a> (второй день&nbsp;— под Ленинградом), и спортсмены
+                впервые получили карту в цветном исполнении; сборник ФСОР называет её авторов&nbsp;— бригаду <a id="nm38-2" href="https://o-moscow.ru/people/KrutickiiVN.html" rel="noopener">Владимира Крутицкого</a>. Через год, в 1976&nbsp;году,
+                <a id="nm14-3" href="https://o-moscow.ru/people/KudryavcevVN.html" rel="noopener">В.&nbsp;Н.&nbsp;Кудрявцев</a> и Б.&nbsp;И.&nbsp;Огородников обсуждали с президентом IOF вступление СССР в международную федерацию, а московская
+                бригада Алёшина готовила под Псковом карты первого Кубка дружбы социалистических стран, из которых вырос центр «Алоль».
+            </p>
+            <p>
+                Отрыв ориентирования от туризма закрепили приказом Спорткомитета СССР №&nbsp;702 (июль 1977&nbsp;года) и приказом Мосгорспорткомитета №&nbsp;138-а.
+                30&nbsp;ноября 1977&nbsp;года конференция в спорткомитете Москвы учредила Федерацию спортивного ориентирования города; её первым председателем
+                избрали мастера спорта, кандидата технических наук, преподавателя Военной академии им.&nbsp;Дзержинского <a id="nm51-1" href="https://o-moscow.ru/people/MancerovSV.html" rel="noopener">Сергея Манцерова</a>
+                (он руководил федерацией до 1986&nbsp;года). Всесоюзная федерация появилась только в апреле 1979-го, и председателем её стал москвич,
+                генерал-лейтенант <a id="nm52-1" href="https://ru.wikipedia.org/wiki/Лисов,_Иван_Иванович" rel="noopener">Иван Лисов</a>. 10&nbsp;марта 1978&nbsp;года московские ветераны создали первую в стране секцию ветеранов ориентирования,
+                а 15&nbsp;ноября 1979-го&nbsp;— клуб ветеранов, тоже первый в СССР (хроника ФСОР); организатором был <a id="nm53-1" href="https://o-moscow.ru/people/MartishevVI.html" rel="noopener">Владислав Мартишев</a>. В августе 1979&nbsp;года
+                в Подмосковье, на берегах Осётра у турбазы «Сатурн» Луховицкого района, прошли I&nbsp;Всесоюзные соревнования среди ДЮСШ.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="1981-1991">
+            <h2>1981–1991: чемпионаты СССР и путь в IOF</h2>
+            <p>
+                Олимпийский 1980&nbsp;год москвичи встретили циклом «Олимпийские тропы»: около 900&nbsp;спортсменов бегали у олимпийских объектов&nbsp;— в Битцевском
+                лесопарке, вдоль велотрассы в Крылатском, на Ленинских горах. На <a href="../event.html?id=SPB_19810804_2">I&nbsp;чемпионате СССР</a> под Выборгом в 1981&nbsp;году сборная
+                Москвы, подготовленная <a id="nm41-3" href="https://o-moscow.ru/people/KunicynNN.html" rel="noopener">Н.&nbsp;Куницыным</a>, заняла второе общекомандное место вслед за ленинградцами, а мужская эстафета (<a id="nm54-1" href="https://o-moscow.ru/people/LavrenukSU.html" rel="noopener">С.&nbsp;Лавренюк</a>,
+                <a id="nm55-1" href="https://o-moscow.ru/people/SotnikovVA.html" rel="noopener">Виктор Сотников</a>, <a id="nm50-2" href="https://o-moscow.ru/people/SimakinSM.html" rel="noopener">С.&nbsp;Симакин</a>)&nbsp;— третье. Главным судьёй того чемпионата был <a id="nm52-2" href="https://ru.wikipedia.org/wiki/Лисов,_Иван_Иванович" rel="noopener">И.&nbsp;И.&nbsp;Лисов</a>. Дальше пошли неудачи:
+                в 1983&nbsp;году в Цесисе Москва без сильнейших едва сохранила место в группе «А», и мастер спорта <a id="nm56-1" href="https://o-moscow.ru/people/ShigaevA.html" rel="noopener">Анатолий Шигаев</a> разобрал провал в статье
+                «На краю высшей лиги» в «Спортивной Москве».
+            </p>
+            <p>
+                Зато вширь ориентирование росло стремительно. По справке Мосгорспорткомитета, число коллективов физкультуры, где им занимались, выросло
+                с 90 в 1981&nbsp;году до 305 в 1984-м, а число занимающихся&nbsp;— с 3&nbsp;520 до 8&nbsp;950. В клубе «Компас» еженедельника «Спортивная Москва»
+                (1982–1984) <a id="nm2-5" href="https://o-moscow.ru/people/OgorodnikovBI.html" rel="noopener">Б.&nbsp;Огородников</a> давал слово десяткам тренеров и спортсменов, в 1983&nbsp;году вышла книга Алёшина «Карта в спортивном ориентировании»,
+                а в 1985-м спорткомитет и Главное управление геодезии и картографии договорились издавать спортивные карты лесопарков для продажи в книжных
+                магазинах. С декабря 1981&nbsp;года ветераны проводят «Рубеж славы» в память о битве под Москвой.
+            </p>
+            <figure class="hist-fig hist-fig-right hist-fig-narrow"><a href="../map-info.html?map=ostankino_1984"><img class="help-figure" src="img/msk_1984_ostankino.webp" width="488" height="549" alt="Чёрно-белая карта Останкинского парка и Ботанического сада 1984 года." loading="lazy"></a><figcaption>Останкино и Ботанический сад, 13&nbsp;мая 1984&nbsp;года: XV&nbsp;соревнования на призы Центрального телевидения. По хронологии o-moscow.ru, на старт вышли более 900&nbsp;ориентировщиков. <a href="../map-info.html?map=ostankino_1984">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-ostankino_1984" id="pl-ostankino_1984-1981-1991" target="_self" title="Останкино, Ботанический сад — на карте мест" aria-label="Останкино, Ботанический сад — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                В середине десятилетия пришли и медали. В 1985&nbsp;году на <a href="../event.html?id=MAJOR_19850826_1">V&nbsp;чемпионате СССР под Черновцами</a> мужская
+                эстафета Москвы&nbsp;— <b>Пётр Саврухин</b>, <a id="nm57-1" href="https://o-moscow.ru/people/LavrenukMU.html" rel="noopener">Михаил Лавренюк</a>, С.&nbsp;Симакин и <a id="nm1-3" href="https://ru.wikipedia.org/wiki/Кузьмин,_Иван_Николаевич" rel="noopener">Иван Кузьмин</a>&nbsp;— стала чемпионом страны. В октябре 1985-го
+                Кубок Москвы впервые провели в черте города, в Филёвском парке у стадиона «Конструктор», а в марте 1986&nbsp;года на Кубке СССР, разыгранном
+                на Клинско-Дмитровской гряде у деревни Борносово, И.&nbsp;Кузьмин выиграл заданное направление. Летом 1986&nbsp;года XIII&nbsp;конгресс IOF
+                принял Советский Союз в международную федерацию (в работе конгресса участвовал <a id="nm34-3" href="https://o-moscow.ru/people/ElahovskiiSB.html" rel="noopener">С.&nbsp;Елаховский</a>), а в августе Всесоюзная федерация глухих
+                и московская федерация впервые в практике международных встреч проложили трассы прямо в городе&nbsp;— в Крылатском. В ноябре 1986&nbsp;года председателем
+                федерации Москвы стал Н.&nbsp;Н.&nbsp;Куницын.
+            </p>
+            <p>
+                На чемпионатах СССР 1987–1990&nbsp;годов москвичи в беге остались без призовых мест и в сборную страны на чемпионаты мира не попали.
+                Сильнее всего они оказались на лыжах: И.&nbsp;Кузьмин в 1988&nbsp;году стал первым в стране мастером спорта международного класса по ориентированию среди мужчин
+                (тренер&nbsp;— <a id="nm58-1" href="https://o-moscow.ru/people/KrohinLA.html" rel="noopener">Лев Крохин</a>; у женщин в том же году&nbsp;— Валентина Близневская из Красноярского края), в 1989-м ориентирование на лыжах вошло в программу XI&nbsp;зимней Спартакиады Москвы, а на последнем,
+                <a href="../event.html?id=SPB_19910224_1">III&nbsp;зимнем чемпионате СССР</a> в 1991&nbsp;году чемпионом в заданном направлении стал москвич <b>Игорь Звонцов</b>.
+                В сентябре 1988&nbsp;года газета «Известия» сообщила о снятии грифа секретности с топографических карт, что открыло картографам доступ к точным
+                основам. Осенью 1989-го председателем Федерации спортивного ориентирования СССР избрали Б.&nbsp;И.&nbsp;Огородникова, в январе 1991&nbsp;года
+                федерацию Москвы возглавил <a id="nm59-1" href="https://o-moscow.ru/people/KrasovskiiAB.html" rel="noopener">Александр Красовский</a>, а <a id="nm47-2" href="https://o-moscow.ru/people/NikiforovDL.html" rel="noopener">Дмитрий Никифоров</a> и <a id="nm60-1" href="https://o-moscow.ru/people/LosevAS.html" rel="noopener">Андрей Лосев</a> выпустили первый номер
+                «Информационного вестника спортивного ориентирования»&nbsp;— «<span class="text-nowrap">О-вестника</span>».
+            </p>
+            <figure class="hist-fig hist-fig-left hist-fig-narrow"><a href="../map-info.html?map=palchino_1987"><img class="help-figure" src="img/msk_1987_palchino.webp" width="620" height="964" alt="Цветная спортивная карта района Пальчино 1987 года с оранжевыми открытыми участками и извилистой рекой." loading="lazy"></a><figcaption>Пальчино, 1987: цветная карта, над которой работали <a id="nm24-5" href="https://o-moscow.ru/people/AleshinVM.html" rel="noopener">В.&nbsp;Алёшин</a>, <a id="nm36-3" href="https://o-moscow.ru/people/BushinskiiAV.html" rel="noopener">А.&nbsp;Бушинский</a>, <a id="nm39-2" href="https://o-moscow.ru/people/KuzminRN.html" rel="noopener">Р.&nbsp;Кузьмин</a>, <a id="nm42-2" href="https://o-moscow.ru/people/LevinBK.html" rel="noopener">Б.&nbsp;Левин</a>, <a id="nm61-1" href="https://o-moscow.ru/people/YaninUB.html" rel="noopener">Ю.&nbsp;Янин</a> и их коллеги. <a href="../map-info.html?map=palchino_1987">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-palchino_1987" id="pl-palchino_1987-1981-1991" target="_self" title="Пальчино — на карте мест" aria-label="Пальчино — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                Конец советской эпохи стал временем рекордного числа новых карт: в архиве O-Maps 1980-м годам принадлежат 59&nbsp;московских и подмосковных карт,
+                из них 18&nbsp;датированы 1989&nbsp;годом. Больше всего карт десятилетия в архиве у <a id="nm62-1" href="https://o-moscow.ru/people/GoldyrevEP.html" rel="noopener">Евгения Голдырева</a> (6), <a id="nm42-3" href="https://o-moscow.ru/people/LevinBK.html" rel="noopener">Бориса Левина</a> (5), <a id="nm63-1" href="https://o-moscow.ru/people/StulovSV.html" rel="noopener">Сергея Стулова</a>, Павла Потапкина
+                и Игоря Фомина (по&nbsp;4); среди авторов также Сергей Гундоров, Владимир Кузнецов, С.&nbsp;Симакин, <a id="nm64-1" href="https://o-moscow.ru/people/KuranovaII.html" rel="noopener">Ирина Куранова</a>, <a id="nm65-1" href="https://o-moscow.ru/people/SidorenkoVI.html" rel="noopener">В.&nbsp;Сидоренко</a>
+                и <a id="nm59-2" class="hist-quiet" href="https://o-moscow.ru/people/KrasovskiiAB.html" rel="noopener">А.&nbsp;Красовский</a>, а коллективы во главе с Алёшиным и <a id="nm39-3" href="https://o-moscow.ru/people/KuzminRN.html" rel="noopener">Рэмом Кузьминым</a> готовили большие лесные районы.
+                В марте 1991&nbsp;года учредительная конференция в спорткомплексе «Битца» приняла новый устав союзной федерации, а в апреле в Москве прошёл
+                всесоюзный семинар судей, практикой для которого стали массовые вечерние «Тропарёвские четверги».
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="1990s">
+            <h2>1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля</h2>
+            <p>
+                После распада СССР последнее заседание президиума союзной федерации прошло в Москве 28&nbsp;апреля 1992&nbsp;года, и всю работу взяла на себя
+                Всероссийская федерация спортивного ориентирования, учреждённая 27&nbsp;ноября 1991&nbsp;года (с 1996&nbsp;года&nbsp;— Федерация спортивного ориентирования России). Для москвичей новая эпоха началась победой: на
+                <a href="../event.html?id=MAJOR_19920808_1">первом чемпионате России</a> в Волгоградской области мужская и женская эстафеты столицы выиграли
+                золото (<b>Ирина Медведева</b>, <b>Надия Чуприна</b>, <b>Светлана Рахимова</b>; Константин Володин, Сергей Баландинский, Владимир Козлов), и Москва получила главный
+                командный приз. С этого старта, пишет сборник ФСОР, началась «победная поступь» женской эстафеты&nbsp;— И.&nbsp;Медведевой, Н.&nbsp;Чуприной,
+                М.&nbsp;Сибилёвой и Светланы Рахимовой (Горбатенковой), шесть раз выигрывавших чемпионат России; сама Рахимова выступала на чемпионатах
+                мира и этапах Кубка мира. Зимой 1995&nbsp;года сборная Москвы выиграла общий зачёт и <a href="../event.html?id=MAJOR_19950215_1">лыжного чемпионата России</a> в Велегоже.
+            </p>
+            <figure class="hist-fig hist-fig-right"><a href="https://ru.wikipedia.org/wiki/Кузьмин,_Иван_Николаевич" rel="noopener"><img class="help-figure" src="img/p_kuzmin.webp" width="937" height="613" alt="Иван Кузьмин." loading="lazy"></a><figcaption><a id="nm1-4" href="https://ru.wikipedia.org/wiki/Кузьмин,_Иван_Николаевич" rel="noopener">Иван Кузьмин</a>&nbsp;— первый российский чемпион мира по спортивному ориентированию (1994, на лыжах), первый в России заслуженный мастер спорта по ориентированию и первый мастер спорта международного класса среди мужчин. <span class="hist-credit">Фото из <a href="https://rufso.ru/wp-content/uploads/2017/07/Kuzmin_statya.pdf" rel="noopener">интервью к 50-летию спортсмена (ФСОР)</a></span></figcaption></figure>
+            <p>
+                Мировой уровень первым покорил лыжник <a id="nm1-5" href="https://ru.wikipedia.org/wiki/Кузьмин,_Иван_Николаевич" rel="noopener">Иван Кузьмин</a>. На чемпионате мира 1992&nbsp;года во Франции он выиграл две бронзы и серебро эстафеты,
+                а в феврале 1994&nbsp;года в Италии <a href="../event.html?id=IOF_19940201_1">разделил первое место на короткой дистанции</a> с итальянцем Николо Коррадини (так в Википедии и хронологии o-moscow.ru; в календаре O-Maps эта гонка записана как средняя дистанция)
+                и стал первым российским чемпионом мира по спортивному ориентированию. Его тренерами сборник ФСОР называет <a id="nm58-2" href="https://o-moscow.ru/people/KrohinLA.html" rel="noopener">Л.&nbsp;Крохина</a> и <a id="nm47-3" href="https://o-moscow.ru/people/NikiforovDL.html" rel="noopener">Д.&nbsp;Никифорова</a>.
+                Звание заслуженного мастера спорта Кузьмину присвоили первым в российском ориентировании (по хронологии o-moscow.ru&nbsp;— в апреле 1996&nbsp;года, по хронике
+                ФСОР&nbsp;— в 1997-м, когда Лев Крохин стал и первым заслуженным тренером России по ориентированию). В Подмосковье вырос и чемпион мира 1998&nbsp;года
+                на лыжах <a id="nm5-2" href="https://ru.wikipedia.org/wiki/Корчагин,_Виктор_Станиславович" rel="noopener">Виктор Корчагин</a>&nbsp;— <a href="../event.html?id=IOF_19980119_1">в Виндишгарстене</a> он выиграл длинную дистанцию и эстафету; с 1970&nbsp;года
+                его семья жила в Раменском, а тренировался он в СДЮШОР Лыткарино у Н.&nbsp;Н.&nbsp;Кудряшова.
+            </p>
+            <p>
+                Внутри страны москвичи снова собирали медали: на чемпионате России 1996&nbsp;года в Псковской области классику выиграла Майя Чернушка,
+                удлинённую дистанцию&nbsp;— Игорь Горбатенков (<a href="../event.html?id=MAJOR_19960905_1">календарь O-Maps</a>, по плакату ФСОР). Президентом
+                федерации Москвы в декабре 1996&nbsp;года снова избрали <a id="nm41-4" href="https://o-moscow.ru/people/KunicynNN.html" rel="noopener">Н.&nbsp;Куницына</a>. В августе 1997&nbsp;года в Бутово прошёл фестиваль ориентирования к 850-летию
+                Москвы; страница 1997&nbsp;года хронологии o-moscow.ru называет его частью «первый чемпионат России по велоориентированию», хотя на странице 1996&nbsp;года,
+                как и в хронике ФСОР, первым считается <a href="../event.html?id=SPB_19960913_1">старт в Лемболово 13–15&nbsp;сентября 1996&nbsp;года</a>, где победил
+                В.&nbsp;Корчагин. В октябре 1997&nbsp;года отчётная конференция ФСОР в киноконцертном зале «Октябрь» отметила 100-летие мирового ориентирования.
+            </p>
+            <p>
+                Подросло и новое поколение «Ориенты». В 1998&nbsp;году <a id="nm3-2" href="https://ru.wikipedia.org/wiki/Грицан,_Руслан_Леонидович" rel="noopener">Руслан Грицан</a>, ученик <a id="nm66-1" href="https://o-moscow.ru/people/MorosanovaNV.html" rel="noopener">Натальи Моросановой</a>, выиграл две дистанции
+                на юниорском лыжном первенстве мира в Велегоже, а <a id="nm67-1" href="https://ru.wikipedia.org/wiki/Рябкина,_Татьяна_Юрьевна" rel="noopener">Татьяна Переляева</a>, ученица <a id="nm68-1" href="https://o-moscow.ru/people/KostylevVV.html" rel="noopener">Вячеслава Костылева</a>, во Франции стала первой
+                российской чемпионкой мира среди юниоров в беге (хроника ФСОР); в 1999&nbsp;году она выиграла с командой эстафету, а в 2000-м&nbsp;— классику
+                и эстафету (хронология o-moscow.ru для 1999&nbsp;года называет ещё и победу в спринте, по таблицам Википедии её не было). Екатерина Чижикова, воспитанница
+                <a id="nm69-1" href="https://o-moscow.ru/people/ChizhikovaLU.html" rel="noopener">Людмилы Чижиковой</a>, в 1998-м выиграла спринт <a href="../event.html?id=SPB_19980220_1">взрослого лыжного чемпионата России в Орехово</a>,
+                а в 2000–2002&nbsp;годах стала чемпионкой мира среди юниоров. В январе 1998&nbsp;года в посёлке Ильичёво сыграли традиционный матч Москвы и
+                Московской области против Санкт-Петербурга и Ленинградской области в формате «100&nbsp;на&nbsp;100»: москвичи выиграли со счётом 12&nbsp;187:12&nbsp;163.
+            </p>
+            <p>
+                Самым зрелищным стартом десятилетия стал забег 29&nbsp;августа 1999&nbsp;года у стен Кремля, <a href="../map-info.html?map=vasilevsky_spusk_1999">на Васильевском спуске</a><a class="hist-place-pin" href="#place-vasilevsky_spusk_1999" id="pl-vasilevsky_spusk_1999-1990s" target="_self" title="Васильевский спуск — на карте мест" aria-label="Васильевский спуск — на карте мест">📍</a>, в программе XIX&nbsp;Московского
+                международного марафона мира. Хроника ФСОР называет его организаторов&nbsp;— <a id="nm70-1" href="https://o-moscow.ru/people/ElizarovVL.html" rel="noopener">В.&nbsp;Л.&nbsp;Елизарова</a>, <a id="nm71-1" href="https://o-moscow.ru/people/KonstantinovUS.html" rel="noopener">Ю.&nbsp;С.&nbsp;Константинова</a>,
+                Н.&nbsp;Н.&nbsp;Куницына и И.&nbsp;И.&nbsp;Столова, а хронология o-moscow.ru&nbsp;— победителей, Марину Христеву и Максима Рябкина. В том же 1999&nbsp;году
+                дебютировала межокружная Спартакиада Москвы, где ориентирование со временем стало обязательным видом, а в Олимпийском центре «Планерная»
+                прошёл лыжный чемпионат России среди клубов&nbsp;— его выиграла «Ориента».
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="2000s">
+            <h2>2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках</h2>
+            <p>
+                В 2000-е годы москвичи впервые стали выигрывать чемпионаты мира регулярно. <a id="nm3-3" href="https://ru.wikipedia.org/wiki/Грицан,_Руслан_Леонидович" rel="noopener">Руслан Грицан</a> трижды побеждал в эстафете лыжных чемпионатов мира
+                (2002, 2004, 2005), а <a href="../event.html?id=IOF_20050305_1">в Леви в 2005&nbsp;году</a> разделил с Андреем Груздевым золото средней дистанции.
+                В том же году он пересел на велосипед и <a href="../event.html?id=IOF_20050905_1">в Банска-Бистрице</a> выиграл среднюю и длинную дистанции, став первым российским
+                чемпионом мира по велоориентированию; всего, по Википедии, у него девять титулов чемпиона мира на велосипеде. В 2006&nbsp;году
+                <a href="../event.html?id=IOF_20060709_1">в Йоэнсуу</a> женскую эстафету выиграли <b>Надия Микрюкова</b> (воспитанница <a id="nm44-3" href="https://o-moscow.ru/people/SmykodubZM.html" rel="noopener">З.&nbsp;Смыкодуб</a>), Анна Устинова
+                и <a id="nm4-2" href="https://en.wikipedia.org/wiki/Ksenia_Chernykh" rel="noopener">Ксения Черных</a> (ученица <a id="nm72-1" href="https://o-moscow.ru/people/KuzminAR.html" rel="noopener">Алексея Кузьмина</a>)&nbsp;— первые российские чемпионки мира на велосипедах, а в 2007-м
+                <a href="../event.html?id=IOF_20070805_1">в Нове-Место-на-Мораве</a> Черных выиграла спринт и среднюю дистанцию. На первом юниорском первенстве мира
+                по велоориентированию в Польше в 2008&nbsp;году золото выиграли москвички <b>Татьяна Репина</b> и <b>Светлана Поверина</b>.
+            </p>
+            <div class="hist-heroes" style="clear: both">
+                <figure class="hist-fig hist-fig-none"><a href="https://ru.wikipedia.org/wiki/Грицан,_Руслан_Леонидович" rel="noopener"><img class="help-figure" src="img/p_gritsan.webp" width="960" height="1092" alt="Руслан Грицан на чемпионате Европы 2009 года." loading="lazy" style="object-position: 50% 20%"></a><figcaption><a id="nm3-4" href="https://ru.wikipedia.org/wiki/Грицан,_Руслан_Леонидович" rel="noopener">Руслан Грицан</a>&nbsp;— чемпион мира на лыжах (с 2002) и на велосипеде (с 2005). <span class="hist-credit">Фото: Dmitry Khrykin, <a href="https://commons.wikimedia.org/wiki/File:Ruslan_Gristan_at_EMTBOC_2009.jpg" rel="noopener">CC0, Wikimedia Commons</a></span></figcaption></figure>
+                <figure class="hist-fig hist-fig-none"><a href="../event.html?id=IOF_20070805_1"><img class="help-figure" src="img/p_chernykh.webp" width="405" height="640" alt="Ксения Черных." loading="lazy" style="object-position: 50% 20%"></a><figcaption><a id="nm4-3" href="https://en.wikipedia.org/wiki/Ksenia_Chernykh" rel="noopener">Ксения Черных</a>&nbsp;— чемпионка мира по велоориентированию в эстафете 2006, в спринте и миддле 2007 и в миддле 2008&nbsp;года. <span class="hist-credit">Фото: Tage V.&nbsp;Andersen, <a href="https://commons.wikimedia.org/wiki/File:Ksenia_Chernykh_RUS112.jpg" rel="noopener">CC BY-SA 3.0, Wikimedia Commons</a></span></figcaption></figure>
+                <figure class="hist-fig hist-fig-none"><a href="https://commons.wikimedia.org/wiki/File:Tatiana_Riabkina_WOC2012_Long.jpg" rel="noopener"><img class="help-figure" src="img/p_ryabkina.webp" width="748" height="1023" alt="Татьяна Рябкина на длинной дистанции чемпионата мира 2012 года в Лозанне." loading="lazy" style="object-position: 50% 15%"></a><figcaption><a id="nm67-2" href="https://ru.wikipedia.org/wiki/Рябкина,_Татьяна_Юрьевна" rel="noopener">Татьяна Рябкина (Переляева)</a> на чемпионате мира 2012&nbsp;года в Лозанне. <span class="hist-credit">Фото: Tutzon, <a href="https://commons.wikimedia.org/wiki/File:Tatiana_Riabkina_WOC2012_Long.jpg" rel="noopener">CC BY-SA 3.0, Wikimedia Commons</a></span></figcaption></figure>
+                <figure class="hist-fig hist-fig-none"><a href="https://ru.wikipedia.org/wiki/Корчагин,_Виктор_Станиславович" rel="noopener"><img class="help-figure" src="img/p_korchagin.webp" width="553" height="768" alt="Виктор Корчагин на чемпионате мира по велоориентированию 2009 года." loading="lazy" style="object-position: 50% 20%"></a><figcaption><a id="nm5-3" href="https://ru.wikipedia.org/wiki/Корчагин,_Виктор_Станиславович" rel="noopener">Виктор Корчагин</a> из Раменского&nbsp;— чемпион мира на лыжах (1998&nbsp;— длинная дистанция и эстафета, эстафеты 2000 и 2002) и призёр чемпионатов мира по велоориентированию; на фото&nbsp;— 2009&nbsp;год. <span class="hist-credit">Фото: Ilan Shacham, CC BY-SA 2.0, Wikimedia Commons</span></figcaption></figure>
+            </div>
+            <p>
+                В беге лидером стала <a id="nm67-3" href="https://ru.wikipedia.org/wiki/Рябкина,_Татьяна_Юрьевна" rel="noopener">Татьяна Рябкина (Переляева)</a>: серебро средней дистанции на <a href="../event.html?id=IOF_20040911_1">чемпионате мира 2004&nbsp;года</a>
+                в Вестеросе и бронза в 2006-м, бронза эстафеты чемпионата Европы 2004&nbsp;года (вместе с серебром мужской эстафеты на чемпионате мира того же года&nbsp;—
+                первые российские медали в эстафетах в беге) и, по хронике ФСОР,
+                первая медаль российских ориентировщиков на Всемирных играх (серебро смешанной эстафеты, Дуйсбург, 2005). Тренировал её <a id="nm68-2" href="https://o-moscow.ru/people/KostylevVV.html" rel="noopener">В.&nbsp;Костылев</a>.
+            </p>
+            <p>
+                В городе тем временем придумывали новые форматы. В апреле 2002&nbsp;года Максим Рябкин провёл первое в Москве и России «Ориент-шоу»&nbsp;—
+                соревнования по мини-ориентированию, тогда же стартовал семиэтапный «Кубок парков». Организаторы «Московского компаса» в Лыткарино пишут,
+                что в 2003&nbsp;году впервые в России применили на массовых соревнованиях электронную отметку SportIdent, а в 2004-м показали зрелищную
+                врезку-дистанцию «Лабиринт», автором которой называют генерального директора С.&nbsp;Хропова. <a href="https://ru.wikipedia.org/wiki/Спортивный_лабиринт" rel="noopener">Спортивный лабиринт</a>&nbsp;—
+                короткие дистанции среди заборчиков на небольшой площадке&nbsp;— стал самостоятельным видом соревнований; в сентябре 2006&nbsp;года его ставили даже на ВДНХ.
+            </p>
+            <figure class="hist-fig hist-fig-right"><a href="../map-info.html?map=planernaya_2007_02_27"><img class="help-figure" src="img/msk_2007_skiwoc.webp" width="859" height="560" alt="Карта лыжного чемпионата мира 2007 года на Планерной: сеть зелёных лыжней разной ширины и красные кружки контрольных пунктов." loading="lazy"></a><figcaption>Планерная, февраль 2007&nbsp;года: карта <a href="../event.html?id=IOF_20070223_1">чемпионата мира по ориентированию на лыжах</a>, где сборная России выиграла все восемь комплектов золотых медалей. <a href="../map-info.html?map=planernaya_2007_02_27">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-iof_20070223_1" id="pl-iof_20070223_1-2000s" target="_self" title="Московская область, Россия — на карте мест" aria-label="Московская область, Россия — на карте мест">📍</a>&nbsp;<a class="hist-place-pin" href="#place-planernaya_2007_02_27" id="pl-planernaya_2007_02_27-2000s" target="_self" title="Планерная — на карте мест" aria-label="Планерная — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                Главным международным стартом в истории Москвы стал <a href="../event.html?id=IOF_20070223_1">чемпионат мира по ориентированию на лыжах 2007&nbsp;года</a><a class="hist-place-pin" href="#place-iof_20070223_1" id="pl-iof_20070223_1-2000s-2" target="_self" title="Московская область, Россия — на карте мест" aria-label="Московская область, Россия — на карте мест">📍</a>.
+                Его провели на окраине Москвы, в Химках, в районе Планерной (по «Азимуту»&nbsp;— 22&nbsp;февраля&nbsp;— 2&nbsp;марта, по календарю O-Maps&nbsp;— 23&nbsp;февраля&nbsp;— 3&nbsp;марта),
+                а службу подготовки дистанций возглавлял <a id="nm24-6" href="https://o-moscow.ru/people/AleshinVM.html" rel="noopener">Виктор Алёшин</a>. Сборная России выиграла все восемь золотых медалей: по три личных титула
+                у <a id="nm73-1" href="https://ru.wikipedia.org/wiki/Власова,_Татьяна_Германовна" rel="noopener">Татьяны Власовой</a> и <a id="nm74-1" href="https://ru.wikipedia.org/wiki/Хренников,_Эдуард_Александрович" rel="noopener">Эдуарда Хренникова</a> и обе эстафеты. Оценки организации разошлись: «Азимут» (<a href="https://rufso.ru/wp-content/uploads/2018/08/2007№2-SkiWOC2007.pdf" rel="noopener">2007, №&nbsp;2</a>)
+                предоставил слово иностранцам, и контролёр IOF Юрай Немец похвалил «компактные и интересные соревнования», формат которых «вполне соответствовал
+                Олимпийским требованиям», но признался: «Это была моя самая трудная <span class="text-nowrap">О-работа</span>». Главной проблемой он назвал внезапную смену размещения
+                команд: жившие в Новогорске оказались в неравных условиях, их питание и транспорт были плохо организованы. Подробнее о чемпионате&nbsp;— в <a href="ski-woc.html" target="_self">статье о чемпионатах мира на лыжах</a>.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="2010s">
+            <h2>2010–2020-е: город как стадион</h2>
+            <p>
+                За последние полтора десятилетия московское ориентирование переселилось с подмосковных лыжных баз в городские кварталы. В архиве O-Maps
+                у 2010-х годов 134&nbsp;московские карты, у 2020–2026-х&nbsp;— уже 273, и доля парков, городских кварталов и спринтерских районов в них растёт
+                (<a href="#maps" target="_self">диаграмма</a>). В 2015&nbsp;году появились карты Кремля, Лефортовского и Перовского парков для бесплатной городской игры
+                <a href="../start.html?start=INCR">«Инакор»</a>, а в 2026-м&nbsp;— спринтерская карта центра
+                <a href="../map-info.html?map=red_gates_2026">от Чистых прудов до Красных Ворот</a><a class="hist-place-pin" href="#place-red_gates_2026" id="pl-red_gates_2026-2010s" target="_self" title="Чистые пруды - Красные Ворота — на карте мест" aria-label="Чистые пруды - Красные Ворота — на карте мест">📍</a>.
+            </p>
+            <figure class="hist-fig hist-fig-left hist-fig-narrow"><a href="../map-info.html?map=butovsky_2013"><img class="help-figure" src="img/msk_2013_butovo.webp" width="686" height="582" alt="Цветная карта Бутовского лесопарка с дистанцией общего старта и рассеиванием контрольных пунктов." loading="lazy"></a><figcaption>Бутовский лесопарк, 12–13&nbsp;октября 2013&nbsp;года: карта <a href="../event.html?id=MAJOR_20131012_1">чемпионата России</a> и соревнований «В&nbsp;честь 50-летнего юбилея спортивного ориентирования». <a href="../map-info.html?map=butovsky_2013">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-butovsky_2013" id="pl-butovsky_2013-2010s" target="_self" title="Москва, Бутовский лесопарк — на карте мест" aria-label="Москва, Бутовский лесопарк — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                Москва снова стала принимать чемпионаты страны. В мае 2012&nbsp;года здесь прошёл <a href="../event.html?id=MAJOR_20120523_2">чемпионат России</a><a class="hist-place-pin" href="#place-major_20120523_2" id="pl-major_20120523_2-2010s" target="_self" title="Москва — на карте мест" aria-label="Москва — на карте мест">📍</a>
+                в спринте и общем старте, а 12–13&nbsp;октября 2013&nbsp;года в Бутовском лесопарке&nbsp;— <a href="../event.html?id=MAJOR_20131012_1">ещё один</a><a class="hist-place-pin" href="#place-butovsky_2013" id="pl-butovsky_2013-2010s-2" target="_self" title="Москва, Бутовский лесопарк — на карте мест" aria-label="Москва, Бутовский лесопарк — на карте мест">📍</a>, вместе с открытыми
+                соревнованиями «В&nbsp;честь 50-летнего юбилея спортивного ориентирования» (<a href="https://moscompass.ru/news/index.php?m=99&amp;mes=26179" rel="noopener">«Лесные новости»</a>).
+                К юбилею вышла книга <a id="nm71-2" href="https://o-moscow.ru/people/KonstantinovUS.html" rel="noopener">Ю.&nbsp;С.&nbsp;Константинова</a> «Из истории отечественного спортивного ориентирования. 1963–2013», а москвич
+                <a id="nm75-1" href="https://o-moscow.ru/people/ProhorovAM.html" rel="noopener">Александр Прохоров</a>, бывший президент федерации Москвы и генеральный секретарь ФСОР, первым в российском ориентировании получил звание
+                «Почётный спортивный судья России». <a id="nm67-4" href="https://ru.wikipedia.org/wiki/Рябкина,_Татьяна_Юрьевна" rel="noopener">Татьяна Рябкина</a> в 2012&nbsp;году выиграла <a href="../event.html?id=IOF_20120514_1">эстафету чемпионата Европы</a>
+                и шведскую многодневку O-Ringen, а в 2016-м москвич Глеб Тихонов вошёл в состав сборной России, выигравшей <a href="../event.html?id=IOF_20160520_1">на чемпионате Европы</a>
+                первую в его истории смешанную спринтерскую эстафету.
+            </p>
+            <p>
+                Москва и Подмосковье регулярно принимают чемпионаты России по велоориентированию (или часть их программы): они прошли в Москве в <a href="../event.html?id=MAJOR_20160507_1">2016</a><a class="hist-place-pin" href="#place-major_20120523_2" id="pl-major_20120523_2-2010s-2" target="_self" title="Москва — на карте мест" aria-label="Москва — на карте мест">📍</a>,
+                <a href="../event.html?id=MAJOR_20170911_1">2017</a><a class="hist-place-pin" href="#place-major_20120523_2" id="pl-major_20120523_2-2010s-3" target="_self" title="Москва — на карте мест" aria-label="Москва — на карте мест">📍</a>, <a href="../event.html?id=MAJOR_20210827_1">2021</a><a class="hist-place-pin" href="#place-major_20120523_2" id="pl-major_20120523_2-2010s-4" target="_self" title="Москва — на карте мест" aria-label="Москва — на карте мест">📍</a> и <a href="../event.html?id=MAJOR_20240627_1">2024&nbsp;годах</a><a class="hist-place-pin" href="#place-major_20120523_2" id="pl-major_20120523_2-2010s-5" target="_self" title="Москва — на карте мест" aria-label="Москва — на карте мест">📍</a>,
+                в <a href="../event.html?id=MAJOR_20200918_1">Томилинском лесопарке</a><a class="hist-place-pin" href="#place-major_20200918_1" id="pl-major_20200918_1-2010s" target="_self" title="Томилинский лесопарк, Московская обл — на карте мест" aria-label="Томилинский лесопарк, Московская обл — на карте мест">📍</a> (2020) и в Химках (<a href="../event.html?id=MAJOR_20230624_1">2023</a><a class="hist-place-pin" href="#place-major_20230624_1" id="pl-major_20230624_1-2010s" target="_self" title="Химки, Московская обл — на карте мест" aria-label="Химки, Московская обл — на карте мест">📍</a>
+                и <a href="../event.html?id=MAJOR_20260902_1">2026</a><a class="hist-place-pin" href="#place-major_20230624_1" id="pl-major_20230624_1-2010s-2" target="_self" title="Химки, Московская обл — на карте мест" aria-label="Химки, Московская обл — на карте мест">📍</a>). В 2016&nbsp;году команда Москвы выиграла командный зачёт и у мужчин, и у женщин,
+                в 2017-м <a href="../event.html?id=MAJOR_20170912_1">общий старт</a><a class="hist-place-pin" href="#place-major_20120523_2" id="pl-major_20120523_2-2010s-6" target="_self" title="Москва — на карте мест" aria-label="Москва — на карте мест">📍</a> выиграли <a id="nm3-5" href="https://ru.wikipedia.org/wiki/Грицан,_Руслан_Леонидович" rel="noopener">Р.&nbsp;Грицан</a> и С.&nbsp;Поверина, в 2021-м мужская эстафета
+                Москвы (Павел Радыванюк, Р.&nbsp;Грицан, Григорий Медведев) <a href="../event.html?id=MAJOR_20210828_1">стала первой</a><a class="hist-place-pin" href="#place-major_20120523_2" id="pl-major_20120523_2-2010s-7" target="_self" title="Москва — на карте мест" aria-label="Москва — на карте мест">📍</a>. Лыжный чемпионат России
+                в 2020&nbsp;году принимали <a href="../event.html?id=MAJOR_20200214_1">Люберцы</a><a class="hist-place-pin" href="#place-major_20200214_1" id="pl-major_20200214_1-2010s" target="_self" title="Люберцы, Московская обл — на карте мест" aria-label="Люберцы, Московская обл — на карте мест">📍</a>, а спринтерский Кубок России 2024&nbsp;года&nbsp;—
+                <a href="../start.html?start=RUS_CUP_2024">Химки</a>.
+            </p>
+            <p>
+                С 2022&nbsp;года членство ФСОР в IOF приостановлено, и московские спортсмены выступают в собственном календаре. Сейчас в
+                <a href="../calendar-msk.html">московском календаре O-Maps</a> 1&nbsp;443&nbsp;записи (1958–2027).
+                За 2025–2027&nbsp;годы приходится 572&nbsp;события: 259 в 2025-м, 307 в 2026-м и 6 в 2027-м. Среди общих записей&nbsp;— от соревнований туристов 1958&nbsp;года у Тучково до чемпионатов,
+                первенств и кубков России и всероссийских соревнований; здесь же «Слёт ориентировщиков», который в календаре значится ежегодно с 2016&nbsp;года, и всероссийские «Новогодние старты».
+                Больше всего этапов в 2026&nbsp;году у «Московского Меридиана» (44); сезонные серии «Московская весна», «Московское лето» и «Московская осень» насчитывают 37, 36 и 36 этапов за 2025–2026&nbsp;годы
+                (считая этапы, совмещённые с Moscow Sprint Tour, и ночной этап). Среди остальных&nbsp;— чемпионаты и первенства Москвы, Moscow Sprint Tour, Moscow City Race, ночные старты и нанорогейны.
+                Федерацию спортивного ориентирования Москвы сегодня возглавляет Максим Капитонов, вице-президент и старший тренер сборных&nbsp;— Александр Тремпольцев
+                (<a href="https://mosorient.ru/prezidium/" rel="noopener">сайт ФСОМ</a>).
+            </p>
+            <figure class="hist-fig hist-fig-none" style="clear: both">
+                <div style="position: relative; height: 360px"><canvas id="mskCalendarChart" role="img" aria-label="События московского календаря O-Maps по месяцам 2025 и 2026 годов и видам"></canvas></div>
+                <figcaption>События московского региона в <a href="../calendar-msk.html">календаре O-Maps</a> по месяцам 2025–2026&nbsp;годов и видам: все записи локальных файлов calendar-msk-2025.js, calendar-msk-2026.js и calendar-msk-other.js, а также записи общих календарей calendar-common.js, calendar-fsor.js, calendar-early.js и calendar-iof.js с region: 'MSK', без отменённых; каждая запись&nbsp;— отдельное событие (рогейн&nbsp;— тип ROGAINE, лыжи&nbsp;— SKI, велосипед&nbsp;— VELO, остальное&nbsp;— бег). Всего 566&nbsp;событий: 259 в 2025&nbsp;году и 307 в 2026-м. Вне диаграммы остаются 871&nbsp;запись 1958–2024&nbsp;годов и 6&nbsp;записей 2027&nbsp;года; локальные московские записи в архиве начинаются с 2013&nbsp;года.</figcaption>
+            </figure>
+            <figure class="hist-fig hist-fig-right hist-fig-narrow"><a href="../map-info.html?map=red_gates_2026"><img class="help-figure" src="img/msk_2026_red_gates.webp" width="620" height="713" alt="Спринтерская карта района от Чистых прудов до Красных Ворот: кварталы, дворы и бульвары." loading="lazy"></a><figcaption>Чистые пруды&nbsp;— Красные Ворота, 2026: спринтерская карта центра Москвы. Наибольшая доля карты у Александра Минакова. <a href="../map-info.html?map=red_gates_2026">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-red_gates_2026" id="pl-red_gates_2026-2010s-2" target="_self" title="Чистые пруды - Красные Ворота — на карте мест" aria-label="Чистые пруды - Красные Ворота — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                Диаграмма показывает ритм городского сезона: зимой&nbsp;— лыжные старты и нанорогейны, с апреля по октябрь&nbsp;— вечерние «Меридианы» и выходные
+                серии. За ним стоят клубы и спортшколы, история которых началась в 1970–1990-е годы: «Ориента» с её отделениями, «Искатель», «Фотон», «Малахит», «Мысль», «Лосиный остров»
+                и другие.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="mass">
+            <h2>Массовые старты: от «Первого старта» до «Московского Меридиана»</h2>
+            <p>
+                Москва всегда была городом традиционных соревнований для всех. «Первый старт» для новичков у платформы Радищево проводили с декабря 1965&nbsp;года
+                (в 1983-м&nbsp;— уже двадцатый раз), призы Центрального телевидения собирали в лесопарках до 1&nbsp;200&nbsp;участников (Ясенево, 1987), а
+                «Рубеж славы» с 1981&nbsp;года посвящён битве под Москвой. «Золотые кольца» (с 1969&nbsp;года)&nbsp;— это двухэтапная эстафета супружеских пар с возрастным
+                гандикапом (<a href="../start.html?start=WEDDING_MSK">старт на O-Maps</a>), «Памяти друзей», которые с 1985&nbsp;года много лет организовывал <a id="nm41-5" href="https://o-moscow.ru/people/KunicynNN.html" rel="noopener">Н.&nbsp;Куницын</a> (1947–2019), по словам
+                сборника ФСОР, собирали около тысячи участников при любой погоде. «Золотой осенью» назывался марафон на удлинённых дистанциях (в архиве O-Maps есть его карты
+                <a href="../map-info.html?map=terekhovo_1965_omaps">1965</a><a class="hist-place-pin" href="#place-terekhovo_1965_omaps" id="pl-terekhovo_1965_omaps-mass" target="_self" title="Терехово — на карте мест" aria-label="Терехово — на карте мест">📍</a> и <a href="../map-info.html?map=lytkino_1976">1976&nbsp;годов</a><a class="hist-place-pin" href="#place-lytkino_1976" id="pl-lytkino_1976-mass" target="_self" title="Лыткино — на карте мест" aria-label="Лыткино — на карте мест">📍</a>), а позднее под тем же названием
+                стали проводить комбинированную эстафету, инициатором которой o-moscow.ru называет <a id="nm76-1" href="https://o-moscow.ru/people/BortnovskayaTF.html" rel="noopener">Тамару Бортновскую</a>; она проходит и сейчас&nbsp;—
+                в календаре O-Maps есть её старты в Кусковском парке в 2025 и 2026&nbsp;годах.
+            </p>
+            <figure class="hist-fig hist-fig-right"><a href="https://commons.wikimedia.org/wiki/File:SLvdnx30-09-2006.jpg" rel="noopener"><img class="help-figure" src="img/msk_2006_labyrinth.webp" width="900" height="675" alt="Спортивный лабиринт из оранжевых заборчиков и конусов на площади перед главным павильоном ВДНХ." loading="lazy"></a><figcaption>Спортивный лабиринт на ВДНХ, 30&nbsp;сентября 2006&nbsp;года: дистанция среди заборчиков перед главным павильоном. <span class="hist-credit">Фото: С.&nbsp;М.&nbsp;Хропов, общественное достояние, <a href="https://commons.wikimedia.org/wiki/File:SLvdnx30-09-2006.jpg" rel="noopener">Wikimedia Commons</a></span></figcaption></figure>
+            <p>
+                Многие из нынешних серий родились в 1990-е и 2000-е. <a href="../start.html?start=MSK_COMPASS">«Московский компас»</a> начинался в 1989&nbsp;году как открытое
+                первенство Лыткарино, а с 1993-го его титульным спонсором стала фирма «Московский компас», одним из основателей которой был тот самый
+                <a id="nm31-2" href="https://o-moscow.ru/people/AlmazovUA.html" rel="noopener">Юрий Алмазов</a>; в разные годы старт был этапом Кубка России и ранговым стартом IOF (<a href="https://sportident.ru/mk/history/" rel="noopener">история соревнований</a>).
+                «Покровская снежинка» проводится с 1996&nbsp;года, One Man Relay&nbsp;— с 1998-го (рекорд&nbsp;— 1&nbsp;349&nbsp;участников в 2017&nbsp;году), Кубок клубов&nbsp;—
+                с 2005-го (рекорд&nbsp;— 1&nbsp;611 в 2022&nbsp;году, чаще всех побеждал клуб «Ориента-Ski-O»), ночные соревнования памяти А.&nbsp;С.&nbsp;Горюнова&nbsp;— с 2008-го,
+                «День космонавтики»&nbsp;— с 2014-го (1&nbsp;074&nbsp;участника в 2017&nbsp;году); их результаты и карты собраны на странице
+                <a href="https://o-moscow.ru/traditional.html" rel="noopener">«Традиционные старты»</a> o-moscow.ru.
+            </p>
+            <p>
+                Самая долгая серия&nbsp;— вечерний «Московский Меридиан», весенние и осенние этапы которого проходят по будним дням прямо в городских парках с 1997&nbsp;года.
+                По <a href="https://o-moscow.ru/mm.html" rel="noopener">статистике o-moscow.ru</a>, за это время прошло 1&nbsp;232&nbsp;старта, в них участвовали 22&nbsp;121&nbsp;человек,
+                а рекорд&nbsp;— 2&nbsp;271&nbsp;разный участник за 2014&nbsp;год. По словам сборника ФСОР, «Меридиан» позволил сотням москвичей много месяцев подряд тренироваться
+                по вечерам в парках и лесных массивах прямо в городе, и «парковое ориентирование» стало популярным. В календаре O-Maps этапы «Меридиана» записаны
+                за Николаем Сытовым, автором многих карт московских парков.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="rogaine">
+            <h2>Рогейн: москвичи на длинных дистанциях</h2>
+            <p>
+                Соревнования «по выбору», где за контрольное время надо набрать как можно больше очков, в Москве знали задолго до слова «рогейн»: так был устроен
+                Кубок Москвы 1970&nbsp;года у деревни Рождественно, а «Осенний призыв» 1973&nbsp;года хронология o-moscow.ru прямо называет стартом «в формате рогейна». Когда
+                в 2000-е годы в России начались настоящие чемпионаты по рогейну, москвичи оказались среди сильнейших. Олег Калинин выигрывал чемпионат России
+                в 2005 и 2006&nbsp;годах с Сергеем Ященко (в 2005-м оба выступали за Москву), в 2008-м с Сергеем Юткиным, в 2009–2010&nbsp;годах с Евгением Домбровским,
+                в 2013–2014&nbsp;годах с Андреем Шведовым, в 2016-м с Константином Соловьёвым (перечислены абсолютные победы);
+                в 2006&nbsp;году Калинин и Ященко стали <a href="../event.html?id=IRF_20060826_1">абсолютными чемпионами Европы</a>, а на чемпионатах мира 2008, 2012, 2014
+                и 2016&nbsp;годов Калинин четырежды брал бронзу в мужском зачёте (календарь O-Maps).
+            </p>
+            <figure class="hist-fig hist-fig-right"><a href="../map-info.html?map=senezh_2008"><img class="help-figure" src="img/msk_2008_senezh.webp" width="900" height="558" alt="Карта рогейна у Сенежского озера 2008 года с сотней контрольных пунктов." loading="lazy"></a><figcaption>Сенеж, 10–11&nbsp;мая 2008&nbsp;года: карта <a href="../event.html?id=RRF_20080510_1">V&nbsp;чемпионата России по рогейну</a>, автор&nbsp;— Егор Костылев. Победили москвичи О.&nbsp;Калинин и С.&nbsp;Юткин, всего было 109&nbsp;команд. <a href="../map-info.html?map=senezh_2008">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-rrf_20080510_1" id="pl-rrf_20080510_1-rogaine" target="_self" title="Сенеж, Солнечногорский р-н — на карте мест" aria-label="Сенеж, Солнечногорский р-н — на карте мест">📍</a>&nbsp;<a class="hist-place-pin" href="#place-senezh_2008" id="pl-senezh_2008-rogaine" target="_self" title="Сенеж — на карте мест" aria-label="Сенеж — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                Подмосковье трижды принимало национальные чемпионаты: в 2008&nbsp;году у Сенежа (<a href="../event.html?id=RRF_20080510_1">«Золото Сенежа»</a><a class="hist-place-pin" href="#place-rrf_20080510_1" id="pl-rrf_20080510_1-rogaine-2" target="_self" title="Сенеж, Солнечногорский р-н — на карте мест" aria-label="Сенеж, Солнечногорский р-н — на карте мест">📍</a>, 109&nbsp;команд,
+                236&nbsp;участников; победили Олег Калинин и Сергей Юткин из «Омеги»), в 2013-м зимний чемпионат на лыжах у ДОЛ «Энергия» в Солнечногорском районе
+                (<a href="../event.html?id=RRF_20130302_1">абсолютными победителями</a><a class="hist-place-pin" href="#place-rrf_20130302_1" id="pl-rrf_20130302_1-rogaine" target="_self" title="ДОЛ «Энергия», Солнечногорский р-н — на карте мест" aria-label="ДОЛ «Энергия», Солнечногорский р-н — на карте мест">📍</a> стали москвичи А.&nbsp;Шведов и Наталья Абрамова), а в 2014-м&nbsp;—
+                <a href="../event.html?id=RRF_20140913_1">у деревни Алфёрово</a><a class="hist-place-pin" href="#place-rrf_20140913_1" id="pl-rrf_20140913_1-rogaine" target="_self" title="Алфёрово, Павлово-Посадский р-н — на карте мест" aria-label="Алфёрово, Павлово-Посадский р-н — на карте мест">📍</a> Павлово-Посадского района. Наталья Абрамова в паре с Анной Шавлаковой выиграла в 2015&nbsp;году
+                женский зачёт <a href="../event.html?id=IRF_20150822_1">чемпионата мира в Лапландии</a>. Подробнее о российском рогейне&nbsp;— в статье
+                <a href="rogaine-russia-history.html" target="_self">«Рогейн в России»</a>.
+            </p>
+            <p>
+                Сегодня рогейн в Москве&nbsp;— это кубок <a href="../start.html?start=KMPT_ROGAINE">«Компот-рогейн»</a> бегом, на велосипеде и на лыжах и
+                <a href="../start.html?start=MSK_LIGHT">«Московский лайт»</a> той же команды «Компот групп», «Нано-Подкуст» (16&nbsp;этапов в календаре 2025–2026&nbsp;годов, в основном зимних),
+                Московский нанорогейн (с 2019&nbsp;года) и рогейны по сводным картам вроде <a href="../map-info.html?map=big_bitsa_2026">«Большой Битцы»</a><a class="hist-place-pin" href="#place-big_bitsa_2026" id="pl-big_bitsa_2026-rogaine" target="_self" title="Большая Битца — на карте мест" aria-label="Большая Битца — на карте мест">📍</a>. В архиве O-Maps
+                81&nbsp;карта типа «рогейн» в разделе Москвы, из них 77&nbsp;— в Москве и Подмосковье, ещё четыре&nbsp;— во Владимирской и Калужской областях.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="maps">
+            <h2>Картографы Москвы</h2>
+            <p>
+                Путь от синьки до цифровых карт городских кварталов московские картографы прошли за полвека. В 1959&nbsp;году участники бежали по увеличенной топооснове 1922&nbsp;года,
+                в 1964-м <a id="nm23-2" href="https://o-moscow.ru/people/IgnatenkoVA.html" rel="noopener">В.&nbsp;Игнатенко</a> частично откорректировал карту, в 1965-м <a id="nm24-7" href="https://o-moscow.ru/people/AleshinVM.html" rel="noopener">В.&nbsp;Алёшин</a> выпустил первую полностью перерисованную вручную карту,
+                в 1968-м на Кубке Москвы затемнили открытые участки, в 1975-м бригада <a id="nm38-3" href="https://o-moscow.ru/people/KrutickiiVN.html" rel="noopener">В.&nbsp;Крутицкого</a> сделала первую цветную карту. Алёшина
+                на o-moscow.ru называют основоположником спортивной картографии: он руководил комиссией по картам Центральной секции, был автором трудов по подготовке карт
+                и стал генеральным инспектором ФСОР. В конце 1970-х <a id="nm64-2" href="https://o-moscow.ru/people/KuranovaII.html" rel="noopener">Ирина Куранова</a> выпустила одну из первых цветных карт кусочка Битцевского леса,
+                а в 1989&nbsp;году первой из наших картографов побывала на международном семинаре по компьютерной картографии в Швеции. <a id="nm60-2" href="https://o-moscow.ru/people/LosevAS.html" rel="noopener">Андрей Лосев</a>
+                стал инициатором цифровой печати многоцветных карт.
+            </p>
+            <figure class="hist-fig hist-fig-none" style="clear: both">
+                <div style="position: relative; height: 360px"><canvas id="mskMapsChart" role="img" aria-label="Карты Москвы и Подмосковья в архиве O-Maps по десятилетиям и типам местности"></canvas></div>
+                <figcaption>Карты раздела <a href="../moscow.html">«Москва»</a> архива O-Maps по десятилетиям.</figcaption>
+            </figure>
+            <p>
+                Диаграмма показывает, что архив O-Maps отражает московскую историю неравномерно: карты 1960–1970-х годов сохранились единицами, а 2020-е годы
+                уже обогнали любое прежнее десятилетие, и больше всего прибавили парки, городские кварталы и рогейны. Из 713&nbsp;карт раздела у 181&nbsp;автор не указан,
+                остальные нарисовали 158&nbsp;картографов. Среди ветеранов&nbsp;— <a id="nm50-3" href="https://o-moscow.ru/people/SimakinSM.html" rel="noopener">Сергей Симакин</a> (его карты в архиве датированы 1976–2025&nbsp;годами),
+                Владимир Люк (с 1989&nbsp;года), <a id="nm39-4" href="https://o-moscow.ru/people/KuzminRN.html" rel="noopener">Рэм Кузьмин</a>, <a id="nm62-2" href="https://o-moscow.ru/people/GoldyrevEP.html" rel="noopener">Евгений Голдырев</a>, <a id="nm77-1" href="https://o-moscow.ru/people/OkinVI.html" rel="noopener">Вячеслав Окин</a>, <a id="nm63-2" href="https://o-moscow.ru/people/StulovSV.html" rel="noopener">Сергей Стулов</a> из Лыткарино,
+                <a id="nm78-1" href="https://o-moscow.ru/people/KalininBN.html" rel="noopener">Борис Калинин</a>, <a id="nm61-2" href="https://o-moscow.ru/people/YaninUB.html" rel="noopener">Юрий Янин</a>; самые плодовитые нынешние авторы&nbsp;— Александр Минаков, Владимир Тутынин и Алексей Зуев.
+            </p>
+            <figure class="hist-fig hist-fig-none" style="clear: both">
+                <div style="position: relative; height: 420px"><canvas id="mskAuthorsChart" role="img" aria-label="Самые плодовитые авторы карт Москвы и Подмосковья в архиве O-Maps"></canvas></div>
+                <figcaption>Авторы с наибольшим числом карт в разделе <a href="../moscow.html">«Москва»</a> архива O-Maps (поле author, соавторство засчитывается каждому, без карт excluded):
+                    карты авторов&nbsp;— на страницах <a href="../sheet-all.html?author=MNKV">А.&nbsp;Минакова</a>, <a href="../sheet-all.html?author=TTYNN_V">В.&nbsp;Тутынина</a>,
+                    <a href="../sheet-all.html?author=ZUEV_A">А.&nbsp;Зуева</a>, <a href="../sheet-all.html?author=RMNV_A">А.&nbsp;Романова</a>,
+                    <a href="../sheet-all.html?author=LUK_V">В.&nbsp;Люка</a> и <a href="../authors.html">других</a>. Код автора «Добрецов Виктор» в данных O-Maps общий для московских карт
+                    и карт петербургского картографа В.&nbsp;В.&nbsp;Добрецова (возможно, это тёзки); на диаграмме&nbsp;— только карты раздела «Москва».</figcaption>
+            </figure>
+            <p>
+                Сохранить старые карты помогли энтузиасты: сканы для o-moscow.ru делали Виктор Быркин, Алексей Ермаченков и студенты секции МИФИ,
+                бумажные карты передавали ветераны, а архив Федерации спортивного ориентирования Москвы собирали <a id="nm79-1" href="https://o-moscow.ru/people/EremeevaGA.html" rel="noopener">Галина Еремеева</a>, <a id="nm40-3" href="https://o-moscow.ru/people/RyazanskayaTU.html" rel="noopener">Татьяна Рязанская</a> и другие
+                (<a href="https://o-moscow.ru/refs.html" rel="noopener">источники o-moscow.ru</a>). Карты лесопарков Москвы публикуют также
+                <a href="https://maps.o-stuff.net/" rel="noopener">«Архивчик спортивных карт»</a> Дмитрия Касаткина и <a href="https://o-gps-center.ru/viewer/" rel="noopener">O-GPS-Center</a>,
+                а на O-Maps все они собраны на <a href="../moscow.html">карте раздела «Москва»</a>.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="leaders">
+            <h2>Руководители, тренеры и летописцы</h2>
+            <p>
+                Сборник ФСОР перечисляет тех, кто в разные годы возглавлял московскую комиссию, секцию и федерацию: <a id="nm6-3" href="https://o-moscow.ru/people/YaryshevAP.html" rel="noopener">А.&nbsp;Ярышев</a>, <a id="nm24-8" href="https://o-moscow.ru/people/AleshinVM.html" rel="noopener">В.&nbsp;Алёшин</a>, <a id="nm80-1" href="https://o-moscow.ru/people/DobrovolskiiVP.html" rel="noopener">В.&nbsp;Добровольский</a>
+                (председатель секции в 1969–1970&nbsp;годах), <a id="nm81-1" href="https://o-moscow.ru/people/PepelyaevEI.html" rel="noopener">Е.&nbsp;Пепеляев</a>, <a id="nm82-1" href="https://o-moscow.ru/people/RzhischinSI.html" rel="noopener">С.&nbsp;Ржищин</a>&nbsp;— бронзовый призёр Олимпийских игр 1960&nbsp;года в беге
+                на 3000&nbsp;м с препятствиями, <a id="nm51-2" href="https://o-moscow.ru/people/MancerovSV.html" rel="noopener">С.&nbsp;Манцеров</a>, <a id="nm59-3" href="https://o-moscow.ru/people/KrasovskiiAB.html" rel="noopener">А.&nbsp;Красовский</a>, <a id="nm41-6" href="https://o-moscow.ru/people/KunicynNN.html" rel="noopener">Н.&nbsp;Куницын</a> и <a id="nm75-2" href="https://o-moscow.ru/people/ProhorovAM.html" rel="noopener">А.&nbsp;Прохоров</a>; сегодня
+                федерацию возглавляет М.&nbsp;Капитонов. На всесоюзном уровне москвичами были руководители и Центральной секции (<a id="nm14-4" href="https://o-moscow.ru/people/KudryavcevVN.html" rel="noopener">В.&nbsp;Н.&nbsp;Кудрявцев</a>, 1962–1979),
+                и Федерации СССР (<a id="nm52-3" href="https://ru.wikipedia.org/wiki/Лисов,_Иван_Иванович" rel="noopener">И.&nbsp;И.&nbsp;Лисов</a>, <a id="nm2-6" href="https://o-moscow.ru/people/OgorodnikovBI.html" rel="noopener">Б.&nbsp;И.&nbsp;Огородников</a>), а <a id="nm70-2" href="https://o-moscow.ru/people/ElizarovVL.html" rel="noopener">Виктор Елизаров</a>, первый вице-президент ФСОР в команде
+                <a id="nm83-1" href="https://ru.wikipedia.org/wiki/Беляев,_Сергей_Георгиевич" rel="noopener">С.&nbsp;Г.&nbsp;Беляева</a>, был учредителем и шеф-редактором журнала «Азимут». Большое влияние на подготовку сборной Москвы, по словам сборника, оказывал
+                штатный работник спорткомитета, мастер спорта <a id="nm84-1" href="https://o-moscow.ru/people/KrivonosovVV.html" rel="noopener">Владимир Кривоносов</a>.
+            </p>
+            <p>
+                Детское ориентирование в Москве начинали <a id="nm11-2" href="https://o-moscow.ru/people/KulikovVM.html" rel="noopener">Валентин Куликов</a>, руководивший потом Московской городской станцией юных туристов, и учитель географии
+                физико-математической школы №&nbsp;2 <a id="nm85-1" href="https://o-moscow.ru/people/MakeevAF.html" rel="noopener">Алексей Макеев</a>, воспитавший братьев Лавренюков, Юлию и Марию Ким, <a id="nm86-1" href="https://o-moscow.ru/people/VyshkvarkoA.html" rel="noopener">А.&nbsp;Вышкварко</a>. СДЮСШОР «Ориента»
+                много лет возглавлял <a id="nm72-2" href="https://o-moscow.ru/people/KuzminAR.html" rel="noopener">Алексей Кузьмин</a>; заслуженными тренерами России стали <a id="nm66-2" href="https://o-moscow.ru/people/MorosanovaNV.html" rel="noopener">Наталья Моросанова</a>, <a id="nm44-4" href="https://o-moscow.ru/people/SmykodubZM.html" rel="noopener">Зинаида Смыкодуб</a>,
+                <a id="nm68-3" href="https://o-moscow.ru/people/KostylevVV.html" rel="noopener">Вячеслав Костылев</a>, <a id="nm87-1" href="https://o-moscow.ru/people/GlagolevaOL.html" rel="noopener">Ольга Глаголева</a>, многолетний старший тренер юношеских и юниорских сборных России, <a id="nm69-2" href="https://o-moscow.ru/people/ChizhikovaLU.html" rel="noopener">Людмила Чижикова</a>,
+                после гибели <a id="nm64-3" href="https://o-moscow.ru/people/KuranovaII.html" rel="noopener">И.&nbsp;Курановой</a> в 1998&nbsp;году возглавившая спортшколу, выросшую из клуба «Фотон», руководитель старейшего клуба «Искатель»
+                <a id="nm88-1" href="https://o-moscow.ru/people/SlobodnikSG.html" rel="noopener">Сокол Слободник</a> и <a id="nm89-1" href="https://o-moscow.ru/people/IvanovAD.html" rel="noopener">Алексей Иванов</a> со станции юных туристов.
+            </p>
+            <p>
+                Историю московского ориентирования записывали сами участники. <a id="nm7-3" href="https://o-moscow.ru/people/TomsonBU.html" rel="noopener">Б.&nbsp;Ю.&nbsp;Томсон</a> составил сборники «Пролог» (2005) и «Из века в век переходя» (2008),
+                <a id="nm2-7" class="hist-quiet" href="https://o-moscow.ru/people/OgorodnikovBI.html" rel="noopener">Б.&nbsp;И.&nbsp;Огородников</a>&nbsp;— рекордсмен по числу публикаций о «лесном спорте», <a id="nm20-3" href="https://o-moscow.ru/people/IvanovEI.html" rel="noopener">Е.&nbsp;И.&nbsp;Иванов</a> писал книги о судействе и подготовке новичков,
+                <a id="nm71-3" href="https://o-moscow.ru/people/KonstantinovUS.html" rel="noopener">Ю.&nbsp;С.&nbsp;Константинов</a> собрал для ФСОР книгу «Из истории отечественного спортивного ориентирования» с главой о регионах. Сегодня
+                эту работу продолжает сайт <a href="https://o-moscow.ru/" rel="noopener">o-moscow.ru</a> с хронологией 1958–2003&nbsp;годов, страницами почти трёхсот
+                людей и статистикой традиционных стартов; на странице источников сайт благодарит Сергея Шорохова за идею его создать, Владимира Люка&nbsp;— за хранение архивов, а <a id="nm40-4" href="https://o-moscow.ru/people/RyazanskayaTU.html" rel="noopener">Татьяну Рязанскую</a>&nbsp;—
+                за помощь в работе с ними.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="afterword">
+            <h2>Вместо заключения</h2>
+            <p>
+                За шестьдесят с лишним лет московское ориентирование прошло путь от туристских слётов с рюкзаками до одного из самых насыщенных календарей
+                в стране. Москва дала первых российских чемпионов мира на лыжах и на велосипедах, приняла чемпионат мира 2007&nbsp;года и не меньше 13&nbsp;чемпионатов
+                России (с 2008&nbsp;года, считая рогейн), а её массовые серии&nbsp;— от «Первого старта» до «Московского Меридиана»&nbsp;— каждый год приводят в лес и в парки тысячи людей.
+            </p>
+            <p>
+                Сегодня главное поле московского ориентирования&nbsp;— сам город: спринты в исторических кварталах, вечерние этапы в лесопарках, нанорогейны
+                и ночные старты. Чемпионаты России по велоориентированию раз за разом приезжают в Москву и Химки, а московский календарь O-Maps на 2026&nbsp;год
+                насчитывает больше двухсот событий. История тем временем продолжает собираться: хронология o-moscow.ru пока доведена до 2003&nbsp;года,
+                а старые карты и протоколы постепенно попадают в <a href="../moscow.html">архив карт</a> и <a href="../calendar-msk.html">календарь</a> O-Maps.
+            </p>
+        </section>
+
+        <p class="hist-more">
+            Статья составлена в ноябре 2026&nbsp;года. Это компиляция материалов O-Maps и других источников, перечисленных в конце страницы, при её подготовке
+            использовался ИИ. Если вы заметили неточность или можете дополнить рассказ, <a href="../help/contacts.html">напишите нам</a>.
+        </p>
+        <section class="hist-section clearfix" id="sources">
+            <h2>Источники</h2>
+            <small><a href="https://o-moscow.ru/" rel="noopener">o-moscow.ru</a>&nbsp;— <a href="https://o-moscow.ru/chronology.html" rel="noopener">хронология московского ориентирования</a>
+                (годовые страницы 1958–2003, в том числе газетные заметки и протоколы), <a href="https://o-moscow.ru/people.html" rel="noopener">«Имена»</a>,
+                <a href="https://o-moscow.ru/traditional.html" rel="noopener">«Традиционные старты»</a> (статистика «Московского Меридиана», Кубка клубов, One Man Relay и других),
+                <a href="https://o-moscow.ru/reportage.html" rel="noopener">статьи и репортажи</a>, <a href="https://o-moscow.ru/refs.html" rel="noopener">источники информации</a>;
+                Ю.&nbsp;С.&nbsp;Константинов (составитель), <a href="https://rufso.ru/wp-content/uploads/2018/02/История-отечествнного-ориентирования.pdf" rel="noopener">«Из истории отечественного спортивного ориентирования. 1963–2013»</a>
+                и глава <a href="https://rufso.ru/wp-content/uploads/2018/02/%D0%9E%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B2-%D1%80%D0%B5%D0%B3%D0%B8%D0%BE%D0%BD%D0%B0%D1%85.pdf" rel="noopener">«Ориентирование в регионах»</a>
+                (раздел «г.&nbsp;Москва», с.&nbsp;358–371);
+                Федерация спортивного ориентирования России&nbsp;— <a href="https://rufso.ru/history/" rel="noopener">история</a>, журнал
+                <a href="https://rufso.ru/журнал-азимут-по-номерам/" rel="noopener">«Азимут»</a> (<a href="https://rufso.ru/wp-content/uploads/2018/08/2007№2-SkiWOC2007.pdf" rel="noopener">2007, №&nbsp;2, о чемпионате мира на лыжах</a>);
+                Федерация спортивного ориентирования Москвы&nbsp;— <a href="https://mosorient.ru/" rel="noopener">mosorient.ru</a>, <a href="https://mosorient.ru/prezidium/" rel="noopener">президиум</a>;
+                <a href="https://sportident.ru/mk/history/" rel="noopener">история «Московского компаса»</a>; «Лесные новости»
+                <a href="https://moscompass.ru/news/index.php?m=99&amp;mes=26179" rel="noopener">moscompass.ru</a> (октябрь 2013);
+                Википедия&nbsp;— статьи о <a href="https://ru.wikipedia.org/wiki/Кузьмин,_Иван_Николаевич" rel="noopener">И.&nbsp;Н.&nbsp;Кузьмине</a>,
+                <a href="https://ru.wikipedia.org/wiki/Грицан,_Руслан_Леонидович" rel="noopener">Р.&nbsp;Л.&nbsp;Грицане</a>,
+                <a href="https://ru.wikipedia.org/wiki/Корчагин,_Виктор_Станиславович" rel="noopener">В.&nbsp;С.&nbsp;Корчагине</a>,
+                <a href="https://ru.wikipedia.org/wiki/Рябкина,_Татьяна_Юрьевна" rel="noopener">Т.&nbsp;Рябкиной</a>, <a href="https://en.wikipedia.org/wiki/Ksenia_Chernykh" rel="noopener">К.&nbsp;Черных</a>,
+                <a href="https://ru.wikipedia.org/wiki/Спортивный_лабиринт" rel="noopener">«Спортивный лабиринт»</a>, <a href="https://ru.wikipedia.org/wiki/Лямцино_(Московская_область)" rel="noopener">Лямцино</a>;
+                новости <a href="https://orienteering.sport/" rel="noopener">Международной федерации ориентирования (IOF)</a>;
+                даты, места, результаты и карты&nbsp;— <a href="../calendar-msk.html">календарь</a> и <a href="../moscow.html">архив карт O-Maps</a> (числа о картах и событиях O-Maps
+                в тексте и на диаграммах&nbsp;— по состоянию на 14 ноября 2026&nbsp;года, архив и календарь продолжают пополняться; карты по десятилетиям, типам и авторам посчитаны без 13&nbsp;карт, исключённых из статистики раздела);
+                статьи O-Maps об <a href="russia-history.html" target="_self">ориентировании в России и СССР</a>, <a href="spb-history.html" target="_self">в Ленинграде и Петербурге</a>,
+                <a href="ski-woc.html" target="_self">чемпионатах мира на лыжах</a> и <a href="russia-mtbo.html" target="_self">чемпионатах России по велоориентированию</a>.
+            </small>
+        </section>
+        <section class="hist-section clearfix" id="names">
+            <details class="hist-names" id="names-details">
+                <summary><h2>Указатель имён</h2></summary>
+                <p class="hist-names-note">Люди, упомянутые в статье. Имя ведёт на основную страницу о человеке (отчество, если известно,&nbsp;— во всплывающей подсказке), за ним&nbsp;— другие источники,
+                    цифры в конце&nbsp;— места упоминаний в тексте.</p>
+                <ul class="hist-names-list">
+                    <li><a href="https://o-moscow.ru/people/AleshinVM.html" rel="noopener" title="Алёшин Виктор Максимович">Алёшин Виктор</a><span class="hist-names-more"> · <a href="https://rufso.ru/wp-content/uploads/2024/05/Aleshin_Alol.pdf" rel="noopener">«Азимут», об Алоли</a> · <a href="../sheet-all.html?author=ALSHN">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm24-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a> <a href="#nm24-2" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">2</a> <a href="#nm24-3" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация (подпись к иллюстрации)">3</a> <a href="#nm24-4" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация (подпись к иллюстрации)">4</a> <a href="#nm24-5" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF (подпись к иллюстрации)">5</a> <a href="#nm24-6" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках">6</a> <a href="#nm24-7" target="_self" title="Картографы Москвы">7</a> <a href="#nm24-8" target="_self" title="Руководители, тренеры и летописцы">8</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/AlmazovUA.html" rel="noopener" title="Алмазов Юрий Алексеевич">Алмазов Юрий</a> <span class="hist-names-refs"><a href="#nm31-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a> <a href="#nm31-2" target="_self" title="Массовые старты: от «Первого старта» до «Московского Меридиана»">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/ArhipovIA.html" rel="noopener" title="Архипов Игорь Александрович">Архипов Игорь</a> <span class="hist-names-refs"><a href="#nm17-1" target="_self" title="1963: день рождения московского ориентирования">1</a> <a href="#nm17-2" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">2</a></span></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Беляев,_Сергей_Георгиевич" rel="noopener" title="Беляев Сергей Георгиевич">Беляев Сергей</a><span class="hist-names-more"> · <a href="https://rufso.ru/wp-content/uploads/2017/07/Belyaev.pdf" rel="noopener">ФСОР</a> · <a href="https://o-site.spb.ru/history/Peoples/belyaev.html" rel="noopener">O-Site</a></span> <span class="hist-names-refs"><a href="#nm83-1" target="_self" title="Руководители, тренеры и летописцы">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/BortnovskayaTF.html" rel="noopener" title="Бортновская (Василькова) Тамара Федоровна">Бортновская (Василькова) Тамара</a> <span class="hist-names-refs"><a href="#nm76-1" target="_self" title="Массовые старты: от «Первого старта» до «Московского Меридиана»">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/BushinskiiAV.html" rel="noopener" title="Бушинский Александр Васильевич">Бушинский Александр</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=BSHNSKY">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm36-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a> <a href="#nm36-2" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация (подпись к иллюстрации)">2</a> <a href="#nm36-3" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF (подпись к иллюстрации)">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/VasilevaGL.html" rel="noopener" title="Васильева Галина Леонидовна">Васильева Галина</a> <span class="hist-names-refs"><a href="#nm9-1" target="_self" title="1958–1962: синьки, рюкзаки и первые правила">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/VladimirovaLM.html" rel="noopener" title="Владимирова (Орлова) Лариса Михайловна">Владимирова (Орлова) Лариса</a><span class="hist-names-more"> · <a href="https://o-moscow.ru/people/files/VladimirovaLM.pdf" rel="noopener">«Азимут»</a></span> <span class="hist-names-refs"><a href="#nm13-1" target="_self" title="1958–1962: синьки, рюкзаки и первые правила">1</a> <a href="#nm13-2" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">2</a> <a href="#nm13-3" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">3</a></span></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Власова,_Татьяна_Германовна" rel="noopener" title="Власова Татьяна Германовна">Власова (Наумова) Татьяна</a><span class="hist-names-more"> · <a href="https://en.wikipedia.org/wiki/Tatiana_Vlasova" rel="noopener">Wikipedia</a> · <a href="https://rufso.ru/wp-content/uploads/2017/10/VlasovaT.pdf" rel="noopener">медальный лист ФСОР</a></span> <span class="hist-names-refs"><a href="#nm73-1" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/VoroncovGYa.html" rel="noopener" title="Воронцов Геннадий Яковлевич">Воронцов Геннадий</a> <span class="hist-names-refs"><a href="#nm35-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/VyshkvarkoA.html" rel="noopener">Вышкварко Алексей</a> <span class="hist-names-refs"><a href="#nm86-1" target="_self" title="Руководители, тренеры и летописцы">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/GlagolevaOL.html" rel="noopener" title="Глаголева (Аптекарь) Ольга Львовна">Глаголева (Аптекарь) Ольга</a> <span class="hist-names-refs"><a href="#nm87-1" target="_self" title="Руководители, тренеры и летописцы">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/GoldyrevEP.html" rel="noopener" title="Голдырев Евгений Павлович">Голдырев Евгений</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=GLDRV">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm62-1" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">1</a> <a href="#nm62-2" target="_self" title="Картографы Москвы">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/GranovskiiEB.html" rel="noopener" title="Грановский Евгений Борисович">Грановский Евгений</a> <span class="hist-names-refs"><a href="#nm45-1" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">1</a></span></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Грицан,_Руслан_Леонидович" rel="noopener" title="Грицан Руслан Леонидович">Грицан Руслан</a><span class="hist-names-more"> · <a href="https://en.wikipedia.org/wiki/Ruslan_Gritsan" rel="noopener">Wikipedia</a> · <a href="https://rufso.ru/wp-content/uploads/2018/09/2005№5-Руслан-Грицан.pdf" rel="noopener">«Азимут», 2005</a> · <a href="https://rufso.ru/wp-content/uploads/2021/10/Gritcan.pdf" rel="noopener">медальный лист ФСОР</a></span> <span class="hist-names-refs"><a href="#nm3-1" target="_self" title="Лесной спорт большого города">1</a> <a href="#nm3-2" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля">2</a> <a href="#nm3-3" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках">3</a> <a href="#nm3-4" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках (подпись к иллюстрации)">4</a> <a href="#nm3-5" target="_self" title="2010–2020-е: город как стадион">5</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/DobrovolskiiVP.html" rel="noopener" title="Добровольский Виктор Петрович">Добровольский Виктор</a> <span class="hist-names-refs"><a href="#nm80-1" target="_self" title="Руководители, тренеры и летописцы">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/ElahovskiiSB.html" rel="noopener" title="Елаховский Станислав Борисович">Елаховский Станислав</a><span class="hist-names-more"> · <a href="https://rufso.ru/wp-content/uploads/2017/07/Elahovskiy.pdf" rel="noopener">ФСОР</a></span> <span class="hist-names-refs"><a href="#nm34-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a> <a href="#nm34-2" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">2</a> <a href="#nm34-3" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/ElizarovVL.html" rel="noopener" title="Елизаров Виктор Леонидович">Елизаров Виктор</a> <span class="hist-names-refs"><a href="#nm70-1" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля">1</a> <a href="#nm70-2" target="_self" title="Руководители, тренеры и летописцы">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/EremeevaGA.html" rel="noopener" title="Еремеева Галина Александровна">Еремеева Галина</a> <span class="hist-names-refs"><a href="#nm79-1" target="_self" title="Картографы Москвы">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/ZhivotnevaM.html" rel="noopener">Животнева Марина</a> <span class="hist-names-refs"><a href="#nm16-1" target="_self" title="1963: день рождения московского ориентирования">1</a> <a href="#nm16-2" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/ZhuchkovVG.html" rel="noopener" title="Жучков Владимир Геннадьевич">Жучков Владимир</a> <span class="hist-names-refs"><a href="#nm32-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/ZlacenMR.html" rel="noopener" title="Злацен Михаил Романович">Злацен Михаил</a> <span class="hist-names-refs"><a href="#nm8-1" target="_self" title="1958–1962: синьки, рюкзаки и первые правила">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/IvanovAD.html" rel="noopener" title="Иванов Алексей Денисович">Иванов Алексей</a> <span class="hist-names-refs"><a href="#nm89-1" target="_self" title="Руководители, тренеры и летописцы">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/IvanovDP.html" rel="noopener" title="Иванов Денис Петрович">Иванов Денис</a> <span class="hist-names-refs"><a href="#nm19-1" target="_self" title="1963: день рождения московского ориентирования">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/IvanovEI.html" rel="noopener" title="Иванов Евгений Иванович">Иванов Евгений</a> <span class="hist-names-refs"><a href="#nm20-1" target="_self" title="1963: день рождения московского ориентирования">1</a> <a href="#nm20-2" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">2</a> <a href="#nm20-3" target="_self" title="Руководители, тренеры и летописцы">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/IgnatenkoVA.html" rel="noopener" title="Игнатенко Валерий Андреевич">Игнатенко Валерий</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=IGNTNKO">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm23-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a> <a href="#nm23-2" target="_self" title="Картографы Москвы">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KazakovAG.html" rel="noopener" title="Казаков Анатолий Германович">Казаков Анатолий</a> <span class="hist-names-refs"><a href="#nm33-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KalininBN.html" rel="noopener" title="Калинин Борис Николаевич">Калинин Борис</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=KLNN_B">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm78-1" target="_self" title="Картографы Москвы">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KalitkinNN.html" rel="noopener" title="Калиткин Николай Николаевич">Калиткин Николай</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=KLTKN_N">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm37-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KirchoAN.html" rel="noopener" title="Кирчо Андрей Николаевич">Кирчо Андрей</a> <span class="hist-names-refs"><a href="#nm30-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KolesnikovAA.html" rel="noopener" title="Колесников Александр Афанасьевич">Колесников Александр</a> <span class="hist-names-refs"><a href="#nm28-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a> <a href="#nm28-2" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KonstantinovUS.html" rel="noopener" title="Константинов Юрий Сергеевич">Константинов Юрий</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=KNSTNTNV_Y">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm71-1" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля">1</a> <a href="#nm71-2" target="_self" title="2010–2020-е: город как стадион">2</a> <a href="#nm71-3" target="_self" title="Руководители, тренеры и летописцы">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KornouhovaMV.html" rel="noopener" title="Корноухова Майя Васильевна">Корноухова Майя</a> <span class="hist-names-refs"><a href="#nm18-1" target="_self" title="1963: день рождения московского ориентирования">1</a></span></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Корчагин,_Виктор_Станиславович" rel="noopener" title="Корчагин Виктор Станиславович">Корчагин Виктор</a><span class="hist-names-more"> · <a href="https://en.wikipedia.org/wiki/Viktor_Korchagin" rel="noopener">Wikipedia</a> · <a href="https://rufso.ru/wp-content/uploads/2017/10/KorchaginV.pdf" rel="noopener">медальный лист ФСОР</a></span> <span class="hist-names-refs"><a href="#nm5-1" target="_self" title="Лесной спорт большого города">1</a> <a href="#nm5-2" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля">2</a> <a href="#nm5-3" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках (подпись к иллюстрации)">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KostylevVV.html" rel="noopener" title="Костылев Вячеслав Викторович">Костылев Вячеслав</a> <span class="hist-names-refs"><a href="#nm68-1" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля">1</a> <a href="#nm68-2" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках">2</a> <a href="#nm68-3" target="_self" title="Руководители, тренеры и летописцы">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KrasovskiiAB.html" rel="noopener" title="Красовский Александр Борисович">Красовский Александр</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=KRSVSKY_A">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm59-1" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">1</a> <a href="#nm59-2" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">2</a> <a href="#nm59-3" target="_self" title="Руководители, тренеры и летописцы">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KrivokorE.html" rel="noopener">Кривокор Евгений</a> <span class="hist-names-refs"><a href="#nm26-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KrivonosovVV.html" rel="noopener" title="Кривоносов Владимир Васильевич">Кривоносов Владимир</a> <span class="hist-names-refs"><a href="#nm84-1" target="_self" title="Руководители, тренеры и летописцы">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KrivonosovaLM.html" rel="noopener" title="Кривоносова (Куклина) Лидия Михайловна">Кривоносова (Куклина) Лидия</a> <span class="hist-names-refs"><a href="#nm43-1" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KrohinLA.html" rel="noopener" title="Крохин Лев Александрович">Крохин Лев</a> <span class="hist-names-refs"><a href="#nm58-1" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">1</a> <a href="#nm58-2" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KrutickiiVN.html" rel="noopener" title="Крутицкий Владимир Николаевич">Крутицкий Владимир</a> <span class="hist-names-refs"><a href="#nm38-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a> <a href="#nm38-2" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">2</a> <a href="#nm38-3" target="_self" title="Картографы Москвы">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KudryavcevVN.html" rel="noopener" title="Кудрявцев Владимир Николаевич">Кудрявцев Владимир</a><span class="hist-names-more"> · <a href="https://rufso.ru/wp-content/uploads/2018/02/Кудрявцев.pdf" rel="noopener">ФСОР</a> · <a href="https://rufso.ru/wp-content/uploads/2018/08/2014№4-Памяти-Владимира-Николаевича-Кудрявцева.pdf" rel="noopener">«Азимут», 2014</a></span> <span class="hist-names-refs"><a href="#nm14-1" target="_self" title="1958–1962: синьки, рюкзаки и первые правила">1</a> <a href="#nm14-2" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">2</a> <a href="#nm14-3" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">3</a> <a href="#nm14-4" target="_self" title="Руководители, тренеры и летописцы">4</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KuzminAR.html" rel="noopener" title="Кузьмин Алексей Рэмович">Кузьмин Алексей</a> <span class="hist-names-refs"><a href="#nm72-1" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках">1</a> <a href="#nm72-2" target="_self" title="Руководители, тренеры и летописцы">2</a></span></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Кузьмин,_Иван_Николаевич" rel="noopener" title="Кузьмин Иван Николаевич">Кузьмин Иван</a><span class="hist-names-more"> · <a href="https://rufso.ru/wp-content/uploads/2017/07/Kuzmin_statya.pdf" rel="noopener">ФСОР, интервью</a> · <a href="https://rufso.ru/wp-content/uploads/2017/10/KuzminI.pdf" rel="noopener">медальный лист ФСОР</a></span> <span class="hist-names-refs"><a href="#nm1-1" target="_self" title="Лесной спорт большого города">1</a> <a href="#nm1-2" target="_self" title="Лесной спорт большого города">2</a> <a href="#nm1-3" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">3</a> <a href="#nm1-4" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля (подпись к иллюстрации)">4</a> <a href="#nm1-5" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля">5</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KuzminRN.html" rel="noopener" title="Кузьмин Рэм Николаевич">Кузьмин Рэм</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=KZMN_R">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm39-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a> <a href="#nm39-2" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF (подпись к иллюстрации)">2</a> <a href="#nm39-3" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">3</a> <a href="#nm39-4" target="_self" title="Картографы Москвы">4</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KulikovVM.html" rel="noopener" title="Куликов Валентин Михайлович">Куликов Валентин</a> <span class="hist-names-refs"><a href="#nm11-1" target="_self" title="1958–1962: синьки, рюкзаки и первые правила">1</a> <a href="#nm11-2" target="_self" title="Руководители, тренеры и летописцы">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KunicynNN.html" rel="noopener" title="Куницын Николай Николаевич">Куницын Николай</a><span class="hist-names-more"> · <a href="https://o-moscow.ru/people/files/KunicynNN_1.pdf" rel="noopener">«Азимут», к 70-летию</a> · <a href="../sheet-all.html?author=KNTSN">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm41-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге (подпись к иллюстрации)">1</a> <a href="#nm41-2" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">2</a> <a href="#nm41-3" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">3</a> <a href="#nm41-4" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля">4</a> <a href="#nm41-5" target="_self" title="Массовые старты: от «Первого старта» до «Московского Меридиана»">5</a> <a href="#nm41-6" target="_self" title="Руководители, тренеры и летописцы">6</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/KuranovaII.html" rel="noopener" title="Куранова Ирина Игоревна">Куранова Ирина</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=KRNVA">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm64-1" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">1</a> <a href="#nm64-2" target="_self" title="Картографы Москвы">2</a> <a href="#nm64-3" target="_self" title="Руководители, тренеры и летописцы">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/LavrenukMU.html" rel="noopener" title="Лавренюк Михаил Юрьевич">Лавренюк Михаил</a> <span class="hist-names-refs"><a href="#nm57-1" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/LavrenukSU.html" rel="noopener" title="Лавренюк Сергей Юрьевич">Лавренюк Сергей</a> <span class="hist-names-refs"><a href="#nm54-1" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/LevinBK.html" rel="noopener" title="Левин Борис Кивович">Левин Борис</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=LVN_B">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm42-1" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация (подпись к иллюстрации)">1</a> <a href="#nm42-2" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF (подпись к иллюстрации)">2</a> <a href="#nm42-3" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">3</a></span></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Лисов,_Иван_Иванович" rel="noopener" title="Лисов Иван Иванович">Лисов Иван</a><span class="hist-names-more"> · <a href="https://rufso.ru/wp-content/uploads/2020/11/Лисов.pdf" rel="noopener">ФСОР</a></span> <span class="hist-names-refs"><a href="#nm52-1" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">1</a> <a href="#nm52-2" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">2</a> <a href="#nm52-3" target="_self" title="Руководители, тренеры и летописцы">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/LosevAS.html" rel="noopener" title="Лосев Андрей Сталиевич">Лосев Андрей</a> <span class="hist-names-refs"><a href="#nm60-1" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">1</a> <a href="#nm60-2" target="_self" title="Картографы Москвы">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/MakeevAF.html" rel="noopener" title="Макеев Алексей Филиппович">Макеев Алексей</a> <span class="hist-names-refs"><a href="#nm85-1" target="_self" title="Руководители, тренеры и летописцы">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/MancerovSV.html" rel="noopener" title="Манцеров Сергей Владимирович">Манцеров Сергей</a> <span class="hist-names-refs"><a href="#nm51-1" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">1</a> <a href="#nm51-2" target="_self" title="Руководители, тренеры и летописцы">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/MartishevVI.html" rel="noopener" title="Мартишев Владислав Иванович">Мартишев Владислав</a><span class="hist-names-more"> · <a href="https://o-moscow.ru/people/files/MartishevVI.pdf" rel="noopener">«Азимут», к 80-летию</a> · <a href="../sheet-all.html?author=MRTSHV">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm53-1" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/MorosanovaNV.html" rel="noopener" title="Моросанова (Колесова) Наталья Валентиновна">Моросанова (Колесова) Наталья</a> <span class="hist-names-refs"><a href="#nm66-1" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля">1</a> <a href="#nm66-2" target="_self" title="Руководители, тренеры и летописцы">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/MohovVV.html" rel="noopener" title="Мохов Виктор Васильевич">Мохов Виктор</a> <span class="hist-names-refs"><a href="#nm27-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/MuhinaON.html" rel="noopener" title="Мухина Ольга Николаевна">Мухина Ольга</a> <span class="hist-names-refs"><a href="#nm49-1" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/NikanorovUB.html" rel="noopener" title="Никаноров Юрий Борисович">Никаноров Юрий</a> <span class="hist-names-refs"><a href="#nm48-1" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/NikiforovDL.html" rel="noopener" title="Никифоров Дмитрий Львович">Никифоров Дмитрий</a><span class="hist-names-more"> · <a href="https://o-moscow.ru/people/files/NikiforovDL_1.pdf" rel="noopener">«Азимут», памяти</a> · <a href="../sheet-all.html?author=NKFRV_D">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm47-1" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">1</a> <a href="#nm47-2" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">2</a> <a href="#nm47-3" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/OgorodnikovBI.html" rel="noopener" title="Огородников Борис Иванович">Огородников Борис</a><span class="hist-names-more"> · <a href="https://ru.wikipedia.org/wiki/Огородников,_Борис_Иванович" rel="noopener">Википедия</a> · <a href="https://o-moscow.ru/people/files/OgorodnikovBI_1.pdf" rel="noopener">«Азимут», «Человек из легенды»</a> · <a href="../sheet-all.html?author=OGRDNKV">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm2-1" target="_self" title="Лесной спорт большого города">1</a> <a href="#nm2-2" target="_self" title="1958–1962: синьки, рюкзаки и первые правила">2</a> <a href="#nm2-3" target="_self" title="1963: день рождения московского ориентирования">3</a> <a href="#nm2-4" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">4</a> <a href="#nm2-5" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">5</a> <a href="#nm2-6" target="_self" title="Руководители, тренеры и летописцы">6</a> <a href="#nm2-7" target="_self" title="Руководители, тренеры и летописцы">7</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/OgorodnikovaNA.html" rel="noopener" title="Огородникова (Волкова) Наталья Алексеевна">Огородникова (Волкова) Наталья</a> <span class="hist-names-refs"><a href="#nm21-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a> <a href="#nm21-2" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/OkinVI.html" rel="noopener" title="Окин Вячеслав Иванович">Окин Вячеслав</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=OKN_V">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm77-1" target="_self" title="Картографы Москвы">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/PepelyaevEI.html" rel="noopener" title="Пепеляев Евгений Иванович">Пепеляев Евгений</a> <span class="hist-names-refs"><a href="#nm81-1" target="_self" title="Руководители, тренеры и летописцы">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/PlotkeIB.html" rel="noopener" title="Плотке Игорь Борисович">Плотке Игорь</a> <span class="hist-names-refs"><a href="#nm10-1" target="_self" title="1958–1962: синьки, рюкзаки и первые правила">1</a> <a href="#nm10-2" target="_self" title="1963: день рождения московского ориентирования">2</a> <a href="#nm10-3" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/ProhorovAM.html" rel="noopener" title="Прохоров Александр Михайлович">Прохоров Александр</a> <span class="hist-names-refs"><a href="#nm75-1" target="_self" title="2010–2020-е: город как стадион">1</a> <a href="#nm75-2" target="_self" title="Руководители, тренеры и летописцы">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/RzhischinSI.html" rel="noopener" title="Ржищин Семён Иванович">Ржищин Семён</a><span class="hist-names-more"> · <a href="https://ru.wikipedia.org/wiki/Ржищин,_Семён_Иванович" rel="noopener">Википедия</a> · <a href="https://o-moscow.ru/people/files/RzhischinSI.pdf" rel="noopener">«Азимут»</a></span> <span class="hist-names-refs"><a href="#nm82-1" target="_self" title="Руководители, тренеры и летописцы">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/RinevichES.html" rel="noopener" title="Риневич Евгений Семенович">Риневич Евгений</a> <span class="hist-names-refs"><a href="#nm29-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/RoksanovAN.html" rel="noopener" title="Роксанов Андрей Николаевич">Роксанов Андрей</a> <span class="hist-names-refs"><a href="#nm22-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a></span></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Рябкина,_Татьяна_Юрьевна" rel="noopener">Рябкина (Переляева) Татьяна</a><span class="hist-names-more"> · <a href="https://o-moscow.ru/reports/2001_perelyaeva.html" rel="noopener">o-moscow.ru, интервью 2001&nbsp;года</a></span> <span class="hist-names-refs"><a href="#nm67-1" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля">1</a> <a href="#nm67-2" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках (подпись к иллюстрации)">2</a> <a href="#nm67-3" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках">3</a> <a href="#nm67-4" target="_self" title="2010–2020-е: город как стадион">4</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/RyazanskayaTU.html" rel="noopener" title="Рязанская (Калашникова) Татьяна Юрьевна">Рязанская (Калашникова) Татьяна</a> <span class="hist-names-refs"><a href="#nm40-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге (подпись к иллюстрации)">1</a> <a href="#nm40-2" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">2</a> <a href="#nm40-3" target="_self" title="Картографы Москвы">3</a> <a href="#nm40-4" target="_self" title="Руководители, тренеры и летописцы">4</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/SidorenkoVI.html" rel="noopener" title="Сидоренко Владимир Иванович">Сидоренко Владимир</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=SDRNK">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm65-1" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/SimakinSM.html" rel="noopener" title="Симакин Сергей Михайлович">Симакин Сергей</a><span class="hist-names-more"> · <a href="https://rufso.ru/wp-content/uploads/2022/04/Симакин.pdf" rel="noopener">ФСОР</a> · <a href="../sheet-all.html?author=SMKN_S">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm50-1" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">1</a> <a href="#nm50-2" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">2</a> <a href="#nm50-3" target="_self" title="Картографы Москвы">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/SlobodnikSG.html" rel="noopener" title="Слободник Сокол Гершевич">Слободник Сокол</a> <span class="hist-names-refs"><a href="#nm88-1" target="_self" title="Руководители, тренеры и летописцы">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/SmykodubZM.html" rel="noopener" title="Смыкодуб Зинаида Максимовна">Смыкодуб Зинаида</a> <span class="hist-names-refs"><a href="#nm44-1" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">1</a> <a href="#nm44-2" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">2</a> <a href="#nm44-3" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках">3</a> <a href="#nm44-4" target="_self" title="Руководители, тренеры и летописцы">4</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/SokolovaSA.html" rel="noopener" title="Соколова (Лыкина) Сталина Алексеевна">Соколова (Лыкина) Сталина</a> <span class="hist-names-refs"><a href="#nm25-1" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">1</a> <a href="#nm25-2" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/SotnikovVA.html" rel="noopener" title="Сотников Виктор Андреевич">Сотников Виктор</a> <span class="hist-names-refs"><a href="#nm55-1" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/StaneckiiLA.html" rel="noopener" title="Станецкий Лев Азарьевич">Станецкий Лев</a> <span class="hist-names-refs"><a href="#nm46-1" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/StulovSV.html" rel="noopener" title="Стулов Сергей Викторович">Стулов Сергей</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=STLV_S">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm63-1" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">1</a> <a href="#nm63-2" target="_self" title="Картографы Москвы">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/TomsonBU.html" rel="noopener" title="Томсон Борис Юрьевич">Томсон Борис</a> <span class="hist-names-refs"><a href="#nm7-1" target="_self" title="1958–1962: синьки, рюкзаки и первые правила">1</a> <a href="#nm7-2" target="_self" title="1970-е: телевизионные призы, спортшкола и федерация">2</a> <a href="#nm7-3" target="_self" title="Руководители, тренеры и летописцы">3</a></span></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/Хренников,_Эдуард_Александрович" rel="noopener" title="Хренников Эдуард Александрович">Хренников Эдуард</a><span class="hist-names-more"> · <a href="https://en.wikipedia.org/wiki/Eduard_Khrennikov" rel="noopener">Wikipedia</a> · <a href="https://rufso.ru/wp-content/uploads/2022/10/Hrennikov.pdf" rel="noopener">медальный лист ФСОР</a></span> <span class="hist-names-refs"><a href="#nm74-1" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/ChalovGE.html" rel="noopener" title="Чалов Геннадий Ефимович">Чалов Геннадий</a> <span class="hist-names-refs"><a href="#nm12-1" target="_self" title="1958–1962: синьки, рюкзаки и первые правила">1</a> <a href="#nm12-2" target="_self" title="1964–1970: Кубок Москвы, первые мастера и победа в Калуге">2</a></span></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Ksenia_Chernykh" rel="noopener">Черных Ксения</a><span class="hist-names-more"> · <a href="https://rufso.ru/wp-content/uploads/2017/10/ChernyhK.pdf" rel="noopener">медальный лист ФСОР</a></span> <span class="hist-names-refs"><a href="#nm4-1" target="_self" title="Лесной спорт большого города">1</a> <a href="#nm4-2" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках">2</a> <a href="#nm4-3" target="_self" title="2000-е: велосипеды, «Лабиринт» и чемпионат мира в Химках (подпись к иллюстрации)">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/ChizhikovaLU.html" rel="noopener" title="Чижикова Людмила Юрьевна">Чижикова Людмила</a> <span class="hist-names-refs"><a href="#nm69-1" target="_self" title="1990-е: эстафеты Рахимовой, золото Кузьмина и старт у Кремля">1</a> <a href="#nm69-2" target="_self" title="Руководители, тренеры и летописцы">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/ShigaevA.html" rel="noopener">Шигаев Анатолий</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=SHGV">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm56-1" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/YaninUB.html" rel="noopener" title="Янин Юрий Брониславович">Янин Юрий</a><span class="hist-names-more"> · <a href="https://rufso.ru/wp-content/uploads/2020/01/Янин.pdf" rel="noopener">ФСОР</a> · <a href="../sheet-all.html?author=JANN_Y">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm61-1" target="_self" title="1981–1991: чемпионаты СССР и путь в IOF (подпись к иллюстрации)">1</a> <a href="#nm61-2" target="_self" title="Картографы Москвы">2</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/YaryshevAP.html" rel="noopener" title="Ярышев Александр Павлович">Ярышев Александр</a> <span class="hist-names-refs"><a href="#nm6-1" target="_self" title="1958–1962: синьки, рюкзаки и первые правила">1</a> <a href="#nm6-2" target="_self" title="1963: день рождения московского ориентирования">2</a> <a href="#nm6-3" target="_self" title="Руководители, тренеры и летописцы">3</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/YaryshevaLA.html" rel="noopener" title="Ярышева Людмила Аркадьевна">Ярышева Людмила</a> <span class="hist-names-refs"><a href="#nm15-1" target="_self" title="1963: день рождения московского ориентирования">1</a></span></li>
+                </ul>
+            </details>
+        </section>
+
+        <p class="hist-more">
+            Посмотреть архив: <a href="../moscow.html">карты Москвы и Подмосковья</a>
+            · <a href="../calendar-msk.html">календарь Москвы</a>
+            · <a href="../charts-moscow.html">статистика карт Москвы</a>
+            · <a href="../all.html">все карты O-Maps</a>.
+        </p>
+        <nav aria-label="Другие исторические статьи" class="hist-nav">
+            <a href="russia-history.html" target="_self">← Россия и СССР</a> <a href="spb-history.html" target="_self">Ленинград&nbsp;— Петербург →</a> <a href="domestic.html" target="_self">Чемпионаты СССР и России →</a>
+        </nav>
+    </div>
+</main>
+<footer>
+    <hr/>
+    <span class="my-copyright">© <a href="https://vk.com/fradkin">Фрадкин Евгений</a>,<a href="https://t.me/o_maps">O-Maps group</a></span>
+</footer>
+<script src="../js/ext/jquery.slim.min.js"></script>
+<script src="../js/ext/bootstrap.min.js"></script>
+<script src="../js/ext/bootstrap5-dropdown-ml-hack.js"></script>
+<script src="../js/ext/chart-4.4.8.js"></script>
+<script src="../js/history-moscow.js?v=1"></script>
+<script>
+    // Указатель имён: раскрыть, если перешли на него по ссылке (#names).
+    (function () {
+        const details = document.getElementById('names-details');
+        function openNames() {
+            if (location.hash === '#names') {
+                details.open = true;
+            }
+        }
+        openNames();
+        window.addEventListener('hashchange', openNames);
+    })();
+</script>
+<script>initTocHighlight();</script>
+<div id="page-start"></div><button id="back-to-start" type="button" aria-label="К началу страницы">↖</button>
+<script>writeBackToStartButton({smooth: true}); initReadingProgress();</script>
+<script src="../js/history-moscow-poi.js?v=1"></script>
+<script>initHistoryPlacesMap(historyMoscowPoi, {eras: [[1970, '1958–1970'], [1991, '1971–1991'], [2003, '1992–2003'], [2013, '2004–2013'], [Infinity, '2014 и позже']], homePages: null});</script>
+<script src="../js/welcome.js?v=37"></script>
+<script>writeWelcomeButton('../');</script>
+<script src="../js/seo-meta.js?v=10"></script>
+</body>
+</html>
