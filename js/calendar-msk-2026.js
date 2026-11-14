@@ -3494,6 +3494,16 @@ let mskEvents2026 = [
         endReg: "2026-11-14 12:00"
     },
     {
+        id: 'MSK_20261119_1',
+        date: "2026-11-19",
+        name: "Открытая тренировка СК Малахит. Ночной спринт",
+        place: "г. Москва, Ландшафтный парк Митино",
+        type: "ORIENT",
+        coord: [55.835155, 37.382748],
+        reg: "https://orgeo.ru/event/56857",
+        bulletin: "https://docs.google.com/document/d/1dtLL0oaDm1tAZPWGslc80WMyiwreSB_Ofk7jm9GRcx8/edit?usp=sharing"
+    },
+    {
         id: 'MSK_20261121_1',
         date: "2026-11-21",
         name: "Московская Осень",
