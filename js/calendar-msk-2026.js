@@ -3499,8 +3499,11 @@ let mskEvents2026 = [
         name: "Открытая тренировка СК Малахит. Ночной спринт",
         place: "г. Москва, Ландшафтный парк Митино",
         type: "ORIENT",
-        coord: [55.835155, 37.382748],
-        reg: "https://orgeo.ru/event/56857",
+        fmt: "ночная классическая дистанция",
+        coord: [55.835108, 37.382668],
+        link: "https://docs.google.com/document/d/1dtLL0oaDm1tAZPWGslc80WMyiwreSB_Ofk7jm9GRcx8/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/162",
+        owner: "MLKHT",
         bulletin: "https://docs.google.com/document/d/1dtLL0oaDm1tAZPWGslc80WMyiwreSB_Ofk7jm9GRcx8/edit?usp=sharing"
     },
     {
@@ -3555,6 +3558,15 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/56563"
     },
     {
+        id: 'MSK_20261126_1',
+        date: "2026-11-26",
+        name: "Открытая тренировка",
+        place: "Лысая гора+стадион Октябрь",
+        type: "ORIENT",
+        coord: [55.802366, 37.449027],
+        owner: "MLKHT"
+    },
+    {
         id: 'MSK_20261128_1',
         date: "2026-11-28",
         name: "Московская Осень",
@@ -3582,6 +3594,15 @@ let mskEvents2026 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK",
         map: '20230130_140'
+    },
+    {
+        id: 'MSK_20261203_1',
+        date: "2026-12-03",
+        name: "Открытая тренировка",
+        place: "Бабушкинский парк (сквер по Олонецкому проезду)",
+        type: "ORIENT",
+        coord: [55.873166, 37.654401],
+        owner: "MLKHT"
     },
     {
         id: 'MSK_20261205_1',
@@ -3625,6 +3646,15 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/56458",
         endReg: "2026-12-03 23:55",
         bulletin: "https://docs.google.com/document/d/1elnB8x4GV85tNIsFssjTGDuOOTrskgafxS-RK4qxZms/edit?usp=sharing"
+    },
+    {
+        id: 'MSK_20261210_1',
+        date: "2026-12-10",
+        name: "Открытая тренировка",
+        place: "Усадьба Михалково",
+        type: "ORIENT",
+        coord: [55.842426, 37.520948],
+        owner: "MLKHT"
     },
     {
         id: 'MSK_20261212_1',
@@ -3696,8 +3726,11 @@ let mskEvents2026 = [
         place: "на согласовании",
         type: "SKI",
         fmt: "ЛГ-классика",
+        coord: [55.569206, 37.559811],
         link: "https://mosorient.ru/",
-        reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
+        reg: "https://orgeo.ru/event/56839",
+        endReg: "2026-12-20 23:55",
+        bulletin: "https://orgeo.ru/files/event/file/56839_19e99a1333.docx",
         owner: "FSO_MSK"
     },
     {
@@ -3707,8 +3740,11 @@ let mskEvents2026 = [
         place: "на согласовании",
         type: "SKI",
         fmt: "ЛГ-классика",
+        coord: [55.569206, 37.559811],
         link: "https://mosorient.ru/",
-        reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
+        reg: "https://orgeo.ru/event/56839",
+        endReg: "2026-12-20 23:55",
+        bulletin: "https://orgeo.ru/files/event/file/56839_19e99a1333.docx",
         owner: "FSO_MSK"
     },
     {

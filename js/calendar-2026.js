@@ -3794,7 +3794,8 @@ let events2026 = [
         coord: [58.726257, 29.812109],
         type: 'ROGAINE',
         map: 'toloni_2025',
-        owner: 'SHBN'
+        owner: 'SHBN',
+        o_gps: 26315
     },
     {
         id: 'SPB_20261114_2',
@@ -3806,9 +3807,11 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/56710',
         endReg: '2026-11-13 12:00',
         bulletin: 'https://o-site.spb.ru/_races/261114/261114_info.pdf',
+        publish: 'https://t.me/c/3634322394/3/236',
         owner: 'FENIX',
         o_gps: [26305,26306,26307,26308],
-        map: 'silande_2025'
+        map: 'silande_2025',
+        reskeep: 953
     },
     {
         id: 'SPB_20261115_1',
@@ -3829,7 +3832,8 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/56780',
         endReg: '2026-11-14 20:00',
         bulletin: 'https://o-site.spb.ru/_races/261115_WN/261115_WN.pdf',
-        map: 'bolotnaya_station_2019'
+        map: 'bolotnaya_station_2019',
+        o_gps: 26318
     },
     {
         id: 'SPB_20261115_3',
