@@ -3451,6 +3451,7 @@ let moscowMaps = [
     {
         name: 'Лужки',
         year: 2025,
+        startYear: 2026,
         url: './maps/moscow/lr/luzhki_bno_2026.webp',
         link: ['./original_maps/moscow/lr/luzhki_2024_omaps.jpg','./original_maps/moscow/lr/luzhki_bno_2026_omaps.webp'],
         bounds: [[54.9118005, 37.4924755], [54.9027458, 37.5611401], [54.8711743, 37.4767685]],
