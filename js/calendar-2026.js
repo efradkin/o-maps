@@ -3833,7 +3833,8 @@ let events2026 = [
         endReg: '2026-11-14 20:00',
         bulletin: 'https://o-site.spb.ru/_races/261115_WN/261115_WN.pdf',
         map: 'bolotnaya_station_2019',
-        o_gps: 26318
+        o_gps: 26318,
+        reskeep: 954
     },
     {
         id: 'SPB_20261115_3',
@@ -3850,9 +3851,11 @@ let events2026 = [
         id: 'SPB_20261121_1',
         date: '2026-11-21',
         name: 'Тренировочный старт ФСО Выборга',
+        place: 'Выборг, Сайменские дачи',
         o_site: '261121',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1765',
         endReg: '2026-11-19',
+        map: 'vyborg_saymenskie_dachi_2013',
         bulletin: 'https://o-site.spb.ru/_races/261121/261121_info.pdf'
     },
     {

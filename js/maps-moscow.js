@@ -3441,12 +3441,24 @@ let moscowMaps = [
     },
 */
     {
+        name: 'Серпухов, Борисово',
+        year: 2008,
+        url: './maps/moscow/ak/borisovo_2008.webp',
+        link: './original_maps/moscow/ak/borisovo_2008_omaps.jpg',
+        bounds: [[54.915106, 37.4510193], [54.9091361, 37.5198126], [54.8880122, 37.4424362]],
+        author: ['DJCHKV','KRVKV']
+    },
+    {
         name: 'Лужки',
-        year: 2024,
-        url: './maps/moscow/luzhki_2024.webp',
-        link: './original_maps/moscow/lr/luzhki_2024_omaps.jpg',
-        bounds: [[54.8976378, 37.5144482], [54.8932696, 37.556119], [54.8645804, 37.5035906]],
+        year: 2025,
+        url: './maps/moscow/lr/luzhki_bno_2026.webp',
+        link: ['./original_maps/moscow/lr/luzhki_2024_omaps.jpg','./original_maps/moscow/lr/luzhki_bno_2026_omaps.webp'],
+        bounds: [[54.9118005, 37.4924755], [54.9027458, 37.5611401], [54.8711743, 37.4767685]],
+        info: 'Спортивная карта, подготовленная Владимиром Тутыниным и Владимиром Люком в 2024 и 2025 гг. ' +
+            'Помимо спортивной карты добавлена схематичная карта с пониженной детализацией (28% площади района). ' +
+            'Масштаб — 1:10000, сечение рельефа 2,5 м. Формат листа карты — А3.',
         author: ['TTYNN_V','LUK_V'],
+        start: 'BNO',
         owner: 'FSO_MSK'
     },
     {
@@ -5017,14 +5029,6 @@ let moscowMaps = [
         link: './original_maps/moscow/sz/sergiev_posad_2023_omaps.jpg',
         bounds: [[56.3264605, 38.1195974], [56.3251041, 38.1338024], [56.3197497, 38.1172585]],
         author: 'LNTV'
-    },
-    {
-        name: 'Серпухов, Борисово',
-        year: 2008,
-        url: './maps/moscow/ak/borisovo_2008.webp',
-        link: './original_maps/moscow/ak/borisovo_2008_omaps.jpg',
-        bounds: [[54.915106, 37.4510193], [54.9091361, 37.5198126], [54.8880122, 37.4424362]],
-        author: ['DJCHKV','KRVKV']
     },
     {
         name: 'Сенеж',

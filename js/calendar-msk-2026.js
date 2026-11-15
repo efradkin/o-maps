@@ -3467,7 +3467,9 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/56344",
         endReg: "2026-11-13 00:10",
         bulletin: "https://forestadventure.ru/bno2026-info/",
-        o_gps: 26310
+        o_gps: 26310,
+        start: 'BNO',
+        map: 'luzhki_bno_2026'
     },
     {
         id: 'MSK_20261115_1',
