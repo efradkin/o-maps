@@ -170,8 +170,8 @@ const GLOBAL_MENU_ITEMS = [
         title: 'История',
         menuItems: [
             { title: '📖 Оглавление', page: 'history/index' },
-/*
             { title: '🌍 Мир', page: 'history/world-history' },
+/*
             { title: '🇪🇺 Европа', page: 'history/europe-history' },
 */
             { title: '🇷🇺 Россия и СССР', page: 'history/russia-history' },
