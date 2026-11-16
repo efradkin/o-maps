@@ -3667,7 +3667,9 @@ let mskEvents2026 = [
         fmt: "кросс-выбор",
         coord: [55.88257, 37.477713],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/56884",
+        endReg: "2026-12-11 21:00",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK",
         map: '20220112_220'
     },
@@ -3680,7 +3682,9 @@ let mskEvents2026 = [
         fmt: "кросс-выбор",
         coord: [55.618874, 37.531153],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/56885",
+        endReg: "2026-12-12 21:00",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK",
         map: 'big_bitsa_2024'
     },
@@ -3693,7 +3697,9 @@ let mskEvents2026 = [
         fmt: "кросс-выбор",
         coord: [55.855258, 37.485581],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/56886",
+        endReg: "2026-12-18 21:00",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK",
         map: '20250404_210'
     },
@@ -3706,7 +3712,9 @@ let mskEvents2026 = [
         fmt: "кросс-выбор",
         coord: [55.644514, 37.461288],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/56887",
+        endReg: "2026-12-19 21:00",
+        bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK",
         map: 'troparevo_1990'
     },

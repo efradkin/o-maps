@@ -102,6 +102,15 @@ let events2027 = [
         owner: 'SFSO_SPB'
     },
     {
+        id: 'SPB_20270221_3',
+        date: '2027-02-21',
+        place: 'Орехово',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '5, 3',
+        start: 'GORNY_CROSS'
+    },
+    {
         id: 'SPB_20270222_1',
         date: '2027-02-22',
         place: 'Зеркальный',
@@ -151,6 +160,15 @@ let events2027 = [
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
         fmt: 'спринт'
+    },
+    {
+        id: 'SPB_20270501_1',
+        date: '2027-05-01',
+        place: 'Лужский р-н',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '5(4), 2',
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20270508_1',
@@ -209,6 +227,18 @@ let events2027 = [
         owner: 'SFSO_SPB'
     },
     {
+        id: 'SPB_20270604_1',
+        date: '2027-06-04',
+        endDate: '2027-06-06',
+        place: 'Кузнечное',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '24, 8(7), 3',
+        coord: [61.122356, 29.884197],
+        map: 'kuznechnoe_2009',
+        start: 'GORNY_CROSS'
+    },
+    {
         id: 'SPB_20270606_1',
         date: '2027-06-06',
         place: 'Ленинградская область',
@@ -240,6 +270,25 @@ let events2027 = [
         name: 'Каменюкола',
         fmt: 'детская эстафета',
         owner: 'NW'
+    },
+    {
+        id: 'SPB_20270703_1',
+        date: '2027-07-03',
+        place: 'Орехово',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '6(5), 3',
+        start: 'GORNY_CROSS'
+    },
+    {
+        id: 'SPB_20270731_1',
+        date: '2027-07-31',
+        endDate: '2027-08-15',
+        place: 'Кисловодск, Ставропольский край',
+        name: 'УТС Горного кросса',
+        info: 'Учебно-тренировочный сбор. Восхождение на Эльбрус с севера.',
+        region: 'STAVROPOL',
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20270808_1',
@@ -280,6 +329,17 @@ let events2027 = [
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
         fmt: 'эстафета 3х'
+    },
+    {
+        id: 'SPB_20270918_1',
+        date: '2027-09-18',
+        place: 'Молодёжное, ст. Мухино',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '5(4), 2',
+        coord: [60.261944, 29.5341],
+        map: 'molodezhnoe_gk_2024',
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20270923_1',
@@ -325,6 +385,18 @@ let events2027 = [
         name: 'Золотая осень, ЧиП ЛО',
         start: 'LO_CHAMP',
         owner: 'VYBORG',
+    },
+    {
+        id: 'SPB_20271009_2',
+        date: '2027-10-09',
+        place: 'Кавголово',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '1–2',
+        info: 'Тренировка ГК. По выбору 1–2 часа бегом или на велосипеде.',
+        coord: [60.172356, 30.525661],
+        map: 'kavgolovo_2017',
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20271010_2',
@@ -388,6 +460,16 @@ let events2027 = [
         place: 'Ленинградская область',
         name: 'Осенний марафон',
         owner: 'AZIMUT'
+    },
+    {
+        id: 'SPB_20271105_1',
+        date: '2027-11-05',
+        place: 'Орехово',
+        name: 'Горный кросс, финал Кубка ГК',
+        type: 'ROGAINE',
+        fmt: '6(5), 3',
+        info: 'Финал Кубка ГК.',
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20271114_1',

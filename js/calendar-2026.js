@@ -3790,6 +3790,8 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/info/56353', // https://orgeo.ru/event/48943
         endReg: '2026-11-11 22:00',
         bulletin: 'https://orgeo.ru/files/event/file/56353_acf100af6d.pdf',
+        photo: 'https://vk.ru/album-166397868_312455965',
+        res: 'https://vk.ru/wall-166397868_5712',
         fmt: '5, 3',
         coord: [58.726257, 29.812109],
         type: 'ROGAINE',
@@ -3846,6 +3848,15 @@ let events2026 = [
         fmt: 'лично-командные',
         endReg: '2026-11-14 16:00',
         map: 'kudrovo_school_3_2024'
+    },
+    {
+        id: 'SPB_20261116_1',
+        date: '2026-11-16',
+        name: 'Кубок СПАСКа по ориентированию',
+        place: 'Обводный канал',
+        fmt: 'спринт',
+        coord: [59.909794, 30.31238],
+        reg: 'https://orgeo.ru/event/56895'
     },
     {
         id: 'SPB_20261121_1',
