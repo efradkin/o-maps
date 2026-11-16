@@ -2988,6 +2988,14 @@ let moscowMaps = [
     },
     {
         name: 'Усадьба Братцево',
+        year: 2026,
+        url: './maps/moscow/ak/bratsevo_2026.webp',
+        bounds: [[55.8537093, 37.3943710], [55.8486503, 37.4238539], [55.8411088, 37.3881054]],
+        author: ['SKLV_V','MTN_Y'],
+        owner: 'MLKHT'
+    },
+    {
+        name: 'Усадьба Братцево',
         url: './maps/moscow/o-mephi/20200919_536.webp',
         link: 'http://o-mephi.net/cup/maps/20200919_536.jpg',
         local_link: './external/original_maps/moscow/o-mephi/20200919_536_omaps.jpg',

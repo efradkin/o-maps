@@ -32,7 +32,8 @@ let mskEvents2026 = [
         type: "ORIENT",
         coord: [55.848381, 37.400581],
         reg: "https://orgeo.ru/event/48993",
-        bulletin: "https://docs.google.com/document/d/1hxeUdEbzK8K3hJMXTALPfNln0gvhg0Ksso3N8g4AJic/edit?usp=sharing"
+        bulletin: "https://docs.google.com/document/d/1hxeUdEbzK8K3hJMXTALPfNln0gvhg0Ksso3N8g4AJic/edit?usp=sharing",
+        map: 'bratsevo_2026'
     },
     {
         id: 'MSK_20260111_1',
@@ -1832,7 +1833,7 @@ let mskEvents2026 = [
         reg: "https://buyrun.ru/event/138",
         res: "https://orgeo.ru/files/event/file/53880_3773e2f36a.xlsx",
         owner: "MLKHT",
-        map: "20200919_536"
+        map: "bratsevo_2026"
     },
     {
         id: 'MSK_20260704_2',
@@ -3378,7 +3379,7 @@ let mskEvents2026 = [
         reg: "https://buyrun.ru/event/160",
         res: "https://malahit-sprint.ru/live/start-2026-11-07-mikrogejn-bratcevo",
         owner: "MLKHT",
-        map: '20200919_688'
+        map: 'bratsevo_2026'
     },
     {
         id: 'MSK_20261108_1',

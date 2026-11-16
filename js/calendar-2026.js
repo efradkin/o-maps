@@ -3856,7 +3856,8 @@ let events2026 = [
         place: 'Обводный канал',
         fmt: 'спринт',
         coord: [59.909794, 30.31238],
-        reg: 'https://orgeo.ru/event/56895'
+        reg: 'https://orgeo.ru/event/56895',
+        closed: true
     },
     {
         id: 'SPB_20261121_1',
@@ -3867,7 +3868,8 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1765',
         endReg: '2026-11-19',
         map: 'vyborg_saymenskie_dachi_2013',
-        bulletin: 'https://o-site.spb.ru/_races/261121/261121_info.pdf'
+        bulletin: 'https://o-site.spb.ru/_races/261121/261121_info.pdf',
+        owner: 'VYBORG'
     },
     {
         id: 'SPB_20261121_2',
