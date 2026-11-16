@@ -548,7 +548,7 @@ let mskEvents2025 = [
         maps: [
             "https://tkmgtu.ru/library/images/thumb/2/28/BNO2018.jpg/212px-BNO2018.jpg",
         ],
-        photos: [
+        photo: [
             "https://disk.yandex.ru/d/N6fyy5czVlX_pw",
         ],
         start: 'BNO'
@@ -2885,7 +2885,7 @@ let mskEvents2025 = [
             "https://tkmgtu.ru/library/images/thumb/b/bc/Bno2020v.png/212px-Bno2020v.png",
             "https://tkmgtu.ru/library/images/thumb/4/45/Bno2020zn.png/212px-Bno2020zn.png",
         ],
-        photos: [
+        photo: [
             "https://vk.com/album-190261264_274434115",
         ],
         start: 'BNO'
@@ -4212,7 +4212,7 @@ let mskEvents2025 = [
             "https://tkmgtu.ru/library/images/thumb/3/34/Bno2021v.png/212px-Bno2021v.png",
             "https://tkmgtu.ru/library/images/thumb/8/8e/Bno2021zn.png/212px-Bno2021zn.png",
         ],
-        photos: [
+        photo: [
             "https://drive.google.com/drive/folders/1zPG_rd4P-m33RYBRLzUXFqwGtti-ODxM?usp=sharing",
         ],
         start: 'BNO'
@@ -5464,7 +5464,7 @@ let mskEvents2025 = [
             "https://tkmgtu.ru/library/images/thumb/c/c2/Map_bno2022_v.jpg/212px-Map_bno2022_v.jpg",
             "https://tkmgtu.ru/library/images/thumb/6/68/Map_bno2022_zn.jpg/212px-Map_bno2022_zn.jpg",
         ],
-        photos: [
+        photo: [
             "https://disk.yandex.ru/d/Dp_dcPTp36Hskw",
         ],
         start: 'BNO'
@@ -6707,7 +6707,7 @@ let mskEvents2025 = [
             "https://forestadventure.ru/2023/bno/map2.png",
             "https://forestadventure.ru/2023/bno/mapzn.png",
         ],
-        photos: [
+        photo: [
             "https://disk.yandex.ru/d/5wTviYpv2MtlmA",
         ],
         start: 'BNO'
@@ -8184,7 +8184,7 @@ let mskEvents2025 = [
             "https://forestadventure.ru/2024/bno/map2.jpg",
             "https://forestadventure.ru/2024/bno/map_zn.jpg",
         ],
-        photos: [
+        photo: [
             "https://disk.yandex.ru/d/WlDz1yPVJghN4A",
             "https://disk.yandex.ru/a/74cx0rpKgTT71A",
             "https://disk.yandex.ru/a/Gd9XY0GkgNv-kA",
@@ -11329,7 +11329,7 @@ let mskEvents2025 = [
             "https://forestadventure.ru/2025/bno/map_bno2025_vb.jpg",
             "https://forestadventure.ru/2025/bno/map_bno2025_zn.jpg",
         ],
-        photos: [
+        photo: [
             "https://vk.com/album-190261264_307621048",
             "https://disk.yandex.ru/d/m5jkcXYgKmXZlQ",
             "https://disk.yandex.ru/d/mnw4fv9p3tXvJg",
