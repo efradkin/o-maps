@@ -7,7 +7,8 @@ let mskEvents2025 = [
         place: "Пчёлка (район ст. Икша)",
         type: "ORIENT",
         bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/572-nochnoe-orientirovanie-v-eti-vykhodnye",
-        start: 'BNO'
+        start: 'BNO',
+        map: 'pchelka_2000'
     },
     {
         id: 'MSK_20061021_1',
@@ -17,7 +18,8 @@ let mskEvents2025 = [
         place: "Пчёлка (ст. Икша)",
         type: "ORIENT",
         bulletin: "https://tkmgtu.ru/articles/13-news-and-announcements/trekking-mountain-skiihg/785-bolshoe-nochnoe-orientirovanie",
-        start: 'BNO'
+        start: 'BNO',
+        map: 'pchelka_2000'
     },
     {
         id: 'MSK_20071124_1',
@@ -27,10 +29,12 @@ let mskEvents2025 = [
         place: "район пл. Весенняя",
         type: "ORIENT",
         bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/992-bolshoe-nochnoe-orientirovanie-zayavka-zakonchena",
+/*
         maps: [
             "https://tourism2.web-soft.ru/gallery/displayimage.php?album=431&pos=18",
             "https://tourism2.web-soft.ru/gallery/displayimage.php?album=431&pos=19",
         ],
+*/
         start: 'BNO'
     },
     {
@@ -46,6 +50,7 @@ let mskEvents2025 = [
             "https://tkmgtu.ru/library/images/thumb/a/ad/BNO2008B1.jpg/106px-BNO2008B1.jpg",
             "https://tkmgtu.ru/library/images/thumb/5/59/BNO2008B2.jpg/212px-BNO2008B2.jpg",
         ],
+        map: 'semhoz_bno_2008',
         start: 'BNO'
     },
     {
@@ -56,6 +61,7 @@ let mskEvents2025 = [
         place: "Красногорский лес (район пл. Опалиха)",
         type: "ORIENT",
         bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/1408-bolshoe-nochnoe-orientirovanie-2009",
+        map: 'chernevo_2009',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/e/e0/BNO2009A.jpg/212px-BNO2009A.jpg",
             "https://tkmgtu.ru/library/images/thumb/d/d7/BNO2009B1.jpg/106px-BNO2009B1.jpg",
@@ -71,6 +77,7 @@ let mskEvents2025 = [
         place: "окрестности г. Фрязино",
         type: "ORIENT",
         bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/1638-bolshoe-nochnoe-orientirovanie-2010",
+        map: 'friazino_2008',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/f/f0/BNO2010A.jpg/107px-BNO2010A.jpg",
             "https://tkmgtu.ru/library/images/thumb/1/18/BNO2010B.jpg/212px-BNO2010B.jpg",
@@ -85,6 +92,7 @@ let mskEvents2025 = [
         place: "долина р. Рожайка (район пл. Взлётная)",
         type: "ORIENT",
         bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/1371-bolshoe-nochnoe-orientirovanie-2011",
+        map: '20210608_90',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/9/99/BNO2011A.jpg/213px-BNO2011A.jpg",
             "https://tkmgtu.ru/library/images/thumb/5/54/BNO2011B.jpg/212px-BNO2011B.jpg",
@@ -100,6 +108,7 @@ let mskEvents2025 = [
         place: "Одинцовский лес",
         type: "ORIENT",
         bulletin: "https://tkmgtu.ru/2012-07-30-12-18-24/11-news-and-announcements/general/1810-bolshoe-nochnoe-orientirovanie-2012",
+        map: 'odintsovo_2010',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/c/ca/BNO2012A.jpg/106px-BNO2012A.jpg",
             "https://tkmgtu.ru/library/images/thumb/3/37/BNO2012B1.jpg/212px-BNO2012B1.jpg",
@@ -123,9 +132,10 @@ let mskEvents2025 = [
         date: "2013-11-23",
         endDate: "2013-11-24",
         name: "Большое Ночное Ориентирование",
-        place: "с. Ильинское",
+        place: "Ильинское",
         type: "ORIENT",
         bulletin: "https://tkmgtu.ru/home/11-news-and-announcements/general/1925-bolshoe-nochnoe-orientirovanie-2013",
+        map: 'ilinskoe_2011',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/0/04/BNO2013A.jpg/212px-BNO2013A.jpg",
             "https://tkmgtu.ru/library/images/thumb/1/16/BNO2013B.jpg/212px-BNO2013B.jpg",
@@ -150,6 +160,7 @@ let mskEvents2025 = [
         type: "ORIENT",
         bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/2017-bno2014",
         o_gps: 324,
+        map: 'lytkarino_bno_2014',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/d/da/BNO2014A.jpg/101px-BNO2014A.jpg",
             "https://tkmgtu.ru/library/images/thumb/4/40/BNO2014B.jpg/106px-BNO2014B.jpg",
@@ -178,6 +189,7 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/2302",
         bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/2097-bno2015",
         o_gps: 776,
+        map: '20210606_368',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/9/92/BNO2015A.jpg/106px-BNO2015A.jpg",
             "https://tkmgtu.ru/library/images/thumb/5/56/Bno2015b.jpg/212px-Bno2015b.jpg",
@@ -232,6 +244,7 @@ let mskEvents2025 = [
         place: "Томилинский лесопарк (Лыткарино)",
         type: "ORIENT",
         bulletin: "https://tkmgtu.ru/articles/2169-bolshoe-nochnoe-orientirovanie-andreya-zajtseva-2016",
+        map: 'lytkarino_bno_2016',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/6/63/BNO2016A.jpg/212px-BNO2016A.jpg",
             "https://tkmgtu.ru/library/images/thumb/8/87/BNO2016B.jpg/212px-BNO2016B.jpg",
@@ -297,6 +310,7 @@ let mskEvents2025 = [
         place: "Таракановы горы (пос. Фосфоритный)",
         type: "ORIENT",
         bulletin: "https://tkmgtu.ru/articles/2242-bno2017",
+        map: '20210616_136',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/6/62/BNO2017A.png/212px-BNO2017A.png",
             "https://tkmgtu.ru/library/images/thumb/c/c7/BNO2017B.jpg/208px-BNO2017B.jpg",
@@ -545,6 +559,7 @@ let mskEvents2025 = [
         place: "пос. Степаньково (Пушкинский район)",
         type: "ORIENT",
         bulletin: "https://tkmgtu.ru/articles/2294-bolshoe-nochnoe-orientirovanie-andreya-zajtseva-17-18-noyabrya-2018",
+        map: 'stepankovo_2018',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/2/28/BNO2018.jpg/212px-BNO2018.jpg",
         ],
@@ -1539,6 +1554,7 @@ let mskEvents2025 = [
         endReg: "2019-11-21 02:00",
         o_gps: 6759,
         bulletin: "https://tkmgtu.ru/articles/2340-bolshoe-nochnoe-orientirovanie-2019-polozhenie-i-registratsiya",
+        map: '20210603_109',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/3/3f/BNO2019D1D2.png/212px-BNO2019D1D2.png",
             "https://tkmgtu.ru/library/images/thumb/5/53/BNO2019D1Trail.png/106px-BNO2019D1Trail.png",
@@ -2881,6 +2897,7 @@ let mskEvents2025 = [
         endReg: "2020-11-13 21:00",
         o_gps: 8521,
         bulletin: "https://forestadventure.ru/2020/11/02/bno2020-maininfo.html",
+        map: 'krasnogorsk_2019',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/b/bc/Bno2020v.png/212px-Bno2020v.png",
             "https://tkmgtu.ru/library/images/thumb/4/45/Bno2020zn.png/212px-Bno2020zn.png",
@@ -4208,6 +4225,7 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/15705",
         endReg: "2021-11-12 23:55",
         bulletin: "https://forestadventure.ru/bno2021-maininfo/",
+        map: 'odintsovo_2023',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/3/34/Bno2021v.png/212px-Bno2021v.png",
             "https://tkmgtu.ru/library/images/thumb/8/8e/Bno2021zn.png/212px-Bno2021zn.png",
@@ -5460,6 +5478,7 @@ let mskEvents2025 = [
         endReg: "2022-11-10 23:55",
         o_gps: 14604,
         bulletin: "https://forestadventure.ru/bno2022-info/",
+        map: 'tsjurupy_2021',
         maps: [
             "https://tkmgtu.ru/library/images/thumb/c/c2/Map_bno2022_v.jpg/212px-Map_bno2022_v.jpg",
             "https://tkmgtu.ru/library/images/thumb/6/68/Map_bno2022_zn.jpg/212px-Map_bno2022_zn.jpg",
@@ -6702,6 +6721,7 @@ let mskEvents2025 = [
         endReg: "2023-11-09 23:55",
         bulletin: "https://forestadventure.ru/bno2023-info/",
         o_gps: 17762,
+        map: '20210603_109',
         maps: [
             "https://forestadventure.ru/2023/bno/map1.png",
             "https://forestadventure.ru/2023/bno/map2.png",
@@ -8179,6 +8199,7 @@ let mskEvents2025 = [
         endReg: "2024-11-07 23:55",
         bulletin: "https://forestadventure.ru/bno2024-info/",
         o_gps: 21055,
+        map: 'ostashovo_bno_2024',
         maps: [
             "https://forestadventure.ru/2024/bno/map1.jpg",
             "https://forestadventure.ru/2024/bno/map2.jpg",
@@ -11324,6 +11345,7 @@ let mskEvents2025 = [
         endReg: "2025-11-13 23:55",
         bulletin: "https://forestadventure.ru/bno2025-info/",
         o_gps: 23862,
+        map: '20250614_923',
         maps: [
             "https://forestadventure.ru/2025/bno/map_bno2025_va.jpg",
             "https://forestadventure.ru/2025/bno/map_bno2025_vb.jpg",

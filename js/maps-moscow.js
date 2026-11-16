@@ -485,6 +485,7 @@ let moscowMaps = [
     {
         name: 'Белопесоцкий',
         year: 2022,
+        startYear: 2023,
         start: 'BNO',
         o_gps: {
             '2019':6759,
@@ -776,6 +777,7 @@ let moscowMaps = [
     {
         name: 'Долина р. Рожайка в Домодедово',
         year: 2012,
+        startYear: 2011,
         start: 'BNO',
         info: "БНО'2011.",
         url: './maps/moscow/o-mephi/20210608_90.webp',
@@ -969,6 +971,7 @@ let moscowMaps = [
     {
         name: 'Красногорский Лес',
         year: 2021,
+        startYear: 2020,
         start: 'BNO',
         o_gps: 8521,
         url: './maps/moscow/ak/krasnogorsk_2019.webp',
@@ -2352,7 +2355,7 @@ let moscowMaps = [
         year: 2018,
         startYear: 2015,
         start: 'BNO',
-        info: '<br />Карта леса у платформы Раздоры в Одинцово. После вырубки короедных завалов карта потеряла свою актуальность. Ведется благоустройство.',
+        info: 'Карта леса у платформы Раздоры в Одинцово. После вырубки короедных завалов карта потеряла свою актуальность. Ведется благоустройство.',
         o_gps: {
             '2015':776
         },
@@ -2435,6 +2438,8 @@ let moscowMaps = [
     {
         name: 'Одинцово',
         year: 2010,
+        startYear: 2012,
+        start: 'BNO',
         url: './maps/moscow/odintsovo_2010.webp',
         link: './original_maps/moscow/lr/odintsovo_2010_omaps.jpg',
         bounds: [[55.7206328, 37.2112083], [55.7137675, 37.274766], [55.6935275, 37.2021103]],
@@ -2796,7 +2801,7 @@ let moscowMaps = [
         name: 'Таракановы Горы (Фосфоритный)',
         year: 2017,
         start: 'BNO',
-        info: '<br />Карта в зеленой части в значительной степени устарела, для проведения серьезных соревнований требует площадной корректировки (2021) В 2021 году проведена масштабная корректировка гидрографии, отображена актуальная проходимость болот. В 2022 году подготовлена новая редакция этой карты под Многодневные соревнования. Тут приведена старая версия.',
+        info: 'Карта в зеленой части в значительной степени устарела, для проведения серьезных соревнований требует площадной корректировки. В 2021 году проведена масштабная корректировка гидрографии, отображена актуальная проходимость болот. В 2022 году подготовлена новая редакция этой карты под Многодневные соревнования. Тут приведена старая версия.',
         url: './maps/moscow/o-mephi/20210616_136.webp',
         link: ['http://o-mephi.net/cup/maps/20210616_136.jpg','https://tkmgtu.ru/library/images/c/c7/BNO2017B.jpg'],
         local_link: ['./external/original_maps/moscow/o-mephi/20210616_136_1_omaps.jpg','./external/original_maps/moscow/o-mephi/20210616_136_2_omaps.jpg'],
@@ -2806,9 +2811,11 @@ let moscowMaps = [
     {
         name: 'Таракановы Горы (Фосфоритный)',
         year: 2023,
+        startYear: 2025,
+        start: 'BNO',
         info: 'Новая версия карты от Виктора Добрецова. Подготовлена в 2022 году под многодневные соревнования "Москва".',
         url: './maps/moscow/o-mephi/20250614_923.webp',
-        link: ['http://o-mephi.net/cup/maps/20250614_923.jpg','http://o-mephi.net/cup/maps/20250614_684.ocd'],
+        link: ['http://o-mephi.net/cup/maps/20250614_923.jpg','http://o-mephi.net/cup/maps/20250614_684.ocd','https://forestadventure.ru/2025/bno/map_bno2025_va.jpg'],
         local_link: ['./external/original_maps/moscow/o-mephi/20250614_923_1_omaps.jpg','./external/original_maps/moscow/o-mephi/20250614_923_2_omaps.ocd'],
         bounds: [[55.3488407, 38.9007854], [55.3433013, 38.9476061], [55.3301941, 38.8942194]],
         author: 'DBRTSV_V',
@@ -3491,6 +3498,7 @@ let moscowMaps = [
     {
         name: 'им Цюрупы',
         year: 2021,
+        startYear: 2022,
         start: 'BNO',
         o_gps: 14604,
         url: './maps/moscow/tsjurupy_2021.webp',
@@ -3903,6 +3911,7 @@ let moscowMaps = [
     {
         name: 'Ильинское',
         year: 2011,
+        startYear: 2013,
         start: 'BNO',
         info: "БНО'2013.",
         url: './maps/moscow/ak/ilinskoe_2011.webp',
@@ -5477,6 +5486,7 @@ let moscowMaps = [
     {
         name: 'Фрязино, Карея',
         year: 2008,
+        startYear: 2010,
         start: 'BNO',
         info: "БНО'2010.",
         url: './maps/moscow/ak/friazino_2008.webp',
@@ -6113,6 +6123,8 @@ let moscowMaps = [
     {
         name: 'Пчёлка',
         year: 2002,
+        startYear: 2006,
+        start: 'BNO',
         url: './maps/moscow/pchelka_2000.webp',
         link: './original_maps/moscow/lr/pchelka_2002_omaps.jpg',
         bounds: [[56.1701186, 37.5217438], [56.1650053, 37.5885201], [56.1472708, 37.5154781]],
@@ -6444,6 +6456,7 @@ let moscowMaps = [
     {
         name: 'Одинцово',
         year: 2023,
+        startYear: 2021,
         start: 'BNO',
         o_gps: 11519,
         url: './maps/moscow/odintsovo_2023.webp',

@@ -3301,7 +3301,7 @@ function buildOrderPanel(m) {
             result += `. Приблизительная дата готовности - ${m.order.ready}`;
         }
         result += `${from ? '. Заказчик - ' + from : ''}.<br />`;
-        if (m.order.author) {
+        if (m.order && m.order.author) {
             if (Array.isArray(m.author)) {
                 result += 'Исполнители:';
             } else {
