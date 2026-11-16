@@ -2824,7 +2824,23 @@ function buildEventPlace(event, suffix) {
 
 function buildEventPlaceOMaps(event, suffix) {
     let mapPage ='spb.html';
-    if (REGION_KEY === 'MSK') {
+    if (REGION_KEY === 'starts') {
+        // На странице старта события могут относиться к разным календарям.
+        // Московское событие определяем по ID, region события/старта или исходному массиву.
+        // Для остальных используем общую карту; явная страница карты ниже имеет приоритет.
+        const eventStarts = Array.isArray(event.start)
+            ? event.start
+            : (event.start ? [event.start] : []);
+        const hasMskRegion = event.region === 'MSK' || eventStarts.some(startCode =>
+            typeof starts !== 'undefined' && starts[startCode]?.region === 'MSK'
+        );
+        const isMoscowEvent =
+            (typeof event.id === 'string' && event.id.startsWith('MSK_')) ||
+            hasMskRegion ||
+            (typeof mskEvents2025 !== 'undefined' && mskEvents2025.includes(event)) ||
+            (typeof mskEvents2026 !== 'undefined' && mskEvents2026.includes(event));
+        mapPage = isMoscowEvent ? 'moscow.html' : 'all.html';
+    } else if (REGION_KEY === 'MSK') {
         mapPage = 'moscow.html';
     } else if (REGION_KEY === 'tracks') {
         mapPage = 'tracks.html';

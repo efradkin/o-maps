@@ -830,6 +830,7 @@ let starts = {
         short: 'Аэророгейн',
         name: 'Аэророгейн',
         logo: 'aero.jpg',
+        region: 'MSK',
         info: 'Традиционная московская серия стартов по рогейну от команды Open Band, которая проходит в Новой Москве (район Внуково / Филимонковское).',
         rogaine: true,
         owner: 'OPEN_BAND'
@@ -838,6 +839,7 @@ let starts = {
         short: 'БНО',
         name: '<a href="https://tkmgtu.ru/library/Большое_Ночное_Ориентирование">Большое Ночное Ориентирование</a>',
         logo: 'bno.jpg',
+        region: 'MSK',
         info: '<p>Большое ночное ориентирование, посвящённое памяти Андрея Зайцева, проводится в формате индивидуальной тренировки по спортивному ориентированию бегом в ночных условиях. ' +
             'Основная задача — дать возможность опытным ориентировщикам, рогейнерам и туристам повысить уровень своего мастерства, а новичкам приобщиться к спорту и бросить вызов ' +
             'своим страхам перед тёмным холодным лесом! <p>Организатор — <a href=" https://tkmgtu.ru/library/Большое_Ночное_Ориентирование">Турклуб МГТУ им. Баумана</a> и ' +
@@ -855,6 +857,7 @@ let starts = {
         short: 'Компот-рогейн',
         name: '<a href="https://www.x-lite.run/">Компот-рогейн</a>',
         logo: 'kmpt-rogaine.jpg',
+        region: 'MSK',
         info: 'Московский ежегодный кубок стартов по рогейну - бегом, на велосипеде и на лыжах.',
         rogaine: true,
         owner: 'KMPT'
@@ -864,15 +867,18 @@ let starts = {
         name: '<a href="https://vk.com/moscow__lite">Московский лайт</a>',
         logo: 'msk_light.jpg',
         rogaine: true,
+        region: 'MSK',
         owner: 'KMPT'
     },
     MSK_COMPASS: {
         short: 'Московский компас',
+        region: 'MSK',
         name: '<a href="https://sportident.ru/mk/">Московский компас</a>',
         logo: 'mos_comp.webp'
     },
     OBSW: {
         short: 'OBSW',
+        region: 'MSK',
         name: '<a href="https://orientband.ru/obsw">Open Band Sprint Weekend</a>',
         logo: 'obsw.png',
         owner: 'OPEN_BAND'
@@ -880,6 +886,7 @@ let starts = {
     TROPA_THRSDAY: {
         short: 'Тропаревские четверги',
         name: 'Тропаревские четверги',
+        region: 'MSK',
         logo: 'tropa_thirsday.jpg'
     },
     ZM: {
