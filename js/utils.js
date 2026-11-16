@@ -425,7 +425,9 @@ const isMobile = regex.test(navigator.userAgent) ||
 
 function loadAllCalendars() {
     return [
-        ...commonEvents,
+        ...samaraEvents2026,
+        ...mskEvents2026,
+        ...mskEvents2025,
         ...iofEvents,
         ...fsorEvents,
         ...irfEvents,

@@ -1,5 +1,113 @@
 let mskEvents2025 = [
     {
+        id: 'MSK_20051126_1',
+        date: "2005-11-26",
+        endDate: "2005-11-27",
+        name: "Ночное ориентирование",
+        place: "Пчёлка (район ст. Икша)",
+        type: "ORIENT",
+        bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/572-nochnoe-orientirovanie-v-eti-vykhodnye",
+        start: 'BNO'
+    },
+    {
+        id: 'MSK_20061021_1',
+        date: "2006-10-21",
+        endDate: "2006-10-22",
+        name: "Ночное ориентирование",
+        place: "Пчёлка (ст. Икша)",
+        type: "ORIENT",
+        bulletin: "https://tkmgtu.ru/articles/13-news-and-announcements/trekking-mountain-skiihg/785-bolshoe-nochnoe-orientirovanie",
+        start: 'BNO'
+    },
+    {
+        id: 'MSK_20071124_1',
+        date: "2007-11-24",
+        endDate: "2007-11-25",
+        name: "Ночное ориентирование (Весенняя)",
+        place: "район пл. Весенняя",
+        type: "ORIENT",
+        bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/992-bolshoe-nochnoe-orientirovanie-zayavka-zakonchena",
+        maps: [
+            "https://tourism2.web-soft.ru/gallery/displayimage.php?album=431&pos=18",
+            "https://tourism2.web-soft.ru/gallery/displayimage.php?album=431&pos=19",
+        ],
+        start: 'BNO'
+    },
+    {
+        id: 'MSK_20081129_1',
+        date: "2008-11-29",
+        endDate: "2008-11-30",
+        name: "Большое Ночное Ориентирование",
+        place: "район пл. Семхоз",
+        type: "ORIENT",
+        bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/1191-bolshoe-nochnoe-orientirovanie-2008",
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/5/5f/BNO2008A.jpg/212px-BNO2008A.jpg",
+            "https://tkmgtu.ru/library/images/thumb/a/ad/BNO2008B1.jpg/106px-BNO2008B1.jpg",
+            "https://tkmgtu.ru/library/images/thumb/5/59/BNO2008B2.jpg/212px-BNO2008B2.jpg",
+        ],
+        start: 'BNO'
+    },
+    {
+        id: 'MSK_20091128_1',
+        date: "2009-11-28",
+        endDate: "2009-11-29",
+        name: "Большое Ночное Ориентирование",
+        place: "Красногорский лес (район пл. Опалиха)",
+        type: "ORIENT",
+        bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/1408-bolshoe-nochnoe-orientirovanie-2009",
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/e/e0/BNO2009A.jpg/212px-BNO2009A.jpg",
+            "https://tkmgtu.ru/library/images/thumb/d/d7/BNO2009B1.jpg/106px-BNO2009B1.jpg",
+            "https://tkmgtu.ru/library/images/thumb/e/e0/BNO2009B2.jpg/212px-BNO2009B2.jpg",
+        ],
+        start: 'BNO'
+    },
+    {
+        id: 'MSK_20101127_1',
+        date: "2010-11-27",
+        endDate: "2010-11-28",
+        name: "Большое Ночное Ориентирование",
+        place: "окрестности г. Фрязино",
+        type: "ORIENT",
+        bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/1638-bolshoe-nochnoe-orientirovanie-2010",
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/f/f0/BNO2010A.jpg/107px-BNO2010A.jpg",
+            "https://tkmgtu.ru/library/images/thumb/1/18/BNO2010B.jpg/212px-BNO2010B.jpg",
+        ],
+        start: 'BNO'
+    },
+    {
+        id: 'MSK_20111126_1',
+        date: "2011-11-26",
+        endDate: "2011-11-27",
+        name: "Большое Ночное Ориентирование",
+        place: "долина р. Рожайка (район пл. Взлётная)",
+        type: "ORIENT",
+        bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/1371-bolshoe-nochnoe-orientirovanie-2011",
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/9/99/BNO2011A.jpg/213px-BNO2011A.jpg",
+            "https://tkmgtu.ru/library/images/thumb/5/54/BNO2011B.jpg/212px-BNO2011B.jpg",
+            "https://tkmgtu.ru/library/images/thumb/7/77/BNO2011S.jpg/106px-BNO2011S.jpg",
+        ],
+        start: 'BNO'
+    },
+    {
+        id: 'MSK_20121201_1',
+        date: "2012-12-01",
+        endDate: "2012-12-02",
+        name: "Большое Ночное Ориентирование",
+        place: "Одинцовский лес",
+        type: "ORIENT",
+        bulletin: "https://tkmgtu.ru/2012-07-30-12-18-24/11-news-and-announcements/general/1810-bolshoe-nochnoe-orientirovanie-2012",
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/c/ca/BNO2012A.jpg/106px-BNO2012A.jpg",
+            "https://tkmgtu.ru/library/images/thumb/3/37/BNO2012B1.jpg/212px-BNO2012B1.jpg",
+            "https://tkmgtu.ru/library/images/thumb/f/fc/BNO2012B2.jpg/106px-BNO2012B2.jpg",
+        ],
+        start: 'BNO'
+    },
+    {
         id: 'MSK_20130914_1',
         date: "2013-09-14",
         endDate: "2013-09-15",
@@ -11,6 +119,20 @@ let mskEvents2025 = [
         endReg: "2013-09-13 04:00"
     },
     {
+        id: 'MSK_20131123_1',
+        date: "2013-11-23",
+        endDate: "2013-11-24",
+        name: "Большое Ночное Ориентирование",
+        place: "с. Ильинское",
+        type: "ORIENT",
+        bulletin: "https://tkmgtu.ru/home/11-news-and-announcements/general/1925-bolshoe-nochnoe-orientirovanie-2013",
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/0/04/BNO2013A.jpg/212px-BNO2013A.jpg",
+            "https://tkmgtu.ru/library/images/thumb/1/16/BNO2013B.jpg/212px-BNO2013B.jpg",
+        ],
+        start: 'BNO'
+    },
+    {
         id: 'MSK_20140921_1',
         date: "2014-09-21",
         name: "Маршрутомания-2014",
@@ -18,6 +140,21 @@ let mskEvents2025 = [
         type: "ORIENT",
         coord: [55.611595, 37.556763],
         reg: "https://orgeo.ru/event/1184"
+    },
+    {
+        id: 'MSK_20141122_1',
+        date: "2014-11-22",
+        endDate: "2014-11-23",
+        name: "Большое Ночное Ориентирование",
+        place: "Лыткаринский лес (карьер Волкуша)",
+        type: "ORIENT",
+        bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/2017-bno2014",
+        o_gps: 324,
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/d/da/BNO2014A.jpg/101px-BNO2014A.jpg",
+            "https://tkmgtu.ru/library/images/thumb/4/40/BNO2014B.jpg/106px-BNO2014B.jpg",
+        ],
+        start: 'BNO'
     },
     {
         id: 'MSK_20150904_1',
@@ -35,11 +172,17 @@ let mskEvents2025 = [
         id: 'MSK_20151121_1',
         date: "2015-11-21",
         endDate: "2015-11-22",
-        name: "Большое Ночное Ориентирование Турклуба МГТУ им.Баумана",
-        place: "Ромашково",
+        name: "Большое Ночное Ориентирование",
+        place: "пл. Раздоры",
         type: "ORIENT",
-        coord: [55.781979, 37.791595],
-        reg: "https://orgeo.ru/event/2302"
+        reg: "https://orgeo.ru/event/2302",
+        bulletin: "https://tkmgtu.ru/articles/11-news-and-announcements/general/2097-bno2015",
+        o_gps: 776,
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/9/92/BNO2015A.jpg/106px-BNO2015A.jpg",
+            "https://tkmgtu.ru/library/images/thumb/5/56/Bno2015b.jpg/212px-Bno2015b.jpg",
+        ],
+        start: 'BNO'
     },
     {
         id: 'MSK_20160123_1',
@@ -80,6 +223,21 @@ let mskEvents2025 = [
         coord: [55.807896, 37.466362],
         reg: "https://orgeo.ru/event/3551",
         endReg: "2016-10-20 23:55"
+    },
+    {
+        id: 'MSK_20161119_1',
+        date: "2016-11-19",
+        endDate: "2016-11-20",
+        name: "Большое Ночное Ориентирование Андрея Зайцева",
+        place: "Томилинский лесопарк (Лыткарино)",
+        type: "ORIENT",
+        bulletin: "https://tkmgtu.ru/articles/2169-bolshoe-nochnoe-orientirovanie-andreya-zajtseva-2016",
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/6/63/BNO2016A.jpg/212px-BNO2016A.jpg",
+            "https://tkmgtu.ru/library/images/thumb/8/87/BNO2016B.jpg/212px-BNO2016B.jpg",
+            "https://tkmgtu.ru/library/images/thumb/6/6d/BNO2016D.jpg/212px-BNO2016D.jpg",
+        ],
+        start: 'BNO'
     },
     {
         id: 'MSK_20170128_1',
@@ -130,6 +288,22 @@ let mskEvents2025 = [
         coord: [55.779716, 37.444496],
         reg: "https://orgeo.ru/event/5347",
         endReg: "2017-10-18 23:55"
+    },
+    {
+        id: 'MSK_20171125_1',
+        date: "2017-11-25",
+        endDate: "2017-11-26",
+        name: "Большое Ночное Ориентирование Андрея Зайцева",
+        place: "Таракановы горы (пос. Фосфоритный)",
+        type: "ORIENT",
+        bulletin: "https://tkmgtu.ru/articles/2242-bno2017",
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/6/62/BNO2017A.png/212px-BNO2017A.png",
+            "https://tkmgtu.ru/library/images/thumb/c/c7/BNO2017B.jpg/208px-BNO2017B.jpg",
+            "https://tkmgtu.ru/library/images/thumb/7/77/BNO2017Brev.png/212px-BNO2017Brev.png",
+            "https://tkmgtu.ru/library/images/thumb/8/8c/BNO2017D.png/212px-BNO2017D.png",
+        ],
+        start: 'BNO'
     },
     {
         id: 'MSK_20171126_1',
@@ -362,6 +536,22 @@ let mskEvents2025 = [
         coord: [55.744827, 37.400959],
         reg: "https://orgeo.ru/event/7948",
         endReg: "2018-11-08 23:55"
+    },
+    {
+        id: 'MSK_20181117_1',
+        date: "2018-11-17",
+        endDate: "2018-11-18",
+        name: "Большое Ночное Ориентирование Андрея Зайцева",
+        place: "пос. Степаньково (Пушкинский район)",
+        type: "ORIENT",
+        bulletin: "https://tkmgtu.ru/articles/2294-bolshoe-nochnoe-orientirovanie-andreya-zajtseva-17-18-noyabrya-2018",
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/2/28/BNO2018.jpg/212px-BNO2018.jpg",
+        ],
+        photos: [
+            "https://disk.yandex.ru/d/N6fyy5czVlX_pw",
+        ],
+        start: 'BNO'
     },
     {
         id: 'MSK_20181223_1',
@@ -1347,7 +1537,15 @@ let mskEvents2025 = [
         coord: [54.85873, 38.123894],
         reg: "https://orgeo.ru/event/11138",
         endReg: "2019-11-21 02:00",
-        o_gps: 6759
+        o_gps: 6759,
+        bulletin: "https://tkmgtu.ru/articles/2340-bolshoe-nochnoe-orientirovanie-2019-polozhenie-i-registratsiya",
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/3/3f/BNO2019D1D2.png/212px-BNO2019D1D2.png",
+            "https://tkmgtu.ru/library/images/thumb/5/53/BNO2019D1Trail.png/106px-BNO2019D1Trail.png",
+            "https://tkmgtu.ru/library/images/thumb/3/33/BNO2019D1%2BTrail.png/145px-BNO2019D1%2BTrail.png",
+            "https://tkmgtu.ru/library/images/thumb/a/ae/BNO2019DD.png/212px-BNO2019DD.png",
+        ],
+        start: 'BNO'
     },
     {
         id: 'MSK_20191123_2',
@@ -2678,10 +2876,19 @@ let mskEvents2025 = [
         name: "Большое ночное ориентирование Андрея Зайцева",
         place: "Красногорский лес",
         type: "ORIENT",
-        coord: [55.844589, 37.307007],
+        coord: [55.85651, 37.29906],
         reg: "https://orgeo.ru/event/12984",
         endReg: "2020-11-13 21:00",
-        o_gps: 8521
+        o_gps: 8521,
+        bulletin: "https://forestadventure.ru/2020/11/02/bno2020-maininfo.html",
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/b/bc/Bno2020v.png/212px-Bno2020v.png",
+            "https://tkmgtu.ru/library/images/thumb/4/45/Bno2020zn.png/212px-Bno2020zn.png",
+        ],
+        photos: [
+            "https://vk.com/album-190261264_274434115",
+        ],
+        start: 'BNO'
     },
     {
         id: 'MSK_20201115_1',
@@ -3995,11 +4202,20 @@ let mskEvents2025 = [
         date: "2021-11-13",
         endDate: "2021-11-14",
         name: "Большое ночное ориентирование Андрея Зайцева",
-        place: "Остановка Дорожный дом",
+        place: "Подушкинский лес",
         type: "ORIENT",
-        coord: [55.702106, 37.22578],
+        coord: [55.7058, 37.22882],
         reg: "https://orgeo.ru/event/15705",
-        endReg: "2021-11-12 23:55"
+        endReg: "2021-11-12 23:55",
+        bulletin: "https://forestadventure.ru/bno2021-maininfo/",
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/3/34/Bno2021v.png/212px-Bno2021v.png",
+            "https://tkmgtu.ru/library/images/thumb/8/8e/Bno2021zn.png/212px-Bno2021zn.png",
+        ],
+        photos: [
+            "https://drive.google.com/drive/folders/1zPG_rd4P-m33RYBRLzUXFqwGtti-ODxM?usp=sharing",
+        ],
+        start: 'BNO'
     },
     {
         id: 'MSK_20211113_3',
@@ -5239,10 +5455,19 @@ let mskEvents2025 = [
         name: "Большое ночное ориентирование Андрея Зайцева",
         place: "пос. им. Цюрупы",
         type: "ORIENT",
-        coord: [55.506771, 38.693058],
+        coord: [55.50629, 38.69319],
         reg: "https://orgeo.ru/event/19590",
         endReg: "2022-11-10 23:55",
-        o_gps: 14604
+        o_gps: 14604,
+        bulletin: "https://forestadventure.ru/bno2022-info/",
+        maps: [
+            "https://tkmgtu.ru/library/images/thumb/c/c2/Map_bno2022_v.jpg/212px-Map_bno2022_v.jpg",
+            "https://tkmgtu.ru/library/images/thumb/6/68/Map_bno2022_zn.jpg/212px-Map_bno2022_zn.jpg",
+        ],
+        photos: [
+            "https://disk.yandex.ru/d/Dp_dcPTp36Hskw",
+        ],
+        start: 'BNO'
     },
     {
         id: 'MSK_20221113_1',
@@ -6472,11 +6697,20 @@ let mskEvents2025 = [
         name: "Большое ночное ориентирование Андрея Зайцева",
         place: "Белопесоцкий",
         type: "ORIENT",
-        coord: [54.85873, 38.123894],
+        coord: [54.86249, 38.12608],
         reg: "https://orgeo.ru/event/29011",
         endReg: "2023-11-09 23:55",
         bulletin: "https://forestadventure.ru/bno2023-info/",
-        o_gps: 17762
+        o_gps: 17762,
+        maps: [
+            "https://forestadventure.ru/2023/bno/map1.png",
+            "https://forestadventure.ru/2023/bno/map2.png",
+            "https://forestadventure.ru/2023/bno/mapzn.png",
+        ],
+        photos: [
+            "https://disk.yandex.ru/d/5wTviYpv2MtlmA",
+        ],
+        start: 'BNO'
     },
     {
         id: 'MSK_20231112_1',
@@ -7940,11 +8174,22 @@ let mskEvents2025 = [
         name: "Большое ночное ориентирование Андрея Зайцева",
         place: "Хорлово",
         type: "ORIENT",
-        coord: [55.332928, 38.813953],
+        coord: [55.34055, 38.79249],
         reg: "https://orgeo.ru/event/32006",
         endReg: "2024-11-07 23:55",
         bulletin: "https://forestadventure.ru/bno2024-info/",
-        o_gps: 21055
+        o_gps: 21055,
+        maps: [
+            "https://forestadventure.ru/2024/bno/map1.jpg",
+            "https://forestadventure.ru/2024/bno/map2.jpg",
+            "https://forestadventure.ru/2024/bno/map_zn.jpg",
+        ],
+        photos: [
+            "https://disk.yandex.ru/d/WlDz1yPVJghN4A",
+            "https://disk.yandex.ru/a/74cx0rpKgTT71A",
+            "https://disk.yandex.ru/a/Gd9XY0GkgNv-kA",
+        ],
+        start: 'BNO'
     },
     {
         id: 'MSK_20241109_2',
@@ -11072,13 +11317,24 @@ let mskEvents2025 = [
         date: "2025-11-15",
         endDate: "2025-11-16",
         name: "Большое ночное ориентирование Андрея Зайцева",
-        place: "пос. Фосфоритный",
+        place: "Фосфоритный",
         type: "ORIENT",
         coord: [55.334507, 38.887825],
         reg: "https://orgeo.ru/event/46236",
         endReg: "2025-11-13 23:55",
         bulletin: "https://forestadventure.ru/bno2025-info/",
-        o_gps: 23862
+        o_gps: 23862,
+        maps: [
+            "https://forestadventure.ru/2025/bno/map_bno2025_va.jpg",
+            "https://forestadventure.ru/2025/bno/map_bno2025_vb.jpg",
+            "https://forestadventure.ru/2025/bno/map_bno2025_zn.jpg",
+        ],
+        photos: [
+            "https://vk.com/album-190261264_307621048",
+            "https://disk.yandex.ru/d/m5jkcXYgKmXZlQ",
+            "https://disk.yandex.ru/d/mnw4fv9p3tXvJg",
+        ],
+        start: 'BNO'
     },
     {
         id: 'MSK_20251116_1',
