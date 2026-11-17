@@ -1137,11 +1137,10 @@ let events2008 = [
         date: '2008-11-30',
         name: 'Ориентир «НатАлка»',
         place: 'Сосновка',
-        logo: 'azimut.gif',
         o_site: '081130',
         bulletin: 'https://o-site.spb.ru/_races/081130/081130_info.htm',
         map: 'sosnovka_2004',
-        owner: 'AZIMUT'
+        start: 'NATALKA'
     },
     {
         id: 'SPB_20081130_2',

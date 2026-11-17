@@ -2742,12 +2742,11 @@ let events2023 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1572',
         res: 'https://o-site.spb.ru/_races/2023_Orientir/Split1_231125.htm',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
-        logo: 'azimut.gif',
         strava: 10279018304,
         o_site: '2023_Orientir',
         bulletin: 'https://o-site.spb.ru/_races/2023_Orientir/Info_231125.pdf',
         map: 'piskarevsky_2024',
-        owner: 'AZIMUT',
+        start: 'NATALKA',
         o_gps: {
             'А': 17865,
             'ALL': 17864

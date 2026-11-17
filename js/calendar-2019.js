@@ -2122,11 +2122,10 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1116',
         res: 'https://o-site.spb.ru/_races/191130_NatAlka/Split_191130.htm',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
-        logo: 'azimut.gif',
         o_site: '191130_NatAlka',
         strava: 2901197392,
         map: 'sosnovka_2014',
-        owner: 'AZIMUT',
+        start: 'NATALKA',
         maps: [
             'https://o-site.spb.ru/_races/191130_NatAlka/191130_map.jpg',
             'https://o-site.spb.ru/_races/191130_NatAlka/distB-2.pdf',

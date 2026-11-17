@@ -1625,10 +1625,9 @@ let events2014 = [
         place: 'Сосновка',
         name: 'Ориентир НатАлка',
         res: 'http://o-site.spb.ru/_races/140323_OR/141130_split.htm',
-        logo: 'azimut.gif',
         o_site: '140323_OR',
-        map: ['sosnovka_2014','pushkin_babolovsky_2019','pesochnaya_2005'],
-        start: 'ORIENTIR'
+        map: 'sosnovka_2014',
+        start: 'NATALKA'
     },
     {
         id: 'SPB_20141206_1',

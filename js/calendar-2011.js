@@ -1326,11 +1326,10 @@ let events2011 = [
         place: 'Сосновка',
         name: 'Ориентир-НатАлка',
         res: 'http://o-site.spb.ru/_races/110327_Or/111120_split.htm',
-        logo: 'azimut.gif',
         o_site: '110327_Or',
         bulletin: 'https://o-site.spb.ru/_races/110327_Or/111120_info.htm',
         map: 'sosnovka_2011',
-        start: 'ORIENTIR'
+        start: 'NATALKA'
     },
     {
         id: 'SPB_20111126_1',

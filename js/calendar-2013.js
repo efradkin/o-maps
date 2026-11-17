@@ -1723,7 +1723,7 @@ let events2013 = [
         date: '2013-11-24',
         name: 'Ориентир-НатАлка',
         res: 'http://o-site.spb.ru/_races/130331_OR/131124_split.htm',
-        start: 'ORIENTIR',
+        start: 'NATALKA',
         o_site: '130331_OR'
     },
     {

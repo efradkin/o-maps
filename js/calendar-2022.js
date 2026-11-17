@@ -2611,11 +2611,10 @@ let events2022 = [
         photo: 'http://photos.app.goo.gl/1PwQzd72cB7LXKCb6',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         strava: 8169719874,
-        logo: 'azimut.gif',
         o_site: '2022_Orientir',
         bulletin: 'https://o-site.spb.ru/_races/2022_Orientir/Info_221126.pdf',
         map: 'udelny_2022',
-        owner: 'AZIMUT',
+        start: 'NATALKA',
         o_gps: 14655,
         maps: [
             'https://o-site.spb.ru/_races/2022_Orientir/20221126_ABCD.All.jpg'

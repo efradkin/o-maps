@@ -1380,11 +1380,10 @@ let events2009 = [
         name: 'Ориентир «НатАлка»',
         res: 'https://o-site.spb.ru/_races/090527/091129_res.htm',
         info: 'Традиционный заключительный тренировочный старт КСО Азимут',
-        logo: 'azimut.gif',
         o_site: '090527',
         bulletin: 'https://o-site.spb.ru/_races/090527/091129_info.htm',
         map: 'sosnovka_2004',
-        owner: 'AZIMUT'
+        start: 'NATALKA'
     },
     {
         id: 'SPB_20091129_2',

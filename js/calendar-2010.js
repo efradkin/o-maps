@@ -1329,11 +1329,10 @@ let events2010 = [
         name: 'Ориентир НатАлка',
         res: 'https://o-site.spb.ru/_races/101205_Az/101205_res.htm',
         info: 'Традиционный старт КСО Азимут',
-        logo: 'azimut.gif',
         o_site: '101205_Az',
         bulletin: 'https://o-site.spb.ru/_races/101205_Az/101205_info3.htm',
         map: 'pesochnaya_2005',
-        owner: 'AZIMUT',
+        start: 'NATALKA',
         maps: [
             'https://o-site.spb.ru/_races/101205_Az/101205_map.gif'
         ]

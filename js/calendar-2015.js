@@ -1991,11 +1991,10 @@ let events2015 = [
         name: 'Ориентир НатАлка',
         res: 'https://o-site.spb.ru/_races/151205/151205_res.htm',
         info: 'Серия тренировочных стартов, проводимых КСО "Азимут".',
-        logo: 'azimut.gif',
         o_site: '151205',
         bulletin: 'https://o-site.spb.ru/_races/151205/151205_info.htm',
         map: 'sosnovka_2014',
-        owner: 'AZIMUT',
+        start: 'NATALKA',
         o_gps: 803,
         maps: [
             'https://o-site.spb.ru/_races/151205/151205_dist_.All.jpg'

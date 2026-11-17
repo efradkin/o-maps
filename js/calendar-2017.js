@@ -2120,11 +2120,10 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=815',
         res: 'https://o-site.spb.ru/_races/2017_Orientir/171125_res.htm',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
-        logo: 'azimut.gif',
         o_site: '2017_Orientir',
         bulletin: 'https://o-site.spb.ru/_races/2017_Orientir/171125_info2.htm',
         map: 'sosnovka_2014',
-        owner: 'AZIMUT',
+        start: 'NATALKA',
         maps: [
             'https://o-site.spb.ru/_races/2017_Orientir/171125_dist_demo.pdf'
         ]

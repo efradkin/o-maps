@@ -1560,7 +1560,7 @@ let events2012 = [
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#138',
         bulletin: 'https://o-site.spb.ru/_races/120325_Or/121125_info.htm',
         map: 'sosnovka_2011',
-        start: 'ORIENTIR'
+        start: 'NATALKA'
     },
     {
         id: 'SPB_20121125_2',

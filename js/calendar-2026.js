@@ -3930,7 +3930,7 @@ let events2026 = [
         name: 'Ориентир НатАлка',
         place: 'Пискаревский парк',
         o_site: '2026_Orientir',
-        owner: 'AZIMUT',
+        start: 'NATALKA',
         map: 'piskarevsky_2024'
     },
     {

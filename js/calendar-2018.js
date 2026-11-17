@@ -2149,12 +2149,11 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=969',
         res: 'http://o-site.spb.ru/_races/181201_NatAlka/NatAlka_ispr_res.htm',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут". В 2018 году старт проводится в память об организаторе тренировки Яшуковой Натальи Викторовны.',
-        logo: 'azimut.gif',
         o_site: '181201_NatAlka',
         bulletin: 'https://o-site.spb.ru/_races/181201_NatAlka/181201.pdf',
         reskeep: 97,
         map: 'sosnovka_2014',
-        owner: 'AZIMUT',
+        start: 'NATALKA',
         maps: [
             'https://o-site.spb.ru/_races/181201_NatAlka/NatAlka_map.jpg'
         ]

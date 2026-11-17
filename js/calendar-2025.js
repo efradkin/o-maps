@@ -3453,7 +3453,7 @@ let events2025 = [
         map: 'udelny_2021',
         strava: 16608173278,
         me: 'МА',
-        owner: 'AZIMUT',
+        start: 'NATALKA'
     },
     {
         id: 'SPB_20251205_1',

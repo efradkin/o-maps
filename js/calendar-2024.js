@@ -2754,7 +2754,7 @@ let events2024 = [
         o_site: '2024_Orientir',
         bulletin: 'https://o-site.spb.ru/_races/2024_Orientir/Info_241130.pdf',
         map: 'piskarevsky_2024',
-        owner: 'AZIMUT',
+        start: 'NATALKA',
         o_gps: {
             'A': 21201,
             'C': 21215
