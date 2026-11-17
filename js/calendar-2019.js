@@ -1737,10 +1737,9 @@ let events2019 = [
         place: 'Болотная станция',
         res: 'https://o-site.spb.ru/_races/191012_/Res_PetOs.htm',
         info: 'Соревнования проводятся после окончания Чемпионата СПб среди ВУЗов в том же районе.',
-        logo: 'azimut.gif',
         o_site: '191012_',
         bulletin: 'https://o-site.spb.ru/_races/191012_/Info_PetOs.pdf',
-        owner: 'AZIMUT',
+        start: 'SPB_AUTUMN',
         map: 'bolotnaya_station_2019'
     },
     {

@@ -1203,8 +1203,7 @@ let events2010 = [
         name: 'Петербургская осень, Первенство ВУЗов',
         res: 'https://o-site.spb.ru/_races/101031_Az/101031_res.htm',
         info: 'Закрытие сезона КСО Азимут и СДЮСШОР Курортного р-на. Первенство СПб среди студентов ВУЗов',
-        owner: 'SFSO_SPB',
-        logo: 'azimut.gif',
+        start: 'SPB_AUTUMN',
         o_site: '101031_Az',
         bulletin: 'https://o-site.spb.ru/_races/101031_Az/101031_info.htm'
     },

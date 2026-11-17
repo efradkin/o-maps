@@ -1184,11 +1184,10 @@ let events2009 = [
         name: 'Петербургская осень',
         res: 'https://o-site.spb.ru/_races/091018_az/091018_res.htm',
         info: 'Закрытие летнего сезона СДЮСШОР Курортного р-на и КСО Азимут',
-        logo: 'azimut.gif',
         o_site: '091018_az',
         bulletin: 'https://o-site.spb.ru/_races/091018_az/091018_info2.htm',
         map: 'lembolovo_2002',
-        owner: 'AZIMUT'
+        start: 'SPB_AUTUMN'
     },
     {
         id: 'SPB_20091022_1',

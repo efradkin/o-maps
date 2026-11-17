@@ -1152,10 +1152,9 @@ let events2011 = [
         place: 'Токсово, оз Светлое',
         name: 'Петербургская осень',
         res: 'https://o-site.spb.ru/_races/111015_Az/111015_res.htm',
-        logo: 'azimut.gif',
         o_site: '111015_Az',
         bulletin: 'https://o-site.spb.ru/_races/111015_Az/111015_info_PO.htm',
-        owner: 'AZIMUT'
+        start: 'SPB_AUTUMN'
     },
     {
         id: 'SPB_20111015_2',

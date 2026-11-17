@@ -1697,12 +1697,10 @@ let events2015 = [
         date: '2015-10-17',
         place: 'Зеленогорск, Чёрные озёра',
         name: 'Ч-т СПб среди ВУЗов - Петербургская осень',
-        start: 'SPB_CHAMP',
+        start: 'SPB_AUTUMN',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/151017_Az/151017_res_st.xls',
-        logo: 'azimut.gif',
-        o_site: '151017_Az',
-        owner: 'AZIMUT'
+        o_site: '151017_Az'
     },
     {
         id: 'SPB_20151017_3',

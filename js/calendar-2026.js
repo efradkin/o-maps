@@ -2713,7 +2713,7 @@ let events2026 = [
         },
         strava: 20060095934,
         me: 'М50',
-        owner: 'AZIMUT',
+        start: 'SPB_AUTUMN',
         map: 'petjajarvy_2024'
     },
     {

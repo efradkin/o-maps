@@ -2992,10 +2992,11 @@ let events2025 = [
         id: 'SPB_20251026_5',
         date: '2025-10-26',
         name: 'Петербургская осень, Чемпионат СПб среди ВУЗов',
-        place: 'п. Колоскова',
+        place: 'Колосковo',
         coord: [60.601505, 30.197718],
         reg: 'https://orgeo.ru/event/47423',
-        map: 'krivko_2021'
+        map: 'krivko_2021',
+        start: 'SPB_AUTUMN'
     },
 /*
     {
@@ -3028,7 +3029,7 @@ let events2025 = [
         me: 'М50',
         strava: 16261630543,
         map: 'krivko_2021',
-        owner: 'AZIMUT'
+        start: 'SPB_AUTUMN'
     },
     {
         id: 'SPB_20251026_4',

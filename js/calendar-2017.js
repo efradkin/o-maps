@@ -1934,10 +1934,9 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=802',
         res: 'https://o-site.spb.ru/_races/171014_Az/171015_res__.htm',
         info: 'Традиционные осенние соревнования КСО "Азимут"',
-        logo: 'azimut.gif',
         o_site: '171014_Az',
         bulletin: 'https://o-site.spb.ru/_races/171014_Az/171015_info3.htm',
-        owner: 'AZIMUT',
+        start: 'SPB_AUTUMN',
         map: 'orlinaya_gora_2004'
     },
     {

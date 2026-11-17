@@ -1984,7 +1984,7 @@ let events2022 = [
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга, с выполнением массовых разрядов',
         o_site: '221001',
         bulletin: 'https://o-site.spb.ru/_races/221001/Info2_PetOs_221001.pdf',
-        owner: 'AZIMUT',
+        start: 'SPB_AUTUMN',
         map: 'stekljanny_2021'
     },
     {

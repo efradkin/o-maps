@@ -2509,12 +2509,11 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/231029/Res1_231029.htm',
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга, с выполнением массовых разрядов',
         strava: 10124307608,
-        logo: 'azimut.gif',
         o_site: '231029',
         bulletin: 'https://o-site.spb.ru/_races/231029/Info_PetOs1_231029.pdf',
         reskeep: 617,
         map: 'serovo_2024',
-        owner: 'AZIMUT',
+        start: 'SPB_AUTUMN',
         o_gps: {
             'М40/45/Фсл': 17683,
             'ALL': 17685

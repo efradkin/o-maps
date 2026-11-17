@@ -1726,10 +1726,9 @@ let events2016 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=653',
         res: 'https://o-site.spb.ru/_races/161022_/161022_res.htm',
         info: 'Традиционный осенний старт КСО "Азимут" - открытое первенство КСО "Азимут".',
-        logo: 'azimut.gif',
         o_site: '161022_',
         bulletin: 'https://o-site.spb.ru/_races/161022_/161022_info.htm',
-        owner: 'AZIMUT'
+        start: 'SPB_AUTUMN'
     },
     {
         id: 'SPB_20161023_1',

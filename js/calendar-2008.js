@@ -968,10 +968,9 @@ let events2008 = [
         place: 'Чёрные озёра - Ленинское',
         name: 'Петербургская осень',
         res: 'https://o-site.spb.ru/_races/081019/081019_res.htm',
-        logo: 'azimut.gif',
         o_site: '081019',
         bulletin: 'https://o-site.spb.ru/_races/081019/081019_info.htm',
-        owner: 'AZIMUT'
+        start: 'SPB_AUTUMN'
     },
     {
         id: 'SPB_20081023_1',

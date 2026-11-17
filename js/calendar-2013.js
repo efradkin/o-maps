@@ -1629,8 +1629,7 @@ let events2013 = [
         name: 'Петербургская осень - Открытое первенство КСО Азимут',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/131026_Az/131026_res.htm',
-        owner: 'AZIMUT',
-        logo: 'azimut.gif',
+        start: 'SPB_AUTUMN',
         o_site: '131026_Az',
         bulletin: 'https://o-site.spb.ru/_races/131026_Az/131026_info_.htm',
         map: 'voejkovo_2009'

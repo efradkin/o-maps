@@ -2062,11 +2062,10 @@ let events2021 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1311',
         res: 'https://o-site.spb.ru/_races/211009_/Res_PetOs_211009.htm',
         info: 'Соревнования проводятся после окончания Чемпионата СПб среди ВУЗов в том же районе.',
-        logo: 'azimut.gif',
         o_site: '211009_',
         bulletin: 'https://o-site.spb.ru/_races/211009_/Info_PetOs_211009.pdf',
         map: 'pukhtolova_gora_2025',
-        owner: 'AZIMUT'
+        start: 'SPB_AUTUMN'
     },
     {
         id: 'SPB_20211009_3',

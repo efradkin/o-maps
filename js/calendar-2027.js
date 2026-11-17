@@ -320,7 +320,7 @@ let events2027 = [
         date: '2027-09-11',
         place: 'Ленинградская область',
         name: 'Петербургская осень',
-        owner: 'AZIMUT'
+        start: 'SPB_AUTUMN'
     },
     {
         id: 'SPB_20270912_1',

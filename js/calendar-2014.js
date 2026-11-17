@@ -1464,10 +1464,9 @@ let events2014 = [
         name: 'Петербургская осень - Открытое п-во КСО Азимут',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/141025_Az/141025_res.htm',
-        logo: 'azimut.gif',
         o_site: '141025_Az',
         bulletin: 'https://o-site.spb.ru/_races/141025_Az/141025_info.htm',
-        owner: 'AZIMUT'
+        start: 'SPB_AUTUMN'
     },
     {
         id: 'SPB_20141026_1',

@@ -1931,7 +1931,7 @@ let events2018 = [
         res: 'http://www.northernwind.spb.ru/videosplit/2018/pervenstvostudetov_zolotayaosen/',
         photo: 'http://vk.com/spb_orient?z=album-154221178_257632174',
         video: 'http://www.northernwind.spb.ru/videosplit/2018/pervenstvostudetov_zolotayaosen/',
-        owner: 'AZIMUT',
+        start: 'SPB_AUTUMN',
         o_site: '181027_',
         reg: 'http://o-reg.spb.ru/entry-list?id=957',
         bulletin: 'https://o-site.spb.ru/_races/181027_/181027_info2.pdf',

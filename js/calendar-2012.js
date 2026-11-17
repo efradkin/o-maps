@@ -1406,10 +1406,9 @@ let events2012 = [
         name: 'Петербургская осень',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/121027_Az/121027_res.htm',
-        logo: 'azimut.gif',
         o_site: '121027_Az',
         bulletin: 'https://o-site.spb.ru/_races/121027_Az/121027_info2.htm',
-        owner: 'AZIMUT'
+        start: 'SPB_AUTUMN'
     },
     {
         id: 'SPB_20121027_2',

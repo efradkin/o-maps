@@ -1111,9 +1111,8 @@ let events2007 = [
         place: 'Зеленогорск',
         name: 'Петербургская осень',
         res: 'https://o-site.spb.ru/_races/071021/071021_res.htm',
-        logo: 'azimut.gif',
         o_site: '071021',
-        owner: 'AZIMUT'
+        start: 'SPB_AUTUMN'
     },
     {
         id: 'SPB_20071021_2',
