@@ -171,9 +171,7 @@ const GLOBAL_MENU_ITEMS = [
         menuItems: [
             { title: '📖 Оглавление', page: 'history/index' },
             { title: '🌍 Мир', page: 'history/world-history' },
-/*
             { title: '🇪🇺 Европа', page: 'history/europe-history' },
-*/
             { title: '🇷🇺 Россия и СССР', page: 'history/russia-history' },
             { title: '🏛️ Москва', page: 'history/moscow-history' },
             { title: '🏙️ Ленинград, Петербург', page: 'history/spb-history' },

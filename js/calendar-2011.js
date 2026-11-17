@@ -623,6 +623,7 @@ let events2011 = [
         id: 'SPB_20110601_1',
         date: '2011-06-01',
         name: 'Ночная тренировка команды 110%',
+        place: 'Сярьги',
         res: 'https://o-site.spb.ru/_races/110601/110601_split.htm',
         info: 'Тренировка по подготовке к Jukola 2011',
         start: 'ROGAINE_110',

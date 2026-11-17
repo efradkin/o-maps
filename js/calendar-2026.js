@@ -3723,7 +3723,7 @@ let events2026 = [
         coord: [60.456219, 30.287008],
         o_gps: 26279,
         me: '2ч',
-        starava: 20892940158,
+        strava: 20892940158,
         start: 'GORNY_CROSS'
     },
     {
@@ -3835,8 +3835,11 @@ let events2026 = [
         endReg: '2026-11-14 20:00',
         bulletin: 'https://o-site.spb.ru/_races/261115_WN/261115_WN.pdf',
         map: 'bolotnaya_station_2019',
+        res: 'https://t.me/whitenightesspb/968',
         o_gps: 26318,
-        reskeep: 954
+        reskeep: 954,
+        me: 'MA',
+        strava: 20995410300
     },
     {
         id: 'SPB_20261115_3',
@@ -3892,6 +3895,7 @@ let events2026 = [
         coord: [59.903667, 30.462872],
         reg: 'https://orgeo.ru/event/56925',
         endReg: '2026-11-20 12:00',
+        map: 'school_339_2008',
         closed: true
     },
     {
