@@ -796,4 +796,8 @@ let owners = {
         name: '<a href="https://o-novgorod.ru/48-2/">о-Новгород</a>',
         logo: 'novgorod_books.gif'
     },
+    IOF_MC: {
+        name: '<a href="http://lazarus.elte.hu/mc/index.html">IOF Map Commission (MC) 2015-2016</a>',
+        logo: 'iof-mc.gif'
+    },
 }

@@ -28,7 +28,7 @@ let rules = [
     },
     {
         name: 'International Specification for Orienteering Maps, ISOM 2000',
-        year: 2001,
+        year: 2000,
         url: './rules/iof_isom_2000_2011_omaps.pdf',
         owner: 'IOF',
         lng: 'en',
@@ -213,5 +213,95 @@ let rules = [
         year: 2010,
         url: 'https://spbof.ru/jdownloads/documents/rogaining_rules_spb_110609.pdf',
         owner: 'SFSO_SPB'
+    },
+    // --- Исторические спецификации IOF (архив IOF-MC) ---
+    {
+        name: 'Signaturen für OL-Karten (1969)',
+        year: 1969,
+        url: 'http://lazarus.elte.hu/mc/museum/official/isom1969.pdf',
+        link: './rules/iof_isom_1969_omaps.pdf',
+        owner: 'IOF_MC',
+        lng: 'de',
+        outdated: true
+    },
+    {
+        name: 'International Specification for Orienteering Maps (1975)',
+        year: 1975,
+        url: 'http://lazarus.elte.hu/mc/museum/official/isom1975.pdf',
+        link: './rules/iof_isom_1975_omaps.pdf',
+        owner: 'IOF_MC',
+        lng: 'en',
+        outdated: true
+    },
+    {
+        name: 'International Specification for Orienteering Maps (1990)',
+        year: 1990,
+        url: 'http://lazarus.elte.hu/mc/museum/official/isom1990.pdf',
+        link: './rules/iof_isom_1990_omaps.pdf',
+        owner: 'IOF_MC',
+        lng: 'en',
+        outdated: true
+    },
+    {
+        name: 'International Specification for Sprint Orienteering Maps (ISSOM 2007)',
+        year: 2007,
+        url: 'http://lazarus.elte.hu/mc/specs/issom2007.pdf',
+        link: './rules/iof_issom_2007_omaps.pdf',
+        owner: 'IOF_MC',
+        lng: 'en',
+        outdated: true
+    },
+    {
+        name: 'Drawing specifications for international ski orienteering maps (1984)',
+        year: 1984,
+        url: 'http://lazarus.elte.hu/mc/museum/official/isskiom1984.pdf',
+        link: './rules/iof_isskiom_1984_omaps.pdf',
+        owner: 'IOF_MC',
+        lng: 'en',
+        outdated: true
+    },
+    {
+        name: 'International Specification for Ski-Orienteering Maps (1994)',
+        year: 1994,
+        url: 'http://lazarus.elte.hu/mc/museum/official/isskiom1994.pdf',
+        link: './rules/iof_isskiom_1994_omaps.pdf',
+        owner: 'IOF_MC',
+        lng: 'en',
+        outdated: true
+    },
+    {
+        name: 'Map specification for ski-orienteering (2002)',
+        year: 2002,
+        url: 'http://lazarus.elte.hu/mc/specs/isskiom-2002.pdf',
+        owner: 'IOF_MC',
+        lng: 'en',
+        outdated: true
+    },
+    {
+        name: 'Map specification for ski-orienteering (2009)',
+        year: 2009,
+        url: 'http://lazarus.elte.hu/mc/specs/isskiom-2009.pdf',
+        link: './rules/iof_isskiom_2009_omaps.pdf',
+        owner: 'IOF_MC',
+        lng: 'en',
+        outdated: true
+    },
+    {
+        name: 'International Specification for Mountain Bike Orienteering Maps (2007)',
+        year: 2007,
+        url: 'http://lazarus.elte.hu/mc/specs/mtbo-2007.pdf',
+        link: './rules/iof_ismtbom_2007_omaps.pdf',
+        owner: 'IOF_MC',
+        lng: 'en',
+        outdated: true
+    },
+    {
+        name: 'International Specification for Mountain Bike Orienteering Maps (2010)',
+        year: 2010,
+        url: 'http://lazarus.elte.hu/mc/specs/ismtbom-2010.pdf',
+        link: './rules/iof_ismtbom_2010_omaps.pdf',
+        owner: 'IOF_MC',
+        lng: 'en',
+        outdated: true
     },
 ];
