@@ -3934,6 +3934,17 @@ let events2026 = [
         map: 'piskarevsky_2024'
     },
     {
+        id: 'SPB_20261128_4',
+        date: '2026-11-28',
+        name: 'Ночное ориентирование альпклуба «Горняк»',
+        place: 'Колосково, оз Тенистое',
+        link: 'https://vk.ru/wall-252774_7349',
+        reg: 'https://docs.google.com/spreadsheets/d/1LIRoOTIe5bhJYkjRq0eP_LBUZVwgJs8DwzHod2VnXjM/edit?usp=sharing',
+        fmt: 'ночное командное',
+        coord: [60.601561, 30.197677],
+        map: 'krivko_2025'
+    },
+    {
         id: 'SPB_20261129_1',
         date: '2026-11-29',
         name: 'Кавголовская классика',
@@ -3943,7 +3954,8 @@ let events2026 = [
         o_site: '261129_bn',
         reg: 'https://orgeo.ru/event/56645',
         endReg: '2026-11-28 20:00',
-        map: 'kavgolovo_old_ski_track_2023'
+        map: 'kavgolovo_old_ski_track_2023',
+        owner: 'WN'
     },
 /*
     {
