@@ -2026,10 +2026,9 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=809',
         res: 'https://o-site.spb.ru/_races/171004_OM/171104_res_.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
-        logo: 'azimut.gif',
         o_site: '171004_OM',
         bulletin: 'https://o-site.spb.ru/_races/171004_OM/171104_info.pdf',
-        owner: 'AZIMUT'
+        start: 'AUTUMN_MARATHON'
     },
     {
         id: 'SPB_20171105_1',

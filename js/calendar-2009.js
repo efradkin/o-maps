@@ -1285,10 +1285,9 @@ let events2009 = [
         name: 'Осенний марафон',
         res: 'https://o-site.spb.ru/_races/091104_az/091104_res.htm',
         info: 'Традиционные праздничные ноябрьские соревнования',
-        logo: 'azimut.gif',
         o_site: '091104_az',
         bulletin: 'https://o-site.spb.ru/_races/091104_az/091104_info2.htm',
-        owner: 'AZIMUT',
+        start: 'AUTUMN_MARATHON',
         map: 'toksovo_okhta_park_2008'
     },
     {

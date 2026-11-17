@@ -459,7 +459,7 @@ let events2027 = [
         date: '2027-11-04',
         place: 'Ленинградская область',
         name: 'Осенний марафон',
-        owner: 'AZIMUT'
+        start: 'AUTUMN_MARATHON'
     },
     {
         id: 'SPB_20271105_1',

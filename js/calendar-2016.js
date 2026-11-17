@@ -1808,12 +1808,11 @@ let events2016 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=658',
         res: 'https://o-site.spb.ru/_races/161104_/161104_res.htm',
         info: 'Традиционные праздничные ноябрьские соревнования на удлинённой дистанции, проводимые КСО "Азимут".',
-        logo: 'azimut.gif',
         o_site: '161104_',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#232',
         bulletin: 'https://o-site.spb.ru/_races/161104_/161104_info.pdf',
         map: 'lembolovo_2024',
-        owner: 'AZIMUT'
+        start: 'AUTUMN_MARATHON'
     },
     {
         id: 'SPB_20161105_1',

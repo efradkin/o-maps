@@ -1962,11 +1962,10 @@ let events2019 = [
         name: 'Осенний марафон',
         res: 'https://o-site.spb.ru/_races/191004_OM/RES_OM_1.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
-        logo: 'azimut.gif',
         o_site: '191004_OM',
         bulletin: 'https://o-site.spb.ru/_races/191004_OM/Info_OsMarafon1.pdf',
         reskeep: 286,
-        owner: 'AZIMUT'
+        start: 'AUTUMN_MARATHON'
     },
     {
         id: 'SPB_20191109_1',

@@ -2363,13 +2363,13 @@ let events2021 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1321',
         res: 'https://o-site.spb.ru/_races/211104_OM/Res_211104.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
-        logo: 'azimut.gif',
         o_site: '211104_OM',
         bulletin: 'https://o-site.spb.ru/_races/211104_OM/Info_OsM1_211104.pdf',
         reskeep: 501,
         strava: 6210792077,
-        owner: 'AZIMUT',
-        o_gps: 11461
+        start: 'AUTUMN_MARATHON',
+        o_gps: 11461,
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20211107_1',

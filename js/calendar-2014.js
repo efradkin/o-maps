@@ -1517,10 +1517,9 @@ let events2014 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/141104_OM/141104_res.htm',
         info: 'Традиционные праздничные ноябрьские соревнования на удлинённой дистанции',
-        logo: 'azimut.gif',
         o_site: '141104_OM',
         bulletin: 'https://o-site.spb.ru/_races/141104_OM/141104_info.htm',
-        owner: 'AZIMUT'
+        start: 'AUTUMN_MARATHON'
     },
     {
         id: 'SPB_20141115_1',

@@ -1244,10 +1244,9 @@ let events2011 = [
         place: 'Зеленогорск, Болотная станция',
         name: 'Осенний марафон',
         res: 'https://o-site.spb.ru/_races/111104_Az/111104_res.htm',
-        logo: 'azimut.gif',
         o_site: '111104_Az',
         bulletin: 'https://o-site.spb.ru/_races/111104_Az/111104_info.htm',
-        owner: 'AZIMUT',
+        start: 'AUTUMN_MARATHON',
         map: 'bolotnaya_station_2019'
     },
     {

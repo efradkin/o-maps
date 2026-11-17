@@ -791,10 +791,9 @@ let events2005 = [
         place: 'Лемболово',
         name: 'Осенний Марафон',
         res: 'https://o-site.spb.ru/_races/051104/051104_res.zip',
-        logo: 'azimut.gif',
         o_site: '051104',
         map: 'lembolovo_2002',
-        owner: 'AZIMUT'
+        start: 'AUTUMN_MARATHON'
     },
     {
         id: 'SPB_20051105_1',

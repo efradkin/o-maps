@@ -3698,7 +3698,7 @@ let events2026 = [
         coord: [60.367405, 29.553411],
         photo: ['https://vk.ru/album-220245153_314867535','https://disk.yandex.ru/d/uMvVKReQt6TxKQ'],
         video: 'https://vk.ru/clip-220245153_456239107',
-        owner: 'AZIMUT',
+        start: 'AUTUMN_MARATHON',
         map: 'tsvelodubovo_2020',
         endReg: '2026-11-01 18:00',
         strava: 20854831427,

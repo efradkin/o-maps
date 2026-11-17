@@ -3102,7 +3102,7 @@ let events2025 = [
         },
         map: 'michurinskoe_2022',
         reskeep: 816,
-        owner: 'AZIMUT'
+        start: 'AUTUMN_MARATHON'
     },
     {
         id: 'SPB_20251104_2',

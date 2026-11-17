@@ -1479,11 +1479,10 @@ let events2012 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/121103_Az/121103_res.htm',
         info: 'Традиционный осенний старт КСО "Азимут" на удлинённой дистанции',
-        logo: 'azimut.gif',
         o_site: '121103_Az',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#136',
         bulletin: 'https://o-site.spb.ru/_races/121103_Az/121103_info2.htm',
-        owner: 'AZIMUT'
+        start: 'AUTUMN_MARATHON'
     },
     {
         id: 'SPB_20121104_1',

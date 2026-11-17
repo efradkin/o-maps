@@ -2392,12 +2392,11 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/221104_OM/Res1_221104.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         strava: 8066428678,
-        logo: 'azimut.gif',
         o_site: '221104_OM',
         reg: 'https://orgeo.ru/event/25022',
         bulletin: 'https://o-site.spb.ru/_races/221104_OM/Info_OM_221104.pdf',
         reskeep: 563,
-        owner: 'AZIMUT',
+        start: 'AUTUMN_MARATHON',
         o_gps: {
             'M14/16': 14548,
             'M40/45': 14556

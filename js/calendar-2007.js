@@ -1228,10 +1228,9 @@ let events2007 = [
         fmt: 'удлиненная дистанция, заданное направление.',
         name: 'Осенний марафон',
         res: 'https://o-site.spb.ru/_races/071105/071105_res.zip',
-        logo: 'azimut.gif',
         o_site: '071105',
         map: 'orekhovo_rakitinskoe_2004',
-        owner: 'AZIMUT'
+        start: 'AUTUMN_MARATHON'
     },
     {
         id: 'SPB_20071115_1',

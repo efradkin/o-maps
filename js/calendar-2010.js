@@ -1235,11 +1235,10 @@ let events2010 = [
         name: 'Осенний марафон',
         res: 'https://o-site.spb.ru/_races/101104_Az/101104_res.htm',
         info: 'Традиционные праздничные ноябрьские соревнования на удлинённой дистанции, проводимы клубом Азимут',
-        logo: 'azimut.gif',
         o_site: '101104_Az',
         bulletin: 'https://o-site.spb.ru/_races/101104_Az/101104_info2.htm',
         map: 'lembolovo_2002',
-        owner: 'AZIMUT'
+        start: 'AUTUMN_MARATHON'
     },
     {
         id: 'SPB_20101105_1',

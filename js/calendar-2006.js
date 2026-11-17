@@ -815,9 +815,8 @@ let events2006 = [
         name: 'Осенний марафон',
         res: 'https://o-site.spb.ru/_races/061104_om/061104_res.htm',
         info: 'Традиционные, праздничные, ноябрьские соревнования "Осенний марафон"',
-        logo: 'azimut.gif',
         o_site: '061104_om',
-        owner: 'AZIMUT'
+        start: 'AUTUMN_MARATHON'
     },
     {
         id: 'SPB_20061104_2',

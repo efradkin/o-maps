@@ -2571,11 +2571,10 @@ let events2024 = [
             'M50':21032,
             'M60':21043
         },
-        logo: 'azimut.gif',
         o_site: '241104_OM',
         bulletin: 'https://o-site.spb.ru/_races/241104_OM/Info_OM_241104.pdf',
         map: 'tsvelodubovo_2020',
-        owner: 'AZIMUT'
+        start: 'AUTUMN_MARATHON'
     },
     {
         id: 'SPB_20241109_1',

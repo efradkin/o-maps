@@ -2547,12 +2547,11 @@ let events2023 = [
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         strava: 10157953030,
         video: ['https://www.youtube.com/watch?v=4-RZFClk0FY','https://www.youtube.com/watch?v=oUmx_E2DtAA'],
-        logo: 'azimut.gif',
         o_site: '231104_OM',
         bulletin: 'https://o-site.spb.ru/_races/231104_OM/Info_OM_231104.pdf',
         reskeep: 626,
         map: 'snegirevka_2021',
-        owner: 'AZIMUT',
+        start: 'AUTUMN_MARATHON',
         o_gps: 17742
     },
     {

@@ -1043,11 +1043,10 @@ let events2008 = [
         place: 'Орехово',
         name: 'Осенний марафон',
         res: 'https://o-site.spb.ru/_races/081102/081102_res.htm',
-        logo: 'azimut.gif',
         o_site: '081102',
         bulletin: 'https://o-site.spb.ru/_races/081102/081102_info2.htm',
         map: 'orekhovo_rakitinskoe_2004',
-        owner: 'AZIMUT'
+        start: 'AUTUMN_MARATHON'
     },
     {
         id: 'SPB_20081102_2',
