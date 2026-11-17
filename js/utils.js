@@ -425,9 +425,9 @@ const isMobile = regex.test(navigator.userAgent) ||
 
 function loadAllCalendars() {
     return [
-        ...samaraEvents2026,
-        ...mskEvents2026,
-        ...mskEvents2025,
+        ...(typeof samaraEvents2026 !== 'undefined' && Array.isArray(samaraEvents2026) ? samaraEvents2026 : []),
+        ...(typeof mskEvents2026 !== 'undefined' && Array.isArray(mskEvents2026) ? mskEvents2026 : []),
+        ...(typeof mskEvents2025 !== 'undefined' && Array.isArray(mskEvents2025) ? mskEvents2025 : []),
         ...iofEvents,
         ...fsorEvents,
         ...irfEvents,
@@ -458,6 +458,7 @@ function loadAllCalendars() {
         ...eventsEarly
     ];
 }
+
 
 function year(o) { // map, track, event
     if (o.year) return o.year;
