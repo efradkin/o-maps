@@ -405,9 +405,7 @@ let nnMaps = [
             '12':16744
         },
         author: 'EKSHV',
-        owner: 'VACHSKY',
-        start: 'VACHSKY',
-        region: 'N_NOVGOROD'
+        start: 'VACHSKY'
     },
     {
         name: 'Навашино, Святое Дедовское оз',
@@ -418,9 +416,7 @@ let nnMaps = [
         bounds: [[55.6448069, 42.2947454], [55.6402779, 42.3362446], [55.6273418, 42.2888231]],
         o_gps: 16515,
         author: 'EKSHV',
-        owner: 'VACHSKY',
-        start: 'VACHSKY',
-        region: 'N_NOVGOROD'
+        start: 'VACHSKY'
     },
     {
         name: 'Навашино',
@@ -430,9 +426,7 @@ let nnMaps = [
         link: ['./original_maps/nn/navashino_2025_06_11_m_omaps.webp','./original_maps/nn/navashino_2025_06_11_w_omaps.webp'],
         bounds: [[55.5487131, 42.180301], [55.5465281, 42.1974885], [55.5419695, 42.1774256]],
         author: 'UHVNV_A',
-        owner: 'VACHSKY',
         start: 'VACHSKY',
-        region: 'N_NOVGOROD',
         type: ['CITY','SPRINT']
     },
     {
@@ -443,9 +437,7 @@ let nnMaps = [
         link: ['./original_maps/nn/navashino_korobkovo_2025_06_12_m_omaps.webp','./original_maps/nn/navashino_korobkovo_2025_06_12_w_omaps.webp'],
         bounds: [[55.6604486, 42.2848535], [55.6575314, 42.3098302], [55.6494565, 42.2811627]],
         author: 'EKSHV',
-        owner: 'VACHSKY',
-        start: 'VACHSKY',
-        region: 'N_NOVGOROD'
+        start: 'VACHSKY'
     },
     {
         name: 'Навашино, Малышево',
@@ -455,9 +447,7 @@ let nnMaps = [
         link: ['./original_maps/nn/navashino_malyshevo_2025_06_13_m_omaps.webp','./original_maps/nn/navashino_malyshevo_2025_06_13_w_omaps.webp','./original_maps/nn/navashino_malyshevo_2025_06_14_m_omaps.webp','./original_maps/nn/navashino_malyshevo_2025_06_14_w_omaps.webp'],
         bounds: [[55.6347793, 42.3192501], [55.630661, 42.3566723], [55.6198544, 42.3140144]],
         author: 'EKSHV',
-        owner: 'VACHSKY',
-        start: 'VACHSKY',
-        region: 'N_NOVGOROD'
+        start: 'VACHSKY'
     },
     {
         name: 'Вача, Монаково',
@@ -467,9 +457,7 @@ let nnMaps = [
         link: ['./original_maps/nn/vacha_monakovo_2024_06_14_omaps.webp','./original_maps/nn/vacha_monakovo_2024_06_15_omaps.webp'],
         bounds: [[55.7475743, 42.3852968], [55.7432987, 42.4276114], [55.7298409, 42.3824644]],
         author: 'EKSHV',
-        owner: 'VACHSKY',
-        start: 'VACHSKY',
-        region: 'N_NOVGOROD'
+        start: 'VACHSKY'
     },
     {
         name: 'Вача, Невадьево',
@@ -481,9 +469,7 @@ let nnMaps = [
                './original_maps/nn/vacha_nevadievo_2026_06_07_m_omaps.webp','./original_maps/nn/vacha_nevadievo_2026_06_07_w_omaps.webp'],
         bounds: [[55.7296234, 42.723856], [55.7248021, 42.7625012], [55.7064054, 42.7146935]],
         author: ['KNDRSHKN_V','SCHV_V'],
-        owner: 'VACHSKY',
-        start: 'RUS_CUP',
-        region: 'N_NOVGOROD'
+        start: 'RUS_CUP'
     },
     {
         name: 'Вача, Лесниково',
@@ -493,9 +479,7 @@ let nnMaps = [
         link: ['./original_maps/nn/vacha_lesnikovo_2026_06_10_m_omaps.webp','./original_maps/nn/vacha_lesnikovo_2026_06_10_w_omaps.webp','./original_maps/nn/vacha_lesnikovo_2026_06_11_m_omaps.webp','./original_maps/nn/vacha_lesnikovo_2026_06_11_w_omaps.webp'],
         bounds: [[55.8610315, 42.6218033], [55.8583822, 42.6512432], [55.8508667, 42.6194]],
         author: 'EKSHV',
-        owner: 'VACHSKY',
-        start: 'VACHSKY',
-        region: 'N_NOVGOROD'
+        start: 'VACHSKY'
     },
     {
         name: 'Вача, Филинское',
@@ -505,9 +489,7 @@ let nnMaps = [
         link: './original_maps/nn/vacha_filinskoe_2026_06_12_omaps.webp',
         bounds: [[55.7731877, 42.4785948], [55.7715282, 42.4938297], [55.7645934, 42.4755156]],
         author: 'EKSHV',
-        owner: 'VACHSKY',
-        start: 'VACHSKY',
-        region: 'N_NOVGOROD'
+        start: 'VACHSKY'
     },
     {
         name: 'Вача',
@@ -517,9 +499,7 @@ let nnMaps = [
         link: ['./original_maps/nn/vacha_2026_06_12_m_omaps.webp','./original_maps/nn/vacha_2026_06_12_w_omaps.webp'],
         bounds: [[55.8037774, 42.7646899], [55.8018961, 42.7792704], [55.7973792, 42.7619755]],
         author: 'UHVNV_A',
-        owner: 'VACHSKY',
         start: 'VACHSKY',
-        region: 'N_NOVGOROD',
         type: ['CITY','SPRINT']
     },
     {
@@ -532,8 +512,6 @@ let nnMaps = [
         o_gps: 25368,
         video: 'https://vk.com/video-140114545_456239149',
         author: 'EKSHV',
-        owner: 'VACHSKY',
-        start: 'VACHSKY',
-        region: 'N_NOVGOROD'
+        start: 'VACHSKY'
     },
 ];

@@ -15,32 +15,37 @@ let starts = {
             'в окрестностях Первомайского–Мичуринского. Обслуживают соревнования многочисленные волонтёры из числа членов клуба.' +
             '<p> © <a href="https://rufso.ru/wp-content/uploads/2018/08/2013№4-Питерские-многодневки.pdf">Питерские многодневки</a>',
         page: 'starts',
-        owner: 'WN'
+        owner: 'WN',
+        region: 'SPB'
     },
     KBN: {
         short: 'КБН',
         name: '<a href="https://vk.ru/white_nights_club_spb">Кубок Белых Ночей</a>',
         logo: 'wn.gif',
-        owner: 'WN'
+        owner: 'WN',
+        region: 'SPB'
     },
     WEEKLY_ORIENT: {
         short: 'Weekly Orient',
         name: 'Weekly Orient (Белые Ночи)',
         logo: 'ollila.webp',
-        owner: 'WN'
+        owner: 'WN',
+        region: 'SPB'
     },
     WHITE_NIGHTS: {
         short: 'White Nights',
         name: 'White Nights (Белые Ночи)',
         logo: 'wn.gif',
-        owner: 'WN'
+        owner: 'WN',
+        region: 'SPB'
     },
     KKP: {
         short: 'ККП',
         name: '<a href="https://o-nw.ru/kkp">Камни (Кубок) Карельского Перешейка</a>',
         logo: 'kkp.jpg',
         info: 'Крупнейшие соревнования по спортивному ориентированию в России.',
-        owner: 'NW'
+        owner: 'NW',
+        region: 'SPB'
     },
     KS: {
         short: 'Карельские скалы',
@@ -60,7 +65,8 @@ let starts = {
             'продолжают дело, начатое Сергеем Кузнецовым. Кузя, как со времён туристского кружка во Дворце пионеров звали его товарищи, оставил щедрое наследство всем российским ориентировщикам. ' +
             'Постараемся не растерять его.' +
             '<p> © <a href="https://rufso.ru/wp-content/uploads/2018/08/2013№4-Питерские-многодневки.pdf">Питерские многодневки</a>',
-        page: 'starts'
+        page: 'starts',
+        region: 'SPB'
     },
     NA: {
         short: 'Невский Азимут',
@@ -74,7 +80,8 @@ let starts = {
             '«Кубка школьного двора», а Дробышев – инициатором ориентирования в школьных помещениях; наконец, Лисиненков – наиболее квалифицированным инспектором Петербурга.' +
             '<p> © <a href="https://rufso.ru/wp-content/uploads/2018/08/2013№4-Питерские-многодневки.pdf">Питерские многодневки</a>',
         page: 'starts',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        region: 'SPB'
     },
     MMS: {
         short: 'ММС',
@@ -94,7 +101,8 @@ let starts = {
             '<p> © <a href="https://rufso.ru/wp-content/uploads/2018/08/2013№4-Питерские-многодневки.pdf">Питерские многодневки</a>',
         planner: 'TLNV_A',
         page: 'starts',
-        owner: 'SFSO_LO'
+        owner: 'SFSO_LO',
+        region: 'SPB'
     },
     YM: {
         short: 'Яркий Мир',
@@ -102,87 +110,102 @@ let starts = {
         logo: 'ym.jpg',
         info: 'Яркий Мир — традиционные петербургские массовые многодневные соревнования по спортивному ориентированию (обычно июнь), которые в разные годы оформляются как спортивный фестиваль с несколькими стартами и общим зачётом.' +
             'Впервые они прошли в 1998 году, далее были периоды объединения/разведения по месту и времени с другими июньскими многодневками (в т.ч. «Белые Ночи»).',
-        page: 'starts'
+        page: 'starts',
+        region: 'SPB'
     },
     YM_CUP: {
         short: 'Яркий Кубок',
         name: '<a href="https://vk.com/club128591100">Яркий Кубок</a>',
         logo: 'ym_cup.webp',
+        region: 'SPB'
     },
     KUZMOLOVSKY_STARTS: {
         short: 'Кузьмоловские старты',
         name: '<a href="https://vk.ru/kuzmolov_o">Кузьмоловские старты</a>',
         logo: 'kuzmolovo_40_2015.webp',
-        owner: 'KUZMOLOVO'
+        owner: 'KUZMOLOVO',
+        region: 'SPB'
     },
     CONTROLNY_START: {
         short: 'Контрольный старт',
         name: 'Контрольный старт',
         logo: 'kjp.gif',
-        owner: 'KUZMOLOVO'
+        owner: 'KUZMOLOVO',
+        region: 'SPB'
     },
     VYBORGSKY_TROIKA: {
         short: 'Выборгская тройка',
         name: 'Выборгская тройка',
-        owner: 'NW'
+        owner: 'NW',
+        region: 'SPB'
     },
     SOSNOVOBORSKY_DUNY: {
         short: 'Сосновоборские дюны',
         name: '<a href="https://vk.com/id2507454">Сосновоборские дюны</a>',
         logo: 'yuventa.gif',
-        owner: 'YUVENTA'
+        owner: 'YUVENTA',
+        region: 'SPB'
     },
     MATRESHKA: {
         short: 'МаТрёшка',
         name: 'МаТрёшка',
         logo: 'nordwest.webp',
-        owner: 'NW'
+        owner: 'NW',
+        region: 'SPB'
     },
     STREKOZAIKI: {
         short: 'Стрекозайки',
         name: 'Тренировка от Стрекозаек',
         logo: 'strekozaiki.webp',
-        owner: 'STREKOZAIKI'
+        owner: 'STREKOZAIKI',
+        region: 'SPB'
     },
     SPB_CHAMP: {
         short: 'ЧиП СПб',
         name: 'Чемпионат и Первенство СПб',
         logo: 'sfso.gif',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        region: 'SPB'
     },
     LO_CHAMP: {
         short: 'ЧиП ЛО',
         name: 'Чемпионат и Первенство Ленинградской обл',
         logo: 'len_obl.gif',
-        owner: 'SFSO_LO'
+        owner: 'SFSO_LO',
+        region: 'SPB'
     },
     SNOW_WAY: {
         short: 'Снежная тропа',
         name: 'Снежная тропа',
         logo: 'snow_way.webp',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        region: 'SPB'
     },
     PERSPEKTIVA: {
         short: 'Перспектива',
         name: 'Перспектива',
-        owner: 'FENIX'
+        owner: 'FENIX',
+        region: 'SPB'
     },
     KKR: {
         short: 'ККР',
         name: 'Кубок Коротких Рогейнов',
-        rogaine: true
+        rogaine: true,
+        region: 'SPB'
     },
     LM: {
         short: 'Лужский Меридиан',
         name: '<a href="https://vk.ru/club91656163">Лужский Меридиан</a>',
         logo: 'lm.jpg',
         owner: 'LM',
-        rogaine: true
+        rogaine: true,
+        region: 'SPB'
     },
     VSEVOLOZHSK_WAY: {
         short: 'Всеволожская тропа',
         name: 'Всеволожская тропа',
-        logo: 'vsevolozhsk_way.gif'
+        logo: 'vsevolozhsk_way.gif',
+        region: 'SPB'
     },
     GS: {
         short: 'Зелёный Змей',
@@ -192,7 +215,8 @@ let starts = {
         foto: ['gs_champions.webp'],
         page: 'starts',
         planner: 'GBNV_V',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        region: 'SPB'
     },
     SPRINT_TOUR: {
         short: 'Спринт-Тур',
@@ -200,7 +224,8 @@ let starts = {
         link: 'https://vk.com/sprinttourspb',
         owner: 'KUZMOLOVO',
         logo: 'st.jpg',
-        owner: 'KUZMOLOVO'
+        owner: 'KUZMOLOVO',
+        region: 'SPB'
     },
     SCHOOL: {
         short: 'В школу',
@@ -211,7 +236,8 @@ let starts = {
             'В условиях знакомой школьной территории в окружении друзей школьники знакомятся с новым видом спорта, учатся азам спортивного ориентирования, активно проводят свой досуг ' +
             'на свежем воздухе. В программе спортивного праздника три вида соревнований: дистанция личная «Ориентирование на пришкольной территории», дистанция личная ' +
             '«Ориентирование в лабиринте»; дистанция командная «Фото-ориентирование». В 2020-2021 году проект получил <a href="https://spbof.ru/ru/projects/o-school">поддержку</a> Фонда президентских грантов.',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        region: 'SPB'
     },
     ORIENTIR: {
         short: 'Ориентир',
@@ -220,35 +246,40 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/History/azimuth.html">Ориентир</a>',
         logo: 'azimut_retro.gif',
         info: 'Серия тренировочных стартов от спорт.общества "Спартак" (в дальнейшем - КСО "Азимут").',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        region: 'SPB'
     },
     NATALKA: {
         short: 'НатАлка',
         name: 'НатАлка',
         logo: 'azimut_retro.gif',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут" в конце сезона. С 2018 года старт проводится в память об организаторе тренировки Яшуковой Натальи Викторовны.',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        region: 'SPB'
     },
     SPB_AUTUMN: {
         short: 'Петербургская осень',
         name: 'Петербургская осень',
         logo: 'azimut_retro.gif',
         info: 'Традиционный осенний старт КСО "Азимут" - открытое первенство КСО "Азимут".',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        region: 'SPB'
     },
     AUTUMN_MARATHON: {
         short: 'Осенний марафон',
         name: 'Осенний марафон',
         logo: 'azimut_retro.gif',
         info: 'Традиционные праздничные ноябрьские соревнования "Осенний марафон", проводимые клубом "Азимут".',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        region: 'SPB'
     },
     KZNTSVA: {
         short: 'Памяти Кузнецова',
         name: 'Памяти Сергея Кузнецова',
         logo: 'kuznetsov.jpg',
         info: 'Многодневные соревнования памяти Сергея Кузнецова проводились в Ленинградской области в 2013-2015гг.',
-        page: 'starts'
+        page: 'starts',
+        region: 'SPB'
     },
     VOLKOV_A: {
         short: 'Мемориал Волкова',
@@ -257,7 +288,8 @@ let starts = {
         info: 'Андрей Владимирович Волков трагически ушел из жизни в июньский воскресный день 2005 года.' +
             '<p> Траурный зал с трудом вместил всех желающих отдать последний долг доброму труженику. Его отношение к делу еще долго будет служить для нас примером.' +
             '<p> © <a href="https://o-site.spb.ru/history/Peoples/avolkov.html">Посвящение</a>',
-        page: 'starts'
+        page: 'starts',
+        region: 'SPB'
     },
     '2x2': {
         short: '2x2',
@@ -265,14 +297,16 @@ let starts = {
         logo: '2x2.gif',
         page: 'starts',
         info: '2х2 - многодневные соревнования по спринтерским эстафетам с ориентированием, традиционно проводимые в конце апреля - начале мая. Организаторы - Александр Ширинян и Максим Антипов. Автор логотипа - Михаил Сенин.',
-        planner: 'SHRNN'
+        planner: 'SHRNN',
+        region: 'SPB'
     },
     '100x24': {
         short: '100x24',
         name: '<a href="https://100x24.ru/">100x24</a>',
         logo: '100x24.jpg',
         rogaine: true,
-        info: '100х24 (исторически от 100 км за 24 часа) - это традиционные лыжные соревнования с длительным ориентированием, проходящие в окрестностях Санкт Петербурга.'
+        info: '100х24 (исторически от 100 км за 24 часа) - это традиционные лыжные соревнования с длительным ориентированием, проходящие в окрестностях Санкт Петербурга.',
+        region: 'SPB'
     },
     RFAR: {
         short: 'RFAR',
@@ -289,7 +323,8 @@ let starts = {
             'Нидерландов, Новой Зеландии, Польши, США, Турции, Узбекистана, Украины, Финляндии, Франции, Чехии, Швеции и Эстонии. В 2009 г. ' +
             'Red Fox Adventure Race вышла на международный уровень, войдя в состав европейской серии мультиспортивных гонок - AREuroseries.' +
             '<p> © <a href="https://adventure-race.redfox.ru/about/">Red Fox Adventure Race (О гонке)</a>',
-        owner: 'RFAR'
+        owner: 'RFAR',
+        region: 'SPB'
     },
     ROGAINE_110: {
         short: '110%',
@@ -297,7 +332,8 @@ let starts = {
         link: 'https://vk.com/rogaine110',
         info: 'Традиционный кубок соревнований по рогейну бегом короткого формата.',
         logo: '110.gif',
-        rogaine: true
+        rogaine: true,
+        region: 'SPB'
     },
     GORNY_CROSS: {
         short: 'ГК',
@@ -306,7 +342,8 @@ let starts = {
         info: 'Традиционный кубок соревнований по рогейну различной длительности (от 2 до 24 часов) бегом, на велосипеде или на лыжах.',
         link: 'https://vk.com/club31941981',
         rogaine: true,
-        owner: 'GORNY_CROSS'
+        owner: 'GORNY_CROSS',
+        region: 'SPB'
     },
     KKM: {
         short: 'ККМ',
@@ -314,7 +351,8 @@ let starts = {
         logo: 'kkm.gif',
         info: 'Кубок коротких маршрутов – соревнования, в которых команды за 3 часа должны набрать наибольшее число очков за прохождение по выбору контрольных пунктов (КП) из числа обозначенных на карте. Каждое КП имеет стоимость в очках.',
         rogaine: true,
-        owner: 'RYZHOV'
+        owner: 'RYZHOV',
+        region: 'SPB'
     },
     BA: {
         short: 'BikeAdventure',
@@ -334,7 +372,8 @@ let starts = {
             'по возможности учитывая все изменения на местности.' +
             '<p> © <a href="https://www.bikeadventure.ru/about-race/">История BikeAdventure</a>',
         rogaine: true,
-        owner: 'BKTV'
+        owner: 'BKTV',
+        region: 'SPB'
     },
     TA: {
         short: 'TrailAdventure',
@@ -344,7 +383,8 @@ let starts = {
             'Контрольные пункты в красивых и интересных местах, <i>почти</i> без серьезных водных преград, буреломов и болот.' +
             '<p> © <a href="https://vk.com/tradventure">TrailAdventure VK</a>',
         rogaine: true,
-        owner: 'BKTV'
+        owner: 'BKTV',
+        region: 'SPB'
     },
     MB: {
         short: 'Марш-Бросок',
@@ -362,7 +402,8 @@ let starts = {
             'и призваны имитировать реальные экстремальные условия, которые могут возникнуть в путешествии. Участники Марш-Броска демонстрируют свои навыки в ориентировании, ' +
             'преодолении горно-таежных препятствий и в выживании. ' +
             '<p> © <a href="https://kandid.ru/?p=1">Что такое Марш-Бросок</a>',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        region: 'SPB'
     },
     FOTO_ROGAINE: {
         short: 'Фото-рогейн в Санкт-Петербурге',
@@ -372,20 +413,23 @@ let starts = {
             '<p>Прохождение дистанции – по карте, в форме фото-ориентирования, по точкам, обозначенным в карте кружками и имеющим №. На каждой точке необходимо определить соответствие объектов местности с фотографией и записать ответ (№ точки).' +
             '<p>Проходить дистанцию можно в режиме групповой экскурсии или индивидуально пешком или бегом. Ответы присылаются личным сообщением администратору группы. Дистанцию можно проходить в любое удобное для вас время.',
         rogaine: true,
-        owner: 'RYZHOV'
+        owner: 'RYZHOV',
+        region: 'SPB'
     },
     VYBORGSKY_DISTRICT: {
         short: 'Интерактивное ориентирование в Выборгском р-не',
         name: '<a href="https://vk.com/club114454934">Интерактивное ориентирование в Выборгском р-не</a>',
         logo: 'vyborgsky_district.webp',
-        info: 'Инакор — интернет активное ориентирование в Выборгском р-не СПб. Многоэтапные, лично-командные соревнования - проходят в виде маршрута (путешествия) по паркам и кварталам Выборгского района и прилегающим к району территориям, с использованием карт спортивного ориентирования и фотографий.'
+        info: 'Инакор — интернет активное ориентирование в Выборгском р-не СПб. Многоэтапные, лично-командные соревнования - проходят в виде маршрута (путешествия) по паркам и кварталам Выборгского района и прилегающим к району территориям, с использованием карт спортивного ориентирования и фотографий.',
+        region: 'SPB'
     },
     RED_SELO_FOTO: {
         short: 'Фотоориентирование в Красносельском р-не',
         name: '<a href="https://vk.com/public200889236">Фотоориентирование в Красносельском р-не</a>',
         logo: 'inacor.jpg',
         info: '<p>Инакор — интернет активное ориентирование в Красносельском районе Санкт-Петербурга.' +
-            '<p>Соревнования - проходят в виде маршрута (путешествия) по паркам и кварталам Красносельского района и прилегающим к району территориям, с использованием карт спортивного ориентирования и фотографий.'
+            '<p>Соревнования - проходят в виде маршрута (путешествия) по паркам и кварталам Красносельского района и прилегающим к району территориям, с использованием карт спортивного ориентирования и фотографий.',
+        region: 'SPB'
     },
     REPORT: {
         short: 'Отчёт',
@@ -399,12 +443,14 @@ let starts = {
         short: 'Три-О-Тлон',
         name: 'Три-О-Тлон',
         info: 'Одна из первых мультиспортивных гонок в России.',
-        logo: 'triotlon.gif'
+        logo: 'triotlon.gif',
+        region: 'SPB'
     },
     VSEV_VESTI: {
         short: 'Всеволожские Вести',
         name: 'Всеволожские Вести',
-        logo: 'vsevolozhsk_vesti.webp'
+        logo: 'vsevolozhsk_vesti.webp',
+        region: 'SPB'
     },
     EUROPEAN_HOPE: {
         short: 'European hope',
@@ -475,6 +521,7 @@ let starts = {
         logo: 'ussr_1975.jpg',
         major: true,
         retro: true,
+        region: 'SPB'
     },
     USSR_V_1975: {
         short: 'Всесоюзные\'1975',
@@ -807,7 +854,8 @@ let starts = {
     OKINCHITSA: {
         short: 'Окинчица',
         name: 'Памяти Окинчица',
-        logo: 'okinchitsa.webp'
+        logo: 'okinchitsa.webp',
+        region: 'SPB'
     },
     PASTUKHOVA: {
         short: 'Памяти топографа Пастухова',
@@ -837,14 +885,16 @@ let starts = {
         short: 'Золотые Кольца',
         name: 'Золотые Кольца (Свадебные)',
         logo: 'wedding.jpg',
-        info: '<p>Открытые ежегодные соревнования семейных пар по спортивному ориентированию (since 1975).'
+        info: '<p>Открытые ежегодные соревнования семейных пар по спортивному ориентированию (since 1975).',
+        region: 'SPB'
     },
     WEDDING_MSK: {
         short: 'Золотые Кольца',
         name: 'Золотые Кольца',
         logo: 'wedding_msk.gif',
         info: 'Золотые Кольца - традиционные соревнования по спортивному ориентированию в Москве/ТиНАО. Цели — популяризация ориентирования как массового спорта, ' +
-            'а также «выявление сильнейших супружеских пар», укрепление спортивных и дружеских связей. Ключевая «фишка» — 2-этапная эстафета с возрастным гандикапом.'
+            'а также «выявление сильнейших супружеских пар», укрепление спортивных и дружеских связей. Ключевая «фишка» — 2-этапная эстафета с возрастным гандикапом.',
+        region: 'MSK'
     },
     /* --- МОСКВА --- */
     AERO: {
@@ -872,7 +922,8 @@ let starts = {
         logo: 'inacor.jpg',
         info: '<p>Инакор — интернет активное ориентирование.' +
             '<p>Бесплатная городская игра в парках Москвы. 24/7/365.' +
-            '<p>Инакор — увлекательная игра для всех желающих оторваться от компьютера и обучиться азам спортивного ориентирования.'
+            '<p>Инакор — увлекательная игра для всех желающих оторваться от компьютера и обучиться азам спортивного ориентирования.',
+        region: 'MSK'
     },
     KMPT_ROGAINE: {
         short: 'Компот-рогейн',
@@ -914,14 +965,16 @@ let starts = {
         short: 'ЗМ',
         name: '<a href="https://mosplay.ru/">Золотой маршрут</a>',
         logo: 'zm.webp',
-        rogaine: true
+        rogaine: true,
+        region: 'MSK'
     },
     /* --- ПСКОВ --- */
     RA_PSKOV: {
         short: 'РА (Псков)',
         name: 'Российский азимут',
         logo: 'ra_pskov.webp',
-        owner: 'PSKOV_RUS'
+        owner: 'PSKOV_RUS',
+        region: 'PSKOV'
     },
     /* --- РЯЗАНЬ --- */
     NPW: {
@@ -929,24 +982,28 @@ let starts = {
         name: 'Водная приключенческая гонка "Ночная ПРАгулка"',
         logo: 'pragulka.gif',
         info: 'Водная приключенческая гонка в Рязанской области на реке Пра.',
-        rogaine: true
+        rogaine: true,
+        region: 'RYAZAN'
     },
     /* --- Прочее --- */
     KKK: {
         short: 'ККК',
         name: '<a href="https://vk.com/club197340171">Клубный Кубок Карелии (ККК)</a>',
         logo: 'kkk.gif',
-        owner: 'FSO_KARELIA'
+        owner: 'FSO_KARELIA',
+        region: 'KARELIA'
     },
     MLTRY_FRCS: {
         short: 'ВС',
         name: 'Первенство Вооружённых Сил',
         logo: 'military_retro.webp',
+        region: 'BASH'
     },
     PRZHVLSKY: {
         short: 'Пржевальского',
         name: '<a href="https://vk.com/event205283247">Приз Пржевальского</a>',
         logo: 'przhevalsky.webp',
+        //region: 'SMOLENSK'
     },
     VACHSKY: {
         short: 'Вачский азимут',
@@ -957,6 +1014,8 @@ let starts = {
             'Первый "Вачский Азимут" состоялся в 2001 году и собрал всего лишь около 50 участников. Тем не менее было принято решение сделать этот фестиваль традиционным и в этом году данные соревнования состоятся уже в 21 раз! ' +
             'Программа соревнований состоит из пяти стартов, которые проходят в течении пяти дней.',
         logo: 'vachsky.webp',
+        owner: 'VACHSKY',
+        region: 'N_NOVGOROD'
     },
     /* --- ТРЕКИ --- */
     RUTRAIL: {
