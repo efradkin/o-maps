@@ -3993,5 +3993,15 @@ let events2026 = [
         endReg: '2026-12-10',
         bulletin: 'https://o-site.spb.ru/_races/261213_st/261213_info-1.pdf',
         map: 'udelny_2022'
+    },
+    {
+        id: 'SPB_20261220_1',
+        date: '2026-12-20',
+        name: 'Приз Деда Мороза',
+        place: 'Кавголово',
+        o_site: '261220',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1766',
+        endReg: '2026-12-17',
+        owner: 'WN'
     }
 ];

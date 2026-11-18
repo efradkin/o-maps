@@ -229,8 +229,8 @@ let events2027 = [
         owner: 'SFSO_SPB'
     },
     {
-        id: 'SPB_20270604_1',
-        date: '2027-06-04',
+        id: 'SPB_20270605_1',
+        date: '2027-06-05',
         endDate: '2027-06-06',
         place: 'Кузнечное',
         name: 'Горный кросс',
@@ -290,7 +290,7 @@ let events2027 = [
         name: 'УТС Горного кросса',
         info: 'Учебно-тренировочный сбор. Восхождение на Эльбрус с севера.',
         region: 'STAVROPOL',
-        start: 'GORNY_CROSS'
+        owner: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20270808_1',
