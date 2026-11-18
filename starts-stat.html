@@ -660,6 +660,7 @@
                             logo: s.logo || null,
                             rogaine: !!s.rogaine,
                             region: s.region || null,
+                            source: s,
                             days: new Map(),      // год -> Set дат
                         };
                         byCode.set(code, row);
@@ -742,10 +743,35 @@
         return window.matchMedia('(max-width: 700px)').matches;
     }
 
+    /* URL-фильтры задают обязательные условия, селекторы позволяют
+       дополнительно сузить выборку без изменения адреса страницы.
+       Год выбирает серии с соревнованиями в этом году, но история
+       отобранных серий на диаграмме показывается целиком. */
+    function matchesUrlFilters(row) {
+        if (START_NAME_PARAM && START_NAME_PARAM !== 'ALL' && row.code !== START_NAME_PARAM) return false;
+        if (OWNER_PARAM && OWNER_PARAM !== 'ALL' && !hasOwner(row.source, OWNER_PARAM)) return false;
+        if (REGION_NAME_PARAM && REGION_NAME_PARAM !== 'ALL') {
+            const regions = getRegions(row.source);
+            if (REGION_NAME_PARAM === 'OTHER') {
+                if (regions.some(function (r) { return r === 'SPB' || r === 'MSK'; })) return false;
+            } else if (!regions.includes(REGION_NAME_PARAM)) return false;
+        }
+        if (TYPE_PARAM && TYPE_PARAM !== 'ALL') {
+            if (TYPE_PARAM === 'ROGAINE' && !row.rogaine) return false;
+            if (TYPE_PARAM === 'ORIENT' && row.rogaine) return false;
+            if (TYPE_PARAM !== 'ROGAINE' && TYPE_PARAM !== 'ORIENT') {
+                const types = row.source.type;
+                if (!(Array.isArray(types) ? types.includes(TYPE_PARAM) : types === TYPE_PARAM)) return false;
+            }
+        }
+        if (YEAR_PARAM && YEAR_PARAM !== 'ALL' && !row.years.has(Number(YEAR_PARAM))) return false;
+        return true;
+    }
+
     function visibleRows() {
         const region = document.getElementById('sc_region_selector').value;
         const type = document.getElementById('sc_type_selector').value;
-        let rows = allRows;
+        let rows = allRows.filter(matchesUrlFilters);
 
         if (region === 'SPB') rows = rows.filter(function (r) { return r.region === 'SPB'; });
         if (region === 'MSK') rows = rows.filter(function (r) { return r.region === 'MSK'; });
