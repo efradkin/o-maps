@@ -295,7 +295,16 @@
     </header>
 
     <div class="sc-controls">
-        <label for="sc_type_selector">Тип соревнований:
+        <label for="sc_region_selector">Регион:
+            <select id="sc_region_selector" class="header_selector">
+                <option value="ALL">Все</option>
+                <option value="SPB">С-Петербург</option>
+                <option value="MSK">Москва</option>
+                <option value="OTHER">Прочие</option>
+            </select>
+        </label>
+
+        <label for="sc_type_selector">Вид:
             <select id="sc_type_selector" class="header_selector">
                 <option value="ALL">Все</option>
                 <option value="ORIENT">Ориент</option>
@@ -399,6 +408,9 @@
         { file: 'js/calendar-iof.js?v=41',            variable: 'iofEvents' },
         { file: 'js/calendar-fsor.js?v=36',           variable: 'fsorEvents' },
         { file: 'js/calendar-irf.js?v=29',            variable: 'irfEvents' },
+        { file: 'js/calendar-msk-2025.js?v=69',            variable: 'mskEvents2025' },
+        { file: 'js/calendar-msk-2026.js?v=69',            variable: 'mskEvents2026' },
+        { file: 'js/calendar-samara.js?v=69',            variable: 'samaraEvents2026' },
     ];
 
     /* ---------------------------------------------------------------------
@@ -419,7 +431,7 @@
         // 'KKP',                  // ККП — 112 дн., 2011–2026
         // 'ROGAINE_110',          // 110% — 104 дн., 2007–2026, рогейн
         // 'SPRINT_TOUR',                   // Спринт-Тур — 103 дн., 2009–2026
-        'RUS',         // Чемпионат России — 97 дн., 1998–2026
+        // 'RUS',         // Чемпионат России — 97 дн., 1998–2026
         // 'MMS',                  // ММС — 95 дн., 1993–2026
         // 'NA',                   // Невский Азимут — 91 дн., 1988–2026
         // 'SNOW_WAY',             // Снежная тропа — 74 дн., 2004–2026
@@ -447,7 +459,7 @@
         // '2x2',                  // 2x2 — 14 дн., 2005–2010
         // 'HARD',                 // HARD — 14 дн., 2021–2026
         // 'WHITE_NIGHTS',         // White Nights — 14 дн., 2020–2023
-        'USSR',           // Чемпионат СССР — 11 дн., 1981–1991
+        // 'USSR',           // Чемпионат СССР — 11 дн., 1981–1991
         'KKK',                  // ККК — 10 дн., 2025–2026
         // 'VOLKOV_A',             // Мемориал Андрея Волкова — 10 дн., 2006–2019
         // 'MB',                   // Марш-Бросок — 9 дн., 2000–2026, рогейн
@@ -627,6 +639,7 @@
                             name: plainText(s.name) || s.short || code,
                             logo: s.logo || null,
                             rogaine: !!s.rogaine,
+                            region: s.region || null,
                             days: new Map(),      // год -> Set дат
                         };
                         byCode.set(code, row);
@@ -710,10 +723,16 @@
     }
 
     function visibleRows() {
+        const region = document.getElementById('sc_region_selector').value;
         const type = document.getElementById('sc_type_selector').value;
         let rows = allRows;
-        if (type === 'ROGAINE') rows = allRows.filter(function (r) { return r.rogaine; });
-        if (type === 'ORIENT') rows = allRows.filter(function (r) { return !r.rogaine; });
+
+        if (region === 'SPB') rows = rows.filter(function (r) { return r.region === 'SPB'; });
+        if (region === 'MSK') rows = rows.filter(function (r) { return r.region === 'MSK'; });
+        if (region === 'OTHER') rows = rows.filter(function (r) { return r.region !== 'SPB' && r.region !== 'MSK'; });
+
+        if (type === 'ROGAINE') rows = rows.filter(function (r) { return r.rogaine; });
+        if (type === 'ORIENT') rows = rows.filter(function (r) { return !r.rogaine; });
         return sortRows(rows);
     }
 
@@ -767,7 +786,7 @@
         const rows = visibleRows();
         card.style.display = '';
         if (!rows.length) {
-            setStatus('Для выбранного типа соревнований данных нет.');
+            setStatus('Для выбранных фильтров данных нет.');
             return;
         }
 
@@ -1175,6 +1194,7 @@
         render();
         setStatus('', false);
 
+        document.getElementById('sc_region_selector').addEventListener('change', render);
         document.getElementById('sc_type_selector').addEventListener('change', render);
         document.getElementById('sc_sort_selector').addEventListener('change', render);
         document.getElementById('sc_scale_selector').addEventListener('change', render);
