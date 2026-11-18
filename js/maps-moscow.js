@@ -54,6 +54,7 @@ let moscowMaps = [
         info: 'Весенний Компот-рогейн.',
         bounds: [[56.043185, 38.7978745], [56.0140251, 39.0361404], [55.890716, 38.7376213]],
         o_gps: 22250,
+        about: 'https://x-lite.run/sr2025',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -3372,6 +3373,7 @@ let moscowMaps = [
         local_link: './external/original_maps/moscow/marjina_gora_2024_omaps.jpg',
         bounds: [[56.1450713, 37.6904869], [56.1229742, 37.8755379], [56.0451027, 37.6527214]],
         o_gps: 18492,
+        about: 'https://x-lite.run/ski2024',
         start: 'KMPT_ROGAINE',
         type: ['WINTER','ROGAINE']
     },
@@ -3384,6 +3386,7 @@ let moscowMaps = [
         local_link: './external/original_maps/moscow/lr/pushkino_rogaine_2021_omaps.jpg',
         bounds: [[56.158075, 37.6982117], [56.1380896, 37.8739929], [56.0445274, 37.6563263]],
         o_gps: 10332,
+        about: 'https://x-lite.run/summerkompot2021',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -3396,6 +3399,7 @@ let moscowMaps = [
         local_link: './external/original_maps/moscow/lr/pushkino_rogaine_2025_omaps.jpg',
         bounds: [[56.0739517, 37.7748585], [56.0590986, 37.9000854], [55.9777363, 37.7376938]],
         o_gps: 23622,
+        about: 'https://x-lite.run/fc2025',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -4750,6 +4754,7 @@ let moscowMaps = [
         local_link: './external/original_maps/moscow/trubino_rogaine_2019_omaps.jpg',
         bounds: [[55.0600851, 36.5997505], [55.0306786, 36.8622208], [54.9334543, 36.5590668]],
         o_gps: 6062,
+        about: 'https://x-lite.run/kompot',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -4760,7 +4765,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/sr2026/spring2026_map.jpg',
         local_link: './external/original_maps/moscow/lr/lubitsy_rogaine_2026_omaps.jpg',
         info: 'Весенний Компот-рогейн.',
-        about: 'https://www.x-lite.run/sr2026',
+        about: 'https://x-lite.run/sr2026',
         bounds: [[55.0628869, 36.6168308], [55.0397291, 36.8184471], [54.9623408, 36.5818977]],
         o_gps: 24913,
         start: 'KMPT_ROGAINE',
@@ -4774,6 +4779,7 @@ let moscowMaps = [
         local_link: './external/original_maps/moscow/vasilevo_rogaine_2020_omaps.jpg',
         bounds: [[55.343399, 36.1060524], [55.3265077, 36.2614059], [55.2394968, 36.0698318]],
         o_gps: 8091,
+        about: 'https://x-lite.run/kompot2020',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -4787,6 +4793,7 @@ let moscowMaps = [
         bounds: [[56.0277925, 37.9046345], [56.0206456, 37.9654026], [55.9873879, 37.8898716]],
         o_gps: 10989,
         author: 'JAKMV_A',
+        about: 'https://x-lite.run/kompotfinal2021',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -4799,6 +4806,7 @@ let moscowMaps = [
         info: 'Осенний Компот-рогейн.',
         bounds: [[56.10814, 38.6066437], [56.0793166, 38.8461113], [55.9317024, 38.5400391]],
         o_gps: 10848,
+        about: 'https://x-lite.run/bikekompot2021',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -4811,6 +4819,7 @@ let moscowMaps = [
         info: 'Лыжный Компот-рогейн.',
         bounds: [[56.106034, 37.9095268], [56.0938746, 38.0252266], [56.0122019, 37.8772545]],
         o_gps: 9057,
+        about: 'https://x-lite.run/skikompot2021',
         start: 'KMPT_ROGAINE',
         type: ['WINTER','ROGAINE']
     },
@@ -4841,6 +4850,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/fc2023/fc2023_map.jpg',
         local_link: './external/original_maps/moscow/ak/ivanteevka_final_rogaine_2023_omaps.jpg',
         bounds: [[56.0332117, 37.8892708], [56.0194943, 38.0051422], [55.9493921, 37.8580284]],
+        about: 'https://x-lite.run/fc2023',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -4853,6 +4863,7 @@ let moscowMaps = [
         local_link: './external/original_maps/moscow/ak/ivanteevka_winter_ski_rogaine_2024_omaps.jpg',
         bounds: [[56.0544977, 37.9026604], [56.0348422, 38.0695152], [55.9885881, 37.8786278]],
         o_gps: 18320,
+        about: 'https://x-lite.run/wr2024',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE','WINTER']
     },
@@ -5178,6 +5189,7 @@ let moscowMaps = [
         info: 'Лыжный Компот-рогейн.',
         bounds: [[56.1418198, 37.3172951], [56.1186202, 37.5186539], [56.0650405, 37.2872543]],
         o_gps: 12099,
+        about: 'https://x-lite.run/skikompot2022',
         start: 'KMPT_ROGAINE',
         type: ['WINTER','ROGAINE']
     },
@@ -5201,6 +5213,7 @@ let moscowMaps = [
         info: 'Летний Компот-рогейн.',
         bounds: [[56.3833591, 37.5062943], [56.3690533, 37.6257706], [56.288203, 37.4695587]],
         o_gps: 13489,
+        about: 'https://x-lite.run/skr2022',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5213,6 +5226,7 @@ let moscowMaps = [
         info: 'Осенний Компот-рогейн.',
         bounds: [[55.8869134, 37.9675484], [55.8611038, 38.1802368], [55.7990618, 37.9348469]],
         o_gps: 13970,
+        about: 'https://x-lite.run/akr2022',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5225,6 +5239,7 @@ let moscowMaps = [
         info: 'Финал Компот-Кубка.',
         bounds: [[56.3166319, 37.2795296], [56.2947288, 37.460289], [56.210332, 37.2393608]],
         o_gps: 14097,
+        about: 'https://x-lite.run/final2022',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5246,6 +5261,7 @@ let moscowMaps = [
         info: 'Летний Компот-рогейн.',
         bounds: [[56.1714565, 38.044281], [56.1444019, 38.2684708], [56.0679153, 38.0035973]],
         o_gps: 16726,
+        about: 'https://x-lite.run/kr2023',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5278,6 +5294,7 @@ let moscowMaps = [
         info: 'Осенний Компот-рогейн.',
         bounds: [[55.7466322, 38.1376648], [55.7200526, 38.3560181], [55.6462115, 38.1011009]],
         o_gps: 17084,
+        about: 'https://x-lite.run/ar2023',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5290,6 +5307,7 @@ let moscowMaps = [
         info: 'Весенний Компот-рогейн.',
         bounds: [[56.1093844, 38.6049271], [56.0798913, 38.8449097], [55.9330486, 38.5386658]],
         o_gps: 19325,
+        about: 'https://x-lite.run/sr2024',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5302,6 +5320,7 @@ let moscowMaps = [
         info: 'Летний Компот-рогейн.',
         bounds: [[55.9385293, 38.3778191], [55.9159287, 38.5620975], [55.8348432, 38.3379936]],
         o_gps: 19955,
+        about: 'https://x-lite.run/nr2024',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5314,6 +5333,7 @@ let moscowMaps = [
         info: 'Лыжный Компот-рогейн.',
         bounds: [[56.2633759, 37.7054214], [56.2356228, 37.9414558], [56.1728899, 37.6719475]],
         o_gps: 7173,
+        about: 'https://x-lite.run/skikompot2020',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5325,8 +5345,9 @@ let moscowMaps = [
         local_link: './external/original_maps/moscow/sz/ustinki_winter_rogaine_2026_omaps.jpg',
         info: 'Лыжный трейл <a href="https://x-lite.run/mw2026">Московский White</a>.',
         bounds: [[56.37143, 37.7409554], [56.3450873, 38.0097771], [56.2216911, 37.6944351]],
+        about: 'https://x-lite.run/mw2026',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE']
+        type: ['ROGAINE','WINTER']
     },
     {
         name: 'Мураново',
@@ -5337,6 +5358,7 @@ let moscowMaps = [
         info: 'Осенний Компот-рогейн.',
         bounds: [[56.2654732, 37.8214645], [56.2442084, 37.9919243], [56.1563542, 37.7787209]],
         o_gps: 20293,
+        about: 'https://x-lite.run/ar2024',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5349,6 +5371,7 @@ let moscowMaps = [
         info: 'Финал Компот-Кубка.',
         bounds: [[55.9426633, 38.1453896], [55.9237202, 38.3017731], [55.8587916, 38.1133747]],
         o_gps: 20839,
+        about: 'https://x-lite.run/fc2024',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5361,6 +5384,7 @@ let moscowMaps = [
         info: 'Весенний Компот-рогейн.',
         bounds: [[55.9303561, 38.0866814], [55.9079433, 38.2688141], [55.8278053, 38.0478859]],
         o_gps: 15921,
+        about: 'https://x-lite.run/lp2023',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5947,6 +5971,7 @@ let moscowMaps = [
         info: 'Летний Компот-рогейн.',
         bounds: [[56.2268445, 38.0386162], [56.2051763, 38.2173157], [56.0946407, 37.9862595]],
         o_gps: 23122,
+        about: 'https://x-lite.run/kr2025',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5954,11 +5979,12 @@ let moscowMaps = [
         name: 'Фряново',
         year: 2025,
         url: './maps/moscow/ak/frianovo_rogaine_2025.webp',
-        link: 'https://rogaine.ru/results/kr2025/summer2025_map.jpg',
+        link: 'https://rogaine.ru/results/ar2025/ar2025_fryanovo_map.jpg',
         local_link: './external/original_maps/moscow/ak/frianovo_rogaine_2025_omaps.jpg',
         info: 'Осенний Компот-рогейн.',
         bounds: [[56.2005929, 38.4456253], [56.1781455, 38.6296463], [56.0829566, 38.3994484]],
         o_gps: 23337,
+        about: 'https://x-lite.run/ar2025',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5971,6 +5997,7 @@ let moscowMaps = [
         info: 'Летний Компот-рогейн.',
         bounds: [[56.34014, 38.1713104], [56.3136806, 38.3743858], [56.1907559, 38.1112289]],
         o_gps: 25564,
+        about: 'https://x-lite.run/kr2026',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
@@ -5983,6 +6010,41 @@ let moscowMaps = [
         about: 'https://x-lite.run/ar2026',
         bounds: [[56.1264187, 38.8807869], [56.0956940, 39.1283226], [56.0035644, 38.8327217]],
         o_gps: 25862,
+        start: 'KMPT_ROGAINE',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Малоярославец',
+        year: 2026,
+        url: './maps/moscow/lr/malojaroslavets_msk_light_2026.webp',
+        link: [
+            'https://rogaine.ru/results/ml2026/map1.jpg',
+            'https://rogaine.ru/results/ml2026/map2.jpg',
+            'https://rogaine.ru/results/ml2026/map3.jpg',
+            'https://rogaine.ru/results/ml2026/map4.jpg'
+        ],
+        local_link: [
+            './external/original_maps/moscow/lr/malojaroslavets_msk_light_2026_1_omaps.jpg',
+            './external/original_maps/moscow/lr/malojaroslavets_msk_light_2026_2_omaps.jpg',
+            './external/original_maps/moscow/lr/malojaroslavets_msk_light_2026_3_omaps.jpg',
+            './external/original_maps/moscow/lr/malojaroslavets_msk_light_2026_4_omaps.jpg',
+        ],
+        info: 'Московский Лайт.',
+        about: 'https://x-lite.run/ml2026',
+        bounds: [[55.2024838, 36.3100719], [55.1783776, 36.5103149], [55.0438601, 36.2569427]],
+        o_gps: [26021,26022],
+        start: 'KMPT_ROGAINE',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Абрамцево',
+        year: 2026,
+        url: './maps/moscow/ak/abramtsevo_kompot_roraine_2026.webp',
+        link: 'https://rogaine.ru/results/fc2026/final_kompot_2026.jpg',
+        local_link: './external/original_maps/moscow/ak/abramtsevo_kompot_roraine_2026_omaps.jpg',
+        info: 'Финал Компот-Кубка.',
+        about: 'https://x-lite.run/fc2026',
+        bounds: [[56.2714786, 37.9256630], [56.2601343, 38.0201626], [56.2067517, 37.8995275]],
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
     },
