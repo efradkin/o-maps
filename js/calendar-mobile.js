@@ -172,11 +172,7 @@
   }
 
   function normalizeText(value) {
-    return String(value || '')
-      .toLocaleLowerCase('ru')
-      .replace(/ё/g, 'е')
-      .replace(/\s+/g, ' ')
-      .trim();
+    return sheetFilterNormalize(value);
   }
 
   function enhanceEventRow(row) {
@@ -390,11 +386,12 @@
   function applyMobileFilters() {
     classifyRows();
     const query = normalizeText(search.value);
+    const queryGroups = sheetFilterParseQuery(search.value);
     let visible = 0;
     const rows = eventRows();
 
     for (const row of rows) {
-      const matchesSearch = !query || normalizeText(row.textContent).includes(query);
+      const matchesSearch = sheetFilterMatchesParsed(queryGroups, row.textContent);
       setRowVisible(row, matchesSearch);
       if (matchesSearch) visible++;
     }
