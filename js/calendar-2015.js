@@ -1883,7 +1883,7 @@ let events2015 = [
         place: 'Токсово',
         name: 'Маркир-110%',
         res: 'https://o-site.spb.ru/_races/151115/151115_rezshtr.htm',
-        start: 'ROGAINE_110',
+        start: 'MARKIR_110',
         o_site: '151115',
         bulletin: 'https://o-site.spb.ru/_races/151115/151115_info.pdf',
         maps: [

@@ -273,7 +273,7 @@ let events2007 = [
         place: 'Кузьмолово - Токсово',
         name: 'Кубок 110%, 1 этап',
         info: 'Тренировки по четвергам в соревновательном режиме с электронной отметкой',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '070531'
     },
     {
@@ -294,7 +294,7 @@ let events2007 = [
         date: '2007-04-12',
         place: 'Кузьмолово - Токсово',
         name: 'Кубок 110%, 2 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '070531'
     },
     {
@@ -324,7 +324,7 @@ let events2007 = [
         date: '2007-04-19',
         place: 'Кузьмолово - Токсово',
         name: 'Кубок 110%, 3 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '070531'
     },
     {
@@ -395,7 +395,7 @@ let events2007 = [
         date: '2007-04-27',
         place: 'Кузьмолово - Токсово',
         name: 'Кубок 110%, 4 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '070531'
     },
     {
@@ -486,7 +486,7 @@ let events2007 = [
         name: 'Ягодное на 110%',
         res: 'https://o-site.spb.ru/_races/070513_110/070513_110_results.htm',
         info: 'Команда 110% 13 мая, в воскресенье, приглашает на совместную тренировку в Ягодное.',
-        start: 'ROGAINE_110',
+        owner: 'TEAM_110',
         o_site: '070513_110',
         bulletin: 'https://o-site.spb.ru/_races/070513_110/070513_110_info.htm'
     },
@@ -495,7 +495,7 @@ let events2007 = [
         date: '2007-05-17',
         place: 'Кузьмолово - Токсово',
         name: 'Кубок 110%, 5 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '070531'
     },
     {
@@ -560,7 +560,7 @@ let events2007 = [
         date: '2007-05-24',
         place: 'Кузьмолово - Токсово',
         name: 'Кубок 110%, 6 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '070531'
     },
     {
@@ -613,7 +613,7 @@ let events2007 = [
         date: '2007-05-31',
         place: 'Кузьмолово - Токсово',
         name: 'Кубок 110%, 7 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '070531'
     },
     {
@@ -1030,7 +1030,7 @@ let events2007 = [
         name: 'Ночной Кубок 110%, 1 этап',
         res: 'https://o-site.spb.ru/_races/071122/070927_110cup1_res.htm',
         info: 'Открытые тренировки по ориентированию в ночных условиях',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '071122'
     },
     {
@@ -1089,7 +1089,7 @@ let events2007 = [
         place: 'оз Изумрудное',
         name: 'Ночной Кубок 110%, 2 этап',
         res: 'https://o-site.spb.ru/_races/071122/071011_110cup2_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '071122',
         map: 'toksovo_izumrudnoe_2007'
     },
@@ -1131,7 +1131,7 @@ let events2007 = [
         place: 'Токсово',
         name: 'Ночной Кубок 110%, 3 этап',
         res: 'https://o-site.spb.ru/_races/071122/071025_110cup3_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '071122'
     },
     {
@@ -1238,7 +1238,7 @@ let events2007 = [
         place: 'Кузьмоловский',
         name: 'Ночной Кубок 110%, 4 этап',
         res: 'https://o-site.spb.ru/_races/071122/071115_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '071122'
     },
     {
@@ -1262,7 +1262,7 @@ let events2007 = [
         place: 'Кузьмоловский',
         name: 'Ночной Кубок 110%, 5 этап',
         res: 'https://o-site.spb.ru/_races/071122/071122_110cup5_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '071122'
     },
     {

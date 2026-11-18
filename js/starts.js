@@ -327,13 +327,32 @@ let starts = {
         region: 'SPB'
     },
     ROGAINE_110: {
-        short: '110%',
+        short: 'Рогейн 110',
         name: '<a href="https://vk.com/rogaine110">Рогейн 110%</a>',
         link: 'https://vk.com/rogaine110',
         info: 'Традиционный кубок соревнований по рогейну бегом короткого формата.',
         logo: '110.gif',
         rogaine: true,
-        region: 'SPB'
+        region: 'SPB',
+        owner: 'TEAM_110'
+    },
+    CUP_110: {
+        short: 'Кубок 110',
+        name: '<a href="https://vk.com/rogaine110">Кубок 110%</a>',
+        link: 'https://vk.com/rogaine110',
+        info: 'Кубок команды 110%.',
+        logo: '110.gif',
+        region: 'SPB',
+        owner: 'TEAM_110'
+    },
+    MARKIR_110: {
+        short: 'Маркир 110',
+        name: '<a href="https://vk.com/rogaine110">Маркир 110%</a>',
+        link: 'https://vk.com/rogaine110',
+        info: 'Маркир от команды 110%.',
+        logo: '110.gif',
+        region: 'SPB',
+        owner: 'TEAM_110'
     },
     GORNY_CROSS: {
         short: 'ГК',

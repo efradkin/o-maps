@@ -421,7 +421,7 @@ let events2013 = [
         id: 'SPB_20130418_1',
         date: '2013-04-18',
         name: 'Весенний Кубок 110%, 1 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://www.o-site.spb.ru/_races/130606/130418_res.htm',
         o_site: '130606',
         bulletin: 'https://o-site.spb.ru/_races/130606/130606_info.pdf'
@@ -479,7 +479,7 @@ let events2013 = [
         id: 'SPB_20130425_1',
         date: '2013-04-25',
         name: 'Весенний Кубок 110%, 2 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://www.o-site.spb.ru/_races/130606/130425_res.htm',
         o_site: '130606',
         bulletin: 'https://o-site.spb.ru/_races/130606/130606_info.pdf'
@@ -655,7 +655,7 @@ let events2013 = [
         id: 'SPB_20130516_1',
         date: '2013-05-16',
         name: 'Весенний Кубок 110%, 3 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://www.o-site.spb.ru/_races/130606/130516_res.htm',
         o_site: '130606',
         bulletin: 'https://o-site.spb.ru/_races/130606/130606_info.pdf'
@@ -767,7 +767,7 @@ let events2013 = [
         date: '2013-05-23',
         name: 'Весенний Кубок 110%, 4 этап',
         res: 'http://www.o-site.spb.ru/_races/130606/130523_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '130606',
         bulletin: 'https://o-site.spb.ru/_races/130606/130606_info.pdf'
     },
@@ -831,7 +831,7 @@ let events2013 = [
         date: '2013-05-30',
         name: 'Весенний Кубок 110%, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/130606/130530_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '130606',
         bulletin: 'https://o-site.spb.ru/_races/130606/130606_info.pdf'
     },
@@ -904,7 +904,7 @@ let events2013 = [
         date: '2013-06-06',
         name: 'Весенний Кубок 110%, 6 этап',
         res: 'http://www.o-site.spb.ru/_races/130606/130418_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '130606',
         bulletin: 'https://o-site.spb.ru/_races/130606/130606_info.pdf'
     },
@@ -1413,7 +1413,7 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/130927/130927_res.htm',
         fmt: 'эстафета 2х, заданное направление',
-        start: 'ROGAINE_110',
+        owner: 'TEAM_110',
         o_site: '130927',
         bulletin: 'https://o-site.spb.ru/_races/130927/130927_info.pdf'
     },
@@ -1681,7 +1681,8 @@ let events2013 = [
         name: 'Маркир 110%',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/131117/131117_res.htm',
-        start: 'ROGAINE_110',
+        start: 'MARKIR_110',
+        fmt: 'маркир',
         o_site: '131117',
         bulletin: 'https://o-site.spb.ru/_races/131117/131117_info2.pdf',
         maps: [

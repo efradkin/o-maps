@@ -343,7 +343,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/121025/120419_res.htm',
         o_site: '121025',
         bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20120420_1',
@@ -403,7 +403,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/12101825/120426_res.htm',
         o_site: '121025',
         bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20120429_1',
@@ -533,7 +533,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/121025/120517_res.htm',
         o_site: '121025',
         bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20120519_1',
@@ -626,7 +626,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/121025/120524_res.htm',
         o_site: '121025',
         bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20120525_1',
@@ -677,7 +677,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/121025/120531_res.htm',
         o_site: '121025',
         bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20120602_1',
@@ -710,7 +710,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/121025/120607_res.htm',
         o_site: '121025',
         bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20120610_1',
@@ -1040,7 +1040,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/121025/120913_res.htm',
         o_site: '121025',
         bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20120915_1',
@@ -1118,7 +1118,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/121025/120920_res.htm',
         o_site: '121025',
         bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20120922_1',
@@ -1176,7 +1176,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/121025/120927_res.htm',
         o_site: '121025',
         bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20121001_1',
@@ -1263,7 +1263,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/121025/121004_res.htm',
         o_site: '121025',
         bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20121006_1',
@@ -1320,7 +1320,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/121025/121011_res.htm',
         o_site: '121025',
         bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20121012_1',
@@ -1371,7 +1371,7 @@ let events2012 = [
         res: 'http://o-site.spb.ru/_races/121025/121018_res.htm',
         o_site: '121025',
         bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20121020_1',
@@ -1395,7 +1395,7 @@ let events2012 = [
         name: 'Кубок команды 110%, 13 этап',
         place: 'Кавголово',
         res: 'http://o-site.spb.ru/_races/121025/120419_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '121025',
         bulletin: 'https://o-site.spb.ru/_races/121025/121025_info.pdf'
     },

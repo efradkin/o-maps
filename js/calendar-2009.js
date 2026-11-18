@@ -265,7 +265,7 @@ let events2009 = [
         id: 'SPB_20090409_1',
         date: '2009-04-09',
         name: 'Весенний Кубок 110%, 1 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://www.o-site.spb.ru/_races/0906cup110/090409_res.htm',
         o_site: '0906cup110',
         bulletin: 'https://o-site.spb.ru/_races/0906cup110/090604_info.htm'
@@ -285,7 +285,7 @@ let events2009 = [
         id: 'SPB_20090416_1',
         date: '2009-04-16',
         name: 'Весенний Кубок 110%, 2 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://www.o-site.spb.ru/_races/0906cup110/090416_res.htm',
         o_site: '0906cup110',
         bulletin: 'https://o-site.spb.ru/_races/0906cup110/090604_info.htm'
@@ -316,7 +316,7 @@ let events2009 = [
         id: 'SPB_20090423_1',
         date: '2009-04-23',
         name: 'Весенний Кубок 110%, 3 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://www.o-site.spb.ru/_races/0906cup110/090423_res.htm',
         o_site: '0906cup110',
         bulletin: 'https://o-site.spb.ru/_races/0906cup110/090604_info.htm'
@@ -416,7 +416,7 @@ let events2009 = [
         place: 'Лемболово-Орехово',
         name: 'Первенство Команды 110%',
         res: 'http://o-time.ru/images/all/s09/footo110509.htm',
-        start: 'ROGAINE_110',
+        owner: 'TEAM_110',
         o_site: '090511_110',
         bulletin: 'https://o-site.spb.ru/_races/090511_110/090511_info2.htm'
     },
@@ -435,7 +435,7 @@ let events2009 = [
         id: 'SPB_20090514_1',
         date: '2009-05-14',
         name: 'Весенний Кубок 110%, 4 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'https://o-site.spb.ru/_races/0906cup110/090514_res.htm',
         o_site: '0906cup110',
         bulletin: 'https://o-site.spb.ru/_races/0906cup110/090604_info.htm'
@@ -499,7 +499,7 @@ let events2009 = [
         id: 'SPB_20090521_1',
         date: '2009-05-21',
         name: 'Весенний Кубок 110%, 5 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '0906cup110',
         bulletin: 'https://o-site.spb.ru/_races/0906cup110/090604_info.htm'
     },
@@ -546,7 +546,7 @@ let events2009 = [
         id: 'SPB_20090528_1',
         date: '2009-05-28',
         name: 'Весенний Кубок 110%, 6 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'https://o-site.spb.ru/_races/0906cup110/090528_res.htm',
         o_site: '0906cup110',
         bulletin: 'https://o-site.spb.ru/_races/0906cup110/090604_info.htm'
@@ -653,7 +653,7 @@ let events2009 = [
         place: 'Токсово',
         name: 'Весенний Кубок 110%',
         res: 'https://o-site.spb.ru/_races/0906cup110/090604_res.zip',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '0906cup110',
         bulletin: 'https://o-site.spb.ru/_races/0906cup110/090604_info.htm'
     },
@@ -987,7 +987,7 @@ let events2009 = [
         res: 'http://www.o-site.spb.ru/_races/091126/090917_res.htm',
         o_site: '091126',
         bulletin: 'https://o-site.spb.ru/_races/091126/091126_info.htm',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20090919_1',
@@ -1027,7 +1027,7 @@ let events2009 = [
         res: 'http://www.o-site.spb.ru/_races/091126/090924_res.htm',
         o_site: '091126',
         bulletin: 'https://o-site.spb.ru/_races/091126/091126_info.htm',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20090925_1',
@@ -1084,7 +1084,7 @@ let events2009 = [
         res: 'http://www.o-site.spb.ru/_races/091126/091001_res.htm',
         o_site: '091126',
         bulletin: 'https://o-site.spb.ru/_races/091126/091126_info.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         map: 'osinovaja_roscha_1999'
     },
     {
@@ -1129,7 +1129,7 @@ let events2009 = [
         res: 'http://www.o-site.spb.ru/_races/091126/091008_res.htm',
         o_site: '091126',
         bulletin: 'https://o-site.spb.ru/_races/091126/091126_info.htm',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20091010_1',
@@ -1151,7 +1151,7 @@ let events2009 = [
         o_site: '091126',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#27',
         bulletin: 'https://o-site.spb.ru/_races/091126/091126_info.htm',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20091017_1',
@@ -1198,7 +1198,7 @@ let events2009 = [
         o_site: '091126',
         rg: 'https://o-site.spb.ru/cgi-bin/rg2.php#29',
         bulletin: 'https://o-site.spb.ru/_races/091126/091126_info.htm',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20091024_1',
@@ -1328,7 +1328,7 @@ let events2009 = [
         res: 'http://www.o-site.spb.ru/_races/091126/091112_res.htm',
         o_site: '091126',
         bulletin: 'https://o-site.spb.ru/_races/091126/091126_info.htm',
-        start: 'ROGAINE_110'
+        start: 'CUP_110'
     },
     {
         id: 'SPB_20091122_1',
@@ -1337,7 +1337,7 @@ let events2009 = [
         place: 'Кузьмоловский',
         fmt: 'маркир',
         res: 'https://o-site.spb.ru/_races/091122_mark/091122_res.htm',
-        start: 'ROGAINE_110',
+        start: 'MARKIR_110',
         o_site: '091122_mark',
         bulletin: 'https://o-site.spb.ru/_races/091122_mark/091122_info.htm',
         maps: [
@@ -1350,7 +1350,7 @@ let events2009 = [
         name: 'Осенний Кубок 110%, 8 этап',
         place: 'Кузьмоловский',
         res: 'https://o-site.spb.ru/_races/091126/091126_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '091126',
         bulletin: 'https://o-site.spb.ru/_races/091126/091126_info.htm'
     },

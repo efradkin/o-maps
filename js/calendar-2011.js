@@ -290,7 +290,7 @@ let events2011 = [
         place: 'Энколово',
         name: 'Весенний Кубок команды 110%, 1 этап',
         res: 'https://o-site.spb.ru/_races/110602/110414_split.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '110602',
         bulletin: 'https://o-site.spb.ru/_races/110602/110602_info.htm'
     },
@@ -317,7 +317,7 @@ let events2011 = [
         place: 'Токсово',
         name: 'Весенний Кубок команды 110%, 2 этап',
         res: 'https://o-site.spb.ru/_races/110602/110421_split.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '110602',
         bulletin: 'https://o-site.spb.ru/_races/110602/110602_info.htm'
     },
@@ -337,7 +337,7 @@ let events2011 = [
         place: 'Карабсельки',
         name: 'Весенний Кубок команды 110%, 3 этап',
         res: 'https://o-site.spb.ru/_races/110602/110426_split.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '110602',
         bulletin: 'https://o-site.spb.ru/_races/110602/110602_info.htm'
     },
@@ -411,7 +411,7 @@ let events2011 = [
         place: 'Юкки',
         name: 'Весенний Кубок команды 110%, 4 этап',
         res: 'https://o-site.spb.ru/_races/110602/110512_split.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '110602',
         bulletin: 'https://o-site.spb.ru/_races/110602/110602_info.htm'
     },
@@ -499,7 +499,7 @@ let events2011 = [
         place: 'Кавголово',
         name: 'Весенний Кубок команды 110%, 5 этап',
         res: 'https://o-site.spb.ru/_races/110602/110519_split.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '110602',
         bulletin: 'https://o-site.spb.ru/_races/110602/110602_info.htm'
     },
@@ -579,7 +579,7 @@ let events2011 = [
         place: 'Кузьмолово',
         name: 'Весенний Кубок команды 110%, 6 этап',
         res: 'https://o-site.spb.ru/_races/110602/110526_res.pdf',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '110602',
         bulletin: 'https://o-site.spb.ru/_races/110602/110602_info.htm'
     },
@@ -626,7 +626,7 @@ let events2011 = [
         place: 'Сярьги',
         res: 'https://o-site.spb.ru/_races/110601/110601_split.htm',
         info: 'Тренировка по подготовке к Jukola 2011',
-        start: 'ROGAINE_110',
+        owner: 'TEAM_110',
         o_site: '110601'
     },
     {
@@ -635,7 +635,7 @@ let events2011 = [
         place: 'Токсово',
         name: 'Весенний Кубок команды 110%, 7 этап',
         res: 'https://o-site.spb.ru/_races/110602/110602_split.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '110602',
         bulletin: 'https://o-site.spb.ru/_races/110602/110602_info.htm'
     },
@@ -945,7 +945,7 @@ let events2011 = [
         date: '2011-09-15',
         place: 'Юкки',
         name: 'Осенний Кубок команды 110%, 1 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://o-site.spb.ru/_races/111117/110915_res.htm',
         o_site: '111117',
         bulletin: 'https://o-site.spb.ru/_races/111117/111017_info.pdf'
@@ -986,7 +986,7 @@ let events2011 = [
         date: '2011-09-22',
         place: 'Токсово',
         name: 'Осенний Кубок команды 110%, 2 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://o-site.spb.ru/_races/111117/110922_res.htm',
         o_site: '111117',
         bulletin: 'https://o-site.spb.ru/_races/111117/111017_info.pdf'
@@ -1101,7 +1101,7 @@ let events2011 = [
         date: '2011-10-06',
         place: 'Токсово',
         name: 'Осенний Кубок команды 110%, 3 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://o-site.spb.ru/_races/111117/111006_split.htm',
         o_site: '111117',
         bulletin: 'https://o-site.spb.ru/_races/111117/111017_info.pdf'
@@ -1132,7 +1132,7 @@ let events2011 = [
         date: '2011-10-11',
         place: 'Кузьмолово',
         name: 'Осенний Кубок команды 110%, 4 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://o-site.spb.ru/_races/111117/111011_split.htm',
         o_site: '111117',
         bulletin: 'https://o-site.spb.ru/_races/111117/111017_info.pdf'
@@ -1183,7 +1183,7 @@ let events2011 = [
         place: 'Куялово',
         name: 'Осенний Кубок команды 110%, 5 этап',
         res: 'http://o-site.spb.ru/_races/111117/111020_split.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '111117',
         bulletin: 'https://o-site.spb.ru/_races/111117/111017_info.pdf',
         map: 'kujalovo_2012'
@@ -1283,7 +1283,7 @@ let events2011 = [
         place: 'Кузьмолово',
         name: 'Осенний Кубок команды 110%, 6 этап',
         res: 'http://o-site.spb.ru/_races/111117/111110_split.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '111117',
         bulletin: 'https://o-site.spb.ru/_races/111117/111017_info.pdf'
     },
@@ -1306,7 +1306,7 @@ let events2011 = [
         place: 'Кузьмолово',
         name: 'Осенний Кубок команды 110%, 7 этап',
         res: 'http://o-site.spb.ru/_races/111117/111117_split.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '111117',
         bulletin: 'https://o-site.spb.ru/_races/111117/111017_info.pdf'
     },

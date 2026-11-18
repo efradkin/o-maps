@@ -195,7 +195,7 @@ let events2008 = [
         place: 'Кузьмолово',
         name: 'Весенний Кубок 110%, 1 этап',
         res: 'https://o-site.spb.ru/_races/0804_cup110/080410_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '0804_cup110'
     },
     {
@@ -229,7 +229,7 @@ let events2008 = [
         place: 'Токсово',
         name: 'Весенний Кубок 110%, 2 этап',
         res: 'https://o-site.spb.ru/_races/0804_cup110/080417_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '0804_cup110'
     },
     {
@@ -261,7 +261,7 @@ let events2008 = [
         place: 'Токсово',
         name: 'Весенний Кубок 110%, 3 этап',
         res: 'https://o-site.spb.ru/_races/0804_cup110/080422_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '0804_cup110'
     },
     {
@@ -361,7 +361,7 @@ let events2008 = [
         place: 'Кузьмолово',
         name: 'Весенний Кубок 110%, 4 этап',
         res: 'https://o-site.spb.ru/_races/0804_cup110/080515_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '0804_cup110'
     },
     {
@@ -391,7 +391,7 @@ let events2008 = [
         place: 'Пески',
         name: 'Весенний Кубок 110%, 5 этап',
         res: 'https://o-site.spb.ru/_races/0804_cup110/080517_res.txt',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '0804_cup110',
         map: 'peski_2001'
     },
@@ -433,7 +433,7 @@ let events2008 = [
         place: 'Осельки',
         name: 'Весенний Кубок 110%, 6 этап',
         res: 'https://o-site.spb.ru/_races/0804_cup110/080522_res.txt',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '0804_cup110',
         map: 'oselki_2007'
     },
@@ -490,7 +490,7 @@ let events2008 = [
         place: 'Токсово',
         name: 'Весенний Кубок 110%, 7 этап',
         res: 'https://o-site.spb.ru/_races/0804_cup110/080529_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '0804_cup110'
     },
     {
@@ -892,7 +892,7 @@ let events2008 = [
         date: '2008-10-02',
         name: 'Ночной Кубок 110%, 1 этап',
         place: 'Кавголово',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://o-site.spb.ru/_races/081120/ncup110_08_1_res.htm',
         o_site: '081120'
     },
@@ -927,7 +927,7 @@ let events2008 = [
         id: 'SPB_20081009_1',
         date: '2008-10-09',
         name: 'Ночной Кубок 110%, 2 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://o-site.spb.ru/_races/081120/ncup110_08_2_res.htm',
         o_site: '081120'
     },
@@ -976,7 +976,7 @@ let events2008 = [
         id: 'SPB_20081023_1',
         date: '2008-10-23',
         name: 'Ночной Кубок 110%, 3 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://o-site.spb.ru/_races/081120/ncup110_08_3_res.htm',
         o_site: '081120'
     },
@@ -1070,7 +1070,7 @@ let events2008 = [
         id: 'SPB_20081113_1',
         date: '2008-11-13',
         name: 'Ночной Кубок 110%, 4 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://o-site.spb.ru/_races/081120/ncup110_08_4_res.htm',
         o_site: '081120'
     },
@@ -1098,7 +1098,7 @@ let events2008 = [
         id: 'SPB_20081120_1',
         date: '2008-11-20',
         name: 'Ночной Кубок 110%, 5 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://o-site.spb.ru/_races/081120/ncup110_08_5_res.htm',
         o_site: '081120'
     },

@@ -2018,7 +2018,7 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=953',
         res: 'https://o-site.spb.ru/_races/181111_mt/181111_split.htm',
         bulletin: 'https://o-site.spb.ru/_races/181111_mt/181111_markir110_info1.PDF',
-        start: 'ROGAINE_110',
+        start: 'MARKIR_110',
         o_site: '181111_mt',
         map: 'lembolovo_2024',
         o_gps: 4700,

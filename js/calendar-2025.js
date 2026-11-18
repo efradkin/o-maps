@@ -3151,7 +3151,7 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/47234',
         endReg: '2025-11-06 23:55',
         o_gps: 23839,
-        start: 'ROGAINE_110',
+        start: 'MARKIR_110',
         map: 'lembolovo_2024',
         strava: 16403313501,
         me: 'A',

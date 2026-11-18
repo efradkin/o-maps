@@ -722,7 +722,7 @@ let events2014 = [
         name: 'Первенство Команды 110%',
         place: 'Мичуринское',
         res: 'https://o-site.spb.ru/_races/140601/140601_res.htm',
-        start: 'ROGAINE_110',
+        owner: 'TEAM_110',
         o_site: '140601',
         bulletin: 'https://o-site.spb.ru/_races/140601/140601_info.pdf'
     },
@@ -1556,7 +1556,7 @@ let events2014 = [
         name: 'Маркир-110',
         place: 'Охта-парк',
         res: 'https://o-site.spb.ru/_races/141116/141116_RES_shtr.html',
-        start: 'ROGAINE_110',
+        start: 'MARKIR_110',
         o_site: '141116',
         maps: [
             'https://o-site.spb.ru/_races/141116/markir_control.All.jpg'

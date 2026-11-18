@@ -2069,7 +2069,7 @@ let events2017 = [
         name: 'МАРКИР-110',
         reg: 'http://o-reg.spb.ru/entry-list?id=813',
         res: 'https://o-site.spb.ru/_races/171112_markir/171112_res1.html',
-        start: 'ROGAINE_110',
+        start: 'MARKIR_110',
         o_site: '171112_markir',
         bulletin: 'https://o-site.spb.ru/_races/171112_markir/171112_info.pdf',
         map: 'lembolovo_2024',

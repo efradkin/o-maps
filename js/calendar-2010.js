@@ -598,7 +598,7 @@ let events2010 = [
         place: 'Колосково, пл 78км',
         name: 'Первенство Команды 110%',
         res: 'https://o-site.spb.ru/_races/100530/100530_res.htm',
-        start: 'ROGAINE_110',
+        owner: 'TEAM_110',
         o_site: '100530',
         bulletin: 'https://o-site.spb.ru/_races/100530/100530_info.htm',
         map: 'koloskovo_1998'
@@ -619,7 +619,7 @@ let events2010 = [
         date: '2010-06-04',
         name: 'Весенний Кубок команды 110%',
         place: 'Токсово, Матокса',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '100604',
         bulletin: 'https://o-site.spb.ru/_races/100604/100604_info.htm'
     },
@@ -927,7 +927,7 @@ let events2010 = [
         date: '2010-09-16',
         place: 'Кавголово',
         name: 'Осенний Кубок команды 110%, 1 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://www.o-site.spb.ru/_races/101118/100916_res.htm',
         o_site: '101118',
         bulletin: 'https://o-site.spb.ru/_races/101118/101118_info.htm'
@@ -1027,7 +1027,7 @@ let events2010 = [
         date: '2010-09-30',
         place: 'Токсово',
         name: 'Осенний Кубок команды 110%, 2 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://www.o-site.spb.ru/_races/101118/100930_res.htm',
         o_site: '101118',
         bulletin: 'https://o-site.spb.ru/_races/101118/101118_info.htm'
@@ -1114,7 +1114,7 @@ let events2010 = [
         date: '2010-10-14',
         place: 'Юкки',
         name: 'Осенний Кубок команды 110%, 3 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://www.o-site.spb.ru/_races/101118/101014_res.htm',
         o_site: '101118',
         bulletin: 'https://o-site.spb.ru/_races/101118/101118_info.htm'
@@ -1171,7 +1171,7 @@ let events2010 = [
         date: '2010-10-21',
         place: 'Кузьмолово',
         name: 'Осенний Кубок команды 110%, 4 этап',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         res: 'http://www.o-site.spb.ru/_races/101118/101021_res.htm',
         o_site: '101118',
         bulletin: 'https://o-site.spb.ru/_races/101118/101118_info.htm'
@@ -1260,7 +1260,7 @@ let events2010 = [
         place: 'Кавголово',
         name: 'Осенний Кубок команды 110%, 5 этап',
         res: 'http://www.o-site.spb.ru/_races/101118/101111_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '101118',
         bulletin: 'https://o-site.spb.ru/_races/101118/101118_info.htm'
     },
@@ -1270,7 +1270,7 @@ let events2010 = [
         name: 'Осенний Кубок команды 110%',
         place: 'Кузьмолово',
         res: 'http://www.o-site.spb.ru/_races/101118/100916_res.htm',
-        start: 'ROGAINE_110',
+        start: 'CUP_110',
         o_site: '101118',
         bulletin: 'https://o-site.spb.ru/_races/101118/101118_info.htm'
     },
