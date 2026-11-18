@@ -914,8 +914,9 @@
 
                 /* target проставляем явно: <base target="_blank"> действует на
                    html-ссылки, а на svg-якорь браузеры его не распространяют. */
+                const calendarPage = row.region === 'MSK' ? 'calendar-msk.html' : 'calendar.html';
                 const link = svgEl('a', {
-                    href: 'calendar.html?startYear=' + year
+                    href: calendarPage + '?startYear=' + year
                         + '&start=' + encodeURIComponent(row.code),
                     target: '_blank',
                 });

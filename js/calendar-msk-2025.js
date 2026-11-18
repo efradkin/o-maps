@@ -1100,6 +1100,15 @@ let mskEvents2025 = [
         endReg: "2019-07-04 22:55"
     },
     {
+        id: 'MSK_20190706_1',
+        date: '2019-07-06',
+        name: 'Компот-рогейн',
+        place: 'Трубино',
+        o_gps: 6062,
+        start: 'KMPT_ROGAINE',
+        map: 'trubino_rogaine_2019'
+    },
+    {
         id: 'MSK_20190709_1',
         date: "2019-07-09",
         name: "Московское Лето 2019, 8 этап",
@@ -1902,6 +1911,15 @@ let mskEvents2025 = [
         endReg: "2020-02-27 23:55"
     },
     {
+        id: 'MSK_20200229_2',
+        date: '2020-02-29',
+        name: 'Лыжный Компот-рогейн.',
+        place: 'Володкино',
+        o_gps: 7173,
+        start: 'KMPT_ROGAINE',
+        map: 'volodkino_winter_rogaine_2020'
+    },
+    {
         id: 'MSK_20200307_1',
         date: "2020-03-07",
         name: "Московская Весна 2020, 1 этап",
@@ -2585,6 +2603,15 @@ let mskEvents2025 = [
         endReg: "2020-09-03 20:00"
     },
     {
+        id: 'MSK_20200905_3',
+        date: '2020-09-05',
+        name: 'Компот-рогейн',
+        place: 'Васильево',
+        o_gps: 8091,
+        start: 'KMPT_ROGAINE',
+        map: 'vasilevo_rogaine_2020'
+    },
+    {
         id: 'MSK_20200906_1',
         date: "2020-09-06",
         name: "Московская Осень 2020, 3 этап",
@@ -3155,6 +3182,15 @@ let mskEvents2025 = [
         endReg: "2021-02-27 00:05"
     },
     {
+        id: 'MSK_20210227_2',
+        date: '2021-02-27',
+        name: 'Лыжный Компот-рогейн.',
+        place: 'Зелёный городок',
+        o_gps: 9057,
+        start: 'KMPT_ROGAINE',
+        map: 'zeleny_gorodok_rogaine_2021'
+    },
+    {
         id: 'MSK_20210228_1',
         date: "2021-02-28",
         name: "Московская Весна 2021, 2 этап",
@@ -3652,6 +3688,15 @@ let mskEvents2025 = [
         endReg: "2021-07-01 20:00"
     },
     {
+        id: 'MSK_20210703_2',
+        date: '2021-07-03',
+        name: 'Летний Компот-рогейн.',
+        place: 'Раково',
+        o_gps: 10332,
+        start: 'KMPT_ROGAINE',
+        map: 'pushkino_rogaine_2021'
+    },
+    {
         id: 'MSK_20210706_1',
         date: "2021-07-06",
         name: "Московское Лето 2021, 7 этап",
@@ -3865,6 +3910,15 @@ let mskEvents2025 = [
         endReg: "2021-09-02 01:00"
     },
     {
+        id: 'MSK_20210904_4',
+        date: '2021-09-04',
+        name: 'Осенний Компот-рогейн.',
+        place: 'Павловский Посад',
+        o_gps: 10848,
+        start: 'KMPT_ROGAINE',
+        map: 'pavlovsky_posad_rogaine_2021'
+    },
+    {
         id: 'MSK_20210910_1',
         date: "2021-09-10",
         name: "Ориентирование отбор",
@@ -4008,6 +4062,15 @@ let mskEvents2025 = [
         coord: [55.777924, 37.438782],
         reg: "https://orgeo.ru/event/18396",
         endReg: "2021-09-23 00:00"
+    },
+    {
+        id: 'MSK_20210925_4',
+        date: '2021-09-25',
+        name: 'Финал Компот-Кубка.',
+        place: 'Невзорово',
+        o_gps: 10989,
+        start: 'KMPT_ROGAINE',
+        map: 'nevzorovo_2021'
     },
     {
         id: 'MSK_20210926_1',
@@ -4573,6 +4636,15 @@ let mskEvents2025 = [
         endReg: "2022-02-25 21:00"
     },
     {
+        id: 'MSK_20220226_2',
+        date: '2022-02-26',
+        name: 'Лыжный Компот-рогейн.',
+        place: 'Бабаиха',
+        o_gps: 12099,
+        start: 'KMPT_ROGAINE',
+        map: 'babaiha_rogaine_2024'
+    },
+    {
         id: 'MSK_20220307_1',
         date: "2022-03-07",
         name: "Соревнования по спортивному ориентированию на маркированной трассе",
@@ -4966,6 +5038,15 @@ let mskEvents2025 = [
         endReg: "2022-06-30 23:55"
     },
     {
+        id: 'MSK_20220702_1',
+        date: '2022-07-02',
+        name: 'Летний Компот-рогейн.',
+        place: 'Дмитров',
+        o_gps: 13489,
+        start: 'KMPT_ROGAINE',
+        map: 'dmitrov_rogaine_2024'
+    },
+    {
         id: 'MSK_20220705_1',
         date: "2022-07-05",
         name: "Московское Лето 2022, 7 этап",
@@ -5197,6 +5278,15 @@ let mskEvents2025 = [
         endReg: "2022-08-31 23:55"
     },
     {
+        id: 'MSK_20220903_1',
+        date: '2022-09-03',
+        name: 'Осенний Компот-рогейн.',
+        place: 'Балашиха',
+        o_gps: 13970,
+        start: 'KMPT_ROGAINE',
+        map: 'balashiha_rogaine_2024'
+    },
+    {
         id: 'MSK_20220904_1',
         date: "2022-09-04",
         name: "Moscow Sprint Tour",
@@ -5271,6 +5361,15 @@ let mskEvents2025 = [
             '2': 14181,
             '3': 14182
         }
+    },
+    {
+        id: 'MSK_20220924_3',
+        date: '2022-09-24',
+        name: 'Финал Компот-Кубка.',
+        place: 'Борносово',
+        o_gps: 14097,
+        start: 'KMPT_ROGAINE',
+        map: 'bornosovo_rogaine_2024'
     },
     {
         id: 'MSK_20220925_1',
@@ -6043,6 +6142,15 @@ let mskEvents2025 = [
         }
     },
     {
+        id: 'MSK_20230507_1',
+        date: '2023-05-07',
+        name: 'Весенний Компот-рогейн.',
+        place: 'Осеевская',
+        o_gps: 15921,
+        start: 'KMPT_ROGAINE',
+        map: 'oseevskaya_rogaine_2023'
+    },
+    {
         id: 'MSK_20230508_1',
         date: "2023-05-08",
         name: "Московская Весна 2023, 13 этап",
@@ -6264,6 +6372,15 @@ let mskEvents2025 = [
         bulletin: "https://orgeo.ru/files/event/file/28892_8efc3713d0.pdf"
     },
     {
+        id: 'MSK_20230708_1',
+        date: '2023-07-08',
+        name: 'Летний Компот-рогейн.',
+        place: 'Красноармейск',
+        o_gps: 16726,
+        start: 'KMPT_ROGAINE',
+        map: 'krasnoarmaysk_rogaine_2024'
+    },
+    {
         id: 'MSK_20230711_1',
         date: "2023-07-11",
         name: "Московское Лето 2023, 9 этап",
@@ -6415,6 +6532,15 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/27632",
         endReg: "2023-08-26 21:00",
         bulletin: "https://orgeo.ru/files/event/file/27632_db6071e887.pdf"
+    },
+    {
+        id: 'MSK_20230902_1',
+        date: '2023-09-02',
+        name: 'Осенний Компот-рогейн.',
+        place: 'Электроугли',
+        o_gps: 17084,
+        start: 'KMPT_ROGAINE',
+        map: 'electrougli_rogaine_2024'
     },
     {
         id: 'MSK_20230903_1',
@@ -6689,6 +6815,14 @@ let mskEvents2025 = [
         bulletin: "https://orgeo.ru/files/event/file/29933_da38d28bd5.pdf"
     },
     {
+        id: 'MSK_20231105_1',
+        date: '2023-11-05',
+        name: 'Финал Компот-кубка.',
+        place: 'Ивантеевка',
+        start: 'KMPT_ROGAINE',
+        map: 'ivanteevka_final_rogaine_2023'
+    },
+    {
         id: 'MSK_20231106_1',
         date: "2023-11-06",
         name: "Московская Осень 2023, 11 этап",
@@ -6959,6 +7093,15 @@ let mskEvents2025 = [
         bulletin: "https://orgeo.ru/files/event/file/32369_9c9ed6d691.pdf"
     },
     {
+        id: 'MSK_20240203_1',
+        date: '2024-02-03',
+        name: 'Зимний Лыжный Компот-рогейн.',
+        place: 'Ивантеевка',
+        o_gps: 18320,
+        start: 'KMPT_ROGAINE',
+        map: 'ivanteevka_winter_ski_rogaine_2024'
+    },
+    {
         id: 'MSK_20240210_1',
         date: "2024-02-10",
         name: "Московская Зима 2024",
@@ -6990,6 +7133,15 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/33328",
         endReg: "2024-02-24 21:00",
         bulletin: "https://orgeo.ru/files/event/file/33328_4cbf91aee1.pdf"
+    },
+    {
+        id: 'MSK_20240302_1',
+        date: '2024-03-02',
+        name: 'Весенний Лыжный Компот-рогейн.',
+        place: 'Марьина гора',
+        o_gps: 18492,
+        start: 'KMPT_ROGAINE',
+        map: 'marjina_gora_2024'
     },
     {
         id: 'MSK_20240303_1',
@@ -7280,6 +7432,15 @@ let mskEvents2025 = [
         bulletin: "https://orgeo.ru/files/event/file/34507_ed331d3618.pdf"
     },
     {
+        id: 'MSK_20240511_1',
+        date: '2024-05-11',
+        name: 'Весенний Компот-рогейн.',
+        place: 'Ратьково',
+        o_gps: 19325,
+        start: 'KMPT_ROGAINE',
+        map: 'ratkovo_rogaine_2024'
+    },
+    {
         id: 'MSK_20240512_1',
         date: "2024-05-12",
         name: "Чемпионат и Первенство г.Москвы - кросс- классика",
@@ -7474,6 +7635,15 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/36097",
         endReg: "2024-07-04 23:55",
         bulletin: "https://orgeo.ru/files/event/file/36097_2e09df48a9.pdf"
+    },
+    {
+        id: 'MSK_20240706_1',
+        date: '2024-07-06',
+        name: 'Летний Компот-рогейн.',
+        place: 'Ногинск',
+        o_gps: 19955,
+        start: 'KMPT_ROGAINE',
+        map: 'noginsk_rogaine_2024'
     },
     {
         id: 'MSK_20240709_1',
@@ -7761,6 +7931,15 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/37047",
         endReg: "2024-09-07 21:00",
         bulletin: "https://orgeo.ru/files/event/file/37047_97686c781c.pdf"
+    },
+    {
+        id: 'MSK_20240907_3',
+        date: '2024-09-07',
+        name: 'Осенний Компот-рогейн.',
+        place: 'Мураново',
+        o_gps: 20293,
+        start: 'KMPT_ROGAINE',
+        map: 'muranovo_rogaine_2024'
     },
     {
         id: 'MSK_20240908_1',
@@ -8051,6 +8230,15 @@ let mskEvents2025 = [
         reg: "https://orgeo.ru/event/38228",
         endReg: "2024-10-17 20:00",
         bulletin: "https://docs.google.com/document/d/1k0JuilyYKNByuW8RMO7cJSXadjifTYqBFTRlk8yRyTg/edit?usp=sharing"
+    },
+    {
+        id: 'MSK_20241019_1',
+        date: '2024-10-19',
+        name: 'Финал Компот-Кубка.',
+        place: 'Лосино-Петровский',
+        o_gps: 20839,
+        start: 'KMPT_ROGAINE',
+        map: 'losino_petrovsky_rogaine_2024'
     },
     {
         id: 'MSK_20241020_1',
@@ -9671,6 +9859,15 @@ let mskEvents2025 = [
         photo: "https://vk.com/albums-78257998"
     },
     {
+        id: 'MSK_20250510_2',
+        date: '2025-05-10',
+        name: 'Весенний Компот-рогейн.',
+        place: 'Ляпино',
+        o_gps: 22250,
+        start: 'KMPT_ROGAINE',
+        map: 'electrogorsk_rogaine_2025'
+    },
+    {
         id: 'MSK_20250511_1',
         date: "2025-05-11",
         name: "Кубок Спортмастер PRO - Чемпионат и Первенство г. Москвы, кросс - эстафета 3 человека",
@@ -10266,6 +10463,15 @@ let mskEvents2025 = [
         bulletin: "https://orgeo.ru/files/event/file/44867_45f53d1dbf.pdf"
     },
     {
+        id: 'MSK_20250726_2',
+        date: '2025-07-26',
+        name: 'Летний Компот-рогейн.',
+        place: 'Никольское',
+        o_gps: 23122,
+        start: 'KMPT_ROGAINE',
+        map: 'nikolskoe_rogaine_2025'
+    },
+    {
         id: 'MSK_20250727_1',
         date: "2025-07-27",
         name: "Открытая тренировка СК Малахит",
@@ -10613,6 +10819,15 @@ let mskEvents2025 = [
         coord: [55.603527, 37.531918],
         reg: "https://orgeo.ru/event/46032",
         endReg: "2025-09-06 10:00"
+    },
+    {
+        id: 'MSK_20250906_3',
+        date: '2025-09-06',
+        name: 'Осенний Компот-рогейн.',
+        place: 'Фряново',
+        o_gps: 23337,
+        start: 'KMPT_ROGAINE',
+        map: 'frianovo_rogaine_2025'
     },
     {
         id: 'MSK_20250907_1',
@@ -11046,6 +11261,15 @@ let mskEvents2025 = [
         owner: "CLEVER_MSK",
         photo: "https://vk.com/albums-78257998",
         map: '20230130_803'
+    },
+    {
+        id: 'MSK_20251018_3',
+        date: '2025-10-18',
+        name: 'Финал Компот-Кубка.',
+        place: 'Пушкино',
+        o_gps: 23622,
+        start: 'KMPT_ROGAINE',
+        map: 'pushkino_rogaine_2025'
     },
     {
         id: 'MSK_20251019_1',

@@ -195,6 +195,14 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20260207_2',
+        date: '2026-02-07',
+        name: 'Лыжный трейл <a href="https://x-lite.run/mw2026">Московский White</a>.',
+        place: 'Устинки',
+        start: 'KMPT_ROGAINE',
+        map: 'ustinki_winter_rogaine_2026'
+    },
+    {
         id: 'MSK_20260208_1',
         date: "2026-02-08",
         name: "Нано-Подкуст",
@@ -1181,6 +1189,15 @@ let mskEvents2026 = [
         map: '20250404_210'
     },
     {
+        id: 'MSK_20260510_3',
+        date: '2026-05-10',
+        name: 'Весенний Компот-рогейн.',
+        place: 'Любицы',
+        o_gps: 24913,
+        start: 'KMPT_ROGAINE',
+        map: 'lubitsy_rogaine_2026'
+    },
+    {
         id: 'MSK_20260511_1',
         date: "2026-05-11",
         name: "ЧиП Москвы",
@@ -1914,6 +1931,15 @@ let mskEvents2026 = [
         map: "lysaya_gora_2026"
     },
     {
+        id: 'MSK_20260711_2',
+        date: '2026-07-11',
+        name: 'Летний Компот-рогейн.',
+        place: 'Ситники',
+        o_gps: 25564,
+        start: 'KMPT_ROGAINE',
+        map: 'sitniki_rogaine_2026'
+    },
+    {
         id: 'MSK_20260712_1',
         date: "2026-07-12",
         name: "Открытая тренировка",
@@ -2471,6 +2497,15 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/54580",
         endReg: "2026-09-04 21:50",
         owner: "CLEVER_MSK"
+    },
+    {
+        id: 'MSK_20260905_2',
+        date: '2026-09-05',
+        name: 'Осенний Компот-рогейн.',
+        place: 'Финеево',
+        o_gps: 25862,
+        start: 'KMPT_ROGAINE',
+        map: 'fineevo_rogaine_2026'
     },
     {
         id: 'MSK_20260906_1',
