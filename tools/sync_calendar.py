@@ -12,8 +12,8 @@ sync_calendar.py — получение и обновление записей �
             (Google Doc) -> calendar-msk-YYYY.js; внешний скрипт;
   osite     o-site.spb.ru: списки стартов archive.php?year=YYYY и страницы
             race.php?id=…;
-  orgeo     orgeo.ru, раздел «Ориентирование», подразделы СПб, ЛО, МСК и Самара
-            (только местные), будущие и прошедшие события; собрания, лекции и
+  orgeo     orgeo.ru, разделы «Ориентирование» и «Рогейн», подразделы СПб, ЛО,
+            МСК и Самара (только местные), будущие и прошедшие события; собрания, лекции и
             семинары пропускаются; из подраздела Самары — только старты в
             Самарской области (там бывают и соседние регионы);
   reskeep   reskeep.ru: номера протоколов (главная страница, весь список) —
@@ -124,8 +124,10 @@ sync_calendar.py — получение и обновление записей �
     всё равно рогейн); затем слова описания в списке стартов; затем значок вида
     («Вело» -> VELO, «Лыжи» -> SKI; «Мультиспорт» не используется: им помечены и
     обычные старты). Если слова противоречат друг другу (лыжи и кросс) — они не
-    решают, решает следующий шаг. type с orgeo — по тем же словам в названии и
-    дисциплинах программы, иначе ORIENT. Виды, которых у организатора не бывает
+    решают, решает следующий шаг. type с orgeo — по словам в названии и
+    дисциплинах программы; если событие получено из категории «Рогейн», это
+    учитывается и при отсутствии явного слова «рогейн» (общее слово «бег» не
+    должно превращать его в ORIENT). Иначе ORIENT. Виды, которых у организатора не бывает
     (NOT_TYPES: у Белых Ночей, owner WN или start с owner WN в starts.js, — SKI),
     не вписываются;
   * серия (у страницы о-сайта несколько записей, её дат больше SERIES_DAYS
@@ -300,6 +302,8 @@ ORGEO = 'https://orgeo.ru/'
 RESKEEP = 'https://reskeep.ru/'
 EXTRA_CA = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'extra_ca.pem')
 ORGEO_REGIONS = ['spb', 'lenobl', 'moscow+mosobl', 'samara']
+# В Orgeo это самостоятельные категории спорта; одной «Ориентировки» недостаточно.
+ORGEO_TYPES = ('orienteering', 'rogaining')
 ORGEO_SKIP_LEVEL = {'Собрания, лекции, коференции'}
 ORGEO_NATIONAL_LEVEL = {'Всероссийские ФСОР'}
 SEMINAR = re.compile(r'семинар', re.I)
@@ -1654,6 +1658,7 @@ class OrgeoEvent:
     def __init__(self, eid, alias):
         self.id, self.alias = str(eid), alias
         self.lists = set()
+        self.sports = set()       # категории Orgeo, в которых найдено событие
         self.level = self.name = self.place = None
         self.d0 = self.d1 = None
         self.region = self.addr = None
@@ -1709,7 +1714,12 @@ class OrgeoEvent:
             parts = re.findall(r'<strong>(.*?)</strong>', li, re.S)
             if len(parts) >= 2:
                 disc.append(clean(parts[1]).rstrip('.'))
-        self.typ = type_by_words((self.name or '') + ' ' + ' '.join(disc)) or 'ORIENT'
+        self.typ = type_by_words((self.name or '') + ' ' + ' '.join(disc))
+        # Категория Orgeo надёжнее общих слов «бег/кросс»: рогейн может не содержать
+        # слово «рогейн» в названии или дисциплине. Более специфичные типы сохраняем.
+        if 'rogaining' in self.sports and self.typ in (None, 'ORIENT'):
+            self.typ = 'ROGAINE'
+        self.typ = self.typ or 'ORIENT'
         fm = []
         for d in disc:
             d = re.sub(r'\s*\([^)]*\)', '', d).replace('"', '').replace('«', '').replace('»', '')
@@ -1759,19 +1769,20 @@ def orgeo_list(fetcher, scope, rep):
     events, aliases = {}, {}
     today = dt.date.today()
     jobs = []
-    for reg in ORGEO_REGIONS:
-        base = 'type/orienteering%s/region/' + reg + '/no_national/true'
-        if scope.kind == 'years':
-            for y in scope.years:
-                jobs.append((reg, ORGEO + 'event/archive/' + (base % '') + '/date/%d' % y, None))
-                if y >= today.year:
-                    jobs.append((reg, ORGEO + 'event/index/' + (base % ('/date/%d' % y)), None))
-        else:
-            jobs.append((reg, ORGEO + 'event/index/' + (base % ''), None))
-            jobs.append((reg, ORGEO + 'event/archive/' + (base % ''),
-                         scope.since if scope.kind == 'fresh' else None))
+    for sport in ORGEO_TYPES:
+        for reg in ORGEO_REGIONS:
+            base = 'type/' + sport + '%s/region/' + reg + '/no_national/true'
+            if scope.kind == 'years':
+                for y in scope.years:
+                    jobs.append((reg, sport, ORGEO + 'event/archive/' + (base % '') + '/date/%d' % y, None))
+                    if y >= today.year:
+                        jobs.append((reg, sport, ORGEO + 'event/index/' + (base % ('/date/%d' % y)), None))
+            else:
+                jobs.append((reg, sport, ORGEO + 'event/index/' + (base % ''), None))
+                jobs.append((reg, sport, ORGEO + 'event/archive/' + (base % ''),
+                             scope.since if scope.kind == 'fresh' else None))
     prog = OG.Progress(len(jobs))
-    for k, (reg, base, stop) in enumerate(jobs, 1):
+    for k, (reg, sport, base, stop) in enumerate(jobs, 1):
         p = 1
         while True:
             url = base + ('/EventView_page/%d' % p if p > 1 else '')
@@ -1785,6 +1796,7 @@ def orgeo_list(fetcher, scope, rep):
                 ev = events.get(eid) or events.setdefault(eid, OrgeoEvent(eid, html.unescape(alias)))
                 aliases[ev.alias] = eid
                 ev.lists.add(reg)
+                ev.sports.add(sport)
                 ev.level = html.unescape(level)
                 name = re.sub(r'<b class="visible-xs-inline".*?</span>', '', a, flags=re.S)
                 ev.name = ev.name or clean(name)

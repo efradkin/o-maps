@@ -1867,6 +1867,16 @@ let samaraEvents2026 = [
         endReg: '2018-11-10 11:00'
     },
     {
+        id: 'SMR_20181117_1',
+        date: '2018-11-17',
+        name: 'TrailSamara - Марафон 2018 (только рогейн)',
+        place: 'П. Прибрежный',
+        type: 'ROGAINE',
+        fmt: 'рогейн',
+        coord: [53.486916, 49.860821],
+        reg: 'https://orgeo.ru/event/7953'
+    },
+    {
         id: 'SMR_20181124_1',
         date: '2018-11-24',
         name: 'закрытие летнего спортивного сезона 2018, первенство ДДЮТ',
@@ -3452,6 +3462,25 @@ let samaraEvents2026 = [
         owner: 'AZIMUT'
     },
     {
+        id: 'SMR_20211114_1',
+        date: '2021-11-14',
+        name: 'Trail Samara Марафон РОГЕЙН',
+        place: 'Самара',
+        type: 'ROGAINE',
+        fmt: 'старт рогейн',
+        coord: [53.489979, 49.853989],
+        reg: 'https://orgeo.ru/event/18958'
+    },
+    {
+        id: 'SMR_20211121_1',
+        date: '2021-11-21',
+        name: 'Мини Рогейн Тольятти',
+        place: 'Тольятти',
+        type: 'ROGAINE',
+        coord: [53.513672, 49.653477],
+        reg: 'https://orgeo.ru/event/19148'
+    },
+    {
         id: 'SMR_20211226_1',
         date: '2021-12-26',
         name: 'Чемпионат и первенство Самарской области',
@@ -3667,6 +3696,16 @@ let samaraEvents2026 = [
             'Ж21': 13097,
             '1': 13102
         }
+    },
+    {
+        id: 'SMR_20220529_1',
+        date: '2022-05-29',
+        name: 'Мини Рогейн Тольятти 2022',
+        place: 'с. Зеленовка, юго-восток 600м',
+        type: 'ROGAINE',
+        fmt: 'общий старт, по группам',
+        coord: [53.497936, 49.626163],
+        reg: 'https://orgeo.ru/event/22146'
     },
     {
         id: 'SMR_20220530_1',
@@ -4057,6 +4096,16 @@ let samaraEvents2026 = [
         coord: [53.203102, 50.218712],
         reg: 'https://orgeo.ru/event/24979',
         endReg: '2022-11-04 19:40'
+    },
+    {
+        id: 'SMR_20221112_1',
+        date: '2022-11-12',
+        name: 'Trail Samara Марафон РОГЕЙН',
+        place: 'Самара',
+        type: 'ROGAINE',
+        fmt: 'старт рогейн',
+        coord: [53.489979, 49.853989],
+        reg: 'https://orgeo.ru/event/24821'
     },
     {
         id: 'SMR_20221113_1',
@@ -4465,6 +4514,17 @@ let samaraEvents2026 = [
         endReg: '2023-07-28 10:00'
     },
     {
+        id: 'SMR_20230806_1',
+        date: '2023-08-06',
+        name: 'Мини Рогейн Тольятти 2023',
+        place: 'Узюковский бор, широкая просека',
+        type: 'ROGAINE',
+        fmt: '3',
+        coord: [53.603622, 49.613991],
+        reg: 'https://orgeo.ru/event/28597',
+        bulletin: 'https://orientlt.ru/wp-content/uploads/2023/05/Мини_Рогейн_Тольятти_2023_инфо.pdf'
+    },
+    {
         id: 'SMR_20230817_1',
         date: '2023-08-17',
         endDate: '2023-08-20',
@@ -4561,6 +4621,16 @@ let samaraEvents2026 = [
         endReg: '2023-09-29 16:00'
     },
     {
+        id: 'SMR_20231014_1',
+        date: '2023-10-14',
+        name: 'Рогейн 14.10',
+        place: 'Л/база "Чайка"',
+        type: 'ROGAINE',
+        fmt: 'рогейн 14.10',
+        coord: [53.351662, 50.234634],
+        reg: 'https://orgeo.ru/event/30194'
+    },
+    {
         id: 'SMR_20231015_1',
         date: '2023-10-15',
         name: 'Кубок Парков Самары - 2023 (1 этап)',
@@ -4595,6 +4665,16 @@ let samaraEvents2026 = [
         coord: [53.203102, 50.218712],
         reg: 'https://orgeo.ru/event/31309',
         endReg: '2023-10-19 23:55'
+    },
+    {
+        id: 'SMR_20231022_2',
+        date: '2023-10-22',
+        name: 'Мини Рогейн Осенний 2023',
+        place: 'Узюковский бор, широкая просека',
+        type: 'ROGAINE',
+        fmt: '3',
+        coord: [53.603622, 49.613991],
+        reg: 'https://orgeo.ru/event/31191'
     },
     {
         id: 'SMR_20231028_1',
@@ -5051,6 +5131,17 @@ let samaraEvents2026 = [
         endReg: '2024-07-12 14:00'
     },
     {
+        id: 'SMR_20240714_1',
+        date: '2024-07-14',
+        name: 'Летний Рогейн 14 Июля',
+        place: 'Л/база "Чайка"',
+        type: 'ROGAINE',
+        fmt: 'летний рогейн 14 июля',
+        coord: [53.351662, 50.234634],
+        reg: 'https://orgeo.ru/event/36219',
+        bulletin: 'https://orgeo.ru/files/event/file/36219_b3f932fc6d.pdf'
+    },
+    {
         id: 'SMR_20240724_1',
         date: '2024-07-24',
         name: 'Тренировочное мероприятие для самых маленьких',
@@ -5329,6 +5420,16 @@ let samaraEvents2026 = [
         coord: [53.262867, 50.248039],
         reg: 'https://orgeo.ru/event/38814',
         endReg: '2024-11-02 19:00'
+    },
+    {
+        id: 'SMR_20241109_1',
+        date: '2024-11-09',
+        name: 'Trail Samara Марафон РОГЕЙН',
+        place: 'Самара',
+        type: 'ROGAINE',
+        fmt: 'старт рогейн',
+        coord: [53.489979, 49.853989],
+        reg: 'https://orgeo.ru/event/38751'
     },
     {
         id: 'SMR_20241110_1',
@@ -5814,6 +5915,16 @@ let samaraEvents2026 = [
         coord: [53.285645, 50.224873],
         reg: 'https://orgeo.ru/event/47372',
         endReg: '2025-11-02 23:50'
+    },
+    {
+        id: 'SMR_20251108_1',
+        date: '2025-11-08',
+        name: 'Trail Samara Марафон РОГЕЙН',
+        place: 'ж/д станция им. Валерия Грушина',
+        type: 'ROGAINE',
+        fmt: 'старт парный рогейн',
+        coord: [53.476105, 49.913956],
+        reg: 'https://orgeo.ru/event/47209'
     },
     {
         id: 'SMR_20251109_1',
@@ -6407,6 +6518,17 @@ let samaraEvents2026 = [
         coord: [53.285645, 50.224873],
         reg: 'https://orgeo.ru/event/56469',
         endReg: '2026-11-02 23:55'
+    },
+    {
+        id: 'SMR_20261107_1',
+        date: '2026-11-07',
+        name: 'Trail Samara Марафон РОГЕЙН',
+        place: 'ДК "Пламя"',
+        type: 'ROGAINE',
+        fmt: 'старт парный рогейн',
+        coord: [53.483692, 49.847881],
+        reg: 'https://orgeo.ru/event/56252',
+        endReg: '2026-11-04 21:00'
     },
     {
         id: 'SMR_20261108_1',

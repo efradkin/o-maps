@@ -21,9 +21,11 @@ let events2022 = [
         id: 'SPB_20220108_2',
         date: '2022-01-08',
         place: 'Орехово',
+        reg: 'https://orgeo.ru/event/19421',
         name: 'Горный кросс',
         type: 'ROGAINE',
         fmt: '5, 2',
+        coord: [60.463142, 30.26553],
         link: 'https://vk.com/gornycross',
         start: 'GORNY_CROSS',
         map: 'lembolovo_orekhovo_peski_gk_2026',
@@ -183,9 +185,11 @@ let events2022 = [
         id: 'SPB_20220219_2',
         date: '2022-02-19',
         place: 'Луга, оз Штолль',
+        reg: 'https://orgeo.ru/event/19724',
         name: 'Лужский лыжный рогейн',
         type: 'ROGAINE',
         fmt: '8, 4',
+        coord: [58.726433, 29.812019],
         link: 'https://vk.com/event166397868',
         o_gps: 12071
     },
@@ -285,10 +289,12 @@ let events2022 = [
         id: 'SPB_20220319_1',
         date: '2022-03-19',
         place: 'Токсово',
+        reg: 'https://orgeo.ru/event/20878',
         name: 'HARD-Rogaine | Snow',
         start: 'HARD',
         type: 'ROGAINE',
         fmt: '4',
+        coord: [60.194347, 30.577888],
         link: 'https://vk.com/hardrogaine',
         o_gps: 12236
     },
@@ -954,9 +960,11 @@ let events2022 = [
         id: 'SPB_20220522_2',
         date: '2022-05-22',
         place: 'Луга',
+        reg: 'https://orgeo.ru/event/20894',
         name: 'Лужский Меридиан',
         type: 'ROGAINE',
         fmt: '5',
+        coord: [58.723045, 29.813904],
         link: 'https://vk.com/club91656163',
         video: ['https://www.youtube.com/watch?v=6kCBasFoCe8','https://www.youtube.com/watch?v=gKarWwzitHs'],
         start: 'LM'
@@ -1159,8 +1167,10 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/2022GK/220604R_res.pdf',
         video: 'https://www.youtube.com/watch?v=SmX3TFrHv08',
         fmt: '24, 8, 3',
+        coord: [61.142269, 29.834038],
         start: 'GORNY_CROSS',
         o_site: '2022GK',
+        reg: 'https://orgeo.ru/event/22034',
         bulletin: 'https://o-site.spb.ru/_races/2022GK/220604R_info.pdf'
     },
     {
@@ -1272,6 +1282,15 @@ let events2022 = [
         video: 'https://www.youtube.com/watch?v=TeqilOEgG74'
     },
     {
+        id: 'SPB_20220612_3',
+        date: '2022-06-12',
+        name: 'Рогейн 110% - II этап',
+        place: 'Сосново',
+        type: 'ROGAINE',
+        coord: [60.590275, 30.229116],
+        reg: 'https://orgeo.ru/event/22473'
+    },
+    {
         id: 'SPB_20220617_2',
         date: '2022-06-17',
         name: 'Тренировочные старты',
@@ -1359,11 +1378,14 @@ let events2022 = [
     {
         id: 'SPB_20220625_3',
         date: '2022-06-25',
+        endDate: '2022-06-26',
         place: 'Лахденпохский р-н',
+        reg: 'https://orgeo.ru/event/21489',
         name: 'HARD-Rogaine | Ladoga',
         start: 'HARD',
         type: 'ROGAINE',
         fmt: '16, 10-6',
+        coord: [61.143764, 29.887537],
         link: 'https://vk.com/hardrogaine',
         o_gps: 13476
     },
@@ -1431,10 +1453,13 @@ let events2022 = [
     {
         id: 'SPB_20220709_2',
         date: '2022-07-09',
+        endDate: '2022-07-10',
         place: 'Луга',
+        reg: 'https://orgeo.ru/event/22091',
         name: 'Лужский приключенческий рогейн',
         type: 'ROGAINE',
         fmt: '24, 6',
+        coord: [58.723045, 29.813904],
         strava: 7440975370,
         video: [
             'https://vkvideo.ru/video-208494804_456239055',
@@ -1449,6 +1474,15 @@ let events2022 = [
             '24ч': 13571
         },
         map: 'omchino_luzhsky_2022'
+    },
+    {
+        id: 'SPB_20220716_1',
+        date: '2022-07-16',
+        name: '"Горный кросс" этап кубка ПЕРЕНЕСЕН НА ОСЕНЬ',
+        place: 'ж/д станция Орехово',
+        type: 'ROGAINE',
+        coord: [60.463142, 30.26553],
+        reg: 'https://orgeo.ru/event/22154'
     },
     {
         id: 'SPB_20220723_1',
@@ -1467,9 +1501,11 @@ let events2022 = [
         id: 'SPB_20220723_2',
         date: '2022-07-23',
         place: 'Луга',
+        reg: 'https://orgeo.ru/event/22676',
         name: 'Лужский Меридиан',
         type: 'ROGAINE',
         fmt: '5',
+        coord: [58.684071, 29.822531],
         link: 'https://vk.com/club91656163',
         video: ['https://www.youtube.com/watch?v=ReS4ykzf_48','https://vk.ru/video-208494804_456239055'],
         start: 'LM'
@@ -1484,6 +1520,15 @@ let events2022 = [
         link: 'https://vk.com/rogaine110',
         start: 'ROGAINE_110',
         o_gps: 13676
+    },
+    {
+        id: 'SPB_20220724_2',
+        date: '2022-07-24',
+        name: 'Рогейн 110% - III этап',
+        place: 'п.Поляны',
+        type: 'ROGAINE',
+        coord: [60.297531, 29.317329],
+        reg: 'https://orgeo.ru/event/22989'
     },
     {
         id: 'SPB_20220730_1',
@@ -1517,10 +1562,12 @@ let events2022 = [
         id: 'SPB_20220730_3',
         date: '2022-07-30',
         place: 'Лахденпохский р-н',
+        reg: 'https://orgeo.ru/event/22183',
         name: 'HARD-Rogaine | Ladoga II',
         start: 'HARD',
         type: 'ROGAINE',
         fmt: '8, 4',
+        coord: [61.209518, 29.885334],
         link: 'https://vk.com/hardrogaine',
         o_gps: 13748
     },
@@ -1854,8 +1901,10 @@ let events2022 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/220924GK/220924R_res.pdf',
         fmt: '5(4), 2',
+        coord: [60.198723, 29.526632],
         start: 'GORNY_CROSS',
         o_site: '220924GK',
+        reg: 'https://orgeo.ru/event/23855',
         bulletin: 'https://o-site.spb.ru/_races/220924GK/220924R_info1.pdf'
     },
     {
@@ -2014,9 +2063,11 @@ let events2022 = [
         id: 'SPB_20221001_5',
         date: '2022-10-01',
         place: 'Луга',
+        reg: 'https://orgeo.ru/event/23263',
         name: 'На Лужских берегах',
         type: 'ROGAINE',
         fmt: '6',
+        coord: [58.777275, 29.906672],
         link: 'https://vk.com/event166397868',
         o_gps: 14262
     },
@@ -2494,9 +2545,11 @@ let events2022 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/221112R/221112R_res.pdf',
         fmt: '6(5), 2',
+        coord: [60.463142, 30.26553],
         strava: 8105669651,
         start: 'GORNY_CROSS',
         o_site: '221112R',
+        reg: 'https://orgeo.ru/event/24609',
         bulletin: 'https://o-site.spb.ru/_races/221112R/221112R_info1.pdf',
         o_gps: 14609
     },

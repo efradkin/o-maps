@@ -495,6 +495,15 @@ let events2020 = [
         map: 'murinsky_2020'
     },
     {
+        id: 'SPB_20200412_1',
+        date: '2020-04-12',
+        name: '"Новгородский меридиан - 42" О-рогейн 4 часа',
+        place: 'ЗЕЛЕНОЕ озеро',
+        type: 'ROGAINE',
+        coord: [58.777988, 29.910791],
+        reg: 'https://orgeo.ru/event/11795'
+    },
+    {
         id: 'SPB_20200418_1',
         date: '2020-04-18',
         place: 'Онлайн',
@@ -891,10 +900,13 @@ let events2020 = [
     {
         id: 'SPB_20200718_3',
         date: '2020-07-18',
+        endDate: '2020-07-19',
         place: 'Луга',
+        reg: 'https://orgeo.ru/event/12694',
         name: 'Лужский приключенческий рогейн',
         type: 'ROGAINE',
         fmt: '24, 6',
+        coord: [58.723045, 29.813904],
         video: [
             'https://www.youtube.com/watch?v=hgHF7PEXynM',
             'https://www.youtube.com/watch?v=Hx7fyc0fZRU',
@@ -978,9 +990,11 @@ let events2020 = [
         id: 'SPB_20200801_3',
         date: '2020-08-01',
         place: 'Луга',
+        reg: 'https://orgeo.ru/event/12950',
         name: 'На лужских берегах',
         type: 'ROGAINE',
         fmt: '8, 4',
+        coord: [58.770721, 29.953579],
         link: 'http://o-site.spb.ru/'
     },
     {
@@ -1662,10 +1676,12 @@ let events2020 = [
         id: 'SPB_20201010_2',
         date: '2020-10-10',
         place: 'Луга',
+        reg: 'https://orgeo.ru/event/13682',
         name: 'О-трейл-рогейн',
         video: 'https://www.youtube.com/watch?v=G1tGFtoV8iY',
         type: 'ROGAINE',
         fmt: '6',
+        coord: [58.71888, 29.814526],
         link: 'https://vk.com/club190501849'
     },
     {
@@ -1846,9 +1862,11 @@ let events2020 = [
         id: 'SPB_20201031_3',
         date: '2020-10-31',
         place: 'Луга, Шалово',
+        reg: 'https://orgeo.ru/event/13685',
         name: 'Финал КПР',
         type: 'ROGAINE',
         fmt: '4',
+        coord: [58.770721, 29.953579],
         link: 'https://vk.com/club190501849'
     },
     {

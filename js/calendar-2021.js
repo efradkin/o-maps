@@ -155,6 +155,7 @@ let events2021 = [
         id: 'SPB_20210206_1',
         date: '2021-02-06',
         place: 'Приозерский район',
+        reg: 'https://orgeo.ru/event/14544',
         name: 'Женсть-рогейн (приключенческий)',
         type: ['ROGAINE','SKI'],
         video: [
@@ -163,6 +164,7 @@ let events2021 = [
             'https://www.youtube.com/watch?v=Xgb2caVfe0k'
         ],
         fmt: '6, 3',
+        coord: [60.635677, 29.988073],
         link: 'https://vk.com/zhenst_rogaine'
     },
     {
@@ -322,9 +324,11 @@ let events2021 = [
         id: 'SPB_20210306_1',
         date: '2021-03-06',
         place: 'Луга, оз Омчино',
+        reg: 'https://orgeo.ru/event/15205',
         name: 'Лужский лыжный рогейн',
         type: 'ROGAINE',
         fmt: '6',
+        coord: [58.726433, 29.812019],
         link: 'https://vk.com/event166397868',
         video: ['https://www.youtube.com/watch?v=PPhP6GO3Pqs','https://www.youtube.com/watch?v=LG1pnTlwcdo'],
         map: 'omchino_luzhsky_2022',
@@ -614,9 +618,11 @@ let events2021 = [
         id: 'SPB_20210424_2',
         date: '2021-04-24',
         place: 'Сиверская',
+        reg: 'https://orgeo.ru/event/15896',
         name: 'На оредежских берегах',
         type: 'ROGAINE',
         fmt: '6',
+        coord: [59.316082, 30.041397],
         link: 'https://vk.com/event166397868',
         o_gps: 9585
     },
@@ -1083,9 +1089,11 @@ let events2021 = [
         id: 'SPB_20210529_4',
         date: '2021-05-29',
         place: 'Кузнечное',
+        reg: 'https://orgeo.ru/event/17082',
         name: 'Горный кросс',
         type: 'ROGAINE',
         fmt: '24, 8, 3',
+        coord: [61.122356, 29.884197],
         link: 'https://vk.com/gornycross',
         video: 'https://www.youtube.com/watch?v=xDxeA3d4diU',
         start: 'GORNY_CROSS',
@@ -1288,6 +1296,15 @@ let events2021 = [
         o_gps: 10204
     },
     {
+        id: 'SPB_20210613_3',
+        date: '2021-06-13',
+        name: 'Рогейн 110% - I этап',
+        place: 'Первомайское',
+        type: 'ROGAINE',
+        coord: [60.358219, 29.740866],
+        reg: 'https://orgeo.ru/event/17079'
+    },
+    {
         id: 'SPB_20210614_2',
         date: '2021-06-14',
         name: 'Яркий Кубок #4',
@@ -1375,11 +1392,14 @@ let events2021 = [
     {
         id: 'SPB_20210626_2',
         date: '2021-06-26',
+        endDate: '2021-06-27',
         place: 'Лахденпохский р-н',
+        reg: 'https://orgeo.ru/event/14633',
         name: 'HARD-Rogaine | Ladoga',
         start: 'HARD',
         type: 'ROGAINE',
         fmt: '16, 10, 6',
+        coord: [61.209518, 29.885334],
         link: 'https://vk.com/hardrogaine',
         o_gps: 10287
     },
@@ -1442,9 +1462,11 @@ let events2021 = [
         id: 'SPB_20210717_1',
         date: '2021-07-17',
         place: 'Луга, Шалово',
+        reg: 'https://orgeo.ru/event/17194',
         name: 'Лужский приключенческий рогейн',
         type: 'ROGAINE',
         fmt: '8, 4',
+        coord: [58.770721, 29.953579],
         video: 'https://www.youtube.com/watch?v=bRKr1-x0yus',
         link: 'https://vk.com/event166397868',
         o_gps: 10549
@@ -1491,9 +1513,11 @@ let events2021 = [
         id: 'SPB_20210807_3',
         date: '2021-08-07',
         place: 'Выборгский район',
+        reg: 'https://orgeo.ru/event/17540',
         name: 'Чемпионат СЗФО по рогейну',
         type: 'ROGAINE',
         fmt: '6, 3',
+        coord: [60.223789, 29.79011],
         link: 'https://vk.com/event166397868',
         video: 'https://www.youtube.com/watch?v=QUJC6DIzRsw',
         o_gps: 10662
@@ -1514,10 +1538,13 @@ let events2021 = [
     {
         id: 'SPB_20210814_1',
         date: '2021-08-14',
+        endDate: '2021-08-15',
         place: 'Воробьёво оз.',
+        reg: 'https://orgeo.ru/event/14640',
         name: 'HARD-Adventure Race',
         type: 'ROGAINE',
         fmt: '4',
+        coord: [60.918217, 30.288103],
         link: 'https://vk.com/hardrogaine',
         o_gps: 10715,
         map: 'vorobjevo_bn_2013'
@@ -1787,9 +1814,11 @@ let events2021 = [
         id: 'SPB_20210918_2',
         date: '2021-09-18',
         place: 'Луга, Шалово',
+        reg: 'https://orgeo.ru/event/17905',
         name: 'Дуатлон-рогейн',
         type: 'ROGAINE',
         fmt: '6',
+        coord: [58.790726, 29.96991],
         link: 'https://vk.com/event166397868',
         o_gps: 11002
     },
@@ -1892,9 +1921,11 @@ let events2021 = [
         id: 'SPB_20210925_5',
         date: '2021-09-25',
         place: 'Молодёжное',
+        reg: 'https://orgeo.ru/event/18192',
         name: 'Горный кросс',
         type: 'ROGAINE',
         fmt: '5, 2',
+        coord: [60.198723, 29.526632],
         link: 'https://vk.com/gornycross',
         start: 'GORNY_CROSS',
         map: 'molodezhnoe_gk_2024'
@@ -2106,6 +2137,15 @@ let events2021 = [
         map: 'gavrilovo_vmb_2026_05_23'
     },
     {
+        id: 'SPB_20211009_6',
+        date: '2021-10-09',
+        name: 'Рогейн 1 + 1',
+        place: 'Луга, озеро Штолль',
+        type: 'ROGAINE',
+        coord: [58.726433, 29.812019],
+        reg: 'https://orgeo.ru/event/17908'
+    },
+    {
         id: 'SPB_20211010_1',
         date: '2021-10-10',
         place: 'Цвелодубово',
@@ -2149,9 +2189,11 @@ let events2021 = [
         id: 'SPB_20211016_2',
         date: '2021-10-16',
         place: 'Зеленогорск',
+        reg: 'https://orgeo.ru/event/18727',
         name: 'Горный кросс',
         type: 'ROGAINE',
         fmt: '4.2',
+        coord: [60.208984, 29.740747],
         link: 'https://vk.com/gornycross',
         video: 'https://www.youtube.com/watch?v=WohqaSUR-dw',
         start: 'GORNY_CROSS',
@@ -2292,9 +2334,11 @@ let events2021 = [
         id: 'SPB_20211030_4',
         date: '2021-10-30',
         place: 'Луга, оз Омчино',
+        reg: 'https://orgeo.ru/event/17934',
         name: 'Эстафета-рогейн',
         type: 'ROGAINE',
         fmt: '4',
+        coord: [58.71888, 29.814526],
         link: 'https://vk.com/event166397868',
         map: 'toloni_2025',
         owner: 'SHBN'
@@ -2303,10 +2347,12 @@ let events2021 = [
         id: 'SPB_20211030_5',
         date: '2021-10-30',
         place: 'Лемболово-Орехово',
+        reg: 'https://orgeo.ru/event/14644',
         name: 'HARD-Rogaine | Night',
         start: 'HARD',
         type: 'ROGAINE',
         fmt: '6, 3',
+        coord: [60.414833, 30.328728],
         link: 'https://vk.com/hardrogaine',
         video: 'https://www.youtube.com/watch?v=PGuqXUn7SI4',
         map: 'lembolovo_hard_rogaine_2023'
@@ -2407,8 +2453,10 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/2021GK/211113R_res.pdf',
         bulletin: 'https://o-site.spb.ru/_races/2021GK/211113R_info.pdf',
         fmt: '6(5), 2',
+        coord: [60.463142, 30.26553],
         start: 'GORNY_CROSS',
         o_site: '2021GK',
+        reg: 'https://orgeo.ru/event/19012',
         strava: 6250999443,
         o_gps: 11521
     },

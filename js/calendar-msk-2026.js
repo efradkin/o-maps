@@ -15,6 +15,16 @@ let mskEvents2026 = [
         map: '20210529_464'
     },
     {
+        id: 'MSK_20260105_1',
+        date: "2026-01-05",
+        endDate: "2026-01-06",
+        name: "Зимний Московский Рогейн",
+        place: "Город Москва",
+        type: "ROGAINE",
+        coord: [55.751095, 37.616844],
+        reg: "https://orgeo.ru/event/47967"
+    },
+    {
         id: 'MSK_20260110_1',
         date: "2026-01-10",
         name: "Тренировочный старт",
@@ -253,6 +263,14 @@ let mskEvents2026 = [
         coord: [55.696495, 37.744427],
         reg: "https://orgeo.ru/event/50002",
         endReg: "2026-02-13 12:00"
+    },
+    {
+        id: 'MSK_20260214_3',
+        date: "2026-02-14",
+        name: "Лыжный Компот-рогейн 2026",
+        place: "Дмитровский",
+        type: "ROGAINE",
+        reg: "https://orgeo.ru/event/48983"
     },
     {
         id: 'MSK_20260215_1',
@@ -828,6 +846,15 @@ let mskEvents2026 = [
         bulletin: "https://docs.google.com/document/d/1P46PuvgpEUD9uhOLCFQV-nUistPO8DRdJLE6uax8Ync/edit?usp=sharing"
     },
     {
+        id: 'MSK_20260412_4',
+        date: "2026-04-12",
+        name: "\"Московский День\" 2026 - главный городской рогейн!",
+        place: "Город Москва",
+        type: "ROGAINE",
+        coord: [55.751095, 37.616844],
+        reg: "https://orgeo.ru/event/49255"
+    },
+    {
         id: 'MSK_20260413_1',
         date: "2026-04-13",
         name: "ТС НАШ ЛЕС 2026 апрель Э2 (13.04.2026)",
@@ -1309,6 +1336,16 @@ let mskEvents2026 = [
         map: '20210103_264'
     },
     {
+        id: 'MSK_20260517_2',
+        date: "2026-05-17",
+        name: "Малахитовый рогейн: Берёзки",
+        place: "Берёзки, вырубка у жд платформы",
+        type: "ROGAINE",
+        coord: [56.113976, 37.029747],
+        reg: "https://orgeo.ru/event/51783",
+        bulletin: "https://docs.google.com/document/d/1agj8PlVHl3H6Qf7JBe6JovCcJdJ7jKevz0cxyoij_OI/edit?usp=drivesdk"
+    },
+    {
         id: 'MSK_20260519_1',
         date: "2026-05-19",
         name: "Московский Меридиан",
@@ -1390,6 +1427,15 @@ let mskEvents2026 = [
         coord: [56.763203, 37.215508],
         reg: "https://orgeo.ru/event/52960",
         endReg: "2026-05-22 21:00"
+    },
+    {
+        id: 'MSK_20260524_3',
+        date: "2026-05-24",
+        name: "Долгооожданный рогейн",
+        place: "МФТИ Спорт-площадка",
+        type: "ROGAINE",
+        coord: [55.929863, 37.524033],
+        reg: "https://orgeo.ru/event/47738"
     },
     {
         id: 'MSK_20260526_1',
@@ -1616,7 +1662,7 @@ let mskEvents2026 = [
         fmt: "8",
         coord: [55.628707, 37.541171],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/52917",
         owner: "CLEVER_MSK",
         o_gps: 25322,
         map: 'big_bitsa_2024'
@@ -1634,6 +1680,16 @@ let mskEvents2026 = [
         res: "https://orgeo.ru/files/event/file/53530_41fd45a297.xls",
         owner: "MLKHT",
         map: "vsehsvjatskaya_roscha_2025"
+    },
+    {
+        id: 'MSK_20260613_2',
+        date: "2026-06-13",
+        endDate: "2026-06-16",
+        name: "SM FEST ORIENT ROGAINE",
+        place: "Ст. Медик (у турников)",
+        type: "ROGAINE",
+        coord: [55.741791, 37.391487],
+        reg: "https://orgeo.ru/event/53623"
     },
     {
         id: 'MSK_20260614_1',
@@ -1715,6 +1771,15 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/53156",
         endReg: "2026-06-19 14:55",
         bulletin: "https://orgeo.ru/files/event/file/53156_3431c80a74.pdf"
+    },
+    {
+        id: 'MSK_20260620_3',
+        date: "2026-06-20",
+        name: "Купабельный рогейн",
+        place: "Парк Заря",
+        type: "ROGAINE",
+        coord: [55.763153, 38.087746],
+        reg: "https://orgeo.ru/event/47741"
     },
     {
         id: 'MSK_20260621_1',
@@ -1875,6 +1940,15 @@ let mskEvents2026 = [
         bulletin: "https://docs.google.com/document/d/1ve7MUIDRARfN8k0HohDXhSp49rZ5JzhdgYs3RiEUPm4"
     },
     {
+        id: 'MSK_20260705_1',
+        date: "2026-07-05",
+        name: "Благотворительный рогейн \"Ясный маршрут\"",
+        place: "Теплый стан: сцена",
+        type: "ROGAINE",
+        coord: [55.638351, 37.493855],
+        reg: "https://orgeo.ru/event/53493"
+    },
+    {
         id: 'MSK_20260706_1',
         date: "2026-07-06",
         name: "Открытая тренировка",
@@ -1935,9 +2009,30 @@ let mskEvents2026 = [
         date: '2026-07-11',
         name: 'Летний Компот-рогейн.',
         place: 'Ситники',
+        type: "ROGAINE",
+        reg: "https://orgeo.ru/event/48985",
         o_gps: 25564,
         start: 'KMPT_ROGAINE',
         map: 'sitniki_rogaine_2026'
+    },
+    {
+        id: 'MSK_20260711_3',
+        date: "2026-07-11",
+        name: "Галичское заозерье Спортфест Совкомбанк 2026",
+        place: "Толтуново (спортфест Совкомбанк)",
+        type: "ROGAINE",
+        coord: [58.436295, 42.315239],
+        reg: "https://orgeo.ru/event/51040"
+    },
+    {
+        id: 'MSK_20260711_4',
+        date: "2026-07-11",
+        endDate: "2026-07-12",
+        name: "XVI «Ночная ПРАгулка»",
+        place: "Ночная ПРАгулка",
+        type: "ROGAINE",
+        coord: [54.818459, 40.342411],
+        reg: "https://orgeo.ru/event/49233"
     },
     {
         id: 'MSK_20260712_1',
@@ -2157,6 +2252,7 @@ let mskEvents2026 = [
         coord: [55.803028, 37.448659],
         link: "https://docs.google.com/document/d/1LqJHYfyuoD79UEhZQDfkBL4W5LrFWUBJiYrqYXSmK28/edit?usp=sharing",
         reg: "https://buyrun.ru/event/143",
+        bulletin: "https://docs.google.com/document/d/1tAcOR2qmWmbiVGgGWUkyxXxSvOGEgBmF3OXqtTt9W-U/edit?usp=sharing",
         res: "https://orgeo.ru/files/event/file/53995_35a8e81e5c.xlsx",
         owner: "MLKHT",
         map: "schukino_rogaine_2026",
@@ -2439,6 +2535,15 @@ let mskEvents2026 = [
         endReg: "2026-08-27 23:55"
     },
     {
+        id: 'MSK_20260830_4',
+        date: "2026-08-30",
+        name: "Рязанский рогейн 2026",
+        place: "Пронск. Деревня Студенец",
+        type: "ROGAINE",
+        coord: [54.100334, 39.673012],
+        reg: "https://orgeo.ru/event/52465"
+    },
+    {
         id: 'MSK_20260901_1',
         date: "2026-09-01",
         name: "Московский Меридиан",
@@ -2603,6 +2708,15 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/51895"
     },
     {
+        id: 'MSK_20260912_5',
+        date: "2026-09-12",
+        name: "Овощерогейнище 4.0",
+        place: "ФОК Детский стадион",
+        type: "ROGAINE",
+        coord: [55.927757, 37.82423],
+        reg: "https://orgeo.ru/event/47739"
+    },
+    {
         id: 'MSK_20260913_1',
         date: "2026-09-13",
         name: "Кубок Клубов ФСОМ",
@@ -2612,6 +2726,16 @@ let mskEvents2026 = [
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
         owner: "FSO_MSK"
+    },
+    {
+        id: 'MSK_20260913_2',
+        date: "2026-09-13",
+        name: "Рогейн \"ПРОгулка\"",
+        place: "Агро-Пустынь. Юг",
+        type: "ROGAINE",
+        coord: [54.739838, 39.786621],
+        reg: "https://orgeo.ru/event/53555",
+        bulletin: "https://docs.google.com/document/d/1fJPVko-eZAPLwoI7b1wjgPebPI8QWyiEQK0sBPJ0J6o/edit?usp=sharing"
     },
     {
         id: 'MSK_20260914_1',
@@ -2673,6 +2797,15 @@ let mskEvents2026 = [
         endReg: "2026-09-18 21:00",
         owner: "CLEVER_MSK",
         map: '20250404_702'
+    },
+    {
+        id: 'MSK_20260919_2',
+        date: "2026-09-19",
+        name: "Компактный Рогейн «Электрогорск»",
+        place: "Озеро Белый Мох",
+        type: "ROGAINE",
+        coord: [55.890404, 38.818367],
+        reg: "https://orgeo.ru/event/49242"
     },
     {
         id: 'MSK_20260920_1',
@@ -2961,6 +3094,15 @@ let mskEvents2026 = [
         map: '20210103_183'
     },
     {
+        id: 'MSK_20261004_3',
+        date: "2026-10-04",
+        name: "Альтерактива (рогейн + фото-квест) - приключенческая игра №5 «В мире животных»",
+        place: "\"Покровское-Стрешнево\"",
+        type: "ROGAINE",
+        coord: [55.81739, 37.47353],
+        reg: "https://orgeo.ru/event/51329"
+    },
+    {
         id: 'MSK_20261005_1',
         date: "2026-10-05",
         name: "Открытая тренировка команды RAVE TEAM",
@@ -3047,6 +3189,14 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/organizer/24222",
         owner: "CLEVER_MSK",
         map: '20230130_803'
+    },
+    {
+        id: 'MSK_20261010_3',
+        date: "2026-10-10",
+        name: "Рогейн «Финал Компот-Кубка 2026»",
+        place: "Сергиево-Посадский",
+        type: "ROGAINE",
+        reg: "https://orgeo.ru/event/48988"
     },
     {
         id: 'MSK_20261011_1',
@@ -3145,6 +3295,15 @@ let mskEvents2026 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK",
         map: '20210104_258'
+    },
+    {
+        id: 'MSK_20261017_3',
+        date: "2026-10-17",
+        name: "НЕ'рогейн",
+        place: "Эко-отель Юрты",
+        type: "ROGAINE",
+        coord: [55.913288, 36.415527],
+        reg: "https://orgeo.ru/event/54202"
     },
     {
         id: 'MSK_20261018_1',
@@ -3269,6 +3428,15 @@ let mskEvents2026 = [
         bulletin: "https://telegra.ph/ZOV-TIGRA-2026---oficialnaya-stranica-meropriyatiya-10-11"
     },
     {
+        id: 'MSK_20261025_4',
+        date: "2026-10-25",
+        name: "Рогейн Спас-Каменка",
+        place: "КП Спас-Каменка",
+        type: "ROGAINE",
+        coord: [56.142078, 37.467937],
+        reg: "https://orgeo.ru/event/47733"
+    },
+    {
         id: 'MSK_20261027_1',
         date: "2026-10-27",
         name: "Московский Меридиан",
@@ -3343,6 +3511,16 @@ let mskEvents2026 = [
         map: 'big_bitsa_2024'
     },
     {
+        id: 'MSK_20261101_2',
+        date: "2026-11-01",
+        name: "Рогейн \"ПРОгулка\" 3 часа",
+        place: "д. Кельцы. С-В",
+        type: "ROGAINE",
+        coord: [54.902481, 40.007263],
+        reg: "https://orgeo.ru/event/55935",
+        bulletin: "https://docs.google.com/document/d/1e8sDqKFe3M3420JmiDL8GonQ762YpxaOFUrXueuYMh4/edit?usp=sharing"
+    },
+    {
         id: 'MSK_20261104_1',
         date: "2026-11-04",
         name: "Московский Нанорогейн",
@@ -3351,7 +3529,8 @@ let mskEvents2026 = [
         fmt: "2",
         coord: [55.624685, 37.89125],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/54737",
+        endReg: "2026-11-03 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -3596,6 +3775,18 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/56563"
     },
     {
+        id: 'MSK_20261122_4',
+        date: "2026-11-22",
+        name: "Рогейн \"Зов Леса\"",
+        place: "Щапово, поляна",
+        type: "ROGAINE",
+        fmt: "старт рогейна",
+        coord: [55.418228, 37.41843],
+        reg: "https://orgeo.ru/event/56658",
+        endReg: "2026-11-19 23:55",
+        bulletin: "https://docs.google.com/document/d/1uo_8UK4yxC6zVL9q-9yElFIA5apTRIOXdJTDGIgJaUA/edit?tab=t.0"
+    },
+    {
         id: 'MSK_20261126_1',
         date: "2026-11-26",
         name: "Открытая тренировка",
@@ -3651,7 +3842,8 @@ let mskEvents2026 = [
         fmt: "2",
         coord: [55.74573, 37.619607],
         link: "https://orienteering.moscow/",
-        reg: "https://orgeo.ru/event/organizer/24222",
+        reg: "https://orgeo.ru/event/54736",
+        endReg: "2026-12-04 21:00",
         owner: "CLEVER_MSK"
     },
     {
@@ -3723,6 +3915,16 @@ let mskEvents2026 = [
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK",
         map: 'big_bitsa_2024'
+    },
+    {
+        id: 'MSK_20261213_2',
+        date: "2026-12-13",
+        name: "Аэророгейн",
+        place: "Лагерь Дружба - г. Москва, поселение Фил",
+        type: "ROGAINE",
+        coord: [55.566906, 37.363575],
+        reg: "https://orgeo.ru/event/56917",
+        endReg: "2026-12-10 23:55"
     },
     {
         id: 'MSK_20261219_1',
@@ -3826,5 +4028,35 @@ let mskEvents2026 = [
         coord: [54.920074, 38.796062],
         reg: "https://orgeo.ru/event/54678",
         endReg: "2027-05-04 23:00"
+    },
+    {
+        id: 'MSK_20270522_1',
+        date: "2027-05-22",
+        name: "ЗеленоГрядский рогейн",
+        place: "ЗелАО",
+        type: "ROGAINE",
+        coord: [55.982639, 37.239456],
+        reg: "https://orgeo.ru/event/56718",
+        endReg: "2027-05-19 23:55"
+    },
+    {
+        id: 'MSK_20270911_1',
+        date: "2027-09-11",
+        name: "МЕГАОВОЩИЩЕРОГЕЙНИЩИЩЕ",
+        place: "Стадион Металлист",
+        type: "ROGAINE",
+        coord: [55.909229, 37.857094],
+        reg: "https://orgeo.ru/event/56687",
+        endReg: "2027-09-08 23:55"
+    },
+    {
+        id: 'MSK_20271003_1',
+        date: "2027-10-03",
+        name: "Рогейн в Юртах",
+        place: "Эко-отель Юрты",
+        type: "ROGAINE",
+        coord: [55.913288, 36.415527],
+        reg: "https://orgeo.ru/event/56725",
+        endReg: "2027-09-30 23:55"
     }
 ]

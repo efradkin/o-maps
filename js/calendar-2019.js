@@ -1048,9 +1048,11 @@ let events2019 = [
         id: 'SPB_20190629_1',
         date: '2019-06-29',
         place: 'Санкт-Петербург',
+        reg: 'https://orgeo.ru/event/8137',
         name: 'Пальмира Севера',
         type: 'ROGAINE',
         fmt: '6, 3',
+        coord: [59.940285, 30.31291],
         link: 'http://rogaining.msk.ru/',
         o_gps: 6047
     },

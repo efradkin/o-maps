@@ -102,15 +102,6 @@ let events2027 = [
         owner: 'SFSO_SPB'
     },
     {
-        id: 'SPB_20270221_3',
-        date: '2027-02-21',
-        place: 'Орехово',
-        name: 'Горный кросс',
-        type: 'ROGAINE',
-        fmt: '5, 3',
-        start: 'GORNY_CROSS'
-    },
-    {
         id: 'SPB_20270222_1',
         date: '2027-02-22',
         place: 'Зеркальный',
@@ -118,6 +109,17 @@ let events2027 = [
         start: 'SPB_CHAMP',
         type: 'SKI',
         fmt: 'эстафета 2х, эстафета 3х'
+    },
+    {
+        id: 'SPB_20270223_1',
+        date: '2027-02-23',
+        name: 'Рогейн "Горный кросс-119"',
+        start: 'GORNY_CROSS',
+        place: 'Орехово, Трансмост б/о',
+        type: 'ROGAINE',
+        fmt: '5, 3',
+        coord: [60.460461, 30.292744],
+        reg: 'https://orgeo.ru/event/56720'
     },
     {
         id: 'SPB_20270227_1',

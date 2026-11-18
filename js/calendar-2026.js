@@ -2218,6 +2218,15 @@ let events2026 = [
         start: 'ROGAINE_110'
     },
     {
+        id: 'SPB_20260717_1',
+        date: '2026-07-17',
+        name: 'Рогейн',
+        place: 'УТЦ "Кавголово"',
+        type: 'ROGAINE',
+        coord: [60.177197, 30.535995],
+        reg: 'https://orgeo.ru/event/54141'
+    },
+    {
         id: 'SPB_20260711_2',
         date: '2026-07-18',
         endDate: '2026-07-19',

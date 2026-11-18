@@ -1476,10 +1476,12 @@ let events2016 = [
         id: 'SPB_20160925_1',
         date: '2016-09-25',
         place: 'Яппиля',
+        coord: [60.223824, 29.182177],
         name: '58-й летний Чемпионат и Первенство СПб, марафон',
         start: 'SPB_CHAMP',
         res: 'https://o-site.spb.ru/_races/160925/160925_res.htm',
         o_site: '160925',
+        reg: 'https://orgeo.ru/event/3443',
         reskeep: 237,
         bulletin: 'https://o-site.spb.ru/_races/160925/160925_info3.pdf',
         o_gps: {

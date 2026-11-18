@@ -271,6 +271,15 @@ let events2014 = [
         bulletin: 'https://o-site.spb.ru/_races/140405_Str/140405_info.htm'
     },
     {
+        id: 'SPB_20140405_2',
+        date: '2014-04-05',
+        name: 'Ладожский Рогейн - 2014',
+        place: 'Кузнечное',
+        type: 'ROGAINE',
+        coord: [61.096794, 30.020338],
+        reg: 'https://orgeo.ru/event/829'
+    },
+    {
         id: 'SPB_20140409_1',
         date: '2014-04-09',
         place: 'гимназия №92',

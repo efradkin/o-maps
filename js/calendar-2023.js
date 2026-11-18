@@ -60,8 +60,10 @@ let events2023 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/230108R/230108R_res.pdf',
         fmt: '5, 2',
+        coord: [60.412186, 30.32538],
         start: 'GORNY_CROSS',
         o_site: '230108R',
+        reg: 'https://orgeo.ru/event/25440',
         bulletin: 'https://o-site.spb.ru/_races/230108R/230108R_info2.pdf',
         o_gps: 14815
     },
@@ -176,9 +178,11 @@ let events2023 = [
         id: 'SPB_20230204_2',
         date: '2023-02-04',
         place: 'Луга, оз Штолль',
+        reg: 'https://orgeo.ru/event/25674',
         name: 'Лужский лыжный рогейн',
         type: 'ROGAINE',
         fmt: '6, 3',
+        coord: [58.726433, 29.812019],
         res: 'https://vk.com/wall-166397868_3508',
         o_gps: 14968
     },
@@ -493,13 +497,16 @@ let events2023 = [
         id: 'SPB_20230408_1',
         date: '2023-04-08',
         place: 'Шувалово',
+        reg: 'https://orgeo.ru/event/27854',
         name: 'Минирогейн',
         type: 'ROGAINE',
         fmt: '1',
+        coord: [60.078293, 30.320654],
         strava: 8853074533,
         res: 'https://o-site.spb.ru/_races/230312_VV/230408_res.html',
         o_gps: 15533,
-        map: 'shuvalovsky_rogaine_2024'
+        map: 'shuvalovsky_rogaine_2024',
+        bulletin: 'https://orgeo.ru/files/event/file/27854_46408b3668.docx'
     },
     {
         id: 'SPB_20230408_2',
@@ -719,8 +726,10 @@ let events2023 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/230429R/230429R_res.pdf',
         fmt: '4, 2',
+        coord: [58.71888, 29.814526],
         start: 'GORNY_CROSS',
         o_site: '230429R',
+        reg: 'https://orgeo.ru/event/26671',
         bulletin: 'https://o-site.spb.ru/_races/230429R/230429R_info1.pdf',
         o_gps: 15856
     },
@@ -783,9 +792,11 @@ let events2023 = [
         id: 'SPB_20230501_2',
         date: '2023-05-01',
         place: 'Пальцево',
+        reg: 'https://orgeo.ru/event/27154',
         name: 'RockRunRace',
         type: 'ROGAINE',
         fmt: '8',
+        coord: [60.79575, 28.804968],
         res: 'https://vk.com/wall-218862139_123?reply=124&w=wall-218862139_123',
         o_gps: 15912
     },
@@ -803,9 +814,11 @@ let events2023 = [
         id: 'SPB_20230506_1',
         date: '2023-05-06',
         place: 'Яппиля',
+        reg: 'https://orgeo.ru/event/27302',
         name: 'Рогейн на холмах Яппиля',
         type: 'ROGAINE',
         fmt: '4',
+        coord: [60.216953, 29.162174],
         res: 'https://vk.com/wall-166397868_3648',
         o_gps: 15972,
         strava: 9021310183
@@ -1123,8 +1136,10 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/23052728R/230527R_res.pdf',
         video: 'https://www.youtube.com/watch?v=CExiZq9uFn4',
         fmt: '24, 8, 3',
+        coord: [61.142269, 29.834038],
         start: 'GORNY_CROSS',
         o_site: '23052728R',
+        reg: 'https://orgeo.ru/event/26672',
         bulletin: 'https://o-site.spb.ru/_races/23052728R/230527R_info1.pdf',
         o_gps: 16283
     },
@@ -1249,13 +1264,16 @@ let events2023 = [
         id: 'SPB_20230610_2',
         date: '2023-06-10',
         place: 'Луга, Шалово',
+        reg: 'https://orgeo.ru/event/28873',
         name: 'Лужский Меридиан',
         type: 'ROGAINE',
         fmt: '4',
+        coord: [58.777988, 29.910791],
         res: 'https://vk.com/wall-91656163_2242',
         o_gps: 16419,
         strava: 9240368460,
-        start: 'LM'
+        start: 'LM',
+        bulletin: 'https://orgeo.ru/files/event/file/28873_83f35a71ca.docx'
     },
     {
         id: 'SPB_20230611_1',
@@ -1385,12 +1403,15 @@ let events2023 = [
         date: '2023-06-24',
         endDate: '2023-06-25',
         place: 'Ладога',
+        reg: 'https://orgeo.ru/event/27898',
         name: 'HARD ROGAINE | Ladoga I',
         start: 'HARD',
         type: ['WATER','ROGAINE'],
         fmt: '6',
+        coord: [61.143764, 29.887537],
         res: 'hardrogaine.ru/HR_Ladoga_I_2023_результаты.htm',
-        o_gps: 16571
+        o_gps: 16571,
+        bulletin: 'https://hardadventure.ru/ladoga2023'
     },
     {
         id: 'SPB_20230626_1',
@@ -1537,12 +1558,15 @@ let events2023 = [
         id: 'SPB_20230722_2',
         date: '2023-07-22',
         place: 'Ладога',
+        reg: 'https://orgeo.ru/event/27899',
         name: 'HARD ROGAINE | Ladoga II',
         start: 'HARD',
         type: ['WATER','ROGAINE'],
         fmt: '6, 10',
+        coord: [61.362076, 30.160349],
         res: 'http://hardrogaine.ru/HR_Ladoga_2_2023_rez.htm',
-        o_gps: 16880
+        o_gps: 16880,
+        bulletin: 'https://hardadventure.ru/ladoga2_2023'
     },
     {
         id: 'SPB_20230722_3',
@@ -1615,9 +1639,11 @@ let events2023 = [
         date: '2023-08-12',
         endDate: '2023-08-13',
         place: 'Луга, Шалово',
+        reg: 'https://orgeo.ru/event/28893',
         name: 'Лужский приключенческий рогейн',
         type: 'ROGAINE',
         fmt: '24',
+        coord: [58.763062, 29.919609],
         res: 'https://vk.com/wall-166397868_3883',
         o_gps: 16998
     },
@@ -2039,8 +2065,10 @@ let events2023 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/230923R/230923R_res.pdf',
         fmt: '5(4), 2',
+        coord: [60.198723, 29.526632],
         start: 'GORNY_CROSS',
         o_site: '230923R',
+        reg: 'https://orgeo.ru/event/30067',
         bulletin: 'https://o-site.spb.ru/_races/230923R/230923R_info.pdf'
     },
     {
@@ -2113,9 +2141,11 @@ let events2023 = [
         id: 'SPB_20230930_1',
         date: '2023-09-30',
         place: 'Луга, Шалово',
+        reg: 'https://orgeo.ru/event/29972',
         name: 'На Лужских берегах',
         type: 'ROGAINE',
         fmt: '6',
+        coord: [58.776604, 29.906757],
         res: 'https://vk.com/wall-166397868_4003',
         o_gps: 17419,
         map: 'shalovo_luzhsky_2023'
@@ -2236,6 +2266,15 @@ let events2023 = [
         reg: 'https://orgeo.ru/event/31201'
     },
     {
+        id: 'SPB_20231013_1',
+        date: '2023-10-13',
+        name: 'Юный турист, Курортный район',
+        place: 'ДОТ 123 КаУР',
+        type: 'ROGAINE',
+        coord: [60.116882, 29.970333],
+        reg: 'https://orgeo.ru/event/30948'
+    },
+    {
         id: 'SPB_20231014_1',
         date: '2023-10-14',
         place: 'Выборг',
@@ -2266,12 +2305,15 @@ let events2023 = [
         id: 'SPB_20231014_3',
         date: '2023-10-14',
         place: 'Луга, ДОЛ "Звёздный"',
+        reg: 'https://orgeo.ru/event/30290',
         name: 'Лужский Меридиан',
         type: 'ROGAINE',
         fmt: '4',
+        coord: [58.704006, 29.819811],
         res: 'https://vk.com/wall-91656163_2272',
         o_gps: 17568,
-        start: 'LM'
+        start: 'LM',
+        bulletin: 'https://orgeo.ru/files/event/file/30290_ffab995f66.docx'
     },
     {
         id: 'SPB_20231015_1',
@@ -2280,10 +2322,12 @@ let events2023 = [
         map: 'zelenogorsk_gk_2009',
         name: 'Горный кросс-97',
         type: 'ROGAINE',
+        coord: [60.208984, 29.740747],
         res: 'https://o-site.spb.ru/_races/231015R/231015R_res.pdf',
         start: 'GORNY_CROSS',
         strava: 10042669382,
         o_site: '231015R',
+        reg: 'https://orgeo.ru/event/30966',
         o_gps: {
             '1': 17574,
             '2': 17582
@@ -2635,8 +2679,10 @@ let events2023 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/231112R/231112R_res.pdf',
         fmt: '6(5), 2',
+        coord: [60.463142, 30.26553],
         start: 'GORNY_CROSS',
         o_site: '231112R',
+        reg: 'https://orgeo.ru/event/31096',
         bulletin: 'https://o-site.spb.ru/_races/231112R/231112R_info.pdf',
         o_gps: 17781
     },
