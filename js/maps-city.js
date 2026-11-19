@@ -2407,6 +2407,7 @@ let cityMaps = [
         link: ['./original_maps/schools/school_491_2026_1_omaps.gif','./original_maps/schools/school_491_2026_2_omaps.gif','./original_maps/schools/school_491_2026_3_omaps.gif','./original_maps/schools/school_491_2026_4_omaps.gif','./original_maps/schools/school_491_2026_5_omaps.gif','./original_maps/schools/school_491_2026_6_omaps.gif'],
         bounds: [[59.9382302, 30.43715], [59.938214, 30.4393172], [59.9374885, 30.4371929]],
         type: ['INDOOR'],
+        author: 'RDNV_I',
         owner: 'RDNV_I'
     },
     {

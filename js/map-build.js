@@ -97,7 +97,7 @@ if (mapElement) {
         if ('FOTO' === TYPE_PARAM || 'FUN' === TYPE_PARAM) {
             layers.push(funGroup);
         }
-        if ('WINTER' === TYPE_PARAM || 'VELO' === TYPE_PARAM || 'RELIEF' === TYPE_PARAM || 'SPECIAL' === TYPE_PARAM ||
+        if ('WINTER' === TYPE_PARAM || 'VELO' === TYPE_PARAM || 'RELIEF' === TYPE_PARAM || 'SPECIAL' === TYPE_PARAM || 'INDOOR' === TYPE_PARAM ||
             (typeof specialRequired !== 'undefined' && specialRequired)) {
             layers.push(specialGroup);
         }
