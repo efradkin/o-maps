@@ -1800,6 +1800,15 @@ let cityMaps = [
         type: ['CITY']
     },
     {
+        name: 'РГПУ им Герцена',
+        url: './maps/city/gertsena_indoor.webp',
+        link: ['./original_maps/city/gertsena_indoor_omaps.gif','./original_maps/city/gertsena_indoor_omaps.ocd'],
+        bounds: [[59.9338282, 30.3195083], [59.9329305, 30.3229523], [59.9318447, 30.3167939]],
+        logo: 'gertsena.gif',
+        author: 'DRBSHV',
+        type: ['INDOOR']
+    },
+    {
         name: 'Санкт-Петербург (СПб), Дворцовая пл',
         year: 2012,
         url: './maps/city/dvortsovaya_2012.webp',

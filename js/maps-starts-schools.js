@@ -277,6 +277,22 @@ let schoolMaps = [
         type: ['CITY']
     },
     {
+        name: 'Лицей №384',
+        url: './maps/schools/narvskaya_384_school_indoor.webp',
+        link: ['./original_maps/schools/narvskaya_384_school_indoor_1_omaps.webp','./original_maps/schools/narvskaya_384_school_indoor_2_omaps.gif','./original_maps/schools/narvskaya_384_school_indoor_2_omaps.ocd'],
+        bounds: [[59.8968104, 30.2752519], [59.8977521, 30.2734709], [59.8971656, 30.2760673]],
+        author: 'DRBSHV',
+        type: ['INDOOR']
+    },
+    {
+        name: 'Школа №5',
+        url: './maps/schools/school_5_indoor.webp',
+        link: ['./original_maps/schools/school_5_indoor_omaps.gif','./original_maps/schools/school_5_indoor_omaps.ocd'],
+        bounds: [[59.9132027, 30.3211284], [59.9137083, 30.3211391], [59.9132189, 30.3219974]],
+        author: 'DRBSHV',
+        type: ['INDOOR']
+    },
+    {
         name: 'Пушкин, школа №645',
         year: 2021,
         start: 'SCHOOL',
