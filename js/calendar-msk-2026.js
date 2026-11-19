@@ -3762,7 +3762,6 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54743",
         endReg: "2026-11-06 21:00",
-        owner: "CLEVER_MSK",
         map: 'neskuchny_2026'
     },
     {
@@ -3791,7 +3790,6 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54744",
         endReg: "2026-11-07 21:00",
-        owner: "CLEVER_MSK",
         map: '20230130_140'
     },
     {
@@ -3840,7 +3838,6 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54745",
         endReg: "2026-11-13 21:00",
-        owner: "CLEVER_MSK",
         map: 'rublevo_2005'
     },
     {
@@ -3854,7 +3851,6 @@ let mskEvents2026 = [
         fmt: "кросс-спринт",
         coord: [55.762188, 37.403176],
         link: "https://vk.link/okuncevo",
-        owner: "O_KUNTSEVO",
         endReg: "2026-11-12 23:55",
         bulletin: "https://docs.google.com/document/d/1F7G92AA2MWIlq9dpb8_lT2mLyIIUn4eWLfIB7SpVsXc/edit?usp=sharing",
         map: 'krylatskoe_1990'
@@ -3886,7 +3882,6 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54746",
         endReg: "2026-11-14 21:00",
-        owner: "CLEVER_MSK",
         map: 'timiryazevsky_2026'
     },
     {
@@ -3910,7 +3905,6 @@ let mskEvents2026 = [
         coord: [55.835108, 37.382668],
         link: "https://docs.google.com/document/d/1dtLL0oaDm1tAZPWGslc80WMyiwreSB_Ofk7jm9GRcx8/edit?usp=sharing",
         reg: "https://buyrun.ru/event/162",
-        owner: "MLKHT",
         bulletin: "https://docs.google.com/document/d/1dtLL0oaDm1tAZPWGslc80WMyiwreSB_Ofk7jm9GRcx8/edit?usp=sharing"
     },
     {
@@ -3925,7 +3919,6 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54747",
         endReg: "2026-11-20 21:00",
-        owner: "CLEVER_MSK",
         map: '20250404_702'
     },
     {
@@ -3950,8 +3943,7 @@ let mskEvents2026 = [
         coord: [55.611174, 37.761518],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54748",
-        endReg: "2026-11-21 21:00",
-        owner: "CLEVER_MSK"
+        endReg: "2026-11-21 21:00"
     },
     {
         id: 'MSK_20261122_2',
@@ -3999,7 +3991,6 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54749",
         endReg: "2026-11-27 21:00",
-        owner: "CLEVER_MSK",
         map: '20210103_183'
     },
     {
@@ -4037,8 +4028,7 @@ let mskEvents2026 = [
         coord: [55.74573, 37.619607],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54736",
-        endReg: "2026-12-04 21:00",
-        owner: "CLEVER_MSK"
+        endReg: "2026-12-04 21:00"
     },
     {
         id: 'MSK_20261205_2',
@@ -4093,7 +4083,6 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/56884",
         endReg: "2026-12-11 21:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK",
         map: '20220112_220'
     },
     {
@@ -4109,7 +4098,6 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/56885",
         endReg: "2026-12-12 21:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK",
         map: 'big_bitsa_2024'
     },
     {
@@ -4135,7 +4123,6 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/56886",
         endReg: "2026-12-18 21:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK",
         map: '20250404_210'
     },
     {
@@ -4151,7 +4138,6 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/56887",
         endReg: "2026-12-19 21:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
-        owner: "CLEVER_MSK",
         map: 'troparevo_1990'
     },
     {
@@ -4247,6 +4233,15 @@ let mskEvents2026 = [
         coord: [55.909229, 37.857094],
         reg: "https://orgeo.ru/event/56687",
         endReg: "2027-09-08 23:55"
+    },
+    {
+        id: 'MSK_20270925_1',
+        date: "2027-09-25",
+        name: "Компактный Рогейн «Ляпино»",
+        place: "Ляпино, пожарный водоём",
+        type: "ROGAINE",
+        coord: [55.947495, 38.868561],
+        reg: "https://orgeo.ru/event/56956"
     },
     {
         id: 'MSK_20271003_1',
