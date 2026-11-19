@@ -224,6 +224,10 @@ function renderMapsTable() {
     let prevYear = 0;
     let currentGroup = null;
     for (const evt of visibleEvents) {
+        if (evt.start && starts[evt.start] && starts[evt.start].hidden) {
+            continue;
+        }
+
         totalEvents++;
         currentDate = new Date(eventSortDate(evt));
         const y = currentDate.getFullYear();

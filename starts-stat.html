@@ -447,7 +447,7 @@
         // 'VYBORGSKY_TROIKA',     // Выборгская тройка — 27 дн., 2013–2026
         // 'GS',                   // Зелёный Змей — 26 дн., 1988–2024
         // 'WEDDING',              // Золотые Кольца — 25 дн., 1977–2025
-        'RRC', // Чемпионат России по рогейну — 24 дн., 2007–2026, рогейн
+        // 'RRC', // Чемпионат России по рогейну — 24 дн., 2007–2026, рогейн
         // 'OKINCHITSA',           // Окинчица — 23 дн., 1977–2026
         // 'LM',                   // Лужский Меридиан — 20 дн., 2019–2026, рогейн
         // 'MATRESHKA',            // МаТрёшка — 20 дн., 2016–2021
@@ -647,7 +647,7 @@
 
                 const codes = Array.isArray(e.start) ? e.start : [e.start];
                 for (const code of codes) {
-                    if (!code || excluded.has(code)) continue;
+                    if (!code || starts[code].hidden || excluded.has(code)) continue;
 
                     let row = byCode.get(code);
                     if (!row) {

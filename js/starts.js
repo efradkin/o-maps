@@ -987,6 +987,154 @@ let starts = {
         rogaine: true,
         region: 'MSK'
     },
+    MSK: {
+        short: 'ЧиП Москвы',
+        name: 'Чемпионат и Первенство Москвы',
+        owner: 'CLEVER_MSK',
+        owner: 'FSO_MSK',
+        logo: 'fso_msk.jpg',
+        region: 'MSK'
+    },
+    O_KUNTSEVO: {
+        short: 'О-Кунцево',
+        name: 'Первенства О-Кунцево',
+        owner: 'O_KUNTSEVO',
+        logo: 'o-kuntsevo.webp',
+        region: 'MSK'
+    },
+    MSK_MERIDIAN: {
+        short: 'Московский Меридиан',
+        name: 'Московский Меридиан',
+        logo: 'mm.webp',
+        region: 'MSK',
+        hidden: true
+    },
+    MSK_SPRING: {
+        short: 'Московская Весна',
+        name: 'Московская Весна',
+        info: 'Московская Весна.',
+        logo: 'msk_spring.webp',
+        owner: 'CLEVER_MSK',
+        region: 'MSK'
+    },
+    MSK_SUMMER: {
+        short: 'Московское Лето',
+        name: 'Московское Лето',
+        info: 'Московское Лето.',
+        logo: 'msk_summer.webp',
+        owner: 'CLEVER_MSK',
+        region: 'MSK'
+    },
+    MSK_AUTUMN: {
+        short: 'Московская Осень',
+        name: 'Московская Осень',
+        info: 'Московская Осень.',
+        logo: 'msk_autumn.webp',
+        owner: 'CLEVER_MSK',
+        region: 'MSK'
+    },
+    MSK_WINTER: {
+        short: 'Московская Зима',
+        name: 'Московская Зима',
+        info: 'Московская Зима.',
+        logo: 'msk_winter.webp',
+        owner: 'CLEVER_MSK',
+        region: 'MSK'
+    },
+    MSK_NANO_ROGAINE: {
+        short: 'Московский нанорогейн',
+        name: 'Московский нанорогейн',
+        info: 'Московская серия коротких соревнований по рогейну, проводимых в течение года.',
+        rogaine: true,
+        logo: 'clever_msk.gif',
+        owner: 'CLEVER_MSK',
+        region: 'MSK'
+    },
+    MSK_SALTYKOV_NANO_ROGAINE: {
+        short: 'Салтыковский нанорогейн',
+        name: 'Салтыковский нанорогейн',
+        info: 'Традиционные соревнования по рогейну в Кучинском лесопарке (Салтыковка).',
+        rogaine: true,
+        logo: 'saltykovsky_nano_rogaine.webp',
+        owner: 'CLEVER_MSK',
+        region: 'MSK'
+    },
+    MSK_WINTER_NANO_ROGAINE: {
+        short: 'Зимний нанорогейн',
+        name: 'Зимний нанорогейн',
+        info: 'Зимние соревнования по рогейну, проводившиеся в Битцевском лесу.',
+        rogaine: true,
+        logo: 'winter_nano_rogaine.webp',
+        owner: 'CLEVER_MSK',
+        region: 'MSK'
+    },
+    MSK_SNOW_TRAIL: {
+        short: 'Снежная Тропа',
+        name: 'Снежная Тропа',
+        info: 'Снежная Тропа.',
+        owner: 'CLEVER_MSK',
+        logo: 'msk_snow_way.webp',
+        region: 'MSK'
+    },
+    MSK_MALAKHIT: {
+        short: 'Малахит',
+        name: 'Открытые тренировки СК «Малахит»',
+        region: 'MSK',
+        logo: 'malakhit.jpg',
+        owner: 'MLKHT'
+    },
+    MSK_NIGHT_THURSDAY: {
+        short: 'Ночной Четверг',
+        name: 'Ночной Четверг',
+        info: 'Открытые тренировки по четвергам.',
+        owner: 'CLEVER_MSK',
+        logo: 'night_thursday.webp',
+        region: 'MSK'
+    },
+    MSK_NANO_PODKUST: {
+        short: 'Нано-Подкуст',
+        name: 'Нано-Подкуст',
+        logo: 'podkust.webp',
+        info: ' Рогейн из-под куста!',
+        rogaine: true,
+        region: 'MSK'
+    },
+    MSK_KHIMKI: {
+        short: 'Химки',
+        name: 'Соревнования г.о. Химки',
+        info: 'Первенство и Муниципальные соревнования г.о. Химки по спортивному ориентированию.',
+        logo: 'khimki.webp',
+        region: 'MSK'
+    },
+    MSK_SPRINT_TOUR: {
+        short: 'Moscow Sprint Tour',
+        name: 'Moscow Sprint Tour',
+        info: 'Moscow Sprint Tour.',
+        logo: 'mst.webp',
+        owner: 'CLEVER_MSK',
+        region: 'MSK'
+    },
+    MSK_SCHOOL_102: {
+        short: 'СШОР №102',
+        name: 'Первенство СШОР №102 "Хорошево"',
+        info: 'Открытое первенство СШОР №102, "Хорошево".',
+        logo: 'khoroshevo.webp',
+        region: 'MSK'
+    },
+    MSK_GORUNOV: {
+        short: 'Памяти А.С. Горюнова',
+        name: 'Ночные соревнования памяти А.С. Горюнова',
+        info: 'Традиционные Ночные Соревнования памяти А.С. Горюнова.',
+        logo: 'goryunova.webp',
+        region: 'MSK'
+    },
+    MSK_WEDDING: {
+        short: 'Золотые Кольца',
+        name: 'Золотые Кольца',
+        logo: 'wedding_msk.gif',
+        info: 'Золотые Кольца — традиционные соревнования по спортивному ориентированию в Москве и ТиНАО. Цели — популяризация ориентирования как массового спорта, а также выявление сильнейших супружеских пар. Ключевая особенность — двухэтапная эстафета с возрастным гандикапом.',
+        region: 'MSK'
+    },
     /* --- ПСКОВ --- */
     RA_PSKOV: {
         short: 'РА (Псков)',
