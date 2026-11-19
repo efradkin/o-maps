@@ -263,7 +263,7 @@ const dic = {
     ROGAINE: 'РОГЕЙН',
     SPRINT: 'СПРИНТ',
     WINTER: 'ЗИМА',
-    INDOOR: 'ВНУТРИ',
+    INDOOR: 'В&#160;ПОМЕЩЕНИИ',
     SPECIAL: 'НЕЧТО',
     CLUB: 'КЛУБ',
 };
