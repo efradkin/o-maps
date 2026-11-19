@@ -3918,7 +3918,7 @@ let events2026 = [
         start: 'SNOW_WAY',
         fmt: 'спринт',
         endReg: '2026-11-19',
-        bulletin: 'https://o-site.spb.ru/_races/261122_st/261122_info2.pdf',
+        bulletin: 'https://o-site.spb.ru/_races/261122_st/261122_info-2.pdf',
         map: 'sosnovka_2024'
     },
     {
@@ -3940,8 +3940,11 @@ let events2026 = [
         name: 'Ориентир НатАлка',
         place: 'Пискаревский парк',
         o_site: '2026_Orientir',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1767',
+        bulletin: 'https://o-site.spb.ru/_races/2026_Orientir/Info_281126.pdf',
         start: 'NATALKA',
-        map: 'piskarevsky_2024'
+        map: 'piskarevsky_2024',
+        endReg: '2026-11-26 15:00'
     },
     {
         id: 'SPB_20261128_4',

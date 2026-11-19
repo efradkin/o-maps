@@ -233,6 +233,7 @@ let events2027 = [
         date: '2027-06-05',
         endDate: '2027-06-06',
         place: 'Кузнечное',
+        reg: 'https://orgeo.ru/event/56719',
         name: 'Горный кросс',
         type: 'ROGAINE',
         fmt: '24, 8(7), 3',
