@@ -1,72 +1,105 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8" />
-  <title>TODO — O-Maps</title>
-  <meta name="description" content="O-Maps. Что делать.">
-  <link rel="icon" type="image/png" href="favicon.png"/>
-  <link href='css/google-fonts.css' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/main.css?v=36"/>
-  <link rel="stylesheet" href="css/theme.css?v=36"/>
-  <script src="js/theme-toggle.js?v=72"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TODO — O-Maps</title>
+    <meta name="description" content="O-Maps. Что делать.">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href="css/google-fonts.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css?v=36"/>
+    <link rel="stylesheet" href="css/theme.css?v=36"/>
+    <script src="js/theme-toggle.js?v=72"></script>
 
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript" >
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-      m[i].l=1*new Date();
-      for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-    ym(99914151, "init", {
-      clickmap:true,
-      trackLinks:true,
-      accurateTrackBounce:true
-    });
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <base target="_blank">
 </head>
-<body class="index-body help-body">
-<h1 class="text-center"> <a href="./index.html" target="_self" title="Главная страница">TODO</a></h1>
+<body class="stat-body help-body">
+    <script src="js/utils-common.js?v=71"></script>
+    <script src="js/utils.js?v=88"></script>
 
-<div class="container">
-  <section>
-    <ol>
-      <li>Домен o-maps.ru.</li>
-      <li>Дооформить новости.</li>
-      <li>Музей "погибших" сайтов.</li>
-      <li>Исторические статьи.</li>
-      <li>СПЛИТЫ (скачивание, парсинг, конвертация в JSON, анализ, рейтинги).</li>
-      <li>Ускорение загрузки таблиц.</li>
-      <li>Нижний Новгород.</li>
-      <li>Англоязычная версия сайта.</li>
-      <li>Фотки в календаре.</li>
-      <li>Сканирование документов (протоколов).</li>
-      <li>Досканировать кузьмоловские плёнки.</li>
-      <li>Хронология.</li>
-      <li>Папки Лен.обл., 'Лен. многодневка', 'Мемориал Матросова' и псковские от Быркина.</li>
-      <li>Карты Замоты М.М.</li>
-      <li>Калиниград ?</li>
-      <li>Просмотреть ещё раз карты от Бекетова.</li>
-      <li>Старые башкирские карты от Султанбекова.</li>
-      <li>Псков, Себеж.</li>
-      <li>Прошерстить старые карты на предмет полноразмеров.</li>
-      <li>Пересмотреть еще раз бумажные карты на предмет добавления в Старты.</li>
-      <li>Редизайн главной страницы.</li>
-      <li>Окинчица.</li>
-      <li>Свадебные.</li>
-      <li>Подборка ретро-карт от Шириняна.</li>
-      <li>Добавить описание места у маршрутов.</li>
-      <li>WMOC, WOC, EOC - м.б. в закрытом режиме.</li>
-      <li>Карта карт - O-Maps, O-Stuff, OMaps.worldofo etc.</li>
-      <li>INDOOR-карты от Алексея Волкова.</li>
-      <li>Сканы карт от Ирины Ломовой.</li>
-    </ol>
-  </section>
-</div>
-  <script src="js/seo-meta.js?v=51"></script>
+    <header class="page-header">
+        <nav class="page-header-actions" aria-label="Навигация по странице">
+            <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
+            <a href="all.html" target="_self" class="stat-map-link stat-map-link-right" title="Карты на карте"><img src="images/map_24.png" alt="Карты на карте" /></a>
+
+            <script src="js/global-menu.js?v=73"></script>
+            <script>
+                writeGlobalMenuHtml();
+            </script>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="page-title">TODO</h1>
+        <section>
+            <ol>
+                <li>Домен o-maps.ru.</li>
+                <li>Дооформить новости.</li>
+                <li>Музей "погибших" сайтов.</li>
+                <li>Исторические статьи.</li>
+                <li>СПЛИТЫ (скачивание, парсинг, конвертация в JSON, анализ, рейтинги).</li>
+                <li>Ускорение загрузки таблиц.</li>
+                <li>Нижний Новгород.</li>
+                <li>Англоязычная версия сайта.</li>
+                <li>Фотки в календаре.</li>
+                <li>Сканирование документов (протоколов).</li>
+                <li>Досканировать кузьмоловские плёнки.</li>
+                <li>Хронология.</li>
+                <li>Папки Лен.обл., 'Лен. многодневка', 'Мемориал Матросова' и псковские от Быркина.</li>
+                <li>Карты Замоты М.М.</li>
+                <li>Калиниград ?</li>
+                <li>Просмотреть ещё раз карты от Бекетова.</li>
+                <li>Старые башкирские карты от Султанбекова.</li>
+                <li>Псков, Себеж.</li>
+                <li>Прошерстить старые карты на предмет полноразмеров.</li>
+                <li>Пересмотреть еще раз бумажные карты на предмет добавления в Старты.</li>
+                <li>Редизайн главной страницы.</li>
+                <li>Окинчица.</li>
+                <li>Свадебные.</li>
+                <li>Подборка ретро-карт от Шириняна.</li>
+                <li>Добавить описание места у маршрутов.</li>
+                <li>WMOC, WOC, EOC - м.б. в закрытом режиме.</li>
+                <li>Карта карт - O-Maps, O-Stuff, OMaps.worldofo etc.</li>
+                <li>INDOOR-карты от Алексея Волкова.</li>
+                <li>Сканы карт от Ирины Ломовой.</li>
+            </ol>
+        </section>
+    </div>
+
+    <!-- Bootstrap нужен глобальному меню: оно построено на его dropdown. -->
+    <script src="js/ext/bootstrap.min.js"></script>
+    <script src="js/ext/bootstrap5-dropdown-ml-hack.js"></script>
+
+    <script src="js/welcome.js?v=71"></script>
+    <script>
+        writeWelcomeButton();
+    </script>
+
+    <noscript>
+        <div id="noscript_content">
+            <p class="h1">O-Maps. TODO</p>
+            <p>Для корректной работы сайта необходимо включить JavaScript в настройках браузера.</p>
+        </div>
+    </noscript>
+    <script src="js/seo-meta.js?v=51"></script>
 </body>
 </html>

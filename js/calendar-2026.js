@@ -3986,6 +3986,15 @@ let events2026 = [
         fmt: 'спринт'
     },
     {
+        id: 'SPB_20261206_2',
+        date: '2026-12-06',
+        place: 'Приозерск, Новая Корела',
+        name: 'XII Кубок Весты №6, П-во Приозерска',
+        link: 'https://vk.ru/wall-30365190_9785',
+        owner: 'VESTA_PRIOZERSK',
+        map: 'priozersk_drsu'
+    },
+    {
         id: 'SPB_20261213_1',
         date: '2026-12-13',
         name: 'Снежная тропа',
