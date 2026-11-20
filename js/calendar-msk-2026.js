@@ -3905,6 +3905,7 @@ let mskEvents2026 = [
         coord: [55.835108, 37.382668],
         link: "https://docs.google.com/document/d/1dtLL0oaDm1tAZPWGslc80WMyiwreSB_Ofk7jm9GRcx8/edit?usp=sharing",
         reg: "https://buyrun.ru/event/162",
+        res: "https://malahit-sprint.ru/events/start-2026-11-19-nochnaya-kross-klassika-landshaftnyj-park-mitino",
         bulletin: "https://docs.google.com/document/d/1dtLL0oaDm1tAZPWGslc80WMyiwreSB_Ofk7jm9GRcx8/edit?usp=sharing"
     },
     {
@@ -3975,8 +3976,11 @@ let mskEvents2026 = [
         date: "2026-11-26",
         name: "Открытая тренировка",
         place: "Лысая гора+стадион Октябрь",
+        reg: "https://orgeo.ru/event/56981",
         type: "ORIENT",
+        fmt: "классическая дистанция + городской спринт в ночных условиях",
         coord: [55.802366, 37.449027],
+        link: "https://docs.google.com/document/d/1g3KftTLF4l1ACNkx2OU1nP0r7MAx8OPnYOwZtd9UAuA/edit?usp=sharing",
         owner: "MLKHT"
     },
     {
@@ -4111,6 +4115,15 @@ let mskEvents2026 = [
         endReg: "2026-12-10 23:55"
     },
     {
+        id: 'MSK_20261217_1',
+        date: "2026-12-17",
+        name: "Открытая тренировка",
+        place: "Головинский канал",
+        type: "ORIENT",
+        coord: [55.845124, 37.507398],
+        owner: "MLKHT"
+    },
+    {
         id: 'MSK_20261219_1',
         date: "2026-12-19",
         name: "Снежная Тропа",
@@ -4150,6 +4163,15 @@ let mskEvents2026 = [
         link: "https://mosorient.ru/",
         reg: "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
         owner: "FSO_MSK"
+    },
+    {
+        id: 'MSK_20261224_1',
+        date: "2026-12-24",
+        name: "Открытая тренировка",
+        place: "Усадьба Трубецких",
+        type: "ORIENT",
+        coord: [55.728356, 37.576236],
+        owner: "MLKHT"
     },
     {
         id: 'MSK_20261226_1',

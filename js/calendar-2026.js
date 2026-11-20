@@ -4006,6 +4006,7 @@ let events2026 = [
         o_site: '261220',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1766',
         endReg: '2026-12-17',
+        bulletin: 'https://o-site.spb.ru/_races/261220/261220_info.pdf',
         owner: 'WN'
     }
 ];
