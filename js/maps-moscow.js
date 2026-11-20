@@ -3859,7 +3859,7 @@ let moscowMaps = [
         author: 'ALNKV_A',
         owner: 'ALNKV_A',
         bounds: [[55.7528577, 37.6033151], [55.7529483, 37.6118767], [55.7493979, 37.6031435]],
-        type: ['CITY','SPRINT'],
+        type: ['INDOOR'],
         zindex: 2
     },
     {

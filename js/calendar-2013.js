@@ -332,6 +332,7 @@ let events2013 = [
         id: 'SPB_20130317_1',
         date: '2013-03-17',
         name: 'Кубок СПб по парковому ориентированию «Снежная Тропа»',
+        place: 'Осиновая Роща',
         start: 'SNOW_WAY',
         reg: 'http://o-reg.spb.ru/',
         res: 'http://o-site.spb.ru/_races/121118_tropa/130317_split.htm',

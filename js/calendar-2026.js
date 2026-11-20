@@ -3904,7 +3904,7 @@ let events2026 = [
         place: 'ГБОУ СОШ №339',
         coord: [59.903667, 30.462872],
         reg: 'https://orgeo.ru/event/56925',
-        endReg: '2026-11-20 12:00',
+        endReg: '2026-11-20 15:00',
         map: 'school_339_2008',
         closed: true
     },

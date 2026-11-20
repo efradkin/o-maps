@@ -3967,7 +3967,7 @@ let mskEvents2026 = [
         fmt: "старт рогейна",
         coord: [55.418228, 37.41843],
         reg: "https://orgeo.ru/event/56658",
-        endReg: "2026-11-19 23:55",
+        endReg: "2026-11-20 10:00",
         bulletin: "https://docs.google.com/document/d/1uo_8UK4yxC6zVL9q-9yElFIA5apTRIOXdJTDGIgJaUA/edit?tab=t.0"
     },
     {

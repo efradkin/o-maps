@@ -175,8 +175,8 @@ const GLOBAL_MENU_ITEMS = [
             { title: '🇷🇺 Россия и СССР', page: 'history/russia-history' },
             { title: '🏛️ Москва', page: 'history/moscow-history' },
             { title: '🏙️ Ленинград, Петербург', page: 'history/spb-history' },
-/*
             { title: '🌏 Рогейн в мире', page: 'history/rogaine-world-history' },
+/*
             { title: '🥾 Рогейн в России', page: 'history/rogaine-russia-history' },
 */
             {
