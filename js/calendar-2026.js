@@ -3895,6 +3895,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/56782',
         endReg: '2026-11-20 20:00',
         o_gps: 26340,
+        reskeep: 955,
         me: 'MA',
         strava: 21068348008,
         bulletin: 'https://o-site.spb.ru/_races/261121_WN/261121_WN.pdf',

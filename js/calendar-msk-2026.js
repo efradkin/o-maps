@@ -3984,6 +3984,17 @@ let mskEvents2026 = [
         owner: "MLKHT"
     },
     {
+        id: 'MSK_20261127_1',
+        date: "2026-11-27",
+        name: "Открытая тренировка",
+        place: "Лысая гора",
+        type: "ORIENT",
+        fmt: "классическая дистанция + городской спринт в ночных условиях",
+        coord: [55.802366, 37.449027],
+        link: "https://docs.google.com/document/d/1g3KftTLF4l1ACNkx2OU1nP0r7MAx8OPnYOwZtd9UAuA/edit?usp=sharing",
+        owner: "MLKHT"
+    },
+    {
         id: 'MSK_20261128_1',
         date: "2026-11-28",
         name: "Московская Осень",
