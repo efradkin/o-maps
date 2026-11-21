@@ -176,9 +176,7 @@ const GLOBAL_MENU_ITEMS = [
             { title: '🏛️ Москва', page: 'history/moscow-history' },
             { title: '🏙️ Ленинград, Петербург', page: 'history/spb-history' },
             { title: '🌏 Рогейн в мире', page: 'history/rogaine-world-history' },
-/*
-            { title: '🥾 Рогейн в России', page: 'history/rogaine-russia-history' },
-*/
+            { title: '🇷🇺 Рогейн в России', page: 'history/rogaine-russia-history' },
             {
                 title: '🏆 Чемпионаты мира и Европы',
                 menuItems: [

@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <base target="_blank">
+    <title>
+        Рогейн в России — O-Maps
+    </title>
+    <meta content="От «закрытого маршрута» 1939 года и первого рогейна в Перми 1999 года до чемпионатов России на лыжах, велосипедах и байдарках, чемпионата мира в Алоли и сотен стартов под Петербургом и Москвой: история рогейна в России."
+          name="description"/>
+    <link href="../favicon.png" rel="icon" type="image/png"/>
+    <link href="../css/google-fonts.css" rel="stylesheet"/>
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="../css/main.css?v=24" rel="stylesheet"/>
+    <link href="../css/theme.css?v=23" rel="stylesheet"/>
+    <link href="../css/history.css?v=2" rel="stylesheet"/>
+    <script src="../js/theme-toggle.js">
+    </script>
+</head>
+<body class="index-body help-body stat-body history-body">
+<script src="../js/utils-common.js?v=37"></script>
+<script src="../js/utils.js?v=49"></script>
+<header class="page-header">
+    <nav aria-label="Навигация по странице" class="page-header-actions">
+        <a class="stat-map-link stat-map-link-right" href="../index.html" target="_self" title="Главная страница"><img
+                alt="Главная страница" src="../images/home.png"/></a>
+        <a class="stat-map-link stat-map-link-right" data-menu-icon="🗓️"
+           href="../calendar.html?startYear=ALL&amp;calendar=ROGAINE" target="_self" title="Рогейны в календаре">
+            <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round"
+                 stroke-linejoin="round" stroke-width="2" style="color: var(--o-text)" viewbox="0 0 24 24" width="24">
+                <rect height="16.5" rx="2" width="18" x="3" y="4.5"></rect>
+                <path d="M3 9.5h18M8 2.5v4M16 2.5v4"></path>
+                <path d="M7 13.5h2M11 13.5h2M15 13.5h2M7 17h2M11 17h2"></path>
+            </svg>
+        </a>
+        <script src="../js/global-menu.js?v=39"></script>
+        <script>writeGlobalMenuHtml('../');</script>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <h1 class="page-title">Рогейн в России</h1>
+
+        <nav aria-label="Исторические статьи" class="hist-nav">
+            <a href="index.html" target="_self">История ориентирования</a>
+            <ul>
+                <li>
+                    <a href="world-history.html" target="_self">Мир</a>
+                </li>
+                <li>
+                    <a href="europe-history.html" target="_self">Европа</a>
+                </li>
+                <li>
+                    <a href="russia-history.html" target="_self">Россия и СССР</a>
+                </li>
+                <li>
+                    <a href="moscow-history.html" target="_self">Москва</a>
+                </li>
+                <li>
+                    <a href="spb-history.html" target="_self">Ленинград&nbsp;— Петербург</a>
+                </li>
+                <li>
+                    <a href="rogaine-world-history.html" target="_self">Рогейн в мире</a>
+                </li>
+                <li>
+                    <span aria-current="page">Рогейн в России</span>
+                </li>
+                <li>
+                    <a href="domestic.html" target="_self">Чемпионаты СССР и России</a>
+                </li>
+                <li>
+                    <a href="iof.html" target="_self">Чемпионаты мира и Европы</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="hist-section clearfix" id="intro">
+            <h2>Командная игра на сутки</h2>
+            <p>
+                Рогейн&nbsp;— командное ориентирование по выбору: за контрольное время от трёх часов до суток команда из двух–пяти человек
+                должна набрать как можно больше очков, сама решая, какие из отмеченных на карте контрольных пунктов разной стоимости "брать" и в каком порядке.
+                Вид спорта родился в Австралии (о мировой истории&nbsp;— в <a href="rogaine-world-history.html" target="_self">статье «Рогейн в мире»</a>),
+                но в России у него есть собственная предыстория&nbsp;— многочасовые туристские соревнования по «закрытому маршруту»,
+                которые <a id="nm3-1" href="https://o-site.spb.ru/history/Peoples/blagovo1.html" rel="noopener">Н.&nbsp;В.&nbsp;Благово</a> считал прямыми предшественниками рогейна. Первый рогейн в стране прошёл в августе 1999&nbsp;года
+                в Перми, через два года там же разыграли первый чемпионат России, в 2003-м&nbsp;— первый в истории чемпионат Европы, а в 2013-м
+                Россия приняла чемпионат мира. Сегодня чемпионаты России бегом проводятся каждый год, в 2011–2022&nbsp;годах разыгрывались и чемпионаты на лыжах,
+                велосипедах и байдарках, а под Петербургом и Москвой рогейн стал одним из самых массовых стартов с картой.
+            </p>
+            <p>
+                Статья опирается на материалы <a href="https://rogaining.ru/" rel="noopener">Федерации рогейна России</a> (история, таблицы
+                чемпионатов и медалей, новости), биографию <a id="nm2-1" href="https://rufso.ru/wp-content/uploads/2017/07/Shestakov.pdf" rel="noopener">Г.&nbsp;Н.&nbsp;Шестакова</a> на сайте Федерации спортивного ориентирования России,
+                книгу <a href="../books/blagovo_first_azimuths_2026_omaps.pdf">Н.&nbsp;В.&nbsp;Благово «Первые азимуты на берегах Невы»</a>,
+                исторические публикации Telegram-канала <a href="https://t.me/rogainomania" rel="noopener">«Рогейномания»</a>, страницы
+                <a href="https://o-site.spb.ru/history/" rel="noopener">O-Site</a>, сайты организаторов и, конечно, на
+                <a href="../calendar.html?startYear=ALL&amp;calendar=ROGAINE">рогейны в календаре</a> и <a href="../all.html">архив карт O-Maps</a>.
+                Календарь O-Maps исторически петербургский, поэтому и рогейны Петербурга и Ленинградской области в нём представлены
+                полнее всего. Все упомянутые люди собраны в <a href="#names" target="_self">указателе имён</a> в конце статьи.
+            </p>
+            <dl class="hist-facts">
+                <dt>Предтеча</dt>
+                <dd>ночной «закрытый маршрут» <a id="nm1-1" class="hist-quiet" href="https://o-site.spb.ru/history/Peoples/dobkovic.html" rel="noopener">В.&nbsp;В.&nbsp;Добковича</a> (1939) и туристские соревнования 1940–1950-х</dd>
+                <dt>Первый рогейн</dt>
+                <dd>28–29&nbsp;августа 1999, Пермь, 12&nbsp;команд (организатор&nbsp;— <a id="nm2-2" class="hist-quiet" href="https://rufso.ru/wp-content/uploads/2017/07/Shestakov.pdf" rel="noopener">Г.&nbsp;Н.&nbsp;Шестаков</a>)</dd>
+                <dt>Чемпионаты России</dt>
+                <dd>бегом&nbsp;— 2001 и ежегодно с 2005 (23 к 2026&nbsp;году); на лыжах&nbsp;— 2011–2013, на велосипедах&nbsp;— 2013–2022 (шесть), на байдарках&nbsp;— 2015, 2019, 2021</dd>
+                <dt>Федерация</dt>
+                <dd>Федерация рогейна России&nbsp;— с 2009&nbsp;года, член Международной федерации рогейна с 2012-го, отделения в 48&nbsp;субъектах</dd>
+                <dt>Чемпионаты мира и Европы в России</dt>
+                <dd><span class="text-nowrap">ЧЕ-2003</span> (Пермь), <span class="text-nowrap">ЧЕ-2008</span> (Мичуринское), <span class="text-nowrap">ЧМ-2013</span> (Алоль); <span class="text-nowrap">ЧЕ-2022</span>&nbsp;под Выборгом отменён</dd>
+                <dt>Медали</dt>
+                <dd>212&nbsp;медалей российских команд на чемпионатах мира и Европы 2003–2025&nbsp;во всех классах; первая победа в абсолютном зачёте чемпионата мира&nbsp;— 2008</dd>
+                <dt><a href="#places" target="_self" title="Места на карте">Главные районы</a></dt>
+                <dd>Карельский перешеек, Подмосковье, Пермь, Нижегородская область, Южный Урал (Кыштым), Псковщина (Алоль)</dd>
+                <dt>Архив O-Maps</dt>
+                <dd>613&nbsp;рогейнов 1999–2026&nbsp;годов в календаре (540 из них&nbsp;— из петербургского календаря), 406&nbsp;карт рогейнов в архиве, из них 404&nbsp;— российские (на 14 ноября 2026&nbsp;года; <a href="#sources" target="_self">все числа O-Maps</a>&nbsp;— на эту дату)</dd>
+            </dl>
+            <ol aria-label="Вехи по годам" class="hist-timeline">
+                <li>
+                    <a href="#prehistory" target="_self" title="1939: ночной «закрытый маршрут» В. В. Добковича под Ленинградом">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1939</span><small>Добкович</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=RRF_19990828_1" title="28–29 августа 1999: первый рогейн в России — открытый чемпионат Перми">
+                        <span aria-hidden="true" class="hist-flag"></span><span>1999</span><small>Пермь</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=RRF_20010825_1" title="25–26 августа 2001: I чемпионат России по рогейну в Перми">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2001</span><small>1-й ЧР</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=IRF_20030816_1" title="16–17 августа 2003: I чемпионат Европы по рогейну в Перми">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2003</span><small>ЧЕ в Перми</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=RRF_20050903_1" title="2005: II чемпионат России в Нижегородской области — с тех пор чемпионаты ежегодные">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2005</span><small>ежегодно</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=IRF_20080913_1" title="2008: Евгений Домбровский и Павел Шестаков — абсолютные чемпионы мира">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2008</span><small>абсолют</small></a>
+                </li>
+                <li>
+                    <a href="#rrf" target="_self" title="2009: создана Федерация рогейна России">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2009</span><small>ФРР</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=RRF_20110306_1" title="2011: I чемпионат России по рогейну на лыжах в Ивановской области">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2011</span><small>лыжи</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=SPB_20130726_1" title="2013: чемпионат мира по рогейну в Алоли, Псковская область">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2013</span><small>Алоль</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=RRF_20150725_1" title="2015: I чемпионат России по рогейну на байдарках">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2015</span><small>байдарки</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=RRF_20170923_1" title="2017: рекорд чемпионатов России — 122 команды, 267 участников">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2017</span><small>рекорд</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=IRF_20220528_1" title="2022: чемпионат Европы в Ленинградской области отменён">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2022</span><small>отмена</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=IRF_20250705_1" title="2025: россияне в нейтральном статусе выиграли чемпионат мира в абсолютном зачёте">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2025</span><small>победа</small></a>
+                </li>
+                <li>
+                    <a href="../event.html?id=MAJOR_20260822_1" title="2026: XXIII чемпионат России под Выборгом">
+                        <span aria-hidden="true" class="hist-flag"></span><span>2026</span><small>Выборг</small></a>
+                </li>
+            </ol>
+        </section>
+
+        <nav aria-label="Оглавление статьи" class="hist-toc">
+            <p class="hist-toc-title">Оглавление</p>
+            <ol>
+                <li><a href="#intro" target="_self" title="Командная игра на сутки">Вступление</a></li>
+                <li><a href="#places" target="_self">Места на карте</a></li>
+                <li><a href="#prehistory" target="_self" title="До 1998: «закрытый маршрут», лыжни здоровья и буклет из США">До 1998: предыстория</a></li>
+                <li><a href="#perm" target="_self" title="1998–2003: пермский вариант">1998–2003: Пермь</a></li>
+                <li><a href="#2004-2009" target="_self" title="2004–2009: рогейн расходится по стране">2004–2009</a></li>
+                <li><a href="#2010s" target="_self" title="2010-е: чемпионат мира в Алоли и новые дисциплины">2010-е</a></li>
+                <li><a href="#2020s" target="_self" title="2020-е: пандемия, отстранение и свой календарь">2020-е</a></li>
+                <li><a href="#rrf" target="_self" title="Федерация рогейна России: правила, отделения, календарь">Федерация</a></li>
+                <li><a href="#rrc" target="_self" title="Чемпионаты России: 23 суточных старта от Перми до Новороссийска">Чемпионаты России</a></li>
+                <li><a href="#medals" target="_self" title="На чемпионатах мира и Европы: 212 медалей">Медали ЧМ и ЧЕ</a></li>
+                <li><a href="#spb" target="_self" title="Петербург и Ленинградская область: самый плотный календарь">Петербург и область</a></li>
+                <li><a href="#regions" target="_self" title="Москва, Поволжье, Урал, Сибирь и Юг">Другие регионы</a></li>
+                <li><a href="#kinds" target="_self" title="На лыжах, велосипедах, байдарках, в городе и по фотографиям">Виды рогейна</a></li>
+                <li><a href="#maps" target="_self" title="Карты рогейнов в архиве O-Maps">Карты</a></li>
+                <li><a href="#afterword" target="_self">Вместо заключения</a></li>
+                <li><a href="#sources" target="_self">Источники</a></li>
+                <li><a href="#names" target="_self">Указатель имён</a></li>
+            </ol>
+        </nav>
+
+        <section class="hist-section clearfix" id="places">
+            <h2>Места на карте</h2>
+            <p>
+                Где проходили соревнования, о которых рассказывает статья. Точка стоит там же, где событие
+                на <a href="../all.html">карте календаря O-Maps</a>&nbsp;— в его координатах или в центре его карты,
+                поэтому у многодневных стартов точек несколько. Цвет точки показывает, когда место впервые
+                появляется в статье, число в кружке&nbsp;— сколько рядом точек. Значок 📍 в тексте ведёт
+                к месту на этой карте.
+            </p>
+            <div aria-label="Карта мест статьи" class="hist-map" id="places-map" role="region"></div>
+            <ul aria-label="Цвет точки — время первого упоминания места в статье" class="hist-map-legend" id="places-legend"></ul>
+            <details class="hist-places">
+                <summary>Все места списком</summary>
+                <ul class="hist-places-list" id="places-list"></ul>
+            </details>
+        </section>
+
+        <section class="hist-section clearfix" id="prehistory">
+            <h2>До 1998: «закрытый маршрут», лыжни здоровья и буклет из США</h2>
+            <figure class="hist-fig hist-fig-right hist-fig-narrow"><a href="https://o-site.spb.ru/history/Peoples/dobkovic.html" rel="noopener"><img class="help-figure" src="img/spb_dobkovich.webp" width="505" height="575" alt="Владимир Владиславович Добкович." loading="lazy"></a><figcaption><a id="nm1-2" href="https://o-site.spb.ru/history/Peoples/dobkovic.html" rel="noopener">Владимир Владиславович Добкович</a> (1907–1983)&nbsp;— автор ночного «закрытого маршрута» 1939&nbsp;года. <span class="hist-credit">Фото из книги Н.&nbsp;В.&nbsp;Благово <a href="../books/blagovo_first_azimuths_2026_omaps.pdf">«Первые азимуты на берегах Невы»</a></span></figcaption></figure>
+            <p>
+                Командные соревнования с картой и компасом на многие часы появились у нас задолго до слова «рогейн». В 1939&nbsp;году ленинградский
+                преподаватель <a id="nm1-3" href="https://o-site.spb.ru/history/Peoples/dobkovic.html" rel="noopener">Владимир Владиславович Добкович</a> провёл
+                ночные командные соревнования туристов по «закрытому маршруту»&nbsp;— участники искали контрольные пункты, не зная трассы до старта,
+                а в январе 1941&nbsp;года рядом с Кавголово прошли <a href="../event.html?id=SPB_19410111_1">первые лыжные гонки по закрытому маршруту</a>
+                с винтовкой и грузом за спиной (подробнее&nbsp;— в статье <a href="russia-history.html#prehistory" target="_self">«Ориентирование в России и СССР»</a>).
+                После войны такие соревнования стали массовыми: команды по пять человек, у мужчин&nbsp;— 12&nbsp;кг контрольного груза у разрядников и 8&nbsp;кг
+                у новичков, дистанции по «синькам» топографических карт; в 1957&nbsp;году Центральный совет по туризму утвердил первые временные правила
+                туристских соревнований, а в феврале 1958-го в Свердловске прошли <a href="../event.html?id=MAJOR_19580202_1">I&nbsp;Всероссийские зимние туристские соревнования</a><a class="hist-place-pin" href="#place-major_19580202_1" id="pl-major_19580202_1-prehistory" target="_self" title="Свердловск — на карте мест" aria-label="Свердловск — на карте мест">📍</a>.
+            </p>
+            <p>
+                Потом, как пишет <a id="nm3-2" href="https://o-site.spb.ru/history/Peoples/blagovo1.html" rel="noopener">Никита Владимирович Благово</a>, соревнования
+                по закрытому маршруту «постепенно почти прекратили своё существование, однако совершенно неожиданно, в конце прошлого века они возродились
+                в новых условиях и, соответственно, с несколько новой программой («выбор» вместо «заданного направления»), получив английское название
+                «Rogain»… т.к. на этот раз были заимствованы из… Австралии. Воистину&nbsp;— что имеем, не храним»
+                (<a href="../books/blagovo_first_azimuths_2026_omaps.pdf#page=13">«Первые азимуты…», с.&nbsp;13</a>). Первый
+                <a href="../event.html?id=IRF_19921009_1">чемпионат мира по рогейну</a> прошёл в Австралии в 1992&nbsp;году, а российские команды впервые вышли
+                на чемпионат мира через десять лет, в 2002-м.
+            </p>
+            <p>
+                Человеком, который соединил эти две истории, стал пермяк <a id="nm2-3" href="https://rufso.ru/wp-content/uploads/2017/07/Shestakov.pdf" rel="noopener">Герман Николаевич Шестаков</a>
+                (1932–2008)&nbsp;— мастер спорта СССР по туризму и судья всесоюзной категории по ориентированию. В 1963&nbsp;году он привёз пермскую команду
+                на первые Всесоюзные соревнования в Ужгород, 16&nbsp;лет возглавлял пермскую секцию ориентирования, организовал
+                <a href="../event.html?id=MAJOR_19650820_1">II&nbsp;Всесоюзные соревнования 1965&nbsp;года в Перми</a><a class="hist-place-pin" href="#place-major_19650820_1" id="pl-major_19650820_1-prehistory" target="_self" title="Пермь — на карте мест" aria-label="Пермь — на карте мест">📍</a> и был главным судьёй первых Всесоюзных
+                соревнований по лыжному ориентированию в Калуге в 1968&nbsp;году. В конце 1980-х, будучи инструктором городского клуба туристов «Компас»,
+                он превратил походы выходного дня в «Лыжню здоровья»: на 70&nbsp;км стартовало до 800&nbsp;человек, на 100&nbsp;км&nbsp;— по несколько сотен
+                (<a href="https://rogaining.ru/rogaine/about-rogaine/shestakov" rel="noopener">биография на сайте ФРР</a>).
+            </p>
+            <p>
+                В 1997&nbsp;году 65-летний Шестаков поехал с пермскими ветеранами в США на Кубок мира по ориентированию среди ветеранов. Медалей не
+                завоевал, но привёз буклет с календарём соревнований и координатами Чешской ассоциации рогейна и горного ориентирования. «Суточное ориентирование напомнило старому туристу
+                Шестакову „закрытые маршруты“ времён его молодости. И он решил внедрить этот новый „старый“ вид спорта на пермской земле»,&nbsp;— сказано
+                в его биографии на сайте Федерации рогейна России. Шестаков установил связи с чешскими рогейнерами, затем с Международной федерацией
+                рогейна, которая включила его в свой состав наблюдателем. Многочасовые туристские старты с картой были и в Петербурге:
+                в календаре O-Maps с 2000&nbsp;года отмечен <a href="../event.html?id=SPB_20000927_1">«Осенний марш-бросок»</a><a class="hist-place-pin" href="#place-leskolovo_mb_2000" id="pl-leskolovo_mb_2000-prehistory" target="_self" title="Лесколово — на карте мест" aria-label="Лесколово — на карте мест">📍</a> питерских туристов с поиском КП по картам
+                1:25&nbsp;000–1:50&nbsp;000 и обязательным ночлегом между этапами (описание серии&nbsp;— на <a href="../start.html?start=MB">странице «Марш-Броска»</a>).
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="perm">
+            <h2>1998–2003: пермский вариант</h2>
+            <p>
+                Предшественником пермских рогейнов стали соревнования в заданном направлении, которые <a id="nm2-4" href="https://rufso.ru/wp-content/uploads/2017/07/Shestakov.pdf" rel="noopener">Шестаков</a> провёл 29&nbsp;августа 1998&nbsp;года:
+                35&nbsp;км, 12&nbsp;контрольных пунктов, сильно генерализованная чёрно-белая карта масштаба 1:50&nbsp;000 и около 30&nbsp;участников, из которых
+                всю дистанцию прошёл только Виктор Брызгалов. Ровно через год, 28–29&nbsp;августа 1999-го, в Перми прошёл
+                <a href="../event.html?id=RRF_19990828_1">открытый чемпионат города по рогейну</a><a class="hist-place-pin" href="#place-major_19650820_1" id="pl-major_19650820_1-perm" target="_self" title="Пермь — на карте мест" aria-label="Пермь — на карте мест">📍</a> в 24-часовом формате&nbsp;— 12&nbsp;команд и первый рогейн в России.
+                Затем последовали 12-часовой старт в октябре 1999&nbsp;года, 5-часовой в мае 2000-го и 2–3&nbsp;сентября 2000&nbsp;года&nbsp;— первый чемпионат
+                Пермской области: 31&nbsp;команда из Перми, Москвы, Новосибирска, Уфы и Новоуральска, а абсолютными победителями стали чехи Томаш Вацлавек
+                и Томаш Здрагал. Зимой 2001&nbsp;года Шестаков впервые провёл «зимний рогейн», и в том же году, по его биографии, рогейн с его подачи вошёл
+                в «Правила соревнований по спортивному ориентированию».
+            </p>
+            <figure class="hist-fig hist-fig-right"><a href="../map-info.html?map=perm_rrc_2001"><img class="help-figure" src="img/rr_2001_perm.webp" width="1000" height="610" alt="Фрагмент топографической карты окрестностей Перми с нанесёнными кружками контрольных пунктов и красным треугольником старта." loading="lazy"></a><figcaption>Пермь, 25–26&nbsp;августа 2001&nbsp;года: карта <a href="../event.html?id=RRF_20010825_1">I&nbsp;чемпионата России по рогейну</a>&nbsp;— «классический Генштаб» 1985&nbsp;года масштаба 1:50&nbsp;000 с 64&nbsp;КП одинаковой стоимости. Треугольник старта добавлен при публикации карты в 2026&nbsp;году (<a href="https://t.me/rogainomania/1550" rel="noopener">«Рогейномания»</a>). <a href="../map-info.html?map=perm_rrc_2001">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-rrf_20010825_1" id="pl-rrf_20010825_1-perm" target="_self" title="Пермь — на карте мест" aria-label="Пермь — на карте мест">📍</a>&nbsp;<a class="hist-place-pin" href="#place-perm_rrc_2001" id="pl-perm_rrc_2001-perm" target="_self" title="Пермь — на карте мест" aria-label="Пермь — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                <a href="../event.html?id=RRF_20010825_1">Первый открытый чемпионат России по рогейну</a><a class="hist-place-pin" href="#place-rrf_20010825_1" id="pl-rrf_20010825_1-perm-2" target="_self" title="Пермь — на карте мест" aria-label="Пермь — на карте мест">📍</a> прошёл 25–26&nbsp;августа 2001&nbsp;года с центром
+                на лыжной базе «Динамо» на юго-восточной окраине Перми. Карта&nbsp;— топографическая, 1:50&nbsp;000, одна на команду; все 64&nbsp;КП стоили
+                по 20&nbsp;очков и обозначались полосой белой краски на дереве. Отметку Шестаков придумал сам&nbsp;— команда носила пластиковую крышку с карточкой
+                и на каждом КП прокалывала её гвоздём, положение которого было своим для каждого пункта. Чехи потом называли эту систему «русским Emit»
+                (<a href="https://t.me/rogainomania/1556" rel="noopener">«Рогейномания»</a>). Чемпионами стали пражане Мирослав Сейдл и Пётр Боранек&nbsp;— 52&nbsp;КП из 64.
+                В смешанных командах победили Наталья Копылова и Алексей Городилов из Лысьвы, среди женщин&nbsp;— Анна Расчёскина и Елена Вялых. Число участников
+                источники называют по-разному: в таблице ФРР и в Википедии&nbsp;— 37&nbsp;команд и 74&nbsp;участника, в биографии Шестакова на сайте ФРР&nbsp;— «40&nbsp;команд». Среди 74&nbsp;был и 22-летний выпускник Пермского университета
+                <a id="nm4-1" href="https://t.me/rogainomania/1553" rel="noopener">Александр Якимов</a>&nbsp;— через три года он переедет в Подмосковье, начнёт там
+                «Московский рогейн» и станет создателем сайта rogaining.ru и многолетним вице-президентом Федерации рогейна России.
+            </p>
+            <figure class="hist-fig hist-fig-left hist-fig-narrow"><a href="https://commons.wikimedia.org/wiki/File:1st_European_Rogaining_Championships_2003._Prize_giving_ceremony.jpg" rel="noopener"><img class="help-figure" src="img/rr_2003_perm.webp" width="500" height="326" alt="Пожилой организатор вручает награды двум спортсменам на лесной поляне." loading="lazy"></a><figcaption>Пермь, 17&nbsp;августа 2003&nbsp;года: <a id="nm2-5" href="https://rufso.ru/wp-content/uploads/2017/07/Shestakov.pdf" rel="noopener">Герман Шестаков</a> награждает первых чемпионов Европы по рогейну в классе MO&nbsp;— Петра Боранека и Мирослава Сейдла (Чехия). <span class="hist-credit">Фото: Rogainer, <a href="https://commons.wikimedia.org/wiki/File:1st_European_Rogaining_Championships_2003._Prize_giving_ceremony.jpg" rel="noopener">Wikimedia Commons</a>, CC BY-SA 4.0</span></figcaption></figure>
+            <p>
+                В июле 2002&nbsp;года Шестаков вывез сборную Пермской области, 11&nbsp;команд, на <a href="../event.html?id=IRF_20020726_1">5-й чемпионат мира</a>
+                в Чехию&nbsp;— это был первый чемпионат мира с российскими участниками. А 16–17&nbsp;августа 2003&nbsp;года Пермь приняла
+                <a href="../event.html?id=IRF_20030816_1">первый в истории чемпионат Европы по рогейну</a><a class="hist-place-pin" href="#place-irf_20030816_1" id="pl-irf_20030816_1-perm" target="_self" title="Пермь, Россия — на карте мест" aria-label="Пермь, Россия — на карте мест">📍</a>: 40&nbsp;команд, 84&nbsp;участника из России, Чехии,
+                Финляндии, Австрии и США. Привлечь к нему официальные спортивные организации не удалось. Ветеран Николай Глухов и журналист Владислав Тарасов
+                писали тогда в «Азимуте»: «Этого вида спорта в России официально не существует. Упоминание о нём есть только в „Правилах соревнований по спортивному
+                ориентированию“». На предложение присоединиться к проведению чемпионата председатель областного спорткомитета, не найдя рогейна в Единой
+                всероссийской спортивной классификации, ответил: «Значит, такого вида спорта в России нет и никакого чемпионата проводиться в Перми не будет!»
+                (<a href="https://rogaining.ru/rogaine/about-rogaine/1erc-gluhov" rel="noopener">«Азимут», 2003, №&nbsp;3</a>). Чемпионат всё-таки состоялся:
+                в абсолюте снова выиграли Сейдл и Боранек, а российские команды взяли 25&nbsp;медалей во всех классах, в том числе золото у женщин
+                (Елена Бондарь и Инна Жабреева) и в смешанном классе (Николай Миронов и Ольга Творогова).
+            </p>
+            <p>
+                Шестаков ещё несколько лет проводил в Перми летние и лыжные рогейны, сам выходил на старт в группе суперветеранов и в 2006&nbsp;году стал
+                серебряным призёром чемпионата Европы. 20&nbsp;сентября 2008&nbsp;года он трагически погиб&nbsp;— «новатор, основоположник Рогейна в России», как написала о нём
+                Светлана Волкова (<a href="https://rogaining.ru/rogaine/about-rogaine/german-shestakov" rel="noopener">rogaining.ru</a>). «В 2009&nbsp;году рогейну в России
+                исполняется 10&nbsp;лет»,&nbsp;— открывалась биография Шестакова, опубликованная федерацией в январе 2009&nbsp;года.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="2004-2009">
+            <h2>2004–2009: рогейн расходится по стране</h2>
+            <p>
+                С 2003&nbsp;года, по данным ФРР, рогейны начали проводить в Нижегородской области, Петербурге и Ленинградской области, в Тольятти.
+                В календаре O-Maps петербургские рогейны появляются в 2005&nbsp;году: в мае&nbsp;— первый <a href="../event.html?id=SPB_20050521_2">BikeAdventure</a>
+                у Громово (велосипедное ориентирование по выбору), в июле&nbsp;— трёхчасовой <a href="../event.html?id=SPB_20050724_1">«Горный <span class="text-nowrap">кросс-3</span>»</a><a class="hist-place-pin" href="#place-lembolovo_orekhovo_peski_gk_2026" id="pl-lembolovo_orekhovo_peski_gk_2026-2004-2009" target="_self" title="Орехово — на карте мест" aria-label="Орехово — на карте мест">📍</a> в Орехово,
+                а в ноябре&nbsp;— <a href="../event.html?id=SPB_20051104_1">I&nbsp;открытый Кубок Санкт-Петербурга</a><a class="hist-place-pin" href="#place-lembolovo_orekhovo_peski_gk_2026" id="pl-lembolovo_orekhovo_peski_gk_2026-2004-2009-2" target="_self" title="Орехово — на карте мест" aria-label="Орехово — на карте мест">📍</a> с суточным форматом и примерно 150&nbsp;участниками.
+                Рогейнеры ездили и за границу&nbsp;— на <a href="../event.html?id=IRF_20050611_1">чемпионате Европы 2005&nbsp;года в Эстонии</a> бронзу в классе
+                ветеранов выиграли петербуржцы <a id="nm8-1" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Виктор Рылов</a>
+                и <a id="nm9-1" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Андрей Фершалов</a>.
+            </p>
+            <p>
+                После трёхлетнего перерыва возобновились чемпионаты России, и с тех пор они не пропускали ни одного года.
+                <a href="../event.html?id=RRF_20050903_1">II&nbsp;чемпионат</a><a class="hist-place-pin" href="#place-rrf_20050903_1" id="pl-rrf_20050903_1-2004-2009" target="_self" title="Городецкий р-н, Нижегородская обл. — на карте мест" aria-label="Городецкий р-н, Нижегородская обл. — на карте мест">📍</a> прошёл 3–4&nbsp;сентября 2005&nbsp;года в Городецком районе Нижегородской области
+                (41&nbsp;команда). Москвичи Сергей Ященко и Олег Калинин взяли тогда все КП&nbsp;— 265&nbsp;очков из 265. Через год они повторили успех
+                <a href="../event.html?id=RRF_20060624_1">на Самарской Луке под Тольятти</a><a class="hist-place-pin" href="#place-rrf_20060624_1" id="pl-rrf_20060624_1-2004-2009" target="_self" title="Тольятти, Самарская Лука — на карте мест" aria-label="Тольятти, Самарская Лука — на карте мест">📍</a>, а в августе 2006-го выиграли в абсолюте
+                <a href="../event.html?id=IRF_20060826_1">чемпионат Европы на Украине</a>&nbsp;— первое европейское золото российской команды в абсолюте.
+                В 2007&nbsp;году чемпионат Европы в Латвии выиграли <a href="../event.html?id=IRF_20070728_1">Евгений Гаврилов и Евгений Домбровский</a>.
+            </p>
+            <figure class="hist-fig hist-fig-right hist-fig-narrow"><a href="../map-info.html?map=losevo_rrc_2007"><img class="help-figure" src="img/rr_2007_losevo.webp" width="730" height="560" alt="Фрагмент спортивной карты с крупными озёрами и кружками контрольных пунктов с двузначными номерами." loading="lazy"></a><figcaption>Лосево, август 2007&nbsp;года: северная часть карты <a href="../event.html?id=SPB_20070824_1">IV&nbsp;чемпионата России</a>. Авторы&nbsp;— <a href="../sheet-all.html?author=ANTPV">М.&nbsp;Антипов</a>, <a id="nm6-1" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">И.&nbsp;Комин</a> и <a href="../sheet-all.html?author=OZRV">А.&nbsp;Озеров</a>. <a href="../map-info.html?map=losevo_rrc_2007">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-spb_20070824_1" id="pl-spb_20070824_1-2004-2009" target="_self" title="Мельниково — на карте мест" aria-label="Мельниково — на карте мест">📍</a>&nbsp;<a class="hist-place-pin" href="#place-losevo_rrc_2007" id="pl-losevo_rrc_2007-2004-2009" target="_self" title="Лосево — на карте мест" aria-label="Лосево — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                Первым крупным петербургским стартом стал <a href="../event.html?id=SPB_20070824_1">IV&nbsp;чемпионат России</a><a class="hist-place-pin" href="#place-spb_20070824_1" id="pl-spb_20070824_1-2004-2009-2" target="_self" title="Мельниково — на карте мест" aria-label="Мельниково — на карте мест">📍</a> 24–26&nbsp;августа 2007&nbsp;года
+                между озёрами у шоссе Сапёрное&nbsp;— Мельниково: 76&nbsp;команд, 162&nbsp;участника, форматы 24, 8 и 3&nbsp;часа и 8&nbsp;часов на велосипеде. Чемпионат
+                был одновременно II&nbsp;этапом Кубка Санкт-Петербурга, информацию о нём публиковал «Рогейн-клуб СПб» (<a href="https://rogaine-spb.narod.ru/race0807/info.html" rel="noopener">сайт
+                чемпионата</a>), а положение подписал президент Федерации спортивного ориентирования России Ю.&nbsp;С.&nbsp;Никонов (до появления своей федерации
+                рогейн формально относился к спортивному ориентированию). Абсолютными победителями стали латыши Николай Луцанс и Айварс Михайлов, лучшими из российских мужских команд&nbsp;— Калинин
+                и Ященко. В 2008&nbsp;году чемпионат <a href="../event.html?id=RRF_20080510_1">в Солнечногорском районе Подмосковья</a><a class="hist-place-pin" href="#place-rrf_20080510_1" id="pl-rrf_20080510_1-2004-2009" target="_self" title="Сенеж, Солнечногорский р-н — на карте мест" aria-label="Сенеж, Солнечногорский р-н — на карте мест">📍</a> (в подписи его карты в архиве O-Maps&nbsp;—
+                «Золото Сенежа») впервые
+                собрал больше ста команд&nbsp;— 109, а в 2009-м <a href="../event.html?id=SPB_20090530_2">в Кузнечном</a><a class="hist-place-pin" href="#place-spb_20090530_2" id="pl-spb_20090530_2-2004-2009" target="_self" title="Кузнечное — на карте мест" aria-label="Кузнечное — на карте мест">📍</a> было уже 112&nbsp;команд, 230&nbsp;человек.
+                Результаты и карта того чемпионата публиковались на сайте «Горного кросса».
+            </p>
+            <figure class="hist-fig hist-fig-left"><a href="../event.html?id=IRF_20080712_1"><img class="help-figure" src="img/rr_2008_erc.webp" width="1100" height="825" alt="Двое пожилых спортсменов в беговых костюмах с картой идут по лесной тропе среди сосен." loading="lazy"></a><figcaption>Владимир Левицкий и Игорь Крюков на дистанции <a href="../event.html?id=IRF_20080712_1">чемпионата Европы 2008&nbsp;года</a> в Ленинградской области&nbsp;— третье место в классе суперветеранов (MSV).&nbsp;<a class="hist-place-pin" href="#place-irf_20080712_1" id="pl-irf_20080712_1-2004-2009" target="_self" title="Мичуринское, Ленинградская обл., Россия — на карте мест" aria-label="Мичуринское, Ленинградская обл., Россия — на карте мест">📍</a> <span class="hist-credit">Фото: Rogainer, <a href="https://commons.wikimedia.org/wiki/File:Team_at_course_on_5th_European_Rogaining_Championships_2008.jpg" rel="noopener">Wikimedia Commons</a>, CC BY-SA 4.0</span></figcaption></figure>
+            <p>
+                Главным событием этих лет стал <a href="../event.html?id=IRF_20080712_1">V&nbsp;чемпионат Европы</a><a class="hist-place-pin" href="#place-irf_20080712_1" id="pl-irf_20080712_1-2004-2009-2" target="_self" title="Мичуринское, Ленинградская обл., Россия — на карте мест" aria-label="Мичуринское, Ленинградская обл., Россия — на карте мест">📍</a> 12–13&nbsp;июля 2008&nbsp;года у Мичуринского:
+                143&nbsp;команды, 306&nbsp;спортсмена (участники жили в палаточном лагере и общежитии местного лицея). Абсолютными чемпионами
+                снова стали Сейдл и Боранек, вторыми в абсолюте&nbsp;— победительницы женского класса Анна Бурлинова и Ирина Сафронова. Организатором
+                чемпионата России 2007 и Европы 2008&nbsp;года «Список 280» называет <a id="nm6-2" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Игоря Комина</a>,
+                проводившего рогейны с 2006&nbsp;года. А через два месяца на <a href="../event.html?id=IRF_20080913_1">чемпионате мира в Эстонии</a> Евгений
+                Домбровский и Павел Шестаков стали абсолютными чемпионами мира, опередив 338&nbsp;команд. «По количеству ежегодно проводимых соревнований
+                и количеству участников Россия уже не уступает родине рогейна&nbsp;— Австралии»,&nbsp;— писала Федерация рогейна в январе 2009&nbsp;года
+                (<a href="https://rogaining.ru/rogaine/about-rogaine/shestakov" rel="noopener">rogaining.ru</a>). Осенью того же года была создана и сама федерация
+                (о ней&nbsp;— <a href="#rrf" target="_self">ниже</a>).
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="2010s">
+            <h2>2010-е: чемпионат мира в Алоли и новые дисциплины</h2>
+            <p>
+                Десятилетие началось с расширения программы. В марте 2011&nbsp;года в Ивановской области прошёл
+                <a href="../event.html?id=RRF_20110306_1">I&nbsp;чемпионат России по рогейну на лыжах</a><a class="hist-place-pin" href="#place-rrf_20110306_1" id="pl-rrf_20110306_1-2010s" target="_self" title="Иваново, Ломы — на карте мест" aria-label="Иваново, Ломы — на карте мест">📍</a> (34&nbsp;команды), в 2013-м под Полянами&nbsp;—
+                <a href="../event.html?id=SPB_20130602_1">первый чемпионат на велосипедах</a><a class="hist-place-pin" href="#place-spb_20130602_1" id="pl-spb_20130602_1-2010s" target="_self" title="Молодежное-Поляны — на карте мест" aria-label="Молодежное-Поляны — на карте мест">📍</a>, в 2015-м в Саратовской области&nbsp;—
+                <a href="../event.html?id=RRF_20150725_1">первый на байдарках</a><a class="hist-place-pin" href="#place-rrf_20150725_1" id="pl-rrf_20150725_1-2010s" target="_self" title="Подстепное, Саратовская обл. — на карте мест" aria-label="Подстепное, Саратовская обл. — на карте мест">📍</a>. В 2012&nbsp;году Федерация рогейна России вступила в Международную федерацию
+                рогейна, а на <a href="../event.html?id=IRF_20120831_1">чемпионате мира в Чехии</a> российские команды возглавили медальный зачёт:
+                три золотые, одна серебряная и четыре бронзовые медали.
+            </p>
+            <figure class="hist-fig hist-fig-right"><a href="../map-info.html?map=karchalyk_rrc_2018"><img class="help-figure" src="img/rr_2018_karchalyk.webp" width="1000" height="783" alt="Фрагмент цветной спортивной карты холмистой местности с треугольником старта и красными кружками контрольных пунктов." loading="lazy"></a><figcaption>Хакасия, урочище Карчалык, июль 2018&nbsp;года: центральная часть карты <a href="../event.html?id=RRF_20180721_1">15-го чемпионата России</a> со стартом. Автор&nbsp;— <a href="../sheet-all.html?author=ANKN_I">И.&nbsp;Аникин</a>. <a href="../map-info.html?map=karchalyk_rrc_2018">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-rrf_20180721_1" id="pl-rrf_20180721_1-2010s" target="_self" title="Хакасия, урочище Карчалык — на карте мест" aria-label="Хакасия, урочище Карчалык — на карте мест">📍</a>&nbsp;<a class="hist-place-pin" href="#place-karchalyk_rrc_2018" id="pl-karchalyk_rrc_2018-2010s" target="_self" title="Хакасия, урочище Карчалык — на карте мест" aria-label="Хакасия, урочище Карчалык — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                26–27&nbsp;июля 2013&nbsp;года в Псковской области, у Алоли, прошёл <a href="../event.html?id=SPB_20130726_1">11-й чемпионат мира</a><a class="hist-place-pin" href="#place-spb_20130726_1" id="pl-spb_20130726_1-2010s" target="_self" title="Алоль, Псковская обл., Россия — на карте мест" aria-label="Алоль, Псковская обл., Россия — на карте мест">📍</a>&nbsp;—
+                первый и пока единственный в России: 314&nbsp;команд, 664&nbsp;участника из 19&nbsp;стран. Директором чемпионата был Алексей Никитин, главным
+                секретарём&nbsp;— <a id="nm4-2" href="https://t.me/rogainomania/1553" rel="noopener">Александр Якимов</a>, контролёром Международной федерации&nbsp;—
+                Константин Володин (<a href="https://wrc2013.rogaining.ru/ru/kontakty/kontakty-organizatorov.html" rel="noopener">сайт чемпионата</a>).
+                <a href="../map-info.html?map=alol_rogaine_2013">Карту чемпионата</a><a class="hist-place-pin" href="#place-alol_rogaine_2013" id="pl-alol_rogaine_2013-2010s" target="_self" title="Алоль — на карте мест" aria-label="Алоль — на карте мест">📍</a> рисовали <a href="../sheet-all.html?author=MNKV">А.&nbsp;Минаков</a>,
+                <a id="nm21-1" href="https://o-moscow.ru/people/SimakinSM.html" rel="noopener">С.&nbsp;Симакин</a>, <a href="../sheet-all.html?author=SBLV_S">С.&nbsp;Сибилёв</a>
+                и <a href="../sheet-all.html?author=KSTLV_E">Е.&nbsp;Костылев</a>.
+                В абсолюте выиграли эстонцы Сильвер и Райн Энсаары, а россияне взяли 16&nbsp;медалей (6&nbsp;золотых, 4&nbsp;серебряных, 6&nbsp;бронзовых) и снова
+                стали первыми в медальном зачёте. В смешанном классе победили Наталья Абрамова и Андрей Шведов, в женском&nbsp;— Анна Шавлакова и Анастасия
+                Ростовцева. В том же году в России, по итогам ФРР, прошло больше 60&nbsp;рогейнов и сразу три чемпионата страны&nbsp;— на лыжах, на велосипедах
+                и бегом (<a href="https://rogaining.ru/news/rrf-news/organization-news/2013-resume" rel="noopener">итоги 2013&nbsp;года</a>).
+            </p>
+            <figure class="hist-fig hist-fig-left hist-fig-narrow"><a href="../event.html?id=SPB_20130726_1"><img class="help-figure" src="img/rr_2013_wo.webp" width="620" height="620" alt="Шесть спортсменок на пьедестале с дипломами на фоне баннера чемпионата мира по рогейну 2013 года и российского флага." loading="lazy"></a><figcaption>Награждение женских команд на <a href="../event.html?id=SPB_20130726_1">чемпионате мира 2013&nbsp;года</a>: победили Анна Шавлакова и Анастасия Ростовцева, второе место заняли Марина Галкина и Нина Михеева.&nbsp;<a class="hist-place-pin" href="#place-spb_20130726_1" id="pl-spb_20130726_1-2010s-2" target="_self" title="Алоль, Псковская обл., Россия — на карте мест" aria-label="Алоль, Псковская обл., Россия — на карте мест">📍</a> <span class="hist-credit">Фото: Rogainer, <a href="https://commons.wikimedia.org/wiki/File:11th_World_Rogaining_Championships_2013._WO_winners.jpg" rel="noopener">Wikimedia Commons</a>, CC BY-SA 4.0</span></figcaption></figure>
+            <p>
+                Чемпионаты России стали ездить по всей стране: <a href="../event.html?id=RRF_20110910_1">Кыштым</a><a class="hist-place-pin" href="#place-rrf_20110910_1" id="pl-rrf_20110910_1-2010s" target="_self" title="Кыштым, Слюдорудник — на карте мест" aria-label="Кыштым, Слюдорудник — на карте мест">📍</a> на Южном Урале (2011),
+                <a href="../event.html?id=RRF_20131005_1">Хвалынск</a><a class="hist-place-pin" href="#place-rrf_20131005_1" id="pl-rrf_20131005_1-2010s" target="_self" title="Хвалынск, Саратовская обл. — на карте мест" aria-label="Хвалынск, Саратовская обл. — на карте мест">📍</a> на Волге (2013), <a href="../event.html?id=SPB_20150919_2">Красноярск</a><a class="hist-place-pin" href="#place-spb_20150919_2" id="pl-spb_20150919_2-2010s" target="_self" title="Красноярский край — на карте мест" aria-label="Красноярский край — на карте мест">📍</a> (2015),
+                <a href="../event.html?id=RRF_20180721_1">Хакасия</a><a class="hist-place-pin" href="#place-rrf_20180721_1" id="pl-rrf_20180721_1-2010s-2" target="_self" title="Хакасия, урочище Карчалык — на карте мест" aria-label="Хакасия, урочище Карчалык — на карте мест">📍</a> (2018), <a href="../event.html?id=RRF_20190824_1">Верх-Нейвинский</a><a class="hist-place-pin" href="#place-rrf_20190824_1" id="pl-rrf_20190824_1-2010s" target="_self" title="Верх-Нейвинский, Свердловская обл. — на карте мест" aria-label="Верх-Нейвинский, Свердловская обл. — на карте мест">📍</a> в Свердловской области (2019).
+                Рекорд участия поставил <a href="../event.html?id=RRF_20170923_1">чемпионат 2017&nbsp;года</a><a class="hist-place-pin" href="#place-rrf_20170923_1" id="pl-rrf_20170923_1-2010s" target="_self" title="Выболово, Богородский р-н — на карте мест" aria-label="Выболово, Богородский р-н — на карте мест">📍</a> в Богородском районе Нижегородской области
+                (в подписи его карты в архиве&nbsp;— «Осень Поволжья 2017»)&nbsp;— 122&nbsp;команды и 267&nbsp;участников. Сменилось и поколение победителей: на смену москвичам
+                Калинину и его партнёрам пришла команда «Дети болот»&nbsp;— в 2015&nbsp;году чемпионат впервые выиграли Николай Мирошкин и Дмитрий Шемятихин,
+                позже к ним присоединился Сергей Мирошкин.
+            </p>
+            <figure class="hist-fig hist-fig-none" style="clear: both"><a href="../event.html?id=RRF_20131005_1"><img class="help-figure" src="img/rr_2013_khvalynsk.webp" width="1100" height="734" alt="Команда рогейнеров идёт по степному склону холма с редкими кустами." loading="lazy"></a><figcaption>Хвалынск, Саратовская область, 5&nbsp;октября 2013&nbsp;года: команда на дистанции <a href="../event.html?id=RRF_20131005_1">10-го чемпионата России по рогейну</a>.&nbsp;<a class="hist-place-pin" href="#place-rrf_20131005_1" id="pl-rrf_20131005_1-2010s-2" target="_self" title="Хвалынск, Саратовская обл. — на карте мест" aria-label="Хвалынск, Саратовская обл. — на карте мест">📍</a> <span class="hist-credit">Фото: Rogainer, <a href="https://commons.wikimedia.org/wiki/File:Team_at_course_on_10th_Russian_Rogaining_Championships_2013.jpg" rel="noopener">Wikimedia Commons</a>, CC BY-SA 4.0</span></figcaption></figure>
+        </section>
+
+        <section class="hist-section clearfix" id="2020s">
+            <h2>2020-е: пандемия, отстранение и свой календарь</h2>
+            <p>
+                В 2020&nbsp;году чемпионат России в Рязанской области из-за <span class="text-nowrap">COVID-19</span>&nbsp;перенесли с мая на <a href="../event.html?id=SPB_20200912_4">12–13&nbsp;сентября</a><a class="hist-place-pin" href="#place-spb_20200912_4" id="pl-spb_20200912_4-2020s" target="_self" title="Рязань, Полково — на карте мест" aria-label="Рязань, Полково — на карте мест">📍</a>
+                (в таблице ФРР осталась первоначальная дата&nbsp;— 2–3&nbsp;мая). На <a href="../event.html?id=IRF_20200822_1">чемпионат Европы в Латвии</a>
+                из России смогла приехать лишь одна команда&nbsp;— Наталья Зимина, Игорь Манжай и Олег Калинин выиграли смешанный класс.
+                <a href="../event.html?id=IRF_20210904_1">В Эстонии в 2021&nbsp;году</a> медалей у россиян не было.
+            </p>
+            <p>
+                Следующий чемпионат Европы должен был пройти 28–29&nbsp;мая 2022&nbsp;года в Ленинградской области, на базе <a href="../event.html?id=IRF_20220528_1">«Зеркальный»</a><a class="hist-place-pin" href="#place-irf_20220528_1" id="pl-irf_20220528_1-2020s" target="_self" title="Зеркальный, Ленинградская обл., Россия — на карте мест" aria-label="Зеркальный, Ленинградская обл., Россия — на карте мест">📍</a>
+                в Выборгском районе, но его отменили. В мае Федерация рогейна России сообщила о санкциях Международной федерации рогейна: до конца июня 2023&nbsp;года чемпионаты мира и Европы в России и Беларуси не проводятся, а спортсмены
+                этих стран не могут представлять свои страны и выступать с национальной символикой
+                (<a href="https://rogaining.ru/news/rrf-news/irf-news-2022" rel="noopener">новость ФРР</a>). В июле 2022-го совет IRF пошёл дальше&nbsp;— 11&nbsp;голосами
+                против 7 при пяти воздержавшихся решил не допускать спортсменов из России и Беларуси на чемпионаты мира и Европы до конца 2023&nbsp;года
+                (<a href="https://rogaining.com/latest-news/349-motion-passed-to-exclude-russian-and-belarus-competitors-from-wrc-and-erc-events-until-end-2023" rel="noopener">IRF</a>).
+                <a href="../event.html?id=IRF_20220826_1">Чемпионат мира 2022&nbsp;года</a> в Чехии, <a href="../event.html?id=IRF_20230729_1">мира 2023-го</a> в США,
+                <a href="../event.html?id=IRF_20230909_1">Европы 2023-го</a> в Финляндии и <a href="../event.html?id=IRF_20240817_1">Европы 2024-го</a> в Эстонии прошли без российских команд.
+            </p>
+            <p>
+                Взамен отменённого чемпионата Европы в те же дни на той же базе прошёл <a href="../event.html?id=SPB_20220528_2">фестиваль «<span class="text-nowrap">Зеркальный-2022</span>»</a><a class="hist-place-pin" href="#place-zerkalny_rrc_2022" id="pl-zerkalny_rrc_2022-2020s" target="_self" title="Зеркальный — на карте мест" aria-label="Зеркальный — на карте мест">📍</a>
+                с <a href="../event.html?id=SPB_20220528_3">2-м Кубком России</a><a class="hist-place-pin" href="#place-zerkalny_rrc_2022" id="pl-zerkalny_rrc_2022-2020s-2" target="_self" title="Зеркальный — на карте мест" aria-label="Зеркальный — на карте мест">📍</a> бегом на 24&nbsp;часа и <a href="../event.html?id=SPB_20220528_4">6-м чемпионатом России
+                на велосипедах</a><a class="hist-place-pin" href="#place-irf_20220528_1" id="pl-irf_20220528_1-2020s-2" target="_self" title="Зеркальный, Ленинградская обл., Россия — на карте мест" aria-label="Зеркальный, Ленинградская обл., Россия — на карте мест">📍</a> (<a href="https://rogaining.ru/news/rrf-news/rrcup2022" rel="noopener">ФРР</a>). Чемпионаты России шли своим чередом&nbsp;—
+                <a href="../event.html?id=RRF_20210508_1">Владимирская область</a><a class="hist-place-pin" href="#place-rrf_20210508_1" id="pl-rrf_20210508_1-2020s" target="_self" title="Обашево, Владимирская обл. — на карте мест" aria-label="Обашево, Владимирская обл. — на карте мест">📍</a> (2021), <a href="../event.html?id=RRF_20220730_1">Кыштым</a><a class="hist-place-pin" href="#place-rrf_20110910_1" id="pl-rrf_20110910_1-2020s" target="_self" title="Кыштым, Слюдорудник — на карте мест" aria-label="Кыштым, Слюдорудник — на карте мест">📍</a> (2022),
+                <a href="../event.html?id=RRF_20231021_1">Абрау-Мысхако под Новороссийском</a><a class="hist-place-pin" href="#place-rrf_20231021_1" id="pl-rrf_20231021_1-2020s" target="_self" title="Абрау-Мысхако, Новороссийск — на карте мест" aria-label="Абрау-Мысхако, Новороссийск — на карте мест">📍</a> (2023), <a href="../event.html?id=RRF_20240817_1">Нижегородская</a><a class="hist-place-pin" href="#place-rrf_20240817_1" id="pl-rrf_20240817_1-2020s" target="_self" title="Тимонино, Богородский р-н — на карте мест" aria-label="Тимонино, Богородский р-н — на карте мест">📍</a>
+                (2024) и <a href="../event.html?id=RRF_20250712_1">Костромская</a><a class="hist-place-pin" href="#place-rrf_20250712_1" id="pl-rrf_20250712_1-2020s" target="_self" title="Галичский р-н, Костромская обл. — на карте мест" aria-label="Галичский р-н, Костромская обл. — на карте мест">📍</a> (2025) области. В календаре O-Maps
+                2021–2026&nbsp;годы&nbsp;— самые насыщенные рогейнами за всю историю (42–57 в год).
+            </p>
+            <figure class="hist-fig hist-fig-right"><a href="../map-info.html?map=abrau_myskhako_rrc_2023"><img class="help-figure" src="img/rr_2023_abrau.webp" width="820" height="655" alt="Фрагмент цветной спортивной карты: холмы, виноградники, озеро Абрау и берег Чёрного моря с кружками контрольных пунктов." loading="lazy"></a><figcaption>Абрау-Мысхако, октябрь 2023&nbsp;года: юго-западная часть карты <a href="../event.html?id=RRF_20231021_1">XX&nbsp;чемпионата России</a> с озером Абрау и морским берегом. Авторы&nbsp;— <a href="../sheet-all.html?author=GRSHKN">А.&nbsp;Горышкин</a>, <a href="../sheet-all.html?author=GLDKVA_S">С.&nbsp;Гладкова</a> и <a href="../sheet-all.html?author=SLMNV_G">Г.&nbsp;Селюминов</a>. <a href="../map-info.html?map=abrau_myskhako_rrc_2023">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-rrf_20231021_1" id="pl-rrf_20231021_1-2020s-2" target="_self" title="Абрау-Мысхако, Новороссийск — на карте мест" aria-label="Абрау-Мысхако, Новороссийск — на карте мест">📍</a>&nbsp;<a class="hist-place-pin" href="#place-abrau_myskhako_rrc_2023" id="pl-abrau_myskhako_rrc_2023-2020s" target="_self" title="Абрау-Мысхако — на карте мест" aria-label="Абрау-Мысхако — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                В 2025&nbsp;году россиян допустили на <a href="../event.html?id=IRF_20250705_1">чемпионат мира в Испании</a> в нейтральном статусе, и немногочисленные
+                российские команды выиграли три медали: Максим Цветков и Семён Якимов&nbsp;— мужской открытый класс и абсолютный зачёт среди 351&nbsp;команды
+                (<a href="https://rogaining.ru/events/championships/wrc" rel="noopener">таблица ФРР</a>, <a href="https://rogaining.ru/rogaine/about-rogaine/wrc2025-tsvetkov" rel="noopener">рассказ
+                М.&nbsp;Цветкова</a>), Екатерина Петухова и Анна Шляпникова&nbsp;— женский открытый класс, а Борис Димитров, Нина Михеева и Вячеслав Савченко
+                стали вторыми среди смешанных команд-суперветеранов. На <a href="../event.html?id=MAJOR_20260627_1">чемпионате Европы 2026&nbsp;года</a> в Чехии из России выступали лишь семь человек как «международные»
+                участники, без медалей. Главным стартом <span class="text-nowrap">сезона-2026</span>&nbsp;для российских рогейнеров стал
+                <a href="../event.html?id=MAJOR_20260822_1">XXIII&nbsp;чемпионат России под Выборгом</a><a class="hist-place-pin" href="#place-major_20260822_1" id="pl-major_20260822_1-2020s" target="_self" title="Выборг — на карте мест" aria-label="Выборг — на карте мест">📍</a>: 84&nbsp;команды из 25&nbsp;регионов, 181&nbsp;участник.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="rrf">
+            <h2>Федерация рогейна России: правила, отделения, календарь</h2>
+            <p>
+                Общероссийская физкультурно-спортивная общественная организация «Федерация рогейна России» (ФРР) создана, по данным
+                <a href="https://ru.wikipedia.org/wiki/Рогейн_в_России" rel="noopener">Википедии</a>, на учредительной конференции 10&nbsp;сентября 2009&nbsp;года.
+                Её сайт <a href="https://rogaining.ru/" rel="noopener">rogaining.ru</a>, созданный Александром Якимовым, стал архивом российских и мировых стартов.
+                С 2012&nbsp;года ФРР&nbsp;— член <a href="https://rogaining.com/" rel="noopener">Международной федерации рогейна (IRF)</a> с двумя делегатами в её
+                совете; сейчас у федерации отделения в 48&nbsp;субъектах&nbsp;— от Мурманской области до Приморья и Севастополя
+                (<a href="https://rogaining.ru/federation/about-federation" rel="noopener">о федерации</a>). На октябрь 2026&nbsp;года президент ФРР&nbsp;— Олег Калинин,
+                вице-президенты&nbsp;— Павел Демещик и Геннадий Ягодкин, членом совета и техническим менеджером IRF числится Сергей Ященко; петербургское
+                отделение возглавляет <a id="nm5-1" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Александр Копелевич</a>, ленинградское
+                областное&nbsp;— <a id="nm8-2" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Виктор Рылов</a>
+                (<a href="https://rogaining.ru/federation/management" rel="noopener">руководство ФРР</a>).
+            </p>
+            <p>
+                Соревнования в России проводятся по <a href="https://rogaining.ru/rules/rus-rogaining-rules" rel="noopener">Российским правилам соревнований по рогейну</a>,
+                международные&nbsp;— по правилам IRF. Правила делят рогейны по контрольному времени на короткие (3–5&nbsp;часов), средние (6–11), длинные
+                (12–23) и классические (24&nbsp;часа), а по способу передвижения&nbsp;— на бег, лыжи и велосипед; в команде от двух до пяти человек, классы&nbsp;—
+                мужские, женские и смешанные команды в открытой группе, у молодёжи (до 23&nbsp;лет), ветеранов (45+) и старше. Чемпионат России бегом&nbsp;—
+                всегда 24&nbsp;часа, на лыжах и велосипедах&nbsp;— от 12 до 24. С 2021&nbsp;года разыгрывается и Кубок России: <a href="../event.html?id=SPB_20211030_6">первый</a>
+                прошёл под Новороссийском, второй&nbsp;— на «Зеркальном». Заявки на Кубки 2027–2028&nbsp;годов ФРР принимает в формате 24&nbsp;часа или не короче
+                12&nbsp;часов (<a href="https://rogaining.ru/news/rrf-news/rrc-2028" rel="noopener">новость ФРР</a>).
+            </p>
+            <p>
+                Календарь федерации объединяет старты десятков независимых организаторов. По оценке ФРР, с 2009&nbsp;года в России ежегодно проходит около
+                50&nbsp;рогейнов, из них около семи 24-часовых, а география охватывает Пермь, Екатеринбург, Челябинск, Нижний Новгород, Псков, Тольятти,
+                Омск, Иваново, Рязань, Кострому, Ижевск, Тулу, Ростов-на-Дону, Красноярск, Петербург, Краснодар и Москву
+                (<a href="https://rogaining.ru/rogaine/rogaining-history/russian-rogaining" rel="noopener">«Рогейн в России»</a>).
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="rrc">
+            <h2>Чемпионаты России: 23&nbsp;суточных старта от Перми до Новороссийска</h2>
+            <p>
+                За четверть века чемпионат России бегом прошёл 23&nbsp;раза. Больше всего&nbsp;— пять&nbsp;— приняла Ленинградская область
+                (<a href="../event.html?id=SPB_20070824_1">2007</a><a class="hist-place-pin" href="#place-spb_20070824_1" id="pl-spb_20070824_1-rrc" target="_self" title="Мельниково — на карте мест" aria-label="Мельниково — на карте мест">📍</a>, <a href="../event.html?id=SPB_20090530_2">2009</a><a class="hist-place-pin" href="#place-spb_20090530_2" id="pl-spb_20090530_2-rrc" target="_self" title="Кузнечное — на карте мест" aria-label="Кузнечное — на карте мест">📍</a>, <a href="../event.html?id=SPB_20120721_1">2012</a><a class="hist-place-pin" href="#place-spb_20120721_1" id="pl-spb_20120721_1-rrc" target="_self" title="Первомайский — на карте мест" aria-label="Первомайский — на карте мест">📍</a>,
+                <a href="../event.html?id=SPB_20160702_1">2016</a><a class="hist-place-pin" href="#place-spb_20160702_1" id="pl-spb_20160702_1-rrc" target="_self" title="Сосново — на карте мест" aria-label="Сосново — на карте мест">📍</a>, <a href="../event.html?id=MAJOR_20260822_1">2026</a><a class="hist-place-pin" href="#place-major_20260822_1" id="pl-major_20260822_1-rrc" target="_self" title="Выборг — на карте мест" aria-label="Выборг — на карте мест">📍</a>), три&nbsp;— Нижегородская, по два&nbsp;— Московская
+                и Челябинская (<a href="https://t.me/rogainomania/1654" rel="noopener">«Рогейномания»</a>). По макрорегионам Северо-Запад принял шесть
+                чемпионатов, Поволжье и центр России&nbsp;— по пять, Урал&nbsp;— четыре, восток страны (Красноярский край и Хакасия)&nbsp;— два, Юг&nbsp;— один; <a href="../event.html?id=RRF_20270807_1">XXIV&nbsp;чемпионат 2027&nbsp;года</a><a class="hist-place-pin" href="#place-rrf_20270807_1" id="pl-rrf_20270807_1-rrc" target="_self" title="Аракуль, Челябинская обл. — на карте мест" aria-label="Аракуль, Челябинская обл. — на карте мест">📍</a>
+                анонсирован на озере Аракуль в Челябинской области. Чемпионаты проводят местные команды: в 2026&nbsp;году, например, организатором был петербургский
+                <a href="../owner.html?owner=MULTSPORT">«Мультиспорт»</a>, директором&nbsp;— <a id="nm12-1" href="https://adventure-race.redfox.ru/archive/archive_2020/news/v_komande_red_fox_adventure_race_popolnenie/" rel="noopener">Илья Строганов</a>,
+                начальником дистанции&nbsp;— <a id="nm8-3" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Виктор Рылов</a>
+                (<a href="https://rogaining.ru/news/rogaine-news/rrc2026-results" rel="noopener">ФРР</a>).
+            </p>
+            <figure class="hist-fig hist-fig-none" style="clear: both">
+                <div style="position: relative; height: 360px"><canvas id="rrRrcChart" role="img" aria-label="Число команд и участников чемпионатов России по рогейну бегом по годам, 2001–2026"></canvas></div>
+                <figcaption>Чемпионаты России по рогейну бегом (24&nbsp;часа): число команд и участников. Данные&nbsp;— поле info событий
+                    со стартом <a href="../start.html?start=RRC">«Чемпионат России по рогейну»</a> в календаре O-Maps; они совпадают с
+                    <a href="https://rogaining.ru/events/championships/rrc" rel="noopener">таблицей ФРР</a>. В 2002–2004&nbsp;годах чемпионаты не проводились.</figcaption>
+            </figure>
+            <p>
+                Число команд колебалось от 33 до 122: больше ста команд собирали чемпионаты 2008 (Подмосковье), 2009 (Кузнечное), 2010 (Печорский район
+                Псковской области) и 2017&nbsp;года (Нижегородская область), меньше&nbsp;— дальние, вроде <a href="../event.html?id=SPB_20150919_2">Красноярска</a><a class="hist-place-pin" href="#place-spb_20150919_2" id="pl-spb_20150919_2-rrc" target="_self" title="Красноярский край — на карте мест" aria-label="Красноярский край — на карте мест">📍</a> (51&nbsp;команда) или <a href="../event.html?id=RRF_20180721_1">урочища Карчалык
+                в Хакасии</a><a class="hist-place-pin" href="#place-rrf_20180721_1" id="pl-rrf_20180721_1-rrc" target="_self" title="Хакасия, урочище Карчалык — на карте мест" aria-label="Хакасия, урочище Карчалык — на карте мест">📍</a> (50). Самый титулованный чемпион&nbsp;— москвич Олег Калинин: восемь побед в абсолютном зачёте в 2005–2016&nbsp;годах с разными партнёрами
+                (Сергеем Ященко, Сергеем Юткиным, Евгением Домбровским, Андреем Шведовым, Константином Соловьёвым). У следующего поколения по пять абсолютных
+                побед у Николая Мирошкина (с 2015&nbsp;года, вместе с Сергеем Мирошкиным и Дмитрием Шемятихиным) и у Дмитрия Панова (с 2018-го),
+                три&nbsp;— у Семёна Якимова (2021, 2023, 2024). Дважды абсолютный зачёт выигрывала смешанная команда: в 2011&nbsp;году&nbsp;— Андрей Шведов
+                и Наталья Абрамова, в 2017-м&nbsp;— Мирошкин, Анна Коробко и Шемятихин.
+            </p>
+            <p>
+                Отдельные чемпионаты разыгрывались и в других дисциплинах. На лыжах их было три (<a href="../event.html?id=RRF_20110306_1">2011</a><a class="hist-place-pin" href="#place-rrf_20110306_1" id="pl-rrf_20110306_1-rrc" target="_self" title="Иваново, Ломы — на карте мест" aria-label="Иваново, Ломы — на карте мест">📍</a>,
+                <a href="../event.html?id=SPB_20120309_1">2012</a><a class="hist-place-pin" href="#place-spb_20120309_1" id="pl-spb_20120309_1-rrc" target="_self" title="Лемболово — на карте мест" aria-label="Лемболово — на карте мест">📍</a>, <a href="../event.html?id=RRF_20130302_1">2013</a><a class="hist-place-pin" href="#place-rrf_20130302_1" id="pl-rrf_20130302_1-rrc" target="_self" title="ДОЛ «Энергия», Солнечногорский р-н — на карте мест" aria-label="ДОЛ «Энергия», Солнечногорский р-н — на карте мест">📍</a>; от 19 до 38&nbsp;команд), на велосипедах&nbsp;—
+                шесть (<a href="../event.html?id=SPB_20130602_1">2013</a><a class="hist-place-pin" href="#place-spb_20130602_1" id="pl-spb_20130602_1-rrc" target="_self" title="Молодежное-Поляны — на карте мест" aria-label="Молодежное-Поляны — на карте мест">📍</a>, <a href="../event.html?id=SPB_20140823_1">2014</a><a class="hist-place-pin" href="#place-spb_20140823_1" id="pl-spb_20140823_1-rrc" target="_self" title="Выборгский р-н Ленинградской области — на карте мест" aria-label="Выборгский р-н Ленинградской области — на карте мест">📍</a>, <a href="../event.html?id=SPB_20150808_1">2015</a><a class="hist-place-pin" href="#place-spb_20150808_1" id="pl-spb_20150808_1-rrc" target="_self" title="Каменногорск — на карте мест" aria-label="Каменногорск — на карте мест">📍</a>,
+                <a href="../event.html?id=RRF_20160917_1">2016</a><a class="hist-place-pin" href="#place-rrf_20160917_1" id="pl-rrf_20160917_1-rrc" target="_self" title="Пищалье, Кировская обл. — на карте мест" aria-label="Пищалье, Кировская обл. — на карте мест">📍</a>, <a href="../event.html?id=SPB_20180811_2">2018</a><a class="hist-place-pin" href="#place-irf_20080712_1" id="pl-irf_20080712_1-rrc" target="_self" title="Мичуринское, Ленинградская обл., Россия — на карте мест" aria-label="Мичуринское, Ленинградская обл., Россия — на карте мест">📍</a>, <a href="../event.html?id=SPB_20220528_4">2022</a><a class="hist-place-pin" href="#place-irf_20220528_1" id="pl-irf_20220528_1-rrc" target="_self" title="Зеркальный, Ленинградская обл., Россия — на карте мест" aria-label="Зеркальный, Ленинградская обл., Россия — на карте мест">📍</a>), пять из
+                них&nbsp;— в Ленинградской области; на байдарках&nbsp;— три (<a href="../event.html?id=RRF_20150725_1">2015</a><a class="hist-place-pin" href="#place-rrf_20150725_1" id="pl-rrf_20150725_1-rrc" target="_self" title="Подстепное, Саратовская обл. — на карте мест" aria-label="Подстепное, Саратовская обл. — на карте мест">📍</a>, <a href="../event.html?id=SPB_20190518_3">2019</a><a class="hist-place-pin" href="#place-spb_20190518_3" id="pl-spb_20190518_3-rrc" target="_self" title="оз Вуокса — на карте мест" aria-label="оз Вуокса — на карте мест">📍</a>,
+                <a href="../event.html?id=SPB_20210703_2">2021</a><a class="hist-place-pin" href="#place-spb_20210703_2" id="pl-spb_20210703_2-rrc" target="_self" title="Себеж — на карте мест" aria-label="Себеж — на карте мест">📍</a>).
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="medals">
+            <h2>На чемпионатах мира и Европы: 212&nbsp;медалей</h2>
+            <p>
+                На международные старты российские команды выезжают с 2002&nbsp;года, и уже на <a href="../event.html?id=IRF_20030816_1">домашнем чемпионате Европы 2003&nbsp;года</a><a class="hist-place-pin" href="#place-irf_20030816_1" id="pl-irf_20030816_1-medals" target="_self" title="Пермь, Россия — на карте мест" aria-label="Пермь, Россия — на карте мест">📍</a>
+                завоевали 25&nbsp;медалей. Первую медаль чемпионата мира (серебро у женщин-суперветеранов) в 2004&nbsp;году <a href="../event.html?id=IRF_20040508_1">в Аризоне</a> выиграла
+                Надежда Попова в команде с американкой&nbsp;— в таблицу ФРР эта медаль не включена, а в календаре O-Maps учтена; по таблице ФРР первые медали чемпионатов мира
+                россияне взяли в 2008&nbsp;году в Эстонии&nbsp;— сразу шесть, включая абсолютную победу Домбровского и Шестакова. Всего, по календарю O-Maps с поправкой
+                по таблице ФРР, на чемпионатах мира и Европы 2003–2025&nbsp;годов российские команды завоевали 212&nbsp;медалей во всех классах (66 из них&nbsp;— на чемпионатах мира):
+                76&nbsp;золотых, 67&nbsp;серебряных и 69&nbsp;бронзовых.
+            </p>
+            <figure class="hist-fig hist-fig-none" style="clear: both">
+                <div style="position: relative; height: 360px"><canvas id="rrMedalsChart" role="img" aria-label="Медали российских команд на чемпионатах мира и Европы по рогейну, 2003–2025"></canvas></div>
+                <figcaption>Медали российских команд на чемпионатах Европы (ЧЕ) и мира (ЧМ) по рогейну во всех классах (открытый, молодёжь, юниоры, ветераны,
+                    суперветераны, ультраветераны); медали команд с иностранцами засчитаны. Счёт&nbsp;— по полю info записей <a href="../start.html?start=ERC">чемпионатов Европы</a>
+                    и <a href="../start.html?start=WRC">мира</a> в календаре O-Maps, как в статье <a href="rogaine-world-history.html" target="_self">«Рогейн в мире»</a>; для <span class="text-nowrap">ЧЕ-2014</span>, где в календаре
+                    не хватает трёх медалей, взяты числа <a href="https://rogaining.ru/events/championships/medals" rel="noopener">таблицы ФРР</a> (3/5/3). С таблицей ФРР
+                    (по 2019&nbsp;год) расходится только <span class="text-nowrap">ЧМ-2004</span>: серебро Н.&nbsp;Поповой в паре с американкой ФРР не считает.
+                    В 2021–2024&nbsp;годах медалей не было (в 2022–2024&nbsp;годах россияне не допускались).</figcaption>
+            </figure>
+            <p>
+                Самая успешная пара в истории российского рогейна&nbsp;— Марина Галкина и Нина Михеева. По рейтингу ФРР (по 2019&nbsp;год) у каждой
+                по 13&nbsp;медалей чемпионатов мира (у Галкиной и у Михеевой по 9&nbsp;золотых) и 16 и 15&nbsp;медалей чемпионатов Европы, а в 2025&nbsp;году Михеева добавила 14-ю медаль чемпионатов мира&nbsp;— серебро среди смешанных суперветеранов; они побеждали и в открытом
+                женском классе (<a href="../event.html?id=IRF_20140816_1">чемпионат мира 2014</a>, <a href="../event.html?id=IRF_20170818_1">2017</a>), и среди ветеранов,
+                где выигрывали все чемпионаты мира с <a href="../event.html?id=IRF_20101120_1">2010</a> по <a href="../event.html?id=IRF_20190727_1">2019&nbsp;год</a>, кроме 2015-го.
+                Женский открытый класс чемпионатов мира выигрывали ещё Анастасия Галитарова и Ирина Сафронова (<a href="../event.html?id=IRF_20120831_1">2012</a>), Анна
+                Шавлакова&nbsp;— с Анастасией Ростовцевой (<a href="../event.html?id=SPB_20130726_1">2013</a><a class="hist-place-pin" href="#place-spb_20130726_1" id="pl-spb_20130726_1-medals" target="_self" title="Алоль, Псковская обл., Россия — на карте мест" aria-label="Алоль, Псковская обл., Россия — на карте мест">📍</a>) и с Натальей Абрамовой (<a href="../event.html?id=IRF_20150822_1">2015</a>),
+                Анна Бурлинова и Мария Пляшечко (<a href="../event.html?id=IRF_20190727_1">2019</a>), Екатерина Петухова и Анна Шляпникова (<a href="../event.html?id=IRF_20250705_1">2025</a>);
+                смешанный&nbsp;— Ирина Сафронова и Павел Сысоев (<a href="../event.html?id=IRF_20080913_1">2008</a>), Андрей Шведов с Анной Шавлаковой (2012) и Натальей Абрамовой
+                (2013), Константин Иванов и Наталья Зимина (2015). В абсолюте чемпионат мира выигрывали дважды&nbsp;— в 2008 и 2025&nbsp;годах.
+            </p>
+            <p>
+                Не отставали и ветераны из Петербурга. В 2005&nbsp;году бронзу у ветеранов взяли <a id="nm8-4" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Виктор Рылов</a>
+                и <a id="nm9-2" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Андрей Фершалов</a>,
+                в 2007-м у суперветеранов&nbsp;— <a id="nm10-1" href="https://o-site.spb.ru/history/Peoples/allis.html" rel="noopener">Александр Лисененков</a>
+                и <a id="nm11-1" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Евгений Емельянов</a>, которые на
+                <a href="../event.html?id=IRF_20080712_1">домашнем чемпионате Европы 2008&nbsp;года</a><a class="hist-place-pin" href="#place-irf_20080712_1" id="pl-irf_20080712_1-medals" target="_self" title="Мичуринское, Ленинградская обл., Россия — на карте мест" aria-label="Мичуринское, Ленинградская обл., Россия — на карте мест">📍</a> стали чемпионами Европы. <a id="nm5-2" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Александр Копелевич</a>
+                с партнёрами выигрывал класс суперветеранов на чемпионатах Европы <a href="../event.html?id=IRF_20150627_1">2015</a> и <a href="../event.html?id=IRF_20170422_1">2017&nbsp;годов</a>,
+                а <a id="nm19-1" href="https://o-site.spb.ru/history/Peoples/borodulin.html" rel="noopener">Юрий Бородулин</a> и <a id="nm7-1" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Денис Куприенко</a> стали бронзовыми призёрами
+                <a href="../event.html?id=IRF_20120831_1">чемпионата мира 2012&nbsp;года</a> среди ветеранов (<a href="https://rogaining.ru/news?limitstart=690" rel="noopener">интервью Д.&nbsp;Куприенко</a>).
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="spb">
+            <h2>Петербург и Ленинградская область: самый плотный календарь</h2>
+            <p>
+                Главный район петербургских рогейнов&nbsp;— озёрный Карельский перешеек, и с самого начала их проводили сразу несколько независимых организаторов.
+                Серия <a href="../start.html?start=GORNY_CROSS">«Горный кросс»</a> началась <a href="../event.html?id=SPB_20050104_1">в январе 2005&nbsp;года</a><a class="hist-place-pin" href="#place-lembolovo_2006_100x24_rogaine" id="pl-lembolovo_2006_100x24_rogaine-spb" target="_self" title="Лемболово — на карте мест" aria-label="Лемболово — на карте мест">📍</a> с лыжного ориентирования
+                в Лемболово (<a href="http://gornycross.narod.ru/" rel="noopener">сайт серии</a>), рогейном стал <a href="../event.html?id=SPB_20050724_1">третий её выпуск</a><a class="hist-place-pin" href="#place-lembolovo_orekhovo_peski_gk_2026" id="pl-lembolovo_orekhovo_peski_gk_2026-spb" target="_self" title="Орехово — на карте мест" aria-label="Орехово — на карте мест">📍</a>, и с тех пор
+                в календаре O-Maps 106&nbsp;рогейнов «Горного кросса»: в сентябре 2026&nbsp;года прошёл 116-й выпуск, на ноябрь объявлен 117-й. «Рогейн-клуб СПб»
+                (<a href="https://rogaine-spb.narod.ru/arch.html" rel="noopener">архив клуба</a>) с ноября 2005&nbsp;года проводил открытый Кубок Санкт-Петербурга,
+                <a href="../event.html?id=SPB_20070824_1">чемпионат России 2007</a><a class="hist-place-pin" href="#place-spb_20070824_1" id="pl-spb_20070824_1-spb" target="_self" title="Мельниково — на карте мест" aria-label="Мельниково — на карте мест">📍</a> и <a href="../event.html?id=IRF_20080712_1">Европы 2008&nbsp;года</a><a class="hist-place-pin" href="#place-irf_20080712_1" id="pl-irf_20080712_1-spb" target="_self" title="Мичуринское, Ленинградская обл., Россия — на карте мест" aria-label="Мичуринское, Ленинградская обл., Россия — на карте мест">📍</a>.
+                <a href="../event.html?id=SPB_20061104_2">Первый чемпионат Санкт-Петербурга</a><a class="hist-place-pin" href="#place-lembolovo_orekhovo_peski_gk_2026" id="pl-lembolovo_orekhovo_peski_gk_2026-spb-2" target="_self" title="Орехово — на карте мест" aria-label="Орехово — на карте мест">📍</a> прошёл в ноябре 2006&nbsp;года в Орехово, а первыми чемпионами города
+                по рогейну «Список 280» называет <a id="nm7-2" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Дениса Куприенко</a> и Илью Гусева.
+                Комиссию по рогейну при Федерации спортивного ориентирования Петербурга возглавил <a id="nm5-3" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Александр Копелевич</a>.
+            </p>
+            <figure class="hist-fig hist-fig-none" style="clear: both">
+                <div style="position: relative; height: 360px"><canvas id="rrEventsChart" role="img" aria-label="Рогейны в календаре O-Maps по годам и способу передвижения, 1999–2026"></canvas></div>
+                <figcaption>Рогейны в <a href="../calendar.html?startYear=ALL&amp;calendar=ROGAINE">календаре O-Maps</a> по годам и способу передвижения (по полю type события),
+                    без отменённых и без зарубежных стартов; 2026&nbsp;год&nbsp;— с объявленными на ноябрь и декабрь. Из 613&nbsp;событий 540&nbsp;— из погодовых петербургских файлов календаря (Петербург, Ленинградская область и 15&nbsp;стартов
+                    в Псковской и Новгородской областях), 44&nbsp;— из локальных московских календарных файлов (включая исторические записи 2019–2024&nbsp;годов), 26&nbsp;— из общего календаря (чемпионаты России
+                    в других регионах и под Выборгом в 2026&nbsp;году, первый пермский рогейн 1999&nbsp;года, псковский «Кубок реки Великой» 2026&nbsp;года), 3&nbsp;— из календаря
+                    чемпионатов мира и Европы (<span class="text-nowrap">ЧЕ-2003</span>, <span class="text-nowrap">ЧЕ-2008</span>, <span class="text-nowrap">ЧМ-2013</span>). Зимние рогейны с выбором «на лыжах или бегом» учтены как пешие.</figcaption>
+            </figure>
+            <p>
+                Рядом выросли десятки серий. <a href="../start.html?start=BA">BikeAdventure</a>, который проводит <a id="nm15-1" href="../owner.html?owner=BKTV">Константин Бекетов</a>,&nbsp;— «приключенческое
+                велоориентирование» с 2005&nbsp;года (весной&nbsp;— на 24&nbsp;часа, осенью&nbsp;— на 8, по <a href="https://100x24.ru/2012/docs/100x24_nat.htm" rel="noopener">интервью
+                Н.&nbsp;Горбунцовой</a>), с 2017-го к нему добавился беговой <a href="../start.html?start=TA">TrailAdventure</a>. В календаре O-Maps 43&nbsp;этапа BikeAdventure.
+                Лыжная «Сотня» <a href="../start.html?start=100x24">«100&nbsp;км за 24&nbsp;часа»</a> (<a href="https://100x24.ru/" rel="noopener">100x24.ru</a>), по подписи
+                к <a href="../map-info.html?map=lembolovo_2006_100x24_rogaine">карте 2006&nbsp;года</a><a class="hist-place-pin" href="#place-lembolovo_2006_100x24_rogaine" id="pl-lembolovo_2006_100x24_rogaine-spb-2" target="_self" title="Лемболово — на карте мест" aria-label="Лемболово — на карте мест">📍</a>, тогда впервые прошла с подсчётом очков по системе рогейна, а с 2010-го
+                у неё есть и летний велорогейн. <a href="../start.html?start=ROGAINE_110">«Рогейн 110%»</a>, «традиционный кубок соревнований по рогейну
+                бегом короткого формата», появился в Токсово <a href="../event.html?id=SPB_20080810_1">в августе 2008&nbsp;года</a>, а <a href="../start.html?start=KKM">Кубок коротких
+                маршрутов</a>, который ведёт <a id="nm16-1" href="../owner.html?owner=RYZHOV">Сергей Рыжов</a>,&nbsp;— трёхчасовые заочные рогейны, карты которых в архиве O-Maps начинаются с 2010&nbsp;года
+                (их можно посмотреть <a href="../kkm.html">на отдельной странице</a>). Мультиспортивные старты принесли свои форматы: <a href="../start.html?start=RFAR">Red Fox
+                Adventure Race</a> с 2014 по 2016&nbsp;год проводила <a href="../event.html?id=SPB_20140803_1">«мультирогейны»</a><a class="hist-place-pin" href="#place-spb_20140803_1" id="pl-spb_20140803_1-spb" target="_self" title="Мичуринское-Ягодное — на карте мест" aria-label="Мичуринское-Ягодное — на карте мест">📍</a>, а команда <a href="../owner.html?owner=MULTSPORT">«Мультиспорт»</a>
+                (<a id="nm12-2" href="https://adventure-race.redfox.ru/archive/archive_2020/news/v_komande_red_fox_adventure_race_popolnenie/" rel="noopener">Илья Строганов</a>) провела с 2014&nbsp;года 51&nbsp;рогейн из календаря O-Maps, в том числе <a href="../event.html?id=SPB_20140823_1">чемпионат России на велосипедах 2014&nbsp;года</a><a class="hist-place-pin" href="#place-spb_20140823_1" id="pl-spb_20140823_1-spb" target="_self" title="Выборгский р-н Ленинградской области — на карте мест" aria-label="Выборгский р-н Ленинградской области — на карте мест">📍</a>;
+                на её сайте был и <a href="../event.html?id=SPB_20160702_1">чемпионат России 2016&nbsp;года</a><a class="hist-place-pin" href="#place-spb_20160702_1" id="pl-spb_20160702_1-spb" target="_self" title="Сосново — на карте мест" aria-label="Сосново — на карте мест">📍</a> у Сосново
+                (<a href="https://rogaining.ru/events/championships/rrc" rel="noopener">таблица ФРР</a>).
+            </p>
+            <figure class="hist-fig hist-fig-right"><a href="../map-info.html?map=lembolovo_2006_100x24_rogaine"><img class="help-figure" src="img/rr_2006_ski.webp" width="1000" height="797" alt="Фрагмент топографической карты с озером, посёлком Стеклянный и красными кружками контрольных пунктов." loading="lazy"></a><figcaption>Лемболово и Стеклянный, 2006&nbsp;год: карта лыжной «Сотни» <a href="../start.html?start=100x24">«100&nbsp;км за 24&nbsp;часа»</a>, по подписи в архиве&nbsp;— первой с подсчётом очков по системе рогейна. <a href="../map-info.html?map=lembolovo_2006_100x24_rogaine">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-lembolovo_2006_100x24_rogaine" id="pl-lembolovo_2006_100x24_rogaine-spb-3" target="_self" title="Лемболово — на карте мест" aria-label="Лемболово — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                В 2010-х и 2020-х появились новые кубки и организаторы: <a href="../start.html?start=KKR">Кубок коротких рогейнов</a> (с <a href="../event.html?id=SPB_20180428_1">2018&nbsp;года</a>),
+                <a href="../start.html?start=HARD">HARD ROGAINE</a> команды <a href="../owner.html?owner=HARD">Hard Adventure</a> (с <a href="../event.html?id=SPB_20210221_1">2021-го</a>),
+                <a href="../start.html?start=LM">«Лужский меридиан»</a> (с <a href="../event.html?id=SPB_20220423_5">2022-го</a>), лужские рогейны
+                <a href="../owner.html?owner=SHBN">Юрия Шубина</a>, часовые <a href="../owner.html?owner=SUBBOTNIK">«Александрийские субботники»</a> в парках Петергофа.
+                Ленинградская область разыгрывает свой кубок по рогейну, с 2014&nbsp;года проходит <a href="../event.html?id=SPB_20140802_1">чемпионат Северо-Западного
+                федерального округа</a>. Из 23&nbsp;чемпионатов России бегом пять прошли в Ленинградской области, и ещё пять из шести велосипедных и один из трёх
+                водных.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="regions">
+            <h2>Москва, Поволжье, Урал, Сибирь и Юг</h2>
+            <p>
+                Московские команды выигрывали чемпионаты России с 2005&nbsp;года, а развивать рогейн в столичном регионе взялся, в частности,
+                <a id="nm4-4" href="https://t.me/rogainomania/1553" rel="noopener">Александр Якимов</a>: переехав из Перми, он начал «Московский рогейн», а затем «Компот-рогейн»
+                (<a href="https://t.me/rogainomania/1553" rel="noopener">«Рогейномания»</a>). Московская область принимала чемпионаты России
+                <a href="../event.html?id=RRF_20080510_1">2008&nbsp;года</a><a class="hist-place-pin" href="#place-rrf_20080510_1" id="pl-rrf_20080510_1-regions" target="_self" title="Сенеж, Солнечногорский р-н — на карте мест" aria-label="Сенеж, Солнечногорский р-н — на карте мест">📍</a> («Золото Сенежа», 109&nbsp;команд) и <a href="../event.html?id=RRF_20140913_1">2014&nbsp;года</a><a class="hist-place-pin" href="#place-rrf_20140913_1" id="pl-rrf_20140913_1-regions" target="_self" title="Алфёрово, Павлово-Посадский р-н — на карте мест" aria-label="Алфёрово, Павлово-Посадский р-н — на карте мест">📍</a>
+                (Алфёрово, Павлово-Посадский район), а также <a href="../event.html?id=RRF_20130302_1">лыжный чемпионат 2013&nbsp;года</a><a class="hist-place-pin" href="#place-rrf_20130302_1" id="pl-rrf_20130302_1-regions" target="_self" title="ДОЛ «Энергия», Солнечногорский р-н — на карте мест" aria-label="ДОЛ «Энергия», Солнечногорский р-н — на карте мест">📍</a>. Сегодня здесь проводятся
+                <a href="../start.html?start=KMPT_ROGAINE">Компот-кубок</a> (<a href="https://www.x-lite.run/" rel="noopener">x-lite.run</a>; рогейны бегом, на лыжах и на велосипедах),
+                серия <a href="../start.html?start=ZM">«Золотой маршрут»</a> агентства <a href="../owner.html?owner=GOLDMRSHRT">«Маршрут»</a>, <a href="../start.html?start=AERO">аэророгейны</a>
+                и короткие городские рогейны: в 2025&nbsp;году, например, агентство <a href="../owner.html?owner=CLEVER_MSK">CLEVER</a> провело серию двухчасовых
+                «Нано-Подкустов» в московских парках, начиная с <a href="../event.html?id=MSK_20250118_1">Измайлово</a><a class="hist-place-pin" href="#place-msk_20250118_1" id="pl-msk_20250118_1-regions" target="_self" title="Измайлово — на карте мест" aria-label="Измайлово — на карте мест">📍</a>. В архиве O-Maps 77&nbsp;карт рогейнов
+                Москвы и Подмосковья и 29&nbsp;карт «Компот-рогейна» (три из них&nbsp;— за пределами Московской области, в Калужской и Владимирской). В локальных файлах московского календаря O-Maps есть исторические записи с 2013&nbsp;года.
+            </p>
+            <figure class="hist-fig hist-fig-right"><a href="../map-info.html?map=noginsk_rogaine_2024"><img class="help-figure" src="img/rr_2024_noginsk.webp" width="900" height="700" alt="Фрагмент цветной карты Ногинска и окрестностей с рекой Клязьмой и сиреневыми кружками контрольных пунктов." loading="lazy"></a><figcaption>Ногинск, июль 2024&nbsp;года: карта летнего <a href="../start.html?start=KMPT_ROGAINE">Компот-рогейна</a>&nbsp;— город, промзоны, дачи и пойма Клязьмы на одном листе. <a href="../map-info.html?map=noginsk_rogaine_2024">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-noginsk_rogaine_2024" id="pl-noginsk_rogaine_2024-regions" target="_self" title="Ногинск — на карте мест" aria-label="Ногинск — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                Нижегородская область провела три чемпионата России (<a href="../event.html?id=RRF_20050903_1">2005</a><a class="hist-place-pin" href="#place-rrf_20050903_1" id="pl-rrf_20050903_1-regions" target="_self" title="Городецкий р-н, Нижегородская обл. — на карте мест" aria-label="Городецкий р-н, Нижегородская обл. — на карте мест">📍</a>, <a href="../event.html?id=RRF_20170923_1">2017</a><a class="hist-place-pin" href="#place-rrf_20170923_1" id="pl-rrf_20170923_1-regions" target="_self" title="Выболово, Богородский р-н — на карте мест" aria-label="Выболово, Богородский р-н — на карте мест">📍</a>,
+                <a href="../event.html?id=RRF_20240817_1">2024</a><a class="hist-place-pin" href="#place-rrf_20240817_1" id="pl-rrf_20240817_1-regions" target="_self" title="Тимонино, Богородский р-н — на карте мест" aria-label="Тимонино, Богородский р-н — на карте мест">📍</a>), а главный её рогейн, «Осень Поволжья» команды <a href="../owner.html?owner=NN_RORAINE">«Нижегородский рогейн»</a>,
+                в 2025&nbsp;году прошёл в 21-й раз подряд в Горбатове и собрал больше 350&nbsp;участников из десятка регионов (<a href="https://nn-rogaine.ru/" rel="noopener">nn-rogaine.ru</a>).
+                Ниже по Волге чемпионаты принимали <a href="../event.html?id=RRF_20060624_1">Самарская Лука</a><a class="hist-place-pin" href="#place-rrf_20060624_1" id="pl-rrf_20060624_1-regions" target="_self" title="Тольятти, Самарская Лука — на карте мест" aria-label="Тольятти, Самарская Лука — на карте мест">📍</a> (2006) и <a href="../event.html?id=RRF_20131005_1">Хвалынск</a><a class="hist-place-pin" href="#place-rrf_20131005_1" id="pl-rrf_20131005_1-regions" target="_self" title="Хвалынск, Саратовская обл. — на карте мест" aria-label="Хвалынск, Саратовская обл. — на карте мест">📍</a> (2013),
+                а Саратовская область&nbsp;— и <a href="../event.html?id=RRF_20150725_1">первый водный чемпионат</a><a class="hist-place-pin" href="#place-rrf_20150725_1" id="pl-rrf_20150725_1-regions" target="_self" title="Подстепное, Саратовская обл. — на карте мест" aria-label="Подстепное, Саратовская обл. — на карте мест">📍</a>. На Рязанщине с 2016&nbsp;года проходит водная приключенческая гонка
+                <a href="../start.html?start=NPW">«Ночная ПРАгулка»</a> по реке Пре, там же в 2020-м прошёл <a href="../event.html?id=SPB_20200912_4">чемпионат России</a><a class="hist-place-pin" href="#place-spb_20200912_4" id="pl-spb_20200912_4-regions" target="_self" title="Рязань, Полково — на карте мест" aria-label="Рязань, Полково — на карте мест">📍</a>.
+            </p>
+            <figure class="hist-fig hist-fig-left hist-fig-narrow"><a href="../event.html?id=RRF_20110910_1"><img class="help-figure" src="img/rr_2011_kyshtym.webp" width="960" height="720" alt="Оранжево-белая призма контрольного пункта и станция электронной отметки на дереве в смешанном лесу." loading="lazy"></a><figcaption>Кыштым, Челябинская область, сентябрь 2011&nbsp;года: контрольный пункт №&nbsp;90 <a href="../event.html?id=RRF_20110910_1">8-го чемпионата России</a>.&nbsp;<a class="hist-place-pin" href="#place-rrf_20110910_1" id="pl-rrf_20110910_1-regions" target="_self" title="Кыштым, Слюдорудник — на карте мест" aria-label="Кыштым, Слюдорудник — на карте мест">📍</a> <span class="hist-credit">Фото: Rogainer, <a href="https://commons.wikimedia.org/wiki/File:8th_Russian_Rogaining_Championships_2011._Checkpoint.jpg" rel="noopener">Wikimedia Commons</a>, CC BY-SA 4.0</span></figcaption></figure>
+            <p>
+                На Урале после Перми самым рогейновым местом стал Кыштым: «Кыштымский рогейн» в 2012&nbsp;году прошёл уже в седьмой раз
+                (<a href="https://rogaining.ru/news?limitstart=690" rel="noopener">ФРР</a>), а у посёлка Слюдорудник разыграли чемпионаты России
+                <a href="../event.html?id=RRF_20110910_1">2011</a><a class="hist-place-pin" href="#place-rrf_20110910_1" id="pl-rrf_20110910_1-regions-2" target="_self" title="Кыштым, Слюдорудник — на карте мест" aria-label="Кыштым, Слюдорудник — на карте мест">📍</a> и <a href="../event.html?id=RRF_20220730_1">2022&nbsp;годов</a><a class="hist-place-pin" href="#place-rrf_20110910_1" id="pl-rrf_20110910_1-regions-3" target="_self" title="Кыштым, Слюдорудник — на карте мест" aria-label="Кыштым, Слюдорудник — на карте мест">📍</a>; у карт обоих чемпионатов в архиве O-Maps по 11–12&nbsp;авторов. В Свердловской области чемпионат прошёл в <a href="../event.html?id=RRF_20190824_1">2019&nbsp;году</a><a class="hist-place-pin" href="#place-rrf_20190824_1" id="pl-rrf_20190824_1-regions" target="_self" title="Верх-Нейвинский, Свердловская обл. — на карте мест" aria-label="Верх-Нейвинский, Свердловская обл. — на карте мест">📍</a>.
+                В Красноярском крае рогейн начала команда «Красноярский рогейн». <a id="nm17-1" href="https://rogaining.ru/rogaine/about-rogaine/kras-rogaining" rel="noopener">Игорь Аникин</a> вспоминал, что идея возникла в разговоре
+                с Владимиром Котом. Позднее к организации присоединилась <a id="nm18-1" href="https://rogaining.ru/rogaine/about-rogaine/kras-rogaining" rel="noopener">Елена Комлева</a>. Первый «Красноярский рогейн» в 2011&nbsp;году собрал
+                30&nbsp;участников из Красноярска, Минусинска и Новосибирска. Сами организаторы склеивали карту Николаевской сопки из старых листов. Красноярск принял
+                <a href="../event.html?id=SPB_20150919_2">чемпионат России 2015&nbsp;года</a><a class="hist-place-pin" href="#place-spb_20150919_2" id="pl-spb_20150919_2-regions" target="_self" title="Красноярский край — на карте мест" aria-label="Красноярский край — на карте мест">📍</a>, а в 2018-м чемпионат прошёл <a href="../event.html?id=RRF_20180721_1">в урочище Карчалык
+                в Хакасии</a><a class="hist-place-pin" href="#place-rrf_20180721_1" id="pl-rrf_20180721_1-regions" target="_self" title="Хакасия, урочище Карчалык — на карте мест" aria-label="Хакасия, урочище Карчалык — на карте мест">📍</a> по карте И.&nbsp;Аникина. На юге первым стал <a href="../event.html?id=SPB_20211030_6">Кубок России 2021&nbsp;года</a> под Новороссийском, а в 2023-м
+                <a href="../event.html?id=RRF_20231021_1">Абрау-Мысхако</a><a class="hist-place-pin" href="#place-rrf_20231021_1" id="pl-rrf_20231021_1-regions" target="_self" title="Абрау-Мысхако, Новороссийск — на карте мест" aria-label="Абрау-Мысхако, Новороссийск — на карте мест">📍</a> принял юбилейный XX&nbsp;чемпионат России.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="kinds">
+            <h2>На лыжах, велосипедах, байдарках, в городе и по фотографиям</h2>
+            <p>
+                Лыжный рогейн в России почти ровесник пешего&nbsp;— <a id="nm2-6" href="https://rufso.ru/wp-content/uploads/2017/07/Shestakov.pdf" rel="noopener">Шестаков</a>
+                проводил «зимние рогейны» с февраля 2001&nbsp;года, а под Петербургом лыжную «Сотню» впервые провели с подсчётом очков по системе рогейна в 2006&nbsp;году.
+                Тогда же, по воспоминаниям Н.&nbsp;Горбунцовой, в Токсово прошёл лыжный рогейн М.&nbsp;Антипова. Чемпионаты России на лыжах прошли трижды&nbsp;—
+                <a href="../event.html?id=RRF_20110306_1">в Иваново</a><a class="hist-place-pin" href="#place-rrf_20110306_1" id="pl-rrf_20110306_1-kinds" target="_self" title="Иваново, Ломы — на карте мест" aria-label="Иваново, Ломы — на карте мест">📍</a>, <a href="../event.html?id=SPB_20120309_1">в Лемболово</a><a class="hist-place-pin" href="#place-spb_20120309_1" id="pl-spb_20120309_1-kinds" target="_self" title="Лемболово — на карте мест" aria-label="Лемболово — на карте мест">📍</a> (авторы карты&nbsp;—
+                <a id="nm14-1" href="../sheet-all.html?author=APTNKV">С.&nbsp;Апатенков</a>, <a id="nm9-3" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">А.&nbsp;Фершалов</a>,
+                <a id="nm15-2" href="../owner.html?owner=BKTV">К.&nbsp;Бекетов</a> и <a id="nm20-1" href="https://o-site.spb.ru/history/Peoples/vd.html" rel="noopener">В.&nbsp;Добрецов</a>)
+                и <a href="../event.html?id=RRF_20130302_1">в Подмосковье</a><a class="hist-place-pin" href="#place-rrf_20130302_1" id="pl-rrf_20130302_1-kinds" target="_self" title="ДОЛ «Энергия», Солнечногорский р-н — на карте мест" aria-label="ДОЛ «Энергия», Солнечногорский р-н — на карте мест">📍</a>.
+                Дальше лыжные рогейны остались региональными стартами&nbsp;— в календаре O-Maps их до трёх в год. Велорогейн, напротив, прижился: под Петербургом он идёт с первого BikeAdventure 2005&nbsp;года, «Сотня» проводит его летом
+                с 2010-го, а чемпионаты России на велосипедах с 2013&nbsp;года проводились шесть раз.
+            </p>
+            <figure class="hist-fig hist-fig-left"><a href="../map-info.html?map=vuoksa_rogaine_2019"><img class="help-figure" src="img/rr_2019_vuoksa.webp" width="820" height="720" alt="Фрагмент топографической карты озера Вуокса со множеством островов и кружками контрольных пунктов на берегах." loading="lazy"></a><figcaption>Вуокса, май 2019&nbsp;года: карта <a href="../event.html?id=SPB_20190518_3">чемпионата России по рогейну на байдарках</a>, формат 16&nbsp;часов. <a href="../map-info.html?map=vuoksa_rogaine_2019">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-spb_20190518_3" id="pl-spb_20190518_3-kinds" target="_self" title="оз Вуокса — на карте мест" aria-label="оз Вуокса — на карте мест">📍</a>&nbsp;<a class="hist-place-pin" href="#place-vuoksa_rogaine_2019" id="pl-vuoksa_rogaine_2019-kinds" target="_self" title="Вуокса — на карте мест" aria-label="Вуокса — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+            <p>
+                Водные рогейны&nbsp;— с КП на берегах и островах, которые команды объезжают на байдарках,&nbsp;— проводились под Саратовом, на озёрах Карельского
+                перешейка, на Псковщине, а в Нижегородской области водный рогейн стал традиционным (<a href="https://nn-rogaine.ru/" rel="noopener">nn-rogaine.ru</a>). Первый чемпионат России на байдарках в 2015&nbsp;году <a href="../event.html?id=RRF_20150725_1">под Саратовом</a><a class="hist-place-pin" href="#place-rrf_20150725_1" id="pl-rrf_20150725_1-kinds" target="_self" title="Подстепное, Саратовская обл. — на карте мест" aria-label="Подстепное, Саратовская обл. — на карте мест">📍</a> выиграли
+                Андрей Темяков и Павел Вереникин из Ростовской области, второй, <a href="../event.html?id=SPB_20190518_3">на Вуоксе</a><a class="hist-place-pin" href="#place-spb_20190518_3" id="pl-spb_20190518_3-kinds-2" target="_self" title="оз Вуокса — на карте мест" aria-label="оз Вуокса — на карте мест">📍</a> в 2019-м,&nbsp;— петербуржцы Юрий
+                Бородулин и Александр Эдуардов (34&nbsp;команды), третий, <a href="../event.html?id=SPB_20210703_2">у Себежа</a><a class="hist-place-pin" href="#place-spb_20210703_2" id="pl-spb_20210703_2-kinds" target="_self" title="Себеж — на карте мест" aria-label="Себеж — на карте мест">📍</a> в 2021&nbsp;году, собрал всего семь экипажей.
+                Под Петербургом весенний водный рогейн на байдарках проводит <a id="nm12-3" href="https://adventure-race.redfox.ru/archive/archive_2020/news/v_komande_red_fox_adventure_race_popolnenie/" rel="noopener">Илья Строганов</a>
+                (команда «Мультиспорт»).
+            </p>
+            <p>
+                Рогейн пришёл и в город. Уже в 2011&nbsp;году в календаре O-Maps есть петербургский <a href="../event.html?id=SPB_20110521_2">«Бегущий город»</a>, в 2020-х
+                короткие рогейны проводят в парках Петергофа, Москвы и Петербурга, а Кубок коротких маршрутов с осени 2024&nbsp;года ставит заочные фото-рогейны: маршруты
+                по паркам и кварталам Петербурга, где на каждой отмеченной на карте точке нужно сопоставить местность с фотографией и записать ответ; проходить дистанцию
+                можно в любое удобное время, пешком, бегом или группой-экскурсией (<a href="../start.html?start=FOTO_ROGAINE">описание серии</a>). Ночные старты&nbsp;— например,
+                <a href="../event.html?id=SPB_20221029_2">HARD ROGAINE Night</a><a class="hist-place-pin" href="#place-lembolovo_hard_rogaine_2023" id="pl-lembolovo_hard_rogaine_2023-kinds" target="_self" title="Лемболово — на карте мест" aria-label="Лемболово — на карте мест">📍</a> в Лемболово и <a href="../event.html?id=SPB_20251025_1">ночной рогейн в Сосновом Бору</a><a class="hist-place-pin" href="#place-sosnovij_bor_2021" id="pl-sosnovij_bor_2021-kinds" target="_self" title="Сосновый бор — на карте мест" aria-label="Сосновый бор — на карте мест">📍</a>&nbsp;—
+                добавляют к ориентированию фонарик.
+            </p>
+            <figure class="hist-fig hist-fig-none" style="clear: both"><a href="../map-info.html?map=vosstania_KKM_2025_12"><img class="help-figure" src="img/rr_2025_foto.webp" width="892" height="700" alt="Фрагмент городской карты центра Петербурга с Таврическим садом и розовыми кружками контрольных точек." loading="lazy"></a><figcaption>Петербург, декабрь 2025&nbsp;года: карта фото-рогейна <a href="../start.html?start=KKM">Кубка коротких маршрутов</a> в районе площади Восстания и Таврического сада. <a href="../map-info.html?map=vosstania_KKM_2025_12">Страница с оригиналом карты ↗</a>&nbsp;<a class="hist-place-pin" href="#place-vosstania_kkm_2025_12" id="pl-vosstania_kkm_2025_12-kinds" target="_self" title="пл Восстания — на карте мест" aria-label="пл Восстания — на карте мест">📍</a> <span class="hist-credit">Архив карт O-Maps</span></figcaption></figure>
+        </section>
+
+        <section class="hist-section clearfix" id="maps">
+            <h2>Карты рогейнов в архиве O-Maps</h2>
+            <p>
+                Рогейну нужна большая карта: дистанция суточного старта&nbsp;— это десятки и сотни квадратных километров, поэтому в Перми начинали с топографических
+                листов 1:50&nbsp;000, а сейчас чаще всего склеивают и дополняют спортивные карты нескольких районов. В архиве O-Maps 406&nbsp;карт рогейнов. Из них 214&nbsp;—
+                Петербурга и Ленинградской области, 77&nbsp;— Москвы и Подмосковья, 113&nbsp;— других регионов, от Мурманской области до Дагестана и Приморья. Самая ранняя&nbsp;—
+                карта <a href="../map-info.html?map=leskolovo_mb_2000">«Марш-броска» 2000&nbsp;года у Лесколово</a><a class="hist-place-pin" href="#place-leskolovo_mb_2000" id="pl-leskolovo_mb_2000-maps" target="_self" title="Лесколово — на карте мест" aria-label="Лесколово — на карте мест">📍</a>, самые новые&nbsp;— городские фото-рогейны 2026&nbsp;года.
+                Карты серий стартов можно найти на отдельных страницах: <a href="../start.html?start=RRC">чемпионаты России</a>, <a href="../start.html?start=MB">«Марш-Бросок»</a>, <a href="../start.html?start=BA">BikeAdventure</a>, <a href="../start.html?start=KKM">Кубок коротких маршрутов</a>,
+                <a href="../start.html?start=KMPT_ROGAINE">Компот-рогейн</a>.
+            </p>
+            <figure class="hist-fig hist-fig-none" style="clear: both">
+                <div style="position: relative; height: 360px"><canvas id="rrMapsChart" role="img" aria-label="Карты рогейнов в архиве O-Maps по году карты и региону, 2000–2026"></canvas></div>
+                <figcaption>Карты рогейнов в <a href="../all.html">архиве O-Maps</a> (тип «рогейн») по году карты и региону. Петербург и Ленинградская область&nbsp;— карты с полем region SPB
+                    и карты петербургских файлов архива (рогейны, старты, серии) без поля region, кроме карт Карелии (Сортавала, Лахденпохья, Питкяранта, Суоярви, Кажма, Хийтола)
+                    и Чудово (Новгородская область); Москва и Подмосковье&nbsp;— раздел <a href="../moscow.html">карт Москвы</a>, кроме Покрова и Финеево (Владимирская область)
+                    и Трубино и Любиц (Калужская); остальное&nbsp;— другие регионы.</figcaption>
+            </figure>
+            <p>
+                Больше всего карт рогейнов в архиве&nbsp;— за авторством <a id="nm8-5" href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Виктора Рылова</a>&nbsp;—
+                <a href="../sheet-all.html?author=RYLOV_V">15</a>, в том числе карты чемпионатов России
+                <a href="../map-info.html?map=pervomajskoe_rrc_2012">2012</a><a class="hist-place-pin" href="#place-pervomajskoe_rrc_2012" id="pl-pervomajskoe_rrc_2012-maps" target="_self" title="Первомайское — на карте мест" aria-label="Первомайское — на карте мест">📍</a>, <a href="../map-info.html?map=zaporozhskoe_2016">2016</a><a class="hist-place-pin" href="#place-zaporozhskoe_2016" id="pl-zaporozhskoe_2016-maps" target="_self" title="Запорожское — на карте мест" aria-label="Запорожское — на карте мест">📍</a> и <a href="../map-info.html?map=vyborg_rrc_2026">2026&nbsp;годов</a><a class="hist-place-pin" href="#place-vyborg_rrc_2026" id="pl-vyborg_rrc_2026-maps" target="_self" title="Выборг, Кравцово — на карте мест" aria-label="Выборг, Кравцово — на карте мест">📍</a>;
+                «Список 280» называет его известным в России и Финляндии составителем спортивных карт. По 7–10&nbsp;карт у рязанских авторов «Ночной ПРАгулки»
+                (<a href="../sheet-all.html?author=GUSEV_B">Б.&nbsp;Гусев</a>, <a href="../sheet-all.html?author=VNKRV_V">В.&nbsp;Винокуров</a>, <a href="../sheet-all.html?author=KRTNKO">В.&nbsp;Кратенко</a>)
+                и у <a id="nm14-2" href="../sheet-all.html?author=APTNKV">Сергея Апатенкова</a>, рисовавшего карты «Сотни»; по шесть&nbsp;— у <a id="nm13-1" href="https://ar-info.ru/articles/?id_article_full=176" rel="noopener">Виталия Чегаровского</a>,
+                автора карт Red Fox Adventure Race, и у московских авторов <a href="../sheet-all.html?author=TTYNN_V">В.&nbsp;Тутынина</a> и <a href="../sheet-all.html?author=JAKMV_S">С.&nbsp;Якимова</a>.
+                Карту <a href="../map-info.html?map=karchalyk_rrc_2018">Карчалыка</a><a class="hist-place-pin" href="#place-karchalyk_rrc_2018" id="pl-karchalyk_rrc_2018-maps" target="_self" title="Хакасия, урочище Карчалык — на карте мест" aria-label="Хакасия, урочище Карчалык — на карте мест">📍</a> для чемпионата 2018&nbsp;года сделал <a href="../sheet-all.html?author=ANKN_I">И.&nbsp;Аникин</a>,
+                карты нижегородских чемпионатов&nbsp;— <a href="../sheet-all.html?author=BRV_D">Д.&nbsp;Бареев</a> с соавторами. Число карт растёт вместе с календарём:
+                до 2010&nbsp;года в архиве меньше десяти карт рогейнов в год, в 2010-х&nbsp;— 9–15, в 2024-м&nbsp;— 57.
+            </p>
+        </section>
+
+        <section class="hist-section clearfix" id="afterword">
+            <h2>Вместо заключения</h2>
+            <p>
+                За четверть века рогейн в России прошёл путь от двенадцати команд на лыжной базе «Динамо» до вида спорта со своей федерацией, правилами, ежегодными
+                чемпионатами в четырёх дисциплинах и сотнями стартов в год. Его по-прежнему держат энтузиасты: чемпионаты и кубки проводят клубы и небольшие
+                команды организаторов, карты рисуют сами рогейнеры, а историю бережно собирают на rogaining.ru и в «Рогейномании», где в 2026&nbsp;году нашлась
+                даже потерянная карта первого чемпионата России.
+            </p>
+            <p>
+                Международная изоляция 2022–2024&nbsp;годов не остановила внутренний календарь. В 2026&nbsp;году чемпионат России собрал команды из 25&nbsp;регионов.
+                Кубки России разыгрываются наряду с чемпионатами, а на 2027&nbsp;год анонсирован <a href="../event.html?id=RRF_20270807_1">чемпионат в Аракуле</a><a class="hist-place-pin" href="#place-rrf_20270807_1" id="pl-rrf_20270807_1-afterword" target="_self" title="Аракуль, Челябинская обл. — на карте мест" aria-label="Аракуль, Челябинская обл. — на карте мест">📍</a>. Возвращение
+                россиян в нейтральном статусе на чемпионат мира 2025&nbsp;года сразу принесло абсолютную победу, но чемпионаты мира и Европы в Россию пока не возвращаются.
+                Самое заметное движение сейчас&nbsp;— в коротких форматах: трёхчасовые, ночные, городские и фото-рогейны приводят в вид спорта тех, кто ещё
+                не готов к суткам в лесу, и, судя по календарю, именно их в последние годы становится больше всего.
+            </p>
+            <p>
+                Календарь и архив O-Maps продолжают пополняться. Если у вас есть карты, протоколы или фотографии ранних рогейнов&nbsp;— особенно из Перми, Нижнего
+                Новгорода, Тольятти и Москвы, которые пока представлены скромнее петербургских,&nbsp;— они пригодятся.
+            </p>
+        </section>
+
+        <p class="hist-more">
+            Статья составлена в октябре 2026&nbsp;года; актуализирована 14 ноября 2026&nbsp;года. Это компиляция материалов O-Maps и других источников, перечисленных в конце страницы, при её подготовке
+            использовался ИИ. Если вы заметили неточность или можете дополнить рассказ, <a href="../help/contacts.html">напишите нам</a>.
+        </p>
+        <section class="hist-section clearfix" id="sources">
+            <h2>Источники</h2>
+            <small>Федерация рогейна России (<a href="https://rogaining.ru/" rel="noopener">rogaining.ru</a>):
+                <a href="https://rogaining.ru/rogaine/rogaining-history/russian-rogaining" rel="noopener">«Рогейн в России»</a>,
+                <a href="https://rogaining.ru/rogaine/about-rogaine/shestakov" rel="noopener">«Герман Николаевич Шестаков»</a> (2009),
+                С.&nbsp;Волкова, <a href="https://rogaining.ru/rogaine/about-rogaine/german-shestakov" rel="noopener">«Герман Николаевич Шестаков»</a>,
+                Н.&nbsp;Глухов, В.&nbsp;Тарасов, <a href="https://rogaining.ru/rogaine/about-rogaine/1erc-gluhov" rel="noopener">заметки о чемпионате Европы 2003&nbsp;года</a> («Азимут», 2003, №&nbsp;3),
+                <a href="https://rogaining.ru/rogaine/about-rogaine/kras-rogaining" rel="noopener">интервью с организаторами Красноярского рогейна</a>,
+                <a href="https://rogaining.ru/federation/about-federation" rel="noopener">о федерации</a>,
+                <a href="https://rogaining.ru/federation/management" rel="noopener">руководство</a>,
+                <a href="https://rogaining.ru/rules/rus-rogaining-rules" rel="noopener">Российские правила соревнований по рогейну</a>,
+                таблицы <a href="https://rogaining.ru/events/championships/rrc" rel="noopener">чемпионатов России</a>,
+                <a href="https://rogaining.ru/events/championships/erc" rel="noopener">Европы</a>, <a href="https://rogaining.ru/events/championships/wrc" rel="noopener">мира</a>
+                и <a href="https://rogaining.ru/events/championships/medals" rel="noopener">медалей России</a>,
+                новости (<a href="https://rogaining.ru/news/rrf-news/organization-news/2013-resume" rel="noopener">итоги 2013&nbsp;года</a>,
+                <a href="https://rogaining.ru/news/rrf-news/irf-news-2022" rel="noopener">санкции IRF 2022&nbsp;года</a>,
+                <a href="https://rogaining.ru/news/rrf-news/rrcup2022" rel="noopener">«<span class="text-nowrap">Зеркальный-2022</span>»</a>,
+                <a href="https://rogaining.ru/news/rogaine-news/rrc2026-results" rel="noopener">чемпионат России 2026&nbsp;года</a>,
+                <a href="https://rogaining.ru/news/rrf-news/rrc-2028" rel="noopener">заявки на 2027–2028&nbsp;годы</a>, <a href="https://rogaining.ru/news" rel="noopener">чемпионат мира 2025&nbsp;года</a>,
+                <a href="https://rogaining.ru/news?limitstart=690" rel="noopener">новости сентября 2012&nbsp;года</a>);
+                <a href="https://wrc2013.rogaining.ru/ru/" rel="noopener">сайт чемпионата мира 2013&nbsp;года</a>;
+                Международная федерация рогейна, <a href="https://rogaining.com/latest-news/349-motion-passed-to-exclude-russian-and-belarus-competitors-from-wrc-and-erc-events-until-end-2023" rel="noopener">решение 2022&nbsp;года</a>;
+                Н.&nbsp;Глухов, <a href="https://rufso.ru/wp-content/uploads/2017/07/Shestakov.pdf" rel="noopener">«Шестаков Герман Николаевич»</a> (ФСОР);
+                Н.&nbsp;В.&nbsp;Благово, <a href="../books/blagovo_first_azimuths_2026_omaps.pdf">«Первые азимуты на берегах Невы»</a> (СПб., 2017; редакция O-Maps 2026&nbsp;года);
+                Telegram-канал <a href="https://t.me/rogainomania" rel="noopener">«Рогейномания»</a> (публикации <a href="https://t.me/rogainomania/1550" rel="noopener">1550</a>,
+                <a href="https://t.me/rogainomania/1551" rel="noopener">1551</a>, <a href="https://t.me/rogainomania/1553" rel="noopener">1553</a>,
+                <a href="https://t.me/rogainomania/1556" rel="noopener">1556</a>, <a href="https://t.me/rogainomania/1654" rel="noopener">1654</a>, август 2026&nbsp;года);
+                Википедия: <a href="https://ru.wikipedia.org/wiki/Рогейн_в_России" rel="noopener">«Рогейн в России»</a>, <a href="https://ru.wikipedia.org/wiki/Рогейн" rel="noopener">«Рогейн»</a>;
+                O-Site: <a href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">«Список 280»</a>;
+                сайты организаторов: <a href="http://gornycross.narod.ru/" rel="noopener">«Горный кросс»</a>, <a href="https://rogaine-spb.narod.ru/arch.html" rel="noopener">«Рогейн-клуб СПб»</a>
+                (<a href="https://rogaine-spb.narod.ru/race0807/info.html" rel="noopener">чемпионат России 2007&nbsp;года</a>), <a href="https://100x24.ru/" rel="noopener">«100х24»</a>
+                (<a href="https://100x24.ru/2012/docs/100x24_nat.htm" rel="noopener">интервью Н.&nbsp;Горбунцовой</a>, 2012), <a href="https://nn-rogaine.ru/" rel="noopener">«Нижегородский рогейн»</a>,
+                <a href="https://www.x-lite.run/" rel="noopener">Компот-кубок</a>, <a href="https://mosplay.ru/" rel="noopener">«Маршрут»</a>,
+                <a href="https://adventure-race.redfox.ru/archive/archive_2020/news/v_komande_red_fox_adventure_race_popolnenie/" rel="noopener">Red Fox Adventure Race</a>;
+                фотографии&nbsp;— <a href="https://commons.wikimedia.org/" rel="noopener">Wikimedia Commons</a>;
+                даты, места, результаты и карты&nbsp;— <a href="../calendar.html?startYear=ALL&amp;calendar=ROGAINE">календарь</a> и <a href="../all.html">архив карт O-Maps</a>
+                (числа о картах и событиях O-Maps в тексте и на диаграммах&nbsp;— по состоянию на 14 ноября 2026&nbsp;года, архив и календарь продолжают пополняться);
+                статьи O-Maps <a href="russia-history.html" target="_self">«Ориентирование в России и СССР»</a>, <a href="spb-history.html" target="_self">«Ориентирование в Ленинграде и Петербурге»</a>
+                и <a href="rogaine-world-history.html" target="_self">«Рогейн в мире»</a>.
+            </small>
+        </section>
+        <section class="hist-section clearfix" id="names">
+            <details class="hist-names" id="names-details">
+                <summary><h2>Указатель имён</h2></summary>
+                <p class="hist-names-note">Люди, упомянутые в статье со ссылкой на страницу о них. Имя ведёт на основную страницу о человеке (отчество, если известно,&nbsp;— во всплывающей подсказке), за ним&nbsp;— другие источники,
+                    цифры в конце&nbsp;— места упоминаний в тексте.</p>
+                <ul class="hist-names-list">
+                    <li><a href="https://rogaining.ru/rogaine/about-rogaine/kras-rogaining" rel="noopener">Аникин Игорь</a><span class="hist-names-more"> · <a href="https://rogaining.ru/federation/management" rel="noopener">руководство ФРР</a></span> <span class="hist-names-refs"><a href="#nm17-1" target="_self" title="Москва, Поволжье, Урал, Сибирь и Юг">1</a></span></li>
+                    <li><a href="../sheet-all.html?author=APTNKV">Апатенков Сергей</a> <span class="hist-names-refs"><a href="#nm14-1" target="_self" title="На лыжах, велосипедах, байдарках, в городе и по фотографиям">1</a> <a href="#nm14-2" target="_self" title="Карты рогейнов в архиве O-Maps">2</a></span></li>
+                    <li><a href="../owner.html?owner=BKTV">Бекетов Константин</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=BKTV">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm15-1" target="_self" title="Петербург и Ленинградская область: самый плотный календарь">1</a> <a href="#nm15-2" target="_self" title="На лыжах, велосипедах, байдарках, в городе и по фотографиям">2</a></span></li>
+                    <li><a href="https://o-site.spb.ru/history/Peoples/blagovo1.html" rel="noopener" title="Благово Никита Владимирович">Благово Никита</a><span class="hist-names-more"> · <a href="https://o-site.spb.ru/history/Peoples/blagovo2.html" rel="noopener">O-Site, «Патриарх питерского ориентирования»</a></span> <span class="hist-names-refs"><a href="#nm3-1" target="_self" title="Командная игра на сутки">1</a> <a href="#nm3-2" target="_self" title="До 1998: «закрытый маршрут», лыжни здоровья и буклет из США">2</a></span></li>
+                    <li><a href="https://o-site.spb.ru/history/Peoples/borodulin.html" rel="noopener">Бородулин Юрий</a><span class="hist-names-more"> · <a href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">«Список 280»</a></span> <span class="hist-names-refs"><a href="#nm19-1" target="_self" title="На чемпионатах мира и Европы: 212 медалей">1</a></span></li>
+                    <li><a href="https://o-site.spb.ru/history/Peoples/vd.html" rel="noopener">Добрецов Виктор</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=DBRTSV_V">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm20-1" target="_self" title="На лыжах, велосипедах, байдарках, в городе и по фотографиям">1</a></span></li>
+                    <li><a href="https://o-site.spb.ru/history/Peoples/dobkovic.html" rel="noopener" title="Добкович Владимир Владиславович">Добкович Владимир</a> <span class="hist-names-refs"><a href="#nm1-1" target="_self" title="Командная игра на сутки">1</a> <a href="#nm1-2" target="_self" title="До 1998: «закрытый маршрут», лыжни здоровья и буклет из США (подпись к иллюстрации)">2</a> <a href="#nm1-3" target="_self" title="До 1998: «закрытый маршрут», лыжни здоровья и буклет из США">3</a></span></li>
+                    <li><a href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Емельянов Евгений</a> <span class="hist-names-refs"><a href="#nm11-1" target="_self" title="На чемпионатах мира и Европы: 212 медалей">1</a></span></li>
+                    <li><a href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Комин Игорь</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=KMN_I">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm6-1" target="_self" title="2004–2009: рогейн расходится по стране (подпись к иллюстрации)">1</a> <a href="#nm6-2" target="_self" title="2004–2009: рогейн расходится по стране">2</a></span></li>
+                    <li><a href="https://rogaining.ru/rogaine/about-rogaine/kras-rogaining" rel="noopener">Комлева Елена</a> <span class="hist-names-refs"><a href="#nm18-1" target="_self" title="Москва, Поволжье, Урал, Сибирь и Юг">1</a></span></li>
+                    <li><a href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener" title="Копелевич Александр Соломонович">Копелевич Александр</a><span class="hist-names-more"> · <a href="https://rogaining.ru/federation/management" rel="noopener">руководство ФРР</a></span> <span class="hist-names-refs"><a href="#nm5-1" target="_self" title="Федерация рогейна России: правила, отделения, календарь">1</a> <a href="#nm5-2" target="_self" title="На чемпионатах мира и Европы: 212 медалей">2</a> <a href="#nm5-3" target="_self" title="Петербург и Ленинградская область: самый плотный календарь">3</a></span></li>
+                    <li><a href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Куприенко Денис</a><span class="hist-names-more"> · <a href="https://rogaining.ru/news?limitstart=690" rel="noopener">интервью 2012&nbsp;года</a></span> <span class="hist-names-refs"><a href="#nm7-1" target="_self" title="На чемпионатах мира и Европы: 212 медалей">1</a> <a href="#nm7-2" target="_self" title="Петербург и Ленинградская область: самый плотный календарь">2</a></span></li>
+                    <li><a href="https://o-site.spb.ru/history/Peoples/allis.html" rel="noopener">Лисененков Александр</a><span class="hist-names-more"> · <a href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">«Список 280»</a></span> <span class="hist-names-refs"><a href="#nm10-1" target="_self" title="На чемпионатах мира и Европы: 212 медалей">1</a></span></li>
+                    <li><a href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener" title="Рылов Виктор Александрович">Рылов Виктор</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=RYLOV_V">карты на O-Maps</a> · <a href="https://rogaining.ru/federation/management" rel="noopener">руководство ФРР</a></span> <span class="hist-names-refs"><a href="#nm8-1" target="_self" title="2004–2009: рогейн расходится по стране">1</a> <a href="#nm8-2" target="_self" title="Федерация рогейна России: правила, отделения, календарь">2</a> <a href="#nm8-3" target="_self" title="Чемпионаты России: 23 суточных старта от Перми до Новороссийска">3</a> <a href="#nm8-4" target="_self" title="На чемпионатах мира и Европы: 212 медалей">4</a> <a href="#nm8-5" target="_self" title="Карты рогейнов в архиве O-Maps">5</a></span></li>
+                    <li><a href="../owner.html?owner=RYZHOV">Рыжов Сергей</a> <span class="hist-names-refs"><a href="#nm16-1" target="_self" title="Петербург и Ленинградская область: самый плотный календарь">1</a></span></li>
+                    <li><a href="https://o-moscow.ru/people/SimakinSM.html" rel="noopener" title="Симакин Сергей Михайлович">Симакин Сергей</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=SMKN_S">карты на O-Maps</a> · <a href="https://rogaining.ru/federation/management" rel="noopener">руководство ФРР</a></span> <span class="hist-names-refs"><a href="#nm21-1" target="_self" title="2010-е: чемпионат мира в Алоли и новые дисциплины">1</a></span></li>
+                    <li><a href="https://adventure-race.redfox.ru/archive/archive_2020/news/v_komande_red_fox_adventure_race_popolnenie/" rel="noopener" title="Строганов Илья Леонидович">Строганов Илья</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=STRGNV">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm12-1" target="_self" title="Чемпионаты России: 23 суточных старта от Перми до Новороссийска">1</a> <a href="#nm12-2" target="_self" title="Петербург и Ленинградская область: самый плотный календарь">2</a> <a href="#nm12-3" target="_self" title="На лыжах, велосипедах, байдарках, в городе и по фотографиям">3</a></span></li>
+                    <li><a href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">Фершалов Андрей</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=FRSHLV">карты на O-Maps</a></span> <span class="hist-names-refs"><a href="#nm9-1" target="_self" title="2004–2009: рогейн расходится по стране">1</a> <a href="#nm9-2" target="_self" title="На чемпионатах мира и Европы: 212 медалей">2</a> <a href="#nm9-3" target="_self" title="На лыжах, велосипедах, байдарках, в городе и по фотографиям">3</a></span></li>
+                    <li><a href="https://ar-info.ru/articles/?id_article_full=176" rel="noopener" title="Чегаровский Виталий Львович">Чегаровский Виталий</a><span class="hist-names-more"> · <a href="../sheet-all.html?author=CHGRVSKY_V">карты на O-Maps</a> · <a href="https://o-site.spb.ru/history/Peoples/280.html" rel="noopener">«Список 280»</a></span> <span class="hist-names-refs"><a href="#nm13-1" target="_self" title="Карты рогейнов в архиве O-Maps">1</a></span></li>
+                    <li><a href="https://rufso.ru/wp-content/uploads/2017/07/Shestakov.pdf" rel="noopener" title="Шестаков Герман Николаевич">Шестаков Герман</a><span class="hist-names-more"> · <a href="https://rogaining.ru/rogaine/about-rogaine/shestakov" rel="noopener">ФРР, биография</a> · <a href="https://rogaining.ru/rogaine/about-rogaine/german-shestakov" rel="noopener">С.&nbsp;Волкова, воспоминания</a></span> <span class="hist-names-refs"><a href="#nm2-1" target="_self" title="Командная игра на сутки">1</a> <a href="#nm2-2" target="_self" title="Командная игра на сутки">2</a> <a href="#nm2-3" target="_self" title="До 1998: «закрытый маршрут», лыжни здоровья и буклет из США">3</a> <a href="#nm2-4" target="_self" title="1998–2003: пермский вариант">4</a> <a href="#nm2-5" target="_self" title="1998–2003: пермский вариант (подпись к иллюстрации)">5</a> <a href="#nm2-6" target="_self" title="На лыжах, велосипедах, байдарках, в городе и по фотографиям">6</a></span></li>
+                    <li><a href="https://t.me/rogainomania/1553" rel="noopener">Якимов Александр</a><span class="hist-names-more"> · <a href="https://wrc2013.rogaining.ru/ru/kontakty/kontakty-organizatorov.html" rel="noopener"><span class="text-nowrap">ЧМ-2013</span></a></span> <span class="hist-names-refs"><a href="#nm4-1" target="_self" title="1998–2003: пермский вариант">1</a> <a href="#nm4-2" target="_self" title="2010-е: чемпионат мира в Алоли и новые дисциплины">2</a> <a href="#nm4-3" target="_self" title="Федерация рогейна России: правила, отделения, календарь">3</a> <a href="#nm4-4" target="_self" title="Москва, Поволжье, Урал, Сибирь и Юг">4</a></span></li>
+                </ul>
+            </details>
+        </section>
+
+        <p class="hist-more">
+            Посмотреть архив: <a href="../calendar.html?startYear=ALL&amp;calendar=ROGAINE">все рогейны в календаре</a>
+            · <a href="../start.html?start=RRC">чемпионаты России по рогейну</a>
+            · <a href="../start.html?start=ERC">чемпионаты Европы</a> и <a href="../start.html?start=WRC">мира</a>
+            · <a href="../kkm.html">карты Кубка коротких маршрутов</a>
+            · <a href="../all.html">все карты O-Maps</a>.
+        </p>
+        <nav aria-label="Другие исторические статьи" class="hist-nav">
+            <a href="rogaine-world-history.html" target="_self">← Рогейн в мире</a> <a href="domestic.html" target="_self">Чемпионаты СССР и России →</a>
+        </nav>
+    </div>
+</main>
+<footer>
+    <hr/>
+    <span class="my-copyright">© <a href="https://vk.com/fradkin">Фрадкин Евгений</a>,<a href="https://t.me/o_maps">O-Maps group</a></span>
+</footer>
+<script src="../js/ext/jquery.slim.min.js"></script>
+<script src="../js/ext/bootstrap.min.js"></script>
+<script src="../js/ext/bootstrap5-dropdown-ml-hack.js"></script>
+<script src="../js/ext/chart-4.4.8.js"></script>
+<script src="../js/history-rogaine-russia.js?v=1"></script>
+<script>
+    // Указатель имён: раскрыть, если перешли на него по ссылке (#names).
+    (function () {
+        const details = document.getElementById('names-details');
+        function openNames() {
+            if (location.hash === '#names') {
+                details.open = true;
+            }
+        }
+        openNames();
+        window.addEventListener('hashchange', openNames);
+    })();
+</script>
+<script>initTocHighlight();</script>
+<div id="page-start"></div><button id="back-to-start" type="button" aria-label="К началу страницы">↖</button>
+<script>writeBackToStartButton({smooth: true}); initReadingProgress();</script>
+<script src="../js/history-rogaine-russia-poi.js?v=1"></script>
+<script>initHistoryPlacesMap(historyRogaineRussiaPoi, {eras: [[1998, 'до 1999'], [2003, '1999–2003'], [2009, '2004–2009'], [2019, '2010-е'], [Infinity, '2020-е']], homePages: null});</script>
+<script src="../js/welcome.js?v=37"></script>
+<script>writeWelcomeButton('../');</script>
+<script src="../js/seo-meta.js?v=10"></script>
+</body>
+</html>
