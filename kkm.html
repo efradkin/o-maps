@@ -127,26 +127,19 @@
 
         let container = document.querySelector('.start-maps-wrapper');
         oMaps.forEach(m => {
-/*
-            let row = `
-                    <div class="row">
-                        <div class="col-sm-2"><a href="#map_href" target="_blank"><img src="#map_img_src" width="100"/></a></div>
-                        <div class="col-sm-10"><a href="#map_link" target="_self">Маршрут от #map_month".#map_year - #map_place</a></div>
-                    </div>
-            `;
-*/
+            const events = findEventsForMap(m, true, 'KKM');
+            const mapTitle = `ККМ: ${startYear(m, events) ?? year(m)} - ${m.name}`.replaceAll('"', '&quot;');
             let row = `
                     <div class="start-map-box align-items-center d-flex justify-content-center">
-                        <a href="#map_link" target="_self"><img src="#map_img_src" title='Маршрут ККМ от #map_month.#map_year - #map_place'/></a>
+                        <div>
+                            <a href="#map_link" target="_self"><img src="#map_img_src" title="#map_title" /></a>
+                            <div class="start-map-box-description">#map_title</div>
+                        </div>
                     </div>
             `;
-            const date = new Date(m.date);
             row = row.replace('#map_img_src', m.url);
-            row = row.replace('#map_href', m.link);
             row = row.replace('#map_link', 'map-info.html?map=' + getMapName(m));
-            row = row.replace('#map_year', m.date ? date.getFullYear() : m.year);
-            row = row.replace('#map_month', m.date ? date.getMonth() + 1 : m.month);
-            row = row.replace('#map_place', m.name);
+            row = row.replaceAll('#map_title', mapTitle);
             const elRow = document.createElement("div");
             elRow.classList.add("row");
             elRow.innerHTML = row;
