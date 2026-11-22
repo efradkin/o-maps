@@ -232,7 +232,10 @@
         oMaps.forEach(m => {
             let row = `
                     <div class="start-map-box align-items-center d-flex justify-content-center">
-                        <a href="#map_link" target="_self"><img src="#map_img_src" title="#map_year#map_place#map_start#map_info"/></a>
+                        <div>
+                            <a href="#map_link" target="_self"><img src="#map_img_src" title="#map_year#map_place#map_start#map_info"/></a>
+                            <div class="start-map-box-description">#map_caption</div>
+                        </div>
                     </div>
             `;
             row = row.replace('#map_img_src', mapImageUrl(m));
@@ -252,6 +255,7 @@
             }
             row = row.replace('#map_start', strt ? '\n' + strt + '. ' : '');
             row = row.replace('#map_info', m.info ? (strt ? '' : '\n') + strip(m.info) : '');
+            row = row.replace('#map_caption', (y ? y + ' - ' : '') + m.name);
             const elRow = document.createElement("div");
             elRow.classList.add("row");
             elRow.innerHTML = row;
