@@ -3921,9 +3921,13 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1763',
         start: 'SNOW_WAY',
         fmt: 'спринт',
+        coord: [60.029278, 30.353764],
         endReg: '2026-11-19',
         bulletin: 'https://o-site.spb.ru/_races/261122_st/261122_info-2.pdf',
-        map: 'sosnovka_2024'
+        map: 'sosnovka_2024',
+        reskeep: 956,
+        me: 'Фит-сл',
+        strava: 21081259559
     },
     {
         id: 'SPB_20261128_1',
@@ -3971,6 +3975,7 @@ let events2026 = [
         o_site: '261129_bn',
         reg: 'https://orgeo.ru/event/56645',
         endReg: '2026-11-28 20:00',
+        bulletin: 'https://o-site.spb.ru/_races/261129_bn/261129_info.pdf',
         map: 'kavgolovo_old_ski_track_2023',
         owner: 'WN'
     },
