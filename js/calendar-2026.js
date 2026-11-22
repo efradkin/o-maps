@@ -3924,6 +3924,7 @@ let events2026 = [
         coord: [60.029278, 30.353764],
         endReg: '2026-11-19',
         bulletin: 'https://o-site.spb.ru/_races/261122_st/261122_info-2.pdf',
+        photo: 'https://barabonov.ru/disk/22-11-2026-podborka',
         map: 'sosnovka_2024',
         reskeep: 956,
         me: 'Фит-сл',
