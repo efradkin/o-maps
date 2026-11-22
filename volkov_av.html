@@ -140,7 +140,10 @@
         oMaps.forEach(m => {
             let row = `
                     <div class="start-map-box align-items-center d-flex justify-content-center">
-                        <a href="#map_link" target="_self"><img src="#map_img_src" title="#start_short#map_year - #map_place"/></a>
+                        <div>
+                            <a href="#map_link" target="_self"><img src="#map_img_src" title="#start_short#map_year - #map_place"/></a>
+                            <div class="start-map-box-description">#map_caption</div>
+                        </div>
                     </div>
             `;
             row = row.replace('#start_short', m.start ? strt.short + ': ' : '');
@@ -150,6 +153,7 @@
             row = row.replace('#map_year', startYear(m) ?? year(m));
             //row = row.replace('#map_month', m.month);
             row = row.replace('#map_place', m.name);
+            row = row.replace('#map_caption', (m.start ? strt.short + ': ' : '') + (startYear(m) ?? year(m)) + ' - ' + m.name);
             const elRow = document.createElement("div");
             elRow.classList.add("row");
             elRow.innerHTML = row;
