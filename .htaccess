@@ -6,6 +6,9 @@
 RewriteEngine On
 SetEnvIf X-Forwarded-Proto https HTTPS=on
 
+# 0) Старая страница ККМ → универсальная страница серии
+RewriteRule ^kkm\.html$ https://o-maps.spb.ru/start-details.html?start=KKM [R=301,L]
+
 # 1) www или http → https без www
 RewriteCond %{HTTP_HOST} ^www\. [NC,OR]
 RewriteCond %{HTTP:HTTPS} !=on [NC]
