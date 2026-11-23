@@ -3982,6 +3982,17 @@ let events2026 = [
         map: 'kavgolovo_old_ski_track_2023',
         owner: 'WN'
     },
+    {
+        id: 'SPB_20261205_1',
+        date: '2026-12-05',
+        name: '«Субботний лижибока»',
+        place: 'Пухтолова гора',
+        coord: [60.235657, 29.651684],
+        o_site: '261205',
+        reg: 'https://orgeo.ru/event/info/57022',
+        endReg: '2026-12-02 23:55',
+        bulletin: 'https://o-site.spb.ru/_races/261205/261205_info.pdf'
+    },
 /*
     {
         id: 'SPB_20261128_2',
