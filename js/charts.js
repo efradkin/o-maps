@@ -153,8 +153,63 @@ function buildChart(ctx, labels, data, label) {
     });
 }
 
+// Рассчитывает статистику авторов непосредственно по исходным записям карт.
+// Не зависит от того, какие карты успели построить свои всплывающие окна.
+function calculateAuthorsStats() {
+    for (const author of Object.values(authors)) {
+        delete author.count;
+        delete author.area;
+    }
+
+    for (const m of oMaps) {
+        if (m.excluded || !m.author || !m.bounds || !isMapAcceptable(m)) {
+            continue;
+        }
+
+        let area = Number(m.area);
+        if (!Number.isFinite(area) || area <= 0) {
+            let bounds = m.bounds;
+            if (bounds.length === 1) {
+                bounds = [
+                    bounds[0],
+                    [bounds[0][0], bounds[0][1] + 0.02],
+                    [bounds[0][0] - 0.01, bounds[0][1]]
+                ];
+            }
+            if (bounds.length < 3) {
+                area = 0;
+            } else {
+                area = getMapArea(bounds.slice(0, 3).map(point => L.latLng(point)));
+            }
+        }
+
+        const mapAuthors = Array.isArray(m.author) ? m.author : [m.author];
+        for (let i = 0; i < mapAuthors.length; i++) {
+            const author = authors[mapAuthors[i]];
+            if (!author) {
+                continue;
+            }
+
+            author.count = (author.count || 0) + 1;
+
+            let authorArea = area;
+            if (Array.isArray(m.author)) {
+                if (Array.isArray(m.areas) && Number.isFinite(Number(m.areas[i]))) {
+                    authorArea *= Number(m.areas[i]) / 100;
+                } else {
+                    authorArea /= mapAuthors.length;
+                }
+            }
+            if (Number.isFinite(authorArea)) {
+                author.area = (author.area || 0) + authorArea;
+            }
+        }
+    }
+}
+
 // готовит данные для сортируемой таблицы авторов
 function prepareAuthorsTableData() {
+    calculateAuthorsStats();
     if (isGlobalTable) {
         populateAuthorsRangesRegions();
     }

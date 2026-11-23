@@ -2028,7 +2028,6 @@ function buildAuthors(m, withIcon, forOrder) {
                         result += ' (' + m.areas[idx] + '%)';
                     }
                     result += '</li>';
-                    populateAuthor(m, a);
                 }
             }
             result += '</ol>'
@@ -2038,7 +2037,6 @@ function buildAuthors(m, withIcon, forOrder) {
                     result += '<img src="./logo/' + authors[author].logo + '" alt="Лого" class="sheet-icon" /> ';
                 }
                 result += authorLabel(authors[author]) + '<br />';
-                populateAuthor(m, author);
             }
         }
     }
@@ -2128,31 +2126,6 @@ function buildDownloadLinks(link, links) {
         })
     }
     return result;
-}
-
-function populateAuthor(m, a) {
-    if (!m.excluded) {
-        let author = authors[a];
-        if (!author.count) {
-            author.count = 1;
-        } else {
-            author.count++;
-        }
-        let area = m.area;
-        if (Array.isArray(m.author)) {
-            if (m.areas) {
-                let idx = m.author.indexOf(a);
-                area *= m.areas[idx] / 100;
-            } else {
-                area /= m.author.length;
-            }
-        }
-        if (!author.area) {
-            author.area = area;
-        } else {
-            author.area += area;
-        }
-    }
 }
 
 function onMapSelect(ovrl, m) {
