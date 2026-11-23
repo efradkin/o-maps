@@ -5903,13 +5903,11 @@ let moscowMaps = [
     },
     {
         name: 'Щапово',
-        date: '2024-11-30',
+        year: 2024,
         url: './maps/moscow/sz/schapovo_rogaine_2024.webp',
         link: './original_maps/moscow/sz/schapovo_rogaine_2024_omaps.webp',
         bounds: [[55.4448143, 37.39995], [55.4394831, 37.4545383], [55.4158859, 37.3904657]],
-        info: 'Зов леса.',
         author: ['JASHPTRV','ALFRV'],
-        o_gps: 21199,
         type: ['ROGAINE']
     },
     {

@@ -10456,13 +10456,15 @@ let mskEvents2025 = [
     {
         id: 'MSK_20241130_3',
         date: "2024-11-30",
-        name: "Рогейн 2 часа \"Зов Леса\"",
+        name: "Зов Леса",
         place: "Щапово, поляна",
         type: "ROGAINE",
-        fmt: "старт рогейна",
+        fmt: "2",
+        o_gps: 21199,
         coord: [55.418228, 37.41843],
         reg: "https://orgeo.ru/event/39281",
-        bulletin: "https://orgeo.ru/files/event/file/39281_cb9309fdc7.pdf"
+        bulletin: "https://orgeo.ru/files/event/file/39281_cb9309fdc7.pdf",
+        map: 'schapovo_rogaine_2024'
     },
     {
         id: 'MSK_20241201_1',

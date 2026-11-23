@@ -3969,7 +3969,8 @@ let mskEvents2026 = [
         coord: [55.418228, 37.41843],
         reg: "https://orgeo.ru/event/56658",
         endReg: "2026-11-20 10:00",
-        bulletin: "https://docs.google.com/document/d/1uo_8UK4yxC6zVL9q-9yElFIA5apTRIOXdJTDGIgJaUA/edit?tab=t.0"
+        bulletin: "https://docs.google.com/document/d/1uo_8UK4yxC6zVL9q-9yElFIA5apTRIOXdJTDGIgJaUA/edit?tab=t.0",
+        o_gps: 26364
     },
     {
         id: 'MSK_20261126_1',

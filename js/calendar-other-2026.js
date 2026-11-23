@@ -126,6 +126,7 @@ let otherEvents2026 = [
     link: 'https://vk.ru/nemartovskiizayaz',
     reg: 'https://myrace.info/events/2035',
     info: '19-й альпинистский горный кросс.',
+    photo: 'https://beliaiphoto.ru/nemartovskiy-zayats',
     type: 'RUN',
     fmt: '20, 7',
     logo: 'nemartovsky.gif',
