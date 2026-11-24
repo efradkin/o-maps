@@ -196,6 +196,7 @@ let skiTracks = [
         link: 'https://vk.com/utclesgaft',
         info: 'Учебно тренировочный центр. Самая цивильная спортивная трасса области. В т.ч. круглогодичная крытая лыжная трасса ("труба").',
         gpx: 'tracks/ski/utc_ski_omaps.gpx',
+        sneg: 'utc-kavgolovo',
         logo: 'utc.gif',
         ski_kind: 'SKATE_ROUTE',
         video: 'https://www.youtube.com/watch?v=0HQTPMAkqqQ',

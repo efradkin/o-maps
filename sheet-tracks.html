@@ -258,6 +258,9 @@
             if (t.info) {
                 result += t.info;
             }
+            if (t.sneg) {
+                result += ` <a href="https://sneg.today/tracks/${t.sneg}"><b>❄️ sneg.today</b></a>`;
+            }
             if (t.results) {
                 result += '<a href="' + t.results + '"> Результаты</a>';
             }

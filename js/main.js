@@ -387,6 +387,9 @@ function buildTrackPopup(t, gpxLayer) {
 
     // инфа о маршруте
     let info = '';
+    if (t.sneg) {
+        info += `<a href="https://sneg.today/tracks/${t.sneg}"><b>❄️ sneg.today</b></a><br />`;
+    }
     let y = year(t);
     if (y) {
         const date = t.date ? formatDate(t, true, false) : t.year;
