@@ -747,7 +747,7 @@ let runTracks = [
         info: '5-21км.',
         gpx: {
             'Long':'tracks/run/fortovy_2021_long_omaps.gpx',
-            'Classic':'tracks/run/fortovy_2021_classic_omaps.gpx',
+            // 'Classic':'tracks/run/fortovy_2021_classic_omaps.gpx',
             'Fun':'tracks/run/fortovy_2021_fun_omaps.gpx'
         },
         logo: 'fortovy.gif',

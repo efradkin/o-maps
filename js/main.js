@@ -29,6 +29,15 @@ let marker1, marker2, marker3;
 let loaded = false;
 let needToSync = false;
 let tracksLoaded = false;
+const TRACK_LOAD_CONCURRENCY = 4;
+const TRACK_VIEW_PAD = 0.2;
+const trackLoadQueue = [];
+const trackQueuedPaths = new Set();
+const trackLoadingPaths = new Set();
+const trackLoadedPaths = new Set();
+const trackFailedPaths = new Set();
+let activeTrackLoads = 0;
+let trackUrlLocated = false;
 
 let maxZindex = 1;
 let enablePopup = false;
@@ -123,107 +132,181 @@ function loadMaps() {
     }
 }
 
-function loadTracks() {
-    showSpinner();
-    setTimeout(function () {
-        let actualTracks = [];
-        for (const t of oTracks) {
-            if (START_NAME_PARAM && START_NAME_PARAM !== t.start) {
-                continue;
-            }
-            if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
-                continue;
-            }
-            if (TRACK_MONTH_PARAM && (TRACK_MONTH_PARAM !== '0') && (!t.date || t.date.substring(5, 7) !== TRACK_MONTH_PARAM)) {
-                continue;
-            }
-            let firstTrack = getFirstTrack(t);
-            if (ONLY_TRACK_NAME_PARAM && !firstTrack.includes(ONLY_TRACK_NAME_PARAM)) {
-                continue;
-            }
-            actualTracks.push(t);
-        }
-        const t = actualTracks.pop();
-        if (t) {
-            loadTracksRecursive(t, actualTracks);
-        }
-
-        tracksLoaded = true;
-        if (loaded) {
-            hideSpinner();
-        }
-    }, 100);
+function isTrackLayerActive(t) {
+    if (!map || !Array.isArray(t.type)) {
+        return false;
+    }
+    const groups = {
+        RUN: runGroup,
+        WALK: walkGroup,
+        SKI: skiGroup,
+        VELO: veloGroup,
+        WATER: waterGroup
+    };
+    return t.type.some(type => groups[type] && map.hasLayer(groups[type]));
 }
 
-function loadTracksRecursive(t, actualTracks) {
+function isTrackAcceptable(t) {
+    if (START_NAME_PARAM && START_NAME_PARAM !== t.start) {
+        return false;
+    }
+    if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
+        return false;
+    }
+    if (TRACK_MONTH_PARAM && TRACK_MONTH_PARAM !== '0' && (!t.date || t.date.substring(5, 7) !== TRACK_MONTH_PARAM)) {
+        return false;
+    }
+    const firstTrack = getFirstTrack(t);
+    if (!firstTrack) {
+        return false;
+    }
+    if (ONLY_TRACK_NAME_PARAM && !firstTrack.includes(ONLY_TRACK_NAME_PARAM)) {
+        return false;
+    }
+    return true;
+}
+
+function loadTracks() {
+    if (!map || !loadTracksRequired) {
+        return;
+    }
+
+    const viewBounds = map.getBounds().pad(TRACK_VIEW_PAD);
+    for (let i = trackLoadQueue.length - 1; i >= 0; i--) {
+        const item = trackLoadQueue[i];
+        const bounds = TRACK_BOUNDS_INDEX[item.path];
+        const isUrlTarget = (TRACK_NAME_PARAM && item.path.includes(TRACK_NAME_PARAM)) || (ONLY_TRACK_NAME_PARAM && item.path.includes(ONLY_TRACK_NAME_PARAM));
+        if (!isTrackAcceptable(item.track) || !isTrackLayerActive(item.track) ||
+            (!isUrlTarget && (!bounds || !viewBounds.intersects(L.latLngBounds([[bounds[0], bounds[1]], [bounds[2], bounds[3]]]))))) {
+            trackQueuedPaths.delete(item.path);
+            trackLoadQueue.splice(i, 1);
+        }
+    }
+
+    for (const t of oTracks) {
+        if (!isTrackAcceptable(t) || !isTrackLayerActive(t)) {
+            continue;
+        }
+
+        const path = getFirstTrack(t);
+        const bounds = TRACK_BOUNDS_INDEX[path];
+        const isUrlTarget = (TRACK_NAME_PARAM && path.includes(TRACK_NAME_PARAM)) || (ONLY_TRACK_NAME_PARAM && path.includes(ONLY_TRACK_NAME_PARAM));
+        if (!isUrlTarget && (!bounds || !viewBounds.intersects(L.latLngBounds([[bounds[0], bounds[1]], [bounds[2], bounds[3]]])))) {
+            continue;
+        }
+        if (trackLoadedPaths.has(path) || trackQueuedPaths.has(path) || trackLoadingPaths.has(path) || trackFailedPaths.has(path)) {
+            continue;
+        }
+        trackLoadQueue.push({track: t, path: path});
+        trackQueuedPaths.add(path);
+    }
+
+    if (trackLoadQueue.length || activeTrackLoads) {
+        if (!tracksLoaded) {
+            showSpinner();
+        }
+        processTrackLoadQueue();
+    } else if (!tracksLoaded) {
+        finishTracksLoad();
+    }
+}
+
+function processTrackLoadQueue() {
+    while (activeTrackLoads < TRACK_LOAD_CONCURRENCY && trackLoadQueue.length) {
+        const item = trackLoadQueue.shift();
+        trackQueuedPaths.delete(item.path);
+        trackLoadingPaths.add(item.path);
+        activeTrackLoads++;
+        loadTrack(item.track, item.path);
+    }
+
+    if (!activeTrackLoads && !trackLoadQueue.length) {
+        finishTracksLoad();
+    }
+}
+
+function loadTrack(t, path) {
+    let requestFinished = false;
+    let layerAdded = false;
+    let timeout = null;
+    const finishRequest = function () {
+        if (requestFinished) {
+            return;
+        }
+        requestFinished = true;
+        clearTimeout(timeout);
+        trackLoadingPaths.delete(path);
+        activeTrackLoads--;
+        processTrackLoadQueue();
+    };
+
     try {
-        let firstTrack = getFirstTrack(t);
-        let gpxLayer = new L.GPX(firstTrack, {
-            async: false,
+        const gpxLayer = new L.GPX(path, {
+            async: true,
             display_wpt: false,
             color: (t.type ? color[t.type[0]] : 'brown'),
             opacity: .7,
             weight: 3
         });
-        var popup_text = buildTrackPopup(t, gpxLayer);
-        gpxLayer.bindPopup(popup_text, {maxWidth: popupWidth});
-        allocateMap(t, gpxLayer);
 
-        gpxLayer.on('mouseover', function (e) {
-            let target = e.originalEvent.target;
-            let width = target.getAttribute('stroke-width');
-            if (width !== '7') {
-                e.target.setStyle({
-                    weight: 6,
-                    opacity: 1
+        gpxLayer.on('loaded', function () {
+            if (!layerAdded) {
+                layerAdded = true;
+                trackLoadedPaths.add(path);
+                const popupText = buildTrackPopup(t, gpxLayer);
+                gpxLayer.bindPopup(popupText, {maxWidth: popupWidth});
+                allocateMap(t, gpxLayer);
+
+                gpxLayer.on('mouseover', function (e) {
+                    let target = e.originalEvent.target;
+                    let width = target.getAttribute('stroke-width');
+                    if (width !== '7') {
+                        e.target.setStyle({weight: 6, opacity: 1});
+                    }
                 });
-            }
-        });
-        gpxLayer.on('mouseout', function (e) {
-            let target = e.originalEvent.target;
-            let width = target.getAttribute('stroke-width');
-            if (width !== '7') {
-                e.target.setStyle({
-                    weight: 3,
-                    opacity: .7
+                gpxLayer.on('mouseout', function (e) {
+                    let target = e.originalEvent.target;
+                    let width = target.getAttribute('stroke-width');
+                    if (width !== '7') {
+                        e.target.setStyle({weight: 3, opacity: .7});
+                    }
                 });
-            }
-        });
-        gpxLayer.on('click', function (e, f) {
-            let target = e.originalEvent.target;
-            document.querySelectorAll("path.leaflet-interactive").forEach(function (path) {
-                if (path !== target && path.getAttribute('stroke-width') === '7') {
-                    path.setAttribute('stroke-width', 3);
+                gpxLayer.on('click', function (e) {
+                    let target = e.originalEvent.target;
+                    document.querySelectorAll("path.leaflet-interactive").forEach(function (pathElement) {
+                        if (pathElement !== target && pathElement.getAttribute('stroke-width') === '7') {
+                            pathElement.setAttribute('stroke-width', 3);
+                        }
+                    });
+                    let width = target.getAttribute('stroke-width');
+                    target.setAttribute('stroke-width', width === '6' || width === '3' ? 7 : 6);
+                });
+
+                if (!trackUrlLocated && TRACK_NAME_PARAM && path.includes(TRACK_NAME_PARAM)) {
+                    trackUrlLocated = true;
+                    map.fitBounds(gpxLayer.getBounds());
                 }
-            });
-            let width = target.getAttribute('stroke-width');
-            if (width === '6' || width === '3') {
-                target.setAttribute('stroke-width', 7);
-            } else {
-                target.setAttribute('stroke-width', 6);
             }
+            finishRequest();
         });
-    } catch (e) {
-        console.log('Error loading track', t, e);
-    }
 
-    let nextTrack = actualTracks.pop();
-    if (nextTrack) {
-        setTimeout(function () {
-            loadTracksRecursive(nextTrack, actualTracks);
-        }, 2)
-    } else {
-        finishTracksLoad();
+        timeout = setTimeout(function () {
+            if (!layerAdded) {
+                trackFailedPaths.add(path);
+                console.warn('Track loading timeout:', path);
+            }
+            finishRequest();
+        }, 30000);
+    } catch (e) {
+        trackFailedPaths.add(path);
+        console.log('Error loading track', t, e);
+        finishRequest();
     }
 }
 
 function finishTracksLoad() {
+    tracksLoaded = true;
     hideSpinner();
-
-    // go to the specified track
-    if (TRACK_NAME_PARAM) {
-        locateForUrl(TRACK_NAME_PARAM);
-    }
     visibleMaps = recalculateLayers();
 }
 
@@ -421,6 +504,9 @@ if (mapElement) {
     // хватает и на сдвиг, и на зум: догрузить карты у экрана и пересобрать DOM.
     map.on('moveend resize', function () {
         loadMaps();
+        if (loadTracksRequired) {
+            loadTracks();
+        }
         syncMaps();
     });
     map.on('overlayadd overlayremove', function () {
@@ -431,7 +517,7 @@ if (mapElement) {
     map.on('overlayadd', function (e) {
         activateLayer(overlayMapsContents[e.name]);
         syncMaps();
-        if (e.name.includes('Маршруты') && !tracksLoaded) {
+        if (loadTracksRequired && allOrientGroups.includes(e.layer)) {
             loadTracks();
         }
     });
