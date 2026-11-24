@@ -418,6 +418,9 @@ function buildNumber(event, i) {
     if (event.price === 1) {
         icon += '&nbsp;💰';
     }
+    if (event.closed) {
+        icon += '&nbsp;🔒';
+    }
     let checkbox = '', myEvent = '', isMyEvent = false;
     if (event.id) {
         if (myEdit) {
