@@ -36,6 +36,7 @@ const trackQueuedPaths = new Set();
 const trackLoadingPaths = new Set();
 const trackLoadedPaths = new Set();
 const trackFailedPaths = new Set();
+const trackLocatePaths = new Set();
 let activeTrackLoads = 0;
 let trackUrlLocated = false;
 
@@ -176,8 +177,8 @@ function loadTracks() {
         const item = trackLoadQueue[i];
         const bounds = TRACK_BOUNDS_INDEX[item.path];
         const isUrlTarget = (TRACK_NAME_PARAM && item.path.includes(TRACK_NAME_PARAM)) || (ONLY_TRACK_NAME_PARAM && item.path.includes(ONLY_TRACK_NAME_PARAM));
-        if (!isTrackAcceptable(item.track) || !isTrackLayerActive(item.track) ||
-            (!isUrlTarget && (!bounds || !viewBounds.intersects(L.latLngBounds([[bounds[0], bounds[1]], [bounds[2], bounds[3]]]))))) {
+        if (!item.force && (!isTrackAcceptable(item.track) || !isTrackLayerActive(item.track) ||
+            (!isUrlTarget && (!bounds || !viewBounds.intersects(L.latLngBounds([[bounds[0], bounds[1]], [bounds[2], bounds[3]]])))))) {
             trackQueuedPaths.delete(item.path);
             trackLoadQueue.splice(i, 1);
         }
@@ -225,6 +226,32 @@ function processTrackLoadQueue() {
     }
 }
 
+function locateTrack(t) {
+    const path = getFirstTrack(t);
+    if (!path) {
+        return;
+    }
+    if (t.layer) {
+        map.fitBounds(t.layer.getBounds());
+        return;
+    }
+
+    trackLocatePaths.add(path);
+    if (trackLoadedPaths.has(path)) {
+        trackLocatePaths.delete(path);
+        return;
+    }
+    if (!trackQueuedPaths.has(path) && !trackLoadingPaths.has(path)) {
+        trackFailedPaths.delete(path);
+        trackLoadQueue.push({track: t, path: path, force: true});
+        trackQueuedPaths.add(path);
+    } else {
+        const queued = trackLoadQueue.find(item => item.path === path);
+        if (queued) queued.force = true;
+    }
+    processTrackLoadQueue();
+}
+
 function loadTrack(t, path) {
     let requestFinished = false;
     let layerAdded = false;
@@ -256,6 +283,10 @@ function loadTrack(t, path) {
                 const popupText = buildTrackPopup(t, gpxLayer);
                 gpxLayer.bindPopup(popupText, {maxWidth: popupWidth});
                 allocateMap(t, gpxLayer);
+                if (trackLocatePaths.has(path)) {
+                    trackLocatePaths.delete(path);
+                    map.fitBounds(gpxLayer.getBounds());
+                }
 
                 gpxLayer.on('mouseover', function (e) {
                     let target = e.originalEvent.target;

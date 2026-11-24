@@ -42,6 +42,9 @@ const OLIVE_IMAGE_URL = './maps/olive.png';
 const EMPTY_IMAGE_URL = './maps/empty.png';
 
 const regions = {
+    AUSTRIA: {
+        name: 'Австрия',
+    },
     ALTAI: {
         name: 'Алтайский край',
         logo: 'altai.gif'
@@ -238,9 +241,15 @@ const regions = {
     CHITA: {
         name: 'Чита'
     },
+    SWITZERLAND: {
+        name: 'Швейцария',
+    },
     ESTONIA: {
         name: 'Эстония',
         logo: 'estonia.webp'
+    },
+    YAROSLAVL: {
+        name: 'Ярославская обл',
     },
 };
 

@@ -779,4 +779,320 @@ let skiTracks = [
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
+    // --- ИЗВЕСТНЫЕ ЛЫЖНЫЕ ТРАССЫ РОССИИ И МИРА ---
+    {
+        name: 'ГАБОвская народная лыжня',
+        region: 'MSK',
+        link: 'https://gabo.su/shemyi-lyizhnoy-trassyi',
+        source: 'https://www.stremglav.fun/tracks/gabo',
+        info: 'Лыжный центр в Дмитровском округе Московской области. Несколько трасс разной протяжённости и сложности. Самый длинный круг — «Марафонец».',
+        gpx: {
+            'Марафонец (26 км)':'tracks/ski/gabo_marathon_omaps.gpx',
+            'Турист (21 км)':'tracks/ski/gabo_tourist_omaps.gpx',
+            'Мастер (12 км)':'tracks/ski/gabo_master_omaps.gpx',
+            'Любитель (5 км)':'tracks/ski/gabo_lyubitel_omaps.gpx',
+            'Чайник (3 км)':'tracks/ski/gabo_chaunik_omaps.gpx',
+            'Пол-Туриста (8 км)':'tracks/ski/gabo_polturista_ski_omaps.gpx',
+            'Некрасовская (14,5 км)':'tracks/ski/gabo_nekrasovskaya_ski_omaps.gpx',
+            'Освещёнка (2 км)':'tracks/ski/gabo_osveshchenka_ski_omaps.gpx',
+        },
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Дёмино, лыжный центр',
+        region: 'YAROSLAVL',
+        link: 'https://www.russialoppet.ru/events/demino2025.html',
+        info: 'Лыжный центр в Рыбинском районе Ярославской области. Представлен марафонский круг длиной около 50 км.',
+        gpx: 'tracks/ski/demino_50_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Ramsau am Dachstein',
+        region: 'AUSTRIA',
+        link: 'https://www.steiermark.com/en/Schladming-Dachstein/Vacation-planning/Touring-portal/',
+        info: 'Лыжный центр в Австрии. В подборку включены стадионная трасса и два маршрута региона.',
+        gpx: {
+            'Standardloipe Ost (10,5 км)':'tracks/ski/ramsau_standard_east_omaps.gpx',
+            'Stadionloipe (9,2 км)':'tracks/ski/ramsau_stadium_omaps.gpx',
+            'Rössingloipe (7,4 км)':'tracks/ski/ramsau_roessing_omaps.gpx'
+        },
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Seefeld, лыжный регион',
+        region: 'AUSTRIA',
+        link: 'https://www.seefeld.com/en/',
+        info: 'Лыжный регион в Тироле, Австрия. В подборку включены два маршрута. Самый длинный — Katzenkopf.',
+        gpx: {
+            'Katzenkopf Circuit (20,5 км)':'tracks/ski/seefeld_katzenkopf_omaps.gpx',
+            'Wildmoos Circuit (17,1 км)':'tracks/ski/seefeld_wildmoos_omaps.gpx'
+        },
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Goms, Ulrichen',
+        region: 'SWITZERLAND',
+        link: 'https://www.bergfex.com/sommer/oberwallis/touren/langlauf/24713398,fis-rennloipe-ulrichen-nz/',
+        info: 'Соревновательная трасса FIS в Ульрихене, долина Гомс, Швейцария. Длина загруженного GPS-трека — около 4 км.',
+        gpx: 'tracks/ski/goms_fis_race_trail_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Барвиха',
+        source: 'https://www.stremglav.fun/tracks',
+        link: 'https://skicup.ru/',
+        region: 'MSK',
+        info: 'Лыжный круг. Длина загруженного GPS-трека около 4,9 км.',
+        gpx: 'tracks/ski/barvikha_5km_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Красногорск, лыжная трасса',
+        link: 'https://masouzorky.ru/lizhn',
+        source: 'https://www.stremglav.fun/tracks/krasnogorsk',
+        region: 'MSK',
+        info: 'Длинный лыжный маршрут в Красногорске. Длина загруженного GPS-трека около 22,4 км.',
+        gpx: 'tracks/ski/krasnogorsk_22km_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Планерная',
+        source: 'https://www.stremglav.fun/tracks',
+        link: 'https://skimsu.ru/planernaya',
+        region: 'MSK',
+        info: 'Лыжная трасса в районе ОУСЦ «Планерная». Длина загруженного GPS-трека около 3,9 км.',
+        gpx: 'tracks/ski/planernaya_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'ЦСП Измайлово',
+        link: 'https://xn----8sbgseichghzb.xn--p1ai/trassi/',
+        source: 'https://www.stremglav.fun/tracks',
+        region: 'MSK',
+        info: 'Лыжная трасса ЦСП «Измайлово». Длина загруженного GPS-трека около 5,7 км.',
+        gpx: 'tracks/ski/izmailovo_csp_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Истра, Соколиная гора',
+        source: 'https://www.stremglav.fun/tracks',
+        link: 'https://visitistra.ru/ЗИМА-В-ИСТРЕ/',
+        region: 'MSK',
+        info: 'Лыжная трасса «Соколиная гора». Длина загруженного GPS-трека около 3,7 км.',
+        gpx: 'tracks/ski/istra_sokolinaya_gora_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+
+    {
+        name: 'Альфа-Битца',
+        region: 'MSK',
+        source: 'https://www.stremglav.fun/tracks',
+        link: 'https://bitza-sport.ru/',
+        info: 'Лыжный центр в Москве. GPS-трек протяжённостью около 18,9 км.',
+        gpx: 'tracks/ski/alfa_bitsa_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Измайлово, «Авангард»',
+        region: 'MSK',
+        link: 'https://www.stadionavangard.ru/ski-map',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса спортивного комплекса «Авангард» в Измайлово. GPS-трек около 8,3 км.',
+        gpx: 'tracks/ski/avangard_izmailovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Борисово',
+        region: 'MSK',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса в районе Борисово. GPS-трек около 7,4 км.',
+        gpx: 'tracks/ski/borisovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Бутово',
+        region: 'MSK',
+        source: 'https://www.stremglav.fun/tracks',
+        link: 'https://polyanybutovo.ru/',
+        info: 'Лыжная трасса в Бутово. GPS-трек около 12,4 км.',
+        gpx: 'tracks/ski/butovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Дубровицы, Подольск',
+        region: 'MSK',
+        source: 'https://www.stremglav.fun/tracks',
+        link: 'https://skipodolsk.ru/track',
+        info: 'Лыжная трасса в районе Дубровиц под Подольском. GPS-трек около 5,1 км.',
+        gpx: 'tracks/ski/dubrovitsy_podolsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'ГТОК «Снегири»',
+        region: 'MSK',
+        link: 'https://xn----90advenxk.xn--p1ai/o-nas',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса ГТО-клуба «Снегири». GPS-трек около 10,5 км.',
+        gpx: 'tracks/ski/gto_snegiri_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Касарка, Переславский район',
+        region: 'YAROSLAVL',
+        link: 'https://admpereslavl.ru/sportsmeny-na-start',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса в районе посёлка Залесский. GPS-трек около 10,1 км.',
+        gpx: 'tracks/ski/kasarka_p_zalessky_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Кашира, ДС «Юбилейный»',
+        region: 'MSK',
+        link: 'https://sk-kashira.ru/objects/362-mau-sportklub-kashira-imeni-npeliseeva-ds-jubilejnyj.html',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса спортивного комплекса «Юбилейный». GPS-трек около 5,4 км.',
+        gpx: 'tracks/ski/kashira_yubileyny_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Кирики-Улиты',
+        region: 'VOLOGDA',
+        source: 'https://www.stremglav.fun/tracks',
+        link: 'https://vologdamarafon.ru/marafon/покровский-классический-марафон/',
+        info: 'Лыжная трасса в районе Кирики-Улиты Вологодской области. GPS-трек около 11,7 км.',
+        gpx: 'tracks/ski/kiriki_ulity_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Комёла, Вологодская область',
+        region: 'VOLOGDA',
+        link: 'https://travel-vologda.ru/napravleniya/vologodskaya-oblast/za-vpechatleniyami/czentr-sporta-i-otdyixa-komela',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса в районе Комёлы. GPS-трек около 12,8 км.',
+        gpx: 'tracks/ski/komela_vologda_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Троицк, ГСОБ «Лесная»',
+        region: 'MSK',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса спортивной базы «Лесная» в Троицке. GPS-трек около 9,7 км.',
+        gpx: 'tracks/ski/lesnaya_troitsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Вологда, «Локомотив»',
+        region: 'VOLOGDA',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса спортивного комплекса «Локомотив». GPS-трек около 7,4 км.',
+        gpx: 'tracks/ski/lokomotiv_vologda_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Нижнецарицынская',
+        region: 'MSK',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса в Москве. GPS-трек около 7,1 км.',
+        gpx: 'tracks/ski/nizhne_tsaritsynskaya_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Нововоронино',
+        region: 'MSK',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса у деревни Нововоронино. GPS-трек около 13,5 км.',
+        gpx: 'tracks/ski/novovoronino_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Ромашково',
+        region: 'MSK',
+        source: 'https://www.stremglav.fun/tracks/romashkovo',
+        link: 'https://www.sk-romashkovo.ru/trace/',
+        info: 'Известный лыжный центр в Ромашковском лесу. В GPX собраны несколько стандартных дистанций и участков трассы.',
+        gpx: 'tracks/ski/romashkovo_ski_stremglav_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Щёлково, «Десятка»',
+        region: 'MSK',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса «Щёлковская Десятка». GPS-трек около 4,9 км.',
+        gpx: 'tracks/ski/shchelkovo_desyatka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Слюдорудник',
+        region: 'CHELYABINSK',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса в посёлке Слюдорудник Челябинской области. GPS-трек около 6,8 км.',
+        gpx: 'tracks/ski/slyudorudnik_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Соколиная Пустынь, Ступино',
+        region: 'MSK',
+        link: 'https://m.mosoblles.ru/press-center/current_news/?id=10360',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса в районе Соколиной Пустыни. GPS-трек около 2,9 км.',
+        gpx: 'tracks/ski/sokolinaya_pustyn_stupno_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Дмитров, ЦЗВС',
+        region: 'MSK',
+        link: 'https://www.dmitrov.ru/',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса Центра зимних видов спорта в Дмитрове. GPS-трек около 12 км.',
+        gpx: 'tracks/ski/tszvs_dmitrov_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Климовск, «Весенняя»',
+        region: 'MSK',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса в районе станции Весенняя в Климовске. GPS-трек около 5,8 км.',
+        gpx: 'tracks/ski/vesennyaya_klimovsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Вороново, Московская область',
+        region: 'MSK',
+        link: 'https://gto.sport.mos.ru/',
+        source: 'https://www.stremglav.fun/tracks',
+        info: 'Лыжная трасса в Вороново. GPS-трек около 10,4 км.',
+        gpx: 'tracks/ski/voronovo_mo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
 ];
