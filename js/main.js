@@ -425,6 +425,13 @@ function buildTrackPopup(t, gpxLayer) {
             info += ' <a href="' + t.video + '"> Видео</a>.';
         }
     }
+    if (t.source) {
+        let source = t.source;
+        if (source === 'stremglav') {
+            source = 'https://www.stremglav.fun/docs/snegtodaymap';
+        }
+        info += `<br /><a href="${source}">Источник данных</a>.`;
+    }
     if (info) {
         result += info;
     }

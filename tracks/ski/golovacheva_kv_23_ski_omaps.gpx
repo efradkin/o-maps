@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-12-12T08:43:53.420Z</time>
+	</metadata>
+	<trk>
+		<name>Головачева кв.23</name>
+		<trkseg>
+			<trkpt lat="55.671925" lon="37.822461"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.671822" lon="37.823042"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.671761" lon="37.823530"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.671731" lon="37.823841"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.671728" lon="37.824211"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.671837" lon="37.826558"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.671867" lon="37.826641"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.671940" lon="37.826679"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673106" lon="37.826899"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673870" lon="37.827155"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.675140" lon="37.827662"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.675213" lon="37.827662"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.675264" lon="37.827614"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.675993" lon="37.826201"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.672726" lon="37.824587"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.672705" lon="37.824485"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.672723" lon="37.824259"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.672758" lon="37.824166"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.672850" lon="37.824152"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673818" lon="37.824667"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673852" lon="37.824640"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673849" lon="37.824394"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673791" lon="37.824093"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673752" lon="37.824007"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673661" lon="37.823943"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673587" lon="37.823844"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673526" lon="37.823812"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673363" lon="37.823758"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673254" lon="37.823651"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673191" lon="37.823544"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673157" lon="37.823458"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673130" lon="37.823356"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.673079" lon="37.823297"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.672613" lon="37.823098"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.672560" lon="37.823063"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.672521" lon="37.822972"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.672490" lon="37.822865"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.672421" lon="37.822784"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.671970" lon="37.822404"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

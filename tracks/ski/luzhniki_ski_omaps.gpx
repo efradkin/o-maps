@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2023-12-11T11:28:22.187Z</time>
+	</metadata>
+	<trk>
+		<name>Лужники</name>
+		<trkseg>
+			<trkpt lat="55.715677" lon="37.560486"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.716040" lon="37.559912"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.716125" lon="37.559879"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.716194" lon="37.559965"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.716194" lon="37.560094"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.716140" lon="37.560196"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.714726" lon="37.562774"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.714717" lon="37.562941"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.714802" lon="37.563112"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.714917" lon="37.563128"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.715007" lon="37.563010"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.716370" lon="37.560578"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.716466" lon="37.560540"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.716530" lon="37.560658"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.716527" lon="37.560803"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.716436" lon="37.561018"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.715064" lon="37.563463"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.714952" lon="37.563538"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.714855" lon="37.563533"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.714780" lon="37.563441"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.714523" lon="37.562953"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.714505" lon="37.562696"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.714556" lon="37.562487"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.714674" lon="37.562224"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.715644" lon="37.560530"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

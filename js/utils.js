@@ -43,7 +43,7 @@ const EMPTY_IMAGE_URL = './maps/empty.png';
 
 const regions = {
     AUSTRIA: {
-        name: 'Австрия',
+        name: 'Австрия'
     },
     ALTAI: {
         name: 'Алтайский край',
@@ -65,6 +65,9 @@ const regions = {
     },
     BOSNIA: {
         name: 'Босния и Герцеговина',
+    },
+    NOVGOROD: {
+        name: 'Великий Новгород',
     },
     VLADIMIR: {
         name: 'Владимирская обл',
@@ -107,23 +110,29 @@ const regions = {
         name: 'Калуга',
         logo: 'kaluga.gif'
     },
-    KURGAN: {
-        name: 'Курган',
-    },
     KRCHCHRK: {
         name: 'Карачаево-Черкессия',
         logo: 'karachay-cherkessia.gif'
-    },
-    KOSTROMA: {
-        name: 'Кострома',
     },
     KARELIA: {
         name: 'Карелия',
         logo: 'karelia.gif'
     },
+    KEMEROVO: {
+        name: 'Кемеровская обл'
+    },
+    KIROV: {
+        name: 'Кировская обл'
+    },
     CHINA: {
         name: 'Китай',
         logo: 'china.webp'
+    },
+    KOMI: {
+        name: 'Коми'
+    },
+    KOSTROMA: {
+        name: 'Кострома',
     },
     KRASNODAR: {
         name:'Краснодар',
@@ -133,6 +142,9 @@ const regions = {
         name:'Красноярский край',
         logo: 'kranoyarsk.webp'
     },
+    KURGAN: {
+        name: 'Курган',
+    },
     LATVIA: {
         name: 'Латвия',
         logo: 'LOF.gif' // 'latvia.webp'
@@ -141,11 +153,11 @@ const regions = {
         name: 'Литва',
         logo: 'lietuva.gif'
     },
-    MSK: {
-        name: 'Москва'
-    },
     MOLDOVA: {
         name: 'Молдова'
+    },
+    MSK: {
+        name: 'Москва'
     },
     MURMANSK: {
         name: 'Мурманск',
@@ -154,9 +166,6 @@ const regions = {
     N_NOVGOROD: {
         name: 'Нижний Новгород',
         logo: 'nn_orient.gif'
-    },
-    NOVGOROD: {
-        name: 'Великий Новгород',
     },
     NZ: {
         name: 'Новая Зеландия',
@@ -177,6 +186,10 @@ const regions = {
         name: 'Оренбург',
         logo: 'orenburg.webp'
     },
+    PERM: {
+        name: 'Пермь',
+        logo: 'perm_orient_retro.webp'
+    },
     PORTUGAL: {
         name: 'Португалия',
         logo: 'portugal.gif'
@@ -184,16 +197,15 @@ const regions = {
     PSKOV: {
         name: 'Псков'
     },
-    PERM: {
-        name: 'Пермь',
-        logo: 'perm_orient_retro.webp'
-    },
     ROSTOV: {
         name: 'Ростов-на-Дону',
         logo: 'rostov.webp'
     },
     RYAZAN: {
         name: 'Рязань'
+    },
+    SPB: {
+        name: 'С-Петербург'
     },
     SAMARA: {
         name: 'Самара',
@@ -206,19 +218,28 @@ const regions = {
     SERBIA: {
         name: 'Сербия'
     },
-    SPB: {
-        name: 'С-Петербург'
-    },
     STAVROPOL: {
         name: 'Ставрополь',
         //logo: 'stavropol.webp'
     },
-    TULA: {
-        name: 'Тульская обл'
+    TATARSTAN: {
+        name: 'Татарстан'
     },
     TVER: {
         name: 'Тверская обл',
         logo: 'tver.webp'
+    },
+    TULA: {
+        name: 'Тульская обл'
+    },
+    TOMSK: {
+        name: 'Томская обл'
+    },
+    TYUMEN: {
+        name: 'Тюменская обл'
+    },
+    UDMURTIA: {
+        name: 'Удмуртия'
     },
     UKRAINE: {
         name: 'Украина'
@@ -231,6 +252,12 @@ const regions = {
         name: 'Франция',
         logo: 'france.webp'
     },
+    KHAKASSIA: {
+        name: 'Хакасия'
+    },
+    KHMAO: {
+        name: 'Ханты-Мансийский АО'
+    },
     CHELYABINSK: {
         name: 'Челябинск',
         logo: 'o-chel.webp'//'chelyabinsk.gif'
@@ -242,14 +269,38 @@ const regions = {
         name: 'Чита'
     },
     SWITZERLAND: {
-        name: 'Швейцария',
+        name: 'Швейцария'
     },
     ESTONIA: {
         name: 'Эстония',
         logo: 'estonia.webp'
     },
     YAROSLAVL: {
-        name: 'Ярославская обл',
+        name: 'Ярославская обл'
+    },
+    IVANOVO: {
+        name: 'Ивановская обл'
+    },
+    MARI_EL: {
+        name: 'Республика Марий Эл'
+    },
+    OMSK: {
+        name: 'Омская обл'
+    },
+    PENZA: {
+        name: 'Пензенская обл'
+    },
+    SMOLENSK: {
+        name: 'Смоленская обл'
+    },
+    ULYANOVSK: {
+        name: 'Ульяновская обл'
+    },
+    MONTENEGRO: {
+        name: 'Черногория'
+    },
+    SAKHA: {
+        name: 'Якутия (Саха)'
     },
 };
 

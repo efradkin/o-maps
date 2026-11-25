@@ -843,7 +843,6 @@ let tracks = [
         results: 'https://reg.o-time.ru/race/25201',
         info: 'Велосипедный кросс-кантри марафон для всех. 14-63км.',
         gpx: {
-            '63км':'tracks/velo/mi4ura_marathoncup_2025_63km_omaps.gpx',
             '35км':'tracks/velo/mi4ura_marathoncup_2025_35km_omaps.gpx',
             '14км':'tracks/velo/mi4ura_marathoncup_2025_14km_omaps.gpx',
         },
