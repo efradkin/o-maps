@@ -29,6 +29,7 @@ let skiTracks = [
     },
     {
         name: 'Муринский парк',
+        sneg: 'murino',
         info: 'Плавный рельеф и лыжероллерная трасса летом. Но мамочки и собачники тоже считают её своей.',
         source: 'stremglav',
         gpx: 'tracks/ski/murinsky_ski_omaps.gpx',
@@ -59,6 +60,7 @@ let skiTracks = [
     },
     {
         name: 'Полежаевский парк',
+        sneg: 'polejaevski',
         info: 'Единственная лыжная трасса с хоть сколько-то заметным рельефом на юге города.',
         gpx: 'tracks/ski/polezhaevsky_park_ski_omaps.gpx',
         pics: ['ski/polezhaevsky',2],
@@ -75,6 +77,7 @@ let skiTracks = [
     },
     {
         name: 'Крестовский остров',
+        sneg: 'krestostrov',
         link: 'https://vk.com/spbrun_run',
         info: 'Широкая плоская трасса с двумя искусственными горками.',
         gpx: 'tracks/ski/krestovsky_ski_omaps.gpx',
@@ -86,6 +89,7 @@ let skiTracks = [
     },
     {
         name: 'Пушкин, Отдельный парк',
+        sneg: 'otdelny-pushkin',
         year: 2026,
         info: 'Лыжная трасса с небольшим плавным рельефом.',
         gpx: {
@@ -98,6 +102,7 @@ let skiTracks = [
     },
     {
         name: 'Александровская, Баболовский парк',
+        sneg: 'balbolov-ski',
         info: 'Плоская самотопная лыжня.',
         gpx: 'tracks/ski/aleksandrovskaya_ski_omaps.gpx',
         ski_kind: 'FURROW',
@@ -111,6 +116,7 @@ let skiTracks = [
     },
     {
         name: 'Зеленогорск, б/о "Прибой", марафон «Двигатель»',
+        sneg: 'priboy-spb',
         date: '2025-03-15',
         link: 'https://vk.com/bazapriboyzel',
         info: 'Целиком прокатывается далеко не каждый год. Трассы марафона состоят из кругов 3, 5, 10 км.',
@@ -133,6 +139,7 @@ let skiTracks = [
     },
     {
         name: 'Зеленогорск, прогулочная лыжня',
+        sneg: 'priboy-spb',
         logo: 'priboy.webp',
         link: 'https://vk.com/bazapriboyzel',
         info: 'Спокойная трасса с минимумом рельефа.',
@@ -146,6 +153,7 @@ let skiTracks = [
     },
     {
         name: 'Рощино',
+        sneg: 'roschino',
         year: 2023,
         link: 'https://vk.com/public210675528',
         info: 'Лыжная трасса Рощино создана и поддерживается жителями Рощино. Подготовка, обслуживание и содержание осуществляется за счет собственных средств и за счет благотворительных средств не безразличных людей.',
@@ -172,6 +180,7 @@ let skiTracks = [
     },
     {
         name: 'Сертолово',
+        sneg: 'sertolovo',
         link: 'https://vk.com/sport_v_sertolovo',
         info: 'Лыжная трасса с небольшим плавным рельефом по полю. Два круга - большой 1700м и малый 400м.',
         gpx: 'tracks/ski/sertolovo_ski_omaps.gpx',
@@ -187,6 +196,7 @@ let skiTracks = [
     },
     {
         name: 'Кавголово, Виролайнен',
+        sneg: 'virolainena',
         year: 2024,
         info: 'Возрождённая в 2024 году лыжная трасса рядом с УТЦ на территории ООПТ "Токсовский".',
         gpx: 'tracks/ski/kavgolovo_virolaynen_ski_omaps.gpx',
@@ -211,6 +221,7 @@ let skiTracks = [
     },
     {
         name: 'Кавголово, Динамо',
+        sneg: 'toksovskie-vysoty',
         info: 'Лыжная трасса в ООПТ "Токсовские высоты" со стартом у спорт.базы Динамо.',
         gpx: 'tracks/ski/kavgolovo_dinamo_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -220,6 +231,7 @@ let skiTracks = [
     },
     {
         name: 'Осельки',
+        sneg: 'toksovskiy-park',
         info: 'Практически абсолютно плоская, часто самотопная, лыжня в окружении красивого леса.',
         gpx: 'tracks/ski/oselki_ski_omaps.gpx',
         ski_kind: 'FICKLE_ROUTE',
@@ -228,6 +240,7 @@ let skiTracks = [
     },
     {
         name: 'Токсово, Toksovo Cup',
+        sneg: 'ska',
         date: '2024-02-03',
         info: 'Классическая трасса Токсовского лыжного марафона. Старт - от базы СКА.',
         link: 'https://vk.com/toksovocup',
@@ -248,6 +261,7 @@ let skiTracks = [
     },
     {
         name: 'Токсово, ВИФК',
+        sneg: 'vifk',
         info: 'Лыжная трасса на территории, принадлежащей МО РФ. Ограниченно доступна.',
         gpx: 'tracks/ski/vifk_ski_omaps.gpx',
         pics: ['ski/vifk',3],
@@ -277,6 +291,7 @@ let skiTracks = [
     },
     {
         name: 'Токсово, Малиновая гора',
+        sneg: 'toksovskiy-park',
         year: 2024,
         info: 'Классическая лыжня, подготавливаемая энтузиастами. Периодически тут проводятся массовые "Лыжные стрелы".',
         link: 'https://vk.com/malingora',
@@ -291,6 +306,7 @@ let skiTracks = [
     },
     {
         name: 'Токсово, Малиновая гора, болотная петля',
+        sneg: 'toksovskiy-park',
         info: 'Абсолютно плоская классическая лыжня по болоту, подготавливаемая энтузиастами.',
         link: 'https://vk.com/malingora',
         gpx: 'tracks/ski/toksovo_malinova_gora_swamp_ski_omaps.gpx',
@@ -300,6 +316,7 @@ let skiTracks = [
     },
     {
         name: 'Малиновая гора - Осельки',
+        sneg: 'toksovskiy-park',
         info: 'Лесная дорога, соединяющая две известные трассы.',
         link: 'https://vk.com/malingora',
         gpx: 'tracks/ski/toksovo_malinova_gora_oselki_ski_omaps.gpx',
@@ -309,6 +326,7 @@ let skiTracks = [
     },
     {
         name: 'Охта-парк, Toksovo Cup',
+        sneg: 'ohtapark',
         date: '2026-01-31',
         results: 'https://reg.o-time.ru/race/26025',
         link: 'https://vk.com/ohtapark',
@@ -322,6 +340,7 @@ let skiTracks = [
     },
     {
         name: 'Охта-парк, Toksovo Cup',
+        sneg: 'ohtapark',
         date: '2025-02-01',
         results: 'https://reg.o-time.ru/race/25033',
         info: 'Ближайший и возможно главный горнолыжный курорт в Санкт-Петербурге. Беговая лыжная трасса хороша и бесплатна, но посещение курорта - платное. Трасса Токсовского лыжного марафона 2025.',
@@ -336,6 +355,7 @@ let skiTracks = [
     },
     {
         name: 'Лемболово',
+        sneg: 'lembolovo',
         link: 'https://vk.com/trassalembolovo',
         gpx: 'tracks/ski/lembolovo_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -347,13 +367,15 @@ let skiTracks = [
         type: ['SKI']
     },
     {
-        name: 'Орехово, двадцать от станции',
+        name: 'Орехово, двадцатка прямо от станции',
+        sneg: 'orehovo-ls',
         link: 'https://vk.com/orehovo_ski',
         gpx: 'tracks/ski/orekhovo_20_ski_omaps.gpx',
         type: ['SKI']
     },
     {
         name: 'Орехово, Лыжные стрелы',
+        sneg: 'orehovo-ls',
         year: 2025,
         link: 'https://vk.com/orehovo_ski',
         gpx: 'tracks/ski/orekhovo_ski_arrow_2025_omaps.gpx',
@@ -364,6 +386,7 @@ let skiTracks = [
     },
     {
         name: 'Ореховская Дюжина',
+        sneg: 'orehovo-baza',
         date: '2026-01-25',
         link: 'https://www.multsport.ru/starts/orehovo-12km26/',
         results: 'https://reg.o-time.ru/race/25061',
@@ -385,6 +408,7 @@ let skiTracks = [
     },
     {
         name: 'Орехово, "Авангард"',
+        sneg: 'orehovo-baza',
         link: 'https://vk.com/orehovo_ski',
         pic: './tracks/orekhovo/ski_1.jpg',
         info: '"Авангард выкупили, идёт стройка. Вопрос там трассы пока под сомнением."',
@@ -393,6 +417,7 @@ let skiTracks = [
     },
     {
         name: 'Орехово, "ГТО"',
+        sneg: 'orehovo-baza',
         link: 'https://vk.com/orehovo_ski',
         pic: './tracks/orekhovo/ski_1.jpg',
         info: 'Несложный круг с плавным рельефом.',
@@ -403,6 +428,7 @@ let skiTracks = [
     },
     {
         name: 'Гарболово, "НАША ТРАССА", GARBOSKI',
+        sneg: 'garbolovo',
         date: '2025-02-16',
         results: 'https://reg.o-time.ru/race/25052',
         info: 'Круги: <ol><li><b>"Семейный"</b> - Идеален для семейных прогулок с детьми, первоначального обучения технике конькового и классического хода. На нем нет опасных спусков и крутых подъемов.</li>' +
@@ -430,6 +456,7 @@ let skiTracks = [
     },
     {
         name: 'Павлово',
+        sneg: 'pavlovo',
         info: 'Очень симпатичный лыжный круг с хорошим рельефом.',
         gpx: 'tracks/ski/pavlovo_ski_omaps.gpx',
         pics: ['ski/pavlovo',2],
@@ -439,6 +466,7 @@ let skiTracks = [
     },
     {
         name: 'Парголово',
+        sneg: 'pargolovo',
         year: 2026,
         info: 'Единственная в черте города лыжная трасса с более-менее серьёзным рельефом.',
         link: 'https://vk.com/skipargolovo',
@@ -458,6 +486,7 @@ let skiTracks = [
     },
     {
         name: 'Игора-Драйв',
+        sneg: 'igora',
         date: '2025-01-19',
         link: 'https://drive-igora.ru/events/lyzhnaya-gonka-igora-drayv/',
         results: 'https://reg.o-time.ru/race/25069',
@@ -485,6 +514,7 @@ let skiTracks = [
     },
     {
         name: 'Выборгский лыжный марафон',
+        sneg: 'vyborg',
         date: '2025-02-22',
         link: 'https://vk.com/vyborgmarathon',
         results: 'https://reg.o-time.ru/race/25053',
@@ -507,6 +537,7 @@ let skiTracks = [
     },
     {
         name: 'Дудергоф, Можайская',
+        sneg: 'dudergof',
         info: 'Отличная гора практически в черте города!',
         link: 'https://vk.com/svdudergof',
         gpx: 'tracks/ski/mozhaika_dudergof_ski_omaps.gpx',
@@ -517,6 +548,7 @@ let skiTracks = [
     },
     {
         name: 'Дудергофские медведи',
+        sneg: 'duderbears',
         date: '2024-03-02',
         info: 'Практически плоская лыжная трасса по полям.',
         link: 'https://vk.com/dudergof_bear',
@@ -564,6 +596,7 @@ let skiTracks = [
     },
     {
         name: 'Кировск',
+        sneg: 'kirovsk-lo',
         link: 'https://vk.com/club85930070',
         gpx: 'tracks/ski/kirovsk_lenoblast_ski_omaps.gpx',
         video: 'https://www.youtube.com/watch?v=FyM7SZGr2bc',
@@ -571,6 +604,7 @@ let skiTracks = [
     },
     {
         name: 'Гатчинский лыжный марафон',
+        sneg: 'gatchina',
         date: '2024-03-08',
         results: 'https://reg.o-time.ru/race/24254',
         gpx: {
@@ -608,6 +642,7 @@ let skiTracks = [
     },
     {
         name: 'Луга, б/о Штоль',
+        sneg: 'shtol',
         gpx: 'tracks/ski/luga_shtol_omaps.gpx',
         info: 'Асфальтовая лыжероллерная дорожка.',
         owner: 'LUGA_RUN_SKI',
@@ -616,6 +651,7 @@ let skiTracks = [
     },
     {
         name: 'Луга, Розановский круг',
+        sneg: 'rozanov-ski',
         gpx: 'tracks/ski/luga_rozanovsky_omaps.gpx',
         owner: 'LUGA_RUN_SKI',
         ski_kind: 'SKATE_ROUTE',
@@ -639,6 +675,7 @@ let skiTracks = [
     },
     {
         name: 'Ломоносов, Верхние Венки',
+        sneg: 'venki-lomonosov',
         info: 'Холмистую трассу готовит на энтузиазме бывший учитель физкультуры.',
         gpx: 'tracks/ski/lomonosov_ski_omaps.gpx',
         type: ['SKI']
@@ -660,6 +697,7 @@ let skiTracks = [
     },
     {
         name: 'Пески, лыжероллерная трасса Ярви',
+        sneg: 'yarvi',
         link: 'https://jarviresort.ru/',
         gpx: {
             'Все лыжни':'tracks/ski/peski_jarvi_total_omaps.gpx',
@@ -677,11 +715,13 @@ let skiTracks = [
     },
     {
         name: 'Сосновый Бор, Приморский парк',
+        sneg: 'primorsky-sosnobybor',
         gpx: 'tracks/ski/sosnovy_bor_primorsky_park_omaps.gpx',
         type: ['SKI']
     },
     {
         name: 'Сосновый Бор, Малахит',
+        sneg: 'malahit-sosnovybor',
         link: 'https://vk.com/club.sb_biathlon',
         gpx: 'tracks/ski/sosnovy_bor_malakhit_omaps.gpx',
         pics: ['ski/malakhit',1],
@@ -689,6 +729,7 @@ let skiTracks = [
     },
     {
         name: 'Тихвинский лыжный марафон',
+        sneg: 'tihvin',
         date: '2024-01-28',
         info: '20 и 50 км.',
         link: 'https://vk.com/club199236798',
@@ -700,12 +741,14 @@ let skiTracks = [
     },
     {
         name: 'Тихвин, Фишева гора',
+        sneg: 'tihvin',
         gpx: 'tracks/ski/tikhvin_fisheva_omaps.gpx',
         logo: 'tikhvin.gif',
         type: ['SKI']
     },
     {
         name: 'Шапки',
+        sneg: 'shapki-sport',
         link: 'https://vk.com/ski_shapki',
         info: 'Коньковый круг от лыжной базы.',
         gpx: 'tracks/ski/shapki_ski_omaps.gpx',
@@ -714,6 +757,7 @@ let skiTracks = [
     },
     {
         name: 'Шапки, Лыжные стрелы 2025/2026',
+        sneg: 'shapki-ls',
         link: 'https://vk.com/wall-210604144_10259',
         info: 'Работают лыжные дистанции 5 и 10 км на запасной трассе (проход к старту в 500 метрах от ж/д станции в сторону базы отдыха Пикник).',
         gpx: 'tracks/ski/shapki_ski_arrows_2025_omaps.gpx',
@@ -724,12 +768,14 @@ let skiTracks = [
     },
     {
         name: 'Приозерск',
+        sneg: 'priozersk',
         info: 'Приозерская городская лыжня. Широкая ровная трасса с одной небольшой горкой.',
         gpx: 'tracks/ski/priozersk_lenoblast_ski_omaps.gpx',
         type: ['SKI']
     },
     {
         name: 'Волхов',
+        sneg: 'volhov',
         info: 'Неплохая для небольшого городка лыжная трасса при лыжной базе "Двугорье". Есть прокат, раздевалка и магазин.',
         gpx: 'tracks/ski/volhov_dvugorie_ski_omaps.gpx',
         type: ['SKI']
@@ -741,6 +787,7 @@ let skiTracks = [
     },
     {
         name: 'Лодейное Поле',
+        sneg: 'lodeynoe-pole',
         gpx: 'tracks/ski/lodeynoe_pole_ski_omaps.gpx',
         info: 'Проводятся тренировки местной спортшколы. Максимальный круг 5 км. Рельефная. Широкая. Есть прокат. Телефон лыжной базы: +7 (81364) 2-64-63.',
         ski_kind: 'SKATE_ROUTE',
@@ -748,6 +795,7 @@ let skiTracks = [
     },
     {
         name: 'Петрозаводск, Курган',
+        sneg: 'kurgan',
         gpx: 'tracks/ski/ptz_kurgan_ski_omaps.gpx',
         info: 'Лыжный центр им Терентьева.',
         ski_kind: 'SKATE_ROUTE',
@@ -757,6 +805,7 @@ let skiTracks = [
     },
     {
         name: 'Петрозаводск, Фонтаны',
+        sneg: 'fontany',
         gpx: 'tracks/ski/ptz_fontany_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI'],
@@ -778,6 +827,7 @@ let skiTracks = [
 
     {
         name: 'Смоленск, Биатлонный комплекс ЧАЙКА',
+        sneg: 'chaika-smolensk',
         gpx: 'tracks/ski/smolensk_chaika_omaps.gpx',
         link: 'http://www.fbso.su/trenirovochnaya-baza/',
         info: 'Центр биатлона и лыжного спорта имеет полный набор трасс – от разминочных кругов, до кругов протяженностью 2,5 и 4 км. Этот единственный в Смоленской области ' +
@@ -810,6 +860,7 @@ let skiTracks = [
     },
     {
         name: 'Дёмино, лыжный центр',
+        sneg: 'demino',
         length: 50,
         region: 'YAROSLAVL',
         link: 'https://www.russialoppet.ru/events/demino2025.html',
@@ -855,6 +906,7 @@ let skiTracks = [
     },
     {
         name: 'Барвиха',
+        sneg: 'barviha',
         length: 5,
         source: 'https://www.stremglav.fun/tracks',
         link: 'https://skicup.ru/',
@@ -865,6 +917,7 @@ let skiTracks = [
     },
     {
         name: 'Красногорск',
+        sneg: 'krasnogorsk',
         length: 22.4,
         link: 'https://masouzorky.ru/lizhn',
         source: 'https://www.stremglav.fun/tracks/krasnogorsk',
@@ -891,6 +944,7 @@ let skiTracks = [
     },
     {
         name: 'ЦСП Измайлово',
+        sneg: 'vostochny',
         length: 5.7,
         link: 'https://лк-измайлово.рф/trassi/',
         source: 'https://www.stremglav.fun/tracks',
@@ -902,6 +956,7 @@ let skiTracks = [
     },
     {
         name: 'Истра, Соколиная гора',
+        sneg: 'sokolinagora',
         length: 3.7,
         source: 'https://www.stremglav.fun/tracks',
         link: 'https://visitistra.ru/ЗИМА-В-ИСТРЕ/',
@@ -914,6 +969,7 @@ let skiTracks = [
 
     {
         name: 'Альфа-Битца',
+        sneg: 'bitza',
         length: 19,
         region: 'MSK',
         source: 'https://www.stremglav.fun/tracks',
@@ -937,6 +993,7 @@ let skiTracks = [
     },
     {
         name: 'Борисово',
+        sneg: 'borisovo',
         length: 7.4,
         region: 'MSK',
         source: 'https://www.stremglav.fun/tracks',
@@ -946,6 +1003,7 @@ let skiTracks = [
     },
     {
         name: 'Бутово',
+        sneg: 'polyany',
         length: 12.4,
         region: 'MSK',
         source: 'https://www.stremglav.fun/tracks',
@@ -956,6 +1014,7 @@ let skiTracks = [
     },
     {
         name: 'Подольск, Дубровицы',
+        sneg: 'dubrovitsy',
         length: 5,
         region: 'MSK',
         source: 'https://www.stremglav.fun/tracks',
@@ -978,6 +1037,7 @@ let skiTracks = [
     },
     {
         name: 'Касарка, Переславский район',
+        sneg: 'kasarka',
         length: 10,
         region: 'YAROSLAVL',
         link: 'https://admpereslavl.ru/sportsmeny-na-start',
@@ -989,6 +1049,7 @@ let skiTracks = [
     },
     {
         name: 'Кашира, ДС «Юбилейный»',
+        sneg: 'kashira',
         length: 5.4,
         region: 'MSK',
         link: 'https://sk-kashira.ru/objects/362-mau-sportklub-kashira-imeni-npeliseeva-ds-jubilejnyj.html',
@@ -1000,6 +1061,7 @@ let skiTracks = [
     },
     {
         name: 'Кирики-Улита',
+        sneg: 'kiriki-ulita',
         region: 'VOLOGDA',
         source: 'https://www.stremglav.fun/tracks',
         link: 'https://vologdamarafon.ru/marafon/покровский-классический-марафон/',
@@ -1012,6 +1074,7 @@ let skiTracks = [
     },
     {
         name: 'Комёла',
+        sneg: 'komela',
         length: 12.8,
         region: 'VOLOGDA',
         link: 'https://travel-vologda.ru/napravleniya/vologodskaya-oblast/za-vpechatleniyami/czentr-sporta-i-otdyixa-komela',
@@ -1022,6 +1085,7 @@ let skiTracks = [
     },
     {
         name: 'Троицк, ГСОБ «Лесная»',
+        sneg: 'troitsk',
         length: 9.7,
         region: 'MSK',
         source: 'https://www.stremglav.fun/tracks',
@@ -1032,6 +1096,7 @@ let skiTracks = [
     },
     {
         name: 'Вологда, «Локомотив»',
+        sneg: 'loco-vologda',
         length: 7.4,
         region: 'VOLOGDA',
         source: 'https://www.stremglav.fun/tracks',
@@ -1042,6 +1107,7 @@ let skiTracks = [
     },
     {
         name: 'Нижнецарицынская',
+        sneg: 'nizhetsaritsynskaya',
         length: 7,
         region: 'MSK',
         source: 'https://www.stremglav.fun/tracks',
@@ -1061,6 +1127,7 @@ let skiTracks = [
     },
     {
         name: 'Ромашково',
+        sneg: 'romashkovo',
         region: 'MSK',
         source: 'https://www.stremglav.fun/tracks/romashkovo',
         link: 'https://www.sk-romashkovo.ru/trace/',
@@ -1071,6 +1138,7 @@ let skiTracks = [
     },
     {
         name: 'Щёлково, «Десятка»',
+        sneg: 'fryazino-desyatka',
         length: 5,
         region: 'MSK',
         source: 'https://www.stremglav.fun/tracks',
@@ -1090,6 +1158,7 @@ let skiTracks = [
     },
     {
         name: 'Ступино, Соколиная Пустынь',
+        sneg: 'sokolova-pustyn',
         length: 3,
         region: 'MSK',
         link: 'https://m.mosoblles.ru/press-center/current_news/?id=10360',
@@ -1100,6 +1169,7 @@ let skiTracks = [
     },
     {
         name: 'Дмитров, ЦЗВС',
+        sneg: 'czvs-dmitrov',
         length: 12,
         region: 'MSK',
         link: 'https://www.dmitrov.ru/',
@@ -1114,6 +1184,7 @@ let skiTracks = [
     },
     {
         name: 'Климовск, Весенняя',
+        sneg: 'klimovsk',
         length: 5.8,
         region: 'MSK',
         source: 'https://www.stremglav.fun/tracks',
@@ -1124,6 +1195,7 @@ let skiTracks = [
     },
     {
         name: 'Вороново',
+        sneg: 'voronovo',
         length: 10.4,
         region: 'MSK',
         link: 'https://gto.sport.mos.ru/',
@@ -1496,6 +1568,7 @@ let skiTracks = [
     },
     {
         name: 'BESTSKI',
+        sneg: 'bestskikemerovo',
         length: 2.7,
         region: 'KEMEROVO',
         source: 'stremglav',
@@ -1506,6 +1579,7 @@ let skiTracks = [
     },
     {
         name: 'Берёзовский, Кемерово',
+        sneg: 'berezobski',
         length: 8.4,
         region: 'KEMEROVO',
         source: 'stremglav',
@@ -1548,6 +1622,7 @@ let skiTracks = [
     },
     {
         name: 'ЛБ Янтарь',
+        sneg: 'jantar-tomsk',
         length: 11,
         region: 'TOMSK',
         source: 'stremglav',
@@ -1557,6 +1632,7 @@ let skiTracks = [
     },
     {
         name: 'Ижевск, Снежинка',
+        sneg: 'snejizhevsk',
         length: 10,
         region: 'UDMURTIA',
         source: 'stremglav',
@@ -1567,6 +1643,7 @@ let skiTracks = [
     },
     {
         name: 'Губаха, УХТК',
+        sneg: 'gubaha-uhtk',
         length: 14,
         region: 'PERM',
         source: 'stremglav',
@@ -1685,6 +1762,7 @@ let skiTracks = [
     },
     {
         name: 'Dvorista',
+        sneg: 'dvorista',
         region: 'BOSNIA',
         source: 'stremglav',
         gpx: 'tracks/ski/dvorista_bosnia_ski_omaps.gpx',
@@ -1693,6 +1771,7 @@ let skiTracks = [
     },
     {
         name: 'Jogllandloipe Wien',
+        sneg: 'jogllandloipe',
         region: 'AUSTRIA',
         source: 'stremglav',
         gpx: 'tracks/ski/jogllandloipe_wien_alps_ski_omaps.gpx',
@@ -1701,6 +1780,7 @@ let skiTracks = [
     },
     {
         name: 'Kapaonik',
+        sneg: 'kapaonik',
         region: 'SERBIA',
         source: 'stremglav',
         gpx: 'tracks/ski/kapaonik_ski_omaps.gpx',
@@ -1709,6 +1789,7 @@ let skiTracks = [
     },
     {
         name: 'Lahti',
+        sneg: 'lahti',
         region: 'FINLAND',
         source: 'stremglav',
         gpx: 'tracks/ski/lahti_2_ski_omaps.gpx',
@@ -1717,6 +1798,7 @@ let skiTracks = [
     },
     {
         name: 'Oittaa',
+        sneg: 'oittaa',
         region: 'FINLAND',
         source: 'stremglav',
         gpx: 'tracks/ski/oittaa_ski_omaps.gpx',
@@ -1725,6 +1807,7 @@ let skiTracks = [
     },
     {
         name: 'Sienica',
+        sneg: 'sjenica',
         region: 'SERBIA',
         source: 'stremglav',
         gpx: 'tracks/ski/sienica_serbia_ski_omaps.gpx',
@@ -1733,6 +1816,7 @@ let skiTracks = [
     },
     {
         name: 'Tic Polje Zlatibor',
+        sneg: 'tic-zlatibor',
         region: 'SERBIA',
         source: 'stremglav',
         gpx: 'tracks/ski/tic_polje_zlatibor_serbia_ski_omaps.gpx',
@@ -1741,6 +1825,7 @@ let skiTracks = [
     },
     {
         name: 'Veliko polje Igman',
+        sneg: 'igman',
         region: 'BOSNIA',
         source: 'stremglav',
         gpx: 'tracks/ski/veliko_polje_igman_bosnia_ski_omaps.gpx',
@@ -1749,6 +1834,7 @@ let skiTracks = [
     },
     {
         name: 'Villagio',
+        sneg: 'villagio',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/villagio_ski_omaps.gpx',
@@ -1781,6 +1867,7 @@ let skiTracks = [
     },
     {
         name: 'Чкаловский, Авиатор',
+        sneg: 'staviator',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/aviator_chkalovskiy_ski_omaps.gpx',
@@ -1797,6 +1884,7 @@ let skiTracks = [
     },
     {
         name: 'Акатово',
+        sneg: 'akatovo',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/akatovo_ski_omaps.gpx',
@@ -1805,6 +1893,7 @@ let skiTracks = [
     },
     {
         name: 'Алешкино',
+        sneg: 'aleshkino',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/aleshkino_ski_omaps.gpx',
@@ -1821,6 +1910,7 @@ let skiTracks = [
     },
     {
         name: 'Альпийская деревня',
+        sneg: 'alpendorf',
         region: 'OMSK',
         source: 'stremglav',
         gpx: 'tracks/ski/alpiyskaya_derevnya_omsk_ski_omaps.gpx',
@@ -1837,6 +1927,7 @@ let skiTracks = [
     },
     {
         name: 'Аннино',
+        sneg: 'annino',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/annino_ski_omaps.gpx',
@@ -1845,6 +1936,7 @@ let skiTracks = [
     },
     {
         name: 'Воскресенск, Ашитково',
+        sneg: 'ashitkovo',
         region: 'NSK',
         source: 'stremglav',
         gpx: 'tracks/ski/ashitkovo_voskresensk_ski_omaps.gpx',
@@ -1869,6 +1961,7 @@ let skiTracks = [
     },
     {
         name: 'Байкальск',
+        sneg: 'baikalsk',
         region: 'IRKUTSK',
         source: 'stremglav',
         gpx: 'tracks/ski/baykalsk_vostok_ski_omaps.gpx',
@@ -1877,6 +1970,7 @@ let skiTracks = [
     },
     {
         name: 'Балакирево',
+        sneg: 'balakirevo',
         region: 'VLADIMIR',
         source: 'stremglav',
         gpx: 'tracks/ski/balakirevo_ski_omaps.gpx',
@@ -1893,6 +1987,7 @@ let skiTracks = [
     },
     {
         name: 'Баринова роща',
+        sneg: 'barinova-roscha',
         region: 'VLADIMIR',
         source: 'stremglav',
         gpx: 'tracks/ski/barinova_roshcha_gus_ski_omaps.gpx',
@@ -1901,6 +1996,7 @@ let skiTracks = [
     },
     {
         name: 'Сургут, Барсово',
+        sneg: 'barsovo',
         region: 'KHMAO',
         source: 'stremglav',
         gpx: 'tracks/ski/barsovo_surgut_ski_omaps.gpx',
@@ -1909,6 +2005,7 @@ let skiTracks = [
     },
     {
         name: 'Белокуриха-2',
+        sneg: 'belokuriha2',
         region: 'ALTAI',
         source: 'stremglav',
         gpx: 'tracks/ski/belokurikha_2_ski_omaps.gpx',
@@ -1917,6 +2014,7 @@ let skiTracks = [
     },
     {
         name: 'Белокуриха',
+        sneg: 'belokuriha',
         region: 'ALTAI',
         source: 'stremglav',
         gpx: 'tracks/ski/belokurikha_altay_ski_omaps.gpx',
@@ -1925,6 +2023,7 @@ let skiTracks = [
     },
     {
         name: 'Никольск, Белочка',
+        sneg: 'belochka',
         region: 'PENZA',
         source: 'stremglav',
         gpx: 'tracks/ski/belochka_nikolsk_ski_omaps.gpx',
@@ -1949,6 +2048,7 @@ let skiTracks = [
     },
     {
         name: 'БКБ Фряново',
+        sneg: 'fryanovo',
         year: 2024,
         region: 'MSK',
         gpx: {
@@ -1968,6 +2068,7 @@ let skiTracks = [
     },
     {
         name: 'Большой Газон МГУ',
+        sneg: 'msu',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/bolshoy_gazon_mgu_ski_omaps.gpx',
@@ -1976,6 +2077,7 @@ let skiTracks = [
     },
     {
         name: 'Большой Луг, Академгородок',
+        sneg: 'blug-irk',
         region: 'IRKUTSK',
         gpx: 'tracks/ski/bolshoy_lug_akademgorodok_irkutsk_vostok_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -1983,6 +2085,7 @@ let skiTracks = [
     },
     {
         name: 'Ботанический и Останкино',
+        sneg: 'botanicheskiy-ostankino',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/botanicheskiy_i_ostankino_ski_omaps.gpx',
@@ -1991,6 +2094,7 @@ let skiTracks = [
     },
     {
         name: 'Братеевская пойма',
+        sneg: 'brateevo',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/brateevskaya_poyma_ski_omaps.gpx',
@@ -1999,6 +2103,7 @@ let skiTracks = [
     },
     {
         name: 'Братьев Асафьевых',
+        sneg: 'asafievyh',
         region: 'TVER',
         source: 'stremglav',
         gpx: 'tracks/ski/bratev_asafevykh_ski_omaps.gpx',
@@ -2007,6 +2112,7 @@ let skiTracks = [
     },
     {
         name: 'Бронницкая лыжня',
+        sneg: 'bronnicy',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/bronnitskaya_lyzhnya_ski_omaps.gpx',
@@ -2015,6 +2121,7 @@ let skiTracks = [
     },
     {
         name: 'Брянск',
+        sneg: 'briansk',
         region: 'NSK',
         source: 'stremglav',
         gpx: 'tracks/ski/bryansk_ski_omaps.gpx',
@@ -2031,6 +2138,7 @@ let skiTracks = [
     },
     {
         name: 'Буревестник, Инюшенский бор',
+        sneg: 'burevestnik-nsk',
         region: 'NSK',
         source: 'stremglav',
         gpx: 'tracks/ski/burevestnik_inyushenskiy_bor_ski_omaps.gpx',
@@ -2047,6 +2155,7 @@ let skiTracks = [
     },
     {
         name: 'Бушарино',
+        sneg: 'busharino',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/busharino_ski_omaps.gpx',
@@ -2055,6 +2164,7 @@ let skiTracks = [
     },
     {
         name: 'Варварино',
+        sneg: 'krasnaya-pahra',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/varvarino_ski_omaps.gpx',
@@ -2063,6 +2173,7 @@ let skiTracks = [
     },
     {
         name: 'Веденина ЛРК',
+        sneg: 'vedenina-tula',
         region: 'TULA',
         source: 'stremglav',
         gpx: 'tracks/ski/vedenina_lrk_tsentr_1_ski_omaps.gpx',
@@ -2071,6 +2182,7 @@ let skiTracks = [
     },
     {
         name: 'Муром, Верба',
+        sneg: 'verba-murom',
         region: 'VLADIMIR',
         source: 'stremglav',
         gpx: 'tracks/ski/verba_murom_ski_omaps.gpx',
@@ -2079,6 +2191,7 @@ let skiTracks = [
     },
     {
         name: 'Верея',
+        sneg: 'vereya',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/vereya_ski_omaps.gpx',
@@ -2087,6 +2200,7 @@ let skiTracks = [
     },
     {
         name: 'Веснянка',
+        sneg: 'vesnianka',
         region: 'BELARUS',
         source: 'stremglav',
         gpx: 'tracks/ski/vesnyanka_belorus_ski_omaps.gpx',
@@ -2095,6 +2209,7 @@ let skiTracks = [
     },
     {
         name: 'л/п Видное',
+        sneg: 'vidnoe',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/vidnoe_lesopark_ski_omaps.gpx',
@@ -2103,6 +2218,7 @@ let skiTracks = [
     },
     {
         name: 'Великие Луки, ВЛГАФК',
+        sneg: 'senchitski',
         region: 'SMOLENSK',
         source: 'stremglav',
         gpx: 'tracks/ski/vlgafk_velikie_luki_ski_omaps.gpx',
@@ -2111,6 +2227,7 @@ let skiTracks = [
     },
     {
         name: 'Вожега',
+        sneg: 'vojega',
         region: 'VOLOGDA',
         source: 'stremglav',
         gpx: 'tracks/ski/vozhega_sever_ski_omaps.gpx',
@@ -2127,6 +2244,7 @@ let skiTracks = [
     },
     {
         name: 'Волкуша',
+        sneg: 'volkusha',
         year: 2024,
         region: 'MSK',
         source: 'stremglav',
@@ -2136,6 +2254,7 @@ let skiTracks = [
     },
     {
         name: 'Волоколамск',
+        sneg: 'volokolamsk',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/volokolamsk_ski_omaps.gpx',
@@ -2144,6 +2263,7 @@ let skiTracks = [
     },
     {
         name: 'Елец, Воргол',
+        sneg: 'vorgol',
         region: 'TULA',
         source: 'stremglav',
         gpx: 'tracks/ski/vorgol_elets_ski_omaps.gpx',
@@ -2160,6 +2280,7 @@ let skiTracks = [
     },
     {
         name: 'Воскресенское лыжня',
+        sneg: 'voskresenskoe',
         region: 'NSK',
         source: 'stremglav',
         gpx: 'tracks/ski/voskresenskoe_lyzhnya_ski_omaps.gpx',
@@ -2168,6 +2289,7 @@ let skiTracks = [
     },
     {
         name: 'Восточное Измайлово',
+        sneg: 'izmailovo-oriental',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/vostochnoe_izmaylovo_ski_omaps.gpx',
@@ -2176,6 +2298,7 @@ let skiTracks = [
     },
     {
         name: 'Высоковск',
+        sneg: 'vysokovsk',
         region: 'TVER',
         source: 'stremglav',
         gpx: 'tracks/ski/vysokovsk_ski_omaps.gpx',
@@ -2184,6 +2307,7 @@ let skiTracks = [
     },
     {
         name: 'Вышний Волочек',
+        sneg: 'vvolochek',
         region: 'TVER',
         source: 'stremglav',
         gpx: 'tracks/ski/vyshniy_volochek_ski_omaps.gpx',
@@ -2192,6 +2316,7 @@ let skiTracks = [
     },
     {
         name: 'Галич Толтуново',
+        sneg: 'galich',
         region: 'KOSTROMA',
         source: 'stremglav',
         gpx: 'tracks/ski/galich_toltunovo_sever_ski_omaps.gpx',
@@ -2200,6 +2325,7 @@ let skiTracks = [
     },
     {
         name: 'Десногорск, Генино',
+        sneg: 'genino',
         region: 'SMOLENSK',
         source: 'stremglav',
         gpx: 'tracks/ski/genino_desnogorsk_ski_omaps.gpx',
@@ -2208,6 +2334,7 @@ let skiTracks = [
     },
     {
         name: 'Гигирево',
+        sneg: 'gigirevo',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/gigirevo_ski_omaps.gpx',
@@ -2224,6 +2351,7 @@ let skiTracks = [
     },
     {
         name: 'ул Головачева, квт 23',
+        sneg: 'kuzminki-golovacheva',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/golovacheva_kv_23_ski_omaps.gpx',
@@ -2232,6 +2360,7 @@ let skiTracks = [
     },
     {
         name: 'Головино',
+        sneg: 'golovino',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/golovino_ski_omaps.gpx',
@@ -2240,6 +2369,7 @@ let skiTracks = [
     },
     {
         name: 'Голубое',
+        sneg: 'goluboe-classic',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/goluboe_classic_2024_ski_omaps.gpx',
@@ -2248,6 +2378,7 @@ let skiTracks = [
     },
     {
         name: 'Горский',
+        sneg: 'gorskiy',
         region: 'NSK',
         source: 'stremglav',
         gpx: 'tracks/ski/gorskiy_nsk_ski_omaps.gpx',
@@ -2256,6 +2387,7 @@ let skiTracks = [
     },
     {
         name: 'Гришкино',
+        sneg: 'grishkino',
         region: 'TVER',
         source: 'stremglav',
         gpx: 'tracks/ski/grishkino_ski_omaps.gpx',
@@ -2264,6 +2396,7 @@ let skiTracks = [
     },
     {
         name: 'Меленки, Гузеев Овраг',
+        sneg: 'guzeevovrag',
         region: 'VLADIMIR',
         source: 'stremglav',
         gpx: 'tracks/ski/guzeev_ovrag_melenki_ski_omaps.gpx',
@@ -2280,6 +2413,7 @@ let skiTracks = [
     },
     {
         name: 'Дзержинский, Угреша',
+        sneg: 'ugresha',
         region: 'NSK',
         source: 'stremglav',
         gpx: 'tracks/ski/dzerzhinskiy_ugresha_ski_omaps.gpx',
@@ -2288,6 +2422,7 @@ let skiTracks = [
     },
     {
         name: 'Динамо',
+        sneg: 'dinamo-nsk',
         region: 'NSK',
         source: 'stremglav',
         gpx: 'tracks/ski/dinamo_nsk_ski_omaps.gpx',
@@ -2296,6 +2431,7 @@ let skiTracks = [
     },
     {
         name: 'Доброград, Goodwill',
+        sneg: 'dobrograd',
         region: 'VLADIMIR',
         source: 'stremglav',
         gpx: 'tracks/ski/dobrograd_goodwill_ski_omaps.gpx',
@@ -2304,6 +2440,7 @@ let skiTracks = [
     },
     {
         name: 'Долгий пруд',
+        sneg: 'mfti',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/dolgiy_prud_ski_omaps.gpx',
@@ -2312,6 +2449,7 @@ let skiTracks = [
     },
     {
         name: 'Долина ручьев',
+        sneg: 'dolinaruchievhanty',
         region: 'KHMAO',
         source: 'stremglav',
         gpx: 'tracks/ski/dolina_ruchev_1_ski_omaps.gpx',
@@ -2320,6 +2458,7 @@ let skiTracks = [
     },
     {
         name: 'Домодедово',
+        sneg: 'domodedovo',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/domodedovo_ski_omaps.gpx',
@@ -2328,6 +2467,7 @@ let skiTracks = [
     },
     {
         name: 'Донинская просека',
+        sneg: 'doninskaya',
         region: 'NSK',
         source: 'stremglav',
         gpx: 'tracks/ski/doninskaya_proseka_ski_omaps.gpx',
@@ -2336,6 +2476,7 @@ let skiTracks = [
     },
     {
         name: 'Лотошино, Дубки',
+        sneg: 'lotoshino',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/dubki_lotoshino_ski_omaps.gpx',
@@ -2344,6 +2485,7 @@ let skiTracks = [
     },
     {
         name: 'Фрязино, Дубовая роща',
+        sneg: 'fryazino-park',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/dubovaya_roshcha_fryazino_ski_omaps.gpx',
@@ -2360,6 +2502,7 @@ let skiTracks = [
     },
     {
         name: 'ДЮСШ №5',
+        sneg: 'sportschool5-kostroma',
         region: 'KOSTROMA',
         source: 'stremglav',
         gpx: 'tracks/ski/dyussh_5_kostroma_ski_omaps.gpx',
@@ -2368,6 +2511,7 @@ let skiTracks = [
     },
     {
         name: 'Первоуральск, Европа-Азия',
+        sneg: 'europa-asia',
         region: 'EKB',
         source: 'stremglav',
         gpx: 'tracks/ski/evropa_aziya_pervouralsk_vostok_ski_omaps.gpx',
@@ -2376,6 +2520,7 @@ let skiTracks = [
     },
     {
         name: 'Елагино',
+        sneg: 'elagino',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/elagino_ski_omaps.gpx',
@@ -2384,6 +2529,7 @@ let skiTracks = [
     },
     {
         name: 'Ерши',
+        sneg: 'ershi',
         region: 'IRKUTSK',
         source: 'stremglav',
         gpx: 'tracks/ski/ershi_irkutsk_vostok_ski_omaps.gpx',
@@ -2392,6 +2538,7 @@ let skiTracks = [
     },
     {
         name: 'Звенигород, Ершово',
+        sneg: 'ershovo',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/ershovo_zvenigorod_ski_omaps.gpx',
@@ -2400,6 +2547,7 @@ let skiTracks = [
     },
     {
         name: 'Тольятти, Есенина',
+        sneg: 'esenina',
         region: 'SAMARA',
         source: 'stremglav',
         gpx: 'tracks/ski/esenina_tolyatti_ski_omaps.gpx',
@@ -2408,6 +2556,7 @@ let skiTracks = [
     },
     {
         name: 'Бийск, Забава',
+        sneg: 'zabava-bijsk',
         region: 'ALTAI',
         source: 'stremglav',
         gpx: 'tracks/ski/zabava_biysk_ski_omaps.gpx',
@@ -2416,6 +2565,7 @@ let skiTracks = [
     },
     {
         name: 'Завидово',
+        sneg: 'zavidovo',
         region: 'TVER',
         source: 'stremglav',
         gpx: 'tracks/ski/zavidovo_ski_omaps.gpx',
@@ -2424,6 +2574,7 @@ let skiTracks = [
     },
     {
         name: 'Павловский Посад, Заречье',
+        sneg: 'zarechie-pposad',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/zareche_pavlovskiy_posad_ski_omaps.gpx',
@@ -2432,6 +2583,7 @@ let skiTracks = [
     },
     {
         name: 'Бийск, Заря',
+        sneg: 'zaria-bijsk',
         region: 'ALTAI',
         source: 'stremglav',
         gpx: 'tracks/ski/zarya_biysk_ski_omaps.gpx',
@@ -2440,6 +2592,7 @@ let skiTracks = [
     },
     {
         name: 'Заря',
+        sneg: 'zarya-ulianovsk',
         region: 'ULYANOVSK',
         source: 'stremglav',
         gpx: 'tracks/ski/zarya_ulyanovsk_ski_omaps.gpx',
@@ -2448,6 +2601,7 @@ let skiTracks = [
     },
     {
         name: 'Зеленый, Заря',
+        sneg: 'zarya-zeleny',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/zarya_zelenyy_moskovskaya_obl_ski_omaps.gpx',
@@ -2456,6 +2610,7 @@ let skiTracks = [
     },
     {
         name: 'Великие Луки, Зеленка',
+        sneg: 'zelenka',
         region: 'SMOLENSK',
         source: 'stremglav',
         gpx: 'tracks/ski/zelenka_velikie_luki_ski_omaps.gpx',
@@ -2464,6 +2619,7 @@ let skiTracks = [
     },
     {
         name: 'Зеленоград, 17-й мкр.',
+        sneg: 'zelenograd17',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/zelenograd_17_y_mkr_ski_omaps.gpx',
@@ -2472,6 +2628,7 @@ let skiTracks = [
     },
     {
         name: 'Зеленоград, 7-й район',
+        sneg: 'zelenograd7',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/zelenograd_7_y_rayon_ski_omaps.gpx',
@@ -2480,6 +2637,7 @@ let skiTracks = [
     },
     {
         name: 'Зорино',
+        sneg: 'zorino',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/zorino_ski_omaps.gpx',
@@ -2488,6 +2646,7 @@ let skiTracks = [
     },
     {
         name: 'Зубец',
+        sneg: 'zubec',
         region: 'KLGA',
         source: 'stremglav',
         gpx: 'tracks/ski/zubets_long_ski_omaps.gpx',
@@ -2496,6 +2655,7 @@ let skiTracks = [
     },
     {
         name: 'Ивановское',
+        sneg: 'ivanovskoe',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/ivanovskoe_ski_omaps.gpx',
@@ -2504,6 +2664,7 @@ let skiTracks = [
     },
     {
         name: 'Ивантеевка',
+        sneg: 'ivanteevka',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/ivanteevka_ski_omaps.gpx',
@@ -2512,6 +2673,7 @@ let skiTracks = [
     },
     {
         name: 'Ивачково, Львовская',
+        sneg: 'lvovskaya',
         year: 2025,
         region: 'MSK',
         source: 'stremglav',
@@ -2521,6 +2683,7 @@ let skiTracks = [
     },
     {
         name: 'Измайлово, За пасекой',
+        sneg: 'izmailovo',
         length: 2.5,
         region: 'MSK',
         source: 'stremglav',
@@ -2530,6 +2693,7 @@ let skiTracks = [
     },
     {
         name: 'Измайлово Змейка',
+        sneg: 'izmailovo',
         length: 5,
         region: 'MSK',
         source: 'stremglav',
@@ -2539,6 +2703,7 @@ let skiTracks = [
     },
     {
         name: 'Изониха',
+        sneg: 'izoniha',
         region: 'VOLOGDA',
         source: 'stremglav',
         gpx: 'tracks/ski/izonikha_ski_omaps.gpx',
@@ -2587,6 +2752,7 @@ let skiTracks = [
     },
     {
         name: 'Кандалакша, Полярные зори',
+        sneg: 'polarnye-zori',
         region: 'MURMANSK',
         source: 'stremglav',
         gpx: 'tracks/ski/kandalaksha_polyarnye_zori_lineynyy_marafon_ski_omaps.gpx',
@@ -2595,6 +2761,7 @@ let skiTracks = [
     },
     {
         name: 'Каринское',
+        sneg: 'karinskoe',
         region: 'NSK',
         source: 'stremglav',
         gpx: 'tracks/ski/karinskoe_ski_omaps.gpx',
@@ -2603,6 +2770,7 @@ let skiTracks = [
     },
     {
         name: 'Карьки',
+        sneg: 'karki',
         region: 'TULA',
         source: 'stremglav',
         gpx: 'tracks/ski/karki_ski_omaps.gpx',
@@ -2611,6 +2779,7 @@ let skiTracks = [
     },
     {
         name: 'Качкарский мар',
+        sneg: 'kachkarka',
         region: 'ORENBURG',
         source: 'stremglav',
         gpx: 'tracks/ski/kachkarskiy_mar_orenburg_ski_omaps.gpx',
@@ -2619,6 +2788,7 @@ let skiTracks = [
     },
     {
         name: 'Сургут, Кедр',
+        sneg: 'kedr-surgut',
         region: 'KHMAO',
         source: 'stremglav',
         gpx: 'tracks/ski/kedr_surgut_ski_omaps.gpx',
@@ -2635,6 +2805,7 @@ let skiTracks = [
     },
     {
         name: 'Кировск парк',
+        sneg: 'kirovsk-park',
         region: 'KIROV',
         source: 'stremglav',
         gpx: 'tracks/ski/kirovsk_park_ski_omaps.gpx',
@@ -2651,6 +2822,7 @@ let skiTracks = [
     },
     {
         name: 'Кокчетау',
+        sneg: 'kokchetau',
         region: 'KAZAKHSTAN',
         source: 'stremglav',
         gpx: 'tracks/ski/kokchetau_kazakhstan_ski_omaps.gpx',
@@ -2683,6 +2855,7 @@ let skiTracks = [
     },
     {
         name: 'Королёв',
+        sneg: 'korolev',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/korolev_ski_omaps.gpx',
@@ -2691,6 +2864,7 @@ let skiTracks = [
     },
     {
         name: 'Корта',
+        sneg: 'korta',
         region: 'TATARSTAN',
         source: 'stremglav',
         gpx: 'tracks/ski/korta_vostok_ski_omaps.gpx',
@@ -2699,6 +2873,7 @@ let skiTracks = [
     },
     {
         name: 'Красного маяка',
+        sneg: 'krasnogo-mayaka',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/krasnogo_mayaka_2_pyaterki_ski_omaps.gpx',
@@ -2707,6 +2882,7 @@ let skiTracks = [
     },
     {
         name: 'Красное знамя',
+        sneg: 'krasnozna-nsk',
         region: 'NSK',
         source: 'stremglav',
         gpx: 'tracks/ski/krasnoe_znamya_nsk_ski_omaps.gpx',
@@ -2723,6 +2899,7 @@ let skiTracks = [
     },
     {
         name: 'Красные крылья',
+        sneg: 'red-wings',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/krasnye_krylya_ski_omaps.gpx',
@@ -2731,6 +2908,7 @@ let skiTracks = [
     },
     {
         name: 'Крутая горка',
+        sneg: 'krutaya-gorka',
         region: 'OMSK',
         source: 'stremglav',
         gpx: 'tracks/ski/krutaya_gorka_omsk_ski_omaps.gpx',
@@ -2739,6 +2917,7 @@ let skiTracks = [
     },
     {
         name: 'Крылатское',
+        sneg: 'krylatskoe',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/krylatskoe_ski_omaps.gpx',
@@ -2747,6 +2926,7 @@ let skiTracks = [
     },
     {
         name: 'Крылатское Осенняя, Москва',
+        sneg: 'osennyaia',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/krylatskoe_osennyaya_moskva_ski_omaps.gpx',
@@ -2755,6 +2935,7 @@ let skiTracks = [
     },
     {
         name: 'КСК Битца',
+        sneg: 'ksk-bitza',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/ksk_bittsa_ski_omaps.gpx',
@@ -2763,6 +2944,7 @@ let skiTracks = [
     },
     {
         name: 'Кузина',
+        sneg: 'arh-kuzina',
         region: 'ARKHANGELSK',
         source: 'stremglav',
         gpx: 'tracks/ski/kuzina_arkhangelsk_ski_omaps.gpx',
@@ -2771,6 +2953,7 @@ let skiTracks = [
     },
     {
         name: 'Кузьминки Головачева',
+        sneg: 'kuzminki-golovacheva',
         region: 'MSK',
         gpx: 'tracks/ski/kuzminki_golovacheva_25_26_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -2778,6 +2961,7 @@ let skiTracks = [
     },
     {
         name: 'Кузьминки Заречная',
+        sneg: 'kuzminki',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/kuzminki_zarechnaya_ski_omaps.gpx',
@@ -2794,6 +2978,7 @@ let skiTracks = [
     },
     {
         name: 'Кусково',
+        sneg: 'kuskovo',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/kuskovo_ski_omaps.gpx',
@@ -2810,6 +2995,7 @@ let skiTracks = [
     },
     {
         name: 'Лада парк',
+        sneg: 'lada-park',
         region: 'SAMARA',
         source: 'stremglav',
         gpx: 'tracks/ski/lada_park_vostok_ski_omaps.gpx',
@@ -2818,6 +3004,7 @@ let skiTracks = [
     },
     {
         name: 'Ласточка',
+        sneg: 'lastochka',
         region: 'IRKUTSK',
         source: 'stremglav',
         gpx: 'tracks/ski/lastochka_irkutsk_vostok_1_ski_omaps.gpx',
@@ -2826,6 +3013,7 @@ let skiTracks = [
     },
     {
         name: 'Лаура',
+        sneg: 'laura',
         region: 'KRASNODAR',
         source: 'stremglav',
         gpx: 'tracks/ski/laura_ski_omaps.gpx',
@@ -2834,6 +3022,7 @@ let skiTracks = [
     },
     {
         name: 'Мирный, Заречная',
+        sneg: 'mirnyi',
         region: 'DV',
         source: 'stremglav',
         gpx: 'tracks/ski/mirnyy_zarechnaya_ski_omaps.gpx',
@@ -2842,6 +3031,7 @@ let skiTracks = [
     },
     {
         name: 'ЛБ ФИАН',
+        sneg: 'puschino',
         region: 'TULA',
         source: 'stremglav',
         gpx: 'tracks/ski/lb_fian_ski_omaps.gpx',
@@ -2850,6 +3040,7 @@ let skiTracks = [
     },
     {
         name: 'ЛБК Ангарский',
+        sneg: 'lbk-angarsk',
         region: 'IRKUTSK',
         source: 'stremglav',
         gpx: 'tracks/ski/lbk_angarskiy_vostok_ski_omaps.gpx',
@@ -2858,6 +3049,7 @@ let skiTracks = [
     },
     {
         name: 'Левковская гора',
+        sneg: 'levkovskaya-gora',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/levkovskaya_gora_ski_omaps.gpx',
@@ -2866,6 +3058,7 @@ let skiTracks = [
     },
     {
         name: 'Павловский Посад, Ледовая арена',
+        sneg: 'petrusevoi-pposad',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/ledovaya_arena_pavlovskiy_posad_ski_omaps.gpx',
@@ -2874,6 +3067,7 @@ let skiTracks = [
     },
     {
         name: 'Лесопарк Елочки',
+        sneg: 'elochki',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/lesopark_elochki_ski_omaps.gpx',
@@ -2882,6 +3076,7 @@ let skiTracks = [
     },
     {
         name: 'Лесопарк Ступино',
+        sneg: 'stupino-les',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/lesopark_stupino_ski_omaps.gpx',
@@ -2890,6 +3085,7 @@ let skiTracks = [
     },
     {
         name: 'Летова тропа экопарк',
+        sneg: 'letova-tropa',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/letova_tropa_ekopark_ski_omaps.gpx',
@@ -2898,6 +3094,7 @@ let skiTracks = [
     },
     {
         name: 'Лидер [Иваново]',
+        sneg: 'lider-ivanovo',
         region: 'IVANOVO',
         source: 'stremglav',
         gpx: 'tracks/ski/lider_ivanovo_ski_omaps.gpx',
@@ -2906,6 +3103,7 @@ let skiTracks = [
     },
     {
         name: 'Лисья гора',
+        sneg: 'foxhill',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/lisya_gora_ski_omaps.gpx',
@@ -2914,6 +3112,7 @@ let skiTracks = [
     },
     {
         name: 'Лисья Грива, Нижний Новгород',
+        sneg: 'foxhillnn',
         region: 'N_NOVGOROD',
         source: 'stremglav',
         gpx: 'tracks/ski/lisya_griva_n_novgorod_ski_omaps.gpx',
@@ -2930,6 +3129,7 @@ let skiTracks = [
     },
     {
         name: 'Локомотив [Казань]',
+        sneg: 'lokokazan',
         region: 'TATARSTAN',
         source: 'stremglav',
         gpx: 'tracks/ski/lokomotiv_kazan_ski_omaps.gpx',
@@ -2945,6 +3145,7 @@ let skiTracks = [
     },
     {
         name: 'Богородское, Лотос',
+        sneg: 'lotos-bog',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/lotos_bogorodskoe_ski_omaps.gpx',
@@ -2953,6 +3154,7 @@ let skiTracks = [
     },
     {
         name: 'оз Борисоглебское',
+        sneg: 'ramenskoe-borisoglebskoe',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/lt_oz_borisoglebskoe_ski_omaps.gpx',
@@ -2961,6 +3163,7 @@ let skiTracks = [
     },
     {
         name: 'Лужники',
+        sneg: 'lujniki',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/luzhniki_ski_omaps.gpx',
@@ -2969,6 +3172,7 @@ let skiTracks = [
     },
     {
         name: 'Череповец, Лыжный стадион',
+        sneg: 'cherepovec-skistad',
         region: 'VOLOGDA',
         source: 'stremglav',
         gpx: 'tracks/ski/lyzhnyy_stadion_cherepovets_sever_ski_omaps.gpx',
@@ -2977,6 +3181,7 @@ let skiTracks = [
     },
     {
         name: 'Лыжня Андреева',
+        sneg: 'taldom',
         region: 'TVER',
         source: 'stremglav',
         gpx: 'tracks/ski/lyzhnya_andreevavv_ski_omaps.gpx',
@@ -3001,6 +3206,7 @@ let skiTracks = [
     },
     {
         name: 'Лысая гора',
+        sneg: 'bitca-lysaya',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/lysaya_gora_ski_omaps.gpx',
@@ -3009,6 +3215,7 @@ let skiTracks = [
     },
     {
         name: 'Любляна Егорьевск',
+        sneg: 'lyubliana-egorievsk',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/lyublyana_egorevsk_ski_omaps.gpx',
@@ -3017,6 +3224,7 @@ let skiTracks = [
     },
     {
         name: 'Дзержинск, Магнитная стрелка',
+        sneg: 'magnetic-niddle',
         region: 'NSK',
         source: 'stremglav',
         gpx: 'tracks/ski/magnitnaya_strelka_dzerzhinsk_ski_omaps.gpx',
@@ -3025,6 +3233,7 @@ let skiTracks = [
     },
     {
         name: 'Максима парк',
+        sneg: 'maksima',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/maksima_park_ski_omaps.gpx',
@@ -3033,6 +3242,7 @@ let skiTracks = [
     },
     {
         name: 'Малевич',
+        sneg: 'malevich',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/malevich_ski_omaps.gpx',
@@ -3049,6 +3259,7 @@ let skiTracks = [
     },
     {
         name: 'Марьино',
+        sneg: 'maryno',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/marino_ski_omaps.gpx',
@@ -3057,6 +3268,7 @@ let skiTracks = [
     },
     {
         name: 'Зеленодольск, Маяк',
+        sneg: 'zelenodolsk',
         region: 'TATARSTAN',
         source: 'stremglav',
         gpx: 'tracks/ski/mayak_zelenodolsk_ski_omaps.gpx',
@@ -3065,6 +3277,7 @@ let skiTracks = [
     },
     {
         name: 'Металлург Шелехов',
+        sneg: 'shel-met',
         region: 'IRKUTSK',
         source: 'stremglav',
         gpx: 'tracks/ski/metallurg_shelekhov_vostok_ski_omaps.gpx',
@@ -3073,6 +3286,7 @@ let skiTracks = [
     },
     {
         name: 'Мещерский',
+        sneg: 'meschersky',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/meshcherskiy_ski_omaps.gpx',
@@ -3081,6 +3295,7 @@ let skiTracks = [
     },
     {
         name: 'Микунь',
+        sneg: 'mikun',
         region: 'KOMI',
         source: 'stremglav',
         gpx: 'tracks/ski/mikun_ski_omaps.gpx',
@@ -3089,6 +3304,7 @@ let skiTracks = [
     },
     {
         name: 'Можайск',
+        sneg: 'mojaysk',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/mozhaysk_ski_omaps.gpx',
@@ -3113,6 +3329,7 @@ let skiTracks = [
     },
     {
         name: 'Мончегорск',
+        sneg: 'monchegorsk',
         region: 'MURMANSK',
         source: 'stremglav',
         gpx: 'tracks/ski/monchegorsk_ski_omaps.gpx',
@@ -3121,6 +3338,7 @@ let skiTracks = [
     },
     {
         name: 'Морозко, Нижний Новгород',
+        sneg: 'morozkonn',
         region: 'N_NOVGOROD',
         source: 'stremglav',
         gpx: 'tracks/ski/morozko_n_novgorod_ski_omaps.gpx',
@@ -3129,6 +3347,7 @@ let skiTracks = [
     },
     {
         name: 'Мураново',
+        sneg: 'muranovo',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/muranovo_ski_omaps.gpx',
@@ -3137,6 +3356,7 @@ let skiTracks = [
     },
     {
         name: 'Муратово Муром',
+        sneg: 'muratovo',
         region: 'VLADIMIR',
         source: 'stremglav',
         gpx: 'tracks/ski/muratovo_murom_tsentr_ski_omaps.gpx',
@@ -3145,6 +3365,7 @@ let skiTracks = [
     },
     {
         name: 'Мурмаши',
+        sneg: 'murmashi',
         region: 'MURMANSK',
         source: 'stremglav',
         gpx: 'tracks/ski/murmashi_ski_omaps.gpx',
@@ -3153,6 +3374,7 @@ let skiTracks = [
     },
     {
         name: 'Мытищи',
+        sneg: 'mytishchi',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/mytishchi_ski_omaps.gpx',
@@ -3161,6 +3383,7 @@ let skiTracks = [
     },
     {
         name: 'Нацпарк Лосиный остров',
+        sneg: 'losinyi-ostrov',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/natspark_losinyy_ostrov_ski_omaps.gpx',
@@ -3177,6 +3400,7 @@ let skiTracks = [
     },
     {
         name: 'Никола-Ленивец',
+        sneg: 'nikola',
         region: 'KLGA',
         source: 'stremglav',
         gpx: 'tracks/ski/nikola_lenivets_ski_omaps.gpx',
@@ -3185,6 +3409,7 @@ let skiTracks = [
     },
     {
         name: 'Николина Гора',
+        sneg: 'nikolinagora',
         region: 'MSK',
         gpx: {
             '1':'tracks/ski/nikolina_gora_ski_omaps.gpx',
