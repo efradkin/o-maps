@@ -3945,7 +3945,8 @@ let events2026 = [
         owner: 'FENIX',
         o_site: '2611280',
         reg: 'https://orgeo.ru/event/info/dm26',
-        endReg: '2026-11-25 12:00',
+        endReg: '2026-11-24 21:50',
+        bulletin: 'https://o-site.spb.ru/_races/2611280/261128_IB.pdf',
         map: 'poljustrovo_tukhachevskogo_2026'
     },
     {

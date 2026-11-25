@@ -119,7 +119,9 @@ let events2027 = [
         type: 'ROGAINE',
         fmt: '5, 3',
         coord: [60.460461, 30.292744],
-        reg: 'https://orgeo.ru/event/56720'
+        reg: 'https://orgeo.ru/event/56720',
+        endReg: '2027-02-20 19:00',
+        bulletin: 'https://orgeo.ru/files/event/file/56720_24c5fae7c4.pdf'
     },
     {
         id: 'SPB_20270227_1',
