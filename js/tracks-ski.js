@@ -954,7 +954,7 @@ let skiTracks = [
         sneg: 'barviha',
         info: 'Камерная лыжная трасса Клуба ветеранов спорта "Барвиха". Небольшая трасса, очень ухоженная, поддерживается круглогодично в хорошем состоянии. Навита вокруг неглубокого оврага, поэтому вся состоит из небольших подьемов и выкатов. Режется очень грамотно, хоть и не каждый день. Готовится снегоходом с навесными. Трасса характерна тем, что на значительном протяжении (почти все ровные места) полотна под классику и под конек идут параллельно, но отделены одно от другого.',
         length: 4.1,
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         link: ['https://skicup.ru/', 'http://skicup.ru/'],
         region: 'MSK',
         gpx: 'tracks/ski/barvikha_ski_omaps.gpx',
@@ -980,7 +980,7 @@ let skiTracks = [
         name: 'Планерная',
         length: 4,
         sneg: 'planernaya',
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         link: ['https://skimsu.ru/planernaya', 'https://mosskis.ru/21/'],
         region: 'MSK',
         info: 'Лыжная трасса в районе ОУСЦ «Планерная».',
@@ -993,7 +993,7 @@ let skiTracks = [
         sneg: 'vostochny',
         length: 6.7,
         link: ['https://лк-измайлово.рф/trassi/', 'https://vk.com/ski_east', 'https://www.skisport.ru/forum/cross-country-routes/34626/'],
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         region: 'MSK',
         info: 'Лыжная трасса ЦСП «Измайлово».',
         gpx: 'tracks/ski/izmailovo_csp_ski_omaps.gpx',
@@ -1004,12 +1004,11 @@ let skiTracks = [
         name: 'Истра, Соколиная гора',
         sneg: 'sokolinagora',
         length: 3.8,
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         link: 'https://visitistra.ru/ЗИМА-В-ИСТРЕ/',
         region: 'MSK',
         info: 'Лыжная трасса «Соколиная гора».',
         gpx: 'tracks/ski/istra_sokolinaya_gora_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
 
@@ -1018,7 +1017,7 @@ let skiTracks = [
         sneg: 'bitza',
         length: 23.4,
         region: 'MSK',
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         link: 'https://bitza-sport.ru/',
         info: 'Лыжный центр в Битце. Снегоход, прицепные устройства, ратрак, оснежение, раздевалка, прокат, сервис, шашлык',
         gpx: 'tracks/ski/alfa_bitsa_ski_omaps.gpx',
@@ -1031,7 +1030,7 @@ let skiTracks = [
         sneg: 'izmailovo',
         region: 'MSK',
         link: ['https://www.stadionavangard.ru/ski-map', 'http://лк-измайлово.рф/trassi/', 'https://www.skisport.ru/forum/cross-country-routes/93432/'],
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         info: 'Лыжная трасса спортивного комплекса «Авангард» в Измайлово. Трасса готовится ратраком. Лыжный комплекс стадиона Авангард открыт с 10 до 22 часов. В сезон 24-25 года планируется начало работы с 13-14 декабря. В 70м от трассы есть теплый туалет в помещении проката спортинвентаря.',
         gpx: 'tracks/ski/avangard_izmailovo_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -1043,9 +1042,8 @@ let skiTracks = [
         length: 7.5,
         region: 'MSK',
         link: ['https://borisovo.club/', 'https://vk.com/borisovo.club', 'https://www.skisport.ru/forum/cross-country-routes/90833/'],
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         gpx: 'tracks/ski/borisovo_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1054,7 +1052,7 @@ let skiTracks = [
         info: 'Для подготовки лыжных трасс используется ратрак. Протяженность трасс от 1 до 17 км. Есть роллерная трасса, освещение на ней, раздевалка, душ, прокат, сервис, кафе.',
         length: 17.4,
         region: 'MSK',
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         link: ['https://polyanybutovo.ru/', 'https://t.me/MakoveevAndreybiathlon1', 'https://vk.com/club218008245', 'https://t.me/+EIq8n4BDrYBiYzFi'],
         gpx: 'tracks/ski/butovo_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -1066,7 +1064,7 @@ let skiTracks = [
         info: 'Роллерка, освещение. Асфальтовый круг 3 км, (3 спуска и подьема, все пологие), есть срезки на 500, 800м, 1 км и 2 км. Петля 5 км в асфальтовой крошке, там на вело или бегом). Парковка, раздевалки(только для спортшколы), кафешка. Рельеф небольшой.',
         length: 4.6,
         region: 'MSK',
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         link: ['https://skipodolsk.ru/track', 'https://www.skisport.ru/forum/cross-country-routes/92923/', 'https://dubrovitsi.ru/les', 'https://t.me/+wZGBa72nhlgxNjgy'],
         gpx: 'tracks/ski/dubrovitsy_podolsk_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -1078,7 +1076,7 @@ let skiTracks = [
         sneg: 'snegiri',
         region: 'MSK',
         link: 'https://гтоклуб.рф/trassy',
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         info: 'Лыжная трасса ГТО-клуба «Снегири».',
         gpx: 'tracks/ski/gto_snegiri_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -1090,10 +1088,9 @@ let skiTracks = [
         length: 25.8,
         region: 'YAROSLAVL',
         link: ['https://admpereslavl.ru/sportsmeny-na-start', 'https://vk.com/public204355803', 'https://www.skisport.ru/forum/cross-country-routes/67631/'],
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         info: 'Лыжная трасса в районе посёлка Залесский. Рядом с трассой есть парк-отель: https://yandex.com/maps/-/CPEVU25s',
         gpx: 'tracks/ski/kasarka_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1102,7 +1099,7 @@ let skiTracks = [
         length: 5.6,
         region: 'MSK',
         link: 'https://sk-kashira.ru/objects/362-mau-sportklub-kashira-imeni-npeliseeva-ds-jubilejnyj.html',
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         info: 'Лыжная трасса спортивного комплекса «Юбилейный». Трасса освещена на протяжении 2,7км, готовится снегоходом.',
         gpx: 'tracks/ski/kashira_yubileyny_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -1114,7 +1111,7 @@ let skiTracks = [
         info: 'Ратрак, лыжная база, северное гостеприимство! Трасса большей частью несложная, с небольшими спусками и подъёмами, кроме 3 км участка Пик, где в виде ромашки расположены 4 подъема. Последние 2 км автодороги к месту старта от Пошехонского шоссе достаточно узкие, а последние 500 м движение только одностороннее. Рядом с началом трассы к массовым стартам организуется большая парковка на 250 машин.',
         length: 20.9,
         region: 'VOLOGDA',
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         link: ['https://vologdamarafon.ru/marafon/покровский-классический-марафон/', 'https://vk.com/kirikiulita35'],
         gpx: {
             'Марафон (12км)':'tracks/ski/kiriki_ulity_ski_omaps.gpx',
@@ -1130,7 +1127,7 @@ let skiTracks = [
         length: 9.4,
         region: 'VOLOGDA',
         link: ['https://travel-vologda.ru/napravleniya/vologodskaya-oblast/za-vpechatleniyami/czentr-sporta-i-otdyixa-komela', 'https://vk.com/35komela'],
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         gpx: 'tracks/ski/komela_vologda_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
@@ -1141,7 +1138,7 @@ let skiTracks = [
         length: 16.8,
         region: 'MSK',
         link: ['https://forestrout.ru/index.php/o-nas/lyzhnaya-trassa', 'https://www.skisport.ru/forum/cross-country-routes/93541/', 'https://t.me/bazalesnaya', 'https://t.me/skitrail_troitsk'],
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         info: 'Лыжная трасса спортивной базы «Лесная». Лыжная трасса представляет собой пять взаимовключающих кругов длиной 1, 2, 3, 5 и 10 км. Трасса размечена табличками с указанием длины маршрута и направления движения. Для катания в вечернее время оборудован освещённый круг длиной 3 км (освещение работает ежедневно с наступления сумерек до 23:00). Все круги проложены по лесу. Круги 1, 2, 3 и 5 км имеют равнинный рельеф. Круг 10 км включает 10 спусков-подъёмов (общий набор высоты – 165 м). Трасса укатывается регулярно два раза в неделю по понедельникам и пятницам, а также после выпадения снега, порчи трассы квадроциклами и мотоциклами, перед проведением соревнований. Ширина трассы 4,5–6,5 м, под коньковый ход 2–4 метра, по краям нарезаются две нитки классической лыжни. Лыжная база находится рядом со стартовой поляной, имеется тёплая раздевалка (7 x 13 м), работают прокат лыжного инвентаря, буфет. Движение по лыжной трассе рекомендуется по часовой стрелке. Запрещается свободный выгул собак.',
         gpx: 'tracks/ski/lesnaya_troitsk_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -1152,7 +1149,7 @@ let skiTracks = [
         sneg: 'loco-vologda',
         length: 9.9,
         region: 'VOLOGDA',
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         info: 'Лыжная трасса спортивного комплекса «Локомотив». Общедоступная раздевалка и туалет в капитальном помещении стадиона. Парковка на соседних улицах.',
         gpx: 'tracks/ski/lokomotiv_vologda_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -1165,9 +1162,8 @@ let skiTracks = [
         length: 7,
         region: 'MSK',
         link: ['https://www.skisport.ru/forum/cross-country-routes/93362/', 'https://tsaritsyno-museum.ru/park/things-to-do/lyzhnye-trassy/'],
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         gpx: 'tracks/ski/nizhne_tsaritsynskaya_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1176,9 +1172,8 @@ let skiTracks = [
         sneg: 'novovoronino',
         region: 'MSK',
         link: 'https://vk.com/novovoronino',
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         gpx: 'tracks/ski/novovoronino_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1199,7 +1194,7 @@ let skiTracks = [
         length: 5,
         region: 'MSK',
         link: ['https://t.me/+PgGfc44411U3OTgy', 'https://vk.ru/club215956547', 'https://www.skisport.ru/forum/cross-country/33761/'],
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         info: 'Лыжная трасса «Щёлковская Десятка». Трасса существует более 60 лет. Длина лыжной трассы 5 км, перепад высот на склоне до 15 м. 5 полноценных подъемов, пригодных для конькового хода (ширина от 3 до 4 м). Удачная планировка выкатов на спусках. Располагается в сосново-еловом лесу, закрыта от ветра. В последние 25 лет поддержание трассы ведется исключительно силами энтузиастов на свои средства. Этим занимается тренер Клуба спортивного ориенирования г. Фрязино своими силами и в свободное от работы время, ему помогает несколько человек.',
         gpx: 'tracks/ski/shchelkovo_desyatka_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -1209,9 +1204,8 @@ let skiTracks = [
         name: 'Слюдорудник',
         length: 6.8,
         region: 'CHELYABINSK',
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         gpx: 'tracks/ski/slyudorudnik_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1220,9 +1214,8 @@ let skiTracks = [
         length: 3.3,
         region: 'MSK',
         link: ['https://m.mosoblles.ru/press-center/current_news/?id=10360', 'https://www.skisport.ru/forum/cross-country-routes/62047/', 'https://www.skisport.ru/forum/cross-country-routes/55055/'],
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         gpx: 'tracks/ski/sokolinaya_pustyn_stupno_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1231,7 +1224,7 @@ let skiTracks = [
         length: 11.2,
         region: 'MSK',
         link: ['https://www.dmitrov.ru/', 'https://vk.com/czvs2020', 'https://www.skisport.ru/forum/cross-country-routes/87521/'],
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         info: 'Лыжная трасса Центра зимних видов спорта в Дмитрове. Освещенная лыжероллерная трасса протяженностью 2.4км. Освещенные лыжные трассы протяженностью 3 и 5 км.',
         gpx: {
             '1':'tracks/ski/tszvs_dmitrov_ski_omaps.gpx',
@@ -1246,7 +1239,7 @@ let skiTracks = [
         length: 16.8,
         region: 'MSK',
         link: 'https://www.skisport.ru/forum/cross-country-routes/19110/',
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         info: 'Лыжная трасса в районе станции Весенняя в Климовске. Трасса регулярно укатывается Бураном под конек и классику. Есть и равнина и рельефный круг 5 км.',
         gpx: 'tracks/ski/vesennyaya_klimovsk_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -1255,11 +1248,11 @@ let skiTracks = [
     {
         name: 'Вороново',
         sneg: 'voronovo',
-        info: 'Ратрак',
+        info: 'Ратрак.',
         length: 11.5,
         region: 'MSK',
         link: ['https://gto.sport.mos.ru/', 'https://vk.com/sportbazavoronovo'],
-        source: 'https://www.stremglav.fun/tracks',
+        source: 'stremglav',
         gpx: 'tracks/ski/voronovo_mo_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
@@ -1363,7 +1356,7 @@ let skiTracks = [
         link: ['https://vk.com/seminskiy_utc_altay', 'https://vk.com/utcseminskiy'],
         source: 'stremglav',
         sneg: 'seminski',
-        info: 'СЕМИНСКИЙ ПЕРЕВАЛ - одно из красивейших мест Горного Алтая. Прохладный кедровый лес летом, отсутствие насекомых, и снежный покров с конца октября по май - зимой на высоте 1800 метров над уровнем моря - это кристально чистый воздух, где легко дышится даже тем, кто страдает астматическими и сердечно- сосудистыми заболеваниями. Здесь мягкая зима, за счет сухости воздуха среднегорья. Устойчивый снежный покров ложится в 20х числах октября и держится до начала мая, когда еще можно покататься на лыжах и загореть под лучами уже яркого солнышка одновременно. Именно здесь в 1986 году был основан учебно- тренировочный центр для подготовки спортсменов высокой квалификации по лыжным видам спорта (лыжные гонки, биатлон) в условиях среднегорья - данные климатические условия особенно важны Так как способствуют росту спортивных достижений. Но УТЦ"Семинский перевал" известен не только профессиональным спортсменам, все больше туристов и спортсменов- любителей посещают базу. Здесь работает бугельный подемник на горнолыжный спуск, который предназначен для горнолыжников и сноубордистов новичков и среднего уровня. Также есть лыже-роллерная трасса для спортсменов профессионалов и лыжников любителей, которая зимой постоянно подготовлена для использования. Размещение: Две гостинницы класса комфорт Кедр- Альфа и Кедр-Бета, одна гостинница Лена -общежитие коридорного типа, 9 благоустроенных отдельно стоящих коттеджей на 3-4 комнаты. Инфраструктура: горнолыжная трасса с бугельным подъемником; -коттеджи для проживания и гостиницы; -подготовленная трасса для беговых лыж; -бани; -столовая; -кафе-бар; -спортзал (зимой не отапливаемый) -детская ледяная горка; -уличные тренажеры; -освещаемый каток; -прокат горнолыжного инвентаря, коньков, сноутюбов, инвентаря для беговых лыж; -мангалы на всей территории комплекса; -бесплатная парковка. ​-биатлонное стрельбище -летняя лыжероллерная трасса На территории базы находится столовая и кафе-бар. При приготовлении блюд используются мясо, молоко, яйца и овощи с собственных мини-фермы и огорода. Тел.: +7 (913) 998-35-38',
+        info: 'СЕМИНСКИЙ ПЕРЕВАЛ - одно из красивейших мест Горного Алтая. Инфраструктура: горнолыжная трасса с бугельным подъемником; -коттеджи для проживания и гостиницы; -подготовленная трасса для беговых лыж; -бани; -столовая; -кафе-бар; -спортзал (зимой не отапливаемый) -детская ледяная горка; -уличные тренажеры; -освещаемый каток; -прокат горнолыжного инвентаря, коньков, сноутюбов, инвентаря для беговых лыж; -мангалы на всей территории комплекса; -бесплатная парковка. -биатлонное стрельбище -летняя лыжероллерная трасса На территории базы находится столовая и кафе-бар. Тел.: +7 (913) 998-35-38',
         length: 7.6,
         gpx: 'tracks/ski/seminski_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -1378,7 +1371,6 @@ let skiTracks = [
         info: 'kirov.ski@yandex.ru shizhma.skiclub@yandex.ru',
         length: 12.8,
         gpx: 'tracks/ski/shijma_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1410,9 +1402,8 @@ let skiTracks = [
         region: 'TATARSTAN',
         source: 'stremglav',
         sneg: 'lebiajyi',
-        info: 'Лыжная трасса на Лебяжьих озёрах в Казани. 5км, в основном равнинное катание, но в дальнем конце петли есть пара лесистых холмов с рельефом. В целом можно охарактеризовать скорее как место для лыжного отдыха нежели чем как для тренировок. Капитальное здание лыжной базы, гардероб, прокат, кафе, туалет во дворе. На схеме трасс лыжной базы нарисована еще петля 10км до карьера у д.Юдино, но следов значительной лыжной активности в этом направлении не наблюдается.',
+        info: 'Лыжная трасса на Лебяжьих озёрах в Казани. 5км, в основном равнинное катание, но в дальнем конце петли есть пара лесистых холмов с рельефом. В целом можно охарактеризовать скорее как место для лыжного отдыха нежели чем как для тренировок. Капитальное здание лыжной базы, гардероб, прокат, кафе, туалет во дворе.',
         gpx: 'tracks/ski/lebiajyi_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1446,9 +1437,8 @@ let skiTracks = [
         link: ['https://roo-lls.ru/', 'https://ski.inp.nsk.su/misc/base.html'],
         source: 'stremglav',
         sneg: 'atulskogo',
-        info: 'Сеть лыжных трасс базы имени Алика Тульского в Новосибирске. Общая длина подготавливаемых трасс 56км. График работы: вт. - вс. с 9.00 до 17.00, тел. (383) 333-15-99 Прокат. Как добраться: 109, 139, 141, 211; маршрутки № 7, 15, 35, 52, 62, 74, 325 (ост. «Институт гидродинамики») - автобусы № 107, 107к, 716д (ост. «База Тульского»)',
+        info: 'Сеть лыжных трасс базы имени Алика Тульского в Новосибирске. График работы: вт. - вс. с 9.00 до 17.00, тел. (383) 333-15-99 Прокат.',
         gpx: 'tracks/ski/atulskogo_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1470,7 +1460,7 @@ let skiTracks = [
         link: ['https://sport.nstu.ru/sports_halls/ski_base/', 'https://yandex.com/maps/-/CPq1jQ0c', 'https://yandex.com/maps/-/CPq1jFn6', 'https://vk.com/skisibir', 'https://t.me/ski_sibir', 'https://yandex.com/maps/-/CPq1nRKY'],
         source: 'stremglav',
         sneg: 'bugrinskaya',
-        info: 'Лыжные трассы Бугринской рощи в Новосибирске. ЛБ Сибирь: Кировский район, ул. Западная, 2а Есть прокат, График работы ежедневно с 9.00 до 17.00; тел. +7-913-063-77-70; Как добраться: троллейбус № 29; автобусы № 11, 12, 20, 29, 57, 96, 112, 226; маршрутки № 5, 15, 29, 32, 54, 317, 331, 364 (ост. «Лыжная база») ЛБ НГТУ: ул. С. Кожевникова 39; Есть прокат, график работы ежедневно с 10.00 до 18.00, тел.: +7-923-226-70-06, (383) 213-86-52; Как добраться: автобусы № 9, 11, 20; маршрутки № 15, 317, 331 (ост. Бугринская роща).',
+        info: 'Лыжные трассы Бугринской рощи в Новосибирске. ЛБ Сибирь: Кировский район, ул. Западная, 2а Есть прокат, График работы ежедневно с 9.00 до 17.00; тел. +7-913-063-77-70; Есть прокат, график работы ежедневно с 10.00 до 18.00, тел.: +7-923-226-70-06, (383) 213-86-52;',
         gpx: 'tracks/ski/bugrinskaya_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
@@ -1563,7 +1553,7 @@ let skiTracks = [
         link: 'https://dinamo-ural.ru/',
         source: 'stremglav',
         sneg: 'dinamo-eburg',
-        info: 'Лыжно-биатлонная база «Динамо» в Екатеринбурге. Зимой- лыжи, биатлон, летом-лыже-роллеры, есть асфальтированная трасса. Регулируемый доступ на трассу. Гостиница, стойка-ресепшн тел. +7 (343) 231-18-93 (доб. 104) Проживание в непосредственной близости к спортивным объектам, столовая, баня, номера различной конфигурации.',
+        info: 'Лыжно-биатлонная база «Динамо» в Екатеринбурге. Зимой - лыжи, биатлон, летом - лыже-роллеры, есть асфальтированная трасса. Регулируемый доступ на трассу. Гостиница, стойка-ресепшн тел. +7 (343) 231-18-93 (доб. 104) Проживание в непосредственной близости к спортивным объектам, столовая, баня, номера различной конфигурации.',
         gpx: 'tracks/ski/dinamo_ekaterinburg_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
@@ -1575,7 +1565,8 @@ let skiTracks = [
         link: 'https://vk.com/sbiskra',
         source: 'stremglav',
         sneg: 'iskrizhevsk',
-        info: 'Лыжная база «Искра» в Ижевске. Трассы длиной 2км, 4км, 5км и 7.5км. Рельеф ровный, без резких подъёмов и спусков. Трассы регулярно подготавливаются. Тарссы размечены. Участок 2км освещен. Лес живописный. Есть скисервис. В прокате выбор лыж от простых до профессиональных. В выходные в прокате бывают очереди. Большая парковка (хотя в выходные народу может быть много). Вход на трассу бесплатный. Парковка 50 руб (оплата осуществляется переводом на на карту сбера, рассчитана на честность людей которые посещают эту лыжную базу). Буфет отсутствует. При базе есть гостиница (хостел). База работает с 9:00 до 21:00. тел. +7 (912) 854-74-14',
+        info: 'Лыжная база «Искра» в Ижевске. Трассы длиной 2, 4, 5 и 7.5 км. Рельеф ровный, без резких подъёмов и спусков. Трассы регулярно подготавливаются. Тарссы размечены. Участок 2км освещен. Лес живописный. Есть скисервис. В прокате выбор лыж от простых до профессиональных. В выходные в прокате бывают очереди. Большая парковка (хотя в выходные народу может быть много). Вход на трассу бесплатный. Парковка 50 руб (оплата осуществляется переводом на на карту сбера, рассчитана на честность людей которые посещают эту лыжную базу). Буфет отсутствует. При базе есть гостиница (хостел). База работает с 9:00 до 21:00. тел. +7 (912) 854-74-14',
+        markir: true,
         gpx: 'tracks/ski/iskra_izhevsk_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
@@ -1648,7 +1639,7 @@ let skiTracks = [
         name: 'Уфа, Трамплин',
         length: 3.5,
         region: 'BASH',
-        link: 'https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0_%E2%84%96_33_(%D0%A3%D1%84%D0%B0)',
+        link: 'https://ru.wikipedia.org/wiki/Спортивная_школа_№_33',
         source: 'stremglav',
         sneg: 'tramplin-ufa',
         info: 'Лыжная трасса СШОР №33 по лыжному двоеборью и спортшколы №5 в Уфе. Есть классическая лыжня, освещение и участки с выраженным рельефом. Трасса ухожена, готовилась снегоходом. Ближе к спортшколе есть классика. Рельеф интересный, плоских мест мало. Один из участков проходит по парковым дорожкам, есть освещение.',
@@ -1695,7 +1686,6 @@ let skiTracks = [
         region: 'KEMEROVO',
         source: 'stremglav',
         gpx: 'tracks/ski/kuzbass_park_kemerovo_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         sneg: 'kuzbasskipark',
         type: ['SKI']
     },
@@ -1741,7 +1731,6 @@ let skiTracks = [
         link: ['https://visitgu.ru/marafongubahaski', 'https://visitgu.ru/gonka22'],
         source: 'stremglav',
         gpx: 'tracks/ski/uhtk_gubakha_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1750,7 +1739,6 @@ let skiTracks = [
         source: 'stremglav',
         sneg: 'koltsovo',
         gpx: 'tracks/ski/koltsovo_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1769,10 +1757,9 @@ let skiTracks = [
         region: 'NSK',
         source: 'stremglav',
         sneg: 'krasnoobsk',
-        info: 'Есть трассы 1,2,3 км',
+        info: 'Есть трассы 1,2,3 км.',
         length: 4.8,
         gpx: 'tracks/ski/krasnoobsk_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1782,7 +1769,6 @@ let skiTracks = [
         sneg: 'aviator',
         length: 2.5,
         gpx: 'tracks/ski/aviator_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1791,7 +1777,6 @@ let skiTracks = [
         source: 'stremglav',
         sneg: 'lisyi-nsk',
         gpx: 'tracks/ski/lisyi_nsk_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1822,7 +1807,7 @@ let skiTracks = [
         link: ['https://vk.com/club2714594', 'https://kostravel.ru/turizm/aktivnyjotdyh/lyzhi/', 'https://www.skisport.ru/forum/cross-country/31409/'],
         source: 'stremglav',
         sneg: 'kostomuksha',
-        length: 6.02,
+        length: 6,
         info: 'Лыжная база ДЮСШ. Подготавливаемая лыжная трасса, биатлон со стрельбищем, летом роллерка. Прокат на лыжной базе ДЮСШ №2, которая расположена в лесном массиве в черте города: улица Советская 26 Телефон: +7 (81459) 7-56-37; +7 (911) 662-40-47 Режим работы проката лыжного инвентаря: ежедневно без праздничных и выходных дней с 9:00 до 19:00. Трасса красивая и разнообразная, есть пара хороших горок, подготовка трассы регулярная и вполне хорошая. Есть освещение. Есть раздевалка и туалет.',
         gpx: 'tracks/ski/kostomuksha_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
@@ -1835,7 +1820,6 @@ let skiTracks = [
         sneg: 'aleksandrovsk',
         length: 5.3,
         gpx: 'tracks/ski/aleksandrovsk_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1847,18 +1831,16 @@ let skiTracks = [
         info: 'Лыжная трасса протяжённостью 1 км - горная, 2 км – равнинная.',
         length: 3,
         gpx: 'tracks/ski/nasaime_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
-        name: 'Масловский лес, Одинцово',
+        name: 'Одинцово, Масловский лес',
         region: 'MSK',
         source: 'stremglav',
         sneg: 'maslov-ski',
-        info: 'Трасса на территории вновь образованного природного парка. Парковка в стадии обустройства (по сост. на 25/26).',
+        info: 'Трасса на территории вновь образованного природного парка.',
         length: 1.4,
         gpx: 'tracks/ski/maslov_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1968,7 +1950,7 @@ let skiTracks = [
         link: 'https://villagio-service.ru/page24831786.html',
         source: 'stremglav',
         gpx: 'tracks/ski/villagio_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
+        ski_kind: 'CLASSIC_ROUTE',
         type: ['SKI']
     },
     {
@@ -1976,7 +1958,6 @@ let skiTracks = [
         region: 'MONTENEGRO',
         source: 'stremglav',
         gpx: 'tracks/ski/zabljak_durmitor_montenegro_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1984,7 +1965,6 @@ let skiTracks = [
         region: 'BASH',
         source: 'stremglav',
         gpx: 'tracks/ski/abzakovo_malyy_kurtash_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -1992,7 +1972,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/abramtsevo_radonezh_klassika_ski_omaps.gpx',
-        ski_kind: 'CLASSIC_ROUTE',
         type: ['SKI']
     },
     {
@@ -2003,7 +1982,6 @@ let skiTracks = [
         link: 'https://www.skisport.ru/forum/cross-country/33761/',
         source: 'stremglav',
         gpx: 'tracks/ski/aviator_chkalovskiy_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2017,13 +1995,14 @@ let skiTracks = [
     {
         name: 'Акатово',
         sneg: 'akatovo',
-        info: 'При катании часто объединяют эту трассу с трассой на Лисьей горе (есть мостик через речку) и кольцом на высоковольтке около улицы Евстафьева. Обычно тут катаются классикой т.к. трассу под конек не готовится (похоже...). На трассе везде разметка белой краской на деревьях. В двух местах (со стороны Лисьей горы и с юга, где она официально начинается) таблички с надписью «Лыжно-беговая трасса». Через каждый километр тоже таблички с км, а также за 500 м до «финиша» и сам «финиш». Начало маршрута в южной части, рядом с асфальтом. А со стороны трассы на Лисьей горе начинается почти от мостика через речушку. Также есть указатель на круг 1 км и 3 км. Есть очень пологие тягуны, есть небольшие спуски/подъемы с перепадом 2-3 м. Ширина полотна в среднем такая же, как на Лисьей.',
+        info: 'Есть очень пологие тягуны, есть небольшие спуски/подъемы с перепадом 2-3 м. Ширина полотна в среднем такая же, как на Лисьей.',
         length: 9,
         region: 'MSK',
         link: 'https://www.skisport.ru/forum/cross-country/30365/?ysclid=lrbstozm25504661847#1238437',
         source: 'stremglav',
+        markir: true,
         gpx: 'tracks/ski/akatovo_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
+        ski_kind: 'CLASSIC_ROUTE',
         type: ['SKI']
     },
     {
@@ -2033,7 +2012,6 @@ let skiTracks = [
         link: 'https://sites.google.com/view/alski',
         source: 'stremglav',
         gpx: 'tracks/ski/aleshkino_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2041,13 +2019,12 @@ let skiTracks = [
         region: 'TATARSTAN',
         source: 'stremglav',
         gpx: 'tracks/ski/almash_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
         name: 'Альпийская деревня',
         sneg: 'alpendorf',
-        info: 'Лыжная трасса, гостиница, бассейн, развлечения.',
+        info: 'Лыжная трасса, гостиница, бассейн.',
         length: 5.4,
         region: 'OMSK',
         source: 'stremglav',
@@ -2060,13 +2037,12 @@ let skiTracks = [
         region: 'VLADIMIR',
         source: 'stremglav',
         gpx: 'tracks/ski/ananeva_gora_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
         name: 'Аннино',
         sneg: 'annino',
-        info: 'Снегоход',
+        info: 'Снегоход.',
         length: 9.3,
         region: 'MSK',
         link: 'https://annino.tilda.ws/',
@@ -2078,7 +2054,7 @@ let skiTracks = [
     {
         name: 'Воскресенск, Ашитково',
         sneg: 'ashitkovo',
-        info: 'Лыжная трасса Здоровье. Никем не готовится, самотоп из редких лыжников, а так же ватрушек (в середине трассы есть овражек, где раскатано ватрушками, как и со всех горочек по этой трассе), и квадриков. По больше части только классикой, изредка можно найти отрезки для конька. Годится только в качестве прогулки недолгой. Координаты стартовой поляны: 55°26′30.73″N 38°34′37.1″E Как добраться. На машине: забивайте координаты в навигатор, тут парковка. Последние 600м по лесу уже плохие. Пешком: остановка Оздоровительный лагерь, автобус номер 34 (ходит от станции Виноградово до пос. имени Цюрупы) дальше по карте те же 600м.',
+        info: 'Лыжная трасса Здоровье. Никем не готовится, самотоп из редких лыжников, а так же ватрушек (в середине трассы есть овражек, где раскатано ватрушками, как и со всех горочек по этой трассе), и квадриков. По больше части только классикой, изредка можно найти отрезки для конька. Годится только в качестве прогулки недолгой. Координаты стартовой поляны: 55°26′30.73″N 38°34′37.1″E ',
         length: 3,
         region: 'NSK',
         link: ['https://vk.com/ashitkovolizy', 'https://www.skisport.ru/forum/cross-country-routes/37582/'],
@@ -2092,7 +2068,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/babaevskiy_prud_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2100,7 +2075,6 @@ let skiTracks = [
         region: 'EKB',
         source: 'stremglav',
         gpx: 'tracks/ski/baza_bodrost_gora_mokraya_pervouralsk_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2152,7 +2126,6 @@ let skiTracks = [
         region: 'KHMAO',
         source: 'stremglav',
         gpx: 'tracks/ski/barsovo_surgut_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2194,7 +2167,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/berezovaya_roshcha_dolgoprudnyy_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2245,7 +2217,6 @@ let skiTracks = [
         sneg: 'blug-irk',
         region: 'IRKUTSK',
         gpx: 'tracks/ski/bolshoy_lug_akademgorodok_irkutsk_vostok_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2255,13 +2226,12 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/botanicheskiy_i_ostankino_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
         name: 'Братеевская пойма',
         sneg: 'brateevo',
-        info: 'Прокатный модуль Москомспорта с 2022г',
+        info: 'Прокатный модуль Москомспорта с 2022г.',
         length: 2.2,
         region: 'MSK',
         source: 'stremglav',
@@ -2285,11 +2255,10 @@ let skiTracks = [
         name: 'Бронницкая лыжня',
         sneg: 'bronnicy',
         info: 'Трасса поддерживается энтузиастами на пожертвования лыжников.',
-        length: 7.69,
+        length: 7.7,
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/bronnitskaya_lyzhnya_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2308,7 +2277,6 @@ let skiTracks = [
         region: 'KOSTROMA',
         source: 'stremglav',
         gpx: 'tracks/ski/buy_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2327,7 +2295,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/burevestnik_yum_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2366,7 +2333,6 @@ let skiTracks = [
     {
         name: 'Муром, Верба',
         sneg: 'verba-murom',
-        info: 'Работа бассейна ФОК Верба: в будние дни сеансы начинаются в 8:00, 9:00, 10:00, 18:00, 19:30; по выходным дням сеансы начинаются каждый час с 8:00 до 19:30. Телефон ФОК: 8 (49234) 61533',
         length: 4.3,
         region: 'VLADIMIR',
         link: 'http://verbasport.ru/',
@@ -2438,7 +2404,6 @@ let skiTracks = [
         region: 'MARI_EL',
         source: 'stremglav',
         gpx: 'tracks/ski/volzhsk_mariy_el_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2461,7 +2426,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/volokolamsk_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2528,13 +2492,12 @@ let skiTracks = [
     {
         name: 'Галич Толтуново',
         sneg: 'galich',
-        info: 'Замысловатое кольцо в холмистом ландшафте северного берега Галичского озера. Отрезки, требующие интенсивной работы, чередуются с участками, где можно перевести дух. Местность преимущественно открытая и полуоткрытая. Изначально трасса готовилась исключительно под гонку Галичское заозерье, но есть информация, что начиная с сезона 23/24 закуплен снегоход специально для того, чтобы трасса существовала более-менее постоянно. Вероятно что в планах организаторов - готовить постоянно не весь круг, а только его часть. Так же, в сезон 23/24 там проводили и местные гонки вроде лыжни России. Поэтому можно утверждать, что в каком-то усеченном виде трасса существует с тех пор не только в период гонки Галичское заозерье. При планировании конкретные сроки подготовки и текущее состояние стоит уточнять отдельно.',
+        info: 'Замысловатое кольцо в холмистом ландшафте северного берега Галичского озера. Отрезки, требующие интенсивной работы, чередуются с участками, где можно перевести дух. Местность преимущественно открытая и полуоткрытая. Изначально трасса готовилась исключительно под гонку Галичское заозерье.',
         length: 25,
         region: 'KOSTROMA',
         link: 'https://www.skisport.ru/news/cross-country/111841/',
         source: 'stremglav',
         gpx: 'tracks/ski/galich_toltunovo_sever_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2564,7 +2527,6 @@ let skiTracks = [
         region: 'BASH',
         source: 'stremglav',
         gpx: 'tracks/ski/glumilino_taptykovo_zhukovo_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2574,7 +2536,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/golovacheva_kv_23_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2619,7 +2580,6 @@ let skiTracks = [
         link: ['https://grishkino.com/', 'https://vk.com/parkgrishkino'],
         source: 'stremglav',
         gpx: 'tracks/ski/grishkino_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2630,7 +2590,6 @@ let skiTracks = [
         link: 'https://vk.com/scprodv',
         source: 'stremglav',
         gpx: 'tracks/ski/guzeev_ovrag_melenki_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2638,7 +2597,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/detskaya_shchelkovo_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2708,7 +2666,6 @@ let skiTracks = [
         link: ['https://vk.com/dmdski', 'https://www.skisport.ru/forum/cross-country-routes/59879/'],
         source: 'stremglav',
         gpx: 'tracks/ski/domodedovo_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2717,7 +2674,6 @@ let skiTracks = [
         region: 'NSK',
         source: 'stremglav',
         gpx: 'tracks/ski/doninskaya_proseka_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2740,7 +2696,6 @@ let skiTracks = [
         link: 'https://www.skisport.ru/forum/cross-country/33761/',
         source: 'stremglav',
         gpx: 'tracks/ski/dubovaya_roshcha_fryazino_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2748,7 +2703,6 @@ let skiTracks = [
         region: 'KOMI',
         source: 'stremglav',
         gpx: 'tracks/ski/dyrnos_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2758,7 +2712,6 @@ let skiTracks = [
         region: 'KOSTROMA',
         source: 'stremglav',
         gpx: 'tracks/ski/dyussh_5_kostroma_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2793,7 +2746,6 @@ let skiTracks = [
         region: 'IRKUTSK',
         source: 'stremglav',
         gpx: 'tracks/ski/ershi_irkutsk_vostok_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2815,7 +2767,6 @@ let skiTracks = [
         region: 'SAMARA',
         source: 'stremglav',
         gpx: 'tracks/ski/esenina_tolyatti_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2837,7 +2788,6 @@ let skiTracks = [
         region: 'TVER',
         source: 'stremglav',
         gpx: 'tracks/ski/zavidovo_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2879,7 +2829,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/zarya_zelenyy_moskovskaya_obl_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -2919,7 +2868,7 @@ let skiTracks = [
     {
         name: 'Зорино',
         sneg: 'zorino',
-        info: 'Равнинная бесплатная трасса недалеко от Истры. Проходит по территории коттеджного поселка, по полю и лесной вырубке, и частично по лесу. Подготовка трассы проводится несколько раз в неделю снегоходом и прицепным оборудованием. Трасса поддерживается энтузиастами за счет пожертвований. Проезд на авто или автобусом от станции Истра, но возможен вариант своим ходом по дикой лыжне от платф. 73й км или ст. Румянцево (состояние не проверено, регулярный походный маршрут). Координаты парковки: https://yandex.ru/maps/-/CCU5NNd7gA',
+        info: 'Равнинная бесплатная трасса недалеко от Истры. Проходит по территории коттеджного поселка, по полю и лесной вырубке, и частично по лесу. Подготовка трассы проводится несколько раз в неделю снегоходом и прицепным оборудованием. Трасса поддерживается энтузиастами за счет пожертвований. Координаты парковки: https://yandex.ru/maps/-/CCU5NNd7gA',
         length: 4.7,
         region: 'MSK',
         link: ['http://www.zorino-park.ru/ski/', 'https://t.me/zorinoski', 'https://vk.com/zorinoski'],
@@ -2931,7 +2880,7 @@ let skiTracks = [
     {
         name: 'Зубец',
         sneg: 'zubec',
-        info: 'Снегоход',
+        info: 'Снегоход.',
         length: 25,
         region: 'KLGA',
         link: 'https://zubec.info/ski/',
@@ -2955,7 +2904,7 @@ let skiTracks = [
     {
         name: 'Ивантеевка',
         sneg: 'ivanteevka',
-        info: 'Конёк и классика. Очень достойно. На стадионе есть даже освещение! Вокруг футбольного поля тоже очень хорошо и широко накатывают. В лесу хороший, рабочий рельеф.',
+        info: 'Конёк и классика. Очень достойно. На стадионе есть даже освещение! В лесу хороший, рабочий рельеф.',
         length: 6.3,
         region: 'MSK',
         link: 'https://vk.com/club62981752',
@@ -2971,7 +2920,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/ivachkovo_66_y_km_lvovskaya_sezon_25_26_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3014,7 +2962,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/irida_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3022,7 +2969,6 @@ let skiTracks = [
         region: 'IRKUTSK',
         source: 'stremglav',
         gpx: 'tracks/ski/iskhi_irkutsk_vostok_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3030,7 +2976,6 @@ let skiTracks = [
         region: 'KARELIA',
         source: 'stremglav',
         gpx: 'tracks/ski/kalevalskiy_natspark_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3038,7 +2983,6 @@ let skiTracks = [
         region: 'KHMAO',
         source: 'stremglav',
         gpx: 'tracks/ski/kamennyy_mys_o_chernyy_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3046,7 +2990,6 @@ let skiTracks = [
         region: 'MURMANSK',
         source: 'stremglav',
         gpx: 'tracks/ski/kandalaksha_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3101,7 +3044,6 @@ let skiTracks = [
         region: 'KHMAO',
         source: 'stremglav',
         gpx: 'tracks/ski/kedr_surgut_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3109,7 +3051,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/kirzhach_seregina_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3128,7 +3069,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/klin_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3147,7 +3087,6 @@ let skiTracks = [
         region: 'TVER',
         source: 'stremglav',
         gpx: 'tracks/ski/konakovo_river_klab_1_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3155,7 +3094,6 @@ let skiTracks = [
         region: 'TVER',
         source: 'stremglav',
         gpx: 'tracks/ski/konakovskiy_bor_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3163,7 +3101,6 @@ let skiTracks = [
         region: 'TATARSTAN',
         source: 'stremglav',
         gpx: 'tracks/ski/korabelnaya_roshcha_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3173,7 +3110,6 @@ let skiTracks = [
         link: 'https://www.ski-korolev.ru/',
         source: 'stremglav',
         gpx: 'tracks/ski/korolev_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3196,13 +3132,13 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/krasnogo_mayaka_2_pyaterki_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
+        ski_kind: 'FURROW',
         type: ['SKI']
     },
     {
         name: 'Красное знамя',
         sneg: 'krasnozna-nsk',
-        info: 'Трассы 3км, 5км, 10км, 15км. Конек и классика. Есть прокат: график работы сб., вс. с 10.00 до 18.00; тел. (383) 204-74-41',
+        info: 'Трассы 3, 5, 10, 15 км. Конек и классика. Есть прокат: график работы сб., вс. с 10.00 до 18.00; тел. (383) 204-74-41',
         length: 14,
         region: 'NSK',
         source: 'stremglav',
@@ -3215,7 +3151,6 @@ let skiTracks = [
         region: 'VLADIMIR',
         source: 'stremglav',
         gpx: 'tracks/ski/krasnoe_ekho_gus_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3226,7 +3161,6 @@ let skiTracks = [
         link: 'https://red-wings.ru/vidy-sporta/lyzhi-lyzherollery',
         source: 'stremglav',
         gpx: 'tracks/ski/krasnye_krylya_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3254,7 +3188,7 @@ let skiTracks = [
     {
         name: 'Крылатское Осенняя, Москва',
         sneg: 'osennyaia',
-        info: 'Круги 2км и 3.5км. Трасса готовится привозным ратраком. Периодичность подготовки неизвестна. Прокат, кафе, раздевалки.',
+        info: 'Круги 2 и 3.5 км. Трасса готовится привозным ратраком. Периодичность подготовки неизвестна. Прокат, кафе, раздевалки.',
         length: 3.8,
         region: 'MSK',
         source: 'stremglav',
@@ -3310,7 +3244,6 @@ let skiTracks = [
         region: 'BASH',
         source: 'stremglav',
         gpx: 'tracks/ski/kurtash_beloretsk_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3319,7 +3252,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/kuskovo_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3327,7 +3259,6 @@ let skiTracks = [
         region: 'NSK',
         source: 'stremglav',
         gpx: 'tracks/ski/kuchinskiy_lesopark_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3338,7 +3269,7 @@ let skiTracks = [
         region: 'SAMARA',
         source: 'stremglav',
         gpx: 'tracks/ski/lada_park_vostok_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
+        ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3359,7 +3290,6 @@ let skiTracks = [
         region: 'KRASNODAR',
         source: 'stremglav',
         gpx: 'tracks/ski/laura_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3369,7 +3299,6 @@ let skiTracks = [
         region: 'DV',
         source: 'stremglav',
         gpx: 'tracks/ski/mirnyy_zarechnaya_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3449,7 +3378,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/letova_tropa_ekopark_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3469,7 +3397,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/lisya_gora_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3489,7 +3416,6 @@ let skiTracks = [
         region: 'TVER',
         source: 'stremglav',
         gpx: 'tracks/ski/likhoslavl_stp_yuzhnyy_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3507,7 +3433,6 @@ let skiTracks = [
         name: 'Лосиноостровский лесопарк',
         region: 'MSK',
         gpx: 'tracks/ski/losinoostrovskiy_lesopark_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3571,7 +3496,6 @@ let skiTracks = [
         region: 'DV',
         source: 'stremglav',
         gpx: 'tracks/ski/lyzhnya_zdorovya_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3579,7 +3503,6 @@ let skiTracks = [
         region: 'BASH',
         source: 'stremglav',
         gpx: 'tracks/ski/lyzhnya_kurysheva_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3589,7 +3512,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/lysaya_gora_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3600,7 +3522,6 @@ let skiTracks = [
         link: ['https://vk.com/lublyana', 'http://egorievsk.tv/main/gorodskie-novosti/1777-segodnya-o-lyzhah.html'],
         source: 'stremglav',
         gpx: 'tracks/ski/lyublyana_egorevsk_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3624,7 +3545,7 @@ let skiTracks = [
         link: 'https://t.me/maximaparkski',
         source: 'stremglav',
         gpx: 'tracks/ski/maksima_park_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
+        ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3643,7 +3564,6 @@ let skiTracks = [
         region: 'KOSTROMA',
         source: 'stremglav',
         gpx: 'tracks/ski/malyshkovo_sosnovyy_bor_kostroma_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3719,7 +3639,6 @@ let skiTracks = [
         region: 'EKB',
         source: 'stremglav',
         gpx: 'tracks/ski/mokraya_gora_pervouralsk_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3727,7 +3646,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/molodezhnyy_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3738,7 +3656,6 @@ let skiTracks = [
         link: 'https://yandex.com/maps/-/CPfgnBZf',
         source: 'stremglav',
         gpx: 'tracks/ski/monchegorsk_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3795,7 +3712,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/mytishchi_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3804,7 +3720,6 @@ let skiTracks = [
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/natspark_losinyy_ostrov_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3812,7 +3727,6 @@ let skiTracks = [
         region: 'YAROSLAVL',
         source: 'stremglav',
         gpx: 'tracks/ski/neznanovo_nerekhta_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3822,7 +3736,6 @@ let skiTracks = [
         region: 'KLGA',
         source: 'stremglav',
         gpx: 'tracks/ski/nikola_lenivets_ski_omaps.gpx',
-        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -3837,6 +3750,1085 @@ let skiTracks = [
             '2':'tracks/ski/nikolina_gora_2024_ski_omaps.gpx'
         },
         ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Одинцово',
+        sneg: 'odintsovo',
+        source: 'stremglav',
+        region: 'MSK',
+        info: 'Ратрак, оснежение, освещение, раздевалки, кафе.',
+        link: 'https://t.me/lazutinka',
+        gpx: 'tracks/ski/odintsovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Химки, Снежинка',
+        sneg: 'snezhinka',
+        source: 'stremglav',
+        length: 2.9,
+        region: 'MSK',
+        info: 'Лыжная трасса, роллерка. Лыжная трасса интересная с подъемами и спусками, с равнинной частью. В выходные часто проводятся соревнования по лыжам и биатлону. Трасса огорожена. Работает теплая раздевалка. Есть туалет, зимой прокат лыж, каток, летом площадка с тренажорами. Есть вечернее освещение.',
+        gpx: 'tracks/ski/snezhinka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Пересвет',
+        sneg: 'peresvet',
+        source: 'stremglav',
+        region: 'MSK',
+        gpx: 'tracks/ski/peresvet_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Покровское-Стрешнево',
+        sneg: 'pokrovskoe-streshnevo',
+        source: 'stremglav',
+        length: 2,
+        region: 'MSK',
+        info: 'Готовится бураном.',
+        gpx: 'tracks/ski/pokrovskoe_streshnevo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Строгино',
+        sneg: 'strogino',
+        source: 'stremglav',
+        length: 4.9,
+        region: 'MSK',
+        info: 'Около ресторана Берег есть прокат лыж. Со своим инвентарем пускают в теплую раздевалку (М и Ж отдельно), и даже браслет для камеры хранения выдают - бесплатно. Вдоль улицы Исаковского теперь платные парковки. Можно оставить машину около магазина Магнит или Азбука Вкуса на Исаковского д 33.',
+        link: ['https://stroginowakepark.ru/zimnie-aktivnosti/lyzhnaja-trassa-i-prokat/', 'https://t.me/stroginoski'],
+        gpx: 'tracks/ski/strogino_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Сокольники',
+        sneg: 'sokolniki',
+        source: 'stremglav',
+        length: 2,
+        region: 'MSK',
+        info: 'Ратрак периодически.',
+        gpx: 'tracks/ski/sokolniki_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Пушкино биатлон',
+        sneg: 'pushkino-biatlon',
+        source: 'stremglav',
+        length: 3.42,
+        region: 'MSK',
+        info: 'Биатлонная трасса г.Пушкино. Вход свободный, есть 2 подъема-спуска по 50 м. Короткие круги 2, 2.5, 3 км. Традиционно узковато, вертляво, но трасса существует, её готовят. Дети из биатлонной секции тренируются.',
+        link: ['https://vk.com/biathlonpushkino', 'https://www.roofbmo.ru/pushkino'],
+        gpx: 'tracks/ski/pushkino_biatlon_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Клуб Наседкина',
+        sneg: 'nasedkina',
+        source: 'stremglav',
+        length: 8.68,
+        region: 'MSK',
+        info: 'Замечательная круговая трасса в сосновом лесу вдоль высокого берега живописной речки Нерская. Полный круг почти 8км. Конёк и классика. Трасса размечена. Часть трассы с освещением. История клуба Наседкина: https://vk.com/wall-41789119_2468',
+        link: ['http://sportgzhel.ru/', 'https://www.skisport.ru/forum/cross-country-routes/90760/'],
+        gpx: 'tracks/ski/nasedkina_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Орешник',
+        sneg: 'oreshnik',
+        source: 'stremglav',
+        length: 7.6,
+        region: 'MSK',
+        link: 'https://www.skisport.ru/forum/cross-country-routes/47253/',
+        gpx: 'tracks/ski/oreshnik_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Чулково',
+        sneg: 'chulkovo',
+        source: 'stremglav',
+        length: 4.44,
+        region: 'MSK',
+        link: 'https://chulkovosport.ru/?p=3861',
+        gpx: 'tracks/ski/chulkovo_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Солонога',
+        sneg: 'solonoga',
+        source: 'stremglav',
+        length: 14.8,
+        region: 'MSK',
+        info: 'Большой (5 км) и малый (3 км) круги в лесном массиве у Юбилейного пруда называются "Заводской круг" или (в некоторых источниках) трасса имени С.И.Золотухи, который был директором Машиностроительного завода в 70-х. Лыжная трасса Солонога, которая также начинается от Юбилейного пруда, уходит вглубь леса и через 4км приводит на стартовую поляну, от которой начинается спортивный 5км круг. Петляет он по склонам долины небольшой речки Солонога, притоку Клязьмы. Трасса имеет девять подъемов разной крутизны и протяженности.',
+        link: ['https://www.skisport.ru/forum/cross-country-routes/61459/?ysclid=lsyitp7889555081827#1261489', 'https://yandex.ru/maps/?ll=38.500243%2C55.811500&mode=usermaps&um=constructor%3A7e8d1389ed1d1c677628d54df94430c5175932846df2473c958a7fcf606dfba6&z=15', 'https://t.me/+WJ5Rwy7vxBo3YmRi'],
+        gpx: 'tracks/ski/solonoga_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'СШ Ока',
+        sneg: 'oka',
+        source: 'stremglav',
+        length: 2.56,
+        region: 'MSK',
+        info: 'Вдоль лыжной трассы рядом с территорией спортивного комплекса «Металлург» на протяжении 1км смонтировано восемь мощных светильников.',
+        link: ['https://www.skisport.ru/forum/cross-country-routes/62047/', 'https://www.skisport.ru/forum/cross-country-routes/55055/'],
+        gpx: 'tracks/ski/oka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Серебряный Бор',
+        sneg: 'serbor',
+        source: 'stremglav',
+        length: 4.4,
+        region: 'MSK',
+        info: 'Ратрак периодически.',
+        gpx: 'tracks/ski/serbor_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Чистый залив',
+        sneg: 'chistyi-zaliv',
+        source: 'stremglav',
+        length: 2.5,
+        region: 'MSK',
+        gpx: 'tracks/ski/chistyi_zaliv_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Сосновка Звягино',
+        sneg: 'sosnovka-zviagino',
+        source: 'stremglav',
+        length: 2.7,
+        region: 'MSK',
+        info: 'Готовится коллективом энтузиастов снегоходом с прицепными.',
+        link: 'https://t.me/nordicski',
+        gpx: 'tracks/ski/sosnovka_zviagino_ski_omaps.gpx',
+        ski_kind: 'FICKLE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Обнинск',
+        sneg: 'obninsk',
+        source: 'stremglav',
+        length: 16,
+        region: 'KLGA',
+        info: 'Роллерка 2,5км.',
+        link: 'https://vk.com/skisport_obninsk',
+        gpx: 'tracks/ski/obninsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Умка',
+        sneg: 'umka',
+        source: 'stremglav',
+        length: 3.5,
+        region: 'MSK',
+        info: 'Трасса существовала с 1980-х годов и регулярно обслуживалась ориентировочно до 2020г СШ №1 и ФОК Умка.',
+        link: 'https://www.skisport.ru/forum/cross-country-routes/80480/',
+        gpx: 'tracks/ski/umka_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Силикатчик',
+        sneg: 'silikatchik',
+        source: 'stremglav',
+        length: 3,
+        region: 'MSK',
+        info: 'Трасса готовится силами местного СК "Тучково", снегоходом, и состоит из двух условных "кругов": 3-х километрового, равнинного, плоского, начинающегося от местного СК "Тучково" и проходящего по его территории и вокруг футбольных полей, и далее по полям за ним и частично по лесу. И второго, рельефного, проходящего по бывшему карьеру, с очень неплохими спускам и подъемами. Рельефный круг также - около 3 км. Около СК "Тучково" Есть парковка, машин на 10, по адресу: Тучково, ул. Новая, 17. Есть еще парковка на 5-6 машин чуть дальше, в конце ул. Новой и начале ул. Трудовая.',
+        gpx: 'tracks/ski/silikatchik_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Шильково',
+        sneg: 'shilkovo',
+        source: 'stremglav',
+        length: 10,
+        region: 'MSK',
+        info: 'Трасса состоит из двух частей открытой (в поле) и лесной. Достаточно серьезный пересечённый рельеф. Трасса используется, как летом, так и зимой для тренировок СДЮСШОР «Академия Спорта», ЛК «Наседкина», профессиональными спортсменами и любителями. Суммарная длина трассы 9,2 км. Подготовка трасс регулярно спецтехникой на средства жертвователей.',
+        link: 'https://vk.com/vskski',
+        gpx: 'tracks/ski/shilkovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Юде-Кон Дубна',
+        sneg: 'udekon',
+        source: 'stremglav',
+        length: 5.1,
+        region: 'MSK',
+        link: ['https://vk.com/udekondubna', 'https://www.skisport.ru/forum/cross-country-routes/61962/'],
+        gpx: 'tracks/ski/udekon_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Парк Олимпийской деревни',
+        sneg: 'olympder',
+        source: 'stremglav',
+        length: 2.1,
+        region: 'MSK',
+        link: 'https://www.skisport.ru/forum/cross-country/74018/',
+        gpx: 'tracks/ski/olympder_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Ферма',
+        sneg: 'ferma-sp',
+        source: 'stremglav',
+        length: 6.7,
+        region: 'MSK',
+        info: 'Регулярно Бураном закатываются две трассы: так называемые "физкультурная" (к северу от оз.Лесное) и "спортивная" (к югу). Физкультурная преимущественно равнина с легким рельефом. Обычно закатывается с конца ноября-начала декабря и до апреля и регулярно затаптывается пешеходами. Периодически режется лыжня под классику. Длина круга 4,6-4,7км. Под весну грязно: значительная часть трассы под елками. Спортивная часть трассы (отдельная петля от стадиона) рельефная. В начале трассы очень тяжелый тягун с "торчком"(перепад 23метра), далнее тягуны разной длины (перепад 10-12 метров) плюс участки равнины и небольшие подъемы-спуски.',
+        link: ['https://www.skisport.ru/forum/cross-country/68884/', 'https://www.skisport.ru/forum/cross-country-routes/79003/'],
+        gpx: 'tracks/ski/ferma_sp_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Тягачева ГК',
+        sneg: 'tyagacheva',
+        source: 'stremglav',
+        length: 3.3,
+        region: 'MSK',
+        info: 'Рекомендуется лыжниками как вариант для отдыха в компании с размещением на выходные или каникулы.',
+        link: 'https://shukolovo.ru/sport/lyzhnya',
+        gpx: 'tracks/ski/tyagacheva_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Садовники',
+        sneg: 'sadovniki',
+        source: 'stremglav',
+        length: 1.5,
+        region: 'MSK',
+        info: 'В 2022 установлен прокатный модуль Москомспорта.',
+        gpx: 'tracks/ski/sadovniki_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Черкизовский детский парк',
+        sneg: 'cherkizovo',
+        source: 'stremglav',
+        length: 0.6,
+        region: 'MSK',
+        info: 'Оснежение.',
+        gpx: 'tracks/ski/cherkizovo_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Парк Яуза пр.Олонецкий',
+        sneg: 'yauza-olonetskiy',
+        source: 'stremglav',
+        length: 2.8,
+        region: 'MSK',
+        info: 'Прокатный модуль Мосспортобъекта, работает нерегулярно (закрыт?). За локацией дурная слава - дорожки посыпают песком.',
+        gpx: 'tracks/ski/yauza_olonetskiy_ski_omaps.gpx',
+        ski_kind: 'FICKLE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Черноголовка Стадион',
+        sneg: 'chernogolovka-stadion',
+        source: 'stremglav',
+        length: 2.25,
+        region: 'MSK',
+        info: 'Трасса готовится бураном с бороной и катком под конек.',
+        gpx: 'tracks/ski/chernogolovka_stadion_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Ольгинский лесопарк',
+        sneg: 'olginsky',
+        source: 'stremglav',
+        length: 2.3,
+        region: 'MSK',
+        info: 'Освещенный круг 2км, в парке есть снегоход с бороной.',
+        gpx: 'tracks/ski/olginsky_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Пестовский лесопарк',
+        sneg: 'pestovsky',
+        source: 'stremglav',
+        length: 1.35,
+        region: 'MSK',
+        gpx: 'tracks/ski/pestovsky_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Павловская Слобода',
+        sneg: 'psloboda',
+        source: 'stremglav',
+        length: 2.2,
+        region: 'MSK',
+        gpx: 'tracks/ski/psloboda_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Песковатка',
+        sneg: 'peskovatka',
+        source: 'stremglav',
+        length: 3.2,
+        info: 'Готовят под конек и классику, проводятся соревнования.',
+        gpx: 'tracks/ski/peskovatka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Посейдон',
+        sneg: 'poseydon',
+        source: 'stremglav',
+        length: 1.3,
+        region: 'MSK',
+        info: 'Трасса готовится коллективом энтузиастов с использованием снегохода Буран и навесного оборудования: борона, резак. Классика - не часто, под конек 1-2 раза в неделю. В снегопады чаще.',
+        gpx: 'tracks/ski/poseydon_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Чуприяновка спортшкола',
+        sneg: 'chupriyanovka',
+        source: 'stremglav',
+        length: 9.8,
+        region: 'TVER',
+        info: 'Есть роллерка.',
+        gpx: 'tracks/ski/chupriyanovka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Чуприяновка ЛБ ТвГУ',
+        sneg: 'chupriyanovka',
+        source: 'stremglav',
+        length: 7.6,
+        region: 'TVER',
+        gpx: 'tracks/ski/chupriyanovka_tvgu_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Сосны Рассудово',
+        sneg: 'sosny-rassudovo',
+        source: 'stremglav',
+        length: 5.5,
+        region: 'MSK',
+        info: 'Часть трассы проходит по парку, другая часть - по прилегающему к парку лесному хвойному массиву. Трасса прогулочная, равнинная. Готовится, судя по всему, регулярно под коньковый и классический ход снегоходом с прицепными устройствами и (возможно) ратраком. На части трассы, проходящей по территории парка, присутствует освещение. На этом же участке в начале сезона проводится искусственное оснежение. Парковочных мест рядом с трассой достаточно - большая бесплатная парковка есть у входа в сам парк (см. https://yandex.ru/maps/-/CHERaV3U ). Также много парковочных мест со стороны жилой застройки, прилегающей к парку.',
+        gpx: 'tracks/ski/sosny_rassudovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Хлебниковский лесопарк',
+        sneg: 'hlebnikovskiy',
+        source: 'stremglav',
+        length: 1.01,
+        region: 'MSK',
+        info: 'Круг накатывается бураном. Режут 2 лыжни с двух сторон. Тренируются дети из СШОР Юности Москвы. Выход на трассу от Липкинского шоссе также уплотнен бураном по всей длине и хорошо проезжаем коньком. Также есть подъездная лыжня вдоль забора складского комплекса "Армтек".',
+        gpx: 'tracks/ski/hlebnikovskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Кузьминки Деда Мороза',
+        sneg: 'kuzminki-dmoroza',
+        source: 'stremglav',
+        length: 2.8,
+        region: 'MSK',
+        gpx: 'tracks/ski/kuzminki_dmoroza_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Цаговский лес',
+        sneg: 'tzagovskiy',
+        source: 'stremglav',
+        length: 4.8,
+        region: 'MSK',
+        info: 'Новая трасса, создаваемая энтузиастми в Жуковском при поддержке администрации.',
+        link: 'https://t.me/zhukski',
+        gpx: 'tracks/ski/tzagovskiy_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Ноздриха [Нск]',
+        sneg: 'nozdriha',
+        source: 'stremglav',
+        length: 13.9,
+        region: 'NSK',
+        info: 'Отличные подготовленные трассы. Есть освещенная трасса для вечерних тренировок. График работы вт - вс (пн вых.), с 10:00 до 22:00, тел. +7 (913) 910-10-01',
+        link: 'https://nozdrikha.ru/',
+        gpx: 'tracks/ski/nozdriha_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'НСЗ [Нск]',
+        sneg: 'nsz',
+        source: 'stremglav',
+        region: 'NSK',
+        info: 'Живописная лыжня проходит через густой хвойный лес и во время прогулки можно любоваться природной красотой тихих лесных уголков. База работает с 10:00 до 16:00 (прокат), весь инвентарь — лыжи, палки, ботинки — можно взять в пункте проката. Размеры начинаются с 30-го. Для работников АО «НСЗ» действует скидка, поэтому час проката стоит 40 рублей, для получения скидки необходимо предоставить пропуск на предприятие. Для всех остальных желающих час проката обойдется в 200 рублей в час. Проезд до остановки автобуса Баганская.',
+        link: 'https://nsznsk.ru/press/news/лыжная-база-ао-нсз/',
+        gpx: 'tracks/ski/nsz_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Сосновый бор [Нск]',
+        sneg: 'sosnovyi-nsk',
+        source: 'stremglav',
+        length: 5,
+        region: 'NSK',
+        info: 'Есть прокат, график работы ежедневно с 10.00 до 21.00.',
+        gpx: 'tracks/ski/sosnovyi_nsk_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Снежок',
+        sneg: 'snejok-nabchelny',
+        source: 'stremglav',
+        length: 6.6,
+        region: 'TATARSTAN',
+        info: 'Трасса готовится снегоходом. По большей части узкая, под классику. Имеются петли 6км и 1.5км. Есть сведения о существовании петли 3км. Работает прокат: зимой лыжи, летом велосипеды. На базе есть баня, мангалы, домики.',
+        gpx: 'tracks/ski/snejok_nabchelny_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Холмы',
+        sneg: 'holmy',
+        source: 'stremglav',
+        length: 5.85,
+        region: 'MSK',
+        info: 'Трасса находится в сосновом лесу. Есть круги 1, 2, 3, 5 км. Везде нарезка под конек и классику. Круг на 1 км освещен, остальные только в светлое время суток. Отличная навигация по маршруту. Парковка рядом с трассой или со школой милиции. Есть туалет, раздевалка, прокат.',
+        link: 'https://vk.com/sportviktoriya',
+        gpx: 'tracks/ski/holmy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Прибрежный парк',
+        sneg: 'pribrejnyi-nabchelny',
+        source: 'stremglav',
+        length: 5.2,
+        region: 'TATARSTAN',
+        info: 'Трасса состоит из двух участков: равнинные 3км и рельефные 5км. Рельеф присутствует на петлях, спускающихся к набережной реки. В целом трасса широкая, режется классика. Спуски не самые удачные - заканчиваются довольно крутыми поворотами на подъем, уклона в сторону поворота нет. Внизу спусков трасса часто подразбита. Из недостатков: на поверхность трассы в некоторых местах присутствует микрорельеф, что периодически создает ощущение, что едешь по стиральной доске; на некоторых участках трассы есть боковой уклон. Есть освещение, прокат.',
+        gpx: 'tracks/ski/pribrejnyi_nabchelny_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Радуга Красноярск',
+        sneg: 'raduga-krs',
+        source: 'stremglav',
+        length: 10.8,
+        info: '2 петли по 5 км с интенсивным и умеренным рельефом. Набор на горном круге порядка 160м. Готовят техникой. Раздевалка с душем 150р. Сервиса нет. Освещение до 22.00',
+        link: 'https://vk.com/radugasibfu?ysclid=m5k4bnm4o1192884704',
+        gpx: 'tracks/ski/raduga_krs_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Яковлевское Ярославль',
+        sneg: 'yakovlevskoe-yaroslavl',
+        source: 'stremglav',
+        length: 5.4,
+        region: 'YAROSLAVL',
+        info: 'СШОР №4: тел.+7 (903) 820-94-89, +7 (4852) 23-46-00, +7 (4852) 28-11-09',
+        link: 'https://sdiusshor4.narod.ru/index/lyzhnaja-baza/0-96',
+        gpx: 'tracks/ski/yakovlevskoe_yaroslavl_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Щелоковский хутор',
+        sneg: 'schelokov-hut',
+        source: 'stremglav',
+        length: 10,
+        region: 'N_NOVGOROD',
+        info: 'Трассы на 2 км, 3 км, 5 км, 10 км подготовлены снегоходами и ратраком. Есть круг с искусственным освещением на 3,3 км. Основные трассы до 5 км хорошо и широко раскатаны, круг на 10 км сделан не всегда качественно. Набор высоты на 10 км — 215 м. Помимо подготовленных лыжных трасс в Щелковском хуторе есть много километров самодельной лыжни для прогулок по лесу. Из-за большого числа посетителей трасса может быть местами грязная и разбитая. Базы и прокаты: Insport - ул. Горбатовская, 2а; 7 (831) 465-45-32, +7 (910) 884-02-86; Кузнечиха - д. Кузнечиха, 143; 7 (831) 417-57-12; Снежинка - ул. Горбатовская, 43; 7 (920) 042-62-76; Sun Sport - Адрес: ул. Корейская, 22. Школа № 135 (вход с обратной стороны); 7 (999) 139-79-65, +7 (831) 431-05-10; Теплые помещения для переодевания, гардероб. В некоторых прокатах — кафе, теплые туалеты или биотуалеты.',
+        gpx: 'tracks/ski/schelokov_hut_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'ОмГАУ лыжная трасса',
+        sneg: 'omgau',
+        source: 'stremglav',
+        length: 11.3,
+        region: 'OMSK',
+        info: 'Трасса под классику и конек. Рельеф средний: два затяжных спуска и два пологих подъема, три насыпных горки. Готовится бураном с волокушей и прицепным резаком.',
+        link: ['https://t.me/SkiClubOmich', 'https://vk.com/club224561979'],
+        gpx: 'tracks/ski/omgau_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'ЦТВС Курьяново',
+        sneg: 'kurianovo',
+        source: 'stremglav',
+        length: 1.2,
+        region: 'MSK',
+        info: 'Оснежение, прокат Моспортобъекта.',
+        gpx: 'tracks/ski/kurianovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Устюжна',
+        sneg: 'ustiujna',
+        source: 'stremglav',
+        length: 5.2,
+        region: 'VOLOGDA',
+        gpx: 'tracks/ski/ustiujna_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'ЦГЛ Мичуринск',
+        sneg: 'michurinsk',
+        source: 'stremglav',
+        length: 10.7,
+        gpx: 'tracks/ski/michurinsk_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Тропаревский парк',
+        sneg: 'troparevo',
+        source: 'stremglav',
+        length: 4.5,
+        region: 'MSK',
+        info: 'Прокатный модуль МосСпортОбъект.',
+        gpx: 'tracks/ski/troparevo_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Казань, Мирный',
+        sneg: 'mirnyi-kazan',
+        source: 'stremglav',
+        length: 8,
+        region: 'TATARSTAN',
+        info: 'Лыжно-биатлонный комплекс, лыжероллерная трасса. Круги от 1 до 5 км. Регулярная качественная подготовка для конька и классики. Круги делятся на любительские и спортивные. Искусственное освещение на трассах, прокат лыж, теплая раздевалка, гардероб, туалеты. База оборудована на современном уровне. Платный вход на трассу от 100 до 250р.',
+        link: ['https://t.me/LBK_kazan', 'https://vk.com/lbk_kzn'],
+        gpx: 'tracks/ski/mirnyi_kazan_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Сыктывкар, Эжва',
+        sneg: 'ejva',
+        source: 'stremglav',
+        length: 21.2,
+        region: 'KOMI',
+        info: 'Трассы готовятся ратраком. Включает прогулочные и спортивные петли. Двухэтажное здание лыжной базы с прокатом (300р), гардеробом, мастерской, буфетом. Работает база ежедневно, кроме понедельника или первого послепраздничного дня, до 17 часов. Лыжная база принадлежит деревоперерабатывающему комбинату "Монди СЛПК", тел. +7 821 246-91-60.',
+        link: 'https://vk.com/ekllib_information',
+        gpx: 'tracks/ski/ejva_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Paloheinä',
+        sneg: 'paloheina',
+        source: 'stremglav',
+        length: 31.8,
+        region: 'FINLAND',
+        info: 'Ратрак. Парковка бесплатная на 4 часа. Трасса бесплатная.',
+        gpx: 'tracks/ski/paloheina_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Гольфклуб Куркино',
+        sneg: 'golf-kurkino',
+        source: 'stremglav',
+        length: 3,
+        region: 'MSK',
+        info: 'Тел. +7 (995) 002-65-00',
+        link: 'https://vk.com/club33273148',
+        gpx: 'tracks/ski/golf_kurkino_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Бужаниново',
+        sneg: 'bujaninovo',
+        source: 'stremglav',
+        length: 5.6,
+        region: 'MSK',
+        info: 'Трасса поддерживается силами неравнодушных людей, проводятся соревнования, в том числе гонка памяти Коростелевых и другие.',
+        link: 'https://vk.com/wall-84802147',
+        gpx: 'tracks/ski/bujaninovo_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Лапшиха Кинешма',
+        sneg: 'lapshiha',
+        source: 'stremglav',
+        length: 5.6,
+        region: 'IVANOVO',
+        info: 'Протяженность круга 5 км (7 спусков, 7 подъемов). Также имеется равнинный прогулочный круг 1,6 км для спокойного катания. Трасса была создана в 80х годах. Тел. 89125533772',
+        gpx: 'tracks/ski/lapshiha_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Триумф Южно-Сахалинск',
+        sneg: 'triumf-sahalin',
+        source: 'stremglav',
+        length: 10.2,
+        region: 'DV',
+        info: 'Скоростная спортивная трасса, удобная раздевалка и гардероб. Есть искусственное оснежение. На базе есть тренажёрный зал и спортивный залы, прокат лыж, кофе автомат и автомат с едой.',
+        link: 'https://skisakhalin.ru',
+        gpx: 'tracks/ski/triumf_sahalin_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Сахалинский лыжный марафон',
+        sneg: 'sahalin-marathon',
+        source: 'stremglav',
+        length: 49.3,
+        region: 'DV',
+        info: 'Трасса марафона проложена из точки в точку: участники стартуют в посёлке Лесное, Корсаковского городского округа, а финишируют в городском парке Южно-Сахалинска.',
+        link: 'https://skisakhmarathon.ru/',
+        gpx: 'tracks/ski/sahalin_marathon_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Lles Cerdanya',
+        sneg: 'lles',
+        source: 'stremglav',
+        region: 'ESP',
+        length: 21,
+        link: 'https://lles.net',
+        gpx: 'tracks/ski/lles_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Дубовка Свободный',
+        sneg: 'dubovka',
+        source: 'stremglav',
+        length: 11.5,
+        region: 'DV',
+        info: 'Есть лыжный прокат, работает кроме понедельника.',
+        gpx: 'tracks/ski/dubovka_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Tuixent – la Vansa',
+        sneg: 'tuixent',
+        source: 'stremglav',
+        region: 'ESP',
+        length: 20.6,
+        link: 'https://www.tuixent-lavansa.com/',
+        gpx: 'tracks/ski/tuixent_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Магадан, Гороховое поле',
+        sneg: 'gorohovoe-vyalbe',
+        source: 'stremglav',
+        length: 3.3,
+        region: 'DV',
+        info: 'Длина 2.5км, перепад 20м, набор 51м. Трассу готовят изредка к соревнованиям. Парковка стихийная в двух точках, проблемы с подъездом. Отсутствует общедоступное помещение для переодевания. Единственная трасса в черте города.',
+        gpx: 'tracks/ski/gorohovoe_vyalbe_ski_omaps.gpx',
+        ski_kind: 'FICKLE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Аниськино Петушки',
+        sneg: 'aniskino',
+        source: 'stremglav',
+        length: 5.3,
+        region: 'VLADIMIR',
+        info: 'Кратко: есть парковка, трассу готовят бураном с прицепами, но не регулярно. Делают классику и конек, движение против часовой стрелки.',
+        link: 'https://m.vk.com/clubpokrovski',
+        gpx: 'tracks/ski/aniskino_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Снежная гора',
+        sneg: 'snegora',
+        source: 'stremglav',
+        length: 16.2,
+        region: 'IRKUTSK',
+        info: 'Лыжная база на перевале. Снег рано ложится и поздно сходит. База работает только осенью и весной, зимой надо уточнять информацию по телефону. +7 914 938-71-37 Мисайлов Владимир Катание взрослый 300 р. детский 200, отдельно оплачивается машиноместо на парковке 100 р. Снег лежит с начала октября по начало мая, круги 5 км, 1,6 км и 10 км готовятся не регулярно, на данный момент укатан круг 5 км. В выходные работает теплый вагончик.',
+        link: 'https://angara.net/forum/t65287',
+        gpx: 'tracks/ski/snegora_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Чистые Ключи',
+        sneg: 'chkliuchi',
+        source: 'stremglav',
+        length: 7.7,
+        region: 'IRKUTSK',
+        info: 'Трасса Шелеховской ДЮСШ Юность. Находится на выведенном из эксплуатации участке Култукского тракта (Автодорога Байкал). Асфальт. Накатывается снегоходом, периодически. Раздевалки пока нет.',
+        link: 'https://dush-shelekhov.my1.ru/',
+        gpx: 'tracks/ski/chkliuchi_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Трасса здоровья Барнаул',
+        sneg: 'trassazdoroviabrn',
+        source: 'stremglav',
+        length: 25.2,
+        region: 'ALTAI',
+        info: 'Для массового катания трасса готовится ратраком. В 2006 году в Ленточном бору расчистили и обустроилили трассу протяженностью 25 километров. Она проходит вблизи основных лыжных баз, начинаясь и заканчиваясь на Динамо. Самая дальняя точка трассы - Домик лесника около железнодорожной станции Лебяжье. В местах пересечения трассы с газопроводом, Лесным трактом и шоссе Ленточный бор построены пешеходные мосты. В зимнее время на «Трассе здоровья» работают две зоны отдыха с бесплатным горячим чаем. За выходные по ней проходят на лыжах от 10 до 15 тысяч человек.',
+        gpx: 'tracks/ski/trassazdoroviabrn_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Кемерово, Кузбасс-Арена',
+        sneg: 'kuzbass-arena',
+        source: 'stremglav',
+        length: 6.6,
+        region: 'KEMEROVO',
+        info: 'Проводятся соревнования по лыжероллерам.',
+        gpx: 'tracks/ski/kuzbass_arena_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Сургут, Олимпия',
+        sneg: 'olimpia-surgut',
+        source: 'stremglav',
+        length: 10.7,
+        region: 'KHMAO',
+        info: 'Подготовленные лыжные трассы - 5км/3км/2км/1км. Есть гостиница. Большая парковка, территория ухоженная, есть прокат лыж - оплата наличными.',
+        gpx: 'tracks/ski/olimpia_surgut_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Сургут, Снежинка',
+        sneg: 'snejunka-surgut',
+        source: 'stremglav',
+        length: 5.06,
+        region: 'KHMAO',
+        info: 'Умеренный рельеф, хорошая подготовка трасс, длина 5км. Асфальт 3км - лыжероллерная трасса. Есть спортивная гостиница.',
+        gpx: 'tracks/ski/snejunka_surgut_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Сямжа',
+        sneg: 'siamja',
+        source: 'stremglav',
+        length: 5.4,
+        region: 'VOLOGDA',
+        info: 'Телефон спортшколы +7 (81752) 2-18-26',
+        link: 'http://d20301.edu35.ru/',
+        gpx: 'tracks/ski/siamja_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Риддер Лесное',
+        sneg: 'ridder-lesnoe',
+        source: 'stremglav',
+        length: 11.8,
+        region: 'KAZAKHSTAN',
+        gpx: 'tracks/ski/ridder_lesnoe_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Ходынка',
+        sneg: 'hodynka',
+        source: 'stremglav',
+        length: 0.5,
+        region: 'MSK',
+        info: 'Готовится трасса с использованием привозного снега.',
+        gpx: 'tracks/ski/hodynka_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Куркинская лыжня',
+        sneg: 'kurkino',
+        source: 'stremglav',
+        length: 2.6,
+        region: 'MSK',
+        gpx: 'tracks/ski/kurkino_ski_omaps.gpx',
+        ski_kind: 'FICKLE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Воскресенск, Овраги',
+        sneg: 'ovragivoskr',
+        source: 'stremglav',
+        length: 7.3,
+        region: 'MSK',
+        gpx: 'tracks/ski/ovragivoskr_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Лукинская лыжня',
+        sneg: 'lukinskaya',
+        source: 'stremglav',
+        length: 2.2,
+        region: 'MSK',
+        link: ['https://t.me/skiclubnp', 'https://vk.com/skiclubnp'],
+        gpx: 'tracks/ski/lukinskaya_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Парк Свиблово',
+        sneg: 'sviblovopark',
+        source: 'stremglav',
+        length: 4.4,
+        region: 'MSK',
+        link: 'https://park-yauza.info/lyzhnye-trassy/',
+        gpx: 'tracks/ski/sviblovopark_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Олень [Н.Новгород]',
+        sneg: 'olennn',
+        source: 'stremglav',
+        length: 5.4,
+        region: 'N_NOVGOROD',
+        info: 'Протяжённость лыжной трассы 5км со срезками на 3 и 2км. Помимо этих кругов есть небольшая освещенка на километр с небольшим. Трасса готовится бураном. По пейзажам и рельефу трасса похожа на Большое Козино. Набор высоты 100м на круг. Весь набор сосредоточен в дальней части пятёрки, двушка и трёшка почти равнинные. Днем в выходной день довольно много катающихся, парковка может быть заполнена.',
+        link: 'https://vk.com/club51237625',
+        gpx: 'tracks/ski/olennn_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Парк Дружбы [Владимир]',
+        sneg: 'vladrujba',
+        source: 'stremglav',
+        length: 8.8,
+        region: 'VLADIMIR',
+        info: 'Есть 1.5км освещенная трасса. Есть прокат лыж. Рядом вакс-сервис: ул. Благонравова 9, https://podgotovka-lyzh.clients.site/ Возможно размещение на отдых с семьей или компанией рядом с трассой в гостиничном комплексе Русская Деревня: https://rusderevnya.ru/',
+        gpx: 'tracks/ski/vladrujba_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Кирово-Чепецк, Перекоп',
+        sneg: 'perekop',
+        source: 'stremglav',
+        length: 12,
+        region: 'KIROV',
+        gpx: 'tracks/ski/perekop_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Саранск ЛБК',
+        sneg: 'saransk-lbk',
+        source: 'stremglav',
+        region: 'MORDOVIA',
+        length: 6,
+        info: 'Трассы любой сложности: здесь есть и скоростные равнинные участки, и изматывающие затяжные подъемы, и техничные спуски. Большой круг - 4 км, набор высоты около 100 метров (зависит от петель, которые вы выбираете). Качественная подготовка: ежедневно, ратраком. Биатлонный тир и стрельбище на трассе. Есть роллерка, гостиница, восстановительный центр, сауна, тренажерный зал. Асфальт оставляет желать... Есть сервис-центр, прокат инвентаря, кафе. тел. +7 (8342) 32-00-34',
+        link: ['https://biathlonrm.ru', 'https://vk.com/biathlon_mordovia'],
+        gpx: 'tracks/ski/saransk_lbk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Ревда, Темп',
+        sneg: 'revda-temp',
+        source: 'stremglav',
+        length: 9.4,
+        region: 'EKB',
+        info: 'Трасса регулярно и хорошо готовится под конек и классику. Круги 3км, 5км и 10 км. Есть разметка. На стадионе (800м по улице от стартовой поляны) парковка, каток, бассейн, спортмагазин. Под трибуной: раздевалки, душевые, гардероб, кафе. тел. +7 (34397) 5-31-61, +7 (34397) 5-31-92, +7 (34397) 5-31-88, +7 (34397) 5-31-90',
+        link: ['https://sc-temp.ru/', 'https://vk.com/sctemp'],
+        gpx: 'tracks/ski/revda_temp_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Шуя, Осиновая гора',
+        sneg: 'osinovaiagora',
+        source: 'stremglav',
+        length: 2.5,
+        region: 'IVANOVO',
+        info: 'Живописный лес, размечены 3 дистанции: 2,3 и 5 км, присутствует рельеф. Трасса частично освещена. Есть прокат.',
+        gpx: 'tracks/ski/osinovaiagora_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Теплый стан',
+        sneg: 'warmfarm',
+        source: 'stremglav',
+        length: 2.4,
+        region: 'MSK',
+        info: 'Участок около 1-2 км начали периодически подготавливать ратраком. Также замечена снежная пушка.',
+        gpx: 'tracks/ski/warmfarm_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Вязьма, Русятка',
+        sneg: 'rusyatka',
+        source: 'stremglav',
+        length: 4.3,
+        region: 'SMOLENSK',
+        info: 'Трассы - 2, 3 и 4 км. Трасса достаточно спортивная. Освещение до 20.00. Есть биатлонное стрельбище. Тренируется спортшкола, проводятся областные старты. Предположительно есть прокат.',
+        gpx: 'tracks/ski/rusyatka_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Соколовка Рязань',
+        sneg: 'sokolovkaryazan',
+        source: 'stremglav',
+        length: 3.8,
+        region: 'RYAZAN',
+        gpx: 'tracks/ski/sokolovkaryazan_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Зеленоград, Силино',
+        sneg: 'silino',
+        source: 'stremglav',
+        length: 3.09,
+        region: 'MSK',
+        info: 'Трасса "Силинская лыжня" в Зеленограде. Готовится редко снегоходом ,в основном самотоп и то не везде. Но 3 км проезжаемы и также есть возможность ухода на круг "Хлебзавода" 5 и 10 км. Трасса только для классики, за исключением 2 км по парку там можно коньком при благоприятной снежной обстановке. На самом деле это больше лыжный маршрут чем трасса. Эксплуатант: ГБУ "Автомобильные дороги ЗелАО"',
+        gpx: 'tracks/ski/silino_ski_omaps.gpx',
+        ski_kind: 'FURROW',
+        type: ['SKI']
+    },
+    {
+        name: 'Химкинское вдх. Речной вокзал',
+        sneg: 'himkinskoe-vodohr',
+        source: 'stremglav',
+        length: 4,
+        region: 'MSK',
+        info: 'Шатры-раздевалки, лестница для спуска на лед. Периодически накатывается лыжня по льду Химкинского водохранилища.',
+        gpx: 'tracks/ski/himkinskoe_vodohr_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Ростокинский акведук',
+        sneg: 'rostokin-ski',
+        source: 'stremglav',
+        length: 1.4,
+        region: 'MSK',
+        link: 'https://park-yauza.info/lyzhnye-trassy/',
+        gpx: 'tracks/ski/rostokin_ski_ski_omaps.gpx',
+        ski_kind: 'FICKLE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Мытищи, мкр Пироговский Каргашино',
+        sneg: 'pirogovski-kargashino',
+        source: 'stremglav',
+        length: 2,
+        region: 'MSK',
+        info: 'Равнины - метров 200. Остальное - крутые подъёмы и спуски. Парковка в конце улицы Комсомольская, во дворах.',
+        gpx: 'tracks/ski/pirogovski_kargashino_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Великий Устюг, Салют',
+        sneg: 'veliki-ustiug',
+        source: 'stremglav',
+        length: 5.5,
+        region: 'VOLOGDA',
+        info: 'Лыжная база, горнолыжный склон, каток. Спортивные лыжные трассы с освещенным участком, максимальный круг 5км. Просторный лыжный стадион. Теплая капитальная раздевалка. Есть прокат лыж, буфет. Проводятся соревнования.',
+        link: 'https://vk.com/club172706998',
+        gpx: 'tracks/ski/veliki_ustiug_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Царицыно м.Орехово',
+        sneg: 'tzaricino-orehovo',
+        source: 'stremglav',
+        length: 3.3,
+        region: 'MSK',
+        gpx: 'tracks/ski/tzaricino_orehovo_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Талицкий лес [Клин]',
+        sneg: 'talit-ski',
+        source: 'stremglav',
+        length: 5.5,
+        region: 'MSK',
+        info: 'Живописная трасса среди хвойного леса почти без рельефа и с освещением.',
+        gpx: 'tracks/ski/talit_ski_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Санта Южно-Сахалинск',
+        sneg: 'santa-sakhalin',
+        source: 'stremglav',
+        length: 5.9,
+        region: 'DV',
+        info: 'Тел. +7 (4242) 73-53-81, +7 (4242) 73-45-74',
+        link: ['https://skisakhalin.ru/', 'https://vk.com/club49978460'],
+        gpx: 'tracks/ski/santa_sakhalin_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Орленок',
+        sneg: 'orlenok-kaluga',
+        source: 'stremglav',
+        length: 11.7,
+        region: 'KLGA',
+        info: 'Спортивная трасса с большим перепадом высот длиной 5 км и любительская трасса для умеренного катания длиной 5 км. Расположены в сосновом лесу. Трассы регулярно подготавливаются ратраком. Есть асфальтовая лыжероллерная трасса 2,5км. Есть освещенный участок 2,5км (работает до 21:00). Есть общедоступная раздевалка. Приезжают спортсмены на сборы, есть размещение, но условия спартанские (комнаты на 10чел), есть питание. На трассе проводятся соревнования по лыжным гонкам. Трассы на территории спортивного центра, вход 50р в светлое время и 100р в темное время суток. Работает прокат с 10:00 до 18:00, комплект лыж 300р/час.',
+        link: ['https://t.me/orlenok_kaluga', 'https://vk.com/orlenok_kaluga', 'https://yandex.com/maps/-/CPBxuSoo'],
+        gpx: 'tracks/ski/orlenok_kaluga_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Энергетик Уфа',
+        sneg: 'energetik-ufa',
+        source: 'stremglav',
+        length: 2.9,
+        region: 'BASH',
+        info: 'Зимой - подготавливаемая лыжная трасса, освещение, лыжная база, прокат лыж, буфет, бесплатная парковка, мангальные зоны, биотуалеты на улице, тёплые раздевалки отдельно мужская и женская. . тел. +7 (347) 279-78-11',
+        link: 'https://vk.com/gkenergetik',
+        gpx: 'tracks/ski/energetik_ufa_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Жемчужина Сибири',
+        sneg: 'pearlsib',
+        source: 'stremglav',
+        region: 'TYUMEN',
+        info: 'Спортивная трасса, суммарный набор 170м на кругу 5км. Качественная подготовка трассы, освещение, контролируемый доступ на трассу. Современный биатлонный стадион, трибуны. Проводятся чемпионаты России по биатлону. Роллерный асфальтовый круг 5км. Гостиница (большой корпус и коттеджи), столовая, тренажерный зал. Тел. +7 (3452) 29-29-63',
+        link: ['http://www.jemsib.ru/', 'https://vk.ru/jemsib'],
+        gpx: 'tracks/ski/pearlsib_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Саянск 3-й микрорайон',
+        sneg: 'sayansk-3mkr',
+        source: 'stremglav',
+        length: 5.64,
+        region: 'IRKUTSK',
+        info: 'Готовит спортшкола, есть буран с навесным оборудованием. Накатывается также перемычка 5км до трассы в микрорайоне Северный.',
+        gpx: 'tracks/ski/sayansk_3mkr_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Харовск',
+        sneg: 'harovsk',
+        source: 'stremglav',
+        region: 'VOLOGDA',
+        info: 'Проводится Харовский марафон.',
+        link: ['https://yandex.com/maps/-/CXGkR6-W', 'https://go.2gis.com/TKP1W'],
+        gpx: 'tracks/ski/harovsk_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Златоуст, Уреньга',
+        sneg: 'urenga',
+        source: 'stremglav',
+        length: 5,
+        region: 'CHELYABINSK',
+        info: 'Круг 5km с перевала Уреньга.',
+        gpx: 'tracks/ski/urenga_ski_omaps.gpx',
         type: ['SKI']
     }
 ];

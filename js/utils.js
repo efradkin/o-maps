@@ -100,6 +100,9 @@ const regions = {
     KABARDA: {
         name: 'Кабардино-Балкария'
     },
+    ESP: {
+        name: 'Испания'
+    },
     KAZAKHSTAN: {
         name: 'Казахстан'
     },
@@ -155,6 +158,9 @@ const regions = {
     },
     MOLDOVA: {
         name: 'Молдова'
+    },
+    MORDOVIA: {
+        name: 'Мордовия'
     },
     MSK: {
         name: 'Москва'
@@ -1389,7 +1395,7 @@ function searchMaps(text) {
                 results.push(m);
             }
         }
-        if (isTracksDisplayed() && !isNull(oTracks)) {
+        if (((typeof loadTracksRequired !== 'undefined' && loadTracksRequired) || isTracksDisplayed()) && !isNull(oTracks)) {
             for (const t of oTracks) {
                 if (unifyString(t.name).includes(text)) {
                     results.push(t);
@@ -1516,7 +1522,11 @@ function hideTrack(map, url) {
 
 function locateMap(m) {
     if (m.gpx) {
-        locateForUrl(getFirstTrack(m));
+        if (typeof loadTracksRequired !== 'undefined' && loadTracksRequired && typeof locateTrack === 'function') {
+            locateTrack(m);
+        } else {
+            locateForUrl(getFirstTrack(m));
+        }
     } else {
         map.fitBounds(m.bounds);
     }
