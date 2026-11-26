@@ -4847,4 +4847,63 @@ let skiTracks = [
         },
         type: ['SKI']
     },
+    {
+        name: 'Томск, Политехник',
+        source: 'https://trailtrack.ru/ru/routes/13420-korotkiy-lyzhnyy-vyhod-na-yugo-vostochnoy-storone-politehnika/',
+        region: 'TOMSK',
+        info: 'Короткий лыжный маршрут на юго-восточной стороне территории Политехнического университета.',
+        length: 0.6,
+        gpx: 'tracks/ski/tomsk_politekhnik_korotkiy_lyzhnyy_vykhod_na_yugo_vostochnoy_storo_13420_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Орлёнок — Большая Олха',
+        source: [
+            'https://trailtrack.ru/ru/routes/13237-orlenok-bolshaya-polovinnaya-i-vozvraschenie-po-severnoy-vizirke/',
+            'https://trailtrack.ru/ru/routes/13224-ogonki-dva-kruga-marafonki-s-otdelnym-vostochnym-vozvratom/',
+            'https://trailtrack.ru/ru/routes/13230-trudnyy-orlenok-cherez-krivuyu-medvezhata-i-zahod-na-vityaz/',
+            'https://trailtrack.ru/ru/routes/13239-podkamennaya-orlenok-cherez-krivuyu-medvezhata-posle-lesnyh-perevalov/',
+            'https://trailtrack.ru/ru/routes/13227-seregina-lyzhnya-cherez-bolshuyu-olhu-lesnoy-vyhod-k-ogonkam/',
+            'https://trailtrack.ru/ru/routes/13229-orlenok-trudnyy-cherez-medvezhat-i-yuzhnuyu-dolinu-krivogo/',
+            'https://trailtrack.ru/ru/routes/13228-orlenok-i-vityaz-razdelnye-lyzhnye-vetvi-yuzhnoy-dugi/',
+            'https://trailtrack.ru/ru/routes/13220-sanatornyy-orlenok-cherez-shirokiy-lyzhnyy-obhod-bolshoy-olhi/',
+            'https://trailtrack.ru/ru/routes/13222-iz-padi-yagodnoy-k-baykalu-lyzhnyy-spusk-po-shabartuyu/',
+            'https://trailtrack.ru/ru/routes/13241-orlenok-podem-ot-bolshoy-olhi-i-spusk-po-smolenskomu-klyuchu/',
+        ],
+        region: 'IRKUTSK',
+        info: 'Лыжные маршруты в районе Орлёнка и Большой Олхи. Включает направления к Большой Половинной, Огонькам, Витязю, Трудному, Подкаменной и Смоленскому ключу.',
+        length: 45,
+        gpx: {
+            'Большая Половинная (45.03 км)': 'tracks/ski/orlenok_bolshaya_olkha_bolshaya_polovinnaya_13237_ski_omaps.gpx',
+            'Огоньки, марафонские круги (43.21 км)': 'tracks/ski/orlenok_bolshaya_olkha_ogonki_marafonskie_krugi_13224_ski_omaps.gpx',
+            'Трудный — Орлёнок через Кривую (38.37 км)': 'tracks/ski/orlenok_bolshaya_olkha_trudnyy_orlenok_cherez_krivuyu_13230_ski_omaps.gpx',
+            'Подкаменная — Орлёнок (37.31 км)': 'tracks/ski/orlenok_bolshaya_olkha_podkamennaya_orlenok_13239_ski_omaps.gpx',
+            'Серёгина лыжня (35.57 км)': 'tracks/ski/orlenok_bolshaya_olkha_seregina_lyzhnya_13227_ski_omaps.gpx',
+            'Орлёнок — Трудный (34.36 км)': 'tracks/ski/orlenok_bolshaya_olkha_orlenok_trudnyy_13229_ski_omaps.gpx',
+            'Южная дуга Орлёнок — Витязь (27.97 км)': 'tracks/ski/orlenok_bolshaya_olkha_yuzhnaya_duga_orlenok_vityaz_13228_ski_omaps.gpx',
+            'Обход Большой Олхи через Широкий (25.38 км)': 'tracks/ski/orlenok_bolshaya_olkha_obkhod_bolshoy_olkhi_cherez_shirokiy_13220_ski_omaps.gpx',
+            'Падь Ягодная — Шабартуй (17.71 км)': 'tracks/ski/orlenok_bolshaya_olkha_pad_yagodnaya_shabartuy_13222_ski_omaps.gpx',
+            'Большая Олха — Смоленский ключ (17.04 км)': 'tracks/ski/orlenok_bolshaya_olkha_bolshaya_olkha_smolenskiy_klyuch_13241_ski_omaps.gpx',
+        },
+        type: ['SKI']
+    },
+    {
+        name: 'Фрязино',
+        source: [
+            'https://trailtrack.ru/ru/routes/13124-fryazino-rasshirennyy-klassicheskiy-krug-s-yugo-vostochnymi-petlyami/',
+            'https://trailtrack.ru/ru/routes/13119-fryazino-krasnyy-lyzhnyy-krug-s-dlinnymi-yuzhnymi-izgibami/',
+            'https://trailtrack.ru/ru/routes/13118-fryazino-zelenyy-lyzhnyy-krug-s-zapadnymi-izgibami/',
+            'https://trailtrack.ru/ru/routes/13117-fryazino-korotkiy-lyzhnyy-krug-s-vostochnym-oborotom/',
+        ],
+        region: 'MSK',
+        info: 'Лыжные круги во Фрязино: расширенный классический, красный, зелёный и короткий.',
+        length: 4.5,
+        gpx: {
+            'Расширенный классический круг (4.45 км)': 'tracks/ski/fryazino_rasshirennyy_klassicheskiy_krug_13124_ski_omaps.gpx',
+            'Красный круг (3.19 км)': 'tracks/ski/fryazino_krasnyy_krug_13119_ski_omaps.gpx',
+            'Зелёный круг (2.08 км)': 'tracks/ski/fryazino_zelenyy_krug_13118_ski_omaps.gpx',
+            'Короткий круг (1.33 км)': 'tracks/ski/fryazino_korotkiy_krug_13117_ski_omaps.gpx',
+        },
+        type: ['SKI']
+    },
 ];

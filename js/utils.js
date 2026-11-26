@@ -66,6 +66,9 @@ const regions = {
     BOSNIA: {
         name: 'Босния и Герцеговина',
     },
+    BURYATIA: {
+        name: 'Бурятия'
+    },
     NOVGOROD: {
         name: 'Великий Новгород',
     },
@@ -92,6 +95,9 @@ const regions = {
     DV: {
         name: 'Дальний Восток',
         logo: 'pkfso.webp'
+    },
+    ZABAIKALSKY: {
+        name: 'Забайкальский край'
     },
     IRKUTSK: {
         name: 'Иркутская обл',
@@ -202,6 +208,9 @@ const regions = {
     },
     PSKOV: {
         name: 'Псков'
+    },
+    TYVA: {
+        name: 'Республика Тыва'
     },
     ROSTOV: {
         name: 'Ростов-на-Дону',
