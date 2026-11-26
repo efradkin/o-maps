@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="O-Maps" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Химкинское вдх. Речной вокзал</name>
+    <link href="https://sneg.today/tracks/himkinskoe-vodohr">
+      <text>Sneg.today</text>
+    </link>
+  </metadata>
+  <trk>
+    <name>Химкинское вдх. Речной вокзал</name>
+    <trkseg>
+      <trkpt lat="55.848025" lon="37.467813" />
+      <trkpt lat="55.861068" lon="37.459334" />
+      <trkpt lat="55.861135" lon="37.459254" />
+      <trkpt lat="55.861184" lon="37.459146" />
+      <trkpt lat="55.861203" lon="37.459004" />
+      <trkpt lat="55.861193" lon="37.458851" />
+      <trkpt lat="55.861149" lon="37.458661" />
+      <trkpt lat="55.861092" lon="37.458567" />
+      <trkpt lat="55.861024" lon="37.458505" />
+      <trkpt lat="55.860941" lon="37.458481" />
+      <trkpt lat="55.860872" lon="37.458508" />
+      <trkpt lat="55.844579" lon="37.46954" />
+      <trkpt lat="55.844518" lon="37.469615" />
+      <trkpt lat="55.844491" lon="37.469725" />
+      <trkpt lat="55.844488" lon="37.469843" />
+      <trkpt lat="55.844509" lon="37.469953" />
+      <trkpt lat="55.844556" lon="37.470025" />
+      <trkpt lat="55.844619" lon="37.47005" />
+      <trkpt lat="55.844682" lon="37.470028" />
+      <trkpt lat="55.848025" lon="37.467818" />
+    </trkseg>
+  </trk>
+</gpx>

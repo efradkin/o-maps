@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="O-Maps" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Ходынка</name>
+    <link href="https://sneg.today/tracks/hodynka">
+      <text>Sneg.today</text>
+    </link>
+  </metadata>
+  <trk>
+    <name>Ходынка</name>
+    <trkseg>
+      <trkpt lat="55.788514" lon="37.527645" />
+      <trkpt lat="55.7883" lon="37.529292" />
+      <trkpt lat="55.788279" lon="37.529361" />
+      <trkpt lat="55.788265" lon="37.52942" />
+      <trkpt lat="55.788258" lon="37.529463" />
+      <trkpt lat="55.78825" lon="37.529509" />
+      <trkpt lat="55.788253" lon="37.529557" />
+      <trkpt lat="55.78828" lon="37.529573" />
+      <trkpt lat="55.788302" lon="37.529541" />
+      <trkpt lat="55.788312" lon="37.529487" />
+      <trkpt lat="55.788311" lon="37.529426" />
+      <trkpt lat="55.788303" lon="37.529369" />
+      <trkpt lat="55.7883" lon="37.529297" />
+    </trkseg>
+    <trkseg>
+      <trkpt lat="55.788519" lon="37.527645" />
+      <trkpt lat="55.789098" lon="37.522999" />
+      <trkpt lat="55.789116" lon="37.522945" />
+      <trkpt lat="55.789139" lon="37.522884" />
+      <trkpt lat="55.789148" lon="37.522822" />
+      <trkpt lat="55.789148" lon="37.522768" />
+      <trkpt lat="55.789125" lon="37.522747" />
+      <trkpt lat="55.789104" lon="37.522758" />
+      <trkpt lat="55.789095" lon="37.522806" />
+      <trkpt lat="55.789093" lon="37.522873" />
+      <trkpt lat="55.789093" lon="37.522937" />
+      <trkpt lat="55.789096" lon="37.522999" />
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="O-Maps" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>ЦТВС Курьяново</name>
+    <link href="https://sneg.today/tracks/kurianovo">
+      <text>Sneg.today</text>
+    </link>
+  </metadata>
+  <trk>
+    <name>ЦТВС Курьяново</name>
+    <trkseg>
+      <trkpt lat="55.651893" lon="37.680991" />
+      <trkpt lat="55.652913" lon="37.678809" />
+      <trkpt lat="55.653097" lon="37.678471" />
+      <trkpt lat="55.653173" lon="37.67831" />
+      <trkpt lat="55.653222" lon="37.678176" />
+      <trkpt lat="55.65331" lon="37.677752" />
+      <trkpt lat="55.653322" lon="37.677623" />
+      <trkpt lat="55.65334" lon="37.677516" />
+      <trkpt lat="55.65337" lon="37.677425" />
+      <trkpt lat="55.65365" lon="37.676908" />
+      <trkpt lat="55.653671" lon="37.676804" />
+      <trkpt lat="55.653661" lon="37.676679" />
+      <trkpt lat="55.653655" lon="37.676515" />
+      <trkpt lat="55.653673" lon="37.676341" />
+      <trkpt lat="55.653709" lon="37.676233" />
+      <trkpt lat="55.653872" lon="37.675821" />
+      <trkpt lat="55.653954" lon="37.675697" />
+      <trkpt lat="55.654042" lon="37.675616" />
+      <trkpt lat="55.654245" lon="37.675503" />
+      <trkpt lat="55.654602" lon="37.67522" />
+      <trkpt lat="55.654708" lon="37.675177" />
+      <trkpt lat="55.654826" lon="37.675161" />
+      <trkpt lat="55.655156" lon="37.675252" />
+      <trkpt lat="55.655201" lon="37.675252" />
+      <trkpt lat="55.655243" lon="37.675225" />
+      <trkpt lat="55.655286" lon="37.675155" />
+      <trkpt lat="55.655313" lon="37.675016" />
+      <trkpt lat="55.655385" lon="37.673511" />
+      <trkpt lat="55.655376" lon="37.673414" />
+      <trkpt lat="55.655348" lon="37.673323" />
+      <trkpt lat="55.655209" lon="37.67306" />
+      <trkpt lat="55.655161" lon="37.673012" />
+      <trkpt lat="55.655104" lon="37.672994" />
+      <trkpt lat="55.655049" lon="37.673022" />
+      <trkpt lat="55.654958" lon="37.673081" />
+      <trkpt lat="55.654873" lon="37.673103" />
+      <trkpt lat="55.654779" lon="37.673097" />
+      <trkpt lat="55.654608" lon="37.673042" />
+      <trkpt lat="55.65452" lon="37.673036" />
+      <trkpt lat="55.654432" lon="37.673058" />
+      <trkpt lat="55.654363" lon="37.673122" />
+      <trkpt lat="55.654199" lon="37.673299" />
+      <trkpt lat="55.654087" lon="37.673407" />
+      <trkpt lat="55.653718" lon="37.673702" />
+      <trkpt lat="55.653579" lon="37.673841" />
+      <trkpt lat="55.653367" lon="37.674056" />
+      <trkpt lat="55.653264" lon="37.674168" />
+      <trkpt lat="55.65308" lon="37.674426" />
+      <trkpt lat="55.652995" lon="37.674576" />
+      <trkpt lat="55.652886" lon="37.674801" />
+      <trkpt lat="55.652862" lon="37.674925" />
+      <trkpt lat="55.652859" lon="37.675037" />
+      <trkpt lat="55.652883" lon="37.675145" />
+      <trkpt lat="55.652931" lon="37.675209" />
+      <trkpt lat="55.653001" lon="37.675273" />
+      <trkpt lat="55.653397" lon="37.67559" />
+      <trkpt lat="55.653431" lon="37.675654" />
+      <trkpt lat="55.653455" lon="37.67574" />
+      <trkpt lat="55.653664" lon="37.676683" />
+    </trkseg>
+  </trk>
+</gpx>

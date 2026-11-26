@@ -882,7 +882,6 @@ let skiTracks = [
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
-    // --- ИЗВЕСТНЫЕ ЛЫЖНЫЕ ТРАССЫ РОССИИ И МИРА ---
     {
         name: 'ГАБОвская народная лыжня',
         sneg: 'gabo',
@@ -1844,10 +1843,11 @@ let skiTracks = [
         type: ['SKI']
     },
     {
-        name: 'Подольск, Девятский лес',
+        name: 'Подольск, Ерино, Девятский лес',
         region: 'MSK',
         source: 'stremglav',
         sneg: 'deviat-ski',
+        link: 'https://www.stremglav.fun/tracks/skitrackrating',
         info: 'Ухоженная трасса готовится бураном с прицепными устройствами. Классика и конек. Полотно отсыпано щепой. Занимается спортивная секция. Трасса сделана силами тренерского состава отделения спорт.школы. Проводятся соревнования. К началу трассы можно подъехать 1км по однополосной дороге через кладбище и частный сектор. Есть парковка на 3-4 легковых автомобиля.',
         length: 2.4,
         gpx: 'tracks/ski/deviat_ski_omaps.gpx',
@@ -1969,6 +1969,7 @@ let skiTracks = [
     },
     {
         name: 'Абрамцево-Радонеж',
+        sneg: 'abramcevo-radonej',
         region: 'MSK',
         source: 'stremglav',
         gpx: 'tracks/ski/abramtsevo_radonezh_klassika_ski_omaps.gpx',
@@ -2274,6 +2275,7 @@ let skiTracks = [
     },
     {
         name: 'Буй',
+        sneg: 'buy',
         region: 'KOSTROMA',
         source: 'stremglav',
         gpx: 'tracks/ski/buy_ski_omaps.gpx',
@@ -3431,6 +3433,7 @@ let skiTracks = [
     },
     {
         name: 'Лосиноостровский лесопарк',
+        sneg: 'losinyi-ostrov',
         region: 'MSK',
         gpx: 'tracks/ski/losinoostrovskiy_lesopark_ski_omaps.gpx',
         type: ['SKI']
@@ -4831,4 +4834,17 @@ let skiTracks = [
         gpx: 'tracks/ski/urenga_ski_omaps.gpx',
         type: ['SKI']
     }
+,
+    {
+        name: 'Приекуле, биатлонная трасса',
+        region: 'LATVIA',
+        link: 'https://www.stremglav.fun/tracks/priekulu',
+        source: 'stremglav',
+        info: 'Биатлонный комплекс в Приекуле. Включает зимнюю лыжную петлю около 2,7 км и лыжероллерную петлю около 2,5 км.',
+        gpx: {
+            'Лыжная трасса':'tracks/ski/priekulu_ski_ski_omaps.gpx',
+            'Лыжероллерная трасса':'tracks/ski/priekulu_skiroll_ski_omaps.gpx'
+        },
+        type: ['SKI']
+    },
 ];

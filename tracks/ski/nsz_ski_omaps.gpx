@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="O-Maps" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>НСЗ [Нск]</name>
+    <link href="https://sneg.today/tracks/nsz">
+      <text>Sneg.today</text>
+    </link>
+  </metadata>
+  <trk>
+    <name>НСЗ [Нск]</name>
+    <trkseg>
+      <trkpt lat="54.962766" lon="83.092631" />
+      <trkpt lat="54.960656" lon="83.10094" />
+      <trkpt lat="54.960656" lon="83.101042" />
+      <trkpt lat="54.960681" lon="83.101149" />
+      <trkpt lat="54.960773" lon="83.101455" />
+      <trkpt lat="54.960833" lon="83.101594" />
+      <trkpt lat="54.96093" lon="83.101745" />
+      <trkpt lat="54.960995" lon="83.101889" />
+      <trkpt lat="54.961161" lon="83.102544" />
+      <trkpt lat="54.961226" lon="83.1027" />
+      <trkpt lat="54.961445" lon="83.10307" />
+      <trkpt lat="54.9615" lon="83.10322" />
+      <trkpt lat="54.961546" lon="83.103386" />
+      <trkpt lat="54.961586" lon="83.103472" />
+      <trkpt lat="54.961657" lon="83.103547" />
+      <trkpt lat="54.961753" lon="83.103585" />
+      <trkpt lat="54.961894" lon="83.103601" />
+      <trkpt lat="54.962208" lon="83.10351" />
+      <trkpt lat="54.962279" lon="83.103413" />
+      <trkpt lat="54.962341" lon="83.103274" />
+      <trkpt lat="54.962378" lon="83.103118" />
+      <trkpt lat="54.962584" lon="83.101943" />
+      <trkpt lat="54.962596" lon="83.101777" />
+      <trkpt lat="54.962569" lon="83.101643" />
+      <trkpt lat="54.96251" lon="83.10153" />
+      <trkpt lat="54.962418" lon="83.101401" />
+      <trkpt lat="54.962221" lon="83.101192" />
+      <trkpt lat="54.962024" lon="83.101037" />
+      <trkpt lat="54.961774" lon="83.100876" />
+      <trkpt lat="54.961546" lon="83.100758" />
+      <trkpt lat="54.961454" lon="83.10072" />
+      <trkpt lat="54.96134" lon="83.100699" />
+      <trkpt lat="54.961226" lon="83.100623" />
+      <trkpt lat="54.960915" lon="83.100377" />
+      <trkpt lat="54.960869" lon="83.100312" />
+      <trkpt lat="54.960866" lon="83.100237" />
+      <trkpt lat="54.960958" lon="83.099889" />
+      <trkpt lat="54.961007" lon="83.099851" />
+      <trkpt lat="54.9611" lon="83.09984" />
+      <trkpt lat="54.961192" lon="83.099781" />
+      <trkpt lat="54.961306" lon="83.099642" />
+      <trkpt lat="54.961358" lon="83.099535" />
+      <trkpt lat="54.961472" lon="83.098982" />
+      <trkpt lat="54.961543" lon="83.098741" />
+      <trkpt lat="54.961648" lon="83.098542" />
+      <trkpt lat="54.961751" lon="83.098421" />
+      <trkpt lat="54.96188" lon="83.098346" />
+      <trkpt lat="54.962013" lon="83.098314" />
+      <trkpt lat="54.962124" lon="83.098341" />
+      <trkpt lat="54.962253" lon="83.098357" />
+      <trkpt lat="54.962308" lon="83.098314" />
+      <trkpt lat="54.962373" lon="83.098223" />
+      <trkpt lat="54.962686" lon="83.097442" />
+      <trkpt lat="54.962707" lon="83.097331" />
+      <trkpt lat="54.962703" lon="83.097194" />
+      <trkpt lat="54.962572" lon="83.096471" />
+      <trkpt lat="54.962559" lon="83.096273" />
+      <trkpt lat="54.962563" lon="83.096015" />
+      <trkpt lat="54.962578" lon="83.095812" />
+      <trkpt lat="54.962603" lon="83.09564" />
+      <trkpt lat="54.962603" lon="83.0955" />
+      <trkpt lat="54.962572" lon="83.095329" />
+      <trkpt lat="54.962575" lon="83.095163" />
+      <trkpt lat="54.962593" lon="83.09498" />
+      <trkpt lat="54.962624" lon="83.094808" />
+      <trkpt lat="54.962794" lon="83.094047" />
+      <trkpt lat="54.962849" lon="83.093768" />
+      <trkpt lat="54.962874" lon="83.093532" />
+      <trkpt lat="54.962874" lon="83.093355" />
+      <trkpt lat="54.962857" lon="83.093216" />
+      <trkpt lat="54.962826" lon="83.093108" />
+      <trkpt lat="54.96282" lon="83.092969" />
+      <trkpt lat="54.962829" lon="83.092647" />
+    </trkseg>
+  </trk>
+</gpx>

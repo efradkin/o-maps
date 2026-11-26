@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="O-Maps" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Хлебниковский лесопарк</name>
+    <link href="https://sneg.today/tracks/hlebnikovskiy">
+      <text>Sneg.today</text>
+    </link>
+  </metadata>
+  <trk>
+    <name>Хлебниковский лесопарк</name>
+    <trkseg>
+      <trkpt lat="55.908833" lon="37.607091" />
+      <trkpt lat="55.910144" lon="37.607172" />
+      <trkpt lat="55.910186" lon="37.607156" />
+      <trkpt lat="55.910237" lon="37.607086" />
+      <trkpt lat="55.910261" lon="37.60699" />
+      <trkpt lat="55.910601" lon="37.604034" />
+      <trkpt lat="55.910601" lon="37.603943" />
+      <trkpt lat="55.910574" lon="37.603862" />
+      <trkpt lat="55.910511" lon="37.603723" />
+      <trkpt lat="55.910445" lon="37.603594" />
+      <trkpt lat="55.910379" lon="37.603492" />
+      <trkpt lat="55.91031" lon="37.603412" />
+      <trkpt lat="55.910258" lon="37.603385" />
+      <trkpt lat="55.910204" lon="37.603374" />
+      <trkpt lat="55.90807" lon="37.603283" />
+      <trkpt lat="55.908" lon="37.603299" />
+      <trkpt lat="55.90794" lon="37.603358" />
+      <trkpt lat="55.907895" lon="37.603449" />
+      <trkpt lat="55.907871" lon="37.603562" />
+      <trkpt lat="55.90785" lon="37.603685" />
+      <trkpt lat="55.907703" lon="37.606646" />
+      <trkpt lat="55.907709" lon="37.606738" />
+      <trkpt lat="55.907739" lon="37.606823" />
+      <trkpt lat="55.907793" lon="37.60692" />
+      <trkpt lat="55.907853" lon="37.606968" />
+      <trkpt lat="55.907925" lon="37.606984" />
+      <trkpt lat="55.908828" lon="37.607086" />
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="O-Maps" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Кузьминки Деда Мороза</name>
+    <link href="https://sneg.today/tracks/kuzminki-dmoroza">
+      <text>Sneg.today</text>
+    </link>
+  </metadata>
+  <trk>
+    <name>Кузьминки Деда Мороза</name>
+    <trkseg>
+      <trkpt lat="55.685877" lon="37.810673" />
+      <trkpt lat="55.685729" lon="37.810709" />
+      <trkpt lat="55.685644" lon="37.810757" />
+      <trkpt lat="55.68556" lon="37.810779" />
+      <trkpt lat="55.685468" lon="37.810789" />
+      <trkpt lat="55.685366" lon="37.81083" />
+      <trkpt lat="55.685152" lon="37.810993" />
+      <trkpt lat="55.684904" lon="37.811176" />
+      <trkpt lat="55.684163" lon="37.811857" />
+      <trkpt lat="55.684129" lon="37.811932" />
+      <trkpt lat="55.684126" lon="37.812055" />
+      <trkpt lat="55.68409" lon="37.812189" />
+      <trkpt lat="55.683987" lon="37.812372" />
+      <trkpt lat="55.68373" lon="37.812721" />
+      <trkpt lat="55.683122" lon="37.813429" />
+      <trkpt lat="55.682959" lon="37.813665" />
+      <trkpt lat="55.681701" lon="37.815971" />
+      <trkpt lat="55.681423" lon="37.81661" />
+      <trkpt lat="55.68063" lon="37.818074" />
+      <trkpt lat="55.680549" lon="37.818214" />
+      <trkpt lat="55.680473" lon="37.818267" />
+      <trkpt lat="55.680364" lon="37.818353" />
+      <trkpt lat="55.680282" lon="37.81846" />
+      <trkpt lat="55.680222" lon="37.818578" />
+      <trkpt lat="55.680192" lon="37.818696" />
+      <trkpt lat="55.680186" lon="37.81882" />
+      <trkpt lat="55.680183" lon="37.818981" />
+      <trkpt lat="55.68017" lon="37.819131" />
+      <trkpt lat="55.680134" lon="37.819389" />
+      <trkpt lat="55.680059" lon="37.819673" />
+      <trkpt lat="55.679968" lon="37.820016" />
+      <trkpt lat="55.679895" lon="37.820402" />
+      <trkpt lat="55.679768" lon="37.82133" />
+      <trkpt lat="55.679765" lon="37.821459" />
+      <trkpt lat="55.67978" lon="37.821609" />
+      <trkpt lat="55.679817" lon="37.821706" />
+      <trkpt lat="55.681187" lon="37.824082" />
+      <trkpt lat="55.682269" lon="37.826062" />
+      <trkpt lat="55.682759" lon="37.826818" />
+      <trkpt lat="55.682877" lon="37.826974" />
+      <trkpt lat="55.682935" lon="37.827033" />
+      <trkpt lat="55.683019" lon="37.827049" />
+      <trkpt lat="55.683122" lon="37.827097" />
+      <trkpt lat="55.683846" lon="37.827462" />
+      <trkpt lat="55.683979" lon="37.827499" />
+      <trkpt lat="55.684076" lon="37.827499" />
+      <trkpt lat="55.684197" lon="37.827494" />
+      <trkpt lat="55.684287" lon="37.827559" />
+      <trkpt lat="55.684486" lon="37.827682" />
+      <trkpt lat="55.684532" lon="37.827682" />
+      <trkpt lat="55.684562" lon="37.827644" />
+      <trkpt lat="55.684719" lon="37.82729" />
+      <trkpt lat="55.68477" lon="37.827097" />
+      <trkpt lat="55.684834" lon="37.826636" />
+      <trkpt lat="55.685218" lon="37.824013" />
+      <trkpt lat="55.685297" lon="37.823535" />
+      <trkpt lat="55.685393" lon="37.823122" />
+      <trkpt lat="55.685505" lon="37.822752" />
+      <trkpt lat="55.686307" lon="37.819941" />
+      <trkpt lat="55.686331" lon="37.819753" />
+      <trkpt lat="55.686416" lon="37.818643" />
+      <trkpt lat="55.686428" lon="37.818423" />
+      <trkpt lat="55.686404" lon="37.81757" />
+      <trkpt lat="55.686413" lon="37.817398" />
+      <trkpt lat="55.686394" lon="37.817296" />
+      <trkpt lat="55.686343" lon="37.817216" />
+      <trkpt lat="55.686252" lon="37.817028" />
+      <trkpt lat="55.686228" lon="37.816926" />
+      <trkpt lat="55.686216" lon="37.816781" />
+      <trkpt lat="55.686228" lon="37.816631" />
+      <trkpt lat="55.686246" lon="37.816537" />
+      <trkpt lat="55.686276" lon="37.816384" />
+      <trkpt lat="55.686289" lon="37.81625" />
+      <trkpt lat="55.686273" lon="37.816105" />
+      <trkpt lat="55.686186" lon="37.815709" />
+      <trkpt lat="55.686026" lon="37.815285" />
+      <trkpt lat="55.685911" lon="37.815022" />
+      <trkpt lat="55.685781" lon="37.814839" />
+      <trkpt lat="55.685678" lon="37.814657" />
+      <trkpt lat="55.685626" lon="37.814491" />
+      <trkpt lat="55.685593" lon="37.814276" />
+      <trkpt lat="55.685578" lon="37.814067" />
+      <trkpt lat="55.685587" lon="37.813788" />
+      <trkpt lat="55.685649" lon="37.812848" />
+      <trkpt lat="55.685695" lon="37.812424" />
+      <trkpt lat="55.68574" lon="37.81207" />
+      <trkpt lat="55.685798" lon="37.811665" />
+      <trkpt lat="55.685819" lon="37.811327" />
+      <trkpt lat="55.685855" lon="37.811032" />
+      <trkpt lat="55.685894" lon="37.810732" />
+    </trkseg>
+  </trk>
+</gpx>

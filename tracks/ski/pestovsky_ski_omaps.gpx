@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="O-Maps" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Пестовский лесопарк</name>
+    <link href="https://sneg.today/tracks/pestovsky">
+      <text>Sneg.today</text>
+    </link>
+  </metadata>
+  <trk>
+    <name>Пестовский лесопарк</name>
+    <trkseg>
+      <trkpt lat="55.747122" lon="38.039604" />
+      <trkpt lat="55.747436" lon="38.040028" />
+      <trkpt lat="55.747463" lon="38.040136" />
+      <trkpt lat="55.747463" lon="38.040264" />
+      <trkpt lat="55.747433" lon="38.040479" />
+      <trkpt lat="55.747463" lon="38.040597" />
+      <trkpt lat="55.747536" lon="38.040645" />
+      <trkpt lat="55.747647" lon="38.040699" />
+      <trkpt lat="55.747705" lon="38.040795" />
+      <trkpt lat="55.747744" lon="38.04094" />
+      <trkpt lat="55.747883" lon="38.041643" />
+      <trkpt lat="55.747889" lon="38.041825" />
+      <trkpt lat="55.747871" lon="38.041981" />
+      <trkpt lat="55.747819" lon="38.042099" />
+      <trkpt lat="55.747678" lon="38.042378" />
+      <trkpt lat="55.747659" lon="38.042501" />
+      <trkpt lat="55.747662" lon="38.042657" />
+      <trkpt lat="55.747708" lon="38.042823" />
+      <trkpt lat="55.748005" lon="38.04358" />
+      <trkpt lat="55.748075" lon="38.043816" />
+      <trkpt lat="55.748135" lon="38.04402" />
+      <trkpt lat="55.748235" lon="38.044251" />
+      <trkpt lat="55.748274" lon="38.044444" />
+      <trkpt lat="55.748295" lon="38.044648" />
+      <trkpt lat="55.748322" lon="38.044819" />
+      <trkpt lat="55.748349" lon="38.04498" />
+      <trkpt lat="55.748337" lon="38.045136" />
+      <trkpt lat="55.74831" lon="38.045291" />
+      <trkpt lat="55.748259" lon="38.045661" />
+      <trkpt lat="55.748213" lon="38.046058" />
+      <trkpt lat="55.748154" lon="38.046598" />
+      <trkpt lat="55.748112" lon="38.046969" />
+      <trkpt lat="55.748039" lon="38.047387" />
+      <trkpt lat="55.74787" lon="38.048041" />
+      <trkpt lat="55.747831" lon="38.048315" />
+      <trkpt lat="55.747789" lon="38.048535" />
+      <trkpt lat="55.747743" lon="38.048599" />
+      <trkpt lat="55.747677" lon="38.048626" />
+      <trkpt lat="55.747607" lon="38.048573" />
+      <trkpt lat="55.747417" lon="38.048315" />
+      <trkpt lat="55.747173" lon="38.047822" />
+      <trkpt lat="55.746853" lon="38.047226" />
+      <trkpt lat="55.746792" lon="38.047135" />
+      <trkpt lat="55.746717" lon="38.047044" />
+      <trkpt lat="55.746638" lon="38.046926" />
+      <trkpt lat="55.746572" lon="38.046749" />
+      <trkpt lat="55.746237" lon="38.04581" />
+      <trkpt lat="55.746098" lon="38.045424" />
+      <trkpt lat="55.746034" lon="38.045263" />
+      <trkpt lat="55.745983" lon="38.045145" />
+      <trkpt lat="55.745974" lon="38.044989" />
+      <trkpt lat="55.745997" lon="38.044355" />
+      <trkpt lat="55.745994" lon="38.043797" />
+      <trkpt lat="55.746006" lon="38.043507" />
+      <trkpt lat="55.746048" lon="38.043185" />
+      <trkpt lat="55.746093" lon="38.042901" />
+      <trkpt lat="55.746157" lon="38.042692" />
+      <trkpt lat="55.746238" lon="38.042525" />
+      <trkpt lat="55.746554" lon="38.041835" />
+      <trkpt lat="55.746711" lon="38.0414" />
+      <trkpt lat="55.746816" lon="38.041062" />
+      <trkpt lat="55.746859" lon="38.040789" />
+      <trkpt lat="55.746868" lon="38.040563" />
+      <trkpt lat="55.746847" lon="38.040381" />
+      <trkpt lat="55.746807" lon="38.04022" />
+      <trkpt lat="55.746759" lon="38.04" />
+      <trkpt lat="55.746768" lon="38.039829" />
+      <trkpt lat="55.746835" lon="38.039657" />
+      <trkpt lat="55.746925" lon="38.039555" />
+      <trkpt lat="55.747013" lon="38.039539" />
+      <trkpt lat="55.747079" lon="38.039571" />
+    </trkseg>
+  </trk>
+</gpx>

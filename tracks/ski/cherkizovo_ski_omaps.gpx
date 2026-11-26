@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="O-Maps" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Черкизовский детский парк</name>
+    <link href="https://sneg.today/tracks/cherkizovo">
+      <text>Sneg.today</text>
+    </link>
+  </metadata>
+  <trk>
+    <name>Черкизовский детский парк</name>
+    <trkseg>
+      <trkpt lat="55.803921" lon="37.737034" />
+      <trkpt lat="55.804022" lon="37.737324" />
+      <trkpt lat="55.8041" lon="37.737404" />
+      <trkpt lat="55.8042" lon="37.737404" />
+      <trkpt lat="55.805366" lon="37.737072" />
+      <trkpt lat="55.805448" lon="37.736953" />
+      <trkpt lat="55.80549" lon="37.736776" />
+      <trkpt lat="55.805484" lon="37.736567" />
+      <trkpt lat="55.805421" lon="37.736412" />
+      <trkpt lat="55.805333" lon="37.736251" />
+      <trkpt lat="55.805297" lon="37.736127" />
+      <trkpt lat="55.805309" lon="37.735972" />
+      <trkpt lat="55.805387" lon="37.735494" />
+      <trkpt lat="55.80539" lon="37.735323" />
+      <trkpt lat="55.805357" lon="37.735189" />
+      <trkpt lat="55.805294" lon="37.735049" />
+      <trkpt lat="55.804917" lon="37.734668" />
+      <trkpt lat="55.804748" lon="37.734561" />
+      <trkpt lat="55.804691" lon="37.734577" />
+      <trkpt lat="55.804661" lon="37.734652" />
+      <trkpt lat="55.804655" lon="37.73477" />
+      <trkpt lat="55.804679" lon="37.736106" />
+      <trkpt lat="55.804661" lon="37.736197" />
+      <trkpt lat="55.80461" lon="37.736283" />
+      <trkpt lat="55.804537" lon="37.73631" />
+      <trkpt lat="55.804169" lon="37.736235" />
+      <trkpt lat="55.803961" lon="37.736272" />
+      <trkpt lat="55.803883" lon="37.736337" />
+      <trkpt lat="55.803829" lon="37.736449" />
+      <trkpt lat="55.803823" lon="37.736605" />
+      <trkpt lat="55.803925" lon="37.737031" />
+    </trkseg>
+  </trk>
+</gpx>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="O-Maps" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Осиновая гора [Шуя]</name>
+    <link href="https://sneg.today/tracks/osinovaiagora">
+      <text>Sneg.today</text>
+    </link>
+  </metadata>
+  <trk>
+    <name>Осиновая гора [Шуя]</name>
+    <trkseg>
+      <trkpt lat="56.864807" lon="41.428918" />
+      <trkpt lat="56.86511" lon="41.429162" />
+      <trkpt lat="56.865185" lon="41.429199" />
+      <trkpt lat="56.86527" lon="41.429207" />
+      <trkpt lat="56.865342" lon="41.429226" />
+      <trkpt lat="56.865439" lon="41.42928" />
+      <trkpt lat="56.867158" lon="41.431069" />
+      <trkpt lat="56.867246" lon="41.431122" />
+      <trkpt lat="56.867355" lon="41.431155" />
+      <trkpt lat="56.867475" lon="41.431181" />
+      <trkpt lat="56.867566" lon="41.431251" />
+      <trkpt lat="56.867645" lon="41.431364" />
+      <trkpt lat="56.867821" lon="41.431672" />
+      <trkpt lat="56.867954" lon="41.431876" />
+      <trkpt lat="56.868224" lon="41.432187" />
+      <trkpt lat="56.868651" lon="41.432595" />
+      <trkpt lat="56.868789" lon="41.432681" />
+      <trkpt lat="56.868906" lon="41.432756" />
+      <trkpt lat="56.869049" lon="41.432807" />
+      <trkpt lat="56.86913" lon="41.43281" />
+      <trkpt lat="56.869256" lon="41.432767" />
+      <trkpt lat="56.870524" lon="41.432227" />
+      <trkpt lat="56.870562" lon="41.432174" />
+      <trkpt lat="56.870583" lon="41.432083" />
+      <trkpt lat="56.87058" lon="41.43197" />
+      <trkpt lat="56.870287" lon="41.430699" />
+      <trkpt lat="56.870243" lon="41.430489" />
+      <trkpt lat="56.870208" lon="41.430248" />
+      <trkpt lat="56.870149" lon="41.429674" />
+      <trkpt lat="56.870108" lon="41.429486" />
+      <trkpt lat="56.86963" lon="41.428086" />
+      <trkpt lat="56.869577" lon="41.427995" />
+      <trkpt lat="56.869513" lon="41.427952" />
+      <trkpt lat="56.869425" lon="41.427968" />
+      <trkpt lat="56.869319" lon="41.427995" />
+      <trkpt lat="56.868589" lon="41.42836" />
+      <trkpt lat="56.868445" lon="41.428397" />
+      <trkpt lat="56.866466" lon="41.428639" />
+      <trkpt lat="56.866305" lon="41.428682" />
+      <trkpt lat="56.86617" lon="41.428741" />
+      <trkpt lat="56.865997" lon="41.428888" />
+      <trkpt lat="56.865859" lon="41.42895" />
+      <trkpt lat="56.865716" lon="41.428955" />
+      <trkpt lat="56.865182" lon="41.428891" />
+      <trkpt lat="56.865056" lon="41.428859" />
+      <trkpt lat="56.864933" lon="41.4288" />
+      <trkpt lat="56.864789" lon="41.428682" />
+      <trkpt lat="56.864745" lon="41.428671" />
+      <trkpt lat="56.864716" lon="41.428698" />
+      <trkpt lat="56.864707" lon="41.428757" />
+      <trkpt lat="56.864722" lon="41.428816" />
+      <trkpt lat="56.864748" lon="41.428853" />
+      <trkpt lat="56.864802" lon="41.42891" />
+    </trkseg>
+    <trkseg>
+      <trkpt lat="56.868683" lon="41.432619" />
+      <trkpt lat="56.868868" lon="41.432882" />
+      <trkpt lat="56.868903" lon="41.432979" />
+      <trkpt lat="56.868923" lon="41.433118" />
+      <trkpt lat="56.869431" lon="41.438853" />
+      <trkpt lat="56.869457" lon="41.438922" />
+      <trkpt lat="56.869507" lon="41.438976" />
+      <trkpt lat="56.869577" lon="41.438981" />
+      <trkpt lat="56.870448" lon="41.438681" />
+      <trkpt lat="56.870498" lon="41.438617" />
+      <trkpt lat="56.870539" lon="41.438493" />
+      <trkpt lat="56.870545" lon="41.438338" />
+      <trkpt lat="56.870334" lon="41.436546" />
+      <trkpt lat="56.870296" lon="41.436342" />
+      <trkpt lat="56.869137" lon="41.433204" />
+      <trkpt lat="56.869114" lon="41.433102" />
+      <trkpt lat="56.869117" lon="41.432979" />
+      <trkpt lat="56.86914" lon="41.432893" />
+      <trkpt lat="56.869187" lon="41.432834" />
+      <trkpt lat="56.869281" lon="41.432759" />
+    </trkseg>
+  </trk>
+</gpx>

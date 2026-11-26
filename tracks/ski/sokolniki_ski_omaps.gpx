@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="O-Maps" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Сокольники</name>
+    <link href="https://sneg.today/tracks/sokolniki">
+      <text>Sneg.today</text>
+    </link>
+  </metadata>
+  <trk>
+    <name>Сокольники</name>
+    <trkseg>
+      <trkpt lat="55.797734" lon="37.668398" />
+      <trkpt lat="55.797945" lon="37.668761" />
+      <trkpt lat="55.798234" lon="37.669148" />
+      <trkpt lat="55.798464" lon="37.669405" />
+      <trkpt lat="55.798892" lon="37.669738" />
+      <trkpt lat="55.799205" lon="37.669877" />
+      <trkpt lat="55.79935" lon="37.669899" />
+      <trkpt lat="55.799447" lon="37.669834" />
+      <trkpt lat="55.799561" lon="37.669695" />
+      <trkpt lat="55.802258" lon="37.666036" />
+      <trkpt lat="55.804007" lon="37.663611" />
+      <trkpt lat="55.804043" lon="37.663472" />
+      <trkpt lat="55.804055" lon="37.663332" />
+      <trkpt lat="55.804019" lon="37.663214" />
+      <trkpt lat="55.80394" lon="37.663118" />
+      <trkpt lat="55.803796" lon="37.662946" />
+      <trkpt lat="55.803072" lon="37.66168" />
+      <trkpt lat="55.802959" lon="37.661434" />
+      <trkpt lat="55.802748" lon="37.660812" />
+      <trkpt lat="55.802651" lon="37.660672" />
+      <trkpt lat="55.802036" lon="37.659943" />
+      <trkpt lat="55.801934" lon="37.659739" />
+      <trkpt lat="55.801294" lon="37.659041" />
+      <trkpt lat="55.80121" lon="37.65902" />
+      <trkpt lat="55.801132" lon="37.659074" />
+      <trkpt lat="55.801071" lon="37.659202" />
+      <trkpt lat="55.797726" lon="37.668373" />
+    </trkseg>
+  </trk>
+</gpx>
