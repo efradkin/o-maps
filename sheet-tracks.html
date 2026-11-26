@@ -237,7 +237,12 @@
             if (logos.length > 0) {
                 result += '<img src="./logo/' + logos[0] + '" alt="Лого" class="sheet-icon" />&nbsp;&nbsp;';
             }
-            result += '<b><a href="' + trackLink(getFirstTrack(t), true) + '">' + t.name + '<a/></b>';
+            let name = t.name;
+            if (t.region) {
+                // console.log(t.region)
+                name = regions[t.region].name + ', ' + name;
+            }
+            result += '<b><a href="' + trackLink(getFirstTrack(t), true) + '">' + name + '<a/></b>';
             return result;
         }
 
@@ -252,17 +257,24 @@
 
         function buildInfo(t) {
             let result = '';
+            if (t.sneg) {
+                result += `<a href="https://sneg.today/tracks/${t.sneg}" title="sneg.today">❄️</a> `;
+            }
             if (t.start) {
                 result += '<b>' + getMapStarts(t) + '</b> ';
             }
             if (t.info) {
                 result += t.info;
             }
-            if (t.sneg) {
-                result += ` <a href="https://sneg.today/tracks/${t.sneg}"><b>❄️ sneg.today</b></a>`;
-            }
             if (t.results) {
                 result += '<a href="' + t.results + '"> Результаты</a>';
+            }
+            let source = t.source;
+            if (source) {
+                if (source === 'stremglav') {
+                    source = 'https://www.stremglav.fun/docs/snegtodaymap';
+                }
+                result += ` <a href="${source}" title="Источник данных">📥</a> `;
             }
             return result;
         }

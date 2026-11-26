@@ -3947,7 +3947,12 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/info/dm26',
         endReg: '2026-11-24 21:50',
         bulletin: 'https://o-site.spb.ru/_races/2611280/261128_IB.pdf',
-        map: 'poljustrovo_tukhachevskogo_2026'
+        map: 'poljustrovo_tukhachevskogo_2026',
+        o_gps: {
+            'М': 26369,
+            'Ж': 26370,
+            'ALL': 26371
+        }
     },
     {
         id: 'SPB_20261128_3',
@@ -4020,6 +4025,15 @@ let events2026 = [
         link: 'https://vk.ru/wall-30365190_9785',
         owner: 'VESTA_PRIOZERSK',
         map: 'priozersk_drsu'
+    },
+    {
+        id: 'SPB_20261208_1',
+        date: '2026-12-08',
+        name: 'Фиджитал-ориентирование в Колпино',
+        place: 'школа 455',
+        coord: [59.744305, 30.608259],
+        reg: 'https://orgeo.ru/event/56750',
+        endReg: '2026-12-04 12:00'
     },
     {
         id: 'SPB_20261213_1',
