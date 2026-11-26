@@ -4849,16 +4849,16 @@ let skiTracks = [
     },
     {
         name: 'Томск, Политехник',
-        source: 'https://trailtrack.ru/ru/routes/13420-korotkiy-lyzhnyy-vyhod-na-yugo-vostochnoy-storone-politehnika/',
+        link: 'https://trailtrack.ru/ru/routes/13420-korotkiy-lyzhnyy-vyhod-na-yugo-vostochnoy-storone-politehnika/',
         region: 'TOMSK',
-        info: 'Короткий лыжный маршрут на юго-восточной стороне территории Политехнического университета.',
-        length: 0.6,
+        info: 'Короткий лыжный маршрут на юго-восточной стороне территории Политехнического университета. Длина GPX — около 0,64 км.',
+        length: 0.64,
         gpx: 'tracks/ski/tomsk_politekhnik_korotkiy_lyzhnyy_vykhod_na_yugo_vostochnoy_storo_13420_ski_omaps.gpx',
         type: ['SKI']
     },
     {
         name: 'Орлёнок — Большая Олха',
-        source: [
+        link: [
             'https://trailtrack.ru/ru/routes/13237-orlenok-bolshaya-polovinnaya-i-vozvraschenie-po-severnoy-vizirke/',
             'https://trailtrack.ru/ru/routes/13224-ogonki-dva-kruga-marafonki-s-otdelnym-vostochnym-vozvratom/',
             'https://trailtrack.ru/ru/routes/13230-trudnyy-orlenok-cherez-krivuyu-medvezhata-i-zahod-na-vityaz/',
@@ -4871,8 +4871,8 @@ let skiTracks = [
             'https://trailtrack.ru/ru/routes/13241-orlenok-podem-ot-bolshoy-olhi-i-spusk-po-smolenskomu-klyuchu/',
         ],
         region: 'IRKUTSK',
-        info: 'Лыжные маршруты в районе Орлёнка и Большой Олхи. Включает направления к Большой Половинной, Огонькам, Витязю, Трудному, Подкаменной и Смоленскому ключу.',
-        length: 45,
+        info: 'Подборка лыжных маршрутов в районе Орлёнка и Большой Олхи. Включает направления к Большой Половинной, Огонькам, Витязю, Трудному, Подкаменной и Смоленскому ключу. Длины отдельных GPX — от 17 до 45 км.',
+        length: 45.03,
         gpx: {
             'Большая Половинная (45.03 км)': 'tracks/ski/orlenok_bolshaya_olkha_bolshaya_polovinnaya_13237_ski_omaps.gpx',
             'Огоньки, марафонские круги (43.21 км)': 'tracks/ski/orlenok_bolshaya_olkha_ogonki_marafonskie_krugi_13224_ski_omaps.gpx',
@@ -4889,15 +4889,15 @@ let skiTracks = [
     },
     {
         name: 'Фрязино',
-        source: [
+        link: [
             'https://trailtrack.ru/ru/routes/13124-fryazino-rasshirennyy-klassicheskiy-krug-s-yugo-vostochnymi-petlyami/',
             'https://trailtrack.ru/ru/routes/13119-fryazino-krasnyy-lyzhnyy-krug-s-dlinnymi-yuzhnymi-izgibami/',
             'https://trailtrack.ru/ru/routes/13118-fryazino-zelenyy-lyzhnyy-krug-s-zapadnymi-izgibami/',
             'https://trailtrack.ru/ru/routes/13117-fryazino-korotkiy-lyzhnyy-krug-s-vostochnym-oborotom/',
         ],
         region: 'MSK',
-        info: 'Лыжные круги во Фрязино: расширенный классический, красный, зелёный и короткий.',
-        length: 4.5,
+        info: 'Четыре варианта лыжного круга во Фрязино: расширенный классический, красный, зелёный и короткий. Длины GPX — от 1,33 до 4,45 км.',
+        length: 4.45,
         gpx: {
             'Расширенный классический круг (4.45 км)': 'tracks/ski/fryazino_rasshirennyy_klassicheskiy_krug_13124_ski_omaps.gpx',
             'Красный круг (3.19 км)': 'tracks/ski/fryazino_krasnyy_krug_13119_ski_omaps.gpx',
@@ -4906,4 +4906,73 @@ let skiTracks = [
         },
         type: ['SKI']
     },
+    {
+        name: 'Зюраткуль',
+        source: 'https://skisport.ru/forum/cross-country/104359/',
+        link: 'https://зюраткульмарафон.рф',
+        region: 'CHELYABINSK',
+        info: 'Трасса марафона в национальном парке Зюраткуль. В 2025 году основной круг составлял 13 км; соревнования проводятся на дистанциях 13, 26, 39 и 52 км.',
+        length: 20,
+        gpx: 'tracks/ski/zyuratkul_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Каслинский умелец',
+        source: 'https://skisport.ru/forum/cross-country/104359/',
+        link: 'https://vk.com/kasliymelec',
+        region: 'CHELYABINSK',
+        info: 'Народная лыжня недалеко от Каслей. На соревновании «Каслинский умелец» использовался круг около 7 км; марафон проводился в 2023 и 2024 годах. В 2025 году соревнование отменили из-за недостатка снега.',
+        length: 30,
+        gpx: 'tracks/ski/kasli_kaslinskiy_umelets_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжня Зайковых',
+        source: 'https://skisport.ru/forum/cross-country/104359/',
+        link: 'https://vk.com/zaikovi_ski1',
+        region: 'CHELYABINSK',
+        info: 'Лыжная трасса в районе посёлка Каменский Увельского района. В 2025 году соревнование проходило на дистанции 30 км с кругом 10 км.',
+        length: 10,
+        gpx: 'tracks/ski/lyzhnya_zaikovykh_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная база ЧТЗ',
+        source: 'https://skisport.ru/forum/cross-country/104359/',
+        region: 'CHELYABINSK',
+        info: 'Городская лыжная база ЧТЗ в Челябинске, ул. Лесопарковая, 2а. Описаны подготовленные круги 3 и 5 км; на пятikilометровом круге есть дополнительная петля 4 км, общая конфигурация — до 9 км. Рельеф пологий.',
+        length: 9,
+        gpx: 'tracks/ski/chelyabinsk_chtz_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Уральские жемчужины',
+        source: 'https://skisport.ru/forum/cross-country/104359/',
+        link: 'https://vk.com/chebarkulmarafon2025',
+        region: 'CHELYABINSK',
+        info: 'Лыжная трасса на базе в Чебаркуле, ул. Шоссейная, 9. Основной круг — около 10 км. Используется для марафона «Уральские жемчужины» на дистанциях 10, 20, 30 и 50 км. В описании отмечены крутые подъёмы и скоростные спуски.',
+        length: 10,
+        gpx: 'tracks/ski/uralskie_zhemchuzhiny_chebarkul_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Золотая гора',
+        source: 'https://skisport.ru/forum/cross-country/104359/',
+        link: 'https://vk.com/public202499733',
+        region: 'CHELYABINSK',
+        info: 'Постоянная лыжная трасса в Челябинске, около микрорайона Ньютон. В 2025 году её протяжённость составляла 12,5 км. По описанию, трасса регулярно готовится в течение снежного сезона. На ней проводится классический марафон 8 марта.',
+        length: 12,
+        gpx: 'tracks/ski/zolotaya_gora_chelyabinsk_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Пионерские горки',
+        source: 'https://skisport.ru/forum/cross-country/104359/',
+        region: 'CHELYABINSK',
+        info: 'Постоянная лыжная трасса длиной около 5 км в лесном массиве Челябинска, на берегу Шершнёвского водохранилища. Есть подъёмы и спуски. Массовые соревнования здесь не проводятся. В описании указаны два варианта подхода к трассе.',
+        length: 5,
+        gpx: 'tracks/ski/pionerskie_gorki_chelyabinsk_ski_omaps.gpx',
+        type: ['SKI']
+    }
+
 ];

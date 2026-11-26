@@ -209,7 +209,7 @@ const regions = {
     PSKOV: {
         name: 'Псков'
     },
-    TYVA: {
+    TUVA: {
         name: 'Республика Тыва'
     },
     ROSTOV: {
