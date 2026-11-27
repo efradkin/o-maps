@@ -516,15 +516,36 @@ if (mapElement) {
         contextmenuItems: buildContextmenuItems()
     });
 
-    // Порядок слоёв на ski-tracks.html:
-    // подложка (tilePane 200) → карты (overlayPane 400) →
-    // OpenSnowMap (skiOsmPane 420) → лыжные GPX (skiTracksPane 440) →
-    // POI (markerPane 600).
+    // Специализированный порядок слоёв лыжной страницы:
+    // карты (overlayPane 400) → OpenSnowMap (420) →
+    // Strava Winter Heatmap (430) → лыжные GPX (440) → POI (markerPane 600).
     if (typeof SKI_TRACKS_PAGE !== 'undefined' && SKI_TRACKS_PAGE) {
+        map.createPane('stravaWinterPane');
+        map.getPane('stravaWinterPane').style.zIndex = 410;
         map.createPane('skiOsmPane');
         map.getPane('skiOsmPane').style.zIndex = 420;
         map.createPane('skiTracksPane');
         map.getPane('skiTracksPane').style.zIndex = 440;
+        // Оба слоя можно переключать на любом масштабе.
+        // Ниже z9 скрываем их panes, не меняя opacity и состояние checkbox.
+        // При возвращении в рабочий масштаб обновляем Strava-тайлы,
+        // чтобы не показывать растянутые изображения предыдущего масштаба.
+        const updateSkiOverlayZoom = function () {
+            const showOverlays = map.getZoom() >= 9;
+            const skiPane = map.getPane('skiOsmPane');
+            const stravaPane = map.getPane('stravaWinterPane');
+            if (skiPane) {
+                skiPane.style.display = showOverlays ? '' : 'none';
+            }
+            if (stravaPane) {
+                stravaPane.style.display = showOverlays ? '' : 'none';
+            }
+            if (showOverlays && stravaWinterLayer && map.hasLayer(stravaWinterLayer)) {
+                stravaWinterLayer.redraw();
+            }
+        };
+        map.on('zoomend', updateSkiOverlayZoom);
+        updateSkiOverlayZoom();
     }
 
     // Полигоны мелкого масштаба — под картинками (overlayPane = 400), чтобы

@@ -15,6 +15,7 @@ let poiLayer = L.layerGroup([]);
 let skiPoiLayer = (typeof L.markerClusterGroup === 'function') ?
     L.markerClusterGroup({maxClusterRadius: 35, showCoverageOnHover: false}) : L.layerGroup([]);
 let openSnowMapLayer = null;
+let stravaWinterLayer = null;
 let ooptLayer = buildOoptLayer();
 
 let runGroup = L.layerGroup([]);
@@ -56,12 +57,29 @@ if (mapElement) {
         openSnowMapLayer = L.tileLayer('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png', {
             pane: 'skiOsmPane',
             maxZoom: 18,
-            minZoom: 7,
             maxNativeZoom: 17,
             opacity: 0.9,
             className: 'ski-osm-tiles',
             attribution: '<a href="https://www.opensnowmap.org/">OpenSnowMap</a> | © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         });
+        // Strava Heatmap: публичные зимние XYZ-тайлы.
+        // Пустые тайлы могут возвращать 404; вместо них показываем прозрачный тайл.
+        stravaWinterLayer = L.tileLayer(
+            'https://heatmap-external-{s}.strava.com/tiles/winter/hot/{z}/{x}/{y}.png?px=256',
+            {
+                pane: 'stravaWinterPane',
+                subdomains: 'abc',
+                maxZoom: 18,
+                maxNativeZoom: 12,
+                updateWhenZooming: true,
+                updateWhenIdle: false,
+                updateInterval: 100,
+                keepBuffer: 0,
+                opacity: 0.55,
+                errorTileUrl: 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=',
+                attribution: '<a href="https://www.strava.com/maps">Strava Heatmap</a>'
+            }
+        );
     }
 
     setActiveBackground();
@@ -80,9 +98,9 @@ function buildOverlayMapsContents() {
         return {
             "<span class='SKI'>Лыжные трассы</span>": skiGroup,
             "<span class='layer-separator'>Лыжный OSM</span>": openSnowMapLayer,
+            "<span class='layer-separator'>Strava Heatmap</span>": stravaWinterLayer,
             "<span class='layer-separator'>Карты</span>": rogaineGroup,
             "<span class='layer-separator'>ООПТ</span>": ooptLayer,
-            // "<span class='layer-separator'>POI</span>": skiPoiLayer
         };
     }
     return {
