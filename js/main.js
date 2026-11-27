@@ -151,7 +151,8 @@ function isTrackAcceptable(t) {
     if (START_NAME_PARAM && START_NAME_PARAM !== t.start) {
         return false;
     }
-    if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
+    const requiredTrackType = TRACK_TYPE_PARAM || (typeof SKI_TRACKS_PAGE !== 'undefined' && SKI_TRACKS_PAGE ? 'SKI' : null);
+    if (requiredTrackType && (!t.type || !t.type.includes(requiredTrackType))) {
         return false;
     }
     if (TRACK_MONTH_PARAM && TRACK_MONTH_PARAM !== '0' && (!t.date || t.date.substring(5, 7) !== TRACK_MONTH_PARAM)) {
@@ -272,6 +273,7 @@ function loadTrack(t, path) {
             async: true,
             display_wpt: false,
             color: (t.type ? color[t.type[0]] : 'brown'),
+            pane: (typeof SKI_TRACKS_PAGE !== 'undefined' && SKI_TRACKS_PAGE) ? 'skiTracksPane' : 'overlayPane',
             opacity: .7,
             weight: 3
         });
@@ -513,6 +515,17 @@ if (mapElement) {
         contextmenuWidth: 190,
         contextmenuItems: buildContextmenuItems()
     });
+
+    // Порядок слоёв на ski-tracks.html:
+    // подложка (tilePane 200) → карты (overlayPane 400) →
+    // OpenSnowMap (skiOsmPane 420) → лыжные GPX (skiTracksPane 440) →
+    // POI (markerPane 600).
+    if (typeof SKI_TRACKS_PAGE !== 'undefined' && SKI_TRACKS_PAGE) {
+        map.createPane('skiOsmPane');
+        map.getPane('skiOsmPane').style.zIndex = 420;
+        map.createPane('skiTracksPane');
+        map.getPane('skiTracksPane').style.zIndex = 440;
+    }
 
     // Полигоны мелкого масштаба — под картинками (overlayPane = 400), чтобы
     // открытая кликом карта ложилась поверх

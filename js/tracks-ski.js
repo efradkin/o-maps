@@ -868,7 +868,15 @@ let skiTracks = [
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
-
+    {
+        name: 'Замульта',
+        gpx: 'tracks/ski/zamulta_ski_omaps.gpx',
+        link: 'https://vk.ru/skitrailzamulta',
+        info: '18 км подготовленной лыжной дороги. Есть срезки на круги различной сложности. Старт, финиш, прокат и места для парковки по адресу Замульта, ул.Майская, 29а.',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    // --- Треки из базы сервиса Stremglav.fun ---
     {
         name: 'Смоленск, Биатлонный комплекс ЧАЙКА',
         sneg: 'chaika-smolensk',
@@ -4847,6 +4855,7 @@ let skiTracks = [
         },
         type: ['SKI']
     },
+    // --- Треки из базы сервиса TrailTrack ---
     {
         name: 'Томск, Политехник',
         link: 'https://trailtrack.ru/ru/routes/13420-korotkiy-lyzhnyy-vyhod-na-yugo-vostochnoy-storone-politehnika/',
@@ -4906,6 +4915,7 @@ let skiTracks = [
         },
         type: ['SKI']
     },
+    // --- Треки из форума skisport.ru ---
     {
         name: 'Зюраткуль',
         source: 'https://skisport.ru/forum/cross-country/104359/',
@@ -4974,6 +4984,7 @@ let skiTracks = [
         gpx: 'tracks/ski/pionerskie_gorki_chelyabinsk_ski_omaps.gpx',
         type: ['SKI']
     },
+    // --- Треки из базы сервиса SkiSport ---
     {
         name: 'BERLOGA пос. Тягун',
         region: 'ALTAI',

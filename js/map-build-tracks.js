@@ -12,6 +12,9 @@ let calendarGroup = buildCalendarGroup();
 let calendarPastGroup = buildCalendarGroup();
 
 let poiLayer = L.layerGroup([]);
+let skiPoiLayer = (typeof L.markerClusterGroup === 'function') ?
+    L.markerClusterGroup({maxClusterRadius: 35, showCoverageOnHover: false}) : L.layerGroup([]);
+let openSnowMapLayer = null;
 let ooptLayer = buildOoptLayer();
 
 let runGroup = L.layerGroup([]);
@@ -49,6 +52,17 @@ if (mapElement) {
         maxZoom: 17,
         attribution: ATTRIBUTION
     });
+    if (typeof SKI_TRACKS_PAGE !== 'undefined' && SKI_TRACKS_PAGE) {
+        openSnowMapLayer = L.tileLayer('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png', {
+            pane: 'skiOsmPane',
+            maxZoom: 18,
+            minZoom: 7,
+            maxNativeZoom: 17,
+            opacity: 0.9,
+            className: 'ski-osm-tiles',
+            attribution: '<a href="https://www.opensnowmap.org/">OpenSnowMap</a> | © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        });
+    }
 
     setActiveBackground();
     const layers = [runGroup, walkGroup, skiGroup, veloGroup, waterGroup];
@@ -62,18 +76,25 @@ if (mapElement) {
 }
 
 function buildOverlayMapsContents() {
-    let result = {
+    if (typeof SKI_TRACKS_PAGE !== 'undefined' && SKI_TRACKS_PAGE) {
+        return {
+            "<span class='SKI'>Лыжные трассы</span>": skiGroup,
+            "<span class='layer-separator'>Лыжный OSM</span>": openSnowMapLayer,
+            "<span class='layer-separator'>Карты</span>": rogaineGroup,
+            "<span class='layer-separator'>ООПТ</span>": ooptLayer,
+            // "<span class='layer-separator'>POI</span>": skiPoiLayer
+        };
+    }
+    return {
         "<span class='RUN'>Бег</span>": runGroup,
         "<span class='VELO'>Вело</span>": veloGroup,
         "<span class='WATER'>Водные</span>": waterGroup,
         "<span class='SKI'>Лыжи</span>": skiGroup,
         "<span class='WALK'>Пешие</span>": walkGroup,
-        //"<span class='layer-separator'>Спорт.Карты</span>": mapsGroup,
         "<span class='layer-separator'>Карты</span>": rogaineGroup,
         "<span class='layer-separator' id='poi-group-check'>POI</span>": poiLayer,
         "<span class='layer-separator'>ООПТ</span>": ooptLayer
     };
-    return result;
 }
 
 function allocateMap(m, layer) {
