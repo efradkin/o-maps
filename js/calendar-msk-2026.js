@@ -4040,7 +4040,10 @@ let mskEvents2026 = [
         name: "Открытая тренировка",
         place: "Бабушкинский парк (сквер по Олонецкому проезду)",
         type: "ORIENT",
+        fmt: "ночной спринт",
         coord: [55.873166, 37.654401],
+        link: "https://docs.google.com/document/d/1Ah2JEdScP9-fZdgqRu7R6zG7L_4QI2Keyh6c4OsoC9o/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/164",
         owner: "MLKHT"
     },
     {
@@ -4086,6 +4089,17 @@ let mskEvents2026 = [
         reg: "https://orgeo.ru/event/56458",
         endReg: "2026-12-03 23:55",
         bulletin: "https://docs.google.com/document/d/1elnB8x4GV85tNIsFssjTGDuOOTrskgafxS-RK4qxZms/edit?usp=sharing"
+    },
+    {
+        id: 'MSK_20261206_3',
+        date: "2026-12-06",
+        name: "Выбор в Кусково 2026",
+        place: "Кусково (у пл. \"Кусково\")",
+        type: "ORIENT",
+        coord: [55.738113, 37.794353],
+        reg: "https://orgeo.ru/event/57104",
+        endReg: "2026-12-03 23:55",
+        bulletin: "https://docs.google.com/document/d/1OEPijQkBM1RXN-PBCAem81omW-A7Xn7XKbX0ksBY-rc/edit?tab=t.0"
     },
     {
         id: 'MSK_20261210_1',
@@ -4236,6 +4250,14 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20270213_1',
+        date: "2027-02-13",
+        name: "Лыжный Компот-рогейн 2027",
+        place: "Сергиево-Посадский",
+        type: "ROGAINE",
+        reg: "https://orgeo.ru/event/57096"
+    },
+    {
         id: 'MSK_20270323_1',
         date: "2027-03-23",
         name: "Московский Меридиан",
@@ -4259,6 +4281,14 @@ let mskEvents2026 = [
         endReg: "2027-05-04 23:00"
     },
     {
+        id: 'MSK_20270508_2',
+        date: "2027-05-08",
+        name: "Весенний Компот-рогейн 2027",
+        place: "Щелковский",
+        type: "ROGAINE",
+        reg: "https://orgeo.ru/event/57097"
+    },
+    {
         id: 'MSK_20270522_1',
         date: "2027-05-22",
         name: "ЗеленоГрядский рогейн",
@@ -4277,6 +4307,14 @@ let mskEvents2026 = [
         type: "ROGAINE",
         coord: [55.947495, 38.868561],
         reg: "https://orgeo.ru/event/57093"
+    },
+    {
+        id: 'MSK_20270717_1',
+        date: "2027-07-17",
+        name: "Летний Компот-рогейн 2027",
+        place: "Пушкинский",
+        type: "ROGAINE",
+        reg: "https://orgeo.ru/event/57098"
     },
     {
         id: 'MSK_20270911_1',
@@ -4306,5 +4344,13 @@ let mskEvents2026 = [
         coord: [55.913288, 36.415527],
         reg: "https://orgeo.ru/event/56725",
         endReg: "2027-09-30 23:55"
+    },
+    {
+        id: 'MSK_20271016_1',
+        date: "2027-10-16",
+        name: "Рогейн «Финал Компот-Кубка 2027»",
+        place: "Пушкинский",
+        type: "ROGAINE",
+        reg: "https://orgeo.ru/event/57095"
     }
 ]

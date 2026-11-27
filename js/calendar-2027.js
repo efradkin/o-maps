@@ -112,7 +112,7 @@ let events2027 = [
     },
     {
         id: 'SPB_20270223_1',
-        date: '2027-02-23',
+        date: '2027-02-21',
         name: 'Рогейн "Горный кросс-119"',
         start: 'GORNY_CROSS',
         place: 'Орехово, Трансмост б/о',
@@ -215,12 +215,34 @@ let events2027 = [
         fmt: 'эстафета 2х'
     },
     {
+        id: 'SPB_20270522_2',
+        date: '2027-05-22',
+        endDate: '2027-05-23',
+        name: 'Весенний Марш-Бросок',
+        start: 'MB',
+        place: 'озеро Пууканлампи',
+        type: 'ROGAINE',
+        coord: [60.798416, 29.8538],
+        reg: 'https://orgeo.ru/event/57128'
+    },
+    {
         id: 'SPB_20270523_1',
         date: '2027-05-23',
         place: 'Сосново',
         name: 'ЧиП СПб',
         start: 'SPB_CHAMP',
         fmt: 'лонг'
+    },
+    {
+        id: 'SPB_20270529_1',
+        date: '2027-05-29',
+        endDate: '2027-05-30',
+        name: 'BikeAdventure весна 2027',
+        start: 'BA',
+        place: 'озеро Восход',
+        type: 'ROGAINE',
+        coord: [60.8531, 29.088594],
+        reg: 'https://orgeo.ru/event/57126'
     },
     {
         id: 'SPB_20270530_1',
