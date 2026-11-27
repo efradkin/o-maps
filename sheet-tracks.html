@@ -269,13 +269,7 @@
             if (t.results) {
                 result += '<a href="' + t.results + '"> Результаты</a>';
             }
-            let source = t.source;
-            if (source) {
-                if (source === 'stremglav') {
-                    source = 'https://www.stremglav.fun/docs/snegtodaymap';
-                }
-                result += ` <a href="${source}" title="Источник данных">📥</a> `;
-            }
+            result += builSources(t);
             return result;
         }
 

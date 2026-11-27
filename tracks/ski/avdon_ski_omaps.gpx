@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="O-Maps SkiSport collector" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Лыжная трасса с. Авдон</name>
+    <desc>SkiSport ID: 32; длина по каталогу: 2.7 км; подготовка: Снегоход; рельеф: Средний; Elevation: 41. Информация: Alltrails</desc>
+    <link href="https://www.alltrails.com/explore/map/new-track-5-07e87c2" />
+  </metadata>
+  <trk>
+    <name>Лыжная трасса с. Авдон</name>
+    <desc>SkiSport ID: 32; длина по каталогу: 2.7 км; подготовка: Снегоход; рельеф: Средний; Elevation: 41. Информация: Alltrails</desc>
+    <trkseg>
+      <trkpt lat="54.66671000" lon="55.71094000">
+        <ele>187.00</ele>
+      </trkpt>
+      <trkpt lat="54.66681000" lon="55.71047000">
+        <ele>187.00</ele>
+      </trkpt>
+      <trkpt lat="54.66681000" lon="55.71026000">
+        <ele>186.00</ele>
+      </trkpt>
+      <trkpt lat="54.66673000" lon="55.71011000">
+        <ele>185.00</ele>
+      </trkpt>
+      <trkpt lat="54.66581000" lon="55.71047000">
+        <ele>179.00</ele>
+      </trkpt>
+      <trkpt lat="54.66538000" lon="55.71049000">
+        <ele>176.00</ele>
+      </trkpt>
+      <trkpt lat="54.66503000" lon="55.71058000">
+        <ele>175.00</ele>
+      </trkpt>
+      <trkpt lat="54.66432000" lon="55.71062000">
+        <ele>184.00</ele>
+      </trkpt>
+      <trkpt lat="54.66398000" lon="55.71049000">
+        <ele>187.00</ele>
+      </trkpt>
+      <trkpt lat="54.66379000" lon="55.71060000">
+        <ele>188.00</ele>
+      </trkpt>
+      <trkpt lat="54.66364000" lon="55.71088000">
+        <ele>188.00</ele>
+      </trkpt>
+      <trkpt lat="54.66355000" lon="55.71124000">
+        <ele>189.00</ele>
+      </trkpt>
+      <trkpt lat="54.66342000" lon="55.71148000">
+        <ele>190.00</ele>
+      </trkpt>
+      <trkpt lat="54.66293000" lon="55.71139000">
+        <ele>195.00</ele>
+      </trkpt>
+      <trkpt lat="54.66274000" lon="55.71131000">
+        <ele>197.00</ele>
+      </trkpt>
+      <trkpt lat="54.66259000" lon="55.71157000">
+        <ele>197.00</ele>
+      </trkpt>
+      <trkpt lat="54.66244000" lon="55.71195000">
+        <ele>197.00</ele>
+      </trkpt>
+      <trkpt lat="54.66239000" lon="55.71240000">
+        <ele>197.00</ele>
+      </trkpt>
+      <trkpt lat="54.66244000" lon="55.71275000">
+        <ele>196.00</ele>
+      </trkpt>
+      <trkpt lat="54.66241000" lon="55.71311000">
+        <ele>194.00</ele>
+      </trkpt>
+      <trkpt lat="54.66231000" lon="55.71343000">
+        <ele>193.00</ele>
+      </trkpt>
+      <trkpt lat="54.66211000" lon="55.71369000">
+        <ele>194.00</ele>
+      </trkpt>
+      <trkpt lat="54.66188000" lon="55.71391000">
+        <ele>194.00</ele>
+      </trkpt>
+      <trkpt lat="54.66177000" lon="55.71425000">
+        <ele>193.00</ele>
+      </trkpt>
+      <trkpt lat="54.66192000" lon="55.71485000">
+        <ele>193.00</ele>
+      </trkpt>
+      <trkpt lat="54.66224000" lon="55.71513000">
+        <ele>193.00</ele>
+      </trkpt>
+      <trkpt lat="54.66370000" lon="55.71661000">
+        <ele>188.00</ele>
+      </trkpt>
+      <trkpt lat="54.66390000" lon="55.71734000">
+        <ele>188.00</ele>
+      </trkpt>
+      <trkpt lat="54.66445000" lon="55.71895000">
+        <ele>184.00</ele>
+      </trkpt>
+      <trkpt lat="54.66452000" lon="55.72071000">
+        <ele>184.00</ele>
+      </trkpt>
+      <trkpt lat="54.66475000" lon="55.72193000">
+        <ele>182.00</ele>
+      </trkpt>
+      <trkpt lat="54.66458000" lon="55.72390000">
+        <ele>180.00</ele>
+      </trkpt>
+      <trkpt lat="54.66493000" lon="55.72399000">
+        <ele>180.00</ele>
+      </trkpt>
+      <trkpt lat="54.66529000" lon="55.72403000">
+        <ele>179.00</ele>
+      </trkpt>
+      <trkpt lat="54.66542000" lon="55.72378000">
+        <ele>179.00</ele>
+      </trkpt>
+      <trkpt lat="54.66555000" lon="55.72328000">
+        <ele>181.00</ele>
+      </trkpt>
+      <trkpt lat="54.66561000" lon="55.72277000">
+        <ele>182.00</ele>
+      </trkpt>
+      <trkpt lat="54.66559000" lon="55.72197000">
+        <ele>182.00</ele>
+      </trkpt>
+      <trkpt lat="54.66535000" lon="55.72120000">
+        <ele>182.00</ele>
+      </trkpt>
+      <trkpt lat="54.66533000" lon="55.72073000">
+        <ele>181.00</ele>
+      </trkpt>
+      <trkpt lat="54.66523000" lon="55.72036000">
+        <ele>180.00</ele>
+      </trkpt>
+      <trkpt lat="54.66527000" lon="55.71972000">
+        <ele>176.00</ele>
+      </trkpt>
+      <trkpt lat="54.66525000" lon="55.71933000">
+        <ele>174.00</ele>
+      </trkpt>
+      <trkpt lat="54.66516000" lon="55.71897000">
+        <ele>174.00</ele>
+      </trkpt>
+      <trkpt lat="54.66488000" lon="55.71850000">
+        <ele>179.00</ele>
+      </trkpt>
+      <trkpt lat="54.66469000" lon="55.71807000">
+        <ele>185.00</ele>
+      </trkpt>
+      <trkpt lat="54.66463000" lon="55.71779000">
+        <ele>186.00</ele>
+      </trkpt>
+      <trkpt lat="54.66475000" lon="55.71719000">
+        <ele>187.00</ele>
+      </trkpt>
+      <trkpt lat="54.66456000" lon="55.71592000">
+        <ele>186.00</ele>
+      </trkpt>
+      <trkpt lat="54.66463000" lon="55.71543000">
+        <ele>184.00</ele>
+      </trkpt>
+      <trkpt lat="54.66486000" lon="55.71500000">
+        <ele>179.00</ele>
+      </trkpt>
+      <trkpt lat="54.66548000" lon="55.71418000">
+        <ele>175.00</ele>
+      </trkpt>
+      <trkpt lat="54.66559000" lon="55.71373000">
+        <ele>177.00</ele>
+      </trkpt>
+      <trkpt lat="54.66550000" lon="55.71328000">
+        <ele>178.00</ele>
+      </trkpt>
+      <trkpt lat="54.66550000" lon="55.71290000">
+        <ele>179.00</ele>
+      </trkpt>
+      <trkpt lat="54.66557000" lon="55.71255000">
+        <ele>179.00</ele>
+      </trkpt>
+      <trkpt lat="54.66673000" lon="55.71240000">
+        <ele>187.00</ele>
+      </trkpt>
+      <trkpt lat="54.66669000" lon="55.71122000">
+        <ele>187.00</ele>
+      </trkpt>
+      <trkpt lat="54.66671000" lon="55.71094000">
+        <ele>187.00</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

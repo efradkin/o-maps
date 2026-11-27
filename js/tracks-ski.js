@@ -4973,6 +4973,2754 @@ let skiTracks = [
         length: 5,
         gpx: 'tracks/ski/pionerskie_gorki_chelyabinsk_ski_omaps.gpx',
         type: ['SKI']
+    },
+    {
+        name: 'BERLOGA пос. Тягун',
+        region: 'ALTAI',
+        source: 'skisport',
+        length: 12.9,
+        link: 'https://vk.com/berloga_t',
+        gpx: 'tracks/ski/berloga_pos_tyagun_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'FOMA',
+        region: 'KHABAROVSK',
+        source: 'skisport',
+        length: 7.0,
+        gpx: 'tracks/ski/foma_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Абзаково',
+        region: 'BASH',
+        source: 'skisport',
+        length: 2.0,
+        gpx: 'tracks/ski/abzakovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Аджигардак',
+        region: 'CHELYABINSK',
+        source: 'skisport',
+        length: 6.7,
+        gpx: 'tracks/ski/adzhigardak_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Аист',
+        region: 'EKB',
+        source: 'skisport',
+        length: 4.9,
+        link: 'http://aist-tramplin.ru/page/lyzhnyy-stadion',
+        gpx: 'tracks/ski/aist_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'АлтайSKIй',
+        region: 'ALTAI',
+        source: 'skisport',
+        length: 5.6,
+        gpx: 'tracks/ski/altayskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Анкудиновский лес',
+        region: 'N_NOVGOROD',
+        source: 'skisport',
+        length: 4.9,
+        gpx: 'tracks/ski/ankudinovskiy_les_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Аэродром',
+        region: 'TVER',
+        source: 'skisport',
+        length: 5.1,
+        gpx: 'tracks/ski/aerodrom_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Березовая Роща',
+        region: 'EKB',
+        source: 'skisport',
+        length: 4.9,
+        gpx: 'tracks/ski/berezovaya_roshcha_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Биомед',
+        region: 'PERM',
+        source: 'skisport',
+        length: 6.6,
+        link: 'https://vk.com/albums-24809496',
+        gpx: 'tracks/ski/biomed_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'БК им. В Фатьянова',
+        region: 'KAMCHATKA',
+        source: 'skisport',
+        length: 4.0,
+        link: 'http://kambiathlon.ru/komplex',
+        gpx: 'tracks/ski/bk_im_v_fatyanova_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Буринские горы" Балезино',
+        region: 'UDMURTIA',
+        source: 'skisport',
+        length: 4.3,
+        link: 'https://vk.com/club197562470',
+        gpx: 'tracks/ski/burinskie_gory_balezino_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'БЦ им А. И. Тихонова',
+        region: 'TYUMEN',
+        source: 'skisport',
+        length: 5.5,
+        link: 'https://cfor-uvat.ru/obekty/?ELEMENT_ID=38#first',
+        gpx: 'tracks/ski/bts_im_a_i_tikhonova_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Виледь',
+        region: 'ARKHANGELSK',
+        source: 'skisport',
+        length: 3.4,
+        link: 'https://vk.com/flgviled',
+        gpx: 'tracks/ski/viled_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Воронье гнездо',
+        region: 'BASH',
+        source: 'skisport',
+        length: 2.8,
+        gpx: 'tracks/ski/vorone_gnezdo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Высокогорье',
+        region: 'ZABAIKALSKY',
+        source: 'skisport',
+        length: 4.2,
+        gpx: 'tracks/ski/vysokogore_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'г. Пермь "Городской парк',
+        region: 'PERM',
+        source: 'skisport',
+        length: 4.9,
+        link: 'https://vk.com/rum_marathon',
+        gpx: 'tracks/ski/perm_gorodskoy_park_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Динамо',
+        region: 'PERM',
+        source: 'skisport',
+        length: 5.1,
+        link: 'https://dinamoperm.ru/lizhnaya_baza.html',
+        gpx: 'tracks/ski/dinamo_1_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Динамо',
+        region: 'ULYANOVSK',
+        source: 'skisport',
+        length: 4.4,
+        gpx: 'tracks/ski/dinamo_2_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Динамо',
+        region: 'KRASNOYARSK',
+        source: 'skisport',
+        length: 5.9,
+        gpx: 'tracks/ski/dinamo_3_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Динамо',
+        region: 'KURGAN',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/dinamo_4_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Еланда',
+        region: 'ALTAI',
+        source: 'skisport',
+        length: 12.0,
+        gpx: 'tracks/ski/elanda_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Ергаки',
+        region: 'KRASNOYARSK',
+        source: 'skisport',
+        length: 3.1,
+        gpx: 'tracks/ski/ergaki_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Железнодорожник',
+        region: 'N_NOVGOROD',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/zheleznodorozhnik_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Жемчужина Удмуртии',
+        region: 'UDMURTIA',
+        source: 'skisport',
+        length: 5.8,
+        gpx: 'tracks/ski/zhemchuzhina_udmurtii_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Забайкалец',
+        region: 'BURYATIA',
+        source: 'skisport',
+        length: 6.4,
+        gpx: 'tracks/ski/zabaykalets_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Звездочка',
+        region: 'EKB',
+        source: 'skisport',
+        length: 2.6,
+        gpx: 'tracks/ski/zvezdochka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Зорька',
+        region: 'BURYATIA',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/zorka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Изумруд',
+        region: 'VOLOGDA',
+        source: 'skisport',
+        length: 5.2,
+        link: 'https://izumrud35.ru/ski.htm',
+        gpx: 'tracks/ski/izumrud_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Илес',
+        region: 'ARKHANGELSK',
+        source: 'skisport',
+        length: 8.4,
+        link: 'https://vk.com/club110073365',
+        gpx: 'tracks/ski/iles_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Искра',
+        region: 'PERM',
+        source: 'skisport',
+        length: 9.9,
+        link: 'https://vk.com/ski_base_iskra',
+        gpx: 'tracks/ski/iskra_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Кабельщик',
+        region: 'VLADIMIR',
+        source: 'skisport',
+        length: 5.1,
+        link: 'https://vk.com/kolchugski33',
+        gpx: 'tracks/ski/kabelshchik_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Калиец',
+        region: 'PERM',
+        source: 'skisport',
+        length: 3.0,
+        link: 'https://vk.com/lb_kaliec',
+        gpx: 'tracks/ski/kaliets_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Калининец',
+        region: 'EKB',
+        source: 'skisport',
+        length: 7.7,
+        link: 'https://xn--80akiahhpb6f.xn--80acgfbsl1azdqr.xn--p1ai/',
+        gpx: {
+            '1': 'tracks/ski/kalininets_1_ski_omaps.gpx',
+            '2': 'tracks/ski/kalininets_2_ski_omaps.gpx',
+        },
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Калиновка',
+        region: 'PRIMORSKY',
+        source: 'skisport',
+        length: 5.3,
+        gpx: 'tracks/ski/kalinovka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Карабатово-Михальчиково',
+        region: 'N_NOVGOROD',
+        source: 'skisport',
+        length: 10.2,
+        gpx: 'tracks/ski/karabatovo_mikhalchikovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Карпаты',
+        region: 'KIROV',
+        source: 'skisport',
+        length: 4.2,
+        link: 'https://vk.com/karpatichepeck',
+        gpx: 'tracks/ski/karpaty_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Карпов пруд',
+        region: 'CHELYABINSK',
+        source: 'skisport',
+        length: 6.0,
+        link: 'https://vk.com/skicentr74',
+        gpx: 'tracks/ski/karpov_prud_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Карпово',
+        region: 'VOLOGDA',
+        source: 'skisport',
+        length: 6.7,
+        link: 'https://vk.com/karpovo35',
+        gpx: 'tracks/ski/karpovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Касмалинка',
+        region: 'ALTAI',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/kasmalinka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Кварц',
+        region: 'N_NOVGOROD',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/kvarts_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Кедр',
+        region: 'EKB',
+        source: 'skisport',
+        length: 10.6,
+        link: 'https://vk.com/sk_kedr_nvk',
+        gpx: 'tracks/ski/kedr_1_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Кедр',
+        region: 'TOMSK',
+        source: 'skisport',
+        length: 4.8,
+        gpx: 'tracks/ski/kedr_2_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Кириллова горка',
+        region: 'NOVGOROD',
+        source: 'skisport',
+        length: 5.2,
+        gpx: 'tracks/ski/kirillova_gorka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Киселевская Лыжня',
+        region: 'TVER',
+        source: 'skisport',
+        length: 2.6,
+        link: 'https://vk.com/kiselevskayalyzhnya',
+        gpx: 'tracks/ski/kiselevskaya_lyzhnya_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Котельная-1',
+        region: 'MSK',
+        source: 'skisport',
+        length: 4.4,
+        link: 'http://vsk-ski.ru/tracks/75-kotelnay-1',
+        gpx: 'tracks/ski/kotelnaya_1_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Красный лес',
+        region: 'TULA',
+        source: 'skisport',
+        length: 4.9,
+        gpx: 'tracks/ski/krasnyy_les_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Кунгур',
+        region: 'PERM',
+        source: 'skisport',
+        length: 9.4,
+        link: 'https://club110322282.orgs.biz/',
+        gpx: 'tracks/ski/kungur_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'ЛБК г. Чебоксары',
+        region: 'CHUVASHIA',
+        source: 'skisport',
+        length: 6.8,
+        gpx: 'tracks/ski/lbk_g_cheboksary_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'ЛБК им. С.И. Ишмуратовой',
+        region: 'CHELYABINSK',
+        source: 'skisport',
+        length: 5.2,
+        link: 'https://vk.com/zlat1',
+        gpx: {
+            '1': 'tracks/ski/lbk_im_s_i_ishmuratovoy_1_ski_omaps.gpx',
+            '2': 'tracks/ski/lbk_im_s_i_ishmuratovoy_2_ski_omaps.gpx',
+        },
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Ленинск Кузнецкий',
+        region: 'KEMEROVO',
+        source: 'skisport',
+        length: 4.8,
+        gpx: 'tracks/ski/leninsk_kuznetskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лесная',
+        region: 'KAMCHATKA',
+        source: 'skisport',
+        length: 9.7,
+        link: 'https://ski-base.ru/about/',
+        gpx: 'tracks/ski/lesnaya_1_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лесная',
+        region: 'IRKUTSK',
+        source: 'skisport',
+        length: 3.1,
+        gpx: 'tracks/ski/lesnaya_2_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лесная сказка',
+        region: 'BELGOROD',
+        source: 'skisport',
+        length: 4.6,
+        gpx: 'tracks/ski/lesnaya_skazka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лопатинская трасса',
+        region: 'PERM',
+        source: 'skisport',
+        length: 4.5,
+        gpx: 'tracks/ski/lopatinskaya_trassa_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасс пос. Дачный',
+        region: 'CHELYABINSK',
+        source: 'skisport',
+        length: 9.7,
+        gpx: 'tracks/ski/dachnyy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса в г. Нефтекамск',
+        region: 'BASH',
+        source: 'skisport',
+        length: 3.6,
+        gpx: 'tracks/ski/neftekamsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса в г. Спас-Клепики',
+        region: 'RYAZAN',
+        source: 'skisport',
+        length: 4.9,
+        gpx: 'tracks/ski/spas_klepiki_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса в г. Усть-Баргузин',
+        region: 'BURYATIA',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/ust_barguzin_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса в Горкинско-Ометьевском лесу',
+        region: 'TATARSTAN',
+        source: 'skisport',
+        length: 4.4,
+        link: 'https://vk.com/kazanles',
+        gpx: 'tracks/ski/v_gorkinsko_ometevskom_lesu_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса в д. Марфино',
+        region: 'IVANOVO',
+        source: 'skisport',
+        length: 5.2,
+        gpx: 'tracks/ski/marfino_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса в парке Горького',
+        region: 'TATARSTAN',
+        source: 'skisport',
+        length: 1.5,
+        gpx: 'tracks/ski/v_parke_gorkogo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса в парке Дружба',
+        region: 'TAMBOV',
+        source: 'skisport',
+        length: 5.0,
+        link: 'https://vk.com/stadiontmb',
+        gpx: 'tracks/ski/v_parke_druzhba_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса в парке Прибрежный',
+        region: 'SAMARA',
+        source: 'skisport',
+        length: 2.5,
+        gpx: 'tracks/ski/v_parke_pribrezhnyy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Андреаполь',
+        region: 'TVER',
+        source: 'skisport',
+        length: 2.9,
+        gpx: 'tracks/ski/andreapol_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Арсеньев',
+        region: 'PRIMORSKY',
+        source: 'skisport',
+        length: 9.4,
+        gpx: 'tracks/ski/arsenev_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Ачинск',
+        region: 'KRASNOYARSK',
+        source: 'skisport',
+        length: 3.9,
+        gpx: 'tracks/ski/achinsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Балашов',
+        region: 'SARATOV',
+        source: 'skisport',
+        length: 9.9,
+        link: 'https://www.skibls.ru/',
+        gpx: 'tracks/ski/balashov_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Белебей',
+        region: 'BASH',
+        source: 'skisport',
+        length: 2.2,
+        gpx: 'tracks/ski/belebey_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Беломорск',
+        region: 'KARELIA',
+        source: 'skisport',
+        length: 2.8,
+        link: 'https://vk.com/club84369232',
+        gpx: 'tracks/ski/belomorsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Богородицк',
+        region: 'TULA',
+        source: 'skisport',
+        length: 4.7,
+        link: 'https://vk.com/club175487624',
+        gpx: 'tracks/ski/bogoroditsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Бологое',
+        region: 'TVER',
+        source: 'skisport',
+        length: 3.5,
+        gpx: 'tracks/ski/bologoe_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Боровский',
+        region: 'TYUMEN',
+        source: 'skisport',
+        length: 2.8,
+        gpx: 'tracks/ski/borovskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Бугульма',
+        region: 'TATARSTAN',
+        source: 'skisport',
+        length: 7.8,
+        link: 'https://vk.com/club14844127',
+        gpx: 'tracks/ski/bugulma_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Бузулук',
+        region: 'ORENBURG',
+        source: 'skisport',
+        length: 4.7,
+        gpx: 'tracks/ski/buzuluk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Вельск',
+        region: 'ARKHANGELSK',
+        source: 'skisport',
+        length: 3.2,
+        gpx: 'tracks/ski/velsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Верхняя Пышма',
+        region: 'EKB',
+        source: 'skisport',
+        length: 5.9,
+        gpx: 'tracks/ski/verkhnyaya_pyshma_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Волгореченск',
+        region: 'KOSTROMA',
+        source: 'skisport',
+        length: 2.8,
+        link: 'https://vk.com/club175324127',
+        gpx: 'tracks/ski/volgorechensk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Вольск',
+        region: 'SARATOV',
+        source: 'skisport',
+        length: 3.5,
+        gpx: 'tracks/ski/volsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Вохма',
+        region: 'KOSTROMA',
+        source: 'skisport',
+        length: 2.5,
+        gpx: 'tracks/ski/vokhma_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Вуктыл',
+        region: 'KOMI',
+        source: 'skisport',
+        length: 2.9,
+        link: 'https://vk.com/public175929538',
+        gpx: 'tracks/ski/vuktyl_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Глазов (Парк Заречный)',
+        region: 'UDMURTIA',
+        source: 'skisport',
+        length: 4.9,
+        gpx: 'tracks/ski/glazov_park_zarechnyy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Горнозаводск',
+        region: 'SAKHALIN',
+        source: 'skisport',
+        length: 2.7,
+        link: 'https://ru-travel.livejournal.com/33573720.html',
+        gpx: 'tracks/ski/gornozavodsk_1_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Горнозаводск',
+        region: 'PERM',
+        source: 'skisport',
+        length: 3.0,
+        gpx: 'tracks/ski/gornozavodsk_2_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Городец',
+        region: 'N_NOVGOROD',
+        source: 'skisport',
+        length: 2.5,
+        link: 'https://vk.com/gskirun',
+        gpx: 'tracks/ski/gorodets_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Долинск',
+        region: 'SAKHALIN',
+        source: 'skisport',
+        length: 5.2,
+        gpx: 'tracks/ski/dolinsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Елизово',
+        region: 'KAMCHATKA',
+        source: 'skisport',
+        length: 8.9,
+        gpx: 'tracks/ski/elizovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Ефремов',
+        region: 'TULA',
+        source: 'skisport',
+        length: 4.8,
+        gpx: 'tracks/ski/efremov_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Завитинск',
+        region: 'AMUR',
+        source: 'skisport',
+        length: 3.0,
+        gpx: 'tracks/ski/zavitinsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Заречный',
+        region: 'PENZA',
+        source: 'skisport',
+        length: 5.6,
+        gpx: 'tracks/ski/zarechnyy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Зея',
+        region: 'AMUR',
+        source: 'skisport',
+        length: 4.7,
+        gpx: 'tracks/ski/zeya_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Ишимбай',
+        region: 'BASH',
+        source: 'skisport',
+        length: 9.9,
+        link: 'https://vk.com/skibase_ishimbay',
+        gpx: 'tracks/ski/ishimbay_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Камышин',
+        region: 'VOLGOGRAD',
+        source: 'skisport',
+        length: 4.8,
+        gpx: 'tracks/ski/kamyshin_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Катав-Ивановск',
+        region: 'CHELYABINSK',
+        source: 'skisport',
+        length: 5.2,
+        gpx: 'tracks/ski/katav_ivanovsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Кез',
+        region: 'UDMURTIA',
+        source: 'skisport',
+        length: 5.2,
+        gpx: 'tracks/ski/kez_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Кемь',
+        region: 'KARELIA',
+        source: 'skisport',
+        length: 3.0,
+        gpx: 'tracks/ski/kem_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Кинешма',
+        region: 'IVANOVO',
+        source: 'skisport',
+        length: 4.8,
+        gpx: 'tracks/ski/kineshma_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Киреевск',
+        region: 'TULA',
+        source: 'skisport',
+        length: 2.5,
+        gpx: 'tracks/ski/kireevsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Ковдор',
+        region: 'MURMANSK',
+        source: 'skisport',
+        length: 3.6,
+        link: 'https://vk.com/sportkovdor',
+        gpx: 'tracks/ski/kovdor_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Ковылкино',
+        region: 'MORDOVIA',
+        source: 'skisport',
+        length: 3.5,
+        gpx: 'tracks/ski/kovylkino_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Кондопога',
+        region: 'KARELIA',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/kondopoga_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Коряжма',
+        region: 'ARKHANGELSK',
+        source: 'skisport',
+        length: 7.5,
+        gpx: 'tracks/ski/koryazhma_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Котовск',
+        region: 'TAMBOV',
+        source: 'skisport',
+        length: 9.5,
+        link: 'https://vk.com/club201779161',
+        gpx: 'tracks/ski/kotovsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Кумертау',
+        region: 'BASH',
+        source: 'skisport',
+        length: 6.6,
+        gpx: 'tracks/ski/kumertau_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Кушва',
+        region: 'EKB',
+        source: 'skisport',
+        length: 3.0,
+        link: 'https://vk.com/klls_nord',
+        gpx: 'tracks/ski/kushva_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Ленск',
+        region: 'SAKHA',
+        source: 'skisport',
+        length: 4.2,
+        gpx: 'tracks/ski/lensk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Лесной',
+        region: 'EKB',
+        source: 'skisport',
+        length: 4.8,
+        link: 'https://vk.com/club61281281',
+        gpx: 'tracks/ski/lesnoy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Макаров',
+        region: 'SAKHALIN',
+        source: 'skisport',
+        length: 2.6,
+        gpx: 'tracks/ski/makarov_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Медвежьегорск',
+        region: 'KARELIA',
+        source: 'skisport',
+        length: 4.8,
+        link: 'https://vk.com/sportscool.medgora4',
+        gpx: 'tracks/ski/medvezhegorsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Межгорье',
+        region: 'BASH',
+        source: 'skisport',
+        length: 4.3,
+        gpx: 'tracks/ski/mezhgore_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Можга',
+        region: 'UDMURTIA',
+        source: 'skisport',
+        length: 7.6,
+        gpx: 'tracks/ski/mozhga_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Надым',
+        region: 'YAMAL',
+        source: 'skisport',
+        length: 2.5,
+        gpx: 'tracks/ski/nadym_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Нарьян-Мар',
+        region: 'NENETS',
+        source: 'skisport',
+        length: 5.2,
+        gpx: 'tracks/ski/naryan_mar_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Невель',
+        region: 'PSKOV',
+        source: 'skisport',
+        length: 2.8,
+        link: 'https://vk.com/nevelskiteam',
+        gpx: 'tracks/ski/nevel_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Нефтеюганск',
+        region: 'KHMAO',
+        source: 'skisport',
+        length: 4.8,
+        gpx: 'tracks/ski/nefteyugansk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Новокуйбышевск',
+        region: 'SAMARA',
+        source: 'skisport',
+        length: 5.7,
+        gpx: 'tracks/ski/novokuybyshevsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Новый Уренгой',
+        region: 'YAMAL',
+        source: 'skisport',
+        length: 5.8,
+        gpx: 'tracks/ski/novyy_urengoy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Ноябрьск',
+        region: 'YAMAL',
+        source: 'skisport',
+        length: 5.1,
+        gpx: 'tracks/ski/noyabrsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Нягань',
+        region: 'KHMAO',
+        source: 'skisport',
+        length: 3.6,
+        gpx: 'tracks/ski/nyagan_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Октябрьский',
+        region: 'ARKHANGELSK',
+        source: 'skisport',
+        length: 3.0,
+        gpx: 'tracks/ski/oktyabrskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Окуловка',
+        region: 'NOVGOROD',
+        source: 'skisport',
+        length: 4.5,
+        gpx: 'tracks/ski/okulovka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Онега',
+        region: 'ARKHANGELSK',
+        source: 'skisport',
+        length: 5.9,
+        gpx: 'tracks/ski/onega_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Орехово-Зуево',
+        region: 'MSK',
+        source: 'skisport',
+        length: 4.7,
+        link: 'https://vk.com/vostokski',
+        gpx: 'tracks/ski/orekhovo_zuevo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Орск',
+        region: 'ORENBURG',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/orsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Оха',
+        region: 'SAKHALIN',
+        source: 'skisport',
+        length: 6.8,
+        link: 'http://sport-school-okha.ru/index.php/sportivnye-otdeleniya/otdelenie-tsiklicheskikh-vidov-sporta/lyzhnye-gonki#',
+        gpx: 'tracks/ski/okha_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Петровск',
+        region: 'SARATOV',
+        source: 'skisport',
+        length: 12.4,
+        gpx: 'tracks/ski/petrovsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Печора',
+        region: 'KOMI',
+        source: 'skisport',
+        length: 4.6,
+        gpx: 'tracks/ski/pechora_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Полевской',
+        region: 'EKB',
+        source: 'skisport',
+        length: 3.0,
+        link: 'https://vk.com/club132036823',
+        gpx: 'tracks/ski/polevskoy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Похвистнево',
+        region: 'SAMARA',
+        source: 'skisport',
+        length: 4.4,
+        gpx: 'tracks/ski/pokhvistnevo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Пыть-Ях',
+        region: 'KHMAO',
+        source: 'skisport',
+        length: 4.2,
+        gpx: 'tracks/ski/pyt_yakh_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Ржев',
+        region: 'TVER',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/rzhev_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Рыбинск',
+        region: 'YAROSLAVL',
+        source: 'skisport',
+        length: 2.8,
+        gpx: 'tracks/ski/rybinsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Салават',
+        region: 'BASH',
+        source: 'skisport',
+        length: 3.0,
+        gpx: 'tracks/ski/salavat_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Салават (лесной круг)',
+        region: 'BASH',
+        source: 'skisport',
+        length: 3.0,
+        gpx: 'tracks/ski/salavat_lesnoy_krug_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Салехард',
+        region: 'YAMAL',
+        source: 'skisport',
+        length: 5.3,
+        link: 'https://vk.com/salekhardsport',
+        gpx: 'tracks/ski/salekhard_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Саратов',
+        region: 'SARATOV',
+        source: 'skisport',
+        length: 15.4,
+        link: 'https://biathlon64.ru/',
+        gpx: 'tracks/ski/saratov_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Саров',
+        region: 'N_NOVGOROD',
+        source: 'skisport',
+        length: 9.1,
+        link: 'http://ski-sarov.ru/',
+        gpx: 'tracks/ski/sarov_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Североморск',
+        region: 'MURMANSK',
+        source: 'skisport',
+        length: 3.0,
+        gpx: 'tracks/ski/severomorsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Серноводск',
+        region: 'SAMARA',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/sernovodsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Советский',
+        region: 'KHMAO',
+        source: 'skisport',
+        length: 5.1,
+        gpx: 'tracks/ski/sovetskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Солигалич',
+        region: 'KOSTROMA',
+        source: 'skisport',
+        length: 2.5,
+        gpx: 'tracks/ski/soligalich_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Сосновоборск',
+        region: 'KRASNOYARSK',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/sosnovoborsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Стрежевой',
+        region: 'TOMSK',
+        source: 'skisport',
+        length: 4.8,
+        gpx: 'tracks/ski/strezhevoy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Сызрань',
+        region: 'SAMARA',
+        source: 'skisport',
+        length: 4.7,
+        gpx: 'tracks/ski/syzran_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Тольятти',
+        region: 'SAMARA',
+        source: 'skisport',
+        length: 4.9,
+        link: 'http://www.tltski.ru/',
+        gpx: 'tracks/ski/tolyatti_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Томари',
+        region: 'SAKHALIN',
+        source: 'skisport',
+        length: 4.8,
+        gpx: 'tracks/ski/tomari_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Торопец',
+        region: 'TVER',
+        source: 'skisport',
+        length: 2.9,
+        gpx: 'tracks/ski/toropets_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Туймазы',
+        region: 'BASH',
+        source: 'skisport',
+        length: 2.9,
+        gpx: 'tracks/ski/tuymazy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Тында',
+        region: 'AMUR',
+        source: 'skisport',
+        length: 9.8,
+        gpx: 'tracks/ski/tynda_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Усинск',
+        region: 'KOMI',
+        source: 'skisport',
+        length: 5.9,
+        link: 'https://vk.com/club_usinsk_yugdom',
+        gpx: 'tracks/ski/usinsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Учалы',
+        region: 'BASH',
+        source: 'skisport',
+        length: 3.4,
+        gpx: 'tracks/ski/uchaly_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Фурманов',
+        region: 'IVANOVO',
+        source: 'skisport',
+        length: 10.0,
+        gpx: 'tracks/ski/furmanov_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Чкаловск',
+        region: 'N_NOVGOROD',
+        source: 'skisport',
+        length: 7.1,
+        gpx: 'tracks/ski/chkalovsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Шадринск',
+        region: 'KURGAN',
+        source: 'skisport',
+        length: 3.0,
+        link: 'https://vk.com/public122454813',
+        gpx: 'tracks/ski/shadrinsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Электрогорск',
+        region: 'MSK',
+        source: 'skisport',
+        length: 2.9,
+        gpx: 'tracks/ski/elektrogorsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Южа',
+        region: 'IVANOVO',
+        source: 'skisport',
+        length: 7.5,
+        gpx: 'tracks/ski/yuzha_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса г. Ярцево',
+        region: 'SMOLENSK',
+        source: 'skisport',
+        length: 3.0,
+        link: 'https://vk.com/assportyartsevo',
+        gpx: 'tracks/ski/yartsevo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса д. Комарево',
+        region: 'RYAZAN',
+        source: 'skisport',
+        length: 4.9,
+        gpx: 'tracks/ski/komarevo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса ДВГАФК',
+        region: 'KHABAROVSK',
+        source: 'skisport',
+        length: 3.8,
+        link: 'http://ski27khv.ru/',
+        gpx: 'tracks/ski/dvgafk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса за кафе Перун',
+        region: 'TAMBOV',
+        source: 'skisport',
+        length: 5.9,
+        link: 'https://vk.com/ski.tambov',
+        gpx: 'tracks/ski/za_kafe_perun_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса за стадионом «Урожай»',
+        region: 'KOSTROMA',
+        source: 'skisport',
+        length: 2.5,
+        gpx: 'tracks/ski/za_stadionom_urozhay_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса Кичменгский',
+        region: 'VOLOGDA',
+        source: 'skisport',
+        length: 2.5,
+        gpx: 'tracks/ski/kichmengskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса мкр. Радужный',
+        region: 'KIROV',
+        source: 'skisport',
+        length: 4.9,
+        gpx: 'tracks/ski/raduzhnyy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса на острове Русский',
+        region: 'PRIMORSKY',
+        source: 'skisport',
+        length: 3.3,
+        gpx: 'tracks/ski/na_ostrove_russkiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса п. Белогорка',
+        region: 'AMUR',
+        source: 'skisport',
+        length: 5.7,
+        gpx: 'tracks/ski/belogorka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса п. Васильевское',
+        region: 'VOLOGDA',
+        source: 'skisport',
+        length: 3.9,
+        gpx: 'tracks/ski/vasilevskoe_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса п. Ваховск',
+        region: 'KHMAO',
+        source: 'skisport',
+        length: 4.6,
+        gpx: 'tracks/ski/vakhovsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса п. Вычегодский',
+        region: 'ARKHANGELSK',
+        source: 'skisport',
+        length: 2.4,
+        link: 'https://vk.com/club22097378',
+        gpx: 'tracks/ski/vychegodskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса п. Вяртсиля',
+        region: 'KARELIA',
+        source: 'skisport',
+        length: 3.5,
+        link: 'https://vk.com/club83726951',
+        gpx: 'tracks/ski/vyartsilya_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса п. Невон',
+        region: 'IRKUTSK',
+        source: 'skisport',
+        length: 2.9,
+        gpx: 'tracks/ski/nevon_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса п. Поволжский',
+        region: 'SAMARA',
+        source: 'skisport',
+        length: 5.7,
+        gpx: 'tracks/ski/povolzhskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса п. Селенгинск',
+        region: 'BURYATIA',
+        source: 'skisport',
+        length: 4.9,
+        gpx: 'tracks/ski/selenginsk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса п. Шексна',
+        region: 'VOLOGDA',
+        source: 'skisport',
+        length: 5.1,
+        gpx: 'tracks/ski/sheksna_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса п. Шипицыно',
+        region: 'ARKHANGELSK',
+        source: 'skisport',
+        length: 3.9,
+        link: 'https://vk.com/club138290870',
+        gpx: 'tracks/ski/shipitsyno_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса пгт. Горный',
+        region: 'KHABAROVSK',
+        source: 'skisport',
+        length: 4.4,
+        gpx: 'tracks/ski/gornyy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса пгт. Новобурейский',
+        region: 'AMUR',
+        source: 'skisport',
+        length: 5.3,
+        gpx: 'tracks/ski/novobureyskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса пгт. Переяславка',
+        region: 'KHABAROVSK',
+        source: 'skisport',
+        length: 4.8,
+        gpx: 'tracks/ski/pereyaslavka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса пгт. Струги Красные',
+        region: 'PSKOV',
+        source: 'skisport',
+        length: 5.7,
+        gpx: 'tracks/ski/strugi_krasnye_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса пос. Губкинский',
+        region: 'YAMAL',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/gubkinskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса пос. Замульта',
+        region: 'ALTAI',
+        source: 'skisport',
+        length: 23.8,
+        link: 'https://vk.com/id107167843',
+        gpx: 'tracks/ski/zamulta_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса пос. Новотагилка',
+        region: 'CHELYABINSK',
+        source: 'skisport',
+        length: 5.0,
+        link: 'https://vk.com/club175404196',
+        gpx: 'tracks/ski/novotagilka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса пос. Полетаево',
+        region: 'CHELYABINSK',
+        source: 'skisport',
+        length: 2.9,
+        link: 'https://vk.com/club105705812',
+        gpx: 'tracks/ski/poletaevo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса с. Авдон',
+        region: 'BASH',
+        source: 'skisport',
+        length: 2.7,
+        gpx: 'tracks/ski/avdon_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса с. Ильинка',
+        region: 'KHABAROVSK',
+        source: 'skisport',
+        length: 2.3,
+        gpx: 'tracks/ski/ilinka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса с. Мильково',
+        region: 'KAMCHATKA',
+        source: 'skisport',
+        length: 12.5,
+        gpx: 'tracks/ski/milkovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса с. Пискалы',
+        region: 'SAMARA',
+        source: 'skisport',
+        length: 3.0,
+        gpx: 'tracks/ski/piskaly_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса с. Санниково',
+        region: 'ALTAI',
+        source: 'skisport',
+        length: 3.7,
+        gpx: 'tracks/ski/sannikovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса с. Тарногский Городок',
+        region: 'VOLOGDA',
+        source: 'skisport',
+        length: 7.6,
+        gpx: 'tracks/ski/tarnogskiy_gorodok_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса с. Узюково',
+        region: 'SAMARA',
+        source: 'skisport',
+        length: 3.4,
+        gpx: 'tracks/ski/uzyukovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса с. Чапланово',
+        region: 'SAKHALIN',
+        source: 'skisport',
+        length: 2.5,
+        gpx: 'tracks/ski/chaplanovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса с. Чебакса',
+        region: 'TATARSTAN',
+        source: 'skisport',
+        length: 5.7,
+        gpx: 'tracks/ski/chebaksa_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса СШОР г. Гусиноозерска',
+        region: 'BURYATIA',
+        source: 'skisport',
+        length: 4.2,
+        gpx: 'tracks/ski/gusinoozerska_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжная трасса УРМЗ г. Ухта',
+        region: 'KOMI',
+        source: 'skisport',
+        length: 6.1,
+        gpx: 'tracks/ski/ukhta_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжня в Терлецком парке',
+        region: 'MSK',
+        source: 'skisport',
+        length: 1.7,
+        gpx: 'tracks/ski/lyzhnya_v_terletskom_parke_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лыжня Дейкина',
+        region: 'IRKUTSK',
+        source: 'skisport',
+        length: 5.0,
+        link: 'https://vk.com/ski.usoliesib',
+        gpx: 'tracks/ski/lyzhnya_deykina_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Лысьва',
+        region: 'PERM',
+        source: 'skisport',
+        length: 5.2,
+        gpx: {
+            'Тропа здоровья': 'tracks/ski/lysva_tropa_zdorovya_ski_omaps.gpx',
+            'Спортивная': 'tracks/ski/lysva_sportivnaya_ski_omaps.gpx',
+        },
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'МАУ РЦЛГ им. М.М. Вылегжанина',
+        region: 'UDMURTIA',
+        source: 'skisport',
+        length: 4.7,
+        link: 'https://vk.com/club192138381',
+        gpx: 'tracks/ski/mau_rtslg_im_m_m_vylegzhanina_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Медведевский лес',
+        region: 'ORLOV',
+        source: 'skisport',
+        length: 4.9,
+        gpx: 'tracks/ski/medvedevskiy_les_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Металлист',
+        region: 'UDMURTIA',
+        source: 'skisport',
+        length: 4.0,
+        gpx: 'tracks/ski/metallist_1_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Металлист',
+        region: 'TULA',
+        source: 'skisport',
+        length: 2.9,
+        gpx: 'tracks/ski/metallist_2_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Металлург',
+        region: 'BASH',
+        source: 'skisport',
+        length: 3.0,
+        gpx: 'tracks/ski/metallurg_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Метелица',
+        region: 'TOMSK',
+        source: 'skisport',
+        length: 5.8,
+        gpx: 'tracks/ski/metelitsa_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Метеорит',
+        region: 'PERM',
+        source: 'skisport',
+        length: 7.2,
+        link: 'https://vk.com/meteorit.okhansk',
+        gpx: 'tracks/ski/meteorit_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Моква',
+        region: 'KURSK',
+        source: 'skisport',
+        length: 6.4,
+        gpx: 'tracks/ski/mokva_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Мухино',
+        region: 'TVER',
+        source: 'skisport',
+        length: 3.0,
+        gpx: 'tracks/ski/mukhino_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'На Перевалке',
+        region: 'KARELIA',
+        source: 'skisport',
+        length: 4.3,
+        gpx: 'tracks/ski/na_perevalke_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Нагорный" (трамплин)',
+        region: 'TATARSTAN',
+        source: 'skisport',
+        length: 5.4,
+        gpx: 'tracks/ski/nagornyy_tramplin_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Никольское',
+        region: 'ARKHANGELSK',
+        source: 'skisport',
+        length: 6.5,
+        gpx: 'tracks/ski/nikolskoe_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Новое Лососинное',
+        region: 'KARELIA',
+        source: 'skisport',
+        length: 20.6,
+        gpx: 'tracks/ski/novoe_lososinnoe_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Новожилово',
+        region: 'PERM',
+        source: 'skisport',
+        length: 8.4,
+        link: 'https://vk.com/sneginka59',
+        gpx: 'tracks/ski/novozhilovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Ноглики',
+        region: 'SAKHALIN',
+        source: 'skisport',
+        length: 4.1,
+        gpx: 'tracks/ski/nogliki_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Норд',
+        region: 'KHMAO',
+        source: 'skisport',
+        length: 6.6,
+        gpx: 'tracks/ski/nord_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Нытвенская лыжня',
+        region: 'PERM',
+        source: 'skisport',
+        length: 4.9,
+        link: 'https://vk.com/club105319520',
+        gpx: 'tracks/ski/nytvenskaya_lyzhnya_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Олимп',
+        region: 'VORONEZH',
+        source: 'skisport',
+        length: 7.4,
+        link: 'https://vk.com/vrn_olympic',
+        gpx: 'tracks/ski/olimp_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Олимпийские Зори',
+        region: 'YAROSLAVL',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/olimpiyskie_zori_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Олимпия',
+        region: 'BELGOROD',
+        source: 'skisport',
+        length: 9.4,
+        link: 'https://www.instagram.com/olympia_belgorod/',
+        gpx: 'tracks/ski/olimpiya_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Оль-Гуль',
+        region: 'KRASNOYARSK',
+        source: 'skisport',
+        length: 4.7,
+        link: 'https://vk.com/skynorilsk',
+        gpx: 'tracks/ski/ol_gul_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Пермские медведи',
+        region: 'PERM',
+        source: 'skisport',
+        length: 7.5,
+        gpx: 'tracks/ski/permskie_medvedi_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'ПНИПУ',
+        region: 'PERM',
+        source: 'skisport',
+        length: 4.6,
+        gpx: 'tracks/ski/pnipu_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Полысаево',
+        region: 'KEMEROVO',
+        source: 'skisport',
+        length: 2.5,
+        gpx: 'tracks/ski/polysaevo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Порошино',
+        region: 'KIROV',
+        source: 'skisport',
+        length: 4.7,
+        gpx: 'tracks/ski/poroshino_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Почевино',
+        region: 'IVANOVO',
+        source: 'skisport',
+        length: 4.4,
+        gpx: 'tracks/ski/pochevino_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Прикамье',
+        region: 'PERM',
+        source: 'skisport',
+        length: 4.9,
+        link: 'https://vk.com/ski_base_prikamye',
+        gpx: {
+            'Красная': 'tracks/ski/prikame_krasnaya_ski_omaps.gpx',
+            'Синяя': 'tracks/ski/prikame_sinyaya_ski_omaps.gpx',
+        },
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Реадовский парк',
+        region: 'SMOLENSK',
+        source: 'skisport',
+        length: 4.0,
+        gpx: 'tracks/ski/readovskiy_park_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'РССК им. Демидова А.М.',
+        region: 'UDMURTIA',
+        source: 'skisport',
+        length: 4.8,
+        link: 'https://vk.com/biatlonn18',
+        gpx: 'tracks/ski/rssk_im_demidova_a_m_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Саланга',
+        region: 'KEMEROVO',
+        source: 'skisport',
+        length: 4.8,
+        link: 'http://salangacenter-krsk.ru/doc.php?id=174',
+        gpx: 'tracks/ski/salanga_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Саломаты',
+        region: 'ARKHANGELSK',
+        source: 'skisport',
+        length: 8.7,
+        link: 'https://vk.com/salomaty',
+        gpx: 'tracks/ski/salomaty_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Санаторий Урал',
+        region: 'CHELYABINSK',
+        source: 'skisport',
+        length: 3.0,
+        gpx: 'tracks/ski/sanatoriy_ural_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Северный Артек',
+        region: 'IRKUTSK',
+        source: 'skisport',
+        length: 6.3,
+        gpx: 'tracks/ski/severnyy_artek_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Северный каньон',
+        region: 'KHABAROVSK',
+        source: 'skisport',
+        length: 6.9,
+        gpx: 'tracks/ski/severnyy_kanon_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Северсталь',
+        region: 'VOLOGDA',
+        source: 'skisport',
+        length: 4.8,
+        gpx: 'tracks/ski/severstal_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Силинский парк',
+        region: 'KHABAROVSK',
+        source: 'skisport',
+        length: 7.8,
+        gpx: 'tracks/ski/silinskiy_park_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Сияние Севера',
+        region: 'KOMI',
+        source: 'skisport',
+        length: 10.2,
+        link: 'https://vk.com/siyanienorth',
+        gpx: 'tracks/ski/siyanie_severa_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Снегирь',
+        region: 'UDMURTIA',
+        source: 'skisport',
+        length: 4.6,
+        link: 'https://vk.com/ski_adam',
+        gpx: 'tracks/ski/snegir_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Снежинка',
+        region: 'IRKUTSK',
+        source: 'skisport',
+        length: 10.9,
+        gpx: 'tracks/ski/snezhinka_1_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Снежинка',
+        region: 'UDMURTIA',
+        source: 'skisport',
+        length: 3.3,
+        link: 'http://snezhinka.chifk.ru/Objects/Index/Biathlon',
+        gpx: 'tracks/ski/snezhinka_2_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Снежинка',
+        region: 'BURYATIA',
+        source: 'skisport',
+        length: 7.9,
+        gpx: 'tracks/ski/snezhinka_3_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Снежинка',
+        region: 'KHABAROVSK',
+        source: 'skisport',
+        length: 9.7,
+        gpx: 'tracks/ski/snezhinka_4_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Снежинка',
+        region: 'N_NOVGOROD',
+        source: 'skisport',
+        length: 10.0,
+        gpx: 'tracks/ski/snezhinka_5_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Снежинка',
+        region: 'KURGAN',
+        source: 'skisport',
+        length: 5.0,
+        link: 'https://vk.com/sportdalmatovo',
+        gpx: 'tracks/ski/snezhinka_6_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Снежинка',
+        region: 'TATARSTAN',
+        source: 'skisport',
+        length: 5.2,
+        gpx: 'tracks/ski/snezhinka_7_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Снежинка',
+        region: 'EKB',
+        source: 'skisport',
+        length: 5.9,
+        gpx: 'tracks/ski/snezhinka_8_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Советский парк',
+        region: 'OMSK',
+        source: 'skisport',
+        length: 5.4,
+        gpx: 'tracks/ski/sovetskiy_park_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'СОЛК им. Г. А. Кулаковой',
+        region: 'UDMURTIA',
+        source: 'skisport',
+        length: 4.8,
+        link: [
+            'https://solk18.ru/uslugi/trassyi',
+            'https://vk.com/solk14km',
+        ],
+        gpx: {
+            'FIS': 'tracks/ski/solk_im_g_a_kulakovoy_fis_ski_omaps.gpx',
+            '1': 'tracks/ski/solk_im_g_a_kulakovoy_ski_omaps.gpx',
+        },
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Сосновый бор',
+        region: 'TYUMEN',
+        source: 'skisport',
+        length: 5.0,
+        link: 'https://csp72.ru/sport-obekty-tyumeni/sosnovyy-bor/',
+        gpx: 'tracks/ski/sosnovyy_bor_1_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Сосновый бор',
+        region: 'TOMSK',
+        source: 'skisport',
+        length: 3.9,
+        gpx: 'tracks/ski/sosnovyy_bor_2_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Спартак',
+        region: 'BASH',
+        source: 'skisport',
+        length: 10.8,
+        gpx: {
+            '1': 'tracks/ski/spartak_3_ski_omaps.gpx',
+            '3': 'tracks/ski/spartak_5_ski_omaps.gpx',
+            '4': 'tracks/ski/spartak_6_ski_omaps.gpx',
+            '2': 'tracks/ski/spartak_4_ski_omaps.gpx',
+        },
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Спартак',
+        region: 'IRKUTSK',
+        source: 'skisport',
+        length: 8.5,
+        gpx: 'tracks/ski/spartak_1_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Спартак',
+        region: 'KURGAN',
+        source: 'skisport',
+        length: 3.2,
+        gpx: 'tracks/ski/spartak_2_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Спартак" (Щегловская засека)',
+        region: 'TULA',
+        source: 'skisport',
+        length: 4.9,
+        link: 'https://vk.com/skibaza_spartak_tula',
+        gpx: 'tracks/ski/spartak_shcheglovskaya_zaseka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Спортивная республика (АНО)',
+        region: 'KEMEROVO',
+        source: 'skisport',
+        length: 5.2,
+        link: 'https://vk.com/sport_republik',
+        gpx: 'tracks/ski/sportivnaya_respublika_ano_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Спорткомбинат Двина',
+        region: 'ARKHANGELSK',
+        source: 'skisport',
+        length: 2.9,
+        gpx: 'tracks/ski/sportkombinat_dvina_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Спутник',
+        region: 'BASH',
+        source: 'skisport',
+        length: 2.3,
+        gpx: 'tracks/ski/sputnik_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'ст. Охотничья',
+        region: 'ULYANOVSK',
+        source: 'skisport',
+        length: 5.5,
+        gpx: 'tracks/ski/okhotnichya_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Стадион "Север',
+        region: 'ARKHANGELSK',
+        source: 'skisport',
+        length: 2.6,
+        gpx: 'tracks/ski/stadion_sever_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Стадион Водник',
+        region: 'BASH',
+        source: 'skisport',
+        length: 1.8,
+        gpx: 'tracks/ski/stadion_vodnik_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'станция Тайга',
+        region: 'TUVA',
+        source: 'skisport',
+        length: 5.0,
+        link: 'https://vk.com/club87923166',
+        gpx: 'tracks/ski/stantsiya_tayga_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Старт',
+        region: 'IRKUTSK',
+        source: 'skisport',
+        length: 6.0,
+        gpx: 'tracks/ski/start_1_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Старт',
+        region: 'KLGA',
+        source: 'skisport',
+        length: 5.0,
+        link: 'https://vk.com/public161372962',
+        gpx: 'tracks/ski/start_2_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Сузун',
+        region: 'NSK',
+        source: 'skisport',
+        length: 4.4,
+        gpx: 'tracks/ski/suzun_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Талаевская лыжная трасса',
+        region: 'MSK',
+        source: 'skisport',
+        length: 4.9,
+        gpx: 'tracks/ski/talaevskaya_lyzhnaya_trassa_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Татра',
+        region: 'KHMAO',
+        source: 'skisport',
+        length: 7.7,
+        gpx: 'tracks/ski/tatra_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Тобол',
+        region: 'TYUMEN',
+        source: 'skisport',
+        length: 5.7,
+        gpx: 'tracks/ski/tobol_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Троицкая Роща',
+        region: 'RYAZAN',
+        source: 'skisport',
+        length: 2.9,
+        gpx: 'tracks/ski/troitskaya_roshcha_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Троицкое',
+        region: 'SAKHALIN',
+        source: 'skisport',
+        length: 25.2,
+        gpx: 'tracks/ski/troitskoe_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Трудармейский',
+        region: 'KEMEROVO',
+        source: 'skisport',
+        length: 3.9,
+        gpx: 'tracks/ski/trudarmeyskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'У кладбища',
+        region: 'CHELYABINSK',
+        source: 'skisport',
+        length: 1.9,
+        link: 'https://vk.com/sportzuratkul',
+        gpx: 'tracks/ski/u_kladbishcha_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'У подножья',
+        region: 'CHELYABINSK',
+        source: 'skisport',
+        length: 3.0,
+        link: 'https://vk.com/sportzuratkul',
+        gpx: 'tracks/ski/u_podnozhya_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Удача',
+        region: 'TULA',
+        source: 'skisport',
+        length: 7.7,
+        link: 'https://vk.com/sportclubudacha',
+        gpx: 'tracks/ski/udacha_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'ФОК Олимпийский',
+        region: 'PERM',
+        source: 'skisport',
+        length: 5.3,
+        gpx: 'tracks/ski/fok_olimpiyskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Хмелевские озера',
+        region: 'KRASNODAR',
+        source: 'skisport',
+        length: 4.8,
+        gpx: 'tracks/ski/khmelevskie_ozera_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Цветы Башкирии',
+        region: 'BASH',
+        source: 'skisport',
+        length: 10.3,
+        gpx: 'tracks/ski/tsvety_bashkirii_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Чайка',
+        region: 'SAMARA',
+        source: 'skisport',
+        length: 12.0,
+        link: [
+            'http://chaika-samara.ru/',
+            'https://vk.com/lb_chaika163',
+        ],
+        gpx: {
+            '1': 'tracks/ski/chayka_ski_omaps.gpx',
+            'Туристическая лыжня': 'tracks/ski/chayka_turisticheskaya_lyzhnya_ski_omaps.gpx',
+        },
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Черемушки',
+        region: 'MAGADAN',
+        source: 'skisport',
+        length: 5.1,
+        gpx: 'tracks/ski/cheremushki_1_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Черемушки',
+        region: 'KOMI',
+        source: 'skisport',
+        length: 7.1,
+        gpx: 'tracks/ski/cheremushki_2_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Черный дол',
+        region: 'VLADIMIR',
+        source: 'skisport',
+        length: 7.3,
+        gpx: 'tracks/ski/chernyy_dol_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Чижово',
+        region: 'KOSTROMA',
+        source: 'skisport',
+        length: 10.0,
+        gpx: 'tracks/ski/chizhovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Чусовой FIS',
+        region: 'PERM',
+        source: 'skisport',
+        length: 5.0,
+        gpx: 'tracks/ski/chusovoy_fis_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Шаховская',
+        region: 'KURGAN',
+        source: 'skisport',
+        length: 4.9,
+        link: 'https://vk.com/club190112625',
+        gpx: {
+            'Шаховская': 'tracks/ski/shakhovskaya_ski_omaps.gpx',
+            'Пятёрка нижняя': 'tracks/ski/pyaterka_nizhnyaya_ski_omaps.gpx',
+        },
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Шиловка',
+        region: 'EKB',
+        source: 'skisport',
+        length: 4.8,
+        gpx: 'tracks/ski/shilovka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Шиловские горки',
+        region: 'PERM',
+        source: 'skisport',
+        length: 3.9,
+        link: 'https://vk.com/kultaevoroller',
+        gpx: 'tracks/ski/shilovskie_gorki_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Шуклинка',
+        region: 'KURSK',
+        source: 'skisport',
+        length: 2.5,
+        link: 'https://vk.com/park_shuklinka',
+        gpx: 'tracks/ski/shuklinka_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Шумячи',
+        region: 'SMOLENSK',
+        source: 'skisport',
+        length: 3.4,
+        gpx: 'tracks/ski/shumyachi_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Экодрев',
+        region: 'EKB',
+        source: 'skisport',
+        length: 5.6,
+        gpx: 'tracks/ski/ekodrev_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Экопарк',
+        region: 'CHELYABINSK',
+        source: 'skisport',
+        length: 5.6,
+        link: 'https://vk.com/ecoparkmagnitogorsk',
+        gpx: 'tracks/ski/ekopark_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Экопарк "Затюменский',
+        region: 'TYUMEN',
+        source: 'skisport',
+        length: 3.0,
+        gpx: 'tracks/ski/ekopark_zatyumenskiy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Экотропа им. П.Н. Алентьева',
+        region: 'TATARSTAN',
+        source: 'skisport',
+        length: 4.7,
+        gpx: 'tracks/ski/ekotropa_im_p_n_alenteva_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Юбилейный',
+        region: 'IRKUTSK',
+        source: 'skisport',
+        length: 10.5,
+        gpx: 'tracks/ski/yubileynyy_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Южная',
+        region: 'PRIMORSKY',
+        source: 'skisport',
+        length: 5.1,
+        gpx: 'tracks/ski/yuzhnaya_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Юность',
+        region: 'PSKOV',
+        source: 'skisport',
+        length: 4.0,
+        gpx: 'tracks/ski/yunost_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Ягры',
+        region: 'ARKHANGELSK',
+        source: 'skisport',
+        length: 3.1,
+        gpx: 'tracks/ski/yagry_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Ялта-Зай',
+        region: 'TATARSTAN',
+        source: 'skisport',
+        length: 5.5,
+        gpx: 'tracks/ski/yalta_zay_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
     }
-
 ];

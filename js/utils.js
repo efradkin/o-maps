@@ -49,6 +49,9 @@ const regions = {
         name: 'Алтайский край',
         logo: 'altai.gif'
     },
+    AMUR: {
+        name: 'Амурская обл'
+    },
     ARKHANGELSK: {
         name: 'Архангельск',
         logo: 'arkhangelsk.webp'
@@ -59,6 +62,9 @@ const regions = {
     },
     BELARUS: {
         name: 'Беларусь',
+    },
+    BELGOROD: {
+        name: 'Белгородская обл'
     },
     BULGARIA: {
         name: 'Болгария',
@@ -74,6 +80,9 @@ const regions = {
     },
     VLADIMIR: {
         name: 'Владимирская обл',
+    },
+    VOLGOGRAD: {
+        name: 'Волгоградская обл'
     },
     VOLOGDA: {
         name: 'Вологодская обл',
@@ -123,6 +132,9 @@ const regions = {
         name: 'Карачаево-Черкессия',
         logo: 'karachay-cherkessia.gif'
     },
+    KAMCHATKA: {
+        name: 'Камчатский край'
+    },
     KARELIA: {
         name: 'Карелия',
         logo: 'karelia.gif'
@@ -154,6 +166,9 @@ const regions = {
     KURGAN: {
         name: 'Курган',
     },
+    KURSK: {
+        name: 'Курская обл'
+    },
     LATVIA: {
         name: 'Латвия',
         logo: 'LOF.gif' // 'latvia.webp'
@@ -161,6 +176,9 @@ const regions = {
     LIETUVA: {
         name: 'Литва',
         logo: 'lietuva.gif'
+    },
+    MAGADAN: {
+        name: 'Магаданская обл'
     },
     MOLDOVA: {
         name: 'Молдова'
@@ -174,6 +192,9 @@ const regions = {
     MURMANSK: {
         name: 'Мурманск',
         logo: 'murmansk.webp'
+    },
+    NENETS: {
+        name: 'Ненецкий АО'
     },
     N_NOVGOROD: {
         name: 'Нижний Новгород',
@@ -198,9 +219,15 @@ const regions = {
         name: 'Оренбург',
         logo: 'orenburg.webp'
     },
+    ORLOV: {
+        name: 'Орловская обл'
+    },
     PERM: {
         name: 'Пермь',
         logo: 'perm_orient_retro.webp'
+    },
+    PRIMORSKY: {
+        name: 'Приморский край'
     },
     PORTUGAL: {
         name: 'Португалия',
@@ -226,6 +253,12 @@ const regions = {
         name: 'Самара',
         logo: 'samara.webp'
     },
+    SAKHALIN: {
+        name: 'Сахалинская обл'
+    },
+    SARATOV: {
+        name: 'Саратовская обл'
+    },
     EKB: {
         name: 'Свердловская обл',
         logo: 'ekb_orient.webp'
@@ -236,6 +269,9 @@ const regions = {
     STAVROPOL: {
         name: 'Ставрополь',
         //logo: 'stavropol.webp'
+    },
+    TAMBOV: {
+        name: 'Тамбовская обл'
     },
     TATARSTAN: {
         name: 'Татарстан'
@@ -267,6 +303,9 @@ const regions = {
         name: 'Франция',
         logo: 'france.webp'
     },
+    KHABAROVSK: {
+        name: 'Хабаровский край'
+    },
     KHAKASSIA: {
         name: 'Хакасия'
     },
@@ -283,12 +322,18 @@ const regions = {
     CHITA: {
         name: 'Чита'
     },
+    CHUVASHIA: {
+        name: 'Чувашия'
+    },
     SWITZERLAND: {
         name: 'Швейцария'
     },
     ESTONIA: {
         name: 'Эстония',
         logo: 'estonia.webp'
+    },
+    YAMAL: {
+        name: 'Ямало-Ненецкий АО'
     },
     YAROSLAVL: {
         name: 'Ярославская обл'
@@ -2682,6 +2727,24 @@ function buildCouches(evt) {
         res += couches;
     }
     return res;
+}
+
+function builSources(t) {
+    let result = '', source = t.source, label = '📥';
+    if (source) {
+        if (source === 'stremglav') {
+            source = 'https://www.stremglav.fun/docs/snegtodaymap';
+        }
+        if (source === 'skisport') {
+            source = 'https://skisport.ru/ski-trail-map/';
+            label += ' SkiSport'
+        }
+        if (source.toLowerCase().includes('stremglav')) {
+            label += ' Stremglav.fun'
+        }
+        result = ` <a href="${source}" title="Источник данных"><b>${label}</b></a>`;
+    }
+    return result;
 }
 
 // Одна ссылка на результаты (title не задан) или сплиты (title 'Сплиты'): известный

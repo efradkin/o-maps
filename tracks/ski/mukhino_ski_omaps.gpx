@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="O-Maps SkiSport collector" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>"Мухино"</name>
+    <desc>SkiSport ID: 338; длина по каталогу: 3.0 км; подготовка: Снегоход; рельеф: Средний; Elevation: 42. Информация: -</desc>
+  </metadata>
+  <trk>
+    <name>"Мухино"</name>
+    <desc>SkiSport ID: 338; длина по каталогу: 3.0 км; подготовка: Снегоход; рельеф: Средний; Elevation: 42. Информация: -</desc>
+    <trkseg>
+      <trkpt lat="56.18154300" lon="32.16556300">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18221400" lon="32.16493000">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18308400" lon="32.16419200">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18337300" lon="32.16394000">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18347300" lon="32.16384100">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18358200" lon="32.16380600">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18366900" lon="32.16384900">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18371700" lon="32.16406900">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18362700" lon="32.16433200">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18331100" lon="32.16464800">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18226400" lon="32.16547100">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18189400" lon="32.16585200">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18180400" lon="32.16610900">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18183700" lon="32.16645800">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18205200" lon="32.16723600">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18243900" lon="32.16902600">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18262700" lon="32.17032400">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18283300" lon="32.17122200">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18296400" lon="32.17176700">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18303800" lon="32.17192200">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18305900" lon="32.17212600">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18304100" lon="32.17226600">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18295500" lon="32.17225000">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18277900" lon="32.17166500">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18256100" lon="32.17090300">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18246500" lon="32.17039900">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18234000" lon="32.16951400">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18216400" lon="32.16848900">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18191100" lon="32.16732500">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18177300" lon="32.16661200">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18167200" lon="32.16642400">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18154000" lon="32.16651500">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18145700" lon="32.16664400">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18146900" lon="32.16685800">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18160600" lon="32.16699200">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18171600" lon="32.16710000">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18182100" lon="32.16742200">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18181200" lon="32.16797900">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18173700" lon="32.16871500">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18169600" lon="32.16975000">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18184200" lon="32.17051100">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18199400" lon="32.17143000">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18210900" lon="32.17173900">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18236600" lon="32.17209800">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18255800" lon="32.17256600">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18274900" lon="32.17318700">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18291700" lon="32.17369300">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18302400" lon="32.17404100">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18299100" lon="32.17443800">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18277600" lon="32.17491000">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18263600" lon="32.17502300">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18245100" lon="32.17501800">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18226900" lon="32.17485700">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18206000" lon="32.17439500">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18196100" lon="32.17393900">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18196100" lon="32.17343000">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18196400" lon="32.17252900">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18194600" lon="32.17177700">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18189600" lon="32.17119800">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18158800" lon="32.16975000">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18164200" lon="32.16866600">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18162400" lon="32.16786100">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18154000" lon="32.16740000">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18141200" lon="32.16726600">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18127200" lon="32.16737900">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18108600" lon="32.16760400">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18087700" lon="32.16780800">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18067100" lon="32.16791500">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18044800" lon="32.16843500">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18024500" lon="32.16909500">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18016400" lon="32.16922400">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18008900" lon="32.16931500">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18004400" lon="32.16922400">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18008300" lon="32.16903100">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18043000" lon="32.16818900">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18082100" lon="32.16688000">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18108100" lon="32.16620400">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18125700" lon="32.16588200">
+        <ele>0.00</ele>
+      </trkpt>
+      <trkpt lat="56.18151300" lon="32.16558700">
+        <ele>0.00</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

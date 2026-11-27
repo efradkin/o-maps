@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="O-Maps SkiSport collector" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Лыжная трасса г. Белебей</name>
+    <desc>SkiSport ID: 35; длина по каталогу: 2.2 км; подготовка: Снегоход; рельеф: Средний; Elevation: 34. Информация: Alltrails</desc>
+    <link href="https://www.alltrails.com/explore/map/new-track-12-6ae9485" />
+  </metadata>
+  <trk>
+    <name>Лыжная трасса г. Белебей</name>
+    <desc>SkiSport ID: 35; длина по каталогу: 2.2 км; подготовка: Снегоход; рельеф: Средний; Elevation: 34. Информация: Alltrails</desc>
+    <trkseg>
+      <trkpt lat="54.09630000" lon="54.09209000">
+        <ele>344.00</ele>
+      </trkpt>
+      <trkpt lat="54.09662000" lon="54.09051000">
+        <ele>351.00</ele>
+      </trkpt>
+      <trkpt lat="54.09675000" lon="54.08979000">
+        <ele>353.00</ele>
+      </trkpt>
+      <trkpt lat="54.09685000" lon="54.08895000">
+        <ele>360.00</ele>
+      </trkpt>
+      <trkpt lat="54.09694000" lon="54.08850000">
+        <ele>363.00</ele>
+      </trkpt>
+      <trkpt lat="54.09684000" lon="54.08832000">
+        <ele>363.00</ele>
+      </trkpt>
+      <trkpt lat="54.09674000" lon="54.08814000">
+        <ele>363.00</ele>
+      </trkpt>
+      <trkpt lat="54.09678000" lon="54.08789000">
+        <ele>364.00</ele>
+      </trkpt>
+      <trkpt lat="54.09701000" lon="54.08778000">
+        <ele>364.00</ele>
+      </trkpt>
+      <trkpt lat="54.09728000" lon="54.08781000">
+        <ele>365.00</ele>
+      </trkpt>
+      <trkpt lat="54.09752000" lon="54.08792000">
+        <ele>365.00</ele>
+      </trkpt>
+      <trkpt lat="54.09770000" lon="54.08816000">
+        <ele>363.00</ele>
+      </trkpt>
+      <trkpt lat="54.09776000" lon="54.08851000">
+        <ele>361.00</ele>
+      </trkpt>
+      <trkpt lat="54.09774000" lon="54.08892000">
+        <ele>360.00</ele>
+      </trkpt>
+      <trkpt lat="54.09773000" lon="54.08936000">
+        <ele>359.00</ele>
+      </trkpt>
+      <trkpt lat="54.09779000" lon="54.08981000">
+        <ele>358.00</ele>
+      </trkpt>
+      <trkpt lat="54.09793000" lon="54.09034000">
+        <ele>356.00</ele>
+      </trkpt>
+      <trkpt lat="54.09797000" lon="54.09076000">
+        <ele>355.00</ele>
+      </trkpt>
+      <trkpt lat="54.09796000" lon="54.09122000">
+        <ele>353.00</ele>
+      </trkpt>
+      <trkpt lat="54.09797000" lon="54.09181000">
+        <ele>352.00</ele>
+      </trkpt>
+      <trkpt lat="54.09809000" lon="54.09223000">
+        <ele>350.00</ele>
+      </trkpt>
+      <trkpt lat="54.09825000" lon="54.09264000">
+        <ele>350.00</ele>
+      </trkpt>
+      <trkpt lat="54.09840000" lon="54.09274000">
+        <ele>349.00</ele>
+      </trkpt>
+      <trkpt lat="54.09852000" lon="54.09266000">
+        <ele>349.00</ele>
+      </trkpt>
+      <trkpt lat="54.09862000" lon="54.09229000">
+        <ele>349.00</ele>
+      </trkpt>
+      <trkpt lat="54.09868000" lon="54.09196000">
+        <ele>351.00</ele>
+      </trkpt>
+      <trkpt lat="54.09879000" lon="54.09148000">
+        <ele>353.00</ele>
+      </trkpt>
+      <trkpt lat="54.09880000" lon="54.09123000">
+        <ele>353.00</ele>
+      </trkpt>
+      <trkpt lat="54.09864000" lon="54.09099000">
+        <ele>354.00</ele>
+      </trkpt>
+      <trkpt lat="54.09847000" lon="54.09075000">
+        <ele>355.00</ele>
+      </trkpt>
+      <trkpt lat="54.09834000" lon="54.09051000">
+        <ele>356.00</ele>
+      </trkpt>
+      <trkpt lat="54.09820000" lon="54.09024000">
+        <ele>358.00</ele>
+      </trkpt>
+      <trkpt lat="54.09812000" lon="54.09006000">
+        <ele>358.00</ele>
+      </trkpt>
+      <trkpt lat="54.09814000" lon="54.08959000">
+        <ele>360.00</ele>
+      </trkpt>
+      <trkpt lat="54.09815000" lon="54.08850000">
+        <ele>361.00</ele>
+      </trkpt>
+      <trkpt lat="54.09820000" lon="54.08822000">
+        <ele>361.00</ele>
+      </trkpt>
+      <trkpt lat="54.09829000" lon="54.08785000">
+        <ele>362.00</ele>
+      </trkpt>
+      <trkpt lat="54.09833000" lon="54.08746000">
+        <ele>363.00</ele>
+      </trkpt>
+      <trkpt lat="54.09836000" lon="54.08702000">
+        <ele>364.00</ele>
+      </trkpt>
+      <trkpt lat="54.09838000" lon="54.08676000">
+        <ele>365.00</ele>
+      </trkpt>
+      <trkpt lat="54.09848000" lon="54.08643000">
+        <ele>364.00</ele>
+      </trkpt>
+      <trkpt lat="54.09866000" lon="54.08621000">
+        <ele>362.00</ele>
+      </trkpt>
+      <trkpt lat="54.09885000" lon="54.08622000">
+        <ele>359.00</ele>
+      </trkpt>
+      <trkpt lat="54.09914000" lon="54.08643000">
+        <ele>357.00</ele>
+      </trkpt>
+      <trkpt lat="54.09935000" lon="54.08654000">
+        <ele>357.00</ele>
+      </trkpt>
+      <trkpt lat="54.09960000" lon="54.08682000">
+        <ele>357.00</ele>
+      </trkpt>
+      <trkpt lat="54.09966000" lon="54.08708000">
+        <ele>357.00</ele>
+      </trkpt>
+      <trkpt lat="54.09878000" lon="54.09421000">
+        <ele>349.00</ele>
+      </trkpt>
+      <trkpt lat="54.09866000" lon="54.09436000">
+        <ele>348.00</ele>
+      </trkpt>
+      <trkpt lat="54.09829000" lon="54.09431000">
+        <ele>348.00</ele>
+      </trkpt>
+      <trkpt lat="54.09794000" lon="54.09423000">
+        <ele>349.00</ele>
+      </trkpt>
+      <trkpt lat="54.09759000" lon="54.09426000">
+        <ele>348.00</ele>
+      </trkpt>
+      <trkpt lat="54.09726000" lon="54.09433000">
+        <ele>345.00</ele>
+      </trkpt>
+      <trkpt lat="54.09704000" lon="54.09434000">
+        <ele>343.00</ele>
+      </trkpt>
+      <trkpt lat="54.09690000" lon="54.09411000">
+        <ele>342.00</ele>
+      </trkpt>
+      <trkpt lat="54.09676000" lon="54.09360000">
+        <ele>344.00</ele>
+      </trkpt>
+      <trkpt lat="54.09648000" lon="54.09274000">
+        <ele>344.00</ele>
+      </trkpt>
+      <trkpt lat="54.09637000" lon="54.09231000">
+        <ele>344.00</ele>
+      </trkpt>
+      <trkpt lat="54.09630000" lon="54.09209000">
+        <ele>344.00</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
