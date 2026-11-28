@@ -392,7 +392,7 @@ const EVENT_TYPES = ['ALL','ORIENT','ROGAINE','VELO','OTHER'];
 
 const color = {
     RUN: 'red',
-    SKI: 'blue',
+    SKI: '#1797ff',
     VELO: 'green',
     WALK: 'brown',
     WATER: 'darkblue',

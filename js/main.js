@@ -269,10 +269,21 @@ function loadTrack(t, path) {
     };
 
     try {
+        const skiKindColors = {
+            SKATE_ROUTE: '#0004ff',
+            CLASSIC_ROUTE: '#1797ff',
+            FICKLE_ROUTE: '#6244ad',
+            FURROW: '#2e9d83',
+            WALKWAY: '#f3c27b'
+        };
+        const trackColor = (typeof SKI_TRACKS_PAGE !== 'undefined' && SKI_TRACKS_PAGE && t.ski_kind)
+            ? (skiKindColors[t.ski_kind] || (t.type ? color[t.type[0]] : 'brown'))
+            : (t.type ? color[t.type[0]] : 'brown');
+
         const gpxLayer = new L.GPX(path, {
             async: true,
             display_wpt: false,
-            color: (t.type ? color[t.type[0]] : 'brown'),
+            color: trackColor,
             pane: (typeof SKI_TRACKS_PAGE !== 'undefined' && SKI_TRACKS_PAGE) ? 'skiTracksPane' : 'overlayPane',
             opacity: .7,
             weight: 3
