@@ -143,14 +143,13 @@
     <script>
         const centerX = 60.1572262;
         const centerY = 30.5306625;
-        const CHARTS_PAGE = './charts-spb.html';
+        const CHARTS_PAGE = './charts-all.html';
         const SHEET_PAGE = './sheet-tracks.html?track-type=SKI';
         const REGION_KEY = 'ski-tracks';
         const OOPT_MAX_ZOOM = 12;
 
         let loadImagesRequired = true;
         let loadTracksRequired = true;
-        let funsRequired = true;
 
         let oMaps = [
             ...rogaineRfarMaps,
@@ -161,16 +160,6 @@
 
         const oEvents = [
             ...skiEvents2026,
-            ...events2007,
-            ...events2018,
-            ...events2021,
-            ...events2025,
-            ...events2027,
-            ...events2026,
-            ...commonEvents,
-            ...iofEvents,
-            ...fsorEvents,
-            ...irfEvents,
         ];
 
         // Массив с адресами картинок

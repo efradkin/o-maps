@@ -86,6 +86,7 @@ if (mapElement) {
     const layers = [runGroup, walkGroup, skiGroup, veloGroup, waterGroup];
     if (HAS_CALENDAR_PARAM) {
         layers.push(calendarGroup);
+        layers.push(calendarPastGroup);
     }
     if (HAS_POI_PARAM) {
         layers.push(poiLayer);
@@ -100,7 +101,10 @@ function buildOverlayMapsContents() {
             "<span class='layer-separator'>Лыжный OSM</span>": openSnowMapLayer,
             "<span class='layer-separator'>Strava Heatmap</span>": stravaWinterLayer,
             "<span class='layer-separator'>Карты</span>": rogaineGroup,
+            "<span class='layer-separator' id='calendar-group-check'>Календарь</span>": calendarGroup,
+            "<span class='layer-shifted' id='calendar-past-group-check'>прошлые</span>": calendarPastGroup,
             "<span class='layer-separator'>ООПТ</span>": ooptLayer,
+            "<span class='layer-separator'>POI</span>": skiPoiLayer
         };
     }
     return {

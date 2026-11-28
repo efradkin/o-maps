@@ -4029,7 +4029,7 @@ let mskEvents2026 = [
         coord: [55.826338, 37.487866],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/54735",
-        endReg: "2026-11-28 21:00",
+        endReg: "2026-11-28 19:00",
         bulletin: "https://docs.google.com/spreadsheets/d/1HzArMRm3uCq4l2fWWhfXLFMvBVqR_e1O_Gy2VXDuMls",
         owner: "CLEVER_MSK",
         map: '20230130_140'
