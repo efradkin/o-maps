@@ -273,8 +273,8 @@ function loadTrack(t, path) {
             SKATE_ROUTE: '#0004ff',
             CLASSIC_ROUTE: '#1797ff',
             FICKLE_ROUTE: '#6244ad',
-            FURROW: '#2e9d83',
-            WALKWAY: '#f3c27b'
+            FURROW: '#2e8c9d',
+            WALKWAY: '#205050'
         };
         const trackColor = (typeof SKI_TRACKS_PAGE !== 'undefined' && SKI_TRACKS_PAGE && t.ski_kind)
             ? (skiKindColors[t.ski_kind] || (t.type ? color[t.type[0]] : 'brown'))
